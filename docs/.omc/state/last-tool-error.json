@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"python3 generate_pitch_docx.py && echo \\\"done\\\"\",\"description\":\"Generate client pitch Word doc\"}",
+  "error": "Exit code 1\nTraceback (most recent call last):\n  File \"/Users/damirkasimov/Desktop/flyradar/docs/generate_pitch_docx.py\", line 354, in <module>\n    add_body(doc,\n    ~~~~~~~~^^^^^\n        'Никто не совместил три вещи одновременно: работа без интернета + живой географический контент + '\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        'геймификация путешествий. Эта ниша пустая. И она огромная.',\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^...",
+  "timestamp": "2026-05-18T11:11:30.589Z",
+  "retry_count": 3
+}

@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"which pandoc && pandoc --version | head -1\",\"description\":\"Check if pandoc is installed\"}",
+  "error": "Exit code 1\npandoc not found",
+  "timestamp": "2026-05-15T14:52:29.348Z",
+  "retry_count": 1
+}
