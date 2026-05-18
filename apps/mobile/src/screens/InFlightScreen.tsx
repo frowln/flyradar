@@ -13,6 +13,7 @@ import { getNextPOI } from '../core/flight/poiScheduler';
 import type { ScheduledPOI } from '../core/flight/poiScheduler';
 import type { POI } from '@skyatlas/shared';
 import type { RootStackParamList } from '../navigation/types';
+import { isPro } from '../core/monetization/revenueCat';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
 type Route = RouteProp<RootStackParamList, 'InFlight'>;
@@ -59,18 +60,35 @@ export default function InFlightScreen() {
     return () => { if (tickRef.current) clearInterval(tickRef.current); };
   }, [activePackage, takeoffAt]);
 
-  const handleDismissPOI = () => {
+  const handleDismissPOI = async () => {
     if (activePOI) {
       useFlightStore.getState().markPOISeen(activePOI.poi.id);
       activePOIRef.current = null;
       setActivePOI(null);
+      // Free tier: max 5 POIs per flight
+      const { seenPOIs: updatedSeen } = useFlightStore.getState();
+      if (updatedSeen.length >= 5) {
+        const pro = await isPro();
+        if (!pro) {
+          nav.navigate('Paywall');
+        }
+      }
     }
   };
 
-  const handleReadMore = (poi: POI) => {
+  const handleReadMore = async (poi: POI) => {
     useFlightStore.getState().markPOISeen(poi.id);
     activePOIRef.current = null;
     setActivePOI(null);
+    // Free tier: max 5 POIs per flight
+    const { seenPOIs: updatedSeen } = useFlightStore.getState();
+    if (updatedSeen.length >= 5) {
+      const pro = await isPro();
+      if (!pro) {
+        nav.navigate('Paywall');
+        return;
+      }
+    }
     nav.navigate('POIDetail', { poiId: poi.id, flightId });
   };
 
