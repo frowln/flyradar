@@ -9,13 +9,16 @@ import {
   Alert,
   KeyboardAvoidingView,
   Platform,
-  ScrollView
+  ScrollView,
+  Modal
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { downloadPackage } from '../core/offline/packageDownloader';
+import BoardingPassScanner from '../components/BoardingPassScanner';
+import type { BoardingPassData } from '../components/BoardingPassScanner';
 import type { RootStackParamList } from '../navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'AddFlight'>;
@@ -29,8 +32,15 @@ export default function AddFlightScreen() {
   const [flightNumber, setFlightNumber] = useState('');
   const [date, setDate] = useState(todayString());
   const [loading, setLoading] = useState(false);
+  const [showScanner, setShowScanner] = useState(false);
 
   const isValid = flightNumber.trim().length >= 2 && /^\d{4}-\d{2}-\d{2}$/.test(date);
+
+  const handleScan = (data: BoardingPassData) => {
+    setFlightNumber(data.flightNumber);
+    setDate(data.date);
+    setShowScanner(false);
+  };
 
   const handleSubmit = async () => {
     if (!isValid || loading) return;
@@ -90,6 +100,14 @@ export default function AddFlightScreen() {
         </Text>
 
         <Pressable
+          style={[styles.scanButton]}
+          onPress={() => setShowScanner(true)}
+          disabled={loading}
+        >
+          <Text style={styles.scanButtonText}>📷 Scan Boarding Pass</Text>
+        </Pressable>
+
+        <Pressable
           style={[styles.button, (!isValid || loading) && styles.buttonDisabled]}
           onPress={handleSubmit}
           disabled={!isValid || loading}
@@ -101,6 +119,17 @@ export default function AddFlightScreen() {
           )}
         </Pressable>
       </ScrollView>
+
+      <Modal
+        visible={showScanner}
+        animationType="slide"
+        onRequestClose={() => setShowScanner(false)}
+      >
+        <BoardingPassScanner
+          onScan={handleScan}
+          onClose={() => setShowScanner(false)}
+        />
+      </Modal>
     </KeyboardAvoidingView>
   );
 }
@@ -153,5 +182,19 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontSize: 16,
     fontWeight: '700'
+  },
+  scanButton: {
+    backgroundColor: colors.surface,
+    padding: 14,
+    borderRadius: 12,
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: colors.border,
+    marginTop: 8
+  },
+  scanButtonText: {
+    color: colors.primary,
+    fontSize: 15,
+    fontWeight: '600'
   }
 });
