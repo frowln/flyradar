@@ -6,8 +6,12 @@ import type { RouteProp } from '@react-navigation/native';
 import { colors } from '../theme/colors';
 import FlightMap from '../components/FlightMap';
 import FlightStats from '../components/FlightStats';
+import POICard from '../components/POICard';
 import { useFlightStore } from '../core/flight/flightStore';
 import { computePosition } from '../core/flight/positionEngine';
+import { getNextPOI } from '../core/flight/poiScheduler';
+import type { ScheduledPOI } from '../core/flight/poiScheduler';
+import type { POI } from '@skyatlas/shared';
 import type { RootStackParamList } from '../navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
@@ -22,12 +26,14 @@ export default function InFlightScreen() {
 
   const { activePackage, takeoffAt, currentPosition, updatePosition, clearFlight } = useFlightStore();
   const [followPlane, setFollowPlane] = useState(true);
+  const [activePOI, setActivePOI] = useState<ScheduledPOI | null>(null);
+  const activePOIRef = useRef<ScheduledPOI | null>(null);
   const tickRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     if (!activePackage || !takeoffAt) return;
 
-    const tick = () => {
+    const tick = async () => {
       const pos = computePosition(activePackage.route, takeoffAt);
       updatePosition(pos);
 
@@ -36,6 +42,15 @@ export default function InFlightScreen() {
       if (pos.elapsedSeconds >= lastPoint.elapsedSeconds) {
         clearInterval(tickRef.current!);
         nav.replace('FlightSummary', { flightId });
+        return;
+      }
+
+      // Check for nearby POIs
+      const seenIds = new Set(useFlightStore.getState().seenPOIs.map((s) => s.poiId));
+      const next = await getNextPOI(flightId, pos, seenIds);
+      if (next && activePOIRef.current?.poi.id !== next.poi.id) {
+        activePOIRef.current = next;
+        setActivePOI(next);
       }
     };
 
@@ -43,6 +58,21 @@ export default function InFlightScreen() {
     tickRef.current = setInterval(tick, TICK_MS);
     return () => { if (tickRef.current) clearInterval(tickRef.current); };
   }, [activePackage, takeoffAt]);
+
+  const handleDismissPOI = () => {
+    if (activePOI) {
+      useFlightStore.getState().markPOISeen(activePOI.poi.id);
+      activePOIRef.current = null;
+      setActivePOI(null);
+    }
+  };
+
+  const handleReadMore = (poi: POI) => {
+    useFlightStore.getState().markPOISeen(poi.id);
+    activePOIRef.current = null;
+    setActivePOI(null);
+    nav.navigate('POIDetail', { poiId: poi.id, flightId });
+  };
 
   if (!activePackage || !takeoffAt || !currentPosition) {
     return (
@@ -86,6 +116,16 @@ export default function InFlightScreen() {
           </Pressable>
         </View>
       </SafeAreaView>
+
+      {/* POI proximity card */}
+      {activePOI && (
+        <POICard
+          poi={activePOI.poi}
+          distanceKm={activePOI.distanceKm}
+          onReadMore={handleReadMore}
+          onDismiss={handleDismissPOI}
+        />
+      )}
 
       {/* Bottom stats bar */}
       <View style={styles.bottomBar}>
