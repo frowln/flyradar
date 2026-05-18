@@ -94,6 +94,17 @@ export default function HomeScreen() {
             tintColor={colors.primary}
           />
         }
+        ListHeaderComponent={
+          <View style={styles.header}>
+            <Text style={typography.h1}>My Flights</Text>
+            <Pressable
+              onPress={() => nav.navigate('Collection')}
+              style={styles.collectionButton}
+            >
+              <Text style={styles.collectionIcon}>🏆</Text>
+            </Pressable>
+          </View>
+        }
         ListEmptyComponent={
           <View style={styles.emptyState}>
             <Text style={styles.emptyIcon}>✈️</Text>
@@ -147,6 +158,22 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
   center: { flex: 1, backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center' },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingTop: 16,
+    marginBottom: 24
+  },
+  collectionButton: {
+    backgroundColor: colors.surface,
+    padding: 8,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: colors.border
+  },
+  collectionIcon: { fontSize: 20 },
   list: { padding: 16, gap: 12 },
   emptyList: { flex: 1 },
   emptyState: {
