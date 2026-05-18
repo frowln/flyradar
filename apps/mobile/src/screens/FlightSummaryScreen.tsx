@@ -14,6 +14,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { loadPackage } from '../core/offline/poiDatabase';
+import { analytics } from '../core/analytics';
 import { useFlightStore } from '../core/flight/flightStore';
 import { haversine } from '../core/geo/greatCircle';
 import type { RootStackParamList } from '../navigation/types';
@@ -50,6 +51,7 @@ export default function FlightSummaryScreen() {
 
   useEffect(() => {
     loadPackage(flightId).then(setPkg).finally(() => setLoading(false));
+    analytics.track('flight_completed', { flightId, poisDiscovered: seenPOIs.length });
     // Don't clear flight state immediately — user might go back
   }, [flightId]);
 

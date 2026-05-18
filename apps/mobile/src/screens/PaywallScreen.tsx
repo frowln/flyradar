@@ -12,6 +12,7 @@ import { useNavigation } from '@react-navigation/native';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { getOfferings, purchasePackage, restorePurchases } from '../core/monetization/revenueCat';
+import { analytics } from '../core/analytics';
 
 const FEATURES = [
   { icon: '🗺️', text: 'Unlimited POI discoveries per flight' },
@@ -30,6 +31,7 @@ export default function PaywallScreen() {
   const [selectedPkg, setSelectedPkg] = useState<any>(null);
 
   useEffect(() => {
+    analytics.track('paywall_shown');
     getOfferings().then((pkgs) => {
       setPackages(pkgs);
       if (pkgs.length > 0) setSelectedPkg(pkgs[0]);

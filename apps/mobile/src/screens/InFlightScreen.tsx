@@ -14,6 +14,7 @@ import type { ScheduledPOI } from '../core/flight/poiScheduler';
 import type { POI } from '@skyatlas/shared';
 import type { RootStackParamList } from '../navigation/types';
 import { isPro } from '../core/monetization/revenueCat';
+import { analytics } from '../core/analytics';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
 type Route = RouteProp<RootStackParamList, 'InFlight'>;
@@ -55,6 +56,7 @@ export default function InFlightScreen() {
       }
     };
 
+    analytics.track('flight_started', { flightId });
     tick(); // immediate first tick
     tickRef.current = setInterval(tick, TICK_MS);
     return () => { if (tickRef.current) clearInterval(tickRef.current); };
@@ -77,6 +79,7 @@ export default function InFlightScreen() {
   };
 
   const handleReadMore = async (poi: POI) => {
+    analytics.track('poi_viewed', { poiId: poi.id, name: poi.name });
     useFlightStore.getState().markPOISeen(poi.id);
     activePOIRef.current = null;
     setActivePOI(null);
