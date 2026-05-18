@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Airport {
+  id      Int     @id @default(autoincrement())
+  iata    String  @unique
+  icao    String? @unique
+  name    String
+  city    String
+  country String
+  lat     Float
+  lon     Float
+  tz      String
+}
+
+model POI {
+  id         String  @id @default(cuid())
+  name       String
+  category   String
+  lat        Float
+  lon        Float
+  elevation  Int?
+  population Int?
+  wikiTitle  String?
+  summary    String  @db.Text
+  facts      Json
+  photos     Json
+
+  @@index([lat, lon])
+}
+
+model FlightCache {
+  flightNumber String
+  date         String
+  payload      Json
+  cachedAt     DateTime @default(now())
+
+  @@id([flightNumber, date])
+}

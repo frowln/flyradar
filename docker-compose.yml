@@ -5,10 +5,10 @@ services:
       POSTGRES_USER: skyatlas
       POSTGRES_PASSWORD: dev
       POSTGRES_DB: skyatlas
-    ports: ["5432:5432"]
+    ports: ["5555:5432"]
     volumes: ["pgdata:/var/lib/postgresql/data"]
   redis:
     image: redis:7-alpine
-    ports: ["6379:6379"]
+    ports: ["6380:6379"]
 volumes:
   pgdata:
