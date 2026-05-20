@@ -1,10 +1,16 @@
 {
   "name": "skyatlas",
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "mobile": "npm --workspace apps/mobile run start",
     "backend": "npm --workspace apps/backend run dev",
-    "test": "npm run test --workspaces --if-present"
+    "test": "npm test --workspaces --if-present"
+  },
+  "dependencies": {
+    "react": "^19.1.0"
   }
 }

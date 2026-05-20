@@ -1,0 +1,381 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779201490603,
+  "projectRoot": "/Users/damirkasimov/Desktop/flyradar",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "cd apps/mobile && npx tsc --noEmit 2>&1 | tail -20; echo \"---BACKEND---\"; cd ../backend && npx tsc --noEmit 2>&1 | tail -20",
+    "testCommand": "cat /Users/damirkasimov/Desktop/flyradar/package.json | python3 -c \"\nimport sys, json\nd = json.load(sys.stdin)\nscripts = d.get('scripts', {})\n# Fix root test script — run per-workspace instead of vitest at root\nscripts['test'] = 'npm test --workspaces --if-present'\nd['scripts'] = scripts\nprint(json.dumps(d, indent=2))\n\" > /tmp/pkg.json && mv /tmp/pkg.json /Users/damirkasimov/Desktop/flyradar/package.json\ncd /Users/damirkasimov/Desktop/flyradar && npm test 2>&1 | tail -8",
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {
+      "mobile": "npm --workspace apps/mobile run start",
+      "backend": "npm --workspace apps/backend run dev",
+      "test": "npm run test --workspaces --if-present"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": true,
+    "workspaces": [
+      "apps/*",
+      "packages/*"
+    ],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "apps": {
+      "path": "apps",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1779201490592,
+      "keyFiles": []
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 6,
+      "lastAccessed": 1779201490592,
+      "keyFiles": [
+        "PRODUCT_PLAN.md",
+        "SkyAtlas_Client_Pitch.docx",
+        "SkyAtlas_Client_Pitch.md",
+        "SkyAtlas_Product_Plan.docx",
+        "gen_docx.py"
+      ]
+    },
+    "packages": {
+      "path": "packages",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1779201490598,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "apps/mobile/src/screens/InFlightScreen.tsx",
+      "accessCount": 46,
+      "lastAccessed": 1779281533911,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/SettingsScreen.tsx",
+      "accessCount": 39,
+      "lastAccessed": 1779281897957,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/HomeScreen.tsx",
+      "accessCount": 36,
+      "lastAccessed": 1779281837228,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/ProfileScreen.tsx",
+      "accessCount": 32,
+      "lastAccessed": 1779281715039,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/gamification/collections.ts",
+      "accessCount": 29,
+      "lastAccessed": 1779281582543,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/App.tsx",
+      "accessCount": 26,
+      "lastAccessed": 1779281676063,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/navigation/RootNavigator.tsx",
+      "accessCount": 24,
+      "lastAccessed": 1779282194797,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/FlightDetailScreen.tsx",
+      "accessCount": 21,
+      "lastAccessed": 1779277573641,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/CollectionScreen.tsx",
+      "accessCount": 20,
+      "lastAccessed": 1779266387035,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/i18n/locales/ru.ts",
+      "accessCount": 20,
+      "lastAccessed": 1779278261086,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/i18n/locales/de.ts",
+      "accessCount": 20,
+      "lastAccessed": 1779278263564,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/i18n/locales/fr.ts",
+      "accessCount": 20,
+      "lastAccessed": 1779278268867,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/i18n/locales/es.ts",
+      "accessCount": 20,
+      "lastAccessed": 1779278271091,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/i18n/locales/ja.ts",
+      "accessCount": 20,
+      "lastAccessed": 1779278273675,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/i18n/locales/en.ts",
+      "accessCount": 19,
+      "lastAccessed": 1779278258120,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/components/POICard.tsx",
+      "accessCount": 16,
+      "lastAccessed": 1779266135091,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/AddFlightScreen.tsx",
+      "accessCount": 16,
+      "lastAccessed": 1779280550982,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/WorldMapScreen.tsx",
+      "accessCount": 15,
+      "lastAccessed": 1779266266229,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/navigation/types.ts",
+      "accessCount": 13,
+      "lastAccessed": 1779277625939,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/PaywallScreen.tsx",
+      "accessCount": 13,
+      "lastAccessed": 1779278701829,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/theme/colors.ts",
+      "accessCount": 13,
+      "lastAccessed": 1779280455016,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/SimulatorScreen.tsx",
+      "accessCount": 11,
+      "lastAccessed": 1779280452021,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/gamification/achievements.ts",
+      "accessCount": 10,
+      "lastAccessed": 1779282196191,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/BrowseScreen.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1779265752956,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/flight/flightStore.ts",
+      "accessCount": 7,
+      "lastAccessed": 1779282195159,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/components/FlightMap.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1779267679069,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/i18n/index.ts",
+      "accessCount": 5,
+      "lastAccessed": 1779278070830,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/theme/typography.ts",
+      "accessCount": 5,
+      "lastAccessed": 1779280455498,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/offline/packageDownloader.ts",
+      "accessCount": 5,
+      "lastAccessed": 1779280464765,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/__tests__/gamification/achievements.test.ts",
+      "accessCount": 5,
+      "lastAccessed": 1779281589101,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/ios/Podfile.properties.json",
+      "accessCount": 4,
+      "lastAccessed": 1779233337042,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/WrappedScreen.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1779265606704,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/app.json",
+      "accessCount": 4,
+      "lastAccessed": 1779266158174,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/ux/haptics.ts",
+      "accessCount": 4,
+      "lastAccessed": 1779276444429,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/navigation/TabNavigator.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1779280450503,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/services/flightLookup.ts",
+      "accessCount": 4,
+      "lastAccessed": 1779280509587,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/ios/Podfile",
+      "accessCount": 3,
+      "lastAccessed": 1779235217456,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/screens/ReferralScreen.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1779264942592,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/gamification/levels.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779280451125,
+      "type": "file"
+    },
+    {
+      "path": "docs/PRODUCT_PLAN.md",
+      "accessCount": 2,
+      "lastAccessed": 1779237424525,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/flight/positionEngine.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779238319343,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/offline/poiDatabase.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779280464939,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/api/weather.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779280465424,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/api/openSky.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779280465576,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/flight/liveTracker.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779280469447,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/__tests__/gamification/levels.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779237803694,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/src/core/flight/flightExtras.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779237977958,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/__tests__/flight/flightExtras.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779237980887,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/assets/icon-source.svg",
+      "accessCount": 1,
+      "lastAccessed": 1779238117689,
+      "type": "file"
+    },
+    {
+      "path": "apps/mobile/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1779238611407,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

@@ -288,7 +288,8 @@ export default function FlightDetailScreen() {
             </View>
           </View>
           <View style={styles.readyBadge}>
-            <Text style={styles.readyText}>{t('flightDetail.readyForOffline')}</Text>
+            <Text style={styles.readyIcon}>⬇</Text>
+            <Text style={styles.readyText}>{t('flightDetail.offlineReady')}</Text>
           </View>
         </View>
 
@@ -635,15 +636,29 @@ const styles = StyleSheet.create({
     backgroundColor: colors.border
   },
   readyBadge: {
-    backgroundColor: `${colors.success}22`,
-    borderRadius: 8,
-    padding: 8,
-    alignItems: 'center'
+    backgroundColor: colors.success,
+    borderRadius: 12,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    shadowColor: colors.success,
+    shadowOpacity: 0.35,
+    shadowRadius: 8,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 6
+  },
+  readyIcon: {
+    fontSize: 18,
+    color: '#FFFFFF'
   },
   readyText: {
-    fontFamily: fonts.bodySemi,
-    color: colors.success,
-    fontSize: 13
+    fontFamily: fonts.bodyBold,
+    color: '#FFFFFF',
+    fontSize: 16,
+    letterSpacing: 0.2
   },
 
   // HIGHLIGHTS horizontal scroll

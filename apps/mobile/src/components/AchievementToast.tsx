@@ -10,6 +10,7 @@ interface AchUnlock {
   name: string;
   icon: string;
   description: string;
+  isMilestone?: boolean;
 }
 
 interface AchToastState {
@@ -38,7 +39,9 @@ export default function AchievementToast() {
   useEffect(() => {
     if (current) {
       Animated.spring(scale, { toValue: 1, useNativeDriver: true, tension: 80, friction: 12 }).start();
-      confettiRef.current?.start();
+      if (current.isMilestone) {
+        confettiRef.current?.start();
+      }
     } else {
       Animated.timing(scale, { toValue: 0, duration: 200, useNativeDriver: true }).start();
     }
@@ -48,16 +51,18 @@ export default function AchievementToast() {
 
   return (
     <View pointerEvents="none" style={StyleSheet.absoluteFill}>
-      <ConfettiCannon
-        ref={confettiRef}
-        count={120}
-        origin={{ x: W / 2, y: 0 }}
-        autoStart={true}
-        fadeOut
-        explosionSpeed={400}
-        fallSpeed={2500}
-        colors={[colors.primary, colors.accent, '#FF6B6B', '#9B51E0', '#34C759']}
-      />
+      {current.isMilestone && (
+        <ConfettiCannon
+          ref={confettiRef}
+          count={120}
+          origin={{ x: W / 2, y: 0 }}
+          autoStart={true}
+          fadeOut
+          explosionSpeed={400}
+          fallSpeed={2500}
+          colors={[colors.primary, colors.accent, '#FF6B6B', '#9B51E0', '#34C759']}
+        />
+      )}
       <Animated.View style={[styles.toast, { transform: [{ scale }] }]}>
         <Text style={styles.unlockedLabel}>ACHIEVEMENT UNLOCKED</Text>
         <Text style={styles.icon}>{current.icon}</Text>
