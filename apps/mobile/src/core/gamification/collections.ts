@@ -6,7 +6,8 @@ const storage = createMMKV({ id: 'skyatlas-collections' });
 const KEYS = {
   LIFETIME_STATS: 'lifetime_stats',
   EARNED_ACHIEVEMENTS: 'earned_achievements',
-  COUNTRIES: 'countries_visited'
+  COUNTRIES: 'countries_visited',
+  KIDS_MODE: 'kids_mode'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -74,6 +75,14 @@ export const collectionsStore = {
       longestFlightHours: Math.max(stats.longestFlightHours, opts.durationHours),
       nightFlights: opts.isNight ? stats.nightFlights + 1 : stats.nightFlights
     });
+  },
+
+  isKidsMode(): boolean {
+    return storage.getBoolean(KEYS.KIDS_MODE) ?? false;
+  },
+
+  setKidsMode(enabled: boolean): void {
+    storage.set(KEYS.KIDS_MODE, enabled);
   },
 
   reset(): void {

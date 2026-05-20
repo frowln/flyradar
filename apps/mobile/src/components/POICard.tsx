@@ -21,9 +21,10 @@ interface Props {
   distanceKm: number;
   onReadMore: (poi: POI) => void;
   onDismiss: () => void;
+  kidsMode?: boolean;
 }
 
-export default function POICard({ poi, distanceKm, onReadMore, onDismiss }: Props) {
+export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMode = false }: Props) {
   const slideAnim = useRef(new Animated.Value(120)).current;
 
   useEffect(() => {
@@ -37,6 +38,44 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss }: Prop
 
   const icon = CATEGORY_ICONS[poi.category] ?? '📍';
   const photo = poi.photos?.[0];
+
+  if (kidsMode) {
+    return (
+      <Animated.View style={[styles.card, { transform: [{ translateY: slideAnim }] }]}>
+        {photo ? (
+          <Image source={{ uri: photo }} style={styles.photo} resizeMode="cover" />
+        ) : (
+          <View style={[styles.photo, styles.photoPlaceholder]}>
+            <Text style={styles.photoIcon}>{icon}</Text>
+          </View>
+        )}
+
+        <View style={styles.content}>
+          <Text style={styles.kidsHeader}>Look down! 👇</Text>
+          <View style={styles.header}>
+            <View style={styles.titleRow}>
+              <Text style={styles.kidsIcon}>{icon}</Text>
+              <View style={styles.titleBlock}>
+                <Text style={styles.kidsName} numberOfLines={1}>{poi.name}</Text>
+                <Text style={styles.distance}>{distanceKm} km away</Text>
+              </View>
+            </View>
+            <Pressable onPress={onDismiss} style={styles.dismissButton} hitSlop={8}>
+              <Text style={styles.dismissText}>✕</Text>
+            </Pressable>
+          </View>
+
+          {poi.facts.length > 0 && (
+            <Text style={styles.kidsFact}>💡 {poi.facts[0]}</Text>
+          )}
+
+          <Pressable style={styles.readMoreButton} onPress={() => onReadMore(poi)}>
+            <Text style={styles.readMoreText}>Tell me more! 🤓</Text>
+          </Pressable>
+        </View>
+      </Animated.View>
+    );
+  }
 
   return (
     <Animated.View style={[styles.card, { transform: [{ translateY: slideAnim }] }]}>
@@ -122,5 +161,9 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
     marginTop: 4
   },
-  readMoreText: { color: colors.text, fontSize: 13, fontWeight: '600' }
+  readMoreText: { color: colors.text, fontSize: 13, fontWeight: '600' },
+  kidsHeader: { color: colors.primary, fontSize: 18, fontWeight: '800', textAlign: 'center' },
+  kidsIcon: { fontSize: 40 },
+  kidsName: { color: colors.text, fontSize: 22, fontWeight: '700' },
+  kidsFact: { color: colors.accent, fontSize: 16, fontStyle: 'italic' }
 });

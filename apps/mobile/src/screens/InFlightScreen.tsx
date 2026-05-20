@@ -16,6 +16,7 @@ import type { POI } from '@skyatlas/shared';
 import type { RootStackParamList } from '../navigation/types';
 import { isPro } from '../core/monetization/revenueCat';
 import { analytics } from '../core/analytics';
+import { collectionsStore } from '../core/gamification/collections';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
 type Route = RouteProp<RootStackParamList, 'InFlight'>;
@@ -30,6 +31,7 @@ export default function InFlightScreen() {
   const { activePackage, takeoffAt, currentPosition, updatePosition, clearFlight, mode, setMode } = useFlightStore();
   const [followPlane, setFollowPlane] = useState(true);
   const [activePOI, setActivePOI] = useState<ScheduledPOI | null>(null);
+  const [kidsModeOn] = useState(() => collectionsStore.isKidsMode());
   const activePOIRef = useRef<ScheduledPOI | null>(null);
   const tickRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -163,6 +165,7 @@ export default function InFlightScreen() {
           distanceKm={activePOI.distanceKm}
           onReadMore={handleReadMore}
           onDismiss={handleDismissPOI}
+          kidsMode={kidsModeOn}
         />
       )}
 

@@ -15,6 +15,7 @@ import { typography } from '../theme/typography';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
+import { collectionsStore } from '../core/gamification/collections';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Home'>;
 
@@ -44,6 +45,7 @@ export default function HomeScreen() {
   const [flights, setFlights] = useState<FlightRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
+  const [kidsOn, setKidsOn] = useState(() => collectionsStore.isKidsMode());
 
   const loadFlights = useCallback(async () => {
     await initDb();
@@ -97,12 +99,23 @@ export default function HomeScreen() {
         ListHeaderComponent={
           <View style={styles.header}>
             <Text style={typography.h1}>My Flights</Text>
-            <Pressable
-              onPress={() => nav.navigate('Collection')}
-              style={styles.collectionButton}
-            >
-              <Text style={styles.collectionIcon}>🏆</Text>
-            </Pressable>
+            <View style={styles.headerButtons}>
+              <Pressable
+                onPress={() => {
+                  collectionsStore.setKidsMode(!kidsOn);
+                  setKidsOn(!kidsOn);
+                }}
+                style={styles.collectionButton}
+              >
+                <Text style={styles.collectionIcon}>{kidsOn ? '🧒' : '👨'}</Text>
+              </Pressable>
+              <Pressable
+                onPress={() => nav.navigate('Collection')}
+                style={styles.collectionButton}
+              >
+                <Text style={styles.collectionIcon}>🏆</Text>
+              </Pressable>
+            </View>
           </View>
         }
         ListEmptyComponent={
@@ -165,6 +178,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingTop: 16,
     marginBottom: 24
+  },
+  headerButtons: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8
   },
   collectionButton: {
     backgroundColor: colors.surface,
