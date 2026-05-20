@@ -1,0 +1,571 @@
+import { useRef, useState } from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Pressable,
+  ScrollView,
+  Share,
+  Dimensions,
+  NativeSyntheticEvent,
+  NativeScrollEvent,
+} from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
+import type { RootStackParamList } from '../navigation/types';
+import { collectionsStore } from '../core/gamification/collections';
+
+const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
+const YEAR = new Date().getFullYear();
+
+type Props = NativeStackScreenProps<RootStackParamList, 'Wrapped'>;
+
+const SLIDE_GRADIENTS: [string, string][] = [
+  ['#0A0E1A', '#1A2560'],   // 0: Hero — deep navy
+  ['#0D2137', '#1B6CA8'],   // 1: Distance — ocean blue
+  ['#1A1A0A', '#4A6A1A'],   // 2: Countries — earth green
+  ['#1A0A2E', '#5C1A8A'],   // 3: Longest flight — deep purple
+  ['#1A0A0A', '#8A2A1A'],   // 4: Most visited airport — crimson
+  ['#0A1A1A', '#1A6A6A'],   // 5: Top discovery — teal
+  ['#1A0E2E', '#3D1A6A'],   // 6: Share — rich indigo
+];
+
+export default function WrappedScreen({ navigation }: Props) {
+  const stats = collectionsStore.getStats();
+  const [activeIndex, setActiveIndex] = useState(0);
+  const scrollRef = useRef<ScrollView>(null);
+
+  const earthCircumferenceKm = 40075;
+  const earthLaps = (stats.totalDistanceKm / earthCircumferenceKm).toFixed(1);
+  const distanceLabel = stats.totalDistanceKm >= 1000
+    ? `${(stats.totalDistanceKm / 1000).toFixed(1)}k km`
+    : `${stats.totalDistanceKm.toLocaleString()} km`;
+
+  function handleScroll(e: NativeSyntheticEvent<NativeScrollEvent>) {
+    const idx = Math.round(e.nativeEvent.contentOffset.x / SCREEN_WIDTH);
+    setActiveIndex(idx);
+  }
+
+  function goTo(idx: number) {
+    scrollRef.current?.scrollTo({ x: idx * SCREEN_WIDTH, animated: true });
+    setActiveIndex(idx);
+  }
+
+  function handleTap(side: 'left' | 'right') {
+    const next = side === 'right'
+      ? Math.min(activeIndex + 1, SLIDES.length - 1)
+      : Math.max(activeIndex - 1, 0);
+    goTo(next);
+  }
+
+  async function handleShare() {
+    const message =
+      `My ${YEAR} in the skies ✈️\n` +
+      `${stats.totalFlights} flights • ${distanceLabel} flown\n` +
+      `${stats.countriesFlownOver.length} countries • ${stats.poisDiscovered} discoveries\n` +
+      `Tracked with SkyAtlas`;
+    await Share.share({ message });
+  }
+
+  const SLIDES = buildSlides({ stats, distanceLabel, earthLaps, year: YEAR });
+
+  return (
+    <View style={styles.root}>
+      {/* Dot indicators */}
+      <View style={styles.dotsRow} pointerEvents="none">
+        {SLIDES.map((_, i) => (
+          <View
+            key={i}
+            style={[styles.dot, i === activeIndex && styles.dotActive]}
+          />
+        ))}
+      </View>
+
+      {/* Close button */}
+      <Pressable style={styles.closeBtn} onPress={() => navigation.goBack()}>
+        <Text style={styles.closeBtnText}>✕</Text>
+      </Pressable>
+
+      <ScrollView
+        ref={scrollRef}
+        horizontal
+        pagingEnabled
+        showsHorizontalScrollIndicator={false}
+        onMomentumScrollEnd={handleScroll}
+        scrollEventThrottle={16}
+      >
+        {SLIDES.map((slide, i) => (
+          <LinearGradient
+            key={i}
+            colors={SLIDE_GRADIENTS[i]}
+            style={styles.slide}
+            start={{ x: 0.2, y: 0 }}
+            end={{ x: 0.8, y: 1 }}
+          >
+            {slide.content}
+
+            {/* Tap zones */}
+            <View style={styles.tapZones} pointerEvents="box-none">
+              <Pressable
+                style={styles.tapLeft}
+                onPress={() => handleTap('left')}
+              />
+              <Pressable
+                style={styles.tapRight}
+                onPress={() => i === SLIDES.length - 1 ? handleShare() : handleTap('right')}
+              />
+            </View>
+          </LinearGradient>
+        ))}
+      </ScrollView>
+    </View>
+  );
+}
+
+interface SlideData {
+  content: React.ReactNode;
+}
+
+function buildSlides(opts: {
+  stats: ReturnType<typeof collectionsStore.getStats>;
+  distanceLabel: string;
+  earthLaps: string;
+  year: number;
+}): SlideData[] {
+  const { stats, distanceLabel, earthLaps, year } = opts;
+
+  return [
+    // Slide 0: Hero
+    {
+      content: (
+        <View style={styles.slideContent}>
+          <Text style={styles.slideLabel}>SkyAtlas</Text>
+          <Text style={styles.heroYear}>{year}</Text>
+          <Text style={styles.heroTitle}>Your year{'\n'}in the skies</Text>
+          <View style={styles.heroNumbers}>
+            <HeroStat value={stats.totalFlights.toString()} label="flights" />
+            <HeroStat value={distanceLabel} label="flown" />
+            <HeroStat value={stats.countriesFlownOver.length.toString()} label="countries" />
+          </View>
+          <Text style={styles.swipeHint}>Swipe to explore →</Text>
+        </View>
+      ),
+    },
+
+    // Slide 1: Total distance
+    {
+      content: (
+        <View style={styles.slideContent}>
+          <Text style={styles.slideEmoji}>🌍</Text>
+          <Text style={styles.slideSuperTitle}>You flew</Text>
+          <Text style={styles.slideBigNumber}>{distanceLabel}</Text>
+          <Text style={styles.slideSubtitle}>
+            That's around Earth{'\n'}
+            <Text style={styles.slideAccent}>{earthLaps}×</Text>
+          </Text>
+          <Text style={styles.slideFootnote}>
+            {stats.totalFlights > 0
+              ? `Across ${stats.totalFlights} flights`
+              : 'Start your first flight to track distance'}
+          </Text>
+        </View>
+      ),
+    },
+
+    // Slide 2: Countries
+    {
+      content: (
+        <View style={styles.slideContent}>
+          <Text style={styles.slideEmoji}>🗺️</Text>
+          <Text style={styles.slideSuperTitle}>You crossed</Text>
+          <Text style={styles.slideBigNumber}>
+            {stats.countriesFlownOver.length}
+          </Text>
+          <Text style={styles.slideSubtitle}>countries</Text>
+          {stats.countriesFlownOver.length > 0 && (
+            <View style={styles.countryPills}>
+              {stats.countriesFlownOver.slice(0, 5).map((c) => (
+                <View key={c} style={styles.countryPill}>
+                  <Text style={styles.countryPillText}>{c}</Text>
+                </View>
+              ))}
+              {stats.countriesFlownOver.length > 5 && (
+                <View style={styles.countryPill}>
+                  <Text style={styles.countryPillText}>
+                    +{stats.countriesFlownOver.length - 5} more
+                  </Text>
+                </View>
+              )}
+            </View>
+          )}
+        </View>
+      ),
+    },
+
+    // Slide 3: Longest flight
+    {
+      content: (
+        <View style={styles.slideContent}>
+          <Text style={styles.slideEmoji}>⏱️</Text>
+          <Text style={styles.slideSuperTitle}>Longest flight</Text>
+          <Text style={styles.slideBigNumber}>
+            {stats.longestFlightHours > 0
+              ? `${Math.floor(stats.longestFlightHours)}h ${Math.round((stats.longestFlightHours % 1) * 60)}m`
+              : '—'}
+          </Text>
+          <Text style={styles.slideSubtitle}>
+            {stats.longestFlightHours >= 8
+              ? 'Ultra long-haul explorer'
+              : stats.longestFlightHours >= 4
+              ? 'Long-haul traveller'
+              : stats.longestFlightHours > 0
+              ? 'Short-haul hopper'
+              : 'No flights yet'}
+          </Text>
+          <Text style={styles.slideFootnote}>
+            {stats.nightFlights > 0
+              ? `${stats.nightFlights} of those were night flights 🌙`
+              : ''}
+          </Text>
+        </View>
+      ),
+    },
+
+    // Slide 4: Most visited airport (using country count as proxy)
+    {
+      content: (
+        <View style={styles.slideContent}>
+          <Text style={styles.slideEmoji}>🛫</Text>
+          <Text style={styles.slideSuperTitle}>Most visited region</Text>
+          <Text style={styles.slideBigNumber}>
+            {stats.countriesFlownOver.length > 0
+              ? stats.countriesFlownOver[0]
+              : '—'}
+          </Text>
+          <Text style={styles.slideSubtitle}>
+            {stats.continentsVisited.length > 0
+              ? `Across ${stats.continentsVisited.length} continent${stats.continentsVisited.length !== 1 ? 's' : ''}`
+              : stats.totalFlights > 0
+              ? 'Your first destination awaits'
+              : 'Start flying to unlock'}
+          </Text>
+          {stats.continentsVisited.length > 0 && (
+            <View style={styles.countryPills}>
+              {stats.continentsVisited.map((c) => (
+                <View key={c} style={styles.countryPill}>
+                  <Text style={styles.countryPillText}>{c}</Text>
+                </View>
+              ))}
+            </View>
+          )}
+        </View>
+      ),
+    },
+
+    // Slide 5: Top discovery
+    {
+      content: (
+        <View style={styles.slideContent}>
+          <Text style={styles.slideEmoji}>📍</Text>
+          <Text style={styles.slideSuperTitle}>Points of interest</Text>
+          <Text style={styles.slideBigNumber}>
+            {stats.poisDiscovered.toLocaleString()}
+          </Text>
+          <Text style={styles.slideSubtitle}>
+            {stats.poisDiscovered === 0
+              ? 'discoveries await you'
+              : stats.poisDiscovered === 1
+              ? 'fascinating discovery'
+              : 'fascinating discoveries'}
+          </Text>
+          <Text style={styles.slideFootnote}>
+            {stats.poisDiscovered > 50
+              ? 'World-class explorer 🌟'
+              : stats.poisDiscovered > 10
+              ? 'Curious traveller 🔭'
+              : stats.poisDiscovered > 0
+              ? 'Beginning your journey 🌱'
+              : 'Fly to discover the world below'}
+          </Text>
+        </View>
+      ),
+    },
+
+    // Slide 6: Share card
+    {
+      content: (
+        <View style={styles.slideContent}>
+          <Text style={styles.slideEmoji}>✈️</Text>
+          <Text style={styles.heroYear}>{year}</Text>
+          <Text style={styles.shareTitle}>Your year,{'\n'}summarized</Text>
+          <View style={styles.shareSummaryBox}>
+            <ShareRow icon="🛫" label="Flights" value={stats.totalFlights.toString()} />
+            <ShareRow icon="📏" label="Distance" value={distanceLabel} />
+            <ShareRow icon="🌍" label="Countries" value={stats.countriesFlownOver.length.toString()} />
+            <ShareRow icon="📍" label="Discoveries" value={stats.poisDiscovered.toString()} />
+            <ShareRow icon="⏱️" label="Longest flight" value={stats.longestFlightHours > 0 ? `${stats.longestFlightHours.toFixed(1)}h` : '—'} />
+          </View>
+          <ShareButton onPress={async () => {
+            const message =
+              `My ${year} in the skies ✈️\n` +
+              `${stats.totalFlights} flights • ${distanceLabel} flown\n` +
+              `${stats.countriesFlownOver.length} countries • ${stats.poisDiscovered} discoveries\n` +
+              `Tracked with SkyAtlas`;
+            await Share.share({ message });
+          }} />
+        </View>
+      ),
+    },
+  ];
+}
+
+function HeroStat({ value, label }: { value: string; label: string }) {
+  return (
+    <View style={styles.heroStat}>
+      <Text style={styles.heroStatValue}>{value}</Text>
+      <Text style={styles.heroStatLabel}>{label}</Text>
+    </View>
+  );
+}
+
+function ShareRow({ icon, label, value }: { icon: string; label: string; value: string }) {
+  return (
+    <View style={styles.shareRow}>
+      <Text style={styles.shareRowIcon}>{icon}</Text>
+      <Text style={styles.shareRowLabel}>{label}</Text>
+      <Text style={styles.shareRowValue}>{value}</Text>
+    </View>
+  );
+}
+
+function ShareButton({ onPress }: { onPress: () => void }) {
+  return (
+    <Pressable style={styles.shareButton} onPress={onPress}>
+      <Text style={styles.shareButtonText}>Share my year</Text>
+    </Pressable>
+  );
+}
+
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+    backgroundColor: '#0A0E1A',
+  },
+
+  // Dots
+  dotsRow: {
+    position: 'absolute',
+    top: 56,
+    left: 0,
+    right: 0,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    gap: 5,
+    zIndex: 10,
+  },
+  dot: {
+    width: 24,
+    height: 3,
+    borderRadius: 2,
+    backgroundColor: 'rgba(255,255,255,0.3)',
+  },
+  dotActive: {
+    backgroundColor: '#FFFFFF',
+  },
+
+  // Close
+  closeBtn: {
+    position: 'absolute',
+    top: 48,
+    right: 20,
+    zIndex: 20,
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: 'rgba(255,255,255,0.15)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  closeBtnText: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    fontWeight: '700',
+  },
+
+  // Slide
+  slide: {
+    width: SCREEN_WIDTH,
+    height: SCREEN_HEIGHT,
+  },
+  slideContent: {
+    flex: 1,
+    paddingHorizontal: 32,
+    paddingTop: 110,
+    paddingBottom: 60,
+    justifyContent: 'center',
+    gap: 12,
+  },
+
+  // Tap zones
+  tapZones: {
+    ...StyleSheet.absoluteFillObject,
+    flexDirection: 'row',
+  },
+  tapLeft: {
+    flex: 1,
+  },
+  tapRight: {
+    flex: 1,
+  },
+
+  // Hero slide
+  slideLabel: {
+    color: 'rgba(255,255,255,0.5)',
+    fontSize: 13,
+    fontWeight: '600',
+    letterSpacing: 2,
+    textTransform: 'uppercase',
+    marginBottom: 4,
+  },
+  heroYear: {
+    color: 'rgba(255,255,255,0.25)',
+    fontSize: 80,
+    fontWeight: '900',
+    lineHeight: 80,
+    marginBottom: -8,
+  },
+  heroTitle: {
+    color: '#FFFFFF',
+    fontSize: 44,
+    fontWeight: '800',
+    lineHeight: 50,
+  },
+  heroNumbers: {
+    flexDirection: 'row',
+    marginTop: 32,
+    gap: 0,
+  },
+  heroStat: {
+    flex: 1,
+    alignItems: 'center',
+    borderRightWidth: 1,
+    borderRightColor: 'rgba(255,255,255,0.15)',
+  },
+  heroStatValue: {
+    color: '#FFC857',
+    fontSize: 26,
+    fontWeight: '800',
+  },
+  heroStatLabel: {
+    color: 'rgba(255,255,255,0.6)',
+    fontSize: 12,
+    marginTop: 2,
+  },
+  swipeHint: {
+    color: 'rgba(255,255,255,0.35)',
+    fontSize: 13,
+    marginTop: 40,
+    textAlign: 'center',
+  },
+
+  // Generic slide elements
+  slideEmoji: {
+    fontSize: 52,
+    marginBottom: 8,
+  },
+  slideSuperTitle: {
+    color: 'rgba(255,255,255,0.6)',
+    fontSize: 18,
+    fontWeight: '500',
+  },
+  slideBigNumber: {
+    color: '#FFFFFF',
+    fontSize: 68,
+    fontWeight: '900',
+    lineHeight: 72,
+    letterSpacing: -2,
+  },
+  slideSubtitle: {
+    color: 'rgba(255,255,255,0.75)',
+    fontSize: 22,
+    fontWeight: '600',
+    lineHeight: 30,
+  },
+  slideAccent: {
+    color: '#FFC857',
+    fontWeight: '800',
+  },
+  slideFootnote: {
+    color: 'rgba(255,255,255,0.45)',
+    fontSize: 14,
+    marginTop: 8,
+  },
+
+  // Country pills
+  countryPills: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+    marginTop: 16,
+  },
+  countryPill: {
+    backgroundColor: 'rgba(255,255,255,0.15)',
+    borderRadius: 100,
+    paddingHorizontal: 14,
+    paddingVertical: 6,
+  },
+  countryPillText: {
+    color: '#FFFFFF',
+    fontSize: 13,
+    fontWeight: '600',
+  },
+
+  // Share slide
+  shareTitle: {
+    color: '#FFFFFF',
+    fontSize: 38,
+    fontWeight: '800',
+    lineHeight: 44,
+  },
+  shareSummaryBox: {
+    backgroundColor: 'rgba(255,255,255,0.08)',
+    borderRadius: 20,
+    padding: 20,
+    gap: 14,
+    marginTop: 16,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.12)',
+  },
+  shareRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  shareRowIcon: {
+    fontSize: 20,
+    width: 28,
+  },
+  shareRowLabel: {
+    flex: 1,
+    color: 'rgba(255,255,255,0.6)',
+    fontSize: 14,
+  },
+  shareRowValue: {
+    color: '#FFFFFF',
+    fontSize: 15,
+    fontWeight: '700',
+  },
+  shareButton: {
+    marginTop: 24,
+    backgroundColor: '#FFC857',
+    borderRadius: 16,
+    paddingVertical: 16,
+    alignItems: 'center',
+  },
+  shareButtonText: {
+    color: '#0A0E1A',
+    fontSize: 17,
+    fontWeight: '800',
+    letterSpacing: 0.3,
+  },
+});

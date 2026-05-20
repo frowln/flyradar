@@ -7,15 +7,19 @@ import {
   StyleSheet,
   FlatList
 } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { collectionsStore } from '../core/gamification/collections';
 import { ACHIEVEMENTS } from '../core/gamification/achievements';
+import type { RootStackParamList } from '../navigation/types';
 
 type Tab = 'countries' | 'achievements' | 'stats';
 
 export default function CollectionScreen() {
   const [activeTab, setActiveTab] = useState<Tab>('achievements');
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
 
   const stats = collectionsStore.getStats();
   const earnedIds = new Set(collectionsStore.getEarnedAchievements());
@@ -36,7 +40,7 @@ export default function CollectionScreen() {
         <CountriesTab countries={stats.countriesFlownOver} />
       )}
       {activeTab === 'stats' && (
-        <StatsTab stats={stats} earnedCount={earnedIds.size} />
+        <StatsTab stats={stats} earnedCount={earnedIds.size} onWrappedPress={() => navigation.navigate('Wrapped')} />
       )}
     </View>
   );
@@ -113,9 +117,12 @@ function CountriesTab({ countries }: { countries: string[] }) {
   );
 }
 
-function StatsTab({ stats, earnedCount }: { stats: ReturnType<typeof collectionsStore.getStats>; earnedCount: number }) {
+function StatsTab({ stats, earnedCount, onWrappedPress }: { stats: ReturnType<typeof collectionsStore.getStats>; earnedCount: number; onWrappedPress: () => void }) {
   return (
     <ScrollView contentContainerStyle={styles.statsList}>
+      <Pressable style={styles.wrappedBanner} onPress={onWrappedPress}>
+        <Text style={styles.wrappedBannerText}>🎉 See your Year Wrapped</Text>
+      </Pressable>
       <StatRow label="Total Flights" value={stats.totalFlights.toString()} icon="✈️" />
       <StatRow label="Total Distance" value={`${stats.totalDistanceKm.toLocaleString()} km`} icon="📏" />
       <StatRow label="Places Discovered" value={stats.poisDiscovered.toString()} icon="🗺️" />
@@ -191,6 +198,19 @@ const styles = StyleSheet.create({
   },
   countryFlag: { fontSize: 18 },
   countryName: { color: colors.text, fontSize: 15 },
+
+  wrappedBanner: {
+    backgroundColor: colors.primary,
+    borderRadius: 14,
+    paddingVertical: 16,
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  wrappedBannerText: {
+    color: colors.text,
+    fontSize: 16,
+    fontWeight: '700',
+  },
 
   statsList: { padding: 16, gap: 0 },
   statRow: {

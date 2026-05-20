@@ -10,6 +10,7 @@ export type RootStackParamList = {
   FlightSummary: { flightId: string };
   Collection: undefined;
   Paywall: undefined;
+  Wrapped: undefined;
 };
 
 export type HomeScreenProps = NativeStackScreenProps<RootStackParamList, 'Home'>;
@@ -20,3 +21,4 @@ export type POIDetailScreenProps = NativeStackScreenProps<RootStackParamList, 'P
 export type FlightSummaryScreenProps = NativeStackScreenProps<RootStackParamList, 'FlightSummary'>;
 export type CollectionScreenProps = NativeStackScreenProps<RootStackParamList, 'Collection'>;
 export type PaywallScreenProps = NativeStackScreenProps<RootStackParamList, 'Paywall'>;
+export type WrappedScreenProps = NativeStackScreenProps<RootStackParamList, 'Wrapped'>;

@@ -12,6 +12,7 @@ import POIDetailScreen from '../screens/POIDetailScreen';
 import FlightSummaryScreen from '../screens/FlightSummaryScreen';
 import CollectionScreen from '../screens/CollectionScreen';
 import PaywallScreen from '../screens/PaywallScreen';
+import WrappedScreen from '../screens/WrappedScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -38,6 +39,7 @@ export default function RootNavigator() {
         <Stack.Screen name="FlightSummary" component={FlightSummaryScreen} options={{ title: 'Flight Summary' }} />
         <Stack.Screen name="Collection" component={CollectionScreen} options={{ title: 'My Collection' }} />
         <Stack.Screen name="Paywall" component={PaywallScreen} options={{ title: 'SkyAtlas Pro' }} />
+        <Stack.Screen name="Wrapped" component={WrappedScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

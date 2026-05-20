@@ -16,7 +16,15 @@ const DEFAULT_STATS: LifetimeStats = {
   longestFlightHours: 0,
   totalDistanceKm: 0,
   nightFlights: 0,
-  continentsVisited: []
+  continentsVisited: [],
+  equatorCrossings: 0,
+  datelineCrossings: 0,
+  polarFlights: 0,
+  sunriseFlights: 0,
+  sunsetFlights: 0,
+  oceanCrossings: 0,
+  mountainRangesFlown: [],
+  firstFlightDate: null
 };
 
 export const collectionsStore = {
