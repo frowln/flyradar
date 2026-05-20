@@ -13,7 +13,8 @@ const KEYS = {
   INFLIGHT_TUTORIAL_SEEN: 'inflight_tutorial_seen',
   THEME: 'theme',
   CATEGORY_INTERESTS: 'category_interests',
-  NARRATOR: 'narrator'
+  NARRATOR: 'narrator',
+  SOUND_ENABLED: 'sound_enabled'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -142,6 +143,14 @@ export const collectionsStore = {
 
   setNarrator(style: 'default' | 'documentary' | 'casual'): void {
     storage.set(KEYS.NARRATOR, style);
+  },
+
+  getSoundEnabled(): boolean {
+    return storage.getBoolean(KEYS.SOUND_ENABLED) ?? false;
+  },
+
+  setSoundEnabled(enabled: boolean): void {
+    storage.set(KEYS.SOUND_ENABLED, enabled);
   },
 
   reset(): void {

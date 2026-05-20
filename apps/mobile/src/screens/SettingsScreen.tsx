@@ -37,6 +37,7 @@ export default function SettingsScreen() {
   const [locale, setLocaleState] = useState(() => getLocale());
   const [theme, setThemeState] = useState<ThemeName>(() => getTheme());
   const [narrator, setNarratorState] = useState<NarratorStyle>(() => collectionsStore.getNarrator());
+  const [soundEnabled, setSoundEnabledState] = useState(() => collectionsStore.getSoundEnabled());
 
   function toggleUnits() {
     const next = units === 'km' ? 'miles' : 'km';
@@ -57,6 +58,13 @@ export default function SettingsScreen() {
     const next = SUPPORTED_LOCALES[(idx + 1) % SUPPORTED_LOCALES.length];
     setLocale(next);
     setLocaleState(next);
+  }
+
+  function toggleSound() {
+    const next = !soundEnabled;
+    collectionsStore.setSoundEnabled(next);
+    setSoundEnabledState(next);
+    haptics.light();
   }
 
   function cycleNarrator() {
@@ -122,6 +130,16 @@ export default function SettingsScreen() {
         >
           <Text style={[typography.body, styles.rowLabel]}>{t('settings.narratorVoice')}</Text>
           <Text style={[typography.body, styles.rowValue]}>{narratorLabel(narrator)}</Text>
+        </Pressable>
+        <View style={styles.divider} />
+        <Pressable
+          style={styles.row}
+          onPress={toggleSound}
+          accessibilityLabel={soundEnabled ? 'Disable sound effects' : 'Enable sound effects'}
+          accessibilityRole="button"
+        >
+          <Text style={[typography.body, styles.rowLabel]}>🔊 Sound effects</Text>
+          <Text style={[typography.body, styles.rowValue]}>{soundEnabled ? 'On' : 'Off'}</Text>
         </Pressable>
       </View>
 

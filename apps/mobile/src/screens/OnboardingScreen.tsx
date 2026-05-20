@@ -9,7 +9,6 @@ import {
   Animated,
   type ListRenderItemInfo
 } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { createMMKV } from 'react-native-mmkv';
@@ -17,6 +16,7 @@ import { colors } from '../theme/colors';
 import { fonts } from '../theme/typography';
 import type { RootStackParamList } from '../navigation/types';
 import { t } from '../i18n';
+import AtmosphericBackground from '../components/AtmosphericBackground';
 
 const storage = createMMKV({ id: 'skyatlas-onboarding' });
 export const ONBOARDING_KEY = 'onboarding_complete';
@@ -33,12 +33,14 @@ type Nav = NativeStackNavigationProp<RootStackParamList, 'Onboarding'>;
 
 const { width: W } = Dimensions.get('window');
 
+type AtmosphericVariant = 'sky' | 'sunset' | 'aurora';
+
 type Slide = {
   key: string;
   icon: string;
   titleKey: string;
   bodyKey: string;
-  gradient: [string, string];
+  variant: AtmosphericVariant;
 };
 
 const SLIDES: Slide[] = [
@@ -47,21 +49,21 @@ const SLIDES: Slide[] = [
     icon: '✈️',
     titleKey: 'onboarding.slide1_title',
     bodyKey: 'onboarding.slide1_body',
-    gradient: ['#0A0B14', '#1A2A4E']
+    variant: 'sky'
   },
   {
     key: '2',
     icon: '🌍',
     titleKey: 'onboarding.slide2_title',
     bodyKey: 'onboarding.slide2_body',
-    gradient: ['#1A4A8E', '#2E5BA8']
+    variant: 'sunset'
   },
   {
     key: '3',
     icon: '🏆',
     titleKey: 'onboarding.slide3_title',
     bodyKey: 'onboarding.slide3_body',
-    gradient: ['#4E3B8E', '#6F4FB8']
+    variant: 'aurora'
   }
 ];
 
@@ -72,24 +74,46 @@ interface AnimatedSlideProps {
 
 function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
   const iconScale = useRef(new Animated.Value(0.5)).current;
+  const iconTranslateY = useRef(new Animated.Value(0)).current;
   const titleOpacity = useRef(new Animated.Value(0)).current;
   const titleTranslateY = useRef(new Animated.Value(20)).current;
   const bodyOpacity = useRef(new Animated.Value(0)).current;
+  const floatLoop = useRef<Animated.CompositeAnimation | null>(null);
 
   useEffect(() => {
     if (isActive) {
+      // Reset values
       iconScale.setValue(0.5);
       titleOpacity.setValue(0);
       titleTranslateY.setValue(20);
       bodyOpacity.setValue(0);
 
+      // Icon entrance spring
       Animated.spring(iconScale, {
         toValue: 1,
         tension: 60,
         friction: 7,
         useNativeDriver: true
-      }).start();
+      }).start(() => {
+        // Start gentle float loop after entrance
+        floatLoop.current = Animated.loop(
+          Animated.sequence([
+            Animated.timing(iconTranslateY, {
+              toValue: -8,
+              duration: 1800,
+              useNativeDriver: true
+            }),
+            Animated.timing(iconTranslateY, {
+              toValue: 0,
+              duration: 1800,
+              useNativeDriver: true
+            })
+          ])
+        );
+        floatLoop.current.start();
+      });
 
+      // Title slides in from below with delay
       Animated.parallel([
         Animated.timing(titleOpacity, {
           toValue: 1,
@@ -105,23 +129,33 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
         })
       ]).start();
 
+      // Body fades in with longer delay
       Animated.timing(bodyOpacity, {
         toValue: 1,
         duration: 350,
         delay: 300,
         useNativeDriver: true
       }).start();
+    } else {
+      // Stop float animation when slide is not active
+      floatLoop.current?.stop();
+      iconTranslateY.setValue(0);
     }
   }, [isActive]);
 
   return (
-    <LinearGradient
-      colors={item.gradient}
-      style={styles.slide}
-      start={{ x: 0, y: 0 }}
-      end={{ x: 0, y: 1 }}
-    >
-      <Animated.Text style={[styles.slideIcon, { transform: [{ scale: iconScale }] }]}>
+    <AtmosphericBackground variant={item.variant} style={styles.slide}>
+      <Animated.Text
+        style={[
+          styles.slideIcon,
+          {
+            transform: [
+              { scale: iconScale },
+              { translateY: iconTranslateY }
+            ]
+          }
+        ]}
+      >
         {item.icon}
       </Animated.Text>
       {/* Slide title in 42px Fraunces display serif */}
@@ -140,7 +174,41 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
       <Animated.Text style={[styles.slideBody, { opacity: bodyOpacity }]}>
         {t(item.bodyKey)}
       </Animated.Text>
-    </LinearGradient>
+    </AtmosphericBackground>
+  );
+}
+
+interface AnimatedDotProps {
+  isActive: boolean;
+}
+
+function AnimatedDot({ isActive }: AnimatedDotProps) {
+  const widthAnim = useRef(new Animated.Value(isActive ? 24 : 8)).current;
+  const opacityAnim = useRef(new Animated.Value(isActive ? 1 : 0.4)).current;
+
+  useEffect(() => {
+    Animated.parallel([
+      Animated.spring(widthAnim, {
+        toValue: isActive ? 24 : 8,
+        tension: 80,
+        friction: 8,
+        useNativeDriver: false
+      }),
+      Animated.timing(opacityAnim, {
+        toValue: isActive ? 1 : 0.4,
+        duration: 200,
+        useNativeDriver: false
+      })
+    ]).start();
+  }, [isActive]);
+
+  return (
+    <Animated.View
+      style={[
+        styles.dot,
+        { width: widthAnim, opacity: opacityAnim }
+      ]}
+    />
   );
 }
 
@@ -183,10 +251,10 @@ export default function OnboardingScreen() {
         )}
       />
 
-      {/* Dots */}
+      {/* Dots with spring animation */}
       <View style={styles.dots}>
         {SLIDES.map((_, i) => (
-          <View key={i} style={[styles.dot, i === currentIndex && styles.dotActive]} />
+          <AnimatedDot key={i} isActive={i === currentIndex} />
         ))}
       </View>
 
@@ -230,7 +298,6 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
   slide: {
     width: W,
-    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: 40,
@@ -254,9 +321,8 @@ const styles = StyleSheet.create({
     lineHeight: 25,
     textAlign: 'center'
   },
-  dots: { flexDirection: 'row', justifyContent: 'center', gap: 8, paddingBottom: 16 },
-  dot: { width: 8, height: 8, borderRadius: 4, backgroundColor: colors.border },
-  dotActive: { width: 24, backgroundColor: colors.primary },
+  dots: { flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 8, paddingBottom: 16 },
+  dot: { height: 8, borderRadius: 4, backgroundColor: colors.primary },
   buttons: {
     flexDirection: 'row',
     justifyContent: 'space-between',
