@@ -15,7 +15,6 @@ import CollectionScreen from '../screens/CollectionScreen';
 import PaywallScreen from '../screens/PaywallScreen';
 import WrappedScreen from '../screens/WrappedScreen';
 import SettingsScreen from '../screens/SettingsScreen';
-import SimulatorScreen from '../screens/SimulatorScreen';
 import ReferralScreen from '../screens/ReferralScreen';
 import LeaderboardScreen from '../screens/LeaderboardScreen';
 import StatsScreen from '../screens/StatsScreen';
@@ -49,7 +48,13 @@ export default function RootNavigator() {
         <Stack.Screen name="Paywall" component={PaywallScreen} options={{ title: t('nav.paywall'), animation: 'slide_from_bottom', presentation: 'modal' }} />
         <Stack.Screen name="Wrapped" component={WrappedScreen} options={{ headerShown: false, animation: 'slide_from_bottom', presentation: 'modal' }} />
         <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: t('nav.settings') }} />
-        <Stack.Screen name="Simulator" component={SimulatorScreen} options={{ title: t('nav.simulator') }} />
+        {__DEV__ && (
+          <Stack.Screen
+            name="Simulator"
+            component={require('../screens/SimulatorScreen').default}
+            options={{ title: t('nav.simulator') }}
+          />
+        )}
         <Stack.Screen name="Referral" component={ReferralScreen} options={{ title: t('nav.referral') }} />
         <Stack.Screen name="Leaderboard" component={LeaderboardScreen} options={{ title: t('nav.leaderboard') || 'Leaderboard' }} />
         <Stack.Screen name="Stats" component={StatsScreen} options={{ title: t('nav.stats') }} />

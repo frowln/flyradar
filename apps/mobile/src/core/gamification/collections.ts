@@ -15,7 +15,8 @@ const KEYS = {
   CATEGORY_INTERESTS: 'category_interests',
   NARRATOR: 'narrator',
   SOUND_ENABLED: 'sound_enabled',
-  INSTALL_DATE: 'install_date'
+  INSTALL_DATE: 'install_date',
+  LEADERBOARD_EMAIL: 'leaderboard_email'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -165,6 +166,14 @@ export const collectionsStore = {
     if (!raw) return null;
     const d = new Date(raw);
     return isNaN(d.getTime()) ? null : d;
+  },
+
+  setLeaderboardEmail(email: string): void {
+    storage.set(KEYS.LEADERBOARD_EMAIL, email);
+  },
+
+  getLeaderboardEmail(): string | undefined {
+    return storage.getString(KEYS.LEADERBOARD_EMAIL);
   },
 
   reset(): void {

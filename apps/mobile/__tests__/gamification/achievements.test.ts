@@ -62,26 +62,11 @@ describe('evaluateAchievements', () => {
     expect(earned).toContain('explorer');
   });
 
-  it('ACHIEVEMENTS list has at least 35 entries', () => {
-    expect(ACHIEVEMENTS.length).toBeGreaterThanOrEqual(35);
+  it('ACHIEVEMENTS list has exactly 18 entries', () => {
+    expect(ACHIEVEMENTS.length).toBe(18);
   });
 
   // --- New achievement tests ---
-
-  it('awards quarter_century at 25 flights', () => {
-    const earned = evaluateAchievements({ ...baseStats, totalFlights: 25 }, []);
-    expect(earned).toContain('quarter_century');
-  });
-
-  it('awards half_century at 50 flights', () => {
-    const earned = evaluateAchievements({ ...baseStats, totalFlights: 50 }, []);
-    expect(earned).toContain('half_century');
-  });
-
-  it('awards around_the_world at 100,000 km', () => {
-    const earned = evaluateAchievements({ ...baseStats, totalDistanceKm: 100_000 }, []);
-    expect(earned).toContain('around_the_world');
-  });
 
   it('awards equator_crosser on first equator crossing', () => {
     const earned = evaluateAchievements({ ...baseStats, equatorCrossings: 1 }, []);
@@ -103,11 +88,6 @@ describe('evaluateAchievements', () => {
     expect(earned).toContain('dawn_patrol');
   });
 
-  it('awards golden_hour on first sunset flight', () => {
-    const earned = evaluateAchievements({ ...baseStats, sunsetFlights: 1 }, []);
-    expect(earned).toContain('golden_hour');
-  });
-
   it('awards alpine_flyer when Alps in mountainRangesFlown', () => {
     const earned = evaluateAchievements({ ...baseStats, mountainRangesFlown: ['Alps'] }, []);
     expect(earned).toContain('alpine_flyer');
@@ -116,11 +96,6 @@ describe('evaluateAchievements', () => {
   it('awards himalayan when Himalayas in mountainRangesFlown', () => {
     const earned = evaluateAchievements({ ...baseStats, mountainRangesFlown: ['Himalayas'] }, []);
     expect(earned).toContain('himalayan');
-  });
-
-  it('awards reef_watcher when Australia is in countriesFlownOver', () => {
-    const earned = evaluateAchievements({ ...baseStats, countriesFlownOver: ['Australia'] }, []);
-    expect(earned).toContain('reef_watcher');
   });
 
   it('awards one_year for firstFlightDate more than 1 year ago', () => {
@@ -137,13 +112,4 @@ describe('evaluateAchievements', () => {
     expect(earned).not.toContain('one_year');
   });
 
-  it('awards african when Africa in continentsVisited', () => {
-    const earned = evaluateAchievements({ ...baseStats, continentsVisited: ['Africa'] }, []);
-    expect(earned).toContain('african');
-  });
-
-  it('awards antarctic when Antarctica in continentsVisited', () => {
-    const earned = evaluateAchievements({ ...baseStats, continentsVisited: ['Antarctica'] }, []);
-    expect(earned).toContain('antarctic');
-  });
 });

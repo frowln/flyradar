@@ -24,7 +24,17 @@ export const en = {
     next: 'Next',
     back: 'Back',
     loading: 'Loading...',
-    offlineMode: '✈️ Offline mode — your flight data still works'
+    offlineMode: '✈️ Offline mode — your flight data still works',
+    gotIt: 'Got it',
+    on: 'On',
+    off: 'Off'
+  },
+  errors: {
+    somethingWrong: 'Something went wrong',
+    tryAgain: 'Try again',
+    cameraRequired: 'Camera access is required to scan boarding passes.',
+    requestingPermission: 'Requesting camera permission...',
+    couldNotRead: 'Could not read boarding pass'
   },
   home: {
     title: 'My Flights',
@@ -34,7 +44,9 @@ export const en = {
     explore: 'Explore any flight →',
     nextFlight: 'Your next flight',
     in: 'in',
-    open: 'Open'
+    open: 'Open',
+    whereWillYouGo: 'Where will you go?',
+    addFirstFlight: 'Add your first flight'
   },
   addFlight: {
     title: 'Add Flight',
@@ -43,7 +55,8 @@ export const en = {
     date: 'Date',
     scan: '📷 Scan Boarding Pass',
     download: 'Download & Add Flight',
-    hint: 'Add your flight before boarding to download offline content.'
+    hint: 'Add your flight before boarding to download offline content.',
+    quickAdd: 'Quick Add'
   },
   flightDetail: {
     startFlight: '✈ Start Flight',
@@ -67,7 +80,11 @@ export const en = {
     arrival: 'Arrival',
     aircraft: 'Aircraft',
     locations: 'locations',
-    waypoints: 'waypoints'
+    waypoints: 'waypoints',
+    departs: 'Departs',
+    arrives: 'Arrives',
+    atCity: 'At %{city}',
+    wind: 'Wind %{speed} km/h'
   },
   inFlight: {
     exit: '← Exit',
@@ -80,7 +97,11 @@ export const en = {
     mode_offline: 'OFFLINE',
     mode_live: '🔴 LIVE',
     noActiveFlight: 'No active flight.',
-    goHome: 'Go Home'
+    goHome: 'Go Home',
+    mode: 'Mode',
+    follow: 'Follow',
+    free: 'Free',
+    welcomeAboard: 'Welcome aboard'
   },
   poi: {
     readMore: 'Read more →',
@@ -94,7 +115,25 @@ export const en = {
     population: 'Population',
     distance: 'Distance',
     listen: 'Listen',
-    stop: 'Stop'
+    stop: 'Stop',
+    lookDown: 'Look down! 👇'
+  },
+  leaderboard: {
+    title: '🏆 Global Leaderboard',
+    topFlyers: 'Top flyers this month',
+    disclaimer: 'Rankings are based on level • Updated daily',
+    comingSoonTitle: 'Leaderboard coming soon',
+    comingSoonSubtitle: "We're building a real community of travelers. Be the first to know.",
+    emailPlaceholder: 'Enter your email',
+    notifyMe: 'Notify me',
+    thankYou: "You're on the list! We'll let you know when it launches.",
+    invalidEmail: 'Please enter a valid email address'
+  },
+  boardingPass: {
+    requestingPermission: 'Requesting camera permission...',
+    grantPermission: 'Grant Permission',
+    scanHint: 'Point at the barcode on your boarding pass',
+    couldNotRead: 'Could not read boarding pass'
   },
   settings: {
     account: 'Account',
@@ -120,7 +159,17 @@ export const en = {
     narratorVoice: 'Narrator voice',
     narratorDefault: '🎙️ Default',
     narratorDocumentary: '🎙️ Documentary',
-    narratorCasual: '🎙️ Casual friend'
+    narratorCasual: '🎙️ Casual friend',
+    privacyPolicy: 'Privacy Policy',
+    termsOfService: 'Terms of Service',
+    devTools: 'Dev Tools',
+    openSimulator: 'Open Simulator',
+    soundEffects: '🔊 Sound effects',
+    legal: 'Legal',
+    creditsTitle: 'Credits & Attribution',
+    attributionWikipedia: 'Wikipedia: Content licensed under CC-BY-SA 3.0. © Wikipedia contributors.',
+    attributionGeoNames: 'GeoNames: Geographic data © GeoNames.org, licensed under CC-BY 4.0.',
+    attributionOSM: 'Map data © OpenStreetMap contributors, licensed under ODbL.'
   },
   collection: {
     achievements: 'Achievements',
@@ -212,6 +261,7 @@ export const en = {
     step3: 'POI cards appear every 5 seconds',
     step4: 'Tap a card to see full details',
     oneTap: '🎬 ONE-TAP DEMO FLIGHT',
+    oneTapSub: 'Spawns demo • 30 min in • 60× speed',
     manualControls: 'Or use manual controls'
   },
   referral: {
@@ -248,7 +298,17 @@ export const en = {
     distance: 'Distance',
     shareMyYear: 'Share my year',
     shareMessage: 'My %{year} in the skies ✈️\n%{flights} flights • %{distance} flown\n%{countries} countries • %{discoveries} discoveries\nTracked with SkyAtlas',
-    tap: 'tap to continue'
+    tap: 'tap to continue',
+    noFlightsYet: 'No flights yet',
+    firstDestinationAwaits: 'Your first destination awaits',
+    startFlyingToUnlock: 'Start flying to unlock',
+    flyToDiscover: 'Fly to discover the world below',
+    ultraLongHaul: 'Ultra long-haul explorer',
+    longHaul: 'Long-haul traveller',
+    shortHaul: 'Short-haul hopper',
+    worldClassExplorer: 'World-class explorer 🌟',
+    curiousTraveller: 'Curious traveller 🔭',
+    beginningJourney: 'Beginning your journey 🌱'
   },
   flightSummary: {
     landed: "You've landed!",
@@ -262,7 +322,8 @@ export const en = {
     done: 'Done',
     flightDataNotFound: 'Flight data not found.',
     goHome: 'Go Home',
-    shareMessage: 'Just landed! Flew %{flightNumber} from %{origin} to %{destination} — %{distance} km, discovered %{places} amazing places along the way. #SkyAtlas'
+    shareMessage: 'Just landed! Flew %{flightNumber} from %{origin} to %{destination} — %{distance} km, discovered %{places} amazing places along the way. #SkyAtlas',
+    shareTitle: 'My Flight with SkyAtlas'
   },
   tabs: {
     flights: 'Flights',

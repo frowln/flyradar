@@ -96,6 +96,17 @@ export const de = {
     listen: 'Anhören',
     stop: 'Stopp'
   },
+  leaderboard: {
+    title: '🏆 Globale Bestenliste',
+    topFlyers: 'Top-Flieger diesen Monat',
+    disclaimer: 'Rangliste basiert auf Level • Täglich aktualisiert',
+    comingSoonTitle: 'Bestenliste kommt bald',
+    comingSoonSubtitle: 'Wir bauen eine echte Reisenden-Community auf. Sei der Erste.',
+    emailPlaceholder: 'E-Mail eingeben',
+    notifyMe: 'Benachrichtigen',
+    thankYou: 'Du bist auf der Liste! Wir informieren dich beim Start.',
+    invalidEmail: 'Bitte gib eine gültige E-Mail-Adresse ein'
+  },
   settings: {
     account: 'Konto',
     preferences: 'Einstellungen',
@@ -120,7 +131,17 @@ export const de = {
     narratorVoice: 'Erzählerstimme',
     narratorDefault: '🎙️ Standard',
     narratorDocumentary: '🎙️ Dokumentation',
-    narratorCasual: '🎙️ Lockerer Freund'
+    narratorCasual: '🎙️ Lockerer Freund',
+    legal: 'Rechtliches',
+    privacyPolicy: 'Datenschutzrichtlinie',
+    termsOfService: 'Nutzungsbedingungen',
+    devTools: 'Entwickler-Tools',
+    openSimulator: 'Simulator öffnen',
+    soundEffects: '🔊 Soundeffekte',
+    creditsTitle: 'Credits & Danksagungen',
+    attributionWikipedia: 'Wikipedia: Inhalte lizenziert unter CC-BY-SA 3.0. © Wikipedia-Autoren.',
+    attributionGeoNames: 'GeoNames: Geografische Daten © GeoNames.org, lizenziert unter CC-BY 4.0.',
+    attributionOSM: 'Kartendaten © OpenStreetMap-Mitwirkende, lizenziert unter ODbL.'
   },
   collection: {
     achievements: 'Errungenschaften',

@@ -8,6 +8,7 @@ export const ja = {
     settings: '設定',
     browse: 'フライトを探す',
     simulator: 'シミュレーター',
+    leaderboard: 'ランキング',
     worldMap: 'マイワールド',
     referral: '友達を招待',
     wrapped: '年間まとめ',
@@ -96,6 +97,17 @@ export const ja = {
     listen: '聴く',
     stop: '停止'
   },
+  leaderboard: {
+    title: '🏆 グローバルランキング',
+    topFlyers: '今月のトップフライヤー',
+    disclaimer: 'レベル順ランキング • 毎日更新',
+    comingSoonTitle: 'ランキングは近日公開',
+    comingSoonSubtitle: '本物の旅人コミュニティを構築中です。最初に知りましょう。',
+    emailPlaceholder: 'メールアドレスを入力',
+    notifyMe: '通知を受け取る',
+    thankYou: 'リストに登録されました！ローンチ時にお知らせします。',
+    invalidEmail: '有効なメールアドレスを入力してください'
+  },
   settings: {
     account: 'アカウント',
     preferences: '環境設定',
@@ -120,7 +132,17 @@ export const ja = {
     narratorVoice: 'ナレーターの声',
     narratorDefault: '🎙️ デフォルト',
     narratorDocumentary: '🎙️ ドキュメンタリー',
-    narratorCasual: '🎙️ カジュアルな友人'
+    narratorCasual: '🎙️ カジュアルな友人',
+    legal: '法的情報',
+    privacyPolicy: 'プライバシーポリシー',
+    termsOfService: '利用規約',
+    devTools: '開発者ツール',
+    openSimulator: 'シミュレーターを開く',
+    soundEffects: '🔊 サウンドエフェクト',
+    creditsTitle: 'クレジット＆帰属',
+    attributionWikipedia: 'Wikipedia: CC-BY-SA 3.0ライセンス。© Wikipedia執筆者。',
+    attributionGeoNames: 'GeoNames: 地理データ © GeoNames.org、CC-BY 4.0ライセンス。',
+    attributionOSM: '地図データ © OpenStreetMap貢献者、ODbLライセンス。'
   },
   collection: {
     achievements: '実績',

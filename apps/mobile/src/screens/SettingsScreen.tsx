@@ -139,8 +139,8 @@ export default function SettingsScreen() {
           accessibilityLabel={soundEnabled ? 'Disable sound effects' : 'Enable sound effects'}
           accessibilityRole="button"
         >
-          <Text style={[typography.body, styles.rowLabel]}>🔊 Sound effects</Text>
-          <Text style={[typography.body, styles.rowValue]}>{soundEnabled ? 'On' : 'Off'}</Text>
+          <Text style={[typography.body, styles.rowLabel]}>{t('settings.soundEffects')}</Text>
+          <Text style={[typography.body, styles.rowValue]}>{soundEnabled ? t('common.on') : t('common.off')}</Text>
         </Pressable>
       </View>
 
@@ -168,7 +168,7 @@ export default function SettingsScreen() {
           accessibilityLabel="Open Privacy Policy"
           accessibilityRole="link"
         >
-          <Text style={[typography.body, styles.rowLabel]}>Privacy Policy</Text>
+          <Text style={[typography.body, styles.rowLabel]}>{t('settings.privacyPolicy')}</Text>
           <Text style={styles.rowValue}>↗</Text>
         </Pressable>
         <View style={styles.divider} />
@@ -178,18 +178,40 @@ export default function SettingsScreen() {
           accessibilityLabel="Open Terms of Service"
           accessibilityRole="link"
         >
-          <Text style={[typography.body, styles.rowLabel]}>Terms of Service</Text>
+          <Text style={[typography.body, styles.rowLabel]}>{t('settings.termsOfService')}</Text>
           <Text style={styles.rowValue}>↗</Text>
         </Pressable>
+      </View>
+
+      {/* Credits & Attribution */}
+      <Text style={styles.sectionHeader}>{t('settings.creditsTitle')}</Text>
+      <View style={styles.section}>
+        <View style={styles.attributionRow}>
+          <Text style={[typography.caption, styles.attributionText]}>
+            {t('settings.attributionWikipedia')}
+          </Text>
+        </View>
+        <View style={styles.divider} />
+        <View style={styles.attributionRow}>
+          <Text style={[typography.caption, styles.attributionText]}>
+            {t('settings.attributionGeoNames')}
+          </Text>
+        </View>
+        <View style={styles.divider} />
+        <View style={styles.attributionRow}>
+          <Text style={[typography.caption, styles.attributionText]}>
+            {t('settings.attributionOSM')}
+          </Text>
+        </View>
       </View>
 
       {/* Dev Tools */}
       {__DEV__ && (
         <>
-          <Text style={styles.sectionHeader}>Dev Tools</Text>
+          <Text style={styles.sectionHeader}>{t('settings.devTools')}</Text>
           <View style={styles.section}>
             <Pressable style={styles.devButton} onPress={() => nav.navigate('Simulator')}>
-              <Text style={styles.devButtonText}>Open Simulator</Text>
+              <Text style={styles.devButtonText}>{t('settings.openSimulator')}</Text>
             </Pressable>
           </View>
         </>
@@ -230,6 +252,8 @@ const styles = StyleSheet.create({
   divider: { height: 1, backgroundColor: colors.border, marginHorizontal: 16 },
   aboutRow: { paddingHorizontal: 16, paddingVertical: 12 },
   aboutText: { textAlign: 'center', lineHeight: 18 },
+  attributionRow: { paddingHorizontal: 16, paddingVertical: 10 },
+  attributionText: { color: colors.textMuted, lineHeight: 18 },
   devButton: {
     margin: 16,
     backgroundColor: colors.surfaceElevated,

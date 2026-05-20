@@ -8,6 +8,7 @@ export const es = {
     settings: 'Ajustes',
     browse: 'Explorar vuelos',
     simulator: 'Simulador',
+    leaderboard: 'Clasificación',
     worldMap: 'Mi mundo',
     referral: 'Invitar amigos',
     wrapped: 'Resumen del año',
@@ -96,6 +97,17 @@ export const es = {
     listen: 'Escuchar',
     stop: 'Parar'
   },
+  leaderboard: {
+    title: '🏆 Clasificación global',
+    topFlyers: 'Mejores pilotos del mes',
+    disclaimer: 'Clasificación basada en nivel • Actualizada diariamente',
+    comingSoonTitle: 'Clasificación próximamente',
+    comingSoonSubtitle: 'Estamos construyendo una comunidad real de viajeros. Sé el primero en saberlo.',
+    emailPlaceholder: 'Introduce tu email',
+    notifyMe: 'Notificarme',
+    thankYou: '¡Estás en la lista! Te avisaremos cuando se lance.',
+    invalidEmail: 'Por favor introduce un email válido'
+  },
   settings: {
     account: 'Cuenta',
     preferences: 'Preferencias',
@@ -120,7 +132,17 @@ export const es = {
     narratorVoice: 'Voz del narrador',
     narratorDefault: '🎙️ Predeterminado',
     narratorDocumentary: '🎙️ Documental',
-    narratorCasual: '🎙️ Amigo casual'
+    narratorCasual: '🎙️ Amigo casual',
+    legal: 'Legal',
+    privacyPolicy: 'Política de privacidad',
+    termsOfService: 'Términos de servicio',
+    devTools: 'Herramientas de desarrollo',
+    openSimulator: 'Abrir simulador',
+    soundEffects: '🔊 Efectos de sonido',
+    creditsTitle: 'Créditos y atribución',
+    attributionWikipedia: 'Wikipedia: Contenido bajo licencia CC-BY-SA 3.0. © Colaboradores de Wikipedia.',
+    attributionGeoNames: 'GeoNames: Datos geográficos © GeoNames.org, licencia CC-BY 4.0.',
+    attributionOSM: 'Datos de mapas © colaboradores de OpenStreetMap, licencia ODbL.'
   },
   collection: {
     achievements: 'Logros',

@@ -8,6 +8,7 @@ export const ru = {
     settings: 'Настройки',
     browse: 'Все рейсы',
     simulator: 'Симулятор',
+    leaderboard: 'Рейтинг',
     worldMap: 'Мой мир',
     referral: 'Пригласить друзей',
     wrapped: 'Итоги года',
@@ -24,7 +25,17 @@ export const ru = {
     next: 'Далее',
     back: 'Назад',
     loading: 'Загрузка...',
-    offlineMode: '✈️ Офлайн-режим — данные о полёте работают'
+    offlineMode: '✈️ Офлайн-режим — данные о полёте работают',
+    gotIt: 'Понятно',
+    on: 'Вкл',
+    off: 'Выкл'
+  },
+  errors: {
+    somethingWrong: 'Что-то пошло не так',
+    tryAgain: 'Повторить',
+    cameraRequired: 'Для сканирования посадочного нужен доступ к камере.',
+    requestingPermission: 'Запрос разрешения камеры...',
+    couldNotRead: 'Не удалось прочитать посадочный'
   },
   home: {
     title: 'Мои рейсы',
@@ -34,7 +45,9 @@ export const ru = {
     explore: 'Исследовать любой рейс →',
     nextFlight: 'Ваш следующий рейс',
     in: 'через',
-    open: 'Открыть'
+    open: 'Открыть',
+    whereWillYouGo: 'Куда летим?',
+    addFirstFlight: 'Добавить первый рейс'
   },
   addFlight: {
     title: 'Добавить рейс',
@@ -43,7 +56,8 @@ export const ru = {
     date: 'Дата',
     scan: '📷 Сканировать посадочный',
     download: 'Загрузить и добавить рейс',
-    hint: 'Добавьте рейс до посадки, чтобы скачать контент офлайн.'
+    hint: 'Добавьте рейс до посадки, чтобы скачать контент офлайн.',
+    quickAdd: 'Быстрое добавление'
   },
   flightDetail: {
     startFlight: '✈ Начать полёт',
@@ -67,7 +81,11 @@ export const ru = {
     arrival: 'Прилёт',
     aircraft: 'Самолёт',
     locations: 'мест',
-    waypoints: 'точек'
+    waypoints: 'точек',
+    departs: 'Вылет',
+    arrives: 'Прилёт',
+    atCity: 'В %{city}',
+    wind: 'Ветер %{speed} км/ч'
   },
   inFlight: {
     exit: '← Выйти',
@@ -80,7 +98,11 @@ export const ru = {
     mode_offline: 'ОФЛАЙН',
     mode_live: '🔴 ЭФИР',
     noActiveFlight: 'Нет активного рейса.',
-    goHome: 'На главную'
+    goHome: 'На главную',
+    mode: 'Режим',
+    follow: 'Следить',
+    free: 'Свобода',
+    welcomeAboard: 'Добро пожаловать на борт'
   },
   poi: {
     readMore: 'Читать далее →',
@@ -94,7 +116,25 @@ export const ru = {
     population: 'Население',
     distance: 'Расстояние',
     listen: 'Слушать',
-    stop: 'Стоп'
+    stop: 'Стоп',
+    lookDown: 'Смотри вниз! 👇'
+  },
+  leaderboard: {
+    title: '🏆 Мировой рейтинг',
+    topFlyers: 'Лучшие этого месяца',
+    disclaimer: 'Рейтинг по уровню • Обновляется ежедневно',
+    comingSoonTitle: 'Рейтинг скоро появится',
+    comingSoonSubtitle: 'Мы создаём настоящее сообщество путешественников. Будьте первым.',
+    emailPlaceholder: 'Введите email',
+    notifyMe: 'Уведомить меня',
+    thankYou: 'Вы в списке! Мы сообщим, когда запустим.',
+    invalidEmail: 'Введите корректный email'
+  },
+  boardingPass: {
+    requestingPermission: 'Запрашиваем доступ к камере...',
+    grantPermission: 'Дать разрешение',
+    scanHint: 'Наведите на штрихкод вашего посадочного талона',
+    couldNotRead: 'Не удалось прочитать посадочный'
   },
   settings: {
     account: 'Аккаунт',
@@ -120,7 +160,17 @@ export const ru = {
     narratorVoice: 'Голос диктора',
     narratorDefault: '🎙️ По умолчанию',
     narratorDocumentary: '🎙️ Документальный',
-    narratorCasual: '🎙️ Дружеский'
+    narratorCasual: '🎙️ Дружеский',
+    privacyPolicy: 'Политика конфиденциальности',
+    termsOfService: 'Условия использования',
+    devTools: 'Инструменты разработчика',
+    openSimulator: 'Открыть симулятор',
+    soundEffects: '🔊 Звуковые эффекты',
+    legal: 'Правовая информация',
+    creditsTitle: 'Благодарности',
+    attributionWikipedia: 'Wikipedia: Контент под лицензией CC-BY-SA 3.0. © Авторы Wikipedia.',
+    attributionGeoNames: 'GeoNames: Географические данные © GeoNames.org, лицензия CC-BY 4.0.',
+    attributionOSM: 'Данные карт © участники OpenStreetMap, лицензия ODbL.'
   },
   collection: {
     achievements: 'Достижения',
@@ -212,6 +262,7 @@ export const ru = {
     step3: 'Карточки появляются каждые 5 сек',
     step4: 'Тапни карточку — увидишь детали',
     oneTap: '🎬 МГНОВЕННОЕ ДЕМО',
+    oneTapSub: 'Демо-рейс • 30 мин • скорость 60×',
     manualControls: 'Или ручное управление'
   },
   referral: {
@@ -262,7 +313,8 @@ export const ru = {
     done: 'Готово',
     flightDataNotFound: 'Данные рейса не найдены.',
     goHome: 'На главную',
-    shareMessage: 'Приземлился! Летел %{flightNumber} из %{origin} в %{destination} — %{distance} км, открыл %{places} удивительных мест по пути. #SkyAtlas'
+    shareMessage: 'Приземлился! Летел %{flightNumber} из %{origin} в %{destination} — %{distance} км, открыл %{places} удивительных мест по пути. #SkyAtlas',
+    shareTitle: 'Мой рейс в SkyAtlas'
   },
   tabs: {
     flights: 'Мои рейсы',
