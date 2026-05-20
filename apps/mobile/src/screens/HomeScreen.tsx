@@ -13,7 +13,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
-import { typography } from '../theme/typography';
+import { typography, fonts } from '../theme/typography';
 import { t } from '../i18n';
 import EmptyState from '../components/EmptyState';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
@@ -50,7 +50,7 @@ function formatCountdown(departure: string): string {
   const d = Math.floor(totalMins / 1440);
   const h = Math.floor((totalMins % 1440) / 60);
   const m = totalMins % 60;
-  if (d > 0) return `${d}d ${h}h ${m}m`;
+  if (d > 0) return `${d}d ${h}h`;
   if (h > 0) return `${h}h ${m}m`;
   return `${m}m`;
 }
@@ -61,6 +61,7 @@ function isUpcoming(departure: string): boolean {
 
 function HeroCard({ item, onPress }: { item: FlightRow; onPress: () => void }) {
   const [countdown, setCountdown] = useState(() => formatCountdown(item.pkg.flight.scheduledDeparture));
+  const pressAnim = useRef(new Animated.Value(1)).current;
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -69,40 +70,70 @@ function HeroCard({ item, onPress }: { item: FlightRow; onPress: () => void }) {
     return () => clearInterval(timer);
   }, [item.pkg.flight.scheduledDeparture]);
 
+  const handlePressIn = () => {
+    Animated.spring(pressAnim, { toValue: 0.97, useNativeDriver: true, tension: 300, friction: 20 }).start();
+  };
+  const handlePressOut = () => {
+    Animated.spring(pressAnim, { toValue: 1, useNativeDriver: true, tension: 300, friction: 20 }).start();
+  };
+
   const { flight } = item.pkg;
 
   return (
-    <LinearGradient
-      colors={[colors.primary, '#1A4A8E']}
-      start={{ x: 0, y: 0 }}
-      end={{ x: 1, y: 1 }}
-      style={styles.heroCard}
-    >
-      <Text style={styles.heroLabel}>{t('home.nextFlight')}</Text>
-      <View style={styles.heroFlightRow}>
-        <Text style={styles.heroFlightNumber}>{flight.flightNumber}</Text>
-        {flight.airline ? <Text style={styles.heroAirline}>{flight.airline}</Text> : null}
-      </View>
-      {countdown ? (
-        <Text style={styles.heroCountdown}>
-          {t('home.in')} {countdown}
-        </Text>
-      ) : null}
-      <View style={styles.heroRoute}>
-        <View style={styles.heroAirport}>
-          <Text style={styles.heroIata}>{flight.origin.iata}</Text>
-          <Text style={styles.heroCity}>{flight.origin.city}</Text>
-        </View>
-        <Text style={styles.heroArrow}>→</Text>
-        <View style={[styles.heroAirport, styles.heroAirportRight]}>
-          <Text style={styles.heroIata}>{flight.destination.iata}</Text>
-          <Text style={styles.heroCity}>{flight.destination.city}</Text>
-        </View>
-      </View>
-      <Pressable style={styles.heroButton} onPress={onPress}>
-        <Text style={styles.heroButtonText}>{t('home.open')}</Text>
+    <Animated.View style={[styles.heroWrapper, { transform: [{ scale: pressAnim }] }]}>
+      <Pressable
+        onPress={onPress}
+        onPressIn={handlePressIn}
+        onPressOut={handlePressOut}
+      >
+        <LinearGradient
+          colors={['#1A2560', '#0E1530', '#0A0B14']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.heroCard}
+        >
+          {/* Glow accent */}
+          <View style={styles.heroGlow} pointerEvents="none" />
+
+          {/* Header row */}
+          <View style={styles.heroHeader}>
+            <Text style={styles.heroLabel}>{t('home.nextFlight')}</Text>
+            <Text style={styles.heroFlightNumber}>{flight.flightNumber}</Text>
+          </View>
+
+          {/* Route — big serif airport codes */}
+          <View style={styles.heroRoute}>
+            <View style={styles.heroAirport}>
+              <Text style={styles.heroIata}>{flight.origin.iata}</Text>
+              <Text style={styles.heroCity}>{flight.origin.city}</Text>
+            </View>
+            <Text style={styles.heroArrow}>→</Text>
+            <View style={[styles.heroAirport, styles.heroAirportRight]}>
+              <Text style={styles.heroIata}>{flight.destination.iata}</Text>
+              <Text style={styles.heroCity}>{flight.destination.city}</Text>
+            </View>
+          </View>
+
+          {/* Countdown — huge serif */}
+          {countdown ? (
+            <View style={styles.heroCountdownBlock}>
+              <Text style={styles.heroDepartingLabel}>Departing in</Text>
+              <Text style={styles.heroCountdown}>{countdown}</Text>
+            </View>
+          ) : null}
+
+          {/* CTA */}
+          <View style={styles.heroButtonRow}>
+            <View style={styles.heroButton}>
+              <Text style={styles.heroButtonText}>{t('home.open')}</Text>
+            </View>
+            {flight.airline ? (
+              <Text style={styles.heroAirline}>{flight.airline}</Text>
+            ) : null}
+          </View>
+        </LinearGradient>
       </Pressable>
-    </LinearGradient>
+    </Animated.View>
   );
 }
 
@@ -120,7 +151,6 @@ export default function HomeScreen() {
       const pkg = await loadPackage(row.flightId);
       if (pkg) loaded.push({ flightId: row.flightId, downloadedAt: row.downloadedAt, pkg });
     }
-    // Sort: upcoming first (soonest first), then past (most recent first)
     loaded.sort((a, b) => {
       const aUp = isUpcoming(a.pkg.flight.scheduledDeparture);
       const bUp = isUpcoming(b.pkg.flight.scheduledDeparture);
@@ -138,7 +168,6 @@ export default function HomeScreen() {
     loadFlights().finally(() => setLoading(false));
   }, []);
 
-  // Reload list whenever screen comes into focus (after adding a flight)
   useFocusEffect(
     useCallback(() => {
       loadFlights();
@@ -159,9 +188,7 @@ export default function HomeScreen() {
     );
   }
 
-  // Find the soonest upcoming flight for the hero card
   const heroFlight = flights.find((f) => isUpcoming(f.pkg.flight.scheduledDeparture));
-  // Regular list: all flights except the hero one
   const regularFlights = heroFlight
     ? flights.filter((f) => f.flightId !== heroFlight.flightId)
     : flights;
@@ -182,7 +209,7 @@ export default function HomeScreen() {
         ListHeaderComponent={
           <View>
             <View style={styles.header}>
-              <Text style={typography.h1}>{t('home.title')}</Text>
+              <Text style={styles.screenTitle}>{t('home.title')}</Text>
             </View>
             {heroFlight ? (
               <HeroCard
@@ -249,75 +276,129 @@ const styles = StyleSheet.create({
   center: { flex: 1, backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center' },
   header: {
     paddingHorizontal: 16,
-    paddingTop: 16,
+    paddingTop: 20,
     marginBottom: 16
+  },
+  screenTitle: {
+    fontFamily: fonts.displayBold,
+    fontSize: 32,
+    lineHeight: 38,
+    letterSpacing: -0.8,
+    color: colors.text
   },
   list: { padding: 16, gap: 12 },
   emptyList: { flex: 1 },
 
   // Hero card
-  heroCard: {
+  heroWrapper: {
     marginHorizontal: 16,
     marginBottom: 8,
-    borderRadius: 20,
-    padding: 20,
-    gap: 10,
     shadowColor: colors.primary,
-    shadowOffset: { width: 0, height: 6 },
-    shadowOpacity: 0.5,
-    shadowRadius: 12,
-    elevation: 10
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.35,
+    shadowRadius: 20,
+    elevation: 12
+  },
+  heroCard: {
+    borderRadius: 24,
+    padding: 22,
+    gap: 14,
+    overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: 'rgba(94,139,255,0.2)'
+  },
+  heroGlow: {
+    position: 'absolute',
+    top: -60,
+    right: -60,
+    width: 200,
+    height: 200,
+    borderRadius: 100,
+    backgroundColor: 'rgba(94,139,255,0.12)'
+  },
+  heroHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
   },
   heroLabel: {
-    color: 'rgba(255,255,255,0.75)',
-    fontSize: 12,
-    fontWeight: '700',
-    letterSpacing: 1,
+    fontFamily: fonts.bodySemi,
+    color: 'rgba(255,255,255,0.5)',
+    fontSize: 11,
+    letterSpacing: 1.5,
     textTransform: 'uppercase'
   },
-  heroFlightRow: {
-    flexDirection: 'row',
-    alignItems: 'baseline',
-    gap: 10
-  },
   heroFlightNumber: {
-    color: '#FFFFFF',
-    fontSize: 22,
-    fontWeight: '800'
-  },
-  heroAirline: {
-    color: 'rgba(255,255,255,0.7)',
-    fontSize: 14,
-    fontWeight: '500'
-  },
-  heroCountdown: {
-    color: '#FFFFFF',
-    fontSize: 32,
-    fontWeight: '800',
-    letterSpacing: -0.5
+    fontFamily: fonts.mono,
+    color: colors.primary,
+    fontSize: 13,
+    letterSpacing: 1
   },
   heroRoute: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 12,
-    marginTop: 4
+    gap: 8
   },
-  heroAirport: { gap: 2 },
+  heroAirport: { gap: 3 },
   heroAirportRight: { alignItems: 'flex-end' },
-  heroIata: { color: '#FFFFFF', fontSize: 26, fontWeight: '700' },
-  heroCity: { color: 'rgba(255,255,255,0.7)', fontSize: 12 },
-  heroArrow: { flex: 1, textAlign: 'center', color: 'rgba(255,255,255,0.6)', fontSize: 22 },
+  heroIata: {
+    fontFamily: fonts.display,
+    color: '#FFFFFF',
+    fontSize: 48,
+    lineHeight: 52,
+    letterSpacing: -1.5
+  },
+  heroCity: {
+    fontFamily: fonts.body,
+    color: 'rgba(255,255,255,0.55)',
+    fontSize: 12
+  },
+  heroArrow: {
+    flex: 1,
+    textAlign: 'center',
+    color: 'rgba(255,255,255,0.35)',
+    fontSize: 20,
+    fontFamily: fonts.body
+  },
+  heroCountdownBlock: { gap: 2 },
+  heroDepartingLabel: {
+    fontFamily: fonts.bodySemi,
+    fontSize: 11,
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
+    color: 'rgba(255,255,255,0.45)'
+  },
+  heroCountdown: {
+    fontFamily: fonts.display,
+    color: '#FFFFFF',
+    fontSize: 42,
+    lineHeight: 46,
+    letterSpacing: -1.5
+  },
+  heroButtonRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 2
+  },
   heroButton: {
-    marginTop: 4,
-    backgroundColor: 'rgba(255,255,255,0.2)',
+    backgroundColor: 'rgba(255,255,255,0.12)',
     borderWidth: 1,
-    borderColor: 'rgba(255,255,255,0.4)',
+    borderColor: 'rgba(255,255,255,0.25)',
     paddingVertical: 10,
     paddingHorizontal: 20,
-    borderRadius: 10,
-    alignSelf: 'flex-start'
+    borderRadius: 12
   },
-  heroButtonText: { color: '#FFFFFF', fontSize: 14, fontWeight: '700' },
+  heroButtonText: {
+    fontFamily: fonts.bodyBold,
+    color: '#FFFFFF',
+    fontSize: 14
+  },
+  heroAirline: {
+    fontFamily: fonts.body,
+    color: 'rgba(255,255,255,0.4)',
+    fontSize: 13
+  },
 
   // Regular cards
   card: {
@@ -334,11 +415,16 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   flightNumber: {
+    fontFamily: fonts.monoMedium,
     color: colors.text,
-    fontSize: 18,
-    fontWeight: '700'
+    fontSize: 15,
+    letterSpacing: 0.5
   },
-  duration: { color: colors.textMuted, fontSize: 13 },
+  duration: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 13
+  },
   route: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -346,10 +432,29 @@ const styles = StyleSheet.create({
   },
   airport: { gap: 2 },
   airportRight: { alignItems: 'flex-end' },
-  iata: { color: colors.text, fontSize: 22, fontWeight: '700' },
-  city: { color: colors.textMuted, fontSize: 12 },
-  arrow: { flex: 1, textAlign: 'center', color: colors.primary, fontSize: 20 },
-  date: { color: colors.textMuted, fontSize: 12 },
+  iata: {
+    fontFamily: fonts.displayBold,
+    color: colors.text,
+    fontSize: 24,
+    letterSpacing: -0.5
+  },
+  city: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 12
+  },
+  arrow: {
+    flex: 1,
+    textAlign: 'center',
+    color: colors.primary,
+    fontSize: 18,
+    fontFamily: fonts.body
+  },
+  date: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 12
+  },
   fab: {
     position: 'absolute',
     bottom: 32,
@@ -362,9 +467,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     shadowColor: colors.primary,
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.4,
-    shadowRadius: 8,
+    shadowOpacity: 0.45,
+    shadowRadius: 12,
     elevation: 8
   },
-  fabText: { color: colors.text, fontSize: 28, fontWeight: '300', lineHeight: 32 },
+  fabText: {
+    fontFamily: fonts.body,
+    color: colors.text,
+    fontSize: 28,
+    lineHeight: 32
+  }
 });

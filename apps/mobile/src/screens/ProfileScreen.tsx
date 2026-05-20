@@ -13,7 +13,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
-import { typography } from '../theme/typography';
+import { typography, fonts } from '../theme/typography';
 import { collectionsStore } from '../core/gamification/collections';
 import { levelFromXP, calculateXP, rankFromLevel } from '../core/gamification/levels';
 import { ACHIEVEMENTS } from '../core/gamification/achievements';
@@ -51,8 +51,6 @@ export default function ProfileScreen() {
   const stats = collectionsStore.getStats();
   const earnedCount = collectionsStore.getEarnedAchievements().length;
   const totalAchievements = ACHIEVEMENTS.length;
-  // Build flight logs from firstFlightDate for streak calculation (simple: use total flights as proxy)
-  // Use firstFlightDate if available; streak shows currentStreak from stored stats
   const streakFlights = stats.firstFlightDate
     ? [{ date: stats.firstFlightDate }]
     : [];
@@ -78,7 +76,6 @@ export default function ProfileScreen() {
 
   const onRefresh = useCallback(() => {
     setRefreshing(true);
-    // collectionsStore is synchronous MMKV — bump version to re-render fresh stats
     setStatsVersion((v) => v + 1);
     setRefreshing(false);
   }, []);
@@ -125,14 +122,11 @@ export default function ProfileScreen() {
           ))}
         </View>
 
-        {/* Avatar with rank icon overlay */}
+        {/* Avatar */}
         <View style={styles.avatarContainer}>
           <View style={[
             styles.avatarCircle,
-            {
-              borderColor: rank.color,
-              shadowColor: rank.color,
-            }
+            { borderColor: rank.color, shadowColor: rank.color }
           ]}>
             <Text style={styles.avatarEmoji}>🧑‍✈️</Text>
           </View>
@@ -141,11 +135,14 @@ export default function ProfileScreen() {
           </View>
         </View>
 
+        {/* Name in Fraunces serif */}
         <Text style={styles.displayName}>{t('profile.guest')}</Text>
         <Text style={[styles.rankName, { color: rank.color }]}>{rank.name}</Text>
-        <Text style={styles.levelLabel}>{t('profile.level', { level: lvl.level })}</Text>
 
-        {/* Larger animated XP progress bar */}
+        {/* Level in monospace — aviation cockpit feel */}
+        <Text style={styles.levelLabel}>Lvl {lvl.level}</Text>
+
+        {/* XP progress bar */}
         <View style={styles.progressBarOuter}>
           <Animated.View
             style={[
@@ -164,7 +161,7 @@ export default function ProfileScreen() {
         <Text style={styles.memberSince}>Member since {MEMBER_SINCE}</Text>
       </LinearGradient>
 
-      {/* Stats row */}
+      {/* Stats row — big mono numbers */}
       <View style={styles.statsRow}>
         <View style={styles.statCell}>
           <Text style={styles.statValue}>{stats.totalFlights}</Text>
@@ -314,10 +311,7 @@ const styles = StyleSheet.create({
 
   confettiLayer: {
     position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0
+    top: 0, left: 0, right: 0, bottom: 0
   },
   confettiChar: {
     position: 'absolute',
@@ -357,9 +351,24 @@ const styles = StyleSheet.create({
   },
   rankIconText: { fontSize: 16 },
 
-  displayName: { color: colors.text, fontSize: 22, fontWeight: '700' },
-  rankName: { fontSize: 14, fontWeight: '600' },
-  levelLabel: { color: 'rgba(255,255,255,0.7)', fontSize: 13 },
+  // Serif display name
+  displayName: {
+    fontFamily: fonts.displayBold,
+    color: colors.text,
+    fontSize: 26,
+    letterSpacing: -0.5
+  },
+  rankName: {
+    fontFamily: fonts.bodySemi,
+    fontSize: 14
+  },
+  // Monospace level
+  levelLabel: {
+    fontFamily: fonts.monoMedium,
+    color: 'rgba(255,255,255,0.7)',
+    fontSize: 16,
+    letterSpacing: 0.5
+  },
 
   progressBarOuter: {
     width: '72%',
@@ -370,8 +379,17 @@ const styles = StyleSheet.create({
     marginTop: 6
   },
   progressFill: { height: '100%', borderRadius: 5 },
-  xpLabel: { color: 'rgba(255,255,255,0.6)', fontSize: 12 },
-  memberSince: { color: 'rgba(255,255,255,0.4)', fontSize: 11, marginTop: 2 },
+  xpLabel: {
+    fontFamily: fonts.mono,
+    color: 'rgba(255,255,255,0.6)',
+    fontSize: 12
+  },
+  memberSince: {
+    fontFamily: fonts.body,
+    color: 'rgba(255,255,255,0.4)',
+    fontSize: 11,
+    marginTop: 2
+  },
 
   statsRow: {
     flexDirection: 'row',
@@ -383,16 +401,26 @@ const styles = StyleSheet.create({
     marginHorizontal: 16
   },
   statCell: { flex: 1, alignItems: 'center', gap: 4 },
-  statValue: { color: colors.text, fontSize: 24, fontWeight: '700' },
-  statLabel: { color: colors.textMuted, fontSize: 12 },
+  // Big mono numbers in stats
+  statValue: {
+    fontFamily: fonts.monoMedium,
+    color: colors.text,
+    fontSize: 26,
+    letterSpacing: -0.5
+  },
+  statLabel: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 12
+  },
   statDivider: { width: 1, backgroundColor: colors.border },
 
   sectionHeader: {
+    fontFamily: fonts.bodySemi,
     color: colors.textMuted,
-    fontSize: 12,
-    fontWeight: '600',
+    fontSize: 11,
     textTransform: 'uppercase',
-    letterSpacing: 0.8,
+    letterSpacing: 1.5,
     marginTop: 8,
     marginBottom: 2,
     marginLeft: 20
@@ -413,9 +441,13 @@ const styles = StyleSheet.create({
     gap: 12
   },
   menuIcon: { fontSize: 20, width: 28, textAlign: 'center' },
-  menuLabel: { flex: 1, color: colors.text },
+  menuLabel: { flex: 1, color: colors.text, fontFamily: fonts.body },
   menuLabelGroup: { flex: 1, gap: 2 },
-  chevron: { color: colors.textMuted, fontSize: 20 },
+  chevron: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 20
+  },
   divider: { height: 1, backgroundColor: colors.border, marginLeft: 56 },
 
   statsGrid: {
@@ -434,8 +466,18 @@ const styles = StyleSheet.create({
     borderColor: colors.border
   },
   statCardIcon: { fontSize: 24 },
-  statCardValue: { color: colors.text, fontSize: 20, fontWeight: '700' },
-  statCardLabel: { color: colors.textMuted, fontSize: 11, textAlign: 'center' },
+  statCardValue: {
+    fontFamily: fonts.monoMedium,
+    color: colors.text,
+    fontSize: 22,
+    letterSpacing: -0.5
+  },
+  statCardLabel: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 11,
+    textAlign: 'center'
+  },
 
   upgradeButton: {
     flexDirection: 'row',
@@ -449,5 +491,9 @@ const styles = StyleSheet.create({
     marginHorizontal: 16
   },
   upgradeIcon: { fontSize: 18 },
-  upgradeText: { color: colors.text, fontSize: 16, fontWeight: '700' }
+  upgradeText: {
+    fontFamily: fonts.bodyBold,
+    color: colors.text,
+    fontSize: 16
+  }
 });

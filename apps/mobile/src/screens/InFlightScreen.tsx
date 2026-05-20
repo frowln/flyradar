@@ -4,6 +4,7 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
 import { colors } from '../theme/colors';
+import { fonts } from '../theme/typography';
 import FlightMap from '../components/FlightMap';
 import FlightStats from '../components/FlightStats';
 import POICard from '../components/POICard';
@@ -287,10 +288,10 @@ const styles = StyleSheet.create({
   topButtonActive: {
     borderColor: colors.primary
   },
-  topButtonText: { color: colors.text, fontSize: 14, fontWeight: '600' },
-  topButtonCaption: { color: colors.textMuted, fontSize: 9, fontWeight: '500', textAlign: 'center', marginTop: 2 },
+  topButtonText: { fontFamily: fonts.bodySemi, color: colors.text, fontSize: 14 },
+  topButtonCaption: { fontFamily: fonts.mono, color: colors.textMuted, fontSize: 9, textAlign: 'center', marginTop: 2 },
   routeChip: {
-    backgroundColor: 'rgba(10, 14, 26, 0.85)',
+    backgroundColor: 'rgba(10, 11, 20, 0.88)',
     paddingHorizontal: 16,
     paddingVertical: 8,
     borderRadius: 20,
@@ -298,8 +299,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.border
   },
-  routeText: { color: colors.text, fontSize: 15, fontWeight: '700' },
-  flightNumText: { color: colors.primary, fontSize: 11, fontWeight: '600' },
+  routeText: { fontFamily: fonts.monoMedium, color: colors.text, fontSize: 15, letterSpacing: 0.5 },
+  flightNumText: { fontFamily: fonts.mono, color: colors.primary, fontSize: 11, letterSpacing: 0.5 },
 
   topRightGroup: {
     flexDirection: 'row',
@@ -330,15 +331,17 @@ const styles = StyleSheet.create({
     gap: 16
   },
   tutorialTitle: {
+    fontFamily: fonts.displayBold,
     color: colors.text,
-    fontSize: 18,
-    fontWeight: '700',
+    fontSize: 22,
+    letterSpacing: -0.4,
     textAlign: 'center'
   },
   tutorialRows: {
     gap: 12
   },
   tutorialRow: {
+    fontFamily: fonts.body,
     color: colors.textMuted,
     fontSize: 15,
     lineHeight: 22
@@ -351,8 +354,8 @@ const styles = StyleSheet.create({
     marginTop: 4
   },
   tutorialDismissText: {
+    fontFamily: fonts.bodyBold,
     color: colors.text,
-    fontSize: 16,
-    fontWeight: '700'
+    fontSize: 16
   }
 });

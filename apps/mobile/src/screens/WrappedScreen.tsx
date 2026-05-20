@@ -14,6 +14,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import type { RootStackParamList } from '../navigation/types';
 import { collectionsStore } from '../core/gamification/collections';
+import { fonts } from '../theme/typography';
 import { t } from '../i18n';
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
@@ -22,7 +23,7 @@ const YEAR = new Date().getFullYear();
 type Props = NativeStackScreenProps<RootStackParamList, 'Wrapped'>;
 
 const SLIDE_GRADIENTS: [string, string][] = [
-  ['#0A0E1A', '#1A2560'],
+  ['#0A0B14', '#1A2560'],
   ['#0D2137', '#1B6CA8'],
   ['#1A1A0A', '#4A6A1A'],
   ['#1A0A2E', '#5C1A8A'],
@@ -77,10 +78,7 @@ export default function WrappedScreen({ navigation }: Props) {
       {/* Dot indicators */}
       <View style={styles.dotsRow} pointerEvents="none">
         {SLIDES.map((_, i) => (
-          <View
-            key={i}
-            style={[styles.dot, i === activeIndex && styles.dotActive]}
-          />
+          <View key={i} style={[styles.dot, i === activeIndex && styles.dotActive]} />
         ))}
       </View>
 
@@ -109,10 +107,7 @@ export default function WrappedScreen({ navigation }: Props) {
 
             {/* Tap zones */}
             <View style={styles.tapZones} pointerEvents="box-none">
-              <Pressable
-                style={styles.tapLeft}
-                onPress={() => handleTap('left')}
-              />
+              <Pressable style={styles.tapLeft} onPress={() => handleTap('left')} />
               <Pressable
                 style={styles.tapRight}
                 onPress={() => i === SLIDES.length - 1 ? handleShare() : handleTap('right')}
@@ -144,7 +139,9 @@ function buildSlides(opts: {
       content: (
         <View style={styles.slideContent}>
           <Text style={styles.slideLabel}>{t('wrapped.skyatlas')}</Text>
+          {/* Massive Fraunces year watermark */}
           <Text style={styles.heroYear}>{year}</Text>
+          {/* Big serif hero title */}
           <Text style={styles.heroTitle}>{t('wrapped.yourYear')}</Text>
           <View style={styles.heroNumbers}>
             <HeroStat value={stats.totalFlights.toString()} label={t('wrapped.flights')} />
@@ -162,6 +159,7 @@ function buildSlides(opts: {
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>🌍</Text>
           <Text style={styles.slideSuperTitle}>{t('wrapped.youFlew')}</Text>
+          {/* Hero number in 56px Fraunces */}
           <Text style={styles.slideBigNumber}>{distanceLabel}</Text>
           <Text style={styles.slideSubtitle}>
             {t('wrapped.aroundEarth')}{'\n'}
@@ -182,9 +180,7 @@ function buildSlides(opts: {
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>🗺️</Text>
           <Text style={styles.slideSuperTitle}>{t('wrapped.youCrossed')}</Text>
-          <Text style={styles.slideBigNumber}>
-            {stats.countriesFlownOver.length}
-          </Text>
+          <Text style={styles.slideBigNumber}>{stats.countriesFlownOver.length}</Text>
           <Text style={styles.slideSubtitle}>{t('wrapped.countries')}</Text>
           {stats.countriesFlownOver.length > 0 && (
             <View style={styles.countryPills}>
@@ -195,9 +191,7 @@ function buildSlides(opts: {
               ))}
               {stats.countriesFlownOver.length > 5 && (
                 <View style={styles.countryPill}>
-                  <Text style={styles.countryPillText}>
-                    +{stats.countriesFlownOver.length - 5} more
-                  </Text>
+                  <Text style={styles.countryPillText}>+{stats.countriesFlownOver.length - 5} more</Text>
                 </View>
               )}
             </View>
@@ -227,9 +221,7 @@ function buildSlides(opts: {
               : 'No flights yet'}
           </Text>
           <Text style={styles.slideFootnote}>
-            {stats.nightFlights > 0
-              ? `${stats.nightFlights} of those were night flights 🌙`
-              : ''}
+            {stats.nightFlights > 0 ? `${stats.nightFlights} of those were night flights 🌙` : ''}
           </Text>
         </View>
       ),
@@ -242,9 +234,7 @@ function buildSlides(opts: {
           <Text style={styles.slideEmoji}>🛫</Text>
           <Text style={styles.slideSuperTitle}>{t('wrapped.mostVisitedRegion')}</Text>
           <Text style={styles.slideBigNumber}>
-            {stats.countriesFlownOver.length > 0
-              ? stats.countriesFlownOver[0]
-              : '—'}
+            {stats.countriesFlownOver.length > 0 ? stats.countriesFlownOver[0] : '—'}
           </Text>
           <Text style={styles.slideSubtitle}>
             {stats.continentsVisited.length > 0
@@ -272,9 +262,7 @@ function buildSlides(opts: {
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>📍</Text>
           <Text style={styles.slideSuperTitle}>{t('wrapped.pointsOfInterest')}</Text>
-          <Text style={styles.slideBigNumber}>
-            {stats.poisDiscovered.toLocaleString()}
-          </Text>
+          <Text style={styles.slideBigNumber}>{stats.poisDiscovered.toLocaleString()}</Text>
           <Text style={styles.slideSubtitle}>
             {stats.poisDiscovered === 0
               ? t('wrapped.awaitYou')
@@ -319,6 +307,7 @@ function buildSlides(opts: {
 function HeroStat({ value, label }: { value: string; label: string }) {
   return (
     <View style={styles.heroStat}>
+      {/* Big mono number for aviation feel */}
       <Text style={styles.heroStatValue}>{value}</Text>
       <Text style={styles.heroStatLabel}>{label}</Text>
     </View>
@@ -346,7 +335,7 @@ function ShareButton({ onPress }: { onPress: () => void }) {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: '#0A0E1A',
+    backgroundColor: '#0A0B14',
   },
 
   dotsRow: {
@@ -365,9 +354,7 @@ const styles = StyleSheet.create({
     borderRadius: 2,
     backgroundColor: 'rgba(255,255,255,0.3)',
   },
-  dotActive: {
-    backgroundColor: '#FFFFFF',
-  },
+  dotActive: { backgroundColor: '#FFFFFF' },
 
   closeBtn: {
     position: 'absolute',
@@ -382,9 +369,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   closeBtnText: {
+    fontFamily: fonts.bodyBold,
     color: '#FFFFFF',
     fontSize: 14,
-    fontWeight: '700',
   },
 
   slide: {
@@ -404,33 +391,33 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject,
     flexDirection: 'row',
   },
-  tapLeft: {
-    flex: 1,
-  },
-  tapRight: {
-    flex: 1,
-  },
+  tapLeft: { flex: 1 },
+  tapRight: { flex: 1 },
 
   slideLabel: {
+    fontFamily: fonts.bodySemi,
     color: 'rgba(255,255,255,0.5)',
     fontSize: 13,
-    fontWeight: '600',
     letterSpacing: 2,
     textTransform: 'uppercase',
     marginBottom: 4,
   },
+  // Huge Fraunces watermark year
   heroYear: {
-    color: 'rgba(255,255,255,0.25)',
+    fontFamily: fonts.display,
+    color: 'rgba(255,255,255,0.12)',
     fontSize: 80,
-    fontWeight: '900',
     lineHeight: 80,
+    letterSpacing: -3,
     marginBottom: -8,
   },
+  // Big serif hero title
   heroTitle: {
+    fontFamily: fonts.display,
     color: '#FFFFFF',
     fontSize: 44,
-    fontWeight: '800',
-    lineHeight: 50,
+    lineHeight: 48,
+    letterSpacing: -1.5,
   },
   heroNumbers: {
     flexDirection: 'row',
@@ -443,50 +430,53 @@ const styles = StyleSheet.create({
     borderRightWidth: 1,
     borderRightColor: 'rgba(255,255,255,0.15)',
   },
+  // Mono numbers for aviation data feel
   heroStatValue: {
-    color: '#FFC857',
-    fontSize: 26,
-    fontWeight: '800',
+    fontFamily: fonts.monoMedium,
+    color: '#FFB547',
+    fontSize: 22,
+    letterSpacing: -0.5,
   },
   heroStatLabel: {
+    fontFamily: fonts.body,
     color: 'rgba(255,255,255,0.6)',
     fontSize: 12,
     marginTop: 2,
   },
   swipeHint: {
+    fontFamily: fonts.body,
     color: 'rgba(255,255,255,0.35)',
     fontSize: 13,
     marginTop: 40,
     textAlign: 'center',
   },
 
-  slideEmoji: {
-    fontSize: 52,
-    marginBottom: 8,
-  },
+  slideEmoji: { fontSize: 52, marginBottom: 8 },
   slideSuperTitle: {
+    fontFamily: fonts.bodyMedium,
     color: 'rgba(255,255,255,0.6)',
     fontSize: 18,
-    fontWeight: '500',
   },
+  // Hero 56px Fraunces for big slide numbers
   slideBigNumber: {
+    fontFamily: fonts.display,
     color: '#FFFFFF',
-    fontSize: 68,
-    fontWeight: '900',
-    lineHeight: 72,
+    fontSize: 56,
+    lineHeight: 60,
     letterSpacing: -2,
   },
   slideSubtitle: {
+    fontFamily: fonts.bodySemi,
     color: 'rgba(255,255,255,0.75)',
     fontSize: 22,
-    fontWeight: '600',
     lineHeight: 30,
   },
   slideAccent: {
-    color: '#FFC857',
-    fontWeight: '800',
+    fontFamily: fonts.bodyBold,
+    color: '#FFB547',
   },
   slideFootnote: {
+    fontFamily: fonts.body,
     color: 'rgba(255,255,255,0.45)',
     fontSize: 14,
     marginTop: 8,
@@ -505,16 +495,17 @@ const styles = StyleSheet.create({
     paddingVertical: 6,
   },
   countryPillText: {
+    fontFamily: fonts.bodySemi,
     color: '#FFFFFF',
     fontSize: 13,
-    fontWeight: '600',
   },
 
   shareTitle: {
+    fontFamily: fonts.display,
     color: '#FFFFFF',
     fontSize: 38,
-    fontWeight: '800',
-    lineHeight: 44,
+    lineHeight: 42,
+    letterSpacing: -1,
   },
   shareSummaryBox: {
     backgroundColor: 'rgba(255,255,255,0.08)',
@@ -530,31 +521,30 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 12,
   },
-  shareRowIcon: {
-    fontSize: 20,
-    width: 28,
-  },
+  shareRowIcon: { fontSize: 20, width: 28 },
   shareRowLabel: {
+    fontFamily: fonts.body,
     flex: 1,
     color: 'rgba(255,255,255,0.6)',
     fontSize: 14,
   },
   shareRowValue: {
+    fontFamily: fonts.monoMedium,
     color: '#FFFFFF',
     fontSize: 15,
-    fontWeight: '700',
+    letterSpacing: -0.3,
   },
   shareButton: {
     marginTop: 24,
-    backgroundColor: '#FFC857',
+    backgroundColor: '#FFB547',
     borderRadius: 16,
     paddingVertical: 16,
     alignItems: 'center',
   },
   shareButtonText: {
-    color: '#0A0E1A',
+    fontFamily: fonts.bodyBold,
+    color: '#0A0B14',
     fontSize: 17,
-    fontWeight: '800',
     letterSpacing: 0.3,
   },
 });

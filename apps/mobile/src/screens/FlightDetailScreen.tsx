@@ -14,7 +14,7 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
 import { colors } from '../theme/colors';
-import { typography } from '../theme/typography';
+import { typography, fonts } from '../theme/typography';
 import { loadPackage } from '../core/offline/poiDatabase';
 import { downloadPackage } from '../core/offline/packageDownloader';
 import { fetchWeather, weatherIcon, packingList, type WeatherForecast } from '../core/api/weather';
@@ -45,7 +45,6 @@ function formatBytes(bytes: number): string {
 }
 
 function estimatePackageSize(pkg: OfflinePackage): number {
-  // Rough estimate: JSON serialization size
   return new Blob([JSON.stringify(pkg)]).size;
 }
 
@@ -63,7 +62,6 @@ export default function FlightDetailScreen() {
   useEffect(() => {
     loadPackage(flightId)
       .then(async (p) => {
-        // Auto-refresh from backend if package has no POIs (stale cache)
         if (p && p.pois.length === 0) {
           const [flightNumber, date] = flightId.split(/-(.+)/);
           try {
@@ -137,7 +135,7 @@ export default function FlightDetailScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      {/* Route header */}
+      {/* Route header — big serif airport codes */}
       <View style={styles.routeCard}>
         <View style={styles.routeRow}>
           <View style={styles.airportBlock}>
@@ -245,20 +243,44 @@ const styles = StyleSheet.create({
 
   routeCard: {
     backgroundColor: colors.surface,
-    borderRadius: 16,
-    padding: 20,
+    borderRadius: 20,
+    padding: 24,
     borderWidth: 1,
     borderColor: colors.border
   },
   routeRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   airportBlock: { flex: 1, gap: 4 },
   airportRight: { alignItems: 'flex-end' },
-  iata: { color: colors.text, fontSize: 28, fontWeight: '800' },
-  airportName: { color: colors.textMuted, fontSize: 12 },
+  // Big Fraunces serif airport codes
+  iata: {
+    fontFamily: fonts.display,
+    color: colors.text,
+    fontSize: 36,
+    lineHeight: 40,
+    letterSpacing: -1
+  },
+  airportName: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 12
+  },
   routeCenter: { flex: 1, alignItems: 'center', gap: 2 },
-  flightNumber: { color: colors.primary, fontSize: 13, fontWeight: '600' },
-  arrow: { color: colors.accent, fontSize: 14 },
-  duration: { color: colors.textMuted, fontSize: 12 },
+  flightNumber: {
+    fontFamily: fonts.mono,
+    color: colors.primary,
+    fontSize: 13,
+    letterSpacing: 1
+  },
+  arrow: {
+    fontFamily: fonts.mono,
+    color: colors.accent,
+    fontSize: 12
+  },
+  duration: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 12
+  },
 
   section: {
     backgroundColor: colors.surface,
@@ -269,14 +291,24 @@ const styles = StyleSheet.create({
     borderColor: colors.border
   },
   sectionTitle: {
+    fontFamily: fonts.bodySemi,
     color: colors.textMuted,
     fontSize: 11,
-    fontWeight: '700',
-    letterSpacing: 1
+    letterSpacing: 1.5
   },
   infoRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
-  infoLabel: { color: colors.textMuted, fontSize: 14 },
-  infoValue: { color: colors.text, fontSize: 14, fontWeight: '500', flex: 1, textAlign: 'right' },
+  infoLabel: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 14
+  },
+  infoValue: {
+    fontFamily: fonts.bodyMedium,
+    color: colors.text,
+    fontSize: 14,
+    flex: 1,
+    textAlign: 'right'
+  },
 
   readyBadge: {
     backgroundColor: `${colors.success}22`,
@@ -284,25 +316,69 @@ const styles = StyleSheet.create({
     padding: 8,
     alignItems: 'center'
   },
-  readyText: { color: colors.success, fontSize: 13, fontWeight: '600' },
+  readyText: {
+    fontFamily: fonts.bodySemi,
+    color: colors.success,
+    fontSize: 13
+  },
 
   poiPreview: { flexDirection: 'row', gap: 8, alignItems: 'center' },
-  poiCategory: { color: colors.accent, fontSize: 10, fontWeight: '700', width: 64 },
-  poiName: { color: colors.text, fontSize: 14, flex: 1 },
-  moreHint: { color: colors.textMuted, fontSize: 13, textAlign: 'center', marginTop: 4 },
+  poiCategory: {
+    fontFamily: fonts.bodySemi,
+    color: colors.accent,
+    fontSize: 10,
+    letterSpacing: 1,
+    width: 64
+  },
+  poiName: {
+    fontFamily: fonts.body,
+    color: colors.text,
+    fontSize: 14,
+    flex: 1
+  },
+  moreHint: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 13,
+    textAlign: 'center',
+    marginTop: 4
+  },
 
   startButton: {
     backgroundColor: colors.primary,
     padding: 18,
     borderRadius: 16,
     alignItems: 'center',
-    marginTop: 8
+    marginTop: 8,
+    shadowColor: colors.primary,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.4,
+    shadowRadius: 12,
+    elevation: 8
   },
-  startButtonText: { color: colors.text, fontSize: 17, fontWeight: '700' },
+  startButtonText: {
+    fontFamily: fonts.bodyBold,
+    color: colors.text,
+    fontSize: 17
+  },
 
   weatherRow: { flexDirection: 'row', alignItems: 'center', gap: 16 },
   weatherIcon: { fontSize: 48 },
-  weatherTemp: { color: colors.text, fontSize: 32, fontWeight: '700' },
-  weatherDesc: { color: colors.textMuted, fontSize: 14 },
-  packItem: { color: colors.text, fontSize: 14, marginVertical: 3 }
+  weatherTemp: {
+    fontFamily: fonts.monoMedium,
+    color: colors.text,
+    fontSize: 32,
+    letterSpacing: -0.5
+  },
+  weatherDesc: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 14
+  },
+  packItem: {
+    fontFamily: fonts.body,
+    color: colors.text,
+    fontSize: 14,
+    marginVertical: 3
+  }
 });

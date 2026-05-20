@@ -14,6 +14,7 @@ import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { createMMKV } from 'react-native-mmkv';
 import { colors } from '../theme/colors';
+import { fonts } from '../theme/typography';
 import type { RootStackParamList } from '../navigation/types';
 import { t } from '../i18n';
 
@@ -46,7 +47,7 @@ const SLIDES: Slide[] = [
     icon: '✈️',
     titleKey: 'onboarding.slide1_title',
     bodyKey: 'onboarding.slide1_body',
-    gradient: ['#0A0E1A', '#1A2A4E']
+    gradient: ['#0A0B14', '#1A2A4E']
   },
   {
     key: '2',
@@ -77,13 +78,11 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
 
   useEffect(() => {
     if (isActive) {
-      // Reset
       iconScale.setValue(0.5);
       titleOpacity.setValue(0);
       titleTranslateY.setValue(20);
       bodyOpacity.setValue(0);
 
-      // Icon springs in
       Animated.spring(iconScale, {
         toValue: 1,
         tension: 60,
@@ -91,7 +90,6 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
         useNativeDriver: true
       }).start();
 
-      // Title slides + fades in
       Animated.parallel([
         Animated.timing(titleOpacity, {
           toValue: 1,
@@ -107,7 +105,6 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
         })
       ]).start();
 
-      // Body fades in after 200ms delay from title
       Animated.timing(bodyOpacity, {
         toValue: 1,
         duration: 350,
@@ -127,6 +124,7 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
       <Animated.Text style={[styles.slideIcon, { transform: [{ scale: iconScale }] }]}>
         {item.icon}
       </Animated.Text>
+      {/* Slide title in 42px Fraunces display serif */}
       <Animated.Text
         style={[
           styles.slideTitle,
@@ -138,6 +136,7 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
       >
         {t(item.titleKey)}
       </Animated.Text>
+      {/* Body in Inter bodyLarge */}
       <Animated.Text style={[styles.slideBody, { opacity: bodyOpacity }]}>
         {t(item.bodyKey)}
       </Animated.Text>
@@ -238,8 +237,23 @@ const styles = StyleSheet.create({
     gap: 20
   },
   slideIcon: { fontSize: 80 },
-  slideTitle: { color: colors.text, fontSize: 26, fontWeight: '800', textAlign: 'center' },
-  slideBody: { color: 'rgba(255,255,255,0.7)', fontSize: 16, textAlign: 'center', lineHeight: 24 },
+  // 42px Fraunces display serif for slide titles
+  slideTitle: {
+    fontFamily: fonts.display,
+    color: colors.text,
+    fontSize: 42,
+    lineHeight: 46,
+    letterSpacing: -1.5,
+    textAlign: 'center'
+  },
+  // Inter bodyLarge for slide body
+  slideBody: {
+    fontFamily: fonts.body,
+    color: 'rgba(255,255,255,0.7)',
+    fontSize: 17,
+    lineHeight: 25,
+    textAlign: 'center'
+  },
   dots: { flexDirection: 'row', justifyContent: 'center', gap: 8, paddingBottom: 16 },
   dot: { width: 8, height: 8, borderRadius: 4, backgroundColor: colors.border },
   dotActive: { width: 24, backgroundColor: colors.primary },
@@ -252,7 +266,11 @@ const styles = StyleSheet.create({
     gap: 12
   },
   skipButton: { padding: 14 },
-  skipText: { color: colors.textMuted, fontSize: 15 },
+  skipText: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 15
+  },
   nextButton: {
     backgroundColor: colors.primary,
     paddingHorizontal: 28,
@@ -262,5 +280,9 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   getStartedButton: { flex: 1 },
-  nextText: { color: colors.text, fontSize: 16, fontWeight: '700' }
+  nextText: {
+    fontFamily: fonts.bodyBold,
+    color: colors.text,
+    fontSize: 16
+  }
 });
