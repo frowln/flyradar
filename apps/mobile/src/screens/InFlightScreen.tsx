@@ -28,7 +28,7 @@ export default function InFlightScreen() {
   const route = useRoute<Route>();
   const { flightId } = route.params;
 
-  const { activePackage, takeoffAt, currentPosition, updatePosition, clearFlight, mode, setMode } = useFlightStore();
+  const { activePackage, takeoffAt, currentPosition, updatePosition, clearFlight, mode, setMode, timeMultiplier } = useFlightStore();
   const [followPlane, setFollowPlane] = useState(true);
   const [activePOI, setActivePOI] = useState<ScheduledPOI | null>(null);
   const [kidsModeOn] = useState(() => collectionsStore.isKidsMode());
@@ -44,7 +44,8 @@ export default function InFlightScreen() {
         ? await tryFetchLivePosition(activePackage.flight.flightNumber)
         : null;
       if (!pos) {
-        pos = computePosition(activePackage.route, takeoffAt);
+        const multiplier = useFlightStore.getState().timeMultiplier;
+        pos = computePosition(activePackage.route, takeoffAt, new Date(), multiplier);
       }
       updatePosition(pos);
 

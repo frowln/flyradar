@@ -7,7 +7,8 @@ const KEYS = {
   LIFETIME_STATS: 'lifetime_stats',
   EARNED_ACHIEVEMENTS: 'earned_achievements',
   COUNTRIES: 'countries_visited',
-  KIDS_MODE: 'kids_mode'
+  KIDS_MODE: 'kids_mode',
+  UNITS: 'units'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -83,6 +84,15 @@ export const collectionsStore = {
 
   setKidsMode(enabled: boolean): void {
     storage.set(KEYS.KIDS_MODE, enabled);
+  },
+
+  getUnits(): 'km' | 'miles' {
+    const val = storage.getString(KEYS.UNITS);
+    return val === 'miles' ? 'miles' : 'km';
+  },
+
+  setUnits(u: 'km' | 'miles'): void {
+    storage.set(KEYS.UNITS, u);
   },
 
   reset(): void {

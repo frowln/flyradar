@@ -1,0 +1,187 @@
+import { useState } from 'react';
+import {
+  View,
+  Text,
+  Pressable,
+  StyleSheet,
+  ActivityIndicator,
+  ScrollView
+} from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { colors } from '../theme/colors';
+import { typography } from '../theme/typography';
+import { downloadPackage } from '../core/offline/packageDownloader';
+import { useFlightStore } from '../core/flight/flightStore';
+import type { RootStackParamList } from '../navigation/types';
+
+type Nav = NativeStackNavigationProp<RootStackParamList, 'Simulator'>;
+
+const DEMO_FLIGHT = 'DEMO123';
+const MULTIPLIERS = [1, 10, 60, 600] as const;
+
+function todayString(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+export default function SimulatorScreen() {
+  const nav = useNavigation<Nav>();
+  const { confirmTakeoff, setPackage, setTimeMultiplier, timeMultiplier } = useFlightStore();
+  const [spawning, setSpawning] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  async function spawnDemoFlight() {
+    setSpawning(true);
+    setError(null);
+    try {
+      const pkg = await downloadPackage(DEMO_FLIGHT, todayString());
+      setPackage(pkg);
+      confirmTakeoff(new Date());
+      nav.navigate('InFlight', { flightId: pkg.flight.id });
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : 'Failed to spawn demo flight.');
+    } finally {
+      setSpawning(false);
+    }
+  }
+
+  function jumpToProgress(fraction: number) {
+    const { activePackage } = useFlightStore.getState();
+    if (!activePackage) {
+      setError('No active flight — spawn a demo flight first.');
+      return;
+    }
+    const lastPoint = activePackage.route[activePackage.route.length - 1];
+    const totalSec = lastPoint.elapsedSeconds;
+    const targetSec = totalSec * fraction;
+    const simulatedTakeoff = new Date(Date.now() - targetSec * 1000);
+    confirmTakeoff(simulatedTakeoff);
+    setError(null);
+  }
+
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+      <View style={styles.devBadge}>
+        <Text style={styles.devBadgeText}>DEV TOOL</Text>
+      </View>
+
+      <Text style={[typography.h2, styles.heading]}>Flight Simulator</Text>
+      <Text style={[typography.body, styles.subtitle]}>
+        Test in-flight experience without a real flight.
+      </Text>
+
+      {/* Spawn demo */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Spawn Demo Flight</Text>
+        <Pressable style={styles.primaryButton} onPress={spawnDemoFlight} disabled={spawning}>
+          {spawning
+            ? <ActivityIndicator color={colors.text} />
+            : <Text style={styles.primaryButtonText}>🛫  Spawn {DEMO_FLIGHT}</Text>
+          }
+        </Pressable>
+        {error && <Text style={styles.error}>{error}</Text>}
+      </View>
+
+      {/* Jump to progress */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Jump to Progress</Text>
+        <Text style={[typography.caption, styles.sectionNote]}>
+          Requires an active flight (spawned above).
+        </Text>
+        <View style={styles.buttonRow}>
+          {([0.25, 0.5, 0.75, 1.0] as const).map((frac) => (
+            <Pressable
+              key={frac}
+              style={styles.jumpButton}
+              onPress={() => frac === 1.0 ? jumpToProgress(0.999) : jumpToProgress(frac)}
+            >
+              <Text style={styles.jumpButtonText}>
+                {frac === 1.0 ? 'Landed' : `${frac * 100}%`}
+              </Text>
+            </Pressable>
+          ))}
+        </View>
+      </View>
+
+      {/* Time multiplier */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Time Speed Multiplier</Text>
+        <Text style={[typography.caption, styles.sectionNote]}>
+          Applied to position interpolation in InFlight screen.
+        </Text>
+        <View style={styles.buttonRow}>
+          {MULTIPLIERS.map((m) => (
+            <Pressable
+              key={m}
+              style={[styles.multiplierButton, timeMultiplier === m && styles.multiplierButtonActive]}
+              onPress={() => setTimeMultiplier(m)}
+            >
+              <Text style={[styles.multiplierButtonText, timeMultiplier === m && styles.multiplierButtonTextActive]}>
+                {m}×
+              </Text>
+            </Pressable>
+          ))}
+        </View>
+      </View>
+    </ScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: colors.bg },
+  content: { padding: 20, gap: 20, paddingBottom: 40 },
+  devBadge: {
+    alignSelf: 'flex-start',
+    backgroundColor: colors.accent,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 6
+  },
+  devBadgeText: { color: colors.bg, fontSize: 11, fontWeight: '800', letterSpacing: 0.6 },
+  heading: { marginTop: 4 },
+  subtitle: { color: colors.textMuted, lineHeight: 22, marginTop: -8 },
+  section: {
+    backgroundColor: colors.surface,
+    borderRadius: 16,
+    padding: 16,
+    borderWidth: 1,
+    borderColor: colors.border,
+    gap: 12
+  },
+  sectionTitle: { color: colors.text, fontSize: 16, fontWeight: '700' },
+  sectionNote: { marginTop: -4 },
+  primaryButton: {
+    backgroundColor: colors.primary,
+    padding: 14,
+    borderRadius: 12,
+    alignItems: 'center'
+  },
+  primaryButtonText: { color: colors.text, fontWeight: '700', fontSize: 16 },
+  error: { color: colors.error, fontSize: 13 },
+  buttonRow: { flexDirection: 'row', gap: 8, flexWrap: 'wrap' },
+  jumpButton: {
+    flex: 1,
+    backgroundColor: colors.surfaceElevated,
+    padding: 12,
+    borderRadius: 10,
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: colors.border
+  },
+  jumpButtonText: { color: colors.text, fontWeight: '600', fontSize: 14 },
+  multiplierButton: {
+    flex: 1,
+    padding: 12,
+    borderRadius: 10,
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: colors.surfaceElevated
+  },
+  multiplierButtonActive: {
+    borderColor: colors.primary,
+    backgroundColor: colors.primary
+  },
+  multiplierButtonText: { color: colors.textMuted, fontWeight: '700', fontSize: 15 },
+  multiplierButtonTextActive: { color: colors.text }
+});

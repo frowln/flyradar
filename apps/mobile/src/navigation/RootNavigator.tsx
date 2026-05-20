@@ -13,6 +13,11 @@ import FlightSummaryScreen from '../screens/FlightSummaryScreen';
 import CollectionScreen from '../screens/CollectionScreen';
 import PaywallScreen from '../screens/PaywallScreen';
 import WrappedScreen from '../screens/WrappedScreen';
+import SettingsScreen from '../screens/SettingsScreen';
+import BrowseScreen from '../screens/BrowseScreen';
+import SimulatorScreen from '../screens/SimulatorScreen';
+import WorldMapScreen from '../screens/WorldMapScreen';
+import ReferralScreen from '../screens/ReferralScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -40,6 +45,11 @@ export default function RootNavigator() {
         <Stack.Screen name="Collection" component={CollectionScreen} options={{ title: 'My Collection' }} />
         <Stack.Screen name="Paywall" component={PaywallScreen} options={{ title: 'SkyAtlas Pro' }} />
         <Stack.Screen name="Wrapped" component={WrappedScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
+        <Stack.Screen name="Browse" component={BrowseScreen} options={{ title: 'Explore Flights' }} />
+        <Stack.Screen name="Simulator" component={SimulatorScreen} options={{ title: 'Simulator' }} />
+        <Stack.Screen name="WorldMap" component={WorldMapScreen} options={{ title: 'My World' }} />
+        <Stack.Screen name="Referral" component={ReferralScreen} options={{ title: 'Invite Friends' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -4,8 +4,10 @@ import { interpolateAlongRoute } from '../geo/greatCircle';
 export function computePosition(
   route: RoutePoint[],
   takeoffAt: Date,
-  now: Date = new Date()
+  now: Date = new Date(),
+  timeMultiplier: number = 1
 ): RoutePoint {
-  const elapsedSec = Math.max(0, (now.getTime() - takeoffAt.getTime()) / 1000);
-  return interpolateAlongRoute(route, elapsedSec);
+  const realElapsed = Math.max(0, (now.getTime() - takeoffAt.getTime()) / 1000);
+  const simulatedElapsed = realElapsed * timeMultiplier;
+  return interpolateAlongRoute(route, simulatedElapsed);
 }

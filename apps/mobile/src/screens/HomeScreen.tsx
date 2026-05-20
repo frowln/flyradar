@@ -101,6 +101,18 @@ export default function HomeScreen() {
             <Text style={typography.h1}>My Flights</Text>
             <View style={styles.headerButtons}>
               <Pressable
+                onPress={() => nav.navigate('WorldMap')}
+                style={styles.collectionButton}
+              >
+                <Text style={styles.collectionIcon}>🌍</Text>
+              </Pressable>
+              <Pressable
+                onPress={() => nav.navigate('Collection')}
+                style={styles.collectionButton}
+              >
+                <Text style={styles.collectionIcon}>🏆</Text>
+              </Pressable>
+              <Pressable
                 onPress={() => {
                   collectionsStore.setKidsMode(!kidsOn);
                   setKidsOn(!kidsOn);
@@ -110,10 +122,10 @@ export default function HomeScreen() {
                 <Text style={styles.collectionIcon}>{kidsOn ? '🧒' : '👨'}</Text>
               </Pressable>
               <Pressable
-                onPress={() => nav.navigate('Collection')}
+                onPress={() => nav.navigate('Settings')}
                 style={styles.collectionButton}
               >
-                <Text style={styles.collectionIcon}>🏆</Text>
+                <Text style={styles.collectionIcon}>⚙️</Text>
               </Pressable>
             </View>
           </View>
@@ -163,6 +175,12 @@ export default function HomeScreen() {
         onPress={() => nav.navigate('AddFlight')}
       >
         <Text style={styles.fabText}>+</Text>
+      </Pressable>
+      <Pressable
+        style={styles.browseLink}
+        onPress={() => nav.navigate('Browse')}
+      >
+        <Text style={styles.browseLinkText}>Explore any flight →</Text>
       </Pressable>
     </View>
   );
@@ -250,5 +268,17 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
     elevation: 8
   },
-  fabText: { color: colors.text, fontSize: 28, fontWeight: '300', lineHeight: 32 }
+  fabText: { color: colors.text, fontSize: 28, fontWeight: '300', lineHeight: 32 },
+  browseLink: {
+    position: 'absolute',
+    bottom: 36,
+    left: 20,
+    paddingVertical: 8,
+    paddingHorizontal: 12
+  },
+  browseLinkText: {
+    color: colors.primary,
+    fontSize: 14,
+    fontWeight: '600'
+  }
 });
