@@ -201,7 +201,12 @@ export default function FlightDetailScreen() {
       )}
 
       {/* Start flight CTA */}
-      <Pressable style={styles.startButton} onPress={handleStartFlight}>
+      <Pressable
+        style={styles.startButton}
+        onPress={handleStartFlight}
+        accessibilityLabel="Start flight tracking"
+        accessibilityRole="button"
+      >
         <Text style={styles.startButtonText}>{t('flightDetail.startFlight')}</Text>
       </Pressable>
     </ScrollView>

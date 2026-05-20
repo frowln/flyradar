@@ -109,7 +109,12 @@ export default function POIDetailScreen() {
         <View style={styles.badge}>
           <Text style={styles.badgeText}>{icon} {label.toUpperCase()}</Text>
         </View>
-        <Pressable onPress={handleShare} style={styles.shareButton}>
+        <Pressable
+          onPress={handleShare}
+          style={styles.shareButton}
+          accessibilityLabel={poi ? `Share ${poi.name}` : 'Share this place'}
+          accessibilityRole="button"
+        >
           <Text style={styles.shareText}>{t('poi.share')}</Text>
         </Pressable>
       </View>

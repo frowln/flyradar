@@ -92,6 +92,7 @@ export default function WorldMapScreen() {
               }))}
               strokeColor={f.color}
               strokeWidth={2}
+              tappable
             />
           ))}
         </MapView>

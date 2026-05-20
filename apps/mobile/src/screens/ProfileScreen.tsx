@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import {
   View,
   Text,
   ScrollView,
   Pressable,
   Switch,
-  StyleSheet
+  StyleSheet,
+  Animated
 } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
@@ -18,9 +20,28 @@ import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
 
+function hexToRgba(hex: string, alpha: number): string {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+function darkenHex(hex: string): string {
+  const r = Math.max(0, parseInt(hex.slice(1, 3), 16) - 60);
+  const g = Math.max(0, parseInt(hex.slice(3, 5), 16) - 60);
+  const b = Math.max(0, parseInt(hex.slice(5, 7), 16) - 60);
+  return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+}
+
+const MEMBER_SINCE = '2024';
+
+const CONFETTI = ['✈', '⭐', '🌍', '🏆', '✦', '·'];
+
 export default function ProfileScreen() {
   const nav = useNavigation<Nav>();
   const [kidsMode, setKidsModeState] = useState(() => collectionsStore.isKidsMode());
+  const progressAnim = useRef(new Animated.Value(0)).current;
 
   const stats = collectionsStore.getStats();
   const earnedCount = collectionsStore.getEarnedAchievements().length;
@@ -34,26 +55,89 @@ export default function ProfileScreen() {
   const lvl = levelFromXP(xp);
   const rank = rankFromLevel(lvl.level);
 
+  useEffect(() => {
+    Animated.spring(progressAnim, {
+      toValue: lvl.progress,
+      tension: 40,
+      friction: 8,
+      useNativeDriver: false
+    }).start();
+  }, [lvl.progress]);
+
   function toggleKidsMode(val: boolean) {
     collectionsStore.setKidsMode(val);
     setKidsModeState(val);
   }
 
+  const darkRankColor = darkenHex(rank.color);
+
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      {/* Hero */}
-      <View style={styles.hero}>
-        <View style={[styles.avatarCircle, { borderColor: rank.color }]}>
-          <Text style={styles.avatarIcon}>{rank.icon}</Text>
+      {/* Hero with gradient */}
+      <LinearGradient
+        colors={[rank.color, darkRankColor, colors.bg]}
+        style={styles.heroGradient}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 0, y: 1 }}
+      >
+        {/* Confetti background pattern */}
+        <View style={styles.confettiLayer} pointerEvents="none">
+          {CONFETTI.map((char, i) => (
+            <Text
+              key={i}
+              style={[
+                styles.confettiChar,
+                {
+                  top: `${10 + (i * 17) % 70}%` as any,
+                  left: `${(i * 23 + 5) % 90}%` as any,
+                  fontSize: 12 + (i % 3) * 6,
+                  transform: [{ rotate: `${i * 37}deg` }]
+                }
+              ]}
+            >
+              {char}
+            </Text>
+          ))}
         </View>
+
+        {/* Avatar with rank icon overlay */}
+        <View style={styles.avatarContainer}>
+          <View style={[
+            styles.avatarCircle,
+            {
+              borderColor: rank.color,
+              shadowColor: rank.color,
+            }
+          ]}>
+            <Text style={styles.avatarEmoji}>🧑‍✈️</Text>
+          </View>
+          <View style={[styles.rankIconBadge, { backgroundColor: rank.color }]}>
+            <Text style={styles.rankIconText}>{rank.icon}</Text>
+          </View>
+        </View>
+
         <Text style={styles.displayName}>{t('profile.guest')}</Text>
         <Text style={[styles.rankName, { color: rank.color }]}>{rank.name}</Text>
         <Text style={styles.levelLabel}>{t('profile.level', { level: lvl.level })}</Text>
-        <View style={styles.progressBar}>
-          <View style={[styles.progressFill, { width: `${lvl.progress * 100}%` as any, backgroundColor: rank.color }]} />
+
+        {/* Larger animated XP progress bar */}
+        <View style={styles.progressBarOuter}>
+          <Animated.View
+            style={[
+              styles.progressFill,
+              {
+                backgroundColor: rank.color,
+                width: progressAnim.interpolate({
+                  inputRange: [0, 1],
+                  outputRange: ['0%', '100%']
+                })
+              }
+            ]}
+          />
         </View>
         <Text style={styles.xpLabel}>{lvl.currentLevelXP} / {lvl.nextLevelXP} XP</Text>
-      </View>
+        <Text style={styles.memberSince}>Member since {MEMBER_SINCE}</Text>
+      </LinearGradient>
 
       {/* Stats row */}
       <View style={styles.statsRow}>
@@ -76,25 +160,45 @@ export default function ProfileScreen() {
       {/* Menu */}
       <Text style={styles.sectionHeader}>{t('profile.myStuff')}</Text>
       <View style={styles.section}>
-        <Pressable style={styles.menuRow} onPress={() => nav.navigate('Collection')}>
+        <Pressable
+          style={styles.menuRow}
+          onPress={() => nav.navigate('Collection')}
+          accessibilityLabel="Open my collection"
+          accessibilityRole="button"
+        >
           <Text style={styles.menuIcon}>🏆</Text>
           <Text style={[typography.body, styles.menuLabel]}>{t('profile.myCollection')}</Text>
           <Text style={styles.chevron}>›</Text>
         </Pressable>
         <View style={styles.divider} />
-        <Pressable style={styles.menuRow} onPress={() => nav.navigate('Wrapped')}>
+        <Pressable
+          style={styles.menuRow}
+          onPress={() => nav.navigate('Wrapped')}
+          accessibilityLabel="View year in review wrapped"
+          accessibilityRole="button"
+        >
           <Text style={styles.menuIcon}>🎉</Text>
           <Text style={[typography.body, styles.menuLabel]}>{t('profile.yearWrapped')}</Text>
           <Text style={styles.chevron}>›</Text>
         </Pressable>
         <View style={styles.divider} />
-        <Pressable style={styles.menuRow} onPress={() => nav.navigate('Referral')}>
+        <Pressable
+          style={styles.menuRow}
+          onPress={() => nav.navigate('Referral')}
+          accessibilityLabel="Invite friends to SkyAtlas"
+          accessibilityRole="button"
+        >
           <Text style={styles.menuIcon}>🎁</Text>
           <Text style={[typography.body, styles.menuLabel]}>{t('profile.inviteFriends')}</Text>
           <Text style={styles.chevron}>›</Text>
         </Pressable>
         <View style={styles.divider} />
-        <Pressable style={styles.menuRow} onPress={() => nav.navigate('Settings')}>
+        <Pressable
+          style={styles.menuRow}
+          onPress={() => nav.navigate('Settings')}
+          accessibilityLabel="Open settings"
+          accessibilityRole="button"
+        >
           <Text style={styles.menuIcon}>⚙️</Text>
           <Text style={[typography.body, styles.menuLabel]}>{t('profile.settings')}</Text>
           <Text style={styles.chevron}>›</Text>
@@ -102,7 +206,12 @@ export default function ProfileScreen() {
       </View>
 
       {/* Upgrade */}
-      <Pressable style={styles.upgradeButton} onPress={() => nav.navigate('Paywall')}>
+      <Pressable
+        style={styles.upgradeButton}
+        onPress={() => nav.navigate('Paywall')}
+        accessibilityLabel="Upgrade to Pro"
+        accessibilityRole="button"
+      >
         <Text style={styles.upgradeIcon}>⭐</Text>
         <Text style={styles.upgradeText}>{t('profile.upgradeToPro')}</Text>
       </Pressable>
@@ -121,6 +230,7 @@ export default function ProfileScreen() {
             onValueChange={toggleKidsMode}
             trackColor={{ false: colors.border, true: colors.primary }}
             thumbColor={colors.text}
+            accessibilityLabel="Toggle kids mode"
           />
         </View>
       </View>
@@ -130,38 +240,77 @@ export default function ProfileScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
-  content: { padding: 16, paddingBottom: 48, gap: 8 },
+  content: { paddingBottom: 48, gap: 8 },
 
-  hero: {
+  heroGradient: {
     alignItems: 'center',
-    paddingTop: 24,
-    paddingBottom: 24,
-    gap: 6
+    paddingTop: 32,
+    paddingBottom: 28,
+    paddingHorizontal: 20,
+    gap: 6,
+    overflow: 'hidden'
+  },
+
+  confettiLayer: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0
+  },
+  confettiChar: {
+    position: 'absolute',
+    color: '#FFFFFF',
+    opacity: 0.05
+  },
+
+  avatarContainer: {
+    position: 'relative',
+    marginBottom: 4
   },
   avatarCircle: {
-    width: 80,
-    height: 80,
-    borderRadius: 40,
+    width: 90,
+    height: 90,
+    borderRadius: 45,
     backgroundColor: colors.surfaceElevated,
-    borderWidth: 2,
+    borderWidth: 3,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 8
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.6,
+    shadowRadius: 12,
+    elevation: 8
   },
-  avatarIcon: { fontSize: 36 },
+  avatarEmoji: { fontSize: 42 },
+  rankIconBadge: {
+    position: 'absolute',
+    bottom: -6,
+    right: -6,
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: colors.bg
+  },
+  rankIconText: { fontSize: 16 },
+
   displayName: { color: colors.text, fontSize: 22, fontWeight: '700' },
   rankName: { fontSize: 14, fontWeight: '600' },
-  levelLabel: { color: colors.textMuted, fontSize: 13 },
-  progressBar: {
-    width: '60%',
-    height: 6,
-    backgroundColor: colors.surfaceElevated,
-    borderRadius: 3,
+  levelLabel: { color: 'rgba(255,255,255,0.7)', fontSize: 13 },
+
+  progressBarOuter: {
+    width: '72%',
+    height: 10,
+    backgroundColor: 'rgba(255,255,255,0.15)',
+    borderRadius: 5,
     overflow: 'hidden',
-    marginTop: 4
+    marginTop: 6
   },
-  progressFill: { height: '100%', borderRadius: 3 },
-  xpLabel: { color: colors.textMuted, fontSize: 12 },
+  progressFill: { height: '100%', borderRadius: 5 },
+  xpLabel: { color: 'rgba(255,255,255,0.6)', fontSize: 12 },
+  memberSince: { color: 'rgba(255,255,255,0.4)', fontSize: 11, marginTop: 2 },
 
   statsRow: {
     flexDirection: 'row',
@@ -169,7 +318,8 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     borderWidth: 1,
     borderColor: colors.border,
-    paddingVertical: 16
+    paddingVertical: 16,
+    marginHorizontal: 16
   },
   statCell: { flex: 1, alignItems: 'center', gap: 4 },
   statValue: { color: colors.text, fontSize: 24, fontWeight: '700' },
@@ -184,14 +334,15 @@ const styles = StyleSheet.create({
     letterSpacing: 0.8,
     marginTop: 8,
     marginBottom: 2,
-    marginLeft: 4
+    marginLeft: 20
   },
   section: {
     backgroundColor: colors.surface,
     borderRadius: 14,
     borderWidth: 1,
     borderColor: colors.border,
-    overflow: 'hidden'
+    overflow: 'hidden',
+    marginHorizontal: 16
   },
   menuRow: {
     flexDirection: 'row',
@@ -214,7 +365,8 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     paddingVertical: 16,
     gap: 8,
-    marginTop: 4
+    marginTop: 4,
+    marginHorizontal: 16
   },
   upgradeIcon: { fontSize: 18 },
   upgradeText: { color: colors.text, fontSize: 16, fontWeight: '700' }

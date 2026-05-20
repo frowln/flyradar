@@ -132,7 +132,12 @@ export default function InFlightScreen() {
       {/* Top HUD */}
       <SafeAreaView style={styles.topHUD} pointerEvents="box-none">
         <View style={styles.topBar}>
-          <Pressable onPress={() => nav.navigate('Tabs')} style={styles.topButton}>
+          <Pressable
+            onPress={() => nav.navigate('Tabs')}
+            style={styles.topButton}
+            accessibilityLabel="Exit flight view"
+            accessibilityRole="button"
+          >
             <Text style={styles.topButtonText}>{t('inFlight.exit')}</Text>
           </Pressable>
           <View style={styles.routeChip}>
@@ -145,6 +150,8 @@ export default function InFlightScreen() {
             <Pressable
               onPress={() => setMode(mode === 'live' ? 'offline' : 'live')}
               style={[styles.topButton, mode === 'live' && styles.topButtonActive]}
+              accessibilityLabel={mode === 'live' ? 'Switch to offline mode' : 'Switch to live mode'}
+              accessibilityRole="button"
             >
               <Text style={styles.topButtonText}>
                 {mode === 'live' ? t('inFlight.mode_live') : t('inFlight.mode_offline')}
@@ -153,6 +160,8 @@ export default function InFlightScreen() {
             <Pressable
               onPress={() => setFollowPlane((f) => !f)}
               style={[styles.topButton, followPlane && styles.topButtonActive]}
+              accessibilityLabel={followPlane ? 'Unfollow plane' : 'Follow plane on map'}
+              accessibilityRole="button"
             >
               <Text style={styles.topButtonText}>{followPlane ? '📍' : '🗺'}</Text>
             </Pressable>

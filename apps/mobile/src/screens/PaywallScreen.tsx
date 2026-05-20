@@ -111,6 +111,8 @@ export default function PaywallScreen() {
                 key={pkg.identifier}
                 style={[styles.packageCard, isSelected && styles.packageCardSelected]}
                 onPress={() => { haptics.selection(); setSelectedPkg(pkg); }}
+                accessibilityLabel={`Select ${pkg.packageType} plan at ${pkg.product.priceString}`}
+                accessibilityRole="button"
               >
                 <View style={styles.packageInfo}>
                   <Text style={styles.packageTitle}>{pkg.packageType}</Text>
@@ -128,6 +130,8 @@ export default function PaywallScreen() {
         style={[styles.ctaButton, (purchasing || !selectedPkg) && styles.ctaDisabled]}
         onPress={handlePurchase}
         disabled={purchasing || !selectedPkg}
+        accessibilityLabel="Purchase selected plan"
+        accessibilityRole="button"
       >
         {purchasing ? (
           <ActivityIndicator color={colors.text} />
@@ -136,7 +140,13 @@ export default function PaywallScreen() {
         )}
       </Pressable>
 
-      <Pressable onPress={handleRestore} disabled={purchasing} style={styles.restoreButton}>
+      <Pressable
+        onPress={handleRestore}
+        disabled={purchasing}
+        style={styles.restoreButton}
+        accessibilityLabel="Restore previous purchases"
+        accessibilityRole="button"
+      >
         <Text style={styles.restoreText}>{t('paywall.restore')}</Text>
       </Pressable>
 

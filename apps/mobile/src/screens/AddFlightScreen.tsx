@@ -104,6 +104,8 @@ export default function AddFlightScreen() {
           style={[styles.scanButton]}
           onPress={() => setShowScanner(true)}
           disabled={loading}
+          accessibilityLabel="Scan boarding pass"
+          accessibilityRole="button"
         >
           <Text style={styles.scanButtonText}>{t('addFlight.scan')}</Text>
         </Pressable>
@@ -112,6 +114,8 @@ export default function AddFlightScreen() {
           style={[styles.button, (!isValid || loading) && styles.buttonDisabled]}
           onPress={handleSubmit}
           disabled={!isValid || loading}
+          accessibilityLabel="Download flight data"
+          accessibilityRole="button"
         >
           {loading ? (
             <ActivityIndicator color={colors.text} />

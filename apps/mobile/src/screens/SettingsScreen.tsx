@@ -48,14 +48,24 @@ export default function SettingsScreen() {
       {/* Preferences */}
       <Text style={styles.sectionHeader}>{t('settings.preferences')}</Text>
       <View style={styles.section}>
-        <Pressable style={styles.row} onPress={cycleLanguage}>
+        <Pressable
+          style={styles.row}
+          onPress={cycleLanguage}
+          accessibilityLabel="Switch to next language"
+          accessibilityRole="button"
+        >
           <Text style={[typography.body, styles.rowLabel]}>{t('settings.language')}</Text>
           <Text style={[typography.body, styles.rowValue]}>
             {LANGUAGE_FLAGS[locale] ?? '🌐'} {locale.toUpperCase()}
           </Text>
         </Pressable>
         <View style={styles.divider} />
-        <Pressable style={styles.row} onPress={toggleUnits}>
+        <Pressable
+          style={styles.row}
+          onPress={toggleUnits}
+          accessibilityLabel={units === 'km' ? 'Switch units to miles' : 'Switch units to kilometres'}
+          accessibilityRole="button"
+        >
           <Text style={[typography.body, styles.rowLabel]}>{t('settings.units')}</Text>
           <Text style={[typography.body, styles.rowValue]}>{units === 'km' ? t('settings.km') : t('settings.miles')}</Text>
         </Pressable>

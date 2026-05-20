@@ -83,7 +83,13 @@ export default function BrowseScreen() {
 
           {error && <Text style={styles.error}>{error}</Text>}
 
-          <Pressable style={styles.searchButton} onPress={handleSearch} disabled={loading}>
+          <Pressable
+            style={styles.searchButton}
+            onPress={handleSearch}
+            disabled={loading}
+            accessibilityLabel="Search for flight"
+            accessibilityRole="button"
+          >
             {loading
               ? <ActivityIndicator color={colors.text} />
               : <Text style={styles.searchButtonText}>{t('browse.search')}</Text>
@@ -112,6 +118,8 @@ export default function BrowseScreen() {
             <Pressable
               style={styles.addButton}
               onPress={() => nav.navigate('AddFlight')}
+              accessibilityLabel="Add new flight"
+              accessibilityRole="button"
             >
               <Text style={styles.addButtonText}>{t('browse.addToMyFlights')}</Text>
             </Pressable>
