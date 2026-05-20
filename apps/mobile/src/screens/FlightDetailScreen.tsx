@@ -14,6 +14,7 @@ import type { RouteProp } from '@react-navigation/native';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { loadPackage } from '../core/offline/poiDatabase';
+import { fetchWeather, weatherIcon, packingList, type WeatherForecast } from '../core/api/weather';
 import { useFlightStore } from '../core/flight/flightStore';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
@@ -51,12 +52,18 @@ export default function FlightDetailScreen() {
 
   const [pkg, setPkg] = useState<OfflinePackage | null>(null);
   const [loading, setLoading] = useState(true);
+  const [weather, setWeather] = useState<WeatherForecast | null>(null);
 
   const { setPackage, confirmTakeoff } = useFlightStore();
 
   useEffect(() => {
     loadPackage(flightId)
-      .then(setPkg)
+      .then(p => {
+        setPkg(p);
+        if (p) {
+          fetchWeather(p.flight.destination.lat, p.flight.destination.lon).then(setWeather);
+        }
+      })
       .finally(() => setLoading(false));
   }, [flightId]);
 
@@ -154,6 +161,26 @@ export default function FlightDetailScreen() {
         </View>
       </View>
 
+      {/* Weather at destination */}
+      {weather && (
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>WEATHER AT DESTINATION</Text>
+          <View style={styles.weatherRow}>
+            <Text style={styles.weatherIcon}>{weatherIcon(weather.weatherCode)}</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.weatherTemp}>{weather.temperature}°C</Text>
+              <Text style={styles.weatherDesc}>{weather.description} · Wind {weather.windSpeed} km/h</Text>
+            </View>
+          </View>
+          <View style={{ marginTop: 12 }}>
+            <Text style={styles.sectionTitle}>WHAT TO PACK</Text>
+            {packingList(weather.temperature, weather.weatherCode).map((item, i) => (
+              <Text key={i} style={styles.packItem}>{item}</Text>
+            ))}
+          </View>
+        </View>
+      )}
+
       {/* What's below preview */}
       {pkg.pois.length > 0 && (
         <View style={styles.section}>
@@ -247,5 +274,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 8
   },
-  startButtonText: { color: colors.text, fontSize: 17, fontWeight: '700' }
+  startButtonText: { color: colors.text, fontSize: 17, fontWeight: '700' },
+
+  weatherRow: { flexDirection: 'row', alignItems: 'center', gap: 16 },
+  weatherIcon: { fontSize: 48 },
+  weatherTemp: { color: colors.text, fontSize: 32, fontWeight: '700' },
+  weatherDesc: { color: colors.textMuted, fontSize: 14 },
+  packItem: { color: colors.text, fontSize: 14, marginVertical: 3 }
 });
