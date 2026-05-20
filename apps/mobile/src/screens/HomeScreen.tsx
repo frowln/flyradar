@@ -12,6 +12,7 @@ import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
+import { t } from '../i18n';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
@@ -98,7 +99,7 @@ export default function HomeScreen() {
         }
         ListHeaderComponent={
           <View style={styles.header}>
-            <Text style={typography.h1}>My Flights</Text>
+            <Text style={typography.h1}>{t('home.title')}</Text>
             <View style={styles.headerButtons}>
               <Pressable
                 onPress={() => nav.navigate('WorldMap')}
@@ -133,9 +134,9 @@ export default function HomeScreen() {
         ListEmptyComponent={
           <View style={styles.emptyState}>
             <Text style={styles.emptyIcon}>✈️</Text>
-            <Text style={[typography.h3, styles.emptyTitle]}>No flights yet</Text>
+            <Text style={[typography.h3, styles.emptyTitle]}>{t('home.empty')}</Text>
             <Text style={[typography.body, styles.emptySubtitle]}>
-              Add your first flight before you board to explore the world below.
+              {t('home.emptyDesc')}
             </Text>
           </View>
         }
@@ -180,7 +181,7 @@ export default function HomeScreen() {
         style={styles.browseLink}
         onPress={() => nav.navigate('Browse')}
       >
-        <Text style={styles.browseLinkText}>Explore any flight →</Text>
+        <Text style={styles.browseLinkText}>{t('home.explore')}</Text>
       </Pressable>
     </View>
   );

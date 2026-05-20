@@ -16,6 +16,7 @@ import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
+import { t } from '../i18n';
 import { downloadPackage } from '../core/offline/packageDownloader';
 import BoardingPassScanner from '../components/BoardingPassScanner';
 import type { BoardingPassData } from '../components/BoardingPassScanner';
@@ -67,9 +68,9 @@ export default function AddFlightScreen() {
         contentContainerStyle={styles.container}
         keyboardShouldPersistTaps="handled"
       >
-        <Text style={[typography.h2, styles.sectionTitle]}>Flight Details</Text>
+        <Text style={[typography.h2, styles.sectionTitle]}>{t('addFlight.sectionTitle')}</Text>
 
-        <Text style={styles.label}>Flight Number</Text>
+        <Text style={styles.label}>{t('addFlight.flightNumber')}</Text>
         <TextInput
           style={styles.input}
           placeholder="e.g. SU100, BA249"
@@ -82,7 +83,7 @@ export default function AddFlightScreen() {
           editable={!loading}
         />
 
-        <Text style={styles.label}>Date</Text>
+        <Text style={styles.label}>{t('addFlight.date')}</Text>
         <TextInput
           style={styles.input}
           placeholder="YYYY-MM-DD"
@@ -95,16 +96,14 @@ export default function AddFlightScreen() {
           editable={!loading}
         />
 
-        <Text style={styles.hint}>
-          Add your flight before boarding to download offline content.
-        </Text>
+        <Text style={styles.hint}>{t('addFlight.hint')}</Text>
 
         <Pressable
           style={[styles.scanButton]}
           onPress={() => setShowScanner(true)}
           disabled={loading}
         >
-          <Text style={styles.scanButtonText}>📷 Scan Boarding Pass</Text>
+          <Text style={styles.scanButtonText}>{t('addFlight.scan')}</Text>
         </Pressable>
 
         <Pressable
@@ -115,7 +114,7 @@ export default function AddFlightScreen() {
           {loading ? (
             <ActivityIndicator color={colors.text} />
           ) : (
-            <Text style={styles.buttonText}>Download & Add Flight</Text>
+            <Text style={styles.buttonText}>{t('addFlight.download')}</Text>
           )}
         </Pressable>
       </ScrollView>
