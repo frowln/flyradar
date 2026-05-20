@@ -16,6 +16,7 @@ import type { RouteProp } from '@react-navigation/native';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { loadPackage } from '../core/offline/poiDatabase';
+import { downloadPackage } from '../core/offline/packageDownloader';
 import { fetchWeather, weatherIcon, packingList, type WeatherForecast } from '../core/api/weather';
 import { useFlightStore } from '../core/flight/flightStore';
 import type { RootStackParamList } from '../navigation/types';
@@ -61,14 +62,23 @@ export default function FlightDetailScreen() {
 
   useEffect(() => {
     loadPackage(flightId)
-      .then(p => {
+      .then(async (p) => {
+        // Auto-refresh from backend if package has no POIs (stale cache)
+        if (p && p.pois.length === 0) {
+          const [flightNumber, date] = flightId.split(/-(.+)/);
+          try {
+            const fresh = await downloadPackage(flightNumber, date);
+            setPkg(fresh);
+            scheduleFlightReminder(fresh.flight.id, fresh.flight.flightNumber, new Date(fresh.flight.scheduledDeparture));
+            fetchWeather(fresh.flight.destination.lat, fresh.flight.destination.lon).then(setWeather);
+            return;
+          } catch {
+            // fall through with stale package
+          }
+        }
         setPkg(p);
         if (p) {
-          scheduleFlightReminder(
-            p.flight.id,
-            p.flight.flightNumber,
-            new Date(p.flight.scheduledDeparture)
-          );
+          scheduleFlightReminder(p.flight.id, p.flight.flightNumber, new Date(p.flight.scheduledDeparture));
           fetchWeather(p.flight.destination.lat, p.flight.destination.lon).then(setWeather);
         }
       })
