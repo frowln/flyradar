@@ -61,13 +61,13 @@ export default function OnboardingScreen() {
       setCurrentIndex(currentIndex + 1);
     } else {
       markOnboardingComplete();
-      nav.replace('Home');
+      nav.replace('Tabs');
     }
   };
 
   const handleSkip = () => {
     markOnboardingComplete();
-    nav.replace('Home');
+    nav.replace('Tabs');
   };
 
   return (

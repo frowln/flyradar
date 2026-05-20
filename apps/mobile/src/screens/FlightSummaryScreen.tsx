@@ -57,7 +57,7 @@ export default function FlightSummaryScreen() {
 
   const handleDone = () => {
     clearFlight();
-    nav.navigate('Home');
+    nav.navigate('Tabs');
   };
 
   const handleShare = async () => {

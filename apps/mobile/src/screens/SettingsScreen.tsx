@@ -4,7 +4,6 @@ import {
   Text,
   ScrollView,
   Pressable,
-  Switch,
   StyleSheet
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -28,14 +27,8 @@ const LANGUAGE_FLAGS: Record<string, string> = {
 
 export default function SettingsScreen() {
   const nav = useNavigation<Nav>();
-  const [kidsMode, setKidsModeState] = useState(() => collectionsStore.isKidsMode());
   const [units, setUnitsState] = useState<'km' | 'miles'>(() => collectionsStore.getUnits());
   const [locale, setLocaleState] = useState(() => getLocale());
-
-  function toggleKidsMode(val: boolean) {
-    collectionsStore.setKidsMode(val);
-    setKidsModeState(val);
-  }
 
   function toggleUnits() {
     const next = units === 'km' ? 'miles' : 'km';
@@ -52,23 +45,6 @@ export default function SettingsScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      {/* Account */}
-      <Text style={styles.sectionHeader}>{t('settings.account')}</Text>
-      <View style={styles.section}>
-        <View style={styles.accountRow}>
-          <View style={styles.avatar}>
-            <Text style={styles.avatarText}>?</Text>
-          </View>
-          <View style={styles.accountInfo}>
-            <Text style={[typography.h3]}>{t('settings.guestUser')}</Text>
-            <Text style={[typography.caption]}>{t('settings.notSignedIn')}</Text>
-          </View>
-        </View>
-        <Pressable style={styles.upgradeButton} onPress={() => nav.navigate('Paywall')}>
-          <Text style={styles.upgradeButtonText}>{t('settings.upgradeToPro')}</Text>
-        </Pressable>
-      </View>
-
       {/* Preferences */}
       <Text style={styles.sectionHeader}>{t('settings.preferences')}</Text>
       <View style={styles.section}>
@@ -90,23 +66,6 @@ export default function SettingsScreen() {
         </View>
       </View>
 
-      {/* Kids Mode */}
-      <Text style={styles.sectionHeader}>{t('settings.kidsMode')}</Text>
-      <View style={styles.section}>
-        <View style={styles.row}>
-          <View style={styles.rowTextGroup}>
-            <Text style={[typography.body, styles.rowLabel]}>{t('settings.kidsMode')}</Text>
-            <Text style={[typography.caption]}>{t('settings.kidsModeDesc')}</Text>
-          </View>
-          <Switch
-            value={kidsMode}
-            onValueChange={toggleKidsMode}
-            trackColor={{ false: colors.border, true: colors.primary }}
-            thumbColor={colors.text}
-          />
-        </View>
-      </View>
-
       {/* About */}
       <Text style={styles.sectionHeader}>{t('settings.about')}</Text>
       <View style={styles.section}>
@@ -120,11 +79,6 @@ export default function SettingsScreen() {
             SkyAtlas — Discover the world from above
           </Text>
         </View>
-        <View style={styles.divider} />
-        <Pressable style={styles.row} onPress={() => nav.navigate('Referral')}>
-          <Text style={[typography.body, styles.rowLabel]}>{t('settings.inviteFriends')}</Text>
-          <Text style={styles.chevron}>›</Text>
-        </Pressable>
       </View>
 
       {/* Dev Tools */}
@@ -162,33 +116,6 @@ const styles = StyleSheet.create({
     borderColor: colors.border,
     overflow: 'hidden'
   },
-  accountRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    padding: 16,
-    gap: 12
-  },
-  avatar: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    backgroundColor: colors.surfaceElevated,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: colors.border
-  },
-  avatarText: { color: colors.textMuted, fontSize: 20 },
-  accountInfo: { gap: 2 },
-  upgradeButton: {
-    margin: 16,
-    marginTop: 0,
-    backgroundColor: colors.primary,
-    padding: 12,
-    borderRadius: 10,
-    alignItems: 'center'
-  },
-  upgradeButtonText: { color: colors.text, fontWeight: '700', fontSize: 15 },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -196,10 +123,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 14
   },
-  rowTextGroup: { gap: 2 },
   rowLabel: { color: colors.text },
   rowValue: { color: colors.textMuted },
-  chevron: { color: colors.textMuted, fontSize: 20 },
   divider: { height: 1, backgroundColor: colors.border, marginHorizontal: 16 },
   aboutRow: { paddingHorizontal: 16, paddingVertical: 12 },
   aboutText: { textAlign: 'center', lineHeight: 18 },

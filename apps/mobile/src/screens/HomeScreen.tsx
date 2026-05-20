@@ -16,9 +16,8 @@ import { t } from '../i18n';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
-import { collectionsStore } from '../core/gamification/collections';
 
-type Nav = NativeStackNavigationProp<RootStackParamList, 'Home'>;
+type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
 
 interface FlightRow {
   flightId: string;
@@ -46,7 +45,6 @@ export default function HomeScreen() {
   const [flights, setFlights] = useState<FlightRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
-  const [kidsOn, setKidsOn] = useState(() => collectionsStore.isKidsMode());
 
   const loadFlights = useCallback(async () => {
     await initDb();
@@ -100,35 +98,6 @@ export default function HomeScreen() {
         ListHeaderComponent={
           <View style={styles.header}>
             <Text style={typography.h1}>{t('home.title')}</Text>
-            <View style={styles.headerButtons}>
-              <Pressable
-                onPress={() => nav.navigate('WorldMap')}
-                style={styles.collectionButton}
-              >
-                <Text style={styles.collectionIcon}>🌍</Text>
-              </Pressable>
-              <Pressable
-                onPress={() => nav.navigate('Collection')}
-                style={styles.collectionButton}
-              >
-                <Text style={styles.collectionIcon}>🏆</Text>
-              </Pressable>
-              <Pressable
-                onPress={() => {
-                  collectionsStore.setKidsMode(!kidsOn);
-                  setKidsOn(!kidsOn);
-                }}
-                style={styles.collectionButton}
-              >
-                <Text style={styles.collectionIcon}>{kidsOn ? '🧒' : '👨'}</Text>
-              </Pressable>
-              <Pressable
-                onPress={() => nav.navigate('Settings')}
-                style={styles.collectionButton}
-              >
-                <Text style={styles.collectionIcon}>⚙️</Text>
-              </Pressable>
-            </View>
           </View>
         }
         ListEmptyComponent={
@@ -177,12 +146,6 @@ export default function HomeScreen() {
       >
         <Text style={styles.fabText}>+</Text>
       </Pressable>
-      <Pressable
-        style={styles.browseLink}
-        onPress={() => nav.navigate('Browse')}
-      >
-        <Text style={styles.browseLinkText}>{t('home.explore')}</Text>
-      </Pressable>
     </View>
   );
 }
@@ -191,26 +154,10 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
   center: { flex: 1, backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center' },
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
     paddingHorizontal: 16,
     paddingTop: 16,
     marginBottom: 24
   },
-  headerButtons: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8
-  },
-  collectionButton: {
-    backgroundColor: colors.surface,
-    padding: 8,
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: colors.border
-  },
-  collectionIcon: { fontSize: 20 },
   list: { padding: 16, gap: 12 },
   emptyList: { flex: 1 },
   emptyState: {
@@ -270,16 +217,4 @@ const styles = StyleSheet.create({
     elevation: 8
   },
   fabText: { color: colors.text, fontSize: 28, fontWeight: '300', lineHeight: 32 },
-  browseLink: {
-    position: 'absolute',
-    bottom: 36,
-    left: 20,
-    paddingVertical: 8,
-    paddingHorizontal: 12
-  },
-  browseLinkText: {
-    color: colors.primary,
-    fontSize: 14,
-    fontWeight: '600'
-  }
 });

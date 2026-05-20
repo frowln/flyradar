@@ -109,7 +109,7 @@ export default function InFlightScreen() {
     return (
       <View style={styles.errorContainer}>
         <Text style={styles.errorText}>No active flight.</Text>
-        <Pressable onPress={() => nav.navigate('Home')} style={styles.homeButton}>
+        <Pressable onPress={() => nav.navigate('Tabs')} style={styles.homeButton}>
           <Text style={styles.homeButtonText}>Go Home</Text>
         </Pressable>
       </View>
@@ -131,7 +131,7 @@ export default function InFlightScreen() {
       {/* Top HUD */}
       <SafeAreaView style={styles.topHUD} pointerEvents="box-none">
         <View style={styles.topBar}>
-          <Pressable onPress={() => nav.navigate('Home')} style={styles.topButton}>
+          <Pressable onPress={() => nav.navigate('Tabs')} style={styles.topButton}>
             <Text style={styles.topButtonText}>← Exit</Text>
           </Pressable>
           <View style={styles.routeChip}>

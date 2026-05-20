@@ -18,7 +18,7 @@ import { apiClient } from '../core/api/client';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
 
-type Nav = NativeStackNavigationProp<RootStackParamList, 'Browse'>;
+type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
 
 export default function BrowseScreen() {
   const nav = useNavigation<Nav>();
