@@ -112,7 +112,10 @@ export const de = {
     km: 'Kilometer',
     miles: 'Meilen',
     dark: 'Dunkel',
-    light: 'Hell'
+    light: 'Hell',
+    themeDark: 'Dunkel',
+    themeLight: 'Hell',
+    themeRestart: 'App neu starten, um das Design anzuwenden'
   },
   collection: {
     achievements: 'Errungenschaften',

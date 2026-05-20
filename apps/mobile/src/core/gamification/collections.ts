@@ -10,7 +10,8 @@ const KEYS = {
   KIDS_MODE: 'kids_mode',
   UNITS: 'units',
   LANGUAGE: 'language',
-  INFLIGHT_TUTORIAL_SEEN: 'inflight_tutorial_seen'
+  INFLIGHT_TUTORIAL_SEEN: 'inflight_tutorial_seen',
+  THEME: 'theme'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -111,6 +112,15 @@ export const collectionsStore = {
 
   markInflightTutorialSeen(): void {
     storage.set(KEYS.INFLIGHT_TUTORIAL_SEEN, true);
+  },
+
+  getTheme(): 'dark' | 'light' {
+    const val = storage.getString(KEYS.THEME);
+    return val === 'light' ? 'light' : 'dark';
+  },
+
+  setTheme(theme: 'dark' | 'light'): void {
+    storage.set(KEYS.THEME, theme);
   },
 
   reset(): void {

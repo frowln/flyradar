@@ -112,7 +112,10 @@ export const ru = {
     km: 'Километры',
     miles: 'Мили',
     dark: 'Тёмная',
-    light: 'Светлая'
+    light: 'Светлая',
+    themeDark: 'Тёмная',
+    themeLight: 'Светлая',
+    themeRestart: 'Перезапустите приложение чтобы применить тему'
   },
   collection: {
     achievements: 'Достижения',

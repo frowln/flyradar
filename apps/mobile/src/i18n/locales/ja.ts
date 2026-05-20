@@ -112,7 +112,10 @@ export const ja = {
     km: 'キロメートル',
     miles: 'マイル',
     dark: 'ダーク',
-    light: 'ライト'
+    light: 'ライト',
+    themeDark: 'ダーク',
+    themeLight: 'ライト',
+    themeRestart: 'テーマを適用するにはアプリを再起動してください'
   },
   collection: {
     achievements: '実績',

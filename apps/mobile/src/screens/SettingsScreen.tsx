@@ -4,15 +4,18 @@ import {
   Text,
   ScrollView,
   Pressable,
-  StyleSheet
+  StyleSheet,
+  Alert
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { colors } from '../theme/colors';
+import { colors, setTheme, getTheme } from '../theme/colors';
+import type { ThemeName } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { collectionsStore } from '../core/gamification/collections';
 import type { RootStackParamList } from '../navigation/types';
 import { t, setLocale, getLocale, SUPPORTED_LOCALES } from '../i18n';
+import { haptics } from '../core/ux/haptics';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Settings'>;
 
@@ -29,11 +32,20 @@ export default function SettingsScreen() {
   const nav = useNavigation<Nav>();
   const [units, setUnitsState] = useState<'km' | 'miles'>(() => collectionsStore.getUnits());
   const [locale, setLocaleState] = useState(() => getLocale());
+  const [theme, setThemeState] = useState<ThemeName>(() => getTheme());
 
   function toggleUnits() {
     const next = units === 'km' ? 'miles' : 'km';
     collectionsStore.setUnits(next);
     setUnitsState(next);
+  }
+
+  function toggleTheme() {
+    const next: ThemeName = theme === 'dark' ? 'light' : 'dark';
+    setTheme(next);
+    setThemeState(next);
+    haptics.light();
+    Alert.alert(t('settings.themeRestart'));
   }
 
   function cycleLanguage() {
@@ -70,10 +82,17 @@ export default function SettingsScreen() {
           <Text style={[typography.body, styles.rowValue]}>{units === 'km' ? t('settings.km') : t('settings.miles')}</Text>
         </Pressable>
         <View style={styles.divider} />
-        <View style={styles.row}>
+        <Pressable
+          style={styles.row}
+          onPress={toggleTheme}
+          accessibilityLabel={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
+          accessibilityRole="button"
+        >
           <Text style={[typography.body, styles.rowLabel]}>{t('settings.theme')}</Text>
-          <Text style={[typography.body, styles.rowValue]}>{t('settings.dark')}</Text>
-        </View>
+          <Text style={[typography.body, styles.rowValue]}>
+            {theme === 'dark' ? t('settings.themeDark') : t('settings.themeLight')}
+          </Text>
+        </Pressable>
       </View>
 
       {/* About */}

@@ -16,6 +16,8 @@ import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { collectionsStore } from '../core/gamification/collections';
 import { levelFromXP, calculateXP, rankFromLevel } from '../core/gamification/levels';
+import { ACHIEVEMENTS } from '../core/gamification/achievements';
+import { calculateStreaks } from '../core/gamification/streaks';
 import type { RootStackParamList } from '../navigation/types';
 import { t } from '../i18n';
 
@@ -48,6 +50,13 @@ export default function ProfileScreen() {
 
   const stats = collectionsStore.getStats();
   const earnedCount = collectionsStore.getEarnedAchievements().length;
+  const totalAchievements = ACHIEVEMENTS.length;
+  // Build flight logs from firstFlightDate for streak calculation (simple: use total flights as proxy)
+  // Use firstFlightDate if available; streak shows currentStreak from stored stats
+  const streakFlights = stats.firstFlightDate
+    ? [{ date: stats.firstFlightDate }]
+    : [];
+  const { currentStreak } = calculateStreaks(streakFlights);
   const xp = calculateXP({
     flightsCompleted: stats.totalFlights,
     poisDiscovered: stats.poisDiscovered,
@@ -171,6 +180,31 @@ export default function ProfileScreen() {
           <Text style={styles.statValue}>{earnedCount}</Text>
           <Text style={styles.statLabel}>{t('profile.badges')}</Text>
         </View>
+      </View>
+
+      {/* Statistics grid */}
+      <Text style={styles.sectionHeader}>STATISTICS</Text>
+      <View style={styles.statsGrid}>
+        {[
+          { icon: '✈️', value: String(stats.totalFlights), label: 'Total Flights' },
+          { icon: '📏', value: `${Math.round(stats.totalDistanceKm).toLocaleString()}`, label: 'km Flown' },
+          { icon: '🌍', value: String(stats.countriesFlownOver.length), label: 'Countries' },
+          { icon: '🏆', value: `${earnedCount}/${totalAchievements}`, label: 'Achievements' },
+          { icon: '🔥', value: String(currentStreak), label: 'Month Streak' },
+          { icon: '📅', value: MEMBER_SINCE, label: 'Member Since' }
+        ].map((item) => (
+          <LinearGradient
+            key={item.label}
+            colors={[colors.surfaceElevated, colors.surface]}
+            style={styles.statCard}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+          >
+            <Text style={styles.statCardIcon}>{item.icon}</Text>
+            <Text style={styles.statCardValue}>{item.value}</Text>
+            <Text style={styles.statCardLabel}>{item.label}</Text>
+          </LinearGradient>
+        ))}
       </View>
 
       {/* Menu */}
@@ -372,6 +406,25 @@ const styles = StyleSheet.create({
   menuLabelGroup: { flex: 1, gap: 2 },
   chevron: { color: colors.textMuted, fontSize: 20 },
   divider: { height: 1, backgroundColor: colors.border, marginLeft: 56 },
+
+  statsGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+    marginHorizontal: 16
+  },
+  statCard: {
+    width: '47%',
+    borderRadius: 14,
+    padding: 14,
+    alignItems: 'center',
+    gap: 4,
+    borderWidth: 1,
+    borderColor: colors.border
+  },
+  statCardIcon: { fontSize: 24 },
+  statCardValue: { color: colors.text, fontSize: 20, fontWeight: '700' },
+  statCardLabel: { color: colors.textMuted, fontSize: 11, textAlign: 'center' },
 
   upgradeButton: {
     flexDirection: 'row',

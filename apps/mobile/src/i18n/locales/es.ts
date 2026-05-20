@@ -112,7 +112,10 @@ export const es = {
     km: 'Kilómetros',
     miles: 'Millas',
     dark: 'Oscuro',
-    light: 'Claro'
+    light: 'Claro',
+    themeDark: 'Oscuro',
+    themeLight: 'Claro',
+    themeRestart: 'Reinicia la app para aplicar el tema'
   },
   collection: {
     achievements: 'Logros',

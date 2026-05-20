@@ -5,7 +5,8 @@ import {
   Pressable,
   StyleSheet,
   ActivityIndicator,
-  ScrollView
+  ScrollView,
+  Alert
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -30,6 +31,20 @@ export default function SimulatorScreen() {
   const { confirmTakeoff, setPackage, setTimeMultiplier, timeMultiplier } = useFlightStore();
   const [spawning, setSpawning] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const handleOneTapDemo = async () => {
+    try {
+      const today = new Date().toISOString().slice(0, 10);
+      const pkg = await downloadPackage('DEMO999', today);
+      const takeoffAt = new Date(Date.now() - 30 * 60 * 1000);
+      setPackage(pkg);
+      confirmTakeoff(takeoffAt);
+      setTimeMultiplier(60);
+      nav.replace('InFlight', { flightId: pkg.flight.id });
+    } catch (e: any) {
+      Alert.alert('Demo failed', e.message);
+    }
+  };
 
   async function spawnDemoFlight() {
     setSpawning(true);
@@ -68,6 +83,12 @@ export default function SimulatorScreen() {
 
       <Text style={[typography.h2, styles.heading]}>{t('simulator.title')}</Text>
       <Text style={[typography.body, styles.subtitle]}>{t('simulator.subtitle')}</Text>
+
+      {/* One-tap demo */}
+      <Pressable style={styles.oneTapButton} onPress={handleOneTapDemo}>
+        <Text style={styles.oneTapButtonText}>🎬 One-Tap Demo Flight</Text>
+        <Text style={styles.oneTapButtonSub}>Spawns demo • 30 min in • 60× speed</Text>
+      </Pressable>
 
       {/* Spawn demo */}
       <View style={styles.section}>
@@ -145,6 +166,15 @@ const styles = StyleSheet.create({
   },
   sectionTitle: { color: colors.text, fontSize: 16, fontWeight: '700' },
   sectionNote: { marginTop: -4 },
+  oneTapButton: {
+    backgroundColor: colors.accent,
+    padding: 18,
+    borderRadius: 16,
+    alignItems: 'center',
+    gap: 4
+  },
+  oneTapButtonText: { color: colors.bg, fontWeight: '800', fontSize: 18 },
+  oneTapButtonSub: { color: colors.bg, fontSize: 12, opacity: 0.75 },
   primaryButton: {
     backgroundColor: colors.primary,
     padding: 14,
