@@ -39,7 +39,8 @@
       "expo-localization",
       "expo-notifications",
       "expo-font",
-      "@sentry/react-native"
+      "@sentry/react-native",
+      "./plugins/with-live-activity.js"
     ]
   }
 }

@@ -15,15 +15,21 @@ let achievementSound: any | null = null;
 let popSound: any | null = null;
 
 export async function initSounds(): Promise<void> {
-  if (Platform.OS === 'web' || !Audio) return;
+  if (Platform.OS === 'web' || !Audio || achievementSound) return;
   try {
     await Audio.setAudioModeAsync({ playsInSilentModeIOS: false });
-    // Sound assets not bundled yet — placeholder for future implementation.
-    // When adding sounds, load them here:
-    //   const { sound } = await Audio.Sound.createAsync(require('../../../assets/sounds/achievement.mp3'));
-    //   achievementSound = sound;
-  } catch {
-    // Silently ignore — audio permission not granted or device unsupported
+    const { sound: as } = await Audio.Sound.createAsync(
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      require('../../../assets/sounds/achievement.mp3')
+    );
+    achievementSound = as;
+    const { sound: ps } = await Audio.Sound.createAsync(
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      require('../../../assets/sounds/poi.mp3')
+    );
+    popSound = ps;
+  } catch (e) {
+    console.warn('[Sounds] failed to load:', e);
   }
 }
 

@@ -143,7 +143,12 @@ export default function FlightSummaryScreen() {
     return (
       <View style={styles.center}>
         <Text style={{ color: colors.textMuted }}>{t('flightSummary.flightDataNotFound')}</Text>
-        <Pressable onPress={handleDone} style={styles.doneButton}>
+        <Pressable
+          onPress={handleDone}
+          style={styles.doneButton}
+          accessibilityRole="button"
+          accessibilityLabel={t('flightSummary.goHome')}
+        >
           <Text style={styles.doneButtonText}>{t('flightSummary.goHome')}</Text>
         </Pressable>
       </View>
@@ -220,15 +225,30 @@ export default function FlightSummaryScreen() {
       </View>
 
       {/* Action buttons */}
-      <Pressable style={styles.shareCardButton} onPress={handleShareCard}>
+      <Pressable
+        style={styles.shareCardButton}
+        onPress={handleShareCard}
+        accessibilityRole="button"
+        accessibilityLabel="Share to Instagram Story"
+      >
         <Text style={styles.shareCardButtonText}>📸 Share to Instagram Story</Text>
       </Pressable>
 
-      <Pressable style={styles.shareButton} onPress={handleShare}>
+      <Pressable
+        style={styles.shareButton}
+        onPress={handleShare}
+        accessibilityRole="button"
+        accessibilityLabel={t('flightSummary.shareFlight')}
+      >
         <Text style={styles.shareButtonText}>{t('flightSummary.shareFlight')}</Text>
       </Pressable>
 
-      <Pressable style={styles.doneButton} onPress={handleDone}>
+      <Pressable
+        style={styles.doneButton}
+        onPress={handleDone}
+        accessibilityRole="button"
+        accessibilityLabel={t('flightSummary.done')}
+      >
         <Text style={styles.doneButtonText}>{t('flightSummary.done')}</Text>
       </Pressable>
     </ScrollView>

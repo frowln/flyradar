@@ -32,7 +32,12 @@ export default function ReferralScreen() {
       </View>
 
       {/* Share button */}
-      <Pressable style={styles.shareButton} onPress={handleShare}>
+      <Pressable
+        style={styles.shareButton}
+        onPress={handleShare}
+        accessibilityRole="button"
+        accessibilityLabel={t('referral.shareButton')}
+      >
         <Text style={styles.shareButtonText}>{t('referral.shareButton')}</Text>
       </Pressable>
 

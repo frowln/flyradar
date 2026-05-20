@@ -104,7 +104,12 @@ export default function SimulatorScreen() {
       </View>
 
       {/* One-tap demo — primary CTA */}
-      <Pressable style={styles.oneTapButton} onPress={handleOneTapDemo}>
+      <Pressable
+        style={styles.oneTapButton}
+        onPress={handleOneTapDemo}
+        accessibilityRole="button"
+        accessibilityLabel="One-tap demo: spawns demo flight at 30 minutes in at 60x speed"
+      >
         <Text style={styles.oneTapButtonText}>{t('simulator.oneTap')}</Text>
         <Text style={styles.oneTapButtonSub}>Spawns demo • 30 min in • 60× speed</Text>
       </Pressable>
@@ -119,7 +124,13 @@ export default function SimulatorScreen() {
       {/* Spawn demo */}
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>{t('simulator.spawnDemo')}</Text>
-        <Pressable style={styles.primaryButton} onPress={spawnDemoFlight} disabled={spawning}>
+        <Pressable
+          style={styles.primaryButton}
+          onPress={spawnDemoFlight}
+          disabled={spawning}
+          accessibilityRole="button"
+          accessibilityLabel={`Spawn demo flight ${DEMO_FLIGHT}`}
+        >
           {spawning
             ? <ActivityIndicator color={colors.text} />
             : <Text style={styles.primaryButtonText}>{t('simulator.spawnButton', { flightId: DEMO_FLIGHT })}</Text>
@@ -138,6 +149,8 @@ export default function SimulatorScreen() {
               key={frac}
               style={styles.jumpButton}
               onPress={() => frac === 1.0 ? jumpToProgress(0.999) : jumpToProgress(frac)}
+              accessibilityRole="button"
+              accessibilityLabel={frac === 1.0 ? 'Jump to landed' : `Jump to ${frac * 100}%`}
             >
               <Text style={styles.jumpButtonText}>
                 {frac === 1.0 ? t('simulator.landed') : `${frac * 100}%`}
@@ -157,6 +170,9 @@ export default function SimulatorScreen() {
               key={m}
               style={[styles.multiplierButton, timeMultiplier === m && styles.multiplierButtonActive]}
               onPress={() => setTimeMultiplier(m)}
+              accessibilityRole="button"
+              accessibilityLabel={`Set speed to ${m}x`}
+              accessibilityState={{ selected: timeMultiplier === m }}
             >
               <Text style={[styles.multiplierButtonText, timeMultiplier === m && styles.multiplierButtonTextActive]}>
                 {m}×

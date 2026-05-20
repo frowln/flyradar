@@ -11,6 +11,7 @@ import Toast from './src/components/Toast';
 import AchievementToast from './src/components/AchievementToast';
 import ErrorBoundary from './src/components/ErrorBoundary';
 import { initNotifications } from './src/core/ux/notifications';
+import { initSounds } from './src/core/ux/sounds';
 import { collectionsStore } from './src/core/gamification/collections';
 import { initSentry, SentryWrapper } from './src/core/observability/sentry';
 import { initAnalytics } from './src/core/analytics';
@@ -39,6 +40,7 @@ function App() {
     initNotifications().then(() => {
       scheduleDailyFact().catch(() => {});
     });
+    initSounds().catch(() => {});
     // Attempt iCloud restore on mount — no-op on Android/web or if cloud is older
     restoreFromiCloud().catch(() => {});
   }, []);
