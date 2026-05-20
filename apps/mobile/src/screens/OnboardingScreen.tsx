@@ -12,6 +12,7 @@ import {
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { createMMKV } from 'react-native-mmkv';
+import { Plane, Compass, Trophy, type LucideIcon } from 'lucide-react-native';
 import { colors } from '../theme/colors';
 import { fonts } from '../theme/typography';
 import type { RootStackParamList } from '../navigation/types';
@@ -37,7 +38,8 @@ type AtmosphericVariant = 'sky' | 'sunset' | 'aurora';
 
 type Slide = {
   key: string;
-  icon: string;
+  Icon: LucideIcon;
+  iconColor: string;
   titleKey: string;
   bodyKey: string;
   variant: AtmosphericVariant;
@@ -46,21 +48,24 @@ type Slide = {
 const SLIDES: Slide[] = [
   {
     key: '1',
-    icon: '✈️',
+    Icon: Plane,
+    iconColor: colors.primary,
     titleKey: 'onboarding.slide1_title',
     bodyKey: 'onboarding.slide1_body',
     variant: 'sky'
   },
   {
     key: '2',
-    icon: '🌍',
+    Icon: Compass,
+    iconColor: colors.accent,
     titleKey: 'onboarding.slide2_title',
     bodyKey: 'onboarding.slide2_body',
     variant: 'sunset'
   },
   {
     key: '3',
-    icon: '🏆',
+    Icon: Trophy,
+    iconColor: '#FFB547',
     titleKey: 'onboarding.slide3_title',
     bodyKey: 'onboarding.slide3_body',
     variant: 'aurora'
@@ -145,9 +150,9 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
 
   return (
     <AtmosphericBackground variant={item.variant} style={styles.slide}>
-      <Animated.Text
+      <Animated.View
         style={[
-          styles.slideIcon,
+          styles.iconWrapper,
           {
             transform: [
               { scale: iconScale },
@@ -156,8 +161,11 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
           }
         ]}
       >
-        {item.icon}
-      </Animated.Text>
+        <View style={[styles.iconGlow3, { backgroundColor: item.iconColor + '08' }]} />
+        <View style={[styles.iconGlow2, { backgroundColor: item.iconColor + '14' }]} />
+        <View style={[styles.iconGlow1, { backgroundColor: item.iconColor + '22' }]} />
+        <item.Icon size={140} color={item.iconColor} strokeWidth={1.5} />
+      </Animated.View>
       {/* Slide title in 42px Fraunces display serif */}
       <Animated.Text
         style={[
@@ -303,7 +311,30 @@ const styles = StyleSheet.create({
     paddingHorizontal: 40,
     gap: 20
   },
-  slideIcon: { fontSize: 80 },
+  iconWrapper: {
+    width: 200,
+    height: 200,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  iconGlow1: {
+    position: 'absolute',
+    width: 180,
+    height: 180,
+    borderRadius: 90
+  },
+  iconGlow2: {
+    position: 'absolute',
+    width: 220,
+    height: 220,
+    borderRadius: 110
+  },
+  iconGlow3: {
+    position: 'absolute',
+    width: 280,
+    height: 280,
+    borderRadius: 140
+  },
   // 42px Fraunces display serif for slide titles
   slideTitle: {
     fontFamily: fonts.display,

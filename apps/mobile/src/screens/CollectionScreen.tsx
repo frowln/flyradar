@@ -9,6 +9,7 @@ import {
   RefreshControl,
   type RefreshControlProps
 } from 'react-native';
+import { Globe } from 'lucide-react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
@@ -117,7 +118,7 @@ function CountriesTab({ countries, refreshControl }: { countries: string[]; refr
   if (countries.length === 0) {
     return (
       <EmptyState
-        icon="🌍"
+        icon={Globe}
         title={t('collection.noCountriesYet')}
         description={t('collection.noCountriesDesc')}
       />

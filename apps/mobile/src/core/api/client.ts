@@ -1,3 +1,5 @@
+import { collectionsStore } from '../gamification/collections';
+
 const BASE_URL = process.env['EXPO_PUBLIC_API_URL'] ?? 'http://localhost:3000';
 
 class ApiError extends Error {
@@ -7,11 +9,23 @@ class ApiError extends Error {
   }
 }
 
+function getDeviceToken(): string {
+  let token = collectionsStore.getDeviceToken();
+  if (!token) {
+    token = `dev_${Date.now()}_${Math.random().toString(36).slice(2, 18)}`;
+    collectionsStore.setDeviceToken(token);
+  }
+  return token;
+}
+
 export const apiClient = {
   async post<T>(path: string, body: unknown): Promise<T> {
     const r = await fetch(`${BASE_URL}${path}`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${getDeviceToken()}`
+      },
       body: JSON.stringify(body)
     });
     if (!r.ok) {
@@ -22,7 +36,11 @@ export const apiClient = {
   },
 
   async get<T>(path: string): Promise<T> {
-    const r = await fetch(`${BASE_URL}${path}`);
+    const r = await fetch(`${BASE_URL}${path}`, {
+      headers: {
+        'Authorization': `Bearer ${getDeviceToken()}`
+      }
+    });
     if (!r.ok) {
       throw new ApiError(r.status, `HTTP ${r.status}`);
     }

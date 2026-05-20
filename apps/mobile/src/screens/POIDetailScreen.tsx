@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import {
   View,
   Text,
@@ -25,6 +25,7 @@ import { t } from '../i18n';
 import { collectionsStore } from '../core/gamification/collections';
 import { recordPOIView } from '../core/ai/personalization';
 import { fetchUnsplashPhoto } from '../core/api/unsplash';
+import { getCategoryIcon } from '../core/poi/categoryIcon';
 
 function getNarratorOptions(): Speech.SpeechOptions {
   switch (collectionsStore.getNarrator()) {
@@ -53,11 +54,6 @@ const CATEGORY_LABELS: Record<string, string> = {
   landmark: 'Landmark'
 };
 
-const CATEGORY_ICONS: Record<string, string> = {
-  city: '🏙️', mountain: '⛰️', lake: '🌊', river: '🌊',
-  sea: '🌊', volcano: '🌋', island: '🏝️', historic: '🏛️',
-  park: '🌿', landmark: '🗺️'
-};
 
 export default function POIDetailScreen() {
   const nav = useNavigation<Nav>();
@@ -169,7 +165,7 @@ export default function POIDetailScreen() {
     );
   }
 
-  const icon = CATEGORY_ICONS[poi.category] ?? '📍';
+  const CategoryIcon = getCategoryIcon(poi.category);
   const label = CATEGORY_LABELS[poi.category] ?? poi.category;
   const photo = poi.photos?.[0] ?? unsplashPhoto;
 
@@ -181,7 +177,7 @@ export default function POIDetailScreen() {
           <Image source={{ uri: photo }} style={styles.heroPhoto} contentFit="cover" transition={300} />
         ) : (
           <View style={[styles.heroPhoto, styles.heroPlaceholder]}>
-            <Text style={styles.heroIcon}>{icon}</Text>
+            <CategoryIcon size={80} color={colors.textMuted} strokeWidth={1.3} />
           </View>
         )}
 
@@ -204,8 +200,9 @@ export default function POIDetailScreen() {
 
         {/* Category badge above name, overlaid on hero */}
         <View style={styles.heroBadgeRow}>
-          <View style={styles.heroCategoryBadge}>
-            <Text style={styles.heroCategoryText}>{icon}  {label.toUpperCase()}</Text>
+          <View style={[styles.heroCategoryBadge, styles.heroCategoryBadgeRow]}>
+            <CategoryIcon size={12} color={colors.primary} strokeWidth={2} />
+            <Text style={styles.heroCategoryText}>{label.toUpperCase()}</Text>
           </View>
         </View>
 
@@ -352,6 +349,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 3,
     borderRadius: 4
+  },
+  heroCategoryBadgeRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5
   },
   heroCategoryText: {
     fontFamily: fonts.bodySemi,

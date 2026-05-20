@@ -9,7 +9,7 @@ export const es = {
     browse: 'Explorar vuelos',
     simulator: 'Simulador',
     leaderboard: 'Clasificación',
-    worldMap: 'Mi mundo',
+    worldMap: 'Mi atlas',
     referral: 'Invitar amigos',
     wrapped: 'Resumen del año',
     paywall: 'SkyAtlas Pro',
@@ -35,7 +35,9 @@ export const es = {
     explore: 'Explorar cualquier vuelo →',
     nextFlight: 'Tu próximo vuelo',
     in: 'en',
-    open: 'Abrir'
+    open: 'Abrir',
+    whereWillYouGo: '¿A dónde vamos?',
+    addFirstFlight: 'Empieza tu atlas'
   },
   addFlight: {
     title: 'Añadir vuelo',
@@ -59,6 +61,7 @@ export const es = {
     offlinePackage: 'Contenido sin conexión',
     highlights: 'Destacados',
     readyForOffline: '✓ Listo para uso sin conexión',
+    offlineReady: '✓ Listo sin conexión — funciona sin internet',
     placesToDiscover: 'Lugares por descubrir',
     routePoints: 'Puntos de ruta',
     downloaded: 'Descargado',
@@ -162,10 +165,10 @@ export const es = {
   },
   paywall: {
     title: 'SkyAtlas Pro',
-    subtitle: 'Explora el mundo sin límites',
-    feature_unlimited_poi: 'Descubrimientos de POI ilimitados por vuelo',
-    feature_achievements: 'Logros y colecciones completos',
-    feature_history: 'Historial completo de vuelos',
+    subtitle: 'Desbloquea tu atlas ilimitado',
+    feature_unlimited_poi: 'Descubrimientos ilimitados — colecciona cada lugar sobrevolado',
+    feature_achievements: 'Colección completa de logros — 18 hitos',
+    feature_history: 'Historial completo de vuelos y atlas personal',
     feature_world_map: 'Mapa mundial con todas tus rutas',
     feature_stats: 'Estadísticas detalladas de por vida',
     feature_photos: 'Fotos en alta resolución',
@@ -190,8 +193,8 @@ export const es = {
     slide1_body: 'Añade tu vuelo antes de embarcar. SkyAtlas descarga todo lo que necesitas — sin internet en el aire.',
     slide2_title: 'Descubre lo que hay abajo',
     slide2_body: 'Montañas, ciudades, lagos, volcanes — aprende sobre cada lugar que sobrevuelas con fotos y datos fascinantes.',
-    slide3_title: 'Colecciona el mundo',
-    slide3_body: 'Construye tu atlas personal. Cada vuelo añade países, lugares y logros a tu colección.',
+    slide3_title: 'Construye tu atlas',
+    slide3_body: 'Cada vuelo se suma a tu atlas personal del mundo — países, lugares y logros que crecen con el tiempo.',
     skip: 'Omitir',
     next: 'Siguiente →',
     getStarted: 'Comenzar ✈️'
@@ -212,8 +215,8 @@ export const es = {
     flights: 'Vuelos',
     km: 'km volados',
     countries: 'Países',
-    emptyTitle: 'Tu mapa te espera',
-    emptyDesc: 'Sigue tu primer vuelo para empezar a construir tu mapa del mundo personal.'
+    emptyTitle: 'Tu atlas te espera',
+    emptyDesc: 'Sigue tu primer vuelo para empezar a construir tu atlas personal del mundo.'
   },
   simulator: {
     title: 'Simulador de vuelo',
@@ -269,7 +272,7 @@ export const es = {
     yourSummarized: 'Tu año,\nen resumen',
     distance: 'Distancia',
     shareMyYear: 'Compartir mi año',
-    shareMessage: 'Mi %{year} en los cielos ✈️\n%{flights} vuelos • %{distance} volados\n%{countries} países • %{discoveries} descubrimientos\nRegistrado con SkyAtlas',
+    shareMessage: 'Mi atlas de %{year}: %{flights} vuelos, %{countries} países, %{distance} km. #SkyAtlas',
     tap: 'toca para continuar'
   },
   flightSummary: {
@@ -288,8 +291,8 @@ export const es = {
   },
   tabs: {
     flights: 'Vuelos',
-    explore: 'Explorar',
-    world: 'Mundo',
+    explore: 'Buscar',
+    world: 'Atlas',
     profile: 'Perfil'
   },
   profile: {

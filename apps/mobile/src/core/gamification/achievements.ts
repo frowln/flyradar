@@ -1,3 +1,5 @@
+import { calculateStreaks } from './streaks';
+
 export interface LifetimeStats {
   totalFlights: number;
   countriesFlownOver: string[];
@@ -14,6 +16,7 @@ export interface LifetimeStats {
   oceanCrossings: number;
   mountainRangesFlown: string[];
   firstFlightDate: string | null;
+  monthlyFlightsHistory: string[];
 }
 
 export interface Achievement {
@@ -172,9 +175,13 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     id: 'monthly_flyer',
     name: 'Monthly Flyer',
-    description: 'Take 3 or more flights in a single month',
+    description: 'Fly in 3 consecutive months',
     icon: '📆',
-    check: (s) => s.totalFlights >= 3
+    check: (s) => {
+      if (!s.monthlyFlightsHistory || s.monthlyFlightsHistory.length === 0) return false;
+      const streaks = calculateStreaks(s.monthlyFlightsHistory.map(d => ({ date: d + '-01' })));
+      return streaks.bestStreak >= 3;
+    }
   }
 ];
 

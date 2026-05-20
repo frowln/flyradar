@@ -16,7 +16,8 @@ const KEYS = {
   NARRATOR: 'narrator',
   SOUND_ENABLED: 'sound_enabled',
   INSTALL_DATE: 'install_date',
-  LEADERBOARD_EMAIL: 'leaderboard_email'
+  LEADERBOARD_EMAIL: 'leaderboard_email',
+  DEVICE_TOKEN: 'device_token'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -34,7 +35,8 @@ const DEFAULT_STATS: LifetimeStats = {
   sunsetFlights: 0,
   oceanCrossings: 0,
   mountainRangesFlown: [],
-  firstFlightDate: null
+  firstFlightDate: null,
+  monthlyFlightsHistory: []
 };
 
 export const collectionsStore = {
@@ -174,6 +176,14 @@ export const collectionsStore = {
 
   getLeaderboardEmail(): string | undefined {
     return storage.getString(KEYS.LEADERBOARD_EMAIL);
+  },
+
+  getDeviceToken(): string | undefined {
+    return storage.getString(KEYS.DEVICE_TOKEN);
+  },
+
+  setDeviceToken(token: string): void {
+    storage.set(KEYS.DEVICE_TOKEN, token);
   },
 
   reset(): void {

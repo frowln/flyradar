@@ -38,7 +38,8 @@
       "expo-sqlite",
       "expo-localization",
       "expo-notifications",
-      "expo-font"
+      "expo-font",
+      "@sentry/react-native"
     ]
   }
 }

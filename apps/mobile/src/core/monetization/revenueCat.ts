@@ -1,4 +1,5 @@
 import Purchases, { LOG_LEVEL } from 'react-native-purchases';
+import { apiClient } from '../api/client';
 
 const RC_API_KEY = process.env['EXPO_PUBLIC_RC_KEY'] ?? '';
 
@@ -19,7 +20,14 @@ export async function isPro(): Promise<boolean> {
   if (!RC_API_KEY) return false;
   try {
     const info = await Purchases.getCustomerInfo();
-    return Boolean(info.entitlements.active['pro']);
+    const clientSays = Boolean(info.entitlements.active['pro']);
+    if (!clientSays) return false;
+
+    // Verify server-side
+    const verified = await apiClient.post<{ verified: boolean }>('/subscription/verify', {
+      appUserId: info.originalAppUserId
+    });
+    return verified.verified;
   } catch {
     return false;
   }

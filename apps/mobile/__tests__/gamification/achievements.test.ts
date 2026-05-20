@@ -16,7 +16,8 @@ const baseStats: LifetimeStats = {
   sunsetFlights: 0,
   oceanCrossings: 0,
   mountainRangesFlown: [],
-  firstFlightDate: null
+  firstFlightDate: null,
+  monthlyFlightsHistory: []
 };
 
 describe('evaluateAchievements', () => {

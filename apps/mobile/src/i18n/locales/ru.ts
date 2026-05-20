@@ -9,7 +9,7 @@ export const ru = {
     browse: 'Все рейсы',
     simulator: 'Симулятор',
     leaderboard: 'Рейтинг',
-    worldMap: 'Мой мир',
+    worldMap: 'Мой атлас',
     referral: 'Пригласить друзей',
     wrapped: 'Итоги года',
     paywall: 'SkyAtlas Pro',
@@ -47,7 +47,7 @@ export const ru = {
     in: 'через',
     open: 'Открыть',
     whereWillYouGo: 'Куда летим?',
-    addFirstFlight: 'Добавить первый рейс'
+    addFirstFlight: 'Начни свой атлас'
   },
   addFlight: {
     title: 'Добавить рейс',
@@ -72,6 +72,7 @@ export const ru = {
     offlinePackage: 'Офлайн-пакет',
     highlights: 'Главное',
     readyForOffline: '✓ Готово к офлайн-использованию',
+    offlineReady: '✓ Готово к офлайн — работает без интернета',
     placesToDiscover: 'Мест для открытия',
     routePoints: 'Точек маршрута',
     downloaded: 'Загружено',
@@ -190,10 +191,10 @@ export const ru = {
   },
   paywall: {
     title: 'SkyAtlas Pro',
-    subtitle: 'Исследуйте мир без ограничений',
-    feature_unlimited_poi: 'Безлимитные открытия на каждом рейсе',
-    feature_achievements: 'Полные достижения и коллекции',
-    feature_history: 'Полная история рейсов',
+    subtitle: 'Разблокируй безлимитный атлас',
+    feature_unlimited_poi: 'Безлимитные открытия — собирай каждое место в полёте',
+    feature_achievements: 'Полная коллекция достижений — 18 рубежей',
+    feature_history: 'Полная история рейсов и личный атлас',
     feature_world_map: 'Карта мира со всеми вашими маршрутами',
     feature_stats: 'Подробная статистика за всё время',
     feature_photos: 'Фотографии в высоком разрешении',
@@ -218,8 +219,8 @@ export const ru = {
     slide1_body: 'Добавьте рейс до посадки. SkyAtlas скачает всё необходимое — интернет в воздухе не нужен.',
     slide2_title: 'Открывайте то, что внизу',
     slide2_body: 'Горы, города, озёра, вулканы — узнавайте о каждом месте, над которым летите, с фото и интересными фактами.',
-    slide3_title: 'Собирайте мир',
-    slide3_body: 'Создавайте свой личный атлас. Каждый рейс добавляет страны, места и достижения в вашу коллекцию.',
+    slide3_title: 'Создай свой атлас',
+    slide3_body: 'Каждый полёт пополняет личный атлас мира — страны, места, достижения накапливаются с годами.',
     skip: 'Пропустить',
     next: 'Далее →',
     getStarted: 'Начать ✈️'
@@ -240,8 +241,8 @@ export const ru = {
     flights: 'Рейсов',
     km: 'км пройдено',
     countries: 'Стран',
-    emptyTitle: 'Ваша карта ждёт',
-    emptyDesc: 'Отследите первый рейс, чтобы начать строить свою карту мира.'
+    emptyTitle: 'Ваш атлас ждёт',
+    emptyDesc: 'Отследите первый рейс, чтобы начать строить личный атлас мира.'
   },
   simulator: {
     title: 'Симулятор полётов',
@@ -298,7 +299,7 @@ export const ru = {
     yourSummarized: 'Ваш год,\nв цифрах',
     distance: 'Расстояние',
     shareMyYear: 'Поделиться итогами',
-    shareMessage: 'Мой %{year} в небесах ✈️\n%{flights} рейсов • %{distance} пройдено\n%{countries} стран • %{discoveries} открытий\nOтслежено с SkyAtlas',
+    shareMessage: 'Мой атлас %{year}: %{flights} рейсов, %{countries} стран, %{distance} км. #SkyAtlas',
     tap: 'нажмите, чтобы продолжить'
   },
   flightSummary: {
@@ -318,8 +319,8 @@ export const ru = {
   },
   tabs: {
     flights: 'Мои рейсы',
-    explore: 'Найти рейс',
-    world: 'Мой мир',
+    explore: 'Поиск',
+    world: 'Атлас',
     profile: 'Профиль'
   },
   profile: {

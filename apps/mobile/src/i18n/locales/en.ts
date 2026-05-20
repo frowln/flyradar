@@ -8,7 +8,7 @@ export const en = {
     settings: 'Settings',
     browse: 'Explore Flights',
     simulator: 'Simulator', leaderboard: 'Leaderboard',
-    worldMap: 'My World',
+    worldMap: 'My Atlas',
     referral: 'Invite Friends',
     wrapped: 'Year Wrapped',
     paywall: 'SkyAtlas Pro',
@@ -46,7 +46,7 @@ export const en = {
     in: 'in',
     open: 'Open',
     whereWillYouGo: 'Where will you go?',
-    addFirstFlight: 'Add your first flight'
+    addFirstFlight: 'Start your atlas'
   },
   addFlight: {
     title: 'Add Flight',
@@ -71,6 +71,7 @@ export const en = {
     offlinePackage: 'Offline package',
     highlights: 'Highlights',
     readyForOffline: '✓ Ready for offline use',
+    offlineReady: '✓ Ready for offline — works without internet',
     placesToDiscover: 'Places to discover',
     routePoints: 'Route points',
     downloaded: 'Downloaded',
@@ -189,10 +190,10 @@ export const en = {
   },
   paywall: {
     title: 'SkyAtlas Pro',
-    subtitle: 'Explore the world without limits',
-    feature_unlimited_poi: 'Unlimited POI discoveries per flight',
-    feature_achievements: 'Full achievements & collections',
-    feature_history: 'Complete flight history',
+    subtitle: 'Unlock your unlimited atlas',
+    feature_unlimited_poi: 'Unlimited discoveries — collect every place you fly over',
+    feature_achievements: 'Full achievement collection — 18 milestones to unlock',
+    feature_history: 'Complete flight history & your personal atlas',
     feature_world_map: 'World map with all your flight tracks',
     feature_stats: 'Detailed lifetime statistics',
     feature_photos: 'High-resolution photos',
@@ -217,8 +218,8 @@ export const en = {
     slide1_body: 'Add your flight before boarding. SkyAtlas downloads everything you need — no internet required in the air.',
     slide2_title: "Discover What's Below",
     slide2_body: 'Mountains, cities, lakes, volcanoes — learn about every place you fly over with photos and fascinating facts.',
-    slide3_title: 'Collect the World',
-    slide3_body: 'Build your personal atlas. Every flight adds countries, places, and achievements to your collection.',
+    slide3_title: 'Build Your Atlas',
+    slide3_body: 'Every flight adds to your personal atlas of the world — countries, places, achievements that compound over time.',
     skip: 'Skip',
     next: 'Next →',
     getStarted: 'Get Started ✈️'
@@ -239,8 +240,8 @@ export const en = {
     flights: 'Flights',
     km: 'km flown',
     countries: 'Countries',
-    emptyTitle: 'Your map awaits',
-    emptyDesc: 'Track your first flight to start building your personal world map.'
+    emptyTitle: 'Your atlas awaits',
+    emptyDesc: 'Track your first flight to start building your personal atlas of the world.'
   },
   simulator: {
     title: 'Flight Simulator',
@@ -297,7 +298,7 @@ export const en = {
     yourSummarized: 'Your year,\nsummarized',
     distance: 'Distance',
     shareMyYear: 'Share my year',
-    shareMessage: 'My %{year} in the skies ✈️\n%{flights} flights • %{distance} flown\n%{countries} countries • %{discoveries} discoveries\nTracked with SkyAtlas',
+    shareMessage: 'My atlas of %{year}: %{flights} flights, %{countries} countries, %{distance} km. #SkyAtlas',
     tap: 'tap to continue',
     noFlightsYet: 'No flights yet',
     firstDestinationAwaits: 'Your first destination awaits',
@@ -327,8 +328,8 @@ export const en = {
   },
   tabs: {
     flights: 'Flights',
-    explore: 'Explore',
-    world: 'World',
+    explore: 'Search',
+    world: 'Atlas',
     profile: 'Profile'
   },
   profile: {

@@ -1,0 +1,7 @@
+{"t":0,"agent":"ad50201","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"system","event":"skill_invoked","skill_name":"frontend-design:frontend-design"}
+{"t":0,"agent":"a115a58","agent_type":"executor","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a8f7da4","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a115a58","agent_type":"executor","event":"agent_stop","success":true,"duration_ms":380896}
+{"t":0,"agent":"a56b325","agent_type":"executor","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a56b325","agent_type":"executor","event":"agent_stop","success":true,"duration_ms":244656}

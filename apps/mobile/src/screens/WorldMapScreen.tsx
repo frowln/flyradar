@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ActivityIndicator, RefreshControl, ScrollView } from 'react-native';
 import MapView, { Polyline } from 'react-native-maps';
+import { Map } from 'lucide-react-native';
 import { colors } from '../theme/colors';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
 import EmptyState from '../components/EmptyState';
@@ -87,7 +88,7 @@ export default function WorldMapScreen() {
         </View>
       ) : flights.length === 0 ? (
         <EmptyState
-          icon="🗺️"
+          icon={Map}
           title={t('worldMap.emptyTitle')}
           description={t('worldMap.emptyDesc')}
         />

@@ -9,7 +9,7 @@ export const ja = {
     browse: 'フライトを探す',
     simulator: 'シミュレーター',
     leaderboard: 'ランキング',
-    worldMap: 'マイワールド',
+    worldMap: 'マイアトラス',
     referral: '友達を招待',
     wrapped: '年間まとめ',
     paywall: 'SkyAtlas Pro',
@@ -35,7 +35,9 @@ export const ja = {
     explore: '任意のフライトを探索 →',
     nextFlight: '次のフライト',
     in: 'まで',
-    open: '開く'
+    open: '開く',
+    whereWillYouGo: 'どこへ行きますか？',
+    addFirstFlight: 'アトラスを始めよう'
   },
   addFlight: {
     title: 'フライトを追加',
@@ -59,6 +61,7 @@ export const ja = {
     offlinePackage: 'オフラインパッケージ',
     highlights: 'ハイライト',
     readyForOffline: '✓ オフライン使用可能',
+    offlineReady: '✓ オフライン対応 — インターネット不要',
     placesToDiscover: '発見できる場所',
     routePoints: 'ルートポイント',
     downloaded: 'ダウンロード済み',
@@ -162,10 +165,10 @@ export const ja = {
   },
   paywall: {
     title: 'SkyAtlas Pro',
-    subtitle: '制限なく世界を探索',
-    feature_unlimited_poi: 'フライトごとのPOI発見が無制限',
-    feature_achievements: '全実績＆コレクション解放',
-    feature_history: '完全なフライト履歴',
+    subtitle: '無制限のアトラスを解放',
+    feature_unlimited_poi: '無制限の発見 — すべての場所をコレクション',
+    feature_achievements: '全実績コレクション — 18のマイルストーン',
+    feature_history: '完全なフライト履歴と個人アトラス',
     feature_world_map: 'すべてのフライトルートを表示した世界地図',
     feature_stats: '詳細な生涯統計',
     feature_photos: '高解像度写真',
@@ -190,8 +193,8 @@ export const ja = {
     slide1_body: '搭乗前にフライトを追加。SkyAtlasが必要なものをすべてダウンロード — 空中でもインターネット不要。',
     slide2_title: '下に何があるか発見しよう',
     slide2_body: '山、都市、湖、火山 — 写真と面白いファクトで、飛び越えるすべての場所を知ろう。',
-    slide3_title: '世界をコレクションしよう',
-    slide3_body: '自分だけのアトラスを作ろう。フライトのたびに国・場所・実績がコレクションに追加されます。',
+    slide3_title: 'あなたのアトラスを作ろう',
+    slide3_body: 'フライトのたびに、あなたの世界アトラスが広がります — 国、場所、実績が時間とともに積み重なります。',
     skip: 'スキップ',
     next: '次へ →',
     getStarted: '始めよう ✈️'
@@ -269,7 +272,7 @@ export const ja = {
     yourSummarized: '1年間の\nまとめ',
     distance: '距離',
     shareMyYear: '1年間をシェア',
-    shareMessage: '%{year}年の空の旅 ✈️\n%{flights}回のフライト • %{distance}飛行\n%{countries}カ国 • %{discoveries}個の発見\nSkyAtlasで記録',
+    shareMessage: '%{year}年のアトラス: %{flights}フライト、%{countries}カ国、%{distance}km。 #SkyAtlas',
     tap: 'タップして続ける'
   },
   flightSummary: {
@@ -288,8 +291,8 @@ export const ja = {
   },
   tabs: {
     flights: 'フライト',
-    explore: '探索',
-    world: 'ワールド',
+    explore: '検索',
+    world: 'アトラス',
     profile: 'プロフィール'
   },
   profile: {

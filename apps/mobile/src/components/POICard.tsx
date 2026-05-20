@@ -1,3 +1,4 @@
+import React from 'react';
 import { View, Text, Pressable, StyleSheet, Animated } from 'react-native';
 import { Image } from 'expo-image';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -7,19 +8,7 @@ import type { POI } from '@skyatlas/shared';
 import { colors } from '../theme/colors';
 import { typography, fonts } from '../theme/typography';
 import { haptics } from '../core/ux/haptics';
-
-const CATEGORY_ICONS: Record<string, string> = {
-  city: '🏙️',
-  mountain: '⛰️',
-  lake: '🌊',
-  river: '🌊',
-  sea: '🌊',
-  volcano: '🌋',
-  island: '🏝️',
-  historic: '🏛️',
-  park: '🌿',
-  landmark: '🗺️'
-};
+import { getCategoryIcon } from '../core/poi/categoryIcon';
 
 const CATEGORY_LABELS: Record<string, string> = {
   city: 'CITY',
@@ -76,7 +65,7 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
     }
   };
 
-  const icon = CATEGORY_ICONS[poi.category] ?? '📍';
+  const CategoryIcon = getCategoryIcon(poi.category);
   const categoryLabel = CATEGORY_LABELS[poi.category] ?? poi.category.toUpperCase();
   const photo = poi.photos?.[0];
   const firstFact = poi.facts[0];
@@ -90,12 +79,12 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
             <Image source={{ uri: photo }} style={styles.photo} contentFit="cover" transition={200} />
           ) : (
             <View style={[styles.photo, styles.photoPlaceholder]}>
-              <Text style={styles.photoIcon}>{icon}</Text>
+              <CategoryIcon size={40} color={colors.textMuted} strokeWidth={1.5} />
             </View>
           )}
           {/* Category badge top-left */}
           <View style={styles.categoryBadge}>
-            <Text style={styles.categoryBadgeText}>{icon} {categoryLabel}</Text>
+            <Text style={styles.categoryBadgeText}>{categoryLabel}</Text>
           </View>
           {/* Distance badge top-right */}
           <View style={styles.distanceBadge}>
@@ -140,7 +129,7 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
           <Image source={{ uri: photo }} style={styles.photo} contentFit="cover" transition={200} />
         ) : (
           <View style={[styles.photo, styles.photoPlaceholder]}>
-            <Text style={styles.photoIcon}>{icon}</Text>
+            <CategoryIcon size={40} color={colors.textMuted} strokeWidth={1.5} />
           </View>
         )}
         {/* Category badge top-left */}

@@ -158,8 +158,8 @@ export async function aggregatePOIsForRoute(
     });
   }
 
-  // Use demo POIs only when GeoNames returned nothing useful AND no credentials configured
-  if (pois.length === 0) {
+  // Use demo POIs only when GeoNames was not configured (no key) AND aggregation returned nothing
+  if (pois.length === 0 && !process.env['GEONAMES_USER']) {
     return generateDemoPOIs(route);
   }
   return pois;

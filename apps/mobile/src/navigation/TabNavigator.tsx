@@ -1,5 +1,5 @@
-import { Text } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Plane, Search, Map, User } from 'lucide-react-native';
 import { colors } from '../theme/colors';
 import { t } from '../i18n';
 
@@ -10,9 +10,9 @@ import ProfileScreen from '../screens/ProfileScreen';
 
 const Tab = createBottomTabNavigator();
 
-const tabIcon = (emoji: string) =>
-  ({ focused }: { focused: boolean }) => (
-    <Text style={{ fontSize: 22, opacity: focused ? 1 : 0.5 }}>{emoji}</Text>
+const tabIcon = (Icon: typeof Plane) =>
+  ({ focused, color }: { focused: boolean; color: string }) => (
+    <Icon size={24} color={color} strokeWidth={focused ? 2.5 : 1.8} />
   );
 
 export default function TabNavigator() {
@@ -39,22 +39,22 @@ export default function TabNavigator() {
       <Tab.Screen
         name="Flights"
         component={HomeScreen}
-        options={{ tabBarIcon: tabIcon('✈️'), title: t('tabs.flights') }}
+        options={{ tabBarIcon: tabIcon(Plane), title: t('tabs.flights') }}
       />
       <Tab.Screen
         name="Explore"
         component={BrowseScreen}
-        options={{ tabBarIcon: tabIcon('🗺️'), title: t('tabs.explore') }}
+        options={{ tabBarIcon: tabIcon(Search), title: t('tabs.explore') }}
       />
       <Tab.Screen
         name="World"
         component={WorldMapScreen}
-        options={{ tabBarIcon: tabIcon('🌍'), title: t('tabs.world') }}
+        options={{ tabBarIcon: tabIcon(Map), title: t('tabs.world') }}
       />
       <Tab.Screen
         name="Profile"
         component={ProfileScreen}
-        options={{ tabBarIcon: tabIcon('👤'), title: t('tabs.profile') }}
+        options={{ tabBarIcon: tabIcon(User), title: t('tabs.profile') }}
       />
     </Tab.Navigator>
   );
