@@ -20,6 +20,10 @@ import { haversine } from '../core/geo/greatCircle';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
 import { t } from '../i18n';
+import { collectionsStore } from '../core/gamification/collections';
+import { ACHIEVEMENTS, evaluateAchievements } from '../core/gamification/achievements';
+import { useAchievementToast } from '../components/AchievementToast';
+import { sendAchievementNotification } from '../core/ux/notifications';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'FlightSummary'>;
 type Route = RouteProp<RootStackParamList, 'FlightSummary'>;
@@ -49,10 +53,31 @@ export default function FlightSummaryScreen() {
   const [pkg, setPkg] = useState<OfflinePackage | null>(null);
   const [loading, setLoading] = useState(true);
   const { seenPOIs, clearFlight } = useFlightStore();
+  const showAchievementToast = useAchievementToast((s) => s.show);
 
   useEffect(() => {
     loadPackage(flightId).then(setPkg).finally(() => setLoading(false));
     analytics.track('flight_completed', { flightId, poisDiscovered: seenPOIs.length });
+
+    // Evaluate and award new achievements
+    const stats = collectionsStore.getStats();
+    const alreadyEarned = collectionsStore.getEarnedAchievements();
+    const newIds = evaluateAchievements(stats, alreadyEarned);
+    if (newIds.length > 0) {
+      collectionsStore.addAchievements(newIds);
+      for (const id of newIds) {
+        const achievement = ACHIEVEMENTS.find((a) => a.id === id);
+        if (achievement) {
+          sendAchievementNotification(achievement.name, achievement.description);
+        }
+      }
+      // Show in-app toast for the first new achievement only
+      const first = ACHIEVEMENTS.find((a) => a.id === newIds[0]);
+      if (first) {
+        showAchievementToast({ id: first.id, name: first.name, icon: first.icon, description: first.description });
+      }
+    }
+
     // Don't clear flight state immediately — user might go back
   }, [flightId]);
 

@@ -9,6 +9,7 @@ import {
   Alert
 } from 'react-native';
 import { haptics } from '../core/ux/haptics';
+import { scheduleFlightReminder } from '../core/ux/notifications';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
@@ -63,6 +64,11 @@ export default function FlightDetailScreen() {
       .then(p => {
         setPkg(p);
         if (p) {
+          scheduleFlightReminder(
+            p.flight.id,
+            p.flight.flightNumber,
+            new Date(p.flight.scheduledDeparture)
+          );
           fetchWeather(p.flight.destination.lat, p.flight.destination.lon).then(setWeather);
         }
       })
