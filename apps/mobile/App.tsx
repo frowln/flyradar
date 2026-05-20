@@ -59,4 +59,6 @@ function App() {
   );
 }
 
-export default SentryWrapper(App);
+// Only wrap with Sentry when DSN is configured — otherwise wrap is a no-op that warns
+const SENTRY_DSN = process.env['EXPO_PUBLIC_SENTRY_DSN'];
+export default SENTRY_DSN ? SentryWrapper(App) : App;
