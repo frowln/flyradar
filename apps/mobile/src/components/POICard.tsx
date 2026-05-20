@@ -2,6 +2,7 @@ import { View, Text, Pressable, StyleSheet, Image, Animated } from 'react-native
 import { useRef, useEffect } from 'react';
 import type { POI } from '@skyatlas/shared';
 import { colors } from '../theme/colors';
+import { haptics } from '../core/ux/haptics';
 
 const CATEGORY_ICONS: Record<string, string> = {
   city: '🏙️',
@@ -60,7 +61,7 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
                 <Text style={styles.distance}>{distanceKm} km away</Text>
               </View>
             </View>
-            <Pressable onPress={onDismiss} style={styles.dismissButton} hitSlop={8}>
+            <Pressable onPress={() => { haptics.light(); onDismiss(); }} style={styles.dismissButton} hitSlop={8}>
               <Text style={styles.dismissText}>✕</Text>
             </Pressable>
           </View>
@@ -69,7 +70,7 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
             <Text style={styles.kidsFact}>💡 {poi.facts[0]}</Text>
           )}
 
-          <Pressable style={styles.readMoreButton} onPress={() => onReadMore(poi)}>
+          <Pressable style={styles.readMoreButton} onPress={() => { haptics.medium(); onReadMore(poi); }}>
             <Text style={styles.readMoreText}>Tell me more! 🤓</Text>
           </Pressable>
         </View>
@@ -96,7 +97,7 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
               <Text style={styles.distance}>{distanceKm} km away</Text>
             </View>
           </View>
-          <Pressable onPress={onDismiss} style={styles.dismissButton} hitSlop={8}>
+          <Pressable onPress={() => { haptics.light(); onDismiss(); }} style={styles.dismissButton} hitSlop={8}>
             <Text style={styles.dismissText}>✕</Text>
           </Pressable>
         </View>
@@ -107,7 +108,7 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
           <Text style={styles.fact}>💡 {poi.facts[0]}</Text>
         )}
 
-        <Pressable style={styles.readMoreButton} onPress={() => onReadMore(poi)}>
+        <Pressable style={styles.readMoreButton} onPress={() => { haptics.medium(); onReadMore(poi); }}>
           <Text style={styles.readMoreText}>Read more →</Text>
         </Pressable>
       </View>

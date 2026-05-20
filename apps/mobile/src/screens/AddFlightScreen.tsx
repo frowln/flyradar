@@ -6,11 +6,10 @@ import {
   Pressable,
   ActivityIndicator,
   StyleSheet,
-  Alert,
   KeyboardAvoidingView,
   Platform,
   ScrollView,
-  Modal
+  Modal,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -21,6 +20,8 @@ import { downloadPackage } from '../core/offline/packageDownloader';
 import BoardingPassScanner from '../components/BoardingPassScanner';
 import type { BoardingPassData } from '../components/BoardingPassScanner';
 import type { RootStackParamList } from '../navigation/types';
+import { haptics } from '../core/ux/haptics';
+import { useToast } from '../components/Toast';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'AddFlight'>;
 
@@ -34,6 +35,7 @@ export default function AddFlightScreen() {
   const [date, setDate] = useState(todayString());
   const [loading, setLoading] = useState(false);
   const [showScanner, setShowScanner] = useState(false);
+  const toast = useToast();
 
   const isValid = flightNumber.trim().length >= 2 && /^\d{4}-\d{2}-\d{2}$/.test(date);
 
@@ -45,15 +47,15 @@ export default function AddFlightScreen() {
 
   const handleSubmit = async () => {
     if (!isValid || loading) return;
+    haptics.medium();
     setLoading(true);
     try {
       const pkg = await downloadPackage(flightNumber.trim().toUpperCase(), date);
+      haptics.success();
       nav.replace('FlightDetail', { flightId: pkg.flight.id });
     } catch (e: any) {
-      Alert.alert(
-        'Could not add flight',
-        e?.message ?? 'Please check the flight number and date, then try again.'
-      );
+      haptics.error();
+      toast.show(e?.message ?? 'Please check the flight number and date, then try again.', 'error');
     } finally {
       setLoading(false);
     }

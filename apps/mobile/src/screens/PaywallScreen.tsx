@@ -13,6 +13,7 @@ import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { getOfferings, purchasePackage, restorePurchases } from '../core/monetization/revenueCat';
 import { analytics } from '../core/analytics';
+import { haptics } from '../core/ux/haptics';
 
 const FEATURES = [
   { icon: '🗺️', text: 'Unlimited POI discoveries per flight' },
@@ -44,6 +45,7 @@ export default function PaywallScreen() {
     try {
       const success = await purchasePackage(selectedPkg);
       if (success) {
+        haptics.success();
         Alert.alert('Welcome to SkyAtlas Pro! 🎉', 'Enjoy unlimited discoveries.', [
           { text: 'Let\'s Go!', onPress: () => nav.goBack() }
         ]);
@@ -107,7 +109,7 @@ export default function PaywallScreen() {
               <Pressable
                 key={pkg.identifier}
                 style={[styles.packageCard, isSelected && styles.packageCardSelected]}
-                onPress={() => setSelectedPkg(pkg)}
+                onPress={() => { haptics.selection(); setSelectedPkg(pkg); }}
               >
                 <View style={styles.packageInfo}>
                   <Text style={styles.packageTitle}>{pkg.packageType}</Text>

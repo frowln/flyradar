@@ -8,6 +8,7 @@ import {
   ActivityIndicator,
   Alert
 } from 'react-native';
+import { haptics } from '../core/ux/haptics';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
@@ -69,6 +70,7 @@ export default function FlightDetailScreen() {
 
   const handleStartFlight = () => {
     if (!pkg) return;
+    haptics.medium();
 
     Alert.alert(
       'Confirm Takeoff Time',
@@ -76,11 +78,11 @@ export default function FlightDetailScreen() {
       [
         {
           text: 'Just now',
-          onPress: () => startFlight(new Date())
+          onPress: () => { haptics.success(); startFlight(new Date()); }
         },
         {
           text: 'Scheduled time',
-          onPress: () => startFlight(new Date(pkg.flight.scheduledDeparture))
+          onPress: () => { haptics.success(); startFlight(new Date(pkg.flight.scheduledDeparture)); }
         },
         {
           text: 'Cancel',
