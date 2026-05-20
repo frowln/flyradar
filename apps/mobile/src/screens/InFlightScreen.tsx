@@ -9,6 +9,7 @@ import FlightStats from '../components/FlightStats';
 import POICard from '../components/POICard';
 import { useFlightStore } from '../core/flight/flightStore';
 import { computePosition } from '../core/flight/positionEngine';
+import { tryFetchLivePosition } from '../core/flight/liveTracker';
 import { getNextPOI } from '../core/flight/poiScheduler';
 import type { ScheduledPOI } from '../core/flight/poiScheduler';
 import type { POI } from '@skyatlas/shared';
@@ -26,7 +27,7 @@ export default function InFlightScreen() {
   const route = useRoute<Route>();
   const { flightId } = route.params;
 
-  const { activePackage, takeoffAt, currentPosition, updatePosition, clearFlight } = useFlightStore();
+  const { activePackage, takeoffAt, currentPosition, updatePosition, clearFlight, mode, setMode } = useFlightStore();
   const [followPlane, setFollowPlane] = useState(true);
   const [activePOI, setActivePOI] = useState<ScheduledPOI | null>(null);
   const activePOIRef = useRef<ScheduledPOI | null>(null);
@@ -36,7 +37,13 @@ export default function InFlightScreen() {
     if (!activePackage || !takeoffAt) return;
 
     const tick = async () => {
-      const pos = computePosition(activePackage.route, takeoffAt);
+      const currentMode = useFlightStore.getState().mode;
+      let pos = currentMode === 'live'
+        ? await tryFetchLivePosition(activePackage.flight.flightNumber)
+        : null;
+      if (!pos) {
+        pos = computePosition(activePackage.route, takeoffAt);
+      }
       updatePosition(pos);
 
       // Auto-navigate to summary when flight ends
@@ -129,12 +136,22 @@ export default function InFlightScreen() {
             </Text>
             <Text style={styles.flightNumText}>{flight.flightNumber}</Text>
           </View>
-          <Pressable
-            onPress={() => setFollowPlane((f) => !f)}
-            style={[styles.topButton, followPlane && styles.topButtonActive]}
-          >
-            <Text style={styles.topButtonText}>{followPlane ? '📍' : '🗺'}</Text>
-          </Pressable>
+          <View style={styles.topRightGroup}>
+            <Pressable
+              onPress={() => setMode(mode === 'live' ? 'offline' : 'live')}
+              style={[styles.topButton, mode === 'live' && styles.topButtonActive]}
+            >
+              <Text style={styles.topButtonText}>
+                {mode === 'live' ? '🔴 LIVE' : 'OFFLINE'}
+              </Text>
+            </Pressable>
+            <Pressable
+              onPress={() => setFollowPlane((f) => !f)}
+              style={[styles.topButton, followPlane && styles.topButtonActive]}
+            >
+              <Text style={styles.topButtonText}>{followPlane ? '📍' : '🗺'}</Text>
+            </Pressable>
+          </View>
         </View>
       </SafeAreaView>
 
@@ -216,6 +233,11 @@ const styles = StyleSheet.create({
   routeText: { color: colors.text, fontSize: 15, fontWeight: '700' },
   flightNumText: { color: colors.primary, fontSize: 11, fontWeight: '600' },
 
+  topRightGroup: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8
+  },
   bottomBar: {
     position: 'absolute',
     bottom: 0,

@@ -12,6 +12,7 @@ interface FlightState {
   takeoffAt: Date | null;
   currentPosition: RoutePoint | null;
   seenPOIs: SeenPOI[];
+  mode: 'offline' | 'live';
 
   // Actions
   setPackage: (pkg: OfflinePackage) => void;
@@ -19,6 +20,7 @@ interface FlightState {
   updatePosition: (pos: RoutePoint) => void;
   markPOISeen: (poiId: string) => void;
   clearFlight: () => void;
+  setMode: (mode: 'offline' | 'live') => void;
 }
 
 export const useFlightStore = create<FlightState>((set) => ({
@@ -26,6 +28,7 @@ export const useFlightStore = create<FlightState>((set) => ({
   takeoffAt: null,
   currentPosition: null,
   seenPOIs: [],
+  mode: 'offline',
 
   setPackage: (pkg) => set({ activePackage: pkg }),
   confirmTakeoff: (at) => set({ takeoffAt: at }),
@@ -37,6 +40,8 @@ export const useFlightStore = create<FlightState>((set) => ({
     activePackage: null,
     takeoffAt: null,
     currentPosition: null,
-    seenPOIs: []
-  })
+    seenPOIs: [],
+    mode: 'offline'
+  }),
+  setMode: (mode) => set({ mode })
 }));
