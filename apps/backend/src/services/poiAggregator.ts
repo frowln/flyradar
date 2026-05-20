@@ -3,16 +3,21 @@ import { searchAround } from '../external/geonames.js';
 import { fetchWikiSummary } from '../external/wikipedia.js';
 
 const CATEGORY_MAP: Record<string, POICategory> = {
-  PPL: 'city', PPLA: 'city', PPLA2: 'city', PPLC: 'city',
+  // Only major populated places — admin seats, capitals
+  PPLA: 'city', PPLA2: 'city', PPLC: 'city',
+  // Natural prominent
   MT: 'mountain', MTS: 'mountain', PK: 'mountain',
   LK: 'lake', LKS: 'lake',
   RIVR: 'river', RIV: 'river',
   SEA: 'sea', OCN: 'sea',
   VLC: 'volcano',
   ISL: 'island', ISLS: 'island',
+  // Historic/cultural
   MNMT: 'historic', CSTL: 'historic', RUIN: 'historic',
   PRK: 'park'
 };
+
+const MIN_CITY_POPULATION = 50000;
 
 const FEATURE_CODES = Object.keys(CATEGORY_MAP);
 
@@ -94,47 +99,59 @@ export async function aggregatePOIsForRoute(
   route: RoutePoint[],
   radiusKm = 200
 ): Promise<POI[]> {
-  // Sample every 10th point to reduce API calls
+  if (!process.env['GEONAMES_USER']) {
+    return [];  // demo fallback handled below
+  }
   const samples = route.filter((_, i) => i % 10 === 0);
+
+  // Parallel GeoNames calls
+  const geoResults = await Promise.all(
+    samples.map((p) => searchAround(p.lat, p.lon, radiusKm, FEATURE_CODES))
+  );
+
+  // Dedupe + filter
   const seen = new Set<number>();
-  const pois: POI[] = [];
-
-  for (const point of samples) {
-    // Skip GeoNames API call if no credentials configured
-    if (!process.env['GEONAMES_USER']) break;
-
-    const found = await searchAround(point.lat, point.lon, radiusKm, FEATURE_CODES);
-
+  const candidates: Array<{ entry: typeof geoResults[0][0]; category: POICategory }> = [];
+  for (const found of geoResults) {
     for (const f of found) {
       if (seen.has(f.geonameId)) continue;
       seen.add(f.geonameId);
-
       const category = CATEGORY_MAP[f.fcode];
       if (!category) continue;
-
-      const wiki = await fetchWikiSummary(f.name);
-      if (!wiki?.extract) continue;
-
-      pois.push({
-        id: `gn-${f.geonameId}`,
-        name: f.name,
-        category,
-        lat: parseFloat(f.lat),
-        lon: parseFloat(f.lng),
-        elevation: f.elevation,
-        population: f.population,
-        wikiTitle: f.name,
-        summary: wiki.extract.slice(0, 800),
-        facts: extractFacts(wiki.extract),
-        photos: wiki.thumbnail ? [wiki.thumbnail] : []
-      });
+      if (category === 'city' && (f.population ?? 0) < MIN_CITY_POPULATION) continue;
+      candidates.push({ entry: f, category });
     }
   }
 
-  // Fall back to demo POIs when no credentials or aggregation returned nothing
-  if (pois.length === 0 && !process.env['GEONAMES_USER']) {
-    return generateDemoPOIs(route);
+  // Limit to top 30 candidates to bound Wikipedia load
+  const top = candidates.slice(0, 30);
+
+  // Parallel Wikipedia fetches
+  const wikis = await Promise.all(top.map((c) => fetchWikiSummary(c.entry.name)));
+
+  const pois: POI[] = [];
+  for (let i = 0; i < top.length; i++) {
+    const { entry: f, category } = top[i];
+    const wiki = wikis[i];
+    if (!wiki?.extract) continue;
+    pois.push({
+      id: `gn-${f.geonameId}`,
+      name: f.name,
+      category,
+      lat: parseFloat(f.lat),
+      lon: parseFloat(f.lng),
+      elevation: f.elevation,
+      population: f.population,
+      wikiTitle: f.name,
+      summary: wiki.extract.slice(0, 800),
+      facts: extractFacts(wiki.extract),
+      photos: wiki.thumbnail ? [wiki.thumbnail] : []
+    });
   }
 
+  // Use demo POIs only when GeoNames returned nothing useful AND no credentials configured
+  if (pois.length === 0) {
+    return generateDemoPOIs(route);
+  }
   return pois;
 }

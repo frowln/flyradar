@@ -21,8 +21,20 @@ export async function searchAround(
     return [];
   }
   try {
-    const codes = featureCodes.join(',');
-    const url = `http://api.geonames.org/findNearbyJSON?lat=${lat}&lng=${lon}&radius=${radiusKm}&featureCode=${codes}&maxRows=50&username=${user}`;
+    // Bounding box approx — each deg lat is 111 km
+    const dLat = radiusKm / 111;
+    const dLon = radiusKm / (111 * Math.cos(lat * Math.PI / 180));
+    const params = new URLSearchParams({
+      north: String(lat + dLat),
+      south: String(lat - dLat),
+      east: String(lon + dLon),
+      west: String(lon - dLon),
+      maxRows: '50',
+      orderby: 'population',
+      username: user
+    });
+    for (const code of featureCodes) params.append('featureCode', code);
+    const url = `http://api.geonames.org/searchJSON?${params}`;
     const r = await fetch(url);
     const j = await r.json() as any;
     return (j.geonames ?? []) as GeoNamesEntry[];
