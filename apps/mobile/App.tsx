@@ -8,7 +8,6 @@ import { JetBrainsMono_400Regular, JetBrainsMono_500Medium } from '@expo-google-
 import * as SplashScreen from 'expo-splash-screen';
 import RootNavigator from './src/navigation/RootNavigator';
 import Toast from './src/components/Toast';
-import NetworkBanner from './src/components/NetworkBanner';
 import AchievementToast from './src/components/AchievementToast';
 import ErrorBoundary from './src/components/ErrorBoundary';
 import { initNotifications } from './src/core/ux/notifications';
@@ -52,7 +51,6 @@ function App() {
         <StatusBar style="light" backgroundColor="#0A0B14" />
         <RootNavigator />
         <Toast />
-        <NetworkBanner />
         <AchievementToast />
       </View>
     </ErrorBoundary>
