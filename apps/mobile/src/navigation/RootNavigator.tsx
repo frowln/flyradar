@@ -18,6 +18,7 @@ import SettingsScreen from '../screens/SettingsScreen';
 import SimulatorScreen from '../screens/SimulatorScreen';
 import ReferralScreen from '../screens/ReferralScreen';
 import LeaderboardScreen from '../screens/LeaderboardScreen';
+import StatsScreen from '../screens/StatsScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -51,6 +52,7 @@ export default function RootNavigator() {
         <Stack.Screen name="Simulator" component={SimulatorScreen} options={{ title: t('nav.simulator') }} />
         <Stack.Screen name="Referral" component={ReferralScreen} options={{ title: t('nav.referral') }} />
         <Stack.Screen name="Leaderboard" component={LeaderboardScreen} options={{ title: t('nav.leaderboard') || 'Leaderboard' }} />
+        <Stack.Screen name="Stats" component={StatsScreen} options={{ title: 'Your Stats' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

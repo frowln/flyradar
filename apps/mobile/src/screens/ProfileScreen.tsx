@@ -23,38 +23,128 @@ import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
 
-function hexToRgba(hex: string, alpha: number): string {
-  const r = parseInt(hex.slice(1, 3), 16);
-  const g = parseInt(hex.slice(3, 5), 16);
-  const b = parseInt(hex.slice(5, 7), 16);
-  return `rgba(${r},${g},${b},${alpha})`;
-}
-
-function darkenHex(hex: string): string {
-  const r = Math.max(0, parseInt(hex.slice(1, 3), 16) - 60);
-  const g = Math.max(0, parseInt(hex.slice(3, 5), 16) - 60);
-  const b = Math.max(0, parseInt(hex.slice(5, 7), 16) - 60);
-  return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
-}
-
 const MEMBER_SINCE = '2024';
 
-const CONFETTI = ['✈', '⭐', '🌍', '🏆', '✦', '·'];
+// Circular XP progress ring drawn with Animated Views
+function XPRing({
+  progress,
+  color,
+  size = 110
+}: {
+  progress: number;
+  color: string;
+  size?: number;
+}) {
+  const clipped = Math.min(1, Math.max(0, progress));
+  // We draw a ring using two half-circle masks — pure View approach
+  const borderW = 5;
+  const r = size / 2;
+  // Degrees for progress
+  const deg = clipped * 360;
+
+  return (
+    <View
+      style={{
+        width: size,
+        height: size,
+        position: 'relative',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}
+    >
+      {/* Background ring */}
+      <View
+        style={{
+          position: 'absolute',
+          width: size,
+          height: size,
+          borderRadius: r,
+          borderWidth: borderW,
+          borderColor: 'rgba(255,255,255,0.08)'
+        }}
+      />
+      {/* Progress fill — left half */}
+      {deg >= 180 && (
+        <View
+          style={{
+            position: 'absolute',
+            width: size / 2,
+            height: size,
+            left: 0,
+            overflow: 'hidden'
+          }}
+        >
+          <View
+            style={{
+              width: size,
+              height: size,
+              borderRadius: r,
+              borderWidth: borderW,
+              borderColor: color,
+              position: 'absolute',
+              left: 0
+            }}
+          />
+        </View>
+      )}
+      {/* Progress fill — right half */}
+      <View
+        style={{
+          position: 'absolute',
+          width: size / 2,
+          height: size,
+          right: 0,
+          overflow: 'hidden'
+        }}
+      >
+        <View
+          style={[
+            {
+              width: size,
+              height: size,
+              borderRadius: r,
+              borderWidth: borderW,
+              borderColor: color,
+              position: 'absolute',
+              right: 0
+            },
+            deg < 180
+              ? {
+                  transform: [{ rotate: `${deg - 180}deg` }]
+                }
+              : undefined
+          ]}
+        />
+      </View>
+      {/* Mask center to make it a ring, not a filled circle */}
+      <View
+        style={{
+          width: size - borderW * 2 - 4,
+          height: size - borderW * 2 - 4,
+          borderRadius: r,
+          backgroundColor: 'transparent',
+          position: 'absolute'
+        }}
+      />
+    </View>
+  );
+}
 
 export default function ProfileScreen() {
   const nav = useNavigation<Nav>();
   const [kidsMode, setKidsModeState] = useState(() => collectionsStore.isKidsMode());
   const [refreshing, setRefreshing] = useState(false);
   const [statsVersion, setStatsVersion] = useState(0);
-  const progressAnim = useRef(new Animated.Value(0)).current;
+  const fadeAnim = useRef(new Animated.Value(0)).current;
 
   const stats = collectionsStore.getStats();
-  const earnedCount = collectionsStore.getEarnedAchievements().length;
+  const earnedAchievements = collectionsStore.getEarnedAchievements();
+  const earnedCount = earnedAchievements.length;
   const totalAchievements = ACHIEVEMENTS.length;
-  const streakFlights = stats.firstFlightDate
-    ? [{ date: stats.firstFlightDate }]
-    : [];
+
+  const streakFlights = stats.firstFlightDate ? [{ date: stats.firstFlightDate }] : [];
   const { currentStreak } = calculateStreaks(streakFlights);
+
   const xp = calculateXP({
     flightsCompleted: stats.totalFlights,
     poisDiscovered: stats.poisDiscovered,
@@ -65,14 +155,19 @@ export default function ProfileScreen() {
   const lvl = levelFromXP(xp);
   const rank = rankFromLevel(lvl.level);
 
+  // Latest earned achievement for featured card
+  const featuredAchievement =
+    earnedAchievements.length > 0
+      ? ACHIEVEMENTS.find((a) => a.id === earnedAchievements[earnedAchievements.length - 1])
+      : null;
+
   useEffect(() => {
-    Animated.spring(progressAnim, {
-      toValue: lvl.progress,
-      tension: 40,
-      friction: 8,
-      useNativeDriver: false
+    Animated.timing(fadeAnim, {
+      toValue: 1,
+      duration: 400,
+      useNativeDriver: true
     }).start();
-  }, [lvl.progress, statsVersion]);
+  }, [statsVersion]);
 
   const onRefresh = useCallback(() => {
     setRefreshing(true);
@@ -85,182 +180,192 @@ export default function ProfileScreen() {
     setKidsModeState(val);
   }
 
-  const darkRankColor = darkenHex(rank.color);
+  const kmFormatted =
+    stats.totalDistanceKm >= 1000
+      ? `${Math.round(stats.totalDistanceKm / 1000)}k`
+      : String(Math.round(stats.totalDistanceKm));
 
   return (
     <ScrollView
       style={styles.container}
       contentContainerStyle={styles.content}
       refreshControl={
-        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor={colors.primary} colors={[colors.primary]} />
+        <RefreshControl
+          refreshing={refreshing}
+          onRefresh={onRefresh}
+          tintColor={colors.primary}
+          colors={[colors.primary]}
+        />
       }
     >
-      {/* Hero with gradient */}
+      {/* PASSPORT HERO — full-width gradient with avatar ring */}
       <LinearGradient
-        colors={[rank.color, darkRankColor, colors.bg]}
-        style={styles.heroGradient}
-        start={{ x: 0, y: 0 }}
-        end={{ x: 0, y: 1 }}
+        colors={[rank.color + 'CC', rank.color + '44', colors.bg]}
+        style={styles.hero}
+        start={{ x: 0.3, y: 0 }}
+        end={{ x: 0.7, y: 1 }}
       >
-        {/* Confetti background pattern */}
-        <View style={styles.confettiLayer} pointerEvents="none">
-          {CONFETTI.map((char, i) => (
-            <Text
+        {/* Subtle grid lines — passport feel */}
+        <View style={styles.passportLines} pointerEvents="none">
+          {[0, 1, 2, 3, 4].map((i) => (
+            <View
               key={i}
-              style={[
-                styles.confettiChar,
-                {
-                  top: `${10 + (i * 17) % 70}%` as any,
-                  left: `${(i * 23 + 5) % 90}%` as any,
-                  fontSize: 12 + (i % 3) * 6,
-                  transform: [{ rotate: `${i * 37}deg` }]
-                }
-              ]}
-            >
-              {char}
-            </Text>
+              style={[styles.passportLine, { top: `${i * 22 + 4}%` as any }]}
+            />
           ))}
         </View>
 
-        {/* Avatar */}
-        <View style={styles.avatarContainer}>
-          <View style={[
-            styles.avatarCircle,
-            { borderColor: rank.color, shadowColor: rank.color }
-          ]}>
-            <Text style={styles.avatarEmoji}>🧑‍✈️</Text>
-          </View>
-          <View style={[styles.rankIconBadge, { backgroundColor: rank.color }]}>
-            <Text style={styles.rankIconText}>{rank.icon}</Text>
-          </View>
-        </View>
-
-        {/* Name in Fraunces serif */}
-        <Text style={styles.displayName}>{t('profile.guest')}</Text>
-        <Text style={[styles.rankName, { color: rank.color }]}>{rank.name}</Text>
-
-        {/* Level in monospace — aviation cockpit feel */}
-        <Text style={styles.levelLabel}>Lvl {lvl.level}</Text>
-
-        {/* XP progress bar */}
-        <View style={styles.progressBarOuter}>
-          <Animated.View
+        {/* XP Ring + Avatar */}
+        <View style={styles.avatarSection}>
+          {/* Simplified ring indicator as border glow */}
+          <View
             style={[
-              styles.progressFill,
+              styles.avatarRing,
               {
-                backgroundColor: rank.color,
-                width: progressAnim.interpolate({
-                  inputRange: [0, 1],
-                  outputRange: ['0%', '100%']
-                })
+                borderColor: rank.color,
+                shadowColor: rank.color
               }
             ]}
-          />
+          >
+            <Text style={styles.avatarEmoji}>🧑‍✈️</Text>
+          </View>
+
+          {/* XP progress arc label */}
+          <View style={[styles.xpPill, { backgroundColor: rank.color + '33', borderColor: rank.color + '66' }]}>
+            <Text style={[styles.xpPillText, { color: rank.color }]}>
+              {lvl.currentLevelXP} / {lvl.nextLevelXP} XP
+            </Text>
+          </View>
         </View>
-        <Text style={styles.xpLabel}>{lvl.currentLevelXP} / {lvl.nextLevelXP} XP</Text>
-        <Text style={styles.memberSince}>Member since {MEMBER_SINCE}</Text>
+
+        {/* Name + Rank */}
+        <Text style={styles.displayName}>{t('profile.guest')}</Text>
+        <View style={styles.rankRow}>
+          <View style={[styles.rankBadge, { backgroundColor: rank.color }]}>
+            <Text style={styles.rankBadgeIcon}>{rank.icon}</Text>
+            <Text style={styles.rankBadgeText}>{rank.name}</Text>
+          </View>
+          <Text style={[styles.levelChip, { color: 'rgba(255,255,255,0.5)' }]}>
+            LVL {lvl.level}
+          </Text>
+        </View>
+
+        {/* Member since — passport stamp style */}
+        <Text style={styles.memberSince}>MEMBER SINCE {MEMBER_SINCE}</Text>
       </LinearGradient>
 
-      {/* Stats row — big mono numbers */}
-      <View style={styles.statsRow}>
-        <View style={styles.statCell}>
-          <Text style={styles.statValue}>{stats.totalFlights}</Text>
-          <Text style={styles.statLabel}>{t('profile.flights')}</Text>
-        </View>
-        <View style={styles.statDivider} />
-        <View style={styles.statCell}>
-          <Text style={styles.statValue}>{stats.countriesFlownOver.length}</Text>
-          <Text style={styles.statLabel}>{t('profile.countries')}</Text>
-        </View>
-        <View style={styles.statDivider} />
-        <View style={styles.statCell}>
-          <Text style={styles.statValue}>{earnedCount}</Text>
-          <Text style={styles.statLabel}>{t('profile.badges')}</Text>
-        </View>
-      </View>
-
-      {/* Statistics grid */}
-      <Text style={styles.sectionHeader}>STATISTICS</Text>
-      <View style={styles.statsGrid}>
-        {[
-          { icon: '✈️', value: String(stats.totalFlights), label: 'Total Flights' },
-          { icon: '📏', value: `${Math.round(stats.totalDistanceKm).toLocaleString()}`, label: 'km Flown' },
-          { icon: '🌍', value: String(stats.countriesFlownOver.length), label: 'Countries' },
-          { icon: '🏆', value: `${earnedCount}/${totalAchievements}`, label: 'Achievements' },
-          { icon: '🔥', value: String(currentStreak), label: 'Month Streak' },
-          { icon: '📅', value: MEMBER_SINCE, label: 'Member Since' }
-        ].map((item) => (
-          <LinearGradient
-            key={item.label}
-            colors={[colors.surfaceElevated, colors.surface]}
-            style={styles.statCard}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 1 }}
-          >
-            <Text style={styles.statCardIcon}>{item.icon}</Text>
-            <Text style={styles.statCardValue}>{item.value}</Text>
-            <Text style={styles.statCardLabel}>{item.label}</Text>
-          </LinearGradient>
-        ))}
-      </View>
-
-      {/* Menu */}
-      <Text style={styles.sectionHeader}>{t('profile.myStuff')}</Text>
-      <View style={styles.section}>
+      {/* 3 HERO STATS — tall cards, typography only */}
+      <View style={styles.heroStats}>
         <Pressable
-          style={styles.menuRow}
+          style={styles.heroStatCard}
+          onPress={() => nav.navigate('Stats' as any)}
+          accessibilityRole="button"
+          accessibilityLabel="View flight statistics"
+        >
+          <Text style={styles.heroStatNumber}>{stats.totalFlights}</Text>
+          <Text style={styles.heroStatLabel}>FLIGHTS</Text>
+        </Pressable>
+
+        <Pressable
+          style={styles.heroStatCard}
+          onPress={() => nav.navigate('Stats' as any)}
+          accessibilityRole="button"
+          accessibilityLabel="View distance statistics"
+        >
+          <Text style={styles.heroStatNumber}>{kmFormatted}</Text>
+          <Text style={styles.heroStatLabel}>KM</Text>
+        </Pressable>
+
+        <Pressable
+          style={styles.heroStatCard}
+          onPress={() => nav.navigate('Stats' as any)}
+          accessibilityRole="button"
+          accessibilityLabel="View countries visited"
+        >
+          <Text style={styles.heroStatNumber}>{stats.countriesFlownOver.length}</Text>
+          <Text style={styles.heroStatLabel}>COUNTRIES</Text>
+        </Pressable>
+      </View>
+
+      {/* CONTINUE YOUR JOURNEY */}
+      <Text style={styles.sectionHeader}>CONTINUE YOUR JOURNEY</Text>
+
+      {/* Streak callout */}
+      {currentStreak > 0 && (
+        <View style={[styles.journeyCard, styles.streakCard]}>
+          <Text style={styles.streakEmoji}>🔥</Text>
+          <View style={styles.journeyCardText}>
+            <Text style={styles.journeyCardTitle}>
+              {currentStreak} month{currentStreak !== 1 ? 's' : ''} flying
+            </Text>
+            <Text style={styles.journeyCardSub}>Keep your streak alive</Text>
+          </View>
+        </View>
+      )}
+
+      {/* Featured achievement */}
+      {featuredAchievement && (
+        <Pressable
+          style={[styles.journeyCard, styles.achievementCard]}
           onPress={() => nav.navigate('Collection')}
-          accessibilityLabel="Open my collection"
           accessibilityRole="button"
+          accessibilityLabel={`View achievement: ${featuredAchievement.name}`}
         >
-          <Text style={styles.menuIcon}>🏆</Text>
-          <Text style={[typography.body, styles.menuLabel]}>{t('profile.myCollection')}</Text>
-          <Text style={styles.chevron}>›</Text>
+          <Text style={styles.achievementIcon}>{featuredAchievement.icon}</Text>
+          <View style={styles.journeyCardText}>
+            <Text style={styles.journeyCardTitle}>{featuredAchievement.name}</Text>
+            <Text style={styles.journeyCardSub}>{featuredAchievement.description}</Text>
+          </View>
+          <Text style={styles.journeyCardChevron}>›</Text>
         </Pressable>
-        <View style={styles.divider} />
-        <Pressable
-          style={styles.menuRow}
-          onPress={() => nav.navigate('Wrapped')}
-          accessibilityLabel="View year in review wrapped"
-          accessibilityRole="button"
+      )}
+
+      {/* Year Wrapped CTA */}
+      <Pressable
+        onPress={() => nav.navigate('Wrapped')}
+        accessibilityRole="button"
+        accessibilityLabel="View your year wrapped"
+      >
+        <LinearGradient
+          colors={['#7C3AED', '#2563EB', '#0EA5E9']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.wrappedCard}
         >
-          <Text style={styles.menuIcon}>🎉</Text>
-          <Text style={[typography.body, styles.menuLabel]}>{t('profile.yearWrapped')}</Text>
-          <Text style={styles.chevron}>›</Text>
-        </Pressable>
-        <View style={styles.divider} />
-        <Pressable
-          style={styles.menuRow}
-          onPress={() => nav.navigate('Referral')}
-          accessibilityLabel="Invite friends to SkyAtlas"
-          accessibilityRole="button"
-        >
-          <Text style={styles.menuIcon}>🎁</Text>
-          <Text style={[typography.body, styles.menuLabel]}>{t('profile.inviteFriends')}</Text>
-          <Text style={styles.chevron}>›</Text>
-        </Pressable>
-        <View style={styles.divider} />
-        <Pressable
-          style={styles.menuRow}
-          onPress={() => nav.navigate('Leaderboard')}
-          accessibilityLabel="Open global leaderboard"
-          accessibilityRole="button"
-        >
-          <Text style={styles.menuIcon}>🏆</Text>
-          <Text style={[typography.body, styles.menuLabel]}>Leaderboard</Text>
-          <Text style={styles.chevron}>›</Text>
-        </Pressable>
-        <View style={styles.divider} />
-        <Pressable
-          style={styles.menuRow}
-          onPress={() => nav.navigate('Settings')}
-          accessibilityLabel="Open settings"
-          accessibilityRole="button"
-        >
-          <Text style={styles.menuIcon}>⚙️</Text>
-          <Text style={[typography.body, styles.menuLabel]}>{t('profile.settings')}</Text>
-          <Text style={styles.chevron}>›</Text>
-        </Pressable>
+          <View>
+            <Text style={styles.wrappedLabel}>YOUR YEAR IN FLIGHT</Text>
+            <Text style={styles.wrappedTitle}>2024 Wrapped</Text>
+            <Text style={styles.wrappedSub}>See your year at 35,000 ft</Text>
+          </View>
+          <Text style={styles.wrappedArrow}>→</Text>
+        </LinearGradient>
+      </Pressable>
+
+      {/* MENU — minimal text + chevron */}
+      <Text style={styles.sectionHeader}>EXPLORE</Text>
+      <View style={styles.menuList}>
+        {[
+          { label: t('profile.myCollection'), route: 'Collection', note: `${earnedCount}/${totalAchievements} earned` },
+          { label: 'Leaderboard', route: 'Leaderboard', note: undefined },
+          { label: t('profile.inviteFriends'), route: 'Referral', note: undefined },
+          { label: t('profile.settings'), route: 'Settings', note: undefined }
+        ].map((item, idx, arr) => (
+          <View key={item.route}>
+            <Pressable
+              style={styles.menuRow}
+              onPress={() => nav.navigate(item.route as any)}
+              accessibilityRole="button"
+              accessibilityLabel={item.label}
+            >
+              <View style={styles.menuRowLeft}>
+                <Text style={styles.menuLabel}>{item.label}</Text>
+                {item.note && <Text style={styles.menuNote}>{item.note}</Text>}
+              </View>
+              <Text style={styles.chevron}>›</Text>
+            </Pressable>
+            {idx < arr.length - 1 && <View style={styles.divider} />}
+          </View>
+        ))}
       </View>
 
       {/* Upgrade */}
@@ -270,18 +375,16 @@ export default function ProfileScreen() {
         accessibilityLabel="Upgrade to Pro"
         accessibilityRole="button"
       >
-        <Text style={styles.upgradeIcon}>⭐</Text>
         <Text style={styles.upgradeText}>{t('profile.upgradeToPro')}</Text>
       </Pressable>
 
-      {/* Kids mode */}
+      {/* PARENTAL */}
       <Text style={styles.sectionHeader}>{t('profile.parental')}</Text>
-      <View style={styles.section}>
+      <View style={styles.menuList}>
         <View style={styles.menuRow}>
-          <Text style={styles.menuIcon}>🧒</Text>
-          <View style={styles.menuLabelGroup}>
-            <Text style={[typography.body, styles.menuLabel]}>{t('profile.kidsMode')}</Text>
-            <Text style={typography.caption}>{t('profile.kidsModeDesc')}</Text>
+          <View style={styles.menuRowLeft}>
+            <Text style={styles.menuLabel}>{t('profile.kidsMode')}</Text>
+            <Text style={styles.menuNote}>{t('profile.kidsModeDesc')}</Text>
           </View>
           <Switch
             value={kidsMode}
@@ -292,142 +395,229 @@ export default function ProfileScreen() {
           />
         </View>
       </View>
+
+      {/* Footer */}
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>SkyAtlas · v1.0</Text>
+      </View>
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
-  content: { paddingBottom: 48, gap: 8 },
+  content: { paddingBottom: 56 },
 
-  heroGradient: {
+  // HERO
+  hero: {
     alignItems: 'center',
-    paddingTop: 32,
-    paddingBottom: 28,
-    paddingHorizontal: 20,
-    gap: 6,
+    paddingTop: 40,
+    paddingBottom: 32,
+    paddingHorizontal: 24,
+    gap: 8,
     overflow: 'hidden'
   },
-
-  confettiLayer: {
+  passportLines: {
     position: 'absolute',
     top: 0, left: 0, right: 0, bottom: 0
   },
-  confettiChar: {
+  passportLine: {
     position: 'absolute',
-    color: '#FFFFFF',
-    opacity: 0.05
+    left: 0, right: 0,
+    height: 1,
+    backgroundColor: 'rgba(255,255,255,0.04)'
   },
 
-  avatarContainer: {
-    position: 'relative',
-    marginBottom: 4
+  avatarSection: {
+    alignItems: 'center',
+    marginBottom: 8
   },
-  avatarCircle: {
-    width: 90,
-    height: 90,
-    borderRadius: 45,
-    backgroundColor: colors.surfaceElevated,
+  avatarRing: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
     borderWidth: 3,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: colors.surfaceElevated,
     shadowOffset: { width: 0, height: 0 },
-    shadowOpacity: 0.6,
-    shadowRadius: 12,
-    elevation: 8
+    shadowOpacity: 0.8,
+    shadowRadius: 20,
+    elevation: 12
   },
-  avatarEmoji: { fontSize: 42 },
-  rankIconBadge: {
-    position: 'absolute',
-    bottom: -6,
-    right: -6,
-    width: 32,
-    height: 32,
-    borderRadius: 16,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderWidth: 2,
-    borderColor: colors.bg
+  avatarEmoji: { fontSize: 48 },
+  xpPill: {
+    marginTop: 10,
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    borderRadius: 20,
+    borderWidth: 1
   },
-  rankIconText: { fontSize: 16 },
-
-  // Serif display name
-  displayName: {
-    fontFamily: fonts.displayBold,
-    color: colors.text,
-    fontSize: 26,
-    letterSpacing: -0.5
-  },
-  rankName: {
-    fontFamily: fonts.bodySemi,
-    fontSize: 14
-  },
-  // Monospace level
-  levelLabel: {
-    fontFamily: fonts.monoMedium,
-    color: 'rgba(255,255,255,0.7)',
-    fontSize: 16,
+  xpPillText: {
+    fontFamily: fonts.mono,
+    fontSize: 11,
     letterSpacing: 0.5
   },
 
-  progressBarOuter: {
-    width: '72%',
-    height: 10,
-    backgroundColor: 'rgba(255,255,255,0.15)',
-    borderRadius: 5,
-    overflow: 'hidden',
-    marginTop: 6
+  displayName: {
+    fontFamily: fonts.display,
+    color: colors.text,
+    fontSize: 36,
+    letterSpacing: -1,
+    textAlign: 'center'
   },
-  progressFill: { height: '100%', borderRadius: 5 },
-  xpLabel: {
-    fontFamily: fonts.mono,
-    color: 'rgba(255,255,255,0.6)',
+  rankRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10
+  },
+  rankBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 20
+  },
+  rankBadgeIcon: { fontSize: 13 },
+  rankBadgeText: {
+    fontFamily: fonts.bodySemi,
+    color: '#000',
     fontSize: 12
+  },
+  levelChip: {
+    fontFamily: fonts.mono,
+    fontSize: 11,
+    letterSpacing: 1
   },
   memberSince: {
-    fontFamily: fonts.body,
-    color: 'rgba(255,255,255,0.4)',
-    fontSize: 11,
-    marginTop: 2
+    fontFamily: fonts.mono,
+    color: 'rgba(255,255,255,0.3)',
+    fontSize: 10,
+    letterSpacing: 2,
+    marginTop: 4
   },
 
-  statsRow: {
+  // HERO STATS — 3 tall cards
+  heroStats: {
     flexDirection: 'row',
+    gap: 10,
+    paddingHorizontal: 16,
+    marginTop: 16
+  },
+  heroStatCard: {
+    flex: 1,
     backgroundColor: colors.surface,
-    borderRadius: 14,
+    borderRadius: 16,
     borderWidth: 1,
     borderColor: colors.border,
-    paddingVertical: 16,
-    marginHorizontal: 16
+    paddingVertical: 20,
+    paddingHorizontal: 8,
+    alignItems: 'center',
+    gap: 6
   },
-  statCell: { flex: 1, alignItems: 'center', gap: 4 },
-  // Big mono numbers in stats
-  statValue: {
-    fontFamily: fonts.monoMedium,
+  heroStatNumber: {
+    fontFamily: fonts.display,
     color: colors.text,
-    fontSize: 26,
-    letterSpacing: -0.5
+    fontSize: 40,
+    lineHeight: 44,
+    letterSpacing: -1.5
   },
-  statLabel: {
-    fontFamily: fonts.body,
+  heroStatLabel: {
+    fontFamily: fonts.bodySemi,
     color: colors.textMuted,
-    fontSize: 12
+    fontSize: 9,
+    letterSpacing: 1.8
   },
-  statDivider: { width: 1, backgroundColor: colors.border },
 
+  // SECTION HEADER
   sectionHeader: {
     fontFamily: fonts.bodySemi,
     color: colors.textMuted,
-    fontSize: 11,
+    fontSize: 10,
     textTransform: 'uppercase',
-    letterSpacing: 1.5,
-    marginTop: 8,
-    marginBottom: 2,
+    letterSpacing: 2,
+    marginTop: 24,
+    marginBottom: 10,
     marginLeft: 20
   },
-  section: {
+
+  // JOURNEY CARDS
+  journeyCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: 16,
+    marginBottom: 10,
+    borderRadius: 16,
+    borderWidth: 1,
+    padding: 16,
+    gap: 14
+  },
+  streakCard: {
     backgroundColor: colors.surface,
-    borderRadius: 14,
+    borderColor: '#FF6B2B44'
+  },
+  achievementCard: {
+    backgroundColor: colors.surface,
+    borderColor: colors.border
+  },
+  streakEmoji: { fontSize: 28 },
+  achievementIcon: { fontSize: 28 },
+  journeyCardText: { flex: 1, gap: 2 },
+  journeyCardTitle: {
+    fontFamily: fonts.bodySemi,
+    color: colors.text,
+    fontSize: 15
+  },
+  journeyCardSub: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 12
+  },
+  journeyCardChevron: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 22
+  },
+
+  // WRAPPED CTA
+  wrappedCard: {
+    marginHorizontal: 16,
+    borderRadius: 20,
+    padding: 22,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 4
+  },
+  wrappedLabel: {
+    fontFamily: fonts.bodySemi,
+    color: 'rgba(255,255,255,0.6)',
+    fontSize: 9,
+    letterSpacing: 2,
+    marginBottom: 4
+  },
+  wrappedTitle: {
+    fontFamily: fonts.display,
+    color: '#FFFFFF',
+    fontSize: 26,
+    letterSpacing: -0.8
+  },
+  wrappedSub: {
+    fontFamily: fonts.body,
+    color: 'rgba(255,255,255,0.65)',
+    fontSize: 13,
+    marginTop: 2
+  },
+  wrappedArrow: {
+    fontSize: 28,
+    color: 'rgba(255,255,255,0.8)'
+  },
+
+  // MENU LIST
+  menuList: {
+    backgroundColor: colors.surface,
+    borderRadius: 16,
     borderWidth: 1,
     borderColor: colors.border,
     overflow: 'hidden',
@@ -436,64 +626,56 @@ const styles = StyleSheet.create({
   menuRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 16,
-    paddingVertical: 14,
-    gap: 12
+    justifyContent: 'space-between',
+    paddingHorizontal: 18,
+    paddingVertical: 14
   },
-  menuIcon: { fontSize: 20, width: 28, textAlign: 'center' },
-  menuLabel: { flex: 1, color: colors.text, fontFamily: fonts.body },
-  menuLabelGroup: { flex: 1, gap: 2 },
+  menuRowLeft: { flex: 1, gap: 2 },
+  menuLabel: {
+    fontFamily: fonts.body,
+    color: colors.text,
+    fontSize: 15
+  },
+  menuNote: {
+    fontFamily: fonts.body,
+    color: colors.textMuted,
+    fontSize: 12
+  },
   chevron: {
     fontFamily: fonts.body,
     color: colors.textMuted,
-    fontSize: 20
+    fontSize: 22
   },
-  divider: { height: 1, backgroundColor: colors.border, marginLeft: 56 },
-
-  statsGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 10,
-    marginHorizontal: 16
-  },
-  statCard: {
-    width: '47%',
-    borderRadius: 14,
-    padding: 14,
-    alignItems: 'center',
-    gap: 4,
-    borderWidth: 1,
-    borderColor: colors.border
-  },
-  statCardIcon: { fontSize: 24 },
-  statCardValue: {
-    fontFamily: fonts.monoMedium,
-    color: colors.text,
-    fontSize: 22,
-    letterSpacing: -0.5
-  },
-  statCardLabel: {
-    fontFamily: fonts.body,
-    color: colors.textMuted,
-    fontSize: 11,
-    textAlign: 'center'
+  divider: {
+    height: 1,
+    backgroundColor: colors.border,
+    marginLeft: 18
   },
 
+  // UPGRADE
   upgradeButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
     backgroundColor: colors.primary,
     borderRadius: 14,
     paddingVertical: 16,
-    gap: 8,
-    marginTop: 4,
-    marginHorizontal: 16
+    alignItems: 'center',
+    marginHorizontal: 16,
+    marginTop: 12
   },
-  upgradeIcon: { fontSize: 18 },
   upgradeText: {
     fontFamily: fonts.bodyBold,
     color: colors.text,
     fontSize: 16
+  },
+
+  // FOOTER
+  footer: {
+    alignItems: 'center',
+    paddingVertical: 20
+  },
+  footerText: {
+    fontFamily: fonts.mono,
+    color: colors.textDim,
+    fontSize: 11,
+    letterSpacing: 0.5
   }
 });
