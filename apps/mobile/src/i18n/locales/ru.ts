@@ -22,7 +22,8 @@ export const ru = {
     ok: 'ОК',
     next: 'Далее',
     back: 'Назад',
-    loading: 'Загрузка...'
+    loading: 'Загрузка...',
+    offlineMode: '✈️ Офлайн-режим — данные о полёте работают'
   },
   home: {
     title: 'Мои рейсы',

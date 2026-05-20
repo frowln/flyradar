@@ -1,4 +1,5 @@
-import { View, Text, Pressable, StyleSheet, Image, Animated } from 'react-native';
+import { View, Text, Pressable, StyleSheet, Animated } from 'react-native';
+import { Image } from 'expo-image';
 import { useRef, useEffect, useState } from 'react';
 import * as Speech from 'expo-speech';
 import type { POI } from '@skyatlas/shared';
@@ -67,7 +68,7 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
     return (
       <Animated.View style={[styles.card, { transform: [{ translateY: slideAnim }] }]}>
         {photo ? (
-          <Image source={{ uri: photo }} style={styles.photo} resizeMode="cover" />
+          <Image source={{ uri: photo }} style={styles.photo} contentFit="cover" transition={200} />
         ) : (
           <View style={[styles.photo, styles.photoPlaceholder]}>
             <Text style={styles.photoIcon}>{icon}</Text>
@@ -109,7 +110,7 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
   return (
     <Animated.View style={[styles.card, { transform: [{ translateY: slideAnim }] }]}>
       {photo ? (
-        <Image source={{ uri: photo }} style={styles.photo} resizeMode="cover" />
+        <Image source={{ uri: photo }} style={styles.photo} contentFit="cover" transition={200} />
       ) : (
         <View style={[styles.photo, styles.photoPlaceholder]}>
           <Text style={styles.photoIcon}>{icon}</Text>

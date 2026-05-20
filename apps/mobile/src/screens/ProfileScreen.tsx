@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import {
   View,
   Text,
@@ -6,7 +6,8 @@ import {
   Pressable,
   Switch,
   StyleSheet,
-  Animated
+  Animated,
+  RefreshControl
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
@@ -41,6 +42,8 @@ const CONFETTI = ['✈', '⭐', '🌍', '🏆', '✦', '·'];
 export default function ProfileScreen() {
   const nav = useNavigation<Nav>();
   const [kidsMode, setKidsModeState] = useState(() => collectionsStore.isKidsMode());
+  const [refreshing, setRefreshing] = useState(false);
+  const [statsVersion, setStatsVersion] = useState(0);
   const progressAnim = useRef(new Animated.Value(0)).current;
 
   const stats = collectionsStore.getStats();
@@ -62,7 +65,14 @@ export default function ProfileScreen() {
       friction: 8,
       useNativeDriver: false
     }).start();
-  }, [lvl.progress]);
+  }, [lvl.progress, statsVersion]);
+
+  const onRefresh = useCallback(() => {
+    setRefreshing(true);
+    // collectionsStore is synchronous MMKV — bump version to re-render fresh stats
+    setStatsVersion((v) => v + 1);
+    setRefreshing(false);
+  }, []);
 
   function toggleKidsMode(val: boolean) {
     collectionsStore.setKidsMode(val);
@@ -72,7 +82,13 @@ export default function ProfileScreen() {
   const darkRankColor = darkenHex(rank.color);
 
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+    <ScrollView
+      style={styles.container}
+      contentContainerStyle={styles.content}
+      refreshControl={
+        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor={colors.primary} colors={[colors.primary]} />
+      }
+    >
       {/* Hero with gradient */}
       <LinearGradient
         colors={[rank.color, darkRankColor, colors.bg]}

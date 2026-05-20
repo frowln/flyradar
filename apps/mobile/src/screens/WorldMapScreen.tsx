@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ActivityIndicator } from 'react-native';
+import { useCallback, useEffect, useState } from 'react';
+import { View, Text, StyleSheet, ActivityIndicator, RefreshControl, ScrollView } from 'react-native';
 import MapView, { Polyline } from 'react-native-maps';
 import { colors } from '../theme/colors';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
@@ -25,42 +25,61 @@ interface LoadedFlight {
 export default function WorldMapScreen() {
   const [flights, setFlights] = useState<LoadedFlight[]>([]);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
   const stats = collectionsStore.getStats();
 
-  useEffect(() => {
-    async function load() {
-      await initDb();
-      const rows = await listPackages();
-      const loaded: LoadedFlight[] = [];
-      for (let i = 0; i < rows.length; i++) {
-        const pkg = await loadPackage(rows[i].flightId);
-        if (pkg) {
-          loaded.push({
-            flightId: rows[i].flightId,
-            pkg,
-            color: ROUTE_COLORS[i % ROUTE_COLORS.length]
-          });
-        }
+  const loadFlights = useCallback(async () => {
+    await initDb();
+    const rows = await listPackages();
+    const loaded: LoadedFlight[] = [];
+    for (let i = 0; i < rows.length; i++) {
+      const pkg = await loadPackage(rows[i].flightId);
+      if (pkg) {
+        loaded.push({
+          flightId: rows[i].flightId,
+          pkg,
+          color: ROUTE_COLORS[i % ROUTE_COLORS.length]
+        });
       }
-      setFlights(loaded);
-      setLoading(false);
     }
-    load();
+    setFlights(loaded);
   }, []);
+
+  useEffect(() => {
+    loadFlights().finally(() => setLoading(false));
+  }, [loadFlights]);
+
+  const onRefresh = useCallback(async () => {
+    setRefreshing(true);
+    await loadFlights();
+    setRefreshing(false);
+  }, [loadFlights]);
 
   const totalKm = Math.round(stats.totalDistanceKm);
   const countries = stats.countriesFlownOver.length;
 
   return (
     <View style={styles.container}>
-      {/* Stats bar */}
-      <View style={styles.statsBar}>
+      {/* Stats bar with pull-to-refresh */}
+      <ScrollView
+        style={styles.statsBarScroll}
+        contentContainerStyle={styles.statsBar}
+        scrollEnabled={false}
+        refreshControl={
+          <RefreshControl
+            refreshing={refreshing}
+            onRefresh={onRefresh}
+            tintColor={colors.primary}
+            colors={[colors.primary]}
+          />
+        }
+      >
         <StatChip label={t('worldMap.flights')} value={String(flights.length)} />
         <View style={styles.statDivider} />
         <StatChip label={t('worldMap.km')} value={totalKm.toLocaleString()} />
         <View style={styles.statDivider} />
         <StatChip label={t('worldMap.countries')} value={String(countries)} />
-      </View>
+      </ScrollView>
 
       {loading ? (
         <View style={styles.center}>
@@ -112,11 +131,14 @@ function StatChip({ label, value }: { label: string; value: string }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
-  statsBar: {
-    flexDirection: 'row',
+  statsBarScroll: {
+    flexGrow: 0,
     backgroundColor: colors.surface,
     borderBottomWidth: 1,
-    borderBottomColor: colors.border,
+    borderBottomColor: colors.border
+  },
+  statsBar: {
+    flexDirection: 'row',
     paddingVertical: 12,
     paddingHorizontal: 16,
     alignItems: 'center',

@@ -22,7 +22,8 @@ export const en = {
     ok: 'OK',
     next: 'Next',
     back: 'Back',
-    loading: 'Loading...'
+    loading: 'Loading...',
+    offlineMode: '✈️ Offline mode — your flight data still works'
   },
   home: {
     title: 'My Flights',

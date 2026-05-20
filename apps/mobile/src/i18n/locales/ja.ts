@@ -22,7 +22,8 @@ export const ja = {
     ok: 'OK',
     next: '次へ',
     back: '戻る',
-    loading: '読み込み中...'
+    loading: '読み込み中...',
+    offlineMode: '✈️ オフラインモード — フライトデータは引き続き利用可能です'
   },
   home: {
     title: 'マイフライト',

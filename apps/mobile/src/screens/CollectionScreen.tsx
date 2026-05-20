@@ -1,11 +1,13 @@
-import { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import {
   View,
   Text,
   ScrollView,
   Pressable,
   StyleSheet,
-  FlatList
+  FlatList,
+  RefreshControl,
+  type RefreshControlProps
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -21,10 +23,27 @@ type Tab = 'countries' | 'achievements' | 'stats';
 
 export default function CollectionScreen() {
   const [activeTab, setActiveTab] = useState<Tab>('achievements');
+  const [refreshing, setRefreshing] = useState(false);
+  const [dataVersion, setDataVersion] = useState(0);
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
 
   const stats = collectionsStore.getStats();
   const earnedIds = new Set(collectionsStore.getEarnedAchievements());
+
+  const onRefresh = useCallback(() => {
+    setRefreshing(true);
+    setDataVersion((v) => v + 1);
+    setRefreshing(false);
+  }, []);
+
+  const refreshControl = (
+    <RefreshControl
+      refreshing={refreshing}
+      onRefresh={onRefresh}
+      tintColor={colors.primary}
+      colors={[colors.primary]}
+    />
+  );
 
   return (
     <View style={styles.container}>
@@ -36,13 +55,13 @@ export default function CollectionScreen() {
       </View>
 
       {activeTab === 'achievements' && (
-        <AchievementsTab earnedIds={earnedIds} />
+        <AchievementsTab earnedIds={earnedIds} refreshControl={refreshControl} />
       )}
       {activeTab === 'countries' && (
-        <CountriesTab countries={stats.countriesFlownOver} />
+        <CountriesTab countries={stats.countriesFlownOver} refreshControl={refreshControl} />
       )}
       {activeTab === 'stats' && (
-        <StatsTab stats={stats} earnedCount={earnedIds.size} onWrappedPress={() => navigation.navigate('Wrapped')} />
+        <StatsTab stats={stats} earnedCount={earnedIds.size} onWrappedPress={() => navigation.navigate('Wrapped')} refreshControl={refreshControl} />
       )}
     </View>
   );
@@ -67,7 +86,7 @@ function TabButton({
   );
 }
 
-function AchievementsTab({ earnedIds }: { earnedIds: Set<string> }) {
+function AchievementsTab({ earnedIds, refreshControl }: { earnedIds: Set<string>; refreshControl: React.ReactElement<RefreshControlProps> }) {
   return (
     <FlatList
       data={ACHIEVEMENTS}
@@ -75,6 +94,7 @@ function AchievementsTab({ earnedIds }: { earnedIds: Set<string> }) {
       numColumns={2}
       contentContainerStyle={styles.achievGrid}
       columnWrapperStyle={styles.achievRow}
+      refreshControl={refreshControl}
       renderItem={({ item }) => {
         const earned = earnedIds.has(item.id);
         return (
@@ -93,7 +113,7 @@ function AchievementsTab({ earnedIds }: { earnedIds: Set<string> }) {
   );
 }
 
-function CountriesTab({ countries }: { countries: string[] }) {
+function CountriesTab({ countries, refreshControl }: { countries: string[]; refreshControl: React.ReactElement<RefreshControlProps> }) {
   if (countries.length === 0) {
     return (
       <EmptyState
@@ -105,7 +125,7 @@ function CountriesTab({ countries }: { countries: string[] }) {
   }
 
   return (
-    <ScrollView contentContainerStyle={styles.countriesList}>
+    <ScrollView contentContainerStyle={styles.countriesList} refreshControl={refreshControl}>
       <Text style={styles.countriesCount}>{t('collection.countriesVisited', { count: countries.length })}</Text>
       {[...countries].sort().map((country) => (
         <View key={country} style={styles.countryRow}>
@@ -117,9 +137,9 @@ function CountriesTab({ countries }: { countries: string[] }) {
   );
 }
 
-function StatsTab({ stats, earnedCount, onWrappedPress }: { stats: ReturnType<typeof collectionsStore.getStats>; earnedCount: number; onWrappedPress: () => void }) {
+function StatsTab({ stats, earnedCount, onWrappedPress, refreshControl }: { stats: ReturnType<typeof collectionsStore.getStats>; earnedCount: number; onWrappedPress: () => void; refreshControl: React.ReactElement<RefreshControlProps> }) {
   return (
-    <ScrollView contentContainerStyle={styles.statsList}>
+    <ScrollView contentContainerStyle={styles.statsList} refreshControl={refreshControl}>
       <Pressable style={styles.wrappedBanner} onPress={onWrappedPress}>
         <Text style={styles.wrappedBannerText}>{t('collection.seeYearWrapped')}</Text>
       </Pressable>

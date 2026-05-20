@@ -3,7 +3,6 @@ import {
   View,
   Text,
   ScrollView,
-  Image,
   StyleSheet,
   ActivityIndicator,
   Pressable,
@@ -11,6 +10,7 @@ import {
   Share,
   Animated
 } from 'react-native';
+import { Image } from 'expo-image';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { RouteProp } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -144,7 +144,7 @@ export default function POIDetailScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       {/* Photo header */}
       {photo ? (
-        <Image source={{ uri: photo }} style={styles.heroPhoto} resizeMode="cover" />
+        <Image source={{ uri: photo }} style={styles.heroPhoto} contentFit="cover" transition={200} />
       ) : (
         <View style={styles.heroPlaceholder}>
           <Text style={styles.heroIcon}>{icon}</Text>
@@ -219,7 +219,7 @@ export default function POIDetailScreen() {
           <Text style={styles.sectionTitle}>{t('poi.photos')}</Text>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.photoScroll}>
             {poi.photos.slice(1).map((url, i) => (
-              <Image key={i} source={{ uri: url }} style={styles.thumbPhoto} resizeMode="cover" />
+              <Image key={i} source={{ uri: url }} style={styles.thumbPhoto} contentFit="cover" transition={200} />
             ))}
           </ScrollView>
         </View>
