@@ -121,6 +121,7 @@ export default function InFlightScreen() {
       <FlightMap
         route={activePackage.route}
         position={currentPosition}
+        pois={activePackage.pois}
         followPlane={followPlane}
       />
 
