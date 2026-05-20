@@ -12,8 +12,10 @@ import NetworkBanner from './src/components/NetworkBanner';
 import AchievementToast from './src/components/AchievementToast';
 import ErrorBoundary from './src/components/ErrorBoundary';
 import { initNotifications } from './src/core/ux/notifications';
+import { collectionsStore } from './src/core/gamification/collections';
 
 SplashScreen.preventAutoHideAsync();
+collectionsStore.markInstalled();
 
 export default function App() {
   const [fontsLoaded] = useFonts({

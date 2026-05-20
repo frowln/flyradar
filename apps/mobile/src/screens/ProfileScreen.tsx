@@ -19,11 +19,9 @@ import { levelFromXP, calculateXP, rankFromLevel } from '../core/gamification/le
 import { ACHIEVEMENTS } from '../core/gamification/achievements';
 import { calculateStreaks } from '../core/gamification/streaks';
 import type { RootStackParamList } from '../navigation/types';
-import { t } from '../i18n';
+import { t, getLocale } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
-
-const MEMBER_SINCE = '2024';
 
 // Circular XP progress ring drawn with Animated Views
 function XPRing({
@@ -185,6 +183,11 @@ export default function ProfileScreen() {
       ? `${Math.round(stats.totalDistanceKm / 1000)}k`
       : String(Math.round(stats.totalDistanceKm));
 
+  const installDate = collectionsStore.getInstallDate();
+  const memberSince = installDate
+    ? `${t('profile.memberSince')} ${installDate.toLocaleDateString(getLocale(), { year: 'numeric', month: 'long' })}`
+    : null;
+
   return (
     <ScrollView
       style={styles.container}
@@ -251,7 +254,9 @@ export default function ProfileScreen() {
         </View>
 
         {/* Member since — passport stamp style */}
-        <Text style={styles.memberSince}>MEMBER SINCE {MEMBER_SINCE}</Text>
+        {memberSince && (
+          <Text style={styles.memberSince}>{memberSince.toUpperCase()}</Text>
+        )}
       </LinearGradient>
 
       {/* 3 HERO STATS — tall cards, typography only */}
@@ -288,7 +293,7 @@ export default function ProfileScreen() {
       </View>
 
       {/* CONTINUE YOUR JOURNEY */}
-      <Text style={styles.sectionHeader}>CONTINUE YOUR JOURNEY</Text>
+      <Text style={styles.sectionHeader}>{t('profile.continueJourney')}</Text>
 
       {/* Streak callout */}
       {currentStreak > 0 && (
@@ -296,9 +301,9 @@ export default function ProfileScreen() {
           <Text style={styles.streakEmoji}>🔥</Text>
           <View style={styles.journeyCardText}>
             <Text style={styles.journeyCardTitle}>
-              {currentStreak} month{currentStreak !== 1 ? 's' : ''} flying
+              {t('profile.streakTitle', { count: currentStreak })}
             </Text>
-            <Text style={styles.journeyCardSub}>Keep your streak alive</Text>
+            <Text style={styles.journeyCardSub}>{t('profile.streakSub')}</Text>
           </View>
         </View>
       )}
@@ -333,20 +338,20 @@ export default function ProfileScreen() {
           style={styles.wrappedCard}
         >
           <View>
-            <Text style={styles.wrappedLabel}>YOUR YEAR IN FLIGHT</Text>
-            <Text style={styles.wrappedTitle}>2024 Wrapped</Text>
-            <Text style={styles.wrappedSub}>See your year at 35,000 ft</Text>
+            <Text style={styles.wrappedLabel}>{t('profile.wrappedLabel')}</Text>
+            <Text style={styles.wrappedTitle}>{t('profile.wrappedTitle')}</Text>
+            <Text style={styles.wrappedSub}>{t('profile.wrappedSub')}</Text>
           </View>
           <Text style={styles.wrappedArrow}>→</Text>
         </LinearGradient>
       </Pressable>
 
       {/* MENU — minimal text + chevron */}
-      <Text style={styles.sectionHeader}>EXPLORE</Text>
+      <Text style={styles.sectionHeader}>{t('profile.explore')}</Text>
       <View style={styles.menuList}>
         {[
           { label: t('profile.myCollection'), route: 'Collection', note: `${earnedCount}/${totalAchievements} earned` },
-          { label: 'Leaderboard', route: 'Leaderboard', note: undefined },
+          { label: t('nav.leaderboard'), route: 'Leaderboard', note: undefined },
           { label: t('profile.inviteFriends'), route: 'Referral', note: undefined },
           { label: t('profile.settings'), route: 'Settings', note: undefined }
         ].map((item, idx, arr) => (

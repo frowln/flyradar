@@ -14,7 +14,8 @@ const KEYS = {
   THEME: 'theme',
   CATEGORY_INTERESTS: 'category_interests',
   NARRATOR: 'narrator',
-  SOUND_ENABLED: 'sound_enabled'
+  SOUND_ENABLED: 'sound_enabled',
+  INSTALL_DATE: 'install_date'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -151,6 +152,19 @@ export const collectionsStore = {
 
   setSoundEnabled(enabled: boolean): void {
     storage.set(KEYS.SOUND_ENABLED, enabled);
+  },
+
+  markInstalled(): void {
+    if (!storage.getString(KEYS.INSTALL_DATE)) {
+      storage.set(KEYS.INSTALL_DATE, new Date().toISOString());
+    }
+  },
+
+  getInstallDate(): Date | null {
+    const raw = storage.getString(KEYS.INSTALL_DATE);
+    if (!raw) return null;
+    const d = new Date(raw);
+    return isNaN(d.getTime()) ? null : d;
   },
 
   reset(): void {

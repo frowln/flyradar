@@ -52,7 +52,7 @@ export default function RootNavigator() {
         <Stack.Screen name="Simulator" component={SimulatorScreen} options={{ title: t('nav.simulator') }} />
         <Stack.Screen name="Referral" component={ReferralScreen} options={{ title: t('nav.referral') }} />
         <Stack.Screen name="Leaderboard" component={LeaderboardScreen} options={{ title: t('nav.leaderboard') || 'Leaderboard' }} />
-        <Stack.Screen name="Stats" component={StatsScreen} options={{ title: 'Your Stats' }} />
+        <Stack.Screen name="Stats" component={StatsScreen} options={{ title: t('nav.stats') }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

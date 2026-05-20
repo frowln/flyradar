@@ -7,6 +7,7 @@ import { collectionsStore } from '../core/gamification/collections';
 import { calculateXP, levelFromXP } from '../core/gamification/levels';
 import { ACHIEVEMENTS } from '../core/gamification/achievements';
 import type { RootStackParamList } from '../navigation/types';
+import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
 
@@ -107,9 +108,14 @@ export default function StatsScreen() {
   );
   const moonDistance = (stats.totalDistanceKm / 384_400).toFixed(3);
 
-  // Months breakdown — last 12 months (simulated from totalFlights since we don't have per-flight dates)
-  // We spread flights across a mock distribution for visualization purposes
-  const MONTHS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+  // Localized month abbreviations from i18n
+  const MONTHS = [
+    t('stats.monthJan'), t('stats.monthFeb'), t('stats.monthMar'),
+    t('stats.monthApr'), t('stats.monthMay'), t('stats.monthJun'),
+    t('stats.monthJul'), t('stats.monthAug'), t('stats.monthSep'),
+    t('stats.monthOct'), t('stats.monthNov'), t('stats.monthDec')
+  ];
+
   // Without real per-month data we show a representative pattern based on total
   const mockMonthBars = MONTHS.map((m, i) => ({
     label: m,
@@ -131,16 +137,16 @@ export default function StatsScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       {/* Hero stat — total flights */}
       <View style={styles.heroBlock}>
-        <Text style={styles.heroLabel}>TOTAL FLIGHTS</Text>
+        <Text style={styles.heroLabel}>{t('stats.totalFlights')}</Text>
         <Text style={styles.heroNumber}>{stats.totalFlights}</Text>
         <Text style={styles.heroSub}>
-          Level {lvl.level} · {xp.toLocaleString()} XP total
+          {t('stats.levelXp', { level: lvl.level, xp: xp.toLocaleString() })}
         </Text>
       </View>
 
       {/* Activity chart */}
       <View style={styles.card}>
-        <Text style={styles.cardLabel}>ACTIVITY — LAST 12 MONTHS</Text>
+        <Text style={styles.cardLabel}>{t('stats.activityChart')}</Text>
         <MiniBarChart bars={mockMonthBars} max={monthMax} color={colors.primary} />
       </View>
 
@@ -150,53 +156,53 @@ export default function StatsScreen() {
           <Text style={styles.statTileNumber}>
             {Math.round(stats.totalDistanceKm).toLocaleString()}
           </Text>
-          <Text style={styles.statTileLabel}>KM FLOWN</Text>
+          <Text style={styles.statTileLabel}>{t('stats.kmFlown')}</Text>
         </View>
         <View style={styles.statTile}>
           <Text style={styles.statTileNumber}>{stats.countriesFlownOver.length}</Text>
-          <Text style={styles.statTileLabel}>COUNTRIES</Text>
+          <Text style={styles.statTileLabel}>{t('stats.countries')}</Text>
         </View>
         <View style={styles.statTile}>
           <Text style={styles.statTileNumber}>{stats.continentsVisited.length}</Text>
-          <Text style={styles.statTileLabel}>CONTINENTS</Text>
+          <Text style={styles.statTileLabel}>{t('stats.continents')}</Text>
         </View>
         <View style={styles.statTile}>
           <Text style={styles.statTileNumber}>{hoursInAir}</Text>
-          <Text style={styles.statTileLabel}>HOURS IN AIR</Text>
+          <Text style={styles.statTileLabel}>{t('stats.hoursInAir')}</Text>
         </View>
         <View style={styles.statTile}>
           <Text style={styles.statTileNumber}>{stats.nightFlights}</Text>
-          <Text style={styles.statTileLabel}>NIGHT FLIGHTS</Text>
+          <Text style={styles.statTileLabel}>{t('stats.nightFlights')}</Text>
         </View>
         <View style={styles.statTile}>
           <Text style={styles.statTileNumber}>{stats.longestFlightHours.toFixed(1)}h</Text>
-          <Text style={styles.statTileLabel}>LONGEST</Text>
+          <Text style={styles.statTileLabel}>{t('stats.longest')}</Text>
         </View>
       </View>
 
       {/* Equivalents — fun facts */}
-      <Text style={styles.sectionLabel}>WHAT THAT MEANS</Text>
+      <Text style={styles.sectionLabel}>{t('stats.whatThatMeans')}</Text>
       <View style={styles.card}>
         {[
           {
             value: earthLaps,
-            unit: 'times',
-            label: 'around Earth'
+            unit: t('stats.timesUnit'),
+            label: t('stats.timesAroundEarth')
           },
           {
             value: `${hoursInAir}`,
-            unit: 'hours',
-            label: 'of flight time logged'
+            unit: t('stats.hoursUnit'),
+            label: t('stats.flightTimeLogged')
           },
           {
             value: moonDistance,
-            unit: '×',
-            label: 'the distance to the Moon'
+            unit: t('stats.moonDistanceUnit'),
+            label: t('stats.moonDistanceLabel')
           },
           {
             value: `${earnedCount}/${ACHIEVEMENTS.length}`,
             unit: '',
-            label: 'achievements unlocked'
+            label: t('stats.achievementsUnlocked')
           }
         ].map((eq, i, arr) => (
           <View key={eq.label}>
@@ -212,10 +218,10 @@ export default function StatsScreen() {
         ))}
       </View>
 
-      {/* Top routes — placeholder since we track packages not per-route history */}
+      {/* Countries visited */}
       {stats.countriesFlownOver.length > 0 && (
         <>
-          <Text style={styles.sectionLabel}>COUNTRIES VISITED</Text>
+          <Text style={styles.sectionLabel}>{t('stats.countriesVisited')}</Text>
           <View style={styles.card}>
             <View style={styles.countriesWrap}>
               {stats.countriesFlownOver.slice(0, 12).map((c) => (
@@ -240,10 +246,10 @@ export default function StatsScreen() {
         style={styles.achievementsBtn}
         onPress={() => nav.navigate('Collection')}
         accessibilityRole="button"
-        accessibilityLabel="View achievements collection"
+        accessibilityLabel={t('stats.viewAchievements', { count: earnedCount })}
       >
         <Text style={styles.achievementsBtnText}>
-          View {earnedCount} achievements →
+          {t('stats.viewAchievements', { count: earnedCount })}
         </Text>
       </Pressable>
 
