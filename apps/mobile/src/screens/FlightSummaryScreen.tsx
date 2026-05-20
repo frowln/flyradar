@@ -19,6 +19,7 @@ import { useFlightStore } from '../core/flight/flightStore';
 import { haversine } from '../core/geo/greatCircle';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
+import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'FlightSummary'>;
 type Route = RouteProp<RootStackParamList, 'FlightSummary'>;
@@ -67,7 +68,13 @@ export default function FlightSummaryScreen() {
     const placesCount = seenPOIs.length;
     try {
       await Share.share({
-        message: `✈️ Just landed! Flew ${flight.flightNumber} from ${flight.origin.city} to ${flight.destination.city} — ${dist.toLocaleString()} km, discovered ${placesCount} amazing places along the way. #SkyAtlas`,
+        message: `✈️ ${t('flightSummary.shareMessage', {
+          flightNumber: flight.flightNumber,
+          origin: flight.origin.city,
+          destination: flight.destination.city,
+          distance: dist.toLocaleString(),
+          places: placesCount
+        })}`,
         title: 'My Flight with SkyAtlas'
       });
     } catch {
@@ -86,9 +93,9 @@ export default function FlightSummaryScreen() {
   if (!pkg) {
     return (
       <View style={styles.center}>
-        <Text style={{ color: colors.textMuted }}>Flight data not found.</Text>
+        <Text style={{ color: colors.textMuted }}>{t('flightSummary.flightDataNotFound')}</Text>
         <Pressable onPress={handleDone} style={styles.doneButton}>
-          <Text style={styles.doneButtonText}>Go Home</Text>
+          <Text style={styles.doneButtonText}>{t('flightSummary.goHome')}</Text>
         </Pressable>
       </View>
     );
@@ -104,7 +111,7 @@ export default function FlightSummaryScreen() {
       {/* Hero */}
       <View style={styles.hero}>
         <Text style={styles.heroEmoji}>🛬</Text>
-        <Text style={[typography.h1, styles.heroTitle]}>You've landed!</Text>
+        <Text style={[typography.h1, styles.heroTitle]}>{t('flightSummary.landed')}</Text>
         <Text style={styles.heroSub}>
           {flight.flightNumber} · {flight.origin.iata} → {flight.destination.iata}
         </Text>
@@ -112,16 +119,16 @@ export default function FlightSummaryScreen() {
 
       {/* Stats */}
       <View style={styles.statsGrid}>
-        <SummaryStatCard value={`${distKm.toLocaleString()}`} unit="km" label="Distance flown" />
-        <SummaryStatCard value={duration} unit="" label="Time in air" />
-        <SummaryStatCard value={`${discoveredPOIs.length}`} unit={`/ ${pkg.pois.length}`} label="Places discovered" />
-        <SummaryStatCard value={`${pkg.route.length}`} unit="pts" label="Route waypoints" />
+        <SummaryStatCard value={`${distKm.toLocaleString()}`} unit="km" label={t('flightSummary.distanceFlown')} />
+        <SummaryStatCard value={duration} unit="" label={t('flightSummary.timeInAir')} />
+        <SummaryStatCard value={`${discoveredPOIs.length}`} unit={`/ ${pkg.pois.length}`} label={t('flightSummary.placesDiscovered')} />
+        <SummaryStatCard value={`${pkg.route.length}`} unit="pts" label={t('flightSummary.routeWaypoints')} />
       </View>
 
       {/* Discovered places */}
       {discoveredPOIs.length > 0 && (
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>PLACES YOU DISCOVERED</Text>
+          <Text style={styles.sectionTitle}>{t('flightSummary.placesYouDiscovered')}</Text>
           {discoveredPOIs.map((poi) => (
             <View key={poi.id} style={styles.poiRow}>
               <Text style={styles.poiIcon}>
@@ -143,7 +150,7 @@ export default function FlightSummaryScreen() {
       {/* All available places (not discovered) */}
       {pkg.pois.length > discoveredPOIs.length && (
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>MISSED THIS TIME</Text>
+          <Text style={styles.sectionTitle}>{t('flightSummary.missedThisTime')}</Text>
           {pkg.pois
             .filter((p) => !seenPOIs.some((s) => s.poiId === p.id))
             .slice(0, 5)
@@ -155,11 +162,11 @@ export default function FlightSummaryScreen() {
 
       {/* Action buttons */}
       <Pressable style={styles.shareButton} onPress={handleShare}>
-        <Text style={styles.shareButtonText}>Share this flight ↗</Text>
+        <Text style={styles.shareButtonText}>{t('flightSummary.shareFlight')}</Text>
       </Pressable>
 
       <Pressable style={styles.doneButton} onPress={handleDone}>
-        <Text style={styles.doneButtonText}>Done</Text>
+        <Text style={styles.doneButtonText}>{t('flightSummary.done')}</Text>
       </Pressable>
     </ScrollView>
   );

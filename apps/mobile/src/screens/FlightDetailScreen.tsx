@@ -19,6 +19,7 @@ import { fetchWeather, weatherIcon, packingList, type WeatherForecast } from '..
 import { useFlightStore } from '../core/flight/flightStore';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
+import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'FlightDetail'>;
 type Route = RouteProp<RootStackParamList, 'FlightDetail'>;
@@ -73,19 +74,19 @@ export default function FlightDetailScreen() {
     haptics.medium();
 
     Alert.alert(
-      'Confirm Takeoff Time',
-      'What time did you take off? This helps SkyAtlas accurately show your position without internet.',
+      t('flightDetail.confirmTakeoff'),
+      t('flightDetail.confirmTakeoffMessage'),
       [
         {
-          text: 'Just now',
+          text: t('flightDetail.justNow'),
           onPress: () => { haptics.success(); startFlight(new Date()); }
         },
         {
-          text: 'Scheduled time',
+          text: t('flightDetail.scheduledTime'),
           onPress: () => { haptics.success(); startFlight(new Date(pkg.flight.scheduledDeparture)); }
         },
         {
-          text: 'Cancel',
+          text: t('flightDetail.cancel'),
           style: 'cancel'
         }
       ]
@@ -110,7 +111,7 @@ export default function FlightDetailScreen() {
   if (!pkg) {
     return (
       <View style={styles.center}>
-        <Text style={[typography.body, { color: colors.textMuted }]}>Flight not found.</Text>
+        <Text style={[typography.body, { color: colors.textMuted }]}>{t('flightDetail.flightNotFound')}</Text>
       </View>
     );
   }
@@ -143,30 +144,30 @@ export default function FlightDetailScreen() {
 
       {/* Flight info */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>FLIGHT INFO</Text>
-        <InfoRow label="Airline" value={flight.airline} />
-        <InfoRow label="Departure" value={formatDateTime(flight.scheduledDeparture)} />
-        <InfoRow label="Arrival" value={formatDateTime(flight.scheduledArrival)} />
+        <Text style={styles.sectionTitle}>{t('flightDetail.flightInfo').toUpperCase()}</Text>
+        <InfoRow label={t('flightDetail.airline')} value={flight.airline} />
+        <InfoRow label={t('flightDetail.departure')} value={formatDateTime(flight.scheduledDeparture)} />
+        <InfoRow label={t('flightDetail.arrival')} value={formatDateTime(flight.scheduledArrival)} />
         {flight.aircraftType && (
-          <InfoRow label="Aircraft" value={flight.aircraftType} />
+          <InfoRow label={t('flightDetail.aircraft')} value={flight.aircraftType} />
         )}
       </View>
 
       {/* Offline package info */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>OFFLINE PACKAGE</Text>
-        <InfoRow label="Places to discover" value={`${pkg.pois.length} locations`} />
-        <InfoRow label="Route points" value={`${pkg.route.length} waypoints`} />
-        <InfoRow label="Downloaded" value={formatBytes(pkgSize)} />
+        <Text style={styles.sectionTitle}>{t('flightDetail.offlinePackage').toUpperCase()}</Text>
+        <InfoRow label={t('flightDetail.placesToDiscover')} value={`${pkg.pois.length} ${t('flightDetail.locations')}`} />
+        <InfoRow label={t('flightDetail.routePoints')} value={`${pkg.route.length} ${t('flightDetail.waypoints')}`} />
+        <InfoRow label={t('flightDetail.downloaded')} value={formatBytes(pkgSize)} />
         <View style={styles.readyBadge}>
-          <Text style={styles.readyText}>✓ Ready for offline use</Text>
+          <Text style={styles.readyText}>{t('flightDetail.readyForOffline')}</Text>
         </View>
       </View>
 
       {/* Weather at destination */}
       {weather && (
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>WEATHER AT DESTINATION</Text>
+          <Text style={styles.sectionTitle}>{t('flightDetail.weatherAt').toUpperCase()}</Text>
           <View style={styles.weatherRow}>
             <Text style={styles.weatherIcon}>{weatherIcon(weather.weatherCode)}</Text>
             <View style={{ flex: 1 }}>
@@ -175,7 +176,7 @@ export default function FlightDetailScreen() {
             </View>
           </View>
           <View style={{ marginTop: 12 }}>
-            <Text style={styles.sectionTitle}>WHAT TO PACK</Text>
+            <Text style={styles.sectionTitle}>{t('flightDetail.whatToPack').toUpperCase()}</Text>
             {packingList(weather.temperature, weather.weatherCode).map((item, i) => (
               <Text key={i} style={styles.packItem}>{item}</Text>
             ))}
@@ -186,7 +187,7 @@ export default function FlightDetailScreen() {
       {/* What's below preview */}
       {pkg.pois.length > 0 && (
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>HIGHLIGHTS</Text>
+          <Text style={styles.sectionTitle}>{t('flightDetail.highlights').toUpperCase()}</Text>
           {pkg.pois.slice(0, 4).map((poi) => (
             <View key={poi.id} style={styles.poiPreview}>
               <Text style={styles.poiCategory}>{poi.category.toUpperCase()}</Text>
@@ -201,7 +202,7 @@ export default function FlightDetailScreen() {
 
       {/* Start flight CTA */}
       <Pressable style={styles.startButton} onPress={handleStartFlight}>
-        <Text style={styles.startButtonText}>✈ Start Flight</Text>
+        <Text style={styles.startButtonText}>{t('flightDetail.startFlight')}</Text>
       </Pressable>
     </ScrollView>
   );

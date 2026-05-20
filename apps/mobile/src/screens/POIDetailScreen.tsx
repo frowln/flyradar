@@ -18,6 +18,7 @@ import { typography } from '../theme/typography';
 import { loadPackage } from '../core/offline/poiDatabase';
 import type { RootStackParamList } from '../navigation/types';
 import type { POI } from '@skyatlas/shared';
+import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'POIDetail'>;
 type Route = RouteProp<RootStackParamList, 'POIDetail'>;
@@ -83,7 +84,7 @@ export default function POIDetailScreen() {
   if (!poi) {
     return (
       <View style={styles.center}>
-        <Text style={{ color: colors.textMuted }}>Location not found.</Text>
+        <Text style={{ color: colors.textMuted }}>{t('poi.notFound')}</Text>
       </View>
     );
   }
@@ -109,7 +110,7 @@ export default function POIDetailScreen() {
           <Text style={styles.badgeText}>{icon} {label.toUpperCase()}</Text>
         </View>
         <Pressable onPress={handleShare} style={styles.shareButton}>
-          <Text style={styles.shareText}>Share ↗</Text>
+          <Text style={styles.shareText}>{t('poi.share')}</Text>
         </Pressable>
       </View>
 
@@ -119,26 +120,26 @@ export default function POIDetailScreen() {
       {/* Key stats */}
       <View style={styles.statsRow}>
         {poi.elevation != null && (
-          <StatChip label="Elevation" value={`${poi.elevation.toLocaleString()}m`} />
+          <StatChip label={t('poi.elevation')} value={`${poi.elevation.toLocaleString()}m`} />
         )}
         {poi.population != null && poi.population > 0 && (
-          <StatChip label="Population" value={poi.population.toLocaleString()} />
+          <StatChip label={t('poi.population')} value={poi.population.toLocaleString()} />
         )}
         {poi.closestApproachKm != null && (
-          <StatChip label="Distance" value={`${poi.closestApproachKm}km`} />
+          <StatChip label={t('poi.distance')} value={`${poi.closestApproachKm}km`} />
         )}
       </View>
 
       {/* Summary */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>ABOUT</Text>
+        <Text style={styles.sectionTitle}>{t('poi.about')}</Text>
         <Text style={styles.summary}>{poi.summary}</Text>
       </View>
 
       {/* Facts */}
       {poi.facts.length > 0 && (
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>DID YOU KNOW</Text>
+          <Text style={styles.sectionTitle}>{t('poi.didYouKnow').toUpperCase()}</Text>
           {poi.facts.map((fact, i) => (
             <View key={i} style={styles.factRow}>
               <Text style={styles.factBullet}>💡</Text>
@@ -151,7 +152,7 @@ export default function POIDetailScreen() {
       {/* Additional photos */}
       {poi.photos.length > 1 && (
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>PHOTOS</Text>
+          <Text style={styles.sectionTitle}>{t('poi.photos')}</Text>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.photoScroll}>
             {poi.photos.slice(1).map((url, i) => (
               <Image key={i} source={{ uri: url }} style={styles.thumbPhoto} resizeMode="cover" />

@@ -13,6 +13,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { createMMKV } from 'react-native-mmkv';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
+import { t } from '../i18n';
 
 const storage = createMMKV({ id: 'skyatlas-onboarding' });
 export const ONBOARDING_KEY = 'onboarding_complete';
@@ -29,25 +30,12 @@ type Nav = NativeStackNavigationProp<RootStackParamList, 'Onboarding'>;
 
 const { width: W } = Dimensions.get('window');
 
-const SLIDES = [
-  {
-    key: '1',
-    icon: '✈️',
-    title: 'Track Your Flight Offline',
-    body: 'Add your flight before boarding. SkyAtlas downloads everything you need — no internet required in the air.'
-  },
-  {
-    key: '2',
-    icon: '🌍',
-    title: "Discover What's Below",
-    body: 'Mountains, cities, lakes, volcanoes — learn about every place you fly over with photos and fascinating facts.'
-  },
-  {
-    key: '3',
-    icon: '🏆',
-    title: 'Collect the World',
-    body: 'Build your personal atlas. Every flight adds countries, places, and achievements to your collection.'
-  }
+type Slide = { key: string; icon: string; titleKey: string; bodyKey: string };
+
+const SLIDES: Slide[] = [
+  { key: '1', icon: '✈️', titleKey: 'onboarding.slide1_title', bodyKey: 'onboarding.slide1_body' },
+  { key: '2', icon: '🌍', titleKey: 'onboarding.slide2_title', bodyKey: 'onboarding.slide2_body' },
+  { key: '3', icon: '🏆', titleKey: 'onboarding.slide3_title', bodyKey: 'onboarding.slide3_body' }
 ];
 
 export default function OnboardingScreen() {
@@ -84,11 +72,11 @@ export default function OnboardingScreen() {
           const idx = Math.round(e.nativeEvent.contentOffset.x / W);
           setCurrentIndex(idx);
         }}
-        renderItem={({ item }: ListRenderItemInfo<typeof SLIDES[0]>) => (
+        renderItem={({ item }: ListRenderItemInfo<Slide>) => (
           <View style={styles.slide}>
             <Text style={styles.slideIcon}>{item.icon}</Text>
-            <Text style={styles.slideTitle}>{item.title}</Text>
-            <Text style={styles.slideBody}>{item.body}</Text>
+            <Text style={styles.slideTitle}>{t(item.titleKey)}</Text>
+            <Text style={styles.slideBody}>{t(item.bodyKey)}</Text>
           </View>
         )}
       />
@@ -105,15 +93,15 @@ export default function OnboardingScreen() {
         {currentIndex < SLIDES.length - 1 ? (
           <>
             <Pressable onPress={handleSkip} style={styles.skipButton}>
-              <Text style={styles.skipText}>Skip</Text>
+              <Text style={styles.skipText}>{t('onboarding.skip')}</Text>
             </Pressable>
             <Pressable onPress={handleNext} style={styles.nextButton}>
-              <Text style={styles.nextText}>Next →</Text>
+              <Text style={styles.nextText}>{t('onboarding.next')}</Text>
             </Pressable>
           </>
         ) : (
           <Pressable onPress={handleNext} style={[styles.nextButton, styles.getStartedButton]}>
-            <Text style={styles.nextText}>Get Started ✈️</Text>
+            <Text style={styles.nextText}>{t('onboarding.getStarted')}</Text>
           </Pressable>
         )}
       </View>

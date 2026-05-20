@@ -17,6 +17,7 @@ import { typography } from '../theme/typography';
 import { apiClient } from '../core/api/client';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
+import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
 
@@ -30,7 +31,7 @@ export default function BrowseScreen() {
 
   async function handleSearch() {
     if (!flightNumber.trim() || !date.trim()) {
-      setError('Please enter a flight number and date.');
+      setError(t('browse.validationError'));
       return;
     }
     setError(null);
@@ -56,26 +57,24 @@ export default function BrowseScreen() {
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
     >
       <ScrollView style={styles.container} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
-        <Text style={[typography.h2, styles.heading]}>Explore Any Flight</Text>
-        <Text style={[typography.body, styles.subtitle]}>
-          Browse a route and discover what's below — without adding it to your flights.
-        </Text>
+        <Text style={[typography.h2, styles.heading]}>{t('browse.title')}</Text>
+        <Text style={[typography.body, styles.subtitle]}>{t('browse.subtitle')}</Text>
 
         <View style={styles.form}>
-          <Text style={styles.label}>Flight number</Text>
+          <Text style={styles.label}>{t('browse.flightNumberLabel')}</Text>
           <TextInput
             style={styles.input}
-            placeholder="e.g. LH456"
+            placeholder={t('browse.flightNumberPlaceholder')}
             placeholderTextColor={colors.textMuted}
             value={flightNumber}
             onChangeText={setFlightNumber}
             autoCapitalize="characters"
           />
 
-          <Text style={styles.label}>Date (YYYY-MM-DD)</Text>
+          <Text style={styles.label}>{t('browse.dateLabel')}</Text>
           <TextInput
             style={styles.input}
-            placeholder="e.g. 2026-05-20"
+            placeholder={t('browse.datePlaceholder')}
             placeholderTextColor={colors.textMuted}
             value={date}
             onChangeText={setDate}
@@ -87,7 +86,7 @@ export default function BrowseScreen() {
           <Pressable style={styles.searchButton} onPress={handleSearch} disabled={loading}>
             {loading
               ? <ActivityIndicator color={colors.text} />
-              : <Text style={styles.searchButtonText}>Search</Text>
+              : <Text style={styles.searchButtonText}>{t('browse.search')}</Text>
             }
           </Pressable>
         </View>
@@ -96,7 +95,7 @@ export default function BrowseScreen() {
           <View style={styles.resultCard}>
             <View style={styles.resultHeader}>
               <Text style={styles.flightNumber}>{result.flight.flightNumber}</Text>
-              <Text style={[typography.caption]}>{result.pois.length} places to discover</Text>
+              <Text style={[typography.caption]}>{result.pois.length} {t('browse.placesToDiscover')}</Text>
             </View>
             <View style={styles.routeRow}>
               <View>
@@ -114,7 +113,7 @@ export default function BrowseScreen() {
               style={styles.addButton}
               onPress={() => nav.navigate('AddFlight')}
             >
-              <Text style={styles.addButtonText}>Add to my flights →</Text>
+              <Text style={styles.addButtonText}>{t('browse.addToMyFlights')}</Text>
             </Pressable>
           </View>
         )}

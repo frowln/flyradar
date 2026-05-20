@@ -15,6 +15,7 @@ import { collectionsStore } from '../core/gamification/collections';
 import EmptyState from '../components/EmptyState';
 import { ACHIEVEMENTS } from '../core/gamification/achievements';
 import type { RootStackParamList } from '../navigation/types';
+import { t } from '../i18n';
 
 type Tab = 'countries' | 'achievements' | 'stats';
 
@@ -29,9 +30,9 @@ export default function CollectionScreen() {
     <View style={styles.container}>
       {/* Tab bar */}
       <View style={styles.tabBar}>
-        <TabButton label="Achievements" tab="achievements" active={activeTab} onPress={setActiveTab} />
-        <TabButton label="Countries" tab="countries" active={activeTab} onPress={setActiveTab} />
-        <TabButton label="Stats" tab="stats" active={activeTab} onPress={setActiveTab} />
+        <TabButton label={t('collection.achievements')} tab="achievements" active={activeTab} onPress={setActiveTab} />
+        <TabButton label={t('collection.countries')} tab="countries" active={activeTab} onPress={setActiveTab} />
+        <TabButton label={t('collection.stats')} tab="stats" active={activeTab} onPress={setActiveTab} />
       </View>
 
       {activeTab === 'achievements' && (
@@ -97,15 +98,15 @@ function CountriesTab({ countries }: { countries: string[] }) {
     return (
       <EmptyState
         icon="🌍"
-        title="No countries yet"
-        description="Start your first flight to collect countries you fly over."
+        title={t('collection.noCountriesYet')}
+        description={t('collection.noCountriesDesc')}
       />
     );
   }
 
   return (
     <ScrollView contentContainerStyle={styles.countriesList}>
-      <Text style={styles.countriesCount}>{countries.length} countries visited</Text>
+      <Text style={styles.countriesCount}>{t('collection.countriesVisited', { count: countries.length })}</Text>
       {[...countries].sort().map((country) => (
         <View key={country} style={styles.countryRow}>
           <Text style={styles.countryFlag}>🌍</Text>
@@ -120,15 +121,15 @@ function StatsTab({ stats, earnedCount, onWrappedPress }: { stats: ReturnType<ty
   return (
     <ScrollView contentContainerStyle={styles.statsList}>
       <Pressable style={styles.wrappedBanner} onPress={onWrappedPress}>
-        <Text style={styles.wrappedBannerText}>🎉 See your Year Wrapped</Text>
+        <Text style={styles.wrappedBannerText}>{t('collection.seeYearWrapped')}</Text>
       </Pressable>
-      <StatRow label="Total Flights" value={stats.totalFlights.toString()} icon="✈️" />
-      <StatRow label="Total Distance" value={`${stats.totalDistanceKm.toLocaleString()} km`} icon="📏" />
-      <StatRow label="Places Discovered" value={stats.poisDiscovered.toString()} icon="🗺️" />
-      <StatRow label="Countries Flown Over" value={stats.countriesFlownOver.length.toString()} icon="🌍" />
-      <StatRow label="Night Flights" value={stats.nightFlights.toString()} icon="🌙" />
-      <StatRow label="Longest Flight" value={`${stats.longestFlightHours.toFixed(1)}h`} icon="⏰" />
-      <StatRow label="Achievements Earned" value={`${earnedCount} / ${ACHIEVEMENTS.length}`} icon="🏆" />
+      <StatRow label={t('collection.totalFlights')} value={stats.totalFlights.toString()} icon="✈️" />
+      <StatRow label={t('collection.totalDistance')} value={`${stats.totalDistanceKm.toLocaleString()} km`} icon="📏" />
+      <StatRow label={t('collection.placesDiscovered')} value={stats.poisDiscovered.toString()} icon="🗺️" />
+      <StatRow label={t('collection.countriesFlownOver')} value={stats.countriesFlownOver.length.toString()} icon="🌍" />
+      <StatRow label={t('collection.nightFlights')} value={stats.nightFlights.toString()} icon="🌙" />
+      <StatRow label={t('collection.longestFlight')} value={`${stats.longestFlightHours.toFixed(1)}h`} icon="⏰" />
+      <StatRow label={t('collection.achievementsEarned')} value={`${earnedCount} / ${ACHIEVEMENTS.length}`} icon="🏆" />
     </ScrollView>
   );
 }

@@ -14,6 +14,7 @@ import { typography } from '../theme/typography';
 import { collectionsStore } from '../core/gamification/collections';
 import { levelFromXP, calculateXP, rankFromLevel } from '../core/gamification/levels';
 import type { RootStackParamList } from '../navigation/types';
+import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
 
@@ -45,9 +46,9 @@ export default function ProfileScreen() {
         <View style={[styles.avatarCircle, { borderColor: rank.color }]}>
           <Text style={styles.avatarIcon}>{rank.icon}</Text>
         </View>
-        <Text style={styles.displayName}>Guest</Text>
+        <Text style={styles.displayName}>{t('profile.guest')}</Text>
         <Text style={[styles.rankName, { color: rank.color }]}>{rank.name}</Text>
-        <Text style={styles.levelLabel}>Level {lvl.level}</Text>
+        <Text style={styles.levelLabel}>{t('profile.level', { level: lvl.level })}</Text>
         <View style={styles.progressBar}>
           <View style={[styles.progressFill, { width: `${lvl.progress * 100}%` as any, backgroundColor: rank.color }]} />
         </View>
@@ -58,44 +59,44 @@ export default function ProfileScreen() {
       <View style={styles.statsRow}>
         <View style={styles.statCell}>
           <Text style={styles.statValue}>{stats.totalFlights}</Text>
-          <Text style={styles.statLabel}>Flights</Text>
+          <Text style={styles.statLabel}>{t('profile.flights')}</Text>
         </View>
         <View style={styles.statDivider} />
         <View style={styles.statCell}>
           <Text style={styles.statValue}>{stats.countriesFlownOver.length}</Text>
-          <Text style={styles.statLabel}>Countries</Text>
+          <Text style={styles.statLabel}>{t('profile.countries')}</Text>
         </View>
         <View style={styles.statDivider} />
         <View style={styles.statCell}>
           <Text style={styles.statValue}>{earnedCount}</Text>
-          <Text style={styles.statLabel}>Badges</Text>
+          <Text style={styles.statLabel}>{t('profile.badges')}</Text>
         </View>
       </View>
 
       {/* Menu */}
-      <Text style={styles.sectionHeader}>My Stuff</Text>
+      <Text style={styles.sectionHeader}>{t('profile.myStuff')}</Text>
       <View style={styles.section}>
         <Pressable style={styles.menuRow} onPress={() => nav.navigate('Collection')}>
           <Text style={styles.menuIcon}>🏆</Text>
-          <Text style={[typography.body, styles.menuLabel]}>My Collection</Text>
+          <Text style={[typography.body, styles.menuLabel]}>{t('profile.myCollection')}</Text>
           <Text style={styles.chevron}>›</Text>
         </Pressable>
         <View style={styles.divider} />
         <Pressable style={styles.menuRow} onPress={() => nav.navigate('Wrapped')}>
           <Text style={styles.menuIcon}>🎉</Text>
-          <Text style={[typography.body, styles.menuLabel]}>Year Wrapped</Text>
+          <Text style={[typography.body, styles.menuLabel]}>{t('profile.yearWrapped')}</Text>
           <Text style={styles.chevron}>›</Text>
         </Pressable>
         <View style={styles.divider} />
         <Pressable style={styles.menuRow} onPress={() => nav.navigate('Referral')}>
           <Text style={styles.menuIcon}>🎁</Text>
-          <Text style={[typography.body, styles.menuLabel]}>Invite Friends</Text>
+          <Text style={[typography.body, styles.menuLabel]}>{t('profile.inviteFriends')}</Text>
           <Text style={styles.chevron}>›</Text>
         </Pressable>
         <View style={styles.divider} />
         <Pressable style={styles.menuRow} onPress={() => nav.navigate('Settings')}>
           <Text style={styles.menuIcon}>⚙️</Text>
-          <Text style={[typography.body, styles.menuLabel]}>Settings</Text>
+          <Text style={[typography.body, styles.menuLabel]}>{t('profile.settings')}</Text>
           <Text style={styles.chevron}>›</Text>
         </Pressable>
       </View>
@@ -103,17 +104,17 @@ export default function ProfileScreen() {
       {/* Upgrade */}
       <Pressable style={styles.upgradeButton} onPress={() => nav.navigate('Paywall')}>
         <Text style={styles.upgradeIcon}>⭐</Text>
-        <Text style={styles.upgradeText}>Upgrade to Pro</Text>
+        <Text style={styles.upgradeText}>{t('profile.upgradeToPro')}</Text>
       </Pressable>
 
       {/* Kids mode */}
-      <Text style={styles.sectionHeader}>Parental</Text>
+      <Text style={styles.sectionHeader}>{t('profile.parental')}</Text>
       <View style={styles.section}>
         <View style={styles.menuRow}>
           <Text style={styles.menuIcon}>🧒</Text>
           <View style={styles.menuLabelGroup}>
-            <Text style={[typography.body, styles.menuLabel]}>Kids Mode</Text>
-            <Text style={typography.caption}>Hides mature POI content</Text>
+            <Text style={[typography.body, styles.menuLabel]}>{t('profile.kidsMode')}</Text>
+            <Text style={typography.caption}>{t('profile.kidsModeDesc')}</Text>
           </View>
           <Switch
             value={kidsMode}

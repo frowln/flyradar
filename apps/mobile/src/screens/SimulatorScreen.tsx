@@ -14,6 +14,7 @@ import { typography } from '../theme/typography';
 import { downloadPackage } from '../core/offline/packageDownloader';
 import { useFlightStore } from '../core/flight/flightStore';
 import type { RootStackParamList } from '../navigation/types';
+import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Simulator'>;
 
@@ -39,7 +40,7 @@ export default function SimulatorScreen() {
       confirmTakeoff(new Date());
       nav.navigate('InFlight', { flightId: pkg.flight.id });
     } catch (e: unknown) {
-      setError(e instanceof Error ? e.message : 'Failed to spawn demo flight.');
+      setError(e instanceof Error ? e.message : t('simulator.spawnError'));
     } finally {
       setSpawning(false);
     }
@@ -48,7 +49,7 @@ export default function SimulatorScreen() {
   function jumpToProgress(fraction: number) {
     const { activePackage } = useFlightStore.getState();
     if (!activePackage) {
-      setError('No active flight — spawn a demo flight first.');
+      setError(t('simulator.noActiveFlight'));
       return;
     }
     const lastPoint = activePackage.route[activePackage.route.length - 1];
@@ -62,21 +63,19 @@ export default function SimulatorScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <View style={styles.devBadge}>
-        <Text style={styles.devBadgeText}>DEV TOOL</Text>
+        <Text style={styles.devBadgeText}>{t('simulator.devTool')}</Text>
       </View>
 
-      <Text style={[typography.h2, styles.heading]}>Flight Simulator</Text>
-      <Text style={[typography.body, styles.subtitle]}>
-        Test in-flight experience without a real flight.
-      </Text>
+      <Text style={[typography.h2, styles.heading]}>{t('simulator.title')}</Text>
+      <Text style={[typography.body, styles.subtitle]}>{t('simulator.subtitle')}</Text>
 
       {/* Spawn demo */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Spawn Demo Flight</Text>
+        <Text style={styles.sectionTitle}>{t('simulator.spawnDemo')}</Text>
         <Pressable style={styles.primaryButton} onPress={spawnDemoFlight} disabled={spawning}>
           {spawning
             ? <ActivityIndicator color={colors.text} />
-            : <Text style={styles.primaryButtonText}>🛫  Spawn {DEMO_FLIGHT}</Text>
+            : <Text style={styles.primaryButtonText}>{t('simulator.spawnButton', { flightId: DEMO_FLIGHT })}</Text>
           }
         </Pressable>
         {error && <Text style={styles.error}>{error}</Text>}
@@ -84,10 +83,8 @@ export default function SimulatorScreen() {
 
       {/* Jump to progress */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Jump to Progress</Text>
-        <Text style={[typography.caption, styles.sectionNote]}>
-          Requires an active flight (spawned above).
-        </Text>
+        <Text style={styles.sectionTitle}>{t('simulator.jumpTo')}</Text>
+        <Text style={[typography.caption, styles.sectionNote]}>{t('simulator.jumpNote')}</Text>
         <View style={styles.buttonRow}>
           {([0.25, 0.5, 0.75, 1.0] as const).map((frac) => (
             <Pressable
@@ -96,7 +93,7 @@ export default function SimulatorScreen() {
               onPress={() => frac === 1.0 ? jumpToProgress(0.999) : jumpToProgress(frac)}
             >
               <Text style={styles.jumpButtonText}>
-                {frac === 1.0 ? 'Landed' : `${frac * 100}%`}
+                {frac === 1.0 ? t('simulator.landed') : `${frac * 100}%`}
               </Text>
             </Pressable>
           ))}
@@ -105,10 +102,8 @@ export default function SimulatorScreen() {
 
       {/* Time multiplier */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Time Speed Multiplier</Text>
-        <Text style={[typography.caption, styles.sectionNote]}>
-          Applied to position interpolation in InFlight screen.
-        </Text>
+        <Text style={styles.sectionTitle}>{t('simulator.timeSpeed')}</Text>
+        <Text style={[typography.caption, styles.sectionNote]}>{t('simulator.timeSpeedNote')}</Text>
         <View style={styles.buttonRow}>
           {MULTIPLIERS.map((m) => (
             <Pressable

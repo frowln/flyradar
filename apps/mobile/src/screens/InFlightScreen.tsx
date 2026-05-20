@@ -17,6 +17,7 @@ import type { RootStackParamList } from '../navigation/types';
 import { isPro } from '../core/monetization/revenueCat';
 import { analytics } from '../core/analytics';
 import { collectionsStore } from '../core/gamification/collections';
+import { t } from '../i18n';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
 type Route = RouteProp<RootStackParamList, 'InFlight'>;
@@ -108,9 +109,9 @@ export default function InFlightScreen() {
   if (!activePackage || !takeoffAt || !currentPosition) {
     return (
       <View style={styles.errorContainer}>
-        <Text style={styles.errorText}>No active flight.</Text>
+        <Text style={styles.errorText}>{t('inFlight.noActiveFlight')}</Text>
         <Pressable onPress={() => nav.navigate('Tabs')} style={styles.homeButton}>
-          <Text style={styles.homeButtonText}>Go Home</Text>
+          <Text style={styles.homeButtonText}>{t('inFlight.goHome')}</Text>
         </Pressable>
       </View>
     );
@@ -132,7 +133,7 @@ export default function InFlightScreen() {
       <SafeAreaView style={styles.topHUD} pointerEvents="box-none">
         <View style={styles.topBar}>
           <Pressable onPress={() => nav.navigate('Tabs')} style={styles.topButton}>
-            <Text style={styles.topButtonText}>← Exit</Text>
+            <Text style={styles.topButtonText}>{t('inFlight.exit')}</Text>
           </Pressable>
           <View style={styles.routeChip}>
             <Text style={styles.routeText}>
@@ -146,7 +147,7 @@ export default function InFlightScreen() {
               style={[styles.topButton, mode === 'live' && styles.topButtonActive]}
             >
               <Text style={styles.topButtonText}>
-                {mode === 'live' ? '🔴 LIVE' : 'OFFLINE'}
+                {mode === 'live' ? t('inFlight.mode_live') : t('inFlight.mode_offline')}
               </Text>
             </Pressable>
             <Pressable

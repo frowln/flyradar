@@ -1,6 +1,7 @@
 import { View, Text, Pressable, StyleSheet, Share, Alert } from 'react-native';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
+import { t } from '../i18n';
 
 const REFERRAL_CODE = 'SKY-A7K2-9MQ3';
 
@@ -11,7 +12,7 @@ export default function ReferralScreen() {
         message: `Join me on SkyAtlas — discover the world from above on every flight! Use my code ${REFERRAL_CODE} and we both get a free month of Pro. https://skyatlas.app/invite/${REFERRAL_CODE}`
       });
     } catch {
-      Alert.alert('Could not share', 'Please try again.');
+      Alert.alert(t('referral.shareError'), 'Please try again.');
     }
   }
 
@@ -20,41 +21,39 @@ export default function ReferralScreen() {
       {/* Hero */}
       <View style={styles.hero}>
         <Text style={styles.heroIcon}>🤝</Text>
-        <Text style={[typography.h1, styles.heading]}>Invite friends,{'\n'}both get Pro</Text>
-        <Text style={[typography.body, styles.subtitle]}>
-          When your friend buys their first flight, you both get a free month of SkyAtlas Pro.
-        </Text>
+        <Text style={[typography.h1, styles.heading]}>{t('referral.title')}</Text>
+        <Text style={[typography.body, styles.subtitle]}>{t('referral.subtitle')}</Text>
       </View>
 
       {/* Code */}
       <View style={styles.codeCard}>
-        <Text style={styles.codeLabel}>YOUR REFERRAL CODE</Text>
+        <Text style={styles.codeLabel}>{t('referral.yourCode')}</Text>
         <Text style={styles.code}>{REFERRAL_CODE}</Text>
       </View>
 
       {/* Share button */}
       <Pressable style={styles.shareButton} onPress={handleShare}>
-        <Text style={styles.shareButtonText}>Share Invite Link</Text>
+        <Text style={styles.shareButtonText}>{t('referral.shareButton')}</Text>
       </Pressable>
 
       {/* Stats */}
       <View style={styles.statsRow}>
         <View style={styles.statBlock}>
           <Text style={styles.statValue}>0</Text>
-          <Text style={styles.statLabel}>Friends invited</Text>
+          <Text style={styles.statLabel}>{t('referral.friendsInvited')}</Text>
         </View>
         <View style={styles.statDivider} />
         <View style={styles.statBlock}>
           <Text style={styles.statValue}>0</Text>
-          <Text style={styles.statLabel}>Free months earned</Text>
+          <Text style={styles.statLabel}>{t('referral.freeMonthsEarned')}</Text>
         </View>
       </View>
 
       {/* Explainer steps */}
       <View style={styles.steps}>
-        <Step number="1" text="Share your unique referral link with a friend" />
-        <Step number="2" text="Friend downloads SkyAtlas and adds a flight" />
-        <Step number="3" text="You both get a free month of SkyAtlas Pro 🎉" />
+        <Step number="1" text={t('referral.step1')} />
+        <Step number="2" text={t('referral.step2')} />
+        <Step number="3" text={t('referral.step3')} />
       </View>
     </View>
   );

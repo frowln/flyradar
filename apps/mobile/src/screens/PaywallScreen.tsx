@@ -14,15 +14,16 @@ import { typography } from '../theme/typography';
 import { getOfferings, purchasePackage, restorePurchases } from '../core/monetization/revenueCat';
 import { analytics } from '../core/analytics';
 import { haptics } from '../core/ux/haptics';
+import { t } from '../i18n';
 
 const FEATURES = [
-  { icon: '🗺️', text: 'Unlimited POI discoveries per flight' },
-  { icon: '🏆', text: 'Full achievements & collections' },
-  { icon: '📜', text: 'Complete flight history' },
-  { icon: '🌍', text: 'World map with all your flight tracks' },
-  { icon: '📊', text: 'Detailed lifetime statistics' },
-  { icon: '📷', text: 'High-resolution photos' }
-];
+  { icon: '🗺️', key: 'feature_unlimited_poi' },
+  { icon: '🏆', key: 'feature_achievements' },
+  { icon: '📜', key: 'feature_history' },
+  { icon: '🌍', key: 'feature_world_map' },
+  { icon: '📊', key: 'feature_stats' },
+  { icon: '📷', key: 'feature_photos' }
+] as const;
 
 export default function PaywallScreen() {
   const nav = useNavigation();
@@ -46,12 +47,12 @@ export default function PaywallScreen() {
       const success = await purchasePackage(selectedPkg);
       if (success) {
         haptics.success();
-        Alert.alert('Welcome to SkyAtlas Pro! 🎉', 'Enjoy unlimited discoveries.', [
-          { text: 'Let\'s Go!', onPress: () => nav.goBack() }
+        Alert.alert(t('paywall.welcome'), t('paywall.enjoy'), [
+          { text: t('paywall.letsGo'), onPress: () => nav.goBack() }
         ]);
       }
     } catch (e: any) {
-      Alert.alert('Purchase failed', e?.message ?? 'Please try again.');
+      Alert.alert(t('paywall.purchaseFailed'), e?.message ?? 'Please try again.');
     } finally {
       setPurchasing(false);
     }
@@ -62,8 +63,8 @@ export default function PaywallScreen() {
     try {
       const success = await restorePurchases();
       Alert.alert(
-        success ? 'Restored! ✓' : 'Nothing to restore',
-        success ? 'Your Pro access has been restored.' : 'No previous purchases found.'
+        success ? t('paywall.restored') : t('paywall.nothingToRestore'),
+        success ? t('paywall.restoredDesc') : t('paywall.nothingToRestoreDesc')
       );
       if (success) nav.goBack();
     } catch {
@@ -78,16 +79,16 @@ export default function PaywallScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Text style={styles.heroIcon}>✈️</Text>
-        <Text style={[typography.h1, styles.title]}>SkyAtlas Pro</Text>
-        <Text style={styles.subtitle}>Explore the world without limits</Text>
+        <Text style={[typography.h1, styles.title]}>{t('paywall.title')}</Text>
+        <Text style={styles.subtitle}>{t('paywall.subtitle')}</Text>
       </View>
 
       {/* Features */}
       <View style={styles.featuresCard}>
-        {FEATURES.map((f, i) => (
-          <View key={i} style={styles.featureRow}>
+        {FEATURES.map((f) => (
+          <View key={f.key} style={styles.featureRow}>
             <Text style={styles.featureIcon}>{f.icon}</Text>
-            <Text style={styles.featureText}>{f.text}</Text>
+            <Text style={styles.featureText}>{t(`paywall.${f.key}`)}</Text>
           </View>
         ))}
       </View>
@@ -98,7 +99,7 @@ export default function PaywallScreen() {
       ) : packages.length === 0 ? (
         <View style={styles.noPackages}>
           <Text style={styles.noPackagesText}>
-            Pricing unavailable. Please check your connection.
+            {t('paywall.pricingUnavailable')}
           </Text>
         </View>
       ) : (
@@ -131,17 +132,15 @@ export default function PaywallScreen() {
         {purchasing ? (
           <ActivityIndicator color={colors.text} />
         ) : (
-          <Text style={styles.ctaText}>Get SkyAtlas Pro</Text>
+          <Text style={styles.ctaText}>{t('paywall.getStarted')}</Text>
         )}
       </Pressable>
 
       <Pressable onPress={handleRestore} disabled={purchasing} style={styles.restoreButton}>
-        <Text style={styles.restoreText}>Restore purchases</Text>
+        <Text style={styles.restoreText}>{t('paywall.restore')}</Text>
       </Pressable>
 
-      <Text style={styles.legal}>
-        Payment will be charged to your App Store / Google Play account. Subscription auto-renews unless cancelled.
-      </Text>
+      <Text style={styles.legal}>{t('paywall.legal')}</Text>
     </ScrollView>
   );
 }

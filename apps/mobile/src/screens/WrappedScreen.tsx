@@ -14,6 +14,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import type { RootStackParamList } from '../navigation/types';
 import { collectionsStore } from '../core/gamification/collections';
+import { t } from '../i18n';
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
 const YEAR = new Date().getFullYear();
@@ -21,13 +22,13 @@ const YEAR = new Date().getFullYear();
 type Props = NativeStackScreenProps<RootStackParamList, 'Wrapped'>;
 
 const SLIDE_GRADIENTS: [string, string][] = [
-  ['#0A0E1A', '#1A2560'],   // 0: Hero — deep navy
-  ['#0D2137', '#1B6CA8'],   // 1: Distance — ocean blue
-  ['#1A1A0A', '#4A6A1A'],   // 2: Countries — earth green
-  ['#1A0A2E', '#5C1A8A'],   // 3: Longest flight — deep purple
-  ['#1A0A0A', '#8A2A1A'],   // 4: Most visited airport — crimson
-  ['#0A1A1A', '#1A6A6A'],   // 5: Top discovery — teal
-  ['#1A0E2E', '#3D1A6A'],   // 6: Share — rich indigo
+  ['#0A0E1A', '#1A2560'],
+  ['#0D2137', '#1B6CA8'],
+  ['#1A1A0A', '#4A6A1A'],
+  ['#1A0A2E', '#5C1A8A'],
+  ['#1A0A0A', '#8A2A1A'],
+  ['#0A1A1A', '#1A6A6A'],
+  ['#1A0E2E', '#3D1A6A'],
 ];
 
 export default function WrappedScreen({ navigation }: Props) {
@@ -59,15 +60,17 @@ export default function WrappedScreen({ navigation }: Props) {
   }
 
   async function handleShare() {
-    const message =
-      `My ${YEAR} in the skies ✈️\n` +
-      `${stats.totalFlights} flights • ${distanceLabel} flown\n` +
-      `${stats.countriesFlownOver.length} countries • ${stats.poisDiscovered} discoveries\n` +
-      `Tracked with SkyAtlas`;
+    const message = t('wrapped.shareMessage', {
+      year: YEAR,
+      flights: stats.totalFlights,
+      distance: distanceLabel,
+      countries: stats.countriesFlownOver.length,
+      discoveries: stats.poisDiscovered
+    });
     await Share.share({ message });
   }
 
-  const SLIDES = buildSlides({ stats, distanceLabel, earthLaps, year: YEAR });
+  const SLIDES = buildSlides({ stats, distanceLabel, earthLaps, year: YEAR, handleShare });
 
   return (
     <View style={styles.root}>
@@ -131,23 +134,24 @@ function buildSlides(opts: {
   distanceLabel: string;
   earthLaps: string;
   year: number;
+  handleShare: () => void;
 }): SlideData[] {
-  const { stats, distanceLabel, earthLaps, year } = opts;
+  const { stats, distanceLabel, earthLaps, year, handleShare } = opts;
 
   return [
     // Slide 0: Hero
     {
       content: (
         <View style={styles.slideContent}>
-          <Text style={styles.slideLabel}>SkyAtlas</Text>
+          <Text style={styles.slideLabel}>{t('wrapped.skyatlas')}</Text>
           <Text style={styles.heroYear}>{year}</Text>
-          <Text style={styles.heroTitle}>Your year{'\n'}in the skies</Text>
+          <Text style={styles.heroTitle}>{t('wrapped.yourYear')}</Text>
           <View style={styles.heroNumbers}>
-            <HeroStat value={stats.totalFlights.toString()} label="flights" />
-            <HeroStat value={distanceLabel} label="flown" />
-            <HeroStat value={stats.countriesFlownOver.length.toString()} label="countries" />
+            <HeroStat value={stats.totalFlights.toString()} label={t('wrapped.flights')} />
+            <HeroStat value={distanceLabel} label={t('wrapped.flown')} />
+            <HeroStat value={stats.countriesFlownOver.length.toString()} label={t('wrapped.countries')} />
           </View>
-          <Text style={styles.swipeHint}>Swipe to explore →</Text>
+          <Text style={styles.swipeHint}>{t('wrapped.swipeHint')}</Text>
         </View>
       ),
     },
@@ -157,16 +161,16 @@ function buildSlides(opts: {
       content: (
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>🌍</Text>
-          <Text style={styles.slideSuperTitle}>You flew</Text>
+          <Text style={styles.slideSuperTitle}>{t('wrapped.youFlew')}</Text>
           <Text style={styles.slideBigNumber}>{distanceLabel}</Text>
           <Text style={styles.slideSubtitle}>
-            That's around Earth{'\n'}
+            {t('wrapped.aroundEarth')}{'\n'}
             <Text style={styles.slideAccent}>{earthLaps}×</Text>
           </Text>
           <Text style={styles.slideFootnote}>
             {stats.totalFlights > 0
-              ? `Across ${stats.totalFlights} flights`
-              : 'Start your first flight to track distance'}
+              ? t('wrapped.acrossFlights', { count: stats.totalFlights })
+              : t('wrapped.startFirst')}
           </Text>
         </View>
       ),
@@ -177,11 +181,11 @@ function buildSlides(opts: {
       content: (
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>🗺️</Text>
-          <Text style={styles.slideSuperTitle}>You crossed</Text>
+          <Text style={styles.slideSuperTitle}>{t('wrapped.youCrossed')}</Text>
           <Text style={styles.slideBigNumber}>
             {stats.countriesFlownOver.length}
           </Text>
-          <Text style={styles.slideSubtitle}>countries</Text>
+          <Text style={styles.slideSubtitle}>{t('wrapped.countries')}</Text>
           {stats.countriesFlownOver.length > 0 && (
             <View style={styles.countryPills}>
               {stats.countriesFlownOver.slice(0, 5).map((c) => (
@@ -207,7 +211,7 @@ function buildSlides(opts: {
       content: (
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>⏱️</Text>
-          <Text style={styles.slideSuperTitle}>Longest flight</Text>
+          <Text style={styles.slideSuperTitle}>{t('wrapped.longestFlight')}</Text>
           <Text style={styles.slideBigNumber}>
             {stats.longestFlightHours > 0
               ? `${Math.floor(stats.longestFlightHours)}h ${Math.round((stats.longestFlightHours % 1) * 60)}m`
@@ -231,12 +235,12 @@ function buildSlides(opts: {
       ),
     },
 
-    // Slide 4: Most visited airport (using country count as proxy)
+    // Slide 4: Most visited region
     {
       content: (
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>🛫</Text>
-          <Text style={styles.slideSuperTitle}>Most visited region</Text>
+          <Text style={styles.slideSuperTitle}>{t('wrapped.mostVisitedRegion')}</Text>
           <Text style={styles.slideBigNumber}>
             {stats.countriesFlownOver.length > 0
               ? stats.countriesFlownOver[0]
@@ -267,16 +271,16 @@ function buildSlides(opts: {
       content: (
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>📍</Text>
-          <Text style={styles.slideSuperTitle}>Points of interest</Text>
+          <Text style={styles.slideSuperTitle}>{t('wrapped.pointsOfInterest')}</Text>
           <Text style={styles.slideBigNumber}>
             {stats.poisDiscovered.toLocaleString()}
           </Text>
           <Text style={styles.slideSubtitle}>
             {stats.poisDiscovered === 0
-              ? 'discoveries await you'
+              ? t('wrapped.awaitYou')
               : stats.poisDiscovered === 1
-              ? 'fascinating discovery'
-              : 'fascinating discoveries'}
+              ? t('wrapped.oneDiscovery')
+              : t('wrapped.discoveries')}
           </Text>
           <Text style={styles.slideFootnote}>
             {stats.poisDiscovered > 50
@@ -297,22 +301,15 @@ function buildSlides(opts: {
         <View style={styles.slideContent}>
           <Text style={styles.slideEmoji}>✈️</Text>
           <Text style={styles.heroYear}>{year}</Text>
-          <Text style={styles.shareTitle}>Your year,{'\n'}summarized</Text>
+          <Text style={styles.shareTitle}>{t('wrapped.yourSummarized')}</Text>
           <View style={styles.shareSummaryBox}>
-            <ShareRow icon="🛫" label="Flights" value={stats.totalFlights.toString()} />
-            <ShareRow icon="📏" label="Distance" value={distanceLabel} />
-            <ShareRow icon="🌍" label="Countries" value={stats.countriesFlownOver.length.toString()} />
-            <ShareRow icon="📍" label="Discoveries" value={stats.poisDiscovered.toString()} />
-            <ShareRow icon="⏱️" label="Longest flight" value={stats.longestFlightHours > 0 ? `${stats.longestFlightHours.toFixed(1)}h` : '—'} />
+            <ShareRow icon="🛫" label={t('wrapped.flights')} value={stats.totalFlights.toString()} />
+            <ShareRow icon="📏" label={t('wrapped.distance')} value={distanceLabel} />
+            <ShareRow icon="🌍" label={t('wrapped.countries')} value={stats.countriesFlownOver.length.toString()} />
+            <ShareRow icon="📍" label={t('wrapped.pointsOfInterest')} value={stats.poisDiscovered.toString()} />
+            <ShareRow icon="⏱️" label={t('wrapped.longestFlight')} value={stats.longestFlightHours > 0 ? `${stats.longestFlightHours.toFixed(1)}h` : '—'} />
           </View>
-          <ShareButton onPress={async () => {
-            const message =
-              `My ${year} in the skies ✈️\n` +
-              `${stats.totalFlights} flights • ${distanceLabel} flown\n` +
-              `${stats.countriesFlownOver.length} countries • ${stats.poisDiscovered} discoveries\n` +
-              `Tracked with SkyAtlas`;
-            await Share.share({ message });
-          }} />
+          <ShareButton onPress={handleShare} />
         </View>
       ),
     },
@@ -341,7 +338,7 @@ function ShareRow({ icon, label, value }: { icon: string; label: string; value: 
 function ShareButton({ onPress }: { onPress: () => void }) {
   return (
     <Pressable style={styles.shareButton} onPress={onPress}>
-      <Text style={styles.shareButtonText}>Share my year</Text>
+      <Text style={styles.shareButtonText}>{t('wrapped.shareMyYear')}</Text>
     </Pressable>
   );
 }
@@ -352,7 +349,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#0A0E1A',
   },
 
-  // Dots
   dotsRow: {
     position: 'absolute',
     top: 56,
@@ -373,7 +369,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
   },
 
-  // Close
   closeBtn: {
     position: 'absolute',
     top: 48,
@@ -392,7 +387,6 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
 
-  // Slide
   slide: {
     width: SCREEN_WIDTH,
     height: SCREEN_HEIGHT,
@@ -406,7 +400,6 @@ const styles = StyleSheet.create({
     gap: 12,
   },
 
-  // Tap zones
   tapZones: {
     ...StyleSheet.absoluteFillObject,
     flexDirection: 'row',
@@ -418,7 +411,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 
-  // Hero slide
   slideLabel: {
     color: 'rgba(255,255,255,0.5)',
     fontSize: 13,
@@ -468,7 +460,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 
-  // Generic slide elements
   slideEmoji: {
     fontSize: 52,
     marginBottom: 8,
@@ -501,7 +492,6 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
 
-  // Country pills
   countryPills: {
     flexDirection: 'row',
     flexWrap: 'wrap',
@@ -520,7 +510,6 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
 
-  // Share slide
   shareTitle: {
     color: '#FFFFFF',
     fontSize: 38,

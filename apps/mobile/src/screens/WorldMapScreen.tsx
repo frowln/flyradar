@@ -6,6 +6,7 @@ import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
 import EmptyState from '../components/EmptyState';
 import { collectionsStore } from '../core/gamification/collections';
 import type { OfflinePackage } from '@skyatlas/shared';
+import { t } from '../i18n';
 
 const ROUTE_COLORS = [
   'rgba(61, 139, 253, 0.6)',
@@ -54,11 +55,11 @@ export default function WorldMapScreen() {
     <View style={styles.container}>
       {/* Stats bar */}
       <View style={styles.statsBar}>
-        <StatChip label="Flights" value={String(flights.length)} />
+        <StatChip label={t('worldMap.flights')} value={String(flights.length)} />
         <View style={styles.statDivider} />
-        <StatChip label="km flown" value={totalKm.toLocaleString()} />
+        <StatChip label={t('worldMap.km')} value={totalKm.toLocaleString()} />
         <View style={styles.statDivider} />
-        <StatChip label="Countries" value={String(countries)} />
+        <StatChip label={t('worldMap.countries')} value={String(countries)} />
       </View>
 
       {loading ? (
@@ -68,8 +69,8 @@ export default function WorldMapScreen() {
       ) : flights.length === 0 ? (
         <EmptyState
           icon="🗺️"
-          title="Your map awaits"
-          description="Track your first flight to start building your personal world map."
+          title={t('worldMap.emptyTitle')}
+          description={t('worldMap.emptyDesc')}
         />
       ) : (
         <MapView
