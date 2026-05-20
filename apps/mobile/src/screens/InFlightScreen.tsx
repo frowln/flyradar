@@ -7,6 +7,7 @@ import { colors } from '../theme/colors';
 import FlightMap from '../components/FlightMap';
 import FlightStats from '../components/FlightStats';
 import POICard from '../components/POICard';
+import QuizCard from '../components/QuizCard';
 import { useFlightStore } from '../core/flight/flightStore';
 import { computePosition } from '../core/flight/positionEngine';
 import { tryFetchLivePosition } from '../core/flight/liveTracker';
@@ -18,6 +19,8 @@ import { isPro } from '../core/monetization/revenueCat';
 import { analytics } from '../core/analytics';
 import { collectionsStore } from '../core/gamification/collections';
 import { t } from '../i18n';
+import { getRandomQuiz } from '../core/quizzes/quizzes';
+import type { Quiz } from '../core/quizzes/quizzes';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
 type Route = RouteProp<RootStackParamList, 'InFlight'>;
@@ -34,8 +37,10 @@ export default function InFlightScreen() {
   const [activePOI, setActivePOI] = useState<ScheduledPOI | null>(null);
   const [kidsModeOn] = useState(() => collectionsStore.isKidsMode());
   const [showTutorial, setShowTutorial] = useState(() => !collectionsStore.hasSeenInflightTutorial());
+  const [activeQuiz, setActiveQuiz] = useState<Quiz | null>(null);
   const activePOIRef = useRef<ScheduledPOI | null>(null);
   const tickRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const dismissCountRef = useRef(0);
 
   useEffect(() => {
     if (!activePackage || !takeoffAt) return;
@@ -62,7 +67,10 @@ export default function InFlightScreen() {
       // Check for nearby POIs
       const seenIds = new Set(useFlightStore.getState().seenPOIs.map((s) => s.poiId));
       const next = await getNextPOI(flightId, pos, seenIds);
-      if (next && activePOIRef.current?.poi.id !== next.poi.id) {
+      const shouldReplace = !activePOIRef.current
+        || (next && next.distanceKm < (activePOIRef.current.distanceKm - 10))
+        || (next && next.poi.id !== activePOIRef.current.poi.id && next.distanceKm < 100);
+      if (next && shouldReplace) {
         activePOIRef.current = next;
         setActivePOI(next);
       }
@@ -81,9 +89,18 @@ export default function InFlightScreen() {
 
   const handleDismissPOI = async () => {
     if (activePOI) {
+      const dismissedCategory = activePOI.poi.category;
       useFlightStore.getState().markPOISeen(activePOI.poi.id);
       activePOIRef.current = null;
       setActivePOI(null);
+      dismissCountRef.current++;
+
+      // Every 3rd dismiss, show a quiz
+      if (dismissCountRef.current % 3 === 0) {
+        setActiveQuiz(getRandomQuiz(dismissedCategory));
+        return;
+      }
+
       // Free tier: max 5 POIs per flight
       const { seenPOIs: updatedSeen } = useFlightStore.getState();
       if (updatedSeen.length >= 5) {
@@ -162,6 +179,7 @@ export default function InFlightScreen() {
               <Text style={styles.topButtonText}>
                 {mode === 'live' ? t('inFlight.mode_live') : t('inFlight.mode_offline')}
               </Text>
+              <Text style={styles.topButtonCaption}>Mode</Text>
             </Pressable>
             <Pressable
               onPress={() => setFollowPlane((f) => !f)}
@@ -170,6 +188,7 @@ export default function InFlightScreen() {
               accessibilityRole="button"
             >
               <Text style={styles.topButtonText}>{followPlane ? '📍' : '🗺'}</Text>
+              <Text style={styles.topButtonCaption}>{followPlane ? 'Follow' : 'Free'}</Text>
             </Pressable>
           </View>
         </View>
@@ -184,6 +203,11 @@ export default function InFlightScreen() {
           onDismiss={handleDismissPOI}
           kidsMode={kidsModeOn}
         />
+      )}
+
+      {/* Quiz card — shown every 3rd POI dismiss */}
+      {activeQuiz && (
+        <QuizCard quiz={activeQuiz} onClose={() => setActiveQuiz(null)} />
       )}
 
       {/* Bottom stats bar */}
@@ -264,6 +288,7 @@ const styles = StyleSheet.create({
     borderColor: colors.primary
   },
   topButtonText: { color: colors.text, fontSize: 14, fontWeight: '600' },
+  topButtonCaption: { color: colors.textMuted, fontSize: 9, fontWeight: '500', textAlign: 'center', marginTop: 2 },
   routeChip: {
     backgroundColor: 'rgba(10, 14, 26, 0.85)',
     paddingHorizontal: 16,

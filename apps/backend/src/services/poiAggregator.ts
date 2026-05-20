@@ -97,7 +97,8 @@ export function generateDemoPOIs(route: RoutePoint[], radiusKm = 600): POI[] {
 
 export async function aggregatePOIsForRoute(
   route: RoutePoint[],
-  radiusKm = 200
+  radiusKm = 200,
+  locale = 'en'
 ): Promise<POI[]> {
   if (!process.env['GEONAMES_USER']) {
     return [];  // demo fallback handled below
@@ -126,8 +127,16 @@ export async function aggregatePOIsForRoute(
   // Limit to top 30 candidates to bound Wikipedia load
   const top = candidates.slice(0, 30);
 
-  // Parallel Wikipedia fetches
-  const wikis = await Promise.all(top.map((c) => fetchWikiSummary(c.entry.name)));
+  // Parallel Wikipedia fetches — try locale first, fall back to English
+  const wikis = await Promise.all(
+    top.map(async (c) => {
+      if (locale !== 'en') {
+        const localized = await fetchWikiSummary(c.entry.name, locale);
+        if (localized?.extract) return localized;
+      }
+      return fetchWikiSummary(c.entry.name, 'en');
+    })
+  );
 
   const pois: POI[] = [];
   for (let i = 0; i < top.length; i++) {
