@@ -12,12 +12,14 @@ import {
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { createMMKV } from 'react-native-mmkv';
-import { Plane, Compass, Trophy, type LucideIcon } from 'lucide-react-native';
 import { colors } from '../theme/colors';
 import { fonts } from '../theme/typography';
 import type { RootStackParamList } from '../navigation/types';
 import { t } from '../i18n';
 import AtmosphericBackground from '../components/AtmosphericBackground';
+import PlaneIllustration from '../components/illustrations/PlaneIllustration';
+import CompassIllustration from '../components/illustrations/CompassIllustration';
+import TrophyIllustration from '../components/illustrations/TrophyIllustration';
 
 const storage = createMMKV({ id: 'skyatlas-onboarding' });
 export const ONBOARDING_KEY = 'onboarding_complete';
@@ -36,10 +38,11 @@ const { width: W } = Dimensions.get('window');
 
 type AtmosphericVariant = 'sky' | 'sunset' | 'aurora';
 
+type IllustrationComponent = React.ComponentType<{ size?: number }>;
+
 type Slide = {
   key: string;
-  Icon: LucideIcon;
-  iconColor: string;
+  Illustration: IllustrationComponent;
   titleKey: string;
   bodyKey: string;
   variant: AtmosphericVariant;
@@ -48,24 +51,21 @@ type Slide = {
 const SLIDES: Slide[] = [
   {
     key: '1',
-    Icon: Plane,
-    iconColor: colors.primary,
+    Illustration: PlaneIllustration,
     titleKey: 'onboarding.slide1_title',
     bodyKey: 'onboarding.slide1_body',
     variant: 'sky'
   },
   {
     key: '2',
-    Icon: Compass,
-    iconColor: colors.accent,
+    Illustration: CompassIllustration,
     titleKey: 'onboarding.slide2_title',
     bodyKey: 'onboarding.slide2_body',
     variant: 'sunset'
   },
   {
     key: '3',
-    Icon: Trophy,
-    iconColor: '#FFB547',
+    Illustration: TrophyIllustration,
     titleKey: 'onboarding.slide3_title',
     bodyKey: 'onboarding.slide3_body',
     variant: 'aurora'
@@ -161,10 +161,7 @@ function AnimatedSlide({ item, isActive }: AnimatedSlideProps) {
           }
         ]}
       >
-        <View style={[styles.iconGlow3, { backgroundColor: item.iconColor + '08' }]} />
-        <View style={[styles.iconGlow2, { backgroundColor: item.iconColor + '14' }]} />
-        <View style={[styles.iconGlow1, { backgroundColor: item.iconColor + '22' }]} />
-        <item.Icon size={140} color={item.iconColor} strokeWidth={1.5} />
+        <item.Illustration size={200} />
       </Animated.View>
       {/* Slide title in 42px Fraunces display serif */}
       <Animated.Text

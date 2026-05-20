@@ -46,7 +46,10 @@ export const ja = {
     date: '日付',
     scan: '📷 搭乗券をスキャン',
     download: 'ダウンロードして追加',
-    hint: '搭乗前にフライトを追加して、オフラインコンテンツをダウンロードしてください。'
+    hint: '搭乗前にフライトを追加して、オフラインコンテンツをダウンロードしてください。',
+    importWallet: '📲 Apple Walletからインポート',
+    walletImported: 'Walletからインポートしました',
+    walletParseError: 'パスファイルを読み込めませんでした'
   },
   flightDetail: {
     startFlight: '✈ フライトを開始',
@@ -215,8 +218,8 @@ export const ja = {
     flights: 'フライト',
     km: 'km飛行',
     countries: '国',
-    emptyTitle: 'マップが待っています',
-    emptyDesc: '最初のフライトを追跡して、あなただけの世界地図を作り始めましょう。'
+    emptyTitle: 'アトラスが待っています',
+    emptyDesc: '最初のフライトを追跡して、あなただけの世界アトラスを作り始めましょう。'
   },
   simulator: {
     title: 'フライトシミュレーター',

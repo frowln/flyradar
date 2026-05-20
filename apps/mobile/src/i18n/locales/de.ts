@@ -45,7 +45,10 @@ export const de = {
     date: 'Datum',
     scan: '📷 Bordkarte scannen',
     download: 'Herunterladen & Flug hinzufügen',
-    hint: 'Füge den Flug vor dem Boarding hinzu, um Inhalte offline zu laden.'
+    hint: 'Füge den Flug vor dem Boarding hinzu, um Inhalte offline zu laden.',
+    importWallet: '📲 Aus Apple Wallet importieren',
+    walletImported: 'Aus Wallet importiert',
+    walletParseError: 'Pass-Datei konnte nicht gelesen werden'
   },
   flightDetail: {
     startFlight: '✈ Flug starten',

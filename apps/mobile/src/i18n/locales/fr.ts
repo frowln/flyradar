@@ -46,7 +46,10 @@ export const fr = {
     date: 'Date',
     scan: '📷 Scanner la carte d\'embarquement',
     download: 'Télécharger & ajouter le vol',
-    hint: 'Ajoutez votre vol avant l\'embarquement pour télécharger le contenu hors ligne.'
+    hint: 'Ajoutez votre vol avant l\'embarquement pour télécharger le contenu hors ligne.',
+    importWallet: '📲 Importer depuis Apple Wallet',
+    walletImported: 'Importé depuis Wallet',
+    walletParseError: 'Impossible de lire le fichier du pass'
   },
   flightDetail: {
     startFlight: '✈ Démarrer le vol',

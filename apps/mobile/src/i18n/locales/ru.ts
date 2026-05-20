@@ -57,7 +57,10 @@ export const ru = {
     scan: '📷 Сканировать посадочный',
     download: 'Загрузить и добавить рейс',
     hint: 'Добавьте рейс до посадки, чтобы скачать контент офлайн.',
-    quickAdd: 'Быстрое добавление'
+    quickAdd: 'Быстрое добавление',
+    importWallet: '📲 Импорт из Apple Wallet',
+    walletImported: 'Импортировано из Wallet',
+    walletParseError: 'Не удалось прочитать файл пропуска'
   },
   flightDetail: {
     startFlight: '✈ Начать полёт',

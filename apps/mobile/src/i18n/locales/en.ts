@@ -56,7 +56,10 @@ export const en = {
     scan: '📷 Scan Boarding Pass',
     download: 'Download & Add Flight',
     hint: 'Add your flight before boarding to download offline content.',
-    quickAdd: 'Quick Add'
+    quickAdd: 'Quick Add',
+    importWallet: '📲 Import from Apple Wallet',
+    walletImported: 'Imported from Wallet',
+    walletParseError: 'Could not parse pass file'
   },
   flightDetail: {
     startFlight: '✈ Start Flight',

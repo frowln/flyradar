@@ -46,7 +46,10 @@ export const es = {
     date: 'Fecha',
     scan: '📷 Escanear tarjeta de embarque',
     download: 'Descargar y añadir vuelo',
-    hint: 'Añade tu vuelo antes de embarcar para descargar contenido sin conexión.'
+    hint: 'Añade tu vuelo antes de embarcar para descargar contenido sin conexión.',
+    importWallet: '📲 Importar desde Apple Wallet',
+    walletImported: 'Importado desde Wallet',
+    walletParseError: 'No se pudo leer el archivo del pase'
   },
   flightDetail: {
     startFlight: '✈ Iniciar vuelo',

@@ -22,6 +22,7 @@ import type { BoardingPassData } from '../components/BoardingPassScanner';
 import type { RootStackParamList } from '../navigation/types';
 import { haptics } from '../core/ux/haptics';
 import { useToast } from '../components/Toast';
+import { parsePkpassFile } from '../core/wallet/pkpassParser';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'AddFlight'>;
 
@@ -45,6 +46,31 @@ export default function AddFlightScreen() {
     setFlightNumber(data.flightNumber);
     setDate(data.date);
     setShowScanner(false);
+  };
+
+  const handleImportWallet = async () => {
+    try {
+      // expo-document-picker — install with: npx expo install expo-document-picker
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const DocumentPicker = require('expo-document-picker');
+      const result = await DocumentPicker.getDocumentAsync({
+        type: ['application/vnd.apple.pkpass', '*/*']
+      });
+      if (result.canceled) return;
+      const parsed = await parsePkpassFile(result.assets[0].uri);
+      if (parsed) {
+        haptics.success();
+        setFlightNumber(parsed.flightNumber);
+        setDate(parsed.date);
+        toast.show(t('addFlight.walletImported'), 'success');
+      } else {
+        haptics.error();
+        toast.show(t('addFlight.walletParseError'), 'error');
+      }
+    } catch {
+      haptics.error();
+      toast.show(t('addFlight.walletParseError'), 'error');
+    }
   };
 
   const handleSubmit = async () => {
@@ -123,6 +149,16 @@ export default function AddFlightScreen() {
             </Pressable>
           ))}
         </ScrollView>
+
+        <Pressable
+          style={[styles.walletButton]}
+          onPress={handleImportWallet}
+          disabled={loading}
+          accessibilityLabel="Import from Apple Wallet"
+          accessibilityRole="button"
+        >
+          <Text style={styles.walletButtonText}>{t('addFlight.importWallet')}</Text>
+        </Pressable>
 
         <Pressable
           style={[styles.scanButton]}
@@ -211,6 +247,20 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontSize: 16,
     fontWeight: '700'
+  },
+  walletButton: {
+    backgroundColor: colors.surfaceTinted,
+    padding: 14,
+    borderRadius: 12,
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: colors.primary,
+    marginTop: 8
+  },
+  walletButtonText: {
+    color: colors.primary,
+    fontSize: 15,
+    fontWeight: '600'
   },
   scanButton: {
     backgroundColor: colors.surface,
