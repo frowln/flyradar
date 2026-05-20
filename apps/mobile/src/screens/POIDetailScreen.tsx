@@ -24,6 +24,7 @@ import type { POI } from '@skyatlas/shared';
 import { t } from '../i18n';
 import { collectionsStore } from '../core/gamification/collections';
 import { recordPOIView } from '../core/ai/personalization';
+import { fetchUnsplashPhoto } from '../core/api/unsplash';
 
 function getNarratorOptions(): Speech.SpeechOptions {
   switch (collectionsStore.getNarrator()) {
@@ -66,6 +67,7 @@ export default function POIDetailScreen() {
   const [poi, setPoi] = useState<POI | null>(null);
   const [loading, setLoading] = useState(true);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [unsplashPhoto, setUnsplashPhoto] = useState<string | null>(null);
   const pulseAnim = useRef(new Animated.Value(1)).current;
   const pulseLoop = useRef<Animated.CompositeAnimation | null>(null);
   const waveAnim = useRef(new Animated.Value(1)).current;
@@ -77,6 +79,12 @@ export default function POIDetailScreen() {
         setPoi(found ?? null);
         if (found) {
           recordPOIView(found.category);
+          // Fetch Unsplash fallback if no photos
+          if (!found.photos || found.photos.length === 0) {
+            fetchUnsplashPhoto(found.name).then((url) => {
+              if (url) setUnsplashPhoto(url);
+            });
+          }
         }
       }
     }).finally(() => setLoading(false));
@@ -163,7 +171,7 @@ export default function POIDetailScreen() {
 
   const icon = CATEGORY_ICONS[poi.category] ?? '📍';
   const label = CATEGORY_LABELS[poi.category] ?? poi.category;
-  const photo = poi.photos?.[0];
+  const photo = poi.photos?.[0] ?? unsplashPhoto;
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>

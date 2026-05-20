@@ -13,11 +13,15 @@ import AchievementToast from './src/components/AchievementToast';
 import ErrorBoundary from './src/components/ErrorBoundary';
 import { initNotifications } from './src/core/ux/notifications';
 import { collectionsStore } from './src/core/gamification/collections';
+import { initSentry, SentryWrapper } from './src/core/observability/sentry';
+import { initAnalytics } from './src/core/analytics';
 
 SplashScreen.preventAutoHideAsync();
 collectionsStore.markInstalled();
+initSentry();
+initAnalytics();
 
-export default function App() {
+function App() {
   const [fontsLoaded] = useFonts({
     Fraunces_400Regular,
     Fraunces_700Bold,
@@ -54,3 +58,5 @@ export default function App() {
     </ErrorBoundary>
   );
 }
+
+export default SentryWrapper(App);

@@ -125,6 +125,18 @@ export default function PaywallScreen() {
         </View>
       )}
 
+      {/* 7-day free trial hint */}
+      {selectedPkg?.product?.introPrice != null && (
+        <View style={styles.trialBanner}>
+          <Text style={styles.trialText}>🎉 7-day free trial included</Text>
+        </View>
+      )}
+      {selectedPkg?.product?.introPrice == null && !loading && packages.length > 0 && (
+        <View style={styles.trialBanner}>
+          <Text style={styles.trialText}>✨ Try free for 7 days — cancel anytime</Text>
+        </View>
+      )}
+
       {/* CTA */}
       <Pressable
         style={[styles.ctaButton, (purchasing || !selectedPkg) && styles.ctaDisabled]}
@@ -196,5 +208,16 @@ const styles = StyleSheet.create({
   restoreButton: { alignItems: 'center', padding: 8 },
   restoreText: { color: colors.textMuted, fontSize: 14 },
 
-  legal: { color: colors.textMuted, fontSize: 11, textAlign: 'center', lineHeight: 16 }
+  legal: { color: colors.textMuted, fontSize: 11, textAlign: 'center', lineHeight: 16 },
+
+  trialBanner: {
+    backgroundColor: `${colors.primary}18`,
+    borderWidth: 1,
+    borderColor: `${colors.primary}40`,
+    borderRadius: 12,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    alignItems: 'center'
+  },
+  trialText: { color: colors.primary, fontSize: 14, fontWeight: '600' }
 });

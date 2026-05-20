@@ -29,6 +29,8 @@ function todayString(): string {
   return new Date().toISOString().slice(0, 10);
 }
 
+const QUICK_ADD_SUGGESTIONS = ['BA249', 'SU100', 'LH400', 'EK201', 'QR007', 'TK1'];
+
 export default function AddFlightScreen() {
   const nav = useNavigation<Nav>();
   const [flightNumber, setFlightNumber] = useState('');
@@ -99,6 +101,28 @@ export default function AddFlightScreen() {
         />
 
         <Text style={styles.hint}>{t('addFlight.hint')}</Text>
+
+        {/* Quick add suggestions */}
+        <Text style={styles.label}>Quick Add</Text>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          style={styles.suggestionsScroll}
+          contentContainerStyle={styles.suggestionsContent}
+        >
+          {QUICK_ADD_SUGGESTIONS.map((fn) => (
+            <Pressable
+              key={fn}
+              style={styles.suggestionChip}
+              onPress={() => setFlightNumber(fn)}
+              disabled={loading}
+              accessibilityLabel={`Quick add flight ${fn}`}
+              accessibilityRole="button"
+            >
+              <Text style={styles.suggestionText}>{fn}</Text>
+            </Pressable>
+          ))}
+        </ScrollView>
 
         <Pressable
           style={[styles.scanButton]}
@@ -201,5 +225,28 @@ const styles = StyleSheet.create({
     color: colors.primary,
     fontSize: 15,
     fontWeight: '600'
+  },
+  suggestionsScroll: {
+    marginTop: 6,
+    marginHorizontal: -20
+  },
+  suggestionsContent: {
+    paddingHorizontal: 20,
+    gap: 8,
+    flexDirection: 'row'
+  },
+  suggestionChip: {
+    backgroundColor: colors.surface,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: colors.border
+  },
+  suggestionText: {
+    color: colors.primary,
+    fontSize: 13,
+    fontWeight: '600',
+    letterSpacing: 0.5
   }
 });

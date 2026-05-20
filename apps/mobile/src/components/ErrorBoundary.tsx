@@ -1,6 +1,7 @@
 import React, { type ErrorInfo, type ReactNode } from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { colors } from '../theme/colors';
+import { captureError } from '../core/observability/sentry';
 
 interface Props { children: ReactNode }
 interface State { error: Error | null }
@@ -14,7 +15,7 @@ export default class ErrorBoundary extends React.Component<Props, State> {
 
   componentDidCatch(error: Error, info: ErrorInfo) {
     console.error('App crashed:', error, info);
-    // TODO: wire to Sentry/crash reporting
+    captureError(error, { componentStack: info.componentStack });
   }
 
   reset = () => this.setState({ error: null });

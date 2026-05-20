@@ -1,3 +1,17 @@
+import PostHog from 'posthog-react-native';
+
+const POSTHOG_KEY = process.env['EXPO_PUBLIC_POSTHOG_KEY'];
+
+let client: PostHog | null = null;
+
+export function initAnalytics() {
+  if (!POSTHOG_KEY) {
+    if (__DEV__) console.log('[Analytics] PostHog key not set — using dev logger');
+    return;
+  }
+  client = new PostHog(POSTHOG_KEY, { host: 'https://app.posthog.com' });
+}
+
 type EventName =
   | 'flight_added'
   | 'package_downloaded'
@@ -7,26 +21,18 @@ type EventName =
   | 'achievement_unlocked'
   | 'paywall_shown'
   | 'purchase_made'
-  | 'flight_completed';
-
-interface EventProperties {
-  [key: string]: string | number | boolean | undefined;
-}
-
-const isDev = __DEV__;
+  | 'flight_completed'
+  | 'theme_changed'
+  | 'language_changed';
 
 export const analytics = {
-  track(event: EventName, properties?: EventProperties): void {
-    if (isDev) {
-      console.log(`[Analytics] ${event}`, properties ?? {});
-    }
-    // TODO: Wire up PostHog when EXPO_PUBLIC_POSTHOG_KEY is set
-    // Posthog.capture(event, properties);
+  track(event: EventName, properties?: Record<string, any>): void {
+    if (__DEV__) console.log(`[Analytics] ${event}`, properties ?? {});
+    client?.capture(event, properties);
   },
 
   identify(userId: string): void {
-    if (isDev) {
-      console.log(`[Analytics] identify`, { userId });
-    }
+    if (__DEV__) console.log(`[Analytics] identify`, { userId });
+    client?.identify(userId);
   }
 };

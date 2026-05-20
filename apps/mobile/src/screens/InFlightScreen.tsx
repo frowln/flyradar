@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { View, Text, Pressable, StyleSheet, SafeAreaView, Modal } from 'react-native';
+import { View, Text, Pressable, StyleSheet, SafeAreaView, Modal, Animated } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
@@ -42,6 +42,7 @@ export default function InFlightScreen() {
   const activePOIRef = useRef<ScheduledPOI | null>(null);
   const tickRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const dismissCountRef = useRef(0);
+  const planeScale = useRef(new Animated.Value(1)).current;
 
   useEffect(() => {
     if (!activePackage || !takeoffAt) return;
@@ -80,7 +81,20 @@ export default function InFlightScreen() {
     analytics.track('flight_started', { flightId });
     tick(); // immediate first tick
     tickRef.current = setInterval(tick, TICK_MS);
-    return () => { if (tickRef.current) clearInterval(tickRef.current); };
+
+    // Subtle pulse on plane marker
+    const pulseLoop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(planeScale, { toValue: 1.15, duration: 900, useNativeDriver: true }),
+        Animated.timing(planeScale, { toValue: 1, duration: 900, useNativeDriver: true })
+      ])
+    );
+    pulseLoop.start();
+
+    return () => {
+      if (tickRef.current) clearInterval(tickRef.current);
+      pulseLoop.stop();
+    };
   }, [activePackage, takeoffAt]);
 
   const handleDismissTutorial = () => {
@@ -194,6 +208,16 @@ export default function InFlightScreen() {
           </View>
         </View>
       </SafeAreaView>
+
+      {/* Pulsing plane marker overlay */}
+      {currentPosition && (
+        <Animated.View
+          style={[styles.planeMarker, { transform: [{ scale: planeScale }] }]}
+          pointerEvents="none"
+        >
+          <Text style={styles.planeEmoji}>✈️</Text>
+        </Animated.View>
+      )}
 
       {/* POI proximity card */}
       {activePOI && (
@@ -357,5 +381,19 @@ const styles = StyleSheet.create({
     fontFamily: fonts.bodyBold,
     color: colors.text,
     fontSize: 16
-  }
+  },
+
+  planeMarker: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    marginTop: -16,
+    marginLeft: -16,
+    width: 32,
+    height: 32,
+    justifyContent: 'center',
+    alignItems: 'center',
+    pointerEvents: 'none'
+  },
+  planeEmoji: { fontSize: 24 }
 });

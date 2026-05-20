@@ -5,7 +5,8 @@ import {
   ScrollView,
   Pressable,
   StyleSheet,
-  Alert
+  Alert,
+  Linking
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -156,6 +157,30 @@ export default function SettingsScreen() {
             SkyAtlas — Discover the world from above
           </Text>
         </View>
+      </View>
+
+      {/* Legal */}
+      <Text style={styles.sectionHeader}>{t('settings.legal') ?? 'Legal'}</Text>
+      <View style={styles.section}>
+        <Pressable
+          style={styles.row}
+          onPress={() => Linking.openURL('https://skyatlas.app/privacy')}
+          accessibilityLabel="Open Privacy Policy"
+          accessibilityRole="link"
+        >
+          <Text style={[typography.body, styles.rowLabel]}>Privacy Policy</Text>
+          <Text style={styles.rowValue}>↗</Text>
+        </Pressable>
+        <View style={styles.divider} />
+        <Pressable
+          style={styles.row}
+          onPress={() => Linking.openURL('https://skyatlas.app/terms')}
+          accessibilityLabel="Open Terms of Service"
+          accessibilityRole="link"
+        >
+          <Text style={[typography.body, styles.rowLabel]}>Terms of Service</Text>
+          <Text style={styles.rowValue}>↗</Text>
+        </Pressable>
       </View>
 
       {/* Dev Tools */}
