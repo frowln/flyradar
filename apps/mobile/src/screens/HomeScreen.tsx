@@ -18,6 +18,8 @@ import { t } from '../i18n';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
+import { groupIntoTrips } from '../core/trip/trips';
+import type { Trip } from '../core/trip/trips';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
 
@@ -222,6 +224,66 @@ function FlightTimelineRow({
   );
 }
 
+// Trip group header + indented legs for multi-leg trips
+function TripGroupRow({
+  trip,
+  onPressFlight
+}: {
+  trip: Trip;
+  onPressFlight: (flightId: string) => void;
+}) {
+  const isMultiLeg = trip.flights.length > 1;
+
+  return (
+    <View style={tripStyles.tripGroup}>
+      {isMultiLeg && (
+        <View style={tripStyles.tripHeader}>
+          <View style={tripStyles.tripAccent} />
+          <Text style={tripStyles.tripName}>{trip.name}</Text>
+          <Text style={tripStyles.tripLegs}>{trip.flights.length} legs</Text>
+        </View>
+      )}
+      {trip.flights.map((pkg) => (
+        <FlightTimelineRow
+          key={pkg.flight.id}
+          item={{ flightId: pkg.flight.id, downloadedAt: 0, pkg }}
+          onPress={() => onPressFlight(pkg.flight.id)}
+        />
+      ))}
+    </View>
+  );
+}
+
+const tripStyles = StyleSheet.create({
+  tripGroup: { marginBottom: 8 },
+  tripHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginBottom: 4,
+    paddingLeft: 2
+  },
+  tripAccent: {
+    width: 3,
+    height: 16,
+    borderRadius: 2,
+    backgroundColor: colors.primary,
+    opacity: 0.6
+  },
+  tripName: {
+    fontFamily: fonts.bodySemi,
+    color: colors.textMuted,
+    fontSize: 11,
+    letterSpacing: 0.5,
+    flex: 1
+  },
+  tripLegs: {
+    fontFamily: fonts.mono,
+    color: colors.textDim,
+    fontSize: 10
+  }
+});
+
 export default function HomeScreen() {
   const nav = useNavigation<Nav>();
   const [flights, setFlights] = useState<FlightRow[]>([]);
@@ -287,6 +349,7 @@ export default function HomeScreen() {
       )
     : [];
   const pastFlights = flights.filter((f) => !isUpcoming(f.pkg.flight.scheduledDeparture));
+  const pastTrips = groupIntoTrips(pastFlights.map((f) => f.pkg));
 
   // Empty state — cinematic
   if (flights.length === 0) {
@@ -294,7 +357,7 @@ export default function HomeScreen() {
       <View style={styles.container}>
         <View style={styles.emptyState}>
           <Text style={styles.emptyGlyph}>✦</Text>
-          <Text style={styles.emptyHeadline}>Where will you go?</Text>
+          <Text style={styles.emptyHeadline}>{t('home.whereWillYouGo')}</Text>
           <Text style={styles.emptyBody}>
             Add a flight before you board and discover the world below at 35,000 ft.
           </Text>
@@ -302,9 +365,9 @@ export default function HomeScreen() {
             style={styles.emptyCtaBtn}
             onPress={() => nav.navigate('AddFlight')}
             accessibilityRole="button"
-            accessibilityLabel="Add your first flight"
+            accessibilityLabel={t('home.addFirstFlight')}
           >
-            <Text style={styles.emptyCtaText}>Add your first flight</Text>
+            <Text style={styles.emptyCtaText}>{t('home.addFirstFlight')}</Text>
           </Pressable>
         </View>
         <Pressable
@@ -360,20 +423,20 @@ export default function HomeScreen() {
           </View>
         )}
 
-        {/* Past flights — collapsed link */}
-        {pastFlights.length > 0 && (
+        {/* Past flights — grouped into trips */}
+        {pastTrips.length > 0 && (
           <View style={styles.pastSection}>
             <Text style={styles.pastSectionLabel}>PAST FLIGHTS</Text>
-            {pastFlights.slice(0, 2).map((item) => (
-              <FlightTimelineRow
-                key={item.flightId}
-                item={item}
-                onPress={() => nav.navigate('FlightDetail', { flightId: item.flightId })}
+            {pastTrips.slice(0, 3).map((trip) => (
+              <TripGroupRow
+                key={trip.id}
+                trip={trip}
+                onPressFlight={(flightId) => nav.navigate('FlightDetail', { flightId })}
               />
             ))}
-            {pastFlights.length > 2 && (
+            {pastTrips.length > 3 && (
               <Text style={styles.pastMoreHint}>
-                +{pastFlights.length - 2} more past flights
+                +{pastTrips.length - 3} more trips
               </Text>
             )}
           </View>

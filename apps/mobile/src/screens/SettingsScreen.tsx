@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import {
   View,
   Text,
@@ -6,7 +6,8 @@ import {
   Pressable,
   StyleSheet,
   Alert,
-  Linking
+  Linking,
+  Platform
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -18,6 +19,7 @@ import type { RootStackParamList } from '../navigation/types';
 import { t, setLocale, getLocale, SUPPORTED_LOCALES } from '../i18n';
 import { haptics } from '../core/ux/haptics';
 import { enableDailyFacts, disableDailyFacts } from '../core/ux/dailyFacts';
+import { backupToiCloud, getLastBackupTimestamp } from '../core/cloud/iCloudBackup';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Settings'>;
 
@@ -33,6 +35,17 @@ const LANGUAGE_FLAGS: Record<string, string> = {
 type NarratorStyle = 'default' | 'documentary' | 'casual';
 const NARRATOR_STYLES: NarratorStyle[] = ['default', 'documentary', 'casual'];
 
+function formatBackupAge(timestamp: number): string {
+  const diffMs = Date.now() - timestamp;
+  const mins = Math.floor(diffMs / 60_000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return `${hrs}h ago`;
+  const days = Math.floor(hrs / 24);
+  return `${days}d ago`;
+}
+
 export default function SettingsScreen() {
   const nav = useNavigation<Nav>();
   const [units, setUnitsState] = useState<'km' | 'miles'>(() => collectionsStore.getUnits());
@@ -41,6 +54,19 @@ export default function SettingsScreen() {
   const [narrator, setNarratorState] = useState<NarratorStyle>(() => collectionsStore.getNarrator());
   const [soundEnabled, setSoundEnabledState] = useState(() => collectionsStore.getSoundEnabled());
   const [dailyFacts, setDailyFactsState] = useState(() => collectionsStore.getDailyFactsEnabled());
+  const [lastBackup, setLastBackup] = useState<number | null>(null);
+  const [backingUp, setBackingUp] = useState(false);
+
+  const isIos = Platform.OS === 'ios';
+
+  const refreshBackupTimestamp = useCallback(async () => {
+    const ts = await getLastBackupTimestamp();
+    setLastBackup(ts);
+  }, []);
+
+  useEffect(() => {
+    if (isIos) refreshBackupTimestamp();
+  }, [isIos, refreshBackupTimestamp]);
 
   function toggleUnits() {
     const next = units === 'km' ? 'miles' : 'km';
@@ -70,17 +96,6 @@ export default function SettingsScreen() {
     haptics.light();
   }
 
-  function toggleDailyFacts() {
-    const next = !dailyFacts;
-    setDailyFactsState(next);
-    haptics.light();
-    if (next) {
-      enableDailyFacts().catch(() => {});
-    } else {
-      disableDailyFacts().catch(() => {});
-    }
-  }
-
   function cycleNarrator() {
     const idx = NARRATOR_STYLES.indexOf(narrator);
     const next = NARRATOR_STYLES[(idx + 1) % NARRATOR_STYLES.length];
@@ -94,6 +109,19 @@ export default function SettingsScreen() {
       case 'documentary': return t('settings.narratorDocumentary');
       case 'casual': return t('settings.narratorCasual');
       default: return t('settings.narratorDefault');
+    }
+  }
+
+  async function manualBackup() {
+    setBackingUp(true);
+    haptics.light();
+    const ok = await backupToiCloud();
+    setBackingUp(false);
+    if (ok) {
+      await refreshBackupTimestamp();
+      haptics.success?.();
+    } else {
+      Alert.alert('iCloud Backup', 'Backup failed. Make sure iCloud is enabled in Settings.');
     }
   }
 
@@ -155,17 +183,33 @@ export default function SettingsScreen() {
           <Text style={[typography.body, styles.rowLabel]}>{t('settings.soundEffects')}</Text>
           <Text style={[typography.body, styles.rowValue]}>{soundEnabled ? t('common.on') : t('common.off')}</Text>
         </Pressable>
-        <View style={styles.divider} />
-        <Pressable
-          style={styles.row}
-          onPress={toggleDailyFacts}
-          accessibilityLabel={dailyFacts ? 'Disable daily sky facts notification' : 'Enable daily sky facts notification'}
-          accessibilityRole="button"
-        >
-          <Text style={[typography.body, styles.rowLabel]}>📅 Daily Sky Facts</Text>
-          <Text style={[typography.body, styles.rowValue]}>{dailyFacts ? t('common.on') : t('common.off')}</Text>
-        </Pressable>
       </View>
+
+      {/* iCloud Backup — iOS only */}
+      {isIos && (
+        <>
+          <Text style={styles.sectionHeader}>iCloud Backup</Text>
+          <View style={styles.section}>
+            <View style={styles.row}>
+              <View style={styles.backupLabelCol}>
+                <Text style={[typography.body, styles.rowLabel]}>iCloud Backup</Text>
+                <Text style={styles.backupSubtitle}>
+                  {lastBackup ? `Last backed up ${formatBackupAge(lastBackup)}` : 'Not backed up yet'}
+                </Text>
+              </View>
+              <Pressable
+                style={[styles.backupBtn, backingUp && styles.backupBtnDisabled]}
+                onPress={manualBackup}
+                disabled={backingUp}
+                accessibilityLabel="Back up to iCloud now"
+                accessibilityRole="button"
+              >
+                <Text style={styles.backupBtnText}>{backingUp ? 'Saving…' : 'Back up now'}</Text>
+              </Pressable>
+            </View>
+          </View>
+        </>
+      )}
 
       {/* About */}
       <Text style={styles.sectionHeader}>{t('settings.about')}</Text>
@@ -286,5 +330,25 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.border
   },
-  devButtonText: { color: colors.accent, fontWeight: '600' }
+  devButtonText: { color: colors.accent, fontWeight: '600' },
+
+  // iCloud backup row
+  backupLabelCol: { flex: 1, gap: 2 },
+  backupSubtitle: {
+    fontSize: 11,
+    color: colors.textMuted,
+    marginTop: 1
+  },
+  backupBtn: {
+    backgroundColor: colors.primary,
+    paddingVertical: 7,
+    paddingHorizontal: 14,
+    borderRadius: 8
+  },
+  backupBtnDisabled: { opacity: 0.5 },
+  backupBtnText: {
+    color: '#FFFFFF',
+    fontSize: 13,
+    fontWeight: '600'
+  }
 });
