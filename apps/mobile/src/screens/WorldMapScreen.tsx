@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ActivityIndicator } from 'react-native';
 import MapView, { Polyline } from 'react-native-maps';
 import { colors } from '../theme/colors';
-import { typography } from '../theme/typography';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
+import EmptyState from '../components/EmptyState';
 import { collectionsStore } from '../core/gamification/collections';
 import type { OfflinePackage } from '@skyatlas/shared';
 
@@ -66,13 +66,11 @@ export default function WorldMapScreen() {
           <ActivityIndicator color={colors.primary} size="large" />
         </View>
       ) : flights.length === 0 ? (
-        <View style={styles.center}>
-          <Text style={styles.emptyIcon}>🌍</Text>
-          <Text style={[typography.h3, styles.emptyTitle]}>No flights yet</Text>
-          <Text style={[typography.body, styles.emptySubtitle]}>
-            Add your first flight to see it on the world map.
-          </Text>
-        </View>
+        <EmptyState
+          icon="🗺️"
+          title="Your map awaits"
+          description="Track your first flight to start building your personal world map."
+        />
       ) : (
         <MapView
           style={styles.map}
@@ -133,8 +131,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 40,
     gap: 12
-  },
-  emptyIcon: { fontSize: 52, marginBottom: 8 },
-  emptyTitle: { textAlign: 'center' },
-  emptySubtitle: { color: colors.textMuted, textAlign: 'center', lineHeight: 22 }
+  }
 });

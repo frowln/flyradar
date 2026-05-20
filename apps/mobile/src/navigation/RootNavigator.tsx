@@ -28,10 +28,12 @@ export default function RootNavigator() {
           headerStyle: { backgroundColor: colors.bg },
           headerTintColor: colors.text,
           headerTitleStyle: { fontWeight: '700' },
-          contentStyle: { backgroundColor: colors.bg }
+          contentStyle: { backgroundColor: colors.bg },
+          animation: 'slide_from_right',
+          animationDuration: 250
         }}
       >
-        <Stack.Screen name="Onboarding" component={OnboardingScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Onboarding" component={OnboardingScreen} options={{ headerShown: false, animation: 'slide_from_bottom', presentation: 'modal' }} />
         <Stack.Screen name="Tabs" component={TabNavigator} options={{ headerShown: false }} />
         <Stack.Screen name="AddFlight" component={AddFlightScreen} options={{ title: 'Add Flight' }} />
         <Stack.Screen name="FlightDetail" component={FlightDetailScreen} options={{ title: 'Flight Details' }} />
@@ -39,8 +41,8 @@ export default function RootNavigator() {
         <Stack.Screen name="POIDetail" component={POIDetailScreen} options={{ title: '' }} />
         <Stack.Screen name="FlightSummary" component={FlightSummaryScreen} options={{ title: 'Flight Summary' }} />
         <Stack.Screen name="Collection" component={CollectionScreen} options={{ title: 'My Collection' }} />
-        <Stack.Screen name="Paywall" component={PaywallScreen} options={{ title: 'SkyAtlas Pro' }} />
-        <Stack.Screen name="Wrapped" component={WrappedScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Paywall" component={PaywallScreen} options={{ title: 'SkyAtlas Pro', animation: 'slide_from_bottom', presentation: 'modal' }} />
+        <Stack.Screen name="Wrapped" component={WrappedScreen} options={{ headerShown: false, animation: 'slide_from_bottom', presentation: 'modal' }} />
         <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
         <Stack.Screen name="Simulator" component={SimulatorScreen} options={{ title: 'Simulator' }} />
         <Stack.Screen name="Referral" component={ReferralScreen} options={{ title: 'Invite Friends' }} />

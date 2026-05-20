@@ -12,6 +12,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { collectionsStore } from '../core/gamification/collections';
+import EmptyState from '../components/EmptyState';
 import { ACHIEVEMENTS } from '../core/gamification/achievements';
 import type { RootStackParamList } from '../navigation/types';
 
@@ -94,13 +95,11 @@ function AchievementsTab({ earnedIds }: { earnedIds: Set<string> }) {
 function CountriesTab({ countries }: { countries: string[] }) {
   if (countries.length === 0) {
     return (
-      <View style={styles.emptyState}>
-        <Text style={styles.emptyIcon}>🗺️</Text>
-        <Text style={[typography.h3, { textAlign: 'center' }]}>No countries yet</Text>
-        <Text style={[typography.body, styles.emptyText]}>
-          Start your first flight to collect countries you fly over.
-        </Text>
-      </View>
+      <EmptyState
+        icon="🌍"
+        title="No countries yet"
+        description="Start your first flight to collect countries you fly over."
+      />
     );
   }
 
@@ -183,12 +182,6 @@ const styles = StyleSheet.create({
   },
   achievNameLocked: { color: colors.textMuted },
   achievDesc: { color: colors.textMuted, fontSize: 11, textAlign: 'center' },
-
-  emptyState: {
-    flex: 1, justifyContent: 'center', alignItems: 'center', padding: 40, gap: 12
-  },
-  emptyIcon: { fontSize: 48 },
-  emptyText: { color: colors.textMuted, textAlign: 'center', lineHeight: 22 },
 
   countriesList: { padding: 16, gap: 4 },
   countriesCount: { color: colors.textMuted, fontSize: 13, marginBottom: 10 },

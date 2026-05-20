@@ -13,6 +13,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { t } from '../i18n';
+import EmptyState from '../components/EmptyState';
 import { listPackages, loadPackage, initDb } from '../core/offline/poiDatabase';
 import type { RootStackParamList } from '../navigation/types';
 import type { OfflinePackage } from '@skyatlas/shared';
@@ -101,13 +102,13 @@ export default function HomeScreen() {
           </View>
         }
         ListEmptyComponent={
-          <View style={styles.emptyState}>
-            <Text style={styles.emptyIcon}>✈️</Text>
-            <Text style={[typography.h3, styles.emptyTitle]}>{t('home.empty')}</Text>
-            <Text style={[typography.body, styles.emptySubtitle]}>
-              {t('home.emptyDesc')}
-            </Text>
-          </View>
+          <EmptyState
+            icon="✈️"
+            title="No flights yet"
+            description="Add your first flight before you board to explore the world below."
+            ctaLabel="Add Flight"
+            onCtaPress={() => nav.navigate('AddFlight')}
+          />
         }
         renderItem={({ item }) => {
           const { flight } = item.pkg;
@@ -160,16 +161,6 @@ const styles = StyleSheet.create({
   },
   list: { padding: 16, gap: 12 },
   emptyList: { flex: 1 },
-  emptyState: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 40,
-    gap: 12
-  },
-  emptyIcon: { fontSize: 48, marginBottom: 8 },
-  emptyTitle: { textAlign: 'center' },
-  emptySubtitle: { color: colors.textMuted, textAlign: 'center', lineHeight: 22 },
   card: {
     backgroundColor: colors.surface,
     borderRadius: 16,
