@@ -1,6 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
+import { t } from '../i18n';
 import type { RootStackParamList } from './types';
 
 import OnboardingScreen, { hasCompletedOnboarding } from '../screens/OnboardingScreen';
@@ -29,6 +30,8 @@ export default function RootNavigator() {
           headerStyle: { backgroundColor: colors.bg },
           headerTintColor: colors.text,
           headerTitleStyle: { fontWeight: '700' },
+          headerBackButtonDisplayMode: 'minimal',
+          headerBackTitle: '',
           contentStyle: { backgroundColor: colors.bg },
           animation: 'slide_from_right',
           animationDuration: 250
@@ -36,18 +39,18 @@ export default function RootNavigator() {
       >
         <Stack.Screen name="Onboarding" component={OnboardingScreen} options={{ headerShown: false, animation: 'slide_from_bottom', presentation: 'modal' }} />
         <Stack.Screen name="Tabs" component={TabNavigator} options={{ headerShown: false }} />
-        <Stack.Screen name="AddFlight" component={AddFlightScreen} options={{ title: 'Add Flight' }} />
-        <Stack.Screen name="FlightDetail" component={FlightDetailScreen} options={{ title: 'Flight Details' }} />
+        <Stack.Screen name="AddFlight" component={AddFlightScreen} options={{ title: t('nav.addFlight') }} />
+        <Stack.Screen name="FlightDetail" component={FlightDetailScreen} options={{ title: t('nav.flightDetail') }} />
         <Stack.Screen name="InFlight" component={InFlightScreen} options={{ headerShown: false }} />
         <Stack.Screen name="POIDetail" component={POIDetailScreen} options={{ title: '' }} />
-        <Stack.Screen name="FlightSummary" component={FlightSummaryScreen} options={{ title: 'Flight Summary' }} />
-        <Stack.Screen name="Collection" component={CollectionScreen} options={{ title: 'My Collection' }} />
-        <Stack.Screen name="Paywall" component={PaywallScreen} options={{ title: 'SkyAtlas Pro', animation: 'slide_from_bottom', presentation: 'modal' }} />
+        <Stack.Screen name="FlightSummary" component={FlightSummaryScreen} options={{ title: t('nav.flightDetail') }} />
+        <Stack.Screen name="Collection" component={CollectionScreen} options={{ title: t('nav.collection') }} />
+        <Stack.Screen name="Paywall" component={PaywallScreen} options={{ title: t('nav.paywall'), animation: 'slide_from_bottom', presentation: 'modal' }} />
         <Stack.Screen name="Wrapped" component={WrappedScreen} options={{ headerShown: false, animation: 'slide_from_bottom', presentation: 'modal' }} />
-        <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
-        <Stack.Screen name="Simulator" component={SimulatorScreen} options={{ title: 'Simulator' }} />
-        <Stack.Screen name="Referral" component={ReferralScreen} options={{ title: 'Invite Friends' }} />
-        <Stack.Screen name="Leaderboard" component={LeaderboardScreen} options={{ title: 'Leaderboard' }} />
+        <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: t('nav.settings') }} />
+        <Stack.Screen name="Simulator" component={SimulatorScreen} options={{ title: t('nav.simulator') }} />
+        <Stack.Screen name="Referral" component={ReferralScreen} options={{ title: t('nav.referral') }} />
+        <Stack.Screen name="Leaderboard" component={LeaderboardScreen} options={{ title: t('nav.leaderboard') || 'Leaderboard' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

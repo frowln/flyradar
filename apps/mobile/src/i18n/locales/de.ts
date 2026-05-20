@@ -7,7 +7,7 @@ export const de = {
     collection: 'Meine Sammlung',
     settings: 'Einstellungen',
     browse: 'Flüge entdecken',
-    simulator: 'Simulator',
+    simulator: 'Simulator', leaderboard: 'Bestenliste',
     worldMap: 'Meine Welt',
     referral: 'Freunde einladen',
     wrapped: 'Jahresrückblick',

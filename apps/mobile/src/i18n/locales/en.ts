@@ -7,7 +7,7 @@ export const en = {
     collection: 'My Collection',
     settings: 'Settings',
     browse: 'Explore Flights',
-    simulator: 'Simulator',
+    simulator: 'Simulator', leaderboard: 'Leaderboard',
     worldMap: 'My World',
     referral: 'Invite Friends',
     wrapped: 'Year Wrapped',
