@@ -245,6 +245,17 @@ export default function ProfileScreen() {
         <View style={styles.divider} />
         <Pressable
           style={styles.menuRow}
+          onPress={() => nav.navigate('Leaderboard')}
+          accessibilityLabel="Open global leaderboard"
+          accessibilityRole="button"
+        >
+          <Text style={styles.menuIcon}>🏆</Text>
+          <Text style={[typography.body, styles.menuLabel]}>Leaderboard</Text>
+          <Text style={styles.chevron}>›</Text>
+        </Pressable>
+        <View style={styles.divider} />
+        <Pressable
+          style={styles.menuRow}
           onPress={() => nav.navigate('Settings')}
           accessibilityLabel="Open settings"
           accessibilityRole="button"

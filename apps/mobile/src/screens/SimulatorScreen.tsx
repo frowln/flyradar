@@ -22,6 +22,13 @@ type Nav = NativeStackNavigationProp<RootStackParamList, 'Simulator'>;
 const DEMO_FLIGHT = 'DEMO123';
 const MULTIPLIERS = [1, 10, 60, 600] as const;
 
+const STEPS = [
+  { num: '1️⃣', key: 'step1' as const },
+  { num: '2️⃣', key: 'step2' as const },
+  { num: '3️⃣', key: 'step3' as const },
+  { num: '4️⃣', key: 'step4' as const },
+] as const;
+
 function todayString(): string {
   return new Date().toISOString().slice(0, 10);
 }
@@ -84,11 +91,30 @@ export default function SimulatorScreen() {
       <Text style={[typography.h2, styles.heading]}>{t('simulator.title')}</Text>
       <Text style={[typography.body, styles.subtitle]}>{t('simulator.subtitle')}</Text>
 
-      {/* One-tap demo */}
+      {/* Step-by-step guide */}
+      <View style={styles.guideCard}>
+        <Text style={styles.guideTitle}>🎬 {t('simulator.tryExperience')}</Text>
+        <View style={styles.guideDivider} />
+        {STEPS.map((step) => (
+          <View key={step.key} style={styles.stepRow}>
+            <Text style={styles.stepNum}>{step.num}</Text>
+            <Text style={styles.stepText}>{t(`simulator.${step.key}`)}</Text>
+          </View>
+        ))}
+      </View>
+
+      {/* One-tap demo — primary CTA */}
       <Pressable style={styles.oneTapButton} onPress={handleOneTapDemo}>
-        <Text style={styles.oneTapButtonText}>🎬 One-Tap Demo Flight</Text>
+        <Text style={styles.oneTapButtonText}>{t('simulator.oneTap')}</Text>
         <Text style={styles.oneTapButtonSub}>Spawns demo • 30 min in • 60× speed</Text>
       </Pressable>
+
+      {/* Manual controls separator */}
+      <View style={styles.separatorRow}>
+        <View style={styles.separatorLine} />
+        <Text style={styles.separatorText}>{t('simulator.manualControls')}</Text>
+        <View style={styles.separatorLine} />
+      </View>
 
       {/* Spawn demo */}
       <View style={styles.section}>
@@ -156,6 +182,57 @@ const styles = StyleSheet.create({
   devBadgeText: { color: colors.bg, fontSize: 11, fontWeight: '800', letterSpacing: 0.6 },
   heading: { marginTop: 4 },
   subtitle: { color: colors.textMuted, lineHeight: 22, marginTop: -8 },
+
+  guideCard: {
+    backgroundColor: colors.surface,
+    borderRadius: 16,
+    padding: 16,
+    borderWidth: 1,
+    borderColor: colors.border,
+    gap: 10
+  },
+  guideTitle: {
+    color: colors.text,
+    fontSize: 16,
+    fontWeight: '700'
+  },
+  guideDivider: {
+    height: 1,
+    backgroundColor: colors.border,
+    marginVertical: 2
+  },
+  stepRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 10
+  },
+  stepNum: { fontSize: 18, lineHeight: 24 },
+  stepText: { color: colors.text, fontSize: 14, lineHeight: 22, flex: 1 },
+
+  oneTapButton: {
+    backgroundColor: colors.accent,
+    padding: 20,
+    borderRadius: 16,
+    alignItems: 'center',
+    gap: 4,
+    shadowColor: colors.accent,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.4,
+    shadowRadius: 8,
+    elevation: 6
+  },
+  oneTapButtonText: { color: colors.bg, fontWeight: '800', fontSize: 20 },
+  oneTapButtonSub: { color: colors.bg, fontSize: 12, opacity: 0.75 },
+
+  separatorRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    marginVertical: -4
+  },
+  separatorLine: { flex: 1, height: 1, backgroundColor: colors.border },
+  separatorText: { color: colors.textMuted, fontSize: 12, fontWeight: '600' },
+
   section: {
     backgroundColor: colors.surface,
     borderRadius: 16,
@@ -166,15 +243,6 @@ const styles = StyleSheet.create({
   },
   sectionTitle: { color: colors.text, fontSize: 16, fontWeight: '700' },
   sectionNote: { marginTop: -4 },
-  oneTapButton: {
-    backgroundColor: colors.accent,
-    padding: 18,
-    borderRadius: 16,
-    alignItems: 'center',
-    gap: 4
-  },
-  oneTapButtonText: { color: colors.bg, fontWeight: '800', fontSize: 18 },
-  oneTapButtonSub: { color: colors.bg, fontSize: 12, opacity: 0.75 },
   primaryButton: {
     backgroundColor: colors.primary,
     padding: 14,

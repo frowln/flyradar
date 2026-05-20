@@ -14,6 +14,7 @@ export type RootStackParamList = {
   Settings: undefined;
   Simulator: undefined;
   Referral: undefined;
+  Leaderboard: undefined;
 };
 
 export type AddFlightScreenProps = NativeStackScreenProps<RootStackParamList, 'AddFlight'>;

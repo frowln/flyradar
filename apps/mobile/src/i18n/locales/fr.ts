@@ -115,7 +115,11 @@ export const fr = {
     light: 'Clair',
     themeDark: 'Sombre',
     themeLight: 'Clair',
-    themeRestart: 'Redémarrez l\'app pour appliquer le thème'
+    themeRestart: 'Redémarrez l\'app pour appliquer le thème',
+    narratorVoice: 'Voix du narrateur',
+    narratorDefault: '🎙️ Défaut',
+    narratorDocumentary: '🎙️ Documentaire',
+    narratorCasual: '🎙️ Ami décontracté'
   },
   collection: {
     achievements: 'Succès',
@@ -200,7 +204,14 @@ export const fr = {
     timeSpeed: 'Multiplicateur de vitesse temporelle',
     timeSpeedNote: 'Appliqué à l\'interpolation de position dans l\'écran de vol.',
     noActiveFlight: 'Aucun vol actif — lancez d\'abord un vol démo.',
-    spawnError: 'Impossible de lancer le vol démo.'
+    spawnError: 'Impossible de lancer le vol démo.',
+    tryExperience: 'Vivez l\'expérience en vol',
+    step1: 'Appuyez sur le grand bouton jaune ci-dessous',
+    step2: 'Attendez 2 secondes — la carte s\'ouvre',
+    step3: 'Les cartes POI apparaissent toutes les 5 secondes',
+    step4: 'Appuyez sur une carte pour voir les détails',
+    oneTap: '🎬 VOL DÉMO EN UN CLIC',
+    manualControls: 'Ou contrôle manuel'
   },
   referral: {
     title: 'Invitez des amis,\nvous obtenez tous Pro',

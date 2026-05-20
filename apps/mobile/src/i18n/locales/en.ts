@@ -115,7 +115,11 @@ export const en = {
     light: 'Light',
     themeDark: 'Dark',
     themeLight: 'Light',
-    themeRestart: 'Restart app to apply theme'
+    themeRestart: 'Restart app to apply theme',
+    narratorVoice: 'Narrator voice',
+    narratorDefault: '🎙️ Default',
+    narratorDocumentary: '🎙️ Documentary',
+    narratorCasual: '🎙️ Casual friend'
   },
   collection: {
     achievements: 'Achievements',
@@ -200,7 +204,14 @@ export const en = {
     timeSpeed: 'Time Speed Multiplier',
     timeSpeedNote: 'Applied to position interpolation in InFlight screen.',
     noActiveFlight: 'No active flight — spawn a demo flight first.',
-    spawnError: 'Failed to spawn demo flight.'
+    spawnError: 'Failed to spawn demo flight.',
+    tryExperience: 'Try the in-flight experience',
+    step1: 'Tap the big yellow button below',
+    step2: 'Wait 2 seconds — opens flight map',
+    step3: 'POI cards appear every 5 seconds',
+    step4: 'Tap a card to see full details',
+    oneTap: '🎬 ONE-TAP DEMO FLIGHT',
+    manualControls: 'Or use manual controls'
   },
   referral: {
     title: 'Invite friends,\nboth get Pro',

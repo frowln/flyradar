@@ -11,7 +11,9 @@ const KEYS = {
   UNITS: 'units',
   LANGUAGE: 'language',
   INFLIGHT_TUTORIAL_SEEN: 'inflight_tutorial_seen',
-  THEME: 'theme'
+  THEME: 'theme',
+  CATEGORY_INTERESTS: 'category_interests',
+  NARRATOR: 'narrator'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -121,6 +123,25 @@ export const collectionsStore = {
 
   setTheme(theme: 'dark' | 'light'): void {
     storage.set(KEYS.THEME, theme);
+  },
+
+  getCategoryInterests(): Record<string, number> {
+    const raw = storage.getString(KEYS.CATEGORY_INTERESTS);
+    return raw ? JSON.parse(raw) : {};
+  },
+
+  setCategoryInterests(map: Record<string, number>): void {
+    storage.set(KEYS.CATEGORY_INTERESTS, JSON.stringify(map));
+  },
+
+  getNarrator(): 'default' | 'documentary' | 'casual' {
+    const val = storage.getString(KEYS.NARRATOR);
+    if (val === 'documentary' || val === 'casual') return val;
+    return 'default';
+  },
+
+  setNarrator(style: 'default' | 'documentary' | 'casual'): void {
+    storage.set(KEYS.NARRATOR, style);
   },
 
   reset(): void {

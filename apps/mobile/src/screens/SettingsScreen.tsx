@@ -28,11 +28,15 @@ const LANGUAGE_FLAGS: Record<string, string> = {
   ja: '🇯🇵'
 };
 
+type NarratorStyle = 'default' | 'documentary' | 'casual';
+const NARRATOR_STYLES: NarratorStyle[] = ['default', 'documentary', 'casual'];
+
 export default function SettingsScreen() {
   const nav = useNavigation<Nav>();
   const [units, setUnitsState] = useState<'km' | 'miles'>(() => collectionsStore.getUnits());
   const [locale, setLocaleState] = useState(() => getLocale());
   const [theme, setThemeState] = useState<ThemeName>(() => getTheme());
+  const [narrator, setNarratorState] = useState<NarratorStyle>(() => collectionsStore.getNarrator());
 
   function toggleUnits() {
     const next = units === 'km' ? 'miles' : 'km';
@@ -53,6 +57,22 @@ export default function SettingsScreen() {
     const next = SUPPORTED_LOCALES[(idx + 1) % SUPPORTED_LOCALES.length];
     setLocale(next);
     setLocaleState(next);
+  }
+
+  function cycleNarrator() {
+    const idx = NARRATOR_STYLES.indexOf(narrator);
+    const next = NARRATOR_STYLES[(idx + 1) % NARRATOR_STYLES.length];
+    collectionsStore.setNarrator(next);
+    setNarratorState(next);
+    haptics.light();
+  }
+
+  function narratorLabel(style: NarratorStyle): string {
+    switch (style) {
+      case 'documentary': return t('settings.narratorDocumentary');
+      case 'casual': return t('settings.narratorCasual');
+      default: return t('settings.narratorDefault');
+    }
   }
 
   return (
@@ -92,6 +112,16 @@ export default function SettingsScreen() {
           <Text style={[typography.body, styles.rowValue]}>
             {theme === 'dark' ? t('settings.themeDark') : t('settings.themeLight')}
           </Text>
+        </Pressable>
+        <View style={styles.divider} />
+        <Pressable
+          style={styles.row}
+          onPress={cycleNarrator}
+          accessibilityLabel="Switch narrator voice style"
+          accessibilityRole="button"
+        >
+          <Text style={[typography.body, styles.rowLabel]}>{t('settings.narratorVoice')}</Text>
+          <Text style={[typography.body, styles.rowValue]}>{narratorLabel(narrator)}</Text>
         </Pressable>
       </View>
 

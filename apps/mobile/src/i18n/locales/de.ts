@@ -115,7 +115,11 @@ export const de = {
     light: 'Hell',
     themeDark: 'Dunkel',
     themeLight: 'Hell',
-    themeRestart: 'App neu starten, um das Design anzuwenden'
+    themeRestart: 'App neu starten, um das Design anzuwenden',
+    narratorVoice: 'Erzählerstimme',
+    narratorDefault: '🎙️ Standard',
+    narratorDocumentary: '🎙️ Dokumentation',
+    narratorCasual: '🎙️ Lockerer Freund'
   },
   collection: {
     achievements: 'Errungenschaften',
@@ -200,7 +204,14 @@ export const de = {
     timeSpeed: 'Zeitgeschwindigkeitsmultiplikator',
     timeSpeedNote: 'Gilt für die Positionsinterpolation im Flug-Bildschirm.',
     noActiveFlight: 'Kein aktiver Flug — starte zuerst einen Demo-Flug.',
-    spawnError: 'Demo-Flug konnte nicht gestartet werden.'
+    spawnError: 'Demo-Flug konnte nicht gestartet werden.',
+    tryExperience: 'Erlebe den Flug jetzt',
+    step1: 'Tippe auf den großen gelben Button unten',
+    step2: 'Warte 2 Sekunden — Karte öffnet sich',
+    step3: 'POI-Karten erscheinen alle 5 Sekunden',
+    step4: 'Karte antippen — vollständige Details sehen',
+    oneTap: '🎬 EIN-TIPP-DEMO-FLUG',
+    manualControls: 'Oder manuelle Steuerung'
   },
   referral: {
     title: 'Lade Freunde ein,\nbeid erhalten Pro',

@@ -21,6 +21,16 @@ import { loadPackage } from '../core/offline/poiDatabase';
 import type { RootStackParamList } from '../navigation/types';
 import type { POI } from '@skyatlas/shared';
 import { t } from '../i18n';
+import { collectionsStore } from '../core/gamification/collections';
+import { recordPOIView } from '../core/ai/personalization';
+
+function getNarratorOptions(): Speech.SpeechOptions {
+  switch (collectionsStore.getNarrator()) {
+    case 'documentary': return { rate: 0.85, pitch: 0.9 };
+    case 'casual': return { rate: 1.05, pitch: 1.1 };
+    default: return {};
+  }
+}
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'POIDetail'>;
 type Route = RouteProp<RootStackParamList, 'POIDetail'>;
@@ -62,6 +72,9 @@ export default function POIDetailScreen() {
       if (pkg) {
         const found = pkg.pois.find((p) => p.id === poiId);
         setPoi(found ?? null);
+        if (found) {
+          recordPOIView(found.category);
+        }
       }
     }).finally(() => setLoading(false));
   }, [poiId, flightId]);
@@ -98,9 +111,11 @@ export default function POIDetailScreen() {
     } else {
       setIsSpeaking(true);
       startPulse();
+      const narratorOpts = getNarratorOptions();
       Speech.speak(poi.summary, {
         language: 'en',
-        rate: 0.95,
+        rate: narratorOpts.rate ?? 0.95,
+        pitch: narratorOpts.pitch,
         onDone: () => { setIsSpeaking(false); stopPulse(); },
         onStopped: () => { setIsSpeaking(false); stopPulse(); },
         onError: () => { setIsSpeaking(false); stopPulse(); }

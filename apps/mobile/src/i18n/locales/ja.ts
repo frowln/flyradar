@@ -115,7 +115,11 @@ export const ja = {
     light: 'ライト',
     themeDark: 'ダーク',
     themeLight: 'ライト',
-    themeRestart: 'テーマを適用するにはアプリを再起動してください'
+    themeRestart: 'テーマを適用するにはアプリを再起動してください',
+    narratorVoice: 'ナレーターの声',
+    narratorDefault: '🎙️ デフォルト',
+    narratorDocumentary: '🎙️ ドキュメンタリー',
+    narratorCasual: '🎙️ カジュアルな友人'
   },
   collection: {
     achievements: '実績',
@@ -200,7 +204,14 @@ export const ja = {
     timeSpeed: '時間倍速',
     timeSpeedNote: 'フライト画面の位置補間に適用されます。',
     noActiveFlight: 'アクティブなフライトがありません — まずデモフライトを起動してください。',
-    spawnError: 'デモフライトを起動できませんでした。'
+    spawnError: 'デモフライトを起動できませんでした。',
+    tryExperience: 'フライト体験を試してみよう',
+    step1: '下の大きな黄色いボタンをタップ',
+    step2: '2秒待つ — フライトマップが開く',
+    step3: 'POIカードが5秒ごとに表示される',
+    step4: 'カードをタップして詳細を確認',
+    oneTap: '🎬 ワンタップ デモフライト',
+    manualControls: 'または手動操作'
   },
   referral: {
     title: '友達を招待して\n2人ともProをゲット',

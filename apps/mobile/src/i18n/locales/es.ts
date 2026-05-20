@@ -115,7 +115,11 @@ export const es = {
     light: 'Claro',
     themeDark: 'Oscuro',
     themeLight: 'Claro',
-    themeRestart: 'Reinicia la app para aplicar el tema'
+    themeRestart: 'Reinicia la app para aplicar el tema',
+    narratorVoice: 'Voz del narrador',
+    narratorDefault: '🎙️ Predeterminado',
+    narratorDocumentary: '🎙️ Documental',
+    narratorCasual: '🎙️ Amigo casual'
   },
   collection: {
     achievements: 'Logros',
@@ -200,7 +204,14 @@ export const es = {
     timeSpeed: 'Multiplicador de velocidad de tiempo',
     timeSpeedNote: 'Se aplica a la interpolación de posición en la pantalla de vuelo.',
     noActiveFlight: 'No hay vuelo activo — lanza primero un vuelo de prueba.',
-    spawnError: 'No se pudo lanzar el vuelo de prueba.'
+    spawnError: 'No se pudo lanzar el vuelo de prueba.',
+    tryExperience: 'Prueba la experiencia en vuelo',
+    step1: 'Toca el gran botón amarillo de abajo',
+    step2: 'Espera 2 segundos — se abre el mapa',
+    step3: 'Las tarjetas POI aparecen cada 5 segundos',
+    step4: 'Toca una tarjeta para ver los detalles',
+    oneTap: '🎬 VUELO DEMO DE UN TOQUE',
+    manualControls: 'O controles manuales'
   },
   referral: {
     title: 'Invita amigos,\nambos obtienen Pro',

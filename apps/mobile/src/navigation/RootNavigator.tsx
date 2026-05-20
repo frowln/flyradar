@@ -16,6 +16,7 @@ import WrappedScreen from '../screens/WrappedScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import SimulatorScreen from '../screens/SimulatorScreen';
 import ReferralScreen from '../screens/ReferralScreen';
+import LeaderboardScreen from '../screens/LeaderboardScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -46,6 +47,7 @@ export default function RootNavigator() {
         <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
         <Stack.Screen name="Simulator" component={SimulatorScreen} options={{ title: 'Simulator' }} />
         <Stack.Screen name="Referral" component={ReferralScreen} options={{ title: 'Invite Friends' }} />
+        <Stack.Screen name="Leaderboard" component={LeaderboardScreen} options={{ title: 'Leaderboard' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
