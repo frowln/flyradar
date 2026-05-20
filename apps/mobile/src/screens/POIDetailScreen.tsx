@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import {
   View,
   Text,
@@ -8,11 +8,13 @@ import {
   ActivityIndicator,
   Pressable,
   Dimensions,
-  Share
+  Share,
+  Animated
 } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { RouteProp } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import * as Speech from 'expo-speech';
 import { colors } from '../theme/colors';
 import { typography } from '../theme/typography';
 import { loadPackage } from '../core/offline/poiDatabase';
@@ -51,6 +53,9 @@ export default function POIDetailScreen() {
 
   const [poi, setPoi] = useState<POI | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const pulseAnim = useRef(new Animated.Value(1)).current;
+  const pulseLoop = useRef<Animated.CompositeAnimation | null>(null);
 
   useEffect(() => {
     loadPackage(flightId).then((pkg) => {
@@ -60,6 +65,48 @@ export default function POIDetailScreen() {
       }
     }).finally(() => setLoading(false));
   }, [poiId, flightId]);
+
+  // Stop speech when leaving screen
+  useEffect(() => {
+    return () => {
+      Speech.stop();
+    };
+  }, []);
+
+  const startPulse = () => {
+    pulseLoop.current = Animated.loop(
+      Animated.sequence([
+        Animated.timing(pulseAnim, { toValue: 1.08, duration: 600, useNativeDriver: true }),
+        Animated.timing(pulseAnim, { toValue: 1, duration: 600, useNativeDriver: true })
+      ])
+    );
+    pulseLoop.current.start();
+  };
+
+  const stopPulse = () => {
+    pulseLoop.current?.stop();
+    pulseAnim.setValue(1);
+  };
+
+  const handleListen = async () => {
+    if (!poi) return;
+    const speaking = await Speech.isSpeakingAsync();
+    if (speaking) {
+      Speech.stop();
+      setIsSpeaking(false);
+      stopPulse();
+    } else {
+      setIsSpeaking(true);
+      startPulse();
+      Speech.speak(poi.summary, {
+        language: 'en',
+        rate: 0.95,
+        onDone: () => { setIsSpeaking(false); stopPulse(); },
+        onStopped: () => { setIsSpeaking(false); stopPulse(); },
+        onError: () => { setIsSpeaking(false); stopPulse(); }
+      });
+    }
+  };
 
   const handleShare = async () => {
     if (!poi) return;
@@ -135,9 +182,21 @@ export default function POIDetailScreen() {
         )}
       </View>
 
-      {/* Summary */}
+      {/* Summary / About section with Listen button */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>{t('poi.about')}</Text>
+        <View style={styles.sectionHeader}>
+          <Text style={styles.sectionTitle}>{t('poi.about')}</Text>
+          <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
+            <Pressable
+              onPress={handleListen}
+              style={[styles.listenButton, isSpeaking && styles.listenButtonActive]}
+            >
+              <Text style={styles.listenText}>
+                {isSpeaking ? `⏹ ${t('poi.stop')}` : `🔊 ${t('poi.listen')}`}
+              </Text>
+            </Pressable>
+          </Animated.View>
+        </View>
         <Text style={styles.summary}>{poi.summary}</Text>
       </View>
 
@@ -224,10 +283,26 @@ const styles = StyleSheet.create({
   statLabel: { color: colors.textMuted, fontSize: 11 },
 
   section: { paddingHorizontal: 16, paddingVertical: 12, gap: 8 },
+  sectionHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 4
+  },
   sectionTitle: {
     color: colors.textMuted, fontSize: 11, fontWeight: '700',
-    letterSpacing: 1, marginBottom: 4
+    letterSpacing: 1
   },
+  listenButton: {
+    backgroundColor: colors.surface,
+    paddingHorizontal: 10, paddingVertical: 5,
+    borderRadius: 8, borderWidth: 1, borderColor: colors.border
+  },
+  listenButtonActive: {
+    borderColor: colors.primary,
+    backgroundColor: `${colors.primary}22`
+  },
+  listenText: { color: colors.primary, fontSize: 12, fontWeight: '600' },
   summary: { color: colors.text, fontSize: 15, lineHeight: 24 },
 
   factRow: { flexDirection: 'row', gap: 8, alignItems: 'flex-start' },

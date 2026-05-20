@@ -29,7 +29,10 @@ export const ja = {
     empty: 'フライトがありません',
     emptyDesc: '最初のフライトを追加して、空から世界を探索しましょう',
     addFlight: 'フライトを追加',
-    explore: '任意のフライトを探索 →'
+    explore: '任意のフライトを探索 →',
+    nextFlight: '次のフライト',
+    in: 'まで',
+    open: '開く'
   },
   addFlight: {
     title: 'フライトを追加',
@@ -87,7 +90,9 @@ export const ja = {
     notFound: '場所が見つかりません。',
     elevation: '標高',
     population: '人口',
-    distance: '距離'
+    distance: '距離',
+    listen: '聴く',
+    stop: '停止'
   },
   settings: {
     account: 'アカウント',

@@ -29,7 +29,10 @@ export const de = {
     empty: 'Noch keine Flüge',
     emptyDesc: 'Füge deinen ersten Flug hinzu, um die Welt von oben zu entdecken',
     addFlight: 'Flug hinzufügen',
-    explore: 'Beliebigen Flug erkunden →'
+    explore: 'Beliebigen Flug erkunden →',
+    nextFlight: 'Dein nächster Flug',
+    in: 'in',
+    open: 'Öffnen'
   },
   addFlight: {
     title: 'Flug hinzufügen',
@@ -87,7 +90,9 @@ export const de = {
     notFound: 'Ort nicht gefunden.',
     elevation: 'Höhe',
     population: 'Bevölkerung',
-    distance: 'Entfernung'
+    distance: 'Entfernung',
+    listen: 'Anhören',
+    stop: 'Stopp'
   },
   settings: {
     account: 'Konto',

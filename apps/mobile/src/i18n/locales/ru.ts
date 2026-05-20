@@ -29,7 +29,10 @@ export const ru = {
     empty: 'Пока нет рейсов',
     emptyDesc: 'Добавьте первый рейс, чтобы начать исследовать мир с высоты',
     addFlight: 'Добавить рейс',
-    explore: 'Исследовать любой рейс →'
+    explore: 'Исследовать любой рейс →',
+    nextFlight: 'Ваш следующий рейс',
+    in: 'через',
+    open: 'Открыть'
   },
   addFlight: {
     title: 'Добавить рейс',
@@ -87,7 +90,9 @@ export const ru = {
     notFound: 'Место не найдено.',
     elevation: 'Высота',
     population: 'Население',
-    distance: 'Расстояние'
+    distance: 'Расстояние',
+    listen: 'Слушать',
+    stop: 'Стоп'
   },
   settings: {
     account: 'Аккаунт',

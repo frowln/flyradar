@@ -29,7 +29,10 @@ export const es = {
     empty: 'Sin vuelos todavía',
     emptyDesc: 'Añade tu primer vuelo para empezar a explorar el mundo desde las alturas',
     addFlight: 'Añadir vuelo',
-    explore: 'Explorar cualquier vuelo →'
+    explore: 'Explorar cualquier vuelo →',
+    nextFlight: 'Tu próximo vuelo',
+    in: 'en',
+    open: 'Abrir'
   },
   addFlight: {
     title: 'Añadir vuelo',
@@ -87,7 +90,9 @@ export const es = {
     notFound: 'Lugar no encontrado.',
     elevation: 'Elevación',
     population: 'Población',
-    distance: 'Distancia'
+    distance: 'Distancia',
+    listen: 'Escuchar',
+    stop: 'Parar'
   },
   settings: {
     account: 'Cuenta',

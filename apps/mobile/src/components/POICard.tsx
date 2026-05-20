@@ -1,5 +1,6 @@
 import { View, Text, Pressable, StyleSheet, Image, Animated } from 'react-native';
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
+import * as Speech from 'expo-speech';
 import type { POI } from '@skyatlas/shared';
 import { colors } from '../theme/colors';
 import { haptics } from '../core/ux/haptics';
@@ -27,6 +28,7 @@ interface Props {
 
 export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMode = false }: Props) {
   const slideAnim = useRef(new Animated.Value(120)).current;
+  const [isSpeaking, setIsSpeaking] = useState(false);
 
   useEffect(() => {
     Animated.spring(slideAnim, {
@@ -35,7 +37,28 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
       tension: 65,
       friction: 10
     }).start();
+    return () => {
+      Speech.stop();
+    };
   }, []);
+
+  const handleSpeaker = async () => {
+    haptics.light();
+    const speaking = await Speech.isSpeakingAsync();
+    if (speaking) {
+      Speech.stop();
+      setIsSpeaking(false);
+    } else {
+      setIsSpeaking(true);
+      Speech.speak(poi.summary, {
+        language: 'en',
+        rate: 0.95,
+        onDone: () => setIsSpeaking(false),
+        onStopped: () => setIsSpeaking(false),
+        onError: () => setIsSpeaking(false)
+      });
+    }
+  };
 
   const icon = CATEGORY_ICONS[poi.category] ?? '📍';
   const photo = poi.photos?.[0];
@@ -61,9 +84,14 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
                 <Text style={styles.distance}>{distanceKm} km away</Text>
               </View>
             </View>
-            <Pressable onPress={() => { haptics.light(); onDismiss(); }} style={styles.dismissButton} hitSlop={8}>
-              <Text style={styles.dismissText}>✕</Text>
-            </Pressable>
+            <View style={styles.headerActions}>
+              <Pressable onPress={handleSpeaker} style={styles.speakerButton} hitSlop={8}>
+                <Text style={styles.speakerText}>{isSpeaking ? '⏹' : '🔊'}</Text>
+              </Pressable>
+              <Pressable onPress={() => { haptics.light(); onDismiss(); }} style={styles.dismissButton} hitSlop={8}>
+                <Text style={styles.dismissText}>✕</Text>
+              </Pressable>
+            </View>
           </View>
 
           {poi.facts.length > 0 && (
@@ -97,9 +125,14 @@ export default function POICard({ poi, distanceKm, onReadMore, onDismiss, kidsMo
               <Text style={styles.distance}>{distanceKm} km away</Text>
             </View>
           </View>
-          <Pressable onPress={() => { haptics.light(); onDismiss(); }} style={styles.dismissButton} hitSlop={8}>
-            <Text style={styles.dismissText}>✕</Text>
-          </Pressable>
+          <View style={styles.headerActions}>
+            <Pressable onPress={handleSpeaker} style={styles.speakerButton} hitSlop={8}>
+              <Text style={styles.speakerText}>{isSpeaking ? '⏹' : '🔊'}</Text>
+            </Pressable>
+            <Pressable onPress={() => { haptics.light(); onDismiss(); }} style={styles.dismissButton} hitSlop={8}>
+              <Text style={styles.dismissText}>✕</Text>
+            </Pressable>
+          </View>
         </View>
 
         <Text style={styles.summary} numberOfLines={3}>{poi.summary}</Text>
@@ -150,6 +183,9 @@ const styles = StyleSheet.create({
   titleBlock: { flex: 1 },
   name: { color: colors.text, fontSize: 16, fontWeight: '700' },
   distance: { color: colors.primary, fontSize: 12, fontWeight: '500', marginTop: 1 },
+  headerActions: { flexDirection: 'row', alignItems: 'center', gap: 4 },
+  speakerButton: { padding: 4 },
+  speakerText: { fontSize: 16 },
   dismissButton: { padding: 4 },
   dismissText: { color: colors.textMuted, fontSize: 16 },
   summary: { color: colors.textMuted, fontSize: 13, lineHeight: 18 },

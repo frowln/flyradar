@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import {
   View,
   Text,
@@ -6,8 +6,10 @@ import {
   Pressable,
   StyleSheet,
   ActivityIndicator,
-  RefreshControl
+  RefreshControl,
+  Animated
 } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { colors } from '../theme/colors';
@@ -41,6 +43,69 @@ function formatDuration(departure: string, arrival: string): string {
   return `${h}h ${m}m`;
 }
 
+function formatCountdown(departure: string): string {
+  const diff = new Date(departure).getTime() - Date.now();
+  if (diff <= 0) return '';
+  const totalMins = Math.floor(diff / 60_000);
+  const d = Math.floor(totalMins / 1440);
+  const h = Math.floor((totalMins % 1440) / 60);
+  const m = totalMins % 60;
+  if (d > 0) return `${d}d ${h}h ${m}m`;
+  if (h > 0) return `${h}h ${m}m`;
+  return `${m}m`;
+}
+
+function isUpcoming(departure: string): boolean {
+  return new Date(departure).getTime() > Date.now();
+}
+
+function HeroCard({ item, onPress }: { item: FlightRow; onPress: () => void }) {
+  const [countdown, setCountdown] = useState(() => formatCountdown(item.pkg.flight.scheduledDeparture));
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCountdown(formatCountdown(item.pkg.flight.scheduledDeparture));
+    }, 60_000);
+    return () => clearInterval(timer);
+  }, [item.pkg.flight.scheduledDeparture]);
+
+  const { flight } = item.pkg;
+
+  return (
+    <LinearGradient
+      colors={[colors.primary, '#1A4A8E']}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+      style={styles.heroCard}
+    >
+      <Text style={styles.heroLabel}>{t('home.nextFlight')}</Text>
+      <View style={styles.heroFlightRow}>
+        <Text style={styles.heroFlightNumber}>{flight.flightNumber}</Text>
+        {flight.airline ? <Text style={styles.heroAirline}>{flight.airline}</Text> : null}
+      </View>
+      {countdown ? (
+        <Text style={styles.heroCountdown}>
+          {t('home.in')} {countdown}
+        </Text>
+      ) : null}
+      <View style={styles.heroRoute}>
+        <View style={styles.heroAirport}>
+          <Text style={styles.heroIata}>{flight.origin.iata}</Text>
+          <Text style={styles.heroCity}>{flight.origin.city}</Text>
+        </View>
+        <Text style={styles.heroArrow}>→</Text>
+        <View style={[styles.heroAirport, styles.heroAirportRight]}>
+          <Text style={styles.heroIata}>{flight.destination.iata}</Text>
+          <Text style={styles.heroCity}>{flight.destination.city}</Text>
+        </View>
+      </View>
+      <Pressable style={styles.heroButton} onPress={onPress}>
+        <Text style={styles.heroButtonText}>{t('home.open')}</Text>
+      </Pressable>
+    </LinearGradient>
+  );
+}
+
 export default function HomeScreen() {
   const nav = useNavigation<Nav>();
   const [flights, setFlights] = useState<FlightRow[]>([]);
@@ -55,6 +120,17 @@ export default function HomeScreen() {
       const pkg = await loadPackage(row.flightId);
       if (pkg) loaded.push({ flightId: row.flightId, downloadedAt: row.downloadedAt, pkg });
     }
+    // Sort: upcoming first (soonest first), then past (most recent first)
+    loaded.sort((a, b) => {
+      const aUp = isUpcoming(a.pkg.flight.scheduledDeparture);
+      const bUp = isUpcoming(b.pkg.flight.scheduledDeparture);
+      if (aUp && !bUp) return -1;
+      if (!aUp && bUp) return 1;
+      if (aUp && bUp) {
+        return new Date(a.pkg.flight.scheduledDeparture).getTime() - new Date(b.pkg.flight.scheduledDeparture).getTime();
+      }
+      return new Date(b.pkg.flight.scheduledDeparture).getTime() - new Date(a.pkg.flight.scheduledDeparture).getTime();
+    });
     setFlights(loaded);
   }, []);
 
@@ -83,10 +159,17 @@ export default function HomeScreen() {
     );
   }
 
+  // Find the soonest upcoming flight for the hero card
+  const heroFlight = flights.find((f) => isUpcoming(f.pkg.flight.scheduledDeparture));
+  // Regular list: all flights except the hero one
+  const regularFlights = heroFlight
+    ? flights.filter((f) => f.flightId !== heroFlight.flightId)
+    : flights;
+
   return (
     <View style={styles.container}>
       <FlatList
-        data={flights}
+        data={regularFlights}
         keyExtractor={(item) => item.flightId}
         contentContainerStyle={flights.length === 0 ? styles.emptyList : styles.list}
         refreshControl={
@@ -97,18 +180,28 @@ export default function HomeScreen() {
           />
         }
         ListHeaderComponent={
-          <View style={styles.header}>
-            <Text style={typography.h1}>{t('home.title')}</Text>
+          <View>
+            <View style={styles.header}>
+              <Text style={typography.h1}>{t('home.title')}</Text>
+            </View>
+            {heroFlight ? (
+              <HeroCard
+                item={heroFlight}
+                onPress={() => nav.navigate('FlightDetail', { flightId: heroFlight.flightId })}
+              />
+            ) : null}
           </View>
         }
         ListEmptyComponent={
-          <EmptyState
-            icon="✈️"
-            title="No flights yet"
-            description="Add your first flight before you board to explore the world below."
-            ctaLabel="Add Flight"
-            onCtaPress={() => nav.navigate('AddFlight')}
-          />
+          heroFlight ? null : (
+            <EmptyState
+              icon="✈️"
+              title="No flights yet"
+              description="Add your first flight before you board to explore the world below."
+              ctaLabel="Add Flight"
+              onCtaPress={() => nav.navigate('AddFlight')}
+            />
+          )
         }
         renderItem={({ item }) => {
           const { flight } = item.pkg;
@@ -157,10 +250,76 @@ const styles = StyleSheet.create({
   header: {
     paddingHorizontal: 16,
     paddingTop: 16,
-    marginBottom: 24
+    marginBottom: 16
   },
   list: { padding: 16, gap: 12 },
   emptyList: { flex: 1 },
+
+  // Hero card
+  heroCard: {
+    marginHorizontal: 16,
+    marginBottom: 8,
+    borderRadius: 20,
+    padding: 20,
+    gap: 10,
+    shadowColor: colors.primary,
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.5,
+    shadowRadius: 12,
+    elevation: 10
+  },
+  heroLabel: {
+    color: 'rgba(255,255,255,0.75)',
+    fontSize: 12,
+    fontWeight: '700',
+    letterSpacing: 1,
+    textTransform: 'uppercase'
+  },
+  heroFlightRow: {
+    flexDirection: 'row',
+    alignItems: 'baseline',
+    gap: 10
+  },
+  heroFlightNumber: {
+    color: '#FFFFFF',
+    fontSize: 22,
+    fontWeight: '800'
+  },
+  heroAirline: {
+    color: 'rgba(255,255,255,0.7)',
+    fontSize: 14,
+    fontWeight: '500'
+  },
+  heroCountdown: {
+    color: '#FFFFFF',
+    fontSize: 32,
+    fontWeight: '800',
+    letterSpacing: -0.5
+  },
+  heroRoute: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    marginTop: 4
+  },
+  heroAirport: { gap: 2 },
+  heroAirportRight: { alignItems: 'flex-end' },
+  heroIata: { color: '#FFFFFF', fontSize: 26, fontWeight: '700' },
+  heroCity: { color: 'rgba(255,255,255,0.7)', fontSize: 12 },
+  heroArrow: { flex: 1, textAlign: 'center', color: 'rgba(255,255,255,0.6)', fontSize: 22 },
+  heroButton: {
+    marginTop: 4,
+    backgroundColor: 'rgba(255,255,255,0.2)',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.4)',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    alignSelf: 'flex-start'
+  },
+  heroButtonText: { color: '#FFFFFF', fontSize: 14, fontWeight: '700' },
+
+  // Regular cards
   card: {
     backgroundColor: colors.surface,
     borderRadius: 16,
