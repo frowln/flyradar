@@ -9,7 +9,8 @@ const KEYS = {
   COUNTRIES: 'countries_visited',
   KIDS_MODE: 'kids_mode',
   UNITS: 'units',
-  LANGUAGE: 'language'
+  LANGUAGE: 'language',
+  INFLIGHT_TUTORIAL_SEEN: 'inflight_tutorial_seen'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -102,6 +103,14 @@ export const collectionsStore = {
 
   setLanguage(locale: string): void {
     storage.set(KEYS.LANGUAGE, locale);
+  },
+
+  hasSeenInflightTutorial(): boolean {
+    return storage.getBoolean(KEYS.INFLIGHT_TUTORIAL_SEEN) ?? false;
+  },
+
+  markInflightTutorialSeen(): void {
+    storage.set(KEYS.INFLIGHT_TUTORIAL_SEEN, true);
   },
 
   reset(): void {

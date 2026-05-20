@@ -249,6 +249,12 @@ export const ru = {
     goHome: 'На главную',
     shareMessage: 'Приземлился! Летел %{flightNumber} из %{origin} в %{destination} — %{distance} км, открыл %{places} удивительных мест по пути. #SkyAtlas'
   },
+  tabs: {
+    flights: 'Мои рейсы',
+    explore: 'Найти рейс',
+    world: 'Мой мир',
+    profile: 'Профиль'
+  },
   profile: {
     title: 'Профиль',
     guest: 'Гость',

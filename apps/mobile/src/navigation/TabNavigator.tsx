@@ -1,6 +1,7 @@
 import { Text } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { colors } from '../theme/colors';
+import { t } from '../i18n';
 
 import HomeScreen from '../screens/HomeScreen';
 import BrowseScreen from '../screens/BrowseScreen';
@@ -38,22 +39,22 @@ export default function TabNavigator() {
       <Tab.Screen
         name="Flights"
         component={HomeScreen}
-        options={{ tabBarIcon: tabIcon('✈️'), title: 'My Flights' }}
+        options={{ tabBarIcon: tabIcon('✈️'), title: t('tabs.flights') }}
       />
       <Tab.Screen
         name="Explore"
         component={BrowseScreen}
-        options={{ tabBarIcon: tabIcon('🗺️'), title: 'Explore' }}
+        options={{ tabBarIcon: tabIcon('🗺️'), title: t('tabs.explore') }}
       />
       <Tab.Screen
         name="World"
         component={WorldMapScreen}
-        options={{ tabBarIcon: tabIcon('🌍'), title: 'My World' }}
+        options={{ tabBarIcon: tabIcon('🌍'), title: t('tabs.world') }}
       />
       <Tab.Screen
         name="Profile"
         component={ProfileScreen}
-        options={{ tabBarIcon: tabIcon('👤'), title: 'Profile' }}
+        options={{ tabBarIcon: tabIcon('👤'), title: t('tabs.profile') }}
       />
     </Tab.Navigator>
   );

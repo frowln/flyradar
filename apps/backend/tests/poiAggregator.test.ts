@@ -21,6 +21,7 @@ const mockRoute = Array.from({ length: 20 }, (_, i) => ({
 
 beforeEach(() => {
   vi.clearAllMocks();
+  process.env['GEONAMES_USER'] = 'test_user';
 });
 
 describe('aggregatePOIsForRoute', () => {

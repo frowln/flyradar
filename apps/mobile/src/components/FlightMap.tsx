@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import MapView, { Polyline, Marker, PROVIDER_DEFAULT } from 'react-native-maps';
 import type { RoutePoint, POI } from '@skyatlas/shared';
@@ -13,15 +13,23 @@ interface Props {
 
 export default function FlightMap({ route, position, pois = [], followPlane = true }: Props) {
   const mapRef = useRef<MapView>(null);
+  const [userInteracting, setUserInteracting] = useState(false);
+  const interactionTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handlePanDrag = () => {
+    setUserInteracting(true);
+    if (interactionTimeoutRef.current) clearTimeout(interactionTimeoutRef.current);
+    interactionTimeoutRef.current = setTimeout(() => setUserInteracting(false), 10000);
+  };
 
   useEffect(() => {
-    if (followPlane && mapRef.current) {
+    if (followPlane && !userInteracting && mapRef.current) {
       mapRef.current.animateCamera(
         { center: { latitude: position.lat, longitude: position.lon }, zoom: 5 },
         { duration: 800 }
       );
     }
-  }, [position.lat, position.lon, followPlane]);
+  }, [position.lat, position.lon, followPlane, userInteracting]);
 
   // Split route into traversed (past) and remaining (future)
   const idx = route.findIndex((p) => p.elapsedSeconds > position.elapsedSeconds);
@@ -43,6 +51,11 @@ export default function FlightMap({ route, position, pois = [], followPlane = tr
       showsCompass
       showsScale
       mapType="standard"
+      zoomEnabled={true}
+      scrollEnabled={true}
+      pitchEnabled={true}
+      rotateEnabled={true}
+      onPanDrag={handlePanDrag}
     >
       {/* Traversed path — dimmed */}
       <Polyline

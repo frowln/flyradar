@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { View, Text, Pressable, StyleSheet, SafeAreaView } from 'react-native';
+import { View, Text, Pressable, StyleSheet, SafeAreaView, Modal } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
@@ -33,6 +33,7 @@ export default function InFlightScreen() {
   const [followPlane, setFollowPlane] = useState(true);
   const [activePOI, setActivePOI] = useState<ScheduledPOI | null>(null);
   const [kidsModeOn] = useState(() => collectionsStore.isKidsMode());
+  const [showTutorial, setShowTutorial] = useState(() => !collectionsStore.hasSeenInflightTutorial());
   const activePOIRef = useRef<ScheduledPOI | null>(null);
   const tickRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -72,6 +73,11 @@ export default function InFlightScreen() {
     tickRef.current = setInterval(tick, TICK_MS);
     return () => { if (tickRef.current) clearInterval(tickRef.current); };
   }, [activePackage, takeoffAt]);
+
+  const handleDismissTutorial = () => {
+    collectionsStore.markInflightTutorialSeen();
+    setShowTutorial(false);
+  };
 
   const handleDismissPOI = async () => {
     if (activePOI) {
@@ -188,6 +194,28 @@ export default function InFlightScreen() {
           takeoffAt={takeoffAt}
         />
       </View>
+
+      {/* First-time in-flight tutorial overlay */}
+      <Modal
+        visible={showTutorial}
+        transparent
+        animationType="fade"
+        onRequestClose={handleDismissTutorial}
+      >
+        <View style={styles.tutorialBackdrop}>
+          <View style={styles.tutorialSheet}>
+            <Text style={styles.tutorialTitle}>Welcome aboard</Text>
+            <View style={styles.tutorialRows}>
+              <Text style={styles.tutorialRow}>👈 👉  Pinch to zoom the map</Text>
+              <Text style={styles.tutorialRow}>🗺️  POI cards appear automatically</Text>
+              <Text style={styles.tutorialRow}>📍  Tap them to learn about places below</Text>
+            </View>
+            <Pressable onPress={handleDismissTutorial} style={styles.tutorialDismiss}>
+              <Text style={styles.tutorialDismissText}>Got it</Text>
+            </Pressable>
+          </View>
+        </View>
+      </Modal>
     </View>
   );
 }
@@ -258,5 +286,48 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0
+  },
+
+  tutorialBackdrop: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.55)',
+    justifyContent: 'flex-end'
+  },
+  tutorialSheet: {
+    backgroundColor: colors.bg,
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    paddingHorizontal: 24,
+    paddingTop: 24,
+    paddingBottom: 40,
+    borderTopWidth: 1,
+    borderColor: colors.border,
+    gap: 16
+  },
+  tutorialTitle: {
+    color: colors.text,
+    fontSize: 18,
+    fontWeight: '700',
+    textAlign: 'center'
+  },
+  tutorialRows: {
+    gap: 12
+  },
+  tutorialRow: {
+    color: colors.textMuted,
+    fontSize: 15,
+    lineHeight: 22
+  },
+  tutorialDismiss: {
+    backgroundColor: colors.primary,
+    borderRadius: 12,
+    paddingVertical: 14,
+    alignItems: 'center',
+    marginTop: 4
+  },
+  tutorialDismissText: {
+    color: colors.text,
+    fontSize: 16,
+    fontWeight: '700'
   }
 });

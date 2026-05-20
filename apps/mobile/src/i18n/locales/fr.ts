@@ -249,6 +249,12 @@ export const fr = {
     goHome: 'Accueil',
     shareMessage: 'Atterri ! Vol %{flightNumber} de %{origin} à %{destination} — %{distance} km, %{places} lieux incroyables découverts. #SkyAtlas'
   },
+  tabs: {
+    flights: 'Vols',
+    explore: 'Explorer',
+    world: 'Monde',
+    profile: 'Profil'
+  },
   profile: {
     title: 'Profil',
     guest: 'Invité',

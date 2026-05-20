@@ -249,6 +249,12 @@ export const ja = {
     goHome: 'ホームへ',
     shareMessage: '着陸！%{flightNumber}で%{origin}から%{destination}へ — %{distance}km、途中%{places}か所の素晴らしい場所を発見。#SkyAtlas'
   },
+  tabs: {
+    flights: 'フライト',
+    explore: '探索',
+    world: 'ワールド',
+    profile: 'プロフィール'
+  },
   profile: {
     title: 'プロフィール',
     guest: 'ゲスト',

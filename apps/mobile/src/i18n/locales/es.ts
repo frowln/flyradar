@@ -249,6 +249,12 @@ export const es = {
     goHome: 'Ir al inicio',
     shareMessage: '¡Aterricé! Vuelo %{flightNumber} de %{origin} a %{destination} — %{distance} km, descubrí %{places} lugares increíbles. #SkyAtlas'
   },
+  tabs: {
+    flights: 'Vuelos',
+    explore: 'Explorar',
+    world: 'Mundo',
+    profile: 'Perfil'
+  },
   profile: {
     title: 'Perfil',
     guest: 'Invitado',
