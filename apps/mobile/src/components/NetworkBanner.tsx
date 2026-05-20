@@ -10,7 +10,9 @@ export default function NetworkBanner() {
 
   useEffect(() => {
     const unsub = NetInfo.addEventListener((state) => {
-      const isOffline = !state.isConnected;
+      // Only treat as offline when explicitly disconnected
+      // (null/undefined from NetInfo means "unknown" — don't show banner)
+      const isOffline = state.isConnected === false;
       setOffline(isOffline);
     });
     return () => unsub();
