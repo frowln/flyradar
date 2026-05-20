@@ -36,6 +36,11 @@ export async function scheduleFlightReminder(
   const now = Date.now();
   const reminders = [
     {
+      offsetMs: 24 * 60 * 60 * 1000,
+      title: `✈️ Tomorrow: flight ${flightNumber}`,
+      body: 'Get ready — preview your route, weather, and POIs along the way.'
+    },
+    {
       offsetMs: 2 * 60 * 60 * 1000,
       title: `Flight ${flightNumber} in 2 hours`,
       body: 'Make sure SkyAtlas has the latest offline package'

@@ -17,7 +17,10 @@ const KEYS = {
   SOUND_ENABLED: 'sound_enabled',
   INSTALL_DATE: 'install_date',
   LEADERBOARD_EMAIL: 'leaderboard_email',
-  DEVICE_TOKEN: 'device_token'
+  DEVICE_TOKEN: 'device_token',
+  DAILY_FACTS_ENABLED: 'daily_facts_enabled',
+  FREEZE_TOKENS: 'freeze_tokens',
+  FREEZE_USED_THIS_MONTH: 'freeze_used_this_month'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -184,6 +187,30 @@ export const collectionsStore = {
 
   setDeviceToken(token: string): void {
     storage.set(KEYS.DEVICE_TOKEN, token);
+  },
+
+  getDailyFactsEnabled(): boolean {
+    return storage.getBoolean(KEYS.DAILY_FACTS_ENABLED) ?? true;
+  },
+
+  setDailyFactsEnabled(enabled: boolean): void {
+    storage.set(KEYS.DAILY_FACTS_ENABLED, enabled);
+  },
+
+  getFreezeTokens(): number {
+    return storage.getNumber(KEYS.FREEZE_TOKENS) ?? 0;
+  },
+
+  setFreezeTokens(n: number): void {
+    storage.set(KEYS.FREEZE_TOKENS, n);
+  },
+
+  getFreezeUsedThisMonth(): number {
+    return storage.getNumber(KEYS.FREEZE_USED_THIS_MONTH) ?? 0;
+  },
+
+  setFreezeUsedThisMonth(n: number): void {
+    storage.set(KEYS.FREEZE_USED_THIS_MONTH, n);
   },
 
   reset(): void {

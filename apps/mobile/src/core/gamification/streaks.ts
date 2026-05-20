@@ -2,6 +2,27 @@ export interface FlightLog {
   date: string;  // ISO date YYYY-MM-DD
 }
 
+export interface StreakState {
+  currentStreak: number;
+  bestStreak: number;
+  freezesAvailable: number;
+  usedFreezesThisMonth: number;
+}
+
+export function calculateStreaksWithFreezes(
+  flights: FlightLog[],
+  freezes: number,
+  usedFreezes: number
+): StreakState {
+  const base = calculateStreaks(flights);
+  return {
+    currentStreak: base.currentStreak,
+    bestStreak: base.bestStreak,
+    freezesAvailable: Math.max(0, freezes - usedFreezes),
+    usedFreezesThisMonth: usedFreezes
+  };
+}
+
 export function calculateStreaks(flights: FlightLog[]): {
   currentStreak: number;   // months
   bestStreak: number;

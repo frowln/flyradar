@@ -142,6 +142,7 @@ export default function ProfileScreen() {
 
   const streakFlights = stats.firstFlightDate ? [{ date: stats.firstFlightDate }] : [];
   const { currentStreak } = calculateStreaks(streakFlights);
+  const freezesAvailable = collectionsStore.getFreezeTokens() - collectionsStore.getFreezeUsedThisMonth();
 
   const xp = calculateXP({
     flightsCompleted: stats.totalFlights,
@@ -302,6 +303,7 @@ export default function ProfileScreen() {
           <View style={styles.journeyCardText}>
             <Text style={styles.journeyCardTitle}>
               {t('profile.streakTitle', { count: currentStreak })}
+              {freezesAvailable > 0 ? ` · ❄️ ${freezesAvailable} freeze${freezesAvailable === 1 ? '' : 's'}` : ''}
             </Text>
             <Text style={styles.journeyCardSub}>{t('profile.streakSub')}</Text>
           </View>

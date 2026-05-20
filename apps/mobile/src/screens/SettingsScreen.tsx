@@ -17,6 +17,7 @@ import { collectionsStore } from '../core/gamification/collections';
 import type { RootStackParamList } from '../navigation/types';
 import { t, setLocale, getLocale, SUPPORTED_LOCALES } from '../i18n';
 import { haptics } from '../core/ux/haptics';
+import { enableDailyFacts, disableDailyFacts } from '../core/ux/dailyFacts';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Settings'>;
 
@@ -39,6 +40,7 @@ export default function SettingsScreen() {
   const [theme, setThemeState] = useState<ThemeName>(() => getTheme());
   const [narrator, setNarratorState] = useState<NarratorStyle>(() => collectionsStore.getNarrator());
   const [soundEnabled, setSoundEnabledState] = useState(() => collectionsStore.getSoundEnabled());
+  const [dailyFacts, setDailyFactsState] = useState(() => collectionsStore.getDailyFactsEnabled());
 
   function toggleUnits() {
     const next = units === 'km' ? 'miles' : 'km';
@@ -66,6 +68,17 @@ export default function SettingsScreen() {
     collectionsStore.setSoundEnabled(next);
     setSoundEnabledState(next);
     haptics.light();
+  }
+
+  function toggleDailyFacts() {
+    const next = !dailyFacts;
+    setDailyFactsState(next);
+    haptics.light();
+    if (next) {
+      enableDailyFacts().catch(() => {});
+    } else {
+      disableDailyFacts().catch(() => {});
+    }
   }
 
   function cycleNarrator() {
@@ -142,6 +155,16 @@ export default function SettingsScreen() {
           <Text style={[typography.body, styles.rowLabel]}>{t('settings.soundEffects')}</Text>
           <Text style={[typography.body, styles.rowValue]}>{soundEnabled ? t('common.on') : t('common.off')}</Text>
         </Pressable>
+        <View style={styles.divider} />
+        <Pressable
+          style={styles.row}
+          onPress={toggleDailyFacts}
+          accessibilityLabel={dailyFacts ? 'Disable daily sky facts notification' : 'Enable daily sky facts notification'}
+          accessibilityRole="button"
+        >
+          <Text style={[typography.body, styles.rowLabel]}>📅 Daily Sky Facts</Text>
+          <Text style={[typography.body, styles.rowValue]}>{dailyFacts ? t('common.on') : t('common.off')}</Text>
+        </Pressable>
       </View>
 
       {/* About */}
@@ -154,7 +177,7 @@ export default function SettingsScreen() {
         <View style={styles.divider} />
         <View style={styles.aboutRow}>
           <Text style={[typography.caption, styles.aboutText]}>
-            SkyAtlas — Discover the world from above
+            SkyAtlas — Your personal atlas of the world from above
           </Text>
         </View>
       </View>

@@ -14,6 +14,8 @@ import { initNotifications } from './src/core/ux/notifications';
 import { collectionsStore } from './src/core/gamification/collections';
 import { initSentry, SentryWrapper } from './src/core/observability/sentry';
 import { initAnalytics } from './src/core/analytics';
+import { restoreFromiCloud } from './src/core/cloud/iCloudBackup';
+import { scheduleDailyFact } from './src/core/ux/dailyFacts';
 
 SplashScreen.preventAutoHideAsync();
 collectionsStore.markInstalled();
@@ -34,7 +36,11 @@ function App() {
   });
 
   useEffect(() => {
-    initNotifications();
+    initNotifications().then(() => {
+      scheduleDailyFact().catch(() => {});
+    });
+    // Attempt iCloud restore on mount — no-op on Android/web or if cloud is older
+    restoreFromiCloud().catch(() => {});
   }, []);
 
   useEffect(() => {

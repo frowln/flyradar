@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   View,
   Text,
@@ -8,6 +8,9 @@ import {
   ActivityIndicator,
   Share
 } from 'react-native';
+import { captureRef } from 'react-native-view-shot';
+import * as Sharing from 'expo-sharing';
+import InstagramStoryCard from '../components/InstagramStoryCard';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { RouteProp } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -54,6 +57,7 @@ export default function FlightSummaryScreen() {
   const [loading, setLoading] = useState(true);
   const { seenPOIs, clearFlight } = useFlightStore();
   const showAchievementToast = useAchievementToast((s) => s.show);
+  const cardRef = useRef<View>(null);
 
   useEffect(() => {
     loadPackage(flightId).then(setPkg).finally(() => setLoading(false));
@@ -74,7 +78,14 @@ export default function FlightSummaryScreen() {
       // Show in-app toast for the first new achievement only
       const first = ACHIEVEMENTS.find((a) => a.id === newIds[0]);
       if (first) {
-        showAchievementToast({ id: first.id, name: first.name, icon: first.icon, description: first.description });
+        const milestoneIds = ['air_wolf', 'legend', 'globetrotter', 'explorer'];
+        showAchievementToast({
+          id: first.id,
+          name: first.name,
+          icon: first.icon,
+          description: first.description,
+          isMilestone: milestoneIds.includes(first.id)
+        });
       }
     }
 
@@ -84,6 +95,19 @@ export default function FlightSummaryScreen() {
   const handleDone = () => {
     clearFlight();
     nav.navigate('Tabs');
+  };
+
+  const handleShareCard = async () => {
+    if (!cardRef.current || !pkg) return;
+    try {
+      const uri = await captureRef(cardRef, { format: 'png', quality: 1, width: 1080, height: 1920 });
+      const available = await Sharing.isAvailableAsync();
+      if (available) {
+        await Sharing.shareAsync(uri, { mimeType: 'image/png' });
+      }
+    } catch {
+      // sharing not available or user cancelled — silent fail
+    }
   };
 
   const handleShare = async () => {
@@ -185,7 +209,21 @@ export default function FlightSummaryScreen() {
         </View>
       )}
 
+      {/* Hidden 1080×1920 Instagram Story card — rendered off-screen for capture */}
+      <View style={{ position: 'absolute', left: -10000 }} pointerEvents="none">
+        <InstagramStoryCard
+          ref={cardRef}
+          flight={flight}
+          distanceKm={distKm}
+          poisDiscovered={discoveredPOIs.length}
+        />
+      </View>
+
       {/* Action buttons */}
+      <Pressable style={styles.shareCardButton} onPress={handleShareCard}>
+        <Text style={styles.shareCardButtonText}>📸 Share to Instagram Story</Text>
+      </Pressable>
+
       <Pressable style={styles.shareButton} onPress={handleShare}>
         <Text style={styles.shareButtonText}>{t('flightSummary.shareFlight')}</Text>
       </Pressable>
@@ -245,6 +283,12 @@ const styles = StyleSheet.create({
   poiCategory: { color: colors.textMuted, fontSize: 12, textTransform: 'capitalize' },
 
   missedItem: { color: colors.textMuted, fontSize: 14 },
+
+  shareCardButton: {
+    backgroundColor: colors.surfaceTinted, borderWidth: 1, borderColor: colors.accent,
+    padding: 16, borderRadius: 14, alignItems: 'center'
+  },
+  shareCardButtonText: { color: colors.accent, fontSize: 16, fontWeight: '700' },
 
   shareButton: {
     backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.primary,
