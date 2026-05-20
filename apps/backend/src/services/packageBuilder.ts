@@ -2,6 +2,7 @@ import type { OfflinePackage, POI, POITranslation } from '@skyatlas/shared';
 import { getFlight } from './flightLookup.js';
 import { buildRoute } from './routeBuilder.js';
 import { aggregatePOIsForRoute } from './poiAggregator.js';
+import { cacheGet, cacheSet } from '../cache/redis.js';
 
 function applyLocale(poi: POI, locale: string): POI {
   if (locale === 'en') return poi;
@@ -15,6 +16,11 @@ export async function buildPackage(
   date: string,
   locale = 'en'
 ): Promise<OfflinePackage | null> {
+  const cacheKey = `pkg:${flightNumber}:${date}:${locale}`;
+
+  const cached = await cacheGet<OfflinePackage>(cacheKey);
+  if (cached) return cached;
+
   const flight = await getFlight(flightNumber, date);
   if (!flight) return null;
 
@@ -32,11 +38,14 @@ export async function buildPackage(
   const pois = await aggregatePOIsForRoute(route, 200, locale);
   const localizedPois = pois.map(p => applyLocale(p, locale));
 
-  return {
+  const pkg: OfflinePackage = {
     version: 1,
     flight,
     route,
     pois: localizedPois,
     generatedAt: new Date().toISOString()
   };
+
+  await cacheSet(cacheKey, pkg, 7 * 24 * 60 * 60);
+  return pkg;
 }
