@@ -1,51 +1,74 @@
 import { collectionsStore } from '../core/gamification/collections';
+import { palette, type PaletteName } from './tokens';
 
-const dark = {
-  bg: '#0A0B14',
-  surface: '#13151F',
-  surfaceElevated: '#1C1F2E',
-  surfaceTinted: '#1A2A4E',
-  primary: '#5E8BFF',
-  primaryDim: '#3D5BA8',
-  accent: '#FFB547',
-  accentDim: '#A8762E',
-  text: '#F5F6FA',
-  textMuted: '#8B95B0',
-  textDim: '#6B7290',
-  success: '#34D399',
-  error: '#FB7185',
-  warning: '#FBBF24',
-  border: '#252A3D',
-  borderSubtle: '#1A1D2B',
-  glow: 'rgba(94, 139, 255, 0.15)'
-};
+/**
+ * Runtime colour access.
+ *
+ * Screens read `colors.x` and get the value for the active theme. The legacy
+ * names below (primary, surfaceElevated, glow, …) are kept as aliases onto the
+ * token set so the existing screens keep compiling while they migrate; new code
+ * should use the token names directly.
+ *
+ * `primary` deliberately resolves to the accent: the product has one accent, and
+ * the old blue is gone.
+ */
+function resolve(name: PaletteName) {
+  const p = palette[name];
+  return {
+    // Tokens
+    bg: p.bg,
+    surface: p.surface,
+    surfaceHigh: p.surfaceHigh,
+    surfaceTinted: p.surfaceTinted,
+    line: p.line,
+    lineSoft: p.lineSoft,
+    text: p.text,
+    textMuted: p.textMuted,
+    textDim: p.textDim,
+    accent: p.accent,
+    accentDim: p.accentDim,
+    accentSoft: p.accentSoft,
+    positive: p.positive,
+    warning: p.warning,
+    negative: p.negative,
+    collect: p.collect,
 
-const light = {
-  bg: '#F8FAFC',
-  surface: '#FFFFFF',
-  surfaceElevated: '#F0F4F9',
-  surfaceTinted: '#EEF3FF',
-  primary: '#1A6CF5',
-  primaryDim: '#1250B8',
-  accent: '#E0A800',
-  accentDim: '#A87A00',
-  text: '#0A0E1A',
-  textMuted: '#6B7280',
-  textDim: '#9CA3AF',
-  success: '#15803D',
-  error: '#DC2626',
-  warning: '#D97706',
-  border: '#E5E7EB',
-  borderSubtle: '#F3F4F6',
-  glow: 'rgba(26, 108, 245, 0.10)'
-};
+    // Legacy aliases — remove as screens migrate to the token names.
+    primary: p.accent,
+    primaryDim: p.accentDim,
+    surfaceElevated: p.surfaceHigh,
+    border: p.line,
+    borderSubtle: p.lineSoft,
+    success: p.positive,
+    error: p.negative,
+    glow: p.accentSoft
+  };
+}
 
-export type ThemeName = 'dark' | 'light';
+const themes = {
+  dark: resolve('dark'),
+  light: resolve('light')
+} as const;
+
+export type ThemeName = PaletteName;
+export type Colors = (typeof themes)['dark'];
+
 let currentTheme: ThemeName = (collectionsStore.getTheme?.() as ThemeName) || 'dark';
 
-export const colors = new Proxy({} as typeof dark, {
+export const colors = new Proxy({} as Colors, {
   get(_, key: string) {
-    return currentTheme === 'dark' ? (dark as any)[key] : (light as any)[key];
+    return (themes[currentTheme] as Record<string, string>)[key];
+  },
+  // Keeps Object.keys(colors) and spread working for tests and debug tooling.
+  ownKeys() {
+    return Reflect.ownKeys(themes[currentTheme]);
+  },
+  getOwnPropertyDescriptor(_, key) {
+    return {
+      value: (themes[currentTheme] as Record<string, string>)[key as string],
+      enumerable: true,
+      configurable: true
+    };
   }
 });
 

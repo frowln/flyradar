@@ -1,7 +1,7 @@
 {
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"ls /Users/damirkasimov/Desktop/flyradar/apps/mobile/__tests__/ 2>/dev/null && ls /Users/damirkasimov/Desktop/flyradar/apps/mobile/__tests__/e2e/ 2>/dev/null\",\"description\":\"Check existing ...",
-  "error": "Exit code 1\nflight\ngamification\ngeo\ntrip",
-  "timestamp": "2026-05-20T13:12:18.730Z",
-  "retry_count": 2
+  "tool_name": "mcp__Claude_Code_iOS_Simulator__control",
+  "tool_input_preview": "{\"action\":\"wait\",\"duration\":14}",
+  "error": "MCP error -32602: Input validation error: Invalid arguments for tool control: [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"attach\",\n      \"launch\",\n      \"screenshot\",\n      \"tap\",\n      \"swipe\",\n      \"touch_path\",\n      \"touch2_path\",\n      \"text\",\n      \"button\",\n      \"open_url\",\n      \"detach\"\n    ],\n    \"path\": [\n      \"action\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"attach\\\"|\\\"launch\\\"|\\\"screenshot\\\"|\\\"tap\\\"|\\\"swipe\\\"|\\\"touch_path\\\"|\\\"touch2_path\\\"|\\\"text\\\"|\\...",
+  "timestamp": "2026-08-10T15:00:40.650Z",
+  "retry_count": 1
 }

@@ -17,7 +17,7 @@ export const useToast = create<ToastState>((set) => ({
     set({ message, type });
     setTimeout(() => set({ message: null }), 3000);
   },
-  hide: () => set({ message: null })
+  hide: () => set({ message: null }),
 }));
 
 export default function Toast() {
@@ -29,7 +29,7 @@ export default function Toast() {
       toValue: message ? 56 : -100,
       useNativeDriver: true,
       tension: 80,
-      friction: 12
+      friction: 12,
     }).start();
   }, [message]);
 
@@ -58,13 +58,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 12,
-    shadowColor: '#000',
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 4 },
-    elevation: 8,
-    zIndex: 9999
+
+    zIndex: 9999,
   },
   icon: { color: '#fff', fontSize: 18, fontWeight: '700' },
-  message: { color: '#fff', fontSize: 15, fontWeight: '600', flex: 1 }
+  message: { color: '#fff', fontSize: 15, fontWeight: '600', flex: 1 },
 });

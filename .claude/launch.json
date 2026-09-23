@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "design-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "/private/tmp/claude-501/-Users-damirkasimov-Desktop--------flyradar/be89b952-5a23-4ed8-8518-b26befc1641e/scratchpad/serve.py"
+      ],
+      "port": 8792
+    }
+  ]
+}

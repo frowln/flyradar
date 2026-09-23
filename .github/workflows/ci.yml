@@ -10,6 +10,7 @@ jobs:
       - run: npm ci
       - run: npm test --workspace apps/backend
       - run: cd apps/backend && npx tsc --noEmit
+      - run: cd apps/backend && npm run build
   mobile:
     runs-on: ubuntu-latest
     steps:
@@ -17,5 +18,11 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '20', cache: 'npm' }
       - run: npm ci
+      # Catches a bundled face that lacks glyphs for a shipped language — it
+      # would otherwise render as a silent system fallback with no build error.
+      - run: cd apps/mobile && npm run check:fonts
+      # i18n-js renders a missing key as visible placeholder text rather than
+      # failing, so nothing else catches an untranslated string before release.
+      - run: cd apps/mobile && npm run check:i18n
       - run: cd apps/mobile && npx tsc --noEmit
       - run: cd apps/mobile && npx vitest run

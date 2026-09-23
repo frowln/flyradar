@@ -35,7 +35,7 @@ export async function buildPackage(
     { points: 200, durationMinutes: durationMin }
   );
 
-  const pois = await aggregatePOIsForRoute(route, 200, locale);
+  const pois = await aggregatePOIsForRoute(route, 500, locale);
   const localizedPois = pois.map(p => applyLocale(p, locale));
 
   const pkg: OfflinePackage = {

@@ -12,6 +12,8 @@ export type RootStackParamList = {
   Paywall: undefined;
   Wrapped: undefined;
   Settings: undefined;
+  People: undefined;
+  Person: { userId: string };
   Simulator: undefined;
   Referral: undefined;
   Leaderboard: undefined;

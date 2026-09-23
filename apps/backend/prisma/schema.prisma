@@ -18,20 +18,45 @@ model Airport {
   tz      String
 }
 
+/// A place on the ground worth naming from the air.
+///
+/// Loaded once from the GeoNames dump rather than looked up per request. The
+/// free geo APIs refuse often enough — "server is probably too busy", 429 on
+/// nine requests in ten — that route discovery through them returned a dozen
+/// places for a thirteen-hour flight. Held locally, the same lookup is a
+/// bounding-box query answering in milliseconds, with no network and no quota.
 model POI {
   id         String  @id @default(cuid())
   name       String
+  /// Localised names keyed by language: { "ru": "Ипох", "ja": "イポー" }.
+  /// Kept on the row rather than in a join table because every read wants all
+  /// of them and there are at most six.
+  names      Json    @default("{}")
   category   String
   lat        Float
   lon        Float
   elevation  Int?
   population Int?
   wikiTitle  String?
-  summary    String  @db.Text
-  facts      Json
-  photos     Json
+  /// Article titles per language. An exact title resolves the summary first
+  /// try; guessing from the place name silently loses everything whose article
+  /// is filed under a different heading.
+  wikiTitles Json    @default("{}")
+  /// Ranking inside a corridor, comparable across categories — a city's
+  /// population and a mountain's height are otherwise three orders of
+  /// magnitude apart and every village would outrank Mont Blanc.
+  prominence Int     @default(0)
+  /// Card text per language: { "ru": { summary, facts, photos } }.
+  ///
+  /// Filled the first time a route needs this place and kept afterwards, so the
+  /// second flight over it costs nothing. Not loaded up front — fetching a
+  /// summary for 386 000 places in six languages would take days and most of
+  /// them will never be flown over.
+  content    Json    @default("{}")
 
   @@index([lat, lon])
+  @@index([prominence])
+  @@index([category])
 }
 
 model FlightCache {
@@ -41,4 +66,160 @@ model FlightCache {
   cachedAt     DateTime @default(now())
 
   @@id([flightNumber, date])
+}
+
+// ---------------------------------------------------------------------------
+// Identity and the social layer.
+//
+// Everything below exists to answer three questions the app could not answer
+// before: who is this, what have they seen, and what do others think of it.
+// The order matters — a leaderboard without accounts has nowhere to write, and
+// reviews without accounts have no one to hold responsible.
+// ---------------------------------------------------------------------------
+
+model User {
+  id        String   @id @default(cuid())
+  /// Stable subject from Sign in with Apple. Never an email — Apple relays those.
+  appleSub  String?  @unique
+  googleSub String?  @unique
+  /// Chosen name shown to other people. Not unique: display names are not identity.
+  handle    String?
+  avatarUrl String?
+  locale    String   @default("en")
+  createdAt DateTime @default(now())
+
+  /// Set when the account is suspended for abuse. Suspended users can read, not write.
+  suspendedAt DateTime?
+
+  devices     Device[]
+  discoveries Discovery[]
+  reviews     Review[]
+  reviewVotes ReviewVote[]
+  reportsMade Report[]     @relation("reporter")
+  following   Friendship[] @relation("follower")
+  followers   Friendship[] @relation("followed")
+  stats       UserStats?
+}
+
+/// Lets an anonymous install keep its collection and later claim it on sign-in.
+model Device {
+  id        String   @id
+  userId    String?
+  platform  String
+  createdAt DateTime @default(now())
+  lastSeen  DateTime @updatedAt
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+}
+
+/// One person opening one place. The row every aggregate is computed from.
+model Discovery {
+  id         String   @id @default(cuid())
+  userId     String
+  poiId      String
+  /// Kept so a discovery can be shown in the context of the flight it happened on.
+  flightId   String?
+  discoveredAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  /// A place is discovered once per person; opening it again is not a new find.
+  @@unique([userId, poiId])
+  @@index([poiId])
+  @@index([userId, discoveredAt])
+}
+
+/// Denormalised counters, so "347 people have flown over this" is one read.
+model POIStat {
+  poiId          String   @id
+  discoveryCount Int      @default(0)
+  reviewCount    Int      @default(0)
+  ratingSum      Int      @default(0)
+  updatedAt      DateTime @updatedAt
+}
+
+/// A person's opinion of a place. User-generated content — see Report.
+model Review {
+  id        String   @id @default(cuid())
+  userId    String
+  poiId     String
+  /// 1–5. Enforced in the API; Postgres has no cheap range type for this.
+  rating    Int
+  body      String?  @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  /// Set by moderation. Hidden reviews stay in the table for appeals.
+  hiddenAt   DateTime?
+  hiddenReason String?
+
+  user    User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  votes   ReviewVote[]
+  reports Report[]
+
+  /// One review per person per place; editing replaces it.
+  @@unique([userId, poiId])
+  @@index([poiId, createdAt])
+}
+
+model ReviewVote {
+  reviewId  String
+  userId    String
+  helpful   Boolean
+  createdAt DateTime @default(now())
+
+  review Review @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([reviewId, userId])
+}
+
+/// Abuse report. Required by App Store Guideline 1.2 for any app carrying UGC.
+model Report {
+  id         String   @id @default(cuid())
+  reporterId String
+  reviewId   String?
+  reason     String
+  note       String?  @db.Text
+  createdAt  DateTime @default(now())
+  resolvedAt DateTime?
+
+  reporter User    @relation("reporter", fields: [reporterId], references: [id], onDelete: Cascade)
+  review   Review? @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@index([resolvedAt, createdAt])
+}
+
+/// A one-way follow. Blocking is the same table with `blocked` set.
+model Friendship {
+  followerId String
+  followedId String
+  blocked    Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  follower User @relation("follower", fields: [followerId], references: [id], onDelete: Cascade)
+  followed User @relation("followed", fields: [followedId], references: [id], onDelete: Cascade)
+
+  @@id([followerId, followedId])
+  @@index([followedId])
+}
+
+/// Leaderboard rows. Recomputed on write rather than aggregated on read: the
+/// board is read constantly and written a few times per flight.
+model UserStats {
+  userId          String   @id
+  flights         Int      @default(0)
+  distanceKm      Int      @default(0)
+  placesDiscovered Int     @default(0)
+  countries       Int      @default(0)
+  xp              Int      @default(0)
+  level           Int      @default(1)
+  updatedAt       DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  /// The leaderboard is ordered by XP, so it needs its own index.
+  @@index([xp])
 }

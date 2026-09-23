@@ -8,7 +8,11 @@ let initialized = false;
 export async function initRevenueCat(userId?: string): Promise<void> {
   if (initialized) return;
   if (!RC_API_KEY) {
-    console.warn('RevenueCat API key not set — monetization disabled');
+    // info, not warn: until the App Store Connect products exist there is no key
+    // to set, so this fires on every development launch. As a warning it raised
+    // a LogBox toast that sat over the tab bar and blocked the two screens
+    // behind it — noise that hides the warnings actually worth reading.
+    console.info('RevenueCat API key not set — monetization disabled');
     return;
   }
   Purchases.setLogLevel(LOG_LEVEL.ERROR);

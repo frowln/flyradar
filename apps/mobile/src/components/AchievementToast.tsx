@@ -26,7 +26,7 @@ export const useAchievementToast = create<AchToastState>((set) => ({
     haptics.success();
     setTimeout(() => set({ current: null }), 4500);
   },
-  hide: () => set({ current: null })
+  hide: () => set({ current: null }),
 }));
 
 const { width: W } = Dimensions.get('window');
@@ -38,7 +38,12 @@ export default function AchievementToast() {
 
   useEffect(() => {
     if (current) {
-      Animated.spring(scale, { toValue: 1, useNativeDriver: true, tension: 80, friction: 12 }).start();
+      Animated.spring(scale, {
+        toValue: 1,
+        useNativeDriver: true,
+        tension: 80,
+        friction: 12,
+      }).start();
       if (current.isMilestone) {
         confettiRef.current?.start();
       }
@@ -75,17 +80,20 @@ export default function AchievementToast() {
 
 const styles = StyleSheet.create({
   toast: {
-    position: 'absolute', top: 120, left: 24, right: 24,
+    position: 'absolute',
+    top: 120,
+    left: 24,
+    right: 24,
     backgroundColor: colors.surface,
-    borderRadius: 20, padding: 24,
-    alignItems: 'center', gap: 8,
-    borderWidth: 2, borderColor: colors.accent,
-    shadowColor: colors.accent,
-    shadowOpacity: 0.4, shadowRadius: 20, shadowOffset: { width: 0, height: 8 },
-    elevation: 12
+    borderRadius: 20,
+    padding: 24,
+    alignItems: 'center',
+    gap: 8,
+    borderWidth: 2,
+    borderColor: colors.accent,
   },
   unlockedLabel: { color: colors.accent, fontSize: 11, fontWeight: '800', letterSpacing: 2 },
   icon: { fontSize: 56, marginVertical: 4 },
   name: { color: colors.text, fontSize: 20, fontWeight: '800', textAlign: 'center' },
-  desc: { color: colors.textMuted, fontSize: 13, textAlign: 'center' }
+  desc: { color: colors.textMuted, fontSize: 13, textAlign: 'center' },
 });

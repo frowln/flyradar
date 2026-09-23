@@ -15,6 +15,7 @@ export default function FlightMap({ route, position, pois = [], followPlane = tr
   const mapRef = useRef<MapView>(null);
   const [userInteracting, setUserInteracting] = useState(false);
   const interactionTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const didInitialFitRef = useRef(false);
 
   const handlePanDrag = () => {
     setUserInteracting(true);
@@ -22,10 +23,29 @@ export default function FlightMap({ route, position, pois = [], followPlane = tr
     interactionTimeoutRef.current = setTimeout(() => setUserInteracting(false), 10000);
   };
 
+  // On first render, fit the whole route + POIs in view so the user sees the
+  // full picture — the plane is one moving dot, not the entire map.
   useEffect(() => {
+    if (didInitialFitRef.current || !mapRef.current || route.length < 2) return;
+    didInitialFitRef.current = true;
+    const coords = [
+      ...route.map((p) => ({ latitude: p.lat, longitude: p.lon })),
+      ...pois.map((p) => ({ latitude: p.lat, longitude: p.lon }))
+    ];
+    mapRef.current.fitToCoordinates(coords, {
+      edgePadding: { top: 120, right: 60, bottom: 200, left: 60 },
+      animated: false
+    });
+  }, [route, pois]);
+
+  // Subsequent position updates only re-center when "follow plane" is on and
+  // the user isn't actively panning. Zoom is wider (3.6) so the route + plane
+  // stay visible together — keeps motion legible for slow real-time playback.
+  useEffect(() => {
+    if (!didInitialFitRef.current) return;
     if (followPlane && !userInteracting && mapRef.current) {
       mapRef.current.animateCamera(
-        { center: { latitude: position.lat, longitude: position.lon }, zoom: 5 },
+        { center: { latitude: position.lat, longitude: position.lon }, zoom: 3.6 },
         { duration: 800 }
       );
     }

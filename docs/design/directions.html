@@ -1,0 +1,727 @@
+<title>SkyAtlas — три дизайн-направления</title>
+<style>
+  :root{
+    --ground:#0C0E12; --panel:#14171E; --panel2:#1A1E27;
+    --rule:#232833; --rule-soft:#1B1F28;
+    --text:#E7EAF0; --muted:#8B93A3; --dim:#646C7B;
+    --amber:#FF9E3D; --brass:#C9A227; --sky:#7DD3FC; --green:#4ADE80; --red:#F87171;
+    --mono: ui-monospace,"SF Mono",Menlo,"Cascadia Mono",Consolas,monospace;
+    --sans: -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;
+    --serif: Georgia,"Iowan Old Style","Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--ground); color:var(--text);
+    font-family:var(--sans); font-size:16px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  h1,h2,h3,h4{margin:0;text-wrap:balance;letter-spacing:-0.02em;font-weight:650}
+  p{margin:0}
+  .stack{display:flex;flex-direction:column}
+  .g8{gap:8px}.g12{gap:12px}.g16{gap:16px}.g24{gap:24px}.g32{gap:32px}.g48{gap:48px}
+
+  .eyebrow{
+    font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--dim);
+  }
+  .lead{color:var(--muted);font-size:17px;max-width:62ch}
+  .note{color:var(--muted);font-size:14.5px;max-width:64ch}
+  strong{color:var(--text);font-weight:620}
+
+  /* ---------- masthead ---------- */
+  header.top{padding:72px 0 40px;border-bottom:1px solid var(--rule)}
+  header.top h1{font-size:clamp(34px,5vw,52px);line-height:1.05;margin-bottom:18px}
+  .kicker{display:flex;align-items:baseline;gap:14px;margin-bottom:26px}
+  .kicker .bar{height:1px;width:44px;background:var(--amber);opacity:.8}
+
+  /* ---------- diagnosis ---------- */
+  .diag{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:8px}
+  .diag > div{background:var(--panel);padding:20px 22px;display:flex;flex-direction:column;gap:8px}
+  .diag h4{font-size:15px}
+  .diag p{font-size:13.5px;color:var(--muted);line-height:1.55}
+  .diag .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;color:var(--red)}
+
+  section{padding:80px 0;border-bottom:1px solid var(--rule)}
+  section.dir{padding:88px 0}
+
+  .dirhead{display:grid;grid-template-columns:1fr;gap:22px;margin-bottom:44px}
+  @media(min-width:860px){.dirhead{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:56px;align-items:start}}
+  .dirno{font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:var(--dim)}
+  .dirhead h2{font-size:clamp(26px,3.4vw,38px);line-height:1.1;margin:10px 0 14px}
+  .refworld{font-size:14px;color:var(--muted);line-height:1.65}
+  .refworld b{color:var(--text);font-weight:600}
+
+  .swatches{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--rule);margin-top:18px}
+  .sw{flex:1 1 0;min-width:74px;padding:14px 10px 12px;display:flex;flex-direction:column;gap:5px;border-right:1px solid var(--rule)}
+  .sw:last-child{border-right:0}
+  .sw .chip{height:26px;border-radius:2px;border:1px solid rgba(255,255,255,.09)}
+  .sw code{font-family:var(--mono);font-size:9.5px;color:var(--dim);letter-spacing:.02em}
+
+  /* ---------- phone frames ---------- */
+  .screens{display:flex;gap:26px;flex-wrap:wrap;justify-content:flex-start}
+  .shot{display:flex;flex-direction:column;gap:12px;width:296px}
+  .shot .cap{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+  .phone{
+    width:296px;height:626px;border-radius:34px;overflow:hidden;position:relative;
+    border:1px solid var(--rule);background:#000;flex:none;
+  }
+  .scr{position:absolute;inset:0;overflow:hidden;display:flex;flex-direction:column}
+  .statusbar{height:34px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 20px;font-family:var(--mono);font-size:10px;letter-spacing:.04em;opacity:.85}
+  .notch{display:none}
+
+  /* ============ DIRECTION A — INSTRUMENT ============ */
+  .A{--bg:#0B0E11;--sf:#12161B;--sf2:#191E25;--ln:#242B34;--tx:#E9EEF4;--mu:#7C8797;--ac:#FF9E3D}
+  .a-scr{background:var(--bg);color:var(--tx)}
+  .a-scr .statusbar{color:var(--mu)}
+  .a-lbl{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--mu)}
+  .a-gauge{position:relative;height:190px;flex:none;display:flex;align-items:center;justify-content:center}
+  .a-read{position:absolute;top:80px;left:0;right:0;text-align:center}
+  .a-read .big{font-family:var(--mono);font-size:34px;font-weight:500;letter-spacing:-.03em;color:#E9EEF4;line-height:1;font-variant-numeric:tabular-nums}
+  .a-read .sub{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--mu);margin-top:7px}
+  .a-tele{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ln);border-bottom:1px solid var(--ln);flex:none}
+  .a-tele div{padding:12px 0 13px;text-align:center;border-right:1px solid var(--ln)}
+  .a-tele div:last-child{border-right:0}
+  .a-tele .v{font-family:var(--mono);font-size:16px;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+  .a-tele .k{font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;color:var(--mu);margin-top:4px}
+  .a-map{flex:1;position:relative;background:#0E1216;overflow:hidden}
+  .a-poirail{flex:none;border-top:1px solid var(--ln);background:var(--sf);padding:13px 18px 15px;display:flex;gap:12px;align-items:center}
+  .a-poithumb{width:44px;height:44px;border-radius:3px;flex:none;background:linear-gradient(150deg,#3a4a3c,#243026);border:1px solid #2c3a30}
+  .a-tabs{flex:none;height:56px;border-top:1px solid var(--ln);display:flex;align-items:center;justify-content:space-around;background:var(--bg)}
+  .a-tab{font-family:var(--mono);font-size:8.5px;letter-spacing:.13em;color:#4E5866;display:flex;flex-direction:column;align-items:center;gap:5px}
+  .a-tab.on{color:var(--ac)}
+  .a-tab .ic{width:17px;height:17px;border:1.3px solid currentColor;border-radius:2px;opacity:.9}
+  .a-tab.on .ic{background:rgba(255,158,61,.14)}
+
+  /* A — POI card screen */
+  .a-hero{height:186px;flex:none;position:relative;background:linear-gradient(165deg,#2F3B33,#1A2320 60%,#141A18);overflow:hidden}
+  .a-hero .grain{position:absolute;inset:0;background:
+     repeating-linear-gradient(102deg,rgba(255,255,255,.035) 0 1px,transparent 1px 5px);}
+  .a-badge{position:absolute;top:14px;left:16px;font-family:var(--mono);font-size:9px;letter-spacing:.16em;
+    color:var(--ac);border:1px solid rgba(255,158,61,.4);padding:4px 8px;background:rgba(11,14,17,.55)}
+  .a-body{padding:18px 18px 0;display:flex;flex-direction:column;gap:12px;flex:1;overflow:hidden}
+  .a-title{font-size:25px;font-weight:650;letter-spacing:-.02em;line-height:1.1}
+  .a-sub{font-family:var(--mono);font-size:10px;letter-spacing:.13em;color:var(--mu)}
+  .a-metrics{display:flex;gap:0;border-top:1px solid var(--ln);border-bottom:1px solid var(--ln)}
+  .a-metrics div{flex:1;padding:9px 0;border-right:1px solid var(--ln)}
+  .a-metrics div:last-child{border-right:0}
+  .a-metrics .v{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums}
+  .a-metrics .k{font-family:var(--mono);font-size:8px;letter-spacing:.13em;color:var(--mu);margin-top:3px}
+  .a-text{font-size:13.5px;line-height:1.62;color:#C3CBD6}
+  .a-quiz{margin-top:auto;margin-bottom:0;border-top:1px solid var(--ln);padding:14px 0 16px;display:flex;align-items:center;gap:11px}
+  .a-qdot{width:24px;height:24px;border:1.3px solid var(--ac);color:var(--ac);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;flex:none}
+
+  /* A — collection */
+  .a-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ln);border-left:1px solid var(--ln)}
+  .a-cell{aspect-ratio:1;border-right:1px solid var(--ln);border-bottom:1px solid var(--ln);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
+  .a-cell .cc{font-family:var(--mono);font-size:13px;letter-spacing:.02em}
+  .a-cell .n{font-family:var(--mono);font-size:8px;color:var(--mu)}
+  .a-cell.off .cc{color:#333B45}
+  .a-cell.hit{background:rgba(255,158,61,.07)}
+  .a-cell.hit .cc{color:var(--ac)}
+
+  /* ============ DIRECTION B — ATLAS PLATE ============ */
+  .b-scr{background:#10131C;color:#E6E3DA}
+  .b-scr .statusbar{color:#8D8B84}
+  .b-rule{height:1px;background:#2A3142}
+  .b-dbl{border-top:1px solid #37405480;border-bottom:1px solid #374054;height:4px}
+  .b-plate{padding:16px 20px 0;flex:none}
+  .b-plateno{font-family:var(--mono);font-size:9.5px;letter-spacing:.22em;color:var(--brass)}
+  .b-title{font-family:var(--serif);font-size:29px;line-height:1.08;letter-spacing:-.01em;margin-top:9px;color:#F0EDE4}
+  .b-latin{font-family:var(--serif);font-style:italic;font-size:13.5px;color:#8D8B84;margin-top:5px}
+  .b-map{flex:1;position:relative;background:#0C0F17;overflow:hidden;margin:0}
+  .b-fig{padding:14px 20px 0;flex:none}
+  .b-figcap{font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;color:#7A7870;margin-top:9px}
+  .b-body{padding:14px 20px 0;font-family:var(--serif);font-size:14px;line-height:1.66;color:#CFCBBE}
+  .b-spec{display:flex;border-top:1px solid #2A3142;margin-top:14px}
+  .b-spec div{flex:1;padding:11px 0;text-align:center;border-right:1px solid #2A3142}
+  .b-spec div:last-child{border-right:0}
+  .b-spec .v{font-family:var(--serif);font-size:15px;color:#E6E3DA}
+  .b-spec .k{font-family:var(--mono);font-size:8px;letter-spacing:.13em;color:#7A7870;margin-top:4px}
+  .b-seal{position:absolute;right:16px;bottom:16px;width:58px;height:58px;border-radius:50%;
+    border:1.5px solid rgba(201,162,39,.55);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+    background:rgba(16,19,28,.7)}
+  .b-seal .cc{font-family:var(--serif);font-size:15px;color:var(--brass);letter-spacing:.04em}
+  .b-seal .dt{font-family:var(--mono);font-size:7px;color:rgba(201,162,39,.75);letter-spacing:.1em}
+  .b-tabs{flex:none;height:54px;border-top:1px solid #2A3142;display:flex;align-items:center;justify-content:space-around}
+  .b-tab{font-family:var(--serif);font-size:11px;color:#5D6273;letter-spacing:.03em}
+  .b-tab.on{color:var(--brass)}
+  .b-index{padding:6px 20px 0;flex:1;overflow:hidden}
+  .b-row{display:flex;align-items:baseline;gap:8px;padding:9px 0;border-bottom:1px solid #1E2431}
+  .b-row .no{font-family:var(--mono);font-size:9px;color:var(--brass);letter-spacing:.1em;flex:none;width:30px}
+  .b-row .nm{font-family:var(--serif);font-size:13px;flex:none;max-width:148px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .b-row .dots{flex:1;border-bottom:1px dotted #2E3547;margin:0 4px 4px}
+  .b-row .yr{font-family:var(--mono);font-size:9.5px;color:#7A7870;flex:none}
+  .b-row.locked .nm,.b-row.locked .no{color:#3B4152}
+
+  /* ============ DIRECTION C — WINDOW ============ */
+  .c-scr{background:#07080A;color:#fff}
+  .c-photo{position:absolute;inset:0}
+  .c-ph1{background:linear-gradient(178deg,#132033 0%,#1E3A4F 34%,#4A6B6B 58%,#8A9A76 76%,#C4A87A 100%)}
+  .c-ph2{background:linear-gradient(190deg,#0B1420 0%,#1B3348 40%,#3E5F6E 66%,#7E8F7C 100%)}
+  .c-ph3{background:linear-gradient(160deg,#241A2E,#3B2A3F 45%,#6B4A48 78%,#B08356)}
+  .c-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,6,10,.72) 0%,rgba(4,6,10,.05) 28%,rgba(4,6,10,.12) 52%,rgba(4,6,10,.88) 100%)}
+  .c-top{position:relative;padding:6px 22px 0;display:flex;justify-content:space-between;align-items:center}
+  .c-eye{font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.72)}
+  .c-mid{position:relative;margin-top:auto;padding:0 22px 22px;display:flex;flex-direction:column;gap:12px}
+  .c-h{font-size:38px;font-weight:300;letter-spacing:-.035em;line-height:1.02}
+  .c-h b{font-weight:650}
+  .c-p{font-size:14px;line-height:1.6;color:rgba(255,255,255,.8);max-width:34ch;font-weight:350}
+  .c-glass{
+    position:relative;border-radius:16px;padding:13px 16px;
+    background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);
+    backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+    display:flex;align-items:center;gap:14px;
+  }
+  .c-glass .v{font-size:17px;font-weight:600;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+  .c-glass .k{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.62);margin-top:2px}
+  .c-div{width:1px;align-self:stretch;background:rgba(255,255,255,.18)}
+  .c-dots{position:relative;display:flex;gap:5px;justify-content:center;padding:0 0 14px}
+  .c-dots i{width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.32)}
+  .c-dots i.on{background:#fff;width:16px;border-radius:3px}
+  .c-mosaic{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:2px;padding:0 2px}
+  .c-tile{aspect-ratio:.82;border-radius:3px}
+  .c-tile.l{grid-column:span 2;aspect-ratio:1.66}
+
+  /* ---------- verdict ---------- */
+  .verdict{background:var(--panel);border:1px solid var(--rule);padding:34px 34px 36px;display:flex;flex-direction:column;gap:18px}
+  .verdict h3{font-size:22px}
+  .vgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:6px}
+  .vgrid > div{background:var(--panel2);padding:18px 20px;display:flex;flex-direction:column;gap:7px}
+  .vgrid .h{font-family:var(--mono);font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--dim)}
+  .vgrid p{font-size:13.5px;color:var(--muted);line-height:1.55}
+  .pick{border-left:2px solid var(--amber)!important}
+  .pick .h{color:var(--amber)}
+
+  ul.clean{margin:0;padding-left:18px;color:var(--muted);font-size:14.5px;line-height:1.7}
+  ul.clean li{margin-bottom:7px}
+  ul.clean li::marker{color:var(--dim)}
+  ul.clean b{color:var(--text);font-weight:600}
+
+  footer{padding:56px 0 80px;color:var(--dim);font-size:13px}
+  @media(max-width:700px){
+    .screens{justify-content:center}
+    section{padding:56px 0}
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <div class="kicker"><span class="bar"></span><span class="eyebrow">SkyAtlas · дизайн-питч · 10 августа 2026</span></div>
+    <h1>Три направления<br>полной пересборки</h1>
+    <p class="lead">Не смена палитры. Три разных ответа на вопрос, чем приложение является в момент, когда человек сидит в кресле на высоте 11 километров и смотрит вниз. Выберите одно — под него собирается дизайн-система и переписываются все 18 экранов.</p>
+  </header>
+
+  <section>
+    <div class="stack g16">
+      <span class="eyebrow">Диагноз текущего дизайна</span>
+      <h2 style="font-size:26px">Почему сейчас выглядит «обычно»</h2>
+      <p class="note">Проблема не в том, что подобран плохой синий. Проблема в том, что у экранов нет собственного мира — это нейтральная тёмная тема, которую можно поставить в приложение доставки еды, и никто не заметит подмены.</p>
+    </div>
+    <div class="diag">
+      <div>
+        <span class="tag">СЛОМАНО</span>
+        <h4>Кириллицы нет в display-шрифте</h4>
+        <p>Fraunces не содержит глифов А–Я. Все hero, display, h1 и h2 на русском молча подменяются системным serif. Самая заметная типографика в приложении — не та, что задумана.</p>
+      </div>
+      <div>
+        <span class="tag">СЛАБО</span>
+        <h4>Данные без авторитета</h4>
+        <p>Высота, скорость и ETA набраны так же, как остальной текст. В приложении о полёте цифры — главный контент, и они должны читаться как показания прибора, а не как подпись.</p>
+      </div>
+      <div>
+        <span class="tag">СЛАБО</span>
+        <h4>Градиент и свечение вместо идеи</h4>
+        <p>Hero-карточка держится на двух glow-орбах и линейном градиенте. Это украшение, а не структура: убрать — и экран не изменится по смыслу.</p>
+      </div>
+      <div>
+        <span class="tag">СЛАБО</span>
+        <h4>Открытие места не отличается от списка</h4>
+        <p>Главный эмоциональный момент продукта — «я узнал новое место» — оформлен так же, как строка истории рейсов. Иерархии впечатления нет.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= A ============================= -->
+  <section class="dir A">
+    <div class="dirhead">
+      <div>
+        <div class="dirno">НАПРАВЛЕНИЕ 01</div>
+        <h2>Приборы</h2>
+        <p class="note">Полёт — это точное измерение. Приложение ведёт себя как прибор в кабине: янтарь на почти чёрном (единственный цвет, безопасный для ночного зрения — авиация пришла к нему не случайно), моноширинные показания, волосяные линии, никаких теней. Маршрут — не полоска прогресса, а дуга шкалы, по которой идёт стрелка.</p>
+        <div class="swatches">
+          <div class="sw"><div class="chip" style="background:#0B0E11"></div><code>#0B0E11</code></div>
+          <div class="sw"><div class="chip" style="background:#12161B"></div><code>#12161B</code></div>
+          <div class="sw"><div class="chip" style="background:#242B34"></div><code>#242B34</code></div>
+          <div class="sw"><div class="chip" style="background:#7C8797"></div><code>#7C8797</code></div>
+          <div class="sw"><div class="chip" style="background:#E9EEF4"></div><code>#E9EEF4</code></div>
+          <div class="sw"><div class="chip" style="background:#FF9E3D"></div><code>#FF9E3D</code></div>
+        </div>
+      </div>
+      <div class="stack g12">
+        <span class="eyebrow">Мир референсов</span>
+        <p class="refworld"><b>Приборные панели ночью</b> · <b>карты захода Jeppesen</b> · <b>циферблаты Grand Seiko</b> · <b>Braun Дитера Рамса</b> · телеметрия центра управления полётами.<br><br>Смотрим не на авиа-приложения — они утилитарны и некрасивы. Смотрим на то, как выглядит <b>дорогой измерительный инструмент</b>, потому что работа у него та же: сообщить точное значение так, чтобы ему поверили.</p>
+        <p class="refworld" style="border-top:1px solid var(--rule);padding-top:14px"><b>Одна смелость:</b> дуга-шкала вместо карты на первом экране. Карта уходит вниз — сначала прибор, потом география.</p>
+      </div>
+    </div>
+
+    <div class="screens">
+      <!-- A1 in-flight -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr a-scr" style="--bg:#0B0E11;--sf:#12161B;--ln:#242B34;--tx:#E9EEF4;--mu:#7C8797;--ac:#FF9E3D">
+          <div class="statusbar"><span>9:41</span><span>SQ 322 · В ПОЛЁТЕ</span></div>
+          <div class="a-gauge">
+            <svg width="250" height="180" viewBox="0 0 250 180" aria-hidden="true">
+              <path d="M25 150 A 100 100 0 0 1 225 150" fill="none" stroke="#242B34" stroke-width="1"/>
+              <path d="M25 150 A 100 100 0 0 1 225 150" fill="none" stroke="#FF9E3D" stroke-width="2"
+                    stroke-dasharray="314" stroke-dashoffset="126" stroke-linecap="butt"/>
+              <g stroke="#2E3641" stroke-width="1">
+                <line x1="25" y1="150" x2="37" y2="150"/><line x1="213" y1="150" x2="225" y2="150"/>
+                <line x1="35.6" y1="108.3" x2="46.9" y2="112.4"/><line x1="214.4" y1="108.3" x2="203.1" y2="112.4"/>
+                <line x1="66.7" y1="76.7" x2="74.7" y2="85.6"/><line x1="183.3" y1="76.7" x2="175.3" y2="85.6"/>
+                <line x1="109" y1="56.4" x2="112.4" y2="68"/><line x1="141" y1="56.4" x2="137.6" y2="68"/>
+                <line x1="125" y1="50" x2="125" y2="64" stroke="#4A5462"/>
+              </g>
+              <g stroke="#FF9E3D" stroke-width="1.6" fill="none">
+                <circle cx="125" cy="150" r="3" fill="#FF9E3D" stroke="none"/>
+                <line x1="125" y1="150" x2="196" y2="92" stroke-linecap="round"/>
+              </g>
+              <circle cx="196" cy="92" r="4.5" fill="#0B0E11" stroke="#FF9E3D" stroke-width="1.6"/>
+            </svg>
+            <div class="a-read">
+              <div class="big">6:12</div>
+              <div class="sub">ДО ПОСАДКИ · LHR 14:53</div>
+            </div>
+          </div>
+          <div class="a-tele">
+            <div><div class="v">11 280</div><div class="k">ВЫСОТА · М</div></div>
+            <div><div class="v">904</div><div class="k">СКОРОСТЬ · КМ/Ч</div></div>
+            <div><div class="v">5 340</div><div class="k">ОСТАЛОСЬ · КМ</div></div>
+          </div>
+          <div class="a-map">
+            <svg width="296" height="100%" viewBox="0 0 296 210" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <g stroke="#1A2028" stroke-width="1" fill="none">
+                <path d="M-10 40 Q60 25 110 46 T230 38 T310 52"/>
+                <path d="M-10 96 Q70 84 140 104 T300 96"/>
+                <path d="M-10 156 Q80 142 160 162 T310 150"/>
+                <path d="M40 -10 L52 220 M148 -10 L152 220 M248 -10 L244 220"/>
+              </g>
+              <path d="M-10 168 Q80 40 300 30" fill="none" stroke="#3A434F" stroke-width="1.2" stroke-dasharray="3 4"/>
+              <path d="M-10 168 Q46 96 118 66" fill="none" stroke="#FF9E3D" stroke-width="1.6"/>
+              <g fill="#FF9E3D"><circle cx="118" cy="66" r="3.4"/></g>
+              <circle cx="118" cy="66" r="9" fill="none" stroke="#FF9E3D" stroke-opacity=".35" stroke-width="1"/>
+              <g fill="none" stroke="#5C6673" stroke-width="1">
+                <circle cx="196" cy="46" r="3"/><circle cx="66" cy="128" r="3"/><circle cx="256" cy="86" r="3"/>
+              </g>
+              <text x="204" y="44" fill="#79838F" font-family="ui-monospace,monospace" font-size="8" letter-spacing="1">КАСПИЙ</text>
+              <text x="74" y="126" fill="#79838F" font-family="ui-monospace,monospace" font-size="8" letter-spacing="1">ИПОХ</text>
+            </svg>
+          </div>
+          <div class="a-poirail">
+            <div class="a-poithumb"></div>
+            <div style="flex:1;min-width:0">
+              <div class="a-lbl" style="color:#FF9E3D">ЧЕРЕЗ 4 МИН · ПО ЛЕВОМУ БОРТУ</div>
+              <div style="font-size:14px;font-weight:600;margin-top:4px">Гиндукуш</div>
+            </div>
+            <div style="font-family:var(--mono);font-size:18px;color:#4E5866">›</div>
+          </div>
+          <div class="a-tabs">
+            <div class="a-tab on"><div class="ic"></div>ПОЛЁТ</div>
+            <div class="a-tab"><div class="ic"></div>АТЛАС</div>
+            <div class="a-tab"><div class="ic"></div>ПРОФИЛЬ</div>
+          </div>
+        </div></div>
+        <div class="cap">01 · В полёте</div>
+      </div>
+
+      <!-- A2 POI -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr a-scr" style="--bg:#0B0E11;--ln:#242B34;--tx:#E9EEF4;--mu:#7C8797;--ac:#FF9E3D">
+          <div class="a-hero">
+            <div class="grain"></div>
+            <svg width="296" height="186" viewBox="0 0 296 186" aria-hidden="true" style="position:absolute;inset:0">
+              <path d="M0 150 L58 96 L96 124 L150 62 L206 118 L246 88 L296 130 L296 186 L0 186 Z" fill="#1E2A22"/>
+              <path d="M0 168 L74 128 L128 152 L188 108 L240 140 L296 116 L296 186 L0 186 Z" fill="#161F1A"/>
+            </svg>
+            <div class="a-badge">ГОРНЫЙ ХРЕБЕТ</div>
+          </div>
+          <div class="a-body">
+            <div>
+              <div class="a-title">Гиндукуш</div>
+              <div class="a-sub" style="margin-top:6px">36.3°N 71.8°E · АФГАНИСТАН</div>
+            </div>
+            <div class="a-metrics">
+              <div><div class="v">7 708</div><div class="k">ВЕРШИНА · М</div></div>
+              <div><div class="v">14</div><div class="k">ПОД БОРТОМ</div></div>
+              <div><div class="v">800</div><div class="k">ДЛИНА · КМ</div></div>
+            </div>
+            <p class="a-text">Александр Македонский провёл здесь армию в 329 году до н. э., потеряв больше людей на перевалах, чем во всех сражениях похода. Название переводится как «убийца индусов» — так его запомнили караваны, ходившие Шёлковым путём.</p>
+            <div class="a-quiz">
+              <div class="a-qdot">?</div>
+              <div style="flex:1">
+                <div style="font-size:13px;font-weight:600">На какой высоте перевал Саланг?</div>
+                <div class="a-lbl" style="margin-top:3px">ОТВЕТИТЬ · +40 XP</div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div class="cap">02 · Карточка места</div>
+      </div>
+
+      <!-- A3 collection -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr a-scr" style="--bg:#0B0E11;--ln:#242B34;--tx:#E9EEF4;--mu:#7C8797;--ac:#FF9E3D">
+          <div class="statusbar"><span>9:41</span><span></span></div>
+          <div style="padding:8px 20px 20px">
+            <div class="a-lbl">ПОЗЫВНОЙ</div>
+            <div style="font-size:27px;font-weight:650;letter-spacing:-.02em;margin-top:7px">Дамир Касимов</div>
+            <div class="a-sub" style="margin-top:7px;color:#FF9E3D">ШТУРМАН · УРОВЕНЬ 14</div>
+          </div>
+          <div class="a-tele">
+            <div><div class="v">128 440</div><div class="k">КМ НАЛЁТА</div></div>
+            <div><div class="v">31</div><div class="k">СТРАН</div></div>
+            <div><div class="v">417</div><div class="k">ОТКРЫТО</div></div>
+          </div>
+          <div style="padding:20px 20px 12px" class="a-lbl">АТЛАС СТРАН · 31 ИЗ 195</div>
+          <div class="a-grid" style="margin:0 20px">
+            <div class="a-cell hit"><div class="cc">SG</div><div class="n">4</div></div>
+            <div class="a-cell hit"><div class="cc">MY</div><div class="n">2</div></div>
+            <div class="a-cell hit"><div class="cc">TH</div><div class="n">6</div></div>
+            <div class="a-cell hit"><div class="cc">IN</div><div class="n">9</div></div>
+            <div class="a-cell hit"><div class="cc">AF</div><div class="n">1</div></div>
+            <div class="a-cell hit"><div class="cc">IR</div><div class="n">3</div></div>
+            <div class="a-cell off"><div class="cc">TM</div><div class="n">—</div></div>
+            <div class="a-cell hit"><div class="cc">AZ</div><div class="n">2</div></div>
+            <div class="a-cell hit"><div class="cc">TR</div><div class="n">5</div></div>
+            <div class="a-cell off"><div class="cc">GE</div><div class="n">—</div></div>
+            <div class="a-cell hit"><div class="cc">RO</div><div class="n">1</div></div>
+            <div class="a-cell hit"><div class="cc">HU</div><div class="n">1</div></div>
+            <div class="a-cell hit"><div class="cc">AT</div><div class="n">4</div></div>
+            <div class="a-cell hit"><div class="cc">DE</div><div class="n">8</div></div>
+            <div class="a-cell off"><div class="cc">BE</div><div class="n">—</div></div>
+            <div class="a-cell hit"><div class="cc">GB</div><div class="n">7</div></div>
+          </div>
+          <div style="padding:18px 20px 0" class="a-lbl">РЕДКАЯ НАХОДКА</div>
+          <div style="margin:10px 20px 0;border:1px solid #242B34;padding:13px 15px;display:flex;gap:12px;align-items:center">
+            <div style="width:34px;height:34px;border:1px solid rgba(255,158,61,.45);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:13px;color:#FF9E3D;flex:none">◆</div>
+            <div style="flex:1">
+              <div style="font-size:13.5px;font-weight:600">Озеро Иссык-Куль</div>
+              <div class="a-lbl" style="margin-top:3px">ВИДЕЛИ 0,4 % ПИЛОТОВ</div>
+            </div>
+          </div>
+          <div style="flex:1"></div>
+          <div class="a-tabs">
+            <div class="a-tab"><div class="ic"></div>ПОЛЁТ</div>
+            <div class="a-tab"><div class="ic"></div>АТЛАС</div>
+            <div class="a-tab on"><div class="ic"></div>ПРОФИЛЬ</div>
+          </div>
+        </div></div>
+        <div class="cap">03 · Профиль и коллекция</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= B ============================= -->
+  <section class="dir">
+    <div class="dirhead">
+      <div>
+        <div class="dirno">НАПРАВЛЕНИЕ 02</div>
+        <h2>Атлас</h2>
+        <p class="note">Каждое открытое место — гравированный лист старого атласа с номером. Не бейдж, не ачивка — <em>лист коллекции</em>, который вы получили и который останется. Ночное чернильное индиго вместо привычной бумаги, латунная гравюра вместо цветных иконок. Приложение ощущается как редкое издание, которое вы собираете по одному листу за перелёт.</p>
+        <div class="swatches">
+          <div class="sw"><div class="chip" style="background:#10131C"></div><code>#10131C</code></div>
+          <div class="sw"><div class="chip" style="background:#171C28"></div><code>#171C28</code></div>
+          <div class="sw"><div class="chip" style="background:#2A3142"></div><code>#2A3142</code></div>
+          <div class="sw"><div class="chip" style="background:#8D8B84"></div><code>#8D8B84</code></div>
+          <div class="sw"><div class="chip" style="background:#E6E3DA"></div><code>#E6E3DA</code></div>
+          <div class="sw"><div class="chip" style="background:#C9A227"></div><code>#C9A227</code></div>
+        </div>
+      </div>
+      <div class="stack g12">
+        <span class="eyebrow">Мир референсов</span>
+        <p class="refworld"><b>Гравированные атласы XVIII–XIX века</b> · <b>звёздные карты</b> · <b>глобусы Bellerby</b> · пластины National Geographic · музейные этикетки образцов.<br><br>Здесь работает не «винтаж», а <b>культура коллекционного издания</b>: номер листа, двойная линейка, курсивная подпись, печать. Всё это несёт информацию, а не украшает.</p>
+        <p class="refworld" style="border-top:1px solid var(--rule);padding-top:14px"><b>Одна смелость:</b> отказ от иконок вообще. Навигация набрана шрифтом, состояния — линейками и печатями.</p>
+      </div>
+    </div>
+
+    <div class="screens">
+      <!-- B1 plate -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr b-scr">
+          <div class="statusbar"><span>9:41</span><span style="font-family:var(--serif);font-size:11px">SQ 322</span></div>
+          <div class="b-plate">
+            <div class="b-plateno">ЛИСТ № 047</div>
+            <div class="b-title">Гиндукуш</div>
+            <div class="b-latin">Hindu Kush · Афганистан</div>
+          </div>
+          <div class="b-fig">
+            <div style="height:158px;position:relative;border:1px solid #2A3142;background:#0C0F17;overflow:hidden">
+              <svg width="100%" height="158" viewBox="0 0 254 158" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                <defs>
+                  <pattern id="hatch" width="5" height="5" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+                    <line x1="0" y1="0" x2="0" y2="5" stroke="#C9A227" stroke-opacity=".22" stroke-width="1"/>
+                  </pattern>
+                </defs>
+                <path d="M0 128 L44 74 L74 100 L118 44 L164 92 L200 62 L254 108 L254 158 L0 158 Z" fill="url(#hatch)" stroke="#C9A227" stroke-opacity=".55" stroke-width="1"/>
+                <path d="M0 140 L52 108 L92 126 L140 92 L186 118 L254 96" fill="none" stroke="#C9A227" stroke-opacity=".3" stroke-width="1"/>
+                <path d="M-4 40 Q80 22 138 40 T262 30" fill="none" stroke="#3A4356" stroke-width="1" stroke-dasharray="4 4"/>
+                <circle cx="118" cy="44" r="3" fill="#C9A227"/>
+                <text x="126" y="42" fill="#C9A227" font-family="Georgia,serif" font-style="italic" font-size="10">Тирич-Мир</text>
+              </svg>
+            </div>
+            <div class="b-figcap">РИС. 47 — ХРЕБЕТ С ВЫСОТЫ 11 280 М, ВИД НА СЕВЕРО-ЗАПАД</div>
+          </div>
+          <div class="b-body">Александр Македонский провёл здесь армию в 329 году до н.&nbsp;э., потеряв на перевалах больше людей, чем во всех сражениях похода.</div>
+          <div class="b-spec">
+            <div><div class="v">7 708 м</div><div class="k">ВЕРШИНА</div></div>
+            <div><div class="v">800 км</div><div class="k">ДЛИНА</div></div>
+            <div><div class="v">329 до н.э.</div><div class="k">СОБЫТИЕ</div></div>
+          </div>
+          <div style="flex:1"></div>
+          <div class="b-tabs">
+            <div class="b-tab">Рейс</div><div class="b-tab on">Атлас</div><div class="b-tab">Штурман</div>
+          </div>
+        </div></div>
+        <div class="cap">01 · Лист атласа</div>
+      </div>
+
+      <!-- B2 map -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr b-scr">
+          <div class="statusbar"><span>9:41</span><span style="font-family:var(--serif);font-size:11px">В ПОЛЁТЕ</span></div>
+          <div style="padding:10px 20px 14px">
+            <div class="b-plateno">ПЕРЕХОД XIV · СИНГАПУР — ЛОНДОН</div>
+            <div style="display:flex;align-items:baseline;gap:10px;margin-top:10px">
+              <div style="font-family:var(--serif);font-size:34px;letter-spacing:-.01em">6:12</div>
+              <div style="font-family:var(--serif);font-style:italic;font-size:14px;color:#8D8B84">до прибытия</div>
+            </div>
+          </div>
+          <div class="b-dbl" style="margin:0 20px"></div>
+          <div class="b-map">
+            <svg width="100%" height="100%" viewBox="0 0 296 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <g stroke="#212940" stroke-width="1" fill="none">
+                <path d="M-10 60 Q70 44 130 66 T310 54"/><path d="M-10 130 Q80 116 150 138 T310 126"/>
+                <path d="M-10 208 Q90 192 170 214 T310 200"/>
+                <path d="M46 -10 L58 320 M156 -10 L160 320 M258 -10 L252 320"/>
+              </g>
+              <path d="M-10 250 Q60 150 140 108 T310 46" fill="none" stroke="#3A4356" stroke-width="1" stroke-dasharray="3 5"/>
+              <path d="M-10 250 Q48 176 108 132" fill="none" stroke="#C9A227" stroke-width="1.4"/>
+              <g fill="none" stroke="#C9A227" stroke-width="1.2">
+                <circle cx="108" cy="132" r="4"/><circle cx="108" cy="132" r="10" stroke-opacity=".3"/>
+              </g>
+              <g stroke="#5A6076" stroke-width="1" fill="none">
+                <circle cx="200" cy="86" r="3.2"/><circle cx="60" cy="196" r="3.2"/>
+              </g>
+              <text x="208" y="84" fill="#8D8B84" font-family="Georgia,serif" font-style="italic" font-size="10">Каспий</text>
+              <text x="68" y="194" fill="#8D8B84" font-family="Georgia,serif" font-style="italic" font-size="10">Ипох</text>
+            </svg>
+            <div class="b-seal">
+              <div class="cc">AF</div>
+              <div class="dt">10·VIII</div>
+            </div>
+          </div>
+          <div style="padding:14px 20px;border-top:1px solid #2A3142;display:flex;align-items:center;gap:12px">
+            <div class="b-plateno" style="flex:none">№ 048</div>
+            <div style="flex:1">
+              <div style="font-family:var(--serif);font-size:15px">Памир — через 12 минут</div>
+            </div>
+            <div style="font-family:var(--serif);color:var(--brass);font-size:16px">→</div>
+          </div>
+          <div class="b-tabs">
+            <div class="b-tab on">Рейс</div><div class="b-tab">Атлас</div><div class="b-tab">Штурман</div>
+          </div>
+        </div></div>
+        <div class="cap">02 · В полёте</div>
+      </div>
+
+      <!-- B3 index -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr b-scr">
+          <div class="statusbar"><span>9:41</span><span></span></div>
+          <div style="padding:10px 20px 16px">
+            <div class="b-plateno">СОБРАНИЕ · 417 ЛИСТОВ</div>
+            <div style="font-family:var(--serif);font-size:31px;margin-top:9px;line-height:1.06">Указатель<br>листов</div>
+          </div>
+          <div class="b-dbl" style="margin:0 20px 4px"></div>
+          <div class="b-index">
+            <div class="b-row"><span class="no">044</span><span class="nm">Малаккский пролив</span><span class="dots"></span><span class="yr">V·26</span></div>
+            <div class="b-row"><span class="no">045</span><span class="nm">Бенгальский залив</span><span class="dots"></span><span class="yr">V·26</span></div>
+            <div class="b-row"><span class="no">046</span><span class="nm">Деканское плоскогорье</span><span class="dots"></span><span class="yr">V·26</span></div>
+            <div class="b-row"><span class="no">047</span><span class="nm" style="color:var(--brass)">Гиндукуш</span><span class="dots"></span><span class="yr" style="color:var(--brass)">СЕЙЧАС</span></div>
+            <div class="b-row locked"><span class="no">048</span><span class="nm">Памир</span><span class="dots"></span><span class="yr">—</span></div>
+            <div class="b-row locked"><span class="no">049</span><span class="nm">Аральское море</span><span class="dots"></span><span class="yr">—</span></div>
+            <div class="b-row locked"><span class="no">050</span><span class="nm">Каспий</span><span class="dots"></span><span class="yr">—</span></div>
+          </div>
+          <div style="padding:16px 20px;border-top:1px solid #2A3142">
+            <div style="display:flex;gap:9px;flex-wrap:wrap">
+              <div style="width:40px;height:40px;border-radius:50%;border:1px solid rgba(201,162,39,.5);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:12px;color:var(--brass)">SG</div>
+              <div style="width:40px;height:40px;border-radius:50%;border:1px solid rgba(201,162,39,.5);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:12px;color:var(--brass)">MY</div>
+              <div style="width:40px;height:40px;border-radius:50%;border:1px solid rgba(201,162,39,.5);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:12px;color:var(--brass)">IN</div>
+              <div style="width:40px;height:40px;border-radius:50%;border:1px solid rgba(201,162,39,.5);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:12px;color:var(--brass)">AF</div>
+              <div style="width:40px;height:40px;border-radius:50%;border:1px dashed #2E3547;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:12px;color:#3B4152">TM</div>
+            </div>
+          </div>
+          <div class="b-tabs">
+            <div class="b-tab">Рейс</div><div class="b-tab on">Атлас</div><div class="b-tab">Штурман</div>
+          </div>
+        </div></div>
+        <div class="cap">03 · Указатель коллекции</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= C ============================= -->
+  <section class="dir">
+    <div class="dirhead">
+      <div>
+        <div class="dirno">НАПРАВЛЕНИЕ 03</div>
+        <h2>Иллюминатор</h2>
+        <p class="note">Интерфейса почти нет. Фотография места занимает весь экран, управление — тонкое стекло поверх. Карточки листаются как истории. Ставка на эмоцию вместо данных: не «высота 7 708 м», а «посмотрите налево». Самое красивое из трёх — и самое рискованное, потому что качество продукта становится равно качеству фотографий, которых у нас пока нет.</p>
+        <div class="swatches">
+          <div class="sw"><div class="chip" style="background:#07080A"></div><code>#07080A</code></div>
+          <div class="sw"><div class="chip" style="background:#1B3348"></div><code>#1B3348</code></div>
+          <div class="sw"><div class="chip" style="background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.16)"></div><code>стекло 9%</code></div>
+          <div class="sw"><div class="chip" style="background:#7DD3FC"></div><code>#7DD3FC</code></div>
+          <div class="sw"><div class="chip" style="background:#FFFFFF"></div><code>#FFFFFF</code></div>
+        </div>
+      </div>
+      <div class="stack g12">
+        <span class="eyebrow">Мир референсов</span>
+        <p class="refworld"><b>Sky Guide и Star Walk</b> — планетарии, решающие ту же задачу «наведи и узнай» · <b>Apple Weather</b> · полноэкранная тревел-фотография · Arc.<br><br>Здесь референс осознанно взят из <b>приложений о небе, а не о самолётах</b>: у них та же механика узнавания и лучший в индустрии уровень исполнения.</p>
+        <p class="refworld" style="border-top:1px solid var(--rule);padding-top:14px"><b>Одна смелость:</b> убрать карту с главного экрана. Сначала место, карта — по свайпу вниз.</p>
+      </div>
+    </div>
+
+    <div class="screens">
+      <!-- C1 -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr c-scr">
+          <div class="c-photo c-ph1"></div>
+          <svg width="296" height="626" viewBox="0 0 296 626" aria-hidden="true" style="position:absolute;inset:0">
+            <path d="M0 430 L54 356 L96 392 L152 316 L212 384 L252 348 L296 396 L296 626 L0 626 Z" fill="#2C3A2E" fill-opacity=".55"/>
+            <path d="M0 470 L70 420 L124 452 L186 406 L244 442 L296 414 L296 626 L0 626 Z" fill="#1E2A22" fill-opacity=".7"/>
+          </svg>
+          <div class="c-scrim"></div>
+          <div class="statusbar" style="position:relative"><span>9:41</span><span style="opacity:.8">SQ 322</span></div>
+          <div class="c-top"><span class="c-eye">По левому борту · сейчас</span><span class="c-eye">4 / 12</span></div>
+          <div class="c-mid">
+            <h2 class="c-h">Гиндукуш<br><b>7 708 м</b></h2>
+            <p class="c-p">Александр Македонский потерял здесь больше людей, чем во всех сражениях похода. Перевалы до сих пор закрыты полгода.</p>
+            <div class="c-glass">
+              <div><div class="v">6:12</div><div class="k">до Лондона</div></div>
+              <div class="c-div"></div>
+              <div><div class="v">11 280</div><div class="k">высота, м</div></div>
+              <div class="c-div"></div>
+              <div><div class="v">904</div><div class="k">км/ч</div></div>
+            </div>
+          </div>
+          <div class="c-dots"><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
+        </div></div>
+        <div class="cap">01 · Место под бортом</div>
+      </div>
+
+      <!-- C2 -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr c-scr">
+          <div class="c-photo c-ph2"></div>
+          <svg width="296" height="626" viewBox="0 0 296 626" aria-hidden="true" style="position:absolute;inset:0">
+            <ellipse cx="150" cy="500" rx="210" ry="120" fill="#0E1E2C" fill-opacity=".55"/>
+            <path d="M-20 452 Q90 424 190 448 T320 430" fill="none" stroke="#8FB6C4" stroke-opacity=".22" stroke-width="1.2"/>
+            <path d="M-20 486 Q100 462 210 484 T320 466" fill="none" stroke="#8FB6C4" stroke-opacity=".16" stroke-width="1.2"/>
+          </svg>
+          <div class="c-scrim"></div>
+          <div class="statusbar" style="position:relative"><span>9:41</span><span style="opacity:.8">SQ 322</span></div>
+          <div class="c-top"><span class="c-eye">Ночь над океаном</span><span class="c-eye">Небо</span></div>
+          <div style="position:relative;flex:1;display:flex;align-items:center;justify-content:center">
+            <svg width="230" height="230" viewBox="0 0 230 230" aria-hidden="true">
+              <g fill="#fff">
+                <circle cx="46" cy="66" r="1.6" opacity=".85"/><circle cx="96" cy="40" r="2.4"/>
+                <circle cx="148" cy="72" r="1.8" opacity=".9"/><circle cx="188" cy="46" r="1.4" opacity=".7"/>
+                <circle cx="70" cy="128" r="2.1" opacity=".95"/><circle cx="126" cy="146" r="1.5" opacity=".8"/>
+                <circle cx="176" cy="122" r="2.6"/><circle cx="40" cy="184" r="1.3" opacity=".6"/>
+                <circle cx="112" cy="196" r="1.7" opacity=".8"/><circle cx="196" cy="180" r="1.5" opacity=".7"/>
+              </g>
+              <g stroke="#7DD3FC" stroke-opacity=".55" stroke-width="1" fill="none">
+                <path d="M96 40 L148 72 L176 122 L126 146 L70 128 Z"/>
+              </g>
+              <text x="78" y="30" fill="#7DD3FC" font-size="9" letter-spacing="2" font-family="-apple-system,sans-serif" opacity=".9">ОРИОН</text>
+            </svg>
+          </div>
+          <div class="c-mid">
+            <h2 class="c-h" style="font-size:31px">Под вами <b>5 200 м</b><br>воды</h2>
+            <p class="c-p">Бенгальский залив. Ближайшая земля — Андаманские острова, 340 км к востоку.</p>
+            <div class="c-glass">
+              <div><div class="v">Орион</div><div class="k">над крылом</div></div>
+              <div class="c-div"></div>
+              <div><div class="v">03:14</div><div class="k">местное</div></div>
+            </div>
+          </div>
+          <div class="c-dots"><i></i><i class="on"></i><i></i><i></i></div>
+        </div></div>
+        <div class="cap">02 · Ночной режим</div>
+      </div>
+
+      <!-- C3 -->
+      <div class="shot">
+        <div class="phone"><div class="notch"></div><div class="scr c-scr" style="background:#0A0B0F">
+          <div class="statusbar"><span>9:41</span><span></span></div>
+          <div style="padding:6px 22px 20px">
+            <div class="c-eye" style="color:rgba(255,255,255,.5)">Собрано за год</div>
+            <h2 style="font-size:34px;font-weight:300;letter-spacing:-.035em;margin-top:9px;line-height:1.05">417 мест<br><b style="font-weight:650">31 страна</b></h2>
+          </div>
+          <div class="c-mosaic">
+            <div class="c-tile l" style="background:linear-gradient(150deg,#2A3F52,#6B8A76)"></div>
+            <div class="c-tile" style="background:linear-gradient(160deg,#3E2F42,#9A7156)"></div>
+            <div class="c-tile" style="background:linear-gradient(150deg,#1F3242,#4E7382)"></div>
+            <div class="c-tile" style="background:linear-gradient(160deg,#42352A,#A8895E)"></div>
+            <div class="c-tile" style="background:linear-gradient(150deg,#243428,#7E9464)"></div>
+            <div class="c-tile l" style="background:linear-gradient(150deg,#3A2A2E,#B4886C)"></div>
+            <div class="c-tile" style="background:linear-gradient(150deg,#1E2E38,#5C8090)"></div>
+          </div>
+          <div style="flex:1"></div>
+          <div style="padding:16px 22px 22px">
+            <div class="c-glass" style="justify-content:center">
+              <div style="text-align:center"><div class="v">Итоги года</div><div class="k">декабрь · готово</div></div>
+            </div>
+          </div>
+        </div></div>
+        <div class="cap">03 · Коллекция</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= VERDICT ============================= -->
+  <section>
+    <div class="verdict">
+      <span class="eyebrow">Рекомендация студии</span>
+      <h3>Направление 01 как основа + лист-коллекция из 02</h3>
+      <p class="note" style="max-width:70ch">У продукта два разных момента, и притворяться, что момент один, — ошибка. «Где я и сколько осталось» требует авторитета прибора. «Что это за место» требует ощущения находки. Берём приборную систему как каркас и пересаживаем в неё нумерованный лист из «Атласа» — но в приборной палитре, янтарём вместо латуни. Это одно смелое место на весь продукт, как и должно быть.</p>
+      <div class="vgrid">
+        <div class="pick">
+          <span class="h">01 Приборы — берём</span>
+          <p>Читается на тусклом экране в тёмном салоне. Янтарь не бьёт по глазам соседу. Данные получают авторитет. Сложность реализации низкая — это типографика и линии, а не графика.</p>
+        </div>
+        <div class="pick">
+          <span class="h">02 Атлас — берём механику</span>
+          <p>Нумерованный лист превращает ачивку в коллекционный объект — это то, что реально удерживает. Забираем номер листа, спецификацию и печать страны. Serif и латунь оставляем.</p>
+        </div>
+        <div>
+          <span class="h">03 Иллюминатор — откладываем</span>
+          <p>Красивее всех, но качество дизайна становится равно качеству фотографий из Wikimedia, которое вы не контролируете. Плюс полноэкранные фото плохо сочетаются с офлайн-пакетом ограниченного размера. Вернуться, когда будет своя фотобаза.</p>
+        </div>
+      </div>
+      <ul class="clean" style="margin-top:8px">
+        <li><b>Шрифты:</b> Fraunces убрать полностью — нет кириллицы. Дисплейный — <b>Instrument Sans</b> или <b>Suisse Int'l</b>; данные — <b>JetBrains Mono</b> (кириллица есть, уже в проекте); текст — <b>Inter</b> (остаётся). Два семейства плюс моно, не больше.</li>
+        <li><b>Тени убрать везде.</b> На тёмном интерфейсе тень нелогична — источника света нет. Глубина строится шагом яркости не более 12 % между слоями.</li>
+        <li><b>Один акцент.</b> Янтарь несёт смысл «сейчас / активно / открыто». Зелёный и красный — только статусы. Синий убрать.</li>
+        <li><b>Сетка 4 pt,</b> отступы только из шкалы 4·8·12·16·24·32·48. Внешний отступ всегда больше внутреннего.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Макеты собраны в HTML для быстрой оценки направления. Шрифты в макетах — системные (SF&nbsp;Pro, SF&nbsp;Mono, Georgia); в продакшене ставятся указанные выше. После выбора направления — дизайн-система в токенах и переработка 18 экранов по плану работ.
+  </footer>
+
+</div>

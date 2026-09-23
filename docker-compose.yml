@@ -9,6 +9,8 @@ services:
     volumes: ["pgdata:/var/lib/postgresql/data"]
   redis:
     image: redis:7-alpine
-    ports: ["6380:6379"]
+    # 6380 belongs to another project's Redis on this machine, and the binding
+    # silently did not take — the backend was pointed at a stranger's cache.
+    ports: ["6381:6379"]
 volumes:
   pgdata:

@@ -20,7 +20,8 @@ const KEYS = {
   DEVICE_TOKEN: 'device_token',
   DAILY_FACTS_ENABLED: 'daily_facts_enabled',
   FREEZE_TOKENS: 'freeze_tokens',
-  FREEZE_USED_THIS_MONTH: 'freeze_used_this_month'
+  FREEZE_USED_THIS_MONTH: 'freeze_used_this_month',
+  PENDING_DISCOVERIES: 'pending_discoveries'
 } as const;
 
 const DEFAULT_STATS: LifetimeStats = {
@@ -195,6 +196,20 @@ export const collectionsStore = {
 
   setDailyFactsEnabled(enabled: boolean): void {
     storage.set(KEYS.DAILY_FACTS_ENABLED, enabled);
+  },
+
+  /**
+   * Discoveries made with no signal, kept until they can be sent.
+   *
+   * Most discoveries happen at cruise, offline. Dropping them would make the
+   * global counters a sample of who had Wi-Fi rather than a count of who flew.
+   */
+  getPendingDiscoveries(): string {
+    return storage.getString(KEYS.PENDING_DISCOVERIES) ?? '[]';
+  },
+
+  setPendingDiscoveries(json: string): void {
+    storage.set(KEYS.PENDING_DISCOVERIES, json);
   },
 
   getFreezeTokens(): number {

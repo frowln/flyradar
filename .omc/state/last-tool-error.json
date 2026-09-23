@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"git add apps/mobile/src/core/ux/dailyFacts.ts apps/mobile/src/core/ux/notifications.ts apps/mobile/src/core/gamification/collections.ts apps/mobile/src/core/gamification/streaks.ts apps/mo...",
-  "error": "Exit code 128\nfatal: спецификатор пути «apps/mobile/package-lock.json» не соответствует ни одному файлу",
-  "timestamp": "2026-05-20T12:55:32.698Z",
-  "retry_count": 1
-}

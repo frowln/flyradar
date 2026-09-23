@@ -32,5 +32,7 @@ export async function cacheSet<T>(key: string, value: T, ttlSec = 604800): Promi
   if (!r) return;
   try {
     await r.set(key, JSON.stringify(value), 'EX', ttlSec);
-  } catch {}
+  } catch (e) {
+    console.warn('[Redis] cacheSet failed:', (e as Error).message);
+  }
 }

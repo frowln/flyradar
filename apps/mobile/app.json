@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -17,7 +17,8 @@
       "bundleIdentifier": "com.skyatlas.app",
       "infoPlist": {
         "NSCameraUsageDescription": "SkyAtlas uses the camera to scan your boarding pass"
-      }
+      },
+      "userInterfaceStyle": "dark"
     },
     "android": {
       "adaptiveIcon": {
@@ -40,7 +41,8 @@
       "expo-notifications",
       "expo-font",
       "@sentry/react-native",
-      "./plugins/with-live-activity.js"
+      "./plugins/with-live-activity.js",
+      "@maplibre/maplibre-react-native"
     ]
   }
 }

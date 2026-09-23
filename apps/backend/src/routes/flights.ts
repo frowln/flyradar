@@ -1,6 +1,6 @@
 import type { FastifyPluginAsync } from 'fastify';
 import { z } from 'zod';
-import { getFlight } from '../services/flightLookup.js';
+import { getFlightDetailed } from '../services/flightLookup.js';
 import { buildPackage } from '../services/packageBuilder.js';
 import { requireAuth } from '../middleware/auth.js';
 
@@ -19,9 +19,19 @@ export const flightRoutes: FastifyPluginAsync = async (app) => {
     if (!body.success) {
       return reply.code(400).send({ error: 'Invalid request', details: body.error.flatten() });
     }
-    const flight = await getFlight(body.data.flightNumber, body.data.date);
+    const { flight, availableDates, providerError } = await getFlightDetailed(
+      body.data.flightNumber,
+      body.data.date
+    );
     if (!flight) {
-      return reply.code(404).send({ error: 'Flight not found' });
+      // `availableDates` is what turns a dead end into an instruction: the free
+      // provider plan only carries the last few days, so a flight booked for
+      // next week is absent even though the flight number is perfectly real.
+      return reply.code(404).send({
+        error: 'Flight not found',
+        availableDates,
+        ...(providerError ? { reason: providerError } : {})
+      });
     }
     return flight;
   });
