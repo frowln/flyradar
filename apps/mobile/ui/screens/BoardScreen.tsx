@@ -1,6 +1,6 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { View, ScrollView, StyleSheet, Animated, Alert, useWindowDimensions } from 'react-native';
-import { useFocusEffect, useNavigation } from '@react-navigation/native';
+import { useFocusEffect, useNavigation, useRoute, type RouteProp } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { OfflinePackage, POI } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
@@ -24,7 +24,7 @@ import { startDemo, demoPreviewRoute } from '../../src/core/offline/demo';
 import { useToast } from '../components/Toast';
 import { t, getLocale } from '../../src/i18n';
 import { clock, duration, timeAt, weekdayDayMonth } from '../format';
-import type { RootStackParamList } from '../../src/navigation/types';
+import type { RootStackParamList, TabParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList>;
 
@@ -314,6 +314,7 @@ function TakeoffSheet({ entry, onPick, onCancel }: { entry: FlightEntry; onPick:
 
 export default function BoardScreen() {
   const nav = useNavigation<Nav>();
+  const route = useRoute<RouteProp<TabParamList, 'Board'>>();
   const toast = useToast();
   const [entries, setEntries] = useState<FlightEntry[] | null>(null);
   const [featuredId, setFeaturedId] = useState<string | null>(null);
@@ -330,6 +331,15 @@ export default function BoardScreen() {
       setEntries([]);
     }
   }, []);
+
+  // Arrived from the "Took off?" notification: ask when, for that flight.
+  const takeoffFor = route.params?.takeoff;
+  useEffect(() => {
+    if (!takeoffFor) return;
+    setFeaturedId(takeoffFor);
+    setConfirming(true);
+    nav.setParams({ takeoff: undefined } as never);
+  }, [takeoffFor, nav]);
 
   useFocusEffect(
     useCallback(() => {

@@ -9,3 +9,6 @@ ios/
 android/
 pgdata/
 apps/backend/data/
+
+# agent tooling state
+.omc/

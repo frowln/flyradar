@@ -7,7 +7,7 @@ import { selectSightings, sightingsAlong, toPOI } from '../places/corridor';
 import { countriesAlong } from '../places/countries';
 import { computeMoments } from '../flight/moments';
 import { haversine } from '../geo/greatCircle';
-import { zonedToUtc } from '../time/zones';
+import { nextWallClock, zonedToUtc } from '../time/zones';
 import { enrichWithWikipedia, type FetchLike } from '../places/wiki';
 
 /**
@@ -84,10 +84,10 @@ export function composePackage(req: BuildRequest, data: BuildData): OfflinePacka
 
   let airborne: number | undefined;
   if (req.arrivalTime) {
-    // The arrival may be on the next local day (or two, for long-haul westbound).
-    let arrival = zonedToUtc(req.date, req.arrivalTime, req.to.tz);
-    while (arrival.getTime() <= departure.getTime()) arrival = new Date(arrival.getTime() + 86_400_000);
-    const block = (arrival.getTime() - departure.getTime()) / 1000;
+    // The first time the destination clock shows the ticket's arrival time
+    // after departure — the day after, or across the date line the day before.
+    const arrival = nextWallClock(departure, req.date, req.arrivalTime, req.to.tz);
+    const block = arrival ? (arrival.getTime() - departure.getTime()) / 1000 : NaN;
     if (block < 30 * 3600) airborne = airborneFromSchedule(block, distanceKm);
   }
 
@@ -98,7 +98,7 @@ export function composePackage(req: BuildRequest, data: BuildData): OfflinePacka
     .map((p) => p.id);
   const chosen = selectSightings(sightings, built.airborneSeconds, { pinned });
   const pois: POI[] = chosen.map(toPOI);
-  const countries = countriesAlong(built.route, data.countries);
+  const countries = countriesAlong(built.route, data.countries, { fromCC: req.from.cc, toCC: req.to.cc });
 
   // Scheduled block time includes taxi; the timeline starts at wheels-up.
   const takeoff = new Date(departure.getTime() + 10 * 60 * 1000);

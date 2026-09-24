@@ -37,31 +37,34 @@ export function alertFor(m: Moment, pkg: OfflinePackage, takeoff: Date, multipli
   const locale = getLocale();
   const at = new Date(takeoff.getTime() + (Math.max(10, m.at - LEAD_S) * 1000) / multiplier);
   const id = `${pkg.flight.id}:${m.id}`.slice(0, 120);
+  const data = { kind: 'flight' as const, flightId: pkg.flight.id };
 
   if (m.kind === 'sight' && m.poiId) {
     const poi = pkg.pois.find((p) => p.id === m.poiId);
     if (!poi) return null;
     const name = placeName(poi, locale);
     const dist = km(poi.closestApproachKm ?? 0);
+    const toPlace = { kind: 'sight' as const, flightId: pkg.flight.id, poiId: poi.id };
     return m.side === 'below'
-      ? { id, at, title: t('alert.belowTitle', { name }), body: t('alert.belowBody') }
+      ? { id, at, title: t('alert.belowTitle', { name }), body: t('alert.belowBody'), data: toPlace }
       : {
           id,
           at,
           title: cap(t('alert.sightTitle', { side: sideLabel(m.side), name })),
-          body: t('alert.sightBody', { dist: dist.value, unit: t(`unit.${dist.unit}`) })
+          body: t('alert.sightBody', { dist: dist.value, unit: t(`unit.${dist.unit}`) }),
+          data: toPlace
         };
   }
   if (m.kind === 'line' && m.line) {
-    return { id, at, title: t(`alert.line.${m.line}`), body: t('alert.lineBody') };
+    return { id, at, title: t(`alert.line.${m.line}`), body: t('alert.lineBody'), data };
   }
   if (m.kind === 'sunrise' || m.kind === 'sunset') {
     const p = interpolateAlongRoute(pkg.route, m.at);
     const side = sunSide(p.lat, p.lon, new Date(takeoff.getTime() + m.at * 1000), headingAt(pkg.route, m.at));
-    return { id, at, title: t(`alert.${m.kind}`), body: t('alert.sunBody', { side: t(`side.${side}`) }) };
+    return { id, at, title: t(`alert.${m.kind}`), body: t('alert.sunBody', { side: t(`side.${side}`) }), data };
   }
   if (m.kind === 'border' && m.cc) {
-    return { id, at, title: t('alert.borderTitle', { country: countryName(m.cc, locale) }), body: t('alert.borderBody') };
+    return { id, at, title: t('alert.borderTitle', { country: countryName(m.cc, locale) }), body: t('alert.borderBody'), data };
   }
   return null;
 }

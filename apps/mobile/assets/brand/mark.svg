@@ -1,0 +1,35 @@
+<!-- The SkyAtlas mark: an aircraft window with the route drawn across it.
+     Colours are the app's tokens (ui/design/tokens.ts). Rendered to PNG by
+     scripts/brand/render-icons.mjs; edit this file, not the PNGs. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="pane"><rect x="276" y="176" width="472" height="672" rx="236"/></clipPath>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12161B"/>
+      <stop offset="1" stop-color="#080A0C"/>
+    </linearGradient>
+  </defs>
+  <!-- frame -->
+  <rect x="226" y="126" width="572" height="772" rx="286" fill="#1D232B"/>
+  <rect x="226" y="126" width="572" height="772" rx="286" fill="none" stroke="#343D48" stroke-width="6"/>
+  <!-- pane -->
+  <rect x="276" y="176" width="472" height="672" rx="236" fill="url(#glass)"/>
+  <g clip-path="url(#pane)">
+    <!-- graticule -->
+    <g stroke="#242B34" stroke-width="5" fill="none">
+      <path d="M 230 430 Q 512 380 800 430"/>
+      <path d="M 230 580 Q 512 530 800 580"/>
+      <path d="M 230 730 Q 512 680 800 730"/>
+      <path d="M 400 150 Q 370 500 410 880"/>
+      <path d="M 624 150 Q 654 500 614 880"/>
+    </g>
+    <!-- shade pulled a quarter of the way down -->
+    <rect x="260" y="160" width="504" height="178" fill="#191E25"/>
+    <rect x="452" y="310" width="120" height="12" rx="6" fill="#2C343E"/>
+    <!-- route: flown part solid, the rest dotted -->
+    <path d="M 300 820 C 350 660 440 575 548 548" stroke="#FF9E3D" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <path d="M 548 548 C 628 528 700 530 780 548" stroke="#FF9E3D" stroke-width="14" fill="none" stroke-linecap="round" stroke-dasharray="1 36" opacity="0.8"/>
+    <circle cx="548" cy="548" r="58" fill="none" stroke="#FF9E3D" stroke-width="8" opacity="0.5"/>
+    <circle cx="548" cy="548" r="30" fill="#FF9E3D"/>
+  </g>
+</svg>

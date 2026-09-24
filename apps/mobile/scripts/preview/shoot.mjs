@@ -12,10 +12,10 @@
  * Needs `playwright-core` resolvable (e.g. NODE_PATH) and a Chromium; set
  * CHROMIUM_PATH if it is not at the Playwright default location.
  */
-import { createServer } from 'node:http';
-import { readFile, mkdir, stat } from 'node:fs/promises';
-import { join, extname, resolve } from 'node:path';
+import { mkdir } from 'node:fs/promises';
+import { join, resolve } from 'node:path';
 import { createRequire } from 'node:module';
+import { serve } from './serve.mjs';
 
 const require = createRequire(import.meta.url);
 const args = Object.fromEntries(
@@ -36,30 +36,12 @@ const SCENARIOS = [
   { name: 'arrival', scenario: 'arrival', full: true, wait: 4000 },
   { name: 'atlas', scenario: 'atlas', full: true },
   { name: 'achievements', scenario: 'achievements', full: true },
-  { name: 'settings', scenario: 'settings', full: true }
+  { name: 'settings', scenario: 'settings', full: true },
+  { name: 'guess', scenario: 'guess', full: true },
+  { name: 'licenses', scenario: 'licenses' }
 ];
 
-const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.ttf': 'font/ttf', '.png': 'image/png', '.ico': 'image/x-icon', '.json': 'application/json' };
-
-const server = createServer(async (req, res) => {
-  const path = decodeURIComponent((req.url ?? '/').split('?')[0]);
-  let file = join(dist, path);
-  try {
-    if ((await stat(file)).isDirectory()) file = join(file, 'index.html');
-  } catch {
-    file = join(dist, 'index.html'); // single-page fallback for deep links
-  }
-  try {
-    const body = await readFile(file);
-    res.writeHead(200, { 'content-type': TYPES[extname(file)] ?? 'application/octet-stream' });
-    res.end(body);
-  } catch {
-    res.writeHead(404).end();
-  }
-});
-await new Promise((r) => server.listen(0, r));
-const port = server.address().port;
-
+const { port, close } = await serve(dist);
 const { chromium } = require('playwright-core');
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH ?? '/opt/pw-browsers/chromium' });
 await mkdir(out, { recursive: true });
@@ -95,4 +77,4 @@ for (const lang of langs) {
   }
 }
 await browser.close();
-server.close();
+close();

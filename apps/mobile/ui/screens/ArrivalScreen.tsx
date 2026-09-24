@@ -222,8 +222,8 @@ export default function ArrivalScreen() {
           <Cells
             items={[
               { value: dist.value, label: t(`unit.${dist.unit}`).toUpperCase() },
-              { value: String(countries.length), label: t('arrival.countries') },
-              { value: String(passed), label: t('arrival.passed') },
+              { value: String(countries.length), label: t('arrival.countries', { count: countries.length }) },
+              { value: String(passed), label: t('arrival.passed', { count: passed }) },
               { value: String(spotted.length), label: t('arrival.spotted'), tone: 'accent' }
             ]}
           />
@@ -239,7 +239,7 @@ export default function ArrivalScreen() {
                     <View key={cc} style={styles.stampCell}>
                       <Stamp code={cc} name={countryName(cc, locale)} kind={cc === landedCC ? 'landed' : 'overflown'} fresh={fresh.has(cc)} stampDelay={300 + i * 280} />
                       <Space h={s.x1} />
-                      <Small numberOfLines={1} style={styles.stampName}>
+                      <Small numberOfLines={2} style={styles.stampName}>
                         {countryName(cc, locale)}
                       </Small>
                     </View>
@@ -369,8 +369,8 @@ const styles = StyleSheet.create({
   section: { paddingTop: s.x10, paddingBottom: s.x3 },
 
   stamps: { flexDirection: 'row', flexWrap: 'wrap', gap: s.x4 },
-  stampCell: { width: 68, alignItems: 'center' },
-  stampName: { textAlign: 'center', fontSize: 11 },
+  stampCell: { width: 80, alignItems: 'center' },
+  stampName: { textAlign: 'center', fontSize: 11, lineHeight: 14 },
 
   lines: { marginTop: s.x6, borderTopWidth: line.hair, borderTopColor: palette.rule },
   lineRow: {

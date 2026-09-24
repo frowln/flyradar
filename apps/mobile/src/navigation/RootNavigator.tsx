@@ -5,6 +5,8 @@ import type { RootStackParamList } from './types';
 import { hasCompletedOnboarding } from '../../ui/onboardingState';
 import { SOCIAL_ENABLED } from '../core/features';
 import { MONETIZATION_ENABLED } from '../core/monetization/revenueCat';
+import { onNotificationResponse } from '../core/ux/notifications';
+import { navRef, openFromNotification } from './notificationRoutes';
 
 import OnboardingScreen from '../../ui/screens/OnboardingScreen';
 import Tabs from '../../ui/Tabs';
@@ -15,6 +17,7 @@ import ArrivalScreen from '../../ui/screens/ArrivalScreen';
 import AchievementsScreen from '../../ui/screens/AchievementsScreen';
 import PaywallScreen from '../../ui/screens/PaywallScreen';
 import SettingsScreen from '../../ui/screens/SettingsScreen';
+import LicensesScreen from '../../ui/screens/LicensesScreen';
 import PeopleScreen from '../../ui/screens/PeopleScreen';
 import PersonScreen from '../../ui/screens/PersonScreen';
 
@@ -36,6 +39,7 @@ const linking: LinkingOptions<RootStackParamList> = {
       FlightSummary: 'arrival/:flightId',
       Achievements: 'achievements',
       Settings: 'settings',
+      Licenses: 'licenses',
       Paywall: 'pro'
     }
   }
@@ -46,9 +50,17 @@ const theme = {
   colors: { ...DarkTheme.colors, background: palette.ground, card: palette.ground, primary: palette.amber, border: palette.rule }
 };
 
+function listenForTaps() {
+  // Subscribed once the navigator can take a route; the tap that cold-started
+  // the app is delivered then too.
+  onNotificationResponse((r) => {
+    openFromNotification(r).catch(() => {});
+  });
+}
+
 export default function RootNavigator() {
   return (
-    <NavigationContainer linking={linking} theme={theme}>
+    <NavigationContainer ref={navRef} linking={linking} theme={theme} onReady={listenForTaps}>
       <Stack.Navigator
         initialRouteName={hasCompletedOnboarding() ? 'Tabs' : 'Onboarding'}
         screenOptions={{
@@ -66,6 +78,7 @@ export default function RootNavigator() {
         <Stack.Screen name="FlightSummary" component={ArrivalScreen} />
         <Stack.Screen name="Achievements" component={AchievementsScreen} />
         <Stack.Screen name="Settings" component={SettingsScreen} />
+        <Stack.Screen name="Licenses" component={LicensesScreen} />
         {MONETIZATION_ENABLED ? <Stack.Screen name="Paywall" component={PaywallScreen} options={{ animation: 'slide_from_bottom' }} /> : null}
         {SOCIAL_ENABLED ? <Stack.Screen name="People" component={PeopleScreen} /> : null}
         {SOCIAL_ENABLED ? <Stack.Screen name="Person" component={PersonScreen} /> : null}

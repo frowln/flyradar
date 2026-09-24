@@ -14,7 +14,7 @@ export interface Guess {
   poi: POI;
   options: POI[];
   correctIdx: number;
-  /** Seconds until it is abeam. */
+  /** Seconds until it appears: abeam, or at the edge of an area flown over. */
   inS: number;
 }
 
@@ -33,16 +33,28 @@ function seededOrder<T>(xs: T[], seed: string): T[] {
   return out;
 }
 
+/**
+ * When the place appears: abeam for a sight to one side, but the edge of the
+ * outline for one flown over. An area's `passAt` sits up to ten minutes inside
+ * it, so "which landmark are you about to fly over?" was asked over the
+ * Grand Canyon rather than before it.
+ */
+function appearsAt(p: POI): number | undefined {
+  return p.overFrom ?? p.passAt;
+}
+
 export function nextGuess(pkg: OfflinePackage, elapsedS: number, answered: Record<string, boolean>): Guess | null {
   const candidates = pkg.pois
-    .filter(
-      (p) =>
-        p.passAt != null &&
-        p.passAt - elapsedS <= OPEN_BEFORE_S &&
-        p.passAt - elapsedS >= CLOSE_BEFORE_S &&
+    .filter((p) => {
+      const at = appearsAt(p);
+      return (
+        at != null &&
+        at - elapsedS <= OPEN_BEFORE_S &&
+        at - elapsedS >= CLOSE_BEFORE_S &&
         !(p.id in answered) &&
         sightWeight(p) >= 0.3
-    )
+      );
+    })
     .sort((a, b) => sightWeight(b) - sightWeight(a));
   const poi = candidates[0];
   if (!poi) return null;
@@ -56,5 +68,5 @@ export function nextGuess(pkg: OfflinePackage, elapsedS: number, answered: Recor
   ).slice(0, 2);
   if (distractors.length < 2) return null;
   const options = seededOrder([poi, ...distractors], `${poi.id}:options`);
-  return { poi, options, correctIdx: options.indexOf(poi), inS: (poi.passAt ?? 0) - elapsedS };
+  return { poi, options, correctIdx: options.indexOf(poi), inS: (appearsAt(poi) ?? 0) - elapsedS };
 }

@@ -4,6 +4,9 @@ import { deletePhotos } from '../offline/photoCache';
 import { deleteCorridor } from '../map/offlineMap';
 import { hasRecord, removeRecord } from '../game/journal';
 import { useSession } from './session';
+import { cancelAlerts } from '../ux/notifications';
+import { reminderIds } from './reminders';
+import { forgetFlight } from '../monetization/entitlement';
 
 /**
  * The passenger's flights, in the order they matter.
@@ -55,9 +58,11 @@ export async function loadLibrary(now: Date = new Date()): Promise<FlightEntry[]
 
 export async function removeFlight(flightId: string, opts: { keepRecord?: boolean } = { keepRecord: true }): Promise<void> {
   await deletePackage(flightId);
+  await cancelAlerts(reminderIds(flightId));
   await deletePhotos(flightId);
   await deleteCorridor(flightId).catch(() => {});
   if (!opts.keepRecord) removeRecord(flightId);
+  forgetFlight(flightId);
   const s = useSession.getState();
   if (s.flightId === flightId) s.end();
 }

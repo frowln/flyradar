@@ -1,103 +1,99 @@
-# Terms of Service
+# SkyAtlas Terms of Use
 
-**SkyAtlas**
-Last updated: May 2026
+Last updated: 24 September 2026
 
-## 1. Acceptance of Terms
+<!-- TODO(owner): confirm legal entity name, contact address and governing law -->
 
-By downloading, installing, or using the SkyAtlas mobile application ("App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App.
+These terms are an agreement between you and **[legal entity name]** ("we", "us") about your use of the SkyAtlas app ("the app"). By installing or using the app, you accept them. If you do not accept them, please do not use the app. How we handle your information is explained in the [Privacy Policy](privacy-policy.md). A Russian version of these terms is in [terms-of-service.ru.md](terms-of-service.ru.md).
 
-## 2. License Grant
+## 1. What SkyAtlas is
 
-Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to:
-- Download and install the App on devices you own or control.
-- Use the App for your personal, non-commercial purposes.
+SkyAtlas shows what may be visible from an airplane window: cities, mountains, seas, borders and the stories behind them. It is for **information and entertainment only**.
 
-## 3. SkyAtlas Pro Subscription
+## 2. Not for navigation or safety
 
-3.1 **Free tier**: Basic flight tracking and up to 5 POI discoveries per flight at no charge.
+SkyAtlas is not an aviation instrument or a flight tracker. Do not use it for navigation, flight planning, safety decisions or any other operational purpose. We are not affiliated with any airline, airport or air navigation service, and the app does not show official flight information.
 
-3.2 **SkyAtlas Pro**: Unlocks unlimited POIs, all 46 achievements, full flight history, and priority feature access. Available as a monthly or annual subscription via Apple's In-App Purchase system.
+## 3. Positions are estimates
 
-3.3 **Billing**: Subscriptions are charged to your Apple ID account at confirmation of purchase. Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period.
+- The route is a **model**, not the real track: a great-circle line, with a rough detour around airspace that is known to be closed, and a typical climb and descent. The real route, altitude and timing depend on the airline, air traffic control and weather.
+- The aircraft's position is estimated from the schedule and the take-off time you confirm. If you allow it, the phone's GPS refines the estimate, but GPS reception in a cabin is not reliable.
+- Places, distances, times and the side of the aircraft ("look left") can therefore be wrong.
+- Place data, names and outlines are simplified and may contain errors. Borders and names are shown for orientation only and do not express any political position.
 
-3.4 **Cancellation**: You may cancel your subscription at any time through your Apple ID account settings. Cancellation takes effect at the end of the current billing period; no partial refunds are provided.
+## 4. No guarantee of what you will see
 
-3.5 **Price changes**: We reserve the right to modify subscription prices. We will provide at least 30 days notice of any price increase.
+Clouds, haze, darkness, the sun, your seat, the wing and the window can all hide what the app describes. An alert means "this may be visible about now", not a promise.
 
-## 4. Restrictions
+## 5. On board
 
-You agree not to:
-- Copy, modify, distribute, sell, or lease any part of the App.
-- Reverse engineer, decompile, or disassemble the App.
-- Use the App for any unlawful purpose or in violation of any regulations.
-- Attempt to gain unauthorized access to any portion of the App or its related systems.
-- Use the App in a manner that could damage, disable, or impair the App or our servers.
-- Scrape, harvest, or systematically extract data from the App.
+Always follow the instructions of the crew and your airline's rules on the use of phones and other devices, including flight mode and when devices must be stowed. Do not let the app distract you during safety briefings, taxi, take-off or landing. Use headphones for the audio guide, and respect other passengers when using the camera.
 
-## 5. Flight Position Disclaimer
+## 6. Your licence to use the app
 
-**IMPORTANT**: SkyAtlas provides approximate flight position estimates derived from GPS, barometric altitude, and third-party flight data sources. This information is:
+We grant you a personal, non-exclusive, non-transferable, revocable licence to use the app for non-commercial purposes on devices you own or control, subject to these terms and the rules of the store you got it from. You may not:
 
-- **For entertainment and informational purposes only.**
-- **Not suitable for navigation or any safety-critical application.**
-- **Not guaranteed to be accurate, complete, or current.**
+- copy, sell, rent or redistribute the app, or extract its built-in datasets to offer them as your own product or service;
+- reverse engineer the app, except where the law allows it;
+- use the app in a way that breaks the law or harms others, or overloads the services it connects to.
 
-SkyAtlas is not a certified aviation tool and must not be used as a substitute for official navigation systems, ATC communications, or any certified avionics equipment. Always follow the safety instructions of your airline and crew.
+The app's design, code and our own texts belong to us or our licensors. Third-party content remains under its own licence (section 7).
 
-## 6. Intellectual Property
+## 7. Content and licences
 
-6.1 The App and its original content, features, and functionality are owned by SkyAtlas and are protected by international copyright, trademark, and other intellectual property laws.
+The app is built on open data. We are grateful to its authors.
 
-6.2 Content sourced from Wikipedia is provided under the Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0). Geographic data from GeoNames is provided under the Creative Commons Attribution License (CC BY 4.0).
+- **Places, borders and country outlines:** [Natural Earth](https://www.naturalearthdata.com/), public domain.
+- **Airports:** [OurAirports](https://ourairports.com/data/), public domain.
+- **Airport time zones:** [mwgg/Airports](https://github.com/mwgg/Airports), © 2014 mwgg, MIT licence.
+- **Stories:** text from [Wikipedia](https://www.wikipedia.org/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Texts may be shortened, and each story links to its source article.
+- **Photos:** from [Wikimedia Commons](https://commons.wikimedia.org/), each under its own licence. The author and licence are shown with each photo in the app.
+- **Map:** © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors ([ODbL](https://opendatacommons.org/licenses/odbl/)), [OpenMapTiles](https://openmaptiles.org/), served by [OpenFreeMap](https://openfreemap.org/).
 
-6.3 You retain all rights to content you create using the App (e.g., shared flight summaries). By sharing content through the App, you grant us a limited license to display that content within the App.
+We do not control third-party content and cannot guarantee that it is accurate, complete or available. If you reuse it outside the app, its licence applies to you.
 
-## 7. Third-Party Services
+## 8. Purchases (if offered)
 
-The App integrates third-party services (GeoNames, Wikipedia, AviationStack, OpenSky, RevenueCat, Sentry, PostHog). Your use of these services is subject to their respective terms and privacy policies. We are not responsible for the practices of these third parties.
+At present, all features of the app are free. If we offer **SkyAtlas Pro**:
 
-## 8. Disclaimer of Warranties
+- The free version may limit some content per flight. What Pro includes, its price and its period are shown in the app before you buy.
+- Purchases are made through Apple's in-app purchase system and are subject to Apple's terms. Apple processes payments and handles refunds; you can request one at [reportaproblem.apple.com](https://reportaproblem.apple.com/).
+- Pro may be offered as a pass for a fixed period that does not renew, or as an **auto-renewing subscription**. A subscription is charged to your Apple Account when you confirm the purchase and renews automatically unless you turn off auto-renew at least 24 hours before the end of the current period. You can manage or cancel it in your Apple Account settings; cancelling stops the next renewal, and access continues until the end of the paid period.
+- You can restore purchases on a new device with the same Apple Account.
 
-THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+## 9. Changes and availability
 
-We do not warrant that:
-- The App will be uninterrupted, error-free, or secure.
-- Any data, flight information, or POI content will be accurate or complete.
-- Defects in the App will be corrected.
+We may change, add or remove features, and we may stop offering the app. Stories, photos and maps are downloaded from outside services, which may be slow or unavailable, so we cannot guarantee that a flight can always be fully prepared.
 
-## 9. Limitation of Liability
+## 10. Disclaimer
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL SKYATLAS, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION LOSS OF PROFITS, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE APP.
+The app is provided **"as is" and "as available"**. To the extent the law allows, we make no warranties, express or implied, including about accuracy, fitness for a particular purpose or uninterrupted operation. This does not affect any rights you have as a consumer that cannot be excluded by law.
 
-IN NO EVENT SHALL OUR TOTAL LIABILITY TO YOU EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID FOR THE APP IN THE PAST TWELVE MONTHS OR (B) USD $10.
+## 11. Limitation of liability
 
-Some jurisdictions do not allow the exclusion of certain warranties or the limitation of liability, so some of the above limitations may not apply to you.
+To the extent the law allows, we are not liable for any indirect, incidental, special or consequential loss, or for any decision made or action taken in reliance on the app, including a missed view or a missed connection. Our total liability to you for any claim about the app is limited to the amount you paid for the app and in-app purchases in the 12 months before the claim. Nothing in these terms limits liability that cannot be limited by law, such as liability for death or personal injury caused by negligence, or for fraud.
 
-## 10. Indemnification
+## 12. If you got the app from Apple's App Store
 
-You agree to indemnify, defend, and hold harmless SkyAtlas and its affiliates from any claims, damages, obligations, losses, liabilities, costs, or expenses arising from your use of the App or your violation of these Terms.
+- These terms are between you and us, not Apple. Apple is not responsible for the app or its content.
+- Your licence is also limited to use on Apple-branded devices you own or control, as permitted by the App Store Terms and Conditions (Usage Rules). For anything these terms do not cover, [Apple's Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) applies.
+- We, not Apple, are responsible for maintenance and support of the app, for any product claims about it (including product liability, legal or regulatory compliance, and consumer protection claims), and for handling any claim that the app infringes someone's intellectual property.
+- If the app fails to meet any applicable warranty, you may notify Apple, and Apple will refund the purchase price of the app, if any. Apple has no other warranty obligation for the app.
+- You confirm that you are not located in a country subject to a U.S. Government embargo or designated as "terrorist supporting", and that you are not on any U.S. Government list of prohibited or restricted parties.
+- Apple and its subsidiaries are third-party beneficiaries of these terms and may enforce them against you.
 
-## 11. Termination
+## 13. Ending use
 
-We may terminate or suspend your access to the App at any time, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties, or for any other reason at our sole discretion.
+You can stop using the app at any time by deleting it. If you seriously breach these terms, your licence ends. Sections 7 and 10–14 continue to apply after that.
 
-Upon termination, your license to use the App ceases. Sections 5, 6, 8, 9, and 10 survive termination.
+## 14. Governing law
 
-## 12. Changes to Terms
+These terms are governed by the laws of **[country / state]**, without regard to its conflict-of-law rules. Disputes will be decided by the courts of **[place]**. If you are a consumer, you also keep the protection of the mandatory laws of the country where you live and may bring claims in its courts. <!-- TODO(owner): choose governing law and courts -->
 
-We reserve the right to modify these Terms at any time. We will notify you of material changes by posting the updated Terms in the App and updating the "Last updated" date. Your continued use after changes constitutes acceptance.
+## 15. Changes to these terms
 
-## 13. Governing Law and Dispute Resolution
+We may update these terms when the app changes. The date at the top shows the current version, and we will point out important changes in the app or in the release notes. If you keep using the app after an update, the new terms apply.
 
-These Terms are governed by the laws of [YOUR JURISDICTION — replace before launch], without regard to conflict of law principles.
+## 16. Contact
 
-Any disputes arising from these Terms or your use of the App shall first be attempted to be resolved through good-faith negotiation. If unresolved, disputes shall be submitted to binding arbitration in [YOUR JURISDICTION] under the rules of [ARBITRATION BODY — replace before launch], except that either party may seek injunctive relief in a court of competent jurisdiction.
-
-## 14. Contact
-
-If you have any questions about these Terms, please contact us at:
-
-SkyAtlas
-Email: **legal@skyatlas.app** (placeholder — replace before launch)
-Website: https://skyatlas.app
+Write to **[legal entity name]** at support@skyatlas.app.

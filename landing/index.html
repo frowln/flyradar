@@ -1,1661 +1,596 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SkyAtlas — Your atlas of the world, one flight at a time</title>
-  <meta name="description" content="An editorial flight companion. Track your route offline at 35,000 ft. Discover the mountains, cities, lakes and stories beneath your window. Build your personal atlas of the world.">
-  <meta name="theme-color" content="#0A0B14">
-  <meta property="og:title" content="SkyAtlas — Your atlas of the world, one flight at a time">
-  <meta property="og:description" content="The editorial flight companion. Offline at 35,000 ft. Discover what's below.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://skyatlas.app">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%230A0B14' width='100' height='100' rx='22'/%3E%3Ctext x='50' y='66' font-family='Georgia,serif' font-size='52' font-weight='900' fill='%23FFB547' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    /* ============================================================
-       RESET
-       ============================================================ */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    img, svg { display: block; max-width: 100%; }
-    button { font: inherit; border: 0; background: 0; cursor: pointer; color: inherit; }
-    a { color: inherit; text-decoration: none; }
-    ::selection { background: rgba(255,181,71,0.35); color: #fff; }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkyAtlas: what you fly over, offline</title>
+<meta name="description" content="SkyAtlas is a guide for the window seat. It tells you which side to sit on, what will pass beneath the wing and at what minute, and the story of each place. In the air it works in airplane mode, with no account.">
+<meta name="theme-color" content="#0B0E11">
+<meta name="color-scheme" content="dark">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SkyAtlas: what you fly over, offline">
+<meta property="og:description" content="Which side to sit on, what passes beneath the wing and at what minute, and the story of each place. In the air it works in airplane mode.">
+<!-- TODO(owner): og:image needs an absolute URL once the page has a host, e.g. https://<host>/icon.png -->
+<meta property="og:image" content="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@600;700;800&display=swap">
+<style>
+  :root {
+    --void: #080A0C;
+    --ground: #0B0E11;
+    --raised: #12161B;
+    --lifted: #191E25;
+    --rule: #242B34;
+    --ink: #E9EEF4;
+    --muted: #9AA5B4;
+    --dim: #7C8797;
+    --amber: #FF9E3D;
+    --amber-wash: rgba(255, 158, 61, 0.12);
+    --brass: #C9A227;
+    --gutter: 20px;
+    --display: 'Manrope', system-ui, sans-serif;
+    --text: 'Inter', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--muted);
+    font: 400 16px/1.6 var(--text);
+    -webkit-font-smoothing: antialiased;
+    overflow-wrap: break-word;
+  }
+  img, svg { display: block; max-width: 100%; }
+  a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  a:hover { text-decoration-color: var(--amber); }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
+  strong { color: var(--ink); font-weight: 600; }
+  h1, h2, h3 { color: var(--ink); font-family: var(--display); margin: 0; letter-spacing: -0.02em; }
+  p { margin: 0 0 16px; }
+  ul { margin: 0; padding: 0; list-style: none; }
 
-    /* ============================================================
-       TOKENS — sourced from the app itself for visual continuity
-       ============================================================ */
-    :root {
-      --ink: #0A0B14;
-      --ink-deep: #050610;
-      --ink-surface: #13151F;
-      --ink-elev: #1C1F2E;
-      --navy-deep: #0B1340;
-      --navy-mid: #1A2560;
-      --navy-light: #0E1C50;
-      --text: #F5F6FA;
-      --text-dim: #8B95B0;
-      --text-faint: #5C657F;
-      --accent: #FFB547;
-      --accent-glow: rgba(255,181,71,0.16);
-      --accent-deep: #C8841F;
-      --rule: rgba(255,255,255,0.08);
-      --rule-strong: rgba(255,255,255,0.16);
-      --rule-warm: rgba(255,181,71,0.25);
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 var(--gutter); }
+  .label {
+    font: 500 12px/1.4 var(--mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--dim);
+  }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .amber { color: var(--amber); }
 
-      --serif: 'Fraunces', Georgia, serif;
-      --sans: 'Inter', -apple-system, system-ui, sans-serif;
-      --mono: 'JetBrains Mono', ui-monospace, monospace;
+  /* Header */
+  .top { border-bottom: 1px solid var(--rule); }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); font: 800 18px/1 var(--display); letter-spacing: -0.01em; }
+  .brand img { width: 32px; height: 32px; border-radius: 8px; }
+  .nav { display: flex; gap: 24px; }
+  .nav a { text-decoration: none; color: var(--dim); font: 500 12px/1 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; }
+  .nav a:hover { color: var(--ink); }
+  .nav .wide { display: none; }
 
-      --max: 1240px;
-      --gutter: clamp(20px, 4.5vw, 56px);
-    }
+  /* Hero */
+  .hero {
+    background: radial-gradient(ellipse 80% 60% at 70% 20%, var(--raised) 0%, var(--ground) 70%);
+    border-bottom: 1px solid var(--rule);
+  }
+  .hero .wrap { display: grid; gap: 40px; padding-top: 48px; padding-bottom: 56px; }
+  .hero h1 { font-size: clamp(38px, 10vw, 72px); line-height: 1.02; font-weight: 800; margin: 16px 0 20px; }
+  .hero .lede { font-size: 18px; line-height: 1.55; max-width: 34em; color: var(--muted); }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    min-height: 48px; padding: 0 20px;
+    border: 1px solid var(--rule); background: var(--raised);
+    color: var(--ink); text-decoration: none;
+    font: 600 15px/1 var(--text);
+  }
+  .btn:hover { background: var(--lifted); }
+  .btn.primary { border-color: var(--amber); }
+  .btn small { display: block; font: 500 11px/1.2 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); }
+  .btn .stack { display: flex; flex-direction: column; gap: 4px; }
+  .note { margin-top: 16px; font-size: 14px; color: var(--dim); }
 
-    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-    body {
-      background: var(--ink);
-      color: var(--text);
-      font-family: var(--sans);
-      font-size: 16px;
-      line-height: 1.55;
-      overflow-x: hidden;
-      position: relative;
-    }
+  .plate { position: relative; border: 1px solid var(--rule); background: var(--ground); }
+  .plate-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 12px; padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+  .plate-head .label { white-space: nowrap; }
+  .mark { width: 120px; height: 120px; margin: 0 auto; }
+  .readout { display: grid; grid-template-columns: 1fr 1fr; }
+  .readout .cell { padding: 16px; border-bottom: 1px solid var(--rule); min-width: 0; }
+  .readout .cell + .cell { border-left: 1px solid var(--rule); }
+  .readout .cell.full { grid-column: 1 / -1; border-left: 0; }
+  .readout strong { display: block; font: 700 20px/1.2 var(--display); margin: 6px 0 4px; }
+  .readout .meta { font: 400 13px/1.4 var(--mono); color: var(--muted); }
+  .live { display: inline-flex; align-items: center; gap: 8px; }
+  .live i { width: 8px; height: 8px; border-radius: 50%; background: var(--amber); animation: pulse 2.4s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+  .count { color: var(--amber); }
+  .caption { padding: 12px 16px; font-size: 13px; color: var(--dim); }
+  .hero-art { display: grid; gap: 24px; align-content: start; }
 
-    /* ============================================================
-       STARFIELD — pure CSS, no canvas, no images
-       ============================================================ */
-    .starfield {
-      position: fixed; inset: 0; z-index: 0; pointer-events: none;
-      background:
-        radial-gradient(1.5px 1.5px at 7% 12%, rgba(255,255,255,0.7), transparent 100%),
-        radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.5), transparent 100%),
-        radial-gradient(1.2px 1.2px at 35% 8%, rgba(255,255,255,0.4), transparent 100%),
-        radial-gradient(1px 1px at 50% 22%, rgba(255,255,255,0.3), transparent 100%),
-        radial-gradient(1.5px 1.5px at 65% 14%, rgba(94,139,255,0.5), transparent 100%),
-        radial-gradient(1px 1px at 78% 28%, rgba(255,255,255,0.4), transparent 100%),
-        radial-gradient(2px 2px at 88% 8%, rgba(255,181,71,0.35), transparent 100%),
-        radial-gradient(1px 1px at 95% 33%, rgba(255,255,255,0.5), transparent 100%),
-        radial-gradient(1px 1px at 10% 48%, rgba(255,255,255,0.3), transparent 100%),
-        radial-gradient(1.2px 1.2px at 32% 60%, rgba(255,255,255,0.4), transparent 100%),
-        radial-gradient(1px 1px at 60% 72%, rgba(255,255,255,0.3), transparent 100%),
-        radial-gradient(1.5px 1.5px at 85% 78%, rgba(94,139,255,0.4), transparent 100%);
-      background-size: 100% 100vh;
-      background-repeat: repeat-y;
-      opacity: 0.55;
-    }
-    .starfield::after {
-      content: '';
-      position: absolute; inset: 0;
-      background:
-        radial-gradient(ellipse at 50% 0%, rgba(11,19,64,0.35) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 110%, rgba(11,19,64,0.25) 0%, transparent 60%);
-    }
+  /* Figures strip */
+  .figures-band { border-bottom: 1px solid var(--rule); }
+  .figures { display: grid; grid-template-columns: 1fr 1fr; }
+  .figures div { padding: 20px 0; border-bottom: 1px solid var(--rule); min-width: 0; }
+  .figures div:nth-child(2n) { padding-left: 20px; border-left: 1px solid var(--rule); }
+  .figures div:nth-last-child(-n+2) { border-bottom: 0; }
+  .figures b { display: block; color: var(--ink); font: 500 28px/1.1 var(--mono); letter-spacing: -0.02em; margin-bottom: 6px; }
 
-    /* ============================================================
-       GRAIN — adds atmosphere
-       ============================================================ */
-    .grain {
-      position: fixed; inset: 0; z-index: 1; pointer-events: none;
-      opacity: 0.04; mix-blend-mode: overlay;
-      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' /></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/></svg>");
-    }
+  /* Sections */
+  section { border-bottom: 1px solid var(--rule); }
+  section > .wrap { padding-top: 64px; padding-bottom: 64px; }
+  .section-head { display: grid; gap: 12px; margin-bottom: 36px; max-width: 44em; }
+  .section-head h2, .h2 { font-size: clamp(28px, 6vw, 44px); line-height: 1.08; font-weight: 800; }
+  .h2 { margin: 12px 0 20px; }
+  .hero-icon { width: 80px; height: 80px; border-radius: 18px; margin-bottom: 24px; }
+  .section-head p { font-size: 17px; margin: 0; }
+  .section-head .label, .privacy .label { font-size: 12px; }
+  .label .num { text-transform: none; }
+  h3 { line-height: 1.25; }
 
-    /* ============================================================
-       NAV
-       ============================================================ */
-    nav.top {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      padding: 18px var(--gutter);
-      display: flex; align-items: center; justify-content: space-between;
-      background: linear-gradient(to bottom, rgba(10,11,20,0.92), rgba(10,11,20,0.5) 80%, transparent);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-    }
-    .brand {
-      font-family: var(--serif);
-      font-weight: 900;
-      font-size: 22px;
-      letter-spacing: -0.04em;
-      color: var(--text);
-    }
-    .brand .dot {
-      display: inline-block; width: 5px; height: 5px;
-      background: var(--accent); border-radius: 50%;
-      vertical-align: super; margin-left: 1px;
-    }
-    .nav-meta {
-      display: flex; gap: 14px; font-family: var(--mono);
-      font-size: 11px; letter-spacing: 0.1em;
-      color: var(--text-faint); text-transform: uppercase;
-    }
-    .nav-meta .sep { color: var(--text-faint); }
-    @media (max-width: 720px) { .nav-meta { display: none; } }
-    .nav-cta {
-      font-family: var(--mono); font-size: 12px;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      padding: 10px 18px; border: 1px solid var(--rule-strong);
-      border-radius: 999px; color: var(--text);
-      transition: border-color 0.2s, color 0.2s;
-    }
-    .nav-cta:hover { border-color: var(--accent); color: var(--accent); }
+  .phases { display: grid; border: 1px solid var(--rule); }
+  .phase { padding: 24px 20px; border-bottom: 1px solid var(--rule); background: var(--raised); min-width: 0; }
+  .phase:last-child { border-bottom: 0; }
+  .phase h3 { font-size: 22px; font-weight: 700; margin: 8px 0 16px; }
+  .phase li { position: relative; padding-left: 20px; margin-bottom: 12px; }
+  .phase li::before { content: ''; position: absolute; left: 0; top: 0.75em; width: 8px; height: 1px; background: var(--dim); }
+  .phase li:last-child { margin-bottom: 0; }
 
-    /* ============================================================
-       LAYOUT PRIMITIVES
-       ============================================================ */
-    main { position: relative; z-index: 2; }
-    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+  .kinds { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 0; }
+  .kinds li { border: 1px solid var(--rule); padding: 6px 10px; font: 400 13px/1.2 var(--mono); color: var(--muted); }
 
-    .section-label {
-      font-family: var(--mono); font-size: 11px;
-      letter-spacing: 0.18em; text-transform: uppercase;
-      color: var(--text-faint);
-      display: inline-flex; align-items: center; gap: 10px;
-    }
-    .section-label::before {
-      content: ''; width: 22px; height: 1px;
-      background: var(--accent); display: inline-block;
-    }
+  .trio { display: grid; border: 1px solid var(--rule); }
+  .trio > div { padding: 24px 20px; border-bottom: 1px solid var(--rule); min-width: 0; }
+  .trio > div:last-child { border-bottom: 0; }
+  .trio h3 { font-size: 20px; font-weight: 700; margin: 8px 0 12px; }
+  .trio p:last-child { margin-bottom: 0; }
+  .quote { font: 400 14px/1.5 var(--mono); color: var(--ink); border-left: 2px solid var(--amber); padding: 4px 0 4px 12px; margin: 0 0 16px; }
 
-    /* ============================================================
-       HERO
-       ============================================================ */
-    .hero {
-      position: relative;
-      padding: 152px var(--gutter) 120px;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute; top: 0; right: -10%; width: 60%; height: 80%;
-      background: radial-gradient(ellipse at center,
-        rgba(26, 37, 96, 0.4) 0%,
-        rgba(11, 19, 64, 0.15) 40%,
-        transparent 70%);
-      pointer-events: none;
-      filter: blur(40px);
-    }
-    .hero::after {
-      content: '';
-      position: absolute; bottom: -50px; left: -10%; width: 50%; height: 40%;
-      background: radial-gradient(ellipse at center, rgba(255,181,71,0.06), transparent 70%);
-      pointer-events: none; filter: blur(60px);
-    }
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
-      gap: clamp(40px, 6vw, 96px);
-      max-width: var(--max);
-      margin: 0 auto;
-      align-items: center;
-      position: relative;
-    }
-    @media (max-width: 960px) {
-      .hero { padding-top: 120px; padding-bottom: 80px; }
-      .hero-grid { grid-template-columns: 1fr; gap: 56px; }
-    }
+  .stamps { display: flex; flex-wrap: wrap; gap: 12px; margin: 4px 0 20px; }
+  .stamp {
+    width: 76px; height: 76px; border-radius: 50%;
+    border: 2px solid var(--brass); color: var(--brass);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    font: 500 11px/1.25 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; text-align: center;
+    transform: rotate(-8deg);
+  }
+  .stamp b { font: 500 18px/1.1 var(--mono); letter-spacing: 0.04em; }
+  .stamp.filled { background: var(--brass); color: var(--ground); }
+  .stamp.seen { border-style: double; border-width: 4px; transform: rotate(6deg); }
 
-    .eyebrow {
-      display: flex; align-items: center; gap: 12px;
-      font-family: var(--mono); font-size: 11px;
-      letter-spacing: 0.2em; text-transform: uppercase;
-      color: var(--text-faint);
-      margin-bottom: 36px;
-    }
-    .eyebrow .dot { width: 3px; height: 3px; background: var(--accent); border-radius: 50%; }
+  .passport { display: grid; gap: 0; border: 1px solid var(--rule); }
+  .passport > div { padding: 24px 20px; border-bottom: 1px solid var(--rule); background: var(--raised); min-width: 0; }
+  .passport > div:last-child { border-bottom: 0; }
+  .passport h3 { font-size: 20px; font-weight: 700; margin: 8px 0 12px; }
+  .ranks { display: grid; gap: 0; margin-top: 16px; border-top: 1px solid var(--rule); }
+  .ranks li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--rule); color: var(--ink); }
+  .ranks li span { font: 400 12px/1.6 var(--mono); color: var(--dim); }
+  .ach { display: grid; gap: 8px; margin-top: 16px; }
+  .ach li { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; }
+  .ach li span:first-child { color: var(--ink); }
+  .ach li span:last-child { color: var(--dim); text-align: right; }
 
-    .hero-title {
-      font-family: var(--serif);
-      font-weight: 300;
-      font-size: clamp(48px, 7.6vw, 104px);
-      line-height: 0.96;
-      letter-spacing: -0.035em;
-      color: var(--text);
-      margin-bottom: 32px;
-      max-width: 12ch;
-    }
-    .hero-title em {
-      font-weight: 300;
-      font-style: italic;
-      color: var(--text);
-      position: relative;
-      display: inline-block;
-    }
-    .hero-title em::before {
-      content: '';
-      position: absolute; bottom: 0.04em; left: 0; right: 0;
-      height: 1px; background: var(--accent);
-      transform: scaleX(0); transform-origin: left;
-      animation: underline 1.4s 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards;
-    }
-    @keyframes underline { to { transform: scaleX(1); } }
+  .screens { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter) 8px; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
+  .screens figure { margin: 0; min-width: 0; flex: 0 0 62%; scroll-snap-align: start; scroll-margin-left: var(--gutter); }
+  .screens img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--rule); background: var(--raised); }
+  .screens figcaption { margin-top: 8px; font-size: 13px; color: var(--dim); }
 
-    .hero-lede {
-      font-family: var(--sans);
-      font-size: 17px;
-      line-height: 1.6;
-      color: var(--text-dim);
-      max-width: 44ch;
-      margin-bottom: 44px;
-    }
-    .hero-lede strong { color: var(--text); font-weight: 500; }
+  .privacy { display: grid; gap: 24px; }
+  .privacy p { font-size: 17px; }
+  .facts { border: 1px solid var(--rule); }
+  .facts li { display: flex; justify-content: space-between; gap: 16px; padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+  .facts li:last-child { border-bottom: 0; }
+  .facts li span:last-child { color: var(--ink); font-family: var(--mono); font-size: 14px; text-align: right; }
 
-    .hero-cta { display: flex; align-items: center; gap: 24px; margin-bottom: 56px; flex-wrap: wrap; }
-    .btn-primary {
-      display: inline-flex; align-items: center; gap: 12px;
-      padding: 16px 28px;
-      background: var(--accent); color: var(--ink);
-      font-family: var(--sans); font-weight: 600; font-size: 14px;
-      letter-spacing: 0.02em; text-transform: uppercase;
-      border-radius: 999px;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 10px 32px rgba(255,181,71,0.22), 0 0 0 1px rgba(255,181,71,0.4) inset;
-    }
-    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(255,181,71,0.34); }
-    .btn-primary svg { transition: transform 0.2s; }
-    .btn-primary:hover svg { transform: translateX(3px); }
+  .honest { background: var(--raised); }
+  .honest .wrap { padding-top: 32px; padding-bottom: 32px; display: grid; gap: 8px; }
+  .honest p { margin: 0; color: var(--ink); max-width: 52em; }
 
-    .btn-ghost {
-      font-family: var(--mono); font-size: 12px;
-      letter-spacing: 0.16em; text-transform: uppercase;
-      color: var(--text-dim);
-      padding: 14px 4px;
-      border-bottom: 1px solid var(--rule-strong);
-      transition: color 0.2s, border-color 0.2s;
-    }
-    .btn-ghost:hover { color: var(--accent); border-color: var(--accent); }
+  .faq details { border-top: 1px solid var(--rule); }
+  .faq details:last-of-type { border-bottom: 1px solid var(--rule); }
+  .faq summary {
+    list-style: none; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+    padding: 20px 0; color: var(--ink); font: 700 18px/1.35 var(--display);
+  }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: '+'; font: 400 20px/1 var(--mono); color: var(--dim); }
+  .faq details[open] summary::after { content: '\2212'; color: var(--amber); }
+  .faq .answer { padding: 0 0 20px; max-width: 44em; }
+  .faq .answer p:last-child { margin-bottom: 0; }
 
-    .hero-meta {
-      display: grid; grid-template-columns: repeat(4, 1fr);
-      gap: 24px;
-      padding-top: 32px;
-      border-top: 1px solid var(--rule);
-      font-size: 13px;
-      color: var(--text);
-    }
-    @media (max-width: 640px) { .hero-meta { grid-template-columns: repeat(2, 1fr); gap: 18px 24px; } }
-    .hero-meta > div { display: flex; flex-direction: column; gap: 4px; }
-    .m-label {
-      font-family: var(--mono); font-size: 10px;
-      letter-spacing: 0.18em; text-transform: uppercase;
-      color: var(--text-faint);
-    }
+  footer .wrap { padding-top: 40px; padding-bottom: 48px; display: grid; gap: 28px; }
+  footer nav { display: grid; gap: 10px; align-content: start; }
+  footer .cols { display: grid; gap: 28px; }
+  footer p { font-size: 14px; color: var(--dim); }
+  footer .tagline { margin-top: 16px; color: var(--muted); }
+  footer a { color: var(--muted); }
 
-    /* ============================================================
-       BOARDING PASS — right side of hero
-       ============================================================ */
-    .boarding-pass {
-      background: linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 60%, var(--navy-light) 100%);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: 22px;
-      padding: 32px;
-      position: relative;
-      overflow: hidden;
-      box-shadow:
-        0 30px 80px rgba(11, 19, 64, 0.6),
-        0 0 0 1px rgba(255,255,255,0.05) inset,
-        0 0 80px rgba(94,139,255,0.08) inset;
-      transform: rotate(-0.6deg);
-    }
-    .boarding-pass::before {
-      content: ''; position: absolute;
-      top: -80px; right: -80px;
-      width: 240px; height: 240px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(94,139,255,0.18), transparent 70%);
-    }
-    .boarding-pass::after {
-      content: ''; position: absolute;
-      bottom: -40px; left: -40px;
-      width: 160px; height: 160px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(255,181,71,0.10), transparent 70%);
-    }
-    .pass-header {
-      display: flex; justify-content: space-between; align-items: center;
-      margin-bottom: 28px;
-      position: relative;
-    }
-    .pass-label {
-      font-family: var(--mono); font-size: 10px;
-      letter-spacing: 0.22em; text-transform: uppercase;
-      color: rgba(255,255,255,0.45);
-    }
-    .pass-flight {
-      font-family: var(--mono); font-size: 12px;
-      color: rgba(255,255,255,0.7);
-      letter-spacing: 0.08em;
-    }
-    .pass-route { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 24px; position: relative; }
-    .pass-iata { flex: 1; }
-    .pass-iata-right { text-align: right; }
-    .pass-code {
-      font-family: var(--serif); font-weight: 900;
-      font-size: clamp(52px, 6vw, 76px);
-      line-height: 0.94;
-      letter-spacing: -0.04em;
-      color: #fff;
-    }
-    .pass-city {
-      font-family: var(--sans); font-size: 11px;
-      color: rgba(255,255,255,0.45);
-      margin-top: 6px;
-      letter-spacing: 0.05em;
-    }
-    .pass-arrow {
-      flex-shrink: 0;
-      display: flex; flex-direction: column; align-items: center;
-      padding-top: 28px;
-    }
-    .dotline {
-      width: 80px; height: 1px;
-      background-image: linear-gradient(to right, rgba(255,255,255,0.25) 50%, transparent 50%);
-      background-size: 6px 1px;
-      background-repeat: repeat-x;
-    }
-    .plane {
-      font-size: 18px; color: rgba(255,255,255,0.55);
-      margin-top: 6px;
-    }
-    .pass-countdown {
-      background: rgba(0,0,0,0.18);
-      border-radius: 10px;
-      padding: 16px 18px;
-      position: relative;
-      margin-bottom: 20px;
-    }
-    .cd-label {
-      font-family: var(--mono); font-size: 9px;
-      letter-spacing: 0.22em; text-transform: uppercase;
-      color: rgba(255,255,255,0.4);
-      display: block; margin-bottom: 6px;
-    }
-    .cd-time {
-      font-family: var(--serif); font-weight: 900;
-      font-size: 42px;
-      letter-spacing: -0.025em;
-      color: #fff;
-      line-height: 1;
-      font-variant-numeric: tabular-nums;
-    }
-    .pass-tear {
-      position: relative;
-      height: 24px;
-      margin: 8px -32px;
-      border-top: 1px dashed rgba(255,255,255,0.22);
-    }
-    .pass-tear::before, .pass-tear::after {
-      content: ''; position: absolute;
-      width: 24px; height: 24px;
-      background: var(--ink);
-      border-radius: 50%;
-      top: -12px;
-    }
-    .pass-tear::before { left: -12px; }
-    .pass-tear::after { right: -12px; }
-    .pass-footer {
-      display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 16px;
-      padding-top: 12px;
-    }
-    @media (max-width: 480px) {
-      .pass-footer { grid-template-columns: 1fr 1fr; gap: 12px 16px; }
-      .pass-code { font-size: 48px; }
-      .dotline { width: 40px; }
-    }
-    .pass-footer > div { font-family: var(--sans); font-size: 12px; color: #fff; }
-    .pf-label {
-      display: block;
-      font-family: var(--mono); font-size: 9px;
-      letter-spacing: 0.22em; text-transform: uppercase;
-      color: rgba(255,255,255,0.4);
-      margin-bottom: 3px;
-    }
-
-    /* ============================================================
-       TEAR DIVIDER — perforated line between sections
-       ============================================================ */
-    .tear-divider {
-      position: relative;
-      height: 1px;
-      max-width: var(--max);
-      margin: 0 auto;
-      background-image: linear-gradient(to right, var(--rule) 50%, transparent 50%);
-      background-size: 10px 1px;
-      background-repeat: repeat-x;
-    }
-    .tear-divider::before, .tear-divider::after {
-      content: ''; position: absolute; top: -4px;
-      width: 8px; height: 8px;
-      background: var(--ink); border: 1px solid var(--rule);
-      border-radius: 50%;
-    }
-    .tear-divider::before { left: var(--gutter); }
-    .tear-divider::after { right: var(--gutter); }
-
-    /* ============================================================
-       DEPARTURE BOARD
-       ============================================================ */
-    .board {
-      padding: 100px var(--gutter);
-      position: relative;
-    }
-    .board-head {
-      display: flex; justify-content: space-between; align-items: flex-end;
-      max-width: var(--max); margin: 0 auto 40px;
-      gap: 32px; flex-wrap: wrap;
-    }
-    .board-head h2 {
-      font-family: var(--serif); font-weight: 300;
-      font-size: clamp(32px, 4vw, 52px);
-      letter-spacing: -0.025em;
-      line-height: 1;
-      max-width: 18ch;
-    }
-    .board-coords {
-      font-family: var(--mono); font-size: 11px;
-      color: var(--text-faint);
-      letter-spacing: 0.1em;
-      text-align: right;
-    }
-    .board-list {
-      max-width: var(--max); margin: 0 auto;
-      border-top: 1px solid var(--rule);
-    }
-    .board-row {
-      display: grid;
-      grid-template-columns: 70px 1fr 1fr 1.6fr 100px;
-      gap: 24px;
-      padding: 20px 4px;
-      border-bottom: 1px solid var(--rule);
-      align-items: center;
-      transition: background 0.2s;
-    }
-    .board-row:hover { background: rgba(255,255,255,0.015); }
-    .board-row.head { padding: 14px 4px; border-bottom: 1px solid var(--rule-strong); }
-    .board-row.head > div {
-      font-family: var(--mono); font-size: 10px;
-      letter-spacing: 0.2em; text-transform: uppercase;
-      color: var(--text-faint);
-    }
-    .br-num { font-family: var(--mono); font-size: 13px; color: var(--accent); letter-spacing: 0.04em; }
-    .br-flight { font-family: var(--mono); font-size: 13px; color: var(--text); letter-spacing: 0.06em; }
-    .br-route { font-family: var(--serif); font-weight: 700; font-size: 19px; letter-spacing: -0.01em; color: var(--text); }
-    .br-route .arrow { color: var(--text-faint); margin: 0 8px; font-weight: 400; }
-    .br-poi { font-family: var(--sans); font-size: 14px; color: var(--text-dim); font-style: italic; }
-    .br-status { font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; text-align: right; }
-    .br-status .pulse {
-      display: inline-block; width: 6px; height: 6px;
-      background: var(--accent); border-radius: 50%;
-      margin-right: 6px; vertical-align: middle;
-      animation: pulse 1.6s ease-in-out infinite;
-    }
-    @keyframes pulse {
-      0%, 100% { opacity: 0.5; transform: scale(0.8); }
-      50% { opacity: 1; transform: scale(1.2); }
-    }
-    @media (max-width: 760px) {
-      .board-row { grid-template-columns: 36px 84px 1fr; gap: 14px; padding: 14px 0; align-items: baseline; }
-      .br-route { font-size: 16px; }
-      .br-poi, .br-status { display: none; }
-      .board-row.head .br-poi, .board-row.head .br-status { display: none; }
-    }
-
-    /* ============================================================
-       THE THREE PILLARS — editorial alternating layout
-       ============================================================ */
-    .pillar {
-      padding: 100px var(--gutter);
-      position: relative;
-      overflow: hidden;
-    }
-    .pillar-grid {
-      display: grid; grid-template-columns: 1fr 1fr;
-      gap: clamp(40px, 6vw, 96px);
-      max-width: var(--max); margin: 0 auto;
-      align-items: center;
-    }
-    .pillar:nth-child(even) .pillar-grid { direction: rtl; }
-    .pillar:nth-child(even) .pillar-grid > * { direction: ltr; }
-    @media (max-width: 880px) { .pillar-grid { grid-template-columns: 1fr; } .pillar:nth-child(even) .pillar-grid { direction: ltr; } }
-
-    .pillar-num {
-      font-family: var(--serif);
-      font-weight: 900;
-      font-size: clamp(96px, 16vw, 200px);
-      line-height: 0.9;
-      letter-spacing: -0.06em;
-      color: transparent;
-      -webkit-text-stroke: 1px rgba(255,181,71,0.4);
-      margin-bottom: 24px;
-      display: block;
-    }
-    .pillar h3 {
-      font-family: var(--serif); font-weight: 300;
-      font-size: clamp(32px, 4vw, 56px);
-      line-height: 1.04;
-      letter-spacing: -0.03em;
-      margin-bottom: 24px;
-      max-width: 14ch;
-    }
-    .pillar h3 em { font-style: italic; color: var(--accent); }
-    .pillar p {
-      font-size: 17px; color: var(--text-dim);
-      line-height: 1.65;
-      max-width: 48ch;
-      margin-bottom: 16px;
-    }
-    .pillar p strong { color: var(--text); font-weight: 500; }
-
-    /* visual cards on the other side */
-    .visual {
-      position: relative; aspect-ratio: 4 / 5;
-      border-radius: 20px;
-      overflow: hidden;
-      background: linear-gradient(135deg, var(--navy-deep), var(--navy-mid) 60%, var(--navy-light));
-      border: 1px solid var(--rule);
-      box-shadow: 0 30px 80px rgba(0,0,0,0.4);
-    }
-    .visual::before {
-      content: ''; position: absolute;
-      top: -80px; right: -80px;
-      width: 220px; height: 220px; border-radius: 50%;
-      background: radial-gradient(circle, rgba(94,139,255,0.2), transparent 70%);
-    }
-
-    /* OFFLINE visual */
-    .v-offline { padding: 48px; display: flex; flex-direction: column; justify-content: space-between; }
-    .v-offline .signal-grid {
-      display: grid; grid-template-columns: repeat(8, 1fr); gap: 4px;
-      align-items: end; height: 80px;
-    }
-    .v-offline .signal-bar {
-      background: rgba(94,139,255,0.45);
-      border-radius: 2px;
-      height: 20%;
-    }
-    .v-offline .signal-bar.dim { background: rgba(94,139,255,0.12); }
-    .v-offline .label-mono {
-      font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em;
-      color: rgba(255,255,255,0.5); text-transform: uppercase;
-    }
-    .v-offline .big-mono {
-      font-family: var(--mono); font-weight: 500;
-      font-size: 56px; letter-spacing: -0.04em;
-      color: #fff;
-      margin: 16px 0 8px;
-    }
-    .v-offline .alt-card { color: #fff; }
-    .v-offline .alt-card .meta { font-family: var(--sans); font-size: 12px; color: rgba(255,255,255,0.6); }
-
-    /* DISCOVER visual — dusk over a mountain, painterly */
-    .v-discover { padding: 0; width: 100%; height: 100%; position: relative; }
-    .v-discover .photo {
-      width: 100%; height: 100%;
-      background:
-        radial-gradient(ellipse at 70% 18%, rgba(255,205,140,0.55), transparent 45%),
-        radial-gradient(ellipse at 30% 35%, rgba(255,140,80,0.35), transparent 55%),
-        linear-gradient(180deg, #FFB347 0%, #E8804A 14%, #A04A2E 32%, #5C2F22 52%, #2A1810 100%);
-      position: relative;
-    }
-    .v-discover .photo::before {
-      /* mountain silhouette */
-      content: ''; position: absolute;
-      bottom: 0; left: 0; right: 0; height: 55%;
-      background:
-        linear-gradient(to top, rgba(0,0,0,0.55), transparent 80%),
-        linear-gradient(135deg, transparent 60%, #0A0B14 60%) bottom left / 55% 70% no-repeat,
-        linear-gradient(225deg, transparent 60%, #0A0B14 60%) bottom right / 50% 60% no-repeat,
-        linear-gradient(180deg, transparent 50%, #14101A 50%);
-    }
-    .v-discover .photo::after {
-      /* a single bright star/sun */
-      content: ''; position: absolute;
-      top: 14%; right: 22%;
-      width: 8px; height: 8px; border-radius: 50%;
-      background: #FFE7B5;
-      box-shadow: 0 0 22px rgba(255,231,181,0.85), 0 0 60px rgba(255,180,100,0.4);
-    }
-    .v-discover .caption {
-      position: absolute; left: 0; right: 0; bottom: 0;
-      padding: 36px;
-      color: #fff;
-    }
-    .v-discover .cat {
-      font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em;
-      color: var(--accent); text-transform: uppercase;
-      margin-bottom: 12px;
-    }
-    .v-discover .name {
-      font-family: var(--serif); font-weight: 400;
-      font-size: clamp(28px, 3.4vw, 42px);
-      letter-spacing: -0.02em; line-height: 1.02;
-      margin-bottom: 8px;
-    }
-    .v-discover .meta {
-      font-family: var(--mono); font-size: 11px; color: rgba(255,255,255,0.55);
-      letter-spacing: 0.06em;
-    }
-    .v-discover .facts {
-      position: absolute; top: 32px; right: 32px;
-      font-family: var(--mono); font-size: 10px;
-      color: rgba(255,255,255,0.5);
-      letter-spacing: 0.15em;
-      text-align: right;
-    }
-    .v-discover .facts .num { color: var(--accent); display: block; font-size: 13px; }
-
-    /* COLLECT visual — atlas map with faint graticule + glowing pins */
-    .v-collect { padding: 0; width: 100%; height: 100%; position: relative; }
-    .v-collect .map {
-      width: 100%; height: 100%;
-      background:
-        radial-gradient(ellipse at 50% 50%, rgba(94,139,255,0.10), transparent 65%),
-        linear-gradient(180deg, #0A1230 0%, #0E1740 100%);
-      position: relative;
-      overflow: hidden;
-    }
-    .v-collect .map::before {
-      /* faint grid graticule */
-      content: ''; position: absolute; inset: 0;
-      background-image:
-        linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
-      background-size: 12.5% 12.5%;
-      opacity: 0.9;
-    }
-    .v-collect .map::after {
-      /* implied continents — soft amber clouds */
-      content: ''; position: absolute; inset: 0;
-      background:
-        radial-gradient(ellipse 26% 14% at 22% 38%, rgba(255,181,71,0.06), transparent 70%),
-        radial-gradient(ellipse 22% 18% at 56% 32%, rgba(255,181,71,0.06), transparent 70%),
-        radial-gradient(ellipse 18% 22% at 78% 58%, rgba(255,181,71,0.05), transparent 70%),
-        radial-gradient(ellipse 24% 12% at 36% 72%, rgba(255,181,71,0.05), transparent 70%);
-    }
-    .v-collect .arc {
-      position: absolute;
-      width: 100%; height: 100%; top: 0; left: 0;
-      z-index: 1;
-    }
-    .v-collect .pin {
-      position: absolute;
-      width: 10px; height: 10px;
-      background: var(--accent);
-      border-radius: 50%;
-      box-shadow:
-        0 0 0 4px rgba(255,181,71,0.22),
-        0 0 0 10px rgba(255,181,71,0.10),
-        0 0 24px rgba(255,181,71,0.65);
-      z-index: 2;
-    }
-    .v-collect .pin.p1 { top: 22%; left: 18%; }
-    .v-collect .pin.p2 { top: 38%; left: 42%; }
-    .v-collect .pin.p3 { top: 28%; left: 64%; }
-    .v-collect .pin.p4 { top: 56%; left: 78%; }
-    .v-collect .pin.p5 { top: 70%; left: 32%; }
-    .v-collect .stats {
-      position: absolute; top: 32px; left: 32px; right: 32px;
-      display: flex; justify-content: space-between;
-      color: #fff;
-    }
-    .v-collect .stat .num {
-      font-family: var(--serif); font-weight: 900;
-      font-size: 36px; letter-spacing: -0.03em;
-      display: block; line-height: 1;
-    }
-    .v-collect .stat .lbl {
-      font-family: var(--mono); font-size: 10px;
-      letter-spacing: 0.18em; text-transform: uppercase;
-      color: rgba(255,255,255,0.5);
-      margin-top: 6px;
-    }
-
-    /* ============================================================
-       DISCOVERY GRID — what you'll see
-       ============================================================ */
-    .discovery {
-      padding: 120px var(--gutter);
-      position: relative;
-    }
-    .discovery-head {
-      max-width: var(--max); margin: 0 auto 60px;
-      text-align: center;
-    }
-    .discovery-head h2 {
-      font-family: var(--serif); font-weight: 300;
-      font-size: clamp(36px, 6vw, 80px);
-      line-height: 1.04;
-      letter-spacing: -0.035em;
-      margin-top: 24px;
-      max-width: 16ch; margin-left: auto; margin-right: auto;
-      padding: 0 8px;
-    }
-    .discovery-head h2 em { font-style: italic; color: var(--accent); }
-    .discovery-grid {
-      max-width: var(--max); margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      gap: 16px;
-    }
-    @media (max-width: 880px) { .discovery-grid { grid-template-columns: repeat(2, 1fr); } }
-
-    .d-card {
-      background: var(--ink-surface);
-      border: 1px solid var(--rule);
-      border-radius: 14px;
-      padding: 28px;
-      min-height: 220px;
-      display: flex; flex-direction: column; justify-content: space-between;
-      transition: border-color 0.3s, transform 0.3s;
-      position: relative; overflow: hidden;
-    }
-    .d-card:hover { border-color: var(--rule-strong); transform: translateY(-3px); }
-    .d-card .d-num {
-      font-family: var(--mono); font-size: 11px;
-      color: var(--text-faint); letter-spacing: 0.15em;
-    }
-    .d-card .d-glyph {
-      font-family: var(--serif); font-weight: 900;
-      font-size: 72px; letter-spacing: -0.04em;
-      color: var(--accent);
-      line-height: 0.85;
-      margin: 12px 0;
-    }
-    .d-card .d-name {
-      font-family: var(--serif); font-weight: 400;
-      font-size: 19px; letter-spacing: -0.01em;
-      color: var(--text);
-      margin-bottom: 4px;
-    }
-    .d-card .d-detail {
-      font-family: var(--mono); font-size: 11px;
-      color: var(--text-faint);
-      letter-spacing: 0.06em;
-    }
-    .d-card.span-2 { grid-column: span 2; }
-    .d-card.span-3 { grid-column: span 3; }
-    .d-card.feature {
-      background:
-        radial-gradient(ellipse at top right, rgba(94,139,255,0.25), transparent 60%),
-        linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 60%, var(--navy-light) 100%);
-      border-color: rgba(94,139,255,0.35);
-      box-shadow: 0 20px 50px rgba(11,19,64,0.4), inset 0 0 60px rgba(94,139,255,0.06);
-    }
-    .d-card.feature .d-num { color: rgba(255,255,255,0.45); }
-    .d-card.feature .d-glyph { color: #fff; opacity: 0.95; }
-    .d-card.feature .d-name { color: #fff; }
-    .d-card.feature .d-detail { color: rgba(255,255,255,0.45); }
-    @media (max-width: 880px) {
-      .d-card.span-2, .d-card.span-3 { grid-column: span 2; }
-    }
-
-    /* ============================================================
-       PRICING — restrained, single-tier
-       ============================================================ */
-    .pricing {
-      padding: 140px var(--gutter);
-      text-align: center;
-      position: relative;
-    }
-    .pricing::before {
-      content: ''; position: absolute;
-      top: 20%; left: 50%; transform: translateX(-50%);
-      width: 80%; max-width: 800px; height: 40%;
-      background: radial-gradient(ellipse, rgba(255,181,71,0.06), transparent 60%);
-      pointer-events: none; filter: blur(40px);
-    }
-    .pricing-eyebrow {
-      font-family: var(--mono); font-size: 11px;
-      color: var(--text-faint); letter-spacing: 0.22em;
-      text-transform: uppercase;
-      margin-bottom: 28px;
-      position: relative;
-    }
-    .pricing-price {
-      font-family: var(--serif); font-weight: 300;
-      font-size: clamp(80px, 14vw, 196px);
-      line-height: 0.92;
-      letter-spacing: -0.05em;
-      color: var(--text);
-      position: relative;
-    }
-    .pricing-price em { font-style: italic; color: var(--accent); font-weight: 400; }
-    .pricing-currency {
-      font-family: var(--serif); font-weight: 300;
-      font-size: 0.4em;
-      vertical-align: super;
-      letter-spacing: -0.03em;
-      color: var(--text-dim);
-      margin-right: 0.05em;
-    }
-    .pricing-tag {
-      font-family: var(--mono); font-size: 13px;
-      color: var(--text-dim); letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-top: 24px;
-    }
-    .pricing-includes {
-      max-width: 620px; margin: 56px auto 0;
-      display: grid; grid-template-columns: repeat(2, 1fr);
-      gap: 18px 36px;
-      text-align: left;
-    }
-    @media (max-width: 600px) { .pricing-includes { grid-template-columns: 1fr; } }
-    .pricing-includes li {
-      list-style: none;
-      font-size: 14px;
-      color: var(--text-dim);
-      padding-left: 22px;
-      position: relative;
-      line-height: 1.5;
-    }
-    .pricing-includes li::before {
-      content: '✦';
-      position: absolute; left: 0; top: 1px;
-      color: var(--accent);
-      font-size: 13px;
-    }
-    .pricing-fine {
-      font-family: var(--mono); font-size: 10px;
-      color: var(--text-faint); letter-spacing: 0.05em;
-      max-width: 540px; margin: 40px auto 0;
-      line-height: 1.6;
-    }
-
-    /* ============================================================
-       FAQ — boarding-pass details style
-       ============================================================ */
-    .faq {
-      padding: 100px var(--gutter);
-      max-width: 880px;
-      margin: 0 auto;
-    }
-    .faq h2 {
-      font-family: var(--serif); font-weight: 300;
-      font-size: clamp(36px, 5vw, 60px);
-      letter-spacing: -0.03em;
-      line-height: 1;
-      margin: 24px 0 56px;
-    }
-    .faq-item {
-      border-top: 1px dashed var(--rule);
-      padding: 24px 0;
-    }
-    .faq-item:last-child { border-bottom: 1px dashed var(--rule); }
-    .faq-item summary {
-      display: flex; justify-content: space-between; align-items: center;
-      gap: 24px;
-      cursor: pointer;
-      list-style: none;
-      padding: 8px 0;
-    }
-    .faq-item summary::-webkit-details-marker { display: none; }
-    .faq-item summary .q {
-      font-family: var(--serif); font-weight: 400;
-      font-size: clamp(18px, 2vw, 22px);
-      letter-spacing: -0.01em;
-      color: var(--text);
-      flex: 1;
-    }
-    .faq-item summary .plus {
-      font-family: var(--mono); font-size: 22px; color: var(--accent);
-      transition: transform 0.3s;
-      flex-shrink: 0;
-    }
-    .faq-item[open] summary .plus { transform: rotate(45deg); }
-    .faq-item .a {
-      padding: 16px 0 0 4px;
-      font-family: var(--sans); font-size: 15px;
-      color: var(--text-dim);
-      line-height: 1.65;
-      max-width: 60ch;
-    }
-    .faq-item .a a { color: var(--accent); border-bottom: 1px solid currentColor; }
-
-    /* ============================================================
-       FINAL CTA
-       ============================================================ */
-    .final {
-      padding: 140px var(--gutter) 100px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .final::before {
-      content: ''; position: absolute;
-      top: 0; left: 50%; transform: translateX(-50%);
-      width: 100%; max-width: 900px; height: 100%;
-      background: radial-gradient(ellipse at top, rgba(11,19,64,0.6), transparent 60%);
-      pointer-events: none;
-    }
-    .final-glyph {
-      font-family: var(--serif); font-weight: 900;
-      font-size: 48px; color: var(--accent);
-      margin-bottom: 24px;
-      line-height: 1;
-      position: relative;
-    }
-    .final h2 {
-      font-family: var(--serif); font-weight: 300;
-      font-size: clamp(56px, 9vw, 144px);
-      line-height: 0.94;
-      letter-spacing: -0.04em;
-      max-width: 14ch; margin: 0 auto 28px;
-      position: relative;
-    }
-    .final h2 em { font-style: italic; color: var(--accent); font-weight: 400; }
-    .final p {
-      font-size: 18px;
-      color: var(--text-dim);
-      max-width: 44ch; margin: 0 auto 48px;
-      position: relative;
-    }
-    .final .btn-primary {
-      font-size: 16px; padding: 20px 38px;
-      position: relative;
-    }
-
-    /* ============================================================
-       FOOTER — boarding-pass legal style
-       ============================================================ */
-    footer.main {
-      border-top: 1px solid var(--rule);
-      padding: 60px var(--gutter) 40px;
-      background: var(--ink-deep);
-    }
-    .footer-grid {
-      max-width: var(--max); margin: 0 auto;
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
-      gap: 48px;
-    }
-    @media (max-width: 720px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; } }
-    .footer-brand {
-      font-family: var(--serif); font-weight: 900;
-      font-size: 26px; letter-spacing: -0.03em;
-      margin-bottom: 12px;
-    }
-    .footer-brand .dot { display: inline-block; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; vertical-align: super; margin-left: 1px; }
-    .footer-tag {
-      font-family: var(--sans); font-size: 14px;
-      color: var(--text-dim);
-      max-width: 28ch;
-      line-height: 1.55;
-    }
-    .footer-col h4 {
-      font-family: var(--mono); font-size: 10px;
-      letter-spacing: 0.2em; text-transform: uppercase;
-      color: var(--text-faint);
-      margin-bottom: 16px;
-    }
-    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
-    .footer-col a {
-      font-size: 14px; color: var(--text-dim);
-      transition: color 0.2s;
-    }
-    .footer-col a:hover { color: var(--accent); }
-    .footer-base {
-      max-width: var(--max); margin: 48px auto 0;
-      padding-top: 32px;
-      border-top: 1px dashed var(--rule);
-      display: flex; justify-content: space-between; align-items: center;
-      flex-wrap: wrap; gap: 16px;
-      font-family: var(--mono); font-size: 10px;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      color: var(--text-faint);
-    }
-
-    /* ============================================================
-       SUB-PAGE TEMPLATES — privacy + terms inline
-       ============================================================ */
-    .docpage {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 120px var(--gutter) 80px;
-    }
-    .docpage h1 {
-      font-family: var(--serif); font-weight: 300;
-      font-size: clamp(36px, 5vw, 56px);
-      letter-spacing: -0.03em;
-      margin-bottom: 12px;
-    }
-    .docpage .meta {
-      font-family: var(--mono); font-size: 11px;
-      color: var(--text-faint); letter-spacing: 0.15em;
-      text-transform: uppercase; margin-bottom: 48px;
-    }
-    .docpage h2 {
-      font-family: var(--serif); font-weight: 700;
-      font-size: 22px; letter-spacing: -0.01em;
-      margin: 40px 0 14px;
-    }
-    .docpage p {
-      font-size: 15px; color: var(--text-dim);
-      line-height: 1.7; margin-bottom: 12px;
-    }
-    .docpage ul { padding-left: 20px; }
-    .docpage li { color: var(--text-dim); margin-bottom: 6px; font-size: 15px; }
-
-    /* ============================================================
-       REVEAL — subtle scroll-in animations
-       ============================================================ */
-    .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.9s ease-out, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1); }
-    .reveal.in { opacity: 1; transform: translateY(0); }
-    .reveal-delay-1 { transition-delay: 0.08s; }
-    .reveal-delay-2 { transition-delay: 0.16s; }
-    .reveal-delay-3 { transition-delay: 0.24s; }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
-      .reveal { opacity: 1; transform: none; }
-    }
-  </style>
+  @media (min-width: 720px) {
+    :root { --gutter: 32px; }
+    .nav .wide { display: inline; }
+    .figures { grid-template-columns: repeat(4, 1fr); }
+    .figures div { border-bottom: 0; padding: 24px 0 24px 24px; border-left: 1px solid var(--rule); }
+    .figures div:first-child { padding-left: 0; border-left: 0; }
+    .trio { grid-template-columns: repeat(3, 1fr); }
+    .trio > div { border-bottom: 0; border-right: 1px solid var(--rule); }
+    .trio > div:last-child { border-right: 0; }
+    .passport { grid-template-columns: 1fr 1fr; }
+    .passport > div:nth-child(odd) { border-right: 1px solid var(--rule); }
+    .passport > div:nth-last-child(-n+2) { border-bottom: 0; }
+    .screens { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+    footer .cols { grid-template-columns: 2fr 1fr 1fr; }
+  }
+  @media (min-width: 960px) {
+    .hero .wrap { grid-template-columns: 1.15fr 1fr; align-items: center; padding-top: 80px; padding-bottom: 88px; gap: 64px; }
+    .phases { grid-template-columns: repeat(3, 1fr); }
+    .phase { border-bottom: 0; border-right: 1px solid var(--rule); }
+    .phase:last-child { border-right: 0; }
+    .privacy { grid-template-columns: 1.3fr 1fr; gap: 48px; align-items: start; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .live i { animation: none; }
+  }
+</style>
 </head>
 <body>
-  <div class="starfield"></div>
-  <div class="grain"></div>
 
-  <nav class="top">
-    <a class="brand" href="#">SkyAtlas<span class="dot"></span></a>
-    <div class="nav-meta">
-      <span>VOL.I</span>
-      <span class="sep">·</span>
-      <span>ISSUE 01</span>
-      <span class="sep">·</span>
-      <span>FROM 35,000 FT</span>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="SkyAtlas, home"><img src="icon.png" alt="" width="32" height="32">SkyAtlas</a>
+    <nav class="nav" aria-label="Sections">
+      <a class="wide" href="#how">How it works</a>
+      <a class="wide" href="#passport">Passport</a>
+      <a class="wide" href="#privacy">Privacy</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div>
+      <img class="hero-icon" src="icon.png" alt="The SkyAtlas icon: an aircraft window with a route drawn across it" width="80" height="80">
+      <p class="label">SkyAtlas · a guide for the window seat</p>
+      <h1 id="hero-title">What you fly over, offline.</h1>
+      <p class="lede">SkyAtlas tells you which side to sit on, what will pass beneath the wing and at what minute, and the story behind each place. You prepare the flight on the ground. In the air, everything works in airplane mode, with no account.</p>
+      <div class="actions" id="download">
+        <!-- TODO(owner): replace with the official "Download on the App Store" badge (Apple Marketing Resources) and the real App Store URL once the app is live. -->
+        <a class="btn primary" href="#">
+          <span class="stack"><small>iPhone</small>App Store: coming soon</span>
+        </a>
+        <a class="btn" href="#how">How it works</a>
+      </div>
+      <p class="note">Free at launch. No ads. English, Russian, German, French, Spanish and Japanese.</p>
     </div>
-    <a class="nav-cta" href="#download">Download</a>
-  </nav>
 
-  <main>
-
-    <!-- ===== HERO ===== -->
-    <section class="hero">
-      <div class="hero-grid">
-        <div class="hero-left reveal in">
-          <div class="eyebrow">
-            <span>FOR THE CURIOUS TRAVELLER</span>
-            <span class="dot"></span>
-            <span>EST. 2026</span>
+    <div class="hero-art">
+      <div class="plate" role="img" aria-label="An example of the in-flight screen. Left: Elbrus, a peak 5,642 metres high, 94 kilometres away. Right: the Black Sea, 28 kilometres away. Next: sunset on board, right window, in 22 minutes.">
+        <div class="plate-head">
+          <span class="label">Out of the window now</span>
+          <span class="label live"><i></i><span class="num">1 h 42 min</span> in the air</span>
+        </div>
+        <div class="readout">
+          <div class="cell">
+            <span class="label">Left</span>
+            <strong>Elbrus</strong>
+            <span class="meta">peak · 5,642 m<br>94 km away<br>in view 11 min</span>
           </div>
-          <h1 class="hero-title">
-            Your atlas <em>of&nbsp;the&nbsp;world</em>, one flight <em>at&nbsp;a&nbsp;time.</em>
-          </h1>
-          <p class="hero-lede">
-            An editorial flight companion. Track your route <strong>offline</strong> at 35,000 ft. Read the stories beneath your window — mountains, cities, lakes, and landmarks — and build a personal atlas that grows with every trip.
-          </p>
-          <div class="hero-cta">
-            <a class="btn-primary" id="download" href="#download">
-              <span>Download for iOS</span>
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-                <path d="M3 1l8 6-8 6V1z" fill="currentColor"/>
-              </svg>
-            </a>
-            <a class="btn-ghost" href="#story">Read the story</a>
+          <div class="cell">
+            <span class="label">Right</span>
+            <strong>Black Sea</strong>
+            <span class="meta">sea<br>28 km away<br>in view 26 min</span>
           </div>
-          <div class="hero-meta">
-            <div><span class="m-label">PLATFORM</span> iOS 16+</div>
-            <div><span class="m-label">SIZE</span> 28 MB</div>
-            <div><span class="m-label">LANGUAGES</span> 6</div>
-            <div><span class="m-label">RATING</span> 4+</div>
+          <div class="cell full">
+            <span class="label">Next</span>
+            <strong>Sunset on board</strong>
+            <span class="meta">window: right · <span class="count">in 22 min</span></span>
           </div>
         </div>
-
-        <aside class="boarding-pass reveal reveal-delay-2 in">
-          <div class="pass-header">
-            <span class="pass-label">BOARDING PASS</span>
-            <span class="pass-flight">SA · 2026</span>
-          </div>
-          <div class="pass-route">
-            <div class="pass-iata">
-              <div class="pass-code">HOM</div>
-              <div class="pass-city">your city</div>
-            </div>
-            <div class="pass-arrow">
-              <div class="dotline"></div>
-              <span class="plane">✈</span>
-            </div>
-            <div class="pass-iata pass-iata-right">
-              <div class="pass-code">SKY</div>
-              <div class="pass-city">35,000 ft</div>
-            </div>
-          </div>
-          <div class="pass-countdown">
-            <span class="cd-label">DEPARTING IN</span>
-            <div class="cd-time" id="liveCountdown">— : — : —</div>
-          </div>
-          <div class="pass-tear"></div>
-          <div class="pass-footer">
-            <div><span class="pf-label">GATE</span> 01</div>
-            <div><span class="pf-label">SEAT</span> 11A</div>
-            <div><span class="pf-label">CLASS</span> WINDOW</div>
-            <div><span class="pf-label">BOARDS</span> ANYTIME</div>
-          </div>
-        </aside>
+        <p class="caption">An illustration of the in-flight screen, with the kind of detail it shows.</p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <div class="tear-divider"></div>
+<div class="figures-band">
+<div class="wrap figures" aria-label="SkyAtlas in numbers">
+  <div><b>9,300</b><span class="label">places built in</span></div>
+  <div><b>30</b><span class="label">achievements</span></div>
+  <div><b>6</b><span class="label">languages</span></div>
+  <div><b>4 min</b><span class="label">demo flight, 20×</span></div>
+</div>
+</div>
 
-    <!-- ===== DEPARTURE BOARD ===== -->
-    <section class="board" id="story">
-      <div class="board-head">
-        <div>
-          <div class="section-label reveal">SOMEWHERE OVER THE WORLD</div>
-          <h2 class="reveal reveal-delay-1">A passenger is reading <em style="font-style:italic; color: var(--accent);">about a lake</em> they didn't know existed.</h2>
-        </div>
-        <div class="board-coords reveal reveal-delay-2">
-          UPDATED LIVE<br>
-          ALL ROUTES · FROM CABIN
-        </div>
-      </div>
-      <div class="board-list reveal reveal-delay-2">
-        <div class="board-row head">
-          <div>#</div>
-          <div>FLIGHT</div>
-          <div>ROUTE</div>
-          <div>FLYING OVER</div>
-          <div>STATUS</div>
-        </div>
-        <div class="board-row">
-          <div class="br-num">01</div>
-          <div class="br-flight">BA 117</div>
-          <div class="br-route">LHR<span class="arrow">→</span>JFK</div>
-          <div class="br-poi">Reading about Reykjavík's geothermal cathedrals</div>
-          <div class="br-status"><span class="pulse"></span>LIVE</div>
-        </div>
-        <div class="board-row">
-          <div class="br-num">02</div>
-          <div class="br-flight">SU 100</div>
-          <div class="br-route">SVO<span class="arrow">→</span>JFK</div>
-          <div class="br-poi">Crossing the Greenland ice sheet</div>
-          <div class="br-status"><span class="pulse"></span>LIVE</div>
-        </div>
-        <div class="board-row">
-          <div class="br-num">03</div>
-          <div class="br-flight">QF 11</div>
-          <div class="br-route">SYD<span class="arrow">→</span>LAX</div>
-          <div class="br-poi">Reading about Bora Bora's lagoon</div>
-          <div class="br-status"><span class="pulse"></span>LIVE</div>
-        </div>
-        <div class="board-row">
-          <div class="br-num">04</div>
-          <div class="br-flight">EK 201</div>
-          <div class="br-route">DXB<span class="arrow">→</span>JFK</div>
-          <div class="br-poi">Above the Caspian Sea, Caucasus mountains</div>
-          <div class="br-status"><span class="pulse"></span>LIVE</div>
-        </div>
-        <div class="board-row">
-          <div class="br-num">05</div>
-          <div class="br-flight">LH 400</div>
-          <div class="br-route">FRA<span class="arrow">→</span>JFK</div>
-          <div class="br-poi">Discovering an Atlantic island chain</div>
-          <div class="br-status"><span class="pulse"></span>LIVE</div>
-        </div>
-      </div>
-    </section>
+<section id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">How it works</p>
+      <h2 id="how-title">Prepared on the ground. Read in the air.</h2>
+      <p>Your phone does all the work. There is no SkyAtlas server; the route, the places and the timeline are calculated on the device from data built into the app.</p>
+    </div>
 
-    <div class="tear-divider"></div>
-
-    <!-- ===== PILLAR 01 — OFFLINE ===== -->
-    <section class="pillar">
-      <div class="pillar-grid">
-        <div class="reveal">
-          <span class="pillar-num">01</span>
-          <h3>Works <em>offline</em>, by design.</h3>
-          <p>
-            Before you board, SkyAtlas downloads everything for your route — the position engine, the geography, the photos, the stories. The seatback Wi-Fi can be slow, or absent, or expensive. You won't need it.
-          </p>
-          <p>
-            Your phone becomes a self-contained <strong>flight companion</strong> that knows exactly where you are, what's beneath you, and what's worth looking at — for the entire route, gate to gate.
-          </p>
-        </div>
-        <div class="visual reveal reveal-delay-2">
-          <div class="v-offline">
-            <div>
-              <div class="label-mono">SIGNAL</div>
-              <div class="big-mono">NONE</div>
-              <div class="signal-grid">
-                <div class="signal-bar dim"></div>
-                <div class="signal-bar dim"></div>
-                <div class="signal-bar dim"></div>
-                <div class="signal-bar dim"></div>
-                <div class="signal-bar dim"></div>
-                <div class="signal-bar dim"></div>
-                <div class="signal-bar dim"></div>
-                <div class="signal-bar dim"></div>
-              </div>
-            </div>
-            <div class="alt-card">
-              <div class="label-mono" style="margin-bottom: 8px;">SKYATLAS</div>
-              <div style="font-family: var(--serif); font-weight: 900; font-size: 42px; line-height: 1; letter-spacing: -0.03em;">FULLY OPERATIONAL</div>
-              <div class="meta" style="margin-top: 12px;">Position · Route · Photos · Stories — all cached.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== PILLAR 02 — DISCOVER ===== -->
-    <section class="pillar">
-      <div class="pillar-grid">
-        <div class="reveal">
-          <span class="pillar-num">02</span>
-          <h3>Read the world <em>below.</em></h3>
-          <p>
-            That snow-capped ridge to your right is the Aiguille du Midi. The lake your wing just passed is Garda. The volcano on the horizon last erupted in 1944.
-          </p>
-          <p>
-            <strong>Editorial POI cards</strong> — written like National Geographic, not Wikipedia. Three facts you'll remember, one photograph that does it justice, and the option to listen instead of read.
-          </p>
-        </div>
-        <div class="visual reveal reveal-delay-2">
-          <div class="v-discover">
-            <div class="photo">
-              <div class="facts">
-                <span class="num">01</span> 4,810 M ELEVATION<br>
-                <span class="num">02</span> FIRST ASCENT 1786<br>
-                <span class="num">03</span> 7.5 KM BELOW NOW
-              </div>
-              <div class="caption">
-                <div class="cat">— Mountain, France</div>
-                <div class="name">Mont Blanc</div>
-                <div class="meta">45.832°N · 6.865°E</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== PILLAR 03 — COLLECT ===== -->
-    <section class="pillar">
-      <div class="pillar-grid">
-        <div class="reveal">
-          <span class="pillar-num">03</span>
-          <h3>Build your <em>personal atlas.</em></h3>
-          <p>
-            Every flight pins another country, another continent, another mountain range to your collection. Eighteen achievements. Five ranks from Newcomer to Legend. A yearly Wrapped that's actually worth sharing.
-          </p>
-          <p>
-            <strong>Letterboxd for the sky.</strong> Your travels stop being trips that happened — they become a body of work that compounds over time.
-          </p>
-        </div>
-        <div class="visual reveal reveal-delay-2">
-          <div class="v-collect">
-            <div class="map">
-              <div class="stats">
-                <div class="stat">
-                  <span class="num">38</span>
-                  <span class="lbl">Countries</span>
-                </div>
-                <div class="stat" style="text-align: right;">
-                  <span class="num">214k</span>
-                  <span class="lbl">Km Flown</span>
-                </div>
-              </div>
-              <span class="pin p1"></span>
-              <span class="pin p2"></span>
-              <span class="pin p3"></span>
-              <span class="pin p4"></span>
-              <span class="pin p5"></span>
-              <svg class="arc" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-                <path d="M 18 22 Q 30 35 42 38" stroke="rgba(255,181,71,0.7)" stroke-width="0.5" fill="none" stroke-dasharray="1.2 1.2"/>
-                <path d="M 42 38 Q 53 30 64 28" stroke="rgba(255,181,71,0.7)" stroke-width="0.5" fill="none" stroke-dasharray="1.2 1.2"/>
-                <path d="M 64 28 Q 72 42 78 56" stroke="rgba(255,181,71,0.7)" stroke-width="0.5" fill="none" stroke-dasharray="1.2 1.2"/>
-                <path d="M 78 56 Q 55 64 32 70" stroke="rgba(255,181,71,0.7)" stroke-width="0.5" fill="none" stroke-dasharray="1.2 1.2"/>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="tear-divider"></div>
-
-    <!-- ===== DISCOVERY GRID ===== -->
-    <section class="discovery">
-      <div class="discovery-head">
-        <div class="section-label reveal">A TYPICAL JOURNEY</div>
-        <h2 class="reveal reveal-delay-1">What you'll see, from gate <em>to gate.</em></h2>
-      </div>
-      <div class="discovery-grid">
-        <div class="d-card span-2 feature reveal">
-          <span class="d-num">01 / 06</span>
-          <div>
-            <div class="d-glyph">⛰</div>
-            <div class="d-name">Mountain ranges</div>
-            <div class="d-detail" style="color: rgba(255,255,255,0.6)">Alps · Himalayas · Andes · Rockies</div>
-          </div>
-        </div>
-        <div class="d-card reveal">
-          <span class="d-num">02</span>
-          <div>
-            <div class="d-glyph">🏙</div>
-            <div class="d-name">Cities</div>
-            <div class="d-detail">Major + hidden</div>
-          </div>
-        </div>
-        <div class="d-card reveal">
-          <span class="d-num">03</span>
-          <div>
-            <div class="d-glyph">🌊</div>
-            <div class="d-name">Lakes & seas</div>
-            <div class="d-detail">Geological detail</div>
-          </div>
-        </div>
-        <div class="d-card reveal">
-          <span class="d-num">04</span>
-          <div>
-            <div class="d-glyph">🏝</div>
-            <div class="d-name">Islands</div>
-            <div class="d-detail">Often unseen</div>
-          </div>
-        </div>
-        <div class="d-card reveal">
-          <span class="d-num">05</span>
-          <div>
-            <div class="d-glyph">🌋</div>
-            <div class="d-name">Volcanoes</div>
-            <div class="d-detail">Active + dormant</div>
-          </div>
-        </div>
-        <div class="d-card span-2 reveal">
-          <span class="d-num">06</span>
-          <div>
-            <div class="d-glyph">⌖</div>
-            <div class="d-name">Historic landmarks</div>
-            <div class="d-detail">UNESCO sites · ancient ruins · architecture worth pointing at</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="tear-divider"></div>
-
-    <!-- ===== PRICING ===== -->
-    <section class="pricing">
-      <div class="pricing-eyebrow reveal">— ONE PRICE · NO TIERS · NO TRICKS —</div>
-      <div class="pricing-price reveal reveal-delay-1">
-        <span class="pricing-currency">$</span>19<em>.99</em>
-      </div>
-      <div class="pricing-tag reveal reveal-delay-2">A YEAR · UNLIMITED FLIGHTS</div>
-
-      <ul class="pricing-includes reveal reveal-delay-3">
-        <li>Unlimited flight tracking — every route, every airport in the world</li>
-        <li>All 18 achievements, 100 levels, 5 ranks — no paywalled milestones</li>
-        <li>Full World Atlas, Year Wrapped, lifetime statistics</li>
-        <li>iCloud backup so your atlas survives any phone upgrade</li>
-        <li>Six languages: English, Russian, German, French, Spanish, Japanese</li>
-        <li>One-time $49.99 lifetime option for the truly committed</li>
-      </ul>
-
-      <p class="pricing-fine reveal reveal-delay-3">
-        7-DAY FREE TRIAL · CANCEL ANY TIME · APP STORE BILLING ONLY · NO ADS · NO TRACKING SOLD
-      </p>
-    </section>
-
-    <div class="tear-divider"></div>
-
-    <!-- ===== FAQ ===== -->
-    <section class="faq">
-      <div class="section-label reveal">DETAILS — FOR THE THOROUGH</div>
-      <h2 class="reveal reveal-delay-1">Common questions, <em style="font-style:italic">honest answers.</em></h2>
-
-      <details class="faq-item reveal">
-        <summary>
-          <span class="q">Does it really work offline?</span>
-          <span class="plus">+</span>
-        </summary>
-        <div class="a">
-          Yes. Before you board, SkyAtlas downloads your route, every POI along it, every photograph, every fact, and the position engine itself. In flight, your phone simulates your position using the route and time of takeoff — no GPS, no Wi-Fi, no signal required. Live mode is optionally available if your flight has Wi-Fi, but it's never required.
-        </div>
-      </details>
-
-      <details class="faq-item reveal">
-        <summary>
-          <span class="q">How does SkyAtlas know what's below me?</span>
-          <span class="plus">+</span>
-        </summary>
-        <div class="a">
-          We sample your great-circle route at intervals, query a curated geographic database (GeoNames, with editorial cleanup), and pull the relevant Wikipedia entry in your language. Then our content engine picks three things worth knowing, one photograph that does the place justice, and presents it in a card that fades up at exactly the moment your aircraft passes overhead.
-        </div>
-      </details>
-
-      <details class="faq-item reveal">
-        <summary>
-          <span class="q">Is my data private?</span>
-          <span class="plus">+</span>
-        </summary>
-        <div class="a">
-          Your flight history, achievements, and collection live on your phone and in your private iCloud. We don't sell behavioural data and we don't run third-party advertising trackers. Crash reporting and basic analytics (Sentry, PostHog) are anonymous and configurable in Settings. Full details in our <a href="#privacy">Privacy Policy</a>.
-        </div>
-      </details>
-
-      <details class="faq-item reveal">
-        <summary>
-          <span class="q">What languages are supported?</span>
-          <span class="plus">+</span>
-        </summary>
-        <div class="a">
-          The full app is translated into English, Russian, German, French, Spanish, and Japanese. POI descriptions are pulled in your language from Wikipedia when available, with a graceful English fallback for less-documented places.
-        </div>
-      </details>
-
-      <details class="faq-item reveal">
-        <summary>
-          <span class="q">Is there an Android version?</span>
-          <span class="plus">+</span>
-        </summary>
-        <div class="a">
-          Not yet. SkyAtlas is iOS-only at launch. An Android version is on the roadmap once the iOS app proves its value to enough travellers.
-        </div>
-      </details>
-
-      <details class="faq-item reveal">
-        <summary>
-          <span class="q">What about flight delays and gate changes?</span>
-          <span class="plus">+</span>
-        </summary>
-        <div class="a">
-          SkyAtlas isn't a flight-status app — that's Flighty's territory. We focus on the experience <em>during</em> the flight: what's below, what to look at, what to remember. Pre-flight delay alerts are on the roadmap for v1.2.
-        </div>
-      </details>
-
-      <details class="faq-item reveal">
-        <summary>
-          <span class="q">Can I import my flight history?</span>
-          <span class="plus">+</span>
-        </summary>
-        <div class="a">
-          Yes. SkyAtlas reads Apple Wallet boarding passes directly — share a `.pkpass` to the app and it parses the flight automatically. Bulk CSV import from TripIt and Flighty is planned for v1.1.
-        </div>
-      </details>
-
-      <details class="faq-item reveal">
-        <summary>
-          <span class="q">Who's behind SkyAtlas?</span>
-          <span class="plus">+</span>
-        </summary>
-        <div class="a">
-          A small independent team that flies too much, gets bored looking out the window, and wanted something better than the Sky Mall magazine. Built with care from scratch — no white-label, no platform play. <a href="#contact">Contact us</a>.
-        </div>
-      </details>
-    </section>
-
-    <div class="tear-divider"></div>
-
-    <!-- ===== FINAL CTA ===== -->
-    <section class="final">
-      <div class="final-glyph reveal">✦</div>
-      <h2 class="reveal reveal-delay-1">Where will <em>you go?</em></h2>
-      <p class="reveal reveal-delay-2">Add a flight before you board. Discover the world below at 35,000 ft.</p>
-      <a class="btn-primary reveal reveal-delay-3" href="#download">
-        <span>Download for iOS</span>
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-          <path d="M3 1l8 6-8 6V1z" fill="currentColor"/>
-        </svg>
-      </a>
-    </section>
-
-  </main>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="main">
-    <div class="footer-grid">
-      <div>
-        <div class="footer-brand">SkyAtlas<span class="dot"></span></div>
-        <p class="footer-tag">An editorial flight companion. Built independently, with care, for travellers who look out the window.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Product</h4>
+    <div class="phases">
+      <div class="phase">
+        <span class="label">01 · Before you fly</span>
+        <h3>Add the flight while you have Wi-Fi</h3>
         <ul>
-          <li><a href="#download">Download</a></li>
-          <li><a href="#story">Departure board</a></li>
-          <li><a href="#">Roadmap</a></li>
-          <li><a href="#contact">Press kit</a></li>
+          <li>Airports, date and local departure time. Or scan the barcode on your boarding pass, or import its Apple Wallet file. Flight number, arrival time and seat are optional.</li>
+          <li>The route follows the great circle through climb, cruise and descent, and goes around airspace closed to your carrier.</li>
+          <li>Window advice: which side to ask for, and how much of the flight is in daylight.</li>
+          <li>Stories from Wikipedia and photos from Wikimedia Commons are saved to the phone, in your language where an article exists, with an offline map of the route.</li>
+          <li>A day before departure, at check-in time, a reminder names the side to ask for and what it will show. It stays quiet if your seat is already known or neither side is worth it.</li>
         </ul>
       </div>
-      <div class="footer-col">
-        <h4>Legal</h4>
+      <div class="phase">
+        <span class="label">02 · In the air</span>
+        <h3>Everything in airplane mode</h3>
         <ul>
-          <li><a href="#privacy">Privacy Policy</a></li>
-          <li><a href="#terms">Terms of Service</a></li>
-          <li><a href="#contact">Support</a></li>
+          <li>About 15 minutes after the scheduled departure, “Airborne?” appears on your lock screen. Tap <strong>Took off</strong> and the flight starts.</li>
+          <li><strong>Out of the window now</strong>: what is on the left, on the right and below, and what comes next, with a countdown.</li>
+          <li>Alerts for the three best moments on your side, or up to six. Tap one and that place’s card opens. When there is nothing to see, it stays quiet.</li>
+          <li>The phone’s GPS refines the position when it has a fix near the window.</li>
+          <li>Borders, the Equator, the tropics, the polar circles and the Date Line, sunrise and sunset on board, the start of the descent.</li>
         </ul>
       </div>
-      <div class="footer-col">
-        <h4>Credits</h4>
+      <div class="phase">
+        <span class="label">03 · After landing</span>
+        <h3>The flight goes into your passport</h3>
         <ul>
-          <li>Geo data · GeoNames</li>
-          <li>Stories · Wikipedia</li>
-          <li>Maps · OpenStreetMap</li>
-          <li>Set in Fraunces &amp; Inter</li>
+          <li>A stamp for every country you flew over.</li>
+          <li>Gold for every place you saw with your own eyes.</li>
+          <li>Experience, levels and ranks, and new achievements.</li>
+          <li>A short quiz about the flight you have just taken.</li>
+          <li>A postcard to send with “we landed”.</li>
         </ul>
       </div>
     </div>
-    <div class="footer-base">
-      <div>© SKYATLAS · ALL ROUTES RESERVED · 2026</div>
-      <div>FROM 35,000 FT, WITH CARE.</div>
-    </div>
-  </footer>
 
-  <!-- ===== INLINE PRIVACY + TERMS (anchors for App Store URLs) ===== -->
-  <section id="privacy" class="docpage">
-    <div class="meta">LEGAL · LAST UPDATED 2026-05-20</div>
-    <h1>Privacy Policy</h1>
-    <p>SkyAtlas is built around a simple privacy principle: your travel history is yours. We don't sell behavioural data and we don't run third-party advertising trackers.</p>
-    <h2>What we store on your device</h2>
-    <p>Your flight history, achievements, settings, and offline content packages are stored locally using iOS SQLite and MMKV. They sync to your private iCloud when iCloud Backup is enabled.</p>
-    <h2>What we send to our servers</h2>
-    <p>When you add a flight, we send the flight number and date to our backend to fetch route geometry, POI metadata, and editorial content. No personal identifying information is transmitted with these requests.</p>
-    <h2>Third-party services</h2>
-    <ul>
-      <li><strong>Sentry</strong> — anonymous crash reports (opt-out in Settings)</li>
-      <li><strong>PostHog</strong> — anonymous product analytics (opt-out in Settings)</li>
-      <li><strong>RevenueCat</strong> — subscription management (App Store / Google Play receipts)</li>
-      <li><strong>GeoNames, Wikipedia, OpenStreetMap, Open-Meteo</strong> — public data sources used to assemble flight packages</li>
+    <ul class="kinds" aria-label="Kinds of places">
+      <li>peaks</li><li>volcanoes</li><li>mountain ranges</li><li>deserts</li><li>seas</li><li>lakes</li><li>islands</li><li>rivers</li><li>glaciers</li><li>cities</li>
     </ul>
-    <h2>Your rights</h2>
-    <p>You can disable analytics and crash reporting in Settings. You can delete all local data by uninstalling the app. For data deletion from our servers (limited to device tokens and cached flight lookups), email <a href="#contact">support@skyatlas.app</a>.</p>
-  </section>
+    <p class="note">About 9,300 notable places. For each one on your route: which side, at what minute, how far away, and how long it stays in view.</p>
+  </div>
+</section>
 
-  <section id="terms" class="docpage">
-    <div class="meta">LEGAL · LAST UPDATED 2026-05-20</div>
-    <h1>Terms of Service</h1>
-    <p>By using SkyAtlas you agree to these terms. They're written in plain English because legal jargon helps no one.</p>
-    <h2>The service</h2>
-    <p>SkyAtlas is an editorial flight companion. We assemble travel information from public sources and present it to you for entertainment and personal interest. We make no guarantee that flight routes, schedules, or POI information is operationally accurate. Don't use SkyAtlas for actual aviation operations.</p>
-    <h2>Subscription</h2>
-    <p>SkyAtlas Pro is a recurring subscription managed by the App Store. Cancel any time in your App Store account settings — the subscription stops at the end of the current billing period. Refunds are handled by Apple, not by us.</p>
-    <h2>Content</h2>
-    <p>POI content draws from Wikipedia (CC-BY-SA 3.0), GeoNames (CC-BY 4.0), and OpenStreetMap (ODbL). Full attribution lives in the app's Settings → Credits screen.</p>
-    <h2>Acceptable use</h2>
-    <p>Don't try to reverse-engineer the app, scrape the backend, or use it for anything illegal. We reserve the right to block access from clients that abuse the service.</p>
-    <h2>Liability</h2>
-    <p>SkyAtlas is provided "as is" — we do our best, but we make no warranties. We're not responsible for missed flights, ruined views, or boredom.</p>
-  </section>
+<section id="window" aria-labelledby="window-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">At the window</p>
+      <h2 id="window-title">Look up from the phone.</h2>
+      <p>SkyAtlas is meant to be glanced at, then put down. Three things keep your eyes on the window.</p>
+    </div>
+    <div class="trio">
+      <div>
+        <span class="label">Guess what’s below</span>
+        <h3>A question before the view</h3>
+        <p class="quote">Which mountain is about to appear on the left?</p>
+        <p>A few minutes before a notable place, pick the answer from a short list. Then look out of the window and check.</p>
+      </div>
+      <div>
+        <span class="label">Audio guide</span>
+        <h3>Stories read aloud</h3>
+        <p>As a place comes abeam, the audio guide reads its story using your phone’s built-in voice. Headphones in, eyes on the window.</p>
+      </div>
+      <div>
+        <span class="label">I see it</span>
+        <h3>Gold for what you saw</h3>
+        <div class="stamps" aria-hidden="true">
+          <div class="stamp seen"><b>★</b>seen</div>
+        </div>
+        <p>Spotted it for real? Tap <strong>I see it</strong>, and the place turns gold in your passport. It is the one stamp that only your own eyes can earn.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <section id="contact" class="docpage">
-    <div class="meta">SUPPORT · WE READ EVERY EMAIL</div>
-    <h1>Get in touch</h1>
-    <p>Email <strong style="color: var(--accent)">support@skyatlas.app</strong> for bug reports, feature requests, App Store reviews you'd like us to read, or just to tell us what you saw out the window.</p>
-    <p>We aim to reply within two business days. We're a small team — if it takes a little longer, it's because we're flying.</p>
-    <h2>Press &amp; partnerships</h2>
-    <p>Journalists, podcasters, travel writers — reach out to <strong style="color: var(--accent)">press@skyatlas.app</strong>. We have screenshots, founder bios, and an embargoed roadmap available on request.</p>
-  </section>
+<section id="passport" aria-labelledby="passport-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">The sky passport</p>
+      <h2 id="passport-title">Every flight leaves a mark.</h2>
+      <p>Countries, lines crossed and places collect in one passport, flight after flight, beside your flight log.</p>
+    </div>
+    <div class="passport">
+      <div>
+        <span class="label">Stamps</span>
+        <h3>Countries and places</h3>
+        <div class="stamps" aria-hidden="true">
+          <div class="stamp"><b>GE</b>flown over</div>
+          <div class="stamp filled"><b>TR</b>landed</div>
+        </div>
+        <p>A country you fly over gets an outlined stamp; one you land in is filled. Places you saw yourself turn gold.</p>
+      </div>
+      <div>
+        <span class="label">Levels and ranks</span>
+        <h3>Experience from every flight</h3>
+        <ul class="ranks">
+          <li>Newcomer <span>level 1</span></li>
+          <li>Traveller <span>level 4</span></li>
+          <li>Explorer <span>level 10</span></li>
+          <li>Pathfinder <span>level 20</span></li>
+          <li>Legend of the Skies <span>level 35</span></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">30 achievements</span>
+        <h3>Earned by flying. None needs a streak.</h3>
+        <ul class="ach">
+          <li><span>Shellback</span><span>Cross the Equator</span></li>
+          <li><span>Golden Dragon</span><span>Cross the Date Line</span></li>
+          <li><span>Blue Nose</span><span>Cross a polar circle</span></li>
+          <li><span>Dawn above the clouds</span><span>A sunrise from the air</span></li>
+          <li><span>Sharp-eyed</span><span>Spot 25 places</span></li>
+          <li><span>Know-it-all</span><span>Guess 10 places</span></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Quiz and postcard</span>
+        <h3>A last look back</h3>
+        <p>After landing: a short quiz about the flight you just took (which side was that peak on, which country you spent longest over) and a postcard with the countries, distance and time in the air, to send with “we landed”.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <script>
-    /* ====================================================
-       LIVE COUNTDOWN — tomorrow 09:00 local time
-       Visual continuity with the app's hero countdown.
-    ==================================================== */
-    (function () {
-      const el = document.getElementById('liveCountdown');
-      if (!el) return;
-      const target = new Date();
-      target.setDate(target.getDate() + 1);
-      target.setHours(9, 0, 0, 0);
-      function tick() {
-        const diff = target - Date.now();
-        if (diff <= 0) { el.textContent = 'BOARDING NOW'; return; }
-        const h = Math.floor(diff / 3.6e6);
-        const m = Math.floor((diff % 3.6e6) / 6e4);
-        const s = Math.floor((diff % 6e4) / 1e3);
-        el.textContent = String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
-      }
-      tick();
-      setInterval(tick, 1000);
-    })();
+<section id="screens" aria-labelledby="screens-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Screens</p>
+      <h2 id="screens-title">A quiet instrument for a dark cabin.</h2>
+    </div>
+    <!-- TODO: store screenshots are generated into apps/mobile/store-metadata/screenshots/en/.
+         Copy them here as landing/screens/01.png … 05.png, and update the alt text if what they show differs. -->
+    <div class="screens">
+      <figure>
+        <img src="screens/01.png" width="1290" height="2796" loading="lazy" alt="The Board: your next flight, with the window-seat advice and the best moments along the route.">
+        <figcaption>Before the flight</figcaption>
+      </figure>
+      <figure>
+        <img src="screens/02.png" width="1290" height="2796" loading="lazy" alt="Out of the window now: what is on the left, on the right and below, with a countdown to the next place.">
+        <figcaption>In the air</figcaption>
+      </figure>
+      <figure>
+        <img src="screens/03.png" width="1290" height="2796" loading="lazy" alt="A place card: the story, a photo, which side and how far away, and the I see it button.">
+        <figcaption>A place</figcaption>
+      </figure>
+      <figure>
+        <img src="screens/04.png" width="1290" height="2796" loading="lazy" alt="After landing: the country stamps from the flight, experience and new achievements.">
+        <figcaption>After landing</figcaption>
+      </figure>
+      <figure>
+        <img src="screens/05.png" width="1290" height="2796" loading="lazy" alt="The sky passport: countries, lines crossed, collections of places and achievements.">
+        <figcaption>The passport</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
 
-    /* ====================================================
-       REVEAL — robust: never leave content hidden.
-       Above-fold items reveal immediately (with staggered
-       delay via CSS). Below-fold items reveal on intersection.
-       If IntersectionObserver is missing or never fires,
-       a 1.5s safety net reveals everything anyway.
-    ==================================================== */
-    (function () {
-      const targets = Array.from(document.querySelectorAll('.reveal:not(.in)'));
-      if (!targets.length) return;
+<section id="privacy" aria-labelledby="privacy-title">
+  <div class="wrap privacy">
+    <div>
+      <p class="label">Privacy</p>
+      <h2 id="privacy-title" class="h2">Your flights stay on your phone.</h2>
+      <p>There is no account and no sign-in. Your flights, passport and settings live only on your phone, and there is no SkyAtlas server to send them to. To prepare a flight, your phone downloads stories and photos directly from Wikipedia and Wikimedia Commons and map tiles from OpenFreeMap, and connects to nothing else. The GPS and the camera are used on the phone only. No ads, no tracking, no analytics, no crash reports.</p>
+      <p><a href="privacy.html">Privacy Policy</a> · <a href="privacy-ru.html" hreflang="ru" lang="ru">Политика конфиденциальности</a></p>
+    </div>
+    <ul class="facts" aria-label="Privacy at a glance">
+      <li><span>Account</span><span>none</span></li>
+      <li><span>Where your data lives</span><span>on the phone</span></li>
+      <li><span>Our servers</span><span>none</span></li>
+      <li><span>Connects to</span><span>Wikimedia, OpenFreeMap</span></li>
+      <li><span>Ads, tracking, analytics</span><span>none</span></li>
+    </ul>
+  </div>
+</section>
 
-      const showAll = () => targets.forEach(t => t.classList.add('in'));
+<section class="honest" aria-label="Limitations">
+  <div class="wrap">
+    <p class="label">Honestly</p>
+    <p>The aircraft’s position is an estimate from the schedule and the take-off time, refined by GPS when it is available. What you actually see depends on the weather, the clouds, daylight and your seat. SkyAtlas is for information and enjoyment. It is not a flight tracker, and it is not for navigation.</p>
+  </div>
+</section>
 
-      // Reveal everything already on screen at load time
-      const vh = window.innerHeight;
-      targets.forEach(t => {
-        const r = t.getBoundingClientRect();
-        if (r.top < vh) t.classList.add('in');
-      });
+<section class="faq" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Questions</p>
+      <h2 id="faq-title">Before you board</h2>
+    </div>
 
-      if ('IntersectionObserver' in window) {
-        const io = new IntersectionObserver((entries) => {
-          entries.forEach((e) => {
-            if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
-          });
-        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.04 });
-        targets.forEach(t => { if (!t.classList.contains('in')) io.observe(t); });
-      }
+    <details>
+      <summary>Does it really work in airplane mode?</summary>
+      <div class="answer">
+        <p>Yes. Add the flight while you still have a connection. The route and the places are ready in seconds, and the stories, photos and offline map download while you wait at home or at the gate. In the air, nothing needs a connection: tap “Took off”, and the timeline runs from the phone’s clock.</p>
+      </div>
+    </details>
 
-      // Safety net — anything still hidden after 1.5s gets revealed
-      setTimeout(showAll, 1500);
-    })();
+    <details>
+      <summary>How accurate is it?</summary>
+      <div class="answer">
+        <p>The route is a model, not the real track: a great circle with a typical climb and descent, detoured around airspace known to be closed. The position is estimated from the take-off time you confirm, and the phone’s GPS refines it when it gets a fix near the window. If the timing feels early or late, you can shift the take-off time and everything moves with it. Read the times as “about now”, not to the second.</p>
+      </div>
+    </details>
 
-    /* ====================================================
-       SUBTLE PARALLAX on the boarding pass
-    ==================================================== */
-    (function () {
-      const pass = document.querySelector('.boarding-pass');
-      if (!pass || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-      window.addEventListener('scroll', () => {
-        const y = window.scrollY;
-        if (y < 800) { pass.style.transform = 'rotate(-0.6deg) translateY(' + (y * 0.04) + 'px)'; }
-      }, { passive: true });
-    })();
-  </script>
+    <details>
+      <summary>Which seat should I choose?</summary>
+      <div class="answer">
+        <p>SkyAtlas tells you when you add the flight: sit on the left, sit on the right, either side is good, or the window will not show much on this route. It also shows how much of the flight is in daylight. A day before departure, at check-in time, it reminds you which window to ask for. If you enter your seat, alerts only mention what you can see from your side.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What if it is cloudy, or a night flight?</summary>
+      <div class="answer">
+        <p>SkyAtlas cannot see the weather, so clouds may hide what it describes. Alerts for places are only sent in daylight. At night it tells you that only city lights will be visible, if the sky is clear. Your passport still fills up: every country and place you passed is recorded whatever the weather, and gold is kept for what you actually saw.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Which languages does it speak?</summary>
+      <div class="answer">
+        <p>English, Russian, German, French, Spanish and Japanese. Stories come from Wikipedia in your language where an article exists. Otherwise the English article is used, and the card says so.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Does it cost anything?</summary>
+      <div class="answer">
+        <p>SkyAtlas is free at launch, with every feature open. There are no ads.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>What data does it collect?</summary>
+      <div class="answer">
+        <p>Nothing is sent to us. Your flights, passport and settings are stored on your phone, and there is no account. To download content, the phone connects to Wikipedia, Wikimedia Commons and OpenFreeMap, which, like any website, see your IP address and what is requested. Location and camera are used on the phone only; the camera reads the boarding-pass barcode and keeps only the flight details. The details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I try it without a ticket?</summary>
+      <div class="answer">
+        <p>Yes. A four-minute demo flight runs twenty times faster than real time and shows everything the app does in the air. Demo flights do not go into your passport.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" href="#top"><img src="icon.png" alt="" width="32" height="32">SkyAtlas</a>
+        <p class="tagline">A guide for the window seat. What you fly over, offline.</p>
+        <p>Places and borders: Natural Earth. Airports: OurAirports; time zones: mwgg/Airports (MIT). Stories: Wikipedia, CC BY-SA 4.0. Photos: Wikimedia Commons, each under its own licence. Map: © OpenStreetMap contributors, OpenMapTiles, OpenFreeMap.</p>
+      </div>
+      <nav aria-label="Legal">
+        <span class="label">Legal</span>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="privacy-ru.html" hreflang="ru" lang="ru">Политика конфиденциальности</a>
+        <a href="terms-ru.html" hreflang="ru" lang="ru">Условия использования</a>
+      </nav>
+      <nav aria-label="Contact">
+        <span class="label">Contact</span>
+        <!-- TODO(owner): confirm these addresses (same as docs/legal). -->
+        <a href="mailto:support@skyatlas.app">support@skyatlas.app</a>
+        <a href="mailto:privacy@skyatlas.app">privacy@skyatlas.app</a>
+      </nav>
+    </div>
+    <p>© 2026 SkyAtlas. Apple, iPhone and Apple Wallet are trademarks of Apple Inc. App Store is a service mark of Apple Inc.</p>
+  </div>
+</footer>
+
 </body>
 </html>

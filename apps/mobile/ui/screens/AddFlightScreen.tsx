@@ -24,6 +24,7 @@ import { searchAirports, cityName } from '../../src/core/data/airports';
 import { airportByIata } from '../../src/core/data/datasets';
 import type { DataAirport } from '../../src/core/data/types';
 import { prepareFlight } from '../../src/core/offline/prepare';
+import { remindAbout } from '../../src/core/flight/controller';
 import type { BuildProgress, BuildStage } from '../../src/core/offline/buildPackage';
 import { estimateAirborneSeconds } from '../../src/core/route/profile';
 import { haversine } from '../../src/core/geo/greatCircle';
@@ -282,6 +283,7 @@ export default function AddFlightScreen() {
         }
       );
       analytics.track('flight_added', { from: from.i, to: to.i, pois: pkg.pois.length });
+      remindAbout(pkg, { ask: true }).catch(() => {});
       haptics.success();
       if (!leaving.current) nav.navigate('Tabs', { screen: 'Board' });
     } catch (e) {

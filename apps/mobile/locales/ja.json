@@ -1,4 +1,6 @@
 {
   "NSCameraUsageDescription": "SkyAtlasは搭乗券のバーコードを読み取ります。保存・送信は一切しません。",
-  "NSLocationWhenInUseUsageDescription": "飛行中、スマートフォンのGPSで機体の真下にあるものをより正確に表示します。位置情報が端末の外に出ることはありません。"
+  "NSLocationWhenInUseUsageDescription": "飛行中、スマートフォンのGPSで機体の真下にあるものをより正確に表示します。位置情報が端末の外に出ることはありません。",
+  "NSLocationAlwaysAndWhenInUseUsageDescription": "飛行中、スマートフォンのGPSで機体の真下にあるものをより正確に表示します。位置情報が端末の外に出ることはありません。",
+  "NSLocationAlwaysUsageDescription": "飛行中、スマートフォンのGPSで機体の真下にあるものをより正確に表示します。位置情報が端末の外に出ることはありません。"
 }

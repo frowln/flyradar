@@ -99,7 +99,7 @@ function GuessCard({ guess, onAnswer }: { guess: Guess; onAnswer: (correct: bool
   const revealed = picked !== null;
   const right = picked === guess.correctIdx;
   return (
-    <View style={styles.guess}>
+    <View style={styles.guess} testID="guess-card">
       <Gutter>
         <Row style={styles.spread}>
           <Label tone="accent">{t('guess.label')}</Label>

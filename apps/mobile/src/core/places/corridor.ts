@@ -2,7 +2,7 @@ import type { POI, POICategory, PassSide, RoutePoint } from '@skyatlas/shared';
 import type { DataPlace, MultiPolygon } from '../data/types';
 import { crossTrackKm, alongTrackKm, haversine } from '../geo/greatCircle';
 import { bboxContains, pointInMulti } from '../geo/polygon';
-import { KIND_WEIGHT, horizonKm, isArea, recognitionRangeKm } from './visibility';
+import { KIND_WEIGHT, horizonKm, recognitionRangeKm } from './visibility';
 
 /**
  * Choosing what to show on a flight.
@@ -81,9 +81,15 @@ function candidatesNearRoute(route: RoutePoint[], grid: Grid): Set<DataPlace> {
   const found = new Set<DataPlace>();
   const seenCells = new Set<string>();
   const reach = 280; // km — beyond the longest recognition range
+  const sinReach = Math.sin(reach / 6371);
   for (const pt of route) {
     const dLat = reach / 111;
-    const dLon = reach / (111 * Math.max(0.1, Math.cos((pt.lat * Math.PI) / 180)));
+    // Exact half-width in longitude of a circle this size, and every longitude
+    // once it takes in the pole. A flat 1/cos(lat) capped at 10× missed
+    // northern Greenland and Ellesmere on the polar routes, where a 280 km
+    // circle spans ±75° of longitude.
+    const cosLat = Math.cos((pt.lat * Math.PI) / 180);
+    const dLon = cosLat > sinReach ? (Math.asin(sinReach / cosLat) * 180) / Math.PI : 180;
     for (let la = Math.floor((pt.lat - dLat) / CELL); la <= Math.floor((pt.lat + dLat) / CELL); la++) {
       for (let lo = Math.floor((pt.lon - dLon) / CELL); lo <= Math.floor((pt.lon + dLon) / CELL); lo++) {
         // Longitude cells wrap at the antimeridian.
@@ -162,11 +168,7 @@ function measurePoint(place: DataPlace, route: RoutePoint[]): Omit<Sighting, 'sc
 }
 
 /** Area places: overflown when the track enters the outline, otherwise the nearest edge. */
-function measureArea(
-  place: DataPlace,
-  route: RoutePoint[],
-  outline: MultiPolygon | undefined
-): Omit<Sighting, 'score'> | null {
+function measureArea(place: DataPlace, route: RoutePoint[], outline: MultiPolygon): Omit<Sighting, 'score'> | null {
   const bb = place.bb;
   if (!bb) return measurePoint(place, route);
   const range = recognitionRangeKm(place);
@@ -190,9 +192,7 @@ function measureArea(
       }
       continue;
     }
-    const inside =
-      bboxContains(bb, pt.lon, pt.lat) &&
-      (outline ? pointInMulti(pt.lon, pt.lat, outline) : haversine(pt.lat, pt.lon, place.lat, place.lon) < (place.ext ?? 0) * 0.6);
+    const inside = bboxContains(bb, pt.lon, pt.lat) && pointInMulti(pt.lon, pt.lat, outline);
 
     if (inside) {
       if (insideFrom < 0) insideFrom = pt.elapsedSeconds;
@@ -212,19 +212,20 @@ function measureArea(
     let d = Infinity;
     let vLat = place.lat;
     let vLon = place.lon;
-    if (outline) {
-      for (const poly of outline) {
-        for (const [lon, lat] of poly[0] ?? []) {
-          const dd = approxKm(pt.lat, pt.lon, lat, lon);
-          if (dd < d) {
-            d = dd;
-            vLat = lat;
-            vLon = lon;
-          }
+    for (const poly of outline) {
+      // Indexed rather than destructured: this loop runs for every vertex at
+      // every route sample, and destructuring goes through the iterator
+      // protocol on an interpreter.
+      const ring = poly[0] ?? [];
+      for (let k = 0; k < ring.length; k++) {
+        const v = ring[k]!;
+        const dd = approxKm(pt.lat, pt.lon, v[1], v[0]);
+        if (dd < d) {
+          d = dd;
+          vLat = v[1];
+          vLon = v[0];
         }
       }
-    } else {
-      d = Math.max(0, haversine(pt.lat, pt.lon, place.lat, place.lon) - (place.ext ?? 0) * 0.6);
     }
     if (d <= range) {
       visibleFrom = Math.min(visibleFrom, pt.elapsedSeconds);
@@ -272,6 +273,20 @@ function scoreOf(s: Omit<Sighting, 'score'>): number {
   return importance * proximity * KIND_WEIGHT[s.place.k];
 }
 
+/**
+ * Measures a place against the route: by its outline when it has one, otherwise
+ * by its label point.
+ *
+ * Only an outline can say the track is inside something. Rivers ship as a
+ * point on the river plus a half-length, with no line; measured as a disc of
+ * that size, the Missouri was "below" for 78 minutes of a Los Angeles–New York
+ * flight, and every large river within ~900 km of its midpoint was overflown.
+ */
+function measure(place: DataPlace, route: RoutePoint[], areas: Record<string, MultiPolygon>): Omit<Sighting, 'score'> | null {
+  const outline = place.bb ? areas[place.id] : undefined;
+  return outline ? measureArea(place, route, outline) : measurePoint(place, route);
+}
+
 /** Every place that can be seen from this route, measured and scored. */
 export function sightingsAlong(
   route: RoutePoint[],
@@ -283,7 +298,7 @@ export function sightingsAlong(
   const out: Sighting[] = [];
 
   for (const place of candidatesNearRoute(route, grid)) {
-    const m = place.bb && isArea(place.k) ? measureArea(place, route, areas[place.id]) : measurePoint(place, route);
+    const m = measure(place, route, areas);
     if (!m) continue;
     if (m.distanceKm > recognitionRangeKm(place)) continue;
     out.push({ ...m, score: scoreOf(m) });
@@ -294,8 +309,9 @@ export function sightingsAlong(
     const bb = place.bb!;
     const margin = recognitionRangeKm(place) / 111;
     if (!route.some((pt) => bboxContains(bb, pt.lon, pt.lat, margin))) continue;
-    const m = measureArea(place, route, areas[place.id]);
-    if (m) out.push({ ...m, score: scoreOf(m) });
+    const m = measure(place, route, areas);
+    if (!m || m.distanceKm > recognitionRangeKm(place)) continue;
+    out.push({ ...m, score: scoreOf(m) });
   }
 
   return out;

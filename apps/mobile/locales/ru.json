@@ -1,4 +1,6 @@
 {
   "NSCameraUsageDescription": "SkyAtlas читает штрихкод посадочного талона. Ничего не сохраняется и не отправляется.",
-  "NSLocationWhenInUseUsageDescription": "В полёте GPS телефона точнее показывает, что под самолётом. Координаты не покидают телефон."
+  "NSLocationWhenInUseUsageDescription": "В полёте GPS телефона точнее показывает, что под самолётом. Координаты не покидают телефон.",
+  "NSLocationAlwaysAndWhenInUseUsageDescription": "В полёте GPS телефона точнее показывает, что под самолётом. Координаты не покидают телефон.",
+  "NSLocationAlwaysUsageDescription": "В полёте GPS телефона точнее показывает, что под самолётом. Координаты не покидают телефон."
 }

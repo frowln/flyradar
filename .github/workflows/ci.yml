@@ -43,5 +43,8 @@ jobs:
       # The bundled datasets are generated, not hand-edited; this catches a
       # regenerated file that broke the schema, a size budget or a border check.
       - run: cd apps/mobile && npm run check:data
+      # Store texts have hard length limits and must not promise what the app
+      # does not do (App Store review rejects both).
+      - run: cd apps/mobile && node store-metadata/check.mjs
       - run: cd apps/mobile && npx tsc --noEmit
       - run: cd apps/mobile && npx vitest run

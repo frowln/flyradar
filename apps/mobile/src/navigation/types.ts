@@ -1,7 +1,8 @@
 import type { NavigatorScreenParams } from '@react-navigation/native';
 
 export type TabParamList = {
-  Board: undefined;
+  /** `takeoff`: open the "when did you take off?" sheet for this flight. */
+  Board: { takeoff?: string } | undefined;
   Atlas: undefined;
 };
 
@@ -15,6 +16,7 @@ export type RootStackParamList = {
   Achievements: undefined;
   Paywall: undefined;
   Settings: undefined;
+  Licenses: undefined;
   People: undefined;
   Person: { userId: string };
 };

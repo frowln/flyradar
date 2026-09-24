@@ -1,7 +1,7 @@
 import type { CountryPass, RoutePoint } from '@skyatlas/shared';
 import type { DataCountry } from '../data/types';
 import { bboxContains, pointInMulti } from '../geo/polygon';
-import { interpolateAlongRoute } from '../geo/greatCircle';
+import { haversine, interpolateAlongRoute } from '../geo/greatCircle';
 
 /**
  * Which countries the flight passes over, and when.
@@ -24,16 +24,39 @@ function countryAt(lon: number, lat: number, countries: DataCountry[], hint: Dat
   return null;
 }
 
-export function countriesAlong(route: RoutePoint[], countries: DataCountry[]): CountryPass[] {
+/**
+ * Territorial airspace reaches 12 nautical miles out to sea. An airport on the
+ * shore or on reclaimed land (Haneda, Changi, Hamad, Logan — 72 of the large
+ * ones) lies in the water as far as the simplified outline can tell, so a
+ * Tokyo–Osaka flight took off from nowhere and announced "entering Japan".
+ */
+const TERRITORIAL_KM = 22;
+
+/**
+ * `ends` names the countries of the two airports (the route's first and last
+ * points): sea within territorial reach of either is counted as that country.
+ */
+export function countriesAlong(
+  route: RoutePoint[],
+  countries: DataCountry[],
+  ends: { fromCC?: string; toCC?: string } = {}
+): CountryPass[] {
   if (route.length === 0) return [];
   const end = route[route.length - 1]!.elapsedSeconds;
   const passes: CountryPass[] = [];
   let current: DataCountry | null = null;
   let hint: DataCountry | null = null;
 
+  const shores = [
+    { at: route[0]!, c: countries.find((c) => c.cc === ends.fromCC) },
+    { at: route[route.length - 1]!, c: countries.find((c) => c.cc === ends.toCC) }
+  ];
+  const offShore = (lat: number, lon: number): DataCountry | null =>
+    shores.find((s) => s.c && haversine(lat, lon, s.at.lat, s.at.lon) <= TERRITORIAL_KM)?.c ?? null;
+
   for (let t = 0; ; t = Math.min(end, t + SAMPLE_S)) {
     const p = interpolateAlongRoute(route, t);
-    const c = countryAt(p.lon, p.lat, countries, hint);
+    const c: DataCountry | null = countryAt(p.lon, p.lat, countries, hint) ?? offShore(p.lat, p.lon);
     if (c) hint = c;
     if (c !== current) {
       const last = passes[passes.length - 1];

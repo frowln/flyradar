@@ -1,4 +1,6 @@
 {
   "NSCameraUsageDescription": "SkyAtlas liest den Barcode Ihrer Bordkarte. Nichts wird gespeichert oder gesendet.",
-  "NSLocationWhenInUseUsageDescription": "Im Flug zeigt das GPS des Telefons genauer, was unter dem Flugzeug liegt. Ihr Standort verlässt das Telefon nie."
+  "NSLocationWhenInUseUsageDescription": "Im Flug zeigt das GPS des Telefons genauer, was unter dem Flugzeug liegt. Ihr Standort verlässt das Telefon nie.",
+  "NSLocationAlwaysAndWhenInUseUsageDescription": "Im Flug zeigt das GPS des Telefons genauer, was unter dem Flugzeug liegt. Ihr Standort verlässt das Telefon nie.",
+  "NSLocationAlwaysUsageDescription": "Im Flug zeigt das GPS des Telefons genauer, was unter dem Flugzeug liegt. Ihr Standort verlässt das Telefon nie."
 }

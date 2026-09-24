@@ -70,4 +70,6 @@ export interface OfflinePackage {
    * or a great circle kept only because no plausible detour was found.
    */
   routeKind?: 'direct' | 'detour' | 'approximate';
+  /** Places looked up online that turned out to have no article; not retried. */
+  storyless?: string[];
 }

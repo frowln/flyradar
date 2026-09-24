@@ -16,6 +16,8 @@ import { gpsPermission } from '../../src/core/flight/gps';
 import { clearJournal } from '../../src/core/game/journal';
 import { setLocale, getLocale, SUPPORTED_LOCALES, t } from '../../src/i18n';
 import { haptics } from '../../src/core/ux/haptics';
+import { refreshReminders } from '../../src/core/flight/controller';
+import { legalUrl } from '../../src/core/links';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Settings'>;
@@ -87,6 +89,8 @@ export default function SettingsScreen() {
     const next = SUPPORTED_LOCALES[(i + 1) % SUPPORTED_LOCALES.length]!;
     setLocale(next);
     setLoc(next);
+    // Reminders already scheduled were written in the old language.
+    refreshReminders().catch(() => {});
     // Screens read strings at render; a reset re-renders the whole tree in the new language.
     nav.reset({ index: 0, routes: [{ name: 'Tabs', params: { screen: 'Atlas' } }, { name: 'Settings' }] });
   };
@@ -133,7 +137,9 @@ export default function SettingsScreen() {
             const next = ALERTS[(ALERTS.indexOf(alerts) + 1) % ALERTS.length]!;
             settings.setAlerts(next);
             setAlertsState(next);
-            if (next !== 'off') notificationPermission(true).then(setNotif);
+            // "Off" silences the ground reminders too; turning back on restores them.
+            if (next !== 'off') notificationPermission(true).then(setNotif).then(() => refreshReminders()).catch(() => {});
+            else refreshReminders().catch(() => {});
           }}
         />
         {notif === false && alerts !== 'off' ? (
@@ -192,8 +198,9 @@ export default function SettingsScreen() {
           <Label tone="dim">{t('settings.about')}</Label>
         </Gutter>
         <Rule />
-        <LinkRow label={t('settings.privacy')} onPress={() => Linking.openURL('https://github.com/frowln/flyradar/blob/main/docs/legal/privacy-policy.md')} />
-        <LinkRow label={t('settings.terms')} onPress={() => Linking.openURL('https://github.com/frowln/flyradar/blob/main/docs/legal/terms-of-service.md')} />
+        <LinkRow label={t('settings.privacy')} onPress={() => Linking.openURL(legalUrl('privacy', locale))} />
+        <LinkRow label={t('settings.terms')} onPress={() => Linking.openURL(legalUrl('terms', locale))} />
+        <LinkRow label={t('settings.licenses')} onPress={() => nav.navigate('Licenses')} />
         <Gutter style={styles.credits}>
           <Label tone="dim">{t('settings.dataSources')}</Label>
           <Space h={s.x2} />

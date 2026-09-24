@@ -1,5 +1,5 @@
 import Purchases, { LOG_LEVEL } from 'react-native-purchases';
-import { apiClient } from '../api/client';
+import { apiClient, API_ENABLED } from '../api/client';
 
 const RC_API_KEY = process.env['EXPO_PUBLIC_RC_KEY'] ?? '';
 
@@ -40,7 +40,9 @@ export async function isPro(): Promise<boolean | null> {
     const clientSays = Boolean(info.entitlements.active['pro']);
     if (!clientSays) return false;
 
-    // Verify server-side
+    // RevenueCat has already validated the receipt with Apple. Our own server
+    // double-checks only when this build has one.
+    if (!API_ENABLED) return true;
     const verified = await apiClient.post<{ verified: boolean }>('/subscription/verify', {
       appUserId: info.originalAppUserId
     });

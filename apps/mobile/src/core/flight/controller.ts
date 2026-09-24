@@ -1,7 +1,11 @@
 import type { OfflinePackage } from '@skyatlas/shared';
 import { useSession } from './session';
 import { alertsForFlight } from './alerts';
-import { cancelAlerts, notificationPermission, scheduleAlerts } from '../ux/notifications';
+import { cancelAlerts, notificationPermission, registerCategory, scheduleAlerts } from '../ux/notifications';
+import { remindersFor, reminderIds, TAKEOFF_CATEGORY, TOOK_OFF_ACTION } from './reminders';
+import { listPackages } from '../offline/packageStore';
+import { t } from '../../i18n';
+import { settings } from '../settings';
 import { recordFromFlight } from '../game/record';
 import { buildPassport } from '../game/passport';
 import { getRecords, saveRecord } from '../game/journal';
@@ -33,8 +37,41 @@ async function reschedule(pkg: OfflinePackage, takeoffAt: Date, multiplier: numb
   useSession.getState().setAlertIds(ids);
 }
 
+/**
+ * Schedules the ground reminders for a flight just added. Asks for permission
+ * here: a passenger who has just entered a flight sees why the app would want
+ * to speak up later.
+ */
+export async function remindAbout(pkg: OfflinePackage, opts: { ask?: boolean } = {}): Promise<void> {
+  await cancelAlerts(reminderIds(pkg.flight.id));
+  if (settings.getAlerts() === 'off') return;
+  if (!(await notificationPermission(opts.ask ?? false))) return;
+  await registerCategory(TAKEOFF_CATEGORY, [{ id: TOOK_OFF_ACTION, title: t('remind.tookOffAction') }]);
+  await scheduleAlerts(remindersFor(pkg));
+}
+
+/**
+ * Re-schedules reminders for every flight still ahead — at launch, so they
+ * follow a change of language or alert setting, and survive a reinstall of
+ * the notification schedule by the OS.
+ */
+export async function refreshReminders(now: Date = new Date()): Promise<void> {
+  const s = useSession.getState();
+  const pkgs = await listPackages();
+  for (const pkg of pkgs) {
+    if (pkg.demo || s.flightId === pkg.flight.id) continue;
+    if (new Date(pkg.flight.scheduledDeparture).getTime() < now.getTime() - 3600_000) continue;
+    await remindAbout(pkg);
+  }
+}
+
+export async function forgetReminders(flightId: string): Promise<void> {
+  await cancelAlerts(reminderIds(flightId));
+}
+
 export async function takeOff(pkg: OfflinePackage, takeoffAt: Date, opts: { multiplier?: number } = {}): Promise<void> {
   const multiplier = opts.multiplier ?? (pkg.demo ? 20 : 1);
+  await forgetReminders(pkg.flight.id);
   useSession.getState().start(pkg.flight.id, takeoffAt, { multiplier });
   // Asked here, at the moment the benefit is obvious, rather than at first launch.
   await notificationPermission(true);

@@ -40,6 +40,31 @@ export function zonedToUtc(date: string, time: string, tz: string): Date {
   return new Date(guess);
 }
 
+/** The calendar date `days` after (negative: before) a "YYYY-MM-DD" date. */
+export function shiftDate(date: string, days: number): string {
+  const [y, m, d] = date.split('-').map(Number) as [number, number, number];
+  const t = Date.UTC(y, m - 1, d + days);
+  return Number.isNaN(t) ? date : new Date(t).toISOString().slice(0, 10);
+}
+
+/**
+ * The first instant after `after` at which the wall clock in `tz` reads `time`.
+ *
+ * A ticket prints the arrival as a local time and leaves its date implied:
+ * usually the departure date or the day after, but flying east across the date
+ * line it can be the day *before* — Apia 10:00 lands in Pago Pago at 09:40 the
+ * previous day. Each candidate day is converted on its own, so a clock change
+ * between departure and arrival is respected. Null when the time is unreadable.
+ */
+export function nextWallClock(after: Date, date: string, time: string, tz: string): Date | null {
+  // Offsets span 26 hours (−12…+14), so the answer is within two days either side.
+  for (let k = -2; k <= 3; k++) {
+    const at = zonedToUtc(shiftDate(date, k), time, tz);
+    if (at.getTime() > after.getTime()) return at;
+  }
+  return null;
+}
+
 /** Wall-clock "HH:MM" in a zone. */
 export function formatClock(at: Date, tz?: string): string {
   try {

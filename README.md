@@ -33,6 +33,10 @@ datasets bundled with the app:
    flight. Without a connection the cards still work from data alone.
 5. **Offline map.** MapLibre tiles for the route corridor (OpenFreeMap).
 
+**On the ground:** a day before departure a local reminder says which window
+to ask for at check-in (named by what will be on that side); just after the
+scheduled departure, "Airborne?" with a lock-screen *Took off* button.
+
 **In the air:** tap *took off*; the position comes from the time since takeoff,
 refined by the phone's GPS when available. The flight screen shows what is on
 the left, on the right and below, what comes next, and asks "which place is
@@ -110,6 +114,7 @@ The app is complete without a backend. Optional environment variables
 | `EXPO_PUBLIC_AUTH_HMAC_SECRET` | Request signing, must match the server's `AUTH_HMAC_SECRET`. |
 | `EXPO_PUBLIC_RC_KEY` | RevenueCat key. Unset = no purchases, everything open. |
 | `EXPO_PUBLIC_SENTRY_DSN`, `EXPO_PUBLIC_POSTHOG_KEY` | Crash reporting and analytics. |
+| `EXPO_PUBLIC_PRIVACY_URL`, `EXPO_PUBLIC_TERMS_URL` | Public pages for the privacy policy and terms (Settings links to them). Unset = the Markdown files in this repository. |
 
 ### Checks
 
@@ -120,7 +125,23 @@ npx vitest run
 npm run check:i18n      # every key used exists in all six locales
 npm run check:fonts     # bundled fonts cover every shipped language
 npm run check:data      # datasets match their schema, budgets and border checks
+node store-metadata/check.mjs   # App Store texts within limits, no forbidden claims
 ```
+
+### Release material
+
+| What | Where | Regenerate |
+|---|---|---|
+| App icon, splash, Android adaptive and notification icons | `apps/mobile/assets/*.png` from `assets/brand/*.svg` | `node scripts/brand/render-icons.mjs` |
+| Open-source licences shown in Settings | `apps/mobile/src/legal/licenses.json` | `node scripts/licenses.mjs` (after dependency changes) |
+| App Store texts, 6 languages | `apps/mobile/store-metadata/<lang>/` | edit, then `node store-metadata/check.mjs` |
+| App Store screenshots, 1290 × 2796, 6 languages | `apps/mobile/store-metadata/screenshots/<lang>/` | `node scripts/preview/store.mjs --dist <web export>` |
+| Privacy policy and terms (en, ru) | `docs/legal/`, pages in `landing/` | see `landing/README.md` |
+| Device test plan | `docs/QA_CHECKLIST.md` | — |
+
+Builds go through EAS (`eas.json`): `eas build --platform ios --profile production`,
+then `eas submit`. Build numbers are managed remotely; Sentry source-map upload is
+off unless a Sentry project is configured.
 
 ### Browser preview (screenshots)
 

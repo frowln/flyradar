@@ -59,8 +59,12 @@ export function whatsOutside(pkg: OfflinePackage, now: Now, takeoff: Date | null
     }
     const weight = sightWeight(poi);
     // Areas flown over are "below" for as long as the track is inside them —
-    // not while approaching, which is what the "next" list is for.
-    if (poi.side === 'below' && !KIND_RANGE_CATS.has(poi.category)) {
+    // not while approaching, which is what the "next" list is for. That holds
+    // for anything the corridor measured by its outline, a landmark like the
+    // Grand Canyon included: its label point can sit 80 km from the part the
+    // track crosses, and measured from there it read "abeam, left" while the
+    // timeline said it was about to pass underneath.
+    if (poi.side === 'below' && (poi.overFrom != null || !KIND_RANGE_CATS.has(poi.category))) {
       const from = poi.overFrom ?? poi.passAt ?? poi.visibleFrom ?? 0;
       const to = poi.overTo ?? poi.visibleTo ?? from;
       if (t >= from - 30 && t <= to + 30) below.push({ poi, where: 'below', distanceKm: 0, weight });
@@ -83,8 +87,15 @@ export function whatsOutside(pkg: OfflinePackage, now: Now, takeoff: Date | null
   }
 
   const byWeight = (a: InView, b: InView) => b.weight - a.weight || a.distanceKm - b.distanceKm;
+  const underneath = below.sort(byWeight).slice(0, 2);
   const moments = pkg.moments && !takeoff ? pkg.moments : computeMoments({ route: pkg.route, pois: pkg.pois, countries: pkg.countries, takeoff: takeoff ?? undefined });
-  const next = moments.filter((m) => m.at > t + 30 && m.kind !== 'takeoff' && m.weight >= 0.3).slice(0, 4);
+  // A place already underneath is not also "next": over a large area its
+  // moment can still be minutes ahead, and "in 3 min" beside "below you now"
+  // contradicts itself.
+  const overNow = new Set(underneath.map((v) => v.poi.id));
+  const next = moments
+    .filter((m) => m.at > t + 30 && m.kind !== 'takeoff' && m.weight >= 0.3 && !(m.poiId && overNow.has(m.poiId)))
+    .slice(0, 4);
 
   const daylight = takeoff
     ? solarElevation(now.lat, now.lon, new Date(takeoff.getTime() + t * 1000)) > sunsetThreshold(now.altitude) - 2
@@ -95,7 +106,7 @@ export function whatsOutside(pkg: OfflinePackage, now: Now, takeoff: Date | null
   return {
     left: left.sort(byWeight).slice(0, max),
     right: right.sort(byWeight).slice(0, max),
-    below: below.sort(byWeight).slice(0, 2),
+    below: underneath,
     next,
     daylight,
     countryNow: pass?.cc ?? null

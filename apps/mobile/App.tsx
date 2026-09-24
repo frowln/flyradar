@@ -32,6 +32,9 @@ import { initRevenueCat, MONETIZATION_ENABLED } from './src/core/monetization/re
 import { refreshPro } from './src/core/monetization/entitlement';
 import { installPreview } from './src/preview/fixtures';
 import { ensureDatasets } from './src/core/data/datasets';
+import { refreshReminders } from './src/core/flight/controller';
+import { topUpAll } from './src/core/offline/topUp';
+import { getLocale } from './src/i18n';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
 settings.markInstalled();
@@ -69,6 +72,13 @@ function App() {
     boot.finally(() => setBooted(true));
   }, []);
   const ready = fontsSettled && booted;
+
+  useEffect(() => {
+    if (!booted) return;
+    refreshReminders().catch(() => {});
+    // Stories, photos and maps that did not download when a flight was added.
+    topUpAll(getLocale()).catch(() => {});
+  }, [booted]);
 
   useEffect(() => {
     // Discoveries made at cruise were queued with no signal; send them now.

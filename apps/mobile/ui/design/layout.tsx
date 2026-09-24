@@ -4,6 +4,8 @@ import {
   StyleSheet,
   type ViewProps,
   type ViewStyle,
+  type AccessibilityRole,
+  type AccessibilityState,
   type StyleProp
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -144,12 +146,20 @@ export function PressSurface({
   onPress,
   children,
   style,
-  accessibilityLabel
+  accessibilityLabel,
+  accessibilityHint,
+  accessibilityState,
+  accessibilityRole = 'button',
+  disabled
 }: {
   onPress: () => void;
   children: React.ReactNode;
   style?: StyleProp<ViewStyle>;
   accessibilityLabel?: string;
+  accessibilityHint?: string;
+  accessibilityState?: AccessibilityState;
+  accessibilityRole?: AccessibilityRole;
+  disabled?: boolean;
 }) {
   // Feedback comes from Pressable's own pressed state rather than an Animated
   // wrapper. Two earlier attempts failed for the same reason: any wrapper splits
@@ -158,8 +168,11 @@ export function PressSurface({
   return (
     <Pressable
       onPress={onPress}
-      accessibilityRole="button"
+      disabled={disabled}
+      accessibilityRole={accessibilityRole}
       accessibilityLabel={accessibilityLabel}
+      accessibilityHint={accessibilityHint}
+      accessibilityState={disabled ? { ...accessibilityState, disabled: true } : accessibilityState}
       style={({ pressed }) => [style, pressed && styles.pressed]}
     >
       {children}
