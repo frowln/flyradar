@@ -1,0 +1,866 @@
+{
+  "Q84": {
+    "t": "Ein dunkler Fluss, der sich durch ein Lichtermeer windet",
+    "s": "Finden Sie die Themse, und London fügt sich zusammen: ein braunes Band, das sich in Schleifen nach Osten durch ein riesiges graugrünes Häusermeer zieht und sich dann zur Nordsee hin weitet. Die Autobahn M25 zeichnet einen groben Ring um alles. Die Römer überbrückten den Fluss hier vor fast zweitausend Jahren, und seither wächst die Stadt von diesem Übergang aus nach außen.",
+    "w": "Die sich windende Themse, die nach Osten zu ihrer Mündung läuft; im Westen glitzern quadratische Stauseen neben Heathrow.",
+    "f": [
+      "Die Ringautobahn M25 ist rund 188 km lang; nachts zeichnet sie eine schwache Lichterschleife um die Stadt.",
+      "Die Themse ist in ganz London ein Gezeitenfluss: Im Zentrum steigt und fällt das Wasser zweimal täglich um mehrere Meter.",
+      "Die Römer gründeten Londinium um 50 n. Chr. am Nordufer der Themse."
+    ],
+    "q": {
+      "q": "Wie hieß London zur Römerzeit?",
+      "a": "Londinium",
+      "x": [
+        "Lutetia",
+        "Eboracum"
+      ]
+    }
+  },
+  "Q406": {
+    "t": "Eine Stadt, zwei Kontinente, ein blauer Faden dazwischen",
+    "s": "Suchen Sie eine dünne blaue Linie, die eine riesige Stadt in zwei Hälften schneidet: den Bosporus, Europa am einen Ufer, Asien am anderen. Das Goldene Horn schwingt sich auf der europäischen Seite in die Altstadt. Als Konstantinopel war dies mehr als tausend Jahre lang eine Kaiserhauptstadt.",
+    "w": "Eine schmale Meerenge, die von Nord nach Süd zwischen Schwarzem Meer und Marmarameer verläuft.",
+    "f": [
+      "Der Bosporus ist rund 30 km lang und an seiner engsten Stelle deutlich weniger als einen Kilometer breit.",
+      "Drei Hängebrücken queren die Meerenge; aus Reiseflughöhe sind sie feine helle Linien.",
+      "Nachts leuchten beide Ufer wie ein einziges Lichterband entlang des Wassers."
+    ],
+    "q": {
+      "q": "Welche Meerenge teilt Istanbul zwischen Europa und Asien?",
+      "a": "Der Bosporus",
+      "x": [
+        "Die Dardanellen",
+        "Die Straße von Messina"
+      ]
+    }
+  },
+  "Q3692": {
+    "t": "Ein Lichterraster, in die arabische Wüste geworfen",
+    "s": "Hunderte Kilometer von jedem Meer entfernt breitet sich ein riesiges beiges Raster breiter Alleen über das Nadschd-Plateau aus: Das ist Riad, nahe der Mitte der Arabischen Halbinsel. An seiner Westseite zieht sich der grüne Faden des Wadi Hanifa. Der Name der Stadt kommt vom arabischen Wort für „Gärten“ – den Oasen, die dieses Tal einst bewässerte.",
+    "w": "Ein riesiges rechteckiges Straßenraster in brauner Wüste, im Westen die lange, von Nord nach Süd verlaufende Tuwaiq-Stufe.",
+    "f": [
+      "Die Tuwaiq-Stufe westlich der Stadt zieht sich in einem Bogen rund 800 km durch Zentralarabien.",
+      "Am Nordwestrand Riads ist das Lehmziegelviertel At-Turaif in Diriyya UNESCO-Welterbe.",
+      "Die Stadt liegt rund 600 Meter über dem Meer auf dem Nadschd-Plateau."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Riad auf Arabisch?",
+      "a": "Gärten",
+      "x": [
+        "Sande",
+        "Sterne"
+      ]
+    }
+  },
+  "Q5465": {
+    "t": "Ein Tafelberg nahe der Südspitze Afrikas",
+    "s": "Suchen Sie einen Berg, flach abgeschnitten wie ein Tisch, zu seinen Füßen die Stadt, zu beiden Seiten das Meer. Südlich davon zieht sich ein felsiger Landfinger bis zum Kap der Guten Hoffnung. An vielen Sommertagen quillt eine weiße Wolke wie ein Tischtuch über den Gipfel und löst sich beim Hinabgleiten auf.",
+    "w": "Ein flacher grauer Bergblock über einer geschwungenen Bucht, eine felsige Halbinsel nach Süden und eine flache Insel in der Bucht.",
+    "f": [
+      "Der flache Gipfel des Tafelbergs erreicht rund 1.085 Meter – etwa ein Zehntel Ihrer Reiseflughöhe.",
+      "Die flache Insel in der Tafelbucht ist Robben Island, seit 1999 UNESCO-Welterbe.",
+      "Kapstadt ist die älteste Stadt Südafrikas, 1652 als Versorgungsstation für niederländische Schiffe gegründet."
+    ],
+    "q": {
+      "q": "In welchem Jahr gründete die Niederländische Ostindien-Kompanie Kapstadt?",
+      "a": "1652",
+      "x": [
+        "1588",
+        "1714"
+      ]
+    }
+  },
+  "Q649": {
+    "t": "Ringe in Ringen, wie ein durchgesägter Baumstamm",
+    "s": "Moskau ist angelegt wie ein Baumstamm im Querschnitt: Ringstraßen liegen ineinander um das alte Zentrum, und Ausfallstraßen laufen wie Speichen nach außen. Nachts leuchtet das ganze Muster bernsteinfarben und weiß. Hindurch windet sich die Moskwa in großen, trägen Schleifen. Erstmals erwähnt wird die Stadt 1147 in einer Chronik.",
+    "w": "Konzentrische Straßenringe mit geraden, strahlenförmigen Speichen; die gewundene Moskwa quert das Zentrum von Nordwest nach Südost.",
+    "f": [
+      "Der MKAD, Moskaus äußerer Autobahnring, ist rund 109 km lang.",
+      "Der innere Gartenring verläuft auf rund 16 km um das historische Zentrum.",
+      "Stadt und Fluss teilen sich einen Namen: Auf Russisch heißen beide Moskwa."
+    ],
+    "q": {
+      "q": "In welchem Jahr wird Moskau erstmals in einer Chronik erwähnt?",
+      "a": "1147",
+      "x": [
+        "1240",
+        "1380"
+      ]
+    }
+  },
+  "Q8673": {
+    "t": "Eine Megastadt, über eine Lagune zusammengenäht",
+    "s": "Lagos ist ebenso Wasser wie Land. Suchen Sie eine breite Lagune hinter einem langen, geraden Atlantikstrand; die Stadt ergießt sich über die Inseln und Ufer ringsum. Eine dünne Brücke schreitet kilometerweit über das Wasser. Portugiesische Seefahrer benannten den Ort nach diesen Seen, und heute ist er eine der größten Städte Afrikas.",
+    "w": "Eine weite braungraue Lagune hinter einer schnurgeraden Brandungsküste, dichte Stadt auf ihren Inseln und eine lange Brücke übers Wasser.",
+    "f": [
+      "Die Third Mainland Bridge führt rund 11,8 km über die Lagune von Lagos und verbindet die Inseln mit dem Festland.",
+      "Lagos war bis 1991 Nigerias Hauptstadt; dann zog die Regierung nach Abuja.",
+      "Auf Yoruba heißt die Stadt selbst Eko."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Lagos auf Portugiesisch?",
+      "a": "Seen",
+      "x": [
+        "Häfen",
+        "Palmen"
+      ]
+    }
+  },
+  "Q220": {
+    "t": "Die Ewige Stadt, eingerahmt von alten Vulkanen",
+    "s": "Suchen Sie zuerst runde Seen. Nordwestlich und südöstlich von Rom füllen sie die Krater erloschener Vulkane; dazwischen, rund 25 km vom Meer, schlängelt sich der Tiber in engen Biegungen durch die Stadt. Ein Autobahnring, der Grande Raccordo Anulare, umschließt alles. Der Überlieferung nach wurde die Stadt 753 v. Chr. gegründet.",
+    "w": "Ein Häusermeer an einem gewundenen Fluss, eingerahmt vom runden Kratersee von Bracciano im Nordwesten und den Albaner Bergen im Südosten.",
+    "f": [
+      "Die Ringautobahn Grande Raccordo Anulare ist rund 68 km lang.",
+      "Die Vatikanstadt, der kleinste Staat der Welt, liegt vollständig in Rom.",
+      "Der Braccianosee nordwestlich der Stadt füllt ein altes Vulkanbecken von rund 9 km Durchmesser."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Rom?",
+      "a": "Der Tiber",
+      "x": [
+        "Der Arno",
+        "Der Po"
+      ]
+    }
+  },
+  "Q3870": {
+    "t": "Löwen und Giraffen in Sichtweite der Skyline",
+    "s": "Löwen und Giraffen streifen in Sichtweite von Nairobis Hochhäusern umher: Das offene Grasland am Südrand der Stadt ist ein Nationalpark. Die Stadt liegt auf einer Hochebene in rund 1.800 Metern Höhe, gleich östlich des Großen Afrikanischen Grabenbruchs. Sie begann 1899 als Depot an der Bahn von Mombasa zum Victoriasee, und ihr Name geht auf einen Massai-Ausdruck für „kühles Wasser“ zurück.",
+    "w": "Eine dichte Stadt mit einer offenen gelbbraunen Ebene – dem Nationalpark – an ihrer Südseite; im Südwesten die Ngong Hills.",
+    "f": [
+      "Der Nairobi-Nationalpark beginnt nur rund 7 km vom Stadtzentrum entfernt.",
+      "Westlich der Stadt fällt das Land steil in den Großen Afrikanischen Grabenbruch ab.",
+      "Die Stadt liegt keine 150 km südlich des Äquators, doch ihre Höhe hält die Nächte kühl."
+    ],
+    "q": {
+      "q": "Was bedeutet der Massai-Ausdruck hinter „Nairobi“?",
+      "a": "Kühles Wasser",
+      "x": [
+        "Rote Erde",
+        "Hoher Hügel"
+      ]
+    }
+  },
+  "Q85": {
+    "t": "Wo sich das grüne Niltal zum Delta öffnet",
+    "s": "Kairo ist das Scharnier Ägyptens. Südlich der Stadt fließt der Nil in einem schmalen grünen Streifen durch die Wüste; gleich nördlich fächert er sich zum Delta auf. Die Stadt füllt beide Ufer, mit dem Plateau von Gizeh und seinen Pyramiden am Westrand, wo die Häuser enden und die Sahara beginnt.",
+    "w": "Eine riesige graubeige Stadt am Nil, genau dort, wo das dünne grüne Tal sich zum Dreieck des Deltas weitet.",
+    "f": [
+      "Kairo wurde 969 von der Dynastie der Fatimiden als al-Qahira, „die Siegreiche“, gegründet.",
+      "Die Grenze zwischen bewässerten Feldern und kahler Wüste um Kairo ist messerscharf, selbst aus Reiseflughöhe.",
+      "Die Cheops-Pyramide von Gizeh war über 3.800 Jahre lang das höchste Bauwerk der Erde."
+    ],
+    "q": {
+      "q": "Welche Dynastie gründete Kairo im Jahr 969?",
+      "a": "Die Fatimiden",
+      "x": [
+        "Die Osmanen",
+        "Die Mamluken"
+      ]
+    }
+  },
+  "Q90": {
+    "t": "Ein Oval im Ring, durchzogen von einem Fluss in Schleifen",
+    "s": "Paris selbst ist kompakt: ein ordentliches Oval innerhalb des Boulevard Périphérique, mit Vororten, die sich weit darüber hinaus ausbreiten. Die Seine kommt von Südosten, schwingt vorbei an zwei kleinen Inseln durchs Zentrum und verlässt die Stadt dann in einer Folge großer Schleifen Richtung Ärmelkanal. Die Römer nannten die Siedlung Lutetia.",
+    "w": "Ein ovaler Straßenring um das dichte Zentrum, durch das sich die Seine schlängelt, bevor sie in großen Schleifen nach Westen mäandert.",
+    "f": [
+      "Der Boulevard Périphérique ist rund 35 km lang und folgt der Linie der Stadtbefestigung aus dem 19. Jahrhundert.",
+      "Innerhalb des Rings umfasst Paris nur rund 105 km².",
+      "Die Stadt begann auf der Île de la Cité, der größeren der beiden Seine-Inseln."
+    ],
+    "q": {
+      "q": "Wie lang ist der Boulevard Périphérique um Paris ungefähr?",
+      "a": "Rund 35 km",
+      "x": [
+        "Rund 70 km",
+        "Rund 12 km"
+      ]
+    }
+  },
+  "Q1899": {
+    "t": "Grüne Hügel an einem Ufer, flache Ebene am anderen",
+    "s": "Der Dnipro teilt Kiew in zwei Hälften, und seine Ufer könnten kaum verschiedener sein: steile, bewaldete Hügel im Westen, wo die Altstadt wuchs, und flaches Land im Osten. Dazwischen liegen Sandinseln und Seitenarme. Flussaufwärts schwillt der Fluss zu einem langen Stausee an. Vor tausend Jahren war dies die Hauptstadt der Kiewer Rus.",
+    "w": "Ein breiter Fluss mit Sandinseln von Nord nach Süd; die hügelige Altstadt am Westufer, neuere Viertel am flachen Ostufer.",
+    "f": [
+      "Gleich nördlich der Stadt weitet sich der Dnipro zum Kiewer Stausee, über 100 km lang.",
+      "Das Kiewer Höhlenkloster, 1051 gegründet, ist UNESCO-Welterbe.",
+      "Große bewaldete Inseln im Dnipro wie Truchaniw liegen direkt gegenüber der Innenstadt."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Kiew?",
+      "a": "Der Dnipro",
+      "x": [
+        "Der Dnister",
+        "Der Südliche Bug"
+      ]
+    }
+  },
+  "Q612": {
+    "t": "Eine Palme, mit Sand aufs Meer gezeichnet",
+    "s": "Kaum eine Stadt ist so leicht zu erkennen. Vor Dubais Küste ist eine Palme aus Sand aufs Meer gezeichnet, ihre Wedel umringt von einem sichelförmigen Wellenbrecher. Weiter draußen ahmt eine Streuung kleiner Inseln eine Weltkarte nach. An Land säumen Hochhäuser kilometerweit die Küste, und die Altstadt schmiegt sich an einen gewundenen Meeresarm.",
+    "w": "Die palmenförmige Insel vor einer geraden Wüstenküste, weiter draußen die Inselgruppe „The World“.",
+    "f": [
+      "Palm Jumeirah wurde aus Sand vom Meeresboden aufgeschüttet und misst rund 5 km im Durchmesser.",
+      "The World ist ein Archipel aus rund 300 künstlichen Inseln, angeordnet wie eine Weltkarte.",
+      "Der Dubai Creek, ein natürlicher Meeresarm, war das Herz der alten Perlen- und Handelsstadt."
+    ],
+    "q": {
+      "q": "Welche Form hat Dubais bekannteste künstliche Insel?",
+      "a": "Eine Palme",
+      "x": [
+        "Eine Muschel",
+        "Ein Falke"
+      ]
+    }
+  },
+  "Q2807": {
+    "t": "Spaniens Herz auf der Hochebene, Schneegipfel im Nordwesten",
+    "s": "Im Winter erhebt sich nordwestlich von Madrid eine weiß bedeckte Bergmauer: die Sierra de Guadarrama. Die Stadt selbst liegt fast in der Mitte Spaniens, auf einer trockenen Hochebene mehr als 600 Meter über dem Meer, umgeben von Ringautobahnen, die immer weitere Schleifen ziehen. Philipp II. verlegte seinen Königshof 1561 in diese kleine Stadt.",
+    "w": "Eine dichte Stadt auf einer gelbbraunen Hochebene, umringt von Autobahnen, im Nordwesten die Berge der Guadarrama.",
+    "f": [
+      "Mit rund 650 Metern ist Madrid die höchstgelegene Hauptstadt der Europäischen Union.",
+      "Die Puerta del Sol im Zentrum ist Kilometer null für Spaniens sternförmige Nationalstraßen.",
+      "Der Fluss der Stadt, der Manzanares, ist so klein, dass er aus der Luft kaum zu sehen ist."
+    ],
+    "q": {
+      "q": "Welches Gebirge erhebt sich nordwestlich von Madrid?",
+      "a": "Sierra de Guadarrama",
+      "x": [
+        "Sierra Nevada",
+        "Picos de Europa"
+      ]
+    }
+  },
+  "Q71": {
+    "t": "Wo die Rhone aus einem sichelförmigen See gleitet",
+    "s": "Wo ein großer, sichelförmiger See sich zu einer Spitze verengt und die Rhone Richtung Frankreich hinausgleitet, liegt Genf. Die Stadt ist fast ganz von französischem Gebiet umgeben. Schauen Sie an klaren Tagen nach Südosten zum verschneiten Mont-Blanc-Massiv und nach Nordwesten zur langen, dunklen Wand des Jura.",
+    "w": "Das schmale, spitze Ende eines großen sichelförmigen Sees, aus dem ein Fluss abfließt; im Nordwesten der Jurakamm.",
+    "f": [
+      "Der Kanton Genf teilt rund 100 km Grenze mit Frankreich und nur wenige Kilometer mit der übrigen Schweiz.",
+      "Gleich westlich der Stadt liegt der 27 km lange Beschleunigerring des CERN unter der Erde, quer unter der französischen Grenze.",
+      "Der Genfersee ist rund 73 km lang und krümmt sich wie eine Sichel zwischen der Schweiz und Frankreich."
+    ],
+    "q": {
+      "q": "Welcher Fluss verlässt den Genfersee bei Genf?",
+      "a": "Die Rhone",
+      "x": [
+        "Der Rhein",
+        "Die Aare"
+      ]
+    }
+  },
+  "Q1754": {
+    "t": "Vierzehn Inseln, ein See und ein Meer aus Schären",
+    "s": "Stockholm verteilt sich über vierzehn Inseln an der Stelle, wo der Mälaren in die Ostsee abfließt. Von oben ist es ein Puzzle aus Wasser, Granit und dunklem Kiefernwald. Im Osten übernimmt der Schärengarten: Zehntausende Inseln und Schären, verstreut bis zum offenen Meer. Erstmals erwähnt wird die Stadt 1252.",
+    "w": "Ein Puzzle aus Inseln und Kanälen zwischen einem großen See im Westen und einem riesigen Schärengarten, der sich nach Osten zur Ostsee ausbreitet.",
+    "f": [
+      "Der Stockholmer Schärengarten umfasst rund 30.000 Inseln, Inselchen und Felsen.",
+      "Der Mälaren liegt etwas höher als die Ostsee, und sein Wasser fließt durch die Kanäle der Stadt ab.",
+      "Das Land hebt sich hier seit der letzten Eiszeit noch immer, um rund einen halben Zentimeter pro Jahr."
+    ],
+    "q": {
+      "q": "Wie viele Inseln umfasst der Stockholmer Schärengarten ungefähr?",
+      "a": "Rund 30.000",
+      "x": [
+        "Rund 300",
+        "Rund 3.000"
+      ]
+    }
+  },
+  "Q3718": {
+    "t": "Die westlichste Stadt des afrikanischen Festlands",
+    "s": "Dakar krönt die Halbinsel Cap-Vert, einen Landhaken, der in den Atlantik ragt – so weit westlich reicht das afrikanische Festland nirgends sonst. Von oben füllt die Stadt das ganze Dreieck, Meer auf drei Seiten und dahinter der ockerfarbene Sahel. Direkt vor der Küste liegt die kleine Insel Gorée, UNESCO-Welterbe und Gedenkort des atlantischen Sklavenhandels.",
+    "w": "Eine dreieckige Halbinsel, die nach Westen in den Atlantik ragt, fast vollständig bebaut, mit einer kleinen Insel vor ihrer Südostküste.",
+    "f": [
+      "Die Pointe des Almadies auf Dakars Halbinsel ist der westlichste Punkt des afrikanischen Festlands.",
+      "Zwei niedrige Vulkanhügel, die Mamelles, erheben sich nahe der Westküste; auf einem steht ein Leuchtturm.",
+      "Die Insel Gorée wurde 1978 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Auf welcher Halbinsel liegt Dakar?",
+      "a": "Cap-Vert",
+      "x": [
+        "Cap Bon",
+        "Sinai"
+      ]
+    }
+  },
+  "Q34647": {
+    "t": "Auf Gold gebaut: Folgen Sie der Linie alter Abraumhalden",
+    "s": "Johannesburg existiert wegen des Goldes. Die Stadt entstand 1886, nachdem entlang des Witwatersrand, eines langen Ost-West-Kamms im Hochveld, ein reiches Riff gefunden worden war. Achten Sie an der Südseite der Stadt auf flache, gelbliche Hügel – alte Abraumhalden –, aufgereiht in einer Linie, die das darunter verborgene Riff nachzeichnet.",
+    "w": "Eine ausgedehnte Stadt auf einer grasigen Hochebene; an ihrer Südseite eine Ost-West-Linie hellgelber Abraumhalden.",
+    "f": [
+      "Johannesburg liegt rund 1.750 Meter über dem Meer.",
+      "Witwatersrand bedeutet auf Afrikaans „Kamm der weißen Wasser“.",
+      "Manche Goldminen am Witwatersrand reichen rund 4 km unter die Oberfläche – sie gehören zu den tiefsten der Welt."
+    ],
+    "q": {
+      "q": "Welcher Fund führte 1886 zur Gründung Johannesburgs?",
+      "a": "Gold",
+      "x": [
+        "Diamanten",
+        "Kohle"
+      ]
+    }
+  },
+  "Q727": {
+    "t": "Eine Grachtenstadt auf dem Wasser abgerungenem Land",
+    "s": "Amsterdam wuchs aus einem Damm des 13. Jahrhunderts an der Amstel, und das Wasser prägt noch alles, was Sie sehen: das breite IJ an der Nordseite, die graue Fläche des Markermeers im Osten und ringsum ein flacher Flickenteppich aus Poldern. Viele dieser grünen Rechtecke liegen unter dem Meeresspiegel.",
+    "w": "Flache grüne Polder, durchschnitten von geraden Gräben, die Stadt an einem breiten Wasserarm und im Osten ein großer grauer See.",
+    "f": [
+      "Der Flughafen Schiphol liegt rund 3 Meter unter dem Meeresspiegel, auf dem Grund eines Mitte des 19. Jahrhunderts trockengelegten Sees.",
+      "Der Grachtengürtel aus dem 17. Jahrhundert wurde 2010 UNESCO-Welterbe.",
+      "Der 1876 eröffnete Nordseekanal verbindet den Hafen der Stadt mit dem rund 25 km westlich gelegenen Meer."
+    ],
+    "q": {
+      "q": "Welcher Fluss gab Amsterdam seinen Namen?",
+      "a": "Die Amstel",
+      "x": [
+        "Die Maas",
+        "Die IJssel"
+      ]
+    }
+  },
+  "Q7903": {
+    "t": "Eine weiße Stadt entlang der Atlantikbrandung",
+    "s": "Aus der Luft macht Casablanca seinem Namen alle Ehre: spanisch für „weißes Haus“, ein Echo des arabischen Dar al-Baida. Eine helle Fläche aus Gebäuden erstreckt sich entlang einer flachen Atlantikküste, dicht bis an die Brandungslinie, und die langen Molen ihres Hafens, eines der größten Afrikas, schwingen sich ins Meer hinaus.",
+    "w": "Eine helle Stadt an einer geraden Atlantikküste, mit einem großen Hafen hinter langen Molen.",
+    "f": [
+      "Das Minarett der Hassan-II.-Moschee an der Uferfront ist rund 210 Meter hoch.",
+      "Ein Teil der Hassan-II.-Moschee steht auf einer Plattform, die über den Atlantik hinausgebaut ist.",
+      "Casablanca ist Marokkos größte Stadt, doch die Hauptstadt ist Rabat, rund 90 km die Küste hinauf."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Casablanca?",
+      "a": "Weißes Haus",
+      "x": [
+        "Weißer Sand",
+        "Blauer Hafen"
+      ]
+    }
+  },
+  "Q64": {
+    "t": "Flache Stadt aus Seen, Wald und einer großen grünen Leere",
+    "s": "Wasser und Wald sind in Berlin überall: die Spree, die sich durchs Zentrum windet, eine Kette von Havelseen im Westen, der breite Müggelsee im Osten, alles auf einer flachen, sandigen Ebene, die eiszeitliche Gletscher hinterließen. Dunkle Kiefernwälder reichen tief in die Stadt hinein. Achten Sie auch auf ein riesiges offenes Rechteck südlich des Zentrums – Tempelhof, ein Flughafen, der zum Park wurde.",
+    "w": "Eine riesige flache Stadt, übersät mit Seen und dunklem Wald; gleich südlich des Zentrums ein großes offenes grünes Rechteck.",
+    "f": [
+      "Der Berliner Ring (A10) um die Stadt ist rund 196 km lang, einer der längsten Autobahnringe Europas.",
+      "Das Tempelhofer Feld, der alte Flughafen Tempelhof, ist heute ein offener Park von rund 300 Hektar.",
+      "Berlin umfasst rund 890 km² – mehr als das Achtfache der Fläche von Paris innerhalb seines Rings."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch das Zentrum Berlins?",
+      "a": "Die Spree",
+      "x": [
+        "Die Elbe",
+        "Die Oder"
+      ]
+    }
+  },
+  "Q3838": {
+    "t": "Zwei Hauptstädte, einander gegenüber an einem großen Strom",
+    "s": "Zwei Hauptstädte blicken sich hier über den Fluss an. Kinshasa füllt das Südufer des Kongo, wo sich der Strom zu einem riesigen, seeartigen Becken voller Sandinseln weitet; Brazzaville liegt am anderen Ufer. Gleich flussabwärts stürzt der Fluss in eine lange Folge von Stromschnellen. Henry Morton Stanley errichtete hier 1881 einen Handelsposten und nannte ihn Léopoldville.",
+    "w": "Eine ausgedehnte Stadt am Südufer einer breiten, inselreichen Ausweitung des Kongo, mit einer weiteren Stadt am gegenüberliegenden Ufer.",
+    "f": [
+      "Abgesehen von Rom und dem Vatikan sind Kinshasa und Brazzaville das am nächsten beieinanderliegende Hauptstadtpaar der Welt.",
+      "Der Pool Malebo, die Ausweitung des Flusses hier, ist rund 35 km lang und mehr als 20 km breit.",
+      "Unterhalb der Stadt senken die Livingstonefälle – eine Kette von Stromschnellen – den Kongo um rund 270 Meter."
+    ],
+    "q": {
+      "q": "Welche Hauptstadt liegt Kinshasa am Kongo gegenüber?",
+      "a": "Brazzaville",
+      "x": [
+        "Bangui",
+        "Luanda"
+      ]
+    }
+  },
+  "Q1524": {
+    "t": "Eine weiße Stadt, in ein Becken bis ans Meer gegossen",
+    "s": "Athen ergießt sich über ein von kahlen Bergen umringtes Becken bis hinunter zum Saronischen Golf beim Hafen Piräus. Von oben ist es ein fast ununterbrochener weißbeiger Teppich. Schauen Sie auf den Berg im Nordosten: Helle Narben an seinen Flanken sind Marmorbrüche, genutzt seit der Antike, als sie den Stein für den Parthenon lieferten.",
+    "w": "Eine dichte weiße Stadt in einem von Bergen gesäumten Becken, das sich nach Südwesten zum Meer öffnet; Schiffswellen fächern sich von Piräus aus.",
+    "f": [
+      "Der Marmor des Parthenon stammt vom Pentelikon, rund 15 km nordöstlich der Akropolis.",
+      "Piräus dient Athen seit dem 5. Jahrhundert v. Chr. als Hafen, als die Langen Mauern beide verbanden.",
+      "Die Stadt trägt den Namen der Göttin Athene, ihrer Schutzherrin im griechischen Mythos."
+    ],
+    "q": {
+      "q": "Welcher Berg lieferte den Marmor für den Parthenon?",
+      "a": "Der Pentelikon",
+      "x": [
+        "Der Olymp",
+        "Der Parnass"
+      ]
+    }
+  },
+  "Q1530": {
+    "t": "Aufgefädelt an den großen Schleifen des Tigris",
+    "s": "Bagdad ist am Tigris aufgefädelt, der in großen Schleifen durch die Stadt schwingt, dunkle Palmenhaine an beiden Ufern. Im Westen kommt der Euphrat bis auf wenige Dutzend Kilometer heran: Die beiden Ströme Mesopotamiens nähern sich hier so stark wie kaum anderswo. Der abbasidische Kalif al-Mansur gründete die Stadt 762 als vollkommen runde, ummauerte Stadt.",
+    "w": "Eine flache, staubfarbene Stadt an einem breiten, tief geschwungenen Fluss, mit dunkelgrünen Palmenhainen an seinen Ufern.",
+    "f": [
+      "Al-Mansur nannte seine neue Rundstadt Madinat as-Salam, die Stadt des Friedens.",
+      "Bei Bagdad verlaufen Tigris und Euphrat weniger als 50 km voneinander entfernt.",
+      "Im 9. Jahrhundert zog Bagdads Haus der Weisheit Gelehrte an, die griechische Wissenschaft ins Arabische übersetzten."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Bagdad?",
+      "a": "Der Tigris",
+      "x": [
+        "Der Euphrat",
+        "Der Orontes"
+      ]
+    }
+  },
+  "Q3624": {
+    "t": "Auf 2.350 Metern, zwischen Eukalyptushügeln",
+    "s": "Kaum eine Hauptstadt liegt höher: Addis Abeba liegt auf rund 2.350 Metern im äthiopischen Hochland. Die Hügel im Norden sind dunkel von Eukalyptus, einem Baum, der in den 1890er-Jahren eingeführt wurde, um der jungen Stadt Brennholz zu liefern. Kaiser Menelik II. und Kaiserin Taytu gründeten die Stadt 1886 nahe einer Gruppe heißer Quellen.",
+    "w": "Eine ausgedehnte Stadt auf einem hohen grünen Plateau, an ihrem Nordrand dunkle, eukalyptusbewachsene Hügel.",
+    "f": [
+      "Die Afrikanische Union hat ihren Sitz in Addis Abeba.",
+      "Der Eukalyptus rund um die Stadt stammt aus Australien und bedeckt heute große Teile der Entoto-Hügel.",
+      "In dieser Höhe siedet Wasser bei etwa 92 °C statt bei 100 °C."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Addis Abeba auf Amharisch?",
+      "a": "Neue Blume",
+      "x": [
+        "Hohe Stadt",
+        "Quellwasser"
+      ]
+    }
+  },
+  "Q3616": {
+    "t": "Der verschneite Damawand über einer schiefen Stadt",
+    "s": "Ein einsamer weißer Kegel schwebt über den Bergen nordöstlich von Teheran: der Damawand, der höchste Gipfel Irans. Die Stadt liegt am Fuß des Elburs, einer steilen Wand, die sie vom Kaspischen Meer abschirmt, und die ganze Stadt ist geneigt: Ihre nördlichen Viertel liegen Hunderte Meter höher als die südlichen, die in trockene Ebene übergehen.",
+    "w": "Eine riesige graue Stadt, angelehnt an eine hohe Bergwand im Norden; im Nordosten sticht ein einsamer verschneiter Vulkankegel hervor.",
+    "f": [
+      "Der Damawand, rund 70 km nordöstlich der Stadt, erreicht rund 5.600 Meter.",
+      "Teheran wurde 1786 unter Agha Mohammad Khan, dem Begründer der Kadscharen-Dynastie, Hauptstadt.",
+      "Der Damawand ist ein Vulkan – der höchste Asiens."
+    ],
+    "q": {
+      "q": "Welcher Vulkan erhebt sich nordöstlich von Teheran?",
+      "a": "Der Damawand",
+      "x": [
+        "Der Ararat",
+        "Der Sabalan"
+      ]
+    }
+  },
+  "Q1741": {
+    "t": "Wo die Donau in geraden parallelen Linien verläuft",
+    "s": "Wiens Fluss ist leicht zu finden, aber seltsam anzusehen: Die Donau passiert die Stadt in geraden, parallelen Armen mit einer langen, schmalen Insel dazwischen. Das ist das Werk von Ingenieuren; der alte Fluss mäanderte einst frei durch seine Aue. Im Westen sind die bewaldeten Hügel des Wienerwalds die letzten Ausläufer der Alpen.",
+    "w": "Die Donau als zwei gerade, parallele Arme mit einer schlanken Insel dazwischen, nordöstlich des Zentrums; im Westen bewaldete Hügel.",
+    "f": [
+      "Die Donauinsel, der schmale Streifen zwischen den Armen, ist rund 21 km lang und wurde für den Hochwasserschutz aufgeschüttet.",
+      "Wien hat Weinberge innerhalb der Stadtgrenzen, und der Weinbau hier reicht Jahrhunderte zurück.",
+      "Jahrhundertelang war Wien der Hauptsitz der Habsburger."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Wien?",
+      "a": "Die Donau",
+      "x": [
+        "Die Elbe",
+        "Die Moldau"
+      ]
+    }
+  },
+  "Q3640": {
+    "t": "Eine Hauptstadt in der kahlen Steppe Anatoliens",
+    "s": "Ankara breitet sich über eine Hügelschüssel mitten auf dem anatolischen Hochland aus, fast 900 Meter hoch und umringt von trockener, gelbbrauner Steppe. Sein alter Name Angora lebt in der weichen Wolle von Ziegen, Katzen und Kaninchen fort, die hier einst gezüchtet wurden. Weit im Süden erhaschen Sie vielleicht ein weißes Glänzen: den Tuz-See, einen riesigen, flachen Salzsee.",
+    "w": "Eine große Stadt in einer Schüssel niedriger Hügel auf kahler, gelbbrauner Steppe; weit im Süden die weiße Fläche eines Salzsees.",
+    "f": [
+      "Ankara löste 1923 Istanbul als Hauptstadt der Türkei ab.",
+      "In römischer Zeit hieß die Stadt Ancyra und war Hauptstadt der Provinz Galatien.",
+      "Der Tuz-See ist so flach, dass er im Sommer großteils zu einer weißen Salzkruste austrocknet."
+    ],
+    "q": {
+      "q": "Welcher alte Name Ankaras ging auf eine weiche Wolle über?",
+      "a": "Angora",
+      "x": [
+        "Merino",
+        "Kaschmir"
+      ]
+    }
+  },
+  "Q1781": {
+    "t": "Budas Hügel und Pests Ebene, von Brücken vernäht",
+    "s": "Die Donau fließt geradewegs von Nord nach Süd durch Budapest und teilt es in zwei Charaktere: die bewaldeten Hügel von Buda am Westufer und das flache, dichte Raster von Pest im Osten. Eine schlanke, grüne Insel, die Margareteninsel, liegt nahe dem Zentrum mitten im Strom. Die Städte an beiden Ufern wurden erst 1873 zu einer Stadt vereint.",
+    "w": "Ein breiter Fluss nach Süden, grüne Hügel am Westufer, flache Stadt im Osten und eine schmale Insel mitten im Strom.",
+    "f": [
+      "Budapest liegt auf einer geologischen Verwerfung, die mehr als hundert Thermalquellen speist.",
+      "Südlich der Stadt teilt sich die Donau um die Csepel-Insel, die fast 50 km lang ist.",
+      "Die Margareteninsel ist rund 2,5 km lang und beherbergte einst ein mittelalterliches Kloster."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurden Buda, Óbuda und Pest vereint?",
+      "a": "1873",
+      "x": [
+        "1848",
+        "1896"
+      ]
+    }
+  },
+  "Q2471": {
+    "t": "Eine uralte Hauptstadt auf einem hohen Bergplateau",
+    "s": "Hohe Turmhäuser aus Lehmziegeln und Stein, weiß verziert, füllen Sanaas Altstadt seit Jahrhunderten, und Menschen leben hier seit mehr als 2.500 Jahren. Von oben ist die Stadt ein erdfarbener Fleck zwischen kahlen, gefalteten Kämmen, gelegen in einem Hochbecken zwischen den Bergen Jemens auf rund 2.250 Metern.",
+    "w": "Eine erdfarbene Stadt in einem weiten Hochbecken, im Osten und Westen eingefasst von kahlen, zerklüfteten Bergen.",
+    "f": [
+      "Die Altstadt von Sanaa ist seit 1986 UNESCO-Welterbe.",
+      "Westlich der Stadt erhebt sich der Dschabal an-Nabi Schuʿaib, mit rund 3.660 m der höchste Gipfel der Arabischen Halbinsel.",
+      "Sanaas Turmhäuser sind mehrere Stockwerke hoch, ihre Fenster von weißen Gipsfriesen gerahmt."
+    ],
+    "q": {
+      "q": "Wie hoch über dem Meer liegt Sanaa ungefähr?",
+      "a": "Rund 2.250 m",
+      "x": [
+        "Rund 750 m",
+        "Rund 4.000 m"
+      ]
+    }
+  },
+  "Q1492": {
+    "t": "Ein perfektes Raster zwischen Hügeln und Meer",
+    "s": "Barcelona füllt eine Küstenebene, eingefasst von zwei Flüssen und einer Reihe bewaldeter Hügel. Ihr Herz ist unverkennbar: das Eixample, ein riesiges Schachbrett fast identischer Blöcke, angelegt in den 1860er-Jahren. Achten Sie auf eine breite Allee, die es schräg durchschneidet, und auf den Hügel Montjuïc, der direkt am Hafen aufsteigt.",
+    "w": "Ein Raster quadratischer Blöcke zwischen grünen Hügeln und Mittelmeer, gekreuzt von einer langen Diagonale, mit einem runden Hügel am Hafen.",
+    "f": [
+      "Das Eixample wurde 1859 vom Ingenieur Ildefons Cerdà geplant.",
+      "Jeder Block des Eixample misst rund 113 Meter, mit schräg abgeschnittenen Ecken.",
+      "Die Avinguda Diagonal durchschneidet das Raster auf rund 11 km."
+    ],
+    "q": {
+      "q": "Welcher Hügel erhebt sich neben Barcelonas Hafen?",
+      "a": "Montjuïc",
+      "x": [
+        "Tibidabo",
+        "Montserrat"
+      ]
+    }
+  },
+  "Q19660": {
+    "t": "Eine flache Stadt mit einer Seenkette im Norden",
+    "s": "Eine Kette von Seen, aufgereiht wie Perlen an einem kleinen Fluss, markiert Bukarests Nordrand; suchen Sie sie auf der flachen walachischen Ebene, rund 60 km nördlich der Donau. Das erste Dokument, das die Stadt erwähnt, unterzeichnete hier 1459 Vlad III., besser bekannt als Vlad der Pfähler.",
+    "w": "Eine große, flache Stadt auf offener Ebene, mit einer geschwungenen Kette kleiner Seen an ihrem Nordrand.",
+    "f": [
+      "Seine eleganten Boulevards brachten Bukarest einst den Spitznamen „Klein-Paris“ ein.",
+      "Bukarest wurde 1659 Hauptstadt der Walachei.",
+      "Die Dâmbovița quert das Zentrum in einem geraden, ummauerten Bett."
+    ],
+    "q": {
+      "q": "Welcher Herrscher unterzeichnete 1459 das erste Dokument mit dem Namen Bukarest?",
+      "a": "Vlad der Pfähler",
+      "x": [
+        "Stefan der Große",
+        "Michael der Tapfere"
+      ]
+    }
+  },
+  "Q41183": {
+    "t": "Eine der ältesten Städte der Welt, auf einer Kalksteinebene",
+    "s": "Aleppo zählt zu den ältesten ununterbrochen bewohnten Städten der Erde, seit Jahrtausenden Station an Karawanenrouten zwischen Mittelmeer und Mesopotamien. Von oben ist es eine große helle Stadt auf einer welligen Kalksteinebene. Ihr altes Zentrum wuchs um eine Zitadelle auf einem uralten Hügel. Südöstlich der Stadt liegt ein flacher Salzsee, der Dschabbul.",
+    "w": "Eine große helle Stadt auf einer trockenen, welligen Ebene; im Südosten glitzert ein flacher Salzsee.",
+    "f": [
+      "Die Altstadt von Aleppo ist seit 1986 UNESCO-Welterbe.",
+      "Die Stadt ist seit Langem berühmt für Seife aus Oliven- und Lorbeeröl, weltweit als Aleppo-Seife bekannt.",
+      "Aleppo liegt rund 100 km landeinwärts vom Mittelmeer."
+    ],
+    "q": {
+      "q": "Welcher Salzsee liegt südöstlich von Aleppo?",
+      "a": "Der Dschabbul-See",
+      "x": [
+        "Der Tuz-See",
+        "Der Urmiasee"
+      ]
+    }
+  },
+  "Q3766": {
+    "t": "Eine uralte Oasenstadt unter einem kahlen Berg",
+    "s": "Damaskus verdankt seine Existenz einem kleinen Fluss. Der Barada fließt aus dem Antilibanon herab und breitet sich zur Ghuta aus, einer Oase aus Obstgärten, die die Stadt seit Jahrtausenden ernährt. Die Stadt liegt am Fuß des kahlen Qasiun, und im Winter hebt sich im Südwesten der verschneite Kamm des Hermon ab.",
+    "w": "Eine große Stadt zwischen grünen Obstgärten und Wüste, im Nordwesten angelehnt an einen kahlen Berg.",
+    "f": [
+      "Von 661 bis 750 war Damaskus die Hauptstadt des Umayyaden-Kalifats, das von Spanien bis Zentralasien reichte.",
+      "Der Hermon südwestlich der Stadt erreicht rund 2.800 Meter und trägt oft bis in den Frühling Schnee.",
+      "Die Altstadt von Damaskus ist seit 1979 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher Stoff ist nach Damaskus benannt?",
+      "a": "Damast",
+      "x": [
+        "Musselin",
+        "Kaliko"
+      ]
+    }
+  },
+  "Q72": {
+    "t": "An der Spitze eines schlanken Sees, dahinter die Alpen",
+    "s": "Ein schlanker See schwingt sich rund 40 km nach Südosten Richtung Alpen, und an seiner Nordspitze liegt Zürich; die Limmat fließt geradewegs durchs Zentrum ab. Schauen Sie an klaren Tagen über den See hinweg zur verschneiten Wand der Glarner Alpen. Die Römer kannten die Siedlung als Turicum.",
+    "w": "Das Nordende eines langen, schmalen Sees, der nach Südosten schwingt, ein Fluss, der ihn durch die Stadt verlässt, und dahinter die Alpen.",
+    "f": [
+      "Der Zürichsee ist rund 40 km lang, aber nirgends breiter als etwa 4 km.",
+      "Der Uetliberg, der bewaldete Kamm am Westrand der Stadt, erreicht rund 870 Meter.",
+      "Zürich ist die größte Stadt der Schweiz, obwohl die Bundesregierung in Bern sitzt."
+    ],
+    "q": {
+      "q": "Welcher Fluss verlässt den Zürichsee durch die Stadt?",
+      "a": "Die Limmat",
+      "x": [
+        "Die Aare",
+        "Die Reuss"
+      ]
+    }
+  },
+  "Q597": {
+    "t": "Westlichste Hauptstadt Festlandeuropas, an weiter Mündung",
+    "s": "Lissabon erklimmt seine Hügel am Nordufer des Tejo, genau dort, wo sich der breite Binnensee des Flusses zu einem Kanal zum Atlantik verengt. Zwei lange Brücken queren das Wasser: eine rote Hängebrücke an der Engstelle und flussaufwärts eine dünne Brückenlinie, die sich kilometerweit hinzieht. Keine Hauptstadt auf dem europäischen Festland liegt weiter westlich.",
+    "w": "Eine hügelige Stadt am Nordufer einer weiten Mündung, mit einer langen Brücke über den oberen Teil und einer weiteren an der Engstelle.",
+    "f": [
+      "Die Vasco-da-Gama-Brücke über den Tejo ist rund 12 km lang, eine der längsten Europas.",
+      "Der innere Teil der Mündung ist so breit, dass ihn die Einheimischen Mar da Palha nennen, das „Strohmeer“.",
+      "Das Cabo da Roca westlich von Lissabon ist der westlichste Punkt des europäischen Festlands."
+    ],
+    "q": {
+      "q": "Welcher Fluss bildet die weite Mündung bei Lissabon?",
+      "a": "Der Tejo",
+      "x": [
+        "Der Douro",
+        "Der Guadiana"
+      ]
+    }
+  },
+  "Q1963": {
+    "t": "Wo Blauer und Weißer Nil eins werden",
+    "s": "Khartum liegt an einem der großen Flusstreffpunkte der Welt. Der Blaue Nil, der aus dem äthiopischen Hochland herabkommt, vereint sich mit dem Weißen Nil, der den ganzen Weg vom Victoriasee zurückgelegt hat. Ihr Wasser kann eine Weile in zwei Farbtönen nebeneinanderfließen, bevor es sich mischt. Rund um den Zusammenfluss blicken sich drei Städte über die Flüsse hinweg an.",
+    "w": "Zwei große Flüsse, die sich in Y-Form um eine grüne Insel vereinen, mit einer Stadt an jedem der drei Ufer.",
+    "f": [
+      "Die Insel Tuti liegt genau am Zusammenfluss der beiden Nilarme.",
+      "Der größte Teil des Nilwassers unterhalb Khartums stammt vom Blauen Nil, besonders in der Hochwasserzeit.",
+      "Die drei Städte am Zusammenfluss sind Khartum, Omdurman und Khartum-Nord."
+    ],
+    "q": {
+      "q": "Welche zwei Flüsse treffen sich bei Khartum?",
+      "a": "Blauer und Weißer Nil",
+      "x": [
+        "Nil und Atbara",
+        "Weißer Nil und Sobat"
+      ]
+    }
+  },
+  "Q374365": {
+    "t": "Das Tor zum Roten Meer, gesäumt von türkisen Riffen",
+    "s": "Türkisfarbenes Flachwasser säumt das Rote Meer an Dschiddas Küste: Diese hellen Grün- und Blautöne sind Korallenriffe. Die Stadt zieht sich lang und schmal kilometerweit zwischen Riffen und Wüste hin. Seit Jahrhunderten landen hier Pilger auf dem Weg nach Mekka, rund 70 km landeinwärts, und die alte Hafenstadt wurde durch ihre Ankunft reich.",
+    "w": "Eine lange Stadt an einer geraden Küste des Roten Meeres, gesäumt von leuchtend türkisen Riffen, dahinter braune Wüste und Hügel.",
+    "f": [
+      "Die historische Altstadt von Dschidda mit Häusern aus Korallenstein wurde 2014 UNESCO-Welterbe.",
+      "Die König-Fahd-Fontäne vor der Uferpromenade schleudert Wasser mehr als 250 Meter in die Luft.",
+      "Die Riffe an dieser Küste liegen in einem der wärmsten und salzigsten Meere der Erde."
+    ],
+    "q": {
+      "q": "An welchem Meer liegt Dschidda?",
+      "a": "Am Roten Meer",
+      "x": [
+        "Am Arabischen Meer",
+        "Am Persischen Golf"
+      ]
+    }
+  },
+  "Q5806": {
+    "t": "Eine heilige Stadt in einem Tal dunkler, kahler Berge",
+    "s": "Östlich von Mekka ist ein ganzes Tal mit Reihen weißer Zelte bedeckt: Mina, wo die Pilger während des Haddsch wohnen. Die Stadt selbst liegt in engen Tälern zwischen dunklen, zackigen Bergen, rund 70 km landeinwärts vom Roten Meer. Für Muslime ist sie die heiligste Stadt des Islam: Zu ihr wenden sie sich im Gebet, und Millionen pilgern jedes Jahr hierher.",
+    "w": "Eine Stadt, eingezwängt in gewundene Täler zwischen kahlen schwarzen Hügeln, im Osten ein Tal voller weißer Zelte.",
+    "f": [
+      "Der Prophet Mohammed wurde um 570 n. Chr. in Mekka geboren.",
+      "Die Zeltstadt von Mina umfasst Zehntausende feuerfeste Zelte in ordentlichen Reihen.",
+      "Die Ebene von Arafat, eine zentrale Station der Pilgerfahrt, liegt rund 20 km südöstlich der Stadt."
+    ],
+    "q": {
+      "q": "Was bedeckt das Tal von Mina östlich von Mekka?",
+      "a": "Reihen weißer Zelte",
+      "x": [
+        "Solarmodule",
+        "Dattelpalmenhaine"
+      ]
+    }
+  },
+  "Q585": {
+    "t": "Eine Hauptstadt am Ende eines langen, inselreichen Fjords",
+    "s": "Ein langer Meeresarm, getüpfelt mit kleinen Inseln, reicht weit ins Land und läuft schließlich zwischen bewaldeten Hügeln aus; dort, am Ende des Fjords, liegt Oslo. Die Stadt füllt ein grünes Amphitheater, dunkle Wälder und Seen direkt an ihrem Rand. Drei Jahrhunderte lang hieß sie Christiania, nach König Christian IV., der sie 1624 neu aufbaute.",
+    "w": "Das innere Ende eines langen Fjords voller kleiner Inseln, die Stadt in einer Schüssel dunkler, bewaldeter Hügel.",
+    "f": [
+      "Der Oslofjord reicht rund 100 km von der Stadt nach Süden bis zum Skagerrak.",
+      "1925 nahm die Stadt wieder ihren mittelalterlichen Namen Oslo an.",
+      "Ein Großteil des Gemeindegebiets ist geschützter Wald, die Marka, durchzogen von Seen und Loipen."
+    ],
+    "q": {
+      "q": "Wie hieß Oslo von 1624 bis 1925?",
+      "a": "Christiania",
+      "x": [
+        "Nidaros",
+        "Bjørgvin"
+      ]
+    }
+  },
+  "Q5468": {
+    "t": "Eine warme Hafenstadt am Indischen Ozean",
+    "s": "Durban legt sich um einen großen Naturhafen an Südafrikas Ostküste, geschützt von einem langen, bewaldeten Kamm namens Bluff. Nördlich des Hafens blickt eine gerade Linie von Stränden auf den Indischen Ozean, wo der warme Agulhasstrom das Wasser das ganze Jahr mild hält. Im Landesinneren sind sanfte grüne Hügel mit Zuckerrohrfeldern gefleckt.",
+    "w": "Eine fast geschlossene Bucht mit schmaler Einfahrt, ein grüner Kamm an ihrer Südseite und ein langer gerader Strand im Norden.",
+    "f": [
+      "Die Stadt wurde 1835 nach Sir Benjamin D’Urban benannt, dem damaligen Gouverneur der Kapkolonie.",
+      "Durbans Hafen ist einer der verkehrsreichsten Häfen Afrikas.",
+      "Der warme Agulhasstrom fließt an dieser Küste nach Südwesten – eine der schnellsten Meeresströmungen der Erde."
+    ],
+    "q": {
+      "q": "An welchem Ozean liegt Durban?",
+      "a": "Am Indischen Ozean",
+      "x": [
+        "Am Atlantischen Ozean",
+        "Am Südlichen Ozean"
+      ]
+    }
+  },
+  "Q656": {
+    "t": "Peters Stadt auf den Inseln des Newa-Deltas",
+    "s": "Eine dünne Linie quert das Ostende des Finnischen Meerbusens: ein rund 25 km langer Damm, der über die Insel Kotlin führt und Sankt Petersburg vor Sturmfluten schützt. Dahinter breitet sich die Stadt über die Inseln des Newa-Deltas aus. Peter der Große gründete sie 1703 auf diesem sumpfigen Grund.",
+    "w": "Eine große Stadt auf einem verzweigten Flussdelta am Ende eines Meerbusens, mit einem langen Damm, der über eine Insel führt.",
+    "f": [
+      "Die Newa ist nur rund 74 km lang, entwässert aber den Ladogasee, den größten See Europas.",
+      "Die Stadt ist auf Dutzenden Inseln gebaut, getrennt von Flüssen und Kanälen.",
+      "Um Mittsommer halten die „Weißen Nächte“ den Himmel selbst um Mitternacht hell."
+    ],
+    "q": {
+      "q": "In welchem Jahr gründete Peter der Große Sankt Petersburg?",
+      "a": "1703",
+      "x": [
+        "1682",
+        "1721"
+      ]
+    }
+  },
+  "Q182984": {
+    "t": "Eine uralte Sahel-Handelsstadt in der Savanne",
+    "s": "Niedrige, erdfarbene Dächer breiten sich wie ein riesiger Teppich über die staubige Savanne Nordnigerias: Das ist Kano, seit tausend Jahren Handelsstadt und ein südlicher Endpunkt der Karawanenrouten durch die Sahara. In ihrem alten ummauerten Herzen wird Stoff noch immer in Indigogruben gefärbt, die seit dem 15. Jahrhundert in Gebrauch sind.",
+    "w": "Eine riesige, flache Stadt in Sandbrauntönen auf flacher, trockener Savanne, ringsum verstreut grüne Felder und Stauseen.",
+    "f": [
+      "In den Färbegruben von Kofar Mata wird seit mehr als 500 Jahren gearbeitet.",
+      "Kanos Kurmi-Markt reicht bis ins 15. Jahrhundert zurück.",
+      "Die Regenzeit dauert hier nur rund vier Monate, von Juni bis September."
+    ],
+    "q": {
+      "q": "Mit welchem Farbstoff wird in Kanos alten Färbegruben Stoff gefärbt?",
+      "a": "Indigoblau",
+      "x": [
+        "Safrangelb",
+        "Krapprot"
+      ]
+    }
+  },
+  "Q270": {
+    "t": "Sandbänke und Weiden mitten durch eine Hauptstadt",
+    "s": "Warschau liegt an der Weichsel, und der Fluss ist die Überraschung: Während die meisten Hauptstädte ihren Fluss gezähmt haben, säumen hier breite Sandbänke, Weidendickichte und Strände das Wasser mitten durch die Stadt. Das Zentrum liegt auf einer niedrigen Geländestufe am Westufer; der Stadtteil Praga liegt gegenüber. Um 1596 zog der Königshof aus Krakau hierher.",
+    "w": "Ein breiter Fluss mit hellen Sandbänken und grünen, bewaldeten Ufern, der sich nach Norden durch eine große Stadt auf flacher Ebene windet.",
+    "f": [
+      "Die Weichsel, Polens längster Fluss, fließt gut 1.000 km von den Karpaten zur Ostsee.",
+      "Frédéric Chopin wurde 1810 in Żelazowa Wola geboren, rund 50 km westlich von Warschau.",
+      "Warschaus historische Altstadt ist UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Aus welcher Stadt zog Polens Königshof um 1596 nach Warschau?",
+      "a": "Aus Krakau",
+      "x": [
+        "Aus Danzig",
+        "Aus Posen"
+      ]
+    }
+  },
+  "Q1960": {
+    "t": "Ein „Hafen des Friedens“ an einer geschützten Bucht",
+    "s": "Dar es Salaam legt sich um einen schmalen, geschützten Hafen am Indischen Ozean, vor der Küste verstreut Koralleninselchen und türkise Riffe. Sultan Majid von Sansibar gründete den Ort in den 1860er-Jahren und gab ihm einen arabischen Namen, der „Hafen des Friedens“ bedeutet. Heute ist er Tansanias größte Stadt und dehnt sich weit landeinwärts über die Küstenebene aus.",
+    "w": "Eine ausgedehnte Küstenstadt um einen Hafen mit schmaler Einfahrt, im Norden direkt vor der Küste kleine grüne Inseln und Riffe.",
+    "f": [
+      "Tansanias offizielle Hauptstadt ist Dodoma, doch Dar es Salaam bleibt größte Stadt und wichtigster Hafen.",
+      "Sansibar-Stadt liegt rund 70 km nördlich, jenseits eines Kanals des Indischen Ozeans.",
+      "Die Inseln gleich nördlich der Stadt, etwa Bongoyo und Mbudya, gehören zu einem Meeresschutzgebiet."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Dar es Salaam?",
+      "a": "Hafen des Friedens",
+      "x": [
+        "Tor des Meeres",
+        "Haus der Gewürze"
+      ]
+    }
+  },
+  "Q1761": {
+    "t": "Ein Wikingerhafen zwischen Howth und den Wicklow-Bergen",
+    "s": "Dublin umschließt die innere Rundung der Dublin Bay, und der Liffey fließt geradewegs nach Osten durch ihr Herz ins Meer. Die felsige Halbinsel Howth schließt die Bucht im Norden ab, und die Wicklow Mountains erheben sich dunkel und grün gleich im Süden. Wikinger errichteten hier 841 einen befestigten Hafen neben einem dunklen Gezeitentümpel – dem dubh linn.",
+    "w": "Eine Stadt um eine runde Bucht, ein Fluss nach Osten mitten hindurch, im Norden eine knubbelige Halbinsel und im Süden Hügel.",
+    "f": [
+      "Der Phoenix Park an der Westseite der Stadt umfasst rund 700 Hektar – einer der größten umschlossenen Stadtparks Europas.",
+      "Der irische Name der Stadt, Baile Átha Cliath, bedeutet „Stadt an der Hürdenfurt“.",
+      "Zwei lange Molen reichen von der Flussmündung in die Bucht; die südliche wurde in den 1790er-Jahren vollendet."
+    ],
+    "q": {
+      "q": "Was bedeutet „dubh linn“, der Ursprung von Dublins Namen?",
+      "a": "Schwarzer Tümpel",
+      "x": [
+        "Grüner Hügel",
+        "Schöner Hafen"
+      ]
+    }
+  },
+  "Q3748": {
+    "t": "Eine regennasse Hauptstadt auf einem grünen Kap",
+    "s": "Kaum eine Hauptstadt bekommt mehr Regen als Monrovia, und in der Regenzeit leuchtet das Land ringsum tiefgrün. Die Stadt zieht sich über das Kap Mesurado, eine schmale Halbinsel zwischen dem Atlantik und einem Labyrinth aus Lagunen und Mangrovenarmen. 1822 von befreiten Afroamerikanern gegründet, wurde sie nach US-Präsident James Monroe benannt.",
+    "w": "Ein schmales Kap zwischen dem Ozean und einer mangrovengesäumten Flussmündung, die Stadt entlang seines Rückens.",
+    "f": [
+      "Monrovia erhält mehr als 4.500 mm Regen im Jahr – ein Mehrfaches von London.",
+      "Die ersten Siedler landeten 1822 auf Providence Island in der Mündung des Mesurado.",
+      "Der Hafen der Stadt liegt auf Bushrod Island, umschlossen von Saint Paul und Mesurado."
+    ],
+    "q": {
+      "q": "Nach welchem US-Präsidenten wurde Monrovia benannt?",
+      "a": "James Monroe",
+      "x": [
+        "Thomas Jefferson",
+        "James Madison"
+      ]
+    }
+  },
+  "Q2634": {
+    "t": "Hier der Vesuv, dort ein Feld voller Krater",
+    "s": "Neapel schmiegt sich um eine der berühmtesten Buchten der Welt, und sein Wahrzeichen ist nicht zu übersehen: der Kegel des Vesuv, eingebettet in den zerbrochenen Rand eines älteren Vulkans gleich südöstlich der Stadt. Im Westen liegt ein weiteres Vulkangebiet, die Phlegräischen Felder, übersät mit Kratern. Draußen in der Bucht schwimmen Capri und Ischia.",
+    "w": "Eine weite Bucht mit einem großen Vulkankegel an ihrer Südostseite, Inseln an ihrer Einfahrt und der Stadt am Nordufer.",
+    "f": [
+      "Der Vesuv steigt direkt vom Ufer der Bucht auf rund 1.280 Meter an.",
+      "Die Phlegräischen Felder westlich der Stadt bilden eine große Vulkancaldera, teils unter dem Meer.",
+      "Griechische Siedler nannten die Stadt Neapolis; ihre Altstadt ist heute UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Was bedeutet der griechische Name Neapolis, Ursprung von Neapel?",
+      "a": "Neue Stadt",
+      "x": [
+        "Meeresstadt",
+        "Heilige Stadt"
+      ]
+    }
+  },
+  "Q490": {
+    "t": "Eine flache Stadt in der Poebene, die Alpen am Horizont",
+    "s": "An klaren Tagen erheben sich nördlich von Mailand die Alpen wie eine weiße Wand, an ihrem Fuß glitzern die großen Seen, Comer See und Lago Maggiore. Die Stadt selbst liegt im flachen Herzen der Poebene, Straßenringe um einen mittelalterlichen Kern, mit Autobahnen und Bahnlinien, die sich in alle Richtungen auffächern. In spätrömischer Zeit war sie als Mediolanum kaiserliche Hauptstadt.",
+    "w": "Eine dichte, annähernd runde Stadt auf völlig flacher Ebene, im Norden die Alpen und lange Gletscherseen.",
+    "f": [
+      "Der Mailänder Dom wurde 1386 begonnen und brauchte fast sechs Jahrhunderte bis zur Vollendung.",
+      "Ohne eigenen großen Fluss grub Mailand ab dem 12. Jahrhundert Kanäle, die Navigli, zu Tessin und Adda.",
+      "An klaren Tagen ist von der Stadt aus der Monte Rosa zu sehen, über 4.600 Meter hoch."
+    ],
+    "q": {
+      "q": "Wie hieß Mailand in römischer Zeit?",
+      "a": "Mediolanum",
+      "x": [
+        "Augusta Taurinorum",
+        "Placentia"
+      ]
+    }
+  }
+}

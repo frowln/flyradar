@@ -126,10 +126,11 @@ function nearby(s: Samples, lat: number, lon: number): number[] {
 }
 
 /** Nearest flight sample to a point, if any lies within ~110 km. */
-function nearest(s: Samples, lat: number, lon: number): { i: number; d: number } | null {
+function nearest(s: Samples, lat: number, lon: number, from = 0, to = Infinity): { i: number; d: number } | null {
   let best: { i: number; d: number } | null = null;
   for (const i of nearby(s, lat, lon)) {
     const p = s.pts[i]!;
+    if (p.t < from || p.t > to) continue;
     const d = haversine(lat, lon, p.lat, p.lon);
     if (!best || d < best.d) best = { i, d };
   }
@@ -165,13 +166,21 @@ interface Match {
 }
 
 const CROSS_KM = 35;
+/**
+ * A route crossed while taxiing, climbing out or on final is not a moment:
+ * Lindbergh's flight "crossed" at minute 0 out of JFK only because it began
+ * there. Sites near an airport still count — the Acropolis on the climb out
+ * of Athens is a fine view.
+ */
+const QUIET_ENDS_S = 10 * 60;
 
 function matchRoute(item: HistoryItem, s: Samples): Match | null {
   if (!item.path || item.path.length < 2) return null;
+  const end = s.pts[s.pts.length - 1]?.t ?? 0;
   let first: { i: number; d: number; lat: number; lon: number } | null = null;
   let lastT = -1;
   for (const p of densify(item.path)) {
-    const n = nearest(s, p.lat, p.lon);
+    const n = nearest(s, p.lat, p.lon, QUIET_ENDS_S, end - QUIET_ENDS_S);
     if (!n || n.d > CROSS_KM) continue;
     const t = s.pts[n.i]!.t;
     if (!first || t < s.pts[first.i]!.t) first = { ...n, lat: p.lat, lon: p.lon };

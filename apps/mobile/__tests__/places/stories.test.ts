@@ -94,6 +94,12 @@ describe('history along the route', () => {
     expect(placeText(byId['hist-city']!, 'en').look).toBe('Look for the walls');
   });
 
+  it('does not count a road crossed on the climb out or on final', () => {
+    // A road running east from Moscow: the track leaves over it at takeoff.
+    const fromAirport: HistoryItem[] = [{ key: 'road', kind: 'route', rank: 8, name: { en: 'Old road' }, path: [[37.41, 55.97], [60, 56]] }];
+    expect(historyAlong(route, fromAirport, texts, 'en')).toEqual([]);
+  });
+
   it('names a history card in the reader language', () => {
     const hist = historyAlong(route, items, { road: { ...texts.road, name: 'Старая дорога' } }, 'ru', { gapMin: 0 });
     expect(hist[0]!.translations?.ru?.name).toBe('Старая дорога');

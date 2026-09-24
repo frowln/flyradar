@@ -718,5 +718,365 @@
         "West"
       ]
     }
+  },
+  "Q44989": {
+    "t": "An oil boomtown on the sandy Arkansas River",
+    "s": "In 1905 a gusher at Glenn Pool, just south of town, changed everything: within a few years Tulsa was calling itself the Oil Capital of the World. The money built a downtown full of Art Deco towers. The city stretches along the broad, sandy Arkansas River, where green prairie meets the wooded hills of north-eastern Oklahoma.",
+    "w": "A city on a wide, sandy river with pale sandbars; wooded hills to the north-west and a large reservoir to the west.",
+    "f": [
+      "Oil from the Glenn Pool field, struck in 1905, turned Tulsa into a boomtown.",
+      "Cyrus Avery of Tulsa, called the 'Father of Route 66', helped plan the highway, which runs through the city.",
+      "The name comes from Tallasi, the old town of the Creek people who settled here in 1836."
+    ],
+    "q": {
+      "q": "What did Tulsa call itself during its early 1900s boom?",
+      "a": "Oil Capital of the World",
+      "x": [
+        "Cattle Capital of the World",
+        "Cotton Capital of the World"
+      ]
+    }
+  },
+  "Q43421": {
+    "t": "Whitewater rapids right below the capital's towers",
+    "s": "Few capitals have whitewater downtown, but Richmond does: here the James River tumbles over the fall line in rocky, braided rapids between wooded islands. The city grew at this spot because ships from the sea could go no farther. In 1775 Patrick Henry cried 'Give me liberty, or give me death!' in one of its churches; five years later Richmond became Virginia's capital.",
+    "w": "A river breaking into rocky rapids and islands just below the downtown towers, where the hills meet the flat coastal plain.",
+    "f": [
+      "Two US presidents, James Monroe and John Tyler, are buried in Hollywood Cemetery on the river bluffs.",
+      "Thomas Jefferson designed the Virginia State Capitol, modelled on a Roman temple in Nîmes.",
+      "The James River drops about 30 m through the city over a stretch of roughly 10 km."
+    ],
+    "q": {
+      "q": "Which river tumbles over rapids in downtown Richmond?",
+      "a": "The James",
+      "x": [
+        "The Potomac",
+        "The Rappahannock"
+      ]
+    }
+  },
+  "Q165341": {
+    "t": "The north-eastern capital that turned its back on the sea",
+    "s": "Every other state capital in north-east Brazil sits on the coast; Teresina alone lies inland, in the fork between two rivers, the Parnaíba and the Poti. It was planned from scratch in 1852 and named after Empress Teresa Cristina. It is one of the hottest cities in the country, and its many trees earned it the name Green City.",
+    "w": "A city in the fork of two winding rivers on a flat plain, with another town across the larger river to the west.",
+    "f": [
+      "Teresina was built in 1852 to replace the old capital, Oeiras, and to be closer to the river trade.",
+      "The Parnaíba River divides it from the neighbouring state of Maranhão.",
+      "The empress it honours was the wife of Emperor Pedro II."
+    ],
+    "q": {
+      "q": "Whom is Teresina named after?",
+      "a": "Empress Teresa Cristina",
+      "x": [
+        "Saint Teresa of Ávila",
+        "Princess Isabel"
+      ]
+    }
+  },
+  "Q34804": {
+    "t": "Watermelon mountains and a sky full of balloons",
+    "s": "At sunset the long ridge east of Albuquerque glows pink, which may be why the Spanish called it Sandía, 'watermelon'. The city spreads over high desert mesas at about 1,500 m, cut by a green ribbon of cottonwoods along the Rio Grande. Each October hundreds of hot-air balloons lift off together at the International Balloon Fiesta.",
+    "w": "A green river ribbon through a sprawling desert city; a steep mountain wall to the east, small dark volcanic cones to the west.",
+    "f": [
+      "The Balloon Fiesta, held every October, is the largest hot-air balloon festival in the world.",
+      "Founded in 1706, the town was named after the Duke of Alburquerque, then viceroy of New Spain.",
+      "On the West Mesa, a line of small volcanoes overlooks thousands of ancient petroglyphs."
+    ],
+    "q": {
+      "q": "What does 'Sandía', in the Sandia Mountains, mean in Spanish?",
+      "a": "Watermelon",
+      "x": [
+        "Sand",
+        "Saint"
+      ]
+    }
+  },
+  "Q199440": {
+    "t": "Green fields end at a line: the border and the desert",
+    "s": "Here the desert is cut into a vivid green checkerboard by water from the Colorado River, and a razor-straight line runs across it: the border between Mexico and the United States. Mexicali, capital of Baja California, lies right against it, facing the smaller Calexico. The two names are mirror images, blending 'Mexico' and 'California' in opposite order.",
+    "w": "A city on a straight border line, in a checkerboard of irrigated fields that ends abruptly at bare desert and mountains to the west.",
+    "f": [
+      "Chinese workers who came to farm cotton in the early 1900s made Chinese food a local staple.",
+      "The Cerro Prieto geothermal field south of the city is one of the largest in the world.",
+      "Summer temperatures here regularly climb above 40 °C."
+    ],
+    "q": {
+      "q": "Which US town faces Mexicali across the border?",
+      "a": "Calexico",
+      "x": [
+        "Nogales",
+        "Yuma"
+      ]
+    }
+  },
+  "Q44255": {
+    "t": "Where Argentina declared its independence",
+    "s": "On 9 July 1816, in a colonial house in this city, delegates declared the independence of the United Provinces of South America — today's Argentina. Tucumán lies on a green plain at the foot of a steep, forested mountain wall. Its province is the smallest in Argentina, and so fertile with sugar cane and lemons that it is called the Garden of the Republic.",
+    "w": "A large city on a green plain, with a forested mountain wall rising sharply to the west; cane fields all around.",
+    "f": [
+      "Argentina's Independence Day, 9 July, commemorates the declaration signed here in 1816.",
+      "Tucumán province is one of the world's leading producers of lemons.",
+      "Behind the city, the Sierra de San Javier and higher Aconquija ranges catch the rain that feeds its forests."
+    ],
+    "q": {
+      "q": "What was declared in Tucumán on 9 July 1816?",
+      "a": "Argentina's independence",
+      "x": [
+        "Argentina's first constitution",
+        "The abolition of slavery"
+      ]
+    }
+  },
+  "Q18575": {
+    "t": "A desert city guarded by giant cacti",
+    "s": "Tucson spreads across a desert basin ringed by mountains, and on both its east and west sides lie the two halves of Saguaro National Park, a forest of giant cacti. North of the city the Santa Catalina Mountains rise steeply, often with snow on top in winter. The city began as a Spanish fort in 1775.",
+    "w": "A pale street grid in a desert basin; steep mountains close to the north, others to the east and west.",
+    "f": [
+      "In 2015 Tucson became the first UNESCO City of Gastronomy in the United States.",
+      "Mount Lemmon, in the Santa Catalinas, rises to about 2,790 m.",
+      "The white Mission San Xavier del Bac, south of the city, was completed in 1797."
+    ],
+    "q": {
+      "q": "Which giant cactus gives Tucson's national park its name?",
+      "a": "The saguaro",
+      "x": [
+        "The organ pipe",
+        "The prickly pear"
+      ]
+    }
+  },
+  "Q159273": {
+    "t": "A white city beneath three great volcanoes",
+    "s": "Three giant volcanoes stand over Arequipa, and the nearest, El Misti, is an almost perfect cone of 5,822 m. The city lies in a green valley in the desert at about 2,300 m, and its colonial centre is built of sillar, a white volcanic stone — hence the nickname the White City. Even from cruise height, Misti's cone is unmistakable.",
+    "w": "A green valley in brown desert; right above it a symmetrical cone, a broader massif to its north-west and a jagged ridge to its south-east.",
+    "f": [
+      "The historic centre, built of white sillar, has been a UNESCO World Heritage site since 2000.",
+      "Chachani, the broad massif beside Misti, rises to about 6,050 m.",
+      "The Colca Canyon, north of Arequipa, is more than twice as deep as the Grand Canyon."
+    ],
+    "q": {
+      "q": "What is Arequipa's old town built from?",
+      "a": "White volcanic stone",
+      "x": [
+        "Adobe bricks",
+        "Pink granite"
+      ]
+    }
+  },
+  "Q211760": {
+    "t": "Two rivers become one in a farming heartland",
+    "s": "Culiacán grew where two rivers from the Sierra Madre, the Tamazula and the Humaya, join to form the Culiacán River. Around the city, a green checkerboard of irrigated fields stretches toward the Gulf of California. Those fields send tomatoes and other vegetables north across the border all winter. Founded in 1531, it is one of the oldest Spanish towns in north-western Mexico.",
+    "w": "A city where two rivers merge, on a green coastal plain of irrigated fields; forested Sierra Madre foothills to the east.",
+    "f": [
+      "The Tamazula and Humaya rivers meet in the heart of the city.",
+      "San Miguel de Culiacán was founded in 1531 by the conquistador Nuño de Guzmán.",
+      "Culiacán is the capital of the state of Sinaloa."
+    ],
+    "q": {
+      "q": "Which two rivers join at Culiacán?",
+      "a": "The Tamazula and the Humaya",
+      "x": [
+        "The Fuerte and the Mayo",
+        "The Yaqui and the Sonora"
+      ]
+    }
+  },
+  "Q170762": {
+    "t": "The very centre of South America",
+    "s": "Cuiabá claims the heart of the continent: a monument in the city marks the geodesic centre of South America. The capital of Mato Grosso grew from a gold rush in 1719 on the winding Cuiabá River. To the south stretch the flat wetlands of the Pantanal; to the north-east rise the red sandstone cliffs of the Chapada dos Guimarães. It is famously, fiercely hot.",
+    "w": "A city on a flat plain, split by a winding river; red cliffs of a plateau to the north-east, low wetlands to the south.",
+    "f": [
+      "The centre of South America was calculated by Marshal Rondon's survey in 1909 and marked in Cuiabá.",
+      "Gold found in the river in 1719 brought the first settlers.",
+      "Afternoon temperatures in the dry season often pass 40 °C."
+    ],
+    "q": {
+      "q": "What is Cuiabá said to mark?",
+      "a": "The centre of South America",
+      "x": [
+        "The source of the Amazon",
+        "The Tropic of Capricorn"
+      ]
+    }
+  },
+  "Q49218": {
+    "t": "A waterfall downtown and the birthplace of Kodak",
+    "s": "The Genesee River flows north through Rochester to Lake Ontario, and right in the city centre it drops over a waterfall nearly 30 m high. Those falls powered the mills that first made the town. Later, George Eastman founded Kodak here, and the Kodak camera went on sale in 1888. Every May, the city's lilac festival lives up to its nickname, the Flower City.",
+    "w": "A city on the south shore of Lake Ontario, with a river running north through it into the lake.",
+    "f": [
+      "George Eastman's Kodak camera, sold loaded with film, went on sale in 1888.",
+      "The original Erie Canal crossed the Genesee River in Rochester on a stone aqueduct.",
+      "Suffragist Susan B. Anthony lived in Rochester for four decades."
+    ],
+    "q": {
+      "q": "Which photography company was founded in Rochester?",
+      "a": "Kodak",
+      "x": [
+        "Polaroid",
+        "Fujifilm"
+      ]
+    }
+  },
+  "Q16562": {
+    "t": "A Texas city split by a mountain range",
+    "s": "A bare, rocky mountain range runs right into the heart of El Paso, dividing the city into east and west. At its southern tip, the Rio Grande separates El Paso from Ciudad Juárez, and the two cities blend into one big desert metropolis. El Paso is so far west that, unlike almost all of Texas, it keeps Mountain Time.",
+    "w": "A dark mountain ridge pushing into a desert city from the north; a thin river and the border along its south side.",
+    "f": [
+      "El Paso keeps Mountain Time, an hour behind Dallas and Houston.",
+      "Franklin Mountains State Park, inside the city limits, is one of the largest urban parks in the US.",
+      "Spanish travellers called this gap between mountains El Paso del Norte, 'the pass of the north'."
+    ],
+    "q": {
+      "q": "Which time zone does El Paso use?",
+      "a": "Mountain Time",
+      "x": [
+        "Central Time",
+        "Pacific Time"
+      ]
+    }
+  },
+  "Q28848": {
+    "t": "The other Twin City, once called Pig's Eye",
+    "s": "Where the Mississippi swings through a deep valley between limestone bluffs, Saint Paul sits on the east, and Minneapolis's towers rise a few kilometres to the west. Together they are the Twin Cities. Saint Paul is Minnesota's capital, yet its first settlement bore a less dignified name: Pig's Eye, after a local tavern keeper.",
+    "w": "A city on the bluffs of a winding Mississippi, with Minneapolis's taller towers just to the west and lakes all around.",
+    "f": [
+      "The settlement was renamed after a log chapel dedicated to St Paul, built in 1841.",
+      "F. Scott Fitzgerald was born in Saint Paul in 1896.",
+      "The Saint Paul Winter Carnival has been held on and off since 1886."
+    ],
+    "q": {
+      "q": "What was Saint Paul's early nickname?",
+      "a": "Pig's Eye",
+      "x": [
+        "Bear's Den",
+        "Beaver Dam"
+      ]
+    }
+  },
+  "Q128069": {
+    "t": "Salt City, where the lake snow never quits",
+    "s": "Syracuse sits at the south end of little Onondaga Lake, whose salt springs gave the city its first fortune and its nickname, Salt City. The Erie Canal once ran right through downtown. In winter, cold air picking up moisture over Lake Ontario dumps so much snow here that Syracuse is regularly among the snowiest large cities in the United States.",
+    "w": "A city at the southern tip of a small lake; the long, narrow Finger Lakes to the south-west, Lake Ontario to the north-west.",
+    "f": [
+      "Salt from Onondaga Lake's springs once supplied much of the United States.",
+      "The old route of the Erie Canal through downtown is now Erie Boulevard.",
+      "The city was named after Syracuse in Sicily, which also had salt springs nearby."
+    ],
+    "q": {
+      "q": "Where does Syracuse, New York, get its name?",
+      "a": "From a city in Sicily",
+      "x": [
+        "From a Native American word",
+        "From an English duke"
+      ]
+    }
+  },
+  "Q185582": {
+    "t": "Where the Tennessee River begins",
+    "s": "Two rivers flowing out of the mountains, the Holston and the French Broad, meet just east of Knoxville, and from there the water is called the Tennessee River. The city fills a long Appalachian valley, with the blue wall of the Great Smoky Mountains on the south-eastern horizon. Knoxville was Tennessee's first capital, in 1796.",
+    "w": "A river city in a long valley between wooded ridges; the high, blue-grey Smoky Mountains to the south-east.",
+    "f": [
+      "The Tennessee River officially begins at Knoxville and flows about 1,050 km to the Ohio.",
+      "Great Smoky Mountains National Park, the most visited in the US, lies about 50 km to the south-east.",
+      "The city hosted the World's Fair in 1982."
+    ],
+    "q": {
+      "q": "Which river begins at Knoxville?",
+      "a": "The Tennessee",
+      "x": [
+        "The Cumberland",
+        "The Ohio"
+      ]
+    }
+  },
+  "Q43301": {
+    "t": "In the middle of America's great garden valley",
+    "s": "Fresno sits right in the middle of the San Joaquin Valley, a flat patchwork of orchards and vineyards that is one of the most productive farming regions on Earth. Most of America's raisins are dried in the vineyards around it. To the east the Sierra Nevada rises abruptly, snowy in winter, hiding Yosemite and the giant sequoias.",
+    "w": "A large flat grid amid a vast patchwork of orchards and vineyards; the wall of the Sierra Nevada rising to the east.",
+    "f": [
+      "Fresno is Spanish for 'ash tree', after the trees that grew along the San Joaquin River.",
+      "Yosemite, Kings Canyon and Sequoia national parks are all within a couple of hours' drive.",
+      "Nearly all of America's raisins come from the San Joaquin Valley, much of it around Fresno."
+    ],
+    "q": {
+      "q": "What does 'Fresno' mean in Spanish?",
+      "a": "Ash tree",
+      "x": [
+        "Fresh water",
+        "Oak tree"
+      ]
+    }
+  },
+  "Q189138": {
+    "t": "A desert capital around a lonely hill",
+    "s": "Hermosillo sprawls across the flat Sonoran Desert, with a lone rocky hill, the Cerro de la Campana, rising near its centre. Summers here are fierce, with temperatures that can pass 45 °C. The capital of Sonora is known for beef, carne asada and enormous, paper-thin flour tortillas. About 100 km west, the desert meets the Gulf of California.",
+    "w": "A city on flat brown desert with a single rocky hill near its centre; a reservoir to the east, bare ranges around.",
+    "f": [
+      "The city is named after José María González de Hermosillo, a fighter in Mexico's independence war.",
+      "Kino Bay, on the Gulf of California, lies about 100 km to the west.",
+      "Sonora is famous for its huge, thin flour tortillas, often wider than a dinner plate."
+    ],
+    "q": {
+      "q": "Which sea lies about 100 km west of Hermosillo?",
+      "a": "The Gulf of California",
+      "x": [
+        "The Gulf of Mexico",
+        "The Caribbean Sea"
+      ]
+    }
+  },
+  "Q334577": {
+    "t": "A highland city beside a steaming volcano",
+    "s": "Quetzaltenango, which everyone calls Xela, sits in a high valley at about 2,300 m, and its skyline is volcanoes. Just to the south rises the tall cone of Santa María, and on its flank a younger lava dome, Santiaguito, has been active since 1922 and often puffs out ash and steam. Guatemala's second city is cool, stony and full of Spanish-language students.",
+    "w": "A city in a high basin; to the south a tall volcanic cone, often with a plume of steam or ash on its flank.",
+    "f": [
+      "Xela is short for Xelajú, the city's name in the K'iche' Maya language.",
+      "The Santa María volcano, about 3,770 m, rises just south of the city.",
+      "Santiaguito, a lava dome on Santa María's side, has been growing since 1922."
+    ],
+    "q": {
+      "q": "What do locals call Quetzaltenango?",
+      "a": "Xela",
+      "x": [
+        "Chichi",
+        "Tikal"
+      ]
+    }
+  },
+  "Q194328": {
+    "t": "A farming hub on the red plateau of the cerrado",
+    "s": "Look for huge rectangular fields and green circles of centre-pivot irrigation stretching to the horizon: that is the Triângulo Mineiro, the western wedge of Minas Gerais, and Uberlândia is its biggest city. It grew up as a crossroads for grain, trucks and warehouses on the high cerrado plateau. Until 1929 it was called São Pedro de Uberabinha.",
+    "w": "A large city on flat farmland of vast rectangular fields and irrigation circles; reservoirs on the rivers around.",
+    "f": [
+      "The city took the name Uberlândia in 1929.",
+      "The name mixes Latin 'uber', fertile, with 'land'.",
+      "The Triângulo Mineiro lies between two big rivers, the Grande and the Paranaíba."
+    ],
+    "q": {
+      "q": "What was Uberlândia called before 1929?",
+      "a": "São Pedro de Uberabinha",
+      "x": [
+        "Uberaba",
+        "Nova Minas"
+      ]
+    }
+  },
+  "Q188901": {
+    "t": "From mule fair to Brazil's 'Manchester'",
+    "s": "For more than a century, drovers brought great herds of mules up from southern Brazil to Sorocaba's annual fair, and from here the animals carried goods all over the country. Later, textile mills earned the city the nickname Manchester of São Paulo. Today it is a big industrial city on rolling hills about 90 km west of São Paulo.",
+    "w": "A sizeable city on rolling green hills west of São Paulo, with a long reservoir to its south-east.",
+    "f": [
+      "Sorocaba was founded in 1654.",
+      "Its mule fair was the biggest in Brazil through much of the 18th and 19th centuries.",
+      "One of Brazil's first ironworks, the Ipanema foundry, opened nearby in the early 1800s."
+    ],
+    "q": {
+      "q": "What was Sorocaba nicknamed for its textile mills?",
+      "a": "Manchester of São Paulo",
+      "x": [
+        "Liverpool of Brazil",
+        "Detroit of São Paulo"
+      ]
+    }
   }
 }

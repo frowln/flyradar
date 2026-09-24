@@ -1,0 +1,308 @@
+{
+  "Q209530": {
+    "t": "A dun-coloured river with diamonds in its gravels",
+    "s": "Vaal means 'pale' in Afrikaans, and it fits: a dun, silty river winding across flat khaki veld. Around 1870 prospectors found diamonds in its gravels at Klipdrift, today's Barkly West, just before the great Kimberley rush began some 30 km away. Further downstream the Vaal ends in the Orange, as its longest tributary.",
+    "w": "A thin brown line looping across flat, dusty veld north-west of Kimberley, edged by a dark fringe of trees.",
+    "f": [
+      "At about 1,120 km, the Vaal is the longest tributary of the Orange River.",
+      "The Vaal Dam, finished in 1938, stores water for Johannesburg and the rest of Gauteng.",
+      "Barkly West began as Klipdrift, a camp of diggers washing the river gravels for diamonds."
+    ],
+    "q": {
+      "q": "Which river does the Vaal flow into?",
+      "a": "The Orange",
+      "x": [
+        "The Limpopo",
+        "The Zambezi"
+      ]
+    }
+  },
+  "Q272074": {
+    "t": "Where Oregon Trail wagons finally left the river",
+    "s": "For hundreds of kilometres across Idaho, wagon trains on the Oregon Trail followed this river through dry sagebrush country. Here, at Farewell Bend, they turned away from it for good and struck north-west into the Oregon hills. Downstream the Snake plunges into Hells Canyon, deeper than the Grand Canyon, before it joins the Columbia.",
+    "w": "A blue-green river in a dry, tan valley along the Oregon–Idaho border, widening into a long reservoir to the north.",
+    "f": [
+      "At about 1,735 km, the Snake is the largest tributary of the Columbia River.",
+      "Hells Canyon, downstream, is about 2,400 m deep – the deepest river gorge in North America.",
+      "Shoshone Falls on the Snake in southern Idaho drop about 65 m, more than Niagara."
+    ],
+    "q": {
+      "q": "Which river does the Snake flow into?",
+      "a": "The Columbia",
+      "x": [
+        "The Missouri",
+        "The Colorado"
+      ]
+    }
+  },
+  "Q142148": {
+    "t": "Brazil's 'Old Chico', crossing the dry backlands",
+    "s": "Brazilians call it Velho Chico, Old Chico, and it earns the affection: it carries water right across the dry sertão, where many rivers run only in the rainy season. Here in northern Minas Gerais it winds north through scrub and cattle country, flanked by pale sandbars. Its name dates from 4 October 1501, St Francis's day, when Portuguese ships reached its mouth.",
+    "w": "A wide, sandy-banked river winding north through olive-brown scrub, with long pale sandbars in the dry season.",
+    "f": [
+      "At roughly 2,800 km, it is the longest river that flows entirely within Brazil.",
+      "Its Sobradinho reservoir in Bahia covers over 4,000 km², one of the largest artificial lakes on Earth.",
+      "Boatmen once fixed carved wooden heads called carrancas to their bows to ward off river spirits."
+    ],
+    "q": {
+      "q": "What do Brazilians fondly call the São Francisco?",
+      "a": "Velho Chico",
+      "x": [
+        "Rio Mar",
+        "Rio Doce"
+      ]
+    }
+  },
+  "Q82812": {
+    "t": "A northern river that sometimes flows backwards",
+    "s": "In spring the Sukhona can do something strange: when its tributary the Vologda is in full flood, its upper course runs backwards into Lake Kubenskoye. Here it winds past Totma through dark taiga and hay meadows. Totma sent many men to sea, among them Ivan Kuskov, who in 1812 founded Fort Ross in California.",
+    "w": "A narrow dark river looping through unbroken taiga, with pale strips of meadow along its banks and small Totma on a bend.",
+    "f": [
+      "At Veliky Ustyug the Sukhona meets the Yug, and together they form the Northern Dvina.",
+      "Below Totma the river cuts through the Opoki, high cliffs of pale rock where rapids once scared boatmen.",
+      "About 560 km long, the Sukhona carried the old trade route from Vologda to Arkhangelsk."
+    ],
+    "q": {
+      "q": "Which California outpost did Totma-born Ivan Kuskov found?",
+      "a": "Fort Ross",
+      "x": [
+        "Fort Yukon",
+        "Fort Vancouver"
+      ]
+    }
+  },
+  "Q15277375": {
+    "t": "One of the Yenisei's first threads, in a lost valley",
+    "s": "Few rivers start as remotely as this. The Shishged gathers its water in the Darkhad basin, a flat valley about 1,600 m up, ringed by larch-covered ranges and scattered with lakes. From here it slips north into Siberia and becomes one of the headwaters of the Yenisei, which reaches the Arctic Ocean thousands of kilometres away.",
+    "w": "A wide flat valley speckled with small lakes, ringed by dark forested mountains, one range west of long blue Lake Khövsgöl.",
+    "f": [
+      "Ice-age glaciers dammed the Darkhad basin more than once, filling it with a large lake.",
+      "Dukha reindeer herders, also called Tsaatan, live in the taiga around the valley.",
+      "Across the border in Tuva it continues as the Kyzyl-Khem, then as the Little Yenisei."
+    ],
+    "q": {
+      "q": "Which great river does the Shishged help to start?",
+      "a": "The Yenisei",
+      "x": [
+        "The Lena",
+        "The Ob"
+      ]
+    }
+  },
+  "Q776155": {
+    "t": "One of the two rivers that make the Paraná",
+    "s": "Pastures, coffee and soya fields spread across these uplands, and through them the Paranaíba runs in a green, wooded groove. Downstream it is barely a river any more but a chain of big reservoirs, one after another, along the border of Goiás and Minas Gerais. Where it finally meets the Rio Grande, the two become the Paraná.",
+    "w": "A thin, tree-lined river in a patchwork of green and red-brown fields; further west it swells into long branching reservoirs.",
+    "f": [
+      "The Paranaíba is roughly 1,000 km long and marks much of the border between Goiás and Minas Gerais.",
+      "Dams such as Emborcação, Itumbiara and São Simão turn its lower course into a staircase of lakes.",
+      "It is easy to confuse with the Parnaíba, a different river that reaches the Atlantic in north-east Brazil."
+    ],
+    "q": {
+      "q": "The Paranaíba joins which river to form the Paraná?",
+      "a": "The Rio Grande",
+      "x": [
+        "The Tietê",
+        "The Paraguay"
+      ]
+    }
+  },
+  "Q31379": {
+    "t": "A wild taiga river rebuilt as a chain of giant lakes",
+    "s": "What looks like a string of vast, ragged lakes across the taiga is a river remade by engineers. Since the 1970s the La Grande has been dammed step by step for hydropower, and neighbouring rivers were diverted into it, roughly doubling its flow. In winter the reservoirs freeze into white shapes with drowned, fingered shorelines.",
+    "w": "Huge irregular reservoirs full of islands and inlets in dark spruce forest, strung east to west towards James Bay.",
+    "f": [
+      "The turbines of the Robert-Bourassa power station sit in a cavern about 140 m underground.",
+      "Its spillway is cut into ten giant steps and is nicknamed the Giant's Staircase.",
+      "The river is about 900 km long and empties into James Bay."
+    ],
+    "q": {
+      "q": "What is the stepped spillway on the La Grande nicknamed?",
+      "a": "The Giant's Staircase",
+      "x": [
+        "The Devil's Ladder",
+        "The Beaver Steps"
+      ]
+    }
+  },
+  "Q80240": {
+    "t": "A steppe river long drawn as Europe's edge",
+    "s": "Loops, oxbows and crescent lakes crowd the Ural's floodplain here, a ribbon of dark woodland across bare, sunburnt steppe. The river runs about 2,400 km from the Ural Mountains to the Caspian, and many maps use it as part of the line between Europe and Asia. Until 1775 it was called the Yaik.",
+    "w": "A tightly meandering river with bright oxbow lakes and a dark strip of floodplain forest across flat yellow-brown steppe.",
+    "f": [
+      "Catherine the Great renamed the Yaik in 1775, after Pugachev's rebellion broke out among its Cossacks.",
+      "Pushkin came to Uralsk in 1833 to collect memories of Pugachev for his book on the revolt.",
+      "Its lower course has no dams, so Caspian sturgeon can still swim upstream to spawn."
+    ],
+    "q": {
+      "q": "What was the Ural River called before 1775?",
+      "a": "The Yaik",
+      "x": [
+        "The Emba",
+        "The Samara"
+      ]
+    }
+  },
+  "Q3047": {
+    "t": "The 'swift-flowing river' of the fur-trade canoes",
+    "s": "The name comes from a Cree phrase for 'swift-flowing river', and for generations it was a highway for fur-trade canoes heading west. Here, near The Pas, the current slows and spreads into a vast delta of channels, marshes and lakes. Downstream the river ends in Lake Winnipeg, carrying water that fell as snow on the Rockies.",
+    "w": "A brown river snaking through a maze of marsh, reed beds and shallow lakes on a flat, forested plain.",
+    "f": [
+      "The Saskatchewan River Delta, around 10,000 km², is one of the largest inland deltas in North America.",
+      "Cumberland House, the Hudson's Bay Company's first inland post, was built on this river in 1774.",
+      "The river is born where the North and South Saskatchewan meet, east of Prince Albert."
+    ],
+    "q": {
+      "q": "What does the Cree name behind 'Saskatchewan' mean?",
+      "a": "Swift-flowing river",
+      "x": [
+        "River of many islands",
+        "Muddy water"
+      ]
+    }
+  },
+  "Q217818": {
+    "t": "A Rhine branch strung with old Hanseatic towns",
+    "s": "Of the Rhine's three Dutch branches, the IJssel is the one that turns north. It winds for about 125 km through green floodplain between dikes, past brick towns that grew rich in the Hanseatic League: Doesburg, Zutphen, Deventer, Kampen. It ends close to the lake that bears its name, the IJsselmeer, once the salty Zuiderzee.",
+    "w": "A winding river in a wide green floodplain between dikes, with the compact town of Deventer on its east bank.",
+    "f": [
+      "IJ counts as a single letter in Dutch, so both letters are capitalised: IJssel, IJsselmeer.",
+      "Deventer, Zutphen and Kampen on the IJssel were all members of the Hanseatic League.",
+      "Under the Room for the River programme, side channels were dug here so floods can spread safely."
+    ],
+    "q": {
+      "q": "Why is IJssel written with two capital letters?",
+      "a": "IJ is one letter in Dutch",
+      "x": [
+        "It joins two river names",
+        "It honours a royal house"
+      ]
+    }
+  },
+  "Q40855": {
+    "t": "Europe's fourth-longest river, still young here",
+    "s": "Here the Dnieper is still a modest river, meandering through flat fields and pine woods, with silver oxbows marking its old beds. It has a long way to go: about 2,200 km in all, through three countries to the Black Sea. A thousand years ago this was part of the trade route 'from the Varangians to the Greeks'.",
+    "w": "A modest winding river with silvery oxbow lakes, crossing a flat patchwork of fields and dark pine forest.",
+    "f": [
+      "Among Europe's rivers only the Volga, the Danube and the Ural are longer.",
+      "It rises in the Valdai Hills, not far from the sources of the Volga and the Western Dvina.",
+      "Gogol wrote that rare is the bird that can fly to the middle of the Dnieper."
+    ],
+    "q": {
+      "q": "Which sea does the Dnieper flow into?",
+      "a": "The Black Sea",
+      "x": [
+        "The Baltic Sea",
+        "The Caspian Sea"
+      ]
+    }
+  },
+  "Q2237": {
+    "t": "Glacier water crossing the prairie city of Edmonton",
+    "s": "The water here set out as meltwater from the Saskatchewan Glacier on the Columbia Icefield, high in the Rockies. By Edmonton it has become a broad, silty river in a deep, wooded valley that snakes right through the city, lined with parks and trails. From here it keeps heading east for hundreds of kilometres across the prairie.",
+    "w": "A brown river in a deep, tree-filled valley winding through Edmonton's grid of streets, then out across flat farmland.",
+    "f": [
+      "The river runs roughly 1,300 km from the Rockies to its meeting with the South Saskatchewan.",
+      "The first Fort Edmonton, a fur-trade post, was built on its banks in 1795.",
+      "Its valley in Edmonton is one of the longest continuous stretches of urban parkland in North America."
+    ],
+    "q": {
+      "q": "Where does the North Saskatchewan begin?",
+      "a": "A glacier in the Rockies",
+      "x": [
+        "A lake on the prairie",
+        "A spring in the Cypress Hills"
+      ]
+    }
+  },
+  "Q180558": {
+    "t": "The 'black river' that becomes the Senegal",
+    "s": "Bafing means 'black river', and its partner, the Bakoye, is the 'white river'. They meet at Bafoulabé, whose name means 'meeting of two rivers', and from there on the stream is called the Senegal. Upstream, the Bafing drains the rainy Fouta Djallon highlands; the Manantali dam holds it back in a wide, branching lake.",
+    "w": "A dark ribbon through wooded savanna and red laterite hills; to the north, the long branching Manantali reservoir.",
+    "f": [
+      "The Bafing rises in Guinea's Fouta Djallon, the highlands that also feed the Niger and the Gambia.",
+      "The Manantali dam, completed in the late 1980s, created one of the largest reservoirs in West Africa.",
+      "Counted from the Bafing's source, the Senegal is about 1,600 km long."
+    ],
+    "q": {
+      "q": "What does the name Bafing mean?",
+      "a": "Black river",
+      "x": [
+        "Great river",
+        "Red river"
+      ]
+    }
+  },
+  "Q8168": {
+    "t": "An undammed northern giant running to the Barents Sea",
+    "s": "No dam stands anywhere on the Pechora's main stream, and from the air it shows: a broad, braided river of sandbars and wooded islands, running free through taiga toward the Barents Sea. It rises in the northern Urals and flows about 1,800 km. For roughly half the year it is frozen into a white road through the forest.",
+    "w": "A wide river split by sandbanks and wooded islands, winding north through dark taiga and pale bogs, the Urals to the east.",
+    "f": [
+      "The Virgin Komi Forests in its upper basin became Russia's first natural World Heritage site in 1995.",
+      "Atlantic salmon still run up the Pechora to spawn.",
+      "It ends in a wide delta near Naryan-Mar, opening into the shallow Pechora Sea."
+    ],
+    "q": {
+      "q": "Which sea does the Pechora flow into?",
+      "a": "The Barents Sea",
+      "x": [
+        "The White Sea",
+        "The Kara Sea"
+      ]
+    }
+  },
+  "Q10362010": {
+    "t": "A palm-named stream feeding an inland sea",
+    "s": "Red earth, cattle pasture and patches of cerrado scrub make up this upland of Minas Gerais, and the Indaiá threads through it in a dark line of gallery forest. It takes its name from a native palm. Its water flows into Três Marias, a huge reservoir on the São Francisco, joining it from the west bank.",
+    "w": "A narrow dark line of riverside forest across red and green uplands, flowing north into the branching arms of Três Marias.",
+    "f": [
+      "Indaiá is the Brazilian name of a native palm; the town of Dores do Indaiá, in its basin, shares it.",
+      "The Três Marias reservoir it feeds holds around 21 billion cubic metres of water.",
+      "The cerrado it crosses is considered the most species-rich savanna on Earth."
+    ],
+    "q": {
+      "q": "Which reservoir does the Indaiá flow into?",
+      "a": "Três Marias",
+      "x": [
+        "Furnas",
+        "Sobradinho"
+      ]
+    }
+  },
+  "Q3334104": {
+    "t": "A wild gorge river racing to become the Irrawaddy",
+    "s": "This river has two names and hardly a calm stretch. In China it is the Dulong, home of the Derung people; in Myanmar it becomes the N'Mai Hka, a fast, cold torrent hidden deep among steep forested ridges. North of Myitkyina it merges with the Mali Hka, and together they form the Irrawaddy.",
+    "w": "A thin silvery line deep in a maze of steep green ridges running north to south, often patched with cloud.",
+    "f": [
+      "The meeting point with the Mali Hka is called Myitsone, Burmese for 'confluence'.",
+      "The Derung of its upper valley number only a few thousand, one of China's smallest ethnic groups.",
+      "Ridges above its valley rise to more than 3,000 m."
+    ],
+    "q": {
+      "q": "The N'Mai Hka joins which river to form the Irrawaddy?",
+      "a": "The Mali Hka",
+      "x": [
+        "The Chindwin",
+        "The Salween"
+      ]
+    }
+  },
+  "Q191829": {
+    "t": "Colombia's river road between two Andean ranges",
+    "s": "Two ranges of the Andes wall in this valley, and down its middle runs Colombia's great river, broad and brown, heading north for the Caribbean. For centuries the Magdalena was the country's main road: goods and travellers went by boat between the coast and the highlands. García Márquez sent Simón Bolívar on his last journey down it in The General in His Labyrinth.",
+    "w": "A wide brown river with pale sandbars running north down a hot, flat valley between two mountain walls.",
+    "f": [
+      "About 1,500 km long, the Magdalena reaches the Caribbean at Barranquilla.",
+      "Most Colombians live within its basin.",
+      "Rapids at Honda, a little downstream, once forced boats to unload and cargo to go round overland."
+    ],
+    "q": {
+      "q": "Which novelist sent Bolívar down the Magdalena in a novel?",
+      "a": "Gabriel García Márquez",
+      "x": [
+        "Jorge Isaacs",
+        "Isabel Allende"
+      ]
+    }
+  }
+}

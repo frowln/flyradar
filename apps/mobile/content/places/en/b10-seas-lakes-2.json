@@ -340,5 +340,345 @@
         "The Zambezi"
       ]
     }
+  },
+  "Q203137": {
+    "t": "A Sámi lake of three thousand islands",
+    "s": "More than 3,000 islands are scattered across Lake Inari, so from the air it looks less like one lake than a shattered mirror dropped into the pine and birch forest of Lapland. It is Finland's third-largest lake and a heartland of Sámi culture; the rocky islet of Ukonsaari was once a sacred place of offerings. From about November to June the lake lies frozen under snow.",
+    "w": "A huge, shattered-looking lake crowded with islands in low northern forest, close to the Norwegian and Russian borders.",
+    "f": [
+      "It covers about 1,040 km², making it the third-largest lake in Finland.",
+      "The lake drains north by the Paatsjoki River to the Barents Sea.",
+      "Inari lies roughly 270 km north of the Arctic Circle."
+    ],
+    "q": {
+      "q": "Roughly how many islands dot Lake Inari?",
+      "a": "More than 3,000",
+      "x": [
+        "About 300",
+        "About 30"
+      ]
+    }
+  },
+  "Q19253": {
+    "t": "An hourglass of a lake with a famous winter battle",
+    "s": "Two broad basins joined by a narrow waist give Lake Peipus the look of an hourglass, and the border between Estonia and Russia runs down its length. It is one of Europe's largest lakes, yet only about 7 m deep on average, so it freezes over most winters. In 1242 Alexander Nevsky's army defeated the Livonian knights on its ice, in what Russians call the Battle on the Ice.",
+    "w": "A huge hourglass-shaped lake — a wide northern basin, a narrow middle strait, a smaller southern basin — between Tartu and Pskov.",
+    "f": [
+      "Its parts are Peipus proper in the north, narrow Lämmijärv ('Warm Lake') and Lake Pskov in the south.",
+      "The Narva River carries its water north to the Gulf of Finland.",
+      "Villages of Russian Old Believers have lined its western shore for centuries."
+    ],
+    "q": {
+      "q": "What does Lämmijärv, the narrow middle part of Lake Peipus, mean?",
+      "a": "Warm Lake",
+      "x": [
+        "Cold Lake",
+        "Deep Lake"
+      ]
+    }
+  },
+  "Q125912": {
+    "t": "A lovely lake with gas dissolved in its depths",
+    "s": "Lake Kivu looks idyllic from above: a long, deep-blue lake folded among steep green hills, with the big island of Idjwi in its middle. Its depths hide something rare — huge amounts of methane and carbon dioxide dissolved in the bottom water, held down by the weight of the lake. Today some of that methane is pumped up and burned to generate electricity on the Rwandan shore.",
+    "w": "A long, many-bayed blue lake among steep green hills, with a large island in the middle and volcanoes to the north.",
+    "f": [
+      "The lake lies about 1,460 m above sea level and is nearly 500 m deep.",
+      "Idjwi, in the middle of the lake, is one of the largest lake islands in Africa.",
+      "Kivu drains south by the Ruzizi River into Lake Tanganyika."
+    ],
+    "q": {
+      "q": "Which gas is pumped from Lake Kivu's depths to make electricity?",
+      "a": "Methane",
+      "x": [
+        "Hydrogen",
+        "Helium"
+      ]
+    }
+  },
+  "Q125211": {
+    "t": "Hippos, a royal name and the Mountains of the Moon",
+    "s": "Just north of this lake the Rwenzori, the legendary Mountains of the Moon, sometimes show their glaciers above the clouds. Lake Edward itself lies on the floor of the Albertine Rift, shared by two national parks where hippos crowd the shallows. The explorer Henry Morton Stanley named it after the Prince of Wales, who later became King Edward VII.",
+    "w": "A broad blue lake on the floor of the rift valley, with a narrow channel running north-east to smaller Lake George.",
+    "f": [
+      "The Kazinga Channel, about 32 km long, links it to Lake George and is famous for its hippos.",
+      "Its water leaves by the Semliki River, which flows to Lake Albert and on into the Nile.",
+      "The equator passes just north of the lake."
+    ],
+    "q": {
+      "q": "Which future king is Lake Edward named after?",
+      "a": "Edward VII",
+      "x": [
+        "Edward VI",
+        "Edward VIII"
+      ]
+    }
+  },
+  "Q140712": {
+    "t": "The lake behind China's strangest garden stones",
+    "s": "The holey, twisted limestone rocks that decorate Suzhou's classical gardens come from here: for centuries they were hauled out of Tai Hu and prized as 'Taihu stones'. The lake itself is broad and remarkably shallow, about two metres deep on average, and dotted with dozens of islands. Suzhou and Wuxi crowd its eastern and northern shores, a ring of lights at night.",
+    "w": "A huge, roughly round lake with islands and bays along its eastern side, west of Suzhou and the sprawl towards Shanghai.",
+    "f": [
+      "At about 2,250 km², it is one of China's largest freshwater lakes.",
+      "The Grand Canal runs past its eastern side on the way between Suzhou and Hangzhou.",
+      "Biluochun, one of China's famous green teas, grows on the Dongting hills beside the lake."
+    ],
+    "q": {
+      "q": "What are 'Taihu stones' traditionally used for?",
+      "a": "Decorating classical gardens",
+      "x": [
+        "Building city walls",
+        "Making ink stones"
+      ]
+    }
+  },
+  "Q753898": {
+    "t": "Argentina's largest lake, tinted by glacier flour",
+    "s": "Glaciers grind the Andes into fine rock flour, and it tints Lago Argentino an unreal milky turquoise. This is the largest lake in Argentina, and its western arms reach deep into the ice: the Perito Moreno Glacier pushes right across one of them, now and then damming the water until it breaks through. The town of El Calafate sits on the southern shore, where mountains give way to dry steppe.",
+    "w": "A large turquoise lake with long fjord-like arms reaching west into snowy mountains and glaciers, and brown steppe to the east.",
+    "f": [
+      "Its western arms lie within Los Glaciares National Park, a UNESCO World Heritage site since 1981.",
+      "The front of the Perito Moreno Glacier is about 5 km wide and rises some 60–70 m above the water.",
+      "The Upsala Glacier flows into the lake's long northern arm."
+    ],
+    "q": {
+      "q": "What gives Lago Argentino its milky turquoise colour?",
+      "a": "Fine rock flour from glaciers",
+      "x": [
+        "Algae blooms",
+        "Dissolved copper"
+      ]
+    }
+  },
+  "Q651294": {
+    "t": "Tibet's 'Heavenly Lake', 4.7 km above the sea",
+    "s": "Namtso means 'heavenly lake' in Tibetan, and at about 4,718 m it sits closer to a cruising airliner than to the sea: the gap is only some 6 km. It is one of the largest lakes on the Tibetan Plateau, salty and startlingly blue, and one of Tibet's three holy lakes. To the south-east the snowy Nyenchen Tanglha range rises above 7,000 m.",
+    "w": "A large, intensely blue lake on a brown plateau, with a line of glaciated peaks along its south-eastern side.",
+    "f": [
+      "Pilgrims walk around the lake; a circuit in the Tibetan Year of the Sheep is thought especially auspicious.",
+      "Nyenchen Tanglha, the highest peak of the range beside it, reaches 7,162 m.",
+      "In winter the whole lake freezes over."
+    ],
+    "q": {
+      "q": "What does the Tibetan name Namtso mean?",
+      "a": "Heavenly lake",
+      "x": [
+        "Turquoise lake",
+        "Mirror lake"
+      ]
+    }
+  },
+  "Q1774501": {
+    "t": "A Kolyma tundra lake named after the seal",
+    "s": "Nerpichye means 'seal lake', a hint of how close the Arctic Ocean is: the lake lies in the Kolyma Lowland, on the left side of the Kolyma River's delta. It formed where permafrost thawed and the ground slumped, and its low, boggy shores barely rise above the water. Around it thousands of smaller lakes make the tundra look like lace.",
+    "w": "A large lake stretched from south-east to north-west in flat tundra riddled with lakes, just west of the Kolyma delta.",
+    "f": [
+      "The lake covers about 237 km² and is one of the largest in Yakutia's Nizhnekolymsky district.",
+      "Its only outflow, a channel called the Nerpichya Viska, leads to the neighbouring lake Maloye Pokhodskoye.",
+      "Ice covers it for most of the year in this far north-eastern corner of Yakutia."
+    ],
+    "q": {
+      "q": "What kind of lake is Nerpichye by origin?",
+      "a": "A thermokarst lake",
+      "x": [
+        "A volcanic crater lake",
+        "A tectonic rift lake"
+      ]
+    }
+  },
+  "Q4538999": {
+    "t": "The bigger twin: 247 km² of shallow tundra water",
+    "s": "Yarroto First is the larger of a pair of lakes in southern Yamal: some 247 km² of water, 22 km long, yet nowhere deeper than about 8 m. Like its twin a little to the north-west, it carries a Nenets name read as 'lake with sandy shores'. In June the sun here does not set at all, and around then the ice finally breaks up.",
+    "w": "A big oval lake with pale edges on flat tundra dotted with thousands of ponds, south-east of its smaller twin.",
+    "f": [
+      "It is about 22 km long, and its greatest depth is only about 8 m.",
+      "It is one of the largest lakes on the Yamal Peninsula.",
+      "The lake lies about 150 km north of the Arctic Circle."
+    ],
+    "q": {
+      "q": "Roughly how deep is Yarroto First at its deepest?",
+      "a": "About 8 m",
+      "x": [
+        "About 80 m",
+        "About 300 m"
+      ]
+    }
+  },
+  "ne-lk-1159113765": {
+    "t": "Surprisingly deep lakes in the heart of Yamal",
+    "s": "Most tundra lakes are only a few metres deep, but the Neyto lakes in the middle of Yamal break the rule: the deepest of them goes down more than 50 m. Together the group covers about 364 km², and its waters drain two ways — towards the Gulf of Ob and towards the Kara Sea. Around them lies flat, treeless tundra.",
+    "w": "A group of large, linked lakes in flat treeless tundra in the middle of the Yamal Peninsula.",
+    "f": [
+      "The group's three main lakes are Neyto First, Yorto and Malto.",
+      "The deepest lake of the group reaches about 53 m.",
+      "In midwinter the sun does not rise here for more than a month."
+    ],
+    "q": {
+      "q": "How deep is the deepest of the Neyto lakes?",
+      "a": "More than 50 m",
+      "x": [
+        "About 5 m",
+        "About 500 m"
+      ]
+    }
+  },
+  "ne-lk-1159113781": {
+    "t": "Where the Mordyyakha starts its run to the Kara Sea",
+    "s": "Yambuto is the source of the Mordyyakha, one of the main rivers of central Yamal, which winds north-west to the Kara Sea. The lake spreads over roughly 119 km² of flat tundra, where permafrost lies just beneath the moss and summer lasts barely two months. In June and July the sun circles the sky without setting, and the water shines like foil.",
+    "w": "A large lake with a ragged outline in flat tundra, just east of the Neyto lakes in central Yamal.",
+    "f": [
+      "The Mordyyakha flows out of Yambuto and reaches the Kara Sea at Sharapov Shar Bay.",
+      "Permafrost under central Yamal can reach down hundreds of metres."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Yambuto?",
+      "a": "The Mordyyakha",
+      "x": [
+        "The Yuribey",
+        "The Nadym"
+      ]
+    }
+  },
+  "Q1315765": {
+    "t": "A forest lake drafted into a canal to the White Sea",
+    "s": "Since 1933 ships travelling between the Baltic and the White Sea have crossed Vygozero: the White Sea–Baltic Canal uses the lake as part of its route, and dams raised its level to make it deep enough. The result is a sprawling, island-strewn expanse in the Karelian forest. From its northern end the Vyg River runs on to meet the White Sea at Belomorsk.",
+    "w": "A large, ragged lake full of islands in Karelian forest, with the town of Segezha near its western shore.",
+    "f": [
+      "Raising the water for the canal made the lake much larger than it had been.",
+      "The Segezha River brings in water from Segozero, which lies to the west.",
+      "The lake is frozen for about half the year."
+    ],
+    "q": {
+      "q": "Which canal runs through Vygozero?",
+      "a": "The White Sea–Baltic Canal",
+      "x": [
+        "The Volga–Baltic Waterway",
+        "The Moscow Canal"
+      ]
+    }
+  },
+  "Q1416209": {
+    "t": "One of Karelia's deepest lakes, raised by a dam",
+    "s": "In its northern part Segozero plunges to more than 100 m, remarkably deep for a lake hidden in the Karelian forest. In 1957 a dam at the source of the Segezha River lifted the water by about six metres and turned the lake into a reservoir. More than 70 islands are scattered across it, while its south-western bays are shallow, rarely deeper than ten metres.",
+    "w": "A large, irregular lake with scattered islands in dense forest, west of the even bigger Vygozero.",
+    "f": [
+      "The 1957 dam raised the lake by about 6.3 m.",
+      "Its water flows out by the Segezha River into Vygozero.",
+      "The deepest water, more than 100 m down, lies in the north of the lake."
+    ],
+    "q": {
+      "q": "What happened to Segozero in 1957?",
+      "a": "A dam raised its level",
+      "x": [
+        "It was drained for farmland",
+        "A canal linked it to the Volga"
+      ]
+    }
+  },
+  "Q845891": {
+    "t": "The lake behind Finland's 'national landscape'",
+    "s": "From the bare hilltops of Koli, on Pielinen's western shore, Finnish artists of the 1890s looked down on a view that became a national symbol: long wooded islands afloat on a vast pale lake. From a plane you can take in far more of it than they could. In hard winters an ice road crosses the lake from Koli to the far shore.",
+    "w": "A long, wide lake running north–south through forested hills, with a steep wooded ridge on its western shore.",
+    "f": [
+      "Koli's highest top, Ukko-Koli, rises to 347 m, about 250 m above the lake.",
+      "Pielinen drains south by the Pielisjoki River, through Joensuu, towards Lake Saimaa.",
+      "It covers about 894 km², making it one of Finland's largest lakes."
+    ],
+    "q": {
+      "q": "Which famous viewpoint rises on Pielinen's western shore?",
+      "a": "Koli",
+      "x": [
+        "Pallastunturi",
+        "Aavasaksa"
+      ]
+    }
+  },
+  "Q709323": {
+    "t": "A 75-km lake strung with 144 islands",
+    "s": "Topozero runs for some 75 km through the forests of northern Karelia, a long sheet of water strewn with 144 islands. It is the fourth-largest lake in the republic and deep for this region, reaching 56 m. Its water spills north by the Sofyanga River into Pyaozero, and since the 1960s both lakes have been part of the same hydropower reservoir.",
+    "w": "A long, broad lake with many islands in dense forest, south of Pyaozero and not far below the Arctic Circle.",
+    "f": [
+      "The lake's open water covers about 986 km², and its islands add some 63 km² more.",
+      "Its average depth is around 16 m, and the deepest point is about 56 m.",
+      "It is about 75 km long and up to 30 km wide."
+    ],
+    "q": {
+      "q": "How many islands does Topozero have?",
+      "a": "144",
+      "x": [
+        "14",
+        "1,440"
+      ]
+    }
+  },
+  "Q611206": {
+    "t": "A freshwater lake at the edge of the Tarim desert",
+    "s": "Snowmelt from the Tian Shan gathers in the Kaidu River and pools here, in Bosten Lake — the largest freshwater lake in Xinjiang, set among dry mountains and desert. Its outflow, the Peacock River, cuts through a gorge to water the oasis city of Korla. Wide reed beds fringe its shores, turning gold in autumn against the blue water.",
+    "w": "A large blue lake with reedy margins in a brown basin, south of the Tian Shan and north of the Taklamakan.",
+    "f": [
+      "The lake covers roughly 1,000 km² and lies about 1,050 m above sea level.",
+      "The Kaidu River brings in most of its water, fed by Tian Shan snow and glaciers.",
+      "Korla, downstream on the Peacock River, is famous for its fragrant pears."
+    ],
+    "q": {
+      "q": "Which river flows out of Bosten Lake towards Korla?",
+      "a": "The Peacock (Kongque) River",
+      "x": [
+        "The Tarim River",
+        "The Ili River"
+      ]
+    }
+  },
+  "Q207690": {
+    "t": "China's largest freshwater lake — for half the year",
+    "s": "In the summer floods Poyang is China's largest freshwater lake, a brown-green sea thousands of square kilometres wide. In the dry winter it shrinks back into channels and pools, exposing vast grassy flats. That is when the Siberian cranes arrive: nearly the entire world population of these white birds spends the winter here. Mount Lu rises above the north-western shore.",
+    "w": "A huge branching lake, or in winter a maze of channels and green flats, south of the Yangtze with Mount Lu to the north-west.",
+    "f": [
+      "In some dry winters the lake shrinks to a small fraction of its summer size.",
+      "It meets the Yangtze at Hukou, whose name means 'lake mouth'.",
+      "Five main rivers of Jiangxi, the Gan among them, flow into it."
+    ],
+    "q": {
+      "q": "Nearly the world's entire population of which bird winters at Poyang?",
+      "a": "The Siberian crane",
+      "x": [
+        "The red-crowned crane",
+        "The crested ibis"
+      ]
+    }
+  },
+  "ne-lk-1159114031": {
+    "t": "One of a chain of lakes on the Yangtze's north bank",
+    "s": "North of the Yangtze, just downstream of where Poyang Lake empties into it, a chain of shallow lakes spreads across the floodplain: Longgan, Huang, Daguan and Bo. Together they form one of the largest lake groups along the river's middle and lower course. Daguan's level rises with the summer floods and drops in winter, when migrating waterbirds gather on its shores.",
+    "w": "A shallow lake with a ragged outline among fields and other lakes, north of the Yangtze and north-east of Poyang Lake's outlet.",
+    "f": [
+      "Daguan lies in Anhui province, in Susong and Wangjiang counties.",
+      "Neighbouring Longgan Lake is a national nature reserve for wintering waterbirds."
+    ],
+    "q": {
+      "q": "Which great river flows just south of Daguan Lake?",
+      "a": "The Yangtze",
+      "x": [
+        "The Yellow River",
+        "The Pearl River"
+      ]
+    }
+  },
+  "Q6673852": {
+    "t": "A lake shared by two provinces, busy with winter birds",
+    "s": "Longgan Lake straddles the border of Hubei and Anhui provinces on the north side of the Yangtze, the westernmost of a chain of floodplain lakes. At high water it covers some 420 km², a shallow sheet among rice fields and fish ponds. Its Hubei part is a national nature reserve, where big flocks of ducks, geese and other waterbirds spend the winter.",
+    "w": "A broad, shallow lake in flat farmland just north of the Yangtze, a short way north of the river's junction with Poyang Lake.",
+    "f": [
+      "The lake lies partly in Huangmei County, Hubei, and partly in Susong County, Anhui.",
+      "The Hubei part is protected as a national nature reserve for wetland birds.",
+      "About 180 bird species, most of them waterbirds, have been recorded in the reserve."
+    ],
+    "q": {
+      "q": "Which two provinces share Longgan Lake?",
+      "a": "Hubei and Anhui",
+      "x": [
+        "Hunan and Jiangxi",
+        "Henan and Shandong"
+      ]
+    }
   }
 }

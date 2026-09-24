@@ -363,7 +363,7 @@
     "name": "Delphi",
     "era": "8th c. BC – 4th c. AD",
     "t": "The ancient Greeks' centre of the world",
-    "s": "Look for the massif of Mount Parnassus, often white on top, above the Gulf of Corinth. On its southern slope sat Delphi, where for a thousand years Greeks came to ask Apollo's oracle about wars, colonies and marriages. They believed it marked the centre of the world. The temple terraces are invisible from here, but the mountain and the silvery olive plain running down to the sea are clear.",
+    "s": "Look for the massif of Mount Parnassus, often white on top, above the Gulf of Corinth. On its southern slope sat Delphi, where for a thousand years Greeks came to ask Apollo's oracle about voyages, colonies and marriages. They believed it marked the centre of the world. The temple terraces are invisible from here, but the mountain and the silvery olive plain running down to the sea are clear.",
     "w": "A high, often snowy mountain block north of the Gulf of Corinth, with a wide olive plain below its south side.",
     "f": [
       "A carved stone called the omphalos, or navel, marked Delphi as the centre of the world.",
@@ -383,7 +383,7 @@
     "name": "Olympia",
     "era": "776 BC – AD 393",
     "t": "Where the Olympic Games began",
-    "s": "In a green valley in the western Peloponnese, the ancient Greeks held the Olympic Games for more than a thousand years. Wars were paused so athletes could travel safely, and victors went home with an olive wreath and lasting fame. Every modern Olympic flame is still lit here from the sun's rays. From cruise, look for the wide Alfeios river valley winding to the Ionian Sea.",
+    "s": "In a green valley in the western Peloponnese, the ancient Greeks held the Olympic Games for more than a thousand years. A sacred truce let athletes travel safely, and victors went home with an olive wreath and lasting fame. Every modern Olympic flame is still lit here from the sun's rays. From cruise, look for the wide Alfeios river valley winding to the Ionian Sea.",
     "w": "Find the broad valley of the Alfeios river running west to the Ionian coast in the western Peloponnese.",
     "f": [
       "By tradition the first Games were held in 776 BC.",
@@ -3703,7 +3703,7 @@
     "name": "Alcock and Brown, first non-stop transatlantic flight (1919)",
     "era": "14–15 June 1919",
     "t": "The first non-stop flight across the Atlantic",
-    "s": "On 14 June 1919 John Alcock and Arthur Whitten Brown took off from a field in St. John's, Newfoundland, in a converted Vickers Vimy bomber. They flew through fog, snow and ice for about 16 hours, navigating by sextant when they glimpsed the sun and stars, and came down in a bog near Clifden, Ireland. It was the first non-stop flight across the Atlantic, and both men walked away unhurt.",
+    "s": "On 14 June 1919 John Alcock and Arthur Whitten Brown took off from a field in St. John's, Newfoundland, in a modified Vickers Vimy biplane. They flew through fog, snow and ice for about 16 hours, navigating by sextant when they glimpsed the sun and stars, and came down in a bog near Clifden, Ireland. It was the first non-stop flight across the Atlantic, and both men walked away unhurt.",
     "w": "At the western end, look for Newfoundland's rugged east coast; at the eastern end, the rocky coast of Connemara.",
     "f": [
       "They mistook the bog for a green field, so their plane tipped onto its nose on landing.",
@@ -4496,6 +4496,206 @@
       "x": [
         "The Pinnacles",
         "The Olgas"
+      ]
+    }
+  },
+  "kakadu-rock-art": {
+    "name": "Kakadu rock art",
+    "era": "tens of thousands of years – today",
+    "t": "A painted gallery thousands of years deep",
+    "s": "Along the sandstone escarpment of Arnhem Land and the rock outcrops of Kakadu, generations of Bininj and Mungguy artists have painted animals, people and ancestral beings, layer upon layer, over thousands of years. Some paintings show the inside of fish and animals, bones and all. The traditional owners still care for the sites. From above, look for a long sandstone cliff line above green wetlands and floodplains.",
+    "w": "Look for a long sandstone escarpment above wide green floodplains and winding rivers, east of Darwin.",
+    "f": [
+      "Some paintings show the thylacine, which vanished from mainland Australia thousands of years ago.",
+      "Later paintings record the arrival of sailing ships and European visitors.",
+      "Kakadu became a UNESCO World Heritage site in 1981, for both nature and culture."
+    ],
+    "q": {
+      "q": "Which style shows animals' bones and organs?",
+      "a": "X-ray style",
+      "x": [
+        "Dot painting",
+        "Hand stencils"
+      ]
+    }
+  },
+  "nansen-greenland-1888": {
+    "name": "Nansen's crossing of Greenland (1888)",
+    "era": "August – October 1888",
+    "t": "The first crossing of the Greenland ice sheet",
+    "s": "In 1888 Fridtjof Nansen and five companions landed on the empty east coast of Greenland and set off on skis across the ice sheet, pulling their sledges. They chose the east so that there would be no turning back. After about six weeks, having climbed to some 2,700 m, they came down to the fjords near Godthåb, today's Nuuk. From cruise the ice sheet looks just as they saw it: white to every horizon.",
+    "w": "Look for the Greenland ice sheet, flat and white to the horizon, with dark mountains and fjords along its coasts.",
+    "f": [
+      "Two of the team, Samuel Balto and Ole Ravna, were Sámi.",
+      "They missed the last ship home and spent the winter in Godthåb, living among the Greenlanders.",
+      "Nansen later wrote a book about Greenlandic life and customs."
+    ],
+    "q": {
+      "q": "Why did Nansen cross Greenland from east to west?",
+      "a": "So there was no way back",
+      "x": [
+        "To follow the sun",
+        "Because the wind blew west"
+      ]
+    }
+  },
+  "nansen-fram": {
+    "name": "Nansen's Fram drift (1893–1896)",
+    "era": "1893 – 1896",
+    "t": "A ship frozen into the ice on purpose",
+    "s": "Nansen believed that sea ice drifted across the Arctic Ocean, so in 1893 he let his specially built ship Fram freeze into the pack north of Siberia and drift with it. With a companion he then left the ship on skis and reached farther north than anyone before. Three years later Fram came free near Svalbard, and every member of the expedition came home. From above, the frozen ocean still looks as it did.",
+    "w": "Over the Arctic Ocean, look for white pack ice broken by dark leads of open water, north of Siberia and Svalbard.",
+    "f": [
+      "Fram's rounded hull was designed so that the ice would lift it up instead of crushing it.",
+      "Nansen and Hjalmar Johansen reached 86°14′ N in April 1895.",
+      "Fram is preserved in its own museum in Oslo."
+    ],
+    "q": {
+      "q": "How far north did Nansen and Johansen reach?",
+      "a": "86°14′ N",
+      "x": [
+        "84°04′ N",
+        "90° N"
+      ]
+    }
+  },
+  "amundsen-northwest-passage": {
+    "name": "Amundsen's Northwest Passage (1903–1906)",
+    "era": "1903 – 1906",
+    "t": "The first ship through the Northwest Passage",
+    "s": "Sailors had long sought a sea route round the top of North America. In 1903 Roald Amundsen set out in Gjøa, a small herring boat, with six men. They spent two winters on King William Island, learning from the Netsilik Inuit how to live on the ice. In 1906 Gjøa reached Nome in Alaska, the first ship to sail through the passage. From above, look for the maze of Arctic islands and channels.",
+    "w": "Look for the maze of islands and ice-choked channels of the Canadian Arctic, north of the mainland coast.",
+    "f": [
+      "The harbour where they wintered is now the Inuit community of Gjoa Haven.",
+      "Amundsen skied about 800 km to a telegraph station in Alaska to send the news home.",
+      "Gjøa was only about 21 m long."
+    ],
+    "q": {
+      "q": "Where did Gjøa spend two winters?",
+      "a": "Gjoa Haven, King William Island",
+      "x": [
+        "Resolute Bay",
+        "Pond Inlet"
+      ]
+    }
+  },
+  "amundsen-south-pole": {
+    "name": "Amundsen's journey to the South Pole (1911)",
+    "era": "October 1911 – January 1912",
+    "t": "The first people at the South Pole",
+    "s": "In October 1911 Roald Amundsen and four companions set out from their hut on the Ross Ice Shelf with dog sledges. They climbed a great glacier through the Transantarctic Mountains to the polar plateau and reached the South Pole on 14 December 1911, the first people ever to do so. All five returned safely. From above, Antarctica is a blinding white plateau, with mountain ranges breaking through the ice.",
+    "w": "A blinding white plateau of ice, with dark peaks of the Transantarctic Mountains breaking through.",
+    "f": [
+      "Their base, Framheim, stood on the Ross Ice Shelf at the Bay of Whales.",
+      "They climbed to the plateau up the Axel Heiberg Glacier.",
+      "At the Pole they left a tent with a letter for the King of Norway."
+    ],
+    "q": {
+      "q": "When did Amundsen reach the South Pole?",
+      "a": "14 December 1911",
+      "x": [
+        "17 January 1912",
+        "6 April 1909"
+      ]
+    }
+  },
+  "nordenskiold-vega": {
+    "name": "Nordenskiöld's Vega expedition (1878–1879)",
+    "era": "1878 – 1880",
+    "t": "The first ship through the Northeast Passage",
+    "s": "In 1878 the Swedish-Finnish explorer Adolf Erik Nordenskiöld sailed the steamship Vega east along the Arctic coast of Siberia. It became the first ship to round Cape Chelyuskin, the northernmost point of Eurasia, and after being frozen in for ten months near the Bering Strait it passed into the Pacific in July 1879. Returning via Suez, Vega was the first ship to sail around Eurasia. From above, look for the Siberian coast and sea ice.",
+    "w": "Look for the long, low Arctic coast of Siberia, with sea ice offshore for much of the year.",
+    "f": [
+      "Vega rounded Cape Chelyuskin on 19 August 1878.",
+      "While frozen in, the crew got to know their Chukchi neighbours.",
+      "Stockholm still celebrates Vega Day on 24 April, the date of the ship's return in 1880."
+    ],
+    "q": {
+      "q": "Which cape was Vega the first ship to round?",
+      "a": "Cape Chelyuskin",
+      "x": [
+        "Cape Dezhnev",
+        "North Cape"
+      ]
+    }
+  },
+  "norge-1926": {
+    "name": "Airship Norge over the North Pole (1926)",
+    "era": "11–14 May 1926",
+    "t": "The first undisputed flight over the North Pole",
+    "s": "In May 1926 the airship Norge left Svalbard with 16 people aboard, among them Roald Amundsen, the American Lincoln Ellsworth and its Italian designer and pilot Umberto Nobile. It crossed the North Pole on 12 May and, after about 70 hours in the air, landed at Teller in Alaska. It was the first undisputed flight over the Pole and the first air crossing of the Arctic Ocean.",
+    "w": "Over the Arctic Ocean, look for pack ice to every horizon; at the ends, Svalbard's mountains and Alaska's coast.",
+    "f": [
+      "At the Pole the crew dropped the flags of Norway, the United States and Italy.",
+      "Its mooring mast still stands at Ny-Ålesund in Svalbard.",
+      "Nobile's small dog, Titina, flew with them."
+    ],
+    "q": {
+      "q": "Who designed and piloted the airship Norge?",
+      "a": "Umberto Nobile",
+      "x": [
+        "Ferdinand von Zeppelin",
+        "Richard Byrd"
+      ]
+    }
+  },
+  "chkalov-1937": {
+    "name": "Chkalov's transpolar flight (1937)",
+    "era": "18–20 June 1937",
+    "t": "Moscow to America over the top of the world",
+    "s": "In June 1937 Valery Chkalov, Georgy Baidukov and Alexander Belyakov flew a single-engined ANT-25 non-stop from Moscow over the North Pole to North America. After 63 hours, much of it in cloud and icing, they landed at Pearson Field in Vancouver, Washington. It was the first non-stop flight between Europe and America across the pole, pioneering the kind of polar route many flights use today. From above, look for pack ice, then Canada's Arctic.",
+    "w": "Over the Arctic, look for pack ice, then the islands of the Canadian Arctic and the coastal mountains of the Pacific North-West.",
+    "f": [
+      "They had aimed for San Francisco but landed early, short of fuel.",
+      "The flight covered roughly 9,000 km.",
+      "A monument to the flight stands in Vancouver, Washington."
+    ],
+    "q": {
+      "q": "Where did Chkalov's crew land in 1937?",
+      "a": "Vancouver, Washington",
+      "x": [
+        "San Francisco",
+        "Seattle"
+      ]
+    }
+  },
+  "beagle-voyage": {
+    "name": "Voyage of the Beagle (1831–1836)",
+    "era": "1831 – 1836",
+    "t": "The voyage that shaped Darwin's big idea",
+    "s": "In December 1831 HMS Beagle sailed from Plymouth to survey the coasts of South America, with a 22-year-old naturalist named Charles Darwin aboard. Over five years he collected fossils, birds and beetles, crossed the Andes on horseback and visited the Galápagos Islands, before the ship returned home round the world. What he saw led him to the theory of evolution by natural selection. From above, look for the long coasts of South America.",
+    "w": "Look for the long Atlantic and Pacific coasts of South America, and the maze of channels at Tierra del Fuego.",
+    "f": [
+      "Darwin published 'On the Origin of Species' in 1859, 23 years after the voyage ended.",
+      "The Beagle Channel at Tierra del Fuego is named after the ship.",
+      "Its captain, Robert FitzRoy, later issued some of the first public weather forecasts."
+    ],
+    "q": {
+      "q": "Who was the captain of HMS Beagle?",
+      "a": "Robert FitzRoy",
+      "x": [
+        "James Cook",
+        "William Bligh"
+      ]
+    }
+  },
+  "magnetic-north-pole-1831": {
+    "name": "North Magnetic Pole, first reached 1831",
+    "era": "1 June 1831",
+    "t": "Where compass needles pointed straight down",
+    "s": "On 1 June 1831 the British explorer James Clark Ross reached the North Magnetic Pole on the Boothia Peninsula, in the Canadian Arctic. There the needle of a dip compass pointed straight down. The pole does not stay put: it has wandered more than a thousand kilometres since, across the Arctic Ocean towards Siberia. From above, look for the Boothia Peninsula and the frozen channels around it.",
+    "w": "Look for the Boothia Peninsula, the northernmost tip of mainland North America, among frozen straits.",
+    "f": [
+      "Ross was the nephew of the expedition's leader, John Ross.",
+      "Amundsen measured the pole's position again from Gjoa Haven in 1904.",
+      "The magnetic pole is now much closer to Siberia than to Canada."
+    ],
+    "q": {
+      "q": "How far has the magnetic pole moved since 1831?",
+      "a": "More than 1,000 km",
+      "x": [
+        "About 10 km",
+        "About 100 km"
       ]
     }
   }

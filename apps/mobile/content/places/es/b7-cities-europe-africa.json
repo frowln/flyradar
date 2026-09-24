@@ -182,7 +182,7 @@
   "Q1899": {
     "t": "Colinas verdes en una orilla, llanura en la otra",
     "s": "El Dniéper parte Kiev en dos, y sus orillas no podrían ser más distintas: colinas empinadas y boscosas al oeste, donde creció la ciudad antigua, y tierras bajas y llanas al este. Entre ellas hay islas de arena y brazos secundarios. Aguas arriba, el río se hincha en un largo embalse. Hace mil años, esta era la capital de la Rus de Kiev.",
-    "w": "Un río ancho con islas de arena, de norte a sur; la ciudad antigua en las colinas del oeste, barrios nuevos en la llana orilla este.",
+    "w": "Un río ancho con islas de arena; la ciudad antigua en las colinas del oeste y barrios nuevos en la llana orilla este.",
     "f": [
       "Justo al norte de la ciudad, el Dniéper se ensancha en el embalse de Kiev, de más de 100 km.",
       "La Lavra de las Cuevas de Kiev, un monasterio rupestre fundado en 1051, es Patrimonio Mundial de la UNESCO.",
@@ -356,6 +356,366 @@
       "x": [
         "El Elba",
         "El Óder"
+      ]
+    }
+  },
+  "Q3838": {
+    "t": "Dos capitales frente a frente a ambos lados de un gran río",
+    "s": "Aquí, dos capitales se miran a través del río. Kinshasa llena la orilla sur del Congo, donde el río se abre en una inmensa laguna, casi un lago, salpicada de islas de arena; Brazzaville está en la orilla opuesta. Justo aguas abajo, el río se precipita en una larga sucesión de rápidos. Henry Morton Stanley instaló aquí un puesto comercial en 1881 y lo llamó Léopoldville.",
+    "w": "Una ciudad extensa en la orilla sur de un ensanchamiento del Congo, ancho y salpicado de islas, con otra ciudad en la orilla opuesta.",
+    "f": [
+      "Dejando aparte Roma y el Vaticano, Kinshasa y Brazzaville son las dos capitales más cercanas del mundo.",
+      "El Pool Malebo, el ensanchamiento del río aquí, mide unos 35 km de largo y más de 20 km de ancho.",
+      "Bajo la ciudad, las cataratas Livingstone —una cadena de rápidos— hacen descender el Congo unos 270 metros."
+    ],
+    "q": {
+      "q": "¿Qué capital está frente a Kinshasa, al otro lado del río Congo?",
+      "a": "Brazzaville",
+      "x": [
+        "Bangui",
+        "Luanda"
+      ]
+    }
+  },
+  "Q1524": {
+    "t": "Una ciudad blanca vertida en una cuenca hasta el mar",
+    "s": "Atenas se derrama por una cuenca rodeada de montañas desnudas y baja hasta el golfo Sarónico en el puerto del Pireo. Desde arriba es una alfombra blanca y beis casi continua. Mira la montaña del noreste: las cicatrices claras de sus laderas son canteras de mármol, explotadas desde la Antigüedad, cuando dieron la piedra del Partenón.",
+    "w": "Una ciudad blanca y densa en una cuenca rodeada de montañas que se abre al suroeste al mar, con estelas de barcos saliendo del Pireo.",
+    "f": [
+      "El mármol del Partenón procede del monte Pentélico, a unos 15 km al noreste de la Acrópolis.",
+      "El Pireo es el puerto de Atenas desde el siglo V a. C., cuando los Muros Largos unían ambos.",
+      "La ciudad debe su nombre a la diosa Atenea, su protectora en el mito griego."
+    ],
+    "q": {
+      "q": "¿Qué montaña dio el mármol del Partenón?",
+      "a": "El monte Pentélico",
+      "x": [
+        "El monte Olimpo",
+        "El monte Parnaso"
+      ]
+    }
+  },
+  "Q1530": {
+    "t": "Enhebrada en los grandes bucles del Tigris",
+    "s": "Bagdad está enhebrada en el Tigris, que la cruza en grandes curvas y bucles, con oscuros palmerales en ambas orillas. Al oeste, el Éufrates se acerca a unas pocas decenas de kilómetros: los dos ríos de Mesopotamia se aproximan aquí más que casi en ningún otro sitio. El califa abasí al-Mansur fundó la ciudad en 762 como una ciudad amurallada perfectamente redonda.",
+    "w": "Una ciudad llana, color polvo, junto a un río ancho de bucles profundos, con palmerales verde oscuro en sus orillas.",
+    "f": [
+      "Al-Mansur llamó a su nueva ciudad redonda Madinat al-Salam, la Ciudad de la Paz.",
+      "Cerca de Bagdad, el Tigris y el Éufrates corren a menos de 50 km el uno del otro.",
+      "En el siglo IX, la Casa de la Sabiduría de Bagdad atrajo a eruditos que tradujeron la ciencia griega al árabe."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa Bagdad?",
+      "a": "El Tigris",
+      "x": [
+        "El Éufrates",
+        "El Orontes"
+      ]
+    }
+  },
+  "Q3624": {
+    "t": "A 2350 metros, entre colinas de eucaliptos",
+    "s": "Pocas capitales están más altas: Adís Abeba se encuentra a unos 2350 metros, en las tierras altas de Etiopía. Las colinas del norte están oscuras de eucaliptos, un árbol traído en la década de 1890 para dar leña a la joven ciudad. El emperador Menelik II y la emperatriz Taytu fundaron la ciudad en 1886, cerca de unas fuentes termales.",
+    "w": "Una ciudad extensa en una meseta alta y verde, con colinas oscuras cubiertas de eucaliptos a lo largo de su borde norte.",
+    "f": [
+      "La Unión Africana tiene su sede en Adís Abeba.",
+      "Los eucaliptos que rodean la ciudad llegaron de Australia y hoy cubren buena parte de las colinas de Entoto.",
+      "A esta altitud, el agua hierve a unos 92 °C en lugar de a 100 °C."
+    ],
+    "q": {
+      "q": "¿Qué significa en amárico el nombre Adís Abeba?",
+      "a": "Flor nueva",
+      "x": [
+        "Ciudad alta",
+        "Agua de manantial"
+      ]
+    }
+  },
+  "Q3616": {
+    "t": "El nevado Damavand sobre una ciudad inclinada",
+    "s": "Un cono blanco solitario flota sobre las montañas al noreste de Teherán: el Damavand, el pico más alto de Irán. La ciudad está al pie del Elburz, un muro empinado que la separa del mar Caspio, y toda ella está inclinada: sus barrios del norte están cientos de metros más altos que los del sur, que se pierden en la llanura seca.",
+    "w": "Una enorme ciudad gris apretada contra un alto muro montañoso al norte; un cono volcánico nevado y solitario destaca al noreste.",
+    "f": [
+      "El monte Damavand, a unos 70 km al noreste de la ciudad, alcanza unos 5600 metros.",
+      "Teherán se convirtió en capital en 1786 con Agha Mohammad Kan, fundador de la dinastía Qajar.",
+      "El Damavand es un volcán, y el más alto de Asia."
+    ],
+    "q": {
+      "q": "¿Qué volcán se alza al noreste de Teherán?",
+      "a": "El Damavand",
+      "x": [
+        "El Ararat",
+        "El Sabalán"
+      ]
+    }
+  },
+  "Q1741": {
+    "t": "Donde el Danubio corre en líneas rectas y paralelas",
+    "s": "El río de Viena es fácil de encontrar pero raro de ver: el Danubio pasa junto a la ciudad en canales rectos y paralelos con una isla larga y fina entre ellos. Es obra de ingenieros; el viejo río vagaba libremente por su llanura. Al oeste, las colinas boscosas del Bosque de Viena son las últimas estribaciones de los Alpes.",
+    "w": "El Danubio en dos canales rectos y paralelos con una isla estrecha entre ellos, al noreste del centro; colinas boscosas al oeste.",
+    "f": [
+      "La Isla del Danubio, la fina franja entre los canales, mide unos 21 km y se construyó para protegerse de las crecidas.",
+      "Viena tiene viñedos en activo dentro de su término municipal, y aquí se hace vino desde hace siglos.",
+      "Durante siglos, Viena fue la sede principal de la dinastía de los Habsburgo."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa Viena?",
+      "a": "El Danubio",
+      "x": [
+        "El Elba",
+        "El Moldava"
+      ]
+    }
+  },
+  "Q3640": {
+    "t": "Una capital en la estepa desnuda de Anatolia",
+    "s": "Ankara se extiende por un cuenco de colinas en medio de la meseta de Anatolia, a casi 900 metros, rodeada de estepa seca y leonada. Su antiguo nombre, Angora, sobrevive en la lana suave de las cabras, gatos y conejos que se criaban aquí. Muy al sur quizá veas un destello blanco: el lago Tuz, un inmenso lago salado y somero.",
+    "w": "Una gran ciudad en un cuenco de colinas bajas sobre estepa ocre y desnuda; muy al sur, la lámina blanca de un lago salado.",
+    "f": [
+      "Ankara sustituyó a Estambul como capital de Turquía en 1923.",
+      "En época romana, la ciudad era Ancyra, capital de la provincia de Galacia.",
+      "El lago Tuz es tan poco profundo que en verano buena parte se seca en una costra de sal blanca."
+    ],
+    "q": {
+      "q": "¿Qué antiguo nombre de Ankara se dio a una lana suave?",
+      "a": "Angora",
+      "x": [
+        "Merino",
+        "Cachemira"
+      ]
+    }
+  },
+  "Q1781": {
+    "t": "Las colinas de Buda y el llano de Pest, unidos por puentes",
+    "s": "El Danubio atraviesa Budapest de norte a sur en línea recta y la divide en dos caracteres: las colinas boscosas de Buda en la orilla oeste y la cuadrícula llana y densa de Pest en la este. Una isla estrecha y frondosa, la isla Margarita, ocupa el río cerca del centro. Las ciudades de ambas orillas no se unieron en una sola hasta 1873.",
+    "w": "Un río ancho que corre al sur, colinas verdes en su orilla oeste, ciudad llana al este y una isla estrecha en medio del cauce.",
+    "f": [
+      "Budapest se asienta sobre una falla geológica que alimenta más de cien manantiales termales.",
+      "Al sur de la ciudad, el Danubio se divide en torno a la isla de Csepel, de casi 50 km de largo.",
+      "La isla Margarita mide unos 2,5 km y albergó un convento medieval."
+    ],
+    "q": {
+      "q": "¿En qué año se unieron Buda, Óbuda y Pest?",
+      "a": "1873",
+      "x": [
+        "1848",
+        "1896"
+      ]
+    }
+  },
+  "Q2471": {
+    "t": "Una capital antigua en una alta meseta de montaña",
+    "s": "Altas casas torre de adobe y piedra, con adornos blancos, llenan desde hace siglos la ciudad vieja de Saná, y aquí vive gente desde hace más de 2500 años. Desde arriba, la ciudad es una mancha color tierra entre crestas desnudas y plegadas, en una alta cuenca entre las montañas de Yemen, a unos 2250 metros.",
+    "w": "Una ciudad de tonos tierra en una amplia cuenca de montaña, encajonada entre montañas desnudas y abruptas al este y al oeste.",
+    "f": [
+      "La ciudad vieja de Saná es Patrimonio Mundial de la UNESCO desde 1986.",
+      "Al oeste de la ciudad se alza el Yabal an-Nabi Shuayb, de unos 3660 m, el pico más alto de la península arábiga.",
+      "Las casas torre de Saná tienen varias plantas, con frisos blancos de yeso que enmarcan sus ventanas."
+    ],
+    "q": {
+      "q": "¿A qué altitud aproximada está Saná?",
+      "a": "A unos 2250 m",
+      "x": [
+        "A unos 750 m",
+        "A unos 4000 m"
+      ]
+    }
+  },
+  "Q1492": {
+    "t": "Una cuadrícula perfecta entre las colinas y el mar",
+    "s": "Barcelona llena una llanura costera encajonada entre dos ríos y una línea de colinas boscosas. Su corazón es inconfundible: el Eixample, un inmenso tablero de manzanas casi idénticas trazado en la década de 1860. Busca una ancha avenida que lo cruza en diagonal y la montaña de Montjuïc, que se alza a pico junto al puerto.",
+    "w": "Una cuadrícula de manzanas cuadradas entre colinas verdes y el Mediterráneo, cruzada por una larga avenida diagonal, con una colina redondeada junto al puerto.",
+    "f": [
+      "El ingeniero Ildefons Cerdà proyectó el Eixample en 1859.",
+      "Cada manzana del Eixample mide unos 113 metros de lado, con las esquinas cortadas en chaflán.",
+      "La avenida Diagonal cruza la cuadrícula a lo largo de unos 11 km."
+    ],
+    "q": {
+      "q": "¿Qué montaña se alza junto al puerto de Barcelona?",
+      "a": "Montjuïc",
+      "x": [
+        "El Tibidabo",
+        "Montserrat"
+      ]
+    }
+  },
+  "Q19660": {
+    "t": "Una ciudad llana con un rosario de lagos al norte",
+    "s": "Una cadena de lagos ensartados como cuentas a lo largo de un pequeño río marca el borde norte de Bucarest; búscala en la llana planicie de Valaquia, a unos 60 km al norte del Danubio. El primer documento que menciona la ciudad lo firmó aquí en 1459 Vlad III, más conocido como Vlad el Empalador.",
+    "w": "Una ciudad grande y llana en una llanura abierta, con una cadena curva de pequeños lagos a lo largo de su borde norte.",
+    "f": [
+      "Sus elegantes bulevares le valieron a Bucarest el apodo de «Pequeño París».",
+      "Bucarest se convirtió en capital de Valaquia en 1659.",
+      "El río Dâmbovița cruza el centro por un canal recto y encauzado."
+    ],
+    "q": {
+      "q": "¿Qué gobernante firmó en 1459 el primer documento que nombra Bucarest?",
+      "a": "Vlad el Empalador",
+      "x": [
+        "Esteban el Grande",
+        "Miguel el Valiente"
+      ]
+    }
+  },
+  "Q41183": {
+    "t": "Una de las ciudades más antiguas, en una llanura caliza",
+    "s": "Alepo está entre las ciudades habitadas sin interrupción más antiguas de la Tierra, una parada en las rutas de caravanas entre el Mediterráneo y Mesopotamia durante miles de años. Desde arriba es una gran ciudad clara en una llanura caliza ondulada. Su centro antiguo creció en torno a una ciudadela sobre un antiguo montículo. Al sureste está un lago salado y somero, el Jabbul.",
+    "w": "Una gran ciudad clara en una llanura seca y ondulada; un lago salado y somero brilla al sureste.",
+    "f": [
+      "La ciudad antigua de Alepo es Patrimonio Mundial de la UNESCO desde 1986.",
+      "La ciudad es famosa desde hace mucho por su jabón de aceite de oliva y laurel, conocido en todo el mundo como jabón de Alepo.",
+      "Alepo está a unos 100 km tierra adentro del Mediterráneo."
+    ],
+    "q": {
+      "q": "¿Qué lago salado está al sureste de Alepo?",
+      "a": "El lago Jabbul",
+      "x": [
+        "El lago Tuz",
+        "El lago Urmía"
+      ]
+    }
+  },
+  "Q3766": {
+    "t": "Una antigua ciudad oasis bajo una montaña desnuda",
+    "s": "Damasco debe su existencia a un pequeño río. El Barada baja de las montañas del Antilíbano y se abre en la Guta, un oasis de huertos que alimenta la ciudad desde hace miles de años. La ciudad está al pie del desnudo monte Qasiún y, en invierno, la cresta nevada del monte Hermón destaca al suroeste.",
+    "w": "Una gran ciudad entre huertos verdes y desierto, con una montaña desnuda en su lado noroeste.",
+    "f": [
+      "De 661 a 750, Damasco fue la capital del califato omeya, que se extendía de España a Asia central.",
+      "El monte Hermón, al suroeste de la ciudad, alcanza unos 2800 metros y a menudo conserva nieve hasta la primavera.",
+      "La ciudad antigua de Damasco es Patrimonio Mundial de la UNESCO desde 1979."
+    ],
+    "q": {
+      "q": "¿Qué tejido toma su nombre de Damasco?",
+      "a": "El damasco",
+      "x": [
+        "La muselina",
+        "El calicó"
+      ]
+    }
+  },
+  "Q72": {
+    "t": "En la punta de un lago esbelto, con los Alpes al fondo",
+    "s": "Un lago estrecho se curva unos 40 km hacia el sureste, hacia los Alpes, y en su extremo norte está Zúrich, con el río Limmat saliendo en línea recta por el centro. En un día claro, mira más allá del lago hacia el muro nevado de los Alpes de Glaris. Los romanos conocían el asentamiento como Turicum.",
+    "w": "El extremo norte de un lago largo y estrecho que se curva al sureste; un río sale por la ciudad; los Alpes detrás.",
+    "f": [
+      "El lago de Zúrich mide unos 40 km de largo, pero en ningún punto supera los 4 km de ancho.",
+      "El Uetliberg, la cresta boscosa del borde oeste de la ciudad, alcanza unos 870 metros.",
+      "Zúrich es la mayor ciudad de Suiza, aunque el gobierno federal está en Berna."
+    ],
+    "q": {
+      "q": "¿Qué río sale del lago de Zúrich por la ciudad?",
+      "a": "El Limmat",
+      "x": [
+        "El Aar",
+        "El Reuss"
+      ]
+    }
+  },
+  "Q597": {
+    "t": "La capital más occidental de la Europa continental",
+    "s": "Lisboa trepa por sus colinas en la orilla norte del Tajo, justo donde el amplio lago interior del río se estrecha en un canal hacia el Atlántico. Dos puentes largos cruzan el agua: uno colgante y rojo en el estrechamiento y, río arriba, la fina línea de un puente que se prolonga durante kilómetros. Ninguna capital de la Europa continental está más al oeste.",
+    "w": "Una ciudad montuosa en la orilla norte de un amplio estuario, con un largo puente sobre su parte alta y otro en el estrechamiento.",
+    "f": [
+      "El puente Vasco da Gama sobre el Tajo mide unos 12 km, uno de los más largos de Europa.",
+      "La parte interior del estuario es tan ancha que los lisboetas la llaman el Mar da Palha, el «mar de paja».",
+      "El cabo da Roca, al oeste de Lisboa, es el punto más occidental de la Europa continental."
+    ],
+    "q": {
+      "q": "¿Qué río forma el amplio estuario de Lisboa?",
+      "a": "El Tajo",
+      "x": [
+        "El Duero",
+        "El Guadiana"
+      ]
+    }
+  },
+  "Q1963": {
+    "t": "Donde el Nilo Azul y el Nilo Blanco se hacen uno",
+    "s": "Jartum está en uno de los grandes encuentros fluviales del mundo. El Nilo Azul, que baja de las tierras altas de Etiopía, se une al Nilo Blanco, que ha viajado desde el lago Victoria. Sus aguas pueden correr un rato lado a lado en dos tonos antes de mezclarse. En torno a la confluencia, tres ciudades se miran a través de los ríos.",
+    "w": "Dos grandes ríos que se unen en Y alrededor de una isla verde, con una ciudad en cada una de las tres orillas.",
+    "f": [
+      "La isla de Tuti está justo en la confluencia de los dos Nilos.",
+      "La mayor parte del agua del Nilo aguas abajo de Jartum procede del Nilo Azul, sobre todo en la época de crecida.",
+      "Las tres ciudades en torno a la confluencia son Jartum, Omdurmán y Jartum Norte."
+    ],
+    "q": {
+      "q": "¿Qué dos ríos se unen en Jartum?",
+      "a": "El Nilo Azul y el Nilo Blanco",
+      "x": [
+        "El Nilo y el Atbara",
+        "El Nilo Blanco y el Sobat"
+      ]
+    }
+  },
+  "Q374365": {
+    "t": "La puerta del mar Rojo, orlada de arrecifes turquesa",
+    "s": "Bajíos turquesa bordean el mar Rojo frente a Yeda: esos verdes y azules claros son arrecifes de coral. La ciudad se extiende kilómetros, larga y estrecha, entre los arrecifes y el desierto. Durante siglos, los peregrinos que iban a La Meca, a unos 70 km tierra adentro, desembarcaban aquí, y el viejo puerto se enriqueció con su llegada.",
+    "w": "Una ciudad alargada en una costa recta del mar Rojo, orlada de arrecifes turquesa brillante, con desierto pardo y colinas detrás.",
+    "f": [
+      "Yeda Histórica, un viejo barrio de casas de piedra coralina, es Patrimonio Mundial de la UNESCO desde 2014.",
+      "La fuente del Rey Fahd, frente al paseo marítimo, lanza agua a más de 250 metros de altura.",
+      "Los arrecifes de esta costa están en uno de los mares más cálidos y salados de la Tierra."
+    ],
+    "q": {
+      "q": "¿A qué mar da Yeda?",
+      "a": "Al mar Rojo",
+      "x": [
+        "Al mar Arábigo",
+        "Al golfo Pérsico"
+      ]
+    }
+  },
+  "Q5806": {
+    "t": "Una ciudad santa en un valle de montañas oscuras y desnudas",
+    "s": "Al este de La Meca, todo un valle está alfombrado de hileras de tiendas blancas: Mina, donde se alojan los peregrinos durante el hach. La ciudad está en valles estrechos entre montañas oscuras y dentadas, a unos 70 km tierra adentro del mar Rojo. Para los musulmanes es la ciudad más santa del islam: hacia ella se orientan al rezar, y millones de personas llegan cada año en peregrinación.",
+    "w": "Una ciudad encajada en valles sinuosos entre colinas negras y desnudas, con un valle de tiendas blancas que se extiende al este.",
+    "f": [
+      "El profeta Mahoma nació en La Meca hacia el año 570.",
+      "La ciudad de tiendas de Mina reúne decenas de miles de tiendas ignífugas en hileras ordenadas.",
+      "La llanura de Arafat, una parada clave de la peregrinación, está a unos 20 km al sureste de la ciudad."
+    ],
+    "q": {
+      "q": "¿Qué cubre el valle de Mina, al este de La Meca?",
+      "a": "Hileras de tiendas blancas",
+      "x": [
+        "Paneles solares",
+        "Palmerales de dátiles"
+      ]
+    }
+  },
+  "Q585": {
+    "t": "Una capital al fondo de un largo fiordo salpicado de islas",
+    "s": "Un largo brazo de mar salpicado de islitas se adentra mucho tierra adentro y acaba entre colinas boscosas; allí, al fondo del fiordo, está Oslo. La ciudad llena un anfiteatro verde, con bosques oscuros y lagos justo en su borde. Durante tres siglos se llamó Christiania, por el rey Cristián IV, que la reconstruyó en 1624.",
+    "w": "El extremo interior de un largo fiordo sembrado de islitas, con la ciudad en un cuenco de colinas oscuras y boscosas.",
+    "f": [
+      "El fiordo de Oslo se extiende unos 100 km desde la ciudad hacia el sur, hasta el Skagerrak.",
+      "La ciudad recuperó su nombre medieval, Oslo, en 1925.",
+      "Gran parte del municipio es bosque protegido, la Marka, surcado de lagos y pistas de esquí."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Oslo entre 1624 y 1925?",
+      "a": "Christiania",
+      "x": [
+        "Nidaros",
+        "Bjørgvin"
+      ]
+    }
+  },
+  "Q5468": {
+    "t": "Una cálida ciudad portuaria en el océano Índico",
+    "s": "Durban rodea un gran puerto natural en la costa este de Sudáfrica, resguardado por una larga cresta boscosa llamada el Bluff. Al norte del puerto, una línea recta de playas mira al océano Índico, donde la cálida corriente de Agulhas mantiene el agua templada todo el año. Tierra adentro, colinas verdes y onduladas se salpican de cañaverales.",
+    "w": "Una bahía casi cerrada de entrada estrecha, una cresta verde en su lado sur y una larga playa recta al norte.",
+    "f": [
+      "La ciudad recibió su nombre en 1835 por sir Benjamin D’Urban, entonces gobernador de la Colonia del Cabo.",
+      "El puerto de Durban es uno de los que más tráfico tienen de África.",
+      "La cálida corriente de Agulhas fluye al suroeste por esta costa: una de las corrientes oceánicas más rápidas de la Tierra."
+    ],
+    "q": {
+      "q": "¿A qué océano da Durban?",
+      "a": "Al océano Índico",
+      "x": [
+        "Al océano Atlántico",
+        "Al océano Austral"
       ]
     }
   }
