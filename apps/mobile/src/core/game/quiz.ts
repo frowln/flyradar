@@ -1,0 +1,118 @@
+import type { CountryPass, OfflinePackage, POI } from '@skyatlas/shared';
+import { secondsByCountry } from '../places/countries';
+
+/**
+ * A short quiz about the flight just taken.
+ *
+ * Every question is built from the package — the countries crossed, the side a
+ * peak was on, the order places went by — so every answer is true by
+ * construction. It is asked after landing, when the passenger has a moment and
+ * the flight is still fresh; never at cruise, where it would compete with the
+ * window.
+ */
+
+export interface QuizQuestion {
+  id: string;
+  /** i18n key of the prompt, with params. */
+  prompt: string;
+  params: Record<string, string | number>;
+  options: string[];
+  correctIdx: number;
+}
+
+export interface QuizNaming {
+  place: (poi: POI) => string;
+  country: (cc: string) => string;
+  side: (side: 'left' | 'right') => string;
+}
+
+/** Deterministic shuffle so a quiz does not change between renders. */
+function shuffle<T>(xs: T[], seed: string): T[] {
+  let h = 2166136261;
+  for (let i = 0; i < seed.length; i++) h = Math.imul(h ^ seed.charCodeAt(i), 16777619);
+  const out = [...xs];
+  for (let i = out.length - 1; i > 0; i--) {
+    h = Math.imul(h ^ (h >>> 13), 1274126177);
+    const j = Math.abs(h) % (i + 1);
+    [out[i], out[j]] = [out[j]!, out[i]!];
+  }
+  return out;
+}
+
+function withAnswer(id: string, prompt: string, params: QuizQuestion['params'], answer: string, wrong: string[]): QuizQuestion | null {
+  const distinct = Array.from(new Set(wrong.filter((w) => w !== answer))).slice(0, 3);
+  if (distinct.length < 1) return null;
+  const options = shuffle([answer, ...distinct], id);
+  return { id, prompt, params, options, correctIdx: options.indexOf(answer) };
+}
+
+export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): QuizQuestion[] {
+  const qs: QuizQuestion[] = [];
+  const passes: CountryPass[] = pkg.countries ?? [];
+  const id = pkg.flight.id;
+
+  // Longest time over a country.
+  const secs = Array.from(secondsByCountry(passes).entries()).sort((a, b) => b[1] - a[1]);
+  if (secs.length >= 3) {
+    const q = withAnswer(
+      `${id}-longest`,
+      'quiz.longestCountry',
+      {},
+      naming.country(secs[0]![0]),
+      secs.slice(1, 4).map(([cc]) => naming.country(cc))
+    );
+    if (q) qs.push(q);
+  }
+
+  // Which side a prominent sight was on.
+  const sided = pkg.pois
+    .filter((p): p is POI & { side: 'left' | 'right' } => p.side === 'left' || p.side === 'right')
+    .sort((a, b) => (b.rank ?? 0) - (a.rank ?? 0));
+  const star = sided[0];
+  if (star) {
+    const other = star.side === 'left' ? 'right' : 'left';
+    const q = withAnswer(`${id}-side`, 'quiz.whichSide', { place: naming.place(star) }, naming.side(star.side), [naming.side(other)]);
+    if (q) qs.push(q);
+  }
+
+  // The highest peak on the route.
+  const peaks = pkg.pois
+    .filter((p) => (p.category === 'mountain' || p.category === 'volcano') && p.elevation)
+    .sort((a, b) => (b.elevation ?? 0) - (a.elevation ?? 0));
+  if (peaks.length >= 2) {
+    const q = withAnswer(
+      `${id}-peak`,
+      'quiz.highestPeak',
+      {},
+      naming.place(peaks[0]!),
+      peaks.slice(1, 4).map(naming.place)
+    );
+    if (q) qs.push(q);
+  }
+
+  // How many countries were below.
+  const n = new Set(passes.map((p) => p.cc)).size;
+  if (n >= 2) {
+    const q = withAnswer(`${id}-count`, 'quiz.countryCount', {}, String(n), [String(n - 1), String(n + 1), String(n + 2)]);
+    if (q) qs.push(q);
+  }
+
+  // Which came first.
+  const timed = pkg.pois.filter((p) => p.passAt != null && (p.rank ?? 0) >= 5);
+  if (timed.length >= 2) {
+    const a = timed[0]!;
+    const b = timed[timed.length - 1]!;
+    if ((b.passAt ?? 0) - (a.passAt ?? 0) > 1200) {
+      const q = withAnswer(
+        `${id}-order`,
+        'quiz.whichFirst',
+        { a: naming.place(a), b: naming.place(b) },
+        naming.place(a),
+        [naming.place(b)]
+      );
+      if (q) qs.push(q);
+    }
+  }
+
+  return qs.slice(0, max);
+}

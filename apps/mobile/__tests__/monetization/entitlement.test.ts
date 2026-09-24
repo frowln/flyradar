@@ -11,8 +11,9 @@ vi.mock('react-native-mmkv', () => ({
   })
 }));
 
-let storeSaysPro = false;
+let storeSaysPro: boolean | null = false;
 vi.mock('../../src/core/monetization/revenueCat', () => ({
+  MONETIZATION_ENABLED: true,
   isPro: () => Promise.resolve(storeSaysPro)
 }));
 
@@ -25,7 +26,8 @@ const {
   isProCached,
   setPro,
   refreshPro,
-  forgetFlight
+  forgetFlight,
+  fullAccess
 } = await import('../../src/core/monetization/entitlement');
 
 const FLIGHT = 'SQ322';
@@ -114,6 +116,19 @@ describe('pro entitlement', () => {
     storeSaysPro = true;
     await expect(refreshPro()).resolves.toBe(true);
     expect(isProCached()).toBe(true);
+  });
+
+  /** At cruise the store cannot be reached; that is not a cancellation. */
+  it('keeps Pro when the store cannot be asked', async () => {
+    setPro(true);
+    storeSaysPro = null;
+    await expect(refreshPro()).resolves.toBe(true);
+    expect(isProCached()).toBe(true);
+  });
+
+  it('opens everything on the first flight', () => {
+    expect(fullAccess(true)).toBe(true);
+    expect(fullAccess(false)).toBe(false);
   });
 
   /** A lapsed or refunded subscription has to close the gate again. */

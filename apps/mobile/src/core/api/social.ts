@@ -1,4 +1,4 @@
-import { collectionsStore } from '../gamification/collections';
+import { settings } from '../settings';
 import { apiClient } from './client';
 
 /**
@@ -64,14 +64,14 @@ const PENDING_KEY = 'pending_discoveries';
 
 function pending(): { poiId: string; flightId?: string }[] {
   try {
-    return JSON.parse(collectionsStore.getPendingDiscoveries?.() ?? '[]');
+    return JSON.parse(settings.getPendingDiscoveries?.() ?? '[]');
   } catch {
     return [];
   }
 }
 
 function setPending(items: { poiId: string; flightId?: string }[]): void {
-  collectionsStore.setPendingDiscoveries?.(JSON.stringify(items.slice(-500)));
+  settings.setPendingDiscoveries?.(JSON.stringify(items.slice(-500)));
 }
 
 async function quiet<T>(fn: () => Promise<T>): Promise<T | null> {
@@ -96,8 +96,13 @@ export const social = {
    * The server merges rather than duplicates when the subject already has an
    * account, so reinstalling never leaves someone with two atlases.
    */
-  linkApple: (appleSub: string) =>
-    quiet(() => apiClient.post<{ id: string; merged: boolean }>('/social/link/apple', { appleSub })),
+  /**
+   * Links this device's account to an Apple ID. Sends Apple's signed identity
+   * token, never the bare subject: the server verifies the signature, which is
+   * what stops anyone who learns a subject id from claiming the account.
+   */
+  linkApple: (identityToken: string) =>
+    quiet(() => apiClient.post<{ id: string; merged: boolean }>('/social/link/apple', { identityToken })),
 
   setHandle: (handle: string) =>
     quiet(() => apiClient.patch<Me>('/social/me', { handle: handle.trim() })),

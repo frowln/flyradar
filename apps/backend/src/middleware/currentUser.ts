@@ -1,5 +1,6 @@
 import type { FastifyRequest, FastifyReply } from 'fastify';
 import { prisma } from '../db/prisma.js';
+import { toSupportedLocale } from '../locales.js';
 
 /**
  * Resolves the caller to a User row, creating one on first contact.
@@ -17,14 +18,23 @@ declare module 'fastify' {
 }
 
 const DEVICE_HEADER = 'x-device-id';
+/**
+ * The shape of an id the app mints (`dev_<ms>_<random>`). The value becomes a
+ * primary key and is echoed into logs, so anything outside a plain token
+ * alphabet — or long enough to bloat an index — is refused at the door.
+ */
+export const DEVICE_ID_PATTERN = /^[A-Za-z0-9_-]{16,128}$/;
+const PLATFORMS = new Set(['ios', 'android', 'web', 'windows', 'macos']);
 
 export async function attachUser(req: FastifyRequest, reply: FastifyReply) {
   const deviceId = req.headers[DEVICE_HEADER];
-  if (typeof deviceId !== 'string' || deviceId.length < 8) {
-    return reply.code(400).send({ error: 'Missing device id' });
+  if (typeof deviceId !== 'string' || !DEVICE_ID_PATTERN.test(deviceId)) {
+    return reply.code(400).send({ error: 'Missing or malformed device id' });
   }
 
-  const platform = typeof req.headers['x-platform'] === 'string' ? req.headers['x-platform'] : 'unknown';
+  const platformHeader = req.headers['x-platform'];
+  const platform =
+    typeof platformHeader === 'string' && PLATFORMS.has(platformHeader) ? platformHeader : 'unknown';
 
   const device = await prisma.device.upsert({
     where: { id: deviceId },
@@ -53,9 +63,7 @@ export async function attachUser(req: FastifyRequest, reply: FastifyReply) {
 }
 
 function localeOf(req: FastifyRequest): string {
-  const header = req.headers['accept-language'];
-  if (typeof header !== 'string') return 'en';
-  return header.slice(0, 2).toLowerCase();
+  return toSupportedLocale(req.headers['accept-language']);
 }
 
 /** Throws rather than returning undefined, so route handlers can rely on it. */

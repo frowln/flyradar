@@ -1,9 +1,10 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 
 vi.mock('react-native', () => ({ Platform: { OS: 'ios' } }));
-vi.mock('../../src/core/gamification/collections', () => ({
-  collectionsStore: { getDeviceToken: () => 'dev_test', setDeviceToken: () => {} }
+vi.mock('../../src/core/settings', () => ({
+  settings: { getDeviceToken: () => 'dev_test', setDeviceToken: () => {} }
 }));
+vi.mock('../../src/core/random', () => ({ randomId: () => 'dev_random' }));
 vi.mock('../../src/core/crypto/sign', () => ({ signRequest: () => null }));
 
 const { apiClient, ApiTimeoutError } = await import('../../src/core/api/client');

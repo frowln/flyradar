@@ -1,6 +1,14 @@
-import type { FastifyPluginAsync } from 'fastify';
+import type { FastifyPluginAsync, FastifyReply } from 'fastify';
+import { z } from 'zod';
 import { prisma } from '../db/prisma.js';
 import { attachUser, userIdOf } from '../middleware/currentUser.js';
+import { requireAuth } from '../middleware/auth.js';
+import {
+  verifyAppleIdentityToken,
+  AppleTokenError,
+  AppleKeysUnavailableError
+} from '../auth/apple.js';
+import { linkApple, recomputeStats } from '../services/accounts.js';
 
 /**
  * Accounts, discoveries, reviews and the leaderboard.
@@ -14,21 +22,134 @@ import { attachUser, userIdOf } from '../middleware/currentUser.js';
  *  · Anything a person can type is reportable and hideable. App Store Guideline
  *    1.2 requires it, and a review system without moderation is a liability the
  *    day it gets popular rather than a feature.
+ *
+ * Every body and parameter is parsed before use: these routes write rows other
+ * people read, so a malformed value is refused here rather than stored.
  */
 
 const MAX_BODY = 600;
 const MAX_HANDLE = 24;
 const LEADERBOARD_SIZE = 50;
 const REVIEW_PAGE = 20;
+/**
+ * Far above what a real flight produces (a long-haul route names ~90 places),
+ * low enough that a script cannot inflate the rarity numbers everyone sees.
+ */
+const MAX_DISCOVERIES_PER_DAY = 500;
+/**
+ * Places from the datasets bundled with the app ("ne-pp-1234"). They exist on
+ * the device, not in the POI table, so they cannot be checked against it; the
+ * pattern and the daily cap are what bound them.
+ */
+const BUNDLED_PLACE = /^ne-[a-z]{2}-[\w-]+$/;
 
 /** Reasons a person can pick when reporting. Free text goes in `note`. */
 const REPORT_REASONS = ['spam', 'offensive', 'off_topic', 'false_info', 'other'] as const;
 
-export const socialRoutes: FastifyPluginAsync = async (app) => {
-  app.addHook('preHandler', async (req, reply) => {
-    // Only the social surface needs a user; other routes stay device-only.
-    if (req.url.startsWith('/social')) await attachUser(req, reply);
+// --- schemas ----------------------------------------------------------------
+
+const rowId = z.string().min(1).max(64).regex(/^[\w-]+$/);
+const poiId = z.string().min(1).max(128).regex(/^[\w.:-]+$/);
+/**
+ * Control characters, and the invisible direction overrides (U+202E and kin)
+ * that make a name render as something other than what it is. Emoji joiners
+ * stay allowed. Reviews and notes may also contain line breaks and tabs.
+ */
+const unsafeText = /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F-\u009F\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069]/;
+const unsafeLine = /[\u0000-\u001F\u007F-\u009F\u2028\u2029\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069]/;
+const safeText = (s: string) => !unsafeText.test(s);
+const safeLine = (s: string) => !unsafeLine.test(s);
+
+function isHttpsUrl(value: string): boolean {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && !url.username && !url.password;
+  } catch {
+    return false;
+  }
+}
+
+const schemas = {
+  poiParams: z.object({ poiId }),
+  idParams: z.object({ id: rowId }),
+  profilePatch: z.object({
+    handle: z
+      .string()
+      .trim()
+      .min(2, `Handle must be 2–${MAX_HANDLE} characters`)
+      .max(MAX_HANDLE, `Handle must be 2–${MAX_HANDLE} characters`)
+      .refine(safeLine, 'Handle contains unsupported characters')
+      .optional(),
+    // Shown to other people as an image source, so only https, and bounded.
+    avatarUrl: z
+      .string()
+      .trim()
+      .max(512)
+      .refine(isHttpsUrl, 'avatarUrl must be an https URL')
+      .nullable()
+      .optional()
+  }),
+  linkApple: z.object({ identityToken: z.string().min(20).max(8192) }),
+  discovery: z.object({
+    poiId,
+    flightId: z.string().max(64).regex(/^[\w.:-]+$/).nullish()
+  }),
+  reviewsQuery: z.object({ cursor: rowId.optional() }),
+  review: z.object({
+    rating: z.number().int().min(1).max(5),
+    body: z
+      .string()
+      .trim()
+      .max(MAX_BODY, `Review must be at most ${MAX_BODY} characters`)
+      .refine(safeText, 'Review contains unsupported characters')
+      .nullish()
+  }),
+  vote: z.object({ helpful: z.boolean().optional() }),
+  report: z.object({
+    reason: z.enum(REPORT_REASONS),
+    note: z.string().trim().max(MAX_BODY).refine(safeText, 'Unsupported characters').nullish()
+  }),
+  follow: z.object({ blocked: z.boolean().optional() })
+};
+
+/** Parses or answers 400; the caller returns when it gets undefined. */
+function parse<T extends z.ZodType>(schema: T, value: unknown, reply: FastifyReply): z.infer<T> | undefined {
+  const result = schema.safeParse(value ?? {});
+  if (result.success) return result.data;
+  reply.code(400).send({
+    // The app shows `error` as-is, so it carries the first specific reason.
+    error: result.error.issues[0]?.message ?? 'Invalid request',
+    details: z.flattenError(result.error)
   });
+  return undefined;
+}
+
+/** Whether a place id names something that exists — on the server or in the app. */
+async function placeExists(id: string): Promise<boolean> {
+  if (BUNDLED_PLACE.test(id)) return true;
+  return (await prisma.pOI.findUnique({ where: { id }, select: { id: true } })) !== null;
+}
+
+/**
+ * Public dates are shown to the month. A profile listing exact timestamps of
+ * when someone opened places mid-flight is a record of where they were, and when.
+ */
+function toMonth(date: Date): string {
+  return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), 1)).toISOString();
+}
+
+function startOfUtcDay(now = new Date()): Date {
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+}
+
+function isUniqueViolation(e: unknown): boolean {
+  return (e as { code?: unknown } | null)?.code === 'P2002';
+}
+
+export const socialRoutes: FastifyPluginAsync = async (app) => {
+  // Hooks here are scoped to this plugin, so they only run for /social routes.
+  app.addHook('preHandler', requireAuth);
+  app.addHook('preHandler', attachUser);
 
   // --- account ------------------------------------------------------------
 
@@ -47,17 +168,15 @@ export const socialRoutes: FastifyPluginAsync = async (app) => {
     };
   });
 
-  app.patch<{ Body: { handle?: string; avatarUrl?: string } }>('/social/me', async (req, reply) => {
+  app.patch('/social/me', async (req, reply) => {
     const userId = userIdOf(req);
-    const handle = req.body.handle?.trim();
-    if (handle !== undefined && (handle.length < 2 || handle.length > MAX_HANDLE)) {
-      return reply.code(400).send({ error: `Handle must be 2–${MAX_HANDLE} characters` });
-    }
+    const body = parse(schemas.profilePatch, req.body, reply);
+    if (!body) return reply;
     const user = await prisma.user.update({
       where: { id: userId },
       data: {
-        ...(handle !== undefined ? { handle } : {}),
-        ...(req.body.avatarUrl !== undefined ? { avatarUrl: req.body.avatarUrl } : {})
+        ...(body.handle !== undefined ? { handle: body.handle } : {}),
+        ...(body.avatarUrl !== undefined ? { avatarUrl: body.avatarUrl } : {})
       }
     });
     return { id: user.id, handle: user.handle, avatarUrl: user.avatarUrl };
@@ -66,42 +185,35 @@ export const socialRoutes: FastifyPluginAsync = async (app) => {
   /**
    * Claims the anonymous account with an Apple identity.
    *
-   * If that Apple subject already has an account, the two are merged rather than
-   * duplicated — someone reinstalling the app must not end up with two atlases.
+   * Takes Apple's signed identity token, never a bare subject: the subject is
+   * an identifier, not a secret, and accepting it from the body let anyone who
+   * knew one merge their device into that person's account.
    */
-  app.post<{ Body: { appleSub: string } }>('/social/link/apple', async (req, reply) => {
+  app.post('/social/link/apple', async (req, reply) => {
     const userId = userIdOf(req);
-    const { appleSub } = req.body;
-    if (!appleSub || appleSub.length < 6) return reply.code(400).send({ error: 'Bad subject' });
+    const body = parse(schemas.linkApple, req.body, reply);
+    if (!body) return reply;
 
-    const existing = await prisma.user.findUnique({ where: { appleSub } });
-    if (existing && existing.id !== userId) {
-      await prisma.$transaction([
-        prisma.device.updateMany({ where: { userId }, data: { userId: existing.id } }),
-        // Discoveries are unique per (user, poi); collisions mean the place was
-        // already found on the other account, so the anonymous row is dropped.
-        prisma.discovery.deleteMany({
-          where: {
-            userId,
-            poiId: {
-              in: (
-                await prisma.discovery.findMany({
-                  where: { userId: existing.id },
-                  select: { poiId: true }
-                })
-              ).map((d) => d.poiId)
-            }
-          }
-        }),
-        prisma.discovery.updateMany({ where: { userId }, data: { userId: existing.id } }),
-        prisma.user.delete({ where: { id: userId } })
-      ]);
-      await recomputeStats(existing.id);
-      return { id: existing.id, merged: true };
+    let appleSub: string;
+    try {
+      appleSub = (await verifyAppleIdentityToken(body.identityToken)).sub;
+    } catch (e) {
+      if (e instanceof AppleTokenError) {
+        return reply.code(401).send({ error: 'Invalid Apple identity token' });
+      }
+      if (e instanceof AppleKeysUnavailableError) {
+        return reply.code(503).send({ error: 'Apple sign-in is unavailable, try again later' });
+      }
+      throw e;
     }
 
-    const user = await prisma.user.update({ where: { id: userId }, data: { appleSub } });
-    return { id: user.id, merged: false };
+    const result = await prisma.$transaction((tx) => linkApple(tx, userId, appleSub), {
+      timeout: 15_000
+    });
+    if (result.kind === 'conflict') {
+      return reply.code(409).send({ error: 'Account is already linked to a different Apple ID' });
+    }
+    return { id: result.id, merged: result.kind === 'merged' };
   });
 
   // --- discoveries --------------------------------------------------------
@@ -110,39 +222,56 @@ export const socialRoutes: FastifyPluginAsync = async (app) => {
    * Records that this person opened this place. Idempotent: opening a card twice
    * is not two discoveries, which is what keeps the counters honest.
    */
-  app.post<{ Body: { poiId: string; flightId?: string } }>(
-    '/social/discoveries',
-    async (req, reply) => {
-      const userId = userIdOf(req);
-      const { poiId, flightId } = req.body;
-      if (!poiId) return reply.code(400).send({ error: 'poiId required' });
+  app.post('/social/discoveries', async (req, reply) => {
+    const userId = userIdOf(req);
+    const body = parse(schemas.discovery, req.body, reply);
+    if (!body) return reply;
+    const { poiId: place, flightId } = body;
 
-      const existing = await prisma.discovery.findUnique({
-        where: { userId_poiId: { userId, poiId } }
-      });
-      if (existing) return { created: false };
-
-      await prisma.$transaction([
-        prisma.discovery.create({ data: { userId, poiId, flightId: flightId ?? null } }),
-        prisma.pOIStat.upsert({
-          where: { poiId },
-          create: { poiId, discoveryCount: 1 },
-          update: { discoveryCount: { increment: 1 } }
-        })
-      ]);
-      await recomputeStats(userId);
-      return { created: true };
+    // Counted before anything else: past the cap there is nothing to look up.
+    const today = await prisma.discovery.count({
+      where: { userId, discoveredAt: { gte: startOfUtcDay() } }
+    });
+    if (today >= MAX_DISCOVERIES_PER_DAY) {
+      return reply.code(429).send({ error: 'Daily discovery limit reached' });
     }
-  );
+    if (!(await placeExists(place))) {
+      return reply.code(404).send({ error: 'Unknown place' });
+    }
+
+    let created: boolean;
+    try {
+      created = await prisma.$transaction(async (tx) => {
+        const existing = await tx.discovery.findUnique({
+          where: { userId_poiId: { userId, poiId: place } }
+        });
+        if (existing) return false;
+        await tx.discovery.create({ data: { userId, poiId: place, flightId: flightId ?? null } });
+        await tx.pOIStat.upsert({
+          where: { poiId: place },
+          create: { poiId: place, discoveryCount: 1 },
+          update: { discoveryCount: { increment: 1 } }
+        });
+        return true;
+      });
+    } catch (e) {
+      // The same card opened twice at once: the other request recorded it.
+      if (!isUniqueViolation(e)) throw e;
+      created = false;
+    }
+    if (created) await recomputeStats(prisma, userId);
+    return { created };
+  });
 
   /**
    * The passive-social numbers shown on a place card: how many people have been
    * here, and how rare that makes it.
    */
-  app.get<{ Params: { poiId: string } }>('/social/pois/:poiId/stats', async (req) => {
-    const { poiId } = req.params;
+  app.get('/social/pois/:poiId/stats', async (req, reply) => {
+    const params = parse(schemas.poiParams, req.params, reply);
+    if (!params) return reply;
     const [stat, totalUsers] = await Promise.all([
-      prisma.pOIStat.findUnique({ where: { poiId } }),
+      prisma.pOIStat.findUnique({ where: { poiId: params.poiId } }),
       prisma.user.count()
     ]);
     const discoveries = stat?.discoveryCount ?? 0;
@@ -157,121 +286,126 @@ export const socialRoutes: FastifyPluginAsync = async (app) => {
 
   // --- reviews ------------------------------------------------------------
 
-  app.get<{ Params: { poiId: string }; Querystring: { cursor?: string } }>(
-    '/social/pois/:poiId/reviews',
-    async (req) => {
-      const { poiId } = req.params;
-      const rows = await prisma.review.findMany({
-        where: { poiId, hiddenAt: null },
-        orderBy: { createdAt: 'desc' },
-        take: REVIEW_PAGE,
-        ...(req.query.cursor ? { cursor: { id: req.query.cursor }, skip: 1 } : {}),
-        include: {
-          user: { select: { id: true, handle: true, avatarUrl: true } },
-          _count: { select: { votes: true } }
-        }
-      });
-      return {
-        reviews: rows.map((r) => ({
-          id: r.id,
-          rating: r.rating,
-          body: r.body,
-          createdAt: r.createdAt,
-          helpful: r._count.votes,
-          author: { id: r.user.id, handle: r.user.handle, avatarUrl: r.user.avatarUrl }
-        })),
-        nextCursor: rows.length === REVIEW_PAGE ? rows[rows.length - 1]!.id : null
-      };
-    }
-  );
+  app.get('/social/pois/:poiId/reviews', async (req, reply) => {
+    const params = parse(schemas.poiParams, req.params, reply);
+    if (!params) return reply;
+    const query = parse(schemas.reviewsQuery, req.query, reply);
+    if (!query) return reply;
+    const rows = await prisma.review.findMany({
+      where: { poiId: params.poiId, hiddenAt: null },
+      orderBy: { createdAt: 'desc' },
+      take: REVIEW_PAGE,
+      ...(query.cursor ? { cursor: { id: query.cursor }, skip: 1 } : {}),
+      include: {
+        user: { select: { id: true, handle: true, avatarUrl: true } },
+        _count: { select: { votes: true } }
+      }
+    });
+    return {
+      reviews: rows.map((r) => ({
+        id: r.id,
+        rating: r.rating,
+        body: r.body,
+        createdAt: r.createdAt,
+        helpful: r._count.votes,
+        author: { id: r.user.id, handle: r.user.handle, avatarUrl: r.user.avatarUrl }
+      })),
+      nextCursor: rows.length === REVIEW_PAGE ? rows[rows.length - 1]!.id : null
+    };
+  });
 
   /** One review per person per place — writing again replaces the previous one. */
-  app.put<{ Params: { poiId: string }; Body: { rating: number; body?: string } }>(
-    '/social/pois/:poiId/review',
-    async (req, reply) => {
-      const userId = userIdOf(req);
-      const { poiId } = req.params;
-      const rating = Math.round(Number(req.body.rating));
-      if (!Number.isFinite(rating) || rating < 1 || rating > 5) {
-        return reply.code(400).send({ error: 'Rating must be 1–5' });
-      }
-      const body = req.body.body?.trim().slice(0, MAX_BODY) || null;
+  app.put('/social/pois/:poiId/review', async (req, reply) => {
+    const userId = userIdOf(req);
+    const params = parse(schemas.poiParams, req.params, reply);
+    if (!params) return reply;
+    const body = parse(schemas.review, req.body, reply);
+    if (!body) return reply;
+    const { poiId: place } = params;
+    const { rating } = body;
+    const text = body.body || null;
 
-      const previous = await prisma.review.findUnique({
-        where: { userId_poiId: { userId, poiId } }
+    if (!(await placeExists(place))) {
+      return reply.code(404).send({ error: 'Unknown place' });
+    }
+
+    // Read and write together, so the counters move by exactly what changed.
+    const { review, previous } = await prisma.$transaction(async (tx) => {
+      const previous = await tx.review.findUnique({
+        where: { userId_poiId: { userId, poiId: place } }
       });
-
-      const review = await prisma.review.upsert({
-        where: { userId_poiId: { userId, poiId } },
-        create: { userId, poiId, rating, body },
-        update: { rating, body, hiddenAt: null, hiddenReason: null }
-      });
-
-      await prisma.pOIStat.upsert({
-        where: { poiId },
-        create: { poiId, reviewCount: 1, ratingSum: rating },
+      // Editing leaves moderation alone: clearing `hiddenAt` here let anyone
+      // republish a hidden review by saving it again.
+      const review = previous
+        ? await tx.review.update({ where: { id: previous.id }, data: { rating, body: text } })
+        : await tx.review.create({ data: { userId, poiId: place, rating, body: text } });
+      await tx.pOIStat.upsert({
+        where: { poiId: place },
+        create: { poiId: place, reviewCount: 1, ratingSum: rating },
         update: previous
           ? { ratingSum: { increment: rating - previous.rating } }
           : { reviewCount: { increment: 1 }, ratingSum: { increment: rating } }
       });
+      return { review, previous };
+    });
 
-      return { id: review.id, replaced: Boolean(previous) };
-    }
-  );
-
-  app.delete<{ Params: { poiId: string } }>('/social/pois/:poiId/review', async (req) => {
-    const userId = userIdOf(req);
-    const { poiId } = req.params;
-    const existing = await prisma.review.findUnique({ where: { userId_poiId: { userId, poiId } } });
-    if (!existing) return { deleted: false };
-
-    await prisma.$transaction([
-      prisma.review.delete({ where: { id: existing.id } }),
-      prisma.pOIStat.update({
-        where: { poiId },
-        data: { reviewCount: { decrement: 1 }, ratingSum: { decrement: existing.rating } }
-      })
-    ]);
-    return { deleted: true };
+    return { id: review.id, replaced: Boolean(previous) };
   });
 
-  app.post<{ Params: { id: string }; Body: { helpful?: boolean } }>(
-    '/social/reviews/:id/vote',
-    async (req) => {
-      const userId = userIdOf(req);
-      const helpful = req.body.helpful !== false;
-      await prisma.reviewVote.upsert({
-        where: { reviewId_userId: { reviewId: req.params.id, userId } },
-        create: { reviewId: req.params.id, userId, helpful },
-        update: { helpful }
+  app.delete('/social/pois/:poiId/review', async (req, reply) => {
+    const userId = userIdOf(req);
+    const params = parse(schemas.poiParams, req.params, reply);
+    if (!params) return reply;
+    const { poiId: place } = params;
+
+    const deleted = await prisma.$transaction(async (tx) => {
+      const existing = await tx.review.findUnique({ where: { userId_poiId: { userId, poiId: place } } });
+      if (!existing) return false;
+      await tx.review.delete({ where: { id: existing.id } });
+      await tx.pOIStat.updateMany({
+        where: { poiId: place },
+        data: { reviewCount: { decrement: 1 }, ratingSum: { decrement: existing.rating } }
       });
-      return { ok: true };
-    }
-  );
+      return true;
+    });
+    return { deleted };
+  });
+
+  app.post('/social/reviews/:id/vote', async (req, reply) => {
+    const userId = userIdOf(req);
+    const params = parse(schemas.idParams, req.params, reply);
+    if (!params) return reply;
+    const body = parse(schemas.vote, req.body, reply);
+    if (!body) return reply;
+    const helpful = body.helpful !== false;
+    await prisma.reviewVote.upsert({
+      where: { reviewId_userId: { reviewId: params.id, userId } },
+      create: { reviewId: params.id, userId, helpful },
+      update: { helpful }
+    });
+    return { ok: true };
+  });
 
   /**
    * Abuse report. Required by App Store Guideline 1.2 for user-generated
    * content, and the only way a moderator learns anything is wrong.
    */
-  app.post<{ Params: { id: string }; Body: { reason: string; note?: string } }>(
-    '/social/reviews/:id/report',
-    async (req, reply) => {
-      const userId = userIdOf(req);
-      const reason = req.body.reason;
-      if (!REPORT_REASONS.includes(reason as (typeof REPORT_REASONS)[number])) {
-        return reply.code(400).send({ error: 'Unknown reason', allowed: REPORT_REASONS });
+  app.post('/social/reviews/:id/report', async (req, reply) => {
+    const userId = userIdOf(req);
+    const params = parse(schemas.idParams, req.params, reply);
+    if (!params) return reply;
+    const body = parse(schemas.report, req.body, reply);
+    if (!body) return reply;
+    await prisma.report.create({
+      data: {
+        reporterId: userId,
+        reviewId: params.id,
+        reason: body.reason,
+        note: body.note || null
       }
-      await prisma.report.create({
-        data: {
-          reporterId: userId,
-          reviewId: req.params.id,
-          reason,
-          note: req.body.note?.slice(0, MAX_BODY) ?? null
-        }
-      });
-      return { ok: true };
-    }
-  );
+    });
+    return { ok: true };
+  });
 
   // --- people -------------------------------------------------------------
 
@@ -299,9 +433,11 @@ export const socialRoutes: FastifyPluginAsync = async (app) => {
   });
 
   /** A public profile: what someone chose to be called, and what they have seen. */
-  app.get<{ Params: { id: string } }>('/social/users/:id', async (req, reply) => {
+  app.get('/social/users/:id', async (req, reply) => {
+    const params = parse(schemas.idParams, req.params, reply);
+    if (!params) return reply;
     const user = await prisma.user.findUnique({
-      where: { id: req.params.id },
+      where: { id: params.id },
       include: { stats: true }
     });
     if (!user || user.suspendedAt) return reply.code(404).send({ error: 'Not found' });
@@ -327,26 +463,31 @@ export const socialRoutes: FastifyPluginAsync = async (app) => {
       id: user.id,
       handle: user.handle,
       avatarUrl: user.avatarUrl,
-      joinedAt: user.createdAt,
+      joinedAt: toMonth(user.createdAt),
       stats: user.stats ?? emptyStats(user.id),
       // null, never the id: the client shows a neutral label instead.
-      recent: recent.map((d) => ({ ...d, name: nameOf.get(d.poiId) ?? null }))
+      recent: recent.map((d) => ({
+        poiId: d.poiId,
+        discoveredAt: toMonth(d.discoveredAt),
+        name: nameOf.get(d.poiId) ?? null
+      }))
     };
   });
 
-  app.post<{ Params: { id: string }; Body: { blocked?: boolean } }>(
-    '/social/users/:id/follow',
-    async (req, reply) => {
-      const userId = userIdOf(req);
-      if (userId === req.params.id) return reply.code(400).send({ error: 'Cannot follow yourself' });
-      await prisma.friendship.upsert({
-        where: { followerId_followedId: { followerId: userId, followedId: req.params.id } },
-        create: { followerId: userId, followedId: req.params.id, blocked: req.body.blocked ?? false },
-        update: { blocked: req.body.blocked ?? false }
-      });
-      return { ok: true };
-    }
-  );
+  app.post('/social/users/:id/follow', async (req, reply) => {
+    const userId = userIdOf(req);
+    const params = parse(schemas.idParams, req.params, reply);
+    if (!params) return reply;
+    const body = parse(schemas.follow, req.body, reply);
+    if (!body) return reply;
+    if (userId === params.id) return reply.code(400).send({ error: 'Cannot follow yourself' });
+    await prisma.friendship.upsert({
+      where: { followerId_followedId: { followerId: userId, followedId: params.id } },
+      create: { followerId: userId, followedId: params.id, blocked: body.blocked ?? false },
+      update: { blocked: body.blocked ?? false }
+    });
+    return { ok: true };
+  });
 
   app.get('/social/friends', async (req) => {
     const userId = userIdOf(req);
@@ -377,22 +518,4 @@ function emptyStats(userId: string) {
     xp: 0,
     level: 1
   };
-}
-
-/**
- * Recomputes a person's leaderboard row.
- *
- * Cheap enough to run on every discovery, and running it there means the board
- * is never stale — the alternative is a nightly job that makes the number a
- * person just earned invisible until tomorrow.
- */
-async function recomputeStats(userId: string): Promise<void> {
-  const places = await prisma.discovery.count({ where: { userId } });
-  const xp = places * 10;
-  const level = Math.max(1, Math.floor(xp / 200) + 1);
-  await prisma.userStats.upsert({
-    where: { userId },
-    create: { userId, placesDiscovered: places, xp, level },
-    update: { placesDiscovered: places, xp, level }
-  });
 }

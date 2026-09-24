@@ -1,7 +1,8 @@
 module.exports = function (api) {
   api.cache(true);
   return {
-    presets: ['babel-preset-expo'],
-    plugins: ['react-native-worklets/plugin']
+    // zustand's ESM build reads `import.meta.env`; the web bundle is a classic
+    // script, so it has to be rewritten. Native bundles are unaffected.
+    presets: [['babel-preset-expo', { unstable_transformImportMeta: true }]]
   };
 };

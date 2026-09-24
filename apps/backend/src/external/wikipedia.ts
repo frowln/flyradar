@@ -1,3 +1,5 @@
+import { isSupportedLocale } from '../locales.js';
+
 export interface WikiSummary {
   extract: string;
   thumbnail?: string;
@@ -18,6 +20,11 @@ export interface WikiSummary {
 
 const MIN_GAP_MS = 500;
 const ATTEMPTS = 3;
+/**
+ * Per request. Without it a stalled connection held a package build open
+ * indefinitely, and the app polled a job that never finished.
+ */
+const TIMEOUT_MS = 8_000;
 /** Used when the response carries no `Retry-After`; doubles per attempt. */
 const BACKOFF_MS = 1_500;
 
@@ -43,7 +50,17 @@ export function resetWikiStats(): void {
   missing = 0;
 }
 
+/**
+ * The language becomes part of a hostname, so it is checked against the closed
+ * list of languages the app ships — a well-formed but unexpected subdomain is
+ * still somewhere this server has no reason to call.
+ */
+export function isWikiLang(lang: string): boolean {
+  return /^[a-z]{2,3}$/.test(lang) && isSupportedLocale(lang);
+}
+
 export async function fetchWikiSummary(title: string, lang = 'en'): Promise<WikiSummary | null> {
+  if (!isWikiLang(lang)) return null;
   const url = `https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`;
   try {
     let r: Response | null = null;
@@ -52,7 +69,8 @@ export async function fetchWikiSummary(title: string, lang = 'en'): Promise<Wiki
       r = await fetch(url, {
         // Wikimedia asks callers to identify themselves and throttles anonymous
         // traffic harder.
-        headers: { 'User-Agent': 'SkyAtlas/1.0 (flight companion; contact via skyatlas.app)' }
+        headers: { 'User-Agent': 'SkyAtlas/1.0 (flight companion; contact via skyatlas.app)' },
+        signal: AbortSignal.timeout(TIMEOUT_MS)
       });
       if (r.status !== 429) break;
       throttled++;

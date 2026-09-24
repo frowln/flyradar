@@ -8,9 +8,25 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '20', cache: 'npm' }
       - run: npm ci
+      # Prisma 7 no longer generates the client on install; without this the
+      # tests and tsc run against a missing @prisma/client and fail.
+      - run: npx prisma generate
+        working-directory: apps/backend
       - run: npm test --workspace apps/backend
-      - run: cd apps/backend && npx tsc --noEmit
-      - run: cd apps/backend && npm run build
+      - run: npx tsc --noEmit
+        working-directory: apps/backend
+      - run: npm run build
+        working-directory: apps/backend
+  backend-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Built from the repository root, exactly as docker-compose.prod.yml does:
+      # the image installs from the root workspace lockfile.
+      - run: docker build -f apps/backend/Dockerfile -t skyatlas-backend:ci .
+      # The entrypoint runs `prisma migrate deploy` on every start, so the CLI
+      # and its schema engine must have survived into the runtime image.
+      - run: docker run --rm --entrypoint sh skyatlas-backend:ci -c "npx --no prisma version >/dev/null && node -e \"import('@prisma/client').then(() => console.log('ok'))\""
   mobile:
     runs-on: ubuntu-latest
     steps:
@@ -24,5 +40,8 @@ jobs:
       # i18n-js renders a missing key as visible placeholder text rather than
       # failing, so nothing else catches an untranslated string before release.
       - run: cd apps/mobile && npm run check:i18n
+      # The bundled datasets are generated, not hand-edited; this catches a
+      # regenerated file that broke the schema, a size budget or a border check.
+      - run: cd apps/mobile && npm run check:data
       - run: cd apps/mobile && npx tsc --noEmit
       - run: cd apps/mobile && npx vitest run

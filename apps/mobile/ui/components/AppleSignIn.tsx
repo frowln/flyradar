@@ -46,9 +46,9 @@ export default function AppleSignIn({ onLinked }: Props) {
       const credential = await AppleAuthentication.signInAsync({
         requestedScopes: [AppleAuthentication.AppleAuthenticationScope.FULL_NAME]
       });
-      if (!credential.user) throw new Error('No subject returned');
+      if (!credential.identityToken) throw new Error('No identity token returned');
 
-      const result = await social.linkApple(credential.user);
+      const result = await social.linkApple(credential.identityToken);
       if (!result) throw new Error('Link failed');
 
       // Apple only returns the name on the very first authorisation, so it is

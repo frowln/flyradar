@@ -1,156 +1,198 @@
-import { useRef, useState, useCallback } from 'react';
+import { useRef, useState, useCallback, useMemo } from 'react';
 import { View, ScrollView, StyleSheet, useWindowDimensions, Animated } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Display, Label, Body, DataSmall } from '../design/type';
-import { Screen, Gutter, Space, ActionBar, PressSurface } from '../design/layout';
+import { Display, Label, Body, Title, Small, DataSmall } from '../design/type';
+import { Screen, Gutter, Space, ActionBar, PressSurface, Row } from '../design/layout';
 import { useReveal } from '../motion';
-import Dial from '../components/Dial';
-import PlaceFigure from '../components/PlaceFigure';
 import Stamp from '../components/Stamp';
+import SideMark from '../components/SideMark';
+import RouteSketch from '../components/RouteSketch';
 import { markOnboardingComplete } from '../onboardingState';
-import { initNotifications } from '../../src/core/ux/notifications';
-import { t } from '../../src/i18n';
+import { buildRoute } from '../../src/core/route/profile';
+import { airportByIata } from '../../src/core/data/datasets';
+import { demoRoute, startDemo } from '../../src/core/offline/demo';
+import { t, getLocale } from '../../src/i18n';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Onboarding'>;
 
 /**
- * Three panels, each showing the actual mechanism rather than an illustration
- * of one. The dial, the drawn terrain and the stamps on these screens are the
- * same components the app uses in earnest — so the promise and the product are
- * literally the same objects, and nothing here can drift out of date.
+ * Three panels, each showing the real mechanism rather than an illustration of
+ * one — the same route plate, side mark and stamps the app uses in earnest —
+ * and a last step that lets the passenger feel it: a four-minute demo flight.
  */
 export default function OnboardingScreen() {
   const nav = useNavigation<Nav>();
   const { width } = useWindowDimensions();
   const scroller = useRef<ScrollView>(null);
   const [page, setPage] = useState(0);
+  const [busy, setBusy] = useState(false);
   const reveal = useReveal();
+  const locale = getLocale();
+
+  const route = useMemo(() => {
+    try {
+      const [a, b] = demoRoute(locale);
+      const from = airportByIata(a);
+      const to = airportByIata(b);
+      return from && to ? buildRoute({ from, to }).route : null;
+    } catch {
+      return null;
+    }
+  }, [locale]);
 
   const panels = [
     {
-      key: 'beneath',
-      title: t('onboard.beneathTitle'),
-      body: t('onboard.beneathBody'),
-      art: <PlaceFigure category="mountain" seed="onboarding-ridge" height={210} />
+      key: 'window',
+      title: t('onboard.windowTitle'),
+      body: t('onboard.windowBody'),
+      art: route ? (
+        <RouteSketch route={route} width={width} height={230} flownS={route[Math.floor(route.length * 0.45)]!.elapsedSeconds} plane={route[Math.floor(route.length * 0.45)]!} />
+      ) : null
     },
     {
-      key: 'offline',
-      title: t('onboard.offlineTitle'),
-      body: t('onboard.offlineBody'),
+      key: 'side',
+      title: t('onboard.sideTitle'),
+      body: t('onboard.sideBody'),
       art: (
-        <View style={styles.artCenter}>
-          <Dial size={220} progress={0.62} reading="6:12" caption={t('onboard.offlineCaption')} />
+        <View style={styles.sideArt}>
+          <Row gap={s.x6}>
+            <View style={styles.sideCol}>
+              <SideMark side="left" size={56} />
+              <Space h={s.x2} />
+              <Label tone="accent">{t('side.left')}</Label>
+              <DataSmall allowFontScaling={false}>{t('onboard.sideLeftSample')}</DataSmall>
+            </View>
+            <View style={styles.sideCol}>
+              <SideMark side="right" size={56} color={palette.inkDim} />
+              <Space h={s.x2} />
+              <Label tone="dim">{t('side.right')}</Label>
+              <DataSmall allowFontScaling={false}>{t('onboard.sideRightSample')}</DataSmall>
+            </View>
+          </Row>
         </View>
       )
     },
     {
-      key: 'atlas',
-      title: t('onboard.atlasTitle'),
-      body: t('onboard.atlasBody'),
+      key: 'passport',
+      title: t('onboard.passportTitle'),
+      body: t('onboard.passportBody'),
       art: (
         <View style={styles.stamps}>
-          {['SG', 'MY', 'IN', 'AF', 'TR', 'DE'].map((code, i) => (
-            <Stamp key={code} code={code} locked={i > 3} />
+          {['RU', 'GE', 'TR', 'CY', 'EG', 'SA'].map((code, i) => (
+            <Stamp key={code} code={code} kind={i === 2 ? 'landed' : i > 3 ? 'locked' : 'overflown'} stampDelay={200 + i * 180} />
           ))}
         </View>
       )
     }
   ];
 
-  const goNext = useCallback(() => {
-    if (page < panels.length - 1) {
-      scroller.current?.scrollTo({ x: width * (page + 1), animated: true });
-      setPage(page + 1);
-      return;
-    }
-    markOnboardingComplete();
-    // Asked at the end, once the value is understood — a permission prompt on
-    // launch is refused far more often than one that has been earned.
-    initNotifications().catch(() => {});
-    nav.replace('Tabs');
-  }, [page, panels.length, width, nav]);
+  const last = page === panels.length - 1;
 
-  const skip = useCallback(() => {
-    markOnboardingComplete();
-    nav.replace('Tabs');
-  }, [nav]);
+  const next = useCallback(() => {
+    const target = Math.min(panels.length - 1, page + 1);
+    scroller.current?.scrollTo({ x: target * width, animated: true });
+    setPage(target);
+  }, [page, width, panels.length]);
+
+  const finish = useCallback(
+    (to: 'add' | 'demo') => {
+      markOnboardingComplete();
+      if (to === 'add') {
+        nav.reset({ index: 1, routes: [{ name: 'Tabs' }, { name: 'AddFlight' }] });
+        return;
+      }
+      setBusy(true);
+      startDemo(locale)
+        .then((pkg) => nav.reset({ index: 1, routes: [{ name: 'Tabs' }, { name: 'InFlight', params: { flightId: pkg.flight.id } }] }))
+        .catch(() => nav.reset({ index: 0, routes: [{ name: 'Tabs' }] }))
+        .finally(() => setBusy(false));
+    },
+    [nav, locale]
+  );
 
   return (
     <Screen>
-      <View style={styles.head}>
-        <Gutter style={styles.headRow}>
+      <Animated.View style={[styles.flex, reveal]}>
+        <Gutter style={styles.head}>
           <Label tone="accent" style={styles.wordmark}>
             SKYATLAS
           </Label>
-          <PressSurface onPress={skip} accessibilityLabel={t('onboard.skip')} style={styles.skip}>
+          <PressSurface onPress={() => finish('add')} accessibilityLabel={t('onboard.skip')} style={styles.skip}>
             <Label tone="dim">{t('onboard.skip')}</Label>
           </PressSurface>
         </Gutter>
-      </View>
 
-      <ScrollView
-        ref={scroller}
-        horizontal
-        pagingEnabled
-        showsHorizontalScrollIndicator={false}
-        onMomentumScrollEnd={(e) =>
-          setPage(Math.round(e.nativeEvent.contentOffset.x / Math.max(1, width)))
-        }
-        style={styles.pager}
-      >
-        {panels.map((panel) => (
-          <View key={panel.key} style={[styles.panel, { width }]}>
-            <View style={styles.art}>{panel.art}</View>
-            <Animated.View style={reveal}>
+        <ScrollView
+          ref={scroller}
+          horizontal
+          pagingEnabled
+          showsHorizontalScrollIndicator={false}
+          onMomentumScrollEnd={(e) => setPage(Math.round(e.nativeEvent.contentOffset.x / width))}
+        >
+          {panels.map((p) => (
+            <View key={p.key} style={{ width }}>
+              <View style={styles.art}>{p.art}</View>
               <Gutter>
-                <Display>{panel.title}</Display>
+                <Space h={s.x6} />
+                <Display>{p.title}</Display>
                 <Space h={s.x3} />
                 <Body tone="muted" style={styles.measure}>
-                  {panel.body}
+                  {p.body}
                 </Body>
               </Gutter>
-            </Animated.View>
-          </View>
-        ))}
-      </ScrollView>
+            </View>
+          ))}
+        </ScrollView>
 
-      <View style={styles.dots}>
-        {panels.map((panel, i) => (
-          <View key={panel.key} style={[styles.dot, i === page && styles.dotOn]} />
-        ))}
-      </View>
+        <Row gap={s.x2} style={styles.dots}>
+          {panels.map((p, i) => (
+            <View key={p.key} style={[styles.dot, i === page && styles.dotOn]} />
+          ))}
+        </Row>
+      </Animated.View>
 
-      <ActionBar
-        label={page === panels.length - 1 ? t('onboard.begin') : t('common.next')}
-        onPress={goNext}
-      />
+      {last ? (
+        <View>
+          <PressSurface onPress={() => finish('demo')} accessibilityLabel={t('onboard.demo')} style={styles.demo}>
+            <View style={styles.flex}>
+              <Title>{busy ? t('common.loading') : t('onboard.demo')}</Title>
+              <Small>{t('onboard.demoHint')}</Small>
+            </View>
+            <Label tone="accent">›</Label>
+          </PressSurface>
+          <ActionBar label={t('onboard.addFlight')} onPress={() => finish('add')} />
+        </View>
+      ) : (
+        <ActionBar label={t('onboard.next')} onPress={next} />
+      )}
     </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  head: { paddingTop: s.x3, paddingBottom: s.x2 },
-  headRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  flex: { flex: 1 },
+  head: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: s.x3 },
   wordmark: { letterSpacing: 3.5 },
-  skip: { paddingVertical: s.x2, paddingLeft: s.x4 },
-
-  pager: { flex: 1 },
-  panel: { flex: 1, justifyContent: 'center' },
-  art: { marginBottom: s.x10 },
-  artCenter: { alignItems: 'center' },
-  stamps: {
+  skip: { paddingVertical: s.x1, paddingLeft: s.x4 },
+  art: { height: 230, justifyContent: 'center', borderTopWidth: line.hair, borderBottomWidth: line.hair, borderColor: palette.rule, backgroundColor: palette.void },
+  measure: { maxWidth: 360 },
+  sideArt: { alignItems: 'center', justifyContent: 'center' },
+  sideCol: { alignItems: 'center', width: 130 },
+  stamps: { flexDirection: 'row', flexWrap: 'wrap', gap: s.x3, paddingHorizontal: gutter, justifyContent: 'center' },
+  dots: { justifyContent: 'center', paddingVertical: s.x4 },
+  dot: { width: 14, height: 2, backgroundColor: palette.rule },
+  dotOn: { backgroundColor: palette.amber, width: 24 },
+  demo: {
     flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: s.x2,
+    alignItems: 'center',
+    gap: s.x3,
     paddingHorizontal: gutter,
-    justifyContent: 'center'
-  },
-  measure: { maxWidth: 340 },
-
-  dots: { flexDirection: 'row', justifyContent: 'center', gap: s.x2, paddingVertical: s.x5 },
-  dot: { width: 5, height: 2, backgroundColor: palette.rule },
-  dotOn: { width: 18, backgroundColor: palette.amber }
+    paddingVertical: s.x4,
+    borderTopWidth: line.hair,
+    borderTopColor: palette.rule,
+    backgroundColor: palette.warm
+  }
 });

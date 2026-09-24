@@ -1,16 +1,19 @@
 import { useState, useCallback } from 'react';
-import { View, ScrollView, StyleSheet, Animated, Linking } from 'react-native';
-import Constants from 'expo-constants';
+import { View, ScrollView, StyleSheet, Linking, Alert } from 'react-native';
+import appConfig from '../../app.json';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Display, Label, Body, DataSmall } from '../design/type';
+import { Label, Body, DataSmall, Small, Title } from '../design/type';
 import { Screen, Gutter, Space, PressSurface, Rule } from '../design/layout';
-import { useReveal } from '../motion';
 import AppleSignIn from '../components/AppleSignIn';
+import { settings, type AlertLevel, type Units } from '../../src/core/settings';
 import { isProCached } from '../../src/core/monetization/entitlement';
-import { collectionsStore } from '../../src/core/gamification/collections';
-import { setTheme, getTheme } from '../../src/theme/colors';
+import { MONETIZATION_ENABLED } from '../../src/core/monetization/revenueCat';
+import { SOCIAL_ENABLED } from '../../src/core/features';
+import { notificationPermission } from '../../src/core/ux/notifications';
+import { gpsPermission } from '../../src/core/flight/gps';
+import { clearJournal } from '../../src/core/game/journal';
 import { setLocale, getLocale, SUPPORTED_LOCALES, t } from '../../src/i18n';
 import { haptics } from '../../src/core/ux/haptics';
 import type { RootStackParamList } from '../../src/navigation/types';
@@ -26,192 +29,193 @@ const LOCALE_NAMES: Record<string, string> = {
   ja: '日本語'
 };
 
+const ALERTS: AlertLevel[] = ['few', 'more', 'off'];
+
 /**
- * Settings, as an instrument panel rather than a preferences pane.
- *
- * State is shown as a mono value on the right and cycled by tapping the row.
- * A platform Switch would import a second visual language — rounded, filled,
- * animated — into a product built entirely from rules and monospace, and it
- * would be the only such object in the app.
+ * Settings, as an instrument panel rather than a preferences pane: state is a
+ * mono value on the right, cycled by tapping the row. Every row here changes
+ * what the app does — there are no switches that nothing reads.
  */
-function SettingRow({
-  label,
-  value,
-  onPress,
-  accent = false
-}: {
-  label: string;
-  value: string;
-  onPress: () => void;
-  accent?: boolean;
-}) {
+function SettingRow({ label, value, onPress, hint }: { label: string; value: string; onPress: () => void; hint?: string }) {
   return (
     <PressSurface
       onPress={() => {
-        haptics.light?.();
+        haptics.selection?.();
         onPress();
       }}
       accessibilityLabel={`${label}: ${value}`}
       style={styles.row}
     >
-      <Body style={styles.rowLabel}>{label}</Body>
-      <View style={styles.fill} />
-      <DataSmall tone={accent ? 'accent' : 'muted'} allowFontScaling={false}>
+      <View style={styles.flex}>
+        <Body>{label}</Body>
+        {hint ? <Small>{hint}</Small> : null}
+      </View>
+      <DataSmall tone="accent" allowFontScaling={false}>
         {value}
       </DataSmall>
     </PressSurface>
   );
 }
 
+function LinkRow({ label, onPress }: { label: string; onPress: () => void }) {
+  return (
+    <PressSurface onPress={onPress} accessibilityLabel={label} style={styles.row}>
+      <Body style={styles.flex}>{label}</Body>
+      <DataSmall allowFontScaling={false}>›</DataSmall>
+    </PressSurface>
+  );
+}
+
 export default function SettingsScreen() {
   const nav = useNavigation<Nav>();
-  const reveal = useReveal();
-
-  const [pro, setProState] = useState(isProCached());
   const [locale, setLoc] = useState(getLocale().slice(0, 2));
-  const [units, setUnits] = useState(collectionsStore.getUnits());
-  const [theme, setThm] = useState(getTheme());
-  const [kids, setKids] = useState(collectionsStore.isKidsMode());
-  const [sound, setSound] = useState(collectionsStore.getSoundEnabled());
-  const [facts, setFacts] = useState(collectionsStore.getDailyFactsEnabled());
+  const [units, setUnitsState] = useState<Units>(settings.getUnits());
+  const [alerts, setAlertsState] = useState<AlertLevel>(settings.getAlerts());
+  const [gps, setGps] = useState(settings.getUseGps());
+  const [guessing, setGuessing] = useState(settings.getGuessing());
+  const [narration, setNarration] = useState(settings.getNarration());
+  const [notif, setNotif] = useState<boolean | null>(null);
 
-  // Coming back from the paywall having bought: the row has to say so.
   useFocusEffect(
     useCallback(() => {
-      setProState(isProCached());
+      notificationPermission(false).then(setNotif);
     }, [])
   );
 
-  const cycleLocale = useCallback(() => {
-    const list = SUPPORTED_LOCALES as unknown as string[];
-    const next = list[(list.indexOf(locale) + 1) % list.length]!;
+  const cycleLocale = () => {
+    const i = SUPPORTED_LOCALES.indexOf(locale as (typeof SUPPORTED_LOCALES)[number]);
+    const next = SUPPORTED_LOCALES[(i + 1) % SUPPORTED_LOCALES.length]!;
     setLocale(next);
-    collectionsStore.setLanguage(next);
     setLoc(next);
-  }, [locale]);
+    // Screens read strings at render; a reset re-renders the whole tree in the new language.
+    nav.reset({ index: 0, routes: [{ name: 'Tabs', params: { screen: 'Atlas' } }, { name: 'Settings' }] });
+  };
 
-  const onOff = (v: boolean) => (v ? t('common.on') : t('common.off'));
+  const version = appConfig.expo.version;
 
   return (
     <Screen>
+      <View style={styles.top}>
+        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')} style={styles.back}>
+          <Label tone="muted">{`‹ ${t('common.back')}`}</Label>
+        </PressSurface>
+      </View>
       <ScrollView contentContainerStyle={styles.scroll}>
-        <Animated.View style={reveal}>
-          <Gutter style={styles.head}>
-            <Label tone="dim">{t('nav.settings')}</Label>
-            <PressSurface
-              onPress={() => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs'))}
-              accessibilityLabel={t('common.done')}
-              style={styles.close}
-            >
-              <Label tone="accent">{t('common.done')}</Label>
-            </PressSurface>
+        <Gutter>
+          <Space h={s.x4} />
+          <Title>{t('settings.title')}</Title>
+        </Gutter>
+
+        <Gutter style={styles.section}>
+          <Label tone="dim">{t('settings.general')}</Label>
+        </Gutter>
+        <Rule />
+        <SettingRow label={t('settings.language')} value={LOCALE_NAMES[locale] ?? locale} onPress={cycleLocale} />
+        <SettingRow
+          label={t('settings.units')}
+          value={t(`settings.units_${units}`)}
+          onPress={() => {
+            const next: Units = units === 'metric' ? 'imperial' : 'metric';
+            settings.setUnits(next);
+            setUnitsState(next);
+          }}
+        />
+
+        <Gutter style={styles.section}>
+          <Label tone="dim">{t('settings.inFlight')}</Label>
+        </Gutter>
+        <Rule />
+        <SettingRow
+          label={t('settings.alerts')}
+          hint={t(`settings.alerts_${alerts}_hint`)}
+          value={t(`settings.alerts_${alerts}`)}
+          onPress={() => {
+            const next = ALERTS[(ALERTS.indexOf(alerts) + 1) % ALERTS.length]!;
+            settings.setAlerts(next);
+            setAlertsState(next);
+            if (next !== 'off') notificationPermission(true).then(setNotif);
+          }}
+        />
+        {notif === false && alerts !== 'off' ? (
+          <Gutter style={styles.warn}>
+            <Small tone="accent">{t('settings.notificationsOff')}</Small>
           </Gutter>
+        ) : null}
+        <SettingRow
+          label={t('settings.gps')}
+          hint={t('settings.gpsHint')}
+          value={gps ? t('settings.on') : t('settings.off')}
+          onPress={() => {
+            const next = !gps;
+            settings.setUseGps(next);
+            setGps(next);
+            if (next) gpsPermission(true);
+          }}
+        />
 
-          <Space h={s.x5} />
-          <Gutter>
-            <Display>{t('settings.preferences')}</Display>
-          </Gutter>
+        <SettingRow
+          label={t('settings.guessing')}
+          hint={t('settings.guessingHint')}
+          value={guessing ? t('settings.on') : t('settings.off')}
+          onPress={() => {
+            settings.setGuessing(!guessing);
+            setGuessing(!guessing);
+          }}
+        />
+        <SettingRow
+          label={t('settings.narration')}
+          hint={t('settings.narrationHint')}
+          value={narration ? t('settings.on') : t('settings.off')}
+          onPress={() => {
+            settings.setNarration(!narration);
+            setNarration(!narration);
+          }}
+        />
 
-          <Space h={s.x6} />
-          <AppleSignIn />
+        {MONETIZATION_ENABLED ? (
+          <>
+            <Gutter style={styles.section}>
+              <Label tone="dim">{t('settings.subscription')}</Label>
+            </Gutter>
+            <Rule />
+            <SettingRow label="SkyAtlas Pro" value={isProCached() ? t('settings.active') : t('settings.free')} onPress={() => nav.navigate('Paywall')} />
+          </>
+        ) : null}
 
-          {/* The only entry to the paywall that does not require hitting a
-              limit first. Apple's reviewers look for it, and so does anyone who
-              simply decided to pay. */}
-          <Space h={s.x8} />
-          <Rule />
-          <SettingRow
-            label={t('settings.pro')}
-            value={pro ? t('settings.proActive') : t('settings.proInactive')}
-            accent={pro}
-            onPress={() => nav.navigate('Paywall')}
-          />
+        {SOCIAL_ENABLED ? (
+          <View style={styles.section}>
+            <AppleSignIn />
+          </View>
+        ) : null}
 
-          <Space h={s.x8} />
-          <Rule />
-          <SettingRow label={t('settings.language')} value={LOCALE_NAMES[locale] ?? locale} onPress={cycleLocale} />
-          <SettingRow
-            label={t('settings.units')}
-            value={units === 'km' ? t('settings.km') : t('settings.miles')}
-            onPress={() => {
-              const next = units === 'km' ? 'miles' : 'km';
-              collectionsStore.setUnits(next);
-              setUnits(next);
-            }}
-          />
-          <SettingRow
-            label={t('settings.theme')}
-            value={theme === 'dark' ? t('settings.themeDark') : t('settings.themeLight')}
-            onPress={() => {
-              const next = theme === 'dark' ? 'light' : 'dark';
-              setTheme(next);
-              setThm(next);
-            }}
-          />
-          <SettingRow
-            label={t('settings.kidsMode')}
-            value={onOff(kids)}
-            accent={kids}
-            onPress={() => {
-              collectionsStore.setKidsMode(!kids);
-              setKids(!kids);
-            }}
-          />
-          <SettingRow
-            label={t('settings.soundEffectsPlain')}
-            value={onOff(sound)}
-            accent={sound}
-            onPress={() => {
-              collectionsStore.setSoundEnabled(!sound);
-              setSound(!sound);
-            }}
-          />
-          <SettingRow
-            label={t('settings.dailyFacts')}
-            value={onOff(facts)}
-            accent={facts}
-            onPress={() => {
-              collectionsStore.setDailyFactsEnabled(!facts);
-              setFacts(!facts);
-            }}
-          />
-          <Rule />
-
-          <Space h={s.x8} />
-          <Gutter>
-            <Label tone="dim">{t('settings.legal')}</Label>
-          </Gutter>
-          <Space h={s.x3} />
-          <Rule soft />
-          <SettingRow
-            label={t('settings.privacyPolicy')}
-            value="↗"
-            onPress={() => Linking.openURL('https://skyatlas.app/privacy').catch(() => {})}
-          />
-          <SettingRow
-            label={t('settings.termsOfService')}
-            value="↗"
-            onPress={() => Linking.openURL('https://skyatlas.app/terms').catch(() => {})}
-          />
-
-          <Space h={s.x8} />
-          <Gutter>
-            <Label tone="dim">{t('settings.creditsTitle')}</Label>
-            <Space h={s.x3} />
-            <Body tone="dim" style={styles.credit}>
-              {t('settings.attributionWikipedia')}
-            </Body>
-            <Space h={s.x2} />
-            <Body tone="dim" style={styles.credit}>
-              {t('settings.attributionGeoNames')}
-            </Body>
-            <Space h={s.x5} />
-            <DataSmall tone="dim" allowFontScaling={false}>
-              {t('settings.version')} {Constants.expoConfig?.version ?? '1.0.0'}
-            </DataSmall>
-          </Gutter>
-        </Animated.View>
-
+        <Gutter style={styles.section}>
+          <Label tone="dim">{t('settings.about')}</Label>
+        </Gutter>
+        <Rule />
+        <LinkRow label={t('settings.privacy')} onPress={() => Linking.openURL('https://github.com/frowln/flyradar/blob/main/docs/legal/privacy-policy.md')} />
+        <LinkRow label={t('settings.terms')} onPress={() => Linking.openURL('https://github.com/frowln/flyradar/blob/main/docs/legal/terms-of-service.md')} />
+        <Gutter style={styles.credits}>
+          <Label tone="dim">{t('settings.dataSources')}</Label>
+          <Space h={s.x2} />
+          <Small>{t('settings.credits')}</Small>
+        </Gutter>
+        <Rule />
+        <PressSurface
+          onPress={() =>
+            Alert.alert(t('settings.resetTitle'), t('settings.resetBody'), [
+              { text: t('common.cancel'), style: 'cancel' },
+              { text: t('settings.reset'), style: 'destructive', onPress: () => clearJournal() }
+            ])
+          }
+          accessibilityLabel={t('settings.reset')}
+          style={styles.row}
+        >
+          <Body tone="bad">{t('settings.reset')}</Body>
+        </PressSurface>
+        <Rule />
+        <Gutter style={styles.version}>
+          <DataSmall allowFontScaling={false}>{`SkyAtlas ${version}`}</DataSmall>
+        </Gutter>
         <Space h={s.x12} />
       </ScrollView>
     </Screen>
@@ -219,10 +223,18 @@ export default function SettingsScreen() {
 }
 
 const styles = StyleSheet.create({
+  flex: { flex: 1 },
+  top: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: gutter,
+    paddingVertical: s.x3,
+    borderBottomWidth: line.hair,
+    borderBottomColor: palette.rule
+  },
+  back: { paddingVertical: s.x1, paddingRight: s.x4 },
   scroll: { paddingBottom: s.x8 },
-  head: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingTop: s.x3 },
-  close: { paddingVertical: s.x2, paddingLeft: s.x4 },
-
+  section: { paddingTop: s.x8, paddingBottom: s.x3 },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -232,7 +244,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: line.hair,
     borderBottomColor: palette.ruleSoft
   },
-  rowLabel: { flexShrink: 1 },
-  fill: { flex: 1 },
-  credit: { fontSize: 12, lineHeight: 18 }
+  warn: { paddingVertical: s.x2, backgroundColor: palette.warm },
+  credits: { paddingVertical: s.x4 },
+  version: { paddingVertical: s.x4 }
 });

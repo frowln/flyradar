@@ -1,244 +1,528 @@
-import { useEffect, useRef, useState, useCallback } from 'react';
-import { View, StyleSheet, Animated, Easing } from 'react-native';
-import { useNavigation, useRoute } from '@react-navigation/native';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { View, ScrollView, StyleSheet, Animated, Easing, Alert, Pressable, useWindowDimensions } from 'react-native';
+import * as Speech from 'expo-speech';
+import { useFocusEffect, useNavigation, useRoute, type RouteProp } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import type { RouteProp as NavRouteProp } from '@react-navigation/native';
+import type { OfflinePackage, POI, Moment } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Label, Title, Data, DataSmall, Body } from '../design/type';
-import { Screen, Cells, PressSurface, Space } from '../design/layout';
-import { useReveal, useReducedMotion } from '../motion';
-import Dial from '../components/Dial';
+import { Label, Title, Body, Data, DataSmall, Small } from '../design/type';
+import { Screen, Cells, PressSurface, Space, Row, Gutter } from '../design/layout';
+import { useReducedMotion } from '../motion';
 import RouteMap from '../components/RouteMap';
-import { useFlightStore } from '../../src/core/flight/flightStore';
-import { computePosition, computeHeading } from '../../src/core/flight/positionEngine';
-import { tryFetchLivePosition } from '../../src/core/flight/liveTracker';
-import { getNextPOI } from '../../src/core/flight/poiScheduler';
-import type { ScheduledPOI } from '../../src/core/flight/poiScheduler';
-import { viewingSide } from '../../src/core/geo/viewingSide';
+import RouteRule from '../components/RouteRule';
+import SideMark from '../components/SideMark';
+import { loadPackage } from '../../src/core/offline/packageStore';
+import { useSession } from '../../src/core/flight/session';
+import { positionNow, offsetFromFix, type Now } from '../../src/core/flight/position';
+import { whatsOutside, type InView } from '../../src/core/flight/nowView';
+import { nextGuess, type Guess } from '../../src/core/flight/guess';
+import { retimeTakeoff } from '../../src/core/flight/controller';
+import { watchGps } from '../../src/core/flight/gps';
+import { settings } from '../../src/core/settings';
+import { distinctCountries } from '../../src/core/places/countries';
+import { placeName, placeText, countryName } from '../../src/core/places/names';
+import { cityName } from '../../src/core/data/airports';
+import { km, metres } from '../../src/core/units';
 import { haversine } from '../../src/core/geo/greatCircle';
-import { collectionsStore } from '../../src/core/gamification/collections';
-import { analytics } from '../../src/core/analytics';
 import { haptics } from '../../src/core/ux/haptics';
 import { t, getLocale } from '../../src/i18n';
+import { clock, relative, timeAt } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
-import type { POI } from '@skyatlas/shared';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
-type R = NavRouteProp<RootStackParamList, 'InFlight'>;
+type R = RouteProp<RootStackParamList, 'InFlight'>;
 
 const TICK_MS = 5000;
 
-const placeName = (poi: POI) => {
-  const loc = getLocale().slice(0, 2) as keyof NonNullable<POI['translations']>;
-  return poi.translations?.[loc]?.name ?? poi.name;
-};
-
-function remainingLabel(seconds: number): string {
-  const mins = Math.max(0, Math.round(seconds / 60));
-  return `${Math.floor(mins / 60)}:${String(mins % 60).padStart(2, '0')}`;
+function momentTitle(m: Moment, pkg: OfflinePackage, locale: string): string {
+  if (m.kind === 'sight' && m.poiId) {
+    const poi = pkg.pois.find((p) => p.id === m.poiId);
+    return poi ? placeName(poi, locale) : '';
+  }
+  if (m.kind === 'border' && m.cc) return t('moment.border', { country: countryName(m.cc, locale) });
+  if (m.kind === 'line' && m.line) return t(`line.${m.line}`);
+  return t(`moment.${m.kind}`);
 }
 
+/** One side of the aircraft: what is out of that window now. */
+function SideColumn({
+  side,
+  items,
+  onOpen,
+  spotted
+}: {
+  side: 'left' | 'right';
+  items: InView[];
+  onOpen: (poi: POI) => void;
+  spotted: string[];
+}) {
+  const locale = getLocale();
+  return (
+    <View style={[styles.column, side === 'right' && styles.columnRight]}>
+      <Row gap={s.x2} style={styles.columnHead}>
+        <SideMark side={side} size={16} />
+        <Label tone="dim">{t(`side.${side}`)}</Label>
+      </Row>
+      {items.length === 0 ? (
+        <Small tone="muted" style={styles.columnEmpty}>
+          {t('aloft.nothingThisSide')}
+        </Small>
+      ) : (
+        items.map((v) => {
+          const d = km(v.distanceKm);
+          const got = spotted.includes(v.poi.id);
+          return (
+            <PressSurface key={v.poi.id} onPress={() => onOpen(v.poi)} accessibilityLabel={placeName(v.poi, locale)} style={styles.item}>
+              <Label tone={got ? 'brass' : 'accent'} numberOfLines={1}>
+                {`${t(`where.${v.where}`)} · ${d.value} ${t(`unit.${d.unit}`)}`}
+              </Label>
+              <Space h={s.x1} />
+              <Body numberOfLines={2}>{placeName(v.poi, locale)}</Body>
+              <Small numberOfLines={1}>{t(`category.${v.poi.category}`)}</Small>
+            </PressSurface>
+          );
+        })
+      )}
+    </View>
+  );
+}
+
+
 /**
- * Cruise.
- *
- * The map is the surface and the instruments sit on top of it, because the
- * question at 11 km is "what is that" long before it is "how long left".
- *
- * The old screen interrupted with a modal card whenever a place came near. This
- * one lights the rail instead: a passenger halfway through a film gets a signal
- * they can act on when they want, not a dialog they must dismiss. The rail stays
- * lit for as long as the place is in view, which is minutes, not seconds.
+ * "What is about to appear?" — asked a few minutes before a notable place.
+ * The answer is out of the window a minute later, which is the whole game.
  */
+function GuessCard({ guess, onAnswer }: { guess: Guess; onAnswer: (correct: boolean) => void }) {
+  const locale = getLocale();
+  const [picked, setPicked] = useState<number | null>(null);
+  const side = guess.poi.side ?? 'below';
+  const revealed = picked !== null;
+  const right = picked === guess.correctIdx;
+  return (
+    <View style={styles.guess}>
+      <Gutter>
+        <Row style={styles.spread}>
+          <Label tone="accent">{t('guess.label')}</Label>
+          <DataSmall allowFontScaling={false}>{relative(guess.inS)}</DataSmall>
+        </Row>
+        <Space h={s.x2} />
+        <Title>
+          {side === 'below'
+            ? t('guess.promptBelow', { kind: t(`category.${guess.poi.category}`) })
+            : t('guess.prompt', { side: t(`side.${side}`), kind: t(`category.${guess.poi.category}`) })}
+        </Title>
+      </Gutter>
+      <Space h={s.x3} />
+      {guess.options.map((o, i) => {
+        const isAnswer = i === guess.correctIdx;
+        return (
+          <Pressable
+            key={o.id}
+            disabled={revealed}
+            onPress={() => {
+              setPicked(i);
+              if (isAnswer) haptics.success();
+              else haptics.error();
+              // Let the reveal show for a beat before the card leaves.
+              setTimeout(() => onAnswer(isAnswer), 2600);
+            }}
+            accessibilityRole="button"
+            accessibilityLabel={placeName(o, locale)}
+            style={({ pressed }) => [
+              styles.guessOption,
+              pressed && styles.guessPressed,
+              revealed && isAnswer && styles.guessRight,
+              revealed && picked === i && !isAnswer && styles.guessWrong
+            ]}
+          >
+            <Body tone={revealed && isAnswer ? 'accent' : 'default'}>{placeName(o, locale)}</Body>
+          </Pressable>
+        );
+      })}
+      {revealed ? (
+        <Gutter style={styles.guessResult}>
+          <Small tone={right ? 'accent' : 'muted'}>{right ? t('guess.right') : t('guess.wrong', { name: placeName(guess.poi, locale) })}</Small>
+        </Gutter>
+      ) : null}
+    </View>
+  );
+}
+
 export default function AloftScreen() {
   const nav = useNavigation<Nav>();
-  const route = useRoute<R>();
-  const { flightId } = route.params;
-
-  const { activePackage, takeoffAt, currentPosition, updatePosition } = useFlightStore();
-  const [near, setNear] = useState<ScheduledPOI | null>(null);
-  const tick = useRef<ReturnType<typeof setInterval> | null>(null);
-  const lastAnnounced = useRef<string | null>(null);
-  const reveal = useReveal(120);
+  const { flightId } = useRoute<R>().params;
+  const { height } = useWindowDimensions();
+  const locale = getLocale();
+  const session = useSession();
+  const [pkg, setPkg] = useState<OfflinePackage | null>(null);
+  const [missing, setMissing] = useState(false);
+  const [now, setNow] = useState(() => Date.now());
+  const [retiming, setRetiming] = useState(false);
+  const landed = useRef(false);
   const reduced = useReducedMotion();
 
-  // A slow breath on the rail when a place is in view — the only ambient motion
-  // on the screen, and it stops the moment the place is opened.
+  useFocusEffect(
+    useCallback(() => {
+      let alive = true;
+      loadPackage(flightId).then((p) => {
+        if (!alive) return;
+        if (p) setPkg(p);
+        else setMissing(true);
+      });
+      const id = setInterval(() => setNow(Date.now()), TICK_MS);
+      return () => {
+        alive = false;
+        clearInterval(id);
+      };
+    }, [flightId])
+  );
+
+  const active = session.flightId === flightId && session.takeoffAt;
+  const takeoff = active ? new Date(session.takeoffAt!) : null;
+
+  // The phone's GPS, while this screen is open and the passenger allows it.
+  useEffect(() => {
+    if (!pkg || !takeoff || pkg.demo || !settings.getUseGps()) return;
+    let stop: (() => void) | null = null;
+    let alive = true;
+    watchGps((fix) => {
+      const offset = offsetFromFix(pkg.route, takeoff, fix, useSession.getState().timeMultiplier);
+      useSession.getState().applyFix(fix, offset);
+    }).then((s) => {
+      if (alive) stop = s;
+      else s?.();
+    });
+    return () => {
+      alive = false;
+      stop?.();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pkg, session.takeoffAt]);
+
+  const pos: Now | null = useMemo(
+    () =>
+      pkg && takeoff
+        ? positionNow(pkg.route, takeoff, new Date(now), {
+            multiplier: session.timeMultiplier,
+            clockOffsetS: session.clockOffsetS,
+            fix: session.lastFix
+          })
+        : null,
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [pkg, now, session.takeoffAt, session.timeMultiplier, session.clockOffsetS, session.lastFix]
+  );
+
+  const outside = useMemo(() => (pkg && pos ? whatsOutside(pkg, pos, takeoff) : null), [pkg, pos, takeoff]);
+
+  const [narrate, setNarrate] = useState(settings.getNarration());
+  const guess = useMemo(
+    () => (pkg && pos && settings.getGuessing() ? nextGuess(pkg, pos.elapsedS, session.guesses) : null),
+    [pkg, pos, session.guesses]
+  );
+
+  // One haptic when something new comes abeam — a tap on the wrist, not a
+  // dialog — and, with the audio guide on, its name and first lines aloud.
+  const lastAbeam = useRef<string | null>(null);
+  useEffect(() => {
+    const first = [...(outside?.left ?? []), ...(outside?.right ?? []), ...(outside?.below ?? [])].find(
+      (v) => (v.where === 'abeam' || v.where === 'below') && v.weight > 0.3
+    );
+    if (first && first.poi.id !== lastAbeam.current) {
+      lastAbeam.current = first.poi.id;
+      haptics.light?.();
+      if (narrate) {
+        const text = placeText(first.poi, locale);
+        const where = first.where === 'below' ? t('side.below') : t(`side.${first.poi.side ?? 'below'}`);
+        const lead = (text.summary.split(/(?<=[.!?。])\s/)[0] ?? '').slice(0, 280);
+        Speech.stop();
+        Speech.speak(`${where}: ${placeName(first.poi, locale)}. ${lead}`, { language: text.textLang ?? locale });
+      }
+    }
+  }, [outside, narrate, locale]);
+  useEffect(
+    () => () => {
+      Speech.stop();
+    },
+    []
+  );
+
+  useEffect(() => {
+    if (pos?.ended && !landed.current) {
+      landed.current = true;
+      nav.replace('FlightSummary', { flightId });
+    }
+  }, [pos?.ended, nav, flightId]);
+
   const pulse = useRef(new Animated.Value(0)).current;
   useEffect(() => {
-    if (!near || reduced) {
-      pulse.setValue(0);
-      return;
-    }
+    if (reduced) return;
     const loop = Animated.loop(
       Animated.sequence([
-        Animated.timing(pulse, { toValue: 1, duration: 1600, easing: Easing.inOut(Easing.quad), useNativeDriver: true }),
-        Animated.timing(pulse, { toValue: 0, duration: 1600, easing: Easing.inOut(Easing.quad), useNativeDriver: true })
+        Animated.timing(pulse, { toValue: 1, duration: 1400, easing: Easing.inOut(Easing.quad), useNativeDriver: true }),
+        Animated.timing(pulse, { toValue: 0, duration: 1400, easing: Easing.inOut(Easing.quad), useNativeDriver: true })
       ])
     );
     loop.start();
     return () => loop.stop();
-  }, [near, pulse, reduced]);
-
-  useEffect(() => {
-    if (!activePackage || !takeoffAt) return;
-
-    const run = async () => {
-      const { mode, timeMultiplier, seenPOIs } = useFlightStore.getState();
-      let pos =
-        mode === 'live' ? await tryFetchLivePosition(activePackage.flight.flightNumber) : null;
-      if (!pos) pos = computePosition(activePackage.route, takeoffAt, new Date(), timeMultiplier);
-      updatePosition(pos);
-
-      const last = activePackage.route[activePackage.route.length - 1]!;
-      if (pos.elapsedSeconds >= last.elapsedSeconds) {
-        if (tick.current) clearInterval(tick.current);
-        nav.replace('FlightSummary', { flightId });
-        return;
-      }
-
-      const seen = new Set(seenPOIs.map((x) => x.poiId));
-      const upcoming = await getNextPOI(flightId, pos, seen);
-      setNear(upcoming);
-
-      // One haptic per place, when it first comes into view.
-      if (upcoming && upcoming.poi.id !== lastAnnounced.current) {
-        lastAnnounced.current = upcoming.poi.id;
-        haptics.light?.();
-      }
-    };
-
-    analytics.track('flight_started', { flightId });
-    run();
-    tick.current = setInterval(run, TICK_MS);
-    return () => {
-      if (tick.current) clearInterval(tick.current);
-    };
-  }, [activePackage, takeoffAt, flightId, nav, updatePosition]);
+  }, [pulse, reduced]);
 
   const openPlace = useCallback(
     (poi: POI) => {
-      analytics.track('poi_viewed', { poiId: poi.id, name: poi.name });
-      useFlightStore.getState().markPOISeen(poi.id);
+      useSession.getState().open(poi.id);
       nav.navigate('POIDetail', { poiId: poi.id, flightId });
     },
     [nav, flightId]
   );
 
-  if (!activePackage || !takeoffAt || !currentPosition) {
+  const finishEarly = useCallback(() => {
+    Alert.alert(t('aloft.finishTitle'), t('aloft.finishBody'), [
+      { text: t('common.cancel'), style: 'cancel' },
+      {
+        text: t('aloft.finish'),
+        style: 'destructive',
+        onPress: () => {
+          landed.current = true;
+          nav.replace('FlightSummary', { flightId });
+        }
+      }
+    ]);
+  }, [nav, flightId]);
+
+  if (missing || (pkg && !active)) {
     return (
       <Screen style={styles.center}>
-        <Body tone="muted">{t('inFlight.noActiveFlight')}</Body>
-        <Space h={s.x4} />
-        <PressSurface onPress={() => nav.navigate('Tabs')} accessibilityLabel={t('inFlight.goHome')}>
-          <Label tone="accent">{t('inFlight.goHome')}</Label>
-        </PressSurface>
+        <Gutter>
+          <Body tone="muted">{t('aloft.notActive')}</Body>
+          <Space h={s.x4} />
+          <PressSurface onPress={() => nav.navigate('Tabs', { screen: 'Board' })} accessibilityLabel={t('aloft.toBoard')}>
+            <Label tone="accent">{t('aloft.toBoard')}</Label>
+          </PressSurface>
+        </Gutter>
       </Screen>
     );
   }
+  if (!pkg || !pos || !outside || !takeoff) return <Screen />;
 
-  const { flight, route: legs, pois } = activePackage;
-  const last = legs[legs.length - 1]!;
-  const progress = Math.min(1, currentPosition.elapsedSeconds / (last.elapsedSeconds || 1));
-  const secondsLeft = Math.max(0, last.elapsedSeconds - currentPosition.elapsedSeconds);
-  const heading = computeHeading(legs, takeoffAt, new Date(), useFlightStore.getState().timeMultiplier);
-  const seenIds = new Set(useFlightStore.getState().seenPOIs.map((x) => x.poiId));
-
-  const distanceLeft = Math.round(haversine(currentPosition.lat, currentPosition.lon, last.lat, last.lon));
-  const speed = Math.round(
-    haversine(legs[0]!.lat, legs[0]!.lon, last.lat, last.lon) / ((last.elapsedSeconds || 1) / 3600)
-  );
-
-  const sighting = near
-    ? viewingSide(
-        currentPosition.lat,
-        currentPosition.lon,
-        heading,
-        near.poi.lat,
-        near.poi.lon,
-        currentPosition.altitude / 1000
-      )
-    : null;
+  const { flight, route } = pkg;
+  const end = route[route.length - 1]!.elapsedSeconds;
+  const last = route[route.length - 1]!;
+  const leftKm = km(haversine(pos.lat, pos.lon, last.lat, last.lon));
+  const alt = metres(pos.altitude);
+  const countries = distinctCountries(pkg.countries ?? []);
+  const passedCountries = distinctCountries((pkg.countries ?? []).filter((c) => c.enterAt <= pos.elapsedS));
+  const lit = new Set([...session.opened, ...session.spotted]);
+  const nothing = outside.left.length === 0 && outside.right.length === 0 && outside.below.length === 0;
+  const nextSight = outside.next[0];
 
   return (
     <Screen>
-      {/* The bar is opaque, so there is nothing to gain from floating the map
-          underneath it — and a laid-out bar cannot land under the notch. */}
       <View style={styles.topRow}>
-        <PressSurface
-          onPress={() => nav.navigate('Tabs')}
-          accessibilityLabel={t('inFlight.exit')}
-          style={styles.exit}
-        >
-          <Label tone="muted">{t('inFlight.exit')}</Label>
+        <PressSurface onPress={() => nav.navigate('Tabs', { screen: 'Board' })} accessibilityLabel={t('aloft.toBoard')} style={styles.topBtn}>
+          <Label tone="muted">{`‹ ${t('tabs.board')}`}</Label>
         </PressSurface>
-        <DataSmall allowFontScaling={false}>{flight.flightNumber}</DataSmall>
+        <Row gap={s.x2}>
+          <Animated.View
+            style={[
+              styles.srcPip,
+              { backgroundColor: pos.source === 'gps' ? palette.good : palette.amber },
+              !reduced && { opacity: pulse.interpolate({ inputRange: [0, 1], outputRange: [0.4, 1] }) }
+            ]}
+          />
+          <DataSmall allowFontScaling={false}>
+            {pkg.demo ? t('aloft.demo', { x: session.timeMultiplier }) : pos.source === 'gps' ? t('aloft.srcGps') : t('aloft.srcEstimate')}
+          </DataSmall>
+        </Row>
       </View>
 
-      <View style={styles.map}>
+      <View style={{ height: Math.round(height * 0.34) }}>
         <RouteMap
-          route={legs}
-          position={currentPosition}
-          pois={pois}
-          seen={seenIds}
+          route={route}
+          position={{ lat: pos.lat, lon: pos.lon, elapsedS: pos.elapsedS }}
+          pois={pkg.pois}
+          seen={lit}
+          highlight={countries}
           onSelectPOI={openPlace}
-          labelFor={placeName}
+          labelFor={(p) => placeName(p, locale)}
         />
       </View>
 
-
-      <Animated.View style={[styles.panel, reveal]}>
-        {near && sighting ? (
-          <PressSurface
-            onPress={() => openPlace(near.poi)}
-            accessibilityLabel={placeName(near.poi)}
-            style={styles.rail}
-          >
-            <Animated.View
-              style={[
-                styles.railPip,
-                { opacity: reduced ? 1 : pulse.interpolate({ inputRange: [0, 1], outputRange: [0.35, 1] }) }
-              ]}
-            />
-            <View style={styles.railText}>
-              <Label tone="accent" numberOfLines={1}>
-                {`${Math.max(1, Math.round(near.distanceKm))} ${t('atlas.km')} · ${t(
-                  `inFlight.side_${sighting.side}`
-                )}`}
-              </Label>
-              <Space h={s.x1} />
-              <Title numberOfLines={1}>{placeName(near.poi)}</Title>
-            </View>
-            <Data tone="dim" allowFontScaling={false}>
-              ›
-            </Data>
-          </PressSurface>
-        ) : null}
-
-        <View style={styles.dialRow}>
-          <Dial
-            size={196}
-            progress={progress}
-            reading={remainingLabel(secondsLeft)}
-            caption={`${t('inFlight.remaining')} · ${flight.destination.iata}`}
-            accessibilityLabel={`${remainingLabel(secondsLeft)} ${t('inFlight.remaining')}`}
-          />
-        </View>
-
+      <ScrollView style={styles.panel} contentContainerStyle={styles.panelContent}>
+        <Space h={s.x4} />
+        <RouteRule
+          fromCode={flight.origin.iata}
+          toCode={flight.destination.iata}
+          fromCity={cityName(flight.origin, locale)}
+          toCity={cityName(flight.destination, locale)}
+          progress={pos.progress}
+        />
+        <Space h={s.x4} />
         <Cells
           items={[
-            { value: Math.round(currentPosition.altitude).toLocaleString(), label: `${t('inFlight.altitude')} · M` },
-            { value: String(speed), label: t('inFlight.kmh') },
-            { value: distanceLeft.toLocaleString(), label: `${t('inFlight.remaining')} · KM` }
+            { value: clock(end - pos.elapsedS), label: t('aloft.remaining'), tone: 'accent' },
+            { value: leftKm.value, label: t(`unit.${leftKm.unit}`).toUpperCase() },
+            { value: alt.value, label: `${t('aloft.altitude')} · ${t(`unit.${alt.unit}`)}` }
           ]}
         />
-      </Animated.View>
+
+        <Gutter style={styles.nowHead}>
+          <Row style={styles.spread}>
+            <Label tone="accent">{t('aloft.outside')}</Label>
+            <DataSmall allowFontScaling={false}>
+              {outside.countryNow ? countryName(outside.countryNow, locale) : t('aloft.overWater')}
+              {!outside.daylight ? ` · ${t('aloft.night')}` : ''}
+            </DataSmall>
+          </Row>
+          {!outside.daylight ? (
+            <>
+              <Space h={s.x1} />
+              <Small>{t('aloft.nightHint')}</Small>
+            </>
+          ) : null}
+        </Gutter>
+
+        {outside.below.length > 0 ? (
+          <View style={styles.below}>
+            {outside.below.map((v) => (
+              <PressSurface key={v.poi.id} onPress={() => openPlace(v.poi)} accessibilityLabel={placeName(v.poi, locale)} style={styles.belowRow}>
+                <SideMark side="below" size={18} />
+                <View style={styles.flex}>
+                  <Label tone="dim">{t('side.below')}</Label>
+                  <Title numberOfLines={1}>{placeName(v.poi, locale)}</Title>
+                </View>
+                <Data tone="dim" allowFontScaling={false}>
+                  ›
+                </Data>
+              </PressSurface>
+            ))}
+          </View>
+        ) : null}
+
+        {nothing ? (
+          <Gutter style={styles.quiet}>
+            <Body tone="muted">
+              {nextSight ? t('aloft.quietNext', { when: relative(nextSight.at - pos.elapsedS) }) : t('aloft.quiet')}
+            </Body>
+          </Gutter>
+        ) : (
+          <View style={styles.columns}>
+            <SideColumn side="left" items={outside.left} onOpen={openPlace} spotted={session.spotted} />
+            <SideColumn side="right" items={outside.right} onOpen={openPlace} spotted={session.spotted} />
+          </View>
+        )}
+
+        {guess ? <GuessCard key={guess.poi.id} guess={guess} onAnswer={(ok) => useSession.getState().answerGuess(guess.poi.id, ok)} /> : null}
+
+        {outside.next.length > 0 ? (
+          <View style={styles.next}>
+            <Gutter>
+              <Label tone="dim">{t('aloft.next')}</Label>
+            </Gutter>
+            <Space h={s.x2} />
+            {outside.next.map((m) => {
+              const poi = m.poiId ? pkg.pois.find((p) => p.id === m.poiId) : undefined;
+              const row = (
+                <View style={styles.nextRow}>
+                  <DataSmall tone="accent" allowFontScaling={false} style={styles.nextAt}>
+                    {clock((m.at - pos.elapsedS) / 1)}
+                  </DataSmall>
+                  <SideMark side={m.kind === 'sight' ? m.side : undefined} size={16} />
+                  <Body numberOfLines={1} style={styles.flex}>
+                    {momentTitle(m, pkg, locale)}
+                  </Body>
+                </View>
+              );
+              return poi ? (
+                <PressSurface key={m.id} onPress={() => openPlace(poi)} accessibilityLabel={placeName(poi, locale)}>
+                  {row}
+                </PressSurface>
+              ) : (
+                <View key={m.id}>{row}</View>
+              );
+            })}
+          </View>
+        ) : null}
+
+        <Gutter style={styles.stamps}>
+          <Label tone="dim">{t('aloft.countries', { n: passedCountries.length, total: countries.length })}</Label>
+          <Space h={s.x2} />
+          <Body>
+            {countries.map((cc, i) => (
+              <Body key={cc} tone={passedCountries.includes(cc) ? 'brass' : 'dim'}>
+                {`${i ? ' · ' : ''}${countryName(cc, locale)}`}
+              </Body>
+            ))}
+          </Body>
+        </Gutter>
+
+        {retiming ? (
+          <View style={styles.retime}>
+            <Gutter>
+              <Label tone="dim">{t('aloft.takeoffAt')}</Label>
+              <Space h={s.x2} />
+              <Row style={styles.spread}>
+                {[-10, -5].map((d) => (
+                  <PressSurface key={d} onPress={() => retimeTakeoff(pkg, new Date(takeoff.getTime() + d * 60_000))} accessibilityLabel={`${d}`} style={styles.stepBtn}>
+                    <Data allowFontScaling={false}>{`${d}`}</Data>
+                  </PressSurface>
+                ))}
+                <Data tone="accent" allowFontScaling={false}>
+                  {timeAt(takeoff.toISOString())}
+                </Data>
+                {[5, 10].map((d) => (
+                  <PressSurface key={d} onPress={() => retimeTakeoff(pkg, new Date(takeoff.getTime() + d * 60_000))} accessibilityLabel={`+${d}`} style={styles.stepBtn}>
+                    <Data allowFontScaling={false}>{`+${d}`}</Data>
+                  </PressSurface>
+                ))}
+              </Row>
+              <Space h={s.x2} />
+              <Small>{t('aloft.retimeHint')}</Small>
+            </Gutter>
+            <PressSurface onPress={() => setRetiming(false)} accessibilityLabel={t('common.done')} style={styles.linkRow}>
+              <Label tone="accent">{t('common.done')}</Label>
+            </PressSurface>
+          </View>
+        ) : (
+          <View style={styles.links}>
+            <PressSurface
+              onPress={() => {
+                const next = !narrate;
+                settings.setNarration(next);
+                setNarrate(next);
+                if (!next) Speech.stop();
+              }}
+              accessibilityLabel={t('aloft.narration')}
+              style={styles.linkRow}
+            >
+              <View style={styles.flex}>
+                <Body>{t('aloft.narration')}</Body>
+                <Small>{t('aloft.narrationHint')}</Small>
+              </View>
+              <DataSmall tone={narrate ? 'accent' : 'muted'} allowFontScaling={false}>
+                {narrate ? t('settings.on') : t('settings.off')}
+              </DataSmall>
+            </PressSurface>
+            {!pkg.demo ? (
+              <PressSurface onPress={() => setRetiming(true)} accessibilityLabel={t('aloft.adjust')} style={styles.linkRow}>
+                <Body>{t('aloft.adjust')}</Body>
+                <View style={styles.flex} />
+                <DataSmall allowFontScaling={false}>{timeAt(takeoff.toISOString())}</DataSmall>
+              </PressSurface>
+            ) : null}
+            <PressSurface onPress={finishEarly} accessibilityLabel={t('aloft.finish')} style={styles.linkRow}>
+              <Body tone="muted">{t('aloft.finish')}</Body>
+            </PressSurface>
+          </View>
+        )}
+        <Space h={s.x10} />
+      </ScrollView>
     </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  center: { alignItems: 'center', justifyContent: 'center' },
-  map: { flex: 1 },
+  flex: { flex: 1 },
+  spread: { justifyContent: 'space-between' },
+  center: { justifyContent: 'center' },
 
   topRow: {
     flexDirection: 'row',
@@ -246,34 +530,63 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingHorizontal: gutter,
     paddingVertical: s.x3,
-    backgroundColor: palette.ground,
     borderBottomWidth: line.hair,
     borderBottomColor: palette.rule
   },
-  exit: { paddingVertical: s.x1, paddingRight: s.x4 },
+  topBtn: { paddingVertical: s.x1, paddingRight: s.x4 },
+  srcPip: { width: 6, height: 6, borderRadius: 3 },
 
-  panel: {
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: palette.ground,
-    borderTopWidth: line.hair,
-    borderTopColor: palette.rule,
-    paddingBottom: s.x8
-  },
-  rail: {
+  panel: { flex: 1, borderTopWidth: line.hair, borderTopColor: palette.rule },
+  panelContent: { paddingBottom: s.x8 },
+
+  nowHead: { paddingTop: s.x6, paddingBottom: s.x3 },
+  below: { borderTopWidth: line.hair, borderTopColor: palette.rule },
+  belowRow: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: s.x3,
     paddingHorizontal: gutter,
     paddingVertical: s.x3,
+    backgroundColor: palette.warm,
     borderBottomWidth: line.hair,
-    borderBottomColor: palette.rule,
-    backgroundColor: palette.warm
+    borderBottomColor: palette.rule
   },
-  railPip: { width: 6, height: 6, borderRadius: 3, backgroundColor: palette.amber },
-  railText: { flex: 1, minWidth: 0 },
+  quiet: { paddingVertical: s.x4 },
+  columns: { flexDirection: 'row', borderTopWidth: line.hair, borderBottomWidth: line.hair, borderColor: palette.rule },
+  column: { flex: 1, paddingTop: s.x3, paddingBottom: s.x2 },
+  columnRight: { borderLeftWidth: line.hair, borderLeftColor: palette.rule },
+  columnHead: { paddingHorizontal: s.x4, paddingBottom: s.x2 },
+  columnEmpty: { paddingHorizontal: s.x4, paddingVertical: s.x3 },
+  item: { paddingHorizontal: s.x4, paddingVertical: s.x3, borderTopWidth: line.hair, borderTopColor: palette.ruleSoft },
 
-  dialRow: { alignItems: 'center', paddingTop: s.x2, paddingBottom: s.x2 }
+  next: { marginTop: s.x6 },
+  nextRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: s.x3,
+    paddingHorizontal: gutter,
+    paddingVertical: s.x3,
+    borderTopWidth: line.hair,
+    borderTopColor: palette.ruleSoft
+  },
+  nextAt: { width: 44 },
+
+  stamps: { paddingTop: s.x6 },
+  guess: { marginTop: s.x6, paddingTop: s.x4, backgroundColor: palette.warm, borderTopWidth: line.hair, borderBottomWidth: line.hair, borderColor: palette.amberDim },
+  guessOption: { paddingHorizontal: gutter, paddingVertical: s.x3, borderTopWidth: line.hair, borderTopColor: palette.ruleSoft },
+  guessPressed: { backgroundColor: palette.lifted },
+  guessRight: { backgroundColor: palette.raised, borderLeftWidth: 2, borderLeftColor: palette.amber },
+  guessWrong: { opacity: 0.45 },
+  guessResult: { paddingVertical: s.x3 },
+  links: { marginTop: s.x8, borderTopWidth: line.hair, borderTopColor: palette.rule },
+  linkRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: gutter,
+    paddingVertical: s.x4,
+    borderBottomWidth: line.hair,
+    borderBottomColor: palette.ruleSoft
+  },
+  retime: { marginTop: s.x8, paddingTop: s.x4, backgroundColor: palette.raised },
+  stepBtn: { paddingHorizontal: s.x3, paddingVertical: s.x2, borderWidth: line.hair, borderColor: palette.rule }
 });

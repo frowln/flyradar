@@ -11,7 +11,8 @@
     "test": "npm test --workspaces --if-present"
   },
   "dependencies": {
-    "react": "^19.1.0"
+    "react": "^19.1.0",
+    "react-native-svg": "15.12.1"
   },
   "overrides": {
     "react-native-svg": "15.12.1"

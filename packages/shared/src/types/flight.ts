@@ -7,6 +7,8 @@ export interface Airport {
   lat: number;
   lon: number;
   tz: string;
+  /** City name in other languages, when known. */
+  cityNames?: Partial<Record<'ru' | 'de' | 'fr' | 'es' | 'ja', string>>;
 }
 
 export interface Flight {
@@ -15,10 +17,12 @@ export interface Flight {
   airline: string;
   origin: Airport;
   destination: Airport;
-  scheduledDeparture: string; // ISO
+  scheduledDeparture: string; // ISO, with offset or Z
   scheduledArrival: string;
   actualDeparture?: string;
   aircraftType?: string;
+  /** Local calendar date of departure at the origin, YYYY-MM-DD. */
+  localDate?: string;
 }
 
 export interface RoutePoint {

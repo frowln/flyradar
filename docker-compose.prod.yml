@@ -32,15 +32,24 @@ services:
 
   backend:
     build:
-      context: ./apps/backend
-      dockerfile: Dockerfile
+      # The repository root, not apps/backend: the image installs from the
+      # workspace lockfile at the root and compiles against packages/shared.
+      context: .
+      dockerfile: apps/backend/Dockerfile
     restart: unless-stopped
+    # The image's entrypoint applies pending Prisma migrations before starting
+    # the server (set SKIP_MIGRATIONS=1 to opt out).
     env_file:
+      # Must define AUTH_HMAC_SECRET (the server refuses to start without it in
+      # production); see apps/backend/README.md for the full list.
       - ./apps/backend/.env.production
     environment:
       NODE_ENV: production
       DATABASE_URL: postgresql://skyatlas:${POSTGRES_PASSWORD}@postgres:5432/skyatlas
       REDIS_URL: redis://redis:6379
+      # Exactly one proxy in front: nginx. Client addresses come from the
+      # X-Forwarded-For entry it writes.
+      TRUST_PROXY: "1"
     depends_on:
       postgres:
         condition: service_healthy
@@ -54,6 +63,8 @@ services:
       interval: 30s
       timeout: 10s
       retries: 3
+      # Migrations run before the server listens.
+      start_period: 60s
 
   nginx:
     image: nginx:1.25-alpine

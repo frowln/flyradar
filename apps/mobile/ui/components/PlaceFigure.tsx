@@ -61,7 +61,9 @@ function figureFor(category: POICategory, rand: () => number, W: number, H: numb
 
   switch (category) {
     case 'mountain':
-    case 'volcano': {
+    case 'volcano':
+    case 'range':
+    case 'glacier': {
       const peaks = 5;
       const pts: string[] = [`M -10 ${H}`];
       for (let i = 0; i <= peaks; i++) {
@@ -135,7 +137,33 @@ function figureFor(category: POICategory, rand: () => number, W: number, H: numb
       );
     }
 
+    case 'desert':
+    case 'plateau': {
+      // Dune crests: long, low, overlapping swells.
+      const crests = 6;
+      return (
+        <>
+          {Array.from({ length: crests }, (_, i) => {
+            const y = H * (0.36 + (i / crests) * 0.6);
+            const x0 = -40 + rand() * 60;
+            const span = W * (0.45 + rand() * 0.4);
+            return (
+              <Path
+                key={i}
+                d={`M ${x0} ${y} Q ${x0 + span * 0.5} ${y - 18 - rand() * 14} ${x0 + span} ${y} T ${x0 + span * 2} ${y}`}
+                fill="none"
+                stroke={stroke}
+                strokeOpacity={0.18 + (i / crests) * 0.3}
+                strokeWidth={1}
+              />
+            );
+          })}
+        </>
+      );
+    }
+
     case 'island':
+    case 'peninsula':
       return (
         <>
           <Path

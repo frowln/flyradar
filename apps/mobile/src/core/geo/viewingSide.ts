@@ -27,9 +27,10 @@ const EARTH_R = 6371;
  * to open the app *before* choosing a seat, which is the cheapest acquisition
  * moment the product has.
  *
- * Sectors are deliberately asymmetric: ±20° of the nose reads as "ahead" because
- * anything there is visible from both sides, while the beam sectors run wide
- * since that is where a window seat actually looks.
+ * Sectors are deliberately asymmetric: ±30° of the nose reads as "ahead" —
+ * a side window cannot see there, so telling someone to look for it would be a
+ * promise the cabin cannot keep — while the beam sectors run wide since that is
+ * where a window seat actually looks.
  */
 export function viewingSide(
   planeLat: number,
@@ -44,9 +45,9 @@ export function viewingSide(
   const distanceKm = haversine(planeLat, planeLon, poiLat, poiLon);
 
   let side: Side;
-  if (relative <= 20 || relative >= 340) side = 'ahead';
-  else if (relative < 160) side = 'right';
-  else if (relative <= 200) side = 'behind';
+  if (relative <= 30 || relative >= 330) side = 'ahead';
+  else if (relative < 150) side = 'right';
+  else if (relative <= 210) side = 'behind';
   else side = 'left';
 
   return {

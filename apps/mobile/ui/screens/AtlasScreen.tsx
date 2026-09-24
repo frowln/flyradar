@@ -1,61 +1,77 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { View, ScrollView, StyleSheet, Animated } from 'react-native';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { POICategory } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Display, Label, Body, Data, DataSmall } from '../design/type';
+import { Display, Label, Body, Data, DataSmall, Title, Small } from '../design/type';
 import { Screen, Gutter, Row, Cells, Space, PressSurface, Rule } from '../design/layout';
 import { useReveal } from '../motion';
 import Stamp from '../components/Stamp';
-import { collectionsStore } from '../../src/core/gamification/collections';
-import { calculateXP, levelFromXP, rankFromLevel } from '../../src/core/gamification/levels';
-import { t } from '../../src/i18n';
+import { getRecords } from '../../src/core/game/journal';
+import { buildPassport } from '../../src/core/game/passport';
+import { totalXP, levelFromXP, rankFor } from '../../src/core/game/xp';
+import { achievementStates, ACHIEVEMENTS } from '../../src/core/game/achievements';
+import { continentOf } from '../../src/core/flight/controller';
+import type { FlightRecord } from '../../src/core/game/types';
+import type { GlobeLine } from '../../src/core/geo/lines';
+import { countryName } from '../../src/core/places/names';
+import { SOCIAL_ENABLED } from '../../src/core/features';
+import { formatInt, km } from '../../src/core/units';
+import { t, getLocale } from '../../src/i18n';
+import { dayMonth } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
 
-type Nav = NativeStackNavigationProp<RootStackParamList, 'Tabs'>;
+type Nav = NativeStackNavigationProp<RootStackParamList>;
 
-/** Shown as outlines so the grid always reads as a set with gaps in it. */
-const HORIZON = [
-  'SG', 'MY', 'TH', 'IN', 'AF', 'IR', 'TM', 'AZ', 'TR', 'GE',
-  'RO', 'HU', 'AT', 'DE', 'BE', 'GB', 'FR', 'ES', 'IT', 'PL'
+const LINES: GlobeLine[] = ['equator', 'dateline', 'arctic_circle', 'tropic_cancer', 'tropic_capricorn', 'antarctic_circle'];
+const COLLECTIONS: POICategory[] = [
+  'mountain',
+  'volcano',
+  'range',
+  'glacier',
+  'sea',
+  'lake',
+  'river',
+  'island',
+  'peninsula',
+  'desert',
+  'plateau',
+  'city'
 ];
 
-/**
- * A thin rule that fills to show progress. Used instead of a ring: it aligns
- * with the type above it and does not import a second geometric language.
- */
-function ProgressRule({ value }: { value: number }) {
-  const p = Math.min(1, Math.max(0, value));
+function Bar({ value }: { value: number }) {
   return (
-    <View style={styles.progressTrack}>
-      <View style={[styles.progressFill, { width: `${p * 100}%` }]} />
+    <View style={styles.track}>
+      <View style={[styles.fill, { width: `${Math.min(1, Math.max(0, value)) * 100}%` }]} />
     </View>
   );
 }
 
 export default function AtlasScreen() {
   const nav = useNavigation<Nav>();
-  const [stats, setStats] = useState(() => collectionsStore.getStats());
   const reveal = useReveal();
+  const locale = getLocale();
+  const [records, setRecords] = useState<FlightRecord[]>(() => getRecords());
 
   useFocusEffect(
     useCallback(() => {
-      setStats(collectionsStore.getStats());
+      setRecords([...getRecords()]);
     }, [])
   );
 
-  const xp = calculateXP({
-    flightsCompleted: stats.totalFlights,
-    poisDiscovered: stats.poisDiscovered,
-    countriesVisited: stats.countriesFlownOver.length,
-    distanceKm: stats.totalDistanceKm,
-    achievementsEarned: collectionsStore.getEarnedAchievements().length
-  });
+  const passport = useMemo(() => buildPassport(records, continentOf), [records]);
+  const xp = useMemo(() => totalXP(records), [records]);
   const level = levelFromXP(xp);
-  const rank = rankFromLevel(level.level);
-
-  const collected = new Set(stats.countriesFlownOver);
-  const grid = Array.from(new Set([...stats.countriesFlownOver, ...HORIZON])).slice(0, 24);
+  const rank = rankFor(level.level);
+  const states = useMemo(() => achievementStates(passport), [passport]);
+  const earned = states.filter((a) => a.earned).length;
+  const upcoming = states
+    .filter((a) => !a.earned)
+    .sort((a, b) => b.progress - a.progress)
+    .slice(0, 3);
+  const dist = km(passport.distanceKm);
+  const hours = Math.round(passport.airborneS / 3600);
 
   return (
     <Screen>
@@ -63,85 +79,192 @@ export default function AtlasScreen() {
         <Animated.View style={reveal}>
           <Gutter>
             <Space h={s.x3} />
-            <Label tone="dim">{t('atlas.title')}</Label>
-            <Space h={s.x3} />
-            <Display>
-              {stats.poisDiscovered} {t('atlas.places')}
-            </Display>
+            <Row style={styles.spread}>
+              <Label tone="dim">{t('atlas.title')}</Label>
+              <PressSurface onPress={() => nav.navigate('Settings')} accessibilityLabel={t('atlas.settings')} style={styles.settings}>
+                <Label tone="muted">{t('atlas.settings')}</Label>
+              </PressSurface>
+            </Row>
+            <Space h={s.x4} />
+            <Display>{t('atlas.countriesBig', { count: passport.countries.length })}</Display>
             <Space h={s.x1} />
             <Body tone="muted">
-              {stats.countriesFlownOver.length} {t('atlas.countries')} ·{' '}
-              {Math.round(stats.totalDistanceKm).toLocaleString()} {t('atlas.km')}
+              {t('atlas.summary', { flights: passport.flights, dist: dist.value, unit: t(`unit.${dist.unit}`), hours })}
             </Body>
+          </Gutter>
+
+          <Space h={s.x6} />
+          <Gutter>
+            <Row style={styles.spread}>
+              <Title tone="accent">{t(`rank.${rank}`)}</Title>
+              <DataSmall allowFontScaling={false}>{t('atlas.level', { n: level.level })}</DataSmall>
+            </Row>
+            <Space h={s.x3} />
+            <Bar value={level.progress} />
+            <Space h={s.x2} />
+            <Row style={styles.spread}>
+              <DataSmall allowFontScaling={false}>{`${formatInt(xp)} XP`}</DataSmall>
+              <DataSmall allowFontScaling={false}>{t('atlas.toNext', { xp: formatInt(level.span - level.into) })}</DataSmall>
+            </Row>
           </Gutter>
 
           <Space h={s.x6} />
           <Cells
             items={[
-              { value: String(stats.totalFlights), label: t('atlas.flights') },
-              { value: String(stats.countriesFlownOver.length), label: t('atlas.countriesShort') },
-              { value: String(stats.poisDiscovered), label: t('atlas.placesShort') }
+              { value: String(passport.flights), label: t('atlas.flights') },
+              { value: String(passport.landed.length), label: t('atlas.landed') },
+              { value: String(passport.places), label: t('atlas.places') },
+              { value: String(passport.spotted), label: t('atlas.spotted'), tone: 'accent' }
             ]}
           />
 
-          {/* Rank — a line of type and a rule, not a badge. */}
-          <Space h={s.x8} />
+          <Gutter style={styles.section}>
+            <Row style={styles.spread}>
+              <Label tone="dim">{t('atlas.stamps')}</Label>
+              <DataSmall allowFontScaling={false}>{`${passport.countries.length} / 195`}</DataSmall>
+            </Row>
+          </Gutter>
           <Gutter>
-            <Row style={styles.spread}>
-              <Label tone="accent">{t(`rank.${rank.id}`)}</Label>
-              <DataSmall allowFontScaling={false}>
-                {t('atlas.level')} {level.level}
-              </DataSmall>
-            </Row>
-            <Space h={s.x3} />
-            <ProgressRule value={level.progress} />
-            <Space h={s.x2} />
-            <Row style={styles.spread}>
-              <DataSmall allowFontScaling={false}>{level.currentLevelXP} XP</DataSmall>
-              <DataSmall allowFontScaling={false}>{level.nextLevelXP} XP</DataSmall>
-            </Row>
+            {passport.countries.length === 0 ? (
+              <>
+                <View style={styles.stamps}>
+                  {['?', '?', '?', '?'].map((c, i) => (
+                    <Stamp key={i} code={c} kind="locked" />
+                  ))}
+                </View>
+                <Space h={s.x3} />
+                <Small>{t('atlas.stampsEmpty')}</Small>
+              </>
+            ) : (
+              <>
+                <View style={styles.stamps}>
+                  {passport.countries.map((cc) => (
+                    <Stamp key={cc} code={cc} name={countryName(cc, locale)} kind={passport.landed.includes(cc) ? 'landed' : 'overflown'} />
+                  ))}
+                </View>
+                <Space h={s.x3} />
+                <Small>{t('atlas.stampsLegend')}</Small>
+              </>
+            )}
           </Gutter>
 
-          {/* Countries */}
-          <Space h={s.x10} />
-          <Gutter>
-            <Label tone="dim">
-              {t('atlas.stamps')} · {stats.countriesFlownOver.length} / 195
-            </Label>
+          <Gutter style={styles.section}>
+            <Label tone="dim">{t('atlas.lines')}</Label>
           </Gutter>
-          <Space h={s.x4} />
-          <Gutter>
-            <View style={styles.stampGrid}>
-              {grid.map((code) => (
-                <Stamp key={code} code={code} locked={!collected.has(code)} />
-              ))}
+          {LINES.map((l) => {
+            const n = passport.lines[l] ?? 0;
+            return (
+              <View key={l} style={[styles.row, n > 0 && styles.rowOn]}>
+                <View style={[styles.linePip, n > 0 && styles.linePipOn]} />
+                <Body tone={n > 0 ? 'default' : 'dim'} style={styles.flex}>
+                  {t(`line.${l}`)}
+                </Body>
+                <DataSmall tone={n > 0 ? 'brass' : 'dim'} allowFontScaling={false}>
+                  {n > 0 ? `× ${n}` : '—'}
+                </DataSmall>
+              </View>
+            );
+          })}
+
+          <Gutter style={styles.section}>
+            <Row style={styles.spread}>
+              <Label tone="dim">{t('atlas.collections')}</Label>
+              <DataSmall allowFontScaling={false}>{t('atlas.collectionsLegend')}</DataSmall>
+            </Row>
+          </Gutter>
+          <View style={styles.grid}>
+            {COLLECTIONS.map((c) => {
+              const tally = passport.byCategory[c] ?? { passed: 0, spotted: 0 };
+              return (
+                <View key={c} style={styles.cell}>
+                  <Row gap={s.x2}>
+                    <Data tone={tally.passed ? 'default' : 'dim'} allowFontScaling={false}>
+                      {String(tally.passed)}
+                    </Data>
+                    {tally.spotted ? (
+                      <DataSmall tone="brass" allowFontScaling={false}>{`★ ${tally.spotted}`}</DataSmall>
+                    ) : null}
+                  </Row>
+                  <Label tone={tally.passed ? 'muted' : 'dim'} numberOfLines={1}>
+                    {t(`categoryPlural.${c}`)}
+                  </Label>
+                </View>
+              );
+            })}
+          </View>
+
+          <Gutter style={styles.section}>
+            <Row style={styles.spread}>
+              <Label tone="dim">{t('atlas.achievements')}</Label>
+              <DataSmall allowFontScaling={false}>{`${earned} / ${ACHIEVEMENTS.length}`}</DataSmall>
+            </Row>
+          </Gutter>
+          {upcoming.map((a) => (
+            <View key={a.def.id} style={styles.achRow}>
+              <Row style={styles.spread}>
+                <Body style={styles.flex}>{t(`ach.${a.def.id}.name`)}</Body>
+                <DataSmall allowFontScaling={false}>{`${formatInt(Math.floor(a.value))} / ${formatInt(a.def.target)}`}</DataSmall>
+              </Row>
+              <Space h={s.x1} />
+              <Small>{t(`ach.${a.def.id}.desc`)}</Small>
+              <Space h={s.x2} />
+              <Bar value={a.progress} />
             </View>
-          </Gutter>
+          ))}
+          <PressSurface onPress={() => nav.navigate('Achievements')} accessibilityLabel={t('atlas.allAchievements')} style={styles.navRow}>
+            <Body>{t('atlas.allAchievements')}</Body>
+            <View style={styles.flex} />
+            <Data tone="dim" allowFontScaling={false}>
+              ›
+            </Data>
+          </PressSurface>
 
-          {/* Everything that used to be a tab lives here as a row. */}
-          <Space h={s.x10} />
+          <Gutter style={styles.section}>
+            <Label tone="dim">{t('atlas.journal')}</Label>
+          </Gutter>
+          {records.length === 0 ? (
+            <Gutter>
+              <Small>{t('atlas.journalEmpty')}</Small>
+            </Gutter>
+          ) : (
+            [...records].reverse().map((r) => (
+              <PressSurface
+                key={r.flightId}
+                onPress={() => nav.navigate('FlightSummary', { flightId: r.flightId })}
+                accessibilityLabel={`${r.from} — ${r.to}`}
+                style={styles.journalRow}
+              >
+                <DataSmall allowFontScaling={false} style={styles.journalDate}>
+                  {dayMonth(r.takeoffAt)}
+                </DataSmall>
+                <Body style={styles.flex}>{`${r.from} — ${r.to}`}</Body>
+                <DataSmall allowFontScaling={false}>
+                  {t('atlas.journalCountries', { count: r.countries.length })}
+                  {r.spotted.length ? ` · ★ ${r.spotted.length}` : ''}
+                </DataSmall>
+              </PressSurface>
+            ))
+          )}
+
+          <Space h={s.x8} />
           <Rule />
-          {[
-            { label: t('atlas.people'), to: 'People' as const },
-            { label: t('atlas.history'), to: 'Stats' as const },
-            { label: t('atlas.wrapped'), to: 'Wrapped' as const },
-            { label: t('atlas.settings'), to: 'Settings' as const }
-          ].map((item) => (
-            <PressSurface
-              key={item.label}
-              onPress={() => nav.navigate(item.to)}
-              accessibilityLabel={item.label}
-              style={styles.navRow}
-            >
-              <Body>{item.label}</Body>
-              <View style={styles.navFill} />
+          {SOCIAL_ENABLED ? (
+            <PressSurface onPress={() => nav.navigate('People')} accessibilityLabel={t('atlas.people')} style={styles.navRow}>
+              <Body>{t('atlas.people')}</Body>
+              <View style={styles.flex} />
               <Data tone="dim" allowFontScaling={false}>
                 ›
               </Data>
             </PressSurface>
-          ))}
+          ) : null}
+          <PressSurface onPress={() => nav.navigate('Settings')} accessibilityLabel={t('atlas.settings')} style={styles.navRow}>
+            <Body>{t('atlas.settings')}</Body>
+            <View style={styles.flex} />
+            <Data tone="dim" allowFontScaling={false}>
+              ›
+            </Data>
+          </PressSurface>
         </Animated.View>
-
         <Space h={s.x12} />
       </ScrollView>
     </Screen>
@@ -149,14 +272,54 @@ export default function AtlasScreen() {
 }
 
 const styles = StyleSheet.create({
-  scroll: { paddingBottom: s.x8 },
+  flex: { flex: 1 },
   spread: { justifyContent: 'space-between' },
+  scroll: { paddingBottom: s.x8 },
+  settings: { paddingVertical: s.x1, paddingLeft: s.x4 },
+  section: { paddingTop: s.x10, paddingBottom: s.x3 },
 
-  progressTrack: { height: 2, backgroundColor: palette.rule },
-  progressFill: { height: 2, backgroundColor: palette.amber },
+  track: { height: 2, backgroundColor: palette.rule },
+  fill: { height: 2, backgroundColor: palette.amber },
 
-  stampGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: s.x2 },
+  stamps: { flexDirection: 'row', flexWrap: 'wrap', gap: s.x3 },
 
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: s.x3,
+    paddingHorizontal: gutter,
+    paddingVertical: s.x3,
+    borderTopWidth: line.hair,
+    borderTopColor: palette.ruleSoft
+  },
+  rowOn: { backgroundColor: palette.warm },
+  linePip: { width: 10, height: 2, backgroundColor: palette.rule },
+  linePipOn: { backgroundColor: palette.brass },
+
+  grid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    borderTopWidth: line.hair,
+    borderLeftWidth: line.hair,
+    borderColor: palette.rule,
+    marginHorizontal: gutter
+  },
+  cell: {
+    width: '33.333%',
+    paddingHorizontal: s.x3,
+    paddingVertical: s.x3,
+    borderRightWidth: line.hair,
+    borderBottomWidth: line.hair,
+    borderColor: palette.rule,
+    gap: s.x1
+  },
+
+  achRow: {
+    paddingHorizontal: gutter,
+    paddingVertical: s.x3,
+    borderTopWidth: line.hair,
+    borderTopColor: palette.ruleSoft
+  },
   navRow: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -166,5 +329,14 @@ const styles = StyleSheet.create({
     borderBottomWidth: line.hair,
     borderBottomColor: palette.ruleSoft
   },
-  navFill: { flex: 1 }
+  journalRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: s.x3,
+    paddingHorizontal: gutter,
+    paddingVertical: s.x3,
+    borderTopWidth: line.hair,
+    borderTopColor: palette.ruleSoft
+  },
+  journalDate: { width: 60 }
 });

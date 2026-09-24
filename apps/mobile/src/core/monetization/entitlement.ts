@@ -1,5 +1,5 @@
 import { createMMKV } from 'react-native-mmkv';
-import { isPro } from './revenueCat';
+import { isPro, MONETIZATION_ENABLED } from './revenueCat';
 
 const storage = createMMKV({ id: 'skyatlas-entitlement' });
 
@@ -39,15 +39,26 @@ export function notePlaceOpened(flightId: string, poiId: string): void {
   storage.set(openedKey(flightId), JSON.stringify([...list, poiId]));
 }
 
+/**
+ * Whether this flight is fully open regardless of the meter.
+ *
+ * Everything is open when the build has no purchases configured, when the
+ * passenger has Pro, and on their first flight — the one that decides whether
+ * there will be a second, and the worst possible moment to hold back.
+ */
+export function fullAccess(isFirstFlight: boolean): boolean {
+  return !MONETIZATION_ENABLED || isProCached() || isFirstFlight;
+}
+
 /** How many new places the free tier still allows on this flight. */
 export function placesLeft(flightId: string): number {
-  if (isProCached()) return Infinity;
+  if (!MONETIZATION_ENABLED || isProCached()) return Infinity;
   return Math.max(0, FREE_PLACES_PER_FLIGHT - openedPlaces(flightId).length);
 }
 
 /** Whether this particular card may be opened right now. */
 export function canOpenPlace(flightId: string, poiId: string): boolean {
-  if (isProCached()) return true;
+  if (!MONETIZATION_ENABLED || isProCached()) return true;
   const list = openedPlaces(flightId);
   return list.includes(poiId) || list.length < FREE_PLACES_PER_FLIGHT;
 }
@@ -68,8 +79,10 @@ export function setPro(value: boolean): void {
   storage.set(KEY_PRO, value);
 }
 
+/** Reconciles the cache with the store; an unanswered question leaves it as it was. */
 export async function refreshPro(): Promise<boolean> {
-  const pro = await isPro().catch(() => false);
+  const pro = await isPro().catch(() => null);
+  if (pro === null) return isProCached();
   setPro(pro);
   return pro;
 }

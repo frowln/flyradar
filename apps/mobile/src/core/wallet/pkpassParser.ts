@@ -1,11 +1,12 @@
 import { readAsStringAsync } from 'expo-file-system/legacy';
+import { parseBCBP } from './bcbp';
 
 export interface ParsedPass {
   flightNumber: string;
   date: string; // YYYY-MM-DD
   origin?: string; // IATA
   destination?: string;
-  passenger?: string;
+  seat?: string;
 }
 
 export async function parsePkpassFile(uri: string): Promise<ParsedPass | null> {
@@ -24,7 +25,18 @@ export async function parsePkpassFile(uri: string): Promise<ParsedPass | null> {
   }
 }
 
-function extractFlightInfo(pass: any): ParsedPass | null {
+export function extractFlightInfo(pass: any): ParsedPass | null {
+  // The barcode is the airline's own machine-readable record: trust it over
+  // display fields, whose keys differ between every airline's pass designer.
+  const messages: string[] = [
+    ...(Array.isArray(pass?.barcodes) ? pass.barcodes.map((b: any) => b?.message) : []),
+    pass?.barcode?.message
+  ].filter((m): m is string => typeof m === 'string');
+  for (const m of messages) {
+    const bp = parseBCBP(m);
+    if (bp) return { flightNumber: bp.flightNumber, date: bp.date, origin: bp.from, destination: bp.to, seat: bp.seat };
+  }
+
   // Apple Wallet boarding pass structure:
   // pass.boardingPass.{auxiliaryFields, secondaryFields, primaryFields, headerFields}
   const fields = pass.boardingPass;
@@ -46,20 +58,20 @@ function extractFlightInfo(pass: any): ParsedPass | null {
   const dateField = findField(['date', 'departure-date', 'boardingdate']);
   const originField = findField(['origin', 'depart', 'from']);
   const destField = findField(['destination', 'arrive', 'to']);
-  const passField = findField(['passenger', 'name']);
 
   if (!flightField?.value) return null;
 
+  // Wallet dates are ISO strings with the airport's offset; the calendar date
+  // is the part before the T. Converting through Date would move it to the
+  // phone's zone and, east of UTC, onto the previous day.
   const dateStr = String(dateField?.value ?? '');
-  let date = new Date().toISOString().slice(0, 10);
-  const parsed = new Date(dateStr);
-  if (!isNaN(parsed.getTime())) date = parsed.toISOString().slice(0, 10);
+  const date = /^\d{4}-\d{2}-\d{2}/.test(dateStr) ? dateStr.slice(0, 10) : '';
+  if (!date) return null;
 
   return {
     flightNumber: String(flightField.value).replace(/\s+/g, '').toUpperCase(),
     date,
     origin: originField?.value ? String(originField.value).toUpperCase() : undefined,
-    destination: destField?.value ? String(destField.value).toUpperCase() : undefined,
-    passenger: passField?.value ? String(passField.value) : undefined
+    destination: destField?.value ? String(destField.value).toUpperCase() : undefined
   };
 }

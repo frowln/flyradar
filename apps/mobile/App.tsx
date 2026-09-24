@@ -2,41 +2,41 @@ import 'react-native-gesture-handler';
 import { useEffect } from 'react';
 import { View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import {
-  useFonts,
-  Manrope_600SemiBold,
-  Manrope_700Bold,
-  Manrope_800ExtraBold
-} from '@expo-google-fonts/manrope';
-import { Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold } from '@expo-google-fonts/inter';
-import { JetBrainsMono_400Regular, JetBrainsMono_500Medium } from '@expo-google-fonts/jetbrains-mono';
-import {
-  NotoSansJP_400Regular,
-  NotoSansJP_500Medium,
-  NotoSansJP_700Bold
-} from '@expo-google-fonts/noto-sans-jp';
+import { useFonts } from 'expo-font';
+// Each face is imported from its own file. The packages' index modules require
+// every weight they ship — nine Noto Sans JP files alone are ~49 MB — and all of
+// it would land in the app binary.
+import { Manrope_600SemiBold } from '@expo-google-fonts/manrope/600SemiBold';
+import { Manrope_700Bold } from '@expo-google-fonts/manrope/700Bold';
+import { Manrope_800ExtraBold } from '@expo-google-fonts/manrope/800ExtraBold';
+import { Inter_400Regular } from '@expo-google-fonts/inter/400Regular';
+import { Inter_500Medium } from '@expo-google-fonts/inter/500Medium';
+import { Inter_600SemiBold } from '@expo-google-fonts/inter/600SemiBold';
+import { JetBrainsMono_400Regular } from '@expo-google-fonts/jetbrains-mono/400Regular';
+import { JetBrainsMono_500Medium } from '@expo-google-fonts/jetbrains-mono/500Medium';
+import { NotoSansJP_400Regular } from '@expo-google-fonts/noto-sans-jp/400Regular';
+import { NotoSansJP_500Medium } from '@expo-google-fonts/noto-sans-jp/500Medium';
+import { NotoSansJP_700Bold } from '@expo-google-fonts/noto-sans-jp/700Bold';
 import * as SplashScreen from 'expo-splash-screen';
-import RootNavigator from './src/navigation/RootNavigator';
-import { colors } from './src/theme/colors';
-import { social } from './src/core/api/social';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import Toast from './src/components/Toast';
-import AchievementToast from './src/components/AchievementToast';
-import ErrorBoundary from './src/components/ErrorBoundary';
-import { initNotifications } from './src/core/ux/notifications';
-import { initSounds } from './src/core/ux/sounds';
-import { collectionsStore } from './src/core/gamification/collections';
+import RootNavigator from './src/navigation/RootNavigator';
+import Toast from './ui/components/Toast';
+import ErrorBoundary from './ui/components/ErrorBoundary';
+import { palette } from './ui/design/tokens';
+import { social } from './src/core/api/social';
+import { API_ENABLED } from './src/core/api/client';
+import { settings } from './src/core/settings';
 import { initSentry, SentryWrapper } from './src/core/observability/sentry';
 import { initAnalytics } from './src/core/analytics';
-import { restoreFromiCloud } from './src/core/cloud/iCloudBackup';
-import { initRevenueCat } from './src/core/monetization/revenueCat';
+import { initRevenueCat, MONETIZATION_ENABLED } from './src/core/monetization/revenueCat';
 import { refreshPro } from './src/core/monetization/entitlement';
-import { scheduleDailyFact } from './src/core/ux/dailyFacts';
+import { installPreview } from './src/preview/fixtures';
 
-SplashScreen.preventAutoHideAsync();
-collectionsStore.markInstalled();
+SplashScreen.preventAutoHideAsync().catch(() => {});
+settings.markInstalled();
 initSentry();
 initAnalytics();
+installPreview();
 
 function App() {
   const [fontsLoaded, fontError] = useFonts({
@@ -46,7 +46,6 @@ function App() {
     Inter_400Regular,
     Inter_500Medium,
     Inter_600SemiBold,
-    Inter_700Bold,
     JetBrainsMono_400Regular,
     JetBrainsMono_500Medium,
     NotoSansJP_400Regular,
@@ -60,28 +59,20 @@ function App() {
   const fontsSettled = fontsLoaded || fontError != null;
 
   useEffect(() => {
-    initNotifications().then(() => {
-      scheduleDailyFact().catch(() => {});
-    });
-    initSounds().catch(() => {});
     // Discoveries made at cruise were queued with no signal; send them now.
-    // Without this they would sit on the device forever and the global counters
-    // would only ever reflect passengers who happened to have Wi-Fi.
-    social.flushPending().catch(() => {});
-    // Purchases must be configured before any screen asks about entitlements,
-    // and the cached "pro" flag reconciled with the store on every launch — a
-    // lapsed or refunded subscription has to close the gate again.
-    initRevenueCat()
-      .then(() => refreshPro())
-      .catch(() => {});
-    // Attempt iCloud restore on mount — no-op on Android/web or if cloud is older
-    restoreFromiCloud().catch(() => {});
+    if (API_ENABLED) social.flushPending().catch(() => {});
+    // Purchases are configured only when this build sells anything; the cached
+    // entitlement is reconciled with the store, and an unreachable store leaves
+    // it untouched rather than revoking it.
+    if (MONETIZATION_ENABLED) {
+      initRevenueCat()
+        .then(() => refreshPro())
+        .catch(() => {});
+    }
   }, []);
 
   useEffect(() => {
-    if (fontsSettled) {
-      SplashScreen.hideAsync();
-    }
+    if (fontsSettled) SplashScreen.hideAsync().catch(() => {});
   }, [fontsSettled]);
 
   if (!fontsSettled) return null;
@@ -91,11 +82,10 @@ function App() {
       {/* Without this provider useSafeAreaInsets() silently returns zeros, and
           every screen that pads itself against the notch lands underneath it. */}
       <SafeAreaProvider>
-        <View style={{ flex: 1 }}>
-          <StatusBar style="light" backgroundColor={colors.bg} />
+        <View style={{ flex: 1, backgroundColor: palette.ground }}>
+          <StatusBar style="light" backgroundColor={palette.ground} />
           <RootNavigator />
           <Toast />
-          <AchievementToast />
         </View>
       </SafeAreaProvider>
     </ErrorBoundary>

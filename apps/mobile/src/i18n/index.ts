@@ -6,7 +6,7 @@ import { de } from './locales/de';
 import { fr } from './locales/fr';
 import { es } from './locales/es';
 import { ja } from './locales/ja';
-import { collectionsStore } from '../core/gamification/collections';
+import { settings } from '../core/settings';
 
 const SUPPORTED_LOCALES = ['en', 'ru', 'de', 'fr', 'es', 'ja'] as const;
 type SupportedLocale = typeof SUPPORTED_LOCALES[number];
@@ -15,6 +15,22 @@ const i18n = new I18n({ en, ru, de, fr, es, ja });
 
 i18n.enableFallback = true;
 i18n.defaultLocale = 'en';
+
+/**
+ * Plural rules. English, German and Spanish use the default one/other; Russian
+ * needs one/few/many ("1 страна, 3 страны, 12 стран"), French counts zero as
+ * singular, and Japanese does not inflect at all.
+ */
+i18n.pluralization.register('ru', (_i18n, count) => {
+  const n = Math.abs(count);
+  const mod10 = n % 10;
+  const mod100 = n % 100;
+  if (mod10 === 1 && mod100 !== 11) return ['one'];
+  if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return ['few'];
+  return ['many'];
+});
+i18n.pluralization.register('fr', (_i18n, count) => (Math.abs(count) < 2 ? ['one'] : ['other']));
+i18n.pluralization.register('ja', () => ['other']);
 
 /**
  * What happens when a key is missing anywhere in the app.
@@ -39,14 +55,14 @@ i18n.missingTranslation.register('humanise', (_i18n, scope) => {
 });
 i18n.missingBehavior = 'humanise';
 
-const savedLocale = collectionsStore.getLanguage();
+const savedLocale = settings.getLanguage();
 const deviceLocale = Localization.getLocales()[0]?.languageCode ?? 'en';
 const resolvedDevice = (SUPPORTED_LOCALES as readonly string[]).includes(deviceLocale) ? deviceLocale : 'en';
 i18n.locale = savedLocale ?? resolvedDevice;
 
 export function setLocale(locale: string): void {
   i18n.locale = locale;
-  collectionsStore.setLanguage(locale);
+  settings.setLanguage(locale);
 }
 
 export function getLocale(): string {

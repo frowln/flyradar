@@ -8,7 +8,7 @@ import { Screen, Gutter, Space, ActionBar, PressSurface, Rule } from '../design/
 import { useReveal } from '../motion';
 import { getOfferings, purchasePackage, restorePurchases } from '../../src/core/monetization/revenueCat';
 import { setPro } from '../../src/core/monetization/entitlement';
-import { useToast } from '../../src/components/Toast';
+import { useToast } from '../components/Toast';
 import { haptics } from '../../src/core/ux/haptics';
 import { t } from '../../src/i18n';
 import type { RootStackParamList } from '../../src/navigation/types';
@@ -17,9 +17,9 @@ type Nav = NativeStackNavigationProp<RootStackParamList, 'Paywall'>;
 
 /** Fallback tiers, shown when the store has not been reached. */
 const TIERS = [
-  { id: 'per_flight', price: '$1.99', label: 'perFlight', note: 'perFlightNote' },
-  { id: 'annual', price: '$19.99', label: 'annual', note: 'annualNote' },
-  { id: 'lifetime', price: '$49.99', label: 'lifetime', note: 'lifetimeNote' }
+  // Prices shown until the store returns real ones; the store's always win.
+  { id: 'trip_pass', price: '$2.99', label: 'tripPass', note: 'tripPassNote' },
+  { id: 'annual', price: '$24.99', label: 'annual', note: 'annualNote' }
 ] as const;
 
 /**

@@ -1,0 +1,19 @@
+# Context filter for apps/backend/Dockerfile, whose build context is the
+# repository root. BuildKit reads <Dockerfile>.dockerignore in preference to a
+# root .dockerignore, so this applies only to the backend image.
+#
+# Everything is excluded, then only what the image uses is let back in.
+*
+!package.json
+!package-lock.json
+!tsconfig.base.json
+!apps/backend
+!apps/mobile/package.json
+!packages/shared
+
+**/node_modules
+**/dist
+**/.env
+**/.env.*
+apps/backend/data
+apps/backend/tests

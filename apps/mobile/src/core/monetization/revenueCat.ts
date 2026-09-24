@@ -3,6 +3,12 @@ import { apiClient } from '../api/client';
 
 const RC_API_KEY = process.env['EXPO_PUBLIC_RC_KEY'] ?? '';
 
+/**
+ * Whether purchases exist in this build at all. Without a key there is nothing
+ * to buy, so the app does not pretend: every feature is simply open.
+ */
+export const MONETIZATION_ENABLED = RC_API_KEY.length > 0;
+
 let initialized = false;
 
 export async function initRevenueCat(userId?: string): Promise<void> {
@@ -20,7 +26,14 @@ export async function initRevenueCat(userId?: string): Promise<void> {
   initialized = true;
 }
 
-export async function isPro(): Promise<boolean> {
+/**
+ * The store's answer, or null when it could not be asked.
+ *
+ * "Could not ask" is the normal state at cruise, and it must not be read as
+ * "not subscribed" — the previous version did, and a paying passenger who
+ * opened the app in the air lost Pro for the whole flight.
+ */
+export async function isPro(): Promise<boolean | null> {
   if (!RC_API_KEY) return false;
   try {
     const info = await Purchases.getCustomerInfo();
@@ -33,7 +46,7 @@ export async function isPro(): Promise<boolean> {
     });
     return verified.verified;
   } catch {
-    return false;
+    return null;
   }
 }
 

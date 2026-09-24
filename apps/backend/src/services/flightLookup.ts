@@ -18,6 +18,14 @@ export interface FlightResult {
   providerError?: string;
 }
 
+/**
+ * Marks a flight invented by demo mode. Such flights are never written to
+ * FlightCache — once a key is configured, a cached demo route would otherwise
+ * keep answering for the real flight number. Rows written before that rule are
+ * skipped by the same marker.
+ */
+const DEMO_AIRLINE = 'Demo Airlines';
+
 export async function getFlightDetailed(
   flightNumber: string,
   date: string
@@ -26,7 +34,10 @@ export async function getFlightDetailed(
   const cached = await prisma.flightCache.findUnique({
     where: { flightNumber_date: { flightNumber, date } }
   });
-  if (cached) return { flight: cached.payload as unknown as Flight, availableDates: [date] };
+  const cachedFlight = cached?.payload as unknown as Flight | undefined;
+  if (cachedFlight && cachedFlight.airline !== DEMO_AIRLINE) {
+    return { flight: cachedFlight, availableDates: [date] };
+  }
 
   // Demo mode: if no API key, build a flight from a hardcoded route
   if (!process.env['AVIATIONSTACK_KEY']) {
@@ -82,14 +93,18 @@ export async function getFlightDetailed(
     aircraftType: raw.aircraft?.iata
   };
 
-  // Cache for future requests
-  await prisma.flightCache.create({
-    data: {
-      flightNumber,
-      date,
-      payload: flight as any
-    }
-  });
+  // Cache for future requests. An upsert, because two passengers looking up
+  // the same flight at once both miss the cache and both write; and a failed
+  // write costs a future lookup, not this one.
+  try {
+    await prisma.flightCache.upsert({
+      where: { flightNumber_date: { flightNumber, date } },
+      create: { flightNumber, date, payload: flight as any },
+      update: { payload: flight as any, cachedAt: new Date() }
+    });
+  } catch (e) {
+    console.warn('FlightCache write failed:', e instanceof Error ? e.message : e);
+  }
 
   return { flight, availableDates };
 }
@@ -179,7 +194,7 @@ async function buildDemoFlight(flightNumber: string, date: string): Promise<Flig
   const flight: Flight = {
     id: `${flightNumber}-${date}`,
     flightNumber,
-    airline: 'Demo Airlines',
+    airline: DEMO_AIRLINE,
     origin: stripAirport(origin),
     destination: stripAirport(destination),
     scheduledDeparture: departure.toISOString(),
@@ -187,10 +202,7 @@ async function buildDemoFlight(flightNumber: string, date: string): Promise<Flig
     aircraftType: 'B77W'
   };
 
-  await prisma.flightCache.create({
-    data: { flightNumber, date, payload: flight as any }
-  });
-
+  // Deliberately not cached: two airport reads are cheap, and see DEMO_AIRLINE.
   return flight;
 }
 

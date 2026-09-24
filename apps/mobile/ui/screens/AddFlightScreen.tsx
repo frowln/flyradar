@@ -1,120 +1,249 @@
-import { useState, useLayoutEffect, useCallback } from 'react';
+import { useCallback, useMemo, useRef, useState } from 'react';
 import {
   View,
   TextInput,
   ScrollView,
   StyleSheet,
   Animated,
-  ActivityIndicator,
   Modal,
   Platform,
-  KeyboardAvoidingView
+  KeyboardAvoidingView,
+  Pressable
 } from 'react-native';
 import * as DocumentPicker from 'expo-document-picker';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { SeatInfo } from '@skyatlas/shared';
 import { palette, s, gutter, line, family } from '../design/tokens';
-import { Label, Body, Small, Data } from '../design/type';
+import { Label, Body, Small, Data, DataSmall, Code, Title } from '../design/type';
 import { Screen, Gutter, Row, Space, ActionBar, PressSurface, Rule } from '../design/layout';
 import { useReveal } from '../motion';
-import { downloadPackage } from '../../src/core/offline/packageDownloader';
-import { ApiError } from '../../src/core/api/client';
-import BoardingPassScanner from '../../src/components/BoardingPassScanner';
-import type { BoardingPassData } from '../../src/components/BoardingPassScanner';
+import BoardingPassScanner from '../components/BoardingPassScanner';
+import { useToast } from '../components/Toast';
+import { searchAirports, cityName } from '../../src/core/data/airports';
+import { airportByIata } from '../../src/core/data/datasets';
+import type { DataAirport } from '../../src/core/data/types';
+import { prepareFlight } from '../../src/core/offline/prepare';
+import type { BuildProgress, BuildStage } from '../../src/core/offline/buildPackage';
+import { estimateAirborneSeconds } from '../../src/core/route/profile';
+import { haversine } from '../../src/core/geo/greatCircle';
+import { localDate } from '../../src/core/time/zones';
+import { seatSide, type BoardingPass } from '../../src/core/wallet/bcbp';
 import { parsePkpassFile } from '../../src/core/wallet/pkpassParser';
+import { countryName } from '../../src/core/places/names';
+import { km } from '../../src/core/units';
 import { haptics } from '../../src/core/ux/haptics';
-import { useToast } from '../../src/components/Toast';
+import { analytics } from '../../src/core/analytics';
 import { t, getLocale } from '../../src/i18n';
+import { duration } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'AddFlight'>;
 
-const today = () => new Date().toISOString().slice(0, 10);
+const DAYS_AHEAD = 90;
 
-/**
- * Adding a flight is one question — which flight — so the screen asks one
- * question. The old form had a labelled field, a date field, a hint, a row of
- * suggestion cards and two emoji buttons competing for the same decision.
- *
- * Here the flight number is the screen: entered at instrument scale, in the
- * mono face the rest of the app uses for codes, so it reads as a designator
- * rather than a text field. Everything else is a quiet row beneath it.
- */
+function addDays(date: string, n: number): string {
+  const [y, m, d] = date.split('-').map(Number) as [number, number, number];
+  return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);
+}
+
+function dayChip(date: string, today: string): { top: string; bottom: string } {
+  const [y, m, d] = date.split('-').map(Number) as [number, number, number];
+  const at = new Date(Date.UTC(y, m - 1, d, 12));
+  const locale = getLocale();
+  const weekday = at.toLocaleDateString(locale, { weekday: 'short', timeZone: 'UTC' });
+  const month = at.toLocaleDateString(locale, { month: 'short', timeZone: 'UTC' });
+  if (date === today) return { top: t('addFlight.today'), bottom: `${d} ${month}` };
+  if (date === addDays(today, 1)) return { top: t('addFlight.tomorrow'), bottom: `${d} ${month}` };
+  return { top: weekday, bottom: `${d} ${month}` };
+}
+
+/** "0930" / "9:30" / "09.30" → "09:30"; null when not a time. */
+function normaliseTime(v: string): string | null {
+  const digits = v.replace(/\D/g, '');
+  if (digits.length < 3 || digits.length > 4) return null;
+  const h = Number(digits.slice(0, digits.length - 2));
+  const m = Number(digits.slice(-2));
+  if (h > 23 || m > 59) return null;
+  return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+}
+
+function AirportField({
+  label,
+  value,
+  onChange,
+  active,
+  onActivate
+}: {
+  label: string;
+  value: DataAirport | null;
+  onChange: (a: DataAirport) => void;
+  active: boolean;
+  onActivate: () => void;
+}) {
+  const [query, setQuery] = useState('');
+  const locale = getLocale();
+  const results = useMemo(() => (query.trim() ? searchAirports(query, 7) : []), [query]);
+
+  if (!active && value) {
+    return (
+      <PressSurface onPress={onActivate} accessibilityLabel={`${label}: ${cityName(value, locale)}`} style={styles.field}>
+        <Label tone="dim">{label}</Label>
+        <Row gap={s.x4} style={styles.fieldRow}>
+          <Code allowFontScaling={false}>{value.i}</Code>
+          <View style={styles.flex}>
+            <Title numberOfLines={1}>{cityName(value, locale)}</Title>
+            <Small numberOfLines={1}>{`${value.n} · ${countryName(value.cc, locale)}`}</Small>
+          </View>
+        </Row>
+      </PressSurface>
+    );
+  }
+
+  return (
+    <View style={styles.field}>
+      <Label tone={active ? 'accent' : 'dim'}>{label}</Label>
+      <TextInput
+        value={query}
+        onChangeText={setQuery}
+        onFocus={onActivate}
+        autoFocus={active}
+        placeholder={t('addFlight.searchPlaceholder')}
+        placeholderTextColor={palette.inkDim}
+        autoCorrect={false}
+        autoCapitalize="words"
+        style={styles.search}
+        accessibilityLabel={label}
+      />
+      {active && results.length > 0 ? (
+        <View style={styles.results}>
+          {results.map((a) => (
+            <Pressable
+              key={a.i}
+              onPress={() => {
+                haptics.light?.();
+                onChange(a);
+                setQuery('');
+              }}
+              accessibilityRole="button"
+              accessibilityLabel={`${a.i} ${cityName(a, locale)}`}
+              style={({ pressed }) => [styles.result, pressed && styles.resultPressed]}
+            >
+              <Data tone="accent" allowFontScaling={false} style={styles.resultCode}>
+                {a.i}
+              </Data>
+              <View style={styles.flex}>
+                <Body numberOfLines={1}>{cityName(a, locale)}</Body>
+                <Small numberOfLines={1}>{`${a.n} · ${countryName(a.cc, locale)}`}</Small>
+              </View>
+            </Pressable>
+          ))}
+        </View>
+      ) : null}
+      {active && query.trim().length >= 2 && results.length === 0 ? (
+        <Small style={styles.noResults}>{t('addFlight.noResults')}</Small>
+      ) : null}
+    </View>
+  );
+}
+
+const STAGES: BuildStage[] = ['route', 'places', 'stories', 'photos', 'map'];
+
+function Preparing({ progress, onBackground }: { progress: BuildProgress; onBackground: () => void }) {
+  const current = STAGES.indexOf(progress.stage === 'done' ? 'map' : progress.stage);
+  return (
+    <View style={styles.preparing}>
+      <Gutter>
+        <Label tone="accent">{t('addFlight.preparing')}</Label>
+        <Space h={s.x2} />
+        <Small>{t('addFlight.preparingHint')}</Small>
+      </Gutter>
+      <Space h={s.x4} />
+      {STAGES.map((st, i) => {
+        const done = progress.stage === 'done' || i < current;
+        const now = i === current && progress.stage !== 'done';
+        return (
+          <View key={st} style={styles.stageRow}>
+            <View style={[styles.stagePip, done && styles.stageDone, now && styles.stageNow]} />
+            <Body tone={done ? 'default' : now ? 'accent' : 'dim'} style={styles.flex}>
+              {t(`addFlight.stage_${st}`)}
+            </Body>
+            {now && progress.progress > 0 && progress.progress < 1 ? (
+              <DataSmall allowFontScaling={false}>{`${Math.round(progress.progress * 100)}%`}</DataSmall>
+            ) : done ? (
+              <DataSmall tone="good" allowFontScaling={false}>
+                ✓
+              </DataSmall>
+            ) : null}
+          </View>
+        );
+      })}
+      {current >= STAGES.indexOf('stories') ? (
+        <PressSurface onPress={onBackground} accessibilityLabel={t('addFlight.continueBackground')} style={styles.stageButton}>
+          <Label tone="muted">{t('addFlight.continueBackground')}</Label>
+        </PressSurface>
+      ) : null}
+    </View>
+  );
+}
+
 export default function AddFlightScreen() {
   const nav = useNavigation<Nav>();
   const toast = useToast();
   const reveal = useReveal();
+  const locale = getLocale();
 
-  const [code, setCode] = useState('');
-  const [date, setDate] = useState(today());
-  const [busy, setBusy] = useState(false);
+  const [from, setFrom] = useState<DataAirport | null>(null);
+  const [to, setTo] = useState<DataAirport | null>(null);
+  const [active, setActive] = useState<'from' | 'to' | null>('from');
+  const today = useMemo(() => localDate(new Date()), []);
+  const [date, setDate] = useState(today);
+  const [time, setTime] = useState('');
+  const [details, setDetails] = useState(false);
+  const [flightNumber, setFlightNumber] = useState('');
+  const [arrival, setArrival] = useState('');
+  const [seat, setSeat] = useState<SeatInfo>({ side: 'unknown' });
   const [scanning, setScanning] = useState(false);
+  const [progress, setProgress] = useState<BuildProgress | null>(null);
+  const leaving = useRef(false);
 
-  useLayoutEffect(() => {
-    nav.setOptions({ headerShown: false });
-  }, [nav]);
+  const days = useMemo(() => Array.from({ length: DAYS_AHEAD + 2 }, (_, i) => addDays(today, i - 1)), [today]);
+  const depTime = normaliseTime(time);
+  const arrTime = arrival ? normaliseTime(arrival) : null;
+  const valid = !!from && !!to && from.i !== to.i && !!depTime;
 
-  /**
-   * Says what went wrong in terms the passenger can act on.
-   *
-   * "Flight not found" is the same sentence whether the number is mistyped or
-   * whether the flight is real but further ahead than the data provider carries
-   * — and the second case is the common one, because people add a flight when
-   * they book it. When the server reports which dates it does have, say so.
-   */
-  const explainFailure = useCallback((e: unknown): string => {
-    if (e instanceof ApiError && e.status === 404) {
-      const dates = e.body['availableDates'];
-      if (Array.isArray(dates) && dates.length > 0) {
-        const shown = (dates as string[])
-          .slice()
-          .sort()
-          .map((d) => {
-            const parsed = new Date(`${d}T00:00:00Z`);
-            return Number.isNaN(parsed.getTime())
-              ? d
-              : parsed.toLocaleDateString(getLocale(), {
-                  day: 'numeric',
-                  month: 'short',
-                  timeZone: 'UTC'
-                });
-          })
-          .join(', ');
-        return t('addFlight.onlyDates', { dates: shown });
+  const summary = useMemo(() => {
+    if (!from || !to || from.i === to.i) return null;
+    const d = haversine(from.lat, from.lon, to.lat, to.lon);
+    const k = km(d);
+    return t('addFlight.summary', { dist: k.value, unit: t(`unit.${k.unit}`), time: duration(estimateAirborneSeconds(d)) });
+  }, [from, to]);
+
+  const applyPass = useCallback(
+    (pass: { from?: string; to?: string; date?: string; flightNumber?: string; seat?: string }) => {
+      const a = pass.from ? airportByIata(pass.from) : undefined;
+      const b = pass.to ? airportByIata(pass.to) : undefined;
+      if (a) setFrom(a);
+      if (b) setTo(b);
+      if (pass.date) setDate(pass.date);
+      if (pass.flightNumber) setFlightNumber(pass.flightNumber);
+      if (pass.seat) {
+        const side = seatSide(pass.seat);
+        setSeat({ side: side.side, label: pass.seat });
       }
-      return t('addFlight.notFound');
-    }
-    return e instanceof Error ? e.message : t('errors.somethingWrong');
-  }, []);
-
-  const submit = useCallback(
-    async (flightNumber: string, when: string) => {
-      const trimmed = flightNumber.replace(/\s+/g, '').toUpperCase();
-      if (!trimmed) return;
-      setBusy(true);
-      try {
-        await downloadPackage(trimmed, when);
-        haptics.success();
-        // Board is the flight detail in this IA — there is no separate screen to
-        // land on, and sending the passenger back to it closes the loop.
-        nav.navigate('Tabs');
-      } catch (e) {
-        haptics.error();
-        toast.show(explainFailure(e));
-      } finally {
-        setBusy(false);
-      }
+      setDetails(true);
+      setActive(null);
+      toast.show(a && b ? t('addFlight.passRead') : t('addFlight.passPartial'), 'good');
     },
-    [nav, toast, explainFailure]
+    [toast]
   );
 
   const onScanned = useCallback(
-    (pass: BoardingPassData) => {
+    (pass: BoardingPass) => {
       setScanning(false);
-      setCode(pass.flightNumber);
-      submit(pass.flightNumber, pass.date ?? date);
+      applyPass(pass);
     },
-    [submit, date]
+    [applyPass]
   );
 
   const importWallet = useCallback(async () => {
@@ -122,99 +251,239 @@ export default function AddFlightScreen() {
       const picked = await DocumentPicker.getDocumentAsync({ type: '*/*', copyToCacheDirectory: true });
       if (picked.canceled || !picked.assets?.[0]) return;
       const parsed = await parsePkpassFile(picked.assets[0].uri);
-      if (!parsed?.flightNumber) {
-        toast.show(t('addFlight.walletParseError'));
+      if (!parsed) {
+        toast.show(t('addFlight.walletParseError'), 'bad');
         return;
       }
-      setCode(parsed.flightNumber);
-      submit(parsed.flightNumber, parsed.date ?? date);
+      applyPass({ from: parsed.origin, to: parsed.destination, date: parsed.date, flightNumber: parsed.flightNumber, seat: parsed.seat });
     } catch {
-      toast.show(t('addFlight.walletParseError'));
+      toast.show(t('addFlight.walletParseError'), 'bad');
     }
-  }, [submit, toast, date]);
+  }, [applyPass, toast]);
+
+  const submit = useCallback(async () => {
+    if (!from || !to || !depTime) return;
+    setActive(null);
+    setProgress({ stage: 'route', progress: 0 });
+    try {
+      const pkg = await prepareFlight(
+        {
+          from,
+          to,
+          date,
+          departureTime: depTime,
+          arrivalTime: arrTime ?? undefined,
+          flightNumber: flightNumber.trim() || undefined,
+          seat: seat.side === 'unknown' && !seat.label ? undefined : seat,
+          locale
+        },
+        (p) => {
+          if (!leaving.current) setProgress(p);
+        }
+      );
+      analytics.track('flight_added', { from: from.i, to: to.i, pois: pkg.pois.length });
+      haptics.success();
+      if (!leaving.current) nav.navigate('Tabs', { screen: 'Board' });
+    } catch (e) {
+      haptics.error();
+      setProgress(null);
+      toast.show(t('addFlight.failed'), 'bad');
+      console.warn('[add] prepare failed', e);
+    }
+  }, [from, to, depTime, arrTime, date, flightNumber, seat, locale, nav, toast]);
+
+  const close = () => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs', { screen: 'Board' }));
+
+  const seatOptions: Array<{ side: SeatInfo['side']; key: string }> = [
+    { side: 'left', key: 'seatLeft' },
+    { side: 'right', key: 'seatRight' },
+    { side: 'middle', key: 'seatAisle' },
+    { side: 'unknown', key: 'seatUnknown' }
+  ];
 
   return (
     <Screen>
-      <KeyboardAvoidingView
-        style={styles.fill}
-        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-      >
+      <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
         <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
           <Animated.View style={reveal}>
             <Gutter>
-              <Space h={s.x6} />
               <Row style={styles.head}>
                 <Label tone="dim">{t('addFlight.title')}</Label>
-                <PressSurface
-                  onPress={() => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs'))}
-                  accessibilityLabel={t('common.back')}
-                  style={styles.close}
-                >
+                <PressSurface onPress={close} accessibilityLabel={t('common.cancel')} style={styles.close}>
                   <Label tone="muted">{t('common.cancel')}</Label>
                 </PressSurface>
               </Row>
-
-              <Space h={s.x8} />
-              <Label tone="accent">{t('addFlight.flightNumber')}</Label>
-              <Space h={s.x3} />
-
-              {/* The designator itself — the only thing on the screen at scale. */}
-              <TextInput
-                value={code}
-                onChangeText={(v) => setCode(v.toUpperCase())}
-                placeholder="SQ 322"
-                placeholderTextColor={palette.inkDim}
-                autoCapitalize="characters"
-                autoCorrect={false}
-                autoFocus
-                returnKeyType="search"
-                onSubmitEditing={() => submit(code, date)}
-                style={styles.code}
-                accessibilityLabel={t('addFlight.flightNumber')}
-              />
             </Gutter>
 
             <Rule />
+            <AirportField
+              label={t('addFlight.from')}
+              value={from}
+              active={active === 'from'}
+              onActivate={() => setActive('from')}
+              onChange={(a) => {
+                setFrom(a);
+                setActive(to ? null : 'to');
+              }}
+            />
+            <Rule soft />
+            <AirportField
+              label={t('addFlight.to')}
+              value={to}
+              active={active === 'to'}
+              onActivate={() => setActive('to')}
+              onChange={(a) => {
+                setTo(a);
+                setActive(null);
+              }}
+            />
+            <Rule />
 
-            {/* Date is a fact, not a decision — one quiet row, editable in place. */}
-            <Gutter style={styles.dateRow}>
+            {summary ? (
+              <Gutter style={styles.summary}>
+                <Small tone="muted">{summary}</Small>
+              </Gutter>
+            ) : null}
+
+            <Gutter style={styles.section}>
               <Label tone="dim">{t('addFlight.date')}</Label>
+            </Gutter>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.days}>
+              {days.map((d) => {
+                const chip = dayChip(d, today);
+                const on = d === date;
+                return (
+                  <Pressable
+                    key={d}
+                    onPress={() => setDate(d)}
+                    accessibilityRole="button"
+                    accessibilityState={{ selected: on }}
+                    accessibilityLabel={`${chip.top} ${chip.bottom}`}
+                    style={[styles.day, on && styles.dayOn]}
+                  >
+                    <Label tone={on ? 'accent' : 'muted'} numberOfLines={1}>
+                      {chip.top}
+                    </Label>
+                    <Space h={s.x1} />
+                    <DataSmall tone={on ? 'accent' : 'default'} allowFontScaling={false}>
+                      {chip.bottom}
+                    </DataSmall>
+                  </Pressable>
+                );
+              })}
+            </ScrollView>
+
+            <Gutter style={styles.timeRow}>
+              <View style={styles.flex}>
+                <Label tone="dim">{t('addFlight.departureTime')}</Label>
+                <Small>{from ? t('addFlight.localTimeAt', { city: cityName(from, locale) }) : t('addFlight.localTime')}</Small>
+              </View>
               <TextInput
-                value={date}
-                onChangeText={setDate}
-                placeholder={today()}
+                value={time}
+                onChangeText={setTime}
+                onBlur={() => {
+                  const n = normaliseTime(time);
+                  if (n) setTime(n);
+                }}
+                placeholder="09:30"
                 placeholderTextColor={palette.inkDim}
                 keyboardType="numbers-and-punctuation"
-                style={styles.date}
-                accessibilityLabel={t('addFlight.date')}
+                maxLength={5}
+                style={[styles.time, time && !depTime && styles.timeBad]}
+                accessibilityLabel={t('addFlight.departureTime')}
               />
             </Gutter>
-
             <Rule soft />
 
-            <PressSurface
-              onPress={() => setScanning(true)}
-              accessibilityLabel={t('addFlight.scan')}
-              style={styles.optionRow}
-            >
-              <Body>{t('addFlight.scanPlain')}</Body>
-              <View style={styles.fillRow} />
+            <PressSurface onPress={() => setDetails((v) => !v)} accessibilityLabel={t('addFlight.details')} style={styles.optionRow}>
+              <Body>{t('addFlight.details')}</Body>
+              <View style={styles.flex} />
               <Data tone="dim" allowFontScaling={false}>
-                ›
+                {details ? '−' : '+'}
               </Data>
             </PressSurface>
 
-            <PressSurface
-              onPress={importWallet}
-              accessibilityLabel={t('addFlight.importWallet')}
-              style={styles.optionRow}
-            >
-              <Body>{t('addFlight.importWalletPlain')}</Body>
-              <View style={styles.fillRow} />
+            {details ? (
+              <View style={styles.details}>
+                <Gutter style={styles.detailRow}>
+                  <Label tone="dim" style={styles.flex}>
+                    {t('addFlight.flightNumber')}
+                  </Label>
+                  <TextInput
+                    value={flightNumber}
+                    onChangeText={(v) => setFlightNumber(v.toUpperCase())}
+                    placeholder="SU 1234"
+                    placeholderTextColor={palette.inkDim}
+                    autoCapitalize="characters"
+                    autoCorrect={false}
+                    style={styles.detailInput}
+                    accessibilityLabel={t('addFlight.flightNumber')}
+                  />
+                </Gutter>
+                <Gutter style={styles.detailRow}>
+                  <View style={styles.flex}>
+                    <Label tone="dim">{t('addFlight.arrivalTime')}</Label>
+                    <Small>{to ? t('addFlight.localTimeAt', { city: cityName(to, locale) }) : t('addFlight.optional')}</Small>
+                  </View>
+                  <TextInput
+                    value={arrival}
+                    onChangeText={setArrival}
+                    placeholder="—"
+                    placeholderTextColor={palette.inkDim}
+                    keyboardType="numbers-and-punctuation"
+                    maxLength={5}
+                    style={[styles.detailInput, arrival && !arrTime && styles.timeBad]}
+                    accessibilityLabel={t('addFlight.arrivalTime')}
+                  />
+                </Gutter>
+                <Gutter style={styles.seatBlock}>
+                  <Row style={styles.spread}>
+                    <Label tone="dim">{t('addFlight.seat')}</Label>
+                    {seat.label ? <DataSmall allowFontScaling={false}>{seat.label}</DataSmall> : null}
+                  </Row>
+                  <Space h={s.x3} />
+                  <View style={styles.segment}>
+                    {seatOptions.map((o) => {
+                      const on = seat.side === o.side;
+                      return (
+                        <Pressable
+                          key={o.key}
+                          onPress={() => setSeat((cur) => ({ ...cur, side: o.side }))}
+                          accessibilityRole="button"
+                          accessibilityState={{ selected: on }}
+                          style={[styles.segmentItem, on && styles.segmentOn]}
+                        >
+                          <Label tone={on ? 'accent' : 'muted'} numberOfLines={1}>
+                            {t(`addFlight.${o.key}`)}
+                          </Label>
+                        </Pressable>
+                      );
+                    })}
+                  </View>
+                  <Space h={s.x2} />
+                  <Small>{t('addFlight.seatWhy')}</Small>
+                </Gutter>
+              </View>
+            ) : null}
+
+            <Rule soft />
+            <PressSurface onPress={() => setScanning(true)} accessibilityLabel={t('addFlight.scan')} style={styles.optionRow}>
+              <View style={styles.flex}>
+                <Body>{t('addFlight.scan')}</Body>
+                <Small>{t('addFlight.scanHint')}</Small>
+              </View>
               <Data tone="dim" allowFontScaling={false}>
                 ›
               </Data>
             </PressSurface>
+            {Platform.OS === 'ios' ? (
+              <PressSurface onPress={importWallet} accessibilityLabel={t('addFlight.importWallet')} style={styles.optionRow}>
+                <Body style={styles.flex}>{t('addFlight.importWallet')}</Body>
+                <Data tone="dim" allowFontScaling={false}>
+                  ›
+                </Data>
+              </PressSurface>
+            ) : null}
 
             <Space h={s.x6} />
             <Gutter>
@@ -223,17 +492,19 @@ export default function AddFlightScreen() {
           </Animated.View>
         </ScrollView>
 
-        {busy ? (
-          <View style={styles.busy}>
-            <ActivityIndicator color={palette.amber} />
-            <Space h={s.x3} />
-            <Label tone="muted">{t('common.loading')}</Label>
-          </View>
+        {progress ? (
+          <Preparing
+            progress={progress}
+            onBackground={() => {
+              leaving.current = true;
+              nav.navigate('Tabs', { screen: 'Board' });
+            }}
+          />
         ) : (
           <ActionBar
-            label={t('addFlight.download')}
-            onPress={() => submit(code, date)}
-            tone={code.trim() ? 'accent' : 'quiet'}
+            label={t('addFlight.prepare')}
+            onPress={() => (valid ? submit() : toast.show(from && to && from.i === to.i ? t('addFlight.sameAirport') : t('addFlight.incomplete')))}
+            tone={valid ? 'accent' : 'quiet'}
           />
         )}
       </KeyboardAvoidingView>
@@ -246,35 +517,57 @@ export default function AddFlightScreen() {
 }
 
 const styles = StyleSheet.create({
-  fill: { flex: 1 },
+  flex: { flex: 1 },
+  spread: { justifyContent: 'space-between' },
   scroll: { paddingBottom: s.x8 },
-  head: { justifyContent: 'space-between' },
+  head: { justifyContent: 'space-between', paddingTop: s.x3, paddingBottom: s.x3 },
   close: { paddingVertical: s.x1, paddingLeft: s.x4 },
 
-  code: {
-    fontFamily: family.dataMid,
-    fontSize: 46,
-    lineHeight: 54,
-    letterSpacing: -1,
+  field: { paddingHorizontal: gutter, paddingVertical: s.x4 },
+  fieldRow: { marginTop: s.x2 },
+  search: {
+    fontFamily: family.displayMid,
+    fontSize: 26,
     color: palette.ink,
     paddingVertical: s.x2,
-    paddingBottom: s.x5
+    marginTop: s.x1
   },
-
-  dateRow: {
+  results: { marginTop: s.x2, borderTopWidth: line.hair, borderTopColor: palette.rule },
+  result: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingVertical: s.x3
+    gap: s.x3,
+    paddingVertical: s.x3,
+    borderBottomWidth: line.hair,
+    borderBottomColor: palette.ruleSoft
   },
-  date: {
-    fontFamily: family.data,
-    fontSize: 15,
+  resultPressed: { backgroundColor: palette.raised },
+  resultCode: { width: 44 },
+  noResults: { marginTop: s.x2 },
+
+  summary: { paddingVertical: s.x3 },
+  section: { paddingTop: s.x5, paddingBottom: s.x3 },
+  days: { paddingHorizontal: gutter, gap: s.x2 },
+  day: {
+    width: 68,
+    paddingVertical: s.x3,
+    alignItems: 'center',
+    borderWidth: line.hair,
+    borderColor: palette.rule,
+    backgroundColor: palette.raised
+  },
+  dayOn: { borderColor: palette.amber, backgroundColor: palette.warm },
+
+  timeRow: { flexDirection: 'row', alignItems: 'center', paddingVertical: s.x5, gap: s.x4 },
+  time: {
+    fontFamily: family.dataMid,
+    fontSize: 30,
     color: palette.ink,
+    minWidth: 110,
     textAlign: 'right',
-    minWidth: 130,
     paddingVertical: s.x1
   },
+  timeBad: { color: palette.bad },
 
   optionRow: {
     flexDirection: 'row',
@@ -285,15 +578,38 @@ const styles = StyleSheet.create({
     borderBottomWidth: line.hair,
     borderBottomColor: palette.ruleSoft
   },
-  fillRow: { flex: 1 },
-  hint: { maxWidth: 330 },
-
-  busy: {
+  details: { backgroundColor: palette.raised },
+  detailRow: {
+    flexDirection: 'row',
     alignItems: 'center',
-    paddingTop: s.x4,
-    paddingBottom: s.x8,
+    paddingVertical: s.x3,
+    borderBottomWidth: line.hair,
+    borderBottomColor: palette.ruleSoft
+  },
+  detailInput: {
+    fontFamily: family.data,
+    fontSize: 17,
+    color: palette.ink,
+    minWidth: 120,
+    textAlign: 'right',
+    paddingVertical: s.x1
+  },
+  seatBlock: { paddingVertical: s.x4 },
+  segment: { flexDirection: 'row', borderWidth: line.hair, borderColor: palette.rule },
+  segmentItem: { flex: 1, alignItems: 'center', paddingVertical: s.x3, paddingHorizontal: s.x1 },
+  segmentOn: { backgroundColor: palette.warm },
+  hint: { maxWidth: 340 },
+
+  preparing: {
     borderTopWidth: line.hair,
     borderTopColor: palette.rule,
-    backgroundColor: palette.raised
-  }
+    backgroundColor: palette.raised,
+    paddingTop: s.x5,
+    paddingBottom: s.x8
+  },
+  stageRow: { flexDirection: 'row', alignItems: 'center', gap: s.x3, paddingHorizontal: gutter, paddingVertical: s.x2 },
+  stagePip: { width: 8, height: 8, borderRadius: 4, borderWidth: 1, borderColor: palette.inkDim },
+  stageDone: { backgroundColor: palette.good, borderColor: palette.good },
+  stageNow: { borderColor: palette.amber, backgroundColor: palette.amber },
+  stageButton: { alignItems: 'center', paddingVertical: s.x4, marginTop: s.x3, borderTopWidth: line.hair, borderTopColor: palette.ruleSoft }
 });

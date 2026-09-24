@@ -5,15 +5,18 @@ import type { RoutePoint, POI } from '@skyatlas/shared';
 import { palette, line } from '../design/tokens';
 import { MAP_STYLE_URL } from '../../src/core/map/offlineMap';
 
-interface Props {
+export interface RouteMapProps {
   route: RoutePoint[];
-  position: RoutePoint;
+  /** Where the aircraft is, and how far into the flight. */
+  position: { lat: number; lon: number; elapsedS: number };
   pois?: POI[];
   /** Ids already opened — drawn filled rather than hollow. */
   seen?: Set<string>;
   follow?: boolean;
   onSelectPOI?: (poi: POI) => void;
   labelFor?: (poi: POI) => string;
+  /** Countries crossed; used by the offline sketch fallback. */
+  highlight?: string[];
 }
 
 /** Degrees of span visible when the camera follows the aircraft. */
@@ -44,7 +47,7 @@ export default function RouteMap({
   follow = true,
   onSelectPOI,
   labelFor
-}: Props) {
+}: RouteMapProps) {
   const [interacting, setInteracting] = useState(false);
   const idle = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -75,7 +78,7 @@ export default function RouteMap({
   );
 
   const flown = useMemo(() => {
-    const passed = route.filter((p) => p.elapsedSeconds <= position.elapsedSeconds);
+    const passed = route.filter((p) => p.elapsedSeconds <= position.elapsedS);
     return {
       type: 'Feature' as const,
       properties: {},
@@ -91,7 +94,7 @@ export default function RouteMap({
               ]
       }
     };
-  }, [route, position.elapsedSeconds, position.lat, position.lon]);
+  }, [route, position.elapsedS, position.lat, position.lon]);
 
   const places = useMemo(
     () => ({

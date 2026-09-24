@@ -1,168 +1,143 @@
-import { useEffect, useState, useCallback, useMemo, useRef } from 'react';
-import { View, StyleSheet, Animated, ActivityIndicator, Pressable } from 'react-native';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { View, StyleSheet, Animated, Pressable, Linking } from 'react-native';
 import { Image } from 'expo-image';
 import * as Speech from 'expo-speech';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { useNavigation, useRoute } from '@react-navigation/native';
+import { useNavigation, useRoute, type RouteProp } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import type { RouteProp } from '@react-navigation/native';
-import { palette, s, gutter, line, radius } from '../design/tokens';
-import { Display, Label, Body, BodyLarge, Data, DataSmall } from '../design/type';
-import { Screen, Gutter, Cells, Space, PressSurface, Rule } from '../design/layout';
+import type { OfflinePackage, POI } from '@skyatlas/shared';
+import { palette, s, gutter, line } from '../design/tokens';
+import { Display, Label, Body, BodyLarge, Data, DataSmall, Small } from '../design/type';
+import { Screen, Gutter, Cells, Space, PressSurface, Rule, Row } from '../design/layout';
 import { useReveal } from '../motion';
 import PlaceFigure from '../components/PlaceFigure';
+import SideMark from '../components/SideMark';
 import PlaceReviews from '../components/PlaceReviews';
+import { loadPackage } from '../../src/core/offline/packageStore';
+import { useSession } from '../../src/core/flight/session';
+import { positionNow } from '../../src/core/flight/position';
+import { placeName, placeText, countryName } from '../../src/core/places/names';
+import { describePlace } from '../../src/core/places/describe';
+import { canOpenPlace, notePlaceOpened, fullAccess } from '../../src/core/monetization/entitlement';
+import { MONETIZATION_ENABLED } from '../../src/core/monetization/revenueCat';
+import { getRecords } from '../../src/core/game/journal';
+import { SOCIAL_ENABLED } from '../../src/core/features';
 import { social } from '../../src/core/api/social';
-import { canOpenPlace, notePlaceOpened } from '../../src/core/monetization/entitlement';
-import { loadPackage } from '../../src/core/offline/poiDatabase';
-import { getRandomQuiz, type LocalisedQuiz } from '../../src/core/quizzes/quizzes';
-import { recordPOIView } from '../../src/core/ai/personalization';
+import { km, metres, formatInt } from '../../src/core/units';
 import { haptics } from '../../src/core/ux/haptics';
 import { t, getLocale } from '../../src/i18n';
+import { clock, relative } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
-import type { POI } from '@skyatlas/shared';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'POIDetail'>;
 type R = RouteProp<RootStackParamList, 'POIDetail'>;
 
-function localised(poi: POI) {
-  const loc = getLocale().slice(0, 2) as keyof NonNullable<POI['translations']>;
-  const tr = poi.translations?.[loc];
-  return {
-    name: tr?.name ?? poi.name,
-    summary: tr?.summary ?? poi.summary,
-    facts: tr?.facts ?? poi.facts
-  };
-}
-
-/** The hero is full-bleed, so its height is also where the status-bar lid closes. */
-const HERO_HEIGHT = 230;
+const HERO_HEIGHT = 260;
 
 const coords = (lat: number, lon: number) =>
-  `${Math.abs(lat).toFixed(1)}°${lat >= 0 ? 'N' : 'S'} ${Math.abs(lon).toFixed(1)}°${lon >= 0 ? 'E' : 'W'}`;
+  `${Math.abs(lat).toFixed(2)}°${lat >= 0 ? 'N' : 'S'}  ${Math.abs(lon).toFixed(2)}°${lon >= 0 ? 'E' : 'W'}`;
 
-/**
- * The quiz, placed after the reading rather than before it.
- *
- * Asking first turns the card into an exam; asking after the passenger has
- * just read the answer turns it into a small win. Same content, opposite feel.
- */
-function QuizBlock({ quiz }: { quiz: LocalisedQuiz }) {
-  const [picked, setPicked] = useState<number | null>(null);
-  const right = picked === quiz.correctIdx;
+/** Where and when, relative to the flight — the line that turns an article into a sighting. */
+function PassLine({ poi, pkg }: { poi: POI; pkg: OfflinePackage }) {
+  const session = useSession();
+  const active = session.flightId === pkg.flight.id && session.takeoffAt && !session.landedAt;
+  const d = km(poi.closestApproachKm ?? 0);
+  const side = poi.side ?? 'below';
+  const raw = side === 'below' ? t('place.overhead') : t('place.sideDistance', { side: t(`side.${side}`), dist: d.value, unit: t(`unit.${d.unit}`) });
+  const where = raw.charAt(0).toUpperCase() + raw.slice(1);
+
+  let when: string;
+  if (active && poi.passAt != null) {
+    const now = positionNow(pkg.route, new Date(session.takeoffAt!), new Date(), {
+      multiplier: session.timeMultiplier,
+      clockOffsetS: session.clockOffsetS
+    });
+    when = relative(poi.passAt - now.elapsedS);
+  } else {
+    when = poi.passAt != null ? t('place.afterTakeoff', { t: clock(poi.passAt) }) : '';
+  }
 
   return (
-    <View style={styles.quiz}>
-      <Gutter>
-        {/* Its own heading. Both this block and the facts above it read
-            "did you know", so one screen carried the same title twice. */}
-        <Label tone="accent">{t('poi.question')}</Label>
-        <Space h={s.x3} />
-        <BodyLarge>{quiz.question}</BodyLarge>
-      </Gutter>
-      <Space h={s.x4} />
-
-      {quiz.options.map((option, i) => {
-        const chosen = picked === i;
-        const isAnswer = i === quiz.correctIdx;
-        const revealed = picked !== null;
-        return (
-          <Pressable
-            key={option}
-            disabled={revealed}
-            onPress={() => {
-              setPicked(i);
-              i === quiz.correctIdx ? haptics.success() : haptics.error();
-            }}
-            accessibilityRole="button"
-            accessibilityLabel={option}
-            style={({ pressed }) => [
-              styles.option,
-              pressed && styles.optionPressed,
-              revealed && isAnswer && styles.optionRight,
-              chosen && !isAnswer && styles.optionWrong
-            ]}
-          >
-            <Body tone={revealed && isAnswer ? 'accent' : 'default'}>{option}</Body>
-          </Pressable>
-        );
-      })}
-
-      {picked !== null ? (
-        <View style={styles.explain}>
-          <Gutter>
-            <Label tone={right ? 'accent' : 'muted'}>{right ? '✓' : '—'}</Label>
-            <Space h={s.x2} />
-            <Body tone="muted">{quiz.explanation}</Body>
-          </Gutter>
-        </View>
-      ) : null}
+    <View style={styles.pass}>
+      <SideMark side={side} size={28} />
+      <View style={styles.flex}>
+        <Body>{where}</Body>
+        {when ? <Small tone="accent">{when}</Small> : null}
+      </View>
     </View>
+  );
+}
+
+function SeeIt({ poi, pkg }: { poi: POI; pkg: OfflinePackage }) {
+  const session = useSession();
+  const got = session.spotted.includes(poi.id);
+  const active = session.flightId === pkg.flight.id && session.takeoffAt && !session.landedAt;
+  const scale = useRef(new Animated.Value(1)).current;
+
+  if (!active) return null;
+
+  const now = positionNow(pkg.route, new Date(session.takeoffAt!), new Date(), {
+    multiplier: session.timeMultiplier,
+    clockOffsetS: session.clockOffsetS
+  });
+  // "I see it" only means something while the place can be seen.
+  const open = poi.visibleFrom == null || now.elapsedS >= poi.visibleFrom - 600;
+
+  const press = () => {
+    if (!open) return;
+    useSession.getState().toggleSpotted(poi.id);
+    if (!got) {
+      haptics.success();
+      Animated.sequence([
+        Animated.spring(scale, { toValue: 1.06, useNativeDriver: true, tension: 300, friction: 8 }),
+        Animated.spring(scale, { toValue: 1, useNativeDriver: true, tension: 200, friction: 10 })
+      ]).start();
+    }
+  };
+
+  return (
+    <Animated.View style={{ transform: [{ scale }] }}>
+      <Pressable
+        onPress={press}
+        accessibilityRole="button"
+        accessibilityState={{ selected: got, disabled: !open }}
+        accessibilityLabel={t('place.seeIt')}
+        style={({ pressed }) => [styles.seeIt, got && styles.seeItOn, !open && styles.seeItOff, pressed && open && styles.seeItPressed]}
+      >
+        <Label tone={got ? 'brass' : open ? 'accent' : 'dim'}>{got ? t('place.seen') : t('place.seeIt')}</Label>
+        <Small tone="muted" style={styles.seeItHint}>
+          {got ? t('place.seenHint') : open ? t('place.seeItHint') : t('place.seeItLater')}
+        </Small>
+      </Pressable>
+    </Animated.View>
   );
 }
 
 export default function PlaceScreen() {
   const nav = useNavigation<Nav>();
-  const route = useRoute<R>();
-  const { poiId, flightId } = route.params;
+  const { poiId, flightId } = useRoute<R>().params;
   const insets = useSafeAreaInsets();
-
-  const [poi, setPoi] = useState<POI | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [plate, setPlate] = useState<string>('');
-  const [speaking, setSpeaking] = useState(false);
+  const locale = getLocale();
   const reveal = useReveal();
   const scrollY = useRef(new Animated.Value(0)).current;
 
-  /**
-   * A lid over the status bar, opened only once there is something to hide.
-   *
-   * The hero is deliberately full-bleed, so the card scrolls under the clock —
-   * and the body text ran straight through the time of day. An always-on strip
-   * would instead put a slab of page colour over the warm hero. So it fades in
-   * across the twenty points before the hero's edge reaches the status bar,
-   * which is exactly when the first line of text arrives there.
-   */
-  const maskOpacity = scrollY.interpolate({
-    inputRange: [Math.max(0, HERO_HEIGHT - insets.top - 20), Math.max(1, HERO_HEIGHT - insets.top)],
-    outputRange: [0, 1],
-    extrapolate: 'clamp'
-  });
-
-  /**
-   * One question per place, not per render.
-   *
-   * This was a plain `useState(null)` that nothing ever set, so the fallback ran
-   * `getRandomQuiz()` on every render — pressing "listen" swapped the question
-   * out from under the reader. Keyed on the place, it is drawn once.
-   */
-  const quiz = useMemo<LocalisedQuiz | null>(
-    () => (poi ? getRandomQuiz(poi.category) : null),
-    [poi]
-  );
+  const [pkg, setPkg] = useState<OfflinePackage | null>(null);
+  const [poi, setPoi] = useState<POI | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [speaking, setSpeaking] = useState(false);
 
   useEffect(() => {
     let alive = true;
-
-    // The free tier stops at five places a flight. Reopening one already read
-    // costs nothing, so only a genuinely new card can be turned away.
-    if (!canOpenPlace(flightId, poiId)) {
-      nav.replace('Paywall');
-      return;
-    }
-
     loadPackage(flightId)
-      .then((pkg) => {
-        if (!alive || !pkg) return;
-        const idx = pkg.pois.findIndex((p) => p.id === poiId);
-        const found = idx >= 0 ? pkg.pois[idx]! : null;
+      .then((p) => {
+        if (!alive || !p) return;
+        setPkg(p);
+        const found = p.pois.find((x) => x.id === poiId) ?? null;
         setPoi(found);
-        setPlate(String(idx + 1).padStart(3, '0'));
         if (found) {
-          notePlaceOpened(flightId, found.id);
-          recordPOIView(found.category);
-          // Best-effort: queued and replayed if there is no signal at cruise.
-          social.discover(found.id, flightId);
+          const first = getRecords().filter((r) => r.flightId !== flightId).length === 0;
+          if (fullAccess(first) || canOpenPlace(flightId, found.id)) notePlaceOpened(flightId, found.id);
+          if (SOCIAL_ENABLED) social.discover(found.id, flightId);
         }
       })
       .finally(() => alive && setLoading(false));
@@ -170,7 +145,7 @@ export default function PlaceScreen() {
       alive = false;
       Speech.stop();
     };
-  }, [poiId, flightId, nav]);
+  }, [poiId, flightId]);
 
   const speak = useCallback(() => {
     if (!poi) return;
@@ -179,42 +154,45 @@ export default function PlaceScreen() {
       setSpeaking(false);
       return;
     }
-    const { summary } = localised(poi);
+    const text = placeText(poi, locale);
     setSpeaking(true);
-    Speech.speak(summary, {
-      language: getLocale(),
+    Speech.speak(`${placeName(poi, locale)}. ${text.summary || describePlace(poi, locale)}`, {
+      language: text.textLang ?? locale,
       onDone: () => setSpeaking(false),
       onStopped: () => setSpeaking(false),
       onError: () => setSpeaking(false)
     });
-  }, [poi, speaking]);
+  }, [poi, speaking, locale]);
 
-  if (loading) {
+  const maskOpacity = scrollY.interpolate({
+    inputRange: [Math.max(0, HERO_HEIGHT - insets.top - 20), Math.max(1, HERO_HEIGHT - insets.top)],
+    outputRange: [0, 1],
+    extrapolate: 'clamp'
+  });
+
+  if (loading) return <Screen />;
+  if (!poi || !pkg) {
     return (
       <Screen style={styles.center}>
-        <ActivityIndicator color={palette.amber} />
+        <Gutter>
+          <Body tone="muted">{t('place.notFound')}</Body>
+        </Gutter>
       </Screen>
     );
   }
 
-  if (!poi) {
-    return (
-      <Screen style={styles.center}>
-        <Body tone="muted">{t('poi.notFound')}</Body>
-      </Screen>
-    );
-  }
-
-  const { name, summary, facts } = localised(poi);
-  const photo = poi.photos?.[0];
+  const name = placeName(poi, locale);
+  const text = placeText(poi, locale);
+  const locked =
+    MONETIZATION_ENABLED &&
+    !fullAccess(getRecords().filter((r) => r.flightId !== flightId).length === 0) &&
+    !canOpenPlace(flightId, poi.id);
+  const photo = poi.photos[0];
   const cells = [
-    poi.elevation ? { value: `${poi.elevation.toLocaleString()}`, label: `${t('poi.elevation')} · M` } : null,
-    poi.closestApproachKm
-      ? { value: String(Math.round(poi.closestApproachKm)), label: `${t('poi.distance')} · KM` }
-      : null,
-    poi.population
-      ? { value: `${Math.round(poi.population / 1000)}K`, label: t('poi.population') }
-      : null
+    poi.elevation ? (() => { const m = metres(poi.elevation); return { value: m.value, label: `${t('place.elevation')} · ${t(`unit.${m.unit}`)}` }; })() : null,
+    poi.population ? { value: formatInt(poi.population), label: t('place.population') } : null,
+    poi.extentKm && !poi.population ? (() => { const k = km(poi.extentKm * 2); return { value: k.value, label: `${t('place.extent')} · ${t(`unit.${k.unit}`)}` }; })() : null,
+    poi.country ? { value: poi.country, label: t('place.country') } : null
   ].filter(Boolean) as { value: string; label: string }[];
 
   return (
@@ -222,9 +200,7 @@ export default function PlaceScreen() {
       <Animated.ScrollView
         contentContainerStyle={styles.scroll}
         scrollEventThrottle={16}
-        onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], {
-          useNativeDriver: true
-        })}
+        onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: true })}
       >
         <View style={styles.hero}>
           {photo ? (
@@ -234,97 +210,111 @@ export default function PlaceScreen() {
           )}
           <View style={styles.plate}>
             <Label tone="accent" numberOfLines={1}>
-              {`№ ${plate} · ${t(`category.${poi.category}`)}`}
+              {t(`category.${poi.category}`)}
             </Label>
           </View>
+          {photo && poi.photoCredit ? (
+            <View style={styles.credit}>
+              <DataSmall numberOfLines={1} allowFontScaling={false}>
+                {`© ${poi.photoCredit}`}
+              </DataSmall>
+            </View>
+          ) : null}
         </View>
 
         <Animated.View style={reveal}>
           <Gutter>
             <Space h={s.x5} />
             <Display>{name}</Display>
+            {text.tagline ? (
+              <>
+                <Space h={s.x2} />
+                <Body tone="muted">{text.tagline}</Body>
+              </>
+            ) : null}
             <Space h={s.x2} />
-            <DataSmall allowFontScaling={false}>{coords(poi.lat, poi.lon)}</DataSmall>
+            <DataSmall allowFontScaling={false}>
+              {[poi.country ? countryName(poi.country, locale) : null, coords(poi.lat, poi.lon)].filter(Boolean).join('  ·  ')}
+            </DataSmall>
           </Gutter>
-
-          {cells.length > 0 ? (
-            <>
-              <Space h={s.x5} />
-              <Cells items={cells} />
-            </>
-          ) : null}
 
           <Space h={s.x5} />
-          <Gutter>
-            <Body tone="muted" style={styles.measure}>
-              {summary}
-            </Body>
-          </Gutter>
+          <PassLine poi={poi} pkg={pkg} />
+          <SeeIt poi={poi} pkg={pkg} />
 
-          {facts?.length ? (
-            <>
-              <Space h={s.x8} />
-              <Gutter>
-                <Label tone="dim">{t('poi.didYouKnow')}</Label>
-              </Gutter>
+          {cells.length > 0 ? <Cells items={cells} /> : null}
+
+          <Space h={s.x6} />
+          {locked ? (
+            <Gutter>
+              <Body tone="muted">{t('place.locked')}</Body>
               <Space h={s.x3} />
-              {facts.map((fact) => (
-                <View key={fact} style={styles.factRow}>
-                  <View style={styles.factPip} />
-                  <Body tone="muted" style={styles.factText}>
-                    {fact}
-                  </Body>
-                </View>
-              ))}
-            </>
-          ) : null}
+              <PressSurface onPress={() => nav.navigate('Paywall')} accessibilityLabel={t('place.unlock')}>
+                <Label tone="accent">{t('place.unlock')}</Label>
+              </PressSurface>
+            </Gutter>
+          ) : (
+            <Gutter>
+              {text.textLang ? (
+                <>
+                  <Label tone="dim">{t('place.inEnglish')}</Label>
+                  <Space h={s.x2} />
+                </>
+              ) : null}
+              <BodyLarge style={styles.measure}>{text.summary || describePlace(poi, locale)}</BodyLarge>
+            </Gutter>
+          )}
 
           <Space h={s.x8} />
           <Rule />
-          <PressSurface onPress={speak} accessibilityLabel={t('poi.listen')} style={styles.listenRow}>
-            <Body>{speaking ? t('poi.stop') : t('poi.listen')}</Body>
-            <View style={styles.fill} />
+          <PressSurface onPress={speak} accessibilityLabel={t('place.listen')} style={styles.row}>
+            <Body>{speaking ? t('place.stop') : t('place.listen')}</Body>
+            <View style={styles.flex} />
             <Data tone="dim" allowFontScaling={false}>
               {speaking ? '■' : '▶'}
             </Data>
           </PressSurface>
           <Rule />
 
-          {quiz ? <QuizBlock key={quiz.id} quiz={quiz} /> : null}
+          {poi.textSource === 'wikipedia' && poi.sourceUrl ? (
+            <PressSurface onPress={() => Linking.openURL(poi.sourceUrl!)} accessibilityLabel={t('place.source')} style={styles.row}>
+              <View style={styles.flex}>
+                <Small>{t('place.sourceWikipedia')}</Small>
+              </View>
+              <Data tone="dim" allowFontScaling={false}>
+                ↗
+              </Data>
+            </PressSurface>
+          ) : null}
 
-          <PlaceReviews poiId={poi.id} />
+          {SOCIAL_ENABLED ? <PlaceReviews poiId={poi.id} /> : null}
         </Animated.View>
-
         <Space h={s.x16} />
       </Animated.ScrollView>
 
-      <Animated.View
-        pointerEvents="none"
-        style={[styles.statusMask, { height: insets.top, opacity: maskOpacity }]}
-      />
-
-      {/* Floats above the hero rather than inside it: a child of the fixed-height
-          hero cannot be positioned against the screen, and the control has to
-          clear the status bar on every device. */}
+      <Animated.View pointerEvents="none" style={[styles.statusMask, { height: insets.top, opacity: maskOpacity }]} />
       <View style={[styles.backFloat, { top: insets.top + s.x2 }]} pointerEvents="box-none">
-        <PressSurface
-          onPress={() => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs'))}
-          accessibilityLabel={t('common.back')}
-          style={styles.backBtn}
-        >
-          <Label tone="muted">{t('common.back')}</Label>
-        </PressSurface>
+        <Row style={styles.spreadTop}>
+          <PressSurface
+            onPress={() => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs', { screen: 'Board' }))}
+            accessibilityLabel={t('common.back')}
+            style={styles.backBtn}
+          >
+            <Label tone="muted">{`‹ ${t('common.back')}`}</Label>
+          </PressSurface>
+        </Row>
       </View>
     </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  center: { alignItems: 'center', justifyContent: 'center' },
+  flex: { flex: 1 },
+  center: { justifyContent: 'center' },
   scroll: { paddingBottom: s.x8 },
-
+  measure: { maxWidth: 520 },
   hero: { height: HERO_HEIGHT, backgroundColor: palette.warm },
-  photo: { width: "100%", height: HERO_HEIGHT },
+  photo: { width: '100%', height: HERO_HEIGHT },
   plate: {
     position: 'absolute',
     left: gutter,
@@ -335,56 +325,47 @@ const styles = StyleSheet.create({
     borderColor: palette.amberDim,
     backgroundColor: palette.ground
   },
+  credit: {
+    position: 'absolute',
+    right: s.x2,
+    bottom: s.x2,
+    maxWidth: '55%',
+    paddingHorizontal: s.x2,
+    paddingVertical: 2,
+    backgroundColor: 'rgba(8,10,12,0.7)'
+  },
+  pass: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: s.x3,
+    paddingHorizontal: gutter,
+    paddingVertical: s.x4,
+    borderTopWidth: line.hair,
+    borderTopColor: palette.rule
+  },
+  seeIt: {
+    marginHorizontal: gutter,
+    marginBottom: s.x5,
+    paddingVertical: s.x4,
+    paddingHorizontal: s.x4,
+    alignItems: 'center',
+    borderWidth: line.bold,
+    borderColor: palette.amber,
+    backgroundColor: palette.warm
+  },
+  seeItOn: { borderColor: palette.brass, backgroundColor: palette.raised },
+  seeItOff: { borderColor: palette.rule, backgroundColor: palette.ground },
+  seeItPressed: { backgroundColor: palette.lifted },
+  seeItHint: { marginTop: s.x1, textAlign: 'center' },
+  row: { flexDirection: 'row', alignItems: 'center', gap: s.x3, paddingHorizontal: gutter, paddingVertical: s.x4 },
   statusMask: { position: 'absolute', top: 0, left: 0, right: 0, backgroundColor: palette.ground },
   backFloat: { position: 'absolute', left: 0, right: 0 },
+  spreadTop: { justifyContent: 'space-between', paddingHorizontal: gutter },
   backBtn: {
-    alignSelf: 'flex-start',
-    marginLeft: gutter,
     paddingVertical: s.x2,
     paddingHorizontal: s.x3,
     borderWidth: line.hair,
     borderColor: palette.rule,
     backgroundColor: palette.ground
-  },
-
-  measure: { maxWidth: 460 },
-
-  factRow: {
-    flexDirection: 'row',
-    gap: s.x3,
-    paddingHorizontal: gutter,
-    paddingVertical: s.x3,
-    borderTopWidth: line.hair,
-    borderTopColor: palette.ruleSoft
-  },
-  factPip: { width: 4, height: 4, borderRadius: 2, backgroundColor: palette.amber, marginTop: 9 },
-  factText: { flex: 1 },
-
-  listenRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: s.x3,
-    paddingHorizontal: gutter,
-    paddingVertical: s.x4
-  },
-  fill: { flex: 1 },
-
-  quiz: { marginTop: s.x10 },
-  option: {
-    paddingHorizontal: gutter,
-    paddingVertical: s.x4,
-    borderTopWidth: line.hair,
-    borderTopColor: palette.ruleSoft
-  },
-  optionPressed: { backgroundColor: palette.raised },
-  optionRight: { backgroundColor: palette.warm, borderLeftWidth: 2, borderLeftColor: palette.amber },
-  optionWrong: { opacity: 0.45 },
-  explain: {
-    marginTop: s.x4,
-    paddingVertical: s.x4,
-    borderTopWidth: line.hair,
-    borderTopColor: palette.rule,
-    backgroundColor: palette.raised,
-    borderRadius: radius.none
   }
 });

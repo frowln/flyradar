@@ -1,8 +1,18 @@
 import { Platform } from 'react-native';
-import { collectionsStore } from '../gamification/collections';
+import { settings } from '../settings';
 import { signRequest } from '../crypto/sign';
+import { randomId } from '../random';
 
-const BASE_URL = process.env['EXPO_PUBLIC_API_URL'] ?? 'http://localhost:3000';
+const BASE_URL = process.env['EXPO_PUBLIC_API_URL'] ?? '';
+
+/**
+ * Whether a backend is configured at all.
+ *
+ * The app is complete without one: flights are prepared on the phone from
+ * bundled data. A server adds richer packages and the social layer, and only
+ * when this build was pointed at one.
+ */
+export const API_ENABLED = BASE_URL.length > 0;
 
 /**
  * How long any single request may hang before it is abandoned.
@@ -43,10 +53,10 @@ export class ApiTimeoutError extends Error {
 }
 
 function getDeviceToken(): string {
-  let token = collectionsStore.getDeviceToken();
+  let token = settings.getDeviceToken();
   if (!token) {
-    token = `dev_${Date.now()}_${Math.random().toString(36).slice(2, 18)}`;
-    collectionsStore.setDeviceToken(token);
+    token = randomId('dev_');
+    settings.setDeviceToken(token);
   }
   return token;
 }

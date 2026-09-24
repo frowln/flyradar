@@ -11,12 +11,25 @@ function applyLocale(poi: POI, locale: string): POI {
   return { ...poi, name: t.name, summary: t.summary, facts: t.facts };
 }
 
+export function packageCacheKey(flightNumber: string, date: string, locale: string): string {
+  return `pkg:${flightNumber}:${date}:${locale}`;
+}
+
+/** A package built earlier, without building one — the fast path of the route. */
+export function getCachedPackage(
+  flightNumber: string,
+  date: string,
+  locale = 'en'
+): Promise<OfflinePackage | null> {
+  return cacheGet<OfflinePackage>(packageCacheKey(flightNumber, date, locale));
+}
+
 export async function buildPackage(
   flightNumber: string,
   date: string,
   locale = 'en'
 ): Promise<OfflinePackage | null> {
-  const cacheKey = `pkg:${flightNumber}:${date}:${locale}`;
+  const cacheKey = packageCacheKey(flightNumber, date, locale);
 
   const cached = await cacheGet<OfflinePackage>(cacheKey);
   if (cached) return cached;

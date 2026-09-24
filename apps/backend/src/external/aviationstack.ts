@@ -1,5 +1,8 @@
 import { outboundFetch } from './outbound.js';
 
+/** Long enough for the proxied route in development, short enough to fail a lookup visibly. */
+const TIMEOUT_MS = 10_000;
+
 export interface AviationStackFlight {
   flight_date?: string;
   flight_status?: string;
@@ -45,7 +48,7 @@ export async function lookupFlightDetailed(
     const url =
       `https://api.aviationstack.com/v1/flights` +
       `?access_key=${key}&flight_iata=${encodeURIComponent(flightNumber)}&limit=20`;
-    const r = await outboundFetch(url);
+    const r = await outboundFetch(url, { signal: AbortSignal.timeout(TIMEOUT_MS) });
     const j = (await r.json().catch(() => null)) as any;
 
     // AviationStack answers plan and key problems with HTTP 200 as often as with
