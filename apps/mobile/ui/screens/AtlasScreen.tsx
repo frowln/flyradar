@@ -4,7 +4,7 @@ import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { POICategory } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Display, Label, Body, Data, DataSmall, Title, Small } from '../design/type';
+import { Display, Label, Body, Data, DataSmall, Title, Small, typeStyles } from '../design/type';
 import { Screen, Gutter, Row, Cells, Space, PressSurface, Rule, textHitSlop } from '../design/layout';
 import { useReveal } from '../motion';
 import Stamp from '../components/Stamp';
@@ -104,7 +104,7 @@ export default function AtlasScreen() {
             <Space h={s.x2} />
             <Row style={styles.spread}>
               <DataSmall allowFontScaling={false}>{`${formatInt(xp)} XP`}</DataSmall>
-              <DataSmall allowFontScaling={false}>{t('atlas.toNext', { xp: formatInt(level.span - level.into) })}</DataSmall>
+              <DataSmall style={typeStyles.shrink}>{t('atlas.toNext', { xp: formatInt(level.span - level.into) })}</DataSmall>
             </Row>
           </Gutter>
 
@@ -192,7 +192,7 @@ export default function AtlasScreen() {
                   }`}
                 >
                   <Row gap={s.x2}>
-                    <Data tone={tally.passed ? 'default' : 'dim'} allowFontScaling={false}>
+                    <Data tone={tally.passed ? 'default' : 'dim'}>
                       {String(tally.passed)}
                     </Data>
                     {tally.spotted ? (
@@ -270,7 +270,7 @@ export default function AtlasScreen() {
                   {dayMonth(r.takeoffAt)}
                 </DataSmall>
                 <Body style={styles.flex}>{`${r.from} — ${r.to}`}</Body>
-                <DataSmall allowFontScaling={false}>
+                <DataSmall style={typeStyles.trailing}>
                   {t('atlas.journalCountries', { count: r.countries.length })}
                   {r.spotted.length ? ` · ★ ${r.spotted.length}` : ''}
                 </DataSmall>

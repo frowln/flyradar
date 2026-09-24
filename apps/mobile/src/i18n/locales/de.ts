@@ -489,6 +489,14 @@ export const de = {
     correctAnswer: 'richtige Antwort',
     stageDone: 'fertig',
     stageNow: 'läuft',
+    nextDay: {
+      one: 'am nächsten Tag',
+      other: '%{count} Tage später',
+    },
+    prevDay: {
+      one: 'am Vortag',
+      other: '%{count} Tage früher',
+    },
   },
   settings: {
     title: 'Einstellungen',

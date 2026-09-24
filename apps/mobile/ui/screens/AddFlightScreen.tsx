@@ -91,7 +91,7 @@ function AirportField({
       <PressSurface onPress={onActivate} accessibilityLabel={`${label}: ${cityName(value, locale)}`} style={styles.field}>
         <Label tone="dim">{label}</Label>
         <Row gap={s.x4} style={styles.fieldRow}>
-          <Code allowFontScaling={false}>{value.i}</Code>
+          <Code>{value.i}</Code>
           <View style={styles.flex}>
             <Title numberOfLines={1}>{cityName(value, locale)}</Title>
             <Small numberOfLines={1}>{`${value.n} · ${countryName(value.cc, locale)}`}</Small>
@@ -130,7 +130,7 @@ function AirportField({
               accessibilityLabel={`${a.i} ${cityName(a, locale)}`}
               style={({ pressed }) => [styles.result, pressed && styles.resultPressed]}
             >
-              <Data tone="accent" allowFontScaling={false} style={styles.resultCode}>
+              <Data tone="accent" style={styles.resultCode}>
                 {a.i}
               </Data>
               <View style={styles.flex}>

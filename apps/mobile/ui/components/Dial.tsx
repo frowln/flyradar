@@ -127,6 +127,9 @@ export default function Dial({ progress, reading, caption, size = 260, accessibi
       </Animated.View>
 
       <View style={[styles.readout, { top: cy - r * 0.44 }]} pointerEvents="none">
+        {/* Not scaled: the reading sits between the arc's ticks in a dial of
+            fixed height, so any growth runs it into the scale and pushes the
+            caption onto the route below. The spoken label carries it instead. */}
         <Readout allowFontScaling={false}>{reading}</Readout>
         {caption ? (
           <View style={styles.caption}>

@@ -122,7 +122,7 @@ export function Cells({ items, bordered = true }: { items: CellItem[]; bordered?
           accessible
           accessibilityLabel={item.spoken ?? `${item.label}: ${item.value}`}
         >
-          <Data tone={item.tone === 'accent' ? 'accent' : 'default'} allowFontScaling={false}>
+          <Data tone={item.tone === 'accent' ? 'accent' : 'default'}>
             {item.value}
           </Data>
           <View style={styles.cellLabel}>

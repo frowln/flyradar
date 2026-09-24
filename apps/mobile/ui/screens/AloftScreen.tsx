@@ -5,7 +5,7 @@ import { useFocusEffect, useNavigation, useRoute, type RouteProp } from '@react-
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { OfflinePackage, POI, Moment } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Label, Title, Body, Data, DataSmall, Small } from '../design/type';
+import { Label, Title, Body, Data, DataSmall, Small, typeStyles } from '../design/type';
 import { Screen, Cells, PressSurface, Space, Row, Gutter, textHitSlop } from '../design/layout';
 import { useReducedMotion } from '../motion';
 import RouteMap from '../components/RouteMap';
@@ -394,8 +394,10 @@ export default function AloftScreen() {
 
         <Gutter style={styles.nowHead}>
           <Row style={styles.spread}>
-            <Label tone="accent" accessibilityRole="header">{t('aloft.outside')}</Label>
-            <DataSmall allowFontScaling={false}>
+            <Label tone="accent" accessibilityRole="header" style={typeStyles.shrink}>
+              {t('aloft.outside')}
+            </Label>
+            <DataSmall style={typeStyles.shrink}>
               {outside.countryNow ? countryName(outside.countryNow, locale) : t('aloft.overWater')}
               {!outside.daylight ? ` · ${t('aloft.night')}` : ''}
             </DataSmall>
@@ -524,10 +526,10 @@ export default function AloftScreen() {
                     hitSlop={{ top: s.x1, bottom: s.x1 }}
                     style={styles.stepBtn}
                   >
-                    <Data allowFontScaling={false}>{`${d}`}</Data>
+                    <Data>{`${d}`}</Data>
                   </PressSurface>
                 ))}
-                <Data tone="accent" allowFontScaling={false}>
+                <Data tone="accent">
                   {timeAt(takeoff.toISOString())}
                 </Data>
                 {[5, 10].map((d) => (
@@ -538,7 +540,7 @@ export default function AloftScreen() {
                     hitSlop={{ top: s.x1, bottom: s.x1 }}
                     style={styles.stepBtn}
                   >
-                    <Data allowFontScaling={false}>{`+${d}`}</Data>
+                    <Data>{`+${d}`}</Data>
                   </PressSurface>
                 ))}
               </Row>

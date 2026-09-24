@@ -481,6 +481,12 @@ export const ja = {
     correctAnswer: '正解',
     stageDone: '完了',
     stageNow: '処理中',
+    nextDay: {
+      other: '%{count}日後',
+    },
+    prevDay: {
+      other: '%{count}日前',
+    },
   },
   settings: {
     title: '設定',

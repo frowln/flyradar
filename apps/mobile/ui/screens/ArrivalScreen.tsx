@@ -4,7 +4,7 @@ import { useNavigation, useRoute, type RouteProp } from '@react-navigation/nativ
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { OfflinePackage, POI } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Label, Body, Title, Data, DataSmall, Small, Readout } from '../design/type';
+import { Label, Body, Title, Data, DataSmall, Small, Readout, typeStyles } from '../design/type';
 import { Screen, Gutter, Cells, Space, ActionBar, PressSurface, Rule, Row } from '../design/layout';
 import { useReveal, useCountUp } from '../motion';
 import Dial from '../components/Dial';
@@ -109,8 +109,8 @@ function XpBlock({ landing }: { landing: Landing }) {
       </Row>
       <Space h={s.x2} />
       <Row style={styles.spread}>
-        <Readout tone="accent" allowFontScaling={false}>{`${counted} XP`}</Readout>
-        <Data allowFontScaling={false}>{t('arrival.level', { n: after.level })}</Data>
+        <Readout tone="accent">{`${counted} XP`}</Readout>
+        <Data style={typeStyles.shrink}>{t('arrival.level', { n: after.level })}</Data>
       </Row>
       <Space h={s.x3} />
       <View style={styles.track}>
@@ -293,7 +293,7 @@ export default function ArrivalScreen() {
                 <View key={l} style={styles.lineRow} accessible accessibilityLabel={`${t(`line.${l}`)}, ${t('arrival.crossed')}`}>
                   <View style={styles.linePip} />
                   <Body style={styles.flex}>{t(`line.${l}`)}</Body>
-                  <DataSmall tone="brass" allowFontScaling={false}>
+                  <DataSmall tone="brass" style={typeStyles.trailing}>
                     {t('arrival.crossed')}
                   </DataSmall>
                 </View>
@@ -346,7 +346,7 @@ export default function ArrivalScreen() {
                   <Body numberOfLines={1} style={styles.flex}>
                     {placeName(p, locale)}
                   </Body>
-                  <DataSmall allowFontScaling={false}>{t(`category.${p.category}`)}</DataSmall>
+                  <DataSmall style={typeStyles.trailing}>{t(`category.${p.category}`)}</DataSmall>
                 </PressSurface>
               ))}
             </>

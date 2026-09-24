@@ -4,7 +4,7 @@ import { useFocusEffect, useNavigation, useRoute, type RouteProp } from '@react-
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { OfflinePackage, POI } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Display, Label, Body, Title, DataSmall, Small, Data } from '../design/type';
+import { Display, Label, Body, Title, DataSmall, Small, Data, typeStyles } from '../design/type';
 import { Screen, Gutter, Row, Cells, ActionBar, PressSurface, Space, Rule, textHitSlop } from '../design/layout';
 import { useReveal } from '../motion';
 import Dial from '../components/Dial';
@@ -82,7 +82,7 @@ function Advice({ pkg }: { pkg: OfflinePackage }) {
       <Row style={styles.spread}>
         <Label tone="dim" accessibilityRole="header">{t('advice.label')}</Label>
         {advice.daylight !== null ? (
-          <DataSmall allowFontScaling={false}>
+          <DataSmall style={typeStyles.shrink}>
             {night ? t('advice.night') : t('advice.daylight', { pct: Math.round(advice.daylight * 100) })}
           </DataSmall>
         ) : null}
@@ -259,7 +259,14 @@ function FeaturedFlight({
       <Cells
         items={[
           { value: timeAt(flight.scheduledDeparture, flight.origin.tz), label: t('board.departure') },
-          { value: arrival, label: t('board.arrival'), spoken: `${t('board.arrival')}: ${arrival}` },
+          {
+            value: arrival,
+            label: t('board.arrival'),
+            // "+1" is read as "plus one"; say which day instead.
+            spoken: `${t('board.arrival')}: ${timeAt(flight.scheduledArrival, flight.destination.tz)}${
+              dayShift ? `, ${t(dayShift > 0 ? 'a11y.nextDay' : 'a11y.prevDay', { count: Math.abs(dayShift) })}` : ''
+            }`
+          },
           { value: clock(end), label: t('board.inAir'), spoken: `${t('board.inAir')}: ${spokenDuration(end)}` },
           { value: String(countries.length), label: t('board.countries') }
         ]}
@@ -460,7 +467,7 @@ export default function BoardScreen() {
             <View style={styles.emptyPoints}>
               {(['one', 'two', 'three'] as const).map((k, i) => (
                 <View key={k} style={styles.point} accessible accessibilityLabel={`${i + 1}. ${t(`board.emptyPoint_${k}`)}`}>
-                  <Data tone="accent" allowFontScaling={false}>{`0${i + 1}`}</Data>
+                  <Data tone="accent">{`0${i + 1}`}</Data>
                   <View style={styles.flex}>
                     <Body>{t(`board.emptyPoint_${k}`)}</Body>
                   </View>

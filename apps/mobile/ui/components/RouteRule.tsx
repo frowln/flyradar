@@ -34,7 +34,7 @@ export default function RouteRule({ fromCode, toCode, fromCity, toCity, progress
       style={styles.block}
     >
       <View style={styles.row}>
-        <Code allowFontScaling={false}>{fromCode}</Code>
+        <Code>{fromCode}</Code>
 
         <View style={styles.rail}>
           <View style={styles.cap} />
@@ -45,7 +45,7 @@ export default function RouteRule({ fromCode, toCode, fromCity, toCity, progress
           <View style={[styles.cap, styles.capEnd]} />
         </View>
 
-        <Code allowFontScaling={false}>{toCode}</Code>
+        <Code>{toCode}</Code>
       </View>
 
       {fromCity || toCity ? (

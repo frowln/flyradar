@@ -3,7 +3,7 @@ import { View, ScrollView, StyleSheet, ActivityIndicator, RefreshControl, Animat
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Display, Label, Body, Data, DataSmall, Title } from '../design/type';
+import { Display, Label, Body, Data, DataSmall, Title, typeStyles } from '../design/type';
 import { Screen, Gutter, Space, PressSurface, Rule } from '../design/layout';
 import { useReveal } from '../motion';
 import { social, type LeaderboardEntry, type PublicStats } from '../../src/core/api/social';
@@ -125,7 +125,7 @@ export default function PeopleScreen() {
                     {f.handle ?? t('reviews.anonymous')}
                   </Body>
                   <View style={styles.leader} />
-                  <DataSmall allowFontScaling={false}>
+                  <DataSmall style={typeStyles.trailing}>
                     {f.stats.placesDiscovered} {t('atlas.placesShort')}
                   </DataSmall>
                 </PressSurface>
@@ -156,7 +156,7 @@ export default function PeopleScreen() {
                   {e.handle ?? t('reviews.anonymous')}
                 </Body>
                 <View style={styles.leader} />
-                <Data tone={isMe ? 'accent' : 'default'} allowFontScaling={false}>
+                <Data tone={isMe ? 'accent' : 'default'}>
                   {e.xp}
                 </Data>
                 <DataSmall style={styles.unit}>XP</DataSmall>

@@ -18,6 +18,9 @@ import { duration, dayMonth } from '../format';
  * Square-ish, 4:5, made for a messenger thread rather than a story: it goes
  * where "we landed" is already being sent. It carries no flight number, seat or
  * booking data — only the shape of the journey and what lay under it.
+ *
+ * Its text ignores the system text size: the card is captured as an image and
+ * sent, and must look the same on the recipient's phone as on the sender's.
  */
 const Postcard = forwardRef<View, { pkg: OfflinePackage; width: number; spotted?: number }>(function Postcard(
   { pkg, width, spotted = 0 },

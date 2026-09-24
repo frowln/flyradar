@@ -4,7 +4,7 @@ import appConfig from '../../app.json';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { palette, s, gutter, line } from '../design/tokens';
-import { Label, Body, DataSmall, Small, Title } from '../design/type';
+import { Label, Body, DataSmall, Small, Title, typeStyles } from '../design/type';
 import { Screen, Gutter, Space, PressSurface, Rule, textHitSlop } from '../design/layout';
 import AppleSignIn from '../components/AppleSignIn';
 import { settings, type AlertLevel, type Units } from '../../src/core/settings';
@@ -72,7 +72,7 @@ function SettingRow({
         <Body>{label}</Body>
         {hint ? <Small>{hint}</Small> : null}
       </View>
-      <DataSmall tone="accent" allowFontScaling={false}>
+      <DataSmall tone="accent" style={typeStyles.trailing}>
         {value}
       </DataSmall>
     </PressSurface>

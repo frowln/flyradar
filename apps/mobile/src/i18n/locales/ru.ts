@@ -505,6 +505,18 @@ export const ru = {
     correctAnswer: 'правильный ответ',
     stageDone: 'готово',
     stageNow: 'в процессе',
+    nextDay: {
+      one: 'на следующий день',
+      few: 'через %{count} дня',
+      many: 'через %{count} дней',
+      other: 'через %{count} дня',
+    },
+    prevDay: {
+      one: 'накануне',
+      few: 'на %{count} дня раньше',
+      many: 'на %{count} дней раньше',
+      other: 'на %{count} дня раньше',
+    },
   },
   settings: {
     title: 'Настройки',

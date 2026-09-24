@@ -241,7 +241,7 @@ export default function PlaceScreen() {
               </>
             ) : null}
             <Space h={s.x2} />
-            <DataSmall allowFontScaling={false}>
+            <DataSmall>
               {[poi.country ? countryName(poi.country, locale) : null, coords(poi.lat, poi.lon)].filter(Boolean).join('  ·  ')}
             </DataSmall>
           </Gutter>

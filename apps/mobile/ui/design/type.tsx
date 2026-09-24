@@ -31,11 +31,19 @@ interface Props extends TextProps {
   children?: React.ReactNode;
 }
 
-function make(role: FamilyRole, base: TextStyle, defaultTone: Tone = 'default') {
+function make(role: FamilyRole, base: TextStyle, defaultTone: Tone = 'default', defaults?: TextProps) {
   return function Typed({ tone = defaultTone, style, ...rest }: Props) {
-    return <RNText {...rest} style={[base, { fontFamily: fam(role), color: tones[tone] }, style]} />;
+    return <RNText {...defaults} {...rest} style={[base, { fontFamily: fam(role), color: tones[tone] }, style]} />;
   };
 }
+
+/**
+ * Instrument readouts follow the system text size, but only to 1.3×: at that
+ * size a code, a countdown or a cell value still fits the rail, row or cell it
+ * was drawn for, and past it the instrument around it comes apart. Running text
+ * and small data are not capped — they are what a low-vision reader needs to grow.
+ */
+const READOUT_SCALE: TextProps = { maxFontSizeMultiplier: 1.3 };
 
 /** Screen-defining statements. One per screen, at most. */
 export const Display = make('display', {
@@ -79,11 +87,12 @@ export const Label = make(
 );
 
 /** Any number that can change. Tabular so digits never shift under a label. */
-export const Data = make('data', {
-  fontSize: 16,
-  lineHeight: 20,
-  fontVariant: ['tabular-nums']
-});
+export const Data = make(
+  'data',
+  { fontSize: 16, lineHeight: 20, fontVariant: ['tabular-nums'] },
+  'default',
+  READOUT_SCALE
+);
 
 export const DataSmall = make(
   'data',
@@ -92,22 +101,30 @@ export const DataSmall = make(
 );
 
 /** The one number a screen exists to show. */
-export const Readout = make('dataMid', {
-  fontSize: 38,
-  lineHeight: 40,
-  letterSpacing: -1.4,
-  fontVariant: ['tabular-nums']
-});
+export const Readout = make(
+  'dataMid',
+  { fontSize: 38, lineHeight: 40, letterSpacing: -1.4, fontVariant: ['tabular-nums'] },
+  'default',
+  READOUT_SCALE
+);
 
 /** Airport codes: sized to be read across a seatback, not tapped. */
-export const Code = make('dataMid', {
-  fontSize: 34,
-  lineHeight: 38,
-  letterSpacing: -0.4,
-  fontVariant: ['tabular-nums']
-});
+export const Code = make(
+  'dataMid',
+  { fontSize: 34, lineHeight: 38, letterSpacing: -0.4, fontVariant: ['tabular-nums'] },
+  'default',
+  READOUT_SCALE
+);
 
 export const typeStyles = StyleSheet.create({
   /** Running text should not exceed ~65 characters; this caps it on wide screens. */
-  measure: { maxWidth: 460 }
+  measure: { maxWidth: 460 },
+  /**
+   * For a text in a row beside another text. Yoga does not let text shrink by
+   * default, so once the system text size grows the pair runs off the screen
+   * instead of wrapping.
+   */
+  shrink: { flexShrink: 1 },
+  /** A short reading at the end of a row, after a flexing label: wraps rather than overflows, and never takes more than half the row. */
+  trailing: { flexShrink: 1, maxWidth: '50%', textAlign: 'right' }
 });

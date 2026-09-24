@@ -78,7 +78,7 @@ export default function PlaceReviews({ poiId }: Props) {
           <Space h={s.x3} />
           <View style={styles.summary}>
             <View style={styles.summaryCell} accessible accessibilityLabel={`${t('reviews.discoveredBy')}: ${stats.discoveries}`}>
-              <Data allowFontScaling={false}>{stats.discoveries}</Data>
+              <Data>{stats.discoveries}</Data>
               <Space h={s.x1} />
               <Label numberOfLines={1}>{t('reviews.discoveredBy')}</Label>
             </View>
@@ -87,7 +87,7 @@ export default function PlaceReviews({ poiId }: Props) {
               accessible
               accessibilityLabel={`${t('reviews.rating')}: ${stats.rating ? stats.rating.toFixed(1) : '—'}`}
             >
-              <Data tone={stats.rating ? 'accent' : 'muted'} allowFontScaling={false}>
+              <Data tone={stats.rating ? 'accent' : 'muted'}>
                 {stats.rating ? stats.rating.toFixed(1) : '—'}
               </Data>
               <Space h={s.x1} />
@@ -98,7 +98,7 @@ export default function PlaceReviews({ poiId }: Props) {
               accessible
               accessibilityLabel={`${t('reviews.rarity')}: ${stats.rarity > 0 ? `${(stats.rarity * 100).toFixed(1)}%` : '—'}`}
             >
-              <Data allowFontScaling={false}>
+              <Data>
                 {stats.rarity > 0 ? `${(stats.rarity * 100).toFixed(1)}%` : '—'}
               </Data>
               <Space h={s.x1} />

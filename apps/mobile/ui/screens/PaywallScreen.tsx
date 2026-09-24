@@ -151,7 +151,7 @@ export default function PaywallScreen() {
                   <Space h={s.x1} />
                   <DataSmall>{t(`paywall.${tier.note}`)}</DataSmall>
                 </View>
-                <Data tone={on ? 'accent' : 'muted'} allowFontScaling={false}>
+                <Data tone={on ? 'accent' : 'muted'}>
                   {price}
                 </Data>
               </PressSurface>
