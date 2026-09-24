@@ -358,5 +358,392 @@
         "Aurangzeb"
       ]
     }
+  },
+  "Q3141": {
+    "t": "Una ciudad al fondo de una bahía inmensa y casi cerrada",
+    "s": "Imagina una enorme lámina de agua casi aislada del océano: es la bahía de Port Phillip, con Melbourne en su fondo. La entrada, el Rip, mide solo unos 3 km y tiene fama temible entre los marinos. El río Yarra entra en el centro desde el este, donde se alzan los boscosos montes Dandenong. Una fiebre del oro en la década de 1850 la hizo una de las ciudades más ricas del mundo.",
+    "w": "Una ciudad extensa en el fondo de una enorme bahía casi redonda; colinas boscosas al este y llanuras al oeste.",
+    "f": [
+      "De 1901 a 1927, el parlamento federal de Australia se reunió en Melbourne, hasta que Canberra estuvo lista.",
+      "La ciudad se fundó en 1835 a orillas del Yarra.",
+      "La bahía de Port Phillip cubre casi 2000 km², pero en ningún punto supera unos 24 m de profundidad."
+    ],
+    "q": {
+      "q": "¿Cuánto mide, aproximadamente, la entrada de la bahía de Port Phillip?",
+      "a": "Unos 3 km",
+      "x": [
+        "Unos 30 km",
+        "Unos 300 m"
+      ]
+    }
+  },
+  "Q1867": {
+    "t": "Una ciudad vertida en un cuenco de montañas verdes",
+    "s": "Taipéi llena una cuenca llana como el agua un cuenco, con montañas boscosas alzándose por todos lados. Al norte, los volcanes dormidos de Yangmingshan humean en silencio y alimentan fuentes termales en el borde de la ciudad. Tres ríos se juntan en la cuenca y salen por un único paso al noroeste como el Tamsui, rumbo al estrecho de Taiwán.",
+    "w": "Una ciudad densa que llena una cuenca redonda, montañas verdes alrededor y un río que serpentea al noroeste hacia el mar.",
+    "f": [
+      "El Taipei 101, terminado en 2004, fue el edificio más alto del mundo hasta 2010.",
+      "El monte Qixing, en Yangmingshan, de unos 1120 m, es un volcán dormido dentro del término municipal.",
+      "Las fuentes termales de Beitou, en el norte de la ciudad, las calienta el mismo grupo volcánico."
+    ],
+    "q": {
+      "q": "¿Qué río desagua la cuenca de Taipéi hacia el mar?",
+      "a": "El Tamsui",
+      "x": [
+        "El Zhuoshui",
+        "El Gaoping"
+      ]
+    }
+  },
+  "Q37100": {
+    "t": "Una ciudad en un estrecho istmo entre dos mares",
+    "s": "Auckland está apretada en un istmo estrecho: el puerto de Waitematā se abre al este hacia el Pacífico, y el de Manukau, al oeste, hacia el mar de Tasmania. La ciudad se asienta sobre un campo de unos 50 pequeños volcanes, y muchos sobreviven como conos verdes de hierba entre los suburbios. Justo frente a la costa, busca Rangitoto, una isla simétrica que surgió del mar hace solo unos 600 años.",
+    "w": "Una ciudad en un fino cuello de tierra entre dos puertos, salpicada de conos verdes; una isla redonda y simétrica frente a la costa.",
+    "f": [
+      "En su punto más estrecho, el istmo es tan fino que los maoríes arrastraban canoas de un puerto a otro.",
+      "El nombre maorí de Auckland, Tāmaki Makaurau, suele traducirse como «Tāmaki deseada por muchos».",
+      "Rangitoto es a la vez el volcán más joven y el más grande del campo de Auckland."
+    ],
+    "q": {
+      "q": "¿Cuántos volcanes, aproximadamente, forman el campo volcánico de Auckland?",
+      "a": "Unos 50",
+      "x": [
+        "Unos 5",
+        "Unos 500"
+      ]
+    }
+  },
+  "Q15174": {
+    "t": "Una ciudad de crecimiento vertiginoso junto a Hong Kong",
+    "s": "Shenzhen se extiende en una larga cinta junto a la costa, frente a las colinas verdes de Hong Kong, al otro lado de un río estrecho. Antes de 1980 era un tranquilo distrito fronterizo de arrozales y aldeas pesqueras; ese año fue una de las primeras Zonas Económicas Especiales de China y creció a un ritmo asombroso. De noche, sus luces van casi sin cortes del estuario de las Perlas a las penínsulas orientales.",
+    "w": "Una larga franja de ciudad junto a la costa, justo al norte de Hong Kong; una bahía con un puente en el lado oeste.",
+    "f": [
+      "El río Shenzhen forma gran parte del límite con Hong Kong.",
+      "Un puente de unos 5 km cruza la bahía de Shenzhen hasta los Nuevos Territorios de Hong Kong.",
+      "Los manglares aún bordean la bahía de Shenzhen en Futian, un refugio protegido de aves migratorias."
+    ],
+    "q": {
+      "q": "¿En qué año se convirtió Shenzhen en Zona Económica Especial?",
+      "a": "1980",
+      "x": [
+        "1949",
+        "1997"
+      ]
+    }
+  },
+  "Q198370": {
+    "t": "Una ciudad de pueblos dispersos y cuna antigua del fútbol",
+    "s": "Zibo es menos una ciudad que un racimo suelto de localidades, ensartadas donde las colinas del centro de Shandong bajan a la llanura del Norte de China. Una de ellas, Linzi, fue la capital del antiguo estado de Qi y una de las mayores ciudades de su época. Otra, Boshan, es conocida desde hace siglos por su cerámica y su vidrio de colores.",
+    "w": "Varias manchas urbanas separadas a lo largo del borde de unas colinas bajas, con la llanura abriéndose al norte.",
+    "f": [
+      "En 2004, la FIFA reconoció el cuju, que se jugaba en Linzi hace más de 2000 años, como la forma más antigua conocida del fútbol.",
+      "Linzi siguió siendo la capital de Qi durante siglos, hasta la conquista de Qin en el 221 a. C."
+    ],
+    "q": {
+      "q": "¿De qué deporte se considera cuna el distrito de Linzi, en Zibo?",
+      "a": "El fútbol",
+      "x": [
+        "El tenis de mesa",
+        "El bádminton"
+      ]
+    }
+  },
+  "Q1858": {
+    "t": "Una capital milenaria junto al río color óxido",
+    "s": "Cargado de limo, el río Rojo parece de verdad oxidado desde arriba, y Hanói está en su orilla derecha. La ciudad está salpicada de lagos; el mayor, el Lago del Oeste, al norte. Alrededor, el delta del río Rojo, llano y verde, se extiende en arrozales. La dinastía Lý la hizo su capital en 1010 y la llamó Thăng Long, «dragón que asciende».",
+    "w": "Una ciudad en la orilla suroeste de un ancho río pardo, con un gran lago en su lado norte, entre arrozales verdes y llanos.",
+    "f": [
+      "El nombre Hà Nội significa más o menos «dentro del río»; la ciudad lo recibió en 1831.",
+      "El Lago del Oeste, el mayor de Hanói, cubre unas 500 hectáreas."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Hanói cuando se convirtió en capital en 1010?",
+      "a": "Thăng Long",
+      "x": [
+        "Phú Xuân",
+        "Gia Định"
+      ]
+    }
+  },
+  "Q1854": {
+    "t": "Meandros, un delta inmenso y un laberinto de manglares",
+    "s": "El río Saigón describe bucles brillantes y cerrados por la ciudad antes de dirigirse al mar. Al sureste del centro, la tierra da paso a Cần Giờ, un laberinto verde oscuro de manglares y canales de marea. Al suroeste se extiende el delta del Mekong, uno de los grandes graneros de arroz de Asia. Muchos vecinos siguen llamando a la ciudad por su antiguo nombre, Saigón.",
+    "w": "Una ciudad densa junto a un río en bucles; canales oscuros de manglar al sureste y un delta verde y llano al suroeste.",
+    "f": [
+      "El manglar de Cần Giờ es reserva de la biosfera de la UNESCO.",
+      "Antes de que llegaran los colonos vietnamitas en el siglo XVII, aquí había un puerto jemer llamado Prey Nokor."
+    ],
+    "q": {
+      "q": "¿Qué manglar está entre Ciudad Ho Chi Minh y el mar?",
+      "a": "Cần Giờ",
+      "x": [
+        "Los Sundarbans",
+        "Bhitarkanika"
+      ]
+    }
+  },
+  "Q11739": {
+    "t": "Una ciudad mogol de jardines en la llanura del Punyab",
+    "s": "Canales de riego rectos trazan líneas por la llana llanura del Punyab en torno a Lahore, y el río Ravi pasa en curva por el borde noroeste de la ciudad. Durante siglos fue una de las grandes ciudades del Imperio mogol, y Akbar tuvo aquí su capital más de una década. La vieja ciudad amurallada sigue siendo un nudo apretado de callejuelas cerca del río.",
+    "w": "Una gran ciudad llana con un río en su lado noroeste y canales rectos que cruzan campos verdes.",
+    "f": [
+      "Akbar tuvo su corte en Lahore de 1585 a 1598.",
+      "El fuerte de Lahore y los jardines de Shalimar figuran juntos como un sitio del Patrimonio Mundial de la UNESCO.",
+      "A la ciudad amurallada se entraba antaño por una docena de puertas."
+    ],
+    "q": {
+      "q": "¿Qué río pasa por Lahore?",
+      "a": "El Ravi",
+      "x": [
+        "El Jhelum",
+        "El Kabul"
+      ]
+    }
+  },
+  "Q8660": {
+    "t": "Una megaciudad en una costa seca junto al delta del Indo",
+    "s": "Karachi se desparrama por una costa seca color arena, con colinas desnudas detrás y el mar Arábigo delante. Su puerto está resguardado por una lengua baja de tierra y, al sureste, la costa se deshilacha en esteros de manglar donde empieza el delta del Indo. En el siglo XVIII era un pequeño asentamiento de pescadores; hoy es la mayor ciudad de Pakistán.",
+    "w": "Una inmensa ciudad beis en una costa seca y recta; un puerto resguardado y esteros de manglar al sureste, colinas desnudas detrás.",
+    "f": [
+      "Su antiguo nombre era Kolachi, por una aldea de pescadores de esta costa.",
+      "Karachi fue la capital de Pakistán de 1947 a 1959.",
+      "Los manglares del delta del Indo, al sureste, están entre los mayores manglares de clima seco."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Karachi como aldea de pescadores del siglo XVIII?",
+      "a": "Kolachi",
+      "x": [
+        "Thatta",
+        "Gwadar"
+      ]
+    }
+  },
+  "Q18808": {
+    "t": "Ciudad de islas fluviales, antes «capital de los sauces»",
+    "s": "Largas islas bajas dividen el ancho y tranquilo río Taedong a su paso por Pionyang, y la ciudad ocupa ambas orillas. Más allá, campos llanos y colinas bajas se extienden hacia el mar Amarillo, a unos 50 km al suroeste. El nombre significa «tierra llana», y en el año 427 el reino de Goguryeo trasladó aquí su capital.",
+    "w": "Una ciudad a ambos lados de un río ancho con islas alargadas; el río serpentea al suroeste por campos llanos hasta el mar.",
+    "f": [
+      "Un antiguo nombre de la ciudad es Ryugyong, «capital de los sauces», por los árboles de sus orillas.",
+      "Goguryeo gobernó desde Pionyang más de dos siglos, del 427 al 668."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa Pionyang?",
+      "a": "El Taedong",
+      "x": [
+        "El Han",
+        "El Yalu"
+      ]
+    }
+  },
+  "Q5972": {
+    "t": "La mayor ciudad de Sumatra, construida sobre el tabaco",
+    "s": "Enormes cuadrículas ordenadas de plantaciones rodean Medan en la llanura costera del noreste de Sumatra, a pocos kilómetros tierra adentro del estrecho de Malaca. En el siglo XIX, la hoja que se cultivaba aquí, el tabaco de Deli, era apreciada en todo el mundo como capa de puros, y una pequeña aldea se enriqueció. Al suroeste, conos volcánicos suben hacia el gran lago de caldera del Toba.",
+    "w": "Una mancha gris en una llanura cerca de la costa, rodeada de plantaciones en cuadrícula; picos volcánicos en el horizonte suroeste.",
+    "f": [
+      "Medan es la mayor ciudad de Sumatra.",
+      "El lago Toba, al sur de la ciudad, llena la caldera de un supervolcán que entró en erupción hace unos 74 000 años.",
+      "El tabaco de Deli, llamado así por el sultanato local, se cultivó aquí para capa de puros desde la década de 1860."
+    ],
+    "q": {
+      "q": "¿Qué cultivo enriqueció a Medan en el siglo XIX?",
+      "a": "El tabaco",
+      "x": [
+        "La nuez moscada",
+        "El clavo"
+      ]
+    }
+  },
+  "Q1865": {
+    "t": "Una confluencia fangosa que el estaño convirtió en capital",
+    "s": "Kuala Lumpur llena el valle de Klang, con las crestas boscosas de los montes Titiwangsa alzándose al este. La ciudad nació en la década de 1850 como un tosco campamento de mineros del estaño, y muchos de los lagos que brillan a su alrededor son antiguas minas inundadas. Al sur, busca Putrajaya, una ciudad administrativa planificada en torno a un gran lago artificial.",
+    "w": "Una ciudad densa en un valle verde, montañas boscosas al este, lagos dispersos alrededor y una ciudad planificada al sur.",
+    "f": [
+      "Kuala Lumpur significa «confluencia fangosa»: creció donde el río Gombak se une al Klang.",
+      "Las Torres Petronas fueron los edificios más altos del mundo de 1998 a 2004.",
+      "Las cuevas de Batu, en un cerro calizo del borde norte de la ciudad, son un santuario hindú desde la década de 1890."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Kuala Lumpur?",
+      "a": "Confluencia fangosa",
+      "x": [
+        "Río de estaño",
+        "Pueblo de colinas"
+      ]
+    }
+  },
+  "Q183584": {
+    "t": "Una ciudad larga y fina apretada junto al río Amarillo",
+    "s": "Lanzhou es una ciudad sin sitio para crecer: se extiende decenas de kilómetros por un valle estrecho del río Amarillo, encajonada entre colinas de loess desnudas y ocres. Desde arriba parece una cinta gris metida en un pliegue del terreno. Para las caravanas de la Ruta de la Seda, este era el paso clave del río Amarillo camino del oeste, hacia el corredor del Hexi.",
+    "w": "Una estrecha cinta gris de ciudad que sigue un río sinuoso entre colinas desnudas pardo amarillentas.",
+    "f": [
+      "El puente Zhongshan, terminado en 1909, fue el primer puente permanente sobre el río Amarillo.",
+      "Antes de los puentes, los viajeros cruzaban aquí el río en balsas sostenidas por pieles de oveja infladas."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa el centro de Lanzhou?",
+      "a": "El río Amarillo",
+      "x": [
+        "El Yangtsé",
+        "El río Wei"
+      ]
+    }
+  },
+  "Q179608": {
+    "t": "Una ciudad verde y subtropical en los meandros del Yong",
+    "s": "Nanning se enrosca en torno a los amplios meandros del río Yong, en pleno sur subtropical de China. El campo que la rodea es un mosaico de colinas verdes y campos, muchos de ellos plantados de caña de azúcar. La frontera con Vietnam está a menos de 200 km al suroeste, y desde 2004 la ciudad acoge cada año una feria comercial con el Sudeste Asiático.",
+    "w": "Una ciudad extendida en torno a amplios bucles de río, con colinas y campos verdes alrededor.",
+    "f": [
+      "Guangxi, cuya capital es Nanning, cultiva más de la mitad de la caña de azúcar de China.",
+      "Su verdor de todo el año le ha valido a Nanning el apodo de «Ciudad Verde».",
+      "El río Yong sigue hasta el Xi y llega al final al delta del río de las Perlas."
+    ],
+    "q": {
+      "q": "¿De qué cultivo es Guangxi el mayor productor de China?",
+      "a": "La caña de azúcar",
+      "x": [
+        "El té",
+        "El algodón"
+      ]
+    }
+  },
+  "Q192271": {
+    "t": "Ciudad alta entre innumerables colinas kársticas cónicas",
+    "s": "Conos y hondonadas de caliza arrugan la tierra en torno a Guiyang, a unos 1100 m en la meseta de Yunnan-Guizhou. Los barrios se aprietan entre las colinas, así que desde arriba la ciudad parece rota en pedazos. Un viejo dicho asegura que Guizhou nunca tiene tres días seguidos de sol ni tres li de terreno llano; mira abajo y verás por qué.",
+    "w": "Manchas de ciudad dispersas entre colinas verdes y cónicas en una meseta alta y arrugada, a menudo bajo las nubes.",
+    "f": [
+      "Gracias a la altitud, los veranos de Guiyang son suaves para el sur de China.",
+      "El nombre significa «al sur del monte Gui»: en chino, «yang» indica la ladera soleada de un monte."
+    ],
+    "q": {
+      "q": "¿De qué provincia es capital Guiyang?",
+      "a": "Guizhou",
+      "x": [
+        "Guangxi",
+        "Yunnan"
+      ]
+    }
+  },
+  "Q11725": {
+    "t": "Una ciudad de montaña en la punta donde se unen dos ríos",
+    "s": "El viejo centro de Chongqing es una península empinada y abarrotada en el encuentro de dos ríos: el Jialing, que llega del norte, y el Yangtsé. En la punta, sus aguas suelen correr lado a lado en dos colores antes de mezclarse. Alrededor, largas crestas paralelas corren al noreste como los pliegues de una tela arrugada. Colinas, niebla y veranos calurosos le han dado sus apodos: Ciudad de la Montaña y Ciudad de la Niebla.",
+    "w": "Una península densa entre dos ríos que confluyen, enmarcada por largas crestas paralelas de noreste a suroeste.",
+    "f": [
+      "El embalse de la presa de las Tres Gargantas se extiende unos 600 km río arriba, hasta Chongqing.",
+      "Chongqing figura entre los «hornos» de China por sus veranos calurosos y húmedos.",
+      "Todo el municipio de Chongqing tiene más o menos el tamaño de Austria."
+    ],
+    "q": {
+      "q": "¿Qué río se une al Yangtsé en el centro de Chongqing?",
+      "a": "El Jialing",
+      "x": [
+        "El Min",
+        "El Han"
+      ]
+    }
+  },
+  "Q68481": {
+    "t": "La Ciudad de los Banianos, en una cuenca verde del río Min",
+    "s": "Los banianos, plantados aquí por primera vez hace unos mil años, aún dan sombra a las calles de Fuzhou y le dan su apodo de Ciudad de los Banianos. Desde arriba, la ciudad llena una cuenca rodeada de montañas verdes en el curso bajo del río Min, justo antes de que el río se ensanche hacia el mar. Una gran isla en el río, Nantai, está también cubierta de ciudad.",
+    "w": "Una ciudad en una cuenca rodeada de montañas junto a un río ancho, con una gran isla edificada en mitad del río.",
+    "f": [
+      "La FAO incluye la cultura del jazmín y el té de Fuzhou entre los Sistemas Importantes del Patrimonio Agrícola Mundial.",
+      "Bajo el centro de la ciudad brotan fuentes termales, que los baños aprovechan desde hace siglos.",
+      "El astillero de Mawei, fundado en 1866, fue uno de los primeros astilleros modernos de China."
+    ],
+    "q": {
+      "q": "¿De qué árbol viene el apodo de Fuzhou?",
+      "a": "El baniano",
+      "x": [
+        "El alcanforero",
+        "El sauce"
+      ]
+    }
+  },
+  "Q16572": {
+    "t": "El viejo Cantón, en la cabeza del delta de las Perlas",
+    "s": "Donde el río de las Perlas se rompe en el laberinto de canales de su delta, Guangzhou se funde sin costuras con las ciudades de alrededor. La joroba verde del monte Baiyun se alza en su lado norte. De 1757 a 1842 fue el único puerto chino donde se permitía comerciar a los mercaderes occidentales, que la conocían como Cantón.",
+    "w": "Una ciudad enorme junto a un río ramificado en la cabecera del delta, con una montaña verde en su borde norte.",
+    "f": [
+      "Una leyenda de cinco carneros que trajeron arroz a la gente le dio a Guangzhou su apodo, la Ciudad de los Carneros.",
+      "La Feria de Cantón se celebra aquí dos veces al año desde 1957."
+    ],
+    "q": {
+      "q": "¿Cómo llamaban a Guangzhou los comerciantes europeos?",
+      "a": "Cantón",
+      "x": [
+        "Amoy",
+        "Foochow"
+      ]
+    }
+  },
+  "Q59218": {
+    "t": "Un mosaico de pueblos fabriles junto al río de las Perlas",
+    "s": "Dongguan no tiene un centro único: es un mosaico de una treintena de localidades, polígonos industriales y estanques de peces en el lado este del estuario del río de las Perlas, que llena el hueco entre Guangzhou y Shenzhen. De sus talleres han salido incontables juguetes, zapatos y aparatos electrónicos. En su borde oeste, el puente de Humen salta sobre la desembocadura.",
+    "w": "Una mancha de pueblos y estanques en la orilla este de un amplio estuario, con un largo puente colgante en su borde oeste.",
+    "f": [
+      "En Humen, en 1839, el comisario Lin Zexu mandó destruir más de mil toneladas de opio confiscado.",
+      "El puente de Humen, inaugurado en 1997, tiene un vano principal de 888 m."
+    ],
+    "q": {
+      "q": "¿Qué mandó destruir el comisario Lin Zexu en Humen en 1839?",
+      "a": "Opio",
+      "x": [
+        "Plata",
+        "Té"
+      ]
+    }
+  },
+  "Q10389": {
+    "t": "Una fresca cuenca de montaña rodeada de volcanes",
+    "s": "Bandung llena una cuenca a unos 700 m en las tierras altas de Java Occidental, y el fondo llano donde se asienta fue el lecho de un gran lago prehistórico. Hay volcanes por todas partes; el largo, de cima plana, al norte, es el Tangkuban Perahu, la «barca volcada». Su clima fresco y sus elegantes avenidas le valieron antaño el apodo de «París de Java».",
+    "w": "Una ciudad extendida por el fondo llano de una cuenca, con volcanes por todos lados; una montaña larga y de cima plana al norte.",
+    "f": [
+      "En 1955, Bandung acogió la Conferencia Afroasiática, con 29 países.",
+      "Las plantaciones de té cubren muchas laderas volcánicas en torno a la ciudad.",
+      "La leyenda dice que el Tangkuban Perahu es una barca volcada de una patada por el héroe Sangkuriang."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre del volcán Tangkuban Perahu?",
+      "a": "Barca volcada",
+      "x": [
+        "Gigante dormido",
+        "Montaña ardiente"
+      ]
+    }
+  },
+  "Q11462": {
+    "t": "Un tiburón, un cocodrilo y un puente a Madura",
+    "s": "Una línea fina que cose dos islas es tu pista: el puente de Suramadu, de unos 5 km, une Surabaya, en la llana costa noreste de Java, con la isla de Madura. A lo largo de la costa, estanques cuadrados de peces brillan en hileras. El emblema de la ciudad muestra un tiburón y un cocodrilo —sura y baya— enzarzados en una pelea.",
+    "w": "Una gran ciudad costera frente a un estrecho angosto, con un largo puente hacia una isla y hileras de estanques en la costa.",
+    "f": [
+      "Cuando se inauguró en 2009, el puente de Suramadu era el más largo de Indonesia.",
+      "Tanjung Perak, el puerto de Surabaya, es uno de los que más tráfico tienen de Indonesia."
+    ],
+    "q": {
+      "q": "¿Con qué animal lucha el tiburón del emblema de Surabaya?",
+      "a": "Un cocodrilo",
+      "x": [
+        "Un tigre",
+        "Un águila"
+      ]
+    }
+  },
+  "Q5826": {
+    "t": "Donde nacía la Ruta de la Seda, bajo el muro del Qinling",
+    "s": "Un muro oscuro de montañas, el Qinling, se alza al sur de Xi’an, que está en la llanura del río Wei. Sus calles aún siguen una cuadrícula estricta de norte a sur en torno a un casco antiguo rectangular. Como Chang’an, fue la capital de la dinastía Tang, el punto de partida oriental de la Ruta de la Seda y una de las mayores ciudades de la Tierra.",
+    "w": "Una gran ciudad en cuadrícula en una llanura; un muro montañoso empinado al sur y un río al norte.",
+    "f": [
+      "La muralla de época Ming de Xi’an, de unos 14 km de perímetro, es una de las murallas antiguas más completas de China.",
+      "Unos campesinos que cavaban un pozo hallaron en 1974 los Guerreros de Terracota, a unos 35 km al este.",
+      "La cordillera del Qinling es la línea divisoria tradicional de China entre el norte y el sur."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Xi’an como capital de la dinastía Tang?",
+      "a": "Chang’an",
+      "x": [
+        "Luoyang",
+        "Kaifeng"
+      ]
+    }
   }
 }

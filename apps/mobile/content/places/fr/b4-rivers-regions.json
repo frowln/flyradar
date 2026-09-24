@@ -394,5 +394,401 @@
         "Le Mékong"
       ]
     }
+  },
+  "Q1497": {
+    "t": "Un fleuve d’îles entre de hautes falaises boisées",
+    "s": "Ici, dans son cours supérieur, le Mississippi n’est pas un chenal mais toute une vallée d’eau : îles, bras morts et eaux dormantes entre des falaises boisées et abruptes sur les deux rives. Ces falaises sont hautes parce que ce coin du Midwest, la Driftless Area, a échappé aux derniers inlandsis. Toutes les quelques dizaines de kilomètres, une écluse et un barrage retiennent le fleuve en une chaîne de larges biefs.",
+    "w": "Une large vallée d’eaux tressées et d’îles entre des falaises boisées abruptes, orientée nord–sud à travers les terres agricoles.",
+    "f": [
+      "Avec le Missouri, le Mississippi draine environ 40 % des États-Unis contigus.",
+      "Entre Minneapolis et Saint-Louis, quelque 29 écluses et barrages font du fleuve un escalier navigable.",
+      "Sa source est le lac Itasca, dans le Minnesota, où l’on peut franchir le jeune fleuve sur des pierres de gué."
+    ],
+    "q": {
+      "q": "Dans quel État le Mississippi prend-il sa source ?",
+      "a": "Le Minnesota",
+      "x": [
+        "Le Wisconsin",
+        "L’Iowa"
+      ]
+    }
+  },
+  "Q1038418": {
+    "t": "Le « fleuve au sable d’or » dans ses vallées profondes",
+    "s": "Jinsha signifie « sable d’or », en souvenir de l’or qu’on tirait jadis de ses graviers à la batée. C’est le Yangzi supérieur, qui creuse de profondes vallées dans les montagnes du Yunnan et du Sichuan ; d’avion, c’est un fil vert-brun au fond de pentes raides et sèches. Aujourd’hui, une chaîne de barrages géants a changé de longs tronçons en réservoirs étroits et sinueux.",
+    "w": "Un fleuve sinueux au fond de vallées montagneuses abruptes et brunâtres, qui s’élargit par endroits en longs réservoirs serpentins.",
+    "f": [
+      "En amont, dans les gorges du Saut du Tigre, les versants s’élèvent à plus de 3 000 m au-dessus des eaux tumultueuses.",
+      "Au « Premier Coude », près de Shigu, le fleuve vire brusquement du sud au nord-est.",
+      "Le barrage de Baihetan, sur le Jinsha, est l’une des centrales hydroélectriques les plus puissantes du monde."
+    ],
+    "q": {
+      "q": "Que signifie le nom Jinsha ?",
+      "a": "Sable d’or",
+      "x": [
+        "Eau noire",
+        "Fleuve de jade"
+      ]
+    }
+  },
+  "Q4814791": {
+    "t": "Un fleuve lent et pâle à travers la plaine soudanaise",
+    "s": "Le Nil Blanc n’est pas pressé. Sur ces plaines soudanaises plates, il n’a presque plus de pente : il s’étale, large et paresseux, entre des berges basses, son eau pâlie par une argile fine — d’où son nom. Champs irrigués et roselières bordent le fleuve ; au-delà, la savane sèche court jusqu’à l’horizon.",
+    "w": "Un large fleuve pâle aux berges basses et aux bandes vertes irriguées, qui file vers le nord à travers une plaine plate et sèche.",
+    "f": [
+      "À Khartoum, il rencontre le Nil Bleu, et leurs couleurs différentes coulent un temps côte à côte.",
+      "Son débit régulier vient surtout du lac Victoria et d’autres lacs d’Afrique de l’Est, filtré par les marais du Sudd.",
+      "Le barrage de Jebel Aulia, au sud de Khartoum, a été construit sur le Nil Blanc dans les années 1930."
+    ],
+    "q": {
+      "q": "D’où le Nil Blanc tient-il son nom ?",
+      "a": "De l’argile pâle de son eau",
+      "x": [
+        "De ses sources nourries de neige",
+        "De ses rives de sable blanc"
+      ]
+    }
+  },
+  "Q5413": {
+    "t": "Le plus long fleuve d’Asie, retenu par un barrage géant",
+    "s": "Par ici, le Yangzi ne coule plus librement : c’est le réservoir des Trois-Gorges, un lac vert-brun long d’environ 600 km qui serpente entre des collines escarpées. Les villes de ses rives ont été reconstruites plus haut sur les pentes à mesure que l’eau montait. En aval, le réservoir s’achève au barrage des Trois-Gorges, la plus grande centrale électrique du monde par sa puissance.",
+    "w": "Un long fleuve sinueux, pareil à un lac, entre des collines vertes escarpées, avec des villes qui grimpent sur ses pentes.",
+    "f": [
+      "Avec environ 6 300 km, le Yangzi est le plus long fleuve d’Asie et le troisième du monde.",
+      "Le réservoir du barrage des Trois-Gorges remonte presque jusqu’à Chongqing.",
+      "Environ un tiers de la population chinoise vit dans le bassin du Yangzi."
+    ],
+    "q": {
+      "q": "Quel barrage retient le Yangzi en aval d’ici ?",
+      "a": "Le barrage des Trois-Gorges",
+      "x": [
+        "Le barrage de Xiaolangdi",
+        "Le barrage de Longtan"
+      ]
+    }
+  },
+  "Q2750140": {
+    "t": "La rivière qui nourrit le lac Victoria, et donc le Nil",
+    "s": "Une rivière qui serpente dans une large vallée de marais à papyrus, avec des lacs enfilés comme des perles : c’est la Kagera, la plus grande rivière qui se jette dans le lac Victoria, et ses sources passent souvent pour la source la plus lointaine du Nil. Sur ce tronçon, elle forme la frontière orientale du Rwanda, avec le parc national de l’Akagera sur sa rive ouest.",
+    "w": "Une rivière sinueuse dans un vaste marais vert bordé d’une chaîne de lacs, parmi des collines de savane ondulées.",
+    "f": [
+      "Ses sources naissent dans la forêt de Nyungwe, au Rwanda, et dans les collines du Burundi.",
+      "Le parc national de l’Akagera, qui porte le nom de la rivière, protège savane, lacs et marais à papyrus le long de ses rives.",
+      "La Kagera entre dans le lac Victoria en Tanzanie, au nord de la ville de Bukoba."
+    ],
+    "q": {
+      "q": "Dans quel lac se jette la Kagera ?",
+      "a": "Le lac Victoria",
+      "x": [
+        "Le lac Tanganyika",
+        "Le lac Kivu"
+      ]
+    }
+  },
+  "Q5419": {
+    "t": "Le « Big Muddy », dompté en courbes lisses",
+    "s": "Le Missouri doit son surnom, le Big Muddy (« le Grand Boueux »), au limon qu’il charriait jadis. Ici, le long de la limite entre le Kansas et le Missouri, il décrit de larges courbes régulières entre des digues : un chenal modelé par les ingénieurs pour les barges. Cherchez à côté les fantômes d’anciens tracés : lacs en croissant et limites de champs incurvées dans la plaine inondable.",
+    "w": "Une rivière brune aux méandres lisses et réguliers dans une plaine inondable de champs, avec lacs en croissant et cicatrices d’anciens lits.",
+    "f": [
+      "Avec environ 3 700 km, le Missouri est le plus long cours d’eau des États-Unis.",
+      "En 1804, Lewis et Clark remontèrent le Missouri au départ de leur expédition vers le Pacifique.",
+      "Le Missouri rejoint le Mississippi juste au nord de Saint-Louis."
+    ],
+    "q": {
+      "q": "Quel est le surnom du Missouri ?",
+      "a": "Le Big Muddy",
+      "x": [
+        "Old Man River",
+        "Le Père des Eaux"
+      ]
+    }
+  },
+  "Q284780": {
+    "t": "Des vignes dans la cuvette la plus basse et chaude de Chine",
+    "s": "Cherchez une oasis vert sombre au pied de collines rouges et ravinées, à côté d’une étendue de sel blanche. C’est la dépression de Tourfan, où le sol descend à environ 154 m sous le niveau de la mer au lac Aydingkol, le point le plus bas de Chine. Ses étés sont les plus chauds du pays, et pourtant les vignes de Tourfan prospèrent grâce à la fonte des neiges du Tian Shan.",
+    "w": "Une oasis verte et une étendue de sel blanche dans un bassin désertique brun, au sud du Tian Shan enneigé.",
+    "f": [
+      "Les Montagnes flamboyantes, crête nue de grès rouge, longent son côté nord et rougeoient au soleil de l’après-midi.",
+      "Les karez, canaux souterrains creusés il y a des siècles, amènent toujours l’eau des montagnes aux champs de Tourfan.",
+      "Tourfan est célèbre pour son raisin et ses raisins secs, séchés dans des maisons de brique ajourées."
+    ],
+    "q": {
+      "q": "À quelle profondeur sous le niveau de la mer est le point le plus bas de la dépression ?",
+      "a": "Environ 150 m",
+      "x": [
+        "Environ 50 m",
+        "Environ 400 m"
+      ]
+    }
+  },
+  "Q191333": {
+    "t": "Une porte des montagnes, franchie depuis des millénaires",
+    "s": "À l’ouest de Peshawar, la plaine verte et peuplée bute brusquement sur des crêtes brunes et nues, et une étroite vallée s’y faufile en montant : la passe de Khyber. Pendant des millénaires, marchands, pèlerins et armées sont passés par ici entre l’Asie centrale et le sous-continent indien. Son point culminant n’est qu’à environ 1 070 m, mais les pentes alentour sont raides et sèches.",
+    "w": "Là où la plaine verte de Peshawar bute, à l’ouest, sur un mur de collines plissées, brunes et nues.",
+    "f": [
+      "La Khyber est l’une des principales routes entre le Pakistan et l’Afghanistan, vers le poste-frontière de Torkham.",
+      "Une voie ferrée à travers la passe, avec des dizaines de tunnels et de ponts, fut achevée dans les années 1920.",
+      "Le Gandhara, antique pays d’art et de savoir bouddhiques, s’étendait autour de Peshawar, au pied de la passe."
+    ],
+    "q": {
+      "q": "Quelle ville se trouve au pied est de la passe de Khyber ?",
+      "a": "Peshawar",
+      "x": [
+        "Lahore",
+        "Quetta"
+      ]
+    }
+  },
+  "Q118388": {
+    "t": "La vallée la plus basse, chaude et sèche d’Amérique du Nord",
+    "s": "Cherchez une longue traînée blanche entre des montagnes sombres : la cuvette de sel de Badwater Basin, à 86 m sous le niveau de la mer, point le plus bas d’Amérique du Nord. Des cônes de graviers se déversent de chaque canyon sur le fond de la vallée, comme du sable versé. En 1913, un thermomètre y a indiqué 56,7 °C, la plus haute température de l’air jamais relevée officiellement sur Terre.",
+    "w": "Une longue étendue de sel blanche entre des chaînes brunes, nues et abruptes, avec un cône de graviers au pied de chaque canyon.",
+    "f": [
+      "Le mont Whitney, plus haut sommet des États-Unis contigus avec 4 421 m, se dresse à moins de 140 km.",
+      "Sur la Racetrack Playa, des pierres glissent sur la boue quand le vent pousse de fines plaques de glace, laissant de longues traces.",
+      "La Vallée de la Mort est le plus grand parc national des États-Unis contigus."
+    ],
+    "q": {
+      "q": "À quelle profondeur sous le niveau de la mer se trouve Badwater Basin ?",
+      "a": "Environ 86 m",
+      "x": [
+        "Environ 28 m",
+        "Environ 154 m"
+      ]
+    }
+  },
+  "Q534290": {
+    "t": "Le grenier australien, parcouru de lentes rivières brunes",
+    "s": "D’en haut, le bassin Murray–Darling est une immense plaine plate, ocre et kaki, traversée de rivières lentes soulignées du vert sombre des gommiers rouges. Dans la Riverina, près d’ici, l’irrigation change la plaine en carrés vert vif de riz, de coton et de vergers. Le bassin couvre environ un septième de l’Australie.",
+    "w": "Une plaine ocre et plate traversée de rivières sinueuses bordées d’arbres vert sombre ; des champs irrigués vert vif à côté.",
+    "f": [
+      "Le Murray et le Darling forment ensemble le plus long réseau fluvial d’Australie, bien plus de 3 000 km.",
+      "Les gommiers rouges de ses rives peuvent vivre plusieurs siècles.",
+      "Au lac Mungo, asséché, à l’ouest du bassin, des humains ont laissé des traces de leur vie il y a plus de 40 000 ans."
+    ],
+    "q": {
+      "q": "Quelle part de l’Australie le bassin Murray–Darling couvre-t-il ?",
+      "a": "Environ un septième",
+      "x": [
+        "Environ la moitié",
+        "Environ un vingtième"
+      ]
+    }
+  },
+  "Q191566": {
+    "t": "Tourbières, taïga et torchères sur une plaine sans fin",
+    "s": "Peu d’endroits sur Terre sont aussi plats. Sous vous, les rivières rampent à travers la plaine de Sibérie occidentale en boucles immenses et, entre elles, s’étendent les tourbières, patchwork brun et olive de tourbe et d’innombrables petits lacs. La nuit, les torchères et les lumières des villes pétrolières brillent dans l’obscurité.",
+    "w": "Des tourbières plates brun olive semées de petits lacs, des rivières en boucles et de sombres rubans de forêt le long de leurs rives.",
+    "f": [
+      "Le marais de Vassiougan, au sud de la plaine, est l’une des plus grandes tourbières du monde.",
+      "À travers la plaine, l’Ob ne descend que de quelques centimètres par kilomètre : ses crues s’étalent au loin et s’attardent.",
+      "La plaine renferme certains des plus grands gisements de pétrole et de gaz de Russie, dont Samotlor près de Nijnevartovsk."
+    ],
+    "q": {
+      "q": "Quelle immense tourbière s’étend au sud de la plaine de Sibérie occidentale ?",
+      "a": "Le marais de Vassiougan",
+      "x": [
+        "Les marais de Pinsk",
+        "Les marais de Mechtchera"
+      ]
+    }
+  },
+  "Q966943": {
+    "t": "Un pays de crêtes où aucune rivière n’atteint la mer",
+    "s": "Regardez le Nevada d’en haut et vous verrez un rythme : une longue chaîne sombre, une vallée pâle et plate, une autre chaîne, une autre vallée, jusqu’à l’horizon, toutes orientées nord–sud. C’est le Grand Bassin, où aucune rivière ne trouve le chemin de l’océan ; l’eau finit dans des lacs salés ou s’évapore tout simplement. Beaucoup de fonds de vallée sont des lits de lacs asséchés, d’un blanc éblouissant.",
+    "w": "Des crêtes montagneuses parallèles, orientées nord–sud, séparées par des vallées plates et pâles, certaines avec des lits de lacs asséchés blancs.",
+    "f": [
+      "Les pins Bristlecone du Grand Bassin, dont certains ont près de 5 000 ans, comptent parmi les plus vieux arbres vivants de la Terre.",
+      "Le Grand Lac Salé, dans l’Utah, est un reste d’un lac bien plus vaste de l’ère glaciaire, le lac Bonneville.",
+      "L’explorateur John C. Frémont nomma le Grand Bassin dans les années 1840, comprenant qu’il n’avait aucune issue vers la mer."
+    ],
+    "q": {
+      "q": "Où finissent les rivières du Grand Bassin ?",
+      "a": "Dans des lacs et cuvettes intérieurs",
+      "x": [
+        "Dans l’océan Pacifique",
+        "Dans le golfe de Californie"
+      ]
+    }
+  },
+  "Q656985": {
+    "t": "Une mer cachée d’eau ancienne sous l’outback rouge",
+    "s": "Rien en surface ne la trahit : sous vous s’étend l’outback rouge et ocre, traversé par les chenaux secs et tressés du Channel Country. Mais dessous se trouve le Grand Bassin artésien, l’une des plus grandes réserves souterraines d’eau douce de la Terre. Une partie de son eau est tombée en pluie il y a plus d’un million d’années.",
+    "w": "Des plaines rouge rouille dentelées de chenaux tressés, le plus souvent à sec, qui verdissent après de rares crues.",
+    "f": [
+      "Le bassin s’étend sous environ un cinquième de l’Australie.",
+      "L’eau de certains forages profonds sort chaude, presque bouillante.",
+      "Là où l’eau suinte naturellement, des sources en monticule forment de petites oasis vertes dans le désert."
+    ],
+    "q": {
+      "q": "Quel âge a une partie de l’eau du Grand Bassin artésien ?",
+      "a": "Plus d’un million d’années",
+      "x": [
+        "Environ 1 000 ans",
+        "Environ 10 000 ans"
+      ]
+    }
+  },
+  "Q28809720": {
+    "t": "Des champs de terre noire sous un long hiver blanc",
+    "s": "La plaine de Mandchourie est le grand grenier du nord de la Chine : une étendue plate d’immenses champs en longues bandes, traversés de brise-vent de peupliers tracés comme des traits de crayon. Son sol est une riche terre noire, plus sombre que presque partout ailleurs en Chine. De novembre à mars, elle reste gelée et blanche, puis verdit de maïs et de soja.",
+    "w": "Des terres agricoles plates en longues bandes séparées par de minces rangées d’arbres ; noires au printemps, vertes l’été, blanches l’hiver.",
+    "f": [
+      "C’est l’une des rares grandes régions de terres noires du monde, avec la steppe ukrainienne et la Corn Belt américaine.",
+      "La Songhua draine la plaine vers le nord, jusqu’à l’Amour, tandis que la Liao coule vers le sud, jusqu’à la mer de Bohai.",
+      "Harbin, à sa lisière nord, est célèbre pour son festival d’hiver de sculptures de glace géantes."
+    ],
+    "q": {
+      "q": "Quelle culture domine la plaine de Mandchourie avec le maïs ?",
+      "a": "Le soja",
+      "x": [
+        "Le thé",
+        "Le coton"
+      ]
+    }
+  },
+  "Q575516": {
+    "t": "Deux déserts, deux fleuves et une mer qui disparaît",
+    "s": "Deux fils verts traversent ici une mer de sable : l’Amou-Daria et le Syr-Daria, qui serpentent à travers les déserts du Kyzylkoum et du Karakoum, dans la dépression du Touran. Le long de leurs rives s’étendent champs irrigués et villes-oasis. Les deux fleuves remplissaient jadis la mer d’Aral, qui s’est spectaculairement réduite depuis les années 1960, leur eau ayant été détournée pour le coton.",
+    "w": "Un désert ocre aux longues crêtes de dunes, traversé par les rubans verts des terres irriguées le long de deux grands fleuves.",
+    "f": [
+      "Dans les langues turques, Kyzylkoum signifie « sable rouge » et Karakoum « sable noir ».",
+      "Khiva, dont la ville intérieure fortifiée est inscrite à l’UNESCO, se dresse dans une oasis du cours inférieur de l’Amou-Daria.",
+      "Une grande partie du fond découvert de la mer d’Aral est devenue un nouveau désert, l’Aralkoum."
+    ],
+    "q": {
+      "q": "Que signifie « Kyzylkoum » ?",
+      "a": "Sable rouge",
+      "x": [
+        "Sable noir",
+        "Sable blanc"
+      ]
+    }
+  },
+  "Q23945221": {
+    "t": "Le rivage du Sahara, vert quelques mois seulement",
+    "s": "Sahel vient de l’arabe pour « rivage » : c’est la côte du Sahara, une ceinture d’herbe sèche et d’acacias épineux qui traverse toute l’Afrique, de l’Atlantique à la mer Rouge. Ses couleurs suivent la pluie. De juillet à septembre, il verdit presque du jour au lendemain ; le reste de l’année, il passe à la paille et à la poussière, piqueté d’arbres sombres.",
+    "w": "Une savane fauve ou verte piquetée d’arbres sombres, qui s’efface au nord dans le sable nu, traversée de lits de rivières à sec.",
+    "f": [
+      "La ceinture court sur quelque 5 000 km à travers l’Afrique, mais ne mesure que quelques centaines de kilomètres de large.",
+      "Le projet de la Grande Muraille verte vise à restaurer une bande de terres à travers le Sahel avec des arbres et des herbes.",
+      "La gomme arabique, utilisée dans les bonbons et les sodas, vient surtout des acacias du Sahel, avant tout au Soudan."
+    ],
+    "q": {
+      "q": "Que signifie le mot arabe « sahel » ?",
+      "a": "Rivage",
+      "x": [
+        "Sable",
+        "Soif"
+      ]
+    }
+  },
+  "Q756832": {
+    "t": "Pinèdes plates et fermes entre les collines et la mer",
+    "s": "Forêt de pins vert sombre, champs sableux en rectangles bien nets et rivières lentes couleur de thé fort : c’est l’extrémité sud, toute plate, de la plaine côtière atlantique. C’était jadis un fond marin, fait de sable et d’argile déposés quand l’océan s’avançait plus loin dans les terres. Vers la côte, elle se défait en marais salés et en un chapelet d’îles-barrières.",
+    "w": "Un pays plat de pinèdes sombres et de champs rectangulaires, aux rivières sinueuses couleur de thé ; marais et îles près de la côte.",
+    "f": [
+      "Richmond, Raleigh, Columbia et Augusta se sont développées sur la Fall Line, où les rivières dévalent des collines vers la plaine.",
+      "Le marais d’Okefenokee, à la frontière entre Géorgie et Floride, est l’un des plus grands marais d’eaux noires d’Amérique du Nord.",
+      "La Géorgie produit plus d’arachides que tout autre État américain, en grande partie sur cette plaine."
+    ],
+    "q": {
+      "q": "Pourquoi tant de rivières ont-elles ici la couleur du thé ?",
+      "a": "Les tanins des plantes des marais",
+      "x": [
+        "Le limon d’argile rouge",
+        "Le fer des sources"
+      ]
+    }
+  },
+  "Q208347": {
+    "t": "Forêt chaude et épineuse au cœur de l’Amérique du Sud",
+    "s": "Un feutre vert olive, plat jusqu’à tous les horizons : d’en haut, la forêt sèche épineuse du Gran Chaco paraît presque uniforme. Regardez mieux et vous verrez les cicatrices errantes de rivières comme le Pilcomayo et le Bermejo, et d’immenses clairières rectangulaires pour le bétail et le soja, bordées de bandes d’arbres laissés debout. Le Chaco s’étend sur l’Argentine, le Paraguay et la Bolivie.",
+    "w": "Une forêt broussailleuse plate vert olive, de pâles cicatrices de rivières sinueuses et de grandes clairières rectangulaires bordées d’arbres.",
+    "f": [
+      "On fait souvent remonter son nom au quechua « chaku », une chasse collective ou un terrain de chasse.",
+      "C’est la deuxième région forestière d’Amérique du Sud, après l’Amazonie.",
+      "Le pécari du Chaco n’était connu que par des fossiles jusqu’à ce qu’on y identifie des animaux vivants dans les années 1970."
+    ],
+    "q": {
+      "q": "Quel animal, connu seulement par des fossiles, a été trouvé vivant dans le Chaco ?",
+      "a": "Le pécari du Chaco",
+      "x": [
+        "Le tatou géant",
+        "Le loup à crinière"
+      ]
+    }
+  },
+  "Q141501": {
+    "t": "Des plaines tour à tour poussière et mer intérieure",
+    "s": "Les Llanos ont deux visages. À la saison sèche, à peu près de décembre à avril, cette plaine basse le long de l’Orénoque est une prairie dorée piquetée de palmiers et traversée de pistes poussiéreuses. Quand viennent les pluies, les rivières débordent et d’immenses étendues deviennent une nappe d’eau peu profonde qui brille au soleil. C’est un pays de cow-boys, où les llaneros mènent encore le bétail à travers les plaines.",
+    "w": "Une prairie plate avec des rangées d’arbres le long de rivières sinueuses ; à la saison des pluies, des nappes de crue brillantes.",
+    "f": [
+      "Les Llanos s’étendent sur le Venezuela et la Colombie, entre les Andes et l’Orénoque.",
+      "Ils abritent les capybaras, les plus grands rongeurs du monde, et les crocodiles de l’Orénoque.",
+      "Le joropo, musique rapide de harpe et de maracas des llaneros, est la danse nationale du Venezuela."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on les cow-boys des Llanos ?",
+      "a": "Les llaneros",
+      "x": [
+        "Les gauchos",
+        "Les huasos"
+      ]
+    }
+  },
+  "Q184382": {
+    "t": "Plate comme une table, et découpée en champs géants",
+    "s": "Pampa vient d’un mot quechua désignant une plaine, et peu de plaines sont plus plates. D’en haut, vous voyez un patchwork d’énormes champs rectangulaires, des routes parfaitement droites, des lacs peu profonds qui brillent comme de l’argent et des bouquets d’arbres sombres marquant chaque estancia. Jadis haute prairie parcourue par les gauchos, c’est aujourd’hui l’une des grandes ceintures agricoles du monde : soja, blé, maïs et bœuf.",
+    "w": "Un immense patchwork plat de champs rectangulaires, de routes droites et de lacs argentés, avec des bouquets d’arbres sombres autour des fermes.",
+    "f": [
+      "Presque tous les arbres que vous voyez ont été plantés : la pampa naturelle avait de l’herbe mais presque pas d’arbres.",
+      "Les sols profonds et fertiles de la pampa comptent parmi les plus riches du monde.",
+      "Charles Darwin traversa la pampa à cheval dans les années 1830, pendant le voyage du Beagle."
+    ],
+    "q": {
+      "q": "Que signifie le mot quechua « pampa » ?",
+      "a": "Plaine",
+      "x": [
+        "Herbe",
+        "Vent"
+      ]
+    }
+  },
+  "Q192305": {
+    "t": "Plaine de boue himalayenne, foyer de centaines de millions",
+    "s": "Ici, le Gange, qui file désormais vers le golfe du Bengale sous le nom de Padma, décrit de larges boucles tressées à travers une plaine si plate que ses cours d’eau y errent à leur guise. Chaque champ, village et étang sous vous repose sur une boue descendue de l’Himalaya. La plaine indo-gangétique est l’un des endroits les plus densément peuplés de la Terre et, la nuit, elle scintille d’innombrables lumières.",
+    "w": "Un large fleuve tressé aux bancs de sable pâles dans un patchwork vert et plat de champs, d’étangs et de villages.",
+    "f": [
+      "Par endroits, les sédiments fluviaux sous la plaine dépassent un kilomètre d’épaisseur.",
+      "L’hiver, un épais brouillard s’installe souvent sur la plaine, la couvrant parfois du Pakistan au Bangladesh.",
+      "La plaine s’étend sur plus de 2 500 km, du Pakistan au Bangladesh à travers le nord de l’Inde."
+    ],
+    "q": {
+      "q": "Quelles montagnes ont fourni la boue qui a bâti cette plaine ?",
+      "a": "L’Himalaya",
+      "x": [
+        "Les Ghâts occidentaux",
+        "Les monts Vindhya"
+      ]
+    }
+  },
+  "Q486324": {
+    "t": "Une oasis ovale et verte murée de montagnes enneigées",
+    "s": "Cherchez un ovale vert serti de montagnes : la vallée de Ferghana, longue d’environ 300 km, cernée par le Tian Shan au nord et la chaîne de l’Alaï au sud. Les rivières qui dévalent des neiges nourrissent un patchwork dense de champs de coton, de vergers, de mûriers et de villes. Le Syr-Daria naît ici, au confluent du Naryn et du Kara-Daria.",
+    "w": "Un bassin vert, densément cultivé, entouré presque de tous côtés de hautes montagnes souvent enneigées.",
+    "f": [
+      "La vallée est partagée entre l’Ouzbékistan, le Kirghizistan et le Tadjikistan.",
+      "Il y a plus de 2 000 ans, les empereurs chinois convoitaient les fameux « chevaux célestes » du Ferghana.",
+      "Marguilan, dans la vallée, est réputée depuis des siècles pour le tissage de la soie."
+    ],
+    "q": {
+      "q": "Quel fleuve naît dans la vallée de Ferghana ?",
+      "a": "Le Syr-Daria",
+      "x": [
+        "L’Amou-Daria",
+        "Le Zeravchan"
+      ]
+    }
   }
 }

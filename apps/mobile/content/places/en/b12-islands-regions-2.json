@@ -1655,5 +1655,333 @@
         "North Sea and Irish Sea"
       ]
     }
+  },
+  "Q849318": {
+    "t": "Volcanic islands where giant mantas meet divers",
+    "s": "Four small volcanic islands lie far out in the Pacific, several hundred kilometres south-west of the tip of Baja California. Socorro is the largest, its volcano rising to about 1,050 m; on San Benedicto, a whole new volcano, Bárcena, appeared in 1952. The surrounding waters are famous for giant manta rays, sharks and humpback whales.",
+    "w": "A few small, dark volcanic islands scattered far apart in the open Pacific, south of Baja California.",
+    "f": [
+      "The islands have been a UNESCO World Heritage site since 2016.",
+      "Since 2017 the waters around them have formed one of the largest fully protected marine reserves in North America.",
+      "They are named after a Spanish viceroy of New Spain, the Count of Revillagigedo."
+    ],
+    "q": {
+      "q": "Which volcano appeared on San Benedicto Island in 1952?",
+      "a": "Bárcena",
+      "x": [
+        "Paricutín",
+        "Popocatépetl"
+      ]
+    }
+  },
+  "Q169532": {
+    "t": "England's granite toe, dipped in the Atlantic",
+    "s": "Here England simply runs out: granite cliffs drop into the Atlantic at the westernmost point of its mainland. Just offshore, a lighthouse stands on the Longships reef, and on clear days the low Isles of Scilly show on the horizon. Land's End is the traditional starting point for journeys the length of Britain, all the way to John o' Groats in Scotland.",
+    "w": "The very tip of Cornwall's tapering peninsula, where green fields end abruptly in cliffs; the Isles of Scilly lie out to the west-south-west.",
+    "f": [
+      "By road, Land's End is about 1,400 km from John o' Groats.",
+      "The Isles of Scilly lie about 45 km to the west-south-west.",
+      "Its granite belongs to a great mass of granite that runs along the spine of Cornwall."
+    ],
+    "q": {
+      "q": "Where does the classic end-to-end journey from Land's End finish?",
+      "a": "John o' Groats",
+      "x": [
+        "Dover",
+        "Cape Wrath"
+      ]
+    }
+  },
+  "Q1636266": {
+    "t": "Where iron fell from the sky onto the Arctic coast",
+    "s": "For centuries the Inuit of this coast chipped iron for knives and harpoon tips from huge meteorites lying near Cape York. In the 1890s Robert Peary shipped the largest pieces to New York; the biggest, Ahnighito, weighs about 31 tonnes. The cape itself is a dark headland between glacier-filled bays, where the ice of Melville Bay meets Greenland's north-west coast.",
+    "w": "A dark rocky headland on Greenland's north-west coast, with glaciers pouring into the sea on either side and the ice sheet behind.",
+    "f": [
+      "In 1818 John Ross met the Inuit of this region near Cape York, their first recorded contact with Europeans.",
+      "The Ahnighito fragment is on display at the American Museum of Natural History in New York."
+    ],
+    "q": {
+      "q": "Where did the Inuit near Cape York get their iron?",
+      "a": "From meteorites",
+      "x": [
+        "From iron-ore mines",
+        "From volcanic rock"
+      ]
+    }
+  },
+  "Q128097": {
+    "t": "Greenland's stormy southern tip, at the latitude of Oslo",
+    "s": "Greenland ends here, on a small island of dark, jagged peaks wrapped in cloud and surf. Its Greenlandic name, Nunap Isua, means 'the end of the land'. Although it looks like the high Arctic, the cape lies at almost the same latitude as Oslo. Winds funnelled around the tip make the sea off Cape Farewell one of the stormiest stretches of the North Atlantic.",
+    "w": "The jagged southernmost tip of Greenland: steep dark peaks, fjords full of drifting ice and heavy surf.",
+    "f": [
+      "The actual tip lies on Egger Island, just off the main island of Greenland.",
+      "Ships sailing between Europe and Greenland's west coast have to round this cape."
+    ],
+    "q": {
+      "q": "What does Cape Farewell's Greenlandic name, Nunap Isua, mean?",
+      "a": "The end of the land",
+      "x": [
+        "The white mountain",
+        "The cold wind"
+      ]
+    }
+  },
+  "Q1352197": {
+    "t": "Madagascar's southern tip, guarded by spiny forest",
+    "s": "Madagascar ends in cliffs above a restless sea, with open ocean stretching south towards Antarctica. The plateau behind the cape is one of the driest corners of the island, covered in spiny forest found nowhere else on Earth. A small reserve protects it, along with the radiated tortoise, whose dark shell is patterned with bright yellow stars.",
+    "w": "The southernmost tip of Madagascar: a dry, pale plateau ending in cliffs, with open ocean beyond.",
+    "f": [
+      "Its Malagasy name, Tanjona Vohimena, means 'cape of the red hill'.",
+      "Plants of the spiny forest store water in swollen trunks and guard it with thorns."
+    ],
+    "q": {
+      "q": "Which star-patterned tortoise lives at Cape Sainte Marie?",
+      "a": "The radiated tortoise",
+      "x": [
+        "The Galápagos tortoise",
+        "The leopard tortoise"
+      ]
+    }
+  },
+  "Q20456736": {
+    "t": "A maze of green islands around a perfect harbour",
+    "s": "Vava'u is a tilted block of limestone that has partly sunk: its north side rises in cliffs, while the south breaks up into dozens of green islands and winding, sheltered channels. At its heart, the Port of Refuge beside the town of Neiafu is one of the safest anchorages in the South Pacific. Between July and October, humpback whales come here from Antarctic waters to give birth.",
+    "w": "A high green island edged with cliffs in the north, dissolving southward into a maze of islets and blue channels.",
+    "f": [
+      "Vava'u is the main island of the Vava'u group in northern Tonga.",
+      "During the southern winter its channels fill with yachts from around the world."
+    ],
+    "q": {
+      "q": "Which whales come to Vava'u to give birth?",
+      "a": "Humpback whales",
+      "x": [
+        "Sperm whales",
+        "Orcas"
+      ]
+    }
+  },
+  "Q14452": {
+    "t": "A lonely volcanic triangle of stone giants",
+    "s": "Easter Island is a small triangle of grassy volcanic land, with an extinct volcano at each corner. In the south-west, Rano Kau's crater holds a reed-covered lake; Terevaka, in the north, is the highest point at about 500 m. The island's people, the Rapa Nui, carved nearly a thousand giant stone statues, the moai, most of them from the soft rock of Rano Raraku.",
+    "w": "A small grassy triangle of land alone in the ocean; the round crater of Rano Kau marks its south-western corner.",
+    "f": [
+      "The nearest inhabited land, Pitcairn, lies about 2,000 km away.",
+      "The Dutch explorer Jacob Roggeveen arrived on Easter Sunday 1722, giving the island its European name.",
+      "The island had its own script, rongorongo, which has never been deciphered."
+    ],
+    "q": {
+      "q": "What are Easter Island's giant stone statues called?",
+      "a": "Moai",
+      "x": [
+        "Tiki",
+        "Marae"
+      ]
+    }
+  },
+  "Q4085": {
+    "t": "Africa's true southern tip, where two oceans officially meet",
+    "s": "Not the Cape of Good Hope but this low, rocky headland is Africa's southernmost point. By international convention the Atlantic and Indian oceans meet here, though the water looks the same on both sides. The Portuguese called it the Cape of Needles, perhaps for its sharp reefs, perhaps because compass needles pointed to true north here. Its shallow, stormy approaches have wrecked many ships.",
+    "w": "A low, unremarkable point on South Africa's south coast, about 150 km east-south-east of Cape Point.",
+    "f": [
+      "A lighthouse built in 1848 stands near the cape.",
+      "Offshore, the shallow Agulhas Bank extends up to about 250 km out to sea."
+    ],
+    "q": {
+      "q": "Which two oceans officially meet at Cape Agulhas?",
+      "a": "The Atlantic and Indian",
+      "x": [
+        "The Atlantic and Southern",
+        "The Indian and Southern"
+      ]
+    }
+  },
+  "Q870258": {
+    "t": "A grassy plateau scattered with ancient stone jars",
+    "s": "On a high, rolling plateau in northern Laos, thousands of great stone jars lie scattered across grassy hills, some taller than a person. They were carved roughly two thousand years ago, most likely for funeral rites, though much about them is still a mystery. The plateau shows as open, grassy upland around the town of Phonsavan, ringed by forested mountains.",
+    "w": "Open, rolling grassland on a high plateau surrounded by dark forested mountains, around the town of Phonsavan.",
+    "f": [
+      "The Plain of Jars became a UNESCO World Heritage site in 2019.",
+      "The largest jars are over 2.5 m tall and weigh several tonnes.",
+      "The plateau lies at about 1,000 m above sea level."
+    ],
+    "q": {
+      "q": "What were the stone jars of Laos most likely used for?",
+      "a": "Funeral rites",
+      "x": [
+        "Minting coins",
+        "Dyeing cloth"
+      ]
+    }
+  },
+  "Q2932434": {
+    "t": "A rugged cape at the southern mouth of Banderas Bay",
+    "s": "Cabo Corrientes, the 'Cape of Currents', is where Mexico's Pacific coast makes a sharp turn: north of it the shore swings inland into the great curve of Banderas Bay, with Puerto Vallarta at its head. The forested mountains of the Sierra Madre run straight down to the sea here and end in rocky headlands. Sailors have long used it as a landmark on this coast.",
+    "w": "A rocky headland where green mountains meet the Pacific, at the southern end of the wide, curving Banderas Bay.",
+    "f": [
+      "Banderas Bay, just to the north, is one of the largest bays in Mexico.",
+      "Humpback whales spend the winter in the waters between the cape and Puerto Vallarta."
+    ],
+    "q": {
+      "q": "Which resort city lies on the bay north of Cabo Corrientes?",
+      "a": "Puerto Vallarta",
+      "x": [
+        "Acapulco",
+        "Cancún"
+      ]
+    }
+  },
+  "ne-rg-1159104993": {
+    "t": "The desert tip of Baja's great westward bulge",
+    "s": "Punta Eugenia is the western tip of the Vizcaíno Peninsula, the big bulge on Baja California's Pacific side. Here the desert meets the ocean without any softening: bare brown hills, pale beaches and cold, deep-blue water. Just offshore lie Natividad Island and, farther north, mountainous Cedros Island. East of the cape, in lagoons such as Ojo de Liebre, grey whales give birth each winter.",
+    "w": "A bare, brown point at the tip of a desert peninsula, with Cedros Island rising offshore to the north.",
+    "f": [
+      "The cape lies within El Vizcaíno Biosphere Reserve, one of the largest protected areas in Mexico.",
+      "Cold, nutrient-rich water off the cape supports fisheries for abalone and lobster."
+    ],
+    "q": {
+      "q": "Which whales give birth in the lagoons east of Punta Eugenia?",
+      "a": "Grey whales",
+      "x": [
+        "Blue whales",
+        "Sperm whales"
+      ]
+    }
+  },
+  "Q3307973": {
+    "t": "The corner where California's coast turns east",
+    "s": "At Point Conception the California coast makes a sharp turn: north of it the shore runs north–south into cold, windy water, and east of it the sheltered Santa Barbara Channel begins. The point marks a boundary between the cooler sea life of the north and warmer southern waters. The Chumash people knew it as the Western Gate, through which souls passed on to the afterlife.",
+    "w": "A sharp corner of the coast west of Santa Barbara, where the shoreline swings from north–south to east–west.",
+    "f": [
+      "The Spanish explorer Sebastián Vizcaíno named the point in 1602.",
+      "Its lighthouse has warned ships since the 1850s."
+    ],
+    "q": {
+      "q": "What did the Chumash call Point Conception?",
+      "a": "The Western Gate",
+      "x": [
+        "The Sun's Door",
+        "The Whale's Head"
+      ]
+    }
+  },
+  "Q978032": {
+    "t": "The sandy elbow of the Outer Banks",
+    "s": "The Outer Banks, a thin chain of sand islands, bend sharply outward here like an elbow thrust into the Atlantic. Off the point, the shifting Diamond Shoals reach far out to sea, and the warm Gulf Stream passes close to cooler currents from the north. Storms and hidden sandbars have wrecked so many ships that these waters are called the Graveyard of the Atlantic.",
+    "w": "A thin, pale ribbon of barrier islands that bends sharply at a point far from the mainland, with wide Pamlico Sound behind it.",
+    "f": [
+      "The black-and-white striped lighthouse at Cape Hatteras is the tallest brick lighthouse in the United States.",
+      "In 1999 the whole lighthouse was moved nearly 900 m inland to escape the retreating shore."
+    ],
+    "q": {
+      "q": "What are the waters off Cape Hatteras nicknamed?",
+      "a": "The Graveyard of the Atlantic",
+      "x": [
+        "The Devil's Triangle",
+        "The Sea of Storms"
+      ]
+    }
+  },
+  "Q2937102": {
+    "t": "The wild southern tip of mainland America",
+    "s": "No road reaches Cape Sable, the southernmost point of the US mainland. It lies deep inside Everglades National Park: long, empty beaches of pale sand and shell backed by prairie and mangrove swamp, with the shallow, milky-green Florida Bay to the east. American crocodiles and loggerhead turtles use these shores, and the only way in is by boat.",
+    "w": "Curving pale beaches at the south-western tip of Florida, where the green Everglades meet the Gulf; shallow Florida Bay lies to the east.",
+    "f": [
+      "Cape Sable is really three capes, East, Middle and Northwest, strung along its beaches.",
+      "Much of its sand is made of broken shells."
+    ],
+    "q": {
+      "q": "What record does Cape Sable hold?",
+      "a": "Southernmost point of the US mainland",
+      "x": [
+        "Easternmost point of the US",
+        "Westernmost point of Florida"
+      ]
+    }
+  },
+  "Q7208042": {
+    "t": "A gravel finger pointing into the Chukchi Sea",
+    "s": "A long, low gravel spit juts far out into the Chukchi Sea here, and the Iñupiaq name of the village at its tip, Tikiġaq, means 'index finger'. People have lived on this spit for at least two thousand years; the ancient Ipiutak site nearby held hundreds of houses. Point Hope is still a whaling community, hunting bowhead whales from the spring ice.",
+    "w": "A long, thin spit of pale gravel reaching west into the sea from the Alaskan coast, with a lagoon behind it.",
+    "f": [
+      "Point Hope is one of the oldest continuously inhabited places in North America.",
+      "The village cemetery is fenced with the jawbones of whales."
+    ],
+    "q": {
+      "q": "What does the Iñupiaq name Tikiġaq mean?",
+      "a": "Index finger",
+      "x": [
+        "Whale's tail",
+        "Long beach"
+      ]
+    }
+  },
+  "Q1343019": {
+    "t": "The northernmost tip of the United States",
+    "s": "The United States ends at a thin gravel spit where the Chukchi Sea meets the Beaufort Sea. Point Barrow is little more than a pale sliver of shingle, visited by walruses, polar bears and migrating birds. Just to the south-west lies Utqiaġvik, the northernmost town in the country, where in winter the sun does not rise for about two months.",
+    "w": "A thin, pale spit at the very top of Alaska, with open sea or pack ice to the north and flat, lake-dotted tundra behind.",
+    "f": [
+      "Utqiaġvik was called Barrow until 2016.",
+      "Nuvuk, an ancient Iñupiat settlement, once stood on the point itself.",
+      "In summer the sun stays above the horizon for about 80 days."
+    ],
+    "q": {
+      "q": "Which two seas meet at Point Barrow?",
+      "a": "The Chukchi and Beaufort seas",
+      "x": [
+        "The Bering and Chukchi seas",
+        "The Beaufort and Labrador seas"
+      ]
+    }
+  },
+  "Q987098": {
+    "t": "A dark headland on Peru's desert coast",
+    "s": "Punta Negra, 'Black Point', is a dark headland on the coast of northern Peru, where the pale Sechura Desert runs straight into the Pacific. Rain is rare here: the cold Humboldt Current chills the air over the sea, so clouds seldom build into rain. Yet that same cold water is rich in plankton, and these seas feed one of the largest fisheries in the world.",
+    "w": "A dark point on a bare, sand-coloured desert coast, south of the wide curve of Sechura Bay.",
+    "f": [
+      "Every few years El Niño brings warm water and heavy rain that can briefly turn this desert green.",
+      "Peru's anchoveta catch, fed by the cold current, is one of the largest single-species fisheries on Earth."
+    ],
+    "q": {
+      "q": "Which cold current keeps Peru's coast so dry?",
+      "a": "The Humboldt Current",
+      "x": [
+        "The Benguela Current",
+        "The California Current"
+      ]
+    }
+  },
+  "ne-rg-1159105047": {
+    "t": "The windswept tip of the Arauco Peninsula",
+    "s": "Punta Lavapié is the western tip of the Arauco Peninsula, a headland pushing into the Pacific about 60 km south-west of Concepción. North-east of it opens the wide Gulf of Arauco, and Santa María Island lies offshore to the north. The coast is lined with small fishing coves, and sea lions often haul out on the rocks below the point.",
+    "w": "A headland at the western end of a peninsula south-west of Concepción, with the broad Gulf of Arauco on its north-eastern side.",
+    "f": [
+      "In Spanish, Lavapié means roughly 'foot-wash'.",
+      "On the gulf's eastern shore, Lota and Coronel were once the heart of Chile's coal mining."
+    ],
+    "q": {
+      "q": "Which gulf opens north-east of Punta Lavapié?",
+      "a": "The Gulf of Arauco",
+      "x": [
+        "The Gulf of Ancud",
+        "The Gulf of Penas"
+      ]
+    }
+  },
+  "ne-rg-1159105157": {
+    "t": "A green headland just north of the equator",
+    "s": "Punta Galera is a forested headland on Ecuador's north-western coast, only about 80 km north of the equator. Here the green hills of Esmeraldas province end in cliffs and small beaches facing the Pacific. The waters offshore form a marine reserve, and from June to September humpback whales travel along this coast to breed.",
+    "w": "A green, forested point on the Pacific coast of north-western Ecuador, where hills meet the sea in cliffs.",
+    "f": [
+      "The cape lies within the Galera–San Francisco Marine Reserve.",
+      "Esmeraldas province is home to a large Afro-Ecuadorian community known for its marimba music."
+    ],
+    "q": {
+      "q": "Roughly how far is Punta Galera from the equator?",
+      "a": "About 80 km",
+      "x": [
+        "About 800 km",
+        "About 8 km"
+      ]
+    }
   }
 }

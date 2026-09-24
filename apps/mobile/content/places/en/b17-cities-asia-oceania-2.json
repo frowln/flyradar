@@ -697,5 +697,347 @@
         "Baiju Bawra"
       ]
     }
+  },
+  "Q167715": {
+    "t": "Kerala's capital near India's southern tip",
+    "s": "Almost at the tip of India, the coast here is a long line of surf, palm groves and small lagoons, with the Western Ghats rising blue-green inland. Thiruvananthapuram, Kerala's capital, grew around the Padmanabhaswamy temple and shares its name: the city of Lord Ananta, the serpent on which Vishnu rests. The airport runway runs almost parallel to the beach.",
+    "w": "A green, palm-covered city on a straight, surf-lined coast, with lagoons nearby and mountains rising to the east.",
+    "f": [
+      "In 2011 vaults beneath the Padmanabhaswamy temple were found to hold a vast hoard of gold and jewels.",
+      "Kanyakumari, India's southern tip, is less than 100 km to the south-east.",
+      "The deep-water port of Vizhinjam, just south of the city, lies close to a major east–west shipping lane."
+    ],
+    "q": {
+      "q": "Which temple's vaults revealed a vast treasure in 2011?",
+      "a": "Padmanabhaswamy",
+      "x": [
+        "Meenakshi",
+        "Guruvayur"
+      ]
+    }
+  },
+  "Q207754": {
+    "t": "A rock, a river island and a colossal temple town",
+    "s": "Here the Kaveri divides into two broad, sandy channels, and between them stretches a long island, Srirangam — a shape you can trace from cruise height. On the island stands the Ranganathaswamy temple, one of the largest working Hindu temple complexes in the world, enclosed by seven concentric walls. Across the river, the Rockfort crag rises about 80 m above the old town of Tiruchirappalli.",
+    "w": "Two broad, sandy river channels running side by side with a long island between them; the city lies on the south bank.",
+    "f": [
+      "The Kallanai, or Grand Anicut, downstream, is credited to the Chola king Karikala and is among the oldest water works still in use.",
+      "More than 400 rock-cut steps lead to the Ucchi Pillayar temple on top of the Rockfort."
+    ],
+    "q": {
+      "q": "What is the long river island at Tiruchirappalli called?",
+      "a": "Srirangam",
+      "x": [
+        "Rameswaram",
+        "Majuli"
+      ]
+    }
+  },
+  "Q594275": {
+    "t": "The Philippines' tuna capital, under a lone volcano",
+    "s": "Every morning, tuna as long as a person are laid out in rows on the wet floor of the fish port — General Santos is the tuna capital of the Philippines. The city spreads around the head of Sarangani Bay on Mindanao's south coast. To the north rises Mount Matutum, a symmetrical, forested volcanic cone and a landmark for sailors and passengers alike.",
+    "w": "A city at the head of a wide bay on Mindanao's south coast, with a lone forested volcanic cone to the north.",
+    "f": [
+      "The city is named after Paulino Santos, a general who led settlers here in 1939.",
+      "Mount Matutum is about 2,290 m high, and pineapple plantations cover its lower slopes."
+    ],
+    "q": {
+      "q": "General Santos is the Philippine capital of which fish?",
+      "a": "Tuna",
+      "x": [
+        "Milkfish",
+        "Sardines"
+      ]
+    }
+  },
+  "ne-pp-1159150013": {
+    "t": "A Deccan twin city where India's flags are sewn",
+    "s": "Hubballi and its twin, Dharwad, about 20 km apart, together form one of Karnataka's largest urban areas, set in rolling black-soil country on the Deccan. For centuries this has been a market for cotton and grain. One local workshop has a special job: it is the only unit in India certified to make the national flags that fly over official buildings.",
+    "w": "A city on rolling plateau farmland of dark soil, with a smaller twin city about 20 km to the north-west.",
+    "f": [
+      "The khadi flag unit at Bengeri in Hubballi is India's only flag maker certified by the Bureau of Indian Standards.",
+      "Hubballi is the headquarters of Indian Railways' South Western zone."
+    ],
+    "q": {
+      "q": "What is made in a Hubballi workshop for all of India?",
+      "a": "Official national flags",
+      "x": [
+        "Rupee banknotes",
+        "Postage stamps"
+      ]
+    }
+  },
+  "Q10086": {
+    "t": "A palace city at the foot of Chamundi Hill",
+    "s": "A single hill, Chamundi, rises to about 1,060 m on the south-eastern edge of Mysuru, and the tidy city spreads out from its foot. North-west of town, the Krishna Raja Sagara reservoir fills a wide basin behind its dam. For centuries this was the seat of the Wodeyar kings, and during the Dasara festival their palace is lit up by nearly 100,000 bulbs.",
+    "w": "A neat city on a plateau beside a lone hill to the south-east, with a big reservoir about 15 km north-west.",
+    "f": [
+      "Mysore silk, sandalwood carving and the sweet Mysore pak all take their name from the city.",
+      "Below the Krishna Raja Sagara dam on the Kaveri, completed in the 1930s, lie the terraced Brindavan Gardens."
+    ],
+    "q": {
+      "q": "Which festival is Mysuru's palace most famously lit up for?",
+      "a": "Dasara",
+      "x": [
+        "Onam",
+        "Pongal"
+      ]
+    }
+  },
+  "Q372773": {
+    "t": "A capital of ponds and paddies in central India",
+    "s": "Flat paddy fields spread to the horizon around Raipur, and the land glints with countless small ponds and tanks, dug over centuries to store the monsoon rain. The city became the capital of Chhattisgarh when the state was created in 2000. South-east of the old centre, a new planned capital, Nava Raipur, has been laid out with a grid of broad avenues and artificial lakes.",
+    "w": "A city on a vast flat plain of rice fields dotted with ponds; a planned grid of avenues lies to the south-east.",
+    "f": [
+      "Chhattisgarh is often called the rice bowl of India.",
+      "Raipur is one of the big centres of India's steel industry."
+    ],
+    "q": {
+      "q": "Chhattisgarh, with Raipur as capital, is called the bowl of…?",
+      "a": "Rice",
+      "x": [
+        "Wheat",
+        "Sugar"
+      ]
+    }
+  },
+  "Q9863": {
+    "t": "A city in a ring of hills, known for its mangoes",
+    "s": "Hills close in on Salem from almost every side, and the city fills the valley floor between them. To the north the Shevaroy Hills rise steeply to a forested plateau, with the hill station of Yercaud on top at about 1,500 m. Salem is famous across India for its mangoes, and the district is the country's main centre for making sago from cassava.",
+    "w": "A city in a valley ringed by hills, with a steep, forested plateau rising directly to the north.",
+    "f": [
+      "The Mettur Dam on the Kaveri, about 50 km west, holds back one of the largest reservoirs in Tamil Nadu.",
+      "The hills around Salem hold magnesite and iron ore, and a local plant rolls stainless steel."
+    ],
+    "q": {
+      "q": "Which hill station sits on the plateau above Salem?",
+      "a": "Yercaud",
+      "x": [
+        "Ooty",
+        "Kodaikanal"
+      ]
+    }
+  },
+  "Q8156": {
+    "t": "Sumatra's southern city, climbing hills above a bay",
+    "s": "At Sumatra's southern end, Bandar Lampung climbs green hills around the head of Lampung Bay, which opens south towards the Sunda Strait and Java. Some 75 km to the south, out in the strait, lies Krakatau, where a young cone, Anak Krakatau, rose from the sea in 1927. The city itself was formed by joining two towns: the port of Teluk Betung and upland Tanjung Karang.",
+    "w": "A hilly city wrapped around the head of a wide bay at Sumatra's southern tip, with islands scattered towards the bay's mouth.",
+    "f": [
+      "Anak Krakatau — “child of Krakatau” — first rose above the sea in 1927.",
+      "Lampung province is one of Indonesia's leading coffee growers, mostly of robusta.",
+      "Way Kambas National Park, east of the city, runs a well-known centre for Sumatran elephants."
+    ],
+    "q": {
+      "q": "Tanjung Karang joined which port town to form Bandar Lampung?",
+      "a": "Teluk Betung",
+      "x": [
+        "Teluk Bayur",
+        "Tanjung Priok"
+      ]
+    }
+  },
+  "Q33377": {
+    "t": "Punjab's sports-goods city between two rivers",
+    "s": "Between the Beas and the Sutlej lies the Doaba, the “land of two waters”, and Jalandhar is its biggest city. The plain around it is a patchwork of wheat, rice and potato fields, laced with canals. In its workshops, hockey sticks, cricket balls and footballs are made for players across India and far beyond.",
+    "w": "A large, flat city on an intensely farmed plain between two rivers, with canals running across the fields.",
+    "f": [
+      "Doaba means “two waters”, after the Beas and the Sutlej, which enclose the region.",
+      "Sansarpur, a village on Jalandhar's edge, has produced more than a dozen Olympic hockey players."
+    ],
+    "q": {
+      "q": "Jalandhar's workshops are best known for making what?",
+      "a": "Sports goods",
+      "x": [
+        "Carpets",
+        "Brassware"
+      ]
+    }
+  },
+  "Q330531": {
+    "t": "A Chambal river city of stone, saris and students",
+    "s": "The Chambal flows through Kota in a deep, rocky channel, and just upstream it has carved gorges into the edge of a plateau. A barrage holds the river back in the city, feeding canals that turn the dry plain green. Kota is known for three very different things: polished limestone, fine checked Kota Doria saris, and coaching schools where students from all over India prepare for exams.",
+    "w": "A city on both banks of a river in a rocky channel, with a barrage and green, canal-fed fields spreading out.",
+    "f": [
+      "Kota stone, a hard, fine-grained limestone, is used for floors all over India.",
+      "Downstream, the Chambal is protected as a sanctuary for gharials, slender-snouted crocodiles."
+    ],
+    "q": {
+      "q": "Which river flows through Kota?",
+      "a": "The Chambal",
+      "x": [
+        "The Banas",
+        "The Luni"
+      ]
+    }
+  },
+  "Q322155": {
+    "t": "Silk, mangoes and the wide sandbars of the Padma",
+    "s": "The Ganges, called the Padma here, spreads into a broad, braided channel of pale sandbars and shifting islands along Rajshahi's southern edge — a striking band of sand and water. The city is nicknamed the Silk City for its soft Rajshahi silk, and the orchards around it grow some of Bangladesh's most prized mangoes. It is also home to the country's oldest museum.",
+    "w": "A city on the north bank of a very wide river channel full of pale sandbars and islands.",
+    "f": [
+      "The Varendra Research Museum, opened in 1910, is the oldest museum in Bangladesh.",
+      "Rajshahi silk, spun by mulberry silkworms, is famous for its saris."
+    ],
+    "q": {
+      "q": "What is the Ganges called where it flows past Rajshahi?",
+      "a": "The Padma",
+      "x": [
+        "The Meghna",
+        "The Jamuna"
+      ]
+    }
+  },
+  "Q201832": {
+    "t": "A university town and India's city of locks",
+    "s": "In 1875 the reformer Sir Syed Ahmad Khan founded a college here on the model of Oxford and Cambridge, and it grew into Aligarh Muslim University, whose campus fills a large part of the city. Aligarh is also India's lock city: its small workshops have turned out padlocks for generations. Around it, the flat plain between the Ganges and the Yamuna spreads in a patchwork of fields.",
+    "w": "A mid-sized city on the flat plain between the Ganges and Yamuna, amid a patchwork of green and brown fields.",
+    "f": [
+      "Aligarh is nicknamed Tala Nagri, “the city of locks”.",
+      "The Muhammadan Anglo-Oriental College became Aligarh Muslim University in 1920."
+    ],
+    "q": {
+      "q": "Who founded the college that became Aligarh Muslim University?",
+      "a": "Sir Syed Ahmad Khan",
+      "x": [
+        "Muhammad Iqbal",
+        "Abul Kalam Azad"
+      ]
+    }
+  },
+  "Q11445": {
+    "t": "A cool upland city in a ring of volcanoes",
+    "s": "Count the volcanoes: Arjuno-Welirang to the north-west, Kawi to the west, the Tengger massif with Bromo to the north-east and, to the east, Semeru, the highest peak on Java at 3,676 m. Malang fills the high basin between them, about 450 m up — cool enough that Dutch planters built villas and tree-lined avenues here.",
+    "w": "A city in a green upland basin ringed by volcanoes; the tallest cone, often trailing ash, rises to the east.",
+    "f": [
+      "Semeru is one of Java's most active volcanoes and often sends up small puffs of ash.",
+      "Neighbouring Batu, higher up the slopes, is known for its apple orchards."
+    ],
+    "q": {
+      "q": "Which volcano, Java's highest, rises east of Malang?",
+      "a": "Semeru",
+      "x": [
+        "Merapi",
+        "Slamet"
+      ]
+    }
+  },
+  "Q255455": {
+    "t": "The city of temples where the plains meet the hills",
+    "s": "The flat Punjab plain ends abruptly here: Jammu is built on the first low ridges of the Shivaliks, with the Tawi River cutting past in a wide, stony bed. Behind, range after range climbs north towards the snowy Pir Panjal. Its many shrines earned it the name City of Temples, and every year pilgrims pass through on their way to the Vaishno Devi cave shrine in the hills to the north.",
+    "w": "A city on low ridges where the flat plain meets the hills, split by a wide, stony riverbed; higher ranges rise north.",
+    "f": [
+      "The Raghunath Temple, completed in the 1860s, is the best known of Jammu's many shrines.",
+      "The Vaishno Devi cave shrine, reached on foot from Katra, draws millions of pilgrims a year."
+    ],
+    "q": {
+      "q": "Which river flows through Jammu?",
+      "a": "The Tawi",
+      "x": [
+        "The Jhelum",
+        "The Beas"
+      ]
+    }
+  },
+  "Q330643": {
+    "t": "India's brass city on the Ramganga",
+    "s": "Moradabad — or Muradabad, the city of Murad — was founded in 1625 on the Ramganga and named after the Mughal prince Murad Bakhsh. Today it is known as Peetal Nagri, the brass city: thousands of workshops hammer, engrave and polish brassware that is shipped all over the world. Around it the Ganges plain is flat and green, and the Himalayan foothills begin about 100 km to the north.",
+    "w": "A large city beside a winding river on the flat, green Ganges plain; the Himalayan foothills lie about 100 km north.",
+    "f": [
+      "The city was founded in 1625 by Rustam Khan, a Mughal governor.",
+      "The Ramganga rises in the Kumaon Himalaya and joins the Ganges further south."
+    ],
+    "q": {
+      "q": "Moradabad is known as the city of which metal?",
+      "a": "Brass",
+      "x": [
+        "Copper",
+        "Silver"
+      ]
+    }
+  },
+  "Q127041": {
+    "t": "Two rivers, a sandspit and the home of red roof tiles",
+    "s": "Two rivers, the Netravati and the Gurupura, curl around Mangalore and meet behind a long sandspit before slipping into the Arabian Sea. The city spreads over low laterite hills, green with coconut palms and cashew trees. Its name comes from the Mangaladevi temple, and it gave India the Mangalore tile — the red clay roof tile first made here in the 1860s.",
+    "w": "A coastal city on green hills where two rivers meet behind a sandspit; the Western Ghats rise inland.",
+    "f": [
+      "The first Mangalore tile factory was set up in 1865 by the Basel Mission, a Swiss-German missionary society.",
+      "New Mangalore Port, north of the city, is the main seaport of the state of Karnataka."
+    ],
+    "q": {
+      "q": "Which building material is Mangalore famous for?",
+      "a": "Red clay roof tiles",
+      "x": [
+        "Marble slabs",
+        "Teak beams"
+      ]
+    }
+  },
+  "Q1629": {
+    "t": "Asia's Latin City, at the tip of Mindanao",
+    "s": "At the western tip of Mindanao, where the Sulu and Celebes seas meet, people speak Chavacano, a creole built largely on Spanish — the reason Zamboanga calls itself Asia's Latin City. The Spanish built Fort Pilar here in 1635. Offshore, Santa Cruz Island has a beach tinted pink by fragments of red organ-pipe coral, and bright-sailed vinta boats still cross the bay.",
+    "w": "A city spread along the southern tip of a long peninsula, facing a strait with islands offshore.",
+    "f": [
+      "Fort Pilar, built by the Spanish in 1635, is now also a shrine and a museum.",
+      "Zamboanga is known as the sardine capital of the Philippines."
+    ],
+    "q": {
+      "q": "Which Spanish-based creole is spoken in Zamboanga?",
+      "a": "Chavacano",
+      "x": [
+        "Papiamento",
+        "Palenquero"
+      ]
+    }
+  },
+  "Q185458": {
+    "t": "A fortress valley ringed by bare, folded mountains",
+    "s": "Bare brown ridges fold around Quetta on every side, their rock layers bent into stripes you can follow from cruise height. The city fills a high, flat valley at about 1,680 m, and its name is usually traced to a Pashto word for a fort. Irrigated orchards give it the nickname Fruit Garden of Pakistan, with apples, apricots, grapes and cherries grown around town.",
+    "w": "A city on a flat valley floor surrounded by bare, sharply folded brown mountains, with green orchards on its edges.",
+    "f": [
+      "The Bolan Pass, a historic route between the Indus plain and the highlands, begins south-east of Quetta.",
+      "Mountains around Quetta, such as Takatu and Chiltan, rise to more than 3,000 m."
+    ],
+    "q": {
+      "q": "The name “Quetta” is usually traced to a word meaning…?",
+      "a": "Fort",
+      "x": [
+        "Orchard",
+        "Spring"
+      ]
+    }
+  },
+  "Q209698": {
+    "t": "A city of sandals, wrestlers and fiery curries",
+    "s": "Five streams join near Kolhapur to form the Panchganga — “five rivers” — which loops past the old city at the foot of the Sahyadri hills. Kolhapur gave its name to Kolhapuri chappals, hand-made leather sandals, and to a fiery style of mutton curry. The city also loves wrestling, and its traditional clay-pit gyms, the talims, still train champions.",
+    "w": "A city beside a looping river at the foot of forested Sahyadri hills, with a large lake near its centre.",
+    "f": [
+      "The Mahalakshmi temple, one of the revered Shakti shrines, has drawn pilgrims to Kolhapur for centuries.",
+      "Panhala Fort, one of the largest hill forts in the Deccan, stands about 20 km north-west."
+    ],
+    "q": {
+      "q": "What does the name of Kolhapur's river, Panchganga, mean?",
+      "a": "Five rivers",
+      "x": [
+        "Holy river",
+        "Golden river"
+      ]
+    }
+  },
+  "Q487656": {
+    "t": "Babur's birthplace at the far end of the Fergana Valley",
+    "s": "Mountains close in on three sides, and between them the Fergana Valley narrows to its eastern end — a dense green carpet of cotton fields, orchards and irrigation canals, with Andijan in the middle. In 1483 this was the birthplace of Babur, who would found the Mughal Empire in India. As a boy he inherited Fergana; he ended up conquering Delhi.",
+    "w": "A city in a densely farmed green valley, with mountains rising on three sides and a reservoir to the east.",
+    "f": [
+      "Babur's memoir, the Baburnama, opens with a description of the Fergana Valley and Andijan.",
+      "Andijan region is home to Uzbekistan's main car factory, in the town of Asaka."
+    ],
+    "q": {
+      "q": "Which empire's founder was born in Andijan?",
+      "a": "The Mughal Empire",
+      "x": [
+        "The Timurid Empire",
+        "The Safavid Empire"
+      ]
+    }
   }
 }

@@ -358,5 +358,365 @@
         "In die Ostsibirische See"
       ]
     }
+  },
+  "Q26076": {
+    "t": "Myanmars großer Fluss, verflochten mit Sandbänken",
+    "s": "Durch das trockene Herz Myanmars zieht der Irrawaddy als breite Fläche braunen Wassers, verflochten um helle Sandbänke, die mit den Jahreszeiten wachsen und verschwinden. Hier in der Nähe nimmt er seinen größten Nebenfluss auf, den Chindwin. Ein Stück flussabwärts liegt am Ostufer die Ebene von Bagan, wo noch mehr als zweitausend alte Tempel und Pagoden stehen.",
+    "w": "Ein breiter Fluss mit hellen Sandbänken in einer trockenen, bräunlichen Ebene; von Nordwesten mündet ein zweiter großer Fluss ein.",
+    "f": [
+      "Der Irrawaddy fließt über mehr als 2.000 km, fast durch ganz Myanmar, bis zur Andamanensee.",
+      "Nach ihm ist der Irawadidelfin benannt, ein kleiner Delfin mit rundem Kopf, der in Flüssen und Küstengewässern lebt.",
+      "Sein von Kanälen durchzogenes Delta ist eine der großen Reisanbauregionen Asiens."
+    ],
+    "q": {
+      "q": "Welche alte Tempelstadt liegt am Ostufer des Irrawaddy?",
+      "a": "Bagan",
+      "x": [
+        "Angkor",
+        "Ayutthaya"
+      ]
+    }
+  },
+  "Q7821148": {
+    "t": "Der junge Jangtse auf dem Dach der Welt",
+    "s": "Lange bevor er zu Chinas mächtigstem Fluss wird, durchquert der Jangtse das Hochland von Qinghai als Tongtian, „der Fluss, der bis zum Himmel reicht“. Von oben ist er ein verflochtener silberner Strang, in viele Arme über ein breites Schottertal verteilt, mehr als 4.000 m hoch. Ringsum liegen braungrüne Weiden, schneebestäubte Hügel und kaum Menschen.",
+    "w": "Ein silbriger Fluss, in viele Arme geteilt, quer durch ein breites Schottertal zwischen kahlen, runden Hügeln eines Hochplateaus.",
+    "f": [
+      "Im klassischen Roman „Die Reise nach Westen“ überquert der Mönch Xuanzang den Tongtian auf dem Rücken einer riesigen Schildkröte.",
+      "Er liegt in Sanjiangyuan, der „Quelle der drei Flüsse“, wo Jangtse, Gelber Fluss und Mekong entspringen.",
+      "Unterhalb von Yushu trägt der Tongtian einen neuen Namen: Jinsha, „Fluss des goldenen Sandes“."
+    ],
+    "q": {
+      "q": "Der Tongtian ist der Oberlauf welches Flusses?",
+      "a": "Des Jangtse",
+      "x": [
+        "Des Gelben Flusses",
+        "Des Mekong"
+      ]
+    }
+  },
+  "Q1497": {
+    "t": "Ein Fluss voller Inseln zwischen hohen bewaldeten Steilufern",
+    "s": "Hier, an seinem Oberlauf, ist der Mississippi nicht ein Flussbett, sondern ein ganzes Tal aus Wasser: Inseln, Altarme und Stillwasser zwischen steilen bewaldeten Hängen zu beiden Seiten. Die Steilufer sind so hoch, weil dieser Winkel des Mittleren Westens, die Driftless Area, den letzten Eisschilden entging. Alle paar Dutzend Kilometer hält eine Staustufe mit Schleuse den Fluss in einer Kette breiter Becken.",
+    "w": "Ein breites Tal aus verflochtenem Wasser und Inseln zwischen steilen bewaldeten Hängen, von Nord nach Süd durch Ackerland.",
+    "f": [
+      "Zusammen mit dem Missouri entwässert der Mississippi rund 40 Prozent der zusammenhängenden USA.",
+      "Zwischen Minneapolis und St. Louis machen rund 29 Schleusen und Staustufen den Fluss zu einer schiffbaren Treppe.",
+      "Seine Quelle ist der Lake Itasca in Minnesota, wo man den jungen Fluss auf Trittsteinen überqueren kann."
+    ],
+    "q": {
+      "q": "In welchem Bundesstaat entspringt der Mississippi?",
+      "a": "In Minnesota",
+      "x": [
+        "In Wisconsin",
+        "In Iowa"
+      ]
+    }
+  },
+  "Q1038418": {
+    "t": "Der „Fluss des goldenen Sandes“ in seinen tiefen Tälern",
+    "s": "Jinsha bedeutet „goldener Sand“, nach dem Gold, das man einst aus seinem Kies wusch. Dies ist der obere Jangtse, der tiefe Täler in die Berge von Yunnan und Sichuan schneidet; aus der Luft ist er ein grünbrauner Faden am Grund steiler, trockener Hänge. Heute hat eine Kette gewaltiger Staudämme lange Abschnitte in schmale, gewundene Stauseen verwandelt.",
+    "w": "Ein gewundener Fluss tief in steilen, bräunlichen Bergtälern, stellenweise zu langen, schlangenartigen Stauseen verbreitert.",
+    "f": [
+      "Flussaufwärts, in der Tigersprungschlucht, ragen die Berghänge mehr als 3.000 m über das tosende Wasser.",
+      "An der „Ersten Biegung“ bei Shigu schwenkt der Fluss scharf von Süden nach Nordosten.",
+      "Der Baihetan-Damm am Jinsha ist eines der leistungsstärksten Wasserkraftwerke der Welt."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Jinsha?",
+      "a": "Goldener Sand",
+      "x": [
+        "Schwarzes Wasser",
+        "Jadefluss"
+      ]
+    }
+  },
+  "Q4814791": {
+    "t": "Ein träger, blasser Fluss durch die sudanesische Ebene",
+    "s": "Der Weiße Nil hat es nicht eilig. Auf diesen flachen sudanesischen Ebenen hat er kaum noch Gefälle, also breitet er sich weit und träge zwischen niedrigen Ufern aus, sein Wasser blass von feinem Ton – daher der Name. Bewässerte Felder und Schilfgürtel säumen den Fluss; dahinter reicht trockene Savanne bis zum Horizont.",
+    "w": "Ein breiter, blasser Fluss mit niedrigen Ufern und grünen Bewässerungsstreifen, nordwärts durch eine flache, trockene Ebene.",
+    "f": [
+      "In Khartum trifft er auf den Blauen Nil, und eine Weile fließen ihre verschiedenen Farben nebeneinander her.",
+      "Sein gleichmäßiger Abfluss stammt vor allem aus dem Victoriasee und anderen ostafrikanischen Seen, gefiltert durch die Sudd-Sümpfe.",
+      "Der Jebel-Aulia-Damm südlich von Khartum wurde in den 1930er-Jahren quer über den Weißen Nil gebaut."
+    ],
+    "q": {
+      "q": "Woher hat der Weiße Nil seinen Namen?",
+      "a": "Von hellem Ton im Wasser",
+      "x": [
+        "Von schneegespeisten Quellen",
+        "Von weißen Sandufern"
+      ]
+    }
+  },
+  "Q5413": {
+    "t": "Asiens längster Fluss, gezähmt von einem Riesendamm",
+    "s": "Hier fließt der Jangtse nicht mehr frei: Dies ist der Drei-Schluchten-Stausee, ein grünbrauner See von rund 600 km Länge, der sich zwischen steilen Hügeln windet. Städte, die an seinen Ufern standen, wurden weiter oben an den Hängen neu gebaut, als das Wasser stieg. Flussabwärts endet der Stausee am Drei-Schluchten-Damm, dem nach Leistung größten Kraftwerk der Welt.",
+    "w": "Ein langer, gewundener, seeartiger Fluss zwischen steilen grünen Hügeln, an deren Hängen Städte emporklettern.",
+    "f": [
+      "Mit rund 6.300 km ist der Jangtse der längste Fluss Asiens und der drittlängste der Welt.",
+      "Der Stausee hinter dem Drei-Schluchten-Damm reicht fast bis Chongqing.",
+      "Rund ein Drittel der Menschen Chinas lebt im Einzugsgebiet des Jangtse."
+    ],
+    "q": {
+      "q": "Welcher Damm staut den Jangtse flussabwärts von hier?",
+      "a": "Der Drei-Schluchten-Damm",
+      "x": [
+        "Der Xiaolangdi-Damm",
+        "Der Longtan-Damm"
+      ]
+    }
+  },
+  "Q2750140": {
+    "t": "Der Fluss, der den Victoriasee speist – und damit den Nil",
+    "s": "Ein Fluss, der sich durch ein weites Tal aus Papyrussumpf windet, Seen wie Perlen an ihm aufgereiht: Das ist der Kagera, der größte Zufluss des Victoriasees, und seine Quellflüsse gelten oft als entfernteste Quelle des Nils. Auf diesem Abschnitt bildet er Ruandas Ostgrenze, mit dem Akagera-Nationalpark an seinem Westufer.",
+    "w": "Ein gewundener Fluss in einem breiten grünen Sumpf, daneben eine Kette von Seen, zwischen sanften Savannenhügeln.",
+    "f": [
+      "Seine Quellflüsse entspringen im Nyungwe-Wald in Ruanda und in den Hügeln Burundis.",
+      "Der nach dem Fluss benannte Akagera-Nationalpark schützt Savanne, Seen und Papyrussümpfe an seinen Ufern.",
+      "Der Kagera mündet in Tansania, nördlich der Stadt Bukoba, in den Victoriasee."
+    ],
+    "q": {
+      "q": "In welchen See mündet der Kagera?",
+      "a": "In den Victoriasee",
+      "x": [
+        "In den Tanganjikasee",
+        "In den Kiwusee"
+      ]
+    }
+  },
+  "Q5419": {
+    "t": "Der „Big Muddy“, gezähmt zu glatten Kurven",
+    "s": "Seinen Spitznamen „Big Muddy“ verdankt der Missouri dem Schlamm, den er einst mitführte. Hier, entlang der Grenze zwischen Kansas und Missouri, schwingt er in weiten, glatten Kurven zwischen Deichen – ein Bett, von Ingenieuren für Lastkähne geformt. Suchen Sie daneben die Geister älterer Läufe: sichelförmige Seen und geschwungene Feldgrenzen in der flachen Aue.",
+    "w": "Ein brauner Fluss in glatten, gleichmäßigen Bögen durch eine flache Aue voller Felder, mit Sichelseen und alten Flussnarben.",
+    "f": [
+      "Mit rund 3.700 km ist der Missouri der längste Fluss der Vereinigten Staaten.",
+      "1804 brachen Lewis und Clark den Missouri hinauf zu ihrer Expedition zum Pazifik auf.",
+      "Der Missouri mündet kurz nördlich von St. Louis in den Mississippi."
+    ],
+    "q": {
+      "q": "Welchen Spitznamen trägt der Missouri?",
+      "a": "Big Muddy",
+      "x": [
+        "Old Man River",
+        "Vater der Gewässer"
+      ]
+    }
+  },
+  "Q284780": {
+    "t": "Chinas tiefste, heißeste Senke, voller Weinberge",
+    "s": "Suchen Sie eine dunkelgrüne Oase am Fuß roter, zerfurchter Hügel, neben einer weißen Salzfläche. Das ist die Turfan-Senke, wo der Boden am Aydingkol-See auf rund 154 m unter dem Meeresspiegel absinkt – der tiefste Punkt Chinas. Ihre Sommer sind die heißesten des Landes, und doch gedeihen Turfans Weinberge dank Schmelzwasser aus dem Tian Shan.",
+    "w": "Eine grüne Oase und eine weiße Salzfläche in einem braunen Wüstenbecken, südlich des verschneiten Tian Shan.",
+    "f": [
+      "Die Flammenden Berge, ein kahler Rücken aus rotem Sandstein, ziehen sich an ihrer Nordseite entlang und glühen in der Nachmittagssonne.",
+      "Karez, vor Jahrhunderten gegrabene unterirdische Kanäle, leiten noch heute Bergwasser auf Turfans Felder.",
+      "Turfan ist berühmt für Trauben und Rosinen, getrocknet in luftigen Ziegelhäusern mit offenen Wänden."
+    ],
+    "q": {
+      "q": "Wie tief unter dem Meeresspiegel liegt der tiefste Punkt der Turfan-Senke?",
+      "a": "Rund 150 m",
+      "x": [
+        "Rund 50 m",
+        "Rund 400 m"
+      ]
+    }
+  },
+  "Q191333": {
+    "t": "Ein Tor durch die Berge, seit Jahrtausenden begangen",
+    "s": "Westlich von Peschawar endet die grüne, dicht bevölkerte Ebene abrupt an kahlen braunen Kämmen, und ein schmales Tal windet sich hinauf: der Chaiber-Pass. Seit Jahrtausenden zogen Händler, Pilger und Heere hier zwischen Zentralasien und dem indischen Subkontinent hindurch. Sein höchster Punkt liegt nur auf rund 1.070 m, doch die Hänge ringsum sind steil und trocken.",
+    "w": "Wo die grüne Ebene von Peschawar im Westen auf eine Wand kahler, brauner, gefalteter Hügel trifft.",
+    "f": [
+      "Der Chaiber ist eine der Hauptrouten zwischen Pakistan und Afghanistan und führt zum Grenzübergang Torkham.",
+      "Eine Bahnstrecke durch den Pass mit Dutzenden Tunneln und Brücken wurde in den 1920er-Jahren fertiggestellt.",
+      "Gandhara, ein antikes Land buddhistischer Kunst und Gelehrsamkeit, lag rund um Peschawar am Fuß des Passes."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt am östlichen Fuß des Chaiber-Passes?",
+      "a": "Peschawar",
+      "x": [
+        "Lahore",
+        "Quetta"
+      ]
+    }
+  },
+  "Q118388": {
+    "t": "Nordamerikas tiefstes, heißestes, trockenstes Tal",
+    "s": "Suchen Sie einen langen weißen Streifen zwischen dunklen Bergen: die Salzpfanne des Badwater Basin, mit 86 m unter dem Meeresspiegel der tiefste Punkt Nordamerikas. Aus jedem Canyon ergießen sich Schotterfächer auf den Talboden wie ausgeschütteter Sand. 1913 zeigte ein Thermometer hier 56,7 °C – die höchste je offiziell gemessene Lufttemperatur der Erde.",
+    "w": "Eine lange weiße Salzfläche zwischen steilen, kahlen braunen Bergketten, unter jedem Canyon ein fächerförmiger Schotterhang.",
+    "f": [
+      "Der Mount Whitney, mit 4.421 m der höchste Gipfel der zusammenhängenden USA, steht weniger als 140 km entfernt.",
+      "Auf der Racetrack Playa gleiten Steine über den Schlamm, wenn Wind dünne Eisplatten schiebt, und hinterlassen lange Spuren.",
+      "Das Death Valley ist der größte Nationalpark der zusammenhängenden Vereinigten Staaten."
+    ],
+    "q": {
+      "q": "Wie tief unter dem Meeresspiegel liegt das Badwater Basin?",
+      "a": "Rund 86 m",
+      "x": [
+        "Rund 28 m",
+        "Rund 154 m"
+      ]
+    }
+  },
+  "Q534290": {
+    "t": "Australiens Kornkammer, durchzogen von trägen Flüssen",
+    "s": "Von oben ist das Murray-Darling-Becken eine riesige flache Ebene in Ocker und Khaki, durchzogen von trägen Flüssen, nachgezeichnet im Dunkelgrün der Fluss-Eukalypten. In der Riverina, hier in der Nähe, verwandelt Bewässerung die Ebene in leuchtend grüne Quadrate aus Reis, Baumwolle und Obstplantagen. Das Becken umfasst rund ein Siebtel Australiens.",
+    "w": "Eine flache ockerfarbene Ebene mit gewundenen, dunkelgrün gesäumten Flüssen; daneben leuchtend grüne bewässerte Felder.",
+    "f": [
+      "Murray und Darling bilden zusammen Australiens längstes Flusssystem, weit über 3.000 km lang.",
+      "Fluss-Eukalypten an seinen Ufern können mehrere Hundert Jahre alt werden.",
+      "Am ausgetrockneten Lake Mungo im Westen des Beckens hinterließen Menschen vor mehr als 40.000 Jahren Spuren ihres Lebens."
+    ],
+    "q": {
+      "q": "Welchen Anteil Australiens umfasst das Murray-Darling-Becken ungefähr?",
+      "a": "Rund ein Siebtel",
+      "x": [
+        "Rund die Hälfte",
+        "Rund ein Zwanzigstel"
+      ]
+    }
+  },
+  "Q191566": {
+    "t": "Moor, Taiga und Gasfackeln auf endloser Fläche",
+    "s": "Kaum ein Ort der Erde ist so flach wie dieser. Unter Ihnen kriechen Flüsse in riesigen Schleifen über das Westsibirische Tiefland, und dazwischen breiten sich die Moore aus, ein braunes und olivfarbenes Flickwerk aus Torf und unzähligen kleinen Seen. Nachts glühen die Gasfackeln und Lichter der Ölstädte in der Dunkelheit.",
+    "w": "Flaches olivbraunes Moorland voller kleiner Seen, mit Flussschleifen und dunklen Waldbändern an ihren Ufern.",
+    "f": [
+      "Der Wassjugan-Sumpf im Süden der Ebene ist eines der größten Moore der Welt.",
+      "Über die Ebene fällt der Ob nur wenige Zentimeter pro Kilometer, sodass sich seine Hochwasser weit ausbreiten und lange halten.",
+      "Die Ebene birgt einige der größten Öl- und Gasfelder Russlands, darunter Samotlor bei Nischnewartowsk."
+    ],
+    "q": {
+      "q": "Welches riesige Moor liegt im Süden des Westsibirischen Tieflands?",
+      "a": "Der Wassjugan-Sumpf",
+      "x": [
+        "Die Pripjetsümpfe",
+        "Die Meschtschera-Sümpfe"
+      ]
+    }
+  },
+  "Q966943": {
+    "t": "Ein Land der Bergrücken, wo kein Fluss das Meer erreicht",
+    "s": "Schauen Sie auf Nevada hinunter, und Sie sehen einen Rhythmus: eine lange dunkle Bergkette, ein flaches helles Tal, wieder eine Kette, wieder ein Tal, bis zum Horizont, alle von Nord nach Süd. Dies ist das Große Becken, wo kein Fluss den Weg zum Ozean findet; Wasser endet in Salzseen oder verdunstet einfach. Viele Talböden sind ausgetrocknete Seebetten, blendend weiß.",
+    "w": "Parallele Bergrücken in Nord-Süd-Richtung, getrennt durch flache, helle Täler, manche mit weißen ausgetrockneten Seebetten.",
+    "f": [
+      "Grannenkiefern im Großen Becken, manche fast 5.000 Jahre alt, gehören zu den ältesten lebenden Bäumen der Erde.",
+      "Der Große Salzsee in Utah ist ein Überrest eines viel größeren eiszeitlichen Sees, des Lake Bonneville.",
+      "Der Forscher John C. Frémont benannte das Große Becken in den 1840er-Jahren, als er erkannte, dass es keinen Abfluss zum Meer hat."
+    ],
+    "q": {
+      "q": "Wo enden die Flüsse des Großen Beckens?",
+      "a": "In Seen und Senken im Landesinneren",
+      "x": [
+        "Im Pazifischen Ozean",
+        "Im Golf von Kalifornien"
+      ]
+    }
+  },
+  "Q656985": {
+    "t": "Ein verborgenes Meer uralten Wassers unter dem roten Outback",
+    "s": "An der Oberfläche verrät nichts davon: Unter Ihnen liegt das rote und ockerfarbene Outback, durchzogen von den verflochtenen trockenen Rinnen des Channel Country. Doch darunter liegt das Große Artesische Becken, einer der größten unterirdischen Süßwasserspeicher der Erde. Ein Teil seines Wassers fiel vor mehr als einer Million Jahren als Regen.",
+    "w": "Rostrote Ebenen, durchzogen von verflochtenen, meist trockenen Flussrinnen, die nach seltenen Fluten grün werden.",
+    "f": [
+      "Das Becken liegt unter rund einem Fünftel Australiens.",
+      "Aus manchen tiefen Bohrlöchern tritt das Wasser heiß aus, nahe am Siedepunkt.",
+      "Wo das Wasser von selbst austritt, bilden Hügelquellen kleine grüne Oasen in der Wüste."
+    ],
+    "q": {
+      "q": "Wie alt ist ein Teil des Wassers im Großen Artesischen Becken?",
+      "a": "Über eine Million Jahre",
+      "x": [
+        "Rund 1.000 Jahre",
+        "Rund 10.000 Jahre"
+      ]
+    }
+  },
+  "Q28809720": {
+    "t": "Schwarzerdefelder unter einem langen weißen Winter",
+    "s": "Die Mandschurische Ebene ist Nordchinas große Kornkammer: eine flache Weite riesiger Felder in langen Streifen, über die sich Pappel-Windschutzstreifen wie Bleistiftlinien ziehen. Ihr Boden ist fruchtbare Schwarzerde, dunkler als fast überall sonst in China. Von November bis März liegt sie gefroren und weiß da, dann wird sie grün von Mais und Sojabohnen.",
+    "w": "Flaches Ackerland in langen Streifen, getrennt von dünnen Baumreihen; im Frühling schwarz, im Sommer grün, im Winter weiß.",
+    "f": [
+      "Sie ist eine der wenigen großen Schwarzerderegionen der Welt, neben der ukrainischen Steppe und dem Corn Belt der USA.",
+      "Der Songhua entwässert die Ebene nach Norden zum Amur, der Liao fließt nach Süden zum Bohai-Meer.",
+      "Harbin an ihrem Nordrand ist berühmt für sein Winterfestival mit riesigen Eisskulpturen."
+    ],
+    "q": {
+      "q": "Welche Feldfrucht prägt neben Mais die Mandschurische Ebene?",
+      "a": "Sojabohnen",
+      "x": [
+        "Tee",
+        "Baumwolle"
+      ]
+    }
+  },
+  "Q575516": {
+    "t": "Zwei Wüsten, zwei Flüsse und ein verschwindendes Meer",
+    "s": "Zwei grüne Fäden durchqueren hier ein Meer aus Sand: Amudarja und Syrdarja, die sich durch die Wüsten Kysylkum und Karakum des Turan-Tieflands winden. An ihnen entlang breiten sich bewässerte Felder und Oasenstädte aus. Beide Flüsse speisten einst den Aralsee, der seit den 1960er-Jahren dramatisch geschrumpft ist, weil ihr Wasser für Baumwolle abgezweigt wurde.",
+    "w": "Ockerfarbene Wüste mit langen Dünenrücken, durchzogen von grünen Bändern bewässerten Landes an zwei großen Flüssen.",
+    "f": [
+      "In den Turksprachen bedeutet Kysylkum „roter Sand“ und Karakum „schwarzer Sand“.",
+      "Chiwa, dessen ummauerte Altstadt UNESCO-Welterbe ist, liegt in einer Oase am unteren Amudarja.",
+      "Ein Großteil des trockengefallenen Aralseebodens ist zu einer neuen Wüste geworden, der Aralkum."
+    ],
+    "q": {
+      "q": "Was bedeutet „Kysylkum“?",
+      "a": "Roter Sand",
+      "x": [
+        "Schwarzer Sand",
+        "Weißer Sand"
+      ]
+    }
+  },
+  "Q23945221": {
+    "t": "Das Ufer der Sahara, nur wenige Monate im Jahr grün",
+    "s": "Sahel kommt vom arabischen Wort für „Ufer“: Dies ist die Küste der Sahara, ein Gürtel aus trockenem Gras und dornigen Akazien, der sich quer durch Afrika vom Atlantik bis zum Roten Meer zieht. Seine Farben folgen dem Regen. Von Juli bis September wird er fast über Nacht grün; den Rest des Jahres verblasst er zu Stroh und Staub, getupft mit dunklen Bäumen.",
+    "w": "Hellbraune oder grüne Savanne mit dunklen Bäumen, nach Norden in nackten Sand übergehend, durchzogen von trockenen Flussbetten.",
+    "f": [
+      "Der Gürtel zieht sich rund 5.000 km quer durch Afrika, ist aber nur wenige Hundert Kilometer breit.",
+      "Das Projekt der Großen Grünen Mauer will ein Band Land quer durch den Sahel mit Bäumen und Gräsern wiederherstellen.",
+      "Gummi arabicum, verwendet in Süßigkeiten und Limonaden, stammt meist von Sahel-Akazien, vor allem im Sudan."
+    ],
+    "q": {
+      "q": "Was bedeutet das arabische Wort „Sahel“?",
+      "a": "Ufer",
+      "x": [
+        "Sand",
+        "Durst"
+      ]
+    }
+  },
+  "Q756832": {
+    "t": "Flache Kiefernwälder und Farmen zwischen Hügeln und Meer",
+    "s": "Dunkelgrüner Kiefernwald, sandige Felder in ordentlichen Rechtecken und träge Flüsse in der Farbe von starkem Tee: Das ist das flache Südende der atlantischen Küstenebene. Einst war sie Meeresboden, aufgebaut aus Sand und Ton, abgelagert, als der Ozean weiter ins Land reichte. Zur Küste hin löst sie sich in Salzmarschen und eine Kette von Barriereinseln auf.",
+    "w": "Flaches Land aus dunklen Kiefernwäldern und rechteckigen Feldern mit gewundenen teefarbenen Flüssen; an der Küste Marschen und Inseln.",
+    "f": [
+      "Richmond, Raleigh, Columbia und Augusta wuchsen an der Fall Line, wo Flüsse von den Hügeln auf die Ebene stürzen.",
+      "Der Okefenokee-Sumpf an der Grenze zwischen Georgia und Florida ist einer der größten Schwarzwassersümpfe Nordamerikas.",
+      "Georgia baut mehr Erdnüsse an als jeder andere US-Bundesstaat, viele davon auf dieser Ebene."
+    ],
+    "q": {
+      "q": "Warum haben viele Flüsse hier die Farbe von Tee?",
+      "a": "Gerbstoffe aus Sumpfpflanzen",
+      "x": [
+        "Schlamm aus rotem Ton",
+        "Eisen aus Quellen"
+      ]
+    }
+  },
+  "Q208347": {
+    "t": "Eine heiße, dornige Waldebene im Herzen Südamerikas",
+    "s": "Olivgrüner Filz, flach bis zu jedem Horizont: Von oben wirkt der trockene Dornwald des Gran Chaco fast einheitlich. Schauen Sie genauer hin, sehen Sie die wandernden Narben von Flüssen wie Pilcomayo und Bermejo und riesige rechteckige Rodungen für Rinder und Soja, gesäumt von stehen gelassenen Baumstreifen. Der Chaco erstreckt sich über Argentinien, Paraguay und Bolivien.",
+    "w": "Flacher olivgrüner Buschwald mit gewundenen hellen Flussnarben und großen rechteckigen Rodungen mit baumgesäumten Rändern.",
+    "f": [
+      "Sein Name wird oft auf das Quechua-Wort „chaku“ zurückgeführt, eine gemeinschaftliche Jagd oder ein Jagdgebiet.",
+      "Er ist nach dem Amazonas die zweitgrößte Waldregion Südamerikas.",
+      "Das Chaco-Pekari kannte man nur aus Fossilien, bis in den 1970er-Jahren hier lebende Tiere nachgewiesen wurden."
+    ],
+    "q": {
+      "q": "Welches Tier, einst nur fossil bekannt, fand man lebend im Chaco?",
+      "a": "Das Chaco-Pekari",
+      "x": [
+        "Das Riesengürteltier",
+        "Den Mähnenwolf"
+      ]
+    }
   }
 }
