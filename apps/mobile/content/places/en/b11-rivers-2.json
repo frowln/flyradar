@@ -1834,5 +1834,311 @@
         "The chimpanzee"
       ]
     }
+  },
+  "Q273456": {
+    "t": "A river that ends in a desert lake, not the sea",
+    "s": "The Omo never reaches the sea. It drops from the Ethiopian highlands through deep, forested gorges, then winds south across hot lowlands to end in Lake Turkana, a jade-green lake in the desert. Its lower valley has yielded some of the oldest known fossils of our own species.",
+    "w": "A brown river twisting through a deep, wooded gorge, with green highland ridges rising on either side.",
+    "f": [
+      "The Omo supplies around 90% of the water flowing into Lake Turkana.",
+      "The Lower Valley of the Omo has been a UNESCO World Heritage site since 1980.",
+      "Fossils found at Omo Kibish in 1967 are among the oldest known remains of Homo sapiens."
+    ],
+    "q": {
+      "q": "Which lake does the Omo River flow into?",
+      "a": "Lake Turkana",
+      "x": [
+        "Lake Tana",
+        "Lake Victoria"
+      ]
+    }
+  },
+  "Q2001150": {
+    "t": "A savanna river on its way to Lake Chad",
+    "s": "The Ouham rises in the north-west of the Central African Republic and flows north through wooded savanna, a dark thread of gallery forest in the grass. Across the border in Chad it becomes the Bahr Sara and joins the Chari, whose water ends in Lake Chad. In the rainy season it swells and spreads over its floodplain.",
+    "w": "A winding river lined with dark gallery forest, crossing rolling, tree-dotted savanna with scattered villages and fields.",
+    "f": [
+      "The Ouham is one of the main headwaters of the Chari, the river that feeds Lake Chad.",
+      "A prefecture of the Central African Republic is named after it.",
+      "Bossangoa, the main town on its banks, lies not far upstream of here."
+    ],
+    "q": {
+      "q": "What is the Ouham called after it crosses into Chad?",
+      "a": "The Bahr Sara",
+      "x": [
+        "The Logone",
+        "The Bahr Salamat"
+      ]
+    }
+  },
+  "Q2591927": {
+    "t": "A rainforest river on the road to the Congo",
+    "s": "The Kadéï begins in the forests of eastern Cameroon and flows east and south-east into the Central African Republic, a narrow, dark river under a green canopy. At Nola it meets the Mambéré, and together they form the Sangha, which flows on south through vast rainforest to join the Congo River.",
+    "w": "A narrow, winding dark river through dense green forest, with a few clearings and roads along its course.",
+    "f": [
+      "The Sangha, which it helps to form, crosses the Sangha Trinational, a UNESCO site shared by three countries.",
+      "The forests of its basin shelter forest elephants and western lowland gorillas.",
+      "Nola, where it meets the Mambéré, is a small river port in the Central African Republic."
+    ],
+    "q": {
+      "q": "The Kadéï and the Mambéré join to form which river?",
+      "a": "The Sangha",
+      "x": [
+        "The Ubangi",
+        "The Ogooué"
+      ]
+    }
+  },
+  "Q746779": {
+    "t": "A wild border river between Tanzania and Mozambique",
+    "s": "For most of its roughly 800 km the Ruvuma is the border between Tanzania and Mozambique, running east through wild miombo woodland to the Indian Ocean. Its wide, sandy bed is braided with channels and green islands. To the south lies the Niassa Reserve, one of Africa's largest protected wildernesses.",
+    "w": "A wide, sandy, braided river with green islands, crossing flat woodland with few roads or villages.",
+    "f": [
+      "The first bridge across it, the Unity Bridge, opened in 2010.",
+      "David Livingstone tried to use the Ruvuma as a route inland in 1861–62.",
+      "The Niassa Reserve covers some 42,000 km²."
+    ],
+    "q": {
+      "q": "Which two countries does the Ruvuma separate?",
+      "a": "Tanzania and Mozambique",
+      "x": [
+        "Malawi and Zambia",
+        "Kenya and Tanzania"
+      ]
+    }
+  },
+  "Q14299": {
+    "t": "A Castilian river of castles, treaties and wine",
+    "s": "On the vast, wheat-coloured plateau of Castile, the Duero is a green line of poplars and fields. Near here, at Tordesillas, Spain and Portugal signed the 1494 treaty that divided newly explored lands overseas between them. Downstream the river becomes the Douro and carves a deep valley of terraced port vineyards on its way to Porto.",
+    "w": "A thin, winding green line of trees and fields across a vast, flat plateau of golden and brown farmland.",
+    "f": [
+      "Simancas castle, on its banks, has held Spain's royal archives since the 16th century.",
+      "The Alto Douro wine region in Portugal became a UNESCO World Heritage site in 2001.",
+      "For about 100 km it forms the Spanish–Portuguese border in a deep canyon, the Arribes."
+    ],
+    "q": {
+      "q": "What did Spain and Portugal divide at Tordesillas in 1494?",
+      "a": "Newly explored lands overseas",
+      "x": [
+        "The waters of the Duero",
+        "The Kingdom of Navarre"
+      ]
+    }
+  },
+  "Q8510": {
+    "t": "Afghanistan's longest river, fading into the desert",
+    "s": "Afghanistan's longest river begins in the Hindu Kush west of Kabul and runs about 1,150 km south-west, a green ribbon of fields across ever-drier land. Here it skirts the red dunes of the Registan desert, then turns north into the Sistan basin, where it spreads into shallow lakes and marshes that shrink and swell with the seasons.",
+    "w": "A thin green ribbon of fields along a river, red sand dunes on one side and bare gravel desert on the other.",
+    "f": [
+      "The Helmand has no outlet to the sea; it ends in the Hamun lakes of the Sistan basin.",
+      "Its name comes from its ancient Avestan name, Haetumant.",
+      "The Registan desert beside it is a sea of reddish sand dunes."
+    ],
+    "q": {
+      "q": "Where does the Helmand River end?",
+      "a": "In the lakes of Sistan",
+      "x": [
+        "In the Arabian Sea",
+        "In the Amu Darya"
+      ]
+    }
+  },
+  "Q206850": {
+    "t": "A silt-red river racing towards Hanoi",
+    "s": "The river's name says it: laden with red-brown silt, it looks like a stripe of rust in a deep green valley. It rises in Yunnan, where it is called the Yuan, and runs south-east in a remarkably straight line along a great fault before crossing into Vietnam at Lao Cai. Downstream it passes Hanoi and builds the fertile Red River Delta.",
+    "w": "A reddish-brown river running in a straight, deep valley between steep green mountain ranges, heading south-east.",
+    "f": [
+      "Upstream in Honghe, the Hani have carved spectacular rice terraces into the mountains, a UNESCO World Heritage site.",
+      "The Red River is about 1,150 km long.",
+      "Hanoi's name means 'inside the river', for its place in a bend of the Red River."
+    ],
+    "q": {
+      "q": "Which capital city stands on the Red River?",
+      "a": "Hanoi",
+      "x": [
+        "Vientiane",
+        "Phnom Penh"
+      ]
+    }
+  },
+  "Q132726": {
+    "t": "The river of the Taj Mahal, winding past Agra",
+    "s": "Just upstream, the Taj Mahal stands on a bend of the Yamuna at Agra. From cruise height look instead for the river itself, a pale, sandy ribbon looping across the flat plain, and to the south the badlands of the Chambal, a maze of eroded ravines. Downstream the Yamuna meets the Ganges at Prayagraj, one of Hinduism's holiest places.",
+    "w": "A pale, sandy river looping across a flat, farmed plain, with a maze of deeply eroded ravines to the south.",
+    "f": [
+      "The Yamuna rises at the Yamunotri glacier in the Himalaya.",
+      "At about 1,375 km it is the longest tributary of the Ganges.",
+      "Delhi, India's capital, grew up on its banks."
+    ],
+    "q": {
+      "q": "At which city does the Yamuna meet the Ganges?",
+      "a": "Prayagraj",
+      "x": [
+        "Varanasi",
+        "Kanpur"
+      ]
+    }
+  },
+  "Q234004": {
+    "t": "A westbound river running down a rift valley",
+    "s": "Most of India's great rivers flow east to the Bay of Bengal; the Narmada goes west. It runs about 1,300 km through a long rift valley between the Vindhya and Satpura ranges to the Arabian Sea. Here, at Hoshangabad, now renamed Narmadapuram, it is a broad river lined with bathing ghats. Pilgrims walk its whole length, down one bank and back up the other.",
+    "w": "A broad river running east–west in a long, straight valley, wooded hills to the south and a town on its south bank.",
+    "f": [
+      "Near Jabalpur the river cuts through a gorge of white marble cliffs at Bhedaghat.",
+      "The Narmada is traditionally seen as the dividing line between northern and southern India.",
+      "The Sardar Sarovar dam on its lower course is one of the largest in India."
+    ],
+    "q": {
+      "q": "Which sea does the Narmada flow into?",
+      "a": "The Arabian Sea",
+      "x": [
+        "The Bay of Bengal",
+        "The Andaman Sea"
+      ]
+    }
+  },
+  "Q1075393": {
+    "t": "A gorge river of watchtowers and giant peaks",
+    "s": "Deep in the mountains of western Sichuan the Dadu roars through narrow gorges, walled by slopes that rise thousands of metres. Around Danba, Tibetan villages and ancient stone watchtowers cling to terraces above the river. Further south it passes beneath Gongga Shan, 7,556 m high, before meeting the Min at Leshan, beside the Giant Buddha.",
+    "w": "A thin river deep in steep, forested gorges, with snow-capped peaks rising to the south-west.",
+    "f": [
+      "The Leshan Giant Buddha, carved in the 8th century where the Dadu meets the Min, is 71 m tall.",
+      "The iron-chain bridge at Luding has spanned the Dadu since 1706.",
+      "The Dadu is about 1,060 km long."
+    ],
+    "q": {
+      "q": "Which giant statue stands where the Dadu meets the Min?",
+      "a": "The Leshan Giant Buddha",
+      "x": [
+        "The Spring Temple Buddha",
+        "The Tian Tan Buddha"
+      ]
+    }
+  },
+  "Q841359": {
+    "t": "The world's longest river on an island",
+    "s": "No river on any island on Earth is longer than the Kapuas: about 1,140 km from the mountains of central Borneo to the sea. Here at Sintang it swings in wide, brown loops through forest and plantation. Upstream it feeds the Danau Sentarum lakes, which fill in the wet season and shrink to muddy channels in the dry.",
+    "w": "A wide brown river looping through a patchwork of dark forest and pale plantations, with a town at a river junction.",
+    "f": [
+      "Pontianak, at its mouth, sits almost exactly on the equator.",
+      "The Danau Sentarum lakes can rise and fall by many metres between seasons.",
+      "The Kapuas is the longest river in Indonesia."
+    ],
+    "q": {
+      "q": "What record does the Kapuas hold?",
+      "a": "Longest river on an island",
+      "x": [
+        "Widest delta in Asia",
+        "Deepest river in Asia"
+      ]
+    }
+  },
+  "Q216875": {
+    "t": "A Himalayan river spanned by a record railway bridge",
+    "s": "The Chenab gathers glacier water high in the Himalaya and races through deep, steep-sided gorges on its way to the plains of Punjab. Near here its canyon is spanned by a steel arch railway bridge about 359 m above the water, the highest railway bridge in the world. The river is born where two streams meet, the Chandra and the Bhaga.",
+    "w": "A blue-green river winding in a deep, steep gorge between forested ridges, with snowy peaks further north.",
+    "f": [
+      "Its upper course, where the Chandra and Bhaga meet, is also called the Chandrabhaga.",
+      "Downstream it takes in the Jhelum and the Ravi, then joins the Sutlej on the way to the Indus.",
+      "It is one of the five rivers that give Punjab its name."
+    ],
+    "q": {
+      "q": "Which two streams form the Chenab?",
+      "a": "The Chandra and the Bhaga",
+      "x": [
+        "The Jhelum and the Ravi",
+        "The Beas and the Sutlej"
+      ]
+    }
+  },
+  "Q26390": {
+    "t": "A Chukotka river with a pocket of forest in the tundra",
+    "s": "Chukotka is mostly bare tundra and mountain, but along the middle Anadyr, around the village of Markovo, poplars, willows and larches grow in a surprising pocket of forest. The river winds east for about 1,150 km across lake-strewn lowlands to the Bering Sea. In 1649 Semyon Dezhnev's men built a winter fort on its banks.",
+    "w": "A broad, braided river through flat, pale tundra full of lakes, with darker patches of riverside woodland.",
+    "f": [
+      "The Anadyr is the largest river of Chukotka.",
+      "Dezhnev reached the Anadyr after being shipwrecked on his voyage round Asia's eastern tip in 1648.",
+      "The town of Anadyr, at its mouth, is the easternmost town in Russia."
+    ],
+    "q": {
+      "q": "Whose men founded a fort on the Anadyr in 1649?",
+      "a": "Semyon Dezhnev's",
+      "x": [
+        "Vitus Bering's",
+        "Yerofey Khabarov's"
+      ]
+    }
+  },
+  "Q216188": {
+    "t": "A Siberian river through coal country and taiga",
+    "s": "The Tom crosses the Kuznetsk Basin, one of Russia's great coal fields, where huge grey open-pit mines are cut into the green hills. Rising in the Kuznetsk Alatau, it runs about 830 km north past Novokuznetsk, Kemerovo and Tomsk to the Ob. On riverside rocks near Kemerovo, ancient people carved elk, bears and birds.",
+    "w": "A winding river in a green valley of forest and fields, with grey terraced coal pits in the hills further south.",
+    "f": [
+      "The rock carvings of Tomskaya Pisanitsa, near Kemerovo, are several thousand years old.",
+      "Tomsk, founded in 1604, is one of the oldest cities in Siberia and is named after the river.",
+      "The Tom joins the Ob a little downstream of Tomsk."
+    ],
+    "q": {
+      "q": "Which Siberian city takes its name from the Tom?",
+      "a": "Tomsk",
+      "x": [
+        "Tobolsk",
+        "Tyumen"
+      ]
+    }
+  },
+  "Q1468689": {
+    "t": "Central America's longest river, deep in the jungle",
+    "s": "The Coco is usually counted as the longest river lying entirely within Central America, about 700 km from the hills of Honduras and Nicaragua to the Caribbean. For much of its course it forms the border between the two countries, winding through dense forest. The Miskito people call it the Wangki; it reaches the sea at Cape Gracias a Dios.",
+    "w": "A winding brown river through dense, dark-green forest, with few clearings, forming a natural border.",
+    "f": [
+      "Columbus named Cape Gracias a Dios, 'thanks be to God', in 1502 after escaping a storm there.",
+      "The Bosawás Biosphere Reserve, one of Central America's largest forests, lies along its Nicaraguan side.",
+      "It is also known as the Segovia River."
+    ],
+    "q": {
+      "q": "What do the Miskito people call the Coco River?",
+      "a": "Wangki",
+      "x": [
+        "Patuca",
+        "Tinto"
+      ]
+    }
+  },
+  "Q196183": {
+    "t": "A free-flowing river through Indiana's cornfields",
+    "s": "Fields of corn and soybeans stretch in a perfect grid across the flat Midwest, and the Wabash cuts through them in a wooded, winding valley. From a dam near Huntington it flows unimpeded for about 660 km to the Ohio, one of the longest free-flowing stretches of river east of the Mississippi. It is Indiana's state river, and the state song is about it.",
+    "w": "A winding river in a narrow wooded valley, cutting through a flat grid of square fields.",
+    "f": [
+      "'On the Banks of the Wabash, Far Away' has been Indiana's state song since 1913.",
+      "Along its lower course it forms the border between Indiana and Illinois.",
+      "The Wabash is about 810 km long."
+    ],
+    "q": {
+      "q": "Which state's official song is about the Wabash?",
+      "a": "Indiana",
+      "x": [
+        "Ohio",
+        "Illinois"
+      ]
+    }
+  },
+  "Q607546": {
+    "t": "A river that plunges into a gorge at Grand Falls",
+    "s": "At Grand Falls the Saint John drops about 23 m into a deep, narrow gorge. Upstream it forms part of the border between Maine and New Brunswick, and potato fields spread around it in neat stripes. At its mouth the Bay of Fundy's huge tides push back against the river, reversing the rapids at the famous Reversing Falls.",
+    "w": "A river winding through a patchwork of long, striped fields and woods, with a small town beside a narrow gorge.",
+    "f": [
+      "Samuel de Champlain named the river after reaching its mouth on St John the Baptist's day in 1604.",
+      "Its Wolastoqey name, Wolastoq, means 'beautiful river'.",
+      "The Saint John is about 670 km long."
+    ],
+    "q": {
+      "q": "What happens at the Reversing Falls at the river's mouth?",
+      "a": "Tides push the rapids upstream",
+      "x": [
+        "The river freezes into steps",
+        "Two rivers swap channels"
+      ]
+    }
   }
 }
