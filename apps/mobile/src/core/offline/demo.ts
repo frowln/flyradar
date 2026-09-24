@@ -8,37 +8,78 @@ import { formatClock, localDate } from '../time/zones';
 import { buildRoute } from '../route/profile';
 import { closedCountries, planAround } from '../route/airspace';
 import type { RoutePoint } from '@skyatlas/shared';
+import { interpolateAlongRoute } from '../geo/greatCircle';
+import { solarElevation } from '../geo/sun';
 
 /**
  * A short flight that starts now, so the product can be felt without a ticket.
  *
  * The route is picked by language — a Russian speaker gets Moscow–Sochi down to
  * the Caucasus, everyone else Zürich–Rome over the Alps — because a demo over
- * familiar ground lands harder than one over somewhere abstract. It runs twenty
- * times faster than real time, is built instantly from bundled data, and never
- * enters the passport.
+ * familiar ground lands harder than one over somewhere abstract. But only in
+ * daylight: at night the window shows city lights and little else, and a demo
+ * opened in the evening (or by an App Store reviewer in California) would sell
+ * the product as "nothing to see". Then it flies wherever it is day now — the
+ * Himalayas, Mount Fuji, the Andes, the Rockies, New Zealand's Alps. It runs
+ * twenty times faster than real time, is built instantly from bundled data,
+ * and never enters the passport.
  */
 
-const ROUTES: Record<string, [string, string]> = {
+const HOME: Record<string, [string, string]> = {
   ru: ['SVO', 'AER'],
   default: ['ZRH', 'FCO']
 };
 
+/** Daylight fallbacks around the clock, each over something worth seeing. */
+const AROUND_THE_CLOCK: Array<[string, string]> = [
+  ['ZRH', 'FCO'],
+  ['SVO', 'AER'],
+  ['DEL', 'KTM'],
+  ['HND', 'ITM'],
+  ['AKL', 'ZQN'],
+  ['LIM', 'CUZ'],
+  ['YVR', 'YYC']
+];
+
 export const DEMO_SPEED = 20;
 
-export function demoRoute(locale: string): [string, string] {
-  return ROUTES[locale.slice(0, 2)] ?? ROUTES['default']!;
+export function planned(a: string, b: string): RoutePoint[] | null {
+  const from = airportByIata(a);
+  const to = airportByIata(b);
+  if (!from || !to) return null;
+  const detour = planAround(from, to, closedCountries({ fromCC: from.cc, toCC: to.cc }), getCountries());
+  return buildRoute({ from, to, via: detour.via }).route;
+}
+
+/** Whether the ground is lit along the whole route for a flight taking off now. */
+export function daylitThroughout(route: RoutePoint[], takeoff: Date): boolean {
+  const end = route[route.length - 1]?.elapsedSeconds ?? 0;
+  for (let t = 0; t <= end; t += 300) {
+    const p = interpolateAlongRoute(route, t);
+    // A few degrees of margin: low sun is dim, and the demo is a first impression.
+    if (solarElevation(p.lat, p.lon, new Date(takeoff.getTime() + t * 1000)) < 5) return false;
+  }
+  return true;
+}
+
+export function demoRoute(locale: string, now: Date = new Date()): [string, string] {
+  const home = HOME[locale.slice(0, 2)] ?? HOME['default']!;
+  for (const pair of [home, ...AROUND_THE_CLOCK]) {
+    try {
+      const route = planned(pair[0], pair[1]);
+      if (route && daylitThroughout(route, now)) return pair;
+    } catch {
+      // A dataset not loaded yet: fall through to the home route.
+    }
+  }
+  return home;
 }
 
 /** The demo route as it will be flown — detours included — for illustrations. */
-export function demoPreviewRoute(locale: string): RoutePoint[] | null {
+export function demoPreviewRoute(locale: string, now: Date = new Date()): RoutePoint[] | null {
   try {
-    const [a, b] = demoRoute(locale);
-    const from = airportByIata(a);
-    const to = airportByIata(b);
-    if (!from || !to) return null;
-    const detour = planAround(from, to, closedCountries({ fromCC: from.cc, toCC: to.cc }), getCountries());
-    return buildRoute({ from, to, via: detour.via }).route;
+    const [a, b] = demoRoute(locale, now);
+    return planned(a, b);
   } catch {
     return null;
   }
@@ -47,12 +88,12 @@ export function demoPreviewRoute(locale: string): RoutePoint[] | null {
 export async function startDemo(locale: string): Promise<OfflinePackage> {
   await ensureDatasets();
   const stories = await loadStories(locale);
-  const [fromCode, toCode] = demoRoute(locale);
+  const now = new Date();
+  const [fromCode, toCode] = demoRoute(locale, now);
   const from = airportByIata(fromCode);
   const to = airportByIata(toCode);
   if (!from || !to) throw new Error('demo airports missing from dataset');
 
-  const now = new Date();
   // The package is timed to start ten minutes ago on the ground clock, so the
   // takeoff moment below lines up with "now".
   const dep = new Date(now.getTime() - 10 * 60_000);

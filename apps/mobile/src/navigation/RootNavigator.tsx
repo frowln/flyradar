@@ -28,6 +28,9 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
  * is what makes every screen reviewable as a screenshot.
  */
 const linking: LinkingOptions<RootStackParamList> = {
+  // A web build hosted under a path of its own (a shared demo) keeps its
+  // address: screen paths like /board would not exist there on a reload.
+  enabled: process.env.EXPO_PUBLIC_WEB_LINKING !== 'off',
   prefixes: ['skyatlas://'],
   config: {
     screens: {
