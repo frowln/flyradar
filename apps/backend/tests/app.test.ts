@@ -3,7 +3,7 @@ import type { FastifyInstance } from 'fastify';
 
 vi.mock('../src/db/prisma.js', () => ({ prisma: {} }));
 
-import { buildApp, trustProxyFromEnv, loggerOptions } from '../src/app.js';
+import { buildApp, trustProxyFromEnv, loggerOptions, serializers } from '../src/app.js';
 import { assertAuthConfig } from '../src/middleware/auth.js';
 
 let app: FastifyInstance;
@@ -143,11 +143,16 @@ describe('configuration', () => {
   });
 
   it('logs plain JSON in production and pretty output in development', () => {
-    expect(loggerOptions({ NODE_ENV: 'production' })).toEqual({ level: 'info' });
+    expect(loggerOptions({ NODE_ENV: 'production' })).toEqual({ level: 'info', serializers });
     expect(loggerOptions({ NODE_ENV: 'development', LOG_LEVEL: 'debug' })).toMatchObject({
       level: 'debug',
       transport: { target: 'pino-pretty' }
     });
+  });
+
+  it('logs a request without its query string, so no flight number', () => {
+    const logged = serializers.req({ method: 'GET', url: '/flights/track?number=SU1234', host: 'api', ip: '203.0.113.7' });
+    expect(logged).toEqual({ method: 'GET', url: '/flights/track', host: 'api', remoteAddress: '203.0.113.7' });
   });
 
   it('refuses to run production without the request-signing secret', () => {

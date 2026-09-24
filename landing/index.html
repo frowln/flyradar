@@ -151,6 +151,19 @@
   .trio p:last-child { margin-bottom: 0; }
   .quote { font: 400 14px/1.5 var(--mono); color: var(--ink); border-left: 2px solid var(--amber); padding: 4px 0 4px 12px; margin: 0 0 16px; }
 
+  .stories { display: grid; gap: 24px; }
+  .card-body { padding: 20px 16px; }
+  .card-body h3 { font-size: 28px; font-weight: 800; margin: 0 0 8px; }
+  .hook { font-size: 17px; line-height: 1.5; color: var(--ink); margin: 0; }
+  .card-part { padding: 16px; border-top: 1px solid var(--rule); }
+  .card-part p { margin: 8px 0 0; }
+  .card-part + .caption { border-top: 1px solid var(--rule); margin: 0; }
+  .more { display: grid; border: 1px solid var(--rule); }
+  .more > div { padding: 24px 20px; border-bottom: 1px solid var(--rule); background: var(--raised); min-width: 0; }
+  .more > div:last-child { border-bottom: 0; }
+  .more h3 { font-size: 20px; font-weight: 700; margin: 8px 0 12px; }
+  .more p:last-child { margin-bottom: 0; }
+
   .stamps { display: flex; flex-wrap: wrap; gap: 12px; margin: 4px 0 20px; }
   .stamp {
     width: 76px; height: 76px; border-radius: 50%;
@@ -232,6 +245,7 @@
     .phase { border-bottom: 0; border-right: 1px solid var(--rule); }
     .phase:last-child { border-right: 0; }
     .privacy { grid-template-columns: 1.3fr 1fr; gap: 48px; align-items: start; }
+    .stories { grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
   }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
@@ -246,6 +260,7 @@
     <a class="brand" href="#top" aria-label="SkyAtlas, home"><img src="icon.png" alt="" width="32" height="32">SkyAtlas</a>
     <nav class="nav" aria-label="Sections">
       <a class="wide" href="#how">How it works</a>
+      <a class="wide" href="#stories">Stories</a>
       <a class="wide" href="#passport">Passport</a>
       <a class="wide" href="#privacy">Privacy</a>
       <a href="#faq">FAQ</a>
@@ -315,7 +330,7 @@
     <div class="section-head">
       <p class="label">How it works</p>
       <h2 id="how-title">Prepared on the ground. Read in the air.</h2>
-      <p>Your phone does all the work. There is no SkyAtlas server; the route, the places and the timeline are calculated on the device from data built into the app.</p>
+      <p>Your phone does the work. The route, the places and the timeline are calculated on the device, and the stories about the best-known places are built into the app. The SkyAtlas server answers only three questions: which flight a number is, how it flew last week, and how cloudy the route will be.</p>
     </div>
 
     <div class="phases">
@@ -323,10 +338,10 @@
         <span class="label">01 · Before you fly</span>
         <h3>Add the flight while you have Wi-Fi</h3>
         <ul>
-          <li>Airports, date and local departure time. Or scan the barcode on your boarding pass, or import its Apple Wallet file. Flight number, arrival time and seat are optional.</li>
-          <li>The route follows the great circle through climb, cruise and descent, and goes around airspace closed to your carrier.</li>
-          <li>Window advice: which side to ask for, and how much of the flight is in daylight.</li>
-          <li>Stories from Wikipedia and photos from Wikimedia Commons are saved to the phone, in your language where an article exists, with an offline map of the route.</li>
+          <li>Find your flight by number: type it with the date, and the airports and times fill in. Or scan the barcode on your boarding pass, import its Apple Wallet file, or enter the airports, date and departure time yourself; arrival time and seat are optional.</li>
+          <li>When your flight number flew in the past week, the route follows its real track. Otherwise it follows the great circle through climb, cruise and descent, around airspace closed to your carrier.</li>
+          <li>Window advice: which side to ask for, how much of the flight is in daylight, and a cloud forecast along the route, so you know before boarding whether the ground is likely to be visible.</li>
+          <li>Stories written for SkyAtlas about the best-known places, and about the history along the route, are built into the app and work offline from the moment you install it. For other places, Wikipedia in your language is saved to the phone, with photo galleries from Wikimedia Commons and an offline map of the route.</li>
           <li>A day before departure, at check-in time, a reminder names the side to ask for and what it will show. It stays quiet if your seat is already known or neither side is worth it.</li>
         </ul>
       </div>
@@ -336,7 +351,7 @@
         <ul>
           <li>About 15 minutes after the scheduled departure, “Airborne?” appears on your lock screen. Tap <strong>Took off</strong> and the flight starts.</li>
           <li><strong>Out of the window now</strong>: what is on the left, on the right and below, and what comes next, with a countdown.</li>
-          <li>Alerts for the three best moments on your side, or up to six. Tap one and that place’s card opens. When there is nothing to see, it stays quiet.</li>
+          <li>Alerts for the three best moments on your side, or up to six; for the best-known places they say what to look for. Tap one and that place’s card opens. When there is nothing to see, or low cloud is forecast over it, it stays quiet.</li>
           <li>The phone’s GPS refines the position when it has a fix near the window.</li>
           <li>Borders, the Equator, the tropics, the polar circles and the Date Line, sunrise and sunset on board, the start of the descent.</li>
         </ul>
@@ -348,7 +363,7 @@
           <li>A stamp for every country you flew over.</li>
           <li>Gold for every place you saw with your own eyes.</li>
           <li>Experience, levels and ranks, and new achievements.</li>
-          <li>A short quiz about the flight you have just taken.</li>
+          <li>A short quiz about the flight and the places you saw, with the answer explained after each question.</li>
           <li>A postcard to send with “we landed”.</li>
         </ul>
       </div>
@@ -358,6 +373,56 @@
       <li>peaks</li><li>volcanoes</li><li>mountain ranges</li><li>deserts</li><li>seas</li><li>lakes</li><li>islands</li><li>rivers</li><li>glaciers</li><li>cities</li>
     </ul>
     <p class="note">About 9,300 notable places. For each one on your route: which side, at what minute, how far away, and how long it stays in view.</p>
+  </div>
+</section>
+
+<section id="stories" aria-labelledby="stories-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Stories</p>
+      <h2 id="stories-title">Written for the window seat.</h2>
+      <p>The best-known places, from major peaks and ranges to seas, rivers, islands and big cities, have stories written for SkyAtlas in all six languages. Each one answers three questions: why look, what exactly to look for, and what to remember. They come with the app, so they work offline from the moment you install it.</p>
+    </div>
+    <div class="stories">
+      <article class="plate" aria-labelledby="fuji-title">
+        <div class="plate-head">
+          <span class="label">Place card</span>
+          <span class="label">volcano · <span class="num">3,776 m</span></span>
+        </div>
+        <div class="card-body">
+          <h3 id="fuji-title">Mount Fuji</h3>
+          <p class="hook">Japan’s lone volcano, white-capped and nearly symmetrical</p>
+        </div>
+        <div class="card-part">
+          <span class="label">What to look for from the window</span>
+          <p>A lone snow-topped cone about 100 km south-west of Tokyo, with small lakes strung along its northern foot.</p>
+        </div>
+        <div class="card-part">
+          <span class="label">Worth knowing</span>
+          <p>The five lakes around Fuji’s northern foot formed where old lava flows dammed the valleys.</p>
+        </div>
+        <p class="caption">Taken from the Mount Fuji card in the app. On the phone, the full story and a photo gallery come with it.</p>
+      </article>
+      <div class="more">
+        <div>
+          <span class="label">History beneath the wing</span>
+          <h3>When your route crosses the past</h3>
+          <p class="quote">Silk Road, northern route · 2nd c. BC – 15th c.<br>The caravan road that tied China to the Mediterranean</p>
+          <p>Old trade roads, ancient sites and former kingdoms, from the Silk Road to Troy and Knossos, are matched to your route. When you pass one, SkyAtlas tells you what was there and when, and near an ancient site, what to look for in the landscape: at Knossos, the city of Heraklion on Crete’s north coast, with the palace a few kilometres inland.</p>
+        </div>
+        <div>
+          <span class="label">Photo galleries</span>
+          <h3>Up to four photos a place</h3>
+          <p>The best places on your route get up to four photos from Wikimedia Commons, the rest a single photo where one exists. Each is credited with its author and licence, and all are saved to the phone before the flight.</p>
+        </div>
+        <div>
+          <span class="label">After landing</span>
+          <h3>A quiz about what you saw</h3>
+          <p class="quote">How many lakes make up the famous group at Fuji’s northern foot?</p>
+          <p>Questions about the places you opened or saw on this flight, with the answer explained after each one. Every right answer adds experience to your passport.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -435,7 +500,7 @@
       <div>
         <span class="label">Quiz and postcard</span>
         <h3>A last look back</h3>
-        <p>After landing: a short quiz about the flight you just took (which side was that peak on, which country you spent longest over) and a postcard with the countries, distance and time in the air, to send with “we landed”.</p>
+        <p>After landing: a short quiz about the flight you just took (which side was that peak on, which country you spent longest over) and about the places you opened or saw, then a postcard with the countries, distance and time in the air, to send with “we landed”.</p>
       </div>
     </div>
   </div>
@@ -479,14 +544,14 @@
     <div>
       <p class="label">Privacy</p>
       <h2 id="privacy-title" class="h2">Your flights stay on your phone.</h2>
-      <p>There is no account and no sign-in. Your flights, passport and settings live only on your phone, and there is no SkyAtlas server to send them to. To prepare a flight, your phone downloads stories and photos directly from Wikipedia and Wikimedia Commons and map tiles from OpenFreeMap, and connects to nothing else. The GPS and the camera are used on the phone only. No ads, no tracking, no analytics, no crash reports.</p>
+      <p>There is no account and no sign-in. Your flights, passport and settings live only on your phone. To prepare a flight, your phone downloads stories and photos directly from Wikipedia and Wikimedia Commons and map tiles from OpenFreeMap. The flight services send the SkyAtlas server only what they need: the flight number and date to find your flight and its recent track, and points along the planned route with times for the cloud forecast. No name, no account, no advertising ID. The GPS and the camera are used on the phone only. No ads, no tracking, no analytics, no crash reports.</p>
       <p><a href="privacy.html">Privacy Policy</a> · <a href="privacy-ru.html" hreflang="ru" lang="ru">Политика конфиденциальности</a></p>
     </div>
     <ul class="facts" aria-label="Privacy at a glance">
       <li><span>Account</span><span>none</span></li>
-      <li><span>Where your data lives</span><span>on the phone</span></li>
-      <li><span>Our servers</span><span>none</span></li>
-      <li><span>Connects to</span><span>Wikimedia, OpenFreeMap</span></li>
+      <li><span>Where your flights live</span><span>on the phone</span></li>
+      <li><span>Sent to our server</span><span>flight number, date, route points</span></li>
+      <li><span>Also connects to</span><span>Wikimedia, OpenFreeMap</span></li>
       <li><span>Ads, tracking, analytics</span><span>none</span></li>
     </ul>
   </div>
@@ -495,7 +560,7 @@
 <section class="honest" aria-label="Limitations">
   <div class="wrap">
     <p class="label">Honestly</p>
-    <p>The aircraft’s position is an estimate from the schedule and the take-off time, refined by GPS when it is available. What you actually see depends on the weather, the clouds, daylight and your seat. SkyAtlas is for information and enjoyment. It is not a flight tracker, and it is not for navigation.</p>
+    <p>The aircraft’s position is an estimate from the schedule and the take-off time, refined by GPS when it is available. What you actually see depends on the weather, the clouds, daylight and your seat, and a cloud forecast is only a forecast. SkyAtlas is for information and enjoyment. It is not a flight tracker, and it is not for navigation.</p>
   </div>
 </section>
 
@@ -509,14 +574,14 @@
     <details>
       <summary>Does it really work in airplane mode?</summary>
       <div class="answer">
-        <p>Yes. Add the flight while you still have a connection. The route and the places are ready in seconds, and the stories, photos and offline map download while you wait at home or at the gate. In the air, nothing needs a connection: tap “Took off”, and the timeline runs from the phone’s clock.</p>
+        <p>Yes. Add the flight while you still have a connection. The route, the places and the stories written for SkyAtlas are ready in seconds; Wikipedia stories, photos and the offline map download while you wait at home or at the gate. In the air, nothing needs a connection: tap “Took off”, and the timeline runs from the phone’s clock.</p>
       </div>
     </details>
 
     <details>
       <summary>How accurate is it?</summary>
       <div class="answer">
-        <p>The route is a model, not the real track: a great circle with a typical climb and descent, detoured around airspace known to be closed. The position is estimated from the take-off time you confirm, and the phone’s GPS refines it when it gets a fix near the window. If the timing feels early or late, you can shift the take-off time and everything moves with it. Read the times as “about now”, not to the second.</p>
+        <p>The route is a model, not a live track. When your flight number flew in the past week, SkyAtlas follows the path it actually took; otherwise it uses a great circle with a typical climb and descent, detoured around airspace known to be closed. Your flight may still go another way. The position is estimated from the take-off time you confirm, and the phone’s GPS refines it when it gets a fix near the window. If the timing feels early or late, you can shift the take-off time and everything moves with it. Read the times as “about now”, not to the second.</p>
       </div>
     </details>
 
@@ -530,14 +595,14 @@
     <details>
       <summary>What if it is cloudy, or a night flight?</summary>
       <div class="answer">
-        <p>SkyAtlas cannot see the weather, so clouds may hide what it describes. Alerts for places are only sent in daylight. At night it tells you that only city lights will be visible, if the sky is clear. Your passport still fills up: every country and place you passed is recorded whatever the weather, and gold is kept for what you actually saw.</p>
+        <p>Before the flight, SkyAtlas checks the cloud forecast along your route: the Board tells you how much of it is likely to be under cloud, and alerts skip places forecast to be hidden by low cloud. Forecasts can be wrong, so clouds may still hide what it describes. Alerts for places are only sent in daylight. At night it tells you that only city lights will be visible, if the sky is clear. Your passport still fills up: every country and place you passed is recorded whatever the weather, and gold is kept for what you actually saw.</p>
       </div>
     </details>
 
     <details>
       <summary>Which languages does it speak?</summary>
       <div class="answer">
-        <p>English, Russian, German, French, Spanish and Japanese. Stories come from Wikipedia in your language where an article exists. Otherwise the English article is used, and the card says so.</p>
+        <p>English, Russian, German, French, Spanish and Japanese. The best-known places have stories written for SkyAtlas in all six. For other places, the story comes from Wikipedia in your language where an article exists; otherwise the English article is used, and the card says so.</p>
       </div>
     </details>
 
@@ -551,7 +616,7 @@
     <details>
       <summary>What data does it collect?</summary>
       <div class="answer">
-        <p>Nothing is sent to us. Your flights, passport and settings are stored on your phone, and there is no account. To download content, the phone connects to Wikipedia, Wikimedia Commons and OpenFreeMap, which, like any website, see your IP address and what is requested. Location and camera are used on the phone only; the camera reads the boarding-pass barcode and keeps only the flight details. The details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+        <p>Your flights, passport and settings are stored on your phone, and there is no account. Only the flight services talk to the SkyAtlas server: finding a flight sends its number and date, the recent track sends the flight number, and the cloud forecast sends points along the planned route with times. No name or account is attached, and the server does not keep your flights. To download content, the phone connects to Wikipedia, Wikimedia Commons and OpenFreeMap, which, like any website, see your IP address and what is requested. Location and camera are used on the phone only; the camera reads the boarding-pass barcode and keeps only the flight details. The details are in the <a href="privacy.html">Privacy Policy</a>.</p>
       </div>
     </details>
 
@@ -572,7 +637,7 @@
       <div>
         <a class="brand" href="#top"><img src="icon.png" alt="" width="32" height="32">SkyAtlas</a>
         <p class="tagline">A guide for the window seat. What you fly over, offline.</p>
-        <p>Places and borders: Natural Earth. Airports: OurAirports; time zones: mwgg/Airports (MIT). Stories: Wikipedia, CC BY-SA 4.0. Photos: Wikimedia Commons, each under its own licence. Map: © OpenStreetMap contributors, OpenMapTiles, OpenFreeMap.</p>
+        <p>Places and borders: Natural Earth. Airports: OurAirports; time zones: mwgg/Airports (MIT). Texts about places and history: written for SkyAtlas. Other stories: Wikipedia, CC BY-SA 4.0. Photos: Wikimedia Commons, each under its own licence. Map: © OpenStreetMap contributors, OpenMapTiles, OpenFreeMap. Flight data: AeroDataBox. Recent tracks: Flightradar24. Weather data: <a href="https://open-meteo.com/">Open-Meteo.com</a>, CC BY 4.0.</p>
       </div>
       <nav aria-label="Legal">
         <span class="label">Legal</span>

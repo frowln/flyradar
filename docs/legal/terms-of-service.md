@@ -16,14 +16,15 @@ SkyAtlas is not an aviation instrument or a flight tracker. Do not use it for na
 
 ## 3. Positions are estimates
 
-- The route is a **model**, not the real track: a great-circle line, with a rough detour around airspace that is known to be closed, and a typical climb and descent. The real route, altitude and timing depend on the airline, air traffic control and weather.
+- The route is a **model**, not a live track: a great-circle line, with a rough detour around airspace that is known to be closed, and a typical climb and descent, or, where available, the path the same flight number flew recently, which your flight may not follow. The real route, altitude and timing depend on the airline, air traffic control and weather.
+- Flight details found by flight number, recent tracks and cloud forecasts come from third parties (section 7) and may be wrong, incomplete or late. Check times with your airline.
 - The aircraft's position is estimated from the schedule and the take-off time you confirm. If you allow it, the phone's GPS refines the estimate, but GPS reception in a cabin is not reliable.
 - Places, distances, times and the side of the aircraft ("look left") can therefore be wrong.
 - Place data, names and outlines are simplified and may contain errors. Borders and names are shown for orientation only and do not express any political position.
 
 ## 4. No guarantee of what you will see
 
-Clouds, haze, darkness, the sun, your seat, the wing and the window can all hide what the app describes. An alert means "this may be visible about now", not a promise.
+Clouds, haze, darkness, the sun, your seat, the wing and the window can all hide what the app describes. A cloud forecast is only a forecast. An alert means "this may be visible about now", not a promise.
 
 ## 5. On board
 
@@ -41,14 +42,15 @@ The app's design, code and our own texts belong to us or our licensors. Third-pa
 
 ## 7. Content and licences
 
-The app is built on open data. We are grateful to its authors.
+The app is built mostly on open data. We are grateful to its authors.
 
 - **Places, borders and country outlines:** [Natural Earth](https://www.naturalearthdata.com/), public domain.
 - **Airports:** [OurAirports](https://ourairports.com/data/), public domain.
 - **Airport time zones:** [mwgg/Airports](https://github.com/mwgg/Airports), © 2014 mwgg, MIT licence.
-- **Stories:** text from [Wikipedia](https://www.wikipedia.org/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Texts may be shortened, and each story links to its source article.
+- **Stories:** the texts about the best-known places and about the history along the route are written for SkyAtlas and are ours (section 6). Other stories are text from [Wikipedia](https://www.wikipedia.org/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); they may be shortened, and each links to its source article.
 - **Photos:** from [Wikimedia Commons](https://commons.wikimedia.org/), each under its own licence. The author and licence are shown with each photo in the app.
 - **Map:** © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors ([ODbL](https://opendatacommons.org/licenses/odbl/)), [OpenMapTiles](https://openmaptiles.org/), served by [OpenFreeMap](https://openfreemap.org/).
+- **Flight services** (in versions that offer them): flight details from [AeroDataBox](https://aerodatabox.com), recent tracks from [Flightradar24](https://www.flightradar24.com), and cloud forecasts from [Open-Meteo](https://open-meteo.com), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 We do not control third-party content and cannot guarantee that it is accurate, complete or available. If you reuse it outside the app, its licence applies to you.
 
@@ -63,7 +65,7 @@ At present, all features of the app are free. If we offer **SkyAtlas Pro**:
 
 ## 9. Changes and availability
 
-We may change, add or remove features, and we may stop offering the app. Stories, photos and maps are downloaded from outside services, which may be slow or unavailable, so we cannot guarantee that a flight can always be fully prepared.
+We may change, add or remove features, including the flight services, and we may stop offering the app. Photos, maps, Wikipedia stories and flight data come from outside services, which may be slow or unavailable, so we cannot guarantee that a flight can always be fully prepared.
 
 ## 10. Disclaimer
 

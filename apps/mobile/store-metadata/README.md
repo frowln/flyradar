@@ -49,7 +49,7 @@ Every claim must be true of the build being submitted. When the app changes, che
 
 | Claim | Where it lives |
 | --- | --- |
-| The flight is prepared on the phone, with no account and no server | `src/core/offline/buildPackage.ts`, `src/core/offline/prepare.ts`. The social layer and Sign in with Apple stay off unless `EXPO_PUBLIC_SOCIAL=1` (`src/core/features.ts`). |
+| The flight is prepared on the phone, with no account | `src/core/offline/buildPackage.ts`, `src/core/offline/prepare.ts`. The social layer and Sign in with Apple stay off unless `EXPO_PUBLIC_SOCIAL=1` (`src/core/features.ts`). Do not claim "no server": a build with `EXPO_PUBLIC_API_URL` asks the SkyAtlas server for flight lookup, recent tracks and cloud forecasts (`src/core/api/flights.ts`). Claim those features only for such a build. |
 | About 9,300 places (peaks, volcanoes, ranges, deserts, seas, lakes, islands, rivers, glaciers, cities) | `assets/data/places.skydata` holds 9,343 places; see `scripts/data/README.md`. |
 | The route goes around closed airspace, depending on the carrier | `src/core/route/airspace.ts` |
 | Boarding-pass scan and Apple Wallet `.pkpass` import | `src/core/wallet/bcbp.ts`, `src/core/wallet/pkpassParser.ts`. They fill in the airports, date, flight number and seat, but not the departure time. |

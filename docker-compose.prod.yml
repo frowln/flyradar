@@ -1,5 +1,14 @@
+# Logs are rotated by size: each service keeps at most 5 × 10 MB, and older
+# lines are deleted (the Privacy Policy describes this).
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "5"
+
 services:
   postgres:
+    logging: *logging
     image: postgis/postgis:16-3.4
     restart: unless-stopped
     environment:
@@ -17,6 +26,7 @@ services:
       retries: 5
 
   redis:
+    logging: *logging
     image: redis:7-alpine
     restart: unless-stopped
     command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
@@ -31,6 +41,7 @@ services:
       retries: 5
 
   backend:
+    logging: *logging
     build:
       # The repository root, not apps/backend: the image installs from the
       # workspace lockfile at the root and compiles against packages/shared.
@@ -67,6 +78,7 @@ services:
       start_period: 60s
 
   nginx:
+    logging: *logging
     image: nginx:1.25-alpine
     restart: unless-stopped
     ports:
@@ -83,6 +95,7 @@ services:
       - public
 
   certbot:
+    logging: *logging
     image: certbot/certbot:latest
     volumes:
       - certbot_www:/var/www/certbot

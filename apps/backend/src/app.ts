@@ -21,9 +21,20 @@ export interface BuildAppOptions {
  */
 export function loggerOptions(env: NodeJS.ProcessEnv = process.env): FastifyServerOptions['logger'] {
   const level = env['LOG_LEVEL'] || 'info';
-  if (env['NODE_ENV'] === 'production') return { level };
-  return { level, transport: { target: 'pino-pretty' } };
+  if (env['NODE_ENV'] === 'production') return { level, serializers };
+  return { level, serializers, transport: { target: 'pino-pretty' } };
 }
+
+/**
+ * Requests are logged without their query string: GET /flights/track?number=…
+ * would otherwise put flight numbers into the logs next to IP addresses
+ * (the Privacy Policy says it does not).
+ */
+export const serializers = {
+  req(request: { method: string; url: string; host?: string; ip?: string }) {
+    return { method: request.method, url: request.url.split('?')[0], host: request.host, remoteAddress: request.ip };
+  }
+};
 
 /**
  * Which hops to believe about the client's address.

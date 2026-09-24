@@ -1,6 +1,6 @@
 # Legal documents
 
-Privacy Policy and Terms of Use for the SkyAtlas app, in English (`privacy-policy.md`, `terms-of-service.md`) and Russian (`*.ru.md`). They describe the app as currently built: everything on the phone, no account, no server, no analytics, no crash reports, no purchases. Keep both languages in sync.
+Privacy Policy and Terms of Use for the SkyAtlas app, in English (`privacy-policy.md`, `terms-of-service.md`) and Russian (`*.ru.md`). They describe the app as currently built: everything on the phone, no account, no analytics, no crash reports, no purchases. The one exception is the optional flight services (find by flight number, recent real track, cloud forecast), which exist only in builds that set `EXPO_PUBLIC_API_URL`: the policy's *Flight services* section says what those send to the SkyAtlas server (flight number, date, rounded route points with times, a random installation code, the IP address), which providers the server asks (AeroDataBox, Flightradar24, Open-Meteo) and what the server keeps and for how long. Keep both languages in sync.
 
 The App Store requires a public Privacy Policy URL (App Store Connect → App Privacy) that anyone can open without signing in. The landing site renders these files as pages (`landing/privacy.html`, `privacy-ru.html`, `terms.html`, `terms-ru.html`; regenerate with `node landing/build-legal.mjs`). Point the app at them with `EXPO_PUBLIC_PRIVACY_URL` / `EXPO_PUBLIC_TERMS_URL` (`apps/mobile/src/core/links.ts`; a Russian interface opens the `-ru.html` twin). Without those variables Settings links to these Markdown files on GitHub, which works only while the repository is public.
 
@@ -8,4 +8,5 @@ Before publishing, the owner must:
 
 - [ ] Fill in the legal entity name and confirm `privacy@skyatlas.app` and `support@skyatlas.app` (see the `TODO(owner)` comments).
 - [ ] Choose the governing law and courts (Terms, section 14).
-- [ ] Update both documents, the App Privacy answers and the iOS privacy manifest in `app.json` **before** any build sets `EXPO_PUBLIC_API_URL`, `EXPO_PUBLIC_SOCIAL`, `EXPO_PUBLIC_RC_KEY`, `EXPO_PUBLIC_SENTRY_DSN` or `EXPO_PUBLIC_POSTHOG_KEY`.
+- [ ] Before shipping a build that sets `EXPO_PUBLIC_API_URL`: name the server's hosting provider and region (`TODO(owner)` in the *Flight services* section), answer App Privacy as in `apps/mobile/store-metadata/APP_PRIVACY.md`. Log rotation (5 × 10 MB per service, `docker-compose.prod.yml`), logs without query strings (backend `src/app.ts`, `nginx/conf.d/skyatlas.conf`) and the iOS privacy manifest entry for such builds (`apps/mobile/app.config.js`) are already in place, as the policy describes.
+- [ ] Update both documents, the App Privacy answers and the iOS privacy manifest in `app.json` **before** any build sets `EXPO_PUBLIC_SOCIAL`, `EXPO_PUBLIC_RC_KEY`, `EXPO_PUBLIC_SENTRY_DSN` or `EXPO_PUBLIC_POSTHOG_KEY`, or before the server starts keeping anything the *Flight services* section does not list.

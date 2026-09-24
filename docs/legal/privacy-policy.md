@@ -9,8 +9,9 @@ SkyAtlas ("the app") is a window-seat companion: it shows what is outside the ai
 ## The short version
 
 - You do not need an account, and there is no sign-in.
-- Your flights, your flight log and your settings are stored only on your phone. We do not get a copy.
+- Your flights, your flight log and your settings are stored only on your phone. We do not keep a copy.
 - To download stories, photos and maps for a flight, your phone connects directly to Wikipedia/Wikimedia and OpenFreeMap. Like any website, they see your IP address and what is being downloaded.
+- If you use the flight services (finding a flight by its number, its recent real track, the cloud forecast along the route), the flight number and date, or points along the route, go to our server, which asks AeroDataBox, Flightradar24 or Open-Meteo. No name, account or advertising ID is attached. See *Flight services* below.
 - Your location and your camera are used only on the phone. Nothing from them is sent anywhere.
 - No ads, no tracking, no sale of data. The current version sends no crash reports and no analytics.
 
@@ -19,7 +20,7 @@ SkyAtlas ("the app") is a window-seat companion: it shows what is outside the ai
 When you add and fly a flight, the app saves the following in its private storage on your phone:
 
 - **Flight details you enter or scan:** departure and arrival airports, date, departure and arrival times, and, if you add them, the flight number and seat.
-- **The prepared flight:** the modelled route, the places along it, their stories and photos, and an offline map of the route.
+- **The prepared flight:** the route, the places and historical sites along it, their stories and photos, the cloud forecast if there is one, and an offline map of the route.
 - **The flight in progress:** take-off time, the places you opened or marked as seen, your answers to "what is about to appear?", and the most recent GPS reading (see *Location* below).
 - **Your flight log ("passport"):** completed flights, the countries crossed, stamps and achievements.
 - **Preferences:** language, units, alert level, GPS, guessing and audio guide settings.
@@ -29,18 +30,42 @@ We cannot see or access any of this. If your phone backs up app data (for exampl
 
 ## Connections your phone makes
 
-The route, the places along it and the timeline are calculated on your phone from data built into the app. Only stories, photos and maps need the internet. When you add a flight while online, your phone itself connects to:
+The route, the places along it and the timeline are calculated on your phone from data built into the app. So are the texts written for SkyAtlas about the best-known places and about the history along the route: they are part of the app and work offline from the moment it is installed. The internet is needed only for Wikipedia stories about other places, for photos and maps, and for the flight services. When you add a flight while online, your phone itself connects to:
 
 | Service | Addresses | Used for |
 | --- | --- | --- |
-| Wikimedia Foundation | `www.wikidata.org`, `<language>.wikipedia.org`, `commons.wikimedia.org`, `upload.wikimedia.org` | Short article summaries, photos, and photo author and licence |
+| Wikimedia Foundation | `www.wikidata.org`, `<language>.wikipedia.org`, `commons.wikimedia.org`, `upload.wikimedia.org` | Short article summaries for places without a SkyAtlas text, photos, and photo author and licence |
 | OpenFreeMap | `tiles.openfreemap.org` | Map style and map tiles for the route |
 
 The map may also load tiles when you view it while online, a photo that was not saved in advance may load when you open that place, and tapping a story's source link opens Wikipedia in your browser.
 
 These are ordinary web requests. As with any website, these services receive your IP address, standard technical details of the request, and which articles and map areas were requested, in your app language. Together, this can hint at your route. The app does not add your name, an account, an advertising ID, or any identifier of ours. The services handle this data under their own policies: [Wikimedia privacy policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy) and [OpenFreeMap](https://openfreemap.org/). They may be located outside your country, including in the United States.
 
-In the air, without a connection, the app makes no requests at all. The current version has no server of ours to talk to: it never sends your flights, or anything else, to us.
+In the air, without a connection, the app makes no requests at all. Except for the flight services described below, the app sends nothing to us: not your flights, not your flight log, not anything else.
+
+## Flight services
+
+Three optional services run through a server of ours. A version of the app that has them offers *Find by flight number* on the add-flight screen. A version without that field has none of them and never contacts our server.
+
+What is sent, and when:
+
+- **Find by flight number.** When you tap *Find*, the app sends the flight number and the date you entered. Our server asks **[AeroDataBox](https://aerodatabox.com)**, which we reach through the RapidAPI or API.market marketplace, for the flight's airports and times, and the app fills in the form.
+- **Recent real track.** When you add a flight that has a flight number (typed, found or read from your boarding pass), the app sends the flight number. Our server asks **[Flightradar24](https://www.flightradar24.com)** for the path that flight number actually flew most recently, within the past week. If there is one, the app uses it instead of the modelled route.
+- **Cloud forecast.** When you add a flight that departs within a week, and again when the app starts in the three days before departure (at most once every three hours), the app sends up to 60 points of the planned route. Each point is a latitude and longitude rounded to about 1 km, and the time the aircraft is expected there. Our server asks **[Open-Meteo](https://open-meteo.com)** for the forecast cloud cover at those points. The Board then says how cloudy the route is likely to be, and in-flight alerts skip sights under low cloud. There is no separate switch for the forecast.
+
+Each request also carries a random code that the app creates on your phone the first time it contacts our server, a signature that lets our server turn away requests not made by the app, the platform (iOS), and, like any web request, your IP address. The code is not linked to your name, Apple ID, advertising ID or anything else about you, and for these services our server neither stores nor logs it.
+
+AeroDataBox (and the marketplace), Flightradar24 and Open-Meteo receive only what they need to answer: the flight number and date, the flight number, or the points (rounded further, to squares of about 25 km) and dates. They receive it from our server, not from your phone, so they do not see your IP address or the app's code. They may be located outside your country.
+
+What our server keeps:
+
+- **Flight details.** The answer about a flight (airports, times, aircraft type and status) is saved in our database under its flight number and date, so the next passenger who asks about the same flight does not cost another paid lookup. It is information about the flight, not about who asked. It counts as current for 15 minutes around the day of the flight and for 24 hours before that, after which the next request asks AeroDataBox again. The record is not deleted on a schedule.
+- **Tracks.** The track of a flight number is kept in the server's memory and cache under that flight number for up to 24 hours (6 hours when that number has not flown in the past week).
+- **Cloud forecasts.** Kept for one hour, by squares of about 25 km and by hour. Your route is not kept: the points of one request are not stored together.
+- **Server logs.** Like most web servers, ours records each request: the time, your IP address, the address requested without its query (so without a flight number), the response status and the app's user agent. The content of a request, such as the flight number and date of a lookup or the route points of a forecast, is not logged. We use logs to keep the service running and secure, to find faults and to stop abuse. They are rotated by size: each part of the server keeps at most its latest 50 MB of log lines, and older lines are deleted automatically.
+- **Rate limiting.** To stop abuse, the server counts requests from each IP address over one minute, in memory only.
+
+<!-- TODO(owner): name the hosting provider and the country or region where the SkyAtlas server runs. -->
 
 ## Permissions
 
@@ -75,7 +100,7 @@ The current version sends no crash reports and no analytics. The code contains o
 
 ## Optional online features
 
-The code also contains optional features that need a server of ours: accounts with Sign in with Apple, place reviews, leaderboards, and a server-side check of Pro purchases. The current version is built without that server, so these features are switched off and send nothing. If we ever turn them on, we will update this policy first and ask for your consent where the law requires it.
+The code also contains optional features that would keep data about you on our server: accounts with Sign in with Apple, place reviews, leaderboards, and a server-side check of Pro purchases. The current version does not include them: they are switched off and send nothing. If we ever turn them on, we will update this policy first and ask for your consent where the law requires it.
 
 ## Keeping and deleting your data
 
@@ -85,7 +110,7 @@ Your data stays on your phone until you delete it:
 - **Settings → Clear the passport:** erases all flights, stamps and achievements in your flight log. Saved flights (routes, stories, photos, maps) stay until you delete them on the Board.
 - **Delete the app:** removes everything the app stored on the phone (copies in your device backups excepted).
 
-Because we do not hold your data, we cannot delete or export it for you, and we cannot restore it if you lose your phone.
+Because we do not hold your data, we cannot delete or export it for you, and we cannot restore it if you lose your phone. What our server keeps for the flight services is described, with how long it is kept, under *Flight services*.
 
 ## Your rights
 
@@ -94,15 +119,15 @@ If the GDPR, the UK GDPR, the California Consumer Privacy Act (CCPA/CPRA) or a s
 In practice, with SkyAtlas:
 
 - Everything the app knows about your flights is on your phone and under your control. You can see it in the app and delete it as described above.
-- We hold no personal data about you, except what you choose to send us by e-mail.
-- Where the GDPR applies, we use an e-mail you send us only to answer it (legitimate interest).
+- We hold no account or profile about you. If you use the flight services, our server logs contain your IP address next to your requests for a limited time. We cannot tell which entries are yours unless you give us your IP address and the time; if you do, we will act on your request.
+- Where the GDPR applies, we handle flight service requests and server logs on the basis of legitimate interest: answering the request you made and keeping the service secure. We use an e-mail you send us only to answer it (legitimate interest).
 - **California:** we do not sell or share personal information and do not use it for targeted advertising. We will not treat you differently for using your rights.
 
 To use any of these rights, or if you have a question, contact us (see below).
 
 ## Children
 
-SkyAtlas is not directed at children under 13, or under the minimum age set by the law of your country. We do not knowingly collect personal information from children. The app does not send us any personal information in the first place. If you think a child has sent us personal information, contact us and we will delete it.
+SkyAtlas is not directed at children under 13, or under the minimum age set by the law of your country. We do not knowingly collect personal information from children. Apart from the technical data described under *Flight services*, the app does not send us any personal information in the first place. If you think a child has sent us personal information, contact us and we will delete it.
 
 ## Changes to this policy
 
