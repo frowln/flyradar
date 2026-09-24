@@ -1,0 +1,450 @@
+{
+  "Q65": {
+    "t": "Una ciudad derramada entre las cumbres y el Pacífico",
+    "s": "Los Ángeles no termina: se queda sin sitio. Su mancha urbana llena una amplia cuenca desde la costa del Pacífico hasta el pie de los montes de San Gabriel, y luego se derrama por los valles de más allá. En invierno, esas cumbres pueden lucir nieve sobre una ciudad de palmeras. Todo empezó en 1781 como un pequeño pueblo agrícola español.",
+    "w": "Una inmensa mancha gris beis entre las montañas y la bahía de Santa Mónica; al sur, los largos rompeolas del puerto de Long Beach.",
+    "f": [
+      "El río Los Ángeles corre sobre todo por un canal de hormigón, revestido desde los años treinta para domar sus crecidas.",
+      "Los puertos vecinos de Los Ángeles y Long Beach forman juntos el complejo portuario de contenedores con más tráfico de EE. UU.",
+      "La cumbre más alta de los San Gabriel, el monte San Antonio (unos 3070 m), se conoce allí como Mount Baldy."
+    ],
+    "q": {
+      "q": "¿Qué cordillera cierra Los Ángeles por el norte?",
+      "a": "Los montes de San Gabriel",
+      "x": [
+        "La Sierra Nevada",
+        "La cordillera de las Cascadas"
+      ]
+    }
+  },
+  "Q61": {
+    "t": "Una capital dibujada antes de construirse, junto al Potomac",
+    "s": "Washington se planificó antes de existir: en 1791, Pierre L’Enfant trazó amplias avenidas diagonales sobre una cuadrícula de calles en tierras de cultivo junto al Potomac. El distrito nació como un cuadrado de diez millas de lado, apoyado sobre un vértice como un rombo. Virginia recuperó su parte en 1846, así que hoy el río le arranca la esquina suroeste.",
+    "w": "Donde el Anacostia se une al ancho Potomac; una ciudad baja sin racimo de rascacielos y el aeropuerto Reagan National a orillas del río.",
+    "f": [
+      "En 1791-1792 se colocaron cuarenta mojones de piedra a lo largo del límite original en forma de rombo; muchos siguen en pie.",
+      "El Congreso se reunió por primera vez en Washington en 1800.",
+      "Una ley de 1910 limita la altura de los edificios; por eso la ciudad se ve tan llamativamente baja."
+    ],
+    "q": {
+      "q": "¿Qué río forma el borde suroeste de Washington?",
+      "a": "El Potomac",
+      "x": [
+        "El Delaware",
+        "El Hudson"
+      ]
+    }
+  },
+  "Q60": {
+    "t": "Busca el rectángulo verde en medio de la isla",
+    "s": "Encuentra Manhattan —una isla larga y estrecha entre el Hudson y el East River— y, en su centro, un rectángulo verde y nítido: Central Park, de unos cuatro kilómetros de largo. A su alrededor, la cuadrícula de calles trazada en 1811 sube manzana tras manzana por la isla. Los neerlandeses llamaron a este puerto Nueva Ámsterdam hasta que los ingleses lo tomaron en 1664 y lo rebautizaron en honor del duque de York.",
+    "w": "Una isla estrecha que apunta al sur, hacia un amplio puerto, con un rectángulo verde en el centro y largos puentes hacia el este.",
+    "f": [
+      "Central Park mide unos 4 km por 0,8 km: lo bastante grande para distinguirlo desde crucero en un día claro.",
+      "El puente Verrazzano-Narrows, en la boca del puerto, tenía el vano colgante más largo del mundo cuando se abrió en 1964.",
+      "La cuadrícula de Manhattan se fijó en un plan de 1811, mucho antes de que se edificara la mayor parte de la isla."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Nueva York antes de 1664?",
+      "a": "Nueva Ámsterdam",
+      "x": [
+        "Nueva Róterdam",
+        "Fort Orange"
+      ]
+    }
+  },
+  "Q1489": {
+    "t": "Una megaciudad sobre un lago que ya no está",
+    "s": "El mar de tejados gris pardo que ves debajo llena el lecho de un antiguo lago a 2240 m sobre el nivel del mar. Los aztecas fundaron Tenochtitlan en una isla del lago de Texcoco hacia 1325; después, los españoles desecaron la mayor parte del agua. La arcilla del subsuelo aún se asienta, y partes de la ciudad se hunden cada año. En un día claro, busca al sureste dos volcanes nevados.",
+    "w": "Una ciudad inmensa que llena un valle alto y llano rodeado de montañas; al sureste se alzan el Popocatépetl y el Iztaccíhuatl.",
+    "f": [
+      "El Popocatépetl, de unos 5400 m, es un volcán activo y a menudo lleva un penacho de vapor.",
+      "En algunos puntos la ciudad se hunde más de 20 cm al año, a medida que se seca la arcilla del antiguo lago.",
+      "Iztaccíhuatl significa «mujer blanca» en náhuatl, y se dice que su larga cresta parece una figura dormida."
+    ],
+    "q": {
+      "q": "¿Sobre qué se alzaba el centro de Ciudad de México en tiempos aztecas?",
+      "a": "Una isla en un lago",
+      "x": [
+        "Un cráter volcánico",
+        "Un delta fluvial"
+      ]
+    }
+  },
+  "Q2841": {
+    "t": "Una capital a 2640 m, pegada a un muro de montaña verde",
+    "s": "Bogotá está en una sabana alta y llana de los Andes, a unos 2640 m, con una empinada cadena de cerros en su borde oriental. La ciudad llena la llanura hacia el oeste desde ese muro. Busca a su alrededor manchas blancas que destellan: son los invernaderos de las fincas de flores que hacen de Colombia uno de los grandes exportadores mundiales de flores cortadas.",
+    "w": "Una gran ciudad en una meseta verde y llana, pegada a una cresta oscura al este; techos blancos de invernaderos entre los campos.",
+    "f": [
+      "El conquistador español Gonzalo Jiménez de Quesada fundó la ciudad en 1538.",
+      "La leyenda de El Dorado nació de un ritual muisca en la laguna de Guatavita, a unos 50 km al noreste de la ciudad.",
+      "Monserrate, el cerro que domina el casco antiguo, alcanza unos 3150 m."
+    ],
+    "q": {
+      "q": "¿En qué laguna nació la leyenda de El Dorado?",
+      "a": "La laguna de Guatavita",
+      "x": [
+        "El lago Titicaca",
+        "El lago de Tota"
+      ]
+    }
+  },
+  "Q2887": {
+    "t": "Una ciudad en un cuenco, con los Andes justo detrás",
+    "s": "Santiago llena un amplio valle entre la baja cordillera de la Costa y los Andes, que suben a cumbres nevadas de más de 5000 m justo al este de los suburbios. En invierno, la bruma suele acumularse en el cuenco mientras las cimas brillan por encima. Pedro de Valdivia fundó la ciudad en 1541 junto a un cerro rocoso a orillas del río Mapocho.",
+    "w": "Una gran ciudad en el fondo llano de un valle, al pie del muro nevado de los Andes; la fina línea del Mapocho la cruza.",
+    "f": [
+      "El Aconcagua, con 6961 m el pico más alto fuera de Asia, se alza a unos 100 km al noreste de la ciudad.",
+      "El cerro Santa Lucía, donde se fundó la ciudad, es hoy un parque en pleno centro.",
+      "La frontera con Argentina sigue la cresta de los Andes a menos de 100 km de la ciudad."
+    ],
+    "q": {
+      "q": "¿Quién fundó Santiago en 1541?",
+      "a": "Pedro de Valdivia",
+      "x": [
+        "Francisco Pizarro",
+        "Diego de Almagro"
+      ]
+    }
+  },
+  "Q8678": {
+    "t": "Cúpulas de granito verde que surgen directamente del mar",
+    "s": "Pocas ciudades están tan enredadas con la roca: cúpulas de granito empinadas y boscosas se alzan entre los barrios y directamente desde la bahía de Guanabara. Los navegantes portugueses llegaron en enero de 1502 y tomaron la bahía por la desembocadura de un río; de ahí «Río de Enero». De 1808 a 1821 la corte portuguesa vivió aquí: una monarquía europea que gobernaba su imperio desde América.",
+    "w": "Una amplia bahía de boca estrecha, cúpulas verdes de roca entre los edificios y largas playas claras frente al Atlántico abierto.",
+    "f": [
+      "El puente Río-Niterói cruza la bahía de Guanabara a lo largo de unos 13 km; desde crucero es una línea fina sobre el agua.",
+      "Buena parte del bosque de Tijuca, sobre la ciudad, se replantó a mano desde la década de 1860 en antiguos cafetales.",
+      "El Pan de Azúcar se alza unos 396 m directamente desde el agua, en la boca de la bahía."
+    ],
+    "q": {
+      "q": "¿Qué bahía cruza el puente Río-Niterói?",
+      "a": "La bahía de Guanabara",
+      "x": [
+        "La bahía de Todos los Santos",
+        "La bahía de Paranaguá"
+      ]
+    }
+  },
+  "Q174": {
+    "t": "La mayor urbe del hemisferio sur, en lo alto de una meseta",
+    "s": "Desde la ventanilla, São Paulo parece infinita: tejados grises y blancos hasta el horizonte, cosidos por ríos en canales rectos de hormigón. Está en una meseta a unos 760 m, a solo unos 70 km del Atlántico, tras el muro empinado y boscoso de la Serra do Mar. Los misioneros jesuitas la fundaron como una pequeña misión en 1554.",
+    "w": "Una ciudad gris sin límites; grandes embalses oscuros en su borde sur y, al sureste, la escarpa verde y la costa.",
+    "f": [
+      "El río Tietê nace cerca de la costa, pero corre tierra adentro más de 1000 km hasta unirse al Paraná.",
+      "Los embalses Billings y Guarapiranga, en el borde sur, se distinguen con facilidad desde crucero.",
+      "El comercio del café del siglo XIX convirtió un modesto pueblo de colina en el motor económico de Brasil."
+    ],
+    "q": {
+      "q": "¿Hacia dónde corre el río Tietê desde São Paulo?",
+      "a": "Tierra adentro, hacia el Paraná",
+      "x": [
+        "Al este, al Atlántico en Santos",
+        "Al norte, hacia el Amazonas"
+      ]
+    }
+  },
+  "Q62": {
+    "t": "Colinas, península y niebla que entra por el Golden Gate",
+    "s": "San Francisco llena la punta de una península, con el Pacífico a un lado y una gran bahía al otro, unidos por el estrecho Golden Gate. En las tardes de verano puedes ver la niebla entrando por ese hueco como un lento río blanco. La fiebre del oro de 1849 convirtió una aldea de unas mil personas en una ciudad en pleno auge en un par de años.",
+    "w": "La punta de una península entre el océano y la bahía; finas líneas de puentes sobre el agua; salinas rojas y verdes muy al sur.",
+    "f": [
+      "Las salinas del sur de la bahía brillan en rojo, naranja y verde, teñidas por microorganismos amantes de la sal.",
+      "El estrecho del Golden Gate recibió su nombre en 1846, casi un siglo antes de que se construyera el famoso puente.",
+      "La misión de San Francisco de Asís, germen español de la ciudad, se fundó en 1776."
+    ],
+    "q": {
+      "q": "¿Qué tiñe las salinas del sur de la bahía de San Francisco?",
+      "a": "Microorganismos amantes de la sal",
+      "x": [
+        "Arcilla rica en hierro",
+        "Minerales de cobre"
+      ]
+    }
+  },
+  "Q16554": {
+    "t": "Donde las Grandes Llanuras chocan con las Rocosas",
+    "s": "Denver marca la línea donde termina el terreno llano: al este, las llanuras ondulan durante mil kilómetros; al oeste, la Front Range se alza en un muro de cumbres de más de 4000 m. La ciudad nació de un campamento de la fiebre del oro de 1858 y está a una milla de altitud, unos 1600 m: de ahí su apodo, la Mile High City.",
+    "w": "Una ciudad en la llanura ocre, al pie mismo de las Rocosas; su enorme aeropuerto queda aislado, lejos al noreste.",
+    "f": [
+      "El aeropuerto internacional de Denver es el más grande de Norteamérica por superficie: unos 135 km².",
+      "La ciudad lleva el nombre de James W. Denver, gobernador del Territorio de Kansas, que entonces incluía este lugar.",
+      "El pico Longs, de unos 4350 m, es la cumbre que destaca en el horizonte noroeste."
+    ],
+    "q": {
+      "q": "¿Qué atrajo a los primeros colonos a Denver en 1858?",
+      "a": "Una fiebre del oro",
+      "x": [
+        "Una nueva línea de ferrocarril",
+        "Un hallazgo de plata"
+      ]
+    }
+  },
+  "Q16555": {
+    "t": "Bayous, refinerías y un canal marítimo en una llanura",
+    "s": "Houston se extiende por una llanura costera tan plana que sus lentos bayous pardos serpentean en bucles entre los suburbios. Busca al sureste el Ship Channel, un canal dragado de unos 80 km bordeado de refinerías y tanques, que sale a la bahía de Galveston. Fundada en 1836, la ciudad lleva el nombre de Sam Houston, héroe de la independencia de Texas.",
+    "w": "Una mancha llana e interminable rodeada de anillos de autopista; al sureste, un canal bordeado de industria que lleva a una amplia bahía.",
+    "f": [
+      "Houston es famosa por ser la mayor ciudad de EE. UU. sin un código de zonificación formal.",
+      "El Control de Misión de la NASA para los vuelos espaciales tripulados está en los suburbios del sureste de la ciudad.",
+      "De noche, las refinerías del Ship Channel centellean como una banda de luz larga y densa."
+    ],
+    "q": {
+      "q": "¿En honor de quién se llama Houston?",
+      "a": "Sam Houston",
+      "x": [
+        "Stephen F. Austin",
+        "Davy Crockett"
+      ]
+    }
+  },
+  "Q8652": {
+    "t": "Una ciudad estrecha entre los Everglades y el agua turquesa",
+    "s": "Miami es una ciudad larga y estrecha atrapada entre dos bordes muy distintos: las marismas verde pálido de los Everglades al oeste y los bajíos turquesa de la bahía de Biscayne al este. Más allá de la bahía corre la fina isla barrera de Miami Beach. La ciudad no se constituyó hasta 1896, justo después de que llegara el ferrocarril de Henry Flagler.",
+    "w": "Una franja de ciudad junto a la costa; una línea recta donde acaban las calles y empieza la marisma; una cinta luminosa de isla enfrente.",
+    "f": [
+      "Gran parte de Miami está a solo un par de metros sobre el nivel del mar, sobre caliza porosa.",
+      "Miami Beach era sobre todo manglar antes de que la desbrozaran y edificaran en las décadas de 1910 y 1920.",
+      "La cadena de pequeñas islas Venecianas que cruza la bahía de Biscayne es en gran parte artificial."
+    ],
+    "q": {
+      "q": "¿Qué humedal está justo al oeste de Miami?",
+      "a": "Los Everglades",
+      "x": [
+        "El pantano Okefenokee",
+        "La cuenca del Atchafalaya"
+      ]
+    }
+  },
+  "Q23556": {
+    "t": "Torres en un bosque, junto a un aeropuerto gigante",
+    "s": "Atlanta se ve sorprendentemente verde desde arriba: una espesa bóveda de árboles oculta casi todos sus suburbios, y de ella emergen grupos de torres. Al sur del centro, busca las largas pistas paralelas de Hartsfield-Jackson, durante muchos años el aeropuerto con más pasajeros del mundo. La ciudad nació en 1837 como final de una línea de ferrocarril, llamada simplemente Terminus.",
+    "w": "Torres en un denso bosque verde; al sur, un aeropuerto enorme de pistas paralelas este-oeste; al este, una cúpula clara de granito.",
+    "f": [
+      "Stone Mountain, una cúpula de granito desnudo al este de la ciudad, se alza unos 250 m sobre el bosque que la rodea.",
+      "La divisoria continental oriental cruza Atlanta: la lluvia de un lado va al Atlántico y la del otro, al golfo.",
+      "El nombre Atlanta se adoptó en 1845, tras una breve etapa como Marthasville."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Atlanta cuando nació en 1837?",
+      "a": "Terminus",
+      "x": [
+        "Peachtree",
+        "Stone Mountain"
+      ]
+    }
+  },
+  "Q1297": {
+    "t": "Una cuadrícula perfecta contra un lago que parece un mar",
+    "s": "El borde de Chicago es una única línea recta: el lago Míchigan, tan ancho que desde el suelo su otra orilla queda más allá del horizonte. Tierra adentro, las calles siguen una cuadrícula estricta, y de noche brilla en naranja, manzana a manzana, muy lejos por la pradera. La ciudad existe gracias a un corto porteo que había aquí entre los Grandes Lagos y la cuenca del Misisipi.",
+    "w": "Una ciudad enorme en la orilla suroeste del lago Míchigan; frente al lago recto como una regla, cuadrícula uniforme y O’Hare al noroeste.",
+    "f": [
+      "En 1900, los ingenieros invirtieron el curso del río Chicago y lo alejaron del lago, hacia el Misisipi.",
+      "El nombre viene de una palabra indígena local para una cebolla silvestre que crecía junto al río.",
+      "Casi toda la orilla del lago en Chicago se conserva como parques y playas públicos, no como terreno privado."
+    ],
+    "q": {
+      "q": "¿Qué hicieron los ingenieros con el río Chicago en 1900?",
+      "a": "Invertir su curso",
+      "x": [
+        "Rellenarlo",
+        "Represarlo en un lago"
+      ]
+    }
+  },
+  "Q1533": {
+    "t": "Una ciudad de valle separada del mar por una montaña",
+    "s": "Caracas se extiende unos 20 km por un valle estrecho a unos 900 m de altitud, paralelo a la costa del Caribe y, sin embargo, oculto de ella. Entre la ciudad y el mar se alza la cresta verde de El Ávila, de más de 2700 m en su punto más alto. Por eso el aeropuerto está en la costa, en Maiquetía, al otro lado de la montaña. La ciudad se fundó en 1567.",
+    "w": "Una ciudad larga y estrecha en un valle de este a oeste; una cresta verde y empinada al norte y el mar azul justo detrás.",
+    "f": [
+      "Simón Bolívar, que llevó a gran parte de Sudamérica a la independencia, nació en Caracas en 1783.",
+      "El nombre fundacional completo de la ciudad fue Santiago de León de Caracas."
+    ],
+    "q": {
+      "q": "¿Qué separa Caracas del mar Caribe?",
+      "a": "La cresta montañosa de El Ávila",
+      "x": [
+        "Una amplia laguna costera",
+        "Una llanura desértica"
+      ]
+    }
+  },
+  "Q2868": {
+    "t": "Una capital en el desierto, bajo una tapa de bruma marina",
+    "s": "Lima es una de las capitales más secas de la Tierra: una ciudad parda sobre desierto desnudo que apenas recibe un par de centímetros de lluvia al año. Sin embargo, durante meses se esconde bajo una niebla marina baja y gris, la garúa. Busca los acantilados donde la ciudad cae al Pacífico. Francisco Pizarro la fundó en 1535 como Ciudad de los Reyes.",
+    "w": "Una inmensa ciudad ocre en una costa desértica, bordeada de acantilados; cerros pardos tierra adentro y el hilo verde del valle del Rímac.",
+    "f": [
+      "Durante más de dos siglos, Lima fue capital de un virreinato español que abarcaba la mayor parte de la Sudamérica española.",
+      "El puerto del Callao y el aeropuerto internacional están justo al oeste del centro, en la misma llanura costera.",
+      "En invierno, la garúa puede mantener el cielo gris durante semanas mientras apenas moja el suelo."
+    ],
+    "q": {
+      "q": "¿Qué nombre le dio Pizarro a Lima al fundarla en 1535?",
+      "a": "Ciudad de los Reyes",
+      "x": [
+        "Ciudad del Sol",
+        "Nueva Toledo"
+      ]
+    }
+  },
+  "Q81033": {
+    "t": "Ciudad industrial en un anillo de montañas grises y dentadas",
+    "s": "Monterrey está en un valle de la Sierra Madre Oriental, y las montañas llegan hasta sus suburbios. La más famosa es el Cerro de la Silla, cuya cresta de dos jorobas parece de verdad una silla de montar. Fundada en 1596, la ciudad se convirtió en el motor industrial de México: en 1900 se fundó aquí la primera gran acería de América Latina.",
+    "w": "Una ciudad densa en un valle cercado por crestas grises, empinadas y plegadas; una montaña con forma de silla en su borde este.",
+    "f": [
+      "El Cerro de la Silla alcanza unos 1800 m, más de un kilómetro por encima de la ciudad.",
+      "El río Santa Catarina, que cruza la ciudad, está seco la mayor parte del año.",
+      "El cañón de la Huasteca, en el borde oeste, se hunde en crestas de caliza plegada."
+    ],
+    "q": {
+      "q": "¿Qué montaña con forma de silla es el símbolo de Monterrey?",
+      "a": "El Cerro de la Silla",
+      "x": [
+        "El Pico de Orizaba",
+        "El Nevado de Toluca"
+      ]
+    }
+  },
+  "Q24639": {
+    "t": "Una ciudad en península, entre la ensenada y las cumbres",
+    "s": "Vancouver es todo bordes: mar por tres lados y las nevadas montañas Costeras alzándose casi a pico desde la orilla norte. Busca el pulgar verde oscuro de Stanley Park, que apunta a la ensenada Burrard, y al sur las tierras de cultivo llanas y ajedrezadas del delta del Fraser, donde el aeropuerto ocupa una isla. La ciudad se constituyó en 1886.",
+    "w": "Una ciudad en una península entre dos aguas; una punta boscosa verde oscuro, picos nevados al norte y un delta llano al sur.",
+    "f": [
+      "Stanley Park ocupa unas 400 hectáreas, más que el Central Park de Nueva York.",
+      "El capitán George Vancouver cartografió la ensenada en 1792, y la ciudad tomó su nombre.",
+      "El Ferrocarril del Pacífico Canadiense llegó en 1887 e hizo de la ciudad la puerta de Canadá al Pacífico."
+    ],
+    "q": {
+      "q": "¿El delta de qué río está en el lado sur de Vancouver?",
+      "a": "El Fraser",
+      "x": [
+        "El Columbia",
+        "El Skeena"
+      ]
+    }
+  },
+  "Q172": {
+    "t": "Una ciudad junto al lago, con islas que abrazan su puerto",
+    "s": "Toronto se extiende por la orilla norte del lago Ontario, y la forma más fácil de reconocerla es una hilera de islas verdes y bajas frente a la costa, curvadas alrededor del puerto. Hasta que un temporal abrió una brecha en 1858, eran una península de arena. Tierra adentro, busca hondos barrancos boscosos que serpentean por la cuadrícula. Hasta 1834, la ciudad se llamaba York.",
+    "w": "Una ciudad densa en la orilla norte del lago Ontario; una curva de islas bajas frente al centro y barrancos verdes tierra adentro.",
+    "f": [
+      "Una de las islas alberga un pequeño aeropuerto urbano, a tiro de piedra del centro.",
+      "El nombre suele atribuirse a una palabra mohawk para un lugar donde los árboles se alzan en el agua.",
+      "La red de barrancos boscosos de Toronto está entre las más extensas de cualquier ciudad del mundo."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Toronto antes de 1834?",
+      "a": "York",
+      "x": [
+        "Kingston",
+        "Newark"
+      ]
+    }
+  },
+  "Q1486": {
+    "t": "Una cuadrícula de luz junto a un río pardo como un mar",
+    "s": "Buenos Aires mira al Río de la Plata, un estuario tan ancho que la orilla uruguaya queda a unos 50 km, invisible desde la costanera. El agua es de un pardo café con leche, teñida por el limo del Paraná y el Uruguay. Detrás de la orilla, las manzanas cuadradas de la ciudad avanzan por la pampa llana sin una colina a la vista.",
+    "w": "Una inmensa ciudad en cuadrícula en la orilla sur de un ancho estuario pardo; al noroeste, el laberinto verde del delta del Paraná.",
+    "f": [
+      "La ciudad se fundó dos veces: primero en 1536 y, definitivamente, por Juan de Garay en 1580.",
+      "El Río de la Plata nace donde se juntan el Paraná y el Uruguay.",
+      "De noche, las manzanas regulares brillan como un tablero de ajedrez naranja que se adentra muy lejos."
+    ],
+    "q": {
+      "q": "¿Quién refundó Buenos Aires definitivamente en 1580?",
+      "a": "Juan de Garay",
+      "x": [
+        "Pedro de Mendoza",
+        "Juan Díaz de Solís"
+      ]
+    }
+  },
+  "Q36091": {
+    "t": "Una ciudad de lagos, partida por el joven Misisipi",
+    "s": "Minneapolis está salpicada de lagos, varios de ellos ensartados dentro de la ciudad como cuentas azules. Por el centro corre el Misisipi, aquí todavía un río modesto, que salta por las cataratas de San Antonio, la única gran cascada natural de todo su curso. Las cataratas movían los molinos de harina que, hacia 1900, hicieron de esta la capital mundial de la molienda.",
+    "w": "Una ciudad llana moteada de lagos redondos; el Misisipi serpentea por el centro y se une al río Minnesota junto al aeropuerto.",
+    "f": [
+      "Minnesota tiene más de 11 000 lagos de más de 4 hectáreas: su lema de los «10 000 lagos» se queda corto.",
+      "Saint Paul, la ciudad gemela y capital del estado, está justo aguas abajo, en el mismo río.",
+      "El aeropuerto está junto a la confluencia del Misisipi y el Minnesota."
+    ],
+    "q": {
+      "q": "¿Qué industria hizo famosa a Minneapolis hacia 1900?",
+      "a": "La molienda de harina",
+      "x": [
+        "La fabricación de coches",
+        "La siderurgia"
+      ]
+    }
+  },
+  "Q18094": {
+    "t": "Ciudad tropical entre un cráter y crestas verdes acanaladas",
+    "s": "Honolulu se aprieta en la costa sur de Oʻahu, entre el mar orlado de arrecife y las crestas verdes, empinadas y acanaladas de la cordillera Koʻolau. En su extremo este se alza Diamond Head, un cráter tan redondo que parece estampado en la costa. El punto más cercano de Norteamérica continental está a unos 3800 km: es una de las grandes ciudades más remotas de la Tierra.",
+    "w": "Una franja urbana en la costa sur de una isla; un cráter redondo al este y una larga pista sobre el agua al oeste.",
+    "f": [
+      "Diamond Head es un cono de toba volcánica; en el siglo XIX, los marinos confundieron los cristales de calcita de sus laderas con diamantes.",
+      "Una de las pistas principales del aeropuerto, la Reef Runway, se construyó sobre relleno encima de un arrecife de coral.",
+      "El nombre Honolulu suele traducirse del hawaiano como «bahía resguardada»."
+    ],
+    "q": {
+      "q": "¿Qué es Diamond Head, en Honolulu?",
+      "a": "Un cráter volcánico extinto",
+      "x": [
+        "Una isla de coral",
+        "Un acantilado marino"
+      ]
+    }
+  },
+  "Q5083": {
+    "t": "Ciudad en un istmo estrecho, con un volcán gigante detrás",
+    "s": "Seattle ocupa una franja delgada y montuosa entre el agua salada del estrecho de Puget y el largo lago Washington, de agua dulce. En un día claro, la vista se la roba el monte Rainier, un volcán cubierto de glaciares de unos 4390 m, a unos 90 km al sureste. La ciudad lleva el nombre de Si’ahl, líder de los pueblos duwamish y suquamish de la zona.",
+    "w": "Una ciudad entre un estrecho como un fiordo y un lago largo; finos puentes flotantes cruzan el lago; al sureste, el cono blanco del Rainier.",
+    "f": [
+      "Los puentes del lago Washington flotan sobre pontones de hormigón; uno es el puente flotante más largo del mundo, de unos 2,3 km.",
+      "La fiebre del oro del Klondike, en 1897, hizo de Seattle el gran puerto donde se equipaban los buscadores rumbo al norte.",
+      "El monte Rainier tiene más hielo glaciar que cualquier otro pico de los Estados Unidos contiguos."
+    ],
+    "q": {
+      "q": "¿Qué volcán se alza al sureste de Seattle?",
+      "a": "El monte Rainier",
+      "x": [
+        "El monte Hood",
+        "El monte Shasta"
+      ]
+    }
+  },
+  "Q16556": {
+    "t": "Una cuadrícula de millas estampada en el desierto de Sonora",
+    "s": "Phoenix es geometría sobre arena: una vasta cuadrícula de avenidas separadas una milla entre sí, estampada sobre un valle desértico y rota por montañas rocosas desnudas. Fíjate en los canales y en los cuadros verdes de regadío. Mucho antes de la ciudad, el pueblo hohokam excavó aquí cientos de kilómetros de canales, y los colonos de la década de 1860 bautizaron su pueblo con el nombre del ave que renace de sus cenizas.",
+    "w": "Una cuadrícula enorme, clara y regular en un desierto pardo, con picos rocosos oscuros que asoman; canales finos y manchas verdes de regadío.",
+    "f": [
+      "Los canales hohokam, excavados más o menos del siglo VII al XV, fueron una de las mayores redes de riego de la Norteamérica precolombina.",
+      "Las tardes de verano aquí suelen superar los 40 °C.",
+      "Camelback Mountain, rodeada de suburbios, debe su nombre a su perfil jorobado, como el lomo de un camello."
+    ],
+    "q": {
+      "q": "¿Por qué recibió Phoenix su nombre?",
+      "a": "Nació sobre ruinas de canales antiguos",
+      "x": [
+        "Hay cerca una montaña con forma de ave",
+        "Su fundador se llamaba Phoenix"
+      ]
+    }
+  },
+  "Q16552": {
+    "t": "Una bahía azul, una lengua de arena y México al lado",
+    "s": "San Diego rodea una bahía larga y resguardada, cerrada al Pacífico por la llana península de Coronado y la alta cresta de Point Loma. Los aviones aterrizan casi entre las torres del centro, en un aeropuerto junto al agua. Los frailes españoles fundaron aquí la primera misión de California en 1769, y la frontera con México está a solo unos 25 km al sur.",
+    "w": "Una bahía curva tras una lengua de arena y una larga cresta; la ciudad cubre mesetas con cañones y se une a Tijuana al sur.",
+    "f": [
+      "En 1542, Juan Rodríguez Cabrillo entró en esta bahía: el primer europeo del que se sabe que llegó a la costa oeste de EE. UU.",
+      "Coronado no es del todo una isla: una fina franja de arena, el Silver Strand, la une al continente."
+    ],
+    "q": {
+      "q": "¿Qué fundaron los frailes españoles en San Diego en 1769?",
+      "a": "La primera misión de California",
+      "x": [
+        "La primera universidad de California",
+        "Una mina de plata"
+      ]
+    }
+  }
+}

@@ -1421,5 +1421,436 @@
         "Lugar de osos"
       ]
     }
+  },
+  "ne-gl-northern-patagonian-ice-field": {
+    "t": "Donde un glaciar toca el mar más cerca del ecuador",
+    "s": "El Campo de Hielo Patagónico Norte es el menor de los dos grandes campos de hielo de la Patagonia, pero aun así cubre con unos 4000 km² los Andes del sur de Chile. Su punto más alto, el monte San Valentín, de unos 4000 m, es la cumbre más alta de la Patagonia. Al oeste, el glaciar San Rafael llega a la laguna San Rafael, abierta al Pacífico, a solo unos 46,7° sur.",
+    "w": "Una meseta helada sobre los Andes del sur de Chile, con glaciares al oeste hacia una laguna lechosa y al este hacia lagos turquesa.",
+    "f": [
+      "Al San Rafael se le suele llamar el glaciar de marea más cercano al ecuador.",
+      "El lago General Carrera, al este del campo de hielo, es el lago más grande de Chile."
+    ],
+    "q": {
+      "q": "¿Cuál es la cumbre más alta del Campo de Hielo Patagónico Norte?",
+      "a": "Monte San Valentín",
+      "x": [
+        "Cerro Fitz Roy",
+        "Cerro Torre"
+      ]
+    }
+  },
+  "ne-gl-penny-ice-cap": {
+    "t": "El casquete de «la tierra que nunca se derrite»",
+    "s": "En la península de Cumberland, en la isla de Baffin, el casquete Penny extiende unos 6000 km² de blanco justo al norte del círculo polar ártico. Es el corazón del Parque Nacional Auyuittuq, «la tierra que nunca se derrite» en inuktitut. Desde sus bordes, los glaciares se precipitan en hondos valles en U y fiordos, flanqueados por algunos de los acantilados de granito más altos de la Tierra.",
+    "w": "Un ancho casquete blanco que alimenta glaciares hacia valles hondos de paredes empinadas, justo al norte del círculo polar ártico, en Baffin.",
+    "f": [
+      "El monte Thor, en el parque, tiene una de las paredes verticales más altas de la Tierra, de unos 1250 m.",
+      "El paso de Akshayuk, una conocida ruta de senderismo, cruza la península bajo el hielo."
+    ],
+    "q": {
+      "q": "¿Qué significa Auyuittuq en inuktitut?",
+      "a": "La tierra que nunca se derrite",
+      "x": [
+        "La tierra de los osos",
+        "La gran muralla blanca"
+      ]
+    }
+  },
+  "ne-gl-prince-of-wales-icefield": {
+    "t": "Un vasto manto de hielo en Ellesmere, frente a Groenlandia",
+    "s": "El campo de hielo Príncipe de Gales se extiende por el lado oriental del centro de la isla de Ellesmere: unos 20 000 km² de hielo, más que muchos países pequeños. Al otro lado de los canales, al este, está Groenlandia. Bajo el ala se abre una inmensa meseta blanca partida por glaciares que serpentean hasta el mar y sueltan icebergs en estrechos atascados de hielo.",
+    "w": "Una inmensa meseta blanca en el este de Ellesmere, con glaciares que serpentean hacia los canales marinos que la separan de Groenlandia.",
+    "f": [
+      "Es uno de los mayores campos de hielo del Ártico canadiense.",
+      "El estrecho de Smith y el estrecho de Nares, frente a su lado este, unen la bahía de Baffin con el océano Ártico."
+    ],
+    "q": {
+      "q": "¿Qué tierra está al otro lado del estrecho, al este de este campo de hielo?",
+      "a": "Groenlandia",
+      "x": [
+        "Isla de Baffin",
+        "Isla Devon"
+      ]
+    }
+  },
+  "ne-gl-sargent-icefield": {
+    "t": "Glaciares que se vierten en el estrecho Príncipe Guillermo",
+    "s": "En el este de la península de Kenai, el campo de hielo Sargent cubre las montañas sobre el laberinto de fiordos e islas del estrecho del Príncipe Guillermo. Sus glaciares bajan por valles empinados hasta el mismo mar y sueltan icebergs en ensenadas verdes y tranquilas. Algunos tienen nombres inesperados: el glaciar Princeton, por ejemplo, se bautizó en 1909 en honor a la universidad.",
+    "w": "Un campo de hielo blanco sobre un laberinto de fiordos e islas boscosas, con glaciares que terminan al borde del agua.",
+    "f": [
+      "Debe su nombre a Rufus Harvey Sargent, cartógrafo del Servicio Geológico de EE. UU. que levantó mapas de la península de Kenai.",
+      "El glaciar Chenega, uno de sus glaciares de desagüe, toma su nombre de la cercana isla Chenega."
+    ],
+    "q": {
+      "q": "¿A qué estrecho van a parar los glaciares del campo de hielo Sargent?",
+      "a": "Estrecho del Príncipe Guillermo",
+      "x": [
+        "Estrecho de Norton",
+        "Estrecho de Kotzebue"
+      ]
+    }
+  },
+  "ne-gl-southern-patagonian-ice-field": {
+    "t": "El mayor hielo del sur fuera de la Antártida",
+    "s": "A lo largo de unos 350 km, los Andes patagónicos desaparecen bajo una única capa de hielo, la mayor del hemisferio sur fuera de la Antártida. En un día claro verás glaciares que fluyen al oeste hacia fiordos del Pacífico y al este hacia lagos argentinos de un turquesa lechoso. Agujas de granito como el Fitz Roy y las Torres del Paine asoman en sus bordes como dientes rotos.",
+    "w": "Una capa blanca continua sobre los Andes, con glaciares que corren al oeste hacia fiordos y al este hacia lagos turquesa como el lago Argentino.",
+    "f": [
+      "El glaciar Perito Moreno, uno de sus glaciares de desagüe, termina en el lago Argentino con un muro de hielo de unos 5 km de ancho.",
+      "El Pío XI, en el lado chileno, es el glaciar más grande de Sudamérica."
+    ],
+    "q": {
+      "q": "¿Qué famoso glaciar de este campo de hielo termina en el lago Argentino?",
+      "a": "Perito Moreno",
+      "x": [
+        "San Rafael",
+        "Pío XI"
+      ]
+    }
+  },
+  "ne-gl-steacie-ice-cap": {
+    "t": "El casquete sur de una isla ártica deshabitada",
+    "s": "La isla Axel Heiberg, al oeste de Ellesmere, lleva dos grandes casquetes de hielo, y el Steacie cubre las tierras altas del sur. Desde la altitud de crucero es una ancha cúpula blanca cuyos glaciares serpentean entre mesetas oscuras de cima plana hacia los fiordos. Nadie vive en la isla: en verano solo salpican sus valles unos pocos campamentos científicos, y en invierno el mar que la rodea se congela por completo.",
+    "w": "Una ancha cúpula blanca sobre el sur de la isla Axel Heiberg, con glaciares que serpentean entre mesetas oscuras hasta los fiordos.",
+    "f": [
+      "Más de una cuarta parte de la isla Axel Heiberg, que mide unos 43 000 km² en total, está cubierta de hielo.",
+      "Varios glaciares del lado oeste de la isla llevan décadas avanzando, al contrario que la tendencia mundial."
+    ],
+    "q": {
+      "q": "¿Junto a qué isla más grande está la isla Axel Heiberg?",
+      "a": "Isla de Ellesmere",
+      "x": [
+        "Isla de Baffin",
+        "Isla Victoria"
+      ]
+    }
+  },
+  "ne-gl-stikine-icecap": {
+    "t": "Un campo de hielo partido por un río salvaje",
+    "s": "En la frontera entre Alaska y la Columbia Británica, cerca de Wrangell y Petersburg, el casquete Stikine cubre de blanco la cordillera Costera. El río Stikine la atraviesa de lado a lado, algo que pocos ríos logran. En el lado de Alaska, el glaciar LeConte llega al mar y suelta icebergs en la bahía LeConte. Busca también el Devils Thumb, una afilada aguja de roca que surge del hielo en la frontera.",
+    "w": "Un ancho campo de hielo blanco en las montañas costeras al este de Petersburg, cortado por un amplio valle fluvial y fiordos llenos de icebergs.",
+    "f": [
+      "El LeConte es el glaciar de marea más meridional del hemisferio norte.",
+      "John Muir comparó el valle del Stikine con «un Yosemite de cien millas de largo»."
+    ],
+    "q": {
+      "q": "¿Qué glaciar de aquí es el glaciar de marea más meridional del hemisferio norte?",
+      "a": "Glaciar LeConte",
+      "x": [
+        "Glaciar Mendenhall",
+        "Glaciar Hubbard"
+      ]
+    }
+  },
+  "ne-gl-university-ice-cap": {
+    "t": "Uno de los siete casquetes de una remota isla ártica",
+    "s": "La isla Revolución de Octubre, la mayor de Severnaya Zemlia, lleva siete casquetes de hielo, y el de la Universidad está al sur del mayor, el Karpinski. Su cúpula alcanza unos 800 m. Entre los casquetes, el suelo desnudo es un desierto polar pedregoso, pardo y gris en verano, sin árboles ni arbustos. En invierno, todo se funde con los mares helados en una sola extensión blanca.",
+    "w": "Una cúpula blanca en una gran isla ártica, flanqueada por desierto polar pardo y pedregoso y, al norte, por otros casquetes.",
+    "f": [
+      "Severnaya Zemlia separa el mar de Kara del mar de Láptev.",
+      "El archipiélago no se cartografió hasta 1930–1932, con una expedición de cuatro hombres dirigida por Gueorgui Ushakov."
+    ],
+    "q": {
+      "q": "¿Qué dos mares separa Severnaya Zemlia?",
+      "a": "El de Kara y el de Láptev",
+      "x": [
+        "El de Barents y el de Kara",
+        "El de Láptev y el de Siberia Oriental"
+      ]
+    }
+  },
+  "ne-gl-vatnajokull": {
+    "t": "El gigantesco casquete de Islandia, sentado sobre volcanes",
+    "s": "El Vatnajökull cubre cerca del 8 % de Islandia: unos 7700 km² de hielo de casi un kilómetro de espesor en algunos puntos. Desde arriba es una meseta blanca que derrama lenguas glaciares en todas direcciones, algunas terminadas en lagunas llenas de icebergs cerca de la costa sur. Bajo el hielo hay volcanes activos, como el Grímsvötn y el Bárðarbunga, cuyas erupciones pueden fundir el hielo y desatar riadas repentinas.",
+    "w": "Un vasto casquete blanco en el sureste de Islandia, con lenguas glaciares en abanico y una laguna de icebergs junto a la costa.",
+    "f": [
+      "El Hvannadalshnúkur, en su borde sur, es el pico más alto de Islandia, con unos 2110 m.",
+      "Jökulsárlón, la laguna al pie de uno de sus glaciares, está repleta de icebergs flotantes.",
+      "El Parque Nacional Vatnajökull es Patrimonio de la Humanidad de la UNESCO desde 2019."
+    ],
+    "q": {
+      "q": "¿Qué volcán islandés está bajo el Vatnajökull?",
+      "a": "Grímsvötn",
+      "x": [
+        "Hekla",
+        "Katla"
+      ]
+    }
+  },
+  "ne-gl-vestfonna": {
+    "t": "El gemelo occidental de los grandes casquetes de Svalbard",
+    "s": "Nordaustlandet, la segunda isla de Svalbard, está casi toda envuelta en hielo, repartido entre dos grandes casquetes. Vestfonna, el occidental, cubre unos 2500 km²: una cúpula blanca y baja cruzada por crestas y glaciares de desagüe que terminan en acantilados de hielo en los fiordos. Su hermano mayor, Austfonna, se extiende al este, y juntos hacen que la isla parezca escarchada desde arriba.",
+    "w": "Una cúpula blanca y baja en la mitad occidental de una gran isla cubierta de hielo, al noreste de Spitsbergen.",
+    "f": [
+      "Nordaustlandet no tiene habitantes permanentes y está protegida como reserva natural.",
+      "Las morsas salen a descansar en las playas de las costas de la isla."
+    ],
+    "q": {
+      "q": "¿Cuál es el vecino más grande de Vestfonna en la misma isla?",
+      "a": "Austfonna",
+      "x": [
+        "Holtedahlfonna",
+        "Åsgardfonna"
+      ]
+    }
+  },
+  "Q358755": {
+    "t": "Un enorme volcán nevado con nombre de ave rara",
+    "s": "El monte Takahe es un ancho volcán en escudo que se alza solitario sobre el hielo de la Tierra de Marie Byrd, con 3460 m de altura y un volumen de unos 780 km³. Parece una cúpula blanca de suave curva con un cráter ancho y poco profundo en lo alto. Su última erupción conocida fue hace unos 7500 años, y capas de su ceniza aparecen en los testigos de hielo antárticos.",
+    "w": "Una ancha cúpula nevada, suavemente redondeada, que se alza sola sobre el hielo llano, con un cráter ancho y poco profundo en la cima.",
+    "f": [
+      "Debe su nombre al takahē, un ave rara de Nueva Zelanda que no vuela.",
+      "Su caldera cimera mide unos 8 km de diámetro."
+    ],
+    "q": {
+      "q": "¿A qué debe su nombre el monte Takahe?",
+      "a": "A un ave que no vuela",
+      "x": [
+        "A un barco",
+        "A un montañero"
+      ]
+    }
+  },
+  "Q924312": {
+    "t": "El volcán más alto de la Antártida, con el cráter roto",
+    "s": "El monte Sidley es el más alto de la cordillera Executive Committee, una hilera de volcanes que asoma entre el hielo de la Tierra de Marie Byrd, y con 4285 m es el volcán más alto de la Antártida. Su lado sur está abierto por una caldera de unos 5 km de ancho, un mordisco espectacular en el cono blanco. Richard Byrd lo avistó desde el aire en 1934.",
+    "w": "Un enorme volcán blanco en una hilera norte-sur de conos nevados, con el flanco sur cortado por un cráter enorme.",
+    "f": [
+      "Byrd le puso el nombre de Mabelle Sidley, hija de uno de los patrocinadores de su expedición.",
+      "Es el representante antártico de las «Siete Cumbres Volcánicas», el volcán más alto de cada continente.",
+      "La primera ascensión registrada se hizo en 1990."
+    ],
+    "q": {
+      "q": "¿Cuál es el volcán más alto de la Antártida?",
+      "a": "Monte Sidley",
+      "x": [
+        "Monte Erebus",
+        "Monte Takahe"
+      ]
+    }
+  },
+  "Q3321842": {
+    "t": "Un gigante junto al camino de Amundsen hacia el Polo",
+    "s": "En noviembre de 1911, el grupo de Roald Amundsen subió por el glaciar Axel Heiberg desde la plataforma de Ross hacia la meseta polar, junto a este pico macizo. Amundsen lo bautizó en honor a Fridtjof Nansen, el explorador noruego que le había prestado su barco, el Fram. Con 4069 m es una de las grandes cumbres de los montes de la Reina Maud, muralla de roca y hielo camino del Polo.",
+    "w": "Un pico macizo cubierto de hielo al borde de la plataforma de Ross, junto a un glaciar empinado que sube hacia la meseta polar.",
+    "f": [
+      "Amundsen llegó al Polo Sur el 14 de diciembre de 1911, un mes después de pasar junto a esta montaña.",
+      "El glaciar Axel Heiberg, a su lado, sube unos 3000 m desde la plataforma de hielo hasta la meseta."
+    ],
+    "q": {
+      "q": "¿Quién bautizó el monte Fridtjof Nansen en 1911?",
+      "a": "Roald Amundsen",
+      "x": [
+        "Robert Falcon Scott",
+        "Ernest Shackleton"
+      ]
+    }
+  },
+  "Q19459387": {
+    "t": "La cima que vigila el lago azul de Pangong",
+    "s": "El Kangju Kangri, con 6725 m, es la cumbre más alta de la cordillera de Pangong: una cresta blanca en el alto desierto de Ladakh oriental. Su vecino más llamativo es agua, no roca: a sus pies se extiende el Pangong Tso, un lago estrecho de unos 130 km, a unos 4200 m de altitud. Aun desde 11 km, es una cinta azul inconfundible que pasa del turquesa al azul marino con la luz.",
+    "w": "Una cresta blanca entre montañas pardas y desnudas, junto a un lago largo, estrecho y de un azul intenso que serpentea hacia el este.",
+    "f": [
+      "El Pangong Tso es de agua salobre y, aun así, se congela en invierno.",
+      "El Kangju Kangri se escaló por primera vez en 1983.",
+      "Los habitantes de la orilla sur del lago también llaman al pico Thinguru."
+    ],
+    "q": {
+      "q": "¿Qué largo lago de altura se extiende al pie del Kangju Kangri?",
+      "a": "Pangong Tso",
+      "x": [
+        "Tso Moriri",
+        "Namtso"
+      ]
+    }
+  },
+  "Q28794266": {
+    "t": "La «montaña blanca» del Kunlun central",
+    "s": "Aktag significa «montaña blanca» en lenguas túrquicas, un nombre sencillo para una cumbre remota del Kunlun, la larga cordillera que separa la meseta tibetana de la cuenca del Tarim. Con 6748 m está entre los picos más altos del Kunlun, en uno de los rincones menos visitados de Asia. Busca un macizo blanco sobre crestas de color caqui, con las arenosas tierras bajas del Tarim lejos, al norte.",
+    "w": "Un macizo blanco que surge de crestas desnudas de color caqui, con las pálidas tierras bajas desérticas del Tarim lejos, al norte.",
+    "f": [
+      "El Kunlun se extiende más de 2000 km por el borde norte de la meseta tibetana.",
+      "Al norte de la cordillera está el Taklamakán, uno de los mayores desiertos de arena del mundo."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre túrquico Aktag?",
+      "a": "Montaña blanca",
+      "x": [
+        "Lago azul",
+        "Roca roja"
+      ]
+    }
+  },
+  "ne-pk-1159105667": {
+    "t": "El gigante sagrado que rodea el río Amarillo",
+    "s": "El Amne Machin es la montaña sagrada de los tibetanos golog: un ancho macizo de hielo que se eleva a 6282 m sobre las praderas de Qinghai. El río Amarillo, recién salido de su fuente, traza un gran bucle alrededor de la cordillera antes de girar al norte. Los peregrinos le dan la vuelta a pie en un largo circuito. Desde el aire, la referencia es una cresta blanca de glaciares entre altos pastos verdes.",
+    "w": "Un ancho macizo de hielo entre praderas onduladas verdes y pardas, con un gran río que lo rodea en una amplia curva.",
+    "f": [
+      "Algunos exploradores de principios del siglo XX creyeron que podía rivalizar con el Everest; las mediciones modernas le dan 6282 m.",
+      "Amne significa «abuelo» en el dialecto local de Amdo, un título honorífico para la deidad protectora de la montaña."
+    ],
+    "q": {
+      "q": "¿Qué gran río traza un bucle alrededor de la cordillera Amne Machin?",
+      "a": "El río Amarillo",
+      "x": [
+        "El Yangtsé",
+        "El Mekong"
+      ]
+    }
+  },
+  "Q724367": {
+    "t": "El pico más alto de Siberia, blanco y de dos cimas",
+    "s": "El Belujá es la montaña más alta del Altái y de toda Siberia, con 4506 m, a caballo de la frontera entre Rusia y Kazajistán. Su nombre viene de su blancura: dos cumbres nevadas unidas por un collado, cubiertas de glaciares que alimentan el Katún, uno de los ríos que forman el Obi. Su corona de un blanco brillante destaca sobre crestas más bajas y verdes y lagos turquesa.",
+    "w": "Un macizo blanco de dos cumbres sobre valles verdes y lagos turquesa, en la frontera entre Rusia y Kazajistán, en el Altái.",
+    "f": [
+      "El río Katún nace en el glaciar Gebler, en la vertiente sur del Belujá.",
+      "Los hermanos Trónov hicieron la primera ascensión a la cima este en 1914.",
+      "El Belujá forma parte de las Montañas Doradas de Altái, Patrimonio de la Humanidad de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué río nace en los glaciares del Belujá?",
+      "a": "Katún",
+      "x": [
+        "Yeniséi",
+        "Irtish"
+      ]
+    }
+  },
+  "Q4062402": {
+    "t": "Un macizo de hielo solitario en el extremo oeste del Tíbet",
+    "s": "Lejos, en las tierras altas y secas del oeste del Tíbet, el macizo de Nganglong se eleva hasta unos 6720 m: un nudo de hielo con más de 40 picos de más de 6000 m. Está a unos 85 km al este-noreste de la ciudad de Ali, en una tierra de llanuras de grava y lagos salados. Lo que ves es un grupo de cumbres blancas y glaciares en medio de un vasto paisaje pardo.",
+    "w": "Un grupo de cumbres blancas y glaciares en unas vastas tierras altas pardas de llanuras de grava, al noreste de la ciudad de Ali.",
+    "f": [
+      "El macizo tiene 37 glaciares, dos de ellos de más de 6 km de largo.",
+      "Los mapas chinos modernos le dan unos 6720 m, aunque fuentes antiguas aún citan 7315 m."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está unos 85 km al oeste-suroeste del macizo de Nganglong?",
+      "a": "Ali",
+      "x": [
+        "Lhasa",
+        "Shigatse"
+      ]
+    }
+  },
+  "Q5530346": {
+    "t": "Donde nace el Yangtsé, en el hielo del Tíbet",
+    "s": "El río más largo de Asia empieza aquí. El agua de deshielo de los glaciares del Geladaindong, el pico más alto de los montes Tanggula, con 6621 m, se reúne en el río Tuotuo, la fuente tradicional del Yangtsé. Desde estas tierras altas, frías y vacías, el agua recorrerá más de 6000 km hasta el mar en Shanghái. Busca un macizo blanco de glaciares sobre arroyos trenzados y plateados en la meseta parda.",
+    "w": "Un macizo blanco de glaciares sobre arroyos plateados y trenzados que se abren por la meseta parda del Tíbet central.",
+    "f": [
+      "El glaciar Jianggendiru, en su flanco suroeste, suele citarse como la fuente del Yangtsé.",
+      "Al este del pico, el ferrocarril Qinghái-Tíbet cruza los montes Tanggula a unos 5070 m."
+    ],
+    "q": {
+      "q": "¿Qué gran río nace en los glaciares del Geladaindong?",
+      "a": "Yangtsé",
+      "x": [
+        "Río Amarillo",
+        "Mekong"
+      ]
+    }
+  },
+  "Q2102394": {
+    "t": "Un remoto pico de hielo del Karakórum oriental",
+    "s": "Esta cumbre del Karakórum oriental, cartografiada con 6934 m y conocida como Shahi Kangri, se alza sobre el alto valle del Shyok, en Ladakh, al oeste de las llanuras altas y vacías de Aksai Chin. Es un mundo de hielo y roca desnuda: los glaciares bajan entre crestas pardas y, abajo, el Shyok trenza su lecho de grava. Al sur se eleva el grupo del Saser Kangri, más alto.",
+    "w": "Glaciares y crestas blancas sobre un valle fluvial gris y trenzado, con mesetas pardas y desnudas que se extienden hacia el este.",
+    "f": [
+      "El Saser Kangri I, la cumbre más alta del vecino grupo Saser, alcanza unos 7670 m.",
+      "El río Shyok, que corre abajo, es un gran afluente del Indo."
+    ],
+    "q": {
+      "q": "¿De qué río es afluente el Shyok, que corre bajo este pico?",
+      "a": "Indo",
+      "x": [
+        "Ganges",
+        "Brahmaputra"
+      ]
+    }
+  },
+  "Q2118899": {
+    "t": "El mayor campo de hielo del norte vacío del Tíbet",
+    "s": "En el corazón del Changtang, el norte alto, frío y casi vacío del Tíbet, el Purog Kangri se eleva a 6929 m sobre una cúpula de hielo de unos 400 km². Es el mayor campo de hielo del norte de la meseta tibetana. Desde arriba parece una estrella de mar blanca sobre una llanura parda, con brazos glaciares que se estiran hacia lagos someros y salares.",
+    "w": "Un campo de hielo blanco en forma de estrella, con lóbulos glaciares radiales sobre la meseta parda, rodeado de lagos y salares.",
+    "f": [
+      "En 2000, científicos chinos y estadounidenses perforaron aquí testigos de hielo; el más largo tenía 213 m.",
+      "El campo de hielo contiene unos 52 km³ de hielo."
+    ],
+    "q": {
+      "q": "¿En qué remota región del Tíbet está el Purog Kangri?",
+      "a": "El Changtang",
+      "x": [
+        "Kham",
+        "Amdo"
+      ]
+    }
+  },
+  "Q4848635": {
+    "t": "La corona sin escalar de una cordillera tibetana oculta",
+    "s": "En el sureste del Tíbet, húmedo y profundamente tallado, se alza la cordillera Kangri Garpo, y el Bairiga, de 6882 m, es su pico más alto. Nunca se ha escalado. La cordillera era tan poco conocida que, hasta 2009, no se había alcanzado ninguna de sus 47 cumbres de más de 6000 m. Espera ver una cadena de picos blancos que alimentan largos glaciares, con lenguas que bajan hacia valles oscuros y boscosos.",
+    "w": "Una cadena de picos blancos con largos glaciares que bajan hacia valles oscuros y boscosos, en el sureste del Tíbet.",
+    "f": [
+      "El botánico y explorador Frank Kingdon-Ward fotografió el pico en 1933, cuando se le conocía como Choembo.",
+      "El glaciar Lhagu, el mayor de la cordillera, mide unos 30 km."
+    ],
+    "q": {
+      "q": "¿De qué cordillera es el Bairiga el pico más alto?",
+      "a": "Kangri Garpo",
+      "x": [
+        "Nyenchen Tanglha",
+        "Gangdise"
+      ]
+    }
+  },
+  "Q572801": {
+    "t": "Una montaña modesta con un clima famoso por lo salvaje",
+    "s": "Con 1917 m, el monte Washington es pequeño a escala mundial, pero es el pico más alto del noreste de EE. UU. y su clima tiene mala fama. Sobre la cordillera Presidential convergen borrascas de varias direcciones, y en abril de 1934 los observadores de la cumbre midieron una racha de 372 km/h. Busca una cresta desnuda sobre los bosques oscuros de Nuevo Hampshire, blanca de nieve de octubre a mayo casi todos los años.",
+    "w": "Una cresta gris y pelada sobre bosque oscuro sin fin, en el norte de Nuevo Hampshire; la más alta de una cadena de cimas desnudas.",
+    "f": [
+      "La racha de 1934, de 231 mph, fue el viento más fuerte medido en el mundo durante más de 60 años.",
+      "El tren cremallera del monte Washington, inaugurado en 1869, fue el primer tren cremallera de montaña del mundo.",
+      "El clima extremo deja aquí el límite del bosque en solo unos 1300 m."
+    ],
+    "q": {
+      "q": "¿Qué récord batió la cumbre del monte Washington en 1934?",
+      "a": "La racha de viento más fuerte medida",
+      "x": [
+        "La temperatura más baja",
+        "La mayor nevada"
+      ]
+    }
+  },
+  "Q1858056": {
+    "t": "La meta del sendero de los Apalaches",
+    "s": "El Katahdin se alza solitario entre los bosques y lagos del norte de Maine: un macizo de granito de 1606 m con una cima desnuda sembrada de bloques. Su nombre significa «la montaña más grande» en la lengua penobscot. Para los senderistas es el extremo norte del sendero de los Apalaches, que recorre unos 3500 km desde Georgia. Busca su meseta cimera gris y sus aristas afiladas sobre bosques verde oscuro.",
+    "w": "Un macizo de granito gris y solitario que surge de un bosque oscuro salpicado de incontables lagos, en el norte de Maine.",
+    "f": [
+      "Henry David Thoreau subió hacia su cima en 1846 y lo contó en Los bosques de Maine.",
+      "El exgobernador Percival Baxter compró las tierras que lo rodean y se las regaló a Maine como parque.",
+      "El extremo sur del sendero es el monte Springer, en Georgia."
+    ],
+    "q": {
+      "q": "¿Qué sendero de gran recorrido termina en el Katahdin?",
+      "a": "Sendero de los Apalaches",
+      "x": [
+        "Pacific Crest Trail",
+        "Continental Divide Trail"
+      ]
+    }
+  },
+  "Q748355": {
+    "t": "Un volcán solitario que reina en el norte de California",
+    "s": "El monte Shasta se alza solo: un enorme cono blanco que se eleva unos 3000 m sobre las tierras del norte de California. Con 4322 m es el segundo pico más alto de la cordillera de las Cascadas y el mayor de sus estratovolcanes en volumen. Busca un cono más pequeño, el Shastina, que abomba su flanco oeste; en un día claro, la pareja se ve desde mucho más de 100 km.",
+    "w": "Un cono volcánico blanco y solitario con otro más pequeño en su hombro oeste, muy por encima de mesetas boscosas.",
+    "f": [
+      "El Shastina, su cono satélite, estaría por sí solo entre los volcanes más altos de las Cascadas.",
+      "Su glaciar Whitney es el glaciar más largo de California."
+    ],
+    "q": {
+      "q": "¿Cómo se llama el cono satélite del Shasta?",
+      "a": "Shastina",
+      "x": [
+        "Pico Lassen",
+        "Black Butte"
+      ]
+    }
   }
 }

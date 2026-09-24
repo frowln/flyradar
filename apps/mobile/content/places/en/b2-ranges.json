@@ -1906,5 +1906,336 @@
         "Arroyos"
       ]
     }
+  },
+  "Q60064": {
+    "t": "A volcanic arm reaching out towards the Aleutians",
+    "s": "The Alaska Peninsula stretches about 800 km south-west from the mainland, a rugged arm of volcanoes, lakes and tundra that leads into the Aleutian chain. From above, snowy cones rise one after another along its spine. In Katmai, in 1912, Novarupta produced the largest volcanic eruption of the 20th century, filling a valley with ash that steamed for years.",
+    "w": "A long, narrow arm of tundra and big lakes with a spine of snow-capped volcanoes, between the Pacific and Bristol Bay.",
+    "f": [
+      "The 1912 eruption created the Valley of Ten Thousand Smokes, named for its countless steaming vents.",
+      "Brooks Falls in Katmai National Park is famous for brown bears catching leaping salmon.",
+      "Aniakchak, a caldera about 10 km across, is one of the least-visited national monuments in the US."
+    ],
+    "q": {
+      "q": "Which valley was created by the 1912 Novarupta eruption?",
+      "a": "The Valley of Ten Thousand Smokes",
+      "x": [
+        "Death Valley",
+        "The Valley of Geysers"
+      ]
+    }
+  },
+  "Q812": {
+    "t": "A low limestone peninsula brimming with water",
+    "s": "Florida is one of the flattest places in the United States — its highest point is just 105 m above sea level — and from above it seems as much water as land. Countless round lakes dot the centre, Lake Okeechobee shines like a coin in the south, and below it the Everglades spread as a vast, slow-moving river of grass. Long sandy barrier islands line both coasts.",
+    "w": "Flat green land freckled with round lakes, the big disc of Lake Okeechobee, and thin white barrier islands along both coasts.",
+    "f": [
+      "Britton Hill, Florida’s highest point at 105 m, is the lowest state high point in the US.",
+      "The Everglades are a shallow sheet of water creeping south through sawgrass, often called a “river of grass”.",
+      "Many of central Florida’s round lakes are sinkholes in the limestone beneath."
+    ],
+    "q": {
+      "q": "What are the Everglades often called?",
+      "a": "A river of grass",
+      "x": [
+        "A sea of reeds",
+        "A forest on water"
+      ]
+    }
+  },
+  "Q213237": {
+    "t": "Patagonia’s axe-head peninsula, a nursery for whales",
+    "s": "On the map Península Valdés looks like an axe head attached to the coast of Patagonia by a thin handle, the Carlos Ameghino Isthmus. The gulfs on either side, San José and Nuevo, are sheltered nurseries where southern right whales gather to calve from about June to December. The land itself is flat, dry steppe, with white salt pans in the middle.",
+    "w": "A roughly square peninsula of pale brown steppe on a narrow neck, with sheltered gulfs on either side and white salt pans inside.",
+    "f": [
+      "Península Valdés is a UNESCO World Heritage Site for its marine mammals.",
+      "At Punta Norte, orcas deliberately beach themselves to snatch sea lion pups from the shore."
+    ],
+    "q": {
+      "q": "Which whales gather to calve in the gulfs of Valdés?",
+      "a": "Southern right whales",
+      "x": [
+        "Humpback whales",
+        "Sperm whales"
+      ]
+    }
+  },
+  "Q858306": {
+    "t": "China’s rocky thumb between the Bohai and the Yellow Sea",
+    "s": "The Shandong Peninsula juts east like a thumb between the Bohai Sea and the Yellow Sea, pointing towards Korea. From above it is a patchwork of orchards and fields on rolling hills, with granite mountains near the coast and busy port cities strung along it. Qingdao sits on its southern shore beside the almost enclosed Jiaozhou Bay, crossed by one of the world’s longest sea bridges.",
+    "w": "A hilly peninsula of fields and orchards between two seas, with the rounded Jiaozhou Bay and Qingdao on the southern coast.",
+    "f": [
+      "Laoshan, a granite mountain near Qingdao, rises about 1,130 m straight from the sea and is famous for its Taoist temples.",
+      "Qingdao’s famous brewery was founded in 1903.",
+      "The Jiaozhou Bay Bridge runs for about 26 km over the water."
+    ],
+    "q": {
+      "q": "Which city lies on Jiaozhou Bay?",
+      "a": "Qingdao",
+      "x": [
+        "Dalian",
+        "Tianjin"
+      ]
+    }
+  },
+  "Q131377": {
+    "t": "Red dunes meeting a cold, foggy ocean",
+    "s": "The Namib may be the oldest desert on Earth, dry for tens of millions of years. In its central sand sea, around Sossusvlei, the dunes rise over 300 m and glow brick-red in low sun, lined up in rows that run almost to the Atlantic. The cold ocean current brings fog instead of rain, and beetles, lizards and plants survive by drinking it.",
+    "w": "Endless rows of red-orange dunes running towards the coast, pale clay pans between them, and a white line of surf and fog.",
+    "f": [
+      "The Namib Sand Sea is a UNESCO World Heritage Site.",
+      "In Deadvlei, a white clay pan among the dunes, stand camel thorn trees that died centuries ago.",
+      "Fog-basking beetles tilt their backs into the wind so that droplets roll down into their mouths."
+    ],
+    "q": {
+      "q": "Where does the Namib get most of its moisture?",
+      "a": "Fog from the cold Atlantic",
+      "x": [
+        "Summer monsoon rain",
+        "Melting mountain snow"
+      ]
+    }
+  },
+  "Q14314106": {
+    "t": "Egypt’s great desert of oases and white chalk towers",
+    "s": "West of the Nile, Egypt is almost all desert: flat sand and stone plains broken by deep depressions, where oases such as Siwa, Bahariya, Farafra, Dakhla and Kharga drink from ancient groundwater. From above, look for green specks of fields and palm groves in these basins. Near Farafra lies the White Desert, where the wind has carved chalk into mushroom-shaped towers.",
+    "w": "Endless beige plains and escarpments, deep basins with green specks of oasis farms, and in places dazzling white chalk ground.",
+    "f": [
+      "The Qattara Depression in the north drops to about 133 m below sea level, one of the lowest points in Africa.",
+      "The oases draw on the Nubian Sandstone Aquifer, one of the largest stores of fossil groundwater on Earth."
+    ],
+    "q": {
+      "q": "What carved the White Desert’s mushroom-shaped rocks?",
+      "a": "The wind",
+      "x": [
+        "Glaciers",
+        "An ancient river"
+      ]
+    }
+  },
+  "Q464909": {
+    "t": "The Nile’s great bend through a stony desert",
+    "s": "East of the Nile in northern Sudan lies the Nubian Desert, an almost rainless plain of sandstone and granite crossed by dry wadis. From above, the most striking sight is the Nile itself: a thin green ribbon looping through the desert in a huge S-shaped bend. Along its banks stand the pyramids of Meroë and of Nubia’s other ancient kingdoms.",
+    "w": "A flat, pale stony plain with dark hills and dry wadis; to the west, the Nile’s green ribbon winding through a great bend.",
+    "f": [
+      "Sudan has more pyramids than Egypt, many of them at Meroë.",
+      "The railway from Wadi Halfa to Abu Hamad, built in the late 1890s, runs almost straight across the desert."
+    ],
+    "q": {
+      "q": "Which ancient Nubian city is famous for its steep pyramids?",
+      "a": "Meroë",
+      "x": [
+        "Aksum",
+        "Carthage"
+      ]
+    }
+  },
+  "Q326896": {
+    "t": "Endless parallel red dunes in Australia’s north-west",
+    "s": "From the air the Great Sandy Desert looks combed: long, straight red dunes run side by side for hundreds of kilometres, separated by corridors of pale spinifex grass. It is one of the emptiest parts of Australia, home mainly to Aboriginal communities. Near its northern edge lies Wolfe Creek Crater, a near-perfect ring about 900 m across.",
+    "w": "Long, straight, parallel red dune ridges with pale grey-green spinifex between them, and the occasional white salt lake.",
+    "f": [
+      "Wolfe Creek Crater is one of the best-preserved meteorite craters on Earth.",
+      "Australia’s dunes line up with the prevailing winds, forming a giant swirl around the centre of the continent."
+    ],
+    "q": {
+      "q": "What made Wolfe Creek Crater?",
+      "a": "A meteorite impact",
+      "x": [
+        "A volcanic eruption",
+        "A collapsed cave"
+      ]
+    }
+  },
+  "Q145165": {
+    "t": "Australia’s largest desert, red sand under blue-green scrub",
+    "s": "Australia’s largest desert covers some 350,000 km² — more than Italy. Yet it is far from bare: from above, its red dunes and sandhills are speckled with grey-green spinifex, mulga and mallee eucalypts. Dazzling white salt lakes mark its edges, and to the south the land flattens into the treeless Nullarbor Plain.",
+    "w": "Red sand ridges speckled with grey-green scrub, scattered white salt lakes, and flat, treeless plain to the south.",
+    "f": [
+      "The explorer Ernest Giles named it in 1875 after Queen Victoria.",
+      "The Anangu Pitjantjatjara people have lived in and around this desert for many thousands of years."
+    ],
+    "q": {
+      "q": "Which is Australia’s largest desert?",
+      "a": "The Great Victoria Desert",
+      "x": [
+        "The Simpson Desert",
+        "The Tanami Desert"
+      ]
+    }
+  },
+  "Q172691": {
+    "t": "India’s Great Desert, surprisingly full of people",
+    "s": "The Thar, or Great Indian Desert, spreads across Rajasthan and into Pakistan, a land of wind-rippled dunes, thorn scrub and scattered villages. It is one of the most densely populated deserts in the world. Look for the long green line of the Indira Gandhi Canal cutting through the sand, bringing Himalayan river water to new fields.",
+    "w": "Tawny dunes and scrub dotted with villages, and a straight green corridor of canal and fields cutting across the sand.",
+    "f": [
+      "Jaisalmer, the “Golden City”, is built of yellow sandstone and rises from the desert around a hilltop fort.",
+      "The Indira Gandhi Canal, one of the longest in India, carries water from the Sutlej and Beas rivers into the desert."
+    ],
+    "q": {
+      "q": "Which city in the Thar is known as the Golden City?",
+      "a": "Jaisalmer",
+      "x": [
+        "Jaipur",
+        "Udaipur"
+      ]
+    }
+  },
+  "Q339162": {
+    "t": "A vast stony plain between the Levant and the Euphrates",
+    "s": "Between the green coast of the Levant and the Euphrates valley stretches the Syrian Desert, a vast plain of gravel and basalt rather than sand. From above it is flat and beige, crossed by straight roads, with dark lava fields in the south-west. For millennia caravans crossed it between the Mediterranean and Mesopotamia, stopping at the oasis of Palmyra.",
+    "w": "A flat, featureless beige plain with straight roads and dry wadis, and dark patches of basalt lava fields in the south-west.",
+    "f": [
+      "The Harrat al-Sham basalt field in the south-west is one of the largest volcanic fields in the Middle East.",
+      "Ancient “desert kites” — huge stone-walled traps for hunting gazelles — were first noticed by pilots in the 1920s."
+    ],
+    "q": {
+      "q": "Which ancient caravan city grew in an oasis of the Syrian Desert?",
+      "a": "Palmyra",
+      "x": [
+        "Petra",
+        "Byblos"
+      ]
+    }
+  },
+  "Q172702": {
+    "t": "The Black Sands, and a crater burning for decades",
+    "s": "Karakum means “black sands”, though from above the dunes look tawny-grey, pinned down by saxaul and grass. The desert covers most of Turkmenistan. Near Derweze a gas crater about 70 m wide has been burning for decades, and at night its orange glow is a startling sight. Along the south runs the long green thread of the Karakum Canal.",
+    "w": "Grey-tawny dunes pinned by scrub, the green Karakum Canal to the south, and at night a small orange glow near Derweze.",
+    "f": [
+      "The Karakum Canal, over 1,000 km long, carries Amu Darya water across the desert — one of the world’s longest irrigation canals.",
+      "The Karakum covers about 70% of Turkmenistan."
+    ],
+    "q": {
+      "q": "What does the name Karakum mean?",
+      "a": "Black sands",
+      "x": [
+        "Red sands",
+        "Dry river"
+      ]
+    }
+  },
+  "Q184364": {
+    "t": "The Red Sands between Central Asia’s two great rivers",
+    "s": "Kyzylkum means “red sands”, and the desert fills the land between the Amu Darya and the Syr Darya, the two rivers that once fed the Aral Sea. From above it is a reddish-beige plain of dunes and scrub, broken by bare rocky hills and salt flats. Here too lies Muruntau, one of the largest open-pit gold mines on Earth — a giant grey hole plain to see from the air.",
+    "w": "Reddish-beige dunes and scrub, bare rocky hills and white salt flats, and in places the huge grey stepped pit of the Muruntau mine.",
+    "f": [
+      "The Muruntau gold mine’s open pit is more than 3 km long and hundreds of metres deep.",
+      "Since the 1960s the Aral Sea to the north-west has shrunk dramatically, as river water was taken to irrigate fields."
+    ],
+    "q": {
+      "q": "What does the name Kyzylkum mean?",
+      "a": "Red sands",
+      "x": [
+        "Black sands",
+        "Hungry steppe"
+      ]
+    }
+  },
+  "Q47141": {
+    "t": "The driest place outside the poles, under crystal skies",
+    "s": "Some weather stations in the Atacama have never recorded rain. From above it is a moonscape of salt flats, bare brown ranges and pastel-coloured volcanoes, with the Andes on one side and the cold Pacific on the other. The air is so dry and clear that some of the world’s largest telescopes have been built on its peaks.",
+    "w": "Bare brown and ochre ranges, white salt flats such as the Salar de Atacama, and snow-capped volcanoes along the eastern skyline.",
+    "f": [
+      "The Salar de Atacama is Chile’s largest salt flat and one of the world’s main sources of lithium.",
+      "NASA has tested Mars rovers in the Atacama because its soil is so much like that of Mars.",
+      "ALMA, a giant array of radio telescopes, stands on a plateau at about 5,000 m."
+    ],
+    "q": {
+      "q": "Which metal is extracted in large amounts from the Salar de Atacama?",
+      "a": "Lithium",
+      "x": [
+        "Tin",
+        "Silver"
+      ]
+    }
+  },
+  "Q392250": {
+    "t": "Mexico’s narrow waist, where winds rush between oceans",
+    "s": "Here Mexico narrows to its waist: only about 200 km of land separate the Atlantic from the Pacific. The mountains dip low into a wide gap, and in winter strong northerly winds, the Tehuanos, funnel through it and burst out over the Pacific, whipping up the sea for hundreds of kilometres offshore. Near the Pacific coast, wide, shallow lagoons shine silver.",
+    "w": "A narrow land bridge with low hills in the middle, green lowlands to the north and dry plains and lagoons along the Pacific.",
+    "f": [
+      "The Tehuano winds can blow at more than 100 km/h and are felt far out over the Pacific.",
+      "A railway has linked the two coasts across the isthmus since 1907.",
+      "The isthmus is often taken as the geographical boundary between North and Central America."
+    ],
+    "q": {
+      "q": "About how wide is the Isthmus of Tehuantepec?",
+      "a": "About 200 km",
+      "x": [
+        "About 50 km",
+        "About 600 km"
+      ]
+    }
+  },
+  "Q182139": {
+    "t": "The land bridge that joined two continents",
+    "s": "This slender, S-shaped strip of land joins two continents and parts two oceans. When it rose from the sea about 3 million years ago, animals crossed between the Americas and ocean currents changed course. In the west the Panama Canal cuts through it; in the east the rainforest of the Darién is so wild that the Pan-American Highway stops at its edge.",
+    "w": "A narrow, winding strip of green between two seas: unbroken rainforest in the east, the canal and Gatún Lake in the west.",
+    "f": [
+      "The Panama Canal, opened in 1914, is about 80 km long.",
+      "The Darién Gap is the only break in the Pan-American Highway between Alaska and the far south of South America.",
+      "Because the isthmus curves, the canal runs from the Atlantic in the north-west to the Pacific in the south-east."
+    ],
+    "q": {
+      "q": "In which year did the Panama Canal open?",
+      "a": "1914",
+      "x": [
+        "1869",
+        "1936"
+      ]
+    }
+  },
+  "Q322356": {
+    "t": "The Malay Peninsula’s narrowest neck, between two seas",
+    "s": "At the Kra Isthmus the Malay Peninsula pinches to its narrowest, about 44 km wide, with the Andaman Sea to the west and the Gulf of Thailand to the east. From above you may see both coasts at once: mangrove-fringed estuaries on one side, long sandy beaches on the other, and rubber and oil palm plantations in between. For centuries people have dreamed of cutting a canal here.",
+    "w": "A narrow neck of green hills and plantations with the sea visible on both sides, and the Kra River estuary to the west.",
+    "f": [
+      "A canal across the Kra has been proposed since at least the 17th century, but it has never been built.",
+      "At the narrowest point the Kraburi River forms part of the border between Thailand and Myanmar."
+    ],
+    "q": {
+      "q": "Roughly how wide is the Kra Isthmus at its narrowest?",
+      "a": "About 44 km",
+      "x": [
+        "About 4 km",
+        "About 140 km"
+      ]
+    }
+  },
+  "Q426977": {
+    "t": "Red-clay hills between the Appalachians and the coast",
+    "s": "Between the Blue Ridge and the flat coastal plain lies the Piedmont — literally the “foot of the mountains” — a rolling upland of red clay, pine woods and farms. From above, look for big reservoirs with branching, finger-like arms, such as Lake Hartwell and Lake Thurmond on the Savannah River. At its seaward edge rivers tumble over the Fall Line, where cities like Richmond, Columbia and Augusta grew up.",
+    "w": "Rolling green hills and woods with reddish fields, and large reservoirs with long, branching arms along the rivers.",
+    "f": [
+      "The Fall Line cities grew where river boats could go no further upstream.",
+      "The Piedmont’s red colour comes from iron-rich clay soils.",
+      "Atlanta and Charlotte, two of the largest cities in the American South, stand on the Piedmont."
+    ],
+    "q": {
+      "q": "What does the name Piedmont mean?",
+      "a": "Foot of the mountains",
+      "x": [
+        "Land of red clay",
+        "Between the rivers"
+      ]
+    }
+  },
+  "Q743261": {
+    "t": "Cloud forest tumbling from the Andes to the Amazon",
+    "s": "On the eastern flank of the Bolivian Andes the land drops from icy ridges to steamy lowlands within a few dozen kilometres, and the Yungas fill that slope with cloud forest. From above, look for a wall of dark green veiled in cloud, cut by deep, winding valleys where rivers rush down towards the Amazon basin. Coffee, coca and citrus grow on its terraces.",
+    "w": "Steep, dark-green slopes veiled in cloud, dropping from the snowy Andes to the flat Amazon lowlands and cut by deep valleys.",
+    "f": [
+      "The Yungas descend more than 3,000 m, from the high Andes to the Amazon lowlands.",
+      "Their cloud forests are among the richest on Earth in species, especially orchids and birds."
+    ],
+    "q": {
+      "q": "Where do the Yungas lie?",
+      "a": "On the eastern slopes of the Andes",
+      "x": [
+        "On the Pacific coast",
+        "On the high Altiplano"
+      ]
+    }
   }
 }

@@ -1819,5 +1819,300 @@
         "It never freezes"
       ]
     }
+  },
+  "Q1262967": {
+    "t": "A remote tundra lake in Canada's Barren Lands",
+    "s": "Dubawnt Lake lies deep in the Barren Lands, the treeless tundra west of Hudson Bay, far from any road or town. From above, look at the land around it: long, winding gravel ridges called eskers snake across the tundra, left by rivers that once flowed beneath the ice sheet. Ice often lingers on the lake itself into July.",
+    "w": "A large, irregular lake on the bare tundra of southern Nunavut; look for long, winding esker ridges crossing the land.",
+    "f": [
+      "In 1893 Joseph Tyrrell crossed the Barren Lands by canoe, travelling down the Dubawnt River.",
+      "Its water flows by the Dubawnt and Thelon rivers to Baker Lake and on to Hudson Bay."
+    ],
+    "q": {
+      "q": "What are the long, winding ridges around Dubawnt Lake?",
+      "a": "Eskers",
+      "x": [
+        "Lava flows",
+        "Sand dunes"
+      ]
+    }
+  },
+  "Q1391737": {
+    "t": "A tundra lake near the very centre of Canada",
+    "s": "Baker Lake sits almost at the geographic centre of Canada, on open tundra where the Thelon River ends its long journey from the west. On its shore stands the hamlet of Baker Lake, the only inland community in Nunavut and a well-known centre of Inuit art. Eastward, the long Chesterfield Inlet carries its water to Hudson Bay.",
+    "w": "A broad lake on flat tundra west of Hudson Bay, joined to the bay by the long, narrow Chesterfield Inlet.",
+    "f": [
+      "The hamlet's Inuktitut name, Qamani'tuaq, means roughly “where the river widens”.",
+      "Its artists are known worldwide for prints and colourful wall hangings.",
+      "Chesterfield Inlet runs for about 200 km from the lake to Hudson Bay."
+    ],
+    "q": {
+      "q": "What makes the hamlet of Baker Lake unique in Nunavut?",
+      "a": "It is the only inland community",
+      "x": [
+        "It is the territorial capital",
+        "It is the northernmost town"
+      ]
+    }
+  },
+  "Q68467": {
+    "t": "A long valley lake between two mountain ranges",
+    "s": "Lake Champlain lies in a long valley like a blue ribbon, about 190 km from end to end, with the Adirondacks rising to the west and Vermont's Green Mountains to the east. Samuel de Champlain reached it in 1609 and gave it his name. It drains north: its water leaves through the Richelieu River into Quebec and the St Lawrence.",
+    "w": "A long, narrow north–south lake between the Adirondacks and the Green Mountains, with Burlington on its eastern shore.",
+    "f": [
+      "In 1998 a US law briefly declared it a Great Lake; the label was dropped within weeks.",
+      "Local legend tells of “Champ”, a monster said to live in its depths.",
+      "Its northern tip reaches into Quebec."
+    ],
+    "q": {
+      "q": "What did a 1998 US law briefly declare Lake Champlain to be?",
+      "a": "A Great Lake",
+      "x": [
+        "A national park",
+        "An inland sea"
+      ]
+    }
+  },
+  "Q1089891": {
+    "t": "Where the 1,600-km Churchill River begins",
+    "s": "This long lake in north-western Saskatchewan is where the Churchill River begins its 1,600-km journey east to Hudson Bay. It is joined to its neighbour, Peter Pond Lake, by a narrow channel at the village of Buffalo Narrows. Around it spreads the boreal forest, a dark carpet broken by countless smaller lakes that flash in the sun.",
+    "w": "A long lake in the forests of north-western Saskatchewan, joined at a narrow waist to Peter Pond Lake.",
+    "f": [
+      "The Churchill River was a major highway of the fur trade, linking Hudson Bay with the far north-west.",
+      "The channel at Buffalo Narrows is called the Kisis Channel."
+    ],
+    "q": {
+      "q": "Where does the river flowing out of Churchill Lake end?",
+      "a": "Hudson Bay",
+      "x": [
+        "The Beaufort Sea",
+        "Lake Winnipeg"
+      ]
+    }
+  },
+  "Q1516443": {
+    "t": "The “lake of the marten” in the northern forest",
+    "s": "Lac la Martre — French for “lake of the marten” — sprawls across the forest north-west of Great Slave Lake, its shores ragged with bays and islands. The Tłı̨chǫ community of Whatì, whose name also means “marten lake”, stands on its shore. In winter the lake becomes a flat white plain; in summer, its dark water mirrors the sky.",
+    "w": "A sprawling, many-bayed lake in the forest north-west of Great Slave Lake, scattered with islands.",
+    "f": [
+      "Whatì was itself called Lac La Martre until 1996, when it took back its Tłı̨chǫ name.",
+      "In 2021 an all-season road reached Whatì for the first time."
+    ],
+    "q": {
+      "q": "Which animal is Lac la Martre named after?",
+      "a": "The marten",
+      "x": [
+        "The beaver",
+        "The otter"
+      ]
+    }
+  },
+  "Q12341531": {
+    "t": "Lake Superior's doorway to the Soo Locks",
+    "s": "Whitefish Bay is the funnel at Lake Superior's eastern end: every freighter entering or leaving the lake passes through it, heading for the St Marys River and the Soo Locks at Sault Ste. Marie. From above, look for the sandy hook of Whitefish Point at its north-western tip, with the forested Ontario shore opposite.",
+    "w": "A broad bay at the south-eastern corner of Lake Superior, between Michigan's Upper Peninsula and Ontario.",
+    "f": [
+      "The lighthouse at Whitefish Point, first lit in 1849, is the oldest active light on Lake Superior.",
+      "In spring, thousands of migrating hawks and other birds funnel past Whitefish Point."
+    ],
+    "q": {
+      "q": "Which locks do ships head for after crossing Whitefish Bay?",
+      "a": "The Soo Locks",
+      "x": [
+        "The Welland Canal locks",
+        "The Erie Canal locks"
+      ]
+    }
+  },
+  "Q2211837": {
+    "t": "The notch that gives Michigan's mitten its thumb",
+    "s": "Look at Michigan from above and the Lower Peninsula really is shaped like a mitten — and Saginaw Bay is the gap between the thumb and the fingers. The bay is shallow and warms quickly in summer, when its water can turn greenish. The Saginaw River, draining the largest river basin in Michigan, empties into its head.",
+    "w": "A long bay cutting south-west into Michigan from Lake Huron, between the Thumb and the rest of the Lower Peninsula.",
+    "f": [
+      "Its inner part is only a few metres deep.",
+      "Its shores hold some of the largest coastal wetlands on the Great Lakes."
+    ],
+    "q": {
+      "q": "Saginaw Bay separates the rest of Michigan from which feature?",
+      "a": "The Thumb",
+      "x": [
+        "The Upper Peninsula",
+        "The Keweenaw Peninsula"
+      ]
+    }
+  },
+  "Q2000567": {
+    "t": "Lake Huron's sheltered channel behind Manitoulin",
+    "s": "The North Channel is Lake Huron's quiet back room: a long, sheltered stretch of water tucked between Manitoulin Island and the rocky Ontario shore. Its coast is a maze of stony islands and coves loved by sailors. Near its eastern end, look for the La Cloche hills, whose white quartzite ridges can look like snow even in summer.",
+    "w": "A long channel of Lake Huron between big Manitoulin Island and the mainland, with white-ridged hills near its eastern end.",
+    "f": [
+      "Manitoulin Island, on its southern side, is the largest island in any freshwater lake.",
+      "Killarney Provincial Park protects the white quartzite ridges of the La Cloche Mountains."
+    ],
+    "q": {
+      "q": "Which island separates the North Channel from the rest of Lake Huron?",
+      "a": "Manitoulin Island",
+      "x": [
+        "Isle Royale",
+        "Wolfe Island"
+      ]
+    }
+  },
+  "Q125309": {
+    "t": "A shallow Sahel lake that breathes with the rains",
+    "s": "Lake Chad is less a lake than a vast, shifting marsh at the edge of the Sahara. It is so shallow that its size swings with each rainy season, and since the 1960s it has shrunk to a fraction of its former extent. From above, look for a patchwork of open water, green reed beds and islands, fed from the south by the Chari River.",
+    "w": "A patchwork of open water, green marsh and sandy islands at the southern edge of the Sahara, where four countries meet.",
+    "f": [
+      "The Chari River brings about 90% of its water.",
+      "Chad, Cameroon, Niger and Nigeria all border it.",
+      "Several thousand years ago a vast inland sea, known as Mega-Chad, spread across this basin."
+    ],
+    "q": {
+      "q": "Which river supplies most of Lake Chad's water?",
+      "a": "The Chari",
+      "x": [
+        "The Niger",
+        "The Nile"
+      ]
+    }
+  },
+  "Q503842": {
+    "t": "A turquoise lake with two names and marble caves",
+    "s": "This long lake reaches from the Andes out into the dry Patagonian steppe, its water a vivid glacial turquoise, and it answers to two names: General Carrera in Chile, Buenos Aires in Argentina. On its Chilean shore, waves have carved the Marble Caves, whose swirled stone reflects the blue water. It empties west through the Baker River, Chile's mightiest, to the Pacific.",
+    "w": "A long, vivid turquoise lake running east from the snowy Andes into the dry Patagonian steppe.",
+    "f": [
+      "It is the largest lake in Chile.",
+      "The Marble Caves can be reached only by boat."
+    ],
+    "q": {
+      "q": "What is Lago General Carrera called in Argentina?",
+      "a": "Lago Buenos Aires",
+      "x": [
+        "Lago Argentino",
+        "Lago Nahuel Huapi"
+      ]
+    }
+  },
+  "Q826464": {
+    "t": "A big blue lake beneath a perfect volcanic cone",
+    "s": "Look for Osorno: a snow-capped volcano so symmetrical it is often compared to Fuji, rising to 2,652 m above the eastern shore of Lake Llanquihue. Its neighbour Calbuco, rougher and broader, stands to the south-east. The lake itself is a broad blue sheet ringed by farmland, where German settlers arrived in the 1850s and founded towns such as Frutillar and Puerto Varas.",
+    "w": "A large, roundish blue lake in southern Chile, with the white cone of Osorno volcano on its eastern shore.",
+    "f": [
+      "It is the second-largest lake in Chile.",
+      "Glaciers cap Osorno's summit all year round."
+    ],
+    "q": {
+      "q": "Which volcano rises on Lake Llanquihue's eastern shore?",
+      "a": "Osorno",
+      "x": [
+        "Villarrica",
+        "Lanín"
+      ]
+    }
+  },
+  "Q31845950": {
+    "t": "A “suspended” lake held above the farmland by a dike",
+    "s": "Hongze Lake sits higher than the towns and fields beside it: its water is held back by the old Gaojia Dike along its eastern shore. Some nine hundred years ago there was no big lake here at all. It grew after the Yellow River shifted south and choked the Huai River's route to the sea with silt, and engineers then raised the dike to store the Huai's water.",
+    "w": "A broad, shallow, roughly rounded lake on the flat plain of northern Jiangsu, with a long dike along its eastern side.",
+    "f": [
+      "It is one of China's five largest freshwater lakes.",
+      "The Huai River flows in from the west and leaves towards the Yangtze and the sea."
+    ],
+    "q": {
+      "q": "Why is Hongze called a “suspended” lake?",
+      "a": "Its water sits above nearby land",
+      "x": [
+        "It lies in a mountain crater",
+        "It floats on salt water"
+      ]
+    }
+  },
+  "Q192215": {
+    "t": "Mongolia's “blue pearl”, little sister of Baikal",
+    "s": "Khövsgöl is a long, deep-blue lake in the mountains of northern Mongolia, some 200 km west of Baikal's southern tip — and in a sense its little sister, since its water flows out through the Egiin Gol and Selenga rivers into Baikal. It lies about 1,645 m up, fringed by larch forest, and in winter its ice is often more than a metre thick.",
+    "w": "A long north–south lake of deep blue among forested mountains near Mongolia's northern border, white with ice in winter.",
+    "f": [
+      "It holds about 70% of Mongolia's fresh water.",
+      "Its deepest point is 262 m."
+    ],
+    "q": {
+      "q": "Into which famous lake does Khövsgöl's water eventually flow?",
+      "a": "Lake Baikal",
+      "x": [
+        "Lake Balkhash",
+        "Issyk-Kul"
+      ]
+    }
+  },
+  "Q213769": {
+    "t": "Finland's deepest lake — and Helsinki's tap",
+    "s": "Päijänne is a long, narrow lake stretching north–south for about 120 km through the forests of central Finland. It is the country's deepest, and its clean water supplies Helsinki through a tunnel blasted 120 km through bedrock. In its southern part, look for Pulkkilanharju, a slender gravel ridge left by the ice age that carries a road across the water.",
+    "w": "A long, slender, island-dotted lake running north–south through central Finland, from Jyväskylä towards Lahti.",
+    "f": [
+      "At about 95 m, it is the deepest lake in Finland.",
+      "The Päijänne Water Tunnel has carried water to the Helsinki region since 1982.",
+      "It is the second-largest lake in Finland, after Saimaa."
+    ],
+    "q": {
+      "q": "Which city gets its drinking water from Päijänne by tunnel?",
+      "a": "Helsinki",
+      "x": [
+        "Tampere",
+        "Turku"
+      ]
+    }
+  },
+  "Q504433": {
+    "t": "A lake on the long road of the Congo River",
+    "s": "Lake Mweru is one link in the vast chain of the Congo River system. At its southern end the Luapula River fans out into a swampy green delta; at the north, the Luvua carries the water on towards the Congo. The border between Zambia and the Democratic Republic of the Congo runs down the middle, and fishing villages line both shores.",
+    "w": "A broad lake on the Zambia–Congo border, with a green, swampy delta at its southern end.",
+    "f": [
+      "David Livingstone reached its shores in 1867.",
+      "Its outflow, the Luvua, joins the Lualaba, as the upper Congo is called."
+    ],
+    "q": {
+      "q": "Which great river system does Lake Mweru belong to?",
+      "a": "The Congo",
+      "x": [
+        "The Nile",
+        "The Zambezi"
+      ]
+    }
+  },
+  "Q201843": {
+    "t": "A shallow border lake of lotus and cranes",
+    "s": "Lake Khanka is broad but astonishingly shallow — only a few metres deep — so the wind keeps its water a cloudy, sandy colour. The border between Russia and China crosses it, and on the Chinese side a narrow sand bar walls off a smaller companion lake. Its marshy shores hold nesting cranes and, in summer, pink lotus in bloom.",
+    "w": "A broad, pale, roundish lake on the Russia–China border north of Vladivostok, ringed by flat marshland.",
+    "f": [
+      "Its water drains through the Sungacha River to the Ussuri and on to the Amur.",
+      "Wild lotus, rare this far north, blooms in its bays.",
+      "The wetlands around it are protected on both sides of the border."
+    ],
+    "q": {
+      "q": "Which two countries share Lake Khanka?",
+      "a": "Russia and China",
+      "x": [
+        "Russia and Mongolia",
+        "China and North Korea"
+      ]
+    }
+  },
+  "Q199938": {
+    "t": "The lake that swells as its river runs backwards",
+    "s": "Tonlé Sap does something extraordinary: each rainy season the Mekong rises so high that the river draining this lake reverses and flows back into it. The lake swells to several times its dry-season size, drowning forests and fields in brown water. Floating villages rise and fall with it, and the temples of Angkor lie just north of its shore.",
+    "w": "A large, brown, shallow lake in the heart of Cambodia; much larger in the wet season, with flooded forest around it.",
+    "f": [
+      "Its fish are a main source of protein for millions of Cambodians.",
+      "In the dry season much of it is only about a metre deep.",
+      "Each autumn Cambodia's Water Festival marks the moment the river turns back towards the Mekong."
+    ],
+    "q": {
+      "q": "What happens to the Tonlé Sap River in the rainy season?",
+      "a": "It reverses direction",
+      "x": [
+        "It dries up completely",
+        "It turns salty"
+      ]
+    }
   }
 }
