@@ -263,7 +263,17 @@ export const fr = {
     finishTitle: 'Terminer le vol maintenant ?',
     finishBody: 'Seul ce que vous avez déjà survolé entre dans votre passeport.',
   },
+  facts: {
+    title: 'vu d’en haut',
+    recognise: 'Reconnaissable à environ %{dist} %{unit} depuis l’altitude de croisière',
+    inView: 'Visible par le hublot pendant environ %{d}',
+    overFor: 'Sous vous pendant environ %{d}',
+    aboveSummit: 'Vous passez %{h} %{unit} au-dessus du sommet',
+    cityLights: 'La nuit, ses lumières se voient à environ %{dist} %{unit}',
+  },
   place: {
+    inView: 'visible',
+    closest: 'au plus près',
     notFound: 'Ce lieu ne fait pas partie du paquet de vol.',
     overhead: 'Juste sous l’itinéraire',
     sideDistance: '%{side}, à %{dist} %{unit}',

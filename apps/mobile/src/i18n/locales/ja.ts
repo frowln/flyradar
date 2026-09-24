@@ -262,7 +262,17 @@ export const ja = {
     finishTitle: 'フライトを今すぐ終了しますか？',
     finishBody: 'パスポートに記録されるのは、すでに上空を通過した場所だけです。',
   },
+  facts: {
+    title: '上空から',
+    recognise: '巡航高度から約%{dist}%{unit}先で見分けられます',
+    inView: '窓から見えるのは約%{d}',
+    overFor: '真下を通過するのは約%{d}',
+    aboveSummit: '山頂の%{h}%{unit}上空を通過します',
+    cityLights: '夜は約%{dist}%{unit}先から街の灯りが見えます',
+  },
   place: {
+    inView: '見える時間',
+    closest: '最接近',
     notFound: 'この場所はフライトパッケージに含まれていません。',
     overhead: 'ルートの真下',
     sideDistance: '%{side}、%{dist} %{unit}先',

@@ -58,9 +58,12 @@ export function whatsOutside(pkg: OfflinePackage, now: Now, takeoff: Date | null
       if (t < poi.visibleFrom - 60 || t > poi.visibleTo + 60) continue;
     }
     const weight = sightWeight(poi);
-    // Areas flown over are "below" for as long as the track is inside them.
+    // Areas flown over are "below" for as long as the track is inside them —
+    // not while approaching, which is what the "next" list is for.
     if (poi.side === 'below' && !KIND_RANGE_CATS.has(poi.category)) {
-      below.push({ poi, where: 'below', distanceKm: 0, weight });
+      const from = poi.overFrom ?? poi.passAt ?? poi.visibleFrom ?? 0;
+      const to = poi.overTo ?? poi.visibleTo ?? from;
+      if (t >= from - 30 && t <= to + 30) below.push({ poi, where: 'below', distanceKm: 0, weight });
       continue;
     }
     const sight = viewingSide(now.lat, now.lon, now.heading, poi.lat, poi.lon, altKm);

@@ -10,9 +10,7 @@ import Stamp from '../components/Stamp';
 import SideMark from '../components/SideMark';
 import RouteSketch from '../components/RouteSketch';
 import { markOnboardingComplete } from '../onboardingState';
-import { buildRoute } from '../../src/core/route/profile';
-import { airportByIata } from '../../src/core/data/datasets';
-import { demoRoute, startDemo } from '../../src/core/offline/demo';
+import { demoPreviewRoute, startDemo } from '../../src/core/offline/demo';
 import { t, getLocale } from '../../src/i18n';
 import type { RootStackParamList } from '../../src/navigation/types';
 
@@ -25,23 +23,15 @@ type Nav = NativeStackNavigationProp<RootStackParamList, 'Onboarding'>;
  */
 export default function OnboardingScreen() {
   const nav = useNavigation<Nav>();
-  const { width } = useWindowDimensions();
+  const { width, height } = useWindowDimensions();
+  const artH = Math.max(230, Math.round(height * 0.42));
   const scroller = useRef<ScrollView>(null);
   const [page, setPage] = useState(0);
   const [busy, setBusy] = useState(false);
   const reveal = useReveal();
   const locale = getLocale();
 
-  const route = useMemo(() => {
-    try {
-      const [a, b] = demoRoute(locale);
-      const from = airportByIata(a);
-      const to = airportByIata(b);
-      return from && to ? buildRoute({ from, to }).route : null;
-    } catch {
-      return null;
-    }
-  }, [locale]);
+  const route = useMemo(() => demoPreviewRoute(locale), [locale]);
 
   const panels = [
     {
@@ -49,7 +39,7 @@ export default function OnboardingScreen() {
       title: t('onboard.windowTitle'),
       body: t('onboard.windowBody'),
       art: route ? (
-        <RouteSketch route={route} width={width} height={230} flownS={route[Math.floor(route.length * 0.45)]!.elapsedSeconds} plane={route[Math.floor(route.length * 0.45)]!} />
+        <RouteSketch route={route} width={width} height={artH} flownS={route[Math.floor(route.length * 0.45)]!.elapsedSeconds} plane={route[Math.floor(route.length * 0.45)]!} />
       ) : null
     },
     {
@@ -134,7 +124,7 @@ export default function OnboardingScreen() {
         >
           {panels.map((p) => (
             <View key={p.key} style={{ width }}>
-              <View style={styles.art}>{p.art}</View>
+              <View style={[styles.art, { height: artH }]}>{p.art}</View>
               <Gutter>
                 <Space h={s.x6} />
                 <Display>{p.title}</Display>
@@ -177,7 +167,7 @@ const styles = StyleSheet.create({
   head: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: s.x3 },
   wordmark: { letterSpacing: 3.5 },
   skip: { paddingVertical: s.x1, paddingLeft: s.x4 },
-  art: { height: 230, justifyContent: 'center', borderTopWidth: line.hair, borderBottomWidth: line.hair, borderColor: palette.rule, backgroundColor: palette.void },
+  art: { justifyContent: 'center', borderTopWidth: line.hair, borderBottomWidth: line.hair, borderColor: palette.rule, backgroundColor: palette.void },
   measure: { maxWidth: 360 },
   sideArt: { alignItems: 'center', justifyContent: 'center' },
   sideCol: { alignItems: 'center', width: 130 },

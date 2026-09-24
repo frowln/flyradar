@@ -1,5 +1,5 @@
 /**
- * Shapes of the datasets bundled with the app (`assets/data/*.json`).
+ * Shapes of the datasets bundled with the app (`assets/data/*.skydata`, JSON).
  *
  * They are what lets a flight be prepared with no server at all: airports to
  * pick from, places to show along the route, and country outlines to stamp the

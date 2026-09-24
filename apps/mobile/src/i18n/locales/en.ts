@@ -263,7 +263,17 @@ export const en = {
     finishTitle: 'End the flight now?',
     finishBody: 'Only what you have already flown over goes into your passport.',
   },
+  facts: {
+    title: 'from above',
+    recognise: 'Recognisable from about %{dist} %{unit} away at cruise',
+    inView: 'In the window for about %{d}',
+    overFor: 'Below you for about %{d}',
+    aboveSummit: 'You pass %{h} %{unit} above the summit',
+    cityLights: 'At night its lights carry about %{dist} %{unit}',
+  },
   place: {
+    inView: 'in view',
+    closest: 'closest',
     notFound: 'This place is not in the flight package.',
     overhead: 'Directly below the route',
     sideDistance: 'On the %{side}, %{dist} %{unit} away',

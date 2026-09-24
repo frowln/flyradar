@@ -18,6 +18,7 @@ import { useSession } from '../../src/core/flight/session';
 import { positionNow } from '../../src/core/flight/position';
 import { placeName, placeText, countryName } from '../../src/core/places/names';
 import { describePlace } from '../../src/core/places/describe';
+import { placeFacts, inViewSeconds } from '../../src/core/places/facts';
 import { canOpenPlace, notePlaceOpened, fullAccess } from '../../src/core/monetization/entitlement';
 import { MONETIZATION_ENABLED } from '../../src/core/monetization/revenueCat';
 import { getRecords } from '../../src/core/game/journal';
@@ -183,16 +184,20 @@ export default function PlaceScreen() {
 
   const name = placeName(poi, locale);
   const text = placeText(poi, locale);
+  const facts = placeFacts(poi, pkg);
   const locked =
     MONETIZATION_ENABLED &&
     !fullAccess(getRecords().filter((r) => r.flightId !== flightId).length === 0) &&
     !canOpenPlace(flightId, poi.id);
   const photo = poi.photos[0];
+  const seen = inViewSeconds(poi);
+  const closest = km(poi.closestApproachKm ?? 0);
   const cells = [
     poi.elevation ? (() => { const m = metres(poi.elevation); return { value: m.value, label: `${t('place.elevation')} · ${t(`unit.${m.unit}`)}` }; })() : null,
     poi.population ? { value: formatInt(poi.population), label: t('place.population') } : null,
     poi.extentKm && !poi.population ? (() => { const k = km(poi.extentKm * 2); return { value: k.value, label: `${t('place.extent')} · ${t(`unit.${k.unit}`)}` }; })() : null,
-    poi.country ? { value: poi.country, label: t('place.country') } : null
+    poi.side !== 'below' && poi.closestApproachKm != null ? { value: closest.value, label: `${t('place.closest')} · ${t(`unit.${closest.unit}`)}` } : null,
+    seen && seen >= 60 ? { value: clock(seen), label: t('place.inView') } : null
   ].filter(Boolean) as { value: string; label: string }[];
 
   return (
@@ -261,9 +266,30 @@ export default function PlaceScreen() {
                   <Space h={s.x2} />
                 </>
               ) : null}
-              <BodyLarge style={styles.measure}>{text.summary || describePlace(poi, locale)}</BodyLarge>
+              {text.summary ? (
+                <BodyLarge style={styles.measure}>{text.summary}</BodyLarge>
+              ) : cells.length === 0 ? (
+                <BodyLarge style={styles.measure}>{describePlace(poi, locale)}</BodyLarge>
+              ) : null}
             </Gutter>
           )}
+
+          {facts.length > 0 ? (
+            <View style={styles.facts}>
+              <Gutter>
+                <Label tone="dim">{t('facts.title')}</Label>
+              </Gutter>
+              <Space h={s.x2} />
+              {facts.map((f) => (
+                <View key={f} style={styles.factRow}>
+                  <View style={styles.factPip} />
+                  <Body tone="muted" style={styles.flex}>
+                    {f}
+                  </Body>
+                </View>
+              ))}
+            </View>
+          ) : null}
 
           <Space h={s.x8} />
           <Rule />
@@ -358,6 +384,16 @@ const styles = StyleSheet.create({
   seeItPressed: { backgroundColor: palette.lifted },
   seeItHint: { marginTop: s.x1, textAlign: 'center' },
   row: { flexDirection: 'row', alignItems: 'center', gap: s.x3, paddingHorizontal: gutter, paddingVertical: s.x4 },
+  facts: { marginTop: s.x8 },
+  factRow: {
+    flexDirection: 'row',
+    gap: s.x3,
+    paddingHorizontal: gutter,
+    paddingVertical: s.x3,
+    borderTopWidth: line.hair,
+    borderTopColor: palette.ruleSoft
+  },
+  factPip: { width: 4, height: 4, borderRadius: 2, backgroundColor: palette.amber, marginTop: 9 },
   statusMask: { position: 'absolute', top: 0, left: 0, right: 0, backgroundColor: palette.ground },
   backFloat: { position: 'absolute', left: 0, right: 0 },
   spreadTop: { justifyContent: 'space-between', paddingHorizontal: gutter },

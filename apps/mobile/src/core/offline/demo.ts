@@ -2,9 +2,12 @@ import type { OfflinePackage } from '@skyatlas/shared';
 import { composePackage } from './buildPackage';
 import { savePackage } from './packageStore';
 import { enrichWithWikipedia } from '../places/wiki';
-import { airportByIata, getAreas, getCountries, getPlaces } from '../data/datasets';
+import { airportByIata, ensureDatasets, getAreas, getCountries, getPlaces } from '../data/datasets';
 import { takeOff } from '../flight/controller';
 import { formatClock, localDate } from '../time/zones';
+import { buildRoute } from '../route/profile';
+import { closedCountries, planAround } from '../route/airspace';
+import type { RoutePoint } from '@skyatlas/shared';
 
 /**
  * A short flight that starts now, so the product can be felt without a ticket.
@@ -27,7 +30,22 @@ export function demoRoute(locale: string): [string, string] {
   return ROUTES[locale.slice(0, 2)] ?? ROUTES['default']!;
 }
 
+/** The demo route as it will be flown — detours included — for illustrations. */
+export function demoPreviewRoute(locale: string): RoutePoint[] | null {
+  try {
+    const [a, b] = demoRoute(locale);
+    const from = airportByIata(a);
+    const to = airportByIata(b);
+    if (!from || !to) return null;
+    const detour = planAround(from, to, closedCountries({ fromCC: from.cc, toCC: to.cc }), getCountries());
+    return buildRoute({ from, to, via: detour.via }).route;
+  } catch {
+    return null;
+  }
+}
+
 export async function startDemo(locale: string): Promise<OfflinePackage> {
+  await ensureDatasets();
   const [fromCode, toCode] = demoRoute(locale);
   const from = airportByIata(fromCode);
   const to = airportByIata(toCode);

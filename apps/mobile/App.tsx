@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
@@ -31,12 +31,19 @@ import { initAnalytics } from './src/core/analytics';
 import { initRevenueCat, MONETIZATION_ENABLED } from './src/core/monetization/revenueCat';
 import { refreshPro } from './src/core/monetization/entitlement';
 import { installPreview } from './src/preview/fixtures';
+import { ensureDatasets } from './src/core/data/datasets';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
 settings.markInstalled();
 initSentry();
 initAnalytics();
-installPreview();
+
+// Airports, places and country outlines are read before the first screen, so
+// every screen can use them synchronously. A failure still opens the app: the
+// screens that need the data show their own error.
+const boot = ensureDatasets()
+  .catch(() => {})
+  .then(() => installPreview());
 
 function App() {
   const [fontsLoaded, fontError] = useFonts({
@@ -57,6 +64,11 @@ function App() {
   // on `fontsLoaded` leaves the splash screen up forever when a face fails to
   // load; degrading to system fonts is far better than a permanently blank app.
   const fontsSettled = fontsLoaded || fontError != null;
+  const [booted, setBooted] = useState(false);
+  useEffect(() => {
+    boot.finally(() => setBooted(true));
+  }, []);
+  const ready = fontsSettled && booted;
 
   useEffect(() => {
     // Discoveries made at cruise were queued with no signal; send them now.
@@ -72,10 +84,10 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (fontsSettled) SplashScreen.hideAsync().catch(() => {});
-  }, [fontsSettled]);
+    if (ready) SplashScreen.hideAsync().catch(() => {});
+  }, [ready]);
 
-  if (!fontsSettled) return null;
+  if (!ready) return null;
 
   return (
     <ErrorBoundary>

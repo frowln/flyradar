@@ -263,7 +263,17 @@ export const de = {
     finishTitle: 'Flug jetzt beenden?',
     finishBody: 'Nur was Sie bereits überflogen haben, kommt in Ihren Pass.',
   },
+  facts: {
+    title: 'von oben',
+    recognise: 'Aus Reiseflughöhe auf etwa %{dist} %{unit} erkennbar',
+    inView: 'Etwa %{d} im Fenster',
+    overFor: 'Etwa %{d} unter Ihnen',
+    aboveSummit: 'Sie fliegen %{h} %{unit} über den Gipfel',
+    cityLights: 'Nachts sind die Lichter etwa %{dist} %{unit} weit zu sehen',
+  },
   place: {
+    inView: 'im Fenster',
+    closest: 'am nächsten',
     notFound: 'Dieser Ort ist nicht im Flugpaket.',
     overhead: 'Direkt unter der Route',
     sideDistance: '%{side}, %{dist} %{unit} entfernt',

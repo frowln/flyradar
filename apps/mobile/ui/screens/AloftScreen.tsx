@@ -425,7 +425,7 @@ export default function AloftScreen() {
                   <DataSmall tone="accent" allowFontScaling={false} style={styles.nextAt}>
                     {clock((m.at - pos.elapsedS) / 1)}
                   </DataSmall>
-                  <SideMark side={m.kind === 'sight' ? m.side : undefined} size={16} />
+                  <SideMark side={m.kind === 'sight' ? m.side : 'mark'} size={16} />
                   <Body numberOfLines={1} style={styles.flex}>
                     {momentTitle(m, pkg, locale)}
                   </Body>

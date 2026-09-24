@@ -10,8 +10,7 @@
  * Run: node scripts/data/validate.mjs
  */
 import { readFileSync, statSync } from 'node:fs';
-import { join } from 'node:path';
-import { LANGS, OUT_DIR, pointInBBox, pointInMultiPolygon, pointInPolygon } from './lib.mjs';
+import { LANGS, dataPath, pointInBBox, pointInMultiPolygon, pointInPolygon } from './lib.mjs';
 
 const BUDGET_BYTES = {
   'airports.json': 1.2 * 1024 * 1024,
@@ -56,7 +55,7 @@ const err = (file, msg) => errors.push(`${file}: ${msg}`);
 const warn = (file, msg) => warnings.push(`${file}: ${msg}`);
 
 function load(name) {
-  const path = join(OUT_DIR, name);
+  const path = dataPath(name);
   const size = statSync(path).size;
   const budget = BUDGET_BYTES[name];
   const data = JSON.parse(readFileSync(path, 'utf8'));

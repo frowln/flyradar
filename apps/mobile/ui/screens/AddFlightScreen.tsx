@@ -517,7 +517,7 @@ export default function AddFlightScreen() {
 }
 
 const styles = StyleSheet.create({
-  flex: { flex: 1 },
+  flex: { flex: 1, minWidth: 0 },
   spread: { justifyContent: 'space-between' },
   scroll: { paddingBottom: s.x8 },
   head: { justifyContent: 'space-between', paddingTop: s.x3, paddingBottom: s.x3 },
@@ -526,8 +526,9 @@ const styles = StyleSheet.create({
   field: { paddingHorizontal: gutter, paddingVertical: s.x4 },
   fieldRow: { marginTop: s.x2 },
   search: {
+    width: '100%',
     fontFamily: family.displayMid,
-    fontSize: 26,
+    fontSize: 24,
     color: palette.ink,
     paddingVertical: s.x2,
     marginTop: s.x1
@@ -559,11 +560,14 @@ const styles = StyleSheet.create({
   dayOn: { borderColor: palette.amber, backgroundColor: palette.warm },
 
   timeRow: { flexDirection: 'row', alignItems: 'center', paddingVertical: s.x5, gap: s.x4 },
+  // Fixed widths: a text input's intrinsic width is otherwise the whole row,
+  // and the label beside it collapses to one letter per line.
   time: {
     fontFamily: family.dataMid,
     fontSize: 30,
     color: palette.ink,
-    minWidth: 110,
+    width: 120,
+    flexShrink: 0,
     textAlign: 'right',
     paddingVertical: s.x1
   },
@@ -590,7 +594,8 @@ const styles = StyleSheet.create({
     fontFamily: family.data,
     fontSize: 17,
     color: palette.ink,
-    minWidth: 120,
+    width: 130,
+    flexShrink: 0,
     textAlign: 'right',
     paddingVertical: s.x1
   },

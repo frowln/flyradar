@@ -135,6 +135,7 @@ describe('flight quiz and record', () => {
     pois: [
       { id: 'elbrus', name: 'Elbrus', category: 'mountain', elevation: 5642, lat: 43.35, lon: 42.44, summary: '', facts: [], photos: [], side: 'left', rank: 10, passAt: 3000 },
       { id: 'kazbek', name: 'Kazbek', category: 'mountain', elevation: 5047, lat: 42.7, lon: 44.5, summary: '', facts: [], photos: [], side: 'left', rank: 8, passAt: 3300 },
+      { id: 'ararat', name: 'Ararat', category: 'mountain', elevation: 5137, lat: 39.7, lon: 44.3, summary: '', facts: [], photos: [], side: 'right', rank: 8, passAt: 5500 },
       { id: 'sea', name: 'Black Sea', category: 'sea', lat: 43, lon: 34, summary: '', facts: [], photos: [], side: 'below', rank: 9, passAt: 6000 }
     ],
     generatedAt: '',

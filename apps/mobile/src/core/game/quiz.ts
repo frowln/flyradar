@@ -65,8 +65,13 @@ export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): Qu
   }
 
   // Which side a prominent sight was on.
+  // Something a passenger could have looked at: a peak, a city, a lake — not a
+  // sea that happened to lie off one wingtip at touchdown.
+  const SIDE_KINDS = new Set(['mountain', 'volcano', 'city', 'lake', 'island', 'range']);
+  const end = pkg.route[pkg.route.length - 1]?.elapsedSeconds ?? 0;
+  const midFlight = (p: POI) => (p.passAt ?? 0) > end * 0.08 && (p.passAt ?? 0) < end * 0.92;
   const sided = pkg.pois
-    .filter((p): p is POI & { side: 'left' | 'right' } => p.side === 'left' || p.side === 'right')
+    .filter((p): p is POI & { side: 'left' | 'right' } => (p.side === 'left' || p.side === 'right') && SIDE_KINDS.has(p.category) && midFlight(p))
     .sort((a, b) => (b.rank ?? 0) - (a.rank ?? 0));
   const star = sided[0];
   if (star) {
@@ -79,7 +84,7 @@ export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): Qu
   const peaks = pkg.pois
     .filter((p) => (p.category === 'mountain' || p.category === 'volcano') && p.elevation)
     .sort((a, b) => (b.elevation ?? 0) - (a.elevation ?? 0));
-  if (peaks.length >= 2) {
+  if (peaks.length >= 3) {
     const q = withAnswer(
       `${id}-peak`,
       'quiz.highestPeak',
@@ -98,7 +103,7 @@ export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): Qu
   }
 
   // Which came first.
-  const timed = pkg.pois.filter((p) => p.passAt != null && (p.rank ?? 0) >= 5);
+  const timed = pkg.pois.filter((p) => p.passAt != null && (p.rank ?? 0) >= 5 && midFlight(p));
   if (timed.length >= 2) {
     const a = timed[0]!;
     const b = timed[timed.length - 1]!;

@@ -10,26 +10,29 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0A0E1A"
+      "backgroundColor": "#0B0E11"
     },
     "ios": {
-      "supportsTablet": true,
+      "supportsTablet": false,
       "bundleIdentifier": "com.skyatlas.app",
       "infoPlist": {
-        "NSCameraUsageDescription": "SkyAtlas uses the camera to scan your boarding pass"
+        "NSCameraUsageDescription": "SkyAtlas reads the barcode on your boarding pass. Nothing is stored or sent.",
+        "NSLocationWhenInUseUsageDescription": "In flight, the phone’s GPS shows more precisely what is under the aircraft. Your location never leaves the phone."
       },
       "userInterfaceStyle": "dark"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0A0E1A"
+        "backgroundColor": "#0B0E11"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.skyatlas.app",
       "permissions": [
-        "CAMERA"
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
       ]
     },
     "web": {
@@ -38,11 +41,33 @@
     "plugins": [
       "expo-sqlite",
       "expo-localization",
-      "expo-notifications",
       "expo-font",
+      [
+        "expo-notifications",
+        {}
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "In flight, the phone’s GPS shows more precisely what is under the aircraft. Your location never leaves the phone."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SkyAtlas reads the barcode on your boarding pass. Nothing is stored or sent.",
+          "recordAudioAndroid": false
+        }
+      ],
       "@sentry/react-native",
-      "./plugins/with-live-activity.js",
       "@maplibre/maplibre-react-native"
-    ]
+    ],
+    "locales": {
+      "ru": "./locales/ru.json",
+      "de": "./locales/de.json",
+      "fr": "./locales/fr.json",
+      "es": "./locales/es.json",
+      "ja": "./locales/ja.json"
+    }
   }
 }

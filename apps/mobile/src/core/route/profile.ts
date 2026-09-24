@@ -111,6 +111,31 @@ export interface BuildRouteInput {
   airborneSeconds?: number;
 }
 
+/**
+ * Rounds each interior corner: the waypoint is replaced by two points up to
+ * 60 km before and after it. An aircraft turns through a corner rather than
+ * pivoting on it, and a 90° kink on the map reads as a drawing error. The cut
+ * is smaller than the margin kept around closed airspace, so it never trims a
+ * detour back into it.
+ */
+function filletCorners(points: Array<{ lat: number; lon: number }>): Array<{ lat: number; lon: number }> {
+  if (points.length < 3) return points;
+  const out = [points[0]!];
+  for (let i = 1; i < points.length - 1; i++) {
+    const prev = points[i - 1]!;
+    const cur = points[i]!;
+    const next = points[i + 1]!;
+    const dIn = haversine(prev.lat, prev.lon, cur.lat, cur.lon);
+    const dOut = haversine(cur.lat, cur.lon, next.lat, next.lon);
+    const cutIn = Math.min(60, dIn * 0.25);
+    const cutOut = Math.min(60, dOut * 0.25);
+    out.push(dIn > 0 ? gcInterpolate(cur.lat, cur.lon, prev.lat, prev.lon, cutIn / dIn) : cur);
+    out.push(dOut > 0 ? gcInterpolate(cur.lat, cur.lon, next.lat, next.lon, cutOut / dOut) : cur);
+  }
+  out.push(points[points.length - 1]!);
+  return out;
+}
+
 /** A path of great-circle legs, walkable by distance. */
 function polyline(points: Array<{ lat: number; lon: number }>) {
   const legs: Array<{ a: { lat: number; lon: number }; b: { lat: number; lon: number }; start: number; len: number }> = [];
@@ -145,7 +170,7 @@ export interface BuiltRoute {
  */
 export function buildRoute(input: BuildRouteInput): BuiltRoute {
   const { from, to } = input;
-  const path = polyline([from, ...(input.via ?? []), to]);
+  const path = polyline(filletCorners([from, ...(input.via ?? []), to]));
   const distanceKm = path.total;
   const airborneSeconds = Math.max(
     15 * 60,

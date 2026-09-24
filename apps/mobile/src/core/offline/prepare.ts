@@ -3,10 +3,11 @@ import { buildFlightPackage, type BuildProgress, type BuildRequest } from './bui
 import { savePackage } from './packageStore';
 import { cachePhotos } from './photoCache';
 import { downloadCorridor } from '../map/offlineMap';
-import { getAreas, getCountries, getPlaces } from '../data/datasets';
+import { ensureDatasets, getAreas, getCountries, getPlaces } from '../data/datasets';
 
 /** Prepares a flight on this phone with the bundled data and the real storage. */
-export function prepareFlight(req: BuildRequest, onProgress?: (p: BuildProgress) => void): Promise<OfflinePackage> {
+export async function prepareFlight(req: BuildRequest, onProgress?: (p: BuildProgress) => void): Promise<OfflinePackage> {
+  await ensureDatasets();
   return buildFlightPackage(
     req,
     {

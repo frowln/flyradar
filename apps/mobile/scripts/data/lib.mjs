@@ -189,9 +189,18 @@ export function parseCSV(text) {
 // Output
 // ---------------------------------------------------------------------------
 
+/**
+ * Where a dataset lives. Scripts refer to them by their logical `.json` name;
+ * on disk they are `.skydata`, so Metro ships them as assets read at runtime
+ * instead of compiling six megabytes of JSON into the JavaScript bundle.
+ */
+export function dataPath(name) {
+  return join(OUT_DIR, name.replace(/\.json$/, '.skydata'));
+}
+
 export function writeOutput(name, data) {
   mkdirSync(OUT_DIR, { recursive: true });
-  const path = join(OUT_DIR, name);
+  const path = dataPath(name);
   const text = JSON.stringify(data);
   writeFileSync(path, text);
   console.log(`  wrote ${name}: ${(Buffer.byteLength(text) / 1024).toFixed(0)} KB`);
@@ -802,7 +811,7 @@ export class CountryLocator {
   }
 
   static load() {
-    const path = join(OUT_DIR, 'countries.json');
+    const path = dataPath('countries.json');
     if (!existsSync(path)) throw new Error('countries.json missing: run build-countries.mjs first');
     return new CountryLocator(readJSON(path).countries);
   }

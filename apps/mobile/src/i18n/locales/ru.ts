@@ -265,7 +265,17 @@ export const ru = {
     finishTitle: 'Завершить полёт сейчас?',
     finishBody: 'В паспорт попадёт только то, над чем вы уже пролетели.',
   },
+  facts: {
+    title: 'сверху',
+    recognise: 'С эшелона узнаётся примерно за %{dist} %{unit}',
+    inView: 'В окне около %{d}',
+    overFor: 'Под крылом около %{d}',
+    aboveSummit: 'Вы пролетите на %{h} %{unit} выше вершины',
+    cityLights: 'Ночью огни видны примерно за %{dist} %{unit}',
+  },
   place: {
+    inView: 'в окне',
+    closest: 'ближе всего',
     notFound: 'Этого места нет в пакете рейса.',
     overhead: 'Прямо под маршрутом',
     sideDistance: '%{side}, в %{dist} %{unit}',

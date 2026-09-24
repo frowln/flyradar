@@ -107,13 +107,15 @@ export default function Dial({ progress, reading, caption, size = 260, accessibi
           strokeDashoffset={dashOffset as unknown as number}
         />
         {ticks}
-        <Circle cx={cx} cy={cy} r={2.5} fill={palette.amber} />
       </Svg>
 
       <Animated.View
         pointerEvents="none"
         style={[styles.needle, { left: cx, top: cy - 1, width: r, transform: [{ rotate }] }]}
       >
+        {/* Only the outer third is drawn: a pointer riding the scale, so the
+            reading in the middle is never crossed out. */}
+        <View style={styles.needleGap} />
         <View style={styles.needleShaft} />
         <View style={styles.needleTip} />
       </Animated.View>
@@ -139,6 +141,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     transformOrigin: 'left center'
   },
+  needleGap: { flex: 2.1 },
   needleShaft: { flex: 1, height: 1.5, backgroundColor: palette.amber },
   needleTip: {
     width: 9,

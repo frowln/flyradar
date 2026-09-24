@@ -10,17 +10,18 @@ import type {
 } from './types';
 
 /**
- * Lazy access to the bundled datasets.
+ * The bundled datasets, loaded once and kept in memory.
  *
- * The files are a few megabytes of JSON; parsing them at launch would cost a
- * visible delay on every cold start for a feature used a few times a year. They
- * load on first use — when a flight is being added — and stay in memory after.
+ * They ship as asset files (`assets/data/*.skydata`, JSON inside) and are
+ * read at startup — six megabytes that would otherwise be compiled into the
+ * JavaScript bundle and carried by every update.
  *
- * Tests inject their own data through `setDatasetsForTesting`, so nothing here
- * needs a bundler to be exercised.
+ * The app keeps its splash screen up until they are in memory (App.tsx), so
+ * the getters can stay synchronous; they throw if called before that. Tests
+ * inject their own data with `setDatasetsForTesting` and never load files.
  */
 
-declare const require: (path: string) => unknown;
+declare const require: (path: string) => number;
 
 let airports: DataAirport[] | null = null;
 let airportIndex: Map<string, DataAirport> | null = null;
@@ -29,45 +30,68 @@ let areas: Record<string, MultiPolygon> | null = null;
 let countries: DataCountry[] | null = null;
 let countryIndex: Map<string, DataCountry> | null = null;
 
+let loading: Promise<void> | null = null;
+
+export function datasetsReady(): boolean {
+  return !!(airports && places && areas && countries);
+}
+
+/** Starts loading (once) and resolves when every dataset is in memory. */
+export function ensureDatasets(): Promise<void> {
+  if (datasetsReady()) return Promise.resolve();
+  loading ??= (async () => {
+    // Imported lazily: it pulls in native modules the core tests cannot load.
+    const { readAssetText } = await import('./assetText');
+    const read = async <T,>(mod: number) => JSON.parse(await readAssetText(mod)) as T;
+    // The requires sit here, not at module level, so nothing is resolved
+    // until the data is actually wanted.
+    const [a, p, ar, c] = await Promise.all([
+      read<AirportsFile>(require('../../../assets/data/airports.skydata')),
+      read<PlacesFile>(require('../../../assets/data/places.skydata')),
+      read<AreasFile>(require('../../../assets/data/areas.skydata')),
+      read<CountriesFile>(require('../../../assets/data/countries.skydata'))
+    ]);
+    airports = a.airports;
+    airportIndex = null;
+    places = p.places;
+    areas = ar.areas;
+    countries = c.countries;
+    countryIndex = null;
+  })().catch((e) => {
+    loading = null;
+    throw e;
+  });
+  return loading;
+}
+
+function need<T>(v: T | null, name: string): T {
+  if (!v) throw new Error(`dataset "${name}" not loaded — await ensureDatasets() first`);
+  return v;
+}
+
 export function getAirports(): DataAirport[] {
-  if (!airports) {
-    airports = (require('../../../assets/data/airports.json') as AirportsFile).airports;
-  }
-  return airports;
+  return need(airports, 'airports');
 }
 
 export function airportByIata(iata: string): DataAirport | undefined {
-  if (!airportIndex) {
-    airportIndex = new Map(getAirports().map((a) => [a.i, a]));
-  }
+  if (!airportIndex) airportIndex = new Map(getAirports().map((a) => [a.i, a]));
   return airportIndex.get(iata.toUpperCase());
 }
 
 export function getPlaces(): DataPlace[] {
-  if (!places) {
-    places = (require('../../../assets/data/places.json') as PlacesFile).places;
-  }
-  return places;
+  return need(places, 'places');
 }
 
 export function getAreas(): Record<string, MultiPolygon> {
-  if (!areas) {
-    areas = (require('../../../assets/data/areas.json') as AreasFile).areas;
-  }
-  return areas;
+  return need(areas, 'areas');
 }
 
 export function getCountries(): DataCountry[] {
-  if (!countries) {
-    countries = (require('../../../assets/data/countries.json') as CountriesFile).countries;
-  }
-  return countries;
+  return need(countries, 'countries');
 }
 
 export function countryByCode(cc: string): DataCountry | undefined {
-  if (!countryIndex) {
-    countryIndex = new Map(getCountries().map((c) => [c.cc, c]));
-  }
+  if (!countryIndex) countryIndex = new Map(getCountries().map((c) => [c.cc, c]));
   return countryIndex.get(cc);
 }
 

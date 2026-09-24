@@ -65,7 +65,7 @@ function pkgFor(from: string, to: string, depart: Date, seat: 'left' | 'right' |
   return pkg;
 }
 
-export function installPreview(): void {
+export async function installPreview(): Promise<void> {
   if (typeof window === 'undefined') return;
   const q = new URLSearchParams(window.location.search);
   const scenario = q.get('scenario');

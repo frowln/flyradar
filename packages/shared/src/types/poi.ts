@@ -57,6 +57,9 @@ export interface POI {
   visibleTo?: number;
   /** Which side of the aircraft it lies on at closest approach. */
   side?: PassSide;
+  /** Areas flown over: seconds after takeoff when the track enters and leaves the outline. */
+  overFrom?: number;
+  overTo?: number;
   /** Source of the text: an encyclopedia article, or composed from data alone. */
   textSource?: 'wikipedia' | 'editorial' | 'generated';
   /** Canonical article URL for attribution. */

@@ -20,7 +20,7 @@ import { computeMoments } from '../../src/core/flight/moments';
 import { distinctCountries } from '../../src/core/places/countries';
 import { placeName, placeText, countryName } from '../../src/core/places/names';
 import { cityName } from '../../src/core/data/airports';
-import { startDemo } from '../../src/core/offline/demo';
+import { startDemo, demoPreviewRoute } from '../../src/core/offline/demo';
 import { useToast } from '../components/Toast';
 import { t, getLocale } from '../../src/i18n';
 import { clock, duration, timeAt, weekdayDayMonth } from '../format';
@@ -83,7 +83,7 @@ function Advice({ pkg }: { pkg: OfflinePackage }) {
       </Row>
       <Space h={s.x3} />
       <Row gap={s.x3}>
-        <SideMark side={advice.best === 'left' || advice.best === 'right' ? advice.best : 'below'} size={26} />
+        <SideMark side={advice.best === 'left' || advice.best === 'right' ? advice.best : advice.best === 'either' ? 'both' : 'mark'} size={26} />
         <Title style={styles.flex}>{title}</Title>
       </Row>
       {body ? (
@@ -144,7 +144,7 @@ function Highlights({ pkg, onOpen }: { pkg: OfflinePackage; onOpen: (poi: POI) =
             <DataSmall allowFontScaling={false} style={styles.momentAt}>
               {`+${clock(m.at)}`}
             </DataSmall>
-            <SideMark side={m.kind === 'sight' ? m.side : undefined} size={16} />
+            <SideMark side={m.kind === 'sight' ? m.side : 'mark'} size={16} />
             <Body numberOfLines={1} style={styles.flex}>
               {title}
             </Body>
@@ -339,6 +339,8 @@ export default function BoardScreen() {
     }, [load])
   );
 
+  const sampleRoute = useMemo(() => demoPreviewRoute(getLocale()), []);
+
   const active = (entries ?? []).filter((e) => e.status !== 'flown');
   const featured = active.find((e) => e.pkg.flight.id === featuredId) ?? active[0];
 
@@ -391,10 +393,23 @@ export default function BoardScreen() {
         <ScrollView contentContainerStyle={styles.emptyScroll}>
           <Animated.View style={reveal}>
             <Gutter>
-              <Space h={s.x6} />
+              <Space h={s.x4} />
               <Label tone="accent" style={styles.wordmark}>
                 SKYATLAS
               </Label>
+            </Gutter>
+            {sampleRoute ? (
+              <View style={styles.hero}>
+                <RouteSketch
+                  route={sampleRoute}
+                  width={width}
+                  height={Math.round(width * 0.5)}
+                  flownS={sampleRoute[Math.floor(sampleRoute.length * 0.55)]!.elapsedSeconds}
+                  plane={sampleRoute[Math.floor(sampleRoute.length * 0.55)]!}
+                />
+              </View>
+            ) : null}
+            <Gutter>
               <Space h={s.x5} />
               <Display>{t('board.emptyTitle')}</Display>
               <Space h={s.x3} />
@@ -537,6 +552,7 @@ const styles = StyleSheet.create({
   },
   readyPip: { width: 6, height: 6, borderRadius: 3, backgroundColor: palette.good },
 
+  hero: { marginTop: s.x4, borderTopWidth: line.hair, borderBottomWidth: line.hair, borderColor: palette.rule },
   sketch: { borderTopWidth: line.hair, borderBottomWidth: line.hair, borderColor: palette.rule },
   countries: { paddingTop: s.x4 },
 

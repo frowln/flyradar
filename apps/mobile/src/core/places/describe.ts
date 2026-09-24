@@ -1,16 +1,15 @@
 import type { POI } from '@skyatlas/shared';
 import { t } from '../../i18n';
-import { countryName } from './names';
 import { formatInt, km, metres } from '../units';
 
 /**
  * A line about a place composed from data alone, for places with no article.
  *
- * It says only what the dataset knows — kind, height, population, country —
- * so it can never be wrong in the way an invented sentence can.
+ * It says only what the dataset knows — kind, height, population — so it can
+ * never be wrong in the way an invented sentence can. The country is left out:
+ * the card already shows it under the title.
  */
-export function describePlace(poi: POI, locale: string): string {
-  const country = poi.country ? countryName(poi.country, locale) : '';
+export function describePlace(poi: POI, _locale: string): string {
   const kind = t(`category.${poi.category}`);
   const parts: string[] = [];
   if (poi.category === 'city' && poi.population) {
@@ -24,7 +23,6 @@ export function describePlace(poi: POI, locale: string): string {
   } else {
     parts.push(kind.charAt(0).toUpperCase() + kind.slice(1));
   }
-  if (country) parts.push(t('describe.in', { country }));
   const text = parts.join(' ');
   return `${text.charAt(0).toUpperCase()}${text.slice(1)}.`;
 }

@@ -29,6 +29,9 @@ export interface Sighting {
   passAt: number;
   visibleFrom: number;
   visibleTo: number;
+  /** Areas only: the stretch of the flight spent inside the outline. */
+  overFrom?: number;
+  overTo?: number;
   score: number;
 }
 
@@ -246,7 +249,9 @@ function measureArea(
       side: 'below',
       passAt: Math.round(bestRun[0] + Math.min(600, (bestRun[1] - bestRun[0]) / 2)),
       visibleFrom: Math.round(visibleFrom),
-      visibleTo: Math.round(visibleTo)
+      visibleTo: Math.round(visibleTo),
+      overFrom: Math.round(bestRun[0]),
+      overTo: Math.round(bestRun[1])
     };
   }
   if (!Number.isFinite(nearest) || nearest > range) return null;
@@ -405,6 +410,8 @@ export function toPOI(s: Sighting): POI {
     passAt: s.passAt,
     visibleFrom: s.visibleFrom,
     visibleTo: s.visibleTo,
+    overFrom: s.overFrom,
+    overTo: s.overTo,
     side: s.side,
     textSource: 'generated',
     translations

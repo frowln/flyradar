@@ -6,7 +6,7 @@ import { buildRoute } from '../../src/core/route/profile';
 import { countriesAlong, distinctCountries } from '../../src/core/places/countries';
 import type { CountriesFile } from '../../src/core/data/types';
 
-const countries = (JSON.parse(readFileSync(join(__dirname, '../../assets/data/countries.json'), 'utf8')) as CountriesFile).countries;
+const countries = (JSON.parse(readFileSync(join(__dirname, '../../assets/data/countries.skydata'), 'utf8')) as CountriesFile).countries;
 
 const SVO = { lat: 55.9726, lon: 37.4146 };
 const AYT = { lat: 36.8987, lon: 30.8005 };
