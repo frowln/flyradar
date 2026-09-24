@@ -1064,5 +1064,542 @@
         "Tierra de fuego"
       ]
     }
+  },
+  "Q13991": {
+    "t": "La tranquila isla japonesa de los 88 templos",
+    "s": "Shikoku es la más pequeña y menos poblada de las cuatro islas principales de Japón: sobre todo montañas empinadas y boscosas, con pueblos ensartados a lo largo de la costa. Al norte está el mar Interior de Seto, un agua tranquila tachonada de islas y cruzada por largos puentes. En el estrecho de Naruto, al este, el cambio de marea hace girar remolinos que pueden alcanzar unos 20 m de diámetro.",
+    "w": "Una isla compacta y montañosa al sur del mar Interior de Seto, salpicado de islas, unida a Honshu por largos puentes.",
+    "f": [
+      "Los peregrinos recorren un circuito de 88 templos budistas alrededor de la isla, de unos 1200 km en total.",
+      "El monte Ishizuchi, de 1982 m, es el pico más alto del oeste de Japón.",
+      "Tres rutas de puentes unen Shikoku con Honshu a través del mar Interior de Seto."
+    ],
+    "q": {
+      "q": "¿Cuántos templos tiene la famosa peregrinación de Shikoku?",
+      "a": "88",
+      "x": [
+        "33",
+        "108"
+      ]
+    }
+  },
+  "Q35581": {
+    "t": "El norte nevado de Japón, donde el hielo llega a la costa",
+    "s": "Hokkaido se siente distinta al resto de Japón: campos más amplios, bosques más grandes, menos gente y mucha más nieve. Desde arriba, busca lagos redondos de caldera —Shikotsu, Tōya, Kussharo— entre colinas volcánicas. A finales del invierno, el hielo a la deriva del mar de Ojotsk se amontona contra la costa noreste y la península de Shiretoko, y el mar se vuelve blanco.",
+    "w": "Una gran isla de amplios campos, montañas boscosas y lagos de caldera azules y redondos; blanca en invierno, con hielo marino al noreste.",
+    "f": [
+      "La península de Shiretoko, en el noreste, es Patrimonio Mundial de la UNESCO desde 2005.",
+      "Ocupa más de una quinta parte de la superficie de Japón, pero solo alberga cerca del 4 % de su población.",
+      "Sapporo acogió los Juegos Olímpicos de Invierno en 1972."
+    ],
+    "q": {
+      "q": "¿Qué pueblo indígena tiene su tierra ancestral en Hokkaido?",
+      "a": "Los ainu",
+      "x": [
+        "Los ryukyuenses",
+        "Los nivjis"
+      ]
+    }
+  },
+  "Q7792": {
+    "t": "Una isla larga y estrecha que casi toca el continente",
+    "s": "Sajalín se extiende casi 950 km de norte a sur, pero nunca supera los 160 km de ancho: desde el aire parece un largo pez verde y pardo. Dos cordilleras la recorren con un valle entre ellas. Al noroeste, el estrecho de Nevelskói se reduce a unos 7 km del continente y, en invierno, se congela de orilla a orilla.",
+    "w": "Una isla muy larga y estrecha, paralela a la costa, con dos cordilleras y un valle central; mares helados en invierno.",
+    "f": [
+      "Es la mayor isla de Rusia, con unos 76 000 km².",
+      "Antón Chéjov viajó aquí en 1890 y escribió el libro «La isla de Sajalín».",
+      "En su extremo sur, el estrecho de La Pérouse separa Sajalín de Hokkaido por unos 40 km."
+    ],
+    "q": {
+      "q": "¿Qué escritor viajó a Sajalín en 1890 y escribió un libro sobre la isla?",
+      "a": "Antón Chéjov",
+      "x": [
+        "León Tolstói",
+        "Fiódor Dostoievski"
+      ]
+    }
+  },
+  "Q1462": {
+    "t": "Calas esmeralda y 7000 antiguas torres de piedra",
+    "s": "Cerdeña es la segunda isla más grande del Mediterráneo, un bloque abrupto de colinas y mesetas con sorprendentemente pocos pueblos. Fíjate en la costa: al noreste, las calas de granito de la Costa Esmeralda brillan en verde esmeralda y turquesa, y al sur se extienden largas playas blancas. Justo al norte, al otro lado de un estrecho angosto, Córcega se alza mucho más alta.",
+    "w": "Una gran isla casi rectangular de interior abrupto; calas de un turquesa intenso al noreste y Córcega justo al norte.",
+    "f": [
+      "Unos 7000 nuragas —torres de piedra de la Edad del Bronce— salpican la isla.",
+      "Los pueblos de montaña de Ogliastra son famosos por su número inusualmente alto de personas que superan los 100 años.",
+      "El estrecho de Bonifacio, de solo unos 11 km de ancho, separa Cerdeña de Córcega."
+    ],
+    "q": {
+      "q": "¿Cómo se llaman las antiguas torres de piedra de Cerdeña?",
+      "a": "Nuragas",
+      "x": [
+        "Trulli",
+        "Talayotes"
+      ]
+    }
+  },
+  "Q14112": {
+    "t": "Una cordillera que surge directamente del mar",
+    "s": "Los franceses llaman a Córcega «la montaña en el mar», y desde arriba se entiende: una cordillera de granito dentado ocupa casi toda la isla, veteada de nieve hasta bien entrada la primavera y con cumbres de hasta 2706 m. La costa oeste es una sucesión de golfos profundos y acantilados rojos; la este, una franja más llana de lagunas. En el extremo norte, el fino dedo del Cabo Corso apunta hacia Génova.",
+    "w": "Una isla montañosa con una península en forma de dedo que apunta al norte; golfos profundos al oeste y lagunas llanas al este.",
+    "f": [
+      "Napoleón Bonaparte nació en Ajaccio, en la costa oeste, en 1769.",
+      "El GR20, que recorre la columna montañosa de Córcega, suele considerarse la ruta de gran recorrido más dura de Europa.",
+      "Los acantilados rojos de Scandola, en el golfo de Porto, son Patrimonio Mundial de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué emperador nació en Córcega?",
+      "a": "Napoleón Bonaparte",
+      "x": [
+        "Carlomagno",
+        "Napoleón III"
+      ]
+    }
+  },
+  "Q4951156": {
+    "t": "Una isla triangular coronada por el humeante Etna",
+    "s": "Sicilia es la mayor isla del Mediterráneo, un triángulo irregular que le valió el antiguo nombre de Trinacria. Su hito es inconfundible: el Etna, un volcán ancho y oscuro en la costa este, nevado en invierno y a menudo con un penacho. Al norte, busca las islas Eolias, donde el Estrómboli lleva miles de años lanzando pequeñas explosiones de lava.",
+    "w": "Una isla triangular; en su costa este, el enorme cono oscuro del Etna, a menudo con penacho; pequeñas islas volcánicas al norte.",
+    "f": [
+      "El Etna, de unos 3300 m, es el volcán activo más alto de Europa, y su altura cambia con sus erupciones.",
+      "El estrecho de Mesina separa Sicilia de la Italia continental por solo unos 3 km.",
+      "Las explosiones incandescentes y regulares del Estrómboli le valieron el apodo de «Faro del Mediterráneo»."
+    ],
+    "q": {
+      "q": "¿Qué antiguo nombre de Sicilia alude a su forma?",
+      "a": "Trinacria",
+      "x": [
+        "Hesperia",
+        "Taprobana"
+      ]
+    }
+  },
+  "Q337524": {
+    "t": "La mayor isla de Vanuatu, confundida con un continente",
+    "s": "Espíritu Santo es la mayor isla de Vanuatu: un lado oeste abrupto y boscoso que sube hasta los picos más altos del país, y un lado este más bajo, de plantaciones, arrecifes y playas blancas. En 1606, el navegante Pedro Fernández de Quirós desembarcó aquí y creyó haber encontrado el gran continente austral. Busca bajíos de arrecife turquesa a lo largo de sus costas orientales.",
+    "w": "Una gran isla verde con un alto muro montañoso en su lado oeste y costas más llanas, orladas de arrecife, al este.",
+    "f": [
+      "El monte Tabwemasana, de 1879 m, es el punto más alto de Vanuatu.",
+      "Los «agujeros azules» de su bosque oriental, alimentados por manantiales, son pozas de agua azul intenso y asombrosamente clara."
+    ],
+    "q": {
+      "q": "¿Qué creyó Quirós que era Espíritu Santo en 1606?",
+      "a": "El gran continente austral",
+      "x": [
+        "La costa de Asia",
+        "Parte de Nueva Guinea"
+      ]
+    }
+  },
+  "Q148966": {
+    "t": "Una doble cadena de islas selváticas y lagunas inmensas",
+    "s": "Las Salomón forman dos cadenas largas y casi paralelas de islas altas cubiertas de selva, con un mar resguardado entre ellas. Sus costas están orladas de arrecifes y manglares, y al oeste la laguna de Marovo se extiende como un laberinto de islotes y canales turquesa. Muy al sur, Rennell es un atolón de coral elevado con un enorme lago donde antes estaba su laguna.",
+    "w": "Dos líneas paralelas de islas montañosas verde oscuro, orladas de arrecife, con un laberinto turquesa de laguna al oeste.",
+    "f": [
+      "El explorador español Álvaro de Mendaña bautizó las islas en 1568, con la esperanza de que guardaran las riquezas del rey Salomón.",
+      "El lago Tegano, en la isla Rennell, es el mayor lago de las islas del Pacífico.",
+      "En Malaita, las sartas de conchas aún se usan como dinero para la dote y en ceremonias."
+    ],
+    "q": {
+      "q": "¿La legendaria riqueza de quién inspiró el nombre de las islas Salomón?",
+      "a": "La del rey Salomón",
+      "x": [
+        "La del rey Midas",
+        "La de la reina de Saba"
+      ]
+    }
+  },
+  "Q10905515": {
+    "t": "Un arco de 1000 km de mares de coral entre Kyushu y Taiwán",
+    "s": "Al suroeste de Kyushu, las Ryukyu se alejan en un largo arco hacia Taiwán, cada isla rodeada de arrecife de coral y de agua en una docena de azules. Okinawa, la mayor, es larga y estrecha, con ciudades animadas en el sur y colinas verdes en el norte. Durante más de cuatro siglos, estas islas fueron el reino independiente de Ryukyu, que comerciaba entre Japón, China y el Sudeste Asiático.",
+    "w": "Una larga cadena de islas pequeñas envueltas en arrecife turquesa brillante, que se extiende de Kyushu hacia Taiwán, al suroeste.",
+    "f": [
+      "El kárate nació en Okinawa, de artes marciales locales mezcladas con influencias chinas.",
+      "El gato de Iriomote, uno de los felinos salvajes más raros del mundo, vive en una sola isla de este archipiélago.",
+      "Desde Yonaguni, la isla más occidental, Taiwán está a solo unos 110 km."
+    ],
+    "q": {
+      "q": "¿Qué arte marcial nació en Okinawa?",
+      "a": "El kárate",
+      "x": [
+        "El judo",
+        "El aikido"
+      ]
+    }
+  },
+  "Q183963": {
+    "t": "La mayor cadena de atolones del mundo",
+    "s": "Las Tuamotu dispersan casi 80 atolones de coral por una vasta extensión del Pacífico Sur: el mayor grupo de atolones de la Tierra. Desde arriba, cada uno es un anillo fino y roto de tierra coronada de palmeras alrededor de una laguna de un turquesa luminoso, con azul profundo por todas partes. El mayor, Rangiroa, es tan ancho que desde una orilla de su laguna no se ve la otra.",
+    "w": "Decenas de anillos de tierra finos y rotos alrededor de lagunas turquesa luminosas, esparcidos por un océano azul oscuro.",
+    "f": [
+      "Los primeros navegantes las llamaron «Archipiélago Peligroso», porque los atolones, tan bajos, eran muy difíciles de ver.",
+      "La laguna de Rangiroa cubre unos 1450 km², una de las mayores del mundo.",
+      "Buena parte del famoso cultivo de perlas negras de la Polinesia Francesa se hace en lagunas de las Tuamotu."
+    ],
+    "q": {
+      "q": "¿Cómo llamaban a las Tuamotu los primeros navegantes europeos?",
+      "a": "El Archipiélago Peligroso",
+      "x": [
+        "Las islas de los Amigos",
+        "Las islas de los Ladrones"
+      ]
+    }
+  },
+  "Q154628": {
+    "t": "Un anillo roto de islas volcánicas frente a Nueva Guinea",
+    "s": "El archipiélago Bismarck rodea el mar de Bismarck como un anillo roto. Nueva Bretaña es la gran media luna, montañosa y humeante en algunos puntos; Nueva Irlanda es su vecina larga y delgada; Manus y las islas del Almirantazgo quedan al noroeste. En el extremo noreste de Nueva Bretaña, busca Rabaul, una ciudad construida alrededor de una caldera volcánica inundada.",
+    "w": "Una gran isla en media luna con picos volcánicos, una isla larga y fina al noreste y otras más pequeñas dispersas.",
+    "f": [
+      "Las islas recibieron su nombre en 1884 en honor del canciller alemán Otto von Bismarck.",
+      "Nueva Irlanda mide unos 350 km de largo, pero en algunos puntos tiene menos de 10 km de ancho.",
+      "El puerto de Rabaul llena una caldera cuyos volcanes, como el Tavurvur, siguen en erupción."
+    ],
+    "q": {
+      "q": "¿En honor de quién se llama así el archipiélago Bismarck?",
+      "a": "Otto von Bismarck",
+      "x": [
+        "El káiser Guillermo I",
+        "Alfred von Tirpitz"
+      ]
+    }
+  },
+  "Q201766": {
+    "t": "Volcanes humeantes en la isla de un explorador francés",
+    "s": "Bougainville es una isla grande y montañosa cubierta de selva, con una cadena de volcanes a lo largo de su espina. El monte Balbi es el más alto, con unos 2700 m, y su vecino, el Bagana, es uno de los volcanes más activos de la región, a menudo con un penacho de vapor y ceniza. Las costas están bordeadas de arrecife, playas de arena negra y manglares.",
+    "w": "Una isla larga y montañosa de selva oscura con picos volcánicos en el centro, a menudo con un penacho que se aleja de uno.",
+    "f": [
+      "Lleva el nombre del explorador francés Louis-Antoine de Bougainville, que pasó por aquí en 1768.",
+      "La vistosa buganvilla también debe su nombre a ese explorador.",
+      "Geográficamente, es la mayor isla de la cadena de las islas Salomón."
+    ],
+    "q": {
+      "q": "¿Qué planta de jardín comparte nombre con el explorador de esta isla?",
+      "a": "La buganvilla",
+      "x": [
+        "La magnolia",
+        "La fucsia"
+      ]
+    }
+  },
+  "Q192767": {
+    "t": "Picos de selva a un lado, llanuras de hierba al otro",
+    "s": "Guadalcanal es la mayor isla de las Salomón, y llamativamente asimétrica. Un muro de montañas selváticas, de más de 2300 m, recorre su lado sur, donde la lluviosa «Costa del Tiempo» cae a pico al mar. El norte es más suave, con llanuras de hierba, plantaciones y la capital del país, Honiara.",
+    "w": "Una isla larga con montañas empinadas y coronadas de nubes en la costa sur y llanuras claras de hierba en el norte.",
+    "f": [
+      "Debe su nombre a Guadalcanal, en Andalucía, pueblo natal de un miembro de la expedición española de Mendaña de 1568.",
+      "La costa sur se llama Costa del Tiempo por sus fuertes lluvias y su mar bravo."
+    ],
+    "q": {
+      "q": "¿Qué ciudad de Guadalcanal es la capital de las Islas Salomón?",
+      "a": "Honiara",
+      "x": [
+        "Gizo",
+        "Auki"
+      ]
+    }
+  },
+  "Q83639": {
+    "t": "Seis volcanes unidos en un caballito de mar ecuatorial",
+    "s": "Isabela, la mayor de las Galápagos, está formada por seis volcanes en escudo que han crecido juntos, y desde arriba su silueta parece un caballito de mar. Anchas coladas de lava oscura surcan sus laderas, y varias cumbres guardan enormes calderas. El ecuador cruza su extremo norte y, aun así, los pingüinos de Galápagos pescan en las corrientes frías junto a sus costas.",
+    "w": "Una isla con forma de caballito de mar, de volcanes anchos y oscuros con enormes cráteres y coladas negras que bajan al mar.",
+    "f": [
+      "El volcán Wolf, de 1707 m, es el punto más alto de las Galápagos.",
+      "La iguana rosada vive en las laderas del volcán Wolf y en ningún otro lugar de la Tierra.",
+      "La caldera de la cumbre del Sierra Negra mide unos 7 por 10 km."
+    ],
+    "q": {
+      "q": "¿A qué se suele comparar la forma de la isla Isabela?",
+      "a": "A un caballito de mar",
+      "x": [
+        "A una luna creciente",
+        "A una bota"
+      ]
+    }
+  },
+  "Q42000": {
+    "t": "Un ocho de picos verdes dentro de un arrecife",
+    "s": "Tahití son dos viejos volcanes unidos por un istmo estrecho, así que desde arriba parece un ocho: la grande y redonda Tahiti Nui y la más pequeña Tahiti Iti. Sus laderas están cortadas por hondos valles verdes que bajan desde cumbres envueltas en nubes hasta playas de arena negra. Un arrecife rodea gran parte de la isla y encierra una laguna de un turquesa pálido.",
+    "w": "Una gran isla redonda unida a otra menor por un istmo fino: crestas verdes afiladas, una laguna turquesa y una línea blanca de oleaje.",
+    "f": [
+      "El monte Orohena, de 2241 m, es el punto más alto de la Polinesia Francesa.",
+      "El capitán Cook vino aquí en 1769 para observar el paso de Venus por delante del Sol.",
+      "La ola de Teahupo’o acogió la competición olímpica de surf en 2024."
+    ],
+    "q": {
+      "q": "¿Qué vino a observar el capitán Cook a Tahití en 1769?",
+      "a": "El tránsito de Venus",
+      "x": [
+        "Un eclipse total de Sol",
+        "El cometa Halley"
+      ]
+    }
+  },
+  "Q188705": {
+    "t": "La Isla del Valle y el inmenso cráter del Haleakalā",
+    "s": "Maui son dos volcanes unidos por un istmo bajo, lo que le valió el apodo de Isla del Valle. El grande, al este, el Haleakalā, alcanza 3055 m, y su cumbre guarda una enorme depresión salpicada de conos de ceniza de color óxido y ocre, fáciles de distinguir en un día claro. Las montañas de Maui Occidental, más antiguas, están talladas en crestas y valles verdes y afilados.",
+    "w": "Dos bultos unidos por un cuello llano: al este, la enorme cúpula del Haleakalā, a menudo rodeada de nubes; al oeste, crestas verdes afiladas.",
+    "f": [
+      "La depresión de la cumbre del Haleakalā mide unos 11 km de largo y 800 m de profundidad.",
+      "En invierno, las ballenas jorobadas se reúnen para criar en los canales entre Maui, Lānaʻi y Molokaʻi.",
+      "Haleakalā significa «casa del sol» en hawaiano."
+    ],
+    "q": {
+      "q": "¿Qué significa «Haleakalā» en hawaiano?",
+      "a": "Casa del sol",
+      "x": [
+        "Montaña de fuego",
+        "Montaña blanca"
+      ]
+    }
+  },
+  "Q208198": {
+    "t": "La isla mayor de Fiyi: frondosa al este, dorada al oeste",
+    "s": "Viti Levu es la mayor isla de Fiyi, más o menos redonda, con montañas abruptas y boscosas en el centro. El clima la parte en dos: el sureste, en torno a Suva, recibe la lluvia de los alisios y sigue verde oscuro, mientras que el noroeste, más seco, es un mosaico de cañaverales de azúcar y pastizales claros. Arrecifes de coral y lagunas orlan gran parte de la costa.",
+    "w": "Una isla redondeada y montañosa: selva oscura al sureste, tierras de caña más claras y doradas al noroeste, arrecifes junto a la orilla.",
+    "f": [
+      "El monte Tomanivi, de 1324 m, es el punto más alto de Fiyi.",
+      "Las dunas de Sigatoka, en la costa sur, fueron el primer parque nacional de Fiyi.",
+      "La mayoría de los vuelos internacionales a Fiyi aterrizan en Nadi, en el lado oeste, más seco, de la isla."
+    ],
+    "q": {
+      "q": "¿Qué ciudad de Viti Levu es la capital de Fiyi?",
+      "a": "Suva",
+      "x": [
+        "Nadi",
+        "Lautoka"
+      ]
+    }
+  },
+  "Q205695": {
+    "t": "El hogar del dodo y de una «cascada submarina»",
+    "s": "Tres islas volcánicas se alinean al este de Madagascar: Reunión, Mauricio y la pequeña Rodrigues. Reunión es la más alta y salvaje, con su pico más alto por encima de 3000 m y uno de los volcanes más activos del mundo en su lado sureste. Mauricio es más baja y está rodeada por una laguna turquesa; frente a su esquina suroeste, la arena que cae por una pendiente submarina parece, desde el aire, una cascada.",
+    "w": "Los picos altos y redondos de Reunión, coronados de nubes; al noreste, Mauricio, más baja, envuelta en una amplia laguna turquesa.",
+    "f": [
+      "Las islas llevan el nombre del navegante portugués Pedro Mascarenhas.",
+      "El dodo, una paloma no voladora, vivía solo en Mauricio y se había extinguido a finales del siglo XVII.",
+      "El Piton des Neiges, en Reunión, con 3069 m, es el punto más alto del océano Índico."
+    ],
+    "q": {
+      "q": "¿En qué isla vivía el dodo?",
+      "a": "Mauricio",
+      "x": [
+        "Reunión",
+        "Madagascar"
+      ]
+    }
+  },
+  "Q192281": {
+    "t": "La última gran tierra en entrar en el mapa del mundo",
+    "s": "Severnaya Zemliá fue la última tierra de cierto tamaño descubierta en el planeta: una expedición rusa la avistó en 1913, y no se cartografió bien hasta 1930-1932. Desde arriba es un grupo de grandes islas donde casquetes lisos cubren cerca de la mitad del terreno, con bordes que se desprenden en el mar; el resto es desierto polar pardo y desnudo. El hielo marino la encierra casi todo el año.",
+    "w": "Grandes islas bajo cúpulas de hielo blancas y lisas, suelo pardo y desnudo en los bordes y estrechos helados, al norte de Taimyr.",
+    "f": [
+      "El casquete de la Academia de Ciencias, en la isla Komsomólets, es el mayor casquete de hielo de Rusia.",
+      "Gueorgui Ushakov y Nikolái Urvántsev cartografiaron el archipiélago en trineo de perros en 1930-1932.",
+      "El cabo Árticheski, su extremo norte, es un punto de partida habitual de expediciones al Polo Norte."
+    ],
+    "q": {
+      "q": "¿En qué año se descubrió Severnaya Zemliá?",
+      "a": "1913",
+      "x": [
+        "1878",
+        "1596"
+      ]
+    }
+  },
+  "Q1249802": {
+    "t": "Islas ventosas y sin árboles, llenas de pingüinos",
+    "s": "Dos islas principales y cientos de pequeñas se extienden en el Atlántico Sur, al este de la Patagonia: bajas, sin árboles, pardo verdosas bajo un cielo inmenso. La costa se rasga en largas ensenadas y brazos de mar. Busca vetas claras en las laderas: son ríos de piedra, corrientes de bloques que dejó la helada de la Edad de Hielo. En las costas viven enormes colonias de pingüinos y albatros.",
+    "w": "Dos islas grandes, bajas y sin árboles, de costas muy recortadas, con vetas claras de campos de bloques en las colinas.",
+    "f": [
+      "Aquí crían cinco especies de pingüino, entre ellas el rey, el papúa y el de penacho amarillo.",
+      "Cerca del 70 % de los albatros de ceja negra del mundo anidan en estas islas.",
+      "No hay árboles autóctonos: el suelo está cubierto de hierba, brezal y turba."
+    ],
+    "q": {
+      "q": "¿Qué son los «ríos de piedra» de estas islas?",
+      "a": "Corrientes de bloques de roca",
+      "x": [
+        "Antiguos muros de piedra",
+        "Viejas coladas de lava"
+      ]
+    }
+  },
+  "Q25231": {
+    "t": "Montañas puntiagudas, glaciares y una bóveda de semillas",
+    "s": "Svalbard es donde el Ártico se ve más espectacular desde el aire: montañas oscuras de crestas afiladas, glaciares que fluyen entre ellas como ríos helados y frentes de hielo que se desprenden en los fiordos. Cerca del 60 % del territorio está bajo el hielo. Willem Barentsz llamó a la isla principal Spitsbergen —«montañas puntiagudas»— cuando la avistó en 1596.",
+    "w": "Picos oscuros y dentados separados por anchos glaciares blancos, fiordos que terminan en paredes de hielo y hielo marino al norte y al este.",
+    "f": [
+      "Longyearbyen es la localidad más septentrional de la Tierra con más de 1000 habitantes.",
+      "La Bóveda Global de Semillas, excavada en una montaña cerca de Longyearbyen, guarda semillas de todo el mundo.",
+      "El sol de medianoche brilla aquí más o menos desde finales de abril hasta finales de agosto."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre «Spitsbergen»?",
+      "a": "Montañas puntiagudas",
+      "x": [
+        "Costa blanca",
+        "Fiordos de hielo"
+      ]
+    }
+  },
+  "Q185018": {
+    "t": "Las islas más septentrionales de Europa, presas del hielo",
+    "s": "La Tierra de Francisco José es un puñado de casi 200 islas en lo alto del Ártico, casi todas sepultadas bajo casquetes de hielo, con acantilados oscuros de basalto asomando en los bordes. Desde arriba, las cúpulas de hielo se ven lisas y redondeadas, y los canales entre ellas siguen helados gran parte del año. El cabo Fligely, en la isla Rudolf, es el punto más septentrional de Europa, a unos 900 km del Polo.",
+    "w": "Decenas de islas bajo casquetes lisos y redondeados, con acantilados oscuros en los bordes y canales helados entre ellas.",
+    "f": [
+      "Una expedición austrohúngara descubrió las islas en 1873 y las bautizó en honor del emperador Francisco José.",
+      "Fridtjof Nansen y Hjalmar Johansen pasaron aquí el invierno de 1895-1896 en una cabaña de piedra.",
+      "La isla Champ es famosa por sus extrañas bolas de piedra casi perfectamente redondas."
+    ],
+    "q": {
+      "q": "¿Qué emperador dio nombre a la Tierra de Francisco José?",
+      "a": "Francisco José I de Austria",
+      "x": [
+        "Guillermo II de Alemania",
+        "Alejandro II de Rusia"
+      ]
+    }
+  },
+  "Q80413": {
+    "t": "Un muro de hielo y roca de 1000 km entre dos mares",
+    "s": "Nueva Zembla es una barrera larga y curva, de casi 1000 km de punta a punta, que separa el mar de Barents del mar de Kara: los Urales prolongados en el Ártico. Sus dos islas principales están separadas por el estrecho Matochkin Shar. La del sur es tundra y colinas desnudas; la del norte está casi toda sepultada bajo un vasto casquete cuyos glaciares se desprenden en el mar.",
+    "w": "Un par de islas muy largas, estrechas y curvas: tundra parda al sur y un casquete de hielo blanco y continuo al norte.",
+    "f": [
+      "El casquete de la isla norte, de unos 20 000 km², es uno de los mayores de Europa.",
+      "Willem Barentsz y su tripulación pasaron el invierno de 1596-1597 cerca de su extremo norte, en una cabaña de madera de deriva.",
+      "El Matochkin Shar, el estrecho entre las dos islas principales, mide unos 100 km."
+    ],
+    "q": {
+      "q": "¿Qué dos mares separa Nueva Zembla?",
+      "a": "El de Barents y el de Kara",
+      "x": [
+        "El de Kara y el de Láptev",
+        "El de Barents y el Blanco"
+      ]
+    }
+  },
+  "Q3803": {
+    "t": "Volcán tras volcán, de Bali a Timor",
+    "s": "Al este de Java, las islas se vuelven más pequeñas y secas —Bali, Lombok, Sumbawa, Flores y hacia Timor— y casi todas están coronadas por volcanes. Algunas cumbres guardan lagos de cráter asombrosos: el Rinjani, en Lombok, acuna una media luna de agua azul con un cono joven que surge en su interior. Más al este, el verde cede ante una sabana parda, donde los dragones de Komodo aún recorren algunas islas.",
+    "w": "Una cadena de islas volcánicas de oeste a este, más verdes al oeste y más pardas al este; busca lagos de cráter y calderas.",
+    "f": [
+      "En Flores, los tres lagos de cráter del Kelimutu tienen cada uno un color distinto, y los colores cambian con el tiempo.",
+      "El Tambora, en Sumbawa, quedó con una caldera de unos 6 km de ancho tras su gran erupción de 1815.",
+      "En 2003 se hallaron en Flores restos de Homo floresiensis, un diminuto humano extinto apodado el «hobbit»."
+    ],
+    "q": {
+      "q": "¿Qué isla de las Menores de la Sonda tiene tres lagos de cráter de colores distintos?",
+      "a": "Flores",
+      "x": [
+        "Lombok",
+        "Sumba"
+      ]
+    }
+  },
+  "Q215664": {
+    "t": "Cientos de arrecifes en el mar de la China Meridional",
+    "s": "En el sur del mar de la China Meridional se extienden mucho más de cien arrecifes, atolones y cayos de arena, muchos de ellos cubiertos por la marea alta. Desde arriba se ven como tenues manchas turquesa y anillos claros sobre el azul profundo, con apenas unas motas de tierra firme entre ellos. Las antiguas cartas británicas marcaban toda esta zona con una advertencia seca: «Dangerous Ground», terreno peligroso.",
+    "w": "Tenues anillos turquesa y manchas de arrecife esparcidos por un mar azul oscuro, con muy poca tierra seca.",
+    "f": [
+      "Las islas llevan el nombre de Richard Spratly, un capitán ballenero británico que avistó una de ellas en 1843.",
+      "Toda su tierra seca natural junta apenas suma unos 2 km²."
+    ],
+    "q": {
+      "q": "¿Cómo marcaban la zona de las Spratly las antiguas cartas británicas?",
+      "a": "Terreno peligroso",
+      "x": [
+        "Bajíos traicioneros",
+        "Laberinto de coral"
+      ]
+    }
+  },
+  "Q201012": {
+    "t": "Islas árticas de hielo, arena y huesos de mamut",
+    "s": "Las islas de Nueva Siberia se extienden bajas y llanas entre el mar de Láptev y el de Siberia Oriental, a menudo imposibles de distinguir del hielo marino que las rodea. En verano se ven como tundra parda y arena gris, con lagos y acantilados de antiguo hielo fósil que se desmoronan. El suelo helado guarda tantos huesos y colmillos de mamut que los buscadores de marfil vienen aquí desde hace más de dos siglos.",
+    "w": "Islas bajas y llanas, pardas y grises, con muchos lagos, que se confunden con el hielo marino gran parte del año.",
+    "f": [
+      "La Tierra de Bunge, entre las islas Kotelni y Faddéyevski, es una llanura arenosa baja que se inunda con los temporales.",
+      "En 1811, Yákov Sánnikov informó de una tierra misteriosa al norte; la «Tierra de Sánnikov» nunca se encontró.",
+      "Kotelni es la mayor isla del grupo."
+    ],
+    "q": {
+      "q": "¿Qué tierra fantasma se citó al norte de las islas de Nueva Siberia?",
+      "a": "La Tierra de Sánnikov",
+      "x": [
+        "La Tierra de Crocker",
+        "La Tierra de Bunge"
+      ]
+    }
+  },
+  "Q128011": {
+    "t": "Las grandes islas del Caribe, de Cuba a Puerto Rico",
+    "s": "Las Antillas Mayores son los pesos pesados del Caribe: Cuba, La Española, Jamaica y Puerto Rico, alineadas de oeste a este. Desde arriba son islas grandes, verdes y montañosas, bordeadas de arena clara y bajíos turquesa, mientras que al norte el Atlántico se hunde en un azul oscuro y profundo. Cuba, la mayor, mide unos 1200 km de punta a punta.",
+    "w": "Grandes islas verdes de oeste a este: la larga y estrecha Cuba, la montañosa Española, Jamaica al sur y, al final, Puerto Rico.",
+    "f": [
+      "Cuba es la mayor isla del Caribe, con unos 105 000 km².",
+      "Al norte de Puerto Rico, la fosa de Puerto Rico cae hasta unos 8400 m, el punto más profundo del Atlántico.",
+      "Las Montañas Azules de Jamaica, de unos 2250 m, dan nombre a un café famoso."
+    ],
+    "q": {
+      "q": "¿Cuál es la isla más grande del Caribe?",
+      "a": "Cuba",
+      "x": [
+        "La Española",
+        "Jamaica"
+      ]
+    }
+  },
+  "Q21713615": {
+    "t": "Bajíos turquesa que parecen iluminados desde abajo",
+    "s": "En las Bahamas, el agua se roba el espectáculo. Las islas se asientan sobre enormes bancos de caliza de solo unos metros de profundidad, que brillan con un turquesa casi irreal, rizado por dibujos de arena. En el Gran Banco de Bahamas se hunde la Lengua del Océano, una fosa cuya agua azul tinta termina de golpe contra los bajíos claros: una de las líneas de color más nítidas que verás desde un avión.",
+    "w": "Grandes extensiones de bajíos turquesa claro con ondas de arena, islas bajas en sus bordes y líneas nítidas donde empieza el azul profundo.",
+    "f": [
+      "Colón tocó tierra por primera vez en América aquí, en octubre de 1492.",
+      "El país cuenta unas 700 islas y más de 2000 cayos pequeños.",
+      "El Dean’s Blue Hole, frente a Long Island, alcanza unos 200 m de profundidad, uno de los más hondos que se conocen."
+    ],
+    "q": {
+      "q": "¿En qué año tocó tierra Colón por primera vez en las Bahamas?",
+      "a": "1492",
+      "x": [
+        "1498",
+        "1502"
+      ]
+    }
+  },
+  "Q93259": {
+    "t": "Un collar curvo de islas que cierra el Caribe",
+    "s": "Las Antillas Menores trazan una curva de unos 800 km desde las islas Vírgenes hasta Granada, y separan el Caribe del Atlántico. Casi todas son islas volcánicas verdes y empinadas, cada una un pico con una falda de arrecife; Guadalupe tiene forma de mariposa. En un día claro, busca en la costa oeste de Santa Lucía los Pitons, dos agujas volcánicas afiladas, una junto a otra, al borde del agua.",
+    "w": "Una cadena curva de islas volcánicas pequeñas, empinadas y verdes de norte a sur, con el Atlántico abierto al este.",
+    "f": [
+      "Las islas interiores son volcánicas; las exteriores, como Antigua y Barbados, son más llanas y de caliza.",
+      "El Kick ’em Jenny, al norte de Granada, es un volcán activo que aún crece bajo el mar.",
+      "Los Pitons de Santa Lucía son Patrimonio Mundial de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué isla es famosa por dos agujas volcánicas llamadas los Pitons?",
+      "a": "Santa Lucía",
+      "x": [
+        "Dominica",
+        "Granada"
+      ]
+    }
+  },
+  "Q59771": {
+    "t": "Una media luna de selva y conos volcánicos empinados",
+    "s": "Nueva Bretaña es una media luna larga y curva de unos 500 km de punta a punta, la mayor isla del archipiélago Bismarck. A lo largo de su costa norte se alinean volcanes; el más llamativo es el Ulawun, un cono empinado y simétrico que además es uno de los más activos de Papúa Nueva Guinea. Tierra adentro, los montes calizos de Nakanai esconden dolinas gigantes y ríos subterráneos.",
+    "w": "Una isla larga en forma de media luna, de selva oscura, con conos volcánicos en la costa norte, uno de ellos alto y simétrico.",
+    "f": [
+      "El Ulawun, de unos 2300 m, es uno de los Volcanes de la Década elegidos para un estudio especial.",
+      "Es la mayor isla de Papúa Nueva Guinea después de la propia Nueva Guinea.",
+      "Algunas dolinas de los montes Nakanai tienen cientos de metros de profundidad."
+    ],
+    "q": {
+      "q": "¿Qué volcán activo se alza en la costa norte de Nueva Bretaña?",
+      "a": "El Ulawun",
+      "x": [
+        "El Bagana",
+        "El Manam"
+      ]
+    }
   }
 }

@@ -212,7 +212,7 @@ export async function installPreview(): Promise<void> {
     savePackage(pkgFor(B, A, new Date(now + 8 * 24 * hour), 'unknown', lang));
     history();
   }
-  if (scenario === 'aloft' || scenario === 'place' || scenario === 'guess') {
+  if (scenario === 'aloft' || scenario === 'place' || scenario === 'guess' || scenario === 'history') {
     // Takeoff is placed so that "now" falls on the best minute of the flight.
     const probe = pkgFor(A, B, new Date(now - 2 * hour), 'left', lang);
     const at = bestMinute(probe, (e) => new Date(now - e * 1000), scenario === 'guess');
@@ -227,7 +227,9 @@ export async function installPreview(): Promise<void> {
     const inView = (x: POI) => (x.overFrom != null ? x.overFrom <= at : (x.passAt ?? 0) <= at + 8 * 60);
     const told = p.pois.filter((x) => (x.textSource === 'editorial' || SAMPLE_TEXT[x.name]?.[lang as Lang]) && x.category !== 'historic' && inView(x));
     // The card shown is the told place nearest to "now", so it reads as live.
+    const past = p.pois.filter((x) => x.category === 'historic' && inView(x));
     const star =
+      scenario === 'history' ? past[past.length - 1] ?? p.pois.find((x) => x.category === 'historic') :
       told.sort((x, y) => Math.abs((x.passAt ?? 0) - at) - Math.abs((y.passAt ?? 0) - at))[0] ??
       passed.find((x) => x.category === 'range') ??
       passed[passed.length - 1];
@@ -273,6 +275,7 @@ export async function installPreview(): Promise<void> {
     aloft: `/flight/${w.__previewFlight}`,
     guess: `/flight/${w.__previewFlight}`,
     place: `/place/${w.__previewFlight}/${w.__previewPlace}`,
+    history: `/place/${w.__previewFlight}/${w.__previewPlace}`,
     arrival: `/arrival/${w.__previewFlight}`,
     atlas: '/atlas',
     achievements: '/achievements',

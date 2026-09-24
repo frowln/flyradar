@@ -1070,5 +1070,356 @@
         "L’inlandsis du Groenland"
       ]
     }
+  },
+  "ne-gl-bering-glacier": {
+    "t": "Le plus long glacier d’Amérique du Nord, un fleuve de glace",
+    "s": "En longeant le golfe d’Alaska, cherchez un immense lobe de glace qui s’étale sur la plaine côtière : le glacier Bering, long d’environ 190 km, le plus long et le plus vaste d’Amérique du Nord. Il descend du champ de glace Bagley, dans les monts Chugach et Saint-Élie. Des bandes sombres de débris rocheux ondulent à sa surface, pliées en vagues par ses avancées brutales passées.",
+    "w": "Un énorme lobe de glace débordant sur la plaine côtière à l’est du delta de la Copper, strié de lignes sombres et ondulées.",
+    "f": [
+      "Il porte le nom de l’explorateur Vitus Bering et a brusquement avancé plusieurs fois au cours du siècle dernier.",
+      "À son front s’étend le lac Vitus, encombré d’icebergs flottants."
+    ],
+    "q": {
+      "q": "Quel champ de glace alimente le glacier Bering ?",
+      "a": "Le champ de glace Bagley",
+      "x": [
+        "Le champ de glace Harding",
+        "Le champ de glace Juneau"
+      ]
+    }
+  },
+  "ne-gl-brasvellbreen": {
+    "t": "Le mur de glace qui a bondi de 20 km en deux ans",
+    "s": "Sur Nordaustlandet, deuxième île du Svalbard, la calotte d’Austfonna s’achève en une longue falaise basse, dont Bråsvellbreen est le plus grand émissaire. Entre 1936 et 1938, il a brusquement avancé, jusqu’à 20 km, sur un front de 30 km : l’une des plus fortes crues glaciaires jamais observées. L’été, l’eau de fonte dévale la falaise de glace en dizaines de cascades, droit dans la mer.",
+    "w": "Une longue falaise de glace basse qui court le long de la mer, bord d’une immense calotte blanche sur la deuxième île du Svalbard.",
+    "f": [
+      "Son nom norvégien signifie à peu près « gonflement soudain », en souvenir de cette avancée.",
+      "Le front de glace d’Austfonna court sur bien plus de 100 km, presque sans interruption.",
+      "Austfonna est l’une des plus grandes calottes glaciaires d’Europe."
+    ],
+    "q": {
+      "q": "Qu’a fait Bråsvellbreen entre 1936 et 1938 ?",
+      "a": "Il a avancé jusqu’à 20 km",
+      "x": [
+        "Il a reculé de 20 km",
+        "Il s’est scindé en deux"
+      ]
+    }
+  },
+  "ne-gl-cambria-icefield": {
+    "t": "Un champ de glace aux glaciers bleus au-dessus de Stewart",
+    "s": "Au sud-est du petit port de Stewart, au fond du long fjord du Portland Canal, le champ de glace Cambria couvre quelque 700 km² de la chaîne Côtière. Ses glaciers dévalent de tous côtés vers des vallées boisées. L’un d’eux, le glacier Bear, s’achève juste à côté d’une route, son front d’un bleu intense au-dessus d’un lac de fonte.",
+    "w": "Un champ de glace blanc parmi des pics côtiers déchiquetés, ses glaciers rayonnant vers des vallées vertes, à l’est d’un long fjord étroit.",
+    "f": [
+      "Le Portland Canal, le fjord en contrebas, mesure plus de 100 km et forme une partie de la frontière entre l’Alaska et le Canada.",
+      "Stewart, au fond du fjord, se dit le port libre de glace le plus septentrional du Canada.",
+      "Ses glaciers émissaires reculent depuis le début des années 1900."
+    ],
+    "q": {
+      "q": "Quel glacier du Cambria s’achève près d’une route, non loin de Stewart ?",
+      "a": "Le glacier Bear",
+      "x": [
+        "Le glacier Athabasca",
+        "Le glacier Mendenhall"
+      ]
+    }
+  },
+  "ne-gl-columbia-icefield": {
+    "t": "Le toit des Rocheuses, versé vers trois océans",
+    "s": "Le champ de glace Columbia est le plus grand des Rocheuses : quelque 200 km² de glace sur la ligne de partage des eaux, entre l’Alberta et la Colombie-Britannique. Son eau de fonte part vers trois océans : à l’ouest vers le Pacifique, au nord vers l’Arctique, à l’est vers l’Atlantique par la baie d’Hudson. Cherchez le glacier Athabasca, large langue blanche qui s’achève près de la promenade des Glaciers.",
+    "w": "Un haut plateau de glace blanc cerclé de pics rocheux, d’où une large langue glaciaire descend vers une route.",
+    "f": [
+      "Le mont Columbia, 3 747 m, sur son pourtour, est le point culminant de l’Alberta.",
+      "Le Snow Dome, sur le champ de glace, est un triple partage des eaux : sa fonte peut rejoindre trois océans différents.",
+      "Le glacier Athabasca a reculé de plus de 1,5 km depuis la fin du XIXe siècle."
+    ],
+    "q": {
+      "q": "Combien d’océans l’eau de fonte du champ Columbia rejoint-elle ?",
+      "a": "Trois",
+      "x": [
+        "Deux",
+        "Quatre"
+      ]
+    }
+  },
+  "ne-gl-devon-ice-cap": {
+    "t": "De la glace sur la plus grande île inhabitée du monde",
+    "s": "L’île Devon, au nord du détroit de Lancaster, est la plus grande île de la Terre sans habitants permanents, et sa partie est disparaît sous la calotte de Devon, environ 14 000 km² de blanc. À l’ouest de la glace s’étend un plateau nu, brun rouille, si martien que des scientifiques utilisent le cratère Haughton pour y répéter les missions vers la planète rouge. Vu d’avion, le contraste entre blanc et brun est saisissant.",
+    "w": "Un dôme blanc sur l’extrémité est de l’île, à côté de plateaux nus, brun rouille, entaillés de canyons.",
+    "f": [
+      "Le cratère Haughton, large d’environ 23 km, a été creusé par un impact il y a des dizaines de millions d’années.",
+      "Le projet Haughton-Mars organise des campagnes de terrain au cratère depuis 1997."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui distingue l’île Devon ?",
+      "a": "Plus grande île inhabitée",
+      "x": [
+        "Île la plus septentrionale",
+        "Plus grande île de l’Arctique"
+      ]
+    }
+  },
+  "ne-gl-edgeoyjokulen": {
+    "t": "Un dôme blanc sur l’île sauvage de l’est du Svalbard",
+    "s": "Edgeøya, troisième île du Svalbard, n’a pas d’habitants permanents, et une grande partie de son est est couverte de calottes comme Edgeøyjøkulen. Cherchez un dôme blanc et lisse dont les bords se brisent en courts glaciers qui atteignent la mer, tandis que l’ouest de l’île montre des plateaux bruns, nus et étagés. En hiver, l’île entière se confond avec la mer gelée qui l’entoure.",
+    "w": "Un dôme blanc et lisse sur une grande île au sud-est du Spitzberg, de courts glaciers atteignant la mer, des hauteurs brunes et nues.",
+    "f": [
+      "L’île doit son nom à Thomas Edge, un marchand anglais de la chasse à la baleine au XVIIe siècle.",
+      "Edgeøya se trouve dans une réserve naturelle où les ours polaires circulent librement."
+    ],
+    "q": {
+      "q": "Quel rang Edgeøya occupe-t-elle parmi les îles du Svalbard par la taille ?",
+      "a": "Troisième",
+      "x": [
+        "Première",
+        "Cinquième"
+      ]
+    }
+  },
+  "ne-gl-harding-icefield": {
+    "t": "Une mer gelée d’où s’échappent des dizaines de glaciers",
+    "s": "Sur la péninsule Kenai, au sud d’Anchorage, le champ de glace Harding ensevelit quelque 1 800 km² de montagnes ; seules des cimes rocheuses en émergent. Plus de 30 glaciers s’en écoulent, dont plusieurs jusqu’aux fjords du parc national de Kenai Fjords. D’en haut, c’est une mer blanche semée d’îlots de roche sombre — les nunataks — qui s’arrête net sur la côte verte.",
+    "w": "Une étendue blanche piquée de pics rocheux sombres, dont les langues glaciaires descendent vers les fjords de la côte sud de la péninsule Kenai.",
+    "f": [
+      "Il porte le nom du président américain Warren G. Harding, venu en Alaska en 1923.",
+      "Le glacier Exit, près de la ville de Seward, est la seule partie du champ de glace accessible par la route."
+    ],
+    "q": {
+      "q": "Quel parc national s’étend sous le champ de glace Harding ?",
+      "a": "Kenai Fjords",
+      "x": [
+        "Glacier Bay",
+        "Denali"
+      ]
+    }
+  },
+  "ne-gl-holtedahlfonna": {
+    "t": "Le champ de glace qui nourrit les glaciers du Kongsfjorden",
+    "s": "Le nord-ouest du Spitzberg est couronné par Holtedahlfonna, deuxième calotte de l’île, quelque 1 400 km² de blanc. Sa glace s’écoule vers l’ouest par le Kronebreen, l’un des glaciers les plus rapides du Svalbard, qui s’achève en un mur bleu croulant au fond du Kongsfjorden. Sur ce même fjord se trouve Ny-Ålesund, l’un des villages de recherche les plus septentrionaux de la planète.",
+    "w": "Un large champ de glace blanc à l’est du Kongsfjorden, qui envoie un large glacier jusqu’au fond du fjord.",
+    "f": [
+      "Elle porte le nom du géologue norvégien Olaf Holtedahl.",
+      "Le Kronebreen peut avancer jusqu’à environ 3 m par jour.",
+      "Ny-Ålesund accueille des stations de recherche d’une dizaine de pays."
+    ],
+    "q": {
+      "q": "Quel glacier rapide déverse Holtedahlfonna dans le Kongsfjorden ?",
+      "a": "Le Kronebreen",
+      "x": [
+        "Le Negribreen",
+        "Le Bråsvellbreen"
+      ]
+    }
+  },
+  "ne-gl-juneau-icefield": {
+    "t": "Un champ de glace derrière une capitale sans route",
+    "s": "Juste derrière Juneau, la capitale de l’Alaska, les montagnes disparaissent sous le champ de glace de Juneau, près de 4 000 km² de glace à cheval sur la frontière entre les États-Unis et le Canada. Des dizaines de glaciers s’en échappent : le Mendenhall arrive presque aux faubourgs, le Taku descend vers la mer. Cette glace est l’une des raisons pour lesquelles aucune route ne relie Juneau au reste de l’Amérique du Nord.",
+    "w": "Un plateau blanc aux pics sombres derrière Juneau, des glaciers filant vers la mer, l’un s’achevant dans un lac près de la ville.",
+    "f": [
+      "Juneau est la seule capitale d’État américaine du continent sans liaison routière avec le reste de l’Amérique du Nord.",
+      "Chaque été depuis la fin des années 1940, des étudiants l’étudient dans le cadre du Juneau Icefield Research Program.",
+      "Pendant des décennies, le Taku a été l’un des rares glaciers d’Alaska en progression."
+    ],
+    "q": {
+      "q": "Quel glacier du champ de Juneau s’achève dans un lac près de la ville ?",
+      "a": "Le glacier Mendenhall",
+      "x": [
+        "Le glacier Hubbard",
+        "Le glacier Columbia"
+      ]
+    }
+  },
+  "ne-gl-karpinsky-ice-cap": {
+    "t": "Le point culminant de la Severnaïa Zemlia est en glace",
+    "s": "La calotte Karpinski est la plus grande des sept calottes de l’île de la Révolution-d’Octobre, avec environ 2 800 km². Son sommet, vers 965 m, est le point culminant de tout l’archipel de la Severnaïa Zemlia — et c’est de la glace, pas de la roche. Cherchez un large dôme qui descend vers la mer des Laptev, ses bords fendus en glaciers émissaires et en baies encombrées de glace presque toute l’année.",
+    "w": "Un large dôme blanc sur le côté est d’une grande île arctique, des glaciers plongeant dans des baies prises par les glaces.",
+    "f": [
+      "Elle porte le nom d’Alexandre Karpinski, géologue devenu le premier président élu de l’Académie des sciences de Russie.",
+      "L’île de la Révolution-d’Octobre est la plus grande de la Severnaïa Zemlia."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui forme le point culminant de la Severnaïa Zemlia ?",
+      "a": "Une calotte glaciaire",
+      "x": [
+        "Un volcan",
+        "Une aiguille rocheuse"
+      ]
+    }
+  },
+  "ne-gl-kluane-ice-cap": {
+    "t": "Les plus vastes champs de glace hors des régions polaires",
+    "s": "Entre le Yukon et l’Alaska s’étend une mer de glace qui engloutit des chaînes entières : les champs de glace des monts Saint-Élie, les plus vastes hors des régions polaires. Il en surgit le mont Logan, 5 959 m, point culminant du Canada et l’une des montagnes les plus massives de la Terre. D’en haut, cherchez des fleuves de glace larges de plusieurs kilomètres, rayés de moraines sombres comme des autoroutes.",
+    "w": "Des champs de glace blancs sans fin, des pics rocheux sombres et d’immenses glaciers rayés, en retrait du golfe d’Alaska.",
+    "f": [
+      "Le parc national Kluane et ses voisins forment un seul site du patrimoine mondial, à cheval sur la frontière canado-américaine.",
+      "Le mont Logan aurait la plus grande base de toutes les montagnes non volcaniques de la Terre.",
+      "Le glacier Hubbard, nourri par ces champs de glace, vêle dans la mer près de Yakutat."
+    ],
+    "q": {
+      "q": "Quelle montagne, surgie de ces champs de glace, est la plus haute du Canada ?",
+      "a": "Le mont Logan",
+      "x": [
+        "Le mont Robson",
+        "Le mont Saint-Élie"
+      ]
+    }
+  },
+  "ne-gl-lyell-icefield": {
+    "t": "Cinq sommets baptisés pour des guides suisses",
+    "s": "Au sud du champ de glace Columbia, une autre nappe de glace s’étend sur la ligne de partage des eaux : le champ Lyell. Au-dessus se dressent les cinq sommets du mont Lyell, nommé d’après le géologue Charles Lyell ; chacun de ses pics honore des guides suisses des Rocheuses canadiennes. Cherchez un plateau blanc qui envoie ses glaciers à l’ouest vers la Colombie-Britannique et à l’est vers les vallées du parc Banff.",
+    "w": "Un plateau de glace blanc sur la crête des Rocheuses, au sud du champ Columbia, plus vaste, des glaciers débordant des deux côtés.",
+    "f": [
+      "Charles Lyell, dont il porte le nom, fut l’un des fondateurs de la géologie moderne.",
+      "Ses glaciers est alimentent la Saskatchewan Nord, dont l’eau finit dans la baie d’Hudson."
+    ],
+    "q": {
+      "q": "Quelle rivière les glaciers est du champ Lyell alimentent-ils ?",
+      "a": "La Saskatchewan Nord",
+      "x": [
+        "L’Athabasca",
+        "La Bow"
+      ]
+    }
+  },
+  "ne-gl-malaspina-glacier": {
+    "t": "Un éventail de glace géant étalé sur la plaine d’Alaska",
+    "s": "Cherchez un immense lobe de glace arrondi, étalé sur la plaine côtière au pied du mont Saint-Élie : le Malaspina, le plus grand glacier de piémont du monde. Le glacier Seward s’extrait des montagnes par une brèche et s’étale comme une pâte sur une table, sur environ 65 km de large. Sa surface est marbrée de bandes sombres de moraine, pliées en zigzags par ses avancées brutales successives.",
+    "w": "Un énorme lobe de glace arrondi sur la plaine côtière, marbré de zigzags sombres, à l’ouest de la baie de Yakutat.",
+    "f": [
+      "Il couvre environ 3 900 km², plus que l’État américain du Rhode Island.",
+      "Il porte le nom d’Alessandro Malaspina, qui explora cette côte pour l’Espagne en 1791.",
+      "Son lit se trouve sous le niveau de la mer : l’océan pourrait un jour s’y engouffrer si la glace s’amincit assez."
+    ],
+    "q": {
+      "q": "Quel type de glacier est le Malaspina ?",
+      "a": "Un glacier de piémont",
+      "x": [
+        "Un glacier à front marin",
+        "Un glacier de cirque"
+      ]
+    }
+  },
+  "ne-gl-manson-icefield": {
+    "t": "Une nappe de glace solitaire sur la rive sud d’Ellesmere",
+    "s": "Le long de la côte sud-est de l’île d’Ellesmere, tout au fond de la baie de Baffin, le champ de glace Manson couvre environ 6 000 km² de montagnes. D’en haut, c’est un large plateau blanc dont les glaciers plongent à pic dans la mer, vêlant des icebergs qui dérivent lentement vers le sud. Aucune route, aucun village sur la glace ; en hiver, elle se fond avec la mer gelée en une seule plaine blanche.",
+    "w": "Un large plateau blanc sur la côte sud-est d’Ellesmere, des glaciers plongeant à pic dans une eau sombre semée de glaces.",
+    "f": [
+      "Grise Fiord, la communauté civile la plus septentrionale du Canada, se trouve sur la même côte sud d’Ellesmere.",
+      "Juste au large, la polynie des Eaux du Nord est une étendue de mer qui reste en partie libre même en hiver."
+    ],
+    "q": {
+      "q": "Quelle est la communauté civile la plus septentrionale du Canada, sur Ellesmere ?",
+      "a": "Grise Fiord",
+      "x": [
+        "Resolute",
+        "Alert"
+      ]
+    }
+  },
+  "ne-gl-monarch-icefield": {
+    "t": "Une couronne de glace au-dessus de la vallée de Bella Coola",
+    "s": "Au sud-est de Bella Coola, petite ville au bout d’un fjord, la chaîne Côtière disparaît sous le champ de glace Monarch, le plus septentrional d’une série de grands champs de glace des chaînons du Pacifique. Le mont Monarch, qui lui donne son nom, domine de ses 3 555 m les pics alentour. D’en haut, cherchez un plateau blanc aux sommets sombres, des glaciers filant vers des vallées vertes et, au-delà, les longs fjords côtiers.",
+    "w": "Un champ de glace blanc aux sommets rocheux sombres, au sud-est d’un long fjord, ses glaciers descendant vers de profondes vallées vertes.",
+    "f": [
+      "Henry Hall et Hans Fuhrer ont réussi la première ascension du mont Monarch en 1936.",
+      "Le champ de glace Ha-Iltzuk, le plus grand de ce groupe, se trouve au sud.",
+      "La vallée de Bella Coola, en contrebas, est connue pour ses grizzlis qui pêchent le saumon."
+    ],
+    "q": {
+      "q": "Quelle ville de fjord se trouve au nord-ouest du champ de glace Monarch ?",
+      "a": "Bella Coola",
+      "x": [
+        "Prince Rupert",
+        "Kitimat"
+      ]
+    }
+  },
+  "ne-gl-mount-brown-icefield": {
+    "t": "Théâtre d’une célèbre erreur d’altitude",
+    "s": "Près du col d’Athabasca, sur la ligne de partage des eaux, s’étend le champ de glace du mont Brown, nappe tranquille au sud de Jasper. Son nom a une histoire : en 1827, le botaniste écossais David Douglas affirma que le mont Brown et son voisin le mont Hooker culminaient vers 16 000 pieds, les plus hauts d’Amérique du Nord. Les cartes l’ont répété des décennies. Tous deux font en réalité bien moins de 3 500 m.",
+    "w": "Un champ de glace blanc parmi des pics sombres sur la crête des Rocheuses, près d’une échancrure basse, ancien col de la traite des fourrures.",
+    "f": [
+      "Au début du XIXe siècle, le col d’Athabasca était une grande route de la traite des fourrures à travers les Rocheuses.",
+      "Le mont Brown doit son nom au botaniste Robert Brown, connu pour avoir décrit le mouvement brownien.",
+      "Le mythe des pics géants a tenu jusqu’aux vérifications d’alpinistes et de géomètres dans les années 1890."
+    ],
+    "q": {
+      "q": "Sur quoi David Douglas s’est-il trompé à propos du mont Brown en 1827 ?",
+      "a": "Son altitude",
+      "x": [
+        "Son nom",
+        "Son emplacement"
+      ]
+    }
+  },
+  "ne-gl-muller-ice-cap": {
+    "t": "De la glace arctique sur une île aux forêts fossiles",
+    "s": "L’île Axel Heiberg, à l’ouest d’Ellesmere, est couronnée de deux calottes, et la Müller est celle du nord. Ses glaciers émissaires descendent lentement vers de longs fjords. Tout près, le glacier White est mesuré chaque année depuis 1959, l’une des plus longues séries de ce genre dans l’Arctique. Ailleurs sur l’île gisent des souches d’arbres momifiées, vestiges de forêts qui poussaient ici il y a environ 45 millions d’années.",
+    "w": "Une large calotte blanche au nord de l’île Axel Heiberg, des glaciers descendant vers de longs fjords sombres.",
+    "f": [
+      "L’île porte le nom d’Axel Heiberg, directeur de brasserie norvégien qui finança l’expédition d’Otto Sverdrup.",
+      "L’université McGill exploite une station de recherche estivale à Expedition Fiord depuis 1960."
+    ],
+    "q": {
+      "q": "Quels fossiles remarquables a-t-on trouvés sur l’île Axel Heiberg ?",
+      "a": "Des souches d’arbres momifiées",
+      "x": [
+        "Des empreintes de dinosaures",
+        "Des squelettes de mammouths"
+      ]
+    }
+  },
+  "ne-gl-myrdalsjokull": {
+    "t": "Une calotte qui cache le volcan Katla",
+    "s": "Près de la pointe sud de l’Islande, une calotte ronde et blanche domine des plaines de sable noir : le Mýrdalsjökull, environ 500 km². Dessous se cache le Katla, l’un des volcans les plus puissants d’Islande, dont la dernière grande éruption, en 1918, lança des crues d’eau de fonte à travers la côte. Juste à l’ouest se trouve l’Eyjafjallajökull, plus petit, dont l’éruption de 2010 cloua les avions au sol dans toute l’Europe pendant des jours.",
+    "w": "Une calotte blanche arrondie au-dessus de plaines de sable noir sur la côte sud de l’Islande, avec l’Eyjafjallajökull, plus petit, juste à l’ouest.",
+    "f": [
+      "La crue du Katla en 1918 charria tant de sédiments qu’elle repoussa le rivage de plusieurs kilomètres vers le large.",
+      "Vík, près de son pied sud, est le village le plus méridional d’Islande.",
+      "Le Mýrdalsjökull est le quatrième glacier d’Islande par la taille."
+    ],
+    "q": {
+      "q": "Quel volcan se cache sous le Mýrdalsjökull ?",
+      "a": "Le Katla",
+      "x": [
+        "L’Hekla",
+        "Le Grímsvötn"
+      ]
+    }
+  },
+  "ne-gl-negribreen": {
+    "t": "Un glacier qui se réveille environ une fois par siècle",
+    "s": "Sur la côte est du Spitzberg, le Negribreen se jette dans le vaste Storfjorden : un large fleuve de glace à la surface très crevassée. C’est un glacier sujet aux avancées brutales : en 1935–1936, il a bondi de près de 12 km en une seule année. En 2016, il s’est réveillé, et en 2017 certaines parties filaient à environ 20 m par jour. D’en haut, cherchez une surface chaotique, brisée en blocs de glace blancs.",
+    "w": "Un large glacier très crevassé sur la côte est du Spitzberg, qui s’achève en falaise de glace dans le vaste Storfjorden.",
+    "f": [
+      "Lors de son avancée de 1935–1936, le front a progressé sur une largeur d’environ 15 km.",
+      "Les glaciers à avancées brutales sont courants au Svalbard ; beaucoup restent calmes des décennies entre deux crues."
+    ],
+    "q": {
+      "q": "De combien le Negribreen a-t-il bondi en 1935–1936 ?",
+      "a": "D’environ 12 km",
+      "x": [
+        "D’environ 1 km",
+        "D’environ 50 km"
+      ]
+    }
+  },
+  "ne-gl-north-ellesmere-ice-cap": {
+    "t": "De la glace tout en haut de l’Amérique du Nord",
+    "s": "L’extrémité nord de l’île d’Ellesmere compte parmi les terres les plus septentrionales du globe, et elle est en grande partie couverte de calottes et de champs de glace. Ici, dans le parc national Quttinirpaaq, se dressent les plus hautes montagnes de l’Arctique canadien, dont le pic Barbeau, 2 616 m. D’en haut, cherchez des plateaux blancs percés de nunataks sombres et, le long de la côte, les restes déchiquetés d’anciennes plates-formes de glace flottantes.",
+    "w": "Des plateaux blancs percés de pics sombres, frangés le long de l’océan Arctique par les restes de plates-formes de glace flottantes.",
+    "f": [
+      "Le cap Columbia, sur la côte nord d’Ellesmere, est le point le plus septentrional du Canada.",
+      "Quttinirpaaq signifie « le sommet du monde » en inuktitut.",
+      "Le pic Barbeau, 2 616 m, est la plus haute montagne du Nunavut."
+    ],
+    "q": {
+      "q": "Que signifie « Quttinirpaaq » en inuktitut ?",
+      "a": "Le sommet du monde",
+      "x": [
+        "La terre de glace",
+        "Le pays des ours"
+      ]
+    }
   }
 }

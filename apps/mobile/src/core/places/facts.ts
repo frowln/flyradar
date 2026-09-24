@@ -18,8 +18,11 @@ export function inViewSeconds(poi: POI): number | null {
 }
 
 export function placeFacts(poi: POI, pkg: OfflinePackage): string[] {
+  // A kingdom's heartland or a caravan road is not recognised from a distance:
+  // its card says what to look for in the landscape instead.
+  if (poi.category === 'historic') return [];
   const out: string[] = [];
-  const kind = poi.category === 'historic' || poi.category === 'park' ? 'landmark' : poi.category;
+  const kind = poi.category === 'park' ? 'landmark' : poi.category;
   const range = recognitionRangeKm({ k: kind as never, r: poi.rank ?? 5, pop: poi.population, el: poi.elevation, ext: poi.extentKm });
 
   // Time in view is already a cell on the card; the facts say what a cell cannot.

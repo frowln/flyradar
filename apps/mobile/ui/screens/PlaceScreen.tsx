@@ -253,7 +253,7 @@ export default function PlaceScreen() {
   const cells = [
     poi.elevation ? (() => { const m = metres(poi.elevation); return { value: m.value, label: `${t('place.elevation')} · ${t(`unit.${m.unit}`)}`, spoken: `${t('place.elevation')}: ${m.value} ${t(`unit.${m.unit}`)}` }; })() : null,
     poi.population ? { value: formatInt(poi.population), label: t('place.population') } : null,
-    poi.extentKm && !poi.population ? (() => { const k = km(poi.extentKm * 2); return { value: k.value, label: `${t('place.extent')} · ${t(`unit.${k.unit}`)}`, spoken: `${t('place.extent')}: ${k.value} ${t(`unit.${k.unit}`)}` }; })() : null,
+    poi.extentKm && !poi.population && poi.category !== 'historic' ? (() => { const k = km(poi.extentKm * 2); return { value: k.value, label: `${t('place.extent')} · ${t(`unit.${k.unit}`)}`, spoken: `${t('place.extent')}: ${k.value} ${t(`unit.${k.unit}`)}` }; })() : null,
     poi.side !== 'below' && poi.closestApproachKm != null ? { value: closest.value, label: `${t('place.closest')} · ${t(`unit.${closest.unit}`)}`, spoken: `${t('place.closest')}: ${closest.value} ${t(`unit.${closest.unit}`)}` } : null,
     seen && seen >= 60 ? { value: clock(seen), label: t('place.inView'), spoken: `${t('place.inView')}: ${spokenDuration(seen)}` } : null
   ].filter(Boolean) as { value: string; label: string; spoken?: string }[];

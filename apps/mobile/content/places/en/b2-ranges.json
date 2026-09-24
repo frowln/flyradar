@@ -1587,5 +1587,324 @@
         "Vignemale"
       ]
     }
+  },
+  "Q1029702": {
+    "t": "Mexico’s tangled southern ranges above the Pacific",
+    "s": "Along Mexico’s southern Pacific coast, from Jalisco to Oaxaca, the land crumples into the Sierra Madre del Sur: a maze of steep, forested ridges and deep valleys with few roads across it. From above it looks endlessly folded, green in the rainy season and brown in the dry. Hidden in its highlands lies the Valley of Oaxaca, with the ancient Zapotec city of Monte Albán on a levelled hilltop.",
+    "w": "Endless steep, folded ridges between the Pacific coast and the highlands, with deep river valleys and few roads.",
+    "f": [
+      "Monte Albán, founded around 500 BC on a flattened mountaintop above Oaxaca, is a UNESCO World Heritage Site.",
+      "Acapulco’s famous bay is framed by the foothills of the Sierra Madre del Sur."
+    ],
+    "q": {
+      "q": "Which ancient city stands on a levelled hilltop in these mountains?",
+      "a": "Monte Albán",
+      "x": [
+        "Teotihuacan",
+        "Chichén Itzá"
+      ]
+    }
+  },
+  "Q660304": {
+    "t": "Fog, redwoods and faults along America’s Pacific edge",
+    "s": "Hugging the Pacific from southern California to Washington, the Coast Ranges are a long band of rugged, forested hills rarely far from the surf. On summer mornings, fog pours in from the ocean and fills their valleys like milk. That fog helps sustain the coast redwoods here in northern California — the tallest trees on Earth.",
+    "w": "Dark-green forested ridges right along the ocean, often with white fog filling the valleys between them in the morning.",
+    "f": [
+      "Hyperion, a coast redwood in northern California, is the tallest known living tree, about 116 m.",
+      "The San Andreas Fault runs through the southern Coast Ranges, where the Pacific plate slides past North America.",
+      "Coast redwoods grow only in a narrow strip of fog-bathed land in California and southern Oregon."
+    ],
+    "q": {
+      "q": "Which trees, the tallest on Earth, grow in these ranges?",
+      "a": "Coast redwoods",
+      "x": [
+        "Giant sequoias",
+        "Douglas firs"
+      ]
+    }
+  },
+  "Q144040": {
+    "t": "Folded limestone ridges curling around Monterrey",
+    "s": "From above, the Sierra Madre Oriental is one of the most striking fold belts on Earth: long, parallel limestone ridges bend and curve like the lines of a fingerprint. Near Monterrey the folds swing from north–south to east–west in one great curve. The range runs about 1,000 km through north-eastern Mexico, a dry, grey-green wall between the coastal plain and the high central plateau.",
+    "w": "Long, parallel grey limestone ridges curving like fingerprint lines, with dry basins between them and Monterrey at the eastern foot.",
+    "f": [
+      "Monterrey’s saddle-shaped landmark, the Cerro de la Silla, is a spur of the range.",
+      "The range forms the eastern edge of the Mexican Plateau, rising above the coastal plain.",
+      "Cumbres de Monterrey National Park protects the rugged ridges around the city."
+    ],
+    "q": {
+      "q": "Which city lies at the foot of the Sierra Madre Oriental’s great curve?",
+      "a": "Monterrey",
+      "x": [
+        "Guadalajara",
+        "Chihuahua"
+      ]
+    }
+  },
+  "Q26777": {
+    "t": "California’s granite wall, with Yosemite carved into it",
+    "s": "Think of a giant granite slab tilted up on one side: a long, gentle slope rising from California’s Central Valley, and a sheer eastern wall dropping some three kilometres to the desert. That is the Sierra Nevada. Ice Age glaciers carved it into deep valleys, the most famous being Yosemite, with its sheer walls and domes.",
+    "w": "Pale granite peaks and domes, deep glacier-carved valleys and lakes, snow on the crest; Lake Tahoe’s deep blue to the north.",
+    "f": [
+      "Mount Whitney, 4,421 m, is the highest peak in the contiguous United States.",
+      "Giant sequoias, the most massive trees on Earth, grow wild only on the Sierra’s western slopes.",
+      "Lake Tahoe, high in the range, is about 500 m deep."
+    ],
+    "q": {
+      "q": "Which is the highest peak in the contiguous United States?",
+      "a": "Mount Whitney",
+      "x": [
+        "Mount Rainier",
+        "Mount Elbert"
+      ]
+    }
+  },
+  "Q1124584": {
+    "t": "Mexico’s great volcanic plateau, split by canyons",
+    "s": "Running about 1,200 km down western Mexico, the Sierra Madre Occidental is a high plateau built from enormous volcanic eruptions tens of millions of years ago and now cut by deep canyons. The most famous, the Copper Canyon system in Chihuahua, is in places deeper than the Grand Canyon. From above, look for pine-covered uplands suddenly split by dark, winding gorges.",
+    "w": "A high, pine-dotted plateau sliced by deep, winding canyons, with dry desert basins on both sides.",
+    "f": [
+      "The plateau is built from layers of volcanic ash laid down by huge eruptions some 30 million years ago.",
+      "The Rarámuri, or Tarahumara, people of the Copper Canyon are famous for running very long distances.",
+      "The Chepe railway crosses the range from Chihuahua to the Pacific coast through 86 tunnels."
+    ],
+    "q": {
+      "q": "Which canyon system cuts the Sierra Madre Occidental?",
+      "a": "The Copper Canyon",
+      "x": [
+        "The Grand Canyon",
+        "The Sumidero Canyon"
+      ]
+    }
+  },
+  "Q1089367": {
+    "t": "Ice-buried peaks on the stormy Gulf of Alaska",
+    "s": "The Chugach rise straight out of the Gulf of Alaska, catching storm after storm off the Pacific, and much of the range lies buried under ice. From above you see a white sea of glaciers with dark peaks poking through, and tongues of ice creeping down to the fjords of Prince William Sound. Thompson Pass, near Valdez, is among the snowiest places in North America.",
+    "w": "A white expanse of icefields and glaciers with dark peaks poking through, ending in fjords and the grey-blue Gulf of Alaska.",
+    "f": [
+      "The Bagley Icefield in the eastern Chugach is one of the largest icefields in North America outside the polar regions.",
+      "The Columbia Glacier, which flows into Prince William Sound, has retreated more than 20 km since the 1980s.",
+      "In the winter of 1952–53 Thompson Pass recorded about 25 m of snow."
+    ],
+    "q": {
+      "q": "Which icefield lies in the eastern Chugach Mountains?",
+      "a": "The Bagley Icefield",
+      "x": [
+        "The Juneau Icefield",
+        "The Columbia Icefield"
+      ]
+    }
+  },
+  "Q1817102": {
+    "t": "Wild peaks where the Nahanni carves its canyons",
+    "s": "Almost roadless and nearly empty of people, the Mackenzie Mountains stretch along the border of Yukon and the Northwest Territories. From above you see bare grey ridges, braided rivers and, in autumn, tundra turning red and gold. At their southern end the South Nahanni River carves deep canyons and plunges over Virginia Falls, about twice the height of Niagara.",
+    "w": "Bare, grey, folded ridges and wide braided rivers, with almost no roads or settlements in sight.",
+    "f": [
+      "In 1978 Nahanni National Park became one of the first places listed as UNESCO World Heritage Sites.",
+      "Keele Peak, about 2,950 m, is the highest point of the range."
+    ],
+    "q": {
+      "q": "Which famous falls lie on the South Nahanni River?",
+      "a": "Virginia Falls",
+      "x": [
+        "Kakabeka Falls",
+        "Hunlen Falls"
+      ]
+    }
+  },
+  "Q1132302": {
+    "t": "Bolivia’s Royal Range, a snowy wall above the Altiplano",
+    "s": "East of the Altiplano rises a line of high, often snowy peaks — the Cordillera Real, the “Royal Range”. At its northern end Illimani, 6,438 m, towers over La Paz, its white bulk visible from much of the city. Further south the mountains grow drier and redder, cradling Potosí, which grew rich on the silver of Cerro Rico.",
+    "w": "A wall of snowy peaks and glaciers east of the flat, brown Altiplano, with deep valleys dropping away on the far side.",
+    "f": [
+      "Potosí, at about 4,000 m, was one of the richest cities in the world in the 16th and 17th centuries, thanks to its silver.",
+      "The range’s glaciers help supply water to La Paz and El Alto."
+    ],
+    "q": {
+      "q": "Which mountain towers over La Paz?",
+      "a": "Illimani",
+      "x": [
+        "Sajama",
+        "Licancabur"
+      ]
+    }
+  },
+  "ne-rg-1159103969": {
+    "t": "Peru’s western wall of volcanoes and deep canyons",
+    "s": "Between the coastal desert and the high puna, Peru’s Western Cordillera rises as a chain of snow-capped volcanoes — Coropuna, Ampato, Misti. Rivers have sawn canyons through it, and Colca and Cotahuasi are among the deepest on Earth, over 3 km from rim to river. From above, look for white cones standing on brown plateaus, with the desert falling away towards the Pacific.",
+    "w": "Snow-capped volcanic cones on a high brown plateau, deep dark canyons, and bare desert slopes falling towards the ocean.",
+    "f": [
+      "Coropuna, about 6,400 m, is the highest volcano in Peru.",
+      "The Colca Canyon is famous for Andean condors riding the morning updrafts.",
+      "The Nazca Lines lie on the desert plain at the western foot of this cordillera."
+    ],
+    "q": {
+      "q": "Which is the highest volcano in Peru?",
+      "a": "Coropuna",
+      "x": [
+        "El Misti",
+        "Ubinas"
+      ]
+    }
+  },
+  "ne-rg-1159103969-2": {
+    "t": "The Andes’ westernmost ridge, facing the rainy Chocó",
+    "s": "In Colombia the Andes split into three parallel ranges, and this is the westernmost. On its Pacific side lies the Chocó, one of the rainiest regions on Earth, draped in rainforest and usually under cloud; to the east the Cauca River runs through a deep valley. Southwards the same range continues into Ecuador, where it carries the ice-capped Chimborazo.",
+    "w": "A forested ridge with cloud piled up on its western, Pacific side and the deep Cauca valley on its eastern side.",
+    "f": [
+      "Towns in the Chocó below its western slopes are among the rainiest places on Earth.",
+      "Because Earth bulges at the equator, Chimborazo’s summit is the point on its surface farthest from the planet’s centre.",
+      "The steep Farallones de Cali, part of the range, rise just west of the city of Cali."
+    ],
+    "q": {
+      "q": "Which summit of this range is farthest from Earth’s centre?",
+      "a": "Chimborazo",
+      "x": [
+        "Cotopaxi",
+        "Huascarán"
+      ]
+    }
+  },
+  "Q804330": {
+    "t": "The White Range: the tropics’ greatest mass of ice",
+    "s": "Peru’s Cordillera Blanca is well named: a white wall of glaciers and fluted ice peaks only about nine degrees south of the equator, with more tropical glaciers than any other range on Earth. Its highest summit, Huascarán, reaches 6,768 m. Below, look for turquoise glacial lakes in the valleys and the green trench of the Santa River along its western foot.",
+    "w": "A line of brilliant white, fluted ice peaks with turquoise lakes in the valleys, running parallel to the Pacific coast.",
+    "f": [
+      "Huascarán, 6,768 m, is the highest mountain in Peru.",
+      "Huascarán National Park, which covers the range, is a UNESCO World Heritage Site.",
+      "The giant Puya raimondii, a relative of the pineapple, grows on its slopes; its flower spike can reach about 10 m."
+    ],
+    "q": {
+      "q": "Which is the highest mountain in Peru?",
+      "a": "Huascarán",
+      "x": [
+        "Alpamayo",
+        "Yerupajá"
+      ]
+    }
+  },
+  "Q4794486": {
+    "t": "The Andes’ eastern arm, reaching into Venezuela",
+    "s": "The easternmost of Colombia’s three Andean ranges carries Bogotá on its high plateau, then splits near the Venezuelan border. One arm, the Sierra de Perijá, heads north; the other, the Mérida Andes, runs north-east through Venezuela. Between them lies the vast blue sheet of Lake Maracaibo, so from above the mountains seem to hold it in a pincer.",
+    "w": "Rugged green-and-brown ridges; to the north-west, the wide blue expanse of Lake Maracaibo held between two mountain arms.",
+    "f": [
+      "Bogotá sits on a high plateau of this range at about 2,600 m.",
+      "Pico Bolívar, 4,978 m, in the Mérida Andes, is the highest peak in Venezuela.",
+      "Over the south-western shore of Lake Maracaibo, storms flash on more than a hundred nights a year — the Catatumbo lightning."
+    ],
+    "q": {
+      "q": "Which lake lies between the two arms of this cordillera?",
+      "a": "Lake Maracaibo",
+      "x": [
+        "Lake Titicaca",
+        "Lake Nicaragua"
+      ]
+    }
+  },
+  "Q233770": {
+    "t": "Australia’s wild northern wedge, pointing at New Guinea",
+    "s": "Cape York is one of the last great wild places in Australia: a long triangle of savanna, woodland and rainforest reaching north towards New Guinea, with few sealed roads. From above, look for red earth, braided rivers that flood in the wet season, and, off the east coast, the turquoise shallows of the Great Barrier Reef lying close to shore.",
+    "w": "Red earth and grey-green woodland cut by braided rivers, with the Great Barrier Reef’s turquoise shallows just off the east coast.",
+    "f": [
+      "The tip of Cape York is the northernmost point of mainland Australia.",
+      "The Torres Strait, about 150 km wide, separates the peninsula from New Guinea.",
+      "Towering termite mounds, some several metres tall, dot the savanna."
+    ],
+    "q": {
+      "q": "Which island lies across the Torres Strait from Cape York?",
+      "a": "New Guinea",
+      "x": [
+        "Timor",
+        "Tasmania"
+      ]
+    }
+  },
+  "Q7835": {
+    "t": "A diamond of steppe with a mountain rim on the Black Sea",
+    "s": "Crimea hangs from the mainland by a narrow neck, the Isthmus of Perekop, and from above its shape is unmistakable. Most of it is flat, dry steppe patterned with fields and shallow salt lakes; along the south coast the Crimean Mountains rise in a rim of limestone cliffs above the sea. To the north-east lie the shallow, sometimes pink-tinted lagoons of the Sivash.",
+    "w": "A diamond-shaped peninsula of flat steppe and salt lakes, with a mountain rim along the south coast and shallow lagoons to the north-east.",
+    "f": [
+      "The Isthmus of Perekop, which joins Crimea to the mainland, is only about 7 km wide at its narrowest.",
+      "Roman-Kosh, 1,545 m, is the highest peak of the Crimean Mountains.",
+      "The Sivash lagoons are so salty that in places their water turns pink with algae."
+    ],
+    "q": {
+      "q": "What is the narrow neck joining Crimea to the mainland called?",
+      "a": "The Isthmus of Perekop",
+      "x": [
+        "The Kerch Strait",
+        "The Tuzla Spit"
+      ]
+    }
+  },
+  "Q165608": {
+    "t": "Ancient rock, tundra and lakes beyond the Arctic Circle",
+    "s": "Almost the whole Kola Peninsula lies north of the Arctic Circle, yet thanks to the warm North Atlantic Current its northern coast stays ice-free all year. From above it is a rolling mosaic of tundra, dark forest and countless lakes on some of the oldest rock in Europe, with the bare Khibiny Mountains rising in the middle. On winter nights, look for the northern lights.",
+    "w": "Low, rolling tundra and dark forest dotted with countless lakes, and the bare, flat-topped Khibiny massif near the centre.",
+    "f": [
+      "Murmansk, on the Kola coast, is the largest city north of the Arctic Circle.",
+      "The Kola Superdeep Borehole reached about 12.2 km — the deepest hole ever drilled.",
+      "The Khibiny Mountains are rich in apatite, which is mined to make fertiliser."
+    ],
+    "q": {
+      "q": "What record does the Kola Superdeep Borehole hold?",
+      "a": "The deepest hole ever drilled",
+      "x": [
+        "The coldest mine on Earth",
+        "The oldest tunnel in Europe"
+      ]
+    }
+  },
+  "Q1394226": {
+    "t": "Vietnam’s southern tip, still growing into the sea",
+    "s": "Mainland Vietnam ends here in a low, green wedge of mangroves and mudflats, with the sea on three sides. From above it is a watery maze: winding channels, neat rectangles of shrimp ponds and dense dark-green forest. The land is still growing, as silt carried by the Mekong settles among the mangrove roots and pushes the shore outwards.",
+    "w": "A low green tip of land laced with channels, dark mangrove forest and rectangular shrimp ponds, surrounded by muddy brown sea.",
+    "f": [
+      "Cape Cà Mau is the southernmost point of mainland Vietnam.",
+      "Its mangroves are protected in Mũi Cà Mau National Park, a Ramsar wetland of international importance."
+    ],
+    "q": {
+      "q": "What is slowly pushing Cà Mau’s shore out to sea?",
+      "a": "Mekong silt trapped by mangroves",
+      "x": [
+        "Volcanic lava flows",
+        "Growing coral reefs"
+      ]
+    }
+  },
+  "Q178543": {
+    "t": "A 1,200-km desert finger between ocean and gulf",
+    "s": "Baja California runs about 1,200 km south from the US border, a slender desert finger between the Pacific and the Gulf of California. From above the contrast is striking: rugged, bare mountains down its spine, cactus-dotted plains, and on the gulf side water of an almost unreal blue. Grey whales come each winter to calve in its Pacific lagoons.",
+    "w": "A long, narrow desert peninsula: bare brown mountains, pale lagoons on the Pacific side and deep-blue gulf waters to the east.",
+    "f": [
+      "Its Pacific lagoons, such as Ojo de Liebre and San Ignacio, are among the grey whale’s main breeding grounds.",
+      "The Gulf of California is often called “the world’s aquarium”, a phrase attributed to Jacques Cousteau.",
+      "The gulf is slowly widening as the peninsula moves north-west with the Pacific plate."
+    ],
+    "q": {
+      "q": "Which whales come each winter to calve in Baja’s Pacific lagoons?",
+      "a": "Grey whales",
+      "x": [
+        "Humpback whales",
+        "Blue whales"
+      ]
+    }
+  },
+  "Q130978": {
+    "t": "A flat limestone slab with no rivers, only cenotes",
+    "s": "The Yucatán is as flat as a table: a vast slab of limestone covered in low green forest, with almost no rivers on the surface. Rain sinks straight through the rock into underground rivers, which surface in sinkholes called cenotes. At its northern tip lies the buried Chicxulub crater, left by the asteroid that ended the age of the dinosaurs 66 million years ago.",
+    "w": "Endless flat, low green forest with no hills or rivers; turquoise Caribbean coast to the east, cities like Mérida in the north.",
+    "f": [
+      "A curved ring of cenotes in the north of the peninsula traces the buried rim of the Chicxulub crater.",
+      "Calakmul, one of the greatest Maya cities, lies hidden in the forest near the peninsula’s southern base."
+    ],
+    "q": {
+      "q": "What are the Yucatán’s water-filled sinkholes called?",
+      "a": "Cenotes",
+      "x": [
+        "Tepuis",
+        "Arroyos"
+      ]
+    }
   }
 }

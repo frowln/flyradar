@@ -248,7 +248,7 @@
   },
   "Q192626": {
     "t": "Des volcans sur un tapis roulant à travers le Pacifique",
-    "s": "Les îles s’alignent du sud-est au nord-ouest, et leurs formes racontent leur histoire. Au sud-est, la Grande Île est vaste et jeune, ses volcans toujours actifs ; plus au nord-ouest, les îles vieillissent, s’érodent et se creusent de profondes vallées vertes. Au-delà, la chaîne s’amenuise en atolls et en monts sous-marins. Elle s’est formée à mesure que la plaque pacifique glissait au-dessus d’un point chaud fixe.",
+    "s": "Les îles s’alignent du sud-est au nord-ouest, et leurs formes racontent leur histoire. Au sud-est, la Grande Île est vaste et jeune, ses volcans toujours actifs ; plus au nord-ouest, les îles vieillissent, s’érodent et se creusent de profondes vallées vertes. Au-delà, la chaîne s’amenuise en atolls et en monts sous-marins. La chaîne est née de la lente dérive de la plaque pacifique au-dessus d’un point chaud immobile.",
     "w": "Une ligne d’îles en diagonale : volcans larges et sombres au sud-est, îles plus anciennes, vertes et profondément ravinées au nord-ouest.",
     "f": [
       "Hawaï est à environ 3 800 km de la Californie : l’un des archipels les plus isolés du monde.",
@@ -1062,6 +1062,364 @@
       "x": [
         "Île du Sud",
         "Terre de feu"
+      ]
+    }
+  },
+  "Q13991": {
+    "t": "L’île paisible des 88 temples",
+    "s": "Shikoku est la plus petite et la plus paisible des quatre grandes îles du Japon : surtout des montagnes boisées et abruptes, avec des villes égrenées le long de la côte. Au nord s’étend la mer intérieure de Seto, eau calme parsemée d’îles et franchie par de longs ponts. À l’est, dans le détroit de Naruto, la renverse de la marée fait tourner des tourbillons qui peuvent atteindre environ 20 m de diamètre.",
+    "w": "Une île montagneuse et compacte au sud de la mer intérieure de Seto, semée d’îles, reliée à Honshu par de longs ponts.",
+    "f": [
+      "Les pèlerins font le tour de l’île par un circuit de 88 temples bouddhiques, environ 1 200 km au total.",
+      "Le mont Ishizuchi, 1 982 m, est le plus haut sommet de l’ouest du Japon.",
+      "Trois routes de ponts relient Shikoku à Honshu par-dessus la mer intérieure de Seto."
+    ],
+    "q": {
+      "q": "Combien de temples compte le célèbre pèlerinage de Shikoku ?",
+      "a": "88",
+      "x": [
+        "33",
+        "108"
+      ]
+    }
+  },
+  "Q35581": {
+    "t": "Le Nord enneigé du Japon, où la glace de mer touche la côte",
+    "s": "Hokkaido ne ressemble pas au reste du Japon : champs plus vastes, forêts plus grandes, moins d’habitants et bien plus de neige. D’en haut, cherchez les lacs de caldeira ronds — Shikotsu, Tōya, Kussharo — nichés parmi les collines volcaniques. À la fin de l’hiver, la glace dérivante de la mer d’Okhotsk s’entasse contre la côte nord-est et la péninsule de Shiretoko, et la mer devient blanche.",
+    "w": "Une grande île de vastes champs, de montagnes boisées et de lacs de caldeira ronds ; blanche en hiver, banquise le long du nord-est.",
+    "f": [
+      "La péninsule de Shiretoko, au nord-est, est inscrite au patrimoine mondial de l’UNESCO depuis 2005.",
+      "Elle couvre plus d’un cinquième du territoire japonais mais n’abrite qu’environ 4 % de sa population.",
+      "Sapporo a accueilli les Jeux olympiques d’hiver en 1972."
+    ],
+    "q": {
+      "q": "Quel peuple autochtone a son foyer ancestral à Hokkaido ?",
+      "a": "Les Aïnous",
+      "x": [
+        "Les Ryukyuans",
+        "Les Nivkhes"
+      ]
+    }
+  },
+  "Q7792": {
+    "t": "Une île longue et mince qui touche presque le continent",
+    "s": "Sakhaline s’étire sur près de 950 km du nord au sud sans jamais dépasser 160 km de large environ : d’avion, on dirait un long poisson vert et brun. Deux chaînes de montagnes la parcourent, séparées par une vallée. Au nord-ouest, le détroit de Nevelskoï se resserre à environ 7 km du continent, et l’hiver il gèle d’une rive à l’autre.",
+    "w": "Une île très longue et étroite, parallèle à la côte, avec deux crêtes montagneuses et une vallée centrale ; mers glacées l’hiver.",
+    "f": [
+      "C’est la plus grande île de Russie, avec environ 76 000 km².",
+      "Anton Tchekhov s’y est rendu en 1890 et en a tiré le livre « L’Île de Sakhaline ».",
+      "À sa pointe sud, le détroit de La Pérouse, large d’environ 40 km, sépare Sakhaline d’Hokkaido."
+    ],
+    "q": {
+      "q": "Quel écrivain s’est rendu à Sakhaline en 1890 et en a tiré un livre ?",
+      "a": "Anton Tchekhov",
+      "x": [
+        "Léon Tolstoï",
+        "Fiodor Dostoïevski"
+      ]
+    }
+  },
+  "Q1462": {
+    "t": "Criques émeraude et 7 000 tours de pierre antiques",
+    "s": "La Sardaigne est la deuxième plus grande île de la Méditerranée, un bloc rude de collines et de plateaux, avec étonnamment peu de villes. Regardez la côte : au nord-est, les criques de granit de la Costa Smeralda brillent d’émeraude et de turquoise, tandis que de longues plages blanches bordent le sud. Juste au nord, de l’autre côté d’un étroit détroit, la Corse s’élève bien plus haut.",
+    "w": "Une grande île à peu près rectangulaire, à l’intérieur accidenté ; criques turquoise au nord-est et la Corse juste au nord.",
+    "f": [
+      "Quelque 7 000 nuraghes, tours de pierre de l’âge du bronze, sont dispersés sur l’île.",
+      "Les villages de montagne de l’Ogliastra sont célèbres pour leur nombre exceptionnel de centenaires.",
+      "Les bouches de Bonifacio, larges d’environ 11 km seulement, séparent la Sardaigne de la Corse."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on les antiques tours de pierre de Sardaigne ?",
+      "a": "Les nuraghes",
+      "x": [
+        "Les trulli",
+        "Les talayots"
+      ]
+    }
+  },
+  "Q14112": {
+    "t": "Une chaîne de montagnes qui surgit de la mer",
+    "s": "On surnomme la Corse « la montagne dans la mer », et d’en haut on comprend pourquoi : une chaîne de granit déchiquetée occupe presque toute l’île, striée de neige jusqu’au printemps et culminant à 2 706 m. La côte ouest aligne golfes profonds et falaises rouges ; l’est est une bande plus plate de lagunes. Au nord, le mince doigt du cap Corse pointe vers Gênes.",
+    "w": "Une île montagneuse prolongée au nord par une péninsule en forme de doigt ; golfes profonds à l’ouest, lagunes plates à l’est.",
+    "f": [
+      "Napoléon Bonaparte est né à Ajaccio, sur la côte ouest, en 1769.",
+      "Le GR20, qui suit l’échine montagneuse de l’île, passe souvent pour la randonnée au long cours la plus dure d’Europe.",
+      "Les falaises rouges de Scandola, sur le golfe de Porto, sont inscrites au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quel empereur est né en Corse ?",
+      "a": "Napoléon Bonaparte",
+      "x": [
+        "Charlemagne",
+        "Napoléon III"
+      ]
+    }
+  },
+  "Q4951156": {
+    "t": "Une île triangulaire couronnée par l’Etna fumant",
+    "s": "La Sicile est la plus grande île de la Méditerranée, un triangle approximatif qui lui a valu son nom antique de Trinacria. Son repère est impossible à manquer : l’Etna, vaste volcan sombre sur la côte est, enneigé en hiver et souvent coiffé d’un panache. Au nord, cherchez les îles Éoliennes, où le Stromboli crache de petites gerbes de lave depuis des milliers d’années.",
+    "w": "Une île triangulaire ; sur sa côte est, l’immense cône sombre de l’Etna, souvent panaché ; de petites îles volcaniques au nord.",
+    "f": [
+      "L’Etna, environ 3 300 m, est le plus haut volcan actif d’Europe, et sa hauteur change au fil des éruptions.",
+      "Le détroit de Messine ne sépare la Sicile de l’Italie continentale que d’environ 3 km.",
+      "Les gerbes lumineuses régulières du Stromboli lui ont valu le surnom de « phare de la Méditerranée »."
+    ],
+    "q": {
+      "q": "Quel nom antique de la Sicile évoque sa forme ?",
+      "a": "Trinacria",
+      "x": [
+        "Hespérie",
+        "Taprobane"
+      ]
+    }
+  },
+  "Q337524": {
+    "t": "La plus grande île du Vanuatu, jadis prise pour un continent",
+    "s": "Espiritu Santo est la plus grande île du Vanuatu : un versant ouest accidenté et boisé, où s’élèvent les plus hauts sommets du pays, et un versant est plus bas, de plantations, de récifs et de plages blanches. En 1606, le navigateur Pedro Fernández de Quirós y débarqua, persuadé d’avoir trouvé le grand continent austral. Cherchez les platiers turquoise le long de ses rives orientales.",
+    "w": "Une grande île verte, avec un haut mur montagneux sur son flanc ouest et des rivages plus plats, frangés de récifs, à l’est.",
+    "f": [
+      "Le mont Tabwemasana, 1 879 m, est le point culminant du Vanuatu.",
+      "Dans sa forêt orientale, des « blue holes » alimentés par des sources forment des bassins d’une eau limpide, d’un bleu éclatant."
+    ],
+    "q": {
+      "q": "Pour quoi Quirós a-t-il pris Espiritu Santo en 1606 ?",
+      "a": "Le grand continent austral",
+      "x": [
+        "La côte de l’Asie",
+        "Une partie de la Nouvelle-Guinée"
+      ]
+    }
+  },
+  "Q148966": {
+    "t": "Une double chaîne d’îles-jungles et de vastes lagons",
+    "s": "Les Salomon forment deux longues chaînes à peu près parallèles d’îles hautes couvertes de jungle, avec une mer abritée entre elles. Leurs côtes sont frangées de récifs et de mangroves, et à l’ouest le lagon de Marovo déploie un dédale d’îlots et de chenaux turquoise. Loin au sud, Rennell est un atoll soulevé dont l’ancien lagon est devenu un immense lac.",
+    "w": "Deux lignes parallèles d’îles montagneuses vert sombre, frangées de récifs, avec un dédale turquoise de lagon à l’ouest.",
+    "f": [
+      "L’explorateur espagnol Álvaro de Mendaña a baptisé les îles en 1568, espérant qu’elles recelaient les richesses du roi Salomon.",
+      "Le lac Tegano, sur l’île Rennell, est le plus grand lac des îles du Pacifique.",
+      "À Malaita, des colliers de monnaie de coquillages servent encore pour la dot et les cérémonies."
+    ],
+    "q": {
+      "q": "À quelle richesse légendaire les îles Salomon doivent-elles leur nom ?",
+      "a": "Celle du roi Salomon",
+      "x": [
+        "Celle du roi Midas",
+        "Celle de la reine de Saba"
+      ]
+    }
+  },
+  "Q10905515": {
+    "t": "Un arc de 1 000 km de mers coralliennes, de Kyushu à Taïwan",
+    "s": "Au sud-ouest de Kyushu, les Ryukyu s’égrènent en un long arc vers Taïwan, chaque île cerclée de récif et d’une eau aux mille nuances de bleu. Okinawa, la plus grande, est longue et étroite, avec des villes animées au sud et des collines vertes au nord. Pendant plus de quatre siècles, ces îles ont formé le royaume indépendant des Ryukyu, qui commerçait entre le Japon, la Chine et l’Asie du Sud-Est.",
+    "w": "Une longue chaîne de petites îles enveloppées de récifs turquoise vif, qui file de Kyushu vers le sud-ouest, jusqu’à Taïwan.",
+    "f": [
+      "Le karaté est né à Okinawa, d’arts martiaux locaux mêlés d’influences chinoises.",
+      "Le chat d’Iriomote, l’un des félins sauvages les plus rares du monde, ne vit que sur une seule île de l’archipel.",
+      "Depuis Yonaguni, l’île la plus occidentale, Taïwan n’est qu’à environ 110 km."
+    ],
+    "q": {
+      "q": "Quel art martial est né à Okinawa ?",
+      "a": "Le karaté",
+      "x": [
+        "Le judo",
+        "L’aïkido"
+      ]
+    }
+  },
+  "Q183963": {
+    "t": "La plus grande chaîne d’atolls du monde",
+    "s": "Les Tuamotu dispersent près de 80 atolls coralliens sur une immense étendue du Pacifique Sud : le plus grand ensemble d’atolls de la planète. D’en haut, chacun est un anneau de terre mince et discontinu, coiffé de cocotiers, autour d’un lagon d’un turquoise lumineux, avec le bleu profond tout autour. Le plus grand, Rangiroa, est si large que d’une rive du lagon on ne voit pas l’autre.",
+    "w": "Des dizaines d’anneaux de terre minces et discontinus autour de lagons turquoise lumineux, semés sur un océan bleu sombre.",
+    "f": [
+      "Les premiers navigateurs les appelaient l’« archipel Dangereux », tant ces atolls bas étaient difficiles à repérer.",
+      "Le lagon de Rangiroa couvre environ 1 450 km², l’un des plus grands du monde.",
+      "Une grande partie de la célèbre culture de perles noires de Polynésie française se fait dans les lagons des Tuamotu."
+    ],
+    "q": {
+      "q": "Comment les premiers navigateurs européens appelaient-ils les Tuamotu ?",
+      "a": "L’archipel Dangereux",
+      "x": [
+        "Les îles des Amis",
+        "Les îles des Larrons"
+      ]
+    }
+  },
+  "Q154628": {
+    "t": "Un anneau rompu d’îles volcaniques en mer de Bismarck",
+    "s": "L’archipel Bismarck s’incurve autour de la mer de Bismarck comme un anneau brisé. La Nouvelle-Bretagne en est le grand croissant, montagneux et fumant par endroits ; la Nouvelle-Irlande, sa voisine longue et fine ; Manus et les îles de l’Amirauté se trouvent au nord-ouest. À la pointe nord-est de la Nouvelle-Bretagne, cherchez Rabaul, une ville bâtie autour d’une caldeira volcanique envahie par la mer.",
+    "w": "Une grande île en croissant hérissée de pics volcaniques, une longue île fine au nord-est, et de plus petites îles éparses.",
+    "f": [
+      "Les îles ont été baptisées en 1884 en l’honneur du chancelier allemand Otto von Bismarck.",
+      "La Nouvelle-Irlande mesure environ 350 km de long, mais par endroits moins de 10 km de large.",
+      "Le port de Rabaul occupe une caldeira dont les volcans, comme le Tavurvur, entrent encore en éruption."
+    ],
+    "q": {
+      "q": "À qui l’archipel Bismarck doit-il son nom ?",
+      "a": "Otto von Bismarck",
+      "x": [
+        "L’empereur Guillaume Ier",
+        "Alfred von Tirpitz"
+      ]
+    }
+  },
+  "Q201766": {
+    "t": "Des volcans fumants sur l’île d’un explorateur",
+    "s": "Bougainville est une grande île montagneuse drapée de forêt tropicale, avec une chaîne de volcans le long de son échine. Le mont Balbi est le plus haut, à environ 2 700 m, tandis que son voisin, le Bagana, est l’un des volcans les plus actifs de la région, souvent suivi d’un panache de vapeur et de cendres. Les côtes sont bordées de récifs, de plages de sable noir et de mangroves.",
+    "w": "Une longue île montagneuse de forêt sombre, des pics volcaniques au centre, dont l’un laisse souvent filer un panache.",
+    "f": [
+      "Elle doit son nom à l’explorateur français Louis-Antoine de Bougainville, qui la longea en 1768.",
+      "La bougainvillée, aux fleurs éclatantes, porte le nom du même explorateur.",
+      "Géographiquement, c’est la plus grande île de la chaîne des Salomon."
+    ],
+    "q": {
+      "q": "Quelle plante de jardin porte le nom de l’explorateur de cette île ?",
+      "a": "La bougainvillée",
+      "x": [
+        "Le magnolia",
+        "Le fuchsia"
+      ]
+    }
+  },
+  "Q192767": {
+    "t": "Pics de jungle d’un côté, plaines herbeuses de l’autre",
+    "s": "Guadalcanal est la plus grande île des Salomon, et elle est étonnamment dissymétrique. Un mur de montagnes couvertes de jungle, dépassant 2 300 m, longe son flanc sud, où la pluvieuse « Weather Coast » plonge à pic dans la mer. Le nord est plus doux, avec ses plaines herbeuses, ses plantations et la capitale du pays, Honiara.",
+    "w": "Une longue île aux montagnes abruptes coiffées de nuages le long de la côte sud, et des plaines herbeuses pâles au nord.",
+    "f": [
+      "Elle tient son nom de Guadalcanal, en Andalousie, ville natale d’un membre de l’expédition espagnole de Mendaña, en 1568.",
+      "La côte sud s’appelle la Weather Coast, la « côte du mauvais temps », pour ses pluies diluviennes et sa mer agitée."
+    ],
+    "q": {
+      "q": "Quelle ville de Guadalcanal est la capitale des Salomon ?",
+      "a": "Honiara",
+      "x": [
+        "Gizo",
+        "Auki"
+      ]
+    }
+  },
+  "Q83639": {
+    "t": "Six volcans soudés en hippocampe sur l’équateur",
+    "s": "Isabela, la plus grande des Galápagos, est faite de six volcans boucliers qui ont fini par se rejoindre, et d’en haut sa silhouette évoque un hippocampe. De larges coulées de lave sombre strient leurs flancs, et plusieurs sommets abritent de vastes caldeiras. L’équateur traverse son extrémité nord, et pourtant des manchots des Galápagos pêchent dans les courants froids le long de ses côtes.",
+    "w": "Une île en forme d’hippocampe : larges volcans sombres aux immenses cratères, coulées noires qui descendent jusqu’à la mer.",
+    "f": [
+      "Le volcan Wolf, 1 707 m, est le point culminant des Galápagos.",
+      "L’iguane rose vit sur les pentes du volcan Wolf et nulle part ailleurs au monde.",
+      "La caldeira sommitale de la Sierra Negra mesure environ 7 km sur 10."
+    ],
+    "q": {
+      "q": "À quoi compare-t-on souvent la forme de l’île Isabela ?",
+      "a": "À un hippocampe",
+      "x": [
+        "À un croissant de lune",
+        "À une botte"
+      ]
+    }
+  },
+  "Q42000": {
+    "t": "Un huit de pics verts à l’abri d’un récif",
+    "s": "Tahiti, ce sont deux anciens volcans reliés par un isthme étroit : d’en haut, l’île dessine un huit, avec la grande et ronde Tahiti Nui et la petite Tahiti Iti. Leurs pentes sont tranchées de profondes vallées vertes qui descendent des sommets noyés de nuages jusqu’aux plages de sable noir. Un récif ceinture une grande partie de l’île et retient un lagon turquoise pâle.",
+    "w": "Une grande île ronde reliée à une plus petite par un mince isthme : crêtes vertes en lame de couteau, lagon turquoise, trait blanc du ressac.",
+    "f": [
+      "Le mont Orohena, 2 241 m, est le point culminant de la Polynésie française.",
+      "Le capitaine Cook y est venu en 1769 pour observer le passage de Vénus devant le Soleil.",
+      "La vague de Teahupo’o a accueilli l’épreuve olympique de surf en 2024."
+    ],
+    "q": {
+      "q": "Qu’est-ce que Cook est venu observer à Tahiti en 1769 ?",
+      "a": "Le transit de Vénus",
+      "x": [
+        "Une éclipse totale de Soleil",
+        "La comète de Halley"
+      ]
+    }
+  },
+  "Q188705": {
+    "t": "L’île des Vallées et le vaste cratère du Haleakalā",
+    "s": "Maui, ce sont deux volcans reliés par un isthme bas, d’où son surnom d’« île des Vallées ». Le grand, à l’est, le Haleakalā, s’élève à 3 055 m, et son sommet abrite une énorme dépression semée de cônes de scories couleur rouille et ocre, faciles à repérer par temps clair. Plus anciens, les monts de Maui-Ouest sont sculptés en crêtes et vallées vertes acérées.",
+    "w": "Deux masses reliées par un col plat : à l’est, l’immense dôme du Haleakalā, souvent cerclé de nuages ; à l’ouest, des crêtes vertes acérées.",
+    "f": [
+      "La dépression sommitale du Haleakalā mesure environ 11 km de long et 800 m de profondeur.",
+      "En hiver, les baleines à bosse se rassemblent pour se reproduire dans les chenaux entre Maui, Lānaʻi et Molokaʻi.",
+      "Haleakalā signifie « maison du soleil » en hawaïen."
+    ],
+    "q": {
+      "q": "Que signifie « Haleakalā » en hawaïen ?",
+      "a": "Maison du soleil",
+      "x": [
+        "Montagne de feu",
+        "Montagne blanche"
+      ]
+    }
+  },
+  "Q208198": {
+    "t": "La grande île des Fidji : verte à l’est, dorée à l’ouest",
+    "s": "Viti Levu est la plus grande île des Fidji, à peu près ronde, avec des montagnes boisées et accidentées en son centre. Le climat la coupe en deux : le sud-est, autour de Suva, reçoit la pluie des alizés et reste vert sombre, tandis que le nord-ouest, plus sec, est un patchwork de champs de canne à sucre et de prairies pâles. Récifs coralliens et lagons frangent une grande partie de la côte.",
+    "w": "Une île ronde et montagneuse : forêt sombre au sud-est, pays de canne doré et plus pâle au nord-ouest, récifs le long du rivage.",
+    "f": [
+      "Le mont Tomanivi, 1 324 m, est le point culminant des Fidji.",
+      "Les dunes de Sigatoka, sur la côte sud, sont devenues le premier parc national des Fidji.",
+      "La plupart des vols internationaux vers les Fidji se posent à Nadi, sur le versant ouest de l’île, plus sec."
+    ],
+    "q": {
+      "q": "Quelle ville de Viti Levu est la capitale des Fidji ?",
+      "a": "Suva",
+      "x": [
+        "Nadi",
+        "Lautoka"
+      ]
+    }
+  },
+  "Q205695": {
+    "t": "Le pays du dodo et d’une « cascade sous-marine »",
+    "s": "Trois îles volcaniques s’alignent à l’est de Madagascar : La Réunion, Maurice et la petite Rodrigues. La Réunion est la plus haute et la plus sauvage : son point culminant dépasse 3 000 m, et l’un des volcans les plus actifs du monde se dresse sur son flanc sud-est. Maurice, plus basse, est cerclée d’un lagon turquoise ; au large de son angle sud-ouest, du sable qui dévale une pente sous-marine ressemble, vu d’avion, à une cascade.",
+    "w": "Les hauts sommets ronds de La Réunion, coiffés de nuages ; plus bas, au nord-est, Maurice enveloppée d’un large lagon turquoise.",
+    "f": [
+      "Les îles portent le nom du navigateur portugais Pedro Mascarenhas.",
+      "Le dodo, un pigeon incapable de voler, ne vivait qu’à Maurice ; il avait disparu à la fin des années 1600.",
+      "Le piton des Neiges, à La Réunion, 3 069 m, est le point culminant de l’océan Indien."
+    ],
+    "q": {
+      "q": "Sur quelle île vivait le dodo ?",
+      "a": "Maurice",
+      "x": [
+        "La Réunion",
+        "Madagascar"
+      ]
+    }
+  },
+  "Q192281": {
+    "t": "La dernière grande terre inscrite sur la carte du monde",
+    "s": "La Terre du Nord fut la dernière terre d’une certaine taille découverte sur la planète : une expédition russe l’aperçut en 1913, et elle ne fut vraiment cartographiée qu’en 1930-1932. D’en haut, c’est un groupe de grandes îles dont la moitié environ disparaît sous des calottes lisses qui vêlent dans la mer ; le reste est un désert polaire brun et nu. La banquise l’enserre presque toute l’année.",
+    "w": "De grandes îles sous des dômes de glace blancs et lisses, bordées de sol brun et nu, avec des détroits gelés, au nord du Taïmyr.",
+    "f": [
+      "La calotte de l’Académie des sciences, sur l’île Komsomolets, est la plus grande calotte glaciaire de Russie.",
+      "Gueorgui Ouchakov et Nikolaï Ourvantsev ont cartographié l’archipel en traîneau à chiens en 1930-1932.",
+      "Le cap Arktitcheski, sa pointe nord, est un point de départ courant des expéditions vers le pôle Nord."
+    ],
+    "q": {
+      "q": "En quelle année la Terre du Nord a-t-elle été découverte ?",
+      "a": "En 1913",
+      "x": [
+        "En 1878",
+        "En 1596"
+      ]
+    }
+  },
+  "Q1249802": {
+    "t": "Des îles ventées et sans arbres, peuplées de manchots",
+    "s": "Deux grandes îles et des centaines de petites se tiennent dans l’Atlantique Sud, à l’est de la Patagonie : basses, sans arbres, vert-brun sous un ciel immense. La côte est déchirée de longues criques et de bras de mer. Cherchez des traînées pâles sur les collines : ce sont des « stone runs », rivières de blocs laissées par le gel de l’ère glaciaire. Sur les rivages vivent d’immenses colonies de manchots et d’albatros.",
+    "w": "Deux grandes îles basses et sans arbres, aux côtes très découpées, avec des traînées pâles de champs de blocs sur les collines.",
+    "f": [
+      "Cinq espèces de manchots s’y reproduisent, dont le manchot royal, le manchot papou et le gorfou sauteur.",
+      "Environ 70 % des albatros à sourcils noirs du monde nichent sur ces îles.",
+      "Il n’y a pas d’arbres indigènes : le sol est couvert d’herbe, de lande et de tourbe."
+    ],
+    "q": {
+      "q": "Que sont les « stone runs » de ces îles ?",
+      "a": "Des rivières de blocs",
+      "x": [
+        "D’anciens murets de pierre",
+        "De vieilles coulées de lave"
       ]
     }
   }

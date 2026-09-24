@@ -2074,5 +2074,300 @@
         "Verny"
       ]
     }
+  },
+  "Q532560": {
+    "t": "Where the Ming Great Wall ends, in the Gobi",
+    "s": "Jiayuguan stands at the narrowest point of the Hexi Corridor, a gap between the snowy Qilian Mountains to the south and bare desert hills to the north. This is where the Ming dynasty ended its Great Wall: the fortress of Jiayu Pass, first built in 1372, guarded the road west. Around the modern steel town, green oasis fields fade quickly into stony gobi.",
+    "w": "A small city in a narrow corridor of desert, snow-capped mountains to the south, stony plains all around.",
+    "f": [
+      "Jiayu Pass was nicknamed the “First and Greatest Pass Under Heaven”.",
+      "Snowmelt from the Qilian Mountains, which rise above 5,000 m, waters the oases of the Hexi Corridor."
+    ],
+    "q": {
+      "q": "Jiayu Pass marks the western end of which Great Wall?",
+      "a": "The Ming wall",
+      "x": [
+        "The Qin wall",
+        "The Han wall"
+      ]
+    }
+  },
+  "Q69060": {
+    "t": "A high valley city on the edge of the Tibetan Plateau",
+    "s": "Xining lies about 2,200 m up, stretched along the narrow valley of the Huangshui River between bare, deeply gullied hills. This is the threshold of the Tibetan Plateau: west of here the land climbs to Qinghai Lake and the high grasslands. For centuries the city was a market where Chinese tea was traded for Tibetan horses. Its name means “western peace”.",
+    "w": "A long city squeezed into a narrow valley between bare, eroded hills, with higher mountains to the west.",
+    "f": [
+      "Kumbum Monastery, about 25 km south-west, marks the birthplace of Tsongkhapa, founder of the Gelug school.",
+      "Qinghai Lake, about 150 km to the west, is the largest lake in China.",
+      "The railway to Lhasa, crossing passes over 5,000 m high, begins its climb here."
+    ],
+    "q": {
+      "q": "Xining is the capital of which province?",
+      "a": "Qinghai",
+      "x": [
+        "Gansu",
+        "Sichuan"
+      ]
+    }
+  },
+  "Q189633": {
+    "t": "A city among limestone towers, on the 20-yuan note",
+    "s": "Guilin is scattered among hundreds of steep, rounded limestone towers rising straight out of flat green fields, and from above they look like a field of giant molehills. The Li River slips south between them towards Yangshuo, through one of the most painted landscapes in China. The name means “forest of sweet osmanthus”, after the trees that scent the city every autumn.",
+    "w": "A city among countless steep, rounded limestone peaks, with a river winding south between them through green fields.",
+    "f": [
+      "A Li River scene near Guilin appears on the back of the 20-yuan banknote.",
+      "The Lingqu Canal, dug around 214 BC north of Guilin, is one of the oldest canals in the world.",
+      "A Chinese saying claims Guilin's scenery is the finest under heaven."
+    ],
+    "q": {
+      "q": "A Li River scene near Guilin appears on which banknote?",
+      "a": "The 20-yuan note",
+      "x": [
+        "The 5-yuan note",
+        "The 100-yuan note"
+      ]
+    }
+  },
+  "Q360178": {
+    "t": "Coal, tofu and solar panels floating on mine lakes",
+    "s": "Huainan stretches along the south bank of the Huai River, the traditional line between northern and southern China. Coal has been mined here for over a century, and where the ground has sunk above old workings it has flooded into shallow lakes; some now carry dark grids of floating solar panels. Legend credits Liu An, a prince of Huainan in the 2nd century BC, with inventing tofu.",
+    "w": "An industrial city along the south bank of a big river, with scattered lakes, some covered in dark grids of solar panels.",
+    "f": [
+      "A battle at the nearby Fei River in 383 gave Chinese the idiom “every bush and tree looks like a soldier”.",
+      "Together with the Qinling Mountains, the Huai River is taken as the boundary between north and south China."
+    ],
+    "q": {
+      "q": "Legend credits a prince of Huainan with inventing which food?",
+      "a": "Tofu",
+      "x": [
+        "Noodles",
+        "Dumplings"
+      ]
+    }
+  },
+  "Q59100": {
+    "t": "Teochew heartland on the delta of the Han River",
+    "s": "Shantou spreads over the flat delta of the Han River where it meets the South China Sea, wrapped around a sheltered harbour lagoon. The land nearby is a mosaic of fish ponds and paddies, and the big island of Nan'ao lies offshore to the east. This is the heart of Chaoshan, or Teochew, country, famous for its cooking and its elaborate gongfu tea ritual.",
+    "w": "A coastal city on a flat river delta around a sheltered harbour, fish ponds around it and a large island to the east.",
+    "f": [
+      "In 1980 Shantou became one of China's first four Special Economic Zones.",
+      "Many Chinese communities in Thailand and across South-East Asia trace their roots to Teochew emigrants from this region."
+    ],
+    "q": {
+      "q": "What did Western traders call Shantou?",
+      "a": "Swatow",
+      "x": [
+        "Amoy",
+        "Chefoo"
+      ]
+    }
+  },
+  "Q14501": {
+    "t": "An oil island among Borneo's mangrove deltas",
+    "s": "Tarakan sits on a small island just off the north-east coast of Borneo, where several rivers break into a maze of muddy channels and mangrove forest. From above, the island looks like a green patch ringed by brown water. Oil has been pumped here since the early 1900s, and its wells and refinery made the island a busy port of the Dutch East Indies.",
+    "w": "A small green island off a coast of muddy river channels and dark mangroves; the town on its south-western shore.",
+    "f": [
+      "A mangrove reserve inside the city is home to proboscis monkeys, famous for their long noses.",
+      "Tarakan is the largest city of North Kalimantan, a province created in 2012."
+    ],
+    "q": {
+      "q": "Which long-nosed monkey lives in Tarakan's mangrove reserve?",
+      "a": "The proboscis monkey",
+      "x": [
+        "The golden snub-nosed monkey",
+        "The mandrill"
+      ]
+    }
+  },
+  "Q11025": {
+    "t": "A port city climbing from the coast into volcanic hills",
+    "s": "Semarang has two levels: a flat lower town along the Java Sea coast and a greener upper town climbing the hills to the south, with the volcano Ungaran rising beyond. The old Dutch quarter near the harbour is nicknamed Little Netherlands. Local tradition says the Chinese admiral Zheng He landed here in the early 15th century, and the Sam Poo Kong temple honours him.",
+    "w": "A city on a flat coast that climbs onto green hills to the south; a volcano behind, a harbour in front.",
+    "f": [
+      "Lawang Sewu, built in 1907 as a Dutch railway office, is called the “Thousand Doors” for its many doors and windows.",
+      "Semarang is the capital of Central Java."
+    ],
+    "q": {
+      "q": "Semarang's Sam Poo Kong temple honours which Chinese admiral?",
+      "a": "Zheng He",
+      "x": [
+        "Koxinga",
+        "Shi Lang"
+      ]
+    }
+  },
+  "Q8131": {
+    "t": "Srivijaya's old capital on the wide brown Musi",
+    "s": "Palembang straddles the broad, brown Musi River, far inland across the flat swamps and plantations of southern Sumatra. Ships still come upriver from the sea, a journey of close to 100 km. More than a thousand years ago this was the heart of Srivijaya, a maritime empire that controlled trade through the Strait of Malacca. Look for the long bridge joining the two halves of the city.",
+    "w": "A city on both banks of a wide brown river winding through flat swampy lowland, with a long bridge across.",
+    "f": [
+      "The Ampera Bridge, opened in 1965, was built with a centre span that lifted for ships; it was later fixed in place.",
+      "Wooden houses floating on rafts still line parts of the riverbank.",
+      "The Chinese pilgrim Yijing studied Sanskrit in Srivijaya in the late 7th century."
+    ],
+    "q": {
+      "q": "Palembang was the heart of which maritime empire?",
+      "a": "Srivijaya",
+      "x": [
+        "Majapahit",
+        "Mataram"
+      ]
+    }
+  },
+  "Q14182": {
+    "t": "The city of a thousand rivers and floating markets",
+    "s": "Banjarmasin lies in the flat, swampy lowlands of southern Borneo, where the Martapura River joins the wide Barito not far from the sea. Rivers and canals thread through every district, earning it the name City of a Thousand Rivers. At dawn, traders in small boats gather on the water for its famous floating markets, selling fruit and vegetables straight from their canoes.",
+    "w": "A flat city laced with rivers and canals beside a wide brown river, surrounded by swampy lowland and rice fields.",
+    "f": [
+      "The Banjar Sultanate, founded in the 1520s, ruled from here for more than three centuries.",
+      "Much of the city lies barely above the level of high tide."
+    ],
+    "q": {
+      "q": "Banjarmasin is famous for its…",
+      "a": "Floating markets",
+      "x": [
+        "Stilt temples",
+        "Salt pans"
+      ]
+    }
+  },
+  "Q14634": {
+    "t": "A seafaring city facing a scatter of coral islands",
+    "s": "Makassar lines the flat west coast of South Sulawesi, looking out over the Spermonde Archipelago, a scatter of tiny coral islands ringed with turquoise reefs. Inland to the north-east rise the jagged limestone towers of Maros. For centuries this was the great trading port of the Gowa sultanate, and its sailors ranged across the eastern seas.",
+    "w": "A city on a flat coast facing dozens of tiny coral islands; jagged limestone hills inland to the north-east.",
+    "f": [
+      "From the 18th century, Makassan sailors voyaged each year to northern Australia to gather sea cucumbers.",
+      "Fort Rotterdam in the city centre was rebuilt by the Dutch in the 1670s on the site of a Gowa fortress."
+    ],
+    "q": {
+      "q": "Makassan sailors once voyaged to northern Australia to collect…",
+      "a": "Sea cucumbers",
+      "x": [
+        "Pearls",
+        "Sandalwood"
+      ]
+    }
+  },
+  "Q5869": {
+    "t": "A city in a high Himalayan valley, 3,650 m up",
+    "s": "Lhasa lies in the flat valley of the Kyi Chu, a tributary of the Yarlung Tsangpo, about 3,650 m above sea level — and even so, the bare brown mountains around it rise another 1,500 m or more. The air is thin and dry, and sunshine is so plentiful that Lhasa is nicknamed the City of Sunlight. Its name means “place of the gods”.",
+    "w": "A green, flat-floored river valley hemmed in by steep bare mountains, with the city spread along its northern side.",
+    "f": [
+      "The Potala Palace, on a hill in the city, rises 13 storeys and is a UNESCO World Heritage site.",
+      "The Jokhang Temple in the old centre dates back to the 7th century.",
+      "Lhasa gets about 3,000 hours of sunshine a year."
+    ],
+    "q": {
+      "q": "Roughly how high above sea level does Lhasa lie?",
+      "a": "About 3,650 m",
+      "x": [
+        "About 1,650 m",
+        "About 5,650 m"
+      ]
+    }
+  },
+  "Q650585": {
+    "t": "The melon oasis at the eastern end of the Tian Shan",
+    "s": "Hami is a green oasis at the southern foot of the Karlik Mountains, the snowy eastern tail of the Tian Shan, with vast gravel desert stretching away on every side. For Silk Road caravans coming from Gansu, this was the first great oasis after days of crossing the Gobi. Its name travels the world on the famous Hami melon, sweet and crisp.",
+    "w": "A green oasis at the foot of snowy mountains, surrounded by vast grey gravel desert; large solar farms nearby.",
+    "f": [
+      "Hami melons were sent as tribute to the Qing emperors from the late 17th century.",
+      "Its central district, Yizhou, carries the oasis's Tang-era name; in Uyghur the oasis is called Kumul."
+    ],
+    "q": {
+      "q": "Which fruit is named after Hami?",
+      "a": "A melon",
+      "x": [
+        "A grape",
+        "A pomegranate"
+      ]
+    }
+  },
+  "Q235389": {
+    "t": "A jade oasis on the edge of the Taklamakan",
+    "s": "Hotan is a green oasis squeezed between the snowy Kunlun Mountains to the south and the sand sea of the Taklamakan to the north. Two braided rivers, the White Jade and the Black Jade, run down from the mountains on either side of it, then join and push north into the desert. For thousands of years people have picked nephrite jade from their gravel beds.",
+    "w": "A green oasis between two braided rivers, snowy mountains to the south and an endless sea of dunes to the north.",
+    "f": [
+      "Hotan jade was carried east to the courts of China's rulers for thousands of years.",
+      "A legend recorded by the monk Xuanzang says silk reached Khotan when a princess hid silkworm eggs in her headdress.",
+      "The Hotan River crosses the Taklamakan only in summer, when snowmelt fills it."
+    ],
+    "q": {
+      "q": "Which stone is found in the rivers of Hotan?",
+      "a": "Jade",
+      "x": [
+        "Turquoise",
+        "Lapis lazuli"
+      ]
+    }
+  },
+  "Q170521": {
+    "t": "A Silk Road crossroads at the foot of the Pamirs",
+    "s": "Kashgar is a green oasis at the far western tip of the Tarim Basin, where the Tian Shan, the Pamirs and the Kunlun close in around the desert. For caravans it was the great junction: routes skirting the Taklamakan to north and south met here before climbing to the high passes westward. On clear days, the snow domes of Kongur and Muztagh Ata, both over 7,500 m, rise to the south-west.",
+    "w": "A green oasis at the western end of a desert basin, walls of snowy mountains rising to the west, north and south.",
+    "f": [
+      "Mahmud al-Kashgari, from this region, compiled the first great dictionary of the Turkic languages in the 1070s.",
+      "Kashgar's Sunday livestock market has drawn traders from across the region for generations."
+    ],
+    "q": {
+      "q": "Which 11th-century scholar from here compiled a great Turkic dictionary?",
+      "a": "Mahmud al-Kashgari",
+      "x": [
+        "Al-Biruni",
+        "Ibn Sina"
+      ]
+    }
+  },
+  "Q211243": {
+    "t": "A green plain between a mountain wall and the Yellow River",
+    "s": "Yinchuan lies on a strip of green, irrigated plain between the dark, jagged Helan Mountains to the west and the Yellow River to the east. The mountains shield it from the sands of the Tengger Desert, and canals first dug over 2,000 years ago spread the river's water across the fields. Its lakes and paddies earned the area the name “Jiangnan beyond the frontier”.",
+    "w": "A green, lake-dotted plain between a long, dark mountain range to the west and a broad river to the east; desert beyond.",
+    "f": [
+      "From the 11th to the 13th century Yinchuan was the capital of the Western Xia kingdom.",
+      "The royal tombs of the Western Xia stand at the foot of the Helan Mountains, west of the city.",
+      "Ningxia's goji berries are famous across China."
+    ],
+    "q": {
+      "q": "Yinchuan was the capital of which medieval kingdom?",
+      "a": "Western Xia",
+      "x": [
+        "Liao",
+        "Jin"
+      ]
+    }
+  },
+  "Q362865": {
+    "t": "An old coal town in the hills of the Hunan border",
+    "s": "Pingxiang sits in a valley of green hills on Jiangxi's western border, where the Luoxiao Mountains divide the province from Hunan. Its fortunes were built on coal: the Anyuan mine, opened in 1898, fed one of China's first modern ironworks. To the south-east rises Wugong Mountain, whose rounded summits are covered in grassland rather than forest.",
+    "w": "A city in a valley among green, rolling hills, with higher mountains along the border to the west and south.",
+    "f": [
+      "Coke from Anyuan fed the Hanyang Iron Works in Wuhan, one of China's first modern steel plants.",
+      "Wugong Mountain's summit grasslands, over 1,900 m up, turn golden in autumn."
+    ],
+    "q": {
+      "q": "What did Pingxiang's Anyuan mine, opened in 1898, produce?",
+      "a": "Coal",
+      "x": [
+        "Tin",
+        "Tungsten"
+      ]
+    }
+  },
+  "Q38234": {
+    "t": "Japan's window to Europe, round a narrow harbour",
+    "s": "Nagasaki wraps around a long, narrow harbour, with houses climbing steep green hills on both sides like the seats of an amphitheatre. Portuguese ships made it a port in 1571. For more than two centuries of Japan's isolation, a small artificial island here, Dejima, was the country's only regular window to Europe. Offshore to the south-west lies a scatter of islands.",
+    "w": "A long, narrow harbour like a fjord, the city climbing steep green hills on both sides; islands to the south-west.",
+    "f": [
+      "From 1641 to 1859, Dutch traders on Dejima were the only Europeans allowed to trade with Japan.",
+      "Castella, a sponge cake still sold all over Nagasaki, arrived with Portuguese traders in the 16th century."
+    ],
+    "q": {
+      "q": "Which Europeans traded at Dejima from 1641?",
+      "a": "The Dutch",
+      "x": [
+        "The Portuguese",
+        "The English"
+      ]
+    }
   }
 }

@@ -3015,5 +3015,288 @@
         "Silva Porto"
       ]
     }
+  },
+  "Q131818": {
+    "t": "A bay city with a vast white salt lake behind it",
+    "s": "Oran curves around a wide bay on Algeria's western coast, guarded on the west by the steep mountain of Murdjadjo. Just inland to the south lies the Sebkha of Oran, a huge, shallow salt lake that glares white in the dry season. Andalusian merchants founded the town in 903, and Spain held it for much of the 16th to 18th centuries.",
+    "w": "A city curving around a bay, a steep mountain on its western side, and a large pale salt lake inland to the south.",
+    "f": [
+      "The Sebkha of Oran often dries into a white crust of salt in summer.",
+      "The Santa Cruz fort, built by the Spanish, crowns Murdjadjo above the harbour.",
+      "Oran is Algeria's second-largest city."
+    ],
+    "q": {
+      "q": "Which music style grew up in Oran?",
+      "a": "Raï",
+      "x": [
+        "Gnawa",
+        "Fado"
+      ]
+    }
+  },
+  "Q43595": {
+    "t": "A city on a sand strip between lake and ocean",
+    "s": "Cotonou sits on a narrow strip of sand between the Atlantic and Lake Nokoué, a broad, shallow lagoon, and a channel cuts through the city to link the two. On the lake's northern shallows stands Ganvié, a town built entirely on stilts, where people get around by canoe. Porto-Novo is the official capital, but Cotonou is Benin's largest city and seat of government.",
+    "w": "A city on a sandy strip between a straight ocean beach and a wide, shallow lake, split by a channel joining them.",
+    "f": [
+      "Ganvié, on Lake Nokoué, is home to some 20,000 people living in houses on stilts.",
+      "Ouidah, along the coast to the west, was a major port of the Atlantic slave trade."
+    ],
+    "q": {
+      "q": "Which stilt village stands on Lake Nokoué near Cotonou?",
+      "a": "Ganvié",
+      "x": [
+        "Ouidah",
+        "Abomey"
+      ]
+    }
+  },
+  "Q205792": {
+    "t": "An oasis town in the volcanic heart of the Sahara",
+    "s": "Tamanrasset lies in a dry valley on the edge of the Hoggar, a vast upland of dark volcanic peaks and weathered granite in the middle of the Sahara. At about 1,400 metres, it is cooler than the desert around it. From above, look for the black volcanic plugs and basalt plateaus that surround the town, sharp against the orange sand.",
+    "w": "A small town on a sandy valley floor, ringed by dark volcanic peaks and plateaus rising out of the desert.",
+    "f": [
+      "Mount Tahat in the Hoggar, about 2,900 metres high, is Algeria's highest peak.",
+      "The Assekrem plateau in the Hoggar is famous for sunrises over a sea of volcanic peaks.",
+      "Tamanrasset is almost 2,000 km by road from Algiers."
+    ],
+    "q": {
+      "q": "Which mountains rise around Tamanrasset?",
+      "a": "The Hoggar",
+      "x": [
+        "The Tibesti",
+        "The Aïr"
+      ]
+    }
+  },
+  "Q622841": {
+    "t": "Five hilltop towns in a desert valley",
+    "s": "Ghardaia is the largest of five fortified towns built in the M'zab Valley, a dry gorge cut into the rocky plateau of the northern Sahara. Each town climbs a low hill in tight rings of houses, topped by a minaret, with palm groves in the valley below. The Mozabites founded them from the 11th century and devised clever ways to share scarce floodwater.",
+    "w": "A winding desert valley with several compact towns, each piled on a low hill, and green palm groves between them.",
+    "f": [
+      "The M'zab Valley has been a UNESCO World Heritage site since 1982.",
+      "The architect Le Corbusier admired the simple, practical forms of the M'zab towns.",
+      "Wells and channels share out the rare flash floods among the valley's palm groves."
+    ],
+    "q": {
+      "q": "In which valley do Ghardaia and its sister towns stand?",
+      "a": "The M'zab",
+      "x": [
+        "The Draa",
+        "The Souf"
+      ]
+    }
+  },
+  "Q472": {
+    "t": "A capital in a high basin, with a mountain on its doorstep",
+    "s": "Sofia fills a broad, high basin in western Bulgaria, about 550 metres up and ringed by mountains. The dome of Vitosha rises right on its southern edge, often white with snow in winter, while the long ridge of the Balkan Mountains closes the view to the north. In Roman times the city was Serdica, and the emperor Constantine is said to have called it 'my Rome'.",
+    "w": "A large city in a flat basin, with a big rounded mountain right on its southern edge and a long range to the north.",
+    "f": [
+      "Cherni Vrah, the summit of Vitosha, rises to about 2,290 metres.",
+      "Sofia sits on mineral springs, and public taps in the centre pour out warm water.",
+      "Vitosha became the first protected park in the Balkans in 1934."
+    ],
+    "q": {
+      "q": "Which mountain rises right on Sofia's southern edge?",
+      "a": "Vitosha",
+      "x": [
+        "Musala",
+        "Olympus"
+      ]
+    }
+  },
+  "Q2280": {
+    "t": "A city of wide avenues along a quiet river",
+    "s": "Minsk spreads across a gently rolling plain in the middle of Belarus, with dark forests and farmland all around. Through its centre winds the small Svislach River, widened into a chain of ponds and reservoirs. North-west of the city lies the Zaslavl Reservoir, known locally as the Minsk Sea. The city is first mentioned in a chronicle in 1067.",
+    "w": "A large city of broad, straight avenues on a flat, forested plain, with a winding river and a big reservoir to the north-west.",
+    "f": [
+      "The ring road around Minsk is about 56 km long.",
+      "The Svislach flows on to join the Berezina and then the Dnieper.",
+      "Minsk lies close to the geographical centre of Belarus."
+    ],
+    "q": {
+      "q": "Which river flows through Minsk?",
+      "a": "The Svislach",
+      "x": [
+        "The Neman",
+        "The Pripyat"
+      ]
+    }
+  },
+  "Q3919": {
+    "t": "A young capital on the edge of the Kalahari",
+    "s": "Gaborone is one of Africa's youngest capitals, planned in the 1960s beside the Notwane River, only a few kilometres from the South African border. From above, look for a large reservoir on its southern side, held back by the Gaborone Dam, with rocky hills such as Kgale Hill nearby. To the west, the dry scrub of the Kalahari stretches away for hundreds of kilometres.",
+    "w": "A spread-out city beside a large reservoir to the south, with rocky hills close by and dry, flat scrubland to the west.",
+    "f": [
+      "The Kalahari covers about 70 percent of Botswana.",
+      "Building began in 1964, just before Botswana's independence in 1966.",
+      "The city is named after Kgosi Gaborone, a local chief."
+    ],
+    "q": {
+      "q": "Which desert covers most of Botswana, west of Gaborone?",
+      "a": "The Kalahari",
+      "x": [
+        "The Namib",
+        "The Karoo"
+      ]
+    }
+  },
+  "Q3777": {
+    "t": "A savanna capital of red earth and reservoirs",
+    "s": "Ouagadougou spreads across the flat savanna of central Burkina Faso, a low city of red laterite streets and tree-lined quarters. Look for a string of reservoirs along its northern edge, dammed to store water through the long dry season. For centuries this was the capital of the Mossi kingdom, and the Mogho Naba, its traditional king, still holds court here.",
+    "w": "A flat, low, reddish city on open savanna, with a chain of reservoirs along its northern side.",
+    "f": [
+      "FESPACO, held here every two years, is Africa's largest film festival.",
+      "The rainy season lasts only from about June to September."
+    ],
+    "q": {
+      "q": "What kind of festival has made Ouagadougou famous?",
+      "a": "A film festival",
+      "x": [
+        "A jazz festival",
+        "A camel race"
+      ]
+    }
+  },
+  "Q11194": {
+    "t": "A long city in a valley ringed by Olympic mountains",
+    "s": "Sarajevo lies stretched along the narrow valley of the Miljacka River, hemmed in by steep, forested mountains on every side. From above, look for a long, thin city running east–west along the valley floor, with snowy peaks around it in winter. The Ottoman governor Isa-Beg Isaković founded the town in the 1460s, and its old bazaar still carries his imprint.",
+    "w": "A long, narrow city squeezed along a river valley, surrounded on all sides by steep, wooded mountains.",
+    "f": [
+      "The mountains around the city, including Bjelašnica, Jahorina and Igman, hosted Olympic events.",
+      "In 1895 Sarajevo opened an electric tram line, one of the first in Europe.",
+      "Baščaršija, the old bazaar, dates from the 15th century."
+    ],
+    "q": {
+      "q": "Which Olympic Games did Sarajevo host?",
+      "a": "The 1984 Winter Olympics",
+      "x": [
+        "The 1972 Summer Olympics",
+        "The 1980 Winter Olympics"
+      ]
+    }
+  },
+  "Q168652": {
+    "t": "A highland city near some of Africa's finest rock art",
+    "s": "Hargeisa sits on a dry highland plateau in the Horn of Africa, about 1,300 metres up, along a wide seasonal riverbed that fills only after rain. Around it stretch thorn scrub and red earth, grazed by camels and goats. In rock shelters about 50 km to the north-east, at Laas Geel, cattle and herders painted thousands of years ago still glow in red and white.",
+    "w": "A spread-out city on a dry, reddish plateau, split by a broad sandy riverbed, with scrubland and low hills around.",
+    "f": [
+      "The Laas Geel paintings are thought to be at least 5,000 years old.",
+      "The city's livestock market is one of the largest in the Horn of Africa.",
+      "Its highland air keeps Hargeisa far milder than the scorching coast of the Gulf of Aden."
+    ],
+    "q": {
+      "q": "What is found in the rock shelters of Laas Geel, near Hargeisa?",
+      "a": "Ancient rock paintings",
+      "x": [
+        "Dinosaur tracks",
+        "Roman coins"
+      ]
+    }
+  },
+  "Q3940": {
+    "t": "A tiny capital on ancient granite in the Indian Ocean",
+    "s": "Victoria clings to the north-east coast of Mahé, the largest island of the Seychelles, beneath steep green mountains of granite. Most oceanic islands are volcanic or coral, but Mahé and its neighbours are fragments of the ancient supercontinent Gondwana, stranded in mid-ocean. Just offshore, small islands and turquoise reefs form a marine national park.",
+    "w": "A small town on a green, mountainous granite island, with little islets and turquoise reefs just off its shore.",
+    "f": [
+      "The granite of the Seychelles is around 750 million years old.",
+      "Victoria is one of the smallest national capitals in the world.",
+      "The coco de mer palm, which has the world's largest seed, grows wild only in the Seychelles."
+    ],
+    "q": {
+      "q": "What rock are the main Seychelles islands made of?",
+      "a": "Granite",
+      "x": [
+        "Coral limestone",
+        "Basalt"
+      ]
+    }
+  },
+  "Q3932": {
+    "t": "A capital on a volcanic island at the equator",
+    "s": "São Tomé lies on the north-east coast of a lush volcanic island in the Gulf of Guinea, only about 40 km north of the equator. Behind the town, forested mountains rise to over 2,000 metres, and in the island's south a needle of volcanic rock, Pico Cão Grande, stands up out of the jungle. The Portuguese settled the island in the late 15th century.",
+    "w": "A small town on the north-east shore of a green, mountainous island, with forest climbing steeply behind it.",
+    "f": [
+      "Pico de São Tomé, the island's highest point, rises to about 2,020 metres.",
+      "In the early 20th century São Tomé was one of the world's leading cocoa producers."
+    ],
+    "q": {
+      "q": "Which line crosses the islet of Rolas, off São Tomé's southern tip?",
+      "a": "The equator",
+      "x": [
+        "The Tropic of Capricorn",
+        "The prime meridian"
+      ]
+    }
+  },
+  "Q23800": {
+    "t": "A fortress city on a peninsula between two harbours",
+    "s": "Valletta fills a narrow rocky peninsula on Malta's north-east coast, with a deep natural harbour on each side: Grand Harbour to the south-east and Marsamxett to the north-west. The Knights of St John built it from 1566 as a planned fortress city, a grid of streets inside massive bastions. Around it, Malta is a patchwork of pale stone towns and small fields.",
+    "w": "A walled, grid-planned peninsula between two deep, branching harbours, on a small island of pale stone and tiny fields.",
+    "f": [
+      "Valletta covers less than one square kilometre, the smallest capital in the European Union.",
+      "The whole city has been a UNESCO World Heritage site since 1980.",
+      "The city is named after Jean de Valette, Grand Master of the Knights."
+    ],
+    "q": {
+      "q": "Which order of knights built Valletta?",
+      "a": "The Knights of St John",
+      "x": [
+        "The Knights Templar",
+        "The Teutonic Knights"
+      ]
+    }
+  },
+  "Q1218": {
+    "t": "A hilltop city on the divide between sea and desert",
+    "s": "Jerusalem stands on the crest of the Judean Mountains, about 750 metres up, right on the divide between the Mediterranean slope to the west and the desert falling towards the Dead Sea to the east. Its walled Old City is holy to Judaism, Christianity and Islam. Within about 25 km, the land drops more than 1,000 metres to the shore of the Dead Sea.",
+    "w": "A pale stone city on a ridge of hills, green terraces to the west and bare, brown desert falling away to the east.",
+    "f": [
+      "The walled Old City covers less than one square kilometre.",
+      "The Old City and its walls are on the UNESCO World Heritage list.",
+      "Winter can bring rain and even snow here, while the Dead Sea shore below stays mild and dry."
+    ],
+    "q": {
+      "q": "Which Ottoman sultan built the Old City walls of Jerusalem?",
+      "a": "Suleiman the Magnificent",
+      "x": [
+        "Mehmed II",
+        "Selim I"
+      ]
+    }
+  },
+  "Q3751": {
+    "t": "An Atlantic island capital on a flat-topped plateau",
+    "s": "Praia sits on the southern coast of Santiago, the largest island of Cape Verde, some 600 km off the coast of Africa. Its old centre stands on a flat-topped plateau above a sheltered bay, with dry volcanic hills behind. The islands were uninhabited until the Portuguese arrived around 1460, and just west of Praia lies their first settlement, Cidade Velha.",
+    "w": "A town on a flat plateau above a small bay on the dry, rugged south coast of a volcanic island.",
+    "f": [
+      "Cidade Velha, founded in 1462, was the first European colonial town in the tropics and is a UNESCO site.",
+      "Rain is scarce here; most of it falls in August and September."
+    ],
+    "q": {
+      "q": "What does the Portuguese word praia mean?",
+      "a": "Beach",
+      "x": [
+        "Harbour",
+        "Plateau"
+      ]
+    }
+  },
+  "Q3856": {
+    "t": "A star-shaped old town on the plain of Cyprus",
+    "s": "Nicosia lies in the middle of the Mesaoria, the broad, dry plain at the heart of Cyprus. Its old town is a near-perfect circle, ringed by walls the Venetians built in the 1560s, with arrow-shaped bastions that give it the outline of a star. To the north rises the jagged limestone ridge of the Kyrenia range; the Troodos Mountains lie to the south-west.",
+    "w": "A city on a flat, tawny plain, with a round old core, a jagged ridge to the north and higher mountains to the south-west.",
+    "f": [
+      "One peak of the Kyrenia range is called Pentadaktylos, 'five fingers', after its jagged outline.",
+      "Mount Olympos in the Troodos, the highest point of Cyprus, rises to about 1,950 metres."
+    ],
+    "q": {
+      "q": "How many bastions do Nicosia's Venetian walls have?",
+      "a": "Eleven",
+      "x": [
+        "Seven",
+        "Twenty"
+      ]
+    }
   }
 }

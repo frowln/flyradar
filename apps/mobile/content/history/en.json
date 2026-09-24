@@ -1798,5 +1798,305 @@
         "The Taklamakan"
       ]
     }
+  },
+  "samarkand": {
+    "name": "Samarkand",
+    "era": "7th c. BC – today",
+    "t": "The blue-domed crossroads of the Silk Road",
+    "s": "Below you lies Samarkand, more than 2,500 years old and for centuries the great meeting point of the Silk Road. Under Timur and his descendants in the 14th and 15th centuries it was filled with turquoise domes and tiled madrasas, and its Registan square is still one of the grandest in the Islamic world. From above, look for the city spread across the green Zeravshan valley, with mountains rising to the south.",
+    "w": "Look for a large city in the green, irrigated Zeravshan valley, with mountain ridges to the south and desert beyond.",
+    "f": [
+      "The ruler Ulugh Beg built an observatory here in the 1420s and catalogued about a thousand stars.",
+      "Samarkand paper was famous across the Islamic world from the 8th century.",
+      "The city became a UNESCO World Heritage site in 2001."
+    ],
+    "q": {
+      "q": "Which ruler built an observatory in Samarkand?",
+      "a": "Ulugh Beg",
+      "x": [
+        "Omar Khayyam",
+        "Al-Biruni"
+      ]
+    }
+  },
+  "bukhara": {
+    "name": "Bukhara",
+    "era": "5th c. BC – today",
+    "t": "A holy city of scholars, domes and bazaars",
+    "s": "In an oasis at the end of the Zeravshan river lies Bukhara, one of the best-preserved medieval cities of Central Asia. In the 9th and 10th centuries it was the capital of the Samanids and a centre of Persian poetry and science. Its old centre still has covered bazaars, madrasas and a 12th-century minaret. From above, look for a green oasis surrounded by desert, west of Samarkand.",
+    "w": "Look for a green irrigated oasis ringed by desert, about 220 km west of Samarkand.",
+    "f": [
+      "The physician and philosopher Avicenna was born near Bukhara in 980.",
+      "The Kalyan Minaret, built in 1127, rises about 46 m above the old town.",
+      "The Samanid Mausoleum, from the 10th century, is a masterpiece of decorative brickwork."
+    ],
+    "q": {
+      "q": "Which great physician was born near Bukhara?",
+      "a": "Avicenna",
+      "x": [
+        "Galen",
+        "Al-Razi"
+      ]
+    }
+  },
+  "khiva": {
+    "name": "Khiva",
+    "era": "from the 10th c.",
+    "t": "A walled desert town like a museum under open sky",
+    "s": "On the edge of the Karakum desert, in the delta oasis of the Amu Darya, stands Khiva. Its inner town, Itchan Kala, is enclosed by mud-brick walls and crammed with minarets, madrasas and palaces, mostly from the 18th and 19th centuries. It was the last stop before caravans crossed the desert to Persia. From above, look for the green irrigated oasis sharp against sand on every side.",
+    "w": "Look for a large green irrigated oasis on the Amu Darya, with bare desert pressing in on all sides.",
+    "f": [
+      "Itchan Kala became Uzbekistan's first UNESCO World Heritage site in 1990.",
+      "The Kalta Minor minaret was left unfinished and stands short and wide, covered in turquoise tiles.",
+      "The mathematician al-Khwarizmi, whose name gave us the word 'algorithm', came from this region."
+    ],
+    "q": {
+      "q": "Which word comes from the name of Khwarazm's mathematician?",
+      "a": "Algorithm",
+      "x": [
+        "Alchemy",
+        "Almanac"
+      ]
+    }
+  },
+  "merv": {
+    "name": "Merv",
+    "era": "6th c. BC – 13th c.",
+    "t": "Once one of the largest cities in the world",
+    "s": "In the delta of the Murghab river, in the Karakum desert, lie the ruins of Merv. For 2,000 years a succession of walled cities rose side by side here, each built next to the last. In the 12th century, as capital of the Seljuk sultans, it was among the largest cities on Earth. From above, look for the green oasis of Mary amid the desert; the ruins lie just east of the town.",
+    "w": "Look for the green delta oasis of the Murghab river in the Karakum; the ruins lie just east of the city of Mary.",
+    "f": [
+      "The mausoleum of Sultan Sanjar, from the 12th century, still has its great brick dome.",
+      "Its oldest walled city, Erk Kala, dates to the Achaemenid Persian era.",
+      "Ancient Merv became a UNESCO World Heritage site in 1999."
+    ],
+    "q": {
+      "q": "In which river's delta did Merv grow?",
+      "a": "The Murghab",
+      "x": [
+        "The Amu Darya",
+        "The Syr Darya"
+      ]
+    }
+  },
+  "ani": {
+    "name": "Ani",
+    "era": "10th – 14th c.",
+    "t": "The medieval city of a thousand and one churches",
+    "s": "On a triangle of plateau above a river gorge stand the ruins of Ani, capital of a medieval Armenian kingdom. In the 11th century it was one of the great cities of its age, its skyline crowded with churches. Many still stand, roofless, on the open grassland. From above, look for the high plateau and the deep gorge that today marks the border between Turkey and Armenia.",
+    "w": "Look for a high green-brown plateau cut by a deep river gorge, east of the town of Kars.",
+    "f": [
+      "Ani was nicknamed 'the city of 1,001 churches'.",
+      "Its cathedral, finished around 1001, uses pointed arches long before Gothic Europe.",
+      "Ani became a UNESCO World Heritage site in 2016."
+    ],
+    "q": {
+      "q": "What was Ani's nickname?",
+      "a": "City of 1,001 churches",
+      "x": [
+        "City of 100 towers",
+        "City of seven hills"
+      ]
+    }
+  },
+  "mtskheta": {
+    "name": "Mtskheta",
+    "era": "from the 3rd c. BC",
+    "t": "Georgia's ancient capital where two rivers meet",
+    "s": "Just north of Tbilisi, where the Aragvi flows into the Kura, lies Mtskheta, the ancient capital of the Georgian kingdom of Iberia. Here Georgia adopted Christianity in the 4th century, one of the first countries to do so. A small 6th-century monastery, Jvari, watches over the confluence from a hilltop. From above, look for the two rivers meeting in a green valley, often in two different colours.",
+    "w": "Look for two rivers joining in a narrow green valley about 20 km north of Tbilisi.",
+    "f": [
+      "Svetitskhoveli Cathedral in Mtskheta was built in the 11th century on an older church site.",
+      "Jvari Monastery gave its name to a whole style of Georgian church architecture.",
+      "Mtskheta's churches became a UNESCO World Heritage site in 1994."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Mtskheta?",
+      "a": "The Aragvi and the Kura",
+      "x": [
+        "The Rioni and the Kura",
+        "The Terek and the Aragvi"
+      ]
+    }
+  },
+  "derbent": {
+    "name": "Derbent",
+    "era": "6th c. – today",
+    "t": "The Gate of Gates between mountains and sea",
+    "s": "Here the Caucasus mountains come within a few kilometres of the Caspian Sea, leaving a narrow pass along the coast. In the 6th century Persian kings built two parallel stone walls from the mountain fortress down into the sea to control it. Arab geographers called it the Gate of Gates. From above, the reason is obvious: a thin coastal strip squeezed between blue water and steep ridges.",
+    "w": "Look for a narrow coastal plain squeezed between the Caspian Sea and the steep foothills of the Caucasus.",
+    "f": [
+      "Derbent is often called the oldest city in Russia.",
+      "Its walls once ran out into the sea, forming a guarded harbour.",
+      "The citadel and old city became a UNESCO World Heritage site in 2003."
+    ],
+    "q": {
+      "q": "Which sea do Derbent's walls run down to?",
+      "a": "The Caspian Sea",
+      "x": [
+        "The Black Sea",
+        "The Sea of Azov"
+      ]
+    }
+  },
+  "baikonur": {
+    "name": "Baikonur, launch site of the first human spaceflight",
+    "era": "from 1955",
+    "t": "Where the first human left for space",
+    "s": "On the flat steppe of Kazakhstan, near the Syr Darya river, lies the world's first spaceport. The first artificial satellite, Sputnik, was launched from here in 1957. On 12 April 1961 Yuri Gagarin lifted off from the same pad to become the first human in space. From above, look for the ribbon of the Syr Darya across the dry steppe, and the town of Baikonur beside it.",
+    "w": "Look for the thin green ribbon of the Syr Darya crossing flat, dry steppe, with a town and scattered launch complexes north of it.",
+    "f": [
+      "Gagarin's flight lasted 108 minutes and made one orbit of the Earth.",
+      "His launch pad, known as Gagarin's Start, stayed in use for more than 60 years.",
+      "The cosmodrome is leased by Russia from Kazakhstan."
+    ],
+    "q": {
+      "q": "How long did Gagarin's first spaceflight last?",
+      "a": "108 minutes",
+      "x": [
+        "12 minutes",
+        "24 hours"
+      ]
+    }
+  },
+  "arkaim": {
+    "name": "Arkaim",
+    "era": "c. 2000 – 1700 BC",
+    "t": "A ring-shaped Bronze Age town in the Ural steppe",
+    "s": "On the open steppe east of the southern Urals lie the remains of Arkaim, a fortified settlement built around 4,000 years ago as two rings of walls with houses set against them. It belongs to the Sintashta culture, known for some of the world's earliest spoked-wheel chariots. The rings are too faint to see from cruise, but the rolling grassland around them has changed little since.",
+    "w": "Look for open, rolling steppe with river valleys and few trees, south of Chelyabinsk and east of the Ural ridges.",
+    "f": [
+      "Arkaim was found in 1987 by archaeologists surveying land for a planned reservoir.",
+      "The discovery led to the reservoir plan being dropped and the land becoming a reserve.",
+      "The settlement was about 150 m across."
+    ],
+    "q": {
+      "q": "What nearly flooded Arkaim soon after it was found?",
+      "a": "A planned reservoir",
+      "x": [
+        "A mining project",
+        "A river's change of course"
+      ]
+    }
+  },
+  "khorezm": {
+    "name": "Khwarazm",
+    "era": "6th c. BC – 19th c.",
+    "t": "An oasis kingdom on the Amu Darya delta",
+    "s": "Where the Amu Darya fans out before the Aral Sea, irrigation created a green island between two deserts: Khwarazm, home to kingdoms for 2,500 years. Dozens of ancient mud-brick fortresses still stand on the desert edge, and its old capital, Konye-Urgench, keeps a soaring minaret. From cruise the oasis is one of the region's clearest sights: a big patch of green and water in beige desert.",
+    "w": "A large green patchwork of irrigated fields and canals on the lower Amu Darya, between the Karakum and Kyzylkum deserts.",
+    "f": [
+      "The scholar al-Biruni, born here in 973, calculated the Earth's radius with remarkable accuracy.",
+      "The Kutlug Timur minaret in Konye-Urgench is about 60 m tall.",
+      "The fortresses of ancient Khwarazm are among the oldest in Central Asia."
+    ],
+    "q": {
+      "q": "Which scholar born in Khwarazm measured the Earth's radius?",
+      "a": "Al-Biruni",
+      "x": [
+        "Avicenna",
+        "Ulugh Beg"
+      ]
+    }
+  },
+  "bactria": {
+    "name": "Bactria",
+    "era": "6th c. BC – 7th c. AD",
+    "t": "Where Greek, Persian and Indian worlds met",
+    "s": "Between the Hindu Kush and the Amu Darya lay Bactria, a rich land of oasis cities. It was a Persian province, then a Greek kingdom founded by Alexander's successors, then the heart of the Kushan empire, which carried Buddhism north along the Silk Road. Its chief city, Balkh, was called the mother of cities. From above, look for the Amu Darya's green valley with the Hindu Kush to the south.",
+    "w": "Look for the green valley of the Amu Darya, with the high, often snowy Hindu Kush rising to the south.",
+    "f": [
+      "A Greek city with a theatre and gymnasium, Ai-Khanoum, stood on the Amu Darya in the 3rd century BC.",
+      "The two-humped Bactrian camel is named after this region.",
+      "The poet Rumi is known in Persian as Balkhi, 'from Balkh'."
+    ],
+    "q": {
+      "q": "What was Balkh called in ancient times?",
+      "a": "The mother of cities",
+      "x": [
+        "The city of kings",
+        "The pearl of the east"
+      ]
+    }
+  },
+  "scythian-steppe": {
+    "name": "Scythian steppe",
+    "era": "7th – 3rd c. BC",
+    "t": "Grasslands of the nomads and their golden kurgans",
+    "s": "North of the Black Sea stretches the steppe where the Scythians once lived: horse-riding nomads who moved with their herds and buried their leaders under great earth mounds called kurgans. Their goldsmiths made some of the finest animal-style jewellery of the ancient world. Today the land is farmed in huge fields, and from above it looks like a patchwork quilt on a flat table.",
+    "w": "A vast flat plain of large rectangular fields, cut by broad rivers flowing south to the Black Sea.",
+    "f": [
+      "Herodotus devoted a whole book of his Histories to the Scythians.",
+      "A gold pectoral found in a kurgan in 1971 is one of the masterpieces of Scythian art.",
+      "Kurgans still rise from the fields, some nearly 20 m high."
+    ],
+    "q": {
+      "q": "Which Greek historian described the Scythians?",
+      "a": "Herodotus",
+      "x": [
+        "Thucydides",
+        "Plutarch"
+      ]
+    }
+  },
+  "colchis": {
+    "name": "Colchis",
+    "era": "c. 13th – 1st c. BC",
+    "t": "The land of the Golden Fleece",
+    "s": "Between the Caucasus and the Black Sea lies the green, humid lowland of Colchis, in today's western Georgia. Greek myth sent Jason and the Argonauts here to seize the Golden Fleece. Historians note that people in the nearby mountains once caught gold dust from rivers on sheepskins, which may lie behind the legend. From above, look for the flat green plain of the Rioni river opening to the sea.",
+    "w": "Look for a flat, very green lowland along the eastern Black Sea, where the Rioni river reaches the coast at Poti.",
+    "f": [
+      "Excavations at Vani have uncovered rich gold jewellery made in Colchis.",
+      "The region is one of the wettest in the Caucasus, which keeps it green all year.",
+      "Greek colonists founded trading towns on the Colchian coast from the 6th century BC."
+    ],
+    "q": {
+      "q": "What did Jason seek in Colchis?",
+      "a": "The Golden Fleece",
+      "x": [
+        "The Holy Grail",
+        "Achilles' armour"
+      ]
+    }
+  },
+  "urartu": {
+    "name": "Urartu",
+    "era": "9th – 6th c. BC",
+    "t": "The Iron Age kingdom of Lake Van and Ararat",
+    "s": "Around the vast blue Lake Van lay Urartu, a mountain kingdom of the Iron Age. Its kings built fortresses on rocky crags, cut irrigation canals through the valleys and left inscriptions in cuneiform. Its name survives in Ararat, the snow-capped volcano on its northern edge. From cruise this is superb country: a huge lake, volcano cones and high, bare plateaus.",
+    "w": "Look for the huge blue Lake Van, and to its north-east the lone white cone of Mount Ararat.",
+    "f": [
+      "Yerevan grew from the Urartian fortress of Erebuni, founded in 782 BC.",
+      "A canal built by King Menua in the 8th century BC still carries water to the Van area.",
+      "Lake Van is a salty soda lake where only one kind of fish can live."
+    ],
+    "q": {
+      "q": "Which city grew from the fortress of Erebuni?",
+      "a": "Yerevan",
+      "x": [
+        "Tbilisi",
+        "Baku"
+      ]
+    }
+  },
+  "volga-trade-route": {
+    "name": "Volga trade route",
+    "era": "8th – 11th c.",
+    "t": "Viking traders on Europe's longest river",
+    "s": "In the Viking Age, traders from Scandinavia rowed their boats down the Volga to the markets of Bulgar and the Caspian, exchanging furs, wax and honey for Arab silver. Some went on to Baghdad. The river still shows the way: follow its wide blue course, now broken by long reservoirs, as it curves south across Russia towards the Caspian.",
+    "w": "Follow the Volga, broad and blue with long reservoirs, curving south towards the Caspian lowlands.",
+    "f": [
+      "Tens of thousands of Arab silver coins have been found in Viking-age hoards in Scandinavia.",
+      "In 922 the Arab envoy Ibn Fadlan described meeting Rus traders on the Volga.",
+      "The Volga is Europe's longest river, about 3,500 km."
+    ],
+    "q": {
+      "q": "What coins flowed north along the Volga route?",
+      "a": "Arab silver dirhams",
+      "x": [
+        "Roman gold solidi",
+        "Chinese bronze coins"
+      ]
+    }
   }
 }

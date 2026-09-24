@@ -1892,5 +1892,315 @@
         "Nagasaki"
       ]
     }
+  },
+  "Q173270": {
+    "t": "Where Cortés came ashore, with Orizaba on the horizon",
+    "s": "Veracruz lies on a low, sandy stretch of the Gulf of Mexico coast, with a busy port and, offshore, the pale shapes of coral reefs in turquoise water. Hernán Cortés landed on this coast in 1519 and founded Villa Rica de la Vera Cruz, the first Spanish town in what is now Mexico. On clear days, look west for the white cone of Pico de Orizaba.",
+    "w": "A flat port city on a straight Gulf coast; breakwaters and docks; pale reef patches offshore; a snowy volcano far inland to the west.",
+    "f": [
+      "The fortress of San Juan de Ulúa, begun in the 1500s, stands on a former island at the harbour mouth.",
+      "The reefs off the city are protected as a national marine park.",
+      "The town's site shifted more than once before it settled here around 1600."
+    ],
+    "q": {
+      "q": "What does the name Veracruz mean?",
+      "a": "True Cross",
+      "x": [
+        "Green Coast",
+        "Holy Harbour"
+      ]
+    }
+  },
+  "Q207429": {
+    "t": "A valley city on the edge of a 1,000-metre canyon",
+    "s": "Tuxtla Gutiérrez spreads across a warm, green valley in Chiapas, and just to its north-east the land splits open: the Sumidero Canyon, where the Grijalva River runs between cliffs rising up to about 1,000 m. From above it looks like a dark crack in the plateau. The name Tuxtla comes from a Nahuatl word usually translated as 'place of rabbits'.",
+    "w": "A long city in an east–west valley; to the north-east, a deep, winding gorge with a green-blue river at the bottom.",
+    "f": [
+      "Downstream, the Chicoasén Dam turns the river into a long reservoir winding through the mountains.",
+      "The second half of the name honours Joaquín Miguel Gutiérrez, a 19th-century politician from Chiapas."
+    ],
+    "q": {
+      "q": "Which canyon lies just north-east of Tuxtla Gutiérrez?",
+      "a": "The Sumidero Canyon",
+      "x": [
+        "The Copper Canyon",
+        "The Huasteca Canyon"
+      ]
+    }
+  },
+  "Q8969": {
+    "t": "A resort shaped like a 7 on turquoise water",
+    "s": "Cancún's hotel zone is easy to spot: a thin strip of white sand shaped like the number 7, with the turquoise Caribbean on one side and the calm, darker Nichupté Lagoon on the other. Until about 1970 there was almost nothing here; the resort was planned from scratch. Inland stretches the flat green Yucatán, without a single river on its surface.",
+    "w": "A narrow white island shaped like a 7 enclosing a lagoon; bright turquoise sea to the east; flat green jungle inland.",
+    "f": [
+      "Just offshore begins the Mesoamerican Reef, the second-largest barrier reef system in the world.",
+      "On the Yucatán's limestone, rainwater drains underground into sinkholes called cenotes.",
+      "Isla Mujeres, a small island to the north, lies about 13 km across the water."
+    ],
+    "q": {
+      "q": "What shape is the island of Cancún's hotel zone?",
+      "a": "The number 7",
+      "x": [
+        "A crescent",
+        "A ring"
+      ]
+    }
+  },
+  "Q165204": {
+    "t": "The White City above a buried asteroid crater",
+    "s": "Mérida spreads over the dead-flat limestone plain of the Yucatán, with no river, hill or lake to break the scrub. Beneath it lies a secret: the buried Chicxulub crater, blasted by the asteroid that helped end the age of dinosaurs, is centred on the coast just north of the city. The Spanish founded Mérida in 1542 on the site of the Maya city of T'hó.",
+    "w": "A large, low, pale city on a perfectly flat green plain; the coast and the port of Progreso about 35 km to the north.",
+    "f": [
+      "A ring of cenotes, water-filled sinkholes, traces part of the crater's buried rim around the city.",
+      "In the late 1800s sisal fibre from henequen plantations made Mérida one of Mexico's richest cities.",
+      "The crater is about 180 km across, but it lies buried and cannot be seen from the air."
+    ],
+    "q": {
+      "q": "What lies buried beneath the land around Mérida?",
+      "a": "An asteroid impact crater",
+      "x": [
+        "A volcanic caldera",
+        "An ancient salt lake"
+      ]
+    }
+  },
+  "Q2900": {
+    "t": "A long, thin capital on a volcano, just below the equator",
+    "s": "Quito is squeezed into a narrow Andean valley about 2,850 m up, stretching some 40 km from north to south along the flank of the Pichincha volcano. The equator runs only about 25 km to the north. On a clear day, look south for the perfect snow cone of Cotopaxi. In 1978 Quito's old town was among the very first places named a World Heritage site.",
+    "w": "A long, narrow city pressed against the slopes of a large volcano; deep ravines to the east; snowy cones on the horizon.",
+    "f": [
+      "Cotopaxi, about 5,900 m high, is one of the highest active volcanoes in the world.",
+      "The airport stands on a plateau east of the city, lower than Quito itself."
+    ],
+    "q": {
+      "q": "How far is Quito from the equator?",
+      "a": "About 25 km",
+      "x": [
+        "About 250 km",
+        "It lies right on it"
+      ]
+    }
+  },
+  "Q3070": {
+    "t": "A capital in a green valley ringed by volcanoes",
+    "s": "San José fills the heart of Costa Rica's Central Valley, about 1,150 m up: a bowl of red roofs and coffee-green hills rimmed by volcanoes. To the north rise Poás and Barva, to the east Irazú and Turrialba. From Irazú's summit, on a rare clear day, both the Pacific and the Caribbean are visible. The city became the national capital in 1823.",
+    "w": "A sprawling city filling a green valley, with volcanic mountains to the north and east; coffee plantations on the slopes.",
+    "f": [
+      "Irazú, about 3,430 m high, is Costa Rica's highest volcano.",
+      "Coffee grown on the volcanic slopes in the 1800s paid for much of the city's early grandeur, including its National Theatre."
+    ],
+    "q": {
+      "q": "From which volcano near San José can both oceans be seen?",
+      "a": "Irazú",
+      "x": [
+        "Arenal",
+        "Masaya"
+      ]
+    }
+  },
+  "Q3110": {
+    "t": "A capital between a volcano and a caldera lake",
+    "s": "San Salvador spreads across a valley at the foot of the San Salvador volcano, whose summit crater, El Boquerón, is a gaping round pit about 1.5 km wide. East of the city lies Lake Ilopango, filling the caldera of a colossal eruption some 1,500 years ago. Spanish settlers moved the town to this valley in the 1500s, and today it is the nation's capital.",
+    "w": "A dense city at the eastern foot of a big volcano with a round summit crater; a large blue caldera lake to the east.",
+    "f": [
+      "The Boquerón crater is roughly 500 m deep, with a small cone inside it.",
+      "Lake Ilopango covers about 70 km²."
+    ],
+    "q": {
+      "q": "Which lake fills the caldera east of San Salvador?",
+      "a": "Lake Ilopango",
+      "x": [
+        "Lake Atitlán",
+        "Lake Coatepeque"
+      ]
+    }
+  },
+  "Q34692": {
+    "t": "A harbour city behind a long, thin sand spit",
+    "s": "Kingston faces one of the world's great natural harbours, sealed off from the Caribbean by the Palisadoes, a sand spit more than 10 km long and barely wide enough for a road and the airport runway. At its tip lies Port Royal, once a notorious haunt of buccaneers. Behind the city rise the Blue Mountains, home of one of the world's most famous coffees.",
+    "w": "A wide, calm harbour enclosed by a long, curving spit with a runway; a sprawling city below mountains to the north.",
+    "f": [
+      "Blue Mountain Peak, about 2,260 m high, is the highest point in Jamaica.",
+      "Kingston was laid out in 1692 and became Jamaica's capital in 1872."
+    ],
+    "q": {
+      "q": "What sits on the long spit enclosing Kingston Harbour?",
+      "a": "The international airport",
+      "x": [
+        "A railway line",
+        "Salt works"
+      ]
+    }
+  },
+  "Q657461": {
+    "t": "A walled colonial port among bays and lagoons",
+    "s": "Cartagena is a maze of water: a large, sheltered bay with islands, inner lagoons and channels, and a narrow peninsula lined with white towers. At its heart the old town is still ringed by colonial stone walls, about 11 km of them, built to protect a treasure port. Pedro de Heredia founded the city in 1533; its walled centre is a World Heritage site.",
+    "w": "A coastal city spread around bays and lagoons; a thin peninsula of high-rises; islands in the bay; coral islets to the south-west.",
+    "f": [
+      "The Rosario Islands, a coral archipelago south-west of the city, are protected as a national park.",
+      "Spanish treasure fleets called here to load silver and gold bound for Spain."
+    ],
+    "q": {
+      "q": "What surrounds Cartagena's old town?",
+      "a": "Colonial stone walls",
+      "x": [
+        "A wide ring canal",
+        "Earthen dykes"
+      ]
+    }
+  },
+  "Q130242": {
+    "t": "A river town lost in an ocean of Amazon forest",
+    "s": "Mitú is a small town on the Vaupés River in Colombia's far south-east, surrounded in every direction by unbroken rainforest. No road connects it with the rest of the country; people and goods arrive by plane or by boat. From above, the river winds through the green like a dark ribbon, with the town's clearing and airstrip on its bank.",
+    "w": "A small clearing with an airstrip beside a winding dark river; endless green forest canopy all around.",
+    "f": [
+      "The Vaupés flows east into Brazil, where, as the Uaupés, it joins the Rio Negro.",
+      "Most of the region's inhabitants belong to indigenous peoples such as the Cubeo and Tukano."
+    ],
+    "q": {
+      "q": "How do you reach Mitú from the rest of Colombia?",
+      "a": "Only by air or by river",
+      "x": [
+        "By highway",
+        "By railway"
+      ]
+    }
+  },
+  "Q1555": {
+    "t": "A ravine-cut plateau capital watched by volcanoes",
+    "s": "Guatemala City sits on a highland plateau about 1,500 m up, and deep green ravines cut into it, so the city spreads along flat fingers of land between them. To the south-west stands a row of volcanoes: Agua, Acatenango and Fuego, which often trails a plume of ash. The capital moved here in 1776 from Antigua, in the next valley to the west.",
+    "w": "A large city on a plateau split by deep green ravines; tall volcanic cones to the south-west, one often smoking.",
+    "f": [
+      "The ruins of Kaminaljuyú, a large Maya settlement founded more than 2,000 years ago, lie within today's city.",
+      "Pacaya, another active volcano, rises just south of the city."
+    ],
+    "q": {
+      "q": "Which city was Guatemala's capital before 1776?",
+      "a": "Antigua Guatemala",
+      "x": [
+        "Quetzaltenango",
+        "Tikal"
+      ]
+    }
+  },
+  "Q44401": {
+    "t": "A slice of France on the edge of the Amazon forest",
+    "s": "Cayenne sits on a small, hilly peninsula at the mouth of the Cayenne River, with muddy brown sea in front and rainforest behind. French Guiana is part of France, so this is a European Union city in South America, and it uses the euro. About 60 km up the coast lies Kourou, where Europe's rockets are launched close to the equator.",
+    "w": "A small city on a knobbly peninsula at a river mouth; brown, muddy sea; dense green forest inland.",
+    "f": [
+      "The brown coastal water is stained by Amazon silt, carried north-west along the shore by currents.",
+      "Forest covers the vast majority of French Guiana's land."
+    ],
+    "q": {
+      "q": "Which currency is used in Cayenne?",
+      "a": "The euro",
+      "x": [
+        "The Brazilian real",
+        "The Guyanese dollar"
+      ]
+    }
+  },
+  "Q51599": {
+    "t": "A windswept port on the Strait of Magellan",
+    "s": "Punta Arenas stretches along the western shore of the Strait of Magellan, facing the low, tawny hills of Tierra del Fuego across the water. Ferdinand Magellan's ships threaded this passage in 1520. Before the Panama Canal opened, the town was a busy coaling stop for steamers passing between the oceans. Today planes leave from here for Antarctica.",
+    "w": "A city strung along a wide grey-blue strait; open, treeless steppe inland; the flat shores of Tierra del Fuego across the water.",
+    "f": [
+      "Chile founded the city in 1848.",
+      "It is one of the southernmost cities in the world with more than 100,000 people."
+    ],
+    "q": {
+      "q": "Which strait does Punta Arenas face?",
+      "a": "The Strait of Magellan",
+      "x": [
+        "The Drake Passage",
+        "The Beagle Channel"
+      ]
+    }
+  },
+  "Q14440": {
+    "t": "A desert port wedged under a cliff and a giant dune",
+    "s": "Iquique occupies a narrow ledge between the Pacific and a coastal escarpment that rises some 600 m straight behind it — the edge of the Atacama Desert. Inside the city sits a huge sand dune, Cerro Dragón. Up on the bare plateau inland lie the ghost towns of the 19th-century nitrate boom that made this port rich.",
+    "w": "A city on a thin coastal strip under a tall tan escarpment; a large pale dune among the houses; utterly bare desert above.",
+    "f": [
+      "The abandoned Humberstone and Santa Laura nitrate works inland are a UNESCO World Heritage site.",
+      "Rain is so rare here that years can pass without a single shower."
+    ],
+    "q": {
+      "q": "What unusual natural feature stands inside Iquique?",
+      "a": "A huge sand dune",
+      "x": [
+        "A volcano",
+        "A glacier"
+      ]
+    }
+  },
+  "Q3612": {
+    "t": "A copper port on a desert coast by the tropic",
+    "s": "Antofagasta stretches for kilometres along a narrow strip of coast, hemmed in by the bare brown wall of the Coastal Range and the cold blue Pacific. The Tropic of Capricorn crosses just north of the city. Inland lies some of the driest land on Earth, and some of the world's biggest copper mines, whose metal is shipped out through this port.",
+    "w": "A long, thin city along a straight coast beneath a steep brown escarpment; completely bare desert beyond.",
+    "f": [
+      "The desert skies are so clear that major observatories, including Paranal, stand about 120 km to the south.",
+      "The city was founded in 1868 to serve mining in the desert.",
+      "La Portada, a natural sea arch just north of the city, is a protected natural monument."
+    ],
+    "q": {
+      "q": "Which line of latitude passes just north of Antofagasta?",
+      "a": "The Tropic of Capricorn",
+      "x": [
+        "The Tropic of Cancer",
+        "The equator"
+      ]
+    }
+  },
+  "Q33986": {
+    "t": "A port city climbing dozens of hills round a bay",
+    "s": "Valparaíso wraps around a wide bay in a steep amphitheatre, its houses climbing more than forty hills that rise straight from a thin strip of flat land by the port. For decades before the Panama Canal it was the main stop for ships rounding Cape Horn. Its maze of hillside neighbourhoods is a World Heritage site, and Viña del Mar merges with it to the north.",
+    "w": "A crescent bay with a port; the city rising steeply up many hills behind it; a resort city continuing along the coast to the north.",
+    "f": [
+      "Some of the funicular lifts that carry people up the hills date from the late 1800s.",
+      "Santiago lies about 110 km to the south-east, beyond the Coastal Range."
+    ],
+    "q": {
+      "q": "How do many people in Valparaíso ride up the hills?",
+      "a": "On old funicular lifts",
+      "x": [
+        "On a cable car",
+        "On a rack railway"
+      ]
+    }
+  },
+  "Q160687": {
+    "t": "A city of rivers in Chile's green, rainy south",
+    "s": "Valdivia is laced with water: several rivers meet here and wind west through wetlands and forest to the sea at Corral Bay, about 15 km away. Around it grows dense, evergreen temperate rainforest, fed by heavy rain. Pedro de Valdivia founded the city in 1552 and named it after himself. From the 1850s German settlers arrived and left their mark on the town.",
+    "w": "A city on meandering dark rivers amid green wetlands and forest; the rivers widening west into a bay on the Pacific.",
+    "f": [
+      "In the 1600s and 1700s the Spanish ringed Corral Bay with forts to guard the river route to the city.",
+      "Sea lions often lounge beside the riverside fish market in the city centre."
+    ],
+    "q": {
+      "q": "Who is Valdivia named after?",
+      "a": "Its founder, Pedro de Valdivia",
+      "x": [
+        "A Chilean president",
+        "A Mapuche chief"
+      ]
+    }
+  },
+  "Q1880": {
+    "t": "A university city at the mouth of the broad Biobío",
+    "s": "Concepción sits where the Biobío, one of Chile's longest and widest rivers, spreads out before reaching the Pacific, crossed here by several long bridges. Lagoons dot the city, and the port of Talcahuano lies on the bay just to the north. For centuries the Biobío marked the frontier between Spanish Chile and the lands of the Mapuche.",
+    "w": "A city between low hills and a very wide river mouth crossed by long bridges; a large bay with a port to the north.",
+    "f": [
+      "In the mid-1700s the city moved to its present site from the nearby coast at Penco.",
+      "The Universidad de Concepción, founded in 1919, is one of Chile's oldest universities."
+    ],
+    "q": {
+      "q": "Which river reaches the sea at Concepción?",
+      "a": "The Biobío",
+      "x": [
+        "The Maule",
+        "The Mapocho"
+      ]
+    }
   }
 }

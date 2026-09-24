@@ -17,7 +17,7 @@ export function describePlace(poi: POI, _locale: string): string {
   } else if ((poi.category === 'mountain' || poi.category === 'volcano') && poi.elevation) {
     const m = metres(poi.elevation);
     parts.push(t('describe.peak', { kind, height: m.value, unit: t(`unit.${m.unit}`) }));
-  } else if (poi.extentKm) {
+  } else if (poi.extentKm && poi.category !== 'historic') {
     const k = km(poi.extentKm * 2);
     parts.push(t('describe.area', { kind, size: k.value, unit: t(`unit.${k.unit}`) }));
   } else {

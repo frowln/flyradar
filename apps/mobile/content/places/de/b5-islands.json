@@ -1064,5 +1064,363 @@
         "Land des Feuers"
       ]
     }
+  },
+  "Q13991": {
+    "t": "Japans stille Insel der 88 Tempel",
+    "s": "Shikoku ist die kleinste und ruhigste der vier japanischen Hauptinseln, größtenteils steile, bewaldete Berge mit Städten entlang der Küste. Im Norden liegt die Seto-Inlandsee, ein ruhiges Gewässer voller Inseln, überspannt von langen Brücken. In der Naruto-Straße an der Ostseite erzeugt der Gezeitenwechsel Strudel von bis zu etwa 20 m Durchmesser.",
+    "w": "Eine kompakte, gebirgige Insel südlich der inselreichen Seto-Inlandsee, mit Honshu durch lange Brücken verbunden.",
+    "f": [
+      "Pilger umrunden die Insel auf einem Weg zu 88 buddhistischen Tempeln – insgesamt rund 1.200 km.",
+      "Der Ishizuchi ist mit 1.982 m der höchste Gipfel Westjapans.",
+      "Drei Brückenrouten verbinden Shikoku über die Seto-Inlandsee mit Honshu."
+    ],
+    "q": {
+      "q": "Wie viele Tempel zählt Shikokus berühmter Pilgerweg?",
+      "a": "88",
+      "x": [
+        "33",
+        "108"
+      ]
+    }
+  },
+  "Q35581": {
+    "t": "Japans verschneiter Norden, wo Treibeis die Küste erreicht",
+    "s": "Hokkaido fühlt sich anders an als der Rest Japans: weitere Felder, größere Wälder, weniger Menschen und viel mehr Schnee. Achten Sie von oben auf runde Calderaseen – Shikotsu, Tōya, Kussharo – zwischen vulkanischen Hügeln. Im späten Winter drängt sich Treibeis aus dem Ochotskischen Meer an die Nordostküste und die Halbinsel Shiretoko und färbt das Meer weiß.",
+    "w": "Eine große Insel aus weitem Farmland, bewaldeten Bergen und runden blauen Calderaseen; im Winter weiß, mit Meereis im Nordosten.",
+    "f": [
+      "Die Halbinsel Shiretoko im Nordosten ist seit 2005 UNESCO-Welterbe.",
+      "Hokkaido umfasst über ein Fünftel der Landfläche Japans, aber nur rund 4 % der Bevölkerung.",
+      "Sapporo war 1972 Gastgeber der Olympischen Winterspiele."
+    ],
+    "q": {
+      "q": "Welches indigene Volk hat seine Heimat auf Hokkaido?",
+      "a": "Die Ainu",
+      "x": [
+        "Die Ryukyuer",
+        "Die Niwchen"
+      ]
+    }
+  },
+  "Q7792": {
+    "t": "Eine lange, schmale Insel, fast am Festland",
+    "s": "Sachalin erstreckt sich fast 950 km von Nord nach Süd, ist aber nirgends breiter als etwa 160 km – aus der Luft wirkt es wie ein langer grünbrauner Fisch. Zwei Gebirgszüge ziehen sich an ihm entlang, dazwischen ein Tal. Im Nordwesten verengt sich die Newelskoi-Straße auf rund 7 km zum Festland, und im Winter friert sie ganz zu.",
+    "w": "Eine sehr lange, schmale Insel parallel zur Küste, mit zwei Bergrücken und einem Tal dazwischen; im Winter vereiste Meere.",
+    "f": [
+      "Mit rund 76.000 km² ist Sachalin Russlands größte Insel.",
+      "Anton Tschechow reiste 1890 hierher und schrieb das Buch „Die Insel Sachalin“.",
+      "An der Südspitze trennt die La-Pérouse-Straße Sachalin auf rund 40 km von Hokkaido."
+    ],
+    "q": {
+      "q": "Welcher Schriftsteller reiste 1890 nach Sachalin und schrieb darüber ein Buch?",
+      "a": "Anton Tschechow",
+      "x": [
+        "Leo Tolstoi",
+        "Fjodor Dostojewski"
+      ]
+    }
+  },
+  "Q1462": {
+    "t": "Smaragdgrüne Buchten und 7.000 uralte Steintürme",
+    "s": "Sardinien ist die zweitgrößte Insel des Mittelmeers, ein zerklüfteter Block aus Hügeln und Hochebenen mit erstaunlich wenigen Städten. Achten Sie auf die Küste: Im Nordosten leuchten die Granitbuchten der Costa Smeralda smaragdgrün und türkis, im Süden säumen lange weiße Strände das Ufer. Gleich nördlich, jenseits einer schmalen Meerenge, ragt Korsika viel höher auf.",
+    "w": "Eine große, grob rechteckige Insel mit zerklüftetem Inneren; leuchtend türkise Buchten im Nordosten und Korsika gleich im Norden.",
+    "f": [
+      "Rund 7.000 Nuraghen – Steintürme aus der Bronzezeit – sind über die Insel verstreut.",
+      "Die Bergdörfer der Ogliastra sind berühmt für ungewöhnlich viele Menschen, die älter als 100 werden.",
+      "Die nur rund 11 km breite Straße von Bonifacio trennt Sardinien von Korsika."
+    ],
+    "q": {
+      "q": "Wie heißen Sardiniens uralte Steintürme?",
+      "a": "Nuraghen",
+      "x": [
+        "Trulli",
+        "Talayots"
+      ]
+    }
+  },
+  "Q14112": {
+    "t": "Ein Gebirge, das direkt aus dem Meer steigt",
+    "s": "Die Franzosen nennen Korsika „den Berg im Meer“, und von oben sehen Sie, warum: Ein zackiges Granitgebirge füllt fast die ganze Insel, bis weit in den Frühling schneegestreift und bis zu 2.706 m hoch. Die Westküste ist eine Folge tiefer Golfe und roter Klippen, der Osten ein flacherer Streifen mit Lagunen. An der Nordspitze zeigt der schmale Finger des Cap Corse Richtung Genua.",
+    "w": "Eine gebirgige Insel mit fingerförmiger Halbinsel nach Norden; tiefe Golfe an der Westküste, flache Lagunen im Osten.",
+    "f": [
+      "Napoleon Bonaparte wurde 1769 in Ajaccio an der Westküste geboren.",
+      "Der GR20 entlang Korsikas Gebirgsrückgrat gilt oft als härtester Fernwanderweg Europas.",
+      "Die roten Klippen von Scandola am Golf von Porto sind UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher Kaiser wurde auf Korsika geboren?",
+      "a": "Napoleon Bonaparte",
+      "x": [
+        "Karl der Große",
+        "Napoleon III."
+      ]
+    }
+  },
+  "Q4951156": {
+    "t": "Eine dreieckige Insel, gekrönt vom rauchenden Ätna",
+    "s": "Sizilien ist die größte Insel des Mittelmeers, ein grobes Dreieck – daher der antike Name Trinacria. Ihr Wahrzeichen ist unübersehbar: der Ätna, ein breiter, dunkler Vulkan an der Ostküste, im Winter schneebedeckt und oft mit einer Rauchfahne. Im Norden liegen die Liparischen Inseln, wo der Stromboli seit Jahrtausenden kleine Lavafontänen ausstößt.",
+    "w": "Eine dreieckige Insel; an der Ostküste der riesige dunkle Kegel des Ätna, oft mit Rauchfahne; kleine Vulkaninseln im Norden.",
+    "f": [
+      "Der Ätna, rund 3.300 m hoch, ist Europas höchster aktiver Vulkan; seine Höhe ändert sich mit seinen Ausbrüchen.",
+      "Die Straße von Messina trennt Sizilien nur rund 3 km vom italienischen Festland.",
+      "Seine regelmäßigen glühenden Ausbrüche brachten dem Stromboli den Beinamen „Leuchtturm des Mittelmeers“ ein."
+    ],
+    "q": {
+      "q": "Welcher antike Name Siziliens bezieht sich auf seine Form?",
+      "a": "Trinacria",
+      "x": [
+        "Hesperia",
+        "Taprobane"
+      ]
+    }
+  },
+  "Q337524": {
+    "t": "Vanuatus größte Insel, einst für einen Kontinent gehalten",
+    "s": "Espiritu Santo ist die größte Insel Vanuatus: eine zerklüftete, bewaldete Westseite mit den höchsten Gipfeln des Landes und eine niedrigere Ostseite mit Plantagen, Riffen und weißen Stränden. 1606 landete der Seefahrer Pedro Fernández de Quirós hier und glaubte, den großen Südkontinent gefunden zu haben. Achten Sie auf türkisfarbene Riffflächen entlang der Ostküste.",
+    "w": "Eine große grüne Insel mit hoher Bergmauer an der Westseite und flacheren, riffgesäumten Ufern im Osten.",
+    "f": [
+      "Der Tabwemasana ist mit 1.879 m der höchste Punkt Vanuatus.",
+      "Quellgespeiste „Blue Holes“ im Wald des Ostens sind Becken mit verblüffend klarem, leuchtend blauem Wasser."
+    ],
+    "q": {
+      "q": "Wofür hielt Quirós Espiritu Santo im Jahr 1606?",
+      "a": "Den großen Südkontinent",
+      "x": [
+        "Die Küste Asiens",
+        "Einen Teil Neuguineas"
+      ]
+    }
+  },
+  "Q148966": {
+    "t": "Eine Doppelkette aus Dschungelinseln und weiten Lagunen",
+    "s": "Die Salomonen bilden zwei lange, fast parallele Ketten hoher, dschungelbedeckter Inseln mit einem geschützten Meer dazwischen. Ihre Küsten sind von Riffen und Mangroven gesäumt, und im Westen breitet sich die Marovo-Lagune als Labyrinth aus Inselchen und türkisfarbenen Kanälen aus. Weit im Süden liegt Rennell, ein gehobenes Korallenatoll mit einem riesigen See, wo früher seine Lagune war.",
+    "w": "Zwei parallele Linien bergiger, dunkelgrüner Inseln mit Riffsaum, im Westen ein türkisfarbenes Lagunenlabyrinth.",
+    "f": [
+      "Der spanische Entdecker Álvaro de Mendaña benannte die Inseln 1568 in der Hoffnung auf König Salomos Reichtümer.",
+      "Der Tegano-See auf Rennell ist der größte See im pazifischen Inselraum.",
+      "Auf Malaita werden Ketten aus Muschelgeld noch heute als Brautpreis und bei Zeremonien verwendet."
+    ],
+    "q": {
+      "q": "Wessen legendärer Reichtum inspirierte den Namen der Salomonen?",
+      "a": "König Salomos",
+      "x": [
+        "König Midas’",
+        "Der Königin von Saba"
+      ]
+    }
+  },
+  "Q10905515": {
+    "t": "Ein 1.000 km langer Korallenbogen von Kyushu bis Taiwan",
+    "s": "Südwestlich von Kyushu ziehen sich die Ryukyu-Inseln in einem langen Bogen Richtung Taiwan, jede umgeben von Korallenriff und Wasser in einem Dutzend Blautönen. Okinawa, die größte, ist lang und schmal, mit belebten Städten im Süden und grünen Hügeln im Norden. Über vier Jahrhunderte lang bildeten diese Inseln das unabhängige Königreich Ryukyu, das zwischen Japan, China und Südostasien Handel trieb.",
+    "w": "Eine lange Kette kleiner Inseln in leuchtend türkisem Riff, die sich von Kyushu nach Südwesten Richtung Taiwan zieht.",
+    "f": [
+      "Karate entstand auf Okinawa, aus einheimischen Kampfkünsten mit chinesischen Einflüssen.",
+      "Die Iriomote-Katze, eine der seltensten Wildkatzen der Erde, lebt hier auf einer einzigen Insel.",
+      "Von Yonaguni, der westlichsten Insel, ist Taiwan nur rund 110 km entfernt."
+    ],
+    "q": {
+      "q": "Welche Kampfkunst stammt aus Okinawa?",
+      "a": "Karate",
+      "x": [
+        "Judo",
+        "Aikido"
+      ]
+    }
+  },
+  "Q183963": {
+    "t": "Die größte Atollkette der Welt",
+    "s": "Die Tuamotus verteilen fast 80 Korallenatolle über eine riesige Fläche des Südpazifiks – die größte Atollgruppe der Erde. Von oben ist jedes ein schmaler, unterbrochener Ring aus palmenbestandenem Land um eine leuchtend türkise Lagune, ringsum tiefes Blau. Das größte, Rangiroa, ist so weit, dass man vom einen Ufer seiner Lagune das andere nicht sieht.",
+    "w": "Dutzende schmale, unterbrochene Landringe um leuchtend türkise Lagunen, verstreut über dunkelblauen Ozean.",
+    "f": [
+      "Frühe Seefahrer nannten sie den „Gefährlichen Archipel“, weil die flachen Atolle so schwer zu erkennen waren.",
+      "Rangiroas Lagune umfasst rund 1.450 km² und zählt zu den größten der Welt.",
+      "Ein Großteil der berühmten schwarzen Perlen Französisch-Polynesiens wird in Lagunen der Tuamotus gezüchtet."
+    ],
+    "q": {
+      "q": "Wie nannten frühe europäische Seefahrer die Tuamotus?",
+      "a": "Gefährlicher Archipel",
+      "x": [
+        "Freundschaftsinseln",
+        "Diebesinseln"
+      ]
+    }
+  },
+  "Q154628": {
+    "t": "Ein gebrochener Ring aus Vulkaninseln vor Neuguinea",
+    "s": "Der Bismarck-Archipel legt sich wie ein gebrochener Ring um die Bismarcksee. Neubritannien ist die große Sichel, gebirgig und stellenweise rauchend; Neuirland ist ihr langer, dürrer Nachbar; Manus und die Admiralitätsinseln liegen im Nordwesten. An der Nordostspitze Neubritanniens liegt Rabaul, eine Stadt rund um eine überflutete Vulkancaldera.",
+    "w": "Eine große sichelförmige Insel mit Vulkangipfeln, eine lange, schmale Insel nordöstlich davon und verstreute kleinere Inseln.",
+    "f": [
+      "Die Inseln wurden 1884 nach dem deutschen Reichskanzler Otto von Bismarck benannt.",
+      "Neuirland ist rund 350 km lang, stellenweise aber keine 10 km breit.",
+      "Rabauls Hafen füllt eine Caldera, deren Vulkane wie der Tavurvur noch immer ausbrechen."
+    ],
+    "q": {
+      "q": "Nach wem ist der Bismarck-Archipel benannt?",
+      "a": "Otto von Bismarck",
+      "x": [
+        "Kaiser Wilhelm I.",
+        "Alfred von Tirpitz"
+      ]
+    }
+  },
+  "Q201766": {
+    "t": "Rauchende Vulkane auf der Insel eines Entdeckers",
+    "s": "Bougainville ist eine große, gebirgige Insel unter Regenwald, mit einer Vulkankette entlang ihres Rückgrats. Der Balbi ist mit rund 2.700 m der höchste, während sein Nachbar Bagana zu den aktivsten Vulkanen der Region gehört und oft eine Fahne aus Dampf und Asche hinter sich herzieht. Die Küsten säumen Riffe, schwarze Sandstrände und Mangroven.",
+    "w": "Eine lange, gebirgige Insel aus dunklem Regenwald mit Vulkangipfeln in der Mitte, oft mit einer Rauchfahne über einem davon.",
+    "f": [
+      "Sie ist nach dem französischen Entdecker Louis-Antoine de Bougainville benannt, der 1768 vorbeisegelte.",
+      "Auch die leuchtende Bougainvillea trägt den Namen dieses Entdeckers.",
+      "Geografisch ist sie die größte Insel der Salomonen-Kette."
+    ],
+    "q": {
+      "q": "Welche Gartenpflanze trägt den Namen des Entdeckers dieser Insel?",
+      "a": "Bougainvillea",
+      "x": [
+        "Magnolie",
+        "Fuchsie"
+      ]
+    }
+  },
+  "Q192767": {
+    "t": "Dschungelgipfel hier, Grasebenen dort",
+    "s": "Guadalcanal ist die größte Insel der Salomonen und auffallend einseitig. Eine Mauer dschungelbedeckter Berge, über 2.300 m hoch, zieht sich an der Südseite entlang, wo die regnerische „Weather Coast“ steil zum Meer abfällt. Der Norden ist sanfter, mit Grasebenen, Plantagen und der Hauptstadt Honiara.",
+    "w": "Eine lange Insel mit steilen, wolkenbedeckten Bergen an der Südküste und hellen Grasebenen im Norden.",
+    "f": [
+      "Sie ist nach Guadalcanal in Andalusien benannt, dem Heimatort eines Mitglieds von Mendañas spanischer Expedition von 1568.",
+      "Die Südküste heißt „Weather Coast“ – wegen ihres starken Regens und der rauen See."
+    ],
+    "q": {
+      "q": "Welche Stadt auf Guadalcanal ist die Hauptstadt der Salomonen?",
+      "a": "Honiara",
+      "x": [
+        "Gizo",
+        "Auki"
+      ]
+    }
+  },
+  "Q83639": {
+    "t": "Sechs Vulkane, verschmolzen zum Seepferdchen am Äquator",
+    "s": "Isabela, die größte der Galápagos-Inseln, besteht aus sechs zusammengewachsenen Schildvulkanen, und von oben ähnelt ihr Umriss einem Seepferdchen. Breite, dunkle Lavaströme ziehen sich über ihre Flanken, und mehrere Gipfel tragen riesige Calderen. Der Äquator quert ihr Nordende, und doch fischen Galápagos-Pinguine in den kalten Strömungen vor ihren Küsten.",
+    "w": "Eine seepferdchenförmige Insel aus breiten, dunklen Vulkanen mit riesigen Gipfelkratern und schwarzen Lavaströmen bis zum Meer.",
+    "f": [
+      "Der Vulkan Wolf ist mit 1.707 m der höchste Punkt der Galápagos-Inseln.",
+      "Der Rosa Landleguan lebt an den Hängen des Wolf und nirgendwo sonst auf der Erde.",
+      "Die Gipfelcaldera der Sierra Negra misst rund 7 mal 10 km."
+    ],
+    "q": {
+      "q": "Womit wird die Form der Insel Isabela oft verglichen?",
+      "a": "Mit einem Seepferdchen",
+      "x": [
+        "Mit einer Mondsichel",
+        "Mit einem Stiefel"
+      ]
+    }
+  },
+  "Q42000": {
+    "t": "Eine grüne Acht aus Gipfeln hinter einem Riff",
+    "s": "Tahiti besteht aus zwei alten Vulkanen, verbunden durch einen schmalen Hals – von oben sieht die Insel aus wie eine Acht: das große, runde Tahiti Nui und das kleinere Tahiti Iti. Ihre Hänge sind von tiefen grünen Tälern zerschnitten, die von wolkenverhangenen Gipfeln bis zu schwarzen Sandstränden hinabreichen. Ein Riff umschließt große Teile der Insel und hält eine hell-türkise Lagune.",
+    "w": "Eine große runde Insel, über eine schmale Landenge mit einer kleineren verbunden: messerscharfe grüne Grate, türkise Lagune, weiße Brandungslinie.",
+    "f": [
+      "Der Mont Orohena ist mit 2.241 m der höchste Punkt Französisch-Polynesiens.",
+      "Kapitän Cook kam 1769 hierher, um den Durchgang der Venus vor der Sonnenscheibe zu beobachten.",
+      "Die Surfwelle von Teahupoʻo war 2024 Schauplatz des olympischen Surfwettbewerbs."
+    ],
+    "q": {
+      "q": "Was wollte Kapitän Cook 1769 auf Tahiti beobachten?",
+      "a": "Den Venustransit",
+      "x": [
+        "Eine totale Sonnenfinsternis",
+        "Den Halleyschen Kometen"
+      ]
+    }
+  },
+  "Q188705": {
+    "t": "Die „Valley Isle“ unter dem riesigen Krater des Haleakalā",
+    "s": "Maui besteht aus zwei Vulkanen, verbunden durch eine flache Landenge – daher der Beiname „Valley Isle“. Der große östliche, der Haleakalā, ragt 3.055 m hoch auf, und sein Gipfel birgt eine gewaltige Senke voller rost- und ockerfarbener Schlackenkegel, die an klaren Tagen gut zu erkennen sind. Die älteren West Maui Mountains sind in scharfe grüne Grate und Täler zerschnitten.",
+    "w": "Zwei Buckel, verbunden durch einen flachen Hals: im Osten die riesige, oft wolkenumkränzte Kuppel des Haleakalā, im Westen scharfe grüne Grate.",
+    "f": [
+      "Die Gipfelsenke des Haleakalā ist rund 11 km lang und 800 m tief.",
+      "Im Winter versammeln sich Buckelwale zur Fortpflanzung in den Meeresstraßen zwischen Maui, Lānaʻi und Molokaʻi.",
+      "Haleakalā bedeutet auf Hawaiisch „Haus der Sonne“."
+    ],
+    "q": {
+      "q": "Was bedeutet „Haleakalā“ auf Hawaiisch?",
+      "a": "Haus der Sonne",
+      "x": [
+        "Berg des Feuers",
+        "Weißer Berg"
+      ]
+    }
+  },
+  "Q208198": {
+    "t": "Fidschis Hauptinsel: üppig im Osten, golden im Westen",
+    "s": "Viti Levu ist die größte Insel Fidschis, annähernd rund, mit zerklüfteten, bewaldeten Bergen in der Mitte. Das Wetter teilt sie in zwei Hälften: Der Südosten um Suva fängt den Passatregen ein und bleibt dunkelgrün, der trockenere Nordwesten ist ein Flickenteppich aus Zuckerrohrfeldern und hellem Grasland. Korallenriffe und Lagunen säumen weite Teile der Küste.",
+    "w": "Eine rundliche, gebirgige Insel: dunkler Regenwald im Südosten, helleres, goldenes Zuckerrohrland im Nordwesten, Riffe entlang der Küste.",
+    "f": [
+      "Der Tomanivi ist mit 1.324 m der höchste Punkt Fidschis.",
+      "Die Sigatoka-Sanddünen an der Südküste wurden Fidschis erster Nationalpark.",
+      "Die meisten internationalen Flüge nach Fidschi landen in Nadi auf der trockenen Westseite der Insel."
+    ],
+    "q": {
+      "q": "Welche Stadt auf Viti Levu ist Fidschis Hauptstadt?",
+      "a": "Suva",
+      "x": [
+        "Nadi",
+        "Lautoka"
+      ]
+    }
+  },
+  "Q205695": {
+    "t": "Heimat des Dodos – und eines „Unterwasserfalls“",
+    "s": "Drei Vulkaninseln liegen in einer Reihe östlich von Madagaskar: Réunion, Mauritius und das kleine Rodrigues. Réunion ist die höchste und wildeste, ihr höchster Gipfel übersteigt 3.000 m, und an ihrer Südostseite liegt einer der aktivsten Vulkane der Welt. Mauritius ist flacher und von einer türkisfarbenen Lagune umringt; vor seiner Südwestecke wirkt Sand, der einen Unterwasserhang hinabrieselt, aus der Luft wie ein Wasserfall.",
+    "w": "Réunions hohe, runde, wolkenbedeckte Gipfel; nordöstlich davon das flachere Mauritius, umhüllt von einer weiten türkisen Lagune.",
+    "f": [
+      "Die Inseln sind nach dem portugiesischen Seefahrer Pedro Mascarenhas benannt.",
+      "Der Dodo, eine flugunfähige Taube, lebte nur auf Mauritius und war Ende des 17. Jahrhunderts ausgestorben.",
+      "Der Piton des Neiges auf Réunion ist mit 3.069 m der höchste Punkt im Indischen Ozean."
+    ],
+    "q": {
+      "q": "Auf welcher Insel lebte der Dodo?",
+      "a": "Mauritius",
+      "x": [
+        "Réunion",
+        "Madagaskar"
+      ]
+    }
+  },
+  "Q192281": {
+    "t": "Das letzte große Land, das auf die Weltkarte kam",
+    "s": "Sewernaja Semlja war das letzte größere Land der Erde, das entdeckt wurde: Eine russische Expedition sichtete es 1913, richtig kartiert wurde es erst 1930–32. Von oben ist es eine Gruppe großer Inseln, deren Land zur Hälfte unter glatten Eiskappen liegt, die an ihren Rändern ins Meer kalben; der Rest ist kahle braune Polarwüste. Meereis schließt den Archipel den größten Teil des Jahres ein.",
+    "w": "Große Inseln unter glatten weißen Eiskuppeln, kahler brauner Boden an den Rändern und gefrorene Meerengen dazwischen, nördlich der Taimyr-Halbinsel.",
+    "f": [
+      "Die Eiskappe der Akademie der Wissenschaften auf der Komsomolez-Insel ist die größte Eiskappe Russlands.",
+      "Georgi Uschakow und Nikolai Urwanzew kartierten den Archipel 1930–32 mit Hundeschlitten.",
+      "Kap Arktitscheski, die Nordspitze, ist ein häufiger Ausgangspunkt für Nordpol-Expeditionen."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurde Sewernaja Semlja entdeckt?",
+      "a": "1913",
+      "x": [
+        "1878",
+        "1596"
+      ]
+    }
+  },
+  "Q1249802": {
+    "t": "Windgepeitschte, baumlose Inseln voller Pinguine",
+    "s": "Zwei Hauptinseln und Hunderte kleinere liegen im Südatlantik östlich von Patagonien: flach, baumlos und braungrün unter einem weiten Himmel. Die Küste ist in lange Buchten und Sunde zerrissen. Achten Sie auf helle Streifen an den Hängen – sogenannte Stone Runs, Ströme aus Felsblöcken, die der eiszeitliche Frost hinterließ. An den Ufern leben riesige Kolonien von Pinguinen und Albatrossen.",
+    "w": "Zwei große, flache, baumlose Inseln mit tief eingeschnittenen Küsten und hellen Streifen aus Blockfeldern an den Hügeln.",
+    "f": [
+      "Fünf Pinguinarten brüten hier, darunter Königs-, Esels- und Felsenpinguine.",
+      "Rund 70 % der Schwarzbrauenalbatrosse der Welt nisten auf diesen Inseln.",
+      "Es gibt keine einheimischen Bäume; das Land ist mit Gras, Heide und Torf bedeckt."
+    ],
+    "q": {
+      "q": "Was sind die „Stone Runs“ der Falklandinseln?",
+      "a": "Ströme aus Felsblöcken",
+      "x": [
+        "Alte Steinmauern",
+        "Alte Lavaströme"
+      ]
+    }
   }
 }

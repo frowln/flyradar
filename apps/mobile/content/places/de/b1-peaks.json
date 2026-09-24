@@ -2114,5 +2114,448 @@
         "Pantanal"
       ]
     }
+  },
+  "Q916997": {
+    "t": "Südafrikas weites „Land des Durstes“",
+    "s": "Die Karoo nimmt einen riesigen Teil des südafrikanischen Binnenlands ein: eine Halbwüste aus flachen Ebenen und Tafelbergen mit Kappen aus dunklem Dolerit. Ihr Name wird meist auf ein Khoekhoe-Wort für ein trockenes, durstiges Land zurückgeführt. Von oben ist sie eine Palette aus Khaki, Rost und Grau, durchzogen von langen geraden Straßen und hier und da dem grünen Faden eines Flusses.",
+    "w": "Flache khakifarbene Ebenen mit dunklen Tafelbergen, durchzogen von langen geraden Straßen und trockenen Flussbetten.",
+    "f": [
+      "Ihre Gesteine sind reich an Fossilien säugetierähnlicher Reptilien, die mehr als 250 Millionen Jahre alt sind.",
+      "Das Radioteleskop MeerKAT, Teil des Projekts Square Kilometre Array, steht in der Karoo."
+    ],
+    "q": {
+      "q": "Welches Riesen-Radioteleskopprojekt entsteht in der Karoo?",
+      "a": "Square Kilometre Array",
+      "x": [
+        "Atacama Large Millimeter Array",
+        "Event Horizon Telescope"
+      ]
+    }
+  },
+  "Q482274": {
+    "t": "Kameruns Wasserturm, der in drei Richtungen abfließt",
+    "s": "Quer durch Zentralkamerun zieht sich das Adamaua-Plateau, ein hohes Grasland meist um 1.000 m, übersät mit alten Vulkankegeln und Kraterseen. Man nennt es oft Kameruns Wasserturm: Flüsse, die hier entspringen, fließen nach Norden zum Tschadsee, über den Benue nach Westen zum Niger und nach Süden Richtung Atlantik und Kongobecken. Suchen Sie von oben grüne Savanne, bewaldete Täler und rote Erde.",
+    "w": "Ein grünes, welliges Hochland aus Savanne und bewaldeten Tälern, übersät mit kleinen Vulkankegeln und Kraterseen.",
+    "f": [
+      "Benannt ist es nach Modibo Adama, einem Anführer der Fulbe, der hier Anfang des 19. Jahrhunderts ein Emirat gründete.",
+      "Ngaoundéré, die wichtigste Stadt auf dem Plateau, ist der nördliche Endpunkt der Bahn von Douala."
+    ],
+    "q": {
+      "q": "Warum heißt das Adamaua-Plateau Kameruns „Wasserturm“?",
+      "a": "Viele Flüsse entspringen dort",
+      "x": [
+        "Es speichert Wasser in Dämmen",
+        "Es hat Afrikas meisten Regen"
+      ]
+    }
+  },
+  "Q776345": {
+    "t": "Angolas Hochplateau, wo der Okavango entspringt",
+    "s": "Das Bié-Plateau ist das hohe Herz Angolas, welliges Grasland und Wald, meist 1.500–1.800 m über dem Meer. Sein Regen speist Flüsse, die in alle Richtungen aufbrechen: der Kwanza zum Atlantik, der Cunene nach Süden Richtung Namibia und der Cubango, der zum Okavango wird und im Sand Botswanas endet. Suchen Sie von oben grün-ockerfarbenes Hochland, durchzogen von mäandernden Flüssen.",
+    "w": "Welliges grün-ockerfarbenes Hochland und Wald, durchzogen von mäandernden Flüssen und Feuchtgebieten im Zentrum Angolas.",
+    "f": [
+      "Der Okavango erreicht nie das Meer; er breitet sich in Botswana zu einem riesigen Binnendelta aus.",
+      "Huambo auf dem Plateau, in rund 1.700 m Höhe, ist eine der größten Städte Angolas."
+    ],
+    "q": {
+      "q": "Welcher berühmte Fluss entspringt auf dem Bié-Plateau als Cubango?",
+      "a": "Okavango",
+      "x": [
+        "Limpopo",
+        "Oranje"
+      ]
+    }
+  },
+  "Q1321468": {
+    "t": "Ein altes, abgetragenes Plateau voller Höhlen und Quellen",
+    "s": "Die Ozarks sind eigentlich kein Gebirge, sondern ein altes Plateau, von Flüssen tief zu bewaldeten Hügeln zerschnitten. Der Kalkstein darunter ist durchlöchert von Höhlen und Quellen, einige der größten Nordamerikas. Suchen Sie von oben dunkelgrünes, zerknittertes Hügelland mit gewundenen klaren Flüssen und großen, verästelten Stauseen – aufgestaute Täler, geformt wie verschüttete Tinte.",
+    "w": "Zerknittertes, dunkelgrün bewaldetes Hügelland mit gewundenen Flüssen und großen Stauseen in verästelten, fingerartigen Formen.",
+    "f": [
+      "Missouri, großenteils in den Ozarks gelegen, hat mehr als 7.000 bekannte Höhlen.",
+      "Die Big Spring in Missouri schüttet an einem durchschnittlichen Tag rund eine Milliarde Liter Wasser aus.",
+      "Der Buffalo River in Arkansas wurde 1972 der erste „National River“ der USA."
+    ],
+    "q": {
+      "q": "Welcher Fluss der Ozarks wurde 1972 der erste „National River“ der USA?",
+      "a": "Buffalo River",
+      "x": [
+        "White River",
+        "Arkansas River"
+      ]
+    }
+  },
+  "Q4492616": {
+    "t": "Ein welliges Lavaplateau aus Seen und Kiefernwald",
+    "s": "Zwischen den Coast Mountains und den Rockies flacht sich das zentrale British Columbia zum Fraser-Plateau ab, einem welligen Hochland aus Kiefernwald, Wiesen und unzähligen Seen, großenteils auf alten Lavaströmen. An seinem Ostrand gräbt der Fraser River auf dem Weg zum Pazifik einen tiefen Graben. Suchen Sie von oben einen graugrünen Teppich voller Seen, aufgeschlitzt von diesem scharfen Flusscanyon.",
+    "w": "Ein welliges graugrünes Hochland voller Seen, auf der Ostseite vom tiefen Graben des Fraser River durchschnitten.",
+    "f": [
+      "Der rund 1.375 km lange Fraser ist der längste Fluss, der ganz in British Columbia liegt.",
+      "In den 2000er-Jahren tötete ein Befall durch den Bergkiefernkäfer hier riesige Kiefernflächen; die Wälder wurden erst rot, dann grau."
+    ],
+    "q": {
+      "q": "Welchen Ozean erreicht der Fraser River schließlich?",
+      "a": "Den Pazifik",
+      "x": [
+        "Das Nordpolarmeer",
+        "Den Atlantik"
+      ]
+    }
+  },
+  "Q15241934": {
+    "t": "Uralter Schildfels des Kontinents, voller Seen",
+    "s": "Das Laurentinische Bergland ist der abgetragene Kern des Kanadischen Schilds, ein riesiger Bogen uralten Gesteins rund um die Hudson Bay und die Großen Seen. Eiszeitgletscher schabten ihn blank und hinterließen ein Labyrinth aus Seen, Mooren und felsigen Kuppen. Suchen Sie von oben, besonders nahe dem Oberen See, dunklen Wald, übersät mit Tausenden Seen, die wie Glasscherben glänzen.",
+    "w": "Dunkler Wald und nackter Fels, übersät mit unzähligen Seen, besonders rund um die Ufer des Oberen Sees.",
+    "f": [
+      "Ein Großteil seines Gesteins ist mehr als 2,5 Milliarden Jahre alt und gehört zum ältesten Nordamerikas.",
+      "Die Mesabi Range in Minnesota auf dem Bergland ist seit Langem eines der großen Eisenerzreviere der Welt.",
+      "Der Obere See an seinem Südrand ist nach Fläche der größte Süßwassersee der Welt."
+    ],
+    "q": {
+      "q": "Welcher See am Rand des Berglands ist der flächengrößte Süßwassersee?",
+      "a": "Der Obere See",
+      "x": [
+        "Der Victoriasee",
+        "Der Huronsee"
+      ]
+    }
+  },
+  "Q293730": {
+    "t": "Ein Land aus gelbem Flugstaub, in Schluchten zerschnitten",
+    "s": "Das Lössplateau besteht aus Staub: feinem gelbem Schluff, der über Hunderttausende Jahre aus den Wüsten Zentralasiens herangeweht wurde und stellenweise mehr als 100 m dick liegt. Regen schneidet leicht hinein, und so wirkt es von oben wie ein zerknittertes gelbbraunes Tuch, durchzogen von verästelten Schluchten und ordentlichen Terrassenfeldern. Der Schluff, der von ihm abgespült wird, gibt dem Gelben Fluss Farbe und Namen.",
+    "w": "Zerknittertes gelbbraunes Land, zerschnitten von unzähligen verästelten Schluchten, mit terrassierten Hängen und einem schlammigen Fluss.",
+    "f": [
+      "Das Plateau bedeckt rund 640.000 km² – mehr als Spanien.",
+      "Millionen Menschen lebten in Yaodong, Wohnhöhlen, die in die Lösshänge gegraben sind.",
+      "Ein Sanierungsprojekt ab den 1990er-Jahren terrassierte Hänge und bepflanzte sie neu – die Erosion ging stark zurück."
+    ],
+    "q": {
+      "q": "Was gibt dem Gelben Fluss seine Farbe?",
+      "a": "Schluff vom Lössplateau",
+      "x": [
+        "Algen im Wasser",
+        "Schwefelquellen"
+      ]
+    }
+  },
+  "Q1126906": {
+    "t": "Sanfte Hügel aus Schwarzerde, wo große Flüsse beginnen",
+    "s": "Südlich von Moskau wölbt sich das Land sanft zur Mittelrussischen Platte auf, Hügel von nur ein paar Hundert Metern, doch auf der Karte bedeutsam: Oka, Don und Nebenflüsse des Dnepr entspringen alle hier. Zu ihren Böden gehört fruchtbare schwarze Tschernosem-Erde. Suchen Sie von oben einen Flickenteppich riesiger Felder, zerschnitten von verästelten, baumbestandenen Schluchten, und im Süden gewaltige Eisenerz-Tagebaue.",
+    "w": "Ein riesiger Flickenteppich aus Feldern, zerschnitten von baumbestandenen, verästelten Schluchten, im Süden gewaltige graue Tagebaue.",
+    "f": [
+      "Die Kursker Magnetanomalie darunter ist eines der größten Eisenerzvorkommen der Erde.",
+      "Der Don entspringt bei Nowomoskowsk südlich von Moskau und fließt rund 1.900 km bis zum Asowschen Meer.",
+      "Ihre Schluchten wachsen schnell, weil die weichen Böden leicht erodieren, sobald der Wald gerodet ist."
+    ],
+    "q": {
+      "q": "Welcher Fluss entspringt hier und fließt zum Asowschen Meer?",
+      "a": "Don",
+      "x": [
+        "Wolga",
+        "Dnepr"
+      ]
+    }
+  },
+  "Q277576": {
+    "t": "Ein Basaltplateau, zerschnitten von Canyonseen",
+    "s": "Nördlich des Polarkreises in Sibirien erhebt sich das Putorana-Plateau wie eine riesige Schichttorte aus dunklem Basalt, von Hunderte Meter tiefen Canyons in Tafelberge zerlegt. In vielen Canyons liegen lange, schmale Seen – wie Fjorde fernab jedes Meeres. Keine Straße führt hinein. Suchen Sie von oben gestufte Felswände und Wasserbänder; im Winter wird das ganze Plateau zu schwarz-weißer Grafik.",
+    "w": "Dunkle Tafelberge mit gestuften Flanken, zerschnitten von tiefen Canyons mit langen, schmalen Seen, östlich von Norilsk.",
+    "f": [
+      "Das Plateau wurde 2010 UNESCO-Welterbe.",
+      "Es hat die größte Dichte an Wasserfällen in ganz Russland.",
+      "Der geografische Mittelpunkt Russlands am Wiwi-See liegt an seinem Südrand."
+    ],
+    "q": {
+      "q": "Was liegt am Wiwi-See am Südrand des Plateaus?",
+      "a": "Russlands geografischer Mittelpunkt",
+      "x": [
+        "Russlands kältester Punkt",
+        "Russlands tiefster See"
+      ]
+    }
+  },
+  "Q604329": {
+    "t": "Karsthügel, Reisterrassen und ewiger Frühling",
+    "s": "Der Südwesten Chinas steigt zum Yunnan-Guizhou-Plateau an, einem hohen, zerknitterten Land meist in 1.000–2.000 m Höhe, vom Regen zu Karst zerfressen: Dolinen, Steinnadeln und Flüsse, die im Untergrund verschwinden. Suchen Sie von oben grüne Hügel voller Senken, Felder aus roter Erde, große blaue Seen rund um Kunming und an steilen Südhängen Reisterrassen, gestapelt wie Höhenlinien.",
+    "w": "Zerknitterte grüne Hügel voller Dolinen, Flecken roter Erde und große Seen rund um die Stadt Kunming.",
+    "f": [
+      "Kunming, auf rund 1.900 m, trägt wegen seines milden Klimas den Beinamen „Stadt des ewigen Frühlings“.",
+      "Der Steinwald bei Kunming ist ein Labyrinth aus grauen Kalksteinsäulen, Dutzende Meter hoch.",
+      "Die Reisterrassen der Hani in Honghe, im Süden des Plateaus, sind UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welche Stadt auf dem Plateau heißt „Stadt des ewigen Frühlings“?",
+      "a": "Kunming",
+      "x": [
+        "Guiyang",
+        "Chengdu"
+      ]
+    }
+  },
+  "Q874816": {
+    "t": "Eine flache Schale aus Reisfeldern am Mekong",
+    "s": "Der Nordosten Thailands liegt auf dem Khorat-Plateau, einer riesigen flachen Schale nur etwa 100–200 m über dem Meer, sanft zum Mekong geneigt. Seine beiden Hauptflüsse, Mun und Chi, mäandern darüber hinweg, bevor sie an der Grenze zu Laos in den Mekong münden. Suchen Sie von oben einen Flickenteppich aus Reisfeldern – in der Regenzeit leuchtend grün, in der Trockenzeit golden und braun –, getüpfelt mit Dörfern und Teichen.",
+    "w": "Ein flacher Flickenteppich aus Reisfeldern und Teichen, gesäumt von niedrigen Hügeln; der Mekong biegt sich an Nord- und Ostrand entlang.",
+    "f": [
+      "Unter dem Plateau liegen dicke Steinsalzschichten, und bis heute wird dort Salz gewonnen.",
+      "Dinosaurierfossilien aus Phu Wiang machten das Plateau unter Paläontologen berühmt.",
+      "In der Region, genannt Isan, lebt rund ein Drittel der Menschen Thailands."
+    ],
+    "q": {
+      "q": "Welcher große Fluss begrenzt das Khorat-Plateau im Norden und Osten?",
+      "a": "Mekong",
+      "x": [
+        "Chao Phraya",
+        "Saluen"
+      ]
+    }
+  },
+  "Q27696359": {
+    "t": "Myanmars kühles Hochland mit einem berühmten See",
+    "s": "Östlich der Irrawaddy-Ebene steigt Myanmar abrupt zum Shan-Plateau an, einem welligen Hochland um 1.000 m, grün von Wald und Feldern. Der Saluen durchschneidet es auf dem Weg zum Meer in einer tiefen Schlucht. Suchen Sie den Inle-See, einen langen blauen Splitter in einem Tal, wo Dörfer auf Stelzen stehen und Gärten auf dem Wasser schwimmen.",
+    "w": "Ein grünes, welliges Hochland, das steil über der flachen Irrawaddy-Ebene aufsteigt, mit dem langen, schmalen Inle-See in einem Tal.",
+    "f": [
+      "Die Fischer am Inle-See sind dafür bekannt, dass sie mit einem ums Ruder geschlungenen Bein rudern.",
+      "Der Westrand des Plateaus steigt als steile Stufe über der zentralen Ebene auf.",
+      "Taunggyi, die Hauptstadt des Shan-Staats, liegt auf rund 1.400 m nahe dem Inle-See."
+    ],
+    "q": {
+      "q": "Wofür sind die Fischer am Inle-See berühmt?",
+      "a": "Rudern mit einem Bein",
+      "x": [
+        "Fischen mit Kormoranen",
+        "Tauchen nach Perlen"
+      ]
+    }
+  },
+  "Q925906": {
+    "t": "Rotes Felsland, in dem die Erde ihre Schichten zeigt",
+    "s": "Das Colorado-Plateau gehört zum Spektakulärsten, was man überfliegen kann: eine Hochwüste aus rotem, orangefarbenem und cremeweißem Gestein, in Schichten abgelagert und dann von Flüssen zu Canyons, Tafelbergen und Felstürmen zerschnitten. Grand Canyon, Monument Valley, Arches und Canyonlands liegen alle darauf. Suchen Sie an klaren Tagen die gewundenen blauen Arme des Lake Powell zwischen nacktem rotem Fels.",
+    "w": "Weite rot-cremefarbene Felswüste mit gewundenen Canyons und Tafelbergen, dazwischen die verzweigten blauen Arme des Lake Powell.",
+    "f": [
+      "Die im Grand Canyon freigelegten Gesteine umfassen fast zwei Milliarden Jahre Erdgeschichte.",
+      "Hier liegen so viele Nationalparks dicht beieinander wie kaum anderswo in den USA.",
+      "Die Four Corners, wo vier US-Bundesstaaten aneinanderstoßen, liegen auf dem Plateau."
+    ],
+    "q": {
+      "q": "Welchen großen Canyon auf dem Plateau schuf der Colorado River?",
+      "a": "Grand Canyon",
+      "x": [
+        "Hells Canyon",
+        "Kupfer-Canyon"
+      ]
+    }
+  },
+  "Q401815": {
+    "t": "Lavafluten und Eiszeitfluten, ins Land geschrieben",
+    "s": "Zwischen Kaskadenkette und Rockies liegt das Columbia-Plateau, aufgebaut aus gewaltigen Basaltlavafluten, die größtenteils vor 17 bis 15 Millionen Jahren austraten. Am Ende der letzten Eiszeit rasten riesige Fluten aus einem geborstenen Gletschersee darüber hinweg und schürften die Channeled Scablands aus. Suchen Sie von oben die welligen, dünenartigen Weizenhügel der Palouse und den breiten blauen Bogen des Columbia River.",
+    "w": "Wellige goldene Weizenhügel und kahler, von Rinnen zerfurchter Basalt, durchzogen vom breiten blauen Bogen des Columbia River.",
+    "f": [
+      "Manche einzelnen Lavaströme flossen Hunderte Kilometer weit, bis zum Pazifik.",
+      "Die Fluten kamen aus dem Gletschersee Missoula, der sich immer wieder leerte, wenn sein Eisdamm brach.",
+      "Die welligen Palouse-Hügel bestehen aus angewehtem Schluff und werden für Weizen bestellt."
+    ],
+    "q": {
+      "q": "Fluten aus welchem Eiszeitsee schufen die Channeled Scablands?",
+      "a": "Lake Missoula",
+      "x": [
+        "Lake Bonneville",
+        "Lake Agassiz"
+      ]
+    }
+  },
+  "Q3623001": {
+    "t": "Goldrauschland am Yukon",
+    "s": "Quer durch den zentralen Yukon rollt das Land als Yukon-Plateau dahin: bewaldete Hochflächen und breite Täler, zerschnitten vom Yukon und seinen Nebenflüssen. 1896 wurde in einem Bach nahe dem Klondike River Gold gefunden, und binnen zwei Jahren strömten Zehntausende Goldsucher herbei. Suchen Sie von oben dunkle Fichten, blasse Kiesbänke und im Herbst große Streifen gelber Espen und Birken.",
+    "w": "Wellige bewaldete Hochflächen, zerschnitten von breiten, verzweigten Flusstälern, durch die sich der Yukon nach Nordwesten windet.",
+    "f": [
+      "Teile des Plateaus blieben als Teil Beringias von den Eisschilden der letzten Eiszeit verschont.",
+      "Whitehorse, die Hauptstadt des Yukon, liegt auf dem Plateau am Yukon.",
+      "Der Yukon fließt rund 3.190 km bis zum Beringmeer."
+    ],
+    "q": {
+      "q": "Welcher Goldrausch brachte ab 1896 Goldsucher hierher?",
+      "a": "Klondike-Goldrausch",
+      "x": [
+        "Kalifornischer Goldrausch",
+        "Fraser-Canyon-Goldrausch"
+      ]
+    }
+  },
+  "Q118574": {
+    "t": "Die Hochebene des Titicaca und der großen Salzpfanne",
+    "s": "Zwischen zwei Andenketten liegt der Altiplano, eine Hochebene von durchschnittlich rund 3.750 m – nach Tibet das ausgedehnteste Hochplateau der Erde. Aus Reiseflughöhe ist er ein verblüffender Anblick: braune Steppe, verschneite Vulkane am Rand, im Norden das tiefe Blau des Titicacasees und im Süden das gleißende Weiß des Salar de Uyuni, der größten Salzpfanne der Welt.",
+    "w": "Eine weite braune Hochebene, umringt von verschneiten Vulkanen, im Norden ein riesiger blauer See, im Süden weiße Salzpfannen.",
+    "f": [
+      "Der Salar de Uyuni bedeckt rund 10.000 km² und wird nach Regen zu einem riesigen Spiegel.",
+      "Der Titicacasee auf rund 3.810 m gilt oft als höchster schiffbarer See der Welt.",
+      "Unter den Salzpfannen liegen einige der größten bekannten Lithiumvorkommen der Welt."
+    ],
+    "q": {
+      "q": "Was ist der Salar de Uyuni?",
+      "a": "Die größte Salzpfanne der Welt",
+      "x": [
+        "Der höchste See der Welt",
+        "Die trockenste Wüste der Welt"
+      ]
+    }
+  },
+  "ne-rg-1730071967": {
+    "t": "Ein einsames Plateau im Herzen der östlichen Sahara",
+    "s": "Weit draußen in der östlichen Sahara, im Nordwesten des Sudan, erhebt sich das Jebel-Abyad-Plateau als niedriges, verwittertes Tafelland aus dem Sand. Sein Name ist Arabisch für „weißer Berg“. In einem normalen Jahr fällt hier fast gar kein Regen. Suchen Sie von oben dunkles, felsiges Hochland mit Streifen aus Flugsand und im Süden die schwache, gewundene Linie des Wadi Howar, eines trockenen Tals, das einst ein Fluss war.",
+    "w": "Ein dunkles, verwittertes Tafelland über blassem Sand, von Dünen gestreift, in der leeren Wüste im Nordwesten des Sudan.",
+    "f": [
+      "Das Wadi Howar im Süden führte einen Nebenfluss des Nils, als die Sahara grün war, vor etwa 9.500–4.500 Jahren.",
+      "Felsbilder in der ganzen östlichen Sahara zeigen Rinder und Giraffen aus jener feuchteren Zeit."
+    ],
+    "q": {
+      "q": "Was bedeutet „Jebel Abyad“ auf Arabisch?",
+      "a": "Weißer Berg",
+      "x": [
+        "Schwarzer Fels",
+        "Roter Sand"
+      ]
+    }
+  },
+  "ne-rg-1730072941": {
+    "t": "Cerrado-Tafelland, benannt nach einem Klassiker Brasiliens",
+    "s": "Westlich des São Francisco steigt das Land zu weiten, flachen Cerrado-Tafelländern an, durchzogen von Veredas – sumpfigen Tälern, gesäumt von Buriti-Palmen. Das ist das Hinterland aus João Guimarães Rosas Roman „Grande Sertão: Veredas“ von 1956, und ein Nationalpark trägt seinen Namen. Suchen Sie von oben weite flache Plateaus, heute vielfach bedeckt von riesigen Kreisen und Rechtecken aus Ackerland, durchzogen von grünen Streifen entlang der Bäche.",
+    "w": "Weite flache Tafelländer aus Ackerland und olivfarbener Savanne, durchzogen von dunkelgrünen, palmengesäumten Bächen, die nach Osten fließen.",
+    "f": [
+      "Guimarães Rosas Roman gilt oft als eines der größten Werke der brasilianischen Literatur.",
+      "Buriti-Palmen, die die Veredas säumen, werden bis zu etwa 30 m hoch.",
+      "Seine Bäche speisen den São Francisco, den längsten Fluss, der ganz in Brasilien liegt."
+    ],
+    "q": {
+      "q": "Welcher Schriftsteller gab dem Park Grande Sertão Veredas seinen Namen?",
+      "a": "João Guimarães Rosa",
+      "x": [
+        "Jorge Amado",
+        "Machado de Assis"
+      ]
+    }
+  },
+  "Q1294308": {
+    "t": "Das Texas Hill Country, ein Kalktafelland voller Quellen",
+    "s": "Westlich von Austin und San Antonio steigt das Land zum Edwards-Plateau an, einem Kalksteintafelland aus Ranches, Eichen- und Wacholdergebüsch. Sein Süd- und Ostrand ist die Balcones-Stufe, an deren Fuß klare Quellen hervorbrechen. Suchen Sie von oben eine graugrüne Ebene, durchzogen von baumgesäumten Flüssen, und unterhalb der Stufe die Straßenraster von Austin und San Antonio.",
+    "w": "Ein graugrünes Kalksteintafelland aus Buschland und Ranches, das an seinem Südostrand zu Austin und San Antonio abfällt.",
+    "f": [
+      "Der Edwards-Aquifer unter seinem Rand liefert den größten Teil des Trinkwassers von San Antonio.",
+      "Die Comal Springs in New Braunfels gehören zu den größten Quellen von Texas.",
+      "Die Bracken Cave bei San Antonio beherbergt eine der größten Fledermauskolonien der Welt."
+    ],
+    "q": {
+      "q": "Welche Stadt bezieht den Großteil ihres Wassers aus dem Edwards-Aquifer?",
+      "a": "San Antonio",
+      "x": [
+        "Houston",
+        "Dallas"
+      ]
+    }
+  },
+  "ne-rg-1730072971": {
+    "t": "Kasachstans „gelber Rücken“ aus abgetragenen Hügeln",
+    "s": "Die Kasachische Schwelle, genannt Saryarka, füllt das Herz Kasachstans: ein weites Land niedriger, runder Hügel, abgetragene Stümpfe uralter Gebirge, in trockener Steppe. Von oben wirkt es wie zerknitterter Filz in Hellbraun und Oliv, gesprenkelt mit Salzseen. Die Kohlestadt Karaganda liegt hier, und im Süden markiert der lange, schmale Balchaschsee den Rand der Schwelle.",
+    "w": "Zerknitterte hellbraune und olivfarbene Steppe mit niedrigen runden Hügeln und Salzseen; im Süden der lange, schmale Balchaschsee.",
+    "f": [
+      "Der höchste Punkt, der Aksoran, erreicht rund 1.565 m.",
+      "Der Balchaschsee im Süden ist im Westteil süß und im Osten salzig.",
+      "Steppe und Seen der Saryarka, darunter der Korgalschyn, sind UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher See im Süden ist im Westen süß und im Osten salzig?",
+      "a": "Balchaschsee",
+      "x": [
+        "Yssykköl",
+        "Saissansee"
+      ]
+    }
+  },
+  "ne-rg-1730072981": {
+    "t": "Raues Hochland nordöstlich des Baikalsees",
+    "s": "Nordöstlich des Baikalsees bilden schroffe Kämme und tiefe Becken das Stanowoi-Hochland, ein wildes Land aus Lärchentaiga und kahlen Gipfeln. Die Baikal-Amur-Magistrale fädelt sich in Tunneln und entlang der Täler hindurch. Im Kodar, dem höchsten Teil, haben sich kleine Gletscher gehalten. Achten Sie auf eine Überraschung im Tschara-Becken: ein Flecken goldener Sanddünen mitten in der Taiga.",
+    "w": "Schroffe graue Kämme und tiefe, von Taiga erfüllte Becken nordöstlich des Baikals, dazu ein kleiner Flecken goldener Sanddünen.",
+    "f": [
+      "Der rund 15 km lange Seweromuisker Tunnel der Bahnstrecke hier ist der längste Russlands.",
+      "Das Kodargebirge erreicht rund 3.070 m.",
+      "Der Tscharasand bedeckt einige Dutzend Quadratkilometer – ein echtes Stück Wüste mitten in der Taiga."
+    ],
+    "q": {
+      "q": "Welche Bahnstrecke fädelt sich durch das Stanowoi-Hochland?",
+      "a": "Baikal-Amur-Magistrale",
+      "x": [
+        "Transsibirische Eisenbahn",
+        "Amur-Jakutsk-Magistrale"
+      ]
+    }
+  },
+  "ne-rg-1730073599": {
+    "t": "Uralter Fels und Gold im Süden Jakutiens",
+    "s": "Im Süden Jakutiens erhebt sich das Aldan-Hochland, ein welliges Bergland aus taigabedeckten Hügeln auf einem der ältesten Gesteine Asiens. 1923 wurde hier Gold gefunden, und der folgende Rausch lockte Tausende Goldsucher in die Wildnis. Suchen Sie von oben dunklen Lärchenwald, blasse Flusstäler und bei Nerjungri die riesige, terrassierte Grube eines Kohletagebaus, in die Hügel geschnitten.",
+    "w": "Wellige, taigabedeckte Hügel, zerschnitten von blassen Flusstälern, mit einem riesigen terrassierten Tagebau bei Nerjungri.",
+    "f": [
+      "Die Stadt Aldan entstand während des Goldrauschs der 1920er-Jahre.",
+      "Die Amur-Jakutsk-Bahn und die Fernstraße Lena überqueren das Hochland auf dem Weg nach Norden bis Jakutsk."
+    ],
+    "q": {
+      "q": "Was wurde 1923 im Aldan-Hochland gefunden und löste einen Rausch aus?",
+      "a": "Gold",
+      "x": [
+        "Diamanten",
+        "Erdöl"
+      ]
+    }
+  },
+  "Q1753873": {
+    "t": "Ein hohes Wüstentafelland zwischen zwei Sierras",
+    "s": "Der größte Teil Nord- und Zentralmexikos ist ein hohes Tafelland, eingerahmt von zwei Gebirgsketten: der Sierra Madre Occidental im Westen und der Sierra Madre Oriental im Osten. Sein Norden ist die Chihuahua-Wüste, lauter blasse Becken, trockene Seeböden und lange Kämme; weiter südlich steigt es an und wird zur Stadt Mexiko hin grüner. Suchen Sie von oben hellbraune Becken zwischen parallelen dunklen Ketten.",
+    "w": "Hellbraune Wüstenbecken und weiße trockene Seeböden zwischen parallelen dunklen Kämmen, auf beiden Seiten von höheren Bergen eingefasst.",
+    "f": [
+      "Die Chihuahua-Wüste ist die größte heiße Wüste Nordamerikas.",
+      "Mexiko-Stadt liegt in seinem südlichen Teil auf rund 2.240 m.",
+      "Der Kupfer-Canyon, in seinen Westrand geschnitten, ist stellenweise tiefer als der Grand Canyon."
+    ],
+    "q": {
+      "q": "Welches Gebirge begrenzt das Mexikanische Hochland im Westen?",
+      "a": "Sierra Madre Occidental",
+      "x": [
+        "Sierra Nevada",
+        "Sierra Madre del Sur"
+      ]
+    }
+  },
+  "Q654947": {
+    "t": "Bewaldete Hügel und die langen blauen Finger Lakes",
+    "s": "Durch den Süden New Yorks und den Westen Pennsylvanias zieht sich das Allegheny-Plateau, ein altes Tafelland, von Flüssen zu einem Labyrinth steiler, bewaldeter Hügel abgetragen. An seinem Nordrand gruben Eiszeitgletscher die Finger Lakes aus, lang, schmal und parallel, als hätte eine Riesenhand sie eingeritzt. Von oben sind sie unverwechselbar: eine Reihe dünner blauer Splitter von Nord nach Süd.",
+    "w": "Bewaldete, tief zerschnittene Hügel, am Nordrand eine Reihe langer, schmaler, paralleler Seen in Nord-Süd-Richtung.",
+    "f": [
+      "Der Seneca Lake, der größte der Finger Lakes, ist an seiner tiefsten Stelle rund 190 m tief.",
+      "Die erste kommerzielle Ölquelle der USA wurde 1859 in Titusville gebohrt, auf dem Plateau in Pennsylvania."
+    ],
+    "q": {
+      "q": "Welche Kette langer, schmaler Seen liegt am Nordrand des Plateaus?",
+      "a": "Finger Lakes",
+      "x": [
+        "Kawartha Lakes",
+        "Rideau Lakes"
+      ]
+    }
+  },
+  "Q1143656": {
+    "t": "Ein Sandsteintafelland voller Schluchten und Wasserfälle",
+    "s": "Über dem Tennessee-Tal erhebt sich das Cumberland-Plateau, ein langes Sandsteintafelland, das von Kentucky über Tennessee bis nach Alabama reicht. Seine flache, bewaldete Oberfläche endet in steilen Klippen, und Bäche stürzen über die Ränder in tiefe Schluchten. Suchen Sie von oben einen dunkelgrünen, flachen Rücken mit scharfen Steilstufen, dessen Rand von den V-förmigen Tälern seiner Wasserfälle eingekerbt ist.",
+    "w": "Ein langes, flaches, bewaldetes Tafelland mit steilen Stufen, dessen Ränder von tiefen, V-förmigen Schluchten eingekerbt sind.",
+    "f": [
+      "Die Fall Creek Falls, rund 78 m hoch, gehören zu den höchsten Wasserfällen im Osten der USA.",
+      "An den Cumberland Falls in Kentucky kann in klaren Vollmondnächten ein „Mondregenbogen“ in der Gischt erscheinen.",
+      "Seine harte Sandsteinkappe widersteht der Erosion – darum behält das Plateau seine flache Oberfläche."
+    ],
+    "q": {
+      "q": "Welcher seltene Anblick kann an den Cumberland Falls bei Vollmond erscheinen?",
+      "a": "Ein Mondregenbogen",
+      "x": [
+        "Ein grüner Blitz",
+        "Ein Kugelblitz"
+      ]
+    }
   }
 }

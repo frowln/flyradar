@@ -33,6 +33,7 @@ const SCENARIOS = [
   { name: 'add', scenario: 'add' },
   { name: 'aloft', scenario: 'aloft', full: true },
   { name: 'place', scenario: 'place', full: true },
+  { name: 'history', scenario: 'history', full: true },
   { name: 'arrival', scenario: 'arrival', full: true, wait: 4000 },
   { name: 'atlas', scenario: 'atlas', full: true },
   { name: 'achievements', scenario: 'achievements', full: true },
