@@ -4198,5 +4198,305 @@
         "Klondikers"
       ]
     }
+  },
+  "santo-domingo": {
+    "name": "Colonial Santo Domingo",
+    "era": "from 1498",
+    "t": "The oldest European city in the Americas",
+    "s": "At the mouth of the Ozama river on the south coast of Hispaniola, Bartholomew Columbus founded Santo Domingo in the 1490s. It became the first permanent European city in the Americas, and the first cathedral and hospital in the New World were built here. Its old stone quarter still stands beside the river. From above, look for a large city where a river meets the Caribbean, on the island's southern shore.",
+    "w": "Look for a large coastal city on the south shore of Hispaniola, where the Ozama river meets the Caribbean.",
+    "f": [
+      "Its cathedral, finished around 1540, is the oldest in the Americas.",
+      "Its streets were laid out on a grid that became a model for Spanish cities in the Americas.",
+      "The colonial city became a UNESCO World Heritage site in 1990."
+    ],
+    "q": {
+      "q": "Who founded Santo Domingo?",
+      "a": "Bartholomew Columbus",
+      "x": [
+        "Hernán Cortés",
+        "Francisco Pizarro"
+      ]
+    }
+  },
+  "hohokam-canals": {
+    "name": "Hohokam canals of the Salt River valley",
+    "era": "c. 450 – 1450",
+    "t": "The ancient canals beneath Phoenix",
+    "s": "Long before Phoenix, the Hohokam people turned the Salt River valley green. Over a thousand years they dug hundreds of kilometres of canals by hand, the largest prehistoric irrigation network in North America, and grew corn, beans and cotton in the desert. Some of today's canals follow their routes. From above, look for the vast grid of Phoenix, laced with straight canals, in the Sonoran desert.",
+    "w": "Look for the huge grid of Phoenix in the desert, crossed by long straight canals and ringed by bare mountains.",
+    "f": [
+      "The Hohokam canal network is estimated at more than 500 km.",
+      "Phoenix was named in the 1860s for a new town rising on the ruins of an old one.",
+      "The Pueblo Grande museum in Phoenix preserves a Hohokam platform mound."
+    ],
+    "q": {
+      "q": "Why was Phoenix given its name?",
+      "a": "It rose on an ancient town's ruins",
+      "x": [
+        "A rare bird was seen there",
+        "It was named after a steamboat"
+      ]
+    }
+  },
+  "ouro-preto": {
+    "name": "Ouro Preto",
+    "era": "18th c.",
+    "t": "A baroque gold-rush town in the Brazilian hills",
+    "s": "In the steep hills of Minas Gerais, a gold rush at the end of the 17th century created Ouro Preto, then called Vila Rica. Its gold helped pay for an age of splendour in Portugal, and its miners and merchants filled the town with baroque churches decorated by the sculptor Aleijadinho. From above, look for hilly green country scarred with red earth from mining, south-east of Belo Horizonte.",
+    "w": "Look for steep green hills and red-earth mine scars in Minas Gerais, south-east of Belo Horizonte.",
+    "f": [
+      "'Ouro Preto' means 'black gold', after the dark iron-oxide coating on its gold.",
+      "In the 18th century Minas Gerais made Brazil one of the world's leading gold producers.",
+      "In 1980 it became Brazil's first UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which sculptor decorated Ouro Preto's churches?",
+      "a": "Aleijadinho",
+      "x": [
+        "Oscar Niemeyer",
+        "Candido Portinari"
+      ]
+    }
+  },
+  "hokulea-1976": {
+    "name": "Hōkūleʻa's voyage to Tahiti (1976)",
+    "era": "May – June 1976",
+    "t": "A canoe that sailed Polynesian history back to life",
+    "s": "In 1976 the double-hulled voyaging canoe Hōkūleʻa sailed from Hawaiʻi to Tahiti, over 4,000 km of open ocean, without compass or charts. Its navigator, Mau Piailug from Micronesia, read the stars, swells and birds, as Polynesian navigators had for centuries. The voyage helped show that the settlement of the Pacific was deliberate exploration, not drift. Thousands of people greeted the canoe in Papeete. The ocean it crossed looks endless from above.",
+    "w": "Open ocean between Hawaiʻi and Tahiti; near Tahiti, look for the high green island and the atolls of the Tuamotus.",
+    "f": [
+      "The crossing took about a month.",
+      "Mau Piailug learned traditional navigation on the tiny island of Satawal.",
+      "Between 2013 and 2017 Hōkūleʻa sailed around the world."
+    ],
+    "q": {
+      "q": "Who navigated Hōkūleʻa to Tahiti in 1976?",
+      "a": "Mau Piailug",
+      "x": [
+        "Tupaia",
+        "Thor Heyerdahl"
+      ]
+    }
+  },
+  "aotearoa-voyage": {
+    "name": "Polynesian voyage to Aotearoa",
+    "era": "c. 1250 – 1300",
+    "t": "The last great land on Earth to be settled",
+    "s": "Around 1250 to 1300, voyagers from eastern Polynesia sailed south-west across thousands of kilometres of ocean in double-hulled canoes and found a large, cool, forested land: Aotearoa, New Zealand. They navigated by stars, swells and the flight of birds, and carried plants and animals to start new lives. It was the last major land mass on Earth to be settled by people. From above, the scale of that ocean is humbling.",
+    "w": "Open ocean south-west of the Cook Islands; at the end, look for the green hills and harbours of New Zealand's North Island.",
+    "f": [
+      "Māori tradition names the homeland of the first voyagers Hawaiki.",
+      "Many Māori tribes trace their ancestry to particular voyaging canoes.",
+      "The voyagers brought plants such as the kūmara, a sweet potato, with them."
+    ],
+    "q": {
+      "q": "What is the ancestral homeland called in Māori tradition?",
+      "a": "Hawaiki",
+      "x": [
+        "Aotearoa",
+        "Rapa Nui"
+      ]
+    }
+  },
+  "rapa-nui-voyage": {
+    "name": "Polynesian voyage to Rapa Nui",
+    "era": "c. 1150 – 1250",
+    "t": "Across empty ocean to the loneliest island",
+    "s": "Around 800 years ago, Polynesian voyagers sailing east from the islands of Mangareva found a tiny speck of land far out in the Pacific: Rapa Nui, Easter Island. It lies more than 2,000 km from the nearest inhabited island, and finding it on purpose required extraordinary navigation. The settlers went on to carve the famous moai. From above you sense the achievement: nothing but ocean, in every direction.",
+    "w": "Endless open ocean east of Pitcairn; at the end, a small triangular island with three volcanoes.",
+    "f": [
+      "The sweet potato, a South American crop, reached Polynesia before Europeans did.",
+      "Genetic studies suggest Polynesians and Native South Americans met around 800 years ago.",
+      "Pitcairn, on the way, is now home to fewer than 50 people."
+    ],
+    "q": {
+      "q": "Which South American crop reached Polynesia before Europeans?",
+      "a": "The sweet potato",
+      "x": [
+        "The potato",
+        "Maize"
+      ]
+    }
+  },
+  "cook-first-voyage": {
+    "name": "James Cook's first voyage (1768–1771)",
+    "era": "1768 – 1771",
+    "t": "Charting the Pacific in the Endeavour",
+    "s": "In 1768 James Cook sailed from Plymouth in HMS Endeavour to observe the planet Venus crossing the face of the Sun from Tahiti. He then sailed round both main islands of New Zealand, charting their coasts, and followed the east coast of Australia for the first time by a European ship. The voyage brought back charts, plants and animals unknown to European science. From above, look for New Zealand's long coasts.",
+    "w": "Look for New Zealand's two long islands and, further west, the east coast of Australia along the Coral Sea.",
+    "f": [
+      "The botanist Joseph Banks collected thousands of plant specimens on the voyage.",
+      "The Tahitian navigator Tupaia joined the ship and drew a chart of many Pacific islands.",
+      "The Endeavour struck the Great Barrier Reef in 1770 and was repaired at today's Cooktown."
+    ],
+    "q": {
+      "q": "What did Cook observe in Tahiti in 1769?",
+      "a": "The transit of Venus",
+      "x": [
+        "A total solar eclipse",
+        "Halley's Comet"
+      ]
+    }
+  },
+  "overland-telegraph": {
+    "name": "Australian Overland Telegraph Line",
+    "era": "1870 – 1872",
+    "t": "The wire that linked Australia to the world",
+    "s": "In 1872 a single telegraph wire was completed from Adelaide across the heart of the continent to Darwin, where it joined an undersea cable to Java and on to London. News from Europe, which had taken months by ship, now arrived in hours. Repeater stations were built every few hundred kilometres, and one of them grew into Alice Springs. From above, look for red desert and the highway that follows the line.",
+    "w": "Look for red desert crossed by a lone highway and railway, and the long parallel ridges of the MacDonnell Ranges at Alice Springs.",
+    "f": [
+      "The line was about 3,200 km long and needed some 36,000 poles.",
+      "The work was led by Charles Todd, South Australia's postmaster and astronomer.",
+      "Alice Springs was named after his wife, Alice Todd."
+    ],
+    "q": {
+      "q": "Who was Alice Springs named after?",
+      "a": "Alice Todd, Charles Todd's wife",
+      "x": [
+        "Princess Alice",
+        "A governor's daughter"
+      ]
+    }
+  },
+  "kingsford-smith-1928": {
+    "name": "First trans-Pacific flight (1928)",
+    "era": "31 May – 9 June 1928",
+    "t": "The first flight across the Pacific, in three hops",
+    "s": "In 1928 Charles Kingsford Smith, Charles Ulm and two American crewmen flew the three-engined Fokker Southern Cross from California to Australia. They stopped in Hawaiʻi and Fiji, and the leg from Hawaiʻi to Suva, over 5,000 km of open ocean, was the longest flight over water yet made. After about 83 hours in the air they landed in Brisbane to a huge welcome. From above, the Pacific they crossed looks endless.",
+    "w": "Open Pacific between Hawaiʻi and Fiji; at the end, the Queensland coast and Brisbane River.",
+    "f": [
+      "The crew flew through storms at night, navigating by stars, compass and drift sight.",
+      "The Southern Cross is preserved in a memorial at Brisbane Airport.",
+      "The whole journey covered about 11,600 km."
+    ],
+    "q": {
+      "q": "What was Kingsford Smith's aircraft called?",
+      "a": "Southern Cross",
+      "x": [
+        "Spirit of St. Louis",
+        "Friendship"
+      ]
+    }
+  },
+  "uluru-kata-tjuta": {
+    "name": "Uluṟu-Kata Tjuṯa",
+    "era": "tens of thousands of years – today",
+    "t": "A living cultural landscape of the Aṉangu",
+    "s": "In the red heart of Australia rises Uluṟu, a single great sandstone rock, and 25 km to the west the domes of Kata Tjuṯa. For the Aṉangu, the traditional owners, these places are bound up with Tjukurpa, the law and knowledge that shape their lives and land. Their stories are held in the rock's features. From cruise, look for a lone red rock on a flat red plain, and a cluster of domes beside it.",
+    "w": "A single red monolith rising from a flat red plain, with a cluster of rounded domes about 25 km to its west.",
+    "f": [
+      "The park was handed back to the Aṉangu in 1985 and is jointly managed with them.",
+      "At the traditional owners' request, climbing Uluṟu stopped for good in 2019.",
+      "UNESCO listed the park for its nature in 1987 and as a cultural landscape in 1994."
+    ],
+    "q": {
+      "q": "In which year did climbing Uluṟu end?",
+      "a": "2019",
+      "x": [
+        "1985",
+        "2000"
+      ]
+    }
+  },
+  "rapa-nui": {
+    "name": "Rapa Nui (Easter Island)",
+    "era": "c. 1200 – today",
+    "t": "The moai of the most remote inhabited island",
+    "s": "Rapa Nui, Easter Island, is a small triangle of volcanoes in the south-eastern Pacific, more than 2,000 km from the nearest inhabited island. Its people carved hundreds of great stone figures, the moai, most of them from a single volcanic quarry, and stood many on platforms with their backs to the sea. From cruise the island is a small green-brown triangle alone in the ocean, with a volcano at each corner.",
+    "w": "A small triangular island in open ocean, with a volcanic crater at each corner.",
+    "f": [
+      "Nearly 900 moai are known on the island.",
+      "Most were carved in the quarry of the volcano Rano Raraku.",
+      "Rapa Nui National Park became a UNESCO World Heritage site in 1995."
+    ],
+    "q": {
+      "q": "Where were most moai carved?",
+      "a": "In the Rano Raraku quarry",
+      "x": [
+        "At Orongo village",
+        "On Anakena beach"
+      ]
+    }
+  },
+  "nan-madol": {
+    "name": "Nan Madol",
+    "era": "c. 1180 – 1628",
+    "t": "A city of basalt islets on a Pacific reef",
+    "s": "Off the coast of Pohnpei in Micronesia lie the ruins of Nan Madol, built on about a hundred artificial islets on a coral reef. Its walls are made of long black basalt columns stacked crosswise like logs, some weighing several tonnes. It was the seat of the Saudeleur rulers, who governed the island for centuries. From above, look for a green high island ringed by reef and mangroves.",
+    "w": "Look for the lush high island of Pohnpei ringed by reef and mangroves; the ruins lie off its eastern shore.",
+    "f": [
+      "Canals between the islets have led people to call it the Venice of the Pacific.",
+      "How the builders moved the heavy basalt columns is still debated.",
+      "Nan Madol became a UNESCO World Heritage site in 2016."
+    ],
+    "q": {
+      "q": "What are Nan Madol's walls built from?",
+      "a": "Stacked basalt columns",
+      "x": [
+        "Mud bricks",
+        "Timber logs"
+      ]
+    }
+  },
+  "taputapuatea": {
+    "name": "Taputapuātea marae",
+    "era": "c. 1000 – today",
+    "t": "The sacred heart of Polynesian voyaging",
+    "s": "On the island of Raiatea stands Taputapuātea, a complex of stone ceremonial platforms, or marae, at the centre of the Polynesian world. Navigators set out from here and priests from distant islands came to meet, taking stones from it to found new marae across the Pacific. Its setting of forest, lagoon and a pass through the reef is part of its meaning. From above, look for two islands sharing one lagoon.",
+    "w": "Look for two green islands, Raiatea and Tahaʻa, enclosed together in one turquoise lagoon, north-west of Tahiti.",
+    "f": [
+      "Raiatea's ancient name, Havaiʻi, recalls the ancestral homeland of Polynesian traditions.",
+      "Voyaging canoes such as Hōkūleʻa have been welcomed here in modern times.",
+      "Taputapuātea became a UNESCO World Heritage site in 2017."
+    ],
+    "q": {
+      "q": "What was Raiatea's ancient name?",
+      "a": "Havaiʻi",
+      "x": [
+        "Hiva Oa",
+        "Aotearoa"
+      ]
+    }
+  },
+  "budj-bim": {
+    "name": "Budj Bim eel traps",
+    "era": "at least 6,600 years",
+    "t": "One of the world's oldest fish farms",
+    "s": "In the lava fields of south-western Victoria, the Gunditjmara people built channels, weirs and ponds to trap, store and harvest eels. Parts of the system are dated to about 6,600 years ago, making it one of the oldest aquaculture systems known. Stone house foundations stand nearby. From above, look for the volcanic plains and lakes near the coast, with the low cone of Budj Bim.",
+    "w": "Look for flat volcanic plains, lakes and wetlands inland from Portland, near the low cone of Budj Bim.",
+    "f": [
+      "The lava flow the channels are built in came from the Budj Bim volcano about 30,000 years ago.",
+      "The eels were smoked and traded far beyond the area.",
+      "Budj Bim became a UNESCO World Heritage site in 2019."
+    ],
+    "q": {
+      "q": "What did the Budj Bim channels trap?",
+      "a": "Eels",
+      "x": [
+        "Trout",
+        "Crabs"
+      ]
+    }
+  },
+  "lake-mungo": {
+    "name": "Lake Mungo",
+    "era": "c. 50,000 years – today",
+    "t": "A dry lake that holds 40,000 years of human story",
+    "s": "In the outback of New South Wales lie the dry beds of the Willandra Lakes, full of water in the last Ice Age. On their crescent-shaped dunes, archaeologists found the burials of Mungo Lady and Mungo Man, about 40,000 years old, among the oldest known anywhere, with signs of careful ritual. From cruise the landscape is striking: pale, flat lakebeds with white crescent dunes along their eastern shores.",
+    "w": "Look for a chain of pale, dry, flat lakebeds, each with a white crescent-shaped dune on its eastern side.",
+    "f": [
+      "The white crescent dune at Lake Mungo is called the Walls of China.",
+      "Mungo Lady is the oldest known ritual cremation in the world.",
+      "Mungo Man was returned to his traditional owners at Lake Mungo in 2017."
+    ],
+    "q": {
+      "q": "What are Lake Mungo's white crescent dunes called?",
+      "a": "The Walls of China",
+      "x": [
+        "The Pinnacles",
+        "The Olgas"
+      ]
+    }
   }
 }

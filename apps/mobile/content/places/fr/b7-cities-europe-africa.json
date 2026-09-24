@@ -1,0 +1,794 @@
+{
+  "Q84": {
+    "t": "Un fleuve sombre qui serpente dans une mer de lumières",
+    "s": "Trouvez la Tamise, et Londres se met en place : un ruban brun qui décrit des boucles vers l’est à travers une immense étendue gris-vert, puis s’élargit vers la mer du Nord. L’autoroute M25 trace un anneau approximatif autour de l’ensemble. Les Romains ont jeté un pont sur le fleuve ici il y a près de deux mille ans, et la ville n’a cessé de s’étendre depuis ce passage.",
+    "w": "La Tamise en boucles qui file vers l’est jusqu’à son estuaire ; des réservoirs carrés scintillent près d’Heathrow, à l’ouest.",
+    "f": [
+      "L’autoroute circulaire M25 mesure environ 188 km ; la nuit, elle dessine autour de la ville une faible boucle de lumières.",
+      "La Tamise subit la marée à travers tout Londres : au centre, l’eau monte et descend de plusieurs mètres deux fois par jour.",
+      "Les Romains ont fondé Londinium sur la rive nord de la Tamise vers l’an 50."
+    ],
+    "q": {
+      "q": "Comment s’appelait Londres à l’époque romaine ?",
+      "a": "Londinium",
+      "x": [
+        "Lutèce",
+        "Eboracum"
+      ]
+    }
+  },
+  "Q406": {
+    "t": "Une ville, deux continents, un fil bleu entre les deux",
+    "s": "Cherchez une mince ligne bleue qui coupe en deux une ville immense : le Bosphore, avec l’Europe sur une rive et l’Asie sur l’autre. La Corne d’Or s’enroule dans la vieille ville, côté européen. Sous le nom de Constantinople, ce fut une capitale impériale pendant plus de mille ans.",
+    "w": "Un détroit étroit orienté nord-sud entre la mer Noire et la mer de Marmara.",
+    "f": [
+      "Le Bosphore mesure environ 30 km de long et bien moins d’un kilomètre de large à son point le plus étroit.",
+      "Trois ponts suspendus franchissent le détroit ; vus de l’altitude de croisière, ce sont de fines lignes claires.",
+      "La nuit, les deux rives brillent comme un seul ruban de lumière le long de l’eau."
+    ],
+    "q": {
+      "q": "Quel détroit coupe Istanbul entre l’Europe et l’Asie ?",
+      "a": "Le Bosphore",
+      "x": [
+        "Les Dardanelles",
+        "Le détroit de Messine"
+      ]
+    }
+  },
+  "Q3692": {
+    "t": "Une grille de lumières posée dans le désert d’Arabie",
+    "s": "À des centaines de kilomètres de toute mer, une immense grille beige de larges avenues s’étale sur le plateau du Nejd : c’est Riyad, près du centre de la péninsule Arabique. Sur son flanc ouest court le fil vert du wadi Hanifa. Le nom de la ville vient du mot arabe pour « jardins », les oasis qu’arrosait jadis cette vallée.",
+    "w": "Un immense quadrillage rectangulaire dans le désert brun, avec la longue falaise du Tuwaiq orientée nord-sud à l’ouest.",
+    "f": [
+      "La falaise du Tuwaiq, à l’ouest de la ville, décrit une courbe d’environ 800 km à travers l’Arabie centrale.",
+      "Au nord-ouest de Riyad, le quartier en brique crue d’At-Turaif, à Diriyah, est inscrit au patrimoine mondial de l’UNESCO.",
+      "La ville se trouve à environ 600 mètres d’altitude, sur le plateau du Nejd."
+    ],
+    "q": {
+      "q": "Que signifie le nom Riyad en arabe ?",
+      "a": "Jardins",
+      "x": [
+        "Sables",
+        "Étoiles"
+      ]
+    }
+  },
+  "Q5465": {
+    "t": "Une montagne à sommet plat près de la pointe de l’Afrique",
+    "s": "Cherchez une montagne tranchée à plat comme une table, la ville lovée à ses pieds et la mer des deux côtés. Au sud, un doigt de terre rocheux descend jusqu’au cap de Bonne-Espérance. Bien des jours d’été, un nuage blanc déborde du sommet comme une nappe, puis fond en descendant.",
+    "w": "Un bloc de montagne gris et plat au-dessus d’une baie incurvée, une péninsule rocheuse filant au sud, une île basse dans la baie.",
+    "f": [
+      "Le sommet plat de la montagne de la Table culmine à environ 1 085 mètres, à peu près un dixième de votre altitude de croisière.",
+      "L’île basse de la baie de la Table est Robben Island, inscrite au patrimoine mondial de l’UNESCO depuis 1999.",
+      "Le Cap est la plus ancienne ville d’Afrique du Sud, fondée en 1652 comme escale de ravitaillement pour les navires néerlandais."
+    ],
+    "q": {
+      "q": "En quelle année la Compagnie néerlandaise des Indes orientales a-t-elle fondé Le Cap ?",
+      "a": "En 1652",
+      "x": [
+        "En 1588",
+        "En 1714"
+      ]
+    }
+  },
+  "Q649": {
+    "t": "Des anneaux dans des anneaux, comme un tronc coupé",
+    "s": "Moscou est dessinée comme un tronc d’arbre vu en coupe : des boulevards circulaires emboîtés les uns dans les autres autour du vieux centre, et des routes radiales qui partent comme des rayons. La nuit, tout le motif brille d’ambre et de blanc. La Moskova le traverse en grandes boucles paresseuses. La ville apparaît pour la première fois dans une chronique en 1147.",
+    "w": "Des anneaux routiers concentriques et des rayons rectilignes ; la Moskova sinueuse traverse le centre du nord-ouest au sud-est.",
+    "f": [
+      "Le MKAD, périphérique extérieur de Moscou, mesure environ 109 km.",
+      "L’anneau des Jardins, plus intérieur, fait environ 16 km autour du centre historique.",
+      "La ville et sa rivière portent le même nom : en russe, toutes deux s’appellent Moskva."
+    ],
+    "q": {
+      "q": "En quelle année Moscou est-elle mentionnée pour la première fois dans une chronique ?",
+      "a": "En 1147",
+      "x": [
+        "En 1240",
+        "En 1380"
+      ]
+    }
+  },
+  "Q8673": {
+    "t": "Une mégapole cousue de part et d’autre d’une lagune",
+    "s": "À Lagos, l’eau compte autant que la terre. Cherchez une large lagune derrière une longue plage atlantique rectiligne, la ville débordant sur les îles et les rives tout autour. Un mince pont enjambe l’eau sur des kilomètres. Les marins portugais ont nommé le lieu d’après ces lacs, et c’est aujourd’hui l’une des plus grandes villes d’Afrique.",
+    "w": "Une large lagune gris-brun derrière une côte de ressac tirée au cordeau, une ville dense sur ses îles et un long pont sur l’eau.",
+    "f": [
+      "Le Third Mainland Bridge traverse la lagune de Lagos sur environ 11,8 km, reliant les îles au continent.",
+      "Lagos a été la capitale du Nigeria jusqu’en 1991, quand le gouvernement s’est installé à Abuja.",
+      "En yoruba, la ville s’appelle Eko."
+    ],
+    "q": {
+      "q": "Que signifie le nom Lagos en portugais ?",
+      "a": "Lacs",
+      "x": [
+        "Ports",
+        "Palmiers"
+      ]
+    }
+  },
+  "Q220": {
+    "t": "La Ville éternelle, encadrée de volcans éteints",
+    "s": "Cherchez d’abord les lacs ronds. Au nord-ouest et au sud-est de Rome, ils remplissent les cratères de volcans éteints ; entre eux, à environ 25 km de la mer, le Tibre serpente à travers la ville en boucles serrées. Un anneau autoroutier, le Grande Raccordo Anulare, entoure l’ensemble. La tradition fait remonter la fondation de la ville à 753 av. J.-C.",
+    "w": "Une ville étalée sur un fleuve sinueux, entre le lac rond de Bracciano au nord-ouest et les monts Albains au sud-est.",
+    "f": [
+      "Le périphérique du Grande Raccordo Anulare mesure environ 68 km.",
+      "La Cité du Vatican, plus petit État du monde, se trouve tout entière dans Rome.",
+      "Le lac de Bracciano, au nord-ouest de la ville, remplit un ancien bassin volcanique d’environ 9 km de large."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Rome ?",
+      "a": "Le Tibre",
+      "x": [
+        "L’Arno",
+        "Le Pô"
+      ]
+    }
+  },
+  "Q3870": {
+    "t": "Lions et girafes en vue des gratte-ciel",
+    "s": "Lions et girafes vivent en vue des tours de Nairobi : la prairie ouverte au sud de la ville est un parc national. La ville est posée sur un haut plateau à environ 1 800 mètres, juste à l’est de la vallée du Grand Rift. Elle est née en 1899, dépôt de la voie ferrée qui reliait Mombasa au lac Victoria, et son nom vient d’une expression massaï signifiant « eau fraîche ».",
+    "w": "Une ville dense bordée au sud par une plaine fauve et ouverte, le parc national ; les collines de Ngong au sud-ouest.",
+    "f": [
+      "Le parc national de Nairobi commence à seulement 7 km environ du centre-ville.",
+      "À l’ouest de la ville, le terrain plonge brusquement dans la vallée du Grand Rift.",
+      "La ville est à moins de 150 km au sud de l’équateur, mais son altitude garde des nuits fraîches."
+    ],
+    "q": {
+      "q": "Que signifie l’expression massaï à l’origine de « Nairobi » ?",
+      "a": "Eau fraîche",
+      "x": [
+        "Terre rouge",
+        "Haute colline"
+      ]
+    }
+  },
+  "Q85": {
+    "t": "Là où la vallée verte du Nil s’ouvre sur le delta",
+    "s": "Le Caire marque la charnière de l’Égypte. Au sud de la ville, le Nil coule dans une étroite bande verte à travers le désert ; juste au nord, il s’ouvre en éventail dans le delta. La ville couvre les deux rives, avec le plateau de Gizeh et ses pyramides sur sa bordure ouest, là où les maisons s’arrêtent et où commence le Sahara.",
+    "w": "Une ville immense gris-beige sur le Nil, exactement là où la mince vallée verte s’élargit en triangle du delta.",
+    "f": [
+      "Le Caire a été fondé sous le nom d’al-Qahira, « la Victorieuse », par la dynastie fatimide en 969.",
+      "Autour du Caire, la limite entre champs irrigués et désert nu est tranchée net, même vue d’aussi haut.",
+      "La grande pyramide de Gizeh a été la plus haute construction humaine du monde pendant plus de 3 800 ans."
+    ],
+    "q": {
+      "q": "Quelle dynastie a fondé Le Caire en 969 ?",
+      "a": "Les Fatimides",
+      "x": [
+        "Les Ottomans",
+        "Les Mamelouks"
+      ]
+    }
+  },
+  "Q90": {
+    "t": "Une ville ovale dans son anneau, un fleuve en boucles",
+    "s": "Paris intra-muros est compact : un ovale bien net tenu par le boulevard périphérique, avec des banlieues qui s’étalent bien au-delà. La Seine entre par le sud-est, s’incurve dans le centre en passant deux petites îles, puis repart en une série de grandes boucles vers la Manche. Les Romains appelaient la ville Lutèce.",
+    "w": "Un périphérique ovale qui enserre un centre dense, traversé par la Seine, qui repart vers l’ouest en larges méandres.",
+    "f": [
+      "Le boulevard périphérique mesure environ 35 km et suit le tracé des fortifications du XIXe siècle.",
+      "À l’intérieur de cet anneau, Paris ne couvre qu’environ 105 km².",
+      "La ville est née sur l’île de la Cité, la plus grande des deux îles de la Seine."
+    ],
+    "q": {
+      "q": "Quelle est la longueur approximative du boulevard périphérique ?",
+      "a": "Environ 35 km",
+      "x": [
+        "Environ 70 km",
+        "Environ 12 km"
+      ]
+    }
+  },
+  "Q1899": {
+    "t": "Des collines vertes d’un côté, une plaine de l’autre",
+    "s": "Le Dniepr coupe Kyiv en deux, et ses rives ne pourraient être plus différentes : des collines escarpées et boisées à l’ouest, où a grandi la vieille ville, et des terres basses et plates à l’est. Entre les deux s’étendent îles sableuses et bras secondaires. En amont, le fleuve s’enfle en un long réservoir. Il y a mille ans, c’était la capitale de la Rus’ de Kiev.",
+    "w": "Un large fleuve nord-sud aux îles sableuses ; la vieille ville vallonnée sur la rive ouest, des quartiers récents sur la rive est.",
+    "f": [
+      "Juste au nord de la ville, le Dniepr s’élargit en réservoir de Kyiv, long de plus de 100 km.",
+      "La laure des Grottes de Kyiv, monastère fondé en 1051, est inscrite au patrimoine mondial de l’UNESCO.",
+      "De grandes îles boisées du Dniepr, comme Troukhaniv, se trouvent juste en face du centre-ville."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Kyiv ?",
+      "a": "Le Dniepr",
+      "x": [
+        "Le Dniestr",
+        "Le Boug méridional"
+      ]
+    }
+  },
+  "Q612": {
+    "t": "Un palmier dessiné en sable sur la mer",
+    "s": "Peu de villes sont aussi faciles à repérer. Au large de Dubaï, un palmier a été dessiné en sable sur la mer, ses palmes cerclées d’un brise-lames en croissant. Plus au large, un semis d’îlots imite une carte du monde. À terre, les tours bordent la côte sur des kilomètres, et la vieille ville épouse une crique sinueuse.",
+    "w": "L’île en forme de palmier au large d’une côte désertique rectiligne, et plus loin l’archipel des îles « The World ».",
+    "f": [
+      "Palm Jumeirah a été bâtie avec du sable dragué au fond de la mer et mesure environ 5 km de large.",
+      "The World est un archipel d’environ 300 îles artificielles disposées comme une carte du monde.",
+      "La crique de Dubaï, bras de mer naturel, était le cœur de la vieille ville de pêcheurs de perles et de marchands."
+    ],
+    "q": {
+      "q": "Quelle forme a l’île artificielle la plus célèbre de Dubaï ?",
+      "a": "Un palmier",
+      "x": [
+        "Un coquillage",
+        "Un faucon"
+      ]
+    }
+  },
+  "Q2807": {
+    "t": "Le cœur de l’Espagne sur son plateau, sommets au nord-ouest",
+    "s": "En hiver, un mur de montagnes coiffées de blanc se dresse au nord-ouest de Madrid : la Sierra de Guadarrama. La ville elle-même se trouve presque au centre de l’Espagne, sur un plateau sec à plus de 600 mètres d’altitude, cerclée d’autoroutes qui dessinent des boucles de plus en plus larges. Philippe II installa sa cour dans cette petite ville en 1561.",
+    "w": "Une ville dense sur un plateau fauve cerclé d’autoroutes, avec la sierra de Guadarrama au nord-ouest.",
+    "f": [
+      "À environ 650 mètres, Madrid est la capitale la plus haute de l’Union européenne.",
+      "La Puerta del Sol, au centre, est le kilomètre zéro des routes nationales radiales d’Espagne.",
+      "La rivière de la ville, le Manzanares, est si petite qu’on la distingue à peine d’avion."
+    ],
+    "q": {
+      "q": "Quelles montagnes se dressent au nord-ouest de Madrid ?",
+      "a": "La Sierra de Guadarrama",
+      "x": [
+        "La Sierra Nevada",
+        "Les Pics d’Europe"
+      ]
+    }
+  },
+  "Q71": {
+    "t": "Là où le Rhône s’échappe d’un lac en croissant",
+    "s": "Là où un grand lac en croissant se resserre en pointe et où le Rhône s’échappe vers la France, vous trouverez Genève. La ville est presque entourée de territoire français. Par temps clair, regardez au sud-est le massif enneigé du Mont-Blanc, et au nord-ouest le long mur sombre du Jura.",
+    "w": "La pointe étroite d’un grand lac en croissant, d’où sort une rivière ; la crête du Jura au nord-ouest.",
+    "f": [
+      "Le canton de Genève partage environ 100 km de frontière avec la France et seulement quelques kilomètres avec le reste de la Suisse.",
+      "Sous terre, juste à l’ouest de la ville, l’accélérateur de particules du CERN forme un anneau de 27 km sous la frontière française.",
+      "Le Léman mesure environ 73 km de long et s’incurve en croissant entre la Suisse et la France."
+    ],
+    "q": {
+      "q": "Quel fleuve sort du Léman à Genève ?",
+      "a": "Le Rhône",
+      "x": [
+        "Le Rhin",
+        "L’Aar"
+      ]
+    }
+  },
+  "Q1754": {
+    "t": "Quatorze îles, un lac et une mer d’écueils",
+    "s": "Stockholm s’étend sur quatorze îles, là où le lac Mälar se déverse dans la Baltique. D’en haut, c’est un puzzle d’eau, de granit et de sombre forêt de pins. À l’est, l’archipel prend le relais : des dizaines de milliers d’îles et d’écueils semés vers le large. La ville apparaît pour la première fois dans les textes en 1252.",
+    "w": "Un puzzle d’îles et de chenaux entre un grand lac à l’ouest et un vaste archipel qui s’étend à l’est vers la Baltique.",
+    "f": [
+      "L’archipel de Stockholm compte environ 30 000 îles, îlots et rochers.",
+      "Le lac Mälar est légèrement plus haut que la Baltique, et son eau s’écoule par les chenaux de la ville.",
+      "Le sol se relève encore ici depuis la dernière glaciation, d’environ un demi-centimètre par an."
+    ],
+    "q": {
+      "q": "Combien d’îles compte à peu près l’archipel de Stockholm ?",
+      "a": "Environ 30 000",
+      "x": [
+        "Environ 300",
+        "Environ 3 000"
+      ]
+    }
+  },
+  "Q3718": {
+    "t": "La ville la plus occidentale de l’Afrique continentale",
+    "s": "Dakar couronne la presqu’île du Cap-Vert, crochet de terre qui s’avance dans l’Atlantique, le point le plus à l’ouest qu’atteigne l’Afrique continentale. D’en haut, la ville remplit tout le triangle, la mer sur trois côtés et le Sahel ocre derrière. Juste au large se trouve la petite île de Gorée, classée par l’UNESCO et lieu de mémoire de la traite atlantique.",
+    "w": "Une presqu’île triangulaire pointée à l’ouest dans l’Atlantique, presque entièrement bâtie, avec une petite île au large de sa côte sud-est.",
+    "f": [
+      "La pointe des Almadies, sur la presqu’île de Dakar, est le point le plus occidental de l’Afrique continentale.",
+      "Deux basses collines volcaniques, les Mamelles, se dressent près de la côte ouest ; l’une porte un phare.",
+      "L’île de Gorée est inscrite au patrimoine mondial de l’UNESCO depuis 1978."
+    ],
+    "q": {
+      "q": "Sur quelle presqu’île se trouve Dakar ?",
+      "a": "Le Cap-Vert",
+      "x": [
+        "Le cap Bon",
+        "Le Sinaï"
+      ]
+    }
+  },
+  "Q34647": {
+    "t": "Bâtie sur l’or : suivez la ligne des vieux terrils",
+    "s": "Johannesburg existe grâce à l’or. Elle a surgi en 1886, après la découverte d’un riche filon le long du Witwatersrand, une longue crête est-ouest sur le haut veld. Regardez le long du flanc sud de la ville : des buttes jaunâtres au sommet plat, anciens terrils de mines, alignées sur le tracé du filon enfoui.",
+    "w": "Une ville étalée sur un haut plateau herbeux ; une ligne de terrils jaune pâle court d’est en ouest le long de sa bordure sud.",
+    "f": [
+      "Johannesburg se trouve à environ 1 750 mètres d’altitude.",
+      "Witwatersrand signifie « crête des eaux blanches » en afrikaans.",
+      "Certaines mines d’or du Witwatersrand descendent à environ 4 km sous la surface, parmi les plus profondes du monde."
+    ],
+    "q": {
+      "q": "Quelle découverte a entraîné la fondation de Johannesburg en 1886 ?",
+      "a": "L’or",
+      "x": [
+        "Les diamants",
+        "Le charbon"
+      ]
+    }
+  },
+  "Q727": {
+    "t": "Une ville de canaux sur une terre gagnée sur l’eau",
+    "s": "Amsterdam est née d’une digue du XIIIe siècle sur l’Amstel, et l’eau façonne encore tout ce que vous voyez : le large chenal de l’IJ au nord, l’étendue grise du Markermeer à l’est, et tout autour un patchwork plat de polders. Beaucoup de ces rectangles verts se trouvent sous le niveau de la mer.",
+    "w": "Des polders verts et plats coupés de fossés rectilignes, la ville sur un large chenal, et un grand lac gris à l’est.",
+    "f": [
+      "L’aéroport de Schiphol se trouve à environ 3 mètres sous le niveau de la mer, sur le fond d’un lac asséché au milieu du XIXe siècle.",
+      "La ceinture de canaux du XVIIe siècle est inscrite au patrimoine mondial de l’UNESCO depuis 2010.",
+      "Le canal de la mer du Nord, ouvert en 1876, relie le port de la ville à la mer, à environ 25 km à l’ouest."
+    ],
+    "q": {
+      "q": "Quelle rivière a donné son nom à Amsterdam ?",
+      "a": "L’Amstel",
+      "x": [
+        "La Meuse",
+        "L’IJssel"
+      ]
+    }
+  },
+  "Q7903": {
+    "t": "Une ville blanche étirée le long du ressac atlantique",
+    "s": "Vue d’avion, Casablanca mérite son nom : « maison blanche » en espagnol, écho de l’arabe Dar al-Bayda. Une nappe claire de bâtiments s’étire le long d’un rivage atlantique plat, jusqu’à la ligne des vagues, et les longues digues de son port, l’un des plus grands d’Afrique, s’incurvent vers le large.",
+    "w": "Une ville claire le long d’une côte atlantique rectiligne, avec un grand port fermé par de longues digues.",
+    "f": [
+      "Le minaret de la mosquée Hassan-II, sur le front de mer, mesure environ 210 mètres.",
+      "Une partie de la mosquée Hassan-II repose sur une plate-forme construite au-dessus de l’Atlantique.",
+      "Casablanca est la plus grande ville du Maroc, mais la capitale est Rabat, à environ 90 km le long de la côte."
+    ],
+    "q": {
+      "q": "Que signifie le nom Casablanca ?",
+      "a": "Maison blanche",
+      "x": [
+        "Sables blancs",
+        "Port bleu"
+      ]
+    }
+  },
+  "Q64": {
+    "t": "Une ville plate de lacs, de forêts et d’un grand vide vert",
+    "s": "L’eau et la forêt sont partout à Berlin : la Spree qui serpente dans le centre, un chapelet de lacs de la Havel à l’ouest, le vaste Müggelsee à l’est, le tout sur une plaine plate et sableuse laissée par les glaciers. De sombres bois de pins s’avancent loin dans la ville. Cherchez aussi un immense rectangle vide au sud du centre : Tempelhof, un aéroport devenu parc.",
+    "w": "Une immense ville plate semée de lacs et de forêts sombres ; un grand rectangle vert et vide juste au sud du centre.",
+    "f": [
+      "L’autoroute A10, le Berliner Ring, mesure environ 196 km : l’un des plus longs périphériques d’Europe.",
+      "Le Tempelhofer Feld, ancien aéroport de Tempelhof, est aujourd’hui un parc ouvert d’environ 300 hectares.",
+      "Berlin couvre environ 890 km², plus de huit fois la superficie de Paris intra-muros."
+    ],
+    "q": {
+      "q": "Quelle rivière traverse le centre de Berlin ?",
+      "a": "La Spree",
+      "x": [
+        "L’Elbe",
+        "L’Oder"
+      ]
+    }
+  },
+  "Q3838": {
+    "t": "Deux capitales face à face de part et d’autre du fleuve",
+    "s": "Deux capitales se font face ici, de part et d’autre du fleuve. Kinshasa couvre la rive sud du Congo, là où il s’étale en un vaste bassin semblable à un lac, semé d’îles sableuses ; Brazzaville est sur la rive opposée. Juste en aval, le fleuve plonge dans une longue série de rapides. Henry Morton Stanley y installa un comptoir en 1881 et le baptisa Léopoldville.",
+    "w": "Une ville étalée sur la rive sud d’un élargissement du fleuve Congo semé d’îles, avec une autre ville sur la rive d’en face.",
+    "f": [
+      "Hormis Rome et le Vatican, Kinshasa et Brazzaville sont les deux capitales les plus proches du monde.",
+      "Le pool Malebo, élargissement du fleuve à cet endroit, mesure environ 35 km de long et plus de 20 km de large.",
+      "En aval de la ville, les chutes Livingstone, chapelet de rapides, font descendre le Congo d’environ 270 mètres."
+    ],
+    "q": {
+      "q": "Quelle capitale fait face à Kinshasa de l’autre côté du Congo ?",
+      "a": "Brazzaville",
+      "x": [
+        "Bangui",
+        "Luanda"
+      ]
+    }
+  },
+  "Q1524": {
+    "t": "Une ville blanche coulée dans un bassin jusqu’à la mer",
+    "s": "Athènes se répand dans un bassin cerné de montagnes nues, jusqu’au golfe Saronique et au port du Pirée. D’en haut, c’est un tapis blanc et beige presque continu. Regardez la montagne au nord-est : les cicatrices pâles sur ses flancs sont des carrières de marbre, exploitées depuis l’Antiquité, quand elles fournirent la pierre du Parthénon.",
+    "w": "Une ville blanche et dense dans un bassin cerné de montagnes, ouvert au sud-ouest sur la mer, sillages de navires au départ du Pirée.",
+    "f": [
+      "Le marbre du Parthénon venait du mont Pentélique, à environ 15 km au nord-est de l’Acropole.",
+      "Le Pirée sert de port à Athènes depuis le Ve siècle av. J.-C., quand les Longs Murs reliaient les deux.",
+      "La ville tire son nom de la déesse Athéna, sa protectrice dans la mythologie grecque."
+    ],
+    "q": {
+      "q": "Quelle montagne a fourni le marbre du Parthénon ?",
+      "a": "Le mont Pentélique",
+      "x": [
+        "Le mont Olympe",
+        "Le mont Parnasse"
+      ]
+    }
+  },
+  "Q1530": {
+    "t": "Enfilée sur les grandes boucles du Tigre",
+    "s": "Bagdad est enfilée sur le Tigre, qui la traverse en grandes boucles, bordé de sombres palmeraies sur ses deux rives. À l’ouest, l’Euphrate s’approche à quelques dizaines de kilomètres : les deux fleuves de Mésopotamie ne sont presque nulle part aussi proches qu’ici. Le calife abbasside al-Mansur fonda la ville en 762, cité parfaitement ronde ceinte de murailles.",
+    "w": "Une ville plate couleur de poussière sur un large fleuve aux méandres profonds, bordé de palmeraies vert sombre.",
+    "f": [
+      "Al-Mansur baptisa sa nouvelle ville ronde Madinat al-Salam, la « Cité de la paix ».",
+      "Près de Bagdad, le Tigre et l’Euphrate coulent à moins de 50 km l’un de l’autre.",
+      "Au IXe siècle, la Maison de la sagesse de Bagdad attira des savants qui traduisirent la science grecque en arabe."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Bagdad ?",
+      "a": "Le Tigre",
+      "x": [
+        "L’Euphrate",
+        "L’Oronte"
+      ]
+    }
+  },
+  "Q3624": {
+    "t": "À 2 350 mètres, parmi les collines d’eucalyptus",
+    "s": "Peu de capitales sont plus haut perchées : Addis-Abeba se trouve à environ 2 350 mètres, sur les hauts plateaux éthiopiens. Les collines au nord sont sombres d’eucalyptus, arbre introduit dans les années 1890 pour fournir du bois de chauffage à la jeune ville. L’empereur Ménélik II et l’impératrice Taytu fondèrent la ville en 1886, près d’un groupe de sources chaudes.",
+    "w": "Une ville étalée sur un haut plateau vert, avec des collines sombres couvertes d’eucalyptus le long de sa bordure nord.",
+    "f": [
+      "L’Union africaine a son siège à Addis-Abeba.",
+      "Les eucalyptus autour de la ville viennent d’Australie et couvrent aujourd’hui une grande partie des collines d’Entoto.",
+      "À cette altitude, l’eau bout vers 92 °C au lieu de 100 °C."
+    ],
+    "q": {
+      "q": "Que signifie le nom Addis-Abeba en amharique ?",
+      "a": "Nouvelle fleur",
+      "x": [
+        "Haute ville",
+        "Eau de source"
+      ]
+    }
+  },
+  "Q3616": {
+    "t": "Le Damavand enneigé au-dessus d’une ville en pente",
+    "s": "Un cône blanc solitaire flotte au-dessus des montagnes au nord-est de Téhéran : le Damavand, plus haut sommet d’Iran. La ville s’étend au pied de l’Elbourz, un mur abrupt qui la sépare de la mer Caspienne, et toute la ville penche : ses quartiers nord sont des centaines de mètres plus haut que ceux du sud, qui se fondent dans une plaine sèche.",
+    "w": "Une immense ville grise plaquée contre un haut mur de montagnes au nord ; un cône volcanique enneigé et solitaire au nord-est.",
+    "f": [
+      "Le mont Damavand, à environ 70 km au nord-est de la ville, culmine à quelque 5 600 mètres.",
+      "Téhéran est devenue la capitale en 1786 sous Agha Mohammad Khan, fondateur de la dynastie Qadjar.",
+      "Le Damavand est un volcan, le plus haut d’Asie."
+    ],
+    "q": {
+      "q": "Quel volcan se dresse au nord-est de Téhéran ?",
+      "a": "Le Damavand",
+      "x": [
+        "L’Ararat",
+        "Le Sabalan"
+      ]
+    }
+  },
+  "Q1741": {
+    "t": "Là où le Danube coule en lignes droites parallèles",
+    "s": "Le fleuve de Vienne est facile à trouver mais étrange à regarder : le Danube longe la ville en chenaux rectilignes et parallèles, séparés par une longue île mince. C’est l’œuvre d’ingénieurs ; l’ancien fleuve divaguait librement dans sa plaine inondable. À l’ouest, les collines boisées de la forêt viennoise sont les derniers contreforts des Alpes.",
+    "w": "Le Danube en deux chenaux droits et parallèles séparés par une île mince, au nord-est du centre ; des collines boisées à l’ouest.",
+    "f": [
+      "La Donauinsel, mince bande entre les chenaux, mesure environ 21 km et a été construite contre les crues.",
+      "Vienne a des vignes en production dans ses limites municipales, et on y fait du vin depuis des siècles.",
+      "Pendant des siècles, Vienne a été le principal siège de la dynastie des Habsbourg."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Vienne ?",
+      "a": "Le Danube",
+      "x": [
+        "L’Elbe",
+        "La Vltava"
+      ]
+    }
+  },
+  "Q3640": {
+    "t": "Une capitale sur la steppe nue d’Anatolie",
+    "s": "Ankara s’étale dans une cuvette de collines au milieu du plateau anatolien, à près de 900 mètres, cernée d’une steppe sèche et fauve. Son ancien nom, Angora, survit dans la laine douce des chèvres, chats et lapins qu’on y élevait jadis. Loin au sud, vous apercevrez peut-être un éclat blanc : le lac Tuz, un immense lac salé peu profond.",
+    "w": "Une grande ville dans une cuvette de basses collines sur une steppe nue et fauve ; loin au sud, la nappe blanche d’un lac salé.",
+    "f": [
+      "Ankara a remplacé Istanbul comme capitale de la Turquie en 1923.",
+      "À l’époque romaine, la ville s’appelait Ancyre et était la capitale de la province de Galatie.",
+      "Le lac Tuz est si peu profond qu’en été une grande partie s’assèche en croûte de sel blanc."
+    ],
+    "q": {
+      "q": "Quel ancien nom d’Ankara a été donné à une laine douce ?",
+      "a": "Angora",
+      "x": [
+        "Mérinos",
+        "Cachemire"
+      ]
+    }
+  },
+  "Q1781": {
+    "t": "Les collines de Buda et la plaine de Pest, cousues de ponts",
+    "s": "Le Danube traverse Budapest tout droit du nord au sud et lui donne deux caractères : les collines boisées de Buda sur la rive ouest, le quadrillage plat et dense de Pest sur la rive est. Une île mince et verdoyante, l’île Marguerite, occupe le milieu du fleuve près du centre. Les villes des deux rives n’ont été réunies en une seule qu’en 1873.",
+    "w": "Un large fleuve coulant vers le sud, des collines vertes sur sa rive ouest, une ville plate à l’est et une île étroite au milieu.",
+    "f": [
+      "Budapest repose sur une faille géologique qui alimente plus d’une centaine de sources thermales.",
+      "Au sud de la ville, le Danube se divise autour de l’île de Csepel, longue de près de 50 km.",
+      "L’île Marguerite mesure environ 2,5 km et abritait autrefois un couvent médiéval."
+    ],
+    "q": {
+      "q": "En quelle année Buda, Óbuda et Pest ont-elles été réunies ?",
+      "a": "En 1873",
+      "x": [
+        "En 1848",
+        "En 1896"
+      ]
+    }
+  },
+  "Q2471": {
+    "t": "Une capitale antique sur un haut plateau montagneux",
+    "s": "De hautes maisons-tours en brique crue et en pierre, soulignées de blanc, remplissent la vieille ville de Sanaa depuis des siècles, et l’on vit ici depuis plus de 2 500 ans. D’en haut, la ville est une tache couleur de terre entre des crêtes nues et plissées, dans un haut bassin des montagnes du Yémen, à environ 2 250 mètres.",
+    "w": "Une ville couleur de terre dans un large bassin d’altitude, enserré à l’est et à l’ouest par des montagnes nues et accidentées.",
+    "f": [
+      "La vieille ville de Sanaa est inscrite au patrimoine mondial de l’UNESCO depuis 1986.",
+      "À l’ouest de la ville se dresse le Jabal an-Nabi Shu’ayb, environ 3 660 m, plus haut sommet de la péninsule Arabique.",
+      "Les maisons-tours de Sanaa ont plusieurs étages, et des frises de gypse blanc encadrent leurs fenêtres."
+    ],
+    "q": {
+      "q": "À quelle altitude se trouve à peu près Sanaa ?",
+      "a": "Environ 2 250 m",
+      "x": [
+        "Environ 750 m",
+        "Environ 4 000 m"
+      ]
+    }
+  },
+  "Q1492": {
+    "t": "Un quadrillage parfait entre les collines et la mer",
+    "s": "Barcelone remplit une plaine côtière enfermée entre deux rivières et une ligne de collines boisées. Son cœur est reconnaissable entre tous : l’Eixample, immense damier d’îlots presque identiques tracé dans les années 1860. Cherchez une large avenue qui le traverse en biais, et la colline de Montjuïc qui se dresse d’un coup au-dessus du port.",
+    "w": "Un damier d’îlots carrés entre collines vertes et Méditerranée, traversé par une longue avenue en diagonale, une colline arrondie près du port.",
+    "f": [
+      "L’Eixample a été conçu en 1859 par l’ingénieur Ildefons Cerdà.",
+      "Chaque îlot de l’Eixample mesure environ 113 mètres de côté, avec des angles coupés en biais.",
+      "L’Avinguda Diagonal traverse le quadrillage sur environ 11 km."
+    ],
+    "q": {
+      "q": "Quelle colline se dresse près du port de Barcelone ?",
+      "a": "Montjuïc",
+      "x": [
+        "Le Tibidabo",
+        "Montserrat"
+      ]
+    }
+  },
+  "Q19660": {
+    "t": "Une ville plate et un chapelet de lacs au nord",
+    "s": "Un chapelet de lacs enfilés comme des perles le long d’une petite rivière marque la bordure nord de Bucarest ; cherchez-le sur la plaine plate de Valachie, à environ 60 km au nord du Danube. Le premier document mentionnant la ville a été signé ici en 1459 par Vlad III, mieux connu sous le nom de Vlad l’Empaleur.",
+    "w": "Une grande ville plate sur une plaine ouverte, avec un chapelet incurvé de petits lacs le long de sa bordure nord.",
+    "f": [
+      "Ses boulevards élégants ont valu autrefois à Bucarest le surnom de « petit Paris ».",
+      "Bucarest est devenue la capitale de la Valachie en 1659.",
+      "La Dâmbovița traverse le centre dans un chenal rectiligne entre des murs."
+    ],
+    "q": {
+      "q": "Quel souverain a signé en 1459 le premier document nommant Bucarest ?",
+      "a": "Vlad l’Empaleur",
+      "x": [
+        "Étienne le Grand",
+        "Michel le Brave"
+      ]
+    }
+  },
+  "Q41183": {
+    "t": "L’une des plus vieilles villes du monde, sur un plateau",
+    "s": "Alep est l’une des plus anciennes villes habitées sans interruption du monde, étape des routes caravanières entre la Méditerranée et la Mésopotamie depuis des millénaires. D’en haut, c’est une grande ville claire sur une plaine calcaire ondulée. Son vieux centre a grandi autour d’une citadelle perchée sur une butte antique. Au sud-est de la ville s’étend un lac salé peu profond, le Jabboul.",
+    "w": "Une grande ville claire sur une plaine sèche et ondulée ; un lac salé peu profond scintille au sud-est.",
+    "f": [
+      "La vieille ville d’Alep est inscrite au patrimoine mondial de l’UNESCO depuis 1986.",
+      "La ville est célèbre depuis longtemps pour son savon à l’huile d’olive et de laurier, le savon d’Alep.",
+      "Alep se trouve à quelque 100 km à l’intérieur des terres depuis la Méditerranée."
+    ],
+    "q": {
+      "q": "Quel lac salé s’étend au sud-est d’Alep ?",
+      "a": "Le lac Jabboul",
+      "x": [
+        "Le lac Tuz",
+        "Le lac d’Ourmia"
+      ]
+    }
+  },
+  "Q3766": {
+    "t": "Une antique ville-oasis sous une montagne nue",
+    "s": "Damas doit son existence à une petite rivière. Le Barada descend des monts de l’Anti-Liban et s’étale dans la Ghouta, oasis de vergers qui nourrit la ville depuis des millénaires. La ville s’étend au pied du mont Qassioun, nu, et en hiver la crête enneigée du mont Hermon se détache au sud-ouest.",
+    "w": "Une grande ville entre vergers verts et désert, adossée à une montagne nue au nord-ouest.",
+    "f": [
+      "De 661 à 750, Damas fut la capitale du califat omeyyade, qui s’étendait de l’Espagne à l’Asie centrale.",
+      "Le mont Hermon, au sud-ouest de la ville, culmine à environ 2 800 mètres et garde souvent la neige jusqu’au printemps.",
+      "La vieille ville de Damas est inscrite au patrimoine mondial de l’UNESCO depuis 1979."
+    ],
+    "q": {
+      "q": "Quel tissu tire son nom de Damas ?",
+      "a": "Le damas",
+      "x": [
+        "La mousseline",
+        "Le calicot"
+      ]
+    }
+  },
+  "Q72": {
+    "t": "À la pointe d’un lac effilé, les Alpes au-delà",
+    "s": "Un lac mince s’incurve sur environ 40 km vers le sud-est, en direction des Alpes, et à sa pointe nord se trouve Zurich, que la Limmat traverse tout droit en s’échappant du lac. Par temps clair, regardez au-delà du lac le mur enneigé des Alpes glaronaises. Les Romains connaissaient le lieu sous le nom de Turicum.",
+    "w": "L’extrémité nord d’un lac long et étroit incurvé vers le sud-est, une rivière qui en sort à travers la ville, les Alpes au-delà.",
+    "f": [
+      "Le lac de Zurich mesure environ 40 km de long mais nulle part plus de 4 km de large environ.",
+      "L’Uetliberg, crête boisée à l’ouest de la ville, culmine à environ 870 mètres.",
+      "Zurich est la plus grande ville de Suisse, même si le gouvernement fédéral siège à Berne."
+    ],
+    "q": {
+      "q": "Quelle rivière sort du lac de Zurich à travers la ville ?",
+      "a": "La Limmat",
+      "x": [
+        "L’Aar",
+        "La Reuss"
+      ]
+    }
+  },
+  "Q597": {
+    "t": "Capitale la plus à l’ouest du continent, sur un estuaire",
+    "s": "Lisbonne gravit ses collines sur la rive nord du Tage, juste là où la large mer intérieure du fleuve se resserre en un goulet vers l’Atlantique. Deux longs ponts franchissent l’eau : un pont suspendu rouge au goulet et, en amont, la fine ligne d’un pont qui court sur des kilomètres. Aucune capitale d’Europe continentale n’est plus à l’ouest.",
+    "w": "Une ville vallonnée sur la rive nord d’un large estuaire, un long pont en amont et un autre au goulet.",
+    "f": [
+      "Le pont Vasco-de-Gama sur le Tage mesure environ 12 km, l’un des plus longs d’Europe.",
+      "La partie intérieure de l’estuaire est si large qu’on la surnomme la Mar da Palha, la « mer de Paille ».",
+      "Le cabo da Roca, à l’ouest de Lisbonne, est le point le plus occidental de l’Europe continentale."
+    ],
+    "q": {
+      "q": "Quel fleuve forme le large estuaire de Lisbonne ?",
+      "a": "Le Tage",
+      "x": [
+        "Le Douro",
+        "Le Guadiana"
+      ]
+    }
+  },
+  "Q1963": {
+    "t": "Là où le Nil Bleu et le Nil Blanc ne font plus qu’un",
+    "s": "Khartoum se dresse à l’un des grands confluents du monde. Le Nil Bleu, descendu des hauts plateaux éthiopiens, rejoint le Nil Blanc, venu du lointain lac Victoria. Leurs eaux peuvent couler un moment côte à côte, en deux nuances, avant de se mêler. Autour du confluent, trois villes se font face de part et d’autre des fleuves.",
+    "w": "Deux grands fleuves qui se rejoignent en Y autour d’une île verte, avec une ville sur chacune des trois rives.",
+    "f": [
+      "L’île de Tuti se trouve juste au confluent des deux Nils.",
+      "L’essentiel de l’eau du Nil en aval de Khartoum vient du Nil Bleu, surtout en période de crue.",
+      "Les trois villes autour du confluent sont Khartoum, Omdourman et Khartoum-Nord."
+    ],
+    "q": {
+      "q": "Quels fleuves se rejoignent à Khartoum ?",
+      "a": "Le Nil Bleu et le Nil Blanc",
+      "x": [
+        "Le Nil et l’Atbara",
+        "Le Nil Blanc et le Sobat"
+      ]
+    }
+  },
+  "Q374365": {
+    "t": "La porte de la mer Rouge, frangée de récifs turquoise",
+    "s": "Des hauts-fonds turquoise frangent la mer Rouge le long du rivage de Djeddah : ces verts et ces bleus pâles sont des récifs coralliens. La ville s’étire sur des kilomètres, longue et étroite, entre les récifs et le désert. Depuis des siècles, les pèlerins en route vers La Mecque, à environ 70 km à l’intérieur des terres, débarquent ici, et le vieux port s’est enrichi de leur arrivée.",
+    "w": "Une longue ville le long d’une côte rectiligne de la mer Rouge, bordée de récifs turquoise vif, avec désert brun et collines derrière.",
+    "f": [
+      "Le vieux Djeddah, quartier de maisons en pierre de corail, est inscrit au patrimoine mondial de l’UNESCO depuis 2014.",
+      "La fontaine du roi Fahd, au large du front de mer, projette l’eau à plus de 250 mètres de haut.",
+      "Les récifs de cette côte appartiennent à l’une des mers les plus chaudes et les plus salées du monde."
+    ],
+    "q": {
+      "q": "Sur quelle mer donne Djeddah ?",
+      "a": "La mer Rouge",
+      "x": [
+        "La mer d’Arabie",
+        "Le golfe Persique"
+      ]
+    }
+  },
+  "Q5806": {
+    "t": "Une ville sainte dans une vallée de montagnes sombres",
+    "s": "À l’est de La Mecque, toute une vallée est tapissée de rangées de tentes blanches : Mina, où séjournent les pèlerins pendant le hajj. La ville elle-même occupe des vallées étroites entre des montagnes sombres et déchiquetées, à environ 70 km de la mer Rouge. Pour les musulmans, c’est la ville la plus sainte de l’islam : ils se tournent vers elle pour prier, et des millions y viennent chaque année en pèlerinage.",
+    "w": "Une ville coincée dans des vallées sinueuses entre des collines noires et nues, avec une vallée de tentes blanches qui s’étire à l’est.",
+    "f": [
+      "Le prophète Mahomet est né à La Mecque vers 570.",
+      "La ville de tentes de Mina compte des dizaines de milliers de tentes ignifugées bien alignées.",
+      "La plaine d’Arafat, étape clé du pèlerinage, se trouve à environ 20 km au sud-est de la ville."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui recouvre la vallée de Mina, à l’est de La Mecque ?",
+      "a": "Des rangées de tentes blanches",
+      "x": [
+        "Des panneaux solaires",
+        "Des palmeraies de dattiers"
+      ]
+    }
+  },
+  "Q585": {
+    "t": "Une capitale au fond d’un long fjord semé d’îles",
+    "s": "Un long bras de mer semé de petites îles s’enfonce loin dans les terres et finit par mourir entre des collines boisées ; là, au fond du fjord, se trouve Oslo. La ville remplit un amphithéâtre vert, avec des bois sombres et des lacs à ses portes. Pendant trois siècles, elle s’est appelée Christiania, d’après le roi Christian IV, qui la reconstruisit en 1624.",
+    "w": "Le fond d’un long fjord parsemé de petites îles, avec la ville dans une cuvette de collines sombres et boisées.",
+    "f": [
+      "L’Oslofjord s’étire sur environ 100 km de la ville jusqu’au Skagerrak, au sud.",
+      "La ville a repris son nom médiéval, Oslo, en 1925.",
+      "Une grande partie de la commune est une forêt protégée, la Marka, sillonnée de lacs et de pistes de ski."
+    ],
+    "q": {
+      "q": "Comment s’appelait Oslo de 1624 à 1925 ?",
+      "a": "Christiania",
+      "x": [
+        "Nidaros",
+        "Bjørgvin"
+      ]
+    }
+  },
+  "Q5468": {
+    "t": "Une ville portuaire chaude au bord de l’océan Indien",
+    "s": "Durban s’enroule autour d’un grand port naturel de la côte est de l’Afrique du Sud, abrité par une longue crête boisée, le Bluff. Au nord du port, une ligne droite de plages fait face à l’océan Indien, où le chaud courant des Aiguilles garde l’eau douce toute l’année. À l’intérieur, des collines vertes et ondulées sont tachées de champs de canne à sucre.",
+    "w": "Une baie presque fermée à l’entrée étroite, une crête verte sur son flanc sud et une longue plage droite au nord.",
+    "f": [
+      "La ville a été nommée en 1835 d’après sir Benjamin D’Urban, alors gouverneur de la colonie du Cap.",
+      "Le port de Durban est l’un des plus actifs d’Afrique.",
+      "Le chaud courant des Aiguilles longe cette côte vers le sud-ouest : l’un des courants océaniques les plus rapides du monde."
+    ],
+    "q": {
+      "q": "Sur quel océan donne Durban ?",
+      "a": "L’océan Indien",
+      "x": [
+        "L’océan Atlantique",
+        "L’océan Austral"
+      ]
+    }
+  },
+  "Q656": {
+    "t": "La ville de Pierre sur les îles du delta de la Neva",
+    "s": "Une mince ligne barre l’extrémité est du golfe de Finlande : une digue d’environ 25 km, qui passe par l’île de Kotline et protège Saint-Pétersbourg des ondes de tempête. Derrière, la ville s’étend sur les îles du delta de la Neva. Pierre le Grand l’a fondée sur ce terrain marécageux en 1703.",
+    "w": "Une grande ville sur un delta ramifié au fond d’un golfe, avec une longue digue qui traverse l’eau en passant par une île.",
+    "f": [
+      "La Neva ne mesure qu’environ 74 km, mais elle draine le lac Ladoga, le plus grand lac d’Europe.",
+      "La ville est bâtie sur des dizaines d’îles, séparées par des rivières et des canaux.",
+      "Vers le solstice d’été, les « nuits blanches » gardent le ciel clair même à minuit."
+    ],
+    "q": {
+      "q": "En quelle année Pierre le Grand a-t-il fondé Saint-Pétersbourg ?",
+      "a": "En 1703",
+      "x": [
+        "En 1682",
+        "En 1721"
+      ]
+    }
+  },
+  "Q182984": {
+    "t": "Une antique cité marchande du Sahel, sur la savane",
+    "s": "Des toits bas couleur de terre s’étalent comme un immense tapis sur la savane poussiéreuse du nord du Nigeria : c’est Kano, ville marchande depuis mille ans et terminus sud des routes caravanières à travers le Sahara. Dans son vieux cœur fortifié, on teint encore les étoffes dans des fosses d’indigo utilisées depuis le XVe siècle.",
+    "w": "Une immense ville basse aux tons sable sur une savane plate et sèche, parsemée de champs verts et de réservoirs.",
+    "f": [
+      "Les fosses de teinture de Kofar Mata sont exploitées depuis plus de 500 ans.",
+      "Le marché de Kurmi, à Kano, remonte au XVe siècle.",
+      "La saison des pluies ne dure ici qu’environ quatre mois, de juin à septembre."
+    ],
+    "q": {
+      "q": "De quelle couleur teint-on les étoffes dans les vieilles fosses de Kano ?",
+      "a": "Bleu indigo",
+      "x": [
+        "Jaune safran",
+        "Rouge garance"
+      ]
+    }
+  },
+  "Q270": {
+    "t": "Bancs de sable et saules en pleine capitale",
+    "s": "Varsovie se dresse sur la Vistule, et c’est le fleuve qui surprend : quand la plupart des capitales ont dompté le leur, ici de larges bancs de sable, des fourrés de saules et des plages bordent l’eau en pleine ville. Le centre occupe un bas escarpement sur la rive ouest ; le quartier de Praga lui fait face. La cour royale s’y est installée depuis Cracovie vers 1596.",
+    "w": "Un large fleuve aux bancs de sable pâles et aux rives boisées, qui serpente vers le nord à travers une grande ville de plaine.",
+    "f": [
+      "La Vistule, plus long fleuve de Pologne, parcourt un peu plus de 1 000 km des Carpates à la Baltique.",
+      "Frédéric Chopin est né en 1810 à Żelazowa Wola, à environ 50 km à l’ouest de Varsovie.",
+      "La vieille ville historique de Varsovie est inscrite au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "De quelle ville la cour royale polonaise est-elle venue à Varsovie vers 1596 ?",
+      "a": "De Cracovie",
+      "x": [
+        "De Gdańsk",
+        "De Poznań"
+      ]
+    }
+  },
+  "Q1960": {
+    "t": "Un « havre de paix » sur un port abrité",
+    "s": "Dar es Salaam s’enroule autour d’un port étroit et abrité sur l’océan Indien, avec des îlots coralliens et des récifs turquoise semés juste au large. Le sultan Majid de Zanzibar fonda la ville dans les années 1860 et lui donna un nom arabe signifiant « havre de paix ». C’est aujourd’hui la plus grande ville de Tanzanie, qui s’étale loin dans la plaine côtière.",
+    "w": "Une ville côtière étalée autour d’un port à l’entrée étroite, avec de petites îles vertes et des récifs juste au large, au nord.",
+    "f": [
+      "La capitale officielle de la Tanzanie est Dodoma, mais Dar es Salaam reste sa plus grande ville et son principal port.",
+      "La ville de Zanzibar se trouve à environ 70 km au nord, de l’autre côté d’un bras de l’océan Indien.",
+      "Les îles juste au nord de la ville, comme Bongoyo et Mbudya, font partie d’une réserve marine."
+    ],
+    "q": {
+      "q": "Que signifie le nom Dar es Salaam ?",
+      "a": "Havre de paix",
+      "x": [
+        "Porte de la mer",
+        "Maison des épices"
+      ]
+    }
+  }
+}

@@ -2869,5 +2869,278 @@
         "Carbón"
       ]
     }
+  },
+  "Q44237": {
+    "t": "Un oasis verde de viñedos bajo los altos Andes",
+    "s": "Mendoza es un oasis: la tierra que la rodea es semidesierto, pero la ciudad y sus viñedos están verdes gracias a canales de riego alimentados por el deshielo andino, un sistema que empezó el pueblo huarpe mucho antes de que los españoles fundaran la ciudad en 1561. Al oeste, los Andes se alzan como un muro macizo, y el Aconcagua, el pico más alto fuera de Asia, está a unos 110 km.",
+    "w": "Una gran ciudad verde y un mosaico de viñedos en una llanura seca, al pie de un muro de montañas imponente y veteado de nieve.",
+    "f": [
+      "La región de Mendoza produce la mayor parte del vino argentino y es famosa sobre todo por el malbec.",
+      "Las calles están bordeadas de canales abiertos, las acequias, que riegan los árboles."
+    ],
+    "q": {
+      "q": "¿Por qué variedad de uva es más famosa Mendoza?",
+      "a": "Malbec",
+      "x": [
+        "Pinot noir",
+        "Riesling"
+      ]
+    }
+  },
+  "Q2907": {
+    "t": "La capital blanca de Bolivia, con un muro de dinosaurios",
+    "s": "Las paredes encaladas y los tejados rojos hacen que Sucre destaque entre las colinas secas y onduladas que la rodean, a unos 2800 m. Es la capital constitucional de Bolivia, aunque el gobierno está en La Paz, y aquí se proclamó la independencia boliviana en 1825. En las afueras, una pared de cantera llamada Cal Orck’o está cubierta de miles de huellas de dinosaurio.",
+    "w": "Una ciudad compacta de edificios claros y tejados rojos en un cuenco de colinas pardas; valles erosionados alrededor.",
+    "f": [
+      "Cal Orck’o alberga una de las mayores colecciones de huellas de dinosaurio del mundo, en una pared caliza casi vertical.",
+      "Fundada en 1538, la ciudad ha tenido varios nombres, entre ellos La Plata y Chuquisaca."
+    ],
+    "q": {
+      "q": "¿Qué cubre la pared de Cal Orck’o, cerca de Sucre?",
+      "a": "Huellas de dinosaurio",
+      "x": [
+        "Pinturas rupestres incas",
+        "Vetas de plata"
+      ]
+    }
+  },
+  "Q941357": {
+    "t": "La capital de la castaña, donde se unen dos ríos de selva",
+    "s": "Riberalta se alza en una barranca donde el río Madre de Dios desemboca en el Beni, en lo más hondo de las selvas bajas del norte de Bolivia. Desde arriba, ambos ríos serpentean en amplios bucles pardos y dejan lagos en media luna. El pueblo se fundó en 1894, durante el auge del caucho, y hoy vive sobre todo de la castaña amazónica, recolectada en la selva de alrededor.",
+    "w": "Un pequeño pueblo en una orilla alta donde se unen dos ríos pardos, anchos y sinuosos; lagos en herradura y selva densa alrededor.",
+    "f": [
+      "Bolivia es el mayor exportador mundial de castaña amazónica, y buena parte se procesa en Riberalta.",
+      "La castaña procede de árboles silvestres gigantes que rara vez prosperan en plantaciones."
+    ],
+    "q": {
+      "q": "¿Qué fruto seco se procesa en enormes cantidades en Riberalta?",
+      "a": "La castaña amazónica",
+      "x": [
+        "El anacardo",
+        "La macadamia"
+      ]
+    }
+  },
+  "Q54108": {
+    "t": "Un laberinto de canales de marea y sal",
+    "s": "En la cabecera de un ancho estuario, los canales de marea serpentean entre marismas y planicies de lodo; los primeros navegantes llamaron al lugar Bahía Blanca por las costras de sal que brillaban en la orilla. Nació en 1828 como fortín de frontera y se convirtió en uno de los grandes puertos de aguas profundas de Argentina, que embarca el grano de la pampa. Al norte se alza la baja sierra de la Ventana.",
+    "w": "Una ciudad junto a un vasto estuario surcado de canales sinuosos y planicies claras; muelles e industria en la orilla; campos llanos detrás.",
+    "f": [
+      "En 1832, Charles Darwin desenterró fósiles de mamíferos gigantes extintos en Punta Alta, en esta bahía.",
+      "El cerro Tres Picos, en la sierra de la Ventana, es el punto más alto de la provincia de Buenos Aires."
+    ],
+    "q": {
+      "q": "¿De dónde viene el nombre de Bahía Blanca?",
+      "a": "De las costras de sal de la orilla",
+      "x": [
+        "De unas dunas de arena blanca",
+        "De unos acantilados de creta"
+      ]
+    }
+  },
+  "Q52607": {
+    "t": "La ciudad de playa argentina, donde la pampa llega al mar",
+    "s": "Mar del Plata es el lugar donde la pampa infinita llega por fin al Atlántico, y aquí la costa se vuelve rocosa, con acantilados bajos y cabos entre largas playas de arena. Fundada en 1874, se convirtió en el lugar de veraneo de Buenos Aires, y en enero su población se multiplica. Busca las largas escolleras de su puerto, donde vive una colonia de lobos marinos.",
+    "w": "Una gran ciudad costera que se curva entre playas y puntas rocosas; un puerto con largas escolleras; campos llanos y verdes detrás.",
+    "f": [
+      "Una colonia de lobos marinos sudamericanos vive en pleno puerto pesquero.",
+      "Buenos Aires está a unos 400 km al noroeste."
+    ],
+    "q": {
+      "q": "¿Qué animales viven en una colonia en pleno puerto de Mar del Plata?",
+      "a": "Lobos marinos",
+      "x": [
+        "Flamencos",
+        "Pelícanos"
+      ]
+    }
+  },
+  "Q44210": {
+    "t": "La segunda ciudad argentina, entre la llanura y las sierras",
+    "s": "Córdoba se extiende junto al río Suquía, donde la pampa llana empieza a subir hacia las sierras de Córdoba, una cordillera de colinas redondeadas de granito al oeste. Fundada en 1573, se convirtió en un centro del saber: su universidad, fundada por los jesuitas en 1613, es la más antigua de Argentina. Los edificios jesuíticos del centro y sus estancias en las sierras son Patrimonio de la Humanidad.",
+    "w": "Una gran ciudad en una llanura, con sierras que se alzan cerca, al oeste; un río que serpentea por el centro.",
+    "f": [
+      "El cerro Champaquí, la cumbre más alta de las sierras, alcanza unos 2790 m.",
+      "Mar Chiquita, el mayor lago salado de Argentina, está a unos 170 km al noreste."
+    ],
+    "q": {
+      "q": "¿Cuál es la universidad más antigua de Argentina?",
+      "a": "La Universidad de Córdoba",
+      "x": [
+        "La Universidad de Buenos Aires",
+        "La Universidad de La Plata"
+      ]
+    }
+  },
+  "Q44238": {
+    "t": "Una ciudad de tierra roja frente a Paraguay",
+    "s": "Frente a Posadas, al otro lado del ancho Paraná, está Encarnación, en Paraguay, unida a ella por un largo puente; una represa aguas abajo ha ensanchado el río hasta parecer un lago. El suelo de la provincia de Misiones es de un rojo ladrillo sorprendente, que asoma en cunetas y campos entre manchas de selva y plantaciones de yerba mate.",
+    "w": "Una ciudad en un río muy ancho con otra ciudad enfrente, unidas por un largo puente; suelo rojo, campos verdes y selva alrededor.",
+    "f": [
+      "La represa de Yacyretá, aguas abajo, elevó el río y lo ensanchó en un embalse.",
+      "Las ruinas de San Ignacio Miní, una misión jesuítica de los siglos XVII y XVIII, están a unos 60 km al este."
+    ],
+    "q": {
+      "q": "¿Qué ciudad paraguaya está frente a Posadas, al otro lado del Paraná?",
+      "a": "Encarnación",
+      "x": [
+        "Ciudad del Este",
+        "Pilar"
+      ]
+    }
+  },
+  "Q3043": {
+    "t": "Una pequeña capital hecha a medida en la selva de Belice",
+    "s": "Si parpadeas, te pierdes Belmopan, una de las capitales nacionales más pequeñas del mundo: una ciudad ordenada plantada en la campiña verde y ondulada del valle del río Belice. Se construyó en los años sesenta, a unos 80 km tierra adentro, para sustituir a la baja Ciudad de Belice, expuesta a los huracanes del Caribe; el gobierno se trasladó aquí en 1970. Al sur se alzan los boscosos montes Mayas.",
+    "w": "Una ciudad pequeña y baja entre colinas verdes y bosque, cerca de un río sinuoso; montañas oscuras y boscosas al sur.",
+    "f": [
+      "Frente a la costa está la barrera de coral de Belice, parte del segundo sistema de arrecifes más grande del mundo.",
+      "El nombre combina «Belize» y «Mopan», dos de los ríos del país."
+    ],
+    "q": {
+      "q": "¿Por qué se construyó Belmopan lejos de la costa?",
+      "a": "Para estar más a salvo de los huracanes",
+      "x": [
+        "Para estar cerca del petróleo",
+        "Para vigilar la frontera"
+      ]
+    }
+  },
+  "Q1491": {
+    "t": "La sede de gobierno más alta del mundo, en un cañón",
+    "s": "La Paz está vertida en un profundo cañón abierto en el borde del Altiplano, con edificios que bajan desde el borde, a unos 4000 m, hacia un fondo varios cientos de metros más bajo. Arriba, en la meseta llana, se extiende El Alto, con uno de los aeropuertos internacionales más altos del mundo. Sobre todo ello, al sureste, se alzan las tres cumbres nevadas del Illimani, de unos 6440 m.",
+    "w": "Una ciudad que llena un cañón hondo y ramificado bajo una alta meseta; otra ciudad en el borde; un nevado de tres cumbres al sureste.",
+    "f": [
+      "A unos 3600 m, La Paz es la sede de gobierno más alta del mundo.",
+      "El lago Titicaca está a unos 60 km al noroeste, al otro lado del Altiplano.",
+      "Los españoles fundaron la ciudad en 1548."
+    ],
+    "q": {
+      "q": "¿Qué montaña nevada domina La Paz?",
+      "a": "El Illimani",
+      "x": [
+        "El Aconcagua",
+        "El Chimborazo"
+      ]
+    }
+  },
+  "Q170688": {
+    "t": "La mayor ciudad de Bolivia, trazada en anillos concéntricos",
+    "s": "Santa Cruz de la Sierra no está en los Andes, sino en las tierras bajas, cálidas y llanas al este de ellos, y su plano es inconfundible desde el aire: avenidas de circunvalación, los anillos, rodean la plaza central una dentro de otra como los anillos de un árbol. Hoy es la ciudad más grande de Bolivia. A su alrededor se extienden enormes campos geométricos de soja abiertos en la selva baja.",
+    "w": "Una gran ciudad de anillos viales concéntricos en una llanura verde; un río en su borde oeste; enormes campos rectangulares más allá.",
+    "f": [
+      "Una expedición desde Asunción fundó la ciudad en 1561, en un lugar mucho más al este; se trasladó a su sitio actual más tarde ese siglo.",
+      "A unos 400 m sobre el nivel del mar, está más de 3 km por debajo de La Paz."
+    ],
+    "q": {
+      "q": "¿Qué forma tiene el plano viario de Santa Cruz?",
+      "a": "Anillos concéntricos",
+      "x": [
+        "Un abanico desde el río",
+        "Una cuadrícula estricta"
+      ]
+    }
+  },
+  "Q41211": {
+    "t": "Ciudad amurallada en un islote a la entrada del puerto",
+    "s": "El núcleo colonial de San Juan ocupa un islote estrecho que guarda la entrada de una gran bahía, con sus fuertes de piedra de cara al Atlántico. Los colonos españoles se trasladaron aquí en 1521: es una de las ciudades de fundación europea más antiguas de América. Hacia el este, la ciudad moderna se curva entre playas y lagunas hasta el aeropuerto. Mar adentro, el fondo se hunde en una fosa profunda.",
+    "w": "Un largo islote con fortificaciones en la boca de una amplia bahía; hoteles, lagunas y playas que siguen al este hasta el aeropuerto.",
+    "f": [
+      "Unos 120 km al norte está la fosa de Puerto Rico, la parte más profunda del Atlántico, a más de 8 km.",
+      "Los fuertes y el casco antiguo de San Juan son Patrimonio Mundial de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué hay en las profundidades del mar al norte de San Juan?",
+      "a": "El punto más hondo del Atlántico",
+      "x": [
+        "Una dorsal oceánica",
+        "Un gigantesco agujero azul"
+      ]
+    }
+  },
+  "Q12245": {
+    "t": "Un diminuto pueblo portuario en islas ventosas y sin árboles",
+    "s": "Páramos sin árboles, crestas rocosas bajas y una costa dentada rodean Stanley, un pequeño pueblo en un puerto resguardado de la isla oriental del archipiélago. Las islas son famosas por sus pingüinos: papúa, rey, de penacho amarillo y de Magallanes. Busca tierra adentro vetas claras en las laderas: son «ríos de piedra», corrientes de bloques que dejó la helada de la Edad de Hielo. El pueblo se trazó en la década de 1840.",
+    "w": "Un pequeño pueblo en la orilla sur de un puerto estrecho; páramo desnudo pardo verdoso, crestas rocosas y ríos claros de bloques alrededor.",
+    "f": [
+      "En el puerto y sus alrededores aún yacen cascos de veleros del siglo XIX que llegaron maltrechos tras doblar el cabo de Hornos.",
+      "Las islas no tienen árboles autóctonos, y fuertes vientos las barren casi todo el año."
+    ],
+    "q": {
+      "q": "¿Qué son los «ríos de piedra» que se ven cerca de Stanley?",
+      "a": "Bloques de la Edad de Hielo",
+      "x": [
+        "Viejos muros de piedra",
+        "Coladas de lava"
+      ]
+    }
+  },
+  "Q30985": {
+    "t": "Un anzuelo de islas solo en medio del Atlántico",
+    "s": "Bermudas aparece en medio del Atlántico vacío como un fino anzuelo de islas envuelto en bajíos turquesa y arrecifes de coral, a unos 1000 km de la tierra firme más cercana. Hamilton, la capital desde 1815, está al fondo de un puerto resguardado en el centro. Fíjate en las casas: sus tejados escalonados están pintados de blanco y hechos para recoger el agua de lluvia, la principal fuente de agua dulce de las islas.",
+    "w": "Una cadena curva de islas verdes dentro de un amplio anillo de arrecife turquesa; diminutos tejados blancos por todas partes; un puerto en el centro.",
+    "f": [
+      "Las islas llevan el nombre del navegante español Juan de Bermúdez, que dio con ellas a principios del siglo XVI.",
+      "Bermudas no tiene ríos ni lagos de agua dulce."
+    ],
+    "q": {
+      "q": "¿Por qué los tejados de Bermudas son blancos y escalonados?",
+      "a": "Para recoger agua de lluvia",
+      "x": [
+        "Para desviar los rayos",
+        "Para guiar a los pilotos"
+      ]
+    }
+  },
+  "Q38834": {
+    "t": "Una de las primeras capitales en recibir cada nuevo día",
+    "s": "Nuku’alofa está en la costa norte de Tongatapu, una isla de coral baja y llana rodeada de arrecifes, con una gran laguna somera que la penetra desde el norte. Su nombre significa «morada del amor». Tonga es un reino y uno de los primeros países en recibir cada nuevo día, justo al oeste de la línea de cambio de fecha. El capitán Cook las llamó islas de los Amigos en la década de 1770.",
+    "w": "Una pequeña ciudad en la costa norte de una isla verde y llana; una laguna ancha y somera detrás; arrecifes e islotes en agua turquesa.",
+    "f": [
+      "El Ha’amonga ’a Maui, un trilito de piedra levantado hacia el siglo XIII, está en el extremo oriental de la isla.",
+      "Cerca de tres cuartas partes de los tonganos viven en Tongatapu."
+    ],
+    "q": {
+      "q": "¿Cómo llamó el capitán Cook a las islas de Tonga?",
+      "a": "Las islas de los Amigos",
+      "x": [
+        "Las islas de la Sociedad",
+        "Las islas Sándwich"
+      ]
+    }
+  },
+  "Q36260": {
+    "t": "Donde el calendario se saltó un día entero",
+    "s": "Apia se extiende por la costa norte de Upolu, una frondosa isla volcánica cuyas crestas boscosas se alzan empinadas detrás de la ciudad. Su puerto se abre al mar por un hueco en el arrecife. Samoa estaba antes al otro lado de la línea de cambio de fecha, pero en 2011 se saltó el 30 de diciembre para compartir día con Australia y Nueva Zelanda; ahora está entre los primeros en ver cada nuevo día.",
+    "w": "Una ciudad en una bahía curva de una isla verde y montañosa; una línea blanca de arrecife con un paso para los barcos.",
+    "f": [
+      "Robert Louis Stevenson pasó sus últimos años en Vailima, sobre Apia, y está enterrado en el cercano monte Vaea.",
+      "Upolu y su vecina mayor, Savai’i, son islas volcánicas."
+    ],
+    "q": {
+      "q": "¿Qué escritor pasó sus últimos años en las colinas sobre Apia?",
+      "a": "Robert Louis Stevenson",
+      "x": [
+        "Herman Melville",
+        "Jack London"
+      ]
+    }
+  },
+  "Q2467": {
+    "t": "Bajíos turquesa junto a una fosa oceánica azul profundo",
+    "s": "Alrededor de Nassau, el mar despliega su espectáculo más deslumbrante: turquesa pálido y crema sobre los bajos bancos de las Bahamas y, de pronto, la caída al azul oscuro de la Lengua del Océano, una fosa de más de 1500 m justo al sur de la isla. Nassau bordea la costa norte de Nueva Providencia, frente a Paradise Island, al otro lado del puerto.",
+    "w": "Una pequeña ciudad isleña junto a un puerto estrecho; bajíos turquesa brillante alrededor; un borde brusco de agua profunda y oscura al sur.",
+    "f": [
+      "A principios del siglo XVIII, Nassau fue una famosa guarida de piratas, entre ellos Barbanegra.",
+      "La ciudad recibió su nombre en 1695 en honor del rey Guillermo III, de la casa de Orange-Nassau."
+    ],
+    "q": {
+      "q": "¿Qué es la «Lengua del Océano», cerca de Nassau?",
+      "a": "Una fosa de aguas profundas",
+      "x": [
+        "Un largo arrecife de coral",
+        "Una barra de arena"
+      ]
+    }
   }
 }

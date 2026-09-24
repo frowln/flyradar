@@ -1764,5 +1764,443 @@
         "Le Huascarán"
       ]
     }
+  },
+  "Q804330": {
+    "t": "La cordillère Blanche : la plus vaste glace des tropiques",
+    "s": "La cordillère Blanche porte bien son nom : un mur blanc de glaciers et de pics de glace cannelés, à neuf degrés à peine au sud de l’équateur, qui compte plus de glaciers tropicaux que toute autre chaîne du monde. Son plus haut sommet, le Huascarán, atteint 6 768 m. En contrebas, cherchez les lacs glaciaires turquoise des vallées et la tranchée verte du río Santa à son pied ouest.",
+    "w": "Une ligne de pics de glace cannelés d’un blanc éclatant, avec des lacs turquoise dans les vallées, parallèle à la côte pacifique.",
+    "f": [
+      "Le Huascarán, 6 768 m, est la plus haute montagne du Pérou.",
+      "Le parc national du Huascarán, qui couvre la chaîne, est inscrit au patrimoine mondial de l’UNESCO.",
+      "La géante Puya raimondii, cousine de l’ananas, pousse sur ses pentes ; sa hampe florale peut atteindre environ 10 m."
+    ],
+    "q": {
+      "q": "Quelle est la plus haute montagne du Pérou ?",
+      "a": "Le Huascarán",
+      "x": [
+        "L’Alpamayo",
+        "Le Yerupajá"
+      ]
+    }
+  },
+  "Q4794486": {
+    "t": "Le bras oriental des Andes, tendu vers le Venezuela",
+    "s": "La plus orientale des trois chaînes andines de Colombie porte Bogotá sur son haut plateau, puis se divise près de la frontière vénézuélienne. Un bras, la sierra de Perijá, file vers le nord ; l’autre, les Andes de Mérida, court vers le nord-est à travers le Venezuela. Entre les deux s’étend la vaste nappe bleue du lac Maracaibo : d’en haut, les montagnes semblent la tenir comme une pince.",
+    "w": "Des crêtes accidentées vertes et brunes ; au nord-ouest, la vaste étendue bleue du lac Maracaibo, serrée entre deux bras montagneux.",
+    "f": [
+      "Bogotá s’étend sur un haut plateau de cette chaîne, vers 2 600 m.",
+      "Le pic Bolívar, 4 978 m, dans les Andes de Mérida, est le point culminant du Venezuela.",
+      "Au-dessus de la rive sud-ouest du lac Maracaibo, les orages éclatent plus de cent nuits par an : c’est l’éclair du Catatumbo."
+    ],
+    "q": {
+      "q": "Quel lac s’étend entre les deux bras de cette cordillère ?",
+      "a": "Le lac Maracaibo",
+      "x": [
+        "Le lac Titicaca",
+        "Le lac Nicaragua"
+      ]
+    }
+  },
+  "Q233770": {
+    "t": "Le coin sauvage de l’Australie, face à la Nouvelle-Guinée",
+    "s": "Le cap York est l’un des derniers grands espaces sauvages d’Australie : un long triangle de savane, de forêt claire et de forêt tropicale qui s’avance vers la Nouvelle-Guinée, avec peu de routes goudronnées. D’en haut, cherchez la terre rouge, les rivières tressées qui débordent à la saison des pluies et, au large de la côte est, les hauts-fonds turquoise de la Grande Barrière de corail, tout près du rivage.",
+    "w": "Terre rouge et forêt claire gris-vert entaillées de rivières tressées ; au large de la côte est, les hauts-fonds turquoise de la Grande Barrière.",
+    "f": [
+      "La pointe du cap York est le point le plus septentrional de l’Australie continentale.",
+      "Le détroit de Torrès, large d’environ 150 km, sépare la péninsule de la Nouvelle-Guinée.",
+      "D’immenses termitières, certaines hautes de plusieurs mètres, parsèment la savane."
+    ],
+    "q": {
+      "q": "Quelle île se trouve de l’autre côté du détroit de Torrès ?",
+      "a": "La Nouvelle-Guinée",
+      "x": [
+        "Timor",
+        "La Tasmanie"
+      ]
+    }
+  },
+  "Q7835": {
+    "t": "Un losange de steppe ourlé de montagnes, sur la mer Noire",
+    "s": "La Crimée pend au continent par un étroit col, l’isthme de Perekop, et d’en haut sa silhouette est reconnaissable entre toutes. L’essentiel est une steppe plate et sèche, quadrillée de champs et de lacs salés peu profonds ; le long de la côte sud, les monts de Crimée forment un rebord de falaises calcaires au-dessus de la mer. Au nord-est s’étendent les lagunes peu profondes, parfois rosées, du Sivach.",
+    "w": "Une péninsule en losange, steppe plate et lacs salés, un rebord montagneux le long de la côte sud et des lagunes peu profondes au nord-est.",
+    "f": [
+      "L’isthme de Perekop, qui relie la Crimée au continent, ne mesure qu’environ 7 km à son point le plus étroit.",
+      "Le Roman-Koch, 1 545 m, est le point culminant des monts de Crimée.",
+      "Les lagunes du Sivach sont si salées que, par endroits, leur eau vire au rose à cause des algues."
+    ],
+    "q": {
+      "q": "Comment s’appelle l’étroit col qui relie la Crimée au continent ?",
+      "a": "L’isthme de Perekop",
+      "x": [
+        "Le détroit de Kertch",
+        "La flèche de Touzla"
+      ]
+    }
+  },
+  "Q165608": {
+    "t": "Roche ancienne, toundra et lacs au-delà du cercle arctique",
+    "s": "La presque totalité de la péninsule de Kola se trouve au nord du cercle arctique ; pourtant, grâce au chaud courant nord-atlantique, sa côte nord reste libre de glace toute l’année. Du hublot, c’est une mosaïque ondulée de toundra, de forêt sombre et de lacs innombrables sur certaines des plus vieilles roches d’Europe, avec au milieu les monts Khibiny, nus. Les nuits d’hiver, guettez les aurores boréales.",
+    "w": "Une toundra basse et ondulée et une forêt sombre semées d’innombrables lacs, avec près du centre le massif nu et tabulaire des Khibiny.",
+    "f": [
+      "Mourmansk, sur la côte de Kola, est la plus grande ville au nord du cercle arctique.",
+      "Le forage superprofond de Kola a atteint environ 12,2 km : le trou le plus profond jamais foré.",
+      "Les Khibiny sont riches en apatite, extraite pour fabriquer des engrais."
+    ],
+    "q": {
+      "q": "Quel record détient le forage superprofond de Kola ?",
+      "a": "Le trou le plus profond jamais foré",
+      "x": [
+        "La mine la plus froide du monde",
+        "Le plus vieux tunnel d’Europe"
+      ]
+    }
+  },
+  "Q1394226": {
+    "t": "La pointe sud du Viêt Nam, qui gagne encore sur la mer",
+    "s": "Le Viêt Nam continental s’achève ici en un coin vert et bas de mangroves et de vasières, cerné par la mer sur trois côtés. Depuis l’altitude de croisière, c’est un labyrinthe aquatique : chenaux sinueux, rectangles nets de bassins à crevettes et forêt dense vert sombre. La terre grandit encore : le limon charrié par le Mékong se dépose entre les racines des palétuviers et repousse le rivage vers le large.",
+    "w": "Une pointe de terre basse et verte, dentelée de chenaux, de mangrove sombre et de bassins à crevettes rectangulaires, dans une mer brune et boueuse.",
+    "f": [
+      "Le cap Cà Mau est le point le plus méridional du Viêt Nam continental.",
+      "Ses mangroves sont protégées dans le parc national de Mũi Cà Mau, zone humide d’importance internationale au titre de Ramsar."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui repousse peu à peu le rivage de Cà Mau vers le large ?",
+      "a": "Le limon du Mékong piégé par la mangrove",
+      "x": [
+        "Des coulées de lave",
+        "La croissance des récifs coralliens"
+      ]
+    }
+  },
+  "Q178543": {
+    "t": "Un doigt de désert de 1 200 km entre océan et golfe",
+    "s": "La Basse-Californie file vers le sud sur environ 1 200 km depuis la frontière américaine, fin doigt de désert entre le Pacifique et le golfe de Californie. À 11 km d’altitude, le contraste frappe : montagnes nues et accidentées le long de son échine, plaines piquetées de cactus et, côté golfe, une eau d’un bleu presque irréel. Chaque hiver, les baleines grises viennent mettre bas dans ses lagunes du Pacifique.",
+    "w": "Une longue péninsule désertique et étroite : montagnes brunes et nues, lagunes pâles côté Pacifique et eaux bleu profond du golfe à l’est.",
+    "f": [
+      "Ses lagunes du Pacifique, comme Ojo de Liebre et San Ignacio, comptent parmi les principales zones de reproduction de la baleine grise.",
+      "On surnomme souvent le golfe de Californie « l’aquarium du monde », formule attribuée à Jacques-Yves Cousteau.",
+      "Le golfe s’élargit lentement, car la péninsule se déplace vers le nord-ouest avec la plaque pacifique."
+    ],
+    "q": {
+      "q": "Quelles baleines viennent chaque hiver mettre bas dans ses lagunes du Pacifique ?",
+      "a": "Les baleines grises",
+      "x": [
+        "Les baleines à bosse",
+        "Les baleines bleues"
+      ]
+    }
+  },
+  "Q130978": {
+    "t": "Une dalle de calcaire sans rivières, rien que des cénotes",
+    "s": "Le Yucatán est plat comme une table : une vaste dalle de calcaire couverte d’une forêt verte et basse, presque sans rivières en surface. La pluie s’infiltre directement dans la roche vers des rivières souterraines, qui affleurent dans des gouffres appelés cénotes. À sa pointe nord repose, enfoui, le cratère de Chicxulub, laissé par l’astéroïde qui mit fin à l’ère des dinosaures il y a 66 millions d’années.",
+    "w": "Une forêt verte, basse et plate à perte de vue, sans collines ni rivières ; côte caraïbe turquoise à l’est, villes comme Mérida au nord.",
+    "f": [
+      "Un anneau incurvé de cénotes, au nord de la péninsule, dessine le rebord enfoui du cratère de Chicxulub.",
+      "Calakmul, l’une des plus grandes cités mayas, se cache dans la forêt près de la base sud de la péninsule."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on les gouffres remplis d’eau du Yucatán ?",
+      "a": "Les cénotes",
+      "x": [
+        "Les tepuys",
+        "Les arroyos"
+      ]
+    }
+  },
+  "Q60064": {
+    "t": "Un bras volcanique tendu vers les Aléoutiennes",
+    "s": "La péninsule d’Alaska s’étire sur environ 800 km vers le sud-ouest depuis le continent, bras accidenté de volcans, de lacs et de toundra qui se prolonge par l’archipel des Aléoutiennes. D’en haut, des cônes enneigés se succèdent le long de son échine. À Katmai, en 1912, le Novarupta a produit la plus grande éruption volcanique du XXe siècle, emplissant une vallée de cendres qui ont fumé pendant des années.",
+    "w": "Un long bras étroit de toundra et de grands lacs, avec une échine de volcans enneigés, entre le Pacifique et la baie de Bristol.",
+    "f": [
+      "L’éruption de 1912 a créé la vallée des Dix Mille Fumées, nommée d’après ses innombrables évents fumants.",
+      "Brooks Falls, dans le parc national de Katmai, est célèbre pour ses ours bruns qui attrapent les saumons en plein saut.",
+      "Aniakchak, caldeira d’environ 10 km de diamètre, est l’un des monuments nationaux les moins visités des États-Unis."
+    ],
+    "q": {
+      "q": "Quelle vallée l’éruption du Novarupta a-t-elle créée en 1912 ?",
+      "a": "La vallée des Dix Mille Fumées",
+      "x": [
+        "La vallée de la Mort",
+        "La vallée des Geysers"
+      ]
+    }
+  },
+  "Q812": {
+    "t": "Une péninsule de calcaire basse, gorgée d’eau",
+    "s": "La Floride est l’un des endroits les plus plats des États-Unis — son point culminant n’est qu’à 105 m — et d’en haut elle paraît faite d’autant d’eau que de terre. D’innombrables lacs ronds piquettent le centre, le lac Okeechobee brille au sud comme une pièce, et plus bas les Everglades s’étalent en un vaste fleuve d’herbe au cours lent. De longues îles-barrières sableuses bordent les deux côtes.",
+    "w": "Une terre verte et plate tachetée de lacs ronds, le grand disque du lac Okeechobee et de minces îles-barrières blanches le long des deux côtes.",
+    "f": [
+      "Britton Hill, point culminant de la Floride à 105 m, est le plus bas des points culminants d’État américains.",
+      "Les Everglades sont une mince nappe d’eau qui glisse vers le sud à travers les herbes : on les appelle souvent « la rivière d’herbe ».",
+      "Beaucoup des lacs ronds du centre de la Floride sont des dolines creusées dans le calcaire sous-jacent."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on souvent les Everglades ?",
+      "a": "Une rivière d’herbe",
+      "x": [
+        "Une mer de roseaux",
+        "Une forêt sur l’eau"
+      ]
+    }
+  },
+  "Q213237": {
+    "t": "Une péninsule en fer de hache, nurserie de baleines",
+    "s": "Sur la carte, la péninsule Valdés ressemble à un fer de hache attaché à la côte de Patagonie par un mince manche, l’isthme Carlos Ameghino. Les golfes de part et d’autre, San José et Nuevo, sont des nurseries abritées où les baleines franches australes viennent mettre bas, à peu près de juin à décembre. La terre elle-même est une steppe plate et sèche, avec des salines blanches en son milieu.",
+    "w": "Une péninsule presque carrée de steppe brun pâle sur un col étroit, des golfes abrités de chaque côté, des salines blanches au centre.",
+    "f": [
+      "La péninsule Valdés est inscrite au patrimoine mondial de l’UNESCO pour ses mammifères marins.",
+      "À Punta Norte, les orques s’échouent volontairement pour saisir des bébés otaries sur le rivage."
+    ],
+    "q": {
+      "q": "Quelles baleines viennent mettre bas dans les golfes de Valdés ?",
+      "a": "Les baleines franches australes",
+      "x": [
+        "Les baleines à bosse",
+        "Les cachalots"
+      ]
+    }
+  },
+  "Q858306": {
+    "t": "Le pouce rocheux de la Chine, entre Bohai et mer Jaune",
+    "s": "La péninsule du Shandong s’avance vers l’est comme un pouce entre la mer de Bohai et la mer Jaune, pointée vers la Corée. Du hublot, c’est un patchwork de vergers et de champs sur des collines ondulées, des montagnes de granite près de la côte et un chapelet de ports animés. Qingdao s’étend sur sa rive sud, près de la baie presque fermée de Jiaozhou, franchie par l’un des plus longs ponts maritimes du monde.",
+    "w": "Une péninsule vallonnée de champs et de vergers entre deux mers, avec la baie arrondie de Jiaozhou et Qingdao sur la côte sud.",
+    "f": [
+      "Le Laoshan, montagne de granite près de Qingdao, jaillit de la mer jusqu’à environ 1 130 m et est célèbre pour ses temples taoïstes.",
+      "La célèbre brasserie de Qingdao a été fondée en 1903.",
+      "Le pont de la baie de Jiaozhou court sur environ 26 km au-dessus de l’eau."
+    ],
+    "q": {
+      "q": "Quelle ville se trouve sur la baie de Jiaozhou ?",
+      "a": "Qingdao",
+      "x": [
+        "Dalian",
+        "Tianjin"
+      ]
+    }
+  },
+  "Q131377": {
+    "t": "Des dunes rouges face à un océan froid et brumeux",
+    "s": "Le Namib est peut-être le plus vieux désert de la Terre, sec depuis des dizaines de millions d’années. Dans sa mer de sable centrale, autour de Sossusvlei, les dunes dépassent 300 m et flamboient rouge brique sous un soleil rasant, alignées en rangées qui courent presque jusqu’à l’Atlantique. Le courant océanique froid apporte du brouillard au lieu de pluie, et coléoptères, lézards et plantes survivent en le buvant.",
+    "w": "D’interminables rangées de dunes rouge orangé filant vers la côte, des cuvettes d’argile pâle, et une ligne blanche de ressac et de brouillard.",
+    "f": [
+      "La mer de sable du Namib est inscrite au patrimoine mondial de l’UNESCO.",
+      "À Deadvlei, cuvette d’argile blanche entre les dunes, se dressent des acacias morts il y a des siècles.",
+      "Certains coléoptères inclinent leur dos face au vent pour que les gouttelettes de brouillard roulent jusqu’à leur bouche."
+    ],
+    "q": {
+      "q": "D’où le Namib tire-t-il l’essentiel de son humidité ?",
+      "a": "Du brouillard de l’Atlantique froid",
+      "x": [
+        "Des pluies de mousson d’été",
+        "De la fonte des neiges"
+      ]
+    }
+  },
+  "Q14314106": {
+    "t": "Le grand désert égyptien des oasis et des tours de craie",
+    "s": "À l’ouest du Nil, l’Égypte n’est presque que désert : plaines plates de sable et de pierre coupées de profondes dépressions, où des oasis comme Siwa, Bahariya, Farafra, Dakhla et Kharga puisent une eau souterraine très ancienne. D’en haut, cherchez dans ces bassins les points verts des champs et des palmeraies. Près de Farafra s’étend le Désert blanc, où le vent a sculpté la craie en tours en forme de champignons.",
+    "w": "D’immenses plaines beiges et des escarpements, de profonds bassins aux points verts d’oasis cultivées et, par endroits, un sol de craie d’un blanc éclatant.",
+    "f": [
+      "La dépression de Qattara, au nord, descend à environ 133 m sous le niveau de la mer, l’un des points les plus bas d’Afrique.",
+      "Les oasis puisent dans l’aquifère des grès nubiens, l’une des plus grandes réserves d’eau souterraine fossile de la Terre."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a sculpté les rochers en champignon du Désert blanc ?",
+      "a": "Le vent",
+      "x": [
+        "Des glaciers",
+        "Un ancien fleuve"
+      ]
+    }
+  },
+  "Q464909": {
+    "t": "Le grand coude du Nil dans un désert de pierre",
+    "s": "À l’est du Nil, dans le nord du Soudan, s’étend le désert de Nubie, plaine presque sans pluie de grès et de granite, traversée d’oueds à sec. À 11 km d’altitude, le spectacle le plus saisissant est le Nil lui-même : un mince ruban vert qui serpente à travers le désert en un immense coude en S. Sur ses rives se dressent les pyramides de Méroé et des autres royaumes anciens de Nubie.",
+    "w": "Une plaine pierreuse, plate et pâle, collines sombres et oueds secs ; à l’ouest, le ruban vert du Nil qui serpente en un grand coude.",
+    "f": [
+      "Le Soudan compte plus de pyramides que l’Égypte, dont beaucoup à Méroé.",
+      "Le chemin de fer de Wadi Halfa à Abou Hamed, construit à la fin des années 1890, traverse le désert presque en ligne droite."
+    ],
+    "q": {
+      "q": "Quelle cité nubienne antique est célèbre pour ses pyramides pentues ?",
+      "a": "Méroé",
+      "x": [
+        "Aksoum",
+        "Carthage"
+      ]
+    }
+  },
+  "Q326896": {
+    "t": "Dunes rouges parallèles à l’infini, au nord-ouest australien",
+    "s": "Vu d’avion, le Grand Désert de sable semble peigné : de longues dunes rouges rectilignes courent côte à côte sur des centaines de kilomètres, séparées par des couloirs d’herbe pâle, le spinifex. C’est l’une des régions les plus vides d’Australie, habitée surtout par des communautés aborigènes. Près de son bord nord se trouve le cratère de Wolfe Creek, un anneau presque parfait d’environ 900 m de diamètre.",
+    "w": "De longues crêtes de dunes rouges, droites et parallèles, du spinifex gris-vert pâle entre elles, et çà et là un lac salé blanc.",
+    "f": [
+      "Le cratère de Wolfe Creek est l’un des cratères de météorite les mieux conservés de la Terre.",
+      "Les dunes australiennes s’alignent sur les vents dominants et forment un tourbillon géant autour du centre du continent."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a formé le cratère de Wolfe Creek ?",
+      "a": "L’impact d’une météorite",
+      "x": [
+        "Une éruption volcanique",
+        "L’effondrement d’une grotte"
+      ]
+    }
+  },
+  "Q145165": {
+    "t": "Le plus grand désert d’Australie, sable rouge et broussaille",
+    "s": "Le plus grand désert d’Australie couvre quelque 350 000 km², plus que l’Italie. Il est pourtant loin d’être nu : d’en haut, ses dunes et ses collines de sable rouge sont mouchetées de spinifex gris-vert, de mulga et d’eucalyptus mallee. Des lacs salés d’un blanc éblouissant marquent ses bords, et au sud la terre s’aplatit en plaine du Nullarbor, sans un arbre.",
+    "w": "Des crêtes de sable rouge mouchetées de broussailles gris-vert, des lacs salés blancs épars et, au sud, une plaine plate sans arbres.",
+    "f": [
+      "L’explorateur Ernest Giles l’a baptisé en 1875 en l’honneur de la reine Victoria.",
+      "Le peuple anangu pitjantjatjara vit dans ce désert et ses alentours depuis des milliers d’années."
+    ],
+    "q": {
+      "q": "Quel est le plus grand désert d’Australie ?",
+      "a": "Le Grand Désert Victoria",
+      "x": [
+        "Le désert de Simpson",
+        "Le désert de Tanami"
+      ]
+    }
+  },
+  "Q172691": {
+    "t": "Le Grand Désert indien, étonnamment peuplé",
+    "s": "Le Thar, ou Grand Désert indien, s’étend sur le Rajasthan et déborde au Pakistan : un pays de dunes ridées par le vent, de broussailles épineuses et de villages épars. C’est l’un des déserts les plus densément peuplés du monde. Cherchez la longue ligne verte du canal Indira Gandhi qui tranche le sable et apporte l’eau des fleuves himalayens à de nouveaux champs.",
+    "w": "Des dunes fauves et des broussailles piquetées de villages, et un couloir vert et rectiligne de canal et de champs qui traverse le sable.",
+    "f": [
+      "Jaisalmer, la « Ville dorée », est bâtie en grès jaune et s’élève du désert autour d’un fort perché sur une colline.",
+      "Le canal Indira Gandhi, l’un des plus longs d’Inde, amène dans le désert l’eau de la Sutlej et de la Beas."
+    ],
+    "q": {
+      "q": "Quelle ville du Thar surnomme-t-on la Ville dorée ?",
+      "a": "Jaisalmer",
+      "x": [
+        "Jaipur",
+        "Udaipur"
+      ]
+    }
+  },
+  "Q339162": {
+    "t": "Une vaste plaine pierreuse entre le Levant et l’Euphrate",
+    "s": "Entre la côte verte du Levant et la vallée de l’Euphrate s’étend le désert de Syrie, vaste plaine de gravier et de basalte plutôt que de sable. D’en haut, il est plat et beige, traversé de routes rectilignes, avec au sud-ouest des champs de lave sombres. Pendant des millénaires, les caravanes l’ont traversé entre la Méditerranée et la Mésopotamie, faisant halte à l’oasis de Palmyre.",
+    "w": "Une plaine beige, plate et sans relief, des routes droites et des oueds secs, et des taches sombres de champs de lave basaltique au sud-ouest.",
+    "f": [
+      "Le champ de basalte du Harrat al-Sham, au sud-ouest, est l’un des plus grands champs volcaniques du Moyen-Orient.",
+      "Les « cerfs-volants du désert », immenses pièges à gazelles aux murets de pierre, ont été repérés par des pilotes dans les années 1920."
+    ],
+    "q": {
+      "q": "Quelle cité caravanière antique a grandi dans une oasis du désert de Syrie ?",
+      "a": "Palmyre",
+      "x": [
+        "Pétra",
+        "Byblos"
+      ]
+    }
+  },
+  "Q172702": {
+    "t": "Les Sables noirs et un cratère en feu depuis des décennies",
+    "s": "Karakoum signifie « sables noirs », même si d’en haut ses dunes paraissent gris fauve, tenues par le saxaoul et les herbes. Le désert couvre l’essentiel du Turkménistan. Près de Darvaza, un cratère de gaz d’environ 70 m de large brûle depuis des décennies, et la nuit sa lueur orange est saisissante. Au sud court le long fil vert du canal du Karakoum.",
+    "w": "Des dunes gris fauve tenues par les broussailles, le canal vert du Karakoum au sud et, la nuit, une petite lueur orange près de Darvaza.",
+    "f": [
+      "Long de plus de 1 000 km, le canal du Karakoum mène l’eau de l’Amou-Daria à travers le désert : l’un des plus longs canaux d’irrigation.",
+      "Le Karakoum couvre environ 70 % du Turkménistan."
+    ],
+    "q": {
+      "q": "Que signifie le nom Karakoum ?",
+      "a": "Sables noirs",
+      "x": [
+        "Sables rouges",
+        "Rivière sèche"
+      ]
+    }
+  },
+  "Q184364": {
+    "t": "Les Sables rouges, entre deux grands fleuves d’Asie",
+    "s": "Kyzylkoum signifie « sables rouges », et ce désert occupe les terres entre l’Amou-Daria et le Syr-Daria, les deux fleuves qui nourrissaient autrefois la mer d’Aral. Du hublot, c’est une plaine beige rougeâtre de dunes et de broussailles, rompue de collines rocheuses nues et de salines. Ici se trouve aussi Mouruntau, l’une des plus grandes mines d’or à ciel ouvert du monde : un énorme trou gris bien visible d’avion.",
+    "w": "Des dunes et des broussailles beige rougeâtre, des collines rocheuses nues, des salines blanches et, par endroits, l’immense fosse grise en gradins de Mouruntau.",
+    "f": [
+      "La fosse de la mine d’or de Mouruntau mesure plus de 3 km de long et des centaines de mètres de profondeur.",
+      "Depuis les années 1960, la mer d’Aral, au nord-ouest, a fondu de façon spectaculaire : l’eau des fleuves est prélevée pour l’irrigation."
+    ],
+    "q": {
+      "q": "Que signifie le nom Kyzylkoum ?",
+      "a": "Sables rouges",
+      "x": [
+        "Sables noirs",
+        "Steppe de la Faim"
+      ]
+    }
+  },
+  "Q47141": {
+    "t": "Le lieu le plus sec hors des pôles, sous un ciel de cristal",
+    "s": "Certaines stations météo de l’Atacama n’ont jamais enregistré de pluie. Depuis l’altitude de croisière, c’est un paysage lunaire de salars, de chaînes brunes et nues et de volcans aux teintes pastel, avec les Andes d’un côté et le Pacifique froid de l’autre. L’air y est si sec et si limpide qu’on a bâti sur ses sommets certains des plus grands télescopes du monde.",
+    "w": "Des chaînes nues brunes et ocre, des salars blancs comme le salar d’Atacama, et des volcans enneigés sur l’horizon est.",
+    "f": [
+      "Le salar d’Atacama est le plus grand salar du Chili et l’une des principales sources mondiales de lithium.",
+      "La NASA a testé des rovers martiens dans l’Atacama, dont le sol ressemble beaucoup à celui de Mars.",
+      "ALMA, un réseau géant de radiotélescopes, se dresse sur un plateau vers 5 000 m."
+    ],
+    "q": {
+      "q": "Quel métal extrait-on massivement du salar d’Atacama ?",
+      "a": "Le lithium",
+      "x": [
+        "L’étain",
+        "L’argent"
+      ]
+    }
+  },
+  "Q392250": {
+    "t": "La taille fine du Mexique, où le vent file entre deux océans",
+    "s": "Ici, le Mexique se resserre à la taille : 200 km de terre à peine séparent l’Atlantique du Pacifique. Les montagnes s’abaissent en une large trouée, et en hiver de forts vents du nord, les Tehuanos, s’y engouffrent et débouchent sur le Pacifique, soulevant la mer sur des centaines de kilomètres au large. Près de la côte pacifique brillent, argentées, de larges lagunes peu profondes.",
+    "w": "Un étroit pont de terre aux collines basses en son milieu, des basses terres vertes au nord, plaines sèches et lagunes côté Pacifique.",
+    "f": [
+      "Les vents Tehuanos peuvent dépasser 100 km/h et se font sentir loin au-dessus du Pacifique.",
+      "Un chemin de fer relie les deux côtes à travers l’isthme depuis 1907.",
+      "On considère souvent l’isthme comme la limite géographique entre l’Amérique du Nord et l’Amérique centrale."
+    ],
+    "q": {
+      "q": "Quelle est la largeur approximative de l’isthme de Tehuantepec ?",
+      "a": "Environ 200 km",
+      "x": [
+        "Environ 50 km",
+        "Environ 600 km"
+      ]
+    }
+  },
+  "Q182139": {
+    "t": "Le pont de terre qui a uni deux continents",
+    "s": "Cette mince bande de terre en S relie deux continents et sépare deux océans. Quand elle a émergé de la mer, il y a environ 3 millions d’années, les animaux sont passés d’une Amérique à l’autre et les courants océaniques ont changé de route. À l’ouest, le canal de Panama la tranche ; à l’est, la forêt du Darién est si sauvage que la route panaméricaine s’arrête à sa lisière.",
+    "w": "Une bande verte, étroite et sinueuse entre deux mers : forêt continue à l’est, canal et lac Gatún à l’ouest.",
+    "f": [
+      "Le canal de Panama, ouvert en 1914, mesure environ 80 km.",
+      "Le bouchon du Darién est la seule interruption de la route panaméricaine entre l’Alaska et l’extrême sud de l’Amérique du Sud.",
+      "L’isthme étant courbé, le canal va de l’Atlantique, au nord-ouest, au Pacifique, au sud-est."
+    ],
+    "q": {
+      "q": "En quelle année le canal de Panama a-t-il ouvert ?",
+      "a": "1914",
+      "x": [
+        "1869",
+        "1936"
+      ]
+    }
+  },
+  "Q322356": {
+    "t": "Le cou le plus fin de la péninsule Malaise, entre deux mers",
+    "s": "À l’isthme de Kra, la péninsule Malaise se pince à son plus étroit, environ 44 km, avec la mer d’Andaman à l’ouest et le golfe de Thaïlande à l’est. À 11 km d’altitude, vous verrez peut-être les deux côtes à la fois : estuaires frangés de mangrove d’un côté, longues plages de sable de l’autre, et entre les deux des plantations d’hévéas et de palmiers à huile. Depuis des siècles, on rêve d’y percer un canal.",
+    "w": "Un cou étroit de collines vertes et de plantations, la mer visible des deux côtés, et l’estuaire de la Kra à l’ouest.",
+    "f": [
+      "Un canal à travers l’isthme de Kra est proposé depuis au moins le XVIIe siècle, mais n’a jamais été construit.",
+      "À son point le plus étroit, la rivière Kraburi forme une partie de la frontière entre la Thaïlande et le Myanmar."
+    ],
+    "q": {
+      "q": "Quelle est la largeur de l’isthme de Kra à son point le plus étroit ?",
+      "a": "Environ 44 km",
+      "x": [
+        "Environ 4 km",
+        "Environ 140 km"
+      ]
+    }
   }
 }

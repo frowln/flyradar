@@ -2783,5 +2783,364 @@
         "Erste Dampferfahrt nach Europa"
       ]
     }
+  },
+  "Q3335210": {
+    "t": "Labradors nördlichster Ort, zwischen Inseln und Fjorden",
+    "s": "Hunderte felsige Inseln und lange Fjorde zerteilen Labradors raue Nordküste rund um Nain, und das Meereis hält sich bis weit in den Frühling. Der Ort liegt an einer geschützten Bucht; Herrnhuter Missionare gründeten hier 1771 eine Mission. Nain ist die nördlichste dauerhaft bewohnte Gemeinde Labradors und das Tor zu den Torngat Mountains weiter im Norden.",
+    "w": "Eine kleine Siedlung an einer Bucht hinter einem Labyrinth felsiger Inseln; kahle, runde Hügel und Fjorde; einen Großteil des Jahres Meereis.",
+    "f": [
+      "Labradorit, ein Stein, der blau und grün aufblitzt, wurde um 1770 erstmals von Paul’s Island bei Nain beschrieben.",
+      "Nain ist das Verwaltungszentrum von Nunatsiavut, der Inuit-Region Labradors."
+    ],
+    "q": {
+      "q": "Welches schillernde Mineral wurde erstmals bei Nain beschrieben?",
+      "a": "Labradorit",
+      "x": [
+        "Mondstein",
+        "Opal"
+      ]
+    }
+  },
+  "Q2127": {
+    "t": "Eine kleine Hauptstadt auf einer Insel ziegelroter Felder",
+    "s": "Das Erste, was auf Prince Edward Island auffällt, ist die Farbe des Landes: Leuchtend ziegelroter Boden zeigt sich in gepflügten Feldern und entlang der Klippen und Strände. Charlottetown liegt in der Mitte der Insel, an einem Hafen, wo drei kleine Flüsse zusammentreffen. 1864 brachte eine Konferenz hier den Zusammenschluss der Provinzen auf den Weg, aus dem Kanada wurde.",
+    "w": "Eine kleine Stadt an einem verzweigten Hafen; eine Steppdecke aus grünen und rotbraunen Feldern; rote Klippen an der Inselküste.",
+    "f": [
+      "Die rote Farbe stammt von Eisenoxid – Rost – im Sandstein und Boden der Insel.",
+      "Die Confederation Bridge, rund 12,9 km lang, ist die längste Brücke der Welt über eisbedecktem Wasser.",
+      "Die Stadt wurde nach Königin Charlotte benannt, der Frau von König Georg III."
+    ],
+    "q": {
+      "q": "Warum ist der Boden von Prince Edward Island so rot?",
+      "a": "Wegen Eisenoxid",
+      "x": [
+        "Wegen Vulkanasche",
+        "Wegen zermahlener Korallen"
+      ]
+    }
+  },
+  "Q923541": {
+    "t": "Ein patagonischer Hafen an einem ertrunkenen Flusstal",
+    "s": "An Argentiniens windgepeitschter Patagonienküste hat das Meer ein altes Flusstal geflutet und eine lange, schmale Ria gebildet, die rund 40 km landeinwärts reicht; an ihrer Mündung liegt Puerto Deseado. Ihre Klippen und Inselchen wimmeln von Seevögeln, Seelöwen und Pinguinen. Der englische Seefahrer Thomas Cavendish benannte den Hafen 1586 nach seinem Schiff, der „Desire“.",
+    "w": "Eine kleine Stadt an der Mündung eines langen, schmalen Meeresarms in kahlem, gelbbraunem Plateau; felsige Inselchen vor der Küste.",
+    "f": [
+      "Charles Darwin erkundete die Ria 1833 während der Reise der Beagle.",
+      "Felsenpinguine nisten auf der Isla Pingüino, ein Stück die Küste hinunter im Süden."
+    ],
+    "q": {
+      "q": "Welches Schiff gab Puerto Deseado seinen Namen?",
+      "a": "Die „Desire“ von Thomas Cavendish",
+      "x": [
+        "Magellans „Victoria“",
+        "Darwins „Beagle“"
+      ]
+    }
+  },
+  "Q44242": {
+    "t": "Eine windige Steppenhauptstadt an einer Gezeitenmündung",
+    "s": "Río Gallegos liegt am Südufer einer weiten Mündung nahe der Südspitze Argentiniens, umgeben von flacher, baumloser patagonischer Steppe. Seine Gezeiten gehören zu den höchsten an der argentinischen Küste, und bei Niedrigwasser tauchen riesige graue Watten auf, auf denen Zugvögel Nahrung suchen. Der 1885 gegründete Ort wuchs als Hafen für die Wolle der riesigen Schaffarmen ringsum.",
+    "w": "Eine flache Stadt an einer breiten Mündung mit weiten Watten; ringsum flache, gelbbraune Steppe bis zum Horizont.",
+    "f": [
+      "Sie ist die Hauptstadt von Santa Cruz, einer der größten und am dünnsten besiedelten Provinzen Argentiniens.",
+      "Starke Westwinde fegen einen Großteil des Jahres über die Steppe."
+    ],
+    "q": {
+      "q": "Was machte die Region um Río Gallegos im späten 19. Jahrhundert reich?",
+      "a": "Die Schafzucht",
+      "x": [
+        "Der Silberbergbau",
+        "Das Zuckerrohr"
+      ]
+    }
+  },
+  "Q221921": {
+    "t": "Eine Ölstadt, geboren aus einer Suche nach Wasser",
+    "s": "Comodoro Rivadavia ist eingezwängt zwischen dem Golf von San Jorge und den steilen Hängen des Cerro Chenque, eines Tafelbergs über dem Zentrum. 1907 bohrten Arbeiter in diesem ausgedörrten Winkel Patagoniens nach Trinkwasser und stießen stattdessen auf Öl – der Ort wurde zu Argentiniens erstem großen Ölzentrum. Unablässige Winde fegen über die Steppe und drehen heute Reihen von Windrädern.",
+    "w": "Eine Stadt entlang eines weiten Golfs unter kahlen Tafelhügeln; dahinter Ölpumpen verstreut über die braune Steppe.",
+    "f": [
+      "Der Ort wurde 1901 gegründet und nach dem Marineoffizier Martín Rivadavia benannt.",
+      "Der Golf von San Jorge ist eine der größten Buchten an Argentiniens Atlantikküste."
+    ],
+    "q": {
+      "q": "Wonach suchten die Bohrarbeiter, als sie hier 1907 auf Öl stießen?",
+      "a": "Nach Wasser",
+      "x": [
+        "Nach Gold",
+        "Nach Kohle"
+      ]
+    }
+  },
+  "Q44237": {
+    "t": "Eine grüne Weinoase unter den hohen Anden",
+    "s": "Mendoza ist eine Oase: Das Land ringsum ist Halbwüste, doch Stadt und Weinberge sind grün dank Bewässerungskanälen, die das Schmelzwasser der Anden speist – ein System, das das Volk der Huarpe begann, lange bevor die Spanier die Stadt 1561 gründeten. Im Westen steigen die Anden als gewaltige Wand auf, und der Aconcagua, der höchste Gipfel außerhalb Asiens, steht rund 110 km entfernt.",
+    "w": "Eine große grüne Stadt und ein Flickenteppich aus Weinbergen auf trockener Ebene am Fuß einer hoch aufragenden, schneegestreiften Bergwand.",
+    "f": [
+      "Die Region Mendoza erzeugt den größten Teil des argentinischen Weins und ist besonders für Malbec berühmt.",
+      "Die Straßen sind von offenen Bewässerungsgräben gesäumt, den Acequias, die die Bäume tränken."
+    ],
+    "q": {
+      "q": "Für welche Rebsorte ist Mendoza am berühmtesten?",
+      "a": "Malbec",
+      "x": [
+        "Spätburgunder",
+        "Riesling"
+      ]
+    }
+  },
+  "Q2907": {
+    "t": "Boliviens weiße Kolonialhauptstadt mit Dinosaurierwand",
+    "s": "Weiß getünchte Mauern und rote Ziegeldächer heben Sucre aus den trockenen, welligen Hügeln ringsum heraus, auf rund 2.800 m Höhe. Es ist die verfassungsmäßige Hauptstadt Boliviens, auch wenn die Regierung in La Paz sitzt, und hier wurde 1825 die Unabhängigkeit Boliviens ausgerufen. Am Stadtrand ist eine Steinbruchwand namens Cal Orck’o mit Tausenden Dinosaurierspuren bedeckt.",
+    "w": "Eine kompakte Stadt aus hellen Gebäuden und roten Dächern in einer Schüssel brauner Hügel; ringsum erodierte Täler.",
+    "f": [
+      "Cal Orck’o birgt auf einer fast senkrechten Kalksteinwand eine der größten Sammlungen von Dinosaurierspuren der Welt.",
+      "Die 1538 gegründete Stadt trug mehrere Namen, darunter La Plata und Chuquisaca."
+    ],
+    "q": {
+      "q": "Was bedeckt die Felswand Cal Orck’o bei Sucre?",
+      "a": "Dinosaurierspuren",
+      "x": [
+        "Inka-Felsmalereien",
+        "Silberadern"
+      ]
+    }
+  },
+  "Q941357": {
+    "t": "Paranuss-Hauptstadt am Treffpunkt zweier Dschungelflüsse",
+    "s": "Riberalta steht auf einem hohen Ufer, wo der Madre de Dios in den Beni mündet, tief in den Tieflandwäldern Nordboliviens. Von oben winden sich beide Flüsse in weiten braunen Schleifen und hinterlassen sichelförmige Seen. Der Ort wurde 1894 während des Kautschukbooms gegründet und lebt heute großteils von Paranüssen, die wild im umliegenden Wald gesammelt werden.",
+    "w": "Eine kleine Stadt an einem Ufer, wo zwei breite, mäandernde braune Flüsse zusammentreffen; ringsum Altwasserseen und dichter Wald.",
+    "f": [
+      "Bolivien ist der weltgrößte Exporteur von Paranüssen, und ein Großteil der Verarbeitung findet in Riberalta statt.",
+      "Paranüsse wachsen an riesigen wilden Bäumen, die in Plantagen selten gedeihen."
+    ],
+    "q": {
+      "q": "Welche Nuss wird in Riberalta in riesigen Mengen verarbeitet?",
+      "a": "Die Paranuss",
+      "x": [
+        "Die Cashewnuss",
+        "Die Macadamianuss"
+      ]
+    }
+  },
+  "Q54108": {
+    "t": "Die „Weiße Bucht“, ein Labyrinth aus Prielen und Salz",
+    "s": "Am Ende einer weiten Mündung winden sich Priele durch Salzmarschen und Watten; frühe Seefahrer nannten den Ort „Weiße Bucht“ nach den Salzkrusten, die am Ufer glitzerten. Bahía Blanca begann 1828 als Grenzfort und wurde zu einem der wichtigsten Tiefwasserhäfen Argentiniens, der Getreide aus der Pampa verschifft. Im Norden erhebt sich die niedrige Sierra de la Ventana.",
+    "w": "Eine Stadt an einer riesigen Mündung voller gewundener Priele und heller Flächen; Docks und Industrie am Ufer; landeinwärts flaches Farmland.",
+    "f": [
+      "1832 grub Charles Darwin in Punta Alta an dieser Bucht Fossilien riesiger ausgestorbener Säugetiere aus.",
+      "Der Cerro Tres Picos in der Sierra de la Ventana ist der höchste Punkt der Provinz Buenos Aires."
+    ],
+    "q": {
+      "q": "Woher stammt der Name Bahía Blanca, „Weiße Bucht“?",
+      "a": "Von Salzkrusten am Ufer",
+      "x": [
+        "Von weißen Sanddünen",
+        "Von Kreidefelsen"
+      ]
+    }
+  },
+  "Q52607": {
+    "t": "Argentiniens Strandstadt, wo die Pampa das Meer erreicht",
+    "s": "In Mar del Plata erreicht die endlos flache Pampa endlich den Atlantik, und hier wird die Küste felsig, mit niedrigen Klippen und Landzungen zwischen langen Sandstränden. Der 1874 gegründete Ort wurde zum Sommerspielplatz von Buenos Aires, und im Januar schwillt die Einwohnerzahl gewaltig an. Achten Sie auf die langen Molen des Hafens, Heimat einer Seelöwenkolonie.",
+    "w": "Eine große Küstenstadt, geschwungen entlang Stränden und Felsspitzen; ein Hafen mit langen Molen; landeinwärts flaches grünes Farmland.",
+    "f": [
+      "Eine Kolonie Südamerikanischer Seelöwen lebt mitten im Fischereihafen.",
+      "Buenos Aires liegt rund 400 km nordwestlich."
+    ],
+    "q": {
+      "q": "Welche Tiere leben in einer Kolonie mitten im Hafen von Mar del Plata?",
+      "a": "Seelöwen",
+      "x": [
+        "Flamingos",
+        "Pelikane"
+      ]
+    }
+  },
+  "Q44210": {
+    "t": "Argentiniens zweite Stadt, wo Ebene auf Sierras trifft",
+    "s": "Córdoba erstreckt sich am Río Suquía, wo die flache Pampa in die Sierras de Córdoba übergeht, eine Kette runder Granithügel im Westen. Die 1573 gegründete Stadt wurde zu einem Zentrum der Gelehrsamkeit: Ihre Universität, 1613 von Jesuiten gegründet, ist die älteste Argentiniens. Die Jesuitenbauten im Zentrum und ihre Estancias in den Hügeln sind Welterbe.",
+    "w": "Eine große Stadt auf einer Ebene, dicht im Westen steigen Hügel auf; ein Fluss windet sich durch das Zentrum.",
+    "f": [
+      "Der Cerro Champaquí, höchster Gipfel der Sierras, erreicht rund 2.790 m.",
+      "Mar Chiquita, Argentiniens größter Salzsee, liegt rund 170 km nordöstlich."
+    ],
+    "q": {
+      "q": "Welche ist die älteste Universität Argentiniens?",
+      "a": "Die Universität Córdoba",
+      "x": [
+        "Die Universität Buenos Aires",
+        "Die Universität La Plata"
+      ]
+    }
+  },
+  "Q44238": {
+    "t": "Eine Flussstadt auf roter Erde, gegenüber Paraguay",
+    "s": "Jenseits des breiten Paraná liegt gegenüber von Posadas Encarnación in Paraguay, mit ihr durch eine lange Brücke verbunden; ein Damm flussabwärts hat den Fluss zu einer seeartigen Fläche geweitet. Der Boden der Provinz Misiones ist verblüffend ziegelrot und zeigt sich an Straßenrändern und Feldern zwischen Waldflecken und Mate-Plantagen.",
+    "w": "Eine Stadt an einem sehr breiten Fluss, gegenüber eine andere Stadt, verbunden durch eine lange Brücke; ringsum rote Erde, grüne Felder und Wald.",
+    "f": [
+      "Der Yacyretá-Damm flussabwärts hob den Fluss an und weitete ihn zu einem Stausee.",
+      "Die Ruinen von San Ignacio Miní, einer Jesuitenmission des 17. und 18. Jahrhunderts, stehen rund 60 km östlich."
+    ],
+    "q": {
+      "q": "Welche paraguayische Stadt liegt Posadas am Paraná gegenüber?",
+      "a": "Encarnación",
+      "x": [
+        "Ciudad del Este",
+        "Pilar"
+      ]
+    }
+  },
+  "Q3043": {
+    "t": "Kleine Planhauptstadt im Dschungel von Belize",
+    "s": "Einmal geblinzelt, und Sie verpassen Belmopan, eine der kleinsten Hauptstädte der Welt: ein ordentlicher Ort im grünen, welligen Land des Belize-River-Tals. Er wurde in den 1960er-Jahren rund 80 km landeinwärts gebaut, als Ersatz für das tief liegende Belize City, das Karibik-Hurrikanen ausgesetzt ist; 1970 zog die Regierung hierher. Im Süden erheben sich die bewaldeten Maya Mountains.",
+    "w": "Eine kleine, flache Stadt zwischen grünen Hügeln und Wald nahe einem gewundenen Fluss; im Süden dunkle, bewaldete Berge.",
+    "f": [
+      "Vor der Küste liegt das Belize Barrier Reef, Teil des zweitgrößten Riffsystems der Welt.",
+      "Der Name verbindet „Belize“ und „Mopan“, zwei Flüsse des Landes."
+    ],
+    "q": {
+      "q": "Warum wurde Belmopan fern der Küste gebaut?",
+      "a": "Zum Schutz vor Hurrikanen",
+      "x": [
+        "Um näher an den Ölfeldern zu sein",
+        "Um die Grenze zu bewachen"
+      ]
+    }
+  },
+  "Q1491": {
+    "t": "Der höchste Regierungssitz der Welt, in einem Canyon",
+    "s": "La Paz ist in einen tiefen Canyon gegossen, der in den Rand des Altiplano geschnitten ist; seine Häuser ergießen sich vom Rand in rund 4.000 m Höhe hinab zu einem Talboden, der mehrere Hundert Meter tiefer liegt. Oben auf der flachen Hochebene breitet sich El Alto aus, mit einem der höchstgelegenen internationalen Flughäfen der Welt. Über allem erheben sich im Südosten die drei Schneegipfel des Illimani, rund 6.440 m hoch.",
+    "w": "Eine Stadt in einem tiefen, verzweigten Canyon unter einer flachen, hohen Ebene; eine weitere Stadt am Rand; im Südosten ein dreigipfliger Schneeberg.",
+    "f": [
+      "Mit rund 3.600 m ist La Paz der höchstgelegene Regierungssitz der Welt.",
+      "Der Titicacasee liegt rund 60 km nordwestlich jenseits des Altiplano.",
+      "Die Spanier gründeten die Stadt 1548."
+    ],
+    "q": {
+      "q": "Welcher Schneeberg überragt La Paz?",
+      "a": "Der Illimani",
+      "x": [
+        "Der Aconcagua",
+        "Der Chimborazo"
+      ]
+    }
+  },
+  "Q170688": {
+    "t": "Boliviens größte Stadt, angelegt in konzentrischen Ringen",
+    "s": "Santa Cruz de la Sierra liegt nicht in den Anden, sondern im heißen, flachen Tiefland östlich davon, und ihr Grundriss ist aus der Luft unverkennbar: Ringstraßen, die Anillos, umkreisen den zentralen Platz einer im anderen wie die Jahresringe eines Baumes. Heute ist sie die größte Stadt Boliviens. Ringsum erstrecken sich riesige, geometrische Sojafelder, dem Tieflandwald abgerungen.",
+    "w": "Eine große Stadt aus konzentrischen Ringstraßen auf einer flachen grünen Ebene; ein Fluss am Westrand; dahinter riesige rechteckige Felder.",
+    "f": [
+      "Eine Expedition aus Asunción gründete die Stadt 1561 weit im Osten; noch im selben Jahrhundert zog sie an ihren heutigen Platz.",
+      "Mit rund 400 m über dem Meer liegt sie mehr als 3 km tiefer als La Paz."
+    ],
+    "q": {
+      "q": "Welche Form hat das Straßennetz von Santa Cruz?",
+      "a": "Konzentrische Ringe",
+      "x": [
+        "Ein Fächer vom Fluss aus",
+        "Ein strenges Raster"
+      ]
+    }
+  },
+  "Q41211": {
+    "t": "Alte Festungsstadt auf einem Inselchen an der Hafeneinfahrt",
+    "s": "San Juans kolonialer Kern liegt auf einem schmalen Inselchen, das die Einfahrt zu einer großen Bucht bewacht, seine Steinforts dem offenen Atlantik zugewandt. Spanische Siedler zogen 1521 hierher – damit ist sie eine der ältesten von Europäern gegründeten Städte Amerikas. Nach Osten schwingt sich die moderne Stadt an Stränden und Lagunen entlang bis zum Flughafen. Vor der Küste fällt der Meeresboden in einen tiefen Graben ab.",
+    "w": "Ein langes Inselchen mit Befestigungen an der Einfahrt einer weiten Bucht; Hotels, Lagunen und Strände ziehen sich nach Osten zum Flughafen.",
+    "f": [
+      "Rund 120 km nördlich liegt der Puerto-Rico-Graben, der tiefste Teil des Atlantiks, mehr als 8 km tief.",
+      "Die Festungen und die Altstadt von San Juan sind UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Was liegt tief unter dem Meer nördlich von San Juan?",
+      "a": "Der tiefste Punkt des Atlantiks",
+      "x": [
+        "Ein mittelozeanischer Rücken",
+        "Ein riesiges Blue Hole"
+      ]
+    }
+  },
+  "Q12245": {
+    "t": "Ein winziger Hafenort auf baumlosen, windigen Inseln",
+    "s": "Baumloses Moorland, niedrige Felsrücken und eine zerklüftete Küste umgeben Stanley, einen kleinen Ort an einem geschützten Hafen auf East Falkland. Die Inseln sind berühmt für ihre Pinguine: Esels-, Königs-, Felsen- und Magellanpinguine. Achten Sie landeinwärts auf helle Streifen an den Hängen – „Stone Runs“, Ströme aus Felsblöcken, die der eiszeitliche Frost hinterließ. Der Ort wurde in den 1840er-Jahren angelegt.",
+    "w": "Eine kleine Stadt am Südufer eines schmalen Hafens; ringsum kahles grünbraunes Moorland, Felsrücken und helle Blockströme.",
+    "f": [
+      "Wracks von Segelschiffen des 19. Jahrhunderts, die sich nach der Kap-Hoorn-Umrundung hierherschleppten, liegen noch im und am Hafen.",
+      "Die Inseln haben keine einheimischen Bäume, und starke Winde fegen den Großteil des Jahres über sie."
+    ],
+    "q": {
+      "q": "Was sind die „Stone Runs“ bei Stanley?",
+      "a": "Eiszeitliche Blockströme",
+      "x": [
+        "Alte Steinmauern",
+        "Lavaströme"
+      ]
+    }
+  },
+  "Q30985": {
+    "t": "Ein Angelhaken aus Inseln, allein im Atlantik",
+    "s": "Bermuda taucht aus dem leeren Atlantik auf als dünner Angelhaken aus Inseln, umhüllt von türkisem Flachwasser und Korallenriffen, rund 1.000 km vom nächsten Festland entfernt. Hamilton, seit 1815 die Hauptstadt, liegt am Ende eines geschützten Hafens in der Mitte. Schauen Sie genau auf die Häuser: Ihre gestuften Dächer sind weiß gestrichen und so gebaut, dass sie Regenwasser auffangen, die wichtigste Süßwasserquelle der Inseln.",
+    "w": "Eine geschwungene Kette grüner Inseln in einem weiten Ring aus türkisem Riff; überall winzige weiße Dächer; ein Hafen in der Mitte.",
+    "f": [
+      "Die Inseln sind nach dem spanischen Seefahrer Juan de Bermúdez benannt, der Anfang des 16. Jahrhunderts auf sie stieß.",
+      "Bermuda hat keine Flüsse und keine Süßwasserseen."
+    ],
+    "q": {
+      "q": "Warum sind Bermudas Dächer weiß und gestuft?",
+      "a": "Um Regenwasser aufzufangen",
+      "x": [
+        "Um Blitze abzuleiten",
+        "Um Piloten zu leiten"
+      ]
+    }
+  },
+  "Q38834": {
+    "t": "Eine der ersten Hauptstädte, die jeden neuen Tag begrüßen",
+    "s": "Nukuʻalofa liegt an der Nordküste von Tongatapu, einer flachen Koralleninsel mit Riffring, in die von Norden eine große, seichte Lagune schneidet. Der Name bedeutet „Wohnsitz der Liebe“. Tonga ist ein Königreich und eines der ersten Länder, die jeden neuen Tag begrüßen, gleich westlich der Datumsgrenze. Kapitän Cook nannte diese Inseln in den 1770er-Jahren die Freundschaftsinseln.",
+    "w": "Eine kleine Stadt an der Nordküste einer flachen grünen Insel; dahinter eine weite, seichte Lagune; davor Riffe und Inselchen in türkisem Wasser.",
+    "f": [
+      "Der Haʻamonga ʻa Maui, ein steinerner Trilith aus der Zeit um das 13. Jahrhundert, steht am Ostende der Insel.",
+      "Rund drei Viertel der Bevölkerung Tongas leben auf Tongatapu."
+    ],
+    "q": {
+      "q": "Wie nannte Kapitän Cook die Inseln Tongas?",
+      "a": "Die Freundschaftsinseln",
+      "x": [
+        "Die Gesellschaftsinseln",
+        "Die Sandwichinseln"
+      ]
+    }
+  },
+  "Q36260": {
+    "t": "Wo der Kalender einmal einen ganzen Tag übersprang",
+    "s": "Apia zieht sich an der Nordküste von Upolu entlang, einer üppigen Vulkaninsel, deren bewaldete Kämme steil hinter der Stadt aufsteigen. Ihr Hafen öffnet sich durch eine Lücke im Saumriff zum Meer. Samoa lag einst auf der anderen Seite der Datumsgrenze, doch 2011 übersprang es den 30. Dezember ganz, um denselben Kalendertag wie Australien und Neuseeland zu haben; nun gehört es zu den Ersten, die jeden neuen Tag sehen.",
+    "w": "Eine Stadt an einer geschwungenen Bucht auf einer grünen, gebirgigen Insel; davor eine weiße Rifflinie mit einer Lücke für Schiffe.",
+    "f": [
+      "Robert Louis Stevenson verbrachte seine letzten Jahre in Vailima oberhalb von Apia und ist auf dem nahen Mount Vaea begraben.",
+      "Upolu und die größere Nachbarinsel Savaiʻi sind beide Vulkaninseln."
+    ],
+    "q": {
+      "q": "Welcher Schriftsteller verbrachte seine letzten Jahre in den Hügeln über Apia?",
+      "a": "Robert Louis Stevenson",
+      "x": [
+        "Herman Melville",
+        "Jack London"
+      ]
+    }
+  },
+  "Q2467": {
+    "t": "Türkise Bänke neben einem tiefblauen Ozeangraben",
+    "s": "Rund um Nassau zeigt das Meer sein blendendstes Schauspiel: helles Türkis und Creme über den flachen Bahamabänken, dann ein jäher Absturz ins dunkle Blau der Tongue of the Ocean, eines über 1.500 m tiefen Grabens gleich südlich der Insel. Nassau selbst säumt die Nordküste von New Providence, gegenüber Paradise Island jenseits des Hafens.",
+    "w": "Eine kleine Inselstadt an einem schmalen Hafen; ringsum leuchtend türkises Flachwasser; im Süden eine abrupte Kante zu dunkelblauem Tiefwasser.",
+    "f": [
+      "Anfang des 18. Jahrhunderts war Nassau ein berüchtigter Piratenstützpunkt, unter anderem für Blackbeard.",
+      "Die Stadt wurde 1695 nach König Wilhelm III. aus dem Haus Oranien-Nassau benannt."
+    ],
+    "q": {
+      "q": "Was ist die „Tongue of the Ocean“ bei Nassau?",
+      "a": "Ein Tiefseegraben",
+      "x": [
+        "Ein langes Korallenriff",
+        "Eine Sandbank"
+      ]
+    }
   }
 }

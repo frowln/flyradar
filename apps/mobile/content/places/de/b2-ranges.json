@@ -1764,5 +1764,806 @@
         "Huascarán"
       ]
     }
+  },
+  "Q804330": {
+    "t": "Die Weiße Kordillere: die größte Eismasse der Tropen",
+    "s": "Perus Cordillera Blanca trägt ihren Namen zu Recht: eine weiße Mauer aus Gletschern und gerippten Eisgipfeln, nur etwa neun Grad südlich des Äquators, mit mehr tropischen Gletschern als jedes andere Gebirge der Erde. Ihr höchster Gipfel, der Huascarán, erreicht 6.768 m. Suchen Sie unten türkisfarbene Gletscherseen in den Tälern und am Westfuß den grünen Graben des Río Santa.",
+    "w": "Eine Reihe strahlend weißer, gerippter Eisgipfel mit türkisfarbenen Seen in den Tälern, parallel zur Pazifikküste.",
+    "f": [
+      "Der Huascarán (6.768 m) ist der höchste Berg Perus.",
+      "Der Huascarán-Nationalpark, der das Gebirge umfasst, ist UNESCO-Welterbe.",
+      "An seinen Hängen wächst die riesige Puya raimondii, eine Verwandte der Ananas; ihr Blütenstand wird bis zu rund 10 m hoch."
+    ],
+    "q": {
+      "q": "Welcher ist der höchste Berg Perus?",
+      "a": "Huascarán",
+      "x": [
+        "Alpamayo",
+        "Yerupajá"
+      ]
+    }
+  },
+  "Q4794486": {
+    "t": "Der Ostarm der Anden, der bis nach Venezuela reicht",
+    "s": "Die östlichste der drei kolumbianischen Andenketten trägt Bogotá auf ihrer Hochebene und teilt sich dann nahe der Grenze zu Venezuela. Ein Arm, die Sierra de Perijá, zieht nach Norden; der andere, die Anden von Mérida, nach Nordosten durch Venezuela. Dazwischen liegt die weite blaue Fläche des Maracaibo-Sees – von oben scheinen die Berge ihn in einer Zange zu halten.",
+    "w": "Schroffe grün-braune Kämme; im Nordwesten die weite blaue Fläche des Maracaibo-Sees zwischen zwei Gebirgsarmen.",
+    "f": [
+      "Bogotá liegt auf einer Hochebene dieser Kette in rund 2.600 m Höhe.",
+      "Der Pico Bolívar (4.978 m) in den Anden von Mérida ist der höchste Gipfel Venezuelas.",
+      "Über dem Südwestufer des Maracaibo-Sees blitzt es in mehr als hundert Nächten im Jahr – das Catatumbo-Gewitter."
+    ],
+    "q": {
+      "q": "Welcher See liegt zwischen den beiden Armen dieser Kordillere?",
+      "a": "Der Maracaibo-See",
+      "x": [
+        "Der Titicacasee",
+        "Der Nicaraguasee"
+      ]
+    }
+  },
+  "Q233770": {
+    "t": "Australiens wilder Nordkeil, der auf Neuguinea zeigt",
+    "s": "Cape York ist einer der letzten großen wilden Orte Australiens: ein langes Dreieck aus Savanne, lichtem Wald und Regenwald, das nach Norden Richtung Neuguinea reicht, mit wenigen asphaltierten Straßen. Suchen Sie von oben rote Erde, verzweigte Flüsse, die in der Regenzeit über die Ufer treten, und vor der Ostküste die türkisfarbenen Flachwasser des Great Barrier Reef, dicht an der Küste.",
+    "w": "Rote Erde und graugrüner Wald, zerschnitten von verzweigten Flüssen, gleich vor der Ostküste die türkisfarbenen Flachwasser des Great Barrier Reef.",
+    "f": [
+      "Die Spitze von Cape York ist der nördlichste Punkt des australischen Festlands.",
+      "Die rund 150 km breite Torres-Straße trennt die Halbinsel von Neuguinea.",
+      "Hoch aufragende Termitenhügel, manche mehrere Meter hoch, sprenkeln die Savanne."
+    ],
+    "q": {
+      "q": "Welche Insel liegt Cape York jenseits der Torres-Straße gegenüber?",
+      "a": "Neuguinea",
+      "x": [
+        "Timor",
+        "Tasmanien"
+      ]
+    }
+  },
+  "Q7835": {
+    "t": "Eine Raute aus Steppe mit Bergrand am Schwarzen Meer",
+    "s": "Die Krim hängt an einem schmalen Hals, der Landenge von Perekop, am Festland, und von oben ist ihre Form unverwechselbar. Der größte Teil ist flache, trockene Steppe, gemustert von Feldern und flachen Salzseen; entlang der Südküste erhebt sich das Krimgebirge als Rand aus Kalksteinklippen über dem Meer. Im Nordosten liegen die flachen, manchmal rosa gefärbten Lagunen des Siwasch.",
+    "w": "Eine rautenförmige Halbinsel aus flacher Steppe und Salzseen, mit einem Bergrand an der Südküste und flachen Lagunen im Nordosten.",
+    "f": [
+      "Die Landenge von Perekop, die die Krim mit dem Festland verbindet, ist an ihrer schmalsten Stelle nur rund 7 km breit.",
+      "Der Roman-Kosch (1.545 m) ist der höchste Gipfel des Krimgebirges.",
+      "Die Siwasch-Lagunen sind so salzig, dass sich ihr Wasser stellenweise durch Algen rosa färbt."
+    ],
+    "q": {
+      "q": "Wie heißt der schmale Hals, der die Krim mit dem Festland verbindet?",
+      "a": "Landenge von Perekop",
+      "x": [
+        "Straße von Kertsch",
+        "Nehrung von Tusla"
+      ]
+    }
+  },
+  "Q165608": {
+    "t": "Uralter Fels, Tundra und Seen jenseits des Polarkreises",
+    "s": "Fast die ganze Halbinsel Kola liegt nördlich des Polarkreises, und doch bleibt ihre Nordküste dank des warmen Nordatlantikstroms das ganze Jahr eisfrei. Vom Fenster aus ist sie ein welliges Mosaik aus Tundra, dunklem Wald und unzähligen Seen auf einem der ältesten Gesteine Europas, in der Mitte die kahlen Chibinen. Achten Sie in Winternächten auf Polarlichter.",
+    "w": "Niedrige, wellige Tundra und dunkler Wald voller unzähliger Seen, nahe der Mitte das kahle, oben flache Chibinen-Massiv.",
+    "f": [
+      "Murmansk an der Küste von Kola ist die größte Stadt nördlich des Polarkreises.",
+      "Die Kola-Bohrung erreichte rund 12,2 km – das tiefste je gebohrte Loch.",
+      "Die Chibinen sind reich an Apatit, der für Düngemittel abgebaut wird."
+    ],
+    "q": {
+      "q": "Welchen Rekord hält die Kola-Bohrung?",
+      "a": "Das tiefste je gebohrte Loch",
+      "x": [
+        "Die kälteste Mine der Erde",
+        "Der älteste Tunnel Europas"
+      ]
+    }
+  },
+  "Q1394226": {
+    "t": "Vietnams Südspitze, die noch ins Meer hinauswächst",
+    "s": "Das vietnamesische Festland endet hier in einem niedrigen grünen Keil aus Mangroven und Watt, auf drei Seiten vom Meer umgeben. Aus Reiseflughöhe ist es ein wässriges Labyrinth: gewundene Kanäle, ordentliche Rechtecke von Garnelenteichen und dichter, dunkelgrüner Wald. Das Land wächst noch, weil Schlick aus dem Mekong sich zwischen den Mangrovenwurzeln absetzt und die Küste nach außen schiebt.",
+    "w": "Eine flache grüne Landspitze voller Kanäle, dunkler Mangrovenwald und rechteckige Garnelenteiche, umgeben von schlammbraunem Meer.",
+    "f": [
+      "Kap Cà Mau ist der südlichste Punkt des vietnamesischen Festlands.",
+      "Seine Mangroven sind im Nationalpark Mũi Cà Mau geschützt, einem Ramsar-Feuchtgebiet von internationaler Bedeutung."
+    ],
+    "q": {
+      "q": "Was schiebt die Küste von Cà Mau langsam ins Meer hinaus?",
+      "a": "Mekong-Schlick in den Mangroven",
+      "x": [
+        "Lavaströme",
+        "Wachsende Korallenriffe"
+      ]
+    }
+  },
+  "Q178543": {
+    "t": "Ein 1.200 km langer Wüstenfinger zwischen Ozean und Golf",
+    "s": "Baja California zieht sich rund 1.200 km von der US-Grenze nach Süden, ein schlanker Wüstenfinger zwischen Pazifik und Golf von Kalifornien. Aus 11 km Höhe ist der Kontrast verblüffend: schroffe, kahle Berge auf dem Rückgrat, kaktusgetupfte Ebenen und auf der Golfseite Wasser von fast unwirklichem Blau. Jeden Winter kommen Grauwale, um in ihren Pazifiklagunen zu kalben.",
+    "w": "Eine lange, schmale Wüstenhalbinsel: kahle braune Berge, blasse Lagunen auf der Pazifikseite und tiefblaues Golfwasser im Osten.",
+    "f": [
+      "Ihre Pazifiklagunen wie Ojo de Liebre und San Ignacio gehören zu den wichtigsten Fortpflanzungsgebieten des Grauwals.",
+      "Der Golf von Kalifornien wird oft „Aquarium der Welt“ genannt – ein Ausdruck, der Jacques Cousteau zugeschrieben wird.",
+      "Der Golf wird langsam breiter, weil die Halbinsel mit der Pazifischen Platte nach Nordwesten wandert."
+    ],
+    "q": {
+      "q": "Welche Wale kalben jeden Winter in den Pazifiklagunen der Baja?",
+      "a": "Grauwale",
+      "x": [
+        "Buckelwale",
+        "Blauwale"
+      ]
+    }
+  },
+  "Q130978": {
+    "t": "Eine flache Kalkplatte ohne Flüsse, nur mit Cenoten",
+    "s": "Yucatán ist flach wie ein Tisch: eine riesige Kalksteinplatte unter niedrigem grünem Wald, fast ohne Flüsse an der Oberfläche. Regen versickert direkt im Gestein in unterirdische Flüsse, die in Einsturzlöchern, den Cenoten, zutage treten. An der Nordspitze liegt der verschüttete Chicxulub-Krater, hinterlassen von dem Asteroiden, der vor 66 Millionen Jahren das Zeitalter der Dinosaurier beendete.",
+    "w": "Endloser, flacher, niedriger grüner Wald ohne Hügel und Flüsse; im Osten die türkisfarbene Karibikküste, im Norden Städte wie Mérida.",
+    "f": [
+      "Ein gebogener Ring aus Cenoten im Norden der Halbinsel zeichnet den verschütteten Rand des Chicxulub-Kraters nach.",
+      "Calakmul, eine der größten Maya-Städte, liegt versteckt im Wald nahe dem Südansatz der Halbinsel."
+    ],
+    "q": {
+      "q": "Wie heißen die wassergefüllten Einsturzlöcher Yucatáns?",
+      "a": "Cenoten",
+      "x": [
+        "Tepuis",
+        "Arroyos"
+      ]
+    }
+  },
+  "Q60064": {
+    "t": "Ein vulkanischer Arm, der zu den Aleuten reicht",
+    "s": "Die Alaska-Halbinsel erstreckt sich rund 800 km vom Festland nach Südwesten, ein schroffer Arm aus Vulkanen, Seen und Tundra, der in die Kette der Aleuten übergeht. Von oben reihen sich verschneite Kegel entlang ihres Rückgrats. In Katmai erzeugte der Novarupta 1912 den größten Vulkanausbruch des 20. Jahrhunderts und füllte ein Tal mit Asche, die jahrelang dampfte.",
+    "w": "Ein langer, schmaler Arm aus Tundra und großen Seen mit einem Rückgrat verschneiter Vulkane, zwischen Pazifik und Bristol Bay.",
+    "f": [
+      "Der Ausbruch von 1912 schuf das Tal der Zehntausend Dämpfe, benannt nach seinen unzähligen dampfenden Schloten.",
+      "Die Brooks Falls im Katmai-Nationalpark sind berühmt für Braunbären, die springende Lachse fangen.",
+      "Der Aniakchak, eine rund 10 km breite Caldera, ist eines der am wenigsten besuchten Nationaldenkmäler der USA."
+    ],
+    "q": {
+      "q": "Welches Tal entstand beim Ausbruch des Novarupta 1912?",
+      "a": "Das Tal der Zehntausend Dämpfe",
+      "x": [
+        "Das Death Valley",
+        "Das Tal der Geysire"
+      ]
+    }
+  },
+  "Q812": {
+    "t": "Eine flache Kalkhalbinsel, randvoll mit Wasser",
+    "s": "Florida gehört zu den flachsten Gegenden der USA – sein höchster Punkt liegt nur 105 m über dem Meer –, und von oben wirkt es ebenso sehr aus Wasser wie aus Land. Unzählige runde Seen sprenkeln die Mitte, der Lake Okeechobee glänzt im Süden wie eine Münze, und darunter breiten sich die Everglades als riesiger, träge fließender Grasfluss aus. Lange sandige Nehrungsinseln säumen beide Küsten.",
+    "w": "Flaches grünes Land, übersät mit runden Seen, die große Scheibe des Lake Okeechobee und dünne weiße Nehrungsinseln an beiden Küsten.",
+    "f": [
+      "Britton Hill, mit 105 m Floridas höchster Punkt, ist der niedrigste höchste Punkt aller US-Bundesstaaten.",
+      "Die Everglades sind eine flache Wasserschicht, die durch Schneidried nach Süden kriecht – oft „Grasfluss“ genannt.",
+      "Viele der runden Seen in Zentralflorida sind Einsturzlöcher im Kalkstein darunter."
+    ],
+    "q": {
+      "q": "Wie werden die Everglades oft genannt?",
+      "a": "Grasfluss",
+      "x": [
+        "Schilfmeer",
+        "Wald auf dem Wasser"
+      ]
+    }
+  },
+  "Q213237": {
+    "t": "Patagoniens Axtkopf-Halbinsel, eine Kinderstube der Wale",
+    "s": "Auf der Karte sieht die Península Valdés aus wie ein Axtkopf, der mit einem dünnen Stiel, der Landenge Carlos Ameghino, an der Küste Patagoniens hängt. Die Golfe zu beiden Seiten, San José und Nuevo, sind geschützte Kinderstuben, in denen sich Südkaper von etwa Juni bis Dezember zum Kalben sammeln. Das Land selbst ist flache, trockene Steppe mit weißen Salzpfannen in der Mitte.",
+    "w": "Eine grob quadratische Halbinsel aus hellbrauner Steppe an einem schmalen Hals, zu beiden Seiten geschützte Golfe, innen weiße Salzpfannen.",
+    "f": [
+      "Die Península Valdés ist wegen ihrer Meeressäuger UNESCO-Welterbe.",
+      "Bei Punta Norte lassen sich Orcas absichtlich auf den Strand treiben, um Seelöwenjunge zu schnappen."
+    ],
+    "q": {
+      "q": "Welche Wale sammeln sich in den Golfen von Valdés zum Kalben?",
+      "a": "Südkaper",
+      "x": [
+        "Buckelwale",
+        "Pottwale"
+      ]
+    }
+  },
+  "Q858306": {
+    "t": "Chinas felsiger Daumen zwischen Bohai und Gelbem Meer",
+    "s": "Die Shandong-Halbinsel ragt wie ein Daumen zwischen Bohai-Meer und Gelbem Meer nach Osten, Richtung Korea. Vom Fenster aus ist sie ein Flickenteppich aus Obstgärten und Feldern auf welligen Hügeln, mit Granitbergen nahe der Küste und belebten Hafenstädten entlang des Ufers. Qingdao liegt an ihrer Südküste neben der fast geschlossenen Jiaozhou-Bucht, die eine der längsten Meeresbrücken der Welt überspannt.",
+    "w": "Eine hügelige Halbinsel aus Feldern und Obstgärten zwischen zwei Meeren, an der Südküste die runde Jiaozhou-Bucht und Qingdao.",
+    "f": [
+      "Der Laoshan, ein Granitberg bei Qingdao, steigt rund 1.130 m direkt aus dem Meer auf und ist für seine daoistischen Tempel berühmt.",
+      "Qingdaos berühmte Brauerei wurde 1903 gegründet.",
+      "Die Jiaozhou-Bucht-Brücke verläuft rund 26 km über das Wasser."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt an der Jiaozhou-Bucht?",
+      "a": "Qingdao",
+      "x": [
+        "Dalian",
+        "Tianjin"
+      ]
+    }
+  },
+  "Q131377": {
+    "t": "Rote Dünen, die auf einen kalten, nebligen Ozean treffen",
+    "s": "Die Namib ist womöglich die älteste Wüste der Erde, seit zig Millionen Jahren trocken. In ihrem zentralen Sandmeer rund um das Sossusvlei ragen die Dünen über 300 m auf und glühen im tiefen Sonnenlicht ziegelrot, aufgereiht in Reihen, die fast bis an den Atlantik reichen. Die kalte Meeresströmung bringt Nebel statt Regen, und Käfer, Echsen und Pflanzen überleben, indem sie ihn trinken.",
+    "w": "Endlose Reihen rotorangefarbener Dünen, die zur Küste laufen, dazwischen blasse Lehmpfannen, und eine weiße Linie aus Brandung und Nebel.",
+    "f": [
+      "Das Namib-Sandmeer ist UNESCO-Welterbe.",
+      "Im Deadvlei, einer weißen Lehmpfanne zwischen den Dünen, stehen Kameldornbäume, die vor Jahrhunderten abgestorben sind.",
+      "Nebeltrinkende Käfer recken den Rücken in den Wind, damit Tröpfchen in ihr Maul rollen."
+    ],
+    "q": {
+      "q": "Woher bezieht die Namib den größten Teil ihrer Feuchtigkeit?",
+      "a": "Aus Nebel vom kalten Atlantik",
+      "x": [
+        "Aus Monsunregen im Sommer",
+        "Aus schmelzendem Bergschnee"
+      ]
+    }
+  },
+  "Q14314106": {
+    "t": "Ägyptens große Wüste der Oasen und weißen Kreidetürme",
+    "s": "Westlich des Nils ist Ägypten fast nur Wüste: flache Sand- und Steinebenen, unterbrochen von tiefen Senken, in denen Oasen wie Siwa, Bahariya, Farafra, Dachla und Charga aus uraltem Grundwasser trinken. Suchen Sie aus Reiseflughöhe grüne Tupfen aus Feldern und Palmenhainen in diesen Becken. Nahe Farafra liegt die Weiße Wüste, wo der Wind Kreide zu pilzförmigen Türmen geformt hat.",
+    "w": "Endlose beige Ebenen und Stufen, tiefe Becken mit grünen Tupfen von Oasenfeldern und stellenweise gleißend weißer Kreideboden.",
+    "f": [
+      "Die Qattara-Senke im Norden fällt bis rund 133 m unter den Meeresspiegel ab – einer der tiefsten Punkte Afrikas.",
+      "Die Oasen zapfen den Nubischen Sandstein-Aquifer an, einen der größten Speicher fossilen Grundwassers der Erde."
+    ],
+    "q": {
+      "q": "Was formte die pilzförmigen Felsen der Weißen Wüste?",
+      "a": "Der Wind",
+      "x": [
+        "Gletscher",
+        "Ein urzeitlicher Fluss"
+      ]
+    }
+  },
+  "Q464909": {
+    "t": "Die große Nilschleife durch eine steinige Wüste",
+    "s": "Östlich des Nils im Norden des Sudan liegt die Nubische Wüste, eine fast regenlose Ebene aus Sandstein und Granit, durchzogen von trockenen Wadis. Aus 11 km Höhe ist der eindrucksvollste Anblick der Nil selbst: ein dünnes grünes Band, das sich in einer riesigen S-förmigen Schleife durch die Wüste windet. An seinen Ufern stehen die Pyramiden von Meroe und anderer alter Königreiche Nubiens.",
+    "w": "Eine flache, blasse Steinebene mit dunklen Hügeln und trockenen Wadis; im Westen das grüne Band des Nils in einer großen Schleife.",
+    "f": [
+      "Der Sudan hat mehr Pyramiden als Ägypten, viele davon in Meroe.",
+      "Die Eisenbahn von Wadi Halfa nach Abu Hamad, Ende der 1890er-Jahre gebaut, führt fast schnurgerade durch die Wüste."
+    ],
+    "q": {
+      "q": "Welche antike Stadt Nubiens ist für ihre steilen Pyramiden berühmt?",
+      "a": "Meroe",
+      "x": [
+        "Aksum",
+        "Karthago"
+      ]
+    }
+  },
+  "Q326896": {
+    "t": "Endlose parallele rote Dünen im Nordwesten Australiens",
+    "s": "Aus der Luft wirkt die Große Sandwüste wie gekämmt: Lange, gerade rote Dünen verlaufen Hunderte Kilometer nebeneinander, getrennt durch Gassen aus blassem Spinifex-Gras. Sie gehört zu den leersten Gegenden Australiens und ist vor allem Heimat von Aborigine-Gemeinschaften. Nahe ihrem Nordrand liegt der Wolfe-Creek-Krater, ein fast vollkommener Ring von rund 900 m Durchmesser.",
+    "w": "Lange, gerade, parallele rote Dünenrücken mit blassem graugrünem Spinifex dazwischen und gelegentlich ein weißer Salzsee.",
+    "f": [
+      "Der Wolfe-Creek-Krater ist einer der besterhaltenen Meteoritenkrater der Erde.",
+      "Australiens Dünen richten sich nach den vorherrschenden Winden aus und bilden einen riesigen Wirbel um die Mitte des Kontinents."
+    ],
+    "q": {
+      "q": "Wodurch entstand der Wolfe-Creek-Krater?",
+      "a": "Durch einen Meteoriteneinschlag",
+      "x": [
+        "Durch einen Vulkanausbruch",
+        "Durch eine eingestürzte Höhle"
+      ]
+    }
+  },
+  "Q145165": {
+    "t": "Australiens größte Wüste, roter Sand unter blaugrünem Busch",
+    "s": "Australiens größte Wüste bedeckt rund 350.000 km² – mehr als Italien. Doch kahl ist sie keineswegs: Von oben sind ihre roten Dünen und Sandhügel gesprenkelt mit graugrünem Spinifex, Mulga und Mallee-Eukalypten. Gleißend weiße Salzseen markieren ihre Ränder, und im Süden flacht das Land zur baumlosen Nullarbor-Ebene ab.",
+    "w": "Rote Sandrücken, gesprenkelt mit graugrünem Busch, verstreute weiße Salzseen und im Süden eine flache, baumlose Ebene.",
+    "f": [
+      "Der Forscher Ernest Giles benannte sie 1875 nach Königin Victoria.",
+      "Die Anangu Pitjantjatjara leben seit vielen Jahrtausenden in und um diese Wüste."
+    ],
+    "q": {
+      "q": "Welche ist Australiens größte Wüste?",
+      "a": "Die Große Victoria-Wüste",
+      "x": [
+        "Die Simpsonwüste",
+        "Die Tanami-Wüste"
+      ]
+    }
+  },
+  "Q172691": {
+    "t": "Indiens Große Wüste, überraschend voller Menschen",
+    "s": "Die Thar, die Große Indische Wüste, erstreckt sich über Rajasthan bis nach Pakistan, ein Land aus windgeriffelten Dünen, Dornbusch und verstreuten Dörfern. Sie ist eine der am dichtesten besiedelten Wüsten der Welt. Suchen Sie die lange grüne Linie des Indira-Gandhi-Kanals, der sich durch den Sand schneidet und Wasser aus Himalaya-Flüssen auf neue Felder bringt.",
+    "w": "Gelbbraune Dünen und Buschland mit vielen Dörfern und ein gerader grüner Korridor aus Kanal und Feldern quer durch den Sand.",
+    "f": [
+      "Jaisalmer, die „Goldene Stadt“, ist aus gelbem Sandstein gebaut und erhebt sich rund um eine Hügelfestung aus der Wüste.",
+      "Der Indira-Gandhi-Kanal, einer der längsten Indiens, bringt Wasser aus Sutlej und Beas in die Wüste."
+    ],
+    "q": {
+      "q": "Welche Stadt in der Thar heißt die Goldene Stadt?",
+      "a": "Jaisalmer",
+      "x": [
+        "Jaipur",
+        "Udaipur"
+      ]
+    }
+  },
+  "Q339162": {
+    "t": "Eine weite Steinebene zwischen Levante und Euphrat",
+    "s": "Zwischen der grünen Küste der Levante und dem Euphrattal erstreckt sich die Syrische Wüste, eher eine riesige Ebene aus Kies und Basalt als aus Sand. Von oben ist sie flach und beige, durchzogen von geraden Straßen, im Südwesten mit dunklen Lavafeldern. Jahrtausendelang durchquerten Karawanen sie zwischen Mittelmeer und Mesopotamien und rasteten in der Oase Palmyra.",
+    "w": "Eine flache, konturlose beige Ebene mit geraden Straßen und trockenen Wadis, im Südwesten dunkle Flecken aus Basaltlava.",
+    "f": [
+      "Das Basaltfeld Harrat asch-Scham im Südwesten ist eines der größten Vulkanfelder des Nahen Ostens.",
+      "Uralte „Wüstendrachen“ – riesige, von Steinmauern gesäumte Fallen für die Gazellenjagd – fielen in den 1920er-Jahren erstmals Piloten auf."
+    ],
+    "q": {
+      "q": "Welche antike Karawanenstadt wuchs in einer Oase der Syrischen Wüste?",
+      "a": "Palmyra",
+      "x": [
+        "Petra",
+        "Byblos"
+      ]
+    }
+  },
+  "Q172702": {
+    "t": "Schwarzer Sand – und ein Krater, der seit Jahrzehnten brennt",
+    "s": "Karakum bedeutet „schwarzer Sand“, auch wenn die Dünen von oben gelblich grau wirken, festgehalten von Saxaul und Gras. Die Wüste bedeckt den größten Teil Turkmenistans. Nahe Derweze brennt seit Jahrzehnten ein rund 70 m breiter Gaskrater, und nachts ist sein orangefarbenes Glühen ein verblüffender Anblick. Im Süden verläuft der lange grüne Faden des Karakum-Kanals.",
+    "w": "Graugelbe, von Buschwerk festgehaltene Dünen, im Süden der grüne Karakum-Kanal und nachts ein kleines orangefarbenes Glühen bei Derweze.",
+    "f": [
+      "Der über 1.000 km lange Karakum-Kanal leitet Wasser des Amudarja quer durch die Wüste – einer der längsten Bewässerungskanäle der Welt.",
+      "Die Karakum bedeckt rund 70 Prozent Turkmenistans."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Karakum?",
+      "a": "Schwarzer Sand",
+      "x": [
+        "Roter Sand",
+        "Trockener Fluss"
+      ]
+    }
+  },
+  "Q184364": {
+    "t": "Der Rote Sand zwischen den zwei großen Flüssen Zentralasiens",
+    "s": "Kysylkum bedeutet „roter Sand“, und die Wüste füllt das Land zwischen Amudarja und Syrdarja, den beiden Flüssen, die einst den Aralsee speisten. Vom Fenster aus ist sie eine rötlich-beige Ebene aus Dünen und Buschland, unterbrochen von kahlen Felshügeln und Salzflächen. Hier liegt auch Muruntau, einer der größten Goldtagebaue der Erde – ein riesiges graues Loch, aus der Luft gut zu sehen.",
+    "w": "Rötlich-beige Dünen und Buschland, kahle Felshügel und weiße Salzflächen, stellenweise die riesige, gestufte graue Grube von Muruntau.",
+    "f": [
+      "Die Tagebaugrube der Goldmine Muruntau ist mehr als 3 km lang und Hunderte Meter tief.",
+      "Seit den 1960er-Jahren ist der Aralsee im Nordwesten dramatisch geschrumpft, weil Flusswasser zur Bewässerung abgeleitet wurde."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Kysylkum?",
+      "a": "Roter Sand",
+      "x": [
+        "Schwarzer Sand",
+        "Hungersteppe"
+      ]
+    }
+  },
+  "Q47141": {
+    "t": "Trockenster Ort außerhalb der Pole, unter klarem Himmel",
+    "s": "Manche Wetterstationen in der Atacama haben noch nie Regen gemessen. Aus Reiseflughöhe ist sie eine Mondlandschaft aus Salzpfannen, kahlen braunen Ketten und pastellfarbenen Vulkanen, auf der einen Seite die Anden, auf der anderen der kalte Pazifik. Die Luft ist so trocken und klar, dass auf ihren Gipfeln einige der größten Teleskope der Welt gebaut wurden.",
+    "w": "Kahle braune und ockerfarbene Ketten, weiße Salzpfannen wie der Salar de Atacama und schneebedeckte Vulkane am östlichen Horizont.",
+    "f": [
+      "Der Salar de Atacama ist Chiles größte Salzpfanne und eine der wichtigsten Lithiumquellen der Welt.",
+      "Die NASA hat in der Atacama Mars-Rover getestet, weil ihr Boden dem des Mars so ähnlich ist.",
+      "ALMA, ein riesiges Feld aus Radioteleskopen, steht auf einem Plateau in rund 5.000 m Höhe."
+    ],
+    "q": {
+      "q": "Welches Metall wird in großen Mengen aus dem Salar de Atacama gewonnen?",
+      "a": "Lithium",
+      "x": [
+        "Zinn",
+        "Silber"
+      ]
+    }
+  },
+  "Q392250": {
+    "t": "Mexikos schmale Taille, wo Winde zwischen Ozeanen jagen",
+    "s": "Hier verengt sich Mexiko zu seiner Taille: Nur rund 200 km Land trennen Atlantik und Pazifik. Die Berge sinken zu einer weiten Lücke ab, und im Winter jagen starke Nordwinde, die Tehuanos, hindurch und brechen über dem Pazifik hervor, wo sie das Meer Hunderte Kilometer weit aufwühlen. Nahe der Pazifikküste glänzen weite, flache Lagunen silbern.",
+    "w": "Eine schmale Landbrücke mit niedrigen Hügeln in der Mitte, im Norden grünes Tiefland, am Pazifik trockene Ebenen und Lagunen.",
+    "f": [
+      "Die Tehuano-Winde können mit mehr als 100 km/h wehen und sind weit draußen über dem Pazifik zu spüren.",
+      "Seit 1907 verbindet eine Eisenbahn die beiden Küsten quer über den Isthmus.",
+      "Der Isthmus gilt oft als geografische Grenze zwischen Nord- und Mittelamerika."
+    ],
+    "q": {
+      "q": "Wie breit ist der Isthmus von Tehuantepec ungefähr?",
+      "a": "Etwa 200 km",
+      "x": [
+        "Etwa 50 km",
+        "Etwa 600 km"
+      ]
+    }
+  },
+  "Q182139": {
+    "t": "Die Landbrücke, die zwei Kontinente verband",
+    "s": "Dieser schlanke, S-förmige Landstreifen verbindet zwei Kontinente und trennt zwei Ozeane. Als er vor rund 3 Millionen Jahren aus dem Meer auftauchte, wanderten Tiere zwischen den Amerikas, und Meeresströmungen änderten ihren Lauf. Im Westen durchschneidet ihn der Panamakanal; im Osten ist der Regenwald des Darién so wild, dass die Panamericana an seinem Rand endet.",
+    "w": "Ein schmaler, gewundener grüner Streifen zwischen zwei Meeren: im Osten geschlossener Regenwald, im Westen der Kanal und der Gatúnsee.",
+    "f": [
+      "Der 1914 eröffnete Panamakanal ist rund 80 km lang.",
+      "Der Darién Gap ist die einzige Lücke der Panamericana zwischen Alaska und dem äußersten Süden Südamerikas.",
+      "Weil sich der Isthmus krümmt, verläuft der Kanal vom Atlantik im Nordwesten zum Pazifik im Südosten."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurde der Panamakanal eröffnet?",
+      "a": "1914",
+      "x": [
+        "1869",
+        "1936"
+      ]
+    }
+  },
+  "Q322356": {
+    "t": "Der schmalste Hals der Halbinsel, zwischen zwei Meeren",
+    "s": "Am Isthmus von Kra zieht sich die Malaiische Halbinsel auf ihre schmalste Stelle zusammen, rund 44 km breit, im Westen die Andamanensee, im Osten der Golf von Thailand. Aus 11 km Höhe sehen Sie vielleicht beide Küsten zugleich: auf der einen Seite von Mangroven gesäumte Mündungen, auf der anderen lange Sandstrände, dazwischen Kautschuk- und Ölpalmplantagen. Seit Jahrhunderten träumen Menschen davon, hier einen Kanal zu graben.",
+    "w": "Ein schmaler Hals aus grünen Hügeln und Plantagen, auf beiden Seiten das Meer in Sicht, im Westen die Mündung des Kra.",
+    "f": [
+      "Ein Kanal durch den Kra wird mindestens seit dem 17. Jahrhundert vorgeschlagen, wurde aber nie gebaut.",
+      "An der schmalsten Stelle bildet der Kraburi einen Teil der Grenze zwischen Thailand und Myanmar."
+    ],
+    "q": {
+      "q": "Wie breit ist der Isthmus von Kra an seiner schmalsten Stelle ungefähr?",
+      "a": "Etwa 44 km",
+      "x": [
+        "Etwa 4 km",
+        "Etwa 140 km"
+      ]
+    }
+  },
+  "Q426977": {
+    "t": "Hügel aus rotem Lehm zwischen Appalachen und Küste",
+    "s": "Zwischen der Blue Ridge und der flachen Küstenebene liegt das Piedmont – wörtlich der „Fuß der Berge“ –, ein welliges Hügelland aus rotem Lehm, Kiefernwald und Farmen. Suchen Sie von oben große Stauseen mit verästelten, fingerartigen Armen wie Lake Hartwell und Lake Thurmond am Savannah River. An seinem meerwärtigen Rand stürzen die Flüsse über die Fall Line, wo Städte wie Richmond, Columbia und Augusta entstanden.",
+    "w": "Welliges grünes Hügelland und Wälder mit rötlichen Feldern und großen Stauseen mit langen, verzweigten Armen an den Flüssen.",
+    "f": [
+      "Die Städte an der Fall Line wuchsen dort, wo Flussboote nicht weiter stromaufwärts kamen.",
+      "Die rote Farbe des Piedmont stammt von eisenreichen Lehmböden.",
+      "Atlanta und Charlotte, zwei der größten Städte im Süden der USA, liegen im Piedmont."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Piedmont?",
+      "a": "Fuß der Berge",
+      "x": [
+        "Land des roten Lehms",
+        "Zwischen den Flüssen"
+      ]
+    }
+  },
+  "Q743261": {
+    "t": "Nebelwald, der von den Anden zum Amazonas stürzt",
+    "s": "An der Ostflanke der bolivianischen Anden fällt das Land binnen weniger Dutzend Kilometer von eisigen Kämmen zu dampfendem Tiefland ab, und die Yungas füllen diesen Hang mit Nebelwald. Suchen Sie vom Fenster aus eine Wand aus dunklem Grün, von Wolken verschleiert, zerschnitten von tiefen, gewundenen Tälern, in denen Flüsse zum Amazonasbecken hinabrauschen. Auf ihren Terrassen wachsen Kaffee, Koka und Zitrusfrüchte.",
+    "w": "Steile, dunkelgrüne, wolkenverhangene Hänge, die von den verschneiten Anden zum flachen Amazonastiefland abfallen, zerschnitten von tiefen Tälern.",
+    "f": [
+      "Die Yungas fallen mehr als 3.000 m ab, von den hohen Anden bis ins Amazonastiefland.",
+      "Ihre Nebelwälder gehören zu den artenreichsten der Erde, besonders an Orchideen und Vögeln."
+    ],
+    "q": {
+      "q": "Wo liegen die Yungas?",
+      "a": "An den Osthängen der Anden",
+      "x": [
+        "An der Pazifikküste",
+        "Auf dem hohen Altiplano"
+      ]
+    }
+  },
+  "Q206650": {
+    "t": "Neuseelands Gletscherrückgrat an einer großen Verwerfung",
+    "s": "Die Südalpen ziehen sich über die ganze Länge der Südinsel Neuseelands und steigen abrupt an der Alpinen Verwerfung auf, wo zwei Erdplatten aufeinandertreffen. Westwinde laden gewaltige Mengen Regen und Schnee auf ihnen ab, sodass Gletscher fast bis in den Regenwald der Westküste reichen, während der Osten im trockenen Regenschatten liegt. Suchen Sie auf der Ostseite Seen von unwirklich milchigem Türkis wie Pukaki und Tekapo.",
+    "w": "Ein verschneites, gletschergestreiftes Rückgrat, im Westen Regenwald, im Osten gelbbraune Ebenen und türkisfarbene Seen.",
+    "f": [
+      "Aoraki / Mount Cook (3.724 m) ist Neuseelands höchster Gipfel.",
+      "Franz-Josef- und Fox-Gletscher reichen bis auf wenige Hundert Meter über dem Meer hinab, mitten in gemäßigten Regenwald.",
+      "Der Tasman-Gletscher ist mit rund 23 km der längste Neuseelands."
+    ],
+    "q": {
+      "q": "Welcher ist Neuseelands höchster Gipfel?",
+      "a": "Aoraki / Mount Cook",
+      "x": [
+        "Mount Aspiring / Tititea",
+        "Mount Tasman"
+      ]
+    }
+  },
+  "ne-rg-1730071499": {
+    "t": "Abgelegene Sandsteinhügel über den Savannen Zentralafrikas",
+    "s": "Im äußersten Nordosten der Zentralafrikanischen Republik erhebt sich ein schroffes Sandsteinmassiv über die Savanne – das Bongo-Massiv, auch Chaîne des Mongos genannt. Es ist einer der abgelegensten Orte Afrikas, ohne Städte und fast ohne Straßen. Suchen Sie aus Reiseflughöhe dunkle, bewaldete Steilstufen über einem blassgrünen Meer aus Gras, durchzogen von dunkleren Waldlinien an den Flüssen.",
+    "w": "Dunkle, bewaldete Sandsteinstufen über blasser Savanne, mit dünnen dunklen Galeriewaldstreifen entlang der Flüsse.",
+    "f": [
+      "Nördlich des Massivs liegt Manovo-Gounda St. Floris, der größte Nationalpark der Savannen Zentralafrikas und UNESCO-Welterbe.",
+      "In den nördlichen Überschwemmungsebenen des Parks wurden mehr als 300 Vogelarten nachgewiesen."
+    ],
+    "q": {
+      "q": "Welcher UNESCO-Nationalpark erstreckt sich nördlich des Bongo-Massivs?",
+      "a": "Manovo-Gounda St. Floris",
+      "x": [
+        "Dzanga-Sangha",
+        "Garamba"
+      ]
+    }
+  },
+  "Q2961771": {
+    "t": "Verborgene Täler, in denen eine Million Menschen lebte",
+    "s": "Ein großes Gebirgsrückgrat zieht sich über die ganze Länge Neuguineas, und zwischen seinen Kämmen verborgen liegen weite, fruchtbare Täler. Als Außenstehende sie in den 1930er-Jahren erstmals überflogen und zu Fuß erreichten, fanden sie dort rund eine Million Menschen, die Landwirtschaft betrieben, von der übrigen Welt unbemerkt. Suchen Sie aus 11 km Höhe Flickenteppiche aus Gärten auf den Talböden, eingerahmt von Kämmen aus Nebelwald.",
+    "w": "Steile, wolkenverhüllte bewaldete Kämme, darunter breite grüne Täler, deren Böden von kleinen Gartenparzellen gemustert sind.",
+    "f": [
+      "Der Kuk-Sumpf in diesem Hochland ist eines der frühesten Zentren des Ackerbaus der Welt und UNESCO-Welterbe.",
+      "Der Mount Wilhelm (4.509 m) ist der höchste Gipfel Papua-Neuguineas.",
+      "Der Puncak Jaya (4.884 m) im westlichen Teil ist der höchste Inselgipfel der Erde und trägt noch kleine Gletscher am Äquator."
+    ],
+    "q": {
+      "q": "Wann erreichten Außenstehende erstmals die bewohnten Hochlandtäler?",
+      "a": "In den 1930er-Jahren",
+      "x": [
+        "In den 1780er-Jahren",
+        "In den 1960er-Jahren"
+      ]
+    }
+  },
+  "Q189915": {
+    "t": "Kalkgebirge, das der Welt das Wort „Karst“ schenkte",
+    "s": "Parallel zur Adria, von Slowenien bis Albanien, verlaufen die Dinarischen Alpen, gebaut aus blassgrauem Kalkstein, und von oben wirken sie ausgebleicht und zernarbt. Regen verschwindet im Gestein und hinterlässt kaum Flüsse an der Oberfläche, dafür unzählige Dolinen, Höhlen und flachbödige Becken, die Poljen. Das Wort „Karst“, das Geologen weltweit verwenden, stammt vom Plateau Kras an ihrem Nordende.",
+    "w": "Blassgraue, zernarbte Kalkkämme mit grünen, flachbödigen Becken, tiefen Canyons und im Südwesten die inselreiche Adriaküste.",
+    "f": [
+      "Die Tara-Schlucht in Montenegro ist rund 1.300 m tief, eine der tiefsten Europas.",
+      "Die Plitvicer Seen, eine Kette türkisfarbener Seen, durch Wasserfälle verbunden, entstanden hinter Travertindämmen in diesen Bergen."
+    ],
+    "q": {
+      "q": "Welcher geologische Begriff stammt von einem Plateau der Dinarischen Alpen?",
+      "a": "Karst",
+      "x": [
+        "Fjord",
+        "Tundra"
+      ]
+    }
+  },
+  "ne-rg-1730072787": {
+    "t": "Ein Sandsteinwall südlich des Hoggar-Gebirges",
+    "s": "Südlich des dunklen vulkanischen Ahaggar liegt eine ganz andere Landschaft: der Tassili Oua-n-Ahaggar, ein breites Sandsteinplateau, das der Wind zu Türmen, Bögen und schmalen Gassen geformt hat. Von oben wirkt es wie eine bröckelnde braune Festungsmauer, halb ertrunken in treibendem orangefarbenem Sand. Es zieht sich vom Süden Algeriens bis zur Grenze nach Niger, durch einen der leersten Abschnitte der Sahara.",
+    "w": "Ein breites braunes Plateau, von sandgefüllten Gassen in Blöcke und Türme zerlegt, an seinen Rändern orangefarbene Dünen.",
+    "f": [
+      "In der Sprache der Tuareg bedeutet „Tassili“ „Plateau“.",
+      "Das Plateau legt sich im Bogen um die Südseite des Ahaggar-Massivs."
+    ],
+    "q": {
+      "q": "Aus welchem Gestein besteht dieses Plateau vor allem?",
+      "a": "Sandstein",
+      "x": [
+        "Basalt",
+        "Granit"
+      ]
+    }
+  },
+  "Q190048": {
+    "t": "Ein Steinwald mit der größten Felskunst der Sahara",
+    "s": "Nahe der libyschen Grenze erhebt sich der Tassili n'Ajjer als riesiges Sandsteinplateau, zu einem „Wald“ aus Säulen, Bögen und Canyons abgetragen. Seine Felsüberhänge bergen mehr als 15.000 Malereien und Gravuren – Giraffen, Flusspferde, Rinderherden, Tänzer –, die Jahrtausende einer grüneren Sahara festhalten. Suchen Sie einen dunklen, zerfransten Plateaurand mit orangefarbenen Dünen an seinem Fuß.",
+    "w": "Ein dunkles, tief zerfurchtes Plateau, zerschnitten in ein Labyrinth aus Säulen und Canyons, an seinen Rändern aufgetürmte orangefarbene Dünen.",
+    "f": [
+      "Der Tassili n'Ajjer ist seit 1982 UNESCO-Welterbe.",
+      "Sein Name bedeutet in der Sprache der Tuareg „Plateau der Flüsse“.",
+      "In seinen Canyons überleben einige Hundert uralte Sahara-Zypressen; manche sollen rund 2.000 Jahre alt sein."
+    ],
+    "q": {
+      "q": "Wie viele antike Malereien und Gravuren birgt der Tassili n'Ajjer?",
+      "a": "Mehr als 15.000",
+      "x": [
+        "Etwa 150",
+        "Etwa 1.500"
+      ]
+    }
+  },
+  "ne-rg-1730072795": {
+    "t": "Ein Dünenmeer im leeren Herzen Libyens",
+    "s": "Im Osten Libyens breitet das Sandmeer von Calanscio lange Rücken aus blassem Sand über ein Land fast ohne Regen und ohne ständige Siedlungen. Vom Fenster aus reihen sich die Dünen in parallelen Zeilen etwa von Nord nach Süd, vom vorherrschenden Wind geformt, an ihren Rändern flache Kiesebenen – Sarire. Unter dieser Leere liegen große Ölfelder und riesige Vorräte uralten Grundwassers.",
+    "w": "Lange, parallele Rücken aus blassem Sand in Nord-Süd-Richtung, flache graue Kiesebenen an den Rändern und kaum ein Zeichen von Leben.",
+    "f": [
+      "Unter dieser Wüste gefördertes Wasser fließt durch den Great Man-Made River, ein Netz riesiger Rohre, nach Norden an Libyens Küste.",
+      "Das Sarir-Ölfeld, eines der größten Libyens, liegt am Rand des Sandmeers."
+    ],
+    "q": {
+      "q": "Wie heißen die flachen Kiesebenen um die Dünen von Calanscio?",
+      "a": "Sarire",
+      "x": [
+        "Ergs",
+        "Wadis"
+      ]
+    }
+  },
+  "Q3056157": {
+    "t": "Einsames Dünenmeer – und ein Meteorit, älter als die Erde",
+    "s": "Der Erg Chech ist einer der einsamsten Winkel der Sahara: ein großes Dünenmeer an der Grenze zwischen Algerien und Mali, fern jeder Straße und Oase. Suchen Sie aus Reiseflughöhe lange, geordnete Dünenrücken, unterbrochen von dunkleren Kiesebenen und Felsbuckeln. 2020 stellte sich ein hier gefundener Meteorit, Erg Chech 002, als eines der ältesten je untersuchten vulkanischen Gesteine heraus – rund 4,56 Milliarden Jahre alt.",
+    "w": "Lange, geordnete orangefarbene Dünenrücken im Wechsel mit dunkleren Kiesebenen und Felsbuckeln, keine Straße und keine Oase in Sicht.",
+    "f": [
+      "Erg Chech 002 ist ein Stück vulkanischer Kruste eines frühen Protoplaneten, der sich noch vor der Erde bildete.",
+      "Heiße Wüsten gehören zu den besten Fundorten für Meteoriten: Dunkle Steine fallen auf hellem Boden auf und verwittern langsam."
+    ],
+    "q": {
+      "q": "Was wurde 2020 im Erg Chech gefunden?",
+      "a": "Ein Meteorit, älter als die Erde",
+      "x": [
+        "Ein Dinosaurierskelett",
+        "Eine Höhle voller Felskunst"
+      ]
+    }
+  },
+  "Q84127": {
+    "t": "Baumlose Tundra mit einem vollkommen runden Kratersee",
+    "s": "An der Nordspitze Québecs liegt die Ungava-Halbinsel, eine riesige, baumlose Tundra, von Eisschilden blank geschabt, übersät mit Tausenden Seen und durchzogen von Flüssen, die zur Hudson Bay und zur Ungava Bay fließen. Nahe ihrem Nordende liegt einer der eindrucksvollsten Anblicke Kanadas: der Pingualuit-Krater, ein vollkommen runder, rund 3,4 km breiter See, vor 1,4 Millionen Jahren von einem Meteoriten ausgestanzt.",
+    "w": "Kahle, wellige Tundra mit unzähligen Seen und Felsrücken; im Norden ein einzelner, vollkommen kreisrunder Kratersee.",
+    "f": [
+      "Der See im Pingualuit-Krater enthält einiges vom klarsten Süßwasser der Welt.",
+      "Nunavik, das Inuit-Land auf der Halbinsel, hat keine Straßenverbindung in den Süden Québecs."
+    ],
+    "q": {
+      "q": "Wie alt ist der Pingualuit-Krater ungefähr?",
+      "a": "Etwa 1,4 Millionen Jahre",
+      "x": [
+        "Etwa 14.000 Jahre",
+        "Etwa 140 Millionen Jahre"
+      ]
+    }
+  },
+  "Q1898305": {
+    "t": "Die letzten Kämme, bevor die Sahara beginnt",
+    "s": "Quer durch Algerien zieht sich der Sahara-Atlas, eine Reihe paralleler Kämme – Ksour-, Amour- und Ouled-Naïl-Berge –, die den Nordrand der Sahara markiert. Nördlich davon liegen die Hochplateaus mit ihren flachen Salzseen, den Schotts; südlich davon beginnt die Wüste. Suchen Sie aus 11 km Höhe gefaltete, rostfarbene Kämme von Südwest nach Nordost, dahinter weite Steinebenen.",
+    "w": "Parallele, gefaltete Kämme von Südwest nach Nordost, im Norden blasse Salzseen, im Süden offene Wüste.",
+    "f": [
+      "Oasenstädte wie Laghouat entstanden am Südfuß des Gebirges, wo Wasser aus den Bergen austritt.",
+      "Der Schott esch-Schergui nördlich des Gebirges ist einer der größten Salzseen Nordafrikas."
+    ],
+    "q": {
+      "q": "Wie heißen die flachen Salzseen nördlich des Sahara-Atlas?",
+      "a": "Schotts",
+      "x": [
+        "Oasen",
+        "Wadis"
+      ]
+    }
+  },
+  "ne-rg-1730073347": {
+    "t": "Die Westmauer der großen Grabenseen Afrikas",
+    "s": "Am Ostrand des Kongo erheben sich die Mitumba-Berge als westliche Schulter des Albertinischen Grabens, eines großen Risses in Afrikas Kruste. Von oben sind sie eine lange, bewaldete Mauer, die steil zu einer Kette von Grabenseen abfällt – Albert-, Edward-, Kivu- und Tanganjikasee. Suchen Sie nahe ihrem Südende den langen, dunkelblauen Trog des Tanganjikasees unter den Kämmen.",
+    "w": "Eine lange, steile bewaldete Stufe, darunter im Grabenbruch das tiefe Blau des Tanganjika- oder Kivusees.",
+    "f": [
+      "Der Tanganjikasee am Fuß des Gebirges ist mit rund 1.470 m der zweittiefste See der Welt.",
+      "Mit rund 670 km ist der Tanganjikasee zugleich der längste Süßwassersee der Erde."
+    ],
+    "q": {
+      "q": "Welcher tiefe Grabensee liegt unterhalb der südlichen Mitumba-Berge?",
+      "a": "Der Tanganjikasee",
+      "x": [
+        "Der Malawisee",
+        "Der Victoriasee"
+      ]
+    }
+  },
+  "ne-rg-1730073365": {
+    "t": "Rote Plateaus, die die Kaffeetassen der Welt füllen",
+    "s": "Hinter Vietnams Küste steigt das Land zum Zentralen Hochland an, einer Folge von Basaltplateaus mit fruchtbarem rotem Boden. Suchen Sie vom Fenster aus einen grün-rostfarbenen Flickenteppich: Reihen von Kaffeesträuchern, Pfeffer- und Kautschukplantagen, dazwischen vereinzelte Vulkankegel und Seen. Der meiste Kaffee Vietnams wächst hier und macht das Land zum zweitgrößten Kaffeeproduzenten der Welt.",
+    "w": "Wellige Plateaus aus roter Erde, gemustert von grünen Plantagen, ein paar runde Vulkankegel und im Osten bewaldete Berge.",
+    "f": [
+      "Buôn Ma Thuột gilt oft als Kaffeehauptstadt Vietnams.",
+      "Der meiste hier angebaute Kaffee ist Robusta, eine robustere Art mit kräftigerem Geschmack als Arabica."
+    ],
+    "q": {
+      "q": "Welche Kulturpflanze machte Vietnams Zentrales Hochland berühmt?",
+      "a": "Kaffee",
+      "x": [
+        "Tee",
+        "Kakao"
+      ]
+    }
+  },
+  "ne-rg-1730073373": {
+    "t": "Sibiriens wilde Kämme zwischen Jenissei und Baikal",
+    "s": "Der Östliche Sajan erstreckt sich rund 1.000 km vom Jenissei Richtung Baikalsee, eine Wildnis aus scharfen, kahlen Gipfeln, tiefen Tälern und Taiga. Aus Reiseflughöhe sehen Sie Kamm um Kamm, den größten Teil des Jahres schneegestreift, und Flüsse wie Kan und Oka, die zu Jenissei und Angara hinausfließen. Der höchste Gipfel, der Munku-Sardyk, steht an der Grenze zur Mongolei.",
+    "w": "Kamm um Kamm scharfer, schneegestreifter Gipfel mit dunkler Taiga in den Tälern, nach Südosten Richtung Baikal.",
+    "f": [
+      "Der Munku-Sardyk (3.491 m) ist der höchste Gipfel des Östlichen Sajan.",
+      "Die Tofalaren, eines der kleinsten Völker Russlands, leben in den abgelegenen Nordtälern des Gebirges.",
+      "Im Tal der Vulkane auf dem Oka-Plateau stehen junge Lavafelder und Kegel mitten in der Taiga."
+    ],
+    "q": {
+      "q": "Welcher ist der höchste Gipfel des Östlichen Sajan?",
+      "a": "Munku-Sardyk",
+      "x": [
+        "Belucha",
+        "Pik Pobeda"
+      ]
+    }
+  },
+  "Q201678": {
+    "t": "Wo sich Sibiriens Flüsse für zwei Ozeane trennen",
+    "s": "Das Jablonowygebirge zieht sich rund 650 km durch Transbaikalien, eine Reihe runder, bewaldeter Kämme, die kaum wie eine große Barriere aussieht. Und doch ist es eine: Regen an den Westhängen fließt über Selenga und Baikal zum Nordpolarmeer, Regen im Osten landet im Amur und im Pazifik. Am Ostfuß liegt die Stadt Tschita.",
+    "w": "Niedrige, runde, dunkel bewaldete Kämme nach Nordosten, weite Täler und am Südostfuß die Stadt Tschita.",
+    "f": [
+      "Die Transsibirische Eisenbahn überquert das Gebirge am Jablonowy-Pass, gleich westlich von Tschita.",
+      "Der Name klingt wie das russische Wort für „Apfel“, seine wahre Herkunft ist jedoch umstritten."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt am Ostfuß des Jablonowygebirges?",
+      "a": "Tschita",
+      "x": [
+        "Irkutsk",
+        "Ulan-Ude"
+      ]
+    }
+  },
+  "ne-rg-1730073417": {
+    "t": "Dunkle Berge und Lavafelder am Roten Meer",
+    "s": "Entlang der Küste Arabiens am Roten Meer steigen die Hedschas-Berge steil aus einer schmalen Küstenebene auf und fallen nach Osten sanft ins Landesinnere ab. Aus 11 km Höhe sind sie ein Durcheinander aus dunklem Granit und braunem Sandstein, dahinter breiten sich große schwarze Lavafelder – Harrats – über das Plateau. Suchen Sie bei Al-Ula warmfarbene Sandsteinklippen und Täler, wo die Nabatäer ihre Gräber in den Fels schlugen.",
+    "w": "Steile dunkle Berge über einem dünnen Küstenstreifen, dahinter schwarze Lavafelder auf dem Plateau und orangefarbener Sandstein um Al-Ula.",
+    "f": [
+      "Hegra bei Al-Ula hat mehr als 100 nabatäische Gräber im Sandstein und war Saudi-Arabiens erste UNESCO-Stätte.",
+      "Die 1908 eröffnete Hedschasbahn führte durch diese Berge von Damaskus nach Medina."
+    ],
+    "q": {
+      "q": "Wie heißen Arabiens schwarze Lavafelder?",
+      "a": "Harrats",
+      "x": [
+        "Sabchas",
+        "Ergs"
+      ]
+    }
+  },
+  "Q730673": {
+    "t": "Arabiens grünes, nebliges Hochland über dem Roten Meer",
+    "s": "Für Arabien überraschend: Der Asir ist grün. Diese Berge im Südwesten der Halbinsel steigen auf rund 3.000 m an und fangen Monsunregen und Nebel vom Roten Meer ab, sodass ihre Hänge Wacholderwald und uralte Ackerterrassen tragen. Suchen Sie von oben eine dunkle, schroffe Stufe, die steil zur heißen Küstenebene der Tihama abfällt, auf der anderen Seite Wüste bis zum Horizont.",
+    "w": "Eine dunkle, schroffe Stufe mit grünem Schimmer und Terrassenhängen, die nach Westen steil zu einer heißen Küstenebene abfällt.",
+    "f": [
+      "Der Jabal Sawda bei Abha ist rund 3.000 m hoch und gilt meist als höchster Gipfel Saudi-Arabiens.",
+      "Al-Qatt Al-Asiri, die leuchtend geometrische Wandmalerei der Frauen im Asir, steht auf der UNESCO-Liste des immateriellen Kulturerbes."
+    ],
+    "q": {
+      "q": "Was macht den Asir für Arabien ungewöhnlich grün?",
+      "a": "Monsunregen und Nebel",
+      "x": [
+        "Schmelzwasser von Gletschern",
+        "Aus dem Nil geleitetes Wasser"
+      ]
+    }
+  },
+  "Q484725": {
+    "t": "Mauer zwischen grünem Kaspimeer und Irans trockenem Hochland",
+    "s": "Das Elburs-Gebirge bildet eine scharfe Mauer zwischen zwei Welten: Im Norden fallen Hänge mit dichtem grünem Hyrkanischem Wald zum Kaspischen Meer ab, im Süden blicken kahle braune Kämme auf das trockene iranische Hochland und das Häusermeer Teherans. Über allem erhebt sich der Damavand, ein einzelner, fast vollkommener Vulkankegel von rund 5.600 m, oft selbst im Sommer schneeweiß.",
+    "w": "Ein einzelner, schneebedeckter Vulkankegel über einem langen Kamm, grüner Wald zur Kaspischen Seite, kahle braune Hänge Richtung Teheran.",
+    "f": [
+      "Der Damavand ist der höchste Gipfel Irans und der höchste Vulkan Asiens.",
+      "Die Hyrkanischen Wälder an den Nordhängen, Relikte jahrmillionenalter Wälder, sind UNESCO-Welterbe.",
+      "Teheran breitet sich am Südfuß des Elburs aus, seine nördlichen Viertel klettern die Hänge hinauf."
+    ],
+    "q": {
+      "q": "Welcher einzelne Vulkankegel ist der höchste Gipfel Irans?",
+      "a": "Damavand",
+      "x": [
+        "Sabalan",
+        "Taftan"
+      ]
+    }
+  },
+  "Q143014": {
+    "t": "Wo die Anden zum Amazonas und zum Chaco hinabsteigen",
+    "s": "Die Ostkordillere ist die Ostflanke der Anden, wo die Berge ihren langen Abstieg ins Tiefland beginnen. In Bolivien ist sie ein Labyrinth aus roten, ockerfarbenen und grünen Kämmen, zerschnitten von tiefen Tälern, dazwischen die weiße Kolonialstadt Sucre in rund 2.800 m Höhe. Weiter östlich werden die Kämme zu bewaldeten Vorbergen und dann zu den flachen Ebenen von Chaco und Amazonas.",
+    "w": "Gefaltete rote, ockerfarbene und grüne Kämme mit tiefen Tälern, nach Osten übergehend in bewaldete Vorberge und flache Tieflandebenen.",
+    "f": [
+      "Bei Sucre bewahrt eine Steinbruchwand namens Cal Orck'o Tausende Dinosaurierspuren, fast senkrecht aufgerichtet.",
+      "Sucre, Boliviens verfassungsmäßige Hauptstadt, heißt wegen ihrer weiß getünchten Kolonialbauten die Weiße Stadt."
+    ],
+    "q": {
+      "q": "Welche bolivianische Stadt in der Ostkordillere heißt die Weiße Stadt?",
+      "a": "Sucre",
+      "x": [
+        "Potosí",
+        "Cochabamba"
+      ]
+    }
+  },
+  "ne-rg-1730073543": {
+    "t": "Steinland der Aborigines ganz oben in Australien",
+    "s": "Arnhemland im Nordosten des australischen Northern Territory ist eine der größten Regionen Australiens in Aborigine-Besitz, und Besucher brauchen eine Genehmigung. Vom Fenster aus sehen Sie ein schroffes Sandsteinplateau – das „Steinland“ –, von Schluchten zerschnitten, dann weite Überschwemmungsebenen und mangrovengesäumte Flüsse, die in der Regenzeit zu glänzenden Wasserflächen werden. Seine Felskunst gehört zur ältesten und reichsten der Erde.",
+    "w": "Ein schroffes, von Schluchten zerschnittenes Sandsteinplateau, weite grüne Überschwemmungsebenen und gewundene, mangrovengesäumte Flüsse nach Norden.",
+    "f": [
+      "Die Rindenpetitionen der Yolŋu, 1963 an Australiens Parlament geschickt, waren ein Meilenstein der Landrechtsbewegung der Aborigines.",
+      "Zur Felskunst Arnhemlands gehören „Röntgenbilder“, die Knochen und Organe von Tieren zeigen."
+    ],
+    "q": {
+      "q": "Was zeigen die berühmten „Röntgenbilder“ Arnhemlands?",
+      "a": "Knochen und Organe von Tieren",
+      "x": [
+        "Sternkarten",
+        "Meeresströmungen"
+      ]
+    }
   }
 }

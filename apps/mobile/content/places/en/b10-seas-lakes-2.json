@@ -1,0 +1,344 @@
+{
+  "Q1458409": {
+    "t": "Where the rivers of northern Karelia gather",
+    "s": "Its name is usually read as 'main lake', and Pyaozero earns it: rivers from the forested hills pour in from all sides, among them the Olanga from Paanajärvi National Park. The water then leaves by the Kuma and travels on to the White Sea. In 1966 a dam raised the level, and the lake became part of the Kumskoye Reservoir. The Arctic Circle runs only about 60 km to the north.",
+    "w": "A large, ragged lake full of islands and bays in dark forest, just south of the Arctic Circle and west of the White Sea.",
+    "f": [
+      "Its open water covers about 659 km², not counting the islands.",
+      "Water leaving by the Kuma reaches the White Sea through Kovdozero and the Kovda River.",
+      "Topozero, to the south, drains into Pyaozero by the Sofyanga River."
+    ],
+    "q": {
+      "q": "Which sea does Pyaozero's water eventually reach?",
+      "a": "The White Sea",
+      "x": [
+        "The Baltic Sea",
+        "The Barents Sea"
+      ]
+    }
+  },
+  "Q1247231": {
+    "t": "The largest lake wholly inside New York State",
+    "s": "Lake Champlain and the Great Lakes are bigger, but New York shares them; Oneida is the largest lake that lies entirely within the state. It is long and surprisingly shallow — about 34 km from end to end, yet on average only some 7 m deep — so a strong wind quickly whips up steep waves. The modern Erie Canal route runs straight across it.",
+    "w": "A long, pale-blue lake lying east–west, just north-east of the sprawl of Syracuse.",
+    "f": [
+      "Boats on the Erie Canal enter the lake at Sylvan Beach in the east and leave it at Brewerton in the west.",
+      "In winter the lake usually freezes over and fills with ice-fishing shanties.",
+      "It is named after the Oneida, one of the six nations of the Haudenosaunee (Iroquois) Confederacy."
+    ],
+    "q": {
+      "q": "Which canal's modern route runs across Oneida Lake?",
+      "a": "The Erie Canal",
+      "x": [
+        "The Champlain Canal",
+        "The Welland Canal"
+      ]
+    }
+  },
+  "Q1335725": {
+    "t": "The Y-shaped Finger Lake with a flying past",
+    "s": "All the other Finger Lakes are straight blades of water; only Keuka forks, and from the air it looks like a slightly crooked letter Y — early settlers simply called it Crooked Lake. At its southern tip lies Hammondsport, home town of the aviation pioneer Glenn Curtiss. In 1908 his June Bug made the first publicly announced aeroplane flight in America there.",
+    "w": "A forked, Y-shaped lake among long parallel lakes, just west of the much longer, straight Seneca Lake.",
+    "f": [
+      "Keuka drains into Seneca Lake through a short outlet stream that drops about 80 m on the way.",
+      "Glenn Curtiss was born in Hammondsport in 1878 and built engines and aircraft there.",
+      "The steep slopes around the lake are at the heart of the Finger Lakes wine region."
+    ],
+    "q": {
+      "q": "What shape sets Keuka apart from the other Finger Lakes?",
+      "a": "A letter Y",
+      "x": [
+        "A ring",
+        "A letter S"
+      ]
+    }
+  },
+  "Q1552706": {
+    "t": "The deepest Finger Lake, its floor below sea level",
+    "s": "Glaciers gouged the Finger Lakes like claw marks, and Seneca is the deepest scratch of all: about 188 m. Its surface lies roughly 136 m above sea level, so the bottom of this inland lake sits well below the level of the ocean. With so much water, it cools slowly and almost never freezes over, even in hard upstate winters.",
+    "w": "A long, narrow north–south lake at the centre of the Finger Lakes, with Geneva at its northern end.",
+    "f": [
+      "The lake is about 60 km long but nowhere much more than 5 km wide.",
+      "Watkins Glen, at its southern tip, is famous for a narrow gorge with 19 waterfalls.",
+      "Seneca holds more water than any other Finger Lake."
+    ],
+    "q": {
+      "q": "Roughly how deep is Seneca Lake at its deepest point?",
+      "a": "About 190 m",
+      "x": [
+        "About 60 m",
+        "About 400 m"
+      ]
+    }
+  },
+  "Q731175": {
+    "t": "The longest Finger Lake, with Ithaca at its tip",
+    "s": "At about 61 km, Cayuga is the longest of the Finger Lakes — a slim blue line you can follow almost from end to end on a clear day. Ithaca and Cornell University sit at its southern tip, where gorges cut down through the hills. At the flat northern end the lake melts into the Montezuma marshes, a major stop for migrating geese and ducks.",
+    "w": "The longest lake of the group, running north–south just east of Seneca Lake, with Ithaca at its southern end.",
+    "f": [
+      "Taughannock Falls, near the west shore, drops about 65 m — higher than Niagara Falls.",
+      "At some 133 m deep, Cayuga's floor also lies below sea level.",
+      "A canal links Cayuga to Seneca Lake, its neighbour to the west."
+    ],
+    "q": {
+      "q": "Which university stands at the southern end of Cayuga Lake?",
+      "a": "Cornell",
+      "x": [
+        "Syracuse",
+        "Colgate"
+      ]
+    }
+  },
+  "Q945023": {
+    "t": "A wild lake on the sandstone of the Athabasca Basin",
+    "s": "Cree Lake spreads across about 1,435 km² of northern Saskatchewan, a maze of islands and bays in unbroken boreal forest. It lies almost wholly within the Athabasca Basin, a vast bowl of ancient sandstone that also hides the world's richest uranium ore. Its water leaves northward by the Cree River and, lake by lake, finds its way to Lake Athabasca.",
+    "w": "A big, island-studded lake in continuous dark forest, about 200 km south of Lake Athabasca.",
+    "f": [
+      "At about 1,435 km², it is the fourth-largest lake in Saskatchewan.",
+      "The Cree River carries its water north to Black Lake, which drains into Lake Athabasca.",
+      "The Athabasca Basin holds the highest-grade uranium deposits known anywhere."
+    ],
+    "q": {
+      "q": "Which way does water leave Cree Lake?",
+      "a": "North, by the Cree River",
+      "x": [
+        "South, to the Churchill River",
+        "West, to the Peace River"
+      ]
+    }
+  },
+  "Q719538": {
+    "t": "Source of the Kazan, near Canada's 'four corners'",
+    "s": "Only a few dozen kilometres to the south is the one point in Canada where four provinces and territories meet: Saskatchewan, Manitoba, Nunavut and the Northwest Territories, at 60° N, 102° W. Kasba Lake itself is the source of the Kazan River, which runs about 1,000 km north to Baker Lake. Here the spruce forest is already thinning towards the tundra.",
+    "w": "A large, many-armed lake in sparse spruce forest, just north of the point where four Canadian provinces and territories meet.",
+    "f": [
+      "The lake covers about 1,341 km²; most of it is in the Northwest Territories, a small part in Nunavut.",
+      "The Kazan River flows from Kasba about 1,000 km north to Baker Lake in Nunavut.",
+      "It lies close to the tree line, where the northern forest breaks up into open tundra."
+    ],
+    "q": {
+      "q": "Which river begins at Kasba Lake?",
+      "a": "The Kazan",
+      "x": [
+        "The Thelon",
+        "The Back"
+      ]
+    }
+  },
+  "Q1699973": {
+    "t": "Two round lakes, two asteroids, 175 million years apart",
+    "s": "Two almost perfectly round lakes lie side by side here, and both fill meteorite craters. The western one, about 36 km across, holds a striking ring of islands left by the impact. For decades the pair was taken for twins made by one double asteroid, but newer dating shows the eastern crater is roughly 175 million years older. In English they are the Clearwater Lakes.",
+    "w": "Two round lakes side by side in the northern forest, the larger western one with a neat ring of islands inside it.",
+    "f": [
+      "The western crater formed about 286 million years ago, the eastern one about 460–470 million years ago.",
+      "The western lake is about 36 km across, the eastern about 26 km.",
+      "The lakes lie in northern Quebec, roughly 100 km inland from the east coast of Hudson Bay."
+    ],
+    "q": {
+      "q": "What made the two round Clearwater Lakes?",
+      "a": "Two meteorite impacts",
+      "x": [
+        "Two volcanic calderas",
+        "Two glacial kettle holes"
+      ]
+    }
+  },
+  "Q1356838": {
+    "t": "The fur traders' shortcut from Montreal to the west",
+    "s": "For two centuries of canoe travel, this lake was the hinge of the route west: paddlers came up the Ottawa and Mattawa rivers from Montreal, carried their canoes over a low height of land, then crossed Lake Nipissing and ran down the French River to Georgian Bay. Samuel de Champlain came this way in 1615. Today North Bay spreads along its north-eastern shore.",
+    "w": "A wide, shallow lake with a scalloped shore and several large islands, with the city of North Bay on its north-eastern corner.",
+    "f": [
+      "Although it covers about 870 km², the lake averages only around 4.5 m deep.",
+      "Its water flows west down the French River into Georgian Bay, part of Lake Huron.",
+      "Champlain crossed it in 1615 on his way to the country of the Huron-Wendat."
+    ],
+    "q": {
+      "q": "Which river carries Lake Nipissing's water to Georgian Bay?",
+      "a": "The French River",
+      "x": [
+        "The Mattawa River",
+        "The Ottawa River"
+      ]
+    }
+  },
+  "Q1799611": {
+    "t": "A northern lake turned into a channel for diverted rivers",
+    "s": "East of James Bay the taiga is a patchwork of lakes, bogs and black spruce, and Lake Sakami is one of its bigger pieces. It has also become part of an engineered water route: rivers farther south are diverted northward, and their water passes through Sakami on its way to the Robert-Bourassa Reservoir and the turbines of the La Grande River. A weir at its outlet keeps the lake from rising too high.",
+    "w": "An irregular lake in flat, lake-strewn taiga, just south of the vast Robert-Bourassa Reservoir, about 140 km east of James Bay.",
+    "f": [
+      "Water diverted from the Eastmain and Opinaca rivers flows through Sakami towards the La Grande power stations.",
+      "A canal with a concrete weir at the outlet limits how high the lake can rise.",
+      "The land around it is part of Eeyou Istchee, the Cree territory of James Bay."
+    ],
+    "q": {
+      "q": "Which reservoir receives the water flowing through Lake Sakami?",
+      "a": "Robert-Bourassa",
+      "x": [
+        "Manicouagan",
+        "Smallwood"
+      ]
+    }
+  },
+  "Q7359166": {
+    "t": "A lake cut in two by the 60th parallel",
+    "s": "The ruler-straight line that divides Saskatchewan from the Northwest Territories, the 60th parallel, runs right through Scott Lake, so its water lies in two jurisdictions at once. On the ground nothing marks the border: only rocky shores, islands and dark spruce. The nearest community, Stony Rapids, is about 80 km to the south-east, and the lake's fishing lodge is reached by air.",
+    "w": "A branching lake of rocky shores and islands in forest, lying on the 60° N line north-west of Stony Rapids.",
+    "f": [
+      "The 60th parallel forms the whole northern border of Saskatchewan, about 445 km long.",
+      "At this latitude the midsummer sun stays up for nearly 19 hours.",
+      "Like most lakes here, it fills a hollow scraped into the Canadian Shield by Ice Age glaciers."
+    ],
+    "q": {
+      "q": "Which line runs through Scott Lake?",
+      "a": "The 60th parallel north",
+      "x": [
+        "The Arctic Circle",
+        "The 49th parallel north"
+      ]
+    }
+  },
+  "Q923693": {
+    "t": "A mountain lake inside a supervolcano",
+    "s": "At 2,357 m above sea level, Yellowstone Lake is the largest lake in North America at such a height — and it rests inside the caldera of one of the world's great volcanic systems. Its western bay, West Thumb, is itself a smaller caldera, and hot springs vent from the lake floor. Ice usually seals the surface from December until late May or June.",
+    "w": "A big lake shaped like an open hand, ringed by dark forest in the middle of the Yellowstone plateau.",
+    "f": [
+      "Even from 11,000 m you are only about 8.6 km above its surface.",
+      "West Thumb formed in a volcanic eruption roughly 170,000 years ago.",
+      "Hot springs and steam vents on the lake bottom warm the water in places."
+    ],
+    "q": {
+      "q": "What is West Thumb, the western bay of Yellowstone Lake?",
+      "a": "A small volcanic caldera",
+      "x": [
+        "A drowned river valley",
+        "A meteorite crater"
+      ]
+    }
+  },
+  "Q3518981": {
+    "t": "The giant among Arctic Alaska's thaw lakes",
+    "s": "Alaska's North Slope is freckled with thousands of oval lakes, many lined up in the same direction by the prevailing wind. Teshekpuk is the giant among them: some 800 km² of shallow water barely above sea level, close to the Beaufort Sea. In summer tens of thousands of geese gather here to moult, and a caribou herd named after the lake calves on the tundra around it.",
+    "w": "A huge, pale lake among countless smaller oval ponds on flat tundra, a short way inland from the Arctic Ocean coast.",
+    "f": [
+      "It is the largest lake on Alaska's Arctic coastal plain, about 130 km south-east of Utqiaġvik.",
+      "Most lakes around it are thermokarst lakes, formed where permafrost thawed and the ground sank.",
+      "The Teshekpuk caribou herd takes its name from the lake."
+    ],
+    "q": {
+      "q": "What formed most of the lakes around Teshekpuk?",
+      "a": "Thawing permafrost",
+      "x": [
+        "Volcanic craters",
+        "Meteorite impacts"
+      ]
+    }
+  },
+  "Q1427364": {
+    "t": "The biggest natural freshwater lake in the western US",
+    "s": "Glaciers carved this basin at the foot of the Rockies, and Flathead Lake now fills it, roughly 45 km long. By surface area it is the largest natural freshwater lake west of the Mississippi in the lower 48 states. Sweet-cherry orchards line its eastern shore, and Wild Horse Island, near the west side, is a state park where bighorn sheep and a few wild horses roam.",
+    "w": "A large blue lake at the head of a broad valley, with steep, often snowy mountains along its eastern side.",
+    "f": [
+      "The southern half of the lake lies within the Flathead Indian Reservation.",
+      "A dam at the southern outlet near Polson controls the top few metres of the lake's level.",
+      "The peaks of Glacier National Park rise to the north-east."
+    ],
+    "q": {
+      "q": "Which animals share Wild Horse Island with a few wild horses?",
+      "a": "Bighorn sheep",
+      "x": [
+        "Bison",
+        "Mountain goats"
+      ]
+    }
+  },
+  "Q1534419": {
+    "t": "Alberta's biggest lake, lost in a vast delta",
+    "s": "Lake Claire is the largest lake lying entirely inside Alberta, yet it is very shallow — a broad sheet of water spread across the Peace–Athabasca Delta, one of the largest inland deltas in the world. Around it stretch sedge meadows, winding channels and willow flats inside Wood Buffalo National Park, where herds of free-roaming wood bison still graze.",
+    "w": "A broad, shallow lake just west of Lake Athabasca, in a green-and-brown maze of delta channels and meadows.",
+    "f": [
+      "Wood Buffalo is Canada's largest national park — bigger than Switzerland.",
+      "The Peace and Athabasca rivers feed the delta, and the lake rises and falls with their floods.",
+      "The park became a UNESCO World Heritage site in 1983."
+    ],
+    "q": {
+      "q": "Which national park surrounds Lake Claire?",
+      "a": "Wood Buffalo",
+      "x": [
+        "Jasper",
+        "Prince Albert"
+      ]
+    }
+  },
+  "Q4539001": {
+    "t": "The smaller of Yamal's two 'sandy-shore' lakes",
+    "s": "In the Nenets language 'to' means lake, and Yarroto is usually explained as 'lake with sandy shores'. There are two of them in southern Yamal; this one, the Second, covers about 154 km² but is no more than 8 m deep. For eight or nine months a year it is locked in ice, and in summer it glitters among thousands of smaller tundra lakes.",
+    "w": "A large rounded lake with pale margins among countless smaller lakes, north-west of its bigger twin, Yarroto First.",
+    "f": [
+      "The lake is about 21 km long and 8 km wide.",
+      "Nenets herders drive their reindeer across Yamal on long seasonal migrations.",
+      "Its fish include the peled, a whitefish common in Siberian lakes."
+    ],
+    "q": {
+      "q": "What does the Nenets word 'to' mean in names like Yarroto?",
+      "a": "Lake",
+      "x": [
+        "River",
+        "Hill"
+      ]
+    }
+  },
+  "Q1520895": {
+    "t": "Western Siberia's biggest lake — and a shallow one",
+    "s": "Lake Chany is the largest lake in Western Siberia, yet you could wade across much of it: the average depth is only about two metres. It has no outlet, so it swells and shrinks with wet and dry decades, and its water is slightly salty. From above it is a ragged patchwork of open water, reed beds and islands on the flat Baraba steppe.",
+    "w": "A big, irregular sheet of grey-blue water with reedy bays and islands on flat steppe, about 350 km west of Novosibirsk.",
+    "f": [
+      "Two rivers, the Kargat and the Chulym, flow into the lake, and none flows out.",
+      "The lake is made up of several linked basins, including Big Chany and Small Chany.",
+      "Its reed beds shelter huge numbers of ducks, grebes and gulls in summer."
+    ],
+    "q": {
+      "q": "How deep is Lake Chany on average?",
+      "a": "About 2 m",
+      "x": [
+        "About 20 m",
+        "About 50 m"
+      ]
+    }
+  },
+  "Q537374": {
+    "t": "Where a river from Mongolia ends on the grasslands",
+    "s": "The Kherlen River rises in the mountains north-east of Ulaanbaatar, loops across Mongolia and finally ends here, in Hulun Lake, one of the largest lakes in China. Around it roll the treeless Hulunbuir grasslands, green in summer and brown and white in winter. When the ice is thick, fishermen still haul long nets out from under it in a famous winter catch.",
+    "w": "A large oval lake on open, treeless grassland, south of the border town of Manzhouli.",
+    "f": [
+      "Its Russian name, Dalainor, comes from the Mongolian for 'sea lake'.",
+      "In wet years the lake spills through a channel into the Argun River, part of the Amur basin.",
+      "Its area changes with rainfall and has exceeded 2,000 km² in wet periods."
+    ],
+    "q": {
+      "q": "Which river flows from Mongolia into Hulun Lake?",
+      "a": "The Kherlen",
+      "x": [
+        "The Selenge",
+        "The Orkhon"
+      ]
+    }
+  },
+  "Q673169": {
+    "t": "The lake 'where the water meets the sky'",
+    "s": "Bangweulu is said to mean 'where the water meets the sky', and on a hazy day it lives up to it: a flat, shining lake fading into endless swamps and floodplains. The wetlands shelter the shoebill, a huge grey bird with a clog-shaped bill, and the black lechwe, an antelope found nowhere else. David Livingstone died near its southern swamps in 1873.",
+    "w": "A flat, silvery lake that merges into vast green-brown swamps to the east and south.",
+    "f": [
+      "Its water leaves by the Luapula River and ends up in the Congo, not the Nile.",
+      "Livingstone was still searching for the source of the Nile when he died at Chitambo's village.",
+      "In the rainy season the floodplains around the lake spread far beyond its open water."
+    ],
+    "q": {
+      "q": "Which great river system does Lake Bangweulu drain into?",
+      "a": "The Congo",
+      "x": [
+        "The Nile",
+        "The Zambezi"
+      ]
+    }
+  }
+}

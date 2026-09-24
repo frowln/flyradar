@@ -358,5 +358,365 @@
         "John Winthrop"
       ]
     }
+  },
+  "Q16567": {
+    "t": "A capital planned on a riverbank, ringed by a beltway",
+    "s": "Look for a ring road drawn around a city on flat farmland, with two rivers meeting right at its heart: that is Columbus, the capital of Ohio. It was laid out in 1812 as a brand-new capital on the Scioto. Today it is the state's largest city, and its mix of residents mirrors America so closely that companies test new products here first.",
+    "w": "A compact downtown where two rivers meet, inside a round beltway, amid flat, square-cut Ohio farmland.",
+    "f": [
+      "Columbus was chosen as Ohio's capital in 1812, when the site was little more than forest.",
+      "Fast-food chains and retailers often trial new products in Columbus because its population resembles the US average.",
+      "Ohio State University, on the Olentangy River, is one of the largest universities in the country."
+    ],
+    "q": {
+      "q": "Which two rivers meet in downtown Columbus, Ohio?",
+      "a": "The Scioto and the Olentangy",
+      "x": [
+        "The Muskingum and the Scioto",
+        "The Maumee and the Olentangy"
+      ]
+    }
+  },
+  "Q163749": {
+    "t": "The mainland town built to serve an island resort",
+    "s": "A narrow lagoon runs along Florida's coast here, and a skinny barrier island lies beyond it. The island is Palm Beach, where Henry Flagler built grand hotels in the 1890s; West Palm Beach, on the mainland, was laid out for the people who worked in them. Now the working town is the bigger city, and inland lies the vast Lake Okeechobee.",
+    "w": "A long lagoon between the mainland and a thin barrier island; far to the west, the huge round Lake Okeechobee.",
+    "f": [
+      "Henry Flagler founded West Palm Beach in 1894 as a town for workers at his island resorts.",
+      "Lake Okeechobee, one of the largest freshwater lakes in the US, lies about 60 km west.",
+      "The Lake Worth Lagoon separates the city from the island of Palm Beach."
+    ],
+    "q": {
+      "q": "Which railway tycoon founded West Palm Beach?",
+      "a": "Henry Flagler",
+      "x": [
+        "Cornelius Vanderbilt",
+        "Henry Plant"
+      ]
+    }
+  },
+  "ne-pp-1159148899": {
+    "t": "A quilombo village on a river in Brazil's far north",
+    "s": "This Vila Velha is not the big city in Espírito Santo but a small village of the same name, far to the north on the Cassiporé River in the state of Amapá. In 2016 it was recognised as a quilombo, a community descended from people who escaped slavery. Around it, forest gives way to wet grasslands and mangroves on the way to the Atlantic.",
+    "w": "A river winding through green forest and pale flooded grassland near the Atlantic coast, north of the Amazon's mouth.",
+    "f": [
+      "The village belongs to the municipality of Oiapoque, which borders French Guiana.",
+      "At about 3° north, it lies only some 350 km from the equator.",
+      "The Cassiporé River runs from the forested interior of Amapá to the Atlantic."
+    ],
+    "q": {
+      "q": "In which Brazilian state is Vila Velha do Cassiporé?",
+      "a": "Amapá",
+      "x": [
+        "Pará",
+        "Roraima"
+      ]
+    }
+  },
+  "Q334197": {
+    "t": "The old town facing the island capital",
+    "s": "The name means 'Old Town', and it's earned: founded in 1535, this is the oldest settlement in Espírito Santo. The colony's seat soon moved across the bay to the island of Vitória, but Vila Velha kept growing. Today it is the bigger of the two, a line of beaches and high-rises facing the ocean, with a convent crowning a granite hill.",
+    "w": "Long ocean beaches south of the bay mouth, facing the island city of Vitória; a steep granite hill near the water.",
+    "f": [
+      "The Penha Convent, begun in the 16th century, sits on a granite hill above the bay.",
+      "The Garoto chocolate factory, one of Brazil's best-known brands, is in Vila Velha.",
+      "A tall bridge completed in 1989, the Terceira Ponte, links the city with Vitória."
+    ],
+    "q": {
+      "q": "What does the name Vila Velha mean?",
+      "a": "Old Town",
+      "x": [
+        "New Harbour",
+        "Holy Hill"
+      ]
+    }
+  },
+  "Q52535": {
+    "t": "The flag's birthplace on a mighty brown river",
+    "s": "The Paraná here is a broad brown river, and beyond its main channel a maze of green islands and wetlands stretches for many kilometres. Rosario spreads along the western bank, and from its river ports much of Argentina's grain heads to sea. In 1812 General Manuel Belgrano first raised the country's blue-and-white flag on this riverbank. Lionel Messi grew up here.",
+    "w": "A large city on the west bank of a wide brown river; opposite, a maze of green islands crossed by a long straight causeway.",
+    "f": [
+      "Manuel Belgrano first raised the Argentine flag on the bank of the Paraná here on 27 February 1812.",
+      "A bridge and a causeway about 60 km long cross the delta islands to the town of Victoria.",
+      "The river ports around Rosario ship a large part of Argentina's soybean harvest."
+    ],
+    "q": {
+      "q": "Which football star was born in Rosario?",
+      "a": "Lionel Messi",
+      "x": [
+        "Diego Maradona",
+        "Gabriel Batistuta"
+      ]
+    }
+  },
+  "Q168888": {
+    "t": "Turquoise reefs on one side, a lagoon on the other",
+    "s": "Maceió is squeezed between two waters: a big brown lagoon inland and a turquoise sea edged by reefs. At low tide, sail rafts called jangadas carry swimmers out to natural pools on the reef. Rows of coconut palms line the shore. The whole state, Alagoas, is named after its lagoons, and Maceió has been its capital since 1839.",
+    "w": "A coastal city between a large lagoon and the Atlantic; pale reef lines and turquoise water just offshore.",
+    "f": [
+      "The state's name, Alagoas, means 'lagoons' in Portuguese.",
+      "Maceió took over as the capital of Alagoas in 1839.",
+      "The natural pools off Pajuçara beach are reached by jangada only at low tide."
+    ],
+    "q": {
+      "q": "What does the name of Maceió's state, Alagoas, mean?",
+      "a": "Lagoons",
+      "x": [
+        "Mangroves",
+        "Coconut groves"
+      ]
+    }
+  },
+  "Q16559": {
+    "t": "Hill Country meets prairie, and a million bats",
+    "s": "Austin sits right on a geological seam: to the west the wooded Hill Country, to the east flat prairie farmland. The Colorado River has been dammed into a chain of narrow lakes that wind through the hills. The capital of Texas calls itself the live-music capital of the world, and on summer evenings a cloud of bats spirals out from under a downtown bridge.",
+    "w": "A chain of narrow, winding lakes in wooded hills west of the city; flat farmland to the east.",
+    "f": [
+      "Up to 1.5 million Mexican free-tailed bats roost under the Congress Avenue Bridge in summer.",
+      "The Balcones Escarpment, the edge between hills and plains, runs through the city.",
+      "The Texas Capitol in Austin stands a few metres taller than the US Capitol in Washington."
+    ],
+    "q": {
+      "q": "What colony lives under Austin's Congress Avenue Bridge?",
+      "a": "Free-tailed bats",
+      "x": [
+        "Brown pelicans",
+        "Monarch butterflies"
+      ]
+    }
+  },
+  "Q386991": {
+    "t": "A green oasis on a riverbed that is usually dry",
+    "s": "In the middle of the northern Mexican desert, a large green patch of irrigated fields appears: La Laguna. Torreón is its biggest city, and across a mostly dry riverbed lie its twins, Gómez Palacio and Lerdo, in another state. It is a young city: a ranch with a watchtower became a railway junction and was declared a city only in 1907.",
+    "w": "A large city on pale desert at the foot of bare, rocky ridges, beside a green irrigated oasis and a wide, dry riverbed.",
+    "f": [
+      "The name comes from the torreón, or watchtower, that stood on the original ranch.",
+      "Across the Nazas River, Gómez Palacio and Lerdo belong to the state of Durango, not Coahuila.",
+      "La Laguna's irrigated desert is one of Mexico's main dairy regions."
+    ],
+    "q": {
+      "q": "What gave Torreón its name?",
+      "a": "A watchtower",
+      "x": [
+        "A bullring",
+        "A silver mine"
+      ]
+    }
+  },
+  "Q79867": {
+    "t": "The Magic City, built on iron, coal and limestone",
+    "s": "Long wooded ridges run in parallel lines here, the southern end of the Appalachians, and Birmingham fills the valley between them. It was founded only in 1871, yet grew so fast it was nicknamed the Magic City. The reason lay in the ground: iron ore, coal and limestone, everything needed to make iron, were all within easy reach.",
+    "w": "A city in a long valley between parallel wooded ridges running south-west to north-east.",
+    "f": [
+      "Red Mountain, the ridge south of downtown, is named for the iron ore once mined in it.",
+      "A statue of Vulcan on Red Mountain is the largest cast-iron statue in the world.",
+      "Birmingham is the most populous metro area in Alabama."
+    ],
+    "q": {
+      "q": "What is Birmingham, Alabama, nicknamed?",
+      "a": "The Magic City",
+      "x": [
+        "The Queen City",
+        "The Gate City"
+      ]
+    }
+  },
+  "Q4709": {
+    "t": "A city of music and a sea of pilgrims",
+    "s": "On a dry plateau above the green valley of the Turbio River, Barquisimeto spreads out in long, straight avenues. Around it, the hills are scrubby and full of cacti. Venezuelans call it their musical capital. Every 14 January the city fills with an enormous crowd following the image of the Divina Pastora, one of the largest religious processions in the Americas.",
+    "w": "A large, regular grid on a plateau above a green river valley, surrounded by dry, brownish hills.",
+    "f": [
+      "The Divina Pastora procession carries the image from the town of Santa Rosa to the cathedral.",
+      "The city was founded in the 1550s by Spanish settlers and moved more than once before settling here.",
+      "Lara state is the home of the tamunangue, a cycle of folk dances in honour of St Anthony."
+    ],
+    "q": {
+      "q": "What is Barquisimeto often called?",
+      "a": "Venezuela's musical capital",
+      "x": [
+        "Venezuela's oil capital",
+        "Venezuela's garden city"
+      ]
+    }
+  },
+  "Q210307": {
+    "t": "A giant grid on a vanished lake",
+    "s": "Right beside Mexico City's airport runways lies an astonishingly regular grid of streets, packed tight with houses. That is Ciudad Nezahualcóyotl, built on the dried-out bed of Lake Texcoco. As the lake shrank in the 20th century, settlers flocked to the new land, and within a few decades it had over a million people. Its name honours a poet-king.",
+    "w": "A dense, rectangular street grid immediately east of Mexico City airport; the flat, pale remains of Lake Texcoco to the north-east.",
+    "f": [
+      "The city is named after Nezahualcóyotl, the 15th-century poet-king of Texcoco.",
+      "Every street stands on land that was the bed of Lake Texcoco.",
+      "It became a separate municipality only in 1963."
+    ],
+    "q": {
+      "q": "Who was Nezahualcóyotl, the city's namesake?",
+      "a": "A poet-king of Texcoco",
+      "x": [
+        "A Spanish viceroy",
+        "A revolutionary general"
+      ]
+    }
+  },
+  "Q131620": {
+    "t": "Born on Christmas Day, surrounded by dunes",
+    "s": "Near the north-eastern corner of Brazil, where the coast turns, white dunes pile up beside the sea and a river snakes into the Atlantic. Natal sits between them. The name means 'Christmas': the city was founded on 25 December 1599. At the river mouth, a star-shaped Portuguese fort still stands on the reef.",
+    "w": "A coastal city between a winding river mouth and bright white dunes, near the corner where Brazil's coast turns west.",
+    "f": [
+      "The Forte dos Reis Magos, begun in 1598, guards the mouth of the Potengi River.",
+      "Just south of the city, a single cashew tree at Pirangi spreads over some 8,500 m².",
+      "Dune buggies race over the Genipabu dunes, just north of the city."
+    ],
+    "q": {
+      "q": "What does the city name Natal mean?",
+      "a": "Christmas",
+      "x": [
+        "Easter",
+        "New Year"
+      ]
+    }
+  },
+  "Q49261": {
+    "t": "Desert fields watered by thousand-year-old canals",
+    "s": "East of Phoenix, the Valley of the Sun becomes one immense grid of streets, and Mesa is its eastern anchor. Mormon settlers founded it in 1878 and reopened canals first dug by the Hohokam people many centuries before. Beyond the last suburbs, the jagged Superstition Mountains rise out of the desert.",
+    "w": "An endless street grid in the desert east of Phoenix; the Salt River's pale bed to the north, jagged mountains to the east.",
+    "f": [
+      "The Hohokam dug hundreds of kilometres of irrigation canals here long before Europeans arrived.",
+      "Mesa is the third-largest city in Arizona, after Phoenix and Tucson.",
+      "The Superstition Mountains are said to hide the legendary Lost Dutchman's gold mine."
+    ],
+    "q": {
+      "q": "Which ancient people dug the canals that Mesa's settlers reused?",
+      "a": "The Hohokam",
+      "x": [
+        "The Ancestral Puebloans",
+        "The Olmecs"
+      ]
+    }
+  },
+  "Q28441": {
+    "t": "The island capital the French founded",
+    "s": "On Brazil's north coast a wide, muddy bay holds a large island, and on its north-western corner sits São Luís. The French founded it in 1612, the only Brazilian state capital with that origin, though the Portuguese took it within a few years. The tides here are among the biggest in Brazil, laying bare broad mudflats twice a day.",
+    "w": "A large island in a broad, silty bay on the northern coast; wide tidal flats and river mouths around it.",
+    "f": [
+      "The old town, with its tiled colonial facades, has been a UNESCO World Heritage site since 1997.",
+      "Tides in São Marcos Bay can rise and fall by about 7 m.",
+      "The city is named after King Louis XIII of France."
+    ],
+    "q": {
+      "q": "Which European nation founded São Luís in 1612?",
+      "a": "France",
+      "x": [
+        "The Netherlands",
+        "Spain"
+      ]
+    }
+  },
+  "Q49174": {
+    "t": "The showman's city on Long Island Sound",
+    "s": "Connecticut's biggest city faces Long Island across a broad sound, with ferries crossing the water between them. In the 19th century Bridgeport was a factory town of sewing machines, corsets and brass, and home to the showman P. T. Barnum, who wintered his circus here and even served as mayor. Its harbour sits at the mouth of a small river.",
+    "w": "A city on the north shore of Long Island Sound, about 90 km north-east of Manhattan; Long Island visible across the water.",
+    "f": [
+      "P. T. Barnum was elected mayor of Bridgeport in 1875.",
+      "General Tom Thumb, Barnum's famous small performer, was born here in 1838.",
+      "A car ferry runs from Bridgeport across the Sound to Port Jefferson on Long Island."
+    ],
+    "q": {
+      "q": "Which famous showman was once mayor of Bridgeport?",
+      "a": "P. T. Barnum",
+      "x": [
+        "Buffalo Bill Cody",
+        "Harry Houdini"
+      ]
+    }
+  },
+  "Q243766": {
+    "t": "A city of parks perched on a plateau",
+    "s": "Bucaramanga sits on a flat-topped shelf in the eastern Andes, and its western edge breaks off in steep, eroded slopes. It is known as the City of Parks for its many green squares. To the south-west, the Chicamocha River has carved a spectacular canyon. Locals snack on roasted big-bottomed ants, a Santander speciality.",
+    "w": "A city on a flat plateau whose edge drops in eroded slopes; higher Andean ridges to the east, a deep canyon to the south-west.",
+    "f": [
+      "Roasted hormigas culonas — 'big-bottomed ants' — are a traditional snack of the Santander region.",
+      "A cable car in Chicamocha National Park crosses the canyon from rim to river and up the far side.",
+      "The city lies at about 1,000 m, so its climate is warm but not stifling."
+    ],
+    "q": {
+      "q": "What is Bucaramanga's nickname?",
+      "a": "City of Parks",
+      "x": [
+        "City of Eternal Spring",
+        "City of Bridges"
+      ]
+    }
+  },
+  "Q333928": {
+    "t": "The garden city between the mountains and a lake",
+    "s": "North of Maracay, the coastal mountains are clothed in cloud forest; to the south-west spreads Lake Valencia, which has no outlet to the sea. The city fills the green valley between them. Its tree-lined avenues earned it the name Garden City. The forest above became Henri Pittier National Park, Venezuela's first, in 1937.",
+    "w": "A city in a green valley between forested coastal mountains and a large lake to its south-west.",
+    "f": [
+      "Henri Pittier National Park was created in 1937 as Venezuela's first national park.",
+      "Lake Valencia has no natural outlet: its rivers flow in, but none flows out.",
+      "The park's Portachuelo Pass is a famous crossing point for migrating birds."
+    ],
+    "q": {
+      "q": "What is special about Lake Valencia near Maracay?",
+      "a": "It has no outlet to the sea",
+      "x": [
+        "It is salt water",
+        "It fills a volcanic crater"
+      ]
+    }
+  },
+  "Q183124": {
+    "t": "A valley of eternal spring, watched by a giant Christ",
+    "s": "In the Bolivian Andes, a broad green valley opens between bare brown mountains, and Cochabamba fills its floor. At about 2,500 m, the climate is mild all year, so it is called the City of Eternal Spring. On a hill at the city's edge stands a statue of Christ with open arms, a little taller than the one in Rio.",
+    "w": "A green, cultivated valley floor ringed by bare mountains; a higher, often snow-dusted range along the north side.",
+    "f": [
+      "The Cristo de la Concordia, completed in 1994, is taller than Rio de Janeiro's Christ the Redeemer.",
+      "The Tunari range north of the city rises above 5,000 m.",
+      "The valley's farms have long made Cochabamba one of Bolivia's breadbaskets."
+    ],
+    "q": {
+      "q": "What is Cochabamba's nickname?",
+      "a": "City of Eternal Spring",
+      "x": [
+        "The White City",
+        "City of Kings"
+      ]
+    }
+  },
+  "Q204271": {
+    "t": "Named in hope of silver riches",
+    "s": "When gold and silver were found in the hills nearby in 1592, the Spanish added 'Potosí' to this city's name, hoping it would rival the fabled silver mountain in Bolivia. It never quite did, but it prospered. San Luis Potosí sits at about 1,860 m on a dry plateau of scrub and cactus, and its colonial core is full of pink stone.",
+    "w": "A large city on a high, dry plateau; rugged mountains to the south-west, pale scrubland in every direction.",
+    "f": [
+      "Gold and silver were found at Cerro de San Pedro, just east of the city, in 1592.",
+      "Its historic centre is part of the UNESCO-listed Camino Real de Tierra Adentro.",
+      "The city is the capital of the state of the same name in north-central Mexico."
+    ],
+    "q": {
+      "q": "Which famous mining town inspired the name San Luis Potosí?",
+      "a": "Potosí in Bolivia",
+      "x": [
+        "Zacatecas",
+        "Guanajuato"
+      ]
+    }
+  },
+  "Q16568": {
+    "t": "The biggest city in the lower 48 — by area",
+    "s": "Jacksonville covers more land than any other city in the contiguous United States, sprawling over forests, marshes and suburbs. Through the middle runs the broad St. Johns River, which flows north for most of its length before turning east to the Atlantic. In 1564 French Huguenots built Fort Caroline near its mouth, decades before the first English colony.",
+    "w": "A wide, dark river curving north then east through the city to the sea, crossed by several bridges; forests and marsh all around.",
+    "f": [
+      "By land area, Jacksonville is the largest city in the contiguous United States.",
+      "The St. Johns River flows north for most of its roughly 500 km.",
+      "Fort Caroline, founded in 1564, was one of the first European settlements in what is now the US."
+    ],
+    "q": {
+      "q": "Which way does Jacksonville's St. Johns River mainly flow?",
+      "a": "North",
+      "x": [
+        "South",
+        "West"
+      ]
+    }
   }
 }

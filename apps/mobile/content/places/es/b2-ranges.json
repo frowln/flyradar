@@ -1516,5 +1516,360 @@
         "Montañas celestiales"
       ]
     }
+  },
+  "Q186547": {
+    "t": "La espina de Noruega: hielo, fiordos y mesetas peladas",
+    "s": "Los Alpes escandinavos recorren unos 1700 km de la península, sobre todo por Noruega. Desde la ventanilla son menos una línea de picos que una vasta tierra alta y desnuda, raspada por el hielo, sembrada de lagos y neveros y tajada al oeste por fiordos profundos. En Jotunheimen, el «hogar de los gigantes», el terreno alcanza las cumbres más altas del norte de Europa.",
+    "w": "Mesetas desnudas gris pardas con neveros e incontables lagos, fiordos profundos que entran desde el oeste y glaciares en lo más alto.",
+    "f": [
+      "El Galdhøpiggen, de 2469 m, en Jotunheimen, es el pico más alto de Escandinavia.",
+      "El Jostedalsbreen es el mayor glaciar de la Europa continental.",
+      "Por la meseta de Dovrefjell pastan bueyes almizcleros, traídos de Groenlandia a mediados del siglo XX."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto de Noruega?",
+      "a": "Galdhøpiggen",
+      "x": [
+        "Glittertind",
+        "Snøhetta"
+      ]
+    }
+  },
+  "Q1288": {
+    "t": "Un gran arco boscoso que envuelve Transilvania",
+    "s": "Los Cárpatos se curvan por Europa central y oriental en un arco de unos 1500 km, y desde arriba se ve cómo acunan la cuenca de Transilvania como una herradura. Sus laderas guardan algunos de los mayores bosques de hayas y píceas que quedan en Europa, hogar de muchos osos pardos, lobos y linces. Solo en los Tatras se alzan en picos afilados de aspecto alpino.",
+    "w": "Una franja curva de crestas de bosque oscuro, con el mosaico de campos y pueblos de la cuenca de Transilvania dentro del arco.",
+    "f": [
+      "El Gerlachovský štít, en los Altos Tatras eslovacos, con 2655 m, es el pico más alto de los Cárpatos.",
+      "Los Cárpatos rumanos tienen una de las mayores poblaciones de osos pardos de Europa.",
+      "El Danubio atraviesa la cordillera en las Puertas de Hierro, un desfiladero en la frontera entre Serbia y Rumanía."
+    ],
+    "q": {
+      "q": "¿Dónde atraviesa el Danubio los Cárpatos?",
+      "a": "En las Puertas de Hierro",
+      "x": [
+        "En el valle de Wachau",
+        "En el meandro de Schlögen"
+      ]
+    }
+  },
+  "Q377264": {
+    "t": "La larga y huesuda espina de Italia",
+    "s": "Los Apeninos recorren unos 1200 km de Italia, de Liguria a la punta de Calabria, y desde arriba son su columna inconfundible: crestas grises de caliza, hayedos y pueblos apiñados en lo alto de las colinas. Alcanzan su máxima altura en los Abruzos, en el Gran Sasso. Cerca, busca un óvalo extrañamente llano de campos rodeado de montañas: el lecho del lago Fucino, desecado en el siglo XIX.",
+    "w": "Una espina montañosa gris verdosa en el centro de Italia; en los Abruzos, el óvalo llano de la cuenca desecada del Fucino entre los picos.",
+    "f": [
+      "El Corno Grande, en el macizo del Gran Sasso, con 2912 m, es el pico más alto de los Apeninos.",
+      "Con Claudio, los romanos cavaron un túnel de 5,6 km para desecar el Fucino, que no se vació del todo hasta la década de 1870."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto de los Apeninos?",
+      "a": "Corno Grande",
+      "x": [
+        "Monte Vettore",
+        "Monte Amaro"
+      ]
+    }
+  },
+  "Q12431": {
+    "t": "Una muralla entre España y Francia, con un país dentro",
+    "s": "Del Atlántico al Mediterráneo, los Pirineos forman una muralla casi ininterrumpida de unos 430 km entre España y Francia. La vertiente francesa es más verde y empinada; la española, más seca, con largas crestas y valles ocres. En el centro, en lo alto, se esconde Andorra, un pequeño país de valles profundos y pistas de esquí.",
+    "w": "Una cresta nevada continua de mar a mar, con valles más verdes en el lado francés y más secos y ocres en el español.",
+    "f": [
+      "El Aneto, de 3404 m, en el lado español, es el pico más alto de los Pirineos.",
+      "La cascada del circo de Gavarnie cae unos 420 m: una de las más altas de Europa.",
+      "Andorra la Vella, a unos 1020 m, es la capital más alta de Europa."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto de los Pirineos?",
+      "a": "Aneto",
+      "x": [
+        "Monte Perdido",
+        "Vignemale"
+      ]
+    }
+  },
+  "Q1029702": {
+    "t": "Sierras enmarañadas del sur de México, sobre el Pacífico",
+    "s": "Por la costa pacífica del sur de México, de Jalisco a Oaxaca, el terreno se arruga en la Sierra Madre del Sur: un laberinto de crestas empinadas y boscosas y valles profundos, casi sin carreteras. Desde arriba parece plegada sin fin, verde con las lluvias y parda en la estación seca. En sus tierras altas se esconde el valle de Oaxaca, con la antigua ciudad zapoteca de Monte Albán sobre una colina allanada.",
+    "w": "Crestas empinadas y plegadas sin fin entre la costa del Pacífico y las tierras altas, con valles fluviales profundos y pocas carreteras.",
+    "f": [
+      "Monte Albán, fundada hacia el 500 a. C. sobre una cumbre allanada encima de Oaxaca, es Patrimonio de la Humanidad de la UNESCO.",
+      "La famosa bahía de Acapulco está enmarcada por las estribaciones de la Sierra Madre del Sur."
+    ],
+    "q": {
+      "q": "¿Qué ciudad antigua se alza en una colina allanada de estas montañas?",
+      "a": "Monte Albán",
+      "x": [
+        "Teotihuacán",
+        "Chichén Itzá"
+      ]
+    }
+  },
+  "Q660304": {
+    "t": "Niebla, secuoyas y fallas en el borde pacífico de EE. UU.",
+    "s": "Pegadas al Pacífico desde el sur de California hasta Washington, las cordilleras Costeras son una larga franja de colinas abruptas y boscosas que rara vez se alejan de las olas. Las mañanas de verano, la niebla entra desde el océano y llena sus valles como leche. Esa niebla ayuda a mantener las secuoyas rojas del norte de California, los árboles más altos de la Tierra.",
+    "w": "Crestas de bosque verde oscuro junto al océano, a menudo con niebla blanca llenando los valles por la mañana.",
+    "f": [
+      "Hyperion, una secuoya roja del norte de California, es el árbol vivo más alto conocido, con unos 116 m.",
+      "La falla de San Andrés cruza las cordilleras Costeras del sur, donde la placa del Pacífico se desliza junto a la norteamericana.",
+      "Las secuoyas rojas solo crecen en una estrecha franja de tierra bañada por la niebla en California y el sur de Oregón."
+    ],
+    "q": {
+      "q": "¿Qué árboles, los más altos de la Tierra, crecen en estas cordilleras?",
+      "a": "Secuoyas rojas",
+      "x": [
+        "Secuoyas gigantes",
+        "Abetos de Douglas"
+      ]
+    }
+  },
+  "Q144040": {
+    "t": "Pliegues de caliza que se curvan en torno a Monterrey",
+    "s": "Desde 11 km de altura, la Sierra Madre Oriental es uno de los cinturones de pliegues más llamativos de la Tierra: largas crestas paralelas de caliza se doblan y curvan como las líneas de una huella dactilar. Cerca de Monterrey, los pliegues giran de norte-sur a este-oeste en una gran curva. La cordillera recorre unos 1000 km del noreste de México: una muralla seca gris verdosa entre la llanura costera y el altiplano.",
+    "w": "Largas crestas paralelas de caliza gris curvadas como una huella dactilar, con cuencas secas entre ellas y Monterrey al pie este.",
+    "f": [
+      "El Cerro de la Silla, emblema de Monterrey con forma de silla de montar, es un contrafuerte de la cordillera.",
+      "La cordillera forma el borde oriental del altiplano mexicano, sobre la llanura costera.",
+      "El Parque Nacional Cumbres de Monterrey protege las abruptas crestas que rodean la ciudad."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está al pie de la gran curva de la Sierra Madre Oriental?",
+      "a": "Monterrey",
+      "x": [
+        "Guadalajara",
+        "Chihuahua"
+      ]
+    }
+  },
+  "Q26777": {
+    "t": "La muralla de granito de California, con Yosemite dentro",
+    "s": "Imagina una losa gigante de granito inclinada por un lado: una pendiente larga y suave que sube desde el valle Central de California y una pared oriental vertical que cae unos tres kilómetros hasta el desierto. Eso es la Sierra Nevada. Los glaciares de la era glacial la tallaron en valles profundos; el más famoso es Yosemite, con sus paredes verticales y sus domos.",
+    "w": "Picos y domos de granito claro, valles hondos tallados por glaciares, lagos y nieve en la cresta; al norte, el azul intenso del lago Tahoe.",
+    "f": [
+      "El monte Whitney, de 4421 m, es el pico más alto de los Estados Unidos contiguos.",
+      "Las secuoyas gigantes, los árboles más voluminosos de la Tierra, solo crecen silvestres en la vertiente oeste de la sierra.",
+      "El lago Tahoe, en lo alto de la cordillera, tiene unos 500 m de profundidad."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto de los Estados Unidos contiguos?",
+      "a": "Monte Whitney",
+      "x": [
+        "Monte Rainier",
+        "Monte Elbert"
+      ]
+    }
+  },
+  "Q1124584": {
+    "t": "La gran meseta volcánica de México, partida por cañones",
+    "s": "A lo largo de unos 1200 km del oeste de México, la Sierra Madre Occidental es una alta meseta formada por enormes erupciones volcánicas hace decenas de millones de años y hoy cortada por cañones profundos. El más famoso, el sistema de la Barranca del Cobre, en Chihuahua, es en algunos tramos más profundo que el Gran Cañón. Busca tierras altas cubiertas de pinos partidas de pronto por gargantas oscuras y sinuosas.",
+    "w": "Una alta meseta salpicada de pinos, cortada por cañones profundos y sinuosos, con cuencas desérticas secas a ambos lados.",
+    "f": [
+      "La meseta está hecha de capas de ceniza volcánica depositadas por enormes erupciones hace unos 30 millones de años.",
+      "Los rarámuris, o tarahumaras, de la Barranca del Cobre son famosos por correr distancias larguísimas.",
+      "El tren Chepe cruza la sierra de Chihuahua a la costa del Pacífico atravesando 86 túneles."
+    ],
+    "q": {
+      "q": "¿Qué sistema de cañones corta la Sierra Madre Occidental?",
+      "a": "La Barranca del Cobre",
+      "x": [
+        "El Gran Cañón",
+        "El Cañón del Sumidero"
+      ]
+    }
+  },
+  "Q1089367": {
+    "t": "Picos bajo el hielo en el tormentoso golfo de Alaska",
+    "s": "Los Chugach surgen directamente del golfo de Alaska y reciben tormenta tras tormenta del Pacífico, y gran parte de la cordillera está sepultada bajo el hielo. Desde la ventanilla ves un mar blanco de glaciares con picos oscuros que asoman y lenguas de hielo que bajan hasta los fiordos del estrecho del Príncipe Guillermo. El paso Thompson, cerca de Valdez, es de los lugares más nevados de Norteamérica.",
+    "w": "Una extensión blanca de campos de hielo y glaciares con picos oscuros, que termina en fiordos y en el golfo de Alaska, gris azulado.",
+    "f": [
+      "El campo de hielo Bagley, en los Chugach orientales, es uno de los mayores de Norteamérica fuera de las regiones polares.",
+      "El glaciar Columbia, que desemboca en el estrecho del Príncipe Guillermo, ha retrocedido más de 20 km desde la década de 1980.",
+      "En el invierno de 1952–1953, el paso Thompson registró unos 25 m de nieve."
+    ],
+    "q": {
+      "q": "¿Qué campo de hielo está en los Chugach orientales?",
+      "a": "El campo de hielo Bagley",
+      "x": [
+        "El campo de hielo Juneau",
+        "El campo de hielo Columbia"
+      ]
+    }
+  },
+  "Q1817102": {
+    "t": "Picos salvajes donde el Nahanni talla sus cañones",
+    "s": "Casi sin carreteras y casi vacíos de gente, los montes Mackenzie se extienden por la frontera entre el Yukón y los Territorios del Noroeste. Desde la altitud de crucero ves crestas grises y desnudas, ríos trenzados y, en otoño, tundra que se vuelve roja y dorada. En su extremo sur, el río South Nahanni talla cañones profundos y se despeña por las cataratas Virginia, casi el doble de altas que las del Niágara.",
+    "w": "Crestas grises, desnudas y plegadas y anchos ríos trenzados, casi sin carreteras ni asentamientos a la vista.",
+    "f": [
+      "En 1978, el Parque Nacional Nahanni fue uno de los primeros lugares declarados Patrimonio de la Humanidad por la UNESCO.",
+      "El pico Keele, de unos 2950 m, es el punto más alto de la cordillera."
+    ],
+    "q": {
+      "q": "¿Qué famosas cataratas hay en el río South Nahanni?",
+      "a": "Cataratas Virginia",
+      "x": [
+        "Cataratas Kakabeka",
+        "Cataratas Hunlen"
+      ]
+    }
+  },
+  "Q1132302": {
+    "t": "La cordillera Real, muralla nevada sobre el Altiplano",
+    "s": "Al este del Altiplano se alza una línea de picos altos, a menudo nevados: la cordillera Real. En su extremo norte, el Illimani, de 6438 m, domina La Paz, y su mole blanca se ve desde gran parte de la ciudad. Más al sur, las montañas se vuelven más secas y rojizas y acunan Potosí, que se enriqueció con la plata del Cerro Rico.",
+    "w": "Una muralla de picos nevados y glaciares al este del Altiplano, llano y pardo, con valles profundos que caen al otro lado.",
+    "f": [
+      "Potosí, a unos 4000 m, fue una de las ciudades más ricas del mundo en los siglos XVI y XVII gracias a su plata.",
+      "Los glaciares de la cordillera ayudan a abastecer de agua a La Paz y El Alto."
+    ],
+    "q": {
+      "q": "¿Qué montaña domina La Paz?",
+      "a": "Illimani",
+      "x": [
+        "Sajama",
+        "Licancabur"
+      ]
+    }
+  },
+  "ne-rg-1159103969": {
+    "t": "La muralla occidental de Perú: volcanes y cañones hondos",
+    "s": "Entre el desierto costero y la alta puna, la cordillera Occidental de Perú se alza como una cadena de volcanes nevados: Coropuna, Ampato, Misti. Los ríos la han serrado en cañones, y el del Colca y el de Cotahuasi están entre los más profundos de la Tierra, con más de 3 km del borde al río. Desde 11 km, busca conos blancos sobre mesetas pardas y el desierto que cae hacia el Pacífico.",
+    "w": "Conos volcánicos nevados sobre una alta meseta parda, cañones hondos y oscuros y laderas desérticas que caen hacia el océano.",
+    "f": [
+      "El Coropuna, de unos 6400 m, es el volcán más alto de Perú.",
+      "El cañón del Colca es famoso por los cóndores andinos que planean en las corrientes de la mañana.",
+      "Las líneas de Nazca están en la llanura desértica al pie occidental de esta cordillera."
+    ],
+    "q": {
+      "q": "¿Cuál es el volcán más alto de Perú?",
+      "a": "Coropuna",
+      "x": [
+        "El Misti",
+        "Ubinas"
+      ]
+    }
+  },
+  "ne-rg-1159103969-2": {
+    "t": "La cresta andina más occidental, frente al lluvioso Chocó",
+    "s": "En Colombia, los Andes se dividen en tres cordilleras paralelas, y esta es la más occidental. En su lado pacífico está el Chocó, una de las regiones más lluviosas de la Tierra, cubierta de selva y casi siempre bajo las nubes; al este, el río Cauca corre por un valle profundo. Hacia el sur, la misma cordillera sigue en Ecuador, donde sostiene el Chimborazo, coronado de hielo.",
+    "w": "Una cresta boscosa con nubes amontonadas en su lado oeste, el del Pacífico, y el hondo valle del Cauca en su lado este.",
+    "f": [
+      "Los pueblos del Chocó, bajo sus laderas occidentales, están entre los lugares más lluviosos de la Tierra.",
+      "Como la Tierra se abomba en el ecuador, la cima del Chimborazo es el punto de su superficie más alejado del centro del planeta.",
+      "Los empinados Farallones de Cali, parte de la cordillera, se alzan justo al oeste de la ciudad de Cali."
+    ],
+    "q": {
+      "q": "¿Qué cumbre de esta cordillera es la más alejada del centro de la Tierra?",
+      "a": "Chimborazo",
+      "x": [
+        "Cotopaxi",
+        "Huascarán"
+      ]
+    }
+  },
+  "Q804330": {
+    "t": "La cordillera Blanca, el mayor hielo de los trópicos",
+    "s": "La cordillera Blanca de Perú hace honor a su nombre: una muralla blanca de glaciares y picos de hielo acanalado a solo unos nueve grados al sur del ecuador, con más glaciares tropicales que ninguna otra cordillera de la Tierra. Su cumbre más alta, el Huascarán, alcanza 6768 m. Abajo, busca lagunas glaciares turquesa en los valles y el surco verde del río Santa a su pie occidental.",
+    "w": "Una línea de picos de hielo acanalados de un blanco brillante, con lagunas turquesa en los valles, paralela a la costa del Pacífico.",
+    "f": [
+      "El Huascarán, de 6768 m, es la montaña más alta de Perú.",
+      "El Parque Nacional Huascarán, que abarca la cordillera, es Patrimonio de la Humanidad de la UNESCO.",
+      "En sus laderas crece la gigantesca Puya raimondii, pariente de la piña, cuya espiga floral puede alcanzar unos 10 m."
+    ],
+    "q": {
+      "q": "¿Cuál es la montaña más alta de Perú?",
+      "a": "Huascarán",
+      "x": [
+        "Alpamayo",
+        "Yerupajá"
+      ]
+    }
+  },
+  "Q4794486": {
+    "t": "El brazo oriental de los Andes, que llega a Venezuela",
+    "s": "La más oriental de las tres cordilleras andinas de Colombia lleva Bogotá en su alta meseta y luego se divide cerca de la frontera venezolana. Un brazo, la sierra de Perijá, va hacia el norte; el otro, los Andes de Mérida, corre al noreste por Venezuela. Entre ambos se extiende la vasta lámina azul del lago de Maracaibo, que desde arriba parece atrapado en una pinza de montañas.",
+    "w": "Crestas abruptas verdes y pardas; al noroeste, la ancha extensión azul del lago de Maracaibo, sujeta entre dos brazos montañosos.",
+    "f": [
+      "Bogotá está en una alta meseta de esta cordillera, a unos 2600 m.",
+      "El pico Bolívar, de 4978 m, en los Andes de Mérida, es el pico más alto de Venezuela.",
+      "Sobre la orilla suroeste del lago de Maracaibo hay tormentas eléctricas más de cien noches al año: es el relámpago del Catatumbo."
+    ],
+    "q": {
+      "q": "¿Qué lago está entre los dos brazos de esta cordillera?",
+      "a": "Lago de Maracaibo",
+      "x": [
+        "Lago Titicaca",
+        "Lago de Nicaragua"
+      ]
+    }
+  },
+  "Q233770": {
+    "t": "La cuña salvaje de Australia que apunta a Nueva Guinea",
+    "s": "El cabo York es uno de los últimos grandes lugares salvajes de Australia: un largo triángulo de sabana, bosque abierto y selva que se estira hacia el norte, hacia Nueva Guinea, con pocas carreteras asfaltadas. Desde arriba, busca tierra roja, ríos trenzados que se desbordan en la estación húmeda y, frente a la costa este, los bajíos turquesa de la Gran Barrera de Coral, muy cerca de la orilla.",
+    "w": "Tierra roja y bosque verde grisáceo cortados por ríos trenzados, con los bajíos turquesa de la Gran Barrera de Coral junto a la costa este.",
+    "f": [
+      "La punta del cabo York es el punto más septentrional de la Australia continental.",
+      "El estrecho de Torres, de unos 150 km de ancho, separa la península de Nueva Guinea.",
+      "Enormes termiteros, algunos de varios metros de altura, salpican la sabana."
+    ],
+    "q": {
+      "q": "¿Qué isla está al otro lado del estrecho de Torres desde el cabo York?",
+      "a": "Nueva Guinea",
+      "x": [
+        "Timor",
+        "Tasmania"
+      ]
+    }
+  },
+  "Q7835": {
+    "t": "Un rombo de estepa con un reborde montañoso en el mar Negro",
+    "s": "Crimea cuelga del continente por un cuello estrecho, el istmo de Perekop, y desde arriba su forma es inconfundible. Casi toda es estepa llana y seca, dibujada de campos y lagos salados poco profundos; a lo largo de la costa sur, los montes de Crimea se alzan en un reborde de acantilados calizos sobre el mar. Al noreste están las lagunas someras del Sivash, a veces teñidas de rosa.",
+    "w": "Una península en forma de rombo de estepa llana y lagos salados, con un reborde montañoso en la costa sur y lagunas someras al noreste.",
+    "f": [
+      "El istmo de Perekop, que une Crimea al continente, solo tiene unos 7 km de ancho en su punto más estrecho.",
+      "El Román-Kosh, de 1545 m, es el pico más alto de los montes de Crimea.",
+      "Las lagunas del Sivash son tan saladas que en algunos puntos las algas tiñen el agua de rosa."
+    ],
+    "q": {
+      "q": "¿Cómo se llama el cuello estrecho que une Crimea al continente?",
+      "a": "El istmo de Perekop",
+      "x": [
+        "El estrecho de Kerch",
+        "La lengua de Tuzla"
+      ]
+    }
+  },
+  "Q165608": {
+    "t": "Roca antigua, tundra y lagos más allá del círculo polar",
+    "s": "Casi toda la península de Kola está al norte del círculo polar ártico, pero gracias a la cálida corriente del Atlántico Norte su costa norte no se congela en todo el año. Desde la ventanilla es un mosaico ondulado de tundra, bosque oscuro e incontables lagos sobre algunas de las rocas más antiguas de Europa, con los desnudos montes Jibiny en el centro. Las noches de invierno, busca la aurora boreal.",
+    "w": "Tundra baja y ondulada y bosque oscuro salpicados de incontables lagos, con el macizo desnudo y de cima plana de los Jibiny en el centro.",
+    "f": [
+      "Múrmansk, en la costa de Kola, es la mayor ciudad al norte del círculo polar ártico.",
+      "El pozo superprofundo de Kola alcanzó unos 12,2 km: el agujero más profundo jamás perforado.",
+      "Los montes Jibiny son ricos en apatita, que se extrae para fabricar fertilizantes."
+    ],
+    "q": {
+      "q": "¿Qué récord tiene el pozo superprofundo de Kola?",
+      "a": "El agujero más profundo perforado",
+      "x": [
+        "La mina más fría de la Tierra",
+        "El túnel más antiguo de Europa"
+      ]
+    }
+  },
+  "Q1394226": {
+    "t": "El extremo sur de Vietnam, que aún le gana terreno al mar",
+    "s": "El Vietnam continental termina aquí en una cuña baja y verde de manglares y llanuras de barro, con el mar por tres lados. Desde la altitud de crucero es un laberinto acuático: canales sinuosos, rectángulos ordenados de estanques de gambas y un bosque denso verde oscuro. La tierra sigue creciendo, porque el limo del Mekong se deposita entre las raíces de los manglares y empuja la costa mar adentro.",
+    "w": "Una punta de tierra baja y verde surcada de canales, manglar oscuro y estanques rectangulares de gambas, rodeada de un mar pardo y fangoso.",
+    "f": [
+      "El cabo Cà Mau es el punto más meridional del Vietnam continental.",
+      "Sus manglares están protegidos en el Parque Nacional Mũi Cà Mau, humedal Ramsar de importancia internacional."
+    ],
+    "q": {
+      "q": "¿Qué empuja poco a poco la costa de Cà Mau mar adentro?",
+      "a": "El limo del Mekong en los manglares",
+      "x": [
+        "Coladas de lava volcánica",
+        "Arrecifes de coral que crecen"
+      ]
+    }
   }
 }
