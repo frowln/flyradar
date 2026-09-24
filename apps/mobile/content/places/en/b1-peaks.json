@@ -1315,5 +1315,629 @@
         "Alert"
       ]
     }
+  },
+  "ne-gl-monarch-icefield": {
+    "t": "A crown of ice above the Bella Coola valley",
+    "s": "South-east of the fjord town of Bella Coola, the Coast Mountains vanish under the Monarch Icefield, the northernmost of a chain of big icefields in the Pacific Ranges. Its namesake, Monarch Mountain, 3,555 m, towers over the peaks around it. From above, look for a white plateau with dark summits, glaciers spilling toward deep green valleys, and the long fjords of the coast beyond.",
+    "w": "A white icefield with dark rock summits south-east of a long fjord, glaciers draining toward deep green valleys.",
+    "f": [
+      "Henry Hall and Hans Fuhrer made the first ascent of Monarch Mountain in 1936.",
+      "The larger Ha-Iltzuk Icefield, the biggest of this group, lies to the south.",
+      "The Bella Coola valley below is known for grizzly bears fishing for salmon."
+    ],
+    "q": {
+      "q": "Which fjord town lies north-west of the Monarch Icefield?",
+      "a": "Bella Coola",
+      "x": [
+        "Prince Rupert",
+        "Kitimat"
+      ]
+    }
+  },
+  "ne-gl-mount-brown-icefield": {
+    "t": "Home of a famous mountain-height blunder",
+    "s": "Around Athabasca Pass on the Continental Divide lies the Mount Brown Icefield, a quiet sheet of ice in the backcountry south of Jasper. Its namesake has a story: in 1827 the Scottish botanist David Douglas declared Mount Brown and its neighbour Mount Hooker to be about 16,000 feet high, the tallest peaks in North America. For decades maps repeated the claim. Both are in fact well under 3,500 m.",
+    "w": "A white icefield among dark peaks on the Rockies' crest, beside a low notch that marks an old fur-trade pass.",
+    "f": [
+      "Athabasca Pass was a main fur-trade route across the Rockies in the early 1800s.",
+      "Mount Brown is named after the botanist Robert Brown, known for describing Brownian motion.",
+      "The myth of the giant peaks lasted until climbers and surveyors checked them in the 1890s."
+    ],
+    "q": {
+      "q": "What did David Douglas get wrong about Mount Brown in 1827?",
+      "a": "Its height",
+      "x": [
+        "Its name",
+        "Its location"
+      ]
+    }
+  },
+  "ne-gl-muller-ice-cap": {
+    "t": "Arctic ice on an island of fossil forests",
+    "s": "Axel Heiberg Island, west of Ellesmere, is crowned by two ice caps, and the Müller is the northern one. Its outlet glaciers creep down toward long fjords. Nearby, White Glacier has been measured every year since 1959, one of the longest such records in the Arctic. Elsewhere on the island lie mummified tree stumps from forests that grew here some 45 million years ago.",
+    "w": "A broad white ice cap in northern Axel Heiberg Island, glaciers reaching down toward long, dark fjords.",
+    "f": [
+      "The island is named after Axel Heiberg, a Norwegian brewery director who funded Otto Sverdrup's expedition.",
+      "McGill University has run a summer research station at Expedition Fiord since 1960."
+    ],
+    "q": {
+      "q": "What remarkable fossils have been found on Axel Heiberg Island?",
+      "a": "Mummified tree stumps",
+      "x": [
+        "Dinosaur footprints",
+        "Mammoth skeletons"
+      ]
+    }
+  },
+  "ne-gl-myrdalsjokull": {
+    "t": "An ice cap hiding the volcano Katla",
+    "s": "Near Iceland's southern tip, a round white cap of ice sits above black sand plains: Mýrdalsjökull, about 500 km². Beneath it lies Katla, one of Iceland's most powerful volcanoes, which last erupted in a big way in 1918, sending floods of meltwater across the coast. Just to the west is the smaller Eyjafjallajökull, whose 2010 eruption grounded flights across Europe for days.",
+    "w": "A rounded white ice cap above black sand plains on Iceland's south coast, with smaller Eyjafjallajökull just to the west.",
+    "f": [
+      "The 1918 Katla flood carried so much sediment that it pushed the shoreline several kilometres out to sea.",
+      "Vík, near its southern foot, is the southernmost village in Iceland.",
+      "Mýrdalsjökull is Iceland's fourth-largest glacier."
+    ],
+    "q": {
+      "q": "Which volcano lies beneath Mýrdalsjökull?",
+      "a": "Katla",
+      "x": [
+        "Hekla",
+        "Grímsvötn"
+      ]
+    }
+  },
+  "ne-gl-negribreen": {
+    "t": "A glacier that wakes up about once a century",
+    "s": "On Spitsbergen's east coast, Negribreen flows into the wide Storfjorden, a broad river of ice with a heavily crevassed surface. It is a surge-type glacier: in 1935–36 it lurched almost 12 km forward in a single year. In 2016 it woke again, and by 2017 parts were racing along at about 20 m a day. From above look for a chaotic, shattered surface of white ice blocks.",
+    "w": "A broad, heavily crevassed glacier on Spitsbergen's east coast, ending in an ice cliff in the wide Storfjorden.",
+    "f": [
+      "In its 1935–36 surge the front advanced along a stretch about 15 km wide.",
+      "Surging glaciers are common in Svalbard; many lie quiet for decades between surges."
+    ],
+    "q": {
+      "q": "How far did Negribreen lurch forward in 1935–36?",
+      "a": "About 12 km",
+      "x": [
+        "About 1 km",
+        "About 50 km"
+      ]
+    }
+  },
+  "ne-gl-north-ellesmere-ice-cap": {
+    "t": "Ice at the very top of North America",
+    "s": "The northern end of Ellesmere Island is some of the northernmost land on Earth, and much of it lies under ice caps and icefields. Here, in Quttinirpaaq National Park, rise the highest mountains of the Canadian Arctic, including Barbeau Peak, 2,616 m. From above look for white plateaus broken by dark nunataks and, along the coast, the ragged remains of ancient floating ice shelves.",
+    "w": "White plateaus pierced by dark peaks, fringed along the Arctic Ocean coast by the remains of floating ice shelves.",
+    "f": [
+      "Cape Columbia, on Ellesmere's north coast, is the northernmost point of Canada.",
+      "Quttinirpaaq means 'top of the world' in Inuktitut.",
+      "Barbeau Peak, 2,616 m, is the highest mountain in Nunavut."
+    ],
+    "q": {
+      "q": "What does 'Quttinirpaaq' mean in Inuktitut?",
+      "a": "Top of the world",
+      "x": [
+        "Land of ice",
+        "Place of bears"
+      ]
+    }
+  },
+  "ne-gl-northern-patagonian-ice-field": {
+    "t": "Where a glacier meets the sea closest to the equator",
+    "s": "The Northern Patagonian Ice Field is the smaller of Patagonia's two great ice fields, yet it still drapes some 4,000 km² of ice over the Andes of southern Chile. Its highest point, Monte San Valentín, about 4,000 m, is the tallest summit in Patagonia. On its western side the San Rafael Glacier reaches Laguna San Rafael, a lagoon open to the Pacific, at only about 46.7° south.",
+    "w": "An icy plateau on the Andes of southern Chile, glaciers spilling west to a milky lagoon and east toward turquoise lakes.",
+    "f": [
+      "San Rafael is often called the tidewater glacier closest to the equator.",
+      "Lake General Carrera, east of the ice field, is the largest lake in Chile."
+    ],
+    "q": {
+      "q": "Which is the highest summit of the Northern Patagonian Ice Field?",
+      "a": "Monte San Valentín",
+      "x": [
+        "Cerro Fitz Roy",
+        "Cerro Torre"
+      ]
+    }
+  },
+  "ne-gl-penny-ice-cap": {
+    "t": "The ice cap of 'the land that never melts'",
+    "s": "On Baffin Island's Cumberland Peninsula, the Penny Ice Cap spreads some 6,000 km² of white just north of the Arctic Circle. It is the heart of Auyuittuq National Park — 'the land that never melts' in Inuktitut. From its edges glaciers pour down into deep U-shaped valleys and fjords, walled by some of the tallest granite cliffs on Earth.",
+    "w": "A broad white ice cap feeding glaciers into deep, steep-walled valleys, just north of the Arctic Circle on Baffin Island.",
+    "f": [
+      "Mount Thor, in the park, has one of the tallest sheer cliffs on Earth, about 1,250 m.",
+      "Akshayuk Pass, a well-known trekking route, cuts right across the peninsula below the ice."
+    ],
+    "q": {
+      "q": "What does Auyuittuq mean in Inuktitut?",
+      "a": "The land that never melts",
+      "x": [
+        "The land of the bears",
+        "The great white wall"
+      ]
+    }
+  },
+  "ne-gl-prince-of-wales-icefield": {
+    "t": "A vast ice sheet on Ellesmere, facing Greenland",
+    "s": "The Prince of Wales Icefield spreads along the eastern side of central Ellesmere Island, roughly 20,000 km² of ice — larger than many small countries. Across the channels to the east lies Greenland. From above, look for an immense white plateau split by outlet glaciers that snake down to the sea, releasing icebergs into the ice-choked straits.",
+    "w": "An immense white plateau on eastern Ellesmere, with glaciers snaking east to the sea channels that separate it from Greenland.",
+    "f": [
+      "It is one of the largest icefields in the Canadian Arctic.",
+      "Smith Sound and Nares Strait, off its eastern side, link Baffin Bay with the Arctic Ocean."
+    ],
+    "q": {
+      "q": "Which land lies across the strait east of this icefield?",
+      "a": "Greenland",
+      "x": [
+        "Baffin Island",
+        "Devon Island"
+      ]
+    }
+  },
+  "ne-gl-sargent-icefield": {
+    "t": "Glaciers pouring straight into Prince William Sound",
+    "s": "On the eastern Kenai Peninsula, the Sargent Icefield caps the mountains above the maze of fjords and islands of Prince William Sound. Its glaciers spill down steep valleys right to the sea, calving icebergs into quiet green inlets. Some carry unexpected names: Princeton Glacier, for example, was named in 1909 after the university.",
+    "w": "A white icefield above a maze of fjords and forested islands, with glaciers ending at the water's edge.",
+    "f": [
+      "It is named after Rufus Harvey Sargent, a US Geological Survey mapmaker who surveyed the Kenai Peninsula.",
+      "Chenega Glacier, one of its outlets, takes its name from nearby Chenega Island."
+    ],
+    "q": {
+      "q": "Which sound do the Sargent Icefield's glaciers flow into?",
+      "a": "Prince William Sound",
+      "x": [
+        "Norton Sound",
+        "Kotzebue Sound"
+      ]
+    }
+  },
+  "ne-gl-southern-patagonian-ice-field": {
+    "t": "The largest ice in the south outside Antarctica",
+    "s": "For some 350 km along the Andes, the mountains of Patagonia disappear under one continuous sheet of ice, the largest in the Southern Hemisphere outside Antarctica. On a clear day you can follow glaciers flowing west to Pacific fjords and east to milky turquoise lakes in Argentina. Granite spires such as Fitz Roy and the Torres del Paine rise from its edges like broken teeth.",
+    "w": "A continuous white sheet on the Andes, glaciers streaming west to fjords and east into turquoise lakes like Lago Argentino.",
+    "f": [
+      "Perito Moreno Glacier, one of its outlets, ends in an ice wall about 5 km wide in Lago Argentino.",
+      "Pío XI, on the Chilean side, is the largest glacier in South America."
+    ],
+    "q": {
+      "q": "Which famous glacier of this ice field ends in Lago Argentino?",
+      "a": "Perito Moreno",
+      "x": [
+        "San Rafael",
+        "Pío XI"
+      ]
+    }
+  },
+  "ne-gl-steacie-ice-cap": {
+    "t": "The southern ice cap of an uninhabited Arctic island",
+    "s": "Axel Heiberg Island, west of Ellesmere, carries two big ice caps, and the Steacie covers the island's southern highlands. From above it is a broad white dome, its outlet glaciers winding between dark, flat-topped plateaus toward the fjords. Nobody lives on the island; in summer only a few research camps dot its valleys, and in winter the sea around it freezes solid.",
+    "w": "A broad white dome over southern Axel Heiberg Island, glaciers winding between dark flat-topped plateaus to the fjords.",
+    "f": [
+      "More than a quarter of Axel Heiberg Island, some 43,000 km² in all, lies under ice.",
+      "Several glaciers on the island's west side have kept advancing for decades, against the global trend."
+    ],
+    "q": {
+      "q": "Axel Heiberg Island lies next to which larger island?",
+      "a": "Ellesmere Island",
+      "x": [
+        "Baffin Island",
+        "Victoria Island"
+      ]
+    }
+  },
+  "ne-gl-stikine-icecap": {
+    "t": "An icefield split by a wild river",
+    "s": "Along the Alaska–British Columbia border near Wrangell and Petersburg, the Stikine Icecap buries the Coast Mountains in white. The Stikine River slices right through the range here, one of only a few rivers that do. On the Alaskan side LeConte Glacier reaches the sea, calving icebergs into LeConte Bay. Look too for Devils Thumb, a sharp rock spire rising from the ice on the border.",
+    "w": "A broad white icefield on the coastal mountains east of Petersburg, cut by a wide river valley and fjords full of icebergs.",
+    "f": [
+      "LeConte Glacier is the southernmost tidewater glacier in the Northern Hemisphere.",
+      "John Muir compared the Stikine valley to 'a Yosemite a hundred miles long'."
+    ],
+    "q": {
+      "q": "Which glacier here is the Northern Hemisphere's southernmost tidewater glacier?",
+      "a": "LeConte Glacier",
+      "x": [
+        "Mendenhall Glacier",
+        "Hubbard Glacier"
+      ]
+    }
+  },
+  "ne-gl-university-ice-cap": {
+    "t": "One of seven ice caps on a remote Arctic island",
+    "s": "October Revolution Island, the largest of Severnaya Zemlya, wears seven ice caps, and the University Ice Cap lies south of the biggest, the Karpinsky. Its dome rises to about 800 m. Between the caps the bare ground is stony polar desert, brown and grey in summer, with no trees or shrubs at all. In winter everything merges with the frozen seas into one white expanse.",
+    "w": "A white dome on a large Arctic island, flanked by stony brown polar desert and other ice caps to the north.",
+    "f": [
+      "Severnaya Zemlya separates the Kara Sea from the Laptev Sea.",
+      "The archipelago was mapped only in 1930–32, by a four-man expedition led by Georgy Ushakov."
+    ],
+    "q": {
+      "q": "Which two seas does Severnaya Zemlya separate?",
+      "a": "The Kara and Laptev seas",
+      "x": [
+        "The Barents and Kara seas",
+        "The Laptev and East Siberian"
+      ]
+    }
+  },
+  "ne-gl-vatnajokull": {
+    "t": "Iceland's giant ice cap, sitting on volcanoes",
+    "s": "Vatnajökull covers about 8% of Iceland, some 7,700 km² of ice up to nearly a kilometre thick. From above it is a white plateau spilling glacier tongues in every direction, some ending in lagoons full of icebergs near the south coast. Beneath the ice lie active volcanoes, including Grímsvötn and Bárðarbunga, whose eruptions can melt the ice and unleash sudden floods.",
+    "w": "A vast white ice cap in south-east Iceland, glacier tongues radiating outward and a lagoon of icebergs by the coast.",
+    "f": [
+      "Hvannadalshnúkur, on its southern rim, is Iceland's highest peak at about 2,110 m.",
+      "Jökulsárlón, the lagoon at the foot of one of its glaciers, is crowded with floating icebergs.",
+      "Vatnajökull National Park became a UNESCO World Heritage site in 2019."
+    ],
+    "q": {
+      "q": "Which Icelandic volcano lies beneath Vatnajökull?",
+      "a": "Grímsvötn",
+      "x": [
+        "Hekla",
+        "Katla"
+      ]
+    }
+  },
+  "ne-gl-vestfonna": {
+    "t": "The western twin of Svalbard's great ice caps",
+    "s": "Nordaustlandet, Svalbard's second-largest island, is mostly wrapped in ice, split between two great caps. Vestfonna, the western one, covers about 2,500 km²: a low white dome crossed by ridges and outlet glaciers that end in ice cliffs along the fjords. Its bigger sibling, Austfonna, spreads to the east, and together they make the island look frosted from above.",
+    "w": "A low white dome on the western half of a large, ice-covered island north-east of Spitsbergen.",
+    "f": [
+      "Nordaustlandet has no permanent residents and is protected as a nature reserve.",
+      "Walruses haul out on beaches along the island's coasts."
+    ],
+    "q": {
+      "q": "Which is Vestfonna's larger neighbour on the same island?",
+      "a": "Austfonna",
+      "x": [
+        "Holtedahlfonna",
+        "Åsgardfonna"
+      ]
+    }
+  },
+  "Q358755": {
+    "t": "A huge snowy volcano named after a rare bird",
+    "s": "Mount Takahe is a broad shield volcano rising alone from the ice of Marie Byrd Land, 3,460 m high and with a volume of about 780 km³. From above it looks like a gently swelling white dome with a wide, shallow crater on top. Its last known eruption was about 7,500 years ago, and layers of its ash turn up in Antarctic ice cores.",
+    "w": "A broad, gently rounded snow dome rising alone from the flat ice, with a wide shallow crater at its summit.",
+    "f": [
+      "It is named after the takahē, a rare flightless bird of New Zealand.",
+      "Its summit caldera is about 8 km across."
+    ],
+    "q": {
+      "q": "What is Mount Takahe named after?",
+      "a": "A flightless bird",
+      "x": [
+        "A ship",
+        "A mountaineer"
+      ]
+    }
+  },
+  "Q924312": {
+    "t": "Antarctica's highest volcano, with a broken crater",
+    "s": "Mount Sidley is the tallest of the Executive Committee Range, a line of volcanoes standing in the ice of Marie Byrd Land, and at 4,285 m it is the highest volcano in Antarctica. Its south side is torn open by a caldera about 5 km wide, a dramatic bite out of the white cone. Richard Byrd spotted it from the air in 1934.",
+    "w": "A massive white volcano in a north–south line of snowy cones, its southern flank cut by a huge crater.",
+    "f": [
+      "Byrd named it after Mabelle Sidley, daughter of one of his expedition's sponsors.",
+      "It is the Antarctic entry on the 'Volcanic Seven Summits', the highest volcano on each continent.",
+      "The first recorded ascent was made in 1990."
+    ],
+    "q": {
+      "q": "Which is the highest volcano in Antarctica?",
+      "a": "Mount Sidley",
+      "x": [
+        "Mount Erebus",
+        "Mount Takahe"
+      ]
+    }
+  },
+  "Q3321842": {
+    "t": "A giant beside Amundsen's road to the Pole",
+    "s": "In November 1911 Roald Amundsen's party climbed from the Ross Ice Shelf up the Axel Heiberg Glacier toward the polar plateau, and beside their route stood this massive peak. Amundsen named it after Fridtjof Nansen, the Norwegian explorer who had lent him his ship, the Fram. At 4,069 m it is one of the great summits of the Queen Maud Mountains, a wall of rock and ice across the way to the Pole.",
+    "w": "A massive ice-clad peak at the edge of the Ross Ice Shelf, beside a steep glacier climbing toward the polar plateau.",
+    "f": [
+      "Amundsen reached the South Pole on 14 December 1911, about a month after passing this mountain.",
+      "The Axel Heiberg Glacier beside it climbs roughly 3,000 m from the ice shelf to the plateau."
+    ],
+    "q": {
+      "q": "Who named Mount Fridtjof Nansen in 1911?",
+      "a": "Roald Amundsen",
+      "x": [
+        "Robert Falcon Scott",
+        "Ernest Shackleton"
+      ]
+    }
+  },
+  "Q19459387": {
+    "t": "The high point above Pangong's blue lake",
+    "s": "Kangju Kangri is the highest summit of the Pangong Range, 6,725 m, a white crest in the high desert of eastern Ladakh. Its most striking neighbour is water rather than rock: Pangong Tso, a narrow lake some 130 km long at about 4,200 m, lies at its foot. From above the lake is an unmistakable ribbon of blue that shifts from turquoise to deep navy with the light.",
+    "w": "A white crest in bare brown mountains beside a long, narrow, vividly blue lake that winds away to the east.",
+    "f": [
+      "Pangong Tso is brackish, yet it freezes over in winter.",
+      "Kangju Kangri was first climbed in 1983.",
+      "Villagers on the lake's southern shore also call the peak Thinguru."
+    ],
+    "q": {
+      "q": "Which long high-altitude lake lies at the foot of Kangju Kangri?",
+      "a": "Pangong Tso",
+      "x": [
+        "Tso Moriri",
+        "Namtso"
+      ]
+    }
+  },
+  "Q28794266": {
+    "t": "The 'white mountain' of the central Kunlun",
+    "s": "Aktag means 'white mountain' in Turkic, a plain name for a remote summit in the Kunlun, the long range that walls the Tibetan Plateau off from the Tarim Basin. At 6,748 m it is among the highest peaks of the Kunlun, rising in one of the least visited corners of Asia. From above look for a white massif over khaki ridges, with the sandy Tarim lowlands far to the north.",
+    "w": "A white massif rising from bare khaki ridges, with the pale desert lowlands of the Tarim Basin far to the north.",
+    "f": [
+      "The Kunlun runs for more than 2,000 km along the northern rim of the Tibetan Plateau.",
+      "North of the range lies the Taklamakan, one of the largest sand deserts in the world."
+    ],
+    "q": {
+      "q": "What does the Turkic name Aktag mean?",
+      "a": "White mountain",
+      "x": [
+        "Blue lake",
+        "Red rock"
+      ]
+    }
+  },
+  "ne-pk-1159105667": {
+    "t": "The sacred giant the Yellow River bends around",
+    "s": "Amne Machin is the holy mountain of the Golog Tibetans, a broad massif of ice rising to 6,282 m from the grasslands of Qinghai. The Yellow River, flowing east from its source, swings in a great loop around the range before turning north. Pilgrims walk a long circuit around it. From above look for a white crest of glaciers ringed by high green pastures.",
+    "w": "A broad ice massif in rolling green-brown grassland, with a big river looping around it in a wide bend.",
+    "f": [
+      "Early 20th-century explorers guessed it might rival Everest; modern surveys put it at 6,282 m.",
+      "Amne means 'grandfather' in the local Amdo dialect, an honorific for the mountain's protector deity."
+    ],
+    "q": {
+      "q": "Which great river loops around the Amne Machin range?",
+      "a": "Yellow River",
+      "x": [
+        "Yangtze",
+        "Mekong"
+      ]
+    }
+  },
+  "Q724367": {
+    "t": "Siberia's highest peak, twin-topped and white",
+    "s": "Belukha is the highest mountain of the Altai and of all Siberia, 4,506 m, straddling the border of Russia and Kazakhstan. Its name comes from its whiteness: two snowy summits joined by a saddle, draped in glaciers that feed the Katun, one of the rivers that form the Ob. From above, look for a bright white crown standing over greener, lower ridges and turquoise lakes.",
+    "w": "A twin-summited white massif above green valleys and turquoise lakes, on the Russia–Kazakhstan border in the Altai.",
+    "f": [
+      "The Katun River begins at the Gebler Glacier on Belukha's southern side.",
+      "The Tronov brothers made the first ascent of the eastern summit in 1914.",
+      "Belukha is part of the Golden Mountains of Altai, a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which river rises from the glaciers of Belukha?",
+      "a": "Katun",
+      "x": [
+        "Yenisei",
+        "Irtysh"
+      ]
+    }
+  },
+  "Q4062402": {
+    "t": "A lonely ice massif in Tibet's far west",
+    "s": "Far out in the dry uplands of western Tibet, the Nganglong massif rises to about 6,720 m, a knot of ice with more than 40 peaks over 6,000 m. It stands roughly 85 km east-north-east of the town of Ali, in a land of gravel plains and salt lakes. From above, look for a cluster of white summits and glaciers set in a vast brown landscape.",
+    "w": "A cluster of white summits and glaciers in a vast brown upland of gravel plains, north-east of the town of Ali.",
+    "f": [
+      "The massif holds 37 glaciers, two of them more than 6 km long.",
+      "Modern Chinese maps give about 6,720 m, although older sources still quote 7,315 m."
+    ],
+    "q": {
+      "q": "Which town lies about 85 km west-south-west of the Nganglong massif?",
+      "a": "Ali",
+      "x": [
+        "Lhasa",
+        "Shigatse"
+      ]
+    }
+  },
+  "Q5530346": {
+    "t": "Where the Yangtze is born, in Tibet's ice",
+    "s": "The longest river in Asia starts here. Meltwater from glaciers on Geladaindong, the highest peak of the Tanggula Mountains at 6,621 m, gathers into the Tuotuo River, the traditional source of the Yangtze. From this cold, empty upland the water will travel more than 6,000 km to the sea at Shanghai. Look for a white massif of glaciers above braided silver streams on the brown plateau.",
+    "w": "A white massif of glaciers above braided silver streams spreading across the brown plateau of central Tibet.",
+    "f": [
+      "The Jianggendiru Glacier on its south-west flank is usually named as the Yangtze's source.",
+      "East of the peak, the Qinghai–Tibet railway crosses the Tanggula range at about 5,070 m."
+    ],
+    "q": {
+      "q": "Which great river begins on Geladaindong's glaciers?",
+      "a": "Yangtze",
+      "x": [
+        "Yellow River",
+        "Mekong"
+      ]
+    }
+  },
+  "Q2102394": {
+    "t": "A remote ice peak of the eastern Karakoram",
+    "s": "This summit of the eastern Karakoram, charted at 6,934 m and known as Shahi Kangri, stands above the upper Shyok valley in Ladakh, west of the high, empty plains of Aksai Chin. It is a world of ice and bare rock: glaciers pour down between brown ridges, and the braided Shyok threads its gravel bed below. The higher Saser Kangri group rises to the south.",
+    "w": "Glaciers and white crests above a braided grey river valley, with bare brown plateaus stretching away to the east.",
+    "f": [
+      "Saser Kangri I, the highest summit of the neighbouring Saser group, reaches about 7,670 m.",
+      "The Shyok River, flowing below, is a major tributary of the Indus."
+    ],
+    "q": {
+      "q": "The Shyok River below this peak is a tributary of which river?",
+      "a": "Indus",
+      "x": [
+        "Ganges",
+        "Brahmaputra"
+      ]
+    }
+  },
+  "Q2118899": {
+    "t": "The biggest ice field of Tibet's empty north",
+    "s": "In the heart of the Changtang, the high, cold and almost empty north of Tibet, Purog Kangri rises to 6,929 m above a dome of ice some 400 km² in area. It is the largest ice field of the northern Tibetan Plateau. From above it looks like a white starfish on a brown plain, its glacier arms reaching out toward shallow lakes and salt flats.",
+    "w": "A white, star-shaped ice field with radiating glacier lobes on the brown plateau, surrounded by lakes and salt flats.",
+    "f": [
+      "In 2000 Chinese and American scientists drilled ice cores here, the longest 213 m deep.",
+      "The ice field holds about 52 km³ of ice."
+    ],
+    "q": {
+      "q": "In which remote region of Tibet does Purog Kangri lie?",
+      "a": "The Changtang",
+      "x": [
+        "Kham",
+        "Amdo"
+      ]
+    }
+  },
+  "Q4848635": {
+    "t": "The unclimbed crown of a hidden Tibetan range",
+    "s": "In the wet, deeply cut south-east of Tibet rises the Kangri Garpo range, and Bairiga, 6,882 m, is its highest peak. It has never been climbed. The range was so little known that until 2009 none of its 47 summits above 6,000 m had been reached. From above look for a chain of white peaks feeding long glaciers, their tongues reaching down toward dark forested valleys.",
+    "w": "A chain of white peaks with long glaciers reaching down toward dark, forested valleys in south-eastern Tibet.",
+    "f": [
+      "The botanist-explorer Frank Kingdon-Ward photographed the peak in 1933, when it was known as Choembo.",
+      "The Lhagu Glacier, the largest in the range, is about 30 km long."
+    ],
+    "q": {
+      "q": "Bairiga is the highest peak of which range?",
+      "a": "Kangri Garpo",
+      "x": [
+        "Nyenchen Tanglha",
+        "Gangdise"
+      ]
+    }
+  },
+  "Q572801": {
+    "t": "A modest mountain with famously savage weather",
+    "s": "At 1,917 m Mount Washington is small by world standards, yet it is the highest peak in the north-eastern United States and notorious for its weather. Storm tracks from several directions converge over the Presidential Range, and in April 1934 observers on the summit measured a gust of 372 km/h. From above look for a bare grey summit ridge above New Hampshire's dark green forests, often white from October to May.",
+    "w": "A bare grey summit ridge above endless dark forest in northern New Hampshire, the tallest of a chain of treeless peaks.",
+    "f": [
+      "The 1934 gust of 231 mph stood as the world's strongest measured wind for over 60 years.",
+      "The Mount Washington Cog Railway, opened in 1869, was the world's first mountain-climbing cog railway.",
+      "The harsh climate keeps the treeline here at only about 1,300 m."
+    ],
+    "q": {
+      "q": "What record did Mount Washington's summit set in 1934?",
+      "a": "Strongest measured wind gust",
+      "x": [
+        "Lowest temperature",
+        "Deepest snowfall"
+      ]
+    }
+  },
+  "Q1858056": {
+    "t": "The finish line of the Appalachian Trail",
+    "s": "Katahdin rises alone from the forests and lakes of northern Maine, a granite massif of 1,606 m with a bare, bouldery top. Its name means 'the greatest mountain' in the Penobscot language. For hikers it is the northern end of the Appalachian Trail, which runs about 3,500 km from Georgia. From above, look for its grey summit plateau and sharp ridges above dark green woods.",
+    "w": "A lone grey granite massif rising from dark forest dotted with countless lakes in northern Maine.",
+    "f": [
+      "Henry David Thoreau climbed toward its summit in 1846 and wrote about it in The Maine Woods.",
+      "Former governor Percival Baxter bought the land around it and gave it to Maine as a park.",
+      "The trail's southern end is Springer Mountain in Georgia."
+    ],
+    "q": {
+      "q": "Which long-distance trail ends on Katahdin?",
+      "a": "Appalachian Trail",
+      "x": [
+        "Pacific Crest Trail",
+        "Continental Divide Trail"
+      ]
+    }
+  },
+  "Q748355": {
+    "t": "A lone volcano ruling northern California",
+    "s": "Mount Shasta stands alone, a huge white cone rising some 3,000 m above the surrounding country of northern California. At 4,322 m it is the second-highest peak of the Cascades and the largest of their stratovolcanoes by volume. Look for a smaller cone, Shastina, bulging from its western flank; on a clear day the pair can be seen from well over 100 km away.",
+    "w": "A lone white volcanic cone with a smaller cone on its western shoulder, rising far above forested plateaus.",
+    "f": [
+      "Shastina, its satellite cone, would rank among the Cascades' tallest volcanoes on its own.",
+      "Its Whitney Glacier is the longest glacier in California."
+    ],
+    "q": {
+      "q": "What is the name of Shasta's satellite cone?",
+      "a": "Shastina",
+      "x": [
+        "Lassen Peak",
+        "Black Butte"
+      ]
+    }
+  },
+  "Q2078034": {
+    "t": "A wall of peaks with no foothills at all",
+    "s": "The Tetons rise straight out of the flat valley of Jackson Hole with no foothills in between, and Grand Teton, 4,199 m, is the sharpest tooth among them. The range stands about 2,100 m above the valley floor, pushed up along a fault that is still active. From above look for a jagged grey line of peaks, with the blue ovals of Jackson Lake and smaller glacial lakes along its eastern foot.",
+    "w": "A short, jagged range rising abruptly from a flat valley, with lakes along its eastern foot, just south of Yellowstone.",
+    "f": [
+      "French-speaking fur trappers called the peaks les trois tétons, 'the three breasts'.",
+      "The Teton Range is among the youngest in the Rocky Mountains, less than 10 million years old.",
+      "Yellowstone National Park lies just to the north."
+    ],
+    "q": {
+      "q": "Which valley lies at the eastern foot of the Tetons?",
+      "a": "Jackson Hole",
+      "x": [
+        "Yosemite Valley",
+        "Sun Valley"
+      ]
+    }
+  },
+  "Q275662": {
+    "t": "Portland's snowy volcano, skiable even in summer",
+    "s": "Mount Hood is Oregon's highest peak, about 3,400 m, a sharp snowy volcano some 80 km east of Portland that crowns the city's skyline on clear days. It is still considered potentially active, with steam vents near the summit. On its south slope the Palmer Snowfield keeps skiers busy well into summer, and Timberline Lodge, built in the 1930s, sits just below the treeline.",
+    "w": "A sharp, lone white cone rising above dark forest, east of Portland and south of the Columbia River Gorge.",
+    "f": [
+      "A British naval officer named it in 1792 after Admiral Samuel Hood.",
+      "Its last significant eruptions came in the 1780s, shortly before Europeans arrived.",
+      "Timberline Lodge played the exterior of the hotel in the film The Shining."
+    ],
+    "q": {
+      "q": "Which city sees Mount Hood on its skyline, about 80 km away?",
+      "a": "Portland",
+      "x": [
+        "Seattle",
+        "Boise"
+      ]
+    }
+  },
+  "Q756244": {
+    "t": "A snowy giant east of Santiago",
+    "s": "Tupungato is a massive, snow-capped volcano over 6,500 m high, straddling the border of Chile and Argentina east of Santiago. It is an old, eroded giant; its smaller, younger neighbour, Tupungatito, has erupted repeatedly in the last two centuries. From above look for a broad white massif rising from a tangle of dry brown Andean ridges, with green vineyards in the valleys on the Argentine side.",
+    "w": "A broad white massif on the Chile–Argentina border, rising above dry brown ridges about 80 km east of Santiago.",
+    "f": [
+      "Matthias Zurbriggen and Stuart Vines made the first ascent in 1897.",
+      "The Argentine wine district of Tupungato, in the Uco Valley, takes its name from the volcano."
+    ],
+    "q": {
+      "q": "Who made the first ascent of Tupungato in 1897?",
+      "a": "Zurbriggen and Vines",
+      "x": [
+        "Whymper and Carrel",
+        "Hillary and Tenzing"
+      ]
+    }
+  },
+  "Q233836": {
+    "t": "The highest volcano on Earth, in the driest desert",
+    "s": "Ojos del Salado is the highest volcano on Earth, nearly 6,900 m, rising on the border of Chile and Argentina at the edge of the Atacama. The air here is so dry that the mountain carries only thin patches of snow despite its height. Steaming vents near the summit show it is not extinct. From above look for a broad, pale massif in a moonscape of ochre, rust and white salt flats.",
+    "w": "A broad, pale volcanic massif in a moonscape of ochre and rust, with white salt flats spread around it.",
+    "f": [
+      "It is also the highest point of Chile.",
+      "A small crater lake near the summit, at about 6,390 m, is often called the highest lake in the world."
+    ],
+    "q": {
+      "q": "Which country's highest point is Ojos del Salado?",
+      "a": "Chile",
+      "x": [
+        "Peru",
+        "Bolivia"
+      ]
+    }
+  },
+  "Q214916": {
+    "t": "An Inca shrine on a volcano in the sky",
+    "s": "Llullaillaco rises to 6,739 m on the border of Chile and Argentina, in one of the driest places on Earth. Five centuries ago the Inca climbed to its summit to build a shrine, and in 1999 archaeologists found three remarkably preserved Inca burials there — the highest archaeological site in the world. From above look for a lone cone with thin snow above rust-red desert and salt flats.",
+    "w": "A lone, sharp volcanic cone with thin snow patches above rust-red desert and bright salt flats in the Atacama.",
+    "f": [
+      "The three Inca children found on the summit are now kept in a museum in Salta, Argentina.",
+      "The air is so dry that snow on the summit often turns straight to vapour without melting."
+    ],
+    "q": {
+      "q": "What did archaeologists find on Llullaillaco's summit in 1999?",
+      "a": "Inca burials",
+      "x": [
+        "Spanish silver",
+        "Dinosaur bones"
+      ]
+    }
   }
 }

@@ -1272,5 +1272,315 @@
         "A gold vein"
       ]
     }
+  },
+  "Q41087": {
+    "t": "The City of Oaks, a capital planned in a forest",
+    "s": "Raleigh hides under trees: from above, rooftops and roads peek through an almost continuous canopy of oak and pine. It was planned from scratch in 1792, when North Carolina bought land in the woods for a new capital, and named after Sir Walter Raleigh, sponsor of the Roanoke colony. Look for the branching reservoirs of Falls Lake and Jordan Lake nearby.",
+    "w": "A city deep in green forest; a compact downtown; branching reservoirs to the north and west; the airport among trees to the north-west.",
+    "f": [
+      "Raleigh, Durham and Chapel Hill form the 'Research Triangle', with a large research park between them.",
+      "The 1792 plan put the State House on a central square, with four smaller squares around it."
+    ],
+    "q": {
+      "q": "Who is Raleigh named after?",
+      "a": "Sir Walter Raleigh",
+      "x": [
+        "Sir Francis Drake",
+        "John White"
+      ]
+    }
+  },
+  "Q37320": {
+    "t": "A lake port where a crooked river meets Lake Erie",
+    "s": "Cleveland spreads along the south shore of Lake Erie, and its heart is where the Cuyahoga River winds through a valley of old industry before slipping into the lake. The name Cuyahoga is often translated as 'crooked river', and from above it's easy to see why. Surveyor Moses Cleaveland laid out the town in 1796; the city later dropped the first 'a'.",
+    "w": "A city along a straight lakeshore; a tightly winding river through the centre; a small airport right on the waterfront.",
+    "f": [
+      "Cuyahoga Valley, just south of the city, is Ohio's only national park.",
+      "Burke Lakefront Airport sits on land reclaimed from Lake Erie, next to downtown."
+    ],
+    "q": {
+      "q": "Who laid out Cleveland in 1796?",
+      "a": "Moses Cleaveland",
+      "x": [
+        "Grover Cleveland",
+        "Anthony Wayne"
+      ]
+    }
+  },
+  "Q43196": {
+    "t": "A hilly river city whose airport is in another state",
+    "s": "Cincinnati fills a bowl of hills on the north bank of the Ohio River, which swings past in broad curves; across the water is Kentucky. The city's main airport is on the Kentucky side too. Founded in 1788, it was named after the Society of the Cincinnati, which honoured Cincinnatus, the Roman statesman who went back to his plough after saving Rome.",
+    "w": "A city in green hills along a curving river; towns on the opposite, Kentucky bank; a big airport on the plateau to the south-west.",
+    "f": [
+      "The Roebling Suspension Bridge, finished in 1866, was a forerunner of the same engineer's Brooklyn Bridge.",
+      "In the 1800s the city packed so much pork that it was nicknamed Porkopolis."
+    ],
+    "q": {
+      "q": "In which state is Cincinnati's main airport?",
+      "a": "Kentucky",
+      "x": [
+        "Ohio",
+        "Indiana"
+      ]
+    }
+  },
+  "Q23197": {
+    "t": "Music City in the loops of the Cumberland River",
+    "s": "Nashville grew on the bluffs of the Cumberland River, which coils through the city in wide, lazy loops before heading north. Settlers built Fort Nashborough here in 1779. Look for the reservoirs east of town, Percy Priest and Old Hickory, their arms reaching into wooded hills. The nickname Music City comes from its country-music studios and radio stages.",
+    "w": "A city in rolling green country, with a winding river making big loops through it; branching lakes to the east and north-east.",
+    "f": [
+      "The Grand Ole Opry has broadcast from Nashville every week since 1925, the longest-running radio show in the US.",
+      "The city was named after Francis Nash, a general from North Carolina."
+    ],
+    "q": {
+      "q": "Which river loops through Nashville?",
+      "a": "The Cumberland",
+      "x": [
+        "The Tennessee",
+        "The Ohio"
+      ]
+    }
+  },
+  "Q16563": {
+    "t": "A bluff-top river city named after Egypt's ancient capital",
+    "s": "Memphis sits on bluffs on the east bank of the Mississippi, above the river's floods; across the water the Arkansas side is flat floodplain scattered with curved oxbow lakes. Its founders in 1819 likened the river to the Nile and named the town after the ancient Egyptian capital. At night its airport is famously busy: it's the main hub of a giant cargo airline.",
+    "w": "A city on high ground on the east bank of a broad, winding brown river; flat farmland and oxbow lakes on the Arkansas side.",
+    "f": [
+      "For years Memphis was the world's busiest cargo airport, thanks to FedEx's overnight hub.",
+      "The two steel arches of the Hernando de Soto Bridge over the river form the letter 'M'."
+    ],
+    "q": {
+      "q": "Which state lies across the Mississippi from Memphis?",
+      "a": "Arkansas",
+      "x": [
+        "Missouri",
+        "Louisiana"
+      ]
+    }
+  },
+  "Q49231": {
+    "t": "A harbour city at the mouth of Chesapeake Bay",
+    "s": "Norfolk sits on Hampton Roads, a great natural anchorage where several rivers pour into the mouth of Chesapeake Bay. Look east across the bay entrance for a thin line that suddenly vanishes: the Chesapeake Bay Bridge–Tunnel, which dives under the shipping lanes between man-made islands. South of the city stretches the dark forest of the Great Dismal Swamp.",
+    "w": "A low, watery city of peninsulas and inlets on a vast harbour; a long causeway crossing the bay mouth to the north-east.",
+    "f": [
+      "The Bridge–Tunnel, opened in 1964, runs about 28 km from shore to shore, with two tunnels under the channels.",
+      "Lake Drummond, in the middle of the Great Dismal Swamp, is one of only two natural lakes in Virginia.",
+      "Hampton Roads is one of the largest natural harbours in the world."
+    ],
+    "q": {
+      "q": "What links the two shores at the mouth of Chesapeake Bay?",
+      "a": "A bridge–tunnel about 28 km long",
+      "x": [
+        "A 28-km suspension bridge",
+        "Only a car ferry"
+      ]
+    }
+  },
+  "Q37836": {
+    "t": "Three rivers, three rival towns and a Great Lake",
+    "s": "Milwaukee sits where three rivers join and flow into Lake Michigan behind a long breakwater. Each river bank once belonged to a rival settlement, and when the three merged in 1846 their street grids didn't match — which is why several bridges still cross the river at an angle. German immigrants later made the city famous for its beer.",
+    "w": "A city on the western shore of Lake Michigan, where three rivers meet in a harbour sheltered by long breakwaters.",
+    "f": [
+      "In the late 1800s some of America's biggest breweries were based in Milwaukee.",
+      "The opposite, Michigan shore of the lake lies about 130 km away."
+    ],
+    "q": {
+      "q": "How many rival settlements merged to form Milwaukee in 1846?",
+      "a": "Three",
+      "x": [
+        "Two",
+        "Five"
+      ]
+    }
+  },
+  "Q40435": {
+    "t": "Where Lake Erie pours into the Niagara River",
+    "s": "Buffalo stands at the eastern tip of Lake Erie, right where the lake drains into the Niagara River and starts its run north to the falls, about 30 km away. In 1825 the Erie Canal linked this spot to the Hudson and New York, and Buffalo boomed as the gateway to the Great Lakes. In winter, look for bands of lake-effect snow.",
+    "w": "A city at the eastern corner of Lake Erie; a river flowing north from it along the Canadian border towards Niagara Falls.",
+    "f": [
+      "The world's first steam-powered grain elevator was built here in 1842.",
+      "Wind blowing over the unfrozen lake can dump snow on the city in narrow, very intense bands.",
+      "The Peace Bridge links Buffalo with Fort Erie, in Canada, at the head of the river."
+    ],
+    "q": {
+      "q": "Which canal ended at Buffalo when it opened in 1825?",
+      "a": "The Erie Canal",
+      "x": [
+        "The Welland Canal",
+        "The Ohio and Erie Canal"
+      ]
+    }
+  },
+  "Q1342": {
+    "t": "Where two rivers meet to begin the Ohio",
+    "s": "Pittsburgh's downtown is a sharp triangle of land where the Allegheny and Monongahela rivers meet to form the Ohio, and from above that point stands out clearly. All around, the rivers run through steep, wooded valleys crossed by bridge after bridge. In 1758 the British named the spot after the statesman William Pitt and soon built Fort Pitt at the point.",
+    "w": "A pointed wedge of towers where two rivers merge into one; hills and deep river valleys all around, crossed by many bridges.",
+    "f": [
+      "Pittsburgh has around 450 bridges, often said to be more than any other city in the world.",
+      "For much of the 20th century the city was the heart of American steelmaking."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Pittsburgh to form the Ohio?",
+      "a": "The Allegheny and the Monongahela",
+      "x": [
+        "The Susquehanna and the Juniata",
+        "The Kanawha and the Elk"
+      ]
+    }
+  },
+  "Q507080": {
+    "t": "A planned city where dark water meets muddy water",
+    "s": "Look where two great rivers meet: the Caroní, dark as strong tea, flows into the broad, muddy Orinoco, and the two colours run side by side before blending. Ciudad Guayana spreads over both banks of the Caroní, a city planned in 1961 by merging two older towns, Puerto Ordaz and San Félix. Its steel and aluminium plants run on power from dams upstream.",
+    "w": "A city on both sides of a dark river where it joins a much wider, pale brown one; industrial plants along the shore.",
+    "f": [
+      "The Caroní's dark colour comes from tannins washed out of forest soils.",
+      "The Guri Dam, upstream on the Caroní, is one of the largest hydroelectric plants in the world."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Ciudad Guayana?",
+      "a": "The Orinoco and the Caroní",
+      "x": [
+        "The Orinoco and the Apure",
+        "The Amazon and the Negro"
+      ]
+    }
+  },
+  "Q79985": {
+    "t": "Russian America's first capital, on a big green island",
+    "s": "Kodiak town lies on the north-east corner of Kodiak Island, the second-largest island in the United States, a land of steep green mountains and deep, fjord-like bays. Russian fur traders made their first permanent Alaskan settlement on the island in 1784, and until 1808 this harbour was the capital of Russian America. Today it's one of the busiest fishing ports in the US.",
+    "w": "A small harbour town on a green, mountainous island; bays cutting deep into the land; smaller wooded islands just offshore.",
+    "f": [
+      "Kodiak Island covers about 9,300 km²; in the US only Hawaii's Big Island is larger.",
+      "A warehouse built by the Russians around 1808 still stands in town, now the Baranov Museum.",
+      "Kodiak bears, a local subspecies of brown bear, are among the largest bears on Earth."
+    ],
+    "q": {
+      "q": "What was Kodiak until 1808?",
+      "a": "The capital of Russian America",
+      "x": [
+        "A Hudson's Bay Company fort",
+        "A Spanish mission"
+      ]
+    }
+  },
+  "Q79523": {
+    "t": "A tiny village with a runway for Pacific emergencies",
+    "s": "Cold Bay is barely a village, near the stormy tip of the Alaska Peninsula, yet it has one of the longest runways in Alaska, over 3 km. Airliners crossing the North Pacific keep it on their list of diversion airports. Around it lie treeless tundra, volcanic peaks and Izembek Lagoon, where vast eelgrass beds feed migrating geese every autumn.",
+    "w": "A thin neck of land near the peninsula's tip; a long runway beside a wide bay; snow-streaked volcanic cones nearby.",
+    "f": [
+      "Nearly all the world's Pacific brant geese stop at Izembek Lagoon on their autumn migration.",
+      "Frosty Peak, a volcano about 1,900 m high, rises just south-west of the village.",
+      "No roads link Cold Bay to the rest of Alaska; everything arrives by sea or air."
+    ],
+    "q": {
+      "q": "What does tiny Cold Bay have that transpacific flights value?",
+      "a": "A runway over 3 km long",
+      "x": [
+        "A large passenger terminal",
+        "An oil refinery"
+      ]
+    }
+  },
+  "Q80022": {
+    "t": "A tundra town in a delta of a thousand lakes",
+    "s": "Bethel sits on the Kuskokwim River in one of the flattest landscapes on the continent: the Yukon–Kuskokwim Delta, a green-brown tundra so full of ponds and lakes that from above it looks like lace. No road connects the town to the rest of Alaska. Moravian missionaries founded it in 1885 beside a Yup'ik village.",
+    "w": "A small town on a broad, winding river in flat tundra shattered into countless small lakes.",
+    "f": [
+      "In winter the frozen Kuskokwim becomes an ice road linking Bethel with villages up and down the river.",
+      "The Yukon–Kuskokwim Delta is one of the world's largest river deltas and a huge nesting ground for waterbirds."
+    ],
+    "q": {
+      "q": "How do people drive between Bethel and nearby villages in winter?",
+      "a": "On the frozen river",
+      "x": [
+        "On a paved highway",
+        "Through a tunnel"
+      ]
+    }
+  },
+  "Q79813": {
+    "t": "A gravel finger pointing into the Chukchi Sea",
+    "s": "Point Hope sits near the end of a long, low gravel spit that juts westward into the Chukchi Sea — its Iñupiaq name, Tikiġaq, means 'index finger'. It's one of the oldest continuously inhabited places in North America: the nearby Ipiutak site holds the remains of hundreds of houses about 2,000 years old. Bowhead whaling is still at the heart of life here.",
+    "w": "A thin, pale triangular spit jutting west into grey sea, with lagoons behind it; flat tundra and low hills inland.",
+    "f": [
+      "In the 1970s the village moved a few kilometres east because the sea was eroding the tip of the spit.",
+      "For much of the year the point is surrounded by sea ice."
+    ],
+    "q": {
+      "q": "What does Point Hope's Iñupiaq name, Tikiġaq, mean?",
+      "a": "Index finger",
+      "x": [
+        "Whale's tail",
+        "Northern lights"
+      ]
+    }
+  },
+  "Q79809": {
+    "t": "The northernmost town in the United States",
+    "s": "Utqiaġvik, long known as Barrow, clings to the edge of the Arctic Ocean on flat tundra dotted with lakes. Just to the north-east, Point Barrow is the northernmost tip of the United States, where the Chukchi and Beaufort seas meet. Here the sun stays below the horizon for about two months in winter, and in summer it doesn't set for nearly three months.",
+    "w": "A small town on a flat, lake-spotted coastal plain at the Arctic shore; a thin gravel spit curving north-east to the point.",
+    "f": [
+      "The polar night here lasts from mid-November to late January.",
+      "The town was named Barrow after Sir John Barrow of the British Admiralty; in 2016 it officially took back its Iñupiaq name."
+    ],
+    "q": {
+      "q": "How long does the polar night last in Utqiaġvik?",
+      "a": "About two months",
+      "x": [
+        "About two weeks",
+        "About five months"
+      ]
+    }
+  },
+  "Q79996": {
+    "t": "A gold-rush town where the gold lay in the beach",
+    "s": "Nome faces the grey waters of Norton Sound from the edge of the treeless Seward Peninsula. In 1899 prospectors discovered gold in the sand of the beach itself, and within a year a tent city of some 20,000 people crowded the shore. No road links Nome to the rest of Alaska, yet every March it is the finish of the Iditarod sled-dog race.",
+    "w": "A small grid town on a straight coast of Norton Sound; bare tundra hills and snowy mountains inland.",
+    "f": [
+      "People still pan and dredge for gold along Nome's beaches in summer.",
+      "The Iditarod trail runs more than 1,500 km from near Anchorage to Nome."
+    ],
+    "q": {
+      "q": "Where was the gold of Nome's 1899–1900 rush famously found?",
+      "a": "In the beach sand",
+      "x": [
+        "Deep in a mountain mine",
+        "Under a glacier"
+      ]
+    }
+  },
+  "Q80037": {
+    "t": "A fjord port where the Alaska pipeline meets the sea",
+    "s": "Valdez sits at the head of a narrow fjord off Prince William Sound, boxed in by steep, glacier-hung peaks of the Chugach Mountains. Across the water lies the terminal of the Trans-Alaska Pipeline, which carries oil some 1,300 km from Prudhoe Bay on the Arctic coast to this harbour, ice-free all year. Winters here bring several metres of snow.",
+    "w": "A small town at the head of a long, steep-walled fjord; glaciers on the mountains; a tank farm on the opposite shore.",
+    "f": [
+      "A Spanish expedition named the place in 1790 after Antonio Valdés, Spain's naval minister.",
+      "The pipeline was completed in 1977 and crosses three mountain ranges on its way south."
+    ],
+    "q": {
+      "q": "Who named Valdez in 1790?",
+      "a": "A Spanish naval expedition",
+      "x": [
+        "Russian fur traders",
+        "Captain James Cook"
+      ]
+    }
+  },
+  "Q29445": {
+    "t": "A capital between an icefield and the sea, with no road in",
+    "s": "Juneau is squeezed onto a thin shelf between Gastineau Channel and mountains that rise almost straight from the rooftops. Behind them spreads the Juneau Icefield, feeding dozens of glaciers; one, the Mendenhall, flows down nearly to the suburbs by the airport. No road connects the city to the rest of North America. It all began with a gold strike in 1880.",
+    "w": "A narrow town at the foot of steep mountains on a sea channel; a broad glacier tongue reaching down to a lake near the airport.",
+    "f": [
+      "Juneau's municipal area is larger than the whole state of Rhode Island.",
+      "The 1880 gold find was made by Joe Juneau and Richard Harris, guided by the Tlingit leader Kowee."
+    ],
+    "q": {
+      "q": "How do you get to Juneau from the rest of the US?",
+      "a": "Only by air or sea",
+      "x": [
+        "By highway from Anchorage",
+        "By railway from Canada"
+      ]
+    }
   }
 }

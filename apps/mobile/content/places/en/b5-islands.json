@@ -1279,5 +1279,327 @@
         "Fuchsia"
       ]
     }
+  },
+  "Q192767": {
+    "t": "Jungle peaks on one side, grassy plains on the other",
+    "s": "Guadalcanal is the largest island of the Solomon Islands, and strikingly lopsided. A wall of jungle-covered mountains, rising to more than 2,300 m, runs along its southern side, where the rainy 'Weather Coast' drops steeply to the sea. The north is gentler, with grassy plains, plantations and the national capital, Honiara.",
+    "w": "A long island with steep, cloud-capped mountains along the south coast and pale grassy plains along the north.",
+    "f": [
+      "It is named after Guadalcanal in Andalusia, the home town of a member of Mendaña's Spanish expedition of 1568.",
+      "The south coast is called the Weather Coast for its heavy rain and rough seas."
+    ],
+    "q": {
+      "q": "Which city on Guadalcanal is the capital of Solomon Islands?",
+      "a": "Honiara",
+      "x": [
+        "Gizo",
+        "Auki"
+      ]
+    }
+  },
+  "Q83639": {
+    "t": "Six volcanoes fused into a seahorse on the equator",
+    "s": "Isabela, the largest of the Galápagos, is made of six shield volcanoes that have grown together, and from above its outline looks like a seahorse. Broad, dark lava flows streak their flanks, and several summits hold vast calderas. The equator crosses its northern end, yet Galápagos penguins fish in the cold currents along its shores.",
+    "w": "A seahorse-shaped island of broad, dark volcanoes with huge summit craters and black lava flows running down to the sea.",
+    "f": [
+      "Wolf volcano, 1,707 m, is the highest point in the Galápagos.",
+      "The pink iguana lives on the slopes of Wolf volcano and nowhere else on Earth.",
+      "Sierra Negra's summit caldera measures about 7 by 10 km."
+    ],
+    "q": {
+      "q": "What shape is Isabela Island often compared to?",
+      "a": "A seahorse",
+      "x": [
+        "A crescent moon",
+        "A boot"
+      ]
+    }
+  },
+  "Q42000": {
+    "t": "A figure eight of green peaks inside a reef",
+    "s": "Tahiti is two old volcanoes joined by a narrow neck, so from above it looks like a figure eight: big, round Tahiti Nui and smaller Tahiti Iti. Their slopes are sliced into deep green valleys that run from cloud-wrapped peaks down to beaches of black sand. A reef encircles much of the island, holding a pale turquoise lagoon inside.",
+    "w": "A large round island joined to a smaller one by a thin isthmus: knife-edge green ridges, a turquoise lagoon and a white line of surf.",
+    "f": [
+      "Mount Orohena, 2,241 m, is the highest point in French Polynesia.",
+      "Captain Cook came here in 1769 to observe Venus crossing the face of the Sun.",
+      "The surf break at Teahupo'o hosted the Olympic surfing contest in 2024."
+    ],
+    "q": {
+      "q": "What did Captain Cook come to Tahiti to observe in 1769?",
+      "a": "The transit of Venus",
+      "x": [
+        "A total solar eclipse",
+        "Halley's Comet"
+      ]
+    }
+  },
+  "Q188705": {
+    "t": "The Valley Isle, crowned by Haleakalā's vast crater",
+    "s": "Maui is two volcanoes joined by a low isthmus, which earned it the name the Valley Isle. The big eastern one, Haleakalā, rises to 3,055 m, and its summit holds an enormous depression dotted with rust- and ochre-coloured cinder cones, easy to pick out on a clear day. The older West Maui Mountains are carved into sharp green ridges and valleys.",
+    "w": "Two lumps joined by a flat neck: the huge, often cloud-ringed dome of Haleakalā to the east, sharp green ridges to the west.",
+    "f": [
+      "Haleakalā's summit depression is about 11 km long and 800 m deep.",
+      "In winter, humpback whales gather to breed in the channels between Maui, Lānaʻi and Molokaʻi.",
+      "Haleakalā means 'house of the sun' in Hawaiian."
+    ],
+    "q": {
+      "q": "What does 'Haleakalā' mean in Hawaiian?",
+      "a": "House of the sun",
+      "x": [
+        "Mountain of fire",
+        "White mountain"
+      ]
+    }
+  },
+  "Q208198": {
+    "t": "Fiji's main island: lush in the east, golden in the west",
+    "s": "Viti Levu is the largest island of Fiji, roughly round, with rugged forested mountains in the middle. The weather splits it in two: the south-east, around Suva, catches the trade-wind rain and stays dark green, while the drier north-west is a patchwork of sugar-cane fields and pale grassland. Coral reefs and lagoons fringe much of the coast.",
+    "w": "A roundish, mountainous island: dark rainforest in the south-east, paler golden cane country in the north-west, reefs along the shore.",
+    "f": [
+      "Mount Tomanivi, 1,324 m, is the highest point in Fiji.",
+      "The Sigatoka Sand Dunes on the south coast became Fiji's first national park.",
+      "Most international flights to Fiji land at Nadi, on the island's dry western side."
+    ],
+    "q": {
+      "q": "Which city on Viti Levu is Fiji's capital?",
+      "a": "Suva",
+      "x": [
+        "Nadi",
+        "Lautoka"
+      ]
+    }
+  },
+  "Q205695": {
+    "t": "Home of the dodo, and an 'underwater waterfall'",
+    "s": "Three volcanic islands lie in a line east of Madagascar: Réunion, Mauritius and little Rodrigues. Réunion is the tallest and wildest, its peaks rising above 3,000 m, with one of the world's most active volcanoes on its south-east side. Mauritius is lower and ringed by a turquoise lagoon; off its south-west corner, sand pouring down an undersea slope looks from the air like a waterfall.",
+    "w": "Réunion's high, round, cloud-capped peaks; lower Mauritius to the north-east, wrapped in a wide turquoise lagoon.",
+    "f": [
+      "The islands are named after the Portuguese navigator Pedro Mascarenhas.",
+      "The dodo, a flightless pigeon, lived only on Mauritius and was extinct by the late 1600s.",
+      "Piton des Neiges on Réunion, 3,069 m, is the highest point in the Indian Ocean."
+    ],
+    "q": {
+      "q": "On which island did the dodo live?",
+      "a": "Mauritius",
+      "x": [
+        "Réunion",
+        "Madagascar"
+      ]
+    }
+  },
+  "Q192281": {
+    "t": "The last large land to be put on the world map",
+    "s": "Severnaya Zemlya was the last sizeable land on Earth to be discovered: a Russian expedition sighted it in 1913, and it was not properly mapped until 1930–32. From above it is a cluster of big islands where smooth ice caps cover about half the land, their edges calving into the sea, and the rest is bare brown polar desert. Sea ice locks it in for most of the year.",
+    "w": "Big islands under smooth white ice domes, bare brown ground at their edges and frozen straits between, north of the Taymyr Peninsula.",
+    "f": [
+      "The Academy of Sciences Ice Cap on Komsomolets Island is the largest ice cap in Russia.",
+      "Georgy Ushakov and Nikolay Urvantsev mapped the archipelago by dog sled in 1930–32.",
+      "Cape Arktichesky, its northern tip, is a common starting point for North Pole expeditions."
+    ],
+    "q": {
+      "q": "In which year was Severnaya Zemlya discovered?",
+      "a": "1913",
+      "x": [
+        "1878",
+        "1596"
+      ]
+    }
+  },
+  "Q1249802": {
+    "t": "Windswept, treeless islands full of penguins",
+    "s": "Two main islands and hundreds of small ones lie in the South Atlantic east of Patagonia: low, treeless and brown-green under a big sky. The coast is torn into long inlets and sounds. Look for pale streaks on the hillsides — these are stone runs, rivers of boulders left by ice-age frost. Along the shores live huge colonies of penguins and albatrosses.",
+    "w": "Two large, low, treeless islands with deeply indented coasts and pale streaks of boulder fields on the hills.",
+    "f": [
+      "Five species of penguin breed here, including king, gentoo and rockhopper penguins.",
+      "About 70% of the world's black-browed albatrosses nest on these islands.",
+      "There are no native trees; the land is covered in grass, heath and peat."
+    ],
+    "q": {
+      "q": "What are the Falklands' 'stone runs'?",
+      "a": "Rivers of boulders",
+      "x": [
+        "Ancient stone walls",
+        "Old lava flows"
+      ]
+    }
+  },
+  "Q25231": {
+    "t": "Pointed mountains, flowing glaciers and a vault of seeds",
+    "s": "Svalbard is where the Arctic looks most dramatic from the air: dark, sharp-crested mountains, glaciers flowing between them like frozen rivers, and ice fronts calving into fjords. Around 60% of the land lies under ice. Willem Barentsz named the main island Spitsbergen — 'pointed mountains' — when he sighted it in 1596.",
+    "w": "Jagged dark peaks separated by broad white glaciers, fjords ending in ice cliffs, and sea ice to the north and east.",
+    "f": [
+      "Longyearbyen is the northernmost town on Earth with more than 1,000 inhabitants.",
+      "The Global Seed Vault, dug into a mountain near Longyearbyen, stores seeds from all over the world.",
+      "The midnight sun shines here from about late April to late August."
+    ],
+    "q": {
+      "q": "What does the name 'Spitsbergen' mean?",
+      "a": "Pointed mountains",
+      "x": [
+        "White coast",
+        "Ice fjords"
+      ]
+    }
+  },
+  "Q185018": {
+    "t": "Europe's northernmost islands, locked in pack ice",
+    "s": "Franz Josef Land is a scatter of nearly 200 islands high in the Arctic, most of them buried under ice caps, with dark basalt cliffs showing at their edges. From above the ice domes look smooth and rounded, and the channels between them stay frozen for much of the year. Cape Fligely on Rudolf Island is the northernmost point of Europe, about 900 km from the Pole.",
+    "w": "Dozens of islands under smooth, rounded ice caps, with dark cliffs at their edges and frozen channels between them.",
+    "f": [
+      "An Austro-Hungarian expedition discovered the islands in 1873 and named them after Emperor Franz Joseph.",
+      "Fridtjof Nansen and Hjalmar Johansen spent the winter of 1895–96 here in a stone hut.",
+      "Champ Island is famous for its strange, almost perfectly round stone balls."
+    ],
+    "q": {
+      "q": "Which emperor gave his name to Franz Josef Land?",
+      "a": "Franz Joseph I of Austria",
+      "x": [
+        "Wilhelm II of Germany",
+        "Alexander II of Russia"
+      ]
+    }
+  },
+  "Q80413": {
+    "t": "A 1,000-km wall of ice and rock between two seas",
+    "s": "Novaya Zemlya is a long, curved barrier, nearly 1,000 km from end to end, dividing the Barents Sea from the Kara Sea — the Ural Mountains carried on out into the Arctic. Its two main islands are separated by the narrow Matochkin Shar strait. The southern one is tundra and bare hills; the northern one is largely buried under a vast ice cap whose glaciers break off into the sea.",
+    "w": "A very long, narrow, curving pair of islands: brown tundra in the south, a continuous white ice cap in the north.",
+    "f": [
+      "The northern island's ice cap, over 20,000 km², is one of the largest in Europe.",
+      "Willem Barentsz and his crew spent the winter of 1596–97 near its northern tip, in a hut of driftwood.",
+      "Matochkin Shar, the strait between the two main islands, is about 100 km long."
+    ],
+    "q": {
+      "q": "Which two seas does Novaya Zemlya separate?",
+      "a": "The Barents and Kara seas",
+      "x": [
+        "The Kara and Laptev seas",
+        "The Barents and White seas"
+      ]
+    }
+  },
+  "Q3803": {
+    "t": "Volcano after volcano, from Bali to Timor",
+    "s": "East of Java the islands grow smaller and drier — Bali, Lombok, Sumbawa, Flores and on towards Timor — and nearly each is crowned by volcanoes. Some peaks hold striking crater lakes: Rinjani on Lombok cradles a blue crescent of water with a young cone rising inside it. Farther east, green gives way to brown savanna, where Komodo dragons still roam a few islands.",
+    "w": "A west–east chain of volcanic islands, greener in the west and browner in the east; look for crater lakes and calderas.",
+    "f": [
+      "On Flores, the three crater lakes of Kelimutu each have a different colour, and the colours shift over time.",
+      "Tambora, on Sumbawa, was left with a caldera about 6 km wide by its great eruption of 1815.",
+      "Remains of Homo floresiensis, a tiny extinct human nicknamed the 'hobbit', were found on Flores in 2003."
+    ],
+    "q": {
+      "q": "Which Lesser Sunda island has three crater lakes of different colours?",
+      "a": "Flores",
+      "x": [
+        "Lombok",
+        "Sumba"
+      ]
+    }
+  },
+  "Q215664": {
+    "t": "Hundreds of reefs scattered across the South China Sea",
+    "s": "Across the southern South China Sea lie well over a hundred reefs, atolls and sandy cays, many of them awash at high tide. From above they appear as faint turquoise smudges and pale rings on deep blue, with only a few specks of real land among them. Old British charts marked this whole area with a blunt warning: 'Dangerous Ground'.",
+    "w": "Faint turquoise rings and patches of reef strewn across dark-blue sea, with very little dry land.",
+    "f": [
+      "The islands are named after Richard Spratly, a British whaling captain who sighted one of them in 1843.",
+      "All their natural dry land put together covers only about 2 km²."
+    ],
+    "q": {
+      "q": "How did old British charts label the Spratly area?",
+      "a": "Dangerous Ground",
+      "x": [
+        "Treacherous Shoals",
+        "Coral Maze"
+      ]
+    }
+  },
+  "Q201012": {
+    "t": "Arctic islands made of ice, sand and mammoth bones",
+    "s": "The New Siberian Islands lie low and flat between the Laptev and East Siberian seas, often impossible to tell apart from the sea ice around them. In summer they show as brown tundra and grey sand, with lakes and crumbling cliffs of ancient ground ice. The frozen soil holds so many mammoth bones and tusks that ivory hunters have come here for more than two centuries.",
+    "w": "Low, flat, brown and grey islands with many lakes, blending into the surrounding sea ice for much of the year.",
+    "f": [
+      "Bunge Land, between Kotelny and Faddeyevsky islands, is a low sandy plain that floods during storms.",
+      "In 1811 Yakov Sannikov reported a mysterious land to the north; 'Sannikov Land' was never found.",
+      "Kotelny is the largest island of the group."
+    ],
+    "q": {
+      "q": "Which phantom land was reported north of the New Siberian Islands?",
+      "a": "Sannikov Land",
+      "x": [
+        "Crocker Land",
+        "Bunge Land"
+      ]
+    }
+  },
+  "Q128011": {
+    "t": "The Caribbean's big islands, from Cuba to Puerto Rico",
+    "s": "The Greater Antilles are the heavyweights of the Caribbean: Cuba, Hispaniola, Jamaica and Puerto Rico, lined up from west to east. From above they are large, green and mountainous, edged by pale sand and turquoise shallows, while the Atlantic to the north falls away to deep, dark blue. Cuba, the largest, stretches some 1,200 km from end to end.",
+    "w": "A west–east line of big green islands: long, narrow Cuba, then mountainous Hispaniola, with Jamaica to the south and Puerto Rico last.",
+    "f": [
+      "Cuba is the largest island in the Caribbean, at about 105,000 km².",
+      "North of Puerto Rico, the Puerto Rico Trench plunges to about 8,400 m, the deepest point of the Atlantic.",
+      "Jamaica's Blue Mountains, rising to about 2,250 m, gave their name to a famous coffee."
+    ],
+    "q": {
+      "q": "Which is the largest island in the Caribbean?",
+      "a": "Cuba",
+      "x": [
+        "Hispaniola",
+        "Jamaica"
+      ]
+    }
+  },
+  "Q21713615": {
+    "t": "Turquoise banks so bright they seem lit from below",
+    "s": "In the Bahamas the water steals the show. The islands sit on vast limestone banks only a few metres deep, which glow an almost unreal turquoise, rippled with sand patterns. Cutting into the Great Bahama Bank is the Tongue of the Ocean, a deep trench whose ink-blue water ends abruptly against the pale shallows — one of the sharpest colour lines you will see from a plane.",
+    "w": "Huge areas of glowing pale-turquoise shallows with sandy ripples, low islands along their edges, and sharp lines where deep blue begins.",
+    "f": [
+      "Columbus made his first landfall in the Americas here, in October 1492.",
+      "The country counts about 700 islands and more than 2,000 small cays.",
+      "Dean's Blue Hole, off Long Island, drops about 200 m, one of the deepest known."
+    ],
+    "q": {
+      "q": "In which year did Columbus make his first landfall in the Bahamas?",
+      "a": "1492",
+      "x": [
+        "1498",
+        "1502"
+      ]
+    }
+  },
+  "Q93259": {
+    "t": "A curved necklace of islands closing off the Caribbean",
+    "s": "The Lesser Antilles curve for some 800 km from the Virgin Islands down to Grenada, dividing the Caribbean from the Atlantic. Most are steep, green volcanic islands, each a peak with a skirt of reef; Guadeloupe is shaped like a butterfly. On a clear day, look on Saint Lucia's west coast for the Pitons, two sharp volcanic spires standing side by side at the water's edge.",
+    "w": "A curving chain of small, steep, green volcanic islands running north to south, with the open Atlantic to the east.",
+    "f": [
+      "The inner islands are volcanic; outer ones such as Antigua and Barbados are flatter and made of limestone.",
+      "Kick 'em Jenny, north of Grenada, is an active volcano still growing beneath the sea.",
+      "The Pitons of Saint Lucia are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which island is famous for two volcanic spires called the Pitons?",
+      "a": "Saint Lucia",
+      "x": [
+        "Dominica",
+        "Grenada"
+      ]
+    }
+  },
+  "Q59771": {
+    "t": "A crescent of rainforest and steep volcanic cones",
+    "s": "New Britain is a long, curving crescent about 500 km from end to end, the largest island of the Bismarck Archipelago. Along its north coast stands a line of volcanoes; the most striking is Ulawun, a steep, symmetrical cone that is also one of the most active in Papua New Guinea. Inland, the limestone Nakanai Mountains hide giant sinkholes and underground rivers.",
+    "w": "A long crescent-shaped island of dark rainforest with volcanic cones along its north coast, one of them tall and symmetrical.",
+    "f": [
+      "Ulawun, about 2,300 m, is one of the Decade Volcanoes chosen for special study.",
+      "It is Papua New Guinea's largest island after New Guinea itself.",
+      "Some sinkholes in the Nakanai Mountains are hundreds of metres deep."
+    ],
+    "q": {
+      "q": "Which active volcano stands on New Britain's north coast?",
+      "a": "Ulawun",
+      "x": [
+        "Bagana",
+        "Manam"
+      ]
+    }
   }
 }

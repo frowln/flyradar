@@ -38,3 +38,19 @@ describe('wrong options', () => {
     expect(g.options.map((o) => o.id)).not.toContain('great');
   });
 });
+
+describe('the kind named in the question', () => {
+  it('names the kind only when every option is of it', () => {
+    const mixed = { pois: [poi('sea', 1000, 'sea'), poi('peak', 4000), poi('town', 7000, 'city'), poi('sea2', 9000, 'sea')] } as OfflinePackage;
+    // One other sea and no other water: no fair question.
+    expect(nextGuess(mixed, 1000 - 180, {})).toBeNull();
+    const withLake = { pois: [...mixed.pois, poi('lake', 11000, 'lake')] } as OfflinePackage;
+    const kindred = nextGuess(withLake, 1000 - 180, {})!;
+    expect(kindred.sameKind).toBe(false);
+    expect(kindred.options.map((o) => o.category).sort()).toEqual(['lake', 'sea', 'sea']);
+    const seas = { pois: [...mixed.pois, poi('sea3', 11000, 'sea')] } as OfflinePackage;
+    const g = nextGuess(seas, 1000 - 180, {})!;
+    expect(g.sameKind).toBe(true);
+    expect(g.options.every((o) => o.category === 'sea')).toBe(true);
+  });
+});

@@ -1489,5 +1489,297 @@
         "The Friendly Islands"
       ]
     }
+  },
+  "Q9365": {
+    "t": "A city named after a Monday market, below snowy peaks",
+    "s": "Dushanbe fills a broad green valley where the Varzob River tumbles out of the Hissar Range, whose snowy ridges rise just north of the city. A century ago this was a village known for its weekly bazaar, held on Mondays — and “dushanbe” is simply Tajik for Monday. East of here, the Vakhsh River is held back by some of the tallest dams on Earth.",
+    "w": "A green city in a wide valley at the foot of snowy mountains to the north, with a river flowing down through it.",
+    "f": [
+      "The Nurek Dam on the Vakhsh, about 75 km east, is around 300 m high.",
+      "From 1929 to 1961 the city was called Stalinabad."
+    ],
+    "q": {
+      "q": "What does “Dushanbe” mean in Tajik?",
+      "a": "Monday",
+      "x": [
+        "Market",
+        "Crossroads"
+      ]
+    }
+  },
+  "Q1362": {
+    "t": "A planned grid capital at the foot of the Margalla Hills",
+    "s": "Islamabad is one of the world's newer capitals, laid out from the 1960s on a neat grid of sectors, each with its own green belt. From above it looks tidy and leafy, pressed against the forested Margalla Hills — the first foothills of the Himalaya. Just south, its older twin Rawalpindi forms a much denser, busier sprawl.",
+    "w": "A neat grid of green sectors along the foot of wooded hills, with a lake to the east and a denser city to the south.",
+    "f": [
+      "Greek planner Constantinos Doxiadis drew up Islamabad's master plan.",
+      "Its sectors are named with a letter and a number, like squares on a chessboard.",
+      "Rawal Lake, on the eastern edge, is a reservoir that supplies water to both cities."
+    ],
+    "q": {
+      "q": "Who drew up Islamabad's master plan?",
+      "a": "Constantinos Doxiadis",
+      "x": [
+        "Le Corbusier",
+        "Edwin Lutyens"
+      ]
+    }
+  },
+  "Q185453": {
+    "t": "An ancient City of Saints on the hot Punjab plain",
+    "s": "Multan lies on the flat, irrigated plain of southern Punjab, with the braided Chenab River a few kilometres to the west. It is one of the oldest continuously inhabited cities in South Asia, and its many Sufi shrines have earned it the name City of Saints. An old Persian couplet lists Multan's four gifts: dust, heat, beggars and graveyards.",
+    "w": "A large city on a flat plain of fields and canals, a wide braided river to the west, orchards around.",
+    "f": [
+      "The tomb of the Sufi saint Shah Rukn-e-Alam, built in the 14th century, is an octagonal brick landmark.",
+      "Multan is famous across Pakistan for its mangoes.",
+      "Blue-glazed tiles and pottery are a centuries-old local craft."
+    ],
+    "q": {
+      "q": "Multan is traditionally known as the City of…",
+      "a": "Saints",
+      "x": [
+        "Gardens",
+        "Lights"
+      ]
+    }
+  },
+  "Q1640079": {
+    "t": "A city of windcatchers on the banks of the Indus",
+    "s": "Hyderabad sits on a low limestone ridge on the east bank of the Indus, about 150 km upriver from Karachi. The river here is wide and braided, and a barrage beside the city spreads its water into canals that turn the desert green. The Kalhora ruler Ghulam Shah founded the city in 1768. Its old houses once bristled with rooftop windcatchers that funnelled breezes indoors.",
+    "w": "A city on a low ridge beside a wide, braided river, with a barrage across it and green canal-fed fields around.",
+    "f": [
+      "Hyderabad is known as the city of bangles for its many glass-bangle workshops.",
+      "The Kotri Barrage beside the city diverts Indus water into irrigation canals."
+    ],
+    "q": {
+      "q": "What did old houses in Hyderabad, Sindh, carry on their roofs?",
+      "a": "Windcatchers",
+      "x": [
+        "Water wheels",
+        "Bell towers"
+      ]
+    }
+  },
+  "Q1113311": {
+    "t": "A frontier city at the foot of the Khyber Pass",
+    "s": "Peshawar sits in a green, fertile basin ringed by bare brown mountains, just east of where the Khyber Pass climbs west towards Afghanistan. The Kabul River loops across the valley to the north. As Purushapura, it was the capital of the Kushan king Kanishka nearly two thousand years ago, and for centuries caravans rested here before or after the pass.",
+    "w": "A dense city on a green plain encircled by bare mountains, with a gap leading west into the hills.",
+    "f": [
+      "Kanishka raised a huge Buddhist stupa here, described by Chinese pilgrims as one of the tallest structures of its day.",
+      "The name of the old Qissa Khwani Bazaar means “storytellers' market”."
+    ],
+    "q": {
+      "q": "What was Peshawar called as the Kushan capital?",
+      "a": "Purushapura",
+      "x": [
+        "Pataliputra",
+        "Taxila"
+      ]
+    }
+  },
+  "Q3037": {
+    "t": "A valley that was once a lake, beneath the Himalaya",
+    "s": "Kathmandu fills an almost round valley about 1,400 m up, ringed by terraced green hills. Geologists confirm what legend says: the valley floor was once a lake, and its drained sediments made the soil here so fertile. On a clear day, a wall of snowy Himalayan peaks shines along the northern horizon.",
+    "w": "A round, densely built valley ringed by terraced hills; on clear days, a wall of snow peaks to the north.",
+    "f": [
+      "The valley holds seven groups of monuments on the UNESCO World Heritage list.",
+      "The city's name is traced to Kasthamandap, a wooden pavilion said to have been built from a single tree.",
+      "Everest, about 160 km to the east, is only some 2 km below your cruising altitude."
+    ],
+    "q": {
+      "q": "Legend and geology agree the Kathmandu Valley was once…",
+      "a": "A lake",
+      "x": [
+        "A desert",
+        "A glacier"
+      ]
+    }
+  },
+  "Q36526": {
+    "t": "A tropical capital on a surprisingly dry, brown coast",
+    "s": "Port Moresby wraps around a harbour on the south coast of New Guinea, and it looks surprisingly dry for the tropics: its hills turn brown and grassy in the dry season because they lie in a rain shadow. Coral reefs fringe the coast. Inland, the forested Owen Stanley Range rises to peaks of about 4,000 m. Captain John Moresby named the harbour in 1873 after his father.",
+    "w": "A town spread around a harbour and bays, brown grassy hills behind, reefs offshore and high mountains inland.",
+    "f": [
+      "Hanuabada, a village of houses on stilts over the harbour, is the traditional home of the Motu people.",
+      "Motu traders once sailed big lakatoi canoes along the coast on trading voyages called hiri."
+    ],
+    "q": {
+      "q": "Captain John Moresby named the harbour in 1873 after…",
+      "a": "His father",
+      "x": [
+        "His ship",
+        "Queen Victoria"
+      ]
+    }
+  },
+  "Q40921": {
+    "t": "A strip of town below Guadalcanal's green mountains",
+    "s": "Honiara is a thin strip of town along the north coast of Guadalcanal, squeezed between the sea and grassy foothills that climb towards jungle-covered mountains. The island's highest peaks, over 2,300 m, are the tallest in the Solomon Islands. Spanish navigator Álvaro de Mendaña reached these islands in 1568 and named them after King Solomon, hoping for gold.",
+    "w": "A narrow town along a coast, green hills and high mountains behind it, islands across the water to the north.",
+    "f": [
+      "The name Honiara is often said to come from a local phrase meaning “facing the south-east wind”.",
+      "Guadalcanal is named after a town in Andalusia, Spain, home of one of Mendaña's officers."
+    ],
+    "q": {
+      "q": "Who named the Solomon Islands in 1568?",
+      "a": "Álvaro de Mendaña",
+      "x": [
+        "Abel Tasman",
+        "James Cook"
+      ]
+    }
+  },
+  "Q976": {
+    "t": "Siberia's old university town, lace-carved in wood",
+    "s": "Tomsk sits on the high right bank of the Tom River, surrounded by dark taiga that stretches to every horizon. Cossacks founded a fort here in 1604 on the orders of Tsar Boris Godunov. In 1888 the city opened the first university in Siberia, and it is still a student town. Many old wooden houses are decorated with carvings as delicate as lace.",
+    "w": "A city on the high east bank of a winding river, surrounded by dark coniferous forest; white in winter.",
+    "f": [
+      "Tomsk State University, opened in 1888, was the first university in Asian Russia.",
+      "The city keeps hundreds of historic wooden houses with carved window frames."
+    ],
+    "q": {
+      "q": "When did Tomsk open Siberia's first university?",
+      "a": "1888",
+      "x": [
+        "1755",
+        "1918"
+      ]
+    }
+  },
+  "Q7978": {
+    "t": "Russia's easternmost town, at the mouth of a tundra river",
+    "s": "Anadyr is a small town on a point of land at the mouth of the Anadyr River, where it opens into a wide estuary of the Bering Sea. Around it lies treeless tundra on permafrost, white for much of the year. It is the easternmost town in Russia, just two and a half degrees west of the 180th meridian, and about 10,000 people live here.",
+    "w": "A small cluster of town on a point of land at a wide estuary, surrounded by flat, treeless tundra.",
+    "f": [
+      "The town was founded in 1889 under the name Novo-Mariinsk.",
+      "The estuary is frozen for much of the year, from autumn well into early summer."
+    ],
+    "q": {
+      "q": "What was Anadyr called when it was founded in 1889?",
+      "a": "Novo-Mariinsk",
+      "x": [
+        "Novo-Arkhangelsk",
+        "Nikolaevsk"
+      ]
+    }
+  },
+  "Q887": {
+    "t": "An ironworks town in the Urals, on the edge of Asia",
+    "s": "Yekaterinburg spreads across the low, forested hills of the Middle Urals, just east of the watershed traditionally taken as the border between Europe and Asia. It began in 1723 as an ironworks, and the dam built to power it still holds back the City Pond in the centre. The city is named after Catherine I, wife of Peter the Great.",
+    "w": "A big city among low forested hills, a dammed pond on the river in its centre and many lakes around.",
+    "f": [
+      "Monuments marking the Europe–Asia border stand on the ridge less than 20 km west of the city.",
+      "From 1924 to 1991 the city was called Sverdlovsk."
+    ],
+    "q": {
+      "q": "Yekaterinburg is named after which empress?",
+      "a": "Catherine I",
+      "x": [
+        "Catherine II",
+        "Elizabeth"
+      ]
+    }
+  },
+  "Q183002": {
+    "t": "An oil town among bogs and lakes on the great Ob",
+    "s": "Surgut stands on the right bank of the Ob, in the middle of the West Siberian Plain — one of the flattest, boggiest places on Earth, speckled with countless lakes. Around it lie some of Russia's largest oilfields; look for straight roads linking square well pads across the swamp. At night, isolated gas flares glow in the darkness.",
+    "w": "A city on a broad river amid endless bogs and lakes, crossed by straight roads; flares glowing at night.",
+    "f": [
+      "Founded in 1594, Surgut is one of the oldest Russian towns in Siberia.",
+      "Its bridge over the Ob, opened in 2000, hangs from a single tall pylon."
+    ],
+    "q": {
+      "q": "In which year was Surgut founded?",
+      "a": "1594",
+      "x": [
+        "1794",
+        "1961"
+      ]
+    }
+  },
+  "Q6014": {
+    "t": "A silver town where ribbons of pine cross the steppe",
+    "s": "Barnaul stands on the high left bank of the Ob, where fields and steppe begin to replace the taiga. Look for a strange pattern south-west of the city: long, narrow strips of dark pine forest running straight across the farmland, like ribbons laid on a table. The town grew from 18th-century smelting works, and for decades it produced most of Russia's silver.",
+    "w": "A city on the high bank of a wide river; long, straight dark strips of pine forest running diagonally across the fields.",
+    "f": [
+      "The ribbon pine forests follow ancient channels carved by meltwater, and some stretch for hundreds of kilometres.",
+      "The first smelting works here was set up in the 1730s by the industrialist Akinfiy Demidov."
+    ],
+    "q": {
+      "q": "Which river does Barnaul stand on?",
+      "a": "The Ob",
+      "x": [
+        "The Irtysh",
+        "The Yenisei"
+      ]
+    }
+  },
+  "Q883": {
+    "t": "Siberia's biggest city, born where a railway crossed the Ob",
+    "s": "Novosibirsk straddles the Ob, and its reason to exist is a bridge: in 1893 the Trans-Siberian Railway crossed the river here, and a settlement sprang up beside the works. In barely a century it became the largest city in Siberia. South of the city, a dam has turned the Ob into a reservoir some 200 km long that locals call the Ob Sea.",
+    "w": "A big city on both banks of a wide river crossed by several bridges; a vast, long reservoir stretches south.",
+    "f": [
+      "The city was called Novonikolayevsk until 1926.",
+      "Akademgorodok, a science town founded in the 1950s, lies in the pine forest beside the Ob Sea."
+    ],
+    "q": {
+      "q": "What was Novosibirsk called when it was founded?",
+      "a": "Novonikolayevsk",
+      "x": [
+        "Nikolsk",
+        "Novoarkhangelsk"
+      ]
+    }
+  },
+  "Q35381": {
+    "t": "A harbour city with brand-new land built into the sea",
+    "s": "Colombo lines the flat west coast of Sri Lanka, its harbour sheltered behind long breakwaters. Right beside it, look for a large, geometric block of new land pushed out into the Indian Ocean — a whole district built on reclaimed sand. Portuguese, Dutch and British traders each held the port in turn. Inland, green hills rise towards the mountains at the island's heart.",
+    "w": "A flat coastal city, a harbour behind breakwaters and a geometric block of reclaimed land jutting into the sea.",
+    "f": [
+      "Sri Lanka's official capital, Sri Jayawardenepura Kotte, borders Colombo on its eastern side.",
+      "Colombo's harbour is man-made: work on its first great breakwater began in 1875."
+    ],
+    "q": {
+      "q": "Which city is Sri Lanka's official capital, next to Colombo?",
+      "a": "Sri Jayawardenepura Kotte",
+      "x": [
+        "Kandy",
+        "Anuradhapura"
+      ]
+    }
+  },
+  "Q1467": {
+    "t": "Where Spain's story in the Philippines began",
+    "s": "Cebu City lies on the east coast of a long, narrow, mountainous island, facing flat Mactan Island across a slim channel crossed by bridges; the airport sits on Mactan. Magellan's expedition arrived here in 1521 and planted a cross that is still venerated. In 1565 Miguel López de Legazpi founded the first Spanish settlement in the archipelago on this shore.",
+    "w": "A city on the east coast of a long, hilly island, facing a flat island with an airport across a narrow channel.",
+    "f": [
+      "On Mactan in 1521, Magellan fell in a clash with the chief Lapu-Lapu, now honoured as a national hero.",
+      "Cebu is regarded as the oldest city in the Philippines."
+    ],
+    "q": {
+      "q": "In which year did Magellan's expedition plant a cross at Cebu?",
+      "a": "1521",
+      "x": [
+        "1492",
+        "1565"
+      ]
+    }
+  },
+  "Q459787": {
+    "t": "An old sugar port facing a mango island",
+    "s": "Iloilo spreads over flat land on the south coast of Panay, facing the hilly island of Guimaras across a strait only a few kilometres wide. Rivers and fish ponds break up the city's edges. When the port opened to world trade in 1855, sugar from nearby Negros poured through it, and grand merchant houses rose along its streets.",
+    "w": "A flat city on a coast facing a hilly island across a narrow strait, with rivers and fish ponds around.",
+    "f": [
+      "Guimaras, across the strait, is famous for its sweet mangoes.",
+      "Miag-ao Church, about 40 km to the west, is a UNESCO-listed Baroque church of yellow stone from the 18th century."
+    ],
+    "q": {
+      "q": "Iloilo faces which island across a narrow strait?",
+      "a": "Guimaras",
+      "x": [
+        "Mindoro",
+        "Bohol"
+      ]
+    }
   }
 }

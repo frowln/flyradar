@@ -43,7 +43,8 @@ function checkEntry(where, lang, e, { story = true } = {}) {
   for (const [k, v] of Object.entries(e)) {
     if (!['t', 's', 'w', 'f', 'q'].includes(k)) err(where, `unknown field ${k}`);
     const text = JSON.stringify(v);
-    if (/\b(TODO|lorem|XXX)\b/i.test(text)) err(where, `placeholder text in ${k}`);
+    // Case-sensitive: Spanish "todo" is a word, "TODO" is a placeholder.
+    if (/\b(TODO|TBD|XXX)\b|lorem ipsum/.test(text)) err(where, `placeholder text in ${k}`);
   }
 }
 

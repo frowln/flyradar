@@ -119,9 +119,13 @@ function GuessCard({ guess, onAnswer }: { guess: Guess; onAnswer: (correct: bool
         </Row>
         <Space h={s.x2} />
         <Title>
-          {side === 'below'
-            ? t('guess.promptBelow', { kind: t(`category.${guess.poi.category}`) })
-            : t('guess.prompt', { side: t(`side.${side}`), kind: t(`category.${guess.poi.category}`) })}
+          {guess.sameKind
+            ? side === 'below'
+              ? t('guess.promptBelow', { kind: t(`category.${guess.poi.category}`) })
+              : t('guess.prompt', { side: t(`side.${side}`), kind: t(`category.${guess.poi.category}`) })
+            : side === 'below'
+              ? t('guess.promptBelowAny')
+              : t('guess.promptAny', { side: t(`side.${side}`) })}
         </Title>
       </Gutter>
       <Space h={s.x3} />
@@ -437,7 +441,7 @@ export default function AloftScreen() {
                 <View style={styles.flex}>
                   <Label tone="dim">{t('side.below')}</Label>
                   <Title numberOfLines={1}>{placeName(v.poi, locale)}</Title>
-                  {placeText(v.poi, locale).tagline ? <Small numberOfLines={1}>{placeText(v.poi, locale).tagline}</Small> : null}
+                  {placeText(v.poi, locale).tagline ? <Small numberOfLines={2}>{placeText(v.poi, locale).tagline}</Small> : null}
                 </View>
                 <Data tone="dim" allowFontScaling={false}>
                   ›

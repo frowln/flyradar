@@ -239,6 +239,8 @@ export const es = {
     label: 'adivina',
     prompt: '¿Qué %{kind} aparecerá pronto %{side}?',
     promptBelow: '¿Qué %{kind} estás a punto de sobrevolar?',
+    promptAny: '¿Qué aparecerá pronto %{side}?',
+    promptBelowAny: '¿Qué estás a punto de sobrevolar?',
     right: 'Correcto. Mira por la ventanilla en un momento para comprobarlo.',
     wrong: 'La respuesta: %{name}. Mira por la ventanilla en un momento.',
   },
@@ -277,7 +279,7 @@ export const es = {
     cloudsBelow: 'Se prevén nubes debajo: busca los claros.',
   },
   facts: {
-    title: 'desde arriba',
+    title: 'para saber',
     recognise: 'Reconocible a unos %{dist} %{unit} desde la altitud de crucero',
     aboveSummit: 'Pasas a %{h} %{unit} por encima de la cumbre',
     cityLights: 'De noche sus luces se ven a unos %{dist} %{unit}',

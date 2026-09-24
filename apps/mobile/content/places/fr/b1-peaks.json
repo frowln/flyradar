@@ -1,0 +1,362 @@
+{
+  "Q7296": {
+    "t": "Le toit de l’Afrique, île de neige au-dessus des plaines",
+    "s": "Le Kilimandjaro n’appartient à aucune chaîne : il se dresse seul, vaste volcan sombre surgi de la savane. Son sommet, l’Uhuru Peak sur le cône du Kibo, culmine à 5 895 m — le toit de l’Afrique, et pourtant encore à environ cinq kilomètres sous vous. Cherchez l’anneau blanc de glace sur le Kibo : il recule d’année en année mais tient toujours, à trois degrés à peine au sud de l’équateur.",
+    "w": "Un immense dôme isolé au sommet plat strié de blanc, flanqué à l’est du pic déchiqueté du Mawenzi, près de la frontière kényane.",
+    "f": [
+      "Le Kilimandjaro est formé de trois cônes volcaniques : le Kibo, le Mawenzi et le Shira.",
+      "C’est la plus haute montagne isolée du monde : elle domine d’environ 4 900 m les plaines à son pied.",
+      "Ses champs de glace ont reculé de plus de 80 % depuis le début du XXe siècle."
+    ],
+    "q": {
+      "q": "Lequel des trois cônes volcaniques du Kilimandjaro porte son sommet ?",
+      "a": "Le Kibo",
+      "x": [
+        "Le Mawenzi",
+        "Le Shira"
+      ]
+    }
+  },
+  "Q39231": {
+    "t": "Le cône solitaire du Japon, blanc et presque symétrique",
+    "s": "Par temps clair, impossible de se tromper : un cône large et régulier, seul à l’ouest de Tokyo, les pentes hautes blanches de l’automne au printemps. Sa dernière éruption date de 1707. Le sommet, 3 776 m, se trouve à quelque sept kilomètres sous vous ; en été, la neige se réduit à de minces traînées dans les ravines et la montagne redevient sombre, couleur de cendre.",
+    "w": "Un cône enneigé isolé, à environ 100 km au sud-ouest de Tokyo, avec un chapelet de petits lacs le long de son pied nord.",
+    "f": [
+      "Les cinq lacs au pied nord du Fuji sont nés là où d’anciennes coulées de lave ont barré les vallées.",
+      "L’éruption de 1707 a ouvert sur le flanc sud-est un cratère latéral qui rompt la symétrie du cône.",
+      "Le Fuji est inscrit au patrimoine mondial de l’UNESCO depuis 2013 — comme site culturel, et non naturel."
+    ],
+    "q": {
+      "q": "Combien de lacs forment le célèbre ensemble au pied nord du Fuji ?",
+      "a": "Cinq",
+      "x": [
+        "Trois",
+        "Sept"
+      ]
+    }
+  },
+  "Q513": {
+    "t": "Le plus haut point du globe, à 2 km environ sous vous",
+    "s": "Vu d’avion, l’Everest paraît rarement le plus haut : il se cache parmi des voisins géants, pyramide sombre souvent prolongée d’un panache de neige que le courant-jet chasse vers l’est. Son sommet, 8 848 m, n’est qu’à deux kilomètres environ sous l’altitude de croisière. La roche tout en haut est un calcaire formé au fond d’une mer ancienne, puis soulevé quand l’Inde s’est enfoncée dans l’Asie.",
+    "w": "Une pyramide sombre à trois faces, souvent panachée de neige, dressée au-dessus des glaciers à la frontière Népal–Tibet.",
+    "f": [
+      "Les Tibétains l’appellent Chomolungma ; au Népal, c’est Sagarmatha.",
+      "Tenzing Norgay et Edmund Hillary ont atteint le sommet pour la première fois le 29 mai 1953.",
+      "Le nom anglais, adopté en 1865, honore George Everest, un arpenteur général britannique de l’Inde."
+    ],
+    "q": {
+      "q": "Qui a atteint le sommet de l’Everest avec Tenzing Norgay en 1953 ?",
+      "a": "Edmund Hillary",
+      "x": [
+        "George Mallory",
+        "Reinhold Messner"
+      ]
+    }
+  },
+  "Q43512": {
+    "t": "Deuxième sommet de la Terre, pyramide du Karakoram",
+    "s": "Le nom K2 n’est qu’une étiquette de géomètre : le pic numéro 2 d’une liste du Karakoram dressée en 1856, faute de nom local couramment employé. C’est la deuxième montagne de la Terre, 8 611 m, une pyramide raide, presque parfaite, cernée de fleuves de glace. Cherchez une pointe acérée au bout d’un long glacier, loin de toute route et de toute ville.",
+    "w": "Une pyramide acérée et isolée au bout de larges langues glaciaires, sur la crête frontalière du Karakoram.",
+    "f": [
+      "Les Italiens Lino Lacedelli et Achille Compagnoni en ont réussi la première ascension en 1954.",
+      "La première ascension hivernale n’a eu lieu qu’en janvier 2021, par une équipe d’alpinistes népalais.",
+      "Sa pyramide s’élève de plus de 3 000 m au-dessus des glaciers à son pied."
+    ],
+    "q": {
+      "q": "Que signifie le « K » de K2 ?",
+      "a": "Karakoram",
+      "x": [
+        "Cachemire",
+        "Kunlun"
+      ]
+    }
+  },
+  "Q1374": {
+    "t": "La dent acérée des Alpes, une face par point cardinal",
+    "s": "Même depuis l’altitude de croisière, le Cervin semble sculpté : une pyramide crochue dont les quatre faces regardent presque exactement le nord, le sud, l’est et l’ouest. Il se dresse sur la frontière italo-suisse au-dessus de Zermatt, à 4 478 m, soit quelque six kilomètres et demi sous vous. Par un matin ensoleillé, la face est s’illumine quand la face nord reste dans l’ombre : le sommet paraît tranché en deux.",
+    "w": "Une pyramide rocheuse isolée et crochue parmi les glaciers, à l’ouest du grand massif du Mont-Rose, sur la frontière italo-suisse.",
+    "f": [
+      "La cordée d’Edward Whymper a réussi la première ascension le 14 juillet 1865.",
+      "Les Italiens l’appellent Monte Cervino ; en allemand, c’est le Matterhorn.",
+      "Une arête sommitale d’environ 100 m relie deux sommets, l’un suisse, l’autre italien."
+    ],
+    "q": {
+      "q": "De quel village suisse part-on le plus souvent pour gravir le Cervin ?",
+      "a": "Zermatt",
+      "x": [
+        "Grindelwald",
+        "Saas-Fee"
+      ]
+    }
+  },
+  "ne-pk-1159105947": {
+    "t": "Le volcan qui ensevelit Pompéi veille toujours sur Naples",
+    "s": "Cherchez un cône dans un anneau brisé : le Vésuve a grandi dans le cratère effondré d’un volcan plus ancien, le Monte Somma, dont la crête l’enveloppe au nord. Naples monte jusqu’à ses premières pentes, tapis gris et dense le long de la baie. Par temps clair, le cratère sommital, à 1 281 m, apparaît comme un trou sombre. Calme depuis 1944, le Vésuve est surveillé jour et nuit.",
+    "w": "Un volcan sombre à deux bosses au bord de la baie de Naples, la ville étalée le long du rivage au nord-ouest.",
+    "f": [
+      "En 79 apr. J.-C., ses cendres ont enseveli Pompéi et Herculanum, conservant ces villes romaines pour les archéologues.",
+      "C’est le seul volcan d’Europe continentale à être entré en éruption au cours des cent dernières années.",
+      "Son observatoire, fondé en 1841, est le plus ancien observatoire volcanologique du monde."
+    ],
+    "q": {
+      "q": "Quelle ville romaine, ensevelie en 79, s’étend au pied du Vésuve ?",
+      "a": "Pompéi",
+      "x": [
+        "Ostie",
+        "Paestum"
+      ]
+    }
+  },
+  "Q583": {
+    "t": "Le plus haut dôme d’Europe occidentale, blanc toute l’année",
+    "s": "Le mont Blanc tient moins de l’aiguille que de l’immense épaule blanche : un large dôme de glace sur un massif partagé entre la France, l’Italie et la Suisse. Avec quelque 4 807 m, c’est le point culminant des Alpes, et pourtant plus de six kilomètres sous vous. Au nord, de longs glaciers descendent vers la vallée de Chamonix ; côté italien, les parois plongent à pic sur Courmayeur.",
+    "w": "Un large dôme blanc arrondi au-dessus de vallées profondes, avec de longues langues glaciaires tendues vers Chamonix, au nord-ouest.",
+    "f": [
+      "Jacques Balmat et Michel-Gabriel Paccard ont atteint le sommet pour la première fois en 1786.",
+      "Le sommet est une calotte de glace : son altitude varie d’un ou deux mètres d’une année à l’autre.",
+      "Le tunnel routier du Mont-Blanc, long de 11,6 km, passe sous le massif entre la France et l’Italie."
+    ],
+    "q": {
+      "q": "En quelle année le mont Blanc a-t-il été gravi pour la première fois ?",
+      "a": "1786",
+      "x": [
+        "1865",
+        "1741"
+      ]
+    }
+  },
+  "ne-pk-1159107423": {
+    "t": "Le géant inquiet de l’Europe, souvent coiffé d’un panache",
+    "s": "L’Etna est le géant sombre de l’est de la Sicile, un large volcan dont le sommet, vers 3 300 m, fume souvent. Ses pentes basses sont vertes de vergers et de vignes, les hautes noires de lave fraîche, et l’hiver la neige recouvre le tout. Cherchez un mince panache étiré par le vent : l’Etna entre si souvent en éruption que sa hauteur change à quelques années d’intervalle.",
+    "w": "Un vaste cône sombre au-dessus de la côte est de la Sicile, au nord de Catane, souvent fumant et enneigé au sommet.",
+    "f": [
+      "L’Etna couvre environ 1 200 km², et sa base mesure quelque 140 km de tour.",
+      "C’est le plus haut volcan actif d’Europe, Caucase mis à part.",
+      "L’Etna est inscrit au patrimoine mondial de l’UNESCO depuis 2013."
+    ],
+    "q": {
+      "q": "Quelle ville s’étend au pied sud de l’Etna ?",
+      "a": "Catane",
+      "x": [
+        "Palerme",
+        "Messine"
+      ]
+    }
+  },
+  "ne-gl-antarctic-ice-sheet": {
+    "t": "L’essentiel de la glace du globe, sur un continent gelé",
+    "s": "Si votre route survole l’Antarctique, la blancheur en dessous n’est pas de la neige posée sur la terre, mais une glace épaisse de plusieurs kilomètres. L’inlandsis antarctique couvre quelque 14 millions de km² et renferme environ 90 % de toute la glace terrestre. Sa surface est si lisse et si claire que l’horizon peut disparaître ; seuls les nunataks — des pics rocheux qui percent la glace — rompent le blanc.",
+    "w": "Une étendue blanche sans fin, à peine ridée par le vent ; la roche sombre n’apparaît que près des côtes et le long des chaînes.",
+    "f": [
+      "S’il fondait entièrement, le niveau des mers monterait d’environ 58 mètres.",
+      "La glace y est épaisse de deux kilomètres en moyenne.",
+      "Son poids a enfoncé la roche sous-jacente de plusieurs centaines de mètres."
+    ],
+    "q": {
+      "q": "Quelle part de la glace terrestre l’inlandsis antarctique contient-il ?",
+      "a": "Environ 90 %",
+      "x": [
+        "Environ 50 %",
+        "Environ 70 %"
+      ]
+    }
+  },
+  "ne-gl-greenland-ice-sheet": {
+    "t": "Un couvercle de glace de 3 km sur la plus grande île",
+    "s": "En traversant l’Atlantique Nord, bien des vols passent au-dessus de ce désert blanc. L’inlandsis couvre environ 80 % du Groenland, quelque 1,7 million de km², et se bombe en un dôme de plus de 3 000 m. Près des côtes, il se brise en glaciers émissaires crevassés qui serpentent jusqu’à des fjords pleins d’icebergs ; l’été, des lacs de fonte d’un bleu vif piquettent sa bordure ouest.",
+    "w": "À l’intérieur, une étendue blanche et plate ; sur les bords, des montagnes sombres, des langues glaciaires et des fjords semés d’icebergs.",
+    "f": [
+      "Si tout l’inlandsis fondait, le niveau des mers monterait d’environ 7 mètres.",
+      "Sous son poids, la roche du centre du Groenland est descendue sous le niveau de la mer.",
+      "Les carottes de glace forées à travers lui gardent la mémoire du climat sur plus de 100 000 ans."
+    ],
+    "q": {
+      "q": "De combien la mer monterait-elle si l’inlandsis du Groenland fondait ?",
+      "a": "D’environ 7 mètres",
+      "x": [
+        "D’environ 1 mètre",
+        "D’environ 60 mètres"
+      ]
+    }
+  },
+  "Q1001294": {
+    "t": "Le désert d’altitude le plus froid de la planète",
+    "s": "Autour du pôle Sud, la glace s’élève en un immense plateau en pente douce, le plus souvent vers 3 000 m d’altitude, plat comme une mer gelée. C’est un vrai désert : chaque année, les chutes de neige ne représentent que quelques centimètres d’eau. La station Vostok, sur ce plateau, a relevé −89,2 °C en 1983 — la plus basse température de l’air jamais mesurée à la surface de la Terre.",
+    "w": "Une plaine blanche et nue jusqu’à l’horizon, seulement striée de longues crêtes de neige sculptées par le vent, les sastrugi.",
+    "f": [
+      "Le pôle Sud lui-même se trouve sur le plateau, à environ 2 835 m d’altitude.",
+      "Les vents violents des côtes antarctiques naissent ici : l’air froid et lourd glisse du plateau vers la mer.",
+      "Son air froid, sec et calme en fait l’un des meilleurs sites de la Terre pour les télescopes."
+    ],
+    "q": {
+      "q": "Quelle température la station Vostok a-t-elle relevée en 1983 ?",
+      "a": "−89,2 °C",
+      "x": [
+        "−71,2 °C",
+        "−79,8 °C"
+      ]
+    }
+  },
+  "Q165440": {
+    "t": "La montagne blanche, jadis tenue pour la plus haute du monde",
+    "s": "Dhaulagiri signifie « montagne blanche » en sanskrit, et vu d’avion le nom lui va bien : une muraille enneigée massive qui jaillit du centre du Népal. Son sommet principal, vers 8 170 m, est le septième de la Terre. Juste à l’est, la Kali Gandaki traverse l’Himalaya entre le Dhaulagiri et l’Annapurna, creusant l’une des vallées les plus profondes de la planète.",
+    "w": "Un énorme massif enneigé à l’ouest de la profonde gorge de la Kali Gandaki, avec de l’autre côté les crêtes blanches de l’Annapurna.",
+    "f": [
+      "Après les relevés de 1808, on l’a cru pendant une trentaine d’années la plus haute montagne du monde.",
+      "Une expédition helvético-autrichienne en a réussi la première ascension en 1960.",
+      "La gorge de la Kali Gandaki, à ses pieds, fut pendant des siècles une route commerciale entre le Tibet et l’Inde."
+    ],
+    "q": {
+      "q": "Quelle gorge sépare le Dhaulagiri de l’Annapurna ?",
+      "a": "La Kali Gandaki",
+      "x": [
+        "L’Arun",
+        "La Trisuli"
+      ]
+    }
+  },
+  "Q130736": {
+    "t": "La « montagne nue », au bout occidental de l’Himalaya",
+    "s": "Le Nanga Parbat se tient à l’écart : c’est le plus occidental des 8 000 m himalayens, et l’Indus s’enroule à son pied. Son nom signifie « montagne nue », peut-être pour ses parois trop raides pour garder la neige. La face Rupal, au sud, s’élève d’environ 4 600 m de la vallée au sommet : l’un des plus hauts murs montagneux de la Terre. La cime, 8 125 m, est à moins de trois kilomètres sous vous.",
+    "w": "Un massif géant isolé au sud d’une boucle de l’Indus, avec une muraille sud vertigineuse et des glaciers qui débordent vers le nord.",
+    "f": [
+      "Hermann Buhl en a réussi la première ascension en 1953, atteignant seul le sommet.",
+      "C’est la neuvième plus haute montagne de la Terre.",
+      "L’Indus coule le long de son flanc nord vers 1 100 m d’altitude — sept kilomètres sous le sommet."
+    ],
+    "q": {
+      "q": "Que signifie le nom Nanga Parbat ?",
+      "a": "Montagne nue",
+      "x": [
+        "Montagne blanche",
+        "Mère des neiges"
+      ]
+    }
+  },
+  "Q82019": {
+    "t": "Cinq trésors des neiges au-dessus du Sikkim et du Népal",
+    "s": "Le Kangchenjunga n’est pas un sommet mais une couronne serrée : cinq cimes principales sur un même massif. Avec 8 586 m, c’est la troisième montagne de la Terre, et jusque dans les années 1850 on la croyait la plus haute. Cherchez une large muraille blanche dominant les collines vertes de Darjeeling et du Sikkim ; au lever du soleil, sa neige rosit bien avant que les vallées ne s’éveillent.",
+    "w": "Un massif blanc imposant au-dessus de contreforts verts, au nord de Darjeeling, sur la frontière Népal–Inde.",
+    "f": [
+      "Son nom se traduit généralement du tibétain par « les cinq trésors des neiges ».",
+      "Les premiers alpinistes, en 1955, se sont arrêtés juste sous la cime par respect pour les croyances locales.",
+      "Depuis la ville d’altitude de Darjeeling, à environ 75 km, il occupe tout l’horizon nord."
+    ],
+    "q": {
+      "q": "Quel rang le Kangchenjunga occupe-t-il parmi les plus hautes montagnes ?",
+      "a": "Troisième",
+      "x": [
+        "Deuxième",
+        "Cinquième"
+      ]
+    }
+  },
+  "Q604846": {
+    "t": "Un plateau rouge, parmi les plus vieilles roches du globe",
+    "s": "Des heures durant, au-dessus de l’Australie, le sol ne change presque pas : sable couleur rouille, lacs salés pâles, broussailles sombres, à quelques centaines de mètres d’altitude. C’est le plateau de l’Ouest australien, qui couvre l’essentiel des deux tiers ouest du continent. Son socle compte parmi les plus anciens de la Terre, et les déserts qui le coiffent — Gibson, Grand Désert de sable, Grand Désert Victoria — sont peignés de longues lignes de dunes.",
+    "w": "Une terre rouge et ocre sans fin, striée de dunes parallèles et piquetée de lacs salés blancs qui brillent comme des miroirs.",
+    "f": [
+      "Des zircons des Jack Hills, en Australie-Occidentale, ont environ 4,4 milliards d’années : les plus vieux fragments connus de la Terre.",
+      "Ses dunes courent souvent en lignes parallèles sur des dizaines de kilomètres, dans l’axe des vents dominants.",
+      "Les lacs salés comme le lac Carnegie ne se remplissent qu’après de rares pluies abondantes."
+    ],
+    "q": {
+      "q": "Quel record détiennent les zircons des Jack Hills, en Australie ?",
+      "a": "Plus vieux minéraux terrestres connus",
+      "x": [
+        "Plus grosses pépites d’or",
+        "Roches les plus radioactives"
+      ]
+    }
+  },
+  "Q179842": {
+    "t": "Le toit du monde, à plus de 4 500 m en moyenne",
+    "s": "Sous vous s’étend le plus haut des grands plateaux de la Terre : plus de 4 500 m d’altitude moyenne, environ 2,5 millions de km². Vu de croisière, on dirait une autre planète : plaines brunes et ocre, lacs turquoise aux rives blanchies de sel, chaînes enneigées tracées à la règle. Les grands fleuves d’Asie — dont le Yangzi, le fleuve Jaune, le Mékong, l’Indus et le Brahmapoutre — naissent ici.",
+    "w": "Un haut pays brun et nu, semé de lacs turquoise et de crêtes blanches ; l’Himalaya en dessine la bordure sud, tranchante.",
+    "f": [
+      "Il renferme tant de glaciers qu’on le surnomme souvent le « troisième pôle ».",
+      "Lhassa, au sud du plateau, se trouve à environ 3 650 m d’altitude.",
+      "Le plateau s’élève encore, car l’Inde continue de pousser vers le nord contre l’Asie."
+    ],
+    "q": {
+      "q": "Quel surnom le plateau tibétain doit-il à ses glaciers ?",
+      "a": "Le troisième pôle",
+      "x": [
+        "Le continent blanc",
+        "La couronne gelée"
+      ]
+    }
+  },
+  "ne-gl-flade-isblink": {
+    "t": "La plus grande calotte autonome du Groenland",
+    "s": "Près de la pointe nord-est du Groenland, un dôme de glace se tient à l’écart de l’inlandsis : le Flade Isblink, quelque 8 000 km² de blanc. Son nom danois signifie à peu près « éclat de glace plat » — la lueur que la glace renvoie sur les nuages bas. La glace atteint environ 600 m d’épaisseur, et certains pans de sa bordure avancent brusquement de temps à autre, poussant la glace vers la mer.",
+    "w": "Un dôme blanc, lisse et bas sur une péninsule du nord-est du Groenland, séparé de l’inlandsis par une bande de terre nue.",
+    "f": [
+      "C’est la plus grande calotte glaciaire du Groenland qui ne soit pas reliée à l’inlandsis.",
+      "Station Nord, seul lieu habité des environs, se trouve juste au nord-ouest.",
+      "Toute la région fait partie du parc national du Nord-Est du Groenland, le plus grand parc national du monde."
+    ],
+    "q": {
+      "q": "Que désigne le mot danois « isblink » ?",
+      "a": "La lueur de la glace sur les nuages",
+      "x": [
+        "Une fissure dans la banquise",
+        "Le front de vêlage d’un glacier"
+      ]
+    }
+  },
+  "Q163758": {
+    "t": "Le point culminant du continent gelé",
+    "s": "Le Vinson est le sommet de l’Antarctique, 4 892 m : un long massif enneigé de la chaîne Sentinelle, dans les monts Ellsworth, à quelque 1 300 km du pôle Sud. Des avions de l’US Navy l’ont repéré en 1958, et des alpinistes en ont atteint la cime en 1966. D’en haut, la chaîne ressemble à une échine de roche sombre et de glace qui perce l’inlandsis, des glaciers s’écoulant de part et d’autre.",
+    "w": "Une longue crête sombre de roche et de glace, dressée d’un coup au-dessus de l’inlandsis plat, dans les monts Ellsworth.",
+    "f": [
+      "Il porte le nom de Carl Vinson, un membre du Congrès américain qui soutint l’exploration de l’Antarctique.",
+      "Une expédition américaine en a réussi la première ascension en décembre 1966.",
+      "Les alpinistes atterrissent sur une piste de glace bleue, au glacier Union, pour commencer leur approche."
+    ],
+    "q": {
+      "q": "Dans quelle chaîne s’élève le massif Vinson ?",
+      "a": "Les monts Ellsworth",
+      "x": [
+        "Les monts Transantarctiques",
+        "Les monts Prince-Charles"
+      ]
+    }
+  },
+  "Q1537198": {
+    "t": "Des cimes de glace jumelles au-dessus de la Suru, au Ladakh",
+    "s": "Le Nun et son jumeau, le Kun, forment le massif du Nun Kun, un nœud de glace de l’Himalaya occidental, au Ladakh. Le Nun est le plus haut des deux, 7 135 m, à quatre kilomètres à peine sous vous. Entre les deux cimes s’étend un plateau neigeux d’environ 4 km : d’en haut, on dirait une selle blanche jetée d’un pic à l’autre. Des glaciers en dévalent des deux côtés vers la vallée de la Suru.",
+    "w": "Deux sommets blancs reliés par un plateau neigeux, de longs glaciers descendant vers une vallée verte à leur pied.",
+    "f": [
+      "Le Nun a été gravi pour la première fois en 1953 par Claude Kogan et Pierre Vittoz, d’une expédition franco-suisse.",
+      "Le Kun, le jumeau le plus bas, dépasse de peu les 7 000 m.",
+      "Le glacier de Parkachik descend du massif presque jusqu’à la route de la vallée de la Suru."
+    ],
+    "q": {
+      "q": "Comment s’appelle le sommet jumeau du Nun ?",
+      "a": "Le Kun",
+      "x": [
+        "Le Stok Kangri",
+        "Le Kang Yatse"
+      ]
+    }
+  },
+  "Q811064": {
+    "t": "La couronne de la muraille dentelée à l’ouest du Karakoram",
+    "s": "Le Batura Sar domine une longue muraille de glace dentelée à l’extrême ouest du Karakoram, le Batura Muztagh. Avec 7 795 m, c’est le point culminant de cette muraille, pourtant peu connu hors du monde de l’alpinisme. À ses pieds s’étire l’un des plus longs glaciers hors des régions polaires, le Batura : un fleuve de glace gris et blanc qui s’achève juste à côté de la route du Karakoram, dans la vallée de la Hunza.",
+    "w": "Une longue crête glaciaire dentelée au nord-ouest de la vallée de la Hunza, un large glacier glissant vers l’est jusqu’à la rivière.",
+    "f": [
+      "Le glacier du Batura mesure environ 57 km de long.",
+      "Muztagh signifie « montagne de glace » dans les langues turciques.",
+      "La route du Karakoram, l’une des plus hautes routes goudronnées du monde, passe devant le front du glacier."
+    ],
+    "q": {
+      "q": "Quelle route célèbre passe devant le front du glacier du Batura ?",
+      "a": "La route du Karakoram",
+      "x": [
+        "La route du Pamir",
+        "La Grand Trunk Road"
+      ]
+    }
+  }
+}

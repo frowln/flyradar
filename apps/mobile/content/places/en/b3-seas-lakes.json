@@ -913,5 +913,308 @@
         "The Syr Darya"
       ]
     }
+  },
+  "Q125888": {
+    "t": "A rift-valley lake the Nile passes through",
+    "s": "Lake Albert lies in a deep trough of the western Rift Valley, walled by steep escarpments — on the Congo side they rise abruptly for hundreds of metres. The Nile only brushes its northern tip: the Victoria Nile flows in below Murchison Falls, and the Albert Nile leaves a few kilometres away. The lake stretches about 160 km from south-west to north-east.",
+    "w": "A long, narrow lake between steep escarpments on the Uganda–Congo border, with green papyrus flats at its northern end.",
+    "f": [
+      "Samuel Baker reached it in 1864 and named it after Prince Albert, Queen Victoria's late husband.",
+      "The Semliki River flows in at its southern end, carrying water from the Rwenzori Mountains."
+    ],
+    "q": {
+      "q": "Who named Lake Albert in 1864?",
+      "a": "Samuel Baker",
+      "x": [
+        "John Hanning Speke",
+        "Henry Morton Stanley"
+      ]
+    }
+  },
+  "Q173596": {
+    "t": "Sweden's inland sea, split into two basins",
+    "s": "Sweden's biggest lake has two parts: the broad main basin and, to the south-west, the smaller Dalbosjön, almost cut off by two peninsulas reaching towards each other. Rocky islands and skerries dot the water, and at Karlstad on the northern shore the Klarälven river fans out into a delta. Vänern is the largest lake in the European Union.",
+    "w": "A huge lake in south-west Sweden, pinched into two basins by peninsulas, with rocky islands and a delta at Karlstad in the north.",
+    "f": [
+      "Its water leaves through the Göta älv, reaching the sea at Gothenburg.",
+      "The Göta Canal links it eastwards to Lake Vättern and on to the Baltic.",
+      "It covers about 5,600 km²."
+    ],
+    "q": {
+      "q": "Which city stands at the mouth of the river draining Vänern?",
+      "a": "Gothenburg",
+      "x": [
+        "Stockholm",
+        "Malmö"
+      ]
+    }
+  },
+  "Q166162": {
+    "t": "Europe's second-largest lake, with fingers in the north",
+    "s": "Look at Lake Onega's northern end: it splits into long, narrow bays lying side by side like the fingers of a hand, shaped by the ice sheets. The south is a broad, open basin. Among the northern islands lies Kizhi, whose wooden Church of the Transfiguration is crowned with 22 domes — far too small to spot from here, but worth knowing about.",
+    "w": "A big lake north-east of Ladoga, its northern end split into long parallel bays; Petrozavodsk on the western shore.",
+    "f": [
+      "The wooden churches of Kizhi are a UNESCO World Heritage site.",
+      "More than a thousand rock carvings, thousands of years old, cover granite ledges on its eastern shore.",
+      "The Svir River carries its water west into Lake Ladoga."
+    ],
+    "q": {
+      "q": "How many domes crown the Church of the Transfiguration on Kizhi?",
+      "a": "22",
+      "x": [
+        "12",
+        "33"
+      ]
+    }
+  },
+  "Q116685": {
+    "t": "The lake where the Blue Nile begins",
+    "s": "High on the Ethiopian plateau, about 1,800 m up, Lake Tana is the source of the Blue Nile, which slips out of its southern shore at Bahir Dar. Its islands and peninsulas shelter old monasteries with painted churches, and fishermen still paddle papyrus boats called tankwa. From the air it's a broad, rounded lake ringed by green farmland.",
+    "w": "A broad, roundish lake on the green Ethiopian highlands, with Bahir Dar and the Blue Nile's outflow at its southern tip.",
+    "f": [
+      "The Blue Nile supplies most of the water that flows down the Nile through Egypt.",
+      "About 30 km downstream, the Blue Nile plunges over the Tis Issat falls.",
+      "Some of its island monasteries date back to the 14th century."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Tana?",
+      "a": "The Blue Nile",
+      "x": [
+        "The White Nile",
+        "The Awash"
+      ]
+    }
+  },
+  "Q35342": {
+    "t": "A deep-blue lake at 3,800 m, with floating islands",
+    "s": "Lake Titicaca sits at about 3,810 m — more than a third of the way up to your cruising height — and its water looks an intense, dark blue in the thin mountain air. Beyond it rise the snowy peaks of Bolivia's Cordillera Real. On its Peruvian side, the Uros people live on floating islands built from totora reeds.",
+    "w": "A large, irregular deep-blue lake on the bare high plateau, with snow-capped mountains rising along its eastern side.",
+    "f": [
+      "It is often called the highest navigable lake in the world.",
+      "Its two basins are joined by the narrow Strait of Tiquina.",
+      "In Inca legend, the founders of the Inca dynasty rose from its waters."
+    ],
+    "q": {
+      "q": "What are the Uros people's floating islands made of?",
+      "a": "Totora reeds",
+      "x": [
+        "Balsa logs",
+        "Pumice stone"
+      ]
+    }
+  },
+  "Q192770": {
+    "t": "A labyrinth of water and 14,000 islands",
+    "s": "From above, Saimaa hardly looks like a lake at all — more like a jigsaw of blue channels, pine-dark islands and narrow sounds spread across eastern Finland. It has around 14,000 islands and a shoreline so convoluted that it runs to about 15,000 km. In winter the whole maze freezes into a white puzzle.",
+    "w": "A sprawling maze of lakes, channels and forested islands across south-eastern Finland, with no single open expanse.",
+    "f": [
+      "The Saimaa ringed seal lives here and nowhere else; only a few hundred remain.",
+      "The Saimaa Canal links it to the Gulf of Finland at Vyborg.",
+      "It is the largest lake in Finland."
+    ],
+    "q": {
+      "q": "Which rare animal lives only in Lake Saimaa?",
+      "a": "A ringed seal",
+      "x": [
+        "A freshwater dolphin",
+        "A giant salamander"
+      ]
+    }
+  },
+  "Q375029": {
+    "t": "A man-made “sea” over a drowned town",
+    "s": "Locals call it the Rybinsk Sea, and from the air it earns the name: a broad sheet of grey-blue water spreading north from the Volga over flat forest and fields. Created in the 1940s by damming the Volga and Sheksna, it was then the largest man-made lake in the world. Beneath it lies the old town of Mologa.",
+    "w": "A wide, shallow, many-armed reservoir north of Rybinsk, filling the flooded valleys of the Volga, Sheksna and Mologa.",
+    "f": [
+      "Its average depth is only about 5–6 m.",
+      "Rafts of floating peat, sometimes carrying bushes and small trees, drift across it.",
+      "The Darwin Nature Reserve on its shore was set up to study how the flooding changed nature."
+    ],
+    "q": {
+      "q": "Which town was flooded to create the Rybinsk Reservoir?",
+      "a": "Mologa",
+      "x": [
+        "Kostroma",
+        "Vologda"
+      ]
+    }
+  },
+  "Q21890573": {
+    "t": "Australia's lowest point, a salt pan that rarely fills",
+    "s": "Most of the time Kati Thanda–Lake Eyre is a vast, glaring-white salt pan about 15 m below sea level — the lowest point in Australia. Only after big rains far to the north does water spread across it, sometimes tinted pink by salt-loving algae. Then pelicans fly in from the coast, hundreds of kilometres away, to breed.",
+    "w": "A huge white salt pan in the South Australian outback, sometimes streaked with shallow blue or pink water.",
+    "f": [
+      "Its catchment covers about a sixth of Australia.",
+      "In 1964 Donald Campbell set a land speed record of about 649 km/h on its salt.",
+      "It has filled completely only a few times since Europeans first saw it."
+    ],
+    "q": {
+      "q": "How far below sea level is the bed of Kati Thanda–Lake Eyre?",
+      "a": "About 15 m",
+      "x": [
+        "About 150 m",
+        "About 400 m"
+      ]
+    }
+  },
+  "Q178741": {
+    "t": "A lake cut in two: pink on one side, blue on the other",
+    "s": "Look for a dead-straight line across the water: a railway causeway completed in 1959 splits Great Salt Lake in two. North of it the brine is so salty that microbes turn it pink or rusty red; south of it the water stays blue-green. The lake is what remains of Lake Bonneville, an ice-age lake that once covered much of western Utah.",
+    "w": "A large, shallow lake west of Salt Lake City, crossed by a straight causeway: pinkish-red water north, blue-green south.",
+    "f": [
+      "It is the largest saltwater lake in the Western Hemisphere.",
+      "Antelope Island, its largest island, is home to a free-roaming bison herd.",
+      "Tiny brine shrimp thrive in it, and their eggs are harvested as fish-farm feed."
+    ],
+    "q": {
+      "q": "What turns the north arm of Great Salt Lake pink?",
+      "a": "Salt-loving microbes",
+      "x": [
+        "Iron-rich mud",
+        "Reflected desert sand"
+      ]
+    }
+  },
+  "Q276776": {
+    "t": "A vanishing sea, turned into a new desert",
+    "s": "What you see is the ghost of a sea. In 1960 the Aral was the world's fourth-largest lake, but its rivers were diverted to irrigate cotton, and it shrank. The southern part split into remnants: a deep western basin and a pale, shifting eastern one that dried out almost entirely in 2014. Its old seabed is now a new desert, the Aralkum.",
+    "w": "A narrow strip of dark water in the west and pale salt flats to the east, ringed by old shorelines in the desert.",
+    "f": [
+      "The old fishing port of Moynaq now lies more than 100 km from the water, with rusting ships in the sand.",
+      "The former Vozrozhdeniya Island is now joined to the mainland.",
+      "Salt and dust blown off the dry seabed can travel hundreds of kilometres."
+    ],
+    "q": {
+      "q": "Why did the Aral Sea shrink?",
+      "a": "Its rivers were diverted for irrigation",
+      "x": [
+        "An earthquake drained it",
+        "A canal emptied it into the Caspian"
+      ]
+    }
+  },
+  "Q876280": {
+    "t": "The “little” lagoon that is 180 km long",
+    "s": "Its name means “little” in Tupi-Guarani, yet Lagoa Mirim stretches about 180 km along the coastal plain, shared by Brazil and Uruguay. Only a strip of sand dunes and marshes separates it from the Atlantic. From the air, look for its brownish, silty water beside the ocean's blue, with green rice paddies spread along its western shore.",
+    "w": "A long lagoon parallel to the Atlantic coast near the Brazil–Uruguay border, separated from the sea by a sandy strip.",
+    "f": [
+      "The São Gonçalo Channel links it to the even larger Lagoa dos Patos to the north-east.",
+      "The Taim wetlands, a reserve rich in waterbirds, lie between the lagoon and the sea."
+    ],
+    "q": {
+      "q": "What does “Mirim” mean in Tupi-Guarani?",
+      "a": "Small",
+      "x": [
+        "Deep",
+        "Salty"
+      ]
+    }
+  },
+  "Q42191": {
+    "t": "The “warm lake” of the Tian Shan that never freezes",
+    "s": "Issyk-Kul is a long sapphire oval held between two snowy ranges of the Tian Shan, about 1,600 m above sea level. Winters in these mountains are harsh, yet the lake never freezes — its name means “warm lake” in Kyrgyz. It is deep, slightly salty and strikingly clear, and for most of the year its blue is framed by white peaks.",
+    "w": "A long east–west oval of deep blue between two parallel snow-capped ranges in north-eastern Kyrgyzstan.",
+    "f": [
+      "It reaches about 668 m deep.",
+      "No river flows out of it, which is why its water is slightly salty.",
+      "It is one of the largest mountain lakes in the world."
+    ],
+    "q": {
+      "q": "What does the name Issyk-Kul mean?",
+      "a": "Warm lake",
+      "x": [
+        "Blue lake",
+        "Salt lake"
+      ]
+    }
+  },
+  "Q3358037": {
+    "t": "The part of the Aral that is coming back",
+    "s": "Unlike its southern neighbour, the North Aral Sea is a rare story of recovery. In 2005 the Kokaral Dam sealed it off from the shrinking south, so the Syr Darya's water now stays here. The level rose, the water grew less salty, and fish returned. From above it's a lobed blue lake set in pale desert, still well short of its old shores.",
+    "w": "A lobed blue lake in the desert of south-western Kazakhstan; a dam at its southern tip, the Syr Darya entering from the east.",
+    "f": [
+      "The Kokaral Dam, about 13 km long, holds its water back.",
+      "The water has crept back towards Aralsk, a port that had been left far inland.",
+      "Commercial fishing has returned to its waters."
+    ],
+    "q": {
+      "q": "What helped the North Aral Sea to recover?",
+      "a": "A dam",
+      "x": [
+        "Pumping from the Caspian",
+        "A desalination plant"
+      ]
+    }
+  },
+  "Q19270": {
+    "t": "A deep tropical basin in the Coral Triangle",
+    "s": "Ringed by Mindanao, Sulawesi and Borneo, this almost enclosed basin drops to more than 6,000 m. Its open water is a dark, velvety blue, but the edges shine turquoise wherever reefs fringe the islands. The Celebes Sea is part of the Coral Triangle, where more kinds of coral and reef fish live than anywhere else on Earth.",
+    "w": "A deep-blue sea between Mindanao, Sulawesi's long northern arm and north-east Borneo; volcanic islands along its eastern edge.",
+    "f": [
+      "“Celebes” is the old European name for the island of Sulawesi.",
+      "The Sulu Archipelago, a chain of small islands, separates it from the Sulu Sea."
+    ],
+    "q": {
+      "q": "“Celebes” is the old name of which island?",
+      "a": "Sulawesi",
+      "x": [
+        "Borneo",
+        "Mindanao"
+      ]
+    }
+  },
+  "Q160194": {
+    "t": "Coral atolls in the heart of the Philippine seas",
+    "s": "The Sulu Sea is ringed by islands. Look for the long, thin island of Palawan — it forms the north-western wall, like a green spine laid on the blue. In the middle of the open water, far from any coast, lie the Tubbataha Reefs: two atolls whose turquoise lagoons and white sand cays stand out sharply against the deep blue.",
+    "w": "A deep-blue sea between Palawan, Mindanao and the central Philippine islands, with small turquoise atolls in the middle.",
+    "f": [
+      "The Tubbataha Reefs have been a UNESCO World Heritage site since 1993.",
+      "Its deep basin plunges to more than 5,000 m.",
+      "The Sulu Archipelago, which gives the sea its name, runs along its south-eastern edge."
+    ],
+    "q": {
+      "q": "Which long island forms the Sulu Sea's north-western edge?",
+      "a": "Palawan",
+      "x": [
+        "Luzon",
+        "Samar"
+      ]
+    }
+  },
+  "Q47545": {
+    "t": "An Arctic sea kept open by warm Atlantic water",
+    "s": "Although much of it lies north of the Arctic Circle, the Norwegian Sea stays almost free of ice all year: a branch of the Gulf Stream's warm water flows through it towards the Arctic. On the Norwegian side, look for the jagged peaks of the Lofoten Islands rising straight from the water like a row of shark's teeth.",
+    "w": "Open grey-blue sea off Norway's coast; to the east, the saw-toothed Lofoten chain and a coastline shredded into fjords.",
+    "f": [
+      "Off the tip of Lofoten swirls the Moskstraumen, the maelstrom that inspired Edgar Allan Poe and Jules Verne.",
+      "The Røst Reef off Lofoten is the largest cold-water coral reef yet discovered.",
+      "Its deep basins go down more than 3,000 m."
+    ],
+    "q": {
+      "q": "Which famous whirlpool swirls off the Lofoten Islands?",
+      "a": "The Moskstraumen",
+      "x": [
+        "The Corryvreckan",
+        "Charybdis"
+      ]
+    }
+  },
+  "Q132868": {
+    "t": "The Arctic's exit door for drifting sea ice",
+    "s": "Most of the sea ice that leaves the Arctic Ocean does so through here. Floes squeeze out through Fram Strait, between Greenland and Svalbard, then ride the East Greenland Current south along the coast in a long white band. East of that band the sea is dark and open. Far to the south rises Jan Mayen, crowned by the snowy volcano Beerenberg.",
+    "w": "Between Greenland and Svalbard: a white band of drifting pack ice along Greenland's coast, with open dark water to the east.",
+    "f": [
+      "Beerenberg on Jan Mayen, 2,277 m high, is the northernmost active volcano on land.",
+      "Fram Strait, at its northern end, is the main gateway through which Arctic sea ice drifts out.",
+      "In winter its surface water sinks deep, helping to drive the Atlantic's circulation."
+    ],
+    "q": {
+      "q": "Through which strait does most ice leave the Arctic Ocean?",
+      "a": "Fram Strait",
+      "x": [
+        "Bering Strait",
+        "Davis Strait"
+      ]
+    }
   }
 }

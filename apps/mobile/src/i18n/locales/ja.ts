@@ -238,6 +238,8 @@ export const ja = {
     label: 'クイズ',
     prompt: 'まもなく%{side}に見える%{kind}は？',
     promptBelow: 'まもなく真下を通る%{kind}は？',
+    promptAny: 'まもなく%{side}に見えるのは？',
+    promptBelowAny: 'まもなく真下を通るのは？',
     right: '正解です。少ししたら窓の外で確かめましょう。',
     wrong: '正解は%{name}です。少ししたら窓の外を見てください。',
   },
@@ -276,7 +278,7 @@ export const ja = {
     cloudsBelow: '下は雲の予報です。雲の切れ間を探しましょう。',
   },
   facts: {
-    title: '上空から',
+    title: '知っておきたいこと',
     recognise: '巡航高度からは約%{dist} %{unit}先から見分けられます',
     aboveSummit: '山頂の%{h} %{unit}上空を通過します',
     cityLights: '夜は約%{dist} %{unit}先からでも街の灯りが見えます',

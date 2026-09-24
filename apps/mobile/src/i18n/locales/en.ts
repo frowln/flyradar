@@ -239,6 +239,8 @@ export const en = {
     label: 'guess',
     prompt: 'Which %{kind} is about to appear on the %{side}?',
     promptBelow: 'Which %{kind} are you about to fly over?',
+    promptAny: 'What is about to appear on the %{side}?',
+    promptBelowAny: 'What are you about to fly over?',
     right: 'Right. Look out of the window in a moment to check.',
     wrong: 'It is %{name}. Look out of the window in a moment.',
   },
@@ -277,7 +279,7 @@ export const en = {
     cloudsBelow: 'Clouds are forecast below — look through the gaps.',
   },
   facts: {
-    title: 'from above',
+    title: 'worth knowing',
     recognise: 'Recognisable from about %{dist} %{unit} away at cruise',
     aboveSummit: 'You pass %{h} %{unit} above the summit',
     cityLights: 'At night its lights carry about %{dist} %{unit}',

@@ -1708,5 +1708,687 @@
         "The Middle Atlas"
       ]
     }
+  },
+  "Q21197": {
+    "t": "A green hill city above endless wine cellars",
+    "s": "Chișinău spreads over gentle hills in the middle of Moldova, with an unusual amount of green: parks, lakes and tree-lined avenues show up clearly from above. Around it, rolling farmland is striped with vineyards. Beneath the countryside just north and south of the city run old limestone quarries, many kilometres long, now filled with wine.",
+    "w": "A leafy city on rolling hills, dotted with small lakes and parks and surrounded by striped fields and vineyards.",
+    "f": [
+      "The Mileștii Mici cellars south of the city hold what Guinness World Records listed as the largest wine collection in the world.",
+      "The Cricova cellars, north of the city, have about 120 km of underground streets.",
+      "Chișinău is first mentioned in a document of 1436."
+    ],
+    "q": {
+      "q": "What fills the old limestone tunnels near Chișinău?",
+      "a": "Wine cellars",
+      "x": [
+        "Salt mines",
+        "Mushroom farms"
+      ]
+    }
+  },
+  "Q211563": {
+    "t": "A low port city on a muddy estuary with big tides",
+    "s": "Beira lies on flat, low ground where the Pungwe River meets the Indian Ocean, surrounded by mangroves, mudflats and wide, sandy shallows. The tides here are strong, exposing broad banks of sand twice a day. Founded by the Portuguese in 1887, the city grew as the sea gateway for landlocked lands inland.",
+    "w": "A flat coastal city at a wide, muddy estuary, fringed by dark mangroves and pale sandbanks exposed at low tide.",
+    "f": [
+      "The Beira Corridor links the port with Zimbabwe by road, railway and oil pipeline.",
+      "At spring tides the sea here rises and falls by several metres.",
+      "The Zambezi delta, Mozambique's largest, lies about 200 km up the coast to the north-east."
+    ],
+    "q": {
+      "q": "At the mouth of which river does Beira stand?",
+      "a": "The Pungwe",
+      "x": [
+        "The Zambezi",
+        "The Limpopo"
+      ]
+    }
+  },
+  "Q125434": {
+    "t": "A windy bay city with elephants just inland",
+    "s": "Port Elizabeth curves along the western shore of Algoa Bay, a broad sweep of the Indian Ocean on South Africa's southern coast. It is nicknamed the Windy City, and from above you may spot whitecaps racing across the bay. About 40 km inland, Addo Elephant National Park protects hundreds of elephants in dense bush. The city is now officially called Gqeberha.",
+    "w": "A city along the western curve of a wide, open bay, with a small cape at its southern end and dry bush inland.",
+    "f": [
+      "British settlers who arrived in 1820 laid the foundations of the town.",
+      "Fort Frederick, a stone fort built by the British in 1799, overlooks the harbour.",
+      "St Croix Island in Algoa Bay has one of the world's largest African penguin colonies."
+    ],
+    "q": {
+      "q": "Which bay does Port Elizabeth face?",
+      "a": "Algoa Bay",
+      "x": [
+        "Table Bay",
+        "False Bay"
+      ]
+    }
+  },
+  "Q3889": {
+    "t": "A capital on a wide bay, a bridge across its estuary",
+    "s": "Maputo sits on the western shore of Maputo Bay, a broad inlet of the Indian Ocean, on low red cliffs above the water. Out in the bay, the green island of Inhaca guards the entrance. A tall suspension bridge now crosses the estuary just south of the centre. Until 1976 the city was called Lourenço Marques, after a Portuguese trader who explored the bay in the 1540s.",
+    "w": "A city on red cliffs along a wide bay, with a suspension bridge across the estuary and a large island near the bay's mouth.",
+    "f": [
+      "The Maputo–Katembe Bridge, opened in 2018, has a main span of about 680 metres.",
+      "Inhaca Island, at the mouth of the bay, is ringed by coral reefs and seagrass meadows.",
+      "Maputo lies less than 100 km from the borders of both South Africa and Eswatini."
+    ],
+    "q": {
+      "q": "What was Maputo called until 1976?",
+      "a": "Lourenço Marques",
+      "x": [
+        "Sofala",
+        "Vila Pery"
+      ]
+    }
+  },
+  "Q1763": {
+    "t": "The largest city beyond the Arctic Circle",
+    "s": "Murmansk stretches along the eastern shore of the Kola Bay, a long, fjord-like inlet running north to the Barents Sea. It is the largest city in the world north of the Arctic Circle. Thanks to the last warm reach of the North Atlantic Current, its port stays free of ice all winter, while the lakes and tundra around it freeze solid.",
+    "w": "A long city on the hilly east shore of a narrow, fjord-like bay, surrounded by low tundra dotted with lakes.",
+    "f": [
+      "The polar night here lasts about 40 days, from early December to mid-January.",
+      "The midnight sun shines over Murmansk from late May to late July.",
+      "Murmansk was founded in 1916."
+    ],
+    "q": {
+      "q": "What keeps Murmansk's port free of ice in winter?",
+      "a": "Warm North Atlantic water",
+      "x": [
+        "Salt from nearby mines",
+        "Hot volcanic springs"
+      ]
+    }
+  },
+  "ne-pp-1159150693": {
+    "t": "Russia's first seaport, on a great northern delta",
+    "s": "Arkhangelsk lies where the Northern Dvina fans out into a broad delta of channels and islands before meeting the White Sea. Endless dark taiga surrounds it. Founded in 1584 around the monastery of the Archangel Michael, it was for over a century Russia's main gateway to the sea, until Saint Petersburg took over. In winter the frozen river becomes a white highway.",
+    "w": "A long city along a wide river splitting into many channels just before a large bay, surrounded by dark forest.",
+    "f": [
+      "The scientist Mikhail Lomonosov was born in 1711 near Kholmogory, upstream on the Dvina.",
+      "Ice covers the sea near the city for roughly half the year.",
+      "The Solovetsky Islands, a UNESCO site, lie in the White Sea about 230 km to the west."
+    ],
+    "q": {
+      "q": "Which river forms a delta at Arkhangelsk?",
+      "a": "The Northern Dvina",
+      "x": [
+        "The Pechora",
+        "The Onega"
+      ]
+    }
+  },
+  "Q891": {
+    "t": "Where the Oka pours into the Volga",
+    "s": "Nizhny Novgorod stands at one of Russia's great river meetings: the Oka flows into the Volga right at the city's heart. The old town sits high on the steep right bank, looking across the water to a low, forested plain on the far side. The city was founded in 1221 to guard this junction of river routes.",
+    "w": "Two wide rivers meeting at a sharp point, with the city on high wooded bluffs and flat forest across the Volga.",
+    "f": [
+      "A cable car across the Volga links the city with the town of Bor, about 3.6 km away.",
+      "From 1817 the city hosted a famous summer trade fair, one of the largest in the Russian Empire.",
+      "The Volga, which flows past the city, is Europe's longest river at about 3,500 km."
+    ],
+    "q": {
+      "q": "Which river joins the Volga at Nizhny Novgorod?",
+      "a": "The Oka",
+      "x": [
+        "The Kama",
+        "The Sheksna"
+      ]
+    }
+  },
+  "Q914": {
+    "t": "A city stretched for dozens of kilometres along the Volga",
+    "s": "Volgograd is one of the longest cities in Europe: a narrow ribbon along the high western bank of the Volga, running for more than 60 km. Across the river lies a completely different world, the green Volga–Akhtuba floodplain, laced with channels, lakes and woods. At the city's southern end, the Volga–Don Canal sets off west towards the Don.",
+    "w": "A long, narrow city on the west bank of the broad Volga, facing a green, channel-laced floodplain on the east.",
+    "f": [
+      "The Volga–Don Canal, about 100 km long, links the Volga with the Don and so with the Black Sea.",
+      "A dam just north of the city holds back the Volgograd Reservoir, which is about 540 km long.",
+      "The Volga–Akhtuba floodplain opposite the city is protected as a nature park."
+    ],
+    "q": {
+      "q": "What was Volgograd's original name?",
+      "a": "Tsaritsyn",
+      "x": [
+        "Simbirsk",
+        "Kuybyshev"
+      ]
+    }
+  },
+  "Q911": {
+    "t": "A city on a ridge between two winding rivers",
+    "s": "Ufa stretches along a long, high ridge between two rivers, the Belaya and the Ufa, which wind below it in wide loops before they meet. To the east the land rises gently towards the Southern Urals. The city is the capital of Bashkortostan, a region known for its forested hills and its honey from wild bees.",
+    "w": "A long city on a high ridge squeezed between two meandering rivers, with forested hills to the east.",
+    "f": [
+      "The Belaya, Ufa's main river, is the largest tributary of the Kama.",
+      "In Bashkortostan's forests, honey is still gathered from wild bees nesting in hollow trees.",
+      "The city grew from a Russian fortress founded in 1574."
+    ],
+    "q": {
+      "q": "Ufa stands where the river Ufa meets which other river?",
+      "a": "The Belaya",
+      "x": [
+        "The Chusovaya",
+        "The Vyatka"
+      ]
+    }
+  },
+  "Q894": {
+    "t": "Where the Volga swings round a loop of wooded hills",
+    "s": "Samara lies on the left bank of the Volga beside one of the river's most dramatic features, the Samara Bend: the Volga swings east in a huge loop around the forested Zhiguli Mountains. From above, the loop and its dark wooded hills are unmistakable. The city stretches for kilometres along the river, which is more than a kilometre wide here.",
+    "w": "A long city on the east bank of the broad Volga, facing the dark, forested hills inside the river's great loop.",
+    "f": [
+      "The Zhiguli Mountains inside the loop are protected as a nature reserve and a national park.",
+      "Samara was founded in 1586 as a fortress guarding the Volga trade route.",
+      "Upstream, the Volga widens into the Kuybyshev Reservoir, the largest reservoir in Europe."
+    ],
+    "q": {
+      "q": "Which hills does the Volga loop around near Samara?",
+      "a": "The Zhiguli Mountains",
+      "x": [
+        "The Valdai Hills",
+        "The Khibiny"
+      ]
+    }
+  },
+  "Q900": {
+    "t": "A city where the Volga spreads wide as a sea",
+    "s": "Kazan stands on the left bank of the Volga where the little Kazanka river flows in, and here the Volga, swollen by a reservoir downstream, is several kilometres wide. The white-walled kremlin sits on a hill above the confluence. For centuries Russian and Tatar, Christian and Muslim cultures have met here, and it is the capital of Tatarstan.",
+    "w": "A large city on the east bank of a very wide stretch of the Volga, split by a smaller river flowing in from the north-east.",
+    "f": [
+      "The Kazan Kremlin has been a UNESCO World Heritage site since 2000.",
+      "Some 70 km downstream, the Kama, the Volga's largest tributary, joins it.",
+      "Kazan celebrated its 1,000th anniversary in 2005."
+    ],
+    "q": {
+      "q": "Which small river flows into the Volga at Kazan's kremlin?",
+      "a": "The Kazanka",
+      "x": [
+        "The Oka",
+        "The Sura"
+      ]
+    }
+  },
+  "Q2449": {
+    "t": "An old Indian Ocean trading port among white dunes",
+    "s": "Mogadishu lines the Indian Ocean coast of the Horn of Africa, a pale city backed by sand dunes, with reefs just offshore. For a thousand years it was a trading port linking Africa with Arabia, Persia and India. When the traveller Ibn Battuta visited in 1331, he described a very large and wealthy town whose cloth was sent as far as Egypt.",
+    "w": "A pale city along a straight surf coast, backed by sandy dunes, with the green valley of the Shabelle inland to the west.",
+    "f": [
+      "Mogadishu lies only about 230 km north of the equator.",
+      "The Shabelle River passes within about 30 km of the city but never reaches the sea.",
+      "In the Middle Ages the Sultanate of Mogadishu minted its own coins."
+    ],
+    "q": {
+      "q": "Which famous traveller visited Mogadishu in 1331?",
+      "a": "Ibn Battuta",
+      "x": [
+        "Marco Polo",
+        "Vasco da Gama"
+      ]
+    }
+  },
+  "Q3826": {
+    "t": "A city threaded between dark mountains and the sea",
+    "s": "Muscat doesn't sprawl like other Gulf capitals: it is threaded through a string of coves and valleys between the rugged Hajar Mountains and the Gulf of Oman. The dark brown rock of those mountains is ancient ocean floor, pushed up onto land. In the old harbour, two Portuguese forts from the 16th century still guard the entrance.",
+    "w": "A long string of white districts in valleys and coves between dark, jagged mountains and a blue sea.",
+    "f": [
+      "The Semail ophiolite, the dark rock around Muscat, is one of the largest exposed slabs of oceanic crust on Earth.",
+      "Forts Jalali and Mirani were built by the Portuguese in the 1580s.",
+      "For centuries Muscat's sheltered cove served ships trading between Arabia, India and East Africa."
+    ],
+    "q": {
+      "q": "What are Muscat's dark mountains largely made of?",
+      "a": "Ancient ocean floor",
+      "x": [
+        "Volcanic ash",
+        "Coral limestone"
+      ]
+    }
+  },
+  "Q465022": {
+    "t": "Nigeria's coal city below a green escarpment",
+    "s": "Enugu lies at the foot of the Udi Hills, a steep, green escarpment rising on its western side in south-eastern Nigeria. Coal was found in those hills in 1909, and the town grew up around the mines, earning the nickname 'Coal City'. From above, look for the city nestled against the ridge, with rolling, wooded farmland all around.",
+    "w": "A city at the foot of a steep, green escarpment on its west side, amid rolling, wooded hills.",
+    "f": [
+      "Coal was discovered in the Udi Hills in 1909, and mining began a few years later.",
+      "The Udi Plateau rises a few hundred metres above the plain around the city."
+    ],
+    "q": {
+      "q": "What does the Igbo name Enugu mean?",
+      "a": "Top of the hill",
+      "x": [
+        "River bend",
+        "Market town"
+      ]
+    }
+  },
+  "Q336350": {
+    "t": "Capital of a 19th-century caliphate, on a Sahel river",
+    "s": "Sokoto lies in the far north-west of Nigeria, where the Sokoto and Rima rivers meet on a broad, flat floodplain. In the rainy season the valley floor turns green with rice and vegetables; the rest of the year, dusty savanna stretches to the horizon. The city was founded in 1809 as the capital of the Sokoto Caliphate, one of Africa's largest 19th-century states.",
+    "w": "A low, dusty city on a flat plain beside a broad river valley, with green fields along the water.",
+    "f": [
+      "The Sokoto Caliphate stretched from present-day Burkina Faso to Cameroon.",
+      "Sokoto is one of Nigeria's hottest cities, with April afternoons often above 40 °C.",
+      "The Sultan of Sokoto is still regarded as a spiritual leader by many Nigerian Muslims."
+    ],
+    "q": {
+      "q": "Who founded the Sokoto Caliphate?",
+      "a": "Usman dan Fodio",
+      "x": [
+        "Mansa Musa",
+        "Sundiata Keita"
+      ]
+    }
+  },
+  "Q915": {
+    "t": "The city that gave its name to a geological age",
+    "s": "Perm stretches for kilometres along the Kama, a broad river that widens into a reservoir just upstream. Endless taiga surrounds it, and to the east the first low ridges of the Urals begin. In 1841 the Scottish geologist Roderick Murchison studied the rocks of this region and named a whole period of Earth's history after it: the Permian.",
+    "w": "A long city on both banks of a wide river, with a reservoir upstream and dark forest in every direction.",
+    "f": [
+      "The Permian period, roughly 299 to 252 million years ago, ended with the largest mass extinction in Earth's history.",
+      "Perm began in 1723 as a copper-smelting works.",
+      "The city stretches for about 70 km along the Kama."
+    ],
+    "q": {
+      "q": "Which geological period is named after the Perm region?",
+      "a": "The Permian",
+      "x": [
+        "The Devonian",
+        "The Jurassic"
+      ]
+    }
+  },
+  "Q335548": {
+    "t": "A highland town near a giant iron meteorite",
+    "s": "Mbeya sits in a high valley in Tanzania's Southern Highlands, about 1,700 metres up, with the steep Mbeya Range rising right behind it. The land around is intensely green, a patchwork of tea, coffee and maize on rich volcanic soils. South-west of the town, a lump of iron from space weighing around 16 tonnes still rests where it fell.",
+    "w": "A town in a green valley at the foot of a steep mountain range, surrounded by a patchwork of highland farms.",
+    "f": [
+      "The Mbozi meteorite, some 50 km south-west of Mbeya, is one of the largest meteorites ever found.",
+      "Mbeya Peak, the highest point of the range above the town, rises to about 2,800 metres.",
+      "Further east, the Kitulo Plateau is so rich in wild orchids that it is called the 'Garden of God'."
+    ],
+    "q": {
+      "q": "What giant object lies at Mbozi, near Mbeya?",
+      "a": "An iron meteorite",
+      "x": [
+        "A dinosaur skeleton",
+        "A fallen satellite"
+      ]
+    }
+  },
+  "Q3935": {
+    "t": "A highland capital in the heart of a dry land",
+    "s": "Windhoek lies in a basin in Namibia's central highlands, about 1,650 metres up, framed by the Auas Mountains to the south and the Eros hills to the north. Around it stretches dry, thorny savanna, brown for much of the year. Water is so precious here that since 1968 the city has turned wastewater directly into drinking water, a world first.",
+    "w": "A compact city in a bowl of low, rugged hills on dry, brown highland savanna.",
+    "f": [
+      "Namibia's Atlantic coast lies about 300 km to the west.",
+      "The Auas Mountains south of the city rise to about 2,480 metres, among the highest in Namibia.",
+      "Hot springs once bubbled up in the valley, drawing the first settlers."
+    ],
+    "q": {
+      "q": "What has Windhoek done with its wastewater since 1968?",
+      "a": "Turned it into drinking water",
+      "x": [
+        "Piped it into the Atlantic",
+        "Used it to cool a power plant"
+      ]
+    }
+  },
+  "Q986336": {
+    "t": "A quiet farm town beside the heaviest meteorite on Earth",
+    "s": "Grootfontein is a small town in the bushland of northern Namibia, named after a large spring that drew settlers and cattle herders. The surprise lies about 20 km west, on a farm: the Hoba meteorite, a slab of iron weighing around 60 tonnes, the largest known on Earth. It is so heavy that it has never been moved from where it landed.",
+    "w": "A small town in green, bushy savanna, with low dolomite hills and farmland around it.",
+    "f": [
+      "The Hoba meteorite fell less than 80,000 years ago and was found by a farmer in 1920.",
+      "Grootfontein means 'big spring' in Afrikaans.",
+      "The dolomite country around the town hides sinkhole lakes, such as Otjikoto near Tsumeb."
+    ],
+    "q": {
+      "q": "What record-breaking object lies near Grootfontein?",
+      "a": "The largest known meteorite",
+      "x": [
+        "The oldest known baobab",
+        "Africa's largest crater"
+      ]
+    }
+  },
+  "Q2222874": {
+    "t": "A spice-island port of coral stone and turquoise water",
+    "s": "Zanzibar City lies on the west coast of Unguja, the main island of the Zanzibar archipelago, facing the African mainland across a channel of turquoise shallows and reefs. Its old heart, Stone Town, is a maze of coral-stone houses. In 1840 the Sultan of Oman made it his capital, and cloves grown on the island were shipped around the world.",
+    "w": "A town on the west coast of a flat green island, fringed by turquoise reefs and sandbanks, with the mainland to the west.",
+    "f": [
+      "Stone Town has been a UNESCO World Heritage site since 2000.",
+      "Freddie Mercury was born in Stone Town in 1946.",
+      "In the 19th century Zanzibar was the world's leading producer of cloves."
+    ],
+    "q": {
+      "q": "Which spice made Zanzibar famous in the 19th century?",
+      "a": "Cloves",
+      "x": [
+        "Saffron",
+        "Vanilla"
+      ]
+    }
+  },
+  "Q8818": {
+    "t": "A green river of parkland through an orange-grove city",
+    "s": "Valencia lies on a flat coastal plain by the Mediterranean, surrounded by the huerta, a patchwork of irrigated orchards and fields. Look for a long green ribbon curving through the city: the old bed of the river Turia, turned into a park after the river was diverted to the south. Just south of the city glints the Albufera, a lagoon ringed by rice paddies.",
+    "w": "A large city on a flat coast, with a green park snaking through it and a big shallow lagoon and rice fields to the south.",
+    "f": [
+      "The Turia Gardens, laid out in the old riverbed, run for about 9 km through the city.",
+      "The rice fields around the Albufera lagoon are the home of paella.",
+      "The Romans founded Valencia in 138 BC."
+    ],
+    "q": {
+      "q": "Which dish was born in the rice fields around Valencia?",
+      "a": "Paella",
+      "x": [
+        "Gazpacho",
+        "Tortilla"
+      ]
+    }
+  },
+  "Q3787": {
+    "t": "A planned capital among giant granite domes",
+    "s": "Abuja was built from scratch near the geographic centre of Nigeria and became the capital in 1991. From above, look for its broad avenues fanning out below Aso Rock, a bare granite dome about 400 metres high on the city's eastern edge. The hilly savanna around it is studded with more of these great rounded rocks.",
+    "w": "A spacious planned city of wide avenues at the foot of a big bare granite dome, in hilly green savanna.",
+    "f": [
+      "Zuma Rock, a huge granite monolith about 40 km west of the city, appears on Nigeria's 100-naira note.",
+      "The city's master plan was drawn up in the late 1970s.",
+      "Abuja lies in the Federal Capital Territory, carved out so the capital would belong to no single state."
+    ],
+    "q": {
+      "q": "Which city did Abuja replace as Nigeria's capital in 1991?",
+      "a": "Lagos",
+      "x": [
+        "Ibadan",
+        "Kano"
+      ]
+    }
+  },
+  "Q3739": {
+    "t": "A river-mouth capital facing a maze of islands",
+    "s": "Bissau lies on the wide estuary of the Geba River, where muddy water, mangroves and tidal flats blur the line between land and sea. Offshore spreads the Bijagós archipelago, a scatter of dozens of low, green islands and sandbanks. The tides are strong, and at low water vast banks of mud and sand appear. The Portuguese built a fort here in 1687.",
+    "w": "A city on a broad, muddy estuary lined with mangroves, with a scatter of low green islands out to sea.",
+    "f": [
+      "The Bijagós archipelago has about 88 islands and islets, only around 20 of them permanently inhabited.",
+      "On the Bijagós, hippos swim in salt water between the islands.",
+      "The Geba estuary is so broad at Bissau that it looks more like an arm of the sea than a river."
+    ],
+    "q": {
+      "q": "Which archipelago lies off the coast at Bissau?",
+      "a": "The Bijagós",
+      "x": [
+        "The Los Islands",
+        "The Banana Islands"
+      ]
+    }
+  },
+  "Q2656": {
+    "t": "A city in a golden shell between mountains and sea",
+    "s": "Palermo fills a broad bay on Sicily's north coast, set in a crescent of bare mountains. The plain it stands on is called the Conca d'Oro, the 'golden shell', after the citrus groves that once covered it. To the north, the limestone headland of Monte Pellegrino juts out into the sea. Phoenicians founded the city in the 8th century BC.",
+    "w": "A city on a plain curving around a bay, ringed by bare mountains, with a big rocky headland on its northern side.",
+    "f": [
+      "Goethe called Monte Pellegrino the most beautiful promontory in the world.",
+      "Palermo's Arab-Norman buildings became a UNESCO World Heritage site in 2015.",
+      "The Phoenicians called the city Ziz, usually translated as 'flower'."
+    ],
+    "q": {
+      "q": "What is the plain around Palermo called?",
+      "a": "The Conca d'Oro",
+      "x": [
+        "The Campania Felix",
+        "The Tavoliere"
+      ]
+    }
+  },
+  "Q3805": {
+    "t": "A white-stone city spilling over many hills",
+    "s": "Amman spreads over a tangle of steep hills on the edge of the desert plateau, and from above it looks almost entirely white, since most buildings are faced with pale limestone. To the west the land drops away into the Jordan Valley and the Dead Sea, some 40 km off. In Greco-Roman times the city was called Philadelphia.",
+    "w": "A pale, almost white city draped over steep hills, with the deep trench of the Jordan Valley and the Dead Sea to the west.",
+    "f": [
+      "The shore of the Dead Sea, about 430 metres below sea level, is the lowest land on Earth.",
+      "Amman's Roman theatre, cut into a hillside, seated about 6,000 people.",
+      "The city grew on the site of Rabbath Ammon, capital of the ancient Ammonites."
+    ],
+    "q": {
+      "q": "What was Amman called in Greco-Roman times?",
+      "a": "Philadelphia",
+      "x": [
+        "Gerasa",
+        "Petra"
+      ]
+    }
+  },
+  "Q216": {
+    "t": "A baroque city among forested hills and river bends",
+    "s": "Vilnius lies where the little Vilnia joins the winding Neris, among wooded hills that give the city a surprisingly green look from above. Its old town, one of the largest in Eastern Europe, is packed with baroque church towers. The city is first mentioned in 1323, in letters of Grand Duke Gediminas inviting merchants and craftsmen to settle here.",
+    "w": "A green, hilly city on a looping river, with forests reaching right into town and many lakes to the west.",
+    "f": [
+      "The Old Town of Vilnius has been a UNESCO World Heritage site since 1994.",
+      "In 1989 French geographers placed the geographic centre of Europe about 26 km north of Vilnius.",
+      "Trakai, with its island castle on a lake, lies less than 30 km to the west."
+    ],
+    "q": {
+      "q": "Which river does the Vilnia flow into at Vilnius?",
+      "a": "The Neris",
+      "x": [
+        "The Nemunas",
+        "The Daugava"
+      ]
+    }
+  },
+  "Q1773": {
+    "t": "A Hanseatic port where a great river meets the gulf",
+    "s": "Riga stands on the Daugava a few kilometres before it flows into the Gulf of Riga, a broad, shallow bay of the Baltic. From above, the wide river divides the compact old town on the east bank from newer districts on the west, and pine forests and bogs close in all around. Bishop Albert founded the city in 1201, and it became a leading Hanseatic port.",
+    "w": "A city on a wide river just before it enters a broad bay, with sandy coast and dark pine forest along the shore.",
+    "f": [
+      "About a third of the buildings in central Riga are Art Nouveau, one of the densest collections anywhere.",
+      "The historic centre of Riga has been a UNESCO World Heritage site since 1997.",
+      "West of the city, the resort of Jūrmala stretches for more than 30 km along a sandy beach."
+    ],
+    "q": {
+      "q": "Which river flows through Riga?",
+      "a": "The Daugava",
+      "x": [
+        "The Neman",
+        "The Gauja"
+      ]
+    }
+  },
+  "Q225641": {
+    "t": "An island port wrapped in two deep creeks",
+    "s": "Mombasa's old heart is an island, a low coral block wedged between two deep inlets that reach into the Kenyan coast. On one side, Kilindini Harbour shelters one of East Africa's biggest ports; on the other, the old town faces Tudor Creek. Offshore, a line of white surf marks the fringing reef. For centuries this was a key port of the Swahili coast.",
+    "w": "A small island tucked between two winding creeks on a green coast, with white surf breaking on the reef offshore.",
+    "f": [
+      "Fort Jesus, begun in 1593, is a UNESCO World Heritage site.",
+      "Vasco da Gama called at Mombasa in 1498 on his way to India.",
+      "The island is joined to the mainland by causeways and bridges, and to the south coast by ferry."
+    ],
+    "q": {
+      "q": "Who built Fort Jesus in Mombasa in the 1590s?",
+      "a": "The Portuguese",
+      "x": [
+        "The Omanis",
+        "The British"
+      ]
+    }
+  },
+  "Q3909": {
+    "t": "The lowland capital of a kingdom in the sky",
+    "s": "Maseru sits on the Caledon River, right on Lesotho's western border, and even this 'lowland' capital is about 1,600 metres above the sea. Lesotho is completely surrounded by South Africa. From above, look east: the land climbs into the Maloti Mountains, where most of the country lies above 1,800 metres, often dusted with snow in winter.",
+    "w": "A town beside a narrow river border, with flat farmland to the west and folded, bare mountains rising to the east.",
+    "f": [
+      "Lesotho's lowest point, about 1,400 metres, is the highest 'lowest point' of any country.",
+      "Maseru's name means 'red sandstones' in Sesotho.",
+      "Thaba Bosiu, the flat-topped mountain stronghold of King Moshoeshoe I, lies about 25 km to the east."
+    ],
+    "q": {
+      "q": "Which country completely surrounds Lesotho?",
+      "a": "South Africa",
+      "x": [
+        "Botswana",
+        "Eswatini"
+      ]
+    }
+  },
+  "Q3915": {
+    "t": "A hill city among rice paddies on the Great Red Island",
+    "s": "Antananarivo sprawls over a long granite ridge and the hills around it in the middle of Madagascar, about 1,300 metres up. Between the hills, bright green rice paddies still fill the valleys right inside the city, and the soil around is a striking red. The name means 'city of the thousand', said to recall a thousand warriors who guarded it.",
+    "w": "A hilly city with a long ridge at its centre, bright green rice paddies in the valleys and red earth all around.",
+    "f": [
+      "The Rova, the old royal palace compound, crowns the highest hill in the city.",
+      "Lake Anosy in the city centre is ringed by jacaranda trees that bloom purple in spring.",
+      "Madagascar's red laterite soils earned it the nickname 'the Great Red Island'."
+    ],
+    "q": {
+      "q": "What does the name Antananarivo mean?",
+      "a": "City of the thousand",
+      "x": [
+        "City of rice",
+        "Red hill"
+      ]
+    }
+  },
+  "Q456": {
+    "t": "Two rivers meeting at the tip of a narrow peninsula",
+    "s": "Lyon is built around a meeting of rivers. The broad, fast Rhône, coming from the Alps, and the calmer Saône, from the north, run side by side through the city, enclosing a long, narrow peninsula before they join at its southern tip. West of the Saône rises the hill of Fourvière. The Romans founded Lugdunum here in 43 BC.",
+    "w": "Two rivers running side by side through a big city, a long thin strip of land between them, joining at a point to the south.",
+    "f": [
+      "Lugdunum was a capital of Roman Gaul, and the emperor Claudius was born here.",
+      "The historic centre of Lyon has been a UNESCO World Heritage site since 1998.",
+      "From the 16th to the 19th century Lyon was Europe's great silk-weaving city."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Lyon?",
+      "a": "The Rhône and the Saône",
+      "x": [
+        "The Loire and the Allier",
+        "The Seine and the Marne"
+      ]
+    }
+  },
+  "Q1004822": {
+    "t": "A river port near the top of the Congo's great arc",
+    "s": "Bumba sits on the north bank of the Congo, near the top of the great arc the river draws across Central Africa. Here the Congo is a braided giant, several kilometres wide and dotted with long wooded islands, flowing through unbroken rainforest. From above, the brown river and the dark green canopy stretch to every horizon.",
+    "w": "A small town on the north bank of a huge, braided brown river full of wooded islands, amid endless rainforest.",
+    "f": [
+      "The Congo crosses the equator twice on its long arc through Central Africa.",
+      "Only the Amazon carries more water to the sea than the Congo.",
+      "Around Bumba the river reaches the northernmost part of its course."
+    ],
+    "q": {
+      "q": "How many times does the Congo River cross the equator?",
+      "a": "Twice",
+      "x": [
+        "Once",
+        "Three times"
+      ]
+    }
+  },
+  "Q3659": {
+    "t": "A Sahel capital where two rivers meet on a border",
+    "s": "N'Djamena stands where the Logone flows into the Chari, on a flat plain at the southern edge of the Sahel. Across the Logone lies Cameroon, so close that the two countries face each other over the water. The combined river flows on north-west to Lake Chad, a shallow lake that swells and shrinks dramatically with the seasons and the years.",
+    "w": "A flat city at a river confluence, with a smaller town across the water and floodplains and dry savanna around.",
+    "f": [
+      "The Chari river system supplies about 90 percent of the water reaching Lake Chad.",
+      "The city was founded in 1900 as Fort-Lamy.",
+      "The southern shore of Lake Chad lies roughly 100 km north-west of the city."
+    ],
+    "q": {
+      "q": "Which lake does the Chari feed, north-west of N'Djamena?",
+      "a": "Lake Chad",
+      "x": [
+        "Lake Victoria",
+        "Lake Volta"
+      ]
+    }
+  },
+  "Q242587": {
+    "t": "An old sultanate capital on a caravan road",
+    "s": "Abéché lies on the dry plateau of eastern Chad, a low, sand-coloured town among scattered rocky hills and seasonal riverbeds. From 1850 it was the capital of the Sultanate of Wadai, a powerful Sahel state. Caravans once set out from here across the Sahara to the Mediterranean coast at Benghazi, some 2,000 km away.",
+    "w": "A small, dusty town among low rocky hills and dry, sandy riverbeds on a flat, brown plateau.",
+    "f": [
+      "The earlier Wadai capital, Ouara, lies in ruins some 50 km to the north.",
+      "Most of the year's rain falls in July and August, briefly turning the wadis into rivers."
+    ],
+    "q": {
+      "q": "Abéché was the capital of which sultanate?",
+      "a": "Wadai",
+      "x": [
+        "Bornu",
+        "Darfur"
+      ]
+    }
+  },
+  "Q3818": {
+    "t": "An island capital beneath a 3,000-metre volcano",
+    "s": "Malabo lies on the north coast of Bioko, a lush volcanic island in the Gulf of Guinea, separated from the rest of its country on the mainland. Behind it rises Pico Basilé, a forested volcano topping 3,000 metres and often capped in cloud. The city's harbour curves inside the rim of an old volcanic crater, partly flooded by the sea.",
+    "w": "A small city on the north shore of a green volcanic island, with a huge forested peak rising behind it.",
+    "f": [
+      "Pico Basilé, at about 3,010 metres, is the highest point of Equatorial Guinea.",
+      "Bioko lies less than 40 km off the coast of Cameroon.",
+      "Malabo is one of the few capitals set on an island apart from its country's mainland."
+    ],
+    "q": {
+      "q": "What was Malabo called when the British founded it in 1827?",
+      "a": "Port Clarence",
+      "x": [
+        "Fernando Po",
+        "Bathurst"
+      ]
+    }
+  },
+  "Q130514": {
+    "t": "Ancient Thebes, split by the Nile between life and death",
+    "s": "Luxor straddles the Nile in a narrow green valley between bare desert cliffs. On the east bank, where the sun rises, lie the town and the vast temples of Karnak and Luxor. On the west bank, beyond the fields, the land rises to dry limestone hills hiding the Valley of the Kings, where pharaohs of the New Kingdom were buried.",
+    "w": "A green strip on both banks of the Nile, a town on the east side and pale desert cliffs rising sharply on the west.",
+    "f": [
+      "As Thebes, this was Egypt's capital for much of the New Kingdom, more than 3,000 years ago.",
+      "The Karnak temple complex is one of the largest religious sites ever built.",
+      "Ancient Thebes and its necropolis became a UNESCO World Heritage site in 1979."
+    ],
+    "q": {
+      "q": "What did the ancient Greeks call the city at Luxor?",
+      "a": "Thebes",
+      "x": [
+        "Memphis",
+        "Heliopolis"
+      ]
+    }
+  },
+  "Q3642": {
+    "t": "A modernist city on the rim of a great escarpment",
+    "s": "Asmara sits on the Eritrean highlands at about 2,300 metres, near the edge of a dramatic escarpment. Just to the east, the land plunges more than 2,000 metres towards the hot Red Sea coast in only a few dozen kilometres. The city's streets are lined with early 20th-century modernist buildings, and in 2017 UNESCO listed it as a modernist African city.",
+    "w": "A compact city on a high plateau, beside the edge of a steep, deeply cut escarpment falling east towards the Red Sea.",
+    "f": [
+      "A narrow-gauge railway winds down the escarpment from Asmara to the port of Massawa.",
+      "Thanks to its altitude, Asmara has mild temperatures all year despite lying in the tropics.",
+      "Asmara's name is often explained as 'they united them', after four villages that joined together."
+    ],
+    "q": {
+      "q": "For which style of architecture is Asmara UNESCO-listed?",
+      "a": "Modernist",
+      "x": [
+        "Gothic",
+        "Baroque"
+      ]
+    }
+  },
+  "Q1435": {
+    "t": "A city between a wooded mountain and the Sava",
+    "s": "Zagreb spreads south from the slopes of Medvednica, a forested mountain rising just north of the city, down to the broad plain of the Sava. The historic core sits on the lower hills; newer districts stretch across the flat land beyond the river. The two medieval towns of Gradec and Kaptol were united as one city in 1850.",
+    "w": "A city between a dark, forested mountain to the north and a river crossing the flat plain to the south.",
+    "f": [
+      "Sljeme, the summit of Medvednica, rises to about 1,030 metres.",
+      "In the Lower Town, a U-shaped chain of parks and squares is known as the 'Green Horseshoe'.",
+      "The Sava, flowing past the city, joins the Danube at Belgrade."
+    ],
+    "q": {
+      "q": "Which river flows through Zagreb?",
+      "a": "The Sava",
+      "x": [
+        "The Drava",
+        "The Danube"
+      ]
+    }
   }
 }

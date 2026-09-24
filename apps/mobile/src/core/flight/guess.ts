@@ -1,4 +1,4 @@
-import type { OfflinePackage, POI } from '@skyatlas/shared';
+import type { OfflinePackage, POI, POICategory } from '@skyatlas/shared';
 import { sightWeight } from './moments';
 
 /**
@@ -16,7 +16,32 @@ export interface Guess {
   correctIdx: number;
   /** Seconds until it appears: abeam, or at the edge of an area flown over. */
   inS: number;
+  /**
+   * Whether every option is of the answer's kind, so the question may name it
+   * ("which sea…?"). Otherwise the options are only alike and it does not.
+   */
+  sameKind: boolean;
 }
+
+/** Kinds close enough to stand in for one another as wrong options. */
+const FAMILY: Record<POICategory, string> = {
+  sea: 'water',
+  lake: 'water',
+  river: 'water',
+  mountain: 'relief',
+  volcano: 'relief',
+  range: 'relief',
+  glacier: 'relief',
+  plateau: 'land',
+  desert: 'land',
+  park: 'land',
+  landmark: 'land',
+  region: 'land',
+  peninsula: 'land',
+  island: 'land',
+  city: 'city',
+  historic: 'historic'
+};
 
 const OPEN_BEFORE_S = 6 * 60;
 const CLOSE_BEFORE_S = 45;
@@ -70,14 +95,22 @@ export function nextGuess(pkg: OfflinePackage, elapsedS: number, answered: Recor
   const poi = candidates[0];
   if (!poi) return null;
 
-  const sameKind = pkg.pois.filter((p) => p.id !== poi.id && p.category === poi.category);
-  const pool = sameKind.length >= 2 ? sameKind : pkg.pois.filter((p) => p.id !== poi.id);
-  // Distractors from far along the route, so the answer cannot be read off the map nearby.
-  const distractors = seededOrder(
-    pool.filter((p) => Math.abs((p.passAt ?? 0) - (poi.passAt ?? 0)) > 20 * 60 && !containsAnswer(p, poi)),
-    poi.id
-  ).slice(0, 2);
+  // Wrong options from far along the route, so the answer cannot be read off
+  // the map nearby, and of the same kind when there are enough: the question
+  // then names the kind ("which sea…?"). Otherwise from kindred kinds, and the
+  // question does not name one — a mountain and a town as the other options
+  // to "which sea?" gave the answer away.
+  const usable = (p: POI) => p.id !== poi.id && Math.abs((p.passAt ?? 0) - (poi.passAt ?? 0)) > 20 * 60 && !containsAnswer(p, poi);
+  const sameKind = pkg.pois.filter((p) => usable(p) && p.category === poi.category);
+  const pool = sameKind.length >= 2 ? sameKind : pkg.pois.filter((p) => usable(p) && FAMILY[p.category] === FAMILY[poi.category]);
+  const distractors = seededOrder(pool, poi.id).slice(0, 2);
   if (distractors.length < 2) return null;
   const options = seededOrder([poi, ...distractors], `${poi.id}:options`);
-  return { poi, options, correctIdx: options.indexOf(poi), inS: (appearsAt(poi) ?? 0) - elapsedS };
+  return {
+    poi,
+    options,
+    correctIdx: options.indexOf(poi),
+    inS: (appearsAt(poi) ?? 0) - elapsedS,
+    sameKind: distractors.every((d) => d.category === poi.category)
+  };
 }

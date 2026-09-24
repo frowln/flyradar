@@ -958,5 +958,320 @@
         "Lake Victoria"
       ]
     }
+  },
+  "Q624170": {
+    "t": "Dark mountains between the Nile and the Red Sea",
+    "s": "Unlike the sandy west, Egypt’s Eastern Desert is a land of jagged, dark mountains and dry valleys — wadis — running down to the Red Sea on one side and to the Nile on the other. From above, look for the sudden contrast: turquoise sea, a thin strip of coast, then a chaos of brown and black peaks. The ancient Egyptians mined gold here.",
+    "w": "Jagged brown and black mountains cut by pale, branching wadis, with the turquoise Red Sea along the eastern edge.",
+    "f": [
+      "The Turin Papyrus Map, drawn about 1150 BC, shows quarries and gold mines here — perhaps the oldest geological map known.",
+      "The Romans quarried rare purple porphyry for their emperors at Mons Porphyrites, in these mountains."
+    ],
+    "q": {
+      "q": "Which rare stone did the Romans quarry in the Eastern Desert?",
+      "a": "Imperial porphyry",
+      "x": [
+        "Carrara marble",
+        "Lapis lazuli"
+      ]
+    }
+  },
+  "Q22041906": {
+    "t": "A lava plateau in southern Brazil, cut by sheer canyons",
+    "s": "About 130 million years ago, as South America and Africa began to split, lava flooded this region layer after layer, building a plateau more than a kilometre thick in places. Its edge, the Serra Geral, drops in steep escarpments split by deep canyons such as Itaimbezinho. On top, look for dark stands of Paraná pine among the fields.",
+    "w": "A high, flat plateau of fields and dark pine groves ending in steep cliffs and canyons; its rivers flow west, away from the sea.",
+    "f": [
+      "The Iguaçu Falls pour over the same layers of basalt, on the plateau’s western side.",
+      "The Paraná pine, whose flat-topped crowns dot the plateau, belongs to a tree family that grew alongside the dinosaurs.",
+      "The same lava flows appear across the ocean in Namibia, torn apart when the Atlantic opened."
+    ],
+    "q": {
+      "q": "Which famous waterfall pours over the same basalt layers?",
+      "a": "Iguaçu Falls",
+      "x": [
+        "Angel Falls",
+        "Kaieteur Falls"
+      ]
+    }
+  },
+  "Q22529966": {
+    "t": "Snowy ranges and long lakes in Canada’s inland rainforest",
+    "s": "West of the Rockies, British Columbia’s interior rises into another tangle of snowy ranges — the Selkirks, Monashees, Purcells and Cariboos, together called the Columbia Mountains. Between them lie long, narrow lakes such as Kootenay, Arrow and Slocan, like strips of blue ribbon. The western slopes catch so much snow and rain that they grow a rare inland rainforest of giant cedars.",
+    "w": "Tight clusters of snowy peaks separated by long, narrow blue lakes running north–south, with dark forest on the slopes.",
+    "f": [
+      "Rogers Pass, where the railway and the Trans-Canada Highway cross the Selkirks, gets about 10 m of snow in a typical winter.",
+      "The Columbia River loops right around the northern Selkirks in a giant curve known as the Big Bend.",
+      "Their eastern edge is the Rocky Mountain Trench, a straight valley hundreds of kilometres long."
+    ],
+    "q": {
+      "q": "Which pass takes the railway and highway across the Selkirks?",
+      "a": "Rogers Pass",
+      "x": [
+        "Kicking Horse Pass",
+        "Yellowhead Pass"
+      ]
+    }
+  },
+  "Q747843": {
+    "t": "Mongolia’s green heart, where an empire’s capital stood",
+    "s": "In the middle of Mongolia the land lifts into the Khangai: broad, rounded mountains where larch forest clings only to the north-facing slopes, so the hills look striped dark and light. Herders have grazed these pastures for thousands of years. At the range’s eastern foot, in the Orkhon Valley, stood Karakorum, the 13th-century capital of the Mongol Empire.",
+    "w": "Broad, rounded mountains with dark forest on the north slopes and pale grass on the south, and green river valleys between.",
+    "f": [
+      "The Orkhon Valley, with the ruins of Karakorum, is a UNESCO World Heritage Site.",
+      "Otgontenger, the highest peak of the Khangai, is revered by Mongolians as a sacred mountain.",
+      "Rivers from the Khangai’s northern slopes flow through the Selenga into Lake Baikal."
+    ],
+    "q": {
+      "q": "Which old imperial capital stood at the foot of the Khangai?",
+      "a": "Karakorum",
+      "x": [
+        "Xanadu",
+        "Samarkand"
+      ]
+    }
+  },
+  "Q863798": {
+    "t": "The wall that splits China into north and south",
+    "s": "Cross this range and you cross a climate line: the Qinling split China into a dry, wheat-growing north and a wet, rice-growing south. From above, yellow loess and the plain of Xi’an lie on one side, green terraced valleys on the other. In the bamboo forests on its slopes live giant pandas and golden snub-nosed monkeys.",
+    "w": "A long east–west wall of forested ridges, with brownish plains around Xi’an to the north and greener hills to the south.",
+    "f": [
+      "Together with the Huai River, the Qinling mark China’s traditional boundary between north and south.",
+      "Taibai Shan, about 3,770 m, is the highest peak in the eastern half of mainland China.",
+      "Xi’an, at the range’s northern foot, was the starting point of the Silk Road."
+    ],
+    "q": {
+      "q": "Which river pairs with the Qinling as China’s north–south line?",
+      "a": "The Huai River",
+      "x": [
+        "The Yellow River",
+        "The Pearl River"
+      ]
+    }
+  },
+  "Q20155858": {
+    "t": "A stone desert as flat and dark as a slate roof",
+    "s": "Not every desert is sand. A hamada is a bare, rocky plateau swept clean by wind, and the Hamada du Draa is a classic: a vast, flat pavement of dark stones south of the Draa valley. From above it looks like slate or scorched leather, broken only by dry riverbeds. Along its northern edge runs the Draa, a river that rarely reaches the sea.",
+    "w": "A dark, flat stony plain to the horizon, cut by pale dry riverbeds, with the green Draa oases to the north.",
+    "f": [
+      "The Draa is Morocco’s longest river, about 1,100 km, yet it reaches the Atlantic only in rare wet years.",
+      "Desert varnish — a thin dark film of manganese and iron — gives the hamada’s stones their black sheen."
+    ],
+    "q": {
+      "q": "What is a hamada?",
+      "a": "A bare, rocky desert plateau",
+      "x": [
+        "A field of shifting dunes",
+        "A dried-up salt lake"
+      ]
+    }
+  },
+  "Q272521": {
+    "t": "A desert within the desert, once home to the loneliest tree",
+    "s": "Ténéré means “desert” in the Tuareg language — a desert within the Sahara. East of the Aïr Mountains it spreads as a vast, smooth sea of pale sand, some of the flattest and emptiest land on Earth. For decades a single acacia stood here, the only tree for some 400 km and a landmark for caravans, until a truck knocked it down in 1973.",
+    "w": "An immense, smooth sheet of pale yellow sand with few landmarks; the dark Aïr Mountains rise along its western edge.",
+    "f": [
+      "What remains of the Tree of Ténéré stands in the National Museum in Niamey; a metal sculpture marks its old spot.",
+      "At Gadoufaoua the shifting sands have uncovered dinosaur skeletons and the giant crocodile Sarcosuchus.",
+      "Salt caravans still cross the Ténéré to the oasis of Bilma."
+    ],
+    "q": {
+      "q": "What happened to the famous Tree of Ténéré in 1973?",
+      "a": "A truck knocked it down",
+      "x": [
+        "Lightning struck it",
+        "It was cut for firewood"
+      ]
+    }
+  },
+  "Q307143": {
+    "t": "A golden sea of dunes, frozen mid-storm",
+    "s": "Few views from the air say “Sahara” like this one: a golden sea of dunes stretching across eastern Algeria into Tunisia. Look for the patterns — long ridges, crescents and, in places, huge star-shaped dunes with arms radiating from a peak. Beyond its northern edge, the white salt crust of Chott el Djerid gleams in the sun.",
+    "w": "Golden dunes in regular patterns — ridges, crescents and stars — with the white salt flat of Chott el Djerid to the north.",
+    "f": [
+      "Sets for Tatooine, the desert planet of Star Wars, were built near Tozeur and Nefta on the erg’s Tunisian edge.",
+      "“Erg”, a word taken from Arabic, is what geographers call a large sea of dunes.",
+      "Hassi Messaoud, Algeria’s largest oilfield, lies at the erg’s western edge; at night its gas flares glow."
+    ],
+    "q": {
+      "q": "Which film saga shot desert scenes on the erg’s Tunisian edge?",
+      "a": "Star Wars",
+      "x": [
+        "Lawrence of Arabia",
+        "Dune"
+      ]
+    }
+  },
+  "Q2064799": {
+    "t": "The Sahara’s great empty basin, far from any oasis",
+    "s": "Here lies one of the most remote corners of the Sahara: El Djouf, a vast basin of dunes and gravel on the border of Mauritania and Mali, with no roads, villages or permanent wells across much of it. From above, look for endless parallel dune ridges running north-east to south-west, combed by the steady trade wind. Its Arabic name means “the belly” — a hollow in the desert.",
+    "w": "Endless parallel orange dune ridges and gravel plains, with no roads, towns or green patches anywhere in sight.",
+    "f": [
+      "On its north-eastern edge lies Taoudenni, where salt has been cut in slabs and carried by camel to Timbuktu for centuries.",
+      "The French naturalist Théodore Monod spent decades exploring this empty basin by camel."
+    ],
+    "q": {
+      "q": "Which salt-mining oasis lies on El Djouf’s north-eastern edge?",
+      "a": "Taoudenni",
+      "x": [
+        "Bilma",
+        "Siwa"
+      ]
+    }
+  },
+  "Q855658": {
+    "t": "A high desert of cactus, gypsum dunes and the Rio Grande",
+    "s": "Much of the Chihuahuan Desert lies on high plateaus between two Mexican mountain ranges, so it is cooler than you might expect, and most of its rain falls in summer storms. From above it is a mosaic of tan basins, dark volcanic hills and dry lakebeds. On the Texas border the Rio Grande makes its Big Bend, carving deep canyons through the ranges.",
+    "w": "Tan basins with dark volcanic hills and pale dry lakebeds; the Rio Grande’s green ribbon winds through canyons.",
+    "f": [
+      "White Sands, at the desert’s northern end in New Mexico, is the largest gypsum dune field in the world.",
+      "The Chihuahuan Desert is one of the richest places on Earth for cactus species."
+    ],
+    "q": {
+      "q": "Which field of white gypsum dunes lies in the Chihuahuan Desert?",
+      "a": "White Sands",
+      "x": [
+        "Death Valley",
+        "Great Sand Dunes"
+      ]
+    }
+  },
+  "Q189429": {
+    "t": "The land of the saguaro, surprisingly green",
+    "s": "For a desert, the Sonoran looks surprisingly green from above: two rainy seasons a year feed a dense scatter of shrubs, trees and giant cacti. It spreads across Arizona, California and north-western Mexico, broken by rugged little mountain ranges. Look for the sharp green squares of irrigated farms along the Colorado and Gila rivers, and the vast grid of Phoenix to the east.",
+    "w": "Olive-dotted desert basins between small, jagged ranges, bright irrigated fields along the rivers, and Phoenix’s sprawling grid.",
+    "f": [
+      "The giant saguaro cactus grows wild almost only in the Sonoran Desert.",
+      "A saguaro can grow more than 12 m tall and live for over 150 years.",
+      "Phoenix, in the heart of the desert, is one of the largest cities in the United States."
+    ],
+    "q": {
+      "q": "Which giant cactus is the symbol of the Sonoran Desert?",
+      "a": "The saguaro",
+      "x": [
+        "The Joshua tree",
+        "The prickly pear"
+      ]
+    }
+  },
+  "Q1670841": {
+    "t": "A desert cradled in the Yellow River’s great loop",
+    "s": "Look for the Yellow River swinging north in a huge, almost rectangular loop: the land inside it is the Ordos Plateau, and its sandy south is the Mu Us Desert. Over recent decades much of the Mu Us has been fixed with planted shrubs and trees, so from above you may see as much grey-green as yellow. The Great Wall once ran along its southern edge.",
+    "w": "A plateau of pale sand patches and grey-green scrub inside the Yellow River’s big loop, crossed by straight roads.",
+    "f": [
+      "Kubuqi, the desert on the northern side of the Ordos, is known for huge solar farms laid out on the sand.",
+      "The Ordos Plateau is rich in coal, making it one of China’s main energy regions."
+    ],
+    "q": {
+      "q": "Which river loops around the Ordos Plateau?",
+      "a": "The Yellow River",
+      "x": [
+        "The Yangtze",
+        "The Amur"
+      ]
+    }
+  },
+  "Q132956": {
+    "t": "A sea of shifting sand ringed by snowy mountains",
+    "s": "The Taklamakan fills the Tarim Basin like sand poured into a bowl: dunes in every direction, walled in by the snowy Tian Shan to the north and the Kunlun to the south. It is one of the largest shifting-sand deserts on Earth. Old Silk Road oases such as Kashgar and Hotan ring its edges, fed by meltwater streams that die out in the sand.",
+    "w": "Huge dune fields in a closed basin, ringed by snowy mountains and green oasis strips where rivers leave the foothills.",
+    "f": [
+      "The name is popularly translated as “go in and you won’t come out”, though its real origin is uncertain.",
+      "The Tarim Desert Highway crosses the dunes for more than 500 km, protected by planted belts of shrubs.",
+      "The Tarim River, fed by mountain meltwater, runs along the desert’s northern edge and never reaches the sea."
+    ],
+    "q": {
+      "q": "Which mountains wall in the Taklamakan to the north?",
+      "a": "The Tian Shan",
+      "x": [
+        "The Kunlun",
+        "The Altai"
+      ]
+    }
+  },
+  "Q483134": {
+    "t": "A mountainous peninsula with a rugged eastern spine",
+    "s": "About 70% of the Korean Peninsula is hills and mountains, and from above you can see how they crowd towards the east: a long spine, the Baekdudaegan, runs close to the eastern coast, while the land slopes west to broad plains and a shore of islands and vast mudflats. In autumn the forests turn every shade of red and gold.",
+    "w": "Forested ridges crowding the east coast, flatter farmland and cities in the west, and a western shore of islands and mudflats.",
+    "f": [
+      "The tidal flats of the west coast are a UNESCO World Heritage Site; tides there can rise more than 8 m.",
+      "From north to south the peninsula is about 1,000 km long."
+    ],
+    "q": {
+      "q": "Roughly how much of the Korean Peninsula is mountainous?",
+      "a": "About 70%",
+      "x": [
+        "About 30%",
+        "About 50%"
+      ]
+    }
+  },
+  "Q584279": {
+    "t": "North Africa’s highest wall, snow above the desert",
+    "s": "From Marrakesh you can see its snow in winter, and from above the High Atlas is a sharp, rust-and-white barrier running some 700 km across Morocco. To the north lie green plains and the Atlantic; to the south the desert begins almost at once. Deep gorges such as Todgha and Dadès cut its southern flank, with thin green strips of palm oases below.",
+    "w": "A rust-red mountain wall topped with snow in winter; narrow green oasis strips wind along the valleys on its southern side.",
+    "f": [
+      "The road from Marrakesh to Ouarzazate crosses the range at the Tizi n’Tichka pass, about 2,260 m high.",
+      "Aït Benhaddou, a fortified earthen village on the southern side, is a UNESCO site and a favourite film location."
+    ],
+    "q": {
+      "q": "Which pass carries the road from Marrakesh to Ouarzazate?",
+      "a": "Tizi n’Tichka",
+      "x": [
+        "Tizi n’Test",
+        "Col du Zad"
+      ]
+    }
+  },
+  "Q183295": {
+    "t": "The Dragon Mountains, a basalt wall around Lesotho",
+    "s": "Seen from above, the Drakensberg is a single colossal cliff: the edge of a high basalt plateau that drops more than a kilometre to the green hills of KwaZulu-Natal. On top lies Lesotho, a mountain kingdom where even the lowest ground is about 1,400 m above sea level. In winter the rim of the escarpment is often dusted with snow.",
+    "w": "A long, dark escarpment edge: a flat, bare high plateau on one side, folded green foothills far below on the other.",
+    "f": [
+      "Its Zulu name, uKhahlamba, means “barrier of spears”; Drakensberg is Afrikaans for “dragon mountains”.",
+      "Thabana Ntlenyana in Lesotho, 3,482 m, is the highest peak in southern Africa.",
+      "The Maloti-Drakensberg Park holds thousands of rock paintings made by the San people."
+    ],
+    "q": {
+      "q": "What does the Zulu name uKhahlamba mean?",
+      "a": "Barrier of spears",
+      "x": [
+        "Dragon’s back",
+        "Mountain of thunder"
+      ]
+    }
+  },
+  "Q5191296": {
+    "t": "Green hills where Central Africa’s rivers rush to the sea",
+    "s": "A band of low, rainforest-covered hills runs parallel to the Atlantic coast of Central Africa, from Equatorial Guinea through Gabon towards the mouth of the Congo. Rivers crossing it tumble down in rapids, and the mighty Congo itself breaks through in the Livingstone Falls, a chain of cataracts below Kinshasa. From above it is an almost unbroken carpet of dark green.",
+    "w": "Low, rolling hills under dense green rainforest a short way inland from the Atlantic, with brown rivers cutting through them.",
+    "f": [
+      "Gabon’s Monts de Cristal National Park, at the northern end of the range, is one of Africa’s richest places for plant species.",
+      "Below Kinshasa the Congo drops about 270 m through the Livingstone Falls on its way to the ocean."
+    ],
+    "q": {
+      "q": "Which cataracts carry the Congo through these hills to the sea?",
+      "a": "The Livingstone Falls",
+      "x": [
+        "The Victoria Falls",
+        "The Boyoma Falls"
+      ]
+    }
+  },
+  "Q309104": {
+    "t": "Dark volcanoes rising from the heart of the Sahara",
+    "s": "In the middle of the Sahara, dark volcanic mountains rise out of the sand like islands. The Tibesti in northern Chad holds the highest summit of the Sahara, Emi Koussi, at about 3,400 m — a huge shield volcano whose crater is some 12 km across. Nearby lies Trou au Natron, a deep caldera whose floor is streaked white with salt.",
+    "w": "Dark brown and black volcanic massifs rising from pale sand, with wide craters and white salt crusts inside some calderas.",
+    "f": [
+      "Trou au Natron is about 1 km deep, and its floor is crusted with white natron salt.",
+      "Rock art in the Tibesti shows cattle and giraffes from the time when the Sahara was green."
+    ],
+    "q": {
+      "q": "Which is the highest summit of the Sahara?",
+      "a": "Emi Koussi",
+      "x": [
+        "Mount Tahat",
+        "Jebel Toubkal"
+      ]
+    }
   }
 }

@@ -1,0 +1,357 @@
+{
+  "Q223": {
+    "t": "Une île qui n’est presque qu’un immense dôme de glace",
+    "s": "Entre l’Europe et l’Amérique du Nord, vous survolez souvent une île faite presque entièrement de glace. L’inlandsis couvre environ les quatre cinquièmes du Groenland et atteint jusqu’à 3 km d’épaisseur : son sommet culmine à plus de 3 000 m au-dessus de la mer. Sur les bords, des pics sombres et des fjords percent la glace ; en été, elle se constelle de lacs de fonte turquoise.",
+    "w": "Un immense plateau blanc sans relief, bordé de montagnes sombres, de fjords profonds et d’icebergs qui dérivent au large.",
+    "f": [
+      "Le Groenland est la plus grande île du monde : environ 2,2 millions de km², à peu près quatre fois la France.",
+      "Si toute sa glace fondait, le niveau des océans monterait d’environ 7 mètres.",
+      "Seuls quelque 56 000 habitants y vivent, presque tous sur la côte libre de glace."
+    ],
+    "q": {
+      "q": "Quelle part du Groenland l’inlandsis recouvre-t-il ?",
+      "a": "Environ les quatre cinquièmes",
+      "x": [
+        "Environ la moitié",
+        "Environ un tiers"
+      ]
+    }
+  },
+  "Q35942": {
+    "t": "Des milliers de kilomètres d’océan, cousus d’atolls",
+    "s": "Sous vous, surtout du bleu profond, rompu çà et là par un anneau turquoise — un atoll — ou par les crêtes vertes d’une île volcanique. La Polynésie forme un immense triangle dont Hawaï, la Nouvelle-Zélande et l’île de Pâques marquent les pointes. Bien avant les Européens, des hommes l’ont peuplée tout entière en pirogue, en lisant les étoiles, la houle et le vol des oiseaux.",
+    "w": "Des anneaux de récif turquoise épars autour de lagons pâles, et parfois un pic volcanique vert sombre enveloppé de nuages.",
+    "f": [
+      "Son nom vient du grec et signifie « nombreuses îles ».",
+      "Pointe sud-ouest du triangle, la Nouvelle-Zélande n’a été peuplée qu’il y a environ 700 ans, l’une des dernières grandes terres atteintes.",
+      "Les langues polynésiennes sont si proches que l’océan se dit « moana » à Hawaï comme en Nouvelle-Zélande."
+    ],
+    "q": {
+      "q": "Quelle île marque une pointe du triangle polynésien ?",
+      "a": "L’île de Pâques",
+      "x": [
+        "Fidji",
+        "Guam"
+      ]
+    }
+  },
+  "Q669037": {
+    "t": "Les fausses « Indes » de Colomb, sur des mers turquoise",
+    "s": "Les îles s’incurvent sur des milliers de kilomètres, des Bahamas et de Cuba jusqu’à Trinidad, et d’en haut leurs couleurs les trahissent : hauts-fonds d’un turquoise lumineux, sable blanc, montagnes vertes. Leur ancien nom d’Indes occidentales vient d’une erreur : en 1492, Colomb croyait avoir atteint les Indes d’Asie. Les grandes îles sont à l’ouest ; à l’est, un chapelet de petites îles volcaniques ferme la mer des Caraïbes.",
+    "w": "À l’ouest, de grandes îles montagneuses ; à l’est, un arc de petites îles volcaniques ; entre les deux, des hauts-fonds turquoise.",
+    "f": [
+      "Le point culminant, le pic Duarte, sur Hispaniola, s’élève à environ 3 100 m.",
+      "La mer des Caraïbes doit son nom aux Caraïbes, un peuple des Petites Antilles."
+    ],
+    "q": {
+      "q": "Sur quelle île se trouve le plus haut sommet des Antilles ?",
+      "a": "Hispaniola",
+      "x": [
+        "Cuba",
+        "La Jamaïque"
+      ]
+    }
+  },
+  "Q928": {
+    "t": "Plus de 7 000 îles, récifs et cônes volcaniques",
+    "s": "Des îles vertes et montagneuses découpent la mer en détroits et en baies, chaque côte frangée d’un liseré pâle de récif. On en compte plus de 7 000, mais Luçon au nord et Mindanao au sud concentrent plus des deux tiers des terres. L’archipel est posé sur la ceinture de feu du Pacifique : cherchez des cônes volcaniques et des lacs de cratère parmi les crêtes boisées.",
+    "w": "Un dédale d’îles vertes et de chenaux étroits, les côtes soulignées par le liseré pâle des récifs.",
+    "f": [
+      "Les îles ont été baptisées dans les années 1540 en l’honneur du prince Philippe d’Espagne, futur roi Philippe II.",
+      "À Bohol, plus de 1 200 collines arrondies brunissent à la saison sèche : ce sont les célèbres Chocolate Hills.",
+      "Les Philippines font partie du Triangle de corail, la région du globe la plus riche en vie récifale."
+    ],
+    "q": {
+      "q": "Quel roi d’Espagne a donné son nom aux Philippines ?",
+      "a": "Philippe II",
+      "x": [
+        "Charles Quint",
+        "Ferdinand II"
+      ]
+    }
+  },
+  "Q17": {
+    "t": "Un arc de 3 000 km de montagnes surgies du Pacifique",
+    "s": "Vu de l’altitude de croisière, le Japon est un long arc froissé de montagnes boisées, avec des villes serrées sur d’étroites plaines entre les pentes et la mer. Quatre grandes îles abritent presque toute la population, et des milliers d’autres les entourent. La nuit, la côte pacifique, de Tokyo à Osaka, brille comme un ruban de lumière presque continu.",
+    "w": "Des montagnes vertes et accidentées au centre, des plaines côtières surpeuplées, et le Fuji enneigé, isolé au sud-ouest de Tokyo.",
+    "f": [
+      "Environ les trois quarts du Japon sont montagneux, d’où ces villes entassées sur les plaines côtières.",
+      "Le pays compte plus de 100 volcans actifs.",
+      "Un recomptage fait en 2023 sur cartes numériques a trouvé environ 14 000 îles, le double du chiffre longtemps cité de 6 852."
+    ],
+    "q": {
+      "q": "Quelle part du Japon est montagneuse, à peu près ?",
+      "a": "Environ les trois quarts",
+      "x": [
+        "Environ un tiers",
+        "Environ la moitié"
+      ]
+    }
+  },
+  "Q85377": {
+    "t": "Un puzzle gelé au sommet de l’Amérique du Nord",
+    "s": "Vu d’en haut, c’est un puzzle de terres brunes et blanches, emboîtées par des chenaux de banquise. Des dizaines de milliers d’îles s’étendent au nord du continent canadien jusque vers le Groenland, et la mer qui les sépare reste gelée une grande partie de l’année. Pendant des siècles, les explorateurs y ont cherché un chemin : le passage du Nord-Ouest se faufile entre elles.",
+    "w": "De grandes îles plates séparées par des chenaux rectilignes, blanches de banquise presque toute l’année ; glaciers et calottes à l’est.",
+    "f": [
+      "Trois des dix plus grandes îles du monde sont ici : Baffin, Victoria et Ellesmere.",
+      "Roald Amundsen a été le premier à franchir tout le passage du Nord-Ouest en bateau, de 1903 à 1906.",
+      "L’archipel compte plus de 36 000 îles."
+    ],
+    "q": {
+      "q": "Quelle route maritime serpente entre ces îles ?",
+      "a": "Le passage du Nord-Ouest",
+      "x": [
+        "La route maritime du Nord",
+        "Le passage de Drake"
+      ]
+    }
+  },
+  "Q37394": {
+    "t": "Des îles vertes et abruptes aux centaines de langues",
+    "s": "Ici, les îles du Pacifique se font hautes et vertes : crêtes volcaniques escarpées, drapées de forêt tropicale et cernées de récifs, de la Nouvelle-Guinée jusqu’aux Fidji. Certains volcans fument encore : guettez un panache gris qui s’échappe d’un sommet. La Mélanésie est aussi le coin de la planète le plus riche en langues : des villages à quelques crêtes de distance parlent parfois des langues sans aucun lien.",
+    "w": "De grandes îles montagneuses et boisées aux côtes frangées de récifs ; parfois un panache volcanique étiré par le vent.",
+    "f": [
+      "La Papouasie-Nouvelle-Guinée compte à elle seule plus de 800 langues vivantes.",
+      "Le Vanuatu compte environ 110 langues pour quelque 300 000 habitants : la plus forte densité de langues par personne au monde."
+    ],
+    "q": {
+      "q": "Combien de langues compte à peu près la Papouasie-Nouvelle-Guinée ?",
+      "a": "Plus de 800",
+      "x": [
+        "Environ 100",
+        "Environ 300"
+      ]
+    }
+  },
+  "Q3359409": {
+    "t": "Des milliers d’îlots au-dessus de la mer la plus profonde",
+    "s": "La Micronésie, c’est surtout de l’océan : des milliers de petites îles, dont beaucoup d’atolls bas, anneaux de récif qui brillent turquoise sur le bleu profond. Nombre d’entre elles ne dépassent les vagues que de quelques mètres. À l’ouest s’ouvre la fosse des Mariannes, où le fond plonge à près de 11 km — à peu près aussi loin sous la surface que vous l’êtes au-dessus.",
+    "w": "De petits anneaux de récif aux lagons vert pâle, très espacés sur un océan bleu sombre ; parfois une île plus haute et boisée.",
+    "f": [
+      "Son nom signifie « petites îles » en grec.",
+      "À Yap, d’énormes disques de pierre appelés rai, parfois plus larges qu’un homme n’est grand, servaient de monnaie."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Micronésie » ?",
+      "a": "Petites îles",
+      "x": [
+        "Îles noires",
+        "Nombreuses îles"
+      ]
+    }
+  },
+  "Q208643": {
+    "t": "Le plus grand archipel du monde, entre Asie et Australie",
+    "s": "Entre l’Asie continentale et l’Australie s’étend le plus grand ensemble d’îles de la planète : environ 25 000, de Sumatra aux Philippines. Cherchez des chapelets de cônes volcaniques, une forêt tropicale trouée de clairières, des mers peu profondes qui verdissent au-dessus du corail. Alfred Russel Wallace y a voyagé huit ans ; il a remarqué que, de part et d’autre d’un étroit bras de mer, les animaux appartenaient à deux mondes.",
+    "w": "De grandes îles vertes et des chaînes de pics volcaniques dans des mers chaudes et peu profondes ; des panaches de limon brun dans l’eau turquoise.",
+    "f": [
+      "La ligne Wallace passe entre Bali et Lombok : faune surtout asiatique à l’ouest, faune de type australien à l’est.",
+      "C’est en voyageant dans ces îles, en 1858, que Wallace a eu l’idée de la sélection naturelle, indépendamment de Darwin."
+    ],
+    "q": {
+      "q": "Entre quelles îles passe la ligne Wallace ?",
+      "a": "Bali et Lombok",
+      "x": [
+        "Java et Sumatra",
+        "Bornéo et Java"
+      ]
+    }
+  },
+  "Q38272": {
+    "t": "Un archipel vert et nuageux au nord-ouest de l’Europe",
+    "s": "Deux grandes îles et des milliers de petites se tiennent au large du nord-ouest de l’Europe ; par temps clair, elles paraissent d’un vert intense, marquetées de champs et frangées de caps rocheux. Les nuages sont fréquents : l’air atlantique apporte souvent la pluie. Il y a encore 8 000 ans environ, on pouvait venir ici à pied depuis le continent, par une plaine aujourd’hui noyée sous la mer du Nord.",
+    "w": "La longue silhouette nord-sud de la Grande-Bretagne, l’Irlande à l’ouest, une mosaïque de champs verts et des archipels déchiquetés au nord.",
+    "f": [
+      "L’ensemble compte plus de 6 000 îles, pour la plupart petites et inhabitées.",
+      "La terre engloutie qui reliait la Grande-Bretagne au continent s’appelle le Doggerland, d’après le Dogger Bank.",
+      "Les eaux chaudes du Gulf Stream y maintiennent des hivers doux pour une latitude aussi septentrionale."
+    ],
+    "q": {
+      "q": "Comment s’appelle la terre engloutie entre la Grande-Bretagne et le continent ?",
+      "a": "Le Doggerland",
+      "x": [
+        "La Lyonnesse",
+        "L’Hyperborée"
+      ]
+    }
+  },
+  "Q664": {
+    "t": "L’une des dernières grandes terres atteintes par l’homme",
+    "s": "Deux longues îles et des centaines de petites, seules dans le Pacifique Sud, à environ 2 000 km à l’est de l’Australie. Cherchez l’échine enneigée des Alpes du Sud au sud et des cônes volcaniques au nord. Les navigateurs polynésiens ne sont arrivés qu’il y a environ 700 ans : c’est l’une des dernières grandes terres de la planète à avoir été peuplées.",
+    "w": "Des sommets enneigés au sud, des lacs bleu glacier et des fjords au sud-ouest, des terres agricoles vertes dans les plaines.",
+    "f": [
+      "Le détroit de Cook, entre les deux îles principales, ne mesure qu’environ 22 km de large à son point le plus étroit.",
+      "La Nouvelle-Zélande repose sur Zealandia, un continent englouti à environ 94 % sous la mer.",
+      "Aotearoa, son nom maori, se traduit souvent par « le pays du long nuage blanc »."
+    ],
+    "q": {
+      "q": "Quel est le nom maori de la Nouvelle-Zélande ?",
+      "a": "Aotearoa",
+      "x": [
+        "Rapa Nui",
+        "Hawaiki"
+      ]
+    }
+  },
+  "Q3740828": {
+    "t": "Le feu et la glace sur une faille de l’Atlantique",
+    "s": "D’en haut, l’Islande semble inachevée : champs de lave noirs, plaines d’épandage grises, calottes glaciaires blanches et mince liseré vert le long des côtes. L’île est posée sur la dorsale médio-atlantique, là où l’Amérique du Nord et l’Eurasie s’écartent — d’où ses nombreux volcans. Les rivières glaciaires se ramifient sur le sable comme des veines pâles.",
+    "w": "Calottes glaciaires éclatantes à l’intérieur, plaines sombres de lave et de sable, rivières en tresses, étroite bande verte au bord de la mer.",
+    "f": [
+      "Les deux plaques s’écartent d’environ 2 cm par an, et l’Islande s’élargit lentement avec elles.",
+      "Le Vatnajökull, la plus grande calotte glaciaire, couvre environ 8 % du pays et cache des volcans actifs.",
+      "Les géologues du monde entier ont adopté le mot islandais « sandur » pour désigner une plaine d’épandage glaciaire."
+    ],
+    "q": {
+      "q": "Quelles plaques s’écartent de part et d’autre de l’Islande ?",
+      "a": "Nord-américaine et eurasienne",
+      "x": [
+        "Africaine et eurasienne",
+        "Pacifique et nord-américaine"
+      ]
+    }
+  },
+  "Q7463928": {
+    "t": "L’île Rouge, où la vie a suivi son propre chemin",
+    "s": "Son surnom d’« île Rouge » s’explique d’en haut : la latérite nue affleure en tons rouille et orangés, et après la pluie les fleuves déversent dans la mer un limon rouge. Madagascar s’est détachée de l’Afrique, puis de l’Inde, il y a des dizaines de millions d’années, et la vie y a évolué en vase clos. Cherchez la forêt tropicale sur la côte est et les plaines sèches à l’ouest.",
+    "w": "Une île immense : un escarpement vert à l’est, des hautes terres rouille, des fleuves qui saignent un limon rouge dans la mer.",
+    "f": [
+      "Avec environ 587 000 km², c’est la quatrième plus grande île du monde.",
+      "Les lémuriens n’ont évolué qu’ici, et environ 90 % de la faune malgache n’existe nulle part ailleurs.",
+      "Le malgache a pour plus proches parentes des langues du sud de Bornéo, à plus de 6 000 km."
+    ],
+    "q": {
+      "q": "De quelle île viennent les langues les plus proches du malgache ?",
+      "a": "Bornéo",
+      "x": [
+        "Sri Lanka",
+        "Zanzibar"
+      ]
+    }
+  },
+  "Q710": {
+    "t": "Un pays d’atolls dans les quatre hémisphères",
+    "s": "Kiribati, ce sont 33 petites îles dispersées sur des milliers de kilomètres d’océan. D’en haut, la plupart forment de minces anneaux de terre autour de lagons pâles, souvent à quelques mètres à peine au-dessus de la mer. C’est le seul pays présent dans les quatre hémisphères, et en 1995 il a déplacé la ligne de changement de date pour que toutes ses îles vivent le même jour.",
+    "w": "De minces anneaux de terre autour de lagons vert jade, minuscules sur le bleu profond, très espacés le long de l’équateur.",
+    "f": [
+      "« Kiribati » se prononce « Kiribass » : c’est la forme locale de « Gilberts », l’ancien nom britannique des îles.",
+      "Environ la moitié des habitants du pays vivent à Tarawa-Sud, l’atoll-capitale."
+    ],
+    "q": {
+      "q": "De quel nom « Kiribati » est-il la forme locale ?",
+      "a": "Îles Gilbert",
+      "x": [
+        "Îles Carolines",
+        "Îles Marshall"
+      ]
+    }
+  },
+  "Q192626": {
+    "t": "Des volcans sur un tapis roulant à travers le Pacifique",
+    "s": "Les îles s’alignent du sud-est au nord-ouest, et leurs formes racontent leur histoire. Au sud-est, la Grande Île est vaste et jeune, ses volcans toujours actifs ; plus au nord-ouest, les îles vieillissent, s’érodent et se creusent de profondes vallées vertes. Au-delà, la chaîne s’amenuise en atolls et en monts sous-marins. Elle s’est formée à mesure que la plaque pacifique glissait au-dessus d’un point chaud fixe.",
+    "w": "Une ligne d’îles en diagonale : volcans larges et sombres au sud-est, îles plus anciennes, vertes et profondément ravinées au nord-ouest.",
+    "f": [
+      "Hawaï est à environ 3 800 km de la Californie : l’un des archipels les plus isolés du monde.",
+      "Kauai, vers l’extrémité nord-ouest des îles principales, a environ 5 millions d’années ; la Grande Île, moins de 1 million.",
+      "Un nouveau volcan, Kamaʻehuakanaloa (ex-Lōʻihi), grandit sur le fond marin au sud-est de la Grande Île."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a créé l’archipel d’Hawaï ?",
+      "a": "Un point chaud sous la plaque pacifique",
+      "x": [
+        "Une zone de subduction",
+        "Une dorsale médio-océanique"
+      ]
+    }
+  },
+  "Q234796": {
+    "t": "Là où la nouvelle année arrive avant partout ailleurs",
+    "s": "Une ligne lâche d’atolls coralliens traverse l’équateur au milieu du Pacifique, à des centaines de kilomètres les uns des autres. Le plus grand, Kiritimati, ne passe pas inaperçu : un immense anneau de terre enfermant un dédale de lagons peu profonds, d’un bleu laiteux. Les îles qui appartiennent à Kiribati vivent 14 heures en avance sur Greenwich : ce sont elles qui accueillent chaque nouvelle année en premier.",
+    "w": "De minuscules atolls isolés, alignés du nord au sud ; Kiritimati se distingue, grand anneau pâle criblé de lagons.",
+    "f": [
+      "Kiritimati est l’atoll corallien qui a la plus grande superficie de terres émergées : environ 390 km².",
+      "Son nom est la graphie locale de « Christmas » : le capitaine Cook l’a atteint la veille de Noël 1777.",
+      "Sur les 11 îles de la Ligne, 8 appartiennent à Kiribati ; les autres sont des territoires des États-Unis."
+    ],
+    "q": {
+      "q": "Quelle île de la Ligne est le plus grand atoll par sa surface émergée ?",
+      "a": "Kiritimati",
+      "x": [
+        "Tabuaeran",
+        "Palmyra"
+      ]
+    }
+  },
+  "Q118350": {
+    "t": "Des centaines d’atolls et quelques hautes îles vertes",
+    "s": "Les Carolines s’éparpillent sur quelque 3 000 km du Pacifique occidental, juste au nord de l’équateur. La plupart sont des atolls bas, anneaux de récif autour de lagons turquoise, mais Pohnpei, Kosrae et les pics de Chuuk se dressent en îles vertes coiffées de nuages. Leurs navigateurs traversaient l’océan sans instruments, et leur savoir a aidé à faire renaître la navigation polynésienne dans les années 1970.",
+    "w": "De petits atolls cerclés de turquoise, très espacés ; Chuuk apparaît comme un immense anneau de récif enserrant des pics verts.",
+    "f": [
+      "Les îles portent le nom du roi Charles II d’Espagne.",
+      "Nan Madol, cité de basalte bâtie sur environ 100 îlots artificiels près de Pohnpei, est inscrite au patrimoine mondial de l’UNESCO.",
+      "Le maître navigateur Mau Piailug, de Satawal, a guidé la pirogue Hōkūleʻa d’Hawaï à Tahiti en 1976."
+    ],
+    "q": {
+      "q": "De quel roi les îles Carolines portent-elles le nom ?",
+      "a": "Charles II d’Espagne",
+      "x": [
+        "Charles Ier d’Angleterre",
+        "Charles III d’Espagne"
+      ]
+    }
+  },
+  "Q165481": {
+    "t": "Quatre îles géantes sur un rebord noyé de l’Asie",
+    "s": "Bornéo, Sumatra, Java et Sulawesi forment les grandes îles de la Sonde, et trois d’entre elles se dressent sur un plateau peu profond qui était émergé pendant les glaciations. Les mers qui les séparent dépassent rarement 100 m de fond, si bien que l’eau paraît souvent verte plutôt que bleu profond. Cherchez les chaînes de volcans le long de Sumatra et de Java, et la sombre forêt tropicale de Bornéo.",
+    "w": "De grandes îles vertes dans des mers peu profondes et verdâtres ; des alignements de cônes volcaniques le long de Sumatra et de Java.",
+    "f": [
+      "Java est l’île la plus peuplée du monde : plus de 150 millions d’habitants.",
+      "Pendant les glaciations, hommes et animaux pouvaient gagner à pied Java, Sumatra et Bornéo depuis l’Asie continentale.",
+      "Sulawesi fait exception : située au-delà de la ligne Wallace, elle abrite un étrange mélange de faunes."
+    ],
+    "q": {
+      "q": "Quelle est la plus grande des grandes îles de la Sonde ?",
+      "a": "Bornéo",
+      "x": [
+        "Sumatra",
+        "Sulawesi"
+      ]
+    }
+  },
+  "Q1042": {
+    "t": "Des îles de granit laissées par un continent à la dérive",
+    "s": "En plein océan, la plupart des îles sont volcaniques ou coralliennes, mais les îles intérieures des Seychelles sont en granit : un fragment de continent ancien, resté là quand l’Inde a dérivé vers le nord. D’en haut, Mahé et Praslin montrent des collines vertes escarpées et des blocs gris qui dévalent vers des baies turquoise. Loin au sud-ouest, les îles extérieures sont des atolls plats perdus dans le bleu.",
+    "w": "Au nord-est, des îles de granit vertes et escarpées aux baies turquoise ; au sud-ouest, des atolls bas et très dispersés.",
+    "f": [
+      "Le cocotier de mer, endémique de Praslin et de Curieuse, porte la graine la plus lourde du règne végétal.",
+      "L’atoll d’Aldabra abrite environ 100 000 tortues géantes.",
+      "Les Seychelles sont le pays d’Afrique le moins peuplé."
+    ],
+    "q": {
+      "q": "De quelle roche sont faites Mahé et Praslin ?",
+      "a": "Le granit",
+      "x": [
+        "Le basalte",
+        "Le calcaire corallien"
+      ]
+    }
+  },
+  "Q4526612": {
+    "t": "Une larme verte au large de la pointe de l’Inde",
+    "s": "Le Sri Lanka pend sous la pointe de l’Inde comme une larme, son extrémité nord effilée tournée vers un chapelet de bancs de sable qui touche presque le continent. Au centre-sud, les hautes terres forment un nœud vert sombre, avec des plantations de thé à l’assaut des pentes. Autour s’étendent des rizières, des réservoirs bâtis par d’anciens rois et un liseré doré de plages.",
+    "w": "Une île en forme de larme : montagnes au centre-sud et, au nord-ouest, un mince chapelet de bancs de sable qui file vers l’Inde.",
+    "f": [
+      "Le mot « sérendipité » vient, par l’anglais, de Serendip, un ancien nom de l’île.",
+      "Le pont d’Adam, un chapelet de hauts-fonds d’environ 50 km, relie presque le Sri Lanka à l’Inde.",
+      "Au sommet du pic d’Adam, un creux en forme d’empreinte de pied est vénéré par bouddhistes, hindous, musulmans et chrétiens."
+    ],
+    "q": {
+      "q": "Quel mot vient d’un ancien nom du Sri Lanka ?",
+      "a": "Sérendipité",
+      "x": [
+        "Cannelle",
+        "Paradis"
+      ]
+    }
+  }
+}

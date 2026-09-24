@@ -1,0 +1,902 @@
+{
+  "via-appia": {
+    "name": "Via Appia",
+    "era": "from 312 BC",
+    "t": "The Romans called it the queen of roads",
+    "s": "Beneath you runs the first of Rome's great highways, begun in 312 BC and pushed south until it reached the Adriatic port of Brindisi. Soldiers, traders and travellers all used it to reach the ships for Greece and the East. The paving stones are far too small to see, but south of Rome modern roads still trace its dead-straight line across the flat Pontine plain.",
+    "w": "Look for a ruler-straight road running south-east from Rome across a flat, chequered plain towards the coast at Terracina.",
+    "f": [
+      "It was begun by the censor Appius Claudius Caecus, who gave the road his name.",
+      "Near Rome the old road is still lined with tombs and umbrella pines, and parts of the Roman paving survive.",
+      "From Brindisi, ships crossed to Dyrrachium, where the Via Egnatia continued east towards Byzantium."
+    ],
+    "q": {
+      "q": "Which port was the final stop of the Via Appia?",
+      "a": "Brindisi",
+      "x": [
+        "Naples",
+        "Ostia"
+      ]
+    }
+  },
+  "via-egnatia": {
+    "name": "Via Egnatia",
+    "era": "2nd c. BC – Middle Ages",
+    "t": "Rome's highway across the Balkans to the Bosphorus",
+    "s": "Here Rome reached for the East. Built in the 2nd century BC, the Via Egnatia ran from the Adriatic coast of today's Albania over the mountains to Thessaloniki and on to Byzantium. It was the natural sequel to the Via Appia: sail across from Brindisi, then walk. The road itself is invisible from cruise, but you can follow its line past Lake Ohrid and along the Aegean shore.",
+    "w": "Find Lake Ohrid among the mountains, then the Gulf of Thessaloniki to the east; the road linked the two and ran on towards Istanbul.",
+    "f": [
+      "It was named after the Roman proconsul Gnaeus Egnatius, who had it built.",
+      "From the Adriatic to Byzantium the road covered roughly 1,100 km.",
+      "The Apostle Paul travelled along it on his way through Philippi and Thessaloniki."
+    ],
+    "q": {
+      "q": "Which lake did the Via Egnatia pass on its way east?",
+      "a": "Lake Ohrid",
+      "x": [
+        "Lake Balaton",
+        "Lake Scutari"
+      ]
+    }
+  },
+  "via-francigena": {
+    "name": "Via Francigena",
+    "era": "from the 9th–10th c.",
+    "t": "A medieval pilgrim road from Canterbury to Rome",
+    "s": "You are over the road that medieval pilgrims walked from England to Rome. In 990 Archbishop Sigeric of Canterbury wrote down each overnight stop on his way home from the Pope, and his list still defines the route. It crosses France, climbs the Alps at the Great St Bernard Pass and runs down through Tuscany. From above, trace it by the lakes, passes and river plains it threads between.",
+    "w": "Look for Lake Geneva, then the high Alpine notch of the Great St Bernard to its south, and the flat Po plain beyond.",
+    "f": [
+      "Sigeric's travel notes list 79 stages between Rome and the English Channel.",
+      "The Great St Bernard Pass, at 2,469 m, is the highest point on the route.",
+      "Pilgrims still walk it today, collecting stamps in a pilgrim passport."
+    ],
+    "q": {
+      "q": "Who recorded the stages of the Via Francigena in 990?",
+      "a": "Archbishop Sigeric",
+      "x": [
+        "Charlemagne",
+        "Pope Gregory the Great"
+      ]
+    }
+  },
+  "camino-frances": {
+    "name": "Camino de Santiago (Camino Francés)",
+    "era": "from the 9th c.",
+    "t": "A thousand years of footsteps to Santiago",
+    "s": "Below you runs Europe's best-loved pilgrim road. For more than a thousand years walkers have crossed the Pyrenees here and headed west across northern Spain to the tomb of St James in Santiago de Compostela, about 780 km away. From the air the route is easy to imagine: green mountains at both ends, and between them the Meseta, a high, flat plateau of golden wheat around Burgos and León.",
+    "w": "Look for the wide tawny plateau between Burgos and León, with the green Galician hills rising to the west.",
+    "f": [
+      "The scallop shell, symbol of St James, marks the way on walls and signposts.",
+      "In 1987 it became the first Cultural Route of the Council of Europe.",
+      "Hundreds of thousands of people now finish the pilgrimage each year."
+    ],
+    "q": {
+      "q": "Which symbol marks the Camino de Santiago?",
+      "a": "A scallop shell",
+      "x": [
+        "An olive branch",
+        "An oak leaf"
+      ]
+    }
+  },
+  "amber-road": {
+    "name": "Amber Road",
+    "era": "Bronze Age – Roman times",
+    "t": "Baltic gold carried south to Rome",
+    "s": "Imagine the Baltic shore as a gold mine. Amber washed up on its beaches, and for thousands of years traders carried it south through the Moravian Gate to the Danube and down to Aquileia on the Adriatic, where Roman workshops turned it into jewellery. The route itself left no line you can see, but its two ends are clear: the long sandy spits of the Baltic and the northern Adriatic coast.",
+    "w": "At the northern end, look for the thin sandy spits and lagoons of the Baltic coast near Gdańsk and Kaliningrad.",
+    "f": [
+      "Amber is fossilised tree resin, and Baltic amber is roughly 40 million years old.",
+      "Pliny the Elder tells of a Roman knight sent by Nero to the Baltic to buy amber in bulk.",
+      "Most of the world's mined amber still comes from the coast near Kaliningrad."
+    ],
+    "q": {
+      "q": "What is amber?",
+      "a": "Fossilised tree resin",
+      "x": [
+        "Petrified sea foam",
+        "Volcanic glass"
+      ]
+    }
+  },
+  "hadrians-wall": {
+    "name": "Hadrian's Wall",
+    "era": "AD 122 – early 5th c.",
+    "t": "Rome's northern frontier, coast to coast",
+    "s": "You are crossing the narrow neck of northern England, where Emperor Hadrian ordered a stone wall in AD 122. It ran from the Tyne to the Solway Firth, with small forts every Roman mile and garrisons drawn from all over the empire. The wall is only a few metres wide and cannot be seen from cruise, but the gap it guarded, between two estuaries, is plain.",
+    "w": "Trace the land from the Tyne estuary at Newcastle westward to the broad silver Solway Firth beyond Carlisle.",
+    "f": [
+      "The wall was about 117 km long, or 80 Roman miles.",
+      "Letters on wooden tablets found at nearby Vindolanda include a birthday party invitation from about AD 100.",
+      "It became a UNESCO World Heritage site in 1987."
+    ],
+    "q": {
+      "q": "Roughly how long was Hadrian's Wall?",
+      "a": "About 117 km",
+      "x": [
+        "About 40 km",
+        "About 450 km"
+      ]
+    }
+  },
+  "limes-germanicus": {
+    "name": "Upper Germanic–Raetian Limes",
+    "era": "c. AD 100 – 260",
+    "t": "Rome's frontier line from the Rhine to the Danube",
+    "s": "Below you ran the edge of the Roman world. From the Rhine near Koblenz to the Danube near Regensburg, a palisade, ditch and hundreds of watchtowers marked where the empire ended and free Germania began. Much of it lies in forest today, invisible from any height. What you can see are the two great rivers it joined, and the wooded hills of the Taunus and Odenwald between them.",
+    "w": "Find the Rhine and the Danube; the frontier cut across the wooded uplands between them in a long, bent line.",
+    "f": [
+      "The frontier ran about 550 km and had some 900 watchtowers and 60 forts.",
+      "One section runs almost perfectly straight for about 80 km, ignoring hills and valleys.",
+      "At Saalburg near Frankfurt, a Roman fort was rebuilt around 1900 on its original foundations."
+    ],
+    "q": {
+      "q": "Which two rivers did this Roman frontier connect?",
+      "a": "The Rhine and the Danube",
+      "x": [
+        "The Rhine and the Elbe",
+        "The Main and the Oder"
+      ]
+    }
+  },
+  "danube-limes": {
+    "name": "Danube Limes",
+    "era": "1st – 5th c.",
+    "t": "The river that was Rome's frontier",
+    "s": "For four centuries this river was a border. The Romans lined the Danube with forts and watchtowers, and several of today's capitals grew from their camps: Vienna, Budapest and Belgrade among them. Unlike most Roman frontiers, this one is easy to follow from the air, because the river itself was the line. Watch for the gorge of the Iron Gates, where the Danube squeezes through the Carpathians.",
+    "w": "Follow the broad Danube; the narrow Iron Gates gorge between Serbia and Romania is the most striking stretch.",
+    "f": [
+      "Vienna grew from the Roman camp of Vindobona, and Budapest from Aquincum.",
+      "Trajan's Bridge across the Danube, finished in AD 105, was over a kilometre long.",
+      "Its stone piers stood near today's Drobeta-Turnu Severin, and a few stumps still rise on the banks."
+    ],
+    "q": {
+      "q": "Which capital grew from the Roman camp of Vindobona?",
+      "a": "Vienna",
+      "x": [
+        "Budapest",
+        "Bratislava"
+      ]
+    }
+  },
+  "hanseatic-route": {
+    "name": "Hanseatic trade route (London–Novgorod)",
+    "era": "13th – 17th c.",
+    "t": "Merchant towns that ruled the northern seas",
+    "s": "You are over the old sea road of the Hanseatic League, a merchant alliance that for centuries controlled trade across the North Sea and the Baltic. Its ships carried cloth west to east, and furs, wax, grain and fish the other way, linking offices in London, Bruges, Bergen and Novgorod. Look for the Baltic coast below: the red-brick port towns along it were built on this trade.",
+    "w": "Follow the Baltic coast from Lübeck Bay eastward, with the long island of Gotland out to sea.",
+    "f": [
+      "Lübeck was the league's leading city, often called the Queen of the Hanse.",
+      "Hamburg's car plates still begin with HH, for Hansestadt Hamburg.",
+      "The Hanseatic Diet, the league's assembly, last met in 1669."
+    ],
+    "q": {
+      "q": "What does HH on Hamburg car plates stand for?",
+      "a": "Hansestadt Hamburg",
+      "x": [
+        "Hafen Hamburg",
+        "Hauptstadt Hamburg"
+      ]
+    }
+  },
+  "via-domitia": {
+    "name": "Via Domitia",
+    "era": "from 118 BC",
+    "t": "The first Roman road in Gaul, Italy to Spain",
+    "s": "Beneath you ran the first road Rome built in Gaul, laid out from 118 BC to link Italy with Spain. It climbed over the Alps at Montgenèvre, followed the Durance valley, crossed the Rhône near Beaucaire and ran along the coast plain past Nîmes and Narbonne to the Pyrenees. The road is invisible now, but the valleys, the river and the lagoon-fringed coast still show its path.",
+    "w": "Look for the Rhône delta and the chain of lagoons along the coast west of it, towards the Pyrenees.",
+    "f": [
+      "It was named after Gnaeus Domitius Ahenobarbus, the Roman general who had it built.",
+      "In Narbonne a stretch of the original paving has been uncovered in the town's main square.",
+      "The Pont Julien, a Roman bridge near Apt, carried traffic on this route for about 2,000 years."
+    ],
+    "q": {
+      "q": "Which two lands did the Via Domitia link?",
+      "a": "Italy and Spain",
+      "x": [
+        "Italy and Britain",
+        "Gaul and Germania"
+      ]
+    }
+  },
+  "canal-du-midi": {
+    "name": "Canal du Midi",
+    "era": "1666 – 1681",
+    "t": "A 17th-century shortcut from Atlantic to Mediterranean",
+    "s": "Here a 17th-century engineer joined two seas. Pierre-Paul Riquet's canal runs from Toulouse to the Mediterranean, and with the Garonne it links the Atlantic to the Mediterranean without sailing round Spain. Its genius lies in the water supply, collected from the Montagne Noire and fed in at the canal's summit. At about 20 m wide it is too narrow to spot from cruise, but its corridor is clear.",
+    "w": "Look for the lowland corridor between the Pyrenees and the Massif Central, from Toulouse to the Étang de Thau lagoon.",
+    "f": [
+      "The canal is about 240 km long and still in use, now mostly by holiday boats.",
+      "At Béziers a staircase of eight locks lifts boats up a single hillside.",
+      "It became a UNESCO World Heritage site in 1996."
+    ],
+    "q": {
+      "q": "Who built the Canal du Midi?",
+      "a": "Pierre-Paul Riquet",
+      "x": [
+        "Ferdinand de Lesseps",
+        "Gustave Eiffel"
+      ]
+    }
+  },
+  "kiel-canal": {
+    "name": "Kiel Canal",
+    "era": "opened 1895",
+    "t": "A shortcut that slices Germany's neck",
+    "s": "Look for a straight silver thread crossing the flat farmland of northern Germany. This is the Kiel Canal, opened in 1895 to link the North Sea with the Baltic so that ships no longer had to sail round Denmark. It runs 98 km from the Elbe estuary to Kiel. At about 100 m wide, it can be picked out from cruise height on a clear day.",
+    "w": "A thin straight waterline running north-east from the Elbe mouth at Brunsbüttel to the fjord at Kiel.",
+    "f": [
+      "By the number of ships, it is one of the busiest artificial waterways in the world.",
+      "The shortcut saves ships about 460 km compared with the voyage round Denmark.",
+      "At Rendsburg a transporter bridge from 1913 carries a gondola hanging beneath the railway."
+    ],
+    "q": {
+      "q": "Which peninsula does the Kiel Canal let ships avoid?",
+      "a": "Jutland",
+      "x": [
+        "Cotentin",
+        "Istria"
+      ]
+    }
+  },
+  "orient-express": {
+    "name": "Orient Express route",
+    "era": "1883 – 1977",
+    "t": "The legendary sleeper train from Paris to Constantinople",
+    "s": "Below you ran the most famous train in Europe. From 1883 the Orient Express carried passengers in sleeping cars from Paris towards Constantinople, and from 1889 all the way there by rail, through Munich, Vienna, Budapest and Belgrade. It made crossing half a continent feel like a stay in a grand hotel. From above, follow the Danube, then the Balkan valleys down to the Bosphorus.",
+    "w": "Follow the Danube past Vienna and Budapest, then valleys through Serbia and Bulgaria towards the Bosphorus.",
+    "f": [
+      "The train was created by the Belgian entrepreneur Georges Nagelmackers.",
+      "Istanbul's Sirkeci station, opened in 1890, was built as its terminus.",
+      "The through service from Paris to Istanbul ended in 1977."
+    ],
+    "q": {
+      "q": "Who founded the company that ran the Orient Express?",
+      "a": "Georges Nagelmackers",
+      "x": [
+        "George Pullman",
+        "Thomas Cook"
+      ]
+    }
+  },
+  "bleriot-channel-1909": {
+    "name": "Blériot's Channel flight (1909)",
+    "era": "25 July 1909",
+    "t": "The flight that shrank the English Channel",
+    "s": "On 25 July 1909 Louis Blériot took off from a field near Calais in a small monoplane and landed below Dover Castle about 37 minutes later. It was the first aeroplane flight across the English Channel, just six years after the Wright brothers first flew. He had no compass. The crossing you see below, with its white cliffs and busy shipping lanes, suddenly looked much narrower.",
+    "w": "Look for the white chalk cliffs at Dover facing the flat French coast near Calais, about 35 km apart.",
+    "f": [
+      "The flight won Blériot a £1,000 prize from London's Daily Mail.",
+      "A granite outline of his aeroplane marks the landing spot near Dover Castle.",
+      "His aircraft, the Blériot XI, is now in the Musée des Arts et Métiers in Paris."
+    ],
+    "q": {
+      "q": "How long did Blériot's Channel flight take?",
+      "a": "About 37 minutes",
+      "x": [
+        "About 12 minutes",
+        "About 2 hours"
+      ]
+    }
+  },
+  "paris-meridian-arc": {
+    "name": "Paris meridian arc (the metre survey)",
+    "era": "1792 – 1798",
+    "t": "Where the metre was measured on the ground",
+    "s": "You are crossing a line that gave the world the metre. In the 1790s two astronomers, Delambre and Méchain, measured the distance from Dunkirk to Barcelona by chains of triangles between church towers and hilltops. From it they fixed the metre as one ten-millionth of the distance from pole to equator. The line runs almost due north–south through Paris, invisible but exact.",
+    "w": "The arc runs nearly due north–south through Paris, from the Channel coast at Dunkirk to Barcelona.",
+    "f": [
+      "Delambre measured the northern half and Méchain the southern half, meeting at Rodez.",
+      "The result was cast as a platinum bar, the Metre of the Archives, in 1799.",
+      "They slightly misjudged the Earth's flattening, so their metre came out about 0.2 mm short."
+    ],
+    "q": {
+      "q": "Which unit was this survey meant to define?",
+      "a": "The metre",
+      "x": [
+        "The nautical mile",
+        "The kilogram"
+      ]
+    }
+  },
+  "ancient-rome": {
+    "name": "Ancient Rome",
+    "era": "753 BC – AD 476",
+    "t": "The city whose roads led everywhere",
+    "s": "Below you lies the heart of an empire that stretched from Scotland to Syria. At its peak ancient Rome was home to perhaps a million people, and its Forum, Colosseum and Pantheon still stand in the middle of the modern city. From cruise height the monuments merge into the sprawl, but the Tiber's lazy S-bends through the centre are the same river the city was founded on.",
+    "w": "Find the Tiber winding through the city in tight bends, about 25 km inland from the coast at Ostia.",
+    "f": [
+      "The Colosseum, opened in AD 80, could hold around 50,000 spectators.",
+      "The Pantheon's concrete dome, nearly 2,000 years old, is still the largest unreinforced one in the world.",
+      "By tradition, Rome was founded on 21 April 753 BC, and the city still celebrates that date."
+    ],
+    "q": {
+      "q": "In which year, by tradition, was Rome founded?",
+      "a": "753 BC",
+      "x": [
+        "509 BC",
+        "312 BC"
+      ]
+    }
+  },
+  "pompeii": {
+    "name": "Pompeii and Herculaneum",
+    "era": "buried AD 79, excavated since 1738",
+    "t": "Roman towns kept under ash for 1,700 years",
+    "s": "Look for the cone of Vesuvius above the Bay of Naples. In AD 79 it buried two Roman towns under ash and mud, and in doing so kept them almost intact: painted walls, bakeries, shop signs, even scribbled graffiti. Today they are the fullest picture we have of everyday Roman life. The streets are too small to see from here, but the volcano that made them famous is unmistakable.",
+    "w": "A broad volcanic cone with a dark crater, rising just east of the Bay of Naples; the ruins lie at its foot.",
+    "f": [
+      "Excavations at Pompeii began in 1748, and about a third of the town is still unexcavated.",
+      "Its walls are covered in ancient graffiti, from election slogans to jokes.",
+      "Charred papyrus scrolls from Herculaneum are now being read with X-ray scans and AI."
+    ],
+    "q": {
+      "q": "Which volcano buried Pompeii?",
+      "a": "Vesuvius",
+      "x": [
+        "Etna",
+        "Stromboli"
+      ]
+    }
+  },
+  "acropolis-athens": {
+    "name": "Acropolis of Athens",
+    "era": "5th c. BC",
+    "t": "The rock where Western architecture found its form",
+    "s": "In the middle of the Athens basin rises a flat-topped rock crowned with marble temples. The Parthenon was built on it in the 5th century BC, when Athens was experimenting with democracy, and its proportions have been copied on banks, museums and parliaments ever since. The temple itself is too small to pick out from cruise, but the city's bowl between the mountains and the sea is easy to see.",
+    "w": "Look for a sprawling pale city in a bowl of mountains, opening south-west onto the Saronic Gulf and Piraeus.",
+    "f": [
+      "The Parthenon was built between 447 and 432 BC and dedicated to Athena.",
+      "Its columns bulge slightly and its floor curves upward, so it looks perfectly straight to the eye.",
+      "The marble came from Mount Pentelicus, about 16 km away."
+    ],
+    "q": {
+      "q": "To which goddess was the Parthenon dedicated?",
+      "a": "Athena",
+      "x": [
+        "Hera",
+        "Artemis"
+      ]
+    }
+  },
+  "delphi": {
+    "name": "Delphi",
+    "era": "8th c. BC – 4th c. AD",
+    "t": "The ancient Greeks' centre of the world",
+    "s": "Look for the massif of Mount Parnassus, often white on top, above the Gulf of Corinth. On its southern slope sat Delphi, where for a thousand years Greeks came to ask Apollo's oracle about wars, colonies and marriages. They believed it marked the centre of the world. The temple terraces are invisible from here, but the mountain and the silvery olive plain running down to the sea are clear.",
+    "w": "A high, often snowy mountain block north of the Gulf of Corinth, with a wide olive plain below its south side.",
+    "f": [
+      "A carved stone called the omphalos, or navel, marked Delphi as the centre of the world.",
+      "The Pythian Games held here included music and poetry contests as well as athletics.",
+      "Winners of the Pythian Games were crowned with laurel, the plant sacred to Apollo."
+    ],
+    "q": {
+      "q": "Which god's oracle spoke at Delphi?",
+      "a": "Apollo",
+      "x": [
+        "Zeus",
+        "Poseidon"
+      ]
+    }
+  },
+  "olympia": {
+    "name": "Olympia",
+    "era": "776 BC – AD 393",
+    "t": "Where the Olympic Games began",
+    "s": "In a green valley in the western Peloponnese, the ancient Greeks held the Olympic Games for more than a thousand years. Wars were paused so athletes could travel safely, and victors went home with an olive wreath and lasting fame. Every modern Olympic flame is still lit here from the sun's rays. From cruise, look for the wide Alfeios river valley winding to the Ionian Sea.",
+    "w": "Find the broad valley of the Alfeios river running west to the Ionian coast in the western Peloponnese.",
+    "f": [
+      "By tradition the first Games were held in 776 BC.",
+      "The stadium track is about 192 m long, the length of an ancient stade.",
+      "Its gold-and-ivory statue of Zeus was one of the Seven Wonders of the Ancient World."
+    ],
+    "q": {
+      "q": "What did ancient Olympic victors receive?",
+      "a": "An olive wreath",
+      "x": [
+        "A gold medal",
+        "A laurel wreath"
+      ]
+    }
+  },
+  "knossos": {
+    "name": "Knossos",
+    "era": "c. 1900 – 1350 BC",
+    "t": "The palace behind the legend of the labyrinth",
+    "s": "Just inland from Heraklion on Crete's north coast stood the greatest palace of Europe's first advanced civilisation, the Minoans. Its maze of rooms, light wells and painted walls may lie behind the Greek myth of King Minos, the labyrinth and the Minotaur. From above you won't see the ruins, but you can see Crete's long mountainous spine and the busy coast where the Minoans built their sea-trading world.",
+    "w": "On Crete's north coast, look for the city of Heraklion; the palace lies a few kilometres inland to its south.",
+    "f": [
+      "The British archaeologist Arthur Evans excavated Knossos from 1900.",
+      "Evans rebuilt parts of the palace in concrete, which is still debated today.",
+      "Clay tablets from Knossos written in Linear B turned out to be an early form of Greek."
+    ],
+    "q": {
+      "q": "Who excavated Knossos from 1900?",
+      "a": "Arthur Evans",
+      "x": [
+        "Heinrich Schliemann",
+        "Howard Carter"
+      ]
+    }
+  },
+  "mycenae": {
+    "name": "Mycenae",
+    "era": "c. 1600 – 1100 BC",
+    "t": "The citadel of Homer's King Agamemnon",
+    "s": "On a hill above the Argolid plain stood Mycenae, the fortress that gave its name to Greece's Late Bronze Age. Homer made it the home of King Agamemnon, leader of the Greeks at Troy. Its walls are built of boulders so huge that later Greeks thought giants had laid them. From cruise, look for the flat green plain of Argos opening onto its gulf.",
+    "w": "Find the Gulf of Argolis in the north-east Peloponnese; the citadel stands on the plain's northern edge.",
+    "f": [
+      "The walls are called Cyclopean, after the one-eyed giants said to have built them.",
+      "Its famous Lion Gate, carved around 1250 BC, is one of the oldest monumental sculptures in Europe.",
+      "The gold 'Mask of Agamemnon' found here in 1876 is about 300 years older than the Trojan War of legend."
+    ],
+    "q": {
+      "q": "What guards the main entrance to Mycenae?",
+      "a": "Two carved lions",
+      "x": [
+        "Two sphinxes",
+        "A bronze bull"
+      ]
+    }
+  },
+  "stonehenge": {
+    "name": "Stonehenge and Avebury",
+    "era": "c. 3000 – 1500 BC",
+    "t": "Stone circles aligned with the midsummer sun",
+    "s": "Below you, on the rolling chalk of Salisbury Plain, stands the world's most famous prehistoric monument. Stonehenge was built in stages over some 1,500 years; its axis points to sunrise at midsummer and sunset at midwinter. Nearby Avebury has an even larger stone circle, with a village built inside it. The stones are far too small to see from here, but the pale downland is easy to spot.",
+    "w": "Look for open, pale-green chalk downland north of Salisbury, with few trees and scattered military ranges.",
+    "f": [
+      "Its smaller bluestones were brought about 240 km from the Preseli Hills in Wales.",
+      "The biggest sarsen stones weigh around 25–30 tonnes each.",
+      "Avebury's outer circle is so big that part of the village sits inside it."
+    ],
+    "q": {
+      "q": "Where did Stonehenge's bluestones come from?",
+      "a": "The Preseli Hills, Wales",
+      "x": [
+        "Cornwall",
+        "The Lake District"
+      ]
+    }
+  },
+  "carnac": {
+    "name": "Carnac stones",
+    "era": "c. 4500 – 3300 BC",
+    "t": "Rows of standing stones marching across Brittany",
+    "s": "On the south coast of Brittany, thousands of standing stones stand in long parallel rows, some stretching more than a kilometre. They were raised in the Neolithic, long before Stonehenge's great sarsens, and nobody knows exactly why. Local legend says they are Roman soldiers turned to stone. The rows are too small to see, but the Quiberon peninsula and the island-studded Gulf of Morbihan are plain.",
+    "w": "Look for the thin Quiberon peninsula pointing south, with the island-filled Gulf of Morbihan just east of it.",
+    "f": [
+      "More than 3,000 standing stones survive around Carnac.",
+      "The Ménec alignment alone has over 1,000 stones in 11 rows.",
+      "The word 'menhir', for a standing stone, comes from Breton: 'long stone'."
+    ],
+    "q": {
+      "q": "Roughly how many standing stones survive at Carnac?",
+      "a": "Over 3,000",
+      "x": [
+        "About 300",
+        "About 30,000"
+      ]
+    }
+  },
+  "lascaux": {
+    "name": "Lascaux and the Vézère valley",
+    "era": "c. 17,000 years ago",
+    "t": "Ice Age horses and bulls painted in the dark",
+    "s": "Somewhere in the wooded valleys below, a cave holds some of the finest art of the Ice Age: horses, deer and huge black bulls painted about 17,000 years ago. It was found in 1940 by four local teenagers. The Vézère valley around it is packed with prehistoric sites. From the air you see only green limestone hills and a winding river, just as the painters did.",
+    "w": "Look for the meandering Vézère river among wooded limestone hills, north-east of the wider Dordogne valley.",
+    "f": [
+      "The cave holds about 600 paintings and around 1,500 engravings.",
+      "It closed to visitors in 1963 to protect the art; people now visit exact replicas nearby.",
+      "The Vézère valley has 147 prehistoric sites and 25 decorated caves on UNESCO's list."
+    ],
+    "q": {
+      "q": "Who found the Lascaux cave in 1940?",
+      "a": "Four teenagers",
+      "x": [
+        "A team of archaeologists",
+        "A shepherd"
+      ]
+    }
+  },
+  "newgrange": {
+    "name": "Newgrange (Brú na Bóinne)",
+    "era": "c. 3200 BC",
+    "t": "A tomb older than the pyramids, lit by midwinter sun",
+    "s": "In a great bend of the River Boyne, north of Dublin, stands a huge round mound faced with white quartz. Newgrange was built around 3200 BC, before Stonehenge's stone circle and the pyramids of Giza. Once a year, at the midwinter sunrise, a beam of light travels down its passage and lights the inner chamber. The mound is small from here, but the loop of the Boyne is visible.",
+    "w": "Find the River Boyne west of Drogheda; the monuments sit inside a tight southern loop of the river.",
+    "f": [
+      "The sunbeam enters through a 'roof-box' above the doorway and lasts about 17 minutes.",
+      "Its passage is about 19 m long and ends in a chamber with a stone corbelled roof.",
+      "Neighbouring Knowth has more megalithic art than any other site in western Europe."
+    ],
+    "q": {
+      "q": "What lights up Newgrange's chamber each year?",
+      "a": "The midwinter sunrise",
+      "x": [
+        "The midsummer sunset",
+        "The spring full moon"
+      ]
+    }
+  },
+  "skara-brae": {
+    "name": "Neolithic Orkney (Skara Brae)",
+    "era": "c. 3100 – 2500 BC",
+    "t": "A stone-age village with its furniture still in place",
+    "s": "On Orkney's main island, a Stone Age village lay hidden under sand until a storm uncovered it in 1850. Skara Brae's houses still have their stone beds, hearths and dressers, left as if their owners had just stepped out. Nearby stand the Ring of Brodgar and the great tomb of Maeshowe. From above, look for Orkney's green, treeless islands and the two lochs at their heart.",
+    "w": "Look for low green islands north of Scotland's tip; the monuments lie around two joined lochs on the largest one.",
+    "f": [
+      "Skara Brae was lived in for about 600 years.",
+      "At midwinter the setting sun shines down the entrance passage of Maeshowe.",
+      "The Ring of Brodgar originally had about 60 stones; around 27 still stand."
+    ],
+    "q": {
+      "q": "What uncovered Skara Brae in 1850?",
+      "a": "A storm",
+      "x": [
+        "A farmer's plough",
+        "A landslide"
+      ]
+    }
+  },
+  "pont-du-gard": {
+    "name": "Pont du Gard",
+    "era": "1st c. AD",
+    "t": "Rome's aqueduct bridge, three tiers high",
+    "s": "In the gorge of the Gardon river, a Roman bridge of three stacked arcades carried water to the city of Nîmes. It was one part of an aqueduct about 50 km long that fell only a few metres over its whole length, a feat of surveying. The bridge is too small to see from cruise, but the green Gardon gorge between Nîmes and Avignon is where to look.",
+    "w": "Look between Nîmes and Avignon, where the Gardon river cuts a green gorge before reaching the Rhône.",
+    "f": [
+      "At about 49 m, it is the tallest aqueduct bridge the Romans built.",
+      "The aqueduct drops only about 12 m over its 50 km, around 25 cm per kilometre.",
+      "The stones were laid without mortar in the main arches."
+    ],
+    "q": {
+      "q": "Which Roman city did the Pont du Gard supply?",
+      "a": "Nîmes",
+      "x": [
+        "Arles",
+        "Marseille"
+      ]
+    }
+  },
+  "mont-saint-michel": {
+    "name": "Mont-Saint-Michel",
+    "era": "from 966",
+    "t": "An abbey on a rock, cut off by the tide",
+    "s": "Look for a vast grey-and-silver bay on the Normandy–Brittany border. In its middle sits a tiny rocky island topped by a Gothic abbey, founded as a Benedictine monastery in 966. The bay has some of the biggest tides in Europe, and at high water the sea surrounds the rock. From cruise the abbey is a dot, but the patterned sandflats and river channels are striking.",
+    "w": "A broad bay of sandflats and winding channels where Normandy meets Brittany, with a small island near its southern shore.",
+    "f": [
+      "The tidal range in the bay can reach about 14 m.",
+      "In 2014 a light bridge replaced the old causeway so the sea can flow around the rock again.",
+      "It became a UNESCO World Heritage site in 1979, with its bay."
+    ],
+    "q": {
+      "q": "How high can the tide rise in Mont-Saint-Michel Bay?",
+      "a": "Up to about 14 m",
+      "x": [
+        "Up to about 2 m",
+        "Up to about 40 m"
+      ]
+    }
+  },
+  "aachen": {
+    "name": "Aachen, Charlemagne's capital",
+    "era": "c. 800",
+    "t": "The spa town where Charlemagne ruled Europe",
+    "s": "Near the corner where Germany, Belgium and the Netherlands meet lies Aachen, Charlemagne's favourite residence. Around 800 he built a domed chapel here that became the heart of his empire, and for six centuries German kings were crowned in it. The Romans had come for the hot springs, which still flow. From above, look for the city on the edge of the green Eifel uplands.",
+    "w": "Look for the city just east of where Germany, Belgium and the Netherlands meet, at the edge of wooded uplands.",
+    "f": [
+      "About 30 German kings were crowned in Aachen between 936 and 1531.",
+      "In 1978 its cathedral was among the first 12 sites on UNESCO's World Heritage list.",
+      "The Roman name Aquae Granni referred to the town's hot springs."
+    ],
+    "q": {
+      "q": "Whose chapel became Aachen Cathedral?",
+      "a": "Charlemagne's",
+      "x": [
+        "Otto the Great's",
+        "Frederick Barbarossa's"
+      ]
+    }
+  },
+  "ravenna": {
+    "name": "Ravenna",
+    "era": "5th – 6th c.",
+    "t": "The last capital of the Western Roman Empire",
+    "s": "On the flat Adriatic coast of Italy, Ravenna was for a time the capital of the Western Roman Empire, then of Ostrogothic kings and Byzantine governors. They filled its churches with glittering mosaics that still look fresh after 1,500 years, among the finest anywhere. The city was once a harbour; the sea has since retreated. From above, look for the flat coast, pine woods and lagoons.",
+    "w": "Look for a low, straight coastline with dark pine forests and, to the north, the wide lagoons of Comacchio.",
+    "f": [
+      "The Western Roman emperors moved their court to Ravenna in 402.",
+      "The mosaics of San Vitale show Emperor Justinian and Empress Theodora with their courts.",
+      "The poet Dante died in Ravenna in 1321 and is buried there."
+    ],
+    "q": {
+      "q": "Which poet is buried in Ravenna?",
+      "a": "Dante",
+      "x": [
+        "Petrarch",
+        "Virgil"
+      ]
+    }
+  },
+  "venice-republic": {
+    "name": "Republic of Venice",
+    "era": "c. 697 – 1797",
+    "t": "A merchant republic built on a lagoon",
+    "s": "Look for a fish-shaped city floating in a lagoon, joined to the mainland by a long bridge. For about a thousand years Venice was an independent republic ruled by elected doges, and its galleys carried spices, silk and glass between Europe and the East. Few places are as easy to recognise from the air: the lagoon, the barrier islands and the city's dense tangle of canals.",
+    "w": "A compact fish-shaped city in a shallow lagoon, linked to the mainland by a long straight causeway.",
+    "f": [
+      "The city stands on more than 100 small islands linked by around 400 bridges.",
+      "Its Arsenal was one of the largest shipyards of the pre-industrial world.",
+      "Marco Polo, whose travels made China famous in Europe, was a Venetian merchant."
+    ],
+    "q": {
+      "q": "Who ended the Venetian Republic in 1797?",
+      "a": "Napoleon",
+      "x": [
+        "Louis XIV",
+        "Louis XVI"
+      ]
+    }
+  },
+  "split-diocletian": {
+    "name": "Diocletian's Palace, Split",
+    "era": "c. AD 305",
+    "t": "An emperor's retirement home that became a city",
+    "s": "When Emperor Diocletian gave up the throne around AD 305, he retired to a fortress-palace he had built on the Dalmatian coast. After Rome fell, local people moved inside its walls, and a whole town grew within them. Today shops, homes and a cathedral fill the Roman palace. From above, look for Split on its peninsula, facing the long islands of Brač and Hvar.",
+    "w": "A city on a peninsula of the Croatian coast, with the long islands of Brač and Hvar lying offshore.",
+    "f": [
+      "Diocletian was the first Roman emperor to step down of his own accord.",
+      "Split's cathedral was built in the emperor's own mausoleum.",
+      "Around 3,000 people still live inside the old palace walls."
+    ],
+    "q": {
+      "q": "Which emperor retired to a palace at Split?",
+      "a": "Diocletian",
+      "x": [
+        "Constantine",
+        "Hadrian"
+      ]
+    }
+  },
+  "constantinople": {
+    "name": "Constantinople",
+    "era": "AD 330 – 1453",
+    "t": "Imperial capital on two continents",
+    "s": "Below you is the city Constantine made the new Rome in 330. As Constantinople it was the capital of the Byzantine Empire for over a thousand years, and then of the Ottoman sultans, guarding the only sea route between the Black Sea and the Mediterranean. Its dome of Hagia Sophia amazed visitors for centuries. From the air, look for the Bosphorus and the curved Golden Horn.",
+    "w": "Look for the narrow Bosphorus strait and the curved inlet of the Golden Horn cutting into the old city.",
+    "f": [
+      "Hagia Sophia, finished in 537, was the world's largest cathedral for nearly a thousand years.",
+      "The city's land walls, built in the 5th century, ran about 6 km from sea to sea.",
+      "Before Constantine, the city was the Greek colony of Byzantium, founded around 660 BC."
+    ],
+    "q": {
+      "q": "Which emperor refounded Byzantium as his capital in 330?",
+      "a": "Constantine the Great",
+      "x": [
+        "Justinian",
+        "Theodosius"
+      ]
+    }
+  },
+  "alhambra-granada": {
+    "name": "Nasrid Granada and the Alhambra",
+    "era": "1238 – 1492",
+    "t": "A red palace-city under the snowy Sierra Nevada",
+    "s": "Look for the Sierra Nevada, often snow-capped, rising behind the city of Granada. Here the Nasrid dynasty ruled the last Muslim kingdom of the Iberian Peninsula until 1492, and built the Alhambra, a hilltop palace of carved stucco, tiles and courtyard fountains. The palace cannot be seen from cruise, but the mountain wall behind it, higher than any other in mainland Spain, is hard to miss.",
+    "w": "A long mountain range, white-topped in winter and spring, with Granada spread on the plain at its north-western foot.",
+    "f": [
+      "The name Alhambra comes from the Arabic for 'the red one', after the colour of its walls.",
+      "The fountain in the Court of the Lions rests on the backs of 12 marble lions.",
+      "Mulhacén in the Sierra Nevada, at 3,479 m, is the highest peak in mainland Spain."
+    ],
+    "q": {
+      "q": "What does the name 'Alhambra' mean?",
+      "a": "The red one",
+      "x": [
+        "The high one",
+        "The garden"
+      ]
+    }
+  },
+  "cordoba-umayyad": {
+    "name": "Umayyad Córdoba",
+    "era": "756 – 1031",
+    "t": "Once one of Europe's greatest cities",
+    "s": "In the 10th century Córdoba, on the Guadalquivir, was the capital of an Umayyad caliphate and one of the largest and most learned cities in Europe. Its Great Mosque, with a forest of columns and red-and-white striped arches, still stands, with a cathedral built right in the middle of it. From the air, look for the city on the river, with the dark Sierra Morena rising to the north.",
+    "w": "Find the Guadalquivir valley; the city lies on the river at the foot of the wooded Sierra Morena hills.",
+    "f": [
+      "The mosque's prayer hall has over 800 columns of marble, jasper and granite.",
+      "A Renaissance cathedral was built inside the mosque in the 16th century.",
+      "The ruined palace-city of Medina Azahara lies just west of Córdoba."
+    ],
+    "q": {
+      "q": "What was built inside Córdoba's Great Mosque?",
+      "a": "A cathedral",
+      "x": [
+        "A bullring",
+        "A royal palace"
+      ]
+    }
+  },
+  "belem-lisbon": {
+    "name": "Belém, Lisbon: the Age of Discovery",
+    "era": "15th – 16th c.",
+    "t": "The riverbank where the sea route to India began",
+    "s": "From this riverbank at the mouth of the Tagus, Portuguese ships set out in the 15th and 16th centuries to map Africa's coast and reach India by sea. Vasco da Gama sailed from here in 1497. Spice money paid for the ornate Jerónimos Monastery and the Belém Tower that guarded the harbour. From above, look for the broad Tagus estuary and the long red suspension bridge across it.",
+    "w": "Look for the wide Tagus estuary opening to the Atlantic, crossed by a long suspension bridge west of Lisbon's centre.",
+    "f": [
+      "Vasco da Gama is buried in the Jerónimos Monastery.",
+      "The Belém Tower was completed around 1519 to guard the harbour entrance.",
+      "The monastery's intricate style, called Manueline, uses carved ropes, shells and sea creatures."
+    ],
+    "q": {
+      "q": "Who sailed from Belém in 1497 to find a sea route to India?",
+      "a": "Vasco da Gama",
+      "x": [
+        "Ferdinand Magellan",
+        "Bartolomeu Dias"
+      ]
+    }
+  },
+  "bergen-bryggen": {
+    "name": "Bryggen, Bergen",
+    "era": "c. 1360 – 1754",
+    "t": "The Hanseatic wharf of wooden gables",
+    "s": "In the city of Bergen, surrounded by fjords and mountains, German merchants of the Hanseatic League ran one of their four great foreign offices for almost 400 years. They traded grain for stockfish, cod dried on racks in the Arctic wind. Their row of tall wooden gabled houses, Bryggen, still lines the harbour. From above, look for the city on its inlet, ringed by steep hills.",
+    "w": "A city on a sheltered inlet of Norway's west coast, ringed by steep hills and fjords, often under cloud.",
+    "f": [
+      "The stockfish came from the Lofoten Islands, hundreds of kilometres to the north.",
+      "Bryggen has burned several times and was rebuilt after a fire in 1702 in the old style.",
+      "It became a UNESCO World Heritage site in 1979."
+    ],
+    "q": {
+      "q": "What did Bergen's Hanseatic merchants mainly export?",
+      "a": "Stockfish (dried cod)",
+      "x": [
+        "Amber",
+        "Silver"
+      ]
+    }
+  },
+  "visby": {
+    "name": "Visby",
+    "era": "12th – 14th c.",
+    "t": "A walled Hanseatic town in the middle of the Baltic",
+    "s": "On the west coast of Gotland, in the middle of the Baltic, stands Visby, a Hanseatic trading town still enclosed by its medieval wall. Its merchants grew rich on trade between Russia and western Europe, and filled the town with stone churches, many now roofless ruins. From the air, look for the long, low island of Gotland, the largest in Sweden.",
+    "w": "A long, low limestone island in the open Baltic; Visby lies on its western shore, facing Sweden.",
+    "f": [
+      "Visby's ring wall is about 3.4 km long and still has 27 of its towers.",
+      "Gotland has yielded more Viking-age silver hoards than anywhere else in Scandinavia.",
+      "The town became a UNESCO World Heritage site in 1995."
+    ],
+    "q": {
+      "q": "On which island does Visby stand?",
+      "a": "Gotland",
+      "x": [
+        "Öland",
+        "Bornholm"
+      ]
+    }
+  },
+  "thingvellir": {
+    "name": "Þingvellir",
+    "era": "930 – 1798",
+    "t": "An open-air parliament in a crack between continents",
+    "s": "North-east of Reykjavík lies a lake in a rift valley where two tectonic plates pull apart. In 930 Iceland's settlers began meeting here each summer for the Althing, an open-air assembly that made laws and settled disputes. It gathered here until 1798. From above you can see what they could not: the lake and the long fissures running through the lava, where North America and Eurasia drift apart.",
+    "w": "Look for Iceland's largest natural lake, north-east of Reykjavík, with dark lava fissures running along its north shore.",
+    "f": [
+      "The Althing is often called one of the oldest parliaments in the world.",
+      "In the year 1000 the assembly here decided that Iceland would adopt Christianity.",
+      "Across Iceland, the two plates drift apart by about 2 cm a year."
+    ],
+    "q": {
+      "q": "In which year was the Althing founded?",
+      "a": "930",
+      "x": [
+        "874",
+        "1262"
+      ]
+    }
+  },
+  "gutenberg-mainz": {
+    "name": "Mainz, Gutenberg's press",
+    "era": "c. 1450",
+    "t": "Where movable type began Europe's print revolution",
+    "s": "Look for the point where the Main flows into the Rhine. On its west bank lies Mainz, where around 1450 Johannes Gutenberg began printing with movable metal type. His Bible, finished around 1455, showed books could be made in hundreds of copies instead of one at a time. Within 50 years printing presses were running in hundreds of European towns. The confluence below is easy to spot.",
+    "w": "Find the confluence of the Main and the Rhine, with Mainz on the west bank and Wiesbaden opposite.",
+    "f": [
+      "About 180 copies of the Gutenberg Bible were printed; 49 are known to survive.",
+      "Gutenberg's system combined metal type, oil-based ink and a press adapted from wine presses.",
+      "Mainz began as the Roman fortress of Mogontiacum."
+    ],
+    "q": {
+      "q": "Which book did Gutenberg print around 1455?",
+      "a": "The Bible",
+      "x": [
+        "The Iliad",
+        "The Quran"
+      ]
+    }
+  },
+  "greenwich-meridian": {
+    "name": "Greenwich prime meridian",
+    "era": "chosen in 1884",
+    "t": "Longitude zero, the line every map counts from",
+    "s": "On a hill above the Thames stands the Royal Observatory, founded in 1675. In 1884 delegates from 25 nations agreed that its meridian would be longitude zero for the world. Every position on your flight map is measured east or west of it, and world time was once counted from it. From above, look for the Thames looping round the Isle of Dogs; Greenwich lies on the south bank.",
+    "w": "Look for the Thames's tight loop around the Isle of Dogs in east London; Greenwich Park lies just south of it.",
+    "f": [
+      "The Royal Observatory was founded by King Charles II in 1675.",
+      "The zero line used by GPS lies about 100 m east of the brass line at the observatory.",
+      "The 1884 decision was made at a conference in Washington, D.C."
+    ],
+    "q": {
+      "q": "When was Greenwich chosen as the prime meridian?",
+      "a": "1884",
+      "x": [
+        "1675",
+        "1851"
+      ]
+    }
+  },
+  "montgolfier-annonay": {
+    "name": "Annonay, the first hot-air balloon",
+    "era": "4 June 1783",
+    "t": "Where two paper-makers launched the age of flight",
+    "s": "In the hills west of the Rhône lies Annonay, home of the Montgolfier brothers, paper-makers. On 4 June 1783 they filled a large cloth-and-paper envelope with hot air in the town square and watched it rise more than a kilometre. Within months their balloons carried a sheep, a duck and a rooster, and then the first human passengers. Every flight since traces back here.",
+    "w": "Look for the Rhône valley running south from Lyon; Annonay lies in the wooded hills a little to its west.",
+    "f": [
+      "The first human flight in a Montgolfier balloon took place over Paris on 21 November 1783.",
+      "At Versailles in September 1783, a sheep, a duck and a rooster flew and landed safely.",
+      "In French, a hot-air balloon is still called a 'montgolfière'."
+    ],
+    "q": {
+      "q": "What was the Montgolfier family's trade?",
+      "a": "Paper-making",
+      "x": [
+        "Silk weaving",
+        "Wine-making"
+      ]
+    }
+  },
+  "ironbridge": {
+    "name": "Ironbridge Gorge",
+    "era": "1709 – 1779",
+    "t": "A valley that helped start the Industrial Revolution",
+    "s": "In this wooded gorge of the River Severn, the Industrial Revolution found its fuel and its symbol. In 1709 Abraham Darby first smelted iron with coke instead of charcoal, making iron cheap. In 1779 his grandson raised the world's first major cast-iron bridge across the river. The bridge is too small to see from cruise, but the Severn's deep valley west of Telford is visible.",
+    "w": "Find the River Severn winding south-east from Shrewsbury; the gorge lies just south of the new town of Telford.",
+    "f": [
+      "The Iron Bridge has a span of about 30 m and is still standing.",
+      "Its parts were joined with carpentry techniques, such as dovetails, because iron building was so new.",
+      "The gorge became a UNESCO World Heritage site in 1986."
+    ],
+    "q": {
+      "q": "What is the Iron Bridge made of?",
+      "a": "Cast iron",
+      "x": [
+        "Wrought iron",
+        "Steel"
+      ]
+    }
+  },
+  "malta-temples": {
+    "name": "Megalithic temples of Malta",
+    "era": "c. 3600 – 2500 BC",
+    "t": "Stone temples older than the pyramids",
+    "s": "On the small islands of Malta and Gozo, farmers of the Stone Age built great stone temples more than 5,000 years ago, earlier than Stonehenge's circle or the pyramids of Giza. They are among the oldest free-standing buildings on Earth. The temples are too small to see, but the islands themselves, golden-brown in the blue Mediterranean south of Sicily, are easy to find.",
+    "w": "Look for two small golden-brown islands, Malta and Gozo, about 90 km south of Sicily.",
+    "f": [
+      "Local legend says the Ġgantija temples on Gozo were built by a giantess.",
+      "The Ħal Saflieni Hypogeum is an underground temple and burial site cut into solid rock.",
+      "Seven of the temples are on the UNESCO World Heritage list."
+    ],
+    "q": {
+      "q": "Who, in local legend, built the Ġgantija temples?",
+      "a": "A giantess",
+      "x": [
+        "Phoenician sailors",
+        "The Knights of St John"
+      ]
+    }
+  }
+}

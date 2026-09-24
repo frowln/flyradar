@@ -239,6 +239,8 @@ export const de = {
     label: 'Ratespiel',
     prompt: 'Was taucht gleich %{side} auf? (%{kind})',
     promptBelow: 'Was überfliegen Sie gleich? (%{kind})',
+    promptAny: 'Was taucht gleich %{side} auf?',
+    promptBelowAny: 'Was überfliegen Sie gleich?',
     right: 'Richtig. Schauen Sie gleich aus dem Fenster und überzeugen Sie sich selbst.',
     wrong: 'Richtig wäre: %{name}. Schauen Sie gleich aus dem Fenster.',
   },
@@ -277,7 +279,7 @@ export const de = {
     cloudsBelow: 'Unten sind Wolken angesagt – achten Sie auf Lücken.',
   },
   facts: {
-    title: 'von oben',
+    title: 'Wissenswert',
     recognise: 'Aus Reiseflughöhe schon aus etwa %{dist} %{unit} Entfernung erkennbar',
     aboveSummit: 'Sie fliegen %{h} %{unit} über dem Gipfel',
     cityLights: 'Nachts sind ihre Lichter etwa %{dist} %{unit} weit zu sehen',

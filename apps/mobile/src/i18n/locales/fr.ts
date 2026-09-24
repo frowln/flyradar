@@ -239,6 +239,8 @@ export const fr = {
     label: 'devinez',
     prompt: 'Qu’allez-vous voir %{side} dans un instant ? (%{kind})',
     promptBelow: 'Qu’allez-vous survoler dans un instant ? (%{kind})',
+    promptAny: 'Qu’allez-vous voir %{side} dans un instant ?',
+    promptBelowAny: 'Qu’allez-vous survoler dans un instant ?',
     right: 'Exact. Regardez par le hublot dans un instant pour vérifier.',
     wrong: 'La réponse : %{name}. Regardez par le hublot dans un instant.',
   },
@@ -277,7 +279,7 @@ export const fr = {
     cloudsBelow: 'Des nuages sont prévus en dessous : guettez les trouées.',
   },
   facts: {
-    title: 'vu d’en haut',
+    title: 'bon à savoir',
     recognise: 'Reconnaissable à environ %{dist} %{unit} depuis l’altitude de croisière',
     aboveSummit: 'Vous passez %{h} %{unit} au-dessus du sommet',
     cityLights: 'La nuit, ses lumières se voient à environ %{dist} %{unit}',

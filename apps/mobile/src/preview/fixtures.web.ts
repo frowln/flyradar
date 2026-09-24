@@ -225,7 +225,7 @@ export async function installPreview(): Promise<void> {
     // Only a place already in view can be marked as seen: an area once the
     // track is over it, a side sight from a few minutes before it comes abeam.
     const inView = (x: POI) => (x.overFrom != null ? x.overFrom <= at : (x.passAt ?? 0) <= at + 8 * 60);
-    const told = p.pois.filter((x) => SAMPLE_TEXT[x.name]?.[lang as Lang] && inView(x));
+    const told = p.pois.filter((x) => (x.textSource === 'editorial' || SAMPLE_TEXT[x.name]?.[lang as Lang]) && x.category !== 'historic' && inView(x));
     // The card shown is the told place nearest to "now", so it reads as live.
     const star =
       told.sort((x, y) => Math.abs((x.passAt ?? 0) - at) - Math.abs((y.passAt ?? 0) - at))[0] ??
