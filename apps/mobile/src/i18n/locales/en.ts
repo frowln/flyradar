@@ -167,6 +167,7 @@ export const en = {
     takeoffNow: 'Just now',
     takeoffAgo: '%{m} minutes ago',
     takeoffScheduled: 'On schedule',
+    routeTrack: 'Route as this flight actually flew on %{date}',
   },
   advice: {
     label: 'window seat',
@@ -180,6 +181,9 @@ export const en = {
     night: 'night flight',
     yourSeat: 'Your seat %{seat} is on the %{side}',
     yourSeatNoWindow: 'Your seat %{seat} is not at a window',
+    cloudyMost: 'Forecast: cloud over about %{pct}% of the route',
+    cloudySome: 'Forecast: some cloud, about %{pct}% of the route',
+    clear: 'Forecast: mostly clear along the route',
   },
   addFlight: {
     title: 'new flight',
@@ -223,6 +227,13 @@ export const en = {
     stage_photos: 'Photos',
     stage_map: 'Offline map',
     continueBackground: 'continue in the background',
+    byNumber: 'find by flight number',
+    byNumberHint: 'The number and the date are enough — airports and times fill in.',
+    find: 'Find',
+    orManual: '…or enter the airports yourself:',
+    found: '%{from} — %{to}, departs %{time}',
+    notFound: 'Could not find that flight for this date — enter it by hand.',
+    numberInvalid: 'That does not look like a flight number.',
   },
   guess: {
     label: 'guess',
@@ -263,6 +274,7 @@ export const en = {
     finish: 'End the flight',
     finishTitle: 'End the flight now?',
     finishBody: 'Only what you have already flown over goes into your passport.',
+    cloudsBelow: 'Clouds are forecast below — look through the gaps.',
   },
   facts: {
     title: 'from above',

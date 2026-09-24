@@ -605,5 +605,889 @@
         "Cotton"
       ]
     }
+  },
+  "Q192271": {
+    "t": "A high city among countless cone-shaped karst hills",
+    "s": "Guiyang sits about 1,100 m up on the Yunnan–Guizhou Plateau, and the land around it is crumpled into limestone cones and hollows. Districts squeeze in between the hills, so from above the city looks broken into pieces. An old saying claims Guizhou never has three sunny days in a row or three li of flat ground — look down and you'll see why.",
+    "w": "Patches of city scattered between green, cone-shaped hills on a high, crumpled plateau, often under cloud.",
+    "f": [
+      "Thanks to the altitude, Guiyang's summers are mild for southern China.",
+      "The name means “south of Mount Gui”: in Chinese, “yang” marks the sunny side of a hill."
+    ],
+    "q": {
+      "q": "Guiyang is the capital of which province?",
+      "a": "Guizhou",
+      "x": [
+        "Guangxi",
+        "Yunnan"
+      ]
+    }
+  },
+  "Q11725": {
+    "t": "A mountain city on the point where two rivers meet",
+    "s": "Chongqing's old centre is a steep, crowded peninsula at the meeting of two rivers: the Jialing from the north and the Yangtze. At the tip, their waters often run side by side in two colours before mixing. Around the city, long parallel ridges run north-east like the folds of a rumpled cloth. Hills, fog and hot summers have given it its nicknames: Mountain City and Fog City.",
+    "w": "A dense peninsula between two converging rivers, framed by long parallel ridges running north-east to south-west.",
+    "f": [
+      "The reservoir behind the Three Gorges Dam stretches roughly 600 km upstream, all the way to Chongqing.",
+      "Chongqing is counted among China's “furnaces” for its hot, humid summers.",
+      "The whole municipality of Chongqing is roughly the size of Austria."
+    ],
+    "q": {
+      "q": "Which river joins the Yangtze in central Chongqing?",
+      "a": "The Jialing",
+      "x": [
+        "The Min",
+        "The Han"
+      ]
+    }
+  },
+  "Q68481": {
+    "t": "Banyan City, in a green basin on the Min River",
+    "s": "Fuzhou lies in a basin ringed by green mountains, on the lower Min River just before it widens towards the sea. A large island in the river, Nantai, is itself covered in city. The streets are shaded by banyan trees, first planted here about a thousand years ago, and Fuzhou is still nicknamed Banyan City.",
+    "w": "A city in a mountain-ringed basin on a wide river, with a large built-up island in the middle of the river.",
+    "f": [
+      "The FAO lists Fuzhou's jasmine and tea culture as a Globally Important Agricultural Heritage System.",
+      "Hot springs rise beneath the city centre, and bathhouses have used them for centuries.",
+      "The Mawei shipyard, founded in 1866, was one of China's first modern shipyards."
+    ],
+    "q": {
+      "q": "Fuzhou's nickname comes from which tree?",
+      "a": "The banyan",
+      "x": [
+        "The camphor tree",
+        "The willow"
+      ]
+    }
+  },
+  "Q16572": {
+    "t": "Old Canton, at the head of the Pearl River Delta",
+    "s": "Guangzhou sits where the Pearl River breaks into the maze of channels of its delta, and from above it merges seamlessly with the cities around it. The green hump of Baiyun Mountain rises on the northern side. From 1757 to 1842 this was the one Chinese port where Western merchants were allowed to trade, and they knew it as Canton.",
+    "w": "A huge city on a branching river at the top of the delta, with a green mountain on its northern edge.",
+    "f": [
+      "A legend of five rams bringing rice to the people gave Guangzhou its nickname, the City of Rams.",
+      "The Canton Fair has been held here twice a year since 1957."
+    ],
+    "q": {
+      "q": "What did European traders call Guangzhou?",
+      "a": "Canton",
+      "x": [
+        "Amoy",
+        "Foochow"
+      ]
+    }
+  },
+  "Q59218": {
+    "t": "A patchwork of factory towns on the Pearl River",
+    "s": "Dongguan has no single centre: it is a patchwork of about thirty towns, factory estates and fish ponds on the east side of the Pearl River estuary, filling the gap between Guangzhou and Shenzhen. Countless toys, shoes and electronic gadgets have come out of its workshops. At its western edge, the Humen Bridge leaps across the river mouth.",
+    "w": "A sprawl of towns and ponds on the east shore of a wide estuary, with a long suspension bridge on its western edge.",
+    "f": [
+      "At Humen in 1839, Commissioner Lin Zexu had more than a thousand tonnes of seized opium destroyed.",
+      "The Humen Bridge, opened in 1997, has a main span of 888 m."
+    ],
+    "q": {
+      "q": "What did Commissioner Lin Zexu destroy at Humen in 1839?",
+      "a": "Opium",
+      "x": [
+        "Silver",
+        "Tea"
+      ]
+    }
+  },
+  "Q10389": {
+    "t": "A cool highland basin ringed by volcanoes",
+    "s": "Bandung fills a basin about 700 m up in the highlands of West Java, and the flat floor it sits on was once the bed of a great prehistoric lake. Volcanoes stand all around; the long, flat-topped one to the north is Tangkuban Perahu, the “upturned boat”. Its cool climate and elegant avenues once earned the city the nickname “Paris of Java”.",
+    "w": "A city spread across a flat basin floor, volcanoes on every side; a long, flat-topped mountain to the north.",
+    "f": [
+      "In 1955 Bandung hosted the Asian–African Conference, attended by 29 countries.",
+      "Tea plantations cover many of the volcanic slopes around the city.",
+      "Legend says Tangkuban Perahu is a boat kicked over in anger by the hero Sangkuriang."
+    ],
+    "q": {
+      "q": "What does the volcano name Tangkuban Perahu mean?",
+      "a": "Upturned boat",
+      "x": [
+        "Sleeping giant",
+        "Burning mountain"
+      ]
+    }
+  },
+  "Q11462": {
+    "t": "A shark, a crocodile and a bridge to Madura",
+    "s": "Surabaya lies on the flat north-east coast of Java, facing the narrow strait that separates it from the island of Madura. Look for the thin line of the Suramadu Bridge, about 5 km long, stitching the two islands together. Along the shore, square fish ponds glint in rows. The city's emblem shows a shark and a crocodile — sura and baya — locked in a fight.",
+    "w": "A large coastal city facing a narrow strait, with a long bridge across to an island and rows of fish ponds along the shore.",
+    "f": [
+      "When the Suramadu Bridge opened in 2009, it was the longest bridge in Indonesia.",
+      "Tanjung Perak, Surabaya's harbour, is one of Indonesia's busiest ports."
+    ],
+    "q": {
+      "q": "Surabaya's emblem shows a shark fighting which animal?",
+      "a": "A crocodile",
+      "x": [
+        "A tiger",
+        "An eagle"
+      ]
+    }
+  },
+  "Q5826": {
+    "t": "Where the Silk Road began, below the Qinling wall",
+    "s": "Xi'an lies on the flat Wei River plain, with the Qinling Mountains rising like a dark wall to the south. Its streets still follow a strict north–south grid around a rectangular old core. As Chang'an, this was the capital of the Tang dynasty, the eastern starting point of the Silk Road and one of the largest cities on Earth.",
+    "w": "A big gridded city on a flat plain; a steep mountain wall to the south, a river to the north.",
+    "f": [
+      "Xi'an's Ming-era city wall, about 14 km around, is one of the most complete old city walls in China.",
+      "The Terracotta Army was found in 1974 by farmers digging a well, about 35 km to the east.",
+      "The Qinling range is China's traditional dividing line between north and south."
+    ],
+    "q": {
+      "q": "What was Xi'an called as the Tang dynasty capital?",
+      "a": "Chang'an",
+      "x": [
+        "Luoyang",
+        "Kaifeng"
+      ]
+    }
+  },
+  "Q72778": {
+    "t": "Coal country's capital along the Fen River",
+    "s": "Taiyuan stretches north to south along the Fen River, in a long basin pinched between two mountain ranges on the Loess Plateau. The hills around it are dry and furrowed, yellow-brown for much of the year. Beneath Shanxi province lies some of China's richest coal, and the city grew as its industrial heart.",
+    "w": "A long city following a river down a narrow basin, bare furrowed hills on both sides.",
+    "f": [
+      "The first fortified town here, Jinyang, was built around 497 BC.",
+      "Shanxi is famous for its dark aged vinegar, made around Taiyuan for centuries."
+    ],
+    "q": {
+      "q": "Which river runs through Taiyuan?",
+      "a": "The Fen",
+      "x": [
+        "The Wei",
+        "The Luo"
+      ]
+    }
+  },
+  "Q11746": {
+    "t": "Three cities split by two rivers and a hundred lakes",
+    "s": "Wuhan is really three old cities — Wuchang, Hankou and Hanyang — divided by the meeting of the Yangtze and its tributary, the Han. From above, the rivers form a giant Y, and lakes glitter everywhere between the districts. The largest, East Lake, spreads its many arms over more than 30 km² on the eastern side.",
+    "w": "Two big rivers meeting in a Y through a vast city, with many lakes; a large branching lake to the east.",
+    "f": [
+      "The first bridge ever built across the Yangtze opened here in 1957.",
+      "In the 19th century, Russian merchants ran brick-tea factories in Hankou.",
+      "Its place at the heart of China's river network earned Wuhan the nickname “thoroughfare of nine provinces”."
+    ],
+    "q": {
+      "q": "Which river joins the Yangtze at Wuhan?",
+      "a": "The Han",
+      "x": [
+        "The Jialing",
+        "The Xiang"
+      ]
+    }
+  },
+  "Q174091": {
+    "t": "A long orange-grove island in the Xiang River",
+    "s": "Changsha lines both banks of the Xiang River, and in the middle of the river lies a remarkably long, thin island: Orange Isle, once covered in citrus groves. On the west bank rises the wooded hill of Yuelu. At its foot stands one of China's oldest academies, founded in 976 and still part of a university today.",
+    "w": "A city on both banks of a wide river with a long, narrow island in the middle; a wooded hill on the west bank.",
+    "f": [
+      "Orange Isle is about 5 km long, yet very narrow.",
+      "The Han-dynasty tombs of Mawangdui, found in Changsha in 1972, held a remarkably well-preserved noblewoman."
+    ],
+    "q": {
+      "q": "What is the long island in the Xiang River at Changsha called?",
+      "a": "Orange Isle",
+      "x": [
+        "Peach Isle",
+        "Lotus Isle"
+      ]
+    }
+  },
+  "Q182852": {
+    "t": "Eternal spring on the shore of a mountain lake",
+    "s": "Kunming sits almost 1,900 m up on the Yunnan plateau, at the northern end of Dian Lake, a long sheet of water whose western shore is lined by steep hills. Altitude and latitude together give it mild weather all year, and it is known as the City of Eternal Spring. The fields around it show the deep red soil typical of the plateau.",
+    "w": "A city at the north end of a long lake with steep hills along its western shore; red-soiled fields around.",
+    "f": [
+      "Dian Lake covers about 300 km², making it the largest lake in Yunnan.",
+      "Since the 1980s, black-headed gulls from Siberia have come to Kunming every winter.",
+      "The Stone Forest, a UNESCO-listed maze of limestone pinnacles, lies less than 100 km to the south-east."
+    ],
+    "q": {
+      "q": "What is Kunming's nickname?",
+      "a": "City of Eternal Spring",
+      "x": [
+        "City of Eternal Autumn",
+        "City of Winds"
+      ]
+    }
+  },
+  "Q30340": {
+    "t": "A rail crossroads beside a river that runs above the plain",
+    "s": "Zhengzhou spreads across the flat North China Plain just south of the Yellow River, which here runs wide, braided and sandy between high levees. Its bed has silted up so much that the river flows above the surrounding fields. People have lived here a long time: parts of the rammed-earth walls of a Shang dynasty city, some 3,500 years old, still stand in the centre.",
+    "w": "A big flat grid of a city with a wide, sandy, braided river running east–west just to the north.",
+    "f": [
+      "The Shaolin Temple, cradle of kung fu legend, lies in the Song Mountains less than 100 km to the west.",
+      "Zhengzhou grew up where China's main north–south and east–west railways cross."
+    ],
+    "q": {
+      "q": "Zhengzhou is the capital of which province?",
+      "a": "Henan",
+      "x": [
+        "Hebei",
+        "Hubei"
+      ]
+    }
+  },
+  "Q11720": {
+    "t": "The Manchu capital before Beijing, on a wintry plain",
+    "s": "Shenyang spreads across the flat plain of north-east China, with the Hun River curving along its southern side; in winter the river freezes and the fields turn white. In 1625 the Manchu leader Nurhaci made it his capital, and his successors ruled from here until they took Beijing in 1644. The Manchus called it Mukden.",
+    "w": "A large flat city on a wide plain, a river along its southern edge; snow-covered and grey in winter.",
+    "f": [
+      "The Mukden Palace, built from 1625, is a smaller cousin of Beijing's Forbidden City and a UNESCO site.",
+      "The name means “north of the Shen River”, an old name for the Hun."
+    ],
+    "q": {
+      "q": "What was Shenyang's Manchu name?",
+      "a": "Mukden",
+      "x": [
+        "Harbin",
+        "Kirin"
+      ]
+    }
+  },
+  "Q170247": {
+    "t": "City of Springs, between Mount Tai and the Yellow River",
+    "s": "Jinan is squeezed between low hills to the south and the Yellow River to the north. Water seeping through the limestone hills bubbles up in the city centre from dozens of springs, which feed Daming Lake and earned Jinan the name City of Springs. On clear days Mount Tai, foremost of China's five sacred mountains, rises about 60 km to the south.",
+    "w": "A city between green hills to the south and a wide river to the north, with a lake in its centre.",
+    "f": [
+      "Tradition counts 72 famous springs in Jinan; the best known is Baotu Spring.",
+      "Jinan means “south of the Ji”; since 1855 the Yellow River has flowed in the Ji River's old bed."
+    ],
+    "q": {
+      "q": "When did the Yellow River shift into its present course past Jinan?",
+      "a": "1855",
+      "x": [
+        "1755",
+        "1911"
+      ]
+    }
+  },
+  "Q11736": {
+    "t": "Beijing's gateway to the sea, edged with salt pans",
+    "s": "Tianjin lies on the flat coastal plain about 120 km south-east of Beijing, where the Hai River winds towards Bohai Bay. Along the shore, look for a geometric pattern of salt evaporation pans and harbour basins in varying shades. The name means “heavenly ford”, given in 1404 by the Yongle Emperor, who had crossed the river here.",
+    "w": "A large city on a flat plain, a winding river to the sea, and a coast of rectangular salt pans and harbour basins.",
+    "f": [
+      "After 1860 several foreign powers held concessions in Tianjin, and their European-style streets survive.",
+      "The Changlu salt works along this coast are among the oldest and largest in China."
+    ],
+    "q": {
+      "q": "What does the name “Tianjin” mean?",
+      "a": "Heavenly ford",
+      "x": [
+        "Heavenly gate",
+        "Gate to the sea"
+      ]
+    }
+  },
+  "Q171943": {
+    "t": "Gateway to a lake that grows and shrinks with the seasons",
+    "s": "Nanchang straddles the Gan River just before it spreads out into the marshy plain of Poyang Lake, China's largest freshwater lake. In summer the lake swells into an inland sea; in winter it can shrink to a web of channels and grassland. Those winter wetlands host the great majority of the world's Siberian cranes.",
+    "w": "A city on both banks of a wide river; to the north-east, the huge, shifting expanse of Poyang Lake.",
+    "f": [
+      "Poyang Lake can cover several thousand km² in the wet season and shrink several times over in the dry.",
+      "The Tengwang Pavilion on the Gan River was first built in 653."
+    ],
+    "q": {
+      "q": "Which lake, China's largest freshwater lake, lies near Nanchang?",
+      "a": "Poyang Lake",
+      "x": [
+        "Dongting Lake",
+        "Lake Tai"
+      ]
+    }
+  },
+  "Q16666": {
+    "t": "The southern capital, between the Yangtze and green hills",
+    "s": "Nanjing sits on the south bank of the Yangtze, where the river swings north-east on its last stretch to the sea. The forested dome of Purple Mountain rises on the eastern edge, and Xuanwu Lake glints just inside the old walls. The first Ming emperor made this his capital in 1368, and its name still means “southern capital”.",
+    "w": "A large city on the south bank of the broad Yangtze, a green mountain to the east and a lake in its northern part.",
+    "f": [
+      "Nanjing's Ming city wall, about 35 km long, was one of the longest city walls ever built, and much of it survives.",
+      "Zhu Yuanzhang, founder of the Ming dynasty, is buried in a tomb on Purple Mountain."
+    ],
+    "q": {
+      "q": "Which dynasty built Nanjing's great city wall?",
+      "a": "The Ming",
+      "x": [
+        "The Tang",
+        "The Song"
+      ]
+    }
+  },
+  "Q4970": {
+    "t": "A poets' lake and a river with a racing tidal wave",
+    "s": "Hangzhou wraps around West Lake, a calm sheet of water held on three sides by green hills and praised by Chinese poets for more than a thousand years. South of the city the wide Qiantang River bends towards funnel-shaped Hangzhou Bay. Especially in autumn, a tidal bore charges up the river as a wall of water, drawing crowds to the banks.",
+    "w": "A city on the east shore of a lake with hills on three sides; a wide river curving to a funnel-shaped bay.",
+    "f": [
+      "Hangzhou was the capital of the Southern Song dynasty, and then one of the largest cities in the world.",
+      "The Grand Canal, running north to Beijing, begins here.",
+      "Longjing, or Dragon Well, one of China's most famous green teas, grows in the hills west of the lake."
+    ],
+    "q": {
+      "q": "Which river at Hangzhou is famous for its tidal bore?",
+      "a": "The Qiantang",
+      "x": [
+        "The Huangpu",
+        "The Min"
+      ]
+    }
+  },
+  "Q34664": {
+    "t": "A city on the fingers of a delta, by an island sea",
+    "s": "Hiroshima spreads over the delta of the Ōta River, whose channels fan out towards the sea like the fingers of a hand, splitting the city into long islands. Beyond lies the calm Seto Inland Sea, scattered with green islands. The name means “broad island”, and the city was founded in 1589, when the warlord Mōri Terumoto built his castle on the delta.",
+    "w": "A city on a delta of parallel river channels at the head of a bay, with wooded islands scattered offshore.",
+    "f": [
+      "Hiroshima Prefecture produces more than half of Japan's farmed oysters.",
+      "Itsukushima Shrine, on the island of Miyajima about 20 km south-west, is famous for its torii gate standing in the sea."
+    ],
+    "q": {
+      "q": "On the delta of which river is Hiroshima built?",
+      "a": "The Ōta",
+      "x": [
+        "The Yodo",
+        "The Shinano"
+      ]
+    }
+  },
+  "Q92161": {
+    "t": "China's car city on a plain of black earth",
+    "s": "Changchun lies in the middle of the Songliao Plain, a vast, flat expanse of fertile black soil that turns white under snow for months each winter. The city is laid out in a neat grid of wide avenues. In 1953 China's first automobile factory was founded here, and Changchun is still called the cradle of the country's car industry. Its name, ironically for so cold a place, means “long spring”.",
+    "w": "A gridded city on an endless flat plain of dark fields; a forested reservoir on its south-eastern edge.",
+    "f": [
+      "The first trucks built in the People's Republic rolled off the line here in 1956.",
+      "Jingyuetan, on the south-eastern edge, is a reservoir ringed by a vast planted forest."
+    ],
+    "q": {
+      "q": "What is Changchun best known for making?",
+      "a": "Cars",
+      "x": [
+        "Silk",
+        "Porcelain"
+      ]
+    }
+  },
+  "Q569907": {
+    "t": "Deer City on the Yellow River's great northern bend",
+    "s": "Baotou stretches along the plain between the bare Yin Mountains and the Yellow River, near the top of the river's great loop through Inner Mongolia. Across the water to the south, the dunes of the Kubuqi Desert begin. The city grew into a steel centre in the 1950s, and its Mongolian name is usually translated as “place with deer” — hence its nickname, Deer City.",
+    "w": "An industrial city strung along a plain between bare mountains to the north and a wide river to the south; dunes beyond.",
+    "f": [
+      "Bayan Obo, more than 100 km to the north, is the world's largest known deposit of rare-earth metals.",
+      "The Yellow River's loop around the Ordos Plateau is so big that the river flows north, then east, then south."
+    ],
+    "q": {
+      "q": "Baotou's Mongolian name refers to which animal?",
+      "a": "Deer",
+      "x": [
+        "Horses",
+        "Wolves"
+      ]
+    }
+  },
+  "Q42956": {
+    "t": "A railway town on a river that freezes into a festival",
+    "s": "Harbin spreads along the south bank of the Songhua River on the flat plains of the north-east. In winter the river freezes solid into a white road, and blocks cut from its ice are carved into the palaces of the famous Ice and Snow Festival. The city grew from 1898 around a railway built by Russia, and its onion-domed churches still recall those years.",
+    "w": "A large city on the south bank of a wide river with an island park opposite; the river white and frozen in winter.",
+    "f": [
+      "The average January temperature here is well below −15 °C.",
+      "Harbin's Ice and Snow Festival has been held every winter since 1985."
+    ],
+    "q": {
+      "q": "Harbin grew up around a railway built by which country?",
+      "a": "Russia",
+      "x": [
+        "Japan",
+        "Britain"
+      ]
+    }
+  },
+  "Q37951": {
+    "t": "A snowy grid city at the edge of Hokkaido's mountains",
+    "s": "Sapporo was laid out from 1869 on a neat grid, and you can still see its straight lines across the Ishikari Plain, with forested mountains rising right behind it to the west. Few large cities anywhere get as much snow: roughly five metres falls in a typical winter. The name comes from the Ainu language and is often read as “dry, great river”.",
+    "w": "A gridded city on a plain at the foot of forested mountains; in winter, everything white.",
+    "f": [
+      "In 1972 Sapporo hosted the first Winter Olympics held in Asia.",
+      "The Sapporo Snow Festival began in 1950 with six snow statues built by local students."
+    ],
+    "q": {
+      "q": "When did Sapporo host Asia's first Winter Olympics?",
+      "a": "1972",
+      "x": [
+        "1964",
+        "1998"
+      ]
+    }
+  },
+  "Q1361": {
+    "t": "A city of pearls and diamonds among granite boulders",
+    "s": "Hyderabad sits on the rocky Deccan Plateau, where giant granite boulders lie scattered as if dropped by hand. Look for a big lake right in the middle of the city: Hussain Sagar, built in the 16th century, which separates Hyderabad from its twin, Secunderabad. The Qutb Shahi sultans founded the city in 1591, and nearby Golconda was famed for its diamond trade.",
+    "w": "A vast city on a rocky plateau dotted with lakes, a large lake in the centre and a river through the south.",
+    "f": [
+      "The Koh-i-Noor diamond is believed to have come from mines in the Golconda region.",
+      "Its centuries-old pearl trade earned Hyderabad the nickname City of Pearls.",
+      "The Charminar, the city's four-minareted emblem, was built in 1591, the year Hyderabad was founded."
+    ],
+    "q": {
+      "q": "Which famous diamond is thought to come from the Golconda mines?",
+      "a": "The Koh-i-Noor",
+      "x": [
+        "The Cullinan",
+        "The Excelsior"
+      ]
+    }
+  },
+  "Q1538": {
+    "t": "The Peshwas' city in the lee of the Western Ghats",
+    "s": "Pune sits about 560 m up on the Deccan Plateau, where the Mula and Mutha rivers meet. Just to the west rise the steep, green Western Ghats, with a chain of reservoirs filling their valleys. In the 18th century this was the seat of the Peshwas, chief ministers who ran the Maratha Empire. Today it has so many colleges that it is called the Oxford of the East.",
+    "w": "A large city where two rivers meet on a plateau; green, steep hills and reservoirs to the west.",
+    "f": [
+      "Shaniwar Wada, the Peshwas' fortified palace, was completed in 1732.",
+      "The hill fort of Sinhagad stands about 30 km south-west, on a ridge of the Ghats."
+    ],
+    "q": {
+      "q": "Pune was the seat of which 18th-century rulers?",
+      "a": "The Peshwas",
+      "x": [
+        "The Mughals",
+        "The Nizams"
+      ]
+    }
+  },
+  "Q1513": {
+    "t": "Orange City, at the very heart of India",
+    "s": "Nagpur lies close to the geographic centre of India, and a Zero Mile Stone set up by British surveyors still marks the spot. From above it's a sprawling city on a gently rolling plateau, with several lakes on its western side. Orange orchards surround it, giving it the name Orange City, and the forests further out are home to tigers.",
+    "w": "A large city on a flat plateau with a few lakes on its western edge, surrounded by farmland and orchards.",
+    "f": [
+      "Nagpur's oranges are famous across India and carry a geographical indication tag.",
+      "Tiger reserves, including Pench and Tadoba, lie within a few hours' drive."
+    ],
+    "q": {
+      "q": "Nagpur's nickname comes from which fruit?",
+      "a": "Oranges",
+      "x": [
+        "Mangoes",
+        "Bananas"
+      ]
+    }
+  },
+  "Q66485": {
+    "t": "The Pink City, laid out on a grid in 1727",
+    "s": "Jaipur spreads across a dry plain in Rajasthan, with the rugged ridges of the Aravalli hills rising to the north and east, where old forts guard the passes. Maharaja Sawai Jai Singh II founded it in 1727 on a strict grid, unusual for its time. Its old town is painted terracotta pink, first done to welcome the Prince of Wales in 1876.",
+    "w": "A large city on a dry plain, rocky ridges with forts to the north and east, a lake at their foot.",
+    "f": [
+      "Jai Singh II was also an astronomer; his Jantar Mantar observatory is a UNESCO World Heritage site.",
+      "The walled city of Jaipur was added to the UNESCO World Heritage list in 2019."
+    ],
+    "q": {
+      "q": "For whose visit was Jaipur painted pink in 1876?",
+      "a": "The Prince of Wales",
+      "x": [
+        "Queen Victoria",
+        "The Viceroy of India"
+      ]
+    }
+  },
+  "Q66568": {
+    "t": "An old mill town on the banks of the Ganges",
+    "s": "Kanpur stretches along the south-west bank of the Ganges, which curves past its northern edge in wide, sandy channels. The land all around is the flat, fertile Gangetic plain, laid out in small fields. In the 19th century cotton mills and tanneries turned the town into an industrial hub nicknamed the Manchester of the East. Leather is still one of its big trades.",
+    "w": "A large flat city on the south bank of a broad river with sandbars, surrounded by a patchwork of small fields.",
+    "f": [
+      "Under British rule the city was known as Cawnpore.",
+      "Kanpur is one of India's biggest centres of leather tanning."
+    ],
+    "q": {
+      "q": "Which river flows past Kanpur?",
+      "a": "The Ganges",
+      "x": [
+        "The Yamuna",
+        "The Gomti"
+      ]
+    }
+  },
+  "Q80484": {
+    "t": "Ancient Pataliputra, stretched along the wide Ganges",
+    "s": "Patna is long and thin: it runs for many kilometres along the south bank of the Ganges, which here spreads several kilometres wide in flood and breaks into channels around sandbars in the dry season. Look for the long bridge striking north across it. More than 2,000 years ago, as Pataliputra, this was the capital of the Maurya Empire and one of the greatest cities of the ancient world.",
+    "w": "A long, narrow city along the south bank of a very wide, braided river, with a long bridge crossing it.",
+    "f": [
+      "Around 300 BC the Greek envoy Megasthenes described Pataliputra's huge timber walls.",
+      "The Mahatma Gandhi Setu, opened in 1982, carries a road about 5.7 km across the Ganges."
+    ],
+    "q": {
+      "q": "What was Patna called as the Maurya capital?",
+      "a": "Pataliputra",
+      "x": [
+        "Taxila",
+        "Ujjain"
+      ]
+    }
+  },
+  "Q1352": {
+    "t": "Old Madras, facing the Bay of Bengal across a long beach",
+    "s": "Chennai lines a long, straight stretch of the Coromandel Coast, and its signature is Marina Beach: a pale strip of sand running for kilometres beside the Bay of Bengal. Two sluggish rivers, the Cooum and the Adyar, cut through the city to the sea. The English East India Company built Fort St George here in 1644, and the city of Madras grew up around it.",
+    "w": "A flat city along a long, straight sandy coast; harbour breakwaters in the north, two rivers entering the sea.",
+    "f": [
+      "Marina Beach is one of the longest urban beaches in the world.",
+      "The city's official name changed from Madras to Chennai in 1996.",
+      "Pulicat Lake, a large lagoon about 50 km north, draws flocks of flamingos in winter."
+    ],
+    "q": {
+      "q": "Which fort did the English build at Chennai in 1644?",
+      "a": "Fort St George",
+      "x": [
+        "Fort William",
+        "Fort St David"
+      ]
+    }
+  },
+  "Q1070": {
+    "t": "A sultan's city of kites on the Sabarmati",
+    "s": "Ahmedabad spreads across the flat plains of Gujarat on both banks of the Sabarmati, whose course through the city runs straight between long concrete embankments. Sultan Ahmed Shah founded it in 1411, and in 2017 it became the first Indian city on UNESCO's World Heritage list. Each January, at the Uttarayan festival, the sky above it fills with thousands of kites.",
+    "w": "A large flat city split by a river running straight between embankments; a planned capital with green avenues to the north.",
+    "f": [
+      "Gandhi lived at his Sabarmati Ashram on the riverbank from 1917 to 1930.",
+      "Gandhinagar, the planned capital of Gujarat, lies about 25 km to the north."
+    ],
+    "q": {
+      "q": "Which river flows through Ahmedabad?",
+      "a": "The Sabarmati",
+      "x": [
+        "The Narmada",
+        "The Tapi"
+      ]
+    }
+  },
+  "Q4629": {
+    "t": "Where most of the world's diamonds are cut",
+    "s": "Surat sits on a broad bend of the Tapi River, a few kilometres before it reaches the mudflats of the Arabian Sea coast. In Mughal times it was India's busiest port, and pilgrims sailed from here to Mecca. In the 1610s the English East India Company set up one of its earliest Indian trading posts here. Today the city's workshops cut and polish the great majority of the world's diamonds.",
+    "w": "A dense city on a wide river bend near a flat, muddy coast, with new districts spreading towards the sea.",
+    "f": [
+      "Around nine out of ten of the world's diamonds are cut and polished in Surat.",
+      "Surat is also one of India's largest centres of synthetic textiles."
+    ],
+    "q": {
+      "q": "Surat is famous for cutting and polishing what?",
+      "a": "Diamonds",
+      "x": [
+        "Emeralds",
+        "Pearls"
+      ]
+    }
+  },
+  "Q1354": {
+    "t": "A river-ringed megacity, once the capital of muslin",
+    "s": "Dhaka is almost an island: the Buriganga, Turag, Balu and Shitalakshya rivers wrap around it, and in the monsoon the fields beyond turn into sheets of water. Inside that ring the city is one of the most densely packed on Earth. In 1610 the Mughals made it the capital of Bengal, and its weavers produced muslin so fine it was likened to woven air.",
+    "w": "A very dense city on slightly higher ground ringed by rivers; in the monsoon, flooded fields all around.",
+    "f": [
+      "Dhaka is often called the rickshaw capital of the world, with hundreds of thousands of cycle rickshaws.",
+      "Under the Mughals the city was renamed Jahangirnagar, after Emperor Jahangir.",
+      "It has so many mosques that it is nicknamed the City of Mosques."
+    ],
+    "q": {
+      "q": "Mughal-era Dhaka was famed for which fine fabric?",
+      "a": "Muslin",
+      "x": [
+        "Silk brocade",
+        "Cashmere"
+      ]
+    }
+  },
+  "Q376749": {
+    "t": "Bangladesh's great port, where the hills meet the sea",
+    "s": "Chattogram sits at the mouth of the Karnaphuli River, where the flat delta of Bangladesh finally gives way to green hills rolling east towards Myanmar. It is the country's main seaport. North of the city, look along the shore for a row of large ships deliberately run aground on the mudflats: one of the world's biggest shipbreaking coasts. Portuguese traders called this Porto Grande.",
+    "w": "A port city at a river mouth, green hills to the east; a line of beached ships on the coast to the north.",
+    "f": [
+      "In the yards of Sitakunda, north of the city, ocean-going ships are taken apart on the beach, much of it by hand.",
+      "In 2018 the official English spelling changed from Chittagong to Chattogram, closer to the Bengali."
+    ],
+    "q": {
+      "q": "What did Portuguese traders call Chattogram?",
+      "a": "Porto Grande",
+      "x": [
+        "Porto Pequeno",
+        "Porto Novo"
+      ]
+    }
+  },
+  "Q3183": {
+    "t": "A lonely capital on a lake-like river of black swans",
+    "s": "Perth is one of the most isolated big cities on Earth: Adelaide, the nearest city of similar size, is over 2,000 km away. The Swan River widens here into broad blue basins that look more like lakes, with the city on their banks. To the east the land rises abruptly at the long, straight line of the Darling Scarp; to the west lie white beaches and Rottnest Island.",
+    "w": "A city around wide, lake-like river basins; a straight escarpment to the east, white beaches and an island to the west.",
+    "f": [
+      "Dutch explorer Willem de Vlamingh named the Swan River in 1697, after its black swans.",
+      "Rottnest Island, off the coast, is home to the quokka, a small marsupial with a smiling face.",
+      "The Swan River Colony, which grew into Perth, was founded in 1829."
+    ],
+    "q": {
+      "q": "Who named the Swan River after its black swans in 1697?",
+      "a": "Willem de Vlamingh",
+      "x": [
+        "Abel Tasman",
+        "Dirk Hartog"
+      ]
+    }
+  },
+  "Q37995": {
+    "t": "A golden-pagoda city between delta rivers",
+    "s": "Yangon lies on a tongue of land where the Yangon and Bago rivers meet, some 30 km from the Andaman Sea. West of it spreads the vast green Irrawaddy Delta, laced with channels. Two large lakes, Inya and Kandawgyi, glint among the northern districts. Near the second, on a low hill, stands the gilded Shwedagon Pagoda, the most sacred Buddhist site in Myanmar.",
+    "w": "A city on a point of land between converging rivers, with lakes in its northern half; a green delta stretching west.",
+    "f": [
+      "King Alaungpaya named the town Yangon, “end of strife”, in 1755.",
+      "Under British rule the city was known as Rangoon.",
+      "The Shwedagon's stupa is about 100 m tall and covered in gold plates."
+    ],
+    "q": {
+      "q": "What does the name “Yangon” mean?",
+      "a": "End of strife",
+      "x": [
+        "City of gold",
+        "River mouth"
+      ]
+    }
+  },
+  "Q572089": {
+    "t": "Karst peaks, a dammed red river and long lives",
+    "s": "Hechi spreads across a rugged corner of north-western Guangxi, where forested limestone peaks crowd so tightly that towns and fields squeeze into the narrow valleys between them. The Hongshui, or Red Water River, winds through deep gorges here and is stepped with big dams. This is a homeland of several minority peoples, among them the Zhuang, Yao, Mulao and Maonan.",
+    "w": "A sea of steep, forested limestone peaks with small towns and fields tucked into the valleys; a dammed river in gorges.",
+    "f": [
+      "Bama county, in Hechi, is famous for its unusually large number of people who live past 100.",
+      "Hechi has China's only autonomous counties for the Mulao and the Maonan peoples.",
+      "The Longtan Dam on the Hongshui River, in Hechi, feeds one of China's largest hydropower stations."
+    ],
+    "q": {
+      "q": "Bama county in Hechi is famous for its many…",
+      "a": "Centenarians",
+      "x": [
+        "Twins",
+        "Tea houses"
+      ]
+    }
+  },
+  "Q68814": {
+    "t": "Orchards, a delta and round earthen fortresses",
+    "s": "Zhangzhou lies on the fertile plain of the Jiulong, or Nine Dragon River, which widens eastwards into an estuary with Xiamen at its mouth. The land around is a green quilt of orchards, known for lychees, pomelos and narcissus bulbs. In 1567 the Ming lifted their ban on overseas trade at Yuegang, a harbour on this river, and Zhangzhou's goods flowed to Manila and beyond.",
+    "w": "A city on a green delta plain; the river widens east into an estuary towards Xiamen, hills to the west.",
+    "f": [
+      "In the hills west of the city stand Fujian tulou, giant round earthen houses listed by UNESCO.",
+      "Zhangzhou's narcissus bulbs are sent all over China for the Lunar New Year."
+    ],
+    "q": {
+      "q": "What are the giant round earthen houses in Zhangzhou's hills called?",
+      "a": "Tulou",
+      "x": [
+        "Siheyuan",
+        "Yaodong"
+      ]
+    }
+  },
+  "Q205697": {
+    "t": "Kolkata's twin across the Hooghly, with a giant banyan",
+    "s": "Haora, or Howrah, faces Kolkata across the Hooghly River, and from above the two read as one city split by a brown ribbon of water. Bridges stitch them together, and the wide railway yards on this side mark Howrah Station, opened in 1854 and still one of India's busiest. Downstream, the botanic garden at Shibpur shelters the Great Banyan, a single tree grown into a small forest.",
+    "w": "The west-bank half of a city split by a brown river, with bridges across and wide railway yards on this side.",
+    "f": [
+      "The Great Banyan's aerial roots have become thousands of trunks, and its canopy covers well over a hectare.",
+      "Howrah Bridge, opened in 1943, was built without nuts and bolts — it is held together by rivets."
+    ],
+    "q": {
+      "q": "What famous tree grows in the botanic garden at Howrah?",
+      "a": "The Great Banyan",
+      "x": [
+        "A giant sequoia",
+        "A baobab"
+      ]
+    }
+  },
+  "Q38283": {
+    "t": "A fishing village that became Japan's great port",
+    "s": "Yokohama lines the western shore of Tokyo Bay, and from above it flows into Tokyo without a visible border. Its waterfront is a jigsaw of piers, container terminals and reclaimed land, crossed by the long Bay Bridge. In 1859 this was a small fishing village chosen as a port for foreign trade; within decades it had become Japan's gateway to the world.",
+    "w": "A port city on the west side of a large bay, merging into Tokyo; piers, reclaimed land and a bridge over the harbour.",
+    "f": [
+      "Japan's first railway, opened in 1872, ran between Tokyo's Shimbashi and Yokohama.",
+      "Yokohama is Japan's second most populous city, after Tokyo.",
+      "Its Chinatown is the largest in Japan."
+    ],
+    "q": {
+      "q": "In which year was Yokohama opened to foreign trade?",
+      "a": "1859",
+      "x": [
+        "1603",
+        "1905"
+      ]
+    }
+  },
+  "Q244898": {
+    "t": "A ring-shaped city wrapped around Taipei",
+    "s": "New Taipei is shaped like a ring: it completely surrounds Taipei, filling the rest of the basin and spilling over green mountains to Taiwan's northern coast. Look for the mouth of the Tamsui River, where an old harbour town faces the sunset, and the rocky capes of the far north. With nearly four million people, it is the most populous city in Taiwan.",
+    "w": "A band of city and green hills encircling Taipei, reaching the sea at a river mouth and at rocky northern capes.",
+    "f": [
+      "The Spanish built the first Fort San Domingo at Tamsui in 1628.",
+      "Fuguijiao, the northernmost point of Taiwan's main island, lies within the city.",
+      "Yehliu, on its north coast, is famous for mushroom-shaped rocks carved by the sea."
+    ],
+    "q": {
+      "q": "Who built the first Fort San Domingo at Tamsui in 1628?",
+      "a": "The Spanish",
+      "x": [
+        "The Portuguese",
+        "The French"
+      ]
+    }
+  },
+  "Q16520": {
+    "t": "A port city wedged between steep hills and the sea",
+    "s": "Busan is squeezed into the gaps between steep green ridges and a ragged, bay-cut coastline at Korea's south-eastern tip. To the west, the Nakdong River ends in a delta of sandbars and reed beds that shelters migrating birds. Long bridges leap across the bays. On a clear day, Japan's island of Tsushima is visible about 50 km offshore.",
+    "w": "A long city threaded between steep ridges along an indented coast; a river delta with sandbars to the west.",
+    "f": [
+      "Busan is South Korea's largest port and one of the busiest container ports in the world.",
+      "In the Joseon era, Busan hosted a walled Japanese trading post known as the Waegwan."
+    ],
+    "q": {
+      "q": "Which Japanese island can be seen from Busan on clear days?",
+      "a": "Tsushima",
+      "x": [
+        "Okinawa",
+        "Sado"
+      ]
+    }
+  },
+  "Q74881": {
+    "t": "A peninsula-tip port between two seas",
+    "s": "Dalian occupies the hilly southern tip of the Liaodong Peninsula, where the Bohai Sea meets the Yellow Sea. Its coast is cut into bays, headlands and harbours. Russia founded the modern city in 1898 under the name Dalny, meaning “distant”, and laid it out with round plazas and streets radiating from them like spokes.",
+    "w": "A hilly peninsula tip with a jagged coast of bays and harbours; open sea on both sides.",
+    "f": [
+      "Dalian's harbour stays largely free of ice in winter, a rarity in northern China.",
+      "Lüshun, once known as Port Arthur, sits at the very tip of the peninsula."
+    ],
+    "q": {
+      "q": "Under what name did Russia found Dalian in 1898?",
+      "a": "Dalny",
+      "x": [
+        "Port Arthur",
+        "Nikolaevsk"
+      ]
+    }
+  },
+  "Q11751": {
+    "t": "Castle city on a plain of three parallel rivers",
+    "s": "Nagoya spreads over the flat Nōbi Plain at the head of Ise Bay. Just to the west, three big rivers — the Kiso, Nagara and Ibi — run side by side to the sea like parallel strokes of a brush. Offshore to the south, the airport sits on its own man-made island. Tokugawa Ieyasu had Nagoya Castle built in the 1610s, and the city grew up around it.",
+    "w": "A large city on a flat plain at the head of a bay; three parallel rivers to the west, an airport island to the south.",
+    "f": [
+      "Atsuta Shrine in Nagoya is said to house the Kusanagi sword, one of Japan's three imperial regalia.",
+      "Toyota's home city lies just east of Nagoya, making the region the heart of Japan's car industry."
+    ],
+    "q": {
+      "q": "Which legendary sword is said to be kept at Atsuta Shrine?",
+      "a": "Kusanagi",
+      "x": [
+        "Masamune",
+        "Muramasa"
+      ]
+    }
+  },
+  "Q28729": {
+    "t": "Where Vasco da Gama reached India, under coconut palms",
+    "s": "Kozhikode sits on the Malabar Coast, a city half-hidden under a thick green blanket of coconut palms between the Arabian Sea and the rising Western Ghats. As Calicut, it was the busy capital of the Zamorin kings and a hub of the pepper trade. In 1498 Vasco da Gama landed nearby, completing the first sea voyage from Europe to India.",
+    "w": "A city under a dense green canopy of palms along a straight coast, with mountains rising to the east.",
+    "f": [
+      "Calico, a plain cotton cloth, takes its name from Calicut.",
+      "Zheng He's Chinese treasure fleets called at Calicut in the early 15th century."
+    ],
+    "q": {
+      "q": "Which cloth takes its name from Calicut?",
+      "a": "Calico",
+      "x": [
+        "Muslin",
+        "Chintz"
+      ]
+    }
+  },
+  "Q171771": {
+    "t": "Temple City at the edge of the Mahanadi delta",
+    "s": "Bhubaneswar sits on slightly raised red-earth land at the south-western edge of the Mahanadi delta, where green paddies stretch towards the Bay of Bengal. Hundreds of stone temples once stood here, and it is still called the Temple City. The modern town was planned from 1948 as the new capital of Odisha, right beside the ancient one.",
+    "w": "A city on low reddish uplands, with the green, river-laced delta spreading east and north towards the coast.",
+    "f": [
+      "The Lingaraja Temple, the city's greatest, dates largely from the 11th century.",
+      "The rock-cut caves of Udayagiri and Khandagiri, on the western edge, were carved for Jain monks over 2,000 years ago.",
+      "Chilika, India's largest coastal lagoon, lies about 100 km to the south-west."
+    ],
+    "q": {
+      "q": "What is Bhubaneswar's nickname?",
+      "a": "Temple City",
+      "x": [
+        "Pink City",
+        "Garden City"
+      ]
+    }
+  },
+  "Q200054": {
+    "t": "India's steel city, planned around a single works",
+    "s": "Jamshedpur grew around a steel plant founded in 1907 on the Chota Nagpur Plateau, where iron ore, coal and water lay close together. From above, look for the dark block of the steelworks near the meeting of the Subarnarekha and Kharkai rivers, with green planned neighbourhoods around it. The forested Dalma Hills to the north shelter wild elephants.",
+    "w": "A planned town where two rivers meet, a large dark industrial block at its centre, forested hills to the north.",
+    "f": [
+      "The city is named after Jamsetji Tata, who dreamed up the steelworks but died before it was built.",
+      "It was one of India's first planned industrial cities."
+    ],
+    "q": {
+      "q": "Jamshedpur is named after which industrialist?",
+      "a": "Jamsetji Tata",
+      "x": [
+        "G. D. Birla",
+        "Walchand Hirachand"
+      ]
+    }
+  },
+  "Q5753": {
+    "t": "Timur's blue-domed capital in a green Silk Road oasis",
+    "s": "Samarkand is a green oasis in the valley of the Zarafshan, whose name means “gold-scattering”, with brown mountain ridges rising to the south. On the city's northern edge lies Afrasiyab, a bare, empty mound that was the city for its first two thousand years. Timur made Samarkand his capital in 1370 and filled it with turquoise domes.",
+    "w": "A green oasis in a wide river valley, brown ridges to the south, a bare earthen mound on the northern edge.",
+    "f": [
+      "Timur's grandson Ulugh Beg built a great observatory here in the 1420s.",
+      "At around 2,700 years old, Samarkand is one of the oldest cities in Central Asia.",
+      "From the 8th century, Samarkand paper was prized across the Islamic world."
+    ],
+    "q": {
+      "q": "Which ruler made Samarkand his capital in 1370?",
+      "a": "Timur",
+      "x": [
+        "Genghis Khan",
+        "Babur"
+      ]
+    }
+  },
+  "Q9310": {
+    "t": "A small capital between steep mountains and a reef island",
+    "s": "Dili is a low, compact city on a narrow strip of flat land along Timor's north coast, with steep mountains rising close behind it. Across the strait, about 25 km to the north, lies Atauro Island, fringed with coral reefs. The Portuguese moved their colonial capital here in 1769, and Portuguese is still one of the country's official languages.",
+    "w": "A small city on a thin coastal plain, steep mountains behind, a long island across the water to the north.",
+    "f": [
+      "Surveys around Atauro have recorded some of the highest reef-fish diversity anywhere.",
+      "Timor lies in Wallacea, the transition zone between Asian and Australian wildlife."
+    ],
+    "q": {
+      "q": "When did the Portuguese move their Timor capital to Dili?",
+      "a": "1769",
+      "x": [
+        "1669",
+        "1869"
+      ]
+    }
+  },
+  "Q37806": {
+    "t": "A small harbour capital among reefs and lagoons",
+    "s": "Port Vila curls around a sheltered harbour on the south-west coast of Efate, one of about 80 islands of Vanuatu. From above, look for the turquoise of reefs and lagoons against dark green hills, and the small islets in the bay. Until 1980 these islands were the New Hebrides, ruled jointly by Britain and France — an unusual arrangement known as a condominium.",
+    "w": "A small town around a sheltered bay, turquoise reefs and lagoons along the shore, green hills behind.",
+    "f": [
+      "Vanuatu's national language, Bislama, is a creole largely based on English.",
+      "Land diving on Pentecost Island, to the north, is often described as the forerunner of bungee jumping."
+    ],
+    "q": {
+      "q": "What were Vanuatu's islands called before 1980?",
+      "a": "The New Hebrides",
+      "x": [
+        "New Caledonia",
+        "The Friendly Islands"
+      ]
+    }
   }
 }

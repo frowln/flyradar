@@ -610,5 +610,308 @@
         "The Ottawa"
       ]
     }
+  },
+  "Q1066": {
+    "t": "The largest freshwater lake on Earth by area",
+    "s": "Lake Superior is big enough to have its own horizon: at 563 km long, even from cruise height you may not see it end to end. No freshwater lake on Earth covers more area, and its cold, clear water holds about a tenth of all the fresh water on the planet's surface. In winter, ice and snow trace its rocky outline in white.",
+    "w": "A vast lake shaped a little like a wolf's head facing west, with the long Keweenaw Peninsula jutting from its southern shore.",
+    "f": [
+      "A drop of water that enters it stays, on average, for almost 200 years.",
+      "Isle Royale, in its north-west, has hosted a study of wolves and moose since 1958 — one of the longest of its kind.",
+      "Its deepest point lies 406 m below the surface."
+    ],
+    "q": {
+      "q": "On average, how long does water stay in Lake Superior?",
+      "a": "Almost 200 years",
+      "x": [
+        "About 20 years",
+        "About 2 years"
+      ]
+    }
+  },
+  "Q1169": {
+    "t": "The only Great Lake wholly in the United States",
+    "s": "Lake Michigan hangs down from the Straits of Mackinac like a long blue pendant, with Chicago's grid pressed against its south-western corner. Its eastern shore is lined with pale sand dunes, some rising over 100 m above the water. Strictly speaking, it is one lake with Huron: the two meet at the Straits and share the same level.",
+    "w": "A long north–south lake: Chicago's sprawl at the south-west, pale dune shores along the east, the Mackinac straits at the top.",
+    "f": [
+      "Its eastern shore holds the largest freshwater sand dunes in the world.",
+      "The Mackinac Bridge, about 8 km long, spans the straits that link it to Lake Huron.",
+      "Its name comes from an Ojibwe word meaning “great water”."
+    ],
+    "q": {
+      "q": "Which lake is Lake Michigan hydrologically joined with?",
+      "a": "Lake Huron",
+      "x": [
+        "Lake Superior",
+        "Lake Erie"
+      ]
+    }
+  },
+  "Q1383": {
+    "t": "The Great Lake with tens of thousands of islands",
+    "s": "Lake Huron is the island lake of the five. Along its north and east, the granite shore breaks into thousands of rocky islets, and Manitoulin — the largest island in any freshwater lake on Earth — divides the main lake from the North Channel. Georgian Bay, almost a lake in its own right, opens to the east.",
+    "w": "A broad lake east of Michigan's mitten; the long island of Manitoulin in the north and Georgian Bay to the east.",
+    "f": [
+      "Counting all its islands, it has the longest shoreline of the Great Lakes.",
+      "Saginaw Bay cuts into Michigan's shore, separating the “thumb” from the rest of the mitten.",
+      "The French named it after the Huron, or Wendat, people."
+    ],
+    "q": {
+      "q": "Which Lake Huron island is the largest in any freshwater lake?",
+      "a": "Manitoulin",
+      "x": [
+        "Isle Royale",
+        "Mackinac Island"
+      ]
+    }
+  },
+  "Q5532": {
+    "t": "A lake with more fish species than any other",
+    "s": "Lake Malawi fills a long trench of the East African Rift, a slim blue blade about 580 km long hemmed in by steep escarpments. Beneath the surface swim more fish species than in any other lake on Earth — hundreds of brightly coloured cichlids, most of them found nowhere else. At night, fishermen's lamps can speckle the dark water.",
+    "w": "A long, narrow lake running north–south in the Rift Valley, with mountains rising steeply along its northern shores.",
+    "f": [
+      "Its deepest point is more than 700 m down.",
+      "Lake Malawi National Park, at its southern end, is a UNESCO World Heritage site.",
+      "It is also called Lake Nyasa, and Lago Niassa in Mozambique."
+    ],
+    "q": {
+      "q": "Which fish make up most of Lake Malawi's famous variety?",
+      "a": "Cichlids",
+      "x": [
+        "Salmon",
+        "Sturgeons"
+      ]
+    }
+  },
+  "Q5511": {
+    "t": "The longest freshwater lake in the world",
+    "s": "Lake Tanganyika runs for about 670 km along the floor of the Rift Valley, farther than any other freshwater lake. It is narrow — about 50 km wide on average — but plunges to 1,470 m, second only to Baikal. Its long, steep shores are shared by four countries, and the water is a deep, clear blue.",
+    "w": "A very long, narrow lake running north–south in a deep rift, lined by steep mountain walls on both sides.",
+    "f": [
+      "Tanzania, DR Congo, Burundi and Zambia share its shores.",
+      "In 1871 Stanley found Livingstone at Ujiji, on its eastern shore.",
+      "It is among the oldest lakes on Earth, formed roughly 10 million years ago."
+    ],
+    "q": {
+      "q": "Which lake is deeper than Lake Tanganyika?",
+      "a": "Lake Baikal",
+      "x": [
+        "Lake Malawi",
+        "Lake Superior"
+      ]
+    }
+  },
+  "Q5505": {
+    "t": "Africa's largest lake, where the White Nile begins",
+    "s": "Lake Victoria is so wide it looks like an inland sea, with a ragged coastline of bays, peninsulas and green islands. It is Africa's largest lake, yet surprisingly shallow — only about 80 m at its deepest. The equator crosses its northern waters, and from its northern shore the White Nile slips out on its long journey to the Mediterranean.",
+    "w": "A huge lake straddling the equator, with a jagged shoreline, many islands and afternoon thunderclouds building over the water.",
+    "f": [
+      "It is the largest tropical lake in the world and the second-largest freshwater lake by area.",
+      "John Hanning Speke named it after Queen Victoria in 1858; “Nyanza” simply means “lake” in several local languages.",
+      "Uganda, Kenya and Tanzania share its waters."
+    ],
+    "q": {
+      "q": "Which great river flows out of Lake Victoria?",
+      "a": "The White Nile",
+      "x": [
+        "The Congo",
+        "The Blue Nile"
+      ]
+    }
+  },
+  "Q173862": {
+    "t": "A freshwater sea with a two-volcano island",
+    "s": "Look for Ometepe: an island shaped like a figure of eight, formed by two volcanic cones joined by a low neck of land. It rises from the largest lake in Central America, so wide that the Spanish called it the Mar Dulce, the sweet sea. Bull sharks have long swum here from the Caribbean, up the San Juan River.",
+    "w": "A broad lake in south-west Nicaragua; spot the twin volcanic cones of Ometepe island near its western shore.",
+    "f": [
+      "Ometepe's taller volcano, Concepción, is active and rises to about 1,600 m.",
+      "Near the city of Granada, hundreds of tiny islets, Las Isletas, are scattered along the shore.",
+      "The lake drains to the Caribbean through the San Juan River."
+    ],
+    "q": {
+      "q": "What forms the island of Ometepe?",
+      "a": "Two volcanoes",
+      "x": [
+        "A coral reef",
+        "A river delta"
+      ]
+    }
+  },
+  "Q1134446": {
+    "t": "A clear, island-studded lake of the Canadian Shield",
+    "s": "Reindeer Lake is pure Canadian Shield: a long sheet of dark, clear water scattered with rocky, forested islands, its shores carved into countless bays by ice-age glaciers. It stretches north–south through almost roadless forest. Its water drains south through the Reindeer River into the Churchill, and on to Hudson Bay.",
+    "w": "A long north–south lake with ragged shores and many rocky islands, set in dark forest in north-eastern Saskatchewan.",
+    "f": [
+      "It is the second-largest lake in Saskatchewan, after Lake Athabasca.",
+      "The Cree community of Southend sits at its southern tip.",
+      "Its cold, clear water is home to big lake trout and northern pike."
+    ],
+    "q": {
+      "q": "Where does Reindeer Lake's water finally end up?",
+      "a": "Hudson Bay",
+      "x": [
+        "The Pacific Ocean",
+        "The Gulf of Mexico"
+      ]
+    }
+  },
+  "Q845876": {
+    "t": "A maze of islands with a notch in the border",
+    "s": "From above, Lake of the Woods looks like two lakes in one: an open, rounded basin in the south, and in the north a shattered maze of some 14,500 rocky, forested islands. On its western side sits the Northwest Angle, a quirk of old map-making that leaves a piece of Minnesota north of the 49th parallel, reachable by land only through Canada.",
+    "w": "A lake on the Canada–US border: an open southern bay and a northern labyrinth of wooded islands.",
+    "f": [
+      "The Northwest Angle is the only part of the contiguous United States north of the 49th parallel.",
+      "Its water drains north through the Winnipeg River.",
+      "The town of Kenora, Ontario, sits at its northern outlet."
+    ],
+    "q": {
+      "q": "About how many islands does Lake of the Woods have?",
+      "a": "About 14,500",
+      "x": [
+        "About 1,500",
+        "About 4,500"
+      ]
+    }
+  },
+  "Q122184": {
+    "t": "The big lake that feeds Lake Superior",
+    "s": "Just north of Lake Superior lies a big, ragged lake scattered with hundreds of islands. Lake Nipigon is the largest lake entirely inside Ontario, and it drains south through the Nipigon River — the biggest river flowing into Superior. Around it stretches almost unbroken boreal forest, dark green in summer and white in winter.",
+    "w": "A large, island-dotted lake a short way north of Lake Superior's northern shore, surrounded by dark forest.",
+    "f": [
+      "The world-record brook trout, 6.6 kg, was caught in the Nipigon River in 1915.",
+      "The lake covers about 4,800 km²."
+    ],
+    "q": {
+      "q": "Into which Great Lake does Lake Nipigon drain?",
+      "a": "Lake Superior",
+      "x": [
+        "Lake Huron",
+        "Lake Michigan"
+      ]
+    }
+  },
+  "Q645901": {
+    "t": "The lake that gave a province its name",
+    "s": "Lake Manitoba is long and shallow, and halfway along it narrows to a slim neck called the Narrows. There, waves striking limestone shores make eerie booming sounds, which people heard as the drum of a spirit — the likely origin of the lake's name, and of the province named after it. It is nowhere much deeper than 7 m.",
+    "w": "A long, slender lake west of Lake Winnipeg, narrowing sharply halfway up; marshes fringe its southern end.",
+    "f": [
+      "Delta Marsh, on its southern shore, is one of the largest freshwater marshes in North America.",
+      "Its water flows on, through smaller rivers and lakes, into Lake Winnipeg."
+    ],
+    "q": {
+      "q": "What was named after Lake Manitoba?",
+      "a": "A Canadian province",
+      "x": [
+        "A U.S. state",
+        "A mountain range"
+      ]
+    }
+  },
+  "Q934638": {
+    "t": "Winnipeg's “little muddy” sister",
+    "s": "Three big lakes lie side by side in Manitoba, all remnants of the same vanished ice-age lake. Winnipegosis is the westernmost: long, narrow and shallow, with a shoreline of low points and quiet bays. Even its name is the little sister of Winnipeg's — roughly “little muddy water” in Cree. Its water flows south into Lake Manitoba.",
+    "w": "The westernmost of Manitoba's three great lakes: long and narrow, running north–south, west of Lake Winnipeg.",
+    "f": [
+      "It drains south into Lake Manitoba through the Waterhen River.",
+      "Lakes Winnipegosis, Manitoba and Winnipeg are all remnants of glacial Lake Agassiz.",
+      "It covers more than 5,000 km², yet over most of that area it is only a few metres deep."
+    ],
+    "q": {
+      "q": "Which lake does Lake Winnipegosis flow into directly?",
+      "a": "Lake Manitoba",
+      "x": [
+        "Lake Athabasca",
+        "Lake of the Woods"
+      ]
+    }
+  },
+  "Q272463": {
+    "t": "A northern lake with a desert on its shore",
+    "s": "Along the south shore of Lake Athabasca, the dark forest suddenly gives way to bare, pale sand: the Athabasca Sand Dunes, among the most northerly large active dunes on Earth. At the lake's western end, the Peace and Athabasca rivers build a vast green delta. The north shore is rocky Canadian Shield, pitted with small lakes.",
+    "w": "A long east–west lake on the Alberta–Saskatchewan border; look for pale patches of sand along its southern shore.",
+    "f": [
+      "The Peace–Athabasca Delta is one of the largest freshwater deltas in the world.",
+      "Fort Chipewyan, founded on its shore in 1788, is one of Alberta's oldest settlements.",
+      "Its water flows north via the Slave River towards Great Slave Lake and the Arctic."
+    ],
+    "q": {
+      "q": "What unusual landscape lies on Lake Athabasca's southern shore?",
+      "a": "Active sand dunes",
+      "x": [
+        "Hot springs",
+        "A volcanic crater"
+      ]
+    }
+  },
+  "Q1458051": {
+    "t": "Quebec's largest natural lake, split by islands",
+    "s": "Lake Mistassini looks as if it was raked by a giant comb: long and narrow, it runs north-east for more than 150 km, with a chain of slender islands dividing it lengthwise. The Cree community of Mistissini sits on its southern shore, and the lake drains west through the Rupert River into James Bay.",
+    "w": "A long, narrow lake running south-west to north-east in the forests of central Quebec, split down the middle by islands.",
+    "f": [
+      "Its name comes from the Cree for “big rock”.",
+      "It covers about 2,300 km², more than any other natural lake in Quebec."
+    ],
+    "q": {
+      "q": "Where does Lake Mistassini's water end up?",
+      "a": "James Bay",
+      "x": [
+        "The Gulf of St Lawrence",
+        "Lake Ontario"
+      ]
+    }
+  },
+  "Q1267413": {
+    "t": "Lake Huron's big bay of thirty thousand islands",
+    "s": "Georgian Bay is so large it is sometimes called the sixth Great Lake, though it is really an arm of Lake Huron. The Bruce Peninsula walls it off in the west, a finger of limestone cliffs above turquoise water. Along the eastern shore, pinkish granite breaks into the Thirty Thousand Islands, a glittering scatter from the air.",
+    "w": "A large bay east of Lake Huron, closed off by the finger of the Bruce Peninsula, with a maze of islands on its eastern shore.",
+    "f": [
+      "The Thirty Thousand Islands form the world's largest freshwater archipelago.",
+      "The Bruce Peninsula is part of the Niagara Escarpment, the same rock ridge that Niagara Falls pours over.",
+      "It was named in 1822 after King George IV."
+    ],
+    "q": {
+      "q": "Which peninsula separates Georgian Bay from the rest of Lake Huron?",
+      "a": "The Bruce Peninsula",
+      "x": [
+        "The Keweenaw Peninsula",
+        "The Door Peninsula"
+      ]
+    }
+  },
+  "Q15288": {
+    "t": "Europe's largest lake, rocky in the north",
+    "s": "Europe's largest lake has two faces. Its southern shore is low and marshy, but the north breaks into skerries — rocky islands and narrow inlets gouged by glaciers — where the water plunges to over 200 m. On the Valaam islands, in the north, stands a monastery founded in the Middle Ages.",
+    "w": "A huge lake north-east of St Petersburg, low-shored in the south; in the north, a rocky maze of islands and inlets.",
+    "f": [
+      "The Neva carries its water only about 74 km to the Baltic, straight through St Petersburg.",
+      "It is home to the Ladoga ringed seal, a subspecies found nowhere else.",
+      "The lake covers about 17,700 km² — more than half the size of Belgium."
+    ],
+    "q": {
+      "q": "Which river carries Lake Ladoga's water to the Baltic?",
+      "a": "The Neva",
+      "x": [
+        "The Svir",
+        "The Volkhov"
+      ]
+    }
+  },
+  "Q134485": {
+    "t": "A lake that is half fresh and half salty",
+    "s": "Lake Balkhash is a long, thin arc across the Kazakh steppe, some 600 km from end to end, and it is two lakes in one. The western half, fed by the Ili River, is nearly fresh; the eastern half, linked to it only by a narrow strait, is salty. From above, the two halves often show slightly different shades.",
+    "w": "A long, thin arc of water across the dry steppe of eastern Kazakhstan, with the green Ili delta near its western end.",
+    "f": [
+      "The Ili River, flowing in from the south, supplies most of its water.",
+      "The strait linking its two halves is only a few kilometres wide.",
+      "It has no outlet: water leaves only by evaporation."
+    ],
+    "q": {
+      "q": "Which river feeds Lake Balkhash?",
+      "a": "The Ili",
+      "x": [
+        "The Irtysh",
+        "The Syr Darya"
+      ]
+    }
   }
 }

@@ -169,6 +169,7 @@ export const ru = {
     takeoffNow: 'Только что',
     takeoffAgo: '%{m} минут назад',
     takeoffScheduled: 'По расписанию',
+    routeTrack: 'Маршрут — как этот рейс летел %{date}',
   },
   advice: {
     label: 'место у окна',
@@ -182,6 +183,9 @@ export const ru = {
     night: 'ночной рейс',
     yourSeat: 'Ваше место %{seat} — %{side}',
     yourSeatNoWindow: 'Ваше место %{seat} — не у окна',
+    cloudyMost: 'Прогноз: облачно примерно на %{pct}% маршрута',
+    cloudySome: 'Прогноз: местами облачно, около %{pct}% маршрута',
+    clear: 'Прогноз: по маршруту в основном ясно',
   },
   addFlight: {
     title: 'новый рейс',
@@ -225,6 +229,13 @@ export const ru = {
     stage_photos: 'Фотографии',
     stage_map: 'Офлайн-карта',
     continueBackground: 'продолжить в фоне',
+    byNumber: 'найти по номеру рейса',
+    byNumberHint: 'Достаточно номера и даты — аэропорты и время заполнятся сами.',
+    find: 'Найти',
+    orManual: '…или укажите аэропорты вручную:',
+    found: '%{from} — %{to}, вылет в %{time}',
+    notFound: 'Не нашли такой рейс на эту дату — заполните вручную.',
+    numberInvalid: 'Не похоже на номер рейса.',
   },
   guess: {
     label: 'угадайте',
@@ -265,6 +276,7 @@ export const ru = {
     finish: 'Завершить полёт',
     finishTitle: 'Завершить полёт сейчас?',
     finishBody: 'В паспорт попадёт только то, над чем вы уже пролетели.',
+    cloudsBelow: 'По прогнозу внизу облака — ловите просветы.',
   },
   facts: {
     title: 'сверху',

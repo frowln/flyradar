@@ -4,6 +4,9 @@ import { listPackages, savePackage } from './packageStore';
 import { cachePhotos } from './photoCache';
 import { downloadCorridor, hasCorridor } from '../map/offlineMap';
 import { useSession } from '../flight/session';
+import { API_ENABLED } from '../api/client';
+import { fetchClouds } from '../api/flights';
+import { fetchCloudsFor } from '../flight/clouds';
 
 /**
  * Finishing what the first preparation could not.
@@ -13,9 +16,31 @@ import { useSession } from '../flight/session';
  * connection, flights still ahead are topped up quietly: missing stories (or
  * all of them, if the reader has changed language since), photos not yet on the
  * phone, and the map corridor. Nothing runs while a flight is in the air.
+ * With a server, flights in the next three days also get a fresher cloud
+ * forecast: it sharpens by the day as departure nears.
  */
 
 const HORIZON_MS = 14 * 24 * 3600_000;
+const CLOUD_REFRESH_WITHIN_MS = 3 * 24 * 3600_000;
+/** A forecast younger than this is as good as a new one; models run every few hours. */
+const CLOUD_MAX_AGE_MS = 3 * 3600_000;
+
+function cloudsDue(pkg: OfflinePackage, now: Date): boolean {
+  const dep = Date.parse(pkg.flight.scheduledDeparture);
+  if (!Number.isFinite(dep) || dep < now.getTime() || dep - now.getTime() > CLOUD_REFRESH_WITHIN_MS) return false;
+  const fetched = Date.parse(pkg.cloudsAt ?? '');
+  return !Number.isFinite(fetched) || now.getTime() - fetched >= CLOUD_MAX_AGE_MS;
+}
+
+/** The package with a fresh forecast, or unchanged when none could be had. */
+async function refreshClouds(pkg: OfflinePackage, now: Date): Promise<OfflinePackage> {
+  if (!API_ENABLED || !cloudsDue(pkg, now)) return pkg;
+  const clouds = await fetchCloudsFor(pkg, fetchClouds, now);
+  if (!clouds) return pkg;
+  const next = { ...pkg, clouds, cloudsAt: now.toISOString() };
+  await savePackage(next);
+  return next;
+}
 
 function sameLang(pkg: OfflinePackage, locale: string): boolean {
   return (pkg.locale ?? 'en').slice(0, 2) === locale.slice(0, 2);
@@ -27,15 +52,15 @@ function missing(pkg: OfflinePackage) {
   return pkg.pois.filter((p) => p.wikidata && !p.textSource && !skip.has(p.id));
 }
 
-export async function topUpFlight(pkg: OfflinePackage, locale: string): Promise<OfflinePackage> {
-  let next = pkg;
+export async function topUpFlight(pkg: OfflinePackage, locale: string, now: Date = new Date()): Promise<OfflinePackage> {
+  let next = await refreshClouds(pkg, now);
   const relang = !sameLang(pkg, locale);
   const todo = relang ? pkg.pois : missing(pkg);
   if (todo.length) {
     const enriched = await enrichWithWikipedia(todo, locale);
     const found = enriched.filter((p) => p.textSource);
     // Nothing at all came back: most likely no connection. Try again next time.
-    if (found.length === 0) return pkg;
+    if (found.length === 0) return next;
     const byId = new Map(found.map((p) => [p.id, p]));
     const none = todo.filter((p) => !byId.has(p.id)).map((p) => p.id);
     next = {
@@ -69,7 +94,7 @@ export function topUpAll(locale: string, now: Date = new Date()): Promise<number
       const dep = new Date(pkg.flight.scheduledDeparture).getTime();
       if (dep < now.getTime() - 3600_000 || dep > now.getTime() + HORIZON_MS) continue;
       try {
-        const after = await topUpFlight(pkg, locale);
+        const after = await topUpFlight(pkg, locale, now);
         if (after !== pkg) changed++;
       } catch {
         // Offline or a service down: the next launch tries again.

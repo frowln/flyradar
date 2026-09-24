@@ -167,6 +167,7 @@ export const fr = {
     takeoffNow: 'À l’instant',
     takeoffAgo: 'Il y a %{m} minutes',
     takeoffScheduled: 'À l’heure prévue',
+    routeTrack: 'Trajet tel que ce vol l’a réellement suivi le %{date}',
   },
   advice: {
     label: 'place hublot',
@@ -180,6 +181,9 @@ export const fr = {
     night: 'vol de nuit',
     yourSeat: 'Votre siège %{seat} est %{side}',
     yourSeatNoWindow: 'Votre siège %{seat} n’est pas côté hublot',
+    cloudyMost: 'Prévision : nuageux sur environ %{pct} % du trajet',
+    cloudySome: 'Prévision : quelques nuages, environ %{pct} % du trajet',
+    clear: 'Prévision : ciel plutôt dégagé sur le trajet',
   },
   addFlight: {
     title: 'nouveau vol',
@@ -223,6 +227,13 @@ export const fr = {
     stage_photos: 'Photos',
     stage_map: 'Carte hors ligne',
     continueBackground: 'continuer en arrière-plan',
+    byNumber: 'trouver par numéro de vol',
+    byNumberHint: 'Le numéro et la date suffisent : aéroports et horaires se remplissent seuls.',
+    find: 'Trouver',
+    orManual: '…ou saisissez les aéroports vous-même :',
+    found: '%{from} — %{to}, départ à %{time}',
+    notFound: 'Vol introuvable à cette date — saisissez-le à la main.',
+    numberInvalid: 'Ce n’est pas un numéro de vol.',
   },
   guess: {
     label: 'devinez',
@@ -263,6 +274,7 @@ export const fr = {
     finish: 'Terminer le vol',
     finishTitle: 'Terminer le vol maintenant ?',
     finishBody: 'Seul ce que vous avez déjà survolé entre dans votre passeport.',
+    cloudsBelow: 'Des nuages sont prévus en dessous : guettez les trouées.',
   },
   facts: {
     title: 'vu d’en haut',

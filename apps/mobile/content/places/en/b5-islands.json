@@ -638,5 +638,646 @@
         "Fish migrations"
       ]
     }
+  },
+  "Q686": {
+    "t": "A chain of volcanoes, some of them still glowing",
+    "s": "Vanuatu is a chain of about 80 islands running some 1,300 km north to south, and many of them are volcanoes. Steep green slopes drop to fringing reef, and in places bare ash plains and smoking craters break the forest. On Tanna, in the south, Mount Yasur has been erupting almost without pause for centuries; at night its crater glow can sometimes be seen from far away.",
+    "w": "A long chain of green volcanic islands with reef edges; look for grey ash slopes and drifting plumes, especially in the south.",
+    "f": [
+      "The land divers of Pentecost Island, who leap from wooden towers with vines tied to their ankles, inspired bungee jumping.",
+      "Vanuatu has an underwater post office, in the reef off Hideaway Island near Port Vila."
+    ],
+    "q": {
+      "q": "Which sport was inspired by Pentecost Island's land divers?",
+      "a": "Bungee jumping",
+      "x": [
+        "Cliff diving",
+        "Skydiving"
+      ]
+    }
+  },
+  "Q80389": {
+    "t": "A chain of volcanic cones stepping across the sea",
+    "s": "Between Kamchatka and Hokkaido the Kurils cross the sea like a line of stepping stones about 1,200 km long. Many are simply volcanoes poking out of the water, their slopes streaked with snow well into summer. Fog is the rule here, but on a clear day look for Alaid, a lone cone rising straight from the waves at the northern end of the chain.",
+    "w": "A line of small, steep volcanic islands and cones between two seas, often half hidden by fog.",
+    "f": [
+      "Alaid, on Atlasov Island, rises to about 2,300 m and is the highest volcano in the chain.",
+      "On Onekotan, a volcanic cone rises from a lake that fills an older, larger crater.",
+      "Just offshore, the Kuril–Kamchatka Trench plunges more than 9 km deep."
+    ],
+    "q": {
+      "q": "Which sea lies to the west of the Kuril Islands?",
+      "a": "The Sea of Okhotsk",
+      "x": [
+        "The Sea of Japan",
+        "The Bering Sea"
+      ]
+    }
+  },
+  "Q1964385": {
+    "t": "Volcanic islands that are, officially, part of Tokyo",
+    "s": "South of Tokyo Bay a thin line of volcanic islands runs more than 1,000 km out into the Pacific: first the Izu Islands, then the Ogasawara group, then the Volcano Islands. Many are single cones with steep, dark shores and a collar of white surf. However far they lie from the capital, all of them are governed by the Tokyo Metropolis.",
+    "w": "A long north–south dotted line of small, steep volcanic islands, some with craters, fringed by white surf.",
+    "f": [
+      "The Ogasawara Islands have never been joined to a continent, so many of their species live nowhere else; they are a UNESCO site.",
+      "Nishinoshima has grown many times over since eruptions began in 2013, swallowing the old island.",
+      "Ogasawara has no airport: the ferry from Tokyo takes about 24 hours."
+    ],
+    "q": {
+      "q": "Which city governs the Nanpō Islands?",
+      "a": "Tokyo",
+      "x": [
+        "Osaka",
+        "Yokohama"
+      ]
+    }
+  },
+  "Q11832316": {
+    "t": "Remote atolls of black pearls and empty lagoons",
+    "s": "Far north of Rarotonga, a handful of small atolls lie scattered across hundreds of kilometres of ocean. From above they are classic rings: a thin rim of coconut palms around a lagoon that glows every shade from jade to turquoise. A few hundred people at most live on each inhabited island, and cultured black pearls from Manihiki's lagoon are the local treasure.",
+    "w": "Isolated rings of land around jade and turquoise lagoons, widely scattered, with no high ground at all.",
+    "f": [
+      "New Zealander Tom Neale lived alone on Suwarrow for years and wrote 'An Island to Oneself' about it.",
+      "Suwarrow is now a national park with no permanent residents, only seasonal caretakers."
+    ],
+    "q": {
+      "q": "What is Manihiki atoll famous for?",
+      "a": "Black pearls",
+      "x": [
+        "Vanilla",
+        "Sea salt"
+      ]
+    }
+  },
+  "Q1011": {
+    "t": "Dry volcanic islands where Atlantic hurricanes are born",
+    "s": "Some 500 km off West Africa, ten volcanic islands rise from the Atlantic in shades of rust, ochre and grey — the Sahara's dry breath reaches this far. Sal and Boa Vista in the east are flat and sandy. In the south-west, Fogo is one enormous volcano, with a young black cone standing inside a broad, collapsed caldera.",
+    "w": "Brown, arid islands in deep-blue sea; Fogo is round, with a dark cone inside a caldera; the eastern islands are flat and sandy.",
+    "f": [
+      "The islands were uninhabited until the Portuguese arrived around 1460.",
+      "Pico do Fogo, 2,829 m, is the highest point; it last erupted in 2014–15.",
+      "Many of the strongest Atlantic hurricanes begin as storms near these islands."
+    ],
+    "q": {
+      "q": "Which Cape Verde island is a single volcano with a cone inside its caldera?",
+      "a": "Fogo",
+      "x": [
+        "Sal",
+        "Boa Vista"
+      ]
+    }
+  },
+  "Q891593": {
+    "t": "An island that was mapped as a peninsula until 1908",
+    "s": "At the mouth of the Khatanga Gulf, on the edge of the Laptev Sea, lies a low, roughly square island of tundra about 60 km across. For most of the year it is white and merges with the sea ice around it; in the short summer it turns brown-green and glitters with small lakes. Rivers run outwards from its central upland like the spokes of a wheel.",
+    "w": "A squarish, low tundra island at the mouth of a long gulf, lake-speckled in summer, often fused with sea ice.",
+    "f": [
+      "Until 1908 it was mapped as a peninsula; Nikifor Begichev showed it was an island, and it now bears his name.",
+      "Its highest point, on the central Kiryaka upland, is under 200 m.",
+      "Begichev had earlier sailed on Eduard Toll's Russian polar expedition of 1900–1902."
+    ],
+    "q": {
+      "q": "What was Bolshoy Begichev thought to be before 1908?",
+      "a": "A peninsula",
+      "x": [
+        "Two separate islands",
+        "A sandbank"
+      ]
+    }
+  },
+  "Q219774": {
+    "t": "India's southernmost tip, wrapped in rainforest",
+    "s": "Great Nicobar is the largest and wildest of the Nicobars: hilly, almost wholly covered in rainforest, its rivers winding out through mangroves to the sea. Its southern tip, Indira Point, is the southernmost point of India, and Sumatra lies only about 150 km beyond it. The Shompen, a small forest people, live in the interior.",
+    "w": "A large, hilly, dark-green island at the southern end of the Nicobar chain, with pale beaches and mangrove creeks.",
+    "f": [
+      "Much of the island is a biosphere reserve that includes two national parks.",
+      "Giant leatherback turtles come ashore on its beaches to nest."
+    ],
+    "q": {
+      "q": "What is Indira Point, on Great Nicobar, known for?",
+      "a": "India's southernmost point",
+      "x": [
+        "India's highest island peak",
+        "India's oldest lighthouse"
+      ]
+    }
+  },
+  "Q1473243": {
+    "t": "The Andamans' busy hub, ringed by reef and mangroves",
+    "s": "Most flights to the Andamans land here, on the island that holds the capital and most of the islands' people. From the air South Andaman is a ragged shape of forested hills and deep, winding creeks lined with mangroves. Off its south-west coast, a marine national park protects reefs and a scatter of small islands set in pale turquoise water.",
+    "w": "A ragged, hilly green island with long mangrove creeks; the town and airport on its east coast, small reef islands to the south-west.",
+    "f": [
+      "The Mahatma Gandhi Marine National Park, founded in 1983, covers some 15 small islands and their reefs.",
+      "Chidiya Tapu, at the island's southern tip, is known for its birdlife and sunsets over the sea."
+    ],
+    "q": {
+      "q": "Which marine national park lies off South Andaman?",
+      "a": "Mahatma Gandhi Marine National Park",
+      "x": [
+        "Gulf of Mannar National Park",
+        "Sundarbans National Park"
+      ]
+    }
+  },
+  "Q222853": {
+    "t": "The largest Andaman island, forest from shore to shore",
+    "s": "Middle Andaman is the largest island of the chain, and from above it is almost unbroken forest from coast to coast. Its eastern shore is cut by long, branching creeks fringed with mangroves; the western side, facing the open sea, is wilder still and part of the Jarawa people's reserve. Look for small islands and turquoise reef patches off the east coast.",
+    "w": "An elongated island of near-continuous dark forest, with mangrove-lined creeks on the east and small islets offshore.",
+    "f": [
+      "At about 1,500 km², it is the largest of the Andaman Islands.",
+      "Just to the south, on Baratang Island, small mud volcanoes bubble up through the forest."
+    ],
+    "q": {
+      "q": "What unusual feature is found on Baratang, just south of Middle Andaman?",
+      "a": "Mud volcanoes",
+      "x": [
+        "A salt lake",
+        "A crater lake"
+      ]
+    }
+  },
+  "Q2000510": {
+    "t": "The Andamans' highest peak rises from this forested isle",
+    "s": "At the northern end of the Great Andaman chain, this island rises higher than any other: Saddle Peak, 732 m, stands near its east coast in a national park of dense forest. Around it, creeks and mangroves eat into the shore, and reefs trace pale lines offshore. Beyond, open sea stretches north towards Myanmar's Coco Islands.",
+    "w": "The northernmost large island of the Andaman chain: forested hills rising to a high ridge near the east coast.",
+    "f": [
+      "Saddle Peak, 732 m, is the highest point of the Andaman and Nicobar Islands.",
+      "Off Diglipur, the little islands of Ross and Smith are joined by a narrow sandbar, making a pair of twins."
+    ],
+    "q": {
+      "q": "What is the highest point of the Andaman Islands?",
+      "a": "Saddle Peak",
+      "x": [
+        "Mount Harriet",
+        "Mount Thullier"
+      ]
+    }
+  },
+  "Q82601": {
+    "t": "Magellan's 'Land of Fire' at the bottom of the Americas",
+    "s": "At the very tip of South America the Andes bend east and crumble into islands, glaciers and fjords. The main island of Tierra del Fuego is two landscapes in one: flat, tawny steppe with pale lakes in the north, and snowy mountains with glaciers spilling towards the sea in the south. The Strait of Magellan cuts it off from the mainland.",
+    "w": "A big triangular island: yellow-brown plains in the north, snowy peaks and glaciers in the south, the Beagle Channel along its southern edge.",
+    "f": [
+      "Magellan named it in 1520 after the fires he saw burning along its shores.",
+      "Cape Horn lies on a small island at the archipelago's southern edge.",
+      "The Beagle Channel is named after HMS Beagle, the ship that later carried Charles Darwin here."
+    ],
+    "q": {
+      "q": "Which strait separates Tierra del Fuego from the mainland?",
+      "a": "The Strait of Magellan",
+      "x": [
+        "The Drake Passage",
+        "The Beagle Channel"
+      ]
+    }
+  },
+  "Q1952": {
+    "t": "Almost an island, hugged by the world's highest tides",
+    "s": "Nova Scotia is a long peninsula tied to the mainland only by a narrow neck of land, and nowhere in it is more than about 67 km from the sea. The Atlantic coast is a ragged fringe of coves, rocks and islets. On the north-west side, the Bay of Fundy has the highest tides in the world: at low water, look for vast red mudflats where there was sea a few hours before.",
+    "w": "A long peninsula parallel to the mainland, a deeply indented Atlantic coast, and reddish tidal flats along the Bay of Fundy.",
+    "f": [
+      "Fundy's tides can rise and fall by about 16 m, the greatest range on Earth.",
+      "The name is Latin for 'New Scotland'.",
+      "Sable Island, a thin crescent of sand far out in the Atlantic off Nova Scotia, is home to wild horses."
+    ],
+    "q": {
+      "q": "Which bay beside Nova Scotia has the world's highest tides?",
+      "a": "The Bay of Fundy",
+      "x": [
+        "Hudson Bay",
+        "Chesapeake Bay"
+      ]
+    }
+  },
+  "Q170479": {
+    "t": "A mountainous island between the ocean and the mainland",
+    "s": "Vancouver Island runs about 460 km along Canada's Pacific coast, its spine of snowy mountains dividing two worlds. The west side faces the open ocean with deep sounds, surf and temperate rainforest; the sheltered east side has farmland and towns along the Strait of Georgia. At its southern tip is Victoria, capital of British Columbia — the city of Vancouver is across the water on the mainland.",
+    "w": "A long mountainous island parallel to the coast: snowy peaks down the middle, fjord-like inlets on the ocean side.",
+    "f": [
+      "It is the largest island on the Pacific coast of North America.",
+      "Its highest peak, the Golden Hinde, reaches 2,195 m.",
+      "It is named after George Vancouver, who charted this coast in 1792."
+    ],
+    "q": {
+      "q": "Which capital city stands on Vancouver Island?",
+      "a": "Victoria",
+      "x": [
+        "Vancouver",
+        "Olympia"
+      ]
+    }
+  },
+  "Q158129": {
+    "t": "A jagged Arctic giant riddled with lakes",
+    "s": "Victoria Island is the eighth-largest island in the world, and one of the oddest-looking: its coast splays into long peninsulas and deep bays like a spilled blot of ink. Inland, the low tundra is spattered with countless lakes that stay frozen for much of the year. Only about 2,000 people live here, mostly in Cambridge Bay and Ulukhaktok.",
+    "w": "A huge, low, ragged island with spreading peninsulas, deep bays and tundra freckled with lakes, often under sea ice.",
+    "f": [
+      "At about 217,000 km², it is bigger than Great Britain.",
+      "The border between Nunavut and the Northwest Territories runs across it.",
+      "It holds the largest known island in a lake on an island in a lake on an island."
+    ],
+    "q": {
+      "q": "Victoria Island is larger than which of these islands?",
+      "a": "Great Britain",
+      "x": [
+        "Honshu",
+        "Sumatra"
+      ]
+    }
+  },
+  "Q380307": {
+    "t": "A wild, lake-spattered land where icebergs drift south",
+    "s": "Labrador is the wild mainland half of Newfoundland and Labrador: a rocky plateau scoured by ice-age glaciers and spattered with thousands of lakes. In the north the Torngat Mountains rise in sharp peaks straight from the sea, with small glaciers tucked into their hollows. Offshore, the cold Labrador Current carries icebergs south from Greenland in spring and early summer.",
+    "w": "Barren rocky upland dotted with countless lakes, a fjorded coast and sharp peaks in the north; icebergs offshore in spring.",
+    "f": [
+      "Mount Caubvick in the Torngats, 1,652 m, is the highest point of mainland Canada east of the Rockies.",
+      "The shimmering gemstone labradorite is named after this region.",
+      "Norse sagas mention a forested 'Markland', which many historians place here."
+    ],
+    "q": {
+      "q": "Which gemstone takes its name from Labrador?",
+      "a": "Labradorite",
+      "x": [
+        "Larimar",
+        "Amazonite"
+      ]
+    }
+  },
+  "Q146841": {
+    "t": "The top of Canada, less than 800 km from the North Pole",
+    "s": "Ellesmere is the northernmost part of Canada, and from above it looks as if the Ice Age never quite ended: ice caps and glaciers pour through dark mountains into fjords sealed with sea ice. Its northern tip, Cape Columbia, is less than 800 km from the North Pole. Only around 150 people live here, most of them in the Inuit hamlet of Grise Fiord.",
+    "w": "Dark mountains buried in ice caps, glaciers spilling into fjords, and frozen sea on every side.",
+    "f": [
+      "Alert, on its north-east coast, is the northernmost permanently staffed place on Earth.",
+      "Barbeau Peak, 2,616 m, is the highest point in Nunavut.",
+      "Fossils of Tiktaalik, a fish with limb-like fins, were found here in 2004."
+    ],
+    "q": {
+      "q": "What is the northernmost permanently staffed place on Earth?",
+      "a": "Alert",
+      "x": [
+        "Longyearbyen",
+        "Qaanaaq"
+      ]
+    }
+  },
+  "Q81178": {
+    "t": "The world's fifth-largest island, cut by fjords and ice",
+    "s": "On polar routes between Europe and western North America you may cross Baffin, Canada's biggest island. Its east coast is dramatic: mountains, ice caps and deep fjords walled with granite, often edged by sea ice or icebergs. The west is lower and flatter, dotted with lakes. Iqaluit, the capital of Nunavut, sits at the head of Frobisher Bay in the south-east.",
+    "w": "A huge island with a mountainous, fjord-slashed, ice-capped east coast and low, lake-dotted tundra to the west.",
+    "f": [
+      "At about 507,000 km², Baffin is Canada's largest island and the fifth-largest in the world.",
+      "Mount Thor's sheer granite face, about 1,250 m high, is the world's greatest vertical drop.",
+      "Norse sagas describe a stony 'Helluland', usually identified with Baffin."
+    ],
+    "q": {
+      "q": "Which territorial capital is on Baffin Island?",
+      "a": "Iqaluit",
+      "x": [
+        "Yellowknife",
+        "Whitehorse"
+      ]
+    }
+  },
+  "Q48335": {
+    "t": "The Rock, where Vikings landed a thousand years ago",
+    "s": "Transatlantic flights often make landfall over Newfoundland, a big, rugged island of rock, bog, forest and countless ponds. Its coast is a maze of long bays and headlands, and in spring icebergs from Greenland drift past. Near its northern tip, around the year 1000, Norse sailors built a small settlement at L'Anse aux Meadows — the only confirmed Viking site in North America outside Greenland.",
+    "w": "A big, rough-edged island of dark forest and bog, speckled with ponds, its coast a maze of deep bays.",
+    "f": [
+      "Newfoundland keeps its own time zone, half an hour ahead of Atlantic time.",
+      "In Gros Morne National Park, the Tablelands expose rock from the Earth's mantle.",
+      "Cape Spear, near St. John's, is the easternmost point of North America outside Greenland."
+    ],
+    "q": {
+      "q": "What is the Norse site near Newfoundland's northern tip called?",
+      "a": "L'Anse aux Meadows",
+      "x": [
+        "Port aux Basques",
+        "Trois-Rivières"
+      ]
+    }
+  },
+  "Q3812": {
+    "t": "The island shaped like a sprawling letter K",
+    "s": "Sulawesi is instantly recognisable on a map and from the air: four long, mountainous arms reach out from a central knot, so nowhere is very far from the sea. Deep gulfs lie between the arms, and inland the ridges hide clear, deep lakes. The island sits beyond the Wallace Line, and many of its animals, like the tusked babirusa pig, live nowhere else.",
+    "w": "Four long, narrow, mountainous peninsulas spreading from a centre like a starfish, with deep gulfs between them.",
+    "f": [
+      "Lake Matano, about 590 m deep, is the deepest lake in South-East Asia.",
+      "In the highlands of Tana Toraja, traditional houses carry huge upswept roofs shaped like boats.",
+      "At about 180,000 km², Sulawesi is the world's 11th-largest island."
+    ],
+    "q": {
+      "q": "Which letter is Sulawesi's outline often compared to?",
+      "a": "K",
+      "x": [
+        "S",
+        "Y"
+      ]
+    }
+  },
+  "Q3757": {
+    "t": "A string of volcanoes on the world's most crowded island",
+    "s": "Java is about 1,000 km long, and down its spine marches a line of volcanic cones, many of them active — on a clear day you can count them one after another. Between them, rice fields and towns fill every valley: more than 150 million people live here. In the east, look for the Tengger caldera, a grey 'sea of sand' with the smoking crater of Bromo inside.",
+    "w": "A long island with a row of volcanic cones along its length; in the east, a grey sandy caldera holding smaller cones.",
+    "f": [
+      "Semeru, 3,676 m, is Java's highest volcano and one of its most active.",
+      "At night Java glows almost from end to end with the lights of its towns and cities.",
+      "Borobudur, in central Java, is the largest Buddhist temple in the world."
+    ],
+    "q": {
+      "q": "Which is Java's highest volcano?",
+      "a": "Semeru",
+      "x": [
+        "Merapi",
+        "Bromo"
+      ]
+    }
+  },
+  "Q124873": {
+    "t": "Mount Apo, rare eagles and a 10-km-deep trench offshore",
+    "s": "Mindanao, the Philippines' big southern island, is a sprawling, many-armed shape of forested mountains, volcanoes and wide river plains. Near Davao, Mount Apo rises to 2,954 m, the highest point in the country. Just off the east coast the sea floor drops into the Philippine Trench, more than 10 km deep — nearly as far down as you are up.",
+    "w": "A large, many-lobed island of green mountains and plains, with a big lake on its north-central plateau and Mount Apo near Davao.",
+    "f": [
+      "Lake Lanao, on the north-central plateau, is the second-largest lake in the Philippines.",
+      "Mindanao's forests are the last stronghold of the Philippine eagle, one of the largest eagles in the world.",
+      "It is the second-largest island in the Philippines, after Luzon."
+    ],
+    "q": {
+      "q": "What is the highest mountain in the Philippines?",
+      "a": "Mount Apo",
+      "x": [
+        "Mayon Volcano",
+        "Mount Pulag"
+      ]
+    }
+  },
+  "Q125384": {
+    "t": "Mayon's perfect cone and a volcano inside a lake",
+    "s": "Luzon is the largest island of the Philippines: a long shape with a mountain spine in the north and a ragged tail curling to the south-east. Look south of Manila's sprawl for two lakes — broad Laguna de Bay, and Taal, with a volcanic island in its middle. Near the south-eastern tip stands Mayon, a cone so symmetrical it looks drawn with a ruler.",
+    "w": "Mountains in the north, Manila's sprawl around its bay, two big lakes to the south, and a lone perfect cone near the south-eastern tip.",
+    "f": [
+      "Mayon, 2,462 m, is famous as one of the most perfectly shaped volcanic cones on Earth.",
+      "Laguna de Bay, just south-east of Manila, is the largest lake in the Philippines.",
+      "The rice terraces of the Cordillera, in northern Luzon, are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which lake near Manila has a volcanic island in its middle?",
+      "a": "Taal Lake",
+      "x": [
+        "Laguna de Bay",
+        "Lake Lanao"
+      ]
+    }
+  },
+  "Q22502": {
+    "t": "Mountains higher than Fuji on a leaf-shaped island",
+    "s": "Taiwan is shaped like a leaf, and its two sides could hardly be more different. The east is a wall of mountains dropping almost straight into the Pacific, with more than 200 peaks above 3,000 m. The west slopes gently down to a crowded plain of cities and fields that blazes with light at night. The Tropic of Cancer runs across the middle.",
+    "w": "A leaf-shaped island: steep forested mountains packed along the east, a busy flat plain along the west coast.",
+    "f": [
+      "Yushan, or Jade Mountain, reaches 3,952 m — higher than Mount Fuji.",
+      "Portuguese sailors called it Ilha Formosa, 'beautiful island'.",
+      "Sun Moon Lake, in the central mountains, is the island's largest body of water."
+    ],
+    "q": {
+      "q": "What does 'Formosa', an old name for Taiwan, mean?",
+      "a": "Beautiful island",
+      "x": [
+        "Green island",
+        "Mountain island"
+      ]
+    }
+  },
+  "Q13987": {
+    "t": "Where volcanoes smoke above the city streets",
+    "s": "Kyushu, the southernmost of Japan's main islands, is volcano country. In its centre, Aso's caldera is so vast that towns, farms and a railway fit inside it. In the south, Sakurajima rises from Kagoshima Bay just across the water from the city, often trailing a plume of ash. The coast is ragged with bays and islands, especially towards Nagasaki in the west.",
+    "w": "A mountainous island with a huge round caldera in its middle and a smoking volcano in a southern bay.",
+    "f": [
+      "The name Kyushu means 'nine provinces', after its old divisions.",
+      "During Japan's long isolation, the islet of Dejima in Nagasaki harbour was its only window for European traders.",
+      "Aso's caldera measures roughly 25 by 18 km."
+    ],
+    "q": {
+      "q": "What does the name Kyushu mean?",
+      "a": "Nine provinces",
+      "x": [
+        "Southern island",
+        "Land of fire"
+      ]
+    }
+  },
+  "Q13991": {
+    "t": "Japan's quiet island of 88 temples",
+    "s": "Shikoku is the smallest and least crowded of Japan's four main islands, mostly steep, forested mountains with towns strung along the coast. To the north lies the Seto Inland Sea, calm water studded with islands and crossed by long bridges. In the Naruto Strait, on the east side, the turning tide spins whirlpools that can reach about 20 m across.",
+    "w": "A compact mountainous island south of the island-dotted Seto Inland Sea, linked to Honshu by long bridges.",
+    "f": [
+      "Pilgrims walk a circuit of 88 Buddhist temples around the island, about 1,200 km in all.",
+      "Mount Ishizuchi, 1,982 m, is the highest peak in western Japan.",
+      "Three bridge routes link Shikoku to Honshu across the Seto Inland Sea."
+    ],
+    "q": {
+      "q": "How many temples are on Shikoku's famous pilgrimage?",
+      "a": "88",
+      "x": [
+        "33",
+        "108"
+      ]
+    }
+  },
+  "Q35581": {
+    "t": "Japan's snowy north, where sea ice reaches the shore",
+    "s": "Hokkaido feels different from the rest of Japan: wider fields, bigger forests, fewer people and far more snow. From above, look for round caldera lakes — Shikotsu, Tōya, Kussharo — set among volcanic hills. In late winter, drift ice from the Sea of Okhotsk packs against the north-east coast and the Shiretoko Peninsula, turning the sea white.",
+    "w": "A big island of broad farmland, forested mountains and round blue caldera lakes; white in winter, with sea ice along the north-east.",
+    "f": [
+      "The drift ice that reaches Hokkaido is the lowest-latitude sea ice in the Northern Hemisphere.",
+      "It covers over a fifth of Japan's land but holds only about 4% of its people.",
+      "Sapporo hosted the Winter Olympics in 1972."
+    ],
+    "q": {
+      "q": "Which indigenous people have their homeland on Hokkaido?",
+      "a": "The Ainu",
+      "x": [
+        "The Ryukyuans",
+        "The Nivkh"
+      ]
+    }
+  },
+  "Q7792": {
+    "t": "A long, thin island almost touching the mainland",
+    "s": "Sakhalin stretches nearly 950 km from north to south but is never more than about 160 km wide — from the air it looks like a long green-and-brown fish. Two mountain ranges run along it with a valley in between. In the north-west, the Nevelskoy Strait narrows to about 7 km from the mainland, and in winter it freezes right across.",
+    "w": "A very long, narrow island parallel to the coast, with two mountain ridges and a central valley; icy seas in winter.",
+    "f": [
+      "It is Russia's largest island, at about 76,000 km².",
+      "Anton Chekhov travelled here in 1890 and wrote the book 'Sakhalin Island'.",
+      "At its southern tip, La Pérouse Strait separates Sakhalin from Hokkaido by about 40 km."
+    ],
+    "q": {
+      "q": "Which writer travelled to Sakhalin in 1890 and wrote a book about it?",
+      "a": "Anton Chekhov",
+      "x": [
+        "Leo Tolstoy",
+        "Fyodor Dostoevsky"
+      ]
+    }
+  },
+  "Q1462": {
+    "t": "Emerald coves and 7,000 ancient stone towers",
+    "s": "Sardinia is the second-largest island in the Mediterranean, a rugged block of hills and plateaus with surprisingly few towns. Watch the coast: in the north-east, the Costa Smeralda's granite coves glow emerald and turquoise, while long white beaches line the south. Just to the north, across a narrow strait, Corsica rises much higher.",
+    "w": "A large, roughly rectangular island with a rugged interior; bright turquoise coves in the north-east and Corsica just to the north.",
+    "f": [
+      "Some 7,000 nuraghi — Bronze Age stone towers — are scattered across the island.",
+      "The mountain villages of Ogliastra are famous for an unusually high number of people living past 100.",
+      "The Strait of Bonifacio, only about 11 km wide, separates Sardinia from Corsica."
+    ],
+    "q": {
+      "q": "What are Sardinia's ancient stone towers called?",
+      "a": "Nuraghi",
+      "x": [
+        "Trulli",
+        "Talayots"
+      ]
+    }
+  },
+  "Q14112": {
+    "t": "A mountain range rising straight from the sea",
+    "s": "The French call Corsica 'the mountain in the sea', and from above you see why: a jagged granite range fills almost the whole island, streaked with snow well into spring and rising to 2,706 m. The west coast is a run of deep gulfs and red cliffs; the east is a flatter strip of lagoons. At the northern tip, the thin finger of Cap Corse points towards Genoa.",
+    "w": "A mountainous island with a finger-like peninsula pointing north; deep gulfs on the west coast, flat lagoons on the east.",
+    "f": [
+      "Napoleon Bonaparte was born in Ajaccio, on the west coast, in 1769.",
+      "The GR20 trail along Corsica's mountain spine is often called Europe's toughest long-distance hike.",
+      "The red cliffs of Scandola, on the Gulf of Porto, are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which emperor was born on Corsica?",
+      "a": "Napoleon Bonaparte",
+      "x": [
+        "Charlemagne",
+        "Napoleon III"
+      ]
+    }
+  },
+  "Q4951156": {
+    "t": "A triangular island crowned by smoking Etna",
+    "s": "Sicily is the largest island in the Mediterranean, a rough triangle that earned it the ancient name Trinacria. Its landmark is unmissable: Etna, a broad, dark volcano on the east coast, snow-capped in winter and often trailing a plume. To the north, look for the Aeolian Islands, where Stromboli has been throwing up small bursts of lava for thousands of years.",
+    "w": "A triangular island; on its east coast, Etna's huge dark cone, often with a plume; small volcanic islands to the north.",
+    "f": [
+      "Etna, about 3,300 m, is the tallest active volcano in Europe, and its height changes with its eruptions.",
+      "The Strait of Messina separates Sicily from mainland Italy by only about 3 km.",
+      "Stromboli's regular glowing bursts earned it the nickname 'Lighthouse of the Mediterranean'."
+    ],
+    "q": {
+      "q": "Which ancient name for Sicily refers to its shape?",
+      "a": "Trinacria",
+      "x": [
+        "Hesperia",
+        "Taprobane"
+      ]
+    }
+  },
+  "Q337524": {
+    "t": "Vanuatu's biggest island, once taken for a continent",
+    "s": "Espiritu Santo is the largest island of Vanuatu: a rugged, forested west side rising to the country's highest peaks, and a lower east side of plantations, reefs and white beaches. In 1606 the navigator Pedro Fernández de Quirós landed here and believed he had found the great southern continent. Look for turquoise reef flats along its eastern shores.",
+    "w": "A large green island with a high mountain wall along its west side and flatter, reef-fringed shores to the east.",
+    "f": [
+      "Mount Tabwemasana, 1,879 m, is the highest point in Vanuatu.",
+      "Spring-fed 'blue holes' in its eastern forest are pools of startlingly clear, bright-blue water."
+    ],
+    "q": {
+      "q": "What did Quirós believe Espiritu Santo was in 1606?",
+      "a": "The great southern continent",
+      "x": [
+        "The coast of Asia",
+        "Part of New Guinea"
+      ]
+    }
+  },
+  "Q148966": {
+    "t": "A double chain of jungle islands and vast lagoons",
+    "s": "The Solomons form two long, roughly parallel chains of high, jungle-covered islands with a sheltered sea between them. Their coasts are fringed by reefs and mangroves, and in the west the Marovo Lagoon spreads as a maze of islets and turquoise channels. Far to the south, Rennell is a raised coral atoll with a huge lake where its lagoon used to be.",
+    "w": "Two parallel lines of mountainous, dark-green islands, fringed by reef, with a turquoise maze of lagoon in the west.",
+    "f": [
+      "The Spanish explorer Álvaro de Mendaña named the islands in 1568, hoping they held King Solomon's riches.",
+      "Lake Tegano on Rennell Island is the largest lake in the insular Pacific.",
+      "On Malaita, strings of shell money are still used for bride price and ceremonies."
+    ],
+    "q": {
+      "q": "Whose legendary wealth inspired the name of the Solomon Islands?",
+      "a": "King Solomon's",
+      "x": [
+        "King Midas's",
+        "The Queen of Sheba's"
+      ]
+    }
+  },
+  "Q10905515": {
+    "t": "A 1,000-km arc of coral seas from Kyushu to Taiwan",
+    "s": "South-west of Kyushu, the Ryukyus trail away in a long arc towards Taiwan, each island ringed by coral reef and water in a dozen shades of blue. Okinawa, the largest, is long and narrow, with busy towns in the south and green hills in the north. For more than four centuries these islands were the independent Ryukyu Kingdom, trading between Japan, China and South-East Asia.",
+    "w": "A long chain of small islands wrapped in bright turquoise reef, stretching south-west from Kyushu towards Taiwan.",
+    "f": [
+      "Karate grew up in Okinawa, from local martial arts blended with Chinese influences.",
+      "The Iriomote cat, one of the rarest wild cats on Earth, lives on a single island here.",
+      "From Yonaguni, the westernmost island, Taiwan is only about 110 km away."
+    ],
+    "q": {
+      "q": "Which martial art originated in Okinawa?",
+      "a": "Karate",
+      "x": [
+        "Judo",
+        "Aikido"
+      ]
+    }
+  },
+  "Q183963": {
+    "t": "The world's largest chain of atolls",
+    "s": "The Tuamotus scatter nearly 80 coral atolls across a vast stretch of the South Pacific — the largest group of atolls on Earth. From above, each is a thin, broken ring of palm-topped land around a lagoon of luminous turquoise, with deep blue all around. The biggest, Rangiroa, is so wide that from one shore of its lagoon you cannot see the other.",
+    "w": "Dozens of thin, broken rings of land around glowing turquoise lagoons, strewn across dark-blue ocean.",
+    "f": [
+      "Early navigators called them the 'Dangerous Archipelago', because the low atolls were so hard to spot.",
+      "Rangiroa's lagoon covers about 1,450 km², one of the largest in the world.",
+      "Much of French Polynesia's famous black-pearl farming takes place in Tuamotu lagoons."
+    ],
+    "q": {
+      "q": "What did early European navigators call the Tuamotus?",
+      "a": "The Dangerous Archipelago",
+      "x": [
+        "The Friendly Islands",
+        "The Isles of Thieves"
+      ]
+    }
+  },
+  "Q154628": {
+    "t": "A broken ring of volcanic islands off New Guinea",
+    "s": "The Bismarck Archipelago curves around the Bismarck Sea like a broken ring. New Britain is the big crescent, mountainous and smoking in places; New Ireland is its long, skinny neighbour; Manus and the Admiralty Islands lie to the north-west. At New Britain's north-eastern tip, look for Rabaul, a town built around a flooded volcanic caldera.",
+    "w": "A big crescent island with volcanic peaks, a long thin island to its north-east, and scattered smaller islands.",
+    "f": [
+      "The islands were named in 1884 after the German chancellor Otto von Bismarck.",
+      "New Ireland is about 350 km long but in places less than 10 km wide.",
+      "Rabaul's harbour fills a caldera whose volcanoes, such as Tavurvur, still erupt."
+    ],
+    "q": {
+      "q": "Who is the Bismarck Archipelago named after?",
+      "a": "Otto von Bismarck",
+      "x": [
+        "Kaiser Wilhelm I",
+        "Alfred von Tirpitz"
+      ]
+    }
+  },
+  "Q201766": {
+    "t": "Smoking volcanoes on an explorer's namesake island",
+    "s": "Bougainville is a big, mountainous island draped in rainforest, with a chain of volcanoes down its spine. Mount Balbi is the highest, at about 2,700 m, while its neighbour Bagana is one of the most active volcanoes in the region, often trailing a plume of steam and ash. The coasts are lined with reef, black-sand beaches and mangroves.",
+    "w": "A long mountainous island of dark rainforest with volcanic peaks down the middle, often with a plume drifting from one of them.",
+    "f": [
+      "It is named after the French explorer Louis-Antoine de Bougainville, who sailed past in 1768.",
+      "The bright bougainvillea flower is named after the same explorer.",
+      "Geographically, it is the largest island of the Solomon Islands chain."
+    ],
+    "q": {
+      "q": "Which garden plant shares its name with this island's explorer?",
+      "a": "Bougainvillea",
+      "x": [
+        "Magnolia",
+        "Fuchsia"
+      ]
+    }
   }
 }

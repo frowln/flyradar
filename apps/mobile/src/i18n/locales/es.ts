@@ -167,6 +167,7 @@ export const es = {
     takeoffNow: 'Ahora mismo',
     takeoffAgo: 'Hace %{m} minutos',
     takeoffScheduled: 'A la hora prevista',
+    routeTrack: 'Ruta tal como la voló este vuelo el %{date}',
   },
   advice: {
     label: 'ventanilla',
@@ -180,6 +181,9 @@ export const es = {
     night: 'vuelo nocturno',
     yourSeat: 'Tu asiento %{seat} está %{side}',
     yourSeatNoWindow: 'Tu asiento %{seat} no está junto a la ventanilla',
+    cloudyMost: 'Previsión: nubes en torno al %{pct} % de la ruta',
+    cloudySome: 'Previsión: algunas nubes, un %{pct} % de la ruta',
+    clear: 'Previsión: cielo mayormente despejado en la ruta',
   },
   addFlight: {
     title: 'nuevo vuelo',
@@ -223,6 +227,13 @@ export const es = {
     stage_photos: 'Fotos',
     stage_map: 'Mapa sin conexión',
     continueBackground: 'continuar en segundo plano',
+    byNumber: 'buscar por número de vuelo',
+    byNumberHint: 'Basta con el número y la fecha: aeropuertos y horarios se completan solos.',
+    find: 'Buscar',
+    orManual: '…o indica tú los aeropuertos:',
+    found: '%{from} — %{to}, sale a las %{time}',
+    notFound: 'No encontramos ese vuelo en esa fecha: introdúcelo a mano.',
+    numberInvalid: 'Eso no parece un número de vuelo.',
   },
   guess: {
     label: 'adivina',
@@ -263,6 +274,7 @@ export const es = {
     finish: 'Terminar el vuelo',
     finishTitle: '¿Terminar el vuelo ahora?',
     finishBody: 'Solo lo que ya has sobrevolado entra en tu pasaporte.',
+    cloudsBelow: 'Se prevén nubes debajo: busca los claros.',
   },
   facts: {
     title: 'desde arriba',

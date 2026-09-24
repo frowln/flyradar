@@ -24,6 +24,8 @@ import { searchAirports, cityName } from '../../src/core/data/airports';
 import { airportByIata } from '../../src/core/data/datasets';
 import type { DataAirport } from '../../src/core/data/types';
 import { prepareFlight } from '../../src/core/offline/prepare';
+import { lookupFlight, formFromFlight, normaliseFlightNumber } from '../../src/core/api/flights';
+import { API_ENABLED } from '../../src/core/api/client';
 import { remindAbout } from '../../src/core/flight/controller';
 import type { BuildProgress, BuildStage } from '../../src/core/offline/buildPackage';
 import { estimateAirborneSeconds } from '../../src/core/route/profile';
@@ -215,6 +217,7 @@ export default function AddFlightScreen() {
   const [seat, setSeat] = useState<SeatInfo>({ side: 'unknown' });
   const [scanning, setScanning] = useState(false);
   const [progress, setProgress] = useState<BuildProgress | null>(null);
+  const [looking, setLooking] = useState(false);
   const leaving = useRef(false);
 
   const days = useMemo(() => Array.from({ length: DAYS_AHEAD + 2 }, (_, i) => addDays(today, i - 1)), [today]);
@@ -247,6 +250,36 @@ export default function AddFlightScreen() {
     },
     [toast]
   );
+
+  // With a server: the number and the date are enough, the rest is filled in.
+  const findByNumber = useCallback(async () => {
+    const number = normaliseFlightNumber(flightNumber);
+    if (!number) {
+      toast.show(t('addFlight.numberInvalid'), 'bad');
+      return;
+    }
+    setLooking(true);
+    const found = await lookupFlight(number, date);
+    setLooking(false);
+    if (!found) {
+      toast.show(t('addFlight.notFound'), 'bad');
+      return;
+    }
+    const form = formFromFlight(found);
+    const a = airportByIata(form.fromIata);
+    const b = airportByIata(form.toIata);
+    if (a) setFrom(a);
+    if (b) setTo(b);
+    setDate(form.date);
+    setTime(form.departureTime);
+    setArrival(form.arrivalTime);
+    setActive(null);
+    haptics.success();
+    toast.show(
+      [t('addFlight.found', { from: form.fromIata, to: form.toIata, time: form.departureTime }), found.aircraftType].filter(Boolean).join(' · '),
+      'good'
+    );
+  }, [flightNumber, date, toast]);
 
   const onScanned = useCallback(
     (pass: BoardingPass) => {
@@ -327,6 +360,39 @@ export default function AddFlightScreen() {
             </Gutter>
 
             <Rule />
+            {API_ENABLED ? (
+              <View style={styles.lookup}>
+                <Gutter>
+                  <Label tone="accent">{t('addFlight.byNumber')}</Label>
+                  <Space h={s.x1} />
+                  <Small>{t('addFlight.byNumberHint')}</Small>
+                </Gutter>
+                <Gutter style={styles.lookupRow}>
+                  <TextInput
+                    value={flightNumber}
+                    onChangeText={(v) => setFlightNumber(v.toUpperCase())}
+                    placeholder="SU 1234"
+                    placeholderTextColor={palette.inkDim}
+                    autoCapitalize="characters"
+                    autoCorrect={false}
+                    returnKeyType="search"
+                    onSubmitEditing={findByNumber}
+                    style={styles.lookupInput}
+                    accessibilityLabel={t('addFlight.flightNumber')}
+                  />
+                  <PressSurface
+                    onPress={findByNumber}
+                    disabled={looking || !flightNumber.trim()}
+                    accessibilityLabel={t('addFlight.find')}
+                    accessibilityState={{ busy: looking }}
+                    style={styles.lookupBtn}
+                  >
+                    <Label tone={flightNumber.trim() ? 'accent' : 'dim'}>{looking ? t('common.loading') : t('addFlight.find')}</Label>
+                  </PressSurface>
+                </Gutter>
+                <Small style={styles.lookupOr}>{t('addFlight.orManual')}</Small>
+              </View>
+            ) : null}
             <AirportField
               label={t('addFlight.from')}
               value={from}
@@ -544,6 +610,20 @@ export default function AddFlightScreen() {
 }
 
 const styles = StyleSheet.create({
+  lookup: { paddingTop: s.x4, paddingBottom: s.x3, borderBottomWidth: line.hair, borderBottomColor: palette.rule, backgroundColor: palette.warm },
+  lookupRow: { flexDirection: 'row', alignItems: 'center', gap: s.x3, paddingTop: s.x3 },
+  lookupInput: {
+    flex: 1,
+    minWidth: 0,
+    fontFamily: family.data,
+    fontSize: 24,
+    color: palette.ink,
+    paddingVertical: s.x2,
+    borderBottomWidth: line.hair,
+    borderBottomColor: palette.amberDim
+  },
+  lookupBtn: { paddingVertical: s.x2, paddingHorizontal: s.x4, borderWidth: line.hair, borderColor: palette.amberDim },
+  lookupOr: { paddingHorizontal: gutter, paddingTop: s.x3 },
   flex: { flex: 1, minWidth: 0 },
   spread: { justifyContent: 'space-between' },
   scroll: { paddingBottom: s.x8 },

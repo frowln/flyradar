@@ -114,7 +114,7 @@ The app is complete without a backend. Optional environment variables
 
 | Variable | Effect |
 |---|---|
-| `EXPO_PUBLIC_API_URL` | Backend URL. Unset = fully on-device. |
+| `EXPO_PUBLIC_API_URL` | Backend URL. Unset = fully on-device. Set = flight lookup by number (AeroDataBox), the route this flight really flew last week (Flightradar24) and a cloud forecast along the route (Open-Meteo), each active once the backend has its key — see `apps/backend/README.md`, “Data providers”. |
 | `EXPO_PUBLIC_SOCIAL=1` | Enables accounts, reviews and people (needs the backend). |
 | `EXPO_PUBLIC_AUTH_HMAC_SECRET` | Request signing, must match the server's `AUTH_HMAC_SECRET`. |
 | `EXPO_PUBLIC_RC_KEY` | RevenueCat key. Unset = no purchases, everything open. |

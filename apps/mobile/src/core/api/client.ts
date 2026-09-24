@@ -71,7 +71,9 @@ function buildHeaders(method: string, path: string, bodyStr: string): Record<str
     'X-Device-Id': token,
     'X-Platform': Platform.OS
   };
-  const signed = signRequest(method, path, token, bodyStr);
+  // The server verifies the path without its query string, so that is what is
+  // signed; signing `/flights/track?number=…` whole would fail every such GET.
+  const signed = signRequest(method, path.split('?')[0]!, token, bodyStr);
   if (signed) {
     headers['X-Timestamp'] = signed['X-Timestamp'];
     headers['X-Signature'] = signed['X-Signature'];

@@ -1,7 +1,8 @@
-import type { POI, RoutePoint } from '@skyatlas/shared';
+import type { CloudSample, POI, RoutePoint } from '@skyatlas/shared';
 import { interpolateAlongRoute } from '../geo/greatCircle';
 import { solarElevation, sunsetThreshold } from '../geo/sun';
 import { sightWeight } from './moments';
+import { cloudAt, CLOUDY } from './clouds';
 
 /**
  * Which window to ask for at check-in — and whether it is worth asking at all.
@@ -21,9 +22,14 @@ export interface WindowAdvice {
   rightIds: string[];
   /** Share of the flight in daylight, 0–1 (null when the departure time is unknown). */
   daylight: number | null;
+  /**
+   * Share of the flight under a forecast of 70 % cloud or more, 0–1, over the
+   * stretches the forecast covers; null without a forecast (pass `pkg.clouds`).
+   */
+  cloudy: number | null;
 }
 
-export function windowAdvice(route: RoutePoint[], pois: POI[], takeoff?: Date): WindowAdvice {
+export function windowAdvice(route: RoutePoint[], pois: POI[], takeoff?: Date, clouds?: CloudSample[]): WindowAdvice {
   let left = 0;
   let right = 0;
   const lefts: Array<{ id: string; w: number }> = [];
@@ -63,6 +69,18 @@ export function windowAdvice(route: RoutePoint[], pois: POI[], takeoff?: Date): 
     }
   }
 
+  let overcast = 0;
+  let forecast = 0;
+  if (clouds?.length && route.length > 1) {
+    const end = route[route.length - 1]!.elapsedSeconds;
+    for (let t = 0; t <= end; t += 300) {
+      const c = cloudAt({ clouds }, t);
+      if (!c) continue;
+      forecast++;
+      if (c.cloud >= CLOUDY) overcast++;
+    }
+  }
+
   const top = (xs: Array<{ id: string; w: number }>) =>
     xs.sort((a, b) => b.w - a.w).slice(0, 3).map((x) => x.id);
 
@@ -79,6 +97,7 @@ export function windowAdvice(route: RoutePoint[], pois: POI[], takeoff?: Date): 
     right,
     leftIds: top(lefts),
     rightIds: top(rights),
-    daylight: samples ? light / samples : null
+    daylight: samples ? light / samples : null,
+    cloudy: forecast ? overcast / forecast : null
   };
 }

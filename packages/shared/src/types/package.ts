@@ -71,6 +71,8 @@ export interface OfflinePackage {
    * track this flight number actually flew recently.
    */
   routeKind?: 'direct' | 'detour' | 'approximate' | 'track';
+  /** With routeKind 'track': the date (UTC) the track was recorded, YYYY-MM-DD. */
+  trackFlownOn?: string;
   /** Places looked up online that turned out to have no article; not retried. */
   storyless?: string[];
   /**

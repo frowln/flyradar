@@ -1024,5 +1024,689 @@
         "Caesarea"
       ]
     }
+  },
+  "Q1757": {
+    "t": "A granite peninsula city fringed with islands",
+    "s": "Helsinki sits on a ragged granite peninsula poking into the Gulf of Finland, surrounded by bays, inlets and more than three hundred islands. At the harbour mouth, a cluster of islets carries the old sea fortress of Suomenlinna. In a cold winter the sea around the city freezes, turning the whole archipelago white. Tallinn lies only about 80 km across the gulf.",
+    "w": "A rocky peninsula ragged with bays and islands, facing south across the gulf, with forest and lakes inland.",
+    "f": [
+      "Helsinki became Finland's capital in 1812, taking over from Turku.",
+      "The Suomenlinna sea fortress, begun in 1748, is a UNESCO World Heritage site.",
+      "Helsinki is the northernmost capital in the European Union."
+    ],
+    "q": {
+      "q": "Which king founded Helsinki in 1550?",
+      "a": "Gustav I of Sweden",
+      "x": [
+        "Christian IV of Denmark",
+        "Peter the Great"
+      ]
+    }
+  },
+  "Q121157": {
+    "t": "A pilgrimage city in a valley between two ranges",
+    "s": "Mashhad fills a broad valley in north-eastern Iran, with the Binalud mountains to the south-west and the Hezar Masjed range to the north-east. It grew around the shrine of Imam Reza, and its name means 'place of martyrdom'. Millions of pilgrims arrive every year, making it one of the great pilgrimage centres of the Muslim world.",
+    "w": "A large city in a wide valley, between a high, often snowy range to the south-west and bare mountains to the north-east.",
+    "f": [
+      "The tomb of Ferdowsi, author of the Persian epic Shahnameh, stands at Tus, about 25 km from the city.",
+      "Mashhad is Iran's second-largest city after Tehran.",
+      "The Binalud range south-west of the city rises above 3,000 metres."
+    ],
+    "q": {
+      "q": "Which poet's tomb stands at Tus, near Mashhad?",
+      "a": "Ferdowsi",
+      "x": [
+        "Hafez",
+        "Saadi"
+      ]
+    }
+  },
+  "Q1748": {
+    "t": "Where a bridge dives into a tunnel under the sea",
+    "s": "Copenhagen faces the Øresund, the strait between Denmark and Sweden. Look south of the city for one of Europe's great engineering lines: a bridge runs out from Sweden, lands on an artificial island and then vanishes into a tunnel under the sea to reach the Danish shore. The city itself spreads over the edge of Zealand and the flat island of Amager.",
+    "w": "A long bridge crossing the strait to an artificial island, where it disappears; the city and airport lie on the Danish side.",
+    "f": [
+      "The Øresund Bridge is about 8 km long, and the link continues in a 4 km tunnel under the sea.",
+      "Peberholm, where the bridge meets the tunnel, is an artificial island built for the crossing.",
+      "Bishop Absalon built a castle here around 1167, traditionally taken as the city's founding."
+    ],
+    "q": {
+      "q": "What does the Danish name København mean?",
+      "a": "Merchants' harbour",
+      "x": [
+        "King's castle",
+        "Salt bay"
+      ]
+    }
+  },
+  "Q1515": {
+    "t": "A lagoon city with rainforest inside its limits",
+    "s": "Abidjan wraps around the Ébrié Lagoon, a long body of calm water behind a narrow sand bar on the Gulf of Guinea. The city's districts sit on peninsulas and islands, joined by bridges. Look for the straight cut through the sand bar — the Vridi Canal — that lets ships into the lagoon. Within the city, a block of dark green is protected rainforest.",
+    "w": "A city spread around a branching lagoon behind a straight sandy coast, cut through by a narrow canal to the sea.",
+    "f": [
+      "The Vridi Canal, opened in 1950, turned Abidjan into one of West Africa's main ports.",
+      "Banco National Park, a remnant of rainforest, lies inside the city.",
+      "Abidjan is Côte d'Ivoire's largest city, though the official capital is Yamoussoukro."
+    ],
+    "q": {
+      "q": "Which lagoon does Abidjan surround?",
+      "a": "The Ébrié Lagoon",
+      "x": [
+        "The Aby Lagoon",
+        "Lagos Lagoon"
+      ]
+    }
+  },
+  "Q239": {
+    "t": "A city whose river vanished beneath its streets",
+    "s": "Brussels spreads over gentle hills in the middle of Belgium, ringed by a motorway and fading into farmland. Don't look for its river: in the 19th century the Senne was vaulted over and hidden beneath the boulevards. What you can see is the Sonian Forest on the south-eastern edge, a large dark block of old beech woods.",
+    "w": "A large city in rolling farmland, circled by a ring motorway, with a big dark forest on its south-eastern edge.",
+    "f": [
+      "The Sonian Forest covers more than 4,000 hectares, and parts of it are UNESCO-listed for their ancient beeches.",
+      "The Senne was covered over in the 1860s and 1870s and still flows in tunnels under the city.",
+      "The Grand-Place, the old market square, is a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "What does Bruocsella, the old name of Brussels, mean?",
+      "a": "Home in the marsh",
+      "x": [
+        "Bridge town",
+        "Hill fort"
+      ]
+    }
+  },
+  "Q3897": {
+    "t": "A bay city sheltered by a long finger of sand",
+    "s": "Luanda curves around a bay on Angola's Atlantic coast, sheltered by the Ilha, a long, thin sand spit lined with beaches. Further south, another spit, the Mussulo peninsula, encloses a calm turquoise lagoon for kilometres. Portuguese settlers founded the city in 1576, making it one of the oldest European-founded cities south of the Sahara.",
+    "w": "A city curving around a bay closed by a thin sandy spit, with a longer spit and lagoon further south.",
+    "f": [
+      "The Mussulo peninsula south of the city is a sand spit nearly 30 km long.",
+      "The cold Benguela Current keeps this coast surprisingly dry for the tropics.",
+      "The Kwanza River, which gave Angola's currency its name, reaches the sea some 70 km to the south."
+    ],
+    "q": {
+      "q": "Which European country founded Luanda in 1576?",
+      "a": "Portugal",
+      "x": [
+        "The Netherlands",
+        "Spain"
+      ]
+    }
+  },
+  "Q3561": {
+    "t": "A white city stacked on the hills above a bay",
+    "s": "Algiers rises from a wide, curving bay in white tiers, climbing the steep hills behind the port; the French called it Alger la Blanche, 'Algiers the White'. Its Arabic name refers to small islets offshore, long ago joined to the mainland to form the harbour. The old Casbah clings to the slope above the sea.",
+    "w": "A white city climbing steep green hills around a broad, curving bay, with a long harbour breakwater.",
+    "f": [
+      "The Casbah of Algiers has been a UNESCO World Heritage site since 1992.",
+      "The town was refounded in the 10th century by the Berber ruler Buluggin ibn Ziri, on the site of ancient Icosium.",
+      "Algeria is Africa's largest country by area, and Algiers is both its capital and largest city."
+    ],
+    "q": {
+      "q": "What does Algiers' Arabic name, al-Jazair, mean?",
+      "a": "The islands",
+      "x": [
+        "The fortress",
+        "The harbour"
+      ]
+    }
+  },
+  "Q3792": {
+    "t": "A capital pressed right against a border",
+    "s": "Lomé lies on the Gulf of Guinea at the western end of Togo's short coastline, so close to Ghana that the city's edge runs straight into the border. Behind the straight, surf-washed beach, a chain of lagoons runs parallel to the coast. The town became the capital of German Togoland in 1897, and later of the independent country.",
+    "w": "A low city on a straight sandy coast with lagoons behind it and harbour breakwaters jutting out to sea.",
+    "f": [
+      "Togo's entire coastline is only just over 50 km long.",
+      "Lomé's western districts run right up to the border with Ghana.",
+      "The city's Grand Marché is famous for its cloth traders, especially of printed wax fabrics."
+    ],
+    "q": {
+      "q": "Which country's border runs along Lomé's western edge?",
+      "a": "Ghana",
+      "x": [
+        "Benin",
+        "Nigeria"
+      ]
+    }
+  },
+  "Q3572": {
+    "t": "A city between two lakes, with Carthage next door",
+    "s": "Tunis lies on a narrow neck of land between two shallow lakes, where the Gulf of Tunis cuts deep into North Africa. East of the old town, the Lake of Tunis is split by a straight channel that lets ships through to the city's port. On the gulf's shore just to the north-east lie the ruins of Carthage, once Rome's great rival.",
+    "w": "A city between a shallow lagoon crossed by a straight channel to the east and a salt flat to the south-west.",
+    "f": [
+      "The ruins of Carthage, some 15 km from the centre, have been a UNESCO World Heritage site since 1979.",
+      "The Medina of Tunis, a maze of souks and alleys, is UNESCO-listed too.",
+      "The Lake of Tunis is only about a metre deep in places, and flamingos wade in its shallows."
+    ],
+    "q": {
+      "q": "Which ancient city's ruins lie beside Tunis?",
+      "a": "Carthage",
+      "x": [
+        "Leptis Magna",
+        "Cyrene"
+      ]
+    }
+  },
+  "Q7525": {
+    "t": "A city of deep bays near the tip of Crimea",
+    "s": "Sevastopol lies near the south-western tip of the Crimean peninsula, on a long, deep bay that cuts several kilometres inland, with smaller bays branching off it like fingers. Beyond the city, the land rises towards the Crimean Mountains. On a headland to the west are the ruins of Chersonesus, a Greek colony founded some 2,400 years ago.",
+    "w": "A long, narrow bay reaching inland from the Black Sea, with smaller side bays branching off and the city between them.",
+    "f": [
+      "The main bay reaches about 7 km inland and is one of the best natural harbours on the Black Sea.",
+      "Chersonesus was founded by Greek colonists in the 5th century BC.",
+      "The modern city was founded in 1783."
+    ],
+    "q": {
+      "q": "Which ancient Greek city's ruins lie at Sevastopol?",
+      "a": "Chersonesus",
+      "x": [
+        "Olbia",
+        "Tanais"
+      ]
+    }
+  },
+  "Q1519": {
+    "t": "An island city in a maze of mangroves and shallows",
+    "s": "Abu Dhabi stands on an island just off the Gulf coast, separated from the mainland by a narrow channel and joined to it by bridges. Around it, the sea is a puzzle of turquoise shallows, sandbanks, dark mangroves and low islands. The city's central grid ends abruptly at the water, with a long corniche curving along its north-western shore.",
+    "w": "A grid-planned island city ringed by turquoise shallows, with dark mangroves and many low islands to its east.",
+    "f": [
+      "Qasr al-Hosn, a fort that began as an 18th-century watchtower, is the oldest stone building in the city.",
+      "The emirate of Abu Dhabi covers more than four-fifths of the UAE's territory.",
+      "The mangroves east of the island are protected as a national park."
+    ],
+    "q": {
+      "q": "What does the name Abu Dhabi mean?",
+      "a": "Father of the gazelle",
+      "x": [
+        "Father of pearls",
+        "Gate of the sun"
+      ]
+    }
+  },
+  "Q23438": {
+    "t": "A white capital between mountains and the Karakum",
+    "s": "Ashgabat lies on a narrow strip of green between two worlds: the bare Kopet Dag range rising to the south, and the Karakum Desert stretching away to the north. A thin line of water, the Karakum Canal, curves along the desert's edge, carrying water from the Amu Darya far to the east. The city is known for its white marble facades.",
+    "w": "A pale city at the foot of a bare mountain range, with sand desert to the north and a long canal curving past.",
+    "f": [
+      "The Karakum Canal runs for more than 1,000 km across the desert, one of the longest irrigation canals in the world.",
+      "The ruins of Nisa, an early capital of the Parthians, lie just west of the city and are UNESCO-listed.",
+      "The Kopet Dag, south of the city, forms Turkmenistan's border with Iran."
+    ],
+    "q": {
+      "q": "Which desert stretches north of Ashgabat?",
+      "a": "The Karakum",
+      "x": [
+        "The Kyzylkum",
+        "The Gobi"
+      ]
+    }
+  },
+  "Q3881": {
+    "t": "A plateau capital that began at a railway siding",
+    "s": "Lusaka lies on a broad, flat plateau in the middle of Zambia, about 1,280 metres up, where the air is fresher than the latitude suggests. It grew from a small siding on the railway line from the south, built in the early 1900s. In 1935 it became the colonial capital, chosen for its central position and healthy altitude.",
+    "w": "A spreading low city on a flat, lightly wooded plateau, with farmland and red-brown earth all around.",
+    "f": [
+      "The city takes its name from Lusaaka, a local headman whose village stood here.",
+      "The Kafue River passes some 50 km south of the city.",
+      "Thanks to the altitude, winters here are mild and dry, with cool nights from May to August."
+    ],
+    "q": {
+      "q": "What made Lusaka grow in the early 1900s?",
+      "a": "A railway siding",
+      "x": [
+        "A gold mine",
+        "A river port"
+      ]
+    }
+  },
+  "Q3921": {
+    "t": "A highveld capital among granite hills and jacarandas",
+    "s": "Harare spreads over the high grassland of northern Zimbabwe, about 1,500 metres above the sea, where rounded granite hills poke out of the plateau. South-west of the city, look for a winding lake: Lake Chivero, a reservoir on the Manyame River. In October, thousands of jacaranda trees along the avenues burst into purple flower.",
+    "w": "A sprawling city on a flat grassy plateau dotted with granite outcrops; a winding reservoir lies to the south-west.",
+    "f": [
+      "Harare lies at about 1,490 metres, so its summers are warm rather than hot.",
+      "Lake Chivero, about 30 km south-west of the centre, supplies much of the city's water.",
+      "The first settlement grew beside the Kopje, a granite hill next to today's city centre."
+    ],
+    "q": {
+      "q": "What was Harare called until 1982?",
+      "a": "Salisbury",
+      "x": [
+        "Fort Victoria",
+        "Umtali"
+      ]
+    }
+  },
+  "Q193250": {
+    "t": "A city of wide streets near a land of granite domes",
+    "s": "Bulawayo sits on the dry, open plateau of south-western Zimbabwe, a neat grid of unusually broad streets. They were laid out wide enough, it is said, for a wagon pulled by a full span of oxen to turn around. About 35 km south rise the Matobo Hills, a wild landscape of bare granite domes and precariously balanced boulders.",
+    "w": "A grid-planned city on a dry, flat plateau, with rough country of bare granite hills to the south.",
+    "f": [
+      "The Matobo Hills have been a UNESCO World Heritage site since 2003, noted for their ancient rock paintings.",
+      "Bulawayo was the royal town of the Ndebele king Lobengula before the colonial city was laid out in 1894.",
+      "Bulawayo is Zimbabwe's second-largest city."
+    ],
+    "q": {
+      "q": "Which granite hills rise south of Bulawayo?",
+      "a": "The Matobo Hills",
+      "x": [
+        "The Chimanimani Mountains",
+        "The Drakensberg"
+      ]
+    }
+  },
+  "Q1764": {
+    "t": "The world's northernmost capital, named after steam",
+    "s": "Reykjavík lies on a low peninsula on the south shore of Faxaflói bay, with the long, flat-topped ridge of Mount Esja across the water. To the south-west, the Reykjanes peninsula is a dark sweep of lava fields, some of the youngest land in Europe. The first settler, Ingólfur Arnarson, is said to have arrived around 874 and named the bay after steam rising from hot springs.",
+    "w": "A low, compact city on a peninsula, a flat-topped mountain across the bay, and dark lava fields to the south-west.",
+    "f": [
+      "Reykjavík is the northernmost capital of a sovereign country.",
+      "Nearly all homes in the city are heated with hot water from geothermal sources.",
+      "Mount Esja, across the bay, rises to about 900 metres."
+    ],
+    "q": {
+      "q": "What does the name Reykjavík mean?",
+      "a": "Smoky bay",
+      "x": [
+        "Ice harbour",
+        "Whale fjord"
+      ]
+    }
+  },
+  "Q4093": {
+    "t": "Scotland's biggest city, on the shipbuilding Clyde",
+    "s": "Glasgow spreads along the Clyde, a river that once built a large share of the world's ships. Downstream, the river widens into the long Firth of Clyde, scattered with islands. To the north the low, green Campsie Fells rise, and beyond them, some 30 km away, lies Loch Lomond, the largest lake by area in Great Britain.",
+    "w": "A large city on a river flowing west to a long, island-studded firth, with green hills and a big loch to the north-west.",
+    "f": [
+      "Loch Lomond is the largest lake in Great Britain by surface area.",
+      "Glasgow's name is often said to come from Gaelic words meaning 'dear green place'.",
+      "Glasgow is Scotland's largest city, bigger than the capital, Edinburgh."
+    ],
+    "q": {
+      "q": "Which river flows through Glasgow?",
+      "a": "The Clyde",
+      "x": [
+        "The Forth",
+        "The Tay"
+      ]
+    }
+  },
+  "Q3894": {
+    "t": "A city of hills on the shore of Africa's largest lake",
+    "s": "Kampala is built across a cluster of green hills just north of Lake Victoria, with the city filling the valleys in between. Its name comes from an old Luganda phrase for 'hill of the impala'. You are almost exactly on the equator here: the line runs only about 35 km south of the centre, across the lake.",
+    "w": "A green, hilly city spilling down to a ragged bay of a vast lake, with the Entebbe peninsula to the south-west.",
+    "f": [
+      "Lake Victoria is the largest lake in Africa and the main source of the White Nile.",
+      "The Nile leaves Lake Victoria at Jinja, about 80 km east of Kampala.",
+      "The Kasubi Tombs, burial place of the kings of Buganda, are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which lake lies just south of Kampala?",
+      "a": "Lake Victoria",
+      "x": [
+        "Lake Albert",
+        "Lake Kyoga"
+      ]
+    }
+  },
+  "Q131694": {
+    "t": "A port city built inside an old volcano",
+    "s": "Aden grew on a rugged volcanic peninsula on the Gulf of Aden, and its oldest district really does sit in a crater, ringed by the jagged walls of an extinct volcano. Across the harbour, the Little Aden peninsula is another old volcano. The deep, sheltered water between them made Aden one of the great ports on the sea route between Europe and India.",
+    "w": "Two dark volcanic peninsulas enclosing a wide natural harbour, with the city tucked into their bays and craters.",
+    "f": [
+      "The ancient Tawila cisterns, cut into the crater wall, were built to catch the area's rare rain.",
+      "In 1839 Aden became a British coaling station for steamships sailing to India.",
+      "Jebel Shamsan, the highest point of the crater rim, rises to about 550 metres."
+    ],
+    "q": {
+      "q": "What is Aden's old town, Crater, built inside?",
+      "a": "An extinct volcano",
+      "x": [
+        "A meteorite crater",
+        "A dried-up lake"
+      ]
+    }
+  },
+  "Q8717": {
+    "t": "The inland port that once ruled trade with the Americas",
+    "s": "Seville lies on the Guadalquivir some 80 km upriver from the sea, on a flat, sun-bleached plain of olive groves and farmland. Ocean-going ships once sailed right up to the city, and from 1503 it held the royal monopoly on trade with the Americas. Downstream, the river winds through the vast Doñana marshes towards the Atlantic.",
+    "w": "A large city on a flat plain beside a river, with a straight, canal-like channel and farmland stretching in every direction.",
+    "f": [
+      "Seville has Spain's only inland river port.",
+      "Magellan's expedition, the first to sail around the world, set out from Seville in 1519.",
+      "Seville Cathedral is often called the largest Gothic cathedral in the world."
+    ],
+    "q": {
+      "q": "Which river flows through Seville?",
+      "a": "The Guadalquivir",
+      "x": [
+        "The Guadiana",
+        "The Ebro"
+      ]
+    }
+  },
+  "Q204365": {
+    "t": "An old sultanate town among Sahel granite",
+    "s": "Zinder spreads across the dry Sahel of southern Niger, a low, sand-coloured town scattered among outcrops of bare granite. It was the seat of the Sultanate of Damagaram, which grew rich on caravans crossing the Sahara between Kano and the north. Its old walled quarter, the Birni, still surrounds the sultan's palace.",
+    "w": "A low, sandy town among bare rocky outcrops on flat, dry Sahel plains, with scattered fields around it.",
+    "f": [
+      "The Sultanate of Damagaram made Zinder its capital in the 18th century.",
+      "The Nigerian city of Kano lies about 200 km to the south.",
+      "Zinder served as the capital of the French colony of Niger until 1926."
+    ],
+    "q": {
+      "q": "Which city replaced Zinder as Niger's capital in 1926?",
+      "a": "Niamey",
+      "x": [
+        "Agadez",
+        "Maradi"
+      ]
+    }
+  },
+  "Q3674": {
+    "t": "A Sahel capital on the great river Niger",
+    "s": "Niamey spreads along the left bank of the Niger, a broad brown river bordered by green strips of rice fields and gardens in an otherwise dusty land. Only a small village in the late 1800s, it became the colonial capital in 1926 and has grown fast ever since. East of the city, the scrubland is home to the last wild herd of West African giraffes.",
+    "w": "A city on a wide brown river flowing south-east, with green ribbons of fields along its banks and dry plateaus beyond.",
+    "f": [
+      "The last wild West African giraffes live around Kouré, about 60 km south-east of Niamey.",
+      "The Niger, Africa's third-longest river, loops through the Sahel past the city.",
+      "Downstream lies W National Park, named after a W-shaped bend of the Niger."
+    ],
+    "q": {
+      "q": "Which river flows past Niamey?",
+      "a": "The Niger",
+      "x": [
+        "The Senegal",
+        "The Volta"
+      ]
+    }
+  },
+  "Q208718": {
+    "t": "A young Red Sea harbour with coral reefs offshore",
+    "s": "Port Sudan lies on a flat, hot strip of Red Sea coast, where a deep, coral-fringed inlet makes a natural harbour. It is a young city, built in the early 1900s to replace the old port of Suakin, whose channel was too narrow for modern ships. Offshore, look for turquoise patches in the deep blue: reefs and atolls.",
+    "w": "A low city around a sheltered inlet on a straight desert coast, with turquoise reefs offshore and dry hills inland.",
+    "f": [
+      "Sanganeb, an atoll about 25 km offshore, is a UNESCO-listed marine national park.",
+      "The Red Sea Hills behind the coastal plain rise to more than 2,000 metres.",
+      "Work on the new port began in 1905."
+    ],
+    "q": {
+      "q": "Which old port did Port Sudan replace as the main harbour?",
+      "a": "Suakin",
+      "x": [
+        "Massawa",
+        "Berbera"
+      ]
+    }
+  },
+  "Q3780": {
+    "t": "A city between green mountains and a great harbour",
+    "s": "Freetown clings to the northern tip of a mountainous peninsula, wedged between forested hills and the wide estuary of the Sierra Leone River. That estuary is one of the largest natural harbours in the world. Portuguese sailors named the peaks 'Serra Leoa', the lion mountains. The city was founded in 1792 as a home for freed Africans.",
+    "w": "A city squeezed between green, mountainous ridges and a very wide river estuary opening onto the Atlantic.",
+    "f": [
+      "The highest hills of the Freetown Peninsula rise to nearly 900 metres.",
+      "Settlers from Nova Scotia, formerly enslaved Africans, founded the city in 1792.",
+      "The peninsula's rainforest is protected as the Western Area Peninsula National Park."
+    ],
+    "q": {
+      "q": "What does the name Sierra Leone mean?",
+      "a": "Lion mountains",
+      "x": [
+        "Green coast",
+        "River of gold"
+      ]
+    }
+  },
+  "Q320049": {
+    "t": "A mud-brick gateway to the Sahara",
+    "s": "Agadez is a sand-coloured oasis town at the southern edge of the Aïr Mountains, where the Sahel gives way to the Sahara. For centuries it was a crossroads for Tuareg caravans carrying salt and goods across the desert. Its skyline is marked by a mud-brick minaret bristling with wooden beams, first raised in the early 16th century.",
+    "w": "A small, earth-coloured town on flat sand, with the dark, rugged Aïr Mountains rising to the north and east.",
+    "f": [
+      "The minaret of the Grand Mosque is about 27 metres tall, one of the tallest mud-brick structures in the world.",
+      "The historic centre of Agadez became a UNESCO World Heritage site in 2013.",
+      "The Aïr Mountains north of the town rise to just over 2,000 metres."
+    ],
+    "q": {
+      "q": "What is Agadez's famous minaret built of?",
+      "a": "Mud brick",
+      "x": [
+        "White marble",
+        "Coral stone"
+      ]
+    }
+  },
+  "Q851576": {
+    "t": "A savanna city below a volcanic massif",
+    "s": "Nyala lies in the rolling savanna of southern Darfur, beside a wide, sandy wadi that runs with water only in the rainy season. From above, the land is dotted with acacia and cultivated patches that turn green after the summer rains. To the north-west rise the Marra Mountains, a volcanic massif crowned by a great caldera.",
+    "w": "A spread-out town on flat, dotted savanna beside a broad sandy riverbed, with dark volcanic highlands far to the north-west.",
+    "f": [
+      "Jebel Marra rises to about 3,000 metres, far above the surrounding plains.",
+      "Nyala is the largest city in the Darfur region.",
+      "Rain falls here mostly between June and September; the rest of the year is dry."
+    ],
+    "q": {
+      "q": "What lies inside the summit caldera of Jebel Marra, near Nyala?",
+      "a": "Two crater lakes",
+      "x": [
+        "A glacier",
+        "A salt flat"
+      ]
+    }
+  },
+  "Q276534": {
+    "t": "A river town on the red earth of the ironstone plateau",
+    "s": "Wau sits on the Jur River in the north-west of South Sudan, where wooded savanna on reddish ironstone soils stretches in every direction. In the rainy season the whole region turns a vivid green and the river swells. Its water flows on towards the Sudd, one of the largest wetlands in the world, before reaching the White Nile.",
+    "w": "A modest town on a winding river amid flat, wooded savanna, with patches of red earth showing through.",
+    "f": [
+      "Wau is one of the largest cities in South Sudan.",
+      "The Jur feeds the Bahr el Ghazal, which meets the White Nile at Lake No.",
+      "The reddish soils around Wau belong to the ironstone plateau that covers much of western South Sudan."
+    ],
+    "q": {
+      "q": "Which river flows past Wau?",
+      "a": "The Jur",
+      "x": [
+        "The Sobat",
+        "The Blue Nile"
+      ]
+    }
+  },
+  "Q821321": {
+    "t": "A thin green thread of the Nile through the desert",
+    "s": "Dongola sits on the west bank of the Nile in northern Sudan, where the river's strip of date palms and fields is only a few kilometres wide and yellow desert presses in on both sides. From above it is the clearest picture of how the Nile makes life possible. Upstream, Old Dongola was once a medieval Nubian royal capital.",
+    "w": "A narrow ribbon of dark green along the Nile, with a small town on its west bank and bare desert on both sides.",
+    "f": [
+      "Kerma, about 50 km downstream, was the centre of one of Africa's earliest kingdoms more than 4,000 years ago.",
+      "Between Khartoum and Egypt the Nile makes a huge S-shaped bend, and Dongola lies on its north-flowing stretch.",
+      "Rain is so rare here that some years pass with almost none."
+    ],
+    "q": {
+      "q": "Old Dongola was the capital of which medieval kingdom?",
+      "a": "Makuria",
+      "x": [
+        "Aksum",
+        "Kanem"
+      ]
+    }
+  },
+  "Q686813": {
+    "t": "A town at the foot of sudden granite towers",
+    "s": "Kassala lies on the flat plain of eastern Sudan, right at the foot of the Taka Mountains, a cluster of bare granite domes that shoot up abruptly from the land and are unmistakable from the air. The seasonal Gash River flows past the town and spreads into an inland delta of farms to the north. The Eritrean border lies just to the east.",
+    "w": "A cluster of steep, bare rock domes rising straight out of a flat plain, with a town and green orchards at their base.",
+    "f": [
+      "The Taka Mountains rise several hundred metres straight up from the surrounding plain.",
+      "The Gash River flows only in the rainy season and fans out into an inland delta north of the town.",
+      "Orchards watered by the Gash make Kassala known across Sudan for its fruit."
+    ],
+    "q": {
+      "q": "What rises abruptly beside Kassala?",
+      "a": "Bare granite mountains",
+      "x": [
+        "Sand dunes",
+        "A volcanic cone"
+      ]
+    }
+  },
+  "Q26087": {
+    "t": "An Arctic island city under the northern lights",
+    "s": "Tromsø sits mainly on a small island between steep, snow-streaked mountains and deep sounds, about 350 km north of the Arctic Circle. Bridges and tunnels tie it to the mainland. In midwinter the sun doesn't rise for weeks and the northern lights often dance overhead; in midsummer it doesn't set. Polar expeditions long set out from here.",
+    "w": "A small city on a low island in a narrow sound, ringed by steep, white-topped mountains and fjords.",
+    "f": [
+      "The midnight sun shines here from about late May to late July.",
+      "During the polar night, from late November to mid-January, the sun stays below the horizon.",
+      "Tromsø lies under the auroral oval, one of the best places on Earth to see the northern lights."
+    ],
+    "q": {
+      "q": "Roughly how far north of the Arctic Circle is Tromsø?",
+      "a": "About 350 km",
+      "x": [
+        "About 50 km",
+        "About 1,000 km"
+      ]
+    }
+  },
+  "Q25804": {
+    "t": "A Viking-age town cradled in a loop of river",
+    "s": "Trondheim sits on the south shore of the long Trondheimsfjord, where the river Nidelva curls around the old town in a tight loop, almost turning it into an island. King Olav Tryggvason founded the town in 997, and for centuries pilgrims came here to the shrine of Saint Olav. Look for the fjord's broad arm reaching far inland.",
+    "w": "A city on a long fjord, with a river curling round the compact old centre in a near-complete loop.",
+    "f": [
+      "Nidaros Cathedral, built over Saint Olav's grave, is the northernmost medieval cathedral in the world.",
+      "The Trondheimsfjord is about 130 km long, one of Norway's longest fjords.",
+      "Warm Atlantic water keeps the fjord largely free of ice through the winter."
+    ],
+    "q": {
+      "q": "What was Trondheim's medieval name?",
+      "a": "Nidaros",
+      "x": [
+        "Bjørgvin",
+        "Christiania"
+      ]
+    }
+  },
+  "Q26793": {
+    "t": "A rainy port ringed by seven mountains",
+    "s": "Bergen sits on Norway's west coast between steep mountains and a maze of islands and fjords, so it is no surprise that it is one of Europe's rainiest cities. Look for a small harbour bay cutting into the centre, framed by mountains. For centuries this was a key Hanseatic trading port, shipping dried cod from the north across Europe.",
+    "w": "A city squeezed around a narrow harbour between steep mountains, with countless islands and fjords spreading out to sea.",
+    "f": [
+      "Bergen gets roughly 2,250 mm of rain in an average year.",
+      "Bryggen, the old Hanseatic wharf, has been a UNESCO World Heritage site since 1979.",
+      "The Sognefjord, Norway's longest and deepest fjord, opens to the sea north of the city."
+    ],
+    "q": {
+      "q": "Which Hanseatic wharf is Bergen famous for?",
+      "a": "Bryggen",
+      "x": [
+        "Speicherstadt",
+        "Nyhavn"
+      ]
+    }
+  },
+  "Q990080": {
+    "t": "A deep-water bay on Mozambique's northern coast",
+    "s": "Nacala lies on the shore of a long, deep bay on Mozambique's northern coast, one of the finest natural harbours in East Africa. The water is deep enough for big ships to come close in without dredging. From above, look for a narrow-mouthed inlet reaching inland between green hills, with coral reefs along the ocean shore outside.",
+    "w": "A long, deep inlet reaching inland through a narrow mouth, with a town on its shore and green hills around.",
+    "f": [
+      "Nacala's bay is often described as the deepest natural harbour on Africa's east coast.",
+      "A railway links Nacala's port with landlocked Malawi.",
+      "Coral reefs fringe the coast outside the bay."
+    ],
+    "q": {
+      "q": "Which UNESCO-listed island lies about 60 km south of Nacala?",
+      "a": "Mozambique Island",
+      "x": [
+        "Zanzibar",
+        "Lamu"
+      ]
+    }
+  },
+  "Q37701": {
+    "t": "The judicial capital on the open Free State plains",
+    "s": "Bloemfontein sits in the middle of South Africa's high, flat grasslands, about 1,400 metres up, where a few rocky, flat-topped hills — koppies — break the horizon. It is one of the country's three capitals, home to the Supreme Court of Appeal. It is also where J. R. R. Tolkien was born, in 1892.",
+    "w": "A compact city on wide, flat, tawny grassland, with a few small flat-topped hills around its centre.",
+    "f": [
+      "Naval Hill, in the middle of the city, is a small nature reserve with giraffes.",
+      "South Africa has three capitals: Pretoria, Cape Town and Bloemfontein.",
+      "The city was founded in 1846 as a British outpost beside a spring."
+    ],
+    "q": {
+      "q": "What does the name Bloemfontein mean?",
+      "a": "Fountain of flowers",
+      "x": [
+        "Flower hill",
+        "Blooming valley"
+      ]
+    }
+  },
+  "Q3926": {
+    "t": "The jacaranda city between long rocky ridges",
+    "s": "Pretoria lies in valleys between long, parallel ridges running east–west, part of the Magaliesberg range, about 50 km north of Johannesburg. It is South Africa's executive capital. In October and November tens of thousands of jacaranda trees bloom along its streets, washing whole suburbs in purple. The city was founded in 1855 and named after Andries Pretorius.",
+    "w": "A city spread along valleys between long, straight east–west ridges, merging southwards into the Johannesburg sprawl.",
+    "f": [
+      "Tswaing, a meteorite crater about 1.1 km across, lies some 40 km north-west of the city.",
+      "The rocks of the Magaliesberg are more than two billion years old.",
+      "Pretoria's jacarandas are not native: they were brought from South America."
+    ],
+    "q": {
+      "q": "Which tree turns Pretoria purple in spring?",
+      "a": "Jacaranda",
+      "x": [
+        "Flame tree",
+        "Mimosa"
+      ]
+    }
+  },
+  "Q80985": {
+    "t": "A medieval maze still living inside its walls",
+    "s": "Fez lies in a green valley between the Middle Atlas and the Rif, and its old medina, Fes el-Bali, is one of the largest car-free urban areas in the world. From above, it is a dense, pale mass in a bowl of hills, with the newer city laid out on the plain beside it. Its university, al-Qarawiyyin, dates back to 859.",
+    "w": "A dense, pale old city packed into a bowl of hills, with a grid-planned new town spreading beside it on the plain.",
+    "f": [
+      "Al-Qarawiyyin, founded in 859, is often cited as the oldest continuously operating university in the world.",
+      "The Medina of Fez has been a UNESCO World Heritage site since 1981.",
+      "Fez's tanneries still dye leather in stone vats, much as they did centuries ago."
+    ],
+    "q": {
+      "q": "Who founded al-Qarawiyyin in Fez in 859?",
+      "a": "Fatima al-Fihri",
+      "x": [
+        "Idris I",
+        "Ibn Battuta"
+      ]
+    }
+  },
+  "Q3551": {
+    "t": "A capital facing its twin across a river mouth",
+    "s": "Rabat sits on the Atlantic where the Bou Regreg river reaches the sea, facing its older twin, Salé, across the estuary. On the clifftop at the river mouth stands the walled Kasbah of the Udayas. A little upstream, a 12th-century caliph began a vast mosque whose unfinished minaret, the Hassan Tower, still overlooks the water.",
+    "w": "Two cities facing each other across a river mouth on a straight Atlantic coast, with a walled fortress on the southern point.",
+    "f": [
+      "The Hassan Tower was left unfinished when its builder, the Almohad caliph Yaqub al-Mansur, died in 1199.",
+      "Rabat's historic and modern city became a UNESCO World Heritage site in 2012.",
+      "In the 17th century Salé was a base for Atlantic corsairs, the 'Sallee Rovers'."
+    ],
+    "q": {
+      "q": "Which city faces Rabat across the Bou Regreg river?",
+      "a": "Salé",
+      "x": [
+        "Kenitra",
+        "Témara"
+      ]
+    }
+  },
+  "Q101625": {
+    "t": "A red city with snowy peaks on the horizon",
+    "s": "Marrakesh spreads across the flat Haouz plain, a city of ochre-red walls and palm groves. The view south is the show: the High Atlas rises like a wall some 50 km away, its peaks often white from winter into spring. Look for the dark green of the palm grove north of the city and the neat rectangles of old garden pools.",
+    "w": "A reddish city on a flat, dry plain, with a dark palm grove to the north and the snow-capped High Atlas to the south.",
+    "f": [
+      "Toubkal, North Africa's highest peak at about 4,170 metres, lies some 60 km south of the city.",
+      "The Almoravid dynasty founded Marrakesh around 1070.",
+      "The Medina of Marrakesh has been a UNESCO World Heritage site since 1985."
+    ],
+    "q": {
+      "q": "Which mountain range rises south of Marrakesh?",
+      "a": "The High Atlas",
+      "x": [
+        "The Rif",
+        "The Middle Atlas"
+      ]
+    }
   }
 }

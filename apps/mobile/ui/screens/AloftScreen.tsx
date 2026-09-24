@@ -16,6 +16,7 @@ import { useSession } from '../../src/core/flight/session';
 import { positionNow, offsetFromFix, type Now } from '../../src/core/flight/position';
 import { whatsOutside, type InView } from '../../src/core/flight/nowView';
 import { nextGuess, type Guess } from '../../src/core/flight/guess';
+import { groundHidden } from '../../src/core/flight/clouds';
 import { retimeTakeoff } from '../../src/core/flight/controller';
 import { watchGps } from '../../src/core/flight/gps';
 import { settings } from '../../src/core/settings';
@@ -407,6 +408,12 @@ export default function AloftScreen() {
             <>
               <Space h={s.x1} />
               <Small>{t('aloft.nightHint')}</Small>
+            </>
+          ) : null}
+          {outside.daylight && groundHidden(pkg, pos.elapsedS) ? (
+            <>
+              <Space h={s.x1} />
+              <Small>{t('aloft.cloudsBelow')}</Small>
             </>
           ) : null}
           {pkg.routeKind === 'approximate' && pos.source !== 'gps' ? (

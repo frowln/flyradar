@@ -166,6 +166,7 @@ export const ja = {
     takeoffNow: 'たった今',
     takeoffAgo: '%{m}分前',
     takeoffScheduled: '定刻どおり',
+    routeTrack: '%{date}にこの便が実際に飛んだルート',
   },
   advice: {
     label: '窓側の席',
@@ -179,6 +180,9 @@ export const ja = {
     night: '夜間飛行',
     yourSeat: 'あなたの座席 %{seat} は%{side}です',
     yourSeatNoWindow: 'あなたの座席 %{seat} は窓側ではありません',
+    cloudyMost: '予報：ルートの約%{pct}%が曇り',
+    cloudySome: '予報：ところどころ曇り（ルートの約%{pct}%）',
+    clear: '予報：ルートはおおむね晴れ',
   },
   addFlight: {
     title: '新しいフライト',
@@ -222,6 +226,13 @@ export const ja = {
     stage_photos: '写真',
     stage_map: 'オフライン地図',
     continueBackground: 'バックグラウンドで続ける',
+    byNumber: '便名で検索',
+    byNumberHint: '便名と日付だけで、空港と時刻が自動で入ります。',
+    find: '検索',
+    orManual: '…または空港を手入力：',
+    found: '%{from} — %{to}、%{time}発',
+    notFound: 'この日付の便が見つかりません。手入力してください。',
+    numberInvalid: '便名の形式ではないようです。',
   },
   guess: {
     label: 'クイズ',
@@ -262,6 +273,7 @@ export const ja = {
     finish: 'フライトを終了',
     finishTitle: 'フライトを今すぐ終了しますか？',
     finishBody: 'パスポートに記録されるのは、すでに上空を通過した場所だけです。',
+    cloudsBelow: '下は雲の予報です。雲の切れ間を探しましょう。',
   },
   facts: {
     title: '上空から',

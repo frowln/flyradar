@@ -322,5 +322,653 @@
         "Grazing patterns"
       ]
     }
+  },
+  "Q200952": {
+    "t": "A river that ties itself in loops",
+    "s": "Few rivers show their restlessness as plainly as the Ucayali. From above it is a brown ribbon coiling through the Peruvian rainforest, with a sandbar on every bend and abandoned loops lying beside it as crescent lakes. Its channel shifts year after year. Further north it meets the Marañón, and together they become the Amazon.",
+    "w": "Tight brown loops with pale sandbars and green crescent lakes beside them, in flat forest east of the Andes.",
+    "f": [
+      "The Amazon's most distant source, high in the Andes of southern Peru, drains towards the sea through the Ucayali.",
+      "Pucallpa, the main city on its banks, is linked to Lima by a road across the Andes.",
+      "Riverboats run from Pucallpa down to Iquitos, a city with no road link to the rest of Peru."
+    ],
+    "q": {
+      "q": "Which river does the Ucayali meet to form the Amazon?",
+      "a": "Marañón",
+      "x": [
+        "Napo",
+        "Huallaga"
+      ]
+    }
+  },
+  "Q46841": {
+    "t": "A northern giant, braided around wooded islands",
+    "s": "Here, below Yakutsk, the Lena has already taken in the Aldan and the Vilyuy, and it spreads into a maze of channels and wooded islands, several kilometres from bank to bank. For about seven months a year it lies frozen, a white road through the taiga. In late May the ice breaks up with a roar and the spring flood covers the islands.",
+    "w": "A broad river split into channels around long wooded islands and sandbars; in winter, a white band through dark taiga.",
+    "f": [
+      "The Lena is more than 4,000 km long and flows entirely within Russia.",
+      "In winter lorries drive for hundreds of kilometres along the frozen river on an ice road.",
+      "Upstream of Yakutsk stand the Lena Pillars, rock towers along the bank listed by UNESCO in 2012."
+    ],
+    "q": {
+      "q": "Into which sea does the Lena flow?",
+      "a": "The Laptev Sea",
+      "x": [
+        "The Kara Sea",
+        "The East Siberian Sea"
+      ]
+    }
+  },
+  "Q26076": {
+    "t": "Myanmar's great river, braided with sandbanks",
+    "s": "Through the dry heart of Myanmar the Irrawaddy is a wide sheet of brown water braided around pale sandbanks that grow and vanish with the seasons. Near here it takes in its biggest tributary, the Chindwin. A little downstream, on the east bank, lies the plain of Bagan, where more than two thousand old temples and pagodas still stand.",
+    "w": "A broad river with pale sandbanks in a dry, brownish plain; a second large river joins it from the north-west.",
+    "f": [
+      "The Irrawaddy runs for more than 2,000 km, almost the whole length of Myanmar, to the Andaman Sea.",
+      "It gives its name to the Irrawaddy dolphin, a small, round-headed dolphin of rivers and coastal waters.",
+      "Its delta, laced with channels, is one of the great rice-growing regions of Asia."
+    ],
+    "q": {
+      "q": "Which old temple city lies on the Irrawaddy's east bank?",
+      "a": "Bagan",
+      "x": [
+        "Angkor",
+        "Ayutthaya"
+      ]
+    }
+  },
+  "Q7821148": {
+    "t": "The Yangtze in its youth, on the roof of the world",
+    "s": "Long before it becomes China's mightiest river, the Yangtze crosses the high Qinghai plateau as the Tongtian, 'the river that reaches to heaven'. From above it is a braided silver strand, spread in many channels over a broad gravel valley more than 4,000 m up. Around it lie brown-green pastures, snow-dusted hills and hardly any people.",
+    "w": "A silvery river split into many channels across a wide gravel valley, among bare rounded hills of a high plateau.",
+    "f": [
+      "In the classic novel 'Journey to the West', the monk Xuanzang crosses the Tongtian on the back of a giant turtle.",
+      "It lies in Sanjiangyuan, the 'Source of Three Rivers', where the Yangtze, the Yellow River and the Mekong all begin.",
+      "Below Yushu the Tongtian takes a new name: the Jinsha, the 'River of Golden Sand'."
+    ],
+    "q": {
+      "q": "The Tongtian is the upper course of which river?",
+      "a": "The Yangtze",
+      "x": [
+        "The Yellow River",
+        "The Mekong"
+      ]
+    }
+  },
+  "Q1497": {
+    "t": "A river of islands between tall wooded bluffs",
+    "s": "Here, on its upper course, the Mississippi is not one channel but a whole valley of water: islands, sloughs and backwaters between steep wooded bluffs on both sides. The bluffs stand tall because this corner of the Midwest, the Driftless Area, escaped the last ice sheets. Every few dozen kilometres a lock and dam holds the river in a chain of broad pools.",
+    "w": "A wide valley of braided water and islands between steep forested bluffs, running north–south through farmland.",
+    "f": [
+      "With the Missouri, the Mississippi drains about 40 percent of the contiguous United States.",
+      "Between Minneapolis and St. Louis, some 29 locks and dams turn the river into a navigable staircase.",
+      "Its source is Lake Itasca in Minnesota, where you can cross the young river on stepping stones."
+    ],
+    "q": {
+      "q": "In which state does the Mississippi begin?",
+      "a": "Minnesota",
+      "x": [
+        "Wisconsin",
+        "Iowa"
+      ]
+    }
+  },
+  "Q1038418": {
+    "t": "The 'River of Golden Sand' in its deep valleys",
+    "s": "Jinsha means 'golden sand', after the gold once panned from its gravels. This is the upper Yangtze, carving deep valleys through the mountains of Yunnan and Sichuan; from the air it is a green-brown thread at the bottom of steep, dry slopes. Today a chain of giant dams has turned long stretches of it into narrow, winding reservoirs.",
+    "w": "A winding river deep in steep, brownish mountain valleys, widening in places into long, snake-like reservoirs.",
+    "f": [
+      "Upstream, in Tiger Leaping Gorge, the mountainsides rise more than 3,000 m above the rushing water.",
+      "At the 'First Bend' near Shigu the river swings sharply from south to north-east.",
+      "The Baihetan Dam on the Jinsha is one of the most powerful hydroelectric plants in the world."
+    ],
+    "q": {
+      "q": "What does the name Jinsha mean?",
+      "a": "Golden sand",
+      "x": [
+        "Black water",
+        "Jade river"
+      ]
+    }
+  },
+  "Q4814791": {
+    "t": "A slow, pale river across the Sudanese plain",
+    "s": "The White Nile is in no hurry. On these flat Sudanese plains it has almost no slope left, so it spreads wide and lazy between low banks, its water pale with fine clay, hence the name. Irrigated fields and reed beds line the river; beyond them, dry savanna runs to the horizon.",
+    "w": "A broad, pale river with low banks and green irrigated strips, running north across a flat, dry plain.",
+    "f": [
+      "At Khartoum it meets the Blue Nile, and for a while their different colours run side by side.",
+      "Its steady flow comes mostly from Lake Victoria and other East African lakes, filtered through the Sudd swamps.",
+      "The Jebel Aulia Dam, south of Khartoum, was built across the White Nile in the 1930s."
+    ],
+    "q": {
+      "q": "What gives the White Nile its name?",
+      "a": "Pale clay in its water",
+      "x": [
+        "Snow-fed sources",
+        "White sandy banks"
+      ]
+    }
+  },
+  "Q5413": {
+    "t": "Asia's longest river, held back by a giant dam",
+    "s": "Around here the Yangtze no longer flows freely: this is the Three Gorges reservoir, a green-brown lake some 600 km long, winding between steep hills. Towns that stood on its banks were rebuilt higher up the slopes as the water rose. Downstream, the reservoir ends at the Three Gorges Dam, the largest power station in the world by capacity.",
+    "w": "A long, winding, lake-like river between steep green hills, with towns climbing its slopes.",
+    "f": [
+      "At about 6,300 km, the Yangtze is the longest river in Asia and the third longest in the world.",
+      "The reservoir behind the Three Gorges Dam reaches almost to Chongqing.",
+      "About a third of China's people live in the Yangtze basin."
+    ],
+    "q": {
+      "q": "Which dam holds back the Yangtze downstream of here?",
+      "a": "Three Gorges Dam",
+      "x": [
+        "Xiaolangdi Dam",
+        "Longtan Dam"
+      ]
+    }
+  },
+  "Q2750140": {
+    "t": "The river that feeds Lake Victoria, and so the Nile",
+    "s": "Look for a river winding through a wide valley of papyrus swamp, with lakes strung along it like beads. This is the Kagera, the largest river flowing into Lake Victoria, and its headwaters are often counted as the most distant source of the Nile. Along this stretch it forms Rwanda's eastern border, with Akagera National Park on its western bank.",
+    "w": "A winding river in a broad green swamp with a chain of lakes beside it, among rolling savanna hills.",
+    "f": [
+      "Its headwaters rise in Rwanda's Nyungwe forest and in the hills of Burundi.",
+      "Akagera National Park, named after the river, protects savanna, lakes and papyrus swamps along its banks.",
+      "The Kagera enters Lake Victoria in Tanzania, north of the town of Bukoba."
+    ],
+    "q": {
+      "q": "Which lake does the Kagera flow into?",
+      "a": "Lake Victoria",
+      "x": [
+        "Lake Tanganyika",
+        "Lake Kivu"
+      ]
+    }
+  },
+  "Q5419": {
+    "t": "The 'Big Muddy', tamed into smooth curves",
+    "s": "The Missouri earned its nickname, the Big Muddy, from the silt it once carried. Here, along the Kansas–Missouri line, it swings in wide, smooth curves between levees, a channel shaped by engineers for barges. Look beside it for the ghosts of older courses: crescent lakes and curving field boundaries in the flat floodplain.",
+    "w": "A brown river in smooth, regular bends across a flat floodplain of fields, with crescent lakes and old channel scars.",
+    "f": [
+      "At about 3,700 km, the Missouri is the longest river in the United States.",
+      "In 1804 Lewis and Clark set off up the Missouri on their expedition to the Pacific.",
+      "The Missouri joins the Mississippi just north of St. Louis."
+    ],
+    "q": {
+      "q": "What is the Missouri's nickname?",
+      "a": "The Big Muddy",
+      "x": [
+        "Old Man River",
+        "The Father of Waters"
+      ]
+    }
+  },
+  "Q284780": {
+    "t": "China's lowest, hottest hollow, full of vineyards",
+    "s": "Look for a dark green oasis at the foot of red, furrowed hills, beside a white salt flat. This is the Turpan Depression, where the ground sinks to about 154 m below sea level at Lake Aydingkol, the lowest point in China. Its summers are the hottest in the country, yet Turpan's vineyards thrive on meltwater from the Tian Shan.",
+    "w": "A green oasis and a white salt flat in a brown desert basin, south of the snowy Tian Shan.",
+    "f": [
+      "The Flaming Mountains, a bare red-sandstone ridge, run along its northern side and glow in the afternoon sun.",
+      "Karez, underground channels dug centuries ago, still carry mountain water to Turpan's fields.",
+      "Turpan is famous for grapes and raisins, dried in airy, open-walled brick houses."
+    ],
+    "q": {
+      "q": "About how far below sea level is the Turpan Depression's lowest point?",
+      "a": "About 150 m",
+      "x": [
+        "About 50 m",
+        "About 400 m"
+      ]
+    }
+  },
+  "Q191333": {
+    "t": "A gateway through the mountains, used for millennia",
+    "s": "West of Peshawar the green, crowded plain ends abruptly against bare brown ridges, and a narrow valley winds up into them: the Khyber Pass. For thousands of years traders, pilgrims and armies came this way between Central Asia and the Indian subcontinent. Its highest point is only about 1,070 m, but the slopes around it are steep and dry.",
+    "w": "Where the green Peshawar plain meets a wall of bare, brown, folded hills to the west.",
+    "f": [
+      "The Khyber is one of the main routes between Pakistan and Afghanistan, leading to the border crossing at Torkham.",
+      "A railway through the pass, with dozens of tunnels and bridges, was completed in the 1920s.",
+      "Gandhara, an ancient land of Buddhist art and learning, lay around Peshawar at the foot of the pass."
+    ],
+    "q": {
+      "q": "Which city lies at the eastern foot of the Khyber Pass?",
+      "a": "Peshawar",
+      "x": [
+        "Lahore",
+        "Quetta"
+      ]
+    }
+  },
+  "Q118388": {
+    "t": "North America's lowest, hottest, driest valley",
+    "s": "Look for a long white streak between dark mountains: the salt pan of Badwater Basin, at 86 m below sea level the lowest point in North America. Fans of gravel spill from every canyon onto the valley floor like poured sand. In 1913 a thermometer here read 56.7 °C, the highest air temperature ever officially recorded on Earth.",
+    "w": "A long white salt flat between steep, bare brown ranges, with fan-shaped gravel slopes below each canyon.",
+    "f": [
+      "Mount Whitney, the highest peak in the contiguous US at 4,421 m, stands less than 140 km away.",
+      "On Racetrack Playa, rocks slide across the mud when wind pushes thin sheets of ice, leaving long trails.",
+      "Death Valley is the largest national park in the contiguous United States."
+    ],
+    "q": {
+      "q": "How far below sea level is Badwater Basin?",
+      "a": "About 86 m",
+      "x": [
+        "About 28 m",
+        "About 154 m"
+      ]
+    }
+  },
+  "Q534290": {
+    "t": "Australia's food bowl, threaded by slow brown rivers",
+    "s": "From above, the Murray–Darling basin is a vast, flat plain in ochre and khaki, crossed by slow rivers traced in the dark green of river red gums. In the Riverina, near here, irrigation turns the plain into bright green squares of rice, cotton and orchards. The basin covers about a seventh of Australia.",
+    "w": "A flat ochre plain crossed by winding rivers lined with dark green trees; bright green irrigated fields near them.",
+    "f": [
+      "The Murray and the Darling together form Australia's longest river system, well over 3,000 km.",
+      "River red gums along its banks can live for several hundred years.",
+      "At dry Lake Mungo, in the west of the basin, people left traces of their lives more than 40,000 years ago."
+    ],
+    "q": {
+      "q": "Roughly what share of Australia does the Murray–Darling basin cover?",
+      "a": "About a seventh",
+      "x": [
+        "About a half",
+        "About a twentieth"
+      ]
+    }
+  },
+  "Q191566": {
+    "t": "Bog, taiga and gas flares on an endless flat",
+    "s": "Few places on Earth are as flat as this. Below you, rivers crawl across the West Siberian Plain in huge loops, and between them spread the bogs, a brown and olive patchwork of peat and countless small lakes. At night the gas flares and lights of the oil towns glow in the darkness.",
+    "w": "Flat olive-brown bogland spotted with small lakes, with looping rivers and dark ribbons of forest along them.",
+    "f": [
+      "The Vasyugan Swamp, in the south of the plain, is one of the largest bogs in the world.",
+      "Across the plain the Ob drops only a few centimetres per kilometre, so its floods spread wide and linger.",
+      "The plain holds some of Russia's biggest oil and gas fields, among them Samotlor near Nizhnevartovsk."
+    ],
+    "q": {
+      "q": "Which huge bog lies in the south of the West Siberian Plain?",
+      "a": "Vasyugan Swamp",
+      "x": [
+        "Pinsk Marshes",
+        "Meshchera Marshes"
+      ]
+    }
+  },
+  "Q966943": {
+    "t": "A land of ridges where no river reaches the sea",
+    "s": "Look down on Nevada and you see a rhythm: a long dark mountain range, a flat pale valley, another range, another valley, repeating to the horizon, all running north–south. This is the Great Basin, where no river finds its way to the ocean; water ends in salt lakes or simply evaporates. Many valley floors are dry lake beds, dazzling white.",
+    "w": "Parallel north–south mountain ridges separated by flat, pale valleys, some with white dry lake beds.",
+    "f": [
+      "Great Basin bristlecone pines, some almost 5,000 years old, are among the oldest living trees on Earth.",
+      "The Great Salt Lake in Utah is a remnant of a much larger Ice Age lake, Lake Bonneville.",
+      "Explorer John C. Frémont named the Great Basin in the 1840s, realising it had no outlet to the sea."
+    ],
+    "q": {
+      "q": "Where do the Great Basin's rivers end?",
+      "a": "In lakes and sinks inland",
+      "x": [
+        "In the Pacific Ocean",
+        "In the Gulf of California"
+      ]
+    }
+  },
+  "Q656985": {
+    "t": "A hidden sea of ancient water under the red outback",
+    "s": "Nothing on the surface gives it away: below you is the red and ochre outback, crossed by the braided dry channels of the Channel Country. But beneath it lies the Great Artesian Basin, one of the largest underground stores of fresh water on Earth. Some of its water fell as rain more than a million years ago.",
+    "w": "Rusty red plains laced with braided, mostly dry river channels that turn green after rare floods.",
+    "f": [
+      "The basin lies beneath about a fifth of Australia.",
+      "Water from some deep bores comes out hot, close to boiling point.",
+      "Where the water seeps out naturally, mound springs form small green oases in the desert."
+    ],
+    "q": {
+      "q": "How old is some of the Great Artesian Basin's water?",
+      "a": "Over a million years",
+      "x": [
+        "About 1,000 years",
+        "About 10,000 years"
+      ]
+    }
+  },
+  "Q28809720": {
+    "t": "Black-earth fields under a long white winter",
+    "s": "The Manchurian Plain is northern China's great granary: a flat expanse of huge fields laid out in long strips, with poplar windbreaks drawn across them like pencil lines. Its soil is a rich black earth, darker than almost anywhere else in China. From November to March it lies frozen and white, then turns green with maize and soybeans.",
+    "w": "Flat farmland in long strips divided by thin lines of trees; black in spring, green in summer, white in winter.",
+    "f": [
+      "It is one of the world's few great black-soil regions, along with the Ukrainian steppe and the US Corn Belt.",
+      "The Songhua drains the plain north to the Amur, while the Liao flows south to the Bohai Sea.",
+      "Harbin, on its northern edge, is famous for its winter festival of giant ice sculptures."
+    ],
+    "q": {
+      "q": "Which crop, with maize, dominates the Manchurian Plain?",
+      "a": "Soybeans",
+      "x": [
+        "Tea",
+        "Cotton"
+      ]
+    }
+  },
+  "Q575516": {
+    "t": "Two deserts, two rivers and a vanishing sea",
+    "s": "Two green threads cross a sea of sand here: the Amu Darya and the Syr Darya, winding through the Kyzylkum and Karakum deserts of the Turan lowland. Along them spread irrigated fields and oasis towns. Both rivers once filled the Aral Sea, which has shrunk dramatically since the 1960s as their water was drawn off for cotton.",
+    "w": "Ochre desert with long dune ridges, crossed by green ribbons of irrigated land along two big rivers.",
+    "f": [
+      "In Turkic languages Kyzylkum means 'red sand' and Karakum 'black sand'.",
+      "Khiva, whose walled inner town is a UNESCO site, stands in an oasis on the lower Amu Darya.",
+      "Much of the Aral Sea's exposed bed has become a new desert, the Aralkum."
+    ],
+    "q": {
+      "q": "What does 'Kyzylkum' mean?",
+      "a": "Red sand",
+      "x": [
+        "Black sand",
+        "White sand"
+      ]
+    }
+  },
+  "Q23945221": {
+    "t": "The shore of the Sahara, green for only a few months",
+    "s": "Sahel comes from the Arabic for 'shore': this is the coast of the Sahara, a belt of dry grass and thorny acacia running right across Africa from the Atlantic to the Red Sea. Its colours follow the rain. From July to September it turns green almost overnight; the rest of the year it fades to straw and dust, dotted with dark trees.",
+    "w": "Tan or green savanna dotted with dark trees, fading into bare sand to the north, crossed by dry riverbeds.",
+    "f": [
+      "The belt runs for roughly 5,000 km across Africa but is only a few hundred kilometres wide.",
+      "The Great Green Wall project aims to restore a band of land across the Sahel with trees and grasses.",
+      "Gum arabic, used in sweets and soft drinks, comes mostly from Sahel acacias, above all in Sudan."
+    ],
+    "q": {
+      "q": "What does the Arabic word 'sahel' mean?",
+      "a": "Shore",
+      "x": [
+        "Sand",
+        "Thirst"
+      ]
+    }
+  },
+  "Q756832": {
+    "t": "Flat pinewoods and farms between the hills and the sea",
+    "s": "Dark green pine forest, sandy fields in neat rectangles and slow rivers the colour of strong tea: this is the flat southern end of the Atlantic coastal plain. Once it was seabed, built of sand and clay laid down when the ocean reached further inland. Towards the coast it dissolves into salt marshes and a chain of barrier islands.",
+    "w": "Flat country of dark pinewoods and rectangular fields with winding tea-coloured rivers; marshes and islands near the coast.",
+    "f": [
+      "Richmond, Raleigh, Columbia and Augusta grew on the Fall Line, where rivers tumble off the hills onto the plain.",
+      "The Okefenokee Swamp, on the Georgia–Florida border, is one of North America's largest blackwater swamps.",
+      "Georgia grows more peanuts than any other US state, much of them on this plain."
+    ],
+    "q": {
+      "q": "Why are many rivers here the colour of tea?",
+      "a": "Tannins from swamp plants",
+      "x": [
+        "Red clay silt",
+        "Iron from springs"
+      ]
+    }
+  },
+  "Q208347": {
+    "t": "A hot, thorny forest-plain at the heart of South America",
+    "s": "Olive-green felt, flat to every horizon: from above, the dry thorn forest of the Gran Chaco looks almost uniform. Look closer and you see the wandering scars of rivers such as the Pilcomayo and the Bermejo, and huge rectangular clearings for cattle and soybeans, edged with strips of trees left standing. The Chaco spreads across Argentina, Paraguay and Bolivia.",
+    "w": "Flat olive-green scrub forest with winding pale river scars and big rectangular clearings with tree-lined edges.",
+    "f": [
+      "Its name is often traced to the Quechua 'chaku', a communal hunt or hunting ground.",
+      "It is the second-largest forest region in South America, after the Amazon.",
+      "The Chaco peccary was known only from fossils until living animals were identified here in the 1970s."
+    ],
+    "q": {
+      "q": "Which animal, once known only from fossils, was found alive in the Chaco?",
+      "a": "Chaco peccary",
+      "x": [
+        "Giant armadillo",
+        "Maned wolf"
+      ]
+    }
+  },
+  "Q141501": {
+    "t": "Plains that turn from dust to inland sea each year",
+    "s": "The Llanos swing between two faces. In the dry season, roughly December to April, this lowland along the Orinoco is golden grassland dotted with palms and crossed by dusty tracks. When the rains come, the rivers overflow and vast stretches become a shallow sheet of water shining in the sun. It is cowboy country, where llaneros still drive cattle across the plains.",
+    "w": "Flat grassland with lines of trees along winding rivers; in the rainy season, shining sheets of floodwater.",
+    "f": [
+      "The Llanos stretch across Venezuela and Colombia, between the Andes and the Orinoco.",
+      "They are home to capybaras, the world's largest rodents, and to Orinoco crocodiles.",
+      "Joropo, the fast harp-and-maracas music of the llaneros, is Venezuela's national dance."
+    ],
+    "q": {
+      "q": "What are the cowboys of the Llanos called?",
+      "a": "Llaneros",
+      "x": [
+        "Gauchos",
+        "Huasos"
+      ]
+    }
+  },
+  "Q184382": {
+    "t": "Flat as a table, and ruled into giant fields",
+    "s": "Pampa comes from a Quechua word for a plain, and few plains are flatter. From above you see a quilt of enormous rectangular fields, dead-straight roads, shallow lakes shining silver and dark clumps of trees marking each estancia. Once tall grassland ridden by gauchos, it is now one of the world's great farm belts for soy, wheat, maize and beef.",
+    "w": "An immense flat quilt of rectangular fields, straight roads and silvery shallow lakes, with dark tree clumps around farmsteads.",
+    "f": [
+      "Almost all the trees you see were planted: the natural pampas had grass but hardly any trees.",
+      "The deep, fertile soils of the Pampas are among the richest in the world.",
+      "Charles Darwin rode across the Pampas in the 1830s during the voyage of the Beagle."
+    ],
+    "q": {
+      "q": "What does the Quechua word 'pampa' mean?",
+      "a": "Plain",
+      "x": [
+        "Grass",
+        "Wind"
+      ]
+    }
+  },
+  "Q192305": {
+    "t": "A plain of Himalayan mud, home to hundreds of millions",
+    "s": "Here the Ganges, now heading for the Bay of Bengal as the Padma, swings in wide braided loops across a plain so flat that its rivers wander at will. Every field, village and pond below you sits on mud carried down from the Himalayas. The Indo-Gangetic Plain is among the most densely populated places on Earth, and at night it glitters with countless lights.",
+    "w": "A wide braided river with pale sandbars in a flat green patchwork of fields, ponds and villages.",
+    "f": [
+      "In places the river-laid sediments beneath the plain are more than a kilometre thick.",
+      "In winter a thick fog often settles over the plain, sometimes blanketing it from Pakistan to Bangladesh.",
+      "The plain runs for more than 2,500 km, from Pakistan across northern India to Bangladesh."
+    ],
+    "q": {
+      "q": "Which mountains supplied the mud that built this plain?",
+      "a": "The Himalayas",
+      "x": [
+        "The Western Ghats",
+        "The Vindhya Range"
+      ]
+    }
+  },
+  "Q486324": {
+    "t": "A green oval oasis walled in by snowy mountains",
+    "s": "Look for a green oval set among mountains: the Fergana Valley, about 300 km long, ringed by the Tian Shan to the north and the Alay range to the south. Rivers pouring down from the snow feed a dense patchwork of cotton fields, orchards, mulberry trees and towns. The Syr Darya is born here, where the Naryn and the Kara Darya meet.",
+    "w": "A green, densely farmed basin surrounded on almost all sides by high, often snow-capped mountains.",
+    "f": [
+      "The valley is shared by Uzbekistan, Kyrgyzstan and Tajikistan.",
+      "More than 2,000 years ago Chinese emperors sought the famous 'heavenly horses' of Fergana.",
+      "Margilan, in the valley, has been known for its silk weaving for centuries."
+    ],
+    "q": {
+      "q": "Which river is born in the Fergana Valley?",
+      "a": "Syr Darya",
+      "x": [
+        "Amu Darya",
+        "Zeravshan"
+      ]
+    }
+  },
+  "Q51614": {
+    "t": "A high plateau of wheat, salt and ancient towns",
+    "s": "The heart of Anatolia is a high, open plateau about a kilometre above the sea, where wheat fields turn from green in spring to gold in summer and bare ochre by autumn. Just to the south-west lies Lake Tuz, a vast salt lake that dries into a blinding white crust in summer. Further south rise the cones of old volcanoes such as Hasan and Erciyes.",
+    "w": "A wide ochre and golden plateau; look for the huge white patch of Lake Tuz and distant volcanic cones.",
+    "f": [
+      "The name comes from the Greek 'anatolē', meaning sunrise, and so the east.",
+      "Çatalhöyük, further south on the plateau, was a town of mud-brick houses more than 9,000 years ago.",
+      "Lake Tuz supplies a large share of Turkey's salt."
+    ],
+    "q": {
+      "q": "Which salt lake lies on the central Anatolian plateau?",
+      "a": "Lake Tuz",
+      "x": [
+        "Lake Iznik",
+        "Lake Urmia"
+      ]
+    }
+  },
+  "Q1507": {
+    "t": "Wind, steppe and sky at the end of the Americas",
+    "s": "Patagonia from the air is mostly emptiness: grey-brown steppe and flat-topped mesetas, cut by a few river valleys that run like green threads from the Andes to the Atlantic. To the west the snowy Andes rise above deep blue lakes. The wind blows hard and almost constantly from the west, bending the few trees there are.",
+    "w": "Vast grey-brown steppe with flat mesas and canyons; to the west, snowy Andes and long blue lakes.",
+    "f": [
+      "Welsh settlers reached the Chubut valley in 1865, and Welsh is still spoken in towns such as Gaiman.",
+      "Some of the largest known dinosaurs, including Argentinosaurus and Patagotitan, were found in Patagonia.",
+      "The name is usually linked to Magellan's crew, who in 1520 called the local people 'Patagones'."
+    ],
+    "q": {
+      "q": "Which European language is still spoken in Patagonia's Chubut valley?",
+      "a": "Welsh",
+      "x": [
+        "Irish",
+        "Basque"
+      ]
+    }
+  },
+  "Q605779": {
+    "t": "A vast slope of ice falling to the Southern Ocean",
+    "s": "From the coast of Wilkes Land the ice rises in a long, gentle slope towards the high plateau of East Antarctica, hundreds of kilometres inland. Near the sea, glaciers speed up and crack into crevasses, and their surface looks like crumpled paper. Beneath the ice lies the deep Aurora Subglacial Basin, much of it below sea level.",
+    "w": "A seamless white slope; near the coast, crevassed glaciers, ice cliffs and sea ice scattered on dark water.",
+    "f": [
+      "It is named after Charles Wilkes, who charted this coast in 1840 on a US Navy expedition.",
+      "The Totten Glacier, on its coast, drains a large part of the ice sheet and is closely watched by scientists.",
+      "Australia's Casey Station stands on its coast, in the Windmill Islands."
+    ],
+    "q": {
+      "q": "Who is Wilkes Land named after?",
+      "a": "An American naval officer",
+      "x": [
+        "A British whaling captain",
+        "A Norwegian king"
+      ]
+    }
+  },
+  "Q1340442": {
+    "t": "Ice over some of the oldest rocks on Earth",
+    "s": "Ice runs from horizon to horizon here, broken near the coast by dark ridges and nunataks, rocky peaks poking through the ice sheet like islands in a white sea. Some of those rocks are among the oldest on Earth. The coast was first sighted in 1831 by John Biscoe, a sealing and whaling captain sailing out of London.",
+    "w": "A white ice sheet with dark rocky peaks near the coast poking through it like islands.",
+    "f": [
+      "It takes its name from Enderby Brothers, the London whaling firm that sent Biscoe south.",
+      "Rocks of its Napier Complex are among the oldest in Antarctica, formed some 3.8 billion years ago.",
+      "Molodyozhnaya station, on its coast, was once the main Soviet base in Antarctica."
+    ],
+    "q": {
+      "q": "What kind of business gave Enderby Land its name?",
+      "a": "A whaling company",
+      "x": [
+        "A tea merchant",
+        "A coal company"
+      ]
+    }
+  },
+  "Q189999": {
+    "t": "Mountains drowning in ice, named after a queen",
+    "s": "Near the coast of Queen Maud Land, jagged mountain chains break through the ice sheet, their dark peaks and granite spires half-buried in white. Further south, where you are now, the ice rises into the high polar plateau and the mountains vanish beneath it. The land's name honours Queen Maud of Norway, wife of King Haakon VII.",
+    "w": "A white plateau inland; towards the coast, dark mountain ranges and needle-like peaks sticking out of the ice.",
+    "f": [
+      "It stretches for more than 2,000 km along the Antarctic coast.",
+      "Several countries run research stations here, among them Norway's Troll, Germany's Neumayer and India's Maitri.",
+      "Queen Maud was born a British princess, a daughter of King Edward VII."
+    ],
+    "q": {
+      "q": "Queen Maud, who gave this land its name, was queen of which country?",
+      "a": "Norway",
+      "x": [
+        "Denmark",
+        "Sweden"
+      ]
+    }
+  },
+  "Q745767": {
+    "t": "Volcanoes under ice, named after an explorer's wife",
+    "s": "Here and there the ice of Marie Byrd Land is pierced by the snowy cones of volcanoes, some rising more than 4 km high. Mount Sidley, about 4,285 m, is the highest volcano in Antarctica. Around them lie hundreds of kilometres of flat white ice. The American aviator Richard Byrd named this remote corner of West Antarctica after his wife, Marie, in 1929.",
+    "w": "A white expanse with isolated, broad volcanic cones rising above the ice towards the coast.",
+    "f": [
+      "No country has ever made a territorial claim to Marie Byrd Land.",
+      "In 1929 Byrd was among the first to fly over the South Pole.",
+      "Its coast faces the Amundsen and Ross seas, often choked with sea ice."
+    ],
+    "q": {
+      "q": "Who was Marie Byrd Land named after?",
+      "a": "An explorer's wife",
+      "x": [
+        "A British queen",
+        "A ship's captain"
+      ]
+    }
+  },
+  "Q80299": {
+    "t": "The world's highest waterfall, off a table mountain",
+    "s": "Angel Falls drops 979 m from the edge of Auyán-tepui, a flat-topped sandstone mountain rising sheer out of the Venezuelan rainforest. It is the highest uninterrupted waterfall in the world; in the dry season much of the water turns to mist before it reaches the bottom. Look for dark tabletop mountains with vertical walls, often wrapped in cloud.",
+    "w": "Dark, flat-topped mountains with sheer cliff walls rising from green forest, often half-hidden in cloud.",
+    "f": [
+      "It is named after Jimmie Angel, an American pilot who flew over it in 1933 and landed on the tepui in 1937.",
+      "In the local Pemón language it is called Kerepakupai Merú.",
+      "The falls lie in Canaima National Park, a UNESCO World Heritage site since 1994."
+    ],
+    "q": {
+      "q": "How high is Angel Falls?",
+      "a": "About 979 m",
+      "x": [
+        "About 450 m",
+        "About 1,500 m"
+      ]
+    }
+  },
+  "Q599529": {
+    "t": "The steppe where the horse was probably first tamed",
+    "s": "From the Danube to the Urals, the Pontic-Caspian steppe was once a sea of feather grass. Today, near the Volga, it is mostly ploughed into vast fields of black earth, crossed by shelter belts of trees and cut by branching ravines. In early summer the wheat is green; by August the whole land turns gold and dusty.",
+    "w": "Huge fields in green, gold or black, divided by thin lines of trees and cut by branching ravines; the Volga to the west.",
+    "f": [
+      "A genetic study published in 2021 traced modern domestic horses to this steppe, some 4,200 years ago.",
+      "Its black soils, chernozems, are among the most fertile on Earth.",
+      "For thousands of years nomads such as the Scythians and Sarmatians roamed this grassland."
+    ],
+    "q": {
+      "q": "Which animal was probably first domesticated on this steppe?",
+      "a": "The horse",
+      "x": [
+        "The camel",
+        "The yak"
+      ]
+    }
+  },
+  "ne-rg-1730073989": {
+    "t": "The Corn Belt's heartland, ironed flat by glaciers",
+    "s": "A checkerboard to the horizon: this is the heart of America's Corn Belt, land flattened and enriched by ice-age glaciers and wind-blown dust, then ruled into square-mile sections. In summer the squares are green with maize and soybeans; after harvest they turn brown and tan. Rivers such as the Mississippi wind through it in wooded valleys.",
+    "w": "A square-mile grid of fields and roads, green in summer and brown after harvest, cut by wooded river valleys.",
+    "f": [
+      "Iowa and Illinois, both in the Central Lowland, together grow roughly a third of the US maize crop.",
+      "Much of the soil formed on loess, fine dust blown off glacial outwash at the end of the Ice Age.",
+      "Before farming, most of this land was tallgrass prairie, with grasses taller than a person."
+    ],
+    "q": {
+      "q": "Which two crops fill the Corn Belt's summer checkerboard?",
+      "a": "Maize and soybeans",
+      "x": [
+        "Wheat and cotton",
+        "Rice and sugar beet"
+      ]
+    }
+  },
+  "Q2016601": {
+    "t": "The 'Big Land' tundra of lakes and reindeer",
+    "s": "East of the Pechora River spreads the Bolshezemelskaya Tundra, the 'Big Land' tundra: a treeless plain of moss, dwarf birch and low hills, glittering with thousands of lakes. For most of the year it is white; in summer it turns green and brown, and the lakes shine like scattered mirrors. Nenets herders still move their reindeer across it with the seasons.",
+    "w": "A flat, treeless plain spattered with countless lakes and low rounded hills; white for most of the year.",
+    "f": [
+      "Permafrost lies beneath the tundra, which is why meltwater gathers in so many shallow lakes.",
+      "Vorkuta, a coal-mining city, stands on its south-eastern edge.",
+      "Its name sets it against the smaller Malozemelskaya, or 'Small Land', Tundra west of the Pechora."
+    ],
+    "q": {
+      "q": "Which people herd reindeer on the Bolshezemelskaya Tundra?",
+      "a": "The Nenets",
+      "x": [
+        "The Sámi",
+        "The Yakuts"
+      ]
+    }
   }
 }

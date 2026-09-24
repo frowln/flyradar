@@ -642,5 +642,635 @@
         "Tula"
       ]
     }
+  },
+  "Q43509": {
+    "t": "A tidal river port among mangroves and shrimp ponds",
+    "s": "Guayaquil spreads along the west bank of the broad, brown Guayas River, where the Pacific tide still reaches. Downstream the estuary dissolves into a maze of mangrove channels and neat grids of rectangular shrimp ponds. Ecuador's biggest city and main port, it was founded on this spot in 1538, after earlier attempts nearby.",
+    "w": "A large city beside a wide brown river; rows of rectangular ponds and dark mangroves along the estuary to the south.",
+    "f": [
+      "The ponds around the Gulf of Guayaquil help make Ecuador one of the world's biggest shrimp exporters.",
+      "Rafts of floating water hyacinth drift up and down the Guayas with every tide.",
+      "Francisco de Orellana, later the first European to sail down the Amazon, is credited with the 1538 founding."
+    ],
+    "q": {
+      "q": "Which river flows past Guayaquil?",
+      "a": "The Guayas",
+      "x": [
+        "The Napo",
+        "The Esmeraldas"
+      ]
+    }
+  },
+  "Q48278": {
+    "t": "A city filling a green Andean valley from wall to wall",
+    "s": "Medellín is poured into the Aburrá Valley, a narrow trough in the Andes about 1,500 m up, and its red-brick neighbourhoods climb high up both slopes. Down the middle runs the Medellín River, heading north. At this height and so close to the equator the air stays mild all year, which is why locals call it the City of Eternal Spring.",
+    "w": "A long city in a narrow north–south valley, climbing its green walls; the main airport on a plateau to the east.",
+    "f": [
+      "The main airport stands on a plateau near Rionegro, at about 2,100 m — higher than the city itself.",
+      "The average temperature stays around 22 °C in every month of the year.",
+      "Medellín was granted the status of a town in 1675."
+    ],
+    "q": {
+      "q": "What is Medellín's nickname, thanks to its climate?",
+      "a": "City of Eternal Spring",
+      "x": [
+        "City of the Winds",
+        "City of Mists"
+      ]
+    }
+  },
+  "Q51103": {
+    "t": "Salsa city on a plain of sugar cane",
+    "s": "Cali sits where the flat, fertile Cauca Valley meets the steep green slopes of the Western Andes. Look out across the valley floor: a patchwork of sugar cane fields in every shade of green stretches north and south for well over a hundred kilometres. Sebastián de Belalcázar founded the city in 1536; today it proudly calls itself the world capital of salsa.",
+    "w": "A large city at the foot of a mountain wall to the west; a flat valley of striped green cane fields to the east.",
+    "f": [
+      "The Cauca Valley is the heart of Colombia's sugar industry.",
+      "The Cauca River, one of Colombia's longest, winds along the city's eastern edge.",
+      "At about 1,000 m, Cali is lower and warmer than Colombia's highland cities."
+    ],
+    "q": {
+      "q": "Which crop blankets the Cauca Valley around Cali?",
+      "a": "Sugar cane",
+      "x": [
+        "Wheat",
+        "Tea"
+      ]
+    }
+  },
+  "Q1563": {
+    "t": "A pocket harbour behind a narrow, fortified mouth",
+    "s": "Havana grew around a bag-shaped bay entered through a single narrow channel, easy to defend and safe from storms. That made it the gathering point for Spain's treasure fleets, which assembled here before crossing the Atlantic. The city moved to this shore in 1519. Look for the harbour's slim neck and the long seafront curving west from it.",
+    "w": "A city on Cuba's north coast around a pouch-shaped bay with a slender entrance; the old town on its western side.",
+    "f": [
+      "Old Havana and its fortifications have been a UNESCO World Heritage site since 1982.",
+      "Key West, in Florida, lies about 170 km to the north across the Straits of Florida.",
+      "The Morro and La Cabaña fortresses guard the harbour mouth from its eastern shore."
+    ],
+    "q": {
+      "q": "What gathered in Havana harbour before crossing to Spain?",
+      "a": "Spanish treasure fleets",
+      "x": [
+        "Whaling fleets",
+        "Pirate squadrons"
+      ]
+    }
+  },
+  "Q34820": {
+    "t": "The Americas' oldest European city, at a river mouth",
+    "s": "Santo Domingo lies where the Ozama River meets the Caribbean, and its colonial quarter sits on the west bank right at the river mouth. Founded in 1496, it is the oldest continuously inhabited European-founded city in the Americas. Look for the long, straight seafront running west from the river, and the airport out on the coast to the east.",
+    "w": "A large city along a straight stretch of Caribbean coast, split by a river mouth; the airport on the coast to the east.",
+    "f": [
+      "In 1502 the city moved from the east bank of the Ozama to the west bank.",
+      "Its cathedral, completed in the 1540s, is the oldest in the Americas."
+    ],
+    "q": {
+      "q": "Which river splits Santo Domingo into west and east?",
+      "a": "The Ozama",
+      "x": [
+        "The Yaque del Norte",
+        "The Artibonite"
+      ]
+    }
+  },
+  "Q12829733": {
+    "t": "A river port at the gates of the Amazon",
+    "s": "Belém faces a vast expanse of muddy water — the Pará River and Guajará Bay, part of the Amazon's maze of mouths. Across it lies Marajó, an island roughly the size of Switzerland. The Portuguese built a fort here in 1616 to guard the way into the Amazon, and the rubber boom of the late 1800s made the city rich.",
+    "w": "A dense city on a point between brown waterways, forest and islands all around; the huge, low island of Marajó to the north-west.",
+    "f": [
+      "Marajó covers about 40,000 km², one of the largest islands ringed by fresh and brackish water.",
+      "Belém lies less than 200 km south of the equator, and afternoon downpours are almost daily.",
+      "The Ver-o-Peso waterfront market has traded Amazon goods since the 1600s."
+    ],
+    "q": {
+      "q": "Which huge island lies across the water from Belém?",
+      "a": "Marajó",
+      "x": [
+        "Bananal",
+        "Ilha Grande"
+      ]
+    }
+  },
+  "Q2844": {
+    "t": "A capital drawn in the shape of an aeroplane",
+    "s": "Brasília is one of the few cities whose design you can read from the window: two curved residential wings crossed by a straight monumental axis, like an aeroplane or a bird. Lúcio Costa drew the plan, and the city was built on almost empty savanna and inaugurated in 1960. An artificial lake wraps around it on the east.",
+    "w": "A cross-shaped city — a long straight axis across a curved arc — beside a branching man-made lake on the high savanna.",
+    "f": [
+      "Lake Paranoá was created by damming a river when the city was built.",
+      "The whole Pilot Plan has been a UNESCO World Heritage site since 1987.",
+      "The city stands on a plateau at about 1,100 m, amid Brazil's reddish cerrado savanna."
+    ],
+    "q": {
+      "q": "What does Brasília's original plan resemble?",
+      "a": "An aeroplane",
+      "x": [
+        "A star",
+        "A spiral"
+      ]
+    }
+  },
+  "Q40269": {
+    "t": "A city on a river that might be a lake",
+    "s": "Porto Alegre lines the eastern shore of the Guaíba, a broad body of water formed where several rivers meet in a green delta of islands. Locals still argue whether it counts as a river or a lake. To the south it opens into the Lagoa dos Patos, a coastal lagoon more than 200 km long. Settlers from the Azores helped found the town in the 1700s.",
+    "w": "A city on the east bank of wide brown water; a delta of green islands to the north, a vast lagoon to the south.",
+    "f": [
+      "The Lagoa dos Patos covers about 10,000 km², making it Brazil's largest lagoon.",
+      "The official founding date is 1772, though Azorean families had settled here some twenty years earlier."
+    ],
+    "q": {
+      "q": "Which lagoon stretches away south of Porto Alegre?",
+      "a": "Lagoa dos Patos",
+      "x": [
+        "Lagoa Rodrigo de Freitas",
+        "Lagoa da Conceição"
+      ]
+    }
+  },
+  "Q4361": {
+    "t": "A cool plateau city among candelabra pines",
+    "s": "Curitiba sits on a high plateau about 900 m up, just inland from the forested Serra do Mar, and is one of Brazil's coolest big cities, with frosty winter mornings. Its name is usually traced to a Tupi phrase for 'many pines', after the araucaria trees whose flat, candelabra crowns still dot the countryside. Look for the lakes in its many parks.",
+    "w": "A large city on a green plateau dotted with park lakes; the dark, forested Serra do Mar rising to the east.",
+    "f": [
+      "Many of the city's park lakes were created as flood-control reservoirs.",
+      "A railway opened in 1885 still winds down the Serra do Mar from Curitiba to the port of Paranaguá.",
+      "In the 1970s Curitiba pioneered express bus lanes that cities around the world later copied."
+    ],
+    "q": {
+      "q": "Which tree gave Curitiba its name?",
+      "a": "The araucaria, or Paraná pine",
+      "x": [
+        "The Brazil nut tree",
+        "The rubber tree"
+      ]
+    }
+  },
+  "Q43463": {
+    "t": "A sunny fortress city on Brazil's north-east shoulder",
+    "s": "Fortaleza faces north onto a warm, turquoise Atlantic, its high-rise seafront curving along a coast of white dunes. The steady trade winds that fill the sails of local jangada rafts also turn rows of wind turbines along the shore. The name simply means 'fortress': the city grew around a fort the Dutch built here in 1649, later taken over by the Portuguese.",
+    "w": "A large city on a north-facing coast; long pale beaches and dunes on either side; breakwaters and a port at its eastern end.",
+    "f": [
+      "Ceará, the state Fortaleza is capital of, abolished slavery in 1884, four years before the rest of Brazil.",
+      "The coast here lies only about 4° south of the equator, so days and nights stay nearly equal all year."
+    ],
+    "q": {
+      "q": "What does the name Fortaleza mean?",
+      "a": "Fortress",
+      "x": [
+        "Lighthouse",
+        "Harbour"
+      ]
+    }
+  },
+  "Q36947": {
+    "t": "Brazil's first capital, on a cliff above All Saints Bay",
+    "s": "Salvador occupies a blunt peninsula between the open Atlantic and the huge, calm Bay of All Saints. Its old town was built on top of a steep escarpment, with the port crowded at the foot — a city on two levels. Founded in 1549, it served as the capital of Portuguese Brazil for more than two centuries, until 1763.",
+    "w": "A big city on a triangular peninsula; a wide, island-studded bay to the west, ocean beaches to the south and east.",
+    "f": [
+      "The bay was named in 1501 by a Portuguese expedition that arrived on All Saints' Day.",
+      "Since 1873 a public lift, the Lacerda Elevator, has carried people between the upper and lower towns.",
+      "The bay covers more than 1,000 km² and holds dozens of islands."
+    ],
+    "q": {
+      "q": "Which bay did Salvador grow up beside?",
+      "a": "The Bay of All Saints",
+      "x": [
+        "Guanabara Bay",
+        "Paranaguá Bay"
+      ]
+    }
+  },
+  "Q2096": {
+    "t": "A green river gorge winding through a northern city",
+    "s": "Edmonton is cut in two by the North Saskatchewan River, which loops through a deep, wooded valley kept almost entirely as parkland. From above it's a dark green ribbon across the grid of streets. Around the city, flat farmland stretches to the horizon. This is the northernmost metropolis of more than a million people in North America.",
+    "w": "A large grid city on flat farmland, split by a deep, winding, tree-lined river valley; refineries on the eastern edge.",
+    "f": [
+      "The river valley parks form one of the longest continuous stretches of urban parkland in North America.",
+      "The Hudson's Bay Company built Fort Edmonton on the river in 1795.",
+      "Edmonton is Alberta's capital, though Calgary to the south is the larger city."
+    ],
+    "q": {
+      "q": "Which river winds through Edmonton?",
+      "a": "The North Saskatchewan",
+      "x": [
+        "The Athabasca",
+        "The Red Deer"
+      ]
+    }
+  },
+  "Q340": {
+    "t": "An island city with a mountain at its heart",
+    "s": "Montreal fills most of an island in the St. Lawrence, and in its middle rises a dark, wooded hill: Mount Royal, which gave the city its name. Jacques Cartier climbed it in 1535, and in 1642 French settlers founded Ville-Marie below. Just upstream the Lachine Rapids stopped ocean-going ships, so the city grew into a great river port.",
+    "w": "A large island city in a broad river, with a wooded hill in the middle; long bridges to the south shore.",
+    "f": [
+      "The island of Montreal, about 50 km long, is the largest of more than 200 islands in the Hochelaga Archipelago.",
+      "Ships now bypass the Lachine Rapids through the St. Lawrence Seaway along the south shore.",
+      "Montreal is one of the largest French-speaking cities in the world."
+    ],
+    "q": {
+      "q": "What is Montreal named after?",
+      "a": "The hill in its centre",
+      "x": [
+        "A French king",
+        "The St. Lawrence River"
+      ]
+    }
+  },
+  "Q83189": {
+    "t": "A 1930s planned capital on the red cerrado plateau",
+    "s": "Goiânia was drawn on a drawing board and built from 1933 to replace the old colonial town of Goiás as state capital. Its central avenues radiate from a civic square like spokes, a plan a generation older than Brasília's. Around it the cerrado savanna has become a patchwork of soy fields and pasture, with reddish soil showing between them.",
+    "w": "A large city on a gently rolling plateau; green and red-brown squares of farmland all round; Brasília about 200 km to the north-east.",
+    "f": [
+      "The old capital, the town of Goiás, is a UNESCO World Heritage site for its colonial centre.",
+      "Many of Goiânia's early public buildings were built in Art Deco style."
+    ],
+    "q": {
+      "q": "Which town did Goiânia replace as state capital?",
+      "a": "The old town of Goiás",
+      "x": [
+        "Anápolis",
+        "Pirenópolis"
+      ]
+    }
+  },
+  "Q48344": {
+    "t": "A city of rivers and bridges behind a natural reef",
+    "s": "Recife is threaded with water: the Capibaribe and Beberibe rivers split into channels around islands before reaching the sea, and bridges stitch the districts together. Offshore, a long, straight line of rock runs parallel to the beach and shelters the harbour — the reef that gave the city its name. From 1630 to 1654 this was the capital of Dutch Brazil.",
+    "w": "A dense coastal city criss-crossed by river channels; a thin line of reef just offshore; a long beach to the south.",
+    "f": [
+      "The first synagogue in the Americas, Kahal Zur Israel, opened here in the 1630s under Dutch rule.",
+      "Under Johan Maurits of Nassau the Dutch built a new town, Mauritsstad, on one of the islands."
+    ],
+    "q": {
+      "q": "What does the name Recife mean?",
+      "a": "Reef",
+      "x": [
+        "Bridge",
+        "Island"
+      ]
+    }
+  },
+  "Q49219": {
+    "t": "A city planned from scratch on an old cattle ranch",
+    "s": "Irvine was drawn up almost from nothing in the 1960s on the Irvine Ranch, once a huge cattle and farming estate stretching from the coast to the mountains. Architect William Pereira laid it out around a new University of California campus, in tidy villages divided by green belts. To the north-east, look for Saddleback, the twin-peaked ridge that shapes the skyline.",
+    "w": "Tidy curving suburbs with green belts, between low coastal hills and the Santa Ana Mountains; John Wayne Airport on the western edge.",
+    "f": [
+      "Saddleback is named for the dip between its two summits; the higher one, Santiago Peak, is about 1,700 m.",
+      "Departures from John Wayne Airport climb steeply and throttle back to spare the houses below.",
+      "Upper Newport Bay, just to the south-west, is one of southern California's few surviving coastal estuaries."
+    ],
+    "q": {
+      "q": "What was the land under Irvine before the city was planned?",
+      "a": "A vast private ranch",
+      "x": [
+        "A national forest",
+        "A salt lake"
+      ]
+    }
+  },
+  "Q42800": {
+    "t": "A planned capital walled in by iron-rich mountains",
+    "s": "Belo Horizonte was built from scratch and inaugurated in 1897 as the new capital of Minas Gerais, replacing the old gold town of Ouro Preto. Its planners overlaid a street grid with diagonal avenues, all wrapped in a ring road. Along the southern edge rises the Serra do Curral, and beyond it lie the red-brown scars of iron-ore mines. The name means 'beautiful horizon'.",
+    "w": "A big, hilly city under a long ridge to the south; reddish mine pits in the hills beyond; a lake on the northern side.",
+    "f": [
+      "The surrounding 'Iron Quadrangle' is one of the world's great iron-ore regions.",
+      "Lake Pampulha, an artificial lake in the north, is ringed by 1940s buildings by Oscar Niemeyer, now UNESCO-listed."
+    ],
+    "q": {
+      "q": "Which old gold town did Belo Horizonte replace as capital in 1897?",
+      "a": "Ouro Preto",
+      "x": [
+        "Diamantina",
+        "Mariana"
+      ]
+    }
+  },
+  "Q1335": {
+    "t": "The southernmost capital in the Americas, by a lone hill",
+    "s": "Montevideo sits on a rocky peninsula on the north shore of the Río de la Plata, just where the brown estuary begins to turn into the blue Atlantic. Across its bay rises a lone, rounded hill, the Cerro, which gave the city its name. Spain founded Montevideo in the 1720s as a fortress to hold the estuary's north shore against Portugal.",
+    "w": "A city on a peninsula and a long curving shore; a round hill across the bay to the west; brown water shading to blue eastward.",
+    "f": [
+      "The Cerro de Montevideo is only about 134 m high, but it was the landmark sailors steered by.",
+      "Montevideo is the southernmost national capital in the Americas.",
+      "A seaside promenade, the Rambla, follows the shore for more than 20 km."
+    ],
+    "q": {
+      "q": "What gave Montevideo its name?",
+      "a": "A hill across the bay",
+      "x": [
+        "A river mouth",
+        "An island in the harbour"
+      ]
+    }
+  },
+  "Q38733": {
+    "t": "A gold-rush capital at the edge of the Rockies",
+    "s": "Helena began in 1864, when four worn-out prospectors tried one last creek and struck gold; the town's main street still follows that 'Last Chance Gulch'. Today it's a small state capital where forested mountains meet the flat, open Helena Valley. Look for the Missouri River's reservoirs glinting to the north-east and east.",
+    "w": "A small town tucked against wooded hills; a broad, flat valley to the north-east, with the Missouri's blue reservoirs beyond.",
+    "f": [
+      "In 1805 Meriwether Lewis named a narrow canyon of the Missouri nearby the 'Gates of the Rocky Mountains'.",
+      "Helena became Montana's capital in 1875, while Montana was still a territory."
+    ],
+    "q": {
+      "q": "What was the gulch called where Helena's gold was found?",
+      "a": "Last Chance Gulch",
+      "x": [
+        "Lucky Strike Gulch",
+        "Golden Creek Gulch"
+      ]
+    }
+  },
+  "Q37066": {
+    "t": "A prairie capital named to charm German investors",
+    "s": "Bismarck lies on the east bank of the Missouri, here a wide river winding through open, rolling plains. The town began in 1872 as Edwinton, a railway crossing; a year later it was renamed after Germany's chancellor, Otto von Bismarck, in the hope of drawing German money and settlers to the Northern Pacific Railway. Its twin town, Mandan, faces it across the river.",
+    "w": "A modest city on a broad, winding river with sandbars; a smaller town across the water; wide tan prairie all around.",
+    "f": [
+      "Lewis and Clark spent the winter of 1804–05 at Fort Mandan, about 60 km up the river.",
+      "North Dakota's capitol is a 19-storey tower, often called the 'Skyscraper on the Prairie'."
+    ],
+    "q": {
+      "q": "Who is Bismarck named after?",
+      "a": "Chancellor Otto von Bismarck",
+      "x": [
+        "A railway engineer",
+        "A Sioux chief"
+      ]
+    }
+  },
+  "Q35775": {
+    "t": "A green river of trees across the sagebrush",
+    "s": "From above, Boise's origin story makes sense: a ribbon of cottonwoods follows the Boise River out of the mountains and across a dry, sage-grey plain. French-Canadian fur trappers are said to have greeted the trees with 'Les bois!', and the name stuck. Today the city spreads from the foothills onto the irrigated patchwork of the Snake River Plain.",
+    "w": "A city at the foot of bare brown foothills; a green, tree-lined river running west through it onto a patchwork of farmland.",
+    "f": [
+      "Idaho's capitol is the only US state capitol heated by water from underground hot springs.",
+      "Boise has one of the largest Basque communities in the United States."
+    ],
+    "q": {
+      "q": "Where does the name Boise come from?",
+      "a": "The French word for 'woods'",
+      "x": [
+        "A Shoshone chief's name",
+        "A Spanish saint's name"
+      ]
+    }
+  },
+  "Q16553": {
+    "t": "The flat heart of Silicon Valley, once all orchards",
+    "s": "San Jose spreads across the flat floor of the Santa Clara Valley, between the wooded Santa Cruz Mountains to the west and the bare, rounded Diablo Range to the east. Founded in 1777, it was the first Spanish civilian town in California. Until the mid-1900s the valley was a sea of fruit orchards; now it's the hub of Silicon Valley.",
+    "w": "A vast, low city on a flat valley floor at the southern tip of San Francisco Bay; mountains on both sides.",
+    "f": [
+      "San Jose was California's first state capital, from 1849 to 1851.",
+      "On Mount Hamilton to the east, Lick Observatory opened in 1888, one of the first mountaintop observatories."
+    ],
+    "q": {
+      "q": "What was the Santa Clara Valley known for before computers?",
+      "a": "Fruit orchards",
+      "x": [
+        "Oil wells",
+        "Gold mines"
+      ]
+    }
+  },
+  "Q18013": {
+    "t": "A gold-rush capital where two rivers meet",
+    "s": "Sacramento sits where the American River flows into the Sacramento, in the middle of California's flat Central Valley. In 1848 gold was found at a sawmill up the American River, and this riverside settlement became the supply town for the rush. Look west for a wide, straight belt of fields between levees: the Yolo Bypass, which floods on purpose in wet winters.",
+    "w": "A tree-filled city at a river junction on a flat valley floor; rice paddies around; a broad, leveed flood channel to the west.",
+    "f": [
+      "In spring the flooded rice fields around the city can shine like mirrors.",
+      "The Central Pacific began building the first transcontinental railway eastward from Sacramento in 1863.",
+      "Sacramento has been California's capital since 1854."
+    ],
+    "q": {
+      "q": "Which river flows into the Sacramento River in the city?",
+      "a": "The American River",
+      "x": [
+        "The Colorado River",
+        "The Klamath River"
+      ]
+    }
+  },
+  "Q23768": {
+    "t": "A blaze of light in a black desert",
+    "s": "At night Las Vegas is unmistakable: a dense pool of white and gold light in a desert that's otherwise almost completely dark, with one brilliant stripe running north–south through it. By day the valley shows its bones — bare mountains all round, snow on Mount Charleston in winter. The name is Spanish for 'the meadows', after springs that once watered grass here.",
+    "w": "A sharply bounded city in a desert basin ringed by bare mountains; the blue of Lake Mead about 40 km to the east.",
+    "f": [
+      "The city was founded in 1905 with a railway company's auction of town lots.",
+      "Lake Mead, formed by the Hoover Dam, is the largest reservoir in the US by capacity.",
+      "Mount Charleston, west of the city, rises to about 3,630 m."
+    ],
+    "q": {
+      "q": "What does 'Las Vegas' mean in Spanish?",
+      "a": "The meadows",
+      "x": [
+        "The lights",
+        "The sands"
+      ]
+    }
+  },
+  "Q38555": {
+    "t": "America's oldest and highest state capital",
+    "s": "Santa Fe is easy to miss: a low, earth-coloured town of adobe walls that blends into the piñon-dotted hills at the foot of the Sangre de Cristo Mountains. Spanish colonists founded it around 1610, making it the oldest state capital in the US, and at about 2,100 m it is also the highest. The broad Rio Grande valley opens to the west.",
+    "w": "A small, low, tan town at the southern tip of a snowy range; dark green juniper hills around; a wide valley to the west.",
+    "f": [
+      "The Santa Fe Trail, opened in 1821, linked the town to Missouri by a trade route of well over 1,000 km.",
+      "The name Sangre de Cristo ('Blood of Christ') is often linked to the mountains' red glow at sunset.",
+      "The Palace of the Governors, built in the 1610s, is among the oldest public buildings in the US."
+    ],
+    "q": {
+      "q": "When was Santa Fe founded?",
+      "a": "Around 1610",
+      "x": [
+        "In 1776",
+        "In 1848"
+      ]
+    }
+  },
+  "Q6106": {
+    "t": "A city of bridges under the white cone of Mount Hood",
+    "s": "Portland straddles the Willamette River just before it joins the broad Columbia, and a string of bridges stitches its two halves together. On a clear day Mount Hood's snowy cone floats on the eastern horizon. The name was settled in 1845 by a coin toss: one founder wanted Boston, the other Portland, after his home town in Maine.",
+    "w": "A city on both banks of a river just above a much wider one; a dark wooded ridge to the west; Mount Hood east.",
+    "f": [
+      "Forest Park, on the ridge above the city, is one of the largest urban forests in the United States.",
+      "Mount Hood, about 3,430 m high, is a volcano and Oregon's highest peak.",
+      "The Columbia River here forms the border between Oregon and Washington."
+    ],
+    "q": {
+      "q": "How was Portland's name chosen in 1845?",
+      "a": "By tossing a coin",
+      "x": [
+        "By a vote of settlers",
+        "By a railway company"
+      ]
+    }
+  },
+  "Q23337": {
+    "t": "A grid city between a mountain wall and a salty inland sea",
+    "s": "Salt Lake City sits on a flat bench between the abrupt wall of the Wasatch Range and the shallow, glittering Great Salt Lake. Look at the lower mountain slopes for faint horizontal lines: old shorelines of Lake Bonneville, the vast ancient lake of which the Great Salt Lake is a remnant. Mormon pioneers founded the city in 1847 and laid out its grid of very wide streets.",
+    "w": "A city at the foot of a steep mountain wall; a vast pale lake to the north-west, with colourful evaporation ponds along its shore.",
+    "f": [
+      "A railway causeway splits the lake, and the saltier northern part often looks pinkish-red from above.",
+      "Street addresses count outward from a single central point, Temple Square.",
+      "In places the Great Salt Lake is several times saltier than the ocean."
+    ],
+    "q": {
+      "q": "Which ancient lake left terraces on the mountains around Salt Lake City?",
+      "a": "Lake Bonneville",
+      "x": [
+        "Lake Lahontan",
+        "Lake Agassiz"
+      ]
+    }
+  },
+  "Q39042": {
+    "t": "A railway town that sprang up on the windy high plains",
+    "s": "Cheyenne stands alone on open high plains about 1,850 m up, with the low, pine-dark Laramie Range to the west. It was born in 1867, when the Union Pacific tracks arrived, and grew so fast it was nicknamed the Magic City of the Plains. Look for the railway running east–west through town: the reason it exists at all.",
+    "w": "A compact town on bare, rolling grassland; a railway line straight through it; low, dark hills to the west.",
+    "f": [
+      "In 1869 the territorial legislature in Cheyenne gave women the vote — a first in the United States.",
+      "Cheyenne Frontier Days, held every July since 1897, is one of the world's largest outdoor rodeos."
+    ],
+    "q": {
+      "q": "What did Wyoming's legislature in Cheyenne grant first in 1869?",
+      "a": "Votes for women",
+      "x": [
+        "An eight-hour working day",
+        "Free railway travel"
+      ]
+    }
+  },
+  "Q39709": {
+    "t": "A capital at a river fork in a sea of corn",
+    "s": "Des Moines grew where the Raccoon River flows into the Des Moines, and from above it sits like a knot in a vast chequerboard: Iowa's fields, laid out in one-mile squares of corn and soybeans, run to every horizon. The US Army founded Fort Des Moines at the fork in 1843. Look north for the long reservoir of Saylorville Lake.",
+    "w": "A mid-sized city at a river junction, surrounded by a perfect grid of square fields; a long, narrow lake to the north.",
+    "f": [
+      "The name comes from the river's French name, often translated as 'River of the Monks', though its origin is debated.",
+      "Iowa was surveyed into square miles in the 1800s, and its country roads still follow that grid."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Des Moines?",
+      "a": "The Des Moines and the Raccoon",
+      "x": [
+        "The Iowa and the Cedar",
+        "The Missouri and the Platte"
+      ]
+    }
+  },
+  "Q43199": {
+    "t": "A river city where the Missouri once switched sides",
+    "s": "Omaha lines the west bank of the Missouri, a brown river looping across a wide floodplain, with Council Bluffs in Iowa on the other side. Look by the airport for a horseshoe-shaped lake: it's an old river bend, cut off when the Missouri changed course in 1877. The town beside it stayed in Iowa, stranded on the Nebraska bank.",
+    "w": "A city on bluffs above a winding brown river; a horseshoe lake and the airport on the floodplain; Council Bluffs across the water.",
+    "f": [
+      "In the 1860s the Union Pacific began building the first transcontinental railway westward from Omaha.",
+      "The city, founded in 1854, is named after the Omaha people.",
+      "Carter Lake is the only Iowa town west of the Missouri River."
+    ],
+    "q": {
+      "q": "Why is Carter Lake, Iowa, on Omaha's side of the Missouri?",
+      "a": "The river changed course",
+      "x": [
+        "Iowa bought it from Nebraska",
+        "A treaty swapped it"
+      ]
+    }
+  },
+  "Q34863": {
+    "t": "A city that appeared in a single afternoon in 1889",
+    "s": "Oklahoma City has an unusual birthday. At noon on 22 April 1889 a gunshot opened the Land Run, and settlers raced in to claim plots; by nightfall around 10,000 people were camped on what had been open prairie. Today the city sprawls across flat, reddish plains, with round reservoirs on its edges and the Oklahoma River running through.",
+    "w": "A very spread-out city on flat red-brown plains; round blue reservoirs to the north-west; a river channel just south of downtown.",
+    "f": [
+      "Oil wells have pumped on the grounds of the State Capitol — a sign of the oil field beneath the city.",
+      "Oklahoma City covers about 1,600 km², making it one of the largest US cities by land area."
+    ],
+    "q": {
+      "q": "How did Oklahoma City come into being in 1889?",
+      "a": "In a single-day land run",
+      "x": [
+        "As a mining camp",
+        "As an army fort"
+      ]
+    }
+  },
+  "Q40747": {
+    "t": "A tiny capital below a dam and a 370-km lake",
+    "s": "Pierre, pronounced 'peer', is one of the smallest state capitals in the US, a quiet town on the Missouri amid treeless, rolling plains. Just upstream the river is blocked by Oahe Dam, a huge earthen embankment, and behind it Lake Oahe winds north for some 370 km, almost to Bismarck, the capital of North Dakota.",
+    "w": "A small town on a river just below a massive earth dam; a long, winding blue lake stretching north through bare brown hills.",
+    "f": [
+      "In 1743 French explorers buried a lead plate claiming the land for France on a hill across the river; children found it in 1913.",
+      "The town is named after Pierre Chouteau Jr., a fur trader based in St. Louis."
+    ],
+    "q": {
+      "q": "Which huge reservoir begins just north of Pierre?",
+      "a": "Lake Oahe",
+      "x": [
+        "Lake Sakakawea",
+        "Lake Mead"
+      ]
+    }
+  },
+  "Q975": {
+    "t": "Where the Texas Hill Country drops to the plains",
+    "s": "San Antonio sits right on the Balcones Escarpment, and from above you can see the change: rumpled, wooded hills to the north-west, flat, open farmland to the south-east. Spanish missionaries and soldiers founded the settlement in 1718 by the springs of the San Antonio River. A chain of five missions along the river, the Alamo among them, is now a World Heritage site.",
+    "w": "A big, sprawling city where dark green hills to the north-west meet flat plains to the south-east; freeway rings around the centre.",
+    "f": [
+      "In 2015 the San Antonio Missions became the first UNESCO World Heritage site in Texas.",
+      "Much of the city's water comes from the Edwards Aquifer, a vast limestone reservoir beneath the escarpment."
+    ],
+    "q": {
+      "q": "When was San Antonio founded?",
+      "a": "In 1718",
+      "x": [
+        "In 1836",
+        "In 1781"
+      ]
+    }
+  },
+  "Q820235": {
+    "t": "An Andean terrace city near the Colombian border",
+    "s": "San Cristóbal sits on a series of terraces above the Torbes River, about 800 m up, in a green valley where Venezuela's Andes begin. The mountains here form a knot between the Colombian ranges to the south-west and the high Cordillera de Mérida to the north-east. Captain Juan Maldonado founded the city in 1561; Venezuelans know it as the City of Courtesy.",
+    "w": "A city spread over stepped terraces in a green mountain valley; forested ridges all round; a river winding along the valley floor.",
+    "f": [
+      "The border with Colombia runs only a few dozen kilometres to the west, near the city of Cúcuta.",
+      "To the north-east the Andes climb to Pico Bolívar, Venezuela's highest peak, at about 4,980 m."
+    ],
+    "q": {
+      "q": "What do Venezuelans call San Cristóbal?",
+      "a": "The City of Courtesy",
+      "x": [
+        "The City of Eternal Spring",
+        "The City of Bridges"
+      ]
+    }
+  },
+  "Q54880": {
+    "t": "An industrial city beside a lake with no way to the sea",
+    "s": "Valencia spreads over a green valley beside Lake Valencia, a broad lake ringed by mountains with no outlet to the sea. When Alexander von Humboldt came here in 1800, he noticed that the water had been falling and blamed the clearing of forests around it — one of the earliest scientific warnings about human impact on nature. The city itself was founded in 1555.",
+    "w": "A large city in a flat valley west of a wide lake; the forested Coastal Range to the north, the sea just beyond it.",
+    "f": [
+      "Lake Valencia is Venezuela's largest natural freshwater lake.",
+      "The port of Puerto Cabello lies about 35 km to the north, on the far side of the coastal mountains."
+    ],
+    "q": {
+      "q": "Who studied Lake Valencia's falling water level in 1800?",
+      "a": "Alexander von Humboldt",
+      "x": [
+        "Charles Darwin",
+        "Charles Marie de La Condamine"
+      ]
+    }
+  },
+  "Q28198": {
+    "t": "A capital on the Pearl River, above a buried volcano",
+    "s": "Jackson lies on gently rolling, wooded land beside the Pearl River, with the broad Ross Barnett Reservoir glinting to the north-east. Nothing at the surface hints at it, but about 900 m underground lies an extinct volcano, long buried by sediment. The site began as a trading post called LeFleur's Bluff and was chosen as the state capital in 1821, named after Andrew Jackson.",
+    "w": "A mid-sized city in green, rolling woodland; a winding river on its east side; a large reservoir to the north-east.",
+    "f": [
+      "The buried Jackson Volcano was last active tens of millions of years ago, in the age of the dinosaurs.",
+      "The Natchez Trace, an old trail of traders and travellers, passes nearby as a scenic parkway."
+    ],
+    "q": {
+      "q": "What lies buried deep beneath Jackson?",
+      "a": "An extinct volcano",
+      "x": [
+        "A meteorite crater",
+        "A gold vein"
+      ]
+    }
   }
 }

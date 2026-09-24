@@ -643,5 +643,677 @@
         "2010"
       ]
     }
+  },
+  "Q43105": {
+    "t": "A double-humped volcano crowning the Caucasus",
+    "s": "Elbrus stands a little north of the main Caucasus ridge, and from the air its shape gives it away: two rounded white domes, the remains of a dormant volcano, joined by a saddle. The western summit, 5,642 m, is the highest point in Russia and is often counted as the top of Europe. Its ice cap feeds more than twenty glaciers that radiate outward like the spokes of a wheel.",
+    "w": "Two rounded snow domes side by side, standing just north of the jagged main Caucasus ridge.",
+    "f": [
+      "The eastern summit, 5,621 m, is only about 20 m lower than the western one.",
+      "Its last eruption is thought to have happened around AD 50.",
+      "Cable cars carry visitors from the Baksan valley up to about 3,800 m on its southern slope."
+    ],
+    "q": {
+      "q": "How many main summits does Elbrus have?",
+      "a": "Two",
+      "x": [
+        "One",
+        "Three"
+      ]
+    }
+  },
+  "Q130018": {
+    "t": "North America's summit, rising from near sea level",
+    "s": "Denali is the highest mountain in North America, about 6,200 m, and one of the bulkiest on Earth. It rises from lowlands only about 600 m above sea level, so its climb from base to summit — some 5,500 m — is greater than Everest's. Look for a huge white mass with long glaciers flowing out of it, dwarfing the rest of the Alaska Range.",
+    "w": "An enormous white massif towering over the Alaska Range, about 210 km north of Anchorage.",
+    "f": [
+      "Its name means 'the high one' in the Koyukon Athabaskan language.",
+      "An expedition led by Hudson Stuck and Harry Karstens made the first ascent in 1913.",
+      "The Kahiltna Glacier on its south side is about 70 km long, the longest in the Alaska Range."
+    ],
+    "q": {
+      "q": "What does 'Denali' mean in the Koyukon language?",
+      "a": "The high one",
+      "x": [
+        "The white one",
+        "Father of rivers"
+      ]
+    }
+  },
+  "Q235539": {
+    "t": "The Lower 48's highest summit, above a desert valley",
+    "s": "Mount Whitney is the highest point of the contiguous United States, 4,421 m, on the sharp eastern edge of the Sierra Nevada. Its granite wall drops steeply to the dry Owens Valley, more than three kilometres below. Only about 135 km to the south-east lies Badwater Basin in Death Valley, the lowest point in North America — the continent's high and low points almost within sight of each other.",
+    "w": "A saw-toothed granite crest above the brown Owens Valley, directly west of the small town of Lone Pine.",
+    "f": [
+      "Badwater Basin, 86 m below sea level, lies only about 135 km away.",
+      "Three fishermen from Lone Pine first reached the summit in 1873.",
+      "It is named after Josiah Whitney, head of the California Geological Survey."
+    ],
+    "q": {
+      "q": "Which low point lies about 135 km from Mount Whitney?",
+      "a": "Badwater Basin",
+      "x": [
+        "Salton Sea",
+        "Great Salt Lake"
+      ]
+    }
+  },
+  "Q178167": {
+    "t": "Australia's rooftop, a gentle granite hump",
+    "s": "Mount Kosciuszko is the highest mountain on mainland Australia, yet at 2,228 m it is a rounded summit that walkers reach from the top of a chairlift. From above, the Snowy Mountains look like a rumpled plateau, white for a few months each winter and grey-green the rest of the year. Look for the long blue arms of Lake Jindabyne and other reservoirs winding through the valleys below.",
+    "w": "A rounded, often snowy plateau south-west of Canberra, with long blue reservoirs winding through the valleys.",
+    "f": [
+      "The explorer Paweł Strzelecki named it in 1840 after the Polish patriot Tadeusz Kościuszko.",
+      "The Snowy Mountains Scheme, built from 1949 to 1974, sends the mountains' water through tunnels to power stations and farms.",
+      "Mainland Australia's only glacial lakes, including Blue Lake, lie near its summit."
+    ],
+    "q": {
+      "q": "Who was Mount Kosciuszko named after?",
+      "a": "A Polish patriot",
+      "x": [
+        "A British governor",
+        "A Scottish explorer"
+      ]
+    }
+  },
+  "Q39739": {
+    "t": "The highest peak on Earth outside Asia",
+    "s": "Aconcagua is the tallest mountain outside Asia, 6,959 m, and the summit of both the Western and Southern hemispheres. It rises in Argentina just east of the Chilean border, a huge brown-and-white massif rather than a slender spike. On flights between Santiago and Mendoza it often looms off the wing, barely four kilometres below you.",
+    "w": "A massive white-topped peak above the Andes' dry brown ridges, just north of the route between Santiago and Mendoza.",
+    "f": [
+      "Matthias Zurbriggen made the first recorded ascent in 1897.",
+      "Its normal route needs no technical climbing, only stamina and careful acclimatisation.",
+      "The name is often traced to Quechua words meaning 'stone sentinel', though its origin is debated."
+    ],
+    "q": {
+      "q": "Aconcagua is the highest peak outside which continent?",
+      "a": "Asia",
+      "x": [
+        "Africa",
+        "Europe"
+      ]
+    }
+  },
+  "ne-pk-1159108759": {
+    "t": "A lonely summit above Venezuela's rainforest",
+    "s": "Deep in Venezuela's Amazonas state, far from any road, Cerro La Raya rises to about 2,000 m above an unbroken green sea of forest. It belongs to the Guiana Highlands, a region of ancient sandstone mountains and flat-topped tepuis. Look for dark ridges poking through the canopy, often wrapped in afternoon cloud, with brown rivers winding away toward the Orinoco.",
+    "w": "Forested ridges and cloud-capped heights rising from unbroken rainforest, with brown rivers winding west toward the Orinoco.",
+    "f": [
+      "Venezuela's Amazonas state is larger than many European countries but very thinly populated.",
+      "In the same state the Casiquiare, a natural channel, links the Orinoco and Amazon river systems.",
+      "Nearby tepuis such as Cerro Autana have sheer walls rising straight out of the forest."
+    ],
+    "q": {
+      "q": "Which natural channel in Venezuela's Amazonas links the Orinoco and Amazon?",
+      "a": "Casiquiare",
+      "x": [
+        "Ventuari",
+        "Caroní"
+      ]
+    }
+  },
+  "Q1108926": {
+    "t": "Copper country on the roof of central Africa",
+    "s": "South-eastern DR Congo rises into the Katanga Plateau: high savanna and open woodland mostly over 1,000 m, crossed by the divide between Congo and Zambezi waters. Beneath it lie some of the richest copper and cobalt deposits on Earth. Look for enormous open-pit mines and tailings ponds — grey and turquoise scars — around the cities of Lubumbashi and Kolwezi.",
+    "w": "Green-brown savanna and woodland dotted with grey open-pit mines and bright turquoise ponds near Kolwezi and Lubumbashi.",
+    "f": [
+      "DR Congo produces around 70% of the world's cobalt, most of it from this region.",
+      "The Lualaba, the upper course of the Congo River, rises on the plateau.",
+      "The copper belt continues south across the border into Zambia's Copperbelt."
+    ],
+    "q": {
+      "q": "Which battery metal is mined heavily on the Katanga Plateau?",
+      "a": "Cobalt",
+      "x": [
+        "Nickel",
+        "Platinum"
+      ]
+    }
+  },
+  "Q208807": {
+    "t": "Tabletop mountains rising from the rainforest",
+    "s": "Across northern South America, sheer-sided table mountains called tepuis rise from the rainforest like islands, their flat tops often lost in cloud. They are carved from sandstone laid down about 1.7 billion years ago, among the oldest sedimentary rocks on the continent. Look for dark, cliff-edged blocks above the green, and in the rainy season thin white threads of waterfalls dropping from their rims.",
+    "w": "Flat-topped, cliff-edged blocks of dark rock standing above unbroken rainforest, often capped with cloud.",
+    "f": [
+      "Angel Falls, dropping 979 m from Auyán-tepui, is the highest uninterrupted waterfall in the world.",
+      "Mount Roraima, about 2,810 m, marks the meeting point of Venezuela, Brazil and Guyana.",
+      "Tepui is a Pemón word usually translated as 'house of the gods'."
+    ],
+    "q": {
+      "q": "Which record-breaking waterfall pours off a tepui here?",
+      "a": "Angel Falls",
+      "x": [
+        "Victoria Falls",
+        "Iguazu Falls"
+      ]
+    }
+  },
+  "Q118899": {
+    "t": "The old stone heart of Brazil",
+    "s": "Much of eastern and central Brazil is a vast upland of ancient rock, worn into long flat-topped plateaus called chapadas with steep edges. Brasília was built on it in the late 1950s, at over 1,000 m. From the air look for red-earth tablelands, cerrado savanna in olive and gold, and huge green circles of irrigated farmland laid out like coins on a table.",
+    "w": "Flat-topped red tablelands with steep edges, olive-green savanna and neat green circles of centre-pivot irrigation.",
+    "f": [
+      "The São Francisco, the longest river entirely within Brazil, flows north across the highlands for much of its course.",
+      "Brasília was inaugurated as the capital in 1960.",
+      "The cerrado savanna covering much of it is one of the most species-rich savannas on Earth."
+    ],
+    "q": {
+      "q": "Which is the longest river flowing entirely within Brazil?",
+      "a": "São Francisco",
+      "x": [
+        "Paraná",
+        "Tocantins"
+      ]
+    }
+  },
+  "Q155197": {
+    "t": "Taiga, rivers and old lava to the horizon",
+    "s": "Between the Yenisei and the Lena lies a vast raised upland, mostly 500 to 700 m high and cut by deep river valleys. Much of it is built from the Siberian Traps, lava that poured out about 250 million years ago. From cruise height it is endless larch taiga: dark green in summer, gold in autumn, and white under snow for most of the year.",
+    "w": "Endless dark taiga cut by winding rivers in deep valleys, with flat-topped uplands and, in autumn, golden larch.",
+    "f": [
+      "The Siberian Traps eruptions are linked to the greatest mass extinction in Earth's history, about 252 million years ago.",
+      "In 1908 the Tunguska explosion flattened some 2,000 km² of forest on the plateau.",
+      "Permafrost underlies nearly all of it, in places hundreds of metres deep."
+    ],
+    "q": {
+      "q": "Which 1908 event flattened forest on the Central Siberian Plateau?",
+      "a": "The Tunguska explosion",
+      "x": [
+        "The Sikhote-Alin meteorite",
+        "The Chelyabinsk meteor"
+      ]
+    }
+  },
+  "Q560198": {
+    "t": "Grassland under a huge sky, a kilometre up",
+    "s": "The Mongolian Plateau spreads across Mongolia and northern China at around 1,000 to 1,500 m: rolling steppe, bare hills and, to the south, the stony Gobi. Few places look so open from the air. Roads are faint tracks, rivers wander freely, and lakes shine like scattered coins. Ulaanbaatar, on the plateau at about 1,350 m, is the coldest national capital on Earth.",
+    "w": "Rolling green-brown steppe with few roads, meandering rivers and, to the south, pale stony desert.",
+    "f": [
+      "Ulaanbaatar has the lowest average temperature of any national capital.",
+      "Lake Khövsgöl, in the north, holds about 70% of Mongolia's fresh water.",
+      "At the Flaming Cliffs in the Gobi, scientists found the first recognised dinosaur egg nests in 1923."
+    ],
+    "q": {
+      "q": "Which is the coldest national capital, on this plateau?",
+      "a": "Ulaanbaatar",
+      "x": [
+        "Astana",
+        "Moscow"
+      ]
+    }
+  },
+  "Q169966": {
+    "t": "India's tilted tableland of ancient lava",
+    "s": "The Deccan fills most of southern India, a triangular plateau raised along its western edge by the Western Ghats and tilted toward the east. So its great rivers — the Godavari, Krishna and Kaveri — rise near the Arabian Sea yet flow right across to the Bay of Bengal. Much of the north-west is built of Deccan Traps basalt, poured out as lava about 66 million years ago.",
+    "w": "A dry brown tableland of flat-topped hills, reservoirs and rivers draining east; much greener in the monsoon months.",
+    "f": [
+      "Its name comes from the Sanskrit word dakshina, 'south'.",
+      "Hyderabad and Bengaluru both stand on the plateau, at about 500 and 900 m.",
+      "The Deccan Traps eruptions took place around the time the dinosaurs died out."
+    ],
+    "q": {
+      "q": "Where do most of the Deccan's great rivers flow?",
+      "a": "East to the Bay of Bengal",
+      "x": [
+        "West to the Arabian Sea",
+        "North to the Ganges"
+      ]
+    }
+  },
+  "Q1908889": {
+    "t": "Where the Amazon forest meets the fields",
+    "s": "Mato Grosso means 'thick bush' in Portuguese, and this plateau sits in the heart of Brazil, where Amazon rainforest gives way to cerrado savanna. From the air it is a patchwork: huge rectangles of soy and maize, strips of forest along the rivers, and red dirt roads ruled straight for kilometres. Its rivers split two ways, north to the Amazon and south toward the Pantanal.",
+    "w": "A vast chessboard of green and tan fields with ruler-straight roads, cut by dark lines of forest along rivers.",
+    "f": [
+      "The Xingu and the rivers that form the Tapajós, big Amazon tributaries, rise on this plateau.",
+      "The Xingu Indigenous Park, founded in 1961, shows from above as a great block of forest ringed by farmland.",
+      "Mato Grosso state is Brazil's leading soybean producer."
+    ],
+    "q": {
+      "q": "What does 'Mato Grosso' mean in Portuguese?",
+      "a": "Thick bush",
+      "x": [
+        "Great river",
+        "High plain"
+      ]
+    }
+  },
+  "Q7680307": {
+    "t": "A snowy ice dome above the Ross Sea coast",
+    "s": "Talos Dome is a broad, gentle summit of the East Antarctic ice, about 2,300 m high, inland from the coast of northern Victoria Land. Unlike the bone-dry domes of the deep interior, it catches a good deal of snow from storms off the Ross Sea and the Southern Ocean. That leaves thick, readable yearly layers in its ice, and scientists have drilled deep into them.",
+    "w": "A barely noticeable swell in the white ice sheet, with the dark peaks of Victoria Land between it and the coast.",
+    "f": [
+      "A European ice-coring project, TALDICE, drilled more than 1,600 m into the dome in the 2000s.",
+      "Its ice core holds a climate record of roughly 250,000 years."
+    ],
+    "q": {
+      "q": "Which sea lies toward the coast from Talos Dome?",
+      "a": "Ross Sea",
+      "x": [
+        "Weddell Sea",
+        "Amundsen Sea"
+      ]
+    }
+  },
+  "Q470049": {
+    "t": "An icy upland named on a 1939 flight",
+    "s": "American Highland is a high, ice-covered upland in East Antarctica, beside the vast valley of the Lambert Glacier. The American explorer Lincoln Ellsworth flew over it in 1939 and gave it its name. From above it is a smooth white slope crossed by faint ridges, falling toward the giant ice stream of the Lambert and the flat Amery Ice Shelf beyond.",
+    "w": "A smooth, faintly ridged white upland sloping toward a vast glacier valley and the flat Amery Ice Shelf.",
+    "f": [
+      "The Lambert Glacier nearby is one of the largest glaciers on Earth, several hundred kilometres long.",
+      "Ellsworth's 1939 flight took off from his expedition ship, the Wyatt Earp.",
+      "The Amery Ice Shelf, fed by the Lambert, floats at the head of Prydz Bay."
+    ],
+    "q": {
+      "q": "Who named the American Highland after a flight in 1939?",
+      "a": "Lincoln Ellsworth",
+      "x": [
+        "Richard Byrd",
+        "Hubert Wilkins"
+      ]
+    }
+  },
+  "Q5881339": {
+    "t": "Named for the pilot of the first flight across Antarctica",
+    "s": "This broad ice plateau in West Antarctica carries the name of Herbert Hollick-Kenyon, who in 1935 flew Lincoln Ellsworth across the continent for the first time. The crossing took about two weeks, because they had to land on the open ice several times to wait out storms. Below you is an endless, gently rolling white expanse with hardly a rock in sight.",
+    "w": "A featureless, gently rolling white plateau between the Ellsworth Mountains and the ranges of Marie Byrd Land.",
+    "f": [
+      "The 1935 flight ran out of fuel short of the Bay of Whales, and the two men walked the last stretch.",
+      "Ellsworth named the plateau after his pilot."
+    ],
+    "q": {
+      "q": "What did Herbert Hollick-Kenyon do in 1935?",
+      "a": "Flew across Antarctica",
+      "x": [
+        "Reached the South Pole",
+        "Mapped the Ross Sea"
+      ]
+    }
+  },
+  "Q370807": {
+    "t": "A white upland named after an expedition backer",
+    "s": "The Rockefeller Plateau is a vast, ice-buried upland in West Antarctica, inland from the Ross Ice Shelf. Richard Byrd's expedition flew over it in 1934 and named it after John D. Rockefeller Jr., one of Byrd's sponsors. From above there is only smooth white ice to the horizon; the bedrock lies well over a kilometre down, much of it below sea level.",
+    "w": "Smooth white ice to the horizon, east of the flat Ross Ice Shelf, with no rock visible at all.",
+    "f": [
+      "Much of the bedrock beneath West Antarctica's ice lies below sea level.",
+      "Byrd's base, Little America, stood on the Ross Ice Shelf to the west."
+    ],
+    "q": {
+      "q": "Whose expedition discovered and named the Rockefeller Plateau?",
+      "a": "Richard Byrd's",
+      "x": [
+        "Roald Amundsen's",
+        "Ernest Shackleton's"
+      ]
+    }
+  },
+  "Q3045552": {
+    "t": "A year-round outpost on the ice, 3,200 m up",
+    "s": "Dome C is one of the high summits of the East Antarctic ice, about 3,200 m above sea level, where France and Italy run Concordia, a station staffed all year. Winter temperatures here fall below −80 °C, and for months the sun never rises. An ice core drilled at Dome C holds a record of Earth's climate reaching back some 800,000 years.",
+    "w": "A flat white summit of the ice sheet with nothing to mark it — the station is far too small to see.",
+    "f": [
+      "The European EPICA project drilled 3,270 m of ice here, spanning about 800,000 years.",
+      "Space agencies study Concordia's winter crews to learn how people cope with isolation on long missions.",
+      "In 2025 the Beyond EPICA project reached ice over a million years old at nearby Little Dome C."
+    ],
+    "q": {
+      "q": "Which two countries run Concordia Station at Dome C?",
+      "a": "France and Italy",
+      "x": [
+        "Germany and Norway",
+        "UK and Belgium"
+      ]
+    }
+  },
+  "Q593197": {
+    "t": "The highest summit of Antarctica's ice",
+    "s": "Dome A is the highest point of the Antarctic ice sheet, about 4,090 m above sea level, deep in East Antarctica. Under some three kilometres of ice lie the Gamburtsev Mountains, a range roughly the size of the Alps that no one has ever seen. China set up its Kunlun Station here in 2009, and satellites have found some of Earth's coldest surface temperatures nearby.",
+    "w": "An utterly flat white horizon; the summit of the ice rises so gently that you cannot pick it out.",
+    "f": [
+      "Soviet scientists discovered the buried Gamburtsev Mountains in 1958 with seismic soundings.",
+      "Satellite readings on the ice ridge near Dome A have dropped below −90 °C.",
+      "A Chinese traverse team first reached Dome A in 2005."
+    ],
+    "q": {
+      "q": "What lies hidden beneath the ice at Dome A?",
+      "a": "The Gamburtsev Mountains",
+      "x": [
+        "Lake Vostok",
+        "The Wilkes Basin"
+      ]
+    }
+  },
+  "Q2007598": {
+    "t": "Japan's station on a summit of the ice",
+    "s": "Dome Fuji, also called Dome F, is a high summit of the East Antarctic ice sheet, about 3,800 m up, far inland in Queen Maud Land. Japan opened a research station here in 1995 and drilled deep into the ice beneath it; the cores reach back roughly 700,000 years. Up here the air is so cold and still that temperatures below −79 °C have been recorded.",
+    "w": "A broad white summit of the ice sheet, featureless to the horizon, far inland from the coast of Queen Maud Land.",
+    "f": [
+      "Japanese expeditions named the dome after Mount Fuji.",
+      "Only a few centimetres of water a year fall here as snow, making it one of the driest places on Earth.",
+      "The ice ridge between Dome Fuji and Dome A holds some of the coldest surface temperatures ever measured."
+    ],
+    "q": {
+      "q": "Which country runs the research station at Dome Fuji?",
+      "a": "Japan",
+      "x": [
+        "China",
+        "Norway"
+      ]
+    }
+  },
+  "ne-gl-academy-of-sciences-ice-cap": {
+    "t": "Russia's largest ice cap, a round lid on an Arctic island",
+    "s": "Near the top of Severnaya Zemlya, an almost perfectly round dome of ice covers most of Komsomolets Island. The Academy of Sciences Ice Cap is about 80 km across and some 5,500 km² in area, the largest single ice mass in Russia. From above it looks like a white lid dropped on a dark sea, its edges crumbling into ice cliffs and drifting floes.",
+    "w": "A round, smooth white dome filling most of an island, with ice cliffs along its edges and sea ice around.",
+    "f": [
+      "Severnaya Zemlya was one of the last archipelagos on Earth to be discovered, in 1913.",
+      "Georgy Ushakov and Nikolay Urvantsev first mapped the islands in 1930–1932, travelling by dog sled.",
+      "The ice is hundreds of metres thick at the centre of the dome."
+    ],
+    "q": {
+      "q": "On which island does the Academy of Sciences Ice Cap lie?",
+      "a": "Komsomolets Island",
+      "x": [
+        "Wrangel Island",
+        "Kotelny Island"
+      ]
+    }
+  },
+  "ne-gl-agassiz-ice-cap": {
+    "t": "An Arctic ice cap named for the Ice Age's discoverer",
+    "s": "On northern Ellesmere Island, Canada's northernmost, the Agassiz Ice Cap spreads over the high interior like poured icing. It carries the name of Louis Agassiz, the Swiss-born scientist who in the 1830s argued that great ice sheets had once covered much of the northern world. Look for a smooth white dome cut at its edges by dark rock ridges and glacier tongues sliding toward the fjords.",
+    "w": "A smooth white dome over Ellesmere's high interior, fringed by dark rock ridges and glacier tongues heading for the fjords.",
+    "f": [
+      "Ice cores drilled here since the 1970s record Arctic temperatures over thousands of years.",
+      "Ellesmere Island is the tenth-largest island in the world."
+    ],
+    "q": {
+      "q": "Louis Agassiz is famous for which idea?",
+      "a": "Past ice ages",
+      "x": [
+        "Continental drift",
+        "Natural selection"
+      ]
+    }
+  },
+  "ne-gl-asgardfonna": {
+    "t": "An ice plateau named after the home of the Norse gods",
+    "s": "In the north-east of Spitsbergen, between two long fjords, lies Åsgardfonna, a plateau of ice some 1,200 km² in area. Its name comes from Åsgard, the home of the gods in Norse myth, and neighbouring ice fields borrow names from the same stories. From above it is a high white tableland, with dark ridges and valley glaciers spilling off its sides.",
+    "w": "A high white ice plateau between two long fjords, Wijdefjorden to the west and Lomfjorden to the east.",
+    "f": [
+      "Nearby ice fields are called Valhallfonna and Balderfonna, also after Norse mythology.",
+      "Wijdefjorden, on its western side, is Svalbard's longest fjord, over 100 km long."
+    ],
+    "q": {
+      "q": "In Norse myth, what is Åsgard?",
+      "a": "The home of the gods",
+      "x": [
+        "The realm of the dead",
+        "The world of the giants"
+      ]
+    }
+  },
+  "ne-gl-barnes-ice-cap": {
+    "t": "The last surviving piece of the great Ice Age sheet",
+    "s": "In the middle of Baffin Island lies a smooth white dome some 150 km long, and it is older than it looks. The Barnes Ice Cap is the last remnant of the Laurentide Ice Sheet, which buried most of Canada during the last ice age, and its deepest layers still hold ice from that time. Around it the land is brown tundra scattered with thousands of lakes.",
+    "w": "A long, smooth white dome in the centre of Baffin Island, surrounded by brown tundra freckled with lakes.",
+    "f": [
+      "It covers about 6,000 km².",
+      "Scientists expect it to disappear within a few centuries as the Arctic warms.",
+      "Baffin Island is the fifth-largest island in the world."
+    ],
+    "q": {
+      "q": "The Barnes Ice Cap is a remnant of which ice sheet?",
+      "a": "The Laurentide Ice Sheet",
+      "x": [
+        "The Cordilleran Ice Sheet",
+        "The Greenland Ice Sheet"
+      ]
+    }
+  },
+  "ne-gl-bering-glacier": {
+    "t": "North America's longest glacier, a river of ice",
+    "s": "Flying along the Gulf of Alaska, look for a vast lobe of ice spreading onto the coastal plain: the Bering Glacier, roughly 190 km long, the longest and largest glacier in North America. It flows from the Bagley Icefield in the Chugach and Saint Elias mountains. Dark stripes of rock debris ripple across its surface, bent into waves by past surges.",
+    "w": "A huge ice lobe spilling onto the coastal plain east of the Copper River delta, streaked with dark, wavy lines.",
+    "f": [
+      "It is named after the explorer Vitus Bering and has surged forward several times in the past century.",
+      "At its snout lies Vitus Lake, crowded with floating icebergs."
+    ],
+    "q": {
+      "q": "Which icefield feeds the Bering Glacier?",
+      "a": "Bagley Icefield",
+      "x": [
+        "Harding Icefield",
+        "Juneau Icefield"
+      ]
+    }
+  },
+  "ne-gl-brasvellbreen": {
+    "t": "The ice wall that leapt 20 km in two years",
+    "s": "On Nordaustlandet, Svalbard's second-largest island, the Austfonna ice cap ends in a long, low cliff, and Bråsvellbreen is its biggest outlet. In 1936–38 it surged forward by up to 20 km along a 30 km front, one of the largest glacier surges ever recorded. In summer, meltwater pours off the ice cliff in dozens of waterfalls straight into the sea.",
+    "w": "A long, low ice cliff running along the sea, the edge of a huge white ice cap on Svalbard's second-largest island.",
+    "f": [
+      "Its Norwegian name means roughly 'sudden swell', after that surge.",
+      "Austfonna's ice front runs for well over 100 km, almost without a break.",
+      "Austfonna is one of the largest ice caps in Europe."
+    ],
+    "q": {
+      "q": "What did Bråsvellbreen do in 1936–38?",
+      "a": "Surged forward up to 20 km",
+      "x": [
+        "Retreated 20 km",
+        "Split into two glaciers"
+      ]
+    }
+  },
+  "ne-gl-cambria-icefield": {
+    "t": "An icefield feeding blue glaciers above Stewart",
+    "s": "South-east of the little port of Stewart, at the head of the long fjord of Portland Canal, the Cambria Icefield covers some 700 km² of the Coast Mountains. Its glaciers spill down on all sides into forested valleys. One of them, Bear Glacier, ends right beside a highway, its snout glowing an intense blue above a meltwater lake.",
+    "w": "A white icefield among jagged coastal peaks, glaciers radiating into green valleys, east of a long, narrow fjord.",
+    "f": [
+      "Portland Canal, the fjord below, is more than 100 km long and forms part of the Alaska–Canada border.",
+      "Stewart, at the fjord's head, calls itself Canada's northernmost ice-free port.",
+      "Its outlet glaciers have been retreating since the early 1900s."
+    ],
+    "q": {
+      "q": "Which Cambria glacier ends beside a highway near Stewart?",
+      "a": "Bear Glacier",
+      "x": [
+        "Athabasca Glacier",
+        "Mendenhall Glacier"
+      ]
+    }
+  },
+  "ne-gl-columbia-icefield": {
+    "t": "The rooftop of the Rockies, draining to three oceans",
+    "s": "The Columbia Icefield is the largest in the Rocky Mountains, some 200 km² of ice on the Continental Divide between Alberta and British Columbia. Its meltwater runs to three oceans: west to the Pacific, north to the Arctic, and east through Hudson Bay to the Atlantic. Look for the Athabasca Glacier, a broad white tongue ending near the Icefields Parkway.",
+    "w": "A high white plateau of ice ringed by rock peaks, with a broad glacier tongue reaching down toward a road.",
+    "f": [
+      "Mount Columbia, 3,747 m, on its rim, is the highest point in Alberta.",
+      "Snow Dome, on the icefield, is a triple divide: its meltwater can reach three different oceans.",
+      "The Athabasca Glacier has retreated more than 1.5 km since the late 1800s."
+    ],
+    "q": {
+      "q": "How many oceans does Columbia Icefield meltwater reach?",
+      "a": "Three",
+      "x": [
+        "Two",
+        "Four"
+      ]
+    }
+  },
+  "ne-gl-devon-ice-cap": {
+    "t": "Ice on the largest uninhabited island on Earth",
+    "s": "Devon Island, north of Lancaster Sound, is the largest island on Earth with no permanent residents, and its eastern part lies under the Devon Ice Cap, about 14,000 km² of white. West of the ice the land is a bare, rust-brown plateau, so Mars-like that scientists use the Haughton crater there to rehearse missions to the Red Planet. From the air the white-brown contrast is striking.",
+    "w": "A white dome covering the eastern end of the island, beside bare, rust-brown plateaus cut by canyons.",
+    "f": [
+      "The Haughton crater, about 23 km wide, was blasted out by an impact tens of millions of years ago.",
+      "The Haughton-Mars Project has run field seasons at the crater since 1997."
+    ],
+    "q": {
+      "q": "What makes Devon Island stand out?",
+      "a": "Largest uninhabited island",
+      "x": [
+        "Northernmost island",
+        "Largest Arctic island"
+      ]
+    }
+  },
+  "ne-gl-edgeoyjokulen": {
+    "t": "A white dome on Svalbard's wild eastern island",
+    "s": "Edgeøya, Svalbard's third-largest island, has no permanent residents, and much of its eastern part lies under ice caps such as Edgeøyjøkulen. Look for a smooth white dome whose edges break into short glaciers reaching the sea, while the west of the island shows bare, terraced brown plateaus. In winter the whole island merges with the frozen sea around it.",
+    "w": "A smooth white dome on a big island south-east of Spitsbergen, with short glaciers reaching the sea and bare brown uplands.",
+    "f": [
+      "The island is named after Thomas Edge, an English merchant in the 17th-century whaling trade.",
+      "Edgeøya lies within a nature reserve where polar bears roam freely."
+    ],
+    "q": {
+      "q": "Where does Edgeøya rank among Svalbard's islands by size?",
+      "a": "Third",
+      "x": [
+        "First",
+        "Fifth"
+      ]
+    }
+  },
+  "ne-gl-harding-icefield": {
+    "t": "A frozen sea spilling dozens of glaciers",
+    "s": "On the Kenai Peninsula south of Anchorage, the Harding Icefield buries some 1,800 km² of mountains, with only rocky summits poking through. More than 30 glaciers flow off it, several all the way down to the fjords of Kenai Fjords National Park. From above it is a white sea studded with dark islands of rock — nunataks — that ends abruptly at the green coast.",
+    "w": "A white expanse dotted with dark rock peaks, sending glacier tongues down to fjords on the Kenai Peninsula's south coast.",
+    "f": [
+      "It is named after US President Warren G. Harding, who visited Alaska in 1923.",
+      "Exit Glacier, near the town of Seward, is the one part of the icefield you can reach by road."
+    ],
+    "q": {
+      "q": "Which national park lies below the Harding Icefield?",
+      "a": "Kenai Fjords",
+      "x": [
+        "Glacier Bay",
+        "Denali"
+      ]
+    }
+  },
+  "ne-gl-holtedahlfonna": {
+    "t": "The ice field that feeds the glaciers of Kongsfjorden",
+    "s": "North-west Spitsbergen is crowned by Holtedahlfonna, the island's second-largest ice cap, about 1,400 km² of white. Its ice drains west through Kronebreen, one of Svalbard's fastest glaciers, which ends in a crumbling blue wall at the head of Kongsfjorden. On the same fjord stands Ny-Ålesund, one of the northernmost research settlements on Earth.",
+    "w": "A broad white ice field east of Kongsfjorden, sending a wide glacier into the head of the fjord.",
+    "f": [
+      "It is named after the Norwegian geologist Olaf Holtedahl.",
+      "Kronebreen can flow up to about 3 m a day.",
+      "Ny-Ålesund hosts research stations from about ten countries."
+    ],
+    "q": {
+      "q": "Which fast glacier drains Holtedahlfonna into Kongsfjorden?",
+      "a": "Kronebreen",
+      "x": [
+        "Negribreen",
+        "Bråsvellbreen"
+      ]
+    }
+  },
+  "ne-gl-juneau-icefield": {
+    "t": "The icefield behind Alaska's roadless capital",
+    "s": "Right behind Juneau, Alaska's capital, the mountains vanish under the Juneau Icefield, nearly 4,000 km² of ice straddling the US–Canada border. Dozens of glaciers pour off it: the Mendenhall reaches almost to the city's suburbs, and the Taku runs down toward the sea. The ice is one reason no road links Juneau to the rest of North America.",
+    "w": "A white plateau with dark peaks behind Juneau, glaciers spilling toward the sea, one ending in a lake by the town.",
+    "f": [
+      "Juneau is the only US state capital on the North American mainland with no road link to the rest of the continent.",
+      "Students have studied the icefield every summer since the late 1940s through the Juneau Icefield Research Program.",
+      "For decades the Taku was one of the few advancing glaciers in Alaska."
+    ],
+    "q": {
+      "q": "Which Juneau Icefield glacier ends in a lake near the city?",
+      "a": "Mendenhall Glacier",
+      "x": [
+        "Hubbard Glacier",
+        "Columbia Glacier"
+      ]
+    }
+  },
+  "ne-gl-karpinsky-ice-cap": {
+    "t": "Severnaya Zemlya's highest point is made of ice",
+    "s": "The Karpinsky Ice Cap is the largest of the seven ice caps on October Revolution Island, about 2,800 km². Its summit, at about 965 m, is the highest point of the whole Severnaya Zemlya archipelago — and it is ice, not rock. Look for a broad dome sloping toward the Laptev Sea, its edges split into outlet glaciers and bays choked with sea ice most of the year.",
+    "w": "A broad white dome on the eastern side of a large Arctic island, with glaciers reaching into ice-choked bays.",
+    "f": [
+      "It is named after Alexander Karpinsky, a geologist who became the first elected president of the Russian Academy of Sciences.",
+      "October Revolution Island is the largest island of Severnaya Zemlya."
+    ],
+    "q": {
+      "q": "What forms the highest point of Severnaya Zemlya?",
+      "a": "An ice cap",
+      "x": [
+        "A volcano",
+        "A rock pinnacle"
+      ]
+    }
+  },
+  "ne-gl-kluane-ice-cap": {
+    "t": "The biggest icefields outside the polar regions",
+    "s": "Between Yukon and Alaska lies a sea of ice that swallows whole mountain ranges: the icefields of the Saint Elias Mountains, the largest outside the polar regions. Rising from them is Mount Logan, 5,959 m, Canada's highest peak and one of the bulkiest mountains on Earth. From above look for rivers of ice many kilometres wide, striped with dark moraines like highways.",
+    "w": "Endless white icefields with dark rock peaks and huge striped glaciers, inland from the Gulf of Alaska.",
+    "f": [
+      "Kluane National Park and its neighbours form a single UNESCO World Heritage site straddling the Canada–US border.",
+      "Mount Logan is thought to have the largest base of any non-volcanic mountain on Earth.",
+      "The Hubbard Glacier, fed from these icefields, calves into the sea near Yakutat."
+    ],
+    "q": {
+      "q": "Which mountain, rising from these icefields, is Canada's highest?",
+      "a": "Mount Logan",
+      "x": [
+        "Mount Robson",
+        "Mount Saint Elias"
+      ]
+    }
+  },
+  "ne-gl-lyell-icefield": {
+    "t": "Five summits named for Swiss mountain guides",
+    "s": "South of the Columbia Icefield, another sheet of ice spreads along the Continental Divide: the Lyell Icefield. Above it rise the five summits of Mount Lyell, named after the geologist Charles Lyell; the individual peaks honour Swiss guides who worked in the Canadian Rockies. Look for a white plateau feeding glaciers west into British Columbia and east into the valleys of Banff National Park.",
+    "w": "A white ice plateau on the Rockies' crest south of the larger Columbia Icefield, with glaciers pouring off both sides.",
+    "f": [
+      "Charles Lyell, whose name it bears, was one of the founders of modern geology.",
+      "Its eastern glaciers feed the North Saskatchewan River, whose water ends up in Hudson Bay."
+    ],
+    "q": {
+      "q": "Which river is fed by the Lyell Icefield's eastern glaciers?",
+      "a": "North Saskatchewan",
+      "x": [
+        "Athabasca",
+        "Bow"
+      ]
+    }
+  },
+  "ne-gl-malaspina-glacier": {
+    "t": "A giant fan of ice spread over the Alaskan plain",
+    "s": "Look for a vast, round lobe of ice sprawled across the coastal plain at the foot of Mount Saint Elias: the Malaspina, the largest piedmont glacier in the world. The Seward Glacier squeezes out of the mountains through a gap and spreads like dough on a table, about 65 km wide. Its surface is marbled with dark bands of moraine, folded into zigzags by repeated surges.",
+    "w": "A huge rounded lobe of ice on the coastal plain, marbled with dark zigzag stripes, west of Yakutat Bay.",
+    "f": [
+      "It covers about 3,900 km², more than the US state of Rhode Island.",
+      "It is named after Alessandro Malaspina, who explored this coast for Spain in 1791.",
+      "Its bed lies below sea level, so the ocean could one day flood in if the ice thins enough."
+    ],
+    "q": {
+      "q": "What kind of glacier is the Malaspina?",
+      "a": "A piedmont glacier",
+      "x": [
+        "A tidewater glacier",
+        "A cirque glacier"
+      ]
+    }
+  },
+  "ne-gl-manson-icefield": {
+    "t": "A lonely ice sheet on Ellesmere's southern shore",
+    "s": "Along the south-east coast of Ellesmere Island, at the top of Baffin Bay, the Manson Icefield covers roughly 6,000 km² of mountains. From above it is a broad white plateau whose glaciers drop steeply into the sea, calving icebergs that drift slowly south. There are no roads or settlements on the ice, and in winter it merges with the frozen sea into a single white plain.",
+    "w": "A broad white plateau on Ellesmere's south-east coast, with glaciers dropping steeply into dark, ice-strewn water.",
+    "f": [
+      "Grise Fiord, Canada's northernmost civilian community, lies on the same southern coast of Ellesmere.",
+      "Just offshore, the North Water polynya is a stretch of sea that stays partly open even in winter."
+    ],
+    "q": {
+      "q": "Which is Canada's northernmost civilian community, on Ellesmere?",
+      "a": "Grise Fiord",
+      "x": [
+        "Resolute",
+        "Alert"
+      ]
+    }
   }
 }

@@ -50,7 +50,7 @@ function untilDeparture(dep: Date, now: number): string {
 function Advice({ pkg }: { pkg: OfflinePackage }) {
   const locale = getLocale();
   const advice = useMemo(
-    () => windowAdvice(pkg.route, pkg.pois, new Date(pkg.flight.scheduledDeparture)),
+    () => windowAdvice(pkg.route, pkg.pois, new Date(pkg.flight.scheduledDeparture), pkg.clouds),
     [pkg]
   );
   const byId = new Map(pkg.pois.map((p) => [p.id, p]));
@@ -96,6 +96,18 @@ function Advice({ pkg }: { pkg: OfflinePackage }) {
         <>
           <Space h={s.x2} />
           <Body tone="muted">{body}</Body>
+        </>
+      ) : null}
+      {advice.cloudy !== null ? (
+        <>
+          <Space h={s.x2} />
+          <Small tone={advice.cloudy >= 0.6 ? 'accent' : 'muted'}>
+            {advice.cloudy >= 0.6
+              ? t('advice.cloudyMost', { pct: Math.round(advice.cloudy * 100) })
+              : advice.cloudy >= 0.25
+                ? t('advice.cloudySome', { pct: Math.round(advice.cloudy * 100) })
+                : t('advice.clear')}
+          </Small>
         </>
       ) : null}
       {seat?.label && seat.side !== 'unknown' ? (
@@ -306,6 +318,11 @@ function FeaturedFlight({
           <Label tone="dim" accessibilityRole="header">{t('board.underWing')}</Label>
           <Space h={s.x2} />
           <Body>{countries.map((cc) => countryName(cc, locale)).join(' · ')}</Body>
+        </Gutter>
+      ) : null}
+      {pkg.routeKind === 'track' && pkg.trackFlownOn ? (
+        <Gutter style={styles.countries}>
+          <Small>{t('board.routeTrack', { date: weekdayDayMonth(`${pkg.trackFlownOn}T12:00:00Z`) })}</Small>
         </Gutter>
       ) : null}
       {pkg.routeKind === 'approximate' ? (

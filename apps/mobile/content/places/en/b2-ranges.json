@@ -321,5 +321,642 @@
         "About 40 km"
       ]
     }
+  },
+  "Q181528": {
+    "t": "The Sahara’s driest corner, where years pass without rain",
+    "s": "This eastern part of the Sahara, spread across Egypt, Libya and Sudan, is among the driest places on Earth — some spots go years without a drop of rain. From above it is a study in beige: flat gravel plains, the long parallel dunes of the Great Sand Sea, and the brown sandstone plateau of the Gilf Kebir rising like an island.",
+    "w": "Pale sand drawn into long, straight dune lines running north–south, and the dark, flat-topped Gilf Kebir plateau.",
+    "f": [
+      "A carved piece of yellow Libyan desert glass, found only in this region, sits in a pectoral from Tutankhamun’s tomb.",
+      "The Cave of Swimmers in the Gilf Kebir has ancient paintings of people who seem to be swimming — in today’s driest desert."
+    ],
+    "q": {
+      "q": "Whose tomb held a jewel set with Libyan desert glass?",
+      "a": "Tutankhamun’s",
+      "x": [
+        "Ramesses II’s",
+        "Khufu’s"
+      ]
+    }
+  },
+  "Q37056": {
+    "t": "Where Eurasia runs out of land",
+    "s": "You are over the very top of Eurasia. Taymyr’s tip, Cape Chelyuskin, is the northernmost point of any continent’s mainland; across a narrow strait lie only the islands of Severnaya Zemlya and the pack ice. Below you: treeless tundra, the low Byrranga Mountains and a web of lakes and rivers that stay frozen for most of the year.",
+    "w": "Flat, treeless tundra laced with lakes, and the long, low ridges of the Byrranga Mountains running east–west.",
+    "f": [
+      "Musk oxen, gone from here for thousands of years, were brought back from Canada and Alaska in the 1970s and thrived.",
+      "Taymyr is home to the largest herd of wild reindeer in Eurasia.",
+      "Cape Chelyuskin was first reached in 1742 by Semyon Chelyuskin, travelling by dog sled."
+    ],
+    "q": {
+      "q": "What is the northernmost point of mainland Eurasia?",
+      "a": "Cape Chelyuskin",
+      "x": [
+        "Cape Dezhnev",
+        "North Cape"
+      ]
+    }
+  },
+  "Q488266": {
+    "t": "“The end of the land”, freckled with countless lakes",
+    "s": "In the Nenets language Yamal means “the end of the land”, and from above the name feels right: a flat, pale tundra reaching north into the Kara Sea, so pocked with lakes that it seems more water than ground. Nenets herders still cross it with their reindeer, travelling hundreds of kilometres each year between summer and winter pastures.",
+    "w": "A flat peninsula between the Kara Sea and the Gulf of Ob, scattered with thousands of round lakes.",
+    "f": [
+      "Beneath Yamal lie some of the largest natural gas fields on Earth.",
+      "In 2014 a crater tens of metres wide appeared in the tundra, blown out by gas from thawing permafrost.",
+      "The peninsula is about 700 km long."
+    ],
+    "q": {
+      "q": "What does “Yamal” mean in the Nenets language?",
+      "a": "The end of the land",
+      "x": [
+        "Land of reindeer",
+        "White water"
+      ]
+    }
+  },
+  "Q993": {
+    "t": "A land of fire and ice on the edge of the Pacific",
+    "s": "White cones, one after another, some trailing a thin plume: Kamchatka has around 30 active volcanoes, one of the densest clusters on Earth. On a clear day you can pick out several at once, rising from dark forest and tundra. The tallest, Klyuchevskaya Sopka, reaches about 4,750 m — the highest active volcano in Eurasia.",
+    "w": "Snow-capped volcanic cones in a row along the peninsula’s spine and east coast, often with steam or ash at the top.",
+    "f": [
+      "The Valley of Geysers, discovered in 1941, is one of the largest geyser fields in the world.",
+      "Kamchatka is about 1,200 km long, yet no road links it to the rest of Russia.",
+      "The Volcanoes of Kamchatka have been a UNESCO World Heritage Site since 1996."
+    ],
+    "q": {
+      "q": "Which is the highest active volcano in Eurasia?",
+      "a": "Klyuchevskaya Sopka",
+      "x": [
+        "Koryaksky",
+        "Shiveluch"
+      ]
+    }
+  },
+  "Q18758": {
+    "t": "Asia’s long green tail, reaching for the equator",
+    "s": "Mainland Asia ends at the tip of this peninsula, barely 150 km from the equator. From above, its spine is a line of rainforest-covered mountains; on either side the green turns into the neat, dotted rows of oil palm and rubber plantations. Off the west coast runs the Strait of Malacca, busy with ships day and night.",
+    "w": "A forested mountain spine down the middle, geometric plantations on both sides, and ships dotting the Strait of Malacca to the west.",
+    "f": [
+      "Tanjung Piai, at the peninsula’s tip, is the southernmost point of mainland Asia.",
+      "The Strait of Malacca is one of the busiest shipping lanes in the world.",
+      "Gunung Tahan, 2,187 m, is the highest peak of Peninsular Malaysia."
+    ],
+    "q": {
+      "q": "Which is the southernmost point of mainland Asia?",
+      "a": "Tanjung Piai",
+      "x": [
+        "Cape Cà Mau",
+        "Cape Comorin"
+      ]
+    }
+  },
+  "Q319288": {
+    "t": "Africa’s rooftop, where the Nile gets its flood",
+    "s": "A vast green-and-brown plateau, mostly above 1,500 m, rises out of the surrounding lowlands like a fortress. Its flat tops are farmed right to the edge, then drop into canyons — the Blue Nile Gorge is up to 1.5 km deep. Every summer, monsoon rain on these highlands sends down the flood that has fed Egypt for millennia.",
+    "w": "A high tableland of fields and eucalyptus groves, split by deep brown canyons; Lake Tana shines to the north.",
+    "f": [
+      "Most of the Nile water that reaches Egypt falls as rain on the Ethiopian Highlands.",
+      "Arabica coffee comes from here: it still grows wild in Ethiopia’s forests.",
+      "Addis Ababa, at about 2,350 m, is one of the highest capital cities in the world."
+    ],
+    "q": {
+      "q": "Which lake is the source of the Blue Nile?",
+      "a": "Lake Tana",
+      "x": [
+        "Lake Victoria",
+        "Lake Turkana"
+      ]
+    }
+  },
+  "Q167021": {
+    "t": "Mountains folded like a rumpled carpet",
+    "s": "From above, the Zagros are one of the clearest pictures of how mountains are made: long parallel ridges curve for hundreds of kilometres like folds in a pushed rug, as Arabia presses into Iran. In the south, dark round blotches stand out between the folds — salt domes, where ancient salt has squeezed up through the rock and flowed out like a glacier.",
+    "w": "Long, curving parallel ridges like wrinkles in cloth, with round dark salt domes between them near the Gulf coast.",
+    "f": [
+      "The Zagros run about 1,500 km, from near the Turkish border to the Strait of Hormuz.",
+      "The Middle East’s first oil strike came in the Zagros foothills, at Masjed Soleyman, in 1908.",
+      "Goats were domesticated in the Zagros around 10,000 years ago."
+    ],
+    "q": {
+      "q": "Which collision is folding up the Zagros?",
+      "a": "Arabia pushing into Eurasia",
+      "x": [
+        "India pushing into Asia",
+        "Africa pushing into Europe"
+      ]
+    }
+  },
+  "Q5955": {
+    "t": "Golden mountains where four countries meet",
+    "s": "Snowy peaks, turquoise rivers and larch forest shading into steppe: the Altai sit in the middle of Asia, where Russia, Kazakhstan, China and Mongolia come together. Look for the milky turquoise ribbon of the Katun River and the long, narrow blade of Lake Teletskoye. Belukha, the highest peak at 4,506 m, wears a white, twin-headed cap all year.",
+    "w": "White peaks above dark larch forest, the turquoise Katun River and the narrow blue strip of Lake Teletskoye.",
+    "f": [
+      "The Golden Mountains of Altai have been a UNESCO World Heritage Site since 1998.",
+      "Ancient Pazyryk burials, sealed in permafrost, preserved tattooed human skin about 2,400 years old.",
+      "Belukha is the highest point in Siberia."
+    ],
+    "q": {
+      "q": "Which is the highest peak of the Altai?",
+      "a": "Belukha",
+      "x": [
+        "Munku-Sardyk",
+        "Khan Tengri"
+      ]
+    }
+  },
+  "Q293713": {
+    "t": "The ridge where forest ends and the steppe begins",
+    "s": "Look for a sharp change of colour: the Greater Khingan divides the damp, green Manchurian side in the east from the dry grasslands of the Mongolian Plateau in the west. The range itself is gentle, rarely much above 2,000 m, but it catches the summer monsoon and casts a rain shadow over the steppe beyond. It runs about 1,200 km from north to south.",
+    "w": "Low, forested ridges running north–south, with greener fields to the east and tawny steppe to the west.",
+    "f": [
+      "Its northern slopes carry one of China’s largest forests, mostly of larch.",
+      "West of the range lie the Hulunbuir grasslands, some of the finest pastures in China."
+    ],
+    "q": {
+      "q": "What lies to the west of the Greater Khingan?",
+      "a": "The Mongolian Plateau",
+      "x": [
+        "The Manchurian Plain",
+        "The North China Plain"
+      ]
+    }
+  },
+  "Q214284": {
+    "t": "A remote divide between the Arctic and the Pacific",
+    "s": "Dark taiga, bare stony summits and barely a road: the Stanovoy Range is one of Siberia’s emptiest places. It is the region’s great watershed — rivers on its north side flow to the Lena and the Arctic, those on the south to the Amur and the Pacific. In winter the ridges turn white and the valleys vanish under snow.",
+    "w": "Long, dark-green ridges with pale rocky tops running east–west, and winding rivers in empty valleys.",
+    "f": [
+      "For nearly two centuries after the 1689 Treaty of Nerchinsk, these mountains roughly marked the border between Russia and China.",
+      "The railway to Yakutsk crosses the range near Neryungri, a coal-mining town in southern Yakutia."
+    ],
+    "q": {
+      "q": "Which great river takes the water from the Stanovoy’s north side?",
+      "a": "The Lena",
+      "x": [
+        "The Yenisei",
+        "The Kolyma"
+      ]
+    }
+  },
+  "Q26813923": {
+    "t": "The Himalayas’ first and youngest wrinkle",
+    "s": "Coming from the Indian plains, these are the first hills you meet: low, green, steep-sided ridges rising abruptly from the flat Terai. The Siwaliks are the youngest and outermost fold of the Himalayas, made of gravel and sand washed down from the high peaks and then pushed up again. Behind them rise higher ranges, and on a clear day the snows.",
+    "w": "The first line of low, forested hills rising sharply from the flat, farmed plain, parallel to the snowy peaks beyond.",
+    "f": [
+      "The name is usually explained as “belonging to Shiva”.",
+      "Their rocks are rich in fossils of ancient apes, elephants and giraffes, some more than 10 million years old.",
+      "In Nepal these hills are called the Chure range."
+    ],
+    "q": {
+      "q": "Where do the Siwalik Hills lie within the Himalayas?",
+      "a": "At the outermost southern edge",
+      "x": [
+        "Along the main snowy crest",
+        "On the Tibetan side"
+      ]
+    }
+  },
+  "Q161750": {
+    "t": "The Roof of the World, cut by giant glaciers",
+    "s": "Locals called it Bam-i-Dunya, the Roof of the World, and from the air it looks the part: a high, bare knot of mountains where the Tian Shan, Hindu Kush and Karakoram all meet. In the eastern Pamirs even the valley floors lie around 4,000 m. The Fedchenko Glacier, more than 70 km long, is the longest glacier outside the polar regions.",
+    "w": "A dense knot of snowy peaks and long glaciers; to the east, high, bare brown plateaus with turquoise lakes.",
+    "f": [
+      "Ismoil Somoni Peak, 7,495 m, is the highest point of the Pamirs.",
+      "Lake Karakul, at about 3,900 m, fills a crater left by a meteorite impact millions of years ago.",
+      "The Pamir Highway crosses the Ak-Baital Pass at about 4,650 m, one of the highest roads in the world."
+    ],
+    "q": {
+      "q": "What is the traditional nickname of the Pamirs?",
+      "a": "The Roof of the World",
+      "x": [
+        "The Abode of Snow",
+        "The Celestial Mountains"
+      ]
+    }
+  },
+  "Q5472": {
+    "t": "A snowy wall on the old roads of Central Asia",
+    "s": "A sea of sharp, snowy peaks cut by deep valleys stretches about 800 km from central Afghanistan into northern Pakistan. For thousands of years traders, pilgrims and armies threaded the Hindu Kush’s high passes between Central Asia and India. Tirich Mir, the highest summit at 7,708 m, rises near its eastern end.",
+    "w": "Row upon row of jagged white peaks, with narrow green valleys and braided grey rivers deep below.",
+    "f": [
+      "Lapis lazuli mined in these mountains for more than 6,000 years ended up in the jewellery of Egyptian pharaohs.",
+      "Alexander the Great crossed the Hindu Kush on his way to India in the 4th century BC."
+    ],
+    "q": {
+      "q": "Which is the highest peak of the Hindu Kush?",
+      "a": "Tirich Mir",
+      "x": [
+        "Nanga Parbat",
+        "Noshaq"
+      ]
+    }
+  },
+  "Q5469": {
+    "t": "K2’s kingdom of rock, ice and giant glaciers",
+    "s": "Few places outside the polar regions hold this much mountain ice: glaciers such as the Siachen and the Baltoro, each over 60 km long, fill the Karakoram’s valleys like frozen motorways striped with dark rock. Above them stand K2 and three more peaks over 8,000 m. The name is usually translated from Turkic as “black gravel”.",
+    "w": "Long, straight glaciers with dark stripes of rock down their middle, between clusters of sharp granite peaks.",
+    "f": [
+      "K2, 8,611 m, is the second-highest mountain on Earth.",
+      "Some Karakoram glaciers have held steady or even grown while most mountain glaciers shrink — the “Karakoram anomaly”.",
+      "The Karakoram Highway crosses the range at the Khunjerab Pass, about 4,700 m high."
+    ],
+    "q": {
+      "q": "Which is the second-highest mountain on Earth?",
+      "a": "K2",
+      "x": [
+        "Kangchenjunga",
+        "Lhotse"
+      ]
+    }
+  },
+  "Q187871": {
+    "t": "The stern northern rampart of the Tibetan Plateau",
+    "s": "Look for the line where the sand stops. The Kunlun rise like a rampart along the northern edge of the Tibetan Plateau, with the yellow Tarim Basin and the Taklamakan desert at their feet and cold, high Tibet behind them. The range runs some 3,000 km, and in Chinese myth its peaks were the home of immortals.",
+    "w": "A sharp boundary: a yellow desert basin on the north side, snow-streaked grey ridges and the high plateau to the south.",
+    "f": [
+      "The Qinghai–Tibet Railway crosses the Kunlun at a pass about 4,770 m high.",
+      "Nephrite jade from the Kunlun rivers near Hotan has been prized in China for thousands of years.",
+      "In Chinese legend the Kunlun were the home of Xiwangmu, the Queen Mother of the West."
+    ],
+    "q": {
+      "q": "Which basin lies at the northern foot of the western Kunlun?",
+      "a": "The Tarim Basin",
+      "x": [
+        "The Sichuan Basin",
+        "The Dzungarian Basin"
+      ]
+    }
+  },
+  "Q130135": {
+    "t": "The barrier between the Mediterranean and the Sahara",
+    "s": "Green on one side, red and ochre on the other: the Atlas Mountains hold back the Sahara from the Mediterranean coast for some 2,500 km, from Morocco’s Atlantic shore to Tunisia. Their northern slopes catch rain and even snow, while the southern flanks look scorched. In the Middle Atlas, dark cedar forests shelter the Barbary macaque, the only macaque living in Africa.",
+    "w": "Snow-dusted ridges with dark cedar forest on the north side, and bare red and ochre slopes on the Saharan side.",
+    "f": [
+      "Jebel Toubkal, 4,167 m, in the High Atlas, is the highest peak in North Africa.",
+      "The Atlas cedar grows wild only in these mountains of Morocco and Algeria.",
+      "The mountains are named after Atlas, the Titan of Greek myth who holds up the sky."
+    ],
+    "q": {
+      "q": "Which is the highest peak of the Atlas Mountains?",
+      "a": "Jebel Toubkal",
+      "x": [
+        "Jebel Ayachi",
+        "Mount Chélia"
+      ]
+    }
+  },
+  "Q93332": {
+    "t": "Ancient ridges combed into parallel lines",
+    "s": "Look down for stripes: in the Ridge-and-Valley country the Appalachians form long, forested ridges running side by side for hundreds of kilometres, as if the land had been combed. These are some of the oldest mountains on Earth, raised more than 250 million years ago and once far higher than today. Erosion has worn them down to rounded, green hills.",
+    "w": "Long, parallel forested ridges with farmed valleys between them, running south-west to north-east.",
+    "f": [
+      "The Appalachian Trail follows the range for about 3,500 km, from Georgia to Maine.",
+      "The Blue Ridge owes its blue haze to natural compounds released by its trees.",
+      "Mount Mitchell in North Carolina, 2,037 m, is the highest peak in the eastern United States."
+    ],
+    "q": {
+      "q": "Why do the Blue Ridge Mountains look blue?",
+      "a": "Haze from compounds released by trees",
+      "x": [
+        "Blue-tinted granite",
+        "Reflections from many lakes"
+      ]
+    }
+  },
+  "Q929910": {
+    "t": "America’s wild northern rampart above the Arctic plain",
+    "s": "Above the Arctic Circle, the Brooks Range sweeps across northern Alaska for about 1,000 km: grey, treeless peaks, braided rivers and hardly a settlement anywhere. To the north the land drops to the flat Arctic coastal plain, dotted with countless lakes. In summer the snow melts from the valleys; in winter everything lies white under a low sun.",
+    "w": "Grey, jagged, treeless ridges running east–west and wide braided riverbeds; to the north, flat tundra full of lakes.",
+    "f": [
+      "Gates of the Arctic National Park, in the Brooks Range, has no roads or trails at all.",
+      "The Trans-Alaska Pipeline crosses the range at Atigun Pass, about 1,400 m high.",
+      "Its crest divides rivers flowing to the Arctic Ocean from those heading to the Bering Sea."
+    ],
+    "q": {
+      "q": "Which pipeline crosses the Brooks Range at Atigun Pass?",
+      "a": "The Trans-Alaska Pipeline",
+      "x": [
+        "The Keystone Pipeline",
+        "The Colonial Pipeline"
+      ]
+    }
+  },
+  "Q920070": {
+    "t": "Ice, rainforest and fjords on Canada’s Pacific edge",
+    "s": "Between the Pacific and the interior of British Columbia rises a wall of granite peaks and icefields some 1,600 km long. Fjords push deep inland between them, and their lower slopes are cloaked in dense temperate rainforest. On a clear day you look down on glaciers feeding milky rivers that wind to the sea.",
+    "w": "Jagged snowy peaks and icefields, with long fjords and green valleys cutting in from the Pacific coast.",
+    "f": [
+      "Mount Waddington, 4,019 m, is the highest peak lying entirely within British Columbia.",
+      "The range is built largely of granite and forms one of the largest granite bodies on Earth.",
+      "The Skeena and Stikine rivers slice right through the range on their way to the Pacific."
+    ],
+    "q": {
+      "q": "Which is the highest peak lying entirely within British Columbia?",
+      "a": "Mount Waddington",
+      "x": [
+        "Mount Robson",
+        "Mount Fairweather"
+      ]
+    }
+  },
+  "Q4558": {
+    "t": "A line of lone white volcanoes above dark forest",
+    "s": "The Cascades are easy to spot: a chain of big, isolated snow cones — Baker, Rainier, Adams, Hood, Shasta — standing high above the forest from British Columbia to northern California. Between them, the range is dark green on its rainy western side and brown and dry on the east. In the north, the jagged North Cascades hold hundreds of glaciers.",
+    "w": "Solitary white volcanic cones in a north–south line far above the forest; green western slopes, dry brown eastern ones.",
+    "f": [
+      "Mount Rainier, 4,392 m, carries more glacier ice than any other peak in the contiguous United States.",
+      "Crater Lake in Oregon fills the collapsed top of a Cascade volcano and is the deepest lake in the US, about 590 m.",
+      "The range is named after the cascades of the Columbia River, where it cuts through the mountains."
+    ],
+    "q": {
+      "q": "Which lake fills the collapsed top of a Cascade volcano?",
+      "a": "Crater Lake",
+      "x": [
+        "Lake Tahoe",
+        "Lake Chelan"
+      ]
+    }
+  },
+  "Q156684": {
+    "t": "Home of Denali, North America’s giant",
+    "s": "Even from cruise height Denali looks enormous: at 6,190 m it is North America’s highest peak, and it rises from lowlands only a few hundred metres above sea level, so its full bulk is on show. Around it the Alaska Range curves some 650 km across southern Alaska, a white wall of ice and rock above spruce forest and tundra.",
+    "w": "One massive white peak towering above all the others, with long glaciers streaming from a curved wall of snowy summits.",
+    "f": [
+      "From base to summit Denali rises about 5,500 m — more than Everest does above the Tibetan Plateau.",
+      "The Kahiltna Glacier, the climbers’ route to Denali, is about 70 km long.",
+      "The mountain has two names in use: Denali and Mount McKinley."
+    ],
+    "q": {
+      "q": "How high is Denali, North America’s highest peak?",
+      "a": "6,190 m",
+      "x": [
+        "5,642 m",
+        "6,961 m"
+      ]
+    }
+  },
+  "Q40556": {
+    "t": "Africa’s sharp eastern tip, jutting into the ocean",
+    "s": "On the map it is exactly what its name says: a horn thrust out into the sea. The Horn of Africa juts east between the Gulf of Aden and the Indian Ocean — a dry land of red-brown plains, thorny scrub and long, straight beaches. From above it is mostly ochre, crossed by the green threads of the Shabelle and Juba rivers.",
+    "w": "Ochre and red-brown plains with sparse scrub, a long sandy coastline, and thin green ribbons along the rivers.",
+    "f": [
+      "Ras Hafun in Somalia is the easternmost point of mainland Africa.",
+      "Somalia has the longest coastline of any country on the African mainland, over 3,000 km.",
+      "Frankincense and myrrh, prized in the ancient world, come from trees that grow wild on the Horn’s dry hills."
+    ],
+    "q": {
+      "q": "Which is the easternmost point of mainland Africa?",
+      "a": "Ras Hafun",
+      "x": [
+        "Cape Agulhas",
+        "Ras ben Sakka"
+      ]
+    }
+  },
+  "Q23522": {
+    "t": "A knot of mountains wrapped in blue seas",
+    "s": "Look down and you’ll see why travel here was always slow: the Balkan Peninsula is a jumble of mountain ranges, deep valleys and high basins, with the Adriatic on one side and the Aegean and Black Sea on the other. The main north–south routes follow the valleys of the Morava and the Vardar. The peninsula takes its name from the Balkan Mountains in Bulgaria.",
+    "w": "Tightly packed green and grey ridges, small basins with towns and fields, and deep river valleys running north–south.",
+    "f": [
+      "The word “Balkan” is usually traced to a Turkish term for a chain of wooded mountains.",
+      "Musala in Bulgaria, 2,925 m, is the highest peak of the peninsula, just ahead of Mount Olympus.",
+      "Lake Ohrid is one of the oldest lakes in Europe, more than a million years old."
+    ],
+    "q": {
+      "q": "Which is the highest peak of the Balkan Peninsula?",
+      "a": "Musala",
+      "x": [
+        "Mount Olympus",
+        "Triglav"
+      ]
+    }
+  },
+  "Q1359850": {
+    "t": "Kazakhstan’s “Hungry Steppe”, flat to every horizon",
+    "s": "Between the Chu River and Lake Balkhash lies a clay-and-gravel plateau so empty that it is also known as the Northern Hungry Steppe. From above it is a vast, flat sheet of grey-beige, crossed by faint tracks and dotted with white salt pans. Only in spring, for a few short weeks, does a green tinge spread across it.",
+    "w": "A featureless grey-beige plain with white salt pans; Lake Balkhash to the north-east, the Chu River’s green thread to the south-west.",
+    "f": [
+      "Betpak-Dala is home to one of Kazakhstan’s main herds of saiga, the antelope with a trunk-like nose.",
+      "The desert covers about 75,000 km²."
+    ],
+    "q": {
+      "q": "Which animal with a trunk-like nose roams Betpak-Dala?",
+      "a": "The saiga",
+      "x": [
+        "The goitered gazelle",
+        "The kulan"
+      ]
+    }
+  },
+  "Q169132": {
+    "t": "The Land of Five Rivers, a patchwork of fields",
+    "s": "Punjab means “five waters” in Persian, after the five rivers — the Jhelum, Chenab, Ravi, Beas and Sutlej — that cross this flat plain to join the Indus. From above it is one of the most intensely farmed landscapes on Earth: a fine patchwork of wheat and rice fields laced with a dense grid of irrigation canals. At night, towns and villages sparkle everywhere.",
+    "w": "A flat, finely divided patchwork of green and gold fields, straight canals and wide, braided riverbeds.",
+    "f": [
+      "The Indus basin irrigation network, fed by Punjab’s rivers, is one of the largest in the world.",
+      "Lahore, on the Ravi, is famous for its Mughal fort and Shalimar Gardens, both listed by UNESCO.",
+      "Punjab is often called the breadbasket of the subcontinent."
+    ],
+    "q": {
+      "q": "What does the name Punjab mean?",
+      "a": "Five waters",
+      "x": [
+        "Green land",
+        "Great plain"
+      ]
+    }
+  },
+  "Q229269": {
+    "t": "The Empty Quarter: the largest sand sea on Earth",
+    "s": "Nothing but sand for hundreds of kilometres: the Rub’ al Khali, the Empty Quarter, is the largest continuous sand desert in the world, about 650,000 km². From above, look for giant dunes lined up like waves, some over 200 m high, with pale salt flats in the hollows between them. Its colours shift from yellow to deep orange-red.",
+    "w": "Endless rows of orange dunes like frozen waves, with white or grey salt flats in the corridors between them.",
+    "f": [
+      "In 1930–31 Bertram Thomas made the first recorded crossing by a Westerner, travelling by camel.",
+      "Wilfred Thesiger crossed it twice in the 1940s and described it in his classic book “Arabian Sands”.",
+      "The Rub’ al Khali is larger than France."
+    ],
+    "q": {
+      "q": "What does the name “Rub’ al Khali” mean?",
+      "a": "The Empty Quarter",
+      "x": [
+        "The Red Sands",
+        "The Great Sea"
+      ]
+    }
+  },
+  "Q375816": {
+    "t": "Brazil’s “white forest” that turns green in days",
+    "s": "In the dry season the Caatinga looks grey and lifeless from above: thorny scrub that has dropped every leaf, dotted with cacti. Its name comes from the Tupi for “white forest”. But when the rains arrive, the whole landscape flushes green within days. This semi-arid land of north-eastern Brazil exists nowhere else on Earth.",
+    "w": "Grey-brown scrubland in the dry season, bright green after rain, with reservoirs shining like scattered mirrors.",
+    "f": [
+      "The Caatinga is the only major biome that lies entirely within Brazil.",
+      "The mandacaru, a tall columnar cactus, is a symbol of this dry back country, the sertão.",
+      "Serra da Capivara, in the Caatinga, has one of the largest concentrations of prehistoric rock art in the Americas."
+    ],
+    "q": {
+      "q": "What does the Tupi name “Caatinga” mean?",
+      "a": "White forest",
+      "x": [
+        "Dry land",
+        "Thorny field"
+      ]
+    }
+  },
+  "Q47700": {
+    "t": "Rust-red sand beneath a sea of grass and thorn",
+    "s": "The Kalahari is not the bare dune field you might imagine: its deep red sand is held down by grass and thorn trees, so from above it looks like rust-coloured ground brushed with pale green. Long parallel dunes run for kilometres, lined up by the wind. Far to the north, the same sand swallows the Okavango River, which never reaches the sea.",
+    "w": "Red-brown ground speckled with grey-green scrub, long straight dune ridges and white pans of dry salt lakes.",
+    "f": [
+      "The Okavango Delta, where a river vanishes into the Kalahari sand, is a UNESCO World Heritage Site.",
+      "The sand’s red colour comes from a thin coating of iron oxide on each grain.",
+      "The San people have lived in the Kalahari for many thousands of years."
+    ],
+    "q": {
+      "q": "Which river ends in the Kalahari without reaching the sea?",
+      "a": "The Okavango",
+      "x": [
+        "The Zambezi",
+        "The Orange"
+      ]
+    }
+  },
+  "Q2913098": {
+    "t": "Dark peaks stranded in a white ocean of ice",
+    "s": "Here the Transantarctic Mountains fray into their last, lonely ranges: dark summits and ridges sticking out of an endless white sheet, near the inner edge of the Filchner–Ronne Ice Shelf. The Pensacola Mountains stretch some 450 km. They were discovered only in 1956, spotted from a US Navy aircraft.",
+    "w": "Scattered dark rock ridges and peaks poking through flat, endless white ice.",
+    "f": [
+      "The mountains are named after the US Naval Air Station at Pensacola, Florida.",
+      "The Dufek Massif in this group is one of the largest layered igneous intrusions on Earth."
+    ],
+    "q": {
+      "q": "What are the Pensacola Mountains named after?",
+      "a": "A US Navy air station",
+      "x": [
+        "A Spanish explorer",
+        "A whaling ship"
+      ]
+    }
+  },
+  "Q1139110": {
+    "t": "The roof of Antarctica, crowned by Mount Vinson",
+    "s": "The highest mountains of the coldest continent rise here as a sharp, dark crest above the West Antarctic ice. Their Sentinel Range holds Mount Vinson, Antarctica’s highest peak at 4,892 m, and a string of other summits over 4,000 m. From above, the black rock faces and long glaciers stand out sharply against the white.",
+    "w": "A sharp north–south line of dark peaks and ridges above flat white ice, with long glaciers streaming off both sides.",
+    "f": [
+      "Lincoln Ellsworth discovered the range in 1935, during the first flight across Antarctica.",
+      "Climbers reach Vinson via a seasonal camp on the Union Glacier, where planes land on bare blue ice."
+    ],
+    "q": {
+      "q": "Which is the highest peak in Antarctica?",
+      "a": "Mount Vinson",
+      "x": [
+        "Mount Erebus",
+        "Mount Kirkpatrick"
+      ]
+    }
+  },
+  "Q1796029": {
+    "t": "Amundsen’s stairway to the South Pole",
+    "s": "In November 1911 Roald Amundsen and his team climbed through these mountains with their dog sledges, up the steep Axel Heiberg Glacier to the polar plateau. From here the South Pole lies only about 400 km away. From above, the Queen Maud Mountains are a jumble of dark peaks and broad glaciers pouring down to the flat Ross Ice Shelf.",
+    "w": "Dark, rugged peaks between wide glaciers that flow north onto the smooth white Ross Ice Shelf.",
+    "f": [
+      "Amundsen named the range after Queen Maud of Norway.",
+      "The Axel Heiberg Glacier is named after a Norwegian brewer who helped pay for Amundsen’s expeditions.",
+      "Amundsen’s team reached the South Pole on 14 December 1911."
+    ],
+    "q": {
+      "q": "Which glacier did Amundsen climb through these mountains?",
+      "a": "The Axel Heiberg Glacier",
+      "x": [
+        "The Beardmore Glacier",
+        "The Scott Glacier"
+      ]
+    }
+  },
+  "Q842139": {
+    "t": "A misty green spine that hid an unknown animal",
+    "s": "Cloud often clings to this long green spine between the Mekong valley and the coast of Vietnam. The Annamites run some 1,100 km along the border of Laos and Vietnam, their steep forested ridges so remote that in 1992 scientists discovered a large mammal entirely new to science: the saola, a shy forest ox with long, straight horns.",
+    "w": "Steep, forest-green ridges, often capped with cloud, separating the hills of Laos from Vietnam’s narrow coastal plain.",
+    "f": [
+      "In Vietnamese the range is called Truong Son, “the long mountains”.",
+      "Son Doong cave, in Vietnam’s Phong Nha–Ke Bang park in these mountains, has the largest known cave passage in the world."
+    ],
+    "q": {
+      "q": "Which large mammal was discovered in the Annamites in 1992?",
+      "a": "The saola",
+      "x": [
+        "The kouprey",
+        "The gaur"
+      ]
+    }
+  },
+  "ne-rg-1730074073": {
+    "t": "An ocean of green threaded with brown rivers",
+    "s": "Below you the Amazon rainforest — the selva — rolls to every horizon, a green so continuous it looks like moss. The only breaks are rivers: wide, coffee-coloured and looping back on themselves, leaving crescent-shaped lakes where old bends were cut off. In the afternoon, towering rain clouds bubble up over the canopy.",
+    "w": "Unbroken green canopy, brown rivers in huge loops and crescent-shaped oxbow lakes; in the afternoon, storm towers above.",
+    "f": [
+      "Iquitos, in the Peruvian selva, is often called the largest city in the world that cannot be reached by road.",
+      "Upstream of Iquitos, the Marañón and Ucayali rivers join to form the Amazon.",
+      "In Spanish, selva simply means “forest” or “jungle”."
+    ],
+    "q": {
+      "q": "Which two rivers join in Peru to form the Amazon?",
+      "a": "The Marañón and the Ucayali",
+      "x": [
+        "The Napo and the Putumayo",
+        "The Madeira and the Negro"
+      ]
+    }
+  },
+  "Q748435": {
+    "t": "Genghis Khan’s sacred mountains, birthplace of rivers",
+    "s": "Here the Siberian taiga reaches south into Mongolia: dark larch forest on the slopes, open grassy valleys below. The Khentii are the heartland of the Mongols — Burkhan Khaldun, the mountain Genghis Khan is said to have worshipped, rises among them. Three great rivers, the Onon, Kherlen and Tuul, begin in these hills.",
+    "w": "Dark forested ridges with open, grassy valleys; Ulaanbaatar spreads along the Tuul at the south-western edge.",
+    "f": [
+      "The Great Burkhan Khaldun Mountain was listed by UNESCO in 2015 as a sacred landscape.",
+      "The Kherlen flows east into Lake Hulun in China, while the Onon becomes part of the Amur system."
+    ],
+    "q": {
+      "q": "Which sacred Khentii mountain is linked to Genghis Khan?",
+      "a": "Burkhan Khaldun",
+      "x": [
+        "Otgontenger",
+        "Khüiten Peak"
+      ]
+    }
+  },
+  "Q22449163": {
+    "t": "Remote northern ranges famous for green jade",
+    "s": "Rounded grey peaks, dark spruce valleys and hardly a light at night: the Cassiar Mountains straddle the border of northern British Columbia and Yukon. Their rocks hold rich deposits of nephrite jade, making this one of the world’s main sources of the green stone. Few roads cross them; the Stewart–Cassiar Highway winds past the hamlet of Jade City.",
+    "w": "Rounded grey-green peaks, broad forested valleys and scattered lakes, with no towns in sight.",
+    "f": [
+      "Jade City, a tiny settlement on the Stewart–Cassiar Highway, sells nephrite mined in these mountains.",
+      "The Cassiar gold rush of the 1870s first drew miners into these remote valleys."
+    ],
+    "q": {
+      "q": "Which green stone is mined in the Cassiar Mountains?",
+      "a": "Nephrite jade",
+      "x": [
+        "Malachite",
+        "Emerald"
+      ]
+    }
+  },
+  "Q1774690": {
+    "t": "Kenya’s only true desert, a salt-white ancient lakebed",
+    "s": "East of Lake Turkana the land flattens into a pale, almost white expanse: the Chalbi, often called Kenya’s only true desert. It is the floor of an ancient lake, and after rare rains it floods into a shallow sheet of water before drying back to a cracked, salty crust. Gabbra herders bring their camels to the few oases on its edge.",
+    "w": "A flat, pale grey-white basin east of jade-green Lake Turkana, with the forested hump of Mount Marsabit to the south-east.",
+    "f": [
+      "Lake Turkana, just to the west, is the largest permanent desert lake in the world.",
+      "The Chalbi is so flat and bare that heat mirages often make it look like a lake even when it is dry."
+    ],
+    "q": {
+      "q": "Which big lake lies just west of the Chalbi Desert?",
+      "a": "Lake Turkana",
+      "x": [
+        "Lake Naivasha",
+        "Lake Victoria"
+      ]
+    }
   }
 }

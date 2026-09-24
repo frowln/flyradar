@@ -1,7 +1,9 @@
-import type { Flight, OfflinePackage, POI, SeatInfo } from '@skyatlas/shared';
+import type { Flight, FlightTrack, OfflinePackage, POI, SeatInfo } from '@skyatlas/shared';
 import type { DataAirport, DataPlace, DataCountry, MultiPolygon } from '../data/types';
 import { toAirport } from '../data/airports';
 import { buildRoute, airborneFromSchedule } from '../route/profile';
+import { routeFromTrack } from '../route/track';
+import { fetchCloudsFor, type FetchClouds } from '../flight/clouds';
 import { closedCountries, planAround } from '../route/airspace';
 import { selectSightings, sightingsAlong, toPOI } from '../places/corridor';
 import { countriesAlong } from '../places/countries';
@@ -40,6 +42,12 @@ export interface BuildRequest {
   flightNumber?: string;
   seat?: SeatInfo;
   locale: string;
+  /**
+   * The path this flight number flew recently (`fetchTrack`). Used instead of
+   * the modelled route when it starts and ends at these airports. `null` means
+   * "asked, there is none" — `buildFlightPackage` then does not ask again.
+   */
+  track?: FlightTrack | null;
 }
 
 export interface BuildData {
@@ -96,7 +104,10 @@ export function composePackage(req: BuildRequest, data: BuildData): OfflinePacka
     if (block < 30 * 3600) airborne = airborneFromSchedule(block, distanceKm);
   }
 
-  const built = buildRoute({ from: req.from, to: req.to, via: detour.via, airborneSeconds: airborne });
+  // A real track from this week beats any model, provided it is this trip;
+  // `routeFromTrack` refuses one that does not end at these airports.
+  const tracked = req.track ? routeFromTrack(req.track, { from: req.from, to: req.to, airborneSeconds: airborne }) : null;
+  const built = tracked ?? buildRoute({ from: req.from, to: req.to, via: detour.via, airborneSeconds: airborne });
   const sightings = sightingsAlong(built.route, data.places, data.areas);
   const pinned = [nearestCity(data.places, req.from), nearestCity(data.places, req.to)]
     .filter((p): p is DataPlace => !!p)
@@ -141,7 +152,8 @@ export function composePackage(req: BuildRequest, data: BuildData): OfflinePacka
     moments,
     seat: req.seat,
     locale: req.locale,
-    routeKind: detour.approximate ? 'approximate' : detour.via.length ? 'detour' : 'direct'
+    routeKind: tracked ? 'track' : detour.approximate ? 'approximate' : detour.via.length ? 'detour' : 'direct',
+    ...(tracked && req.track?.flownOn ? { trackFlownOn: req.track.flownOn } : {})
   };
 }
 
@@ -152,6 +164,27 @@ export interface BuildDeps {
   save: (pkg: OfflinePackage) => Promise<void>;
   downloadMap?: (pkg: OfflinePackage, onProgress: (p: number) => void) => Promise<void>;
   online?: () => boolean;
+  /** Last week's track for the flight number, when a server is configured. */
+  fetchTrack?: (flightNumber: string) => Promise<FlightTrack | null>;
+  /** Cloud forecast along the route, when a server is configured. */
+  fetchClouds?: FetchClouds;
+  now?: () => Date;
+}
+
+/** How long preparation waits for a track before settling for the model. */
+const TRACK_WAIT_MS = 6_000;
+
+/** The request with its track, when one can be had quickly. */
+async function withTrack(req: BuildRequest, deps: BuildDeps): Promise<BuildRequest> {
+  if (req.track !== undefined || !req.flightNumber || !deps.fetchTrack) return req;
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const late = new Promise<null>((resolve) => (timer = setTimeout(() => resolve(null), TRACK_WAIT_MS)));
+  try {
+    const track = await Promise.race([deps.fetchTrack(req.flightNumber).catch(() => null), late]);
+    return { ...req, track };
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 /**
@@ -169,9 +202,14 @@ export async function buildFlightPackage(
   onProgress?.({ stage: 'route', progress: 0 });
   // Yield once so the screen can paint before the synchronous work.
   await new Promise((r) => setTimeout(r, 16));
-  let pkg = composePackage(req, deps.data());
+  const request = await withTrack(req, deps);
+  let pkg = composePackage(request, deps.data());
   onProgress?.({ stage: 'places', progress: 1 });
   await deps.save(pkg);
+
+  // One small request, run alongside the stories rather than after them.
+  const now = deps.now?.() ?? new Date();
+  const clouds = deps.fetchClouds ? fetchCloudsFor(pkg, deps.fetchClouds, now) : Promise.resolve(null);
 
   try {
     onProgress?.({ stage: 'stories', progress: 0 });
@@ -183,6 +221,12 @@ export async function buildFlightPackage(
     await deps.save(pkg);
   } catch (e) {
     console.warn('[build] stories unavailable', e);
+  }
+
+  const samples = await clouds;
+  if (samples) {
+    pkg = { ...pkg, clouds: samples, cloudsAt: now.toISOString() };
+    await deps.save(pkg);
   }
 
   if (deps.cachePhotos) {

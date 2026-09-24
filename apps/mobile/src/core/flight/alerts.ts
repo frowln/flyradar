@@ -7,13 +7,15 @@ import { km } from '../units';
 import { t, getLocale } from '../../i18n';
 import { settings } from '../settings';
 import type { LocalAlert } from '../ux/notifications';
+import { groundHidden } from './clouds';
 
 /**
  * What the phone will say at cruise, decided at takeoff.
  *
  * Alerts fire a few minutes before the moment, so there is time to lift a
- * blind. Sights are only announced in daylight and, when the seat is known,
- * only on the passenger's side.
+ * blind. Sights are only announced in daylight, not under a forecast low
+ * overcast (borders, lines and the sun still are — they need no view of the
+ * ground), and, when the seat is known, only on the passenger's side.
  */
 
 const LEAD_S = 4 * 60;
@@ -73,7 +75,9 @@ export function alertFor(m: Moment, pkg: OfflinePackage, takeoff: Date, multipli
 export function alertsForFlight(pkg: OfflinePackage, takeoff: Date, multiplier = 1): LocalAlert[] {
   const level = settings.getAlerts();
   if (level === 'off') return [];
-  const moments = computeMoments({ route: pkg.route, pois: pkg.pois, countries: pkg.countries, takeoff });
+  const moments = computeMoments({ route: pkg.route, pois: pkg.pois, countries: pkg.countries, takeoff }).filter(
+    (m) => !(m.kind === 'sight' && groundHidden(pkg, m.at))
+  );
   const picked = pickAlerts(moments, {
     max: level === 'more' ? 6 : 3,
     minGapS: level === 'more' ? 10 * 60 : 15 * 60,

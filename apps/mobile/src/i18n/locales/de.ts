@@ -167,6 +167,7 @@ export const de = {
     takeoffNow: 'Gerade eben',
     takeoffAgo: 'Vor %{m} Minuten',
     takeoffScheduled: 'Laut Flugplan',
+    routeTrack: 'Route, wie dieser Flug am %{date} tatsächlich flog',
   },
   advice: {
     label: 'Fensterplatz',
@@ -180,6 +181,9 @@ export const de = {
     night: 'Nachtflug',
     yourSeat: 'Ihr Platz %{seat} ist %{side}',
     yourSeatNoWindow: 'Ihr Platz %{seat} ist kein Fensterplatz',
+    cloudyMost: 'Prognose: rund %{pct} % der Strecke bewölkt',
+    cloudySome: 'Prognose: teils bewölkt, etwa %{pct} % der Strecke',
+    clear: 'Prognose: entlang der Strecke meist klar',
   },
   addFlight: {
     title: 'neuer Flug',
@@ -223,6 +227,13 @@ export const de = {
     stage_photos: 'Fotos',
     stage_map: 'Offline-Karte',
     continueBackground: 'im Hintergrund fortsetzen',
+    byNumber: 'per Flugnummer finden',
+    byNumberHint: 'Nummer und Datum genügen – Flughäfen und Zeiten werden ergänzt.',
+    find: 'Finden',
+    orManual: '…oder die Flughäfen selbst eingeben:',
+    found: '%{from} – %{to}, Abflug %{time}',
+    notFound: 'Diesen Flug gibt es an diesem Datum nicht – bitte von Hand eingeben.',
+    numberInvalid: 'Das sieht nicht wie eine Flugnummer aus.',
   },
   guess: {
     label: 'Ratespiel',
@@ -263,6 +274,7 @@ export const de = {
     finish: 'Flug beenden',
     finishTitle: 'Flug jetzt beenden?',
     finishBody: 'Nur was Sie bereits überflogen haben, kommt in Ihren Pass.',
+    cloudsBelow: 'Unten sind Wolken angesagt – achten Sie auf Lücken.',
   },
   facts: {
     title: 'von oben',
