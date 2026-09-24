@@ -1,0 +1,360 @@
+{
+  "Q1286": {
+    "t": "Una media luna blanca en el corazón de Europa",
+    "s": "Desde la altitud de crucero, los Alpes parecen papel blanco arrugado tendido sobre Europa: crestas afiladas, valles oscuros y glaciares vertidos en los huecos. El arco se extiende unos 1200 km, desde el Mediterráneo cerca de Niza hasta casi Viena. Incluso el Mont Blanc, la cumbre más alta, con unos 4800 m, queda unos seis kilómetros por debajo de ti.",
+    "w": "Crestas blancas rotas por valles profundos, con lagos alargados como el de Garda, el de Como o el Lemán a sus pies.",
+    "f": [
+      "El glaciar Aletsch, en Suiza, es el más largo de los Alpes: unos 20 km de hielo.",
+      "En los Alpes viven unos 14 millones de personas.",
+      "El túnel de base del San Gotardo, inaugurado en 2016, recorre 57 km bajo los Alpes: es el túnel ferroviario más largo del mundo."
+    ],
+    "q": {
+      "q": "¿Cuál es el glaciar más largo de los Alpes?",
+      "a": "El glaciar Aletsch",
+      "x": [
+        "El Mer de Glace",
+        "El Pasterze"
+      ]
+    }
+  },
+  "Q5451": {
+    "t": "La muralla más alta de la Tierra, casi a tu altitud",
+    "s": "Ninguna otra montaña se acerca tanto a tu ala. El Himalaya se eleva desde las verdes llanuras de la India por escalones: colinas, crestas boscosas y, al final, una muralla blanca. El Everest, con 8849 m, llega a unos dos kilómetros de la altitud de crucero. La cordillera sigue creciendo porque la India no deja de empujar hacia el norte contra Asia.",
+    "w": "Una muralla blanca de picos entre las verdes llanuras de la India y la meseta tibetana, alta y parda.",
+    "f": [
+      "Himalaya significa «morada de la nieve» en sánscrito.",
+      "Diez de los catorce picos del mundo de más de 8000 m están en el Himalaya; los otros cuatro, en el Karakórum.",
+      "Cerca de la cima del Everest hay fósiles marinos: sus capas superiores son caliza depositada en el fondo de un mar antiguo."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre sánscrito «Himalaya»?",
+      "a": "Morada de la nieve",
+      "x": [
+        "Techo del mundo",
+        "Montaña de los dioses"
+      ]
+    }
+  },
+  "Q5456": {
+    "t": "Una columna de 7000 km a lo largo de toda Sudamérica",
+    "s": "Con siete mil kilómetros de largo, los Andes cambian de carácter a medida que vuelas sobre ellos: glaciares y fiordos en la Patagonia, una muralla de nieve sobre Santiago y, en Bolivia, una alta meseta, el Altiplano, donde el salar de Uyuni parece una hoja de papel blanco. Ninguna cordillera de ningún continente es más larga.",
+    "w": "Picos nevados y conos volcánicos a un lado, desierto o selva al otro; en Bolivia, salares de un blanco deslumbrante.",
+    "f": [
+      "El Aconcagua, con 6961 m, es la montaña más alta fuera de Asia.",
+      "El salar de Uyuni es tan llano que se usa para calibrar los altímetros de los satélites.",
+      "La Paz, en los Andes bolivianos a unos 3600 m, es la sede de gobierno más alta del mundo."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto de los Andes?",
+      "a": "Aconcagua",
+      "x": [
+        "Chimborazo",
+        "Huascarán"
+      ]
+    }
+  },
+  "Q5463": {
+    "t": "Donde los ríos de Norteamérica eligen su océano",
+    "s": "En algún punto de estas crestas corre la divisoria continental: la lluvia que cae a un lado va al Pacífico; la del otro, al Atlántico o al Ártico. Desde el aire, las Rocosas son cordillera tras cordillera de picos gris pardo, oscuros de pinares y veteados de nieve hasta bien entrado el verano. Se extienden unos 4800 km, desde el norte de la Columbia Británica hasta Nuevo México.",
+    "w": "Crestas paralelas de roca gris y bosque oscuro, neveros en las cumbres y cuencas llanas de artemisa entre las cordilleras.",
+    "f": [
+      "El monte Elbert, en Colorado, con 4401 m, es el pico más alto de las Rocosas.",
+      "Yellowstone, en las Rocosas de Wyoming, reúne cerca de la mitad de los géiseres activos del mundo.",
+      "Para ser montañas, las Rocosas son jóvenes: su principal levantamiento empezó hace unos 80 millones de años."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto de las Montañas Rocosas?",
+      "a": "Monte Elbert",
+      "x": [
+        "Pikes Peak",
+        "Longs Peak"
+      ]
+    }
+  },
+  "Q42070": {
+    "t": "Pedregoso, frío y vasto: desierto de huevos de dinosaurio",
+    "s": "Espera beige, gris y óxido más que dunas doradas: casi todo el Gobi es roca desnuda y grava, surcada de cauces secos. Es un desierto frío, alto sobre una meseta entre Mongolia y el norte de China, con inviernos que pueden bajar de −30 °C. Hay mares de arena, en manchas, y desde arriba destacan como ondulaciones doradas en el gris.",
+    "w": "Llanuras de grava gris parda con cauces secos, manchas de dunas doradas y salinas blancas.",
+    "f": [
+      "En 1923, unos exploradores hallaron en los Acantilados Llameantes del Gobi nidos con los primeros huevos reconocidos como de dinosaurio.",
+      "En Badain Jaran, en el Gobi chino, las dunas alcanzan unos 500 m, con pequeños lagos entre ellas.",
+      "En el Gobi sobreviven camellos bactrianos salvajes: son una especie aparte, no camellos domésticos escapados."
+    ],
+    "q": {
+      "q": "¿Qué cubre la mayor parte de la superficie del Gobi?",
+      "a": "Roca desnuda y grava",
+      "x": [
+        "Dunas de arena",
+        "Marismas saladas"
+      ]
+    }
+  },
+  "Q6583": {
+    "t": "Casi del tamaño de EE. UU., y un día fue verde",
+    "s": "Puedes volar durante horas y seguir sobre el Sahara. Con unos 9 millones de km² es el mayor desierto cálido de la Tierra, pintado en todos los tonos, del blanco de la sal al negro del basalto y el naranja de la arena. Las dunas cubren solo una parte; el resto son mesetas pedregosas, llanuras de grava y oscuras montañas volcánicas.",
+    "w": "Suelo ocre y naranja sin fin: busca campos de dunas ondulados, macizos volcánicos oscuros y lechos de lagos secos pálidos.",
+    "f": [
+      "Hasta hace unos 5000 años, gran parte del Sahara era sabana con lagos; las pinturas rupestres muestran jirafas y vacas.",
+      "El polvo sahariano que el viento lleva a través del Atlántico ayuda a fertilizar la selva amazónica.",
+      "«Sahara» viene de la palabra árabe para «desierto», así que «desierto del Sahara» dice lo mismo dos veces."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre «Sahara» en árabe?",
+      "a": "Desierto",
+      "x": [
+        "Arena",
+        "Sol"
+      ]
+    }
+  },
+  "Q5474": {
+    "t": "Montañas Celestiales en torno a un lago que no se hiela",
+    "s": "Tian Shan significa «Montañas Celestiales» en chino, y desde arriba el nombre encaja: cordilleras nevadas ondulan unos 2500 km por Asia Central. En su corazón kirguís está el Issyk-Kul, un lago de un azul intenso de unos 180 km de largo, a 1600 m de altitud. Pese a la altura y a los duros inviernos, nunca se congela: su agua es ligeramente salada.",
+    "w": "Hileras de crestas nevadas de este a oeste; al norte, el largo óvalo azul del Issyk-Kul.",
+    "f": [
+      "El Jengish Chokusu, también llamado pico de la Victoria, es la cima más alta del Tian Shan, con 7439 m.",
+      "El Issyk-Kul es uno de los lagos más profundos del mundo: llega a unos 670 m.",
+      "El Khan Tengri brilla rojo rosado al atardecer porque la pirámide de su cumbre es de mármol."
+    ],
+    "q": {
+      "q": "¿Qué lago del Tian Shan nunca se congela pese a su altitud?",
+      "a": "Issyk-Kul",
+      "x": [
+        "Song-Kul",
+        "Baljash"
+      ]
+    }
+  },
+  "Q35600": {
+    "t": "Una cresta modesta que separa dos continentes",
+    "s": "No esperes picos: los Urales son tan viejos y están tan desgastados que, desde la altitud de crucero, parecen arrugas bajas y boscosas. Pero esta línea, que corre unos 2500 km desde el Ártico hasta las estepas de Kazajistán, es donde tradicionalmente termina Europa y empieza Asia. Cerca de Ekaterimburgo son tan bajos que el Transiberiano los cruza casi sin notarlo.",
+    "w": "Una franja de taiga oscura y crestas bajas de norte a sur; al este de Ekaterimburgo y Cheliábinsk, un reguero de lagos.",
+    "f": [
+      "Los Urales se alzaron hace unos 300 millones de años, cuando chocaron Europa y Siberia, mucho antes de que existieran los Alpes.",
+      "El pico más alto, el Naródnaya, solo alcanza 1895 m.",
+      "Las columnas de malaquita de la catedral de San Isaac, en San Petersburgo, están revestidas con piedra de los Urales."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto de los Urales?",
+      "a": "Naródnaya",
+      "x": [
+        "Yamantau",
+        "Manaraga"
+      ]
+    }
+  },
+  "Q5477": {
+    "t": "Una muralla nevada entre el mar Negro y el Caspio",
+    "s": "Entre dos mares se alza una sola barrera de aristas afiladas: el Gran Cáucaso recorre unos 1200 km del mar Negro al Caspio, con una cresta blanca a lo largo de su espina. Al este, sobre Daguestán, se rompe en un laberinto de cañones profundos y mesetas altas. El Elbrus, un volcán dormido de dos cimas, suele considerarse el pico más alto de Europa, con 5642 m.",
+    "w": "Una línea continua de picos nevados que corre de noroeste a sureste entre dos mares.",
+    "f": [
+      "Daguestán significa «tierra de montañas», y en sus valles se hablan más de 30 lenguas.",
+      "Las dos cimas del Elbrus están a unos 1,5 km una de otra y solo difieren en unos 20 m de altura.",
+      "El Kazbek, de 5054 m, también es un viejo volcán; su cono blanco se alza sobre el desfiladero de Darial."
+    ],
+    "q": {
+      "q": "¿Qué pico suele considerarse el más alto de Europa?",
+      "a": "Elbrus",
+      "x": [
+        "Mont Blanc",
+        "Kazbek"
+      ]
+    }
+  },
+  "Q60140": {
+    "t": "Un antiguo continente isla que chocó contra Asia",
+    "s": "La tierra que tienes debajo fue un continente isla. Hace decenas de millones de años derivó hacia el norte por el océano y embistió contra Asia, arrugando la corteza en el Himalaya, y aún sigue empujando unos centímetros al año. Desde arriba, busca la llana llanura del Ganges al norte y la vieja y gastada meseta del Decán al sur.",
+    "w": "Llanuras muy cultivadas al norte; mesetas pardas, ríos y embalses más al sur; de noche, incontables racimos de luces.",
+    "f": [
+      "La placa India sigue moviéndose hacia el norte unos 5 cm al año.",
+      "Los traps del Decán, capas de lava de hasta 2 km de espesor, se derramaron hace unos 66 millones de años.",
+      "Cerca de una cuarta parte de la humanidad vive en el subcontinente."
+    ],
+    "q": {
+      "q": "¿Qué montañas se alzaron cuando la India chocó con Asia?",
+      "a": "El Himalaya",
+      "x": [
+        "Los Urales",
+        "Los Zagros"
+      ]
+    }
+  },
+  "Q31945": {
+    "t": "La mayor península del mundo, inclinada hacia el Golfo",
+    "s": "Vista desde arriba, Arabia es una losa gigante inclinada: las montañas se alzan junto al mar Rojo, al oeste, y el terreno baja suavemente al este hasta el Golfo. Entre medias hay llanuras de grava, campos de lava negra y las dunas del Rub al-Jali, el Cuarto Vacío. Arabia Saudí, que ocupa casi toda la península, no tiene ni un solo río permanente.",
+    "w": "Llanuras beige y mares de dunas naranjas, crestas montañosas oscuras junto al mar Rojo y campos de lava negra tierra adentro.",
+    "f": [
+      "Con más de 3 millones de km², Arabia es la mayor península de la Tierra.",
+      "Arabia se separa lentamente de África: el mar Rojo se ensancha cerca de un centímetro al año.",
+      "El Cuarto Vacío, en su sur, es el mayor desierto de arena continuo de la Tierra."
+    ],
+    "q": {
+      "q": "¿Cuál es la península más grande del mundo?",
+      "a": "La península arábiga",
+      "x": [
+        "La península de Indochina",
+        "Escandinavia"
+      ]
+    }
+  },
+  "Q27611": {
+    "t": "Un puente de tierra construido por volcanes",
+    "s": "Dos océanos y una estrecha franja de tierra: en un día claro quizá veas agua a ambos lados del avión. Una cadena de volcanes recorre el lado del Pacífico, muchos de ellos conos casi perfectos, mientras la costa caribeña es baja, verde y pantanosa. Cuando este puente de tierra se cerró, hace unos 3 millones de años, los animales empezaron a cruzar entre las dos Américas.",
+    "w": "Un rosario de conos volcánicos junto a la costa del Pacífico, con lagos como el de Nicaragua o el Atitlán brillando entre ellos.",
+    "f": [
+      "El lago de Nicaragua es el mayor lago de Centroamérica, y en él nadan tiburones toro.",
+      "El Tajumulco, en Guatemala, con 4220 m, es el pico más alto de Centroamérica.",
+      "Solo Guatemala tiene más de 30 volcanes."
+    ],
+    "q": {
+      "q": "¿Qué lago centroamericano alberga tiburones toro?",
+      "a": "Lago de Nicaragua",
+      "x": [
+        "Lago de Atitlán",
+        "Lago de Yojoa"
+      ]
+    }
+  },
+  "Q185605": {
+    "t": "El largo dedo antártico que señala a Sudamérica",
+    "s": "Montañas con casquetes de hielo, glaciares que se derraman al mar y una costa hecha añicos en islas: la península Antártica se estira unos 1300 km hacia el norte, hacia el cabo de Hornos. Es el rincón más templado y visitado del continente, y uno de los lugares que más rápido se calientan de la Tierra. En su lado este, enormes plataformas de hielo flotan sobre el mar de Weddell.",
+    "w": "Picos dentados y nevados a lo largo de una espina estrecha, y glaciares que desembocan en un mar oscuro salpicado de icebergs.",
+    "f": [
+      "En 2002, una parte de la plataforma Larsen mayor que Luxemburgo se desintegró en unas cinco semanas.",
+      "El paso de Drake, entre la península y el cabo de Hornos, mide unos 800 km de ancho.",
+      "La mayoría de los turistas que llegan a la Antártida vienen aquí, en barcos desde Ushuaia."
+    ],
+    "q": {
+      "q": "¿Qué mar está al este de la península Antártica?",
+      "a": "El mar de Weddell",
+      "x": [
+        "El mar de Ross",
+        "El mar de Amundsen"
+      ]
+    }
+  },
+  "Q319671": {
+    "t": "Una muralla de 3500 km que contiene el hielo polar",
+    "s": "Aquí los picos de roca oscura rompen el blanco y señalan una de las cordilleras más largas de la Tierra. Los montes Transantárticos cruzan todo el continente, separan la Antártida Oriental de la Occidental y contienen como una presa la gruesa capa de hielo oriental. Los glaciares se cuelan por los huecos entre las cumbres y bajan hasta la plataforma de hielo de Ross.",
+    "w": "Hileras de picos oscuros de cima plana que asoman entre el hielo, con anchos glaciares que fluyen entre ellos.",
+    "f": [
+      "Tanto Shackleton como Scott llegaron a la meseta polar subiendo por el glaciar Beardmore, de unos 200 km.",
+      "En lo alto del monte Kirkpatrick, en esta cordillera, se hallaron huesos de un dinosaurio con cresta, el Cryolophosaurus.",
+      "Las vetas de carbón y las hojas fósiles de Glossopteris halladas aquí demuestran que la Antártida tuvo bosques."
+    ],
+    "q": {
+      "q": "¿Qué glaciar subieron Shackleton y Scott hasta la meseta polar?",
+      "a": "El glaciar Beardmore",
+      "x": [
+        "El glaciar Axel Heiberg",
+        "El glaciar Lambert"
+      ]
+    }
+  },
+  "Q192583": {
+    "t": "La costura verde de Australia entre la costa y el outback",
+    "s": "Más que una muralla, es un espinazo largo y desgastado: la Gran Cordillera Divisoria recorre unos 3500 km del este de Australia, y desde el aire se nota más el cambio de color que las montañas. Hacia la costa hay bosque verde y valles fluviales; tierra adentro, todo se apaga en llanuras pardas y secas. Sus ríos occidentales se alejan del mar cercano, hacia el Murray-Darling o el corazón seco del continente.",
+    "w": "Crestas verdes y boscosas cerca de la costa este; tierra adentro, campos y matorral que se vuelven llanuras pardas.",
+    "f": [
+      "El monte Kosciuszko, de 2228 m, es su punto más alto y el de toda la Australia continental.",
+      "Las Montañas Azules, cerca de Sídney, forman parte de la cordillera; su bruma azul viene del aceite de eucalipto en el aire."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto de la Gran Cordillera Divisoria?",
+      "a": "Monte Kosciuszko",
+      "x": [
+        "Monte Townsend",
+        "Monte Bogong"
+      ]
+    }
+  },
+  "Q21195": {
+    "t": "Una península que aún se eleva tras la era glacial",
+    "s": "Desde la altitud de crucero, Escandinavia es un mosaico de bosque oscuro e incontables lagos, con montañas en el lado noruego y fiordos profundos que se hunden en la costa atlántica. Toda ella estuvo bajo una capa de hielo de hasta unos 3 km de espesor. Libre de ese peso, la tierra aún rebota: en algunos puntos, casi un centímetro al año.",
+    "w": "Bosque verde oscuro moteado de cientos de lagos; al oeste, montañas nevadas y fiordos como estrechas grietas azules.",
+    "f": [
+      "La Costa Alta de Suecia se ha elevado unos 285 m desde que se fundió el hielo: el mayor rebote de este tipo conocido.",
+      "Solo Suecia tiene cerca de 100 000 lagos.",
+      "En el cabo Norte, el sol de medianoche brilla durante más de dos meses cada verano."
+    ],
+    "q": {
+      "q": "¿Por qué sigue elevándose la tierra en Escandinavia?",
+      "a": "Ya no soporta el hielo glacial",
+      "x": [
+        "Actividad volcánica bajo ella",
+        "Un choque de placas tectónicas"
+      ]
+    }
+  },
+  "Q27617163": {
+    "t": "Entre la India y China, tierra de crestas y ríos",
+    "s": "Su antiguo nombre, Indochina, lo dice todo: la tierra entre la India y China. Desde arriba se lee su estructura: largas crestas que se abren en abanico hacia el sur desde el Himalaya, con grandes ríos en los valles. El Mekong, el Chao Phraya, el Salween y el Irawadi corren más o menos de norte a sur. En la estación seca, el humo de las quemas agrícolas suele velar la vista.",
+    "w": "Crestas verdes paralelas de norte a sur, ríos pardos que serpentean entre ellas y arrozales que brillan en los valles.",
+    "f": [
+      "El río Tonlé Sap, en Camboya, invierte su corriente cada estación de lluvias, y el lago que desagua se multiplica de tamaño.",
+      "El Mekong atraviesa o bordea seis países: China, Myanmar, Laos, Tailandia, Camboya y Vietnam.",
+      "Tailandia y Vietnam están entre los mayores exportadores de arroz del mundo."
+    ],
+    "q": {
+      "q": "¿Qué río invierte su corriente cada estación de lluvias?",
+      "a": "El Tonlé Sap",
+      "x": [
+        "El Chao Phraya",
+        "El Irawadi"
+      ]
+    }
+  },
+  "Q12837": {
+    "t": "Una meseta tostada por el sol en el extremo de Europa",
+    "s": "En el mapa, la península ibérica es casi un cuadrado, y gran parte de su interior es una alta meseta, la Meseta, donde los trigales ocres y los olivares llegan hasta el horizonte. Cordilleras la rodean y la cruzan, y los Pirineos la separan del resto de Europa. En su extremo sur, solo unos 14 km de mar la separan de África.",
+    "w": "Llanuras ocres y verdes rotas por sierras peladas y rocosas, y embalses de formas ramificadas como dedos.",
+    "f": [
+      "Madrid, a unos 650 m, es una de las capitales más altas de Europa.",
+      "España tiene más de 1000 grandes presas, una de las cifras más altas del mundo.",
+      "Cerca de Almería, los invernaderos de plástico cubren tanta tierra que se ven como una mancha blanca desde el espacio."
+    ],
+    "q": {
+      "q": "¿Qué anchura tiene el estrecho de Gibraltar en su punto más estrecho?",
+      "a": "Unos 14 km",
+      "x": [
+        "Unos 4 km",
+        "Unos 40 km"
+      ]
+    }
+  },
+  "Q181528": {
+    "t": "El rincón más seco del Sahara, donde pasan años sin llover",
+    "s": "Esta parte oriental del Sahara, repartida entre Egipto, Libia y Sudán, está entre los lugares más secos de la Tierra: hay sitios donde no cae una gota en años. Desde arriba es un estudio en beige: llanuras de grava, las largas dunas paralelas del Gran Mar de Arena y la meseta parda de arenisca del Gilf Kebir, que se alza como una isla.",
+    "w": "Arena pálida dibujada en largas líneas de dunas rectas de norte a sur, y la meseta oscura y de cima plana del Gilf Kebir.",
+    "f": [
+      "Una pieza tallada de vidrio amarillo del desierto líbico, que solo se halla en esta región, adorna un pectoral de la tumba de Tutankamón.",
+      "La Cueva de los Nadadores, en el Gilf Kebir, tiene pinturas antiguas de personas que parecen nadar, en el desierto hoy más seco."
+    ],
+    "q": {
+      "q": "¿La tumba de quién guardaba una joya con vidrio del desierto líbico?",
+      "a": "La de Tutankamón",
+      "x": [
+        "La de Ramsés II",
+        "La de Keops"
+      ]
+    }
+  },
+  "Q37056": {
+    "t": "Donde Eurasia se queda sin tierra",
+    "s": "Estás sobre la cima misma de Eurasia. El extremo de Taimyr, el cabo Cheliuskin, es el punto más septentrional de la parte continental de cualquier continente; al otro lado de un estrecho solo quedan las islas de Severnaya Zemlia y la banquisa. Debajo: tundra sin árboles, los bajos montes Byrranga y una red de lagos y ríos helados casi todo el año.",
+    "w": "Tundra llana y sin árboles entrelazada de lagos, y las largas y bajas crestas de los montes Byrranga, de este a oeste.",
+    "f": [
+      "Los bueyes almizcleros, desaparecidos de aquí hace miles de años, se trajeron de Canadá y Alaska en la década de 1970 y prosperaron.",
+      "Taimyr alberga el mayor rebaño de renos salvajes de Eurasia.",
+      "Semión Cheliuskin llegó por primera vez al cabo en 1742, en trineo de perros."
+    ],
+    "q": {
+      "q": "¿Cuál es el punto más septentrional de la Eurasia continental?",
+      "a": "Cabo Cheliuskin",
+      "x": [
+        "Cabo Dezhniov",
+        "Cabo Norte"
+      ]
+    }
+  }
+}

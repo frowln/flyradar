@@ -2698,5 +2698,605 @@
         "A jade dragon"
       ]
     }
+  },
+  "xanadu": {
+    "name": "Xanadu (Shangdu)",
+    "era": "1256 – 1368",
+    "t": "Kublai Khan's summer capital on the grassland",
+    "s": "On the grasslands of Inner Mongolia, Kublai Khan built his summer capital, Shangdu, in 1256. Here the Mongol court hunted and held great feasts, and here Marco Polo described a palace of marble and a bamboo pavilion held by silk cords. Five centuries later a poem turned its name, Xanadu, into a byword for splendour. From above, look for open, rolling grassland dotted with lakes north of Beijing's mountains.",
+    "w": "Look for open, rolling grassland with small lakes and river meanders, about 270 km north of Beijing.",
+    "f": [
+      "Samuel Taylor Coleridge's poem 'Kubla Khan' begins: 'In Xanadu did Kubla Khan a stately pleasure-dome decree'.",
+      "The city's layout combined Chinese planning with open space for Mongol tents.",
+      "The site of Xanadu became a UNESCO World Heritage site in 2012."
+    ],
+    "q": {
+      "q": "Which poet made Xanadu famous?",
+      "a": "Samuel Taylor Coleridge",
+      "x": [
+        "William Wordsworth",
+        "Lord Byron"
+      ]
+    }
+  },
+  "taj-mahal-agra": {
+    "name": "Taj Mahal, Agra",
+    "era": "1632 – 1653",
+    "t": "A white marble tomb built for love",
+    "s": "On a bend of the Yamuna at Agra stands the Taj Mahal, built by the Mughal emperor Shah Jahan as a tomb for his wife Mumtaz Mahal. Thousands of craftsmen worked for about 20 years in white marble inlaid with coloured stones. Its colour shifts with the light, from pink at dawn to gold at sunset. The tomb is small from cruise height, but the Yamuna's broad curve through Agra is easy to find.",
+    "w": "Look for the broad Yamuna curving past the city of Agra, about 180 km south-east of Delhi.",
+    "f": [
+      "The marble came from Makrana in Rajasthan, over 300 km away.",
+      "Shah Jahan himself was later buried beside Mumtaz Mahal inside the tomb.",
+      "The Taj Mahal became a UNESCO World Heritage site in 1983."
+    ],
+    "q": {
+      "q": "For whom did Shah Jahan build the Taj Mahal?",
+      "a": "Mumtaz Mahal",
+      "x": [
+        "Nur Jahan",
+        "Jodha Bai"
+      ]
+    }
+  },
+  "hampi": {
+    "name": "Hampi (Vijayanagara)",
+    "era": "14th – 16th c.",
+    "t": "An imperial city among giant boulders",
+    "s": "Among piles of giant granite boulders on the Tungabhadra river lie the ruins of Vijayanagara, capital of a great south Indian empire. Around 1500 it was one of the largest and richest cities in the world, visited by Persian and Portuguese travellers who marvelled at its bazaars. After 1565 it was abandoned. From above, look for a strange rocky landscape of boulder hills along the river, near a large reservoir.",
+    "w": "Look for rocky boulder-strewn hills along the Tungabhadra river, just downstream of a large reservoir.",
+    "f": [
+      "The stone pillars of the Vittala temple ring with musical notes when tapped.",
+      "A stone chariot in the Vittala temple courtyard appears on India's 50-rupee note.",
+      "Hampi became a UNESCO World Heritage site in 1986."
+    ],
+    "q": {
+      "q": "What rings when tapped at Hampi's Vittala temple?",
+      "a": "Its stone pillars",
+      "x": [
+        "Its copper roof",
+        "Its water tanks"
+      ]
+    }
+  },
+  "mohenjo-daro": {
+    "name": "Mohenjo-daro",
+    "era": "c. 2500 – 1900 BC",
+    "t": "A planned city with drains, 4,500 years ago",
+    "s": "On the Indus plain in Sindh stood Mohenjo-daro, one of the largest cities of the Indus civilisation, built about 4,500 years ago. Its streets were laid out in a grid, its houses had bathrooms, and covered brick drains ran beneath the lanes, a level of planning few ancient cities matched. Its writing has still not been deciphered. From above, look for the green ribbon of the Indus winding through dry land.",
+    "w": "Look for the Indus river's broad green valley winding south through the dry plains of Sindh.",
+    "f": [
+      "Its 'Great Bath', a watertight brick pool, may be the earliest public water tank known.",
+      "The city may have been home to around 40,000 people.",
+      "Mohenjo-daro became a UNESCO World Heritage site in 1980."
+    ],
+    "q": {
+      "q": "Which famous structure was found at Mohenjo-daro?",
+      "a": "The Great Bath",
+      "x": [
+        "The Great Library",
+        "The Great Stadium"
+      ]
+    }
+  },
+  "bodh-gaya": {
+    "name": "Bodh Gaya",
+    "era": "5th c. BC – today",
+    "t": "Where the Buddha found enlightenment",
+    "s": "On the plains of Bihar, beside a slow river, Buddhist tradition holds that Siddhartha Gautama sat beneath a fig tree and became the Buddha. A tree descended from it still grows beside the tall Mahabodhi Temple, and pilgrims come from all over Asia. It is the holiest place in the Buddhist world. From above, look for the flat green Gangetic plain south of Patna, with low rocky hills near the town of Gaya.",
+    "w": "Look for the flat green plain south of Patna, with scattered low rocky hills around the town of Gaya.",
+    "f": [
+      "The Mahabodhi Temple, rebuilt many times, is one of the oldest brick temples in India.",
+      "The present tree grew from a cutting linked, by tradition, to the original.",
+      "The temple complex became a UNESCO World Heritage site in 2002."
+    ],
+    "q": {
+      "q": "Under what kind of tree did the Buddha find enlightenment?",
+      "a": "A bodhi (sacred fig) tree",
+      "x": [
+        "A banyan tree",
+        "A mango tree"
+      ]
+    }
+  },
+  "nalanda": {
+    "name": "Nalanda",
+    "era": "5th – 12th c.",
+    "t": "One of the world's first great universities",
+    "s": "For some 700 years, Nalanda was one of the great centres of learning in Asia. Thousands of monks and students lived in its brick monasteries, studying philosophy, medicine, logic and grammar, and its libraries were famous. Students came from China, Korea, Tibet and South-East Asia. The ruins lie in the green plain of Bihar, south-east of Patna, among fields and villages.",
+    "w": "Look for the flat green plain of Bihar, south-east of Patna, with the low Rajgir hills just to the south.",
+    "f": [
+      "The Chinese monk Xuanzang studied at Nalanda in the 7th century.",
+      "It is often called one of the world's earliest residential universities.",
+      "Its ruins became a UNESCO World Heritage site in 2016."
+    ],
+    "q": {
+      "q": "Which Chinese monk studied at Nalanda?",
+      "a": "Xuanzang",
+      "x": [
+        "Jianzhen",
+        "Zheng He"
+      ]
+    }
+  },
+  "ajanta-ellora": {
+    "name": "Ajanta and Ellora caves",
+    "era": "2nd c. BC – 10th c. AD",
+    "t": "Temples carved straight out of the Deccan rock",
+    "s": "In the dark volcanic rock of the Deccan plateau, monks and craftsmen cut temples and monasteries straight into cliffs. At Ajanta, Buddhist caves hold paintings up to 2,000 years old. At Ellora, Buddhist, Hindu and Jain shrines stand side by side, including a whole temple carved from a single rock. From above, look for the flat-topped hills and dark soil of the Deccan north of Aurangabad.",
+    "w": "Look for flat-topped basalt hills and dark farmland north of the city of Aurangabad.",
+    "f": [
+      "Ellora's Kailasa temple was carved from the top down out of one piece of rock.",
+      "The Ajanta caves were brought to wide attention in 1819 by a British officer out hunting.",
+      "Both sites became UNESCO World Heritage sites in 1983."
+    ],
+    "q": {
+      "q": "What is special about Ellora's Kailasa temple?",
+      "a": "It is carved from one rock",
+      "x": [
+        "It is built of bricks",
+        "It is built of marble"
+      ]
+    }
+  },
+  "sigiriya": {
+    "name": "Sigiriya",
+    "era": "5th c. AD",
+    "t": "A palace on top of a giant rock",
+    "s": "From the jungle of central Sri Lanka rises a lone rock about 200 m high. In the 5th century King Kashyapa built a palace on its summit, reached through the paws of a colossal brick lion. Its walls were painted with graceful women, and gardens with pools spread around its base. From above, look for a single dark rock standing out of the green forest, north of Dambulla.",
+    "w": "Look for a single steep rock rising from flat green forest in the centre of Sri Lanka, near reservoirs.",
+    "f": [
+      "Only the giant paws of the Lion Gate remain.",
+      "Visitors scratched poems on the polished Mirror Wall from about the 8th century.",
+      "Sigiriya became a UNESCO World Heritage site in 1982."
+    ],
+    "q": {
+      "q": "What remains of Sigiriya's Lion Gate?",
+      "a": "Two giant paws",
+      "x": [
+        "A lion's head",
+        "A stone mane"
+      ]
+    }
+  },
+  "lumbini": {
+    "name": "Lumbini",
+    "era": "c. 5th c. BC",
+    "t": "The birthplace of the Buddha",
+    "s": "On the flat Terai plain at the foot of the Himalaya lies Lumbini, where Buddhist tradition says Siddhartha Gautama, the future Buddha, was born. More than two centuries later Emperor Ashoka visited and set up a stone pillar to mark the spot. Today monasteries from many countries surround the sacred garden. From above, look for the flat green plain with the white wall of the Himalaya on the northern horizon.",
+    "w": "Look for the flat green Terai plain in southern Nepal, with the snowy Himalaya on the northern horizon.",
+    "f": [
+      "Ashoka's pillar, from 249 BC, bears an inscription saying the Buddha was born here.",
+      "The pillar was rediscovered in 1896.",
+      "Lumbini became a UNESCO World Heritage site in 1997."
+    ],
+    "q": {
+      "q": "Who set up the inscribed pillar at Lumbini?",
+      "a": "Emperor Ashoka",
+      "x": [
+        "Emperor Akbar",
+        "King Kanishka"
+      ]
+    }
+  },
+  "kathmandu-valley": {
+    "name": "Kathmandu Valley",
+    "era": "from the 5th c.",
+    "t": "Three royal cities in a Himalayan bowl",
+    "s": "In a green bowl among the foothills of the Himalaya lie three old royal cities, Kathmandu, Patan and Bhaktapur. Their Newar craftsmen filled them with pagoda temples, carved wooden windows and palace squares, and the valley also holds two of the great stupas of Buddhism. From above, look for a round valley filled with city, ringed by green hills, with snow peaks behind.",
+    "w": "Look for a round valley filled with city and ringed by green hills, with the snowy Himalaya to the north.",
+    "f": [
+      "Legend says the valley was once a lake, drained when the bodhisattva Manjushri cut a gorge.",
+      "The white dome of Boudhanath is one of the largest stupas in the world.",
+      "Seven groups of monuments in the valley are on the UNESCO World Heritage list."
+    ],
+    "q": {
+      "q": "According to legend, what was the valley once?",
+      "a": "A lake",
+      "x": [
+        "A glacier",
+        "A desert"
+      ]
+    }
+  },
+  "taxila": {
+    "name": "Taxila",
+    "era": "6th c. BC – 5th c. AD",
+    "t": "Where Greek and Buddhist worlds met in stone",
+    "s": "Near today's Islamabad lay Taxila, a crossroads city of the ancient Gandhara region, on routes linking India, Central Asia and Persia. Alexander the Great passed through, and later Buddhist monasteries and a famous seat of learning flourished here. Its sculptors mixed Greek and Indian styles, giving the Buddha one of his earliest human portraits. From above, look for the green hills just north-west of Islamabad.",
+    "w": "Look for the green Margalla Hills and the valley just north-west of Islamabad and Rawalpindi.",
+    "f": [
+      "Alexander the Great arrived at Taxila in 326 BC.",
+      "Remains of three successive cities have been excavated here.",
+      "Taxila became a UNESCO World Heritage site in 1980."
+    ],
+    "q": {
+      "q": "Which art style mixed Greek and Buddhist forms here?",
+      "a": "Gandhara",
+      "x": [
+        "Mughal",
+        "Chola"
+      ]
+    }
+  },
+  "angkor": {
+    "name": "Angkor",
+    "era": "9th – 15th c.",
+    "t": "Temple-mountains and giant reservoirs of the Khmer",
+    "s": "North of the great lake Tonlé Sap lie the ruins of Angkor, capital of the Khmer Empire. Its kings built temple-mountains of stone, and Angkor Wat, from the 12th century, is the largest religious monument in the world. They also dug huge rectangular reservoirs to store the monsoon rains. Those shapes are visible from cruise: look for long straight-edged lakes and moats in the forest.",
+    "w": "Look for a long rectangular reservoir and a square moat in the forest, just north of Siem Reap and the Tonlé Sap lake.",
+    "f": [
+      "The West Baray reservoir is about 8 km long and 2 km wide, and still holds water.",
+      "The moat around Angkor Wat is about 190 m wide.",
+      "The towers of the Bayon temple carry more than 200 giant stone faces."
+    ],
+    "q": {
+      "q": "Which lake lies just south of Angkor?",
+      "a": "Tonlé Sap",
+      "x": [
+        "Inle Lake",
+        "Lake Toba"
+      ]
+    }
+  },
+  "bagan": {
+    "name": "Bagan",
+    "era": "11th – 13th c.",
+    "t": "A plain of more than two thousand temples",
+    "s": "On a dry plain beside the Irrawaddy, the kings of Bagan and their subjects built more than 10,000 temples and pagodas between the 11th and 13th centuries. Over 2,000 still stand, brick and white against the ochre earth, turning gold at sunrise. The temples are too small to see from cruise, but look for the wide bend of the Irrawaddy on a flat, dry plain.",
+    "w": "Look for a wide bend of the Irrawaddy on a flat, dry ochre plain in central Myanmar.",
+    "f": [
+      "Bagan was the capital of the first kingdom to unite most of Myanmar.",
+      "The Ananda temple, from about 1105, is one of its best preserved.",
+      "Bagan became a UNESCO World Heritage site in 2019."
+    ],
+    "q": {
+      "q": "Roughly how many temples still stand at Bagan?",
+      "a": "Over 2,000",
+      "x": [
+        "About 200",
+        "About 20,000"
+      ]
+    }
+  },
+  "borobudur": {
+    "name": "Borobudur",
+    "era": "9th c.",
+    "t": "A Buddhist mountain of stone between volcanoes",
+    "s": "On the plain of central Java, ringed by volcanoes, stands Borobudur, the largest Buddhist temple in the world. Built in the 9th century, it rises in terraces like a stepped mountain, and pilgrims walking round it pass thousands of carved panels telling stories of the Buddha. It lay half-buried for centuries. From above, look for the green Kedu plain framed by the volcanoes Merapi, Merbabu and Sumbing.",
+    "w": "Look for a green plain in central Java framed by big volcanic cones, including the often-smoking Merapi.",
+    "f": [
+      "It has 504 Buddha statues and more than 2,600 relief panels.",
+      "In 1814 the British governor Stamford Raffles had the overgrown site surveyed.",
+      "Borobudur became a UNESCO World Heritage site in 1991."
+    ],
+    "q": {
+      "q": "Who had Borobudur surveyed in 1814?",
+      "a": "Stamford Raffles",
+      "x": [
+        "James Cook",
+        "Warren Hastings"
+      ]
+    }
+  },
+  "ayutthaya": {
+    "name": "Ayutthaya",
+    "era": "1351 – 1767",
+    "t": "The river-island capital of old Siam",
+    "s": "For four centuries Ayutthaya was the capital of Siam and one of the great trading cities of Asia, visited by merchants from Europe, Persia, China and Japan. The city stands on an island where three rivers meet, and its brick temples and prang towers still rise among the modern streets. From above, look for a river-ringed island in the flat rice plain north of Bangkok.",
+    "w": "Look for an island ringed by rivers in the flat, watery rice plain about 70 km north of Bangkok.",
+    "f": [
+      "Around 1700 it may have been one of the largest cities in the world.",
+      "Foreign traders, including Dutch, Portuguese and Japanese, had their own quarters outside the walls.",
+      "Ayutthaya became a UNESCO World Heritage site in 1991."
+    ],
+    "q": {
+      "q": "What makes old Ayutthaya an island?",
+      "a": "Three rivers meeting",
+      "x": [
+        "A crater lake",
+        "A sea channel"
+      ]
+    }
+  },
+  "hoi-an": {
+    "name": "Hội An",
+    "era": "15th – 19th c.",
+    "t": "A lantern-lit trading port frozen in time",
+    "s": "Near the mouth of the Thu Bồn river on Vietnam's central coast, Hội An was a busy international port where Japanese, Chinese, Portuguese and Dutch merchants traded silk, porcelain and spices. When the river silted up, trade moved to Da Nang, and the old town was left almost untouched, with wooden shophouses, assembly halls and a covered bridge. From above, look for the river mouth and the Cham Islands offshore.",
+    "w": "Look for the Thu Bồn river reaching the sea about 25 km south of Da Nang, with the small Cham Islands offshore.",
+    "f": [
+      "Its covered bridge was built by Japanese merchants in the late 16th century.",
+      "Chinese merchant communities built assembly halls that are still used today.",
+      "Hội An's old town became a UNESCO World Heritage site in 1999."
+    ],
+    "q": {
+      "q": "Who built Hội An's covered bridge?",
+      "a": "Japanese merchants",
+      "x": [
+        "Portuguese sailors",
+        "Dutch traders"
+      ]
+    }
+  },
+  "zhongyuan": {
+    "name": "Central Plain, cradle of Chinese civilisation",
+    "era": "c. 2000 BC – 12th c.",
+    "t": "Where Chinese civilisation took shape on the Yellow River",
+    "s": "Along the middle Yellow River lies the Central Plain, where many early Chinese states and dynasties rose. Luoyang and Kaifeng were capitals for centuries, the Shaolin Temple stands on Mount Song, and Bronze Age palaces have been found at Erlitou. From above, look for the broad, silt-brown Yellow River braiding across a vast flat plain, held between high levees.",
+    "w": "Look for the wide, muddy Yellow River braiding across a flat plain, with the Song mountains to its south-west.",
+    "f": [
+      "Near Kaifeng the Yellow River's bed lies higher than the surrounding land, held in by levees.",
+      "Luoyang's Longmen Grottoes hold tens of thousands of Buddhist statues carved into river cliffs.",
+      "Kaifeng, the Northern Song capital, was one of the largest cities in the world around 1100."
+    ],
+    "q": {
+      "q": "Which temple on Mount Song is famous for kung fu?",
+      "a": "Shaolin",
+      "x": [
+        "Wudang",
+        "Longmen"
+      ]
+    }
+  },
+  "ifugao-terraces": {
+    "name": "Rice Terraces of the Philippine Cordilleras",
+    "era": "centuries old – today",
+    "t": "Mountains sculpted by hand into rice fields",
+    "s": "In the mountains of northern Luzon, the Ifugao people have carved whole hillsides into steps of rice paddies, fed by water from the forests above. The terraces follow the contours of the slopes like giant staircases, built and maintained by hand over generations. They are too fine to see from cruise, but the steep green Cordillera where they lie is easy to find north of Manila.",
+    "w": "Look for the steep, green Cordillera range in northern Luzon, about 250 km north of Manila.",
+    "f": [
+      "In 1995 they were among the first sites listed by UNESCO as a living cultural landscape.",
+      "The forests above the terraces are kept as shared watersheds to supply the fields.",
+      "The Ifugao's Hudhud chants are on UNESCO's list of intangible heritage."
+    ],
+    "q": {
+      "q": "Which people built the Banaue rice terraces?",
+      "a": "The Ifugao",
+      "x": [
+        "The Tagalog",
+        "The Visayans"
+      ]
+    }
+  },
+  "trans-saharan-west": {
+    "name": "Trans-Saharan caravan route (Sijilmasa–Timbuktu)",
+    "era": "8th – 16th c.",
+    "t": "Salt south, gold north, across the great desert",
+    "s": "For centuries camel caravans crossed the western Sahara between Morocco and the Niger. Salt, cloth and horses went south; gold, ivory and leather came north, and the gold of West Africa ended up in coins across the Mediterranean. Books and scholars travelled with them. From above you see the scale of the crossing: weeks of sand seas, gravel plains and bare plateaus with barely a trace of green.",
+    "w": "Look for endless dunes and gravel plains, dark rocky plateaus, and rare oases strung along dry valleys.",
+    "f": [
+      "The crossing could take around two months, with long stretches between wells.",
+      "Mansa Musa of Mali spent so much gold on his pilgrimage in 1324 that its value fell in Cairo.",
+      "Salt caravans still carry slabs from the Taoudenni mines to Timbuktu."
+    ],
+    "q": {
+      "q": "What did caravans carry south to trade for gold?",
+      "a": "Salt",
+      "x": [
+        "Ivory",
+        "Pepper"
+      ]
+    }
+  },
+  "trans-saharan-bornu": {
+    "name": "Trans-Saharan route: Tripoli–Lake Chad",
+    "era": "1st millennium BC – 19th c.",
+    "t": "The oldest road across the Sahara, via the Fezzan",
+    "s": "From Tripoli, one of the oldest routes across the Sahara ran south through the oases of the Fezzan to Lake Chad and the kingdom of Kanem-Bornu. The Garamantes, who farmed the Fezzan with underground channels, controlled it in Roman times. Later, salt from Bilma and goods from the Mediterranean moved along it. From above, look for dark rocky plateaus, sand seas and, in the far south, the shallow waters of Lake Chad.",
+    "w": "Look for dark plateaus and sand seas in southern Libya, and far south the shallow, marshy basin of Lake Chad.",
+    "f": [
+      "The Garamantes dug long networks of underground water channels, called foggaras.",
+      "Kanem-Bornu, at Lake Chad, lasted about a thousand years.",
+      "In 1823 British travellers on this route became the first Europeans known to see Lake Chad."
+    ],
+    "q": {
+      "q": "Which ancient people farmed the Fezzan with underground canals?",
+      "a": "The Garamantes",
+      "x": [
+        "The Carthaginians",
+        "The Nubians"
+      ]
+    }
+  },
+  "vasco-da-gama-route": {
+    "name": "Vasco da Gama's sea route to India",
+    "era": "1497 – 1498",
+    "t": "The voyage that joined Europe to India by sea",
+    "s": "In July 1497 four ships left Lisbon under Vasco da Gama. Instead of hugging the African coast, he swung far out into the South Atlantic, then rounded the Cape of Good Hope, sailed up the east African coast and, with a local pilot from Malindi, crossed the Indian Ocean. In May 1498 he reached Calicut in India. The sea route he opened changed world trade for centuries.",
+    "w": "Look for the Cape Peninsula at Africa's south-western tip, and the long east African coast running north from it.",
+    "f": [
+      "His loop through the South Atlantic kept the fleet out of sight of land for about three months.",
+      "He named Natal, in South Africa, after passing it on Christmas Day 1497.",
+      "Bartolomeu Dias had first rounded the Cape of Good Hope ten years earlier, in 1488."
+    ],
+    "q": {
+      "q": "Which region did da Gama name on Christmas Day 1497?",
+      "a": "Natal",
+      "x": [
+        "Transvaal",
+        "Zululand"
+      ]
+    }
+  },
+  "carthage": {
+    "name": "Carthage",
+    "era": "c. 814 BC – AD 698",
+    "t": "The Phoenician city that rivalled Rome",
+    "s": "On a headland of the Gulf of Tunis, Phoenician settlers from Tyre founded Carthage, which grew into the great trading power of the western Mediterranean. After Rome destroyed it in 146 BC, the Romans rebuilt it as one of the largest cities of their empire. Its round military harbour can still be traced. From cruise, look for the lagoon-edged Gulf of Tunis and the city of Tunis spread around it.",
+    "w": "Look for the Gulf of Tunis and its shallow lagoon, with the capital's suburbs covering the headland to the north-east.",
+    "f": [
+      "Legend says Queen Dido founded the city on land she marked out with strips of an oxhide.",
+      "The circular Punic harbour once had sheds for more than 200 warships around its edge.",
+      "Carthage became a UNESCO World Heritage site in 1979."
+    ],
+    "q": {
+      "q": "Which legendary queen founded Carthage?",
+      "a": "Dido",
+      "x": [
+        "Zenobia",
+        "Cleopatra"
+      ]
+    }
+  },
+  "leptis-magna": {
+    "name": "Leptis Magna",
+    "era": "7th c. BC – 7th c. AD",
+    "t": "A Roman city kept by the sand",
+    "s": "On the Libyan coast east of Tripoli lies Leptis Magna, one of the most complete Roman cities in the Mediterranean. It began as a Phoenician port, grew rich on olive oil, and was lavishly rebuilt by Emperor Septimius Severus, who was born here. Later the sand covered it, keeping its forum, basilica, theatre and harbour. From above, look for the coast near Khoms and the dry hills behind it.",
+    "w": "Look for the Libyan coastline about 120 km east of Tripoli, near the town of Khoms.",
+    "f": [
+      "Emperor Septimius Severus was born in Leptis Magna in AD 145.",
+      "Its theatre faces the sea, and its stage wall still stands tall.",
+      "Leptis Magna became a UNESCO World Heritage site in 1982."
+    ],
+    "q": {
+      "q": "Which Roman emperor was born in Leptis Magna?",
+      "a": "Septimius Severus",
+      "x": [
+        "Hadrian",
+        "Trajan"
+      ]
+    }
+  },
+  "el-jem": {
+    "name": "El Jem amphitheatre",
+    "era": "c. AD 238",
+    "t": "A colossal Roman arena in an olive-grove town",
+    "s": "In the middle of the Tunisian plain, a Roman amphitheatre towers over the small town of El Jem. It was built around AD 238 in Thysdrus, a town made rich by olive oil, and could seat some 35,000 people. It is among the best-preserved Roman amphitheatres in the world. The arena is small from cruise height, but the vast plain of olive groves in neat rows is striking.",
+    "w": "Look for a flat plain covered in regular dotted rows of olive trees, inland from the Tunisian coast between Sousse and Sfax.",
+    "f": [
+      "It is one of the largest amphitheatres the Romans ever built.",
+      "It was built of stone blocks brought from quarries some 30 km away.",
+      "El Jem became a UNESCO World Heritage site in 1979."
+    ],
+    "q": {
+      "q": "Which product made Roman Thysdrus rich?",
+      "a": "Olive oil",
+      "x": [
+        "Wine",
+        "Dates"
+      ]
+    }
+  },
+  "volubilis": {
+    "name": "Volubilis",
+    "era": "3rd c. BC – 11th c. AD",
+    "t": "A Roman town at the edge of the Empire in Morocco",
+    "s": "On a fertile plain below the Zerhoun hills lie the ruins of Volubilis, a town at the far south-western edge of the Roman Empire. Its olive presses, triumphal arch and houses with fine floor mosaics still stand among the fields. Centuries later, the founder of Morocco's first Muslim dynasty came here in 788. From above, look for green farmland and hills north of Meknes.",
+    "w": "Look for green farmland and the rounded Zerhoun hills, about 25 km north of Meknes.",
+    "f": [
+      "Dozens of olive presses have been found in the town.",
+      "Idris I, founder of the Idrisid dynasty, was received here in 788.",
+      "Volubilis became a UNESCO World Heritage site in 1997."
+    ],
+    "q": {
+      "q": "Who founded a dynasty after arriving at Volubilis in 788?",
+      "a": "Idris I",
+      "x": [
+        "Yusuf ibn Tashfin",
+        "Tariq ibn Ziyad"
+      ]
+    }
+  },
+  "ait-benhaddou": {
+    "name": "Aït Benhaddou",
+    "era": "17th c. (on older foundations)",
+    "t": "An earthen fortress village on the caravan road",
+    "s": "On a hill above a river south of the High Atlas stands Aït Benhaddou, a fortified village of red earth houses and towers. It guarded the caravan route that brought goods from the Sahara over the mountains to Marrakesh. Its silhouette has starred in many films. From above, look for the snowy High Atlas and the green river valleys on its southern side near Ouarzazate.",
+    "w": "Look south of the snowy High Atlas for a green river valley and a large reservoir near Ouarzazate.",
+    "f": [
+      "Its buildings are made of rammed earth and mud brick, repaired after heavy rains.",
+      "It has appeared in films including 'Lawrence of Arabia' and 'Gladiator'.",
+      "Aït Benhaddou became a UNESCO World Heritage site in 1987."
+    ],
+    "q": {
+      "q": "What are Aït Benhaddou's buildings made of?",
+      "a": "Earth and mud brick",
+      "x": [
+        "Cut limestone",
+        "Timber"
+      ]
+    }
+  },
+  "timbuktu": {
+    "name": "Timbuktu",
+    "era": "12th – 16th c. (golden age)",
+    "t": "A desert city of scholars and manuscripts",
+    "s": "Where the Sahara meets the great bend of the Niger stands Timbuktu, a meeting point of camel caravans and river boats. In the 15th and 16th centuries it was a centre of Islamic learning, with mud-brick mosques and scholars whose libraries grew over generations. Europe imagined it as a city of gold. From above, look for the edge where the Niger's green floodplain meets the desert sand.",
+    "w": "Look for the northern edge of the Niger's bend, where green floodplain and channels give way to desert.",
+    "f": [
+      "Its Djinguereber Mosque dates back to the 14th century and is built of earth.",
+      "Families in Timbuktu have kept hundreds of thousands of manuscripts.",
+      "In 1828 René Caillié became the first European to reach Timbuktu and return."
+    ],
+    "q": {
+      "q": "Who was the first European to reach Timbuktu and return?",
+      "a": "René Caillié",
+      "x": [
+        "Mungo Park",
+        "David Livingstone"
+      ]
+    }
+  },
+  "djenne": {
+    "name": "Djenné",
+    "era": "3rd c. BC – today",
+    "t": "The largest mud-brick building in the world",
+    "s": "On an island in the floodplain of the Bani river, in Mali's inland Niger delta, stands Djenné, one of the oldest towns in West Africa. Its Great Mosque is the largest mud-brick building in the world, bristling with wooden beams. Every year the whole town replasters it with fresh mud in a festival. From above, look for a watery maze of channels and floodplain, green or blue in the wet season.",
+    "w": "Look for the inland Niger delta, a vast floodplain of channels and lakes, especially after the summer rains.",
+    "f": [
+      "The present Great Mosque was built in 1907 on the site of earlier mosques.",
+      "Nearby Djenné-Djeno was a town from around 250 BC, one of the oldest known south of the Sahara.",
+      "Old Djenné became a UNESCO World Heritage site in 1988."
+    ],
+    "q": {
+      "q": "What is Djenné's Great Mosque built of?",
+      "a": "Mud brick",
+      "x": [
+        "Stone",
+        "Timber"
+      ]
+    }
+  },
+  "great-zimbabwe": {
+    "name": "Great Zimbabwe",
+    "era": "11th – 15th c.",
+    "t": "The stone city that gave a country its name",
+    "s": "In the granite hills of southern Zimbabwe stand the ruins of Great Zimbabwe, capital of a medieval Shona kingdom. Its builders fitted granite blocks into curving walls up to 11 m high without any mortar. Its rulers grew rich trading gold and ivory with the Swahili coast; Chinese porcelain and Persian glass have been found here. From above, look for granite hills and the reservoir of Lake Mutirikwi.",
+    "w": "Look for rounded granite hills and the large Lake Mutirikwi reservoir near the town of Masvingo.",
+    "f": [
+      "'Zimbabwe' comes from Shona words usually translated as 'houses of stone'.",
+      "Carved soapstone birds from the site appear on Zimbabwe's flag.",
+      "Great Zimbabwe became a UNESCO World Heritage site in 1986."
+    ],
+    "q": {
+      "q": "What does the name 'Zimbabwe' mean?",
+      "a": "Houses of stone",
+      "x": [
+        "Land of gold",
+        "Great river"
+      ]
+    }
+  },
+  "mapungubwe": {
+    "name": "Mapungubwe",
+    "era": "c. 1075 – 1220",
+    "t": "The hilltop kingdom of the golden rhino",
+    "s": "Where the Limpopo and Shashe rivers meet, at today's meeting point of South Africa, Botswana and Zimbabwe, stood Mapungubwe, the capital of one of southern Africa's first kingdoms. Its rulers lived on a flat-topped sandstone hill above their people and traded gold and ivory towards the Indian Ocean. From above, look for the confluence of two broad, often sandy rivers in dry bush country.",
+    "w": "Look for the confluence of the Limpopo and Shashe, two wide sandy rivers, where three countries meet.",
+    "f": [
+      "A small rhinoceros of gold foil over a wooden core was found in a royal grave.",
+      "Mapungubwe is seen as a forerunner of Great Zimbabwe.",
+      "It became a UNESCO World Heritage site in 2003."
+    ],
+    "q": {
+      "q": "Which golden animal was found at Mapungubwe?",
+      "a": "A rhinoceros",
+      "x": [
+        "A lion",
+        "An elephant"
+      ]
+    }
   }
 }

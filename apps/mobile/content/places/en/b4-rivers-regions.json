@@ -2590,5 +2590,689 @@
         "By icebreaker"
       ]
     }
+  },
+  "Q608383": {
+    "t": "Ice, jagged mountains and a station run on wind and sun",
+    "s": "Behind the flat ice shelves of the Princess Ragnhild Coast, the jagged Sør Rondane Mountains break out of the ice sheet in dark ridges and spires. Katabatic winds pour through their valleys towards the sea. In their shelter, on a granite ridge, Belgium built the Princess Elisabeth station, designed to run largely on wind and solar power.",
+    "w": "Dark, jagged mountain ridges poking through white ice, with flat ice shelves along the distant coast.",
+    "f": [
+      "The coast is named after Princess Ragnhild of Norway, the eldest child of Crown Prince Olav.",
+      "Princess Elisabeth station opened in 2009.",
+      "The coast ends in the east at the Riiser-Larsen Peninsula, where the Prince Harald Coast begins."
+    ],
+    "q": {
+      "q": "Which country's station here runs largely on wind and sun?",
+      "a": "Belgium",
+      "x": [
+        "Japan",
+        "Norway"
+      ]
+    }
+  },
+  "Q1389914": {
+    "t": "The windswept 'home of the blizzard'",
+    "s": "Along the George V Coast the ice sheet meets the sea in long cliffs and floating glacier tongues, and cold air from the plateau rushes down to the shore with astonishing force. Douglas Mawson's expedition wintered at Cape Denison here in 1912 and 1913, in winds so relentless that he called the place 'the home of the blizzard'. The coast is named after King George V.",
+    "w": "Long ice cliffs and floating glacier tongues reaching into a sea of pack ice, with icebergs scattered offshore.",
+    "f": [
+      "Mawson's Huts, the expedition's wooden base at Cape Denison, still stand and are carefully preserved.",
+      "In 2010 the long floating tongue of the Mertz Glacier broke off after being struck by a huge iceberg.",
+      "Commonwealth Bay, beside Cape Denison, is often called one of the windiest places at sea level on Earth."
+    ],
+    "q": {
+      "q": "What did Mawson call this windswept coast?",
+      "a": "The home of the blizzard",
+      "x": [
+        "The white desert",
+        "The land of silence"
+      ]
+    }
+  },
+  "Q1389591": {
+    "t": "A remote coast first seen from Scott's ship",
+    "s": "Oates Land is a remote coast of East Antarctica where the ice sheet flows down to the sea between dark mountain spurs, feeding glaciers that end in floating tongues. Pack ice often keeps ships away, and few people have ever landed here. It was first sighted in 1911 from the Terra Nova, the ship of Robert Falcon Scott's last expedition.",
+    "w": "Dark mountain spurs and glaciers running down to a sea crowded with pack ice and icebergs.",
+    "f": [
+      "It is named after Captain Lawrence Oates, a member of Scott's South Pole party.",
+      "The Soviet station Leningradskaya stood on a rocky summit here from 1971 to 1991.",
+      "The Terra Nova sighted the coast in February 1911, while dropping off parties for Scott's expedition."
+    ],
+    "q": {
+      "q": "From which ship was Oates Land first sighted in 1911?",
+      "a": "Terra Nova",
+      "x": [
+        "Endurance",
+        "Fram"
+      ]
+    }
+  },
+  "Q171847": {
+    "t": "The river that wraps around the largest river island",
+    "s": "Look for a wide, sandy river splitting in two around an enormous island: this is the Araguaia, and the island is Bananal, the largest river island in the world. The river's golden beaches appear in the dry season, from about June to September, when its level drops. Around it spreads the Cerrado, Brazil's tropical savanna, dotted with farms.",
+    "w": "A broad river with pale sandy beaches dividing around a huge flat island of savanna, wetland and forest.",
+    "f": [
+      "Bananal Island covers about 19,000 km².",
+      "The Araguaia joins the Tocantins at the 'Parrot's Beak', where three Brazilian states meet.",
+      "The Karajá people live along the river and on Bananal Island."
+    ],
+    "q": {
+      "q": "What is Bananal, in the Araguaia River?",
+      "a": "The largest river island",
+      "x": [
+        "A great waterfall",
+        "A crater lake"
+      ]
+    }
+  },
+  "Q191832": {
+    "t": "The Lena's great right-hand river through the taiga",
+    "s": "The Aldan winds through the endless larch taiga of Yakutia, sometimes between steep rocky cliffs, sometimes spreading into channels around wooded islands. It is the longest right-bank tributary of the Lena, more than 2,000 km long, and it lies frozen for over half the year. In autumn the larches along its banks turn gold before dropping their needles.",
+    "w": "A winding river through dark larch taiga, with rocky cliffs and wooded islands; gold in autumn, white in winter.",
+    "f": [
+      "Gold was found in its basin in the 1920s, and the town of Aldan grew out of the rush.",
+      "The Aldan joins the Lena north of Yakutsk.",
+      "Its upper basin lies on the Aldan Shield, one of the oldest parts of Siberia's crust."
+    ],
+    "q": {
+      "q": "Which great river does the Aldan flow into?",
+      "a": "The Lena",
+      "x": [
+        "The Amur",
+        "The Yenisey"
+      ]
+    }
+  },
+  "Q160636": {
+    "t": "A desert river cutting canyons along a border",
+    "s": "Through the Chihuahuan Desert the Rio Grande is a thin green ribbon, sometimes almost dry, that has carved deep canyons into bare, tan limestone. Here, near Big Bend, it forms the border between Texas and Mexico and swings round in a great curve. Look for the dark slot of Santa Elena Canyon, whose cliffs rise some 450 m above the water.",
+    "w": "A thin, dark-green thread winding through bare tan desert and mountains, vanishing into narrow canyons.",
+    "f": [
+      "In Mexico it is called the Río Bravo del Norte.",
+      "At about 3,000 km it is one of North America's longest rivers, flowing from Colorado to the Gulf of Mexico.",
+      "So much of its water is taken for irrigation that in dry years some stretches almost run dry."
+    ],
+    "q": {
+      "q": "What is the Rio Grande called in Mexico?",
+      "a": "Río Bravo",
+      "x": [
+        "Río Conchos",
+        "Río Colorado"
+      ]
+    }
+  },
+  "Q78707": {
+    "t": "The river that splits Siberia in two",
+    "s": "The Yenisey is Siberia's great divide. Look at its two banks: to the west, the low, boggy West Siberian Plain; to the east, the higher, forested edge of the Central Siberian Plateau. Here, far to the north, the river is a broad sheet of water, often several kilometres wide, heading straight for the Kara Sea.",
+    "w": "A very broad river flowing north, flat bogland on its west bank and higher, darker forested hills on its east.",
+    "f": [
+      "The Yenisey carries more water into the Arctic Ocean than any other river.",
+      "In spring the breaking ice can pile up in walls several metres high along its banks.",
+      "Seagoing ships sail up it from the Kara Sea to Igarka, hundreds of kilometres inland."
+    ],
+    "q": {
+      "q": "What lies along the Yenisey's east bank?",
+      "a": "The Central Siberian Plateau",
+      "x": [
+        "The West Siberian Plain",
+        "The Ural Mountains"
+      ]
+    }
+  },
+  "Q78879": {
+    "t": "A far-eastern river of gold, frozen most of the year",
+    "s": "The Kolyma winds through the mountains of Russia's far north-east, a pale ribbon between dark larch-covered slopes and wide gravel bars. For about eight months of the year it lies under ice, and the land around it under snow. The region is famous for its gold, washed from the river gravels since the 1930s.",
+    "w": "A pale, winding river with wide gravel bars in a valley between dark, larch-covered mountains.",
+    "f": [
+      "The Kolyma flows some 2,100 km to the East Siberian Sea.",
+      "The Kolyma hydroelectric station dams it high in its upper course.",
+      "Frozen remains of mammoths have been found in the permafrost of its lower basin."
+    ],
+    "q": {
+      "q": "Into which sea does the Kolyma flow?",
+      "a": "The East Siberian Sea",
+      "x": [
+        "The Sea of Okhotsk",
+        "The Bering Sea"
+      ]
+    }
+  },
+  "Q8319": {
+    "t": "From Rocky Mountain gorges to the Great Plains",
+    "s": "The Arkansas begins high in the Colorado Rockies, then runs east for more than 2,000 km across the Great Plains to the Mississippi. Here, in northern Oklahoma, it is a wide, sandy river braided between low wooded banks, winding through a patchwork of wheat fields and pastures. Dams hold it in broad reservoirs such as Kaw Lake.",
+    "w": "A wide, sandy, braided river with thin wooded banks, crossing a patchwork of fields and grassland.",
+    "f": [
+      "At about 2,350 km, the Arkansas is one of the longest tributaries of the Mississippi.",
+      "In Colorado it flows through the Royal Gorge, more than 300 m deep.",
+      "In Kansas many people pronounce the river's name 'ar-KAN-zas', unlike the name of the state."
+    ],
+    "q": {
+      "q": "Where does the Arkansas River begin?",
+      "a": "In the Colorado Rockies",
+      "x": [
+        "In the Ozarks",
+        "In the Black Hills"
+      ]
+    }
+  },
+  "Q26422": {
+    "t": "The 'Angry River' deep in its gorge",
+    "s": "In western Yunnan the Salween, known in China as the Nu Jiang, the 'Angry River', races through a gorge so deep that its walls rise well over a thousand metres above the water. From above it is a thin dark line at the bottom of a steep, forested trench running north to south. Close by, the Mekong and the Yangtze flow parallel to it through gorges of their own.",
+    "w": "A thin, dark river at the bottom of a very deep, steep-sided gorge running north–south between high ridges.",
+    "f": [
+      "Where the Salween, Mekong and Yangtze run side by side lies a UNESCO site, the Three Parallel Rivers.",
+      "It flows for more than 2,000 km, through China and Myanmar, to the Andaman Sea.",
+      "In Myanmar the river is called the Thanlwin."
+    ],
+    "q": {
+      "q": "What does the Chinese name Nu Jiang mean?",
+      "a": "Angry River",
+      "x": [
+        "Golden River",
+        "Black River"
+      ]
+    }
+  },
+  "Q26428": {
+    "t": "A wild river in the deep valleys of the plateau",
+    "s": "The Lower Tunguska crosses the Central Siberian Plateau in a deep, winding valley, with steep forested slopes and rocky ledges of dark basalt. It flows through almost empty taiga for nearly 3,000 km before joining the Yenisey. Near its source it runs close to the Lena, yet turns away and heads north and then west to the other great river.",
+    "w": "A winding river in a deep valley of dark forest and rocky ledges, with flat-topped uplands on either side.",
+    "f": [
+      "Vyacheslav Shishkov's novel 'Gloomy River' draws on life along the Lower Tunguska.",
+      "Tura, the main town of Evenkia, stands on its banks.",
+      "The river is frozen from about October to May."
+    ],
+    "q": {
+      "q": "Which great river does the Lower Tunguska flow into?",
+      "a": "The Yenisey",
+      "x": [
+        "The Lena",
+        "The Ob"
+      ]
+    }
+  },
+  "Q171840": {
+    "t": "A long Andean river winding through untouched forest",
+    "s": "Born in the Colombian Andes, the Caquetá, as the Japurá is called in Colombia, winds east through some of the least disturbed rainforest on Earth. From above it is a brown ribbon through unbroken green, broken here and there by rapids where it cuts through old sandstone. In Brazil it becomes the Japurá and joins the Amazon through a maze of channels and lakes.",
+    "w": "A brown winding river through unbroken rainforest, with occasional rapids and flat-topped sandstone hills nearby.",
+    "f": [
+      "At Araracuara the river squeezes through a narrow canyon of ancient sandstone.",
+      "To the north lies Chiribiquete National Park, with tabletop mountains and ancient rock paintings, a UNESCO site.",
+      "Before meeting the Amazon, the Japurá splits into channels and lakes spread over dozens of kilometres."
+    ],
+    "q": {
+      "q": "What is the Japurá called in Colombia?",
+      "a": "Caquetá",
+      "x": [
+        "Putumayo",
+        "Guaviare"
+      ]
+    }
+  },
+  "ne-rv-1159114071": {
+    "t": "The Lena delta's shipping lane to Tiksi",
+    "s": "The Lena reaches the Laptev Sea through a delta of more than 1,500 islands, and the Bykovskaya channel is its eastern exit, the one ships use to reach the port of Tiksi. From above it is a broad silver band winding between flat, lake-spotted tundra islands. For most of the year it is frozen and white, open to ships only from about June to September.",
+    "w": "A broad silver channel between flat tundra islands dotted with lakes, at the delta's eastern edge by the sea.",
+    "f": [
+      "The Bykovskaya is the main shipping channel between the Lena and the port of Tiksi.",
+      "The Lena Delta, around 30,000 km², is the largest delta in the Arctic.",
+      "Much of the delta's tundra, lakes and bird colonies is protected in the Ust-Lensky Nature Reserve."
+    ],
+    "q": {
+      "q": "Which port do ships reach through the Bykovskaya channel?",
+      "a": "Tiksi",
+      "x": [
+        "Dikson",
+        "Pevek"
+      ]
+    }
+  },
+  "Q188773": {
+    "t": "A river that never reaches the sea",
+    "s": "The Okavango rises in the highlands of Angola and flows south-east as a dark, winding river through dry woodland, towards a fate unlike most rivers: it never reaches the sea. Instead it spreads into the Okavango Delta in Botswana, a green fan of channels, islands and lagoons in the middle of the Kalahari, where almost all its water evaporates or sinks into the sand.",
+    "w": "A dark, winding river with a green floodplain through dry, pale woodland, heading south-east.",
+    "f": [
+      "In 2014 the Okavango Delta became the 1,000th site on UNESCO's World Heritage list.",
+      "Its flood reaches the delta months after the rains, peaking in the dry winter season.",
+      "In Angola the river is called the Cubango."
+    ],
+    "q": {
+      "q": "Where does the Okavango River end?",
+      "a": "In a delta in the Kalahari",
+      "x": [
+        "In the Atlantic Ocean",
+        "In Lake Malawi"
+      ]
+    }
+  },
+  "ne-rv-1159114387": {
+    "t": "The Lena delta's quiet western channel",
+    "s": "The Olenekskaya is the westernmost of the Lena delta's great channels, winding west through flat tundra towards the Olenyok Gulf. From above it is a thin silver thread between islands spattered with thousands of small lakes, the ground around them patterned like a honeycomb. In winter all of it vanishes under snow and ice for some eight months.",
+    "w": "A narrow winding channel through flat tundra patterned with polygons and countless small lakes, heading west to the sea.",
+    "f": [
+      "Only a small share of the Lena's water takes this channel; most flows out through the eastern ones.",
+      "The honeycomb pattern comes from ice wedges that split the frozen ground into polygons.",
+      "Near its start lies Samoylov Island, where a Russian–German research station studies the permafrost."
+    ],
+    "q": {
+      "q": "Which gulf does the Olenekskaya channel flow into?",
+      "a": "The Olenyok Gulf",
+      "x": [
+        "The Gulf of Ob",
+        "Chaun Bay"
+      ]
+    }
+  },
+  "Q134750": {
+    "t": "The great waterway from the Great Lakes to the sea",
+    "s": "Here, below the Thousand Islands, the St. Lawrence is a broad blue river dotted with islands, running north-east between Ontario and New York State. It carries the outflow of all the Great Lakes towards the Atlantic. Look for the locks and dams of the St. Lawrence Seaway, which since 1959 have let ocean ships sail deep into the heart of North America.",
+    "w": "A broad blue river with islands and a straight shipping channel, flowing north-east between farmland and woods.",
+    "f": [
+      "The Thousand Islands, upstream near Kingston, actually number more than 1,800.",
+      "The Seaway lets ships travel some 3,700 km inland, from the Atlantic to Lake Superior.",
+      "On the way from the Atlantic to Lake Superior, ships are lifted about 180 m."
+    ],
+    "q": {
+      "q": "What opened on the St. Lawrence in 1959?",
+      "a": "The St. Lawrence Seaway",
+      "x": [
+        "The Erie Canal",
+        "The Rideau Canal"
+      ]
+    }
+  },
+  "Q26433": {
+    "t": "A taiga river in Russia's diamond country",
+    "s": "The Vilyuy winds east across Yakutia to join the Lena, a broad river looping through larch taiga and meadows, with long sandbars in summer. This is diamond country: the Mir mine at Mirny, a vast open pit about 1.2 km across, lies in the Vilyuy basin to the west. Upstream, a dam holds the river in a long reservoir.",
+    "w": "A looping river with sandbars and meadows through dark larch taiga; far to the west, a huge round open pit.",
+    "f": [
+      "The Vilyuy is the longest left-bank tributary of the Lena, about 2,650 km long.",
+      "The Mir pit near Mirny is one of the largest man-made holes on Earth, more than 500 m deep.",
+      "Nyurba, on the Vilyuy, is another centre of diamond mining."
+    ],
+    "q": {
+      "q": "Which gems are mined in the Vilyuy basin?",
+      "a": "Diamonds",
+      "x": [
+        "Emeralds",
+        "Rubies"
+      ]
+    }
+  },
+  "Q26271": {
+    "t": "One of the most twisting rivers on Earth",
+    "s": "Few rivers wander as much as the Purus. From above it is a tight coil of brown loops laid across the Amazon forest, some bends almost touching, with crescent lakes left behind wherever a loop has been cut off. A boat following it covers far more distance than a plane flying straight overhead.",
+    "w": "Tight brown loops and crescent-shaped lakes coiling through unbroken dark green forest.",
+    "f": [
+      "The Purus flows more than 3,000 km from Peru to the Amazon.",
+      "Each year its floods spread into the forest, creating the seasonally flooded várzea woods.",
+      "It is one of the Amazon's major southern tributaries, joining the main river upstream of Manaus."
+    ],
+    "q": {
+      "q": "What forms where a loop of the Purus is cut off?",
+      "a": "An oxbow lake",
+      "x": [
+        "A delta",
+        "A waterfall"
+      ]
+    }
+  },
+  "Q26799": {
+    "t": "A long, lonely river across the far north of Yakutia",
+    "s": "The Olenyok runs for more than 2,000 km across north-western Yakutia, first through sparse larch forest and then open tundra, with hardly a village along its banks. From above it is a winding silver ribbon with sandbars and cliffs, set in a vast and silent land. It reaches the Laptev Sea just west of the Lena delta.",
+    "w": "A winding silver river with sandbars and occasional cliffs through sparse larch forest and tundra.",
+    "f": [
+      "The river lies frozen for about eight months a year.",
+      "Diamonds have been found in its basin, part of Yakutia's diamond province.",
+      "Almost its entire basin lies on permafrost."
+    ],
+    "q": {
+      "q": "Into which sea does the Olenyok flow?",
+      "a": "The Laptev Sea",
+      "x": [
+        "The Kara Sea",
+        "The White Sea"
+      ]
+    }
+  },
+  "Q156054": {
+    "t": "A savanna river that gave its name to a state",
+    "s": "The Tocantins flows north through the Cerrado, Brazil's tropical savanna, a broad river of sandbars and rocky rapids between patches of dry woodland and farmland. It gave its name to Tocantins, one of Brazil's youngest states, created in 1988. Downstream it passes the giant Tucuruí dam and reaches the sea near Belém.",
+    "w": "A wide river with pale sandbars and rapids winding north through dry, brownish savanna and farmland.",
+    "f": [
+      "Palmas, the state capital, was founded in 1989 as a planned city.",
+      "The Tucuruí Dam on its lower course is one of Brazil's largest hydroelectric plants.",
+      "It meets the Araguaia at the Bico do Papagaio, the 'Parrot's Beak'."
+    ],
+    "q": {
+      "q": "In which year was the Brazilian state of Tocantins created?",
+      "a": "1988",
+      "x": [
+        "1960",
+        "2001"
+      ]
+    }
+  },
+  "Q916349": {
+    "t": "A border river of wetlands and an old stone fort",
+    "s": "For hundreds of kilometres the Guaporé, called the Iténez in Bolivia, forms the border between Bolivia and Brazil, winding slowly through flat wetland, savanna and forest. From above it is a dark, meandering thread edged with flooded grassland that shines after the rains. On its Brazilian bank stands Real Forte Príncipe da Beira, a Portuguese stone fortress built in the 1770s.",
+    "w": "A dark, meandering river through flat wetlands and forest, with shining flooded grasslands along its banks.",
+    "f": [
+      "The Guaporé flows into the Mamoré, whose waters later help form the Madeira.",
+      "Noel Kempff Mercado National Park, on the Bolivian side, is a UNESCO World Heritage site.",
+      "The Portuguese fort was built to guard the colonial frontier with Spain."
+    ],
+    "q": {
+      "q": "What is the Guaporé called in Bolivia?",
+      "a": "Iténez",
+      "x": [
+        "Beni",
+        "Pilcomayo"
+      ]
+    }
+  },
+  "Q1344617": {
+    "t": "The Danube's biggest arm, building its own delta",
+    "s": "The Chilia is the northernmost and largest of the Danube's three arms, carrying more than half of the river's water to the Black Sea. It winds between reed beds, lakes and willow woods, and for much of its length it forms the border between Romania and Ukraine. At its mouth it keeps building a small new delta of its own, pushing out into the sea.",
+    "w": "A broad, winding river arm through green reed beds and lakes, fanning into a small delta at the Black Sea.",
+    "f": [
+      "The Chilia is the longest and the youngest of the delta's three main arms.",
+      "It carries around 60 percent of the Danube's flow.",
+      "Vylkove, on its Ukrainian bank, is laced with canals and nicknamed the 'Danube Venice'."
+    ],
+    "q": {
+      "q": "How much of the Danube's water flows through the Chilia arm?",
+      "a": "More than half",
+      "x": [
+        "About a tenth",
+        "About a quarter"
+      ]
+    }
+  },
+  "Q1668781": {
+    "t": "The Danube's oldest and wildest arm",
+    "s": "The Sfântu Gheorghe is the southernmost of the Danube's three main arms and the oldest, winding south-east through the wildest part of the delta. Around it spread reed beds, lagoons and sand dunes, home to pelicans and countless other birds. It carries a little over a fifth of the river's water to the sea, ending near the fishing village of Sfântu Gheorghe.",
+    "w": "A winding river arm through reeds, lagoons and willow woods, with old cut-off loops lying beside it.",
+    "f": [
+      "In recent decades several of its big loops were bypassed by straight canals, shortening it by tens of kilometres.",
+      "It is the most sparsely populated of the delta's three main arms.",
+      "Its name, like the village's, means Saint George."
+    ],
+    "q": {
+      "q": "Which is the southernmost of the Danube's three main arms?",
+      "a": "Sfântu Gheorghe",
+      "x": [
+        "Sulina",
+        "Chilia"
+      ]
+    }
+  },
+  "Q1369180": {
+    "t": "The Danube arm straightened like a ruler",
+    "s": "Look for the one line in the Danube Delta that is almost perfectly straight: the Sulina branch. In the late 19th century engineers cut through its loops and dredged it into a shipping canal, and today seagoing ships use it to enter the Danube. It runs between reed beds and lakes for about 60 km to the little port of Sulina on the Black Sea.",
+    "w": "A ruler-straight channel cutting through green reed beds and lakes in the middle of the delta, out to the sea.",
+    "f": [
+      "The work was carried out by the European Commission of the Danube, set up in 1856.",
+      "Straightening shortened the branch from about 84 km to about 63 km.",
+      "Sulina, at its mouth, is the easternmost town in Romania."
+    ],
+    "q": {
+      "q": "Why is the Sulina branch so straight?",
+      "a": "Engineers cut and dredged it",
+      "x": [
+        "It follows a fault line",
+        "The Romans dug it"
+      ]
+    }
+  },
+  "Q12722938": {
+    "t": "A long side-arm of the Danube among the fields",
+    "s": "In south-eastern Romania the Danube splits in two for roughly a hundred kilometres: the main river on the east and the narrower Borcea branch on the west. Between them lies a long island of fields, once a vast floodplain wetland that was drained for farming. From above, look for two parallel ribbons of water with a patchwork of rectangular fields in between.",
+    "w": "Two roughly parallel river channels with a long strip of rectangular fields between them, in flat farmland.",
+    "f": [
+      "The island between the two arms is known as Balta Ialomiței.",
+      "At Fetești the Bucharest–Constanța railway crosses the Borcea, then the main Danube at Cernavodă.",
+      "The first bridges here, designed by Anghel Saligny, opened in 1895."
+    ],
+    "q": {
+      "q": "What lies between the Borcea branch and the main Danube?",
+      "a": "A long island of farmland",
+      "x": [
+        "A mountain ridge",
+        "A large lake"
+      ]
+    }
+  },
+  "Q104437": {
+    "t": "A great northern river crossing Alaska to the sea",
+    "s": "By the time it crosses western Alaska, the Yukon is a broad, silty river, several kilometres wide in places, braided around islands and looping through flat land of spruce, tundra and countless lakes. It rises in British Columbia, not far from the Pacific, yet takes the long way round across Yukon and Alaska to the Bering Sea. It is frozen for more than half the year.",
+    "w": "A broad grey-brown river split around long islands, looping through flat land of dark spruce, tundra and lakes.",
+    "f": [
+      "At about 3,200 km, it is one of the longest rivers in North America.",
+      "Chinook salmon swim nearly 3,000 km up the Yukon to spawn, one of the longest salmon runs on Earth.",
+      "The Klondike Gold Rush of 1896–99 brought tens of thousands of prospectors down the Yukon to Dawson City."
+    ],
+    "q": {
+      "q": "Which sea does the Yukon flow into?",
+      "a": "The Bering Sea",
+      "x": [
+        "The Beaufort Sea",
+        "The Chukchi Sea"
+      ]
+    }
+  },
+  "Q5089": {
+    "t": "India's sacred river, broad and slow across the plain",
+    "s": "Across the plains of Uttar Pradesh the Ganges is a broad, slow river, swinging in great curves between wide banks of pale sand. On its outer bends towns and villages crowd the high banks; on the inner ones sandbars stretch for kilometres. Just downstream lies Varanasi, one of the oldest living cities in the world, whose riverside steps draw pilgrims from all over India.",
+    "w": "A broad river curving across a flat plain, with wide pale sandbars inside each bend and towns on the outer banks.",
+    "f": [
+      "The Ganges is sacred in Hinduism and is revered as the goddess Ganga.",
+      "It flows about 2,500 km from the Himalayas to the Bay of Bengal.",
+      "In Varanasi the ghats line only the western bank; the eastern bank is left almost empty."
+    ],
+    "q": {
+      "q": "Which holy city lies on the Ganges just downstream of here?",
+      "a": "Varanasi",
+      "x": [
+        "Amritsar",
+        "Madurai"
+      ]
+    }
+  },
+  "Q7348": {
+    "t": "A lifeline of green across Pakistan's dry plains",
+    "s": "The Indus crosses the dry plains of Pakistan as a broad, braided river of grey-brown water and pale sand, with a thin band of green on either side and desert beyond. Barrages divert its water into a vast web of canals, one of the largest irrigation systems in the world. Along this river, some 4,500 years ago, the cities of the Indus Valley civilisation flourished.",
+    "w": "A wide, braided grey-brown river with a green strip of fields and canals on each side, and dry land beyond.",
+    "f": [
+      "The Indus river dolphin, which is almost blind, lives only in this river system.",
+      "Mohenjo-daro, one of the great cities of the Indus Valley civilisation, stands near the river in Sindh.",
+      "The river rises in Tibet and flows some 3,000 km to the Arabian Sea."
+    ],
+    "q": {
+      "q": "Which ancient city stood near the Indus in Sindh?",
+      "a": "Mohenjo-daro",
+      "x": [
+        "Babylon",
+        "Persepolis"
+      ]
+    }
+  },
+  "Q3542": {
+    "t": "A river that turns its back on the sea, then returns",
+    "s": "The Niger rises in the highlands of Guinea, only about 240 km from the Atlantic, yet flows away from the ocean, north-east to the edge of the Sahara, before swinging south to the Gulf of Guinea. Here in the Sahel it is a broad, braided band of water and green islands, the only line of life across a dry, tan landscape.",
+    "w": "A broad river braided around green islands and rice fields, crossing dry, tan Sahel plains.",
+    "f": [
+      "Its great curve carries it past Timbuktu, at the edge of the Sahara.",
+      "Upstream, the Inner Niger Delta floods a vast area of Mali every year.",
+      "At about 4,200 km, it is Africa's third-longest river."
+    ],
+    "q": {
+      "q": "Where does the Niger River rise?",
+      "a": "In the highlands of Guinea",
+      "x": [
+        "In the Atlas Mountains",
+        "In the Ethiopian Highlands"
+      ]
+    }
+  },
+  "Q171649": {
+    "t": "A border river winding through rainforest to the Congo",
+    "s": "The Ubangi winds south through the rainforest, forming the border between the Democratic Republic of the Congo and its neighbours, first the Central African Republic and then the Republic of the Congo. From above it is a broad brown ribbon with sandbanks and forested islands, set in unbroken green. It is the largest right-bank tributary of the Congo.",
+    "w": "A broad brown river with sandbanks and forested islands, winding through unbroken rainforest.",
+    "f": [
+      "It is formed where the Mbomou and the Uele rivers meet.",
+      "Bangui, the capital of the Central African Republic, stands on its bank.",
+      "In the dry season, low water over the rapids near Bangui can stop river boats."
+    ],
+    "q": {
+      "q": "Which capital stands on the Ubangi?",
+      "a": "Bangui",
+      "x": [
+        "Brazzaville",
+        "Kinshasa"
+      ]
+    }
+  },
+  "Q284495": {
+    "t": "A gold-rush route through the Yukon wilderness",
+    "s": "The Teslin flows north out of long, narrow Teslin Lake and winds through spruce forest and low hills to join the Yukon River. From above it is a clear, meandering ribbon in an almost roadless wilderness, deep green in summer and white in winter. During the Klondike Gold Rush of 1897–98, prospectors floated down it on their way to Dawson City.",
+    "w": "A winding river through dark spruce forest and low hills, far from roads, flowing north to a larger river.",
+    "f": [
+      "The name comes from a Tlingit word usually translated as 'long, narrow waters', describing Teslin Lake.",
+      "Teslin Lake is well over 100 km long but only a few kilometres wide.",
+      "It joins the Yukon at Hootalinqua, once a stop for paddle steamers."
+    ],
+    "q": {
+      "q": "Which river does the Teslin flow into?",
+      "a": "The Yukon",
+      "x": [
+        "The Mackenzie",
+        "The Stikine"
+      ]
+    }
+  },
+  "Q34589": {
+    "t": "A green ribbon through the desert of western Iraq",
+    "s": "In western Iraq the Euphrates is a slow, winding river bordered by a narrow strip of date palms and fields, sharply cut off by pale desert on both sides. Here and there it widens into lakes and reservoirs. With the Tigris, this river fed the cities of ancient Mesopotamia; Babylon stood on the Euphrates further downstream.",
+    "w": "A winding river with a narrow green fringe of palms and fields, pale desert right up to it, and lakes nearby.",
+    "f": [
+      "At about 2,800 km, the Euphrates is the longest river in western Asia.",
+      "It rises in the mountains of eastern Turkey and flows through Syria into Iraq.",
+      "It meets the Tigris in southern Iraq to form the Shatt al-Arab."
+    ],
+    "q": {
+      "q": "Which ancient city stood on the Euphrates?",
+      "a": "Babylon",
+      "x": [
+        "Nineveh",
+        "Persepolis"
+      ]
+    }
+  },
+  "Q7666170": {
+    "t": "The Indus begins as the 'Lion River' in Tibet",
+    "s": "High on the Tibetan Plateau, a small river winds through a wide, bare valley of brown and ochre hills: the Sengge Zangbo, the 'Lion River', the uppermost Indus. Its source lies north of sacred Mount Kailash. The town of Shiquanhe, whose Chinese name means 'Lion Spring River', stands beside it at about 4,300 m.",
+    "w": "A thin, winding river with a narrow green edge in a wide, bare valley between brown and ochre mountains.",
+    "f": [
+      "In Tibetan tradition the Indus flows from a lion's mouth, one of four rivers born near Kailash.",
+      "From here the Indus flows north-west into Ladakh and on for some 3,000 km to the Arabian Sea.",
+      "Ngari Gunsa airport, near Shiquanhe, is one of the highest airports in the world."
+    ],
+    "q": {
+      "q": "What does the name Sengge Zangbo mean?",
+      "a": "Lion River",
+      "x": [
+        "Horse River",
+        "Peacock River"
+      ]
+    }
+  },
+  "Q2251": {
+    "t": "A great river stepped into lakes by dams",
+    "s": "In central Washington the Columbia winds through a deep, dry canyon of dark basalt, and dam after dam turns it into a chain of long blue lakes. The land around is sagebrush and wheat, broken by bright green blocks of irrigated orchards along the river. Upstream stands Grand Coulee, one of the largest concrete dams in the world.",
+    "w": "A long, blue, lake-like river in a dry, dark basalt canyon, with green irrigated orchards along its banks.",
+    "f": [
+      "At the end of the last ice age, colossal floods from glacial Lake Missoula scoured the Channeled Scablands nearby.",
+      "The Columbia carries more water to the Pacific than any other river in North America.",
+      "Lewis and Clark followed the Columbia to the Pacific in 1805."
+    ],
+    "q": {
+      "q": "Which huge dam stands on the Columbia upstream of here?",
+      "a": "Grand Coulee",
+      "x": [
+        "Hoover",
+        "Glen Canyon"
+      ]
+    }
+  },
+  "Q7355": {
+    "t": "A muddy river between desert dunes and loess hills",
+    "s": "Here the Yellow River loops along the edge of the Tengger Desert, a muddy ribbon between golden dunes and bare, furrowed hills of loess. Along its banks, strips of irrigated fields glow green against the sand. The river takes its colour and its name from the fine yellow silt it scours from the Loess Plateau; it carries more silt than almost any other river on Earth.",
+    "w": "A brownish-yellow river winding between golden dunes and furrowed hills, lined with bright green irrigated fields.",
+    "f": [
+      "At Shapotou, near Zhongwei, the river runs right beside the dunes of the Tengger Desert.",
+      "At about 5,460 km, the Yellow River is the second-longest river in China.",
+      "Chinese civilisation grew up along its middle and lower reaches, often called its cradle."
+    ],
+    "q": {
+      "q": "What gives the Yellow River its colour?",
+      "a": "Silt from the Loess Plateau",
+      "x": [
+        "Iron-rich springs",
+        "Algae in the water"
+      ]
+    }
+  },
+  "Q626": {
+    "t": "Europe's longest river, splitting in two across the steppe",
+    "s": "Below Volgograd the Volga splits in two: the main river and its side-arm, the Akhtuba, run side by side for hundreds of kilometres across dry steppe. Between them lies the Volga–Akhtuba floodplain, a green maze of channels, lakes, oak woods and melon fields, flooded every spring. From above it looks like a bright green ribbon laid across a brown land.",
+    "w": "Two parallel rivers with a wide green floodplain of lakes and channels between them, across brown, dry steppe.",
+    "f": [
+      "At about 3,500 km, the Volga is the longest river in Europe.",
+      "It flows into the Caspian Sea, which has no outlet to the ocean.",
+      "The sandy soils of the lower Volga are famous for their watermelons."
+    ],
+    "q": {
+      "q": "Into which body of water does the Volga flow?",
+      "a": "The Caspian Sea",
+      "x": [
+        "The Black Sea",
+        "The Sea of Azov"
+      ]
+    }
+  },
+  "Q43106": {
+    "t": "A river that floods a whole plain every year",
+    "s": "In western Zambia the Zambezi spreads across the Barotse floodplain, a flat, grassy plain up to about 30 km wide that becomes a shining lake in the rainy season. From above, look for a winding river with oxbows and channels in pale green grassland, edged by darker woodland. When the water rises, the Lozi king moves to higher ground by royal barge in the Kuomboka ceremony.",
+    "w": "A winding river with oxbows in a wide, flat, pale green floodplain, bordered by darker woodland.",
+    "f": [
+      "Downstream the Zambezi plunges over Victoria Falls and fills Lake Kariba, one of the largest reservoirs in the world.",
+      "At about 2,600 km, it is Africa's fourth-longest river.",
+      "It is the largest African river flowing into the Indian Ocean."
+    ],
+    "q": {
+      "q": "What is the Lozi ceremony of moving to higher ground called?",
+      "a": "Kuomboka",
+      "x": [
+        "Umhlanga",
+        "Timkat"
+      ]
+    }
+  },
+  "Q2279579": {
+    "t": "The only river that drains Lake Malawi",
+    "s": "The Shire is Lake Malawi's only outlet, flowing south for about 400 km to join the Zambezi in Mozambique. On the way it tumbles through the Murchison Cataracts, then slows in the hot lowlands into a broad, marshy valley. Here, near the Elephant Marsh, it winds through reed beds, lagoons and sugar-cane fields.",
+    "w": "A winding river in a broad, green, marshy valley with lagoons and fields, between hills to the east and west.",
+    "f": [
+      "David Livingstone travelled up the Shire in 1859 and went on to reach Lake Malawi.",
+      "Hydroelectric plants on its rapids supply most of Malawi's electricity.",
+      "The Elephant Marsh is a protected wetland, listed under the Ramsar Convention."
+    ],
+    "q": {
+      "q": "Which lake does the Shire drain?",
+      "a": "Lake Malawi",
+      "x": [
+        "Lake Tanganyika",
+        "Lake Chilwa"
+      ]
+    }
   }
 }

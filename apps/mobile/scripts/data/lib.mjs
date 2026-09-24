@@ -281,7 +281,8 @@ export function unshout(lang, v) {
 export function localNames(props, english) {
   const l = {};
   for (const lang of LANGS) {
-    const raw = cleanName(props[`name_${lang}`]);
+    // Stress marks (На́нда-Де́ви) are for dictionaries, not for names on a card.
+    const raw = cleanName(props[`name_${lang}`]?.normalize('NFD').replace(/\u0301/g, '').normalize('NFC'));
     if (!raw || raw.toLocaleUpperCase('en') === english?.toLocaleUpperCase('en')) continue;
     const v = unshout(lang, raw);
     if (v !== english) l[lang] = v;

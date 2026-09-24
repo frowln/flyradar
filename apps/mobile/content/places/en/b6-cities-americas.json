@@ -2510,5 +2510,637 @@
         "The Santa Ana"
       ]
     }
+  },
+  "Q1015639": {
+    "t": "A rainy island port on Canada's northern Pacific coast",
+    "s": "Prince Rupert sits on Kaien Island near the mouth of the Skeena River, among dark, forested mountains and fjord-like inlets, with the Alaska Panhandle just to the north. It is one of the rainiest cities in Canada. Its deep harbour is among the closest North American ports to Asia, which is why a transcontinental railway was pushed through to it, reaching the coast in 1914.",
+    "w": "A small town on a hilly island among forested mountains and channels; a large, deep harbour with container docks.",
+    "f": [
+      "The name was chosen in a 1906 contest and honours Prince Rupert of the Rhine, first governor of the Hudson's Bay Company.",
+      "The Skeena, whose mouth lies just to the south-east, is one of British Columbia's great salmon rivers."
+    ],
+    "q": {
+      "q": "How was the name Prince Rupert chosen in 1906?",
+      "a": "Through a public contest",
+      "x": [
+        "After a royal visit",
+        "After a ship's name"
+      ]
+    }
+  },
+  "Q2132": {
+    "t": "A garden capital at the southern tip of Vancouver Island",
+    "s": "Victoria sits at the southern tip of Vancouver Island, looking across the Strait of Juan de Fuca to the snowy Olympic Mountains in the United States. Sheltered in their rain shadow, it enjoys one of the mildest, driest climates in Canada. The Hudson's Bay Company built Fort Victoria here in 1843, and the town boomed with the gold rush of 1858.",
+    "w": "A city on a rocky, indented shore at an island's southern tip; a busy inner harbour; snowy mountains across the strait to the south.",
+    "f": [
+      "Victoria is the capital of British Columbia, though Vancouver is far larger.",
+      "Floatplanes take off and land in the Inner Harbour, right beside downtown."
+    ],
+    "q": {
+      "q": "When was Fort Victoria founded?",
+      "a": "In 1843",
+      "x": [
+        "In 1792",
+        "In 1886"
+      ]
+    }
+  },
+  "Q638017": {
+    "t": "An Inuit hamlet in a pocket of the Arctic coast",
+    "s": "Arctic Bay nestles in a small, round bay almost enclosed by steep, bare hills on northern Baffin Island — its Inuktitut name, Ikpiarjuk, means 'the pocket'. It opens onto Admiralty Inlet, a giant fjord more than 300 km long, where narwhals gather in summer. The English name comes from the whaling ship Arctic, which called here in 1872.",
+    "w": "A tiny settlement in a nearly enclosed bay; brown, flat-topped hills; a long, wide fjord covered in ice for much of the year.",
+    "f": [
+      "In winter the sun stays below the horizon here for more than two months.",
+      "It is one of the northernmost communities in Canada."
+    ],
+    "q": {
+      "q": "What does Arctic Bay's Inuktitut name, Ikpiarjuk, mean?",
+      "a": "The pocket",
+      "x": [
+        "The whale",
+        "The ice"
+      ]
+    }
+  },
+  "Q606622": {
+    "t": "The 'place with no dawn' on a gravel polar desert",
+    "s": "Resolute lies on the south coast of Cornwallis Island, deep in Canada's Arctic archipelago, on a barren plain of grey gravel with barely a plant in sight. Its Inuktitut name, Qausuittuq, means 'place with no dawn', for the long winter darkness. The English name comes from HMS Resolute, one of the British ships that explored these channels in the 1850s.",
+    "w": "A tiny settlement and airstrip on a bare, grey-brown coastal plain; sea ice or dark channels between flat islands.",
+    "f": [
+      "Timber from HMS Resolute was later made into a desk that still stands in the White House.",
+      "So little rain or snow falls here that the land counts as a polar desert.",
+      "Expeditions heading for the North Pole often set off from the airstrip here."
+    ],
+    "q": {
+      "q": "Where did timber from the ship HMS Resolute end up?",
+      "a": "In a desk in the White House",
+      "x": [
+        "In Big Ben's clock tower",
+        "In a Canadian cathedral"
+      ]
+    }
+  },
+  "Q1723761": {
+    "t": "A hamlet sitting right on the Arctic Circle",
+    "s": "Naujaat lies almost exactly on the Arctic Circle, on the north shore of a bay at the base of the Melville Peninsula. Its Inuktitut name means 'seagull nesting place', after the cliffs nearby. Its old English name, Repulse Bay, dates from 1742, when the explorer Christopher Middleton found that the bay was a dead end rather than the hoped-for Northwest Passage.",
+    "w": "A small settlement on a bare, rocky shore of a wide bay; low tundra hills and countless lakes inland.",
+    "f": [
+      "The Scottish explorer John Rae wintered here in 1846–47, living largely off the land as the Inuit did.",
+      "The hamlet officially took the name Naujaat in 2015."
+    ],
+    "q": {
+      "q": "Why did Middleton name this place Repulse Bay in 1742?",
+      "a": "It was a dead end, not a passage",
+      "x": [
+        "Local people drove his ships away",
+        "A storm forced him back"
+      ]
+    }
+  },
+  "Q2061": {
+    "t": "A gold town on the shore of North America's deepest lake",
+    "s": "Yellowknife sits on the rocky north shore of Great Slave Lake, which at about 614 m is the deepest lake in North America. All around, ice-age glaciers scraped the Canadian Shield down to pink-grey rock and thousands of lakes. The town grew from gold strikes in the 1930s, and on clear winter nights it's one of the best places on Earth to watch the northern lights.",
+    "w": "A small city on the rocky shore of a vast lake; bare rock, scattered spruce and countless small lakes all around.",
+    "f": [
+      "The name comes from the copper knives traded by the local Dene people, the Yellowknives.",
+      "In winter an ice road runs across the frozen bay to the nearby community of Dettah."
+    ],
+    "q": {
+      "q": "Which lake does Yellowknife stand beside?",
+      "a": "Great Slave Lake",
+      "x": [
+        "Great Bear Lake",
+        "Lake Athabasca"
+      ]
+    }
+  },
+  "Q201313": {
+    "t": "An old fur post on the Mackenzie, near the Arctic Circle",
+    "s": "Fort Good Hope sits on the east bank of the Mackenzie, Canada's longest river, just south of the Arctic Circle. A little upstream the river squeezes through the Ramparts, a gorge between limestone cliffs. The North West Company opened a fur-trading post here in 1805, one of the oldest on the lower Mackenzie. Around it stretch spruce forest, muskeg and lakes.",
+    "w": "A tiny settlement on a very wide river; a narrow gorge just upstream; flat forest and bog dotted with lakes all around.",
+    "f": [
+      "Together with its headwaters, the Mackenzie forms Canada's longest river system, over 4,000 km long.",
+      "Our Lady of Good Hope church, with its hand-painted 19th-century interior, is a National Historic Site."
+    ],
+    "q": {
+      "q": "Which river flows past Fort Good Hope?",
+      "a": "The Mackenzie",
+      "x": [
+        "The Yukon",
+        "The Peace"
+      ]
+    }
+  },
+  "Q2058": {
+    "t": "A river capital named for rapids like white horses",
+    "s": "Whitehorse lies in a broad valley of the Yukon River, ringed by rounded, forested mountains. The name comes from the rapids just upstream, whose foam reminded gold seekers of the manes of galloping white horses; a dam has since tamed them into a lake. In 1898 thousands of Klondike stampeders passed through, building boats to float some 700 km downriver to Dawson City.",
+    "w": "A small city on a terrace beside a winding river; a canyon and a dammed lake upstream; forested mountains all around.",
+    "f": [
+      "The White Pass and Yukon Route railway from Skagway, on the coast, reached Whitehorse in 1900.",
+      "About two-thirds of all the Yukon's people live in Whitehorse."
+    ],
+    "q": {
+      "q": "What gave Whitehorse its name?",
+      "a": "Foaming river rapids",
+      "x": [
+        "A white mountain",
+        "A famous horse"
+      ]
+    }
+  },
+  "Q181056": {
+    "t": "A fan-shaped city north of the equator in Brazil",
+    "s": "Boa Vista is laid out like an open fan: its avenues radiate from a civic centre near the bank of the Rio Branco, a plan drawn up in the 1940s that stands out clearly from the air. It is the only Brazilian state capital lying wholly in the Northern Hemisphere. Around it, instead of rainforest, stretches the lavrado, an open savanna of grass and scattered palms.",
+    "w": "A semicircular city whose streets fan out from a riverbank; open, pale green savanna dotted with small lakes around it.",
+    "f": [
+      "Mount Roraima, the flat-topped tepui where Brazil, Venezuela and Guyana meet, lies about 250 km to the north.",
+      "The Rio Branco flows south to join the Rio Negro and, through it, the Amazon."
+    ],
+    "q": {
+      "q": "What shape is Boa Vista's street plan?",
+      "a": "A fan spreading from the river",
+      "x": [
+        "A perfect grid",
+        "Concentric rings"
+      ]
+    }
+  },
+  "Q180215": {
+    "t": "A city on the equator, facing the Amazon's mouth",
+    "s": "Macapá sits right on the equator, on the north bank of the Amazon where the great river opens into its vast, island-strewn mouth. The water in front of the city is brown and many kilometres wide. The equator is taken seriously here: the local football stadium's halfway line follows it, so each team defends a goal in a different hemisphere.",
+    "w": "A city on a straight riverbank facing a huge brown estuary full of islands; flat forest and savanna inland.",
+    "f": [
+      "The Fortress of São José de Macapá, finished in 1782, is one of the largest forts the Portuguese built in Brazil.",
+      "No road links Macapá with the rest of Brazil; people cross the Amazon by boat or plane."
+    ],
+    "q": {
+      "q": "Which line runs along the halfway line of Macapá's stadium?",
+      "a": "The equator",
+      "x": [
+        "The Tropic of Cancer",
+        "The Greenwich meridian"
+      ]
+    }
+  },
+  "Q1930": {
+    "t": "A capital on a river border, with a canal you can skate",
+    "s": "Ottawa sits on the south bank of the broad Ottawa River, which here divides Ontario from Quebec; the city of Gatineau faces it on the north bank. Through the middle runs the Rideau Canal, opened in 1832, and in winter a long stretch of it freezes into a skating rink nearly 8 km long. Queen Victoria chose the town as Canada's capital in 1857.",
+    "w": "A city on a wide river with Gatineau opposite; a thin canal winding south through the centre; the wooded Gatineau Hills to the north-west.",
+    "f": [
+      "The Rideau Canal has been a UNESCO World Heritage site since 2007.",
+      "Three rivers meet here: the Ottawa, the Rideau and the Gatineau."
+    ],
+    "q": {
+      "q": "Who chose Ottawa as Canada's capital in 1857?",
+      "a": "Queen Victoria",
+      "x": [
+        "John A. Macdonald",
+        "King George III"
+      ]
+    }
+  },
+  "Q3078079": {
+    "t": "Ontario's northernmost community, on Hudson Bay",
+    "s": "Fort Severn is a small Cree community near the mouth of the Severn River on Hudson Bay, the northernmost settlement in Ontario. Around it lie the Hudson Bay Lowlands, one of the largest wetlands on Earth: a flat mosaic of peat bog, ponds and stunted spruce. The Hudson's Bay Company first set up a trading post at the river mouth in 1689.",
+    "w": "A tiny settlement by a river mouth on a flat, grey bay coast; endless bog and ponds inland in every direction.",
+    "f": [
+      "Polar Bear Provincial Park, Ontario's largest park, stretches along the coast to the east.",
+      "For most of the year the community can be reached only by air."
+    ],
+    "q": {
+      "q": "What sets Fort Severn apart from other Ontario communities?",
+      "a": "It is the northernmost",
+      "x": [
+        "It is the oldest city",
+        "It is the provincial capital"
+      ]
+    }
+  },
+  "Q34116": {
+    "t": "A lake port watched over by a Sleeping Giant",
+    "s": "Thunder Bay lines the north-west shore of Lake Superior, the largest freshwater lake in the world by area. Across its bay lies the long Sibley Peninsula, whose flat-topped cliffs look from the city like a giant lying on his back: the Sleeping Giant of Ojibwe legend. The city was created in 1970 by merging two rival ports, Fort William and Port Arthur.",
+    "w": "A city along a curving bay of a huge lake; a long, high peninsula enclosing the bay to the east; dark forest inland.",
+    "f": [
+      "In the early 1800s Fort William was the inland headquarters of the North West Company's fur trade.",
+      "Kakabeka Falls, about 30 km to the west, drops some 40 m over dark shale cliffs."
+    ],
+    "q": {
+      "q": "Which two towns merged in 1970 to form Thunder Bay?",
+      "a": "Fort William and Port Arthur",
+      "x": [
+        "Fort Erie and Port Elgin",
+        "Fort Frances and Port Hope"
+      ]
+    }
+  },
+  "Q2145": {
+    "t": "A walled city on a cliff where the river narrows",
+    "s": "Quebec City stands on a high cliff above the point where the St. Lawrence suddenly narrows — which is exactly what its Algonquian name means. Samuel de Champlain founded a trading post here in 1608. Its old town is still enclosed by stone ramparts, the only surviving city walls north of Mexico. Downstream, the river splits around the long, green Île d'Orléans.",
+    "w": "A city on high ground above a narrowing river; bridges upstream; a long, farmed island downstream where the river widens.",
+    "f": [
+      "The Quebec Bridge, just upstream, has the longest cantilever span in the world, 549 m.",
+      "Montmorency Falls, just east of the city, are about 83 m high — some 30 m taller than Niagara."
+    ],
+    "q": {
+      "q": "What does the name Québec mean?",
+      "a": "Where the river narrows",
+      "x": [
+        "Land of lakes",
+        "Cold wind"
+      ]
+    }
+  },
+  "Q2141": {
+    "t": "A deep natural harbour with a great basin behind it",
+    "s": "Halifax sits on a peninsula in one of the world's great natural harbours: a long, deep inlet that narrows and then opens into Bedford Basin, a broad inner bay. Two suspension bridges cross the harbour to Dartmouth on the far side. The British founded the town in 1749 as a naval base, and for decades immigrants arriving by ship first set foot in Canada here.",
+    "w": "A city on a peninsula beside a long, deep harbour that opens into a wide inner basin; two bridges across the water.",
+    "f": [
+      "Between 1928 and 1971 about a million immigrants entered Canada through Pier 21 in Halifax.",
+      "The harbour stays free of ice all winter."
+    ],
+    "q": {
+      "q": "What is the large inner bay of Halifax Harbour called?",
+      "a": "Bedford Basin",
+      "x": [
+        "Minas Basin",
+        "Mahone Bay"
+      ]
+    }
+  },
+  "Q2082": {
+    "t": "North America's easternmost city, facing the Atlantic",
+    "s": "St. John's clusters around a snug harbour on the east coast of Newfoundland, reached from the ocean only through the Narrows, a slot between high cliffs. On Signal Hill above it, Guglielmo Marconi received the first transatlantic radio signal in 1901. A few kilometres to the south-east, Cape Spear is the easternmost point of the North American continent.",
+    "w": "A hilly town around a small, almost enclosed harbour with a narrow entrance; rugged cliffs and open Atlantic to the east.",
+    "f": [
+      "Newfoundland keeps its own time zone, half an hour ahead of Atlantic time.",
+      "In spring and early summer icebergs from Greenland often drift past this coast."
+    ],
+    "q": {
+      "q": "What happened on Signal Hill in St. John's in 1901?",
+      "a": "First radio signal across the Atlantic",
+      "x": [
+        "First telephone call to Europe",
+        "First steamship sailing to Europe"
+      ]
+    }
+  },
+  "Q3335210": {
+    "t": "Labrador's northernmost town, among islands and fjords",
+    "s": "Nain sits on a sheltered bay of Labrador's rugged north coast, where hundreds of rocky islands and long fjords break up the shoreline and sea ice lingers well into spring. Moravian missionaries founded a mission here in 1771. It is the northernmost permanent community in Labrador and the gateway to the Torngat Mountains further north.",
+    "w": "A small settlement on a bay behind a maze of rocky islands; bare, rounded hills and fjords; sea ice for much of the year.",
+    "f": [
+      "Labradorite, a stone that flashes blue and green, was first described from Paul's Island near Nain around 1770.",
+      "Nain is the administrative centre of Nunatsiavut, the Inuit region of Labrador."
+    ],
+    "q": {
+      "q": "Which shimmering mineral was first described near Nain?",
+      "a": "Labradorite",
+      "x": [
+        "Moonstone",
+        "Opal"
+      ]
+    }
+  },
+  "Q2127": {
+    "t": "A small capital on an island of brick-red fields",
+    "s": "Charlottetown sits on a harbour where three small rivers meet, in the middle of Prince Edward Island — and the first thing you'll notice is the colour of the land. The island's soil is a vivid brick red, showing in ploughed fields and along its cliffs and beaches. In 1864 a conference here set in motion the union of provinces that became Canada.",
+    "w": "A small town on a branching harbour; a quilt of green and red-brown fields; red cliffs along the island's shore.",
+    "f": [
+      "The red colour comes from iron oxide — rust — in the island's sandstone and soil.",
+      "The Confederation Bridge, about 12.9 km long, is the world's longest bridge over ice-covered water.",
+      "The town was named after Queen Charlotte, wife of King George III."
+    ],
+    "q": {
+      "q": "Why is the soil of Prince Edward Island so red?",
+      "a": "Iron oxide",
+      "x": [
+        "Volcanic ash",
+        "Crushed coral"
+      ]
+    }
+  },
+  "Q923541": {
+    "t": "A Patagonian port on a drowned river valley",
+    "s": "Puerto Deseado sits at the mouth of the Deseado River on Argentina's windswept Patagonian coast, where the sea has flooded an old river valley to form a long, narrow ría reaching some 40 km inland. Its cliffs and islets teem with seabirds, sea lions and penguins. The English navigator Thomas Cavendish named the harbour after his ship, the Desire, in 1586.",
+    "w": "A small town at the mouth of a long, narrow inlet cut into bare, tawny plateau; rocky islets off the coast.",
+    "f": [
+      "Charles Darwin explored the ría during the voyage of the Beagle in 1833.",
+      "Rockhopper penguins nest on Isla Pingüino, a little way down the coast to the south."
+    ],
+    "q": {
+      "q": "Which ship gave Puerto Deseado its name?",
+      "a": "Thomas Cavendish's Desire",
+      "x": [
+        "Magellan's Victoria",
+        "Darwin's Beagle"
+      ]
+    }
+  },
+  "Q44242": {
+    "t": "A windswept steppe capital on a tidal estuary",
+    "s": "Río Gallegos lies on the south bank of a wide estuary near Argentina's southern tip, surrounded by flat, treeless Patagonian steppe. Its tides are among the highest on the Argentine coast, and at low water huge grey mudflats appear, where migrating shorebirds feed. Founded in 1885, the town grew as a port for the wool of the vast sheep ranches around it.",
+    "w": "A low town beside a broad estuary with wide mudflats; flat, tawny steppe stretching to the horizon.",
+    "f": [
+      "It is the capital of Santa Cruz, one of Argentina's largest and least populated provinces.",
+      "Strong westerly winds sweep across the steppe here for much of the year."
+    ],
+    "q": {
+      "q": "What made the Río Gallegos region rich in the late 1800s?",
+      "a": "Sheep ranching",
+      "x": [
+        "Silver mining",
+        "Sugar cane"
+      ]
+    }
+  },
+  "Q221921": {
+    "t": "An oil town born when a search for water struck oil",
+    "s": "Comodoro Rivadavia is squeezed between the Gulf of San Jorge and the steep slopes of Cerro Chenque, a flat-topped hill looming over the centre. In 1907 workers drilling for fresh water in this parched corner of Patagonia struck oil instead, and the town became Argentina's first great oil centre. Relentless winds sweep the steppe, now turning rows of wind turbines.",
+    "w": "A city strung along a wide gulf beneath bare, flat-topped hills; oil wells dotted across the brown steppe behind.",
+    "f": [
+      "The town was founded in 1901 and named after the naval officer Martín Rivadavia.",
+      "The Gulf of San Jorge is one of the largest bays on Argentina's Atlantic coast."
+    ],
+    "q": {
+      "q": "What were drillers looking for when they struck oil here in 1907?",
+      "a": "Water",
+      "x": [
+        "Gold",
+        "Coal"
+      ]
+    }
+  },
+  "Q44237": {
+    "t": "A green oasis of vineyards beneath the high Andes",
+    "s": "Mendoza is an oasis: the land around it is semi-desert, yet the city and its vineyards are green thanks to irrigation channels fed by Andean snowmelt, a system begun by the Huarpe people long before the Spanish founded the city in 1561. To the west the Andes rise in a massive wall, and Aconcagua, the highest peak outside Asia, stands about 110 km away.",
+    "w": "A large green city and patchwork of vineyards on a dry plain at the foot of a towering, snow-streaked mountain wall.",
+    "f": [
+      "The Mendoza region produces most of Argentina's wine and is especially famous for Malbec.",
+      "The streets are lined with open irrigation ditches, called acequias, that water the trees."
+    ],
+    "q": {
+      "q": "Which grape variety is Mendoza most famous for?",
+      "a": "Malbec",
+      "x": [
+        "Pinot Noir",
+        "Riesling"
+      ]
+    }
+  },
+  "Q2907": {
+    "t": "Bolivia's white colonial capital, with a dinosaur wall",
+    "s": "Sucre is a city of whitewashed walls and red-tiled roofs set among dry, rolling hills at about 2,800 m. It is Bolivia's constitutional capital, although the government sits in La Paz, and it was here that Bolivian independence was declared in 1825. On the city's edge, a quarry cliff called Cal Orck'o is covered with thousands of dinosaur footprints.",
+    "w": "A compact city of pale buildings and red roofs in a bowl of brown hills; eroded valleys all around.",
+    "f": [
+      "Cal Orck'o holds one of the largest collections of dinosaur tracks in the world, on an almost vertical limestone wall.",
+      "Founded in 1538, the city has had several names, including La Plata and Chuquisaca."
+    ],
+    "q": {
+      "q": "What covers the Cal Orck'o cliff near Sucre?",
+      "a": "Dinosaur footprints",
+      "x": [
+        "Inca rock paintings",
+        "Silver veins"
+      ]
+    }
+  },
+  "Q941357": {
+    "t": "The Brazil-nut capital, where two jungle rivers meet",
+    "s": "Riberalta stands on a high bank where the Madre de Dios River flows into the Beni, deep in the lowland forests of northern Bolivia. From above, both rivers wind in wide brown loops, leaving crescent-shaped lakes behind. The town was founded in 1894 during the rubber boom and today lives largely off Brazil nuts, gathered wild in the surrounding forest.",
+    "w": "A small town on a bank where two broad, meandering brown rivers meet; oxbow lakes and dense forest all around.",
+    "f": [
+      "Bolivia is the world's largest exporter of Brazil nuts, and much of the processing happens in Riberalta.",
+      "Brazil nuts come from giant wild trees that rarely thrive in plantations."
+    ],
+    "q": {
+      "q": "Which nut is processed in huge quantities in Riberalta?",
+      "a": "The Brazil nut",
+      "x": [
+        "The cashew",
+        "The macadamia"
+      ]
+    }
+  },
+  "Q54108": {
+    "t": "The 'White Bay', a maze of tidal channels and salt",
+    "s": "Bahía Blanca sits at the head of a broad estuary where tidal channels wind through salt marshes and mudflats; early sailors called it 'White Bay' after the salt crusts glinting on the shore. It began in 1828 as a frontier fort and grew into one of Argentina's main deep-water ports, shipping grain from the pampas. The low Sierra de la Ventana rises to the north.",
+    "w": "A city beside a vast estuary laced with winding channels and pale flats; docks and industry along the shore; flat farmland inland.",
+    "f": [
+      "In 1832 Charles Darwin dug up fossils of giant extinct mammals at Punta Alta, on this bay.",
+      "Cerro Tres Picos, in the Sierra de la Ventana, is the highest point in Buenos Aires province."
+    ],
+    "q": {
+      "q": "Where does the name Bahía Blanca, 'White Bay', come from?",
+      "a": "Salt crusts on the shore",
+      "x": [
+        "White sand dunes",
+        "Chalk cliffs"
+      ]
+    }
+  },
+  "Q52607": {
+    "t": "Argentina's beach city, where the pampas meet the sea",
+    "s": "Mar del Plata is where the endless flat pampas finally reach the Atlantic, and here the coast turns rocky, with low cliffs and headlands between long sandy beaches. Founded in 1874, it became the summer playground of Buenos Aires, and in January its population swells enormously. Look for the long breakwaters of its port, home to a colony of sea lions.",
+    "w": "A large coastal city curving along beaches and rocky points; a harbour with long breakwaters; flat green farmland inland.",
+    "f": [
+      "A colony of South American sea lions lives right in the fishing port.",
+      "Buenos Aires lies about 400 km to the north-west."
+    ],
+    "q": {
+      "q": "Which animals live in a colony right in Mar del Plata's port?",
+      "a": "Sea lions",
+      "x": [
+        "Flamingos",
+        "Pelicans"
+      ]
+    }
+  },
+  "Q44210": {
+    "t": "Argentina's second city, where plains meet the sierras",
+    "s": "Córdoba spreads along the Suquía River where the flat Pampas begin to rise into the Sierras de Córdoba, a range of rounded granite hills to the west. Founded in 1573, it became a centre of learning: its university, founded by Jesuits in 1613, is Argentina's oldest. The Jesuit buildings in the centre and their ranches in the hills are a World Heritage site.",
+    "w": "A large city on a plain, with hills rising close by to the west; a river winding through the centre.",
+    "f": [
+      "Cerro Champaquí, the highest summit of the sierras, reaches about 2,790 m.",
+      "Mar Chiquita, Argentina's largest salt lake, lies about 170 km to the north-east."
+    ],
+    "q": {
+      "q": "Which is the oldest university in Argentina?",
+      "a": "The University of Córdoba",
+      "x": [
+        "The University of Buenos Aires",
+        "The University of La Plata"
+      ]
+    }
+  },
+  "Q44238": {
+    "t": "A red-earth river city facing Paraguay",
+    "s": "Posadas sits on the south bank of the Paraná, dammed downstream into a broad, lake-like expanse; across the water lies Encarnación in Paraguay, linked to it by a long bridge. The soil of the province of Misiones is a startling brick red, showing in roadsides and fields between patches of forest and yerba mate plantations.",
+    "w": "A city on a very wide river with another city opposite, joined by a long bridge; red soil, green fields and forest around.",
+    "f": [
+      "The Yacyretá Dam, downstream, raised the river and widened it into a reservoir.",
+      "The ruins of San Ignacio Miní, a Jesuit mission of the 1600s and 1700s, stand about 60 km to the east."
+    ],
+    "q": {
+      "q": "Which Paraguayan city faces Posadas across the Paraná?",
+      "a": "Encarnación",
+      "x": [
+        "Ciudad del Este",
+        "Pilar"
+      ]
+    }
+  },
+  "Q3043": {
+    "t": "A small, purpose-built capital in the Belizean jungle",
+    "s": "Belmopan is one of the smallest national capitals in the world, a tidy town planted in the green, rolling country of the Belize River valley. It was built in the 1960s, about 80 km inland, to replace low-lying Belize City, which is exposed to Caribbean hurricanes; the government moved here in 1970. To the south rise the forested Maya Mountains.",
+    "w": "A small, low town among green hills and forest near a winding river; dark, forested mountains to the south.",
+    "f": [
+      "Off the coast lies the Belize Barrier Reef, part of the second-largest reef system in the world.",
+      "The name combines 'Belize' and 'Mopan', two of the country's rivers."
+    ],
+    "q": {
+      "q": "Why was Belmopan built far from the coast?",
+      "a": "To be safer from hurricanes",
+      "x": [
+        "To be nearer the oil fields",
+        "To guard the border"
+      ]
+    }
+  },
+  "Q1491": {
+    "t": "The world's highest seat of government, in a canyon",
+    "s": "La Paz is poured into a deep canyon cut into the edge of the Altiplano, its buildings spilling down from the rim at about 4,000 m towards a floor several hundred metres lower. Up on the flat plateau sprawls El Alto, with one of the highest international airports in the world. Above it all, to the south-east, rise the three snowy summits of Illimani, about 6,440 m high.",
+    "w": "A city filling a deep, branching canyon below a flat, high plateau; another city on the rim; a triple-peaked snow mountain to the south-east.",
+    "f": [
+      "At around 3,600 m, La Paz is the highest seat of government in the world.",
+      "Lake Titicaca lies about 60 km to the north-west across the Altiplano.",
+      "The Spanish founded the city in 1548."
+    ],
+    "q": {
+      "q": "Which snowy mountain towers over La Paz?",
+      "a": "Illimani",
+      "x": [
+        "Aconcagua",
+        "Chimborazo"
+      ]
+    }
+  },
+  "Q170688": {
+    "t": "Bolivia's biggest city, laid out in concentric rings",
+    "s": "Santa Cruz de la Sierra lies not in the Andes but on the hot, flat lowlands east of them, and its plan is unmistakable from the air: ring roads, called anillos, circle the central square one inside another like the rings of a tree. It is now Bolivia's largest city. Around it stretch vast, geometric soybean fields carved out of the lowland forest.",
+    "w": "A large city of concentric ring roads on a flat green plain; a river along its western edge; huge rectangular fields beyond.",
+    "f": [
+      "An expedition from Asunción first founded the city in 1561, at a site far to the east; it moved to its present spot later that century.",
+      "At about 400 m above sea level, it lies more than 3 km lower than La Paz."
+    ],
+    "q": {
+      "q": "What shape is Santa Cruz's road plan?",
+      "a": "Concentric rings",
+      "x": [
+        "A fan from the river",
+        "A strict grid"
+      ]
+    }
+  },
+  "Q41211": {
+    "t": "An old walled city on an islet at the harbour mouth",
+    "s": "San Juan's colonial core sits on a narrow islet guarding the entrance to a large bay, its stone forts facing the open Atlantic. Spanish settlers moved here in 1521, making it one of the oldest European-founded cities in the Americas. Eastward, the modern city curves along beaches and lagoons to the airport. Offshore, the ocean floor drops away into a deep trench.",
+    "w": "A long islet with fortifications at the mouth of a broad bay; hotels, lagoons and beaches running east to the airport.",
+    "f": [
+      "About 120 km to the north lies the Puerto Rico Trench, the deepest part of the Atlantic, more than 8 km down.",
+      "The forts and old city of San Juan are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "What lies deep beneath the sea north of San Juan?",
+      "a": "The Atlantic's deepest point",
+      "x": [
+        "A mid-ocean ridge",
+        "A giant blue hole"
+      ]
+    }
+  },
+  "Q12245": {
+    "t": "A tiny harbour town on treeless, windswept islands",
+    "s": "Stanley is a small town on a sheltered harbour of East Falkland, looking out over treeless moorland, low rocky ridges and a jagged coast. The islands are famous for their penguins: gentoo, king, rockhopper and Magellanic. Look inland for pale streaks on the hillsides — 'stone runs', rivers of boulders left by ice-age frost. The town was laid out in the 1840s.",
+    "w": "A small town on the south shore of a narrow harbour; bare green-brown moorland, rocky ridges and pale boulder streams around.",
+    "f": [
+      "Hulks of 19th-century sailing ships that limped in after rounding Cape Horn still lie in and around the harbour.",
+      "The islands have no native trees, and strong winds sweep them for most of the year."
+    ],
+    "q": {
+      "q": "What are the 'stone runs' seen near Stanley?",
+      "a": "Streams of ice-age boulders",
+      "x": [
+        "Old stone walls",
+        "Lava flows"
+      ]
+    }
+  },
+  "Q30985": {
+    "t": "A fishhook of islands alone in the Atlantic",
+    "s": "Bermuda appears out of the empty Atlantic as a thin fishhook of islands wrapped in turquoise shallows and coral reefs, about 1,000 km from the nearest mainland. Hamilton, the capital since 1815, sits at the head of a sheltered harbour in the middle. Look closely at the houses: their stepped roofs are painted white and built to catch rainwater, the islands' main source of fresh water.",
+    "w": "A curving chain of green islands inside a wide ring of turquoise reef; tiny white roofs everywhere; a harbour in the middle.",
+    "f": [
+      "The islands are named after the Spanish navigator Juan de Bermúdez, who came upon them in the early 1500s.",
+      "Bermuda has no rivers and no freshwater lakes."
+    ],
+    "q": {
+      "q": "Why are Bermuda's roofs white and stepped?",
+      "a": "To collect rainwater",
+      "x": [
+        "To deflect lightning",
+        "To guide pilots"
+      ]
+    }
+  },
+  "Q38834": {
+    "t": "A royal capital on a flat coral island",
+    "s": "Nuku'alofa lies on the north shore of Tongatapu, a low, flat coral island ringed by reefs, with a large, shallow lagoon cutting into it from the north. Its name means 'abode of love'. Tonga is a kingdom and one of the first countries to greet each new day, lying just west of the date line. Captain Cook called these the Friendly Islands in the 1770s.",
+    "w": "A small town on a flat green island's north coast; a wide, shallow lagoon behind it; reefs and islets in turquoise water offshore.",
+    "f": [
+      "The Ha'amonga 'a Maui, a stone trilithon built around the 1200s, stands at the island's eastern end.",
+      "About three-quarters of Tonga's people live on Tongatapu."
+    ],
+    "q": {
+      "q": "What did Captain Cook call the islands of Tonga?",
+      "a": "The Friendly Islands",
+      "x": [
+        "The Society Islands",
+        "The Sandwich Islands"
+      ]
+    }
+  },
+  "Q36260": {
+    "t": "A harbour capital on a green volcanic island",
+    "s": "Apia strings along the north coast of Upolu, a lush volcanic island whose forested ridges rise steeply behind the town. Its harbour opens to the sea through a gap in the fringing reef. Samoa once lay on the other side of the date line, but in 2011 it skipped 30 December entirely to share a calendar day with Australia and New Zealand, and now it is among the first to see each new day.",
+    "w": "A town along a curving bay on a green, mountainous island; a white line of reef offshore with a gap for ships.",
+    "f": [
+      "Robert Louis Stevenson spent his last years at Vailima, above Apia, and is buried on nearby Mount Vaea.",
+      "Upolu and its larger neighbour, Savai'i, are both volcanic islands."
+    ],
+    "q": {
+      "q": "Which writer spent his last years in the hills above Apia?",
+      "a": "Robert Louis Stevenson",
+      "x": [
+        "Herman Melville",
+        "Jack London"
+      ]
+    }
+  },
+  "Q2467": {
+    "t": "Turquoise banks beside a deep blue ocean trench",
+    "s": "Around Nassau the sea puts on its most dazzling show: pale turquoise and cream over the shallow Bahama banks, then a sudden plunge into the dark blue of the Tongue of the Ocean, a trench more than 1,500 m deep just south of the island. Nassau itself lines the north shore of New Providence, facing Paradise Island across its harbour.",
+    "w": "A small island city on a narrow harbour; brilliant turquoise shallows around; an abrupt edge of dark blue deep water to the south.",
+    "f": [
+      "In the early 1700s Nassau was a notorious base for pirates, Blackbeard among them.",
+      "The town was named in 1695 after King William III, of the House of Orange-Nassau."
+    ],
+    "q": {
+      "q": "What is the 'Tongue of the Ocean' near Nassau?",
+      "a": "A deep-water trench",
+      "x": [
+        "A long coral reef",
+        "A sandbar"
+      ]
+    }
   }
 }

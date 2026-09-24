@@ -2114,5 +2114,302 @@
         "It turns salty"
       ]
     }
+  },
+  "Q1144905": {
+    "t": "The shallow southern end of the Peipus lake system",
+    "s": "Three lakes stand in a row here: huge Lake Peipus in the north, the narrow Lämmijärv in the middle and, at the southern end, Lake Pskov — Pihkva in Estonian. The Estonia–Russia border crosses it. The lake is shallow, under 4 m on average, and freezes over in winter; the Velikaya River flows in after passing the old city of Pskov.",
+    "w": "A shallow lake south of the huge Lake Peipus, joined to it by a narrow strait; the Velikaya delta at its south-eastern corner.",
+    "f": [
+      "Together with Lake Peipus, it forms one of the largest lakes in Europe.",
+      "The small Talabsk Islands in its middle hold old fishing villages."
+    ],
+    "q": {
+      "q": "Which larger lake is Lake Pskov joined to?",
+      "a": "Lake Peipus",
+      "x": [
+        "Lake Ladoga",
+        "Lake Ilmen"
+      ]
+    }
+  },
+  "ne-lk-1159113481": {
+    "t": "A Karelian lake at the cradle of the Kalevala",
+    "s": "Sredneye Kuito — “Middle Kuito” — is the central link in a chain of three lakes stretching some 140 km across the forests of northern Karelia, filling long cracks in the ancient bedrock. On its northern shore stands the settlement of Kalevala, called Ukhta until 1963. In the villages around here, Elias Lönnrot collected many of the old songs he wove into the Finnish epic Kalevala.",
+    "w": "A long, island-studded lake among the dark forests of northern Karelia, part of a chain of lakes running west to east.",
+    "f": [
+      "Its water flows east through Lower Kuito into the Kem River and on to the White Sea.",
+      "The Kuito lakes are tectonic: they fill cracks in the Earth's crust."
+    ],
+    "q": {
+      "q": "Which epic is linked to the villages around the Kuito lakes?",
+      "a": "The Kalevala",
+      "x": [
+        "The Edda",
+        "Beowulf"
+      ]
+    }
+  },
+  "Q184492": {
+    "t": "The sea bay that became a lake as Sweden rose",
+    "s": "Mälaren is a sprawling lake of bays and islands stretching about 120 km west from Stockholm. A thousand years ago it was still an arm of the Baltic; as the land slowly rose after the ice age, it was cut off and turned fresh. Stockholm grew up exactly where lake meets sea, and the city's islands scatter across the water at the lake's eastern end.",
+    "w": "A long, branching lake of bays and wooded islands running west from Stockholm, with the city's islands at its eastern end.",
+    "f": [
+      "Birka, a Viking-age trading town on the island of Björkö, is a UNESCO World Heritage site.",
+      "Drottningholm, home of the Swedish royal family, stands on one of its islands.",
+      "It supplies drinking water to Stockholm and the surrounding region."
+    ],
+    "q": {
+      "q": "What was Mälaren a thousand years ago?",
+      "a": "An arm of the Baltic Sea",
+      "x": [
+        "A glacier",
+        "A river valley"
+      ]
+    }
+  },
+  "Q216621": {
+    "t": "A steppe lake where the Irtysh sets off on its long trip",
+    "s": "Water that enters Lake Zaysan is at the start of a very long journey: the Black Irtysh flows in from China and leaves as the Irtysh, bound for the Ob and the Arctic Ocean. The lake lies in a broad basin in eastern Kazakhstan, with the Altai to the north and the Saur and Tarbagatai ranges to the south. Since the 1960s a dam downstream has raised its level.",
+    "w": "A broad, elongated lake in the steppe of eastern Kazakhstan, between the Altai and the Saur–Tarbagatai ranges.",
+    "f": [
+      "The Bukhtarma Dam on the Irtysh has held its level higher since the 1960s, making it part of a vast reservoir.",
+      "It freezes over for several months every winter."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Zaysan?",
+      "a": "The Irtysh",
+      "x": [
+        "The Ili",
+        "The Yenisei"
+      ]
+    }
+  },
+  "Q1640519": {
+    "t": "A desert basin filled to keep Baghdad dry",
+    "s": "Lake Tharthar is a lake by design. It fills a natural depression in the desert between the Tigris and the Euphrates, and since the 1950s engineers have diverted the Tigris's floodwater into it to protect Baghdad downstream. From above it's a large sheet of blue in the tan desert, its shores bare and pale.",
+    "w": "A large blue lake in the desert north-west of Baghdad, between the Tigris and the Euphrates.",
+    "f": [
+      "It is the largest lake in Iraq.",
+      "A canal from the Tigris near Samarra feeds it.",
+      "Other canals can send its water on to the Euphrates."
+    ],
+    "q": {
+      "q": "Why was Tigris water diverted into Lake Tharthar?",
+      "a": "To protect Baghdad from floods",
+      "x": [
+        "To irrigate date farms",
+        "To make a shipping route"
+      ]
+    }
+  },
+  "Q756106": {
+    "t": "The “Eye of Quebec”: a ring lake in an ancient crater",
+    "s": "Few lakes are as unmistakable from the air: a near-perfect ring of water about 70 km across, circling a huge island. It marks an impact crater blasted by an asteroid around 214 million years ago and worn down ever since. The ring filled to its present size after a dam was built in the 1960s, earning it the nickname “the Eye of Quebec”.",
+    "w": "An unmistakable ring of water around a large, round island in the forests of eastern Quebec.",
+    "f": [
+      "The Daniel-Johnson Dam, which raised the lake, is the largest multiple-arch-and-buttress dam in the world.",
+      "Astronauts often photograph it — the ring is easy to spot from orbit."
+    ],
+    "q": {
+      "q": "What formed the Manicouagan ring?",
+      "a": "An asteroid impact",
+      "x": [
+        "A collapsed volcano",
+        "A melting glacier"
+      ]
+    }
+  },
+  "Q1638191": {
+    "t": "A white salt lake in the heart of the Western Desert",
+    "s": "In the red sand country of Western Australia's deserts, Kumpupintil shows up as a vast white pan, glaring under the sun and usually dry. Its English name, Lake Disappointment, dates from 1897, when the explorer Frank Hann followed creeks here hoping for fresh water and found salt. For the Martu people, whose country this is, it is a place of great significance.",
+    "w": "A large white salt pan dotted with dark islands, surrounded by dune desert in inland Western Australia.",
+    "f": [
+      "The Canning Stock Route, one of the world's most remote tracks, passes nearby.",
+      "After rare heavy rains, shallow water can spread across it for months."
+    ],
+    "q": {
+      "q": "Why did Frank Hann name it Lake Disappointment?",
+      "a": "He found salt, not fresh water",
+      "x": [
+        "He lost his horses there",
+        "It was smaller than on his map"
+      ]
+    }
+  },
+  "Q1074063": {
+    "t": "A glittering salt lake on the WA–NT border",
+    "s": "From cruise height Lake Mackay looks like a giant white stain spilled across red desert, its edges lacy with inlets and its surface dotted with small islands. It is one of Australia's largest salt lakes, yet most years it holds little or no water. The ruler-straight border between Western Australia and the Northern Territory runs right across it.",
+    "w": "A huge, ragged white salt pan in the red dune desert where Western Australia meets the Northern Territory.",
+    "f": [
+      "The Pintupi people call it Wilkinkarra.",
+      "It is named after explorer Donald Mackay, who reached it in 1930 and was among the first to cycle around Australia.",
+      "It covers about 3,500 km² and is roughly 100 km across."
+    ],
+    "q": {
+      "q": "What do the Pintupi people call Lake Mackay?",
+      "a": "Wilkinkarra",
+      "x": [
+        "Kumpupintil",
+        "Kati Thanda"
+      ]
+    }
+  },
+  "Q965973": {
+    "t": "A dazzling salt pan where racers chase speed",
+    "s": "Lake Gairdner is a salt pan some 160 km long, so white it can hurt the eyes, lying at the northern foot of the rust-red Gawler Ranges. Its crust is more than a metre thick in places, hard and flat enough that each year drivers and riders come to race across it during Speed Week, chasing records on the salt.",
+    "w": "A long, dazzling white salt lake in South Australia, just north of the reddish Gawler Ranges.",
+    "f": [
+      "It lies within Lake Gairdner National Park.",
+      "It is South Australia's third-largest salt lake, after Eyre and Torrens."
+    ],
+    "q": {
+      "q": "Why do racers come to Lake Gairdner?",
+      "a": "Its hard, flat salt crust",
+      "x": [
+        "Its steep sand dunes",
+        "Its frozen winter surface"
+      ]
+    }
+  },
+  "Q163855": {
+    "t": "A long salt lake that almost never fills",
+    "s": "Lake Torrens runs as a long, pale streak along the western foot of the Flinders Ranges, a salt pan that has filled with water only a handful of times in recorded history. Early colonial explorers, seeing it from the hills, imagined a vast horseshoe of salt lakes barring the way north — a belief that held for years.",
+    "w": "A long, narrow white salt pan running north–south just west of the rugged Flinders Ranges in South Australia.",
+    "f": [
+      "It is named after Robert Torrens, chairman of the commission that founded the colony of South Australia.",
+      "It is South Australia's second-largest salt lake, after Kati Thanda–Lake Eyre.",
+      "The lake and its shores form Lake Torrens National Park."
+    ],
+    "q": {
+      "q": "Which mountain range rises just east of Lake Torrens?",
+      "a": "The Flinders Ranges",
+      "x": [
+        "The MacDonnell Ranges",
+        "The Gawler Ranges"
+      ]
+    }
+  },
+  "Q626907": {
+    "t": "A salt pan between the Flinders Ranges and red dunes",
+    "s": "On the far side of the Flinders Ranges from Lake Torrens lies its twin: Lake Frome, a flat white salt pan about 100 km long. To its west rise the rugged ridges of the northern Flinders; to its east, lines of red sand dunes march away into the Strzelecki Desert. Water covers it only after rare heavy rains.",
+    "w": "A long white salt pan east of the northern Flinders Ranges, bordered on the east by parallel red dunes.",
+    "f": [
+      "It is named after Edward Frome, Surveyor-General of South Australia in the 1840s.",
+      "The Arkaroola wilderness sanctuary lies in the ranges just to its west."
+    ],
+    "q": {
+      "q": "Which desert's red dunes border Lake Frome to the east?",
+      "a": "The Strzelecki Desert",
+      "x": [
+        "The Gibson Desert",
+        "The Great Victoria Desert"
+      ]
+    }
+  },
+  "ne-lk-1159126435": {
+    "t": "A super-salty lagoon behind a ribbon of sand",
+    "s": "Along the coast of Tamaulipas, a thin ribbon of sandy barrier islands runs for well over 100 km, and behind it lies Laguna Madre: a long, shallow lagoon that is saltier than the sea, because little fresh water flows in and the sun evaporates much of it. In winter it teems with ducks, including a large share of the world's redheads.",
+    "w": "A long, shallow, greenish lagoon on Mexico's Gulf coast south of the Rio Grande, walled off from the sea by thin sandy islands.",
+    "f": [
+      "It is one of the few hypersaline coastal lagoons in the world.",
+      "The Rio Grande delta separates it from its twin, the Laguna Madre of Texas."
+    ],
+    "q": {
+      "q": "Why is Laguna Madre saltier than the sea?",
+      "a": "Strong evaporation, little fresh water",
+      "x": [
+        "Salt springs on its floor",
+        "Salt mines drain into it"
+      ]
+    }
+  },
+  "Q503301": {
+    "t": "An accidental lake in a desert below sea level",
+    "s": "The Salton Sea is an accident. In 1905 the Colorado River burst through an irrigation canal and poured into this desert basin for almost two years, creating California's largest lake. Its surface lies about 70 m below sea level, and with no outlet it has grown saltier than the Pacific. Look for green farm fields crowding its southern shore.",
+    "w": "A long blue lake in the desert south-east of Palm Springs, with the green grid of the Imperial Valley to the south.",
+    "f": [
+      "It is a vital stop for migrating birds on the Pacific Flyway.",
+      "As it shrinks, it exposes wide, pale bands of dried lake bed."
+    ],
+    "q": {
+      "q": "How did the Salton Sea form in 1905–1907?",
+      "a": "The Colorado River broke into it",
+      "x": [
+        "A glacier melted",
+        "An earthquake opened a spring"
+      ]
+    }
+  },
+  "Q4121": {
+    "t": "A sea turned into a lake by one long dam",
+    "s": "Until 1932 this was the Zuiderzee, a stormy arm of the North Sea. Then the Afsluitdijk, a dam 32 km long, sealed it off, and the salt water slowly turned fresh. From above, the dam is a razor-straight line across the water, and to the east and south lie Flevoland's polders — ruler-drawn fields on what was once the seabed.",
+    "w": "A broad, grey-green lake in the Netherlands, closed off from the Wadden Sea in the north by a long, perfectly straight dam.",
+    "f": [
+      "Flevoland, built on land reclaimed from it, became the youngest Dutch province in 1986.",
+      "It is one of the largest freshwater lakes in Western Europe.",
+      "A second dam, the Houtribdijk, splits off its southern part, the Markermeer."
+    ],
+    "q": {
+      "q": "What was the IJsselmeer before 1932?",
+      "a": "A sea bay, the Zuiderzee",
+      "x": [
+        "A peat bog",
+        "A river valley"
+      ]
+    }
+  },
+  "ne-lk-1159126643": {
+    "t": "The pink lagoons of the “Rotten Sea”",
+    "s": "Few sights from the air are stranger than Syvash: a maze of shallow lagoons between Crimea and the mainland, streaked pink, rust-red and milky green. The water is so salty that salt-loving algae tint it, and in summer heat it smells — hence its other name, the Rotten Sea. To the east, the thin Arabat Spit seals it off from the Sea of Azov.",
+    "w": "A maze of pink, red and green lagoons between Crimea and the mainland, fenced off from the Sea of Azov by a thin spit.",
+    "f": [
+      "The Arabat Spit, which separates it from the Sea of Azov, is about 110 km long.",
+      "Much of it is less than a metre deep.",
+      "Salt has been gathered along its shores for centuries."
+    ],
+    "q": {
+      "q": "What gives Syvash its pink and red colours?",
+      "a": "Salt-loving algae",
+      "x": [
+        "Iron-rich sand",
+        "Red clay from rivers"
+      ]
+    }
+  },
+  "Q182719": {
+    "t": "The Jade Sea in the desert of northern Kenya",
+    "s": "Lake Turkana is called the Jade Sea: in the right light, algae turn its water a striking green against the brown lava desert around it. It is the largest permanent lake in any desert, and its shores have yielded some of the most important fossils of early humans. Volcanic islands with crater lakes rise from its middle.",
+    "w": "A long, narrow green-blue lake in the barren north of Kenya, reaching north into Ethiopia, with dark volcanic islands.",
+    "f": [
+      "The Omo River, flowing in from Ethiopia, brings almost all of its water.",
+      "The skeleton of “Turkana Boy”, about 1.5 million years old, was found near its western shore in 1984.",
+      "Its old name, Lake Rudolf, was given in 1888 in honour of Crown Prince Rudolf of Austria."
+    ],
+    "q": {
+      "q": "What is Lake Turkana's nickname?",
+      "a": "The Jade Sea",
+      "x": [
+        "The Pearl of Africa",
+        "The Sea of Stars"
+      ]
+    }
+  },
+  "Q5605": {
+    "t": "A shallow lagoon behind a long ribbon of dunes",
+    "s": "Look for a long, slender sand spit, crested with forest and dunes, running parallel to the Baltic coast — and behind it a shallow, brownish-green lagoon. The Vistula Lagoon is on average less than 3 m deep, and its natural link to the sea is a single narrow strait at Baltiysk. At its eastern end, the Pregolya River flows in from Kaliningrad.",
+    "w": "A long, shallow lagoon along the Baltic coast near Kaliningrad, cut off from the sea by a thin wooded spit.",
+    "f": [
+      "The Vistula Spit that shelters it runs for about 65 km.",
+      "In winter the lagoon often freezes over.",
+      "Its water is brackish, a mix of river water and the Baltic."
+    ],
+    "q": {
+      "q": "Which city stands on the river entering the lagoon's eastern end?",
+      "a": "Kaliningrad",
+      "x": [
+        "Gdańsk",
+        "Klaipėda"
+      ]
+    }
   }
 }

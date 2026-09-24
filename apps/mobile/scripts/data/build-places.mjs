@@ -106,7 +106,15 @@ const RENAME = {
   'ne-pk-1159105763': { n: 'Shahi Kangri', drop: ['ja'] },
   // Filed as a plateau at 56.6° N, 112° E: the highlands north-east of Baikal,
   // not the range along the Amur watershed.
-  'ne-rg-1730072981': { n: 'Stanovoy Highlands', drop: ['es'] }
+  'ne-rg-1730072981': { n: 'Stanovoy Highlands', drop: ['es'] },
+  // Russian labels that name a different feature, or misspell this one.
+  'ne-rg-1730072787': { l: { ru: 'Тассили-уа-н-Ахаггар' } },
+  'ne-rg-1159103527': { l: { ru: 'Серра-Жерал' } },
+  'ne-rg-1159103913': { l: { ru: 'Наньлин' } },
+  'ne-rg-1159104003': { l: { ru: 'мыс Камау' } },
+  // Kinds: the Amazon selva is lowland forest, Punjab a farmed river plain.
+  'ne-rg-1730074073': { k: 'region', l: { ru: 'Сельва' } },
+  'ne-rg-1159104245': { k: 'region' }
 };
 
 const REGION_KIND = {
@@ -742,7 +750,8 @@ function main() {
   for (const p of kept) {
     const fix = RENAME[p.id];
     if (!fix) continue;
-    p.n = fix.n;
+    if (fix.n) p.n = fix.n;
+    if (fix.k) p.k = fix.k;
     p.l = { ...(p.l || {}), ...fix.l };
     for (const lang of fix.drop ?? []) delete p.l[lang];
   }

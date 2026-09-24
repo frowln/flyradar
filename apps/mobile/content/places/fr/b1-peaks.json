@@ -2200,5 +2200,362 @@
         "L’Atlantique"
       ]
     }
+  },
+  "Q15241934": {
+    "t": "Le vieux bouclier rocheux du continent, criblé de lacs",
+    "s": "Les hautes terres laurentiennes sont le cœur usé du Bouclier canadien, une vaste étendue de roche ancienne autour de la baie d’Hudson et des Grands Lacs. Les glaciers de l’ère glaciaire l’ont raclée jusqu’à la roche, laissant un dédale de lacs, de tourbières et de buttes rocheuses. D’en haut, surtout près du lac Supérieur, cherchez une forêt sombre semée de milliers de lacs qui brillent comme du verre brisé.",
+    "w": "Forêt sombre et roche nue semées d’innombrables lacs, surtout autour des rives du lac Supérieur.",
+    "f": [
+      "Une grande partie de sa roche a plus de 2,5 milliards d’années, parmi les plus anciennes d’Amérique du Nord.",
+      "Le Mesabi Range, dans le Minnesota, est depuis longtemps l’un des grands districts de minerai de fer du monde.",
+      "Le lac Supérieur, sur son bord sud, est le plus grand lac d’eau douce du monde par sa superficie."
+    ],
+    "q": {
+      "q": "Quel lac, au bord de ces hautes terres, est le plus grand lac d’eau douce du monde ?",
+      "a": "Le lac Supérieur",
+      "x": [
+        "Le lac Victoria",
+        "Le lac Huron"
+      ]
+    }
+  },
+  "Q293730": {
+    "t": "Une terre de poussière jaune soufflée, sculptée de ravins",
+    "s": "Le plateau de Lœss est fait de poussière : un limon jaune très fin, apporté par le vent des déserts d’Asie centrale pendant des centaines de milliers d’années, épais par endroits de plus de 100 m. La pluie l’entaille facilement ; d’en haut, on dirait une feuille jaune-brun froissée, traversée de ravins ramifiés et de champs en terrasses bien nets. Le limon qu’il perd donne au fleuve Jaune sa couleur et son nom.",
+    "w": "Une terre jaune-brun froissée, entaillée d’innombrables ravins ramifiés, avec des versants en terrasses et un fleuve boueux.",
+    "f": [
+      "Le plateau couvre environ 640 000 km², plus que l’Espagne.",
+      "Des millions de personnes ont vécu dans des yaodong, des maisons creusées dans les versants de lœss.",
+      "Un programme de restauration lancé dans les années 1990 a mis les pentes en terrasses et reboisé les collines, freinant nettement l’érosion."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui donne au fleuve Jaune sa couleur ?",
+      "a": "Le limon du plateau de Lœss",
+      "x": [
+        "Des algues dans l’eau",
+        "Des sources soufrées"
+      ]
+    }
+  },
+  "Q1126906": {
+    "t": "Collines de terre noire où naissent de grands fleuves",
+    "s": "Au sud de Moscou, le terrain se renfle doucement : c’est la hauteur de Russie centrale, des collines de deux cents mètres à peine, mais importantes sur la carte, car l’Oka, le Don et des affluents du Dniepr y prennent leur source. Parmi ses sols figure le riche tchernoziom, la terre noire. En dessous, un patchwork de champs immenses entaillé de ravins ramifiés bordés d’arbres et, au sud, de vastes mines de fer à ciel ouvert.",
+    "w": "Un immense patchwork de champs entaillé de ravins ramifiés bordés d’arbres, avec d’énormes mines grises à ciel ouvert au sud.",
+    "f": [
+      "L’anomalie magnétique de Koursk, dans son sous-sol, est l’un des plus grands gisements de fer de la Terre.",
+      "Le Don naît près de Novomoskovsk, au sud de Moscou, et parcourt environ 1 900 km jusqu’à la mer d’Azov.",
+      "Ses ravins s’agrandissent vite : les sols meubles s’érodent facilement une fois la forêt défrichée."
+    ],
+    "q": {
+      "q": "Quel fleuve naît ici et se jette dans la mer d’Azov ?",
+      "a": "Le Don",
+      "x": [
+        "La Volga",
+        "Le Dniepr"
+      ]
+    }
+  },
+  "Q277576": {
+    "t": "Un plateau de basalte tranché de lacs-canyons",
+    "s": "Au nord du cercle arctique, en Sibérie, le plateau de Poutorana se dresse comme un gigantesque mille-feuille de basalte sombre, découpé en tables par des canyons profonds de plusieurs centaines de mètres. Beaucoup abritent de longs lacs étroits, comme des fjords loin de toute mer. Aucune route n’y mène. Cherchez des falaises en gradins et des rubans d’eau ; en hiver, tout le plateau devient une gravure en noir et blanc.",
+    "w": "Des tables sombres aux flancs en gradins, entaillées de canyons profonds qui abritent de longs lacs étroits, à l’est de Norilsk.",
+    "f": [
+      "Le plateau est inscrit au patrimoine mondial de l’UNESCO depuis 2010.",
+      "Il concentre le plus grand nombre de chutes d’eau de Russie.",
+      "Le centre géographique de la Russie, au lac Vivi, se trouve sur son bord sud."
+    ],
+    "q": {
+      "q": "Que trouve-t-on au lac Vivi, au bord sud du plateau ?",
+      "a": "Le centre géographique de la Russie",
+      "x": [
+        "Le point le plus froid de Russie",
+        "Le lac le plus profond de Russie"
+      ]
+    }
+  },
+  "Q604329": {
+    "t": "Karst, rizières en terrasses et printemps éternel",
+    "s": "Le sud-ouest de la Chine se soulève en plateau du Yunnan-Guizhou, haut pays froissé, le plus souvent entre 1 000 et 2 000 m, que la pluie a rongé en karst : dolines, aiguilles de pierre, rivières qui disparaissent sous terre. D’en haut, cherchez des collines vertes grêlées de creux, des champs de terre rouge, de grands lacs bleus autour de Kunming et, sur les pentes raides du sud, des rizières étagées comme des courbes de niveau.",
+    "w": "Des collines vertes froissées, grêlées de dolines, des taches de terre rouge et de grands lacs autour de la ville de Kunming.",
+    "f": [
+      "Kunming, vers 1 900 m, est surnommée la « ville du printemps éternel » pour la douceur de son climat.",
+      "La Forêt de pierre, près de Kunming, est un dédale de piliers de calcaire gris hauts de dizaines de mètres.",
+      "Les rizières en terrasses des Hani, à Honghe, au sud du plateau, sont inscrites au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quelle ville du plateau appelle-t-on la « ville du printemps éternel » ?",
+      "a": "Kunming",
+      "x": [
+        "Guiyang",
+        "Chengdu"
+      ]
+    }
+  },
+  "Q874816": {
+    "t": "Une soucoupe de rizières au bord du Mékong",
+    "s": "Le nord-est de la Thaïlande repose sur le plateau de Khorat, vaste soucoupe peu profonde, à 100 ou 200 m seulement au-dessus de la mer, doucement inclinée vers le Mékong. Ses deux grandes rivières, la Mun et la Chi, y serpentent avant de rejoindre le Mékong à la frontière laotienne. En dessous, un patchwork de rizières — vert vif à la saison des pluies, or et brun à la saison sèche — semé de villages et d’étangs.",
+    "w": "Un patchwork plat de rizières et d’étangs, cerné de collines basses, le Mékong décrivant une courbe le long de ses bords nord et est.",
+    "f": [
+      "D’épaisses couches de sel gemme reposent sous le plateau, et on y produit encore du sel.",
+      "Les fossiles de dinosaures trouvés à Phu Wiang ont rendu le plateau célèbre chez les paléontologues.",
+      "La région, appelée Isan, abrite environ un tiers de la population thaïlandaise."
+    ],
+    "q": {
+      "q": "Quel grand fleuve borde le plateau de Khorat au nord et à l’est ?",
+      "a": "Le Mékong",
+      "x": [
+        "La Chao Phraya",
+        "La Salouen"
+      ]
+    }
+  },
+  "Q27696359": {
+    "t": "Les hautes terres fraîches du Myanmar et leur lac célèbre",
+    "s": "À l’est de la plaine de l’Irrawaddy, le Myanmar grimpe d’un coup sur le plateau Shan, des hautes terres ondulées vers 1 000 m, vertes de forêts et de champs. La Salouen le tranche d’une gorge profonde en route vers la mer. Cherchez le lac Inle, long éclat bleu au fond d’une vallée, où les villages se dressent sur pilotis et où les jardins flottent sur l’eau.",
+    "w": "Des hautes terres vertes et ondulées qui dominent brusquement la plaine plate de l’Irrawaddy, avec le lac Inle, long et étroit, dans une vallée.",
+    "f": [
+      "Les pêcheurs du lac Inle sont connus pour ramer une jambe enroulée autour de la rame.",
+      "Le bord ouest du plateau se dresse en escarpement abrupt au-dessus de la plaine centrale.",
+      "Taunggyi, capitale de l’État shan, se trouve vers 1 400 m, près du lac Inle."
+    ],
+    "q": {
+      "q": "Pour quoi les pêcheurs du lac Inle sont-ils célèbres ?",
+      "a": "Ils rament avec une jambe",
+      "x": [
+        "Ils pêchent au cormoran",
+        "Ils plongent pour les perles"
+      ]
+    }
+  },
+  "Q925906": {
+    "t": "Le pays des roches rouges, où la Terre montre ses strates",
+    "s": "Le plateau du Colorado est l’un des survols les plus spectaculaires qui soient : un haut désert de roches rouges, orange et crème déposées en couches, puis taillées par les rivières en canyons, mesas et buttes. Le Grand Canyon, Monument Valley, Arches et Canyonlands s’y trouvent tous. Par temps clair, cherchez les bras bleus et sinueux du lac Powell au milieu de la roche rouge nue.",
+    "w": "Un immense désert de roche rouge et crème sculpté de canyons sinueux et de mesas, avec les bras bleus ramifiés du lac Powell.",
+    "f": [
+      "Les roches mises à nu dans le Grand Canyon couvrent près de deux milliards d’années d’histoire de la Terre.",
+      "Il concentre l’un des plus grands nombres de parcs nationaux des États-Unis.",
+      "Les Four Corners, où se touchent quatre États américains, se trouvent sur le plateau."
+    ],
+    "q": {
+      "q": "Quel grand canyon du plateau le Colorado a-t-il creusé ?",
+      "a": "Le Grand Canyon",
+      "x": [
+        "Hells Canyon",
+        "Le canyon du Cuivre"
+      ]
+    }
+  },
+  "Q401815": {
+    "t": "Déluges de lave et crues glaciaires, gravés dans le sol",
+    "s": "Entre les Cascades et les Rocheuses s’étend le plateau du Columbia, bâti par d’immenses épanchements de lave basaltique, pour l’essentiel il y a 17 à 15 millions d’années. À la fin de la dernière glaciation, des crues colossales jaillies d’un lac glaciaire rompu l’ont balayé, raclant les Channeled Scablands. Deux choses sautent aux yeux : les collines à blé de la Palouse, ondulées comme des dunes, et la large courbe bleue du Columbia.",
+    "w": "Des collines de blé dorées et ondulées, du basalte nu balafré de chenaux, et le large Columbia bleu qui serpente au milieu.",
+    "f": [
+      "Certaines coulées de lave ont parcouru à elles seules des centaines de kilomètres, jusqu’au Pacifique.",
+      "Les crues venaient du lac glaciaire Missoula, qui se vidait encore et encore quand son barrage de glace cédait.",
+      "Les collines ondulées de la Palouse sont faites de limon apporté par le vent et cultivées en blé."
+    ],
+    "q": {
+      "q": "Les crues de quel lac glaciaire ont creusé les Channeled Scablands ?",
+      "a": "Le lac Missoula",
+      "x": [
+        "Le lac Bonneville",
+        "Le lac Agassiz"
+      ]
+    }
+  },
+  "Q3623001": {
+    "t": "Le pays de la ruée vers l’or, le long du Yukon",
+    "s": "Au centre du Yukon, le terrain ondule en plateau du Yukon : hautes terres boisées et larges vallées creusées par le fleuve Yukon et ses affluents. En 1896, on trouva de l’or dans un ruisseau près de la rivière Klondike, et en deux ans des dizaines de milliers de prospecteurs affluèrent. L’été, ce sont des épicéas sombres et des bancs de gravier pâles ; à l’automne, de grands pans jaunes de trembles et de bouleaux.",
+    "w": "Des hautes terres boisées et ondulées, entaillées de larges vallées aux bras tressés, où le Yukon serpente vers le nord-ouest.",
+    "f": [
+      "Une partie du plateau a échappé aux inlandsis de la dernière glaciation : elle faisait partie de la Béringie.",
+      "Whitehorse, capitale du Yukon, se trouve sur le plateau, au bord du fleuve Yukon.",
+      "Le Yukon parcourt environ 3 190 km jusqu’à la mer de Béring."
+    ],
+    "q": {
+      "q": "Quelle ruée vers l’or a attiré ici des prospecteurs à partir de 1896 ?",
+      "a": "La ruée vers l’or du Klondike",
+      "x": [
+        "La ruée vers l’or de Californie",
+        "La ruée du canyon du Fraser"
+      ]
+    }
+  },
+  "Q118574": {
+    "t": "Le haut plateau du Titicaca et du grand désert de sel",
+    "s": "Entre deux chaînes des Andes s’étend l’Altiplano, une haute plaine d’environ 3 750 m d’altitude moyenne — le plus vaste haut plateau de la Terre après le Tibet. De croisière, le spectacle est saisissant : steppe brune, volcans enneigés sur le pourtour, bleu profond du lac Titicaca au nord et, au sud, le blanc éblouissant du salar d’Uyuni, le plus grand désert de sel du monde.",
+    "w": "Une immense haute plaine brune cernée de volcans enneigés, avec un grand lac bleu au nord et des salars blancs au sud.",
+    "f": [
+      "Le salar d’Uyuni couvre environ 10 000 km², et après la pluie il se change en miroir géant.",
+      "Le lac Titicaca, vers 3 810 m, est souvent présenté comme le plus haut lac navigable du monde.",
+      "Sous les salars reposent certaines des plus grandes réserves de lithium connues au monde."
+    ],
+    "q": {
+      "q": "Qu’est-ce que le salar d’Uyuni ?",
+      "a": "Le plus grand désert de sel du monde",
+      "x": [
+        "Le plus haut lac du monde",
+        "Le désert le plus sec du monde"
+      ]
+    }
+  },
+  "ne-rg-1730071967": {
+    "t": "Un plateau solitaire au cœur du Sahara oriental",
+    "s": "Loin dans le Sahara oriental, au nord-ouest du Soudan, le plateau du Djebel Abyad émerge du sable : une table basse et usée par l’érosion. Son nom signifie « montagne blanche » en arabe. Une année ordinaire, il n’y tombe presque pas de pluie. D’en haut, cherchez des hauteurs rocheuses sombres, striées de sable soufflé, et au sud la ligne sinueuse et ténue du Wadi Howar, vallée sèche qui fut jadis une rivière.",
+    "w": "Une table sombre et usée surgie du sable pâle, striée de dunes, dans le désert vide du nord-ouest du Soudan.",
+    "f": [
+      "Le Wadi Howar, au sud, portait un affluent du Nil quand le Sahara était vert, il y a environ 9 500 à 4 500 ans.",
+      "L’art rupestre du Sahara oriental montre des bovins et des girafes de cette époque plus humide."
+    ],
+    "q": {
+      "q": "Que signifie « Djebel Abyad » en arabe ?",
+      "a": "Montagne blanche",
+      "x": [
+        "Rocher noir",
+        "Sable rouge"
+      ]
+    }
+  },
+  "ne-rg-1730072941": {
+    "t": "Des tables de cerrado au nom d’un classique brésilien",
+    "s": "À l’ouest du São Francisco, le terrain monte vers de larges plateaux plats de cerrado, parcourus de veredas — vallons marécageux bordés de palmiers buriti. C’est l’arrière-pays du roman de João Guimarães Rosa, « Grande Sertão : Veredas » (1956), et un parc national porte son nom. Aujourd’hui, beaucoup de ces plateaux sont couverts d’immenses cercles et rectangles de cultures, coupés de bandes vertes le long des ruisseaux.",
+    "w": "D’immenses plateaux plats de cultures et de savane olive, entaillés de lignes vert sombre de ruisseaux bordés de palmiers, qui coulent vers l’est.",
+    "f": [
+      "Le roman de Guimarães Rosa est souvent classé parmi les plus grandes œuvres de la littérature brésilienne.",
+      "Les palmiers buriti, qui bordent les veredas, peuvent atteindre environ 30 m.",
+      "Ses ruisseaux alimentent le São Francisco, le plus long fleuve entièrement situé au Brésil."
+    ],
+    "q": {
+      "q": "Le roman de quel écrivain a donné son nom au parc Grande Sertão Veredas ?",
+      "a": "João Guimarães Rosa",
+      "x": [
+        "Jorge Amado",
+        "Machado de Assis"
+      ]
+    }
+  },
+  "Q1294308": {
+    "t": "Le Hill Country texan, table de calcaire et de sources",
+    "s": "À l’ouest d’Austin et de San Antonio, le terrain monte d’une marche vers le plateau d’Edwards, une table de calcaire faite de ranchs, de chênes et de genévriers. Ses bords sud et est forment l’escarpement des Balcones, au pied duquel jaillissent des sources limpides. Cherchez une plaine gris-vert traversée de rivières bordées d’arbres, avec en contrebas, le long de l’escarpement, l’étalement gris d’Austin et de San Antonio.",
+    "w": "Une table de calcaire gris-vert, broussailles et ranchs, qui plonge sur son bord sud-est vers Austin et San Antonio.",
+    "f": [
+      "L’aquifère d’Edwards, sous son rebord, fournit l’essentiel de l’eau potable de San Antonio.",
+      "Les Comal Springs, à New Braunfels, comptent parmi les plus grandes sources du Texas.",
+      "La grotte de Bracken, près de San Antonio, abrite l’une des plus grandes colonies de chauves-souris du monde."
+    ],
+    "q": {
+      "q": "Quelle ville tire l’essentiel de son eau de l’aquifère d’Edwards ?",
+      "a": "San Antonio",
+      "x": [
+        "Houston",
+        "Dallas"
+      ]
+    }
+  },
+  "ne-rg-1730072971": {
+    "t": "La « dorsale jaune » du Kazakhstan, faite de collines usées",
+    "s": "Les hautes terres kazakhes, qu’on appelle Saryarka, occupent le cœur du Kazakhstan : un immense pays de collines basses et arrondies, souches usées de montagnes anciennes, posées dans la steppe sèche. On dirait un feutre froissé aux teintes fauves et olive, piqueté de lacs salés. La ville charbonnière de Karaganda s’y trouve, et au sud le long et mince lac Balkhach marque la limite des hautes terres.",
+    "w": "Une steppe froissée fauve et olive, des collines basses et arrondies, des lacs salés ; le long et mince lac Balkhach s’étend au sud.",
+    "f": [
+      "Le point culminant, l’Aksoran, atteint environ 1 565 m.",
+      "Le lac Balkhach, au sud, est d’eau douce dans sa partie ouest et salé à l’est.",
+      "La steppe et les lacs de la Saryarka, dont le Korgalzhyn, sont inscrits au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quel lac, doux à l’ouest et salé à l’est, s’étend au sud ?",
+      "a": "Le lac Balkhach",
+      "x": [
+        "Le lac Issyk-Koul",
+        "Le lac Zaïssan"
+      ]
+    }
+  },
+  "ne-rg-1730072981": {
+    "t": "Des hautes terres rudes au nord-est du Baïkal",
+    "s": "Au nord-est du lac Baïkal, des crêtes rudes et des bassins profonds forment les hautes terres de Stanovoï, pays sauvage de taïga de mélèzes et de sommets nus. La ligne Baïkal–Amour s’y faufile par des tunnels et le long des vallées. Dans les monts Kodar, la partie la plus haute, de petits glaciers survivent. Guettez une surprise dans le bassin de la Tchara : une tache de dunes de sable doré au milieu de la taïga.",
+    "w": "Des crêtes grises et rudes et de profonds bassins de taïga au nord-est du Baïkal, avec une petite tache de dunes de sable doré.",
+    "f": [
+      "Le tunnel de Severomouïsk, sur cette ligne, long d’environ 15 km, est le plus long de Russie.",
+      "Les monts Kodar culminent à environ 3 070 m.",
+      "Les sables de la Tchara couvrent quelques dizaines de kilomètres carrés : un vrai bout de désert dans la taïga."
+    ],
+    "q": {
+      "q": "Quelle voie ferrée traverse les hautes terres de Stanovoï ?",
+      "a": "La ligne Baïkal–Amour",
+      "x": [
+        "Le Transsibérien",
+        "La ligne Amour–Iakoutsk"
+      ]
+    }
+  },
+  "ne-rg-1730073599": {
+    "t": "Roches anciennes et or au sud de la Iakoutie",
+    "s": "Au sud de la Iakoutie s’élèvent les hautes terres de l’Aldan, des collines ondulées couvertes de taïga, bâties sur certaines des plus vieilles roches d’Asie. On y trouva de l’or en 1923, et la ruée qui suivit attira des milliers de prospecteurs dans ces solitudes. Cherchez une forêt sombre de mélèzes, des vallées pâles et, près de Nerioungri, l’immense fosse en gradins d’une mine de charbon taillée dans les collines.",
+    "w": "Des collines ondulées couvertes de taïga, entaillées de vallées pâles, avec une immense mine à ciel ouvert en gradins près de Nerioungri.",
+    "f": [
+      "La ville d’Aldan est née pendant la ruée vers l’or des années 1920.",
+      "La voie ferrée Amour–Iakoutsk et la route de la Lena traversent ces hautes terres en direction de Iakoutsk, au nord."
+    ],
+    "q": {
+      "q": "Qu’a-t-on découvert dans les hautes terres de l’Aldan en 1923, déclenchant une ruée ?",
+      "a": "De l’or",
+      "x": [
+        "Des diamants",
+        "Du pétrole"
+      ]
+    }
+  },
+  "Q1753873": {
+    "t": "Une haute table désertique entre deux Sierras",
+    "s": "L’essentiel du nord et du centre du Mexique est un haut plateau enserré entre deux chaînes : la Sierra Madre occidentale à l’ouest et la Sierra Madre orientale à l’est. Sa partie nord est le désert de Chihuahua, tout en bassins pâles, lacs asséchés et longues crêtes ; plus au sud, il s’élève et verdit en approchant de Mexico. Le motif à repérer : des bassins fauves entre des chaînes sombres parallèles.",
+    "w": "Des bassins désertiques fauves et des lits de lacs blancs asséchés entre des crêtes sombres parallèles, encadrés de montagnes plus hautes.",
+    "f": [
+      "Le désert de Chihuahua est le plus grand désert chaud d’Amérique du Nord.",
+      "Mexico se trouve sur sa partie sud, à environ 2 240 m d’altitude.",
+      "Le canyon du Cuivre, entaillé dans son rebord ouest, est par endroits plus profond que le Grand Canyon."
+    ],
+    "q": {
+      "q": "Quelle chaîne ferme le plateau mexicain à l’ouest ?",
+      "a": "La Sierra Madre occidentale",
+      "x": [
+        "La Sierra Nevada",
+        "La Sierra Madre du Sud"
+      ]
+    }
+  },
+  "Q654947": {
+    "t": "Collines boisées et longs Finger Lakes bleus",
+    "s": "Le plateau d’Allegheny s’étend sur le sud de l’État de New York et l’ouest de la Pennsylvanie : une vieille table usée par les rivières en un dédale de collines boisées et abruptes. Sur son bord nord, les glaciers ont creusé les Finger Lakes, longs, étroits et parallèles, comme griffés par une main géante. D’en haut, impossible de les manquer : une rangée de fins éclats bleus orientés nord–sud.",
+    "w": "Des collines boisées profondément entaillées, avec une rangée de lacs longs, étroits et parallèles orientés nord–sud sur le bord nord.",
+    "f": [
+      "Le lac Seneca, le plus grand des Finger Lakes, atteint environ 190 m de profondeur.",
+      "Le premier puits de pétrole commercial des États-Unis a été foré en 1859 à Titusville, sur la partie pennsylvanienne du plateau."
+    ],
+    "q": {
+      "q": "Quelle série de lacs longs et étroits borde le nord du plateau ?",
+      "a": "Les Finger Lakes",
+      "x": [
+        "Les lacs Kawartha",
+        "Les lacs Rideau"
+      ]
+    }
+  },
+  "Q1143656": {
+    "t": "Une table de grès, de gorges et de cascades",
+    "s": "Au-dessus de la vallée du Tennessee, le plateau de Cumberland forme une longue table de grès qui court du Kentucky à l’Alabama en traversant le Tennessee. Son sommet plat et boisé s’achève en falaises abruptes, et les ruisseaux plongent de ses rebords dans des gorges profondes. Il apparaît comme une crête vert sombre au sommet plat, aux escarpements nets, son rebord échancré par les vallées en V de ses cascades.",
+    "w": "Une longue table boisée au sommet plat, aux escarpements abrupts, ses bords échancrés de gorges profondes en V.",
+    "f": [
+      "Les Fall Creek Falls, hautes d’environ 78 m, comptent parmi les plus hautes chutes de l’est des États-Unis.",
+      "Aux Cumberland Falls, dans le Kentucky, un arc-en-ciel lunaire peut apparaître dans les embruns les nuits claires de pleine lune.",
+      "Son chapeau de grès dur résiste à l’érosion : c’est pourquoi le plateau garde son sommet plat."
+    ],
+    "q": {
+      "q": "Quel phénomène rare peut-on voir aux Cumberland Falls les nuits de pleine lune ?",
+      "a": "Un arc-en-ciel lunaire",
+      "x": [
+        "Un rayon vert",
+        "La foudre en boule"
+      ]
+    }
   }
 }

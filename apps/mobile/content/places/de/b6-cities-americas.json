@@ -393,5 +393,1194 @@
         "Eine Steilküste"
       ]
     }
+  },
+  "Q5083": {
+    "t": "Eine Stadt auf schmalem Landhals, dahinter ein Riesenvulkan",
+    "s": "Seattle liegt auf einem schlanken, hügeligen Landstreifen zwischen dem Salzwasser des Puget Sound und dem langen Süßwassersee Lake Washington. An klaren Tagen stiehlt der Mount Rainier die Schau, ein vergletscherter Vulkan von rund 4.390 m, etwa 90 km südöstlich. Die Stadt ist nach Si’ahl benannt, einem Anführer der einheimischen Duwamish und Suquamish.",
+    "w": "Eine Stadt zwischen einem fjordartigen Sund und einem langen See; dünne Schwimmbrücken über den See; im Südosten der weiße Kegel des Rainier.",
+    "f": [
+      "Die Brücken über den Lake Washington schwimmen auf Betonpontons; eine ist mit rund 2,3 km die längste Schwimmbrücke der Welt.",
+      "Der Klondike-Goldrausch von 1897 machte Seattle zum wichtigsten Ausrüstungshafen für Goldsucher auf dem Weg nach Norden.",
+      "Der Mount Rainier trägt mehr Gletschereis als jeder andere Gipfel der zusammenhängenden USA."
+    ],
+    "q": {
+      "q": "Welcher Vulkan ragt südöstlich von Seattle auf?",
+      "a": "Mount Rainier",
+      "x": [
+        "Mount Hood",
+        "Mount Shasta"
+      ]
+    }
+  },
+  "Q16556": {
+    "t": "Ein Meilenraster, in die Sonora-Wüste gestanzt",
+    "s": "Phoenix ist Geometrie auf Sand: ein riesiges Raster aus Hauptstraßen im Abstand von einer Meile, in ein Wüstental gestanzt und von kahlen Felsbergen unterbrochen. Achten Sie auf Kanäle und grüne Quadrate bewässerten Landes. Lange vor der Stadt gruben die Hohokam hier Hunderte Kilometer Kanäle, und Siedler der 1860er-Jahre benannten ihren neuen Ort nach dem Vogel, der aus seiner Asche aufsteigt.",
+    "w": "Ein riesiges, helles, regelmäßiges Raster in brauner Wüste, durchbrochen von dunklen Felsgipfeln; dünne Kanäle und grüne bewässerte Flecken.",
+    "f": [
+      "Die Kanäle der Hohokam (etwa 7. bis 15. Jahrhundert) bildeten eines der größten Bewässerungsnetze im vorkolumbischen Nordamerika.",
+      "Sommernachmittage erreichen hier typischerweise über 40 °C.",
+      "Der Camelback Mountain, umgeben von Vororten, ist nach seinem buckligen Profil benannt."
+    ],
+    "q": {
+      "q": "Warum erhielt Phoenix seinen Namen?",
+      "a": "Es entstand auf Ruinen alter Kanäle",
+      "x": [
+        "Ein vogelförmiger Berg liegt nahebei",
+        "Sein Gründer hieß Phoenix"
+      ]
+    }
+  },
+  "Q16552": {
+    "t": "Eine tiefblaue Bucht, eine Sandnehrung und Mexiko nebenan",
+    "s": "San Diego legt sich um eine lange, geschützte Bucht, vom Pazifik abgeschirmt durch die flache Halbinsel Coronado und den hohen Kamm von Point Loma. Flugzeuge landen fast zwischen den Hochhäusern der Innenstadt, auf einem Flughafen direkt am Wasser. Spanische Mönche gründeten hier 1769 Kaliforniens erste Mission, und die mexikanische Grenze liegt nur etwa 25 km südlich.",
+    "w": "Eine gekrümmte Bucht hinter einer hellen Sandnehrung und einem langen Kamm; die Stadt auf canyonzerschnittenen Mesas, im Süden mit Tijuana verwachsen.",
+    "f": [
+      "1542 segelte Juan Rodríguez Cabrillo in diese Bucht – der erste bekannte Europäer an der Westküste der heutigen USA.",
+      "Coronado ist keine echte Insel: Ein schmaler Sandstreifen, der Silver Strand, verbindet es mit dem Festland."
+    ],
+    "q": {
+      "q": "Was gründeten spanische Mönche 1769 in San Diego?",
+      "a": "Kaliforniens erste Mission",
+      "x": [
+        "Kaliforniens erste Universität",
+        "Eine Silbermine"
+      ]
+    }
+  },
+  "Q38022": {
+    "t": "Wo der schlammige Missouri in den Mississippi strömt",
+    "s": "Gleich nördlich von St. Louis treffen sich zwei der großen Flüsse Amerikas, und von oben behalten sie oft noch eine Weile ihre Farben: der schlammbeladene Missouri neben dem dunkleren Mississippi. Französische Pelzhändler gründeten den Ort 1764 und benannten ihn nach König Ludwig IX. 1804 brachen Lewis und Clark nahe dem Zusammenfluss auf, um den Kontinent zu durchqueren.",
+    "w": "Eine Stadt am Westufer des Mississippi; im Norden treffen zwei große braune Flüsse in einem Gewirr aus Armen und Inseln zusammen.",
+    "f": [
+      "Die Eads Bridge von 1874 war eine der ersten großen Brücken, die hauptsächlich aus Stahl gebaut wurden.",
+      "Etwas weiter flussaufwärts mündet auch der Illinois River in den Mississippi.",
+      "Der Gateway Arch am Ufer ist 192 m hoch, aber viel zu schlank, um ihn aus Reiseflughöhe zu erkennen."
+    ],
+    "q": {
+      "q": "Welcher Fluss mündet gleich nördlich von St. Louis in den Mississippi?",
+      "a": "Der Missouri",
+      "x": [
+        "Der Ohio",
+        "Der Arkansas"
+      ]
+    }
+  },
+  "Q34404": {
+    "t": "Die „Crescent City“ in einer Schleife des Mississippi",
+    "s": "New Orleans wuchs in einer engen Schleife des Mississippi – daher der Beiname „Crescent City“, Halbmondstadt. Im Norden breitet sich der weite, runde Lake Pontchartrain aus, überspannt von einer fast 40 km langen Brücke, einem haarfeinen Strich über dem Wasser. Die Franzosen gründeten die Stadt 1718; große Teile liegen heute unter dem Meeresspiegel, umringt von Deichen.",
+    "w": "Eine Stadt in einer scharfen Biegung eines breiten braunen Flusses; im Norden ein großer runder See mit haarfeiner Brücke.",
+    "f": [
+      "Der Lake Pontchartrain Causeway, rund 38 km lang, zählt zu den längsten Brücken über Wasser weltweit.",
+      "Die Stadt ist nach Philipp von Orléans benannt, der Frankreich bei ihrer Gründung als Regent regierte.",
+      "1803 kauften die Vereinigten Staaten New Orleans als Teil des riesigen Louisiana Purchase."
+    ],
+    "q": {
+      "q": "Warum heißt New Orleans „Crescent City“?",
+      "a": "Sie liegt in einer Mississippi-Schleife",
+      "x": [
+        "Ihr Hafen hat Mondform",
+        "Ihr Hauptplatz ist halbmondförmig"
+      ]
+    }
+  },
+  "Q16557": {
+    "t": "Prärie-Metropole mit einem Flughafen größer als Manhattan",
+    "s": "Dallas erhebt sich aus flacher, offener Prärie, ohne Küste oder Berg, die ihm Form geben – nur Autobahnen, die sich auffächern, und verstreute Stauseen. Der Trinity River quert die Stadt in einem breiten grünen Flutbett zwischen Deichen. Suchen Sie Richtung Fort Worth die Bahnen von DFW, einem Flughafen, der mehr Fläche bedeckt als Manhattan. Alles begann 1841 mit einem Handelsposten an einer Furt.",
+    "w": "Flaches Häusermeer ohne natürliche Ränder; ein breites grünes Flutbett am Trinity; im Nordwesten ein Riesenflughafen mit langen parallelen Bahnen.",
+    "f": [
+      "Dallas–Fort Worth International umfasst rund 70 km², mehr als die Insel Manhattan.",
+      "Gründer John Neely Bryan wählte den Ort wegen einer natürlichen Furt durch den Trinity River.",
+      "Fast alle Seen rund um Dallas sind künstliche Stauseen."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Dallas?",
+      "a": "Der Trinity River",
+      "x": [
+        "Der Brazos",
+        "Der Red River"
+      ]
+    }
+  },
+  "Q171632": {
+    "t": "Am Hals eines riesigen Sees voller Ölbohrtürme",
+    "s": "Maracaibo liegt an der schmalen Meerenge, wo sich der Maracaibo-See, eines der größten Gewässer Südamerikas, zum Meer öffnet. Draußen auf dem See stehen unzählige Ölbohrtürme, und nachts sprenkeln ihre Lichter das dunkle Wasser. Achten Sie auf die dünne Linie der über 8 km langen Brücke. 1499 sah eine Expedition in spanischen Diensten hier Pfahlbauten und nannte das Land „Klein-Venedig“ – Venezuela.",
+    "w": "Eine Stadt am Westufer einer schmalen Meerenge; eine lange Brücke darüber; im Süden öffnet sich ein riesiger See.",
+    "f": [
+      "Über dem Südwesten des Sees, nahe der Mündung des Catatumbo, zucken in weit über hundert Nächten im Jahr Blitze.",
+      "Die General-Rafael-Urdaneta-Brücke über die Meerenge ist rund 8,7 km lang und wurde 1962 eröffnet.",
+      "Der See ist mit dem Meer verbunden, daher ist sein Wasser leicht salzig."
+    ],
+    "q": {
+      "q": "Was gab Venezuela seinen Namen?",
+      "a": "Pfahldörfer am See",
+      "x": [
+        "Ein Entdecker aus Venedig",
+        "Kanäle in der Hauptstadt"
+      ]
+    }
+  },
+  "Q100": {
+    "t": "Eine Stadt, die sich ihren Boden selbst ins Meer baute",
+    "s": "Bostons Umriss ist großteils menschengemacht. Die Puritaner, die 1630 ankamen, besiedelten eine kleine, hügelige Halbinsel, die nur über einen schmalen Hals mit dem Festland verbunden war; im 19. Jahrhundert wurden die Watten ringsum aufgeschüttet und ganze Viertel geschaffen. Achten Sie auf das Becken des Charles River, den inselreichen Hafen und die Landebahnen, die sich gegenüber der Innenstadt ins Meer strecken.",
+    "w": "Eine kompakte Stadt an einem inselreichen Hafen; im Westen ein breites Flussbecken; im Osten Landebahnen, die ins Wasser reichen.",
+    "f": [
+      "Das Viertel Back Bay steht auf Wattflächen, die im 19. Jahrhundert mit Kies aufgefüllt wurden.",
+      "Harvard, 1636 jenseits des Charles River gegründet, ist die älteste Universität der Vereinigten Staaten.",
+      "Auch der Flughafen Logan wurde größtenteils auf Land gebaut, das dem Hafen abgerungen wurde."
+    ],
+    "q": {
+      "q": "Was war Bostons Back Bay vor dem 19. Jahrhundert?",
+      "a": "Wattflächen",
+      "x": [
+        "Ackerland",
+        "Wald"
+      ]
+    }
+  },
+  "Q49255": {
+    "t": "Eine Stadt am Ende einer Bucht, zusammengenäht von Dämmen",
+    "s": "Tampa liegt am oberen Ende einer großen, verzweigten Bucht, und von oben wirkt die ganze Gegend wie zusammengenäht: Lange Dämme und Brücken führen schnurgerade über das flache Wasser nach St. Petersburg auf der gegenüberliegenden Halbinsel. 1886 verlegten Zigarrenmacher ihre Fabriken hierher, und handgerollte Zigarren machten Tampa berühmt. Achten Sie auf die ausgebaggerte Fahrrinne Richtung Golf.",
+    "w": "Eine Stadt am Nordende einer weiten, verzweigten Bucht; mehrere dünne Dämme über das Wasser; im Westen eine Stadt auf einer Halbinsel.",
+    "f": [
+      "Die Tampa Bay ist Floridas größte offene Flussmündung und umfasst rund 1.000 km².",
+      "Ybor City, das alte Zigarrenviertel, produzierte einst Hunderte Millionen Zigarren im Jahr."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt Tampa auf der anderen Seite der Bucht gegenüber?",
+      "a": "St. Petersburg",
+      "x": [
+        "Orlando",
+        "Jacksonville"
+      ]
+    }
+  },
+  "Q1345": {
+    "t": "Penns Raster, 1682 zwischen zwei Flüsse gelegt",
+    "s": "Philadelphia begann als Plan auf Papier: 1682 zeichnete William Penn ein ordentliches Raster zwischen Delaware und Schuylkill, mit einem zentralen Platz und vier kleineren. Dieses Rechteck ist noch heute das Herz der Stadt. 1776 wurde hier die Unabhängigkeitserklärung verabschiedet, und ab 1790 war Philadelphia ein Jahrzehnt lang Hauptstadt des Landes.",
+    "w": "Ein dichtes Raster zwischen zwei Flüssen; im Osten der breite Delaware mit dem Flughafen am Ufer; ein langer grüner Park am Schuylkill.",
+    "f": [
+      "Vier von Penns fünf ursprünglichen Plätzen sind noch Parks; auf dem fünften steht das Rathaus.",
+      "Der Name ist griechisch und bedeutet „Bruderliebe“.",
+      "Der Fairmount Park am Schuylkill ist eines der größten städtischen Parksysteme der USA."
+    ],
+    "q": {
+      "q": "Zwischen welchen Flüssen legte Penn Philadelphia an?",
+      "a": "Delaware und Schuylkill",
+      "x": [
+        "Hudson und Harlem",
+        "Potomac und Anacostia"
+      ]
+    }
+  },
+  "Q12439": {
+    "t": "Die US-Stadt, in deren Süden Kanada liegt",
+    "s": "Detroit hat eine Eigenheit der Landkarte: Jenseits des Detroit River, genau südlich der Innenstadt, liegt Kanada. Der Fluss ist eigentlich eine Meerenge zwischen dem Lake St. Clair und dem Eriesee, und das französische Wort für Meerenge, détroit, gab der Stadt ihren Namen. Antoine de la Mothe Cadillac gründete hier 1701 ein Fort. Zwei Jahrhunderte später machten Autobauer daraus die „Motor City“.",
+    "w": "Eine Stadt an einem breiten Flusslauf zwischen zwei Seen; Windsor am gegenüberliegenden Ufer; eine lange bewaldete Insel im Fluss.",
+    "f": [
+      "Belle Isle, die Parkinsel im Detroit River, ist größer als der Central Park in New York.",
+      "Über die Ambassador Bridge nach Windsor läuft mehr Handel als über jeden anderen Grenzübergang zwischen den USA und Kanada."
+    ],
+    "q": {
+      "q": "In welcher Richtung liegt Kanada von der Innenstadt Detroits aus?",
+      "a": "Im Süden",
+      "x": [
+        "Im Norden",
+        "Im Westen"
+      ]
+    }
+  },
+  "Q39450": {
+    "t": "Eine Grenzstadt zwischen Watt und den Gipfeln der Chugach",
+    "s": "Anchorage füllt einen Keil flachen Landes zwischen zwei langen Armen des Cook Inlet, direkt dahinter steigen die Chugach Mountains auf. Bei Ebbe läuft der Meeresarm zu glänzend grauem Watt leer: Der Tidenhub kann hier mehr als 9 m betragen. Schauen Sie an klaren Tagen nach Norden zum Denali, rund 200 km entfernt. Die Stadt begann 1914 als Zeltlager für Eisenbahnbauer.",
+    "w": "Eine Rasterstadt auf einem Tieflandkeil zwischen zwei graubraunen Meeresarmen, dahinter verschneite Berge; neben dem Flughafen ein See voller Wasserflugzeuge.",
+    "f": [
+      "Der Lake Hood neben dem internationalen Flughafen ist einer der verkehrsreichsten Wasserflugzeughäfen der Welt.",
+      "Der Turnagain Arm erhielt seinen Namen 1778, als James Cooks Schiffe dort umkehren mussten.",
+      "Im Turnagain Arm kommt die Flut manchmal als Gezeitenwelle – eine einzelne wandernde Woge."
+    ],
+    "q": {
+      "q": "Wie kam der Turnagain Arm bei Anchorage zu seinem Namen?",
+      "a": "Cooks Schiffe mussten dort umkehren",
+      "x": [
+        "Er biegt in sich selbst zurück",
+        "Walfänger nutzten ihn als Wendepunkt"
+      ]
+    }
+  },
+  "Q9022": {
+    "t": "Zwischen tiefem Canyon und Mexikos größtem See",
+    "s": "Guadalajara breitet sich über ein hohes, offenes Tal rund 1.560 m über dem Meer aus. Im Norden endet die Stadt abrupt an einem tiefen Canyon, den der Río Grande de Santiago gegraben hat, und im Süden liegt der Chapala-See, Mexikos größter Süßwassersee. Achten Sie westlich der Stadt auf blaugraue Agavenreihen: Hier beginnt das Land um den Ort Tequila.",
+    "w": "Eine große Stadt in einem flachen Hochtal; ein dunkler Canyon am Nordrand; ein großer See im Süden.",
+    "f": [
+      "Der Canyon am Nordrand, die Barranca de Huentitán, ist rund 600 m tief.",
+      "Die Stadt wurde mehrmals verlegt, bevor sie sich 1542 an ihrem heutigen Standort niederließ.",
+      "Blaue Agaven für Tequila bedecken die Hügel um den Ort Tequila, rund 60 km nordwestlich."
+    ],
+    "q": {
+      "q": "Welcher See liegt gleich südlich von Guadalajara?",
+      "a": "Der Chapala-See",
+      "x": [
+        "Der Pátzcuaro-See",
+        "Der Texcoco-See"
+      ]
+    }
+  },
+  "Q125293": {
+    "t": "Ein Kolonialraster im Ring großer Vulkane",
+    "s": "Kaum eine Stadt hat einen Vulkanhorizont wie Puebla. Im Westen stehen die verschneiten Popocatépetl und Iztaccíhuatl, im Nordosten der einsame Kegel der Malinche und weit im Osten der weiße Gipfel des Orizaba, Mexikos höchster Berg. Die Spanier gründeten Puebla 1531 als ganz neue Planstadt, und ihr altes Zentrum ist noch immer ein ordentliches Raster.",
+    "w": "Eine große Stadt auf einer Hochebene mit großen Vulkanen am Horizont; der einzelne Kegel der Malinche nah im Nordosten.",
+    "f": [
+      "Im benachbarten Cholula steht die volumenmäßig größte Pyramide der Welt, so überwachsen, dass sie wie ein Hügel aussieht.",
+      "Der Pico de Orizaba, an klaren Tagen im Osten sichtbar, ist rund 5.600 m hoch.",
+      "Puebla ist berühmt für Talavera, eine Tradition glasierter Keramik, die im 16. Jahrhundert aus Spanien kam."
+    ],
+    "q": {
+      "q": "Welcher Nachbarort hat die volumenmäßig größte Pyramide der Welt?",
+      "a": "Cholula",
+      "x": [
+        "Teotihuacán",
+        "Tula"
+      ]
+    }
+  },
+  "Q43509": {
+    "t": "Ein Gezeitenhafen zwischen Mangroven und Garnelenteichen",
+    "s": "Guayaquil zieht sich am Westufer des breiten, braunen Guayas entlang, bis wohin die Pazifikflut noch reicht. Flussabwärts löst sich die Mündung in ein Labyrinth aus Mangrovenkanälen und ordentlichen Rastern rechteckiger Garnelenteiche auf. Ecuadors größte Stadt und wichtigster Hafen wurde 1538 an dieser Stelle gegründet, nach früheren Versuchen in der Nähe.",
+    "w": "Eine große Stadt an einem breiten braunen Fluss; Reihen rechteckiger Teiche und dunkle Mangroven entlang der Mündung im Süden.",
+    "f": [
+      "Die Teiche rund um den Golf von Guayaquil machen Ecuador zu einem der größten Garnelenexporteure der Welt.",
+      "Flöße aus Wasserhyazinthen treiben mit jeder Tide den Guayas hinauf und hinab.",
+      "Die Gründung von 1538 wird Francisco de Orellana zugeschrieben, später erster Europäer, der den Amazonas hinabfuhr."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt an Guayaquil vorbei?",
+      "a": "Der Guayas",
+      "x": [
+        "Der Napo",
+        "Der Esmeraldas"
+      ]
+    }
+  },
+  "Q48278": {
+    "t": "Eine Stadt, die ein grünes Andental von Wand zu Wand füllt",
+    "s": "Medellín ist in das Aburrá-Tal gegossen, eine schmale Rinne in den Anden auf rund 1.500 m Höhe, und seine Viertel aus rotem Backstein klettern hoch an beiden Hängen hinauf. Mitten hindurch fließt der Río Medellín nach Norden. In dieser Höhe und so nah am Äquator bleibt die Luft das ganze Jahr mild – deshalb nennen die Einheimischen sie die Stadt des ewigen Frühlings.",
+    "w": "Eine lange Stadt in einem schmalen Nord-Süd-Tal, die seine grünen Wände hinaufklettert; der Hauptflughafen auf einem Plateau im Osten.",
+    "f": [
+      "Der Hauptflughafen liegt auf einem Plateau bei Rionegro in rund 2.100 m Höhe – höher als die Stadt selbst.",
+      "Die Durchschnittstemperatur liegt in jedem Monat des Jahres bei etwa 22 °C.",
+      "Medellín erhielt 1675 den Rang einer Stadt."
+    ],
+    "q": {
+      "q": "Welchen Beinamen verdankt Medellín seinem Klima?",
+      "a": "Stadt des ewigen Frühlings",
+      "x": [
+        "Stadt der Winde",
+        "Stadt der Nebel"
+      ]
+    }
+  },
+  "Q51103": {
+    "t": "Salsa-Stadt auf einer Ebene voller Zuckerrohr",
+    "s": "Cali liegt dort, wo das flache, fruchtbare Cauca-Tal auf die steilen grünen Hänge der Westkordillere trifft. Schauen Sie über den Talboden: Ein Flickenteppich aus Zuckerrohrfeldern in allen Grüntönen erstreckt sich weit über hundert Kilometer nach Norden und Süden. Sebastián de Belalcázar gründete die Stadt 1536; heute nennt sie sich stolz Welthauptstadt des Salsa.",
+    "w": "Eine große Stadt am Fuß einer Bergwand im Westen; im Osten ein flaches Tal aus gestreiften grünen Zuckerrohrfeldern.",
+    "f": [
+      "Das Cauca-Tal ist das Herz der kolumbianischen Zuckerindustrie.",
+      "Der Río Cauca, einer der längsten Flüsse Kolumbiens, windet sich am Ostrand der Stadt entlang.",
+      "Mit rund 1.000 m liegt Cali tiefer und ist wärmer als Kolumbiens Hochlandstädte."
+    ],
+    "q": {
+      "q": "Welche Nutzpflanze bedeckt das Cauca-Tal um Cali?",
+      "a": "Zuckerrohr",
+      "x": [
+        "Weizen",
+        "Tee"
+      ]
+    }
+  },
+  "Q1563": {
+    "t": "Ein Taschenhafen hinter einer schmalen, befestigten Einfahrt",
+    "s": "Havanna wuchs um eine sackförmige Bucht, die man nur durch einen einzigen schmalen Kanal erreicht – leicht zu verteidigen und sicher vor Stürmen. Das machte sie zum Sammelpunkt der spanischen Schatzflotten, die sich hier vor der Atlantiküberquerung versammelten. 1519 zog die Stadt an dieses Ufer. Achten Sie auf den schlanken Hals des Hafens und die lange Uferpromenade, die sich von dort nach Westen schwingt.",
+    "w": "Eine Stadt an Kubas Nordküste um eine beutelförmige Bucht mit schmaler Einfahrt; die Altstadt an ihrer Westseite.",
+    "f": [
+      "Alt-Havanna und seine Festungsanlagen sind seit 1982 UNESCO-Welterbe.",
+      "Key West in Florida liegt rund 170 km nördlich jenseits der Floridastraße.",
+      "Die Festungen Morro und La Cabaña bewachen die Hafeneinfahrt von ihrem Ostufer aus."
+    ],
+    "q": {
+      "q": "Was versammelte sich im Hafen von Havanna vor der Fahrt nach Spanien?",
+      "a": "Spanische Schatzflotten",
+      "x": [
+        "Walfangflotten",
+        "Piratengeschwader"
+      ]
+    }
+  },
+  "Q34820": {
+    "t": "Amerikas älteste europäische Stadt, an einer Flussmündung",
+    "s": "Santo Domingo liegt dort, wo der Río Ozama in die Karibik mündet, und die Kolonialstadt sitzt am Westufer direkt an der Mündung. 1496 gegründet, ist sie die älteste ununterbrochen bewohnte von Europäern gegründete Stadt Amerikas. Achten Sie auf die lange, gerade Uferfront, die vom Fluss nach Westen verläuft, und den Flughafen draußen an der Küste im Osten.",
+    "w": "Eine große Stadt an einem geraden Stück Karibikküste, geteilt von einer Flussmündung; der Flughafen an der Küste im Osten.",
+    "f": [
+      "1502 zog die Stadt vom Ost- an das Westufer des Ozama.",
+      "Ihre Kathedrale, in den 1540er-Jahren vollendet, ist die älteste Amerikas."
+    ],
+    "q": {
+      "q": "Welcher Fluss teilt Santo Domingo in West und Ost?",
+      "a": "Der Ozama",
+      "x": [
+        "Der Yaque del Norte",
+        "Der Artibonite"
+      ]
+    }
+  },
+  "Q12829733": {
+    "t": "Ein Flusshafen am Tor zum Amazonas",
+    "s": "Belém blickt auf eine riesige Fläche schlammigen Wassers – den Rio Pará und die Guajará-Bucht, Teil des Mündungslabyrinths des Amazonas. Gegenüber liegt Marajó, eine Insel etwa so groß wie die Schweiz. Die Portugiesen bauten hier 1616 ein Fort, um den Zugang zum Amazonas zu bewachen, und der Kautschukboom des späten 19. Jahrhunderts machte die Stadt reich.",
+    "w": "Eine dichte Stadt auf einer Landspitze zwischen braunen Wasserläufen, ringsum Wald und Inseln; im Nordwesten die riesige, flache Insel Marajó.",
+    "f": [
+      "Marajó umfasst rund 40.000 km² – eine der größten Inseln, die von Süß- und Brackwasser umgeben sind.",
+      "Belém liegt keine 200 km südlich des Äquators, und nachmittägliche Wolkenbrüche gibt es fast täglich.",
+      "Auf dem Markt Ver-o-Peso am Ufer werden seit dem 17. Jahrhundert Waren aus dem Amazonasgebiet gehandelt."
+    ],
+    "q": {
+      "q": "Welche riesige Insel liegt Belém gegenüber?",
+      "a": "Marajó",
+      "x": [
+        "Bananal",
+        "Ilha Grande"
+      ]
+    }
+  },
+  "Q2844": {
+    "t": "Eine Hauptstadt in Gestalt eines Flugzeugs",
+    "s": "Brasília ist eine der wenigen Städte, deren Entwurf Sie vom Fenster aus lesen können: zwei geschwungene Wohnflügel, gekreuzt von einer geraden Monumentalachse, wie ein Flugzeug oder ein Vogel. Lúcio Costa zeichnete den Plan; gebaut wurde die Stadt auf fast leerer Savanne und 1960 eingeweiht. Im Osten umschließt sie ein künstlicher See.",
+    "w": "Eine kreuzförmige Stadt – eine lange gerade Achse quer über einem Bogen – neben einem verzweigten Stausee auf der Hochsavanne.",
+    "f": [
+      "Der Paranoá-See entstand beim Bau der Stadt durch das Aufstauen eines Flusses.",
+      "Der gesamte Plano Piloto ist seit 1987 UNESCO-Welterbe.",
+      "Die Stadt liegt auf einem Plateau in rund 1.100 m Höhe, inmitten des rötlichen Cerrado, der Savanne Brasiliens."
+    ],
+    "q": {
+      "q": "Woran erinnert Brasílias ursprünglicher Plan?",
+      "a": "An ein Flugzeug",
+      "x": [
+        "An einen Stern",
+        "An eine Spirale"
+      ]
+    }
+  },
+  "Q40269": {
+    "t": "Eine Stadt an einem Fluss, der vielleicht ein See ist",
+    "s": "Porto Alegre säumt das Ostufer des Guaíba, eines weiten Gewässers, das dort entsteht, wo mehrere Flüsse in einem grünen Inseldelta zusammentreffen. Die Einheimischen streiten noch, ob es als Fluss oder See zählt. Im Süden öffnet es sich zur Lagoa dos Patos, einer über 200 km langen Küstenlagune. Siedler von den Azoren halfen im 18. Jahrhundert, den Ort zu gründen.",
+    "w": "Eine Stadt am Ostufer eines weiten braunen Gewässers; im Norden ein Delta grüner Inseln, im Süden eine riesige Lagune.",
+    "f": [
+      "Die Lagoa dos Patos umfasst rund 10.000 km² und ist damit Brasiliens größte Lagune.",
+      "Offizielles Gründungsdatum ist 1772, doch Familien von den Azoren hatten sich schon rund zwanzig Jahre früher hier niedergelassen."
+    ],
+    "q": {
+      "q": "Welche Lagune erstreckt sich südlich von Porto Alegre?",
+      "a": "Lagoa dos Patos",
+      "x": [
+        "Lagoa Rodrigo de Freitas",
+        "Lagoa da Conceição"
+      ]
+    }
+  },
+  "Q4361": {
+    "t": "Eine kühle Hochlandstadt zwischen Kandelaber-Kiefern",
+    "s": "Curitiba liegt auf einer Hochebene in rund 900 m Höhe, gleich landeinwärts der bewaldeten Serra do Mar, und ist eine der kühlsten Großstädte Brasiliens, mit frostigen Wintermorgen. Ihr Name wird meist auf einen Tupi-Ausdruck für „viele Kiefern“ zurückgeführt – nach den Araukarien, deren flache, kandelaberartige Kronen noch immer das Umland tüpfeln. Achten Sie auf die Seen in ihren vielen Parks.",
+    "w": "Eine große Stadt auf einer grünen Hochebene, getüpfelt mit Parkseen; im Osten steigt die dunkle, bewaldete Serra do Mar auf.",
+    "f": [
+      "Viele der Parkseen der Stadt wurden als Rückhaltebecken gegen Hochwasser angelegt.",
+      "Eine 1885 eröffnete Bahnstrecke windet sich noch heute von Curitiba die Serra do Mar hinab zum Hafen Paranaguá.",
+      "In den 1970er-Jahren führte Curitiba Expressbusspuren ein, die Städte weltweit später kopierten."
+    ],
+    "q": {
+      "q": "Welcher Baum gab Curitiba seinen Namen?",
+      "a": "Die Araukarie (Brasilianische Kiefer)",
+      "x": [
+        "Der Paranussbaum",
+        "Der Kautschukbaum"
+      ]
+    }
+  },
+  "Q43463": {
+    "t": "Sonnige Festungsstadt an Brasiliens Nordostschulter",
+    "s": "Fortaleza blickt nach Norden auf einen warmen, türkisen Atlantik, und seine Hochhausfront schwingt sich an einer Küste aus weißen Dünen entlang. Die stetigen Passatwinde, die die Segel der einheimischen Jangada-Flöße füllen, drehen auch Reihen von Windrädern an der Küste. Der Name bedeutet schlicht „Festung“: Die Stadt wuchs um ein Fort, das die Niederländer hier 1649 bauten und das später die Portugiesen übernahmen.",
+    "w": "Eine große Stadt an einer nach Norden gewandten Küste; lange helle Strände und Dünen zu beiden Seiten; Wellenbrecher und ein Hafen im Osten.",
+    "f": [
+      "Ceará, dessen Hauptstadt Fortaleza ist, schaffte die Sklaverei 1884 ab – vier Jahre vor dem Rest Brasiliens.",
+      "Die Küste liegt hier nur rund 4° südlich des Äquators, deshalb sind Tag und Nacht das ganze Jahr fast gleich lang."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Fortaleza?",
+      "a": "Festung",
+      "x": [
+        "Leuchtturm",
+        "Hafen"
+      ]
+    }
+  },
+  "Q36947": {
+    "t": "Brasiliens erste Hauptstadt, auf einer Klippe über der Bucht",
+    "s": "Salvador nimmt eine stumpfe Halbinsel zwischen dem offenen Atlantik und der riesigen, ruhigen Allerheiligenbucht ein. Die Altstadt wurde oben auf einen steilen Hang gebaut, der Hafen drängt sich an seinem Fuß – eine Stadt auf zwei Ebenen. 1549 gegründet, war sie über zwei Jahrhunderte lang, bis 1763, die Hauptstadt des portugiesischen Brasilien.",
+    "w": "Eine große Stadt auf einer dreieckigen Halbinsel; im Westen eine weite, inselreiche Bucht, im Süden und Osten Ozeanstrände.",
+    "f": [
+      "Die Bucht erhielt ihren Namen 1501 von einer portugiesischen Expedition, die an Allerheiligen ankam.",
+      "Seit 1873 befördert ein öffentlicher Aufzug, der Elevador Lacerda, Menschen zwischen Ober- und Unterstadt.",
+      "Die Bucht umfasst über 1.000 km² und birgt Dutzende Inseln."
+    ],
+    "q": {
+      "q": "An welcher Bucht wuchs Salvador heran?",
+      "a": "An der Allerheiligenbucht",
+      "x": [
+        "An der Guanabara-Bucht",
+        "An der Paranaguá-Bucht"
+      ]
+    }
+  },
+  "Q2096": {
+    "t": "Eine grüne Flussschlucht quer durch eine Stadt im Norden",
+    "s": "Edmonton wird vom North Saskatchewan River in zwei Hälften geschnitten, der in Schleifen durch ein tiefes, bewaldetes Tal fließt, das fast vollständig als Parkland erhalten ist. Von oben ist es ein dunkelgrünes Band quer über dem Straßenraster. Rund um die Stadt dehnt sich flaches Farmland bis zum Horizont. Dies ist die nördlichste Millionenmetropole Nordamerikas.",
+    "w": "Eine große Rasterstadt auf flachem Farmland, geteilt von einem tiefen, gewundenen, baumgesäumten Flusstal; Raffinerien am Ostrand.",
+    "f": [
+      "Die Parks im Flusstal bilden eine der längsten zusammenhängenden städtischen Grünflächen Nordamerikas.",
+      "Die Hudson’s Bay Company baute 1795 Fort Edmonton am Fluss.",
+      "Edmonton ist die Hauptstadt Albertas, doch das südlichere Calgary ist die größere Stadt."
+    ],
+    "q": {
+      "q": "Welcher Fluss windet sich durch Edmonton?",
+      "a": "Der North Saskatchewan",
+      "x": [
+        "Der Athabasca",
+        "Der Red Deer"
+      ]
+    }
+  },
+  "Q340": {
+    "t": "Eine Inselstadt mit einem Berg in der Mitte",
+    "s": "Montreal füllt den Großteil einer Insel im Sankt-Lorenz-Strom, und in ihrer Mitte erhebt sich ein dunkler, bewaldeter Hügel: der Mont Royal, der der Stadt ihren Namen gab. Jacques Cartier bestieg ihn 1535, und 1642 gründeten französische Siedler an seinem Fuß Ville-Marie. Gleich flussaufwärts stoppten die Lachine-Stromschnellen hochseetüchtige Schiffe – so wurde die Stadt zu einem großen Flusshafen.",
+    "w": "Eine große Inselstadt in einem breiten Fluss, mit einem bewaldeten Hügel in der Mitte; lange Brücken zum Südufer.",
+    "f": [
+      "Die Insel Montreal, rund 50 km lang, ist die größte von über 200 Inseln des Hochelaga-Archipels.",
+      "Schiffe umfahren die Lachine-Stromschnellen heute über den Sankt-Lorenz-Seeweg am Südufer.",
+      "Montreal ist eine der größten französischsprachigen Städte der Welt."
+    ],
+    "q": {
+      "q": "Wonach ist Montreal benannt?",
+      "a": "Nach dem Hügel in seiner Mitte",
+      "x": [
+        "Nach einem französischen König",
+        "Nach dem Sankt-Lorenz-Strom"
+      ]
+    }
+  },
+  "Q83189": {
+    "t": "Eine Planhauptstadt der 1930er auf rotem Cerrado",
+    "s": "Goiânia entstand am Reißbrett und wurde ab 1933 gebaut, um die alte Kolonialstadt Goiás als Hauptstadt des Bundesstaats abzulösen. Ihre zentralen Alleen strahlen wie Speichen von einem Verwaltungsplatz aus – ein Plan, eine Generation älter als der von Brasília. Ringsum ist die Cerrado-Savanne zu einem Flickenteppich aus Sojafeldern und Weiden geworden, dazwischen schimmert rötlicher Boden.",
+    "w": "Eine große Stadt auf einer sanft gewellten Hochebene; ringsum grüne und rotbraune Feldquadrate; Brasília rund 200 km nordöstlich.",
+    "f": [
+      "Die alte Hauptstadt, der Ort Goiás, ist wegen ihres kolonialen Zentrums UNESCO-Welterbe.",
+      "Viele der frühen öffentlichen Gebäude Goiânias entstanden im Art-déco-Stil."
+    ],
+    "q": {
+      "q": "Welchen Ort löste Goiânia als Hauptstadt ab?",
+      "a": "Die alte Stadt Goiás",
+      "x": [
+        "Anápolis",
+        "Pirenópolis"
+      ]
+    }
+  },
+  "Q48344": {
+    "t": "Eine Stadt der Flüsse und Brücken hinter einem Riff",
+    "s": "Recife ist von Wasser durchzogen: Die Flüsse Capibaribe und Beberibe teilen sich vor dem Meer in Kanäle um Inseln, und Brücken nähen die Viertel zusammen. Vor der Küste verläuft eine lange, gerade Felslinie parallel zum Strand und schützt den Hafen – das Riff, das der Stadt ihren Namen gab. Von 1630 bis 1654 war dies die Hauptstadt des Niederländischen Brasilien.",
+    "w": "Eine dichte Küstenstadt, kreuz und quer von Flussarmen durchzogen; eine dünne Rifflinie direkt vor der Küste; ein langer Strand im Süden.",
+    "f": [
+      "Die erste Synagoge Amerikas, Kahal Zur Israel, wurde hier in den 1630er-Jahren unter niederländischer Herrschaft eröffnet.",
+      "Unter Johann Moritz von Nassau bauten die Niederländer auf einer der Inseln eine neue Stadt, Mauritsstad."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Recife?",
+      "a": "Riff",
+      "x": [
+        "Brücke",
+        "Insel"
+      ]
+    }
+  },
+  "Q49219": {
+    "t": "Eine Stadt vom Reißbrett auf einer alten Rinderranch",
+    "s": "Irvine wurde in den 1960er-Jahren fast aus dem Nichts auf der Irvine Ranch entworfen, einst ein riesiges Rinder- und Farmgut von der Küste bis zu den Bergen. Architekt William Pereira plante es rund um einen neuen Campus der University of California, in ordentlichen Dörfern, getrennt durch Grüngürtel. Achten Sie im Nordosten auf den Saddleback, den doppelgipfligen Kamm, der die Silhouette prägt.",
+    "w": "Ordentliche, geschwungene Vororte mit Grüngürteln zwischen niedrigen Küstenhügeln und den Santa Ana Mountains; der John Wayne Airport am Westrand.",
+    "f": [
+      "Der Saddleback ist nach der Senke zwischen seinen zwei Gipfeln benannt; der höhere, Santiago Peak, ist rund 1.700 m hoch.",
+      "Abflüge vom John Wayne Airport steigen steil und nehmen dann Schub zurück, um die Häuser darunter zu schonen.",
+      "Die Upper Newport Bay gleich südwestlich ist eine der wenigen erhaltenen Küstenmündungen Südkaliforniens."
+    ],
+    "q": {
+      "q": "Was war das Land unter Irvine, bevor die Stadt geplant wurde?",
+      "a": "Eine riesige private Ranch",
+      "x": [
+        "Ein Nationalforst",
+        "Ein Salzsee"
+      ]
+    }
+  },
+  "Q42800": {
+    "t": "Eine Planhauptstadt zwischen eisenreichen Bergen",
+    "s": "Belo Horizonte wurde von Grund auf neu gebaut und 1897 als neue Hauptstadt von Minas Gerais eingeweiht, anstelle der alten Goldstadt Ouro Preto. Die Planer legten diagonale Alleen über ein Straßenraster und umschlossen alles mit einer Ringstraße. Am Südrand erhebt sich die Serra do Curral, dahinter liegen die rotbraunen Narben von Eisenerzminen. Der Name bedeutet „schöner Horizont“.",
+    "w": "Eine große, hügelige Stadt unter einem langen Kamm im Süden; rötliche Minengruben in den Hügeln dahinter; ein See im Norden.",
+    "f": [
+      "Das umliegende „Eisenviereck“ ist eine der großen Eisenerzregionen der Welt.",
+      "Der Pampulha-See, ein Stausee im Norden, ist von Bauten Oscar Niemeyers aus den 1940er-Jahren gesäumt, heute UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welche alte Goldstadt löste Belo Horizonte 1897 als Hauptstadt ab?",
+      "a": "Ouro Preto",
+      "x": [
+        "Diamantina",
+        "Mariana"
+      ]
+    }
+  },
+  "Q1335": {
+    "t": "Die südlichste Hauptstadt Amerikas, an einem einsamen Hügel",
+    "s": "Montevideo liegt auf einer felsigen Halbinsel am Nordufer des Río de la Plata, genau dort, wo die braune Mündung ins blaue Atlantikwasser überzugehen beginnt. Jenseits der Bucht erhebt sich ein einzelner, runder Hügel, der Cerro, der der Stadt ihren Namen gab. Spanien gründete Montevideo in den 1720er-Jahren als Festung, um das Nordufer der Mündung gegen Portugal zu halten.",
+    "w": "Eine Stadt auf einer Halbinsel und an einem langen geschwungenen Ufer; im Westen ein runder Hügel jenseits der Bucht; ostwärts wird das braune Wasser blau.",
+    "f": [
+      "Der Cerro de Montevideo ist nur rund 134 m hoch, war aber die Landmarke, nach der Seeleute steuerten.",
+      "Montevideo ist die südlichste Hauptstadt eines Staates in Amerika.",
+      "Eine Uferpromenade, die Rambla, folgt der Küste über mehr als 20 km."
+    ],
+    "q": {
+      "q": "Was gab Montevideo seinen Namen?",
+      "a": "Ein Hügel jenseits der Bucht",
+      "x": [
+        "Eine Flussmündung",
+        "Eine Insel im Hafen"
+      ]
+    }
+  },
+  "Q38733": {
+    "t": "Eine Goldrausch-Hauptstadt am Rand der Rockies",
+    "s": "Helena begann 1864, als vier erschöpfte Goldsucher einen letzten Bach versuchten und auf Gold stießen; die Hauptstraße folgt noch heute diesem „Last Chance Gulch“. Heute ist es eine kleine Hauptstadt, wo bewaldete Berge auf das flache, offene Helena Valley treffen. Achten Sie im Nordosten und Osten auf die glitzernden Stauseen des Missouri.",
+    "w": "Eine kleine Stadt an bewaldeten Hügeln; ein breites, flaches Tal im Nordosten, dahinter die blauen Stauseen des Missouri.",
+    "f": [
+      "1805 nannte Meriwether Lewis einen engen Canyon des Missouri in der Nähe die „Tore der Rocky Mountains“.",
+      "Helena wurde 1875 Hauptstadt Montanas, als Montana noch ein Territorium war."
+    ],
+    "q": {
+      "q": "Wie hieß die Schlucht, in der Helenas Gold gefunden wurde?",
+      "a": "Last Chance Gulch",
+      "x": [
+        "Lucky Strike Gulch",
+        "Golden Creek Gulch"
+      ]
+    }
+  },
+  "Q37066": {
+    "t": "Präriehauptstadt mit einem Namen für deutsche Investoren",
+    "s": "Bismarck liegt am Ostufer des Missouri, hier ein breiter Fluss, der sich durch offene, wellige Ebenen windet. Der Ort begann 1872 als Edwinton, eine Bahnquerung; ein Jahr später wurde er nach dem deutschen Reichskanzler Otto von Bismarck umbenannt – in der Hoffnung, deutsches Geld und Siedler für die Northern Pacific Railway zu gewinnen. Die Zwillingsstadt Mandan liegt ihm am anderen Ufer gegenüber.",
+    "w": "Eine bescheidene Stadt an einem breiten, gewundenen Fluss mit Sandbänken; eine kleinere Stadt am anderen Ufer; ringsum weite gelbbraune Prärie.",
+    "f": [
+      "Lewis und Clark überwinterten 1804–05 in Fort Mandan, rund 60 km flussaufwärts.",
+      "North Dakotas Kapitol ist ein 19-stöckiger Turm, oft „Wolkenkratzer der Prärie“ genannt."
+    ],
+    "q": {
+      "q": "Nach wem ist Bismarck benannt?",
+      "a": "Nach Reichskanzler Otto von Bismarck",
+      "x": [
+        "Nach einem Eisenbahningenieur",
+        "Nach einem Sioux-Häuptling"
+      ]
+    }
+  },
+  "Q35775": {
+    "t": "Ein grüner Fluss aus Bäumen quer durch den Beifuß",
+    "s": "Von oben ergibt Boises Gründungsgeschichte Sinn: Ein Band aus Pappeln folgt dem Boise River aus den Bergen hinaus über eine trockene, beifußgraue Ebene. Frankokanadische Pelzjäger sollen die Bäume mit „Les bois!“ begrüßt haben, und der Name blieb. Heute breitet sich die Stadt von den Vorbergen auf den bewässerten Flickenteppich der Snake River Plain aus.",
+    "w": "Eine Stadt am Fuß kahler brauner Vorberge; ein grüner, baumgesäumter Fluss, der westwärts hindurch auf ein Mosaik aus Feldern fließt.",
+    "f": [
+      "Idahos Kapitol ist das einzige der USA, das mit Wasser aus unterirdischen heißen Quellen beheizt wird.",
+      "Boise hat eine der größten baskischen Gemeinschaften der Vereinigten Staaten."
+    ],
+    "q": {
+      "q": "Woher stammt der Name Boise?",
+      "a": "Vom französischen Wort für „Wald“",
+      "x": [
+        "Vom Namen eines Shoshone-Häuptlings",
+        "Vom Namen eines spanischen Heiligen"
+      ]
+    }
+  },
+  "Q16553": {
+    "t": "Das flache Herz des Silicon Valley, einst voller Obstbäume",
+    "s": "San Jose breitet sich über den flachen Boden des Santa Clara Valley aus, zwischen den bewaldeten Santa Cruz Mountains im Westen und der kahlen, runden Diablo Range im Osten. 1777 gegründet, war es die erste spanische Zivilsiedlung in Kalifornien. Bis Mitte des 20. Jahrhunderts war das Tal ein Meer aus Obstplantagen; heute ist es das Zentrum des Silicon Valley.",
+    "w": "Eine riesige, flache Stadt auf ebenem Talboden an der Südspitze der Bucht von San Francisco; Berge auf beiden Seiten.",
+    "f": [
+      "San Jose war von 1849 bis 1851 Kaliforniens erste Hauptstadt.",
+      "Auf dem Mount Hamilton im Osten eröffnete 1888 das Lick-Observatorium, eines der ersten Gipfelobservatorien."
+    ],
+    "q": {
+      "q": "Wofür war das Santa Clara Valley vor den Computern bekannt?",
+      "a": "Obstplantagen",
+      "x": [
+        "Ölquellen",
+        "Goldminen"
+      ]
+    }
+  },
+  "Q18013": {
+    "t": "Eine Goldrausch-Hauptstadt, wo zwei Flüsse sich treffen",
+    "s": "Sacramento liegt dort, wo der American River in den Sacramento mündet, mitten im flachen Central Valley Kaliforniens. 1848 wurde flussaufwärts an einem Sägewerk am American River Gold gefunden, und diese Siedlung am Ufer wurde zur Versorgungsstadt des Goldrauschs. Achten Sie im Westen auf einen breiten, geraden Feldgürtel zwischen Deichen: den Yolo Bypass, der in nassen Wintern absichtlich geflutet wird.",
+    "w": "Eine baumreiche Stadt an einem Flusszusammenfluss auf flachem Talboden; ringsum Reisfelder; im Westen ein breiter, eingedeichter Flutkanal.",
+    "f": [
+      "Im Frühjahr können die gefluteten Reisfelder rund um die Stadt wie Spiegel glänzen.",
+      "Die Central Pacific begann 1863 in Sacramento mit dem Bau der ersten transkontinentalen Eisenbahn nach Osten.",
+      "Sacramento ist seit 1854 Hauptstadt Kaliforniens."
+    ],
+    "q": {
+      "q": "Welcher Fluss mündet in der Stadt in den Sacramento River?",
+      "a": "Der American River",
+      "x": [
+        "Der Colorado River",
+        "Der Klamath River"
+      ]
+    }
+  },
+  "Q23768": {
+    "t": "Ein Lichtermeer in schwarzer Wüste",
+    "s": "Nachts ist Las Vegas unverkennbar: ein dichter Teich aus weißem und goldenem Licht in einer sonst fast völlig dunklen Wüste, mit einem gleißenden Streifen, der von Nord nach Süd hindurchläuft. Bei Tag zeigt das Tal sein Gerippe – kahle Berge ringsum, im Winter Schnee auf dem Mount Charleston. Der Name ist spanisch für „die Wiesen“, nach Quellen, die hier einst Gras bewässerten.",
+    "w": "Eine scharf begrenzte Stadt in einem Wüstenbecken mit kahlem Bergkranz; rund 40 km östlich das Blau des Lake Mead.",
+    "f": [
+      "Die Stadt wurde 1905 mit einer Versteigerung von Baugrundstücken durch eine Eisenbahngesellschaft gegründet.",
+      "Der Lake Mead, aufgestaut vom Hoover Dam, ist nach Fassungsvermögen der größte Stausee der USA.",
+      "Der Mount Charleston westlich der Stadt erreicht rund 3.630 m."
+    ],
+    "q": {
+      "q": "Was bedeutet „Las Vegas“ auf Spanisch?",
+      "a": "Die Wiesen",
+      "x": [
+        "Die Lichter",
+        "Die Sande"
+      ]
+    }
+  },
+  "Q38555": {
+    "t": "Die älteste und höchste Hauptstadt der US-Bundesstaaten",
+    "s": "Santa Fe ist leicht zu übersehen: eine niedrige, erdfarbene Stadt aus Adobemauern, die mit den pinienbestandenen Hügeln am Fuß der Sangre de Cristo Mountains verschmilzt. Spanische Kolonisten gründeten sie um 1610 – damit ist sie die älteste Hauptstadt eines US-Bundesstaats und mit rund 2.100 m auch die höchste. Im Westen öffnet sich das breite Tal des Rio Grande.",
+    "w": "Eine kleine, niedrige, gelbbraune Stadt an der Südspitze eines verschneiten Gebirges; ringsum dunkelgrüne Wacholderhügel; im Westen ein weites Tal.",
+    "f": [
+      "Der 1821 eröffnete Santa Fe Trail verband die Stadt über eine Handelsroute von weit über 1.000 km mit Missouri.",
+      "Der Name Sangre de Cristo („Blut Christi“) wird oft mit dem roten Leuchten der Berge bei Sonnenuntergang verbunden.",
+      "Der Gouverneurspalast aus den 1610er-Jahren zählt zu den ältesten öffentlichen Gebäuden der USA."
+    ],
+    "q": {
+      "q": "Wann wurde Santa Fe gegründet?",
+      "a": "Um 1610",
+      "x": [
+        "1776",
+        "1848"
+      ]
+    }
+  },
+  "Q6106": {
+    "t": "Eine Brückenstadt unter dem weißen Kegel des Mount Hood",
+    "s": "Portland liegt beiderseits des Willamette River, kurz bevor er in den breiten Columbia mündet, und eine Reihe von Brücken näht die beiden Hälften zusammen. An klaren Tagen schwebt der verschneite Kegel des Mount Hood am östlichen Horizont. Über den Namen entschied 1845 ein Münzwurf: Ein Gründer wollte Boston, der andere Portland, nach seiner Heimatstadt in Maine.",
+    "w": "Eine Stadt an beiden Ufern eines Flusses kurz vor einem viel breiteren; im Westen ein dunkler bewaldeter Kamm; im Osten der Mount Hood.",
+    "f": [
+      "Der Forest Park auf dem Kamm über der Stadt ist einer der größten Stadtwälder der Vereinigten Staaten.",
+      "Der Mount Hood, rund 3.430 m hoch, ist ein Vulkan und Oregons höchster Gipfel.",
+      "Der Columbia bildet hier die Grenze zwischen Oregon und Washington."
+    ],
+    "q": {
+      "q": "Wie wurde Portlands Name 1845 bestimmt?",
+      "a": "Durch einen Münzwurf",
+      "x": [
+        "Durch eine Abstimmung der Siedler",
+        "Durch eine Eisenbahngesellschaft"
+      ]
+    }
+  },
+  "Q23337": {
+    "t": "Eine Rasterstadt zwischen Bergwand und salzigem Binnenmeer",
+    "s": "Salt Lake City liegt auf einer flachen Terrasse zwischen der schroffen Wand der Wasatch Range und dem flachen, glitzernden Großen Salzsee. Achten Sie an den unteren Berghängen auf feine waagrechte Linien: alte Uferlinien des Lake Bonneville, des riesigen urzeitlichen Sees, von dem der Große Salzsee ein Rest ist. Mormonische Pioniere gründeten die Stadt 1847 und legten ihr Raster sehr breiter Straßen an.",
+    "w": "Eine Stadt am Fuß einer steilen Bergwand; im Nordwesten ein riesiger heller See mit bunten Verdunstungsbecken am Ufer.",
+    "f": [
+      "Ein Eisenbahndamm teilt den See, und der salzigere Nordteil wirkt von oben oft rötlich-rosa.",
+      "Hausnummern zählen von einem einzigen Mittelpunkt aus, dem Temple Square.",
+      "Stellenweise ist der Große Salzsee um ein Vielfaches salziger als das Meer."
+    ],
+    "q": {
+      "q": "Welcher urzeitliche See hinterließ Terrassen an den Bergen um Salt Lake City?",
+      "a": "Lake Bonneville",
+      "x": [
+        "Lake Lahontan",
+        "Lake Agassiz"
+      ]
+    }
+  },
+  "Q39042": {
+    "t": "Eine Eisenbahnstadt, aus windiger Hochprärie gewachsen",
+    "s": "Cheyenne steht allein auf offenen Hochebenen in rund 1.850 m Höhe, im Westen die niedrige, kieferndunkle Laramie Range. Die Stadt entstand 1867, als die Gleise der Union Pacific ankamen, und wuchs so schnell, dass man sie „Magic City of the Plains“ nannte. Achten Sie auf die Bahnlinie, die von Ost nach West durch die Stadt läuft – der Grund, warum es sie überhaupt gibt.",
+    "w": "Eine kompakte Stadt auf kahlem, welligem Grasland; eine Bahnlinie schnurgerade hindurch; im Westen niedrige, dunkle Hügel.",
+    "f": [
+      "1869 gab die Territorialversammlung in Cheyenne Frauen das Wahlrecht – eine Premiere in den Vereinigten Staaten.",
+      "Die Cheyenne Frontier Days, seit 1897 jeden Juli, zählen zu den größten Freiluft-Rodeos der Welt."
+    ],
+    "q": {
+      "q": "Was gewährte Wyomings Parlament in Cheyenne 1869 als erstes?",
+      "a": "Das Frauenwahlrecht",
+      "x": [
+        "Den Achtstundentag",
+        "Freie Bahnfahrt"
+      ]
+    }
+  },
+  "Q39709": {
+    "t": "Eine Hauptstadt an einer Flussgabel im Meer aus Mais",
+    "s": "Des Moines wuchs dort, wo der Raccoon River in den Des Moines River mündet, und von oben sitzt es wie ein Knoten in einem riesigen Schachbrett: Iowas Felder, angelegt in Meilenquadraten aus Mais und Sojabohnen, reichen bis an jeden Horizont. Die US-Armee gründete 1843 Fort Des Moines an der Gabelung. Achten Sie im Norden auf den langen Stausee Saylorville Lake.",
+    "w": "Eine mittelgroße Stadt an einem Flusszusammenfluss, umgeben von einem perfekten Raster quadratischer Felder; im Norden ein langer, schmaler See.",
+    "f": [
+      "Der Name stammt vom französischen Namen des Flusses, oft als „Fluss der Mönche“ übersetzt, doch seine Herkunft ist umstritten.",
+      "Iowa wurde im 19. Jahrhundert in Quadratmeilen vermessen, und seine Landstraßen folgen noch heute diesem Raster."
+    ],
+    "q": {
+      "q": "Welche zwei Flüsse treffen sich in Des Moines?",
+      "a": "Des Moines und Raccoon",
+      "x": [
+        "Iowa und Cedar",
+        "Missouri und Platte"
+      ]
+    }
+  },
+  "Q43199": {
+    "t": "Eine Flussstadt, wo der Missouri einst die Seite wechselte",
+    "s": "Omaha säumt das Westufer des Missouri, eines braunen Flusses, der in Schleifen über eine weite Aue zieht, mit Council Bluffs in Iowa auf der anderen Seite. Achten Sie beim Flughafen auf einen hufeisenförmigen See: eine alte Flussschleife, abgeschnitten, als der Missouri 1877 seinen Lauf änderte. Der Ort daneben blieb bei Iowa – gestrandet am Ufer Nebraskas.",
+    "w": "Eine Stadt auf Steilufern über einem gewundenen braunen Fluss; ein Hufeisensee und der Flughafen in der Aue; gegenüber Council Bluffs.",
+    "f": [
+      "In den 1860er-Jahren begann die Union Pacific in Omaha mit dem Bau der ersten transkontinentalen Eisenbahn nach Westen.",
+      "Die 1854 gegründete Stadt ist nach dem Volk der Omaha benannt.",
+      "Carter Lake ist der einzige Ort Iowas westlich des Missouri."
+    ],
+    "q": {
+      "q": "Warum liegt Carter Lake (Iowa) auf Omahas Seite des Missouri?",
+      "a": "Der Fluss änderte seinen Lauf",
+      "x": [
+        "Iowa kaufte es von Nebraska",
+        "Ein Vertrag tauschte es"
+      ]
+    }
+  },
+  "Q34863": {
+    "t": "Eine Stadt, die 1889 an einem einzigen Nachmittag entstand",
+    "s": "Oklahoma City hat einen ungewöhnlichen Geburtstag. Am 22. April 1889 um zwölf Uhr mittags eröffnete ein Schuss den Land Run, und Siedler rasten los, um Parzellen abzustecken; bei Einbruch der Nacht lagerten rund 10.000 Menschen auf bis dahin offener Prärie. Heute breitet sich die Stadt über flache, rötliche Ebenen aus, mit runden Stauseen am Rand und dem Oklahoma River mittendurch.",
+    "w": "Eine sehr weitläufige Stadt auf flachen rotbraunen Ebenen; runde blaue Stauseen im Nordwesten; ein Flusslauf gleich südlich der Innenstadt.",
+    "f": [
+      "Auf dem Gelände des State Capitol haben Ölpumpen gearbeitet – ein Zeichen des Ölfelds unter der Stadt.",
+      "Oklahoma City umfasst rund 1.600 km² und zählt damit nach Fläche zu den größten Städten der USA."
+    ],
+    "q": {
+      "q": "Wie entstand Oklahoma City 1889?",
+      "a": "Bei einem eintägigen Landrennen",
+      "x": [
+        "Als Bergbaulager",
+        "Als Armeefort"
+      ]
+    }
+  },
+  "Q40747": {
+    "t": "Mini-Hauptstadt unter einem Damm mit 370 km langem See",
+    "s": "Pierre, gesprochen „Pier“, ist eine der kleinsten Hauptstädte der US-Bundesstaaten, ein ruhiger Ort am Missouri inmitten baumloser, welliger Ebenen. Gleich flussaufwärts wird der Fluss vom Oahe-Damm gestaut, einem riesigen Erddamm, und dahinter windet sich der Lake Oahe rund 370 km nach Norden, fast bis Bismarck, der Hauptstadt North Dakotas.",
+    "w": "Eine kleine Stadt an einem Fluss direkt unterhalb eines gewaltigen Erddamms; ein langer, gewundener blauer See zieht sich nach Norden durch kahle braune Hügel.",
+    "f": [
+      "1743 vergruben französische Entdecker auf einem Hügel gegenüber eine Bleiplatte, die das Land für Frankreich beanspruchte; Kinder fanden sie 1913.",
+      "Die Stadt ist nach Pierre Chouteau Jr. benannt, einem Pelzhändler aus St. Louis."
+    ],
+    "q": {
+      "q": "Welcher riesige Stausee beginnt gleich nördlich von Pierre?",
+      "a": "Lake Oahe",
+      "x": [
+        "Lake Sakakawea",
+        "Lake Mead"
+      ]
+    }
+  },
+  "Q975": {
+    "t": "Wo das texanische Hügelland in die Ebene abfällt",
+    "s": "San Antonio liegt direkt auf dem Balcones Escarpment, und von oben sehen Sie den Wechsel: zerknitterte, bewaldete Hügel im Nordwesten, flaches, offenes Farmland im Südosten. Spanische Missionare und Soldaten gründeten die Siedlung 1718 an den Quellen des San Antonio River. Eine Kette aus fünf Missionen entlang des Flusses, darunter das Alamo, ist heute Welterbe.",
+    "w": "Eine große, weitläufige Stadt, wo dunkelgrüne Hügel im Nordwesten auf flache Ebenen im Südosten treffen; Autobahnringe um das Zentrum.",
+    "f": [
+      "2015 wurden die San Antonio Missions zur ersten UNESCO-Welterbestätte in Texas.",
+      "Ein Großteil des Wassers der Stadt stammt aus dem Edwards Aquifer, einem riesigen Kalksteinspeicher unter der Geländestufe."
+    ],
+    "q": {
+      "q": "Wann wurde San Antonio gegründet?",
+      "a": "1718",
+      "x": [
+        "1836",
+        "1781"
+      ]
+    }
+  },
+  "Q820235": {
+    "t": "Andine Terrassenstadt nahe der kolumbianischen Grenze",
+    "s": "San Cristóbal liegt auf einer Folge von Terrassen über dem Río Torbes, rund 800 m hoch, in einem grünen Tal, wo Venezuelas Anden beginnen. Die Berge bilden hier einen Knoten zwischen den kolumbianischen Ketten im Südwesten und der hohen Cordillera de Mérida im Nordosten. Hauptmann Juan Maldonado gründete die Stadt 1561; in Venezuela kennt man sie als Stadt der Höflichkeit.",
+    "w": "Eine Stadt auf gestuften Terrassen in einem grünen Bergtal; ringsum bewaldete Kämme; ein Fluss windet sich über den Talboden.",
+    "f": [
+      "Die Grenze zu Kolumbien verläuft nur wenige Dutzend Kilometer westlich, nahe der Stadt Cúcuta.",
+      "Im Nordosten steigen die Anden bis zum Pico Bolívar an, Venezuelas höchstem Gipfel mit rund 4.980 m."
+    ],
+    "q": {
+      "q": "Wie nennt man San Cristóbal in Venezuela?",
+      "a": "Stadt der Höflichkeit",
+      "x": [
+        "Stadt des ewigen Frühlings",
+        "Stadt der Brücken"
+      ]
+    }
+  },
+  "Q54880": {
+    "t": "Eine Industriestadt an einem See ohne Weg zum Meer",
+    "s": "Valencia breitet sich über ein grünes Tal neben dem Valenciasee aus, einem weiten, von Bergen umringten See ohne Abfluss zum Meer. Als Alexander von Humboldt 1800 hierherkam, bemerkte er, dass der Wasserspiegel gesunken war, und machte die Abholzung ringsum dafür verantwortlich – eine der frühesten wissenschaftlichen Warnungen vor dem Einfluss des Menschen auf die Natur. Die Stadt selbst wurde 1555 gegründet.",
+    "w": "Eine große Stadt in einem flachen Tal westlich eines weiten Sees; im Norden die bewaldete Küstenkordillere, gleich dahinter das Meer.",
+    "f": [
+      "Der Valenciasee ist Venezuelas größter natürlicher Süßwassersee.",
+      "Der Hafen Puerto Cabello liegt rund 35 km nördlich, auf der anderen Seite der Küstenberge."
+    ],
+    "q": {
+      "q": "Wer untersuchte 1800 den sinkenden Wasserspiegel des Valenciasees?",
+      "a": "Alexander von Humboldt",
+      "x": [
+        "Charles Darwin",
+        "Charles Marie de La Condamine"
+      ]
+    }
+  },
+  "Q28198": {
+    "t": "Hauptstadt am Pearl River, über einem begrabenen Vulkan",
+    "s": "Jackson liegt auf sanft gewelltem, bewaldetem Land am Pearl River, im Nordosten glitzert das breite Ross Barnett Reservoir. An der Oberfläche deutet nichts darauf hin, doch rund 900 m unter der Erde liegt ein erloschener Vulkan, längst von Sedimenten begraben. Der Ort begann als Handelsposten namens LeFleur’s Bluff und wurde 1821 zur Hauptstadt des Bundesstaats gewählt, benannt nach Andrew Jackson.",
+    "w": "Eine mittelgroße Stadt in grünem, welligem Waldland; ein gewundener Fluss an ihrer Ostseite; ein großer Stausee im Nordosten.",
+    "f": [
+      "Der begrabene Jackson-Vulkan war zuletzt vor Dutzenden Millionen Jahren aktiv, im Zeitalter der Dinosaurier.",
+      "Der Natchez Trace, ein alter Pfad von Händlern und Reisenden, führt als Panoramastraße in der Nähe vorbei."
+    ],
+    "q": {
+      "q": "Was liegt tief unter Jackson begraben?",
+      "a": "Ein erloschener Vulkan",
+      "x": [
+        "Ein Meteoritenkrater",
+        "Eine Goldader"
+      ]
+    }
+  },
+  "Q41087": {
+    "t": "Stadt der Eichen – eine im Wald geplante Hauptstadt",
+    "s": "Raleigh versteckt sich unter Bäumen: Von oben lugen Dächer und Straßen durch ein fast geschlossenes Blätterdach aus Eichen und Kiefern. Die Stadt wurde 1792 von Grund auf geplant, als North Carolina Land im Wald für eine neue Hauptstadt kaufte, und nach Sir Walter Raleigh benannt, dem Förderer der Roanoke-Kolonie. Achten Sie auf die verzweigten Stauseen Falls Lake und Jordan Lake in der Nähe.",
+    "w": "Eine Stadt tief im grünen Wald; eine kompakte Innenstadt; verzweigte Stauseen im Norden und Westen; der Flughafen zwischen Bäumen im Nordwesten.",
+    "f": [
+      "Raleigh, Durham und Chapel Hill bilden das „Research Triangle“ mit einem großen Forschungspark dazwischen.",
+      "Der Plan von 1792 setzte das State House auf einen zentralen Platz, umgeben von vier kleineren Plätzen."
+    ],
+    "q": {
+      "q": "Nach wem ist Raleigh benannt?",
+      "a": "Sir Walter Raleigh",
+      "x": [
+        "Sir Francis Drake",
+        "John White"
+      ]
+    }
+  },
+  "Q37320": {
+    "t": "Ein Seehafen, wo ein krummer Fluss auf den Eriesee trifft",
+    "s": "Cleveland zieht sich am Südufer des Eriesees entlang, und sein Herz liegt dort, wo sich der Cuyahoga durch ein Tal alter Industrie windet, bevor er in den See gleitet. Der Name Cuyahoga wird oft mit „krummer Fluss“ übersetzt, und von oben ist leicht zu sehen, warum. Der Landvermesser Moses Cleaveland legte den Ort 1796 an; später strich die Stadt das erste „a“.",
+    "w": "Eine Stadt entlang eines geraden Seeufers; ein eng gewundener Fluss durch das Zentrum; ein kleiner Flughafen direkt am Wasser.",
+    "f": [
+      "Das Cuyahoga Valley gleich südlich der Stadt ist Ohios einziger Nationalpark.",
+      "Der Burke Lakefront Airport liegt auf dem Eriesee abgewonnenem Land, direkt neben der Innenstadt."
+    ],
+    "q": {
+      "q": "Wer legte Cleveland 1796 an?",
+      "a": "Moses Cleaveland",
+      "x": [
+        "Grover Cleveland",
+        "Anthony Wayne"
+      ]
+    }
+  },
+  "Q43196": {
+    "t": "Hügelige Flussstadt mit Flughafen im Nachbarstaat",
+    "s": "Cincinnati füllt eine Hügelschüssel am Nordufer des Ohio, der in weiten Bögen vorbeizieht; am anderen Ufer liegt Kentucky. Auch der Hauptflughafen der Stadt liegt auf der Seite Kentuckys. Die 1788 gegründete Stadt wurde nach der Society of the Cincinnati benannt, die Cincinnatus ehrte, den römischen Staatsmann, der nach der Rettung Roms zu seinem Pflug zurückkehrte.",
+    "w": "Eine Stadt in grünen Hügeln an einem geschwungenen Fluss; Orte am gegenüberliegenden Ufer in Kentucky; ein großer Flughafen auf dem Plateau im Südwesten.",
+    "f": [
+      "Die 1866 vollendete Roebling-Hängebrücke war ein Vorläufer der Brooklyn Bridge desselben Ingenieurs.",
+      "Im 19. Jahrhundert verarbeitete die Stadt so viel Schweinefleisch, dass sie den Spitznamen „Porkopolis“ bekam."
+    ],
+    "q": {
+      "q": "In welchem Bundesstaat liegt Cincinnatis Hauptflughafen?",
+      "a": "Kentucky",
+      "x": [
+        "Ohio",
+        "Indiana"
+      ]
+    }
+  },
+  "Q23197": {
+    "t": "Music City in den Schleifen des Cumberland River",
+    "s": "Nashville wuchs auf den Steilufern des Cumberland River, der sich in weiten, trägen Schleifen durch die Stadt windet, bevor er nach Norden zieht. Siedler bauten hier 1779 Fort Nashborough. Achten Sie östlich der Stadt auf die Stauseen Percy Priest und Old Hickory, deren Arme in bewaldete Hügel greifen. Der Spitzname „Music City“ stammt von den Country-Studios und Radiobühnen.",
+    "w": "Eine Stadt in welligem grünem Land, durch das ein gewundener Fluss große Schleifen zieht; verzweigte Seen im Osten und Nordosten.",
+    "f": [
+      "Die Grand Ole Opry wird seit 1925 jede Woche aus Nashville gesendet – die am längsten laufende Radiosendung der USA.",
+      "Die Stadt ist nach Francis Nash benannt, einem General aus North Carolina."
+    ],
+    "q": {
+      "q": "Welcher Fluss windet sich in Schleifen durch Nashville?",
+      "a": "Der Cumberland",
+      "x": [
+        "Der Tennessee",
+        "Der Ohio"
+      ]
+    }
+  },
+  "Q16563": {
+    "t": "Stadt auf Steilufern, benannt nach Ägyptens alter Hauptstadt",
+    "s": "Memphis liegt auf Steilufern am Ostufer des Mississippi, über dessen Hochwassern; gegenüber ist die Seite von Arkansas eine flache Aue voller geschwungener Altarme. Die Gründer verglichen den Fluss 1819 mit dem Nil und benannten den Ort nach der altägyptischen Hauptstadt. Nachts ist der Flughafen berühmt geschäftig: Er ist das Hauptdrehkreuz einer riesigen Frachtfluggesellschaft.",
+    "w": "Eine Stadt auf erhöhtem Grund am Ostufer eines breiten, gewundenen braunen Flusses; auf der Seite von Arkansas flaches Farmland und Altarme.",
+    "f": [
+      "Jahrelang war Memphis dank des Nacht-Drehkreuzes von FedEx der verkehrsreichste Frachtflughafen der Welt.",
+      "Die beiden Stahlbögen der Hernando-de-Soto-Brücke über den Fluss bilden den Buchstaben „M“."
+    ],
+    "q": {
+      "q": "Welcher Bundesstaat liegt Memphis am Mississippi gegenüber?",
+      "a": "Arkansas",
+      "x": [
+        "Missouri",
+        "Louisiana"
+      ]
+    }
+  },
+  "Q49231": {
+    "t": "Eine Hafenstadt an der Mündung der Chesapeake Bay",
+    "s": "Norfolk liegt an Hampton Roads, einem großen natürlichen Ankerplatz, wo mehrere Flüsse in die Mündung der Chesapeake Bay strömen. Schauen Sie über die Buchteinfahrt nach Osten auf eine dünne Linie, die plötzlich verschwindet: den Chesapeake Bay Bridge–Tunnel, der zwischen künstlichen Inseln unter den Schifffahrtswegen abtaucht. Südlich der Stadt dehnt sich der dunkle Wald des Great Dismal Swamp.",
+    "w": "Eine flache, wasserreiche Stadt aus Halbinseln und Buchten an einem riesigen Hafen; ein langer Damm quer über die Buchteinfahrt im Nordosten.",
+    "f": [
+      "Der 1964 eröffnete Bridge–Tunnel verläuft rund 28 km von Ufer zu Ufer, mit zwei Tunneln unter den Fahrrinnen.",
+      "Der Lake Drummond mitten im Great Dismal Swamp ist einer von nur zwei natürlichen Seen in Virginia.",
+      "Hampton Roads ist einer der größten Naturhäfen der Welt."
+    ],
+    "q": {
+      "q": "Was verbindet die beiden Ufer an der Mündung der Chesapeake Bay?",
+      "a": "Brücke mit Tunneln, rund 28 km lang",
+      "x": [
+        "Eine 28 km lange Hängebrücke",
+        "Nur eine Autofähre"
+      ]
+    }
+  },
+  "Q37836": {
+    "t": "Drei Flüsse, drei rivalisierende Orte und ein großer See",
+    "s": "Milwaukee liegt dort, wo sich drei Flüsse vereinen und hinter einer langen Mole in den Michigansee fließen. Jedes Flussufer gehörte einst einer rivalisierenden Siedlung, und als die drei 1846 fusionierten, passten ihre Straßenraster nicht zusammen – deshalb queren mehrere Brücken den Fluss noch heute schräg. Deutsche Einwanderer machten die Stadt später für ihr Bier berühmt.",
+    "w": "Eine Stadt am Westufer des Michigansees, wo drei Flüsse in einem von langen Molen geschützten Hafen zusammentreffen.",
+    "f": [
+      "Im späten 19. Jahrhundert saßen einige der größten Brauereien Amerikas in Milwaukee.",
+      "Das gegenüberliegende Ufer des Sees in Michigan liegt rund 130 km entfernt."
+    ],
+    "q": {
+      "q": "Wie viele rivalisierende Siedlungen fusionierten 1846 zu Milwaukee?",
+      "a": "Drei",
+      "x": [
+        "Zwei",
+        "Fünf"
+      ]
+    }
+  },
+  "Q40435": {
+    "t": "Wo der Eriesee in den Niagara River strömt",
+    "s": "Buffalo liegt an der Ostspitze des Eriesees, genau dort, wo der See in den Niagara River abfließt und seinen Weg nach Norden zu den rund 30 km entfernten Fällen beginnt. 1825 verband der Eriekanal diesen Ort mit dem Hudson und New York, und Buffalo boomte als Tor zu den Großen Seen. Achten Sie im Winter auf Bänder aus Lake-Effect-Schnee.",
+    "w": "Eine Stadt an der Ostecke des Eriesees; ein Fluss fließt von hier nach Norden entlang der kanadischen Grenze zu den Niagarafällen.",
+    "f": [
+      "Der erste dampfbetriebene Getreidespeicher der Welt wurde hier 1842 gebaut.",
+      "Wind über dem ungefrorenen See kann in schmalen, sehr heftigen Bändern Schnee über der Stadt abladen.",
+      "Die Peace Bridge verbindet Buffalo am Beginn des Flusses mit Fort Erie in Kanada."
+    ],
+    "q": {
+      "q": "Welcher Kanal endete bei seiner Eröffnung 1825 in Buffalo?",
+      "a": "Der Eriekanal",
+      "x": [
+        "Der Wellandkanal",
+        "Der Ohio-und-Erie-Kanal"
+      ]
+    }
+  },
+  "Q1342": {
+    "t": "Wo zwei Flüsse sich zum Ohio vereinen",
+    "s": "Pittsburghs Innenstadt ist ein spitzes Landdreieck, wo Allegheny und Monongahela zum Ohio zusammenfließen, und von oben sticht diese Spitze deutlich heraus. Ringsum fließen die Flüsse durch steile, bewaldete Täler, überspannt von Brücke um Brücke. 1758 benannten die Briten den Ort nach dem Staatsmann William Pitt und bauten bald darauf Fort Pitt an der Spitze.",
+    "w": "Ein spitzer Keil aus Hochhäusern, wo zwei Flüsse zu einem verschmelzen; ringsum Hügel und tiefe Flusstäler mit vielen Brücken.",
+    "f": [
+      "Pittsburgh hat rund 450 Brücken – angeblich mehr als jede andere Stadt der Welt.",
+      "Einen Großteil des 20. Jahrhunderts war die Stadt das Herz der amerikanischen Stahlindustrie."
+    ],
+    "q": {
+      "q": "Welche zwei Flüsse bilden bei Pittsburgh den Ohio?",
+      "a": "Allegheny und Monongahela",
+      "x": [
+        "Susquehanna und Juniata",
+        "Kanawha und Elk"
+      ]
+    }
+  },
+  "Q507080": {
+    "t": "Eine Planstadt, wo dunkles auf schlammiges Wasser trifft",
+    "s": "Schauen Sie, wo zwei große Flüsse aufeinandertreffen: Der Caroní, dunkel wie starker Tee, fließt in den breiten, schlammigen Orinoco, und beide Farben laufen nebeneinanderher, bevor sie sich mischen. Ciudad Guayana erstreckt sich über beide Ufer des Caroní – 1961 als Zusammenschluss zweier älterer Orte, Puerto Ordaz und San Félix, geplant. Ihre Stahl- und Aluminiumwerke laufen mit Strom aus Staudämmen flussaufwärts.",
+    "w": "Eine Stadt beiderseits eines dunklen Flusses, wo er in einen viel breiteren, hellbraunen mündet; Industrieanlagen am Ufer.",
+    "f": [
+      "Die dunkle Farbe des Caroní stammt von Gerbstoffen, die aus Waldböden ausgewaschen werden.",
+      "Der Guri-Damm flussaufwärts am Caroní gehört zu den größten Wasserkraftwerken der Welt."
+    ],
+    "q": {
+      "q": "Welche zwei Flüsse treffen bei Ciudad Guayana zusammen?",
+      "a": "Orinoco und Caroní",
+      "x": [
+        "Orinoco und Apure",
+        "Amazonas und Rio Negro"
+      ]
+    }
+  },
+  "Q79985": {
+    "t": "Russisch-Amerikas erste Hauptstadt, auf grüner Insel",
+    "s": "Die Stadt Kodiak liegt an der Nordostecke von Kodiak Island, der zweitgrößten Insel der Vereinigten Staaten – ein Land steiler grüner Berge und tiefer, fjordartiger Buchten. Russische Pelzhändler gründeten 1784 auf der Insel ihre erste dauerhafte Siedlung in Alaska, und bis 1808 war dieser Hafen die Hauptstadt Russisch-Amerikas. Heute ist er einer der wichtigsten Fischereihäfen der USA.",
+    "w": "Eine kleine Hafenstadt auf einer grünen, gebirgigen Insel; Buchten, die tief ins Land schneiden; kleinere bewaldete Inseln direkt vor der Küste.",
+    "f": [
+      "Kodiak Island umfasst rund 9.300 km²; in den USA ist nur Big Island auf Hawaii größer.",
+      "Ein Lagerhaus, das die Russen um 1808 bauten, steht noch in der Stadt – heute das Baranov Museum.",
+      "Kodiakbären, eine örtliche Unterart des Braunbären, zählen zu den größten Bären der Erde."
+    ],
+    "q": {
+      "q": "Was war Kodiak bis 1808?",
+      "a": "Hauptstadt Russisch-Amerikas",
+      "x": [
+        "Ein Fort der Hudson’s Bay Company",
+        "Eine spanische Mission"
+      ]
+    }
+  },
+  "Q79523": {
+    "t": "Ein winziges Dorf mit einer Landebahn für Pazifik-Notfälle",
+    "s": "Cold Bay ist kaum ein Dorf, nahe der stürmischen Spitze der Alaska-Halbinsel, und doch hat es mit über 3 km eine der längsten Landebahnen Alaskas. Verkehrsflugzeuge auf dem Weg über den Nordpazifik führen es auf ihrer Liste der Ausweichflughäfen. Ringsum liegen baumlose Tundra, Vulkangipfel und die Izembek-Lagune, wo riesige Seegraswiesen jeden Herbst ziehende Gänse ernähren.",
+    "w": "Ein schmaler Landhals nahe der Spitze der Halbinsel; eine lange Landebahn neben einer weiten Bucht; schneegestreifte Vulkankegel in der Nähe.",
+    "f": [
+      "Fast alle Pazifischen Ringelgänse der Welt rasten auf ihrem Herbstzug in der Izembek-Lagune.",
+      "Der Frosty Peak, ein rund 1.900 m hoher Vulkan, erhebt sich gleich südwestlich des Dorfes.",
+      "Keine Straße verbindet Cold Bay mit dem Rest Alaskas; alles kommt per Schiff oder Flugzeug."
+    ],
+    "q": {
+      "q": "Was hat das winzige Cold Bay, das Transpazifikflüge schätzen?",
+      "a": "Eine über 3 km lange Landebahn",
+      "x": [
+        "Ein großes Passagierterminal",
+        "Eine Ölraffinerie"
+      ]
+    }
+  },
+  "Q80022": {
+    "t": "Eine Tundrastadt in einem Delta aus tausend Seen",
+    "s": "Bethel liegt am Kuskokwim in einer der flachsten Landschaften des Kontinents: dem Yukon-Kuskokwim-Delta, einer grünbraunen Tundra so voller Tümpel und Seen, dass sie von oben wie Spitze aussieht. Keine Straße verbindet die Stadt mit dem Rest Alaskas. Herrnhuter Missionare gründeten sie 1885 neben einem Yup’ik-Dorf.",
+    "w": "Eine kleine Stadt an einem breiten, gewundenen Fluss in flacher Tundra, zersplittert in unzählige kleine Seen.",
+    "f": [
+      "Im Winter wird der gefrorene Kuskokwim zur Eisstraße, die Bethel mit Dörfern flussauf und flussab verbindet.",
+      "Das Yukon-Kuskokwim-Delta ist eines der größten Flussdeltas der Welt und ein riesiges Brutgebiet für Wasservögel."
+    ],
+    "q": {
+      "q": "Wie fahren die Menschen im Winter zwischen Bethel und den Nachbardörfern?",
+      "a": "Auf dem gefrorenen Fluss",
+      "x": [
+        "Auf einer asphaltierten Straße",
+        "Durch einen Tunnel"
+      ]
+    }
+  },
+  "Q79813": {
+    "t": "Ein Kiesfinger, der in die Tschuktschensee zeigt",
+    "s": "Point Hope liegt nahe dem Ende einer langen, flachen Kiesnehrung, die nach Westen in die Tschuktschensee ragt – sein Iñupiaq-Name Tikiġaq bedeutet „Zeigefinger“. Es ist einer der ältesten ununterbrochen bewohnten Orte Nordamerikas: Die nahe Ipiutak-Stätte birgt Reste Hunderter rund 2.000 Jahre alter Häuser. Der Grönlandwalfang steht hier noch immer im Mittelpunkt des Lebens.",
+    "w": "Eine schmale, helle, dreieckige Nehrung, die nach Westen ins graue Meer ragt, dahinter Lagunen; landeinwärts flache Tundra und niedrige Hügel.",
+    "f": [
+      "In den 1970er-Jahren zog das Dorf einige Kilometer nach Osten, weil das Meer die Spitze der Nehrung abtrug.",
+      "Einen Großteil des Jahres ist die Landspitze von Meereis umgeben."
+    ],
+    "q": {
+      "q": "Was bedeutet Point Hopes Iñupiaq-Name Tikiġaq?",
+      "a": "Zeigefinger",
+      "x": [
+        "Walschwanz",
+        "Nordlicht"
+      ]
+    }
+  },
+  "Q79809": {
+    "t": "Die nördlichste Stadt der Vereinigten Staaten",
+    "s": "Utqiaġvik, lange als Barrow bekannt, klammert sich an den Rand des Arktischen Ozeans, auf flacher, seengesprenkelter Tundra. Gleich nordöstlich ist Point Barrow die Nordspitze der Vereinigten Staaten, wo Tschuktschen- und Beaufortsee aufeinandertreffen. Im Winter bleibt die Sonne hier rund zwei Monate unter dem Horizont, im Sommer geht sie fast drei Monate lang nicht unter.",
+    "w": "Eine kleine Stadt auf flacher, seengetüpfelter Küstenebene am Arktischen Ozean; eine dünne Kiesnehrung biegt nach Nordosten zur Spitze.",
+    "f": [
+      "Die Polarnacht dauert hier von Mitte November bis Ende Januar.",
+      "Die Stadt wurde nach Sir John Barrow von der britischen Admiralität benannt; 2016 nahm sie offiziell wieder ihren Iñupiaq-Namen an."
+    ],
+    "q": {
+      "q": "Wie lange dauert die Polarnacht in Utqiaġvik?",
+      "a": "Rund zwei Monate",
+      "x": [
+        "Rund zwei Wochen",
+        "Rund fünf Monate"
+      ]
+    }
+  },
+  "Q79996": {
+    "t": "Eine Goldrauschstadt, deren Gold im Strand lag",
+    "s": "Nome blickt vom Rand der baumlosen Seward-Halbinsel auf das graue Wasser des Norton Sound. 1899 entdeckten Goldsucher Gold im Sand des Strandes selbst, und binnen eines Jahres drängte sich eine Zeltstadt mit rund 20.000 Menschen am Ufer. Keine Straße verbindet Nome mit dem Rest Alaskas, und doch ist es jeden März das Ziel des Iditarod-Hundeschlittenrennens.",
+    "w": "Eine kleine Rasterstadt an einer geraden Küste des Norton Sound; landeinwärts kahle Tundrahügel und verschneite Berge.",
+    "f": [
+      "Im Sommer waschen und baggern Menschen an Nomes Stränden noch immer nach Gold.",
+      "Der Iditarod Trail führt über mehr als 1.500 km aus der Nähe von Anchorage bis nach Nome."
+    ],
+    "q": {
+      "q": "Wo fand man das Gold des Goldrauschs von Nome 1899–1900?",
+      "a": "Im Sand des Strandes",
+      "x": [
+        "Tief in einer Bergmine",
+        "Unter einem Gletscher"
+      ]
+    }
+  },
+  "Q80037": {
+    "t": "Ein Fjordhafen, wo die Alaska-Pipeline das Meer erreicht",
+    "s": "Valdez liegt am Ende eines schmalen Fjords am Prince William Sound, eingekeilt von steilen, vergletscherten Gipfeln der Chugach Mountains. Gegenüber liegt das Terminal der Trans-Alaska-Pipeline, die Öl rund 1.300 km weit von der Prudhoe Bay an der Arktisküste zu diesem ganzjährig eisfreien Hafen bringt. Die Winter bringen hier mehrere Meter Schnee.",
+    "w": "Eine kleine Stadt am Ende eines langen, steilwandigen Fjords; Gletscher an den Bergen; ein Tanklager am gegenüberliegenden Ufer.",
+    "f": [
+      "Eine spanische Expedition benannte den Ort 1790 nach Antonio Valdés, dem spanischen Marineminister.",
+      "Die Pipeline wurde 1977 fertiggestellt und quert auf ihrem Weg nach Süden drei Gebirgszüge."
+    ],
+    "q": {
+      "q": "Wer benannte Valdez im Jahr 1790?",
+      "a": "Eine spanische Marineexpedition",
+      "x": [
+        "Russische Pelzhändler",
+        "Kapitän James Cook"
+      ]
+    }
+  },
+  "Q29445": {
+    "t": "Hauptstadt zwischen Eisfeld und Meer – ohne Straßenanschluss",
+    "s": "Juneau drängt sich auf einen schmalen Streifen zwischen dem Gastineau Channel und Bergen, die fast direkt hinter den Dächern aufsteigen. Dahinter breitet sich das Juneau-Eisfeld aus und speist Dutzende Gletscher; einer, der Mendenhall, fließt fast bis zu den Vororten beim Flughafen hinab. Keine Straße verbindet die Stadt mit dem Rest Nordamerikas. Alles begann 1880 mit einem Goldfund.",
+    "w": "Eine schmale Stadt am Fuß steiler Berge an einem Meereskanal; eine breite Gletscherzunge reicht bis zu einem See nahe dem Flughafen.",
+    "f": [
+      "Das Stadtgebiet von Juneau ist größer als der gesamte Bundesstaat Rhode Island.",
+      "Den Goldfund von 1880 machten Joe Juneau und Richard Harris, geführt vom Tlingit-Anführer Kowee."
+    ],
+    "q": {
+      "q": "Wie gelangt man vom Rest der USA nach Juneau?",
+      "a": "Nur per Flugzeug oder Schiff",
+      "x": [
+        "Über die Straße von Anchorage",
+        "Mit der Bahn aus Kanada"
+      ]
+    }
   }
 }
