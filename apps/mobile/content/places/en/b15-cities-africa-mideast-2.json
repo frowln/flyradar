@@ -1251,5 +1251,314 @@
         "Lake Manzala"
       ]
     }
+  },
+  "Q29888": {
+    "t": "Granite islands in the Nile, a giant lake upstream",
+    "s": "At Aswan, dark granite breaks through the Nile in a scatter of rocky islands, the First Cataract, with yellow dunes on the west bank. Just upstream, the High Dam holds back Lake Nasser, a blue sheet stretching some 500 km into the desert. Ancient Egypt quarried obelisks here, and at Syene, as Aswan was then called, the midsummer sun stood almost straight overhead.",
+    "w": "A city on the Nile's east bank among dark rocky islands, with a vast blue reservoir behind a dam to the south.",
+    "f": [
+      "Eratosthenes compared the noon sun at Syene and Alexandria to estimate the Earth's circumference.",
+      "The Aswan High Dam was completed in 1970.",
+      "An unfinished obelisk about 42 metres long still lies in an ancient quarry here."
+    ],
+    "q": {
+      "q": "Which ancient scholar used Aswan to measure the Earth?",
+      "a": "Eratosthenes",
+      "x": [
+        "Ptolemy",
+        "Archimedes"
+      ]
+    }
+  },
+  "Q3799": {
+    "t": "A lagoon capital with a Portuguese name",
+    "s": "Porto-Novo sits on the northern shore of a broad lagoon, sheltered from the Atlantic by a narrow strip of sandy coast. It is Benin's official capital, though the government mostly works from Cotonou, about 30 km to the west. Portuguese traders gave it its name, 'New Port'. Before that it was Hogbonou, capital of a kingdom that traded with Europeans for centuries.",
+    "w": "A low city on the north shore of a wide lagoon, with a thin sandy coast to the south and Nigeria just east.",
+    "f": [
+      "The border with Nigeria is less than 20 km away.",
+      "Lagos, one of Africa's largest cities, lies less than 100 km to the east."
+    ],
+    "q": {
+      "q": "What does 'Porto-Novo' mean in Portuguese?",
+      "a": "New port",
+      "x": [
+        "Black port",
+        "Old harbour"
+      ]
+    }
+  },
+  "Q994096": {
+    "t": "A capital astride the broad, sandy Benue",
+    "s": "The Benue runs wide and braided past Makurdi, pale sandbars showing in the dry season, a brown flood filling the valley after the rains. Long bridges carry the railway and the road across. Makurdi is the capital of Benue State, whose harvests of yams, rice, sesame and citrus earn it the proud slogan 'Food Basket of the Nation'.",
+    "w": "A city on both banks of a very wide, braided river with pale sandbars, crossed by long bridges.",
+    "f": [
+      "Further west, at Lokoja, the Benue flows into the Niger.",
+      "The Benue rises in the highlands of northern Cameroon."
+    ],
+    "q": {
+      "q": "Benue State, with Makurdi as capital, calls itself the what of the nation?",
+      "a": "Food Basket",
+      "x": [
+        "Rice Bowl",
+        "Green Heart"
+      ]
+    }
+  },
+  "Q518785": {
+    "t": "A trading town high in the Kivu hills",
+    "s": "Butembo sits at well over 1,500 metres in the green, deeply folded highlands of North Kivu, where almost every slope is farmed in a patchwork of small fields. The climate is cool and damp, a world away from the steamy Congo basin to the west. About 70 km to the north-east rise the snow-capped Rwenzori, Africa's 'Mountains of the Moon'.",
+    "w": "A town on green, tightly folded hills covered in small fields, with high mountains to the north-east.",
+    "f": [
+      "Margherita Peak in the Rwenzori reaches 5,109 metres, the third-highest summit in Africa.",
+      "Butembo is one of the main commercial towns of eastern DR Congo."
+    ],
+    "q": {
+      "q": "Which range, the 'Mountains of the Moon', rises north-east of Butembo?",
+      "a": "The Rwenzori",
+      "x": [
+        "The Virunga",
+        "The Aberdares"
+      ]
+    }
+  },
+  "Q847677": {
+    "t": "Salt pans and peanut fields on the Saloum",
+    "s": "Kaolack sits on the Saloum River, a tidal estuary that reaches far inland, and the flat land around it glitters with salt pans in white, pink and grey. This is the heart of Senegal's peanut basin, where groundnuts have long been the main cash crop. From here the Saloum winds west through mangroves to its delta, a maze of channels and islands on the Atlantic.",
+    "w": "A city on a winding tidal river, surrounded by flat land speckled with pale and pinkish salt pans.",
+    "f": [
+      "The Saloum Delta, downstream, is a UNESCO World Heritage site.",
+      "Salt from the pans around Kaolack is traded across West Africa."
+    ],
+    "q": {
+      "q": "Which crop dominates the farmland around Kaolack?",
+      "a": "Groundnuts",
+      "x": [
+        "Cocoa",
+        "Coffee"
+      ]
+    }
+  },
+  "Q211070": {
+    "t": "A river town sitting right on the equator",
+    "s": "Mbandaka lies almost exactly on the equator, on the east bank of the Congo where the Ruki River flows in. Here the great river is several kilometres wide and scattered with long, forested islands, and all around spreads the swamp forest of the central Congo basin, dark green to the horizon. Boats between Kinshasa and Kisangani have long called at its port.",
+    "w": "A town on the east bank of a very wide, island-studded river, amid unbroken dark-green swamp forest.",
+    "f": [
+      "Mbandaka is the capital of Équateur province.",
+      "Lake Tumba, a large, shallow lake in the forest, lies to the south."
+    ],
+    "q": {
+      "q": "What was Mbandaka called in colonial times?",
+      "a": "Coquilhatville",
+      "x": [
+        "Banningville",
+        "Costermansville"
+      ]
+    }
+  },
+  "Q193486": {
+    "t": "A railway town beneath the Harar escarpment",
+    "s": "Dire Dawa was founded in 1902, when the railway from Djibouti to Addis Ababa reached the foot of the highlands here. The city spreads over hot, dry lowland at around 1,200 metres, crossed by sandy riverbeds that stay dry most of the year. Behind it the escarpment climbs steeply towards Harar, the old walled city about 50 km to the east.",
+    "w": "A city on dry, pale lowland cut by sandy riverbeds, at the foot of a steep escarpment rising to the south and east.",
+    "f": [
+      "Harar's walled old town, the Jugol, is a UNESCO World Heritage site.",
+      "A new electric railway to Djibouti, opened in the 2010s, also runs past the city."
+    ],
+    "q": {
+      "q": "Which railway line brought Dire Dawa into being?",
+      "a": "Djibouti–Addis Ababa",
+      "x": [
+        "Addis Ababa–Nairobi",
+        "Massawa–Asmara"
+      ]
+    }
+  },
+  "Q243319": {
+    "t": "A town at the feet of the misty Uluguru",
+    "s": "The Uluguru Mountains rise like a wall straight behind Morogoro, their upper slopes cloaked in forest and often wrapped in cloud. The town sits on the plain at their northern foot, about 190 km west of Dar es Salaam, on the main road and railway into the interior. The mountains' isolated forests shelter plants and animals found nowhere else on Earth.",
+    "w": "A town on a plain at the foot of a steep, forested mountain block, often capped with cloud.",
+    "f": [
+      "The Uluguru rise to about 2,600 metres.",
+      "Mikumi National Park lies about 100 km to the south-west.",
+      "Morogoro is home to Sokoine University of Agriculture."
+    ],
+    "q": {
+      "q": "Which mountains rise behind Morogoro?",
+      "a": "The Uluguru",
+      "x": [
+        "The Usambara",
+        "The Udzungwa"
+      ]
+    }
+  },
+  "Q191718": {
+    "t": "An ancient harbour on the scorching Gulf of Aden",
+    "s": "Berbera faces the Gulf of Aden from a hot, sandy coastal plain, sheltered by a natural harbour. Inland, the land rises steeply to the Golis mountains, whose cooler heights once drew people away from the coast in the fierce summer. Traders have used this anchorage since antiquity, and the port is often identified with Malao, described in a Greek sailing guide of the 1st century.",
+    "w": "A small port on a flat, sun-bleached coast with a sheltered harbour, and a mountain wall rising inland.",
+    "f": [
+      "Summer temperatures in Berbera often climb above 40°C.",
+      "Berbera's runway, about 4 km long, was once listed as an emergency landing site for NASA's Space Shuttle."
+    ],
+    "q": {
+      "q": "Which gulf does Berbera face?",
+      "a": "The Gulf of Aden",
+      "x": [
+        "The Gulf of Oman",
+        "The Gulf of Tadjoura"
+      ]
+    }
+  },
+  "Q664550": {
+    "t": "Niger's trading hub on the road to Kano",
+    "s": "Maradi spreads along the broad valley of the Goulbi de Maradi, a seasonal river that turns the land green after the summer rains and dries to sand for the rest of the year. Only about 50 km from Nigeria, the city lives on trade with Kano and the Hausa cities to the south, and it is often called Niger's economic capital. Fields of groundnuts, millet and sorghum surround it.",
+    "w": "A low, sandy city beside a broad, green seasonal river valley, amid a patchwork of dry fields.",
+    "f": [
+      "Maradi is one of the largest cities in Niger.",
+      "Hausa is the main language of its markets."
+    ],
+    "q": {
+      "q": "Which big Nigerian trading city is Maradi closely tied to?",
+      "a": "Kano",
+      "x": [
+        "Lagos",
+        "Port Harcourt"
+      ]
+    }
+  },
+  "Q3866": {
+    "t": "Tanzania's capital on the dry central plateau",
+    "s": "Dodoma sits almost in the middle of Tanzania, on a dry plateau at around 1,100 metres, among rocky granite hills and dusty plains. In 1973 the government chose it as the new capital in place of coastal Dar es Salaam, and ministries moved here over the following decades. The vineyards around it, unusual this close to the equator, make it the centre of Tanzanian wine.",
+    "w": "A city on a dry, open plateau dotted with rocky granite hills, with vineyards and farms around it.",
+    "f": [
+      "The Central Line railway from Dar es Salaam to Lake Tanganyika passes through the city.",
+      "Rain falls mainly from December to April; the rest of the year is dry."
+    ],
+    "q": {
+      "q": "Which city did Dodoma replace as Tanzania's capital?",
+      "a": "Dar es Salaam",
+      "x": [
+        "Arusha",
+        "Zanzibar Town"
+      ]
+    }
+  },
+  "Q464699": {
+    "t": "Where the Blue Nile leaves Lake Tana",
+    "s": "Bahir Dar spreads along the southern shore of Lake Tana, Ethiopia's largest lake, right where the Blue Nile flows out. Look for the broad lake with islands in it, and the river snaking away to the south-east. About 30 km downstream it plunges over the Blue Nile Falls, known as Tis Abay, 'great smoke'. Monasteries on the lake's islands keep painted manuscripts centuries old.",
+    "w": "A city on the south shore of a very large lake, where a river leaves it and winds away to the south-east.",
+    "f": [
+      "Lake Tana covers about 3,000 km².",
+      "Fishermen still paddle tankwa, light boats made from papyrus reeds.",
+      "The Lake Tana region is a UNESCO Biosphere Reserve."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Tana at Bahir Dar?",
+      "a": "The Blue Nile",
+      "x": [
+        "The White Nile",
+        "The Awash"
+      ]
+    }
+  },
+  "Q732801": {
+    "t": "Where Lake Tanganyika spills towards the Congo",
+    "s": "Kalemie sits on the western shore of Lake Tanganyika, beside the mouth of the Lukuga, the only river that flows out of the lake. It carries water west to the Lualaba and on into the Congo, linking this long rift lake to the Atlantic. Mountains rise behind the town, and across the lake, some 50 km away, lie the hills of Tanzania. In colonial times the town was Albertville.",
+    "w": "A lakeside town at the mouth of a river leaving a very long, narrow lake, with mountains behind it.",
+    "f": [
+      "The outflow through the Lukuga is small and rises and falls with the lake's level.",
+      "Kalemie is the capital of Tanganyika province."
+    ],
+    "q": {
+      "q": "Which river is Lake Tanganyika's only outlet?",
+      "a": "The Lukuga",
+      "x": [
+        "The Rusizi",
+        "The Malagarasi"
+      ]
+    }
+  },
+  "ne-pp-1159150179": {
+    "t": "A seaside capital beneath a 3,000-metre volcano",
+    "s": "Saint-Denis lines the north coast of Réunion, and behind it the island climbs steeply into the clouds. At its heart stands Piton des Neiges, an extinct volcano over 3,000 metres high, ringed by three vast collapsed basins, the cirques of Mafate, Salazie and Cilaos. In the island's south-east, Piton de la Fournaise is one of the most active volcanoes on Earth.",
+    "w": "A city along the north coast of a steep, green, round volcanic island, with deep cirques behind it.",
+    "f": [
+      "Piton des Neiges, at 3,069 metres, is the highest point in the Indian Ocean.",
+      "The peaks, cirques and cliffs of Réunion are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "What is the highest peak of Réunion?",
+      "a": "Piton des Neiges",
+      "x": [
+        "Piton de la Fournaise",
+        "Le Morne Brabant"
+      ]
+    }
+  },
+  "Q216902": {
+    "t": "A mining town where an ancient human skull was found",
+    "s": "Kabwe grew around a hill of lead and zinc ore, and for decades the town was called Broken Hill. In 1921 miners working the deposit found a fossil skull of an early human who lived here roughly 300,000 years ago. Today the town sits on flat, wooded plateau country in central Zambia, on the old railway line from Livingstone to the Copperbelt.",
+    "w": "A town on flat, wooded plateau country, beside a railway line running north to south.",
+    "f": [
+      "The Kabwe skull is one of the best-preserved fossils of its kind and is kept in London.",
+      "The railway from the south reached Broken Hill in 1906."
+    ],
+    "q": {
+      "q": "What was found in Kabwe's Broken Hill mine in 1921?",
+      "a": "An ancient human skull",
+      "x": [
+        "A giant meteorite",
+        "A dinosaur skeleton"
+      ]
+    }
+  },
+  "Q318306": {
+    "t": "Coconut groves on the 'River of Good Signs'",
+    "s": "Quelimane lies on a wide, muddy estuary edged with mangroves, near the maze of channels of the Zambezi delta. Vasco da Gama anchored here in 1498 on his way to India and named it the River of Good Signs, because the traders he met showed he was nearing the Indian Ocean trade routes. Around the town stretch endless coconut plantations, a pattern of dark-green dots on the flat plain.",
+    "w": "A town on a wide, mangrove-lined estuary, amid flat land thickly dotted with palm plantations.",
+    "f": [
+      "Zambezia province, around Quelimane, is one of Africa's largest coconut-growing areas.",
+      "Quelimane is the capital of Zambezia province."
+    ],
+    "q": {
+      "q": "Who named the river at Quelimane the 'River of Good Signs'?",
+      "a": "Vasco da Gama",
+      "x": [
+        "Bartolomeu Dias",
+        "Pedro Álvares Cabral"
+      ]
+    }
+  },
+  "Q688324": {
+    "t": "Where Benin's railway runs out of track",
+    "s": "The railway from Cotonou on the coast runs about 440 km north through Benin and stops at Parakou. It was never extended further, so the town became a great trans-shipment point, where goods switch between train and truck. Around it lies open, wooded savanna, dotted with shea and néré trees and with fields of yams and cotton.",
+    "w": "A town on open, wooded savanna at the end of a single railway line coming from the south.",
+    "f": [
+      "Parakou is the largest city in northern Benin.",
+      "Shea butter, pressed from the nuts of the shea tree, is an important local product."
+    ],
+    "q": {
+      "q": "Which port city is linked to Parakou by rail?",
+      "a": "Cotonou",
+      "x": [
+        "Lomé",
+        "Lagos"
+      ]
+    }
+  },
+  "Q47837": {
+    "t": "A desert city beside a 100-km conveyor belt",
+    "s": "Laayoune stands on the edge of the Saguia el-Hamra, a broad, dry valley winding through the Sahara towards the Atlantic, with golden dunes pressing close. Look for a thin, straight line running across the desert for about 100 km: a conveyor belt carrying phosphate rock from the Bou Craa mine to the coast. It is so long that it can be seen from space.",
+    "w": "A city beside a wide dry valley among dunes, with a thin, straight conveyor line running inland across the desert.",
+    "f": [
+      "The belt ends at a loading pier on the coast about 25 km from the city.",
+      "The Canary Islands lie over the horizon to the north-west."
+    ],
+    "q": {
+      "q": "What carries phosphate rock across the desert near Laayoune?",
+      "a": "A conveyor belt",
+      "x": [
+        "A slurry pipeline",
+        "A cable car"
+      ]
+    }
   }
 }
