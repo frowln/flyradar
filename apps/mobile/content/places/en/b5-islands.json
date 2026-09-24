@@ -1601,5 +1601,305 @@
         "Manam"
       ]
     }
+  },
+  "Q17044696": {
+    "t": "The country that gave the world the word 'atoll'",
+    "s": "The Maldives look like turquoise beads scattered on dark-blue velvet: 26 atolls in a double chain some 870 km long, each a ring of reefs and tiny islands around a pale lagoon. Many islands are just a strip of white sand and palms holding a single resort or village. The capital, Malé, fills its small island edge to edge with buildings.",
+    "w": "Rings of pale-turquoise reef and dots of white sand on deep-blue ocean, arranged in a long north–south double chain.",
+    "f": [
+      "'Atoll' comes from 'atholhu', a word in Dhivehi, the Maldivian language.",
+      "The Maldives is the world's lowest-lying country: its natural ground rises only about 2.4 m at most.",
+      "The country has about 1,200 coral islands, fewer than 200 of them inhabited."
+    ],
+    "q": {
+      "q": "Which English word comes from the Maldivian language?",
+      "a": "Atoll",
+      "x": [
+        "Lagoon",
+        "Reef"
+      ]
+    }
+  },
+  "Q25263": {
+    "t": "Green volcanic islands in the middle of the Atlantic",
+    "s": "Nine volcanic islands lie scattered across the mid-Atlantic, about 1,500 km west of Lisbon. From above they are intensely green, patched with small fields, with lakes lying in old craters. The unmistakable one is Pico: a near-perfect cone 2,351 m high, Portugal's tallest mountain, whose summit often pokes out above a sea of cloud.",
+    "w": "Small green islands in open ocean; a single tall dark cone on Pico, and round crater lakes on São Miguel.",
+    "f": [
+      "The Azores sit where the Eurasian, North American and African plates meet.",
+      "In the Sete Cidades caldera on São Miguel, two joined lakes show different colours — one blue, one green.",
+      "The Azores High, a zone of high pressure named after the islands, shapes much of Europe's summer weather."
+    ],
+    "q": {
+      "q": "What is the highest mountain in Portugal?",
+      "a": "Pico",
+      "x": [
+        "Torre, Serra da Estrela",
+        "Pico Ruivo"
+      ]
+    }
+  },
+  "Q6980542": {
+    "t": "An island you can barely tell from the ice around it",
+    "s": "Along the coast of West Antarctica, the Getz Ice Shelf holds a string of islands locked into its floating ice. Wright Island, about 65 km long, is one of them. Completely buried under ice, it shows only as a broad, gentle swell above the flat shelf, easiest to spot when a low sun casts shadows. To the north lies the Amundsen Sea, often choked with sea ice.",
+    "w": "A long, smooth white swell rising slightly above the flat ice shelf, with ice-covered sea to the north.",
+    "f": [
+      "It was first mapped from air photos taken during the US Navy's Operation Highjump in January 1947.",
+      "It is named after Admiral Jerauld Wright, in overall command of Operation Deep Freeze in 1957–58.",
+      "The Getz Ice Shelf, which holds the island, stretches for more than 500 km along the coast."
+    ],
+    "q": {
+      "q": "Which ice shelf holds Wright Island?",
+      "a": "The Getz Ice Shelf",
+      "x": [
+        "The Ross Ice Shelf",
+        "The Ronne Ice Shelf"
+      ]
+    }
+  },
+  "Q1543171": {
+    "t": "An ice island found by an icebreaker in 1962",
+    "s": "Grant Island is one of several islands frozen into the Getz Ice Shelf off Marie Byrd Land, in West Antarctica. About 37 km long and wholly ice-covered, it is hemmed in by the shelf on every side except the north, where a strait opens towards the sea. From above it is a smooth white hump, its outline given away mainly by shading along its slopes.",
+    "w": "A smooth white hump rising from the flat ice shelf, with a strait of open water or sea ice along its northern side.",
+    "f": [
+      "Sailors aboard the icebreaker USS Glacier discovered and charted it on 4 February 1962.",
+      "It is named after Commander E. G. Grant, the ship's captain at the time.",
+      "The smaller Shepard Island lies only about 9 km to the west."
+    ],
+    "q": {
+      "q": "Which ship's crew discovered Grant Island in 1962?",
+      "a": "USS Glacier",
+      "x": [
+        "USS Burton Island",
+        "HMS Endurance"
+      ]
+    }
+  },
+  "Q6272638": {
+    "t": "A lonely ice island off the Ruppert Coast",
+    "s": "On the Ruppert Coast of Marie Byrd Land, far from any regular flight path, the Nickerson Ice Shelf holds a handful of ice-covered islands. Newman Island is about 28 km long and completely buried. From above it looks less like an island than a low, rounded bulge in the ice, with glaciers flowing down from the mainland to the south.",
+    "w": "A low, rounded white bulge within a flat ice shelf, with glaciers descending from the land to the south.",
+    "f": [
+      "It was mapped from US surveys and Navy air photographs taken between 1959 and 1965.",
+      "It is named after Commander J. F. Newman of the US Navy, who served on Operation Deep Freeze in 1966."
+    ],
+    "q": {
+      "q": "Which ice shelf holds Newman Island?",
+      "a": "The Nickerson Ice Shelf",
+      "x": [
+        "The Getz Ice Shelf",
+        "The Ross Ice Shelf"
+      ]
+    }
+  },
+  "Q559842": {
+    "t": "An ice-bound island in the shadow of Mount Siple",
+    "s": "Dean Island lies in the middle of the Getz Ice Shelf, off the coast of Marie Byrd Land, between Grant Island and Siple Island. It is about 37 km long and 19 km wide, and so thoroughly covered in ice that from above it merges almost seamlessly with the shelf. The landmark nearby is Mount Siple, a huge volcanic dome on the neighbouring island, rising above 3,000 m.",
+    "w": "A broad, low white rise within the flat ice shelf; to the north-east, the tall snowy dome of Mount Siple.",
+    "f": [
+      "It is one of several islands embedded in the Getz Ice Shelf, which runs for more than 500 km along the coast.",
+      "Mount Siple, on neighbouring Siple Island, is a shield volcano about 3,100 m high."
+    ],
+    "q": {
+      "q": "Which two islands does Dean Island lie between?",
+      "a": "Grant and Siple",
+      "x": [
+        "Shepard and Grant",
+        "Carney and Wright"
+      ]
+    }
+  },
+  "Q33788": {
+    "t": "A long mountain island inside a vast turquoise lagoon",
+    "s": "Grande Terre, New Caledonia's main island, is about 400 km long and only some 50 km wide: a mountainous spine marked by red scars where nickel has been mined. Around it spreads one of the largest lagoons on Earth, bright turquoise and closed off by a barrier reef that traces a thin white line of surf far offshore.",
+    "w": "A long, narrow, mountainous island with reddish bare patches, inside a wide turquoise lagoon edged by a distant line of surf.",
+    "f": [
+      "Captain Cook named it in 1774 because its hills reminded him of Scotland.",
+      "Its lagoons and reefs have been a UNESCO World Heritage site since 2008.",
+      "The kagu, a grey, nearly flightless bird that barks like a dog, lives only here."
+    ],
+    "q": {
+      "q": "Which metal is mined in New Caledonia's red hills?",
+      "a": "Nickel",
+      "x": [
+        "Copper",
+        "Gold"
+      ]
+    }
+  },
+  "Q712": {
+    "t": "More than 300 islands astride the 180th meridian",
+    "s": "Fiji is a scatter of more than 300 islands, from two big, mountainous ones to countless specks ringed by reef. From above the colours are the show: deep-blue ocean, turquoise lagoons and white lines of surf where the reefs break the swell. The 180th meridian passes through the islands, but the date line bends around them so the whole country keeps the same day.",
+    "w": "Two large green islands and a scatter of small ones, all fringed by turquoise lagoons and white lines of breaking surf.",
+    "f": [
+      "Only about a third of the islands are inhabited.",
+      "The Great Sea Reef off Vanua Levu is one of the longest barrier reefs in the world.",
+      "Viti Levu and Vanua Levu together hold most of the land and nearly all of the people."
+    ],
+    "q": {
+      "q": "Which is Fiji's largest island?",
+      "a": "Viti Levu",
+      "x": [
+        "Vanua Levu",
+        "Taveuni"
+      ]
+    }
+  },
+  "ne-rg-1730072401": {
+    "t": "The Friendly Islands, beside one of the deepest trenches",
+    "s": "Tonga is a double line of islands running north to south. On the east lie low coral islands such as flat Tongatapu, ringed by reef; on the west runs a string of volcanoes, some of them little more than peaks breaking the surface. Captain Cook called them the Friendly Islands. East of the chain, the sea floor plunges into the Tonga Trench, one of the deepest places on Earth.",
+    "w": "Flat, reef-ringed coral islands in the east, a parallel line of small volcanic islands to the west, and deep ocean beyond.",
+    "f": [
+      "The Tonga Trench reaches about 10,800 m at the Horizon Deep, the second-deepest point in the oceans.",
+      "Tonga is the only kingdom in the Pacific, ruled by its own monarchs right through the colonial era.",
+      "In the Vava'u group, humpback whales come to give birth between July and October."
+    ],
+    "q": {
+      "q": "What did Captain Cook call Tonga?",
+      "a": "The Friendly Islands",
+      "x": [
+        "The Society Islands",
+        "The Navigator Islands"
+      ]
+    }
+  },
+  "Q700048": {
+    "t": "The 'sunrise' chain, home of the Marshalls' capital",
+    "s": "Ratak means 'sunrise', and this is the eastern of the Marshall Islands' two chains: a line of coral atolls stretching for several hundred kilometres across the ocean. From above each is a narrow necklace of islets around a turquoise lagoon. Majuro, the national capital, lies near the southern end — a thin, crowded ribbon of land curling around a lagoon many kilometres across.",
+    "w": "A line of thin rings of land around turquoise lagoons, strung north to south across deep-blue ocean.",
+    "f": [
+      "On Majuro, the strip of inhabited land is often only a few hundred metres wide.",
+      "Bokak, the northernmost atoll, is dry and uninhabited, a haven for seabirds."
+    ],
+    "q": {
+      "q": "What does 'Ratak' mean?",
+      "a": "Sunrise",
+      "x": [
+        "Sunset",
+        "Big lagoon"
+      ]
+    }
+  },
+  "Q697840": {
+    "t": "The 'sunset' chain and its giant lagoons",
+    "s": "Ralik means 'sunset', and this is the western of the Marshall Islands' two parallel chains of atolls. Its best-known member is Kwajalein, whose nearly 100 islets enclose one of the largest lagoons in the world, over 2,000 km² of calm turquoise water. From above, the islets look like a broken bracelet dropped on the ocean.",
+    "w": "Big rings of tiny islets around vast turquoise lagoons, scattered along a line west of the Ratak chain.",
+    "f": [
+      "Kwajalein's lagoon covers about 2,170 km².",
+      "The bikini swimsuit, launched in 1946, took its name from Bikini Atoll in this chain."
+    ],
+    "q": {
+      "q": "Which garment is named after an atoll in the Ralik Chain?",
+      "a": "The bikini",
+      "x": [
+        "The sarong",
+        "The muumuu"
+      ]
+    }
+  },
+  "Q11826289": {
+    "t": "Rarotonga's green peaks and Aitutaki's glowing lagoon",
+    "s": "The southern Cooks hold most of the country's people and its most famous views. Rarotonga is a high volcanic island of jagged green peaks, ringed by a reef and by a coastal road only about 32 km long. To the north, Aitutaki's lagoon is a vast triangle of luminous turquoise dotted with tiny islets; to the south-east, Mangaia is rimmed by cliffs of ancient raised coral.",
+    "w": "Rarotonga: a small round island of sharp green peaks inside a reef; to the north, Aitutaki's huge triangular turquoise lagoon.",
+    "f": [
+      "Mangaia, formed about 18 million years ago, is one of the oldest islands in the Pacific.",
+      "Cook Islanders are also citizens of New Zealand."
+    ],
+    "q": {
+      "q": "Which southern Cook island is famous for its turquoise lagoon?",
+      "a": "Aitutaki",
+      "x": [
+        "Mangaia",
+        "Atiu"
+      ]
+    }
+  },
+  "Q244978": {
+    "t": "Perfumed volcanic islands between Africa and Madagascar",
+    "s": "The Comoros lie at the northern end of the Mozambique Channel: four volcanic islands that get older from west to east. The biggest, Grande Comore, is dominated by Karthala, a broad active volcano with a huge crater at its summit and dark lava flows on its flanks. At the eastern end Mayotte, the oldest, is wrapped in a wide lagoon behind a barrier reef.",
+    "w": "Four dark-green volcanic islands in a row: the western one topped by a vast crater, the eastern one inside a turquoise lagoon.",
+    "f": [
+      "Karthala, about 2,360 m, has erupted more than 20 times since the 19th century.",
+      "Coelacanths, fish once thought to have died out with the dinosaurs, live in the deep water off these islands.",
+      "The islands are one of the world's main sources of ylang-ylang oil, used in perfumes."
+    ],
+    "q": {
+      "q": "Which 'living fossil' fish lives in deep water off the Comoros?",
+      "a": "The coelacanth",
+      "x": [
+        "The lungfish",
+        "The sturgeon"
+      ]
+    }
+  },
+  "ne-rg-1730073253": {
+    "t": "800 forested islands where sea nomads still sail",
+    "s": "Off Myanmar's southern coast some 800 islands scatter across the Andaman Sea, most of them hilly, cloaked in forest and edged with white beaches and mangroves. There are few towns and little development, so from above you see mostly green islands, pale sand and clear water in every shade of blue. The Moken, sea nomads who spend much of the year in boats, have lived among them for centuries.",
+    "w": "Hundreds of steep, forested islands with white beaches, scattered along the coast of southern Myanmar.",
+    "f": [
+      "The archipelago was largely closed to foreign visitors until the late 1990s.",
+      "Lampi Island lies at the heart of Myanmar's only marine national park."
+    ],
+    "q": {
+      "q": "What are the Moken of the Mergui Archipelago known as?",
+      "a": "Sea nomads",
+      "x": [
+        "Mountain herders",
+        "Salt traders"
+      ]
+    }
+  },
+  "Q5765": {
+    "t": "Mountains, coves and water so clear the seabed shows",
+    "s": "The Balearics lie off eastern Spain: big Mallorca in the middle, gentler Menorca to the north-east, Ibiza and tiny Formentera to the south-west. Mallorca's north-west coast is a wall of limestone mountains, the Serra de Tramuntana, above deep-blue sea. Around Formentera the water is so clear that underwater meadows of seagrass show as dark patches in the turquoise shallows.",
+    "w": "A large island with a mountain ridge along its north-west coast, a flatter one to the north-east, two more to the south-west.",
+    "f": [
+      "Mallorca's Serra de Tramuntana is a UNESCO World Heritage site.",
+      "A seagrass meadow off Formentera may be one of the oldest living things on Earth, possibly tens of thousands of years old.",
+      "The whole of Menorca is a UNESCO biosphere reserve."
+    ],
+    "q": {
+      "q": "Which is the largest of the Balearic Islands?",
+      "a": "Mallorca",
+      "x": [
+        "Menorca",
+        "Ibiza"
+      ]
+    }
+  },
+  "ne-rg-1730073309": {
+    "t": "Bare Arctic islands along the Northwest Passage",
+    "s": "The Parry Islands form a broad band of Arctic islands along the northern side of the Northwest Passage, from Cornwallis in the east to Prince Patrick in the west. From above they are brown and grey, flat-topped and bare, scored by dry valleys and fringed with sea ice for most of the year. In 1819 William Parry's ships sailed farther west through these channels than anyone before.",
+    "w": "Big, bare, brown-grey islands with flat uplands and dry valleys, surrounded by sea ice most of the year.",
+    "f": [
+      "Parry's ships spent the winter of 1819–20 frozen in at Winter Harbour, on Melville Island.",
+      "By sailing past 110° west, Parry's crews won a £5,000 prize offered by the British Parliament.",
+      "Resolute, on Cornwallis Island, is one of the northernmost communities in Canada."
+    ],
+    "q": {
+      "q": "Who are the Parry Islands named after?",
+      "a": "William Edward Parry",
+      "x": [
+        "John Franklin",
+        "John Ross"
+      ]
+    }
+  },
+  "Q741243": {
+    "t": "An island the size of Denmark, with no sea in sight",
+    "s": "Berkner Island is an island mostly on the map: it is surrounded not by open water but by the floating Filchner–Ronne Ice Shelf, and buried under ice itself. From above it appears as a vast, gentle dome rising from the flat shelf, some 320 km long and less than a kilometre high. It splits the shelf in two, with the Ronne to the west and the Filchner to the east.",
+    "w": "A huge, gently rounded ice dome rising above the perfectly flat ice shelf that surrounds it on every side.",
+    "f": [
+      "At about 44,000 km², it is roughly the size of Denmark.",
+      "It was discovered in 1957–58 by a US party from Ellsworth Station, led by Finn Ronne.",
+      "It is named after the physicist Lloyd Berkner, a radio engineer on Byrd's 1928–30 Antarctic expedition."
+    ],
+    "q": {
+      "q": "Which two ice shelves does Berkner Island separate?",
+      "a": "Ronne and Filchner",
+      "x": [
+        "Ross and Ronne",
+        "Filchner and Brunt"
+      ]
+    }
   }
 }

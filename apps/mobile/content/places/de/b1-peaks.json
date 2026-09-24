@@ -358,5 +358,717 @@
         "Grand Trunk Road"
       ]
     }
+  },
+  "Q6654097": {
+    "t": "Der höchste Gipfel des Kunlun, verloren in kalter Wüste",
+    "s": "Hier liegt einer der leersten Winkel Asiens. Der Liushi Shan, auch Kunlun-Göttin genannt, ist mit 7.167 m der höchste Gipfel des Kunlun-Gebirges und erhebt sich aus öder Hochwüste an der Grenze zwischen Tibet und Xinjiang. Suchen Sie von oben eine Gruppe weißer Eiskuppeln und Gletscher inmitten eines Meeres brauner, vom Wind abgeschliffener Kämme.",
+    "w": "Eine Gruppe weißer Eiskuppeln am Nordrand des Hochlands von Tibet, umgeben von kahlen braunen Kämmen.",
+    "f": [
+      "Einem japanischen Universitätsteam gelang 1986 die Erstbesteigung.",
+      "Auf Chinesisch heißt er auch Kunlun Nüshen Feng, „Gipfel der Kunlun-Göttin“.",
+      "In diesem Teil des Kunlun entspringt der Keriya, der nach Norden fließt und in der Taklamakan versickert."
+    ],
+    "q": {
+      "q": "Der Liushi Shan ist der höchste Gipfel welches Gebirges?",
+      "a": "Kunlun",
+      "x": [
+        "Tian Shan",
+        "Karakorum"
+      ]
+    }
+  },
+  "Q1050238": {
+    "t": "Wo der Himalaya endet und ein großer Fluss abbiegt",
+    "s": "Der Namcha Barwa markiert das Ostende des Himalaya, direkt an einer der seltsamsten Flussbiegungen der Erde: Der Yarlung Tsangpo, der ostwärts durch Tibet fließt, schwenkt um den Berg herum und stürzt durch eine Schlucht nach Süden, die weit tiefer ist als der Grand Canyon. Der Gipfel ist 7.782 m hoch, eine steile weiße Pyramide über dunklen, bewaldeten Tälern, oft in Monsunwolken gehüllt.",
+    "w": "Ein steiler weißer Gipfel, wo das braune Hochland Tibets in grüne, wolkige Schluchten übergeht; ein Fluss umrundet seinen Fuß.",
+    "f": [
+      "Er war der höchste unbestiegene Gipfel der Welt, bis ein chinesisch-japanisches Team 1992 oben stand.",
+      "Der Gyala Peri (7.294 m) erhebt sich nur rund 20 km entfernt auf der anderen Seite der Schlucht.",
+      "Unterhalb der Schlucht wird der Yarlung Tsangpo zum Brahmaputra."
+    ],
+    "q": {
+      "q": "Welcher Fluss macht um den Namcha Barwa eine scharfe Biegung?",
+      "a": "Yarlung Tsangpo",
+      "x": [
+        "Saluen",
+        "Mekong"
+      ]
+    }
+  },
+  "Q26794321": {
+    "t": "Eine Göttin in einer Festung aus Gipfeln",
+    "s": "Die Nanda Devi erhebt sich in einer natürlichen Festung: Ein Ring aus Bergen, nur von einer engen Schlucht durchbrochen, umschließt das hoch gelegene Gletscherbecken, das man das Sanctuary nennt. Der Doppelgipfel (7.817 m) ist der höchste Berg, der ganz auf indischem Boden liegt, und wird als Göttin Nanda verehrt. Suchen Sie von oben den Ring selbst – einen fast runden Kranz weißer Gipfel um eine Schüssel aus Eis.",
+    "w": "Ein weißer Doppelgipfel in einem fast kreisrunden Kranz verschneiter Gipfel, im Himalaya westlich der Grenze zu Nepal.",
+    "f": [
+      "Bill Tilman und Noel Odell gelang 1936 die Erstbesteigung.",
+      "Eric Shipton und Tilman erzwangen 1934 als Erste einen Weg durch die Rishi-Ganga-Schlucht ins Sanctuary.",
+      "Der Nanda-Devi-Nationalpark und das nahe Tal der Blumen bilden gemeinsam ein UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Wie heißt das von Bergen umringte Becken um die Nanda Devi?",
+      "a": "Das Sanctuary",
+      "x": [
+        "Das Amphitheater",
+        "Die Zitadelle"
+      ]
+    }
+  },
+  "Q41413": {
+    "t": "Der höchste Punkt des Pamir – ein Gipfel mit drei Namen",
+    "s": "Jahrzehntelang war dies der höchste Punkt der Sowjetunion, erst als Pik Stalin, dann als Pik Kommunismus. Seit 1998 trägt er den Namen von Ismoil Somoni, einem Herrscher der Samaniden im 9. und 10. Jahrhundert. Der Gipfel (7.495 m) krönt eine gewaltige weiße Wand im Herzen des Pamir, nahe dem Fedtschenko-Gletscher, einem der großen Eisströme Asiens.",
+    "w": "Ein gewaltiger weißer Gipfel an einem Knoten von Graten, westlich des langen, geraden Fedtschenko-Gletschers im Hochpamir.",
+    "f": [
+      "Jewgeni Abalakow gelang 1933 die Erstbesteigung.",
+      "Der nahe Fedtschenko-Gletscher ist rund 77 km lang – der längste außerhalb der Polargebiete.",
+      "Tadschikistans Währung, der Somoni, ist nach demselben Herrscher benannt."
+    ],
+    "q": {
+      "q": "Wie hieß der Gipfel von 1962 bis 1998?",
+      "a": "Pik Kommunismus",
+      "x": [
+        "Pik Lenin",
+        "Pik Stalin"
+      ]
+    }
+  },
+  "Q1537157": {
+    "t": "Der östlichste Siebentausender der Erde, über Sichuan",
+    "s": "Der Gongga, auch Minya Konka genannt, steht dort, wo das tibetische Hochland zum Sichuan-Becken abfällt. Mit 7.556 m ist er der höchste Gipfel Sichuans und der östlichste Siebentausender der Erde. Suchen Sie eine spitze weiße Pyramide mit einem Kranz aus Gletschern, östlich davon das tiefe Tal des Dadu – mehr als sechs Kilometer Höhenunterschied auf kurzer Strecke.",
+    "w": "Eine spitze weiße Pyramide mit einem Gletscherkranz, westlich der tiefen Dadu-Schlucht im Westen Sichuans.",
+    "f": [
+      "Einem amerikanischen Team gelang 1932 die Erstbesteigung.",
+      "Der Hailuogou-Gletscher auf seiner Ostseite reicht bis unter 3.000 m in den Wald hinab.",
+      "Der Gongga ist der höchste Punkt des Daxue Shan, der „Großen Schneeberge“."
+    ],
+    "q": {
+      "q": "Welcher Gletscher reicht an der Ostseite des Gongga bis in den Wald?",
+      "a": "Hailuogou",
+      "x": [
+        "Baltoro",
+        "Rongbuk"
+      ]
+    }
+  },
+  "Q6362901": {
+    "t": "Ein wolkenverhüllter Riese des östlichen Himalaya",
+    "s": "Östlich von Bhutan wird der Himalaya wilder und nasser, und der Kangto ist mit gut 7.000 m einer seiner höchsten Gipfel. Er liegt auf dem Hauptkamm, wo das trockene tibetische Hochland auf steile Täler trifft, die nach Süden zur Brahmaputra-Ebene von Assam entwässern. Dichter Wald klettert seine unteren Flanken hinauf, und im Sommer verbergen Monsunwolken den Gipfel oft – ein klarer Blick ist ein seltenes Geschenk.",
+    "w": "Ein weißer Gipfel auf dem Himalayakamm nördlich der Brahmaputra-Ebene, zwischen trockenem braunem Hochland und bewaldeten Tälern.",
+    "f": [
+      "Der Kangto blieb jahrzehntelang unbestiegen; die erste dokumentierte Besteigung gelang erst 2025.",
+      "Seine südlichen Täler entwässern zum Kameng, einem Nebenfluss des Brahmaputra.",
+      "Der östliche Himalaya bekommt weit mehr Monsunregen als die Ketten rund um den Everest."
+    ],
+    "q": {
+      "q": "Zu welchem großen Fluss entwässern die Südtäler des Kangto?",
+      "a": "Brahmaputra",
+      "x": [
+        "Ganges",
+        "Irrawaddy"
+      ]
+    }
+  },
+  "Q1109058": {
+    "t": "Ein Berggott, der über einen türkisblauen See wacht",
+    "s": "Der Nyenchen Tanglha ist der höchste Gipfel einer langen Kette, die nordwestlich von Lhasa quer durch Zentraltibet zieht. Suchen Sie seinen weißen Gipfel (7.162 m) gleich südöstlich des Namtso, eines riesigen Salzsees von verblüffendem Türkis. In der tibetischen Überlieferung ist der Berg eine Schutzgottheit, und von ihm und dem See spricht man oft als Paar.",
+    "w": "Ein weißer Kamm gleich südöstlich eines großen türkisfarbenen Sees, des Namtso, auf dem braunen Hochland nordwestlich von Lhasa.",
+    "f": [
+      "Der Namtso an seinem Fuß liegt rund 4.700 m über dem Meeresspiegel.",
+      "Der See bedeckt fast 2.000 km² und gehört zu den größten Tibets.",
+      "Bahnstrecke und Fernstraße von Qinghai nach Lhasa verlaufen am Südfuß der Kette."
+    ],
+    "q": {
+      "q": "Welcher See liegt am Fuß des Nyenchen Tanglha?",
+      "a": "Namtso",
+      "x": [
+        "Manasarovar",
+        "Yamdrok"
+      ]
+    }
+  },
+  "Q1560829": {
+    "t": "Der „große Berg aus Eis“ im leeren Norden Tibets",
+    "s": "Ulugh Muztagh heißt auf Uigurisch „großer Berg aus Eis“, und er herrscht über einen der einsamsten Orte der Erde: das hohe, kalte Bergland an der Grenze zwischen Tibet und Xinjiang, fern von jeder Stadt. Der Gipfel (6.973 m) krönt einen kompakten Knoten eisbedeckter Grate. Ringsum liegt blassbraune Wüste, gesprenkelt mit Salzseen, die weiß und blau aufblitzen.",
+    "w": "Eine kompakte Gruppe weißer Gipfel und Gletscher, die aus blassbrauner Wüste mit verstreuten Salzseen aufragt.",
+    "f": [
+      "Nach seiner Reise von 1895 schätzte der Entdecker George Littledale ihn auf über 7.700 m.",
+      "Eine chinesisch-amerikanische Expedition bestieg ihn 1985 erstmals und maß seine wahre Höhe.",
+      "Sein Schmelzwasser fließt in abflusslose Becken und erreicht nie das Meer."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Ulugh Muztagh?",
+      "a": "Großer Berg aus Eis",
+      "x": [
+        "Weiße Göttin",
+        "Vater der Flüsse"
+      ]
+    }
+  },
+  "Q229107": {
+    "t": "Eine heilige Felspyramide, die niemand bestiegen hat",
+    "s": "Der Kailash wirkt fast wie entworfen: eine einzelne, vierseitige Kuppel aus dunklem Fels mit Schneestreifen, abseits gelegen im äußersten Westen Tibets. Hindus, Buddhisten, Jainas und Bön-Anhängern ist er heilig, und besteigen darf man ihn nicht. Pilger umrunden ihn stattdessen auf einem Weg von rund 52 km. Gleich südlich liegen zwei große Seen nebeneinander: Manasarovar und Rakshastal.",
+    "w": "Eine einzelne, schneegestreifte Felskuppel nördlich zweier großer Seen, die nebeneinander auf dem braunen Hochland liegen.",
+    "f": [
+      "Indus, Sutlej, Brahmaputra und Karnali entspringen alle im Umkreis von etwa 100 km um ihn.",
+      "Der Manasarovar auf rund 4.590 m ist ein Süßwassersee, sein Nachbar Rakshastal dagegen salzig.",
+      "Der Pilgerweg überquert einen Pass auf etwa 5.600 m Höhe."
+    ],
+    "q": {
+      "q": "Welcher heilige Süßwassersee liegt gleich südlich des Kailash?",
+      "a": "Manasarovar",
+      "x": [
+        "Namtso",
+        "Yamdrok"
+      ]
+    }
+  },
+  "Q207132": {
+    "t": "König des Hindukusch, hoch über dem Chitral-Tal",
+    "s": "Der Tirich Mir ist mit 7.708 m der höchste Berg des Hindukusch und beherrscht das Tal von Chitral im Norden Pakistans. Aus Reiseflughöhe wirkt er wie ein großes Schneezelt mit langen Graten, nördlich des grünen Fadens des Chitral-Flusses. Dahinter zieht sich das Land nach Norden zum afghanischen Wachan-Korridor, einem schmalen Streifen zwischen hohen Gebirgsketten.",
+    "w": "Ein gewaltiger verschneiter Gipfel mit langen Graten, nördlich der Stadt Chitral und nahe der afghanischen Grenze.",
+    "f": [
+      "Einer norwegischen Expedition gelang 1950 die Erstbesteigung.",
+      "Der Hindukusch erstreckt sich über rund 800 km vom Norden Pakistans bis nach Zentralafghanistan.",
+      "Die Stadt Chitral liegt etwa 40 km südlich von ihm."
+    ],
+    "q": {
+      "q": "Der Tirich Mir ist der höchste Gipfel welches Gebirges?",
+      "a": "Hindukusch",
+      "x": [
+        "Karakorum",
+        "Pamir"
+      ]
+    }
+  },
+  "Q332762": {
+    "t": "Der nördlichste Siebentausender der Erde",
+    "s": "Der Dschengisch Tschokusu, lange als Pik Pobeda bekannt, ist mit 7.439 m der höchste Punkt des Tian Shan, an der Grenze zwischen Kirgisistan und China. Kein Berg über 7.000 m steht weiter nördlich. Suchen Sie eher einen langen, massigen Eisrücken als eine Spitze; gleich nördlich davon ragt die schärfere Pyramide des Khan Tengri auf, dessen Marmorgipfel bei Sonnenuntergang rosa leuchtet.",
+    "w": "Ein langer, massiger weißer Rücken an der kirgisisch-chinesischen Grenze, rund 16 km nördlich die spitze Pyramide des Khan Tengri.",
+    "f": [
+      "Erst in den 1940er-Jahren erkannte man ihn als höchsten Gipfel des Tian Shan; lange galt der Khan Tengri als höher.",
+      "Der Südliche Inyltschek-Gletscher an seinem Fuß ist rund 60 km lang.",
+      "Dschengisch Tschokusu ist Kirgisisch und bedeutet „Siegesgipfel“."
+    ],
+    "q": {
+      "q": "Welcher spitze Gipfel erhebt sich gleich nördlich des Dschengisch Tschokusu?",
+      "a": "Khan Tengri",
+      "x": [
+        "Pik Lenin",
+        "Muztagh Ata"
+      ]
+    }
+  },
+  "Q271700": {
+    "t": "Afghanistans höchster Gipfel, auf dem Kamm des Hindukusch",
+    "s": "Der Noshaq ist der höchste Punkt Afghanistans und mit 7.492 m der zweithöchste Berg des Hindukusch; er steht direkt auf der Grenze zu Pakistan. Von oben zeigt er sich als breites weißes Massiv mit mehreren Gipfeln in einer Reihe, ein kurzes Stück nördlich des Tirich Mir. Seine Nordgletscher entwässern ins Wachan-Tal, wo sich die Flüsse sammeln, die später den Amudarja bilden.",
+    "w": "Ein breites weißes Massiv mit einer Reihe von Gipfeln an der afghanisch-pakistanischen Grenze, gleich nördlich des Tirich Mir.",
+    "f": [
+      "Einer japanischen Expedition gelang 1960 die Erstbesteigung.",
+      "Er steht gleich südlich des Wachan-Korridors, eines schmalen Arms Afghanistans, der nach Osten bis China reicht."
+    ],
+    "q": {
+      "q": "Der Noshaq ist der höchste Punkt welches Landes?",
+      "a": "Afghanistan",
+      "x": [
+        "Tadschikistan",
+        "Iran"
+      ]
+    }
+  },
+  "Q8536063": {
+    "t": "Der Gipfel des Transhimalaya, Tibets zweiter Mauer",
+    "s": "Nördlich der großen Himalayamauer verläuft eine zweite, weniger bekannte Kette: der Transhimalaya oder Gangdise. Sein höchster Gipfel ist der Lunpo Gangri (7.095 m), ein eisbedecktes Massiv im Südwesten Tibets. Suchen Sie eine Reihe weißer Gipfel über braunem Hochland; im Süden windet sich der obere Yarlung Tsangpo – der spätere Brahmaputra – durch ein breites Tal.",
+    "w": "Ein eisbedecktes Massiv nördlich des breiten Yarlung-Tsangpo-Tals, Teil einer weißen Kette parallel zum Himalaya.",
+    "f": [
+      "Der Kailash gehört zur selben Gangdise-Kette, rund 300 km weiter westlich.",
+      "Der schwedische Forscher Sven Hedin gab dem Transhimalaya seinen Namen, nachdem er ihn 1906–1908 durchreist hatte."
+    ],
+    "q": {
+      "q": "Welcher Forscher gab dem Transhimalaya seinen Namen?",
+      "a": "Sven Hedin",
+      "x": [
+        "Francis Younghusband",
+        "Nikolai Prschewalski"
+      ]
+    }
+  },
+  "ne-pk-1159105819": {
+    "t": "Der Eisriese über dem Karakorum Highway",
+    "s": "Der Kongur Tagh (7.649 m) ist eine gewaltige Eiskuppel am Westrand des Tarimbeckens, nicht weit von Kaschgar. Sein Nachbar im Süden, der Muztagh Ata, ist runder und berühmter, doch der Kongur ist höher. Zwischen beiden führt der Karakorum Highway am Karakul-See vorbei, einem blauen Spiegel auf rund 3.600 m, in dem sich an windstillen Tagen beide Gipfel spiegeln.",
+    "w": "Ein riesiges Eismassiv östlich des Karakorum Highway, im Süden der rundere Muztagh Ata, dazwischen ein kleiner blauer See.",
+    "f": [
+      "Einem britischen Team mit Chris Bonington gelang 1981 die Erstbesteigung.",
+      "Kaschgar, die alte Oase an der Seidenstraße, liegt rund 100 km nordöstlich.",
+      "Sein Gipfel ragt mehr als 6.000 m über den Boden des Tarimbeckens auf."
+    ],
+    "q": {
+      "q": "Welcher berühmte Gipfel steht gleich südlich des Kongur Tagh?",
+      "a": "Muztagh Ata",
+      "x": [
+        "Khan Tengri",
+        "Tirich Mir"
+      ]
+    }
+  },
+  "Q1322521": {
+    "t": "Der nördliche Wächter der großen Schlucht Tibets",
+    "s": "Gyala Peri und Namcha Barwa stehen sich über dem Yarlung Tsangpo gegenüber, nur rund 20 km voneinander entfernt. Zwischen ihnen zwängt sich der Fluss durch eine Schlucht von außergewöhnlicher Tiefe, bevor er nach Süden Richtung Indien abbiegt. Der Gyala Peri (7.294 m) ist der nördliche Wächter: eine weiße Kuppel über Hängen, so nass und steil, dass dichter Wald weit an ihnen hinaufklettert.",
+    "w": "Eine weiße Kuppel an der Nordseite einer engen Flussbiegung, gegenüber dem höheren Namcha Barwa jenseits einer dunklen Schlucht.",
+    "f": [
+      "Zwischen Gyala Peri und Namcha Barwa ist die Schlucht mehr als 5.000 m tief.",
+      "Der Botaniker Frank Kingdon-Ward erkundete die Schlucht 1924 auf der Suche nach neuen Pflanzen."
+    ],
+    "q": {
+      "q": "Welcher Gipfel steht dem Gyala Peri über der Yarlung-Tsangpo-Schlucht gegenüber?",
+      "a": "Namcha Barwa",
+      "x": [
+        "Kangchendzönga",
+        "Nyenchen Tanglha"
+      ]
+    }
+  },
+  "Q219986": {
+    "t": "Der höchste Berg, den noch niemand bestiegen hat",
+    "s": "Der Gangkhar Puensum (7.570 m) ist der höchste Punkt Bhutans und sehr wahrscheinlich der höchste unbestiegene Berg der Erde. Versuche in den 1980er-Jahren scheiterten, und seit 1994 verbietet Bhutan Besteigungen von Gipfeln über 6.000 m – aus Respekt vor dem Glauben, dass in den Bergen Geister wohnen. Suchen Sie einen breiten weißen Gipfel an der Nordgrenze, über tiefen, bewaldeten Tälern.",
+    "w": "Ein breiter weißer Gipfel an Bhutans Nordgrenze zu Tibet, über tiefen, grünen, bewaldeten Tälern.",
+    "f": [
+      "Sein Name wird meist als „Weißer Gipfel der drei geistigen Brüder“ übersetzt.",
+      "Seit 2003 verbietet Bhutan das Bergsteigen ganz.",
+      "1999 bestieg ein japanisches Team von tibetischer Seite einen Nachbargipfel, den Liankang Kangri."
+    ],
+    "q": {
+      "q": "Seit welchem Jahr verbietet Bhutan Besteigungen von Gipfeln über 6.000 m?",
+      "a": "1994",
+      "x": [
+        "1974",
+        "2010"
+      ]
+    }
+  },
+  "Q43105": {
+    "t": "Ein Vulkan mit Doppelbuckel als Krone des Kaukasus",
+    "s": "Der Elbrus steht etwas nördlich des Kaukasus-Hauptkamms, und aus der Luft verrät ihn seine Form: zwei runde weiße Kuppeln, Reste eines ruhenden Vulkans, verbunden durch einen Sattel. Der Westgipfel (5.642 m) ist der höchste Punkt Russlands und gilt oft als Dach Europas. Seine Eiskappe speist mehr als zwanzig Gletscher, die wie Speichen eines Rades nach außen strahlen.",
+    "w": "Zwei runde Schneekuppeln nebeneinander, gleich nördlich des zackigen Kaukasus-Hauptkamms.",
+    "f": [
+      "Der Ostgipfel (5.621 m) ist nur etwa 20 m niedriger als der Westgipfel.",
+      "Sein letzter Ausbruch ereignete sich vermutlich um 50 n. Chr.",
+      "Seilbahnen bringen Besucher aus dem Baksan-Tal an seinem Südhang bis auf rund 3.800 m."
+    ],
+    "q": {
+      "q": "Wie viele Hauptgipfel hat der Elbrus?",
+      "a": "Zwei",
+      "x": [
+        "Einen",
+        "Drei"
+      ]
+    }
+  },
+  "Q130018": {
+    "t": "Nordamerikas Gipfel, fast von Meereshöhe aus",
+    "s": "Der Denali ist mit rund 6.200 m der höchste Berg Nordamerikas und einer der massigsten der Erde. Er erhebt sich aus einem Tiefland nur etwa 600 m über dem Meer, sodass er vom Fuß bis zum Gipfel – rund 5.500 m – mehr Höhe gewinnt als der Everest. Suchen Sie eine riesige weiße Masse mit langen Gletschern, die den Rest der Alaskakette zwergenhaft wirken lässt.",
+    "w": "Ein gewaltiges weißes Massiv, das die Alaskakette überragt, rund 210 km nördlich von Anchorage.",
+    "f": [
+      "Sein Name bedeutet in der Sprache der Koyukon „der Hohe“.",
+      "Einer Expedition unter Hudson Stuck und Harry Karstens gelang 1913 die Erstbesteigung.",
+      "Der Kahiltna-Gletscher an seiner Südseite ist rund 70 km lang, der längste der Alaskakette."
+    ],
+    "q": {
+      "q": "Was bedeutet „Denali“ in der Sprache der Koyukon?",
+      "a": "Der Hohe",
+      "x": [
+        "Der Weiße",
+        "Vater der Flüsse"
+      ]
+    }
+  },
+  "Q235539": {
+    "t": "Der höchste Gipfel der „Lower 48“, über einem Wüstental",
+    "s": "Der Mount Whitney ist mit 4.421 m der höchste Punkt der zusammenhängenden USA, am scharfen Ostrand der Sierra Nevada. Seine Granitwand fällt steil ins trockene Owens Valley ab, mehr als drei Kilometer tiefer. Nur rund 135 km südöstlich liegt das Badwater Basin im Death Valley, der tiefste Punkt Nordamerikas – höchster und tiefster Punkt des Kontinents fast in Sichtweite.",
+    "w": "Ein sägezahnartiger Granitkamm über dem braunen Owens Valley, direkt westlich des Städtchens Lone Pine.",
+    "f": [
+      "Das Badwater Basin, 86 m unter dem Meeresspiegel, liegt nur etwa 135 km entfernt.",
+      "Drei Fischer aus Lone Pine erreichten 1873 als Erste den Gipfel.",
+      "Benannt ist er nach Josiah Whitney, dem Leiter der geologischen Landesaufnahme Kaliforniens."
+    ],
+    "q": {
+      "q": "Welcher Tiefpunkt liegt rund 135 km vom Mount Whitney entfernt?",
+      "a": "Badwater Basin",
+      "x": [
+        "Salton Sea",
+        "Großer Salzsee"
+      ]
+    }
+  },
+  "Q178167": {
+    "t": "Australiens Dach – ein sanfter Granitbuckel",
+    "s": "Der Mount Kosciuszko ist der höchste Berg des australischen Festlands, doch mit 2.228 m ist er ein runder Gipfel, den Wanderer von der Bergstation eines Sessellifts aus erreichen. Von oben wirken die Snowy Mountains wie ein zerknittertes Plateau, einige Wintermonate lang weiß, den Rest des Jahres graugrün. Suchen Sie die langen blauen Arme des Lake Jindabyne und anderer Stauseen, die sich durch die Täler winden.",
+    "w": "Ein rundes, oft verschneites Plateau südwestlich von Canberra, mit langen blauen Stauseen, die sich durch die Täler winden.",
+    "f": [
+      "Der Forscher Paweł Strzelecki benannte ihn 1840 nach dem polnischen Freiheitshelden Tadeusz Kościuszko.",
+      "Das Snowy-Mountains-Projekt, gebaut 1949 bis 1974, leitet das Bergwasser durch Tunnel zu Kraftwerken und Farmen.",
+      "Die einzigen Gletscherseen des australischen Festlands, darunter der Blue Lake, liegen nahe seinem Gipfel."
+    ],
+    "q": {
+      "q": "Nach wem wurde der Mount Kosciuszko benannt?",
+      "a": "Einem polnischen Freiheitshelden",
+      "x": [
+        "Einem britischen Gouverneur",
+        "Einem schottischen Entdecker"
+      ]
+    }
+  },
+  "Q39739": {
+    "t": "Der höchste Gipfel der Erde außerhalb Asiens",
+    "s": "Der Aconcagua ist mit 6.959 m der höchste Berg außerhalb Asiens und der Gipfel der West- wie der Südhalbkugel. Er erhebt sich in Argentinien, knapp östlich der chilenischen Grenze – eher ein riesiges braun-weißes Massiv als eine schlanke Spitze. Auf Flügen zwischen Santiago und Mendoza taucht er oft neben der Tragfläche auf, kaum vier Kilometer unter Ihnen.",
+    "w": "Ein gewaltiger Gipfel mit weißer Haube über den trockenen braunen Andenkämmen, knapp nördlich der Strecke Santiago–Mendoza.",
+    "f": [
+      "Matthias Zurbriggen gelang 1897 die erste dokumentierte Besteigung.",
+      "Seine Normalroute verlangt keine Kletterei, nur Ausdauer und sorgfältige Akklimatisierung.",
+      "Der Name wird oft auf Quechua-Wörter für „steinerner Wächter“ zurückgeführt, doch seine Herkunft ist umstritten."
+    ],
+    "q": {
+      "q": "Der Aconcagua ist der höchste Gipfel außerhalb welches Kontinents?",
+      "a": "Asien",
+      "x": [
+        "Afrika",
+        "Europa"
+      ]
+    }
+  },
+  "ne-pk-1159108759": {
+    "t": "Ein einsamer Gipfel über Venezuelas Regenwald",
+    "s": "Tief im venezolanischen Bundesstaat Amazonas, fern jeder Straße, erhebt sich der Cerro La Raya auf rund 2.000 m über ein ununterbrochenes grünes Waldmeer. Er gehört zum Bergland von Guayana, einer Region uralter Sandsteinberge und flacher Tafelberge, der Tepuis. Suchen Sie dunkle Grate, die aus dem Blätterdach ragen, oft in Nachmittagswolken gehüllt, und braune Flüsse, die sich Richtung Orinoco davonwinden.",
+    "w": "Bewaldete Grate und wolkenverhangene Höhen über geschlossenem Regenwald; braune Flüsse winden sich nach Westen zum Orinoco.",
+    "f": [
+      "Venezuelas Bundesstaat Amazonas ist größer als viele europäische Länder, aber sehr dünn besiedelt.",
+      "Im selben Bundesstaat verbindet der Casiquiare, ein natürlicher Wasserlauf, die Flusssysteme von Orinoco und Amazonas.",
+      "Nahe Tepuis wie der Cerro Autana ragen mit senkrechten Wänden direkt aus dem Wald."
+    ],
+    "q": {
+      "q": "Welcher natürliche Wasserlauf verbindet in Venezuela Orinoco und Amazonas?",
+      "a": "Casiquiare",
+      "x": [
+        "Ventuari",
+        "Caroní"
+      ]
+    }
+  },
+  "Q1108926": {
+    "t": "Kupferland auf dem Dach Zentralafrikas",
+    "s": "Im Südosten der DR Kongo steigt das Land zum Katanga-Plateau an: Hochsavanne und lichter Wald, meist über 1.000 m hoch, durchzogen von der Wasserscheide zwischen Kongo und Sambesi. Darunter liegen einige der reichsten Kupfer- und Kobaltvorkommen der Erde. Achten Sie auf riesige Tagebaue und Absetzbecken – graue und türkisfarbene Narben – rund um die Städte Lubumbashi und Kolwezi.",
+    "w": "Grünbraune Savanne und Wald, gesprenkelt mit grauen Tagebauen und leuchtend türkisfarbenen Becken bei Kolwezi und Lubumbashi.",
+    "f": [
+      "Die DR Kongo fördert rund 70 Prozent des Kobalts der Welt, das meiste davon aus dieser Region.",
+      "Der Lualaba, der Oberlauf des Kongo, entspringt auf dem Plateau.",
+      "Der Kupfergürtel setzt sich jenseits der Grenze im sambischen Copperbelt fort."
+    ],
+    "q": {
+      "q": "Welches Batteriemetall wird auf dem Katanga-Plateau in großem Stil abgebaut?",
+      "a": "Kobalt",
+      "x": [
+        "Nickel",
+        "Platin"
+      ]
+    }
+  },
+  "Q208807": {
+    "t": "Tafelberge, die aus dem Regenwald aufsteigen",
+    "s": "Im Norden Südamerikas ragen Tafelberge mit senkrechten Wänden, die Tepuis, wie Inseln aus dem Regenwald, ihre flachen Gipfel oft in Wolken. Sie bestehen aus Sandstein, der vor rund 1,7 Milliarden Jahren abgelagert wurde – mit das älteste Sedimentgestein des Kontinents. Suchen Sie dunkle Felsblöcke mit Steilkanten über dem Grün und in der Regenzeit dünne weiße Wasserfallfäden, die von ihren Rändern stürzen.",
+    "w": "Flache, von Steilwänden umrahmte Blöcke aus dunklem Fels über geschlossenem Regenwald, oft mit einer Wolkenkappe.",
+    "f": [
+      "Der Salto Ángel stürzt 979 m vom Auyán-Tepui hinab – der höchste frei fallende Wasserfall der Welt.",
+      "Der Roraima, rund 2.810 m hoch, markiert das Dreiländereck von Venezuela, Brasilien und Guyana.",
+      "Tepui ist ein Wort der Pemón und wird meist mit „Haus der Götter“ übersetzt."
+    ],
+    "q": {
+      "q": "Welcher Rekord-Wasserfall stürzt hier von einem Tepui?",
+      "a": "Salto Ángel",
+      "x": [
+        "Victoriafälle",
+        "Iguaçu-Fälle"
+      ]
+    }
+  },
+  "Q118899": {
+    "t": "Das alte steinerne Herz Brasiliens",
+    "s": "Große Teile Ost- und Zentralbrasiliens sind ein weites Bergland aus uraltem Gestein, abgetragen zu langen Tafelbergen mit steilen Rändern, den Chapadas. Brasília wurde Ende der 1950er-Jahre darauf gebaut, auf über 1.000 m. Suchen Sie aus der Luft rote Tafelländer, Cerrado-Savanne in Oliv und Gold und riesige grüne Kreise bewässerter Felder, ausgelegt wie Münzen auf einem Tisch.",
+    "w": "Flache rote Tafelländer mit steilen Rändern, olivgrüne Savanne und ordentliche grüne Kreise von Kreisberegnungsanlagen.",
+    "f": [
+      "Der São Francisco, der längste Fluss ganz innerhalb Brasiliens, fließt über weite Strecken nordwärts durch das Bergland.",
+      "Brasília wurde 1960 als Hauptstadt eingeweiht.",
+      "Der Cerrado, der große Teile bedeckt, gehört zu den artenreichsten Savannen der Erde."
+    ],
+    "q": {
+      "q": "Welcher ist der längste Fluss, der ganz innerhalb Brasiliens fließt?",
+      "a": "São Francisco",
+      "x": [
+        "Paraná",
+        "Tocantins"
+      ]
+    }
+  },
+  "Q155197": {
+    "t": "Taiga, Flüsse und alte Lava bis zum Horizont",
+    "s": "Zwischen Jenissei und Lena liegt ein riesiges Bergland, meist 500 bis 700 m hoch und von tiefen Flusstälern zerschnitten. Große Teile bestehen aus dem Sibirischen Trapp, Lava, die vor rund 250 Millionen Jahren austrat. Aus Reiseflughöhe ist es endlose Lärchentaiga: im Sommer dunkelgrün, im Herbst golden und den größten Teil des Jahres weiß unter Schnee.",
+    "w": "Endlose dunkle Taiga, zerschnitten von Flüssen in tiefen Tälern, mit flachen Hochflächen und im Herbst goldenen Lärchen.",
+    "f": [
+      "Die Ausbrüche des Sibirischen Trapps werden mit dem größten Massenaussterben der Erdgeschichte vor rund 252 Millionen Jahren verknüpft.",
+      "1908 knickte die Tunguska-Explosion auf dem Plateau rund 2.000 km² Wald um.",
+      "Fast überall liegt darunter Permafrost, stellenweise Hunderte Meter tief."
+    ],
+    "q": {
+      "q": "Welches Ereignis von 1908 knickte Wald auf dem Mittelsibirischen Bergland um?",
+      "a": "Die Tunguska-Explosion",
+      "x": [
+        "Der Sichote-Alin-Meteorit",
+        "Der Meteor von Tscheljabinsk"
+      ]
+    }
+  },
+  "Q560198": {
+    "t": "Grasland unter riesigem Himmel, einen Kilometer hoch",
+    "s": "Das Mongolische Plateau erstreckt sich in 1.000 bis 1.500 m Höhe über die Mongolei und Nordchina: sanft gewellte Steppe, kahle Hügel und im Süden die steinige Gobi. Kaum eine Landschaft wirkt aus der Luft so offen. Straßen sind blasse Spuren, Flüsse mäandern frei, Seen glänzen wie verstreute Münzen. Ulaanbaatar liegt auf dem Plateau in rund 1.350 m Höhe und ist die kälteste Hauptstadt der Erde.",
+    "w": "Sanft gewellte grünbraune Steppe mit wenigen Straßen, mäandernden Flüssen und im Süden blasser Steinwüste.",
+    "f": [
+      "Ulaanbaatar hat die niedrigste Durchschnittstemperatur aller Hauptstädte.",
+      "Der Chöwsgöl-See im Norden birgt rund 70 Prozent des Süßwassers der Mongolei.",
+      "An den Flammenden Klippen in der Gobi entdeckten Forscher 1923 die ersten als solche erkannten Dinosaurier-Eiernester."
+    ],
+    "q": {
+      "q": "Welche Hauptstadt auf diesem Plateau ist die kälteste der Welt?",
+      "a": "Ulaanbaatar",
+      "x": [
+        "Astana",
+        "Moskau"
+      ]
+    }
+  },
+  "Q169966": {
+    "t": "Indiens gekipptes Tafelland aus uralter Lava",
+    "s": "Der Dekkan füllt den größten Teil Südindiens: ein dreieckiges Plateau, das an seinem Westrand von den Westghats angehoben und nach Osten gekippt ist. Deshalb entspringen seine großen Flüsse – Godavari, Krishna und Kaveri – nahe dem Arabischen Meer und fließen doch quer durchs Land bis zum Golf von Bengalen. Ein Großteil des Nordwestens besteht aus Dekkan-Trapp-Basalt, als Lava ausgeflossen vor rund 66 Millionen Jahren.",
+    "w": "Ein trockenes braunes Tafelland mit flachen Hügeln, Stauseen und ostwärts fließenden Flüssen; in den Monsunmonaten viel grüner.",
+    "f": [
+      "Sein Name kommt vom Sanskritwort dakshina, „Süden“.",
+      "Hyderabad und Bengaluru liegen beide auf dem Plateau, auf etwa 500 und 900 m Höhe.",
+      "Die Ausbrüche des Dekkan-Trapps ereigneten sich etwa zu der Zeit, als die Dinosaurier ausstarben."
+    ],
+    "q": {
+      "q": "Wohin fließen die meisten großen Flüsse des Dekkan?",
+      "a": "Nach Osten zum Golf von Bengalen",
+      "x": [
+        "Nach Westen zum Arabischen Meer",
+        "Nach Norden zum Ganges"
+      ]
+    }
+  },
+  "Q1908889": {
+    "t": "Wo der Amazonaswald auf die Felder trifft",
+    "s": "Mato Grosso heißt auf Portugiesisch „dichter Busch“, und dieses Plateau liegt im Herzen Brasiliens, wo der Amazonas-Regenwald in die Cerrado-Savanne übergeht. Aus der Luft ist es ein Flickenteppich: riesige Rechtecke aus Soja und Mais, Waldstreifen entlang der Flüsse und rote Pisten, kilometerweit schnurgerade gezogen. Seine Flüsse teilen sich: nach Norden zum Amazonas, nach Süden Richtung Pantanal.",
+    "w": "Ein riesiges Schachbrett aus grünen und hellbraunen Feldern mit schnurgeraden Straßen, durchzogen von dunklen Waldstreifen an den Flüssen.",
+    "f": [
+      "Der Xingu und die Quellflüsse des Tapajós, große Nebenflüsse des Amazonas, entspringen auf diesem Plateau.",
+      "Der 1961 gegründete Xingu-Indigenenpark zeigt sich von oben als großer Waldblock inmitten von Ackerland.",
+      "Der Bundesstaat Mato Grosso ist Brasiliens führender Sojaproduzent."
+    ],
+    "q": {
+      "q": "Was bedeutet „Mato Grosso“ auf Portugiesisch?",
+      "a": "Dichter Busch",
+      "x": [
+        "Großer Fluss",
+        "Hohe Ebene"
+      ]
+    }
+  },
+  "Q7680307": {
+    "t": "Eine schneereiche Eiskuppel über der Rossmeerküste",
+    "s": "Der Talos Dome ist ein breiter, sanfter Gipfel des ostantarktischen Eises, rund 2.300 m hoch, landeinwärts der Küste des nördlichen Viktorialands. Anders als die knochentrockenen Kuppeln im tiefen Inneren fängt er reichlich Schnee aus Stürmen über dem Rossmeer und dem Südpolarmeer. So entstehen im Eis dicke, gut lesbare Jahresschichten, in die Forscher tief hineingebohrt haben.",
+    "w": "Eine kaum wahrnehmbare Wölbung im weißen Eisschild; zwischen ihr und der Küste die dunklen Gipfel des Viktorialands.",
+    "f": [
+      "Das europäische Eisbohrprojekt TALDICE bohrte in den 2000er-Jahren mehr als 1.600 m tief in die Kuppel.",
+      "Sein Eisbohrkern enthält ein Klimaarchiv von rund 250.000 Jahren."
+    ],
+    "q": {
+      "q": "Welches Meer liegt vom Talos Dome aus in Richtung Küste?",
+      "a": "Rossmeer",
+      "x": [
+        "Weddellmeer",
+        "Amundsenmeer"
+      ]
+    }
+  },
+  "Q470049": {
+    "t": "Ein eisiges Hochland, benannt auf einem Flug 1939",
+    "s": "Das American Highland ist ein hohes, eisbedecktes Hochland in der Ostantarktis, neben dem riesigen Tal des Lambert-Gletschers. Der amerikanische Polarforscher Lincoln Ellsworth überflog es 1939 und gab ihm seinen Namen. Von oben ist es ein glatter weißer Hang mit schwachen Rücken, der zum gewaltigen Eisstrom des Lambert und zum flachen Amery-Schelfeis dahinter abfällt.",
+    "w": "Ein glattes, leicht gewelltes weißes Hochland, das zu einem riesigen Gletschertal und dem flachen Amery-Schelfeis abfällt.",
+    "f": [
+      "Der nahe Lambert-Gletscher gehört zu den größten Gletschern der Erde und ist mehrere Hundert Kilometer lang.",
+      "Ellsworths Flug von 1939 startete von seinem Expeditionsschiff, der Wyatt Earp.",
+      "Das vom Lambert gespeiste Amery-Schelfeis schwimmt am inneren Ende der Prydz-Bucht."
+    ],
+    "q": {
+      "q": "Wer benannte das American Highland nach einem Flug im Jahr 1939?",
+      "a": "Lincoln Ellsworth",
+      "x": [
+        "Richard Byrd",
+        "Hubert Wilkins"
+      ]
+    }
+  },
+  "Q5881339": {
+    "t": "Benannt nach dem Piloten des ersten Antarktis-Überflugs",
+    "s": "Dieses weite Eisplateau in der Westantarktis trägt den Namen von Herbert Hollick-Kenyon, der 1935 Lincoln Ellsworth als Erster quer über den Kontinent flog. Die Überquerung dauerte rund zwei Wochen, weil die beiden mehrmals auf dem offenen Eis landen mussten, um Stürme abzuwarten. Unter Ihnen liegt eine endlose, sanft gewellte weiße Weite, kaum ein Fels in Sicht.",
+    "w": "Ein konturloses, sanft gewelltes weißes Plateau zwischen dem Ellsworthgebirge und den Bergketten des Marie-Byrd-Lands.",
+    "f": [
+      "Auf dem Flug von 1935 ging kurz vor der Walbucht der Treibstoff aus, und die beiden Männer liefen das letzte Stück zu Fuß.",
+      "Ellsworth benannte das Plateau nach seinem Piloten."
+    ],
+    "q": {
+      "q": "Was tat Herbert Hollick-Kenyon im Jahr 1935?",
+      "a": "Er überflog die Antarktis",
+      "x": [
+        "Er erreichte den Südpol",
+        "Er kartierte das Rossmeer"
+      ]
+    }
+  },
+  "Q370807": {
+    "t": "Ein weißes Hochland, benannt nach einem Geldgeber",
+    "s": "Das Rockefeller-Plateau ist ein riesiges, unter Eis begrabenes Hochland in der Westantarktis, landeinwärts des Ross-Schelfeises. Die Expedition von Richard Byrd überflog es 1934 und benannte es nach John D. Rockefeller Jr., einem von Byrds Geldgebern. Von oben sieht man nur glattes weißes Eis bis zum Horizont; der Fels liegt weit über einen Kilometer tiefer, großenteils unter dem Meeresspiegel.",
+    "w": "Glattes weißes Eis bis zum Horizont, östlich des flachen Ross-Schelfeises, ohne jeden sichtbaren Fels.",
+    "f": [
+      "Ein Großteil des Felsbetts unter dem Eis der Westantarktis liegt unter dem Meeresspiegel.",
+      "Byrds Basis Little America stand westlich davon auf dem Ross-Schelfeis."
+    ],
+    "q": {
+      "q": "Wessen Expedition entdeckte und benannte das Rockefeller-Plateau?",
+      "a": "Die von Richard Byrd",
+      "x": [
+        "Die von Roald Amundsen",
+        "Die von Ernest Shackleton"
+      ]
+    }
+  },
+  "Q3045552": {
+    "t": "Ein ganzjähriger Außenposten auf dem Eis, 3.200 m hoch",
+    "s": "Der Dome C ist einer der hohen Gipfel des ostantarktischen Eises, rund 3.200 m über dem Meer. Frankreich und Italien betreiben hier Concordia, eine ganzjährig besetzte Station. Im Winter fallen die Temperaturen unter −80 °C, und monatelang geht die Sonne nicht auf. Ein am Dome C gebohrter Eiskern bewahrt ein Klimaarchiv der Erde, das rund 800.000 Jahre zurückreicht.",
+    "w": "Ein flacher weißer Gipfel des Eisschilds ohne jede Markierung – die Station ist viel zu klein, um sie zu sehen.",
+    "f": [
+      "Das europäische Projekt EPICA bohrte hier 3.270 m Eis, die rund 800.000 Jahre umfassen.",
+      "Raumfahrtagenturen untersuchen die Winterbesatzungen von Concordia, um zu verstehen, wie Menschen Isolation auf langen Missionen bewältigen.",
+      "2025 erreichte das Projekt Beyond EPICA am nahen Little Dome C über eine Million Jahre altes Eis."
+    ],
+    "q": {
+      "q": "Welche beiden Länder betreiben die Station Concordia am Dome C?",
+      "a": "Frankreich und Italien",
+      "x": [
+        "Deutschland und Norwegen",
+        "Großbritannien und Belgien"
+      ]
+    }
+  },
+  "Q593197": {
+    "t": "Der höchste Gipfel des antarktischen Eises",
+    "s": "Der Dome A ist mit rund 4.090 m über dem Meer der höchste Punkt des antarktischen Eisschilds, tief in der Ostantarktis. Unter etwa drei Kilometern Eis liegt das Gamburzew-Gebirge, eine Kette ungefähr von der Größe der Alpen, die noch nie ein Mensch gesehen hat. China errichtete hier 2009 seine Station Kunlun, und Satelliten haben in der Nähe einige der kältesten Oberflächentemperaturen der Erde gemessen.",
+    "w": "Ein völlig flacher weißer Horizont; der Gipfel des Eises steigt so sanft an, dass man ihn nicht ausmachen kann.",
+    "f": [
+      "Sowjetische Forscher entdeckten das verborgene Gamburzew-Gebirge 1958 mit seismischen Messungen.",
+      "Satellitenmessungen auf dem Eisrücken nahe dem Dome A fielen unter −90 °C.",
+      "Ein chinesisches Traversenteam erreichte den Dome A erstmals 2005."
+    ],
+    "q": {
+      "q": "Was liegt unter dem Eis des Dome A verborgen?",
+      "a": "Das Gamburzew-Gebirge",
+      "x": [
+        "Der Wostoksee",
+        "Das Wilkes-Becken"
+      ]
+    }
+  },
+  "Q2007598": {
+    "t": "Japans Station auf einem Gipfel des Eises",
+    "s": "Der Dome Fuji, auch Dome F genannt, ist ein hoher Gipfel des ostantarktischen Eisschilds, rund 3.800 m hoch, tief im Inneren von Königin-Maud-Land. Japan eröffnete hier 1995 eine Forschungsstation und bohrte tief ins Eis darunter; die Bohrkerne reichen rund 700.000 Jahre zurück. Hier oben ist die Luft so kalt und still, dass Temperaturen unter −79 °C gemessen wurden.",
+    "w": "Ein breiter weißer Gipfel des Eisschilds, konturlos bis zum Horizont, weit im Inland der Küste von Königin-Maud-Land.",
+    "f": [
+      "Japanische Expeditionen benannten die Kuppel nach dem Berg Fuji.",
+      "Hier fallen im Jahr nur wenige Zentimeter Wasser als Schnee – einer der trockensten Orte der Erde.",
+      "Auf dem Eisrücken zwischen Dome Fuji und Dome A wurden einige der tiefsten Oberflächentemperaturen überhaupt gemessen."
+    ],
+    "q": {
+      "q": "Welches Land betreibt die Forschungsstation am Dome Fuji?",
+      "a": "Japan",
+      "x": [
+        "China",
+        "Norwegen"
+      ]
+    }
+  },
+  "ne-gl-academy-of-sciences-ice-cap": {
+    "t": "Russlands größte Eiskappe, ein runder Deckel im Eismeer",
+    "s": "Im Norden von Sewernaja Semlja bedeckt eine fast vollkommen runde Eiskuppel den größten Teil der Komsomolez-Insel. Die Akademie-der-Wissenschaften-Eiskappe misst rund 80 km im Durchmesser und etwa 5.500 km² – die größte zusammenhängende Eismasse Russlands. Von oben wirkt sie wie ein weißer Deckel, der auf ein dunkles Meer gefallen ist; an den Rändern zerbröckelt sie zu Eisklippen und treibenden Schollen.",
+    "w": "Eine runde, glatte weiße Kuppel, die fast eine ganze Insel füllt, mit Eisklippen an den Rändern und Meereis ringsum.",
+    "f": [
+      "Sewernaja Semlja wurde erst 1913 entdeckt – einer der letzten Archipele der Erde.",
+      "Georgi Uschakow und Nikolai Urwanzew kartierten die Inseln 1930–1932 erstmals, unterwegs mit Hundeschlitten.",
+      "Im Zentrum der Kuppel ist das Eis Hunderte Meter dick."
+    ],
+    "q": {
+      "q": "Auf welcher Insel liegt die Akademie-der-Wissenschaften-Eiskappe?",
+      "a": "Komsomolez-Insel",
+      "x": [
+        "Wrangelinsel",
+        "Kotelny-Insel"
+      ]
+    }
+  },
+  "ne-gl-agassiz-ice-cap": {
+    "t": "Eine Eiskappe, benannt nach dem Entdecker der Eiszeit",
+    "s": "Im Norden der Ellesmere-Insel, der nördlichsten Kanadas, breitet sich die Agassiz-Eiskappe wie gegossener Zuckerguss über das hohe Inland. Sie trägt den Namen von Louis Agassiz, dem aus der Schweiz stammenden Forscher, der in den 1830er-Jahren die These vertrat, dass einst große Eisschilde weite Teile des Nordens bedeckten. Suchen Sie eine glatte weiße Kuppel, an den Rändern zerschnitten von dunklen Felsgraten und Gletscherzungen, die zu den Fjorden gleiten.",
+    "w": "Eine glatte weiße Kuppel über dem hohen Inland von Ellesmere, gesäumt von dunklen Felsgraten und Gletscherzungen Richtung Fjorde.",
+    "f": [
+      "Eisbohrkerne, die hier seit den 1970er-Jahren gezogen werden, zeichnen arktische Temperaturen über Jahrtausende auf.",
+      "Die Ellesmere-Insel ist die zehntgrößte Insel der Welt."
+    ],
+    "q": {
+      "q": "Wofür ist Louis Agassiz berühmt?",
+      "a": "Die Idee früherer Eiszeiten",
+      "x": [
+        "Die Kontinentaldrift",
+        "Die natürliche Selektion"
+      ]
+    }
+  },
+  "ne-gl-asgardfonna": {
+    "t": "Eisplateau, benannt nach der Heimat der nordischen Götter",
+    "s": "Im Nordosten Spitzbergens, zwischen zwei langen Fjorden, liegt die Åsgardfonna, ein Eisplateau von rund 1.200 km². Ihr Name stammt von Åsgard, der Heimat der Götter in der nordischen Mythologie, und benachbarte Eisfelder borgen ihre Namen aus denselben Sagen. Von oben ist sie ein hohes weißes Tafelland, von dessen Seiten dunkle Grate und Talgletscher abfallen.",
+    "w": "Ein hohes weißes Eisplateau zwischen zwei langen Fjorden, dem Wijdefjord im Westen und dem Lomfjord im Osten.",
+    "f": [
+      "Nahe Eisfelder heißen Valhallfonna und Balderfonna – ebenfalls nach der nordischen Mythologie.",
+      "Der Wijdefjord an ihrer Westseite ist mit über 100 km der längste Fjord Spitzbergens."
+    ],
+    "q": {
+      "q": "Was ist Åsgard in der nordischen Mythologie?",
+      "a": "Die Heimat der Götter",
+      "x": [
+        "Das Reich der Toten",
+        "Die Welt der Riesen"
+      ]
+    }
+  },
+  "ne-gl-barnes-ice-cap": {
+    "t": "Das letzte Stück des großen eiszeitlichen Eisschilds",
+    "s": "Mitten auf der Baffininsel liegt eine glatte weiße Kuppel von rund 150 km Länge, und sie ist älter, als sie aussieht. Die Barnes-Eiskappe ist der letzte Rest des Laurentidischen Eisschilds, der in der letzten Eiszeit fast ganz Kanada begrub, und ihre tiefsten Schichten enthalten noch Eis aus jener Zeit. Ringsum liegt braune Tundra, übersät mit Tausenden Seen.",
+    "w": "Eine lange, glatte weiße Kuppel in der Mitte der Baffininsel, umgeben von brauner, mit Seen gesprenkelter Tundra.",
+    "f": [
+      "Sie bedeckt rund 6.000 km².",
+      "Forscher erwarten, dass sie mit der Erwärmung der Arktis innerhalb weniger Jahrhunderte verschwindet.",
+      "Die Baffininsel ist die fünftgrößte Insel der Welt."
+    ],
+    "q": {
+      "q": "Die Barnes-Eiskappe ist ein Rest welches Eisschilds?",
+      "a": "Des Laurentidischen Eisschilds",
+      "x": [
+        "Des Kordilleren-Eisschilds",
+        "Des Grönländischen Eisschilds"
+      ]
+    }
   }
 }

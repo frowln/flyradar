@@ -898,5 +898,605 @@
         "The Knights of St John"
       ]
     }
+  },
+  "etruria": {
+    "name": "Etruria",
+    "era": "8th – 1st c. BC",
+    "t": "Land of the Etruscans, Rome's mysterious teachers",
+    "s": "Below you lies the land of the Etruscans, who ruled central Italy before Rome and taught the young city much of its religion, engineering and style. They built hill towns, drained marshes and painted their tombs with banquets, dancers and musicians. Their language is still only partly understood. From above, look for the green Tuscan hills and the round volcanic lakes that dot the land north of Rome.",
+    "w": "Look for round crater lakes such as Bolsena and Bracciano among green hills between Rome and Florence.",
+    "f": [
+      "Tuscany takes its name from the Etruscans, whom the Romans called Tusci.",
+      "The painted tombs of Tarquinia and Cerveteri are on the UNESCO World Heritage list.",
+      "Lake Bolsena fills an old volcanic caldera and is the largest volcanic lake in Europe."
+    ],
+    "q": {
+      "q": "Which Italian region is named after the Etruscans?",
+      "a": "Tuscany",
+      "x": [
+        "Umbria",
+        "Lombardy"
+      ]
+    }
+  },
+  "magna-graecia": {
+    "name": "Magna Graecia",
+    "era": "8th – 3rd c. BC",
+    "t": "When southern Italy was part of the Greek world",
+    "s": "From the 8th century BC, Greek settlers sailed west and founded cities along the coasts of southern Italy and Sicily, so many that the Romans called the region Greater Greece. Pythagoras taught here, and cities like Syracuse and Taranto rivalled Athens. From above, look for the boot's toe and heel and the deep Gulf of Taranto between them, the sea the colonists crossed.",
+    "w": "Look for the toe and heel of Italy's boot, with the wide Gulf of Taranto curving between them.",
+    "f": [
+      "Naples began as the Greek colony of Neapolis, 'the new city'.",
+      "The word 'sybarite', for a lover of luxury, comes from the rich colony of Sybaris.",
+      "The Doric temples at Paestum are among the best-preserved Greek temples anywhere."
+    ],
+    "q": {
+      "q": "What does Naples' Greek name, Neapolis, mean?",
+      "a": "New city",
+      "x": [
+        "Sea city",
+        "Holy city"
+      ]
+    }
+  },
+  "nuragic-sardinia": {
+    "name": "Nuragic Sardinia",
+    "era": "c. 1800 – 238 BC",
+    "t": "An island of thousands of Bronze Age stone towers",
+    "s": "Sardinia is dotted with stone towers called nuraghi, built by a Bronze Age people who left no writing. Thousands survive, from single cones to fortress-villages with walls and courtyards, and archaeologists still debate what they were for. The towers are too small to see from cruise, but the island's rugged granite mountains and empty uplands, where many of them stand, are clear below.",
+    "w": "A large, rugged, lightly populated island south of Corsica, with granite mountains in the east.",
+    "f": [
+      "More than 7,000 nuraghi are known across the island.",
+      "Su Nuraxi at Barumini, a nuraghe village, became a UNESCO World Heritage site in 1997.",
+      "Nuragic smiths made small bronze figures of warriors, priests and animals."
+    ],
+    "q": {
+      "q": "What is a nuraghe?",
+      "a": "A stone tower",
+      "x": [
+        "A burial mound",
+        "A reed boat"
+      ]
+    }
+  },
+  "al-andalus": {
+    "name": "Al-Andalus",
+    "era": "711 – 1492",
+    "t": "Eight centuries of Muslim Iberia",
+    "s": "For almost eight centuries much of the Iberian Peninsula was al-Andalus, ruled by Muslim dynasties from Córdoba, Seville and Granada. Its scholars preserved and extended Greek learning, and its farmers brought rice, oranges and sugar cane to Europe. Christians, Muslims and Jews lived side by side, not always peacefully. From above, look for the Guadalquivir valley and the endless dotted rows of olive trees around it.",
+    "w": "Look for the broad Guadalquivir valley and hillsides covered in regular dotted rows of olive groves.",
+    "f": [
+      "The philosophers Averroes and Maimonides were both born in Córdoba in the 12th century.",
+      "The name of the region of Andalusia comes from al-Andalus.",
+      "Many Spanish words, such as 'aceite' (oil) and 'azúcar' (sugar), come from Arabic."
+    ],
+    "q": {
+      "q": "Which Spanish region takes its name from al-Andalus?",
+      "a": "Andalusia",
+      "x": [
+        "Aragon",
+        "Extremadura"
+      ]
+    }
+  },
+  "dacia": {
+    "name": "Dacia",
+    "era": "1st c. BC – AD 271",
+    "t": "The gold-rich mountain kingdom inside the Carpathians",
+    "s": "Inside the great curve of the Carpathians lay Dacia, a kingdom of mountain fortresses and gold mines. In AD 106 it became a Roman province under Trajan, and for the next 165 years Roman settlers mixed with the Dacians. Their Latin grew into Romanian. From above, look for the arc of the Carpathians, often snow-streaked, wrapped around the green Transylvanian plateau.",
+    "w": "Look for the curved chain of the Carpathians enclosing a broad, rolling plateau of farms and forest.",
+    "f": [
+      "The Dacian capital, Sarmizegetusa Regia, stood at about 1,200 m in the Orăștie Mountains.",
+      "Trajan's Column in Rome tells the story of the Roman campaigns in Dacia in a spiral of carved scenes.",
+      "The Romans withdrew from Dacia around AD 271."
+    ],
+    "q": {
+      "q": "Which language grew from the Latin spoken in Dacia?",
+      "a": "Romanian",
+      "x": [
+        "Hungarian",
+        "Albanian"
+      ]
+    }
+  },
+  "sapmi": {
+    "name": "Sápmi, land of the Sámi",
+    "era": "thousands of years – today",
+    "t": "Homeland of the Sámi, across four countries",
+    "s": "Below you stretches Sápmi, the homeland of the Sámi, the Indigenous people of the far north of Europe. It spans Norway, Sweden, Finland and Russia's Kola Peninsula. For centuries many Sámi followed reindeer between winter forests and summer pastures by the coast and in the fells, and some still do. From above you see their landscape: lakes, bogs, birch and pine, and long winter snow.",
+    "w": "Look for a vast land of lakes, low fells and forest, white for much of the year, north of the Gulf of Bothnia.",
+    "f": [
+      "Sámi National Day, 6 February, marks the first Sámi assembly held in Trondheim in 1917.",
+      "Norway, Sweden and Finland each have an elected Sámi Parliament.",
+      "The joik is a traditional Sámi song, often sung to evoke a person or a place."
+    ],
+    "q": {
+      "q": "What is a joik?",
+      "a": "A traditional Sámi song",
+      "x": [
+        "A reindeer sled",
+        "A winter tent"
+      ]
+    }
+  },
+  "incense-route": {
+    "name": "Incense Route",
+    "era": "7th c. BC – 2nd c. AD",
+    "t": "Camel caravans carrying frankincense to Rome",
+    "s": "Below you ran the road of frankincense and myrrh. Camel caravans carried these precious resins from the south of Arabia north along the Red Sea hills, oasis to oasis, to Petra and the Mediterranean port of Gaza. Temples across the ancient world burned incense, so the trade made the desert kingdoms rich. From above you see what the caravans crossed: bare mountains, lava fields and sand.",
+    "w": "Look for dark volcanic hills and sandy valleys running north–south inland from the Red Sea coast.",
+    "f": [
+      "Frankincense is the dried resin of a small desert tree, Boswellia.",
+      "The Nabataeans of Petra grew rich by taxing and guiding the caravans.",
+      "The caravan journey from southern Arabia to Gaza took around two months."
+    ],
+    "q": {
+      "q": "What is frankincense?",
+      "a": "A tree resin",
+      "x": [
+        "Ground seashells",
+        "Dried flower petals"
+      ]
+    }
+  },
+  "royal-road": {
+    "name": "Persian Royal Road",
+    "era": "5th c. BC",
+    "t": "The highway of the Persian kings, Sardis to Susa",
+    "s": "In the 5th century BC the Persian king Darius the Great linked the edges of his empire with a road about 2,700 km long, from Sardis near the Aegean to his capital at Susa. Relay stations with fresh horses lined the way, so royal messengers could cross it in about a week. From above, trace it across the Anatolian plateau, over the Euphrates and Tigris and down to the plains of Iran.",
+    "w": "Across eastern Turkey, look for the upper Euphrates and Tigris valleys the road crossed on its way to Mesopotamia.",
+    "f": [
+      "Herodotus wrote that travellers on foot needed about 90 days for the full journey.",
+      "He counted 111 relay stations along the road.",
+      "His praise of the couriers, that neither snow nor rain stayed them, is carved on a New York post office."
+    ],
+    "q": {
+      "q": "Which Persian king built the Royal Road?",
+      "a": "Darius the Great",
+      "x": [
+        "Cyrus the Great",
+        "Xerxes"
+      ]
+    }
+  },
+  "suez-canal": {
+    "name": "Suez Canal",
+    "era": "opened 1869",
+    "t": "A ruler-straight line joining two seas",
+    "s": "Look for a thin straight line cutting through the desert between the Mediterranean and the Red Sea. Opened in 1869, the Suez Canal spared ships the long voyage round Africa. It has no locks: the sea simply flows through, pausing in the Bitter Lakes halfway. From cruise height it is one of the clearest human-made lines on Earth, often with a convoy of ships strung along it.",
+    "w": "A straight blue line from Port Said south to Suez, widening into the Great Bitter Lake halfway along.",
+    "f": [
+      "The canal was built under the French diplomat Ferdinand de Lesseps.",
+      "It is about 193 km long and was later widened, with a parallel channel added along part of it in 2015.",
+      "It cut the sea route between Britain and India by about 40 percent."
+    ],
+    "q": {
+      "q": "Who led the building of the Suez Canal?",
+      "a": "Ferdinand de Lesseps",
+      "x": [
+        "Pierre-Paul Riquet",
+        "Isambard Kingdom Brunel"
+      ]
+    }
+  },
+  "troy": {
+    "name": "Troy",
+    "era": "c. 3000 BC – AD 500",
+    "t": "The city behind Homer's Iliad",
+    "s": "Below you, at the mouth of the Dardanelles, lies the mound of Troy. For thousands of years people rebuilt a city here, layer on layer, and one of those cities may be the Troy of Homer's Iliad. It guarded the sea route between the Aegean and the Black Sea. The mound is too small to see, but the narrow strait and the river plain beside it are clear.",
+    "w": "Look for the entrance of the Dardanelles strait; the site lies just inland on its Asian side, above a flat river plain.",
+    "f": [
+      "Archaeologists have found at least nine cities built on top of one another.",
+      "Heinrich Schliemann's 'Priam's Treasure' turned out to be about a thousand years older than Homer's Troy.",
+      "Troy became a UNESCO World Heritage site in 1998."
+    ],
+    "q": {
+      "q": "Who began excavating Troy in the 1870s?",
+      "a": "Heinrich Schliemann",
+      "x": [
+        "Arthur Evans",
+        "Howard Carter"
+      ]
+    }
+  },
+  "ephesus": {
+    "name": "Ephesus",
+    "era": "10th c. BC – 15th c.",
+    "t": "A great Roman port now stranded far inland",
+    "s": "Ephesus was one of the largest cities of the Roman East, with a marble main street, a theatre for about 25,000 people and the grand Library of Celsus. It was a port, but the river silted up its harbour, and the coast now lies kilometres away. From above you can read that story: a flat green plain of river silt where the sea once came in, west of the town of Selçuk.",
+    "w": "Look for a flat green river plain west of Selçuk that runs out to the sea near Kuşadası.",
+    "f": [
+      "Its Temple of Artemis was one of the Seven Wonders of the Ancient World.",
+      "The front of the Library of Celsus, built in the 2nd century AD, has been rebuilt from its original stones.",
+      "Ephesus became a UNESCO World Heritage site in 2015."
+    ],
+    "q": {
+      "q": "Which Wonder of the Ancient World stood at Ephesus?",
+      "a": "The Temple of Artemis",
+      "x": [
+        "The Colossus of Rhodes",
+        "The Pharos lighthouse"
+      ]
+    }
+  },
+  "pergamon": {
+    "name": "Pergamon",
+    "era": "3rd – 2nd c. BC",
+    "t": "A hilltop capital that gave its name to parchment",
+    "s": "On a steep hill above the town of Bergama stood Pergamon, capital of a rich Hellenistic kingdom. Its kings built a great library, a famous altar and one of the steepest theatres of the ancient world, cut into the slope. The library needed so much writing material that Pergamon became known for parchment. From above, look for the green plain of the Bakırçay river, inland from the Aegean.",
+    "w": "Look for the Bakırçay river plain about 25 km inland from the Aegean coast, north of İzmir.",
+    "f": [
+      "The word 'parchment' comes from the name of Pergamon.",
+      "The Pergamon Altar was taken to Berlin in the 19th century and gave its name to a museum there.",
+      "The theatre's seating drops down the hillside in about 80 rows."
+    ],
+    "q": {
+      "q": "Which writing material is named after Pergamon?",
+      "a": "Parchment",
+      "x": [
+        "Papyrus",
+        "Paper"
+      ]
+    }
+  },
+  "sardis": {
+    "name": "Sardis, city of the first coins",
+    "era": "7th – 6th c. BC",
+    "t": "Where money first became coins",
+    "s": "In this fertile valley stood Sardis, capital of the Lydian kingdom. Around the 7th century BC the Lydians began stamping lumps of electrum, a natural gold–silver alloy, into coins, one of the first uses of coinage anywhere. Their last king, Croesus, became a byword for wealth. The city later marked the start of the Persian Royal Road. From above, look for the broad green Gediz valley east of İzmir.",
+    "w": "Look for the broad green Gediz valley east of İzmir, with a mountain ridge rising along its southern side.",
+    "f": [
+      "The river Pactolus, which ran through Sardis, was said to carry gold dust.",
+      "The phrase 'as rich as Croesus' comes from the last king of Lydia.",
+      "The ruins include one of the largest ancient synagogues ever found."
+    ],
+    "q": {
+      "q": "Which king of Sardis became a byword for wealth?",
+      "a": "Croesus",
+      "x": [
+        "Midas",
+        "Darius"
+      ]
+    }
+  },
+  "gobekli-tepe": {
+    "name": "Göbekli Tepe",
+    "era": "c. 9500 – 8000 BC",
+    "t": "Temples built before farming began",
+    "s": "On a hill above the Harran plain, hunter-gatherers raised great stone pillars carved with foxes, snakes and vultures about 11,500 years ago. That is before pottery, before writing, and before farming had taken hold. Göbekli Tepe turned the old idea that villages came first and monuments later upside down. The pillars are invisible from cruise, but the wide, now irrigated plain around Şanlıurfa is easy to see.",
+    "w": "Look for the wide plain north of the Syrian border near Şanlıurfa, green in patches with irrigated fields.",
+    "f": [
+      "Its T-shaped pillars stand up to about 5.5 m tall.",
+      "It is some 6,000 years older than Stonehenge.",
+      "The site was recognised as prehistoric by the archaeologist Klaus Schmidt in 1994."
+    ],
+    "q": {
+      "q": "Who built Göbekli Tepe?",
+      "a": "Hunter-gatherers",
+      "x": [
+        "Bronze Age farmers",
+        "Roman engineers"
+      ]
+    }
+  },
+  "catalhoyuk": {
+    "name": "Çatalhöyük",
+    "era": "c. 7100 – 5700 BC",
+    "t": "A Stone Age town with no streets",
+    "s": "On the flat Konya plain stood one of the world's earliest large towns, home to thousands of people more than 9,000 years ago. Its mud-brick houses were packed wall to wall with no streets between them, so people walked across the rooftops and climbed down ladders into their homes. From above, the plain still looks as flat as a table, with the volcano Hasan Dağı rising to the east.",
+    "w": "Look for the vast flat Konya plain, with the lone twin-peaked volcano Hasan Dağı standing to its east.",
+    "f": [
+      "Houses were entered through a hole in the roof.",
+      "A wall painting found here may show a town with an erupting volcano behind it.",
+      "It became a UNESCO World Heritage site in 2012."
+    ],
+    "q": {
+      "q": "How did people enter houses at Çatalhöyük?",
+      "a": "Through the roof",
+      "x": [
+        "Through side tunnels",
+        "Through front doors"
+      ]
+    }
+  },
+  "hattusa": {
+    "name": "Hattusa, the Hittite capital",
+    "era": "c. 1650 – 1200 BC",
+    "t": "Below you: the land where the Hittite empire rose",
+    "s": "On these bare hills of central Anatolia stood Hattusa, capital of the Hittites, who ruled much of the Bronze Age Near East and dealt as equals with Egypt. Its walls, gates carved with lions and sphinxes, and an archive of clay tablets survive. Among them is one of the oldest peace treaties known. From above, look for the great loop of the Kızılırmak river that wraps around the Hittite heartland.",
+    "w": "Look for the long arc of the Kızılırmak, Turkey's longest river, curving around dry hills east of Ankara.",
+    "f": [
+      "The Hittite king and Egypt's Ramesses II signed a peace treaty around 1259 BC; a copy hangs at UN headquarters.",
+      "Hittite is the oldest written Indo-European language known.",
+      "Archaeologists have found around 30,000 clay tablets at Hattusa."
+    ],
+    "q": {
+      "q": "Which pharaoh signed a peace treaty with the Hittites?",
+      "a": "Ramesses II",
+      "x": [
+        "Tutankhamun",
+        "Akhenaten"
+      ]
+    }
+  },
+  "petra": {
+    "name": "Petra",
+    "era": "4th c. BC – 7th c. AD",
+    "t": "A city carved into rose-red cliffs",
+    "s": "In the rugged mountains east of the Wadi Araba lies Petra, capital of the Nabataeans, who grew rich on the incense caravans. They carved temples and tombs straight into the rose-red sandstone and caught every drop of rain in channels and cisterns. You reach its most famous facade, the Treasury, through a narrow gorge. From cruise, look for the jagged, reddish mountain wall above the long, dead-flat rift valley.",
+    "w": "Look for jagged reddish mountains rising steeply east of the Wadi Araba, the flat rift valley between the Dead Sea and Aqaba.",
+    "f": [
+      "The gorge leading into Petra, the Siq, is about 1.2 km long and in places only a few metres wide.",
+      "The Swiss traveller Johann Ludwig Burckhardt brought Petra to Europe's attention in 1812.",
+      "A Victorian poem called it 'a rose-red city half as old as time'."
+    ],
+    "q": {
+      "q": "Who brought Petra to Europe's attention in 1812?",
+      "a": "Johann Ludwig Burckhardt",
+      "x": [
+        "Heinrich Schliemann",
+        "Richard Burton"
+      ]
+    }
+  },
+  "palmyra": {
+    "name": "Palmyra",
+    "era": "1st – 3rd c. AD",
+    "t": "The caravan city of the desert palms",
+    "s": "In the middle of the Syrian desert, a spring and a grove of palms made Palmyra a stop for caravans travelling between the Mediterranean and the Euphrates. Its merchants grew so rich that they built a long colonnaded avenue, grand temples and tower tombs, mixing Greek, Roman and Persian styles. From above, look for the green patch of the oasis, sharp against the pale desert around it.",
+    "w": "A small green oasis in a vast pale desert, at the foot of a line of low bare hills.",
+    "f": [
+      "In the 3rd century Queen Zenobia made Palmyra the centre of a short-lived empire.",
+      "Palmyrene merchants traded in silk, spices and perfumes from as far as China and India.",
+      "The city's own language was a dialect of Aramaic, written in its own script."
+    ],
+    "q": {
+      "q": "Which queen made Palmyra the heart of an empire?",
+      "a": "Zenobia",
+      "x": [
+        "Cleopatra",
+        "Dido"
+      ]
+    }
+  },
+  "baalbek": {
+    "name": "Baalbek",
+    "era": "1st c. BC – 3rd c. AD",
+    "t": "Temples built of some of the largest stones ever moved",
+    "s": "In the Beqaa valley, between two mountain ranges, the Romans built one of their grandest temple complexes, Heliopolis, today's Baalbek. Six towering columns of the Temple of Jupiter still stand, and the Temple of Bacchus beside them is among the best preserved in the Roman world. Its foundations include blocks of hundreds of tonnes each. From above, the long flat valley between two ridges is unmistakable.",
+    "w": "Look for a long, flat green valley running north–south between two parallel mountain ranges, often snow-capped in winter.",
+    "f": [
+      "Three stones in the temple's base, the Trilithon, weigh about 800 tonnes each.",
+      "Even larger blocks, never moved, still lie in the ancient quarry nearby.",
+      "The Temple of Jupiter's surviving columns are about 20 m tall."
+    ],
+    "q": {
+      "q": "About how heavy is each stone of Baalbek's Trilithon?",
+      "a": "About 800 tonnes",
+      "x": [
+        "About 8 tonnes",
+        "About 80 tonnes"
+      ]
+    }
+  },
+  "qumran": {
+    "name": "Qumran and the Dead Sea Scrolls",
+    "era": "c. 250 BC – AD 68; found 1947",
+    "t": "Caves that kept the oldest Bible manuscripts",
+    "s": "Look down at the Dead Sea, the lowest water on Earth. In 1947 a Bedouin shepherd, searching the cliffs on its north-western shore, found clay jars holding ancient scrolls. Over the next decade the caves around Qumran yielded hundreds of manuscripts, including the oldest known copies of books of the Hebrew Bible. The caves are invisible from here, but the sea and its steep cliffs are striking.",
+    "w": "Look for the Dead Sea's long blue northern basin and the steep bare cliffs along its western shore.",
+    "f": [
+      "The scrolls were written roughly between 250 BC and AD 68.",
+      "The Great Isaiah Scroll is over 7 m long and nearly complete.",
+      "The surface of the Dead Sea lies about 430 m below sea level."
+    ],
+    "q": {
+      "q": "Who found the first Dead Sea Scrolls in 1947?",
+      "a": "A Bedouin shepherd",
+      "x": [
+        "A British archaeologist",
+        "A travelling monk"
+      ]
+    }
+  },
+  "babylon": {
+    "name": "Babylon",
+    "era": "c. 1900 – 300 BC",
+    "t": "The ancient world's byword for a great city",
+    "s": "On the Euphrates south of Baghdad lie the ruins of Babylon. Under Hammurabi it gave the world one of its first written law codes; under Nebuchadnezzar II it became a city of blue-glazed gates and a towering ziggurat that may lie behind the story of the Tower of Babel. From above, look for the Euphrates and the dark ribbon of palm groves and fields that follows it through the desert.",
+    "w": "Look for the Euphrates winding through dry land, lined with dark green palm groves, about 85 km south of Baghdad.",
+    "f": [
+      "Hammurabi's law code, from about 1754 BC, was carved on a black stone stele now in the Louvre.",
+      "The blue-tiled Ishtar Gate has been rebuilt in a museum in Berlin.",
+      "Babylon became a UNESCO World Heritage site in 2019."
+    ],
+    "q": {
+      "q": "Which king's law code came from Babylon?",
+      "a": "Hammurabi's",
+      "x": [
+        "Gilgamesh's",
+        "Sargon's"
+      ]
+    }
+  },
+  "ur": {
+    "name": "Ur",
+    "era": "c. 3800 – 500 BC",
+    "t": "A Sumerian city still watched over by its ziggurat",
+    "s": "In the desert of southern Iraq rises the stepped bulk of the Great Ziggurat of Ur, built more than 4,000 years ago. Ur was one of the richest cities of Sumer, a port on the Euphrates close to the Gulf. The river and the coast have since moved away, leaving it stranded in the sand. From cruise the ziggurat is a speck, but the edge of the green river plain against the desert is clear.",
+    "w": "Look for the boundary between the green Euphrates plain near Nasiriyah and the empty desert just south-west of it.",
+    "f": [
+      "The ziggurat was built by King Ur-Nammu around 2100 BC and partly restored in modern times.",
+      "Its royal tombs, dug in the 1920s, held gold helmets, lyres and the mosaic box called the Standard of Ur.",
+      "Tradition names 'Ur of the Chaldees' as the birthplace of Abraham."
+    ],
+    "q": {
+      "q": "Who built the Great Ziggurat of Ur?",
+      "a": "Ur-Nammu",
+      "x": [
+        "Nebuchadnezzar II",
+        "Hammurabi"
+      ]
+    }
+  },
+  "uruk": {
+    "name": "Uruk",
+    "era": "c. 4000 – 300 BC",
+    "t": "One of the first cities, where writing began",
+    "s": "Here, in what is now desert, stood Uruk, one of the first true cities in the world. By about 3000 BC tens of thousands of people lived inside its walls, and its temple officials began pressing marks into clay tablets to keep accounts: some of the earliest writing anywhere. Legend made Gilgamesh its king. From above, look for the old dry channels of the Euphrates wandering across the plain.",
+    "w": "Look for faint old river channels and the edge of green farmland in the desert east of Samawah.",
+    "f": [
+      "The earliest tablets from Uruk, from about 3300 BC, are mostly records of grain, beer and livestock.",
+      "Its city walls, credited in legend to Gilgamesh, ran about 9 km around.",
+      "The Epic of Gilgamesh is one of the oldest surviving works of literature."
+    ],
+    "q": {
+      "q": "Which legendary hero was king of Uruk?",
+      "a": "Gilgamesh",
+      "x": [
+        "Hammurabi",
+        "Sargon"
+      ]
+    }
+  },
+  "nineveh": {
+    "name": "Nineveh",
+    "era": "c. 700 – 612 BC (as capital)",
+    "t": "Assyria's capital and its great library",
+    "s": "On the east bank of the Tigris, opposite Mosul, lie the mounds of Nineveh, once the largest city in the world. Assyrian kings lined its palaces with carved stone reliefs and built canals and aqueducts to water its gardens. King Ashurbanipal gathered a library of clay tablets, and among them was the Epic of Gilgamesh. From above, look for the Tigris flowing south through a city on both banks.",
+    "w": "Look for the Tigris running north–south through the city of Mosul; the ancient mounds lie on its eastern bank.",
+    "f": [
+      "Ashurbanipal's library held tens of thousands of clay tablets, now mostly in the British Museum.",
+      "In 1872 a tablet from it was found to tell a flood story much like Noah's.",
+      "Sennacherib's canals to Nineveh crossed a valley on the Jerwan aqueduct, one of the oldest known."
+    ],
+    "q": {
+      "q": "Whose library at Nineveh held the Epic of Gilgamesh?",
+      "a": "Ashurbanipal's",
+      "x": [
+        "Nebuchadnezzar's",
+        "Darius's"
+      ]
+    }
+  },
+  "persepolis": {
+    "name": "Persepolis",
+    "era": "c. 518 – 330 BC",
+    "t": "The ceremonial capital of the Persian kings",
+    "s": "On a stone terrace at the foot of a mountain, the Persian kings built Persepolis to receive envoys from across their empire. Its stairways are carved with long processions of Medes, Egyptians, Indians and many others bringing gifts. It was burned in 330 BC after Alexander the Great took it, and its columns still stand among the ruins. From above, look for the wide Marvdasht plain north of Shiraz.",
+    "w": "Look for the broad, farmed Marvdasht plain about 60 km north-east of Shiraz, edged by bare mountains.",
+    "f": [
+      "Darius the Great began building Persepolis around 518 BC.",
+      "Its reliefs show envoys of more than 20 peoples bringing gifts to the king.",
+      "The tomb of Cyrus the Great stands at nearby Pasargadae."
+    ],
+    "q": {
+      "q": "Which king founded Persepolis?",
+      "a": "Darius the Great",
+      "x": [
+        "Cyrus the Great",
+        "Xerxes"
+      ]
+    }
+  },
+  "yazd": {
+    "name": "Yazd, city of windcatchers",
+    "era": "5th c. – today",
+    "t": "A mud-brick city that learned to live in the desert",
+    "s": "Between two great deserts lies Yazd, one of the oldest living cities of Iran. Its old town is built of mud brick, with towers called windcatchers that funnel cool air into the houses below. Water came from qanats, underground channels tunnelled from distant mountains. From cruise, look for a green oasis city on a vast beige plain, with the Shir Kuh mountains to its south-west.",
+    "w": "Look for an oasis city on a wide beige desert plain, with the high Shir Kuh mountains to the south-west.",
+    "f": [
+      "The historic city of Yazd became a UNESCO World Heritage site in 2017.",
+      "A Zoroastrian fire temple in Yazd keeps a flame said to have burned since AD 470.",
+      "Qanat shafts show from the air as long dotted lines across the desert, best seen from lower altitude."
+    ],
+    "q": {
+      "q": "What is a badgir in Yazd?",
+      "a": "A windcatcher tower",
+      "x": [
+        "An ice house",
+        "A water mill"
+      ]
+    }
+  },
+  "giza": {
+    "name": "Pyramids of Giza",
+    "era": "c. 2600 – 2500 BC",
+    "t": "The last Wonder of the ancient world still standing",
+    "s": "Where the green Nile valley meets the desert, on the western edge of Cairo, stand the pyramids of Giza. The Great Pyramid of Khufu was the tallest human-made structure on Earth for about 3,800 years. Nearby Saqqara holds the step pyramid of Djoser, the first of them all. In clear air, look for three small pale triangles at the desert's edge, right beside the city.",
+    "w": "Look where Cairo's sprawl meets the desert to the south-west; the pyramids sit on the plateau's edge like pale specks.",
+    "f": [
+      "The Great Pyramid was originally about 146 m tall.",
+      "It is the only one of the Seven Wonders of the Ancient World that still stands.",
+      "Its sides face the four compass points with an error of only a fraction of a degree."
+    ],
+    "q": {
+      "q": "Which pharaoh built the Great Pyramid?",
+      "a": "Khufu",
+      "x": [
+        "Khafre",
+        "Ramesses II"
+      ]
+    }
+  },
+  "thebes": {
+    "name": "Thebes: Karnak and the Valley of the Kings",
+    "era": "c. 2000 – 1000 BC",
+    "t": "Temples on one bank, royal tombs on the other",
+    "s": "At Luxor the Nile divides two worlds. On the east bank stood Thebes, capital of Egypt's New Kingdom, with the vast temples of Karnak and Luxor. On the west bank, in desert valleys behind the cliffs, the pharaohs cut their tombs, including Tutankhamun's. From cruise the monuments are too small, but the contrast is striking: a narrow green valley, then sudden bare desert and cliffs.",
+    "w": "A thin green strip of fields along the Nile, with the city of Luxor on the east bank and pale cliffs to the west.",
+    "f": [
+      "Karnak is one of the largest religious complexes ever built.",
+      "More than 60 tombs have been found in the Valley of the Kings.",
+      "Howard Carter found Tutankhamun's nearly intact tomb there in 1922."
+    ],
+    "q": {
+      "q": "Who found Tutankhamun's tomb in 1922?",
+      "a": "Howard Carter",
+      "x": [
+        "Flinders Petrie",
+        "Auguste Mariette"
+      ]
+    }
+  },
+  "abu-simbel": {
+    "name": "Abu Simbel",
+    "era": "c. 1264 BC; moved 1964–1968",
+    "t": "Temples cut into a mountain, then moved",
+    "s": "Look for the huge blue sheet of Lake Nasser in the Nubian desert. On its shore sit the temples of Ramesses II, fronted by four seated giants, each about 20 m tall. When the Aswan High Dam was about to flood them in the 1960s, an international effort led by UNESCO cut the temples into blocks and rebuilt them higher up. The temples are too small to see, but the lake is vast.",
+    "w": "A long, branching blue lake in the desert near Egypt's southern border; the temples lie on its western shore.",
+    "f": [
+      "The temples were cut into over 1,000 blocks and rebuilt about 65 m higher.",
+      "Twice a year, the rising sun reaches deep inside to light statues in the inner sanctuary.",
+      "The rescue campaign helped inspire UNESCO's World Heritage list."
+    ],
+    "q": {
+      "q": "Why were the Abu Simbel temples moved?",
+      "a": "To escape a dam's lake",
+      "x": [
+        "To avoid earthquakes",
+        "To make way for a road"
+      ]
+    }
+  },
+  "alexandria-ancient": {
+    "name": "Ancient Alexandria",
+    "era": "331 BC – 7th c. AD",
+    "t": "The city of the Lighthouse and the Great Library",
+    "s": "Alexander the Great founded this city on the Mediterranean in 331 BC, and it became the capital of the Ptolemies and the scholarly centre of the ancient world. Its Great Library gathered books from everywhere, and its lighthouse on the island of Pharos was one of the Seven Wonders. From above, look for a long city stretched along the coast between the sea and a lake, west of the Nile delta.",
+    "w": "A city strung out along the coast for many kilometres, between the sea and Lake Mariout, west of the Nile delta.",
+    "f": [
+      "The Pharos lighthouse stood for centuries; a 15th-century fort now occupies its site.",
+      "Eratosthenes estimated the Earth's circumference here around 240 BC, remarkably well.",
+      "Cleopatra VII, the last Ptolemaic ruler of Egypt, reigned from Alexandria."
+    ],
+    "q": {
+      "q": "Who measured the Earth's size from Alexandria?",
+      "a": "Eratosthenes",
+      "x": [
+        "Archimedes",
+        "Pythagoras"
+      ]
+    }
   }
 }

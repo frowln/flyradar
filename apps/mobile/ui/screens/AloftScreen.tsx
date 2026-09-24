@@ -121,8 +121,8 @@ function GuessCard({ guess, onAnswer }: { guess: Guess; onAnswer: (correct: bool
         <Title>
           {guess.sameKind
             ? side === 'below'
-              ? t('guess.promptBelow', { kind: t(`category.${guess.poi.category}`) })
-              : t('guess.prompt', { side: t(`side.${side}`), kind: t(`category.${guess.poi.category}`) })
+              ? t('guess.promptBelow', { over: t(`guessOver.${guess.poi.category}`) })
+              : t('guess.prompt', { side: t(`side.${side}`), which: t(`guessWhich.${guess.poi.category}`) })
             : side === 'below'
               ? t('guess.promptBelowAny')
               : t('guess.promptAny', { side: t(`side.${side}`) })}

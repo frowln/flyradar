@@ -93,7 +93,7 @@
     "s": "Von oben wirkt das Gebiet wie ein Puzzle aus braunem und weißem Land, zusammengefügt durch Kanäle voller Meereis. Zehntausende Inseln erstrecken sich nördlich des kanadischen Festlands bis Richtung Grönland, und einen Großteil des Jahres ist das Meer zwischen ihnen fest zugefroren. Jahrhundertelang suchten Entdecker einen Weg hindurch; die Nordwestpassage schlängelt sich durch genau diese Kanäle.",
     "w": "Große, flache Inseln, getrennt von geraden Kanälen, die meiste Zeit des Jahres weiß von Meereis; im Osten Gletscher und Eiskappen.",
     "f": [
-      "Drei der zehn größten Inseln der Welt liegen hier: die Baffin-, die Victoria- und die Ellesmere-Insel.",
+      "Drei der zehn größten Inseln der Welt liegen hier: die Baffininsel, die Victoria-Insel und Ellesmere Island.",
       "Roald Amundsen durchfuhr als Erster die gesamte Nordwestpassage, in den Jahren 1903–1906.",
       "Mehr als 36.000 Inseln bilden den Archipel."
     ],
@@ -351,6 +351,361 @@
       "x": [
         "Zimt",
         "Paradies"
+      ]
+    }
+  },
+  "Q3593416": {
+    "t": "Eine herzförmige Insel vor dem Südpolarmeer",
+    "s": "Tasmanien hat ein wenig die Form eines Herzens, und von oben wirkt sein Westen wild: dunkler Wald, Ebenen voller Knopfgras, zerklüftete Berge und Seen, kaum eine Straße. Der Osten ist sanfter, mit Farmland und weißen Sandbuchten. Das nächste Land im Süden ist die Antarktis, und die Westwinde der Roaring Forties kommen ungebremst über Tausende Kilometer offenen Ozean heran.",
+    "w": "Eine herzförmige Insel südlich von Australien: zerklüfteter, dunkelgrüner Westen, trockeneres Farmland und helle Buchten an der Ostküste.",
+    "f": [
+      "Abel Tasman sichtete die Insel 1642, und zwei Jahrhunderte lang hieß sie Van-Diemens-Land.",
+      "Die am Cape Grim an der Nordwestspitze gemessene Luft gehört zur saubersten der Erde.",
+      "Der Beutelteufel überlebt in freier Wildbahn heute nur noch hier."
+    ],
+    "q": {
+      "q": "Wie lautete Tasmaniens alter europäischer Name?",
+      "a": "Van-Diemens-Land",
+      "x": [
+        "Neuholland",
+        "Terra Australis"
+      ]
+    }
+  },
+  "Q40285": {
+    "t": "Regenwald, große Flüsse und Eis am Äquator",
+    "s": "Die zweitgrößte Insel der Welt ist ein grüner Riese mit einem Gebirgsrückgrat über ihre ganze Länge, meist in Wolken gehüllt. Flüsse wie Sepik und Fly winden sich in breiten braunen Mäandern durch Sumpfwald – Sie können ihnen Hunderte Kilometer weit folgen. Im Westen erreichen die Gipfel fast 4.900 m, hoch genug, dass sich direkt am Äquator kleine Gletscher halten konnten.",
+    "w": "Eine riesige grüne Insel mit langem, wolkenverhangenem Gebirgsrücken und breiten, gewundenen braunen Flüssen durch sumpfiges Tiefland.",
+    "f": [
+      "Der Puncak Jaya ist mit 4.884 m der höchste Berg auf einer Insel weltweit.",
+      "Mit rund 786.000 km² wird Neuguinea unter den Inseln der Welt nur von Grönland übertroffen.",
+      "Die meisten Paradiesvögel der Welt, berühmt für ihre tanzenden Männchen, leben auf Neuguinea."
+    ],
+    "q": {
+      "q": "Welcher ist der höchste Gipfel Neuguineas?",
+      "a": "Puncak Jaya",
+      "x": [
+        "Mount Wilhelm",
+        "Kinabalu"
+      ]
+    }
+  },
+  "Q36117": {
+    "t": "Eine Insel, drei Länder und ein Granitriese",
+    "s": "Borneo ist die drittgrößte Insel der Erde, und aus der Luft lässt sich ihre Geschichte an den Oberflächen ablesen. Tiefer, zerknitterter Regenwald bedeckt das Innere, braune Flüsse winden sich zur Küste, und in vielen Tiefebenen haben ordentliche Raster aus Ölpalmplantagen den Dschungel ersetzt. Im Nordosten ragt der kahle Granitgipfel des Kinabalu mit 4.095 m über die Wolken.",
+    "w": "Dunkler Regenwald, gewundene braune Flüsse und geometrische Plantagenraster; im Nordosten der Felsgipfel des Kinabalu über den Wolken.",
+    "f": [
+      "Borneo teilen sich drei Länder: Indonesien, Malaysia und Brunei.",
+      "Der Kapuas ist mit rund 1.140 km der längste Fluss Indonesiens.",
+      "Wilde Orang-Utans leben nur auf Borneo und Sumatra."
+    ],
+    "q": {
+      "q": "Wie viele Länder teilen sich die Insel Borneo?",
+      "a": "Drei",
+      "x": [
+        "Zwei",
+        "Vier"
+      ]
+    }
+  },
+  "Q3492": {
+    "t": "Heimat des Toba, des größten Vulkansees der Welt",
+    "s": "Sumatra erstreckt sich fast 1.800 km weit über den Äquator, mit einer Vulkankette entlang seiner Westseite. Das unübersehbare Wahrzeichen ist der Tobasee: ein blaues Oval von etwa 100 km Länge im Krater eines Supervulkans, der vor rund 74.000 Jahren ausbrach. In seiner Mitte liegt Samosir, fast so groß wie Singapur – eine Insel in einem See auf einer Insel.",
+    "w": "Eine lange grüne Insel mit Vulkankamm im Westen; suchen Sie den Toba, einen riesigen blauen See mit großer Insel darin.",
+    "f": [
+      "Nur hier leben Tiger, Nashörner, Orang-Utans und Elefanten noch gemeinsam in freier Wildbahn.",
+      "Mit rund 473.000 km² ist Sumatra die sechstgrößte Insel der Welt.",
+      "Der Äquator quert Sumatra, die Insel liegt also auf beiden Erdhalbkugeln."
+    ],
+    "q": {
+      "q": "Wie heißt die Insel in der Mitte des Tobasees?",
+      "a": "Samosir",
+      "x": [
+        "Nias",
+        "Siberut"
+      ]
+    }
+  },
+  "Q13989": {
+    "t": "Fuji, Japanische Alpen und Tokio auf einer langen Insel",
+    "s": "Honshu ist das lange, gebogene Herz Japans, und vom Fenster aus fällt seine Vielfalt auf: Schnee auf den Japanischen Alpen in der Mitte, Reisebenen und ausufernde Städte an den Küsten. An klaren Tagen ist Fujis einsamer weißer Kegel unverkennbar, südwestlich von Tokios riesigem graubraunem Teppich. Tunnel und Brücken verbinden Honshu mit den drei anderen Hauptinseln.",
+    "w": "Eine lange, gekrümmte Insel: verschneite Gipfel in der Mitte, Fujis einsamer Kegel und dichte Städte an der Pazifikküste.",
+    "f": [
+      "Rund 100 Millionen Menschen leben auf Honshu – mehr als auf jeder anderen Insel außer Java.",
+      "Mit rund 228.000 km² ist Honshu die siebtgrößte Insel der Welt.",
+      "Der Seikan-Tunnel, der unter dem Meer nach Hokkaido führt, ist rund 54 km lang."
+    ],
+    "q": {
+      "q": "Welche Insel hat mehr Einwohner als Honshu?",
+      "a": "Java",
+      "x": [
+        "Großbritannien",
+        "Luzon"
+      ]
+    }
+  },
+  "Q22890": {
+    "t": "Die Smaragdinsel macht ihrem Namen alle Ehre",
+    "s": "An klaren Tagen ist Irland tatsächlich smaragdgrün: kleine Felder in hundert Grüntönen, zusammengenäht von Hecken und im Westen von grauen Steinmauern. Die Atlantikküste ist zerfranst von Buchten und Landzungen; das Landesinnere ist flach, gesprenkelt mit Seen und braunem Moor. Achten Sie auf den Shannon, der sich auf seinem Weg nach Süden zum Ozean zu langen Seen weitet.",
+    "w": "Eine grüne Insel westlich von Großbritannien: zerfranste Atlantikküste, flaches, seenreiches Binnenland und der lange Faden des Shannon.",
+    "f": [
+      "Der Shannon ist mit rund 360 km der längste Fluss in Irland und Großbritannien.",
+      "Irland hat keine einheimischen Schlangen: Nach der Eiszeit schnitt das Meer die Insel ab, bevor sie ankommen konnten.",
+      "Lough Neagh im Nordosten ist der größte See der Britischen Inseln."
+    ],
+    "q": {
+      "q": "Welcher ist der längste Fluss Irlands?",
+      "a": "Der Shannon",
+      "x": [
+        "Der Liffey",
+        "Der Boyne"
+      ]
+    }
+  },
+  "Q23666": {
+    "t": "Europas größte Insel – von Kreideklippen bis zu den Lochs",
+    "s": "Großbritannien erstreckt sich fast 1.000 km von Süd nach Nord, und wenn Sie daran entlangfliegen, sehen Sie das Land sich wandeln. Der Süden ist ein sanfter Flickenteppich aus Feldern und Städten rund um Londons riesiges Häusermeer; die Pennines bilden ein braunes Rückgrat durch Nordengland; Schottland zerfällt in Berge und lange, schmale Lochs. Nachts leuchten die Städte orange, während die Highlands fast dunkel bleiben.",
+    "w": "Eine lange, nach Norden schmaler werdende Insel: grünes Farmland im Süden, ein braunes Bergrückgrat, dann Schottlands Berge und schlanke Lochs.",
+    "f": [
+      "Großbritannien ist die neuntgrößte Insel der Welt und die größte Europas.",
+      "Ben Nevis, mit 1.345 m der höchste Berg der Insel, liegt noch fast 10 km unter der Reiseflughöhe.",
+      "Der rund 50 km lange Eurotunnel verbindet die Insel unter der Straße von Dover hindurch mit Frankreich."
+    ],
+    "q": {
+      "q": "Welcher ist der höchste Berg Großbritanniens?",
+      "a": "Ben Nevis",
+      "x": [
+        "Snowdon",
+        "Scafell Pike"
+      ]
+    }
+  },
+  "Q186233": {
+    "t": "Eine Waldkette zwischen Golf von Bengalen und Andamanensee",
+    "s": "Eine schmale Inselkette, fast vollständig von dunklem Tropenwald bedeckt, zieht sich von Nord nach Süd zwischen dem Golf von Bengalen und der Andamanensee. Sie gehört zu Indien, liegt aber viel näher an Myanmar. Das Wasser ringsum ist außergewöhnlich klar, sodass sich Riffe als blasstürkise Ringe abzeichnen. Östlich der Hauptkette liegt das winzige Barren Island, der einzige aktive Vulkan Südasiens.",
+    "w": "Eine schlanke Nord-Süd-Kette dicht bewaldeter Inseln mit türkisfarbenem Riffsaum, östlich davon verstreute kleine Inselchen.",
+    "f": [
+      "Barren Island, nur etwa 3 km breit, ist der einzige bestätigte aktive Vulkan Südasiens.",
+      "Auf North Sentinel lebt eines der letzten Völker der Erde ohne Kontakt zur Außenwelt."
+    ],
+    "q": {
+      "q": "Welcher aktive Vulkan gehört zu den Andamanen?",
+      "a": "Barren Island",
+      "x": [
+        "Krakatau",
+        "Mount Popa"
+      ]
+    }
+  },
+  "Q157286": {
+    "t": "Verstreute grüne Inseln am Tor zur Straße von Malakka",
+    "s": "Südlich der Andamanen, jenseits des Zehn-Grad-Kanals, verteilen sich die Nikobaren in einer lockeren Reihe Richtung Sumatra. Manche sind flache, palmengesäumte Koralleninseln, andere wie Groß-Nikobar hügelig und von Regenwald bedeckt. Die meisten sind für Touristen gesperrt, um die Völker der Nikobaresen und Shompen zu schützen – die dunkelgrünen Formen und türkisfarbenen Riffe unter Ihnen sehen nur wenige Außenstehende.",
+    "w": "Eine lockere Inselkette zwischen Andamanen und Sumatra: im Norden flach und palmengesäumt, im Süden hügelig und voller Regenwald.",
+    "f": [
+      "Der rund 150 km breite Zehn-Grad-Kanal trennt sie entlang des 10. Breitengrads von den Andamanen.",
+      "Die Nikobaren liegen weit näher an Sumatra als am indischen Festland."
+    ],
+    "q": {
+      "q": "Welcher Kanal trennt die Nikobaren von den Andamanen?",
+      "a": "Der Zehn-Grad-Kanal",
+      "x": [
+        "Der Sechs-Grad-Kanal",
+        "Der Neun-Grad-Kanal"
+      ]
+    }
+  },
+  "Q3827": {
+    "t": "Die ursprünglichen Gewürzinseln",
+    "s": "Jahrhundertelang waren diese verstreuten Inseln die einzige Quelle der Welt für Gewürznelken und Muskatnuss, und Schiffe segelten um den halben Globus, um sie zu erreichen. Von oben sind sie grüne Kegel und Grate, die steil aus sehr tiefblauem Wasser aufsteigen, die Ufer von Korallen gesäumt. Ternate und Tidore, zwei Vulkankegel, die sich über eine schmale Meerenge gegenüberstehen, sind der klassische Anblick.",
+    "w": "Steile grüne Vulkaninseln und -kegel mit Korallensaum, die aus ungewöhnlich dunkelblauem Wasser aufragen.",
+    "f": [
+      "Nach einem Vertrag von 1667 behielten die Niederländer Run, eine winzige Muskatinsel hier, und die Engländer Manhattan.",
+      "Muskatnuss und Macis stammen aus derselben Frucht, die auf den Banda-Inseln heimisch ist.",
+      "Die Bandasee fällt im Weber-Tief auf mehr als 7 km Tiefe ab."
+    ],
+    "q": {
+      "q": "Welches Gewürz stammte ursprünglich nur von den Banda-Inseln?",
+      "a": "Muskatnuss",
+      "x": [
+        "Zimt",
+        "Schwarzer Pfeffer"
+      ]
+    }
+  },
+  "Q119285": {
+    "t": "Ein 1.900 km langer Vulkanbogen in Richtung Asien",
+    "s": "Flüge zwischen Nordamerika und Ostasien streifen oft die Aleuten, einen 1.900 km langen Bogen aus Vulkaninseln, der sich von Alaska Richtung Kamtschatka zieht. Nebel und Wolken verbergen sie meist; wenn es aufklart, achten Sie auf schneegestreifte Kegel – der Shishaldin auf Unimak zählt zu den symmetrischsten der Erde. Nördlich der Kette liegt das Beringmeer, südlich der offene Pazifik.",
+    "w": "Eine lange, geschwungene Kette zerklüfteter Inseln und verschneiter Vulkankegel, die oft durch eine Nebeldecke stoßen.",
+    "f": [
+      "Die Kette quert den 180. Längengrad – Alaska reicht damit bis in die östliche Hemisphäre.",
+      "Der Bogen hat Dutzende Vulkane, und manche brechen alle paar Jahre aus.",
+      "Die Unangan (Aleuten) leben seit rund 9.000 Jahren auf diesen Inseln."
+    ],
+    "q": {
+      "q": "Welches Meer liegt nördlich der Aleuten?",
+      "a": "Das Beringmeer",
+      "x": [
+        "Das Ochotskische Meer",
+        "Die Tschuktschensee"
+      ]
+    }
+  },
+  "Q216533": {
+    "t": "Kanadas Dach: Eiskappen, nackter Fels, fast niemand",
+    "s": "Am Nordrand Kanadas liegt eine Gruppe großer Inseln mit kahlen braunen Hochflächen, Gletschern, die aus Eiskappen herabfließen, und Kanälen, die den Großteil des Jahres voller Meereis sind. Nur ein paar Hundert Menschen leben hier, in zwei kleinen Siedlungen. Ihren Namen erhielt die Gruppe 1953 zur Krönung von Königin Elisabeth II.",
+    "w": "Große Inseln mit flachen Kuppen aus nacktem Fels, weißen Eiskappen und Gletschern, getrennt von Kanälen voller Packeis.",
+    "f": [
+      "Devon Island ist die größte unbewohnte Insel der Erde.",
+      "Auf Axel Heiberg Island stehen noch Stümpfe von Bäumen, die vor rund 45 Millionen Jahren wuchsen – erhalten, aber nicht versteinert.",
+      "Im Haughton-Einschlagkrater auf Devon Island proben Forscher die Erkundung des Mars."
+    ],
+    "q": {
+      "q": "Welche ist die größte unbewohnte Insel der Erde?",
+      "a": "Devon Island",
+      "x": [
+        "Ellesmere Island",
+        "Melville Island"
+      ]
+    }
+  },
+  "Q68740": {
+    "t": "Höher als der Everest – vom Meeresboden aus gemessen",
+    "s": "Big Island besteht aus fünf zusammengewachsenen Vulkanen, und von oben sehen Sie ihre breiten, sanften Kuppeln und dunkle Lavaströme, die sich bis zum Meer ziehen. Mauna Kea und Mauna Loa sind beide über 4.100 m hoch, und im Winter können ihre Gipfel weiß verschneit sein. Von seinem Fuß am Meeresboden aus gemessen ist der Mauna Kea über 10.000 m hoch – mehr als der Everest.",
+    "w": "Zwei riesige, sanfte Kuppeln, im Winter angezuckert, mit schwarzen Lavaströmen bis zur Küste und vielleicht einer Vulkanfahne.",
+    "f": [
+      "Der Mauna Loa ist nach Volumen der größte aktive Vulkan der Erde.",
+      "Lava des Kīlauea hat in den letzten Jahrzehnten an der Südostküste der Insel neues Land geschaffen.",
+      "Big Island ist größer als alle anderen Hawaii-Inseln zusammen."
+    ],
+    "q": {
+      "q": "Aus wie vielen Vulkanen besteht die Insel Hawaii?",
+      "a": "Fünf",
+      "x": [
+        "Zwei",
+        "Acht"
+      ]
+    }
+  },
+  "Q120755": {
+    "t": "Verschneite Alpen, türkisfarbene Seen und Fjorde",
+    "s": "Die Südalpen ziehen sich wie eine weiße Mauer über die ganze Länge der Insel, und auf ihrer trockenen Ostseite leuchten Gletscherseen in einem unwirklich milchigen Türkis – Tekapo und Pukaki am hellsten. Im Westen stürzen Gletscher Richtung Regenwald und Meer; im Südwesten schneiden die ertrunkenen Täler des Fiordland tief in die Berge. Östlich der Kette fächern sich verflochtene Flüsse über die Canterbury Plains.",
+    "w": "Eine weiße Bergmauer entlang der Insel, leuchtend türkise Seen auf ihrer Ostseite, Fjorde, die die Südwestküste zerschneiden.",
+    "f": [
+      "Aoraki / Mount Cook ist mit 3.724 m der höchste Berg Neuseelands.",
+      "Die Farbe der Seen stammt von „Gesteinsmehl“, feinem, von Gletschern zermahlenem Schluff, der im Wasser schwebt.",
+      "Mit rund 150.000 km² ist die Südinsel die zwölftgrößte Insel der Welt."
+    ],
+    "q": {
+      "q": "Was verleiht den Gletscherseen der Südinsel ihr Türkis?",
+      "a": "Gesteinsmehl der Gletscher",
+      "x": [
+        "Algenblüten",
+        "Kupferminerale"
+      ]
+    }
+  },
+  "Q118863": {
+    "t": "Vulkane, ein Calderasee und ein perfekter einsamer Kegel",
+    "s": "Das Zentrum der Nordinsel ist ein Vulkanplateau, und das sieht man. Der Lake Taupō, der größte See des Landes, füllt eine Caldera, die gewaltige Ausbrüche hinterlassen haben; südlich davon erheben sich Ruapehu, Tongariro und der ebenmäßige Kegel des Ngauruhoe, oft schneebedeckt. An der Westküste steht der Taranaki allein: ein nahezu perfekter Kegel in einem scharf gezogenen Waldkreis inmitten grüner Weiden.",
+    "w": "Ein großer See in der Mitte mit verschneiten Vulkanen südlich davon; an der Westküste ein einsamer Kegel in einem Waldkreis.",
+    "f": [
+      "Der Lake Taupō, rund 616 km² groß, füllt eine Vulkancaldera; der letzte große Ausbruch dort liegt etwa 1.800 Jahre zurück.",
+      "Rund drei Viertel der Neuseeländer leben auf der Nordinsel.",
+      "Auckland ist auf einem Feld aus etwa 50 kleinen Vulkanen erbaut."
+    ],
+    "q": {
+      "q": "Welcher See füllt eine Vulkancaldera im Zentrum der Nordinsel?",
+      "a": "Lake Taupō",
+      "x": [
+        "Lake Wakatipu",
+        "Lake Tekapo"
+      ]
+    }
+  },
+  "Q709": {
+    "t": "Zwei Atollketten, kaum über den Wellen",
+    "s": "Die Marshallinseln bilden zwei parallele Ketten aus Korallenatollen, die „Sonnenaufgangskette“ und die „Sonnenuntergangskette“, aufgereiht im zentralen Pazifik. Von oben ist jedes Atoll eine Kette schmaler Inselchen um eine Lagune, innen leuchtend türkis, außen tiefblau. Das Land liegt im Schnitt nur etwa 2 m über dem Meeresspiegel, sodass die Inseln wie auf das Wasser gemalte Linien wirken können.",
+    "w": "Ketten schmaler Inselchen um weite türkise Lagunen, aufgereiht in zwei fast parallelen Linien von Nordwest nach Südost.",
+    "f": [
+      "Navigatoren der Marshallinseln bauten Stabkarten – Gitter aus Stäben und Muscheln, die die Dünung rund um die Inseln abbildeten.",
+      "Das Land hat 29 Atolle und 5 Einzelinseln mit insgesamt nur rund 180 km² Landfläche."
+    ],
+    "q": {
+      "q": "Was bildeten Navigatoren der Marshallinseln mit Stäben und Muscheln ab?",
+      "a": "Die Dünung des Ozeans",
+      "x": [
+        "Die Stellung der Sterne",
+        "Die Wanderung der Fische"
+      ]
+    }
+  },
+  "Q686": {
+    "t": "Eine Vulkankette, die teils noch glüht",
+    "s": "Vanuatu ist eine Kette aus rund 80 Inseln, die sich etwa 1.300 km von Nord nach Süd zieht, und viele davon sind Vulkane. Steile grüne Hänge fallen zum Saumriff ab, und stellenweise durchbrechen kahle Aschenebenen und rauchende Krater den Wald. Auf Tanna im Süden bricht der Yasur seit Jahrhunderten fast ununterbrochen aus; nachts ist sein glühender Krater manchmal von Weitem zu sehen.",
+    "w": "Eine lange Kette grüner Vulkaninseln mit Riffsaum; achten Sie besonders im Süden auf graue Aschenhänge und treibende Rauchfahnen.",
+    "f": [
+      "Die Turmspringer von Pentecost, die sich mit Lianen an den Knöcheln von Holztürmen stürzen, inspirierten das Bungee-Springen.",
+      "Vanuatu hat ein Unterwasser-Postamt im Riff vor Hideaway Island nahe Port Vila."
+    ],
+    "q": {
+      "q": "Welcher Sport wurde von den Turmspringern auf Pentecost inspiriert?",
+      "a": "Bungee-Springen",
+      "x": [
+        "Klippenspringen",
+        "Fallschirmspringen"
+      ]
+    }
+  },
+  "Q80389": {
+    "t": "Vulkankegel wie Trittsteine quer über das Meer",
+    "s": "Zwischen Kamtschatka und Hokkaido ziehen sich die Kurilen wie eine rund 1.200 km lange Reihe von Trittsteinen über das Meer. Viele sind schlicht Vulkane, die aus dem Wasser ragen, ihre Hänge bis weit in den Sommer von Schnee gestreift. Nebel ist hier die Regel, doch an klaren Tagen lohnt der Blick nach dem Alaid, einem einsamen Kegel, der am Nordende der Kette direkt aus den Wellen steigt.",
+    "w": "Eine Reihe kleiner, steiler Vulkaninseln und Kegel zwischen zwei Meeren, oft halb im Nebel verborgen.",
+    "f": [
+      "Der Alaid auf der Insel Atlassow ist rund 2.300 m hoch und der höchste Vulkan der Kette.",
+      "Auf Onekotan steigt ein Vulkankegel aus einem See, der einen älteren, größeren Krater füllt.",
+      "Direkt vor der Küste fällt der Kurilen-Kamtschatka-Graben auf mehr als 9 km Tiefe ab."
+    ],
+    "q": {
+      "q": "Welches Meer liegt westlich der Kurilen?",
+      "a": "Das Ochotskische Meer",
+      "x": [
+        "Das Japanische Meer",
+        "Das Beringmeer"
+      ]
+    }
+  },
+  "Q1964385": {
+    "t": "Vulkaninseln, die offiziell zu Tokio gehören",
+    "s": "Südlich der Bucht von Tokio zieht sich eine dünne Linie von Vulkaninseln mehr als 1.000 km weit in den Pazifik: zuerst die Izu-Inseln, dann die Ogasawara-Gruppe, dann die Vulkaninseln. Viele sind einzelne Kegel mit steilen, dunklen Ufern und einem weißen Brandungskragen. Wie weit sie auch von der Hauptstadt entfernt liegen – verwaltet werden sie alle von der Präfektur Tokio.",
+    "w": "Eine lange, gepunktete Nord-Süd-Linie kleiner, steiler Vulkaninseln, manche mit Kratern, gesäumt von weißer Brandung.",
+    "f": [
+      "Die Ogasawara-Inseln waren nie mit einem Kontinent verbunden, viele ihrer Arten gibt es nur dort; sie sind UNESCO-Welterbe.",
+      "Nishinoshima ist seit Beginn der Ausbrüche 2013 um ein Vielfaches gewachsen und hat die alte Insel verschluckt.",
+      "Ogasawara hat keinen Flughafen: Die Fähre ab Tokio braucht rund 24 Stunden."
+    ],
+    "q": {
+      "q": "Welche Stadt verwaltet die Nanpō-Inseln?",
+      "a": "Tokio",
+      "x": [
+        "Osaka",
+        "Yokohama"
+      ]
+    }
+  },
+  "Q11832316": {
+    "t": "Abgelegene Atolle mit schwarzen Perlen und leeren Lagunen",
+    "s": "Weit nördlich von Rarotonga liegt eine Handvoll kleiner Atolle, verstreut über Hunderte Kilometer Ozean. Von oben sind sie klassische Ringe: ein schmaler Saum aus Kokospalmen um eine Lagune, die in allen Tönen von Jade bis Türkis leuchtet. Auf jeder bewohnten Insel leben höchstens ein paar Hundert Menschen, und schwarze Zuchtperlen aus der Lagune von Manihiki sind der örtliche Schatz.",
+    "w": "Abgelegene Landringe um jade- und türkisfarbene Lagunen, weit verstreut und völlig ohne Erhebungen.",
+    "f": [
+      "Der Neuseeländer Tom Neale lebte jahrelang allein auf Suwarrow und schrieb darüber das Buch „An Island to Oneself“.",
+      "Suwarrow ist heute ein Nationalpark ohne feste Bewohner, nur saisonal von Parkwächtern betreut."
+    ],
+    "q": {
+      "q": "Wofür ist das Atoll Manihiki berühmt?",
+      "a": "Schwarze Perlen",
+      "x": [
+        "Vanille",
+        "Meersalz"
       ]
     }
   }

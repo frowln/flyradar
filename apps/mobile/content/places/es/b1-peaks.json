@@ -1,0 +1,362 @@
+{
+  "Q7296": {
+    "t": "El techo de África, una isla de nieve sobre la llanura",
+    "s": "El Kilimanjaro no pertenece a ninguna cordillera: se alza solo, un volcán ancho y oscuro que brota de la sabana. Su cima, el pico Uhuru en el cono Kibo, mide 5895 m: es el techo de África y, aun así, queda unos cinco kilómetros por debajo de ti. Busca el borde blanco de hielo del Kibo, que mengua año tras año pero sigue ahí, a solo tres grados al sur del ecuador.",
+    "w": "Una enorme cúpula solitaria de cima plana veteada de blanco, con el pico dentado del Mawenzi al este, junto a la frontera con Kenia.",
+    "f": [
+      "El Kilimanjaro está formado por tres conos volcánicos: Kibo, Mawenzi y Shira.",
+      "Es la montaña aislada más alta del mundo: se eleva unos 4900 m sobre la llanura que la rodea.",
+      "Sus campos de hielo se han reducido más de un 80 % desde principios del siglo XX."
+    ],
+    "q": {
+      "q": "¿En cuál de sus tres conos volcánicos está la cima del Kilimanjaro?",
+      "a": "Kibo",
+      "x": [
+        "Mawenzi",
+        "Shira"
+      ]
+    }
+  },
+  "Q39231": {
+    "t": "El volcán solitario de Japón, blanco y casi simétrico",
+    "s": "En un día claro, el Fuji es inconfundible: un cono ancho y regular que se alza solo al oeste de Tokio, con las laderas altas blancas de otoño a primavera. Su última erupción fue en 1707. La cumbre, de 3776 m, queda a unos siete kilómetros por debajo de ti, y en verano la nieve se reduce a finas vetas en las quebradas y deja ver una montaña oscura, color ceniza.",
+    "w": "Un cono solitario de cima nevada, a unos 100 km al suroeste de Tokio, con pequeños lagos en hilera en su falda norte.",
+    "f": [
+      "Los cinco lagos del pie norte del Fuji se formaron donde antiguas coladas de lava represaron los valles.",
+      "La erupción de 1707 abrió en la ladera sureste un cráter lateral que rompe la simetría del cono.",
+      "El Fuji es Patrimonio de la Humanidad de la UNESCO desde 2013, como bien cultural y no natural."
+    ],
+    "q": {
+      "q": "¿Cuántos lagos forman el famoso grupo al pie norte del Fuji?",
+      "a": "Cinco",
+      "x": [
+        "Tres",
+        "Siete"
+      ]
+    }
+  },
+  "Q513": {
+    "t": "La cima del mundo, solo unos 2 km por debajo de ti",
+    "s": "Desde el aire, el Everest rara vez parece el más alto: se esconde entre vecinos gigantes, una pirámide oscura a menudo con un penacho de nieve que la corriente en chorro empuja al este. Su cima, de 8848 m, está solo unos dos kilómetros por debajo de la altitud de crucero. La roca de la cumbre es caliza formada en el fondo de un mar antiguo y elevada cuando la India chocó contra Asia.",
+    "w": "Una pirámide oscura de tres caras, a menudo con un penacho de nieve, sobre los glaciares de la frontera entre Nepal y el Tíbet.",
+    "f": [
+      "Los tibetanos lo llaman Chomolungma; en Nepal es Sagarmatha.",
+      "Tenzing Norgay y Edmund Hillary llegaron por primera vez a la cima el 29 de mayo de 1953.",
+      "Su nombre inglés, adoptado en 1865, honra a George Everest, que fue topógrafo general británico de la India."
+    ],
+    "q": {
+      "q": "¿Quién llegó a la cima del Everest con Tenzing Norgay en 1953?",
+      "a": "Edmund Hillary",
+      "x": [
+        "George Mallory",
+        "Reinhold Messner"
+      ]
+    }
+  },
+  "Q43512": {
+    "t": "La segunda cima de la Tierra, una pirámide del Karakórum",
+    "s": "El nombre K2 no es más que una etiqueta de topógrafo: el pico 2 de una lista del Karakórum elaborada en 1856, cuando no se encontró ningún nombre local de uso extendido. Es la segunda montaña más alta de la Tierra, con 8611 m, una pirámide empinada y casi perfecta rodeada de ríos de hielo. Busca una cumbre afilada al fondo de un largo glaciar, lejos de cualquier carretera o pueblo.",
+    "w": "Una pirámide afilada y solitaria al fondo de anchas lenguas glaciares, en la cresta fronteriza del Karakórum.",
+    "f": [
+      "Los italianos Lino Lacedelli y Achille Compagnoni hicieron la primera ascensión en 1954.",
+      "La primera ascensión invernal no llegó hasta enero de 2021, a cargo de un equipo de escaladores nepalíes.",
+      "Su pirámide se eleva más de 3000 m sobre los glaciares de su base."
+    ],
+    "q": {
+      "q": "¿Qué significa la «K» de K2?",
+      "a": "Karakórum",
+      "x": [
+        "Cachemira",
+        "Kunlun"
+      ]
+    }
+  },
+  "Q1374": {
+    "t": "El diente más afilado de los Alpes, a los cuatro vientos",
+    "s": "Incluso desde la altitud de crucero, el Matterhorn, o Cervino, parece tallado: una pirámide ganchuda cuyas cuatro caras miran casi exactamente al norte, sur, este y oeste. Se alza en la frontera suizo-italiana, sobre Zermatt: 4478 m, unos seis kilómetros y medio por debajo de ti. En una mañana de sol, la cara este se ilumina mientras la norte sigue en sombra, y el pico parece cortado en dos.",
+    "w": "Una pirámide de roca solitaria y ganchuda entre glaciares, al oeste del gran macizo del Monte Rosa, en la frontera suizo-italiana.",
+    "f": [
+      "La cordada de Edward Whymper hizo la primera ascensión el 14 de julio de 1865.",
+      "En italiano se llama Monte Cervino, y en francés, Mont Cervin.",
+      "Una arista cimera de unos 100 m une dos cumbres, una suiza y otra italiana."
+    ],
+    "q": {
+      "q": "¿Desde qué pueblo suizo se asciende con más frecuencia al Matterhorn?",
+      "a": "Zermatt",
+      "x": [
+        "Grindelwald",
+        "Saas-Fee"
+      ]
+    }
+  },
+  "ne-pk-1159105947": {
+    "t": "El volcán que sepultó Pompeya y aún vigila Nápoles",
+    "s": "Busca un cono dentro de un anillo roto: el Vesubio creció dentro del cráter hundido de un volcán más antiguo, el monte Somma, cuya cresta lo rodea por el norte. Nápoles llega hasta sus faldas, una densa alfombra gris a lo largo de la bahía. En un día claro, el cráter de la cumbre, a 1281 m, se ve como un agujero oscuro. El Vesubio está tranquilo desde 1944, pero se vigila día y noche.",
+    "w": "Un volcán oscuro de dos jorobas en la bahía de Nápoles, con la ciudad extendida por la costa al noroeste.",
+    "f": [
+      "En el año 79 d. C., sus cenizas sepultaron Pompeya y Herculano y conservaron ambas ciudades romanas para los arqueólogos.",
+      "Es el único volcán de la Europa continental que ha entrado en erupción en los últimos cien años.",
+      "Su observatorio, fundado en 1841, es el observatorio vulcanológico más antiguo del mundo."
+    ],
+    "q": {
+      "q": "¿Qué ciudad romana, sepultada en el año 79, está al pie del Vesubio?",
+      "a": "Pompeya",
+      "x": [
+        "Ostia",
+        "Paestum"
+      ]
+    }
+  },
+  "Q583": {
+    "t": "La cúpula más alta de Europa occidental, blanca todo el año",
+    "s": "El Mont Blanc, más que una aguja, es un enorme hombro blanco: una ancha cúpula de hielo sobre un macizo que comparten Francia, Italia y Suiza. Con unos 4807 m es el punto más alto de los Alpes, y aun así queda más de seis kilómetros por debajo de ti. Por el norte, largos glaciares descienden hacia el valle de Chamonix; por el lado italiano, las paredes caen a pico sobre Courmayeur.",
+    "w": "Una ancha cúpula blanca y redondeada sobre valles profundos, con largas lenguas de glaciar que bajan hacia Chamonix por el noroeste.",
+    "f": [
+      "Jacques Balmat y Michel-Gabriel Paccard alcanzaron la cima por primera vez en 1786.",
+      "La cumbre es un casquete de hielo, y su altura varía un metro o dos de un año a otro.",
+      "El túnel de carretera del Mont Blanc, de 11,6 km, pasa bajo el macizo entre Francia e Italia."
+    ],
+    "q": {
+      "q": "¿En qué año se escaló por primera vez el Mont Blanc?",
+      "a": "1786",
+      "x": [
+        "1865",
+        "1741"
+      ]
+    }
+  },
+  "ne-pk-1159107423": {
+    "t": "El gigante inquieto de Europa, a menudo con penacho",
+    "s": "El Etna es el gigante oscuro del este de Sicilia, un volcán enorme cuya cumbre, de unos 3300 m, humea a menudo. Sus laderas bajas son verdes de huertos y viñedos; las altas, negras de lava reciente, y en invierno la nieve cubre ambas. Busca un fino penacho arrastrado por el viento: el Etna entra en erupción tan a menudo que su altura cambia cada pocos años.",
+    "w": "Un vasto cono oscuro sobre la costa este de Sicilia, al norte de Catania, a menudo con penacho de vapor y cima nevada.",
+    "f": [
+      "El Etna ocupa unos 1200 km², y su base mide unos 140 km de perímetro.",
+      "Es el volcán activo más alto de Europa fuera del Cáucaso.",
+      "El Etna es Patrimonio de la Humanidad de la UNESCO desde 2013."
+    ],
+    "q": {
+      "q": "¿Qué ciudad se extiende al pie sur del Etna?",
+      "a": "Catania",
+      "x": [
+        "Palermo",
+        "Mesina"
+      ]
+    }
+  },
+  "ne-gl-antarctic-ice-sheet": {
+    "t": "La mayor parte del hielo del mundo, en un continente helado",
+    "s": "Si tu ruta cruza la Antártida, esa blancura no es nieve sobre tierra, sino hielo de kilómetros de espesor. La capa de hielo antártica cubre unos 14 millones de km² y guarda cerca del 90 % de todo el hielo de la Tierra. Su superficie es tan lisa y brillante que el horizonte puede desaparecer; solo los nunataks, picos rocosos que asoman entre el hielo, rompen el blanco.",
+    "w": "Una superficie blanca sin fin, con leves ondulaciones del viento; la roca oscura solo asoma cerca de la costa y en las cordilleras.",
+    "f": [
+      "Si se fundiera por completo, el nivel del mar subiría unos 58 metros.",
+      "El hielo tiene, de media, unos dos kilómetros de espesor.",
+      "Su peso ha hundido cientos de metros la roca que hay debajo."
+    ],
+    "q": {
+      "q": "¿Qué parte del hielo de la Tierra guarda, más o menos, la capa antártica?",
+      "a": "Cerca del 90 %",
+      "x": [
+        "Cerca del 50 %",
+        "Cerca del 70 %"
+      ]
+    }
+  },
+  "ne-gl-greenland-ice-sheet": {
+    "t": "Una tapa de hielo de 3 km sobre la mayor isla del mundo",
+    "s": "Muchos vuelos sobre el Atlántico Norte cruzan este desierto blanco. La capa de hielo cubre cerca del 80 % de Groenlandia, unos 1,7 millones de km², y se eleva en una cúpula de más de 3000 m. Cerca de la costa se rompe en glaciares de desagüe llenos de grietas que serpentean hasta fiordos repletos de icebergs; en verano, lagos de deshielo de un azul intenso salpican su borde occidental.",
+    "w": "Una llanura blanca en el interior; en los bordes, montañas oscuras, lenguas de glaciar y fiordos moteados de icebergs.",
+    "f": [
+      "Si se fundiera toda la capa, el nivel del mar subiría unos 7 metros.",
+      "Su peso ha hundido la roca del centro de Groenlandia por debajo del nivel del mar.",
+      "Los testigos de hielo perforados en ella guardan un registro del clima de más de 100 000 años."
+    ],
+    "q": {
+      "q": "¿Cuánto subiría el mar si se fundiera el hielo de Groenlandia?",
+      "a": "Unos 7 metros",
+      "x": [
+        "Cerca de 1 metro",
+        "Unos 60 metros"
+      ]
+    }
+  },
+  "Q1001294": {
+    "t": "El desierto elevado más frío del planeta",
+    "s": "Alrededor del Polo Sur, el hielo se eleva en una meseta inmensa y suavemente inclinada, casi toda a unos 3000 m y lisa como un mar helado. Es un verdadero desierto: cada año la nieve apenas suma unos centímetros de agua. La estación Vostok, en esta meseta, registró −89,2 °C en 1983, la temperatura del aire más baja jamás medida en la superficie terrestre.",
+    "w": "Una llanura blanca sin rasgos hasta el horizonte, marcada solo por largas crestas de nieve talladas por el viento: los sastrugi.",
+    "f": [
+      "El propio Polo Sur está en la meseta, a unos 2835 m sobre el nivel del mar.",
+      "Los feroces vientos de la costa antártica nacen aquí, cuando el aire frío y pesado se desliza desde la meseta hacia el mar.",
+      "Su aire frío, seco y quieto la convierte en uno de los mejores lugares de la Tierra para los telescopios."
+    ],
+    "q": {
+      "q": "¿Qué temperatura registró la estación Vostok en 1983?",
+      "a": "−89,2 °C",
+      "x": [
+        "−71,2 °C",
+        "−79,8 °C"
+      ]
+    }
+  },
+  "Q165440": {
+    "t": "La montaña blanca que un día encabezó la lista mundial",
+    "s": "Dhaulagiri significa «montaña blanca» en sánscrito, y desde el aire hace honor a su nombre: una mole nevada que se alza a pico en el centro de Nepal. Su cumbre principal, de unos 8170 m, es la séptima más alta de la Tierra. Justo al este, el río Kali Gandaki atraviesa el Himalaya entre el Dhaulagiri y el Annapurna y excava uno de los valles más profundos del planeta.",
+    "w": "Un enorme macizo nevado al oeste del profundo desfiladero del Kali Gandaki, con las crestas blancas del Annapurna al otro lado.",
+    "f": [
+      "Tras las mediciones de 1808, durante unos 30 años se creyó que era la montaña más alta del mundo.",
+      "Una expedición suizo-austriaca hizo la primera ascensión en 1960.",
+      "El desfiladero del Kali Gandaki, a su lado, fue durante siglos una ruta comercial entre el Tíbet y la India."
+    ],
+    "q": {
+      "q": "¿Qué río separa con su desfiladero el Dhaulagiri del Annapurna?",
+      "a": "Kali Gandaki",
+      "x": [
+        "Arun",
+        "Trisuli"
+      ]
+    }
+  },
+  "Q130736": {
+    "t": "La «montaña desnuda» en el extremo occidental del Himalaya",
+    "s": "El Nanga Parbat se alza aparte: es el ochomil más occidental del Himalaya, con el Indo rodeando su pie. Su nombre significa «montaña desnuda», quizá por sus paredes, demasiado empinadas para la nieve. La cara Rupal, en el lado sur, se eleva unos 4600 m del valle a la cumbre: una de las paredes más altas de la Tierra. La cima, de 8125 m, queda a menos de tres kilómetros por debajo de ti.",
+    "w": "Un gigantesco macizo aislado al sur de una curva del Indo, con una pared sur vertical y glaciares que se derraman hacia el norte.",
+    "f": [
+      "Hermann Buhl hizo la primera ascensión en 1953 y llegó solo a la cima.",
+      "Es la novena montaña más alta de la Tierra.",
+      "El Indo pasa junto a su flanco norte a unos 1100 m de altitud, siete kilómetros por debajo de la cumbre."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Nanga Parbat?",
+      "a": "Montaña desnuda",
+      "x": [
+        "Montaña blanca",
+        "Madre de las nieves"
+      ]
+    }
+  },
+  "Q82019": {
+    "t": "Cinco tesoros de nieve sobre Sikkim y Nepal",
+    "s": "El Kanchenjunga no es una cumbre, sino una corona apiñada de ellas: cinco cimas principales en un solo macizo. Con 8586 m es la tercera montaña más alta de la Tierra, y hasta la década de 1850 se creyó que era la más alta. Busca una ancha muralla blanca sobre las colinas verdes de Darjeeling y Sikkim; al amanecer, su nieve se tiñe de rosa mucho antes de que despierten los valles.",
+    "w": "Un macizo blanco y colosal sobre colinas verdes, al norte de Darjeeling, en la frontera entre Nepal y la India.",
+    "f": [
+      "Su nombre suele traducirse del tibetano como «los cinco tesoros de la nieve».",
+      "Los primeros escaladores, en 1955, se detuvieron justo antes de la cima por respeto a las creencias locales.",
+      "Desde la ciudad de montaña de Darjeeling, a unos 75 km, ocupa todo el horizonte norte."
+    ],
+    "q": {
+      "q": "¿Qué puesto ocupa el Kanchenjunga entre las montañas más altas del mundo?",
+      "a": "El tercero",
+      "x": [
+        "El segundo",
+        "El quinto"
+      ]
+    }
+  },
+  "Q604846": {
+    "t": "Una meseta roja de algunas de las rocas más viejas del mundo",
+    "s": "Al cruzar Australia, el suelo apenas cambia durante horas: arena rojiza, lagos salados pálidos y matorral oscuro, a pocos cientos de metros de altitud. Es la Meseta Occidental, que ocupa casi todos los dos tercios occidentales del continente. Su roca madre está entre las más antiguas de la Tierra, y los desiertos que la cubren —el Gibson, el Gran Desierto Arenoso, el Gran Desierto Victoria— están peinados por largas hileras de dunas.",
+    "w": "Tierra roja y ocre sin fin, rayada de dunas paralelas y salpicada de lagos salados blancos que brillan como espejos.",
+    "f": [
+      "Los circones de Jack Hills (Australia Occidental) tienen unos 4400 millones de años: son los trozos de Tierra más antiguos que se conocen.",
+      "Sus dunas suelen correr en líneas paralelas durante decenas de kilómetros, alineadas con los vientos dominantes.",
+      "Los lagos salados, como el lago Carnegie, solo tienen agua tras las raras lluvias intensas."
+    ],
+    "q": {
+      "q": "¿Qué récord tienen los circones de Jack Hills, en Australia Occidental?",
+      "a": "Los minerales terrestres más antiguos",
+      "x": [
+        "Las pepitas de oro más grandes",
+        "Las rocas más radiactivas"
+      ]
+    }
+  },
+  "Q179842": {
+    "t": "El techo del mundo, a más de 4500 m de media",
+    "s": "Debajo tienes la más alta de las grandes mesetas de la Tierra, con una altitud media de más de 4500 m y unos 2,5 millones de km². Desde arriba parece otro planeta: llanuras pardas y ocres, lagos turquesa de orillas blancas de sal, cordilleras nevadas que la cruzan como trazadas con regla. Los grandes ríos de Asia —entre ellos el Yangtsé, el Amarillo, el Mekong, el Indo y el Brahmaputra— nacen aquí arriba.",
+    "w": "Altiplano pardo y desnudo con lagos turquesa dispersos y crestas blancas; el Himalaya forma su afilado borde sur.",
+    "f": [
+      "Guarda tanto hielo glaciar que a menudo se la llama el Tercer Polo.",
+      "Lhasa, en el sur de la meseta, está a unos 3650 m de altitud.",
+      "La meseta sigue elevándose porque la India continúa empujando hacia el norte contra Asia."
+    ],
+    "q": {
+      "q": "¿Qué apodo recibe la meseta tibetana por sus glaciares?",
+      "a": "El Tercer Polo",
+      "x": [
+        "El Continente Blanco",
+        "La Corona Helada"
+      ]
+    }
+  },
+  "ne-gl-flade-isblink": {
+    "t": "El mayor casquete de hielo independiente de Groenlandia",
+    "s": "Cerca del extremo noreste de Groenlandia, una cúpula de hielo se aparta de la gran capa principal: Flade Isblink, unos 8000 km² de blanco. Su nombre danés significa más o menos «resplandor de hielo plano», el brillo que el hielo proyecta sobre las nubes bajas. El hielo alcanza unos 600 m de espesor, y partes de su borde avanzan de golpe de vez en cuando y empujan hielo hacia el mar.",
+    "w": "Una cúpula blanca, lisa y baja en una península del noreste de Groenlandia, separada de la gran capa de hielo por tierra desnuda.",
+    "f": [
+      "Es el mayor casquete de hielo de Groenlandia que no está unido a la capa principal.",
+      "Station Nord, el único lugar habitado de la zona, está justo al noroeste.",
+      "Toda la zona forma parte del Parque Nacional del Noreste de Groenlandia, el parque nacional más grande del mundo."
+    ],
+    "q": {
+      "q": "¿Qué describe la palabra «iceblink», de la que viene el nombre?",
+      "a": "El brillo del hielo en las nubes",
+      "x": [
+        "Una grieta en el hielo marino",
+        "Un frente de glaciar que se desgaja"
+      ]
+    }
+  },
+  "Q163758": {
+    "t": "El punto más alto del continente helado",
+    "s": "El Vinson es la cima de la Antártida, con 4892 m: un largo macizo nevado en la cordillera Sentinel de los montes Ellsworth, a unos 1300 km del Polo Sur. Aviones de la Marina estadounidense lo avistaron en 1958, y los escaladores llegaron a la cumbre por primera vez en 1966. Desde arriba parece un espinazo de roca oscura y hielo que rompe la capa helada, con glaciares que fluyen a ambos lados.",
+    "w": "Una larga cresta oscura de roca y hielo que se alza bruscamente sobre la llana capa de hielo, en los montes Ellsworth.",
+    "f": [
+      "Debe su nombre a Carl Vinson, un congresista estadounidense que apoyó la exploración antártica.",
+      "Una expedición estadounidense hizo la primera ascensión en diciembre de 1966.",
+      "Los escaladores aterrizan en una pista de hielo azul en el glaciar Union para iniciar la aproximación."
+    ],
+    "q": {
+      "q": "¿En qué montañas se alza el macizo Vinson?",
+      "a": "Montes Ellsworth",
+      "x": [
+        "Montes Transantárticos",
+        "Montes Príncipe Carlos"
+      ]
+    }
+  },
+  "Q1537198": {
+    "t": "Cumbres gemelas de hielo sobre el valle de Suru, en Ladakh",
+    "s": "El Nun y su gemelo, el Kun, forman el macizo Nun Kun, un nudo de hielo del Himalaya occidental en Ladakh. El Nun es el más alto de los dos, con 7135 m, solo unos cuatro kilómetros por debajo de ti. Entre ambas cimas, una meseta nevada de unos 4 km de largo parece desde arriba una silla blanca tendida entre dos picos. Los glaciares bajan por ambos lados hacia el valle de Suru.",
+    "w": "Dos cumbres blancas unidas por una meseta nevada, con largos glaciares que bajan hasta un valle verde a sus pies.",
+    "f": [
+      "Claude Kogan y Pierre Vittoz, de una expedición franco-suiza, escalaron el Nun por primera vez en 1953.",
+      "El Kun, el gemelo más bajo, supera por poco los 7000 m.",
+      "El glaciar Parkachik baja del macizo casi hasta la carretera del valle de Suru."
+    ],
+    "q": {
+      "q": "¿Cómo se llama la cumbre gemela del Nun?",
+      "a": "Kun",
+      "x": [
+        "Stok Kangri",
+        "Kang Yatse"
+      ]
+    }
+  },
+  "Q811064": {
+    "t": "La corona de la muralla dentada del oeste del Karakórum",
+    "s": "El Batura Sar corona una larga muralla de hielo dentada en el extremo occidental del Karakórum: el Batura Muztagh. Con 7795 m es el punto más alto de esa muralla, aunque casi solo lo conocen los escaladores. A sus pies yace uno de los glaciares más largos fuera de los polos, el Batura: un río de hielo gris y blanco que termina junto a la carretera del Karakórum, en el valle de Hunza.",
+    "w": "Una larga cresta de hielo dentada al noroeste del valle de Hunza, con un ancho glaciar que se desliza al este hacia el río.",
+    "f": [
+      "El glaciar Batura mide unos 57 km de largo.",
+      "Muztagh significa «montaña de hielo» en las lenguas túrquicas.",
+      "La carretera del Karakórum, una de las carreteras asfaltadas más altas del mundo, pasa junto al frente del glaciar."
+    ],
+    "q": {
+      "q": "¿Qué famosa carretera pasa junto al frente del glaciar Batura?",
+      "a": "La del Karakórum",
+      "x": [
+        "La del Pamir",
+        "La Grand Trunk Road"
+      ]
+    }
+  }
+}

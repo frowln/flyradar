@@ -1216,5 +1216,306 @@
         "Davis Strait"
       ]
     }
+  },
+  "Q171510": {
+    "t": "Deep blue sea of the original Spice Islands",
+    "s": "The Banda Sea is ringed by a great curving arc of volcanic islands, and in places its floor drops to more than 7,000 m. Scattered in it are the tiny Banda Islands — for centuries the only place on Earth where nutmeg grew, a spice so valuable that European powers fought over these specks of land.",
+    "w": "Deep indigo sea in eastern Indonesia, rimmed by volcanic islands; look for tiny green specks and cones in the open water.",
+    "f": [
+      "Under a 1667 treaty, England gave up its claim to Run, a tiny Banda nutmeg island, and kept Manhattan.",
+      "The Weber Deep, in the east of the sea, is more than 7 km deep."
+    ],
+    "q": {
+      "q": "Which spice once grew only on the Banda Islands?",
+      "a": "Nutmeg",
+      "x": [
+        "Cinnamon",
+        "Black pepper"
+      ]
+    }
+  },
+  "Q41573": {
+    "t": "A stormy bay between France's straight coast and Spain",
+    "s": "Look east across the Bay of Biscay and you may see one of Europe's straightest coastlines: over 200 km of almost unbroken sand along France's Landes coast, with the Dune du Pilat piled up near its northern end. The southern shore is the opposite — Spain's green, mountainous north coast. The bay is famous for sudden storms and big Atlantic swell.",
+    "w": "A wide bay framed by France's long, straight sandy coast to the east and Spain's mountainous shore to the south.",
+    "f": [
+      "The Dune du Pilat, about 100 m high, is the tallest sand dune in Europe.",
+      "Beyond the continental shelf its floor drops to more than 4,000 m.",
+      "Dolphins and whales feed here and are often seen from the ferries that cross it."
+    ],
+    "q": {
+      "q": "What is the tallest sand dune in Europe, on the Bay of Biscay?",
+      "a": "The Dune du Pilat",
+      "x": [
+        "The Råbjerg Mile",
+        "The Łeba dunes"
+      ]
+    }
+  },
+  "Q165100": {
+    "t": "The strait between Africa and Madagascar",
+    "s": "This broad channel separates Madagascar from mainland Africa by at least 400 km of deep blue water. It opened more than 100 million years ago, as Madagascar drifted away from Africa. From above, look for the Zambezi's brown plume on the African side, and at the northern end the volcanic Comoros.",
+    "w": "Wide blue water between Mozambique's low coast and Madagascar's western shore; the Comoros islands mark its northern end.",
+    "f": [
+      "Coelacanths, fish once thought extinct for 66 million years, live in deep water off the Comoros.",
+      "The channel is about 1,600 km long.",
+      "Humpback whales come here to breed during the southern winter."
+    ],
+    "q": {
+      "q": "Which “living fossil” fish lives off the Comoros?",
+      "a": "The coelacanth",
+      "x": [
+        "The lungfish",
+        "The sturgeon"
+      ]
+    }
+  },
+  "Q41430": {
+    "t": "Where the equator meets the prime meridian",
+    "s": "Somewhere in this warm, hazy gulf lies 0° latitude, 0° longitude — the spot where the equator crosses the prime meridian, marked only by a weather buoy. To the north the Niger spreads into a vast delta of mangroves and creeks, and at night its oil and gas flares glow like embers. Offshore, volcanic islands rise from the sea.",
+    "w": "A broad, warm gulf off West Africa; the Niger Delta's green maze in the north, and volcanic islands such as Bioko offshore.",
+    "f": [
+      "Bioko, São Tomé and Príncipe are volcanoes of the Cameroon Line, which runs from the mainland out to sea.",
+      "The Niger Delta is the largest river delta in Africa.",
+      "European sailors once named stretches of its shore the Gold Coast and the Ivory Coast."
+    ],
+    "q": {
+      "q": "Which two lines cross in the Gulf of Guinea?",
+      "a": "Equator and prime meridian",
+      "x": [
+        "Tropic of Cancer and prime meridian",
+        "Equator and 180th meridian"
+      ]
+    }
+  },
+  "Q545": {
+    "t": "A young, half-fresh sea born after the ice age",
+    "s": "The Baltic is barely a sea at all: fed by more than 200 rivers and linked to the ocean only through the narrow Danish straits, its water is brackish, and in the far north almost fresh. It formed after the last ice age, and for a time it was a lake. Look for Gotland and Öland, long limestone islands off Sweden.",
+    "w": "A large grey-blue inland sea in northern Europe; the long islands of Gotland and Öland lie off Sweden's south-east coast.",
+    "f": [
+      "Most of the world's amber is found along its south-eastern shores.",
+      "In cold winters its northern gulfs freeze over completely.",
+      "Its average depth is only about 55 m."
+    ],
+    "q": {
+      "q": "What washes up on the Baltic's south-eastern shores?",
+      "a": "Amber",
+      "x": [
+        "Jade",
+        "Coral"
+      ]
+    }
+  },
+  "Q45823": {
+    "t": "An Arctic sea kept half open by the Atlantic",
+    "s": "The Barents Sea is a sea of two halves. Warm Atlantic water keeps its south-western part open all winter — the port of Murmansk never freezes — while the north is locked in ice for much of the year. In August, plankton blooms can marble the water with milky turquoise, a sight satellites often capture.",
+    "w": "Open dark water in the south-west, pack ice in the north; the long, curved island of Novaya Zemlya walls it off in the east.",
+    "f": [
+      "It is named after Willem Barentsz, who wintered on Novaya Zemlya in 1596–97.",
+      "Its waters hold one of the world's largest stocks of cod.",
+      "Svalbard, Franz Josef Land and Novaya Zemlya frame it to the west, north and east."
+    ],
+    "q": {
+      "q": "Why does Murmansk's port stay ice-free in winter?",
+      "a": "Warm Atlantic water",
+      "x": [
+        "Hot springs under the bay",
+        "Salt from nearby mines"
+      ]
+    }
+  },
+  "Q1693": {
+    "t": "A shallow sea that was once dry land",
+    "s": "Much of the southern North Sea was dry land until about 8,000 years ago: hunters roamed a plain now called Doggerland, which joined Britain to the continent. Today the sea is shallow and busy. On clear days you may make out the regular grids of offshore wind farms and, along the Dutch, German and Danish coasts, the grey-brown tidal flats of the Wadden Sea.",
+    "w": "Grey-green shallow sea between Britain, Norway and the continent; tidal flats and barrier islands along the southern shore.",
+    "f": [
+      "The Wadden Sea is the largest unbroken system of tidal flats in the world.",
+      "Its average depth is only about 95 m.",
+      "Trawlers still sometimes haul up mammoth bones from the Dogger Bank."
+    ],
+    "q": {
+      "q": "What is the drowned land under the southern North Sea called?",
+      "a": "Doggerland",
+      "x": [
+        "Atlantis",
+        "Lyonesse"
+      ]
+    }
+  },
+  "Q41735": {
+    "t": "Between Britain and Ireland, with Man in the middle",
+    "s": "Right in the middle of the Irish Sea sits the Isle of Man, green and hilly, with its own ancient parliament. On clear days you can pick out Anglesey and the mountains of Snowdonia to the east, Dublin Bay to the west, and wide bays where the ebbing tide uncovers kilometres of sand.",
+    "w": "A grey-green sea between Ireland and Britain; the Isle of Man near its centre, Anglesey off the Welsh coast.",
+    "f": [
+      "The Isle of Man's parliament, Tynwald, traces its origins back more than a thousand years.",
+      "Morecambe Bay, on its English side, holds one of Britain's largest expanses of tidal sand and mud.",
+      "An old saying claims that from Snaefell, the Isle of Man's 621 m summit, you can see six kingdoms."
+    ],
+    "q": {
+      "q": "Which island sits near the middle of the Irish Sea?",
+      "a": "The Isle of Man",
+      "x": [
+        "The Isle of Wight",
+        "Arran"
+      ]
+    }
+  },
+  "Q49364": {
+    "t": "A shallow tropical sea over a drowned plain",
+    "s": "The Java Sea is remarkably shallow — on average less than 50 m deep — because it floods a former plain. In the ice ages, when sea levels were lower, you could have walked from Java to Borneo. Look for Jakarta's sprawl on the southern shore and, just offshore, the scatter of coral islets called the Thousand Islands.",
+    "w": "A warm, shallow, often greenish sea between Java and Borneo, busy with ships; Jakarta spreads along its southern shore.",
+    "f": [
+      "The Thousand Islands off Jakarta actually number a little over a hundred.",
+      "Its seabed is part of the Sunda Shelf, one of the largest continental shelves on Earth.",
+      "Karimunjawa, a group of coral islands in its middle, is a national park."
+    ],
+    "q": {
+      "q": "In the ice ages, you could walk from Java to which island?",
+      "a": "Borneo",
+      "x": [
+        "Sulawesi",
+        "New Guinea"
+      ]
+    }
+  },
+  "Q47632": {
+    "t": "Limestone towers, island chains and a lone volcano",
+    "s": "The Andaman Sea is framed by islands: the long Andaman and Nicobar chain in the west and, off Myanmar, the hundreds of forested isles of the Mergui Archipelago. Near Phuket, in Phang Nga Bay, sheer limestone towers rise straight out of green water. The Irrawaddy's muddy delta spreads across the north, staining the sea brown.",
+    "w": "Warm blue sea west of Thailand and Myanmar; island chains on both sides and brown river water in the north.",
+    "f": [
+      "Barren Island, in its western part, is the only confirmed active volcano in South Asia.",
+      "The Mergui Archipelago off Myanmar counts some 800 islands."
+    ],
+    "q": {
+      "q": "Which river's delta spreads into the northern Andaman Sea?",
+      "a": "The Irrawaddy",
+      "x": [
+        "The Mekong",
+        "The Chao Phraya"
+      ]
+    }
+  },
+  "Q37960": {
+    "t": "A sea tinted by the silt of China's rivers",
+    "s": "The name is no exaggeration: near the Chinese coast, silt from great rivers turns the water a murky yellow-brown that fades to green offshore. The Yellow Sea is shallow — about 44 m on average — and on the Korean side the tides are huge, retreating twice a day to bare kilometres of glistening mudflats.",
+    "w": "A shallow sea between China and Korea: yellow-brown water near the Chinese coast, broad grey mudflats along Korea's west.",
+    "f": [
+      "At Incheon the tide can rise and fall by more than 8 m.",
+      "Its tidal flats are a vital stopover for millions of migrating shorebirds.",
+      "Near the island of Jindo, very low tides briefly expose a path of seabed almost 3 km long."
+    ],
+    "q": {
+      "q": "What gives the Yellow Sea its colour?",
+      "a": "River silt",
+      "x": [
+        "Algae blooms",
+        "Sulphur springs"
+      ]
+    }
+  },
+  "Q45341": {
+    "t": "Where the Yangtze pours into the Pacific",
+    "s": "At the mouth of the Yangtze, beside Shanghai, the East China Sea turns the colour of milky tea: Asia's longest river pours out a vast plume of silt. South of the city, look for the thin line of the Hangzhou Bay Bridge running some 36 km across the water. Farther east the sea deepens and clears towards the Ryukyu Islands.",
+    "w": "Brown water fanning out from the Yangtze mouth near Shanghai, turning blue-green offshore towards the Ryukyu chain.",
+    "f": [
+      "The warm Kuroshio current runs north-east along its eastern edge.",
+      "Its wide continental shelf is mostly less than 200 m deep.",
+      "The Ryukyu Islands, strung out between Kyushu and Taiwan, form its eastern boundary."
+    ],
+    "q": {
+      "q": "Which great river empties into the East China Sea?",
+      "a": "The Yangtze",
+      "x": [
+        "The Yellow River",
+        "The Pearl River"
+      ]
+    }
+  },
+  "Q159252": {
+    "t": "The Arctic sea where the last mammoths lived",
+    "s": "North of the Bering Strait, the Chukchi Sea lies between Chukotka and Alaska, and the International Date Line runs straight through it — cross it and the calendar jumps a day. The sea is frozen for most of the year. On its western edge lies Wrangel Island, where woolly mammoths survived until roughly 4,000 years ago, long after they vanished elsewhere.",
+    "w": "Ice or dark open water north of the Bering Strait, between the hills of Chukotka and Alaska's flat north-west coast.",
+    "f": [
+      "Wrangel Island is a UNESCO site and a major denning ground for polar bears.",
+      "In autumn, thousands of Pacific walruses haul out on its beaches."
+    ],
+    "q": {
+      "q": "Until roughly when did mammoths survive on Wrangel Island?",
+      "a": "About 4,000 years ago",
+      "x": [
+        "About 40,000 years ago",
+        "About 400 years ago"
+      ]
+    }
+  },
+  "Q61304": {
+    "t": "The oil-rich southern pocket of the Gulf of Mexico",
+    "s": "Curving from Veracruz round to the Yucatán Peninsula, the Bay of Campeche is the Gulf of Mexico's southern pocket. Under its waters lies Cantarell, once one of the largest oil fields on Earth, and at night platform lights scatter across the sea. Along the southern shore, rivers spread into lagoons and mangrove-lined wetlands.",
+    "w": "The southern bight of the Gulf of Mexico, from Veracruz east to the Yucatán; platform lights offshore at night.",
+    "f": [
+      "Laguna de Términos, on its southern shore, is Mexico's largest coastal lagoon.",
+      "Veracruz, on its western shore, was founded by Hernán Cortés in 1519.",
+      "The Grijalva and Usumacinta rivers reach it through a shared delta of swamps and channels."
+    ],
+    "q": {
+      "q": "Who founded Veracruz on the Bay of Campeche?",
+      "a": "Hernán Cortés",
+      "x": [
+        "Francisco Pizarro",
+        "Christopher Columbus"
+      ]
+    }
+  },
+  "Q128880": {
+    "t": "A shallow sea over the land bridge to New Guinea",
+    "s": "Between northern Australia and New Guinea spreads the Arafura Sea — broad, warm and surprisingly shallow, mostly less than 80 m deep. In the ice ages it was dry land, and people and animals could walk between the two. From the air, look for green-brown water near the muddy coasts and the low, forested Aru Islands in the north.",
+    "w": "Wide, shallow, often greenish sea between Australia's Top End and New Guinea, with the low Aru Islands to the north.",
+    "f": [
+      "The Gulf of Carpentaria opens off its southern side.",
+      "Torres Strait, a maze of islands and reefs, links it to the Coral Sea."
+    ],
+    "q": {
+      "q": "What did the Arafura Sea floor connect during the ice ages?",
+      "a": "Australia and New Guinea",
+      "x": [
+        "Australia and Timor",
+        "New Guinea and Borneo"
+      ]
+    }
+  },
+  "Q131418": {
+    "t": "A sea named after the “eastern” island",
+    "s": "The Timor Sea takes its name from Timor, and Timor's name comes from the Malay word for “east”. Most of it is a broad, shallow shelf off northern Australia, but close to Timor the floor plunges into a trough more than 3,000 m deep. On the Australian side, big tides wash in and out among rust-red cliffs and mangrove creeks.",
+    "w": "Open blue-green sea between the mountainous island of Timor and Australia's red Kimberley and Top End coasts.",
+    "f": [
+      "The city of Darwin lies at its eastern edge.",
+      "Joseph Bonaparte Gulf, on its Australian side, is named after Napoleon's elder brother."
+    ],
+    "q": {
+      "q": "What does the Malay word behind the name “Timor” mean?",
+      "a": "East",
+      "x": [
+        "Island",
+        "Mountain"
+      ]
+    }
+  },
+  "Q131217": {
+    "t": "A warm, shallow gulf ringed by tropical islands",
+    "s": "The Gulf of Thailand is warm and shallow — about 45 m deep on average — and its water often looks jade-green rather than blue. Look for the islands of Ko Samui and Ko Pha Ngan off the western shore, and the large island of Phu Quoc near the eastern one. At night, fishing boats' lamps can scatter the dark water with light.",
+    "w": "A broad, often greenish gulf south of Bangkok, with the Malay Peninsula to the west and scattered islands off both shores.",
+    "f": [
+      "The Chao Phraya, the river of Bangkok, empties into its northern tip.",
+      "Its old name, the Gulf of Siam, is still used in some languages, including Russian.",
+      "Its seabed was dry land during the last ice age."
+    ],
+    "q": {
+      "q": "Which river of Bangkok flows into the Gulf of Thailand?",
+      "a": "The Chao Phraya",
+      "x": [
+        "The Mekong",
+        "The Irrawaddy"
+      ]
+    }
   }
 }

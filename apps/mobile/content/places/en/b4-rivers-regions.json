@@ -1294,5 +1294,329 @@
         "Xining"
       ]
     }
+  },
+  "Q128102": {
+    "t": "A tributary longer than the river it joins",
+    "s": "The Irtysh rises in the Mongolian Altai, crosses China and Kazakhstan and enters Russia, winding north across the West Siberian Plain to meet the Ob. Here, below Omsk, it loops lazily through a green floodplain of meadows, oxbow lakes and birch groves, with fields beyond. Remarkably, this tributary is longer than the river it flows into.",
+    "w": "A winding river in wide, regular loops through a green floodplain of meadows, oxbow lakes and birch woods.",
+    "f": [
+      "At about 4,250 km, the Irtysh is longer than the Ob, into which it flows.",
+      "It meets the Ob near Khanty-Mansiysk.",
+      "Tobolsk, on the Irtysh, was the first capital of Siberia; its white stone kremlin stands above the river."
+    ],
+    "q": {
+      "q": "Which river does the Irtysh flow into?",
+      "a": "The Ob",
+      "x": [
+        "The Yenisey",
+        "The Tobol"
+      ]
+    }
+  },
+  "Q3503": {
+    "t": "The deepest river on Earth, crossing the equator twice",
+    "s": "Around the equator the Congo spreads into a vast, slow river several kilometres wide, dotted with long forested islands and fringed by flooded forest. From above it looks like a brown lake threaded with green. It is the second-largest river on Earth by flow, and on its great arc through Central Africa it crosses the equator twice.",
+    "w": "A broad brown river full of long wooded islands, bordered by dark flooded forest on both banks.",
+    "f": [
+      "In its lower gorges the Congo is more than 200 m deep, the deepest river known.",
+      "It carries more water than any other river except the Amazon.",
+      "Kinshasa and Brazzaville face each other across it, the closest pair of capitals apart from Rome and Vatican City."
+    ],
+    "q": {
+      "q": "Which two capitals face each other across the Congo?",
+      "a": "Kinshasa and Brazzaville",
+      "x": [
+        "Kinshasa and Bangui",
+        "Brazzaville and Luanda"
+      ]
+    }
+  },
+  "Q45403": {
+    "t": "A river so wide it looks like a sea of sandbars",
+    "s": "In Assam the Brahmaputra is less a river than a braided plain of water and sand several kilometres wide, its channels shifting with every monsoon. From above, look for pale sandbars and green islands scattered across it, with tea gardens and rice fields on the higher ground beyond. Upstream lies Majuli, one of the largest river islands in the world.",
+    "w": "A very wide, braided river with pale sandbars and green islands, and the hills of Meghalaya to the south.",
+    "f": [
+      "Its name means 'son of Brahma'; it is one of the few Indian rivers with a male name.",
+      "Its islands and sandbars, called chars, are farmed and even lived on, though floods can wash them away.",
+      "Kaziranga National Park, on its south bank, holds about two-thirds of the world's greater one-horned rhinos."
+    ],
+    "q": {
+      "q": "Which animal is Kaziranga, on the Brahmaputra, famous for?",
+      "a": "One-horned rhinoceros",
+      "x": [
+        "Snow leopard",
+        "Asiatic lion"
+      ]
+    }
+  },
+  "Q947477": {
+    "t": "A trout river running from Yellowstone to the Missouri",
+    "s": "The Madison is born inside Yellowstone, where the Firehole and Gibbon rivers meet, and runs north through Montana in a broad, open valley between two mountain ranges. From above it is a bright, braided stream with a thin line of willows, crossing sage-grey ranchland. At Three Forks it joins the Jefferson and the Gallatin, and together they form the Missouri.",
+    "w": "A bright, winding stream in a wide sage-coloured valley between snowy ranges, lined with a thin green band.",
+    "f": [
+      "Lewis and Clark named it in 1805 after James Madison, then the US Secretary of State.",
+      "Anglers rank it among the finest trout rivers in North America.",
+      "The Firehole, one of its sources, is warmed by the hot springs and geysers of Yellowstone."
+    ],
+    "q": {
+      "q": "Which great river do the Madison, Jefferson and Gallatin form?",
+      "a": "The Missouri",
+      "x": [
+        "The Yellowstone",
+        "The Snake"
+      ]
+    }
+  },
+  "Q619802": {
+    "t": "The dustiest place on Earth, an ancient lake bed",
+    "s": "Look for pale, almost white ground streaked by dunes: the Bodélé Depression in Chad, the dried-up bed of an ancient lake. Its floor is diatomite, the fine skeletons of tiny algae, and winter winds funnelled between the Tibesti and Ennedi highlands lift it into vast plumes. Bodélé is the largest single source of dust on Earth; some of it crosses the Atlantic to the Amazon.",
+    "w": "A pale, whitish basin crossed by rows of crescent dunes; in winter, long plumes of dust streaming south-west.",
+    "f": [
+      "The basin is a remnant of Mega-Chad, a lake that once covered an area comparable to the Caspian Sea.",
+      "The strongest winds blow here from November to March, the season of the Harmattan.",
+      "Bodélé dust carries phosphorus and other nutrients that help fertilise the Amazon rainforest."
+    ],
+    "q": {
+      "q": "What is the pale floor of the Bodélé Depression made of?",
+      "a": "Remains of tiny algae",
+      "x": [
+        "Salt crystals",
+        "Volcanic ash"
+      ]
+    }
+  },
+  "Q1914": {
+    "t": "A land of lakes, all combed the same way",
+    "s": "Karelia looks as if a giant rake had been dragged across it: long lakes and ridges all run in the same direction, north-west to south-east, the way the ice sheet moved. Between them lie dark pine and spruce forest, bogs and bare granite. In winter the lakes become white brushstrokes on the dark forest.",
+    "w": "Countless long lakes and ridges lined up north-west to south-east among dark forest; Lake Onega to the east.",
+    "f": [
+      "The Republic of Karelia has around 60,000 lakes.",
+      "On Kizhi Island in Lake Onega stands the wooden, 22-domed Church of the Transfiguration, built in 1714.",
+      "Many of the songs that became the Finnish epic Kalevala were recorded from singers in Karelia."
+    ],
+    "q": {
+      "q": "In which direction do most Karelian lakes stretch?",
+      "a": "North-west to south-east",
+      "x": [
+        "East to west",
+        "North-east to south-west"
+      ]
+    }
+  },
+  "Q137555": {
+    "t": "A red-brown bushland plateau in the Horn of Africa",
+    "s": "The Ogaden is dry country: a red-brown plateau of thorn scrub and scattered acacias, sloping gently from the Ethiopian highlands towards Somalia. From above it looks like a rust-coloured carpet with a fine stipple of bushes, cut by pale, mostly dry riverbeds. After the short rains it flushes green for a few weeks.",
+    "w": "A rust-red plain with a fine speckle of bushes and pale dry riverbeds; green only for weeks after the rains.",
+    "f": [
+      "The Shebelle River, rising in the Ethiopian highlands, crosses the Ogaden on its way to Somalia.",
+      "Rain comes here in two short seasons, in spring and in autumn.",
+      "Most people here are Somali herders who keep camels, goats and sheep."
+    ],
+    "q": {
+      "q": "Which river crosses the Ogaden on its way to Somalia?",
+      "a": "The Shebelle",
+      "x": [
+        "The Awash",
+        "The Omo"
+      ]
+    }
+  },
+  "Q181103": {
+    "t": "Folded bare mountains in every shade of brown",
+    "s": "Balochistan is a wild tangle of bare mountains and dry basins, where rock is folded into long parallel ridges that curve like the grain of polished wood. There is little green: a few oases, dry riverbeds and salt flats in the hollows. The region spans parts of Pakistan, Iran and Afghanistan. To the north-west rises Taftan, a volcano almost 4,000 m high that still steams.",
+    "w": "Long, parallel, curving ridges of bare brown and grey rock, with pale dry riverbeds and salt flats between them.",
+    "f": [
+      "Balochistan province covers about 44 percent of Pakistan, more than any other province.",
+      "Mehrgarh, in Balochistan, is one of the oldest farming villages in South Asia, some 9,000 years old.",
+      "On the Makran coast, in the south, small mud volcanoes bubble close to the sea."
+    ],
+    "q": {
+      "q": "About what share of Pakistan's area is Balochistan province?",
+      "a": "About 44 percent",
+      "x": [
+        "About 10 percent",
+        "About 70 percent"
+      ]
+    }
+  },
+  "Q5700": {
+    "t": "Forest, fells and bogs under the northern lights",
+    "s": "Lapland from the air is dark forest, pale bogs and rounded, treeless fells, laced with rivers and lakes. North of the Arctic Circle the sun does not set for weeks around midsummer, and in midwinter it barely rises. On a clear winter night you may see the aurora from your window, a green veil moving over the snow below.",
+    "w": "Dark conifer forest, pale bogs and bare rounded hilltops with winding rivers; in winter, white with dark forest patches.",
+    "f": [
+      "Lapland spans the north of Norway, Sweden and Finland and Russia's Kola Peninsula, the homeland of the Sámi.",
+      "Reindeer roam freely across much of Finnish Lapland; herding them is a traditional Sámi livelihood.",
+      "Rovaniemi, the capital of Finnish Lapland, lies right on the Arctic Circle."
+    ],
+    "q": {
+      "q": "Which Indigenous people live in Lapland?",
+      "a": "The Sámi",
+      "x": [
+        "The Inuit",
+        "The Nenets"
+      ]
+    }
+  },
+  "Q1528035": {
+    "t": "A bird's foot of land reaching into the Gulf",
+    "s": "At the end of its long journey the Mississippi has built a strange shape: a bird's foot, with long thin fingers of marsh and levee stretching into the Gulf of Mexico. From above, look for brown water spreading from their tips into the blue sea, and a maze of green marsh, lakes and channels around them. The whole landscape is made of river mud.",
+    "w": "Long thin fingers of land reaching into the Gulf, with brown river water fanning into blue sea at their tips.",
+    "f": [
+      "Over the last 7,000 years the river has built southern Louisiana by switching between several delta lobes.",
+      "Coastal Louisiana has lost roughly 5,000 km² of land since the 1930s as the delta sinks and erodes.",
+      "Head of Passes, where the river splits into the bird's-foot channels, lies about 150 km below New Orleans."
+    ],
+    "q": {
+      "q": "What is the Mississippi's modern delta often compared to?",
+      "a": "A bird's foot",
+      "x": [
+        "A fan",
+        "A triangle"
+      ]
+    }
+  },
+  "Q29412": {
+    "t": "A maze of mangroves and creeks at the Niger's mouth",
+    "s": "Here the Niger breaks into countless creeks and channels before reaching the Atlantic, forming the largest delta in Africa. From above it is a dark green maze of mangrove and swamp forest, laced with brown waterways that glint in the sun. At night the orange points of gas flares dot the darkness.",
+    "w": "A dark green maze of mangroves and swamp forest threaded by winding brown creeks; at night, scattered orange flares.",
+    "f": [
+      "Nigeria's mangrove forests, most of them in this delta, are the largest in Africa.",
+      "The delta covers some 70,000 km² of wetlands, creeks and islands.",
+      "The Niger arrives here after flowing some 4,200 km from the highlands of Guinea."
+    ],
+    "q": {
+      "q": "Which river forms this delta?",
+      "a": "The Niger",
+      "x": [
+        "The Volta",
+        "The Senegal"
+      ]
+    }
+  },
+  "Q1431507": {
+    "t": "Europe's largest delta, where lotus blooms in August",
+    "s": "Before it reaches the Caspian, the Volga fans out into Europe's largest delta: hundreds of channels, reed beds and islands, green against the dry, pale steppe on either side. From above it looks like the branching veins of a leaf. In late summer, lotus flowers bloom across its shallow outer waters in whole pink fields.",
+    "w": "A huge green fan of branching channels and reed beds spreading into the Caspian, framed by pale, dry steppe.",
+    "f": [
+      "The delta is made up of some 500 branches, channels and small streams.",
+      "The Astrakhan Nature Reserve, founded here in 1919, is one of the oldest in Russia.",
+      "The Caspian lies about 28 m below sea level, so the delta itself lies below the level of the world ocean."
+    ],
+    "q": {
+      "q": "Which pink flower blooms across the outer Volga Delta in late summer?",
+      "a": "Lotus",
+      "x": [
+        "Tulip",
+        "Peony"
+      ]
+    }
+  },
+  "Q184429": {
+    "t": "Reed beds, pelicans and three arms to the sea",
+    "s": "Just before the Black Sea, the Danube splits into three arms and spreads into a vast wetland of reeds, lakes and winding channels, one of the largest reed beds on Earth. From above it is a green-gold mosaic stitched with silver water, with the ruler-straight Sulina channel cutting through the middle. In spring and summer it is home to huge colonies of pelicans.",
+    "w": "A green-gold mosaic of reeds, lakes and winding channels, cut by one ruler-straight channel, beside the Black Sea.",
+    "f": [
+      "The Danube Delta was listed as a UNESCO World Heritage site in 1991.",
+      "It is Europe's second-largest delta, after the Volga's.",
+      "Most of the delta lies in Romania; its northern edge belongs to Ukraine."
+    ],
+    "q": {
+      "q": "How many main arms does the Danube split into in its delta?",
+      "a": "Three",
+      "x": [
+        "Two",
+        "Seven"
+      ]
+    }
+  },
+  "Q1052867": {
+    "t": "A rice bowl of nine dragons and endless canals",
+    "s": "The Mekong ends here in a flat, vivid green world: rice paddies in endless rectangles, orchards, fish ponds and villages strung along canals, all laced by wide brown branches of the river. The Vietnamese call it Cửu Long, the 'Nine Dragons', after its many mouths. At harvest time whole districts turn from green to gold.",
+    "w": "Vivid green rectangles of rice paddies laced with brown river branches and straight canals, all perfectly flat.",
+    "f": [
+      "The delta grows about half of Vietnam's rice.",
+      "Most of it lies less than 2 m above sea level.",
+      "Floating markets, where traders sell straight from boats, still gather near Cần Thơ."
+    ],
+    "q": {
+      "q": "What does the Vietnamese name Cửu Long mean?",
+      "a": "Nine Dragons",
+      "x": [
+        "Great River",
+        "Golden Water"
+      ]
+    }
+  },
+  "Q81591": {
+    "t": "Where Africa is slowly tearing apart",
+    "s": "Here, in the Afar region, the Great Rift Valley opens into a scorched lowland of lava fields, salt flats and volcanoes, parts of it more than 100 m below sea level. This is where three plates of the Earth's crust are pulling apart, and one day the sea may flood in. From here the rift runs south for thousands of kilometres, marked by a chain of long lakes.",
+    "w": "Black lava fields, white salt pans and scattered volcanic cones in a hot lowland, walled by high escarpments to the west.",
+    "f": [
+      "In 1974 the fossil skeleton known as Lucy, about 3.2 million years old, was found at Hadar in Afar.",
+      "Erta Ale, a volcano in the Danakil Depression, held a lake of lava in its crater for much of the last century.",
+      "Dallol, in the north of the depression, has one of the highest average yearly temperatures on Earth."
+    ],
+    "q": {
+      "q": "Which famous fossil was found in the Afar region in 1974?",
+      "a": "Lucy",
+      "x": [
+        "Turkana Boy",
+        "Taung Child"
+      ]
+    }
+  },
+  "Q4863367": {
+    "t": "Treeless tundra where the caribou roam",
+    "s": "North of the treeline, Canada's forest gives way to the Barren Grounds: open tundra of moss, lichen and bare rock, scattered with more lakes than anyone has counted. Look for eskers, long snaking gravel ridges left by rivers that once flowed inside the ice sheet. Every year great herds of caribou migrate across this land.",
+    "w": "Treeless land speckled with countless lakes, crossed by long, winding gravel ridges; white for most of the year.",
+    "f": [
+      "The Thelon Wildlife Sanctuary, created in 1927, protects musk oxen and caribou in the heart of the Barren Grounds.",
+      "Nearby Baker Lake is Nunavut's only inland community.",
+      "Some eskers here run for hundreds of kilometres."
+    ],
+    "q": {
+      "q": "What are the long, winding gravel ridges of the Barren Grounds called?",
+      "a": "Eskers",
+      "x": [
+        "Drumlins",
+        "Moraines"
+      ]
+    }
+  },
+  "Q381050": {
+    "t": "No trees, one straight line, and cliffs above the sea",
+    "s": "Nullarbor is Latin for 'no tree', and from above the name fits: a vast, flat, olive-grey plain of saltbush and bluebush without a single tree in sight. It is the world's largest single slab of limestone, riddled with caves underneath. Along its southern edge the Bunda Cliffs drop sheer into the Great Australian Bight.",
+    "w": "A dead-flat grey-green plain without trees, one straight railway across it, and sheer cliffs along the southern sea.",
+    "f": [
+      "The Trans-Australian Railway crosses it on a dead-straight stretch of about 478 km, the longest in the world.",
+      "The limestone formed on an ancient seabed and covers some 200,000 km².",
+      "The Bunda Cliffs are up to about 120 m high and run for roughly 100 km."
+    ],
+    "q": {
+      "q": "What does 'Nullarbor' mean?",
+      "a": "No tree",
+      "x": [
+        "Red earth",
+        "Great plain"
+      ]
+    }
+  },
+  "Q1807196": {
+    "t": "Tundra of countless lakes, all pointing the same way",
+    "s": "Between the Brooks Range and the Arctic Ocean, the North Slope is a flat, treeless tundra covered in lakes, many of them oval and aligned in the same direction, as if combed by the wind. For about nine months the land is white; in summer it thaws into a glittering sheet of water and green. Beneath it lies permafrost hundreds of metres thick.",
+    "w": "Flat, treeless tundra with countless oval lakes all aligned the same way; the snowy Brooks Range to the south.",
+    "f": [
+      "Prudhoe Bay, on the North Slope, is the largest oilfield in North America.",
+      "In Utqiaġvik, the northernmost town in the US, the sun does not set for more than 80 days in summer.",
+      "The Trans-Alaska Pipeline carries oil about 1,300 km from here to the port of Valdez."
+    ],
+    "q": {
+      "q": "Which mountains form the southern edge of the North Slope?",
+      "a": "The Brooks Range",
+      "x": [
+        "The Alaska Range",
+        "The Chugach Mountains"
+      ]
+    }
   }
 }
