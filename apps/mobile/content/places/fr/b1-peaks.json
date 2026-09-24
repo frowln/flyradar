@@ -358,5 +358,362 @@
         "La Grand Trunk Road"
       ]
     }
+  },
+  "Q6654097": {
+    "t": "Le plus haut sommet du Kunlun, perdu dans un désert froid",
+    "s": "Voici l’un des recoins les plus vides d’Asie. Le Liushi Shan, qu’on appelle aussi la Déesse du Kunlun, est le point culminant des monts Kunlun, à 7 167 m ; il surgit d’un haut désert austère, à la limite du Tibet et du Xinjiang. D’en haut, cherchez un groupe de dômes de glace et de glaciers blancs dans une mer de crêtes brunes, décapées par le vent.",
+    "w": "Un groupe de dômes de glace blancs au bord nord du plateau tibétain, cerné de crêtes brunes et nues.",
+    "f": [
+      "Une équipe universitaire japonaise en a réussi la première ascension en 1986.",
+      "En chinois, on le nomme aussi Kunlun Nüshen Feng, le « pic de la Déesse du Kunlun ».",
+      "La Keriya naît dans cette partie du Kunlun, coule vers le nord et se perd dans le désert du Taklamakan."
+    ],
+    "q": {
+      "q": "Le Liushi Shan est le point culminant de quel ensemble montagneux ?",
+      "a": "Les monts Kunlun",
+      "x": [
+        "Le Tian Shan",
+        "Le Karakoram"
+      ]
+    }
+  },
+  "Q1050238": {
+    "t": "Là où finit l’Himalaya et où tourne un grand fleuve",
+    "s": "Le Namcha Barwa marque l’extrémité orientale de l’Himalaya, près de l’un des coudes fluviaux les plus étranges du monde : le Yarlung Tsangpo, qui traverse le Tibet vers l’est, contourne la montagne puis plonge vers le sud dans une gorge bien plus profonde que le Grand Canyon. Le sommet culmine à 7 782 m, pyramide blanche et raide au-dessus de vallées sombres et boisées, souvent noyée dans les nuages de la mousson.",
+    "w": "Un pic blanc et raide là où le plateau brun du Tibet cède à des gorges vertes et nuageuses ; un fleuve boucle à son pied.",
+    "f": [
+      "C’était le plus haut sommet invaincu du monde jusqu’à ce qu’une équipe sino-japonaise l’atteigne en 1992.",
+      "Le Gyala Peri, 7 294 m, se dresse à une vingtaine de kilomètres seulement, de l’autre côté de la gorge.",
+      "En aval de la gorge, le Yarlung Tsangpo devient le Brahmapoutre."
+    ],
+    "q": {
+      "q": "Quel fleuve décrit un coude brusque autour du Namcha Barwa ?",
+      "a": "Le Yarlung Tsangpo",
+      "x": [
+        "La Salouen",
+        "Le Mékong"
+      ]
+    }
+  },
+  "Q26794321": {
+    "t": "Une déesse au cœur d’une forteresse de sommets",
+    "s": "La Nanda Devi s’élève dans une forteresse naturelle : un anneau de montagnes, percé d’une seule gorge étroite, enserre le haut bassin glaciaire qu’on appelle le Sanctuaire. Le pic à double sommet, 7 817 m, est la plus haute montagne entièrement située en Inde, vénérée comme la déesse Nanda. D’en haut, cherchez l’anneau lui-même : un cercle presque parfait de cimes blanches autour d’une cuvette de glace.",
+    "w": "Un pic blanc à deux sommets dans un cercle presque parfait de cimes enneigées, dans l’Himalaya à l’ouest de la frontière népalaise.",
+    "f": [
+      "Bill Tilman et Noel Odell en ont réussi la première ascension en 1936.",
+      "Eric Shipton et Tilman furent les premiers à forcer la gorge de la Rishi Ganga jusqu’au Sanctuaire, en 1934.",
+      "Le parc national de la Nanda Devi et la proche vallée des Fleurs sont inscrits au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on le bassin cerné de montagnes autour de la Nanda Devi ?",
+      "a": "Le Sanctuaire",
+      "x": [
+        "L’Amphithéâtre",
+        "La Citadelle"
+      ]
+    }
+  },
+  "Q41413": {
+    "t": "Le toit du Pamir, un pic aux trois noms",
+    "s": "Pendant des décennies, ce fut le point culminant de l’Union soviétique, d’abord sous le nom de pic Staline, puis de pic du Communisme. Depuis 1998, il porte celui d’Ismoil Somoni, souverain samanide des IXe et Xe siècles. Le sommet, 7 495 m, couronne une massive muraille blanche au cœur du Pamir, près du glacier Fedtchenko, l’un des grands fleuves de glace d’Asie.",
+    "w": "Un pic blanc massif au nœud de plusieurs crêtes, à l’ouest du long glacier Fedtchenko, tout droit, dans le haut Pamir.",
+    "f": [
+      "Ievgueni Abalakov en a réussi la première ascension en 1933.",
+      "Le glacier Fedtchenko voisin mesure environ 77 km : c’est le plus long hors des régions polaires.",
+      "La monnaie du Tadjikistan, le somoni, porte le nom du même souverain."
+    ],
+    "q": {
+      "q": "Comment s’appelait ce pic de 1962 à 1998 ?",
+      "a": "Pic du Communisme",
+      "x": [
+        "Pic Lénine",
+        "Pic Staline"
+      ]
+    }
+  },
+  "Q1537157": {
+    "t": "Le plus oriental des 7 000 m, au-dessus du Sichuan",
+    "s": "Le Gongga, aussi appelé Minya Konka, se dresse là où les hautes terres tibétaines plongent vers le bassin du Sichuan. Avec 7 556 m, c’est le point culminant du Sichuan et le plus oriental des sommets de 7 000 m de la planète. Cherchez une pyramide blanche et acérée cerclée de glaciers, et à l’est la profonde vallée de la Dadu : plus de six kilomètres de dénivelé sur une courte distance.",
+    "w": "Une pyramide blanche et acérée à jupe de glaciers, à l’ouest de la profonde gorge de la Dadu, dans l’ouest du Sichuan.",
+    "f": [
+      "Une équipe américaine en a réussi la première ascension en 1932.",
+      "Sur son versant est, le glacier de Hailuogou descend jusque dans la forêt, sous les 3 000 m.",
+      "Le Gongga est le point culminant du Daxue Shan, les « grandes montagnes neigeuses »."
+    ],
+    "q": {
+      "q": "Quel glacier descend du versant est du Gongga jusque dans la forêt ?",
+      "a": "Le Hailuogou",
+      "x": [
+        "Le Baltoro",
+        "Le Rongbuk"
+      ]
+    }
+  },
+  "Q6362901": {
+    "t": "Un géant de l’Himalaya oriental, drapé de nuages",
+    "s": "À l’est du Bhoutan, l’Himalaya se fait plus sauvage et plus humide, et le Kangto compte parmi ses plus hauts sommets, à un peu plus de 7 000 m. Il tient la crête principale, où les hautes terres sèches du Tibet rencontrent des vallées abruptes qui filent vers les plaines du Brahmapoutre, en Assam. Une forêt dense grimpe sur ses flancs, et la mousson le cache presque tout l’été : une vue dégagée est un vrai cadeau.",
+    "w": "Un sommet blanc sur la crête himalayenne, au nord des plaines du Brahmapoutre, entre hautes terres brunes et sèches et vallées boisées.",
+    "f": [
+      "Le Kangto est resté invaincu pendant des décennies : la première ascension connue n’a eu lieu qu’en 2025.",
+      "Ses vallées sud s’écoulent vers le Kameng, un affluent du Brahmapoutre.",
+      "L’Himalaya oriental reçoit bien plus de pluies de mousson que les chaînes autour de l’Everest."
+    ],
+    "q": {
+      "q": "Vers quel grand fleuve s’écoulent les vallées sud du Kangto ?",
+      "a": "Le Brahmapoutre",
+      "x": [
+        "Le Gange",
+        "L’Irrawaddy"
+      ]
+    }
+  },
+  "Q1109058": {
+    "t": "Un dieu-montagne veillant sur un lac turquoise",
+    "s": "Le Nyenchen Tanglha est le plus haut sommet d’une longue chaîne qui traverse le centre du Tibet, au nord-ouest de Lhassa. Cherchez sa cime blanche, 7 162 m, juste au sud-est du Namtso, un immense lac salé d’un turquoise saisissant. Dans la tradition tibétaine, la montagne est une divinité protectrice, et l’on parle souvent de lui et du lac comme d’un couple.",
+    "w": "Une crête blanche juste au sud-est d’un grand lac turquoise, le Namtso, sur le plateau brun au nord-ouest de Lhassa.",
+    "f": [
+      "Le Namtso, à son pied, se trouve à environ 4 700 m d’altitude.",
+      "Le lac couvre près de 2 000 km², l’un des plus grands du Tibet.",
+      "Le chemin de fer et la route du Qinghai à Lhassa longent le pied sud de la chaîne."
+    ],
+    "q": {
+      "q": "Quel lac s’étend au pied du Nyenchen Tanglha ?",
+      "a": "Le Namtso",
+      "x": [
+        "Le Manasarovar",
+        "Le Yamdrok"
+      ]
+    }
+  },
+  "Q1560829": {
+    "t": "La « grande montagne de glace » du nord désert du Tibet",
+    "s": "Ulugh Muztagh signifie « grande montagne de glace » en ouïghour, et elle règne sur l’un des lieux les plus solitaires de la Terre : les hautes terres froides à la limite du Tibet et du Xinjiang, loin de toute ville. Le sommet, 6 973 m, couronne un nœud compact de crêtes englacées. Autour, un désert brun pâle, semé de lacs salés qui brillent de blanc et de bleu.",
+    "w": "Un groupe compact de sommets blancs et de glaciers au milieu d’un désert brun pâle et de lacs salés épars.",
+    "f": [
+      "Après son voyage de 1895, l’explorateur George Littledale l’estima à plus de 7 700 m.",
+      "Une expédition sino-américaine en a réussi la première ascension en 1985 et a mesuré sa hauteur réelle.",
+      "Ses eaux de fonte finissent dans des bassins fermés et n’atteignent jamais la mer."
+    ],
+    "q": {
+      "q": "Que signifie le nom Ulugh Muztagh ?",
+      "a": "Grande montagne de glace",
+      "x": [
+        "Déesse blanche",
+        "Père des fleuves"
+      ]
+    }
+  },
+  "Q229107": {
+    "t": "Une pyramide sacrée que personne n’a gravie",
+    "s": "Le Kailash semble presque dessiné : un dôme de roche sombre à quatre faces, strié de neige, isolé à l’extrême ouest du Tibet. Il est sacré pour les hindous, les bouddhistes, les jaïns et les adeptes du bön, et son ascension est interdite. Les pèlerins en font plutôt le tour, un circuit d’environ 52 km. Juste au sud, deux grands lacs s’étendent côte à côte : le Manasarovar et le Rakshastal.",
+    "w": "Un dôme rocheux isolé, strié de neige, au nord de deux grands lacs côte à côte sur le plateau brun.",
+    "f": [
+      "L’Indus, la Sutlej, le Brahmapoutre et la Karnali prennent tous leur source à moins de 100 km environ.",
+      "Le lac Manasarovar, vers 4 590 m, est d’eau douce, alors que son voisin, le Rakshastal, est salé.",
+      "Le circuit des pèlerins franchit un col à environ 5 600 m."
+    ],
+    "q": {
+      "q": "Quel lac sacré d’eau douce s’étend juste au sud du Kailash ?",
+      "a": "Le Manasarovar",
+      "x": [
+        "Le Namtso",
+        "Le Yamdrok"
+      ]
+    }
+  },
+  "Q207132": {
+    "t": "Le roi de l’Hindou Kouch, au-dessus de la vallée de Chitral",
+    "s": "Le Tirich Mir est la plus haute montagne de l’Hindou Kouch, 7 708 m, et il règne sur la vallée de Chitral, dans le nord du Pakistan. De croisière, on dirait une grande tente enneigée aux longues arêtes, au nord du fil vert de la rivière Chitral. Au-delà, le pays file vers le corridor du Wakhan, en Afghanistan, étroite bande coincée entre de hautes chaînes.",
+    "w": "Un pic enneigé massif aux longues arêtes, au nord de la ville de Chitral et près de la frontière afghane.",
+    "f": [
+      "Une expédition norvégienne en a réussi la première ascension en 1950.",
+      "L’Hindou Kouch s’étire sur quelque 800 km, du nord du Pakistan au centre de l’Afghanistan.",
+      "La ville de Chitral se trouve à environ 40 km au sud."
+    ],
+    "q": {
+      "q": "Le Tirich Mir est le point culminant de quelle chaîne ?",
+      "a": "L’Hindou Kouch",
+      "x": [
+        "Le Karakoram",
+        "Le Pamir"
+      ]
+    }
+  },
+  "Q332762": {
+    "t": "Le plus septentrional des sommets de 7 000 m",
+    "s": "Le Jengish Chokusu, longtemps connu sous le nom de pic de la Victoire, est le point culminant du Tian Shan, 7 439 m, à la frontière du Kirghizistan et de la Chine. Aucune montagne de plus de 7 000 m ne se dresse plus au nord. Cherchez une longue arête de glace massive plutôt qu’une flèche ; juste au nord pointe la pyramide plus aiguë du Khan Tengri, dont le sommet de marbre rosit au couchant.",
+    "w": "Une longue arête blanche et massive sur la frontière kirghizo-chinoise, avec la pyramide aiguë du Khan Tengri à environ 16 km au nord.",
+    "f": [
+      "On ne l’a reconnu comme point culminant du Tian Shan que dans les années 1940 : on croyait le Khan Tengri plus haut.",
+      "Le glacier Inyltchek Sud, à son pied, mesure environ 60 km.",
+      "Jengish Chokusu signifie « pic de la Victoire » en kirghiz."
+    ],
+    "q": {
+      "q": "Quel pic acéré se dresse juste au nord du Jengish Chokusu ?",
+      "a": "Le Khan Tengri",
+      "x": [
+        "Le pic Lénine",
+        "Le Muztagh Ata"
+      ]
+    }
+  },
+  "Q271700": {
+    "t": "Le toit de l’Afghanistan, sur la crête de l’Hindou Kouch",
+    "s": "Le Noshaq est le point culminant de l’Afghanistan et la deuxième montagne de l’Hindou Kouch, 7 492 m, juste sur la frontière pakistanaise. D’en haut, c’est un large massif blanc aux sommets alignés, un peu au nord du Tirich Mir. Ses glaciers nord s’écoulent vers la vallée du Wakhan, où se rassemblent les rivières qui formeront plus loin l’Amou-Daria.",
+    "w": "Un large massif blanc aux sommets alignés sur la frontière afghano-pakistanaise, juste au nord du Tirich Mir.",
+    "f": [
+      "Une expédition japonaise en a réussi la première ascension en 1960.",
+      "Il se dresse juste au sud du corridor du Wakhan, mince bras de l’Afghanistan qui s’étire vers l’est jusqu’à la Chine."
+    ],
+    "q": {
+      "q": "Le Noshaq est le point culminant de quel pays ?",
+      "a": "L’Afghanistan",
+      "x": [
+        "Le Tadjikistan",
+        "L’Iran"
+      ]
+    }
+  },
+  "Q8536063": {
+    "t": "Le sommet du Transhimalaya, seconde muraille du Tibet",
+    "s": "Au nord de la grande muraille himalayenne court une seconde chaîne, moins connue : le Transhimalaya, ou Gangdise. Son point culminant est le Lunpo Gangri, 7 095 m, un massif coiffé de glace dans le sud-ouest du Tibet. Cherchez une ligne de pics blancs au-dessus de hautes terres brunes, avec au sud le haut Yarlung Tsangpo — le futur Brahmapoutre — qui serpente dans une large vallée.",
+    "w": "Un massif coiffé de glace au nord de la large vallée du Yarlung Tsangpo, maillon d’une chaîne blanche parallèle à l’Himalaya.",
+    "f": [
+      "Le Kailash appartient à la même chaîne du Gangdise, à environ 300 km à l’ouest.",
+      "L’explorateur suédois Sven Hedin a baptisé le Transhimalaya après l’avoir parcouru de 1906 à 1908."
+    ],
+    "q": {
+      "q": "Quel explorateur a donné son nom au Transhimalaya ?",
+      "a": "Sven Hedin",
+      "x": [
+        "Francis Younghusband",
+        "Nikolaï Prjevalski"
+      ]
+    }
+  },
+  "ne-pk-1159105819": {
+    "t": "Le géant de glace au-dessus de la route du Karakoram",
+    "s": "Le Kongur Tagh, 7 649 m, est un massif dôme de glace au bord ouest du bassin du Tarim, non loin de Kachgar. Son voisin du sud, le Muztagh Ata, est plus rond et plus célèbre, mais le Kongur est plus haut. Entre les deux, la route du Karakoram longe le lac Karakul, miroir bleu vers 3 600 m qui reflète les deux sommets par temps calme.",
+    "w": "Un énorme massif glaciaire à l’est de la route du Karakoram, le Muztagh Ata plus arrondi au sud, un petit lac bleu entre les deux.",
+    "f": [
+      "Une équipe britannique comptant Chris Bonington en a réussi la première ascension en 1981.",
+      "Kachgar, la vieille oasis de la route de la soie, se trouve à environ 100 km au nord-est.",
+      "Son sommet domine de plus de 6 000 m le fond du bassin du Tarim."
+    ],
+    "q": {
+      "q": "Quel sommet célèbre se dresse juste au sud du Kongur Tagh ?",
+      "a": "Le Muztagh Ata",
+      "x": [
+        "Le Khan Tengri",
+        "Le Tirich Mir"
+      ]
+    }
+  },
+  "Q1322521": {
+    "t": "La sentinelle nord de la grande gorge du Tibet",
+    "s": "Le Gyala Peri et le Namcha Barwa se font face de part et d’autre du Yarlung Tsangpo, à une vingtaine de kilomètres seulement. Entre eux, le fleuve se faufile dans une gorge d’une profondeur extraordinaire avant de tourner vers le sud, vers l’Inde. Le Gyala Peri, 7 294 m, en est la sentinelle nord : un dôme blanc au-dessus de pentes si humides et si raides qu’une forêt dense grimpe très haut sur ses flancs.",
+    "w": "Un dôme blanc au nord d’un coude serré du fleuve, face au Namcha Barwa, plus haut, de l’autre côté d’une gorge sombre.",
+    "f": [
+      "Entre le Gyala Peri et le Namcha Barwa, la gorge dépasse 5 000 m de profondeur.",
+      "Le botaniste Frank Kingdon-Ward a exploré la gorge en 1924 en quête de plantes nouvelles."
+    ],
+    "q": {
+      "q": "Quel sommet fait face au Gyala Peri, de l’autre côté de la gorge du Yarlung Tsangpo ?",
+      "a": "Le Namcha Barwa",
+      "x": [
+        "Le Kangchenjunga",
+        "Le Nyenchen Tanglha"
+      ]
+    }
+  },
+  "Q219986": {
+    "t": "La plus haute montagne que personne n’a gravie",
+    "s": "Le Gangkhar Puensum, 7 570 m, est le point culminant du Bhoutan et très probablement la plus haute montagne invaincue de la Terre. Les tentatives des années 1980 ont échoué, et depuis 1994 le Bhoutan interdit l’ascension des sommets de plus de 6 000 m, par respect pour la croyance selon laquelle les montagnes abritent des esprits. Cherchez une large cime blanche sur la frontière nord, au-dessus de vallées profondes et boisées.",
+    "w": "Une large cime blanche sur la frontière nord du Bhoutan avec le Tibet, au-dessus de vallées profondes, vertes et boisées.",
+    "f": [
+      "Son nom se traduit généralement par « pic blanc des trois frères spirituels ».",
+      "Depuis 2003, le Bhoutan interdit complètement l’alpinisme.",
+      "En 1999, une équipe japonaise a gravi un sommet voisin, le Liankang Kangri, par le versant tibétain."
+    ],
+    "q": {
+      "q": "Depuis quand le Bhoutan interdit-il de gravir les sommets de plus de 6 000 m ?",
+      "a": "1994",
+      "x": [
+        "1974",
+        "2010"
+      ]
+    }
+  },
+  "Q43105": {
+    "t": "Un volcan à deux bosses, couronne du Caucase",
+    "s": "L’Elbrouz se dresse un peu au nord de la grande crête du Caucase, et vu d’avion sa silhouette le trahit : deux dômes blancs arrondis, vestiges d’un volcan endormi, reliés par un col. Le sommet ouest, 5 642 m, est le point culminant de la Russie et souvent considéré comme le toit de l’Europe. Sa calotte nourrit plus de vingt glaciers qui rayonnent comme les rayons d’une roue.",
+    "w": "Deux dômes enneigés arrondis côte à côte, juste au nord de la crête principale, déchiquetée, du Caucase.",
+    "f": [
+      "Le sommet est, 5 621 m, n’est qu’une vingtaine de mètres plus bas que le sommet ouest.",
+      "Sa dernière éruption remonterait aux environs de l’an 50 de notre ère.",
+      "Des téléphériques montent les visiteurs de la vallée de la Baksan jusqu’à environ 3 800 m, sur son versant sud."
+    ],
+    "q": {
+      "q": "Combien de sommets principaux l’Elbrouz compte-t-il ?",
+      "a": "Deux",
+      "x": [
+        "Un",
+        "Trois"
+      ]
+    }
+  },
+  "Q130018": {
+    "t": "Le toit de l’Amérique du Nord, dressé presque depuis la mer",
+    "s": "Le Denali est la plus haute montagne d’Amérique du Nord, environ 6 200 m, et l’une des plus massives de la Terre. Il surgit de basses terres situées à 600 m à peine au-dessus de la mer : son dénivelé de la base au sommet, quelque 5 500 m, dépasse celui de l’Everest. Cherchez une énorme masse blanche d’où s’écoulent de longs glaciers et qui écrase le reste de la chaîne d’Alaska.",
+    "w": "Un massif blanc énorme dominant la chaîne d’Alaska, à environ 210 km au nord d’Anchorage.",
+    "f": [
+      "Son nom signifie « le haut » en koyukon, une langue athapascane.",
+      "Une expédition menée par Hudson Stuck et Harry Karstens en a réussi la première ascension en 1913.",
+      "Le glacier Kahiltna, sur son versant sud, mesure environ 70 km : c’est le plus long de la chaîne d’Alaska."
+    ],
+    "q": {
+      "q": "Que signifie « Denali » en koyukon ?",
+      "a": "Le haut",
+      "x": [
+        "Le blanc",
+        "Le père des fleuves"
+      ]
+    }
+  },
+  "Q235539": {
+    "t": "Le toit des États-Unis contigus, au-dessus du désert",
+    "s": "Le mont Whitney est le point culminant des États-Unis contigus, 4 421 m, sur le rebord est, abrupt, de la Sierra Nevada. Sa muraille de granite plonge vers l’aride vallée d’Owens, plus de trois kilomètres plus bas. À 135 km à peine au sud-est s’étend Badwater Basin, dans la vallée de la Mort, point le plus bas d’Amérique du Nord : le toit et le fond du continent presque en vue l’un de l’autre.",
+    "w": "Une crête de granite en dents de scie au-dessus de la vallée d’Owens, brune, juste à l’ouest de la petite ville de Lone Pine.",
+    "f": [
+      "Badwater Basin, à 86 m sous le niveau de la mer, n’est qu’à environ 135 km.",
+      "Trois pêcheurs de Lone Pine ont atteint le sommet pour la première fois en 1873.",
+      "Il porte le nom de Josiah Whitney, directeur du service géologique de Californie."
+    ],
+    "q": {
+      "q": "Quel point bas se trouve à environ 135 km du mont Whitney ?",
+      "a": "Badwater Basin",
+      "x": [
+        "La mer de Salton",
+        "Le Grand Lac Salé"
+      ]
+    }
+  },
+  "Q178167": {
+    "t": "Le toit de l’Australie, une douce bosse de granite",
+    "s": "Le mont Kosciuszko est la plus haute montagne de l’Australie continentale ; pourtant, avec 2 228 m, c’est une cime arrondie que les randonneurs atteignent depuis le haut d’un télésiège. D’en haut, les Snowy Mountains ressemblent à un plateau froissé, blanc quelques mois chaque hiver, gris-vert le reste de l’année. Cherchez les longs bras bleus du lac Jindabyne et d’autres réservoirs qui serpentent dans les vallées.",
+    "w": "Un plateau arrondi, souvent enneigé, au sud-ouest de Canberra, où de longs réservoirs bleus serpentent dans les vallées.",
+    "f": [
+      "L’explorateur Paweł Strzelecki l’a baptisé en 1840 en l’honneur du patriote polonais Tadeusz Kościuszko.",
+      "Le Snowy Mountains Scheme, construit de 1949 à 1974, envoie par tunnels l’eau des montagnes vers des centrales et des fermes.",
+      "Les seuls lacs glaciaires d’Australie continentale, dont Blue Lake, se trouvent près du sommet."
+    ],
+    "q": {
+      "q": "En l’honneur de qui le mont Kosciuszko a-t-il été nommé ?",
+      "a": "Un patriote polonais",
+      "x": [
+        "Un gouverneur britannique",
+        "Un explorateur écossais"
+      ]
+    }
   }
 }

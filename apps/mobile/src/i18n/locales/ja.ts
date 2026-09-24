@@ -466,6 +466,7 @@ export const ja = {
   alert: {
     sightTitle: '%{side}：%{name}',
     sightBody: 'まもなく、約%{dist} %{unit}先に見えます。晴れていれば窓の外をご覧ください。',
+    sightBodyWith: '%{text}（約%{dist} %{unit}先）',
     belowTitle: '真下：%{name}',
     belowBody: 'まもなく上空を通過します。',
     borderTitle: '%{country}上空に入ります',

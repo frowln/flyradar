@@ -472,6 +472,7 @@ export const fr = {
   alert: {
     sightTitle: '%{side} : %{name}',
     sightBody: 'Dans les prochaines minutes, à environ %{dist} %{unit}. Si le ciel est dégagé, regardez par le hublot.',
+    sightBodyWith: '%{text} À environ %{dist} %{unit}.',
     belowTitle: 'Juste en dessous : %{name}',
     belowBody: 'Vous passez juste au-dessus dans les prochaines minutes.',
     borderTitle: 'Frontière : %{country}',

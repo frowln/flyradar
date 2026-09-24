@@ -1781,5 +1781,298 @@
         "Bohol"
       ]
     }
+  },
+  "Q1473": {
+    "t": "A gulf city beneath the highest peak in the Philippines",
+    "s": "Davao spreads along the shore of the Davao Gulf in south-eastern Mindanao, with the green island of Samal just across the water. To the west rises Mount Apo, a volcanic peak of 2,954 m and the highest mountain in the Philippines. The land in between is carpeted with banana and fruit plantations, and Davao is famous for its durian.",
+    "w": "A long city on the shore of a wide gulf with an island just offshore; a large volcanic mountain to the west.",
+    "f": [
+      "Davao is the largest city in the Philippines by land area.",
+      "The rare Philippine eagle nests in the forests around Mount Apo."
+    ],
+    "q": {
+      "q": "Which is the highest mountain in the Philippines?",
+      "a": "Mount Apo",
+      "x": [
+        "Mayon",
+        "Mount Pulag"
+      ]
+    }
+  },
+  "Q132732": {
+    "t": "A town beside one of the world's largest man-made lakes",
+    "s": "Bratsk sits beside an enormous reservoir that fills the valleys of the Angara and its tributaries, reaching through the taiga in long, branching arms. The dam, finished in the 1960s, powered one of the largest hydroelectric stations of its time. The town itself is scattered in separate districts along the shores. A Cossack fort stood here as early as 1631.",
+    "w": "A huge, many-armed reservoir winding through dark taiga, with a dam and scattered districts of town along its shores.",
+    "f": [
+      "The Bratsk Reservoir holds about 170 km³ of water, one of the largest reservoirs in the world by volume.",
+      "When it was completed, the Bratsk hydroelectric station was the most powerful in the world."
+    ],
+    "q": {
+      "q": "A dam on which river created the Bratsk Reservoir?",
+      "a": "The Angara",
+      "x": [
+        "The Lena",
+        "The Yenisei"
+      ]
+    }
+  },
+  "Q6576": {
+    "t": "The gateway to Baikal, on the lake's only outflow",
+    "s": "Irkutsk lies on both banks of the Angara, the only river that flows out of Lake Baikal, some 60 km upstream. A dam just above the city has widened the river into a long reservoir. On a clear day, look south-east for Baikal itself: a deep-blue crescent framed by mountains, the deepest lake on Earth. Irkutsk began as a fort in 1661 and grew rich on tea and furs.",
+    "w": "A city on both banks of a wide river with a reservoir upstream; the long, deep-blue arc of Lake Baikal to the south-east.",
+    "f": [
+      "Lake Baikal is over 1,600 m deep and holds about a fifth of the world's unfrozen surface fresh water.",
+      "Many Decembrists exiled after 1825 settled in Irkutsk and shaped its cultural life."
+    ],
+    "q": {
+      "q": "How many rivers flow out of Lake Baikal?",
+      "a": "One",
+      "x": [
+        "Three",
+        "More than 300"
+      ]
+    }
+  },
+  "Q919": {
+    "t": "A Yenisei city where the river never freezes",
+    "s": "Krasnoyarsk lines both banks of the mighty Yenisei, with forested hills and rocky outcrops rising to the south. Upstream, a huge dam releases water that is warmer than the winter air, so the river through the city stays open and steams even at −30 °C. The city began in 1628 as a Cossack fort named after a red clay cliff on the riverbank.",
+    "w": "A large city on both banks of a very wide river, forested hills and rock pillars to the south; in winter, open water steaming.",
+    "f": [
+      "Stolby, a reserve of giant granite pillars in the taiga, begins right on the city's southern edge.",
+      "The Krasnoyarsk Dam, about 30 km upstream, is one of the most powerful hydroelectric stations in Russia.",
+      "The city's Communal Bridge appears on the Russian 10-rouble banknote."
+    ],
+    "q": {
+      "q": "What does the name Krasnoyarsk refer to?",
+      "a": "A red riverbank cliff",
+      "x": [
+        "A beautiful spring",
+        "A red forest"
+      ]
+    }
+  },
+  "Q678299": {
+    "t": "An Arctic outpost where the Yenisei meets the Kara Sea",
+    "s": "Dikson is a tiny settlement on bare, rocky shores where the vast gulf of the Yenisei opens into the Kara Sea. For much of the year both sea and land are white, and the town is little more than a scatter of buildings on the tundra. Only about a thousand people live here, far above the Arctic Circle, where the sun does not rise for weeks in midwinter.",
+    "w": "A tiny scatter of buildings on a rocky Arctic shore at the mouth of a huge, ice-covered gulf.",
+    "f": [
+      "Nordenskiöld named the harbour in 1875 after Oscar Dickson, the Swedish merchant who funded his expeditions.",
+      "The polar night here lasts about two and a half months.",
+      "Its port has served ships on the Northern Sea Route."
+    ],
+    "q": {
+      "q": "Oscar Dickson, after whom Dikson is named, came from which country?",
+      "a": "Sweden",
+      "x": [
+        "Norway",
+        "Denmark"
+      ]
+    }
+  },
+  "Q53139": {
+    "t": "A sunny Transbaikal city between low forested ridges",
+    "s": "Chita lies in a broad valley where the Chita River meets the Ingoda, framed by low ridges of larch and pine. Transbaikalia is one of Russia's sunniest regions, and in winter the ground often stays bare under a hard, dry frost. From 1827 many exiled Decembrists were held here, and the wives who followed them helped turn a small fort into a town.",
+    "w": "A city in a wide valley between low wooded ridges, where two rivers meet; a large lake on its western edge.",
+    "f": [
+      "The Trans-Siberian Railway passes through Chita on its way to the Pacific.",
+      "The sun shines here for well over 2,000 hours a year."
+    ],
+    "q": {
+      "q": "Which famous exiles were held in Chita from 1827?",
+      "a": "The Decembrists",
+      "x": [
+        "The Streltsy",
+        "The Old Believers"
+      ]
+    }
+  },
+  "Q959": {
+    "t": "The Trans-Siberian's end, on a hilly peninsula of bays",
+    "s": "Vladivostok climbs over the hills of a peninsula between two bays of the Sea of Japan, and its harbour, the Golden Horn, was named after Istanbul's. Look south for the long, fine line of a bridge to Russky Island. The city was founded in 1860, and it is the eastern end of the Trans-Siberian Railway, about 9,300 km from Moscow.",
+    "w": "A hilly city on a peninsula between two bays, a curved harbour in the middle and a long bridge south to an island.",
+    "f": [
+      "The Russky Bridge, opened in 2012, had the longest cable-stayed span in the world: 1,104 m.",
+      "The name joins the Russian words for “rule” and “east”."
+    ],
+    "q": {
+      "q": "Vladivostok's harbour is named after which bay in Istanbul?",
+      "a": "The Golden Horn",
+      "x": [
+        "The Silver Horn",
+        "The Golden Gate"
+      ]
+    }
+  },
+  "Q1993488": {
+    "t": "A remote river port near the delta of the Yana",
+    "s": "Nizhneyansk — “Lower Yana” — is a tiny settlement on the tundra near where the Yana River splits into a delta and meets the Laptev Sea. From above, the land around is freckled with countless thaw lakes, frozen and white for most of the year. Only a few hundred people remain in what was once a busier river port on this remote Arctic coast.",
+    "w": "A tiny settlement on flat tundra dotted with lakes, near a river breaking into many channels towards the sea.",
+    "f": [
+      "Far upstream on the Yana lies Verkhoyansk, one of the coldest inhabited places in the Northern Hemisphere.",
+      "On the lower Yana, archaeologists have found traces of people living in the Arctic about 32,000 years ago."
+    ],
+    "q": {
+      "q": "Which famously cold town lies upstream on the Yana?",
+      "a": "Verkhoyansk",
+      "x": [
+        "Oymyakon",
+        "Norilsk"
+      ]
+    }
+  },
+  "Q6610": {
+    "t": "The coldest big city, on a river kilometres wide",
+    "s": "Yakutsk sits on the west bank of the Lena, which here spreads into a maze of channels and islands several kilometres wide. It is often called the coldest major city on Earth: January averages near −40 °C, and ice fog can hang over the streets for days. The whole city stands on permafrost, so most buildings rest on piles driven deep into the frozen ground.",
+    "w": "A city on the west bank of an extremely wide, island-studded river, flat taiga all around; ice fog in winter.",
+    "f": [
+      "Cossacks led by Pyotr Beketov founded a fort on the Lena here in 1632.",
+      "The Lena Pillars, a UNESCO-listed wall of rock towers, stand beside the river about 200 km upstream."
+    ],
+    "q": {
+      "q": "Why do most buildings in Yakutsk stand on piles?",
+      "a": "Permafrost",
+      "x": [
+        "Floods",
+        "Earthquakes"
+      ]
+    }
+  },
+  "Q500895": {
+    "t": "A polar port beside the vast fan of the Lena Delta",
+    "s": "Tiksi is a small Arctic port on a bay of the Laptev Sea, backed by bare, low mountains. Just to the west spreads one of the great sights of the north: the Lena Delta, a fan of hundreds of channels and thousands of lakes, around 30,000 km² in all. For most of the year the sea here is frozen, and in midwinter the sun stays below the horizon for weeks.",
+    "w": "A small port on an icy bay; to the west, a gigantic delta fanning out into countless channels and lakes.",
+    "f": [
+      "The Lena Delta is the largest delta in the Arctic and a protected nature reserve.",
+      "Tiksi has served ships on the Northern Sea Route since the 1930s."
+    ],
+    "q": {
+      "q": "Which river's vast delta lies just west of Tiksi?",
+      "a": "The Lena",
+      "x": [
+        "The Yenisei",
+        "The Kolyma"
+      ]
+    }
+  },
+  "Q7968": {
+    "t": "A port between two bays of the Sea of Okhotsk",
+    "s": "Magadan sits on a neck of land between two bays of the Sea of Okhotsk, Nagaev and Gertner, with bare, rounded mountains rising behind it. In winter the sea freezes and the coast turns a uniform white. For most travellers this is where the Kolyma region begins: a vast land of mountains, gold-bearing rivers and larch forest stretching inland.",
+    "w": "A city on a narrow neck of land between two bays, bare hills behind; sea ice along the coast in winter.",
+    "f": [
+      "The Kolyma Highway links Magadan with Yakutsk, about 2,000 km away.",
+      "The Kolyma basin inland has been one of Russia's main gold-mining regions since the 1930s."
+    ],
+    "q": {
+      "q": "Which sea does Magadan stand on?",
+      "a": "The Sea of Okhotsk",
+      "x": [
+        "The Bering Sea",
+        "The Sea of Japan"
+      ]
+    }
+  },
+  "Q230628": {
+    "t": "A mining city beside a giant open-pit crater",
+    "s": "Erdenet lies among rolling green hills in northern Mongolia, and next to it you can't miss the mine: a vast, terraced grey pit and a broad, pale tailings pond. The town was built from 1974 to serve one of the largest copper deposits in Asia. Its name means roughly “with treasure”.",
+    "w": "A small city in green steppe hills, beside a huge terraced grey pit and a large pale tailings pond.",
+    "f": [
+      "Besides copper, the Erdenet mine produces molybdenum, a metal used to harden steel.",
+      "Copper concentrate is one of Mongolia's main exports."
+    ],
+    "q": {
+      "q": "What is mainly mined at Erdenet?",
+      "a": "Copper",
+      "x": [
+        "Coal",
+        "Gold"
+      ]
+    }
+  },
+  "Q23430": {
+    "t": "The world's coldest capital, in a steppe valley",
+    "s": "Ulaanbaatar stretches east–west along the valley of the Tuul River, with the forested ridge of Bogd Khan Mountain rising to the south and pale ger districts spilling up the hills to the north. Around it the treeless steppe rolls to the horizon. With an average yearly temperature below freezing, it is the coldest national capital on Earth.",
+    "w": "A long city in a wide river valley, a dark forested mountain to the south, bare rolling steppe all around.",
+    "f": [
+      "The city began in 1639 as a moving monastery camp and only settled on this spot in 1778.",
+      "Bogd Khan Mountain has been protected since the 18th century, making it one of the oldest nature reserves in the world.",
+      "The name means “red hero”; the city took it in 1924."
+    ],
+    "q": {
+      "q": "Among the world's capitals, Ulaanbaatar is the…",
+      "a": "Coldest",
+      "x": [
+        "Highest",
+        "Driest"
+      ]
+    }
+  },
+  "Q695360": {
+    "t": "A tiny Koryak capital near the Okhotsk shore",
+    "s": "Palana is a small settlement in the valley of the Palana River, a few kilometres from the Sea of Okhotsk on Kamchatka's remote north-west coast. Around it lies a wild country of tundra, dwarf pine and snow-streaked ridges rising towards the Sredinny Range. It is the administrative centre of the Koryak district, homeland of the Koryak people, reindeer herders and sea hunters.",
+    "w": "A small settlement in a river valley near the sea, amid tundra and low mountains; snow lingers on the ridges into summer.",
+    "f": [
+      "Palana was the capital of the Koryak Autonomous Okrug until it merged into Kamchatka Krai in 2007.",
+      "The settlement is so remote that most visitors arrive by plane."
+    ],
+    "q": {
+      "q": "Palana lies in the homeland of which people?",
+      "a": "The Koryaks",
+      "x": [
+        "The Chukchi",
+        "The Nenets"
+      ]
+    }
+  },
+  "Q7951": {
+    "t": "A harbour city at the foot of two smoking volcanoes",
+    "s": "Petropavlovsk-Kamchatsky lines the shore of Avacha Bay, one of the finest natural harbours in the world, and behind it rise two giant cones: Koryaksky, about 3,456 m, and the often steaming Avachinsky. No road links the city to the rest of Russia; everything comes by sea or air. Vitus Bering founded it in 1740 and named it after his two ships.",
+    "w": "A city along a wide, nearly enclosed bay, with two big snow-streaked volcanic cones right behind it.",
+    "f": [
+      "Bering's ships were the St Peter and the St Paul — hence the city's name.",
+      "Kamchatka has around 30 active volcanoes, and several can be seen from the city on a clear day."
+    ],
+    "q": {
+      "q": "Bering named the city after his two ships: the St Peter and the…",
+      "a": "St Paul",
+      "x": [
+        "St Andrew",
+        "St Nicholas"
+      ]
+    }
+  },
+  "Q7253": {
+    "t": "Home of rendang, between the ocean and the volcanoes",
+    "s": "Padang lies on a narrow coastal plain in West Sumatra, pressed between the Indian Ocean and the steep green wall of the Barisan Mountains, with volcanoes rising inland. It is the main city of the Minangkabau people, known for houses whose roofs curve up like buffalo horns. Their cooking, from rendang to fiery curries, is served in “Padang restaurants” all over Indonesia.",
+    "w": "A city on a thin coastal plain, steep green mountains behind, the open ocean in front and islands offshore.",
+    "f": [
+      "The Minangkabau are among the largest matrilineal societies in the world: land passes down through the women.",
+      "Legend says the name Minangkabau means “victorious buffalo”."
+    ],
+    "q": {
+      "q": "Among the Minangkabau, family land passes down through…",
+      "a": "The mothers",
+      "x": [
+        "The fathers",
+        "The eldest sons"
+      ]
+    }
+  },
+  "Q9361": {
+    "t": "A leafy grid city beneath a wall of snowy peaks",
+    "s": "Bishkek lies on the flat floor of the Chuy Valley, laid out on a green grid of tree-lined streets. Immediately to the south the Kyrgyz Ala-Too range rises like a wall, its peaks above 4,000 m snowy for most of the year. The city grew from Pishpek, a clay fortress built by the Khanate of Kokand in 1825.",
+    "w": "A green, gridded city on a flat valley floor, with a steep wall of snowy mountains just to the south.",
+    "f": [
+      "From 1926 to 1991 the city was called Frunze.",
+      "Ala Archa National Park, a gorge of glaciers and juniper, begins only about 40 km south of the centre.",
+      "The Chuy River, north of the city, forms part of the border with Kazakhstan."
+    ],
+    "q": {
+      "q": "What was Bishkek called from 1926 to 1991?",
+      "a": "Frunze",
+      "x": [
+        "Pishpek",
+        "Verny"
+      ]
+    }
   }
 }

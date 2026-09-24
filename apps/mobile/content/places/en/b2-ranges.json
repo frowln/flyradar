@@ -1273,5 +1273,319 @@
         "Jebel Toubkal"
       ]
     }
+  },
+  "Q23836082": {
+    "t": "Black volcanic spires in the heart of the Algerian Sahara",
+    "s": "Out of the Algerian Sahara rises the Ahaggar, or Hoggar: a high granite plateau crowned with dark volcanic peaks and needle-like plugs of old lava, weathered into fantastic shapes. It is the home ground of the Tuareg, and the town of Tamanrasset sits at its foot. Its highest peak, Mount Tahat, reaches about 2,900 m.",
+    "w": "A dark, rugged highland of black peaks and spires rising from pale desert, with dry valleys radiating outwards.",
+    "f": [
+      "On the Assekrem plateau, about 2,700 m up, stands the hermitage the French monk Charles de Foucauld built in 1911.",
+      "Wild Saharan olive trees survive in the Ahaggar’s high valleys, relics of a wetter past."
+    ],
+    "q": {
+      "q": "Which is the highest peak of the Ahaggar?",
+      "a": "Mount Tahat",
+      "x": [
+        "Emi Koussi",
+        "Assekrem"
+      ]
+    }
+  },
+  "Q170383": {
+    "t": "Dark granite islands in a sea of sand",
+    "s": "The Aïr rises from the Sahara like a cluster of dark islands: granite massifs, some almost perfectly round, surrounded by yellow sand. The rings are the roots of ancient volcanoes laid bare by erosion, and they show up clearly from the air. Between them, dry valleys hold acacias and a few Tuareg villages; the old caravan town of Agadez lies at the southern edge.",
+    "w": "Dark, rounded rock massifs, some ring-shaped, standing out against pale sand, with the smooth Ténéré dunes to the east.",
+    "f": [
+      "The Aïr and Ténéré Natural Reserves together form one of the largest protected areas in Africa, listed by UNESCO.",
+      "The old town of Agadez, with its tall mud-brick minaret, is a UNESCO World Heritage Site."
+    ],
+    "q": {
+      "q": "Which caravan town lies at the southern edge of the Aïr?",
+      "a": "Agadez",
+      "x": [
+        "Timbuktu",
+        "Tamanrasset"
+      ]
+    }
+  },
+  "Q404600": {
+    "t": "Forested hills that the Amur River slices in two",
+    "s": "Low, rolling and dark with forest, the Lesser Khingan rise between the plains of Manchuria and the Amur. The range is modest, mostly under 1,000 m, but here the great Amur cuts straight through it in a narrow, winding gorge. The hills are covered with Korean pine, larch and birch, turning gold and red in autumn.",
+    "w": "Low, dark-green forested hills with the broad Amur River squeezing through them in a winding gorge.",
+    "f": [
+      "At the range’s western foot lies Wudalianchi, a cluster of volcanoes that last erupted in 1719–21, damming a chain of five lakes.",
+      "Korean pine, whose seeds are sold as pine nuts, is one of the range’s main trees."
+    ],
+    "q": {
+      "q": "Which great river cuts through the Lesser Khingan in a gorge?",
+      "a": "The Amur",
+      "x": [
+        "The Songhua",
+        "The Ussuri"
+      ]
+    }
+  },
+  "Q155322": {
+    "t": "Tiger country on Russia’s Pacific shore",
+    "s": "A long, forested range runs some 1,000 km along Russia’s Pacific coast, north of Vladivostok. Its forests are unique: northern taiga mixes with southern broadleaf woods, Amur tigers share them with brown and Himalayan bears, and spruce grows beside wild grapes and lianas. From above it is a sea of ridges, dark green in summer and flecked with gold in autumn.",
+    "w": "Endless parallel forested ridges between the Ussuri valley and the sea, with small river mouths along the coast.",
+    "f": [
+      "On 12 February 1947 one of the largest iron meteorite showers ever seen fell here, leaving dozens of craters.",
+      "Central Sikhote-Alin is a UNESCO World Heritage Site that protects the Amur tiger’s home."
+    ],
+    "q": {
+      "q": "What fell on the Sikhote-Alin in February 1947?",
+      "a": "An iron meteorite shower",
+      "x": [
+        "Volcanic ash",
+        "A giant hailstorm"
+      ]
+    }
+  },
+  "Q215917": {
+    "t": "A frozen arc beside the Pole of Cold",
+    "s": "A great arc of bare, jagged mountains curves some 1,200 km along the east bank of the lower Lena, rising steeply above its broad, braided valley. Beyond the range lie Verkhoyansk and Oymyakon, the coldest inhabited places in the Northern Hemisphere, where winter can bring −67 °C. In summer the snow retreats to the summits; in winter everything is white and silent.",
+    "w": "A long wall of grey, snow-streaked peaks east of the wide, braided Lena, with empty, larch-dotted valleys between them.",
+    "f": [
+      "Verkhoyansk, beyond the range, recorded −67.8 °C in 1892, one of the lowest temperatures ever measured in an inhabited place.",
+      "Summer there can top +30 °C — a swing of about 100 degrees across the year.",
+      "Permafrost beneath the range reaches hundreds of metres deep."
+    ],
+    "q": {
+      "q": "Which town beyond the range is famed as a Pole of Cold?",
+      "a": "Verkhoyansk",
+      "x": [
+        "Norilsk",
+        "Vorkuta"
+      ]
+    }
+  },
+  "Q1072879": {
+    "t": "A snowy wall above the Silk Road’s Hexi Corridor",
+    "s": "Along the north-eastern edge of the Tibetan Plateau, the Qilian Mountains form a long snowy wall, their glaciers feeding the rivers that water the Hexi Corridor below. That narrow strip of oases, squeezed between the mountains and the Gobi, was the main route of the Silk Road into China. At the range’s northern foot, the Zhangye hills are striped red, orange and yellow.",
+    "w": "A long, white-capped range to the south, a green strip of oases and fields along its foot, and the grey-brown Gobi beyond.",
+    "f": [
+      "The Hexi Corridor was the main Silk Road route between China’s heartland and Central Asia.",
+      "Jiayuguan fort, the western end of the Ming Great Wall, stands at the foot of the Qilian."
+    ],
+    "q": {
+      "q": "Which Silk Road corridor runs along the Qilian’s northern foot?",
+      "a": "The Hexi Corridor",
+      "x": [
+        "The Wakhan Corridor",
+        "The Dzungarian Gate"
+      ]
+    }
+  },
+  "Q1156557": {
+    "t": "Green hills between the Yangtze and the Huai",
+    "s": "Between the Yangtze and the Huai River, the Dabie Mountains rise as a forested knot of peaks in central China, often wrapped in mist. They look gentle from above — green ridges, terraced tea slopes and reservoirs in the valleys — but their rocks tell a violent story: they were dragged more than 100 km down into the Earth and then brought back up.",
+    "w": "A compact cluster of green, forested ridges with reservoirs in the valleys, between two broad river plains.",
+    "f": [
+      "Tiny diamonds and coesite in the Dabie rocks prove they were once buried more than 100 km deep.",
+      "The mountains divide the basins of the Yangtze and the Huai.",
+      "Lu’an Guapian, a well-known Chinese green tea, is grown on the Dabie slopes."
+    ],
+    "q": {
+      "q": "How deep were the Dabie Mountains’ rocks once buried?",
+      "a": "More than 100 km",
+      "x": [
+        "About 1 km",
+        "About 10 km"
+      ]
+    }
+  },
+  "Q1195285": {
+    "t": "The ridges that shield southern China from winter",
+    "s": "Across southern China runs a jumble of rounded, forested ranges, the Nanling. They divide the Yangtze basin from the Pearl River basin and shelter Guangdong from the coldest winter winds, so subtropical crops grow on their southern side. From above, look for green hills scarred with red earth, rice terraces and, towards Guilin, jagged limestone pinnacles.",
+    "w": "Rounded green ridges running east–west, red earth and rice terraces, and sharp limestone pinnacles to the west near Guilin.",
+    "f": [
+      "Nanling simply means “southern ridges” in Chinese.",
+      "The Lingqu Canal, dug in the 3rd century BC, crossed these mountains to link the Yangtze and Pearl River systems."
+    ],
+    "q": {
+      "q": "Which two river basins do the Nanling divide?",
+      "a": "The Yangtze and the Pearl",
+      "x": [
+        "The Yellow and the Huai",
+        "The Mekong and the Red"
+      ]
+    }
+  },
+  "Q4527": {
+    "t": "India’s rain-soaked green wall above the Arabian Sea",
+    "s": "Running some 1,600 km parallel to India’s west coast, the Western Ghats are the first thing the summer monsoon hits: their seaward slopes are drenched and deep green, while the land behind them lies in a rain shadow. Around the Nilgiri Hills they rise to a high, rolling plateau of tea gardens and grassland. Just to the south, the Palghat Gap cuts a rare low pass through the wall.",
+    "w": "A steep, dark-green escarpment parallel to the coast, tea gardens on the Nilgiri plateau and the wide Palghat Gap to the south.",
+    "f": [
+      "The Western Ghats are a UNESCO World Heritage Site and one of the world’s biodiversity hotspots.",
+      "The neelakurinji shrub blooms here only once every 12 years, turning whole slopes blue-purple.",
+      "Anamudi, 2,695 m, is the highest peak in India south of the Himalayas."
+    ],
+    "q": {
+      "q": "How often does the neelakurinji of the Western Ghats bloom?",
+      "a": "Once every 12 years",
+      "x": [
+        "Once every 3 years",
+        "Once every 50 years"
+      ]
+    }
+  },
+  "Q465055": {
+    "t": "Broken hills where India’s great rivers break through",
+    "s": "Unlike the continuous wall of the Western Ghats, the Eastern Ghats are a broken chain of old, worn hills along India’s east coast. The great rivers of the Deccan — the Godavari, Krishna and Mahanadi — cut right through them on their way to the Bay of Bengal, fanning out into fertile deltas. In the north, forested hills around the Araku Valley grow coffee.",
+    "w": "Low, forested, broken hills parallel to the east coast, with wide rivers cutting through them to green deltas.",
+    "f": [
+      "The Borra Caves in the Eastern Ghats are among the largest caves in India.",
+      "Chilika Lake, near the northern end of the Ghats, is India’s largest coastal lagoon."
+    ],
+    "q": {
+      "q": "Where do the rivers that cut through the Eastern Ghats flow?",
+      "a": "Into the Bay of Bengal",
+      "x": [
+        "Into the Arabian Sea",
+        "Into the Gulf of Khambhat"
+      ]
+    }
+  },
+  "Q271435": {
+    "t": "The old line between northern and southern India",
+    "s": "For centuries Indians saw the Vindhya as the dividing line between north and south — the Gangetic plains on one side, the Deccan on the other. From above it is less a range than a long, broken escarpment of flat-topped sandstone hills. Along its southern foot flows the Narmada, one of the few big Indian rivers that runs west.",
+    "w": "A long line of flat-topped, scrub-covered sandstone hills and cliffs, with the Narmada valley along the southern side.",
+    "f": [
+      "The Bhimbetka rock shelters in the Vindhya foothills hold prehistoric paintings and are a UNESCO World Heritage Site.",
+      "The Buddhist stupas of Sanchi, begun in the 3rd century BC, stand on a hilltop in this region."
+    ],
+    "q": {
+      "q": "Which west-flowing river runs along the Vindhya’s southern foot?",
+      "a": "The Narmada",
+      "x": [
+        "The Godavari",
+        "The Chambal"
+      ]
+    }
+  },
+  "Q207692": {
+    "t": "Red cliffs, a winding river and the home of rock tea",
+    "s": "On the border of Fujian and Jiangxi, the Wuyi Mountains rise as forested ridges and bare red sandstone cliffs. The Nine-Bend River loops between them, and on narrow terraces among the rocks grows Wuyi rock tea, including the famous Da Hong Pao. From above, look for red rock walls standing out against the deep green.",
+    "w": "Dense green forest broken by bare red cliffs and domes, with a winding river threading between them.",
+    "f": [
+      "The Wuyi Mountains are a UNESCO World Heritage Site for both their nature and their culture.",
+      "Da Hong Pao tea from the few ancient bushes here has fetched record prices at auction.",
+      "The Neo-Confucian philosopher Zhu Xi taught in these mountains in the 12th century."
+    ],
+    "q": {
+      "q": "Which famous tea comes from the Wuyi Mountains?",
+      "a": "Da Hong Pao",
+      "x": [
+        "Longjing",
+        "Pu’er"
+      ]
+    }
+  },
+  "Q128500": {
+    "t": "The marmot mountains on the Kazakh–Chinese border",
+    "s": "A long, bare ridge runs east–west along the border of Kazakhstan and China, rising abruptly from dry steppe. The Tarbagatai take their name from the Mongolian word for marmot, and those burrowing animals still whistle on the grassy slopes. To the north lies the blue sheet of Lake Zaysan; to the south, the Dzungarian Basin opens out.",
+    "w": "A lone east–west ridge, snow-streaked in winter, rising from brown steppe, with Lake Zaysan to the north-east.",
+    "f": [
+      "The range’s highest point, Mount Tastau, falls just short of 3,000 m.",
+      "South of the range lies the Dzungarian Gate, a windswept pass that has long linked Central Asia and China."
+    ],
+    "q": {
+      "q": "Which animal gave the Tarbagatai their name?",
+      "a": "The marmot",
+      "x": [
+        "The golden eagle",
+        "The wild horse"
+      ]
+    }
+  },
+  "Q682334": {
+    "t": "The golden mountains at the edge of Tibet",
+    "s": "Altyn-Tagh means “golden mountains” in Turkic — a fitting name for these bare, sun-baked ridges. The range forms the north-eastern rim of the Tibetan Plateau, dropping steeply to the Tarim Basin and the salt flats of Lop Nur. Along it runs a huge fault, where the plateau slides sideways past the rest of Asia.",
+    "w": "Bare, tawny ridges rising steeply south of the desert, with the pale, ear-shaped salt flats of Lop Nur to the north-east.",
+    "f": [
+      "The Altyn Tagh Fault runs for about 1,600 km, one of the longest active faults in Asia.",
+      "Lop Nur, a dried-up lake, is ringed with salt bands that make it look like a giant ear from space.",
+      "The Lop Nur area is one of the last refuges of the wild Bactrian camel."
+    ],
+    "q": {
+      "q": "What does the name Altyn-Tagh mean?",
+      "a": "Golden mountains",
+      "x": [
+        "Black mountains",
+        "Heavenly mountains"
+      ]
+    }
+  },
+  "Q186547": {
+    "t": "Norway’s high spine of ice, fjords and bare plateaus",
+    "s": "The Scandinavian Mountains run about 1,700 km along the peninsula, mostly through Norway. From above they are less a line of peaks than a vast, bare highland scraped by ice, scattered with lakes and snowfields and slashed on the west by deep fjords. In Jotunheimen, the “home of the giants”, the land rises to the highest summits in northern Europe.",
+    "w": "Bare grey-brown plateaus with snowfields and countless lakes, deep fjords cutting in from the west, glaciers on the highest ground.",
+    "f": [
+      "Galdhøpiggen, 2,469 m, in Jotunheimen, is the highest peak in Scandinavia.",
+      "Jostedalsbreen is the largest glacier in mainland Europe.",
+      "Musk oxen roam the Dovrefjell plateau, brought back from Greenland in the mid-20th century."
+    ],
+    "q": {
+      "q": "Which is the highest peak in Norway?",
+      "a": "Galdhøpiggen",
+      "x": [
+        "Glittertind",
+        "Snøhetta"
+      ]
+    }
+  },
+  "Q1288": {
+    "t": "A great forested arc wrapped around Transylvania",
+    "s": "The Carpathians curve through Central and Eastern Europe in an arc about 1,500 km long, and from above you can see how they cradle the Transylvanian Basin like a horseshoe. Their slopes carry some of Europe’s largest surviving beech and spruce forests, home to many brown bears, wolves and lynx. Only in the Tatras do they rise to sharp, alpine-looking peaks.",
+    "w": "A curving band of dark-forested ridges, with the patchwork fields and towns of the Transylvanian Basin inside the arc.",
+    "f": [
+      "Gerlachovský štít in Slovakia’s High Tatras, 2,655 m, is the highest peak of the Carpathians.",
+      "Romania’s Carpathians hold one of the largest brown bear populations in Europe.",
+      "The Danube cuts through the range at the Iron Gates, a gorge on the border of Serbia and Romania."
+    ],
+    "q": {
+      "q": "Where does the Danube cut through the Carpathians?",
+      "a": "The Iron Gates",
+      "x": [
+        "The Wachau Valley",
+        "The Schlögen Loop"
+      ]
+    }
+  },
+  "Q377264": {
+    "t": "The long, bony spine of Italy",
+    "s": "The Apennines run some 1,200 km through Italy, from Liguria to the toe of Calabria, and from above they are its unmistakable backbone: grey limestone ridges, beech forest and towns clustered on hilltops. They reach their highest in Abruzzo, at the Gran Sasso. Nearby, look for a strangely flat oval of fields ringed by mountains — the bed of Lake Fucino, drained in the 19th century.",
+    "w": "A grey-green mountain spine down the middle of Italy; in Abruzzo, the flat oval of the drained Fucino basin among the peaks.",
+    "f": [
+      "Corno Grande in the Gran Sasso massif, 2,912 m, is the highest peak of the Apennines.",
+      "Under Emperor Claudius the Romans dug a 5.6-km tunnel to drain Lake Fucino, but it was fully drained only in the 1870s."
+    ],
+    "q": {
+      "q": "Which is the highest peak of the Apennines?",
+      "a": "Corno Grande",
+      "x": [
+        "Monte Vettore",
+        "Monte Amaro"
+      ]
+    }
+  },
+  "Q12431": {
+    "t": "A wall between Spain and France, with a country inside",
+    "s": "From the Atlantic to the Mediterranean, the Pyrenees form an almost unbroken wall about 430 km long between Spain and France. The French side is greener and steeper; the Spanish side is drier, with long ridges and ochre valleys. Tucked high in the middle is Andorra, a small country of deep valleys and ski slopes.",
+    "w": "A continuous snowy crest from sea to sea, with greener valleys on the French side and drier ochre ones on the Spanish side.",
+    "f": [
+      "Aneto, 3,404 m, on the Spanish side, is the highest peak of the Pyrenees.",
+      "The waterfall in the Cirque de Gavarnie drops about 420 m, one of the tallest in Europe.",
+      "Andorra la Vella, at about 1,020 m, is the highest capital city in Europe."
+    ],
+    "q": {
+      "q": "Which is the highest peak of the Pyrenees?",
+      "a": "Aneto",
+      "x": [
+        "Monte Perdido",
+        "Vignemale"
+      ]
+    }
   }
 }

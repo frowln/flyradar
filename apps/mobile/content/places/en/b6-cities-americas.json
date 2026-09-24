@@ -1582,5 +1582,315 @@
         "By railway from Canada"
       ]
     }
+  },
+  "Q79638": {
+    "t": "A river town under the aurora, in the heart of Alaska",
+    "s": "Fairbanks lies deep in interior Alaska, where the Chena River meets the broad, braided Tanana, surrounded by spruce forest and low hills. It began as a trading post in 1901, and a gold strike the next year turned it into a boom town. Its climate is extreme: winters can drop below −40 °C, while summer nights barely get dark.",
+    "w": "A spread-out town on flat forested lowland beside a wide, braided river; the white wall of the Alaska Range far to the south.",
+    "f": [
+      "Since 1906 a Midnight Sun baseball game has been played here around the solstice without floodlights.",
+      "In deep winter, cold still air can trap a layer of ice fog over the city.",
+      "The town was named after Charles Fairbanks, a senator who later became US vice-president."
+    ],
+    "q": {
+      "q": "What is played in Fairbanks near midnight each June without floodlights?",
+      "a": "A baseball game",
+      "x": [
+        "A football match",
+        "A golf tournament"
+      ]
+    }
+  },
+  "Q1013046": {
+    "t": "An oil field on Arctic tundra, where the pipeline starts",
+    "s": "Prudhoe Bay is less a town than a work camp on the flat Arctic coast beside the Beaufort Sea. Beneath it lies the largest oil field in North America, found in 1968, and from here the Trans-Alaska Pipeline begins its journey of about 1,300 km south. Around it the tundra is speckled with thousands of lakes, many stretched in the same direction.",
+    "w": "Flat tundra peppered with elongated lakes; a web of gravel roads and pads; sea ice or grey sea to the north.",
+    "f": [
+      "Sir John Franklin named the bay in 1826 after his friend Algernon Percy, Lord Prudhoe.",
+      "The Dalton Highway, one of the most remote roads in the US, ends here at Deadhorse."
+    ],
+    "q": {
+      "q": "Who named Prudhoe Bay in 1826?",
+      "a": "Sir John Franklin",
+      "x": [
+        "James Cook",
+        "Vitus Bering"
+      ]
+    }
+  },
+  "Q3238": {
+    "t": "A capital in a bowl of pine-covered mountains",
+    "s": "Tegucigalpa fills a tight mountain basin about 1,000 m up, its houses spilling up the slopes from the Choluteca River. Across the river lies its twin, Comayagüela; together they form the capital. The town grew from a silver-mining settlement founded in 1578 and became Honduras's capital in 1880. Pine-covered ridges ring the whole bowl.",
+    "w": "A dense city in a small mountain bowl, climbing the surrounding slopes; a river through the middle; the airport in a valley to the south.",
+    "f": [
+      "Toncontín airport lies among hills, and pilots must make a tight, low turn on the approach.",
+      "The capital moved here from the colonial city of Comayagua, about 80 km to the north-west."
+    ],
+    "q": {
+      "q": "Which city faces Tegucigalpa across the Choluteca River?",
+      "a": "Comayagüela",
+      "x": [
+        "Comayagua",
+        "San Pedro Sula"
+      ]
+    }
+  },
+  "Q10717": {
+    "t": "A Dutch-drained capital hiding behind a seawall",
+    "s": "Georgetown lies at the mouth of the Demerara River on a coast so low that much of the city sits below the level of high tide. Dutch colonists drained it with canals and sluices, and a long seawall still holds back the Atlantic. The sea here is brown, stained by silt carried along the coast. The city took its present name in 1812, after King George III.",
+    "w": "A flat city at the mouth of a brown river on a straight, muddy coast; a long floating bridge across the river just upstream.",
+    "f": [
+      "The Demerara Harbour Bridge, nearly 2 km long, rests on floating pontoons.",
+      "St. George's Cathedral is one of the tallest wooden churches in the world."
+    ],
+    "q": {
+      "q": "What protects low-lying Georgetown from the Atlantic?",
+      "a": "A long seawall",
+      "x": [
+        "Coral reefs",
+        "High sand dunes"
+      ]
+    }
+  },
+  "Q34261": {
+    "t": "A capital at the head of a vast horseshoe bay",
+    "s": "Port-au-Prince sits at the innermost point of the Gulf of Gonâve, a great horseshoe of sea between Haiti's two long peninsulas. The city climbs from the waterfront up steep slopes towards the mountains of the Massif de la Selle. Out in the gulf lies the long, flat island of Gonâve. The French founded the city in 1749; Haiti won its independence in 1804.",
+    "w": "A city at the head of a wide bay, rising up mountain slopes to the south-east; a long island in the gulf to the west.",
+    "f": [
+      "The bay is said to take its name from a French ship, Le Prince, that anchored here in 1706.",
+      "Pic la Selle, Haiti's highest peak at about 2,680 m, stands in the mountains south-east of the city."
+    ],
+    "q": {
+      "q": "Which island lies out in the bay off Port-au-Prince?",
+      "a": "Gonâve",
+      "x": [
+        "Tortuga",
+        "Île-à-Vache"
+      ]
+    }
+  },
+  "Q3001": {
+    "t": "A wooden Dutch colonial capital on a jungle river",
+    "s": "Paramaribo lines the west bank of the wide, brown Suriname River, some 15 km from the Atlantic. Its old centre of white wooden houses and churches is a UNESCO World Heritage site. In 1667, under the Treaty of Breda, the Dutch kept this colony while England kept New Amsterdam — today's New York. Beyond the city, rainforest covers most of the country.",
+    "w": "A low city on the west bank of a broad brown river near the coast; a long bridge across it; unbroken green forest inland.",
+    "f": [
+      "The Jules Wijdenbosch Bridge across the Suriname River is about 1.5 km long.",
+      "Forest covers more than 90 per cent of Suriname, one of the highest shares of any country."
+    ],
+    "q": {
+      "q": "Under the 1667 treaty the Dutch kept Suriname. What did England keep?",
+      "a": "New Amsterdam (New York)",
+      "x": [
+        "Jamaica",
+        "Barbados"
+      ]
+    }
+  },
+  "Q5582862": {
+    "t": "The Inca capital, 3,400 m up in an Andean valley",
+    "s": "Cuzco fills a narrow valley high in the Andes, about 3,400 m above sea level, a sea of terracotta roofs between bare, brown-green slopes. This was the capital of the Inca Empire, which stretched along the Andes from today's Ecuador to Chile. The Spanish arrived in 1533 and built their churches on Inca stone walls. Machu Picchu lies about 75 km to the north-west.",
+    "w": "A city of red-brown roofs filling a high, narrow valley; bare mountains around; a runway squeezed along the valley floor.",
+    "f": [
+      "Tradition says the Inca city was laid out in the shape of a puma.",
+      "The historic centre has been a UNESCO World Heritage site since 1983.",
+      "The snowy peak of Ausangate, over 6,300 m high, rises about 100 km to the south-east."
+    ],
+    "q": {
+      "q": "Which empire had its capital at Cuzco?",
+      "a": "The Inca Empire",
+      "x": [
+        "The Aztec Empire",
+        "The Maya"
+      ]
+    }
+  },
+  "Q272795": {
+    "t": "A green oasis at Peru's southern tip",
+    "s": "Tacna is a patch of green in one of the driest places on Earth, the northern edge of the Atacama Desert, where rain may add up to only a few millimetres a year. The city lives off the thin Caplina River coming down from the Andes, whose snowy peaks line the eastern horizon. The border with Chile runs only about 35 km to the south.",
+    "w": "A mid-sized city in otherwise bare, beige desert; green irrigated fields along a narrow valley; the Andes rising to the east.",
+    "f": [
+      "Tacna is the southernmost city in Peru.",
+      "Olive groves around the city make the region one of Peru's main olive producers."
+    ],
+    "q": {
+      "q": "Which country's border lies just south of Tacna?",
+      "a": "Chile",
+      "x": [
+        "Bolivia",
+        "Argentina"
+      ]
+    }
+  },
+  "Q214173": {
+    "t": "An oval colonial core beside a vast mud-brick ruin",
+    "s": "Trujillo sits on the desert coast of northern Peru, its old centre neatly enclosed by an oval avenue that follows the line of the colonial city wall. Just west, towards the sea, sprawl the eroded mud-brick ruins of Chan Chan, capital of the Chimú kingdom and the largest adobe city of the pre-Columbian Americas. The Spanish founded Trujillo in 1534.",
+    "w": "A city on a desert coastal plain between the sea and bare mountains; green irrigated valley fields around it.",
+    "f": [
+      "Chan Chan's ruins cover about 20 km² and have been a UNESCO World Heritage site since 1986.",
+      "The city is named after Trujillo in Spain, home town of Francisco Pizarro.",
+      "Fishermen at nearby Huanchaco still head out on small reed boats called caballitos de totora."
+    ],
+    "q": {
+      "q": "Which people built Chan Chan, near Trujillo?",
+      "a": "The Chimú",
+      "x": [
+        "The Inca",
+        "The Nazca"
+      ]
+    }
+  },
+  "Q840712": {
+    "t": "Vineyards and giant dunes in the Peruvian desert",
+    "s": "Ica is a green oasis in the coastal desert of southern Peru, watered by a river from the Andes and surrounded by huge sand dunes. Its irrigated valley is the heart of Peru's grape growing and the home of pisco, the local grape brandy. Just west of the city, the tiny lagoon of Huacachina sits in a hollow ringed by towering dunes.",
+    "w": "A city in a green valley strip cutting through pale desert; big, sharp-crested dunes to the west.",
+    "f": [
+      "The famous Nazca Lines lie roughly 100 km to the south-east, though they are too fine to see from cruise height.",
+      "Rain is so rare here that the valley depends almost entirely on water from the Andes."
+    ],
+    "q": {
+      "q": "What is Huacachina, near Ica?",
+      "a": "A small lagoon among dunes",
+      "x": [
+        "A volcanic crater lake",
+        "A salt flat"
+      ]
+    }
+  },
+  "Q2933": {
+    "t": "The 'Mother of Cities' on a bend of the Paraguay River",
+    "s": "Asunción spreads along the east bank of the Paraguay River where it curves around a wide bay. Across the water begins the Chaco, a flat, green-brown plain of marshes and scrub running west for hundreds of kilometres. Founded in 1537, it is one of the oldest cities in South America, and its settlers went on to found many others, including Buenos Aires for good in 1580.",
+    "w": "A city on the outside of a big river bend, beside a rounded bay; flat, wet, scrubby plains across the river to the west.",
+    "f": [
+      "The Pilcomayo River joins the Paraguay just downstream of the city.",
+      "Santa Cruz de la Sierra, now in Bolivia, was also founded by an expedition from Asunción, in 1561."
+    ],
+    "q": {
+      "q": "Why is Asunción called the 'Mother of Cities'?",
+      "a": "Its settlers founded many other cities",
+      "x": [
+        "It is the oldest city in the Americas",
+        "It has the oldest cathedral"
+      ]
+    }
+  },
+  "Q3274": {
+    "t": "A lakeside capital dotted with round crater lakes",
+    "s": "Managua stretches along the southern shore of Lake Managua, and within the city itself you can spot small, round crater lakes — old volcanic vents now filled with water. At the far north-western end of the lake rises the near-perfect cone of Momotombo. The city became Nicaragua's capital in 1852, a compromise between the rival cities of León and Granada.",
+    "w": "A low, sprawling city on a big lake's south shore; round blue crater lakes in and around it; a volcanic cone to the north-west.",
+    "f": [
+      "Laguna de Asososca, one of the crater lakes, supplies part of the city's drinking water.",
+      "Lake Nicaragua, the largest lake in Central America, lies about 30 km to the south-east."
+    ],
+    "q": {
+      "q": "Why was Managua made Nicaragua's capital in 1852?",
+      "a": "As a compromise between rival cities",
+      "x": [
+        "It had the best harbour",
+        "It was the largest city"
+      ]
+    }
+  },
+  "Q3306": {
+    "t": "Where ships queue for the Panama Canal",
+    "s": "Look out to sea off Panama City and you'll often see dozens of ships at anchor, waiting their turn for the canal. The city's towers line a curving bay right beside the canal's Pacific entrance. Founded in 1519, the original town was the first European city on the Pacific coast of the Americas. The canal itself opened in 1914 and cuts about 80 km across the isthmus.",
+    "w": "A high-rise city along a curving bay; ships dotted offshore; a canal channel and a bridge just west of the city.",
+    "f": [
+      "Oddly, the canal's Pacific end lies further east than its Atlantic end.",
+      "The Amador Causeway, linking small islands at the canal mouth, was built with rock dug out for the canal.",
+      "Locks lift ships about 26 m to Gatún Lake in the middle of the isthmus."
+    ],
+    "q": {
+      "q": "Which end of the Panama Canal lies further east?",
+      "a": "The Pacific end",
+      "x": [
+        "The Atlantic end",
+        "Both lie on the same longitude"
+      ]
+    }
+  },
+  "Q124739": {
+    "t": "A city pressed right up against the US border",
+    "s": "Tijuana fills a jumble of mesas and canyons in Mexico's far north-west corner, and its northern edge is a hard, straight line: the border with the United States, with San Diego beyond. The airport's runway runs just south of that line, so close that a footbridge lets passengers walk straight in from the US side. The city was officially founded in 1889.",
+    "w": "A dense city on hilly, canyon-cut ground, cut off to the north by a sharp straight line; the Pacific to the west.",
+    "f": [
+      "The San Ysidro crossing between Tijuana and San Diego is one of the busiest land border crossings in the world.",
+      "The Tijuana River flows north across the border and reaches the Pacific in the US."
+    ],
+    "q": {
+      "q": "What runs right alongside Tijuana airport's runway?",
+      "a": "The US–Mexico border",
+      "x": [
+        "The Pacific shore",
+        "An irrigation canal"
+      ]
+    }
+  },
+  "Q61302": {
+    "t": "A high-desert capital, gateway to the Copper Canyon",
+    "s": "Chihuahua sits on a wide, dry plateau about 1,400 m up, ringed by bare, rocky ranges; it is the capital of Mexico's largest state. It was founded in 1709 as a silver-mining town. From here the Chihuahua–Pacific railway heads south-west across the Sierra Madre and through the Copper Canyon, a system of gorges that is deeper in places than the Grand Canyon.",
+    "w": "A city on a flat, tan high-desert basin, encircled by bare rocky ranges; the dark Sierra Madre far to the west.",
+    "f": [
+      "The Chihuahua–Pacific railway, completed in 1961, crosses dozens of bridges and runs through dozens of tunnels.",
+      "The tiny dog breed takes its name from the state of Chihuahua."
+    ],
+    "q": {
+      "q": "What sets out from Chihuahua through the Copper Canyon?",
+      "a": "A railway to the Pacific coast",
+      "x": [
+        "A navigable river",
+        "A cable car line"
+      ]
+    }
+  },
+  "Q40194": {
+    "t": "A Pacific port on a peninsula, just south of the tropic",
+    "s": "Mazatlán sits on a rocky peninsula on Mexico's Pacific coast, with a long seafront curving north along the beach and three small islands just offshore. The Tropic of Cancer passes only about 25 km to the north, so at the June solstice the midday sun here is almost directly overhead. The name comes from Nahuatl and means 'place of deer'.",
+    "w": "A city on a knobbly peninsula and along a long, straight beach; small islands offshore; green hills and the Sierra Madre inland.",
+    "f": [
+      "The lighthouse on Cerro del Crestón shines from about 157 m above the sea, one of the highest in the world.",
+      "Ferries cross the Gulf of California from here to La Paz, in Baja California."
+    ],
+    "q": {
+      "q": "What does 'Mazatlán' mean in Nahuatl?",
+      "a": "Place of deer",
+      "x": [
+        "Place of fish",
+        "Place of the sun"
+      ]
+    }
+  },
+  "Q273014": {
+    "t": "An oil port among lagoons at the mouth of the Pánuco",
+    "s": "Tampico lies a few kilometres up the Pánuco River from the Gulf of Mexico, and water is everywhere: lagoons within the city, marshes around it, the wide brown river on its southern side. In the early 1900s oil struck nearby turned it into one of the busiest oil ports in the world. Look for the long cable-stayed bridge across the river.",
+    "w": "A city between lagoons and a wide river near the coast; marshes all around; a long bridge across the river to the south.",
+    "f": [
+      "The modern city was refounded in 1823 near the site of an older colonial settlement.",
+      "Laguna del Carpintero, a lagoon right in the city, is home to crocodiles."
+    ],
+    "q": {
+      "q": "What made Tampico boom in the early 1900s?",
+      "a": "Oil",
+      "x": [
+        "Silver",
+        "Sugar"
+      ]
+    }
+  },
+  "Q81398": {
+    "t": "A horseshoe bay ringed by a hillside amphitheatre",
+    "s": "Acapulco wraps around one of the most perfectly shaped bays on the Pacific, a deep blue horseshoe with the city climbing the steep hills on all sides like the seats of an amphitheatre. For some 250 years, from 1565, Spanish galleons sailed from here to Manila, carrying silver west and bringing back silk and porcelain from Asia.",
+    "w": "A deep, rounded bay almost closed by headlands; white buildings climbing the green hills around it; long beaches to the east.",
+    "f": [
+      "Cliff divers at La Quebrada plunge about 35 m into a narrow rocky inlet.",
+      "The star-shaped Fort of San Diego was built in the 1600s to guard the galleon harbour."
+    ],
+    "q": {
+      "q": "Which Asian port did Acapulco's galleons sail to?",
+      "a": "Manila",
+      "x": [
+        "Macau",
+        "Nagasaki"
+      ]
+    }
   }
 }

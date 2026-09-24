@@ -2390,5 +2390,345 @@
         "The Danube"
       ]
     }
+  },
+  "Q1770": {
+    "t": "A medieval Hanseatic town on a limestone bay",
+    "s": "Tallinn sits on a wide bay of the Gulf of Finland, with wooded islands out in the water and Helsinki about 80 km across the sea. Its medieval old town, one of the best preserved in Northern Europe, clusters around Toompea, a limestone hill that belongs to the Baltic Klint, a long coastal escarpment. As Reval, it was a prosperous Hanseatic port.",
+    "w": "A compact city curving around a broad bay with a few wooded islands, and flat, forested coast stretching east and west.",
+    "f": [
+      "The historic centre of Tallinn has been a UNESCO World Heritage site since 1997.",
+      "The Baltic Klint, a limestone escarpment, runs for more than 1,000 km from Sweden into Russia.",
+      "Tallinn's name is often explained as 'Danish town', recalling Danish rule in the 13th century."
+    ],
+    "q": {
+      "q": "What was Tallinn's old Hanseatic name?",
+      "a": "Reval",
+      "x": [
+        "Dorpat",
+        "Memel"
+      ]
+    }
+  },
+  "Q261887": {
+    "t": "A river town where grassy plateaus meet forested valleys",
+    "s": "Kikwit lies on the Kwilu River in south-western Congo, a busy regional town in a landscape of grassy plateaus sliced by deep, forested valleys. From above, look for the striking pattern: pale savanna on the high ground and dark green ribbons of gallery forest along every stream. The Kwilu flows north towards the Kasai and, eventually, the Congo.",
+    "w": "A town on a winding river, with pale grassy plateaus and dark green strips of forest lining the valleys.",
+    "f": [
+      "The Kwilu joins the Kwango, which feeds the Kasai, one of the Congo's largest tributaries.",
+      "The country around Kikwit has long been known for its oil palms."
+    ],
+    "q": {
+      "q": "Which river flows through Kikwit?",
+      "a": "The Kwilu",
+      "x": [
+        "The Kwango",
+        "The Lomami"
+      ]
+    }
+  },
+  "Q211073": {
+    "t": "A rocky river port where the ocean ships must stop",
+    "s": "Matadi clings to steep, rocky hills on the left bank of the Congo, about 150 km from the Atlantic. It is as far as ocean-going ships can sail: just upstream, the river squeezes into gorges and rapids. In the 1890s a railway was built to carry goods around them to Kinshasa. The town's name means 'stones' in Kikongo.",
+    "w": "A hilly, rocky town on a narrow, fast stretch of the Congo, crossed by a single long suspension bridge.",
+    "f": [
+      "The Matadi–Kinshasa railway, built between 1890 and 1898, bypasses the Livingstone Falls.",
+      "The Matadi Bridge over the Congo has a main span of about 520 metres.",
+      "Upstream at Yelala Falls, the Portuguese navigator Diogo Cão left an inscription on the rocks in 1485."
+    ],
+    "q": {
+      "q": "What does the name Matadi mean in Kikongo?",
+      "a": "Stones",
+      "x": [
+        "Harbour",
+        "Sandbank"
+      ]
+    }
+  },
+  "Q271404": {
+    "t": "A mining town ringed by giant open pits",
+    "s": "Kolwezi sits on a high plateau in the south of the Congo, on one of the richest mineral belts on Earth. From above, the land around the town is scarred by huge open-pit mines: terraced craters, grey spoil heaps and pale tailings ponds. The ores here carry copper and cobalt, a metal now in demand for rechargeable batteries.",
+    "w": "A town surrounded by vast terraced open-pit mines, grey spoil heaps and flat tailings ponds on a high plateau.",
+    "f": [
+      "The Democratic Republic of the Congo produces more than half of the world's mined cobalt, much of it around Kolwezi.",
+      "The Central African Copperbelt stretches from Kolwezi across the border into Zambia.",
+      "Kolwezi lies about 1,450 metres above sea level."
+    ],
+    "q": {
+      "q": "Which battery metal is mined in large amounts around Kolwezi?",
+      "a": "Cobalt",
+      "x": [
+        "Lithium",
+        "Nickel"
+      ]
+    }
+  },
+  "Q187593": {
+    "t": "Copper capital with a black mountain of slag",
+    "s": "Lubumbashi spreads across the high, flat plateau of the Copperbelt in the far south-east of the Congo, only a few dozen kilometres from Zambia. Look for a dark hill near the city centre: a huge heap of slag left by a century of copper smelting, beside the smelter's tall chimney. The city was founded in 1910 as Élisabethville.",
+    "w": "A grid-planned city on a flat plateau, with a dark, flat-topped slag heap near its centre and dry woodland around.",
+    "f": [
+      "Lubumbashi is one of the largest cities in the Democratic Republic of the Congo.",
+      "The Zambian border lies only some 30 km away.",
+      "Miombo woodland, a dry forest of broad-leaved trees, covers much of the plateau around the city."
+    ],
+    "q": {
+      "q": "What was Lubumbashi called when it was founded in 1910?",
+      "a": "Élisabethville",
+      "x": [
+        "Léopoldville",
+        "Stanleyville"
+      ]
+    }
+  },
+  "Q3876": {
+    "t": "A garden capital spread across the central plateau",
+    "s": "Lilongwe lies on Malawi's central plateau, about 1,050 metres up, a spread-out city of separate districts divided by green belts and the winding Lilongwe River. Around it, red soil and farmland stretch in every direction, much of it planted with maize and tobacco. About 100 km to the east, the land drops to the shore of Lake Malawi.",
+    "w": "A loose, spread-out city of separate districts among trees and red farmland, crossed by a small winding river.",
+    "f": [
+      "Lilongwe replaced Zomba as Malawi's capital in 1975.",
+      "Lake Malawi is home to more species of fish than any other lake on Earth.",
+      "Many of Lilongwe's neighbourhoods have numbers instead of names, such as Area 3 or Area 47."
+    ],
+    "q": {
+      "q": "Which lake lies about 100 km east of Lilongwe?",
+      "a": "Lake Malawi",
+      "x": [
+        "Lake Tanganyika",
+        "Lake Kariba"
+      ]
+    }
+  },
+  "Q3825": {
+    "t": "A 'free town' on an estuary just north of the equator",
+    "s": "Libreville lies on the north shore of the Komo estuary, where the river opens into the Atlantic, only about 40 km north of the equator. Rainforest reaches almost to the city's edge, and across the estuary the mangroves and beaches of Pongara National Park stay wild. The city was founded in 1849 by freed Africans rescued from a slave ship.",
+    "w": "A city along the north shore of a wide estuary opening to the sea, with dense green forest and mangroves on the far side.",
+    "f": [
+      "The beaches of Pongara, across the estuary, are a nesting ground for leatherback turtles.",
+      "Close to 90 percent of Gabon is covered by forest.",
+      "Libreville is Gabon's capital and by far its largest city."
+    ],
+    "q": {
+      "q": "What does the name Libreville mean?",
+      "a": "Free town",
+      "x": [
+        "New town",
+        "River town"
+      ]
+    }
+  },
+  "Q501715": {
+    "t": "An island oil town on the edge of a great delta",
+    "s": "Port-Gentil stands near the tip of Cape Lopez on Mandji Island, a flat, sandy island at the mouth of the Ogooué, Gabon's great river. Behind it spreads the river's delta, a maze of channels, lagoons and mangroves. The town is the centre of Gabon's oil industry, and at night you may spot the lights of offshore platforms out in the Atlantic.",
+    "w": "A small town on the northern tip of a flat, sandy island, with a vast delta of channels and mangroves to the south-east.",
+    "f": [
+      "The Ogooué is Gabon's longest river, draining most of the country.",
+      "Cape Lopez is named after the Portuguese navigator Lopo Gonçalves, who sailed past it in the 1470s."
+    ],
+    "q": {
+      "q": "At the mouth of which river does Port-Gentil stand?",
+      "a": "The Ogooué",
+      "x": [
+        "The Congo",
+        "The Sanaga"
+      ]
+    }
+  },
+  "Q9427": {
+    "t": "The fabled desert city, just beyond the Niger",
+    "s": "Timbuktu stands where desert meets river: the Sahara's sand reaches its northern edge, while the Niger flows about 15 km to the south. From above, it is a small, sand-coloured town that could be anywhere. Yet from the 14th to the 16th centuries it was a great centre of trade and Islamic scholarship, its libraries filled with manuscripts.",
+    "w": "A small, sand-coloured town on the edge of dunes, with the green floodplain of the Niger a short way to the south.",
+    "f": [
+      "The Djinguereyber Mosque, built around 1327, is made largely of mud and straw.",
+      "Families in Timbuktu have kept tens of thousands of old manuscripts on law, astronomy and medicine.",
+      "Timbuktu has been a UNESCO World Heritage site since 1988."
+    ],
+    "q": {
+      "q": "Which Mali emperor had Timbuktu's Djinguereyber Mosque built?",
+      "a": "Mansa Musa",
+      "x": [
+        "Sundiata Keita",
+        "Askia Muhammad"
+      ]
+    }
+  },
+  "Q3688": {
+    "t": "A desert capital built on the dunes by the Atlantic",
+    "s": "Nouakchott lies where the Sahara meets the Atlantic, a low, sprawling city on flat sand between the ocean and a sea of dunes. It was little more than a village when work began in 1958 on a new capital, planned for about 15,000 people. Today it is home to around a million, and the desert still presses against its edges.",
+    "w": "A low, sprawling city on flat sand, a straight Atlantic beach to the west and orange dunes pressing in from the east.",
+    "f": [
+      "Banc d'Arguin National Park, a UNESCO site up the coast, hosts millions of wintering shorebirds.",
+      "Much of the city lies only a few metres above sea level.",
+      "The name Nouakchott is often translated as 'place of the winds'."
+    ],
+    "q": {
+      "q": "In which year did work begin on Nouakchott as a new capital?",
+      "a": "1958",
+      "x": [
+        "1901",
+        "1985"
+      ]
+    }
+  },
+  "Q3703": {
+    "t": "A capital on the Niger beneath a sandstone escarpment",
+    "s": "Bamako spreads along both banks of the Niger, a wide, shallow river braided with sandbanks and small rocky islands. Behind the city to the north rises the edge of the Manding Plateau, a line of sandstone cliffs and hills. Bridges tie the two halves of the city together. The name is often said to mean 'crocodile river' in Bambara.",
+    "w": "A broad city on both banks of a wide river with sandbanks and bridges, backed by sandstone hills to the north.",
+    "f": [
+      "Just downstream of the centre, the Sotuba rapids break the flow of the Niger.",
+      "Bamako is one of the fastest-growing cities in Africa.",
+      "The Niger rises only about 250 km from the Atlantic, yet flows inland, away from it, past Bamako."
+    ],
+    "q": {
+      "q": "What is Bamako's name often said to mean?",
+      "a": "Crocodile river",
+      "x": [
+        "Hippo pool",
+        "Red cliff"
+      ]
+    }
+  },
+  "Q735645": {
+    "t": "An oasis gateway to the Adrar and the Eye of the Sahara",
+    "s": "Atar is an oasis town of date palms in a valley of the Adrar plateau, in the heart of the Mauritanian Sahara. Dark sandstone cliffs and orange dunes surround it. Some 180 km to the north-east lies one of the most famous sights seen from the air: the Richat Structure, or Eye of the Sahara, a vast set of concentric rock rings.",
+    "w": "A green strip of palm groves in a dry valley between dark plateau cliffs, with sand dunes spreading around.",
+    "f": [
+      "The Richat Structure is about 40 km across, big enough to be picked out by astronauts.",
+      "Chinguetti, an old caravan town about 80 km to the east, is a UNESCO World Heritage site.",
+      "Every summer the date harvest, the guetna, draws families to the oases of the Adrar."
+    ],
+    "q": {
+      "q": "What is the Eye of the Sahara, north-east of Atar?",
+      "a": "An eroded dome of rock layers",
+      "x": [
+        "A meteorite crater",
+        "A dried-up salt lake"
+      ]
+    }
+  },
+  "Q213507": {
+    "t": "A mud-brick town that becomes an island in the flood",
+    "s": "Djenné stands in the inland delta of the Niger, on a patch of higher ground that the Bani River's floods turn into an island each rainy season. Its Great Mosque is the largest mud-brick building in the world, and every year the townspeople replaster it together in a festival. From above, look for a compact brown town ringed by water or green floodplain.",
+    "w": "A compact, earth-brown town on a low island in a wide, flat floodplain that turns to water in the wet season.",
+    "f": [
+      "The present Great Mosque dates from 1907, rebuilt on the site of a much older mosque.",
+      "Nearby Djenné-Djeno, settled around 250 BC, is one of the oldest known towns in sub-Saharan Africa.",
+      "The old towns of Djenné have been a UNESCO World Heritage site since 1988."
+    ],
+    "q": {
+      "q": "What do Djenné's people replaster together every year?",
+      "a": "The Great Mosque",
+      "x": [
+        "The city walls",
+        "The market hall"
+      ]
+    }
+  },
+  "Q208389": {
+    "t": "A Sahara oasis city with green circles in the sand",
+    "s": "Sabha lies deep in the Libyan Sahara, in the Fezzan, a region of sand seas, stony plateaus and strings of oases. From above, look for perfect green circles in the desert around it: fields watered by rotating irrigation arms that draw on ancient groundwater. For centuries the town was a crossroads for caravans between the Mediterranean and the Sahel.",
+    "w": "A town on a flat desert plain, with scattered green circular fields and dark rocky plateaus and sand seas around.",
+    "f": [
+      "The groundwater pumped around Sabha fell as rain thousands of years ago, when the Sahara was greener.",
+      "About 150 km to the west, Germa was the capital of the Garamantes, a desert kingdom of Roman times.",
+      "Many years pass in the Fezzan with almost no rain at all."
+    ],
+    "q": {
+      "q": "Which ancient people ruled a desert kingdom west of Sabha?",
+      "a": "The Garamantes",
+      "x": [
+        "The Nabataeans",
+        "The Phoenicians"
+      ]
+    }
+  },
+  "Q40816": {
+    "t": "A Greek-founded port on the Gulf of Sidra",
+    "s": "Benghazi spreads along a low coast at the north-eastern corner of the Gulf of Sidra, where salt marshes and lagoons edge the sea. Inland to the east rise the green uplands of the Jebel Akhdar, one of the wettest parts of Libya. The city began as the Greek colony of Euesperides and was later renamed Berenice, after a Ptolemaic queen.",
+    "w": "A flat coastal city with lagoons and salt flats along the shore, and a green, wooded upland rising to the north-east.",
+    "f": [
+      "Greek settlers founded Euesperides here in the 6th century BC.",
+      "The Jebel Akhdar, the 'Green Mountain', gets far more rain than almost anywhere else in Libya.",
+      "Benghazi is Libya's second-largest city."
+    ],
+    "q": {
+      "q": "What was Benghazi called in Ptolemaic times?",
+      "a": "Berenice",
+      "x": [
+        "Cyrene",
+        "Apollonia"
+      ]
+    }
+  },
+  "Q17151": {
+    "t": "A port city facing Mount Olympus across the gulf",
+    "s": "Thessaloniki curves along the head of the Thermaic Gulf, a long waterfront backed by hills. On a clear day, look south-west across the water: the massif of Mount Olympus, home of the Greek gods, rises to nearly 3,000 metres, often capped with snow. West of the city, the Axios River builds a green delta of wetlands and rice fields.",
+    "w": "A city along the curving head of a gulf, backed by hills, with a river delta to the west and Olympus across the water.",
+    "f": [
+      "King Cassander founded the city in 315 BC and named it after his wife Thessalonike, half-sister of Alexander the Great.",
+      "Mount Olympus reaches about 2,918 metres, the highest point in Greece.",
+      "The city's early Christian and Byzantine monuments are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Thessaloniki is named after the half-sister of which ruler?",
+      "a": "Alexander the Great",
+      "x": [
+        "Julius Caesar",
+        "Ptolemy I"
+      ]
+    }
+  },
+  "Q3820": {
+    "t": "A city on a cape, with snowy mountains at its back",
+    "s": "Beirut sits on a triangular cape pushing into the Mediterranean, with the slopes of Mount Lebanon rising steeply just behind it. In winter the peaks, well over 2,000 metres high, turn white with snow while the sea below stays blue. Off the western tip stand two great sea arches, the Pigeon Rocks. As Roman Berytus, the city was famous for its school of law.",
+    "w": "A dense city covering a triangular cape, with steep mountain slopes rising immediately inland to the east.",
+    "f": [
+      "Beirut has been inhabited for around 5,000 years.",
+      "The cedar is Lebanon's emblem, and old cedar groves survive high on Mount Lebanon.",
+      "In late winter it is possible to ski on Mount Lebanon and swim in the sea on the same day."
+    ],
+    "q": {
+      "q": "What kind of school made Roman Berytus famous?",
+      "a": "A school of law",
+      "x": [
+        "A school of medicine",
+        "A school of philosophy"
+      ]
+    }
+  },
+  "Q994": {
+    "t": "A city named for its warm springs, in a river gorge",
+    "s": "Tbilisi winds along the valley of the Kura, which cuts through the city in a narrow gorge between steep hills. The old town clusters beneath a fortress on a ridge, where hot sulphur springs still feed domed bathhouses. The name comes from the Georgian word for 'warm'. On clear days the snowy wall of the Greater Caucasus stands along the northern horizon.",
+    "w": "A long city in a winding river valley between bare hills, with the snowy Greater Caucasus range far to the north.",
+    "f": [
+      "King Vakhtang Gorgasali is traditionally credited with founding the city in the 5th century.",
+      "The Tbilisi Sea, a reservoir on the city's north-eastern edge, is about 9 km long.",
+      "The Kura, called the Mtkvari in Georgian, flows on to the Caspian Sea through Azerbaijan."
+    ],
+    "q": {
+      "q": "What gave Tbilisi its name?",
+      "a": "Its warm springs",
+      "x": [
+        "Its vineyards",
+        "Its river bend"
+      ]
+    }
+  },
+  "Q218861": {
+    "t": "A castle-studded royal city above Lake Tana",
+    "s": "Gondar sits on the northern Ethiopian Highlands at over 2,100 metres, on hills overlooking the plain that runs down to Lake Tana, some 35 km to the south. In 1636 Emperor Fasilides made it his capital and built a stone castle; his successors added more, forming a walled royal enclosure. To the north-east rise the jagged Simien Mountains.",
+    "w": "A hilly town on the highlands with a large lake to the south and a range of jagged peaks far to the north-east.",
+    "f": [
+      "The royal enclosure of Fasil Ghebbi has been a UNESCO World Heritage site since 1979.",
+      "Gondar remained Ethiopia's capital for more than two centuries.",
+      "The Simien Mountains include Ras Dashen, at about 4,550 metres Ethiopia's highest peak."
+    ],
+    "q": {
+      "q": "Which lake, source of the Blue Nile, lies south of Gondar?",
+      "a": "Lake Tana",
+      "x": [
+        "Lake Turkana",
+        "Lake Abaya"
+      ]
+    }
   }
 }

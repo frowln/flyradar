@@ -472,6 +472,7 @@ export const en = {
   alert: {
     sightTitle: 'On the %{side}: %{name}',
     sightBody: 'In the next few minutes, about %{dist} %{unit} away. If the sky is clear, look out.',
+    sightBodyWith: '%{text} About %{dist} %{unit} away.',
     belowTitle: 'Below you: %{name}',
     belowBody: 'You are flying over it in the next few minutes.',
     borderTitle: 'Entering %{country}',

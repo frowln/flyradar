@@ -2,7 +2,7 @@ import type { Moment, OfflinePackage } from '@skyatlas/shared';
 import { pickAlerts, computeMoments } from './moments';
 import { interpolateAlongRoute, headingAt } from '../geo/greatCircle';
 import { solarElevation, sunsetThreshold, sunSide } from '../geo/sun';
-import { placeName, countryName } from '../places/names';
+import { placeName, placeText, countryName } from '../places/names';
 import { km } from '../units';
 import { t, getLocale } from '../../i18n';
 import { settings } from '../settings';
@@ -35,6 +35,24 @@ function cap(s: string): string {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
+/** A tagline ends without a full stop; a notification body reads better with one. */
+function sentence(s: string, locale: string): string {
+  const x = s.trim();
+  if (/[.!?…。！？]$/.test(x)) return x;
+  return x + (locale === 'ja' ? '。' : '.');
+}
+
+/**
+ * What to say about a place on the lock screen: what to look for, when it has
+ * been written, else its one-line hook. "Look out, it is 80 km away" alone
+ * does not tell anyone why to lift the blind.
+ */
+function hook(poi: OfflinePackage['pois'][number], locale: string): string | undefined {
+  const text = placeText(poi, locale);
+  const s = text.look ?? text.tagline;
+  return s ? sentence(s, locale) : undefined;
+}
+
 export function alertFor(m: Moment, pkg: OfflinePackage, takeoff: Date, multiplier = 1): LocalAlert | null {
   const locale = getLocale();
   const at = new Date(takeoff.getTime() + (Math.max(10, m.at - LEAD_S) * 1000) / multiplier);
@@ -47,13 +65,16 @@ export function alertFor(m: Moment, pkg: OfflinePackage, takeoff: Date, multipli
     const name = placeName(poi, locale);
     const dist = km(poi.closestApproachKm ?? 0);
     const toPlace = { kind: 'sight' as const, flightId: pkg.flight.id, poiId: poi.id };
+    const text = hook(poi, locale);
     return m.side === 'below'
-      ? { id, at, title: t('alert.belowTitle', { name }), body: t('alert.belowBody'), data: toPlace }
+      ? { id, at, title: t('alert.belowTitle', { name }), body: text ?? t('alert.belowBody'), data: toPlace }
       : {
           id,
           at,
           title: cap(t('alert.sightTitle', { side: sideLabel(m.side), name })),
-          body: t('alert.sightBody', { dist: dist.value, unit: t(`unit.${dist.unit}`) }),
+          body: text
+            ? t('alert.sightBodyWith', { text, dist: dist.value, unit: t(`unit.${dist.unit}`) })
+            : t('alert.sightBody', { dist: dist.value, unit: t(`unit.${dist.unit}`) }),
           data: toPlace
         };
   }

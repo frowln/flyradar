@@ -1939,5 +1939,320 @@
         "Dinosaur bones"
       ]
     }
+  },
+  "Q148521": {
+    "t": "The snowy guardian on La Paz's skyline",
+    "s": "Illimani is the mountain that seems to appear in every photo of La Paz: a long white wall with several summits, towering over the city and the high plain of El Alto. At about 6,400 m it is the highest peak of the Cordillera Real and the second-highest in Bolivia. From above look for a massive glacier-clad ridge rising south-east of the city, with the dark gash of La Paz's canyon below.",
+    "w": "A long, glacier-clad ridge with several summits, south-east of La Paz and the flat, built-up plateau of El Alto.",
+    "f": [
+      "Martin Conway and two Alpine guides climbed its south summit in 1898.",
+      "La Paz and El Alto together form one of the highest large urban areas on Earth, between about 3,600 and 4,100 m."
+    ],
+    "q": {
+      "q": "Which city lies at the foot of Illimani?",
+      "a": "La Paz",
+      "x": [
+        "Cusco",
+        "Quito"
+      ]
+    }
+  },
+  "Q272593": {
+    "t": "Bolivia's highest summit, a lone volcanic cone",
+    "s": "Nevado Sajama rises alone from the Altiplano, a white-topped cone of 6,542 m and the highest point of Bolivia. Just to the west, on the Chilean border, two more volcanoes stand side by side, Parinacota and Pomerape, known together as the Payachatas. On Sajama's lower slopes grows one of the highest forests on Earth, made of small, twisted queñua trees.",
+    "w": "A lone, snow-capped volcanic cone on the brown Altiplano, with twin white cones on the Chilean border to its west.",
+    "f": [
+      "Sajama National Park, created in 1939, was Bolivia's first national park.",
+      "Ice cores drilled on its summit in 1997 reach back roughly 25,000 years."
+    ],
+    "q": {
+      "q": "What name is given to the twin volcanoes west of Sajama?",
+      "a": "Payachatas",
+      "x": [
+        "Licancabur",
+        "Aucanquilcha"
+      ]
+    }
+  },
+  "Q758574": {
+    "t": "A volcano once mined almost to its summit",
+    "s": "Aucanquilcha is a big, pale volcano of 6,176 m in the Atacama highlands of northern Chile, and for decades it was a workplace. Sulphur was dug near its summit, at about 5,950 m — for years the highest mine in the world. In 1972 a switchback road for 20-tonne trucks was built almost to the top. From above look for pale yellow-grey slopes above bright white salt flats.",
+    "w": "A broad pale volcano in the dry highlands near the Bolivian border, with white salt flats spread at its foot.",
+    "f": [
+      "The mine opened in 1913, and at first llamas carried the sulphur down the mountain.",
+      "The sulphur was refined far below at the camp of Amincha, about 3,900 m, linked by an aerial cableway."
+    ],
+    "q": {
+      "q": "What was mined near the summit of Aucanquilcha?",
+      "a": "Sulphur",
+      "x": [
+        "Copper",
+        "Silver"
+      ]
+    }
+  },
+  "Q777794": {
+    "t": "The sacred ice peak beside Rainbow Mountain",
+    "s": "Ausangate is the great white summit of southern Peru, 6,372 m, rising about 100 km south-east of Cusco. For the Quechua people it is an apu, a mountain spirit, and every year thousands of pilgrims gather in a valley near it for the festival of Qoyllur Rit'i. Close by stands Vinicunca, the 'Rainbow Mountain', striped in red, ochre and green.",
+    "w": "A massive white peak rising above brown puna grassland and small turquoise lakes, south-east of Cusco.",
+    "f": [
+      "Ausangate is the highest peak of the Cordillera Vilcanota.",
+      "Qoyllur Rit'i, held each year before Corpus Christi, blends Andean and Catholic traditions.",
+      "Vinicunca's colours come from layers of mineral-rich sediment."
+    ],
+    "q": {
+      "q": "Which famous striped mountain lies near Ausangate?",
+      "a": "Vinicunca",
+      "x": [
+        "Huayna Picchu",
+        "El Misti"
+      ]
+    }
+  },
+  "Q946035": {
+    "t": "The largest ice cap in the tropics",
+    "s": "Coropuna is a broad volcanic massif in southern Peru, more than 6,300 m high, crowned by several summits and a sheet of ice. That ice, around 44 km², is the most extensive in the tropics, and its meltwater feeds valleys and farms far below. From above look for a big white cap sprawled over a dark volcanic plateau, north-west of Arequipa.",
+    "w": "A sprawling white ice cap with several summits on a dark volcanic plateau, north-west of Arequipa.",
+    "f": [
+      "Coropuna is the highest volcano in Peru.",
+      "The Inca held it sacred, and ruins of their shrines lie on its slopes.",
+      "Scientists expect its ice to keep supplying water for roughly another century."
+    ],
+    "q": {
+      "q": "What record does Coropuna's ice cap hold?",
+      "a": "Largest ice cap in the tropics",
+      "x": [
+        "Oldest ice in South America",
+        "Highest glacier on Earth"
+      ]
+    }
+  },
+  "Q200935": {
+    "t": "The highest summit in the tropics",
+    "s": "Huascarán is the highest mountain in Peru and in all of the Earth's tropics, 6,768 m. It crowns the Cordillera Blanca, the 'white range', the most heavily glaciated range in the tropics. From above look for a twin-topped white massif towering over the green valley of the Santa River, with turquoise glacial lakes tucked into the side valleys.",
+    "w": "A twin-summited white massif above a long green valley, in a chain of ice peaks running north–south in central Peru.",
+    "f": [
+      "Annie Peck reached its north summit in 1908, a landmark climb for women in mountaineering.",
+      "Huascarán National Park became a UNESCO World Heritage site in 1985.",
+      "The Cordillera Blanca holds hundreds of glacial lakes."
+    ],
+    "q": {
+      "q": "Which range does Huascarán crown?",
+      "a": "Cordillera Blanca",
+      "x": [
+        "Cordillera Real",
+        "Cordillera Vilcanota"
+      ]
+    }
+  },
+  "Q14081": {
+    "t": "The summit farthest from the centre of the Earth",
+    "s": "Measured from sea level, Chimborazo's 6,267 m is nowhere near Everest. But the Earth bulges at the equator, and this Ecuadorian volcano stands just south of it, so its summit is the point on the planet's surface farthest from the Earth's centre — about 2 km farther out than Everest's. From above look for a broad, glacier-capped dome rising alone over the highlands.",
+    "w": "A broad, glacier-capped volcanic dome standing alone above green and brown highlands, south-west of Quito.",
+    "f": [
+      "In 1802 Alexander von Humboldt climbed to nearly 5,900 m on its slopes, then a world altitude record.",
+      "Edward Whymper and his guides Jean-Antoine and Louis Carrel made the first ascent in 1880."
+    ],
+    "q": {
+      "q": "What makes Chimborazo's summit special?",
+      "a": "Farthest point from Earth's centre",
+      "x": [
+        "Highest point of the Andes",
+        "Highest active volcano"
+      ]
+    }
+  },
+  "Q27489229": {
+    "t": "A pale limestone tableland above the Mediterranean",
+    "s": "Between the Mediterranean and Egypt's Western Desert, the Libyan Plateau spreads as a pale, stony limestone tableland cut by dry wadis. Along the coast it ends in a steep escarpment above a thin strip of shore. From above look for bleached sand-and-stone colours broken only by winding ravines, with the deep blue sea to the north and emptiness to the south.",
+    "w": "A pale, flat stony plateau cut by dry ravines, ending in a steep escarpment above the blue Mediterranean.",
+    "f": [
+      "To the south-east lies the Qattara Depression, whose floor sinks to about 133 m below sea level.",
+      "The plateau's limestone formed on the floor of a sea millions of years ago.",
+      "Siwa Oasis, famous in antiquity for its oracle of Amun, lies at the plateau's southern edge."
+    ],
+    "q": {
+      "q": "Which deep depression lies south-east of the Libyan Plateau?",
+      "a": "Qattara Depression",
+      "x": [
+        "Danakil Depression",
+        "Turpan Depression"
+      ]
+    }
+  },
+  "Q1881042": {
+    "t": "India's mineral heartland of forests and waterfalls",
+    "s": "East-central India rises into the Chota Nagpur Plateau, a hilly tableland of ancient rock patched with sal forest. It holds much of India's coal and iron ore, so from the air you may spot black scars of open-cast mines and the haze of steel towns. In the monsoon its rivers tumble off the plateau edges in waterfalls, and reservoirs fill the valleys.",
+    "w": "Rolling green-brown hills and forest patches, with dark open-cast mines, reservoirs and a few hazy industrial towns.",
+    "f": [
+      "Jamshedpur, one of India's first planned industrial cities, grew around a steel works founded here in 1907.",
+      "The Damodar valley on the plateau has long been one of India's main coalfields.",
+      "Its sal forests are home to many of India's Adivasi communities."
+    ],
+    "q": {
+      "q": "Which steel city grew up on the Chota Nagpur Plateau from 1907?",
+      "a": "Jamshedpur",
+      "x": [
+        "Kanpur",
+        "Surat"
+      ]
+    }
+  },
+  "Q2740752": {
+    "t": "The highland that keeps the rain off the sertão",
+    "s": "In north-eastern Brazil, just inland from the green Atlantic coast, the land steps up onto the Borborema Plateau, rolling uplands several hundred metres high. Moist ocean winds drop their rain on its seaward side, so beyond it lies the dry sertão, a land of thorny caatinga scrub. From above you can often see the change: greener to the east, dusty grey-brown to the west.",
+    "w": "Rolling uplands inland from the coast: greener on the eastern side, grey-brown dry scrub to the west.",
+    "f": [
+      "Campina Grande, on the plateau, hosts one of Brazil's biggest São João festivals every June.",
+      "Caatinga, the dry thorny forest beyond, is found only in Brazil."
+    ],
+    "q": {
+      "q": "Which dry scrubland lies west of the Borborema Plateau?",
+      "a": "Caatinga",
+      "x": [
+        "Pampa",
+        "Pantanal"
+      ]
+    }
+  },
+  "Q916997": {
+    "t": "South Africa's vast 'land of thirst'",
+    "s": "The Karoo covers a huge part of South Africa's interior: a semi-desert of flat plains and flat-topped hills capped with dark dolerite. Its name is usually traced to a Khoekhoe word for a dry, thirsty land. From above it is a palette of khaki, rust and grey, crossed by long straight roads and the occasional green thread of a river.",
+    "w": "Flat khaki plains dotted with flat-topped dark hills, crossed by long straight roads and dry riverbeds.",
+    "f": [
+      "Its rocks are rich in fossils of mammal-like reptiles more than 250 million years old.",
+      "The MeerKAT radio telescope, part of the Square Kilometre Array project, stands in the Karoo."
+    ],
+    "q": {
+      "q": "Which giant radio-telescope project is being built in the Karoo?",
+      "a": "Square Kilometre Array",
+      "x": [
+        "Atacama Large Millimeter Array",
+        "Event Horizon Telescope"
+      ]
+    }
+  },
+  "Q482274": {
+    "t": "Cameroon's water tower, draining three ways",
+    "s": "Across central Cameroon runs the Adamawa Plateau, a high grassy upland mostly around 1,000 m, dotted with old volcanic cones and crater lakes. It is often called Cameroon's water tower: rivers born here flow north toward Lake Chad, west to the Niger by way of the Benue, and south toward the Atlantic and the Congo basin. From above look for green savanna, wooded valleys and red earth.",
+    "w": "A green, rolling upland of savanna and wooded valleys, dotted with small volcanic cones and crater lakes.",
+    "f": [
+      "It is named after Modibo Adama, a Fulani leader who founded an emirate here in the early 19th century.",
+      "Ngaoundéré, the main town on the plateau, is the northern end of the railway from Douala."
+    ],
+    "q": {
+      "q": "Why is the Adamawa Plateau called Cameroon's 'water tower'?",
+      "a": "Many rivers rise there",
+      "x": [
+        "It stores water in dams",
+        "It has Africa's highest rainfall"
+      ]
+    }
+  },
+  "Q776345": {
+    "t": "Angola's high plateau, where the Okavango is born",
+    "s": "The Bié Plateau is the high heart of Angola, rolling grassland and woodland mostly 1,500–1,800 m above the sea. Its rains feed rivers that set off in every direction: the Kwanza to the Atlantic, the Cunene south toward Namibia, and the Cubango, which becomes the Okavango and ends in the sands of Botswana. From above look for green-and-ochre uplands threaded with meandering rivers.",
+    "w": "Rolling green-and-ochre uplands and woodland, laced with meandering rivers and wetlands in central Angola.",
+    "f": [
+      "The Okavango never reaches the sea; it spreads into a vast inland delta in Botswana.",
+      "Huambo, on the plateau at about 1,700 m, is one of Angola's largest cities."
+    ],
+    "q": {
+      "q": "Which famous river starts on the Bié Plateau as the Cubango?",
+      "a": "Okavango",
+      "x": [
+        "Limpopo",
+        "Orange"
+      ]
+    }
+  },
+  "Q1321468": {
+    "t": "An old worn plateau riddled with caves and springs",
+    "s": "The Ozarks are not really mountains but an old plateau, deeply cut by rivers into forested hills. The limestone beneath is riddled with caves and springs, some of the largest in North America. From above look for dark green, crinkled hill country with winding clear rivers and big, branching reservoirs — dammed valleys shaped like spilled ink.",
+    "w": "Crinkled, dark green forested hills cut by winding rivers, with large reservoirs spreading in branching, fingered shapes.",
+    "f": [
+      "Missouri, much of it in the Ozarks, has more than 7,000 known caves.",
+      "Big Spring in Missouri releases around a billion litres of water on an average day.",
+      "The Buffalo River in Arkansas became the first national river in the United States, in 1972."
+    ],
+    "q": {
+      "q": "Which Ozark river became the first US 'national river' in 1972?",
+      "a": "Buffalo River",
+      "x": [
+        "White River",
+        "Arkansas River"
+      ]
+    }
+  },
+  "Q4492616": {
+    "t": "A rolling lava plateau of lakes and pine forest",
+    "s": "Between the Coast Mountains and the Rockies, central British Columbia flattens into the Fraser Plateau, a rolling upland of pine forest, meadows and countless lakes, much of it resting on old lava flows. Along its eastern edge the Fraser River cuts a deep trench on its way to the Pacific. From above look for a green-grey carpet speckled with lakes and slashed by that sharp river canyon.",
+    "w": "A rolling green-grey upland speckled with lakes, cut on its eastern side by the deep trench of the Fraser River.",
+    "f": [
+      "The Fraser, about 1,375 km long, is the longest river entirely within British Columbia.",
+      "In the 2000s a mountain pine beetle outbreak killed vast areas of pine here, turning forests red and then grey."
+    ],
+    "q": {
+      "q": "Which ocean does the Fraser River finally reach?",
+      "a": "Pacific",
+      "x": [
+        "Arctic",
+        "Atlantic"
+      ]
+    }
+  },
+  "Q15241934": {
+    "t": "The continent's ancient shield rock, full of lakes",
+    "s": "The Laurentian Upland is the worn-down core of the Canadian Shield, a vast sweep of ancient rock around Hudson Bay and the Great Lakes. Ice-age glaciers scraped it bare and left behind a maze of lakes, bogs and rocky knolls. From above, especially near Lake Superior, look for dark forest scattered with thousands of lakes shining like broken glass.",
+    "w": "Dark forest and bare rock scattered with countless lakes, especially around the shores of Lake Superior.",
+    "f": [
+      "Much of its rock is more than 2.5 billion years old, among the oldest in North America.",
+      "Minnesota's Mesabi Range, on the upland, has long been one of the world's great iron-ore districts.",
+      "Lake Superior, on its southern edge, is the largest freshwater lake in the world by area."
+    ],
+    "q": {
+      "q": "Which is the largest freshwater lake by area, on the upland's edge?",
+      "a": "Lake Superior",
+      "x": [
+        "Lake Victoria",
+        "Lake Huron"
+      ]
+    }
+  },
+  "Q293730": {
+    "t": "A land of wind-blown yellow dust, carved into gullies",
+    "s": "The Loess Plateau is built of dust: fine yellow silt blown in from the deserts of Central Asia over hundreds of thousands of years, piled in places more than 100 m thick. Rain carves it easily, so from above it looks like a crumpled yellow-brown sheet shot through with branching gullies and neat terraced fields. The silt washing off it gives the Yellow River its colour and its name.",
+    "w": "Crumpled yellow-brown land cut by countless branching gullies, with contour-terraced hillsides and a muddy river.",
+    "f": [
+      "The plateau covers about 640,000 km², larger than Spain.",
+      "Millions of people have lived in yaodong, homes dug into the loess hillsides.",
+      "A restoration project from the 1990s terraced slopes and replanted hillsides, sharply cutting erosion."
+    ],
+    "q": {
+      "q": "What gives the Yellow River its colour?",
+      "a": "Silt from the Loess Plateau",
+      "x": [
+        "Algae in the water",
+        "Sulphur springs"
+      ]
+    }
+  },
+  "Q1126906": {
+    "t": "Gentle hills of black earth, where great rivers begin",
+    "s": "South of Moscow the land swells gently into the Central Russian Upland, hills only a couple of hundred metres high but important on the map: the Oka, the Don and tributaries of the Dnieper all start here. Its soils include rich black chernozem. From above look for a patchwork of huge fields cut by branching, tree-lined ravines and, in the south, vast open-pit iron mines.",
+    "w": "A vast patchwork of fields cut by tree-lined, branching ravines, with huge grey open-pit mines in the south.",
+    "f": [
+      "The Kursk Magnetic Anomaly beneath it is one of the largest iron-ore deposits on Earth.",
+      "The Don rises near Novomoskovsk, south of Moscow, and flows about 1,900 km to the Sea of Azov.",
+      "Its ravines grow fast because the soft soils erode easily once the forest is cleared."
+    ],
+    "q": {
+      "q": "Which river rises here and flows to the Sea of Azov?",
+      "a": "Don",
+      "x": [
+        "Volga",
+        "Dnieper"
+      ]
+    }
   }
 }

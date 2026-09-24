@@ -484,6 +484,7 @@ export const ru = {
   alert: {
     sightTitle: '%{side}: %{name}',
     sightBody: 'В ближайшие минуты, примерно в %{dist} %{unit}. Если ясно — посмотрите в окно.',
+    sightBodyWith: '%{text} Примерно в %{dist} %{unit}.',
     belowTitle: 'Под вами: %{name}',
     belowBody: 'Пролетаете над ним в ближайшие минуты.',
     borderTitle: 'Граница: %{country}',

@@ -472,6 +472,7 @@ export const de = {
   alert: {
     sightTitle: '%{side}: %{name}',
     sightBody: 'In den nächsten Minuten, etwa %{dist} %{unit} entfernt. Bei klarem Himmel lohnt ein Blick.',
+    sightBodyWith: '%{text} Etwa %{dist} %{unit} entfernt.',
     belowTitle: 'Unter Ihnen: %{name}',
     belowBody: 'In den nächsten Minuten fliegen Sie direkt darüber.',
     borderTitle: 'Grenze: %{country}',

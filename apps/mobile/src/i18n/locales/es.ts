@@ -472,6 +472,7 @@ export const es = {
   alert: {
     sightTitle: '%{side}: %{name}',
     sightBody: 'En los próximos minutos, a unos %{dist} %{unit}. Si está despejado, mira por la ventanilla.',
+    sightBodyWith: '%{text} A unos %{dist} %{unit}.',
     belowTitle: 'Justo debajo: %{name}',
     belowBody: 'Pasarás justo por encima en los próximos minutos.',
     borderTitle: 'Entrando en %{country}',
