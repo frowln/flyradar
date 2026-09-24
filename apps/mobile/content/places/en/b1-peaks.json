@@ -2254,5 +2254,308 @@
         "Dnieper"
       ]
     }
+  },
+  "Q277576": {
+    "t": "A basalt plateau sliced by canyon lakes",
+    "s": "North of the Arctic Circle in Siberia, the Putorana Plateau rises as a giant layer cake of dark basalt, cut into flat-topped mesas by canyons hundreds of metres deep. Many canyons hold long, narrow lakes, like fjords far from any sea. No roads lead in. From above look for stepped cliffs and ribbons of water; in winter the whole plateau becomes black-and-white graphic art.",
+    "w": "Flat-topped dark mesas with stepped sides, cut by deep canyons holding long, narrow lakes, east of Norilsk.",
+    "f": [
+      "The plateau became a UNESCO World Heritage site in 2010.",
+      "It has the greatest concentration of waterfalls in Russia.",
+      "The geographic centre of Russia, at Lake Vivi, lies on its southern edge."
+    ],
+    "q": {
+      "q": "What lies at Lake Vivi, on the plateau's southern edge?",
+      "a": "Russia's geographic centre",
+      "x": [
+        "Russia's coldest point",
+        "Russia's deepest lake"
+      ]
+    }
+  },
+  "Q604329": {
+    "t": "Karst hills, rice terraces and eternal spring",
+    "s": "South-west China lifts into the Yunnan–Guizhou Plateau, a high, rumpled land mostly 1,000–2,000 m up, eaten by rain into karst: sinkholes, stone pinnacles and rivers that vanish underground. From above look for green hills pocked with hollows, red-earth fields, big blue lakes around Kunming and, on steep southern slopes, rice terraces stacked like contour lines.",
+    "w": "Rumpled green hills pocked with sinkholes, patches of red earth, and big lakes around the city of Kunming.",
+    "f": [
+      "Kunming, at about 1,900 m, is nicknamed the 'City of Eternal Spring' for its mild climate.",
+      "The Stone Forest near Kunming is a maze of grey limestone pillars tens of metres tall.",
+      "The Hani rice terraces of Honghe, in the south of the plateau, are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which city on the plateau is called the 'City of Eternal Spring'?",
+      "a": "Kunming",
+      "x": [
+        "Guiyang",
+        "Chengdu"
+      ]
+    }
+  },
+  "Q874816": {
+    "t": "A shallow saucer of rice fields beside the Mekong",
+    "s": "North-east Thailand sits on the Khorat Plateau, a vast shallow saucer only about 100–200 m above the sea, tilted gently toward the Mekong. Its two main rivers, the Mun and the Chi, meander across it before joining the Mekong at the Lao border. From above look for a patchwork of rice paddies — bright green in the rainy season, gold and brown in the dry — dotted with villages and ponds.",
+    "w": "A flat patchwork of rice paddies and ponds, rimmed by low hills, with the Mekong curving along its northern and eastern edges.",
+    "f": [
+      "Thick layers of rock salt lie beneath the plateau, and salt is still produced there.",
+      "Dinosaur fossils found at Phu Wiang made the plateau famous among palaeontologists.",
+      "The region, known as Isan, is home to about a third of Thailand's people."
+    ],
+    "q": {
+      "q": "Which great river bounds the Khorat Plateau to the north and east?",
+      "a": "Mekong",
+      "x": [
+        "Chao Phraya",
+        "Salween"
+      ]
+    }
+  },
+  "Q27696359": {
+    "t": "Myanmar's cool highland with a famous lake",
+    "s": "East of the Irrawaddy plain, Myanmar climbs abruptly onto the Shan Plateau, a rolling upland around 1,000 m high, green with forest and fields. The Salween River slices through it in a deep gorge on its way to the sea. Look for Inle Lake, a long blue sliver in a valley, where villages stand on stilts and gardens float on the water.",
+    "w": "A green, rolling upland rising sharply above the flat Irrawaddy plain, with long, narrow Inle Lake in a valley.",
+    "f": [
+      "Inle Lake's fishermen are known for rowing with one leg wrapped around the oar.",
+      "The plateau's western edge rises as a steep escarpment above the central plain.",
+      "Taunggyi, capital of Shan State, lies at about 1,400 m near Inle Lake."
+    ],
+    "q": {
+      "q": "What are Inle Lake's fishermen famous for?",
+      "a": "Rowing with one leg",
+      "x": [
+        "Fishing with cormorants",
+        "Diving for pearls"
+      ]
+    }
+  },
+  "Q925906": {
+    "t": "Red-rock country where the Earth shows its layers",
+    "s": "The Colorado Plateau is one of the most spectacular things you can fly over: a high desert of red, orange and cream rock laid down in layers, then cut by rivers into canyons, mesas and buttes. The Grand Canyon, Monument Valley, Arches and Canyonlands all lie on it. On a clear day look for the winding blue arms of Lake Powell among bare red rock.",
+    "w": "Vast red-and-cream rock desert carved by winding canyons and flat-topped mesas, with the branching blue arms of Lake Powell.",
+    "f": [
+      "The rocks exposed in the Grand Canyon span nearly two billion years of Earth's history.",
+      "It holds one of the greatest concentrations of national parks in the United States.",
+      "The Four Corners, where four US states meet, lies on the plateau."
+    ],
+    "q": {
+      "q": "Which great canyon on the plateau did the Colorado River carve?",
+      "a": "Grand Canyon",
+      "x": [
+        "Hells Canyon",
+        "Copper Canyon"
+      ]
+    }
+  },
+  "Q401815": {
+    "t": "Lava floods and ice-age floods, written in the land",
+    "s": "Between the Cascades and the Rockies lies the Columbia Plateau, built from vast floods of basalt lava that poured out mostly 17 to 15 million years ago. At the end of the last ice age, colossal floods from a burst glacial lake raced across it and scoured the Channeled Scablands. From above look for the rolling, dune-like wheat hills of the Palouse and the broad blue curve of the Columbia River.",
+    "w": "Rolling golden wheat hills and bare, channel-scarred basalt, with the wide blue Columbia River curving through.",
+    "f": [
+      "Some single lava flows travelled hundreds of kilometres, all the way to the Pacific.",
+      "The floods came from glacial Lake Missoula, which emptied again and again as its ice dam broke.",
+      "The rolling Palouse hills are made of wind-blown silt and farmed for wheat."
+    ],
+    "q": {
+      "q": "Floods from which ice-age lake carved the Channeled Scablands?",
+      "a": "Lake Missoula",
+      "x": [
+        "Lake Bonneville",
+        "Lake Agassiz"
+      ]
+    }
+  },
+  "Q3623001": {
+    "t": "Gold-rush country along the Yukon River",
+    "s": "Across central Yukon the land rolls away as the Yukon Plateau: forested uplands and broad valleys cut by the Yukon River and its tributaries. In 1896 gold was found in a creek near the Klondike River, and within two years tens of thousands of prospectors poured in. From above look for dark spruce, pale gravel bars and, in autumn, great swathes of yellow aspen and birch.",
+    "w": "Rolling forested uplands cut by wide, braided river valleys, with the Yukon River winding north-west.",
+    "f": [
+      "Parts of the plateau escaped the ice sheets of the last ice age, as part of Beringia.",
+      "Whitehorse, the Yukon's capital, stands on the plateau beside the Yukon River.",
+      "The Yukon River runs about 3,190 km to the Bering Sea."
+    ],
+    "q": {
+      "q": "Which gold rush brought prospectors here from 1896?",
+      "a": "Klondike Gold Rush",
+      "x": [
+        "California Gold Rush",
+        "Fraser Canyon Gold Rush"
+      ]
+    }
+  },
+  "Q118574": {
+    "t": "The high plain of Titicaca and the great salt flat",
+    "s": "Between two chains of the Andes lies the Altiplano, a high plain averaging about 3,750 m — the most extensive high plateau on Earth after Tibet. From cruise it is an astonishing sight: brown steppe, snowy volcanoes along the rim, the deep blue of Lake Titicaca in the north and, in the south, the dazzling white of Salar de Uyuni, the largest salt flat in the world.",
+    "w": "A vast brown high plain ringed by snowy volcanoes, with a huge blue lake in the north and white salt flats to the south.",
+    "f": [
+      "Salar de Uyuni covers about 10,000 km², and after rain it becomes a giant mirror.",
+      "Lake Titicaca, at about 3,810 m, is often called the highest navigable lake in the world.",
+      "Beneath the salt flats lie some of the world's largest known lithium reserves."
+    ],
+    "q": {
+      "q": "What is Salar de Uyuni?",
+      "a": "The world's largest salt flat",
+      "x": [
+        "The world's highest lake",
+        "The world's driest desert"
+      ]
+    }
+  },
+  "ne-rg-1730071967": {
+    "t": "A lonely plateau in the heart of the eastern Sahara",
+    "s": "Far out in the eastern Sahara of north-western Sudan, the Jebel Abyad Plateau rises from the sand as a low, weathered tableland. Its name is Arabic for 'white mountain'. In a typical year hardly any rain falls here at all. From above look for dark rocky uplands streaked with wind-blown sand and, to the south, the faint winding line of Wadi Howar, a dry valley that was once a river.",
+    "w": "A dark, weathered tableland rising from pale sand, streaked by dunes, in the empty desert of north-western Sudan.",
+    "f": [
+      "Wadi Howar, to the south, carried a Nile tributary when the Sahara was green, about 9,500–4,500 years ago.",
+      "Rock art across the eastern Sahara shows cattle and giraffes from that wetter time."
+    ],
+    "q": {
+      "q": "What does 'Jebel Abyad' mean in Arabic?",
+      "a": "White mountain",
+      "x": [
+        "Black rock",
+        "Red sand"
+      ]
+    }
+  },
+  "ne-rg-1730072941": {
+    "t": "A cerrado tableland named after a Brazilian classic",
+    "s": "West of the São Francisco River the land rises onto broad, flat cerrado tablelands laced with veredas — marshy valleys lined with buriti palms. This is the backcountry of João Guimarães Rosa's 1956 novel Grande Sertão: Veredas, and a national park carries its name. From above look for vast flat plateaus, many now covered in huge circles and rectangles of farmland, cut by green strips along streams.",
+    "w": "Vast flat tablelands of farmland and olive savanna, cut by dark green lines of palm-lined streams running east.",
+    "f": [
+      "Guimarães Rosa's novel is often ranked among the greatest works of Brazilian literature.",
+      "Buriti palms, which line the veredas, can grow to about 30 m.",
+      "Its streams feed the São Francisco, the longest river lying entirely within Brazil."
+    ],
+    "q": {
+      "q": "Which writer's novel gave the Grande Sertão Veredas park its name?",
+      "a": "João Guimarães Rosa",
+      "x": [
+        "Jorge Amado",
+        "Machado de Assis"
+      ]
+    }
+  },
+  "Q1294308": {
+    "t": "Texas Hill Country, a limestone tableland of springs",
+    "s": "West of Austin and San Antonio the land steps up onto the Edwards Plateau, a limestone tableland of ranches, oak and juniper scrub. Its southern and eastern edge is the Balcones Escarpment, where clear springs burst out at the foot of the slope. From above look for a grey-green plain crossed by tree-lined rivers, with the grids of Austin and San Antonio spread along the escarpment below.",
+    "w": "A grey-green limestone tableland of scrub and ranches, dropping at its south-east edge toward Austin and San Antonio.",
+    "f": [
+      "The Edwards Aquifer beneath its edge supplies most of San Antonio's drinking water.",
+      "Comal Springs, at New Braunfels, are among the largest springs in Texas.",
+      "Bracken Cave, near San Antonio, hosts one of the world's largest bat colonies."
+    ],
+    "q": {
+      "q": "Which city gets most of its water from the Edwards Aquifer?",
+      "a": "San Antonio",
+      "x": [
+        "Houston",
+        "Dallas"
+      ]
+    }
+  },
+  "ne-rg-1730072971": {
+    "t": "Kazakhstan's 'yellow ridge' of worn-down hills",
+    "s": "The Kazakh Uplands, known as Saryarka, fill the heart of Kazakhstan: a vast land of low, rounded hills, the worn stumps of ancient mountains, set in dry steppe. From above it looks like crumpled felt in shades of tan and olive, dotted with salt lakes. The coal city of Karaganda lies here, and to the south the long, thin Lake Balkhash marks the edge of the uplands.",
+    "w": "Crumpled tan and olive steppe with low rounded hills and salt lakes; the long, thin Lake Balkhash lies to the south.",
+    "f": [
+      "The highest point, Aksoran, reaches about 1,565 m.",
+      "Lake Balkhash, to the south, is fresh in its western part and salty in the east.",
+      "Saryarka's steppe and lakes, including Korgalzhyn, are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which lake, fresh in the west and salty in the east, lies to the south?",
+      "a": "Lake Balkhash",
+      "x": [
+        "Lake Issyk-Kul",
+        "Lake Zaysan"
+      ]
+    }
+  },
+  "ne-rg-1730072981": {
+    "t": "Rugged highlands north-east of Lake Baikal",
+    "s": "North-east of Lake Baikal, rugged ridges and deep basins make up the Stanovoy Highlands, a wild land of larch taiga and bare summits. The Baikal–Amur Mainline railway threads through them in tunnels and along valleys. In the Kodar Range, the highest part, small glaciers survive. Look out for a surprise in the Chara basin: a patch of golden sand dunes in the middle of the taiga.",
+    "w": "Rugged grey ridges and deep taiga-filled basins north-east of Baikal, with a small patch of golden sand dunes.",
+    "f": [
+      "The Severomuysky Tunnel on the railway here, about 15 km long, is the longest in Russia.",
+      "The Kodar Range rises to about 3,070 m.",
+      "The Chara Sands cover a few dozen square kilometres, a real desert patch inside the taiga."
+    ],
+    "q": {
+      "q": "Which railway threads through the Stanovoy Highlands?",
+      "a": "Baikal–Amur Mainline",
+      "x": [
+        "Trans-Siberian Railway",
+        "Amur–Yakutsk Mainline"
+      ]
+    }
+  },
+  "ne-rg-1730073599": {
+    "t": "Ancient rock and gold in southern Yakutia",
+    "s": "In southern Yakutia rise the Aldan Highlands, a rolling upland of taiga-covered hills built on some of the oldest rock in Asia. Gold was found here in 1923, and the rush that followed drew thousands of prospectors into the wilderness. From above look for dark larch forest, pale river valleys and, near Neryungri, the vast terraced pit of a coal mine cut into the hills.",
+    "w": "Rolling taiga-covered hills cut by pale river valleys, with a vast terraced open-pit mine near Neryungri.",
+    "f": [
+      "The town of Aldan grew up during the gold rush of the 1920s.",
+      "The Amur–Yakutsk railway and the Lena highway both cross the highlands on their way north to Yakutsk."
+    ],
+    "q": {
+      "q": "What was found in the Aldan Highlands in 1923, sparking a rush?",
+      "a": "Gold",
+      "x": [
+        "Diamonds",
+        "Oil"
+      ]
+    }
+  },
+  "Q1753873": {
+    "t": "A high desert tableland between two Sierras",
+    "s": "Most of northern and central Mexico is a high tableland walled in by two mountain chains, the Sierra Madre Occidental to the west and the Sierra Madre Oriental to the east. Its northern part is the Chihuahuan Desert, all pale basins, dry lake beds and long ridges; farther south it rises and turns greener toward Mexico City. From above look for tan basins between parallel dark ranges.",
+    "w": "Tan desert basins and white dry lake beds between parallel dark ridges, walled by higher mountains on both sides.",
+    "f": [
+      "The Chihuahuan Desert is the largest hot desert in North America.",
+      "Mexico City lies on its southern part at about 2,240 m.",
+      "Copper Canyon, cut into its western rim, is deeper in places than the Grand Canyon."
+    ],
+    "q": {
+      "q": "Which mountains wall the Mexican Plateau to the west?",
+      "a": "Sierra Madre Occidental",
+      "x": [
+        "Sierra Nevada",
+        "Sierra Madre del Sur"
+      ]
+    }
+  },
+  "Q654947": {
+    "t": "Wooded hills and the long blue Finger Lakes",
+    "s": "Across southern New York and western Pennsylvania runs the Allegheny Plateau, an old tableland worn by rivers into a maze of steep wooded hills. On its northern edge, ice-age glaciers gouged the Finger Lakes, long, narrow and parallel as if scratched by a giant hand. From above they are unmistakable: a row of thin blue slivers running north–south.",
+    "w": "Wooded, deeply cut hills, with a row of long, narrow parallel lakes running north–south along the northern edge.",
+    "f": [
+      "Seneca Lake, the largest of the Finger Lakes, is about 190 m deep at its deepest.",
+      "The first commercial oil well in the United States was drilled in 1859 at Titusville, on the plateau in Pennsylvania."
+    ],
+    "q": {
+      "q": "Which chain of long, narrow lakes lies on the plateau's northern edge?",
+      "a": "Finger Lakes",
+      "x": [
+        "Kawartha Lakes",
+        "Rideau Lakes"
+      ]
+    }
+  },
+  "Q1143656": {
+    "t": "A sandstone tableland of gorges and waterfalls",
+    "s": "Rising above the Tennessee Valley, the Cumberland Plateau is a long sandstone tableland running from Kentucky through Tennessee into Alabama. Its flat, forested top ends in steep bluffs, and streams plunge off the edges into deep gorges. From above look for a dark green, flat-topped ridge with sharp escarpments, its rim notched by the V-shaped valleys of its waterfalls.",
+    "w": "A long, flat-topped forested tableland with steep escarpments, its edges notched by deep, V-shaped gorges.",
+    "f": [
+      "Fall Creek Falls, about 78 m high, is one of the highest waterfalls in the eastern United States.",
+      "At Cumberland Falls in Kentucky, a 'moonbow' can appear in the spray on clear full-moon nights.",
+      "Its hard sandstone cap resists erosion, which is why the plateau keeps its flat top."
+    ],
+    "q": {
+      "q": "What rare sight can appear at Cumberland Falls on full-moon nights?",
+      "a": "A moonbow",
+      "x": [
+        "A green flash",
+        "Ball lightning"
+      ]
+    }
   }
 }

@@ -509,6 +509,7 @@ export const es = {
     software: 'software · %{n}',
     softwareNote: 'Componentes de código abierto incluidos en la app. Toca uno para ver su licencia.',
     src: {
+      editorial: 'Textos sobre lugares e historia, escritos para la app',
       naturalEarth: 'Lugares, fronteras y costas',
       ourAirports: 'Aeropuertos',
       mwgg: 'Husos horarios de los aeropuertos',
@@ -516,6 +517,9 @@ export const es = {
       commons: 'Fotos: autor y licencia debajo de cada una',
       osm: 'Datos del mapa',
       tiles: 'Teselas del mapa sin conexión',
+      aeroDataBox: 'Búsqueda de un vuelo por su número',
+      fr24: 'Trayectorias reales recientes del vuelo',
+      openMeteo: 'Previsión de nubes a lo largo de la ruta',
     },
   },
   a11y: {
@@ -587,7 +591,8 @@ export const es = {
     terms: 'Condiciones de uso',
     licenses: 'Licencias y fuentes',
     dataSources: 'datos',
-    credits: 'Lugares y fronteras: Natural Earth (dominio público). Aeropuertos: OurAirports (dominio público); zonas horarias: mwgg/Airports © 2014 mwgg, licencia MIT. Historias y fotos: Wikipedia y Wikimedia Commons, CC BY-SA. Mapa: © colaboradores de OpenStreetMap, OpenMapTiles, OpenFreeMap.',
+    credits: 'Lugares y fronteras: Natural Earth (dominio público). Aeropuertos: OurAirports (dominio público); zonas horarias: mwgg/Airports © 2014 mwgg, licencia MIT. Textos sobre lugares e historia: escritos para SkyAtlas. Otras historias: Wikipedia, CC BY-SA. Fotos: Wikimedia Commons, cada una con su licencia. Mapa: © colaboradores de OpenStreetMap, OpenMapTiles, OpenFreeMap.',
+    creditsServices: 'Datos de vuelos: AeroDataBox. Trayectorias: Flightradar24. Tiempo: Open-Meteo, CC BY 4.0.',
     reset: 'Vaciar el pasaporte',
     resetTitle: '¿Vaciar el pasaporte?',
     resetBody: 'Se borrarán todos los vuelos, sellos y logros de este teléfono. Los paquetes de vuelo guardados se conservan.',

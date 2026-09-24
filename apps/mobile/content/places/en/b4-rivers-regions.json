@@ -1618,5 +1618,329 @@
         "The Chugach Mountains"
       ]
     }
+  },
+  "Q271294": {
+    "t": "A red basin under a lid of cloud",
+    "s": "Ringed by mountains, the Sichuan Basin often hides beneath a flat lid of cloud or haze; when it clears, you see low reddish hills carved into countless terraced fields, ponds and villages. Its soils come from purple-red sandstone, which gave it the name 'Red Basin'. Chengdu lies on the fertile plain in the west, Chongqing where the Jialing meets the Yangtze.",
+    "w": "Low, rounded reddish hills covered in tiny terraced fields and ponds, ringed by mountains; often under a sheet of cloud.",
+    "f": [
+      "A Chinese saying, 'Sichuan dogs bark at the sun', jokes that the sun shows itself so rarely here that dogs are startled.",
+      "The Dujiangyan irrigation system, begun in the 3rd century BC, still waters the Chengdu plain.",
+      "Around 100 million people live in the basin."
+    ],
+    "q": {
+      "q": "Which colour gives the Sichuan Basin its nickname?",
+      "a": "Red",
+      "x": [
+        "Yellow",
+        "Black"
+      ]
+    }
+  },
+  "Q216622": {
+    "t": "A sea of sand ringed by snowy mountains and oases",
+    "s": "The Tarim Basin holds the Taklamakan, one of the largest sandy deserts on Earth: a sea of dunes in ochre and gold, some ridges more than 100 m tall. Around the rim, snowy ranges, the Tian Shan, the Pamirs and the Kunlun, feed rivers that die in the sand and a necklace of green oases such as Kashgar and Hotan. The Silk Road ran along both edges.",
+    "w": "An immense sea of golden dunes, ringed by snowy mountains, with green oases dotted along its edges.",
+    "f": [
+      "The Tarim, China's longest inland river, flows along the desert's northern edge and never reaches the sea.",
+      "Mummies found in the basin, some about 4,000 years old, were preserved by the dry, salty sand.",
+      "A highway crosses the Taklamakan, lined for hundreds of kilometres with watered shrubs that hold back the sand."
+    ],
+    "q": {
+      "q": "Which desert fills the Tarim Basin?",
+      "a": "Taklamakan",
+      "x": [
+        "Gobi",
+        "Karakum"
+      ]
+    }
+  },
+  "Q157603": {
+    "t": "The world's largest tropical wetland, breathing with floods",
+    "s": "The Pantanal breathes with the seasons. From about December to March, rain swells the Paraguay River and its tributaries until much of this vast plain lies under shallow water, dotted with islands of forest. In the dry months the water retreats into lagoons and winding channels, and grassland and cattle reappear. It is the largest tropical wetland on Earth.",
+    "w": "A flat mosaic of shining lagoons, winding channels and green islands of forest; drier and browner from June to October.",
+    "f": [
+      "It spreads across Brazil, Bolivia and Paraguay and covers roughly 150,000 km².",
+      "It is one of the best places in the world to see wild jaguars.",
+      "Part of the Pantanal has been a UNESCO World Heritage site since 2000."
+    ],
+    "q": {
+      "q": "Which river drains the Pantanal?",
+      "a": "The Paraguay",
+      "x": [
+        "The Amazon",
+        "The São Francisco"
+      ]
+    }
+  },
+  "Q1347148": {
+    "t": "Endless lake-speckled tundra on the edge of the Arctic",
+    "s": "Between the Byrranga Mountains of Taymyr and the Central Siberian Plateau lies the North Siberian Lowland, a flat, treeless tundra stretching for more than a thousand kilometres. From above it is a vast canvas speckled with lakes, crossed by slow, looping rivers such as the Anabar and the Olenyok. For most of the year it is white; the short summer paints it brown and green.",
+    "w": "Flat, treeless tundra peppered with lakes and crossed by looping rivers; white for most of the year.",
+    "f": [
+      "The permafrost here reaches hundreds of metres deep.",
+      "In midwinter the polar night lasts for weeks; in summer the sun circles the sky without setting.",
+      "The rivers here are locked in ice for about eight months a year."
+    ],
+    "q": {
+      "q": "Which mountains rise along the lowland's northern edge?",
+      "a": "The Byrranga Mountains",
+      "x": [
+        "The Putorana Plateau",
+        "The Verkhoyansk Range"
+      ]
+    }
+  },
+  "Q737789": {
+    "t": "A lowland below sea level, rimmed with salt lakes",
+    "s": "Around the northern Caspian the land sinks below the level of the world ocean. From above it is a dry, pale-brown plain of steppe and semi-desert, streaked with sand and dotted with glittering white salt lakes, with the green Volga cutting across it. At its lowest, along the Caspian shore, it lies about 28 m below sea level.",
+    "w": "A flat, pale-brown plain with white salt lakes and sandy patches, crossed by the green ribbon of the Volga.",
+    "f": [
+      "Lake Elton, in the north of the lowland, is the largest salt lake in Europe.",
+      "Lake Baskunchak has supplied Russia with salt for centuries.",
+      "Bolshoye Bogdo, only about 150 m high, is the lowland's highest point and a sacred place for the Kalmyks."
+    ],
+    "q": {
+      "q": "Roughly how far below sea level does the Caspian Depression reach?",
+      "a": "About 28 m",
+      "x": [
+        "About 5 m",
+        "About 90 m"
+      ]
+    }
+  },
+  "Q654544": {
+    "t": "A green labyrinth that swallows half the White Nile",
+    "s": "Here the White Nile loses its way in the Sudd, one of the largest wetlands in the world: a vast green labyrinth of papyrus, reeds and floating plants, threaded by channels and lagoons that glint in the sun. So much water evaporates that roughly half the river's flow never leaves the swamp. Its size swells and shrinks with the rainy season.",
+    "w": "A vast, flat green swamp laced with shining channels and lagoons, with the main river winding through it.",
+    "f": [
+      "Its name comes from the Arabic for 'barrier': the swamp long blocked boats travelling up the Nile.",
+      "Around AD 60 explorers sent by the Roman emperor Nero were turned back by the swamp.",
+      "The Jonglei Canal, begun in 1978 to carry water around the swamp, was never finished."
+    ],
+    "q": {
+      "q": "What does the Arabic name 'Sudd' mean?",
+      "a": "Barrier",
+      "x": [
+        "Lake",
+        "Green sea"
+      ]
+    }
+  },
+  "Q11767": {
+    "t": "The land between two rivers, where writing began",
+    "s": "Mesopotamia means 'between the rivers' in Greek, and from above you can see why: the Tigris and the Euphrates run roughly side by side across a brown, dry plain, each edged with a thin green strip of fields and palms. Between them lies open steppe that turns briefly green after the winter rains. Along these rivers some of the first cities, and the first writing, appeared.",
+    "w": "A dry brown plain with two big rivers, each lined by a thin green strip of farmland, running south-east.",
+    "f": [
+      "Cuneiform, one of the earliest writing systems, appeared here more than 5,000 years ago.",
+      "Farming here depended on irrigation canals, some of the oldest in the world.",
+      "In southern Iraq the two rivers finally meet and flow on to the Gulf as the Shatt al-Arab."
+    ],
+    "q": {
+      "q": "What does the name 'Mesopotamia' mean?",
+      "a": "Between the rivers",
+      "x": [
+        "Land of palms",
+        "Fertile plain"
+      ]
+    }
+  },
+  "Q208965": {
+    "t": "Where the Transantarctic Mountains meet the Ross Sea",
+    "s": "Victoria Land is Antarctica at its most dramatic: the Transantarctic Mountains rise straight from the Ross Sea, their peaks over 4,000 m, with great glaciers pouring between them onto the sea ice. Further south lie the McMurdo Dry Valleys, bare brown valleys among the driest places on Earth. James Clark Ross named this land after Queen Victoria in 1841.",
+    "w": "Jagged dark mountains and broad glaciers running down to a white, ice-covered sea; further south, bare brown valleys.",
+    "f": [
+      "The McMurdo Dry Valleys are the largest ice-free area in Antarctica.",
+      "At Cape Adare, in the north, stand huts built in 1899, the first buildings on the Antarctic continent.",
+      "Italy's Mario Zucchelli Station stands on its coast, at Terra Nova Bay."
+    ],
+    "q": {
+      "q": "Who is Victoria Land named after?",
+      "a": "Queen Victoria",
+      "x": [
+        "A ship called Victoria",
+        "An explorer's daughter"
+      ]
+    }
+  },
+  "Q1389935": {
+    "t": "Named after a chocolate maker who paid for the voyage",
+    "s": "Inland from the coast, the dark peaks of the Prince Charles Mountains break through the ice of Mac. Robertson Land, while beside them the Lambert Glacier, often called the largest glacier on Earth, flows slowly north into the Amery Ice Shelf. From above, look for the long, streaked surface of moving ice between the mountains. The land honours Macpherson Robertson, an Australian chocolate maker who helped fund Mawson's 1929–31 expedition.",
+    "w": "Dark mountain ridges poking through the ice, beside a vast, streaked glacier flowing towards a flat ice shelf.",
+    "f": [
+      "Robertson's company made sweets such as the Freddo Frog chocolate.",
+      "The Lambert Glacier is more than 400 km long and up to about 100 km wide.",
+      "Australia's Mawson Station stands on its coast."
+    ],
+    "q": {
+      "q": "What did the man who gave Mac. Robertson Land its name make?",
+      "a": "Chocolate and sweets",
+      "x": [
+        "Whaling ships",
+        "Aircraft"
+      ]
+    }
+  },
+  "Q2607094": {
+    "t": "Where Australia set up home in Antarctica in 1954",
+    "s": "Along the Mawson Coast the ice sheet ends in blue-white cliffs, broken by a few dark rocky headlands and islands. On one of them, in 1954, Australia built Mawson Station, the oldest station still running south of the Antarctic Circle. Behind it the Framnes Mountains poke through the ice, and fierce winds rush down the slope towards the sea.",
+    "w": "Blue-white ice cliffs with dark rocky islands and headlands, sea ice offshore, and dark peaks poking through the ice inland.",
+    "f": [
+      "The coast and the station are named after Douglas Mawson, the Australian geologist and polar explorer.",
+      "Nearby, at Auster, emperor penguins raise their chicks on the winter sea ice.",
+      "Katabatic winds pouring off the ice here often blow at gale force."
+    ],
+    "q": {
+      "q": "When was Mawson Station founded?",
+      "a": "1954",
+      "x": [
+        "1911",
+        "1985"
+      ]
+    }
+  },
+  "Q1576051": {
+    "t": "An icy coast with India's first Antarctic base",
+    "s": "A flat ice shelf fringes the Princess Astrid Coast and meets the sea in low white cliffs. Just behind it lies the Schirmacher Oasis, a low strip of dark rock dotted with lakes that thaw in summer. Further south, where you are now, the jagged spires of the Wohlthat Mountains break through the ice, and beyond them the polar plateau begins.",
+    "w": "A flat white ice shelf along the sea, a small dark strip of rock and lakes, then jagged mountain spires inland.",
+    "f": [
+      "India's first Antarctic base, Dakshin Gangotri, was built on the ice shelf here in 1983.",
+      "By 1989 Dakshin Gangotri had been abandoned, slowly buried by snow and ice.",
+      "Russia's Novolazarevskaya and India's Maitri stations stand side by side in the Schirmacher Oasis."
+    ],
+    "q": {
+      "q": "Which country's first Antarctic base was built here in 1983?",
+      "a": "India",
+      "x": [
+        "China",
+        "Brazil"
+      ]
+    }
+  },
+  "Q1663286": {
+    "t": "Ice-free hills and salty lakes beside a giant ice shelf",
+    "s": "Along the Ingrid Christensen Coast the ice sheet parts in places to reveal low hills of bare brown rock scattered with lakes, some of them saltier than the sea. These oases, the Vestfold and Larsemann Hills, are rare in Antarctica, and several countries have built stations among them. To the west lies the vast, flat Amery Ice Shelf.",
+    "w": "White ice with patches of bare brown hills and small lakes along the coast; a vast, flat ice shelf to the west.",
+    "f": [
+      "Deep Lake in the Vestfold Hills is so salty that it stays liquid at around −18 °C.",
+      "Australia's Davis Station stands in the Vestfold Hills; Russia, China and India have stations in the Larsemann Hills.",
+      "The coast is named after Ingrid Christensen, wife of the Norwegian whaling magnate Lars Christensen."
+    ],
+    "q": {
+      "q": "What makes the Vestfold Hills unusual in Antarctica?",
+      "a": "They are largely free of ice",
+      "x": [
+        "They are active volcanoes",
+        "They are its highest peaks"
+      ]
+    }
+  },
+  "Q21471424": {
+    "t": "Where the first Soviet Antarctic station was built",
+    "s": "The Queen Mary Coast is edged by the Shackleton Ice Shelf, a flat white platform of floating ice that ends at the sea in cliffs, with icebergs crowding below. Behind it the ice sheet rises gently inland. In 1956 the Soviet Union built Mirny here, its first Antarctic station, and Russia still runs it today.",
+    "w": "A flat white ice shelf ending in cliffs over dark water scattered with icebergs; the ice sheet rising gently behind.",
+    "f": [
+      "Mawson's Australasian Antarctic Expedition of 1911–14 named it after Queen Mary, wife of King George V.",
+      "Mawson's western party spent the winter of 1912 on the Shackleton Ice Shelf.",
+      "Emperor penguins breed on the sea ice near Mirny."
+    ],
+    "q": {
+      "q": "Which station, founded here in 1956, was the first Soviet base in Antarctica?",
+      "a": "Mirny",
+      "x": [
+        "Vostok",
+        "Novolazarevskaya"
+      ]
+    }
+  },
+  "Q2944697": {
+    "t": "An oasis of lakes spotted from the air in 1947",
+    "s": "Along the Knox Coast the ice sheet flows down to the sea in broad glaciers, but at its western end lies a surprise: the Bunger Hills, a patch of bare, low rock dotted with dozens of lakes. From the air it looks like a brown island in a white sea. US Navy pilot David Bunger spotted it in 1947, and it now bears his name.",
+    "w": "White ice sloping down to the sea, with a striking patch of bare brown hills and lakes near the western end.",
+    "f": [
+      "The coast is named after Samuel Knox, a ship's commander on the US Exploring Expedition of 1838–42.",
+      "The Bunger Hills are one of the largest ice-free areas on the Antarctic coast.",
+      "In 1956 the Soviet Union opened a station called Oazis in the Bunger Hills."
+    ],
+    "q": {
+      "q": "What did a pilot discover on this coast in 1947?",
+      "a": "An ice-free oasis with lakes",
+      "x": [
+        "An active volcano",
+        "A lake buried under ice"
+      ]
+    }
+  },
+  "Q124971": {
+    "t": "Where a great East Antarctic glacier meets the sea",
+    "s": "On the Sabrina Coast the ice of East Antarctica pours into the ocean through the Totten Glacier, one of the largest on the continent, which ends in a floating tongue of ice. Scientists have found warm ocean water reaching beneath it, and they watch it closely. From above, look for streaked, crevassed ice meeting a sea scattered with icebergs.",
+    "w": "Crevassed, streaked ice flowing into a floating ice tongue, with icebergs and sea ice on the dark water beyond.",
+    "f": [
+      "The coast takes its name from the Sabrina, a cutter of John Balleny's British expedition of 1839.",
+      "The Totten Glacier drains a basin holding enough ice to raise world sea level by several metres.",
+      "The Moscow University Ice Shelf also lies along this coast."
+    ],
+    "q": {
+      "q": "What is the Sabrina Coast named after?",
+      "a": "A small sailing ship",
+      "x": [
+        "An explorer's daughter",
+        "A whaling station"
+      ]
+    }
+  },
+  "Q21489984": {
+    "t": "The windy coast that gave its name to a penguin",
+    "s": "The Adélie Coast is a short stretch of ice cliffs and rocky islets, where fierce winds pour off the ice sheet towards the sea. The French explorer Jules Dumont d'Urville landed here in 1840 and named the land after his wife, Adèle. The Adélie penguin, which nests on its rocky islands, carries the same name.",
+    "w": "Ice cliffs broken by dark rocky islets, with sea ice and icebergs offshore and the ice sheet rising steadily inland.",
+    "f": [
+      "France's Dumont d'Urville Station stands on a small island just off this coast.",
+      "Its katabatic winds are among the strongest in Antarctica.",
+      "The film 'March of the Penguins' was shot among emperor penguins near Dumont d'Urville Station."
+    ],
+    "q": {
+      "q": "Who was the Adélie Coast named after?",
+      "a": "The explorer's wife",
+      "x": [
+        "A French queen",
+        "The captain's daughter"
+      ]
+    }
+  },
+  "Q728390": {
+    "t": "The icy coast where the ozone hole was found",
+    "s": "Coats Land runs down the eastern side of the Weddell Sea, where the ice sheet slides off the land into broad ice shelves. On one of them, the Brunt Ice Shelf, stands Britain's Halley station, whose measurements revealed the Antarctic ozone hole in 1985. From above there is little but white: flat shelves, long cracks and the edge of the sea ice.",
+    "w": "Flat white ice shelves with long cracks meeting the frozen Weddell Sea; the ice sheet rising gently inland.",
+    "f": [
+      "Halley VI stands on legs with skis so it can be towed; in 2017 it was moved away from a growing crack.",
+      "The land was named in 1904 after James and Andrew Coats, Scottish sponsors of William Speirs Bruce's expedition.",
+      "Emperor penguins breed on the sea ice along this coast."
+    ],
+    "q": {
+      "q": "What did measurements at Halley station reveal in 1985?",
+      "a": "The ozone hole",
+      "x": [
+        "Lake Vostok",
+        "The Gamburtsev Mountains"
+      ]
+    }
+  },
+  "Q1134547": {
+    "t": "Home of Antarctica's highest mountains",
+    "s": "In Ellsworth Land the Ellsworth Mountains rise from the ice like a great wall some 350 km long, and among them stands Vinson Massif, at 4,892 m the highest point in Antarctica. Around them the ice sheet stretches flat and white towards the Ronne Ice Shelf and the Bellingshausen Sea. Lincoln Ellsworth crossed this land in 1935 on the first flight across Antarctica.",
+    "w": "A long wall of dark, jagged mountains rising from the white ice sheet, with flat ice stretching away on all sides.",
+    "f": [
+      "The Sentinel Range, the northern part of the Ellsworth Mountains, holds Antarctica's highest peaks.",
+      "Climbers reach Vinson from a camp on the ice at Union Glacier, served by flights from Chile.",
+      "Vinson was first climbed only in 1966."
+    ],
+    "q": {
+      "q": "How high is Vinson Massif?",
+      "a": "4,892 m",
+      "x": [
+        "3,794 m",
+        "6,190 m"
+      ]
+    }
   }
 }

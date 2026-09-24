@@ -509,6 +509,7 @@ export const fr = {
     software: 'logiciels · %{n}',
     softwareNote: 'Composants open source intégrés à l’app. Touchez-en un pour voir sa licence.',
     src: {
+      editorial: 'Textes sur les lieux et l’histoire, écrits pour l’application',
       naturalEarth: 'Lieux, frontières et côtes',
       ourAirports: 'Aéroports',
       mwgg: 'Fuseaux horaires des aéroports',
@@ -516,6 +517,9 @@ export const fr = {
       commons: 'Photos — auteur et licence indiqués sous chacune',
       osm: 'Données cartographiques',
       tiles: 'Tuiles de carte hors ligne',
+      aeroDataBox: 'Recherche d’un vol par son numéro',
+      fr24: 'Trajectoires réelles récentes du vol',
+      openMeteo: 'Prévision de la nébulosité le long de la route',
     },
   },
   a11y: {
@@ -587,7 +591,8 @@ export const fr = {
     terms: 'Conditions d’utilisation',
     licenses: 'Licences et sources',
     dataSources: 'données',
-    credits: 'Lieux et frontières : Natural Earth (domaine public). Aéroports : OurAirports (domaine public) ; fuseaux horaires : mwgg/Airports © 2014 mwgg, licence MIT. Histoires et photos : Wikipédia et Wikimedia Commons, CC BY-SA. Carte : © les contributeurs d’OpenStreetMap, OpenMapTiles, OpenFreeMap.',
+    credits: 'Lieux et frontières : Natural Earth (domaine public). Aéroports : OurAirports (domaine public) ; fuseaux horaires : mwgg/Airports © 2014 mwgg, licence MIT. Textes sur les lieux et l’histoire : écrits pour SkyAtlas. Autres histoires : Wikipédia, CC BY-SA. Photos : Wikimedia Commons, chacune sous sa propre licence. Carte : © les contributeurs d’OpenStreetMap, OpenMapTiles, OpenFreeMap.',
+    creditsServices: 'Données de vol : AeroDataBox. Trajectoires : Flightradar24. Météo : Open-Meteo, CC BY 4.0.',
     reset: 'Vider le passeport',
     resetTitle: 'Vider le passeport ?',
     resetBody: 'Tous les vols, tampons et succès de ce téléphone seront effacés. Les paquets de vol enregistrés sont conservés.',

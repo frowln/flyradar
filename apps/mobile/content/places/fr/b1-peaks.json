@@ -715,5 +715,360 @@
         "Un explorateur écossais"
       ]
     }
+  },
+  "Q39739": {
+    "t": "Le plus haut sommet du monde hors d’Asie",
+    "s": "L’Aconcagua est la plus haute montagne hors d’Asie, 6 959 m, et le sommet des hémisphères Ouest et Sud à la fois. Il se dresse en Argentine, juste à l’est de la frontière chilienne : un énorme massif brun et blanc plutôt qu’une fine aiguille. Sur les vols entre Santiago et Mendoza, il surgit souvent près de l’aile, à quatre kilomètres à peine sous vous.",
+    "w": "Un pic massif coiffé de blanc au-dessus des crêtes brunes et sèches des Andes, juste au nord de la route Santiago–Mendoza.",
+    "f": [
+      "Matthias Zurbriggen a réussi la première ascension connue en 1897.",
+      "Sa voie normale ne demande aucune escalade technique, seulement de l’endurance et une acclimatation soignée.",
+      "On rattache souvent son nom à des mots quechuas signifiant « sentinelle de pierre », mais son origine reste débattue."
+    ],
+    "q": {
+      "q": "L’Aconcagua est le plus haut sommet hors de quel continent ?",
+      "a": "L’Asie",
+      "x": [
+        "L’Afrique",
+        "L’Europe"
+      ]
+    }
+  },
+  "ne-pk-1159108759": {
+    "t": "Un sommet solitaire au-dessus de la forêt vénézuélienne",
+    "s": "Au fond de l’État d’Amazonas, au Venezuela, loin de toute route, le Cerro La Raya s’élève à quelque 2 000 m au-dessus d’une mer verte de forêt, d’un seul tenant. Il appartient au massif des Guyanes, pays de très anciennes montagnes de grès et de tepuys à sommet plat. Cherchez des crêtes sombres qui percent la canopée, souvent drapées de nuages l’après-midi, et des rivières brunes qui filent vers l’Orénoque.",
+    "w": "Des crêtes boisées et des hauteurs coiffées de nuages au-dessus d’une forêt continue ; des rivières brunes serpentent vers l’Orénoque, à l’ouest.",
+    "f": [
+      "L’État vénézuélien d’Amazonas est plus grand que bien des pays européens, mais très peu peuplé.",
+      "Dans ce même État, le Casiquiare, un chenal naturel, relie les bassins de l’Orénoque et de l’Amazone.",
+      "Des tepuys voisins comme le Cerro Autana dressent leurs parois verticales tout droit hors de la forêt."
+    ],
+    "q": {
+      "q": "Quel chenal naturel de l’Amazonas vénézuélien relie l’Orénoque et l’Amazone ?",
+      "a": "Le Casiquiare",
+      "x": [
+        "Le Ventuari",
+        "Le Caroní"
+      ]
+    }
+  },
+  "Q1108926": {
+    "t": "Le pays du cuivre, sur le toit de l’Afrique centrale",
+    "s": "Le sud-est de la RD Congo s’élève en un plateau, le Katanga : haute savane et forêt claire, le plus souvent au-dessus de 1 000 m, traversées par la ligne de partage des eaux entre Congo et Zambèze. Son sous-sol recèle certains des plus riches gisements de cuivre et de cobalt du monde. Cherchez d’immenses mines à ciel ouvert et des bassins de résidus — cicatrices grises et turquoise — autour de Lubumbashi et de Kolwezi.",
+    "w": "Savane et forêt claire vert-brun, piquetées de mines grises à ciel ouvert et de bassins turquoise vif près de Kolwezi et Lubumbashi.",
+    "f": [
+      "La RD Congo produit environ 70 % du cobalt mondial, en majeure partie dans cette région.",
+      "Le Lualaba, cours supérieur du fleuve Congo, prend sa source sur le plateau.",
+      "La ceinture de cuivre se prolonge au sud, au-delà de la frontière, dans la Copperbelt zambienne."
+    ],
+    "q": {
+      "q": "Quel métal pour batteries extrait-on massivement sur le plateau du Katanga ?",
+      "a": "Le cobalt",
+      "x": [
+        "Le nickel",
+        "Le platine"
+      ]
+    }
+  },
+  "Q208807": {
+    "t": "Des montagnes-tables surgies de la forêt tropicale",
+    "s": "Dans le nord de l’Amérique du Sud, des montagnes tabulaires aux flancs à pic, les tepuys, émergent de la forêt comme des îles, leur sommet plat souvent perdu dans les nuages. Elles sont taillées dans un grès vieux d’environ 1,7 milliard d’années, parmi les plus anciennes roches sédimentaires du continent. Cherchez des blocs sombres bordés de falaises et, à la saison des pluies, les fils blancs des cascades qui tombent de leurs rebords.",
+    "w": "Des blocs de roche sombre à sommet plat et bords en falaise, dressés au-dessus d’une forêt continue, souvent coiffés de nuages.",
+    "f": [
+      "Le Salto Ángel, qui tombe de 979 m depuis l’Auyán-tepui, est la plus haute chute d’eau ininterrompue du monde.",
+      "Le mont Roraima, environ 2 810 m, marque le point de rencontre du Venezuela, du Brésil et du Guyana.",
+      "Tepuy est un mot pemón qu’on traduit généralement par « maison des dieux »."
+    ],
+    "q": {
+      "q": "Quelle chute d’eau record tombe ici du haut d’un tepuy ?",
+      "a": "Le Salto Ángel",
+      "x": [
+        "Les chutes Victoria",
+        "Les chutes d’Iguaçu"
+      ]
+    }
+  },
+  "Q118899": {
+    "t": "Le vieux cœur de pierre du Brésil",
+    "s": "Une grande partie de l’est et du centre du Brésil est un vaste haut pays de roches anciennes, usé en longs plateaux tabulaires aux bords abrupts, les chapadas. Brasília y a été bâtie à la fin des années 1950, à plus de 1 000 m. D’en haut, cherchez des tables de terre rouge, la savane du cerrado, olive et or, et d’immenses cercles verts de cultures irriguées, posés comme des pièces sur une table.",
+    "w": "Des tables rouges aux bords abrupts, une savane vert olive et de nets cercles verts d’irrigation par pivot.",
+    "f": [
+      "Le São Francisco, plus long fleuve entièrement brésilien, traverse ces hautes terres vers le nord sur une grande partie de son cours.",
+      "Brasília a été inaugurée comme capitale en 1960.",
+      "Le cerrado qui en couvre une grande partie est l’une des savanes les plus riches en espèces du monde."
+    ],
+    "q": {
+      "q": "Quel est le plus long fleuve entièrement situé au Brésil ?",
+      "a": "Le São Francisco",
+      "x": [
+        "Le Paraná",
+        "Le Tocantins"
+      ]
+    }
+  },
+  "Q155197": {
+    "t": "Taïga, rivières et vieille lave jusqu’à l’horizon",
+    "s": "Entre l’Ienisseï et la Lena s’étend un vaste haut plateau, le plus souvent entre 500 et 700 m, entaillé de profondes vallées. Il est en grande partie fait des trapps de Sibérie, une lave épanchée il y a quelque 250 millions d’années. De croisière, c’est une taïga de mélèzes sans fin : vert sombre en été, dorée à l’automne, blanche sous la neige la plus grande partie de l’année.",
+    "w": "Une taïga sombre sans fin, entaillée de rivières sinueuses au fond de vallées profondes, des hauteurs tabulaires et, à l’automne, l’or des mélèzes.",
+    "f": [
+      "Les éruptions des trapps de Sibérie sont liées à la plus grande extinction de l’histoire de la Terre, il y a environ 252 millions d’années.",
+      "En 1908, l’explosion de la Toungouska a couché quelque 2 000 km² de forêt sur le plateau.",
+      "Le pergélisol s’étend sous presque tout le plateau, par endroits sur des centaines de mètres d’épaisseur."
+    ],
+    "q": {
+      "q": "Quel événement de 1908 a couché la forêt du plateau de Sibérie centrale ?",
+      "a": "L’explosion de la Toungouska",
+      "x": [
+        "La météorite de Sikhote-Aline",
+        "Le météore de Tcheliabinsk"
+      ]
+    }
+  },
+  "Q560198": {
+    "t": "La steppe sous un ciel immense, à un kilomètre d’altitude",
+    "s": "Le plateau mongol s’étend sur la Mongolie et le nord de la Chine, entre 1 000 et 1 500 m environ : steppe ondulée, collines nues et, au sud, le Gobi caillouteux. Peu d’endroits paraissent aussi ouverts vus d’avion. Les routes ne sont que de vagues pistes, les rivières divaguent librement, les lacs brillent comme des pièces éparpillées. Oulan-Bator, sur le plateau vers 1 350 m, est la capitale la plus froide du monde.",
+    "w": "Une steppe ondulée vert-brun, presque sans routes, aux rivières sinueuses, et au sud un désert pâle et caillouteux.",
+    "f": [
+      "Oulan-Bator a la température moyenne la plus basse de toutes les capitales nationales.",
+      "Le lac Khövsgöl, au nord, renferme environ 70 % de l’eau douce de la Mongolie.",
+      "En 1923, aux Falaises flamboyantes du Gobi, des scientifiques ont trouvé les premiers nids d’œufs de dinosaures reconnus."
+    ],
+    "q": {
+      "q": "Quelle capitale, la plus froide du monde, se trouve sur ce plateau ?",
+      "a": "Oulan-Bator",
+      "x": [
+        "Astana",
+        "Moscou"
+      ]
+    }
+  },
+  "Q169966": {
+    "t": "La table inclinée de l’Inde, faite de lave ancienne",
+    "s": "Le Deccan occupe l’essentiel du sud de l’Inde : un plateau triangulaire relevé sur son bord ouest par les Ghâts occidentaux et incliné vers l’est. Ainsi ses grands fleuves — Godavari, Krishna, Kaveri — naissent près de la mer d’Arabie mais traversent tout le pays jusqu’au golfe du Bengale. Une grande partie du nord-ouest est faite du basalte des trapps du Deccan, une lave épanchée il y a environ 66 millions d’années.",
+    "w": "Une table brune et sèche de collines tabulaires, de réservoirs et de rivières coulant vers l’est ; bien plus verte pendant la mousson.",
+    "f": [
+      "Son nom vient du mot sanskrit dakshina, « sud ».",
+      "Hyderabad et Bangalore se trouvent sur le plateau, à environ 500 et 900 m d’altitude.",
+      "Les éruptions des trapps du Deccan ont eu lieu à peu près au moment de la disparition des dinosaures."
+    ],
+    "q": {
+      "q": "Vers où coulent la plupart des grands fleuves du Deccan ?",
+      "a": "À l’est, vers le golfe du Bengale",
+      "x": [
+        "À l’ouest, vers la mer d’Arabie",
+        "Au nord, vers le Gange"
+      ]
+    }
+  },
+  "Q1908889": {
+    "t": "Là où la forêt amazonienne rencontre les champs",
+    "s": "Mato Grosso signifie « brousse épaisse » en portugais, et ce plateau occupe le cœur du Brésil, là où la forêt amazonienne cède la place à la savane du cerrado. D’en haut, c’est un patchwork : d’immenses rectangles de soja et de maïs, des bandes de forêt le long des rivières, des pistes de terre rouge tirées au cordeau sur des kilomètres. Ses rivières partent de deux côtés : au nord vers l’Amazone, au sud vers le Pantanal.",
+    "w": "Un immense damier de champs verts et fauves aux routes tirées au cordeau, entaillé par les lignes sombres des forêts riveraines.",
+    "f": [
+      "Le Xingu et les rivières qui forment le Tapajós, grands affluents de l’Amazone, naissent sur ce plateau.",
+      "Le parc indigène du Xingu, fondé en 1961, apparaît d’en haut comme un grand bloc de forêt cerné de cultures.",
+      "L’État du Mato Grosso est le premier producteur de soja du Brésil."
+    ],
+    "q": {
+      "q": "Que signifie « Mato Grosso » en portugais ?",
+      "a": "Brousse épaisse",
+      "x": [
+        "Grand fleuve",
+        "Haute plaine"
+      ]
+    }
+  },
+  "Q7680307": {
+    "t": "Un dôme de glace neigeux face à la mer de Ross",
+    "s": "Le dôme Talos est un sommet large et doux de la glace d’Antarctique de l’Est, à environ 2 300 m, à l’intérieur des terres de la Terre Victoria septentrionale. Contrairement aux dômes arides du cœur du continent, il reçoit pas mal de neige des tempêtes venues de la mer de Ross et de l’océan Austral. Ses couches annuelles de glace sont donc épaisses et lisibles, et les scientifiques les ont forées en profondeur.",
+    "w": "Un renflement à peine visible de l’inlandsis blanc, avec les pics sombres de la Terre Victoria entre lui et la côte.",
+    "f": [
+      "Un projet européen de carottage, TALDICE, a foré plus de 1 600 m dans le dôme dans les années 2000.",
+      "Sa carotte de glace garde la mémoire du climat sur environ 250 000 ans."
+    ],
+    "q": {
+      "q": "Quelle mer s’étend du côté de la côte, en partant du dôme Talos ?",
+      "a": "La mer de Ross",
+      "x": [
+        "La mer de Weddell",
+        "La mer d’Amundsen"
+      ]
+    }
+  },
+  "Q470049": {
+    "t": "Des hautes terres glacées baptisées lors d’un vol de 1939",
+    "s": "L’American Highland est un haut plateau couvert de glace en Antarctique de l’Est, au bord de l’immense vallée du glacier Lambert. L’explorateur américain Lincoln Ellsworth l’a survolé en 1939 et lui a donné son nom. D’en haut, c’est une pente blanche et lisse, traversée de crêtes à peine marquées, qui descend vers le gigantesque courant de glace du Lambert et, au-delà, la plate barrière d’Amery.",
+    "w": "Un haut plateau blanc et lisse, à peine ridé, qui descend vers une immense vallée glaciaire et la plate barrière d’Amery.",
+    "f": [
+      "Le glacier Lambert voisin est l’un des plus grands glaciers de la Terre, long de plusieurs centaines de kilomètres.",
+      "En 1939, l’avion d’Ellsworth a décollé de son navire d’expédition, le Wyatt Earp.",
+      "La barrière d’Amery, alimentée par le Lambert, flotte au fond de la baie de Prydz."
+    ],
+    "q": {
+      "q": "Qui a baptisé l’American Highland après un vol en 1939 ?",
+      "a": "Lincoln Ellsworth",
+      "x": [
+        "Richard Byrd",
+        "Hubert Wilkins"
+      ]
+    }
+  },
+  "Q5881339": {
+    "t": "Au nom du pilote du premier vol à travers l’Antarctique",
+    "s": "Ce large plateau de glace de l’Antarctique de l’Ouest porte le nom de Herbert Hollick-Kenyon, qui en 1935 fit pour la première fois traverser le continent en avion à Lincoln Ellsworth. La traversée dura environ deux semaines : il fallut se poser plusieurs fois sur la glace pour laisser passer les tempêtes. Sous vous, une étendue blanche infinie, doucement ondulée, où l’on ne voit presque aucun rocher.",
+    "w": "Un plateau blanc sans relief, doucement ondulé, entre les monts Ellsworth et les chaînes de la Terre Marie Byrd.",
+    "f": [
+      "En 1935, l’avion tomba en panne sèche avant la baie des Baleines, et les deux hommes finirent le trajet à pied.",
+      "Ellsworth a donné au plateau le nom de son pilote."
+    ],
+    "q": {
+      "q": "Qu’a fait Herbert Hollick-Kenyon en 1935 ?",
+      "a": "Traversé l’Antarctique en avion",
+      "x": [
+        "Atteint le pôle Sud",
+        "Cartographié la mer de Ross"
+      ]
+    }
+  },
+  "Q370807": {
+    "t": "Un haut plateau blanc au nom d’un mécène d’expédition",
+    "s": "Le plateau Rockefeller est un vaste haut pays enfoui sous la glace en Antarctique de l’Ouest, en retrait de la barrière de Ross. L’expédition de Richard Byrd l’a survolé en 1934 et l’a nommé d’après John D. Rockefeller Jr., l’un de ses mécènes. D’en haut, rien qu’une glace blanche et lisse jusqu’à l’horizon ; la roche se trouve à bien plus d’un kilomètre de profondeur, souvent sous le niveau de la mer.",
+    "w": "Une glace blanche et lisse jusqu’à l’horizon, à l’est de la barrière de Ross, toute plate, sans le moindre rocher visible.",
+    "f": [
+      "Une grande partie du socle rocheux sous la glace de l’Antarctique de l’Ouest se trouve sous le niveau de la mer.",
+      "La base de Byrd, Little America, se trouvait à l’ouest, sur la barrière de Ross."
+    ],
+    "q": {
+      "q": "Quelle expédition a découvert et nommé le plateau Rockefeller ?",
+      "a": "Celle de Richard Byrd",
+      "x": [
+        "Celle de Roald Amundsen",
+        "Celle d’Ernest Shackleton"
+      ]
+    }
+  },
+  "Q3045552": {
+    "t": "Un avant-poste permanent sur la glace, à 3 200 m",
+    "s": "Le dôme C est l’un des hauts sommets de la glace d’Antarctique de l’Est, à environ 3 200 m d’altitude ; la France et l’Italie y exploitent Concordia, une station occupée toute l’année. En hiver, la température descend sous −80 °C, et pendant des mois le soleil ne se lève pas. Une carotte de glace forée au dôme C garde la mémoire du climat terrestre sur quelque 800 000 ans.",
+    "w": "Un sommet plat et blanc de l’inlandsis, sans aucun repère : la station est bien trop petite pour être vue.",
+    "f": [
+      "Le projet européen EPICA y a foré 3 270 m de glace, couvrant environ 800 000 ans.",
+      "Les agences spatiales étudient les hivernants de Concordia pour comprendre comment on supporte l’isolement des longues missions.",
+      "En 2025, le projet Beyond EPICA a atteint une glace de plus d’un million d’années au Little Dome C voisin."
+    ],
+    "q": {
+      "q": "Quels pays exploitent la station Concordia, au dôme C ?",
+      "a": "La France et l’Italie",
+      "x": [
+        "L’Allemagne et la Norvège",
+        "Le Royaume-Uni et la Belgique"
+      ]
+    }
+  },
+  "Q593197": {
+    "t": "Le plus haut sommet de la glace antarctique",
+    "s": "Le dôme A est le point culminant de l’inlandsis antarctique, à environ 4 090 m, au cœur de l’Antarctique de l’Est. Sous quelque trois kilomètres de glace se cachent les monts Gamburtsev, une chaîne à peu près de la taille des Alpes, que personne n’a jamais vue. La Chine y a installé sa station Kunlun en 2009, et les satellites ont relevé tout près certaines des températures de surface les plus froides de la Terre.",
+    "w": "Un horizon blanc absolument plat ; le sommet de la glace s’élève si doucement qu’on ne peut pas le distinguer.",
+    "f": [
+      "Des scientifiques soviétiques ont découvert les monts Gamburtsev enfouis en 1958, par sondages sismiques.",
+      "Des mesures satellitaires sur la crête glaciaire près du dôme A sont descendues sous −90 °C.",
+      "Une expédition chinoise a atteint le dôme A pour la première fois en 2005."
+    ],
+    "q": {
+      "q": "Que cache la glace sous le dôme A ?",
+      "a": "Les monts Gamburtsev",
+      "x": [
+        "Le lac Vostok",
+        "Le bassin de Wilkes"
+      ]
+    }
+  },
+  "Q2007598": {
+    "t": "La station japonaise sur un sommet de la glace",
+    "s": "Le dôme Fuji, aussi appelé dôme F, est un haut sommet de l’inlandsis d’Antarctique de l’Est, vers 3 800 m, loin à l’intérieur de la Terre de la Reine-Maud. Le Japon y a ouvert une station de recherche en 1995 et a foré profondément la glace ; les carottes remontent à quelque 700 000 ans. Là-haut, l’air est si froid et si calme qu’on y a relevé des températures inférieures à −79 °C.",
+    "w": "Un large sommet blanc de l’inlandsis, sans relief jusqu’à l’horizon, loin des côtes de la Terre de la Reine-Maud.",
+    "f": [
+      "Les expéditions japonaises ont nommé le dôme d’après le mont Fuji.",
+      "Il n’y tombe que quelques centimètres d’eau par an sous forme de neige : l’un des lieux les plus secs de la Terre.",
+      "La crête glaciaire entre les dômes Fuji et A détient certaines des températures de surface les plus basses jamais mesurées."
+    ],
+    "q": {
+      "q": "Quel pays exploite la station de recherche du dôme Fuji ?",
+      "a": "Le Japon",
+      "x": [
+        "La Chine",
+        "La Norvège"
+      ]
+    }
+  },
+  "ne-gl-academy-of-sciences-ice-cap": {
+    "t": "La plus grande calotte de Russie, couvercle rond sur une île",
+    "s": "Tout au nord de la Severnaïa Zemlia, un dôme de glace presque parfaitement rond recouvre l’essentiel de l’île Komsomolets. La calotte de l’Académie des sciences mesure environ 80 km de diamètre et quelque 5 500 km² : la plus grande masse de glace d’un seul tenant de Russie. D’en haut, on dirait un couvercle blanc posé sur une mer sombre, ses bords s’effritant en falaises de glace et en floes à la dérive.",
+    "w": "Un dôme blanc, rond et lisse, qui occupe presque toute une île, bordé de falaises de glace et cerné de banquise.",
+    "f": [
+      "La Severnaïa Zemlia fut l’un des derniers archipels découverts sur Terre, en 1913.",
+      "Gueorgui Ouchakov et Nikolaï Ourvantsev ont cartographié les îles de 1930 à 1932, en traîneau à chiens.",
+      "Au centre du dôme, la glace est épaisse de plusieurs centaines de mètres."
+    ],
+    "q": {
+      "q": "Sur quelle île se trouve la calotte de l’Académie des sciences ?",
+      "a": "L’île Komsomolets",
+      "x": [
+        "L’île Wrangel",
+        "L’île Kotelny"
+      ]
+    }
+  },
+  "ne-gl-agassiz-ice-cap": {
+    "t": "Une calotte arctique au nom du découvreur des glaciations",
+    "s": "Au nord de l’île d’Ellesmere, la plus septentrionale du Canada, la calotte Agassiz nappe le haut plateau intérieur comme un glaçage coulé. Elle porte le nom de Louis Agassiz, savant d’origine suisse qui soutint dans les années 1830 que de grands inlandsis avaient jadis couvert une bonne partie du monde boréal. Cherchez un dôme blanc et lisse, entaillé sur ses bords par des crêtes rocheuses sombres et des langues glaciaires glissant vers les fjords.",
+    "w": "Un dôme blanc et lisse sur le haut plateau d’Ellesmere, frangé de crêtes rocheuses sombres et de langues glaciaires filant vers les fjords.",
+    "f": [
+      "Les carottes de glace forées ici depuis les années 1970 retracent les températures arctiques sur des milliers d’années.",
+      "L’île d’Ellesmere est la dixième plus grande île du monde."
+    ],
+    "q": {
+      "q": "Pour quelle idée Louis Agassiz est-il célèbre ?",
+      "a": "Les glaciations passées",
+      "x": [
+        "La dérive des continents",
+        "La sélection naturelle"
+      ]
+    }
+  },
+  "ne-gl-asgardfonna": {
+    "t": "Un plateau de glace au nom du séjour des dieux nordiques",
+    "s": "Au nord-est du Spitzberg, entre deux longs fjords, s’étend l’Åsgardfonna, un plateau de glace d’environ 1 200 km². Son nom vient d’Åsgard, le séjour des dieux dans la mythologie nordique, et les champs de glace voisins empruntent eux aussi leurs noms à ces récits. D’en haut, c’est une haute table blanche, dont les flancs laissent déborder des crêtes sombres et des glaciers de vallée.",
+    "w": "Un haut plateau de glace blanc entre deux longs fjords, le Wijdefjorden à l’ouest et le Lomfjorden à l’est.",
+    "f": [
+      "Les champs de glace voisins s’appellent Valhallfonna et Balderfonna, eux aussi d’après la mythologie nordique.",
+      "Le Wijdefjorden, à l’ouest, est le plus long fjord du Svalbard : plus de 100 km."
+    ],
+    "q": {
+      "q": "Dans la mythologie nordique, qu’est-ce qu’Åsgard ?",
+      "a": "Le séjour des dieux",
+      "x": [
+        "Le royaume des morts",
+        "Le monde des géants"
+      ]
+    }
+  },
+  "ne-gl-barnes-ice-cap": {
+    "t": "Le dernier vestige du grand inlandsis de l’ère glaciaire",
+    "s": "Au milieu de l’île de Baffin s’étend un dôme blanc et lisse d’environ 150 km de long, plus vieux qu’il n’en a l’air. La calotte Barnes est le dernier vestige de l’inlandsis laurentidien, qui recouvrait l’essentiel du Canada lors de la dernière glaciation, et ses couches profondes contiennent encore de la glace de cette époque. Autour, rien que la toundra brune, semée de milliers de lacs.",
+    "w": "Un long dôme blanc et lisse au centre de l’île de Baffin, entouré de toundra brune constellée de lacs.",
+    "f": [
+      "Elle couvre environ 6 000 km².",
+      "Les scientifiques s’attendent à ce qu’elle disparaisse d’ici quelques siècles avec le réchauffement de l’Arctique.",
+      "L’île de Baffin est la cinquième plus grande île du monde."
+    ],
+    "q": {
+      "q": "La calotte Barnes est un vestige de quel inlandsis ?",
+      "a": "L’inlandsis laurentidien",
+      "x": [
+        "L’inlandsis de la Cordillère",
+        "L’inlandsis du Groenland"
+      ]
+    }
   }
 }

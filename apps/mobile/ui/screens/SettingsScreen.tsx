@@ -18,6 +18,7 @@ import { setLocale, getLocale, SUPPORTED_LOCALES, t } from '../../src/i18n';
 import { haptics } from '../../src/core/ux/haptics';
 import { refreshReminders } from '../../src/core/flight/controller';
 import { legalUrl } from '../../src/core/links';
+import { API_ENABLED } from '../../src/core/api/client';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Settings'>;
@@ -228,7 +229,7 @@ export default function SettingsScreen() {
         <Gutter style={styles.credits}>
           <Label tone="dim" accessibilityRole="header">{t('settings.dataSources')}</Label>
           <Space h={s.x2} />
-          <Small>{t('settings.credits')}</Small>
+          <Small>{API_ENABLED ? `${t('settings.credits')} ${t('settings.creditsServices')}` : t('settings.credits')}</Small>
         </Gutter>
         <Rule />
         <PressSurface

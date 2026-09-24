@@ -708,5 +708,361 @@
         "Por su sal marina"
       ]
     }
+  },
+  "Q1011": {
+    "t": "Islas volcánicas y secas, cuna de huracanes atlánticos",
+    "s": "A unos 500 km de África occidental, diez islas volcánicas surgen del Atlántico en tonos óxido, ocre y gris: el aliento seco del Sahara llega hasta aquí. Sal y Boa Vista, al este, son llanas y arenosas. Al suroeste, Fogo es un único volcán enorme, con un joven cono negro dentro de una amplia caldera hundida.",
+    "w": "Islas pardas y áridas en un mar azul profundo; Fogo, redonda, con un cono oscuro en la caldera; al este, islas llanas y arenosas.",
+    "f": [
+      "Las islas estaban deshabitadas hasta que llegaron los portugueses, hacia 1460.",
+      "El Pico do Fogo, de 2829 m, es el punto más alto; su última erupción fue en 2014-2015.",
+      "Muchos de los huracanes más intensos del Atlántico empiezan como tormentas cerca de estas islas."
+    ],
+    "q": {
+      "q": "¿Qué isla de Cabo Verde es un único volcán con un cono dentro de su caldera?",
+      "a": "Fogo",
+      "x": [
+        "Sal",
+        "Boa Vista"
+      ]
+    }
+  },
+  "Q891593": {
+    "t": "Una isla que figuró en los mapas como península hasta 1908",
+    "s": "En la boca del golfo de Játanga, al borde del mar de Láptev, se extiende una isla baja de tundra, más o menos cuadrada, de unos 60 km de ancho. Casi todo el año está blanca y se confunde con el hielo marino que la rodea; en el breve verano se vuelve pardo verdosa y centellea de lagunas. Los ríos bajan desde su meseta central hacia fuera, como los radios de una rueda.",
+    "w": "Una isla de tundra baja, casi cuadrada, en la boca de un largo golfo, con lagos en verano y a menudo unida al hielo.",
+    "f": [
+      "Hasta 1908 figuraba como península; Nikífor Beguíchev demostró que era una isla, que hoy lleva su nombre.",
+      "Su punto más alto, en la meseta central de Kiriaka, no llega a 200 m.",
+      "Antes, Beguíchev había navegado en la expedición polar rusa de Eduard Toll de 1900-1902."
+    ],
+    "q": {
+      "q": "¿Qué se creía que era Bolshói Beguíchev antes de 1908?",
+      "a": "Una península",
+      "x": [
+        "Dos islas separadas",
+        "Un banco de arena"
+      ]
+    }
+  },
+  "Q219774": {
+    "t": "El extremo sur de la India, envuelto en selva",
+    "s": "Gran Nicobar es la mayor y más salvaje de las Nicobar: montuosa, casi toda cubierta de selva, con ríos que serpentean entre manglares hasta el mar. Su extremo sur, Indira Point, es el punto más meridional de la India, y Sumatra queda a solo unos 150 km más allá. En el interior viven los shompen, un pequeño pueblo de la selva.",
+    "w": "Una isla grande, montuosa y verde oscuro en el extremo sur de la cadena de las Nicobar, con playas claras y esteros de manglar.",
+    "f": [
+      "Gran parte de la isla es una reserva de la biosfera que incluye dos parques nacionales.",
+      "Las gigantescas tortugas laúd suben a sus playas a desovar."
+    ],
+    "q": {
+      "q": "¿Por qué es conocido Indira Point, en Gran Nicobar?",
+      "a": "El punto más al sur de la India",
+      "x": [
+        "La cima insular más alta de la India",
+        "El faro más antiguo de la India"
+      ]
+    }
+  },
+  "Q1473243": {
+    "t": "El corazón activo de las Andamán, entre arrecife y manglar",
+    "s": "La mayoría de los vuelos a las Andamán aterrizan aquí, en la isla que alberga la capital y a la mayor parte de la población del archipiélago. Desde el aire, Andamán del Sur es una silueta recortada de colinas boscosas y esteros hondos y sinuosos bordeados de manglares. Frente a su costa suroeste, un parque nacional marino protege arrecifes y un puñado de islotes en aguas de un turquesa pálido.",
+    "w": "Una isla verde, montuosa y recortada, con largos esteros de manglar; la ciudad y el aeropuerto al este, islotes de arrecife al suroeste.",
+    "f": [
+      "El Parque Nacional Marino Mahatma Gandhi, creado en 1983, abarca unas 15 islas pequeñas y sus arrecifes.",
+      "Chidiya Tapu, en el extremo sur de la isla, es conocido por sus aves y sus atardeceres sobre el mar."
+    ],
+    "q": {
+      "q": "¿Qué parque nacional marino está frente a Andamán del Sur?",
+      "a": "Parque Nacional Marino Mahatma Gandhi",
+      "x": [
+        "Parque Nacional del Golfo de Mannar",
+        "Parque Nacional de los Sundarbans"
+      ]
+    }
+  },
+  "Q222853": {
+    "t": "La mayor isla de las Andamán, bosque de costa a costa",
+    "s": "Andamán Central es la isla más grande de la cadena y, desde arriba, es un bosque casi continuo de costa a costa. Su orilla oriental está cortada por largos esteros ramificados, bordeados de manglares; el lado occidental, frente al mar abierto, es aún más salvaje y forma parte de la reserva del pueblo jarawa. Busca pequeñas islas y manchas turquesa de arrecife frente a la costa este.",
+    "w": "Una isla alargada de bosque oscuro casi continuo, con esteros de manglar al este e islotes frente a la costa.",
+    "f": [
+      "Con unos 1500 km², es la mayor de las islas Andamán.",
+      "Justo al sur, en la isla Baratang, pequeños volcanes de lodo burbujean entre el bosque."
+    ],
+    "q": {
+      "q": "¿Qué rareza hay en Baratang, justo al sur de Andamán Central?",
+      "a": "Volcanes de lodo",
+      "x": [
+        "Un lago salado",
+        "Un lago de cráter"
+      ]
+    }
+  },
+  "Q2000510": {
+    "t": "La isla boscosa del pico más alto de las Andamán",
+    "s": "En el extremo norte de la cadena de Gran Andamán, esta isla se eleva más que ninguna otra: el Saddle Peak, de 732 m, se alza cerca de su costa este, en un parque nacional de bosque denso. A su alrededor, esteros y manglares muerden la orilla, y los arrecifes trazan líneas claras mar adentro. Más allá, el mar abierto se extiende al norte, hacia las islas Coco, de Myanmar.",
+    "w": "La isla grande más septentrional de la cadena de las Andamán: colinas boscosas que suben hasta una cresta alta cerca de la costa este.",
+    "f": [
+      "El Saddle Peak, de 732 m, es el punto más alto de las islas Andamán y Nicobar.",
+      "Frente a Diglipur, los islotes de Ross y Smith están unidos por una estrecha barra de arena y forman una pareja de gemelos."
+    ],
+    "q": {
+      "q": "¿Cuál es el punto más alto de las islas Andamán?",
+      "a": "El Saddle Peak",
+      "x": [
+        "El monte Harriet",
+        "El monte Thullier"
+      ]
+    }
+  },
+  "Q82601": {
+    "t": "La tierra de fuego de Magallanes, en el extremo de América",
+    "s": "En la punta misma de Sudamérica, los Andes giran al este y se desmoronan en islas, glaciares y fiordos. La isla Grande de Tierra del Fuego son dos paisajes en uno: estepa llana y leonada con lagos claros al norte, y montañas nevadas con glaciares que caen hacia el mar al sur. El estrecho de Magallanes la separa del continente.",
+    "w": "Una gran isla triangular: llanuras pardo amarillentas al norte, picos nevados y glaciares al sur y el canal Beagle en su borde meridional.",
+    "f": [
+      "Magallanes le dio nombre en 1520 por los fuegos que vio arder en sus costas.",
+      "El cabo de Hornos está en una pequeña isla del borde sur del archipiélago.",
+      "El canal Beagle debe su nombre al HMS Beagle, el barco que después trajo aquí a Charles Darwin."
+    ],
+    "q": {
+      "q": "¿Qué estrecho separa Tierra del Fuego del continente?",
+      "a": "El estrecho de Magallanes",
+      "x": [
+        "El paso de Drake",
+        "El canal Beagle"
+      ]
+    }
+  },
+  "Q1952": {
+    "t": "Casi una isla, abrazada por las mareas más altas del mundo",
+    "s": "Nueva Escocia es una larga península unida al continente solo por un estrecho istmo, y ningún punto está a más de unos 67 km del mar. La costa atlántica es un borde recortado de calas, rocas e islotes. Al noroeste, la bahía de Fundy tiene las mareas más altas del mundo: con marea baja, busca enormes planicies de lodo rojo donde unas horas antes había mar.",
+    "w": "Una larga península paralela al continente, una costa atlántica muy recortada y planicies de marea rojizas en la bahía de Fundy.",
+    "f": [
+      "Las mareas de Fundy pueden subir y bajar unos 16 m, la mayor amplitud de la Tierra.",
+      "Su nombre original, Nova Scotia, es latín y significa «Nueva Escocia».",
+      "La isla Sable, una fina media luna de arena en pleno Atlántico frente a Nueva Escocia, alberga caballos salvajes."
+    ],
+    "q": {
+      "q": "¿Qué bahía junto a Nueva Escocia tiene las mareas más altas del mundo?",
+      "a": "La bahía de Fundy",
+      "x": [
+        "La bahía de Hudson",
+        "La bahía de Chesapeake"
+      ]
+    }
+  },
+  "Q170479": {
+    "t": "Una isla montañosa entre el océano y el continente",
+    "s": "La isla de Vancouver se extiende unos 460 km junto a la costa pacífica de Canadá, y su columna de montañas nevadas separa dos mundos. El oeste da al océano abierto, con brazos de mar profundos, oleaje y selva templada; el este, resguardado, tiene campos y pueblos junto al estrecho de Georgia. En su extremo sur está Victoria, capital de la Columbia Británica; la ciudad de Vancouver queda en el continente.",
+    "w": "Una larga isla montañosa paralela a la costa: picos nevados en el centro y ensenadas como fiordos en el lado del océano.",
+    "f": [
+      "Es la mayor isla de la costa pacífica de Norteamérica.",
+      "Su pico más alto, el Golden Hinde, alcanza 2195 m.",
+      "Lleva el nombre de George Vancouver, que cartografió esta costa en 1792."
+    ],
+    "q": {
+      "q": "¿Qué capital está en la isla de Vancouver?",
+      "a": "Victoria",
+      "x": [
+        "Vancouver",
+        "Olympia"
+      ]
+    }
+  },
+  "Q158129": {
+    "t": "Un gigante ártico recortado y acribillado de lagos",
+    "s": "La isla Victoria es la octava isla más grande del mundo y una de las de aspecto más extraño: su costa se abre en largas penínsulas y bahías profundas, como una mancha de tinta derramada. Tierra adentro, la tundra baja está salpicada de innumerables lagos que siguen helados gran parte del año. Solo viven aquí unas 2000 personas, sobre todo en Cambridge Bay y Ulukhaktok.",
+    "w": "Una isla enorme, baja y recortada, con penínsulas extendidas, bahías profundas y tundra moteada de lagos, a menudo bajo hielo marino.",
+    "f": [
+      "Con unos 217 000 km², es mayor que Gran Bretaña.",
+      "La frontera entre Nunavut y los Territorios del Noroeste la atraviesa.",
+      "Aquí está la mayor isla conocida en un lago en una isla en un lago en una isla."
+    ],
+    "q": {
+      "q": "¿Cuál de estas islas es más pequeña que la isla Victoria?",
+      "a": "Gran Bretaña",
+      "x": [
+        "Honshu",
+        "Sumatra"
+      ]
+    }
+  },
+  "Q380307": {
+    "t": "Tierra salvaje salpicada de lagos, con icebergs a la deriva",
+    "s": "Labrador es la mitad continental y salvaje de Terranova y Labrador: una meseta rocosa raspada por los glaciares de la Edad de Hielo y salpicada de miles de lagos. Al norte, los montes Torngat alzan picos afilados directamente desde el mar, con pequeños glaciares escondidos en sus hondonadas. Mar adentro, la fría corriente del Labrador arrastra icebergs de Groenlandia hacia el sur en primavera y a principios del verano.",
+    "w": "Meseta rocosa y desnuda moteada de innumerables lagos, costa de fiordos y picos afilados al norte; icebergs en primavera.",
+    "f": [
+      "El monte Caubvick, en los Torngat, con 1652 m, es el punto más alto del Canadá continental al este de las Rocosas.",
+      "La labradorita, una gema tornasolada, debe su nombre a esta región.",
+      "Las sagas nórdicas mencionan una «Markland» boscosa que muchos historiadores sitúan aquí."
+    ],
+    "q": {
+      "q": "¿Qué gema toma su nombre de Labrador?",
+      "a": "La labradorita",
+      "x": [
+        "El larimar",
+        "La amazonita"
+      ]
+    }
+  },
+  "Q146841": {
+    "t": "La cima de Canadá, a menos de 800 km del Polo Norte",
+    "s": "Ellesmere es la parte más septentrional de Canadá y, desde arriba, parece que la Edad de Hielo nunca terminó del todo: casquetes y glaciares se derraman entre montañas oscuras hacia fiordos sellados por el hielo marino. Su extremo norte, el cabo Columbia, está a menos de 800 km del Polo Norte. Aquí viven solo unas 150 personas, casi todas en la aldea inuit de Grise Fiord.",
+    "w": "Montañas oscuras sepultadas bajo casquetes de hielo, glaciares que caen en fiordos y mar helado por todos lados.",
+    "f": [
+      "Alert, en su costa noreste, es el lugar con personal permanente más al norte de la Tierra.",
+      "El pico Barbeau, de 2616 m, es el punto más alto de Nunavut.",
+      "Aquí se hallaron en 2004 fósiles de Tiktaalik, un pez con aletas parecidas a patas."
+    ],
+    "q": {
+      "q": "¿Cuál es el lugar con personal permanente más al norte de la Tierra?",
+      "a": "Alert",
+      "x": [
+        "Longyearbyen",
+        "Qaanaaq"
+      ]
+    }
+  },
+  "Q81178": {
+    "t": "La quinta isla del mundo, cortada por fiordos y hielo",
+    "s": "En las rutas polares entre Europa y el oeste de Norteamérica puedes cruzar Baffin, la mayor isla de Canadá. Su costa este es espectacular: montañas, casquetes y fiordos profundos entre paredes de granito, a menudo bordeados de hielo marino o icebergs. El oeste es más bajo y llano, salpicado de lagos. Iqaluit, la capital de Nunavut, está al fondo de la bahía de Frobisher, en el sureste.",
+    "w": "Una isla enorme: costa este montañosa, con casquetes y rasgada por fiordos; al oeste, tundra baja salpicada de lagos.",
+    "f": [
+      "Con unos 507 000 km², Baffin es la mayor isla de Canadá y la quinta del mundo.",
+      "La pared vertical de granito del monte Thor, de unos 1250 m, es la mayor caída vertical del mundo.",
+      "Las sagas nórdicas describen una pedregosa «Helluland», que suele identificarse con Baffin."
+    ],
+    "q": {
+      "q": "¿Qué capital territorial está en la isla de Baffin?",
+      "a": "Iqaluit",
+      "x": [
+        "Yellowknife",
+        "Whitehorse"
+      ]
+    }
+  },
+  "Q48335": {
+    "t": "La Roca, donde desembarcaron los vikingos hace mil años",
+    "s": "Los vuelos transatlánticos suelen tocar tierra sobre Terranova, una isla grande y agreste de roca, turbera, bosque e innumerables lagunas. Su costa es un laberinto de bahías largas y cabos, y en primavera pasan icebergs llegados de Groenlandia. Cerca de su extremo norte, hacia el año 1000, navegantes nórdicos levantaron un pequeño asentamiento en L’Anse aux Meadows: el único sitio vikingo confirmado en Norteamérica fuera de Groenlandia.",
+    "w": "Una isla grande de bordes ásperos, de bosque oscuro y turbera, moteada de lagunas, con una costa que es un laberinto de bahías hondas.",
+    "f": [
+      "Terranova tiene su propio huso horario, media hora por delante de la hora del Atlántico.",
+      "En el Parque Nacional Gros Morne, las Tablelands dejan al descubierto roca del manto terrestre.",
+      "El cabo Spear, cerca de St. John’s, es el punto más oriental de Norteamérica fuera de Groenlandia."
+    ],
+    "q": {
+      "q": "¿Cómo se llama el sitio nórdico cerca del extremo norte de Terranova?",
+      "a": "L’Anse aux Meadows",
+      "x": [
+        "Port aux Basques",
+        "Trois-Rivières"
+      ]
+    }
+  },
+  "Q3812": {
+    "t": "La isla con forma de una K desparramada",
+    "s": "Sulawesi se reconoce al instante en un mapa y desde el aire: cuatro brazos largos y montañosos salen de un nudo central, así que ningún punto queda lejos del mar. Entre los brazos hay golfos profundos y, tierra adentro, las crestas esconden lagos claros y hondos. La isla está al otro lado de la línea de Wallace, y muchos de sus animales, como el babirusa, un cerdo con colmillos, son exclusivos de ella.",
+    "w": "Cuatro penínsulas largas, estrechas y montañosas que salen de un centro como una estrella de mar, con golfos profundos entre ellas.",
+    "f": [
+      "El lago Matano, de unos 590 m de profundidad, es el más profundo del Sudeste Asiático.",
+      "En las tierras altas de Tana Toraja, las casas tradicionales tienen enormes tejados curvados hacia arriba con forma de barco.",
+      "Con unos 180 000 km², Sulawesi es la undécima isla más grande del mundo."
+    ],
+    "q": {
+      "q": "¿Con qué letra suele compararse la silueta de Sulawesi?",
+      "a": "K",
+      "x": [
+        "S",
+        "Y"
+      ]
+    }
+  },
+  "Q3757": {
+    "t": "Un rosario de volcanes en la isla más poblada del mundo",
+    "s": "Java mide unos 1000 km de largo, y a lo largo de su espina desfila una línea de conos volcánicos, muchos activos: en un día claro puedes contarlos uno tras otro. Entre ellos, arrozales y pueblos llenan cada valle: aquí viven más de 150 millones de personas. Al este, busca la caldera del Tengger, un «mar de arena» gris con el cráter humeante del Bromo dentro.",
+    "w": "Una isla larga con una hilera de conos volcánicos de punta a punta; al este, una caldera gris y arenosa con conos más pequeños dentro.",
+    "f": [
+      "El Semeru, de 3676 m, es el volcán más alto de Java y uno de los más activos.",
+      "De noche, Java brilla casi de punta a punta con las luces de sus pueblos y ciudades.",
+      "Borobudur, en el centro de Java, es el mayor templo budista del mundo."
+    ],
+    "q": {
+      "q": "¿Cuál es el volcán más alto de Java?",
+      "a": "El Semeru",
+      "x": [
+        "El Merapi",
+        "El Bromo"
+      ]
+    }
+  },
+  "Q124873": {
+    "t": "El monte Apo, águilas raras y una fosa de 10 km",
+    "s": "Mindanao, la gran isla del sur de Filipinas, es una silueta extensa y llena de brazos, con montañas boscosas, volcanes y amplias llanuras fluviales. Cerca de Davao, el monte Apo alcanza 2954 m, el punto más alto del país. Justo frente a la costa este, el fondo marino cae en la fosa de Filipinas, de más de 10 km: casi tan abajo como tú estás arriba.",
+    "w": "Una isla grande y lobulada, de montañas y llanuras verdes, con un gran lago en la meseta centro-norte y el monte Apo cerca de Davao.",
+    "f": [
+      "El lago Lanao, en la meseta centro-norte, es el segundo lago más grande de Filipinas.",
+      "Los bosques de Mindanao son el último reducto del águila filipina, una de las águilas más grandes del mundo.",
+      "Es la segunda isla más grande de Filipinas, después de Luzón."
+    ],
+    "q": {
+      "q": "¿Cuál es la montaña más alta de Filipinas?",
+      "a": "El monte Apo",
+      "x": [
+        "El volcán Mayón",
+        "El monte Pulag"
+      ]
+    }
+  },
+  "Q125384": {
+    "t": "El cono perfecto del Mayón y un volcán dentro de un lago",
+    "s": "Luzón es la mayor isla de Filipinas: una silueta alargada con una columna montañosa al norte y una cola recortada que se curva hacia el sureste. Al sur de la mancha urbana de Manila, busca dos lagos: la ancha Laguna de Bay y el Taal, con una isla volcánica en el centro. Cerca del extremo sureste se alza el Mayón, un cono tan simétrico que parece dibujado con regla.",
+    "w": "Montañas al norte, Manila extendida en torno a su bahía, dos grandes lagos al sur y un cono perfecto y solitario cerca del extremo sureste.",
+    "f": [
+      "El Mayón, de 2462 m, es famoso por ser uno de los conos volcánicos de forma más perfecta de la Tierra.",
+      "La Laguna de Bay, justo al sureste de Manila, es el mayor lago de Filipinas.",
+      "Las terrazas de arroz de la Cordillera, en el norte de Luzón, son Patrimonio Mundial de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué lago cerca de Manila tiene una isla volcánica en el centro?",
+      "a": "El lago Taal",
+      "x": [
+        "La Laguna de Bay",
+        "El lago Lanao"
+      ]
+    }
+  },
+  "Q22502": {
+    "t": "Cumbres más altas que el Fuji en una isla con forma de hoja",
+    "s": "Taiwán tiene forma de hoja, y sus dos lados no podrían ser más distintos. El este es un muro de montañas que cae casi a pico en el Pacífico, con más de 200 cumbres por encima de 3000 m. El oeste desciende suavemente hacia una llanura abarrotada de ciudades y campos que de noche arde de luz. El trópico de Cáncer la cruza por la mitad.",
+    "w": "Una isla en forma de hoja: montañas boscosas y empinadas apretadas en el este y una llanura concurrida a lo largo de la costa oeste.",
+    "f": [
+      "El Yushan, o monte de Jade, alcanza 3952 m: más que el Fuji.",
+      "Los navegantes portugueses la llamaron Ilha Formosa, «isla hermosa».",
+      "El lago del Sol y la Luna, en las montañas centrales, es la mayor masa de agua de la isla."
+    ],
+    "q": {
+      "q": "¿Qué significa «Formosa», antiguo nombre de Taiwán?",
+      "a": "Isla hermosa",
+      "x": [
+        "Isla verde",
+        "Isla montañosa"
+      ]
+    }
+  },
+  "Q13987": {
+    "t": "Donde los volcanes humean sobre las calles de la ciudad",
+    "s": "Kyushu, la más meridional de las islas principales de Japón, es tierra de volcanes. En su centro, la caldera del Aso es tan enorme que dentro caben pueblos, granjas y un ferrocarril. Al sur, el Sakurajima surge de la bahía de Kagoshima, justo frente a la ciudad, a menudo con un penacho de ceniza. La costa está recortada por bahías e islas, sobre todo hacia Nagasaki, al oeste.",
+    "w": "Una isla montañosa con una enorme caldera redonda en el centro y un volcán humeante en una bahía del sur.",
+    "f": [
+      "El nombre Kyushu significa «nueve provincias», por sus antiguas divisiones.",
+      "Durante el largo aislamiento de Japón, el islote de Dejima, en el puerto de Nagasaki, fue su única ventana a los comerciantes europeos.",
+      "La caldera del Aso mide unos 25 por 18 km."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Kyushu?",
+      "a": "Nueve provincias",
+      "x": [
+        "Isla del sur",
+        "Tierra de fuego"
+      ]
+    }
   }
 }

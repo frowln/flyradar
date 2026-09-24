@@ -708,5 +708,361 @@
         "Meersalz"
       ]
     }
+  },
+  "Q1011": {
+    "t": "Trockene Vulkaninseln, wo Atlantik-Hurrikane entstehen",
+    "s": "Rund 500 km vor Westafrika steigen zehn Vulkaninseln aus dem Atlantik, in Tönen von Rost, Ocker und Grau – der trockene Atem der Sahara reicht bis hierher. Sal und Boa Vista im Osten sind flach und sandig. Im Südwesten ist Fogo ein einziger gewaltiger Vulkan, mit einem jungen schwarzen Kegel in einer weiten, eingestürzten Caldera.",
+    "w": "Braune, trockene Inseln im tiefblauen Meer; Fogo ist rund, mit dunklem Kegel in einer Caldera; die östlichen Inseln flach und sandig.",
+    "f": [
+      "Die Inseln waren unbewohnt, bis um 1460 die Portugiesen kamen.",
+      "Der Pico do Fogo ist mit 2.829 m der höchste Punkt; zuletzt brach er 2014–15 aus.",
+      "Viele der stärksten Atlantik-Hurrikane beginnen als Stürme nahe diesen Inseln."
+    ],
+    "q": {
+      "q": "Welche Kapverden-Insel ist ein einziger Vulkan mit Kegel in der Caldera?",
+      "a": "Fogo",
+      "x": [
+        "Sal",
+        "Boa Vista"
+      ]
+    }
+  },
+  "Q891593": {
+    "t": "Eine Insel, die bis 1908 als Halbinsel galt",
+    "s": "An der Mündung des Chatanga-Golfs, am Rand der Laptewsee, liegt eine flache, ungefähr quadratische Tundra-Insel von etwa 60 km Breite. Den größten Teil des Jahres ist sie weiß und verschmilzt mit dem Meereis ringsum; im kurzen Sommer wird sie braungrün und glitzert von kleinen Seen. Flüsse laufen von ihrem zentralen Hügelland wie die Speichen eines Rades nach außen.",
+    "w": "Eine fast quadratische, flache Tundra-Insel an der Mündung eines langen Golfs, im Sommer voller Seen, oft mit dem Meereis verschmolzen.",
+    "f": [
+      "Bis 1908 galt sie als Halbinsel; Nikifor Begitschew wies nach, dass sie eine Insel ist – heute trägt sie seinen Namen.",
+      "Ihr höchster Punkt im zentralen Kirjaka-Hügelland liegt unter 200 m.",
+      "Begitschew war zuvor mit Eduard Tolls Russischer Polarexpedition von 1900–1902 gesegelt."
+    ],
+    "q": {
+      "q": "Wofür hielt man die Große Begitschew-Insel vor 1908?",
+      "a": "Für eine Halbinsel",
+      "x": [
+        "Für zwei getrennte Inseln",
+        "Für eine Sandbank"
+      ]
+    }
+  },
+  "Q219774": {
+    "t": "Indiens Südspitze, in Regenwald gehüllt",
+    "s": "Groß-Nikobar ist die größte und wildeste der Nikobaren: hügelig, fast vollständig von Regenwald bedeckt, ihre Flüsse winden sich durch Mangroven hinaus zum Meer. Ihre Südspitze, der Indira Point, ist der südlichste Punkt Indiens, und die indonesische Insel Sumatra liegt keine 200 km dahinter. Im Inneren leben die Shompen, ein kleines Waldvolk.",
+    "w": "Eine große, hügelige, dunkelgrüne Insel am Südende der Nikobaren-Kette, mit hellen Stränden und Mangrovenarmen.",
+    "f": [
+      "Ein Großteil der Insel ist Biosphärenreservat und umfasst zwei Nationalparks.",
+      "Riesige Lederschildkröten kommen zur Eiablage an ihre Strände."
+    ],
+    "q": {
+      "q": "Wofür ist der Indira Point auf Groß-Nikobar bekannt?",
+      "a": "Südlichster Punkt Indiens",
+      "x": [
+        "Höchster Inselgipfel Indiens",
+        "Ältester Leuchtturm Indiens"
+      ]
+    }
+  },
+  "Q1473243": {
+    "t": "Zentrum der Andamanen, gesäumt von Riff und Mangroven",
+    "s": "Die meisten Flüge zu den Andamanen landen hier, auf der Insel mit der Hauptstadt und dem Großteil der Bevölkerung. Aus der Luft ist South Andaman eine zerfranste Form aus bewaldeten Hügeln und tiefen, gewundenen Meeresarmen voller Mangroven. Vor der Südwestküste schützt ein Meeresnationalpark Riffe und verstreute kleine Inseln in hellem Türkis.",
+    "w": "Eine zerfranste, hügelige grüne Insel mit langen Mangrovenarmen; Stadt und Flughafen an der Ostküste, kleine Riffinseln im Südwesten.",
+    "f": [
+      "Der 1983 gegründete Mahatma-Gandhi-Meeresnationalpark umfasst rund 15 kleine Inseln und ihre Riffe.",
+      "Chidiya Tapu an der Südspitze der Insel ist für seine Vogelwelt und Sonnenuntergänge über dem Meer bekannt."
+    ],
+    "q": {
+      "q": "Welcher Meeresnationalpark liegt vor South Andaman?",
+      "a": "Mahatma-Gandhi-Meeresnationalpark",
+      "x": [
+        "Golf-von-Mannar-Nationalpark",
+        "Sundarbans-Nationalpark"
+      ]
+    }
+  },
+  "Q222853": {
+    "t": "Die größte Andamanen-Insel, Wald von Küste zu Küste",
+    "s": "Middle Andaman ist die größte Insel der Kette, und von oben ist sie fast lückenloser Wald von Küste zu Küste. Ihre Ostküste ist von langen, verzweigten Meeresarmen mit Mangrovensaum durchschnitten; die Westseite zum offenen Meer ist noch wilder und gehört zum Reservat des Volkes der Jarawa. Achten Sie vor der Ostküste auf kleine Inseln und türkisfarbene Riffflecken.",
+    "w": "Eine lang gestreckte Insel aus fast durchgehend dunklem Wald, mit Mangrovenarmen im Osten und kleinen Inseln davor.",
+    "f": [
+      "Mit rund 1.500 km² ist sie die größte der Andamanen-Inseln.",
+      "Gleich südlich, auf der Insel Baratang, blubbern kleine Schlammvulkane mitten im Wald."
+    ],
+    "q": {
+      "q": "Was Ungewöhnliches gibt es auf Baratang, südlich von Middle Andaman?",
+      "a": "Schlammvulkane",
+      "x": [
+        "Einen Salzsee",
+        "Einen Kratersee"
+      ]
+    }
+  },
+  "Q2000510": {
+    "t": "Auf dieser Waldinsel steht der höchste Gipfel der Andamanen",
+    "s": "Am Nordende der Großen Andamanen ragt diese Insel höher auf als jede andere: Der Saddle Peak, 732 m, steht nahe der Ostküste in einem Nationalpark voller dichtem Wald. Ringsum fressen sich Meeresarme und Mangroven ins Ufer, und Riffe zeichnen helle Linien vor die Küste. Dahinter reicht offenes Meer nach Norden bis zu Myanmars Kokosinseln.",
+    "w": "Die nördlichste große Insel der Andamanen-Kette: bewaldete Hügel, die nahe der Ostküste zu einem hohen Kamm ansteigen.",
+    "f": [
+      "Der Saddle Peak ist mit 732 m der höchste Punkt der Andamanen und Nikobaren.",
+      "Vor Diglipur sind die Inselchen Ross und Smith durch eine schmale Sandbank verbunden – ein Zwillingspaar."
+    ],
+    "q": {
+      "q": "Welcher ist der höchste Punkt der Andamanen?",
+      "a": "Saddle Peak",
+      "x": [
+        "Mount Harriet",
+        "Mount Thullier"
+      ]
+    }
+  },
+  "Q82601": {
+    "t": "Magellans „Feuerland“ am unteren Ende Amerikas",
+    "s": "Ganz an der Spitze Südamerikas biegen die Anden nach Osten ab und zerfallen in Inseln, Gletscher und Fjorde. Die Hauptinsel Feuerlands vereint zwei Landschaften: im Norden flache, gelbbraune Steppe mit hellen Seen, im Süden verschneite Berge, deren Gletscher zum Meer hinabfließen. Die Magellanstraße trennt sie vom Festland.",
+    "w": "Eine große dreieckige Insel: gelbbraune Ebenen im Norden, verschneite Gipfel und Gletscher im Süden, der Beagle-Kanal am Südrand.",
+    "f": [
+      "Magellan benannte sie 1520 nach den Feuern, die er an ihren Ufern brennen sah.",
+      "Kap Hoorn liegt auf einer kleinen Insel am Südrand des Archipels.",
+      "Der Beagle-Kanal ist nach der HMS Beagle benannt, dem Schiff, das später Charles Darwin hierherbrachte."
+    ],
+    "q": {
+      "q": "Welche Meerenge trennt Feuerland vom Festland?",
+      "a": "Die Magellanstraße",
+      "x": [
+        "Die Drakestraße",
+        "Der Beagle-Kanal"
+      ]
+    }
+  },
+  "Q1952": {
+    "t": "Fast eine Insel – mit den höchsten Gezeiten der Welt",
+    "s": "Nova Scotia ist eine lange Halbinsel, nur über eine schmale Landenge mit dem Festland verbunden, und kein Ort dort liegt mehr als etwa 67 km vom Meer entfernt. Die Atlantikküste ist ein zerfranster Saum aus Buchten, Felsen und Inselchen. An der Nordwestseite hat die Bay of Fundy die höchsten Gezeiten der Welt: Achten Sie bei Ebbe auf riesige rote Watten, wo wenige Stunden zuvor noch Meer war.",
+    "w": "Eine lange Halbinsel parallel zum Festland, eine tief gegliederte Atlantikküste und rötliches Watt entlang der Bay of Fundy.",
+    "f": [
+      "Die Gezeiten in der Bay of Fundy können einen Hub von etwa 16 m erreichen – der größte Tidenhub der Erde.",
+      "Der Name ist lateinisch und bedeutet „Neuschottland“.",
+      "Auf Sable Island, einer schmalen Sandsichel weit draußen im Atlantik vor Nova Scotia, leben Wildpferde."
+    ],
+    "q": {
+      "q": "Welche Bucht bei Nova Scotia hat die höchsten Gezeiten der Welt?",
+      "a": "Die Bay of Fundy",
+      "x": [
+        "Die Hudson Bay",
+        "Die Chesapeake Bay"
+      ]
+    }
+  },
+  "Q170479": {
+    "t": "Eine Gebirgsinsel zwischen Ozean und Festland",
+    "s": "Vancouver Island erstreckt sich rund 460 km entlang der kanadischen Pazifikküste, und ihr Rückgrat aus verschneiten Bergen trennt zwei Welten. Die Westseite blickt auf den offenen Ozean, mit tiefen Sunden, Brandung und gemäßigtem Regenwald; die geschützte Ostseite hat Farmland und Städte an der Strait of Georgia. An der Südspitze liegt Victoria, die Hauptstadt von British Columbia – die Stadt Vancouver liegt gegenüber auf dem Festland.",
+    "w": "Eine lange Gebirgsinsel parallel zur Küste: verschneite Gipfel in der Mitte, fjordartige Meeresarme auf der Ozeanseite.",
+    "f": [
+      "Sie ist die größte Insel an der Pazifikküste Nordamerikas.",
+      "Ihr höchster Gipfel, der Golden Hinde, erreicht 2.195 m.",
+      "Sie ist nach George Vancouver benannt, der diese Küste 1792 kartierte."
+    ],
+    "q": {
+      "q": "Welche Hauptstadt liegt auf Vancouver Island?",
+      "a": "Victoria",
+      "x": [
+        "Vancouver",
+        "Olympia"
+      ]
+    }
+  },
+  "Q158129": {
+    "t": "Ein zerklüfteter arktischer Riese voller Seen",
+    "s": "Die Victoria-Insel ist die achtgrößte Insel der Welt und eine der seltsamsten: Ihre Küste zerläuft in lange Halbinseln und tiefe Buchten wie ein verschütteter Tintenklecks. Im Inneren ist die flache Tundra übersät mit unzähligen Seen, die einen Großteil des Jahres gefroren bleiben. Nur rund 2.000 Menschen leben hier, vor allem in Cambridge Bay und Ulukhaktok.",
+    "w": "Eine riesige, flache, zerfranste Insel mit ausgreifenden Halbinseln, tiefen Buchten und seengesprenkelter Tundra, oft unter Meereis.",
+    "f": [
+      "Mit rund 217.000 km² ist sie größer als Großbritannien.",
+      "Die Grenze zwischen Nunavut und den Nordwest-Territorien verläuft quer über die Insel.",
+      "Hier liegt die größte bekannte Insel in einem See auf einer Insel in einem See auf einer Insel."
+    ],
+    "q": {
+      "q": "Die Victoria-Insel ist größer als welche dieser Inseln?",
+      "a": "Großbritannien",
+      "x": [
+        "Honshu",
+        "Sumatra"
+      ]
+    }
+  },
+  "Q380307": {
+    "t": "Wildes, seenübersätes Land, an dem Eisberge vorbeitreiben",
+    "s": "Labrador ist die wilde Festlandhälfte der Provinz Neufundland und Labrador: ein felsiges Plateau, von eiszeitlichen Gletschern abgeschliffen und übersät mit Tausenden Seen. Im Norden steigen die Torngat Mountains mit scharfen Gipfeln direkt aus dem Meer, kleine Gletscher in ihren Mulden. Vor der Küste trägt der kalte Labradorstrom im Frühjahr und Frühsommer Eisberge von Grönland nach Süden.",
+    "w": "Kahles, felsiges Hochland mit unzähligen Seen, eine Fjordküste und scharfe Gipfel im Norden; im Frühjahr Eisberge vor der Küste.",
+    "f": [
+      "Der Mount Caubvick in den Torngats ist mit 1.652 m der höchste Punkt des kanadischen Festlands östlich der Rocky Mountains.",
+      "Der schillernde Schmuckstein Labradorit ist nach dieser Region benannt.",
+      "Nordische Sagas erwähnen ein bewaldetes „Markland“, das viele Historiker hier verorten."
+    ],
+    "q": {
+      "q": "Welcher Schmuckstein ist nach Labrador benannt?",
+      "a": "Labradorit",
+      "x": [
+        "Larimar",
+        "Amazonit"
+      ]
+    }
+  },
+  "Q146841": {
+    "t": "Kanadas Spitze, keine 800 km vom Nordpol entfernt",
+    "s": "Ellesmere Island ist der nördlichste Teil Kanadas, und von oben wirkt es, als sei die Eiszeit nie ganz zu Ende gegangen: Eiskappen und Gletscher strömen zwischen dunklen Bergen in Fjorde, die von Meereis verschlossen sind. Die Nordspitze, Cape Columbia, liegt weniger als 800 km vom Nordpol entfernt. Nur rund 150 Menschen leben hier, die meisten in der Inuit-Siedlung Grise Fiord.",
+    "w": "Dunkle Berge, unter Eiskappen begraben, Gletscher, die in Fjorde fließen, und ringsum gefrorenes Meer.",
+    "f": [
+      "Alert an der Nordostküste ist der nördlichste dauerhaft besetzte Ort der Erde.",
+      "Der Barbeau Peak ist mit 2.616 m der höchste Punkt Nunavuts.",
+      "Fossilien des Tiktaalik, eines Fisches mit beinartigen Flossen, wurden hier 2004 gefunden."
+    ],
+    "q": {
+      "q": "Welcher ist der nördlichste dauerhaft besetzte Ort der Erde?",
+      "a": "Alert",
+      "x": [
+        "Longyearbyen",
+        "Qaanaaq"
+      ]
+    }
+  },
+  "Q81178": {
+    "t": "Fünftgrößte Insel der Welt, zerfurcht von Fjorden und Eis",
+    "s": "Auf Polarrouten zwischen Europa und dem Westen Nordamerikas überqueren Sie womöglich die Baffininsel, Kanadas größte Insel. Ihre Ostküste ist dramatisch: Berge, Eiskappen und tiefe, von Granitwänden gesäumte Fjorde, oft umrahmt von Meereis oder Eisbergen. Der Westen ist niedriger und flacher, übersät mit Seen. Iqaluit, die Hauptstadt Nunavuts, liegt im Südosten am Ende der Frobisher Bay.",
+    "w": "Eine riesige Insel mit gebirgiger, von Fjorden zerschnittener, vereister Ostküste und flacher, seenreicher Tundra im Westen.",
+    "f": [
+      "Mit rund 507.000 km² ist die Baffininsel die größte Insel Kanadas und die fünftgrößte der Welt.",
+      "Die Granitwand des Mount Thor, rund 1.250 m hoch, ist der größte senkrechte Abfall der Welt.",
+      "Nordische Sagas beschreiben ein steiniges „Helluland“, das meist mit Baffin gleichgesetzt wird."
+    ],
+    "q": {
+      "q": "Welche Territoriumshauptstadt liegt auf der Baffininsel?",
+      "a": "Iqaluit",
+      "x": [
+        "Yellowknife",
+        "Whitehorse"
+      ]
+    }
+  },
+  "Q48335": {
+    "t": "„The Rock“, wo vor tausend Jahren Wikinger landeten",
+    "s": "Transatlantikflüge erreichen oft über Neufundland das Land – eine große, raue Insel aus Fels, Moor, Wald und unzähligen Teichen. Ihre Küste ist ein Labyrinth aus langen Buchten und Landzungen, und im Frühjahr treiben Eisberge aus Grönland vorbei. Nahe der Nordspitze bauten nordische Seefahrer um das Jahr 1000 eine kleine Siedlung bei L’Anse aux Meadows – die einzige gesicherte Wikingerstätte Nordamerikas außerhalb Grönlands.",
+    "w": "Eine große Insel mit rauen Rändern aus dunklem Wald und Moor, übersät mit Teichen, die Küste ein Labyrinth tiefer Buchten.",
+    "f": [
+      "Neufundland hat eine eigene Zeitzone, eine halbe Stunde vor der Atlantikzeit.",
+      "Im Gros-Morne-Nationalpark liegt in den Tablelands Gestein aus dem Erdmantel offen.",
+      "Cape Spear bei St. John’s ist der östlichste Punkt Nordamerikas außerhalb Grönlands."
+    ],
+    "q": {
+      "q": "Wie heißt die Wikingerstätte nahe der Nordspitze Neufundlands?",
+      "a": "L’Anse aux Meadows",
+      "x": [
+        "Port aux Basques",
+        "Trois-Rivières"
+      ]
+    }
+  },
+  "Q3812": {
+    "t": "Die Insel, die aussieht wie ein ausufernder Buchstabe K",
+    "s": "Sulawesi ist auf der Karte und aus der Luft sofort zu erkennen: Vier lange, bergige Arme greifen von einem zentralen Knoten aus, sodass das Meer nirgends weit entfernt ist. Zwischen den Armen liegen tiefe Buchten, und im Inneren verbergen die Bergrücken klare, tiefe Seen. Die Insel liegt jenseits der Wallace-Linie, und viele ihrer Tiere, etwa der Hirscheber Babirusa, leben nirgendwo sonst.",
+    "w": "Vier lange, schmale, bergige Halbinseln, die wie ein Seestern von einem Zentrum ausgehen, mit tiefen Buchten dazwischen.",
+    "f": [
+      "Der Matano-See ist mit rund 590 m Tiefe der tiefste See Südostasiens.",
+      "Im Hochland von Tana Toraja tragen traditionelle Häuser gewaltige, nach oben geschwungene Dächer in Bootsform.",
+      "Mit rund 180.000 km² ist Sulawesi die elftgrößte Insel der Welt."
+    ],
+    "q": {
+      "q": "Mit welchem Buchstaben wird Sulawesis Umriss oft verglichen?",
+      "a": "K",
+      "x": [
+        "S",
+        "Y"
+      ]
+    }
+  },
+  "Q3757": {
+    "t": "Eine Vulkanreihe auf der volkreichsten Insel der Welt",
+    "s": "Java ist rund 1.000 km lang, und über sein Rückgrat marschiert eine Reihe von Vulkankegeln, viele davon aktiv – an klaren Tagen können Sie sie einen nach dem anderen zählen. Dazwischen füllen Reisfelder und Städte jedes Tal: Mehr als 150 Millionen Menschen leben hier. Suchen Sie im Osten die Tengger-Caldera, ein graues „Sandmeer“ mit dem rauchenden Krater des Bromo darin.",
+    "w": "Eine lange Insel mit einer Reihe von Vulkankegeln über ihre ganze Länge; im Osten eine graue, sandige Caldera mit kleineren Kegeln.",
+    "f": [
+      "Der Semeru ist mit 3.676 m Javas höchster Vulkan und einer seiner aktivsten.",
+      "Nachts leuchtet Java fast von einem Ende zum anderen mit den Lichtern seiner Städte.",
+      "Borobudur in Zentraljava ist der größte buddhistische Tempel der Welt."
+    ],
+    "q": {
+      "q": "Welcher ist Javas höchster Vulkan?",
+      "a": "Semeru",
+      "x": [
+        "Merapi",
+        "Bromo"
+      ]
+    }
+  },
+  "Q124873": {
+    "t": "Mount Apo, seltene Adler und ein 10 km tiefer Graben",
+    "s": "Mindanao, die große Südinsel der Philippinen, ist eine ausufernde, vielarmige Form aus bewaldeten Bergen, Vulkanen und weiten Flussebenen. Bei Davao erhebt sich der Mount Apo auf 2.954 m, der höchste Punkt des Landes. Direkt vor der Ostküste fällt der Meeresboden in den Philippinengraben ab, mehr als 10 km tief – fast so weit hinunter, wie Sie oben sind.",
+    "w": "Eine große, vielgliedrige Insel aus grünen Bergen und Ebenen, mit großem See auf dem nördlichen Zentralplateau und dem Mount Apo bei Davao.",
+    "f": [
+      "Der Lanao-See auf dem nördlichen Zentralplateau ist der zweitgrößte See der Philippinen.",
+      "Mindanaos Wälder sind die letzte Hochburg des Philippinenadlers, eines der größten Adler der Welt.",
+      "Mindanao ist nach Luzon die zweitgrößte Insel der Philippinen."
+    ],
+    "q": {
+      "q": "Welcher ist der höchste Berg der Philippinen?",
+      "a": "Mount Apo",
+      "x": [
+        "Mayon",
+        "Mount Pulag"
+      ]
+    }
+  },
+  "Q125384": {
+    "t": "Mayons perfekter Kegel und ein Vulkan in einem See",
+    "s": "Luzon ist die größte Insel der Philippinen: eine lange Form mit einem Gebirgsrückgrat im Norden und einem zerfransten Schwanz, der sich nach Südosten krümmt. Suchen Sie südlich von Manilas Häusermeer zwei Seen – die weite Laguna de Bay und den Taal mit einer Vulkaninsel in der Mitte. Nahe der Südostspitze steht der Mayon, ein Kegel so symmetrisch, als wäre er mit dem Lineal gezeichnet.",
+    "w": "Berge im Norden, Manilas Häusermeer um die Bucht, zwei große Seen im Süden und ein einsamer, perfekter Kegel nahe der Südostspitze.",
+    "f": [
+      "Der Mayon, 2.462 m, gilt als einer der am vollkommensten geformten Vulkankegel der Erde.",
+      "Die Laguna de Bay, gleich südöstlich von Manila, ist der größte See der Philippinen.",
+      "Die Reisterrassen der Kordilleren im Norden Luzons sind UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher See bei Manila hat eine Vulkaninsel in der Mitte?",
+      "a": "Der Taalsee",
+      "x": [
+        "Die Laguna de Bay",
+        "Der Lanao-See"
+      ]
+    }
+  },
+  "Q22502": {
+    "t": "Berge höher als der Fuji auf einer blattförmigen Insel",
+    "s": "Taiwan hat die Form eines Blattes, und seine beiden Seiten könnten kaum unterschiedlicher sein. Der Osten ist eine Bergmauer, die fast senkrecht in den Pazifik abfällt, mit mehr als 200 Gipfeln über 3.000 m. Der Westen fällt sanft zu einer dicht besiedelten Ebene aus Städten und Feldern ab, die nachts hell erstrahlt. Der nördliche Wendekreis verläuft quer durch die Mitte.",
+    "w": "Eine blattförmige Insel: steile, bewaldete Berge dicht gedrängt im Osten, eine belebte flache Ebene entlang der Westküste.",
+    "f": [
+      "Der Yushan oder Jadeberg erreicht 3.952 m – höher als der Fuji.",
+      "Portugiesische Seefahrer nannten die Insel Ilha Formosa, „schöne Insel“.",
+      "Der Sonne-Mond-See in den zentralen Bergen ist das größte Gewässer der Insel."
+    ],
+    "q": {
+      "q": "Was bedeutet „Formosa“, ein alter Name Taiwans?",
+      "a": "Schöne Insel",
+      "x": [
+        "Grüne Insel",
+        "Bergige Insel"
+      ]
+    }
+  },
+  "Q13987": {
+    "t": "Wo Vulkane über den Straßen der Stadt rauchen",
+    "s": "Kyushu, die südlichste der japanischen Hauptinseln, ist Vulkanland. In ihrer Mitte ist die Caldera des Aso so riesig, dass Orte, Höfe und eine Bahnlinie darin Platz finden. Im Süden erhebt sich der Sakurajima aus der Bucht von Kagoshima, direkt gegenüber der Stadt, oft mit einer Aschefahne. Die Küste ist zerfranst von Buchten und Inseln, vor allem Richtung Nagasaki im Westen.",
+    "w": "Eine gebirgige Insel mit einer riesigen runden Caldera in der Mitte und einem rauchenden Vulkan in einer Bucht im Süden.",
+    "f": [
+      "Der Name Kyushu bedeutet „neun Provinzen“, nach der alten Gliederung.",
+      "Während Japans langer Abschottung war die Insel Dejima im Hafen von Nagasaki das einzige Fenster für europäische Händler.",
+      "Die Caldera des Aso misst rund 25 mal 18 km."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Kyushu?",
+      "a": "Neun Provinzen",
+      "x": [
+        "Südliche Insel",
+        "Land des Feuers"
+      ]
+    }
   }
 }

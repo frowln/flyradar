@@ -509,6 +509,7 @@ export const de = {
     software: 'Software · %{n}',
     softwareNote: 'Open-Source-Komponenten in der App. Tippen Sie auf eine, um die Lizenz zu sehen.',
     src: {
+      editorial: 'Texte zu Orten und Geschichte, eigens für die App geschrieben',
       naturalEarth: 'Orte, Grenzen und Küstenlinien',
       ourAirports: 'Flughäfen',
       mwgg: 'Zeitzonen der Flughäfen',
@@ -516,6 +517,9 @@ export const de = {
       commons: 'Fotos – Urheber und Lizenz stehen unter jedem Bild',
       osm: 'Kartendaten',
       tiles: 'Offline-Kartenkacheln',
+      aeroDataBox: 'Flugsuche nach Flugnummer',
+      fr24: 'Aktuelle echte Flugspuren',
+      openMeteo: 'Wolkenvorhersage entlang der Route',
     },
   },
   a11y: {
@@ -587,7 +591,8 @@ export const de = {
     terms: 'Nutzungsbedingungen',
     licenses: 'Lizenzen und Quellen',
     dataSources: 'Daten',
-    credits: 'Orte und Grenzen: Natural Earth (gemeinfrei). Flughäfen: OurAirports (gemeinfrei); Zeitzonen: mwgg/Airports © 2014 mwgg, MIT-Lizenz. Geschichten und Fotos: Wikipedia und Wikimedia Commons, CC BY-SA. Karte: © OpenStreetMap-Mitwirkende, OpenMapTiles, OpenFreeMap.',
+    credits: 'Orte und Grenzen: Natural Earth (gemeinfrei). Flughäfen: OurAirports (gemeinfrei); Zeitzonen: mwgg/Airports © 2014 mwgg, MIT-Lizenz. Texte zu Orten und Geschichte: eigens für SkyAtlas geschrieben. Weitere Geschichten: Wikipedia, CC BY-SA. Fotos: Wikimedia Commons, jeweils unter eigener Lizenz. Karte: © OpenStreetMap-Mitwirkende, OpenMapTiles, OpenFreeMap.',
+    creditsServices: 'Flugdaten: AeroDataBox. Flugspuren: Flightradar24. Wetter: Open-Meteo, CC BY 4.0.',
     reset: 'Pass leeren',
     resetTitle: 'Pass leeren?',
     resetBody: 'Alle Flüge, Stempel und Erfolge auf diesem Telefon werden gelöscht. Gespeicherte Flugpakete bleiben.',

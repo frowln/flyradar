@@ -521,6 +521,7 @@ export const ru = {
     software: 'программы · %{n}',
     softwareNote: 'Компоненты с открытым кодом внутри приложения. Нажмите, чтобы увидеть лицензию.',
     src: {
+      editorial: 'Тексты о местах и истории, написанные для приложения',
       naturalEarth: 'Места, границы и береговые линии',
       ourAirports: 'Аэропорты',
       mwgg: 'Часовые пояса аэропортов',
@@ -528,6 +529,9 @@ export const ru = {
       commons: 'Фотографии — автор и лицензия указаны под каждой',
       osm: 'Картографические данные',
       tiles: 'Офлайн-плитки карты',
+      aeroDataBox: 'Поиск рейса по номеру',
+      fr24: 'Недавние реальные треки рейса',
+      openMeteo: 'Прогноз облачности по маршруту',
     },
   },
   a11y: {
@@ -607,7 +611,8 @@ export const ru = {
     terms: 'Условия использования',
     licenses: 'Лицензии и источники',
     dataSources: 'данные',
-    credits: 'Места и границы: Natural Earth (общественное достояние). Аэропорты: OurAirports (общественное достояние); часовые пояса: mwgg/Airports © 2014 mwgg, лицензия MIT. Истории и фото: Википедия и Wikimedia Commons, CC BY-SA. Карта: © участники OpenStreetMap, OpenMapTiles, OpenFreeMap.',
+    credits: 'Места и границы: Natural Earth (общественное достояние). Аэропорты: OurAirports (общественное достояние); часовые пояса: mwgg/Airports © 2014 mwgg, лицензия MIT. Тексты о местах и истории: написаны для SkyAtlas. Остальные истории: Википедия, CC BY-SA. Фото: Wikimedia Commons, у каждого своя лицензия. Карта: © участники OpenStreetMap, OpenMapTiles, OpenFreeMap.',
+    creditsServices: 'Данные о рейсах: AeroDataBox. Треки: Flightradar24. Погода: Open-Meteo, CC BY 4.0.',
     reset: 'Очистить паспорт',
     resetTitle: 'Очистить паспорт?',
     resetBody: 'Все рейсы, штампы и достижения на этом телефоне будут стёрты. Скачанные пакеты рейсов останутся.',

@@ -503,6 +503,7 @@ export const ja = {
     software: 'ソフトウェア · %{n}',
     softwareNote: 'アプリに組み込まれたオープンソース部品です。タップするとライセンスを表示します。',
     src: {
+      editorial: 'アプリのために書き下ろした場所と歴史の解説',
       naturalEarth: '地名・国境・海岸線',
       ourAirports: '空港',
       mwgg: '空港のタイムゾーン',
@@ -510,6 +511,9 @@ export const ja = {
       commons: '写真（作者とライセンスは各写真の下に表示）',
       osm: '地図データ',
       tiles: 'オフライン地図タイル',
+      aeroDataBox: '便名でのフライト検索',
+      fr24: 'その便の最近の実際の航跡',
+      openMeteo: 'ルート沿いの雲の予報',
     },
   },
   a11y: {
@@ -577,7 +581,8 @@ export const ja = {
     terms: '利用規約',
     licenses: 'ライセンスと出典',
     dataSources: 'データ',
-    credits: '場所と国境：Natural Earth（パブリックドメイン）。空港：OurAirports（パブリックドメイン）、タイムゾーン：mwgg/Airports © 2014 mwgg、MITライセンス。解説と写真：ウィキペディアおよびWikimedia Commons、CC BY-SA。地図：© OpenStreetMap contributors、OpenMapTiles、OpenFreeMap。',
+    credits: '場所と国境：Natural Earth（パブリックドメイン）。空港：OurAirports（パブリックドメイン）、タイムゾーン：mwgg/Airports © 2014 mwgg、MITライセンス。場所と歴史の解説：SkyAtlasのための書き下ろし。その他の解説：ウィキペディア、CC BY-SA。写真：Wikimedia Commons（各写真のライセンスに従う）。地図：© OpenStreetMap contributors、OpenMapTiles、OpenFreeMap。',
+    creditsServices: 'フライト情報：AeroDataBox。航跡：Flightradar24。天気：Open-Meteo、CC BY 4.0。',
     reset: 'パスポートを消去',
     resetTitle: 'パスポートを消去しますか？',
     resetBody: 'この端末のフライト、スタンプ、実績がすべて消去されます。保存済みのフライトパッケージは残ります。',

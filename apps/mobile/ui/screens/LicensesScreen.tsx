@@ -6,6 +6,7 @@ import { Label, Body, Small, DataSmall, Title } from '../design/type';
 import { Screen, Gutter, Space, PressSurface, Rule, textHitSlop } from '../design/layout';
 import { t } from '../../src/i18n';
 import licenses from '../../src/legal/licenses.json';
+import { API_ENABLED } from '../../src/core/api/client';
 
 /**
  * Where everything in the app comes from, and under what terms.
@@ -22,7 +23,15 @@ interface Pkg {
   copyright: string;
 }
 
-const SOURCES: Array<{ key: string; name: string; license: string; url: string }> = [
+interface Source {
+  key: string;
+  name: string;
+  license: string;
+  url?: string;
+}
+
+const SOURCES: Source[] = [
+  { key: 'editorial', name: 'SkyAtlas', license: '© SkyAtlas' },
   { key: 'naturalEarth', name: 'Natural Earth', license: 'Public domain', url: 'https://www.naturalearthdata.com' },
   { key: 'ourAirports', name: 'OurAirports', license: 'Public domain', url: 'https://ourairports.com/data/' },
   { key: 'mwgg', name: 'mwgg/Airports', license: 'MIT · © 2014 mwgg', url: 'https://github.com/mwgg/Airports' },
@@ -30,6 +39,13 @@ const SOURCES: Array<{ key: string; name: string; license: string; url: string }
   { key: 'commons', name: 'Wikimedia Commons', license: 'CC BY / CC BY-SA / public domain', url: 'https://commons.wikimedia.org' },
   { key: 'osm', name: 'OpenStreetMap', license: 'ODbL · © OpenStreetMap contributors', url: 'https://www.openstreetmap.org/copyright' },
   { key: 'tiles', name: 'OpenMapTiles · OpenFreeMap', license: '© OpenMapTiles', url: 'https://openfreemap.org' }
+];
+
+/** Only in a build connected to the SkyAtlas flight services. */
+const SERVICE_SOURCES: Source[] = [
+  { key: 'aeroDataBox', name: 'AeroDataBox', license: 'API', url: 'https://aerodatabox.com' },
+  { key: 'fr24', name: 'Flightradar24', license: 'API', url: 'https://www.flightradar24.com' },
+  { key: 'openMeteo', name: 'Open-Meteo', license: 'CC BY 4.0', url: 'https://open-meteo.com' }
 ];
 
 /** The licence text for a package, choosing MIT out of an "MIT OR …" pair. */
@@ -80,22 +96,29 @@ export default function LicensesScreen() {
         <Label tone="dim" accessibilityRole="header">{t('licenses.data')}</Label>
       </Gutter>
       <Rule />
-      {SOURCES.map((src) => (
-        <PressSurface
-          key={src.key}
-          onPress={() => Linking.openURL(src.url)}
-          accessibilityRole="link"
-          accessibilityLabel={`${src.name}, ${t(`licenses.src.${src.key}`)}, ${src.license}`}
-          style={styles.pkg}
-        >
-          <View style={styles.pkgHead}>
-            <Body style={styles.flex}>{src.name}</Body>
-            <DataSmall allowFontScaling={false}>›</DataSmall>
+      {(API_ENABLED ? [...SOURCES, ...SERVICE_SOURCES] : SOURCES).map((src) => {
+        const label = `${src.name}, ${t(`licenses.src.${src.key}`)}, ${src.license}`;
+        const body = (
+          <>
+            <View style={styles.pkgHead}>
+              <Body style={styles.flex}>{src.name}</Body>
+              {src.url ? <DataSmall allowFontScaling={false}>›</DataSmall> : null}
+            </View>
+            <Small>{t(`licenses.src.${src.key}`)}</Small>
+            <Small tone="dim">{src.license}</Small>
+          </>
+        );
+        const url = src.url;
+        return url ? (
+          <PressSurface key={src.key} onPress={() => Linking.openURL(url)} accessibilityRole="link" accessibilityLabel={label} style={styles.pkg}>
+            {body}
+          </PressSurface>
+        ) : (
+          <View key={src.key} accessible accessibilityLabel={label} style={styles.pkg}>
+            {body}
           </View>
-          <Small>{t(`licenses.src.${src.key}`)}</Small>
-          <Small tone="dim">{src.license}</Small>
-        </PressSurface>
-      ))}
+        );
+      })}
 
       <Gutter style={styles.section}>
         <Label tone="dim" accessibilityRole="header">{t('licenses.fonts')}</Label>

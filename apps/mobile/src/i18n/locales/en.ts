@@ -509,6 +509,7 @@ export const en = {
     software: 'software · %{n}',
     softwareNote: 'Open-source components compiled into the app. Tap one for its licence.',
     src: {
+      editorial: 'Place and history texts, written for the app',
       naturalEarth: 'Places, borders and coastlines',
       ourAirports: 'Airports',
       mwgg: 'Airport time zones',
@@ -516,6 +517,9 @@ export const en = {
       commons: 'Photos — author and licence are shown under each one',
       osm: 'Map data',
       tiles: 'Offline map tiles',
+      aeroDataBox: 'Finding a flight by its number',
+      fr24: 'Recent real tracks of the flight',
+      openMeteo: 'Cloud forecast along the route',
     },
   },
   a11y: {
@@ -587,7 +591,8 @@ export const en = {
     terms: 'Terms of use',
     licenses: 'Licences and sources',
     dataSources: 'data',
-    credits: 'Places and borders: Natural Earth (public domain). Airports: OurAirports (public domain); time zones: mwgg/Airports © 2014 mwgg, MIT licence. Stories and photos: Wikipedia and Wikimedia Commons, CC BY-SA. Map: © OpenStreetMap contributors, OpenMapTiles, OpenFreeMap.',
+    credits: 'Places and borders: Natural Earth (public domain). Airports: OurAirports (public domain); time zones: mwgg/Airports © 2014 mwgg, MIT licence. Texts about places and history: written for SkyAtlas. Other stories: Wikipedia, CC BY-SA. Photos: Wikimedia Commons, each under its own licence. Map: © OpenStreetMap contributors, OpenMapTiles, OpenFreeMap.',
+    creditsServices: 'Flight data: AeroDataBox. Tracks: Flightradar24. Weather: Open-Meteo, CC BY 4.0.',
     reset: 'Clear the passport',
     resetTitle: 'Clear the passport?',
     resetBody: 'All flights, stamps and achievements on this phone will be erased. Saved flight packages stay.',
