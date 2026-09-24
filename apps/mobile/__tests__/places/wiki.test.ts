@@ -95,3 +95,66 @@ describe('Commons helpers', () => {
     expect(widen(u, 640)).toMatch(/\/640px-Mount%20Elbrus\.jpg$/);
   });
 });
+
+describe('photo gallery', () => {
+  const lead = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Elbrus.jpg/320px-Elbrus.jpg';
+  const routes: Record<string, unknown> = {
+    'wikidata.org': { entities: { Q1: { sitelinks: { enwiki: { title: 'Mount Elbrus' } } } } },
+    'en.wikipedia.org/api/rest_v1/page/summary/Mount_Elbrus': {
+      type: 'standard',
+      extract: 'Elbrus is a dormant volcano.',
+      thumbnail: { source: lead }
+    },
+    'en.wikipedia.org/w/api.php': {
+      query: {
+        pages: {
+          '1': {
+            title: 'Mount Elbrus',
+            images: [
+              { title: 'File:Elbrus.jpg' },
+              { title: 'File:Flag of Russia.svg' },
+              { title: 'File:Elbrus summit.jpg' },
+              { title: 'File:Elbrus location map.png' },
+              { title: 'File:Tiny.jpg' }
+            ]
+          }
+        }
+      }
+    }
+  };
+  const credit = (a: string) => ({ Artist: { value: a }, LicenseShortName: { value: 'CC BY 4.0' } });
+  const fetchImpl: FetchLike = async (url) => {
+    let body: unknown;
+    if (url.includes('commons.wikimedia.org') && url.includes('iiurlwidth')) {
+      body = {
+        query: {
+          pages: {
+            '2': { title: 'File:Elbrus summit.jpg', imageinfo: [{ thumburl: 'https://x/960px-summit.jpg', width: 4000, height: 2600, mime: 'image/jpeg', extmetadata: credit('Ann') }] },
+            '3': { title: 'File:Tiny.jpg', imageinfo: [{ thumburl: 'https://x/tiny.jpg', width: 300, height: 200, mime: 'image/jpeg', extmetadata: credit('Bob') }] }
+          }
+        }
+      };
+    } else if (url.includes('commons.wikimedia.org')) {
+      body = { query: { pages: { '1': { title: 'File:Elbrus.jpg', imageinfo: [{ extmetadata: credit('Lead Author') }] } } } };
+    } else {
+      const key = Object.keys(routes).find((k) => url.includes(k));
+      body = key ? routes[key] : undefined;
+    }
+    return { ok: body !== undefined, status: body ? 200 : 404, headers: { get: () => null }, json: async () => body };
+  };
+
+  it('adds credited Commons photos after the lead, skipping maps, flags and small files', async () => {
+    const [p] = await enrichWithWikipedia([base('elbrus', 'Q1')], 'en', { fetchImpl });
+    expect(p!.photos).toEqual(['https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Elbrus.jpg/640px-Elbrus.jpg', 'https://x/960px-summit.jpg']);
+    expect(p!.photoCredits).toEqual(['Lead Author · CC BY 4.0', 'Ann · CC BY 4.0']);
+    expect(p!.photoCredit).toBe('Lead Author · CC BY 4.0');
+  });
+
+  it('keeps a written text and still adds the photos', async () => {
+    const written: POI = { ...base('elbrus', 'Q1'), summary: 'Our own story.', textSource: 'editorial' };
+    const [p] = await enrichWithWikipedia([written], 'en', { fetchImpl });
+    expect(p!.summary).toBe('Our own story.');
+    expect(p!.textSource).toBe('editorial');
+    expect(p!.photos).toHaveLength(2);
+  });
+});

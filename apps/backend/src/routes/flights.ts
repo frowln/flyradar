@@ -1,6 +1,7 @@
 import type { FastifyPluginAsync } from 'fastify';
 import { z } from 'zod';
 import { getFlightDetailed } from '../services/flightLookup.js';
+import { getRecentTrack } from '../services/recentTrack.js';
 import { buildPackage, getCachedPackage } from '../services/packageBuilder.js';
 import { createPackageJobs } from '../services/packageJobs.js';
 import { requireAuth } from '../middleware/auth.js';
@@ -28,6 +29,10 @@ const lookupBody = z.object({
 
 const jobParams = z.object({ jobId: z.uuid() });
 
+const trackQuery = z.object({
+  number: z.string().trim().min(2).max(10).regex(/^[A-Za-z0-9]+$/)
+});
+
 export const flightRoutes: FastifyPluginAsync = async (app) => {
   app.addHook('preHandler', requireAuth);
 
@@ -39,7 +44,7 @@ export const flightRoutes: FastifyPluginAsync = async (app) => {
     }
   });
 
-  // POST /flights/lookup — returns flight info (fast, from cache or AviationStack)
+  // POST /flights/lookup — returns flight info (fast, from cache or AeroDataBox / AviationStack)
   app.post('/flights/lookup', async (req, reply) => {
     const body = lookupBody.safeParse(req.body);
     if (!body.success) {
@@ -61,6 +66,28 @@ export const flightRoutes: FastifyPluginAsync = async (app) => {
     }
     return flight;
   });
+
+  /**
+   * GET /flights/track?number=SU1234 — the path this flight number flew most
+   * recently (within a week), simplified to at most 150 points:
+   * `{ points: [[lon, lat, altM, tSec], ...], flownOn, from, to }`, or 404.
+   * One provider call per number per day, however many passengers ask.
+   */
+  app.get<{ Querystring: { number?: string } }>(
+    '/flights/track',
+    { config: { rateLimit: { max: 20, timeWindow: '1 minute' } } },
+    async (req, reply) => {
+      const query = trackQuery.safeParse(req.query);
+      if (!query.success) {
+        return reply.code(400).send({ error: 'Invalid request', details: z.flattenError(query.error) });
+      }
+      const { track, error } = await getRecentTrack(query.data.number);
+      if (!track) {
+        return reply.code(404).send({ error: 'No recent track', ...(error ? { reason: error } : {}) });
+      }
+      return track;
+    }
+  );
 
   /**
    * POST /flights/package — the offline package for a flight.

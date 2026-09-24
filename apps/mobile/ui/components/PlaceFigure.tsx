@@ -190,6 +190,39 @@ function figureFor(category: POICategory, rand: () => number, W: number, H: numb
         </>
       );
 
+    case 'historic': {
+      // An old route on a chart: a graticule, a dashed way with its stops.
+      const pts = Array.from({ length: 7 }, (_, i) => ({
+        x: W * (0.06 + i * 0.15),
+        y: H * (0.3 + 0.4 * rand()) + Math.sin(i * 1.3) * H * 0.08
+      }));
+      const d = pts.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(' ');
+      return (
+        <>
+          {Array.from({ length: 5 }, (_, i) => (
+            <Line key={`v${i}`} x1={(W / 5) * i + W / 10} y1={0} x2={(W / 5) * i + W / 10} y2={H} stroke={stroke} strokeOpacity={0.08} strokeWidth={1} />
+          ))}
+          {Array.from({ length: 3 }, (_, i) => (
+            <Line key={`h${i}`} x1={0} y1={(H / 3) * i + H / 6} x2={W} y2={(H / 3) * i + H / 6} stroke={stroke} strokeOpacity={0.08} strokeWidth={1} />
+          ))}
+          <Path d={d} fill="none" stroke={stroke} strokeOpacity={0.6} strokeWidth={1.5} strokeDasharray="6 5" />
+          {pts.map((p, i) => (
+            <Rect
+              key={i}
+              x={p.x - 4}
+              y={p.y - 4}
+              width={8}
+              height={8}
+              fill={i === 3 ? stroke : palette.warm}
+              stroke={i === 3 ? stroke : dim}
+              strokeWidth={1}
+              transform={`rotate(45 ${p.x} ${p.y})`}
+            />
+          ))}
+        </>
+      );
+    }
+
     default: {
       // Contour rings — reads as terrain on a chart without claiming a shape.
       return (

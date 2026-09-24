@@ -1,0 +1,686 @@
+{
+  "Q84": {
+    "t": "A dark river coiling through a sea of lights",
+    "s": "Find the Thames and London falls into place: a brown ribbon looping east through an enormous grey-green sprawl, then widening towards the North Sea. The M25 motorway draws a rough ring around it all. The Romans bridged the river here almost two thousand years ago, and the city has spread outward from that crossing ever since.",
+    "w": "The looping Thames running east to its estuary; square reservoirs glint beside Heathrow on the western edge.",
+    "f": [
+      "The M25 ring motorway is about 188 km long; at night it traces a faint loop of lights around the city.",
+      "The Thames is tidal right through London: in the centre the water rises and falls by several metres twice a day.",
+      "The Romans founded Londinium on the north bank of the Thames around AD 50."
+    ],
+    "q": {
+      "q": "What was London called in Roman times?",
+      "a": "Londinium",
+      "x": [
+        "Lutetia",
+        "Eboracum"
+      ]
+    }
+  },
+  "Q406": {
+    "t": "One city, two continents, one blue thread between them",
+    "s": "Look for a thin blue line cutting a vast city in two: the Bosphorus, with Europe on one bank and Asia on the other. The Golden Horn curls into the old town on the European side. As Constantinople, this was an imperial capital for more than a thousand years.",
+    "w": "A narrow strait running north–south between the Black Sea and the Sea of Marmara.",
+    "f": [
+      "The Bosphorus is about 30 km long and well under a kilometre wide at its narrowest.",
+      "Three suspension bridges cross the strait; from cruise they show as fine pale lines.",
+      "At night the two shores glow as one ribbon of light along the water."
+    ],
+    "q": {
+      "q": "Which strait splits Istanbul between Europe and Asia?",
+      "a": "The Bosphorus",
+      "x": [
+        "The Dardanelles",
+        "The Strait of Messina"
+      ]
+    }
+  },
+  "Q3692": {
+    "t": "A grid of lights dropped into the Arabian desert",
+    "s": "Riyadh sits close to the middle of the Arabian Peninsula, hundreds of kilometres from any sea. From above it is a vast beige grid of broad avenues, edged on the west by the green thread of Wadi Hanifa. Its name comes from the Arabic for 'gardens' — the oases this valley once watered.",
+    "w": "A huge rectangular street grid in brown desert, with the long Tuwaiq escarpment running north–south to the west.",
+    "f": [
+      "The Tuwaiq escarpment west of the city curves for roughly 800 km across central Arabia.",
+      "On Riyadh's north-western edge, the mud-brick At-Turaif district of Diriyah is a UNESCO World Heritage site.",
+      "The city stands about 600 metres above sea level on the Najd plateau."
+    ],
+    "q": {
+      "q": "What does the name Riyadh mean in Arabic?",
+      "a": "Gardens",
+      "x": [
+        "Sands",
+        "Stars"
+      ]
+    }
+  },
+  "Q5465": {
+    "t": "A flat-topped mountain near the tip of Africa",
+    "s": "Look for a mountain sliced flat like a table, with the city curled around its feet and the sea on both sides. South of it, a rocky finger of land runs down to the Cape of Good Hope. On many summer days a white cloud spills over the summit like a tablecloth, then melts away on the way down.",
+    "w": "A flat grey mountain block above a curved bay, a rocky peninsula running south, and a low island out in the bay.",
+    "f": [
+      "Table Mountain's flat summit reaches about 1,085 metres — roughly a tenth of your cruising height.",
+      "The low island in Table Bay is Robben Island, a UNESCO World Heritage site since 1999.",
+      "Cape Town is South Africa's oldest city, founded in 1652 as a supply station for Dutch ships."
+    ],
+    "q": {
+      "q": "In which year did the Dutch East India Company found Cape Town?",
+      "a": "1652",
+      "x": [
+        "1588",
+        "1714"
+      ]
+    }
+  },
+  "Q649": {
+    "t": "Rings within rings, like a cut tree trunk",
+    "s": "Moscow is laid out like a tree trunk seen in cross-section: ring roads nested one inside another around the old centre, with radial highways running out like spokes. At night the whole pattern glows amber and white. Through it winds the Moskva River in big, lazy loops. The city first appears in a chronicle in 1147.",
+    "w": "Concentric road rings with straight spokes radiating out; the winding Moskva River crosses the centre from north-west to south-east.",
+    "f": [
+      "The MKAD, Moscow's outer ring motorway, is about 109 km long.",
+      "The inner Garden Ring runs for about 16 km around the historic centre.",
+      "The city and its river share one name: in Russian, both are called Moskva."
+    ],
+    "q": {
+      "q": "In which year is Moscow first mentioned in a chronicle?",
+      "a": "1147",
+      "x": [
+        "1240",
+        "1380"
+      ]
+    }
+  },
+  "Q8673": {
+    "t": "A megacity stitched together across a lagoon",
+    "s": "Lagos is as much water as land. Look for a broad lagoon behind a long, straight Atlantic beach, with the city spilling over the islands and shores all around it. A thin bridge strides across the water for kilometres. Portuguese sailors named the place after these lakes, and today it is one of Africa's largest cities.",
+    "w": "A wide brown-grey lagoon behind a ruler-straight surf coast, dense city on its islands and a long bridge across the water.",
+    "f": [
+      "The Third Mainland Bridge runs about 11.8 km across Lagos Lagoon, linking the islands to the mainland.",
+      "Lagos was Nigeria's capital until 1991, when the government moved to Abuja.",
+      "In Yoruba, the city's own name is Eko."
+    ],
+    "q": {
+      "q": "What does the name Lagos mean in Portuguese?",
+      "a": "Lakes",
+      "x": [
+        "Harbours",
+        "Palms"
+      ]
+    }
+  },
+  "Q220": {
+    "t": "The Eternal City, framed by old volcanoes",
+    "s": "Rome lies about 25 km inland on the Tiber, which snakes through the centre in tight bends. A motorway ring, the Grande Raccordo Anulare, loops around the city. Look beyond it: the round lakes to the north-west and south-east fill the craters of extinct volcanoes. Tradition dates the city's founding to 753 BC.",
+    "w": "A sprawl on a winding river, framed by the round crater lakes of Bracciano to the north-west and the Alban Hills to the south-east.",
+    "f": [
+      "The Grande Raccordo Anulare ring road is about 68 km long.",
+      "Vatican City, the world's smallest country, lies entirely inside Rome.",
+      "Lake Bracciano, north-west of the city, fills an old volcanic basin about 9 km across."
+    ],
+    "q": {
+      "q": "Which river flows through Rome?",
+      "a": "The Tiber",
+      "x": [
+        "The Arno",
+        "The Po"
+      ]
+    }
+  },
+  "Q3870": {
+    "t": "A highland capital with lions on its doorstep",
+    "s": "Nairobi sits on a high plateau at about 1,800 metres, just east of the Great Rift Valley. It began in 1899 as a depot on the railway from Mombasa to Lake Victoria, and its name comes from a Maasai phrase for 'cool water'. On its southern edge, open grassland is a national park where lions and giraffes roam within sight of town.",
+    "w": "A dense city with an open tawny plain — the national park — on its southern side; the Ngong Hills rise to the south-west.",
+    "f": [
+      "Nairobi National Park begins only about 7 km from the city centre.",
+      "West of the city the land drops sharply into the Great Rift Valley.",
+      "The city lies less than 150 km south of the equator, yet its altitude keeps nights cool."
+    ],
+    "q": {
+      "q": "What does the Maasai name behind 'Nairobi' mean?",
+      "a": "Cool water",
+      "x": [
+        "Red earth",
+        "High hill"
+      ]
+    }
+  },
+  "Q85": {
+    "t": "Where the green Nile valley opens into the delta",
+    "s": "Cairo marks the hinge of Egypt. South of the city the Nile runs in a narrow green strip through desert; just to the north it fans out into the delta. The city fills both banks, with the Giza plateau and its pyramids on the western edge, where the houses stop and the Sahara begins.",
+    "w": "A huge grey-beige city on the Nile, exactly where the thin green valley widens into the triangle of the delta.",
+    "f": [
+      "Cairo was founded as al-Qahira, 'the Victorious', by the Fatimid dynasty in 969.",
+      "The line between irrigated fields and bare desert around Cairo is razor-sharp, even from cruise height.",
+      "The Great Pyramid of Giza was the tallest human-made structure on Earth for more than 3,800 years."
+    ],
+    "q": {
+      "q": "Which dynasty founded Cairo in 969?",
+      "a": "The Fatimids",
+      "x": [
+        "The Ottomans",
+        "The Mamluks"
+      ]
+    }
+  },
+  "Q90": {
+    "t": "An oval city inside a ring, with a river in loops",
+    "s": "Paris proper is compact: a neat oval held inside the Boulevard Périphérique, with suburbs sprawling far beyond it. The Seine enters from the south-east, curves through the centre past two small islands, then leaves in a series of great loops towards the Channel. The Romans called the settlement Lutetia.",
+    "w": "An oval ring road enclosing the dense centre, with the Seine snaking through it and meandering west in big loops.",
+    "f": [
+      "The Boulevard Périphérique is about 35 km long and follows the line of the city's 19th-century fortifications.",
+      "Inside the ring, Paris covers only about 105 km².",
+      "The city began on the Île de la Cité, the larger of the two islands in the Seine."
+    ],
+    "q": {
+      "q": "About how long is the Boulevard Périphérique around Paris?",
+      "a": "About 35 km",
+      "x": [
+        "About 70 km",
+        "About 12 km"
+      ]
+    }
+  },
+  "Q1899": {
+    "t": "Green hills on one bank, flat plain on the other",
+    "s": "The Dnipro splits Kyiv in two, and its banks could hardly differ more: steep wooded hills on the west, where the old city grew, and low flat land to the east. Sandy islands and side channels lie between them. Upstream, the river swells into a long reservoir. A thousand years ago this was the capital of Kyivan Rus.",
+    "w": "A broad river with sandy islands running north–south; the hilly old city on the west bank, newer districts on the flat east bank.",
+    "f": [
+      "Just north of the city the Dnipro widens into the Kyiv Reservoir, more than 100 km long.",
+      "The Kyiv Pechersk Lavra, a cave monastery founded in 1051, is a UNESCO World Heritage site.",
+      "Large wooded islands in the Dnipro, such as Trukhaniv, sit right opposite the city centre."
+    ],
+    "q": {
+      "q": "Which river flows through Kyiv?",
+      "a": "The Dnipro",
+      "x": [
+        "The Dniester",
+        "The Southern Bug"
+      ]
+    }
+  },
+  "Q612": {
+    "t": "A palm tree drawn on the sea in sand",
+    "s": "Few cities are so easy to spot. Off Dubai's coast, a palm tree has been drawn on the sea in sand, its fronds ringed by a crescent breakwater. Further out, a scatter of islets imitates a map of the world. Onshore, towers line the coast for kilometres, and the old town hugs a winding creek.",
+    "w": "The palm-shaped island off a straight desert coast, with the cluster of 'World' islands further out to sea.",
+    "f": [
+      "Palm Jumeirah was built from sand dredged from the sea floor and is roughly 5 km across.",
+      "The World islands are an archipelago of about 300 artificial islands laid out like a world map.",
+      "Dubai Creek, a natural inlet, was the heart of the old pearling and trading town."
+    ],
+    "q": {
+      "q": "What shape is Dubai's best-known artificial island?",
+      "a": "A palm tree",
+      "x": [
+        "A seashell",
+        "A falcon"
+      ]
+    }
+  },
+  "Q2807": {
+    "t": "A capital on a high plateau, with snowy peaks behind",
+    "s": "Madrid lies almost at the centre of Spain, on a dry plateau more than 600 metres above the sea. Look for ring motorways drawing ever wider loops around it, and for the Sierra de Guadarrama to the north-west, often white-capped in winter. Philip II moved his royal court to this small town in 1561.",
+    "w": "A dense city on a tan plateau ringed by motorways, with the Guadarrama mountains rising to the north-west.",
+    "f": [
+      "At about 650 metres, Madrid is the highest capital city in the European Union.",
+      "The Puerta del Sol in the centre is Kilometre Zero for Spain's radial national roads.",
+      "The city's own river, the Manzanares, is so small it barely shows from the air."
+    ],
+    "q": {
+      "q": "Which mountains rise north-west of Madrid?",
+      "a": "Sierra de Guadarrama",
+      "x": [
+        "Sierra Nevada",
+        "Picos de Europa"
+      ]
+    }
+  },
+  "Q71": {
+    "t": "Where the Rhône slips out of a crescent lake",
+    "s": "Geneva sits at the south-western tip of Lake Geneva, where the Rhône leaves the lake and heads for France. The city is almost surrounded by French territory. On a clear day look south-east to the snowy Mont Blanc massif, and north-west to the long, dark wall of the Jura.",
+    "w": "The narrow pointed end of a large crescent-shaped lake, with a river leaving it; the Jura ridge lies to the north-west.",
+    "f": [
+      "The canton of Geneva shares about 100 km of border with France and only a few kilometres with the rest of Switzerland.",
+      "Underground, just west of the city, CERN's particle accelerator runs in a 27 km ring beneath the French border.",
+      "Lake Geneva is about 73 km long, curving like a crescent between Switzerland and France."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Geneva at Geneva?",
+      "a": "The Rhône",
+      "x": [
+        "The Rhine",
+        "The Aare"
+      ]
+    }
+  },
+  "Q1754": {
+    "t": "A city on islands where a lake meets the sea",
+    "s": "Stockholm is spread over fourteen islands at the point where Lake Mälaren drains into the Baltic. From above it is a jigsaw of water, granite and dark pine forest. To the east the archipelago takes over: tens of thousands of islands and skerries scattered towards the open sea. The city is first recorded in 1252.",
+    "w": "A jigsaw of islands and channels between a big lake to the west and a vast archipelago spreading east to the Baltic.",
+    "f": [
+      "The Stockholm archipelago contains roughly 30,000 islands, islets and rocks.",
+      "Lake Mälaren sits slightly higher than the Baltic, and its water drains out through the city's channels.",
+      "The land here is still rising after the last Ice Age, by around half a centimetre a year."
+    ],
+    "q": {
+      "q": "About how many islands make up the Stockholm archipelago?",
+      "a": "About 30,000",
+      "x": [
+        "About 300",
+        "About 3,000"
+      ]
+    }
+  },
+  "Q3718": {
+    "t": "The westernmost city of mainland Africa",
+    "s": "Dakar crowns the Cap-Vert peninsula, a hook of land pushing out into the Atlantic, the farthest west that mainland Africa reaches. From above, the city fills the whole triangle, with sea on three sides and the ochre Sahel behind. Just offshore lies the small island of Gorée, a UNESCO site and memorial to the Atlantic slave trade.",
+    "w": "A triangular peninsula jutting west into the Atlantic, built over almost entirely, with a small island off its south-eastern shore.",
+    "f": [
+      "Pointe des Almadies, on Dakar's peninsula, is the westernmost point of mainland Africa.",
+      "Two low volcanic hills, the Mamelles, rise near the western shore; one carries a lighthouse.",
+      "Gorée Island became a UNESCO World Heritage site in 1978."
+    ],
+    "q": {
+      "q": "Dakar stands on which peninsula?",
+      "a": "Cap-Vert",
+      "x": [
+        "Cap Bon",
+        "Sinai"
+      ]
+    }
+  },
+  "Q34647": {
+    "t": "A city built on gold, its old mine dumps in view",
+    "s": "Johannesburg exists because of gold. It sprang up in 1886, after a rich reef was found along the Witwatersrand, a long east–west ridge on the high veld. Look along the city's southern side for flat-topped yellowish mounds — old mine dumps — strung out in a line that traces the reef buried below.",
+    "w": "A sprawling city on a high grassy plateau; a line of pale yellow mine dumps runs east–west along its south.",
+    "f": [
+      "Johannesburg lies about 1,750 metres above sea level.",
+      "Witwatersrand means 'ridge of white waters' in Afrikaans.",
+      "Some Witwatersrand gold mines reach about 4 km below the surface, among the deepest in the world."
+    ],
+    "q": {
+      "q": "Which discovery led to the founding of Johannesburg in 1886?",
+      "a": "Gold",
+      "x": [
+        "Diamonds",
+        "Coal"
+      ]
+    }
+  },
+  "Q727": {
+    "t": "A canal city on land won from the water",
+    "s": "Amsterdam grew from a 13th-century dam on the river Amstel, and water still shapes everything you see: the broad IJ channel along its north side, the grey expanse of the Markermeer to the east, and a flat patchwork of polders all around. Many of those green rectangles lie below sea level.",
+    "w": "Flat green polders cut by straight ditches, the city on a broad channel, and a large grey lake to its east.",
+    "f": [
+      "Schiphol airport lies about 3 metres below sea level, on the bed of a lake drained in the mid-1800s.",
+      "The ring of 17th-century canals became a UNESCO World Heritage site in 2010.",
+      "The North Sea Canal, opened in 1876, links the city's harbour with the sea about 25 km to the west."
+    ],
+    "q": {
+      "q": "Which river gave Amsterdam its name?",
+      "a": "The Amstel",
+      "x": [
+        "The Maas",
+        "The IJssel"
+      ]
+    }
+  },
+  "Q7903": {
+    "t": "A white city strung along the Atlantic surf",
+    "s": "Casablanca stretches along a flat Atlantic shore, a pale spread of buildings pressed right up to the surf line. Look for the long breakwaters of its port, one of the largest in Africa, curving out to sea. The name is Spanish for 'white house', echoing the Arabic Dar al-Bayda, and from the air the city does look mostly white.",
+    "w": "A pale city along a straight Atlantic coast, with a big harbour enclosed by long breakwaters.",
+    "f": [
+      "The minaret of the Hassan II Mosque, on the seafront, is about 210 metres tall.",
+      "Part of the Hassan II Mosque stands on a platform built out over the Atlantic.",
+      "Casablanca is Morocco's largest city, though the capital is Rabat, about 90 km up the coast."
+    ],
+    "q": {
+      "q": "What does the name Casablanca mean?",
+      "a": "White house",
+      "x": [
+        "White sands",
+        "Blue harbour"
+      ]
+    }
+  },
+  "Q64": {
+    "t": "A flat city of lakes, forests and one big green void",
+    "s": "Berlin spreads across a flat, sandy plain left behind by Ice Age glaciers, and water is everywhere: the Spree winding through the centre, a chain of Havel lakes in the west, the broad Müggelsee in the east. Dark pine forests reach deep into the city. Look too for a vast open rectangle south of the centre — Tempelhof, an airport turned park.",
+    "w": "A huge flat city scattered with lakes and dark forest; a large open green rectangle lies just south of the centre.",
+    "f": [
+      "The A10 Berliner Ring motorway around the city is about 196 km long, one of Europe's longest ring roads.",
+      "Tempelhofer Feld, the old Tempelhof airport, is now an open park of about 300 hectares.",
+      "Berlin covers about 890 km², more than eight times the area of Paris inside its ring road."
+    ],
+    "q": {
+      "q": "Which river flows through the centre of Berlin?",
+      "a": "The Spree",
+      "x": [
+        "The Elbe",
+        "The Oder"
+      ]
+    }
+  },
+  "Q3838": {
+    "t": "Two capitals facing each other across a great river",
+    "s": "Kinshasa lies on the south bank of the Congo, where the river spreads into a vast, lake-like pool dotted with sandy islands. On the far bank is Brazzaville, the capital of another country. Just downstream, the river leaves the pool and plunges into a long run of rapids. Henry Morton Stanley set up a trading post here in 1881 and named it Léopoldville.",
+    "w": "A sprawling city on the south shore of a broad, island-studded widening of the Congo River, with another city on the opposite bank.",
+    "f": [
+      "Apart from Rome and the Vatican, Kinshasa and Brazzaville are the world's closest pair of capital cities.",
+      "Pool Malebo, the river's widening here, is about 35 km long and more than 20 km wide.",
+      "Below the city, the Livingstone Falls — a chain of rapids — lower the Congo by about 270 metres."
+    ],
+    "q": {
+      "q": "Which capital faces Kinshasa across the Congo River?",
+      "a": "Brazzaville",
+      "x": [
+        "Bangui",
+        "Luanda"
+      ]
+    }
+  },
+  "Q1524": {
+    "t": "A white city poured into a basin down to the sea",
+    "s": "Athens pours across a basin ringed by bare mountains, spilling down to the Saronic Gulf at the port of Piraeus. From above it is an almost unbroken white-and-beige carpet. Look at the mountain to the north-east: pale scars on its flanks are marble quarries, worked since antiquity, when they supplied the stone for the Parthenon.",
+    "w": "A dense white city in a mountain-rimmed basin opening south-west onto the sea, with ship wakes fanning out from Piraeus.",
+    "f": [
+      "The Parthenon's marble came from Mount Penteli, about 15 km north-east of the Acropolis.",
+      "Piraeus has served as the port of Athens since the 5th century BC, when the Long Walls linked the two.",
+      "The city takes its name from the goddess Athena, its patron in Greek myth."
+    ],
+    "q": {
+      "q": "Which mountain supplied the marble for the Parthenon?",
+      "a": "Mount Penteli",
+      "x": [
+        "Mount Olympus",
+        "Mount Parnassus"
+      ]
+    }
+  },
+  "Q1530": {
+    "t": "A city threaded on the loops of the Tigris",
+    "s": "Baghdad is threaded on the Tigris, which swings through it in great looping bends, with dark palm groves along both banks. To the west the Euphrates comes within a few dozen kilometres: the two rivers of Mesopotamia draw closer here than almost anywhere else. The Abbasid caliph al-Mansur founded the city in 762 as a perfectly round walled town.",
+    "w": "A flat, dust-coloured city on a wide, deeply looping river, with dark green palm groves along its banks.",
+    "f": [
+      "Al-Mansur named his new round city Madinat al-Salam, the City of Peace.",
+      "Near Baghdad the Tigris and the Euphrates run less than 50 km apart.",
+      "In the 9th century Baghdad's House of Wisdom drew scholars who translated Greek science into Arabic."
+    ],
+    "q": {
+      "q": "Which river flows through Baghdad?",
+      "a": "The Tigris",
+      "x": [
+        "The Euphrates",
+        "The Orontes"
+      ]
+    }
+  },
+  "Q3624": {
+    "t": "A capital in the clouds, ringed by eucalyptus hills",
+    "s": "Addis Ababa sits on the Ethiopian Highlands at about 2,350 metres, one of the highest capitals in the world. The hills to its north are dark with eucalyptus, a tree brought in during the 1890s to give the young city firewood. Emperor Menelik II and Empress Taytu founded the city in 1886, near a group of hot springs.",
+    "w": "A sprawling city on a high green plateau, with dark eucalyptus-covered hills rising along its northern edge.",
+    "f": [
+      "The African Union has its headquarters in Addis Ababa.",
+      "The eucalyptus around the city came from Australia and now covers much of the Entoto hills.",
+      "At this altitude water boils at about 92 °C rather than 100 °C."
+    ],
+    "q": {
+      "q": "What does the name Addis Ababa mean in Amharic?",
+      "a": "New flower",
+      "x": [
+        "High city",
+        "Spring water"
+      ]
+    }
+  },
+  "Q3616": {
+    "t": "A city tilting down from a wall of mountains",
+    "s": "Tehran lies at the foot of the Alborz, a steep mountain wall that shuts the city off from the Caspian Sea to the north. The whole city tilts: its northern districts sit hundreds of metres higher than the southern ones, which fade into dry plain. To the north-east, look for a lone white cone above the range — Damavand, the highest peak in Iran.",
+    "w": "A huge grey city pressed against a high mountain wall to its north; a lone snowy volcanic cone stands out to the north-east.",
+    "f": [
+      "Mount Damavand, about 70 km north-east of the city, reaches roughly 5,600 metres.",
+      "Tehran became the capital in 1786 under Agha Mohammad Khan, founder of the Qajar dynasty.",
+      "Damavand is a volcano, and the highest in Asia."
+    ],
+    "q": {
+      "q": "Which volcano rises north-east of Tehran?",
+      "a": "Damavand",
+      "x": [
+        "Ararat",
+        "Sabalan"
+      ]
+    }
+  },
+  "Q1741": {
+    "t": "Where the Danube runs in straight parallel lines",
+    "s": "Vienna's river is easy to find but strange to look at: the Danube passes the city in straight parallel channels with a long, thin island between them. That is the work of engineers; the old river once wandered freely across its floodplain. To the west, the wooded hills of the Vienna Woods are the last foothills of the Alps.",
+    "w": "The Danube as two straight parallel channels with a slim island between them, north-east of the centre; forested hills to the west.",
+    "f": [
+      "Danube Island, the thin strip between the channels, is about 21 km long and was built for flood protection.",
+      "Vienna has working vineyards inside its city limits, and wine-making here goes back centuries.",
+      "For centuries Vienna was the main seat of the Habsburg dynasty."
+    ],
+    "q": {
+      "q": "Which river flows through Vienna?",
+      "a": "The Danube",
+      "x": [
+        "The Elbe",
+        "The Vltava"
+      ]
+    }
+  },
+  "Q3640": {
+    "t": "A capital on the bare steppe of Anatolia",
+    "s": "Ankara spreads over a bowl of hills in the middle of the Anatolian plateau, nearly 900 metres up and ringed by dry, tawny steppe. Its old name, Angora, lives on in the soft wool of goats, cats and rabbits once bred here. Far to the south you may catch a gleam of white: Lake Tuz, a vast, shallow salt lake.",
+    "w": "A large city in a bowl of low hills on bare, tan steppe; far to the south, the white sheet of a salt lake.",
+    "f": [
+      "Ankara replaced Istanbul as Turkey's capital in 1923.",
+      "In Roman times the city was Ancyra, capital of the province of Galatia.",
+      "Lake Tuz is so shallow that in summer much of it dries into a crust of white salt."
+    ],
+    "q": {
+      "q": "Which old name of Ankara was given to a soft wool?",
+      "a": "Angora",
+      "x": [
+        "Merino",
+        "Cashmere"
+      ]
+    }
+  },
+  "Q1781": {
+    "t": "Buda's hills and Pest's plain, stitched by bridges",
+    "s": "The Danube runs straight north to south through Budapest and splits it into two characters: the wooded hills of Buda on the west bank and the flat, dense grid of Pest on the east. A slim, leafy island, Margaret Island, sits in mid-river near the centre. The towns on the two banks were only merged into one city in 1873.",
+    "w": "A broad river flowing south, green hills on its west bank, flat city to the east, and a narrow island in mid-stream.",
+    "f": [
+      "Budapest sits on a geological fault that feeds more than a hundred thermal springs.",
+      "South of the city the Danube splits around Csepel Island, which is nearly 50 km long.",
+      "Margaret Island is about 2.5 km long and once held a medieval convent."
+    ],
+    "q": {
+      "q": "In which year were Buda, Óbuda and Pest united?",
+      "a": "1873",
+      "x": [
+        "1848",
+        "1896"
+      ]
+    }
+  },
+  "Q2471": {
+    "t": "An ancient capital on a high mountain plateau",
+    "s": "Sanaa lies in a high basin among the mountains of Yemen, at about 2,250 metres. From above it is an earth-coloured patch between bare, folded ridges. Its old city, packed with tall tower houses of mud brick and stone trimmed in white, has been inhabited for more than 2,500 years.",
+    "w": "An earth-toned city in a broad upland basin, hemmed in by bare, rugged mountains on its east and west.",
+    "f": [
+      "The Old City of Sanaa has been a UNESCO World Heritage site since 1986.",
+      "West of the city rises Jabal an-Nabi Shu'ayb, at about 3,660 m the highest peak in the Arabian Peninsula.",
+      "Sanaa's tower houses are several storeys tall, with white gypsum friezes framing their windows."
+    ],
+    "q": {
+      "q": "Roughly how high above sea level is Sanaa?",
+      "a": "About 2,250 m",
+      "x": [
+        "About 750 m",
+        "About 4,000 m"
+      ]
+    }
+  },
+  "Q1492": {
+    "t": "A perfect grid between the hills and the sea",
+    "s": "Barcelona fills a coastal plain boxed in by two rivers and a line of wooded hills. Its heart is unmistakable: the Eixample, a vast chessboard of near-identical blocks laid out in the 1860s. Look for one broad avenue slicing across it at an angle, and for the hill of Montjuïc rising straight up from the port.",
+    "w": "A grid of square blocks between green hills and the Mediterranean, crossed by a long diagonal avenue, with a rounded hill by the port.",
+    "f": [
+      "The Eixample was planned in 1859 by the engineer Ildefons Cerdà.",
+      "Each Eixample block is about 113 metres across, with its corners cut off at an angle.",
+      "The Avinguda Diagonal cuts across the grid for about 11 km."
+    ],
+    "q": {
+      "q": "Which hill rises beside Barcelona's port?",
+      "a": "Montjuïc",
+      "x": [
+        "Tibidabo",
+        "Montserrat"
+      ]
+    }
+  },
+  "Q19660": {
+    "t": "A flat city with a string of lakes along its north",
+    "s": "Bucharest lies on the flat Wallachian plain, about 60 km north of the Danube. Look along its northern side for a chain of lakes strung along the little Colentina river, like beads on a thread. The first document to mention the city was signed here in 1459 by Vlad III — better known as Vlad the Impaler.",
+    "w": "A large, flat city on an open plain, with a curving chain of small lakes along its northern edge.",
+    "f": [
+      "Its elegant boulevards once earned Bucharest the nickname 'Little Paris'.",
+      "Bucharest became the capital of Wallachia in 1659.",
+      "The Dâmbovița river crosses the centre in a straight, walled channel."
+    ],
+    "q": {
+      "q": "Which ruler signed the first document naming Bucharest, in 1459?",
+      "a": "Vlad the Impaler",
+      "x": [
+        "Stephen the Great",
+        "Michael the Brave"
+      ]
+    }
+  },
+  "Q41183": {
+    "t": "One of the world's oldest cities, on a limestone plain",
+    "s": "Aleppo is among the oldest continuously inhabited cities on Earth, a stop on caravan routes between the Mediterranean and Mesopotamia for thousands of years. From above it is a large pale city on a rolling limestone plain. Its old centre grew up around a citadel on an ancient mound. South-east of the city lies a shallow salt lake, Jabbul.",
+    "w": "A large pale city on a dry, rolling plain; a shallow salt lake glints to the south-east.",
+    "f": [
+      "The Ancient City of Aleppo has been a UNESCO World Heritage site since 1986.",
+      "The city has long been famous for soap made with olive and laurel oil, known worldwide as Aleppo soap.",
+      "Aleppo lies roughly 100 km inland from the Mediterranean."
+    ],
+    "q": {
+      "q": "Which salt lake lies south-east of Aleppo?",
+      "a": "Lake Jabbul",
+      "x": [
+        "Lake Tuz",
+        "Lake Urmia"
+      ]
+    }
+  },
+  "Q3766": {
+    "t": "An ancient oasis city beneath a bare mountain",
+    "s": "Damascus owes its existence to one small river. The Barada flows down from the Anti-Lebanon mountains and spreads into the Ghouta, an oasis of orchards that has fed the city for thousands of years. The city lies at the foot of bare Mount Qasioun, and in winter the snowy ridge of Mount Hermon stands out to the south-west.",
+    "w": "A large city between green orchards and desert, backed by a bare mountain on its north-west side.",
+    "f": [
+      "From 661 to 750 Damascus was the capital of the Umayyad Caliphate, which stretched from Spain to Central Asia.",
+      "Mount Hermon, south-west of the city, rises to about 2,800 metres and often keeps snow into spring.",
+      "The Ancient City of Damascus has been a UNESCO World Heritage site since 1979."
+    ],
+    "q": {
+      "q": "Which fabric takes its name from Damascus?",
+      "a": "Damask",
+      "x": [
+        "Muslin",
+        "Calico"
+      ]
+    }
+  },
+  "Q72": {
+    "t": "A city at the end of a long, slender lake",
+    "s": "Zürich sits at the northern tip of Lake Zurich, a slim lake that curves about 40 km south-east towards the Alps. The river Limmat drains out of it straight through the centre. On a clear day, look past the lake to the snowy wall of the Glarus Alps. The Romans knew the settlement as Turicum.",
+    "w": "The northern end of a long, narrow lake curving south-east, a river leaving it through the city, and the Alps beyond.",
+    "f": [
+      "Lake Zurich is about 40 km long but nowhere more than about 4 km wide.",
+      "The Uetliberg, the wooded ridge on the city's western edge, rises to about 870 metres.",
+      "Zürich is Switzerland's largest city, although the federal government sits in Bern."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Zurich through the city?",
+      "a": "The Limmat",
+      "x": [
+        "The Aare",
+        "The Reuss"
+      ]
+    }
+  },
+  "Q597": {
+    "t": "Mainland Europe's westernmost capital, on a wide estuary",
+    "s": "Lisbon climbs its hills on the north shore of the Tagus, just where the river's broad inland lake narrows into a channel to the Atlantic. Two long bridges cross the water: a red suspension bridge at the narrows and, upstream, a thin line of a bridge that runs on for kilometres. No capital in mainland Europe lies further west.",
+    "w": "A hilly city on the north shore of a broad estuary, with a long bridge across its upper reaches and another at the narrows.",
+    "f": [
+      "The Vasco da Gama Bridge across the Tagus is about 12 km long, one of the longest in Europe.",
+      "The inland part of the estuary is so wide that locals call it the Mar da Palha, the 'Sea of Straw'.",
+      "Cabo da Roca, west of Lisbon, is the westernmost point of mainland Europe."
+    ],
+    "q": {
+      "q": "Which river forms the broad estuary at Lisbon?",
+      "a": "The Tagus",
+      "x": [
+        "The Douro",
+        "The Guadiana"
+      ]
+    }
+  },
+  "Q1963": {
+    "t": "Where the Blue Nile and the White Nile become one",
+    "s": "Khartoum stands at one of the great river meetings of the world. The Blue Nile, coming down from the Ethiopian Highlands, joins the White Nile, which has travelled all the way from Lake Victoria. Their waters can run side by side in two shades for a while before they mix. Around the confluence, three cities face each other across the rivers.",
+    "w": "Two large rivers meeting in a Y around a green island, with a city on each of the three banks.",
+    "f": [
+      "Tuti Island sits right at the confluence of the two Niles.",
+      "Most of the water in the Nile below Khartoum comes from the Blue Nile, especially in the flood season.",
+      "The three cities around the confluence are Khartoum, Omdurman and Khartoum North."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Khartoum?",
+      "a": "The Blue Nile and White Nile",
+      "x": [
+        "The Nile and the Atbara",
+        "The White Nile and the Sobat"
+      ]
+    }
+  },
+  "Q374365": {
+    "t": "The Red Sea gateway, fringed by turquoise reefs",
+    "s": "Jeddah stretches for kilometres along the Red Sea, a long, narrow city pressed between desert and a band of turquoise shallows. Those pale greens and blues offshore are coral reefs. For centuries pilgrims bound for Mecca, about 70 km inland, have landed here, and the old port town grew rich on their arrival.",
+    "w": "A long city along a straight Red Sea coast, edged by bright turquoise reefs, with brown desert and hills behind.",
+    "f": [
+      "Historic Jeddah, an old quarter of houses built from coral stone, became a UNESCO World Heritage site in 2014.",
+      "King Fahd's Fountain, off the city's seafront, throws water more than 250 metres into the air.",
+      "The reefs along this coast are part of one of the warmest and saltiest seas on Earth."
+    ],
+    "q": {
+      "q": "Which sea does Jeddah face?",
+      "a": "The Red Sea",
+      "x": [
+        "The Arabian Sea",
+        "The Persian Gulf"
+      ]
+    }
+  },
+  "Q5806": {
+    "t": "A holy city in a valley of dark, bare mountains",
+    "s": "Mecca lies in narrow valleys among dark, jagged mountains, about 70 km inland from the Red Sea. For Muslims it is the holiest city of Islam: they turn towards it in prayer, and millions come each year on pilgrimage. East of the city, look for the Mina valley, carpeted with rows of white tents that house pilgrims during the Hajj.",
+    "w": "A city squeezed into winding valleys between bare black hills, with a valley of white tents stretching away to the east.",
+    "f": [
+      "The Prophet Muhammad was born in Mecca around AD 570.",
+      "The tent city in Mina holds tens of thousands of fireproof tents in neat rows.",
+      "The plain of Arafat, a key stop of the pilgrimage, lies about 20 km south-east of the city."
+    ],
+    "q": {
+      "q": "What covers the valley of Mina, east of Mecca?",
+      "a": "Rows of white tents",
+      "x": [
+        "Solar panels",
+        "Date palm groves"
+      ]
+    }
+  }
+}

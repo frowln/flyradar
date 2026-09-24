@@ -1,0 +1,15 @@
+{
+  "name": "skyatlas-content-gen",
+  "private": true,
+  "type": "module",
+  "description": "Writes SkyAtlas place texts for places that have none yet, with the Claude Batch API.",
+  "scripts": {
+    "plan": "node generate.mjs plan",
+    "submit": "node generate.mjs submit",
+    "collect": "node generate.mjs collect"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "zod": "^4.1.0"
+  }
+}

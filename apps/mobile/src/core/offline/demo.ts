@@ -2,7 +2,7 @@ import type { OfflinePackage } from '@skyatlas/shared';
 import { composePackage } from './buildPackage';
 import { savePackage } from './packageStore';
 import { enrichWithWikipedia } from '../places/wiki';
-import { airportByIata, ensureDatasets, getAreas, getCountries, getPlaces } from '../data/datasets';
+import { airportByIata, ensureDatasets, getAreas, getCountries, getHistory, getPlaces, loadStories } from '../data/datasets';
 import { takeOff } from '../flight/controller';
 import { formatClock, localDate } from '../time/zones';
 import { buildRoute } from '../route/profile';
@@ -46,6 +46,7 @@ export function demoPreviewRoute(locale: string): RoutePoint[] | null {
 
 export async function startDemo(locale: string): Promise<OfflinePackage> {
   await ensureDatasets();
+  const stories = await loadStories(locale);
   const [fromCode, toCode] = demoRoute(locale);
   const from = airportByIata(fromCode);
   const to = airportByIata(toCode);
@@ -64,7 +65,7 @@ export async function startDemo(locale: string): Promise<OfflinePackage> {
         departureTime: formatClock(dep, from.tz),
         locale
       },
-      { places: getPlaces(), areas: getAreas(), countries: getCountries() }
+      { places: getPlaces(), areas: getAreas(), countries: getCountries(), history: getHistory(), stories }
     ),
     demo: true
   };

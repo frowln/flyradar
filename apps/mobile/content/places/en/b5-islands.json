@@ -1,0 +1,642 @@
+{
+  "Q223": {
+    "t": "An island that is mostly one enormous dome of ice",
+    "s": "On flights between Europe and North America you often cross an island that is almost all ice. The ice sheet covers about four-fifths of Greenland and is up to 3 km thick, so its crest sits more than 3,000 m above the sea. At the edges, dark peaks and fjords break through, and in summer the ice is freckled with turquoise meltwater lakes.",
+    "w": "A vast featureless white plateau, edged by dark mountains, deep fjords and icebergs drifting off the coast.",
+    "f": [
+      "Greenland is the world's largest island, about 2.2 million km² — roughly four times the size of France.",
+      "If all its ice melted, the world's oceans would rise by about 7 metres.",
+      "Only about 56,000 people live here, nearly all on the ice-free coast."
+    ],
+    "q": {
+      "q": "What share of Greenland is covered by its ice sheet?",
+      "a": "About four-fifths",
+      "x": [
+        "About half",
+        "About a third"
+      ]
+    }
+  },
+  "Q35942": {
+    "t": "Thousands of kilometres of ocean, stitched with atolls",
+    "s": "Below you is mostly deep blue, broken now and then by a ring of turquoise — an atoll — or the green ridges of a volcanic island. Polynesia is a vast triangle with Hawaii, New Zealand and Easter Island at its corners. People settled all of it in canoes, reading stars, swells and birds, long before Europeans arrived.",
+    "w": "Scattered turquoise rings of reef with pale lagoons, and now and then a dark-green volcanic peak wrapped in cloud.",
+    "f": [
+      "The name comes from the Greek for 'many islands'.",
+      "New Zealand, the triangle's south-western corner, was settled only about 700 years ago — one of the last large lands people reached.",
+      "Polynesian languages are so close that 'moana', the ocean, is the same word in Hawaii and New Zealand."
+    ],
+    "q": {
+      "q": "Which island marks a corner of the Polynesian Triangle?",
+      "a": "Easter Island",
+      "x": [
+        "Fiji",
+        "Guam"
+      ]
+    }
+  },
+  "Q669037": {
+    "t": "Columbus's mistaken 'Indies', strung across turquoise seas",
+    "s": "The islands curve for thousands of kilometres from the Bahamas and Cuba to Trinidad, and from above the colours give them away: shallow banks glowing turquoise, white sand, green mountains. The name is an old mistake — Columbus believed he had reached the Indies of Asia when he landed here in 1492. The big islands lie to the west; a chain of small volcanic ones closes off the Caribbean to the east.",
+    "w": "Big mountainous islands to the west, a curving chain of small volcanic ones to the east, bright turquoise shallows in between.",
+    "f": [
+      "The highest peak, Pico Duarte on Hispaniola, rises to about 3,100 m.",
+      "The Caribbean Sea takes its name from the Caribs, a people of the Lesser Antilles."
+    ],
+    "q": {
+      "q": "On which island is the highest peak of the West Indies?",
+      "a": "Hispaniola",
+      "x": [
+        "Cuba",
+        "Jamaica"
+      ]
+    }
+  },
+  "Q928": {
+    "t": "More than 7,000 islands, reefs and volcano cones",
+    "s": "Green, mountainous islands break the sea into straits and bays, each coast fringed with a pale line of reef. There are more than 7,000 of them, though Luzon in the north and Mindanao in the south hold over two-thirds of the land. The archipelago sits on the Pacific Ring of Fire, so look for volcanic cones and crater lakes among the forested ridges.",
+    "w": "A maze of green islands and narrow straits, with pale reef edges along the coasts.",
+    "f": [
+      "The islands were named in the 1540s after Prince Philip of Spain, later King Philip II.",
+      "On Bohol more than 1,200 rounded hills turn brown in the dry season — the famous Chocolate Hills.",
+      "The Philippines lies in the Coral Triangle, the region with the richest variety of reef life on Earth."
+    ],
+    "q": {
+      "q": "Which Spanish king gave his name to the Philippines?",
+      "a": "Philip II",
+      "x": [
+        "Charles V",
+        "Ferdinand II"
+      ]
+    }
+  },
+  "Q17": {
+    "t": "A 3,000-km arc of mountains rising from the Pacific",
+    "s": "From cruise height Japan is a long, crumpled arc of forested mountains, with cities squeezed onto the narrow plains between the slopes and the sea. Four big islands carry almost everyone, and thousands of smaller ones are scattered around them. At night the Pacific coast from Tokyo to Osaka glows as one nearly unbroken ribbon of light.",
+    "w": "Rugged green mountains down the middle, crowded plains along the coast, and white-capped Fuji standing alone south-west of Tokyo.",
+    "f": [
+      "About three-quarters of Japan is mountainous, which is why its cities crowd onto the coastal plains.",
+      "The country has more than 100 active volcanoes.",
+      "A 2023 recount using digital maps found about 14,000 islands — twice the long-quoted figure of 6,852."
+    ],
+    "q": {
+      "q": "Roughly how much of Japan is mountainous?",
+      "a": "About three-quarters",
+      "x": [
+        "About a third",
+        "About half"
+      ]
+    }
+  },
+  "Q85377": {
+    "t": "A frozen jigsaw at the top of North America",
+    "s": "Seen from above, this is a jigsaw of brown and white land fitted together with channels of sea ice. Tens of thousands of islands spread north of the Canadian mainland towards Greenland, and for much of the year the sea between them is frozen solid. Explorers spent centuries looking for a way through; the Northwest Passage threads these channels.",
+    "w": "Big, flat islands split by straight channels, white with sea ice most of the year; glaciers and ice caps in the east.",
+    "f": [
+      "Three of the world's ten largest islands are here: Baffin, Victoria and Ellesmere.",
+      "Roald Amundsen was the first to sail the whole Northwest Passage, in 1903–1906.",
+      "More than 36,000 islands make up the archipelago."
+    ],
+    "q": {
+      "q": "Which sea route winds between these islands?",
+      "a": "The Northwest Passage",
+      "x": [
+        "The Northern Sea Route",
+        "The Drake Passage"
+      ]
+    }
+  },
+  "Q37394": {
+    "t": "Steep green islands where hundreds of languages are spoken",
+    "s": "Here the Pacific islands turn tall and green: steep volcanic ridges cloaked in rainforest and rimmed by reef, from New Guinea east to Fiji. Some volcanoes still smoke, so look for a grey plume drifting off a summit. Melanesia is also the most linguistically diverse corner of the planet — villages a few ridges apart can speak unrelated languages.",
+    "w": "Large, mountainous, forested islands with reef-fringed coasts; now and then a volcanic plume trailing downwind.",
+    "f": [
+      "Papua New Guinea alone has more than 800 living languages.",
+      "Vanuatu has about 110 languages for some 300,000 people — the densest mix of languages per person on Earth."
+    ],
+    "q": {
+      "q": "Papua New Guinea alone has roughly how many languages?",
+      "a": "More than 800",
+      "x": [
+        "About 100",
+        "About 300"
+      ]
+    }
+  },
+  "Q3359409": {
+    "t": "Thousands of tiny islands above the deepest sea",
+    "s": "Micronesia is mostly ocean: thousands of small islands, many of them low atolls whose rings of reef glow turquoise against deep blue. Many rise only a few metres above the waves. On its western edge lies the Mariana Trench, where the sea floor drops almost 11 km — about as far below the surface as you are above it.",
+    "w": "Small rings of reef with pale-green lagoons, scattered far apart across dark-blue ocean; occasionally a higher, forested island.",
+    "f": [
+      "The name means 'small islands' in Greek.",
+      "On Yap, huge stone discs called rai, some wider than a person is tall, served as money."
+    ],
+    "q": {
+      "q": "What does the name 'Micronesia' mean?",
+      "a": "Small islands",
+      "x": [
+        "Black islands",
+        "Many islands"
+      ]
+    }
+  },
+  "Q208643": {
+    "t": "The world's largest archipelago, where Asia meets Australia",
+    "s": "Between mainland Asia and Australia lies the largest group of islands on Earth — about 25,000 of them, from Sumatra to the Philippines. Look for chains of volcanic cones, rainforest cut into clearings, and shallow seas glowing green over coral. Alfred Russel Wallace travelled here for eight years and noticed that the animals on either side of a narrow strait belonged to different worlds.",
+    "w": "Big green islands and strings of volcanic peaks in warm, shallow seas; brown river plumes spreading into turquoise water.",
+    "f": [
+      "The Wallace Line runs between Bali and Lombok, dividing mostly Asian wildlife to the west from Australian-type wildlife to the east.",
+      "While travelling in these islands in 1858, Wallace hit on natural selection independently of Darwin."
+    ],
+    "q": {
+      "q": "Between which two islands does the Wallace Line run?",
+      "a": "Bali and Lombok",
+      "x": [
+        "Java and Sumatra",
+        "Borneo and Java"
+      ]
+    }
+  },
+  "Q38272": {
+    "t": "A green, cloud-dappled cluster off Europe's north-west edge",
+    "s": "Two large islands and thousands of small ones sit off the north-west coast of Europe, and on a clear day they look intensely green, patched with fields and fringed by rocky headlands. Cloud is common: Atlantic air brings frequent rain. Until roughly 8,000 years ago you could have walked here from the continent, across a plain now drowned beneath the North Sea.",
+    "w": "Great Britain's long north–south shape with Ireland to its west, a patchwork of green fields, and ragged island clusters in the north.",
+    "f": [
+      "The group has more than 6,000 islands, most of them small and uninhabited.",
+      "The drowned land that once joined Britain to Europe is called Doggerland, after the Dogger Bank.",
+      "Warm water carried by the Gulf Stream keeps winters here mild for such a northern latitude."
+    ],
+    "q": {
+      "q": "What is the drowned land between Britain and Europe called?",
+      "a": "Doggerland",
+      "x": [
+        "Lyonesse",
+        "Hyperborea"
+      ]
+    }
+  },
+  "Q664": {
+    "t": "One of the last large lands people reached",
+    "s": "Two long islands and hundreds of small ones lie alone in the South Pacific, about 2,000 km east of Australia. Look for the snowy spine of the Southern Alps in the south and volcanic cones in the north. Polynesian voyagers arrived only about 700 years ago, making this one of the last large lands on Earth to be settled.",
+    "w": "Snowy peaks in the south, glacier-blue lakes and fjords in the south-west, green farmland on the plains.",
+    "f": [
+      "Cook Strait, between the two main islands, is only about 22 km wide at its narrowest.",
+      "New Zealand sits on Zealandia, a sunken continent that is about 94% under the sea.",
+      "Aotearoa, the Māori name, is often translated as 'land of the long white cloud'."
+    ],
+    "q": {
+      "q": "What is the Māori name for New Zealand?",
+      "a": "Aotearoa",
+      "x": [
+        "Rapa Nui",
+        "Hawaiki"
+      ]
+    }
+  },
+  "Q3740828": {
+    "t": "Fire and ice on a rift in the Atlantic",
+    "s": "Iceland looks unfinished from above: black lava fields and grey outwash plains, white ice caps, and a thin green rim along the coast. The island sits right on the Mid-Atlantic Ridge, where North America and Eurasia pull apart, which is why it has so many volcanoes. Glacial rivers spread across the sand in braids, like pale veins.",
+    "w": "Dazzling white ice caps inland, dark lava and sand plains, braided rivers and a narrow green strip by the sea.",
+    "f": [
+      "The two plates move apart by about 2 cm a year, and Iceland slowly widens with them.",
+      "Vatnajökull, the largest ice cap, covers about 8% of the country and hides active volcanoes beneath it.",
+      "Geologists everywhere use the Icelandic word 'sandur' for a glacial outwash plain."
+    ],
+    "q": {
+      "q": "Which two plates pull apart across Iceland?",
+      "a": "North American and Eurasian",
+      "x": [
+        "African and Eurasian",
+        "Pacific and North American"
+      ]
+    }
+  },
+  "Q7463928": {
+    "t": "The Red Island, where life went its own way",
+    "s": "Madagascar's nickname, the Red Island, makes sense from above: bare laterite soil shows through in rust and orange, and after rain the rivers pour red silt into the sea. It split from Africa, and later from India, tens of millions of years ago, and life here evolved in isolation. Look for green rainforest along the east coast and dry plains in the west.",
+    "w": "A huge island with a green eastern escarpment, rust-red highlands, and rivers bleeding red sediment into the sea.",
+    "f": [
+      "At about 587,000 km², it is the world's fourth-largest island.",
+      "Lemurs evolved only here, and about 90% of Madagascar's wildlife is found nowhere else.",
+      "Malagasy, the island's language, is closest to languages of southern Borneo, more than 6,000 km away."
+    ],
+    "q": {
+      "q": "Malagasy is most closely related to languages from which island?",
+      "a": "Borneo",
+      "x": [
+        "Sri Lanka",
+        "Zanzibar"
+      ]
+    }
+  },
+  "Q710": {
+    "t": "A country of atolls in all four hemispheres",
+    "s": "Kiribati is 33 tiny islands scattered across thousands of kilometres of ocean. From above, most are thin rings of land around pale lagoons, often only a few metres above the sea. It is the only country in all four hemispheres, and in 1995 it moved the date line so that all its islands share the same calendar day.",
+    "w": "Thin rings of land enclosing jade-green lagoons, tiny against the deep blue, spread far apart along the equator.",
+    "f": [
+      "'Kiribati' is pronounced 'Kiribas' — the local form of 'Gilberts', the islands' old British name.",
+      "About half of the country's people live on South Tarawa, the capital atoll."
+    ],
+    "q": {
+      "q": "'Kiribati' is the local form of which name?",
+      "a": "Gilbert Islands",
+      "x": [
+        "Caroline Islands",
+        "Marshall Islands"
+      ]
+    }
+  },
+  "Q192626": {
+    "t": "Volcanoes on a conveyor belt across the Pacific",
+    "s": "The islands line up from south-east to north-west, and their shapes tell the story. In the south-east the Big Island is broad and young, its volcanoes still active; further north-west the islands grow older, more eroded and more deeply cut by green valleys. Beyond them the chain dwindles into atolls and sunken seamounts. It formed as the Pacific Plate slid over a fixed hotspot.",
+    "w": "A diagonal line of islands: broad dark volcanoes to the south-east, older, green, deeply furrowed islands to the north-west.",
+    "f": [
+      "Hawaii is about 3,800 km from California, one of the most isolated island groups on Earth.",
+      "Kauai, near the north-western end of the main islands, is about 5 million years old; the Big Island is under 1 million.",
+      "A new volcano, Kamaʻehuakanaloa (formerly Lōʻihi), is growing on the sea floor south-east of the Big Island."
+    ],
+    "q": {
+      "q": "What created the Hawaiian Islands?",
+      "a": "A hotspot under the Pacific Plate",
+      "x": [
+        "A subduction zone",
+        "A mid-ocean ridge"
+      ]
+    }
+  },
+  "Q234796": {
+    "t": "Where the new year arrives before anywhere else",
+    "s": "A loose line of coral atolls runs across the equator in the middle of the Pacific, hundreds of kilometres apart. The largest, Kiritimati, is hard to miss: a huge ring of land with a maze of shallow, milky-blue lagoons inside. The islands that belong to Kiribati keep time 14 hours ahead of Greenwich, so they greet each new year first.",
+    "w": "Tiny, isolated atolls strung north to south; Kiritimati stands out as a big pale ring full of patchy lagoons.",
+    "f": [
+      "Kiritimati has the largest land area of any coral atoll, about 390 km².",
+      "Its name is the local spelling of 'Christmas': Captain Cook reached it on Christmas Eve 1777.",
+      "Of the 11 Line Islands, 8 belong to Kiribati; the rest are United States territories."
+    ],
+    "q": {
+      "q": "Which Line Island is the largest coral atoll by land area?",
+      "a": "Kiritimati",
+      "x": [
+        "Tabuaeran",
+        "Palmyra"
+      ]
+    }
+  },
+  "Q118350": {
+    "t": "Hundreds of atolls and a few high green islands",
+    "s": "The Carolines are scattered over some 3,000 km of the western Pacific, just north of the equator. Most are low atolls, rings of reef around turquoise lagoons, but Pohnpei, Kosrae and the peaks of Chuuk rise as green, cloud-capped islands. Their navigators crossed open ocean without instruments, and their knowledge helped revive Polynesian voyaging in the 1970s.",
+    "w": "Small turquoise-ringed atolls far apart; Chuuk shows as a huge reef ring with green peaks inside.",
+    "f": [
+      "The islands are named after King Charles II of Spain.",
+      "Nan Madol, a town of basalt built on about 100 artificial islets off Pohnpei, is a UNESCO World Heritage site.",
+      "Master navigator Mau Piailug of Satawal guided the canoe Hōkūleʻa from Hawaii to Tahiti in 1976."
+    ],
+    "q": {
+      "q": "Which king are the Caroline Islands named after?",
+      "a": "Charles II of Spain",
+      "x": [
+        "Charles I of England",
+        "Charles III of Spain"
+      ]
+    }
+  },
+  "Q165481": {
+    "t": "Four giant islands on a drowned edge of Asia",
+    "s": "Borneo, Sumatra, Java and Sulawesi make up the Greater Sunda Islands, and three of them rise from a shallow shelf that was dry land during the ice ages. The seas between them are rarely deeper than about 100 m, so the water often looks green rather than deep blue. Look for volcano chains along Sumatra and Java and dark rainforest on Borneo.",
+    "w": "Big green islands in shallow, greenish seas; lines of volcanic cones along Sumatra and Java.",
+    "f": [
+      "Java is the world's most populous island, home to more than 150 million people.",
+      "In the ice ages people and animals could walk from mainland Asia to Java, Sumatra and Borneo.",
+      "Sulawesi is the odd one out: it lies beyond the Wallace Line and has a strange mix of wildlife."
+    ],
+    "q": {
+      "q": "Which is the largest of the Greater Sunda Islands?",
+      "a": "Borneo",
+      "x": [
+        "Sumatra",
+        "Sulawesi"
+      ]
+    }
+  },
+  "Q1042": {
+    "t": "Granite islands left behind by a drifting continent",
+    "s": "Most islands in open ocean are volcanoes or coral, but the Seychelles' inner islands are granite — a sliver of an ancient continent, stranded when India drifted away to the north. From above, Mahé and Praslin show steep green hills and grey boulders tumbling into turquoise bays. Far to the south-west, the outer islands are flat coral atolls lost in the blue.",
+    "w": "Steep green granite islands with turquoise bays in the north-east; low, far-flung coral atolls to the south-west.",
+    "f": [
+      "The coco de mer palm, native to Praslin and Curieuse, bears the heaviest seed of any plant.",
+      "Aldabra atoll is home to roughly 100,000 giant tortoises.",
+      "The Seychelles has the smallest population of any African country."
+    ],
+    "q": {
+      "q": "What rock are Mahé and Praslin made of?",
+      "a": "Granite",
+      "x": [
+        "Basalt",
+        "Coral limestone"
+      ]
+    }
+  },
+  "Q4526612": {
+    "t": "A green teardrop off India's southern tip",
+    "s": "Sri Lanka hangs off the tip of India like a teardrop, its narrow northern end pointing at a chain of sandbanks that almost reaches the mainland. The south-central highlands rise as a dark-green knot, with tea estates climbing their slopes. Around them lie rice paddies, reservoirs built by ancient kings, and a golden rim of beaches.",
+    "w": "A teardrop-shaped island: mountains in the south-centre, and a thin chain of sandbanks reaching toward India from the north-west.",
+    "f": [
+      "The word 'serendipity' comes from Serendip, an old name for the island.",
+      "Adam's Bridge, a chain of shoals about 50 km long, almost links Sri Lanka to India.",
+      "A footprint-shaped hollow on top of Adam's Peak is revered by Buddhists, Hindus, Muslims and Christians alike."
+    ],
+    "q": {
+      "q": "Which English word comes from an old name for Sri Lanka?",
+      "a": "Serendipity",
+      "x": [
+        "Cinnamon",
+        "Paradise"
+      ]
+    }
+  },
+  "Q3593416": {
+    "t": "A heart-shaped island facing the Southern Ocean",
+    "s": "Tasmania is shaped a little like a heart, and from above its west is wild: dark forest, buttongrass plains, jagged mountains and lakes, with hardly a road. The east is gentler, with farmland and white-sand bays. The next land to the south is Antarctica, and the westerlies of the Roaring Forties arrive straight off thousands of kilometres of open ocean.",
+    "w": "A heart-shaped island south of Australia: rugged dark-green west, drier farmland and bright bays along the east coast.",
+    "f": [
+      "Abel Tasman sighted it in 1642, and for two centuries it was called Van Diemen's Land.",
+      "Air measured at Cape Grim, on the north-west tip, is among the cleanest on Earth.",
+      "The Tasmanian devil now survives in the wild only here."
+    ],
+    "q": {
+      "q": "What was Tasmania's old European name?",
+      "a": "Van Diemen's Land",
+      "x": [
+        "New Holland",
+        "Terra Australis"
+      ]
+    }
+  },
+  "Q40285": {
+    "t": "Rainforest, great rivers and ice beside the equator",
+    "s": "The world's second-largest island is a green giant with a mountain spine running its full length, usually wrapped in cloud. Rivers such as the Sepik and the Fly loop through swamp forest in wide brown meanders you can follow for hundreds of kilometres. In the west the peaks reach almost 4,900 m, high enough for small glaciers to have survived right beside the equator.",
+    "w": "A huge green island with a long, cloud-wrapped mountain spine and wide, snaking brown rivers through lowland swamp.",
+    "f": [
+      "Puncak Jaya, 4,884 m, is the highest mountain on any island in the world.",
+      "At about 786,000 km², New Guinea is second only to Greenland among the world's islands.",
+      "Most of the world's birds-of-paradise, famous for their dancing males, are found on New Guinea."
+    ],
+    "q": {
+      "q": "Which is the highest peak on New Guinea?",
+      "a": "Puncak Jaya",
+      "x": [
+        "Mount Wilhelm",
+        "Mount Kinabalu"
+      ]
+    }
+  },
+  "Q36117": {
+    "t": "One island, three countries and a granite giant",
+    "s": "Borneo is the third-largest island on Earth, and from the air you can read its story in its textures. Deep, crinkled rainforest covers the interior, brown rivers coil towards the coast, and across many lowlands neat grids of oil-palm plantations have replaced the jungle. In the north-east, Mount Kinabalu's bare granite summit pokes above the clouds at 4,095 m.",
+    "w": "Dark rainforest, coiling brown rivers and geometric plantation grids; in the north-east, Kinabalu's rocky summit above the clouds.",
+    "f": [
+      "Borneo is shared by three countries: Indonesia, Malaysia and Brunei.",
+      "The Kapuas, about 1,140 km long, is Indonesia's longest river.",
+      "Wild orangutans live only on Borneo and Sumatra."
+    ],
+    "q": {
+      "q": "How many countries share the island of Borneo?",
+      "a": "Three",
+      "x": [
+        "Two",
+        "Four"
+      ]
+    }
+  },
+  "Q3492": {
+    "t": "Home of Toba, the world's largest volcanic lake",
+    "s": "Sumatra stretches almost 1,800 km across the equator, with a chain of volcanoes running down its western side. The unmissable landmark is Lake Toba: a blue oval about 100 km long, filling the crater of a supervolcano that erupted some 74,000 years ago. In its middle sits Samosir, nearly as big as Singapore — an island in a lake on an island.",
+    "w": "A long green island with a volcanic ridge along its west; look for Toba, a vast blue lake with a big island inside.",
+    "f": [
+      "It is the only place where tigers, rhinos, orangutans and elephants still live side by side in the wild.",
+      "At about 473,000 km², Sumatra is the world's sixth-largest island.",
+      "The equator crosses Sumatra, so the island lies in both hemispheres."
+    ],
+    "q": {
+      "q": "What is the island in the middle of Lake Toba called?",
+      "a": "Samosir",
+      "x": [
+        "Nias",
+        "Siberut"
+      ]
+    }
+  },
+  "Q13989": {
+    "t": "Fuji, the Japanese Alps and Tokyo on one long island",
+    "s": "Honshu is the long, bent heart of Japan, and from the window its variety is striking: snow on the Japanese Alps down the middle, rice plains and city sprawl along the coasts. On a clear day Fuji's lone white cone is unmistakable, south-west of Tokyo's vast grey-brown carpet. Tunnels and bridges tie Honshu to the other three main islands.",
+    "w": "A long curved island: snowy peaks down the centre, Fuji's solitary cone, and dense cities crowding the Pacific coast.",
+    "f": [
+      "About 100 million people live on Honshu — more than on any island except Java.",
+      "At about 228,000 km², it is the world's seventh-largest island.",
+      "The Seikan Tunnel, which runs under the sea to Hokkaido, is about 54 km long."
+    ],
+    "q": {
+      "q": "Which island has more people than Honshu?",
+      "a": "Java",
+      "x": [
+        "Great Britain",
+        "Luzon"
+      ]
+    }
+  },
+  "Q22890": {
+    "t": "The Emerald Isle lives up to its name",
+    "s": "On a clear day Ireland really is emerald: small fields in a hundred shades of green, stitched together by hedges and, in the west, by grey stone walls. The Atlantic coast is ragged with bays and headlands; the midlands are low, dotted with lakes and brown bog. Look for the River Shannon swelling into long lakes as it runs south towards the ocean.",
+    "w": "A green island west of Great Britain: ragged Atlantic coast, flat lake-dotted midlands and the long thread of the Shannon.",
+    "f": [
+      "The Shannon, about 360 km long, is the longest river in Ireland or Britain.",
+      "Ireland has no native snakes: after the Ice Age the sea cut it off before they could arrive.",
+      "Lough Neagh, in the north-east, is the largest lake in the British Isles."
+    ],
+    "q": {
+      "q": "What is the longest river in Ireland?",
+      "a": "The Shannon",
+      "x": [
+        "The Liffey",
+        "The Boyne"
+      ]
+    }
+  },
+  "Q23666": {
+    "t": "Europe's largest island, chalk cliffs to Highland lochs",
+    "s": "Great Britain runs almost 1,000 km from south to north, and flying along it you watch the land change. The south is a soft patchwork of fields and towns around London's huge sprawl; the Pennines form a brown spine through northern England; Scotland breaks up into mountains and long, narrow lochs. At night the cities blaze orange while the Highlands go almost dark.",
+    "w": "A long island narrowing northward: green farmland in the south, a brown upland spine, then Scotland's mountains and slender lochs.",
+    "f": [
+      "It is the ninth-largest island in the world and the largest in Europe.",
+      "Ben Nevis, its highest mountain at 1,345 m, is still almost 10 km below cruising height.",
+      "The Channel Tunnel, about 50 km long, links it to France beneath the Strait of Dover."
+    ],
+    "q": {
+      "q": "What is Great Britain's highest mountain?",
+      "a": "Ben Nevis",
+      "x": [
+        "Snowdon",
+        "Scafell Pike"
+      ]
+    }
+  },
+  "Q186233": {
+    "t": "A forested chain between the Bay of Bengal and Andaman Sea",
+    "s": "A narrow chain of islands, almost entirely cloaked in dark tropical forest, runs north to south between the Bay of Bengal and the Andaman Sea. It belongs to India but lies much closer to Myanmar. The water around it is exceptionally clear, so reefs show as pale turquoise halos. East of the main chain, tiny Barren Island is South Asia's only active volcano.",
+    "w": "A slim north–south chain of densely forested islands fringed by turquoise reef, with scattered small islets to the east.",
+    "f": [
+      "Barren Island, only about 3 km across, is the sole confirmed active volcano in South Asia.",
+      "North Sentinel Island is home to one of the last peoples on Earth living without contact with the outside world."
+    ],
+    "q": {
+      "q": "Which active volcano lies in the Andaman Islands?",
+      "a": "Barren Island",
+      "x": [
+        "Krakatoa",
+        "Mount Popa"
+      ]
+    }
+  },
+  "Q157286": {
+    "t": "Scattered green islands at the gateway to Malacca",
+    "s": "South of the Andamans, across the Ten Degree Channel, the Nicobars scatter in a loose line towards Sumatra. Some are flat coral islands ringed with palms; others, like Great Nicobar, are hilly and cloaked in rainforest. Most are closed to tourists to protect the Nicobarese and Shompen peoples, so the dark-green shapes and turquoise reefs below are seen by few outsiders.",
+    "w": "A loose chain of islands between the Andamans and Sumatra: flat, palm-fringed ones in the north, hilly rainforest ones in the south.",
+    "f": [
+      "The Ten Degree Channel, about 150 km wide, separates them from the Andamans along the 10th parallel.",
+      "The Nicobars lie far closer to Sumatra than to mainland India."
+    ],
+    "q": {
+      "q": "Which channel separates the Nicobars from the Andamans?",
+      "a": "Ten Degree Channel",
+      "x": [
+        "Six Degree Channel",
+        "Nine Degree Channel"
+      ]
+    }
+  },
+  "Q3827": {
+    "t": "The original Spice Islands",
+    "s": "For centuries these scattered islands were the world's only source of cloves and nutmeg, and ships sailed halfway round the globe to reach them. From above they are green cones and ridges rising steeply out of very deep blue water, their shores rimmed with coral. Ternate and Tidore, two volcanic cones facing each other across a narrow strait, are the classic view.",
+    "w": "Steep green volcanic islands and cones, rimmed with coral, rising from unusually dark-blue water.",
+    "f": [
+      "Under a 1667 treaty the Dutch kept Run, a tiny nutmeg island here, and the English kept Manhattan.",
+      "Nutmeg and mace both come from the same fruit, native to the Banda Islands.",
+      "The Banda Sea plunges to more than 7 km deep in the Weber Deep."
+    ],
+    "q": {
+      "q": "Which spice came originally only from the Banda Islands?",
+      "a": "Nutmeg",
+      "x": [
+        "Cinnamon",
+        "Black pepper"
+      ]
+    }
+  },
+  "Q119285": {
+    "t": "A 1,900-km arc of volcanoes reaching toward Asia",
+    "s": "Flights between North America and East Asia often skirt the Aleutians, a 1,900-km arc of volcanic islands trailing from Alaska towards Kamchatka. Fog and cloud hide them much of the time; when it clears, look for snow-streaked cones — Shishaldin on Unimak Island is one of the most symmetrical on Earth. North of the chain lies the Bering Sea, south of it the open Pacific.",
+    "w": "A long curving chain of rugged islands and snowy volcanic cones, often poking through a lid of fog.",
+    "f": [
+      "The chain crosses the 180th meridian, so Alaska reaches into the Eastern Hemisphere.",
+      "The arc has dozens of volcanoes, and some erupt every few years.",
+      "The Unangan (Aleut) people have lived on these islands for about 9,000 years."
+    ],
+    "q": {
+      "q": "Which sea lies north of the Aleutian Islands?",
+      "a": "The Bering Sea",
+      "x": [
+        "The Sea of Okhotsk",
+        "The Chukchi Sea"
+      ]
+    }
+  },
+  "Q216533": {
+    "t": "The top of Canada: ice caps, bare rock, almost no one",
+    "s": "At the northern edge of Canada lies a cluster of large islands with bare brown plateaus, glaciers spilling from ice caps, and channels choked with sea ice for most of the year. Only a few hundred people live here, in two small hamlets. The group was named in 1953 to mark the coronation of Queen Elizabeth II.",
+    "w": "Big, flat-topped islands of bare rock, white ice caps and glaciers, separated by channels of pack ice.",
+    "f": [
+      "Devon Island is the largest uninhabited island on Earth.",
+      "On Axel Heiberg Island, stumps of trees that grew about 45 million years ago still stand, preserved but not fossilised.",
+      "Scientists use Devon Island's Haughton impact crater to rehearse exploring Mars."
+    ],
+    "q": {
+      "q": "Which is the largest uninhabited island on Earth?",
+      "a": "Devon Island",
+      "x": [
+        "Ellesmere Island",
+        "Melville Island"
+      ]
+    }
+  },
+  "Q68740": {
+    "t": "Taller than Everest, if you start from the sea floor",
+    "s": "The Big Island is made of five volcanoes fused together, and from above you can see their broad, gentle domes and dark lava flows streaking down to the sea. Mauna Kea and Mauna Loa both top 4,100 m, and in winter their summits can be white with snow. Measured from its base on the ocean floor, Mauna Kea is over 10,000 m tall — more than Everest.",
+    "w": "Two huge, gentle domes, snow-dusted in winter, with black lava flows running to the coast and perhaps a volcanic plume.",
+    "f": [
+      "Mauna Loa is the largest active volcano on Earth by volume.",
+      "Lava from Kīlauea has added new land to the island's south-east coast within recent decades.",
+      "The Big Island is larger than all the other Hawaiian islands combined."
+    ],
+    "q": {
+      "q": "How many volcanoes make up the island of Hawaii?",
+      "a": "Five",
+      "x": [
+        "Two",
+        "Eight"
+      ]
+    }
+  },
+  "Q120755": {
+    "t": "Snowy Alps, turquoise lakes and fjords",
+    "s": "The Southern Alps run like a white wall down the length of the island, and on their dry eastern side glacial lakes glow an unreal milky turquoise — Tekapo and Pukaki are the brightest. To the west, glaciers tumble towards rainforest and the sea; in the south-west, Fiordland's drowned valleys cut deep into the mountains. East of the range, braided rivers fan across the Canterbury Plains.",
+    "w": "A white mountain wall down the island, vivid turquoise lakes on its eastern side, fjords slicing the south-west coast.",
+    "f": [
+      "Aoraki / Mount Cook, 3,724 m, is New Zealand's highest mountain.",
+      "The lakes' colour comes from 'rock flour', fine silt ground by glaciers and suspended in the water.",
+      "At about 150,000 km², it is the world's 12th-largest island."
+    ],
+    "q": {
+      "q": "What gives South Island's glacial lakes their turquoise colour?",
+      "a": "Rock flour from glaciers",
+      "x": [
+        "Algae blooms",
+        "Copper minerals"
+      ]
+    }
+  },
+  "Q118863": {
+    "t": "Volcanoes, a caldera lake and a perfect lone cone",
+    "s": "The centre of the North Island is a volcanic plateau, and it shows. Lake Taupō, the country's largest lake, fills a caldera left by enormous eruptions; south of it rise Ruapehu, Tongariro and the neat cone of Ngauruhoe, often snow-capped. Out on the west coast, Taranaki stands alone: a near-perfect cone ringed by a sharp circle of forest amid green farmland.",
+    "w": "A large lake in the centre with snowy volcanoes to its south; on the west coast, a lone cone inside a circle of forest.",
+    "f": [
+      "Lake Taupō, about 616 km², fills a volcanic caldera; its last great eruption was around 1,800 years ago.",
+      "About three-quarters of New Zealanders live on the North Island.",
+      "Auckland is built on a field of some 50 small volcanoes."
+    ],
+    "q": {
+      "q": "Which lake fills a volcanic caldera in the centre of the North Island?",
+      "a": "Lake Taupō",
+      "x": [
+        "Lake Wakatipu",
+        "Lake Tekapo"
+      ]
+    }
+  },
+  "Q709": {
+    "t": "Two chains of atolls, barely above the waves",
+    "s": "The Marshalls are two parallel chains of coral atolls — the 'sunrise' and 'sunset' chains — strung across the central Pacific. From above, each atoll is a necklace of narrow islets around a lagoon, bright turquoise inside and deep blue outside. The land averages only about 2 m above sea level, so the islands can look like lines painted on the water.",
+    "w": "Necklaces of thin islets around wide turquoise lagoons, lined up in two roughly parallel north-west to south-east chains.",
+    "f": [
+      "Marshallese navigators made stick charts — frames of sticks and shells mapping the ocean swells around the islands.",
+      "The country has 29 atolls and 5 single islands, with only about 180 km² of land in all."
+    ],
+    "q": {
+      "q": "What did Marshallese navigators map with sticks and shells?",
+      "a": "Ocean swells",
+      "x": [
+        "Star positions",
+        "Fish migrations"
+      ]
+    }
+  }
+}

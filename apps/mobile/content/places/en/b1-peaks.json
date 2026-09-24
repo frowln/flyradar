@@ -1,0 +1,326 @@
+{
+  "Q7296": {
+    "t": "Africa's rooftop, a snowy island above the plains",
+    "s": "Kilimanjaro belongs to no range: it rises alone, a broad dark volcano swelling out of the savanna. Its summit, Uhuru Peak on the Kibo cone, is 5,895 m high — the top of Africa, yet still about five kilometres below you. Look for the white rim of ice on Kibo, shrinking year by year but still there, just three degrees south of the equator.",
+    "w": "A vast lone dome with a flat, white-streaked top and the jagged Mawenzi peak on its east flank, near the Kenya border.",
+    "f": [
+      "Kilimanjaro is built from three volcanic cones: Kibo, Mawenzi and Shira.",
+      "It is the highest free-standing mountain in the world, rising about 4,900 m above the plains at its base.",
+      "Its ice fields have shrunk by more than 80% since the early 20th century."
+    ],
+    "q": {
+      "q": "Which of Kilimanjaro's three volcanic cones holds its summit?",
+      "a": "Kibo",
+      "x": [
+        "Mawenzi",
+        "Shira"
+      ]
+    }
+  },
+  "Q39231": {
+    "t": "Japan's lone volcano, white-capped and nearly symmetrical",
+    "s": "On a clear day Fuji is unmistakable: one broad, even cone standing by itself west of Tokyo, its upper slopes white from autumn to spring. It last erupted in 1707. The summit, 3,776 m, sits roughly seven kilometres below you, and in summer the snow shrinks to thin streaks in the gullies, leaving a dark, ash-coloured mountain.",
+    "w": "A lone snow-topped cone about 100 km south-west of Tokyo, with small lakes strung along its northern foot.",
+    "f": [
+      "The five lakes around Fuji's northern foot formed where old lava flows dammed the valleys.",
+      "The 1707 eruption blew out a side crater on the south-east flank that breaks the cone's symmetry.",
+      "Fuji became a UNESCO World Heritage site in 2013 — as a cultural site, not a natural one."
+    ],
+    "q": {
+      "q": "How many lakes make up the famous group at Fuji's northern foot?",
+      "a": "Five",
+      "x": [
+        "Three",
+        "Seven"
+      ]
+    }
+  },
+  "Q513": {
+    "t": "The world's highest point, only about 2 km below you",
+    "s": "Everest rarely looks tallest from the air: it hides among giant neighbours, a dark pyramid often trailing a plume of snow blown east by the jet stream. Its summit, 8,848 m, is only about two kilometres below cruising height. The rock at the very top is limestone that formed on an ancient sea floor and was lifted as India pushed into Asia.",
+    "w": "A dark three-sided pyramid, often with a snow plume, rising above the glaciers on the Nepal–Tibet border.",
+    "f": [
+      "Tibetans call it Chomolungma; in Nepal it is Sagarmatha.",
+      "Tenzing Norgay and Edmund Hillary first reached the summit on 29 May 1953.",
+      "The English name, adopted in 1865, honours George Everest, a British surveyor-general of India."
+    ],
+    "q": {
+      "q": "Who reached the summit of Everest with Tenzing Norgay in 1953?",
+      "a": "Edmund Hillary",
+      "x": [
+        "George Mallory",
+        "Reinhold Messner"
+      ]
+    }
+  },
+  "Q43512": {
+    "t": "Earth's second summit, a pyramid of the Karakoram",
+    "s": "The name K2 is just a surveyor's label — peak 2 on a Karakoram list drawn up in 1856, when no widely used local name was found. It is the second-highest mountain on Earth, 8,611 m, a steep, almost perfect pyramid ringed by rivers of ice. Look for a sharp summit at the head of a long glacier, far from any road or town.",
+    "w": "A lone sharp pyramid at the head of broad glacier tongues, on the border crest of the Karakoram.",
+    "f": [
+      "The Italians Lino Lacedelli and Achille Compagnoni made the first ascent in 1954.",
+      "The first winter ascent came only in January 2021, by a team of Nepali climbers.",
+      "Its pyramid rises more than 3,000 m above the glaciers at its foot."
+    ],
+    "q": {
+      "q": "What does the 'K' in K2 stand for?",
+      "a": "Karakoram",
+      "x": [
+        "Kashmir",
+        "Kunlun"
+      ]
+    }
+  },
+  "Q1374": {
+    "t": "The Alps' sharpest tooth, facing all four compass points",
+    "s": "Even from cruise height the Matterhorn looks carved: a hooked pyramid whose four faces point almost exactly north, south, east and west. It stands on the Swiss–Italian border above Zermatt, 4,478 m high and roughly six and a half kilometres below you. On a sunny morning its east face is lit while the north face stays in shadow, so the peak looks sliced in two.",
+    "w": "A lone, hooked rock pyramid among glaciers, west of the big Monte Rosa massif on the Swiss–Italian border.",
+    "f": [
+      "Edward Whymper's party made the first ascent on 14 July 1865.",
+      "Italians call it Monte Cervino; in French it is Mont Cervin.",
+      "A summit ridge about 100 m long links two tops, a Swiss one and an Italian one."
+    ],
+    "q": {
+      "q": "From which Swiss village is the Matterhorn most often climbed?",
+      "a": "Zermatt",
+      "x": [
+        "Grindelwald",
+        "Saas-Fee"
+      ]
+    }
+  },
+  "ne-pk-1159105947": {
+    "t": "The volcano that buried Pompeii, still watching Naples",
+    "s": "Look for a cone inside a broken ring: Vesuvius grew within the collapsed crater of an older volcano, Monte Somma, whose ridge wraps around its north side. Naples spreads right up to its lower slopes, a dense grey carpet along the bay. On a clear day the summit crater, 1,281 m high, shows as a dark hole. Vesuvius has been quiet since 1944, but it is watched around the clock.",
+    "w": "A dark two-humped volcano on the Bay of Naples, with the city spread along the shore to its north-west.",
+    "f": [
+      "In AD 79 its ash buried Pompeii and Herculaneum, preserving the Roman towns for archaeologists.",
+      "It is the only volcano on mainland Europe to have erupted in the last hundred years.",
+      "Its observatory, founded in 1841, is the oldest volcano observatory in the world."
+    ],
+    "q": {
+      "q": "Which Roman town, buried in AD 79, lies at the foot of Vesuvius?",
+      "a": "Pompeii",
+      "x": [
+        "Ostia",
+        "Paestum"
+      ]
+    }
+  },
+  "Q583": {
+    "t": "Western Europe's highest dome, white all year",
+    "s": "Mont Blanc is less a spike than a huge white shoulder: a broad dome of ice on a massif shared by France, Italy and Switzerland. At about 4,807 m it is the highest point of the Alps, yet still more than six kilometres below you. On its north side long glaciers pour down toward the valley of Chamonix; on the Italian side the walls drop steeply to Courmayeur.",
+    "w": "A broad, rounded white dome above deep valleys, with long glacier tongues reaching toward Chamonix on its north-west side.",
+    "f": [
+      "Jacques Balmat and Michel-Gabriel Paccard first reached the summit in 1786.",
+      "The summit is a cap of ice, and its height shifts by a metre or two from year to year.",
+      "The Mont Blanc road tunnel, 11.6 km long, runs beneath the massif between France and Italy."
+    ],
+    "q": {
+      "q": "In which year was Mont Blanc first climbed?",
+      "a": "1786",
+      "x": [
+        "1865",
+        "1741"
+      ]
+    }
+  },
+  "ne-pk-1159107423": {
+    "t": "Europe's restless giant, often trailing a plume",
+    "s": "Etna is the dark giant of eastern Sicily, a broad volcano whose summit, about 3,300 m high, often smokes. Its lower slopes are green with orchards and vineyards, the upper ones black with fresh lava, and in winter snow lies over both. Look for a thin plume drifting downwind: Etna erupts so often that its height changes every few years.",
+    "w": "A vast dark cone above Sicily's east coast, north of Catania, often with a steam plume and snow on top.",
+    "f": [
+      "Etna covers about 1,200 km², and its base is roughly 140 km around.",
+      "It is the highest active volcano in Europe outside the Caucasus.",
+      "Etna became a UNESCO World Heritage site in 2013."
+    ],
+    "q": {
+      "q": "Which city lies at the southern foot of Etna?",
+      "a": "Catania",
+      "x": [
+        "Palermo",
+        "Messina"
+      ]
+    }
+  },
+  "ne-gl-antarctic-ice-sheet": {
+    "t": "Most of the world's ice, on one frozen continent",
+    "s": "If your route crosses Antarctica, the whiteness below is not snow on land but ice kilometres thick. The Antarctic Ice Sheet covers about 14 million km² and holds roughly 90% of all the ice on Earth. Its surface is so smooth and bright that the horizon can vanish; only nunataks — rocky peaks poking through the ice — break the white.",
+    "w": "An endless white surface with faint wind ripples; dark rock shows only near the coast and along mountain ranges.",
+    "f": [
+      "If it all melted, global sea level would rise by about 58 metres.",
+      "The ice is about two kilometres thick on average.",
+      "Its weight has pressed the bedrock beneath it down by hundreds of metres."
+    ],
+    "q": {
+      "q": "Roughly what share of Earth's ice lies in the Antarctic Ice Sheet?",
+      "a": "About 90%",
+      "x": [
+        "About 50%",
+        "About 70%"
+      ]
+    }
+  },
+  "ne-gl-greenland-ice-sheet": {
+    "t": "A 3-kilometre-thick lid on the world's largest island",
+    "s": "Crossing the North Atlantic, many flights pass over this white desert. The ice sheet covers about 80% of Greenland, some 1.7 million km², and rises into a dome more than 3,000 m high. Near the coast it breaks into crevassed outlet glaciers that snake down to fjords full of icebergs; in summer, bright blue meltwater lakes dot its western edge.",
+    "w": "Flat white expanse inland; at the edges, dark mountains, glacier tongues and fjords speckled with icebergs.",
+    "f": [
+      "If the whole ice sheet melted, sea level would rise by roughly 7 metres.",
+      "Its weight has pushed the bedrock in the centre of Greenland below sea level.",
+      "Ice cores drilled through it hold a climate record reaching back more than 100,000 years."
+    ],
+    "q": {
+      "q": "How much would sea level rise if Greenland's ice sheet melted?",
+      "a": "About 7 metres",
+      "x": [
+        "About 1 metre",
+        "About 60 metres"
+      ]
+    }
+  },
+  "Q1001294": {
+    "t": "The coldest high desert on the planet",
+    "s": "Around the South Pole the ice rises into a vast, gently sloping plateau, mostly around 3,000 m high and as flat as a frozen sea. It is a true desert: each year the snowfall adds up to only a few centimetres of water. Vostok Station, on this plateau, recorded −89.2 °C in 1983 — the lowest air temperature ever measured at the Earth's surface.",
+    "w": "A featureless white plain to the horizon, scored only by long wind-carved snow ridges called sastrugi.",
+    "f": [
+      "The South Pole itself lies on the plateau, about 2,835 m above sea level.",
+      "Antarctica's fierce coastal winds start here, as heavy cold air slides off the plateau toward the sea.",
+      "Its cold, dry, still air makes it one of the best places on Earth for telescopes."
+    ],
+    "q": {
+      "q": "What temperature did Vostok Station record in 1983?",
+      "a": "−89.2 °C",
+      "x": [
+        "−71.2 °C",
+        "−79.8 °C"
+      ]
+    }
+  },
+  "Q165440": {
+    "t": "The white mountain that once topped the world's list",
+    "s": "Dhaulagiri means 'white mountain' in Sanskrit, and from the air it earns the name: a massive snowy wall rising straight out of central Nepal. Its main summit, about 8,170 m, is the seventh-highest on Earth. Just east of it the Kali Gandaki river cuts through the Himalaya between Dhaulagiri and Annapurna, carving one of the deepest valleys on the planet.",
+    "w": "A huge snowy massif west of the deep Kali Gandaki gorge, with Annapurna's white ridges on the other side.",
+    "f": [
+      "After surveys in 1808 it was believed for some 30 years to be the highest mountain in the world.",
+      "A Swiss-Austrian expedition made the first ascent in 1960.",
+      "The Kali Gandaki gorge beside it was for centuries a trade route between Tibet and India."
+    ],
+    "q": {
+      "q": "Which river gorge separates Dhaulagiri from Annapurna?",
+      "a": "Kali Gandaki",
+      "x": [
+        "Arun",
+        "Trisuli"
+      ]
+    }
+  },
+  "Q130736": {
+    "t": "The 'naked mountain' at the western end of the Himalaya",
+    "s": "Nanga Parbat stands apart: the westernmost 8,000-metre peak of the Himalaya, with the Indus curving around its foot. Its name means 'naked mountain', perhaps for walls too steep to hold snow. The Rupal Face on its south side rises about 4,600 m from valley to summit, one of the tallest mountain walls on Earth. The top, 8,125 m, is less than three kilometres below you.",
+    "w": "An isolated giant massif south of a bend in the Indus, with a sheer southern wall and glaciers spilling north.",
+    "f": [
+      "Hermann Buhl made the first ascent in 1953, reaching the summit alone.",
+      "It is the ninth-highest mountain on Earth.",
+      "The Indus flows past its northern flank at around 1,100 m — seven kilometres below the summit."
+    ],
+    "q": {
+      "q": "What does the name Nanga Parbat mean?",
+      "a": "Naked mountain",
+      "x": [
+        "White mountain",
+        "Mother of snows"
+      ]
+    }
+  },
+  "Q82019": {
+    "t": "Five treasures of snow above Sikkim and Nepal",
+    "s": "Kangchenjunga is not one summit but a crowded crown of them, five main tops on a single massif. At 8,586 m it is the third-highest mountain on Earth, and until the 1850s it was thought to be the highest. Look for a broad white wall towering over the green hills of Darjeeling and Sikkim; at sunrise its snow turns pink long before the valleys wake.",
+    "w": "A massive white massif rising above green foothills, north of Darjeeling on the Nepal–India border.",
+    "f": [
+      "Its name is usually translated from Tibetan as 'Five Treasures of the Snow'.",
+      "The first climbers, in 1955, stopped just short of the top out of respect for local beliefs.",
+      "From the hill town of Darjeeling, about 75 km away, it fills the northern horizon."
+    ],
+    "q": {
+      "q": "Where does Kangchenjunga rank among the world's highest mountains?",
+      "a": "Third",
+      "x": [
+        "Second",
+        "Fifth"
+      ]
+    }
+  },
+  "Q604846": {
+    "t": "A red tableland of some of Earth's oldest rock",
+    "s": "For hours on a flight across Australia the ground barely changes: rust-red sand, pale salt lakes and dark scrub, a few hundred metres above sea level. This is the Western Plateau, spread over most of the western two-thirds of the continent. Its bedrock is among the oldest on Earth, and the deserts on top — the Gibson, the Great Sandy, the Great Victoria — are combed with long dune lines.",
+    "w": "Endless red and ochre ground streaked with parallel dunes and dotted with white salt lakes that shine like mirrors.",
+    "f": [
+      "Zircon crystals from the Jack Hills in Western Australia are about 4.4 billion years old, the oldest known pieces of Earth.",
+      "Its dunes often run in parallel lines for tens of kilometres, aligned with the prevailing winds.",
+      "Salt lakes such as Lake Carnegie hold water only after rare heavy rains."
+    ],
+    "q": {
+      "q": "What record do zircons from Western Australia's Jack Hills hold?",
+      "a": "Oldest known Earth minerals",
+      "x": [
+        "Largest gold nuggets",
+        "Most radioactive rocks"
+      ]
+    }
+  },
+  "Q179842": {
+    "t": "The roof of the world, averaging over 4,500 m",
+    "s": "Below you lies the highest large plateau on Earth, averaging more than 4,500 m and covering about 2.5 million km². From cruise it looks like another planet: brown and ochre plains, turquoise lakes with salt-white shores, snowy ranges ruled across it. Asia's great rivers — the Yangtze, Yellow, Mekong, Indus and Brahmaputra among them — begin up here.",
+    "w": "Bare brown highland with scattered turquoise lakes and white ridges; the Himalaya forms its sharp southern rim.",
+    "f": [
+      "It holds so much glacier ice that it is often called the Third Pole.",
+      "Lhasa, in the south of the plateau, lies at about 3,650 m.",
+      "The plateau is still rising as India keeps pushing north into Asia."
+    ],
+    "q": {
+      "q": "Which nickname does the Tibetan Plateau get for its glaciers?",
+      "a": "The Third Pole",
+      "x": [
+        "The White Continent",
+        "The Frozen Crown"
+      ]
+    }
+  },
+  "ne-gl-flade-isblink": {
+    "t": "Greenland's biggest ice cap that stands on its own",
+    "s": "Near Greenland's north-eastern tip a separate dome of ice sits apart from the main ice sheet: Flade Isblink, some 8,000 km² of white. Its Danish name means roughly 'flat iceblink' — the glow that ice casts on low clouds. The ice is up to about 600 m thick, and parts of its edge surge forward from time to time, pushing ice out to sea.",
+    "w": "A smooth, low white dome on a peninsula of north-east Greenland, cut off from the main ice sheet by bare land.",
+    "f": [
+      "It is the largest ice cap in Greenland that is not joined to the main ice sheet.",
+      "Station Nord, the only inhabited place in the area, lies just to its north-west.",
+      "The whole area is part of Northeast Greenland National Park, the largest national park in the world."
+    ],
+    "q": {
+      "q": "What does the word 'iceblink' describe?",
+      "a": "The glow of ice on clouds",
+      "x": [
+        "A crack in sea ice",
+        "A glacier's calving wall"
+      ]
+    }
+  },
+  "Q163758": {
+    "t": "The highest point of the frozen continent",
+    "s": "Vinson is the summit of Antarctica, 4,892 m, a long snowy massif in the Sentinel Range of the Ellsworth Mountains, some 1,300 km from the South Pole. US Navy aircraft spotted it in 1958, and climbers first reached the top in 1966. From above the range looks like a spine of dark rock and ice breaking out of the ice sheet, with glaciers flowing away on both sides.",
+    "w": "A long, dark rock-and-ice ridge rising sharply above the flat ice sheet in the Ellsworth Mountains.",
+    "f": [
+      "It is named after Carl Vinson, a US congressman who backed Antarctic exploration.",
+      "An American expedition made the first ascent in December 1966.",
+      "Climbers fly in to a blue-ice runway at Union Glacier to start their approach."
+    ],
+    "q": {
+      "q": "In which mountains does Vinson Massif rise?",
+      "a": "Ellsworth Mountains",
+      "x": [
+        "Transantarctic Mountains",
+        "Prince Charles Mountains"
+      ]
+    }
+  }
+}

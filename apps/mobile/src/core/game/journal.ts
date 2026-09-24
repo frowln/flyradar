@@ -37,6 +37,13 @@ export function saveRecord(record: FlightRecord): void {
   persist([...others, record].sort((a, b) => a.takeoffAt.localeCompare(b.takeoffAt)));
 }
 
+/** The after-landing quiz score, kept once: answering again does not add XP. */
+export function noteQuiz(flightId: string, correct: number, total: number): void {
+  const r = getRecords().find((x) => x.flightId === flightId);
+  if (!r || r.quiz) return;
+  saveRecord({ ...r, quiz: { correct, total } });
+}
+
 export function hasRecord(flightId: string): boolean {
   return getRecords().some((r) => r.flightId === flightId);
 }

@@ -292,6 +292,9 @@ export const en = {
     stop: 'Stop',
     source: 'Source',
     sourceWikipedia: 'Text: Wikipedia, CC BY-SA 4.0',
+    lookTitle: 'what to look for from the window',
+    readMore: 'Read more on Wikipedia',
+    photo: '%{name}, photo %{n} of %{total}',
     locked: 'This card is part of Pro. You can unlock it on the ground.',
     unlock: 'unlock with Pro',
   },
@@ -328,6 +331,11 @@ export const en = {
     highestPeak: 'Which was the highest peak on the route?',
     countryCount: 'How many countries were below you?',
     whichFirst: 'Which came first: %{a} or %{b}?',
+    longestExplain: '%{country}: %{time} of the flight.',
+    peakExplain: '%{place}: %{h}.',
+    countryExplain: 'Below the wing: %{list}.',
+    firstExplain: '%{a} came %{ta} after takeoff, %{b} at %{tb}.',
+    score: '%{n} of %{total} right',
   },
   postcard: {
     stats: {

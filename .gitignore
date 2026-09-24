@@ -12,3 +12,6 @@ apps/backend/data/
 
 # agent tooling state
 .omc/
+
+# content generator runs (batch ids)
+tools/content-gen/state/

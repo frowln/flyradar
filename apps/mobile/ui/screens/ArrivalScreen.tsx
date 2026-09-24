@@ -18,11 +18,13 @@ import { positionNow } from '../../src/core/flight/position';
 import { removeFlight } from '../../src/core/flight/library';
 import { distinctCountries } from '../../src/core/places/countries';
 import { lineCrossings } from '../../src/core/geo/lines';
-import { placeName, countryName } from '../../src/core/places/names';
+import { placeName, placeText, countryName } from '../../src/core/places/names';
 import { cityName } from '../../src/core/data/airports';
-import { flightQuiz, type QuizQuestion } from '../../src/core/game/quiz';
+import { flightQuiz, type QuizNote, type QuizQuestion } from '../../src/core/game/quiz';
+import { noteQuiz } from '../../src/core/game/journal';
+import { XP } from '../../src/core/game/xp';
 import { levelFromXP, rankFor } from '../../src/core/game/xp';
-import { km } from '../../src/core/units';
+import { km, metres } from '../../src/core/units';
 import { routeLengthKm } from '../../src/core/geo/greatCircle';
 import { shareView } from '../../src/core/ux/share';
 import { haptics } from '../../src/core/ux/haptics';
@@ -34,12 +36,16 @@ import type { RootStackParamList } from '../../src/navigation/types';
 type Nav = NativeStackNavigationProp<RootStackParamList, 'FlightSummary'>;
 type R = RouteProp<RootStackParamList, 'FlightSummary'>;
 
-function QuizCard({ q }: { q: QuizQuestion }) {
+function noteText(n: QuizNote): string {
+  return 'text' in n ? n.text : t(n.key, n.params);
+}
+
+function QuizCard({ q, onAnswer }: { q: QuizQuestion; onAnswer: (correct: boolean) => void }) {
   const [picked, setPicked] = useState<number | null>(null);
   return (
     <View style={styles.quiz}>
       <Gutter>
-        <BodyLead text={t(q.prompt, q.params)} />
+        <BodyLead text={q.text ?? t(q.prompt, q.params)} />
       </Gutter>
       <Space h={s.x3} />
       {q.options.map((o, i) => {
@@ -51,6 +57,7 @@ function QuizCard({ q }: { q: QuizQuestion }) {
             disabled={revealed}
             onPress={() => {
               setPicked(i);
+              onAnswer(right);
               if (right) haptics.success();
               else haptics.error();
               // The answer is shown by colour and a tick; say it too.
@@ -77,6 +84,11 @@ function QuizCard({ q }: { q: QuizQuestion }) {
           </Pressable>
         );
       })}
+      {picked !== null && q.explain ? (
+        <Gutter style={styles.explain}>
+          <Small tone="muted">{noteText(q.explain)}</Small>
+        </Gutter>
+      ) : null}
     </View>
   );
 }
@@ -176,14 +188,32 @@ export default function ArrivalScreen() {
   const quiz = useMemo(
     () =>
       pkg
-        ? flightQuiz(pkg, {
-            place: (p: POI) => placeName(p, locale),
-            country: (cc) => countryName(cc, locale),
-            side: (sd) => t(`side.${sd}`)
-          })
+        ? flightQuiz(
+            pkg,
+            {
+              place: (p: POI) => placeName(p, locale),
+              country: (cc) => countryName(cc, locale),
+              side: (sd) => t(`side.${sd}`),
+              text: (p: POI) => placeText(p, locale),
+              duration: (sec) => spokenDuration(sec),
+              height: (m) => {
+                const h = metres(m);
+                return `${h.value} ${t(`unit.${h.unit}`)}`;
+              }
+            },
+            6,
+            [...useSession.getState().spotted, ...useSession.getState().opened]
+          )
         : [],
     [pkg, locale]
   );
+  const [answers, setAnswers] = useState<Record<string, boolean>>({});
+  const right = Object.values(answers).filter(Boolean).length;
+  const allAnswered = quiz.length > 0 && Object.keys(answers).length === quiz.length;
+  useEffect(() => {
+    // Kept once the last question is answered: that is when the score is known.
+    if (allAnswered && pkg && !pkg.demo) noteQuiz(pkg.flight.id, right, quiz.length);
+  }, [allAnswered, pkg, right, quiz.length]);
 
   if (missing) {
     return (
@@ -358,8 +388,16 @@ export default function ArrivalScreen() {
                 <Label tone="dim" accessibilityRole="header">{t('arrival.quiz')}</Label>
               </Gutter>
               {quiz.map((q) => (
-                <QuizCard key={q.id} q={q} />
+                <QuizCard key={q.id} q={q} onAnswer={(ok) => setAnswers((a) => (q.id in a ? a : { ...a, [q.id]: ok }))} />
               ))}
+              {allAnswered ? (
+                <Gutter style={styles.explain} accessible accessibilityLiveRegion="polite">
+                  <Label tone="accent">
+                    {t('quiz.score', { n: right, total: quiz.length })}
+                    {pkg && !pkg.demo && right > 0 ? `  ·  +${right * XP.quiz} XP` : ''}
+                  </Label>
+                </Gutter>
+              ) : null}
             </>
           ) : null}
 
@@ -398,6 +436,7 @@ export default function ArrivalScreen() {
 }
 
 const styles = StyleSheet.create({
+  explain: { paddingTop: s.x3, paddingBottom: s.x2 },
   flex: { flex: 1 },
   center: { justifyContent: 'center' },
   spread: { justifyContent: 'space-between' },

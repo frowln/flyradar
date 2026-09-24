@@ -292,6 +292,9 @@ export const es = {
     stop: 'Detener',
     source: 'Fuente',
     sourceWikipedia: 'Texto: Wikipedia, CC BY-SA 4.0',
+    lookTitle: 'qué buscar por la ventanilla',
+    readMore: 'Más en Wikipedia',
+    photo: '%{name}, foto %{n} de %{total}',
     locked: 'Esta ficha forma parte de Pro. Puedes desbloquearla en tierra.',
     unlock: 'desbloquear con Pro',
   },
@@ -328,6 +331,11 @@ export const es = {
     highestPeak: '¿Cuál fue la cumbre más alta de la ruta?',
     countryCount: '¿Cuántos países sobrevolaste?',
     whichFirst: '¿Qué pasaste antes: %{a} o %{b}?',
+    longestExplain: '%{country}: %{time} de vuelo.',
+    peakExplain: '%{place}: %{h}.',
+    countryExplain: 'Bajo el ala: %{list}.',
+    firstExplain: '%{a} pasó %{ta} después del despegue; %{b}, %{tb} después.',
+    score: '%{n} de %{total} correctas',
   },
   postcard: {
     stats: {

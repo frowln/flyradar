@@ -74,7 +74,7 @@ function SideColumn({
           // One element, read name first: "Tuapse, city, left, abeam 42 km".
           const spoken = [
             placeName(v.poi, locale),
-            t(`category.${v.poi.category}`),
+            placeText(v.poi, locale).tagline ?? t(`category.${v.poi.category}`),
             t(`side.${side}`),
             `${t(`where.${v.where}`)} ${d.value} ${t(`unit.${d.unit}`)}`,
             got ? t('place.seen') : null
@@ -88,7 +88,8 @@ function SideColumn({
               </Label>
               <Space h={s.x1} />
               <Body numberOfLines={2}>{placeName(v.poi, locale)}</Body>
-              <Small numberOfLines={1}>{t(`category.${v.poi.category}`)}</Small>
+              {/* The written hook when there is one; the plain kind otherwise. */}
+              <Small numberOfLines={2}>{placeText(v.poi, locale).tagline ?? t(`category.${v.poi.category}`)}</Small>
             </PressSurface>
           );
         })
@@ -429,6 +430,7 @@ export default function AloftScreen() {
                 <View style={styles.flex}>
                   <Label tone="dim">{t('side.below')}</Label>
                   <Title numberOfLines={1}>{placeName(v.poi, locale)}</Title>
+                  {placeText(v.poi, locale).tagline ? <Small numberOfLines={1}>{placeText(v.poi, locale).tagline}</Small> : null}
                 </View>
                 <Data tone="dim" allowFontScaling={false}>
                   ›

@@ -46,5 +46,9 @@ jobs:
       # Store texts have hard length limits and must not promise what the app
       # does not do (App Store review rejects both).
       - run: cd apps/mobile && node store-metadata/check.mjs
+      # Place and history texts: limits, format, and the built assets must be
+      # up to date with content/ (a text edited but not built never ships).
+      - run: cd apps/mobile && npm run check:content
+      - run: cd apps/mobile && npm run build:content && git diff --exit-code -- assets/data
       - run: cd apps/mobile && npx tsc --noEmit
       - run: cd apps/mobile && npx vitest run

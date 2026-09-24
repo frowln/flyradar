@@ -1,0 +1,646 @@
+{
+  "Q65": {
+    "t": "A city poured into a basin between peaks and the Pacific",
+    "s": "Los Angeles doesn't so much end as run out of room: its sprawl fills a broad basin from the Pacific shore to the foot of the San Gabriel Mountains, then spills into the valleys beyond. In winter those peaks can wear snow above a city of palm trees. It all began in 1781 as a small Spanish farming pueblo.",
+    "w": "A vast grey-beige sprawl between mountains and Santa Monica Bay; the long harbour breakwaters of Long Beach to the south.",
+    "f": [
+      "The Los Angeles River runs mostly in a concrete channel, lined from the 1930s onward to tame its floods.",
+      "The neighbouring ports of Los Angeles and Long Beach together form the busiest container port complex in the US.",
+      "The highest of the San Gabriels, Mount San Antonio (about 3,070 m), is known locally as Mount Baldy."
+    ],
+    "q": {
+      "q": "Which mountain range walls in Los Angeles to the north?",
+      "a": "The San Gabriel Mountains",
+      "x": [
+        "The Sierra Nevada",
+        "The Cascade Range"
+      ]
+    }
+  },
+  "Q61": {
+    "t": "A capital drawn on paper first, then built on the Potomac",
+    "s": "Washington was planned before it existed: in 1791 Pierre L'Enfant laid broad diagonal avenues over a street grid on farmland beside the Potomac. The district began as a square ten miles a side, set on its corner like a diamond. Virginia took back its share in 1846, so today the river bites off the south-west corner.",
+    "w": "Where the Anacostia meets the broad Potomac; a low city without a skyscraper cluster, Reagan National airport right on the riverbank.",
+    "f": [
+      "Forty stone markers were set along the original diamond-shaped boundary in 1791–92; many still stand.",
+      "Congress first met in Washington in 1800.",
+      "A law of 1910 caps building heights, which is why the city looks so strikingly low."
+    ],
+    "q": {
+      "q": "Which river forms Washington's south-western edge?",
+      "a": "The Potomac",
+      "x": [
+        "The Delaware",
+        "The Hudson"
+      ]
+    }
+  },
+  "Q60": {
+    "t": "Look for the green rectangle in the middle of the island",
+    "s": "Find Manhattan — a long, thin island between the Hudson and the East River — and in its middle a neat green rectangle: Central Park, about four kilometres long. Around it the street grid laid out in 1811 runs block after block up the island. The Dutch called this port New Amsterdam until the English took it in 1664 and renamed it after the Duke of York.",
+    "w": "A narrow island pointing south into a wide harbour, a green rectangle at its heart, long bridges fanning out to the east.",
+    "f": [
+      "Central Park measures about 4 km by 0.8 km — big enough to pick out from cruise on a clear day.",
+      "The Verrazzano-Narrows Bridge at the harbour mouth had the world's longest suspension span when it opened in 1964.",
+      "Manhattan's street grid was fixed by a plan of 1811, long before most of the island was built up."
+    ],
+    "q": {
+      "q": "What was New York called before 1664?",
+      "a": "New Amsterdam",
+      "x": [
+        "New Rotterdam",
+        "Fort Orange"
+      ]
+    }
+  },
+  "Q1489": {
+    "t": "A megacity on a lake that isn't there any more",
+    "s": "The grey-brown sea of roofs below fills an old lake bed 2,240 m above sea level. The Aztecs founded Tenochtitlan on an island in Lake Texcoco around 1325; the Spanish later drained most of the water. The clay beneath is still settling, and parts of the city sink every year. On a clear day, look south-east for two snow-capped volcanoes.",
+    "w": "A vast city filling a flat high valley ringed by mountains; Popocatépetl and Iztaccíhuatl rise to the south-east.",
+    "f": [
+      "Popocatépetl, about 5,400 m high, is an active volcano and often trails a plume of steam.",
+      "In places the city sinks by more than 20 cm a year as the old lake clay dries out.",
+      "Iztaccíhuatl means 'white woman' in Nahuatl, and its long ridge is said to look like a sleeping figure."
+    ],
+    "q": {
+      "q": "What did Mexico City's centre stand on in Aztec times?",
+      "a": "An island in a lake",
+      "x": [
+        "A volcanic crater",
+        "A river delta"
+      ]
+    }
+  },
+  "Q2841": {
+    "t": "A capital at 2,640 m, pressed against a green mountain wall",
+    "s": "Bogotá lies on a high, flat savanna in the Andes, about 2,640 m up, with a steep ridge of hills along its eastern edge. The city fills the plain westward from that wall. Look around it for glinting white patches: greenhouses of the flower farms that make Colombia one of the world's great exporters of cut flowers.",
+    "w": "A large city on a flat green plateau, hard against a dark ridge to the east; white greenhouse roofs scattered across the fields.",
+    "f": [
+      "The Spanish conquistador Gonzalo Jiménez de Quesada founded the city in 1538.",
+      "The legend of El Dorado grew from a Muisca ritual at Lake Guatavita, about 50 km north-east of the city.",
+      "Monserrate, the hill above the old town, rises to about 3,150 m."
+    ],
+    "q": {
+      "q": "At which lake did the El Dorado legend begin?",
+      "a": "Lake Guatavita",
+      "x": [
+        "Lake Titicaca",
+        "Lake Tota"
+      ]
+    }
+  },
+  "Q2887": {
+    "t": "A city in a bowl, with the Andes rising straight behind",
+    "s": "Santiago fills a broad valley between the low Coastal Range and the Andes, which climb to snowy peaks over 5,000 m just east of the suburbs. In winter a haze often pools in the bowl while the summits shine above it. Pedro de Valdivia founded the city in 1541 beside a rocky hill on the Mapocho River.",
+    "w": "A large city on a flat valley floor at the foot of the Andes' snowy wall; the thin line of the Mapocho River across it.",
+    "f": [
+      "Aconcagua, at 6,961 m the highest peak outside Asia, stands about 100 km north-east of the city.",
+      "Cerro Santa Lucía, the hill where the city was founded, is now a park in the very centre.",
+      "The border with Argentina follows the crest of the Andes less than 100 km from the city."
+    ],
+    "q": {
+      "q": "Who founded Santiago in 1541?",
+      "a": "Pedro de Valdivia",
+      "x": [
+        "Francisco Pizarro",
+        "Diego de Almagro"
+      ]
+    }
+  },
+  "Q8678": {
+    "t": "Green granite domes rising straight out of the sea",
+    "s": "Few cities are so tangled up with rock: steep, forested granite domes rise between the neighbourhoods and straight out of Guanabara Bay. Portuguese sailors arrived in January 1502 and took the bay for a river mouth — hence 'River of January'. From 1808 to 1821 the Portuguese court lived here, a European monarchy ruling its empire from the Americas.",
+    "w": "A wide bay with a narrow mouth, green domes of rock among the buildings, and long pale beaches facing the open Atlantic.",
+    "f": [
+      "The Rio–Niterói Bridge crosses Guanabara Bay for about 13 km; from cruise it's a fine line over the water.",
+      "Much of the Tijuca Forest above the city was replanted by hand from the 1860s on old coffee land.",
+      "Sugarloaf Mountain rises about 396 m straight from the water at the mouth of the bay."
+    ],
+    "q": {
+      "q": "Which bay does the Rio–Niterói Bridge cross?",
+      "a": "Guanabara Bay",
+      "x": [
+        "All Saints Bay",
+        "Paranaguá Bay"
+      ]
+    }
+  },
+  "Q174": {
+    "t": "The Southern Hemisphere's biggest city, up on a plateau",
+    "s": "From the window São Paulo looks endless: grey and white rooftops to the horizon, stitched together by rivers in straight concrete channels. It sits on a plateau about 760 m up, only some 70 km from the Atlantic, behind the steep forested wall of the Serra do Mar. Jesuit missionaries founded it as a small mission in 1554.",
+    "w": "A boundless grey city; large dark reservoirs on its southern edge, the green escarpment and the coast beyond to the south-east.",
+    "f": [
+      "The Tietê River rises near the coast yet flows inland, over 1,000 km, to join the Paraná.",
+      "The Billings and Guarapiranga reservoirs on the southern edge are easy to spot from cruise.",
+      "The coffee trade of the 1800s turned a modest hill town into Brazil's economic engine."
+    ],
+    "q": {
+      "q": "Which way does the Tietê River flow from São Paulo?",
+      "a": "Inland, towards the Paraná",
+      "x": [
+        "East, to the Atlantic at Santos",
+        "North, to the Amazon"
+      ]
+    }
+  },
+  "Q62": {
+    "t": "A hilly peninsula tip where fog pours through the Gate",
+    "s": "San Francisco fills the tip of a peninsula, with the Pacific on one side and a great bay on the other, joined by the narrow Golden Gate. On summer afternoons you may see fog pouring through that gap like a slow white river. The gold rush of 1849 turned a village of about a thousand people into a boom town within a couple of years.",
+    "w": "A peninsula tip between ocean and bay; thin bridge lines across the water; bright red and green salt ponds far to the south.",
+    "f": [
+      "The salt ponds of the south bay glow red, orange and green, coloured by salt-loving microorganisms.",
+      "The Golden Gate strait was named in 1846, almost a century before the famous bridge was built.",
+      "Mission San Francisco de Asís, the city's Spanish seed, was founded in 1776."
+    ],
+    "q": {
+      "q": "What colours the salt ponds of south San Francisco Bay?",
+      "a": "Salt-loving microorganisms",
+      "x": [
+        "Iron-rich clay",
+        "Copper minerals"
+      ]
+    }
+  },
+  "Q16554": {
+    "t": "Where the Great Plains run into the Rockies",
+    "s": "Denver marks the line where the flat country stops: to the east the plains roll away for a thousand kilometres, to the west the Front Range rises in a wall of peaks over 4,000 m. The city grew from a gold-rush camp of 1858 and sits about a mile above sea level — hence its nickname, the Mile High City.",
+    "w": "A city on flat tan plains at the very foot of the Rockies; its huge airport stands alone far out to the north-east.",
+    "f": [
+      "Denver International is the largest airport in North America by land area, about 135 km².",
+      "The city was named after James W. Denver, governor of Kansas Territory, which then included the site.",
+      "Longs Peak, about 4,350 m high, is the prominent summit on the north-western skyline."
+    ],
+    "q": {
+      "q": "What brought the first settlers to Denver in 1858?",
+      "a": "A gold rush",
+      "x": [
+        "A new railway line",
+        "A silver strike"
+      ]
+    }
+  },
+  "Q16555": {
+    "t": "Bayous, refineries and a ship channel on a flat plain",
+    "s": "Houston spreads across a coastal plain so flat that its slow brown bayous wander in loops through the suburbs. Look south-east for the Ship Channel, a dredged waterway of about 80 km lined with refineries and tanks, running out to Galveston Bay. Founded in 1836, the city was named after Sam Houston, hero of Texan independence.",
+    "w": "Endless flat sprawl ringed by freeway loops; to the south-east, a waterway lined with industry leading to a wide bay.",
+    "f": [
+      "Houston is famous as the largest US city without a formal zoning code.",
+      "NASA's Mission Control for crewed spaceflight is in the city's south-eastern suburbs.",
+      "At night the refineries along the Ship Channel glitter as a long, dense band of light."
+    ],
+    "q": {
+      "q": "Who is Houston named after?",
+      "a": "Sam Houston",
+      "x": [
+        "Stephen F. Austin",
+        "Davy Crockett"
+      ]
+    }
+  },
+  "Q8652": {
+    "t": "A thin city between the Everglades and turquoise water",
+    "s": "Miami is a long, narrow city pinned between two very different edges: the pale green marshes of the Everglades to the west and the turquoise shallows of Biscayne Bay to the east. Beyond the bay runs the thin barrier island of Miami Beach. The city was incorporated only in 1896, just after Henry Flagler's railway arrived.",
+    "w": "A strip of city along the coast; a straight line where streets stop and marsh begins; a bright ribbon of island offshore.",
+    "f": [
+      "Much of Miami lies only a couple of metres above sea level, on porous limestone.",
+      "Miami Beach was largely mangrove swamp before it was cleared and built up in the 1910s and 1920s.",
+      "The chain of small Venetian Islands across Biscayne Bay is largely man-made."
+    ],
+    "q": {
+      "q": "Which wetland lies directly west of Miami?",
+      "a": "The Everglades",
+      "x": [
+        "The Okefenokee Swamp",
+        "The Atchafalaya Basin"
+      ]
+    }
+  },
+  "Q23556": {
+    "t": "Towers in a forest, beside a giant of an airport",
+    "s": "Atlanta looks surprisingly green from above: a thick canopy of trees hides most of its suburbs, with clusters of towers rising out of it. South of downtown, look for the long parallel runways of Hartsfield–Jackson, for many years the world's busiest airport by passengers. The city began in 1837 as the end point of a railway, simply named Terminus.",
+    "w": "Clusters of towers in dense green forest; a huge airport with parallel east–west runways to the south; a pale granite dome to the east.",
+    "f": [
+      "Stone Mountain, a bare granite dome east of the city, rises about 250 m above the surrounding forest.",
+      "The Eastern Continental Divide crosses Atlanta: rain on one side flows to the Atlantic, on the other to the Gulf.",
+      "The name Atlanta was adopted in 1845, after a brief spell as Marthasville."
+    ],
+    "q": {
+      "q": "What was Atlanta called when it began in 1837?",
+      "a": "Terminus",
+      "x": [
+        "Peachtree",
+        "Stone Mountain"
+      ]
+    }
+  },
+  "Q1297": {
+    "t": "A perfect grid ruled against a lake like an inland sea",
+    "s": "Chicago's edge is one long, straight line: Lake Michigan, so wide that from the ground its far shore lies beyond the horizon. Inland the streets run in a strict grid, and at night it glows orange, block by block, far out across the prairie. The city exists because of a short portage here between the Great Lakes and the Mississippi basin.",
+    "w": "A huge city on the south-west shore of Lake Michigan; a ruler-straight lakefront, an even street grid, O'Hare to the north-west.",
+    "f": [
+      "In 1900 engineers reversed the Chicago River, sending it away from the lake towards the Mississippi.",
+      "The name comes from a local Native American word for a wild onion that grew along the river.",
+      "Most of Chicago's lakefront is kept as public parks and beaches rather than private land."
+    ],
+    "q": {
+      "q": "What did engineers do to the Chicago River in 1900?",
+      "a": "Reversed its flow",
+      "x": [
+        "Filled it in",
+        "Dammed it into a lake"
+      ]
+    }
+  },
+  "Q1533": {
+    "t": "A valley city, walled off from the sea by one mountain",
+    "s": "Caracas stretches for some 20 km along a narrow valley about 900 m up, parallel to the Caribbean coast yet hidden from it. Between city and sea rises the green ridge of El Ávila, over 2,700 m at its highest. So the airport sits on the coast at Maiquetía, on the far side of the mountain. The city was founded in 1567.",
+    "w": "A long, narrow city in an east–west valley; a steep green ridge to the north, the blue sea just beyond it.",
+    "f": [
+      "Simón Bolívar, who led much of South America to independence, was born in Caracas in 1783.",
+      "The city's full founding name was Santiago de León de Caracas."
+    ],
+    "q": {
+      "q": "What separates Caracas from the Caribbean Sea?",
+      "a": "The Ávila mountain ridge",
+      "x": [
+        "A wide coastal lagoon",
+        "A desert plain"
+      ]
+    }
+  },
+  "Q2868": {
+    "t": "A capital in the desert, under a lid of grey sea mist",
+    "s": "Lima is one of the driest capitals on Earth: a brown city on bare desert that gets barely a couple of centimetres of rain a year. Yet for months it hides under a low, grey sea fog, the garúa. Look for the cliffs where the city drops to the Pacific. Francisco Pizarro founded it in 1535 as the City of Kings.",
+    "w": "A vast tan city on a desert coast, edged by sea cliffs; bare brown hills inland and the green thread of the Rímac valley.",
+    "f": [
+      "For more than two centuries Lima was the capital of a Spanish viceroyalty covering most of Spanish South America.",
+      "The port of Callao and the international airport lie just west of the centre, on the same coastal plain.",
+      "In winter the garúa can keep the sky grey for weeks while barely wetting the ground."
+    ],
+    "q": {
+      "q": "What did Pizarro name Lima when he founded it in 1535?",
+      "a": "City of Kings",
+      "x": [
+        "City of the Sun",
+        "New Toledo"
+      ]
+    }
+  },
+  "Q81033": {
+    "t": "An industrial city in a ring of jagged grey mountains",
+    "s": "Monterrey sits in a valley of the Sierra Madre Oriental, and the mountains crowd right up to its suburbs. The most famous is Cerro de la Silla, whose twin-humped ridge really does look like a saddle. Founded in 1596, the city became Mexico's industrial powerhouse: in 1900 the first large steelworks in Latin America was founded here.",
+    "w": "A dense city in a valley hemmed by steep, folded grey ridges; a saddle-shaped mountain on its eastern edge.",
+    "f": [
+      "Cerro de la Silla rises to about 1,800 m, well over a kilometre above the city.",
+      "The Santa Catarina River that crosses the city is dry for most of the year.",
+      "The Huasteca Canyon on the western edge cuts deep into folded limestone ridges."
+    ],
+    "q": {
+      "q": "Which saddle-shaped mountain is the symbol of Monterrey?",
+      "a": "Cerro de la Silla",
+      "x": [
+        "Pico de Orizaba",
+        "Nevado de Toluca"
+      ]
+    }
+  },
+  "Q24639": {
+    "t": "A green peninsula city between the inlet and the peaks",
+    "s": "Vancouver is all edges: sea on three sides, and snowy Coast Mountains rising almost straight from the northern shore. Look for the dark green thumb of Stanley Park pointing into Burrard Inlet, and the flat, chequered farmland of the Fraser delta to the south, where the airport sits on an island. The city was incorporated in 1886.",
+    "w": "A city on a peninsula between two waters; a dark green wooded tip, snowy peaks to the north, flat delta to the south.",
+    "f": [
+      "Stanley Park covers about 400 hectares — more than New York's Central Park.",
+      "The inlet was charted in 1792 by Captain George Vancouver, whose name the city took.",
+      "The Canadian Pacific Railway arrived in 1887, making the city Canada's gateway to the Pacific."
+    ],
+    "q": {
+      "q": "Which river's delta lies on Vancouver's southern side?",
+      "a": "The Fraser",
+      "x": [
+        "The Columbia",
+        "The Skeena"
+      ]
+    }
+  },
+  "Q172": {
+    "t": "A lakefront city with islands cupping its harbour",
+    "s": "Toronto runs along the north shore of Lake Ontario, and the easiest way to spot it is a string of low green islands just offshore, curling round the harbour. Until a storm broke through in 1858 they were a sandy peninsula. Inland, look for deep wooded ravines snaking through the street grid. Until 1834 the town was called York.",
+    "w": "A dense city on the north shore of Lake Ontario; a curl of low islands off downtown, green ravines inland.",
+    "f": [
+      "One of the islands carries a small city airport, only a stone's throw from downtown.",
+      "The name is often traced to a Mohawk word for a place where trees stand in the water.",
+      "Toronto's network of wooded ravines is among the most extensive of any city in the world."
+    ],
+    "q": {
+      "q": "What was Toronto called before 1834?",
+      "a": "York",
+      "x": [
+        "Kingston",
+        "Newark"
+      ]
+    }
+  },
+  "Q1486": {
+    "t": "A grid of lights on a brown river as wide as a sea",
+    "s": "Buenos Aires faces the Río de la Plata, an estuary so broad that the Uruguayan shore lies roughly 50 km away, out of sight from the waterfront. The water is a milky coffee-brown, stained by silt from the Paraná and Uruguay rivers. Behind the shore, the city's square blocks march out across the flat pampas without a hill in sight.",
+    "w": "A vast grid city on the south bank of a wide brown estuary; the green maze of the Paraná Delta to the north-west.",
+    "f": [
+      "The city was founded twice: first in 1536, then for good by Juan de Garay in 1580.",
+      "The Río de la Plata is formed where the Paraná and Uruguay rivers meet.",
+      "At night the regular blocks glow like an orange chessboard reaching far inland."
+    ],
+    "q": {
+      "q": "Who refounded Buenos Aires for good in 1580?",
+      "a": "Juan de Garay",
+      "x": [
+        "Pedro de Mendoza",
+        "Juan Díaz de Solís"
+      ]
+    }
+  },
+  "Q36091": {
+    "t": "A city of lakes, split by the young Mississippi",
+    "s": "Minneapolis is dotted with lakes, several of them strung together inside the city like blue beads. Through the middle runs the Mississippi, still a modest river here, dropping over St. Anthony Falls, the only natural major waterfall on its whole course. The falls powered the flour mills that, around 1900, made this the milling capital of the world.",
+    "w": "A flat city freckled with round lakes; the Mississippi winding through its centre and meeting the Minnesota River by the airport.",
+    "f": [
+      "Minnesota has more than 11,000 lakes larger than 4 hectares — its '10,000 lakes' slogan undersells it.",
+      "St. Paul, the twin city and state capital, lies just downstream on the same river.",
+      "The airport sits right beside the confluence of the Mississippi and Minnesota rivers."
+    ],
+    "q": {
+      "q": "Which industry made Minneapolis famous around 1900?",
+      "a": "Flour milling",
+      "x": [
+        "Car making",
+        "Steelmaking"
+      ]
+    }
+  },
+  "Q18094": {
+    "t": "A tropical city between a crater and green fluted ridges",
+    "s": "Honolulu is squeezed along Oʻahu's south shore, between the reef-fringed sea and the steep, fluted green ridges of the Koʻolau Range. At its eastern end rises Diamond Head, a crater so round it looks stamped into the coast. The nearest point of mainland North America is roughly 3,800 km away, which makes this one of the remotest big cities on Earth.",
+    "w": "A strip of city along an island's south coast; a round crater at the east end, a long runway on the water to the west.",
+    "f": [
+      "Diamond Head is a volcanic tuff cone; sailors in the 1800s mistook glittering calcite crystals on its slopes for diamonds.",
+      "One of the airport's main runways, the Reef Runway, was built on landfill over a coral reef.",
+      "The name Honolulu is usually translated from Hawaiian as 'sheltered bay'."
+    ],
+    "q": {
+      "q": "What is Diamond Head in Honolulu?",
+      "a": "An extinct volcanic crater",
+      "x": [
+        "A coral island",
+        "A sea cliff"
+      ]
+    }
+  },
+  "Q5083": {
+    "t": "A city on a narrow neck of land, a giant volcano beyond",
+    "s": "Seattle sits on a slim strip of hilly land between the salt water of Puget Sound and the long, freshwater Lake Washington. On a clear day the view is stolen by Mount Rainier, a glacier-covered volcano of about 4,390 m some 90 km to the south-east. The city is named after Si'ahl, a leader of the local Duwamish and Suquamish peoples.",
+    "w": "A city between a fjord-like sound and a long lake; thin bridges floating across the lake; Rainier's white cone to the south-east.",
+    "f": [
+      "The bridges over Lake Washington float on concrete pontoons; one is the world's longest floating bridge, about 2.3 km.",
+      "The Klondike gold rush of 1897 made Seattle the main outfitting port for prospectors heading north.",
+      "Mount Rainier carries more glacier ice than any other peak in the contiguous United States."
+    ],
+    "q": {
+      "q": "Which volcano looms south-east of Seattle?",
+      "a": "Mount Rainier",
+      "x": [
+        "Mount Hood",
+        "Mount Shasta"
+      ]
+    }
+  },
+  "Q16556": {
+    "t": "A mile-square grid stamped across the Sonoran Desert",
+    "s": "Phoenix is geometry on sand: a vast grid of arterial roads a mile apart, stamped across a desert valley and broken by bare rocky mountains. Watch for canals and green squares of irrigated land. Long before the city, the Hohokam people dug hundreds of kilometres of canals here, and settlers of the 1860s named their new town after the bird that rises from its ashes.",
+    "w": "A huge, pale, regular grid in brown desert, with dark rocky peaks poking through; thin canals and green irrigated patches.",
+    "f": [
+      "The Hohokam canals, dug from about the 600s to the 1400s, formed one of the largest irrigation networks in pre-Columbian North America.",
+      "Summer afternoons here typically climb above 40 °C.",
+      "Camelback Mountain, surrounded by suburbs, is named for its hump-backed profile."
+    ],
+    "q": {
+      "q": "Why was Phoenix given its name?",
+      "a": "It rose on the ruins of ancient canals",
+      "x": [
+        "A bird-shaped mountain stands nearby",
+        "Its founder was called Phoenix"
+      ]
+    }
+  },
+  "Q16552": {
+    "t": "A deep blue bay, a sandy spit and Mexico next door",
+    "s": "San Diego wraps around a long, sheltered bay, closed off from the Pacific by the flat Coronado peninsula and the high ridge of Point Loma. Planes land almost among the downtown towers, at an airport right on the water. Spanish friars founded California's first mission here in 1769, and the Mexican border is only about 25 km to the south.",
+    "w": "A curved bay behind a pale sandy spit and a long ridge; the city spreads over canyon-cut mesas, merging with Tijuana to the south.",
+    "f": [
+      "In 1542 Juan Rodríguez Cabrillo sailed into this bay, the first European known to reach the US West Coast.",
+      "Coronado is not quite an island: a thin sand strip, the Silver Strand, ties it to the mainland."
+    ],
+    "q": {
+      "q": "What did Spanish friars found at San Diego in 1769?",
+      "a": "California's first mission",
+      "x": [
+        "California's first university",
+        "A silver mine"
+      ]
+    }
+  },
+  "Q38022": {
+    "t": "Where the muddy Missouri pours into the Mississippi",
+    "s": "Just north of St. Louis two of America's great rivers meet, and from above they often keep their colours for a while: the silt-laden Missouri alongside the darker Mississippi. French fur traders founded the town in 1764 and named it after King Louis IX. In 1804 Lewis and Clark set out from near the confluence to cross the continent.",
+    "w": "A city on the west bank of the Mississippi; to the north, two big brown rivers meet in a maze of channels and islands.",
+    "f": [
+      "The Eads Bridge of 1874 was one of the first major bridges built with steel as its main material.",
+      "A little further upstream the Illinois River joins the Mississippi too.",
+      "The Gateway Arch on the riverfront is 192 m tall but far too slender to pick out from cruise."
+    ],
+    "q": {
+      "q": "Which river joins the Mississippi just north of St. Louis?",
+      "a": "The Missouri",
+      "x": [
+        "The Ohio",
+        "The Arkansas"
+      ]
+    }
+  },
+  "Q34404": {
+    "t": "The Crescent City, cradled in a bend of the Mississippi",
+    "s": "New Orleans grew inside a tight curve of the Mississippi, which is why it's called the Crescent City. To its north spreads the broad, round Lake Pontchartrain, crossed by a bridge nearly 40 km long — a hairline over the water. The French founded the city in 1718; much of it now lies below sea level, ringed by levees.",
+    "w": "A city in a sharp bend of a wide brown river; a big round lake to the north crossed by a hairline bridge.",
+    "f": [
+      "The Lake Pontchartrain Causeway, about 38 km long, is one of the longest bridges over water in the world.",
+      "The city is named after Philippe, Duke of Orléans, who ruled France as regent when it was founded.",
+      "In 1803 the United States bought New Orleans as part of the vast Louisiana Purchase."
+    ],
+    "q": {
+      "q": "Why is New Orleans called the Crescent City?",
+      "a": "It sits in a bend of the Mississippi",
+      "x": [
+        "Its harbour is moon-shaped",
+        "Its main square is crescent-shaped"
+      ]
+    }
+  },
+  "Q16557": {
+    "t": "A prairie metropolis with an airport bigger than Manhattan",
+    "s": "Dallas rises from flat, open prairie, with no coast or mountain to give it shape — just freeways fanning out and a scatter of reservoirs. The Trinity River crosses it in a wide green floodway between levees. Towards Fort Worth, look for the runways of DFW, an airport that covers more ground than Manhattan. It all began with a trading post by a river ford in 1841.",
+    "w": "Flat sprawl without natural edges; a broad green floodway along the Trinity; a giant airport with long parallel runways to the north-west.",
+    "f": [
+      "Dallas–Fort Worth International covers about 70 km², more than the island of Manhattan.",
+      "Founder John Neely Bryan picked the spot for its natural ford across the Trinity River.",
+      "Almost all the lakes around Dallas are man-made reservoirs."
+    ],
+    "q": {
+      "q": "Which river flows through Dallas?",
+      "a": "The Trinity",
+      "x": [
+        "The Brazos",
+        "The Red River"
+      ]
+    }
+  },
+  "Q171632": {
+    "t": "On the neck of a vast lake studded with oil wells",
+    "s": "Maracaibo sits on the narrow strait where Lake Maracaibo, one of South America's biggest bodies of water, opens to the sea. Out on the lake stand countless oil wells, and at night their lights speckle the dark water. Look for the thin line of the bridge across the strait, over 8 km long. In 1499 an expedition sailing for Spain saw stilt houses here and called the land 'Little Venice' — Venezuela.",
+    "w": "A city on the west shore of a narrow strait; a long bridge across it; a vast lake opening to the south.",
+    "f": [
+      "Over the south-west of the lake, near the mouth of the Catatumbo River, lightning flickers on well over a hundred nights a year.",
+      "The General Rafael Urdaneta Bridge across the strait is about 8.7 km long and opened in 1962.",
+      "The lake is connected to the sea, so its water is slightly salty."
+    ],
+    "q": {
+      "q": "What gave Venezuela its name?",
+      "a": "Stilt villages on the lake",
+      "x": [
+        "A Venetian-born explorer",
+        "Canals in its capital"
+      ]
+    }
+  },
+  "Q100": {
+    "t": "A city that built its own ground out into the harbour",
+    "s": "Boston's outline is largely man-made. The Puritans who arrived in 1630 settled a small, hilly peninsula joined to the mainland by a thin neck; in the 1800s the mudflats around it were filled in to create whole districts. Look for the Charles River basin, the island-dotted harbour and the runways stretching into the sea just across from downtown.",
+    "w": "A compact city on a harbour full of islands; a wide river basin to the west; runways reaching into the water to the east.",
+    "f": [
+      "The Back Bay district stands on tidal flats that were filled in with gravel in the 1800s.",
+      "Harvard, founded in 1636 across the Charles River, is the oldest university in the United States.",
+      "Logan Airport was also built largely on land reclaimed from the harbour."
+    ],
+    "q": {
+      "q": "What was Boston's Back Bay before the 1800s?",
+      "a": "Tidal mudflats",
+      "x": [
+        "Farmland",
+        "Forest"
+      ]
+    }
+  },
+  "Q49255": {
+    "t": "A city at the head of a bay stitched with causeways",
+    "s": "Tampa sits at the top of a big, branching bay, and from above the whole area looks stitched together: long causeways and bridges run straight across the shallow water to St. Petersburg on the peninsula opposite. In 1886 cigar makers moved their factories here, and hand-rolled cigars made Tampa famous. Look for the dredged shipping channel running out towards the Gulf.",
+    "w": "A city at the northern head of a wide, branching bay; several thin causeways across the water; a peninsula city to the west.",
+    "f": [
+      "Tampa Bay is Florida's largest open-water estuary, covering about 1,000 km².",
+      "Ybor City, the old cigar district, once turned out hundreds of millions of cigars a year."
+    ],
+    "q": {
+      "q": "Which city faces Tampa across the bay?",
+      "a": "St. Petersburg",
+      "x": [
+        "Orlando",
+        "Jacksonville"
+      ]
+    }
+  },
+  "Q1345": {
+    "t": "Penn's grid, laid out between two rivers in 1682",
+    "s": "Philadelphia began as a plan on paper: in 1682 William Penn drew a neat grid between the Delaware and Schuylkill rivers, with a central square and four smaller ones. That rectangle is still the heart of the city. The Declaration of Independence was adopted here in 1776, and for a decade from 1790 Philadelphia served as the nation's capital.",
+    "w": "A dense grid between two rivers; the wide Delaware to the east with the airport on its bank; a long green park along the Schuylkill.",
+    "f": [
+      "Four of Penn's five original squares are still parks; the fifth holds City Hall.",
+      "The name is Greek for 'brotherly love'.",
+      "Fairmount Park, along the Schuylkill, is one of the largest urban park systems in the US."
+    ],
+    "q": {
+      "q": "Between which two rivers did Penn lay out Philadelphia?",
+      "a": "The Delaware and the Schuylkill",
+      "x": [
+        "The Hudson and the Harlem",
+        "The Potomac and the Anacostia"
+      ]
+    }
+  },
+  "Q12439": {
+    "t": "The US city with Canada to its south",
+    "s": "Detroit comes with a quirk of the map: across the Detroit River, due south of downtown, lies Canada. The river is really a strait linking Lake St. Clair to Lake Erie, and the French word for strait, détroit, gave the city its name. Antoine de la Mothe Cadillac founded a fort here in 1701. Two centuries later carmakers turned it into the Motor City.",
+    "w": "A city along a broad river channel between two lakes; Windsor on the opposite bank; a long wooded island in the river.",
+    "f": [
+      "Belle Isle, the island park in the Detroit River, is larger than New York's Central Park.",
+      "The Ambassador Bridge to Windsor carries more trade than any other US–Canada border crossing."
+    ],
+    "q": {
+      "q": "In which direction from downtown Detroit does Canada lie?",
+      "a": "South",
+      "x": [
+        "North",
+        "West"
+      ]
+    }
+  },
+  "Q39450": {
+    "t": "A frontier city between mudflats and the Chugach peaks",
+    "s": "Anchorage fills a wedge of flat land between two long arms of Cook Inlet, with the Chugach Mountains rising right behind it. At low tide the inlet drains to glistening grey mudflats: the tides here can rise and fall by more than 9 m. On a clear day, look north for Denali, about 200 km away. The city began in 1914 as a tent camp for railway builders.",
+    "w": "A grid city on a lowland wedge between two grey-brown inlets, backed by snowy mountains; a lake full of floatplanes beside the airport.",
+    "f": [
+      "Lake Hood, next to the international airport, is one of the world's busiest seaplane bases.",
+      "Turnagain Arm got its name in 1778, when James Cook's ships had to turn back there.",
+      "In Turnagain Arm the incoming tide sometimes arrives as a bore — a single travelling wave."
+    ],
+    "q": {
+      "q": "How did Turnagain Arm near Anchorage get its name?",
+      "a": "Cook's ships had to turn back there",
+      "x": [
+        "It bends back on itself",
+        "Whalers used it as a turning point"
+      ]
+    }
+  },
+  "Q9022": {
+    "t": "Between a deep canyon and Mexico's largest lake",
+    "s": "Guadalajara spreads across a high, open valley about 1,560 m above sea level. Its northern edge ends abruptly at a deep canyon cut by the Río Grande de Santiago, and to the south lies Lake Chapala, Mexico's largest freshwater lake. West of the city, look for blue-grey rows of agave: this is the country around the town of Tequila.",
+    "w": "A large city on a flat high valley; a dark canyon along its northern edge; a big lake to the south.",
+    "f": [
+      "The canyon at the northern edge, the Barranca de Huentitán, is roughly 600 m deep.",
+      "The city was moved several times before settling on its present site in 1542.",
+      "Blue agave for tequila covers the hills around the town of Tequila, about 60 km north-west."
+    ],
+    "q": {
+      "q": "Which lake lies just south of Guadalajara?",
+      "a": "Lake Chapala",
+      "x": [
+        "Lake Pátzcuaro",
+        "Lake Texcoco"
+      ]
+    }
+  },
+  "Q125293": {
+    "t": "A colonial grid ringed by great volcanoes",
+    "s": "Few cities have a volcanic horizon like Puebla's. To the west stand snowy Popocatépetl and Iztaccíhuatl, to the north-east the lone cone of La Malinche, and far to the east the white peak of Orizaba, Mexico's highest mountain. The Spanish founded Puebla in 1531 as a brand-new planned town, and its old centre is still a tidy grid.",
+    "w": "A large city on a high plain with big volcanoes on the horizon; La Malinche's isolated cone close by to the north-east.",
+    "f": [
+      "Next door in Cholula stands the largest pyramid in the world by volume, so overgrown it looks like a hill.",
+      "Pico de Orizaba, visible to the east on clear days, rises to about 5,600 m.",
+      "Puebla is famous for Talavera, a glazed pottery tradition brought from Spain in the 1500s."
+    ],
+    "q": {
+      "q": "Which nearby town has the largest pyramid in the world by volume?",
+      "a": "Cholula",
+      "x": [
+        "Teotihuacan",
+        "Tula"
+      ]
+    }
+  }
+}

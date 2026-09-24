@@ -294,6 +294,9 @@ export const ru = {
     stop: 'Стоп',
     source: 'Источник',
     sourceWikipedia: 'Текст: Википедия, CC BY-SA 4.0',
+    lookTitle: 'что искать в окне',
+    readMore: 'Подробнее — в Википедии',
+    photo: '%{name}, фото %{n} из %{total}',
     locked: 'Эта карточка — в Pro. Открыть можно на земле.',
     unlock: 'открыть с Pro',
   },
@@ -332,6 +335,11 @@ export const ru = {
     highestPeak: 'Какая вершина на маршруте самая высокая?',
     countryCount: 'Сколько стран было под крылом?',
     whichFirst: 'Что было раньше: «%{a}» или «%{b}»?',
+    longestExplain: '%{country} — %{time} полёта.',
+    peakExplain: '%{place}: %{h}.',
+    countryExplain: 'Под крылом: %{list}.',
+    firstExplain: '%{a} — через %{ta} после взлёта, %{b} — через %{tb}.',
+    score: 'Верно %{n} из %{total}',
   },
   postcard: {
     stats: {

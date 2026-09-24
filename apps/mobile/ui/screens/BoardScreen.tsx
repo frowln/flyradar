@@ -147,9 +147,12 @@ function Highlights({ pkg, onOpen }: { pkg: OfflinePackage; onOpen: (poi: POI) =
               : m.kind === 'line' && m.line
                 ? t(`line.${m.line}`)
                 : t(`moment.${m.kind}`);
+        // The written hook, when the place has one, makes the plan worth reading.
+        const hook = m.kind === 'sight' && poi ? placeText(poi, locale).tagline : undefined;
         // "Black Sea, left, 13 min after takeoff" as one element, not "plus zero colon thirteen".
         const spoken = [
           title,
+          hook,
           m.kind === 'sight' && m.side ? t(`side.${m.side}`) : null,
           t('place.afterTakeoff', { t: spokenDuration(m.at) })
         ]
@@ -161,9 +164,14 @@ function Highlights({ pkg, onOpen }: { pkg: OfflinePackage; onOpen: (poi: POI) =
               {`+${clock(m.at)}`}
             </DataSmall>
             <SideMark side={m.kind === 'sight' ? m.side : 'mark'} size={16} />
-            <Body numberOfLines={1} style={styles.flex}>
-              {title}
-            </Body>
+            <View style={styles.flex}>
+              <Body numberOfLines={1}>{title}</Body>
+              {hook ? (
+                <Small numberOfLines={1} tone="muted">
+                  {hook}
+                </Small>
+              ) : null}
+            </View>
             {m.kind === 'sight' && m.side && m.side !== 'below' ? (
               <DataSmall allowFontScaling={false}>{t(`side.${m.side}`)}</DataSmall>
             ) : null}

@@ -67,9 +67,28 @@ export interface OfflinePackage {
   demo?: boolean;
   /**
    * How the path was drawn: the great circle, a detour around closed airspace,
-   * or a great circle kept only because no plausible detour was found.
+   * a great circle kept only because no plausible detour was found, or the
+   * track this flight number actually flew recently.
    */
-  routeKind?: 'direct' | 'detour' | 'approximate';
+  routeKind?: 'direct' | 'detour' | 'approximate' | 'track';
   /** Places looked up online that turned out to have no article; not retried. */
   storyless?: string[];
+  /**
+   * Forecast cloud along the route, about one sample per 15 minutes of flight.
+   * Absent when no forecast was available (offline, no server, or a departure
+   * beyond the forecast's reach).
+   */
+  clouds?: CloudSample[];
+  /** When `clouds` was fetched, ISO. A forecast improves as departure nears. */
+  cloudsAt?: string;
+}
+
+/** Cloud cover at one moment of the flight. */
+export interface CloudSample {
+  /** Seconds after takeoff. */
+  at: number;
+  /** Total cloud cover, 0–100 %. */
+  cloud: number;
+  /** Low cloud (below ~2 km), 0–100 % — what hides the ground from cruise. */
+  low: number;
 }

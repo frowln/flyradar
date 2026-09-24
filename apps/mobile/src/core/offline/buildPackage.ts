@@ -5,6 +5,7 @@ import { buildRoute, airborneFromSchedule } from '../route/profile';
 import { closedCountries, planAround } from '../route/airspace';
 import { selectSightings, sightingsAlong, toPOI } from '../places/corridor';
 import { countriesAlong } from '../places/countries';
+import { applyStories, historyAlong, type HistoryItem, type StoriesFile } from '../places/stories';
 import { computeMoments } from '../flight/moments';
 import { haversine } from '../geo/greatCircle';
 import { nextWallClock, zonedToUtc } from '../time/zones';
@@ -45,6 +46,10 @@ export interface BuildData {
   places: DataPlace[];
   areas: Record<string, MultiPolygon>;
   countries: DataCountry[];
+  /** History items to match against the route (content/history). */
+  history?: HistoryItem[];
+  /** Texts written for SkyAtlas in the request's language, when loaded. */
+  stories?: StoriesFile | null;
 }
 
 export function flightIdFor(req: Pick<BuildRequest, 'from' | 'to' | 'date' | 'departureTime' | 'flightNumber'>): string {
@@ -97,7 +102,10 @@ export function composePackage(req: BuildRequest, data: BuildData): OfflinePacka
     .filter((p): p is DataPlace => !!p)
     .map((p) => p.id);
   const chosen = selectSightings(sightings, built.airborneSeconds, { pinned });
-  const pois: POI[] = chosen.map(toPOI);
+  const pois: POI[] = [
+    ...applyStories(chosen.map(toPOI), data.stories),
+    ...historyAlong(built.route, data.history ?? [], data.stories?.history, req.locale)
+  ].sort((a, b) => (a.passAt ?? 0) - (b.passAt ?? 0));
   const countries = countriesAlong(built.route, data.countries, { fromCC: req.from.cc, toCC: req.to.cc });
 
   // Scheduled block time includes taxi; the timeline starts at wheels-up.

@@ -7,6 +7,7 @@ import { flightRoutes } from './routes/flights.js';
 import { subscriptionRoutes } from './routes/subscription.js';
 import { metricsRoutes, incRequest } from './routes/metrics.js';
 import { socialRoutes } from './routes/social.js';
+import { weatherRoutes } from './routes/weather.js';
 import { errorHandler } from './errorHandler.js';
 
 export interface BuildAppOptions {
@@ -105,6 +106,7 @@ export async function buildApp(options: BuildAppOptions = {}): Promise<FastifyIn
   await app.register(subscriptionRoutes);
   await app.register(metricsRoutes);
   await app.register(socialRoutes);
+  await app.register(weatherRoutes);
 
   return app;
 }

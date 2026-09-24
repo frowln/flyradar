@@ -18,7 +18,8 @@ export const XP = {
   firstLine: 150,
   repeatLine: 30,
   sunEvent: 20,
-  guess: 10
+  guess: 10,
+  quiz: 10
 } as const;
 
 export interface FlightXP {
@@ -66,6 +67,7 @@ export function xpLedger(records: FlightRecord[]): FlightXP[] {
     add('repeatLine', repeat);
     add('sunEvent', (r.sunrise ? 1 : 0) + (r.sunset ? 1 : 0));
     add('guess', r.guessed ?? 0);
+    add('quiz', r.quiz?.correct ?? 0);
 
     out.push({ flightId: r.flightId, total: parts.reduce((n, x) => n + x.xp, 0), parts });
   }

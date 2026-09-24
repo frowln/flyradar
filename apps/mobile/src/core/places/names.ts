@@ -1,4 +1,4 @@
-import type { POI, POITranslation } from '@skyatlas/shared';
+import type { POI, POITranslation, PlaceQuestion } from '@skyatlas/shared';
 import { countryByCode } from '../data/datasets';
 import type { DataLang } from '../data/types';
 
@@ -17,14 +17,31 @@ export function placeName(poi: POI, locale: string): string {
   return name.charAt(0).toLocaleUpperCase(locale) + name.slice(1);
 }
 
-export function placeText(poi: POI, locale: string): { summary: string; tagline?: string; textLang?: string; facts: string[] } {
+export interface PlaceText {
+  summary: string;
+  tagline?: string;
+  /** Set when the text is not in the reader's language (it is then English). */
+  textLang?: string;
+  facts: string[];
+  /** What to look for from the window — only in texts written for SkyAtlas. */
+  look?: string;
+  quiz?: PlaceQuestion;
+  era?: string;
+}
+
+export function placeText(poi: POI, locale: string): PlaceText {
   const tr: POITranslation | undefined = poi.translations?.[lang(locale)];
-  if (tr?.summary) return { summary: tr.summary, tagline: tr.tagline, facts: tr.facts ?? [] };
+  if (tr?.summary) return { summary: tr.summary, tagline: tr.tagline, facts: tr.facts ?? [], look: tr.look, quiz: tr.quiz, era: tr.era };
+  const english = lang(locale) === 'en';
   return {
     summary: poi.summary,
     tagline: poi.tagline,
-    textLang: poi.summary ? (poi.textLang ?? (lang(locale) === 'en' ? undefined : 'en')) : undefined,
-    facts: poi.facts ?? []
+    textLang: poi.summary ? (poi.textLang ?? (english ? undefined : 'en')) : undefined,
+    facts: poi.facts ?? [],
+    // Written notes in English are not offered to readers of other languages.
+    look: english ? poi.look : undefined,
+    quiz: english ? poi.quiz : undefined,
+    era: poi.era
   };
 }
 

@@ -16,12 +16,26 @@ export type POICategory =
   | 'glacier'
   | 'region';
 
+/** A question about one place, asked after landing. */
+export interface PlaceQuestion {
+  q: string;
+  /** The right answer. */
+  a: string;
+  /** Two plausible wrong answers. */
+  x: string[];
+}
+
 export interface POITranslation {
   name: string;
   summary: string;
   facts: string[];
   /** One-line description, e.g. "highest mountain in Europe". */
   tagline?: string;
+  /** What to look for from the window, when written for it. */
+  look?: string;
+  quiz?: PlaceQuestion;
+  /** Historic places: the period, e.g. "2nd c. BC – 15th c.". */
+  era?: string;
 }
 
 /** Which window a place is seen from, relative to the direction of travel. */
@@ -43,6 +57,8 @@ export interface POI {
   photos: string[];       // URLs, or file:// once cached for the flight
   /** Credit line for the first photo, when the licence requires one. */
   photoCredit?: string;
+  /** Credit lines for every photo, index for index. */
+  photoCredits?: string[];
   closestApproachKm?: number;
   /** Importance 1–10 (10 = world-famous). */
   rank?: number;
@@ -60,7 +76,11 @@ export interface POI {
   /** Areas flown over: seconds after takeoff when the track enters and leaves the outline. */
   overFrom?: number;
   overTo?: number;
-  /** Source of the text: an encyclopedia article, or composed from data alone. */
+  /**
+   * Source of the text: written for SkyAtlas ("editorial" — preferred, never
+   * replaced by a fetched article), an encyclopedia article, or composed from
+   * data alone.
+   */
   textSource?: 'wikipedia' | 'editorial' | 'generated';
   /** Canonical article URL for attribution. */
   sourceUrl?: string;
@@ -68,6 +88,11 @@ export interface POI {
   textLang?: string;
   /** One-line description in the base language. */
   tagline?: string;
+  /** What to look for from the window, in the base language. */
+  look?: string;
+  quiz?: PlaceQuestion;
+  /** Historic places: the period, in the base language. */
+  era?: string;
   translations?: {
     en?: POITranslation;
     ru?: POITranslation;

@@ -292,6 +292,9 @@ export const fr = {
     stop: 'Arrêter',
     source: 'Source',
     sourceWikipedia: 'Texte : Wikipédia, CC BY-SA 4.0',
+    lookTitle: 'que chercher par le hublot',
+    readMore: 'En savoir plus sur Wikipédia',
+    photo: '%{name}, photo %{n} sur %{total}',
     locked: 'Cette fiche fait partie de Pro. Vous pourrez la débloquer au sol.',
     unlock: 'débloquer avec Pro',
   },
@@ -328,6 +331,11 @@ export const fr = {
     highestPeak: 'Quel était le plus haut sommet du trajet ?',
     countryCount: 'Combien de pays avez-vous survolés ?',
     whichFirst: 'Qu’avez-vous croisé en premier : %{a} ou %{b} ?',
+    longestExplain: '%{country} : %{time} de vol.',
+    peakExplain: '%{place} : %{h}.',
+    countryExplain: 'Sous l’aile : %{list}.',
+    firstExplain: '%{a} est passé %{ta} après le décollage, %{b} après %{tb}.',
+    score: '%{n} sur %{total} justes',
   },
   postcard: {
     stats: {

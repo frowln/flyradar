@@ -1,6 +1,8 @@
 import { prisma } from '../db/prisma.js';
-import { lookupFlightDetailed } from '../external/aviationstack.js';
-import type { Flight } from '@skyatlas/shared';
+import { lookupFlightDetailed, type AviationStackFlight } from '../external/aviationstack.js';
+import { lookupAeroDataBox } from '../external/aerodatabox.js';
+import { isTransient } from '../external/http.js';
+import type { Airport, Flight, FlightStatus } from '@skyatlas/shared';
 
 export interface FlightResult {
   flight: Flight | null;
@@ -26,87 +28,163 @@ export interface FlightResult {
  */
 const DEMO_AIRLINE = 'Demo Airlines';
 
+export type FlightProvider = 'aerodatabox' | 'aviationstack' | 'demo';
+
+/** AeroDataBox when its key is set, else AviationStack, else invented flights. */
+export function flightProvider(env: NodeJS.ProcessEnv = process.env): FlightProvider {
+  if (env['AERODATABOX_KEY']) return 'aerodatabox';
+  if (env['AVIATIONSTACK_KEY']) return 'aviationstack';
+  return 'demo';
+}
+
+const DAY_MS = 86_400_000;
+
+/**
+ * How long a cached flight stays true.
+ *
+ * On the day itself gates, delays and status move by the minute, and "today"
+ * spans a day either side somewhere on Earth. A schedule days ahead moves
+ * rarely. A flight that has flown will not change again.
+ */
+export function flightCacheTtlMs(date: string, now = Date.now()): number {
+  const day = Date.parse(`${date}T00:00:00Z`);
+  const today = Date.parse(`${new Date(now).toISOString().slice(0, 10)}T00:00:00Z`);
+  const ahead = Math.round((day - today) / DAY_MS);
+  if (ahead < -1) return Infinity;
+  if (ahead <= 1) return 15 * 60_000;
+  return 24 * 3600_000;
+}
+
 export async function getFlightDetailed(
   flightNumber: string,
   date: string
 ): Promise<FlightResult> {
-  // Check cache first
   const cached = await prisma.flightCache.findUnique({
     where: { flightNumber_date: { flightNumber, date } }
   });
-  const cachedFlight = cached?.payload as unknown as Flight | undefined;
-  if (cachedFlight && cachedFlight.airline !== DEMO_AIRLINE) {
-    return { flight: cachedFlight, availableDates: [date] };
+  const payload = cached?.payload as unknown as Flight | undefined;
+  const known = payload && payload.airline !== DEMO_AIRLINE ? payload : undefined;
+  if (known && Date.now() - new Date(cached!.cachedAt).getTime() < flightCacheTtlMs(date)) {
+    return { flight: known, availableDates: [date] };
   }
 
-  // Demo mode: if no API key, build a flight from a hardcoded route
-  if (!process.env['AVIATIONSTACK_KEY']) {
+  const provider = flightProvider();
+  if (provider === 'demo') {
+    // A real flight looked up while a key was configured is still real.
+    if (known) return { flight: known, availableDates: [date] };
     return { flight: await buildDemoFlight(flightNumber, date), availableDates: [] };
   }
 
-  // Lookup from AviationStack
+  const found =
+    provider === 'aerodatabox'
+      ? await fromAeroDataBox(flightNumber, date)
+      : await fromAviationStack(flightNumber, date);
+  if (!found.flight) {
+    // A provider that is down or over quota should not take away a flight we
+    // already know; an older answer beats none.
+    if (known && isTransient(found.providerError)) return { flight: known, availableDates: [date] };
+    return found;
+  }
+
+  // An upsert, because two passengers looking up the same flight at once both
+  // miss the cache and both write; and a failed write costs a future lookup,
+  // not this one.
+  try {
+    await prisma.flightCache.upsert({
+      where: { flightNumber_date: { flightNumber, date } },
+      create: { flightNumber, date, payload: found.flight as any },
+      update: { payload: found.flight as any, cachedAt: new Date() }
+    });
+  } catch (e) {
+    console.warn('FlightCache write failed:', e instanceof Error ? e.message : e);
+  }
+  return found;
+}
+
+async function findAirport(iata: string): Promise<Airport | null> {
+  const row = await prisma.airport.findUnique({ where: { iata } });
+  return row ? stripAirport(row) : null;
+}
+
+/** An empty Airport table looks exactly like an unknown flight; say which code was missing. */
+function missingAirports(a: string | null, b: string | null): FlightResult {
+  console.warn(`Airport not in database: ${[a, b].filter(Boolean).join(' ')} — run scripts/seed-airports.mjs`);
+  return { flight: null, availableDates: [], providerError: 'unknown_airport' };
+}
+
+async function fromAeroDataBox(flightNumber: string, date: string): Promise<FlightResult> {
+  const { flight: raw, error } = await lookupAeroDataBox(flightNumber, date);
+  if (!raw) return { flight: null, availableDates: [], ...(error ? { providerError: error } : {}) };
+
+  // Our table first, so a flight reads the same whichever provider found it;
+  // the provider's own record covers airports the table lacks.
+  const [dbOrigin, dbDestination] = await Promise.all([
+    findAirport(raw.originIata),
+    findAirport(raw.destinationIata)
+  ]);
+  const origin = dbOrigin ?? raw.origin;
+  const destination = dbDestination ?? raw.destination;
+  if (!origin || !destination) {
+    return missingAirports(origin ? null : raw.originIata, destination ? null : raw.destinationIata);
+  }
+
+  const flight: Flight = {
+    id: `${flightNumber}-${date}`,
+    flightNumber,
+    airline: raw.airline,
+    origin,
+    destination,
+    scheduledDeparture: raw.scheduledDeparture,
+    scheduledArrival: raw.scheduledArrival,
+    localDate: date,
+    status: raw.status,
+    ...(raw.revisedDeparture ? { revisedDeparture: raw.revisedDeparture } : {}),
+    ...(raw.revisedArrival ? { revisedArrival: raw.revisedArrival } : {}),
+    ...(raw.actualDeparture ? { actualDeparture: raw.actualDeparture } : {}),
+    ...(raw.aircraftType ? { aircraftType: raw.aircraftType } : {})
+  };
+  return { flight, availableDates: [date] };
+}
+
+const AVIATIONSTACK_STATUS: Record<string, FlightStatus> = {
+  scheduled: 'scheduled',
+  active: 'departed',
+  landed: 'landed',
+  cancelled: 'cancelled',
+  diverted: 'diverted'
+};
+
+async function fromAviationStack(flightNumber: string, date: string): Promise<FlightResult> {
   const { flight: raw, availableDates, error } = await lookupFlightDetailed(flightNumber, date);
   if (!raw) return { flight: null, availableDates, providerError: error };
 
-  // Find airports in our DB
   const [origin, destination] = await Promise.all([
-    prisma.airport.findUnique({ where: { iata: raw.departure.iata } }),
-    prisma.airport.findUnique({ where: { iata: raw.arrival.iata } })
+    findAirport(raw.departure.iata),
+    findAirport(raw.arrival.iata)
   ]);
-  // An empty Airport table looks exactly like an unknown flight from here, and
-  // did for weeks. Say which code was missing.
   if (!origin || !destination) {
-    console.warn(
-      `Airport not in database: ${!origin ? raw.departure.iata : ''}${!destination ? ` ${raw.arrival.iata}` : ''}` +
-        ' — run scripts/seed-airports.mjs'
-    );
-    return { flight: null, availableDates, providerError: 'unknown_airport' };
+    const result = missingAirports(origin ? null : raw.departure.iata, destination ? null : raw.arrival.iata);
+    return { ...result, availableDates };
   }
 
   const flight: Flight = {
     id: `${flightNumber}-${date}`,
     flightNumber,
     airline: raw.airline.name,
-    origin: {
-      iata: origin.iata,
-      icao: origin.icao ?? '',
-      name: origin.name,
-      city: origin.city,
-      country: origin.country,
-      lat: origin.lat,
-      lon: origin.lon,
-      tz: origin.tz
-    },
-    destination: {
-      iata: destination.iata,
-      icao: destination.icao ?? '',
-      name: destination.name,
-      city: destination.city,
-      country: destination.country,
-      lat: destination.lat,
-      lon: destination.lon,
-      tz: destination.tz
-    },
+    origin,
+    destination,
     scheduledDeparture: raw.departure.scheduled,
     scheduledArrival: raw.arrival.scheduled,
     actualDeparture: raw.departure.actual,
-    aircraftType: raw.aircraft?.iata
+    aircraftType: raw.aircraft?.iata,
+    localDate: date,
+    status: statusFromAviationStack(raw)
   };
-
-  // Cache for future requests. An upsert, because two passengers looking up
-  // the same flight at once both miss the cache and both write; and a failed
-  // write costs a future lookup, not this one.
-  try {
-    await prisma.flightCache.upsert({
-      where: { flightNumber_date: { flightNumber, date } },
-      create: { flightNumber, date, payload: flight as any },
-      update: { payload: flight as any, cachedAt: new Date() }
-    });
-  } catch (e) {
-    console.warn('FlightCache write failed:', e instanceof Error ? e.message : e);
-  }
-
   return { flight, availableDates };
+}
+
+function statusFromAviationStack(raw: AviationStackFlight): FlightStatus {
+  return (raw.flight_status && AVIATIONSTACK_STATUS[raw.flight_status]) || 'unknown';
 }
 
 /** The flight alone, for callers that have nothing to say about why it is missing. */

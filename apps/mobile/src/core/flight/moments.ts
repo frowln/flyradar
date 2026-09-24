@@ -22,7 +22,11 @@ export function sightWeight(poi: POI): number {
       ? 1.15
       : poi.category === 'city' || poi.category === 'region' || poi.category === 'river'
         ? 0.85
-        : 1;
+        : // History is worth a line in "next", rarely a notification: nothing
+          // of it is visible from the window.
+          poi.category === 'historic'
+          ? 0.6
+          : 1;
   return Math.min(1, rank * rank * proximity * kind);
 }
 

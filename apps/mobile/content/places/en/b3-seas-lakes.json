@@ -1,0 +1,308 @@
+{
+  "Q5513": {
+    "t": "The deepest lake on Earth, a blue crescent in Siberia",
+    "s": "Look for a long blue crescent pressed between dark mountain ridges — that's Baikal, more than 600 km from end to end. Its deepest point is 1,642 m down, deeper than any other lake on Earth. In late winter the ice turns glassy and pale turquoise, split by cracks that run for kilometres.",
+    "w": "A narrow crescent of deep blue, or white ice in winter, running south-west to north-east between mountains.",
+    "f": [
+      "Baikal holds roughly a fifth of all the unfrozen fresh water on Earth's surface.",
+      "More than 300 rivers flow into it, but only one — the Angara — flows out.",
+      "It is home to the nerpa, a seal that lives nowhere else in the world."
+    ],
+    "q": {
+      "q": "Which river is the only one flowing out of Lake Baikal?",
+      "a": "The Angara",
+      "x": [
+        "The Selenga",
+        "The Yenisei"
+      ]
+    }
+  },
+  "Q23883": {
+    "t": "The lowest water on Earth, and it keeps sinking",
+    "s": "The shore of the Dead Sea is the lowest dry land on the planet, more than 430 m below sea level — and the water drops by roughly a metre a year. It is so salty that people float without trying. From above, the deep-blue northern basin gives way to pale geometric salt pans in the south.",
+    "w": "A slim blue lake in a deep desert trough east of Jerusalem, with turquoise and white salt ponds at its southern end.",
+    "f": [
+      "Its water is roughly ten times saltier than the ocean — too salty for fish.",
+      "The Jordan River is its main source, and nothing flows out: water leaves only by evaporation.",
+      "The southern basin is now mostly a patchwork of evaporation ponds for potash and salt."
+    ],
+    "q": {
+      "q": "Roughly how far below sea level is the Dead Sea's shore?",
+      "a": "More than 400 m",
+      "x": [
+        "About 100 m",
+        "About 250 m"
+      ]
+    }
+  },
+  "Q788": {
+    "t": "A frozen ocean where the ice itself drifts",
+    "s": "From a polar flight the Arctic Ocean looks like a cracked white plate: pack ice broken by dark lanes of open water called leads. It is the smallest and shallowest ocean, yet under the North Pole the sea is more than 4 km deep. In summer, pools of meltwater dot the ice with blue.",
+    "w": "Endless white pack ice laced with dark cracks; in summer, turquoise meltwater ponds and patches of open sea.",
+    "f": [
+      "There is no land at the North Pole — only drifting sea ice a few metres thick.",
+      "In 1893–1896 Nansen's ship Fram was deliberately frozen in and drifted with the ice across the Arctic.",
+      "Near the pole the sun stays up for about six months, then stays below the horizon for six."
+    ],
+    "q": {
+      "q": "What lies under the ice at the North Pole?",
+      "a": "Ocean more than 4 km deep",
+      "x": [
+        "A rocky island",
+        "A shallow shelf sea"
+      ]
+    }
+  },
+  "Q7354": {
+    "t": "The ocean that runs all the way around the world",
+    "s": "Few flights ever cross it, which makes this view rare. The Southern Ocean rings Antarctica with no land in its way, so its current circles the globe endlessly from west to east. Look for flat-topped icebergs — some are tens of kilometres long — and, in winter, a white apron of sea ice larger than the continent itself.",
+    "w": "Dark, wind-streaked water with scattered white icebergs; farther south, a solid rim of sea ice around Antarctica.",
+    "f": [
+      "The Antarctic Circumpolar Current carries more water than any other current on Earth.",
+      "Sailors named its stormy latitudes the Roaring Forties, the Furious Fifties and the Screaming Sixties.",
+      "Its northern boundary is usually drawn at 60° South."
+    ],
+    "q": {
+      "q": "In which direction does the Antarctic Circumpolar Current flow?",
+      "a": "West to east",
+      "x": [
+        "East to west",
+        "South to north"
+      ]
+    }
+  },
+  "Q98": {
+    "t": "Bigger than all the world's land put together",
+    "s": "Hours of blue with barely a speck of land: this is the Pacific, covering about a third of the planet. Its deepest point, the Challenger Deep, lies nearly 11 km down — roughly as far below the surface as you are above it. Magellan called it the “peaceful sea” after the calm water he met in 1520.",
+    "w": "Deep navy water to every horizon, broken only by rows of cloud and, now and then, the pale ring of an atoll.",
+    "f": [
+      "The Pacific is larger than all the land on Earth combined.",
+      "Volcanoes and earthquake zones rim much of it — the so-called Ring of Fire.",
+      "Across the tropics it stretches nearly halfway around the globe."
+    ],
+    "q": {
+      "q": "Who named the Pacific after its calm, “peaceful” water?",
+      "a": "Ferdinand Magellan",
+      "x": [
+        "James Cook",
+        "Vasco da Gama"
+      ]
+    }
+  },
+  "Q1239": {
+    "t": "The warm ocean that powers the monsoon",
+    "s": "Sun glint on the Indian Ocean can blaze like hammered metal for minutes on end. This is the warmest of the oceans, and it is closed off in the north by Asia rather than open to the Arctic. That shape drives the monsoon: each summer the heating continent pulls in moist ocean air, bringing the rains to South Asia.",
+    "w": "Open blue ocean with a bright path of sun glint; in the tropics, rows of puffy cumulus over the water.",
+    "f": [
+      "It covers about a fifth of the world's ocean area.",
+      "The Maldives, in its north, are some 1,200 small coral islands grouped into 26 atolls.",
+      "It is the only ocean named after a country — India."
+    ],
+    "q": {
+      "q": "How does the Indian Ocean rank in size among the oceans?",
+      "a": "Third largest",
+      "x": [
+        "Second largest",
+        "Fourth largest"
+      ]
+    }
+  },
+  "Q97": {
+    "t": "An ocean still growing, a few centimetres a year",
+    "s": "Down the middle of the Atlantic, hidden under kilometres of water, runs the Mid-Atlantic Ridge — a volcanic seam where the sea floor is pulling apart. The ocean grows wider by a few centimetres every year, roughly as fast as your fingernails. At the surface, the sun's glint picks out the long, even lines of swell.",
+    "w": "Open ocean ribbed with long swell, under drifting cloud fields; the sun's reflection shows the texture of the waves.",
+    "f": [
+      "Iceland and the Azores are parts of the Mid-Atlantic Ridge that rise above the waves.",
+      "The North Atlantic is the busiest stretch of oceanic airspace in the world.",
+      "Its name comes from Atlas, the Titan of Greek myth who held up the sky."
+    ],
+    "q": {
+      "q": "Which island sits right on the Mid-Atlantic Ridge?",
+      "a": "Iceland",
+      "x": [
+        "Ireland",
+        "Madeira"
+      ]
+    }
+  },
+  "Q4918": {
+    "t": "The sea in the middle of the land",
+    "s": "Its famous deep blue comes from poverty, not richness: the water carries few nutrients and little plankton, so sunlight sinks deep. The Mediterranean joins the Atlantic only through the 14-km gap at Gibraltar. About six million years ago its link to the ocean closed and the sea almost dried out, leaving thick salt layers still buried under its floor.",
+    "w": "Intense cobalt-blue water between Europe and Africa, often with a sharp silver sun glint and scattered rocky islands.",
+    "f": [
+      "Its name comes from the Latin for “in the middle of the land”.",
+      "Tides across most of it are small, usually well under half a metre.",
+      "More water evaporates than rivers bring in, so it is saltier than the open Atlantic."
+    ],
+    "q": {
+      "q": "About how wide is the Strait of Gibraltar at its narrowest?",
+      "a": "About 14 km",
+      "x": [
+        "About 3 km",
+        "About 50 km"
+      ]
+    }
+  },
+  "Q5484": {
+    "t": "A “sea” that is really the world's largest lake",
+    "s": "Call it a sea, but it is the largest body of water on Earth with no outlet to the ocean — bigger than Germany. Its two ends are nothing alike: the shallow north, fed by the Volga, often freezes in winter, while the south plunges past 1,000 m. On the eastern shore look for Kara-Bogaz-Gol, a vivid turquoise lagoon.",
+    "w": "A huge inland sea with a pale, silty north and deep blue south; on its east side, the round turquoise Kara-Bogaz-Gol.",
+    "f": [
+      "Its surface lies about 28 m below the level of the world ocean.",
+      "The Volga brings in roughly four-fifths of all the river water the Caspian receives.",
+      "For centuries it has been the world's main source of sturgeon and black caviar."
+    ],
+    "q": {
+      "q": "Which river supplies most of the Caspian Sea's water?",
+      "a": "The Volga",
+      "x": [
+        "The Ural",
+        "The Kura"
+      ]
+    }
+  },
+  "Q166": {
+    "t": "A turquoise surface over an oxygen-free deep",
+    "s": "In late spring the Black Sea can turn milky turquoise, as blooms of chalk-plated plankton swirl across it. The depths are another world: below about 200 m there is no oxygen at all, and ancient wooden ships lie there almost untouched. It reaches the Mediterranean only through the narrow Bosphorus and Dardanelles.",
+    "w": "A broad oval sea between Turkey, the Balkans and the Caucasus; in early summer, pale turquoise swirls on dark water.",
+    "f": [
+      "Nearly 90% of its water holds no oxygen, only dissolved hydrogen sulphide.",
+      "In 2018 an intact Greek trading ship about 2,400 years old was found on its floor.",
+      "The Danube reaches it through a vast delta, one of Europe's largest wetlands."
+    ],
+    "q": {
+      "q": "What is missing from the Black Sea's deep water?",
+      "a": "Oxygen",
+      "x": [
+        "Salt",
+        "Nitrogen"
+      ]
+    }
+  },
+  "Q159183": {
+    "t": "A warm, deep nursery for typhoons",
+    "s": "This is some of the warmest open water on the planet, and it has a stormy talent: many of the Pacific's fiercest typhoons are born here. The sea is fenced by island chains — the Philippines, Taiwan, the Ryukyus and Japan to the west and north, the Marianas to the east. Far below the surface, trenches cut more than 10 km deep.",
+    "w": "Deep indigo ocean dotted with towering cumulus; island arcs mark its edges — Luzon and Taiwan to the west, the Marianas to the east.",
+    "f": [
+      "The warm Kuroshio current sets off along its western edge and runs north past Japan.",
+      "The Philippine Trench, along its western side, drops to more than 10 km.",
+      "The sea sits on a tectonic plate of its own, the Philippine Sea Plate."
+    ],
+    "q": {
+      "q": "Which warm current runs north along the Philippine Sea's western edge?",
+      "a": "The Kuroshio",
+      "x": [
+        "The Oyashio",
+        "The Humboldt Current"
+      ]
+    }
+  },
+  "Q82931": {
+    "t": "Home of the Great Barrier Reef",
+    "s": "The Coral Sea earns its name on its western side, where the Great Barrier Reef runs for about 2,300 km along Australia's coast. From above, the reefs look like turquoise brushstrokes and pale rings scattered on deep blue, with white surf on their seaward edges. Farther east the water deepens to a dark indigo.",
+    "w": "Turquoise reef patches and white surf lines off north-east Australia, fading into deep open blue to the east.",
+    "f": [
+      "The Great Barrier Reef is made of nearly 3,000 separate reefs and hundreds of islands.",
+      "It is the largest structure built by living things, and it can be seen from orbit.",
+      "The reef has been a UNESCO World Heritage site since 1981."
+    ],
+    "q": {
+      "q": "About how long is the Great Barrier Reef?",
+      "a": "About 2,300 km",
+      "x": [
+        "About 600 km",
+        "About 5,000 km"
+      ]
+    }
+  },
+  "Q33254": {
+    "t": "“The Ditch” between Australia and New Zealand",
+    "s": "Australians and New Zealanders call it “the Ditch”, but it is roughly 2,000 km across — about three hours in the air. The Tasman is known for rough water, stirred up by westerly winds from the Southern Ocean. Its name honours Abel Tasman, the Dutch navigator who crossed it in 1642 and sighted New Zealand.",
+    "w": "Open grey-blue water between two coastlines, often streaked with whitecaps and bands of cloud moving in from the west.",
+    "f": [
+      "Lord Howe Island, in its western part, is a UNESCO World Heritage site.",
+      "Nearby Ball's Pyramid, a volcanic stack 562 m tall, rises straight out of the sea.",
+      "On its floor lies the Lord Howe Rise, part of Zealandia, a continent that is mostly underwater."
+    ],
+    "q": {
+      "q": "What do Australians and New Zealanders nickname the Tasman Sea?",
+      "a": "The Ditch",
+      "x": [
+        "The Puddle",
+        "The Gap"
+      ]
+    }
+  },
+  "Q38684": {
+    "t": "The world's largest bay, fed by the Ganges",
+    "s": "At the head of the bay, the Ganges and Brahmaputra pour out so much silt that the sea turns café-au-lait brown far from shore. This is the largest bay on Earth, and at its top lies the world's biggest delta, fringed by the tangled green of the Sundarbans mangroves. Farther south the silt settles and the water turns deep blue.",
+    "w": "A vast triangle of sea between India and Myanmar; near Bangladesh, brown silt plumes swirl into the blue.",
+    "f": [
+      "The Sundarbans on its northern shore are the largest mangrove forest in the world.",
+      "Beneath the bay lies the Bengal Fan, a pile of river sediment some 3,000 km long.",
+      "River water makes its surface noticeably less salty than the open ocean."
+    ],
+    "q": {
+      "q": "Which rivers build the huge delta at the head of the Bay of Bengal?",
+      "a": "Ganges and Brahmaputra",
+      "x": [
+        "Indus and Narmada",
+        "Irrawaddy and Salween"
+      ]
+    }
+  },
+  "Q37660": {
+    "t": "One of the busiest seaways on the planet",
+    "s": "In clear weather, look for faint white scratches on the blue — the wakes of ships. A huge share of the world's sea trade crosses this water between the Strait of Malacca, China, Japan and Korea. Scattered across the middle are low coral reefs and atolls, which show as turquoise rings where deep water suddenly gives way to shallows.",
+    "w": "Wide blue sea between Vietnam, the Philippines and southern China, with ship wakes and small turquoise reef rings.",
+    "f": [
+      "Roughly a third of all global shipping passes through it.",
+      "The Mekong and the Pearl River both empty into it — the latter right beside Hong Kong.",
+      "Its deepest basin goes down more than 5,000 m."
+    ],
+    "q": {
+      "q": "Which great river's delta opens onto the South China Sea?",
+      "a": "The Mekong",
+      "x": [
+        "The Irrawaddy",
+        "The Ganges"
+      ]
+    }
+  },
+  "Q27092": {
+    "t": "Cloud streets by day, squid-boat lights by night",
+    "s": "On a winter flight, look for neat parallel lines of cloud streaming across the water from the Asian mainland: icy monsoon winds pick up moisture here and dump it as deep snow on Japan's western coast. At night the sea can sparkle with points of light — fishing boats using bright lamps to lure squid.",
+    "w": "An enclosed sea between Japan and the Asian mainland; in winter, rows of cloud stripes blowing towards Japan.",
+    "f": [
+      "It connects to the open ocean only through a handful of narrow straits.",
+      "Its deepest basin reaches about 3,700 m.",
+      "In winter, sea ice forms in its far north, near the Tatar Strait."
+    ],
+    "q": {
+      "q": "What makes the Sea of Japan glitter at night?",
+      "a": "Lamps on squid-fishing boats",
+      "x": [
+        "Offshore oil platforms",
+        "Floating solar farms"
+      ]
+    }
+  },
+  "Q58705": {
+    "t": "Monsoon sea between Arabia and India",
+    "s": "Every summer the south-west monsoon sweeps across the Arabian Sea, stirring cold, nutrient-rich water to the surface off Oman — plankton blooms can then paint the sea green. For thousands of years sailors rode these seasonal winds between Arabia and India in wooden dhows. In the north, the Indus fans out into a muddy delta.",
+    "w": "A wide sea between the Arabian Peninsula and India; in summer, greenish plankton swirls may show off Oman.",
+    "f": [
+      "The Indus reaches the sea through a broad delta on Pakistan's coast.",
+      "Below the surface lies one of the largest oxygen-poor zones in any ocean.",
+      "A 1st-century Greek sailing guide, the Periplus of the Erythraean Sea, describes trade across it."
+    ],
+    "q": {
+      "q": "Which great river flows into the Arabian Sea?",
+      "a": "The Indus",
+      "x": [
+        "The Ganges",
+        "The Brahmaputra"
+      ]
+    }
+  }
+}

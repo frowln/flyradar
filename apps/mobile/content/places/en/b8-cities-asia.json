@@ -1,0 +1,609 @@
+{
+  "Q956": {
+    "t": "An imperial grid framed by mountains on two sides",
+    "s": "Beijing is laid out like a chessboard: straight avenues, a strict north–south axis and ring roads nested one inside another. Mountains curl around it on the west and north, while the plain opens towards the sea in the south-east. Its name means “northern capital”, and emperors ruled from here for most of the time since the 13th century.",
+    "w": "A vast grid on a flat plain, hemmed in by dark mountains to the north and west; at night, rectangular rings of light.",
+    "f": [
+      "The 2nd Ring Road traces the line of the old city walls, which were largely pulled down in the 20th century.",
+      "The Grand Canal, almost 1,800 km long, reaches its northern end on Beijing's eastern side.",
+      "The Forbidden City, finished in 1420, sits exactly on the city's north–south axis."
+    ],
+    "q": {
+      "q": "What does the name “Beijing” mean?",
+      "a": "Northern capital",
+      "x": [
+        "Southern capital",
+        "Western capital"
+      ]
+    }
+  },
+  "Q3630": {
+    "t": "Java's great sprawl, with a scatter of islands offshore",
+    "s": "Jakarta spreads over a flat, hazy plain where Java meets the shallow Java Sea, and the city seems to have no edge — it simply fades into its neighbours. Offshore, the Thousand Islands dot the water like crumbs. On a clear day, volcanic cones rise to the south. The Dutch called it Batavia and ran their East Indies trade from here.",
+    "w": "A huge grey sprawl on Java's north coast, a bay with small islands to the north, volcanoes on the southern horizon.",
+    "f": [
+      "Despite their name, the Thousand Islands off Jakarta number only a little over a hundred.",
+      "The Dutch East India Company founded Batavia here in 1619, on the site of the port of Jayakarta.",
+      "The old harbour of Sunda Kelapa still hosts wooden pinisi schooners."
+    ],
+    "q": {
+      "q": "What was Jakarta called under Dutch rule?",
+      "a": "Batavia",
+      "x": [
+        "Buitenzorg",
+        "Nieuw Amsterdam"
+      ]
+    }
+  },
+  "Q8686": {
+    "t": "Where the muddy Yangtze finally meets the sea",
+    "s": "Look for brown water turning blue: the Yangtze pours its silt into the East China Sea right beside Shanghai. The city lies flat on the south bank, cut in two by the winding Huangpu River. Out to sea, a hair-thin line runs across the water — a bridge more than 30 km long to an island container port.",
+    "w": "A giant flat city on the south side of the brown Yangtze estuary, with a long, low island in the river mouth.",
+    "f": [
+      "Chongming Island in the Yangtze mouth is built entirely of river silt and is about 80 km long.",
+      "Shanghai has been the world's busiest container port since 2010.",
+      "The name is usually read as “on the sea” or “upon the sea”."
+    ],
+    "q": {
+      "q": "Which river winds through the centre of Shanghai?",
+      "a": "The Huangpu",
+      "x": [
+        "The Pearl River",
+        "The Qiantang"
+      ]
+    }
+  },
+  "Q1490": {
+    "t": "A city that fills an entire plain, wrapped round a bay",
+    "s": "Tokyo does not so much end as run out of flat land: buildings cover the Kanto Plain, Japan's largest, from the mountains to the sea. The city wraps around Tokyo Bay, much of whose shore is reclaimed land. On a clear day Fuji's cone stands about 100 km to the south-west. Until 1868 this was Edo, the shoguns' city.",
+    "w": "Continuous city around a wide bay; Fuji's lone cone to the south-west; at night an unbroken carpet of lights.",
+    "f": [
+      "Odaiba is named after cannon batteries built in the bay in 1853–54, after Commodore Perry's ships arrived.",
+      "The name Tokyo means “eastern capital”; the emperor moved here from Kyoto in 1868–69.",
+      "The Aqua-Line runs out into Tokyo Bay and seems to stop at an island — the rest of the road is a tunnel under the seabed."
+    ],
+    "q": {
+      "q": "What was Tokyo called before 1868?",
+      "a": "Edo",
+      "x": [
+        "Naniwa",
+        "Heian-kyō"
+      ]
+    }
+  },
+  "Q1156": {
+    "t": "Seven islands stitched into one long peninsula",
+    "s": "Mumbai points south into the Arabian Sea like a thumb. It was once seven separate islands, joined from the 18th century onwards by causeways and landfill into one crowded strip. Harbour water lies to the east, open sea to the west. After dark, look for the bright curve of lights along Back Bay — locals call it the Queen's Necklace.",
+    "w": "A narrow finger of land jutting south into the sea, a wide harbour on its east side, a green forest patch in the north.",
+    "f": [
+      "Portugal handed Bombay to England in 1661 as part of Catherine of Braganza's dowry on her marriage to Charles II.",
+      "Sanjay Gandhi National Park, a forest with wild leopards, lies inside the city limits.",
+      "A sea bridge about 22 km long, opened in 2024, links the city with the mainland across the harbour."
+    ],
+    "q": {
+      "q": "Mumbai was formed by joining how many islands?",
+      "a": "Seven",
+      "x": [
+        "Three",
+        "Twelve"
+      ]
+    }
+  },
+  "Q1348": {
+    "t": "Former capital of British India on a delta river",
+    "s": "Kolkata stretches along the east bank of the Hooghly, a working arm of the Ganges, with Howrah facing it across the water. Beyond its eastern edge, a patchwork of ponds and marshes quietly cleans the city's wastewater and raises fish. Further south the land dissolves into the channels and mangroves of the Sundarbans. Until 1911, this was the capital of British India.",
+    "w": "A long city on a brown river running north–south; square fish ponds to the east, delta channels to the south.",
+    "f": [
+      "The East Kolkata Wetlands use the city's sewage to feed fish ponds and are a protected Ramsar site.",
+      "Kolkata's port lies on the river, well over 100 km from the open sea.",
+      "The Sundarbans to the south are the world's largest mangrove forest, shared with Bangladesh."
+    ],
+    "q": {
+      "q": "Which river flows through Kolkata?",
+      "a": "The Hooghly",
+      "x": [
+        "The Brahmaputra",
+        "The Mahanadi"
+      ]
+    }
+  },
+  "Q3130": {
+    "t": "A drowned valley of blue fingers, open to the Pacific",
+    "s": "Sydney's harbour is a drowned river valley, and from above it looks like a hand of blue fingers reaching deep into the city. Sandstone headlands guard its narrow mouth to the Pacific. South lies Botany Bay, where the airport's runways run out into the water. To the west, the Blue Mountains rise in a haze that really does look blue.",
+    "w": "A deep, branching harbour entering the coast between two headlands; a round bay with runways to the south.",
+    "f": [
+      "The blue haze over the Blue Mountains comes from oils evaporating from eucalyptus leaves.",
+      "James Cook landed at Botany Bay in 1770; the First Fleet settled at Sydney Cove in 1788.",
+      "The Harbour Bridge, opened in 1932, is nicknamed the Coathanger for the shape of its arch."
+    ],
+    "q": {
+      "q": "Where did James Cook land in 1770, on Sydney's south side?",
+      "a": "Botany Bay",
+      "x": [
+        "Moreton Bay",
+        "Port Phillip Bay"
+      ]
+    }
+  },
+  "Q334": {
+    "t": "An island nation ringed by hundreds of waiting ships",
+    "s": "Before the city, you notice the sea: hundreds of ships at anchor in the Singapore Strait, scattered like grains of rice. The diamond-shaped island at the tip of the Malay Peninsula has grown by roughly a quarter through land reclamation, and its straight new shorelines are easy to spot. The equator lies less than 150 km to the south.",
+    "w": "A diamond-shaped island just off the Malay Peninsula, joined by a causeway, with anchored ships speckling the strait.",
+    "f": [
+      "Stamford Raffles set up a British trading post here in 1819.",
+      "The name comes from the Malay Singapura, “lion city”.",
+      "Jurong Island, the refining hub in the south-west, was made by joining seven small islands with landfill."
+    ],
+    "q": {
+      "q": "What does the name “Singapura” mean?",
+      "a": "Lion city",
+      "x": [
+        "Tiger city",
+        "City by the sea"
+      ]
+    }
+  },
+  "Q8646": {
+    "t": "Green mountains, a crowded shore and a fragrant harbour",
+    "s": "From above, Hong Kong is surprisingly green: steep, forested hills and dozens of islands, with the city packed into thin strips along the shore. Victoria Harbour, a narrow blue channel, separates Kowloon from Hong Kong Island. Further west, look for the airport on a flat man-made platform and a long bridge striking out across the Pearl River estuary.",
+    "w": "Hilly green islands and a peninsula, dense city lining a narrow harbour; a rectangular airport island to the west.",
+    "f": [
+      "About 40 percent of Hong Kong's land is protected as country parks.",
+      "The bridge to Zhuhai and Macau is about 55 km long and dips into an undersea tunnel between two artificial islands.",
+      "The name means “fragrant harbour”, probably after the incense wood once shipped from here."
+    ],
+    "q": {
+      "q": "What does the name “Hong Kong” mean?",
+      "a": "Fragrant harbour",
+      "x": [
+        "Pearl harbour",
+        "Deep harbour"
+      ]
+    }
+  },
+  "Q1353": {
+    "t": "Seven cities in one, on the banks of the Yamuna",
+    "s": "Delhi has been rebuilt again and again on the same stretch of the Yamuna, and tradition counts at least seven historic cities layered here. From above, the river runs down the eastern side, braided with sandbars in the dry season. A low, scrubby ridge — the last tip of the ancient Aravalli hills — cuts through the west. At night the glow spreads far across the plain.",
+    "w": "A huge sprawl on a flat plain, a braided river along its east side, a dark wooded ridge through the west.",
+    "f": [
+      "Old Delhi, or Shahjahanabad, was built by Shah Jahan, creator of the Taj Mahal; its Red Fort was finished in 1648.",
+      "The Aravalli Range, whose last spur ends in Delhi, is one of the oldest mountain ranges on Earth.",
+      "The Iron Pillar near the Qutb Minar has stood for about 1,600 years with remarkably little rust."
+    ],
+    "q": {
+      "q": "Which river flows past Delhi?",
+      "a": "The Yamuna",
+      "x": [
+        "The Ganges",
+        "The Sutlej"
+      ]
+    }
+  },
+  "Q269": {
+    "t": "A green oasis city at the foot of the Tian Shan",
+    "s": "Tashkent spreads as a broad, leafy grid across an irrigated plain, fed by canals drawn from the Chirchiq River. To the north-east the land rises into the first ridges of the Tian Shan, snowy in winter and spring, and the turquoise Charvak Reservoir fills a mountain valley. Caravans on the Silk Road knew this oasis as Chach.",
+    "w": "A large green grid on a flat plain; mountains rising to the north-east with a turquoise reservoir in a valley.",
+    "f": [
+      "The name is usually read as “stone city” in Turkic.",
+      "Tashkent's metro, opened in 1977, was the first in Central Asia.",
+      "It is the most populous city in Central Asia."
+    ],
+    "q": {
+      "q": "What does the name “Tashkent” most likely mean?",
+      "a": "Stone city",
+      "x": [
+        "Green city",
+        "Sun city"
+      ]
+    }
+  },
+  "Q1861": {
+    "t": "City of angels on a looping brown river",
+    "s": "The Chao Phraya winds through Bangkok in lazy brown loops, and the whole city sits on a delta so flat it barely rises above the sea. Around it, rice fields and square fish ponds stretch to the Gulf of Thailand, about 30 km south. Thais rarely say Bangkok: they call it Krung Thep, the city of angels.",
+    "w": "A vast flat grey city on a looping brown river, with a grid of green fields and ponds between it and the gulf.",
+    "f": [
+      "Bangkok's full ceremonial name is one of the longest place names in the world.",
+      "It became the capital in 1782, when King Rama I moved the court across the river from Thonburi.",
+      "Its old network of canals earned Bangkok the nickname “Venice of the East”."
+    ],
+    "q": {
+      "q": "What do Thais usually call Bangkok?",
+      "a": "Krung Thep",
+      "x": [
+        "Ayutthaya",
+        "Sukhothai"
+      ]
+    }
+  },
+  "Q8684": {
+    "t": "A wide river and granite peaks inside one capital",
+    "s": "Seoul is a bowl of city among steep granite mountains, split by the broad Han River. Up to a kilometre wide here, the Han is crossed by more than 25 bridges that show as fine stitches across the water. Joseon kings made it their capital in 1394: mountains behind, a river in front — ideal by the rules of geomancy.",
+    "w": "A broad river curving west through a dense city ringed by rocky, wooded mountains; bridges cross it every kilometre or two.",
+    "f": [
+      "Joseon kings ringed their capital with a stone wall about 18 km long, begun in 1396.",
+      "Bukhansan, a national park of granite peaks, rises right on the city's northern edge.",
+      "In Korean, the word “Seoul” simply means “capital”."
+    ],
+    "q": {
+      "q": "Which river flows through Seoul?",
+      "a": "The Han",
+      "x": [
+        "The Nakdong",
+        "The Taedong"
+      ]
+    }
+  },
+  "Q1461": {
+    "t": "A great round bay, a river and a lake behind the city",
+    "s": "Manila lines the eastern shore of a broad, almost circular bay, famous for its sunsets. The Pasig River threads through the city, linking the bay to Laguna de Bay, the largest lake in the Philippines. For 250 years Spanish galleons sailed from here to Mexico, carrying Chinese silk and porcelain across the Pacific.",
+    "w": "A dense city on the east shore of a wide round bay; a river winds east to a huge lake.",
+    "f": [
+      "The Spanish founded walled Intramuros in 1571; the Manila galleons ran to Acapulco from 1565 to 1815.",
+      "The name comes from nilad, a mangrove shrub that once grew along the river.",
+      "Laguna de Bay is very shallow: on average it is only about three metres deep."
+    ],
+    "q": {
+      "q": "Where did the Manila galleons sail to across the Pacific?",
+      "a": "Acapulco",
+      "x": [
+        "Lima",
+        "San Francisco"
+      ]
+    }
+  },
+  "Q16959": {
+    "t": "The big city farthest from any sea",
+    "s": "No large city on Earth lies farther from the ocean than Ürümqi — the nearest coastline is about 2,500 km away. It fills a valley on the northern foot of the Tian Shan, with the snowy massif of Bogda Peak rising to the east. North of the city the land flattens into the dry Dzungarian Basin.",
+    "w": "A long city in a valley below snowy mountains; the glaciers of Bogda Peak to the east, dry basin to the north.",
+    "f": [
+      "Bogda Peak is 5,445 m high — and still more than 5 km below you.",
+      "The Gurbantünggüt, China's second-largest desert, fills the basin north of the city.",
+      "The name comes from Mongolian and means “beautiful pasture”."
+    ],
+    "q": {
+      "q": "Roughly how far is Ürümqi from the nearest sea?",
+      "a": "About 2,500 km",
+      "x": [
+        "About 900 km",
+        "About 5,000 km"
+      ]
+    }
+  },
+  "Q30002": {
+    "t": "A round city on a plain watered since 256 BC",
+    "s": "Chengdu sits on a remarkably flat, green plain on the western edge of the Sichuan Basin, its ring roads drawing concentric circles. Just west, mountains rise abruptly towards the Tibetan Plateau. The plain owes its fertility to Dujiangyan, an irrigation system built around 256 BC that still splits the Min River into a fan of canals.",
+    "w": "A round city of concentric ring roads on a green plain; a wall of mountains rising sharply to the west.",
+    "f": [
+      "An old saying claims Sichuan's dogs bark at the sun because they see it so rarely through the haze.",
+      "Dujiangyan, about 50 km north-west of the city, is a UNESCO World Heritage site.",
+      "Chengdu has had a giant panda breeding centre since 1987."
+    ],
+    "q": {
+      "q": "Which ancient irrigation system still waters the Chengdu Plain?",
+      "a": "Dujiangyan",
+      "x": [
+        "The Grand Canal",
+        "The Lingqu Canal"
+      ]
+    }
+  },
+  "Q35765": {
+    "t": "Japan's old kitchen, with an airport out in the bay",
+    "s": "Osaka fills the flat land at the head of Osaka Bay, where the Yodo River splits into channels on its way to the sea. The built-up area runs on without a break towards Kobe and Kyoto. Out in the bay, look for a neat rectangle joined to the shore by a single long bridge: Kansai Airport, built on a man-made island.",
+    "w": "A continuous city around the head of a bay; a rectangular airport island offshore, linked by one bridge.",
+    "f": [
+      "Osaka ruled the rice trade in the Edo period so completely that it was called “the nation's kitchen”.",
+      "Toyotomi Hideyoshi began building Osaka Castle in 1583.",
+      "In neighbouring Sakai, the keyhole-shaped burial mound of Emperor Nintoku is about 486 m long."
+    ],
+    "q": {
+      "q": "What was Osaka nicknamed in the Edo period?",
+      "a": "The nation's kitchen",
+      "x": [
+        "The nation's forge",
+        "The nation's garden"
+      ]
+    }
+  },
+  "Q987": {
+    "t": "A planned imperial capital inside a far older city",
+    "s": "Within Delhi's endless sprawl, look for a greener, looser patch south of the old city: that is New Delhi. It was planned from scratch after 1911, when Britain decided to move its Indian capital here from Calcutta. Architects Edwin Lutyens and Herbert Baker laid out broad avenues meeting at roundabouts, with a ceremonial axis running east from Raisina Hill.",
+    "w": "A greener, more open patch in the middle of the Delhi sprawl, a few kilometres west of the Yamuna.",
+    "f": [
+      "New Delhi was formally inaugurated as the capital in 1931, twenty years after the move was announced.",
+      "Its plan is built from triangles and hexagons, with avenues radiating out from roundabouts.",
+      "The presidential palace on Raisina Hill has about 340 rooms."
+    ],
+    "q": {
+      "q": "When was New Delhi formally inaugurated as the capital?",
+      "a": "1931",
+      "x": [
+        "1911",
+        "1947"
+      ]
+    }
+  },
+  "Q1355": {
+    "t": "A garden city of lakes on a cool high plateau",
+    "s": "Bengaluru sits about 900 m up on the Deccan Plateau, which keeps it noticeably cooler than India's coastal cities. From above, look for dozens of lakes glinting across the sprawl: most are old reservoirs, or tanks, made centuries ago by damming shallow valleys. A local chieftain, Kempe Gowda, founded the city with a mud fort in 1537.",
+    "w": "A sprawling city on rolling upland, freckled with lakes of all sizes; bare granite hills rise to the north.",
+    "f": [
+      "Its many software companies have earned it the nickname “India's Silicon Valley”.",
+      "Lalbagh, a botanical garden begun under Hyder Ali in the 18th century, helped earn it the name “Garden City”.",
+      "In 2014 the official name changed from Bangalore to Bengaluru, as it has always been called in Kannada."
+    ],
+    "q": {
+      "q": "Roughly how high above sea level is Bengaluru?",
+      "a": "About 900 m",
+      "x": [
+        "About 100 m",
+        "About 2,000 m"
+      ]
+    }
+  },
+  "Q5838": {
+    "t": "A high mountain valley where Babur chose to rest",
+    "s": "Kabul lies about 1,800 m up, in a bowl of bare brown mountains, with rocky ridges rising right through the city itself. The Kabul River winds east from here towards the Khyber Pass and, eventually, the Indus. In winter the snowy wall of the Hindu Kush shines to the north. Babur, founder of the Mughal Empire, loved this valley and chose to be buried here.",
+    "w": "A dense city in a high, dry basin with bare ridges poking through it; snowy mountains to the north.",
+    "f": [
+      "Babur's tomb stands in Bagh-e Babur, a terraced garden he laid out himself.",
+      "At about 1,800 m, Kabul stands higher than the summit of Ben Nevis, Britain's highest mountain.",
+      "The Kabul River flows east into Pakistan and joins the Indus at Attock."
+    ],
+    "q": {
+      "q": "Which Mughal emperor chose to be buried in Kabul?",
+      "a": "Babur",
+      "x": [
+        "Akbar",
+        "Aurangzeb"
+      ]
+    }
+  },
+  "Q3141": {
+    "t": "A city at the head of a vast, nearly closed bay",
+    "s": "Melbourne sits at the top of Port Phillip Bay, a huge sheet of water almost sealed off from the ocean. Its entrance, the Rip, is only about 3 km wide and has a fierce reputation among sailors. The Yarra River curls into the centre from the east, where the forested Dandenong Ranges rise. A gold rush in the 1850s made this one of the richest cities in the world.",
+    "w": "A sprawling city around the head of a huge, almost round bay; wooded hills to the east, flat plains to the west.",
+    "f": [
+      "From 1901 to 1927 Australia's federal parliament sat in Melbourne, until Canberra was ready.",
+      "The city was founded in 1835 on the banks of the Yarra.",
+      "Port Phillip Bay covers nearly 2,000 km², yet is nowhere deeper than about 24 m."
+    ],
+    "q": {
+      "q": "Roughly how wide is the entrance to Port Phillip Bay?",
+      "a": "About 3 km",
+      "x": [
+        "About 30 km",
+        "About 300 m"
+      ]
+    }
+  },
+  "Q1867": {
+    "t": "A city poured into a basin of green mountains",
+    "s": "Taipei fills a flat basin like water in a bowl, with forested mountains rising on every side. To the north, the dormant volcanoes of Yangmingshan steam quietly, feeding hot springs on the city's edge. Three rivers join in the basin and leave through a single gap to the north-west as the Tamsui, heading for the Taiwan Strait.",
+    "w": "A dense city filling a round basin, green mountains all around, a river snaking out north-west to the sea.",
+    "f": [
+      "Taipei 101, finished in 2004, was the world's tallest building until 2010.",
+      "Qixing Mountain in Yangmingshan, about 1,120 m high, is a dormant volcano within the city limits.",
+      "The hot springs of Beitou, on the north side of the city, are heated by the same volcanic group."
+    ],
+    "q": {
+      "q": "Which river drains the Taipei Basin to the sea?",
+      "a": "The Tamsui",
+      "x": [
+        "The Zhuoshui",
+        "The Gaoping"
+      ]
+    }
+  },
+  "Q37100": {
+    "t": "A city on a narrow neck between two seas",
+    "s": "Auckland is squeezed onto a narrow isthmus: the Waitematā Harbour opens east to the Pacific, the Manukau Harbour west to the Tasman Sea. The city sits on a field of about 50 small volcanoes, and many survive as green grassy cones among the suburbs. Just offshore, look for Rangitoto, a symmetrical island that rose from the sea only about 600 years ago.",
+    "w": "A city on a thin neck of land between two harbours, dotted with green cones; a round, symmetrical island just offshore.",
+    "f": [
+      "At its narrowest the isthmus is so thin that Māori once hauled canoes across it from one harbour to the other.",
+      "Auckland's Māori name, Tāmaki Makaurau, is often translated as “Tāmaki desired by many”.",
+      "Rangitoto is both the youngest and the largest volcano in the Auckland field."
+    ],
+    "q": {
+      "q": "Roughly how many volcanoes make up the Auckland volcanic field?",
+      "a": "About 50",
+      "x": [
+        "About 5",
+        "About 500"
+      ]
+    }
+  },
+  "Q15174": {
+    "t": "A boomtown along Hong Kong's northern edge",
+    "s": "Shenzhen runs in a long ribbon along the coast, facing the green hills of Hong Kong across a narrow river. Before 1980 this was a quiet border district of paddies and fishing villages; that year it became one of China's first Special Economic Zones and began growing at astonishing speed. At night its lights run almost unbroken from the Pearl River estuary to the eastern peninsulas.",
+    "w": "A long band of city along the coast just north of Hong Kong; a bay with a bridge on the west side.",
+    "f": [
+      "The Shenzhen River forms much of the boundary with Hong Kong.",
+      "A bridge about 5 km long crosses Shenzhen Bay to Hong Kong's New Territories.",
+      "Mangroves still line Shenzhen Bay at Futian, a protected refuge for migrating birds."
+    ],
+    "q": {
+      "q": "In which year did Shenzhen become a Special Economic Zone?",
+      "a": "1980",
+      "x": [
+        "1949",
+        "1997"
+      ]
+    }
+  },
+  "Q198370": {
+    "t": "A city of scattered towns, and football's ancient home",
+    "s": "Zibo is less one city than a loose cluster of towns, strung out where the hills of central Shandong fall away to the North China Plain. One of them, Linzi, was the capital of the ancient state of Qi and among the largest cities of its age. Another, Boshan, has been known for ceramics and coloured glass for centuries.",
+    "w": "Several separate urban patches spread along the edge of low hills, with the flat plain opening to the north.",
+    "f": [
+      "In 2004 FIFA recognised cuju, played in Linzi over 2,000 years ago, as the earliest known form of football.",
+      "Linzi remained the capital of Qi for centuries, until the Qin conquest in 221 BC."
+    ],
+    "q": {
+      "q": "Zibo's Linzi district is honoured as the birthplace of which sport?",
+      "a": "Football",
+      "x": [
+        "Table tennis",
+        "Badminton"
+      ]
+    }
+  },
+  "Q1858": {
+    "t": "A thousand-year capital on the rust-brown river",
+    "s": "Hanoi sits on the right bank of the Red River, whose silt-laden water really does look rusty from above. The city is freckled with lakes, the biggest being West Lake in the north. All around, the flat, green Red River Delta is laid out in paddies. The Lý dynasty made this their capital in 1010, calling it Thăng Long, “ascending dragon”.",
+    "w": "A city on the south-west bank of a broad brown river, with a large lake on its north side, amid flat green paddies.",
+    "f": [
+      "The name Hà Nội means roughly “inside the river”; the city received it in 1831.",
+      "West Lake, the largest lake in Hanoi, covers about 500 hectares."
+    ],
+    "q": {
+      "q": "What was Hanoi called when it became the capital in 1010?",
+      "a": "Thăng Long",
+      "x": [
+        "Phú Xuân",
+        "Gia Định"
+      ]
+    }
+  },
+  "Q1854": {
+    "t": "River loops, a vast delta and a maze of mangroves",
+    "s": "The Saigon River loops through the city in tight, shining bends before heading for the sea. South-east of the centre, the land gives way to Cần Giờ, a dark green maze of mangroves and tidal channels. To the south-west spreads the Mekong Delta, one of the great rice bowls of Asia. Many residents still call the city by its old name, Saigon.",
+    "w": "A dense city on a looping river; dark mangrove channels to the south-east, flat green delta to the south-west.",
+    "f": [
+      "The Cần Giờ mangrove forest is a UNESCO biosphere reserve.",
+      "Before Vietnamese settlers arrived in the 17th century, a Khmer port called Prey Nokor stood here."
+    ],
+    "q": {
+      "q": "Which mangrove forest lies between Ho Chi Minh City and the sea?",
+      "a": "Cần Giờ",
+      "x": [
+        "The Sundarbans",
+        "Bhitarkanika"
+      ]
+    }
+  },
+  "Q11739": {
+    "t": "A Mughal city of gardens on the Punjab plain",
+    "s": "Lahore spreads across the flat Punjab plain, with the Ravi River curving past its north-western edge. Irrigation canals draw straight lines through the fields around it. For centuries this was one of the great cities of the Mughal Empire, and Akbar kept his capital here for more than a decade. The old walled city is still a tight knot of lanes near the river.",
+    "w": "A large flat city with a river on its north-west side and straight canals running through green fields.",
+    "f": [
+      "Akbar held his court at Lahore from 1585 to 1598.",
+      "Lahore Fort and the Shalimar Gardens are listed together as one UNESCO World Heritage site.",
+      "The walled city was once entered through about a dozen gates."
+    ],
+    "q": {
+      "q": "Which river flows past Lahore?",
+      "a": "The Ravi",
+      "x": [
+        "The Jhelum",
+        "The Kabul"
+      ]
+    }
+  },
+  "Q8660": {
+    "t": "A megacity on a dry coast beside the Indus Delta",
+    "s": "Karachi sprawls over a dry, sand-coloured coast, with bare hills behind it and the Arabian Sea in front. Its harbour is sheltered by a low spit of land, and to the south-east the shore frays into mangrove creeks where the Indus Delta begins. In the 18th century this was a small fishing settlement; today it is Pakistan's largest city.",
+    "w": "A vast beige city on a straight dry coast; a sheltered harbour and mangrove creeks to the south-east, bare hills inland.",
+    "f": [
+      "Its old name was Kolachi, after a fishing village on this shore.",
+      "Karachi was Pakistan's capital from 1947 until 1959.",
+      "The Indus Delta mangroves to the south-east are among the largest mangrove forests in a dry climate."
+    ],
+    "q": {
+      "q": "What was Karachi's name as an 18th-century fishing village?",
+      "a": "Kolachi",
+      "x": [
+        "Thatta",
+        "Gwadar"
+      ]
+    }
+  },
+  "Q18808": {
+    "t": "A river-island city once called the capital of willows",
+    "s": "Pyongyang lies on both banks of the Taedong River, which flows here in wide, calm reaches around long, low islands. Beyond the city, flat farmland and low hills stretch towards the Yellow Sea, about 50 km to the south-west. The name means “flat land”, and in 427 the Goguryeo kingdom moved its capital here.",
+    "w": "A city on both banks of a broad river with long islands; the river winds south-west across flat farmland to the sea.",
+    "f": [
+      "An old name for the city is Ryugyong, “capital of willows”, after the trees along its riverbanks.",
+      "Goguryeo ruled from Pyongyang for more than two centuries, from 427 until 668."
+    ],
+    "q": {
+      "q": "Which river flows through Pyongyang?",
+      "a": "The Taedong",
+      "x": [
+        "The Han",
+        "The Yalu"
+      ]
+    }
+  },
+  "Q5972": {
+    "t": "Sumatra's biggest city, built on tobacco",
+    "s": "Medan spreads over the flat coastal plain of north-eastern Sumatra, a few kilometres inland from the Strait of Malacca. Around it, plantations lay out the land in vast, tidy grids. In the 19th century the leaf grown here, Deli tobacco, was prized worldwide as cigar wrapper, and a small village grew rich. To the south-west, volcanic cones rise towards the great caldera lake of Toba.",
+    "w": "A grey sprawl on a flat plain near the coast, ringed by gridded plantations; volcanic peaks on the south-west horizon.",
+    "f": [
+      "Medan is the largest city on Sumatra.",
+      "Lake Toba, south of the city, fills the caldera of a supervolcano that erupted about 74,000 years ago.",
+      "Deli tobacco, named after the local sultanate, was grown here for cigar wrappers from the 1860s."
+    ],
+    "q": {
+      "q": "Which crop made Medan rich in the 19th century?",
+      "a": "Tobacco",
+      "x": [
+        "Nutmeg",
+        "Cloves"
+      ]
+    }
+  },
+  "Q1865": {
+    "t": "A muddy river junction that tin turned into a capital",
+    "s": "Kuala Lumpur fills the Klang Valley, with the forested ridges of the Titiwangsa Mountains rising to the east. The city began in the 1850s as a rough camp of tin miners, and many of the lakes glinting around it are old flooded mine pits. To the south, look for Putrajaya, a planned government town wrapped around a large artificial lake.",
+    "w": "A dense city in a green valley, forested mountains to the east, scattered lakes around it and a planned town to the south.",
+    "f": [
+      "Kuala Lumpur means “muddy confluence”: it grew where the Gombak River meets the Klang.",
+      "The Petronas Twin Towers were the world's tallest buildings from 1998 to 2004.",
+      "Batu Caves, in a limestone hill on the city's northern edge, have been a Hindu shrine since the 1890s."
+    ],
+    "q": {
+      "q": "What does the name “Kuala Lumpur” mean?",
+      "a": "Muddy confluence",
+      "x": [
+        "River of tin",
+        "Town of hills"
+      ]
+    }
+  },
+  "Q183584": {
+    "t": "A long, thin city squeezed along the Yellow River",
+    "s": "Lanzhou is a city with nowhere to spread: it runs for tens of kilometres along a narrow valley of the Yellow River, hemmed in by bare, ochre loess hills. From above it looks like a grey ribbon laid in a crease of the land. For Silk Road caravans, this was the key crossing of the Yellow River on the way west into the Hexi Corridor.",
+    "w": "A narrow grey ribbon of city following a winding river between bare yellow-brown hills.",
+    "f": [
+      "Zhongshan Bridge, finished in 1909, was the first permanent bridge across the Yellow River.",
+      "Before bridges, travellers crossed the river here on rafts buoyed by inflated sheepskins."
+    ],
+    "q": {
+      "q": "Which river runs through the middle of Lanzhou?",
+      "a": "The Yellow River",
+      "x": [
+        "The Yangtze",
+        "The Wei River"
+      ]
+    }
+  },
+  "Q179608": {
+    "t": "A green subtropical city in the loops of the Yong",
+    "s": "Nanning coils around the wide meanders of the Yong River, deep in China's subtropical south. The countryside around it is a patchwork of green hills and fields, many of them planted with sugarcane. The border with Vietnam is less than 200 km to the south-west, and since 2004 the city has hosted a yearly trade fair with South-East Asia.",
+    "w": "A city spread around broad river loops, with green hills and fields all around.",
+    "f": [
+      "Guangxi, whose capital is Nanning, grows more than half of China's sugarcane.",
+      "Its year-round greenery has earned Nanning the nickname “Green City”.",
+      "The Yong River flows on into the Xi River and eventually reaches the Pearl River Delta."
+    ],
+    "q": {
+      "q": "Which crop makes Guangxi China's biggest producer?",
+      "a": "Sugarcane",
+      "x": [
+        "Tea",
+        "Cotton"
+      ]
+    }
+  }
+}

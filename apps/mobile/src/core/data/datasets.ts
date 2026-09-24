@@ -8,6 +8,7 @@ import type {
   MultiPolygon,
   PlacesFile
 } from './types';
+import type { HistoryFile, HistoryItem, StoriesFile } from '../places/stories';
 
 /**
  * The bundled datasets, loaded once and kept in memory.
@@ -29,6 +30,8 @@ let places: DataPlace[] | null = null;
 let areas: Record<string, MultiPolygon> | null = null;
 let countries: DataCountry[] | null = null;
 let countryIndex: Map<string, DataCountry> | null = null;
+let history: HistoryItem[] | null = null;
+const stories = new Map<string, StoriesFile>();
 
 let loading: Promise<void> | null = null;
 
@@ -45,12 +48,14 @@ export function ensureDatasets(): Promise<void> {
     const read = async <T,>(mod: number) => JSON.parse(await readAssetText(mod)) as T;
     // The requires sit here, not at module level, so nothing is resolved
     // until the data is actually wanted.
-    const [a, p, ar, c] = await Promise.all([
+    const [a, p, ar, c, h] = await Promise.all([
       read<AirportsFile>(require('../../../assets/data/airports.skydata')),
       read<PlacesFile>(require('../../../assets/data/places.skydata')),
       read<AreasFile>(require('../../../assets/data/areas.skydata')),
-      read<CountriesFile>(require('../../../assets/data/countries.skydata'))
+      read<CountriesFile>(require('../../../assets/data/countries.skydata')),
+      read<HistoryFile>(require('../../../assets/data/history.skydata'))
     ]);
+    history = h.items;
     airports = a.airports;
     airportIndex = null;
     places = p.places;
@@ -62,6 +67,43 @@ export function ensureDatasets(): Promise<void> {
     throw e;
   });
   return loading;
+}
+
+/**
+ * Texts written for SkyAtlas, in one language. Loaded on demand — only the
+ * reader's language is ever held in memory — and cached.
+ */
+export async function loadStories(locale: string): Promise<StoriesFile | null> {
+  const lang = locale.slice(0, 2);
+  const cached = stories.get(lang);
+  if (cached) return cached;
+  const mods: Record<string, () => number> = {
+    en: () => require('../../../assets/data/stories.en.skydata'),
+    ru: () => require('../../../assets/data/stories.ru.skydata'),
+    de: () => require('../../../assets/data/stories.de.skydata'),
+    fr: () => require('../../../assets/data/stories.fr.skydata'),
+    es: () => require('../../../assets/data/stories.es.skydata'),
+    ja: () => require('../../../assets/data/stories.ja.skydata')
+  };
+  const mod = mods[lang];
+  if (!mod) return null;
+  try {
+    const { readAssetText } = await import('./assetText');
+    const file = JSON.parse(await readAssetText(mod())) as StoriesFile;
+    stories.set(lang, file);
+    return file;
+  } catch {
+    return null;
+  }
+}
+
+/** Stories already loaded for a language, or null. */
+export function storiesFor(locale: string): StoriesFile | null {
+  return stories.get(locale.slice(0, 2)) ?? null;
+}
+
+export function getHistory(): HistoryItem[] {
+  return history ?? [];
 }
 
 function need<T>(v: T | null, name: string): T {
@@ -100,7 +142,11 @@ export function setDatasetsForTesting(data: {
   places?: DataPlace[];
   areas?: Record<string, MultiPolygon>;
   countries?: DataCountry[];
+  history?: HistoryItem[];
+  stories?: StoriesFile[];
 }): void {
+  if (data.history) history = data.history;
+  for (const st of data.stories ?? []) stories.set(st.lang, st);
   if (data.airports) {
     airports = data.airports;
     airportIndex = null;

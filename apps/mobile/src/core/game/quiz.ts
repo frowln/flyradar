@@ -1,4 +1,4 @@
-import type { CountryPass, OfflinePackage, POI } from '@skyatlas/shared';
+import type { CountryPass, OfflinePackage, PlaceQuestion, POI } from '@skyatlas/shared';
 import { secondsByCountry } from '../places/countries';
 
 /**
@@ -11,19 +11,29 @@ import { secondsByCountry } from '../places/countries';
  * window.
  */
 
+export type QuizNote = { key: string; params: Record<string, string | number> } | { text: string };
+
 export interface QuizQuestion {
   id: string;
-  /** i18n key of the prompt, with params. */
+  /** i18n key of the prompt, with params (unused when `text` is set). */
   prompt: string;
   params: Record<string, string | number>;
+  /** A question written for one place, shown as it is. */
+  text?: string;
   options: string[];
   correctIdx: number;
+  /** Shown once answered — why the answer is what it is. */
+  explain?: QuizNote;
 }
 
 export interface QuizNaming {
   place: (poi: POI) => string;
   country: (cc: string) => string;
   side: (side: 'left' | 'right') => string;
+  /** The place's written text in the reader's language, if any. */
+  text?: (poi: POI) => { quiz?: PlaceQuestion; tagline?: string; facts: string[] };
+  duration?: (seconds: number) => string;
+  height?: (metres: number) => string;
 }
 
 /** Deterministic shuffle so a quiz does not change between renders. */
@@ -39,14 +49,51 @@ function shuffle<T>(xs: T[], seed: string): T[] {
   return out;
 }
 
-function withAnswer(id: string, prompt: string, params: QuizQuestion['params'], answer: string, wrong: string[]): QuizQuestion | null {
+function withAnswer(
+  id: string,
+  prompt: string,
+  params: QuizQuestion['params'],
+  answer: string,
+  wrong: string[],
+  explain?: QuizNote
+): QuizQuestion | null {
   const distinct = Array.from(new Set(wrong.filter((w) => w !== answer))).slice(0, 3);
   if (distinct.length < 1) return null;
   const options = shuffle([answer, ...distinct], id);
-  return { id, prompt, params, options, correctIdx: options.indexOf(answer) };
+  return { id, prompt, params, options, correctIdx: options.indexOf(answer), explain };
 }
 
-export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): QuizQuestion[] {
+/**
+ * Questions written for the places this flight passed — "When did Fuji last
+ * erupt?" — preferring places the passenger opened or saw, then the most
+ * notable. Their explanation is the place's first written fact.
+ */
+function placeQuestions(pkg: OfflinePackage, naming: QuizNaming, prefer: string[], max: number): QuizQuestion[] {
+  if (!naming.text || max <= 0) return [];
+  const liked = new Set(prefer);
+  const asked = pkg.pois
+    .map((poi) => ({ poi, text: naming.text!(poi) }))
+    .filter((x) => x.text.quiz && x.text.quiz.x.length >= 2)
+    .sort((a, b) => Number(liked.has(b.poi.id)) - Number(liked.has(a.poi.id)) || (b.poi.rank ?? 0) - (a.poi.rank ?? 0))
+    .slice(0, max);
+  return asked.map(({ poi, text }) => {
+    const q = text.quiz!;
+    const id = `${pkg.flight.id}-place-${poi.id}`;
+    const options = shuffle([q.a, ...q.x.slice(0, 2)], id);
+    const note = text.facts[0] ?? text.tagline;
+    return {
+      id,
+      prompt: '',
+      params: {},
+      text: q.q,
+      options,
+      correctIdx: options.indexOf(q.a),
+      explain: note ? { text: `${naming.place(poi)}: ${note}` } : undefined
+    };
+  });
+}
+
+export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 6, prefer: string[] = []): QuizQuestion[] {
   const qs: QuizQuestion[] = [];
   const passes: CountryPass[] = pkg.countries ?? [];
   const id = pkg.flight.id;
@@ -59,7 +106,10 @@ export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): Qu
       'quiz.longestCountry',
       {},
       naming.country(secs[0]![0]),
-      secs.slice(1, 4).map(([cc]) => naming.country(cc))
+      secs.slice(1, 4).map(([cc]) => naming.country(cc)),
+      naming.duration
+        ? { key: 'quiz.longestExplain', params: { country: naming.country(secs[0]![0]), time: naming.duration(secs[0]![1]) } }
+        : undefined
     );
     if (q) qs.push(q);
   }
@@ -76,7 +126,15 @@ export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): Qu
   const star = sided[0];
   if (star) {
     const other = star.side === 'left' ? 'right' : 'left';
-    const q = withAnswer(`${id}-side`, 'quiz.whichSide', { place: naming.place(star) }, naming.side(star.side), [naming.side(other)]);
+    const hook = naming.text?.(star).tagline;
+    const q = withAnswer(
+      `${id}-side`,
+      'quiz.whichSide',
+      { place: naming.place(star) },
+      naming.side(star.side),
+      [naming.side(other)],
+      hook ? { text: `${naming.place(star)}: ${hook}` } : undefined
+    );
     if (q) qs.push(q);
   }
 
@@ -90,7 +148,8 @@ export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): Qu
       'quiz.highestPeak',
       {},
       naming.place(peaks[0]!),
-      peaks.slice(1, 4).map(naming.place)
+      peaks.slice(1, 4).map(naming.place),
+      naming.height ? { key: 'quiz.peakExplain', params: { place: naming.place(peaks[0]!), h: naming.height(peaks[0]!.elevation!) } } : undefined
     );
     if (q) qs.push(q);
   }
@@ -98,7 +157,11 @@ export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): Qu
   // How many countries were below.
   const n = new Set(passes.map((p) => p.cc)).size;
   if (n >= 2) {
-    const q = withAnswer(`${id}-count`, 'quiz.countryCount', {}, String(n), [String(n - 1), String(n + 1), String(n + 2)]);
+    const list = Array.from(new Set(passes.map((p) => p.cc))).map(naming.country).join(', ');
+    const q = withAnswer(`${id}-count`, 'quiz.countryCount', {}, String(n), [String(n - 1), String(n + 1), String(n + 2)], {
+      key: 'quiz.countryExplain',
+      params: { list }
+    });
     if (q) qs.push(q);
   }
 
@@ -113,11 +176,16 @@ export function flightQuiz(pkg: OfflinePackage, naming: QuizNaming, max = 4): Qu
         'quiz.whichFirst',
         { a: naming.place(a), b: naming.place(b) },
         naming.place(a),
-        [naming.place(b)]
+        [naming.place(b)],
+        naming.duration
+          ? { key: 'quiz.firstExplain', params: { a: naming.place(a), ta: naming.duration(a.passAt ?? 0), b: naming.place(b), tb: naming.duration(b.passAt ?? 0) } }
+          : undefined
       );
       if (q) qs.push(q);
     }
   }
 
-  return qs.slice(0, max);
+  // Two or three about the flight, the rest about the places it passed.
+  const own = qs.slice(0, Math.min(3, max));
+  return [...own, ...placeQuestions(pkg, naming, prefer, max - own.length)];
 }

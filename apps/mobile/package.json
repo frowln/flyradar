@@ -12,7 +12,9 @@
     "typecheck": "tsc --noEmit",
     "check:i18n": "node scripts/check-i18n.mjs",
     "check:data": "node scripts/data/validate.mjs",
-    "preview:web": "node scripts/preview/shoot.mjs"
+    "preview:web": "node scripts/preview/shoot.mjs",
+    "check:content": "node content/validate.mjs",
+    "build:content": "node scripts/content/build.mjs"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.4.2",

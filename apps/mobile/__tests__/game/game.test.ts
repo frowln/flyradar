@@ -6,7 +6,7 @@ import { flightQuiz } from '../../src/core/game/quiz';
 import { recordFromFlight } from '../../src/core/game/record';
 import { buildRoute } from '../../src/core/route/profile';
 import type { FlightRecord } from '../../src/core/game/types';
-import type { OfflinePackage } from '@skyatlas/shared';
+import type { OfflinePackage, POI } from '@skyatlas/shared';
 
 const continent: Record<string, string> = { RU: 'Europe', TR: 'Asia', GE: 'Asia', US: 'North America', GB: 'Europe' };
 const cont = (cc: string) => continent[cc];
@@ -177,5 +177,49 @@ describe('flight quiz and record', () => {
     });
     expect(full.countries).toEqual(['RU', 'GE', 'TR']);
     expect(full.toCC).toBe('TR');
+  });
+});
+
+describe('quiz about the places passed', () => {
+  const route = [
+    { lat: 55, lon: 37, altitude: 0, elapsedSeconds: 0 },
+    { lat: 45, lon: 38, altitude: 11000, elapsedSeconds: 7200 }
+  ];
+  const q = (a: string) => ({ q: `Question ${a}?`, a, x: [`${a}-wrong-1`, `${a}-wrong-2`] });
+  const place = (id: string, rank: number, withQ = true): POI => ({
+    id,
+    name: id,
+    category: 'lake',
+    lat: 0,
+    lon: 0,
+    summary: '',
+    facts: withQ ? [`Fact about ${id}.`] : [],
+    photos: [],
+    rank,
+    passAt: 1000,
+    quiz: withQ ? q(id) : undefined
+  });
+  const pkg = {
+    version: 2,
+    flight: { id: 'F' },
+    route,
+    pois: [place('low', 5), place('high', 9), place('seen', 3), place('none', 10, false)],
+    generatedAt: '',
+    countries: []
+  } as unknown as OfflinePackage;
+  const naming = {
+    place: (p: POI) => p.name,
+    country: (cc: string) => cc,
+    side: (s: string) => s,
+    text: (p: POI) => ({ quiz: p.quiz, tagline: p.tagline, facts: p.facts })
+  };
+
+  it('asks written questions, preferring places the passenger saw, then the notable ones', () => {
+    const qs = flightQuiz(pkg, naming, 2, ['seen']);
+    expect(qs.map((x) => x.text)).toEqual(['Question seen?', 'Question high?']);
+    const first = qs[0]!;
+    expect(first.options[first.correctIdx]).toBe('seen');
+    expect(first.options).toHaveLength(3);
+    expect(first.explain).toEqual({ text: 'seen: Fact about seen.' });
   });
 });

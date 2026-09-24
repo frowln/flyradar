@@ -1,7 +1,7 @@
 import type { OfflinePackage, POI } from '@skyatlas/shared';
 import { composePackage } from '../core/offline/buildPackage';
 import { savePackage } from '../core/offline/packageStore';
-import { airportByIata, getAreas, getCountries, getPlaces } from '../core/data/datasets';
+import { airportByIata, getAreas, getCountries, getHistory, getPlaces, loadStories, storiesFor } from '../core/data/datasets';
 import { useSession } from '../core/flight/session';
 import { saveRecord, clearJournal } from '../core/game/journal';
 import { recordFromFlight } from '../core/game/record';
@@ -123,11 +123,12 @@ function pkgFor(from: string, to: string, depart: Date, seat: 'left' | 'right' |
       seat: seat === 'unknown' ? undefined : { side: seat, label: seat === 'left' ? '23A' : '23F' },
       locale
     },
-    { places: getPlaces(), areas: getAreas(), countries: getCountries() }
+    { places: getPlaces(), areas: getAreas(), countries: getCountries(), history: getHistory(), stories: storiesFor(locale) }
   );
   pkg.pois = pkg.pois.map((p) => {
     const sample = SAMPLE_TEXT[p.name];
-    if (!sample) return p;
+    // Written texts, once they exist for a place, are what the app shows.
+    if (!sample || p.textSource === 'editorial') return p;
     const translations = { ...p.translations };
     for (const [l, text] of Object.entries(sample)) {
       if (l === 'en' || !text) continue;
@@ -177,6 +178,7 @@ export async function installPreview(): Promise<void> {
     // ignore
   }
   setLocale(lang);
+  await loadStories(lang);
   if (scenario !== 'onboarding') markOnboardingComplete();
   clearJournal();
   useSession.getState().end();

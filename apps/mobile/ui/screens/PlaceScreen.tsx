@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { View, StyleSheet, Animated, Pressable, Linking } from 'react-native';
+import { View, StyleSheet, Animated, Pressable, Linking, ScrollView, useWindowDimensions } from 'react-native';
 import { Image } from 'expo-image';
 import * as Speech from 'expo-speech';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -8,7 +8,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { OfflinePackage, POI } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Display, Label, Body, BodyLarge, Data, DataSmall, Small } from '../design/type';
-import { Screen, Gutter, Cells, Space, PressSurface, Rule, Row } from '../design/layout';
+import { Screen, Gutter, Cells, Space, PressSurface, Rule, Row, decorative } from '../design/layout';
 import { useReveal, useReducedMotion } from '../motion';
 import PlaceFigure from '../components/PlaceFigure';
 import SideMark from '../components/SideMark';
@@ -69,6 +69,57 @@ function PassLine({ poi, pkg }: { poi: POI; pkg: OfflinePackage }) {
         <Body>{where}</Body>
         {when ? <Small tone="accent">{when}</Small> : null}
       </View>
+    </View>
+  );
+}
+
+/** The photos, swiped through, each with its own author and licence. */
+function Gallery({ poi, name }: { poi: POI; name: string }) {
+  const { width } = useWindowDimensions();
+  const [page, setPage] = useState(0);
+  const photos = poi.photos;
+  const credits = poi.photoCredits ?? (poi.photoCredit ? [poi.photoCredit] : []);
+  const credit = credits[page];
+  return (
+    <View style={styles.hero}>
+      {photos.length ? (
+        <ScrollView
+          horizontal
+          pagingEnabled
+          showsHorizontalScrollIndicator={false}
+          onMomentumScrollEnd={(e) => setPage(Math.round(e.nativeEvent.contentOffset.x / width))}
+        >
+          {photos.map((uri, i) => (
+            <Image
+              key={`${uri}-${i}`}
+              source={{ uri }}
+              style={{ width, height: HERO_HEIGHT }}
+              contentFit="cover"
+              transition={240}
+              accessibilityLabel={photos.length > 1 ? t('place.photo', { name, n: i + 1, total: photos.length }) : name}
+            />
+          ))}
+        </ScrollView>
+      ) : (
+        <PlaceFigure category={poi.category} seed={poi.id} height={HERO_HEIGHT} />
+      )}
+      <View style={styles.plate}>
+        <Label tone="accent" numberOfLines={1}>
+          {t(`category.${poi.category}`)}
+        </Label>
+      </View>
+      {photos.length > 1 ? (
+        <View style={styles.pager} {...decorative}>
+          <DataSmall allowFontScaling={false}>{`${page + 1} / ${photos.length}`}</DataSmall>
+        </View>
+      ) : null}
+      {photos.length && credit ? (
+        <View style={styles.credit}>
+          <DataSmall numberOfLines={1} allowFontScaling={false}>
+            {`© ${credit}`}
+          </DataSmall>
+        </View>
+      ) : null}
     </View>
   );
 }
@@ -164,7 +215,7 @@ export default function PlaceScreen() {
     }
     const text = placeText(poi, locale);
     setSpeaking(true);
-    Speech.speak(`${placeName(poi, locale)}. ${text.summary || describePlace(poi, locale)}`, {
+    Speech.speak([placeName(poi, locale), text.summary || describePlace(poi, locale), text.look].filter(Boolean).join('. '), {
       language: text.textLang ?? locale,
       onDone: () => setSpeaking(false),
       onStopped: () => setSpeaking(false),
@@ -191,12 +242,12 @@ export default function PlaceScreen() {
 
   const name = placeName(poi, locale);
   const text = placeText(poi, locale);
-  const facts = placeFacts(poi, pkg);
+  // Written facts first; the ones computed from the flight add what they cannot know.
+  const facts = [...text.facts, ...placeFacts(poi, pkg)];
   const locked =
     MONETIZATION_ENABLED &&
     !fullAccess(getRecords().filter((r) => r.flightId !== flightId).length === 0) &&
     !canOpenPlace(flightId, poi.id);
-  const photo = poi.photos[0];
   const seen = inViewSeconds(poi);
   const closest = km(poi.closestApproachKm ?? 0);
   const cells = [
@@ -214,25 +265,7 @@ export default function PlaceScreen() {
         scrollEventThrottle={16}
         onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: true })}
       >
-        <View style={styles.hero}>
-          {photo ? (
-            <Image source={{ uri: photo }} style={styles.photo} contentFit="cover" transition={240} />
-          ) : (
-            <PlaceFigure category={poi.category} seed={poi.id} height={HERO_HEIGHT} />
-          )}
-          <View style={styles.plate}>
-            <Label tone="accent" numberOfLines={1}>
-              {t(`category.${poi.category}`)}
-            </Label>
-          </View>
-          {photo && poi.photoCredit ? (
-            <View style={styles.credit}>
-              <DataSmall numberOfLines={1} allowFontScaling={false}>
-                {`© ${poi.photoCredit}`}
-              </DataSmall>
-            </View>
-          ) : null}
-        </View>
+        <Gallery poi={poi} name={name} />
 
         <Animated.View style={reveal}>
           <Gutter>
@@ -246,7 +279,7 @@ export default function PlaceScreen() {
             ) : null}
             <Space h={s.x2} />
             <DataSmall>
-              {[poi.country ? countryName(poi.country, locale) : null, coords(poi.lat, poi.lon)].filter(Boolean).join('  ·  ')}
+              {[text.era, poi.country ? countryName(poi.country, locale) : null, coords(poi.lat, poi.lon)].filter(Boolean).join('  ·  ')}
             </DataSmall>
           </Gutter>
 
@@ -255,6 +288,16 @@ export default function PlaceScreen() {
           <SeeIt poi={poi} pkg={pkg} />
 
           {cells.length > 0 ? <Cells items={cells} /> : null}
+
+          {text.look && !locked ? (
+            <View style={styles.look}>
+              <Label tone="accent" accessibilityRole="header">
+                {t('place.lookTitle')}
+              </Label>
+              <Space h={s.x2} />
+              <Body>{text.look}</Body>
+            </View>
+          ) : null}
 
           <Space h={s.x6} />
           {locked ? (
@@ -309,15 +352,15 @@ export default function PlaceScreen() {
           </PressSurface>
           <Rule />
 
-          {poi.textSource === 'wikipedia' && poi.sourceUrl ? (
+          {poi.sourceUrl ? (
             <PressSurface
               onPress={() => Linking.openURL(poi.sourceUrl!)}
               accessibilityRole="link"
-              accessibilityLabel={`${t('place.source')}: ${t('place.sourceWikipedia')}`}
+              accessibilityLabel={poi.textSource === 'editorial' ? t('place.readMore') : `${t('place.source')}: ${t('place.sourceWikipedia')}`}
               style={styles.row}
             >
               <View style={styles.flex}>
-                <Small>{t('place.sourceWikipedia')}</Small>
+                <Small>{poi.textSource === 'editorial' ? t('place.readMore') : t('place.sourceWikipedia')}</Small>
               </View>
               <Data tone="dim" allowFontScaling={false}>
                 ↗
@@ -353,7 +396,22 @@ const styles = StyleSheet.create({
   scroll: { paddingBottom: s.x8 },
   measure: { maxWidth: 520 },
   hero: { height: HERO_HEIGHT, backgroundColor: palette.warm },
-  photo: { width: '100%', height: HERO_HEIGHT },
+  pager: {
+    position: 'absolute',
+    right: s.x2,
+    top: s.x12,
+    paddingHorizontal: s.x2,
+    paddingVertical: 2,
+    backgroundColor: 'rgba(8,10,12,0.7)'
+  },
+  look: {
+    marginHorizontal: gutter,
+    marginTop: s.x5,
+    padding: s.x4,
+    borderLeftWidth: line.bold,
+    borderLeftColor: palette.amber,
+    backgroundColor: palette.warm
+  },
   plate: {
     position: 'absolute',
     left: gutter,

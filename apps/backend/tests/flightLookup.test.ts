@@ -3,6 +3,9 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 vi.mock('../src/external/aviationstack.js', () => ({
   lookupFlightDetailed: vi.fn()
 }));
+vi.mock('../src/external/aerodatabox.js', () => ({
+  lookupAeroDataBox: vi.fn()
+}));
 vi.mock('../src/db/prisma.js', () => ({
   prisma: {
     flightCache: {
@@ -16,8 +19,9 @@ vi.mock('../src/db/prisma.js', () => ({
   }
 }));
 
-import { getFlight, getFlightDetailed } from '../src/services/flightLookup.js';
+import { getFlight, getFlightDetailed, flightCacheTtlMs, flightProvider } from '../src/services/flightLookup.js';
 import { lookupFlightDetailed } from '../src/external/aviationstack.js';
+import { lookupAeroDataBox, type AdbNormalised } from '../src/external/aerodatabox.js';
 import { prisma } from '../src/db/prisma.js';
 
 const mockAviationFlight = {
@@ -44,6 +48,9 @@ const airportByIata = (iata: string) =>
 
 beforeEach(() => {
   vi.clearAllMocks();
+  // Whatever the developer's shell has, each test chooses its own provider.
+  vi.stubEnv('AERODATABOX_KEY', '');
+  vi.stubEnv('AVIATIONSTACK_KEY', '');
   vi.mocked(prisma.flightCache.findUnique).mockResolvedValue(null);
   vi.mocked(prisma.flightCache.upsert).mockResolvedValue({} as any);
   vi.mocked(prisma.airport.findUnique).mockImplementation(
@@ -51,7 +58,10 @@ beforeEach(() => {
   );
 });
 
-afterEach(() => vi.unstubAllEnvs());
+afterEach(() => {
+  vi.unstubAllEnvs();
+  vi.useRealTimers();
+});
 
 describe('getFlight with an AviationStack key', () => {
   beforeEach(() => vi.stubEnv('AVIATIONSTACK_KEY', 'test-key'));
@@ -164,5 +174,132 @@ describe('getFlight without an AviationStack key (demo mode)', () => {
   it('returns null when the demo route airports are not seeded', async () => {
     vi.mocked(prisma.airport.findUnique).mockResolvedValue(null);
     expect(await getFlight('SU100', '2026-05-20')).toBeNull();
+  });
+});
+
+const adbSU1234: AdbNormalised = {
+  originIata: 'SVO',
+  destinationIata: 'JFK',
+  origin: null,
+  destination: null,
+  airline: 'Aeroflot',
+  scheduledDeparture: '2026-10-01T10:05:00+03:00',
+  scheduledArrival: '2026-10-01T13:30:00-04:00',
+  revisedDeparture: '2026-10-01T10:25:00+03:00',
+  aircraftType: 'Boeing 777-300ER',
+  status: 'delayed'
+};
+
+describe('choosing a flight provider', () => {
+  it('prefers AeroDataBox, then AviationStack, then demo mode', () => {
+    expect(flightProvider({ AERODATABOX_KEY: 'a', AVIATIONSTACK_KEY: 'b' } as NodeJS.ProcessEnv)).toBe('aerodatabox');
+    expect(flightProvider({ AVIATIONSTACK_KEY: 'b' } as NodeJS.ProcessEnv)).toBe('aviationstack');
+    expect(flightProvider({ AERODATABOX_KEY: '' } as NodeJS.ProcessEnv)).toBe('demo');
+  });
+});
+
+describe('getFlight with an AeroDataBox key', () => {
+  beforeEach(() => {
+    vi.stubEnv('AERODATABOX_KEY', 'adb-key');
+    vi.stubEnv('AVIATIONSTACK_KEY', 'also-set');
+    vi.useFakeTimers({ toFake: ['Date'] });
+    vi.setSystemTime(new Date('2026-09-24T12:00:00Z'));
+    vi.mocked(lookupAeroDataBox).mockResolvedValue({ flight: adbSU1234 });
+  });
+
+  it('asks AeroDataBox rather than AviationStack and keeps its detail', async () => {
+    const result = await getFlightDetailed('SU1234', '2026-10-01');
+    expect(lookupAeroDataBox).toHaveBeenCalledWith('SU1234', '2026-10-01');
+    expect(lookupFlightDetailed).not.toHaveBeenCalled();
+    expect(result.flight).toMatchObject({
+      id: 'SU1234-2026-10-01',
+      airline: 'Aeroflot',
+      origin: { iata: 'SVO', tz: 'Europe/Moscow' },
+      destination: { iata: 'JFK', tz: 'America/New_York' },
+      scheduledDeparture: '2026-10-01T10:05:00+03:00',
+      revisedDeparture: '2026-10-01T10:25:00+03:00',
+      aircraftType: 'Boeing 777-300ER',
+      status: 'delayed',
+      localDate: '2026-10-01'
+    });
+    expect(prisma.flightCache.upsert).toHaveBeenCalled();
+  });
+
+  it("uses the provider's airport record when our table lacks the airport", async () => {
+    vi.mocked(prisma.airport.findUnique).mockImplementation((async (args: { where: { iata: string } }) =>
+      args.where.iata === 'SVO' ? mockSVO : null) as any);
+    vi.mocked(lookupAeroDataBox).mockResolvedValue({
+      flight: {
+        ...adbSU1234,
+        destination: { iata: 'JFK', icao: 'KJFK', name: 'New York JFK', city: 'New York', country: 'US', lat: 40.64, lon: -73.78, tz: 'America/New_York' }
+      }
+    });
+    const result = await getFlightDetailed('SU1234', '2026-10-01');
+    expect(result.flight?.destination).toMatchObject({ iata: 'JFK', country: 'US' });
+  });
+
+  it('says which airport is missing when neither source knows it', async () => {
+    vi.mocked(prisma.airport.findUnique).mockResolvedValue(null);
+    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+    const result = await getFlightDetailed('SU1234', '2026-10-01');
+    expect(result).toMatchObject({ flight: null, providerError: 'unknown_airport' });
+    warn.mockRestore();
+  });
+
+  it('passes on a provider failure', async () => {
+    vi.mocked(lookupAeroDataBox).mockResolvedValue({ flight: null, error: 'rate_limited' });
+    expect(await getFlightDetailed('SU1234', '2026-10-01')).toEqual({
+      flight: null,
+      availableDates: [],
+      providerError: 'rate_limited'
+    });
+  });
+
+  it("refreshes today's flight after a quarter of an hour", async () => {
+    vi.mocked(prisma.flightCache.findUnique).mockResolvedValue({
+      flightNumber: 'SU1234',
+      date: '2026-09-24',
+      payload: { id: 'SU1234-2026-09-24', airline: 'Aeroflot', status: 'scheduled' } as any,
+      cachedAt: new Date('2026-09-24T11:40:00Z')
+    });
+    const result = await getFlightDetailed('SU1234', '2026-09-24');
+    expect(lookupAeroDataBox).toHaveBeenCalled();
+    expect(result.flight?.status).toBe('delayed');
+  });
+
+  it('keeps a flight days ahead for a day', async () => {
+    vi.mocked(prisma.flightCache.findUnique).mockResolvedValue({
+      flightNumber: 'SU1234',
+      date: '2026-10-01',
+      payload: { id: 'SU1234-2026-10-01', airline: 'Aeroflot' } as any,
+      cachedAt: new Date('2026-09-24T02:00:00Z')
+    });
+    await getFlightDetailed('SU1234', '2026-10-01');
+    expect(lookupAeroDataBox).not.toHaveBeenCalled();
+  });
+
+  it('answers from an expired cache entry when the provider is over quota or down', async () => {
+    vi.mocked(prisma.flightCache.findUnique).mockResolvedValue({
+      flightNumber: 'SU1234',
+      date: '2026-09-24',
+      payload: { id: 'SU1234-2026-09-24', airline: 'Aeroflot' } as any,
+      cachedAt: new Date('2026-09-24T09:00:00Z')
+    });
+    vi.mocked(lookupAeroDataBox).mockResolvedValue({ flight: null, error: 'rate_limited' });
+    const result = await getFlightDetailed('SU1234', '2026-09-24');
+    expect(result.flight?.airline).toBe('Aeroflot');
+    expect(prisma.flightCache.upsert).not.toHaveBeenCalled();
+  });
+});
+
+describe('flight cache lifetime', () => {
+  const now = Date.parse('2026-09-24T12:00:00Z');
+
+  it('is short around today, long ahead, and forever once flown', () => {
+    expect(flightCacheTtlMs('2026-09-24', now)).toBe(15 * 60_000);
+    expect(flightCacheTtlMs('2026-09-25', now)).toBe(15 * 60_000);
+    expect(flightCacheTtlMs('2026-09-23', now)).toBe(15 * 60_000);
+    expect(flightCacheTtlMs('2026-10-01', now)).toBe(24 * 3600_000);
+    expect(flightCacheTtlMs('2026-09-20', now)).toBe(Infinity);
   });
 });

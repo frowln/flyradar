@@ -31,6 +31,8 @@ export interface FlightRecord {
   spotted: string[];
   /** Correct answers to "what is about to appear". */
   guessed?: number;
+  /** The quiz after landing, once answered. */
+  quiz?: { correct: number; total: number };
   night: boolean;
   sunrise: boolean;
   sunset: boolean;

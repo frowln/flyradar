@@ -291,6 +291,9 @@ export const ja = {
     stop: '停止',
     source: '出典',
     sourceWikipedia: 'テキスト：ウィキペディア、CC BY-SA 4.0',
+    lookTitle: '窓から探すポイント',
+    readMore: 'Wikipediaで詳しく読む',
+    photo: '%{name}、写真 %{n}/%{total}',
     locked: 'このカードはPro限定です。地上でロックを解除できます。',
     unlock: 'Proで解除',
   },
@@ -326,6 +329,11 @@ export const ja = {
     highestPeak: 'ルート上でいちばん高い山は？',
     countryCount: '上空を通過した国はいくつ？',
     whichFirst: '%{a}と%{b}、先に通ったのはどちら？',
+    longestExplain: '%{country}：飛行時間のうち%{time}。',
+    peakExplain: '%{place}：%{h}。',
+    countryExplain: '通過した国：%{list}。',
+    firstExplain: '%{a}は離陸から%{ta}後、%{b}は%{tb}後でした。',
+    score: '%{total}問中%{n}問正解',
   },
   postcard: {
     stats: {
