@@ -1039,5 +1039,351 @@
         "The Safavid Empire"
       ]
     }
+  },
+  "Q855122": {
+    "t": "A Sikh pilgrimage city on the banks of the Godavari",
+    "s": "The Godavari, a broad river by now after its long run across the Deccan, curves past Nanded in the Marathwada plains. The city is one of the holiest places in Sikhism: Guru Gobind Singh, the tenth Guru, spent his last days here in 1708, and the gleaming Takht Sachkhand Sri Hazur Sahib stands where he was cremated. Pilgrims come from Punjab, more than 1,000 km away.",
+    "w": "A city on the banks of a broad, winding river in the flat, farmed Marathwada plains.",
+    "f": [
+      "Hazur Sahib is one of the five Takhts, the seats of authority in Sikhism.",
+      "At Nanded, Guru Gobind Singh declared the Sikh scripture, the Guru Granth Sahib, to be the eternal Guru."
+    ],
+    "q": {
+      "q": "Which Sikh Guru spent his last days in Nanded?",
+      "a": "Guru Gobind Singh",
+      "x": [
+        "Guru Nanak",
+        "Guru Tegh Bahadur"
+      ]
+    }
+  },
+  "Q207324": {
+    "t": "A thousand-year-old city on a spit between two rivers",
+    "s": "Cuttack is squeezed onto a narrow spit of land where the Mahanadi splits, with the main river on one side and its branch, the Kathajodi, on the other — two wide, sandy channels that are easy to see from cruise height. The city was Odisha's capital until 1948, when the government moved to nearby Bhubaneswar. Its silversmiths are famous for tarakasi, silver filigree as fine as lace.",
+    "w": "A city on a spit of land between two broad, sandy river channels, near the head of the Mahanadi delta.",
+    "f": [
+      "Cuttack is often called the Millennium City, as its history goes back more than a thousand years.",
+      "During Durga Puja, Cuttack's images of the goddess are decorated with silver filigree."
+    ],
+    "q": {
+      "q": "Cuttack's silversmiths are famous for which craft?",
+      "a": "Filigree",
+      "x": [
+        "Bidriware",
+        "Enamelling"
+      ]
+    }
+  },
+  "Q220445": {
+    "t": "Borneo's “cat city” on a winding brown river",
+    "s": "A brown river loops through green lowland on its way to the South China Sea, and Kuching lines both of its banks. For about a century from 1841, the Brooke family ruled Sarawak from here as the “White Rajahs”. To the north, the lone peak of Mount Santubong rises from the coast, and nearby Bako National Park shelters proboscis monkeys.",
+    "w": "A city on both banks of a looping brown river in green lowlands; a lone coastal peak rises to the north.",
+    "f": [
+      "Kuching's name is often linked to kucing, Malay for “cat”, and the city plays along with cat statues and a cat museum.",
+      "The Astana, the Brooke family's palace, stands on the north bank facing the waterfront.",
+      "Mount Santubong, about 810 m high, rises almost straight out of the sea."
+    ],
+    "q": {
+      "q": "Which family, the “White Rajahs”, ruled Sarawak from Kuching?",
+      "a": "The Brookes",
+      "x": [
+        "The Dents",
+        "The Lights"
+      ]
+    }
+  },
+  "Q4803": {
+    "t": "A royal city of batik on Java's longest river",
+    "s": "Volcanoes frame Surakarta: Merapi and Merbabu to the west, Lawu to the east, with the city on the flat plain between them. Java's longest river, the Bengawan Solo, curves along its eastern edge. Better known simply as Solo, the city still has two royal courts, the Kasunanan and the Mangkunegaran, and it is one of the great centres of Javanese batik and gamelan music.",
+    "w": "A large city on a flat plain between volcanoes, with a river curving along its eastern side.",
+    "f": [
+      "The Bengawan Solo, about 550 km long, is the longest river on Java.",
+      "A song called “Bengawan Solo”, written in 1940, became a hit across Asia."
+    ],
+    "q": {
+      "q": "Which river, Java's longest, flows past Surakarta?",
+      "a": "The Bengawan Solo",
+      "x": [
+        "The Brantas",
+        "The Citarum"
+      ]
+    }
+  },
+  "Q140075": {
+    "t": "A wall of towers along an endless surf beach",
+    "s": "A straight line of surf runs for tens of kilometres, and right behind it stands a thin wall of high-rises — Surfers Paradise and its neighbours. Behind the towers, the land dissolves into a maze of man-made canals and islands, then a broad lagoon, the Broadwater. Inland, the forested ranges of the Gondwana Rainforests rise along the border with New South Wales.",
+    "w": "A long, straight beach backed by a thin line of towers, with a maze of canals and a lagoon behind and forested ranges inland.",
+    "f": [
+      "The Gold Coast hosted the Commonwealth Games in 2018.",
+      "Lamington and Springbrook national parks in the hinterland are part of the Gondwana Rainforests World Heritage site.",
+      "In summer, clocks differ by an hour across the border at Coolangatta: New South Wales uses daylight saving, Queensland does not."
+    ],
+    "q": {
+      "q": "Which multi-sport event did the Gold Coast host in 2018?",
+      "a": "The Commonwealth Games",
+      "x": [
+        "The Asian Games",
+        "The Pacific Games"
+      ]
+    }
+  },
+  "Q5779": {
+    "t": "Sumatra's northern tip, the old “Veranda of Mecca”",
+    "s": "At the very northern tip of Sumatra, where the Aceh River meets the sea, Banda Aceh looks out over the Indian Ocean and the Andaman Sea. For centuries it was the capital of the Aceh Sultanate, and ships carrying pilgrims to Mecca set sail from here — which is why Aceh is still called the Veranda of Mecca. To the north lies Weh Island, Indonesia's traditional “kilometre zero”.",
+    "w": "A flat coastal city at Sumatra's northern tip, green mountains behind it and a hilly island offshore to the north.",
+    "f": [
+      "The Baiturrahman Grand Mosque, with black domes and white walls, is the city's landmark.",
+      "In the early 17th century the Aceh Sultanate was one of the strongest powers in the region."
+    ],
+    "q": {
+      "q": "What is Aceh's traditional nickname?",
+      "a": "The Veranda of Mecca",
+      "x": [
+        "The Gate of Java",
+        "The Island of the Gods"
+      ]
+    }
+  },
+  "Q213014": {
+    "t": "A cotton town of the Deccan, near a meteorite lake",
+    "s": "About 100 km south-west of Akola, a near-perfect circle of water sits in the flat basalt plateau: Lonar Lake, filling a crater blasted out by a meteorite. Akola itself is a market town of the Vidarbha region, set among black-soil cotton fields on the banks of the Morna River. It is also home to one of Maharashtra's agricultural universities.",
+    "w": "A town on a flat plain of dark cotton fields; a small, perfectly round crater lake lies about 100 km south-west.",
+    "f": [
+      "Lonar crater, about 1.8 km across, is one of the few known meteorite craters formed in basalt.",
+      "Vidarbha's black soil, formed from weathered basalt, is ideal for growing cotton."
+    ],
+    "q": {
+      "q": "Akola lies in which cotton-growing region of Maharashtra?",
+      "a": "Vidarbha",
+      "x": [
+        "Konkan",
+        "Marathwada"
+      ]
+    }
+  },
+  "Q242895": {
+    "t": "A wood-carvers' city beneath the Shivalik hills",
+    "s": "North of Saharanpur, the flat, fertile plain between the Ganges and the Yamuna runs into the first wooded ridges of the Shivaliks, the outermost range of the Himalaya. The city has been known for generations for its wood carving: craftsmen turn sheesham wood into intricately carved furniture, screens and boxes sold all over the world. Beyond the hills lies the Doon Valley and Dehradun.",
+    "w": "A city on a green plain just south of a line of low, wooded hills; the Yamuna runs to the west.",
+    "f": [
+      "Saharanpur's wood carving has geographical-indication status in India.",
+      "The Eastern Yamuna Canal, one of India's oldest irrigation canals, runs through the district."
+    ],
+    "q": {
+      "q": "Which hills rise just north of Saharanpur?",
+      "a": "The Shivaliks",
+      "x": [
+        "The Aravallis",
+        "The Vindhyas"
+      ]
+    }
+  },
+  "Q37112": {
+    "t": "The first Bahmani capital, with a mosque under domes",
+    "s": "In 1347 the Bahmani Sultanate, the first great independent kingdom of the Deccan, made Gulbarga — officially Kalaburagi today — its capital. Inside the old fort stands its Jama Masjid, unusual in India because almost its entire prayer space is roofed with domes instead of an open courtyard. The dry plateau around the city grows pigeon peas, and Kalaburagi toor dal is famous across Karnataka.",
+    "w": "A city on a dry, flat plateau of brown and green fields, with small reservoirs and an old fort near its centre.",
+    "f": [
+      "The fort's Jama Masjid, built in 1367, is often compared to the Great Mosque of Córdoba.",
+      "Kalaburagi toor dal, a split pigeon pea, has geographical-indication status.",
+      "The shrine of the Sufi saint Khwaja Bande Nawaz draws pilgrims of many faiths."
+    ],
+    "q": {
+      "q": "Which sultanate first made Gulbarga its capital?",
+      "a": "The Bahmani Sultanate",
+      "x": [
+        "The Adil Shahi Sultanate",
+        "The Qutb Shahi Sultanate"
+      ]
+    }
+  },
+  "Q45313": {
+    "t": "An ancient oasis city on the Hari River",
+    "s": "Green fields and orchards follow the Hari River across an otherwise dry, brown valley, and Herat stands in the middle of this oasis, with bare mountains to the north. It has been a crossroads for more than two thousand years. In the 15th century, as the Timurid capital, it became a centre of Persian poetry, miniature painting and architecture, and its Friday Mosque still glitters with blue tilework.",
+    "w": "A green oasis strung along a river in a dry, brown valley, with bare mountain ridges rising to the north.",
+    "f": [
+      "The poet Jami and the painter Behzad both worked in Timurid Herat.",
+      "The citadel in the centre, Qala Ikhtiyaruddin, is traditionally said to go back to Alexander the Great.",
+      "Herat is known for its blue glass, still blown by hand in small workshops."
+    ],
+    "q": {
+      "q": "Which dynasty made Herat its capital in the 15th century?",
+      "a": "The Timurids",
+      "x": [
+        "The Safavids",
+        "The Ghaznavids"
+      ]
+    }
+  },
+  "Q485496": {
+    "t": "Kazakhstan's southern metropolis at the mountains' foot",
+    "s": "Snowy peaks of the Western Tien Shan line the south-eastern horizon, and below them Shymkent spreads over rolling foothills, green with parks and orchards. It is Kazakhstan's third-largest city. On its eastern edge stands ancient Sayram, a Silk Road town far older than Shymkent itself. To the west, beyond the Syr Darya, the sands of the Kyzylkum begin.",
+    "w": "A large city on green foothills, with snow-capped ranges to the south-east and dry steppe spreading west.",
+    "f": [
+      "Aksu-Zhabagly, in the mountains to the east, was set up in 1926 as the first nature reserve in Central Asia.",
+      "Since 2018 Shymkent has been a city of republican significance, like Almaty and Astana."
+    ],
+    "q": {
+      "q": "Which ancient town now lies on Shymkent's eastern edge?",
+      "a": "Sayram",
+      "x": [
+        "Otrar",
+        "Sauran"
+      ]
+    }
+  },
+  "Q130469": {
+    "t": "A city grown around a blue-tiled shrine and white doves",
+    "s": "The flat plain of northern Afghanistan stretches from the foot of the Hindu Kush towards the Amu Darya, and Mazar-i-Sharif is its largest city. At its heart stands the Blue Mosque, a shrine covered in turquoise and cobalt tiles and famous for the flocks of white doves that live around it. About 20 km to the west lie the ruins of Balkh, one of the oldest cities in Central Asia.",
+    "w": "A city on a flat plain between bare mountains to the south and the Amu Darya valley to the north.",
+    "f": [
+      "The name Mazar-i-Sharif is usually translated as “noble shrine”.",
+      "Ancient Balkh, known to the Greeks as Bactra, was called the Mother of Cities.",
+      "At Nowruz, the Persian new year, a great banner is raised at the shrine."
+    ],
+    "q": {
+      "q": "What does the name Mazar-i-Sharif mean?",
+      "a": "Noble shrine",
+      "x": [
+        "Blue city",
+        "Holy mountain"
+      ]
+    }
+  },
+  "Q1822": {
+    "t": "The Philippines' pine-scented summer capital",
+    "s": "At around 1,500 m in the Cordillera, Baguio stays cool while Manila swelters, which is why American officials made it the country's summer capital in the early 1900s. Pine forests cover the ridges around the city, and the planner Daniel Burnham laid out its central park and streets. The city drapes itself over a knot of steep green ridges, with zigzag roads climbing to it from the lowlands.",
+    "w": "A city spread over steep, pine-covered ridges high in the mountains of northern Luzon, with zigzag roads climbing to it.",
+    "f": [
+      "Burnham Park, at the city's heart, is named after Daniel Burnham, the Chicago planner who drew up Baguio's plan.",
+      "Neighbouring La Trinidad is famous for its strawberry farms."
+    ],
+    "q": {
+      "q": "Which American planner designed Baguio's layout?",
+      "a": "Daniel Burnham",
+      "x": [
+        "Frederick Law Olmsted",
+        "Pierre L'Enfant"
+      ]
+    }
+  },
+  "Q14492": {
+    "t": "Borneo's oil town on a long, deep bay",
+    "s": "A long, deep bay cuts into the east coast of Borneo here, and on its shore the tanks and flares of a big refinery mark Balikpapan. The city grew from a fishing village after oil was struck in 1897, and it is still one of Indonesia's main oil and gas hubs. Its hilly streets face the Makassar Strait, while dense green forest and plantations spread inland.",
+    "w": "A hilly coastal city beside a long, narrow bay on Borneo's east coast, with an industrial shoreline and green hills inland.",
+    "f": [
+      "The first oil well, drilled in February 1897, was named Mathilda.",
+      "Proboscis monkeys live in the mangroves of Balikpapan Bay."
+    ],
+    "q": {
+      "q": "Which strait does Balikpapan face?",
+      "a": "The Makassar Strait",
+      "x": [
+        "The Karimata Strait",
+        "The Lombok Strait"
+      ]
+    }
+  },
+  "Q52028": {
+    "t": "Old Lanna capital below the wooded wall of Doi Suthep",
+    "s": "Right at the western edge of Chiang Mai, a mountain wall rises straight from the Ping valley: Doi Suthep, almost 1,700 m high, with a gilded temple on its shoulder. The old city is a square about 1.5 km across, still ringed by a moat. King Mangrai founded Chiang Mai in 1296 as the capital of the Lanna kingdom, and its name means “new city”.",
+    "w": "A city on a flat valley floor with a river on its east side and a steep, forested mountain right at its western edge.",
+    "f": [
+      "During the Yi Peng festival, thousands of paper lanterns are released into the night sky.",
+      "Doi Inthanon, Thailand's highest mountain at about 2,565 m, is about 60 km south-west."
+    ],
+    "q": {
+      "q": "Chiang Mai was the capital of which kingdom?",
+      "a": "Lanna",
+      "x": [
+        "Sukhothai",
+        "Ayutthaya"
+      ]
+    }
+  },
+  "Q986198": {
+    "t": "Auckland's southern side, on a vast tidal harbour",
+    "s": "Twice a day the Manukau Harbour nearly empties: at low tide, great sheets of mudflats and winding channels shine where there was water a few hours before. This huge, shallow harbour opens west to the Tasman Sea, and along its shore spreads Manukau, once a city in its own right and since 2010 part of Auckland. Auckland Airport's runway runs along the water's edge.",
+    "w": "Suburbs on the shore of a huge, shallow harbour with mudflats and channels, an airport runway along the water's edge.",
+    "f": [
+      "On the Tāmaki isthmus, Māori once dragged canoes overland between the Manukau and the Pacific side, a gap of barely a kilometre.",
+      "Small volcanic cones of the Auckland volcanic field, such as Māngere Mountain, rise near the harbour.",
+      "The Manukau is New Zealand's second-largest natural harbour."
+    ],
+    "q": {
+      "q": "Which body of water does the Manukau Harbour open onto?",
+      "a": "The Tasman Sea",
+      "x": [
+        "The Hauraki Gulf",
+        "The Bay of Plenty"
+      ]
+    }
+  },
+  "Q14525": {
+    "t": "A town near the equator, between a gulf and a lake",
+    "s": "Less than 70 km north of the equator, Gorontalo fills a flat valley on the northern arm of Sulawesi, where a river reaches the calm Gulf of Tomini. Just west spreads Lake Limboto, a broad, shallow lake that has shrunk as silt fills it. And off the beach at Botubarani, a short way east of town, whale sharks often feed close to shore.",
+    "w": "A town in a flat valley on the Gulf of Tomini, with a broad, shallow lake just to the west.",
+    "f": [
+      "The Gulf of Tomini is almost entirely enclosed by the long arms of Sulawesi.",
+      "On a hill above the lake stands Otanaha, a small fort traditionally dated to the 16th century."
+    ],
+    "q": {
+      "q": "Which gulf does Gorontalo face?",
+      "a": "The Gulf of Tomini",
+      "x": [
+        "The Gulf of Bone",
+        "The Gulf of Tolo"
+      ]
+    }
+  },
+  "Q696605": {
+    "t": "Gateway to Mohenjo-daro on the Indus plain",
+    "s": "About 25 km south of Larkana, near a bend of the Indus, lie the brick ruins of Mohenjo-daro, one of the largest cities of the Indus Valley Civilisation, built more than 4,500 years ago. Larkana itself stands on the flat, irrigated right bank of the river, among rice fields and canals. Far to the west, the Kirthar Range rises as a bare brown wall.",
+    "w": "A town on a flat, green plain of rice fields and canals west of the Indus, with bare mountains far to the west.",
+    "f": [
+      "Mohenjo-daro became a UNESCO World Heritage site in 1980.",
+      "Its streets were laid out on a grid, with covered drains and a great public bath."
+    ],
+    "q": {
+      "q": "Which ancient Indus city lies near Larkana?",
+      "a": "Mohenjo-daro",
+      "x": [
+        "Harappa",
+        "Taxila"
+      ]
+    }
+  },
+  "Q760714": {
+    "t": "Silk City on the Ganges, with dolphins in the river",
+    "s": "The Ganges runs wide and braided past Bhagalpur, and in this stretch lives one of the world's rarest river animals: the nearly blind Ganges river dolphin, protected in the Vikramshila sanctuary. The city itself is India's Silk City, famous for tussar silk with a natural golden sheen. About 50 km east lie the ruins of Vikramashila, a great Buddhist university of the Pala kings.",
+    "w": "A city on the south bank of a wide, braided river with sandbars, green farmland on both sides.",
+    "f": [
+      "The Ganges river dolphin is almost blind and finds its way by echolocation.",
+      "Vikramashila was founded around 800 CE by the Pala king Dharmapala."
+    ],
+    "q": {
+      "q": "Which rare animal is protected in the Ganges at Bhagalpur?",
+      "a": "The Ganges river dolphin",
+      "x": [
+        "The dugong",
+        "The Irrawaddy dolphin"
+      ]
+    }
+  },
+  "Q486545": {
+    "t": "An ancient Silk Road oasis below the Kyrgyz range",
+    "s": "Where the Talas River comes down from the mountains onto the steppe, Taraz spreads out in a green oasis, with the snowy Kyrgyz Alatau on the southern horizon. The town was already a Silk Road trading post in the 6th century, visited by a Byzantine embassy in 568. Nearby, in 751, Arab and Chinese armies fought the Battle of Talas, which set the limits of Tang China's power in Central Asia.",
+    "w": "A green oasis city on a river where the mountains meet the steppe, with a snowy range along the southern horizon.",
+    "f": [
+      "The Aisha Bibi mausoleum near Taraz is faced with carved terracotta tiles in dozens of patterns.",
+      "Taraz celebrated its 2,000th anniversary in 2002."
+    ],
+    "q": {
+      "q": "Near Taraz in 751, Arab armies fought troops of which empire?",
+      "a": "Tang China",
+      "x": [
+        "The Byzantine Empire",
+        "The Mongol Empire"
+      ]
+    }
   }
 }

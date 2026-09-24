@@ -790,5 +790,1589 @@
         "Le Zeravchan"
       ]
     }
+  },
+  "Q51614": {
+    "t": "Un haut plateau de blé, de sel et de villes antiques",
+    "s": "Le cœur de l’Anatolie est un haut plateau ouvert, à environ un kilomètre au-dessus de la mer, où les champs de blé passent du vert au printemps à l’or en été, puis à l’ocre nu en automne. Juste au sud-ouest s’étend le lac Tuz, un immense lac salé qui sèche l’été en une croûte blanche aveuglante. Plus au sud se dressent les cônes d’anciens volcans comme le Hasan et l’Erciyes.",
+    "w": "Un vaste plateau ocre et doré ; cherchez l’immense tache blanche du lac Tuz et des cônes volcaniques lointains.",
+    "f": [
+      "Le nom vient du grec « anatolê », le lever du soleil, et donc l’est.",
+      "Çatalhöyük, plus au sud sur le plateau, était une ville de maisons en brique crue il y a plus de 9 000 ans.",
+      "Le lac Tuz fournit une large part du sel de la Turquie."
+    ],
+    "q": {
+      "q": "Quel lac salé se trouve sur le plateau central anatolien ?",
+      "a": "Le lac Tuz",
+      "x": [
+        "Le lac d’Iznik",
+        "Le lac d’Ourmia"
+      ]
+    }
+  },
+  "Q1507": {
+    "t": "Vent, steppe et ciel au bout des Amériques",
+    "s": "Vue d’avion, la Patagonie est surtout du vide : une steppe gris-brun et des mesetas au sommet plat, entaillées de quelques vallées fluviales qui courent comme des fils verts des Andes à l’Atlantique. À l’ouest, les Andes enneigées dominent des lacs bleu profond. Le vent souffle fort et presque sans cesse de l’ouest, courbant les rares arbres.",
+    "w": "Une vaste steppe gris-brun aux mesas plates et aux canyons ; à l’ouest, les Andes enneigées et de longs lacs bleus.",
+    "f": [
+      "Des colons gallois atteignirent la vallée du Chubut en 1865, et l’on parle encore gallois dans des villes comme Gaiman.",
+      "Certains des plus grands dinosaures connus, dont l’Argentinosaurus et le Patagotitan, ont été trouvés en Patagonie.",
+      "On relie généralement le nom à l’équipage de Magellan, qui appela en 1520 les habitants « Patagones »."
+    ],
+    "q": {
+      "q": "Quelle langue européenne parle-t-on encore dans la vallée du Chubut ?",
+      "a": "Le gallois",
+      "x": [
+        "L’irlandais",
+        "Le basque"
+      ]
+    }
+  },
+  "Q605779": {
+    "t": "Une immense pente de glace qui descend vers l’océan Austral",
+    "s": "Depuis la côte de la terre de Wilkes, la glace monte en une longue pente douce vers le haut plateau de l’Antarctique de l’Est, à des centaines de kilomètres à l’intérieur. Près de la mer, les glaciers accélèrent et se fendent de crevasses, et leur surface ressemble à du papier froissé. Sous la glace s’étend le profond bassin subglaciaire Aurora, en grande partie sous le niveau de la mer.",
+    "w": "Une pente blanche sans couture ; près de la côte, glaciers crevassés, falaises de glace et glace de mer éparse sur l’eau sombre.",
+    "f": [
+      "Elle porte le nom de Charles Wilkes, qui cartographia cette côte en 1840 lors d’une expédition de l’US Navy.",
+      "Le glacier Totten, sur sa côte, draine une grande partie de l’inlandsis et est surveillé de près par les scientifiques.",
+      "La station australienne Casey se trouve sur sa côte, dans les îles Windmill."
+    ],
+    "q": {
+      "q": "D’où la terre de Wilkes tient-elle son nom ?",
+      "a": "D’un officier de marine américain",
+      "x": [
+        "D’un capitaine baleinier britannique",
+        "D’un roi de Norvège"
+      ]
+    }
+  },
+  "Q1340442": {
+    "t": "De la glace sur certaines des plus vieilles roches du monde",
+    "s": "Ici, la glace court d’un horizon à l’autre, brisée près de la côte par des crêtes sombres et des nunataks, pics rocheux qui percent l’inlandsis comme des îles dans une mer blanche. Certaines de ces roches comptent parmi les plus anciennes de la Terre. La côte fut aperçue pour la première fois en 1831 par John Biscoe, capitaine phoquier et baleinier parti de Londres.",
+    "w": "Un inlandsis blanc d’où percent, près de la côte, des pics rocheux sombres, comme des îles.",
+    "f": [
+      "Elle tient son nom d’Enderby Brothers, la compagnie baleinière londonienne qui envoya Biscoe vers le sud.",
+      "Les roches de son complexe de Napier comptent parmi les plus anciennes de l’Antarctique : environ 3,8 milliards d’années.",
+      "La station Molodiojnaïa, sur sa côte, fut un temps la principale base soviétique en Antarctique."
+    ],
+    "q": {
+      "q": "Quel genre d’entreprise a donné son nom à la terre d’Enderby ?",
+      "a": "Une compagnie baleinière",
+      "x": [
+        "Un marchand de thé",
+        "Une compagnie charbonnière"
+      ]
+    }
+  },
+  "Q189999": {
+    "t": "Des montagnes noyées dans la glace, au nom d’une reine",
+    "s": "Près de la côte de la terre de la Reine-Maud, des chaînes de montagnes déchiquetées percent l’inlandsis, leurs pics sombres et leurs aiguilles de granit à demi ensevelis sous le blanc. Plus au sud, là où vous êtes, la glace monte vers le haut plateau polaire et les montagnes disparaissent dessous. Le nom de cette terre honore la reine Maud de Norvège, épouse du roi Haakon VII.",
+    "w": "Un plateau blanc à l’intérieur ; vers la côte, des chaînes de montagnes sombres et des pics en aiguille qui sortent de la glace.",
+    "f": [
+      "Elle s’étend sur plus de 2 000 km le long de la côte antarctique.",
+      "Plusieurs pays y ont des stations de recherche, dont Troll (Norvège), Neumayer (Allemagne) et Maitri (Inde).",
+      "La reine Maud était née princesse britannique, fille du roi Édouard VII."
+    ],
+    "q": {
+      "q": "La reine Maud, qui a donné son nom à cette terre, était reine de quel pays ?",
+      "a": "La Norvège",
+      "x": [
+        "Le Danemark",
+        "La Suède"
+      ]
+    }
+  },
+  "Q745767": {
+    "t": "Des volcans sous la glace, au nom d’une femme d’explorateur",
+    "s": "Çà et là, la glace de la terre Marie Byrd est percée par les cônes enneigés de volcans, dont certains dépassent 4 km de haut. Le mont Sidley, environ 4 285 m, est le plus haut volcan de l’Antarctique. Autour s’étendent des centaines de kilomètres de glace blanche et plate. L’aviateur américain Richard Byrd donna à ce coin reculé de l’Antarctique de l’Ouest le nom de sa femme, Marie, en 1929.",
+    "w": "Une étendue blanche avec des cônes volcaniques larges et isolés qui dominent la glace vers la côte.",
+    "f": [
+      "Aucun pays n’a jamais revendiqué la terre Marie Byrd.",
+      "En 1929, Byrd fut parmi les premiers à survoler le pôle Sud.",
+      "Sa côte fait face aux mers d’Amundsen et de Ross, souvent encombrées de glace de mer."
+    ],
+    "q": {
+      "q": "D’où la terre Marie Byrd tient-elle son nom ?",
+      "a": "De l’épouse d’un explorateur",
+      "x": [
+        "D’une reine britannique",
+        "D’un capitaine de navire"
+      ]
+    }
+  },
+  "Q80299": {
+    "t": "La plus haute chute du monde, tombée d’une montagne-table",
+    "s": "Le Salto Ángel plonge de 979 m depuis le bord de l’Auyán-tepui, montagne de grès au sommet plat qui jaillit à pic de la forêt vénézuélienne. C’est la plus haute chute d’eau ininterrompue du monde ; à la saison sèche, une grande partie de l’eau se change en brume avant d’atteindre le bas. Cherchez des montagnes-tables sombres aux parois verticales, souvent drapées de nuages.",
+    "w": "Des montagnes sombres au sommet plat, aux parois à pic, qui jaillissent de la forêt verte, souvent à demi cachées par les nuages.",
+    "f": [
+      "Elle porte le nom de Jimmie Angel, pilote américain qui la survola en 1933 et se posa sur le tepui en 1937.",
+      "Dans la langue pemón locale, on l’appelle Kerepakupai Merú.",
+      "La chute se trouve dans le parc national Canaima, inscrit au patrimoine mondial de l’UNESCO depuis 1994."
+    ],
+    "q": {
+      "q": "Quelle est la hauteur du Salto Ángel ?",
+      "a": "Environ 979 m",
+      "x": [
+        "Environ 450 m",
+        "Environ 1 500 m"
+      ]
+    }
+  },
+  "Q599529": {
+    "t": "La steppe où le cheval a sans doute été domestiqué",
+    "s": "Du Danube à l’Oural, la steppe pontique-caspienne était jadis une mer de stipes plumeuses. Aujourd’hui, près de la Volga, elle est surtout labourée en immenses champs de terre noire, traversés de haies brise-vent et entaillés de ravins ramifiés. Au début de l’été, le blé est vert ; en août, toute la terre devient dorée et poussiéreuse.",
+    "w": "D’immenses champs verts, dorés ou noirs, séparés par de minces rangées d’arbres et entaillés de ravins ramifiés ; la Volga à l’ouest.",
+    "f": [
+      "Une étude génétique publiée en 2021 a fait remonter les chevaux domestiques modernes à cette steppe, il y a quelque 4 200 ans.",
+      "Ses terres noires, les tchernozioms, comptent parmi les plus fertiles de la Terre.",
+      "Pendant des millénaires, des nomades comme les Scythes et les Sarmates ont parcouru cette prairie."
+    ],
+    "q": {
+      "q": "Quel animal a sans doute été domestiqué d’abord sur cette steppe ?",
+      "a": "Le cheval",
+      "x": [
+        "Le chameau",
+        "Le yak"
+      ]
+    }
+  },
+  "ne-rg-1730073989": {
+    "t": "Le cœur de la Corn Belt, repassé à plat par les glaciers",
+    "s": "Un damier jusqu’à l’horizon : c’est le cœur de la Corn Belt américaine, une terre aplanie et enrichie par les glaciers et les poussières apportées par le vent à l’ère glaciaire, puis découpée en sections d’un mille carré. L’été, les carrés sont verts de maïs et de soja ; après la récolte, ils virent au brun et au fauve. Des rivières comme le Mississippi la traversent dans des vallées boisées.",
+    "w": "Un quadrillage de champs et de routes d’un mille de côté, vert l’été, brun après la récolte, entaillé de vallées boisées.",
+    "f": [
+      "L’Iowa et l’Illinois, tous deux dans les Central Lowlands, produisent ensemble environ un tiers du maïs américain.",
+      "Une grande partie du sol s’est formée sur du lœss, poussière fine soufflée des dépôts glaciaires à la fin de l’ère glaciaire.",
+      "Avant l’agriculture, cette terre était surtout une prairie d’herbes hautes, plus hautes qu’un homme."
+    ],
+    "q": {
+      "q": "Quelles cultures remplissent le damier estival de la Corn Belt ?",
+      "a": "Le maïs et le soja",
+      "x": [
+        "Le blé et le coton",
+        "Le riz et la betterave"
+      ]
+    }
+  },
+  "Q2016601": {
+    "t": "La toundra de la « Grande Terre », de lacs et de rennes",
+    "s": "À l’est de la Petchora s’étend la toundra Bolchezemelskaïa, la toundra de la « Grande Terre » : une plaine sans arbres de mousse, de bouleaux nains et de collines basses, scintillante de milliers de lacs. La plus grande partie de l’année, elle est blanche ; l’été, elle vire au vert et au brun, et les lacs brillent comme des miroirs éparpillés. Les éleveurs nénètses y mènent encore leurs rennes au fil des saisons.",
+    "w": "Une plaine plate et sans arbres, criblée d’innombrables lacs et de collines basses arrondies ; blanche la plus grande partie de l’année.",
+    "f": [
+      "Le pergélisol s’étend sous la toundra : c’est pourquoi l’eau de fonte s’accumule en tant de lacs peu profonds.",
+      "Vorkouta, ville minière du charbon, se dresse à sa lisière sud-est.",
+      "Son nom l’oppose à la toundra Malozemelskaïa, ou de la « Petite Terre », plus petite, à l’ouest de la Petchora."
+    ],
+    "q": {
+      "q": "Quel peuple élève des rennes dans la toundra Bolchezemelskaïa ?",
+      "a": "Les Nénètses",
+      "x": [
+        "Les Sâmes",
+        "Les Iakoutes"
+      ]
+    }
+  },
+  "Q252609": {
+    "t": "Un coin d’Antarctique d’abord cartographié depuis les airs",
+    "s": "En 1938–1939, une expédition allemande catapulta des hydravions depuis le navire Schwabenland et photographia d’en haut ce pan de la terre de la Reine-Maud, qu’elle baptisa Nouvelle-Souabe d’après le navire. Derrière les barrières de glace plates de la côte, la terre monte en chaînes de montagnes sombres, puis disparaît sous le plateau polaire. Près de la côte se trouve l’oasis Schirmacher, rare bande de roche nue et de lacs.",
+    "w": "Des barrières de glace plates sur la côte, puis des chaînes sombres qui percent la glace, et au-delà le plateau blanc.",
+    "f": [
+      "L’oasis Schirmacher, longue d’environ 17 km, compte des dizaines de lacs et deux stations, Novolazarevskaïa (Russie) et Maitri (Inde).",
+      "Le navire Schwabenland devait son nom à la Souabe, région du sud-ouest de l’Allemagne.",
+      "Novolazarevskaïa honore Mikhaïl Lazarev, qui naviguait avec Bellingshausen quand l’Antarctique fut aperçu en 1820."
+    ],
+    "q": {
+      "q": "D’où la Nouvelle-Souabe tient-elle son nom ?",
+      "a": "D’un navire d’expédition",
+      "x": [
+        "D’une station de recherche",
+        "D’une chaîne de montagnes"
+      ]
+    }
+  },
+  "Q973": {
+    "t": "Un géant vagabond à travers les tourbières sibériennes",
+    "s": "L’Ob ne coule pas tant qu’elle vagabonde : ici, au milieu de la plaine de Sibérie occidentale, elle s’étale en une large plaine inondable de bras, de bras morts et d’îles couvertes de saules, large par endroits de dizaines de kilomètres. En mai et juin, la crue de printemps en change une grande partie en une seule nappe brillante. Puis l’eau regagne lentement le lit principal.",
+    "w": "Une large plaine inondable argentée aux nombreux bras, bras morts et îles, qui serpente dans les tourbières et la taïga plates.",
+    "f": [
+      "Avec l’Irtych, l’Ob forme l’un des plus longs réseaux fluviaux d’Asie, environ 5 400 km.",
+      "Elle s’achève dans le golfe de l’Ob, un estuaire long d’environ 800 km qui s’ouvre sur la mer de Kara.",
+      "Le fleuve reste sous la glace environ la moitié de l’année."
+    ],
+    "q": {
+      "q": "Sur quelle mer s’ouvre le golfe de l’Ob ?",
+      "a": "La mer de Kara",
+      "x": [
+        "La mer des Laptev",
+        "La mer de Barents"
+      ]
+    }
+  },
+  "Q1538813": {
+    "t": "Le premier fil du Yangzi, sous les glaciers",
+    "s": "Ce cours d’eau tressé qui brille dans une large vallée caillouteuse, à plus de 4 500 m d’altitude, c’est le Tuotuo, la rivière de tête généralement retenue comme source officielle du Yangzi. Il naît des glaciers du Geladaindong, dans les monts Tanggula. Près du minuscule bourg de Tuotuohe, le chemin de fer et la route Qinghai–Tibet le franchissent sur de longs ponts.",
+    "w": "Un mince filet argenté et tressé étalé dans une large vallée gris-brun, avec des sommets enneigés au sud-ouest.",
+    "f": [
+      "Le Geladaindong, dont les glaciers alimentent le Tuotuo, culmine à environ 6 600 m.",
+      "Les hivers y sont longs et rudes, et la rivière gèle plusieurs mois chaque année.",
+      "Certains relevés jugent le Dangqu, une autre rivière de tête, plus long : la vraie source du Yangzi reste débattue."
+    ],
+    "q": {
+      "q": "Quel grand fleuve commence avec le Tuotuo ?",
+      "a": "Le Yangzi",
+      "x": [
+        "Le fleuve Jaune",
+        "La Salouen"
+      ]
+    }
+  },
+  "ne-rv-1159113693": {
+    "t": "Le bras ouest du Nil, et la pierre qui a parlé",
+    "s": "En aval du Caire, le Nil se divise en deux, et voici son bras ouest, la branche de Rosette, qui serpente vers le nord à travers le delta jusqu’à la Méditerranée. D’en haut, c’est un fil sombre dans un patchwork vert et serré de champs et de villages, nettement bordé de désert à l’ouest. Près de son embouchure, à Rosette, des soldats français découvrirent la pierre de Rosette en 1799.",
+    "w": "Un fleuve sombre et sinueux dans un delta vert et dense de champs et de villages, avec le désert tout proche à l’ouest.",
+    "f": [
+      "La pierre de Rosette porte un même décret en hiéroglyphes, en démotique et en grec, ce qui a aidé à déchiffrer les hiéroglyphes.",
+      "La ville de son embouchure s’appelle Rachid en arabe ; Rosette est son nom européen.",
+      "Avec la branche de Damiette, elle encadre le delta du Nil, l’un des plus anciens paysages cultivés de la Terre."
+    ],
+    "q": {
+      "q": "Quel objet célèbre a été trouvé près de l’embouchure de la branche de Rosette ?",
+      "a": "La pierre de Rosette",
+      "x": [
+        "La palette de Narmer",
+        "Le masque de Toutânkhamon"
+      ]
+    }
+  },
+  "ne-rv-1159113949": {
+    "t": "Le bras est du Nil, à travers un delta vert et peuplé",
+    "s": "Là où le Nil s’ouvre en éventail en son delta, la branche de Damiette prend la route orientale vers la mer. D’avion, c’est une ligne sombre aux douces sinuosités à travers une terre intensément verte et peuplée, où champs, canaux et villages ne laissent presque aucun vide. La nuit, tout le delta scintille de lumières, encadré par le noir du désert.",
+    "w": "Un fleuve sombre et sinueux dans un delta intensément vert et peuplé ; la nuit, une toile de lumières bordée de désert sombre.",
+    "f": [
+      "La ville de Mansourah se dresse sur ses rives, et Damiette se trouve près de son embouchure sur la Méditerranée.",
+      "Damiette est depuis longtemps le grand centre de la fabrication de meubles en Égypte.",
+      "Depuis le haut barrage d’Assouan, les crues du Nil n’atteignent plus le delta, et par endroits sa côte recule."
+    ],
+    "q": {
+      "q": "Laquelle des deux branches du delta du Nil est celle de l’est ?",
+      "a": "Damiette",
+      "x": [
+        "Rosette",
+        "Canope"
+      ]
+    }
+  },
+  "Q1653": {
+    "t": "Le grand fleuve d’Europe serré dans les Portes de Fer",
+    "s": "Ici, le Danube se fraie un passage à travers les Carpates par les Portes de Fer, une suite de gorges à la frontière entre la Serbie et la Roumanie. D’en haut, le large fleuve se resserre soudain entre des falaises boisées abruptes, puis s’élargit à nouveau en un long réservoir derrière le barrage des Portes de Fer. Au plus étroit, dans la gorge de Kazan, il ne mesure qu’environ 150 m de large.",
+    "w": "Un large fleuve pincé entre des montagnes boisées abruptes en une gorge étroite et sinueuse, avec un grand barrage en aval.",
+    "f": [
+      "Le Danube traverse ou longe dix pays, plus que tout autre fleuve au monde.",
+      "Sur une falaise près d’Orșova, le visage du roi dace Décébale est sculpté sur environ 55 m de haut.",
+      "Le fleuve parcourt quelque 2 850 km, de la Forêt-Noire allemande à la mer Noire."
+    ],
+    "q": {
+      "q": "Combien de pays le Danube traverse-t-il ou longe-t-il ?",
+      "a": "Dix",
+      "x": [
+        "Six",
+        "Huit"
+      ]
+    }
+  },
+  "Q26301": {
+    "t": "La lointaine source mongole de l’Ienisseï",
+    "s": "L’Ider naît haut dans les monts Khangaï, en Mongolie, et serpente vers le nord-est à travers la steppe sans arbres et des vallées piquetées de mélèzes. D’en haut, elle paraît modeste, fil bleu-gris à mince liseré vert, mais c’est la rivière de tête la plus lointaine d’un réseau immense : par la Selenga, le lac Baïkal, l’Angara et l’Ienisseï, son eau atteint l’océan Arctique.",
+    "w": "Une mince rivière sinueuse à étroite frange verte dans une large vallée de steppe brunâtre ; des mélèzes sombres sur les versants nord.",
+    "f": [
+      "Là où l’Ider rejoint la Delgermörön naît la Selenga.",
+      "Mesuré depuis la source de l’Ider, l’Ienisseï forme l’un des plus longs réseaux fluviaux du monde, plus de 5 000 km.",
+      "La rivière reste gelée environ la moitié de l’année."
+    ],
+    "q": {
+      "q": "Par quel lac passe l’eau de l’Ider en route vers l’Arctique ?",
+      "a": "Le lac Baïkal",
+      "x": [
+        "Le lac Khövsgöl",
+        "Le lac Balkhach"
+      ]
+    }
+  },
+  "Q75745": {
+    "t": "La rivière qui remplit le lac Baïkal",
+    "s": "La Selenga rassemble les rivières du nord de la Mongolie et les emporte vers le nord, en Russie, jusqu’au lac Baïkal. Ici, près de la frontière, elle serpente dans une large vallée entre steppe et collines couvertes de pins, se divisant autour d’îles et de bancs de gravier. Elle apporte environ la moitié de toute l’eau qui se jette dans le Baïkal.",
+    "w": "Une rivière sinueuse aux îles et bancs de gravier dans une large vallée entre steppe et collines sombres couvertes de pins.",
+    "f": [
+      "À son entrée dans le Baïkal, la Selenga a bâti un grand delta, dédale de bras, de roseaux et de lacs.",
+      "C’est la plus grande rivière de Mongolie par le volume d’eau.",
+      "Oulan-Oudé, capitale de la Bouriatie, se dresse sur la Selenga."
+    ],
+    "q": {
+      "q": "Quelle part de l’eau qui entre dans le Baïkal vient de la Selenga ?",
+      "a": "Environ la moitié",
+      "x": [
+        "Environ un dixième",
+        "Presque toute"
+      ]
+    }
+  },
+  "Q15954437": {
+    "t": "Les premiers pas du Brahmapoutre, à la « Source du Cheval »",
+    "s": "Loin dans l’ouest du Tibet, une jeune rivière erre sur une large vallée balayée par le vent, à plus de 4 500 m d’altitude, tressée en bras argentés entre sable et graviers. C’est le Maquan, cours le plus en amont du Yarlung Tsangpo, qui devient ensuite le Brahmapoutre. Sa source se trouve dans des glaciers au sud-est du mont Kailash, montagne sacrée, et du lac Manasarovar.",
+    "w": "Une rivière argentée et tressée étalée sur une large vallée sèche et sableuse, avec les sommets enneigés de l’Himalaya au sud.",
+    "f": [
+      "Maquan signifie « Source du Cheval », en écho à son nom tibétain Tamchok Khabab, « de la bouche du cheval ».",
+      "Selon la tradition tibétaine, quatre grands fleuves naissent près du Kailash, des bouches d’un cheval, d’un lion, d’un éléphant, d’un paon.",
+      "En aval de la ville de Saga, la rivière prend le nom de Yarlung Tsangpo."
+    ],
+    "q": {
+      "q": "Quel grand fleuve commence sous le nom de Maquan ?",
+      "a": "Le Brahmapoutre",
+      "x": [
+        "Le Gange",
+        "L’Indus"
+      ]
+    }
+  },
+  "Q162737": {
+    "t": "La seule rivière qui s’échappe du lac Baïkal",
+    "s": "Plus de 300 rivières se jettent dans le lac Baïkal, mais une seule en sort : l’Angara. Ici, loin en aval, elle traverse la taïga sombre en un large réservoir pareil à un lac, une marche d’un escalier de barrages qui change sa chute en électricité. Son eau est célèbre pour sa limpidité et, en aval des barrages, elle fume souvent l’hiver au lieu de geler.",
+    "w": "Un large réservoir pareil à un lac, aux baies ramifiées, dans la taïga sombre, qui redevient rivière en aval des barrages.",
+    "f": [
+      "L’Angara est le plus grand affluent de l’Ienisseï, qu’elle rejoint loin à l’ouest.",
+      "Le réservoir de Bratsk, sur l’Angara, est l’un des plus grands lacs artificiels du monde par le volume.",
+      "Une légende bouriate raconte qu’Angara, fille du Baïkal, s’enfuit rejoindre son bien-aimé, l’Ienisseï."
+    ],
+    "q": {
+      "q": "Combien de rivières sortent du lac Baïkal ?",
+      "a": "Une seule",
+      "x": [
+        "Trois",
+        "Douze"
+      ]
+    }
+  },
+  "Q2220": {
+    "t": "Une profonde vallée verte dans les terres du Nord canadien",
+    "s": "Les terres agricoles plates courent jusqu’à l’horizon, puis plongent soudain dans une vallée profonde : la rivière de la Paix, qui serpente en larges courbes à quelque 200 m sous la prairie, ses pentes sombres de trembles et d’épicéas. Autour s’étend le Peace Country, parmi les terres cultivées les plus septentrionales d’Amérique du Nord, dorées de céréales à la fin de l’été. En aval, la rivière oblique vers le nord, vers le lac Athabasca et l’Arctique.",
+    "w": "Une vallée profonde, sinueuse et boisée qui entaille un patchwork plat de champs dorés et verts.",
+    "f": [
+      "Son nom rappelle une paix conclue au XVIIIe siècle entre les Cris et les Dane-zaa, ou Castors.",
+      "Près du lac Athabasca, elle alimente le delta Paix–Athabasca, l’un des plus grands deltas intérieurs d’eau douce de la Terre.",
+      "En Colombie-Britannique, le barrage W. A. C. Bennett retient ses eaux dans le lac Williston, le plus grand lac de la province."
+    ],
+    "q": {
+      "q": "D’où vient le nom de la rivière de la Paix ?",
+      "a": "D’une paix entre deux peuples",
+      "x": [
+        "De la devise d’un missionnaire",
+        "De son courant calme et lent"
+      ]
+    }
+  },
+  "Q3411": {
+    "t": "Le plus long fleuve du Canada, en route vers l’Arctique",
+    "s": "Le Mackenzie coule vers le nord sur plus de 1 700 km, du Grand lac des Esclaves à la mer de Beaufort, et ici c’est un large fleuve gris-brun entre la sombre forêt d’épicéas et les crêtes des monts Franklin. Tout près, la claire rivière du Grand lac de l’Ours s’y jette. L’hiver, le Mackenzie gèle dur et devient une route de glace qui relie des communautés isolées.",
+    "w": "Un large fleuve boueux qui serpente vers le nord dans la sombre forêt d’épicéas, avec des crêtes basses sur son côté est.",
+    "f": [
+      "Avec ses rivières de tête, le réseau du Mackenzie s’étend sur environ 4 200 km, le deuxième d’Amérique du Nord.",
+      "Son nom déné, Deh Cho, signifie « grand fleuve ».",
+      "Il porte le nom d’Alexander Mackenzie, qui le descendit jusqu’à l’océan Arctique en 1789."
+    ],
+    "q": {
+      "q": "De quel lac sort le Mackenzie ?",
+      "a": "Le Grand lac des Esclaves",
+      "x": [
+        "Le Grand lac de l’Ours",
+        "Le lac Athabasca"
+      ]
+    }
+  },
+  "ne-rv-1159117999": {
+    "t": "Le Mékong en torrent de montagne sur le plateau tibétain",
+    "s": "Difficile de croire que ce cours d’eau, qui serpente entre hautes prairies et gorges rocheuses au Qinghai, deviendra un jour le puissant Mékong. Le Za Qu, comme on appelle ici le haut Mékong, coule à plus de 4 000 m au-dessus de la mer, entre pâturages à yacks et parois de vallée abruptes. Il naît de petits glaciers du plateau et file vers le sud-est, vers le Tibet.",
+    "w": "Une rivière sinueuse dans une vallée profonde et étroite, entaillée dans de hautes collines d’herbe nue souvent saupoudrées de neige.",
+    "f": [
+      "À Qamdo, au Tibet, il rejoint l’Ang Qu, et à partir de là on l’appelle Lancang, le nom chinois du Mékong.",
+      "Le Mékong traverse ensuite six pays en route vers la mer de Chine méridionale.",
+      "Sa source, au-dessus de 5 000 m, se trouve dans le district de Zadoi, dans la zone du Sanjiangyuan, la « source des trois fleuves »."
+    ],
+    "q": {
+      "q": "Le Za Qu est le cours supérieur de quel fleuve ?",
+      "a": "Le Mékong",
+      "x": [
+        "La Salouen",
+        "Le Yangzi"
+      ]
+    }
+  },
+  "Q21847787": {
+    "t": "Le deuxième grand fleuve d’Amérique du Sud, tressé d’îles",
+    "s": "Après l’Amazone, le Paraná est le plus puissant fleuve d’Amérique du Sud ; avec son grand affluent, le Paraguay, il draine un immense bassin sur le Brésil, le Paraguay et l’Argentine. D’en haut, c’est une large bande brune fendue d’îles et de bancs de sable, avec de part et d’autre des lacs et des marais qui scintillent. Il s’achève en un vaste delta près de Buenos Aires, qui alimente le Río de la Plata.",
+    "w": "Un large fleuve brun tressé d’îles et de bancs de sable, avec lagunes et marais étalés dans sa plaine inondable.",
+    "f": [
+      "Avec environ 4 900 km, c’est le deuxième plus long fleuve d’Amérique du Sud.",
+      "Le barrage d’Itaipu, sur le Paraná, entre le Brésil et le Paraguay, est l’une des plus grandes centrales hydroélectriques du monde.",
+      "Le delta du Paraná, juste au nord de Buenos Aires, est un dédale d’îles et de chenaux où les maisons se dressent sur pilotis."
+    ],
+    "q": {
+      "q": "Dans quel estuaire se jette le Paraná ?",
+      "a": "Le Río de la Plata",
+      "x": [
+        "Le golfe de Paria",
+        "La Bahía Blanca"
+      ]
+    }
+  },
+  "Q836812": {
+    "t": "Le haut Congo, qu’on a pris pour le Nil",
+    "s": "Le Lualaba, c’est le fleuve Congo dans sa jeunesse : il naît sur le plateau du Katanga et coule vers le nord à travers savanes, gorges et une chaîne de lacs marécageux. D’avion, c’est un ruban sombre bordé de marais et d’herbes pâles de plaine inondable. Dans les années 1870, les explorateurs se demandaient encore s’il alimentait le Nil ou le Congo ; Henry Morton Stanley trancha en le suivant jusqu’à l’Atlantique.",
+    "w": "Un fleuve sombre et sinueux bordé de marais et de plaines inondables pâles, jalonné de lacs, dans une savane vert-brun.",
+    "f": [
+      "David Livingstone pensait que le Lualaba pouvait être le haut Nil.",
+      "Aux chutes Boyoma, près de Kisangani, le Lualaba s’achève et le fleuve prend le nom de Congo.",
+      "Le parc national de l’Upemba, le long de son cours supérieur, protège une chaîne de lacs et de zones humides."
+    ],
+    "q": {
+      "q": "Quel explorateur a suivi le Lualaba jusqu’à l’Atlantique ?",
+      "a": "Henry Morton Stanley",
+      "x": [
+        "David Livingstone",
+        "Richard Burton"
+      ]
+    }
+  },
+  "Q2226": {
+    "t": "Une rivière courte et large, aux rapides peuplés de pélicans",
+    "s": "La rivière des Esclaves porte les eaux de la rivière de la Paix et du lac Athabasca vers le nord, jusqu’au Grand lac des Esclaves : une large rivière brune qui serpente entre forêt d’épicéas et zones humides. Près de Fort Smith, elle dévale une série de rapides, principal obstacle de la longue voie d’eau qui va de l’Alberta à l’Arctique. Sur les îles rocheuses de ces rapides nichent des pélicans d’Amérique.",
+    "w": "Une large rivière boueuse qui méandre dans la forêt verte et les zones humides, avec des rapides blancs près de la frontière de l’Alberta.",
+    "f": [
+      "Les pélicans de Fort Smith forment la colonie de reproduction de pélicans d’Amérique la plus septentrionale.",
+      "La rivière tient son nom de « Slavey », ancien nom du peuple déné qui vit sur ses rives.",
+      "Elle longe le parc national Wood Buffalo, le plus grand parc national du Canada."
+    ],
+    "q": {
+      "q": "Quel oiseau niche sur les îles des rapides de la rivière des Esclaves ?",
+      "a": "Le pélican d’Amérique",
+      "x": [
+        "La grue du Canada",
+        "L’oie des neiges"
+      ]
+    }
+  },
+  "Q41179": {
+    "t": "Six pays, un fleuve, qui part des gorges du Yunnan",
+    "s": "Au Yunnan, le Mékong, appelé Lancang en Chine, file vers le sud dans des vallées profondes et boisées, en grande partie changé en longs réservoirs étroits étagés derrière une chaîne de barrages. D’en haut, il ressemble à un serpent vert-brun lové entre des crêtes abruptes. Il lui reste d’ici des milliers de kilomètres à parcourir, par le Laos, la Thaïlande, le Cambodge et le Vietnam, jusqu’à son delta.",
+    "w": "Un long fleuve ou réservoir étroit et sinueux au fond de crêtes vertes abruptes, orienté à peu près nord–sud.",
+    "f": [
+      "Le Mékong parcourt plus de 4 000 km, à travers ou le long de six pays.",
+      "Ses pêcheries fluviales comptent parmi les plus grandes du monde et nourrissent des millions de personnes.",
+      "À chaque saison des pluies, la crue du Mékong refoule l’eau vers l’amont de la rivière Tonlé Sap, jusqu’au grand lac du Cambodge."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on le Mékong en Chine ?",
+      "a": "Lancang",
+      "x": [
+        "Nu Jiang",
+        "Jinsha"
+      ]
+    }
+  },
+  "Q2599627": {
+    "t": "Un grand fleuve qui coule à plus de 3,5 km d’altitude",
+    "s": "Si vous atterrissez à Lhassa, c’est le fleuve qui longe la piste : le Yarlung Tsangpo, tressé sur un large fond de vallée à quelque 3 600 m d’altitude, avec des dunes de sable doré adossées aux pentes. Il coule vers l’est le long de l’Himalaya, puis le traverse dans l’un des canyons les plus profonds de la Terre et devient le Brahmapoutre en Inde.",
+    "w": "Un large fleuve tressé aux bancs de sable pâles et aux dunes, dans une vaste vallée entre des montagnes brunes et nues.",
+    "f": [
+      "Son Grand Canyon, autour du pic Namcha Barwa, passe souvent pour le plus profond du monde.",
+      "Une grande partie de son cours tibétain se trouve au-dessus de 3 000 m : c’est l’un des plus hauts grands fleuves de la Terre.",
+      "La rivière de Lhassa, qui passe devant la capitale tibétaine, le rejoint juste à l’ouest d’ici."
+    ],
+    "q": {
+      "q": "L’aéroport de quelle ville se trouve dans la vallée du Yarlung Tsangpo ?",
+      "a": "Lhassa",
+      "x": [
+        "Katmandou",
+        "Xining"
+      ]
+    }
+  },
+  "Q128102": {
+    "t": "Un affluent plus long que la rivière qu’il rejoint",
+    "s": "L’Irtych naît dans l’Altaï mongol, traverse la Chine et le Kazakhstan et entre en Russie, où il serpente vers le nord à travers la plaine de Sibérie occidentale pour rejoindre l’Ob. Ici, en aval d’Omsk, il décrit de paresseuses boucles dans une plaine inondable verte de prairies, de bras morts et de bosquets de bouleaux, avec des champs au-delà. Chose remarquable, cet affluent est plus long que la rivière où il se jette.",
+    "w": "Une rivière aux larges boucles régulières dans une plaine inondable verte de prairies, de bras morts et de bois de bouleaux.",
+    "f": [
+      "Avec environ 4 250 km, l’Irtych est plus long que l’Ob, où il se jette.",
+      "Il rejoint l’Ob près de Khanty-Mansiïsk.",
+      "Tobolsk, sur l’Irtych, fut la première capitale de la Sibérie ; son kremlin de pierre blanche domine la rivière."
+    ],
+    "q": {
+      "q": "Dans quelle rivière se jette l’Irtych ?",
+      "a": "L’Ob",
+      "x": [
+        "L’Ienisseï",
+        "Le Tobol"
+      ]
+    }
+  },
+  "Q3503": {
+    "t": "Le fleuve le plus profond, qui franchit deux fois l’équateur",
+    "s": "Autour de l’équateur, le Congo s’étale en un fleuve immense et lent, large de plusieurs kilomètres, semé de longues îles boisées et frangé de forêt inondée. D’en haut, on dirait un lac brun tissé de vert. C’est le deuxième fleuve de la Terre par le débit et, dans son grand arc à travers l’Afrique centrale, il franchit deux fois l’équateur.",
+    "w": "Un large fleuve brun plein de longues îles boisées, bordé sur ses deux rives de forêt inondée sombre.",
+    "f": [
+      "Dans ses gorges inférieures, le Congo dépasse 200 m de profondeur : c’est le fleuve le plus profond connu.",
+      "Il charrie plus d’eau que tout autre fleuve, à l’exception de l’Amazone.",
+      "Kinshasa et Brazzaville se font face de part et d’autre : ce sont les capitales les plus proches, Rome et le Vatican mis à part."
+    ],
+    "q": {
+      "q": "Quelles capitales se font face de part et d’autre du Congo ?",
+      "a": "Kinshasa et Brazzaville",
+      "x": [
+        "Kinshasa et Bangui",
+        "Brazzaville et Luanda"
+      ]
+    }
+  },
+  "Q45403": {
+    "t": "Un fleuve si large qu’on dirait une mer de bancs de sable",
+    "s": "En Assam, le Brahmapoutre est moins un fleuve qu’une plaine tressée d’eau et de sable large de plusieurs kilomètres, dont les chenaux se déplacent à chaque mousson. D’en haut, cherchez les bancs de sable pâles et les îles vertes éparpillés, avec les jardins de thé et les rizières sur les terres plus hautes au-delà. En amont se trouve Majuli, l’une des plus grandes îles fluviales du monde.",
+    "w": "Un fleuve très large et tressé aux bancs de sable pâles et aux îles vertes, avec les collines du Meghalaya au sud.",
+    "f": [
+      "Son nom signifie « fils de Brahma » ; c’est l’un des rares fleuves indiens au nom masculin.",
+      "Ses îles et bancs de sable, les chars, sont cultivés et même habités, bien que les crues puissent les emporter.",
+      "Le parc national de Kaziranga, sur sa rive sud, abrite environ les deux tiers des rhinocéros indiens du monde."
+    ],
+    "q": {
+      "q": "Pour quel animal Kaziranga, sur le Brahmapoutre, est-il célèbre ?",
+      "a": "Le rhinocéros unicorne",
+      "x": [
+        "La panthère des neiges",
+        "Le lion d’Asie"
+      ]
+    }
+  },
+  "Q947477": {
+    "t": "Une rivière à truites de Yellowstone au Missouri",
+    "s": "La Madison naît dans le Yellowstone, au confluent de la Firehole et de la Gibbon, et file vers le nord à travers le Montana dans une large vallée ouverte entre deux chaînes de montagnes. D’en haut, c’est un cours d’eau brillant et tressé, souligné d’une mince ligne de saules, qui traverse des terres d’élevage gris d’armoise. À Three Forks, elle rejoint la Jefferson et la Gallatin, et ensemble elles forment le Missouri.",
+    "w": "Un cours d’eau brillant et sinueux, liseré de vert, dans une large vallée couleur d’armoise entre des chaînes enneigées.",
+    "f": [
+      "Lewis et Clark la nommèrent en 1805 d’après James Madison, alors secrétaire d’État des États-Unis.",
+      "Les pêcheurs la classent parmi les meilleures rivières à truites d’Amérique du Nord.",
+      "La Firehole, l’une de ses sources, est réchauffée par les sources chaudes et les geysers du Yellowstone."
+    ],
+    "q": {
+      "q": "Quel grand cours d’eau la Madison, la Jefferson et la Gallatin forment-elles ?",
+      "a": "Le Missouri",
+      "x": [
+        "La Yellowstone",
+        "La Snake"
+      ]
+    }
+  },
+  "Q619802": {
+    "t": "Le lieu le plus poussiéreux du monde, un ancien fond de lac",
+    "s": "Un sol pâle, presque blanc, strié de dunes marque la dépression du Bodélé, au Tchad, fond asséché d’un lac ancien. Son sol est de la diatomite, fins squelettes de minuscules algues, et les vents d’hiver canalisés entre les massifs du Tibesti et de l’Ennedi le soulèvent en immenses panaches. Le Bodélé est la plus grande source de poussière de la Terre ; une partie traverse l’Atlantique jusqu’à l’Amazonie.",
+    "w": "Un bassin pâle et blanchâtre traversé de rangées de dunes en croissant ; l’hiver, de longs panaches de poussière filent vers le sud-ouest.",
+    "f": [
+      "Le bassin est un vestige du Méga-Tchad, un lac qui couvrait jadis une superficie comparable à celle de la mer Caspienne.",
+      "Les vents les plus forts soufflent ici de novembre à mars, la saison de l’harmattan.",
+      "La poussière du Bodélé transporte du phosphore et d’autres nutriments qui aident à fertiliser la forêt amazonienne."
+    ],
+    "q": {
+      "q": "De quoi est fait le sol pâle de la dépression du Bodélé ?",
+      "a": "De restes de minuscules algues",
+      "x": [
+        "De cristaux de sel",
+        "De cendres volcaniques"
+      ]
+    }
+  },
+  "Q1914": {
+    "t": "Un pays de lacs, tous peignés dans le même sens",
+    "s": "La Carélie semble avoir été ratissée par un râteau géant : lacs et crêtes allongés courent tous dans la même direction, du nord-ouest au sud-est, dans le sens où avançait l’inlandsis. Entre eux s’étendent forêts sombres de pins et d’épicéas, tourbières et granit nu. L’hiver, les lacs deviennent des coups de pinceau blancs sur la forêt sombre.",
+    "w": "D’innombrables lacs et crêtes allongés, alignés du nord-ouest au sud-est dans une forêt sombre ; le lac Onega à l’est.",
+    "f": [
+      "La république de Carélie compte environ 60 000 lacs.",
+      "Sur l’île de Kiji, dans le lac Onega, se dresse l’église en bois de la Transfiguration, à 22 coupoles, bâtie en 1714.",
+      "Nombre des chants devenus l’épopée finnoise du Kalevala ont été recueillis auprès de chanteurs de Carélie."
+    ],
+    "q": {
+      "q": "Dans quelle direction s’étirent la plupart des lacs de Carélie ?",
+      "a": "Du nord-ouest au sud-est",
+      "x": [
+        "D’est en ouest",
+        "Du nord-est au sud-ouest"
+      ]
+    }
+  },
+  "Q137555": {
+    "t": "Un plateau de brousse rouge-brun dans la Corne de l’Afrique",
+    "s": "L’Ogaden est un pays sec : un plateau rouge-brun de broussailles épineuses et d’acacias épars, qui descend en pente douce des hauts plateaux éthiopiens vers la Somalie. D’en haut, on dirait un tapis couleur rouille finement moucheté de buissons, entaillé de lits de rivières pâles, le plus souvent à sec. Après les petites pluies, il verdit pendant quelques semaines.",
+    "w": "Une plaine rouge rouille finement mouchetée de buissons, aux lits de rivières pâles et secs ; verte quelques semaines après les pluies.",
+    "f": [
+      "Le Chébéli, né sur les hauts plateaux éthiopiens, traverse l’Ogaden en route vers la Somalie.",
+      "La pluie vient ici en deux courtes saisons, au printemps et à l’automne.",
+      "La plupart des habitants sont des éleveurs somalis qui gardent chameaux, chèvres et moutons."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse l’Ogaden en route vers la Somalie ?",
+      "a": "Le Chébéli",
+      "x": [
+        "L’Awash",
+        "L’Omo"
+      ]
+    }
+  },
+  "Q181103": {
+    "t": "Des montagnes nues et plissées, dans tous les tons de brun",
+    "s": "Le Baloutchistan est un enchevêtrement sauvage de montagnes nues et de bassins secs, où la roche se plisse en longues crêtes parallèles, incurvées comme le fil d’un bois poli. Peu de vert : quelques oasis, des lits de rivières secs, des étendues de sel dans les creux. La région chevauche le Pakistan, l’Iran et l’Afghanistan. Au nord-ouest se dresse le Taftan, volcan de près de 4 000 m qui fume encore.",
+    "w": "De longues crêtes parallèles et incurvées de roche nue brune et grise, avec entre elles des lits de rivières secs et des étendues de sel.",
+    "f": [
+      "La province du Baloutchistan couvre environ 44 % du Pakistan, plus que toute autre province.",
+      "Mehrgarh, au Baloutchistan, est l’un des plus anciens villages agricoles d’Asie du Sud, vieux d’environ 9 000 ans.",
+      "Sur la côte du Makran, au sud, de petits volcans de boue bouillonnent tout près de la mer."
+    ],
+    "q": {
+      "q": "Quelle part de la superficie du Pakistan la province du Baloutchistan représente-t-elle ?",
+      "a": "Environ 44 %",
+      "x": [
+        "Environ 10 %",
+        "Environ 70 %"
+      ]
+    }
+  },
+  "Q5700": {
+    "t": "Forêts, fjells et tourbières sous les aurores boréales",
+    "s": "D’avion, la Laponie, c’est de la forêt sombre, des tourbières pâles et des fjells arrondis sans arbres, sillonnés de rivières et de lacs. Au nord du cercle polaire, le soleil ne se couche pas pendant des semaines autour du solstice d’été et, au cœur de l’hiver, il se lève à peine. Par une nuit d’hiver claire, vous verrez peut-être l’aurore depuis votre hublot, voile vert qui ondule au-dessus de la neige.",
+    "w": "Forêt sombre de conifères, tourbières pâles et sommets arrondis nus aux rivières sinueuses ; l’hiver, blanc taché de forêt sombre.",
+    "f": [
+      "La Laponie s’étend sur le nord de la Norvège, de la Suède, de la Finlande et sur la péninsule de Kola, en Russie : c’est la terre des Sâmes.",
+      "Les rennes errent librement dans une grande partie de la Laponie finlandaise ; leur élevage est un mode de vie traditionnel sâme.",
+      "Rovaniemi, la capitale de la Laponie finlandaise, se trouve pile sur le cercle polaire."
+    ],
+    "q": {
+      "q": "Quel peuple autochtone vit en Laponie ?",
+      "a": "Les Sâmes",
+      "x": [
+        "Les Inuits",
+        "Les Nénètses"
+      ]
+    }
+  },
+  "Q1528035": {
+    "t": "Une patte d’oiseau de terre qui s’avance dans le Golfe",
+    "s": "Au terme de son long voyage, le Mississippi a bâti une forme étrange : une patte d’oiseau, aux longs doigts minces de marais et de levées qui s’avancent dans le golfe du Mexique. D’en haut, cherchez l’eau brune qui s’étale de leurs pointes dans la mer bleue, et un dédale de marais verts, de lacs et de chenaux autour. Tout ce paysage est fait de boue fluviale.",
+    "w": "De longs doigts de terre minces qui s’avancent dans le Golfe, avec l’eau brune du fleuve qui s’évase à leurs pointes dans la mer bleue.",
+    "f": [
+      "Depuis 7 000 ans, le fleuve a bâti le sud de la Louisiane en passant d’un lobe de delta à l’autre.",
+      "La Louisiane côtière a perdu environ 5 000 km² de terres depuis les années 1930, le delta s’enfonçant et s’érodant.",
+      "Head of Passes, où le fleuve se divise en bras de la patte d’oiseau, se trouve à environ 150 km en aval de La Nouvelle-Orléans."
+    ],
+    "q": {
+      "q": "À quoi compare-t-on souvent le delta actuel du Mississippi ?",
+      "a": "À une patte d’oiseau",
+      "x": [
+        "À un éventail",
+        "À un triangle"
+      ]
+    }
+  },
+  "Q29412": {
+    "t": "Un dédale de mangroves et de criques à l’embouchure du Niger",
+    "s": "Ici, le Niger se brise en d’innombrables criques et chenaux avant d’atteindre l’Atlantique, formant le plus grand delta d’Afrique. D’en haut, c’est un dédale vert sombre de mangrove et de forêt marécageuse, sillonné de voies d’eau brunes qui scintillent au soleil. La nuit, les points orange des torchères de gaz piquent l’obscurité.",
+    "w": "Un dédale vert sombre de mangroves et de forêt marécageuse, parcouru de criques brunes sinueuses ; la nuit, des torchères orange éparses.",
+    "f": [
+      "Les mangroves du Nigeria, pour la plupart dans ce delta, sont les plus vastes d’Afrique.",
+      "Le delta couvre quelque 70 000 km² de zones humides, de criques et d’îles.",
+      "Le Niger arrive ici après avoir parcouru quelque 4 200 km depuis les hauts plateaux de Guinée."
+    ],
+    "q": {
+      "q": "Quel fleuve forme ce delta ?",
+      "a": "Le Niger",
+      "x": [
+        "La Volta",
+        "Le Sénégal"
+      ]
+    }
+  },
+  "Q1431507": {
+    "t": "Le plus grand delta d’Europe, où le lotus fleurit en août",
+    "s": "Avant d’atteindre la Caspienne, la Volga s’évase en le plus grand delta d’Europe : des centaines de bras, de roselières et d’îles, verts sur la steppe sèche et pâle de part et d’autre. D’en haut, on dirait les nervures ramifiées d’une feuille. À la fin de l’été, les fleurs de lotus s’ouvrent sur ses eaux extérieures peu profondes en champs roses entiers.",
+    "w": "Un immense éventail vert de bras ramifiés et de roselières qui s’étale dans la Caspienne, encadré de steppe pâle et sèche.",
+    "f": [
+      "Le delta se compose de quelque 500 bras, chenaux et petits cours d’eau.",
+      "La réserve naturelle d’Astrakhan, fondée ici en 1919, est l’une des plus anciennes de Russie.",
+      "La Caspienne se trouve à environ 28 m sous le niveau de la mer : le delta lui-même est plus bas que l’océan mondial."
+    ],
+    "q": {
+      "q": "Quelle fleur rose s’ouvre sur le delta extérieur de la Volga à la fin de l’été ?",
+      "a": "Le lotus",
+      "x": [
+        "La tulipe",
+        "La pivoine"
+      ]
+    }
+  },
+  "Q184429": {
+    "t": "Roselières, pélicans et trois bras vers la mer",
+    "s": "Juste avant la mer Noire, le Danube se divise en trois bras et s’étale en une vaste zone humide de roseaux, de lacs et de chenaux sinueux, l’une des plus grandes roselières de la Terre. D’en haut, c’est une mosaïque vert et or piquée d’eau argentée, avec le canal de Sulina, rectiligne, qui la traverse en son milieu. Au printemps et en été, elle abrite d’immenses colonies de pélicans.",
+    "w": "Une mosaïque vert et or de roseaux, de lacs et de chenaux sinueux, coupée d’un chenal rectiligne, au bord de la mer Noire.",
+    "f": [
+      "Le delta du Danube a été inscrit au patrimoine mondial de l’UNESCO en 1991.",
+      "C’est le deuxième plus grand delta d’Europe, après celui de la Volga.",
+      "L’essentiel du delta se trouve en Roumanie ; sa lisière nord appartient à l’Ukraine."
+    ],
+    "q": {
+      "q": "En combien de bras principaux le Danube se divise-t-il dans son delta ?",
+      "a": "Trois",
+      "x": [
+        "Deux",
+        "Sept"
+      ]
+    }
+  },
+  "Q1052867": {
+    "t": "Un bol de riz aux neuf dragons et aux canaux sans fin",
+    "s": "Le Mékong finit ici dans un monde plat d’un vert éclatant : rizières en rectangles à perte de vue, vergers, étangs à poissons et villages égrenés le long des canaux, le tout sillonné par les larges bras bruns du fleuve. Les Vietnamiens l’appellent Cửu Long, les « Neuf Dragons », d’après ses nombreuses embouchures. À la moisson, des districts entiers passent du vert à l’or.",
+    "w": "Des rectangles vert vif de rizières sillonnés de bras de fleuve bruns et de canaux droits, le tout parfaitement plat.",
+    "f": [
+      "Le delta produit environ la moitié du riz du Vietnam.",
+      "Il se trouve presque entièrement à moins de 2 m au-dessus du niveau de la mer.",
+      "Des marchés flottants, où l’on vend directement depuis les bateaux, se tiennent encore près de Cần Thơ."
+    ],
+    "q": {
+      "q": "Que signifie le nom vietnamien Cửu Long ?",
+      "a": "Neuf Dragons",
+      "x": [
+        "Grand Fleuve",
+        "Eau d’or"
+      ]
+    }
+  },
+  "Q81591": {
+    "t": "Là où l’Afrique se déchire lentement",
+    "s": "Ici, dans la région de l’Afar, la vallée du Grand Rift s’ouvre sur une plaine basse brûlée de champs de lave, d’étendues de sel et de volcans, en partie à plus de 100 m sous le niveau de la mer. C’est là que trois plaques de l’écorce terrestre s’écartent, et un jour la mer pourrait s’y engouffrer. D’ici, le rift court vers le sud sur des milliers de kilomètres, jalonné d’une chaîne de longs lacs.",
+    "w": "Champs de lave noirs, cuvettes de sel blanches et cônes volcaniques épars dans une plaine brûlante, murée à l’ouest de hauts escarpements.",
+    "f": [
+      "En 1974, le squelette fossile appelé Lucy, vieux d’environ 3,2 millions d’années, a été découvert à Hadar, dans l’Afar.",
+      "L’Erta Ale, volcan de la dépression du Danakil, a gardé un lac de lave dans son cratère une grande partie du siècle dernier.",
+      "Dallol, au nord de la dépression, a l’une des plus hautes températures moyennes annuelles de la Terre."
+    ],
+    "q": {
+      "q": "Quel fossile célèbre a été découvert dans l’Afar en 1974 ?",
+      "a": "Lucy",
+      "x": [
+        "Le garçon de Turkana",
+        "L’enfant de Taung"
+      ]
+    }
+  },
+  "Q4863367": {
+    "t": "Une toundra sans arbres où errent les caribous",
+    "s": "Au nord de la limite des arbres, la forêt canadienne cède la place aux Barren Grounds : une toundra ouverte de mousse, de lichen et de roche nue, semée de plus de lacs qu’on n’en a jamais comptés. Cherchez les eskers, longues crêtes de gravier sinueuses laissées par des rivières qui coulaient jadis à l’intérieur de l’inlandsis. Chaque année, de grands troupeaux de caribous migrent à travers ce pays.",
+    "w": "Une terre sans arbres criblée d’innombrables lacs, traversée de longues crêtes de gravier sinueuses ; blanche la plus grande partie de l’année.",
+    "f": [
+      "Le refuge faunique de la Thelon, créé en 1927, protège bœufs musqués et caribous au cœur des Barren Grounds.",
+      "Tout près, Baker Lake est la seule communauté du Nunavut située à l’intérieur des terres.",
+      "Certains eskers courent ici sur des centaines de kilomètres."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on les longues crêtes de gravier sinueuses des Barren Grounds ?",
+      "a": "Des eskers",
+      "x": [
+        "Des drumlins",
+        "Des moraines"
+      ]
+    }
+  },
+  "Q381050": {
+    "t": "Pas un arbre, une ligne droite et des falaises sur la mer",
+    "s": "Nullarbor, c’est « pas d’arbre » en latin, et d’en haut le nom va comme un gant : une immense plaine plate gris olive d’arroches et de buissons bleus, sans un seul arbre en vue. C’est la plus grande dalle de calcaire d’un seul tenant au monde, criblée de grottes en dessous. Sur son bord sud, les falaises de Bunda plongent à pic dans la Grande Baie australienne.",
+    "w": "Une plaine gris-vert parfaitement plate et sans arbres, une voie ferrée toute droite, et des falaises à pic sur la mer au sud.",
+    "f": [
+      "Le Transaustralien la traverse sur une ligne droite d’environ 478 km, la plus longue du monde.",
+      "Le calcaire s’est formé sur un ancien fond marin et couvre quelque 200 000 km².",
+      "Les falaises de Bunda atteignent environ 120 m de haut et s’étirent sur une centaine de kilomètres."
+    ],
+    "q": {
+      "q": "Que signifie « Nullarbor » ?",
+      "a": "Pas d’arbre",
+      "x": [
+        "Terre rouge",
+        "Grande plaine"
+      ]
+    }
+  },
+  "Q1807196": {
+    "t": "Une toundra aux lacs innombrables, tous orientés pareil",
+    "s": "Entre la chaîne Brooks et l’océan Arctique, le North Slope est une toundra plate et sans arbres couverte de lacs, souvent ovales et alignés dans la même direction, comme peignés par le vent. Pendant environ neuf mois, la terre est blanche ; l’été, elle dégèle en une nappe scintillante d’eau et de vert. En dessous s’étend un pergélisol épais de centaines de mètres.",
+    "w": "Une toundra plate et sans arbres aux innombrables lacs ovales tous alignés pareil ; la chaîne Brooks enneigée au sud.",
+    "f": [
+      "Prudhoe Bay, sur le North Slope, est le plus grand gisement de pétrole d’Amérique du Nord.",
+      "À Utqiaġvik, la ville la plus au nord des États-Unis, le soleil ne se couche pas pendant plus de 80 jours l’été.",
+      "L’oléoduc trans-Alaska transporte le pétrole sur environ 1 300 km, d’ici jusqu’au port de Valdez."
+    ],
+    "q": {
+      "q": "Quelles montagnes forment la limite sud du North Slope ?",
+      "a": "La chaîne Brooks",
+      "x": [
+        "La chaîne d’Alaska",
+        "Les monts Chugach"
+      ]
+    }
+  },
+  "Q271294": {
+    "t": "Un bassin rouge sous un couvercle de nuages",
+    "s": "Cerné de montagnes, le bassin du Sichuan se cache souvent sous un couvercle plat de nuages ou de brume ; quand il se dégage, on voit de basses collines rougeâtres taillées en d’innombrables champs en terrasses, étangs et villages. Ses sols viennent d’un grès rouge violacé, qui lui a valu le nom de « bassin Rouge ». Chengdu se trouve sur la plaine fertile de l’ouest, Chongqing là où la Jialing rejoint le Yangzi.",
+    "w": "De basses collines rougeâtres et arrondies couvertes de minuscules terrasses et d’étangs, cernées de montagnes ; souvent sous une nappe de nuages.",
+    "f": [
+      "Un dicton chinois, « les chiens du Sichuan aboient au soleil », plaisante : il se montre si rarement ici que les chiens s’en effraient.",
+      "Le système d’irrigation de Dujiangyan, commencé au IIIe siècle av. J.-C., arrose toujours la plaine de Chengdu.",
+      "Environ 100 millions de personnes vivent dans le bassin."
+    ],
+    "q": {
+      "q": "Quelle couleur a donné son surnom au bassin du Sichuan ?",
+      "a": "Le rouge",
+      "x": [
+        "Le jaune",
+        "Le noir"
+      ]
+    }
+  },
+  "Q216622": {
+    "t": "Une mer de sable cernée de montagnes enneigées et d’oasis",
+    "s": "Le bassin du Tarim renferme le Taklamakan, l’un des plus grands déserts de sable de la Terre : une mer de dunes ocre et or, dont certaines crêtes dépassent 100 m de haut. Sur son pourtour, des chaînes enneigées — le Tian Shan, le Pamir et le Kunlun — alimentent des rivières qui meurent dans le sable et un collier d’oasis vertes comme Kachgar et Hotan. La route de la soie longeait ses deux bords.",
+    "w": "Une immense mer de dunes dorées, cernée de montagnes enneigées, avec des oasis vertes égrenées sur ses bords.",
+    "f": [
+      "Le Tarim, le plus long fleuve intérieur de Chine, longe le bord nord du désert et n’atteint jamais la mer.",
+      "Des momies découvertes dans le bassin, certaines vieilles d’environ 4 000 ans, ont été conservées par le sable sec et salé.",
+      "Une route traverse le Taklamakan, bordée sur des centaines de kilomètres d’arbustes arrosés qui retiennent le sable."
+    ],
+    "q": {
+      "q": "Quel désert occupe le bassin du Tarim ?",
+      "a": "Le Taklamakan",
+      "x": [
+        "Le Gobi",
+        "Le Karakoum"
+      ]
+    }
+  },
+  "Q157603": {
+    "t": "La plus vaste zone humide tropicale, au rythme des crues",
+    "s": "Le Pantanal respire au rythme des saisons. De décembre à mars environ, la pluie gonfle le Paraguay et ses affluents jusqu’à ce qu’une grande partie de cette vaste plaine disparaisse sous une eau peu profonde, semée d’îlots de forêt. Pendant les mois secs, l’eau se retire dans des lagunes et des chenaux sinueux, et prairies et bétail réapparaissent. C’est la plus grande zone humide tropicale de la Terre.",
+    "w": "Une mosaïque plate de lagunes brillantes, de chenaux sinueux et d’îlots de forêt verts ; plus sèche et plus brune de juin à octobre.",
+    "f": [
+      "Il s’étend sur le Brésil, la Bolivie et le Paraguay et couvre environ 150 000 km².",
+      "C’est l’un des meilleurs endroits au monde pour voir des jaguars sauvages.",
+      "Une partie du Pantanal est inscrite au patrimoine mondial de l’UNESCO depuis 2000."
+    ],
+    "q": {
+      "q": "Quel fleuve draine le Pantanal ?",
+      "a": "Le Paraguay",
+      "x": [
+        "L’Amazone",
+        "Le São Francisco"
+      ]
+    }
+  },
+  "Q1347148": {
+    "t": "Toundra sans fin mouchetée de lacs, au bord de l’Arctique",
+    "s": "Entre les monts Byrranga du Taïmyr et le plateau de Sibérie centrale s’étend la plaine de Sibérie du Nord, une toundra plate et sans arbres sur plus de mille kilomètres. D’en haut, c’est une immense toile mouchetée de lacs, traversée de rivières lentes aux larges boucles comme l’Anabar et l’Olenek. La plus grande partie de l’année, elle est blanche ; le court été la peint de brun et de vert.",
+    "w": "Une toundra plate et sans arbres criblée de lacs et traversée de rivières en boucles ; blanche la plus grande partie de l’année.",
+    "f": [
+      "Le pergélisol y atteint des centaines de mètres de profondeur.",
+      "Au cœur de l’hiver, la nuit polaire dure des semaines ; l’été, le soleil tourne dans le ciel sans se coucher.",
+      "Les rivières y sont prises par les glaces environ huit mois par an."
+    ],
+    "q": {
+      "q": "Quelles montagnes s’élèvent au bord nord de la plaine ?",
+      "a": "Les monts Byrranga",
+      "x": [
+        "Le plateau de Poutorana",
+        "Les monts de Verkhoïansk"
+      ]
+    }
+  },
+  "Q737789": {
+    "t": "Une plaine sous le niveau de la mer, bordée de lacs salés",
+    "s": "Autour du nord de la Caspienne, la terre descend sous le niveau de l’océan mondial. D’en haut, c’est une plaine sèche brun pâle de steppe et de semi-désert, striée de sable et piquetée de lacs salés d’un blanc étincelant, que la Volga traverse d’un trait vert. À son point le plus bas, le long du rivage de la Caspienne, elle se trouve à environ 28 m sous le niveau de la mer.",
+    "w": "Une plaine plate brun pâle avec lacs salés blancs et plaques de sable, traversée par le ruban vert de la Volga.",
+    "f": [
+      "Le lac Elton, au nord de la dépression, est le plus grand lac salé d’Europe.",
+      "Le lac Baskountchak fournit du sel à la Russie depuis des siècles.",
+      "Le Bolchoï Bogdo, haut d’à peine 150 m environ, est le point culminant de la dépression et un lieu sacré pour les Kalmouks."
+    ],
+    "q": {
+      "q": "À quelle profondeur sous le niveau de la mer descend la dépression caspienne ?",
+      "a": "Environ 28 m",
+      "x": [
+        "Environ 5 m",
+        "Environ 90 m"
+      ]
+    }
+  },
+  "Q654544": {
+    "t": "Un labyrinthe vert qui avale la moitié du Nil Blanc",
+    "s": "Ici, le Nil Blanc s’égare dans le Sudd, l’une des plus grandes zones humides du monde : un immense labyrinthe vert de papyrus, de roseaux et de plantes flottantes, parcouru de chenaux et de lagunes qui brillent au soleil. L’évaporation est telle qu’environ la moitié du débit du fleuve ne ressort jamais du marais. Sa taille enfle et diminue avec la saison des pluies.",
+    "w": "Un immense marais vert et plat sillonné de chenaux et de lagunes brillants, où serpente le cours principal du fleuve.",
+    "f": [
+      "Son nom vient de l’arabe pour « barrière » : le marais a longtemps bloqué les bateaux qui remontaient le Nil.",
+      "Vers 60 apr. J.-C., des explorateurs envoyés par l’empereur romain Néron furent arrêtés par le marais.",
+      "Le canal de Jonglei, commencé en 1978 pour dériver l’eau autour du marais, n’a jamais été achevé."
+    ],
+    "q": {
+      "q": "Que signifie le nom arabe « Sudd » ?",
+      "a": "Barrière",
+      "x": [
+        "Lac",
+        "Mer verte"
+      ]
+    }
+  },
+  "Q11767": {
+    "t": "Le pays entre deux fleuves, où naquit l’écriture",
+    "s": "Mésopotamie signifie « entre les fleuves » en grec, et d’en haut on comprend pourquoi : le Tigre et l’Euphrate courent à peu près côte à côte sur une plaine brune et sèche, chacun bordé d’une mince bande verte de champs et de palmiers. Entre eux s’étend une steppe ouverte qui verdit brièvement après les pluies d’hiver. Le long de ces fleuves sont apparues certaines des premières villes, et la première écriture.",
+    "w": "Une plaine brune et sèche traversée par deux grands fleuves, chacun bordé d’une mince bande verte de cultures, filant vers le sud-est.",
+    "f": [
+      "Le cunéiforme, l’un des plus anciens systèmes d’écriture, est apparu ici il y a plus de 5 000 ans.",
+      "L’agriculture y dépendait de canaux d’irrigation, parmi les plus anciens du monde.",
+      "Dans le sud de l’Irak, les deux fleuves se rejoignent enfin et gagnent le Golfe sous le nom de Chatt al-Arab."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Mésopotamie » ?",
+      "a": "Entre les fleuves",
+      "x": [
+        "Pays des palmiers",
+        "Plaine fertile"
+      ]
+    }
+  },
+  "Q208965": {
+    "t": "Là où les monts Transantarctiques rencontrent la mer de Ross",
+    "s": "La terre Victoria, c’est l’Antarctique dans ce qu’il a de plus spectaculaire : les monts Transantarctiques jaillissent droit de la mer de Ross, avec des sommets de plus de 4 000 m, et de grands glaciers se déversent entre eux sur la banquise. Plus au sud s’étendent les vallées sèches de McMurdo, nues et brunes, parmi les lieux les plus secs de la Terre. James Clark Ross la nomma d’après la reine Victoria en 1841.",
+    "w": "Des montagnes sombres et déchiquetées et de larges glaciers qui descendent vers une mer blanche et gelée ; plus au sud, des vallées nues et brunes.",
+    "f": [
+      "Les vallées sèches de McMurdo sont la plus grande zone libre de glace de l’Antarctique.",
+      "Au cap Adare, au nord, se dressent des cabanes bâties en 1899, les premiers bâtiments du continent antarctique.",
+      "La station italienne Mario Zucchelli se trouve sur sa côte, dans la baie Terra Nova."
+    ],
+    "q": {
+      "q": "D’où la terre Victoria tient-elle son nom ?",
+      "a": "De la reine Victoria",
+      "x": [
+        "D’un navire nommé Victoria",
+        "De la fille d’un explorateur"
+      ]
+    }
+  },
+  "Q1389935": {
+    "t": "Au nom d’un chocolatier qui a payé le voyage",
+    "s": "À l’intérieur des terres, les pics sombres des monts du Prince-Charles percent la glace de la terre Mac. Robertson, tandis qu’à côté le glacier Lambert, souvent présenté comme le plus grand glacier de la Terre, coule lentement vers le nord jusqu’à la barrière d’Amery. D’en haut, cherchez la longue surface striée de la glace en mouvement entre les montagnes. Cette terre honore Macpherson Robertson, chocolatier australien qui aida à financer l’expédition de Mawson de 1929–1931.",
+    "w": "Des crêtes sombres qui percent la glace, à côté d’un immense glacier strié qui coule vers une barrière de glace plate.",
+    "f": [
+      "L’entreprise de Robertson fabriquait des confiseries comme la grenouille en chocolat Freddo Frog.",
+      "Le glacier Lambert mesure plus de 400 km de long et jusqu’à environ 100 km de large.",
+      "La station australienne Mawson se trouve sur sa côte."
+    ],
+    "q": {
+      "q": "Que fabriquait l’homme qui a donné son nom à la terre Mac. Robertson ?",
+      "a": "Du chocolat et des confiseries",
+      "x": [
+        "Des baleiniers",
+        "Des avions"
+      ]
+    }
+  },
+  "Q2607094": {
+    "t": "Là où l’Australie s’est installée en Antarctique, en 1954",
+    "s": "Le long de la côte Mawson, l’inlandsis s’achève en falaises d’un blanc bleuté, entrecoupées de quelques caps et îles rocheux sombres. Sur l’un d’eux, en 1954, l’Australie a bâti la station Mawson, la plus ancienne station encore en service au sud du cercle polaire antarctique. Derrière elle, les monts Framnes percent la glace, et des vents violents dévalent la pente vers la mer.",
+    "w": "Des falaises de glace blanc bleuté avec des îles et caps rocheux sombres, la banquise au large et des pics sombres qui percent la glace.",
+    "f": [
+      "La côte et la station portent le nom de Douglas Mawson, géologue et explorateur polaire australien.",
+      "Tout près, à Auster, les manchots empereurs élèvent leurs petits sur la banquise d’hiver.",
+      "Les vents catabatiques qui dévalent la glace soufflent souvent ici en tempête."
+    ],
+    "q": {
+      "q": "Quand la station Mawson a-t-elle été fondée ?",
+      "a": "En 1954",
+      "x": [
+        "En 1911",
+        "En 1985"
+      ]
+    }
+  },
+  "Q1576051": {
+    "t": "Une côte glacée où l’Inde bâtit sa première base antarctique",
+    "s": "Une barrière de glace plate frange la côte de la Princesse-Astrid et rejoint la mer en basses falaises blanches. Juste derrière se trouve l’oasis Schirmacher, basse bande de roche sombre piquetée de lacs qui dégèlent l’été. Plus au sud, là où vous êtes, les aiguilles déchiquetées des monts Wohlthat percent la glace, et au-delà commence le plateau polaire.",
+    "w": "Une barrière de glace plate et blanche au bord de la mer, une petite bande sombre de roche et de lacs, puis des aiguilles montagneuses.",
+    "f": [
+      "La première base antarctique de l’Inde, Dakshin Gangotri, fut construite ici sur la barrière de glace en 1983.",
+      "En 1989, Dakshin Gangotri avait été abandonnée, lentement ensevelie par la neige et la glace.",
+      "Les stations Novolazarevskaïa (Russie) et Maitri (Inde) se dressent côte à côte dans l’oasis Schirmacher."
+    ],
+    "q": {
+      "q": "Quel pays a bâti ici sa première base antarctique en 1983 ?",
+      "a": "L’Inde",
+      "x": [
+        "La Chine",
+        "Le Brésil"
+      ]
+    }
+  },
+  "Q1663286": {
+    "t": "Collines sans glace et lacs salés près d’une barrière géante",
+    "s": "Le long de la côte Ingrid-Christensen, l’inlandsis s’ouvre par endroits sur de basses collines de roche brune et nue semées de lacs, certains plus salés que la mer. Ces oasis, les collines Vestfold et Larsemann, sont rares en Antarctique, et plusieurs pays y ont bâti des stations. À l’ouest s’étend l’immense barrière d’Amery, toute plate.",
+    "w": "Une glace blanche trouée de collines brunes et nues et de petits lacs le long de la côte ; une immense barrière plate à l’ouest.",
+    "f": [
+      "Le Deep Lake, dans les collines Vestfold, est si salé qu’il reste liquide à environ −18 °C.",
+      "La station australienne Davis est dans les collines Vestfold ; la Russie, la Chine et l’Inde ont des stations dans les collines Larsemann.",
+      "La côte porte le nom d’Ingrid Christensen, épouse de l’armateur baleinier norvégien Lars Christensen."
+    ],
+    "q": {
+      "q": "Qu’ont d’inhabituel les collines Vestfold en Antarctique ?",
+      "a": "Elles sont en grande partie sans glace",
+      "x": [
+        "Ce sont des volcans actifs",
+        "Ce sont ses plus hauts sommets"
+      ]
+    }
+  },
+  "Q21471424": {
+    "t": "Là où fut bâtie la première station soviétique antarctique",
+    "s": "La côte de la Reine-Mary est bordée par la barrière de Shackleton, plate-forme blanche de glace flottante qui s’achève sur la mer en falaises, avec des icebergs massés en contrebas. Derrière, l’inlandsis monte doucement vers l’intérieur. En 1956, l’Union soviétique y a bâti Mirny, sa première station antarctique, que la Russie exploite toujours.",
+    "w": "Une barrière de glace blanche et plate qui finit en falaises sur une eau sombre semée d’icebergs ; l’inlandsis monte doucement derrière.",
+    "f": [
+      "L’expédition antarctique australasienne de Mawson, de 1911–1914, la nomma d’après la reine Mary, épouse du roi George V.",
+      "Le groupe ouest de Mawson passa l’hiver 1912 sur la barrière de Shackleton.",
+      "Les manchots empereurs se reproduisent sur la banquise près de Mirny."
+    ],
+    "q": {
+      "q": "Quelle station, fondée ici en 1956, fut la première base soviétique en Antarctique ?",
+      "a": "Mirny",
+      "x": [
+        "Vostok",
+        "Novolazarevskaïa"
+      ]
+    }
+  },
+  "Q2944697": {
+    "t": "Une oasis de lacs repérée d’avion en 1947",
+    "s": "Le long de la côte Knox, l’inlandsis descend vers la mer en larges glaciers, mais à son extrémité ouest se cache une surprise : les collines Bunger, une étendue de roche nue et basse piquetée de dizaines de lacs. D’avion, on dirait une île brune dans une mer blanche. David Bunger, pilote de l’US Navy, la repéra en 1947, et elle porte aujourd’hui son nom.",
+    "w": "Une glace blanche qui descend vers la mer, avec une frappante tache de collines brunes et nues et de lacs près de l’extrémité ouest.",
+    "f": [
+      "La côte porte le nom de Samuel Knox, commandant de navire de l’expédition d’exploration américaine de 1838–1842.",
+      "Les collines Bunger sont l’une des plus grandes zones libres de glace de la côte antarctique.",
+      "En 1956, l’Union soviétique ouvrit dans les collines Bunger une station appelée Oazis."
+    ],
+    "q": {
+      "q": "Qu’a découvert un pilote sur cette côte en 1947 ?",
+      "a": "Une oasis sans glace, avec des lacs",
+      "x": [
+        "Un volcan actif",
+        "Un lac enfoui sous la glace"
+      ]
+    }
+  },
+  "Q124971": {
+    "t": "Où un grand glacier de l’Antarctique de l’Est rejoint la mer",
+    "s": "Sur la côte Sabrina, la glace de l’Antarctique de l’Est se déverse dans l’océan par le glacier Totten, l’un des plus grands du continent, qui s’achève en une langue de glace flottante. Les scientifiques ont découvert une eau océanique chaude qui s’infiltre dessous, et ils le surveillent de près. D’en haut, cherchez une glace striée et crevassée qui rencontre une mer semée d’icebergs.",
+    "w": "Une glace crevassée et striée qui coule vers une langue de glace flottante, avec icebergs et banquise sur l’eau sombre au-delà.",
+    "f": [
+      "La côte tient son nom du Sabrina, un cotre de l’expédition britannique de John Balleny en 1839.",
+      "Le glacier Totten draine un bassin contenant assez de glace pour élever le niveau des mers de plusieurs mètres.",
+      "La barrière de l’Université de Moscou se trouve aussi le long de cette côte."
+    ],
+    "q": {
+      "q": "D’où la côte Sabrina tient-elle son nom ?",
+      "a": "D’un petit voilier",
+      "x": [
+        "De la fille d’un explorateur",
+        "D’une station baleinière"
+      ]
+    }
+  },
+  "Q21489984": {
+    "t": "La côte venteuse qui a donné son nom à un manchot",
+    "s": "La côte Adélie est un court tronçon de falaises de glace et d’îlots rocheux, où des vents violents dévalent de l’inlandsis vers la mer. L’explorateur français Jules Dumont d’Urville y débarqua en 1840 et donna à cette terre le nom de sa femme, Adèle. Le manchot Adélie, qui niche sur ses îles rocheuses, porte le même nom.",
+    "w": "Des falaises de glace entrecoupées d’îlots rocheux sombres, banquise et icebergs au large, et l’inlandsis qui monte régulièrement.",
+    "f": [
+      "La station française Dumont-d’Urville se trouve sur une petite île juste au large de cette côte.",
+      "Ses vents catabatiques comptent parmi les plus forts de l’Antarctique.",
+      "Le film « La Marche de l’empereur » a été tourné parmi les manchots empereurs près de la station Dumont-d’Urville."
+    ],
+    "q": {
+      "q": "D’où la côte Adélie tient-elle son nom ?",
+      "a": "De l’épouse de l’explorateur",
+      "x": [
+        "D’une reine de France",
+        "De la fille du capitaine"
+      ]
+    }
+  },
+  "Q728390": {
+    "t": "La côte glacée où l’on a découvert le trou d’ozone",
+    "s": "La terre de Coats longe le côté est de la mer de Weddell, où l’inlandsis glisse de la terre en larges barrières de glace. Sur l’une d’elles, la barrière de Brunt, se dresse la station britannique Halley, dont les mesures ont révélé le trou d’ozone antarctique en 1985. D’en haut, il n’y a presque que du blanc : barrières plates, longues fissures et bord de la banquise.",
+    "w": "Des barrières de glace blanches et plates, zébrées de longues fissures, contre la mer de Weddell gelée ; l’inlandsis monte doucement.",
+    "f": [
+      "Halley VI repose sur des pieds munis de skis pour pouvoir être remorquée ; en 2017, on l’a éloignée d’une fissure qui s’agrandissait.",
+      "La terre fut nommée en 1904 d’après James et Andrew Coats, mécènes écossais de l’expédition de William Speirs Bruce.",
+      "Les manchots empereurs se reproduisent sur la banquise le long de cette côte."
+    ],
+    "q": {
+      "q": "Qu’ont révélé en 1985 les mesures de la station Halley ?",
+      "a": "Le trou d’ozone",
+      "x": [
+        "Le lac Vostok",
+        "Les monts Gamburtsev"
+      ]
+    }
+  },
+  "Q1134547": {
+    "t": "Le pays des plus hautes montagnes de l’Antarctique",
+    "s": "Dans la terre d’Ellsworth, les monts Ellsworth surgissent de la glace comme une grande muraille longue d’environ 350 km, et parmi eux se dresse le massif Vinson, point culminant de l’Antarctique avec 4 892 m. Autour, l’inlandsis s’étend, plat et blanc, vers la barrière de Ronne et la mer de Bellingshausen. Lincoln Ellsworth survola cette terre en 1935, lors du premier vol à travers l’Antarctique.",
+    "w": "Une longue muraille de montagnes sombres et déchiquetées qui surgit de l’inlandsis blanc, avec une glace plate tout autour.",
+    "f": [
+      "La chaîne Sentinel, partie nord des monts Ellsworth, porte les plus hauts sommets de l’Antarctique.",
+      "Les alpinistes gagnent le Vinson depuis un camp sur la glace, à Union Glacier, desservi par des vols depuis le Chili.",
+      "Le Vinson n’a été gravi pour la première fois qu’en 1966."
+    ],
+    "q": {
+      "q": "Quelle est l’altitude du massif Vinson ?",
+      "a": "4 892 m",
+      "x": [
+        "3 794 m",
+        "6 190 m"
+      ]
+    }
+  },
+  "Q136270": {
+    "t": "Une côte solitaire aperçue par un phoquier en 1833",
+    "s": "La terre de Kemp est l’un des coins les plus tranquilles de l’Antarctique de l’Est : une pente de glace blanche et lisse qui descend vers de basses falaises de glace, des baies et un semis de petites îles rocheuses. Très peu de gens y ont jamais posé le pied. La côte fut aperçue pour la première fois en 1833 par Peter Kemp, capitaine phoquier britannique qui cherchait de nouveaux terrains de chasse dans l’océan Austral.",
+    "w": "Une pente de glace blanche et lisse qui finit en basses falaises et en baies, avec un semis d’îlots rocheux sombres et de banquise.",
+    "f": [
+      "Kemp naviguait sur le brick Magnet quand il aperçut la côte.",
+      "L’expédition BANZARE de Mawson cartographia son littoral en 1930 depuis le navire Discovery.",
+      "Elle se trouve entre la terre d’Enderby à l’ouest et la terre Mac. Robertson à l’est."
+    ],
+    "q": {
+      "q": "Qui était Peter Kemp, qui aperçut cette côte en 1833 ?",
+      "a": "Un capitaine phoquier",
+      "x": [
+        "Un amiral de la Royal Navy",
+        "Un patron de station baleinière"
+      ]
+    }
+  },
+  "Q4084201": {
+    "t": "La route glaciaire prise par Shackleton vers le pôle",
+    "s": "Ici, les monts Transantarctiques rencontrent le bord ouest de la barrière de Ross, et d’énormes glaciers comme le Nimrod et le Beardmore se faufilent entre les sommets jusqu’à la glace plate. En 1908–1909, le groupe d’Ernest Shackleton remonta le Beardmore vers le pôle Sud et ne fit demi-tour qu’à environ 180 km du but. D’en haut, cherchez de longs fleuves de glace rayés de moraines sombres.",
+    "w": "Des montagnes sombres striées de neige et de larges glaciers qui descendent sur la barrière de Ross, plate et blanche.",
+    "f": [
+      "La côte a reçu le nom de Sir Ernest Shackleton en 1961.",
+      "Le glacier Nimrod porte le nom du navire de l’expédition de Shackleton de 1907–1909.",
+      "Le glacier Beardmore, à l’extrémité sud de la côte, mesure environ 200 km : c’est l’un des plus grands glaciers de vallée de la Terre."
+    ],
+    "q": {
+      "q": "À quelle distance du pôle Sud le groupe de Shackleton a-t-il fait demi-tour ?",
+      "a": "Environ 180 km",
+      "x": [
+        "Environ 20 km",
+        "Environ 600 km"
+      ]
+    }
+  },
+  "Q2983463": {
+    "t": "Une côte qui porte les initiales d’une expédition",
+    "s": "Des murs de falaises de glace d’un blanc bleuté marquent la côte Banzare, où l’inlandsis glisse dans la mer, avec des icebergs à la dérive au large et une bande de banquise une grande partie de l’année. Le nom est un acronyme : BANZARE, l’expédition de recherche antarctique britannique, australienne et néo-zélandaise. Menée par Douglas Mawson, elle cartographia cette côte en 1931.",
+    "w": "Des falaises de glace blanc bleuté le long de la mer, icebergs et ceinture de banquise au large, glace blanche et lisse qui monte derrière.",
+    "f": [
+      "La BANZARE naviguait sur le Discovery, le navire que Robert Falcon Scott avait mené en Antarctique en 1901.",
+      "Loin à l’intérieur, la glace s’élève jusqu’au Dôme C, à plus de 3 200 m, où se trouve la station franco-italienne Concordia.",
+      "La côte est proche du cercle polaire antarctique : au cœur de l’été, le soleil se couche à peine."
+    ],
+    "q": {
+      "q": "D’où vient le nom Banzare ?",
+      "a": "Des initiales d’une expédition",
+      "x": [
+        "Du nom d’un navire",
+        "Du nom d’un explorateur"
+      ]
+    }
+  },
+  "Q2983473": {
+    "t": "Des falaises de glace au nom de l’épouse d’un capitaine",
+    "s": "La côte Clarie est une longue ligne de falaises de glace où l’inlandsis de l’Antarctique de l’Est rencontre la mer, entrecoupée çà et là de langues glaciaires et d’icebergs échoués. En janvier 1840, les navires de Jules Dumont d’Urville longèrent ces falaises. Il donna à la côte le nom de Claire, épouse de Charles Jacquinot, capitaine de son second navire, la Zélée.",
+    "w": "Une longue ligne de falaises de glace blanches avec des langues glaciaires en saillie et des icebergs échoués ; banquise au large.",
+    "f": [
+      "Une expédition américaine menée par Charles Wilkes cartographiait la même côte ce mois-là.",
+      "L’Australie appelle ce tronçon la côte Wilkes.",
+      "Elle se trouve entre la côte Banzare à l’ouest et la terre Adélie à l’est."
+    ],
+    "q": {
+      "q": "Qui était Claire, qui a donné son nom à la côte Clarie ?",
+      "a": "L’épouse d’un capitaine de navire",
+      "x": [
+        "Une princesse française",
+        "La fille d’un savant"
+      ]
+    }
+  },
+  "Q2576481": {
+    "t": "Des îles rocheuses où se dresse la station Casey",
+    "s": "Falaises de glace et glaciers bordent la côte Budd, mais un semis de basses îles rocheuses, les îles Windmill, rompt le blanc. Sur une presqu’île rocheuse qui leur fait face se dresse la station australienne Casey, l’une des trois bases permanentes du pays sur le continent. Au large, la mer gèle l’hiver en une large ceinture de banquise côtière.",
+    "w": "De basses îles et presqu’îles rocheuses sombres au bord de falaises de glace blanches, avec la banquise qui s’étend au large.",
+    "f": [
+      "La côte porte le nom de Thomas Budd, officier de l’expédition américaine de Charles Wilkes de 1838–1842.",
+      "La station Casey porte le nom de Richard Casey, homme politique australien devenu plus tard gouverneur général.",
+      "Des manchots Adélie nichent l’été sur les îles Windmill."
+    ],
+    "q": {
+      "q": "Quel pays exploite la station Casey sur la côte Budd ?",
+      "a": "L’Australie",
+      "x": [
+        "La Nouvelle-Zélande",
+        "Le Chili"
+      ]
+    }
+  },
+  "Q21489993": {
+    "t": "Un volcan éteint solitaire sur une côte glacée",
+    "s": "La côte de Guillaume II est surtout faite de glace lisse qui rejoint la mer, mais elle cache une curiosité : le Gaussberg, volcan éteint sombre et arrondi d’environ 370 m, seul au bord de la glace. Il fut découvert en 1902 par l’expédition allemande d’Erich von Drygalski, dont le navire, le Gauss, resta pris dans la banquise tout près pendant près d’un an. La côte porte le nom de l’empereur allemand Guillaume II.",
+    "w": "Une glace blanche et lisse qui rejoint la mer, avec une unique colline sombre en forme de dôme qui se détache près de la côte.",
+    "f": [
+      "Le Gauss resta bloqué dans la glace de février 1902 à février 1903.",
+      "L’équipe de Drygalski fit monter un ballon captif pour observer l’intérieur : l’un des premiers vols en Antarctique.",
+      "Le Gaussberg porte le nom du navire, qui honorait le mathématicien Carl Friedrich Gauss."
+    ],
+    "q": {
+      "q": "Qu’est-ce que le Gaussberg ?",
+      "a": "Un volcan éteint",
+      "x": [
+        "Une station de recherche",
+        "Un dôme de glace"
+      ]
+    }
+  },
+  "Q1634150": {
+    "t": "La maison japonaise en Antarctique, sur une baie glacée",
+    "s": "La côte du Prince-Harald entoure la baie de Lützow-Holm, large échancrure généralement encombrée de banquise et semée d’îles rocheuses. Sur l’une d’elles, l’île Ongul de l’Est, se dresse la station japonaise Syowa, ouverte en 1957. À l’intérieur, l’inlandsis monte régulièrement vers le plateau polaire, troué près de la côte de petites taches de roche nue.",
+    "w": "Une large baie remplie de banquise blanche et semée d’îles sombres, avec l’inlandsis qui monte derrière.",
+    "f": [
+      "Elle porte le nom du prince Harald de Norvège, devenu plus tard le roi Harald V.",
+      "Le brise-glace japonais Shirase doit souvent forcer son passage à travers une épaisse banquise pour atteindre Syowa.",
+      "La baie de Lützow-Holm porte le nom de Finn Lützow-Holm, aviateur de la marine norvégienne qui survola la région."
+    ],
+    "q": {
+      "q": "Quel pays exploite la station Syowa sur cette côte ?",
+      "a": "Le Japon",
+      "x": [
+        "La Corée du Sud",
+        "La Norvège"
+      ]
+    }
+  },
+  "Q1578672": {
+    "t": "Une côte tranquille au nom d’un futur roi",
+    "s": "À l’est de la baie de Lützow-Holm, la côte du Prince-Olav est un tronçon de basses falaises de glace et de langues glaciaires où l’inlandsis rejoint la mer, avec une banquise accrochée au rivage une grande partie de l’année. À l’intérieur, la pente blanche monte régulièrement vers le haut plateau, seulement percée de quelques nunataks sombres. Elle porte le nom du prince héritier Olav de Norvège.",
+    "w": "De basses falaises de glace et des langues glaciaires, la banquise le long du rivage, et une pente blanche qui monte doucement.",
+    "f": [
+      "Olav régna ensuite sous le nom d’Olav V de Norvège, de 1957 à 1991.",
+      "Les expéditions norvégiennes des années 1930 ont nommé bien des côtes de la terre de la Reine-Maud d’après la famille royale.",
+      "Des scientifiques japonais de la station Syowa, toute proche, ont relevé et cartographié une grande partie de cette côte."
+    ],
+    "q": {
+      "q": "Qui était le prince Olav, qui a donné son nom à cette côte ?",
+      "a": "Un futur roi de Norvège",
+      "x": [
+        "Un explorateur danois",
+        "Un savant suédois"
+      ]
+    }
+  },
+  "Q928344": {
+    "t": "Là où l’on aperçut l’Antarctique pour la première fois",
+    "s": "La côte de la Princesse-Martha est frangée de larges barrières de glace plates qui s’achèvent sur la mer en murs blancs. Au large de cette côte, en janvier 1820, l’expédition russe de Bellingshausen et Lazarev aperçut une immense barrière de glace, souvent considérée comme la première observation de l’Antarctique. Aujourd’hui, la station allemande Neumayer repose sur la barrière, et la sud-africaine SANAE IV sur un affleurement rocheux à l’intérieur.",
+    "w": "Des barrières de glace blanches et plates qui finissent en basses falaises sur la mer ; à l’intérieur, affleurements rocheux et montagnes sombres.",
+    "f": [
+      "La côte porte le nom de la princesse héritière Märtha de Norvège, épouse du prince héritier Olav.",
+      "La station Neumayer III repose sur des pieds hydrauliques, qui permettent de la surélever à mesure que la neige s’accumule.",
+      "SANAE IV, la base antarctique sud-africaine, est perchée sur un nunatak appelé Vesleskarvet."
+    ],
+    "q": {
+      "q": "Qui a aperçu une barrière de glace au large de cette côte en janvier 1820 ?",
+      "a": "Bellingshausen et Lazarev",
+      "x": [
+        "Cook et Furneaux",
+        "Ross et Crozier"
+      ]
+    }
+  },
+  "Q6111648": {
+    "t": "Là où l’immense glacier Thwaites rejoint la mer",
+    "s": "Sur la côte Walgreen, l’inlandsis de l’Antarctique de l’Ouest atteint la mer d’Amundsen par certains des glaciers qui changent le plus vite sur Terre, surtout le glacier Thwaites, à peu près grand comme la Floride. D’en haut, vous verriez un chaos de glace crevassée qui se brise en icebergs, puis la banquise. La côte doit son nom à Charles Walgreen, des pharmacies du même nom, mécène de l’expédition de Richard Byrd de 1933–1935.",
+    "w": "Un chaos de glace crevassée et brisée et d’icebergs, là où les glaciers rencontrent une mer encombrée de banquise.",
+    "f": [
+      "Le glacier Thwaites repose sur un lit bien en dessous du niveau de la mer, ce qui le rend sensible à l’eau océanique chaude.",
+      "Les scientifiques forent la glace et envoient des robots en dessous pour mesurer la vitesse de sa fonte.",
+      "Le glacier de Pine Island, autre géant rapide, se trouve juste à l’est."
+    ],
+    "q": {
+      "q": "Quel glacier de cette côte est à peu près grand comme la Floride ?",
+      "a": "Le glacier Thwaites",
+      "x": [
+        "Le glacier Beardmore",
+        "Le glacier Lambert"
+      ]
+    }
+  },
+  "Q5255259": {
+    "t": "Le bord lointain de la barrière de Ross, au pied des monts",
+    "s": "Sur la côte Gould, la barrière de Ross, plate — la plus grande barrière de glace de la Terre —, rencontre le pied des monts Transantarctiques, où des glaciers comme le glacier Scott dévalent entre des pics sombres. C’est l’un des endroits les plus reculés de la planète, à environ 650 km seulement du pôle Sud. La côte porte le nom de Laurence Gould, le géologue qui y mena un groupe en traîneaux à chiens en 1929.",
+    "w": "La barrière de glace blanche et plate qui bute sur un mur de montagnes sombres et enneigées, d’où sortent de larges glaciers.",
+    "f": [
+      "Gould était l’adjoint de Richard Byrd lors de l’expédition de 1928–1930 ; son groupe cartographia quelque 280 km de cette côte.",
+      "Le glacier Scott, découvert par le groupe de Gould en 1929, porte le nom de Robert Falcon Scott, qui ne l’a jamais vu.",
+      "La barrière de Ross a à peu près la taille de la France et une épaisseur de centaines de mètres."
+    ],
+    "q": {
+      "q": "Qui était Laurence Gould, qui a donné son nom à cette côte ?",
+      "a": "Un géologue et explorateur",
+      "x": [
+        "Un capitaine de navire",
+        "Un constructeur d’avions"
+      ]
+    }
+  },
+  "Q1551170": {
+    "t": "La base haute et glacée de la péninsule Antarctique",
+    "s": "La terre de Palmer est la large partie sud de la péninsule Antarctique, où l’étroite échine montagneuse s’élargit en un haut plateau couvert de glace, entaillé de glaciers qui descendent vers les deux côtes. À l’ouest, cherchez le détroit de George VI, long chenal rectiligne rempli d’une barrière de glace, qui la sépare de l’île Alexandre-Ier. Elle porte le nom de Nathaniel Palmer, phoquier américain qui parcourut ces eaux en 1820.",
+    "w": "Un haut plateau blanc d’où les glaciers descendent des deux côtés ; à l’ouest, un long chenal rectiligne rempli de glace.",
+    "f": [
+      "La station américaine Palmer n’est pas du tout en terre de Palmer, mais loin au nord, sur l’île Anvers, au large de la terre de Graham.",
+      "Ses montagnes dépassent 3 000 m.",
+      "Nathaniel Palmer n’avait que 21 ans quand il mena son sloop Hero dans ces eaux."
+    ],
+    "q": {
+      "q": "Où se trouve la station américaine Palmer ?",
+      "a": "Sur l’île Anvers",
+      "x": [
+        "En terre de Palmer",
+        "Sur l’île Alexandre-Ier"
+      ]
+    }
+  },
+  "Q618370": {
+    "t": "Le bras montagneux de l’Antarctique tendu vers le nord",
+    "s": "La terre de Graham est le bras nord de la péninsule Antarctique, étroite échine de montagnes escarpées drapées de glaciers qui s’avance vers l’Amérique du Sud. Sa côte ouest est un dédale de chenaux, d’îles et de falaises de glace que visitent la plupart des navires de croisière en Antarctique. Sur sa côte est s’étendent les barrières de Larsen, dont des parties se sont disloquées en 1995 et 2002.",
+    "w": "Une étroite échine de montagnes déchiquetées drapées de glaciers entre deux mers glacées, bordée de barrières de glace à l’est.",
+    "f": [
+      "John Biscoe la nomma en 1832 d’après Sir James Graham, Premier Lord de l’Amirauté.",
+      "La pointe de la péninsule n’est qu’à environ 1 000 km de l’Amérique du Sud, de l’autre côté du passage de Drake.",
+      "Le canal Lemaire, sur sa côte ouest, est si étroit et spectaculaire qu’on le surnomme « Kodak Gap »."
+    ],
+    "q": {
+      "q": "Quel passage sépare la terre de Graham de l’Amérique du Sud ?",
+      "a": "Le passage de Drake",
+      "x": [
+        "Le détroit de Magellan",
+        "Le canal Beagle"
+      ]
+    }
+  },
+  "Q1145030": {
+    "t": "La toute pointe de la Corne de l’Afrique",
+    "s": "Ici, l’Afrique se termine en pointe. Au cap Guardafui, la côte de la Corne, qui court vers l’est le long du golfe d’Aden, vire brusquement au sud dans l’océan Indien. D’en haut, cherchez un promontoire nu et fauve, aux falaises et plages pâles, où les hauts-fonds turquoise rejoignent le bleu profond. Les navires qui vont en mer Rouge ou en reviennent le longent chaque jour.",
+    "w": "Un promontoire nu et fauve où la côte vire brusquement de l’est au sud, falaises pâles au-dessus d’une mer turquoise et bleu profond.",
+    "f": [
+      "Les marins de la Grèce antique le connaissaient sous le nom d’Aromata, le « cap des Épices ».",
+      "Le point le plus oriental de l’Afrique n’est pas ici mais à Ras Hafun, à environ 150 km au sud.",
+      "Le cap marque la limite entre le golfe d’Aden et l’océan Indien ouvert."
+    ],
+    "q": {
+      "q": "Quelle étendue d’eau se trouve au nord du cap Guardafui ?",
+      "a": "Le golfe d’Aden",
+      "x": [
+        "La mer Rouge",
+        "Le golfe Persique"
+      ]
+    }
+  },
+  "Q193401": {
+    "t": "Un crochet de sable d’où les fusées quittent la Terre",
+    "s": "Cherchez un crochet de sable qui s’avance de la côte atlantique de la Floride, avec des lagunes et des marais derrière : le cap Canaveral. Des fusées en décollent depuis les années 1950, et les missions Apollo vers la Lune sont parties du centre spatial Kennedy voisin, sur l’île Merritt. Avec de la chance, vous verrez peut-être même le panache d’un lancement monter de la côte.",
+    "w": "Un crochet de sable pointu sur la côte atlantique de la Floride, adossé à de larges lagunes et à des marais.",
+    "f": [
+      "De 1963 à 1973, le cap s’est officiellement appelé cap Kennedy.",
+      "Son nom vient de l’espagnol « cañaveral », un lieu où pousse la canne.",
+      "Les fusées partent vers l’est au-dessus de l’Atlantique : les étages usagés tombent ainsi en mer plutôt qu’à terre."
+    ],
+    "q": {
+      "q": "Quelles missions lunaires sont parties d’à côté du cap Canaveral ?",
+      "a": "Apollo",
+      "x": [
+        "Gemini",
+        "Vostok"
+      ]
+    }
+  },
+  "Q780339": {
+    "t": "L’extrême ouest californien, où trois plaques se rencontrent",
+    "s": "Au cap Mendocino, la sauvage Lost Coast du nord de la Californie s’avance le plus loin dans le Pacifique, ses collines vertes et abruptes plongeant droit dans le ressac. Juste au large, trois plaques de l’écorce terrestre se rencontrent au point triple de Mendocino, ce qui fait de ce coin l’un des plus sismiques des États-Unis. Cherchez un cap sombre souligné d’une longue ligne blanche de brisants.",
+    "w": "Un cap sombre et abrupt là où la côte du nord de la Californie s’avance le plus à l’ouest, frangé de ressac blanc.",
+    "f": [
+      "Le cap Mendocino est le point le plus occidental de la Californie.",
+      "La Lost Coast qui l’entoure est si abrupte que la route côtière bifurque vers l’intérieur pour l’éviter.",
+      "Les galions espagnols de Manille vers le Mexique prenaient souvent le cap pour premier repère en Amérique."
+    ],
+    "q": {
+      "q": "Combien de plaques tectoniques se rencontrent au large du cap Mendocino ?",
+      "a": "Trois",
+      "x": [
+        "Deux",
+        "Quatre"
+      ]
+    }
+  },
+  "Q1020776": {
+    "t": "La pointe rocheuse de la Basse-Californie, entre deux mers",
+    "s": "Tout au bout de la longue et sèche péninsule de Basse-Californie, des falaises de granit se brisent dans la mer à Land’s End, là où le golfe de Californie rejoint le Pacifique ouvert. D’en haut, cherchez la pointe sud acérée de la péninsule, une baie incurvée aux plages blanches et la station balnéaire tout autour. L’hiver, les baleines à bosse se rassemblent dans ces eaux chaudes.",
+    "w": "La pointe sud acérée d’une longue péninsule désertique : falaises de granit pâle, baie incurvée et ville le long du rivage.",
+    "f": [
+      "El Arco, arche de pierre naturelle à Land’s End, est l’emblème le plus connu de la ville.",
+      "La péninsule de Basse-Californie s’étire sur quelque 1 200 km, de la frontière américaine jusqu’à ce cap.",
+      "Le tropique du Cancer passe juste au nord de la ville."
+    ],
+    "q": {
+      "q": "Quelles eaux se rejoignent à Cabo San Lucas ?",
+      "a": "Pacifique et golfe de Californie",
+      "x": [
+        "Golfe du Mexique et Pacifique",
+        "Caraïbes et Pacifique"
+      ]
+    }
+  },
+  "ne-rg-1159105013": {
+    "t": "Là où les ours polaires attendent que la mer gèle",
+    "s": "Sur la rive ouest de la baie d’Hudson, le cap Churchill s’avance dans la mer : pointe basse de toundra, de lacs et de galets. Chaque automne, les ours polaires se rassemblent ici et près de la ville de Churchill, attendant que la baie gèle pour chasser le phoque sur la glace. Les terres alentour forment en grande partie le parc national Wapusk, l’une des plus grandes zones de tanières d’ours polaires au monde.",
+    "w": "Une pointe basse et plate de toundra criblée d’innombrables lacs, avancée dans la baie d’Hudson ; blanche de glace une grande partie de l’année.",
+    "f": [
+      "La ville voisine de Churchill se proclame « capitale mondiale de l’ours polaire ».",
+      "Chaque été, des milliers de bélugas se rassemblent dans l’estuaire de la rivière Churchill.",
+      "La limite des arbres passe tout près : forêt, toundra et banquise se rencontrent dans ce coin du Manitoba."
+    ],
+    "q": {
+      "q": "Pourquoi les ours polaires se rassemblent-ils près du cap Churchill en automne ?",
+      "a": "Pour attendre la banquise",
+      "x": [
+        "Pour pêcher le saumon",
+        "Pour s’accoupler sur les plages"
+      ]
+    }
+  },
+  "Q49152": {
+    "t": "Un bras de sable qui gonfle son biceps dans l’Atlantique",
+    "s": "Le cap Cod est l’une des formes les plus faciles à reconnaître d’avion : un long bras de sable plié au coude, qui se recourbe vers le nord dans l’Atlantique comme un biceps contracté, avec Provincetown dans le poing. Les glaciers l’ont bâti à la fin de la dernière glaciation, et les vagues le remodèlent depuis. Sa côte extérieure est bordée de hautes falaises de sable et de longues plages désertes.",
+    "w": "Une longue et étroite presqu’île de sable pliée comme un bras et recourbée vers le nord, avec la baie du cap Cod dans sa courbe.",
+    "f": [
+      "En 1620, le Mayflower jeta d’abord l’ancre devant Provincetown, à la pointe du cap, avant que les Pèlerins s’installent à Plymouth.",
+      "Le canal du cap Cod, ouvert en 1914, coupe sa base : techniquement, c’est donc une île.",
+      "Bartholomew Gosnold le nomma en 1602 d’après la morue (cod) que son équipage pêchait au large."
+    ],
+    "q": {
+      "q": "À quoi compare-t-on souvent la forme du cap Cod ?",
+      "a": "À un bras plié",
+      "x": [
+        "À une botte",
+        "À une pince de homard"
+      ]
+    }
+  },
+  "Q2065437": {
+    "t": "La pointe sud du New Jersey, carrefour des migrateurs",
+    "s": "Au cap May, le New Jersey arrive au bout de ses terres : une presqu’île émoussée de plages, de marais et de petites villes entre l’Atlantique et la baie du Delaware. Chaque automne, d’énormes quantités d’oiseaux migrateurs et de papillons monarques descendent la presqu’île en entonnoir et s’y rassemblent avant de traverser la baie. La ville de la pointe, pleine de maisons victoriennes, est l’une des plus anciennes stations balnéaires des États-Unis.",
+    "w": "La pointe sud émoussée du New Jersey, entre l’Atlantique ouvert et la large embouchure de la baie du Delaware.",
+    "f": [
+      "Il porte le nom de Cornelius Jacobsen Mey, capitaine néerlandais qui explora cette côte vers 1620.",
+      "Toute la ville de Cape May est classée National Historic Landmark pour ses bâtiments victoriens.",
+      "Un ferry pour voitures relie Cape May à Lewes, dans le Delaware, à travers la baie."
+    ],
+    "q": {
+      "q": "Quelle baie se trouve à l’ouest du cap May ?",
+      "a": "La baie du Delaware",
+      "x": [
+        "La baie de Chesapeake",
+        "La baie du cap Cod"
+      ]
+    }
+  },
+  "Q4078": {
+    "t": "L’extrémité sud des Amériques, battue par les tempêtes",
+    "s": "Une île sombre et rocheuse tout au bout des Amériques : le cap Horn se dresse sur l’île Hornos, près du bord sud de l’archipel de la Terre de Feu. Au-delà, il n’y a plus que le passage de Drake et, loin au sud, l’Antarctique. Pour les marins, ce fut longtemps le cap le plus redouté de la Terre, où les coups de vent d’ouest et les vagues énormes font le tour du globe sans obstacle.",
+    "w": "Une île sombre et abrupte au bord sud d’un semis d’îles escarpées, face à une mer ouverte et souvent déchaînée.",
+    "f": [
+      "Les navigateurs néerlandais Schouten et Le Maire le nommèrent en 1616 d’après la ville de Hoorn, aux Pays-Bas.",
+      "Selon une vieille tradition, le marin qui avait doublé le Horn à la voile gagnait le droit de porter une boucle d’oreille en or.",
+      "Le cap appartient au Chili ; un phare et un petit poste de la marine se dressent sur l’île."
+    ],
+    "q": {
+      "q": "D’où le cap Horn tient-il son nom ?",
+      "a": "D’une ville néerlandaise",
+      "x": [
+        "De la corne de brume d’un navire",
+        "De sa forme de corne"
+      ]
+    }
+  },
+  "Q4092": {
+    "t": "Le cap célèbre qui n’est pas la pointe sud de l’Afrique",
+    "s": "Au bout de la péninsule du Cap, au sud du Cap, des falaises rocheuses et des pentes de fynbos plongent dans une mer agitée : c’est le cap de Bonne-Espérance. Le navigateur portugais Bartolomeu Dias le doubla en 1488, ouvrant la voie à la route maritime des Indes. D’en haut, cherchez un mince doigt de terre pointé vers le sud, avec False Bay sur son flanc est.",
+    "w": "Une péninsule rocheuse et effilée pointée vers le sud depuis Le Cap, avec la vaste False Bay à l’est.",
+    "f": [
+      "Ce n’est pas le point le plus méridional de l’Afrique : c’est le cap des Aiguilles, à environ 150 km au sud-est.",
+      "Selon la tradition, Dias l’appela cap des Tempêtes avant que le roi du Portugal le rebaptise cap de Bonne-Espérance.",
+      "Il fait partie de la région florale du Cap, l’une des plus riches au monde en plantes."
+    ],
+    "q": {
+      "q": "Quel cap est en réalité le point le plus méridional de l’Afrique ?",
+      "a": "Le cap des Aiguilles",
+      "x": [
+        "Cape Point",
+        "Le cap Hangklip"
+      ]
+    }
+  },
+  "Q1034489": {
+    "t": "L’angle où la côte ouest-africaine tourne vers l’est",
+    "s": "Au cap des Palmes, la côte d’Afrique de l’Ouest, qui filait vers le sud-est, pivote pour partir presque plein est le long du golfe de Guinée. D’en haut, cherchez une pointe rocheuse basse aux plages de sable, une forêt vert sombre derrière et l’embouchure du Cavally toute proche. Les marins portugais qui cartographiaient cette côte au XVe siècle la nommèrent d’après ses palmiers.",
+    "w": "Une pointe basse où la côte passe du sud-est à l’est, avec de la forêt derrière et une embouchure de fleuve tout près.",
+    "f": [
+      "Le cap des Palmes marque la limite ouest du golfe de Guinée.",
+      "Le Cavally, qui atteint la mer tout près, forme la frontière entre le Liberia et la Côte d’Ivoire.",
+      "Les marchands européens appelaient jadis le rivage à l’ouest du cap la côte des Graines, et celui à l’est la Côte d’Ivoire."
+    ],
+    "q": {
+      "q": "Quel golfe commence au cap des Palmes ?",
+      "a": "Le golfe de Guinée",
+      "x": [
+        "Le golfe d’Aden",
+        "Le golfe de Syrte"
+      ]
+    }
+  },
+  "Q216889": {
+    "t": "La pointe ouest de l’Afrique, couronnée d’une capitale",
+    "s": "La presqu’île du Cap-Vert s’avance du Sénégal dans l’Atlantique comme un crochet, et sa pointe, la pointe des Almadies, est le point le plus occidental de l’Afrique continentale. Elle est presque entièrement couverte par Dakar, la capitale du Sénégal, qui s’étale sur le cap bas jusqu’à la mer. Juste au large de sa rive sud abritée se trouve la petite île de Gorée.",
+    "w": "Une presqu’île en crochet qui s’avance vers l’ouest dans l’Atlantique, densément bâtie, avec un îlot au large de sa rive sud.",
+    "f": [
+      "Les marins portugais la baptisèrent « cap Vert » en 1444, frappés par sa verdure après la côte désertique du nord.",
+      "Les îles du Cap-Vert, à quelque 600 km à l’ouest, tiennent leur nom de ce cap.",
+      "L’île de Gorée est inscrite au patrimoine mondial de l’UNESCO depuis 1978."
+    ],
+    "q": {
+      "q": "Quelle ville couvre l’essentiel de la presqu’île du Cap-Vert ?",
+      "a": "Dakar",
+      "x": [
+        "Banjul",
+        "Saint-Louis"
+      ]
+    }
   }
 }

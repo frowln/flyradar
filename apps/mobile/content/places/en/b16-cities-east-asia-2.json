@@ -970,5 +970,653 @@
         "Big field"
       ]
     }
+  },
+  "Q164234": {
+    "t": "A long, thin city between Tokyo and Yokohama",
+    "s": "At night Kawasaki's waterfront looks like a science-fiction set: refineries, chimneys and steelworks glitter along Tokyo Bay, and boat tours run just to see them. The city itself is long and narrow, stretching some 30 km inland along the Tama River, which separates it from Tokyo. Haneda Airport lies just across the river mouth.",
+    "w": "A narrow city along the south bank of a river between Tokyo and Yokohama, ending in an industrial shore on Tokyo Bay.",
+    "f": [
+      "The Tokyo Bay Aqua-Line starts here, diving under the bay in a tunnel before rising onto a bridge.",
+      "Kawasaki Daishi temple draws millions of visitors at New Year.",
+      "Umihotaru, an artificial island in mid-bay, marks where the Aqua-Line's tunnel ends and its bridge begins."
+    ],
+    "q": {
+      "q": "Which river separates Kawasaki from Tokyo?",
+      "a": "The Tama",
+      "x": [
+        "The Sumida",
+        "The Arakawa"
+      ]
+    }
+  },
+  "Q426644": {
+    "t": "A river town devoted to the goddess of mercy",
+    "s": "The Fu River slides through Suining in broad, glassy reaches held back by weirs, among the rounded red hills of central Sichuan. The city is a centre of devotion to Guanyin, the bodhisattva of mercy, whose legends are woven into its temples. In nearby Daying county, salty underground brine fills a bathing lake where swimmers float effortlessly, advertised as China's “Dead Sea”.",
+    "w": "A city strung along a wide, dammed river among low red hills in the middle of the Sichuan Basin.",
+    "f": [
+      "The Tang poet Chen Zi'ang came from Shehong, now part of Suining.",
+      "Guangde Temple in Suining is one of Sichuan's major Buddhist temples.",
+      "In Daying county, Song-era salt makers invented narrow bamboo-lined wells, an ancestor of modern drilling."
+    ],
+    "q": {
+      "q": "Which river flows through Suining?",
+      "a": "The Fu",
+      "x": [
+        "The Min",
+        "The Dadu"
+      ]
+    }
+  },
+  "Q426130": {
+    "t": "Li Bai's home valley at the foot of the mountains",
+    "s": "Where the Sichuan Basin runs up against the first ridges to the north-west, the Fu River flows through Mianyang, gathering tributaries right in the city. This is a town of research institutes and electronics, and the home of the TV maker Changhong. North of it, at Qinglian in today's Jiangyou, the poet Li Bai spent his childhood in the 8th century.",
+    "w": "A city on a river where tributaries meet, on the north-western edge of the Sichuan Basin, with mountains rising beyond.",
+    "f": [
+      "Li Bai grew up at Qinglian, in the county-level city of Jiangyou, north of Mianyang.",
+      "Changhong, one of China's biggest TV makers, was founded in Mianyang.",
+      "With its many research institutes, Mianyang calls itself China's “science city”."
+    ],
+    "q": {
+      "q": "Which TV maker started out in Mianyang?",
+      "a": "Changhong",
+      "x": [
+        "Haier",
+        "Xiaomi"
+      ]
+    }
+  },
+  "Q360235": {
+    "t": "Steel, the Yangtze and the legend of Li Bai's last night",
+    "s": "Ma'anshan lines the east bank of the Yangtze, a steel town whose name means “horse-saddle mountain”; legend links it to the horse of the general Xiang Yu. Another legend is better known still: at the Caishi cliffs above the river, the poet Li Bai is said to have drowned while, full of wine, he reached for the moon's reflection. His tomb lies at Dangtu, within the city's borders.",
+    "w": "An industrial city along the east bank of the wide Yangtze, with low hills and small lakes around it.",
+    "f": [
+      "Li Bai's tomb stands at the foot of Qingshan hill in Dangtu county.",
+      "Ma'anshan Iron and Steel, founded in the 1950s, is one of China's major steelmakers.",
+      "Caishi, a rocky bluff on the Yangtze, has been a scenic spot and river crossing since ancient times."
+    ],
+    "q": {
+      "q": "Which poet's tomb lies at Ma'anshan?",
+      "a": "Li Bai",
+      "x": [
+        "Du Fu",
+        "Su Shi"
+      ]
+    }
+  },
+  "Q416669": {
+    "t": "Bamboo hills and bricks of dark tea",
+    "s": "The Zi River flows past Yiyang on its last stretch into Dongting Lake, and the land changes here: flat lake country to the north, forested hills to the south and west. Bamboo covers those hills, making Yiyang a bamboo city. Upriver, Anhua county presses dark tea into bricks and into long logs wrapped in bamboo matting, a tradition centuries old.",
+    "w": "A city on a river where forested hills meet the flat, lake-strewn plain south of Dongting Lake.",
+    "f": [
+      "Anhua's “thousand-tael” tea is pressed into bamboo-wrapped logs about 1.5 m long.",
+      "The Zi River rises in the hills of Guangxi and crosses Hunan to Dongting Lake.",
+      "For centuries Anhua dark tea was carried to the herders of China's north-west."
+    ],
+    "q": {
+      "q": "Which tea is Anhua county, near Yiyang, known for?",
+      "a": "Dark tea",
+      "x": [
+        "White tea",
+        "Jasmine tea"
+      ]
+    }
+  },
+  "Q332753": {
+    "t": "China's peony garden on the Yellow River plain",
+    "s": "In April the fields around Heze flush pink, red and white: nowhere in China grows peonies on a bigger scale. The city lies on the flat plain of south-western Shandong, with the Yellow River running between high levees along the prefecture's western edge. For centuries the area was called Caozhou, and it was the home of Huang Chao, leader of a great 9th-century rebellion.",
+    "w": "A city on the flat plain among fields, with the Yellow River's levees running to the west.",
+    "f": [
+      "Peonies here are grown both for their flowers and for oil pressed from their seeds.",
+      "Juancheng county is one of the places named as the birthplace of the strategist Sun Bin.",
+      "Heze is known for its long tradition of martial arts."
+    ],
+    "q": {
+      "q": "What was the Heze area called for centuries?",
+      "a": "Caozhou",
+      "x": [
+        "Qingzhou",
+        "Dengzhou"
+      ]
+    }
+  },
+  "Q57970": {
+    "t": "A canal city with the world's tallest pagoda",
+    "s": "Changzhou lies on the Grand Canal between Nanjing and Suzhou, in the flat, watery heart of southern Jiangsu, with lakes Ge and Taihu to the south. Its skyline has an unusual centrepiece: Tianning Temple's pagoda, finished in 2007 and about 154 m tall, often called the tallest pagoda in the world. South of the city lies Yancheng, a 2,500-year-old town ringed by three moats.",
+    "w": "A large city on a flat, canal-laced plain between the Yangtze to the north and lakes to the south.",
+    "f": [
+      "Changzhou's wooden combs have been made by hand for centuries.",
+      "Yancheng's three rings of walls and moats date from the Spring and Autumn period.",
+      "The poet Su Shi died in Changzhou in 1101."
+    ],
+    "q": {
+      "q": "Which famous waterway runs through Changzhou?",
+      "a": "The Grand Canal",
+      "x": [
+        "The Lingqu Canal",
+        "The Zhengguo Canal"
+      ]
+    }
+  },
+  "Q570829": {
+    "t": "The city named after a rust-red hill",
+    "s": "A rust-red rocky hill rises beside the city, and it gave Chifeng its name: Chinese for “red peak”, a translation of the Mongolian Ulaanhad. Here the farmland of northern China meets the grasslands of Inner Mongolia, with the Greater Khingan to the north and the Horqin sands to the east. The Neolithic Hongshan culture, famed for its jade dragons, is named after the same hill.",
+    "w": "A city in a wide river valley where farmland meets steppe, with hills around it and sandy land to the east.",
+    "f": [
+      "The Hongshan culture flourished here from about 4700 to 2900 BC.",
+      "Ruins of Shangjing, the Upper Capital of the Liao dynasty, lie in the north of Chifeng's territory.",
+      "The granite “stone forest” of Arshihaty is part of the Hexigten UNESCO Global Geopark."
+    ],
+    "q": {
+      "q": "What does the name Chifeng mean?",
+      "a": "Red peak",
+      "x": [
+        "Blue city",
+        "Golden hill"
+      ]
+    }
+  },
+  "Q57818": {
+    "t": "Home of the Monkey King's creator, beside a great lake",
+    "s": "West of Huai'an shines the huge Hongze Lake; to the east, the Grand Canal and a web of rivers cross the plain towards the sea. For centuries this was the hub where the canal met the Huai and Yellow rivers, and officials here ran the grain barges bound for Beijing. Wu Cheng'en, author of Journey to the West and its Monkey King, was born here in the 16th century.",
+    "w": "A city on a canal-laced plain, with a very large lake immediately to the west.",
+    "f": [
+      "The Governor-General of Grain Transport, who ran the canal's grain fleets, had his seat in Huai'an.",
+      "Huaiyang cuisine, one of China's four great culinary traditions, is centred on Huai'an and Yangzhou.",
+      "Hongze Lake is one of China's largest freshwater lakes."
+    ],
+    "q": {
+      "q": "Which classic novel's author was born in Huai'an?",
+      "a": "Journey to the West",
+      "x": [
+        "Dream of the Red Chamber",
+        "The Scholars"
+      ]
+    }
+  },
+  "Q217646": {
+    "t": "A winding river and a lake dammed by lava",
+    "s": "The Mudan River runs north through a forested valley, and its name, from Manchu, means “winding”. Upstream, south-west of the city, lava flows dammed the river thousands of years ago and created Jingpo Lake, a long mountain lake whose outlet plunges over a basalt ledge as a waterfall. In winter deep snow and hard frost grip the whole valley.",
+    "w": "A city on a river in a wide forested valley, with a long, narrow lake among hills to the south-west.",
+    "f": [
+      "Diaoshuilou waterfall, at the outlet of Jingpo Lake, drops about 20 m over basalt.",
+      "The ruins of Shangjing, capital of the Bohai kingdom, lie near Ning'an, south-west of the city.",
+      "“Snow Town” near Hailin, west of the city, is famous for the pillowy snow on its roofs."
+    ],
+    "q": {
+      "q": "Which kingdom's capital ruins lie near Mudanjiang?",
+      "a": "Bohai",
+      "x": [
+        "Goguryeo",
+        "Liao"
+      ]
+    }
+  },
+  "Q42664": {
+    "t": "The city of brushes on Taihu's southern shore",
+    "s": "Taihu spreads right up to Huzhou's northern edge, and the city is named after it: “lake prefecture”. The lake's southern shore here is patterned with fish ponds and canals. For centuries Huzhou brushes of goat and weasel hair have been prized by calligraphers across China. To the south-west rise bamboo-covered hills, and on Moganshan people have escaped the summer heat since the late 19th century.",
+    "w": "A city on the flat southern shore of a vast lake, with canals and fish ponds around it and bamboo hills to the south-west.",
+    "f": [
+      "The painter and calligrapher Zhao Mengfu (1254–1322) was a native of Huzhou.",
+      "Nanxun, a canal town within Huzhou, grew rich on silk in the 19th century.",
+      "Anji county, to the south-west, is famous for its bamboo forests and white tea."
+    ],
+    "q": {
+      "q": "Which writing tool made Huzhou famous?",
+      "a": "Brushes",
+      "x": [
+        "Ink sticks",
+        "Inkstones"
+      ]
+    }
+  },
+  "Q533157": {
+    "t": "A haystack-shaped crag full of Buddhas",
+    "s": "In the green valleys of south-east Gansu, Tianshui guards a stretch of the old Silk Road along the Wei River. South-east of the city stands Maijishan, a lone crag shaped like a haystack; its sheer face is honeycombed with caves holding more than 7,000 Buddhist sculptures, reached by dizzying walkways. Legend also makes Tianshui the birthplace of Fuxi, a mythical ancestor of the Chinese.",
+    "w": "A long city in a narrow river valley among green loess hills, with forested mountains to the south.",
+    "f": [
+      "Maijishan has been part of the Silk Roads World Heritage site since 2014.",
+      "The Fuxi Temple in the city, founded under the Ming, is one of the largest temples to this ancestor.",
+      "From here the Wei River flows east to join the Yellow River beyond Xi'an."
+    ],
+    "q": {
+      "q": "What does the name Maijishan compare the crag to?",
+      "a": "A haystack",
+      "x": [
+        "A camel's hump",
+        "A lotus flower"
+      ]
+    }
+  },
+  "Q485918": {
+    "t": "China's cool summer capital among karst mountains",
+    "s": "At about 1,800 m, among the steep karst mountains of western Guizhou, Liupanshui stays mild while lowland China swelters, and it calls itself the country's “cool capital”. The city grew on coal from the 1960s. Deep gorges slice the plateau around it; across one of them, on the Beipan River, the Duge bridge, opened in 2016, hangs about 565 m above the water.",
+    "w": "A city squeezed into the valleys of a high, rugged karst plateau, with deep river gorges nearby.",
+    "f": [
+      "The name joins three places: Liuzhi, Panxian and Shuicheng.",
+      "July temperatures here average around 20 °C.",
+      "The Duge Beipanjiang Bridge was the highest bridge in the world when it opened."
+    ],
+    "q": {
+      "q": "How did Liupanshui get its name?",
+      "a": "From three merged place names",
+      "x": [
+        "From six river bends",
+        "From the Liupan Mountains"
+      ]
+    }
+  },
+  "Q38927": {
+    "t": "An oil-shale city among the lychee orchards",
+    "s": "Maoming grew up in the 1950s on oil shale, dug from a huge open pit and cooked into oil; the old pit is now a lake in a park. Around the city, the hills of western Guangdong are dark green with lychee and longan orchards, and Gaozhou, just to the north, is one of China's biggest lychee regions. To the south, long beaches line the South China Sea.",
+    "w": "A city on the coastal plain of western Guangdong, with green orchard hills to the north and the sea to the south.",
+    "f": [
+      "Its refinery made Maoming one of South China's main petrochemical centres.",
+      "Lady Xian, a 6th-century leader who brought the south into the Sui empire, is honoured in many local temples.",
+      "Fangji Island, off the coast, is known for its white sand beaches."
+    ],
+    "q": {
+      "q": "What resource first built Maoming?",
+      "a": "Oil shale",
+      "x": [
+        "Tin",
+        "Salt"
+      ]
+    }
+  },
+  "Q372791": {
+    "t": "The land of Confucius on the Grand Canal",
+    "s": "Jining lies on the Grand Canal in south-western Shandong, and its territory holds two of the most revered places in Chinese learning: Qufu, the home town of Confucius, and Zoucheng, the home of Mencius. South of the city a chain of shallow lakes stretches for more than 100 km. At Nanwang, Ming engineers solved the canal's hardest problem, its summit, by splitting a river's water north and south.",
+    "w": "A city on a flat plain beside a canal, with a long chain of shallow, reed-filled lakes stretching south.",
+    "f": [
+      "The Temple, Cemetery and Mansion of Confucius at Qufu have been a UNESCO site since 1994.",
+      "The Nanwang water-dividing works, built in 1411, fed the canal at its highest point.",
+      "Liangshan, the rebels' hideout in the novel Water Margin, is in Jining's west."
+    ],
+    "q": {
+      "q": "Whose home town lies within Jining's territory?",
+      "a": "Confucius",
+      "x": [
+        "Laozi",
+        "Zhuangzi"
+      ]
+    }
+  },
+  "Q426868": {
+    "t": "Three rivers meet at the feet of a giant stone Buddha",
+    "s": "Three rivers meet at Leshan — the Min, the Dadu and the Qingyi — often in different shades of green and brown. Carved into the red sandstone cliff at their confluence sits a Buddha 71 m tall: too small to make out from cruise height, yet the largest stone Buddha in the world. About 30 km to the west, sacred Mount Emei rises to 3,099 m.",
+    "w": "A city at the junction of three rivers of different colours, with the high ridge of Mount Emei to the west.",
+    "f": [
+      "Carving the Buddha took about 90 years, from 713 to 803.",
+      "The monk Haitong began the work hoping the Buddha would calm waters that were dangerous for boatmen.",
+      "Leshan and Mount Emei have formed a joint UNESCO World Heritage site since 1996."
+    ],
+    "q": {
+      "q": "How tall is the Leshan Giant Buddha?",
+      "a": "71 m",
+      "x": [
+        "38 m",
+        "120 m"
+      ]
+    }
+  },
+  "Q363479": {
+    "t": "Granite pillars, yellow fields and a river to Poyang",
+    "s": "The Xin River runs west through Shangrao towards Poyang Lake, between green hills that grow wilder to the north. There stands Mount Sanqing, a UNESCO-listed granite massif of pillars and needles, often wrapped in cloud. In spring the valleys of Wuyuan county, in the north of the prefecture, turn bright yellow with rapeseed flowers around white-walled villages.",
+    "w": "A city on a river flowing west, with rugged green mountains rising to the north.",
+    "f": [
+      "Sanqingshan's highest peak, Yujing, reaches about 1,820 m.",
+      "Wuyuan's villages keep Hui-style houses with white walls and black tiles.",
+      "The Xin River runs for more than 300 km before reaching Poyang Lake."
+    ],
+    "q": {
+      "q": "Which UNESCO-listed mountain lies near Shangrao?",
+      "a": "Sanqingshan",
+      "x": [
+        "Huangshan",
+        "Lushan"
+      ]
+    }
+  },
+  "Q109386": {
+    "t": "A port and a barrage at the Taedong's mouth",
+    "s": "A long straight line cuts across the mouth of the Taedong River here: the West Sea Barrage, about 8 km of dams, locks and islands holding back the tides of the Yellow Sea. Nampho, on the north bank of the estuary, is the seaport for Pyongyang, some 50 km upriver. Around it, wide tidal flats and salt pans edge the shallow coast.",
+    "w": "A port on the north side of a wide estuary, with a long straight dam across the river mouth.",
+    "f": [
+      "The West Sea Barrage was built between 1981 and 1986.",
+      "Behind the barrage the Taedong has become a freshwater lake used for irrigation.",
+      "Tides on this coast rise and fall by several metres."
+    ],
+    "q": {
+      "q": "Which river's mouth does the West Sea Barrage close?",
+      "a": "The Taedong",
+      "x": [
+        "The Yalu",
+        "The Han"
+      ]
+    }
+  },
+  "Q571918": {
+    "t": "The “jade forest” of south-east Guangxi",
+    "s": "Green hills, rice paddies and fruit orchards surround Yulin in the humid south-eastern corner of Guangxi. The name means “jade forest” — not to be confused with Yulin in Shaanxi, the “elm forest” on the edge of the desert. This Yulin is a trading town: its herbal-medicine market is one of the largest in China, and Yuchai diesel engines are built here.",
+    "w": "A mid-sized city in a green basin of paddies and orchards ringed by low hills, in south-eastern Guangxi.",
+    "f": [
+      "Yuchai, one of China's biggest diesel-engine makers, is based in Yulin.",
+      "In Rong county, the Zhenwu Pavilion of 1573 stands on pillars that hang just clear of the floor.",
+      "Rong county claims to be the home town of Yang Guifei, the famous Tang consort."
+    ],
+    "q": {
+      "q": "What does the name of Guangxi's Yulin mean?",
+      "a": "Jade forest",
+      "x": [
+        "Elm forest",
+        "Rain forest"
+      ]
+    }
+  },
+  "Q497341": {
+    "t": "Where China's first emperor ruled",
+    "s": "On the north bank of the Wei River, just west of Xi'an, stood the capital from which the Qin ruled the first united Chinese empire after 221 BC; modern Xianyang has grown over the site. North of the city, on the loess terrace, rows of great earthen mounds mark the tombs of Han emperors. Farther north-west, a whole hill serves as the tomb of Emperor Gaozong and Empress Wu Zetian.",
+    "w": "A city on the north bank of the Wei River, merging with Xi'an to the east, with the loess plateau rising to the north.",
+    "f": [
+      "Xi'an's main airport actually lies in Xianyang.",
+      "Maoling, the tomb of Emperor Wu of Han, is the largest of the Han imperial mounds, about 46 m high.",
+      "At Qianling, the natural Liang Mountain serves as the burial mound."
+    ],
+    "q": {
+      "q": "Xianyang was the capital of which dynasty?",
+      "a": "The Qin",
+      "x": [
+        "The Shang",
+        "The Song"
+      ]
+    }
+  },
+  "Q58584": {
+    "t": "An old viceroys' seat beside a lake of reeds",
+    "s": "East of Baoding, the flat North China Plain dissolves into Baiyangdian, a maze of reed beds, channels and open water that is the largest lake on the plain. The city was long a seat of power: for much of the Qing era the viceroy of Zhili, the province around Beijing, governed from here, and his office still stands. The Taihang Mountains rise on the western horizon.",
+    "w": "A large city on the flat plain, with a maze of lakes and reed beds to the east and mountains on the western horizon.",
+    "f": [
+      "In 1968, Han tombs at Mancheng near Baoding yielded two jade burial suits sewn with gold thread.",
+      "Baoding is famous for its polished iron balls, rolled in the hand as exercise.",
+      "Baiyangdian covers about 360 km², split by dykes into more than a hundred smaller lakes."
+    ],
+    "q": {
+      "q": "What was found in the Han tombs at Mancheng, near Baoding?",
+      "a": "Jade burial suits",
+      "x": [
+        "A terracotta army",
+        "A flying bronze horse"
+      ]
+    }
+  },
+  "Q29015": {
+    "t": "China's salt city, built over ancient brine wells",
+    "s": "Deep beneath Zigong lies brine, and people have drilled for it for some two thousand years. By hand, with bamboo cables and iron bits, they sank wells deeper than anyone else: in 1835 the Shenhai well became the first in the world to pass 1,000 m. Salt made the city rich, and merchants' guildhalls still grace the old town. Zigong is also a treasure house of dinosaur fossils.",
+    "w": "A city among red hills and meandering river valleys in southern Sichuan, with a river looping through the centre.",
+    "f": [
+      "The Shenhai well, drilled by hand in 1835, reached a depth of about 1,001 m.",
+      "At Dashanpu, north-east of the city, a hillside full of Jurassic dinosaur skeletons became a museum.",
+      "Zigong's Spring Festival lantern show is one of the most famous in China."
+    ],
+    "q": {
+      "q": "What made Zigong rich for centuries?",
+      "a": "Salt",
+      "x": [
+        "Silk",
+        "Porcelain"
+      ]
+    }
+  },
+  "Q515846": {
+    "t": "A green valley on the Han between two mountain walls",
+    "s": "Ankang lies in a narrow green corridor: the Qinling range rises to the north, the Daba Mountains to the south, and the Han River runs between them, broad and slow above its dams. The name means “peace and health”. This is southern Shaanxi, milder and wetter than the loess country north of the Qinling, with tea on the slopes and rice in the valley.",
+    "w": "A city strung along a wide river in a valley between two high, forested mountain ranges.",
+    "f": [
+      "The Qinling range north of Ankang is China's great climate divide between north and south.",
+      "Ziyang county's tea grows on selenium-rich soil, something locals are proud of.",
+      "From here the Han River flows on to join the Yangtze at Wuhan."
+    ],
+    "q": {
+      "q": "Which river flows through Ankang?",
+      "a": "The Han",
+      "x": [
+        "The Wei",
+        "The Jialing"
+      ]
+    }
+  },
+  "Q58210": {
+    "t": "Ham, a giant market and a city of film sets",
+    "s": "Jinhua sits in a basin in central Zhejiang, ringed by green hills, where two rivers join. Its name is known all over China for dry-cured ham, made here for centuries. Its territory also holds two very modern marvels: Yiwu, one of the world's biggest wholesale markets for small goods, and Hengdian, where full-size replicas of imperial palaces serve as film sets.",
+    "w": "A city in a green basin in central Zhejiang where two rivers meet, with hills all around.",
+    "f": [
+      "Jinhua ham is cured for months and ranks among China's most famous hams.",
+      "Yiwu's market sells everything from toys to Christmas decorations to buyers from all over the world.",
+      "Dongyang, within Jinhua, is famous for intricate wood carving."
+    ],
+    "q": {
+      "q": "Which food is Jinhua most famous for?",
+      "a": "Dry-cured ham",
+      "x": [
+        "Salted duck",
+        "Rice wine"
+      ]
+    }
+  },
+  "Q243327": {
+    "t": "A city drawn with a ruler, pink with cherry blossom",
+    "s": "From above, central Changwon looks drawn with a ruler: it was laid out from scratch in the 1970s as an industrial city, with wide, straight boulevards and factory zones. In 2010 it absorbed its older neighbours, Masan and Jinhae, and now spreads along an intricate coast of bays and islands. Every spring Jinhae's streets turn pink with cherry blossom.",
+    "w": "A city with a strikingly regular street grid in a valley, beside the winding bays and islands of Korea's south coast.",
+    "f": [
+      "Jinhae's spring cherry-blossom festival is one of the largest in Korea.",
+      "Junam Reservoir, on the city's edge, is a wintering ground for thousands of migratory birds.",
+      "Masan opened to foreign trade as a port in 1899."
+    ],
+    "q": {
+      "q": "Which festival draws crowds to Jinhae, now part of Changwon?",
+      "a": "The cherry-blossom festival",
+      "x": [
+        "The mud festival",
+        "The lantern festival"
+      ]
+    }
+  },
+  "Q198266": {
+    "t": "A railway city on the Xiang River",
+    "s": "Zhuzhou was a small river town until the railways came: two great lines, Beijing–Guangzhou and Shanghai–Kunming, cross here, and the city grew into one of China's main rail-industry centres, building electric locomotives. It spreads along the Xiang River as it bends north towards Changsha. To the south-east, in Yanling county, stands the mausoleum of the Flame Emperor, a legendary ancestor.",
+    "w": "A city along a bend of the Xiang River, full of rail yards and factories, forming a trio with Xiangtan and Changsha.",
+    "f": [
+      "Zhuzhou builds electric locomotives and metro trains.",
+      "The Yandi Mausoleum honours the Flame Emperor, credited in legend with teaching farming and herbal medicine.",
+      "Liling, within Zhuzhou, is famed for fine porcelain with underglaze painting."
+    ],
+    "q": {
+      "q": "Which legendary ruler's mausoleum lies in Zhuzhou's territory?",
+      "a": "The Flame Emperor",
+      "x": [
+        "The Yellow Emperor",
+        "Yu the Great"
+      ]
+    }
+  },
+  "Q20714": {
+    "t": "A royal fortress wall wrapped around a modern city",
+    "s": "In the 1790s King Jeongjo of Joseon wrapped Suwon in a new fortress, Hwaseong, whose walls still run for about 5.7 km over a hill and across a stream in the city centre. It was a model of its age, raised with the help of cranes and pulleys. Today Suwon is the capital of Gyeonggi province around Seoul and home to Samsung's main electronics campus.",
+    "w": "A big city about 30 km south of Seoul: dense apartment blocks, green hills and reservoirs.",
+    "f": [
+      "Hwaseong Fortress was built in 1794–1796 and became a UNESCO site in 1997.",
+      "Suwon is famous across Korea for galbi, grilled marinated beef ribs.",
+      "The scholar Jeong Yak-yong designed a crane that sped up the fortress's construction."
+    ],
+    "q": {
+      "q": "Which fortress rings the old centre of Suwon?",
+      "a": "Hwaseong",
+      "x": [
+        "Namhansanseong",
+        "Gongsanseong"
+      ]
+    }
+  },
+  "Q71284": {
+    "t": "A walled city with one of China's widest moats",
+    "s": "The Han River curves between twin towns here, and on its south bank lies old Xiangyang: a rectangle of walls wrapped in a moat that is up to about 250 m wide, broad enough to look like a lake. This was a key stronghold of central China, and in the 13th century it held out against the Mongols for six years. By tradition, Zhuge Liang lived in retreat at Longzhong, just to the west.",
+    "w": "A city on both banks of a curving river, with a rectangular old town inside a very wide moat on the south bank.",
+    "f": [
+      "From 1950 to 2010 the city was called Xiangfan, joining the names of Xiangyang and Fancheng.",
+      "The Mongol siege of Xiangyang lasted from 1267 to 1273.",
+      "The painter Mi Fu and the poet Meng Haoran were both natives of Xiangyang."
+    ],
+    "q": {
+      "q": "What was Xiangyang called from 1950 to 2010?",
+      "a": "Xiangfan",
+      "x": [
+        "Jingzhou",
+        "Xiaogan"
+      ]
+    }
+  },
+  "Q41278": {
+    "t": "Ships, cars and ancient carvings of whales",
+    "s": "Ulsan's shore is lined with shipyards, their docks overhung by giant cranes, and with one of the world's biggest car factories, which has its own port. Industry made Ulsan one of Korea's wealthiest cities. Yet upriver, cliffs beside a stream are carved with whales and whale hunts thousands of years old — among the oldest such pictures anywhere.",
+    "w": "An industrial city at a river mouth and bay on Korea's south-east coast, with shipyards and factories lining the shore.",
+    "f": [
+      "The Bangucheon petroglyphs, the oldest about 7,000 years old, joined UNESCO's World Heritage list in 2025.",
+      "Hyundai Heavy Industries' shipyard at Ulsan is among the largest in the world.",
+      "Ganjeolgot, on Ulsan's coast, is one of the first places on mainland Korea to see the sunrise."
+    ],
+    "q": {
+      "q": "Which animals feature most in Ulsan's Bangudae rock carvings?",
+      "a": "Whales",
+      "x": [
+        "Elephants",
+        "Camels"
+      ]
+    }
+  },
+  "Q198184": {
+    "t": "Dinosaur city in the Shandong hills",
+    "s": "The rolling hills around Zhucheng hide one of the world's richest dinosaur graveyards: thousands of bones have come out of its Cretaceous rocks. Among them is Shantungosaurus, a duck-billed giant up to about 15 m long, one of the largest hadrosaurs known. The city lies in south-eastern Shandong among farmland and reservoirs, and legend names it as the birthplace of the sage-king Shun.",
+    "w": "A mid-sized city among rolling farmland and reservoirs in the hills of south-eastern Shandong.",
+    "f": [
+      "At Kugou, a hillside packed with dinosaur bones has been roofed over and turned into a museum.",
+      "Mencius wrote that Shun was born at Zhufeng, traditionally identified with Zhucheng.",
+      "Zhucheng is a county-level city within Weifang."
+    ],
+    "q": {
+      "q": "What has made Zhucheng famous among scientists?",
+      "a": "Dinosaur fossils",
+      "x": [
+        "Meteorites",
+        "Ancient shipwrecks"
+      ]
+    }
+  },
+  "Q58650": {
+    "t": "The Great Wall's gate to the Mongolian plateau",
+    "s": "Zhangjiakou lies in a valley where the North China Plain climbs to the Mongolian plateau, and the Great Wall runs along the hills above. Its gate here, Dajingmen, gave the city its old foreign name, Kalgan, from a Mongolian word for “gate”. Tea caravans set out from here across the Gobi to Kyakhta on the Russian border. In 2022, the snowy slopes of Chongli hosted Olympic skiing.",
+    "w": "A city in a narrow river valley among bare brown hills, with a grassy plateau full of wind turbines to the north.",
+    "f": [
+      "Russians long knew the city as Kalgan.",
+      "Chongli, north of the city, hosted skiing and snowboard events of the 2022 Winter Olympics.",
+      "The Bashang plateau north of the city is dotted with wind farms."
+    ],
+    "q": {
+      "q": "What did Russians once call Zhangjiakou?",
+      "a": "Kalgan",
+      "x": [
+        "Kulja",
+        "Mukden"
+      ]
+    }
+  },
+  "Q59095": {
+    "t": "A city of islands facing Macau and Hong Kong",
+    "s": "Zhuhai spreads along the west side of the Pearl River estuary, its shore broken into bays and green hills, with scores of islands scattered offshore. Macau is its immediate neighbour to the south. Eastward, a chain of bridges and a tunnel runs 55 km across the brown estuary to Hong Kong. Zhuhai was among China's first special economic zones, created in 1980.",
+    "w": "A green, hilly coastal city on the west shore of the Pearl River estuary, with Macau at its southern tip and islands offshore.",
+    "f": [
+      "The Hong Kong–Zhuhai–Macau Bridge, opened in 2018, crosses the estuary on bridges, artificial islands and a tunnel.",
+      "Zhuhai hosts China's biggest air show every two years.",
+      "More than a hundred islands lie within Zhuhai's borders."
+    ],
+    "q": {
+      "q": "Which city borders Zhuhai to the south?",
+      "a": "Macau",
+      "x": [
+        "Hong Kong",
+        "Shenzhen"
+      ]
+    }
+  },
+  "Q29003": {
+    "t": "Gateway to the “three rivers” plain of China's far east",
+    "s": "Jiamusi stretches along the south bank of the Songhua, here a broad river nearing its junction with the Amur. North and east spreads the Sanjiang Plain, “three rivers”, between the Songhua, the Amur and the Ussuri: once a vast wetland, now largely a grid of huge farms and rice fields. In winter the river freezes over and the plain turns a flat, dazzling white.",
+    "w": "A city on the south bank of a wide river, with a vast, flat plain of big rectangular fields to the north-east.",
+    "f": [
+      "Fuyuan, China's easternmost county, is part of Jiamusi's territory.",
+      "The Hezhe (Nanai) people of the region are known for clothing made from fish skin.",
+      "Parts of the Sanjiang Plain's old wetlands are protected as reserves for cranes and storks."
+    ],
+    "q": {
+      "q": "Which river flows past Jiamusi?",
+      "a": "The Songhua",
+      "x": [
+        "The Mudan",
+        "The Nen"
+      ]
+    }
+  },
+  "Q144663": {
+    "t": "Where the wild geese turn back",
+    "s": "Legend says the wild geese flying south each autumn go no farther than Hengyang: they rest at Huiyan Peak, “returning-goose peak”, and turn back. The city stands where the Xiang River gathers two tributaries, among the red hills of southern Hunan. To the north rises Heng Shan, the southern of China's Five Great Mountains, crowded with temples.",
+    "w": "A city at a junction of rivers among low red hills, with a forested mountain range rising to the north.",
+    "f": [
+      "Cai Lun, credited with perfecting papermaking around 105 AD, came from Leiyang, now part of Hengyang.",
+      "The philosopher Wang Fuzhi, born here in 1619, was one of the great thinkers of the late Ming.",
+      "Heng Shan's highest peak, Zhurong, is about 1,300 m high."
+    ],
+    "q": {
+      "q": "Which birds give Hengyang its nickname?",
+      "a": "Wild geese",
+      "x": [
+        "Cranes",
+        "Swallows"
+      ]
+    }
+  },
+  "Q75091": {
+    "t": "An underground river and blazing maple hills",
+    "s": "Benxi hides in the valley of the Taizi River among steep, wooded hills that blaze red with maples every October. It is a coal and steel town, but its fame lies underground: in the Benxi Water Caves, boats glide for about 3 km along a subterranean river among the stalactites. The city is named after Benxi Lake, a spring pool so small it is often called the world's smallest lake.",
+    "w": "An industrial city in a narrow river valley among steep, forested hills in eastern Liaoning.",
+    "f": [
+      "Wunü Mountain in Huanren county, a flat-topped massif with an early Goguryeo capital, has been a UNESCO site since 2004.",
+      "From here the Taizi River flows west past Liaoyang.",
+      "Guanmenshan, south-east of the city, is famous for its autumn maples."
+    ],
+    "q": {
+      "q": "How do visitors travel through the Benxi Water Caves?",
+      "a": "By boat on an underground river",
+      "x": [
+        "By mine train",
+        "By cable car"
+      ]
+    }
+  },
+  "Q58560": {
+    "t": "Where the Great Wall walks into the sea",
+    "s": "At Shanhaiguan, on the edge of Qinhuangdao, the Great Wall comes down from the Yan Mountains and runs straight into the Bohai Sea at a spot called Old Dragon's Head. The city is named after Qin Shi Huang, the first emperor, said to have come here in 215 BC in search of the elixir of immortality. Today its harbour ships coal, and the sandy beaches of Beidaihe draw summer crowds.",
+    "w": "A coastal city on the Bohai Sea where mountains close in on the shore, with long sandy beaches to the south-west.",
+    "f": [
+      "Shanhaiguan, the “mountain and sea pass”, guarded the route between North China and Manchuria.",
+      "Qinhuangdao is one of the world's largest coal-shipping ports.",
+      "Migrating birds crowd the Beidaihe coast in spring and autumn, making it a famous birdwatching spot."
+    ],
+    "q": {
+      "q": "What reaches the sea at Qinhuangdao's Shanhaiguan?",
+      "a": "The Great Wall",
+      "x": [
+        "The Grand Canal",
+        "The Yellow River"
+      ]
+    }
   }
 }

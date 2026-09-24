@@ -2046,5 +2046,653 @@
         "They are sunk as artificial reefs"
       ]
     }
+  },
+  "Q1141758": {
+    "t": "A cold corner of the Okhotsk Sea where ice lingers",
+    "s": "The Uda Gulf reaches into the far south-western corner of the Sea of Okhotsk, where the Uda River comes down out of the taiga. This is one of the coldest parts of the sea, and drifting ice often lingers here into June or even July. Just to the east rise the rugged Shantar Islands, a national park where bowhead whales and killer whales feed along the coast.",
+    "w": "A wide, cold bay at the south-western corner of the Sea of Okhotsk, with the rugged Shantar Islands to the east.",
+    "f": [
+      "The Shantar Islands became a national park in 2013.",
+      "The village of Chumikan stands near the mouth of the Uda River.",
+      "Russian Cossacks founded an outpost on the Uda River in the 17th century."
+    ],
+    "q": {
+      "q": "Which islands lie just east of the Uda Gulf?",
+      "a": "The Shantar Islands",
+      "x": [
+        "The Kuril Islands",
+        "The Commander Islands"
+      ]
+    }
+  },
+  "Q1036267": {
+    "t": "A round bay ringed by volcanoes",
+    "s": "When the British captain William Broughton sailed in here in 1796, he saw so many volcanoes that he called it Volcano Bay. The name still fits: jagged Hokkaido-Komagatake rises on the southern shore, while Mount Usu and its young lava dome, Shōwa-shinzan, steam to the north-east beside Lake Tōya. The bay itself is almost round, about 50 km across, and famous for its scallops.",
+    "w": "A nearly circular bay on Hokkaido's south-west coast, with a jagged volcano on its southern shore and a caldera lake beyond its north-eastern shore.",
+    "f": [
+      "Shōwa-shinzan rose out of a wheat field between 1943 and 1945.",
+      "Its other Japanese name, Funka-wan, means 'eruption bay'.",
+      "Muroran, an industrial port, stands on the peninsula that closes the bay's eastern side."
+    ],
+    "q": {
+      "q": "What did Broughton name Uchiura Bay in 1796?",
+      "a": "Volcano Bay",
+      "x": [
+        "Scallop Bay",
+        "Crescent Bay"
+      ]
+    }
+  },
+  "Q1973692": {
+    "t": "The bay where gold lay in the beach sand",
+    "s": "In 1899 prospectors found gold in the beach sand at Nome, on the northern shore of Norton Sound, and within a year it was briefly the largest town in Alaska. The sound freezes every winter, and every March the Iditarod sled-dog race ends in Nome after crossing Alaska. To the south the Yukon River spreads its vast delta into the Bering Sea.",
+    "w": "A broad, shallow bay of the Bering Sea, often ice-covered, with Nome on its northern shore and the Yukon delta to the south.",
+    "f": [
+      "The Iditarod Trail Sled Dog Race covers about 1,600 km on its way to Nome.",
+      "Cook named the sound in 1778 after Sir Fletcher Norton, Speaker of the House of Commons.",
+      "Small-scale miners still sift gold from Nome's beaches."
+    ],
+    "q": {
+      "q": "What made Nome's gold rush of 1899 unusual?",
+      "a": "The gold lay in beach sand",
+      "x": [
+        "The gold was found in glaciers",
+        "The gold came from a meteorite"
+      ]
+    }
+  },
+  "Q919520": {
+    "t": "A frozen gulf named after a London gin distiller",
+    "s": "John Ross's Arctic expedition of 1829–1833 was paid for largely by Felix Booth, a London gin distiller, so this icy gulf and the peninsula beside it carry his name. On that journey James Clark Ross reached the North Magnetic Pole, then on the west coast of the Boothia Peninsula, in 1831. The peninsula also holds the northernmost point of the North American mainland.",
+    "w": "A long gulf of white sea ice between the Boothia Peninsula to the west and Baffin Island and the Melville Peninsula to the east.",
+    "f": [
+      "Ross's ship Victory was trapped in the ice for years, and the crew finally escaped by sledge and boat.",
+      "The North Magnetic Pole has since wandered hundreds of kilometres towards Siberia.",
+      "Kugaaruk, a small Inuit community, lies on Pelly Bay at the gulf's southern end."
+    ],
+    "q": {
+      "q": "What did James Clark Ross reach near this gulf in 1831?",
+      "a": "The North Magnetic Pole",
+      "x": [
+        "The geographic North Pole",
+        "The end of the Northwest Passage"
+      ]
+    }
+  },
+  "Q1510928": {
+    "t": "Greenland's widest glacier meets the northern sea",
+    "s": "On the Greenland side of Kane Basin, the Humboldt Glacier meets the sea along a front roughly 100 km wide, one of the widest glacier fronts in the Northern Hemisphere. The basin is part of Nares Strait, the narrow channel between Greenland and Ellesmere Island through which Arctic ice drifts south. It is named after the American explorer Elisha Kent Kane, whose ship was trapped here in 1853–1855.",
+    "w": "A wide basin of sea ice between Greenland and Ellesmere Island, with a long, straight ice cliff along its Greenland side.",
+    "f": [
+      "In winter an arch of solid ice often forms across Nares Strait, holding back the drifting pack.",
+      "Kane's crew abandoned their ship and escaped south by boat and sledge in 1855.",
+      "The Humboldt Glacier is named after the German naturalist Alexander von Humboldt."
+    ],
+    "q": {
+      "q": "Which glacier meets the sea along Kane Basin's Greenland shore?",
+      "a": "The Humboldt Glacier",
+      "x": [
+        "The Jakobshavn Glacier",
+        "The Petermann Glacier"
+      ]
+    }
+  },
+  "Q2363133": {
+    "t": "Where the Yana ends in a frozen Arctic bay",
+    "s": "The Yana River crosses Yakutia from the Verkhoyansk Range and ends here, spreading into a delta of countless channels before the Laptev Sea. The bay is free of ice only for a short summer. Along the lower Yana, archaeologists found traces of people who hunted mammoths some 32,000 years ago, far north of the Arctic Circle — among the oldest known signs of humans in the Arctic.",
+    "w": "A broad, shallow bay of the Laptev Sea, usually ice-covered, with the many channels of the Yana delta on its southern shore.",
+    "f": [
+      "Sea ice covers the bay for most of the year.",
+      "The frozen soil along this coast is packed with ancient ice and the bones of Ice Age animals.",
+      "The Yana is about 870 km long."
+    ],
+    "q": {
+      "q": "Roughly how old are the traces of mammoth hunters on the lower Yana?",
+      "a": "About 32,000 years",
+      "x": [
+        "About 3,200 years",
+        "About 320,000 years"
+      ]
+    }
+  },
+  "Q179188": {
+    "t": "Coral stepping stones between Australia and New Guinea",
+    "s": "The Torres Strait is only about 150 km wide, yet it is strewn with some 274 islands, reefs and sandbanks that glow turquoise against deeper blue. During the last Ice Age it was dry land joining Australia and New Guinea. The Spanish navigator Luis Váez de Torres threaded through in 1606, and the islands are home to Torres Strait Islanders, with a culture all their own.",
+    "w": "A shallow, reef-studded passage full of small islands between the tip of Cape York and the coast of New Guinea.",
+    "f": [
+      "Cape York, the northernmost point of mainland Australia, lies on its southern side.",
+      "Its shallow reefs make it one of the trickiest passages for large ships.",
+      "Dugongs and sea turtles graze its seagrass beds."
+    ],
+    "q": {
+      "q": "Who is the Torres Strait named after?",
+      "a": "Luis Váez de Torres",
+      "x": [
+        "Abel Tasman",
+        "James Cook"
+      ]
+    }
+  },
+  "Q1254743": {
+    "t": "Where New Guinea's great rivers paint the sea brown",
+    "s": "The Gulf of Papua is where New Guinea's great rivers reach the sea. The Fly, the Purari and the Kikori pour out through vast deltas of mangrove and swamp forest, and their silt stains the water brown far offshore. Behind the coast, rainforests and mountains that receive enormous amounts of rain keep the rivers full all year round.",
+    "w": "A huge, wide gulf of brown-tinged water on New Guinea's south coast, fringed by deltas and dark mangrove forest.",
+    "f": [
+      "The Fly is one of the largest rivers in Oceania by the volume of water it carries.",
+      "The deltas are covered by some of the largest mangrove forests in the region.",
+      "Port Moresby, the capital of Papua New Guinea, lies to the east, near the gulf's edge."
+    ],
+    "q": {
+      "q": "Which of these big rivers flows into the Gulf of Papua?",
+      "a": "The Fly",
+      "x": [
+        "The Sepik",
+        "The Mamberamo"
+      ]
+    }
+  },
+  "Q174731": {
+    "t": "A Baltic gulf almost sealed by a big island",
+    "s": "The big island of Saaremaa almost seals the Gulf of Riga off from the open Baltic, leaving narrow straits on either side. The gulf is shallow and only slightly salty, so in cold winters it can freeze right across. Riga sprawls at its southern end, where the Daugava flows in, and on little Kihnu island women still wear striped woollen skirts as everyday dress.",
+    "w": "A rounded gulf of the Baltic with the large island of Saaremaa at its mouth and Riga at its southern end.",
+    "f": [
+      "The cultural traditions of Kihnu are on UNESCO's list of intangible heritage.",
+      "The Daugava, which enters the gulf at Riga, rises far away in the Valdai Hills.",
+      "Pärnu, Estonia's summer capital, lies on a bay in its north-east."
+    ],
+    "q": {
+      "q": "Which large island almost closes off the Gulf of Riga?",
+      "a": "Saaremaa",
+      "x": [
+        "Gotland",
+        "Öland"
+      ]
+    }
+  },
+  "Q187274": {
+    "t": "Where the Sahara runs straight into the Mediterranean",
+    "s": "The Gulf of Sidra is the Mediterranean's deepest bite into Africa: its innermost shore, close to 30° N, is the southernmost point of the whole sea. There is almost no green here — the sand and gravel of the Sahara run straight down to the water. Along the coast, oil terminals such as Brega and Ras Lanuf ship crude from the desert fields inland.",
+    "w": "A huge curve of coastline where tan and yellow desert meets deep-blue sea, with almost no green strip between them.",
+    "f": [
+      "Its innermost shore is the southernmost point of the Mediterranean Sea.",
+      "It is also called the Gulf of Sirte, after the coastal city of Sirte.",
+      "Loggerhead turtles nest on some of its remote beaches."
+    ],
+    "q": {
+      "q": "What makes the Gulf of Sidra special in the Mediterranean?",
+      "a": "It holds the sea's southernmost point",
+      "x": [
+        "It holds the sea's deepest point",
+        "It is the sea's saltiest bay"
+      ]
+    }
+  },
+  "Q193149": {
+    "t": "Blue water along Crete's snowy mountain spine",
+    "s": "The Sea of Crete stretches between the Cyclades and the long northern coast of Crete, the largest Greek island. From the air Crete looks like a rugged spine of mountains: the White Mountains in the west and Mount Ida, or Psiloritis, the highest peak, stay streaked with snow well into spring. On the coast near Heraklion lay Knossos, the heart of the Bronze Age Minoan civilisation.",
+    "w": "Deep-blue open sea with the long, mountainous island of Crete along its southern edge and small Cycladic islands to the north.",
+    "f": [
+      "Mount Ida rises to about 2,456 m; in one version of the myth, Zeus was raised in a cave on its slopes.",
+      "North of Crete the sea floor drops to depths of more than 2,000 m.",
+      "Heraklion, on its shore, is Crete's largest city."
+    ],
+    "q": {
+      "q": "Which ancient civilisation had its centre at Knossos?",
+      "a": "The Minoan",
+      "x": [
+        "The Etruscan",
+        "The Hittite"
+      ]
+    }
+  },
+  "Q199408": {
+    "t": "The Mediterranean's gateway between two mountain coasts",
+    "s": "Atlantic water pours in through the Strait of Gibraltar and spins across the Alboran Sea in great slow whirls, making it a rich feeding ground for dolphins and whales. To the north the Sierra Nevada, capped with snow for much of the year, rises above the Spanish coast; to the south lie the Rif mountains of Morocco. Roughly halfway between sits the tiny, flat island of Alborán.",
+    "w": "The narrow western end of the Mediterranean, between Spain's snowy Sierra Nevada coast and Morocco's rugged Rif mountains.",
+    "f": [
+      "Mulhacén in the Sierra Nevada, at 3,479 m, is the highest peak of mainland Spain.",
+      "Alborán Island is only about 600 m long.",
+      "Surface water flows in from the Atlantic, while saltier Mediterranean water flows out beneath it."
+    ],
+    "q": {
+      "q": "Which snowy range rises above the Alboran Sea's Spanish coast?",
+      "a": "The Sierra Nevada",
+      "x": [
+        "The Pyrenees",
+        "The Picos de Europa"
+      ]
+    }
+  },
+  "Q47530": {
+    "t": "A long surf coast lined with lagoons and stilt villages",
+    "s": "The Bight of Benin curves gently along the coasts of eastern Ghana, Togo, Benin and western Nigeria. Behind the pounding surf runs a chain of lagoons almost parallel to the sea, and on one of them, Lake Nokoué, the village of Ganvié stands entirely on stilts. Lagos, one of Africa's largest cities, sprawls around its own lagoon at the eastern end.",
+    "w": "A gently curving coast of sandbars and long lagoons, with the huge city of Lagos at its eastern end.",
+    "f": [
+      "Europeans once called this shore the Slave Coast, after the Atlantic slave trade of past centuries.",
+      "Ganvié, on Lake Nokoué in Benin, is home to tens of thousands of people living in houses on stilts.",
+      "The bight is named after the old Kingdom of Benin, in what is now Nigeria."
+    ],
+    "q": {
+      "q": "What is special about Ganvié, on a lagoon near the Bight of Benin?",
+      "a": "It is built on stilts over water",
+      "x": [
+        "It floats on reed rafts",
+        "It is carved into sea cliffs"
+      ]
+    }
+  },
+  "Q999031": {
+    "t": "Where a volcano rises 4 km straight from the sea",
+    "s": "In the inner corner of the Gulf of Guinea, Mount Cameroon rises about 4,040 m almost straight from the shore, one of Africa's most active volcanoes. Offshore stands the volcanic island of Bioko, its highest peak topping 3,000 m. Warm, moist air piles up against these slopes, and Debundscha, at the mountain's foot, is one of the rainiest places on Earth.",
+    "w": "The inner corner of the Gulf of Guinea, with a huge volcano rising from the coast and a high, green island offshore.",
+    "f": [
+      "Pico Basilé, the highest point of Bioko, reaches about 3,011 m.",
+      "Debundscha receives around 10 m of rain in a year.",
+      "Malabo, the capital of Equatorial Guinea, lies on Bioko's northern coast."
+    ],
+    "q": {
+      "q": "Which volcano rises from the shore of the Bight of Biafra?",
+      "a": "Mount Cameroon",
+      "x": [
+        "Mount Kilimanjaro",
+        "Pico do Fogo"
+      ]
+    }
+  },
+  "Q141727": {
+    "t": "An Antarctic bay named for an explorer's wife",
+    "s": "The French polar explorer Jean-Baptiste Charcot charted this wide bay in 1909 and named it after his wife, Marguerite. It lies on the western side of the Antarctic Peninsula, framed by glacier-covered mountains and by Adelaide Island to the north. Icebergs drift through it even in summer, and the British research station at Rothera sits on Adelaide Island's shore.",
+    "w": "A wide bay dotted with icebergs, ringed by glaciers and white mountains, with long Adelaide Island forming its northern side.",
+    "f": [
+      "Charcot's ship on that expedition was the Pourquoi-Pas?, French for 'Why not?'.",
+      "Rothera Research Station on Adelaide Island has a gravel runway for aircraft.",
+      "The bay freezes over in winter, and its sea ice can last into the summer."
+    ],
+    "q": {
+      "q": "Which ship carried Charcot to Marguerite Bay in 1909?",
+      "a": "Pourquoi-Pas?",
+      "x": [
+        "Belgica",
+        "Endurance"
+      ]
+    }
+  },
+  "Q156116": {
+    "t": "Where the world's largest glacier reaches the sea",
+    "s": "The Lambert Glacier, often called the largest glacier in the world, drains a large share of the East Antarctic ice sheet into the Amery Ice Shelf, whose edge fronts Prydz Bay. Around the bay, rare patches of bare rock such as the Vestfold and Larsemann Hills break through the ice. Several countries run research stations on these ice-free oases.",
+    "w": "A broad bay of sea ice and icebergs in front of a huge flat ice shelf, with dark patches of bare rock along the coast.",
+    "f": [
+      "The Lambert Glacier is about 400 km long and up to about 100 km wide.",
+      "Australia's Davis, China's Zhongshan and Russia's Progress stations stand on its shores.",
+      "Some lakes in the ice-free Vestfold Hills are so salty that they never freeze."
+    ],
+    "q": {
+      "q": "Which huge glacier feeds the ice shelf at Prydz Bay?",
+      "a": "The Lambert Glacier",
+      "x": [
+        "The Beardmore Glacier",
+        "The Thwaites Glacier"
+      ]
+    }
+  },
+  "Q156123": {
+    "t": "An Antarctic bay first spotted from an aeroplane",
+    "s": "Lützow-Holm Bay was discovered from the air: in February 1931 Hjalmar Riiser-Larsen flew from the ship Norvegia and sighted this stretch of the Queen Maud Land coast. The bay is named after Finn Lützow-Holm, a pioneering Norwegian naval aviator. Japan's Syowa Station stands on an island on its eastern side, and the fast-flowing Shirase Glacier pours into its southern end.",
+    "w": "A wide bay of sea ice and icebergs in East Antarctica, with a glacier tongue at its head and small rocky islands to the east.",
+    "f": [
+      "Syowa Station opened in 1957 and is named after the Shōwa era.",
+      "The Shirase Glacier is one of the fastest-flowing glaciers in East Antarctica.",
+      "Riiser-Larsen's discovery flights took place on 21 and 23 February 1931."
+    ],
+    "q": {
+      "q": "Which country's research station stands on Lützow-Holm Bay?",
+      "a": "Japan's",
+      "x": [
+        "Norway's",
+        "India's"
+      ]
+    }
+  },
+  "Q2391874": {
+    "t": "A Kamchatka gulf sheltered by a long island",
+    "s": "Karaginsky Gulf bites into the north-eastern coast of Kamchatka, sheltered from the open Bering Sea by Karaginsky Island, about 100 km long. Rivers from the mountains of northern Kamchatka pour into it, and every summer they fill with spawning salmon. For much of the winter the gulf is covered with drifting sea ice, and its shores are among the most thinly populated in Russia.",
+    "w": "A wide gulf on Kamchatka's north-eastern coast, with a long, narrow island running parallel to the shore at its mouth.",
+    "f": [
+      "The Litke Strait separates Karaginsky Island from the Kamchatka mainland.",
+      "The village of Ossora, on the gulf's shore, lives largely from salmon fishing.",
+      "Karaginsky Island is a protected area with large seabird colonies."
+    ],
+    "q": {
+      "q": "What separates Karaginsky Island from mainland Kamchatka?",
+      "a": "The Litke Strait",
+      "x": [
+        "The Bering Strait",
+        "The Tatar Strait"
+      ]
+    }
+  },
+  "Q1323629": {
+    "t": "Adelaide's gulf, between two long peninsulas",
+    "s": "Gulf St Vincent is Adelaide's backyard sea: the city spreads along its eastern shore, and its beaches face west into the sunset. The gulf is shallow and sheltered, enclosed by the boot-shaped Yorke Peninsula to the west and the Fleurieu Peninsula to the south-east, with Kangaroo Island guarding its mouth. Matthew Flinders named it in 1802 after the Earl of St Vincent.",
+    "w": "A long, shallow gulf between the boot-shaped Yorke Peninsula and the coast of Adelaide, with Kangaroo Island at its mouth.",
+    "f": [
+      "The leafy seadragon, South Australia's marine emblem, lives in its seagrass and kelp.",
+      "Salt fields north of Adelaide make pink and white rectangles along its shore.",
+      "Kangaroo Island, at its mouth, is Australia's third-largest island."
+    ],
+    "q": {
+      "q": "Which city lies on the shore of Gulf St Vincent?",
+      "a": "Adelaide",
+      "x": [
+        "Melbourne",
+        "Perth"
+      ]
+    }
+  },
+  "Q1706655": {
+    "t": "A tropical gulf named after Napoleon's brother",
+    "s": "The French explorer Nicolas Baudin named this wide gulf in 1803 after Joseph Bonaparte, elder brother of Napoleon. Its shores are a wilderness of mudflats, mangroves and tidal creeks, where the sea can rise and fall by around 7 m and saltwater crocodiles patrol the river mouths. The Ord River empties into its western arm, Cambridge Gulf, after watering the farms around Kununurra.",
+    "w": "A broad, often muddy gulf on Australia's north coast, edged by mangroves and red rocky country, with a long narrow arm reaching south to Wyndham.",
+    "f": [
+      "Lake Argyle, upstream on the Ord River, is one of the largest artificial lakes in Australia.",
+      "The gulf straddles the border between Western Australia and the Northern Territory.",
+      "In the wet season, flooding rivers turn its water milky brown."
+    ],
+    "q": {
+      "q": "After whom is the Joseph Bonaparte Gulf named?",
+      "a": "Napoleon's elder brother",
+      "x": [
+        "Napoleon's son",
+        "Napoleon's nephew"
+      ]
+    }
+  },
+  "Q138708": {
+    "t": "A gulf of ochre mud and a racing tidal bore",
+    "s": "The Gulf of Martaban is one of the muddiest seas on Earth: the Salween, the Sittaung and eastern branches of the Irrawaddy delta pour in so much silt that the water glows ochre and brown far offshore. Its big tides rush up the funnel-shaped Sittaung estuary as a tidal bore, a wall of water surging upstream. The mudflats left at low tide stretch for kilometres.",
+    "w": "A broad gulf of ochre-brown water on Myanmar's coast, with the great mouths of the Salween and Sittaung on its northern and eastern shores.",
+    "f": [
+      "The gulf is now officially called the Gulf of Mottama.",
+      "Mawlamyine, at the mouth of the Salween, was the first capital of British Burma in the 19th century.",
+      "Its mudflats are a winter home for rare shorebirds, including the spoon-billed sandpiper."
+    ],
+    "q": {
+      "q": "Which rare shorebird winters on the Gulf of Martaban's mudflats?",
+      "a": "The spoon-billed sandpiper",
+      "x": [
+        "The bristle-thighed curlew",
+        "The hooded plover"
+      ]
+    }
+  },
+  "Q745945": {
+    "t": "An 800-km estuary where the Ob meets the Kara Sea",
+    "s": "The Ob, one of the great rivers of Siberia, does not simply end: it widens into a gulf some 800 km long and 30 to 80 km wide, running north between the Yamal and Gydan peninsulas to the Kara Sea. For eight or nine months a year it lies frozen, a white highway through the tundra. In its southern half the Taz Estuary branches off to the east.",
+    "w": "A very long, broad inlet of water or white ice running north–south through flat tundra, between the Yamal and Gydan peninsulas.",
+    "f": [
+      "It is one of the longest estuaries in the world.",
+      "The Ob pours in so much river water that much of the gulf is almost fresh.",
+      "The Ob's basin covers about 3 million km², one of the largest river basins in the world."
+    ],
+    "q": {
+      "q": "Between which two peninsulas does the Gulf of Ob lie?",
+      "a": "Yamal and Gydan",
+      "x": [
+        "Taymyr and Gydan",
+        "Yamal and Kola"
+      ]
+    }
+  },
+  "Q152058": {
+    "t": "Above the world's largest waterfall, hidden under the sea",
+    "s": "The largest waterfall on Earth is here, entirely underwater. In the Denmark Strait, cold, dense Arctic water spills over a ridge on the sea floor between Greenland and Iceland and sinks some 3.5 km into the North Atlantic, carrying far more water than all the world's rivers combined. At the surface, the East Greenland Current carries icebergs and sea ice south along Greenland's coast.",
+    "w": "A wide strait of grey sea between Greenland's ice-covered mountains and Iceland's Westfjords, often with drifting ice on the Greenland side.",
+    "f": [
+      "The strait is about 290 km wide at its narrowest.",
+      "The underwater cataract drops about 3.5 km, more than three times the height of Angel Falls.",
+      "Arctic sea ice sometimes drifts far enough to reach Iceland's northern coast."
+    ],
+    "q": {
+      "q": "What is special about the Denmark Strait cataract?",
+      "a": "It is the largest waterfall on Earth",
+      "x": [
+        "It is the deepest ocean trench",
+        "It is the fastest ocean current"
+      ]
+    }
+  },
+  "Q1703405": {
+    "t": "Between Ellesmere and the largest uninhabited island",
+    "s": "Jones Sound runs east–west between Ellesmere Island to the north and Devon Island to the south, the largest uninhabited island on Earth. On its northern shore lies Grise Fiord, Canada's northernmost civilian community, hemmed in by mountains and glaciers. For much of the year the sound is frozen, and polar bears hunt seals across its ice.",
+    "w": "A long channel of sea ice or dark water between the glaciated mountains of Ellesmere Island and the flat brown plateau of Devon Island.",
+    "f": [
+      "Grise Fiord's Inuktitut name, Aujuittuq, means 'place that never thaws'.",
+      "Scientists use Devon Island's barren plateau as a stand-in for Mars.",
+      "Devon Island covers more than 55,000 km², yet no one lives there permanently."
+    ],
+    "q": {
+      "q": "Which is the largest uninhabited island on Earth, south of Jones Sound?",
+      "a": "Devon Island",
+      "x": [
+        "Ellesmere Island",
+        "Bathurst Island"
+      ]
+    }
+  },
+  "Q2831049": {
+    "t": "A long sea channel roofed over with floating ice",
+    "s": "George VI Sound is a sea channel you cannot see: it runs some 480 km between Alexander Island and the Antarctic Peninsula, but almost all of it is covered by the George VI Ice Shelf, floating ice hundreds of metres thick. From above it looks like a long, flat white valley between mountains. British explorers sledging here in 1936 were the first to show it was a sound, not a glacier.",
+    "w": "A long, flat white trough between the mountains of Alexander Island and the Antarctic Peninsula, running roughly north–south.",
+    "f": [
+      "It is named after King George VI of Britain.",
+      "At the edges of the ice shelf lie epishelf lakes, where fresh meltwater floats on top of seawater.",
+      "Alexander Island, on its western side, is the largest island of Antarctica."
+    ],
+    "q": {
+      "q": "What covers almost all of George VI Sound?",
+      "a": "A floating ice shelf",
+      "x": [
+        "A frozen freshwater lake",
+        "A bare rocky plain"
+      ]
+    }
+  },
+  "Q277014": {
+    "t": "A sea lined with volcanoes and split by Wallace's Line",
+    "s": "From the Bali Sea the islands to the south show off their volcanoes: Agung, Bali's sacred mountain, at about 3,000 m, and on Lombok the great cone of Rinjani, over 3,700 m, with a lake in its crater. Between the two islands runs the Wallace Line, the invisible boundary where Asian wildlife gives way to species with Australian roots. Dolphins are often seen off Bali's north coast near Lovina.",
+    "w": "Open sea north of Bali and Lombok, with a line of volcanic peaks along its southern shores.",
+    "f": [
+      "Rinjani on Lombok rises to about 3,726 m, and its caldera holds a crescent-shaped lake.",
+      "Alfred Russel Wallace noticed the sharp change in birds between Bali and Lombok in 1856.",
+      "Mount Agung, about 3,031 m high, is the holiest mountain of Balinese Hinduism."
+    ],
+    "q": {
+      "q": "Which famous biological boundary runs between Bali and Lombok?",
+      "a": "The Wallace Line",
+      "x": [
+        "The Tropic of Capricorn",
+        "The Weber Line"
+      ]
+    }
+  },
+  "Q212083": {
+    "t": "An equatorial sea between Halmahera and Raja Ampat",
+    "s": "The equator cuts across the Halmahera Sea, which lies between the oddly shaped, many-armed island of Halmahera and the Raja Ampat islands off New Guinea. Its eastern side borders some of the richest coral reefs on Earth: Raja Ampat holds more kinds of coral and reef fish than almost anywhere else. Scattered islands such as Gebe rise from the deep-blue water.",
+    "w": "Deep-blue sea scattered with green islands and pale reefs, between K-shaped Halmahera and the islands off New Guinea's western tip.",
+    "f": [
+      "Halmahera is shaped like the letter K, with four long arms enclosing three bays.",
+      "Raja Ampat is thought to hold about three-quarters of all known coral species.",
+      "The sea lies within the Coral Triangle, the world's centre of marine biodiversity."
+    ],
+    "q": {
+      "q": "Which letter is the island of Halmahera shaped like?",
+      "a": "K",
+      "x": [
+        "S",
+        "Y"
+      ]
+    }
+  },
+  "Q1507546": {
+    "t": "A sheltered gulf on the equator with a volcano island",
+    "s": "The strange, spidery shape of Sulawesi wraps its long northern arm around the Gulf of Tomini, and the equator runs right across the water. In the middle lie the Togean Islands, a scatter of forested islets fringed with coral, where Bajau sea people build villages on stilts. Among them rises Una-Una, a volcanic island whose cone last erupted in 1983.",
+    "w": "A long, calm gulf almost enclosed by Sulawesi's northern arm, with a chain of green islands and a volcanic cone in the middle.",
+    "f": [
+      "Because the gulf lies on the equator, day and night each last about 12 hours all year round.",
+      "Gorontalo, on its northern shore, is the main port on the gulf.",
+      "The Togean Islands are ringed by coral reefs and mangroves."
+    ],
+    "q": {
+      "q": "Which line crosses the Gulf of Tomini?",
+      "a": "The equator",
+      "x": [
+        "The Tropic of Cancer",
+        "The International Date Line"
+      ]
+    }
+  },
+  "Q150370": {
+    "t": "A deep sea with one of the world's largest atolls",
+    "s": "The Flores Sea lies between the southern arm of Sulawesi and the long volcanic island of Flores, and parts of it plunge more than 5,000 m deep. In its middle, the coral reefs of Taka Bonerate form one of the largest atolls in the world, a pale ring of reefs and sandy islets. Along its southern edge lie Flores and the islands of Komodo, home of the Komodo dragon.",
+    "w": "Deep-blue open sea between Sulawesi's southern arm and the volcanic spine of Flores, with pale atoll reefs in the middle.",
+    "f": [
+      "Taka Bonerate is often ranked as the third-largest atoll in the world.",
+      "Komodo dragons, the world's largest lizards, live on islands at its southern edge.",
+      "On Flores, the three crater lakes of Kelimutu change colour over the years."
+    ],
+    "q": {
+      "q": "Which famous animal lives on islands at the Flores Sea's southern edge?",
+      "a": "The Komodo dragon",
+      "x": [
+        "The orangutan",
+        "The Sumatran tiger"
+      ]
+    }
+  },
+  "Q594834": {
+    "t": "An island sea with a jagged cloud-forest peak",
+    "s": "The Sibuyan Sea is ringed by islands in the heart of the Philippines: Mindoro, Marinduque, Masbate, Panay and the Romblon group. Sibuyan Island, near its centre, is crowned by Mount Guiting-Guiting, a jagged ridge over 2,000 m high wrapped in cloud forest; the island is sometimes called the Galápagos of Asia. Neighbouring Romblon is famous for its marble.",
+    "w": "A calm sea ringed by green, mountainous islands in the central Philippines, with a jagged peak rising from an island near its centre.",
+    "f": [
+      "Mount Guiting-Guiting rises to about 2,058 m.",
+      "Romblon's marble has been quarried and carved for generations.",
+      "Much of Sibuyan Island is still covered by old-growth forest."
+    ],
+    "q": {
+      "q": "What is Romblon, in the Sibuyan Sea, famous for?",
+      "a": "Marble",
+      "x": [
+        "Pearls",
+        "Gold"
+      ]
+    }
+  },
+  "Q242326": {
+    "t": "A sea between Bohol's hills and Mindanao's volcanoes",
+    "s": "Also called the Mindanao Sea, the Bohol Sea separates Bohol and the other Visayan islands from the big southern island of Mindanao. Near its southern shore rises Camiguin, a small island packed with volcanic cones; one of them, Hibok-Hibok, is still active. On Bohol, to the north, more than 1,200 rounded grassy mounds form the famous Chocolate Hills, which turn brown in the dry season.",
+    "w": "A wide sea between Bohol and the north coast of Mindanao, with a small, steep volcanic island near the Mindanao side.",
+    "f": [
+      "The Chocolate Hills on Bohol are cone-shaped limestone hills roughly 30 to 50 m high.",
+      "Tarsiers, tiny primates with enormous eyes, live in Bohol's forests.",
+      "Dolphins and whales are often seen off Pamilacan Island, in the sea's northern part."
+    ],
+    "q": {
+      "q": "Which famous hills stand on Bohol, north of the Bohol Sea?",
+      "a": "The Chocolate Hills",
+      "x": [
+        "The Coffee Hills",
+        "The Sugar Hills"
+      ]
+    }
+  },
+  "Q474708": {
+    "t": "A shallow, fish-rich sea at the heart of the Visayas",
+    "s": "The Visayan Sea is a shallow sea in the centre of the Philippine archipelago, enclosed by Panay, Negros, Cebu and Masbate. Its warm, nutrient-rich water has long made it one of the country's most important fishing grounds. Low islands such as Bantayan, ringed with white sand, and the rocky Gigantes group rise from it like stepping stones.",
+    "w": "A shallow, turquoise-and-blue sea ringed by large islands and dotted with low, sandy islets in the central Philippines.",
+    "f": [
+      "Bantayan Island, off northern Cebu, is known for its white beaches.",
+      "The Visayas, which surround it, are one of the three main island groups of the Philippines.",
+      "Small fish such as sardines and anchovies are caught here in huge numbers."
+    ],
+    "q": {
+      "q": "Which of these islands borders the Visayan Sea?",
+      "a": "Negros",
+      "x": [
+        "Palawan",
+        "Samar"
+      ]
+    }
+  },
+  "Q193465": {
+    "t": "A deep whale highway between Indonesia's eastern islands",
+    "s": "The Savu Sea is framed by Flores to the north, Timor to the east, Sumba to the west and the little island of Savu to the south. It is deep, more than 3,000 m in places, and serves as a passage for whales travelling between the Indian and Pacific oceans, among them blue whales and sperm whales. Much of it is now protected as one of Indonesia's largest marine national parks.",
+    "w": "Deep-blue open sea between the volcanic island of Flores, the dry hills of Timor and the island of Sumba.",
+    "f": [
+      "The Savu Sea Marine National Park covers about 3.5 million hectares.",
+      "Sumba and Savu are famous for handwoven ikat textiles.",
+      "Kupang, the main city of Indonesian Timor, stands on its eastern edge."
+    ],
+    "q": {
+      "q": "Which giant animals migrate through the Savu Sea?",
+      "a": "Blue whales",
+      "x": [
+        "Leopard seals",
+        "Narwhals"
+      ]
+    }
+  },
+  "Q1592911": {
+    "t": "Stormy, shallow water above 'living fossil' reefs",
+    "s": "Hecate Strait separates Haida Gwaii from the mainland of British Columbia, and it has a fierce reputation: it is shallow, especially in the north, so Pacific storms whip it into short, violent seas. On its floor lie reefs of glass sponges, a type of reef once known only from fossils. Scientists were astonished to find them alive here in the late 1980s.",
+    "w": "A wide grey strait between the forested islands of Haida Gwaii to the west and the fjord-cut mainland coast to the east.",
+    "f": [
+      "The glass sponge reefs are thought to have been growing for about 9,000 years.",
+      "The strait is named after HMS Hecate, a Royal Navy survey ship of the 1860s.",
+      "In parts of the northern strait the water is less than 30 m deep."
+    ],
+    "q": {
+      "q": "What was found alive on Hecate Strait's floor in the late 1980s?",
+      "a": "Glass sponge reefs",
+      "x": [
+        "A living coelacanth",
+        "Giant clam beds"
+      ]
+    }
+  },
+  "Q2097617": {
+    "t": "One inland sea, three cities, a border through the islands",
+    "s": "In 2009–2010 Puget Sound, the Strait of Georgia and the Strait of Juan de Fuca were officially recognised together as one inland sea: the Salish Sea. Seattle, Vancouver and Victoria all stand on its shores, and the US–Canada border threads between the San Juan and Gulf Islands in its middle. On clear days the snowy cone of Mount Baker and the Olympic Mountains frame the view.",
+    "w": "A maze of blue channels and forested islands between Vancouver Island and the mainland, with Seattle to the south and Vancouver to the north.",
+    "f": [
+      "The name honours the Coast Salish peoples, who have lived around these waters for thousands of years.",
+      "Orcas hunt salmon in its channels, especially around the San Juan Islands.",
+      "Mount Baker, an ice-covered volcano about 3,286 m high, rises east of the sea."
+    ],
+    "q": {
+      "q": "Which peoples does the name Salish Sea honour?",
+      "a": "The Coast Salish",
+      "x": [
+        "The Haida",
+        "The Tlingit"
+      ]
+    }
+  },
+  "Q483824": {
+    "t": "A Bering Sea gulf crossed by the 180th meridian",
+    "s": "The 180th meridian, halfway round the world from Greenwich, crosses the Gulf of Anadyr — yet the date doesn't change here, because the International Date Line bends east around Chukotka. The gulf is frozen for more than half the year. In summer gray whales arrive to feed, and walruses haul out on its beaches beneath the bare Chukotka hills.",
+    "w": "A vast bay of the Bering Sea, often white with ice, framed by the bare, snowy hills of Chukotka.",
+    "f": [
+      "The town of Anadyr, capital of Chukotka, stands on the estuary at the head of the gulf.",
+      "In 1648 Semyon Dezhnev's party reached the Anadyr River after sailing around Chukotka.",
+      "The gulf's northern arm, the Gulf of Kresta, reaches deep into the mountains."
+    ],
+    "q": {
+      "q": "Which line crosses the Gulf of Anadyr?",
+      "a": "The 180th meridian",
+      "x": [
+        "The Tropic of Cancer",
+        "The International Date Line"
+      ]
+    }
   }
 }

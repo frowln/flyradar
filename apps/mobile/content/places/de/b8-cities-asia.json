@@ -394,5 +394,1222 @@
         "Der Gaoping"
       ]
     }
+  },
+  "Q37100": {
+    "t": "Eine Stadt auf einem schmalen Hals zwischen zwei Meeren",
+    "s": "Auckland ist auf einen schmalen Isthmus gedrängt: Der Waitematā Harbour öffnet sich im Osten zum Pazifik, der Manukau Harbour im Westen zur Tasmansee. Die Stadt liegt auf einem Feld aus rund 50 kleinen Vulkanen, und viele überdauern als grüne, grasige Kegel zwischen den Vororten. Achten Sie direkt vor der Küste auf Rangitoto, eine symmetrische Insel, die erst vor rund 600 Jahren aus dem Meer aufstieg.",
+    "w": "Eine Stadt auf einem dünnen Landhals zwischen zwei Häfen, getüpfelt mit grünen Kegeln; direkt vor der Küste eine runde, symmetrische Insel.",
+    "f": [
+      "An seiner schmalsten Stelle ist der Isthmus so dünn, dass Māori einst Kanus von einem Hafen zum anderen hinüberzogen.",
+      "Aucklands Māori-Name Tāmaki Makaurau wird oft mit „Tāmaki, von vielen begehrt“ übersetzt.",
+      "Rangitoto ist der jüngste und zugleich größte Vulkan des Auckland-Feldes."
+    ],
+    "q": {
+      "q": "Aus wie vielen Vulkanen besteht das Vulkanfeld von Auckland ungefähr?",
+      "a": "Rund 50",
+      "x": [
+        "Rund 5",
+        "Rund 500"
+      ]
+    }
+  },
+  "Q15174": {
+    "t": "Eine Boomstadt am Nordrand Hongkongs",
+    "s": "Shenzhen zieht sich als langes Band an der Küste entlang, gegenüber den grünen Hügeln Hongkongs jenseits eines schmalen Flusses. Vor 1980 war dies ein ruhiger Grenzbezirk aus Reisfeldern und Fischerdörfern; in jenem Jahr wurde er eine der ersten Sonderwirtschaftszonen Chinas und wuchs in atemberaubendem Tempo. Nachts reichen seine Lichter fast ununterbrochen von der Mündung des Perlflusses bis zu den östlichen Halbinseln.",
+    "w": "Ein langes Stadtband entlang der Küste direkt nördlich von Hongkong; im Westen eine Bucht mit einer Brücke.",
+    "f": [
+      "Der Shenzhen-Fluss bildet einen Großteil der Grenze zu Hongkong.",
+      "Eine rund 5 km lange Brücke quert die Shenzhen-Bucht zu Hongkongs New Territories.",
+      "Mangroven säumen bei Futian noch die Shenzhen-Bucht, ein geschütztes Refugium für Zugvögel."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurde Shenzhen Sonderwirtschaftszone?",
+      "a": "1980",
+      "x": [
+        "1949",
+        "1997"
+      ]
+    }
+  },
+  "Q198370": {
+    "t": "Eine Stadt verstreuter Orte – und alte Heimat des Fußballs",
+    "s": "Zibo ist weniger eine Stadt als ein lockerer Verbund von Orten, aufgereiht dort, wo die Hügel Zentral-Shandongs in die Nordchinesische Ebene abfallen. Einer davon, Linzi, war Hauptstadt des alten Staates Qi und eine der größten Städte ihrer Zeit. Ein anderer, Boshan, ist seit Jahrhunderten für Keramik und farbiges Glas bekannt.",
+    "w": "Mehrere getrennte Stadtflecken am Rand niedriger Hügel, im Norden öffnet sich die flache Ebene.",
+    "f": [
+      "2004 erkannte die FIFA Cuju, das vor über 2.000 Jahren in Linzi gespielt wurde, als früheste bekannte Form des Fußballs an.",
+      "Linzi blieb jahrhundertelang Hauptstadt von Qi, bis zur Eroberung durch Qin 221 v. Chr."
+    ],
+    "q": {
+      "q": "Zibos Stadtteil Linzi gilt als Geburtsort welcher Sportart?",
+      "a": "Fußball",
+      "x": [
+        "Tischtennis",
+        "Badminton"
+      ]
+    }
+  },
+  "Q1858": {
+    "t": "Eine tausendjährige Hauptstadt am rostbraunen Fluss",
+    "s": "Dick mit Schlamm beladen, wirkt der Rote Fluss von oben wirklich rostig, und Hanoi liegt an seinem rechten Ufer. Die Stadt ist mit Seen gesprenkelt, der größte ist der Westsee im Norden. Ringsum ist das flache, grüne Delta des Roten Flusses in Reisfelder gegliedert. Die Lý-Dynastie machte den Ort 1010 zu ihrer Hauptstadt und nannte ihn Thăng Long, „aufsteigender Drache“.",
+    "w": "Eine Stadt am Südwestufer eines breiten braunen Flusses, mit einem großen See an ihrer Nordseite, inmitten flacher grüner Reisfelder.",
+    "f": [
+      "Der Name Hà Nội bedeutet etwa „innerhalb des Flusses“; die Stadt erhielt ihn 1831.",
+      "Der Westsee, der größte See Hanois, umfasst rund 500 Hektar."
+    ],
+    "q": {
+      "q": "Wie hieß Hanoi, als es 1010 Hauptstadt wurde?",
+      "a": "Thăng Long",
+      "x": [
+        "Phú Xuân",
+        "Gia Định"
+      ]
+    }
+  },
+  "Q1854": {
+    "t": "Flussschleifen, ein riesiges Delta und Mangrovenlabyrinthe",
+    "s": "Der Saigon-Fluss schlingt sich in engen, glänzenden Bögen durch die Stadt, bevor er zum Meer zieht. Südöstlich des Zentrums geht das Land in Cần Giờ über, ein dunkelgrünes Labyrinth aus Mangroven und Gezeitenkanälen. Im Südwesten breitet sich das Mekongdelta aus, eine der großen Reiskammern Asiens. Viele Bewohner nennen die Stadt noch bei ihrem alten Namen, Saigon.",
+    "w": "Eine dichte Stadt an einem Fluss in Schleifen; im Südosten dunkle Mangrovenkanäle, im Südwesten flaches grünes Delta.",
+    "f": [
+      "Der Mangrovenwald von Cần Giờ ist ein UNESCO-Biosphärenreservat.",
+      "Bevor im 17. Jahrhundert vietnamesische Siedler kamen, stand hier ein Khmer-Hafen namens Prey Nokor."
+    ],
+    "q": {
+      "q": "Welcher Mangrovenwald liegt zwischen Ho-Chi-Minh-Stadt und dem Meer?",
+      "a": "Cần Giờ",
+      "x": [
+        "Die Sundarbans",
+        "Bhitarkanika"
+      ]
+    }
+  },
+  "Q11739": {
+    "t": "Eine Mogulstadt der Gärten in der Ebene des Punjab",
+    "s": "Gerade Bewässerungskanäle ziehen Linien über die flache Punjab-Ebene um Lahore, und der Ravi schwingt sich am Nordwestrand der Stadt vorbei. Jahrhundertelang war dies eine der großen Städte des Mogulreichs, und Akbar hatte hier mehr als ein Jahrzehnt lang seine Hauptstadt. Die alte ummauerte Stadt ist noch immer ein enger Gassenknoten nahe dem Fluss.",
+    "w": "Eine große flache Stadt, an ihrer Nordwestseite ein Fluss, gerade Kanäle ziehen sich durch grüne Felder.",
+    "f": [
+      "Akbar hielt von 1585 bis 1598 in Lahore Hof.",
+      "Das Fort von Lahore und die Shalimar-Gärten bilden zusammen eine UNESCO-Welterbestätte.",
+      "Die ummauerte Altstadt betrat man einst durch rund ein Dutzend Tore."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt an Lahore vorbei?",
+      "a": "Der Ravi",
+      "x": [
+        "Der Jhelum",
+        "Der Kabul"
+      ]
+    }
+  },
+  "Q8660": {
+    "t": "Eine Megastadt an trockener Küste neben dem Indusdelta",
+    "s": "Karatschi breitet sich über eine trockene, sandfarbene Küste aus, hinter sich kahle Hügel, vor sich das Arabische Meer. Sein Hafen wird von einer flachen Landzunge geschützt, und im Südosten franst das Ufer in Mangrovenarme aus, wo das Indusdelta beginnt. Im 18. Jahrhundert war dies eine kleine Fischersiedlung; heute ist es Pakistans größte Stadt.",
+    "w": "Eine riesige beige Stadt an einer geraden, trockenen Küste; im Südosten ein geschützter Hafen und Mangrovenarme, landeinwärts kahle Hügel.",
+    "f": [
+      "Ihr alter Name war Kolachi, nach einem Fischerdorf an dieser Küste.",
+      "Karatschi war von 1947 bis 1959 Hauptstadt Pakistans.",
+      "Die Mangroven des Indusdeltas im Südosten gehören zu den größten Mangrovenwäldern in trockenem Klima."
+    ],
+    "q": {
+      "q": "Wie hieß Karatschi als Fischerdorf im 18. Jahrhundert?",
+      "a": "Kolachi",
+      "x": [
+        "Thatta",
+        "Gwadar"
+      ]
+    }
+  },
+  "Q18808": {
+    "t": "Eine Stadt mit Flussinseln, einst „Hauptstadt der Weiden“",
+    "s": "Lange, flache Inseln teilen den breiten, ruhigen Taedong, der durch Pjöngjang fließt, und die Stadt liegt an beiden Ufern. Dahinter erstrecken sich flaches Farmland und niedrige Hügel bis zum Gelben Meer, rund 50 km südwestlich. Der Name bedeutet „flaches Land“, und 427 verlegte das Königreich Goguryeo seine Hauptstadt hierher.",
+    "w": "Eine Stadt an beiden Ufern eines breiten Flusses mit langen Inseln; der Fluss windet sich nach Südwesten über flaches Farmland zum Meer.",
+    "f": [
+      "Ein alter Name der Stadt ist Ryugyong, „Hauptstadt der Weiden“, nach den Bäumen an ihren Flussufern.",
+      "Goguryeo herrschte mehr als zwei Jahrhunderte lang von Pjöngjang aus, von 427 bis 668."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Pjöngjang?",
+      "a": "Der Taedong",
+      "x": [
+        "Der Han",
+        "Der Yalu"
+      ]
+    }
+  },
+  "Q5972": {
+    "t": "Sumatras größte Stadt, gebaut auf Tabak",
+    "s": "Riesige, ordentliche Plantagenraster umgeben Medan in der flachen Küstenebene im Nordosten Sumatras, ein paar Kilometer landeinwärts von der Straße von Malakka. Im 19. Jahrhundert war das hier angebaute Blatt, der Deli-Tabak, weltweit als Deckblatt für Zigarren begehrt, und ein kleines Dorf wurde reich. Im Südwesten steigen Vulkankegel zum großen Calderasee Toba an.",
+    "w": "Ein graues Häusermeer auf flacher Ebene nahe der Küste, umringt von gerasterten Plantagen; am südwestlichen Horizont Vulkangipfel.",
+    "f": [
+      "Medan ist die größte Stadt Sumatras.",
+      "Der Tobasee südlich der Stadt füllt die Caldera eines Supervulkans, der vor rund 74.000 Jahren ausbrach.",
+      "Deli-Tabak, benannt nach dem örtlichen Sultanat, wurde hier ab den 1860er-Jahren für Zigarrendeckblätter angebaut."
+    ],
+    "q": {
+      "q": "Welche Nutzpflanze machte Medan im 19. Jahrhundert reich?",
+      "a": "Tabak",
+      "x": [
+        "Muskatnuss",
+        "Gewürznelken"
+      ]
+    }
+  },
+  "Q1865": {
+    "t": "Ein schlammiger Flussknoten, den Zinn zur Hauptstadt machte",
+    "s": "Kuala Lumpur füllt das Klang-Tal, im Osten steigen die bewaldeten Kämme der Titiwangsa-Berge auf. Die Stadt begann in den 1850er-Jahren als raues Lager von Zinnbergleuten, und viele der Seen, die ringsum glitzern, sind alte geflutete Minengruben. Achten Sie im Süden auf Putrajaya, eine geplante Regierungsstadt rund um einen großen künstlichen See.",
+    "w": "Eine dichte Stadt in einem grünen Tal, im Osten bewaldete Berge, ringsum verstreute Seen und im Süden eine Planstadt.",
+    "f": [
+      "Kuala Lumpur bedeutet „schlammiger Zusammenfluss“: Die Stadt wuchs, wo der Gombak in den Klang mündet.",
+      "Die Petronas Twin Towers waren von 1998 bis 2004 die höchsten Gebäude der Welt.",
+      "Die Batu-Höhlen in einem Kalksteinhügel am Nordrand der Stadt sind seit den 1890er-Jahren ein Hindu-Heiligtum."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Kuala Lumpur“?",
+      "a": "Schlammiger Zusammenfluss",
+      "x": [
+        "Fluss des Zinns",
+        "Stadt der Hügel"
+      ]
+    }
+  },
+  "Q183584": {
+    "t": "Eine lange, schmale Stadt, eingezwängt am Gelben Fluss",
+    "s": "Lanzhou ist eine Stadt ohne Platz zum Ausbreiten: Sie zieht sich über Dutzende Kilometer durch ein enges Tal des Gelben Flusses, eingezwängt zwischen kahlen, ockerfarbenen Lösshügeln. Von oben wirkt sie wie ein graues Band in einer Falte der Landschaft. Für die Karawanen der Seidenstraße war dies der wichtigste Übergang über den Gelben Fluss auf dem Weg nach Westen in den Hexi-Korridor.",
+    "w": "Ein schmales graues Stadtband, das einem gewundenen Fluss zwischen kahlen gelbbraunen Hügeln folgt.",
+    "f": [
+      "Die 1909 vollendete Zhongshan-Brücke war die erste dauerhafte Brücke über den Gelben Fluss.",
+      "Vor den Brücken überquerten Reisende den Fluss hier auf Flößen, getragen von aufgeblasenen Schafshäuten."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt mitten durch Lanzhou?",
+      "a": "Der Gelbe Fluss",
+      "x": [
+        "Der Jangtse",
+        "Der Wei"
+      ]
+    }
+  },
+  "Q179608": {
+    "t": "Eine grüne subtropische Stadt in den Schleifen des Yong",
+    "s": "Nanning windet sich um die weiten Mäander des Yong, tief im subtropischen Süden Chinas. Das Land ringsum ist ein Flickenteppich aus grünen Hügeln und Feldern, viele davon mit Zuckerrohr bepflanzt. Die Grenze zu Vietnam liegt keine 200 km südwestlich, und seit 2004 richtet die Stadt jährlich eine Handelsmesse mit Südostasien aus.",
+    "w": "Eine Stadt rund um weite Flussschleifen, ringsum grüne Hügel und Felder.",
+    "f": [
+      "Guangxi, dessen Hauptstadt Nanning ist, erzeugt mehr als die Hälfte des chinesischen Zuckerrohrs.",
+      "Sein ganzjähriges Grün brachte Nanning den Beinamen „Grüne Stadt“ ein.",
+      "Der Yong fließt weiter in den Xi Jiang und erreicht schließlich das Perlflussdelta."
+    ],
+    "q": {
+      "q": "Bei welcher Nutzpflanze ist Guangxi Chinas größter Erzeuger?",
+      "a": "Zuckerrohr",
+      "x": [
+        "Tee",
+        "Baumwolle"
+      ]
+    }
+  },
+  "Q192271": {
+    "t": "Eine hohe Stadt zwischen unzähligen Karstkegeln",
+    "s": "Kalksteinkegel und Senken zerknittern das Land um Guiyang, rund 1.100 m hoch auf dem Yunnan-Guizhou-Plateau. Die Viertel zwängen sich zwischen die Hügel, sodass die Stadt von oben wie in Stücke zerbrochen wirkt. Ein altes Sprichwort behauptet, Guizhou habe nie drei Sonnentage in Folge und nie drei Li ebenen Boden – schauen Sie hinunter, und Sie sehen, warum.",
+    "w": "Stadtflecken zwischen grünen, kegelförmigen Hügeln auf einem hohen, zerknitterten Plateau, oft unter Wolken.",
+    "f": [
+      "Dank der Höhe sind Guiyangs Sommer für Südchina mild.",
+      "Der Name bedeutet „südlich des Berges Gui“: Im Chinesischen bezeichnet „yang“ die Sonnenseite eines Hügels."
+    ],
+    "q": {
+      "q": "Guiyang ist Hauptstadt welcher Provinz?",
+      "a": "Guizhou",
+      "x": [
+        "Guangxi",
+        "Yunnan"
+      ]
+    }
+  },
+  "Q11725": {
+    "t": "Eine Bergstadt an der Spitze, wo zwei Flüsse sich treffen",
+    "s": "Chongqings altes Zentrum ist eine steile, dicht bebaute Halbinsel am Zusammenfluss zweier Flüsse: des Jialing aus dem Norden und des Jangtse. An der Spitze fließen ihre Wasser oft in zwei Farben nebeneinander, bevor sie sich mischen. Rings um die Stadt ziehen lange, parallele Kämme nach Nordosten wie die Falten eines zerknitterten Tuchs. Hügel, Nebel und heiße Sommer brachten ihr die Beinamen Bergstadt und Nebelstadt ein.",
+    "w": "Eine dichte Halbinsel zwischen zwei zusammenfließenden Flüssen, gerahmt von langen, parallel von Nordost nach Südwest laufenden Kämmen.",
+    "f": [
+      "Der Stausee hinter dem Drei-Schluchten-Damm reicht rund 600 km flussaufwärts, bis nach Chongqing.",
+      "Chongqing zählt wegen seiner heißen, schwülen Sommer zu Chinas „Glutöfen“.",
+      "Die gesamte regierungsunmittelbare Stadt Chongqing ist etwa so groß wie Österreich."
+    ],
+    "q": {
+      "q": "Welcher Fluss mündet im Zentrum Chongqings in den Jangtse?",
+      "a": "Der Jialing",
+      "x": [
+        "Der Min",
+        "Der Han"
+      ]
+    }
+  },
+  "Q68481": {
+    "t": "Die Banyanstadt in einem grünen Becken am Min",
+    "s": "Banyanbäume, hier vor rund tausend Jahren erstmals gepflanzt, beschatten noch heute Fuzhous Straßen und gaben ihr den Beinamen Banyanstadt. Von oben füllt die Stadt ein von grünen Bergen umringtes Becken am Unterlauf des Min, kurz bevor sich der Fluss zum Meer hin weitet. Eine große Insel im Fluss, Nantai, ist selbst ganz von Stadt bedeckt.",
+    "w": "Eine Stadt in einem von Bergen umringten Becken an einem breiten Fluss, mit einer großen, bebauten Insel mitten im Fluss.",
+    "f": [
+      "Die FAO führt Fuzhous Jasmin- und Teekultur als weltweit bedeutendes landwirtschaftliches Erbe.",
+      "Unter dem Stadtzentrum steigen heiße Quellen auf, die Badehäuser seit Jahrhunderten nutzen.",
+      "Die 1866 gegründete Mawei-Werft war eine der ersten modernen Werften Chinas."
+    ],
+    "q": {
+      "q": "Nach welchem Baum ist Fuzhous Beiname benannt?",
+      "a": "Nach dem Banyan",
+      "x": [
+        "Nach dem Kampferbaum",
+        "Nach der Weide"
+      ]
+    }
+  },
+  "Q16572": {
+    "t": "Das alte Kanton am Kopf des Perlflussdeltas",
+    "s": "Wo der Perlfluss in das Kanallabyrinth seines Deltas zerfällt, verschmilzt Guangzhou nahtlos mit den Städten ringsum. Der grüne Buckel des Baiyun-Bergs erhebt sich an seiner Nordseite. Von 1757 bis 1842 war dies der einzige chinesische Hafen, in dem westliche Kaufleute handeln durften, und sie kannten ihn als Kanton.",
+    "w": "Eine riesige Stadt an einem verzweigten Fluss an der Spitze des Deltas, mit einem grünen Berg an ihrem Nordrand.",
+    "f": [
+      "Eine Legende von fünf Widdern, die den Menschen Reis brachten, gab Guangzhou den Beinamen „Stadt der Widder“.",
+      "Die Kanton-Messe findet hier seit 1957 zweimal jährlich statt."
+    ],
+    "q": {
+      "q": "Wie nannten europäische Händler Guangzhou?",
+      "a": "Kanton",
+      "x": [
+        "Amoy",
+        "Futschou"
+      ]
+    }
+  },
+  "Q59218": {
+    "t": "Ein Flickenteppich aus Fabrikstädten am Perlfluss",
+    "s": "Dongguan hat kein einzelnes Zentrum: Es ist ein Flickenteppich aus rund dreißig Orten, Fabrikgeländen und Fischteichen an der Ostseite der Perlflussmündung, der die Lücke zwischen Guangzhou und Shenzhen füllt. Unzählige Spielzeuge, Schuhe und elektronische Geräte kamen aus seinen Werkstätten. An seinem Westrand springt die Humen-Brücke über die Flussmündung.",
+    "w": "Ein Häusermeer aus Orten und Teichen am Ostufer einer weiten Mündung, mit einer langen Hängebrücke an seinem Westrand.",
+    "f": [
+      "In Humen ließ Kommissar Lin Zexu 1839 mehr als tausend Tonnen beschlagnahmtes Opium vernichten.",
+      "Die 1997 eröffnete Humen-Brücke hat eine Hauptspannweite von 888 m."
+    ],
+    "q": {
+      "q": "Was ließ Kommissar Lin Zexu 1839 in Humen vernichten?",
+      "a": "Opium",
+      "x": [
+        "Silber",
+        "Tee"
+      ]
+    }
+  },
+  "Q10389": {
+    "t": "Ein kühles Hochlandbecken im Kranz der Vulkane",
+    "s": "Bandung füllt ein Becken in rund 700 m Höhe im Hochland Westjavas, und sein flacher Boden war einst der Grund eines großen urzeitlichen Sees. Ringsum stehen Vulkane; der lange, oben flache im Norden ist der Tangkuban Perahu, das „umgedrehte Boot“. Das kühle Klima und elegante Alleen brachten der Stadt einst den Beinamen „Paris von Java“ ein.",
+    "w": "Eine Stadt auf einem flachen Beckenboden, auf allen Seiten Vulkane; im Norden ein langer, oben flacher Berg.",
+    "f": [
+      "1955 war Bandung Gastgeber der Asiatisch-Afrikanischen Konferenz mit 29 Ländern.",
+      "Teeplantagen bedecken viele Vulkanhänge rund um die Stadt.",
+      "Der Legende nach ist der Tangkuban Perahu ein Boot, das der Held Sangkuriang im Zorn umstieß."
+    ],
+    "q": {
+      "q": "Was bedeutet der Vulkanname Tangkuban Perahu?",
+      "a": "Umgedrehtes Boot",
+      "x": [
+        "Schlafender Riese",
+        "Brennender Berg"
+      ]
+    }
+  },
+  "Q11462": {
+    "t": "Ein Hai, ein Krokodil und eine Brücke nach Madura",
+    "s": "Ein dünner Strich, der zwei Inseln zusammennäht, verrät es: Die rund 5 km lange Suramadu-Brücke verbindet Surabaya an Javas flacher Nordostküste mit der Insel Madura. Entlang des Ufers glitzern quadratische Fischteiche in Reihen. Das Wappen der Stadt zeigt einen Hai und ein Krokodil – sura und baya – im Kampf.",
+    "w": "Eine große Küstenstadt an einer schmalen Meerenge, mit einer langen Brücke zu einer Insel und Reihen von Fischteichen am Ufer.",
+    "f": [
+      "Bei ihrer Eröffnung 2009 war die Suramadu-Brücke die längste Brücke Indonesiens.",
+      "Tanjung Perak, der Hafen Surabayas, ist einer der verkehrsreichsten Häfen Indonesiens."
+    ],
+    "q": {
+      "q": "Gegen welches Tier kämpft der Hai im Wappen Surabayas?",
+      "a": "Gegen ein Krokodil",
+      "x": [
+        "Gegen einen Tiger",
+        "Gegen einen Adler"
+      ]
+    }
+  },
+  "Q5826": {
+    "t": "Wo die Seidenstraße begann, unter der Qinling-Wand",
+    "s": "Eine dunkle Bergwand, das Qinling-Gebirge, erhebt sich im Süden von Xi’an, das in der flachen Ebene des Wei liegt. Die Straßen folgen noch immer einem strengen Nord-Süd-Raster um einen rechteckigen alten Kern. Als Chang’an war dies die Hauptstadt der Tang-Dynastie, östlicher Ausgangspunkt der Seidenstraße und eine der größten Städte der Erde.",
+    "w": "Eine große, gerasterte Stadt auf flacher Ebene; im Süden eine steile Bergwand, im Norden ein Fluss.",
+    "f": [
+      "Xi’ans Stadtmauer aus der Ming-Zeit, rund 14 km im Umfang, ist eine der vollständigsten alten Stadtmauern Chinas.",
+      "Die Terrakotta-Armee wurde 1974 von Bauern beim Brunnengraben entdeckt, rund 35 km östlich.",
+      "Das Qinling-Gebirge gilt traditionell als Trennlinie zwischen Nord- und Südchina."
+    ],
+    "q": {
+      "q": "Wie hieß Xi’an als Hauptstadt der Tang-Dynastie?",
+      "a": "Chang’an",
+      "x": [
+        "Luoyang",
+        "Kaifeng"
+      ]
+    }
+  },
+  "Q72778": {
+    "t": "Die Hauptstadt des Kohlelands am Fen",
+    "s": "Taiyuan erstreckt sich von Nord nach Süd entlang des Fen, in einem langen Becken zwischen zwei Gebirgsketten auf dem Lössplateau. Die Hügel ringsum sind trocken und zerfurcht, einen Großteil des Jahres gelbbraun. Unter der Provinz Shanxi liegt einige der reichsten Kohle Chinas, und die Stadt wuchs zu ihrem industriellen Herzen.",
+    "w": "Eine lange Stadt, die einem Fluss durch ein schmales Becken folgt, beiderseits kahle, zerfurchte Hügel.",
+    "f": [
+      "Die erste befestigte Stadt hier, Jinyang, entstand um 497 v. Chr.",
+      "Shanxi ist berühmt für seinen dunklen, gereiften Essig, der seit Jahrhunderten um Taiyuan hergestellt wird."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Taiyuan?",
+      "a": "Der Fen",
+      "x": [
+        "Der Wei",
+        "Der Luo"
+      ]
+    }
+  },
+  "Q11746": {
+    "t": "Drei Städte, geteilt von zwei Flüssen und hundert Seen",
+    "s": "Wuhan besteht eigentlich aus drei alten Städten – Wuchang, Hankou und Hanyang –, getrennt durch den Zusammenfluss des Jangtse mit seinem Nebenfluss, dem Han. Von oben bilden die Flüsse ein riesiges Y, und zwischen den Vierteln glitzern überall Seen. Der größte, der Ostsee, breitet seine vielen Arme auf der Ostseite über mehr als 30 km² aus.",
+    "w": "Zwei große Flüsse, die sich in Y-Form durch eine riesige Stadt vereinen, mit vielen Seen; im Osten ein großer, verzweigter See.",
+    "f": [
+      "Die allererste Brücke über den Jangtse wurde hier 1957 eröffnet.",
+      "Im 19. Jahrhundert betrieben russische Kaufleute in Hankou Fabriken für Ziegeltee.",
+      "Seine Lage im Herzen des chinesischen Flussnetzes brachte Wuhan den Beinamen „Durchgangsweg der neun Provinzen“ ein."
+    ],
+    "q": {
+      "q": "Welcher Fluss mündet bei Wuhan in den Jangtse?",
+      "a": "Der Han",
+      "x": [
+        "Der Jialing",
+        "Der Xiang"
+      ]
+    }
+  },
+  "Q174091": {
+    "t": "Eine lange Orangenhain-Insel im Xiang",
+    "s": "Changsha säumt beide Ufer des Xiang, und mitten im Fluss liegt eine bemerkenswert lange, schmale Insel: die Orangeninsel, einst von Zitrushainen bedeckt. Am Westufer erhebt sich der bewaldete Hügel Yuelu. An seinem Fuß steht eine der ältesten Akademien Chinas, gegründet 976 und bis heute Teil einer Universität.",
+    "w": "Eine Stadt an beiden Ufern eines breiten Flusses mit einer langen, schmalen Insel in der Mitte; am Westufer ein bewaldeter Hügel.",
+    "f": [
+      "Die Orangeninsel ist rund 5 km lang, aber sehr schmal.",
+      "Die 1972 in Changsha entdeckten Han-Gräber von Mawangdui bargen eine erstaunlich gut erhaltene Adelige."
+    ],
+    "q": {
+      "q": "Wie heißt die lange Insel im Xiang bei Changsha?",
+      "a": "Orangeninsel",
+      "x": [
+        "Pfirsichinsel",
+        "Lotosinsel"
+      ]
+    }
+  },
+  "Q182852": {
+    "t": "Ewiger Frühling am Ufer eines Bergsees",
+    "s": "Fast 1.900 m hoch auf dem Yunnan-Plateau breitet sich Kunming vom Nordende des Dian-Sees aus, einer langen Wasserfläche, deren Westufer steile Hügel säumen. Höhe und Breitengrad zusammen bescheren der Stadt das ganze Jahr über mildes Wetter, und sie ist als Stadt des ewigen Frühlings bekannt. Die Felder ringsum zeigen den tiefroten Boden, der für das Plateau typisch ist.",
+    "w": "Eine Stadt am Nordende eines langen Sees, an dessen Westufer steile Hügel stehen; ringsum Felder mit roter Erde.",
+    "f": [
+      "Der Dian-See bedeckt rund 300 km² und ist damit der größte See Yunnans.",
+      "Seit den 1980er-Jahren kommen jeden Winter Lachmöwen aus Sibirien nach Kunming.",
+      "Der Steinwald, ein UNESCO-geschütztes Labyrinth aus Kalksteinspitzen, liegt keine 100 km südöstlich."
+    ],
+    "q": {
+      "q": "Welchen Beinamen trägt Kunming?",
+      "a": "Stadt des ewigen Frühlings",
+      "x": [
+        "Stadt des ewigen Herbstes",
+        "Stadt der Winde"
+      ]
+    }
+  },
+  "Q30340": {
+    "t": "Ein Bahnknoten an einem Fluss, der über der Ebene fließt",
+    "s": "Hier fließt der Gelbe Fluss höher als die Felder ringsum: Sein Bett ist zwischen hohen Deichen verlandet, und er strömt breit, verflochten und sandig dahin. Zhengzhou breitet sich direkt südlich davon über die flache Nordchinesische Ebene aus. Menschen leben hier schon lange: Teile der Stampflehmmauern einer rund 3.500 Jahre alten Stadt der Shang-Dynastie stehen noch im Zentrum.",
+    "w": "Ein großes, flaches Stadtraster; direkt nördlich zieht ein breiter, sandiger, verflochtener Fluss von Ost nach West.",
+    "f": [
+      "Der Shaolin-Tempel, Wiege der Kung-Fu-Legende, liegt keine 100 km westlich im Song-Gebirge.",
+      "Zhengzhou wuchs dort, wo sich Chinas wichtigste Nord-Süd- und Ost-West-Bahnlinien kreuzen."
+    ],
+    "q": {
+      "q": "Zhengzhou ist Hauptstadt welcher Provinz?",
+      "a": "Henan",
+      "x": [
+        "Hebei",
+        "Hubei"
+      ]
+    }
+  },
+  "Q11720": {
+    "t": "Die Mandschu-Hauptstadt vor Peking, auf winterlicher Ebene",
+    "s": "Im Winter friert der Hun zu, und die Felder um Shenyang werden weiß; die Stadt breitet sich über die flache Ebene Nordostchinas aus, und der Fluss zieht sich an ihrer Südseite entlang. 1625 machte der Mandschu-Führer Nurhaci sie zu seiner Hauptstadt, und seine Nachfolger herrschten von hier aus, bis sie 1644 Peking einnahmen. Die Mandschu nannten sie Mukden.",
+    "w": "Eine große, flache Stadt auf weiter Ebene, an ihrem Südrand ein Fluss; im Winter verschneit und grau.",
+    "f": [
+      "Der ab 1625 erbaute Mukden-Palast ist ein kleinerer Verwandter der Verbotenen Stadt in Peking und UNESCO-Welterbe.",
+      "Der Name bedeutet „nördlich des Shen“, eines alten Namens für den Hun."
+    ],
+    "q": {
+      "q": "Wie lautete Shenyangs Name bei den Mandschu?",
+      "a": "Mukden",
+      "x": [
+        "Harbin",
+        "Kirin"
+      ]
+    }
+  },
+  "Q170247": {
+    "t": "Stadt der Quellen, zwischen Tai Shan und Gelbem Fluss",
+    "s": "Jinan ist zwischen niedrigen Hügeln im Süden und dem Gelben Fluss im Norden eingezwängt. Wasser, das durch die Kalksteinhügel sickert, sprudelt im Stadtzentrum aus Dutzenden Quellen empor; sie speisen den Daming-See und brachten Jinan den Namen Stadt der Quellen ein. An klaren Tagen erhebt sich rund 60 km südlich der Tai Shan, der erste der fünf heiligen Berge Chinas.",
+    "w": "Eine Stadt zwischen grünen Hügeln im Süden und einem breiten Fluss im Norden, mit einem See in ihrer Mitte.",
+    "f": [
+      "Die Überlieferung zählt 72 berühmte Quellen in Jinan; die bekannteste ist die Baotu-Quelle.",
+      "Jinan bedeutet „südlich des Ji“; seit 1855 fließt der Gelbe Fluss im alten Bett des Ji."
+    ],
+    "q": {
+      "q": "Wann verlagerte sich der Gelbe Fluss in seinen heutigen Lauf bei Jinan?",
+      "a": "1855",
+      "x": [
+        "1755",
+        "1911"
+      ]
+    }
+  },
+  "Q11736": {
+    "t": "Pekings Tor zum Meer, gesäumt von Salzgärten",
+    "s": "Ein geometrisches Muster aus Salzgärten und Hafenbecken zeichnet die Küste, wo der Hai in die Bohai-Bucht mündet. Tianjin breitet sich dahinter über die flache Ebene aus, rund 120 km südöstlich von Peking. Der Name bedeutet „Himmelsfurt“; ihn gab 1404 der Yongle-Kaiser, der hier den Fluss überquert hatte.",
+    "w": "Eine große Stadt auf flacher Ebene, ein gewundener Fluss zum Meer und eine Küste aus rechteckigen Salzgärten und Hafenbecken.",
+    "f": [
+      "Nach 1860 hielten mehrere ausländische Mächte Konzessionen in Tianjin, und ihre europäisch geprägten Straßen sind erhalten.",
+      "Die Changlu-Salinen an dieser Küste gehören zu den ältesten und größten Chinas."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Tianjin“?",
+      "a": "Himmelsfurt",
+      "x": [
+        "Himmelstor",
+        "Tor zum Meer"
+      ]
+    }
+  },
+  "Q171943": {
+    "t": "Tor zu einem See, der je nach Saison wächst und schrumpft",
+    "s": "Nanchang liegt an beiden Ufern des Gan, kurz bevor er sich in die sumpfige Ebene des Poyang-Sees ergießt, des größten Süßwassersees Chinas. Im Sommer schwillt der See zu einem Binnenmeer an; im Winter kann er zu einem Netz aus Rinnen und Grasland schrumpfen. Diese winterlichen Feuchtgebiete beherbergen den weitaus größten Teil der Nonnenkraniche der Welt.",
+    "w": "Eine Stadt an beiden Ufern eines breiten Flusses; im Nordosten die riesige, wechselhafte Fläche des Poyang-Sees.",
+    "f": [
+      "In der Regenzeit kann der Poyang-See mehrere tausend km² bedecken und in der Trockenzeit auf einen Bruchteil schrumpfen.",
+      "Der Tengwang-Pavillon am Gan wurde erstmals 653 errichtet."
+    ],
+    "q": {
+      "q": "Welcher See, Chinas größter Süßwassersee, liegt nahe Nanchang?",
+      "a": "Der Poyang-See",
+      "x": [
+        "Der Dongting-See",
+        "Der Tai-See"
+      ]
+    }
+  },
+  "Q16666": {
+    "t": "Die südliche Hauptstadt, zwischen Jangtse und grünen Hügeln",
+    "s": "Wo der Jangtse auf seinem letzten Abschnitt zum Meer nach Nordosten schwenkt, liegt Nanjing am Südufer. Am Ostrand erhebt sich die bewaldete Kuppe des Purpurbergs, und gleich innerhalb der alten Mauern glitzert der Xuanwu-See. Der erste Ming-Kaiser machte die Stadt 1368 zu seiner Hauptstadt, und ihr Name bedeutet noch immer „südliche Hauptstadt“.",
+    "w": "Eine große Stadt am Südufer des breiten Jangtse, im Osten ein grüner Berg und im Norden ein See.",
+    "f": [
+      "Nanjings Ming-Stadtmauer, rund 35 km lang, war eine der längsten Stadtmauern, die je gebaut wurden, und ist großteils erhalten.",
+      "Zhu Yuanzhang, Gründer der Ming-Dynastie, liegt in einem Grab am Purpurberg."
+    ],
+    "q": {
+      "q": "Welche Dynastie baute Nanjings große Stadtmauer?",
+      "a": "Die Ming",
+      "x": [
+        "Die Tang",
+        "Die Song"
+      ]
+    }
+  },
+  "Q4970": {
+    "t": "Ein See der Dichter und ein Fluss mit rasender Flutwelle",
+    "s": "Hangzhou schmiegt sich um den Westsee, eine ruhige Wasserfläche, auf drei Seiten von grünen Hügeln umfasst und seit mehr als tausend Jahren von chinesischen Dichtern gepriesen. Südlich der Stadt biegt der breite Qiantang zur trichterförmigen Hangzhou-Bucht ab. Vor allem im Herbst jagt eine Flutwelle als Wasserwand flussaufwärts und lockt Scharen an die Ufer.",
+    "w": "Eine Stadt am Ostufer eines Sees mit Hügeln auf drei Seiten; ein breiter Fluss schwingt zu einer trichterförmigen Bucht.",
+    "f": [
+      "Hangzhou war Hauptstadt der Südlichen Song-Dynastie und damals eine der größten Städte der Welt.",
+      "Hier beginnt der Kaiserkanal, der nach Norden bis Peking führt.",
+      "Longjing oder Drachenbrunnen, einer der berühmtesten grünen Tees Chinas, wächst in den Hügeln westlich des Sees."
+    ],
+    "q": {
+      "q": "Welcher Fluss bei Hangzhou ist für seine Flutwelle berühmt?",
+      "a": "Der Qiantang",
+      "x": [
+        "Der Huangpu",
+        "Der Min"
+      ]
+    }
+  },
+  "Q34664": {
+    "t": "Eine Stadt auf den Fingern eines Deltas, an einem Inselmeer",
+    "s": "Hiroshima breitet sich über das Delta des Ōta aus, dessen Arme sich wie die Finger einer Hand zum Meer fächern und die Stadt in lange Inseln zerteilen. Dahinter liegt die ruhige Seto-Inlandsee, übersät mit grünen Inseln. Der Name bedeutet „breite Insel“, und die Stadt wurde 1589 gegründet, als der Kriegsherr Mōri Terumoto seine Burg auf dem Delta errichtete.",
+    "w": "Eine Stadt auf einem Delta paralleler Flussarme am Scheitel einer Bucht, davor verstreute bewaldete Inseln.",
+    "f": [
+      "Die Präfektur Hiroshima erzeugt mehr als die Hälfte der Zuchtaustern Japans.",
+      "Der Itsukushima-Schrein auf der Insel Miyajima, rund 20 km südwestlich, ist für sein im Meer stehendes Torii berühmt."
+    ],
+    "q": {
+      "q": "Auf dem Delta welches Flusses ist Hiroshima erbaut?",
+      "a": "Des Ōta",
+      "x": [
+        "Des Yodo",
+        "Des Shinano"
+      ]
+    }
+  },
+  "Q92161": {
+    "t": "Chinas Autostadt auf einer Ebene aus schwarzer Erde",
+    "s": "Jeden Winter liegt der fruchtbare schwarze Boden der Songliao-Ebene monatelang weiß unter Schnee, und Changchun sitzt mittendrin, angelegt als ordentliches Raster breiter Alleen. 1953 wurde hier Chinas erste Automobilfabrik gegründet, und die Stadt gilt bis heute als Wiege der Autoindustrie des Landes. Ihr Name bedeutet ausgerechnet für einen so kalten Ort „langer Frühling“.",
+    "w": "Eine Rasterstadt auf endloser flacher Ebene dunkler Felder; an ihrem Südostrand ein bewaldeter Stausee.",
+    "f": [
+      "Die ersten in der Volksrepublik gebauten Lastwagen liefen hier 1956 vom Band.",
+      "Jingyuetan am Südostrand ist ein Stausee, umringt von einem riesigen angepflanzten Wald."
+    ],
+    "q": {
+      "q": "Wofür ist Changchun als Hersteller am bekanntesten?",
+      "a": "Für Autos",
+      "x": [
+        "Für Seide",
+        "Für Porzellan"
+      ]
+    }
+  },
+  "Q569907": {
+    "t": "Hirschstadt am großen Nordbogen des Gelben Flusses",
+    "s": "Baotou zieht sich über die Ebene zwischen dem kahlen Yin-Gebirge und dem Gelben Fluss, nahe dem Scheitel der großen Schleife, die der Fluss durch die Innere Mongolei zieht. Jenseits des Wassers beginnen im Süden die Dünen der Kubuqi-Wüste. In den 1950er-Jahren wuchs die Stadt zu einem Stahlzentrum, und ihr mongolischer Name wird meist als „Ort mit Hirschen“ übersetzt – daher der Beiname Hirschstadt.",
+    "w": "Eine Industriestadt auf einer Ebene zwischen kahlen Bergen im Norden und einem breiten Fluss im Süden; dahinter Dünen.",
+    "f": [
+      "Bayan Obo, mehr als 100 km nördlich, ist die größte bekannte Lagerstätte Seltener Erden der Welt.",
+      "Die Schleife des Gelben Flusses um das Ordos-Plateau ist so groß, dass er erst nach Norden, dann Osten, dann Süden fließt."
+    ],
+    "q": {
+      "q": "Welches Tier steckt in Baotous mongolischem Namen?",
+      "a": "Der Hirsch",
+      "x": [
+        "Das Pferd",
+        "Der Wolf"
+      ]
+    }
+  },
+  "Q42956": {
+    "t": "Eine Bahnstadt an einem Fluss, der zum Festival gefriert",
+    "s": "Harbin breitet sich am Südufer des Songhua über die flachen Ebenen des Nordostens aus. Im Winter friert der Fluss zu einer festen weißen Straße, und aus seinem Eis geschnittene Blöcke werden zu den Palästen des berühmten Eis- und Schneefestivals gemeißelt. Die Stadt wuchs ab 1898 um eine von Russland gebaute Eisenbahn, und ihre Kirchen mit Zwiebeltürmen erinnern noch an jene Jahre.",
+    "w": "Eine große Stadt am Südufer eines breiten Flusses, gegenüber ein Inselpark; im Winter liegt der Fluss weiß und gefroren.",
+    "f": [
+      "Die Durchschnittstemperatur im Januar liegt hier weit unter −15 °C.",
+      "Harbins Eis- und Schneefestival findet seit 1985 jeden Winter statt."
+    ],
+    "q": {
+      "q": "Um die Eisenbahn welches Landes wuchs Harbin heran?",
+      "a": "Russland",
+      "x": [
+        "Japan",
+        "Großbritannien"
+      ]
+    }
+  },
+  "Q37951": {
+    "t": "Eine verschneite Rasterstadt am Rand der Berge Hokkaidōs",
+    "s": "Sapporo wurde ab 1869 als ordentliches Raster angelegt, und seine geraden Linien sind auf der Ishikari-Ebene noch deutlich zu sehen, während im Westen direkt dahinter bewaldete Berge aufsteigen. Kaum eine Großstadt der Welt bekommt so viel Schnee: In einem typischen Winter fallen rund fünf Meter. Der Name stammt aus der Sprache der Ainu und wird oft als „trockener, großer Fluss“ gedeutet.",
+    "w": "Eine Rasterstadt auf einer Ebene am Fuß bewaldeter Berge; im Winter ist alles weiß.",
+    "f": [
+      "1972 richtete Sapporo die ersten Olympischen Winterspiele in Asien aus.",
+      "Das Schneefestival von Sapporo begann 1950 mit sechs Schneefiguren, gebaut von einheimischen Schülern."
+    ],
+    "q": {
+      "q": "Wann richtete Sapporo Asiens erste Winterspiele aus?",
+      "a": "1972",
+      "x": [
+        "1964",
+        "1998"
+      ]
+    }
+  },
+  "Q1361": {
+    "t": "Eine Stadt der Perlen und Diamanten zwischen Granitblöcken",
+    "s": "Riesige Granitblöcke liegen über das felsige Dekkan-Plateau verstreut, als hätte sie jemand von Hand fallen lassen, und Hyderabad ist zwischen ihnen gewachsen. Achten Sie auf einen großen See mitten in der Stadt: den im 16. Jahrhundert angelegten Hussain Sagar, der Hyderabad von seiner Zwillingsstadt Secunderabad trennt. Die Qutb-Shahi-Sultane gründeten die Stadt 1591, und das nahe Golkonda war für seinen Diamantenhandel berühmt.",
+    "w": "Eine riesige Stadt auf einem felsigen, seenreichen Plateau, mit einem großen See in der Mitte und einem Fluss im Süden.",
+    "f": [
+      "Der Koh-i-Noor stammt vermutlich aus Minen der Region Golkonda.",
+      "Sein jahrhundertealter Perlenhandel brachte Hyderabad den Beinamen Stadt der Perlen ein.",
+      "Das Charminar, Wahrzeichen mit vier Minaretten, entstand 1591, im Gründungsjahr Hyderabads."
+    ],
+    "q": {
+      "q": "Welcher berühmte Diamant soll aus den Minen von Golkonda stammen?",
+      "a": "Der Koh-i-Noor",
+      "x": [
+        "Der Cullinan",
+        "Der Excelsior"
+      ]
+    }
+  },
+  "Q1538": {
+    "t": "Die Stadt der Peshwas im Windschatten der Westghats",
+    "s": "Wo Mula und Mutha zusammenfließen, rund 560 m hoch auf dem Dekkan-Plateau, liegt Pune. Gleich im Westen steigen die steilen, grünen Westghats auf, eine Kette von Stauseen füllt ihre Täler. Im 18. Jahrhundert residierten hier die Peshwas, die obersten Minister, die das Marathenreich lenkten. Heute gibt es hier so viele Hochschulen, dass man die Stadt das Oxford des Ostens nennt.",
+    "w": "Eine große Stadt, wo zwei Flüsse auf einem Plateau zusammentreffen; im Westen grüne, steile Hügel und Stauseen.",
+    "f": [
+      "Shaniwar Wada, der befestigte Palast der Peshwas, wurde 1732 vollendet.",
+      "Die Bergfestung Sinhagad steht rund 30 km südwestlich auf einem Kamm der Ghats."
+    ],
+    "q": {
+      "q": "Welche Herrscher des 18. Jahrhunderts residierten in Pune?",
+      "a": "Die Peshwas",
+      "x": [
+        "Die Moguln",
+        "Die Nizams"
+      ]
+    }
+  },
+  "Q1513": {
+    "t": "Orangenstadt im Herzen Indiens",
+    "s": "Irgendwo ganz in der Nähe liegt der geografische Mittelpunkt Indiens, und ein von britischen Landvermessern in Nagpur gesetzter Nullmeilenstein markiert die Stelle noch heute. Von oben ist es eine ausufernde Stadt auf einem sanft gewellten Plateau, mit mehreren Seen auf ihrer Westseite. Orangenhaine umgeben sie und gaben ihr den Namen Orangenstadt; in den Wäldern weiter draußen leben Tiger.",
+    "w": "Eine große Stadt auf flachem Plateau mit einigen Seen an ihrem Westrand, umgeben von Ackerland und Obsthainen.",
+    "f": [
+      "Nagpurs Orangen sind in ganz Indien berühmt und tragen eine geschützte geografische Herkunftsangabe.",
+      "Tigerreservate wie Pench und Tadoba liegen nur wenige Autostunden entfernt."
+    ],
+    "q": {
+      "q": "Von welcher Frucht stammt Nagpurs Beiname?",
+      "a": "Von Orangen",
+      "x": [
+        "Von Mangos",
+        "Von Bananen"
+      ]
+    }
+  },
+  "Q66485": {
+    "t": "Die Rosarote Stadt, 1727 als Raster angelegt",
+    "s": "Alte Festungen bewachen die Pässe in den schroffen Aravalli-Kämmen, die nördlich und östlich von Jaipur aufsteigen, einer Stadt auf einer trockenen Ebene Rajasthans. Maharadscha Sawai Jai Singh II. gründete sie 1727 auf einem strengen Raster, ungewöhnlich für jene Zeit. Ihre Altstadt ist terrakottarosa gestrichen, zum ersten Mal 1876 zur Begrüßung des Prinzen von Wales.",
+    "w": "Eine große Stadt auf trockener Ebene, im Norden und Osten felsige Kämme mit Festungen, an ihrem Fuß ein See.",
+    "f": [
+      "Jai Singh II. war auch Astronom; seine Sternwarte Jantar Mantar ist UNESCO-Welterbe.",
+      "Die ummauerte Stadt Jaipur kam 2019 auf die Welterbeliste der UNESCO."
+    ],
+    "q": {
+      "q": "Für wessen Besuch wurde Jaipur 1876 rosa gestrichen?",
+      "a": "Für den Prinzen von Wales",
+      "x": [
+        "Für Königin Victoria",
+        "Für den Vizekönig von Indien"
+      ]
+    }
+  },
+  "Q66568": {
+    "t": "Eine alte Fabrikstadt am Ufer des Ganges",
+    "s": "Kanpur erstreckt sich am Südwestufer des Ganges, der in breiten, sandigen Rinnen an ihrem Nordrand vorbeischwingt. Ringsum liegt die flache, fruchtbare Gangesebene, aufgeteilt in kleine Felder. Im 19. Jahrhundert machten Baumwollspinnereien und Gerbereien den Ort zu einem Industriezentrum mit dem Beinamen Manchester des Ostens. Leder ist bis heute eines seiner großen Gewerbe.",
+    "w": "Eine große, flache Stadt am Südufer eines breiten Flusses mit Sandbänken, umgeben von einem Flickenteppich kleiner Felder.",
+    "f": [
+      "Unter britischer Herrschaft hieß die Stadt Cawnpore.",
+      "Kanpur ist eines der größten Zentren der Ledergerberei in Indien."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt an Kanpur vorbei?",
+      "a": "Der Ganges",
+      "x": [
+        "Die Yamuna",
+        "Der Gomti"
+      ]
+    }
+  },
+  "Q80484": {
+    "t": "Das antike Pataliputra, entlang des breiten Ganges",
+    "s": "Patna ist lang und schmal: Es zieht sich viele Kilometer am Südufer des Ganges entlang, der hier bei Hochwasser mehrere Kilometer breit wird und in der Trockenzeit in Rinnen um Sandbänke zerfällt. Achten Sie auf die lange Brücke, die ihn nach Norden quert. Vor mehr als 2.000 Jahren war dies als Pataliputra die Hauptstadt des Maurya-Reichs und eine der größten Städte der Antike.",
+    "w": "Eine lange, schmale Stadt am Südufer eines sehr breiten, verflochtenen Flusses, über den eine lange Brücke führt.",
+    "f": [
+      "Um 300 v. Chr. beschrieb der griechische Gesandte Megasthenes die gewaltigen Holzmauern Pataliputras.",
+      "Die 1982 eröffnete Mahatma Gandhi Setu führt eine Straße rund 5,7 km weit über den Ganges."
+    ],
+    "q": {
+      "q": "Wie hieß Patna als Hauptstadt der Maurya?",
+      "a": "Pataliputra",
+      "x": [
+        "Taxila",
+        "Ujjain"
+      ]
+    }
+  },
+  "Q1352": {
+    "t": "Das alte Madras, mit langem Strand am Golf von Bengalen",
+    "s": "Chennai säumt einen langen, geraden Abschnitt der Koromandelküste, und sein Markenzeichen ist Marina Beach: ein heller Sandstreifen, der sich kilometerweit am Golf von Bengalen entlangzieht. Zwei träge Flüsse, Cooum und Adyar, durchschneiden die Stadt auf dem Weg zum Meer. Die Englische Ostindien-Kompanie baute hier 1644 Fort St. George, und um das Fort wuchs die Stadt Madras.",
+    "w": "Eine flache Stadt an einer langen, geraden Sandküste; im Norden Hafenmolen, zwei Flüsse münden ins Meer.",
+    "f": [
+      "Marina Beach ist einer der längsten Stadtstrände der Welt.",
+      "1996 wurde der offizielle Name der Stadt von Madras in Chennai geändert.",
+      "Der Pulicat-See, eine große Lagune rund 50 km nördlich, lockt im Winter Scharen von Flamingos an."
+    ],
+    "q": {
+      "q": "Welches Fort bauten die Engländer 1644 in Chennai?",
+      "a": "Fort St. George",
+      "x": [
+        "Fort William",
+        "Fort St. David"
+      ]
+    }
+  },
+  "Q1070": {
+    "t": "Eine Sultansstadt der Drachen am Sabarmati",
+    "s": "Ahmedabad breitet sich über die flachen Ebenen Gujarats an beiden Ufern des Sabarmati aus, der in der Stadt schnurgerade zwischen langen Betonufern verläuft. Sultan Ahmed Shah gründete sie 1411, und 2017 wurde sie als erste indische Stadt in die Welterbeliste der UNESCO aufgenommen. Jeden Januar, beim Fest Uttarayan, füllt sich der Himmel über ihr mit Tausenden Drachen.",
+    "w": "Eine große, flache Stadt, geteilt von einem Fluss, der gerade zwischen Uferdämmen verläuft; im Norden eine Planhauptstadt mit grünen Alleen.",
+    "f": [
+      "Gandhi lebte von 1917 bis 1930 in seinem Sabarmati-Ashram am Flussufer.",
+      "Gandhinagar, die geplante Hauptstadt Gujarats, liegt rund 25 km nördlich."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Ahmedabad?",
+      "a": "Der Sabarmati",
+      "x": [
+        "Die Narmada",
+        "Die Tapti"
+      ]
+    }
+  },
+  "Q4629": {
+    "t": "Wo die meisten Diamanten der Welt geschliffen werden",
+    "s": "Surat liegt an einer weiten Biegung der Tapti, wenige Kilometer bevor sie das Watt der Küste am Arabischen Meer erreicht. Zur Mogulzeit war dies Indiens geschäftigster Hafen, und Pilger segelten von hier nach Mekka. In den 1610er-Jahren richtete die Englische Ostindien-Kompanie hier einen ihrer frühesten indischen Handelsposten ein. Heute schleifen und polieren die Werkstätten der Stadt den weitaus größten Teil der Diamanten der Welt.",
+    "w": "Eine dichte Stadt an einer weiten Flussbiegung nahe einer flachen, schlammigen Küste; neue Viertel wachsen zum Meer hin.",
+    "f": [
+      "Rund neun von zehn Diamanten der Welt werden in Surat geschliffen und poliert.",
+      "Surat ist außerdem eines der größten Zentren für Kunstfasertextilien in Indien."
+    ],
+    "q": {
+      "q": "Was wird in Surat vor allem geschliffen und poliert?",
+      "a": "Diamanten",
+      "x": [
+        "Smaragde",
+        "Perlen"
+      ]
+    }
+  },
+  "Q1354": {
+    "t": "Eine flussumringte Megastadt, einst Hauptstadt des Musselins",
+    "s": "Dhaka ist fast eine Insel: Buriganga, Turag, Balu und Shitalakshya umschlingen die Stadt, und im Monsun verwandeln sich die Felder dahinter in Wasserflächen. Innerhalb dieses Rings ist sie eine der am dichtesten bebauten Städte der Erde. 1610 machten die Moguln sie zur Hauptstadt Bengalens, und ihre Weber fertigten Musselin, so fein, dass man ihn mit gewebter Luft verglich.",
+    "w": "Eine sehr dichte Stadt auf leicht erhöhtem Grund, umringt von Flüssen; im Monsun ringsum überflutete Felder.",
+    "f": [
+      "Dhaka gilt oft als Rikscha-Hauptstadt der Welt, mit Hunderttausenden Fahrradrikschas.",
+      "Unter den Moguln wurde die Stadt nach Kaiser Jahangir in Jahangirnagar umbenannt.",
+      "Sie hat so viele Moscheen, dass sie den Beinamen Stadt der Moscheen trägt."
+    ],
+    "q": {
+      "q": "Für welchen feinen Stoff war Dhaka zur Mogulzeit berühmt?",
+      "a": "Musselin",
+      "x": [
+        "Seidenbrokat",
+        "Kaschmir"
+      ]
+    }
+  },
+  "Q376749": {
+    "t": "Der große Hafen Bangladeschs, wo Hügel auf das Meer treffen",
+    "s": "Wo das flache Delta Bangladeschs endlich grünen Hügeln weicht, die nach Osten Richtung Myanmar rollen, liegt Chattogram an der Mündung des Karnaphuli. Die Stadt ist der wichtigste Seehafen des Landes. Achten Sie nördlich davon an der Küste auf eine Reihe großer Schiffe, die absichtlich auf das Watt gesetzt wurden: eine der größten Abwrackküsten der Welt. Portugiesische Händler nannten den Ort Porto Grande.",
+    "w": "Eine Hafenstadt an einer Flussmündung, im Osten grüne Hügel; nördlich an der Küste eine Reihe gestrandeter Schiffe.",
+    "f": [
+      "Auf den Werften von Sitakunda nördlich der Stadt werden Hochseeschiffe am Strand zerlegt, vieles davon von Hand.",
+      "2018 wurde die offizielle englische Schreibweise von Chittagong in Chattogram geändert, näher am Bengalischen."
+    ],
+    "q": {
+      "q": "Wie nannten portugiesische Händler Chattogram?",
+      "a": "Porto Grande",
+      "x": [
+        "Porto Pequeno",
+        "Porto Novo"
+      ]
+    }
+  },
+  "Q3183": {
+    "t": "Eine einsame Hauptstadt an einem Fluss der schwarzen Schwäne",
+    "s": "Perth ist eine der abgelegensten Großstädte der Erde: Adelaide, die nächste Stadt ähnlicher Größe, liegt über 2.000 km entfernt. Der Swan River weitet sich hier zu breiten blauen Becken, die eher wie Seen wirken, und die Stadt liegt an ihren Ufern. Im Osten steigt das Land abrupt an der langen, geraden Linie der Darling Scarp an; im Westen liegen weiße Strände und Rottnest Island.",
+    "w": "Eine Stadt um weite, seeartige Flussbecken; im Osten eine gerade Geländestufe, im Westen weiße Strände und eine Insel.",
+    "f": [
+      "Der niederländische Entdecker Willem de Vlamingh benannte den Swan River 1697 nach seinen schwarzen Schwänen.",
+      "Auf Rottnest Island vor der Küste lebt das Quokka, ein kleines Beuteltier mit lächelndem Gesicht.",
+      "Die Swan River Colony, aus der Perth hervorging, wurde 1829 gegründet."
+    ],
+    "q": {
+      "q": "Wer benannte den Swan River 1697 nach seinen schwarzen Schwänen?",
+      "a": "Willem de Vlamingh",
+      "x": [
+        "Abel Tasman",
+        "Dirk Hartog"
+      ]
+    }
+  },
+  "Q37995": {
+    "t": "Eine Stadt der goldenen Pagode zwischen Deltaflüssen",
+    "s": "Auf einer Landzunge, wo Yangon-Fluss und Bago zusammenfließen, rund 30 km von der Andamanensee entfernt, liegt Yangon. Westlich davon breitet sich das riesige grüne, von Kanälen durchzogene Irrawaddy-Delta aus. Zwei große Seen, Inya und Kandawgyi, glitzern zwischen den nördlichen Vierteln. Nahe dem zweiten steht auf einem niedrigen Hügel die vergoldete Shwedagon-Pagode, das heiligste buddhistische Heiligtum Myanmars.",
+    "w": "Eine Stadt auf einer Landspitze zwischen zusammenfließenden Flüssen, mit Seen in ihrer Nordhälfte; im Westen ein grünes Delta.",
+    "f": [
+      "König Alaungpaya gab dem Ort 1755 den Namen Yangon, „Ende des Streits“.",
+      "Unter britischer Herrschaft hieß die Stadt Rangun.",
+      "Der Stupa der Shwedagon ist rund 100 m hoch und mit Goldplatten verkleidet."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Yangon“?",
+      "a": "Ende des Streits",
+      "x": [
+        "Stadt des Goldes",
+        "Flussmündung"
+      ]
+    }
+  },
+  "Q572089": {
+    "t": "Karstgipfel, ein gestauter roter Fluss und langes Leben",
+    "s": "Hechi breitet sich über einen zerklüfteten Winkel im Nordwesten Guangxis aus, wo bewaldete Kalksteingipfel so dicht stehen, dass sich Orte und Felder in die schmalen Täler dazwischen zwängen. Der Hongshui, der Rotwasserfluss, windet sich hier durch tiefe Schluchten und ist mit großen Staudämmen gestuft. Dies ist die Heimat mehrerer Minderheitenvölker, darunter Zhuang, Yao, Mulao und Maonan.",
+    "w": "Ein Meer steiler, bewaldeter Kalksteingipfel mit kleinen Orten und Feldern in den Tälern; ein gestauter Fluss in Schluchten.",
+    "f": [
+      "Der Kreis Bama in Hechi ist für die ungewöhnlich vielen Menschen berühmt, die älter als 100 Jahre werden.",
+      "Hechi hat Chinas einzige autonome Kreise der Mulao und der Maonan.",
+      "Die Longtan-Talsperre am Hongshui in Hechi speist eines der größten Wasserkraftwerke Chinas."
+    ],
+    "q": {
+      "q": "Der Kreis Bama in Hechi ist berühmt für seine vielen …",
+      "a": "Hundertjährigen",
+      "x": [
+        "Zwillinge",
+        "Teehäuser"
+      ]
+    }
+  },
+  "Q68814": {
+    "t": "Obstgärten, ein Delta und runde Lehmfestungen",
+    "s": "Eine grüne Decke aus Obstgärten und Feldern, bekannt für Litschis, Pomelos und Narzissenzwiebeln, überzieht die fruchtbare Ebene um Zhangzhou. Hier weitet sich der Jiulong, der Neun-Drachen-Fluss, nach Osten zu einer Mündung, an deren Ende Xiamen liegt. 1567 hoben die Ming in Yuegang, einem Hafen an diesem Fluss, ihr Verbot des Überseehandels auf, und Zhangzhous Waren gingen nach Manila und weiter.",
+    "w": "Eine Stadt auf einer grünen Deltaebene; der Fluss weitet sich nach Osten zu einer Mündung Richtung Xiamen, im Westen Hügel.",
+    "f": [
+      "In den Hügeln westlich der Stadt stehen Fujian-Tulou, riesige runde Lehmhäuser auf der UNESCO-Liste.",
+      "Zhangzhous Narzissenzwiebeln werden zum chinesischen Neujahrsfest in ganz China verschickt."
+    ],
+    "q": {
+      "q": "Wie heißen die riesigen runden Lehmhäuser in Zhangzhous Hügeln?",
+      "a": "Tulou",
+      "x": [
+        "Siheyuan",
+        "Yaodong"
+      ]
+    }
+  },
+  "Q205697": {
+    "t": "Kolkatas Zwilling jenseits des Hugli, mit riesigem Banyan",
+    "s": "Haora, auch Howrah, liegt Kolkata am Hugli gegenüber, und von oben wirken beide wie eine Stadt, geteilt von einem braunen Wasserband. Brücken nähen sie zusammen, und die weiten Gleisfelder auf dieser Seite markieren den Bahnhof Howrah, 1854 eröffnet und bis heute einer der verkehrsreichsten Indiens. Flussabwärts birgt der Botanische Garten von Shibpur den Großen Banyan, einen einzelnen Baum, der zu einem kleinen Wald gewachsen ist.",
+    "w": "Die Westufer-Hälfte einer von einem braunen Fluss geteilten Stadt, mit Brücken hinüber und weiten Gleisfeldern auf dieser Seite.",
+    "f": [
+      "Die Luftwurzeln des Großen Banyan sind zu Tausenden Stämmen geworden, seine Krone bedeckt gut über einen Hektar.",
+      "Die 1943 eröffnete Howrah Bridge kommt ohne Schrauben und Muttern aus – sie wird von Nieten zusammengehalten."
+    ],
+    "q": {
+      "q": "Welcher berühmte Baum wächst im Botanischen Garten von Howrah?",
+      "a": "Der Große Banyan",
+      "x": [
+        "Ein Riesenmammutbaum",
+        "Ein Baobab"
+      ]
+    }
+  },
+  "Q38283": {
+    "t": "Ein Fischerdorf, das Japans großer Hafen wurde",
+    "s": "Yokohama säumt das Westufer der Bucht von Tokio und geht von oben ohne sichtbare Grenze in Tokio über. Seine Uferfront ist ein Puzzle aus Piers, Containerterminals und Neulandflächen, überspannt von der langen Bay Bridge. 1859 war dies ein kleines Fischerdorf, das als Hafen für den Außenhandel ausgewählt wurde; binnen weniger Jahrzehnte war es Japans Tor zur Welt geworden.",
+    "w": "Eine Hafenstadt am Westufer einer großen Bucht, die in Tokio übergeht; Piers, Neuland und eine Brücke über den Hafen.",
+    "f": [
+      "Japans erste Eisenbahn, 1872 eröffnet, verkehrte zwischen Shimbashi in Tokio und Yokohama.",
+      "Yokohama ist nach Tokio die bevölkerungsreichste Stadt Japans.",
+      "Seine Chinatown ist die größte Japans."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurde Yokohama dem Außenhandel geöffnet?",
+      "a": "1859",
+      "x": [
+        "1603",
+        "1905"
+      ]
+    }
+  },
+  "Q244898": {
+    "t": "Eine ringförmige Stadt rund um Taipeh",
+    "s": "Neu-Taipeh hat die Form eines Rings: Es umschließt Taipeh vollständig, füllt den Rest des Beckens und reicht über grüne Berge bis an Taiwans Nordküste. Achten Sie auf die Mündung des Tamsui, wo eine alte Hafenstadt dem Sonnenuntergang zugewandt liegt, und auf die felsigen Kaps des hohen Nordens. Mit fast vier Millionen Einwohnern ist sie die bevölkerungsreichste Stadt Taiwans.",
+    "w": "Ein Gürtel aus Stadt und grünen Hügeln rund um Taipeh, der an einer Flussmündung und an felsigen Nordkaps das Meer erreicht.",
+    "f": [
+      "Die Spanier bauten 1628 in Tamsui das erste Fort San Domingo.",
+      "Fuguijiao, der nördlichste Punkt der Hauptinsel Taiwans, liegt im Stadtgebiet.",
+      "Yehliu an der Nordküste ist für seine pilzförmigen, vom Meer geformten Felsen berühmt."
+    ],
+    "q": {
+      "q": "Wer baute 1628 in Tamsui das erste Fort San Domingo?",
+      "a": "Die Spanier",
+      "x": [
+        "Die Portugiesen",
+        "Die Franzosen"
+      ]
+    }
+  },
+  "Q16520": {
+    "t": "Eine Hafenstadt, eingekeilt zwischen steilen Hügeln und Meer",
+    "s": "Busan zwängt sich an Koreas Südostspitze in die Lücken zwischen steilen grünen Kämmen und einer zerklüfteten, von Buchten zerschnittenen Küste. Im Westen endet der Nakdong in einem Delta aus Sandbänken und Schilf, das Zugvögeln Zuflucht bietet. Lange Brücken springen über die Buchten. An klaren Tagen ist die japanische Insel Tsushima rund 50 km vor der Küste zu sehen.",
+    "w": "Eine lange Stadt, eingefädelt zwischen steilen Kämmen an einer buchtenreichen Küste; im Westen ein Flussdelta mit Sandbänken.",
+    "f": [
+      "Busan ist Südkoreas größter Hafen und einer der verkehrsreichsten Containerhäfen der Welt.",
+      "In der Joseon-Zeit beherbergte Busan eine ummauerte japanische Handelsniederlassung, den Waegwan."
+    ],
+    "q": {
+      "q": "Welche japanische Insel ist an klaren Tagen von Busan aus zu sehen?",
+      "a": "Tsushima",
+      "x": [
+        "Okinawa",
+        "Sado"
+      ]
+    }
+  },
+  "Q74881": {
+    "t": "Ein Hafen an einer Halbinselspitze zwischen zwei Meeren",
+    "s": "Dalian nimmt die hügelige Südspitze der Liaodong-Halbinsel ein, wo das Bohai-Meer auf das Gelbe Meer trifft. Seine Küste ist in Buchten, Landspitzen und Häfen zerschnitten. Russland gründete die moderne Stadt 1898 unter dem Namen Dalny, „die Ferne“, und legte sie mit runden Plätzen an, von denen die Straßen wie Speichen ausstrahlen.",
+    "w": "Eine hügelige Halbinselspitze mit zerklüfteter Küste aus Buchten und Häfen; auf beiden Seiten offenes Meer.",
+    "f": [
+      "Dalians Hafen bleibt im Winter weitgehend eisfrei, eine Seltenheit in Nordchina.",
+      "Lüshun, einst als Port Arthur bekannt, liegt ganz an der Spitze der Halbinsel."
+    ],
+    "q": {
+      "q": "Unter welchem Namen gründete Russland Dalian 1898?",
+      "a": "Dalny",
+      "x": [
+        "Port Arthur",
+        "Nikolajewsk"
+      ]
+    }
+  },
+  "Q11751": {
+    "t": "Burgstadt auf einer Ebene dreier paralleler Flüsse",
+    "s": "Gleich westlich von Nagoya laufen drei große Flüsse – Kiso, Nagara und Ibi – Seite an Seite zum Meer, wie parallele Pinselstriche. Die Stadt selbst breitet sich über die flache Nōbi-Ebene am Scheitel der Ise-Bucht aus, und im Süden liegt der Flughafen vor der Küste auf einer eigenen künstlichen Insel. Tokugawa Ieyasu ließ in den 1610er-Jahren die Burg Nagoya bauen, und um sie wuchs die Stadt.",
+    "w": "Eine große Stadt auf flacher Ebene am Scheitel einer Bucht; im Westen drei parallele Flüsse, im Süden eine Flughafeninsel.",
+    "f": [
+      "Im Atsuta-Schrein in Nagoya soll das Schwert Kusanagi liegen, eine der drei japanischen Reichsinsignien.",
+      "Die Heimatstadt von Toyota liegt gleich östlich von Nagoya; die Region ist das Herz der japanischen Autoindustrie."
+    ],
+    "q": {
+      "q": "Welches legendäre Schwert soll im Atsuta-Schrein aufbewahrt werden?",
+      "a": "Kusanagi",
+      "x": [
+        "Masamune",
+        "Muramasa"
+      ]
+    }
+  },
+  "Q28729": {
+    "t": "Wo Vasco da Gama Indien erreichte, unter Kokospalmen",
+    "s": "Eine dichte grüne Decke aus Kokospalmen verbirgt Kozhikode halb, an der Malabarküste zwischen dem Arabischen Meer und den aufsteigenden Westghats. Als Calicut war es die geschäftige Hauptstadt der Zamorin-Könige und ein Knotenpunkt des Pfefferhandels. 1498 landete Vasco da Gama in der Nähe und vollendete damit die erste Seereise von Europa nach Indien.",
+    "w": "Eine Stadt unter einem dichten grünen Palmendach an einer geraden Küste, im Osten steigen Berge auf.",
+    "f": [
+      "Kaliko, ein schlichter Baumwollstoff, ist nach Calicut benannt.",
+      "Zheng Hes chinesische Schatzflotten liefen Anfang des 15. Jahrhunderts Calicut an."
+    ],
+    "q": {
+      "q": "Welcher Stoff ist nach Calicut benannt?",
+      "a": "Kaliko",
+      "x": [
+        "Musselin",
+        "Chintz"
+      ]
+    }
+  },
+  "Q171771": {
+    "t": "Tempelstadt am Rand des Mahanadi-Deltas",
+    "s": "Hunderte Steintempel standen einst in Bhubaneswar, und bis heute heißt es die Tempelstadt. Es liegt auf leicht erhöhtem Land aus roter Erde am Südwestrand des Mahanadi-Deltas, wo sich grüne Reisfelder bis zum Golf von Bengalen ziehen. Die moderne Stadt wurde ab 1948 als neue Hauptstadt Odishas geplant, direkt neben der alten.",
+    "w": "Eine Stadt auf niedrigem, rötlichem Hochland; das grüne, von Flüssen durchzogene Delta breitet sich nach Osten und Norden zur Küste.",
+    "f": [
+      "Der Lingaraja-Tempel, der größte der Stadt, stammt großteils aus dem 11. Jahrhundert.",
+      "Die Felshöhlen von Udayagiri und Khandagiri am Westrand wurden vor über 2.000 Jahren für Jain-Mönche geschlagen.",
+      "Chilika, Indiens größte Küstenlagune, liegt rund 100 km südwestlich."
+    ],
+    "q": {
+      "q": "Welchen Beinamen trägt Bhubaneswar?",
+      "a": "Tempelstadt",
+      "x": [
+        "Rosarote Stadt",
+        "Gartenstadt"
+      ]
+    }
+  },
+  "Q200054": {
+    "t": "Indiens Stahlstadt, geplant um ein einziges Werk",
+    "s": "Jamshedpur wuchs um ein Stahlwerk, das 1907 auf dem Chota-Nagpur-Plateau gegründet wurde, wo Eisenerz, Kohle und Wasser nah beieinander lagen. Achten Sie von oben auf den dunklen Block des Stahlwerks nahe dem Zusammenfluss von Subarnarekha und Kharkai, umgeben von grünen, geplanten Wohnvierteln. In den bewaldeten Dalma-Hügeln im Norden leben wilde Elefanten.",
+    "w": "Eine Planstadt, wo zwei Flüsse sich treffen, mit einem großen dunklen Industrieblock in der Mitte und bewaldeten Hügeln im Norden.",
+    "f": [
+      "Die Stadt ist nach Jamsetji Tata benannt, der das Stahlwerk erdachte, aber vor seinem Bau starb.",
+      "Sie war eine der ersten geplanten Industriestädte Indiens."
+    ],
+    "q": {
+      "q": "Nach welchem Industriellen ist Jamshedpur benannt?",
+      "a": "Jamsetji Tata",
+      "x": [
+        "G. D. Birla",
+        "Walchand Hirachand"
+      ]
+    }
+  },
+  "Q5753": {
+    "t": "Timurs blaue Kuppeln in einer grünen Seidenstraßen-Oase",
+    "s": "Samarkand ist eine grüne Oase im Tal des Serafschan, dessen Name „Goldstreuer“ bedeutet, und im Süden steigen braune Bergkämme auf. Am Nordrand der Stadt liegt Afrasiab, ein kahler, leerer Hügel, der in ihren ersten zweitausend Jahren die Stadt selbst war. Timur machte Samarkand 1370 zu seiner Hauptstadt und füllte es mit türkisfarbenen Kuppeln.",
+    "w": "Eine grüne Oase in einem weiten Flusstal, im Süden braune Kämme, am Nordrand ein kahler Erdhügel.",
+    "f": [
+      "Timurs Enkel Ulugh Beg baute hier in den 1420er-Jahren eine große Sternwarte.",
+      "Mit rund 2.700 Jahren ist Samarkand eine der ältesten Städte Zentralasiens.",
+      "Ab dem 8. Jahrhundert war Papier aus Samarkand in der ganzen islamischen Welt begehrt."
+    ],
+    "q": {
+      "q": "Welcher Herrscher machte Samarkand 1370 zu seiner Hauptstadt?",
+      "a": "Timur",
+      "x": [
+        "Dschingis Khan",
+        "Babur"
+      ]
+    }
+  },
+  "Q9310": {
+    "t": "Eine kleine Hauptstadt zwischen steilen Bergen und Riffinsel",
+    "s": "Steile Berge ragen dicht hinter Dili auf, einer niedrigen, kompakten Stadt auf einem schmalen Streifen Flachland an der Nordküste Timors. Jenseits der Meerenge, rund 25 km nördlich, liegt die von Korallenriffen gesäumte Insel Atauro. Die Portugiesen verlegten ihre Kolonialhauptstadt 1769 hierher, und Portugiesisch ist bis heute eine der Amtssprachen des Landes.",
+    "w": "Eine kleine Stadt auf einer schmalen Küstenebene, dahinter steile Berge, im Norden jenseits des Wassers eine lange Insel.",
+    "f": [
+      "Untersuchungen rund um Atauro verzeichneten eine der höchsten Vielfalten an Rifffischen überhaupt.",
+      "Timor liegt in Wallacea, der Übergangszone zwischen asiatischer und australischer Tierwelt."
+    ],
+    "q": {
+      "q": "Wann verlegten die Portugiesen ihre Hauptstadt auf Timor nach Dili?",
+      "a": "1769",
+      "x": [
+        "1669",
+        "1869"
+      ]
+    }
+  },
+  "Q37806": {
+    "t": "Eine kleine Hafenhauptstadt zwischen Riffen und Lagunen",
+    "s": "Port Vila schmiegt sich um einen geschützten Hafen an der Südwestküste von Efate, einer von rund 80 Inseln Vanuatus. Achten Sie von oben auf das Türkis von Riffen und Lagunen vor dunkelgrünen Hügeln und auf die kleinen Inselchen in der Bucht. Bis 1980 waren diese Inseln die Neuen Hebriden, gemeinsam von Großbritannien und Frankreich regiert – eine ungewöhnliche Ordnung, Kondominium genannt.",
+    "w": "Eine kleine Stadt um eine geschützte Bucht, türkisfarbene Riffe und Lagunen am Ufer, dahinter grüne Hügel.",
+    "f": [
+      "Vanuatus Nationalsprache Bislama ist eine Kreolsprache, die großteils auf dem Englischen beruht.",
+      "Das Turmspringen auf der Insel Pentecost im Norden gilt oft als Vorläufer des Bungee-Springens."
+    ],
+    "q": {
+      "q": "Wie hießen die Inseln Vanuatus vor 1980?",
+      "a": "Die Neuen Hebriden",
+      "x": [
+        "Neukaledonien",
+        "Die Freundschaftsinseln"
+      ]
+    }
+  },
+  "Q9365": {
+    "t": "Benannt nach einem Montagsmarkt, unter Schneegipfeln",
+    "s": "Duschanbe füllt ein weites grünes Tal, wo der Warsob aus dem Hissar-Gebirge herabstürzt, dessen verschneite Kämme sich gleich nördlich der Stadt erheben. Vor einem Jahrhundert war dies ein Dorf, bekannt für seinen Wochenbasar, der montags stattfand – und „duschanbe“ ist schlicht das tadschikische Wort für Montag. Östlich von hier wird der Wachsch von einigen der höchsten Staudämme der Erde aufgestaut.",
+    "w": "Eine grüne Stadt in einem weiten Tal am Fuß verschneiter Berge im Norden, durchflossen von einem Fluss.",
+    "f": [
+      "Die Nurek-Talsperre am Wachsch, rund 75 km östlich, ist etwa 300 m hoch.",
+      "Von 1929 bis 1961 hieß die Stadt Stalinabad."
+    ],
+    "q": {
+      "q": "Was bedeutet „Duschanbe“ auf Tadschikisch?",
+      "a": "Montag",
+      "x": [
+        "Markt",
+        "Kreuzung"
+      ]
+    }
+  },
+  "Q1362": {
+    "t": "Eine geplante Rasterhauptstadt am Fuß der Margalla Hills",
+    "s": "Islamabad ist eine der jüngeren Hauptstädte der Welt, ab den 1960er-Jahren als ordentliches Raster aus Sektoren angelegt, jeder mit eigenem Grüngürtel. Von oben wirkt sie aufgeräumt und grün, angelehnt an die bewaldeten Margalla Hills – die ersten Vorberge des Himalaya. Gleich im Süden bildet ihre ältere Zwillingsstadt Rawalpindi ein viel dichteres, geschäftigeres Häusermeer.",
+    "w": "Ein ordentliches Raster grüner Sektoren am Fuß bewaldeter Hügel, im Osten ein See und im Süden eine dichtere Stadt.",
+    "f": [
+      "Der griechische Planer Konstantinos Doxiadis entwarf den Masterplan für Islamabad.",
+      "Die Sektoren tragen einen Buchstaben und eine Zahl, wie Felder auf einem Schachbrett.",
+      "Der Rawal-See am Ostrand ist ein Stausee, der beide Städte mit Wasser versorgt."
+    ],
+    "q": {
+      "q": "Wer entwarf den Masterplan für Islamabad?",
+      "a": "Konstantinos Doxiadis",
+      "x": [
+        "Le Corbusier",
+        "Edwin Lutyens"
+      ]
+    }
+  },
+  "Q185453": {
+    "t": "Eine uralte Stadt der Heiligen in der heißen Punjab-Ebene",
+    "s": "Ein alter persischer Zweizeiler zählt Multans vier Gaben auf: Staub, Hitze, Bettler und Friedhöfe. Die Stadt liegt in der flachen, bewässerten Ebene des südlichen Punjab, der verflochtene Chenab fließt wenige Kilometer westlich. Sie ist eine der ältesten durchgehend bewohnten Städte Südasiens, und ihre vielen Sufi-Schreine brachten ihr den Namen Stadt der Heiligen ein.",
+    "w": "Eine große Stadt auf flacher Ebene aus Feldern und Kanälen, im Westen ein breiter, verflochtener Fluss, ringsum Obstgärten.",
+    "f": [
+      "Das Grabmal des Sufi-Heiligen Shah Rukn-e-Alam aus dem 14. Jahrhundert ist ein achteckiges Wahrzeichen aus Ziegeln.",
+      "Multan ist in ganz Pakistan für seine Mangos berühmt.",
+      "Blau glasierte Fliesen und Töpferwaren sind ein jahrhundertealtes örtliches Handwerk."
+    ],
+    "q": {
+      "q": "Multan ist traditionell bekannt als Stadt der …",
+      "a": "Heiligen",
+      "x": [
+        "Gärten",
+        "Lichter"
+      ]
+    }
+  },
+  "Q1640079": {
+    "t": "Eine Stadt der Windfänger am Ufer des Indus",
+    "s": "Einst ragten Windfänger über den Dächern der alten Häuser von Hyderabad auf und leiteten die Brise nach innen. Die Stadt liegt auf einem niedrigen Kalksteinrücken am Ostufer des Indus, rund 150 km flussaufwärts von Karatschi. Der Fluss ist hier breit und verflochten, und eine Staustufe neben der Stadt verteilt sein Wasser auf Kanäle, die die Wüste ergrünen lassen. Der Kalhora-Herrscher Ghulam Shah gründete Hyderabad 1768.",
+    "w": "Eine Stadt auf einem niedrigen Rücken neben einem breiten, verflochtenen Fluss, mit einer Staustufe und kanalbewässerten grünen Feldern ringsum.",
+    "f": [
+      "Wegen ihrer vielen Werkstätten für gläserne Armreifen gilt Hyderabad als Stadt der Armreifen.",
+      "Die Kotri-Staustufe neben der Stadt leitet Indus-Wasser in Bewässerungskanäle."
+    ],
+    "q": {
+      "q": "Was trugen die alten Häuser Hyderabads im Sindh auf dem Dach?",
+      "a": "Windfänger",
+      "x": [
+        "Wasserräder",
+        "Glockentürme"
+      ]
+    }
+  },
+  "Q1113311": {
+    "t": "Eine Grenzstadt am Fuß des Khyber-Passes",
+    "s": "Gleich östlich der Stelle, an der der Khyber-Pass nach Westen Richtung Afghanistan ansteigt, liegt Peshawar in einem grünen, fruchtbaren Becken, umringt von kahlen braunen Bergen. Der Kabul schlingt sich im Norden durch das Tal. Als Purushapura war es vor fast zweitausend Jahren die Hauptstadt des Kuschan-Königs Kanischka, und jahrhundertelang rasteten hier Karawanen vor oder nach dem Pass.",
+    "w": "Eine dichte Stadt auf grüner Ebene, umschlossen von kahlen Bergen, mit einer Lücke, die nach Westen in die Berge führt.",
+    "f": [
+      "Kanischka errichtete hier einen gewaltigen buddhistischen Stupa, den chinesische Pilger zu den höchsten Bauten seiner Zeit zählten.",
+      "Der Name des alten Qissa-Khwani-Basars bedeutet „Markt der Geschichtenerzähler“."
+    ],
+    "q": {
+      "q": "Wie hieß Peshawar als Hauptstadt der Kuschan?",
+      "a": "Purushapura",
+      "x": [
+        "Pataliputra",
+        "Taxila"
+      ]
+    }
+  },
+  "Q3037": {
+    "t": "Ein Tal, das einst ein See war, unter dem Himalaya",
+    "s": "Kathmandu füllt ein fast rundes Tal in rund 1.400 m Höhe, umringt von grünen Terrassenhügeln. Geologen bestätigen, was die Legende erzählt: Der Talboden war einst ein See, und seine trockengefallenen Ablagerungen machten den Boden hier so fruchtbar. An klaren Tagen leuchtet am nördlichen Horizont eine Wand verschneiter Himalaya-Gipfel.",
+    "w": "Ein rundes, dicht bebautes Tal, umringt von Terrassenhügeln; an klaren Tagen im Norden eine Wand aus Schneegipfeln.",
+    "f": [
+      "Das Tal birgt sieben Denkmalgruppen auf der Welterbeliste der UNESCO.",
+      "Der Name der Stadt geht auf Kasthamandap zurück, einen Holzpavillon, der aus einem einzigen Baum gebaut sein soll.",
+      "Der Everest, rund 160 km östlich, liegt nur etwa 2 km unter Ihrer Reiseflughöhe."
+    ],
+    "q": {
+      "q": "Legende und Geologie sind sich einig: Das Kathmandutal war einst …",
+      "a": "Ein See",
+      "x": [
+        "Eine Wüste",
+        "Ein Gletscher"
+      ]
+    }
+  },
+  "Q36526": {
+    "t": "Tropenhauptstadt an erstaunlich trockener, brauner Küste",
+    "s": "Port Moresby legt sich um einen Hafen an der Südküste Neuguineas und wirkt für die Tropen erstaunlich trocken: Seine Hügel werden in der Trockenzeit braun und grasig, weil sie im Regenschatten liegen. Korallenriffe säumen die Küste. Landeinwärts steigt die bewaldete Owen-Stanley-Kette zu Gipfeln von rund 4.000 m an. Kapitän John Moresby benannte den Hafen 1873 nach seinem Vater.",
+    "w": "Eine Stadt um einen Hafen und Buchten, dahinter braune Grashügel, vor der Küste Riffe und landeinwärts hohe Berge.",
+    "f": [
+      "Hanuabada, ein Dorf aus Pfahlhäusern über dem Hafen, ist die angestammte Heimat der Motu.",
+      "Motu-Händler segelten einst in großen Lakatoi-Booten auf Handelsfahrten, genannt Hiri, entlang der Küste."
+    ],
+    "q": {
+      "q": "Kapitän John Moresby benannte den Hafen 1873 nach …",
+      "a": "Seinem Vater",
+      "x": [
+        "Seinem Schiff",
+        "Königin Victoria"
+      ]
+    }
   }
 }

@@ -1560,5 +1560,654 @@
         "A cable car"
       ]
     }
+  },
+  "Q527441": {
+    "t": "A hilltop old town above rice terraces and vineyards",
+    "s": "Fianarantsoa's old upper town crowns a hill in Madagascar's southern highlands, its brick churches and houses looking down on valleys stepped with green rice paddies. Queen Ranavalona I founded the city in 1830; its name means roughly 'where one learns good', and it grew into a centre of schools and seminaries. Vineyards and tea estates cover the surrounding slopes.",
+    "w": "A city on hills in green highlands, with valleys of terraced rice paddies all around it.",
+    "f": [
+      "A narrow-gauge railway runs from here down through rainforest to Manakara on the east coast.",
+      "Ranomafana National Park, a rainforest home to many lemurs, lies about 40 km to the north-east.",
+      "The city stands at about 1,200 metres above sea level."
+    ],
+    "q": {
+      "q": "What does the name Fianarantsoa roughly mean?",
+      "a": "Where one learns good",
+      "x": [
+        "City of red earth",
+        "Hill of the rice fields"
+      ]
+    }
+  },
+  "Q231167": {
+    "t": "A Libyan beach town near the Tunisian border",
+    "s": "Long, pale beaches run west from Zuwara towards Tunisia, and just inland lie shallow lagoons and salt flats that glint in the sun. The town is a centre of Libya's Amazigh, or Berber, people, whose language is still spoken on its streets. About 40 km to the east stand the ruins of Sabratha, a Roman city whose theatre looks straight out to sea.",
+    "w": "A town on a flat coast of long pale beaches, with lagoons and salt flats just inland.",
+    "f": [
+      "Sabratha, founded by the Phoenicians and rebuilt by Rome, is a UNESCO World Heritage site.",
+      "At Mellitah, east of the town, the Greenstream gas pipeline sets off under the sea to Sicily."
+    ],
+    "q": {
+      "q": "Which Roman city lies about 40 km east of Zuwara?",
+      "a": "Sabratha",
+      "x": [
+        "Leptis Magna",
+        "Cyrene"
+      ]
+    }
+  },
+  "Q370456": {
+    "t": "Garden Route town under the Outeniqua peaks",
+    "s": "George sits on a green coastal plateau at the foot of the Outeniqua Mountains, which rise like a dark wall to the north, often with cloud snagged on the ridge. Between the town and the sea, patches of forest, farmland and the lakes around Wilderness stretch to the Indian Ocean. This is the heart of the Garden Route, one of South Africa's best-loved coastal drives.",
+    "w": "A town on a green plateau between a dark mountain wall to the north and the sea to the south, with coastal lakes nearby.",
+    "f": [
+      "The town was founded in 1811 and named after King George III.",
+      "The Outeniqua Pass road climbs over the range to the dry Little Karoo beyond."
+    ],
+    "q": {
+      "q": "Which mountains rise behind George?",
+      "a": "The Outeniqua",
+      "x": [
+        "The Drakensberg",
+        "The Cederberg"
+      ]
+    }
+  },
+  "Q1002799": {
+    "t": "A forest-region city near Mount Nimba",
+    "s": "Nzérékoré lies in Guinea's forest region, a land of green hills, rivers and remnants of rainforest in the far south-east, close to the borders of Liberia and Côte d'Ivoire. It is the main market town of the region. To the south-east, the long ridge of Mount Nimba rises above the forest; its slopes are a UNESCO site, home to plants and animals found nowhere else.",
+    "w": "A city among green, forested hills, with a long mountain ridge rising to the south-east.",
+    "f": [
+      "Mount Nimba rises to about 1,750 metres, the highest point of both Guinea and Côte d'Ivoire.",
+      "The Nimba toad, found only on this mountain, gives birth to live young."
+    ],
+    "q": {
+      "q": "Which mountain rises south-east of Nzérékoré?",
+      "a": "Mount Nimba",
+      "x": [
+        "Mount Loura",
+        "Mount Bintumani"
+      ]
+    }
+  },
+  "Q1866604": {
+    "t": "Next door to the smoke that thunders",
+    "s": "About 10 km south of Livingstone, the Zambezi drops over the lip of Victoria Falls, and on a clear day the column of spray can be seen from far away, rising like smoke above the flat bush. Below the falls the river zigzags through a series of narrow gorges cut into dark basalt. The town was founded in the early 1900s and named after the explorer who reached the falls in 1855.",
+    "w": "A town on the flat, wooded plateau north of the Zambezi, with a plume of spray and zigzag gorges to the south.",
+    "f": [
+      "Victoria Falls is about 1.7 km wide, one of the largest curtains of falling water on Earth.",
+      "Livingstone was the capital of Northern Rhodesia until 1935."
+    ],
+    "q": {
+      "q": "What does Mosi-oa-Tunya, the local name for the falls, mean?",
+      "a": "The smoke that thunders",
+      "x": [
+        "The river that sings",
+        "The great white water"
+      ]
+    }
+  },
+  "Q311309": {
+    "t": "Darfur's westernmost city, close to Chad",
+    "s": "Geneina lies in the far west of Sudan, close to the border with Chad, on a plain of sandy soil and scattered trees cut by seasonal riverbeds. In the rainy season, from July to September, the wadis run and the land turns green; for the rest of the year it fades to straw and ochre. The town is the historic home of the Masalit sultans.",
+    "w": "A low town on a flat, sandy plain cut by dry riverbeds, close to a border to the west.",
+    "f": [
+      "Geneina is the capital of West Darfur state.",
+      "Far to the east rises Jebel Marra, a volcanic massif over 3,000 metres high."
+    ],
+    "q": {
+      "q": "Which country's border lies just west of Geneina?",
+      "a": "Chad",
+      "x": [
+        "Central African Republic",
+        "Libya"
+      ]
+    }
+  },
+  "Q220049": {
+    "t": "A river town where the Sobat meets the White Nile",
+    "s": "Around Malakal the land is so flat that rivers wander freely: the White Nile winds north in wide loops, and just upstream the Sobat joins it, bringing water from the Ethiopian highlands. In the rainy season, floodplains and swamps spread for kilometres on either side. Downstream lies Fashoda, where in 1898 a standoff between British and French expeditions nearly led to war.",
+    "w": "A town on a wide, looping river across flat floodplains and swamps, with a tributary joining from the east.",
+    "f": [
+      "Malakal is the capital of Upper Nile State.",
+      "The Sudd, one of the world's largest wetlands, begins to the south.",
+      "Fashoda is now called Kodok."
+    ],
+    "q": {
+      "q": "Which river joins the White Nile near Malakal?",
+      "a": "The Sobat",
+      "x": [
+        "The Atbara",
+        "The Blue Nile"
+      ]
+    }
+  },
+  "Q333074": {
+    "t": "Chad's southern city on the Logone",
+    "s": "Moundou lies on the Logone Occidental, a river winding through the green, wooded savanna of southern Chad, far wetter than the desert north. It is the country's second city and its industrial heart, with cotton mills and a well-known brewery. East of the town, oil fields near Doba feed a pipeline that runs more than 1,000 km to the coast of Cameroon.",
+    "w": "A town on a winding river in green, wooded savanna, with farmland and scattered villages around it.",
+    "f": [
+      "The Logone flows north to join the Chari, which feeds Lake Chad.",
+      "Cotton is the main cash crop of southern Chad."
+    ],
+    "q": {
+      "q": "On which river does Moundou stand?",
+      "a": "The Logone",
+      "x": [
+        "The Chari",
+        "The Benue"
+      ]
+    }
+  },
+  "Q218753": {
+    "t": "A port where a red river bleeds into the sea",
+    "s": "North-west Madagascar's Betsiboka River carries so much red soil from eroded hills that its estuary glows rusty orange, and Mahajanga sits at its mouth. From above, the brick-red water fanning out into the blue Mozambique Channel is one of the most striking sights of the island. The town itself is a sunny port with a palm-lined seafront and a giant baobab at its centre.",
+    "w": "A port on a wide bay where a rust-red river estuary meets the blue sea.",
+    "f": [
+      "Much of the red silt washes off highland hillsides that have lost their forest.",
+      "The Cirque Rouge, north of the town, is an amphitheatre of eroded red, white and ochre cliffs."
+    ],
+    "q": {
+      "q": "What colours the Betsiboka estuary red?",
+      "a": "Soil eroded from the hills",
+      "x": [
+        "Red algae",
+        "Iron-rich volcanic sand"
+      ]
+    }
+  },
+  "Q636209": {
+    "t": "A copper town on the Congo border",
+    "s": "Mufulira lies in the north of Zambia's Copperbelt, just a few kilometres from the border with the DR Congo. Its wealth is hidden far underground: the Mufulira mine, worked since the 1930s, is one of the largest underground copper mines in the world. From above, look for a smelter, pale tailings and a grid of streets set in low green bush on the plateau.",
+    "w": "A mining town in low green bush, with a smelter and pale tailings, close to a border to the north.",
+    "f": [
+      "Mufulira stands at about 1,300 metres on the plateau.",
+      "The Copperbelt's ore bodies continue across the border into Katanga."
+    ],
+    "q": {
+      "q": "Which country's border lies just north of Mufulira?",
+      "a": "DR Congo",
+      "x": [
+        "Tanzania",
+        "Angola"
+      ]
+    }
+  },
+  "Q214248": {
+    "t": "An old Atlantic port that named a cold current",
+    "s": "The Portuguese founded Benguela in 1617 on a bay of Angola's Atlantic coast, and for centuries it was one of the main ports of the region. Its name travelled far: the cold Benguela Current, sweeping up the coast from the south, brings the fogs and deserts of south-western Africa. Just to the north, the port of Lobito shelters behind a long sand spit.",
+    "w": "A low city on a wide Atlantic bay, with a long sand spit sheltering a port to the north.",
+    "f": [
+      "The Benguela Railway runs from Lobito across Angola to the border of the DR Congo.",
+      "The cold water of the Benguela Current makes this coast rich in fish."
+    ],
+    "q": {
+      "q": "What is named after the city of Benguela?",
+      "a": "A cold ocean current",
+      "x": [
+        "A mountain range",
+        "A desert"
+      ]
+    }
+  },
+  "Q581379": {
+    "t": "The main city of Uganda's northern savanna",
+    "s": "Gulu sits on the rolling savanna of northern Uganda, green in the rains and golden in the dry months, dotted with small farms. It is the chief town of the Acholi people and the largest city in the north of the country. The land around is almost flat, with no great mountains on the horizon. About 90 km to the south-west, the Nile bursts through a narrow gap at Murchison Falls.",
+    "w": "A town on flat to gently rolling savanna, golden in the dry season, with no large hills nearby.",
+    "f": [
+      "At Murchison Falls the whole Nile squeezes through a gap about 7 metres wide.",
+      "Gulu stands at about 1,100 metres above sea level."
+    ],
+    "q": {
+      "q": "Which people's homeland is centred on Gulu?",
+      "a": "The Acholi",
+      "x": [
+        "The Baganda",
+        "The Karamojong"
+      ]
+    }
+  },
+  "Q204381": {
+    "t": "A lakeside city built on black lava",
+    "s": "Goma spreads along the northern shore of Lake Kivu, and much of it is built on black lava. About 20 km to the north rises Nyiragongo, a steep volcanic cone whose crater has often held one of the largest lava lakes on Earth. The city runs right up to the border with Rwanda, where the Rwandan town of Gisenyi continues along the same shore.",
+    "w": "A city on the north shore of a large lake, with dark lava fields and a steep volcanic cone to the north.",
+    "f": [
+      "Nyiragongo rises to about 3,470 metres.",
+      "Lake Kivu's deep water holds dissolved methane, now tapped to generate power."
+    ],
+    "q": {
+      "q": "What has often filled the crater of Nyiragongo, above Goma?",
+      "a": "A lava lake",
+      "x": [
+        "A crater glacier",
+        "A boiling mud pool"
+      ]
+    }
+  },
+  "Q221914": {
+    "t": "Where the Namib Desert meets the Atlantic",
+    "s": "At Moçâmedes the Namib Desert runs right down to the ocean: pale sand, bare rock and a thin line of surf, with the city's green strip along a sheltered bay. Cold sea fog often rolls in from the Atlantic. Inland the land climbs in steps to the Serra da Leba escarpment, and out in the desert grows the welwitschia, a strange plant that can live for more than a thousand years.",
+    "w": "A small city on a bay where bare, pale desert meets the ocean, with an escarpment rising far inland.",
+    "f": [
+      "The city was founded in 1840; from 1985 to 2016 it was called Namibe.",
+      "The welwitschia grows only in the Namib Desert of Angola and Namibia."
+    ],
+    "q": {
+      "q": "Which long-lived desert plant grows near Moçâmedes?",
+      "a": "Welwitschia",
+      "x": [
+        "Dragon tree",
+        "Quiver tree"
+      ]
+    }
+  },
+  "Q388242": {
+    "t": "A hot river town on the middle Zambezi",
+    "s": "The Zambezi runs broad and braided past Tete, sandbanks shining between its channels, and a long suspension bridge carries the road across. Tete is one of the hottest towns in Mozambique. The Portuguese had a trading post here from the 16th century, and Livingstone passed through in the 1850s. Around it, the dark scars of big open-pit coal mines spread over the bush near Moatize.",
+    "w": "A town on a very wide, sandy river crossed by a long suspension bridge, with dark mine pits to the north-east.",
+    "f": [
+      "The Cahora Bassa Dam, one of Africa's largest hydroelectric schemes, lies upstream to the north-west.",
+      "Tete is the capital of Tete province."
+    ],
+    "q": {
+      "q": "Which river flows through Tete?",
+      "a": "The Zambezi",
+      "x": [
+        "The Limpopo",
+        "The Save"
+      ]
+    }
+  },
+  "Q318299": {
+    "t": "Near the mouth of the Limpopo, behind high dunes",
+    "s": "Xai-Xai lies on the lower Limpopo, a few kilometres before the river reaches the Indian Ocean. Around it spreads a broad, flat floodplain, green with rice and maize, while towards the sea a ridge of tall, forested dunes separates the land from long beaches and a line of reef. Here the 'great grey-green, greasy Limpopo' of Kipling's Just So Stories ends its long journey.",
+    "w": "A town by a broad river floodplain of green fields, with a ridge of high coastal dunes towards the sea.",
+    "f": [
+      "The Limpopo rises in South Africa and flows about 1,750 km to the sea.",
+      "In colonial times the town was called João Belo."
+    ],
+    "q": {
+      "q": "Xai-Xai is the capital of which Mozambican province?",
+      "a": "Gaza",
+      "x": [
+        "Inhambane",
+        "Manica"
+      ]
+    }
+  },
+  "Q3901": {
+    "t": "A small island capital under a huge volcano",
+    "s": "Moroni sits on the west coast of Grande Comore, the largest island of the Comoros, on dark lava shores lapped by turquoise water. Behind it the land climbs to Karthala, a broad active volcano topped by one of the largest summit craters in the world. The old town's narrow lanes and harbourside mosques recall centuries of Swahili and Arab trade across the Indian Ocean.",
+    "w": "A small city on a dark volcanic coast, with the long slopes of a huge volcano rising behind it.",
+    "f": [
+      "Karthala rises to about 2,360 metres.",
+      "The Comoros are among the world's main producers of ylang-ylang, a flower oil used in perfume.",
+      "Coelacanths, the 'living fossil' fish, live in deep water off Grande Comore."
+    ],
+    "q": {
+      "q": "Which volcano towers over Moroni?",
+      "a": "Karthala",
+      "x": [
+        "Piton de la Fournaise",
+        "Kilimanjaro"
+      ]
+    }
+  },
+  "Q1025649": {
+    "t": "Vineyards in a valley ringed by high peaks",
+    "s": "Worcester lies in the broad Breede River valley, a patchwork of vineyards and orchards laid out in neat green rows. High, rugged mountains rise all around; the peaks of the Hex River range to the north-east are often white with snow in winter. The town was founded in 1820 and named after the Marquess of Worcester, brother of the Cape's governor, Lord Charles Somerset.",
+    "w": "A town in a wide, flat valley of vineyards in neat rows, surrounded by high, rugged mountains.",
+    "f": [
+      "The Worcester area is one of South Africa's largest wine-growing districts by volume.",
+      "The Karoo Desert National Botanical Garden, on the edge of town, shows plants of the arid interior."
+    ],
+    "q": {
+      "q": "Which river valley is Worcester in?",
+      "a": "The Breede",
+      "x": [
+        "The Olifants",
+        "The Orange"
+      ]
+    }
+  },
+  "Q621001": {
+    "t": "Plateau town near giant falls and a rare antelope",
+    "s": "Malanje sits on a high, grassy plateau in northern Angola, at about 1,150 metres, surrounded by savanna and farmland. North-west of the town, the Lucala River thunders over the Kalandula Falls, more than 100 metres high and among the largest waterfalls in Africa by volume. To the south-east, Cangandala National Park protects the giant sable antelope, Angola's national symbol.",
+    "w": "A town on a high, open plateau of grassland and fields, with river valleys cutting into it to the north-west.",
+    "f": [
+      "To the west, the Black Rocks of Pungo Andongo, huge dark boulders, rise from the savanna.",
+      "The giant sable antelope, with long, sweeping horns, lives only in Angola."
+    ],
+    "q": {
+      "q": "Which rare antelope, Angola's national symbol, lives near Malanje?",
+      "a": "Giant sable antelope",
+      "x": [
+        "Bongo",
+        "Gerenuk"
+      ]
+    }
+  },
+  "Q122044": {
+    "t": "A highland city on the rim of a giant escarpment",
+    "s": "Lubango stands on the Huíla plateau at about 1,760 metres, cooler and greener than the desert coast below. Just outside the city the plateau ends abruptly: at the Tundavala Gap the land drops away more than a kilometre to the plains, and at the Serra da Leba a famous road coils down the cliffs in tight hairpins towards the Namib and the Atlantic.",
+    "w": "A city on a high green plateau that ends in a sheer escarpment to the west, above dry lowlands.",
+    "f": [
+      "Settlers from Madeira founded the modern town in the 1880s.",
+      "Lubango is the capital of Huíla province."
+    ],
+    "q": {
+      "q": "What was Lubango called in colonial times?",
+      "a": "Sá da Bandeira",
+      "x": [
+        "Nova Lisboa",
+        "Silva Porto"
+      ]
+    }
+  },
+  "Q333476": {
+    "t": "The Bambara kings' capital on the Niger",
+    "s": "The Niger runs wide and slow past Ségou, its bank lined with mud-brick houses, fishing boats and fields. In the 18th and 19th centuries this was the capital of the Bambara Empire, which ruled the middle Niger. The town is famed for its shady balanzan trees, which drop their leaves in the rainy season and turn green in the dry one, the reverse of most trees.",
+    "w": "A town on the south bank of a very wide, slow river, amid flat farmland dotted with trees.",
+    "f": [
+      "Downstream, the Markala dam feeds the huge Office du Niger irrigation scheme.",
+      "From here the Niger flows north-east towards Timbuktu and the edge of the Sahara."
+    ],
+    "q": {
+      "q": "Which empire had its capital at Ségou?",
+      "a": "The Bambara Empire",
+      "x": [
+        "The Songhai Empire",
+        "The Ghana Empire"
+      ]
+    }
+  },
+  "Q736061": {
+    "t": "A river port where three rivers nearly meet",
+    "s": "Bandundu sits on the east bank of the Kwango, just below the point where the Kwilu flows in, and only about 8 km before the Kwango itself empties into the Kasai. From above, the three rivers make a tangle of brown water, sandbars and green islands in a mosaic of forest and savanna. Boats between Kinshasa and Kikwit have long called here.",
+    "w": "A town on a broad brown river near two confluences, among sandbars, islands and a mix of forest and savanna.",
+    "f": [
+      "In colonial times the town was called Banningville.",
+      "Bandundu is the capital of Kwilu province."
+    ],
+    "q": {
+      "q": "Which river does the Kwango join just below Bandundu?",
+      "a": "The Kasai",
+      "x": [
+        "The Ubangi",
+        "The Lualaba"
+      ]
+    }
+  },
+  "Q188904": {
+    "t": "The Songhai capital at the great bend of the Niger",
+    "s": "Gao lies on the Niger where the river, having swung north into the Sahara, curves back towards the south-east. Across the water rise pale, pinkish dunes; on the town's side, fields and gardens hug the banks. Five centuries ago this was the capital of the Songhai Empire, one of the largest states in African history, and the mud-brick tomb of its ruler Askia Mohammed still stands.",
+    "w": "A town on a wide river curving through the desert, with pale dunes on the opposite bank.",
+    "f": [
+      "The Tomb of Askia, a pyramid-shaped mud tower built in 1495, is a UNESCO World Heritage site.",
+      "The dune facing the town across the river is known as the Pink Dune."
+    ],
+    "q": {
+      "q": "Which empire made Gao its capital?",
+      "a": "The Songhai Empire",
+      "x": [
+        "The Mali Empire",
+        "The Ghana Empire"
+      ]
+    }
+  },
+  "Q877122": {
+    "t": "A Sahel market town among flat-topped hills",
+    "s": "Around Tahoua the land breaks into the flat-topped hills and low mesas of the Ader, their dark caps of rock standing above sandy valleys. After the summer rains, ponds fill the hollows and millet fields turn green, before the long dry season bleaches everything to beige. Tahoua is one of Niger's main livestock markets, where herders from the north meet farmers from the south.",
+    "w": "A town among flat-topped hills and mesas, with sandy valleys and seasonal ponds between them.",
+    "f": [
+      "Tahoua is the capital of one of Niger's regions, also called Tahoua.",
+      "Niger's capital, Niamey, lies nearly 400 km to the south-west."
+    ],
+    "q": {
+      "q": "Tahoua lies in which Sahel region of flat-topped hills?",
+      "a": "The Ader",
+      "x": [
+        "The Aïr",
+        "The Tibesti"
+      ]
+    }
+  },
+  "Q824043": {
+    "t": "A dry-coast town right by the Tropic of Capricorn",
+    "s": "The Tropic of Capricorn passes just south of Toliara, and the land here is Madagascar at its driest: spiny forest of strange, cactus-like plants, pale sand and brown riverbeds. Offshore, a great barrier reef runs along the coast, its line of white surf enclosing a turquoise lagoon. Fishing villages of the Vezo, a people of seafaring nomads, dot the shore.",
+    "w": "A town on a dry coast with a turquoise lagoon enclosed by a white line of reef, and pale scrubland inland.",
+    "f": [
+      "Most plants of the spiny forest grow nowhere else on Earth.",
+      "The Onilahy River reaches the sea south of the town."
+    ],
+    "q": {
+      "q": "Which line of latitude passes just south of Toliara?",
+      "a": "The Tropic of Capricorn",
+      "x": [
+        "The Tropic of Cancer",
+        "The Equator"
+      ]
+    }
+  },
+  "Q874317": {
+    "t": "An old trading town on the Milo River",
+    "s": "Kankan spreads along the Milo, a tributary of the Niger that winds through the flat, wooded savanna of Upper Guinea. For centuries it was a crossroads for Malinke traders and a renowned centre of Islamic learning. The Fouta Djallon highlands lie far to the west; here the land is open and gently rolling, green after the rains and dusty gold in the dry season.",
+    "w": "A town on a winding river across flat, wooded savanna, green in the rainy season and golden in the dry.",
+    "f": [
+      "Kankan is the capital of one of Guinea's regions, also called Kankan.",
+      "A railway more than 600 km long once linked Kankan with Conakry on the coast."
+    ],
+    "q": {
+      "q": "Which river flows past Kankan?",
+      "a": "The Milo",
+      "x": [
+        "The Bafing",
+        "The Gambia"
+      ]
+    }
+  },
+  "Q1947": {
+    "t": "A capital on the White Nile among rocky hills",
+    "s": "The White Nile runs broad and braided past Juba, split by green islands and sandbars, while isolated rocky hills rise from the plain around the city. Downstream, the river disappears into the vast swamps of the Sudd. Nearby Gondokoro was a famous trading post, where in 1863 Speke and Grant, heading north from Lake Victoria, met Samuel and Florence Baker.",
+    "w": "A city on a wide, braided river with islands and sandbars, among scattered rocky hills.",
+    "f": [
+      "Jebel Kujur, a rocky hill on the city's western edge, is a local landmark.",
+      "This stretch of the White Nile is often called the Bahr al-Jabal, 'river of the mountain'."
+    ],
+    "q": {
+      "q": "Which river flows past Juba?",
+      "a": "The White Nile",
+      "x": [
+        "The Blue Nile",
+        "The Ubangi"
+      ]
+    }
+  },
+  "Q498048": {
+    "t": "A town on one of the world's great natural bays",
+    "s": "Pemba sits on a peninsula at the mouth of a huge, almost enclosed bay on Mozambique's far northern coast, often counted among the largest natural bays in the world. On the ocean side, white beaches and coral reefs fringe turquoise water. North of the town, the coral islands of the Quirimbas Archipelago string out along the coast.",
+    "w": "A town on a peninsula beside a vast, almost enclosed bay, with white beaches and turquoise reefs on the ocean side.",
+    "f": [
+      "Pemba is the capital of Cabo Delgado province.",
+      "Quirimbas National Park protects islands, reefs and mangroves north of the town."
+    ],
+    "q": {
+      "q": "What was Pemba called in colonial times?",
+      "a": "Porto Amélia",
+      "x": [
+        "Lourenço Marques",
+        "Vila Pery"
+      ]
+    }
+  },
+  "Q502216": {
+    "t": "A highland town between pine forests and a lake",
+    "s": "Mzuzu lies in the hills of northern Malawi, at the edge of the Viphya Plateau, whose huge pine plantations spread in dark-green blocks to the south. Coffee grows on the surrounding slopes. About 40 km to the east, the land falls steeply to Lake Malawi, a long blue lake filling a section of the Great Rift Valley.",
+    "w": "A town in green hills, with dark blocks of pine forest to the south and a steep drop to a long lake to the east.",
+    "f": [
+      "The Viphya pine plantations are among the largest planted forests in Africa.",
+      "Lake Malawi is about 580 km long."
+    ],
+    "q": {
+      "q": "Which lake lies about 40 km east of Mzuzu?",
+      "a": "Lake Malawi",
+      "x": [
+        "Lake Tanganyika",
+        "Lake Chilwa"
+      ]
+    }
+  },
+  "Q738496": {
+    "t": "A Red Sea port near the Bab-el-Mandeb",
+    "s": "Assab lies on the scorching Danakil coast, one of the hottest inhabited places on Earth, where black lava and pale sand meet the Red Sea. About 80 km to the south-east the sea narrows into the Bab-el-Mandeb strait. In 1869 an Italian shipping company bought land on this bay, the first foothold of what later became the Italian colony of Eritrea.",
+    "w": "A small port on a flat, sun-scorched coast of dark lava and pale sand, near the Red Sea's southern outlet.",
+    "f": [
+      "Summer temperatures here often exceed 40°C.",
+      "Inland, parts of the Danakil Depression lie more than 100 metres below sea level."
+    ],
+    "q": {
+      "q": "Which strait lies about 80 km south-east of Assab?",
+      "a": "Bab-el-Mandeb",
+      "x": [
+        "The Strait of Hormuz",
+        "The Strait of Tiran"
+      ]
+    }
+  },
+  "Q332319": {
+    "t": "Highland city at the end of the salt caravans",
+    "s": "Mekele sits on the Tigray highlands at over 2,000 metres, surrounded by stony plateaus and terraced fields. For centuries camel caravans climbed up here from the Danakil Depression, one of the lowest and hottest places on Earth, carrying bars of rock salt cut from its white salt flats. In the 1880s Emperor Yohannes IV made the town his seat and built a palace.",
+    "w": "A city on a high, stony plateau of terraced fields; to the east the land plunges towards a deep, pale desert.",
+    "f": [
+      "The salt bars, called amole, were once used as money in Ethiopia.",
+      "Parts of the Danakil Depression lie more than 100 metres below sea level."
+    ],
+    "q": {
+      "q": "What have camel caravans long carried up to Mekele?",
+      "a": "Bars of salt",
+      "x": [
+        "Frankincense",
+        "Copper ingots"
+      ]
+    }
+  },
+  "Q3904": {
+    "t": "A hill capital beside a giant granite dome",
+    "s": "Mbabane climbs the green hills of the Mdimba range in Eswatini's highveld, at about 1,200 metres. Just north of the city rises Sibebe, a vast bare dome of granite often described as one of the largest in the world, its smooth grey flanks shining after rain. South of town, the Ezulwini Valley, the 'Valley of Heaven', runs down towards the royal village of Lobamba.",
+    "w": "A city on steep green hills, with a huge bare grey dome of rock to the north and a broad valley to the south.",
+    "f": [
+      "Sibebe rises to about 1,490 metres.",
+      "Highland Mbabane is cooler and wetter than the lowveld to the east."
+    ],
+    "q": {
+      "q": "What is Sibebe, near Mbabane?",
+      "a": "A giant granite dome",
+      "x": [
+        "A crater lake",
+        "A waterfall"
+      ]
+    }
+  },
+  "Q165422": {
+    "t": "Botswana's gold-rush town on the Tati River",
+    "s": "In 1869 the Tati area set off one of the earliest gold rushes in southern Africa, and Francistown grew from that mining camp into Botswana's second city. It spreads over flat, dry bushveld along the sandy bed of the Tati River, which runs only after rain. The border with Zimbabwe is less than 100 km away, and the main railway north runs through the town.",
+    "w": "A town on flat, dry bushveld along a sandy riverbed, with a railway running north to south through it.",
+    "f": [
+      "The town is named after Daniel Francis, a mining pioneer of the 1890s.",
+      "Francistown lies at about 1,000 metres above sea level."
+    ],
+    "q": {
+      "q": "What first drew prospectors to the Francistown area in 1869?",
+      "a": "Gold",
+      "x": [
+        "Diamonds",
+        "Copper"
+      ]
+    }
+  },
+  "Q910616": {
+    "t": "A cocoa town in Cameroon's southern rainforest",
+    "s": "Ebolowa lies deep in the rainforest of southern Cameroon, about 115 km south of Yaoundé, on gently rolling land where the forest is patched with cocoa farms and plantain gardens. A small lake sits right in the centre of town. It is the capital of Cameroon's South Region, which stretches to the borders of Equatorial Guinea and Gabon.",
+    "w": "A town in rolling, dark-green rainforest, with a small lake at its centre and farms patched into the forest around it.",
+    "f": [
+      "Cocoa, grown in the shade of forest trees, is the main cash crop here.",
+      "There are two rainy seasons a year, typical of an equatorial climate."
+    ],
+    "q": {
+      "q": "Which crop is the mainstay of farms around Ebolowa?",
+      "a": "Cocoa",
+      "x": [
+        "Tea",
+        "Cotton"
+      ]
+    }
+  },
+  "Q184184": {
+    "t": "Iron-ore trains and monk seals on a desert peninsula",
+    "s": "Nouadhibou lies on a long, narrow peninsula of sand and rock pointing south into the Atlantic, split lengthwise by a border. Iron-ore trains, among the longest and heaviest in the world, rumble some 700 km across the Sahara from Zouérat to the port here. At the peninsula's tip, Cap Blanc shelters the largest surviving colony of Mediterranean monk seals.",
+    "w": "A town on the east side of a long, narrow desert peninsula, facing a sheltered bay; a railway comes in from the east.",
+    "f": [
+      "For years the bay was a graveyard for hundreds of abandoned ships.",
+      "The shallows of the Banc d'Arguin, to the south-east, are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "What do the long trains arriving at Nouadhibou carry?",
+      "a": "Iron ore",
+      "x": [
+        "Salt",
+        "Uranium"
+      ]
+    }
+  },
+  "Q218928": {
+    "t": "A vast bay at the northern tip of Madagascar",
+    "s": "Antsiranana wraps around one of the largest natural harbours in the world, a deep, many-armed bay almost cut off from the Indian Ocean by a narrow entrance. In the middle of the bay stands a small island shaped like a sugarloaf. To the south rises Montagne d'Ambre, a green volcanic massif whose rainforest stands out sharply against the dry lowlands around it.",
+    "w": "A town on a peninsula in a huge, many-armed bay with a narrow entrance, and a green mountain massif to the south.",
+    "f": [
+      "Montagne d'Ambre National Park is home to lemurs and tiny chameleons.",
+      "Outside the bay's entrance lies a turquoise lagoon known as the Emerald Sea."
+    ],
+    "q": {
+      "q": "What was Antsiranana formerly called?",
+      "a": "Diego Suarez",
+      "x": [
+        "Fort-Dauphin",
+        "Tamatave"
+      ]
+    }
+  },
+  "Q126124": {
+    "t": "A hill town where Togo's mountains begin",
+    "s": "North of the coastal plain, the flat land gives way to forested hills at Atakpamé, the southern end of the mountain chain that runs diagonally across Togo into Benin and Ghana. The town spreads over several hills, with coffee and cocoa farms on the green slopes around it. It is the capital of Togo's Plateaux Region, about 160 km north of Lomé.",
+    "w": "A town spread over green, forested hills, at the southern end of a mountain chain running north-east.",
+    "f": [
+      "To the north-east, the Togo Mountains continue into Benin as the Atakora range.",
+      "Coffee and cocoa are the main crops of the surrounding Plateaux Region."
+    ],
+    "q": {
+      "q": "Atakpamé lies at the southern end of which mountain chain?",
+      "a": "The Togo Mountains",
+      "x": [
+        "The Fouta Djallon",
+        "The Jos Plateau"
+      ]
+    }
+  },
+  "Q325164": {
+    "t": "One of Africa's hottest towns, on the Senegal River",
+    "s": "Kayes lies on the Senegal River in western Mali, in a low basin ringed by flat-topped sandstone hills, and it is often called one of the hottest towns in Africa: in April and May, afternoons regularly top 40°C. Upstream, the river spills over rocky ledges at the Félou and Gouina falls. From the 1880s a railway was pushed from here towards the Niger.",
+    "w": "A town on a winding river in a hot, low basin ringed by flat-topped hills.",
+    "f": [
+      "The old French fort of Médine, built in 1855, stands on the river just upstream.",
+      "Kayes is the capital of Mali's westernmost region."
+    ],
+    "q": {
+      "q": "Which river flows through Kayes?",
+      "a": "The Senegal",
+      "x": [
+        "The Niger",
+        "The Gambia"
+      ]
+    }
   }
 }

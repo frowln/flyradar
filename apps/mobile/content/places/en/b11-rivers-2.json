@@ -54,7 +54,7 @@
     }
   },
   "Q82812": {
-    "t": "A northern river that sometimes flows backwards",
+    "t": "Sometimes it flows backwards, into a lake",
     "s": "In spring the Sukhona can do something strange: when its tributary the Vologda is in full flood, its upper course runs backwards into Lake Kubenskoye. Here it winds past Totma through dark taiga and hay meadows. Totma sent many men to sea, among them Ivan Kuskov, who in 1812 founded Fort Ross in California.",
     "w": "A narrow dark river looping through unbroken taiga, with pale strips of meadow along its banks and small Totma on a bend.",
     "f": [
@@ -108,7 +108,7 @@
     }
   },
   "Q31379": {
-    "t": "A wild taiga river rebuilt as a chain of giant lakes",
+    "t": "Rebuilt by engineers into a chain of giant lakes",
     "s": "What looks like a string of vast, ragged lakes across the taiga is a river remade by engineers. Since the 1970s the La Grande has been dammed step by step for hydropower, and neighbouring rivers were diverted into it, roughly doubling its flow. In winter the reservoirs freeze into white shapes with drowned, fingered shorelines.",
     "w": "Huge irregular reservoirs full of islands and inlets in dark spruce forest, strung east to west towards James Bay.",
     "f": [
@@ -126,7 +126,7 @@
     }
   },
   "Q80240": {
-    "t": "A steppe river long drawn as Europe's edge",
+    "t": "Long drawn on maps as the edge of Europe",
     "s": "Loops, oxbows and crescent lakes crowd the Ural's floodplain here, a ribbon of dark woodland across bare, sunburnt steppe. The river runs about 2,400 km from the Ural Mountains to the Caspian, and many maps use it as part of the line between Europe and Asia. Until 1775 it was called the Yaik.",
     "w": "A tightly meandering river with bright oxbow lakes and a dark strip of floodplain forest across flat yellow-brown steppe.",
     "f": [
@@ -164,7 +164,7 @@
   "Q217818": {
     "t": "A Rhine branch strung with old Hanseatic towns",
     "s": "Of the Rhine's three Dutch branches, the IJssel is the one that turns north. It winds for about 125 km through green floodplain between dikes, past brick towns that grew rich in the Hanseatic League: Doesburg, Zutphen, Deventer, Kampen. It ends close to the lake that bears its name, the IJsselmeer, once the salty Zuiderzee.",
-    "w": "A winding river in a wide green floodplain between dikes, with the compact town of Deventer on its east bank.",
+    "w": "Between green dikes a river curls north through wide floodplain, the compact town of Deventer on its east bank.",
     "f": [
       "IJ counts as a single letter in Dutch, so both letters are capitalised: IJssel, IJsselmeer.",
       "Deventer, Zutphen and Kampen on the IJssel were all members of the Hanseatic League.",
@@ -182,7 +182,7 @@
   "Q40855": {
     "t": "Europe's fourth-longest river, still young here",
     "s": "Here the Dnieper is still a modest river, meandering through flat fields and pine woods, with silver oxbows marking its old beds. It has a long way to go: about 2,200 km in all, through three countries to the Black Sea. A thousand years ago this was part of the trade route 'from the Varangians to the Greeks'.",
-    "w": "A modest winding river with silvery oxbow lakes, crossing a flat patchwork of fields and dark pine forest.",
+    "w": "Silvery oxbow lakes trace the old bends of a modest river across flat fields and dark pine forest.",
     "f": [
       "Among Europe's rivers only the Volga, the Danube and the Ural are longer.",
       "It rises in the Valdai Hills, not far from the sources of the Volga and the Western Dvina.",
@@ -253,7 +253,7 @@
   },
   "Q10362010": {
     "t": "A palm-named stream feeding an inland sea",
-    "s": "Red earth, cattle pasture and patches of cerrado scrub make up this upland of Minas Gerais, and the Indaiá threads through it in a dark line of gallery forest. It takes its name from a native palm. Its water flows into Três Marias, a huge reservoir on the São Francisco, joining it from the west bank.",
+    "s": "The Indaiá threads a dark line of gallery forest through this upland of Minas Gerais, a country of red earth, cattle pasture and patches of cerrado scrub. It takes its name from a native palm. Its water flows into Três Marias, a huge reservoir on the São Francisco, joining it from the west bank.",
     "w": "A narrow dark line of riverside forest across red and green uplands, flowing north into the branching arms of Três Marias.",
     "f": [
       "Indaiá is the Brazilian name of a native palm; the town of Dores do Indaiá, in its basin, shares it.",
@@ -270,7 +270,7 @@
     }
   },
   "Q3334104": {
-    "t": "A wild gorge river racing to become the Irrawaddy",
+    "t": "Racing through gorges to become the Irrawaddy",
     "s": "This river has two names and hardly a calm stretch. In China it is the Dulong, home of the Derung people; in Myanmar it becomes the N'Mai Hka, a fast, cold torrent hidden deep among steep forested ridges. North of Myitkyina it merges with the Mali Hka, and together they form the Irrawaddy.",
     "w": "A thin silvery line deep in a maze of steep green ridges running north to south, often patched with cloud.",
     "f": [
@@ -326,7 +326,7 @@
   "Q1569231": {
     "t": "The top of the Pearl River, winding through karst",
     "s": "Karst country: green valleys studded with steep limestone hills, red soil and terraced fields, and the Nanpan winding between them. This is the uppermost reach of the Pearl River system. The river rises on Maxiong Mountain in eastern Yunnan, flows south, then swings east in a wide arc before meeting the Beipan to become the Hongshui.",
-    "w": "A winding river among red-soiled fields and lumpy green limestone hills, in a broad upland of eastern Yunnan.",
+    "w": "Red-soiled fields and lumpy green limestone hills, with the river looping between them across a broad Yunnan upland.",
     "f": [
       "A spring on Maxiong Mountain near Qujing is officially marked as the source of the Pearl River.",
       "The Nanpan is roughly 900 km long.",
@@ -360,8 +360,8 @@
     }
   },
   "Q552": {
-    "t": "A wandering river fringed with floodplain forest",
-    "s": "Silver loops, oxbow lakes and dark bands of riverside forest mark the Oder as it swings north-west across the Silesian lowland. It rises in the hills of Czechia and runs about 840 km to the Baltic, forming part of the border between Germany and Poland on the way. Upstream, Wrocław is built across its islands and branches.",
+    "t": "Silver loops and floodplain forest across Silesia",
+    "s": "The Oder swings north-west across the Silesian lowland in silver loops, edged with oxbow lakes and dark bands of riverside forest. It rises in the hills of Czechia and runs about 840 km to the Baltic, forming part of the border between Germany and Poland on the way. Upstream, Wrocław is built across its islands and branches.",
     "w": "A broad meandering river with bright oxbow lakes and strips of dark floodplain woods, across flat fields and villages.",
     "f": [
       "Wrocław, on the Oder, has more than 100 bridges and footbridges.",
@@ -380,7 +380,7 @@
   "Q3569": {
     "t": "A green ribbon between Senegal and Mauritania",
     "s": "Rice paddies and gardens make a green stripe along the Senegal River, and beyond it the land turns dry and tawny in both directions. For hundreds of kilometres the river forms the border between Senegal and Mauritania. Its floods once spread across the whole valley floor each rainy season, and farmers still plant the damp land as the water drops back.",
-    "w": "A winding river with bright green, rectangular fields along both banks, set in dry, sandy-brown country.",
+    "w": "Bright green rectangles of rice fields hug both banks, the only green in dry, sandy-brown country.",
     "f": [
       "Near its mouth the river runs behind the Langue de Barbarie, a long, thin sand spit, before reaching the Atlantic.",
       "The old colonial town of Saint-Louis, on an island near the mouth, is a UNESCO World Heritage site.",
@@ -470,7 +470,7 @@
   "Q817337": {
     "t": "A green irrigated valley slicing through grey steppe",
     "s": "The contrast is stark: a strip of poplars, orchards and fields a few kilometres wide, and beyond it grey-brown Patagonian steppe as far as the eye can see. The Río Negro begins where the Neuquén and the Limay meet, then runs about 635 km across Patagonia to the Atlantic. Its valleys grow most of Argentina's apples and pears.",
-    "w": "A winding blue-green river inside a narrow green valley of fields and tree rows, cut into a flat grey-brown plateau.",
+    "w": "A narrow green valley of fields and tree rows cut into a flat grey-brown plateau, the blue-green river looping inside it.",
     "f": [
       "It carries more water than any other river in Patagonia.",
       "Tall rows of poplars shelter the orchards from the strong Patagonian wind.",
@@ -486,7 +486,7 @@
     }
   },
   "Q1152951": {
-    "t": "A quiet Rhine branch between forest and orchards",
+    "t": "Forest on one bank, orchards on the other",
     "s": "North of the river rise the wooded, sandy hills of the Veluwe; south of it lies the Betuwe, flat and neatly lined with orchards. Between them runs the Nederrijn, the 'Lower Rhine', one of the branches into which the great river splits after entering the Netherlands. Weirs manage its flow, deciding how much Rhine water goes on to the IJssel.",
     "w": "A modest river with green floodplains between dikes, dark forest to the north and a neat grid of orchards to the south.",
     "f": [
@@ -504,7 +504,7 @@
     }
   },
   "Q1143852": {
-    "t": "A Rhine branch ending by the windmills of Kinderdijk",
+    "t": "Its last kilometres run through polder country",
     "s": "Pastures below sea level, long straight ditches and dikes: this is the heart of polder country, and the Lek runs through it on its last kilometres. At Kinderdijk it meets the Noord, and the two carry on towards Rotterdam as the Nieuwe Maas. Nineteen 18th-century windmills there once pumped the surrounding polders dry.",
     "w": "A broad river between dikes, with flat green polders cut by straight silver ditches on both sides and Rotterdam's sprawl to the west.",
     "f": [
@@ -542,7 +542,7 @@
   "Q615328": {
     "t": "The 'red water river' of Guangxi's karst",
     "s": "Hongshui means 'red water', and in the rainy season its current runs rusty with silt from the red soils upstream. Here it snakes through deep karst country, between rows of steep, forested limestone peaks. Formed by the Nanpan and the Beipan, it is stepped with big hydropower dams, among them Longtan, one of the largest in China.",
-    "w": "A winding river in a deep valley, lumpy green limestone peaks crowding both banks and long reservoirs behind dams.",
+    "w": "Lumpy green limestone peaks crowd both banks of a river in a deep valley, with long reservoirs behind dams.",
     "f": [
       "The Hongshui forms the main upper course of the Xi River, the chief branch of the Pearl.",
       "Downstream it meets the Liu River and continues as the Qian.",
@@ -558,7 +558,7 @@
     }
   },
   "Q2509519": {
-    "t": "A short link in the Pearl River's chain, with a gorge",
+    "t": "Short, but squeezed through the Great Rattan Gorge",
     "s": "This short river begins where two big Guangxi streams, the Hongshui and the Liu, have just combined. It pushes south-east through low green hills and sugarcane fields, then squeezes through Datengxia, the Great Rattan Gorge, before meeting the Yu River at Guiping. There the name changes again, to the Xun.",
     "w": "A wide brown river winding between low green hills and fields, entering a narrow gorge above the town of Guiping.",
     "f": [
@@ -594,8 +594,8 @@
     }
   },
   "Q584": {
-    "t": "Where the Rhine leaves the hills for the open plain",
-    "s": "Here the Rhine is leaving the hills behind. The dark wooded knobs of the Siebengebirge, old volcanoes, crowd its east bank, while to the north the valley opens into the flat, busy lowland towards Cologne. Bonn stands on the west bank: Beethoven was born there in 1770, and from 1949 to 1990 it was West Germany's capital.",
+    "t": "Beethoven's Bonn and the old volcanoes across the water",
+    "s": "Bonn spreads along the west bank here, where the Rhine is leaving the hills behind. The dark wooded knobs of the Siebengebirge, old volcanoes, crowd the east bank, while to the north the valley opens into the flat, busy lowland towards Cologne. Beethoven was born in Bonn in 1770, and from 1949 to 1990 it was West Germany's capital.",
     "w": "A broad, busy river heading north-west, with wooded volcanic hills on its east bank and the city of Bonn along the west.",
     "f": [
       "The Rhine is about 1,230 km long, from the Swiss Alps to the North Sea.",
@@ -613,7 +613,7 @@
   },
   "Q216171": {
     "t": "The Rhine's main branch, running out to the sea",
-    "s": "Most of the Rhine's water takes this route: about two-thirds of it flows into the Waal soon after the river enters the Netherlands. The Waal runs west past Nijmegen, one of the oldest Dutch towns, carrying some of Europe's heaviest barge traffic. Its water finally reaches the North Sea through wide estuaries such as the Haringvliet, closed off by a long dam with sluices.",
+    "s": "Two-thirds of the Rhine's water takes this route, turning into the Waal soon after the river enters the Netherlands. The Waal runs west past Nijmegen, one of the oldest Dutch towns, carrying some of Europe's heaviest barge traffic. Its water finally reaches the North Sea through wide estuaries such as the Haringvliet, closed off by a long dam with sluices.",
     "w": "A broad grey-blue estuary between flat green islands, shut off from the North Sea to the west by a long dam.",
     "f": [
       "Nijmegen on the Waal grew from a Roman settlement and celebrated its 2,000th anniversary in 2005.",
@@ -632,7 +632,7 @@
   "Q639478": {
     "t": "The small arm wrapped around a giant river island",
     "s": "The Javaés is the Araguaia's 'smaller arm': it splits off from the main river and loops round the east side of Bananal Island before rejoining it. That island, around 20,000 km² of flooded grassland and forest, is usually called the largest river island in the world. In the rainy season much of it disappears under water.",
-    "w": "A winding dark river along the east edge of a vast flat island of green savanna and lakes, the wider Araguaia to the west.",
+    "w": "On the east edge of a vast flat island of green savanna and lakes; the wider Araguaia runs along its west side.",
     "f": [
       "Brazilians also call it the Braço Menor, the 'smaller arm' of the Araguaia.",
       "The river is named after the Javaé people, who live on Bananal Island.",
@@ -666,7 +666,7 @@
     }
   },
   "Q1139679": {
-    "t": "A great jungle river through the old Maya world",
+    "t": "Maya cities once stood on its jungle banks",
     "s": "Broad, green-brown and full of loops, the Usumacinta slides out of the hills onto the flat, wet plain of Tabasco here. Upstream it forms the border between Mexico and Guatemala, and Maya cities stood on its banks: Yaxchilán sits inside a tight loop of the river. Together with the Grijalva, it carries more water than any other river system in Mexico.",
     "w": "A wide, muddy river swinging in big loops across a flat green plain of pasture, lagoons and patches of forest.",
     "f": [
@@ -792,7 +792,7 @@
     }
   },
   "Q193737": {
-    "t": "A river bending into a moccasin at Chattanooga",
+    "t": "Bent into a giant moccasin at Chattanooga",
     "s": "Look for a huge meander shaped like a foot: Moccasin Bend, where the Tennessee coils round a flat peninsula beneath Lookout Mountain. Chattanooga spreads along its banks between wooded ridges. The river runs a strange U-shaped course, south into Alabama, then west and north across Tennessee and Kentucky to the Ohio.",
     "w": "A tight, foot-shaped loop of river beside a city, with a long wooded ridge rising just to the south-west.",
     "f": [
@@ -938,7 +938,7 @@
   "Q8197": {
     "t": "One river, two names, three countries",
     "s": "In Belarus and Russia it is the Western Dvina; in Latvia, the Daugava. Here it curves through Polotsk, one of the oldest towns of the Eastern Slavs, first mentioned in the chronicles in 862. From here it winds on through lake-studded forest and farmland to the Gulf of Riga, about 1,000 km from its source.",
-    "w": "A winding river through forest and farmland, a town spread across both banks and many small lakes scattered around.",
+    "w": "Forest and farmland scattered with small lakes, and a town spread across both banks of the curving river.",
     "f": [
       "Its source lies in the Valdai Hills, close to the sources of the Volga and the Dnieper.",
       "In Latvia three hydropower dams turn the river into a chain of reservoirs.",
@@ -955,7 +955,7 @@
   },
   "Q200174": {
     "t": "Where an Amazon source bursts out of the Andes",
-    "s": "For hundreds of kilometres the Marañón runs north through one of the deepest canyons in the Andes; here it swings east and cuts its way out of the mountains through narrow gorges called pongos. Beyond them lies the endless green of the Amazon lowlands. Downstream it meets the Ucayali, and from that confluence on the river is called the Amazon.",
+    "s": "Through one of the deepest canyons in the Andes the Marañón runs north for hundreds of kilometres; here it swings east and cuts its way out of the mountains through narrow gorges called pongos. Beyond them lies the endless green of the Amazon lowlands. Downstream it meets the Ucayali, and from that confluence on the river is called the Amazon.",
     "w": "A brown river forcing its way through forested ridges in narrow gaps, then spreading into flat, endless rainforest to the east.",
     "f": [
       "For centuries the Marañón was regarded as the main source of the Amazon.",
@@ -972,7 +972,7 @@
     }
   },
   "Q269710": {
-    "t": "A gold-rush river cut deep into the plateau",
+    "t": "The gold-rush road, cut deep into the plateau",
     "s": "The Fraser here runs in a deep trench carved into the forested Interior Plateau, with the Quesnel River joining it at the town of Quesnel. In the 1860s this was the gateway to the Cariboo gold fields, and thousands of miners came up the valley. At about 1,375 km, the Fraser is the longest river in British Columbia.",
     "w": "A brown river in a deep, steep-sided trench across a forested plateau patched with clearings, a town at a river junction.",
     "f": [
@@ -990,7 +990,7 @@
     }
   },
   "Q82207": {
-    "t": "A river born near one of the coldest villages on Earth",
+    "t": "Born near one of the coldest villages on Earth",
     "s": "The Indigirka starts its journey near Oymyakon, where winter temperatures have dropped close to −70 °C. It then cuts north through bare, rocky ranges, braiding into gravel channels, before spreading out across lake-strewn lowlands to the East Siberian Sea. For about eight months a year it lies frozen, a white line through the mountains.",
     "w": "A pale, braided river among bare grey-brown mountains, patched with snow for much of the year.",
     "f": [
@@ -1009,7 +1009,7 @@
   },
   "Q65383": {
     "t": "The tributary longer than the river it joins",
-    "s": "Sandbanks glowing pale against dark taiga, oxbow lakes and long meanders: the Vychegda crosses the Komi Republic like this for hundreds of kilometres. Near Syktyvkar, the capital of Komi, it takes in the Sysola. At about 1,130 km it is longer than the Northern Dvina itself, which it joins at Kotlas.",
+    "s": "The Vychegda crosses the Komi Republic in long meanders, its pale sandbanks glowing against dark taiga beside silver oxbow lakes. Near Syktyvkar, the capital of Komi, it takes in the Sysola. At about 1,130 km it is longer than the Northern Dvina itself, which it joins at Kotlas.",
     "w": "A wide meandering river with bright sandbanks and silver oxbow lakes in dark taiga, a city to the south-east.",
     "f": [
       "Syktyvkar means 'town on the Sysola' in the Komi language.",
@@ -1044,7 +1044,7 @@
     }
   },
   "Q8542": {
-    "t": "A mountain river with two countries on its banks",
+    "t": "Two countries face each other across its gorge",
     "s": "Deep in a gorge between huge bare mountains, the Panj runs grey-green and fast, with villages and orchards clinging to fans of gravel on both banks. On one side lies Tajikistan, on the other Afghanistan; the river is the border for hundreds of kilometres. Downstream it meets the Vakhsh, and together they become the Amu Darya.",
     "w": "A thin river at the bottom of a deep gorge between massive bare ranges, small green patches of villages on both sides.",
     "f": [
@@ -1062,7 +1062,7 @@
     }
   },
   "Q49544": {
-    "t": "A clear, rocky river in a land of forest and cattle",
+    "t": "Clear water and rocky rapids amid forest and cattle",
     "s": "Unlike the muddy Amazon, the Xingu runs clear and dark green over rocks and rapids, spattered with forested islands. Around São Félix do Xingu, cattle pasture has cut into the forest in huge pale blocks, while the Kayapó indigenous lands nearby remain solid green. The river flows north for well over 1,500 km before merging into the Amazon.",
     "w": "A wide, dark river full of rocky islands and rapids, pale blocks of pasture on one side and unbroken forest on the other.",
     "f": [
@@ -1080,7 +1080,7 @@
     }
   },
   "Q8493": {
-    "t": "A braided desert river that once filled the Aral Sea",
+    "t": "Between two deserts, once the lifeblood of the Aral",
     "s": "Two deserts face each other across the Amu Darya: the Karakum on one side, the Kyzylkum on the other. Between them the river spreads into a wide brown bed of shifting channels and sandbars, edged by a thin green strip of fields. Its water once filled the Aral Sea, but so much is now taken for irrigation that it rarely reaches the old shore.",
     "w": "A wide, braided brown river with sandbars and a thin green strip of fields, pale desert on both sides.",
     "f": [
@@ -1098,7 +1098,7 @@
     }
   },
   "Q752674": {
-    "t": "A blue river of rapids in the southern Amazon",
+    "t": "Blue-green rapids in the southern Amazon",
     "s": "The Tapajós is a clear-water river: in the dry season it runs blue-green over rocks and rapids, striking against the dense forest. Downstream it widens into a huge, lake-like channel with white sand beaches before meeting the muddy Amazon at Santarém, where the two waters flow side by side. It is formed by the Juruena and the Teles Pires.",
     "w": "A dark blue-green river with rocky rapids and islands, winding north through dense forest cut by a few clearings and roads.",
     "f": [
@@ -1118,7 +1118,7 @@
   "Q204040": {
     "t": "An Alpine river that ends in 'Europe's Amazon'",
     "s": "The Mur starts high in the Austrian Alps and flows through Graz, but here on the Pannonian plain it has turned wild: a winding, willow-lined river with gravel bars and backwaters, marking borders as it goes. Soon it meets the Drava, and its floodplains form part of a vast protected wetland along the Mura, Drava and Danube.",
-    "w": "A winding river lined with dark floodplain forest and backwaters, crossing flat farmland patterned in long narrow strips.",
+    "w": "Dark floodplain forest and backwaters line the river, between flat farmland patterned in long, narrow strips.",
     "f": [
       "In 2021 UNESCO named the Mura–Drava–Danube area the world's first five-country biosphere reserve.",
       "The Mur flows through Graz, Austria's second-largest city.",
@@ -1153,8 +1153,8 @@
   },
   "Q135477": {
     "t": "The river that keeps Lake Chad alive",
-    "s": "Most of the water that reaches Lake Chad comes down this river. The Chari rises in the Central African Republic and flows north-west for about 1,400 km, meandering through wide grassy floodplains that turn to marsh in the rainy season. At N'Djamena it meets the Logone, and together they run on to the lake.",
-    "w": "A broad, winding river with a wide, pale floodplain of grass and marsh, crossing flat savanna dotted with trees.",
+    "s": "Lake Chad lives on this river. The Chari rises in the Central African Republic and flows north-west for about 1,400 km, meandering through wide grassy floodplains that turn to marsh in the rainy season, and it brings the lake most of its water. At N'Djamena it meets the Logone, and together they run on to the lake.",
+    "w": "A broad river inside a wide, pale floodplain of grass and marsh, crossing flat savanna dotted with trees.",
     "f": [
       "The Chari supplies about 90% of the water that flows into Lake Chad.",
       "Lake Chad has shrunk dramatically since the 1960s, which makes this inflow all the more vital.",
@@ -1170,9 +1170,9 @@
     }
   },
   "Q131210": {
-    "t": "A river that twists through its canyon like a ribbon",
+    "t": "Coiling through its canyon like a dropped ribbon",
     "s": "Few rivers loop as extravagantly as the Dniester here: it coils through a deep canyon cut into the Podolian plateau, bend after bend, between wooded slopes and pale rocky cliffs. Part of the canyon is now flooded behind a dam, forming a long, sinuous reservoir. The river runs about 1,350 km from the Carpathians to the Black Sea.",
-    "w": "A winding, snake-like river and reservoir in a deep wooded canyon, carved into a flat plateau of fields.",
+    "w": "Snake-like coils of river and reservoir in a deep wooded canyon, carved into a flat plateau of fields.",
     "f": [
       "The Dniester rises in the Carpathians, not far from the Polish border.",
       "Khotyn Fortress, on a bluff above the river upstream, dates back to the Middle Ages.",
@@ -1226,7 +1226,7 @@
   "Q284603": {
     "t": "The river that named a caribou herd",
     "s": "Old Crow, the only community in Yukon without a road, stands on a bend of the Porcupine well north of the Arctic Circle. Around it the Old Crow Flats spread out as a vast sheet of lakes and ponds, glittering in summer. The river flows west into Alaska and joins the Yukon at Fort Yukon, about 900 km from its source.",
-    "w": "A winding river through flat, lake-strewn tundra and thin spruce, with a small village on a river bend.",
+    "w": "Flat tundra and thin spruce strewn with lakes, and a small village on one bend of the river.",
     "f": [
       "The Porcupine caribou herd, roughly 200,000 animals, is named after this river.",
       "The Old Crow Flats hold thousands of lakes and ponds and are a protected wetland.",
@@ -1242,7 +1242,7 @@
     }
   },
   "Q1546553": {
-    "t": "A river of endless oxbows in the Alaskan wilds",
+    "t": "Endless oxbows in the Alaskan wilds",
     "s": "The Koyukuk is a lesson in how rivers wander: tight loops, cut-off oxbow lakes and crescent-shaped scars fill its broad, wooded valley. It rises in the Brooks Range north of the Arctic Circle and flows about 680 km south-west to the Yukon. Only a handful of small villages stand on its banks.",
     "w": "A heavily meandering river surrounded by countless oxbow lakes and crescent-shaped ponds in dark spruce forest.",
     "f": [
@@ -1260,7 +1260,7 @@
     }
   },
   "ne-rv-1159114673": {
-    "t": "An Ethiopian highland river heading for Somalia",
+    "t": "From Ethiopia's high Bale Mountains towards Somalia",
     "s": "Rain on the Bale Mountains, some of the highest land in Ethiopia, feeds the Genale. It drops south-east from the highlands into dry, bushy lowlands, where it winds in a green thread of riverside trees. At Dolo, close to where Ethiopia, Kenya and Somalia meet, it joins the Dawa, and together they become the Jubba.",
     "w": "A thin green line of trees along a winding river, crossing dry, reddish bush country that falls away from the highlands.",
     "f": [
@@ -1278,7 +1278,7 @@
     }
   },
   "Q559283": {
-    "t": "A Karakoram river feeding a Silk Road oasis",
+    "t": "Karakoram meltwater for a Silk Road oasis",
     "s": "The Yarkand comes down from glaciers of the Karakoram, grey with silt, and fans out into a braided channel as it leaves the mountains for the Tarim Basin. Its water sustains one of the great oases on the southern edge of the Taklamakan: Yarkant, an old Silk Road town. Downstream it is the longest source of the Tarim River.",
     "w": "A grey, braided river fanning out from bare mountains onto a desert plain, with a big green oasis of fields beside it.",
     "f": [
@@ -1296,7 +1296,7 @@
     }
   },
   "Q1241991": {
-    "t": "A fur-trade river crossing the great northern bogs",
+    "t": "Fur-trade route across the great northern bogs",
     "s": "Near here the Albany leaves the rocky Canadian Shield for the Hudson Bay Lowlands, one of the largest wetlands on Earth, where bogs and fens form stripes and teardrop shapes. The river runs about 980 km from Lake St. Joseph to James Bay. At its mouth, Fort Albany was one of the Hudson's Bay Company's earliest trading posts.",
     "w": "A broad brown river winding east through dark spruce and vast bogs patterned with stripes and pools.",
     "f": [
@@ -1314,9 +1314,9 @@
     }
   },
   "Q81555": {
-    "t": "A lonely northern river of the lost town Mangazeya",
-    "s": "Pale bogs, thousands of small lakes and thin larch forest stretch to the horizon as the Taz meanders north across the West Siberian Plain. About 1,400 km long, it ends in the Taz Estuary, a long arm of the Gulf of Ob. In the 17th century the fur-trading town of Mangazeya thrived on its lower course, then was abandoned.",
-    "w": "A winding river through flat, pale bog and larch woodland spattered with countless small lakes.",
+    "t": "Home of the vanished fur town of Mangazeya",
+    "s": "The Taz meanders north across the West Siberian Plain through a world of pale bogs, thousands of small lakes and thin larch forest. About 1,400 km long, it ends in the Taz Estuary, a long arm of the Gulf of Ob. In the 17th century the fur-trading town of Mangazeya thrived on its lower course, then was abandoned.",
+    "w": "Flat, pale bog and larch woodland spattered with countless small lakes, the river curling through the middle.",
     "f": [
       "Mangazeya, founded around 1601, was nicknamed 'gold-boiling' for the wealth of its fur trade.",
       "The Selkup people have fished and herded reindeer along the Taz for centuries.",
@@ -1332,9 +1332,9 @@
     }
   },
   "Q1063190": {
-    "t": "A green river of old trading towns in western Hunan",
+    "t": "Timber, tung oil and old trading towns in Hunan",
     "s": "The Yuan winds north-east through the forested hills of western Hunan, past terraced fields and old river towns. Hongjiang, on its bank here, grew rich for centuries shipping timber, tung oil and salt by boat. After more than 1,000 km, the river empties into Dongting Lake, one of China's great freshwater lakes.",
-    "w": "A winding green river between wooded ridges and terraced fields, with small towns clustered on its bends.",
+    "w": "Green water between wooded ridges and terraced fields, with small towns clustered on the river's bends.",
     "f": [
       "Taoyuan county on the lower Yuan claims to be the setting of Tao Yuanming's tale 'Peach Blossom Spring'.",
       "In Guizhou, where it rises, the river is called the Qingshui.",
@@ -1368,7 +1368,7 @@
     }
   },
   "Q558643": {
-    "t": "A slow, looping river through the Black Belt",
+    "t": "Lazy loops through the dark soil of the Black Belt",
     "s": "The Alabama River takes its time, looping in wide, lazy meanders through the Black Belt, a crescent of dark, fertile soil that once grew much of the South's cotton. It forms near Montgomery where the Coosa and the Tallapoosa meet, and joins the Tombigbee north of Mobile. In 1965 civil rights marchers set out from Selma across the Edmund Pettus Bridge over this river.",
     "w": "A brown river swinging in wide loops through a patchwork of dark fields, pine plantations and a long, narrow reservoir.",
     "f": [
@@ -1386,7 +1386,7 @@
     }
   },
   "Q602": {
-    "t": "A strong river in a corridor of vineyards",
+    "t": "Straight and strong through a corridor of vineyards",
     "s": "South of Lyon the Rhône runs straight and strong through a narrow corridor, with vineyards on its steep slopes and a road, a railway and a motorway squeezed along its banks. This is the heart of the northern Côtes du Rhône: Côte-Rôtie and Condrieu lie just upstream. From its Swiss glacier, the river runs about 810 km to its delta in the Camargue.",
     "w": "A wide river running north–south in a narrow valley, lined by canals, roads and railways, with steep hillsides on its west bank.",
     "f": [
@@ -1422,7 +1422,7 @@
     }
   },
   "Q798339": {
-    "t": "A wild tundra river racing to the Arctic Ocean",
+    "t": "Rapids and lakes across the barren lands",
     "s": "Almost 1,000 km of lakes, rapids and falls, and hardly a tree for most of the way: the Back River crosses the barren lands of Nunavut to the Arctic Ocean. It is named after George Back, a British naval officer who travelled down it in 1834. For most of the year it lies frozen under snow.",
     "w": "A river threading a chain of irregular lakes and white rapids across bare, rolling tundra speckled with ponds.",
     "f": [
@@ -1459,7 +1459,7 @@
   },
   "Q1259188": {
     "t": "Burkina's Nakambé, pooled behind the Bagré dam",
-    "s": "In Burkina Faso the White Volta is called the Nakambé. Here in the south of the country it is held back by the Bagré dam, spreading into a long, branching lake among dry savanna and small farms. Downstream it crosses into Ghana, flows through the northern plains not far from Tamale, and ends in the vast Lake Volta.",
+    "s": "A long, branching lake spreads across the dry savanna of southern Burkina Faso here: the Bagré reservoir on the White Volta, which locals call the Nakambé. Downstream the river crosses into Ghana, flows through the northern plains not far from Tamale, and ends in the vast Lake Volta.",
     "w": "A long, branching reservoir in dry, tan savanna dotted with trees and small fields, fed from the north.",
     "f": [
       "The Bagré dam supplies water for rice fields and hydropower in southern Burkina Faso.",
@@ -1478,7 +1478,7 @@
   "Q875573": {
     "t": "The river that gave the Han Chinese their name",
     "s": "The name Han, borne by a dynasty and then by China's largest ethnic group, traces back to this river. Here on the Jianghan Plain it winds between dikes through a flat, watery land of rice fields, fish ponds and lakes. It joins the Yangtze at Wuhan, where the district of Hankou, 'Han mouth', stands at the confluence.",
-    "w": "A winding river between dikes across a flat plain of rice paddies, silver fish ponds and scattered lakes.",
+    "w": "Dikes hold the river across a flat plain of rice paddies, silver fish ponds and scattered lakes.",
     "f": [
       "The Danjiangkou reservoir on its upper course sends water north towards Beijing along a canal over 1,000 km long.",
       "About 1,500 km long, the Han is one of the Yangtze's largest tributaries.",
@@ -1495,7 +1495,7 @@
   },
   "Q271044": {
     "t": "The 'great river' of India's rice bowl",
-    "s": "Mahanadi means 'great river' in Sanskrit. Here in Chhattisgarh its basin is a flat, green-and-gold plain of rice fields, crossed by wide, sandy riverbeds that fill only in the monsoon. Downstream in Odisha the river is held back by the Hirakud dam, then spreads into a broad delta on the Bay of Bengal.",
+    "s": "Rice fields fill the flat plain of Chhattisgarh, green in the monsoon and gold after the harvest, crossed by wide, sandy riverbeds that fill only when the rains come. This is the basin of the Mahanadi, Sanskrit for 'great river'. Downstream in Odisha the river is held back by the Hirakud dam, then spreads into a broad delta on the Bay of Bengal.",
     "w": "A wide, pale sandy riverbed with a thin stream, crossing a flat patchwork of rice fields and village ponds.",
     "f": [
       "With its dikes, the Hirakud dam stretches for about 25 km, one of the longest dams in the world.",
@@ -1512,9 +1512,9 @@
     }
   },
   "Q1535828": {
-    "t": "A West African river named by Portuguese sailors",
+    "t": "Named by Portuguese sailors after Saint Andrew",
     "s": "Portuguese navigators named its mouth after Saint Andrew, and the name stuck to the whole river. The Sassandra runs south for about 650 km from the Guinean highlands, through savanna and then rainforest, to the Gulf of Guinea. Here it winds through mixed forest and farmland, some 200 km before the Buyo dam holds it back in a large lake.",
-    "w": "A winding brown river through a mosaic of forest patches, plantations and fields, heading south towards a large reservoir.",
+    "w": "Forest patches, plantations and fields form a mosaic around a brown river heading south towards a large reservoir.",
     "f": [
       "Taï National Park, one of West Africa's last large rainforests, lies west of its lower course.",
       "The Buyo reservoir on the Sassandra is one of the largest lakes in Côte d'Ivoire.",
@@ -1548,9 +1548,9 @@
     }
   },
   "Q1229": {
-    "t": "A quiet steppe river under white chalk cliffs",
+    "t": "Quiet water under white chalk cliffs",
     "s": "White chalk cliffs rise on the Don's right bank, bright against green woods and yellow fields, while the left bank spreads into a low floodplain of meadows, oxbows and sandbars. The Don runs about 1,870 km from near Tula to the Sea of Azov. The ancient Greeks knew it as the Tanais and saw it as the boundary between Europe and Asia.",
-    "w": "A winding river with pale chalk cliffs on one side and a wide green floodplain with oxbow lakes on the other.",
+    "w": "Pale chalk cliffs on one bank, a wide green floodplain with oxbow lakes on the other.",
     "f": [
       "Mikhail Sholokhov's novel And Quiet Flows the Don is set among the Cossacks of its middle course.",
       "The Volga–Don Canal, opened in 1952, links it with the Volga near Volgograd.",
@@ -1568,7 +1568,7 @@
   "Q1046685": {
     "t": "The river that gave Jiangxi its short name",
     "s": "Jiangxi province's one-character name, Gan, comes from this river, which runs the length of the province from south to north. Here it winds through red hills and bright green rice paddies near Taihe. After about 750 km it spreads into Poyang Lake, China's largest freshwater lake, which drains into the Yangtze.",
-    "w": "A wide, winding river through a patchwork of red-earth hills and green rice paddies, with sandbars on the bends.",
+    "w": "Red-earth hills and green rice paddies in a patchwork, with a wide river and sandbars on its bends.",
     "f": [
       "Nanchang, Jiangxi's capital, stands on the Gan; its Tengwang Pavilion is one of China's most famous towers.",
       "The upper Gan was once feared for its 'eighteen rapids', now largely tamed by dams.",
@@ -1584,7 +1584,7 @@
     }
   },
   "Q193499": {
-    "t": "A Deccan river of dams and legendary diamonds",
+    "t": "Dams, dry plateau and legendary diamonds",
     "s": "The Krishna crosses the dry Deccan plateau from west to east, and here it widens into the great Almatti reservoir, a sheet of water among brown fields. It rises in the Western Ghats near Mahabaleshwar and runs about 1,400 km to the Bay of Bengal. Some of history's most famous diamonds came from mines along its lower course.",
     "w": "A broad, branching reservoir with jagged arms spreading over a flat, brown plateau of fields.",
     "f": [
@@ -1604,7 +1604,7 @@
   "Q2249": {
     "t": "The river where the Rocky Mountains end",
     "s": "The Canadian Rockies run out at the Liard's valley, and here the river swings through their rugged northern tip in a canyon of rapids, with forested slopes and bare grey peaks around it. Its French name, from the fur traders, means 'cottonwood', after the poplars on its banks. It flows about 1,100 km to meet the Mackenzie at Fort Simpson.",
-    "w": "A green river winding through a deep forested valley between grey mountain ridges, with gravel bars on its bends.",
+    "w": "Grey mountain ridges and a deep forested valley, with the green river and its gravel bars at the bottom.",
     "f": [
       "Liard River Hot Springs, just upstream, is one of the largest natural hot springs in Canada.",
       "Wood bison graze along the Alaska Highway near its valley.",
@@ -1620,9 +1620,9 @@
     }
   },
   "Q732790": {
-    "t": "A river of rapids between Angola and Congo",
+    "t": "Rapids and gallery forest on the Angola–Congo border",
     "s": "The Kwango rises on the high plateaus of northern Angola and flows north for about 1,100 km through savanna and gallery forest, for a long stretch marking the border with the Democratic Republic of the Congo. Falls and rapids break its course. Downstream it joins the Kasai, and its water finally reaches the Congo River.",
-    "w": "A winding river with a dark ribbon of gallery forest across rolling, grassy plateau cut by small valleys.",
+    "w": "Rolling, grassy plateau cut by small valleys, with the river marked by a dark ribbon of gallery forest.",
     "f": [
       "The Kwango is the largest tributary of the Kasai.",
       "Its valley in Angola is known for diamonds washed from the river gravels.",
@@ -1638,9 +1638,9 @@
     }
   },
   "Q846063": {
-    "t": "A river through Zambia's oldest national park",
+    "t": "Through the wild heart of Zambia's oldest park",
     "s": "The Kafue winds through one of Africa's great wildernesses: Kafue National Park, Zambia's oldest and largest, with wooded savanna, floodplains and grassy dambos stretching to the horizon. Upstream the river crosses the Copperbelt; downstream it spreads over the Kafue Flats, home to herds of lechwe antelope, before joining the Zambezi.",
-    "w": "A dark, winding river with pale floodplain grassland, through endless olive-green woodland dotted with shallow dambos.",
+    "w": "Endless olive-green woodland dotted with shallow dambos, and a dark river edged by pale floodplain grassland.",
     "f": [
       "Kafue National Park covers about 22,400 km², a little larger than Wales.",
       "The Kafue lechwe, a water-loving antelope, lives only on the Kafue Flats.",
@@ -1656,9 +1656,9 @@
     }
   },
   "Q2742774": {
-    "t": "A river of gems and clay dolls in dry Minas Gerais",
+    "t": "Gemstones and painted clay dolls in dry hill country",
     "s": "The Jequitinhonha rises near Diamantina, where diamonds were found in the 18th century, and flows north-east through dry hills of scrub and pasture to the Atlantic in Bahia. Its valley is famous across Brazil for folk art, especially painted clay dolls made by local women. Gemstones such as tourmaline and aquamarine are mined in its hills.",
-    "w": "A winding, sandy river in a valley of rounded, dry hills, grey-green scrub and patches of pasture.",
+    "w": "Rounded dry hills of grey-green scrub and pasture, with a sandy river on the valley floor.",
     "f": [
       "Diamantina, near its source, is a UNESCO World Heritage site.",
       "It runs about 1,100 km to the Atlantic at Belmonte, in Bahia.",
@@ -1674,8 +1674,8 @@
     }
   },
   "Q955354": {
-    "t": "A lonely river across Patagonia to Welsh villages",
-    "s": "For hundreds of kilometres the Chubut crosses almost empty Patagonian plateau, a thin green thread between ochre cliffs and grey-brown steppe. It rises in the Andes and runs about 800 km east to the Atlantic. In its lower valley Welsh settlers arrived in 1865, and towns like Gaiman still serve Welsh tea.",
+    "t": "Across empty Patagonia to Welsh tea rooms",
+    "s": "Few people live along the middle Chubut. It crosses empty Patagonian plateau as a thin green thread between ochre cliffs and grey-brown steppe, running some 800 km from the Andes east to the Atlantic. In its lower valley Welsh settlers arrived in 1865, and towns like Gaiman still serve Welsh tea.",
     "w": "A thin, winding green line across a vast brown plateau, with layered ochre cliffs along parts of the valley.",
     "f": [
       "Some families in the Chubut valley still speak Welsh.",
@@ -1692,8 +1692,8 @@
     }
   },
   "Q1162365": {
-    "t": "A salty river winding across the hot Chaco plain",
-    "s": "Salado simply means 'salty', and the river earns the name: its water picks up salt from the dry soils it crosses. Rising in the Andes of Salta, where it is called the Juramento, it winds south-east for more than 1,000 km across the flat, scrubby plains of Santiago del Estero. It ends in the Paraná near Santa Fe.",
+    "t": "Salty water winding across the hot Chaco plain",
+    "s": "Its water carries the taste of the land it crosses: the Salado, 'salty', picks up salt from the dry soils along its way. Rising in the Andes of Salta, where it is called the Juramento, it winds south-east for more than 1,000 km across the flat, scrubby plains of Santiago del Estero. It ends in the Paraná near Santa Fe.",
     "w": "A thin meandering river with pale banks, winding across flat olive-green scrub and large cleared fields.",
     "f": [
       "Its upper course in Salta is known as the Pasaje or Juramento.",
@@ -1728,7 +1728,7 @@
     }
   },
   "Q655251": {
-    "t": "A great river of the Colombian llanos",
+    "t": "Loops of brown water across the Colombian llanos",
     "s": "The llanos stretch flat to every horizon, green grassland striped with dark gallery forest, and through them the Meta loops east towards the Orinoco. In the rainy season much of this plain floods into a shimmering sheet of water; in the dry season it turns gold. Along its last stretch the river forms the border between Colombia and Venezuela.",
     "w": "A broad, looping brown river with sandbars, crossing flat green grassland striped by dark lines of gallery forest.",
     "f": [
@@ -1746,7 +1746,7 @@
     }
   },
   "Q849693": {
-    "t": "A rainforest river rich in oxbow lakes",
+    "t": "Horseshoe lakes glinting in the rainforest",
     "s": "The Madre de Dios is a textbook rainforest river: a broad brown ribbon swinging in huge loops, leaving oxbow lakes that glint like horseshoes in the green. It rises in the Andes near Manu National Park in Peru and flows east into Bolivia, where it joins the Beni. Giant otters and caimans live in its quiet lakes.",
     "w": "A wide brown river looping through unbroken forest, with shining horseshoe-shaped lakes along its course.",
     "f": [
@@ -1766,7 +1766,7 @@
   "ne-rv-1159116437": {
     "t": "The river where Brazil's patron saint was found",
     "s": "In 1717 three fishermen on the Paraíba do Sul pulled a small clay statue of the Virgin from the water near today's Aparecida; it became Our Lady Aparecida, patron saint of Brazil. The river runs along a long valley between the Serra do Mar and the Serra da Mantiqueira, linking the states of São Paulo and Rio de Janeiro, and reaches the Atlantic after about 1,100 km.",
-    "w": "A winding river in a wide valley between two mountain ranges, lined with towns, a highway and farmland.",
+    "w": "Two mountain ranges frame a wide valley; the river runs down its middle, lined with towns, a highway and farmland.",
     "f": [
       "The basilica at Aparecida is one of the largest Catholic churches in the world.",
       "Much of Rio de Janeiro's water supply is pumped from the Paraíba do Sul.",
@@ -1784,7 +1784,7 @@
   "Q18278": {
     "t": "The river that gave a country its name",
     "s": "A whole country took its name from this river: Uruguay lies on its eastern bank. Here, far upstream, the Uruguay is a green-brown river winding through rolling hills of forest and farmland, with Brazil on one bank and Argentina on the other. A little upstream it tumbles over the Moconá Falls, which run lengthwise along the river rather than across it.",
-    "w": "A winding river in a deep green valley between rolling hills, forest and patchwork farmland on its banks.",
+    "w": "A deep green valley between rolling hills, with forest and patchwork farmland on both banks of the river.",
     "f": [
       "Uruguay's official name means 'Eastern Republic of the Uruguay' – the land east of this river.",
       "It runs about 1,800 km and, with the Paraná, forms the Río de la Plata.",
@@ -1800,7 +1800,7 @@
     }
   },
   "Q21806688": {
-    "t": "A muddy river that loses itself in the Chaco",
+    "t": "So muddy it keeps losing its own way",
     "s": "The Pilcomayo carries so much silt down from the Bolivian Andes that it keeps choking its own bed. Here it leaves the foothills and enters the flat Gran Chaco, where three countries meet on its banks. Further on, much of its water spills into shifting marshes, and its channel moves from year to year.",
     "w": "A pale, silty river with a wide sandy bed across flat, olive-green Chaco scrub, with dry channels branching off.",
     "f": [
@@ -1818,7 +1818,7 @@
     }
   },
   "Q2635327": {
-    "t": "A dark rainforest river in bonobo country",
+    "t": "Dark water through the heart of bonobo country",
     "s": "Endless rainforest, broken only by the dark, twisting line of the Tshuapa: this is the heart of the Congo Basin. The river winds west for about 1,000 km, joining other streams to reach the Congo near Mbandaka, a city on the equator. Its basin lies south of the Congo River, the only region in the world where wild bonobos live.",
     "w": "A narrow, dark river twisting through unbroken, deep-green rainforest, its banks almost hidden by the canopy.",
     "f": [
@@ -1836,7 +1836,7 @@
     }
   },
   "Q273456": {
-    "t": "A river that ends in a desert lake, not the sea",
+    "t": "Highland gorges down to a jade desert lake",
     "s": "The Omo never reaches the sea. It drops from the Ethiopian highlands through deep, forested gorges, then winds south across hot lowlands to end in Lake Turkana, a jade-green lake in the desert. Its lower valley has yielded some of the oldest known fossils of our own species.",
     "w": "A brown river twisting through a deep, wooded gorge, with green highland ridges rising on either side.",
     "f": [
@@ -1854,9 +1854,9 @@
     }
   },
   "Q2001150": {
-    "t": "A savanna river on its way to Lake Chad",
+    "t": "Savanna water bound for Lake Chad",
     "s": "The Ouham rises in the north-west of the Central African Republic and flows north through wooded savanna, a dark thread of gallery forest in the grass. Across the border in Chad it becomes the Bahr Sara and joins the Chari, whose water ends in Lake Chad. In the rainy season it swells and spreads over its floodplain.",
-    "w": "A winding river lined with dark gallery forest, crossing rolling, tree-dotted savanna with scattered villages and fields.",
+    "w": "Rolling, tree-dotted savanna with scattered villages; the river shows as a dark line of gallery forest.",
     "f": [
       "The Ouham is one of the main headwaters of the Chari, the river that feeds Lake Chad.",
       "A prefecture of the Central African Republic is named after it.",
@@ -1872,9 +1872,9 @@
     }
   },
   "Q2591927": {
-    "t": "A rainforest river on the road to the Congo",
+    "t": "Under the forest canopy, bound for the Congo",
     "s": "The Kadéï begins in the forests of eastern Cameroon and flows east and south-east into the Central African Republic, a narrow, dark river under a green canopy. At Nola it meets the Mambéré, and together they form the Sangha, which flows on south through vast rainforest to join the Congo River.",
-    "w": "A narrow, winding dark river through dense green forest, with a few clearings and roads along its course.",
+    "w": "Dense green forest with only a few clearings and roads, and a narrow dark river snaking through it.",
     "f": [
       "The Sangha, which it helps to form, crosses the Sangha Trinational, a UNESCO site shared by three countries.",
       "The forests of its basin shelter forest elephants and western lowland gorillas.",
@@ -1890,7 +1890,7 @@
     }
   },
   "Q746779": {
-    "t": "A wild border river between Tanzania and Mozambique",
+    "t": "The wild line between Tanzania and Mozambique",
     "s": "For most of its roughly 800 km the Ruvuma is the border between Tanzania and Mozambique, running east through wild miombo woodland to the Indian Ocean. Its wide, sandy bed is braided with channels and green islands. To the south lies the Niassa Reserve, one of Africa's largest protected wildernesses.",
     "w": "A wide, sandy, braided river with green islands, crossing flat woodland with few roads or villages.",
     "f": [
@@ -1908,9 +1908,9 @@
     }
   },
   "Q14299": {
-    "t": "A Castilian river of castles, treaties and wine",
+    "t": "Castles, a world-dividing treaty and port wine",
     "s": "On the vast, wheat-coloured plateau of Castile, the Duero is a green line of poplars and fields. Near here, at Tordesillas, Spain and Portugal signed the 1494 treaty that divided newly explored lands overseas between them. Downstream the river becomes the Douro and carves a deep valley of terraced port vineyards on its way to Porto.",
-    "w": "A thin, winding green line of trees and fields across a vast, flat plateau of golden and brown farmland.",
+    "w": "A vast, flat plateau of golden and brown farmland, crossed by a thin green line of trees and fields.",
     "f": [
       "Simancas castle, on its banks, has held Spain's royal archives since the 16th century.",
       "The Alto Douro wine region in Portugal became a UNESCO World Heritage site in 2001.",
@@ -1944,7 +1944,7 @@
     }
   },
   "Q206850": {
-    "t": "A silt-red river racing towards Hanoi",
+    "t": "Rust-red with silt, running straight for Hanoi",
     "s": "The river's name says it: laden with red-brown silt, it looks like a stripe of rust in a deep green valley. It rises in Yunnan, where it is called the Yuan, and runs south-east in a remarkably straight line along a great fault before crossing into Vietnam at Lao Cai. Downstream it passes Hanoi and builds the fertile Red River Delta.",
     "w": "A reddish-brown river running in a straight, deep valley between steep green mountain ranges, heading south-east.",
     "f": [
@@ -1980,7 +1980,7 @@
     }
   },
   "Q234004": {
-    "t": "A westbound river running down a rift valley",
+    "t": "Flowing west while India's great rivers go east",
     "s": "Most of India's great rivers flow east to the Bay of Bengal; the Narmada goes west. It runs about 1,300 km through a long rift valley between the Vindhya and Satpura ranges to the Arabian Sea. Here, at Hoshangabad, now renamed Narmadapuram, it is a broad river lined with bathing ghats. Pilgrims walk its whole length, down one bank and back up the other.",
     "w": "A broad river running east–west in a long, straight valley, wooded hills to the south and a town on its south bank.",
     "f": [
@@ -1998,8 +1998,8 @@
     }
   },
   "Q1075393": {
-    "t": "A gorge river of watchtowers and giant peaks",
-    "s": "Deep in the mountains of western Sichuan the Dadu roars through narrow gorges, walled by slopes that rise thousands of metres. Around Danba, Tibetan villages and ancient stone watchtowers cling to terraces above the river. Further south it passes beneath Gongga Shan, 7,556 m high, before meeting the Min at Leshan, beside the Giant Buddha.",
+    "t": "Stone watchtowers above a roaring gorge",
+    "s": "Western Sichuan's mountains squeeze the Dadu into narrow, roaring gorges, walled by slopes that rise thousands of metres. Around Danba, Tibetan villages and ancient stone watchtowers cling to terraces above the river. Further south it passes beneath Gongga Shan, 7,556 m high, before meeting the Min at Leshan, beside the Giant Buddha.",
     "w": "A thin river deep in steep, forested gorges, with snow-capped peaks rising to the south-west.",
     "f": [
       "The Leshan Giant Buddha, carved in the 8th century where the Dadu meets the Min, is 71 m tall.",
@@ -2034,7 +2034,7 @@
     }
   },
   "Q216875": {
-    "t": "A Himalayan river spanned by a record railway bridge",
+    "t": "Spanned by the world's highest railway bridge",
     "s": "The Chenab gathers glacier water high in the Himalaya and races through deep, steep-sided gorges on its way to the plains of Punjab. Near here its canyon is spanned by a steel arch railway bridge about 359 m above the water, the highest railway bridge in the world. The river is born where two streams meet, the Chandra and the Bhaga.",
     "w": "A blue-green river winding in a deep, steep gorge between forested ridges, with snowy peaks further north.",
     "f": [
@@ -2052,7 +2052,7 @@
     }
   },
   "Q26390": {
-    "t": "A Chukotka river with a pocket of forest in the tundra",
+    "t": "A surprise pocket of forest in Chukotka's tundra",
     "s": "Chukotka is mostly bare tundra and mountain, but along the middle Anadyr, around the village of Markovo, poplars, willows and larches grow in a surprising pocket of forest. The river winds east for about 1,150 km across lake-strewn lowlands to the Bering Sea. In 1649 Semyon Dezhnev's men built a winter fort on its banks.",
     "w": "A broad, braided river through flat, pale tundra full of lakes, with darker patches of riverside woodland.",
     "f": [
@@ -2070,9 +2070,9 @@
     }
   },
   "Q216188": {
-    "t": "A Siberian river through coal country and taiga",
+    "t": "Coal country, taiga and ancient rock art",
     "s": "The Tom crosses the Kuznetsk Basin, one of Russia's great coal fields, where huge grey open-pit mines are cut into the green hills. Rising in the Kuznetsk Alatau, it runs about 830 km north past Novokuznetsk, Kemerovo and Tomsk to the Ob. On riverside rocks near Kemerovo, ancient people carved elk, bears and birds.",
-    "w": "A winding river in a green valley of forest and fields, with grey terraced coal pits in the hills further south.",
+    "w": "A green river valley of forest and fields; further south, grey terraced coal pits stand out in the hills.",
     "f": [
       "The rock carvings of Tomskaya Pisanitsa, near Kemerovo, are several thousand years old.",
       "Tomsk, founded in 1604, is one of the oldest cities in Siberia and is named after the river.",
@@ -2090,7 +2090,7 @@
   "Q1468689": {
     "t": "Central America's longest river, deep in the jungle",
     "s": "The Coco is usually counted as the longest river lying entirely within Central America, about 700 km from the hills of Honduras and Nicaragua to the Caribbean. For much of its course it forms the border between the two countries, winding through dense forest. The Miskito people call it the Wangki; it reaches the sea at Cape Gracias a Dios.",
-    "w": "A winding brown river through dense, dark-green forest, with few clearings, forming a natural border.",
+    "w": "Dense, dark-green forest with few clearings, split by a brown river that doubles as a border.",
     "f": [
       "Columbus named Cape Gracias a Dios, 'thanks be to God', in 1502 after escaping a storm there.",
       "The Bosawás Biosphere Reserve, one of Central America's largest forests, lies along its Nicaraguan side.",
@@ -2106,9 +2106,9 @@
     }
   },
   "Q196183": {
-    "t": "A free-flowing river through Indiana's cornfields",
+    "t": "Free-flowing through Indiana's cornfields",
     "s": "Fields of corn and soybeans stretch in a perfect grid across the flat Midwest, and the Wabash cuts through them in a wooded, winding valley. From a dam near Huntington it flows unimpeded for about 660 km to the Ohio, one of the longest free-flowing stretches of river east of the Mississippi. It is Indiana's state river, and the state song is about it.",
-    "w": "A winding river in a narrow wooded valley, cutting through a flat grid of square fields.",
+    "w": "A narrow wooded valley cutting diagonally through a flat grid of square fields.",
     "f": [
       "'On the Banks of the Wabash, Far Away' has been Indiana's state song since 1913.",
       "Along its lower course it forms the border between Indiana and Illinois.",
@@ -2124,9 +2124,9 @@
     }
   },
   "Q607546": {
-    "t": "A river that plunges into a gorge at Grand Falls",
+    "t": "Plunging into a gorge, reversed by the tides",
     "s": "At Grand Falls the Saint John drops about 23 m into a deep, narrow gorge. Upstream it forms part of the border between Maine and New Brunswick, and potato fields spread around it in neat stripes. At its mouth the Bay of Fundy's huge tides push back against the river, reversing the rapids at the famous Reversing Falls.",
-    "w": "A river winding through a patchwork of long, striped fields and woods, with a small town beside a narrow gorge.",
+    "w": "Long, striped fields and woods on both sides of the river, and a small town beside a narrow gorge.",
     "f": [
       "Samuel de Champlain named the river after reaching its mouth on St John the Baptist's day in 1604.",
       "Its Wolastoqey name, Wolastoq, means 'beautiful river'.",
@@ -2138,6 +2138,312 @@
       "x": [
         "The river freezes into steps",
         "Two rivers swap channels"
+      ]
+    }
+  },
+  "Q134350": {
+    "t": "Straightened by hand, still scarred with old loops",
+    "s": "The Great Hungarian Plain is flat as a table, and across it the Tisza winds between dikes, surrounded by the ghostly curves of former meanders. In the 19th century engineers cut through more than a hundred of its loops, shortening the river by hundreds of kilometres to tame its floods. It is the longest tributary of the Danube, about 960 km.",
+    "w": "Curving oxbow lakes and old meander scars all over a flat plain, with the river held between dikes.",
+    "f": [
+      "Each June, swarms of long-tailed mayflies hatch over the river in what Hungarians call the 'Tisza blooming'.",
+      "Lake Tisza, a reservoir upstream, has become a large wetland reserve for birds.",
+      "The river rises in the Carpathians and touches five countries on its way to the Danube."
+    ],
+    "q": {
+      "q": "Which river is the Tisza the longest tributary of?",
+      "a": "The Danube",
+      "x": [
+        "The Drava",
+        "The Sava"
+      ]
+    }
+  },
+  "Q838143": {
+    "t": "Born in the world's first protected wilderness",
+    "s": "The Gila rises in the mountains of New Mexico, in the Gila Wilderness, which in 1924 became the first area anywhere officially protected as wilderness. From there it winds west across Arizona, a thin green line of cottonwoods through brown desert ranges. Much of its water is used before it reaches the Colorado at Yuma, and long stretches lie dry.",
+    "w": "A thin green ribbon of trees and fields winding through dry, brown mountains and desert basins.",
+    "f": [
+      "The Gila monster, a venomous lizard, is named after the river's basin.",
+      "The Gila is about 1,040 km long.",
+      "The conservationist Aldo Leopold campaigned for its headwaters to be protected."
+    ],
+    "q": {
+      "q": "What was set aside in the Gila's headwaters in 1924?",
+      "a": "The first wilderness area",
+      "x": [
+        "The first national park",
+        "The first bird sanctuary"
+      ]
+    }
+  },
+  "Q173017": {
+    "t": "Kipling's 'great grey-green, greasy' river",
+    "s": "Rudyard Kipling called it 'the great grey-green, greasy Limpopo River, all set about with fever-trees', and the description still fits: a wide, sandy riverbed, often nearly dry, lined with dark green trees in pale bush. Here it forms the border between South Africa and Zimbabwe. It runs about 1,750 km to the Indian Ocean in Mozambique.",
+    "w": "A wide, pale sandy riverbed with a dark green fringe of trees, winding east through dry, grey-brown bush.",
+    "f": [
+      "Mapungubwe, upstream where the Shashe joins, was the heart of a powerful kingdom around 1200 and is now a UNESCO site.",
+      "Downstream at Pafuri, on the edge of Kruger National Park, three countries meet on its banks.",
+      "In the dry season long stretches of its bed hold no flowing water at all."
+    ],
+    "q": {
+      "q": "Which writer called the Limpopo 'great grey-green, greasy'?",
+      "a": "Rudyard Kipling",
+      "x": [
+        "Joseph Conrad",
+        "H. Rider Haggard"
+      ]
+    }
+  },
+  "Q920267": {
+    "t": "Larch, tundra and ice on the Taymyr lowlands",
+    "s": "Far above the Arctic Circle, the Kheta winds east across the lowlands of Taymyr, where scattered larches give way to open tundra and countless lakes. It lies frozen for most of the year and passes only a few small settlements. Where it meets the Kotuy, the river takes a new name, the Khatanga, and flows on to the Laptev Sea.",
+    "w": "Flat, pale tundra and sparse larch woodland dotted with countless lakes, the river curling east through it.",
+    "f": [
+      "The Kheta is about 600 km long.",
+      "Dolgan reindeer herders and fishermen live in the villages along its banks.",
+      "Ary-Mas, on a nearby tributary of the Khatanga, is often called the northernmost forest in the world."
+    ],
+    "q": {
+      "q": "The Kheta and which river form the Khatanga?",
+      "a": "The Kotuy",
+      "x": [
+        "The Taymyra",
+        "The Pyasina"
+      ]
+    }
+  },
+  "Q903306": {
+    "t": "Texas's 'river of the arms of God'",
+    "s": "Spanish explorers named it Río de los Brazos de Dios, 'the river of the arms of God', and the name was later shortened. Here, south of Fort Worth, it winds through rolling ranch country and wooded hills, dammed into long, branching lakes. The Brazos crosses Texas from the High Plains to the Gulf of Mexico, one of the longest rivers in the state.",
+    "w": "Rolling ranchland with a wooded river valley that widens into long, branching reservoirs.",
+    "f": [
+      "Dinosaur tracks can be seen in the bed of the Paluxy, a Brazos tributary, at Glen Rose.",
+      "Texas declared its independence in 1836 at Washington-on-the-Brazos.",
+      "Stephen F. Austin's colony of American settlers grew up along its lower course in the 1820s."
+    ],
+    "q": {
+      "q": "What does the Brazos's full Spanish name mean?",
+      "a": "River of the arms of God",
+      "x": [
+        "River of the red earth",
+        "River of the lost horses"
+      ]
+    }
+  },
+  "Q237901": {
+    "t": "The 'wild horse without reins' of the Taklamakan",
+    "s": "The Tarim runs along the northern edge of the Taklamakan, one of the world's great sand deserts, and its shifting channels have earned it a Chinese nickname: 'the wild horse without reins'. Along its banks grows a belt of desert poplars, gold in autumn, that marks the river as a dark band across the sand. It has no outlet to the sea.",
+    "w": "A braided river with a dark belt of poplar woods along it, the pale dunes of the Taklamakan to the south.",
+    "f": [
+      "Its riverside poplar forests are among the largest of their kind in the world.",
+      "Lop Nur, the lake it once fed at its far end, has dried up.",
+      "Counted from the Yarkand's source, the Tarim is over 2,000 km long, China's longest inland river."
+    ],
+    "q": {
+      "q": "Which desert lies along the Tarim's southern bank?",
+      "a": "The Taklamakan",
+      "x": [
+        "The Gobi",
+        "The Karakum"
+      ]
+    }
+  },
+  "Q385342": {
+    "t": "Four names along its course, and rarely much water",
+    "s": "This long river system changes its name as it goes: Desaguadero, then Salado, then Chadileuvú and Curacó, as it drains the dry foothills of western Argentina south towards the Río Colorado. So much of its water irrigates the vineyards and orchards of Mendoza and San Juan that its lower course across La Pampa is often thin or dry, with scattered marshes.",
+    "w": "A faint, winding river line with salt flats and marshes across flat, dry, grey-green scrubland.",
+    "f": [
+      "Desaguadero means 'drain' or 'outlet' in Spanish.",
+      "Upstream it flows through the Guanacache lagoons, a protected wetland.",
+      "In wet years its water can reach the Río Colorado, far to the south."
+    ],
+    "q": {
+      "q": "What does the Spanish name Desaguadero mean?",
+      "a": "Drain or outlet",
+      "x": [
+        "Salt lake",
+        "Thirsty land"
+      ]
+    }
+  },
+  "Q138491": {
+    "t": "Somalia's lifeline, winding to the Indian Ocean",
+    "s": "In the dry bush of southern Somalia, the Jubba is a green lifeline: a winding brown river edged by fields of maize, sesame and bananas. It forms on the Ethiopian border, where the Genale and the Dawa meet, and flows about 1,000 km south to the Indian Ocean near Kismayo. Unlike its neighbour the Shabelle, it usually reaches the sea.",
+    "w": "Flat, dry, reddish bushland crossed by a brown river with a narrow green band of fields and trees.",
+    "f": [
+      "Together with the Shabelle, the Jubba waters most of Somalia's farmland.",
+      "It reaches the sea just south of the equator.",
+      "Its flow rises sharply when the rains fall on the Ethiopian highlands."
+    ],
+    "q": {
+      "q": "Near which port does the Jubba reach the Indian Ocean?",
+      "a": "Kismayo",
+      "x": [
+        "Mogadishu",
+        "Berbera"
+      ]
+    }
+  },
+  "Q210326": {
+    "t": "The river Harbin carves its ice palaces from",
+    "s": "Every winter the Songhua freezes thick, and Harbin cuts huge blocks of its ice to build the glowing palaces of its famous ice festival. The river rises at Heaven Lake on Changbai Mountain and runs about 1,900 km across the plains of north-east China to the Amur. Here, east of Harbin, it winds in wide loops through a flat patchwork of fields.",
+    "w": "A broad, looping river with sandbars and green islands across a flat grid of farmland, white and frozen in winter.",
+    "f": [
+      "The Songhua is the largest tributary of the Amur.",
+      "Upstream at Jilin, mist from the unfrozen river coats the trees in dazzling winter rime.",
+      "Harbin's ice festival dates back to 1963."
+    ],
+    "q": {
+      "q": "Which city builds ice palaces from the frozen Songhua?",
+      "a": "Harbin",
+      "x": [
+        "Shenyang",
+        "Dalian"
+      ]
+    }
+  },
+  "Q1321316": {
+    "t": "Long, inland, and often lost in a swamp",
+    "s": "The Lachlan is one of Australia's longest rivers, yet it often fails to arrive anywhere: in dry years it runs out into the Great Cumbung Swamp before reaching the Murrumbidgee. It rises in the Great Dividing Range and winds west across flat, dusty plains of wheat and red earth, lined with river red gums.",
+    "w": "A thin, winding line of dark river red gums across flat plains of red earth and pale wheat fields.",
+    "f": [
+      "Surveyor George Evans named it in 1815 after Lachlan Macquarie, governor of New South Wales.",
+      "Its water reaches the Murrumbidgee, and then the Murray, mainly in wetter years.",
+      "The Lachlan is about 1,450 km long."
+    ],
+    "q": {
+      "q": "Which governor is the Lachlan River named after?",
+      "a": "Lachlan Macquarie",
+      "x": [
+        "Arthur Phillip",
+        "Ralph Darling"
+      ]
+    }
+  },
+  "Q621609": {
+    "t": "Ending in marshes alive with waterbirds",
+    "s": "Downstream of Warren the Macquarie spreads out into the Macquarie Marshes, a maze of reed beds and red gum swamps where huge numbers of waterbirds breed after a flood. It rises in the Great Dividing Range near Bathurst and flows north-west for about 950 km across the plains. In wet years it continues on to join the Barwon.",
+    "w": "A thin line of dark river red gums across a flat patchwork of fields, spreading north into green marshes.",
+    "f": [
+      "Bathurst, on its upper course, founded in 1815, is Australia's oldest inland city.",
+      "Like the Lachlan, it was named by George Evans after Governor Lachlan Macquarie, in 1813.",
+      "The Macquarie Marshes are protected as a wetland of international importance."
+    ],
+    "q": {
+      "q": "What forms where the Macquarie spreads out on the plains?",
+      "a": "The Macquarie Marshes",
+      "x": [
+        "Lake Eyre",
+        "The Great Cumbung Swamp"
+      ]
+    }
+  },
+  "Q79082": {
+    "t": "The Volga's great partner, winding through taiga",
+    "s": "Deep taiga surrounds the upper Kama, which loops in a huge arc north before turning south towards Perm. By the time it meets the Volga below Kazan it carries so much water that, by some measures, it could count as the main river rather than the tributary. It is the Volga's largest tributary, about 1,800 km long.",
+    "w": "Dark, unbroken taiga, with pale sandbars and oxbow lakes on the river's bends.",
+    "f": [
+      "The Kama rises from springs near the village of Kuliga in Udmurtia.",
+      "Further down, dams turn it into a chain of huge reservoirs, among them the Kama and Votkinsk seas.",
+      "Perm, the largest city on the Kama, grew up around an 18th-century copper works."
+    ],
+    "q": {
+      "q": "Which river does the Kama flow into?",
+      "a": "The Volga",
+      "x": [
+        "The Ob",
+        "The Don"
+      ]
+    }
+  },
+  "Q843308": {
+    "t": "One of Africa's deepest canyons, below the Simien",
+    "s": "The Tekezé has cut one of the deepest canyons in Africa, winding through the Ethiopian highlands in a gorge up to about 2,000 m deep. Here it curves around the eastern side of the Simien Mountains, whose highest peak, Ras Dashen, rises above 4,500 m. Further on it becomes the Setit, joins the Atbara and finally reaches the Nile.",
+    "w": "A thin river deep in a vast, branching canyon, with high green-brown plateaus and jagged peaks to the west.",
+    "f": [
+      "The Tekezé Dam, finished in 2009, was among the tallest arch dams in Africa when it was built.",
+      "The Simien Mountains beside it are a UNESCO World Heritage site, home to gelada monkeys.",
+      "In the rainy season it swells into a roaring torrent; in the dry season it shrinks to a thread."
+    ],
+    "q": {
+      "q": "Which great river does the Tekezé's water finally reach?",
+      "a": "The Nile",
+      "x": [
+        "The Congo",
+        "The Niger"
+      ]
+    }
+  },
+  "Q216941": {
+    "t": "The Pearl River's great trunk, squeezing through gorges",
+    "s": "Near Zhaoqing the Xi, the main stem of the Pearl River, squeezes through short gorges between green hills before spreading into the vast Pearl River Delta. Beyond, the land becomes a web of channels, fish ponds and some of the largest cities on Earth. Zhaoqing itself sits beside a lake studded with the limestone peaks of the Seven Star Crags.",
+    "w": "A broad brown river leaving green hills through a narrow gap, then fanning out into a flat delta of channels and cities.",
+    "f": [
+      "Matteo Ricci lived in Zhaoqing in the 1580s and drew his first Chinese map of the world there.",
+      "The Xi is about 2,200 km long, the longest branch of the Pearl River system.",
+      "The Pearl River system carries more water than any Chinese river except the Yangtze."
+    ],
+    "q": {
+      "q": "Which river system is the Xi the main stem of?",
+      "a": "The Pearl River",
+      "x": [
+        "The Yellow River",
+        "The Huai River"
+      ]
+    }
+  },
+  "Q127892": {
+    "t": "Lake-wide between two cities and two countries",
+    "s": "Posadas in Argentina and Encarnación in Paraguay face each other across the Paraná here, joined by a long bridge. Downstream the Yacyretá dam has raised the water, so the river is broad and lake-like. Nearby stand the ruins of Jesuit missions, where Guaraní communities lived in planned towns in the 17th and 18th centuries.",
+    "w": "A very wide, calm river between two facing cities, with a long bridge and red-earth fields on both banks.",
+    "f": [
+      "At about 4,900 km, the Paraná is the second-longest river in South America.",
+      "The Jesuit missions of Trinidad, Jesús and San Ignacio Miní are UNESCO World Heritage sites.",
+      "Yacyretá dam is one of the largest hydroelectric plants in South America."
+    ],
+    "q": {
+      "q": "Which two cities face each other across the Paraná here?",
+      "a": "Posadas and Encarnación",
+      "x": [
+        "Asunción and Clorinda",
+        "Rosario and Santa Fe"
+      ]
+    }
+  },
+  "Q643": {
+    "t": "Italy's longest river, slow across a fog-bound plain",
+    "s": "Italy's longest river crosses the flat, intensely farmed Po Valley in broad, lazy loops, lined with poplar plantations and sandbars. In winter the valley often lies under thick fog, and only the Alps and Apennines poke through. Here it flows between Piacenza and Cremona, the city where Antonio Stradivari made his violins.",
+    "w": "A wide, looping river with pale sandbars and rows of poplars, crossing a flat, geometric plain of fields.",
+    "f": [
+      "The Po runs about 650 km from Monte Viso in the Alps to its delta on the Adriatic.",
+      "Cremona's violin-making tradition is listed by UNESCO as intangible cultural heritage.",
+      "Fed by the river's silt, its delta is still growing into the Adriatic."
+    ],
+    "q": {
+      "q": "Which famous violin maker worked in Cremona, near the Po?",
+      "a": "Antonio Stradivari",
+      "x": [
+        "Niccolò Paganini",
+        "Antonio Vivaldi"
+      ]
+    }
+  },
+  "Q1469": {
+    "t": "Sandbanks, islands and famous châteaux",
+    "s": "Châteaux line the banks of the Loire, and its wide, shallow bed is scattered with pale sandbanks and wooded islands. Here between Amboise and Chaumont, the valley is part of a UNESCO World Heritage landscape. At about 1,000 km, the Loire is France's longest river, and one of the least tamed in western Europe.",
+    "w": "A wide, shallow river braided with pale sandbanks and green islands, running west through a gentle valley of fields and woods.",
+    "f": [
+      "Leonardo da Vinci spent his last years at Amboise and died there in 1519.",
+      "The Loire Valley between Sully-sur-Loire and Chalonnes has been a UNESCO site since 2000.",
+      "The Loire rises on Mont Gerbier de Jonc in the Massif Central."
+    ],
+    "q": {
+      "q": "Which artist spent his last years at Amboise on the Loire?",
+      "a": "Leonardo da Vinci",
+      "x": [
+        "Michelangelo",
+        "Raphael"
       ]
     }
   }

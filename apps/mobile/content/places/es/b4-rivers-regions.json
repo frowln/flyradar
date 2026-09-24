@@ -394,5 +394,1193 @@
         "El Mekong"
       ]
     }
+  },
+  "Q1497": {
+    "t": "Un río de islas entre altos farallones boscosos",
+    "s": "Aquí, en su curso alto, el Misisipi no es un solo cauce, sino todo un valle de agua: islas, brazos muertos y remansos entre altos farallones boscosos a ambos lados. Los farallones son tan altos porque este rincón del Medio Oeste, el Driftless Area, se libró de los últimos mantos de hielo. Cada pocas decenas de kilómetros, una esclusa y una presa retienen el río en una cadena de amplias balsas.",
+    "w": "Un valle ancho de agua trenzada e islas entre farallones boscosos y empinados, de norte a sur entre campos de cultivo.",
+    "f": [
+      "Con el Misuri, el Misisipi drena cerca del 40 % de los Estados Unidos contiguos.",
+      "Entre Mineápolis y San Luis, unas 29 esclusas y presas convierten el río en una escalera navegable.",
+      "Nace en el lago Itasca, en Minnesota, donde puedes cruzar el joven río pisando piedras."
+    ],
+    "q": {
+      "q": "¿En qué estado nace el Misisipi?",
+      "a": "Minnesota",
+      "x": [
+        "Wisconsin",
+        "Iowa"
+      ]
+    }
+  },
+  "Q1038418": {
+    "t": "El «río de la Arena Dorada» en sus hondos valles",
+    "s": "Jinsha significa «arena dorada», por el oro que antaño se sacaba lavando sus gravas. Es el alto Yangtsé, que excava valles profundos entre las montañas de Yunnan y Sichuan; desde el aire es un hilo verde pardo en el fondo de laderas empinadas y secas. Hoy, una cadena de presas gigantes ha convertido largos tramos en embalses estrechos y sinuosos.",
+    "w": "Un río sinuoso en el fondo de valles de montaña empinados y parduscos, que se ensancha a trechos en largos embalses como serpientes.",
+    "f": [
+      "Aguas arriba, en la garganta del Salto del Tigre, las laderas se alzan más de 3000 m sobre el agua.",
+      "En la «Primera Curva», cerca de Shigu, el río gira bruscamente de sur a noreste.",
+      "La presa de Baihetan, en el Jinsha, es una de las centrales hidroeléctricas más potentes del mundo."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Jinsha?",
+      "a": "Arena dorada",
+      "x": [
+        "Agua negra",
+        "Río de jade"
+      ]
+    }
+  },
+  "Q4814791": {
+    "t": "Un río lento y pálido por la llanura sudanesa",
+    "s": "El Nilo Blanco no tiene prisa. En estas llanuras sudanesas casi no le queda pendiente, así que se extiende ancho y perezoso entre orillas bajas, con el agua pálida por la arcilla fina: de ahí su nombre. Campos de regadío y carrizales bordean el río; más allá, la sabana seca llega hasta el horizonte.",
+    "w": "Un río ancho y pálido de orillas bajas y franjas verdes de regadío, que corre al norte por una llanura llana y seca.",
+    "f": [
+      "En Jartum se une al Nilo Azul, y durante un trecho sus distintos colores corren uno junto al otro.",
+      "Su caudal constante viene sobre todo del lago Victoria y otros lagos de África oriental, filtrado por los pantanos del Sudd.",
+      "La presa de Jebel Aulia, al sur de Jartum, se construyó sobre el Nilo Blanco en la década de 1930."
+    ],
+    "q": {
+      "q": "¿A qué debe su nombre el Nilo Blanco?",
+      "a": "A la arcilla pálida de su agua",
+      "x": [
+        "A fuentes de nieve",
+        "A orillas de arena blanca"
+      ]
+    }
+  },
+  "Q5413": {
+    "t": "El río más largo de Asia, frenado por una presa gigante",
+    "s": "Por aquí el Yangtsé ya no corre libre: es el embalse de las Tres Gargantas, un lago verde pardo de unos 600 km que serpentea entre colinas empinadas. Los pueblos de sus orillas se reconstruyeron más arriba en las laderas a medida que subía el agua. Aguas abajo, el embalse termina en la presa de las Tres Gargantas, la mayor central eléctrica del mundo por capacidad.",
+    "w": "Un río largo, sinuoso y con aspecto de lago entre colinas verdes y empinadas, con pueblos que trepan por sus laderas.",
+    "f": [
+      "Con unos 6300 km, el Yangtsé es el río más largo de Asia y el tercero del mundo.",
+      "El embalse de la presa de las Tres Gargantas llega casi hasta Chongqing.",
+      "Cerca de un tercio de la población de China vive en la cuenca del Yangtsé."
+    ],
+    "q": {
+      "q": "¿Qué presa retiene el Yangtsé aguas abajo de aquí?",
+      "a": "La de las Tres Gargantas",
+      "x": [
+        "La de Xiaolangdi",
+        "La de Longtan"
+      ]
+    }
+  },
+  "Q2750140": {
+    "t": "El río que alimenta el lago Victoria y, con él, el Nilo",
+    "s": "Un río que serpentea por un amplio valle de pantano de papiro, con lagos ensartados a lo largo como cuentas: es el Kagera, el mayor río que desemboca en el lago Victoria, y sus cabeceras suelen considerarse la fuente más lejana del Nilo. En este tramo forma la frontera oriental de Ruanda, con el Parque Nacional de Akagera en su orilla oeste.",
+    "w": "Un río sinuoso en un ancho pantano verde con una cadena de lagos al lado, entre colinas onduladas de sabana.",
+    "f": [
+      "Sus cabeceras nacen en el bosque de Nyungwe, en Ruanda, y en las colinas de Burundi.",
+      "El Parque Nacional de Akagera, que lleva el nombre del río, protege sabanas, lagos y pantanos de papiro en sus orillas.",
+      "El Kagera entra en el lago Victoria en Tanzania, al norte de la ciudad de Bukoba."
+    ],
+    "q": {
+      "q": "¿En qué lago desemboca el Kagera?",
+      "a": "El lago Victoria",
+      "x": [
+        "El lago Tanganica",
+        "El lago Kivu"
+      ]
+    }
+  },
+  "Q5419": {
+    "t": "El «Big Muddy», domado en curvas suaves",
+    "s": "El Misuri se ganó su apodo, el Big Muddy («el gran fangoso»), por el limo que antes arrastraba. Aquí, en la línea entre Kansas y Misuri, traza curvas amplias y suaves entre diques, un cauce modelado por ingenieros para las barcazas. Busca a su lado los fantasmas de cursos antiguos: lagos en media luna y lindes curvas de campos en la llanura aluvial.",
+    "w": "Un río pardo en curvas suaves y regulares por una llanura aluvial de campos, con lagos en media luna y cicatrices de cauces viejos.",
+    "f": [
+      "Con unos 3700 km, el Misuri es el río más largo de Estados Unidos.",
+      "En 1804, Lewis y Clark partieron Misuri arriba en su expedición al Pacífico.",
+      "El Misuri se une al Misisipi justo al norte de San Luis."
+    ],
+    "q": {
+      "q": "¿Cuál es el apodo del Misuri?",
+      "a": "El Big Muddy",
+      "x": [
+        "Old Man River",
+        "El Padre de las Aguas"
+      ]
+    }
+  },
+  "Q284780": {
+    "t": "La hondonada más baja y cálida de China, llena de viñas",
+    "s": "Busca un oasis verde oscuro al pie de colinas rojas y surcadas, junto a un salar blanco. Es la depresión de Turpán, donde el suelo baja a unos 154 m bajo el nivel del mar en el lago Aydingkol, el punto más bajo de China. Sus veranos son los más calurosos del país y, aun así, los viñedos de Turpán prosperan con el deshielo del Tian Shan.",
+    "w": "Un oasis verde y un salar blanco en una cuenca desértica parda, al sur del nevado Tian Shan.",
+    "f": [
+      "Los Montes Llameantes, una cresta desnuda de arenisca roja, corren por su lado norte y brillan con el sol de la tarde.",
+      "Los karez, canales subterráneos excavados hace siglos, aún llevan agua de la montaña a los campos de Turpán.",
+      "Turpán es famosa por sus uvas y pasas, que se secan en casas de ladrillo con paredes caladas."
+    ],
+    "q": {
+      "q": "¿A qué profundidad bajo el mar está el punto más bajo de Turpán?",
+      "a": "A unos 150 m",
+      "x": [
+        "A unos 50 m",
+        "A unos 400 m"
+      ]
+    }
+  },
+  "Q191333": {
+    "t": "Una puerta entre montañas, usada durante milenios",
+    "s": "Al oeste de Peshawar, la llanura verde y abarrotada termina de golpe contra crestas pardas y peladas, y un valle estrecho sube serpenteando entre ellas: el paso de Khyber. Durante miles de años, mercaderes, peregrinos y ejércitos pasaron por aquí entre Asia Central y el subcontinente indio. Su punto más alto está a solo unos 1070 m, pero las laderas que lo rodean son empinadas y secas.",
+    "w": "Donde la verde llanura de Peshawar choca al oeste con una muralla de colinas pardas, peladas y plegadas.",
+    "f": [
+      "El Khyber es una de las principales rutas entre Pakistán y Afganistán, y lleva al paso fronterizo de Torkham.",
+      "Un ferrocarril por el paso, con decenas de túneles y puentes, se terminó en la década de 1920.",
+      "Gandhara, una antigua tierra de arte y saber budistas, estaba en torno a Peshawar, al pie del paso."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está al pie oriental del paso de Khyber?",
+      "a": "Peshawar",
+      "x": [
+        "Lahore",
+        "Quetta"
+      ]
+    }
+  },
+  "Q118388": {
+    "t": "El valle más bajo, cálido y seco de Norteamérica",
+    "s": "Busca una larga franja blanca entre montañas oscuras: el salar de la cuenca Badwater, a 86 m bajo el nivel del mar, el punto más bajo de Norteamérica. Abanicos de grava se derraman desde cada cañón sobre el fondo del valle como arena vertida. En 1913, un termómetro marcó aquí 56,7 °C, la temperatura del aire más alta registrada oficialmente en la Tierra.",
+    "w": "Un salar largo y blanco entre cordilleras pardas, peladas y empinadas, con laderas de grava en abanico bajo cada cañón.",
+    "f": [
+      "El monte Whitney, el pico más alto de los Estados Unidos contiguos con 4421 m, está a menos de 140 km.",
+      "En Racetrack Playa, las rocas se deslizan sobre el barro cuando el viento empuja finas láminas de hielo, y dejan largos surcos.",
+      "El Valle de la Muerte es el mayor parque nacional de los Estados Unidos contiguos."
+    ],
+    "q": {
+      "q": "¿A cuánto bajo el nivel del mar está la cuenca Badwater?",
+      "a": "A unos 86 m",
+      "x": [
+        "A unos 28 m",
+        "A unos 154 m"
+      ]
+    }
+  },
+  "Q534290": {
+    "t": "La despensa de Australia, surcada de ríos pardos y lentos",
+    "s": "Desde arriba, la cuenca del Murray-Darling es una vasta llanura ocre y caqui, cruzada por ríos lentos dibujados con el verde oscuro de los eucaliptos rojos. En la Riverina, cerca de aquí, el regadío convierte la llanura en cuadrados verde vivo de arroz, algodón y frutales. La cuenca ocupa cerca de una séptima parte de Australia.",
+    "w": "Una llanura ocre cruzada por ríos sinuosos bordeados de árboles verde oscuro; cerca de ellos, campos de regadío verde vivo.",
+    "f": [
+      "El Murray y el Darling forman juntos el sistema fluvial más largo de Australia, de bastante más de 3000 km.",
+      "Los eucaliptos rojos de sus orillas pueden vivir varios cientos de años.",
+      "En el seco lago Mungo, al oeste de la cuenca, hubo gente que dejó huellas de su vida hace más de 40 000 años."
+    ],
+    "q": {
+      "q": "¿Qué parte de Australia ocupa, más o menos, la cuenca del Murray-Darling?",
+      "a": "Cerca de una séptima parte",
+      "x": [
+        "Cerca de la mitad",
+        "Cerca de una vigésima parte"
+      ]
+    }
+  },
+  "Q191566": {
+    "t": "Turbera, taiga y antorchas de gas en una llanura infinita",
+    "s": "Pocos lugares de la Tierra son tan llanos como este. Debajo, los ríos se arrastran por la llanura de Siberia Occidental en enormes bucles, y entre ellos se extienden las turberas, un mosaico pardo y oliva de turba e incontables lagos pequeños. De noche, las antorchas de gas y las luces de las ciudades petroleras brillan en la oscuridad.",
+    "w": "Turberas llanas pardo oliva moteadas de pequeños lagos, con ríos en bucles y cintas oscuras de bosque a su lado.",
+    "f": [
+      "El pantano de Vasiugán, en el sur de la llanura, es una de las mayores turberas del mundo.",
+      "En la llanura, el Obi solo baja unos pocos centímetros por kilómetro, así que sus crecidas se extienden y duran mucho.",
+      "La llanura guarda algunos de los mayores yacimientos de gas y petróleo de Rusia, como Samotlor, cerca de Nizhnevártovsk."
+    ],
+    "q": {
+      "q": "¿Qué enorme turbera está en el sur de la llanura de Siberia Occidental?",
+      "a": "El pantano de Vasiugán",
+      "x": [
+        "Las marismas de Pinsk",
+        "Las marismas de Meschora"
+      ]
+    }
+  },
+  "Q966943": {
+    "t": "Tierra de crestas donde ningún río llega al mar",
+    "s": "Mira Nevada desde arriba y verás un ritmo: una larga sierra oscura, un valle llano y pálido, otra sierra, otro valle, repitiéndose hasta el horizonte, todos de norte a sur. Es la Gran Cuenca, donde ningún río encuentra camino al océano: el agua acaba en lagos salados o, sin más, se evapora. Muchos fondos de valle son lechos de lagos secos, de un blanco deslumbrante.",
+    "w": "Sierras paralelas de norte a sur separadas por valles llanos y pálidos, algunos con lechos blancos de lagos secos.",
+    "f": [
+      "Los pinos longevos de la Gran Cuenca, algunos de casi 5000 años, están entre los seres vivos más antiguos de la Tierra.",
+      "El Gran Lago Salado de Utah es un resto de un lago glaciar mucho mayor, el lago Bonneville.",
+      "El explorador John C. Frémont bautizó la Gran Cuenca en la década de 1840, al ver que no tenía salida al mar."
+    ],
+    "q": {
+      "q": "¿Dónde terminan los ríos de la Gran Cuenca?",
+      "a": "En lagos y sumideros interiores",
+      "x": [
+        "En el océano Pacífico",
+        "En el golfo de California"
+      ]
+    }
+  },
+  "Q656985": {
+    "t": "Un mar oculto de agua antigua bajo el outback rojo",
+    "s": "Nada en la superficie la delata: debajo está el outback rojo y ocre, cruzado por los cauces trenzados y secos del Channel Country. Pero bajo él yace la Gran Cuenca Artesiana, una de las mayores reservas subterráneas de agua dulce de la Tierra. Parte de su agua cayó como lluvia hace más de un millón de años.",
+    "w": "Llanuras rojo óxido surcadas de cauces trenzados, casi siempre secos, que se vuelven verdes tras las raras crecidas.",
+    "f": [
+      "La cuenca se extiende bajo cerca de una quinta parte de Australia.",
+      "El agua de algunos pozos profundos sale caliente, cerca del punto de ebullición.",
+      "Donde el agua aflora de forma natural, los manantiales en montículo forman pequeños oasis verdes en el desierto."
+    ],
+    "q": {
+      "q": "¿Qué antigüedad tiene parte del agua de la Gran Cuenca Artesiana?",
+      "a": "Más de un millón de años",
+      "x": [
+        "Unos 1000 años",
+        "Unos 10 000 años"
+      ]
+    }
+  },
+  "Q28809720": {
+    "t": "Campos de tierra negra bajo un largo invierno blanco",
+    "s": "La llanura de Manchuria es el gran granero del norte de China: una extensión llana de enormes campos dispuestos en largas franjas, con cortavientos de chopos trazados como líneas de lápiz. Su suelo es una rica tierra negra, más oscura que en casi cualquier otro lugar de China. De noviembre a marzo está helada y blanca; luego se vuelve verde de maíz y soja.",
+    "w": "Campos llanos en largas franjas separadas por finas líneas de árboles; negros en primavera, verdes en verano, blancos en invierno.",
+    "f": [
+      "Es una de las pocas grandes regiones de tierra negra del mundo, junto a la estepa ucraniana y el Corn Belt de EE. UU.",
+      "El Songhua drena la llanura al norte hacia el Amur, mientras el Liao corre al sur hasta el mar de Bohai.",
+      "Harbin, en su borde norte, es famosa por su festival invernal de gigantescas esculturas de hielo."
+    ],
+    "q": {
+      "q": "¿Qué cultivo domina, junto con el maíz, la llanura de Manchuria?",
+      "a": "La soja",
+      "x": [
+        "El té",
+        "El algodón"
+      ]
+    }
+  },
+  "Q575516": {
+    "t": "Dos desiertos, dos ríos y un mar que desaparece",
+    "s": "Dos hilos verdes cruzan aquí un mar de arena: el Amu Daria y el Sir Daria, que serpentean por los desiertos de Kyzylkum y Karakum en la depresión de Turán. A lo largo de ellos se extienden regadíos y ciudades de oasis. Ambos ríos llenaban antes el mar de Aral, que ha menguado de forma drástica desde la década de 1960 al desviarse su agua para el algodón.",
+    "w": "Desierto ocre de largas crestas de dunas, cruzado por cintas verdes de regadío a lo largo de dos grandes ríos.",
+    "f": [
+      "En las lenguas túrquicas, Kyzylkum significa «arena roja» y Karakum, «arena negra».",
+      "Jiva, cuyo recinto amurallado es sitio de la UNESCO, está en un oasis del bajo Amu Daria.",
+      "Gran parte del fondo al descubierto del mar de Aral se ha convertido en un desierto nuevo, el Aralkum."
+    ],
+    "q": {
+      "q": "¿Qué significa «Kyzylkum»?",
+      "a": "Arena roja",
+      "x": [
+        "Arena negra",
+        "Arena blanca"
+      ]
+    }
+  },
+  "Q23945221": {
+    "t": "La orilla del Sahara, verde solo unos pocos meses",
+    "s": "Sahel viene del árabe y significa «orilla»: es la costa del Sahara, una franja de hierba seca y acacias espinosas que cruza África entera del Atlántico al mar Rojo. Sus colores siguen a la lluvia. De julio a septiembre se vuelve verde casi de la noche a la mañana; el resto del año se apaga en paja y polvo, salpicado de árboles oscuros.",
+    "w": "Sabana leonada o verde salpicada de árboles oscuros, que se funde al norte con arena desnuda, cruzada por cauces secos.",
+    "f": [
+      "La franja recorre unos 5000 km a través de África, pero solo tiene unos cientos de kilómetros de ancho.",
+      "El proyecto de la Gran Muralla Verde quiere restaurar una franja de tierra a través del Sahel con árboles y hierbas.",
+      "La goma arábiga, usada en golosinas y refrescos, viene sobre todo de acacias del Sahel, ante todo de Sudán."
+    ],
+    "q": {
+      "q": "¿Qué significa la palabra árabe «sahel»?",
+      "a": "Orilla",
+      "x": [
+        "Arena",
+        "Sed"
+      ]
+    }
+  },
+  "Q756832": {
+    "t": "Pinares llanos y granjas entre las colinas y el mar",
+    "s": "Bosque oscuro de pinos, campos arenosos en rectángulos ordenados y ríos lentos color té cargado: es el extremo sur, llano, de la llanura costera atlántica. Fue fondo marino, hecho de arena y arcilla depositadas cuando el océano llegaba más adentro. Hacia la costa se disuelve en marismas saladas y una cadena de islas barrera.",
+    "w": "Tierra llana de pinares oscuros y campos rectangulares con ríos sinuosos color té; marismas e islas cerca de la costa.",
+    "f": [
+      "Richmond, Raleigh, Columbia y Augusta crecieron en la Fall Line, donde los ríos caen de las colinas a la llanura.",
+      "El pantano de Okefenokee, entre Georgia y Florida, es uno de los mayores pantanos de aguas negras de Norteamérica.",
+      "Georgia cultiva más cacahuetes que ningún otro estado de EE. UU., gran parte en esta llanura."
+    ],
+    "q": {
+      "q": "¿Por qué muchos ríos de aquí tienen color de té?",
+      "a": "Por los taninos de plantas del pantano",
+      "x": [
+        "Por el limo de arcilla roja",
+        "Por el hierro de manantiales"
+      ]
+    }
+  },
+  "Q208347": {
+    "t": "Un llano caluroso y espinoso en el corazón de Sudamérica",
+    "s": "Fieltro verde oliva, llano hasta todos los horizontes: desde arriba, el bosque seco y espinoso del Gran Chaco parece casi uniforme. Míralo mejor y verás las cicatrices errantes de ríos como el Pilcomayo y el Bermejo, y enormes claros rectangulares para ganado y soja, bordeados de franjas de árboles que se dejaron en pie. El Chaco se extiende por Argentina, Paraguay y Bolivia.",
+    "w": "Monte bajo verde oliva y llano con cicatrices pálidas de ríos sinuosos y grandes claros rectangulares bordeados de árboles.",
+    "f": [
+      "Su nombre suele atribuirse al quechua «chaku», una cacería comunal o un coto de caza.",
+      "Es la segunda región forestal de Sudamérica, tras la Amazonía.",
+      "El pecarí del Chaco solo se conocía por fósiles hasta que en la década de 1970 se identificaron aquí ejemplares vivos."
+    ],
+    "q": {
+      "q": "¿Qué animal, antes conocido solo por fósiles, se halló vivo en el Chaco?",
+      "a": "El pecarí del Chaco",
+      "x": [
+        "El armadillo gigante",
+        "El aguará guazú"
+      ]
+    }
+  },
+  "Q141501": {
+    "t": "Llanuras que cada año pasan del polvo a mar interior",
+    "s": "Los Llanos tienen dos caras. En la estación seca, más o menos de diciembre a abril, estas tierras bajas del Orinoco son una pradera dorada salpicada de palmeras y cruzada por pistas polvorientas. Cuando llegan las lluvias, los ríos se desbordan y enormes extensiones se vuelven una lámina de agua somera que brilla al sol. Es tierra de vaqueros, donde los llaneros aún arrean ganado por la llanura.",
+    "w": "Pradera llana con hileras de árboles junto a ríos sinuosos; en la estación de lluvias, relucientes láminas de agua de inundación.",
+    "f": [
+      "Los Llanos se extienden por Venezuela y Colombia, entre los Andes y el Orinoco.",
+      "Son el hogar de los capibaras, los mayores roedores del mundo, y del caimán del Orinoco.",
+      "El joropo, la música rápida de arpa y maracas de los llaneros, es el baile nacional de Venezuela."
+    ],
+    "q": {
+      "q": "¿Cómo se llama a los vaqueros de los Llanos?",
+      "a": "Llaneros",
+      "x": [
+        "Gauchos",
+        "Huasos"
+      ]
+    }
+  },
+  "Q184382": {
+    "t": "Llana como una mesa y cuadriculada en campos gigantes",
+    "s": "Pampa viene de una palabra quechua que significa «llanura», y pocas llanuras son más llanas. Desde arriba ves una colcha de enormes campos rectangulares, carreteras rectísimas, lagunas someras que brillan plateadas y bosquetes oscuros que señalan cada estancia. Antes pradera alta recorrida por gauchos, hoy es uno de los grandes cinturones agrícolas del mundo: soja, trigo, maíz y carne.",
+    "w": "Una inmensa colcha llana de campos rectangulares, carreteras rectas y lagunas plateadas, con bosquetes oscuros junto a las casas.",
+    "f": [
+      "Casi todos los árboles que ves se plantaron: la pampa natural tenía hierba, pero apenas árboles.",
+      "Sus suelos profundos y fértiles están entre los más ricos del mundo.",
+      "Charles Darwin cabalgó por la pampa en la década de 1830, durante el viaje del Beagle."
+    ],
+    "q": {
+      "q": "¿Qué significa la palabra quechua «pampa»?",
+      "a": "Llanura",
+      "x": [
+        "Hierba",
+        "Viento"
+      ]
+    }
+  },
+  "Q192305": {
+    "t": "Barro del Himalaya, hogar de cientos de millones",
+    "s": "Aquí el Ganges, rumbo ya al golfo de Bengala con el nombre de Padma, traza amplios bucles trenzados por una llanura tan llana que sus ríos vagan a su antojo. Cada campo, aldea y estanque que ves descansa sobre barro bajado del Himalaya. La llanura indogangética está entre los lugares más densamente poblados de la Tierra, y de noche centellea de incontables luces.",
+    "w": "Un río ancho y trenzado con bancos de arena pálidos en un mosaico verde y llano de campos, estanques y aldeas.",
+    "f": [
+      "En algunos puntos, los sedimentos fluviales bajo la llanura superan un kilómetro de espesor.",
+      "En invierno, una niebla espesa suele posarse sobre la llanura, a veces de Pakistán a Bangladés.",
+      "La llanura se extiende más de 2500 km, de Pakistán por el norte de la India hasta Bangladés."
+    ],
+    "q": {
+      "q": "¿Qué montañas aportaron el barro que formó esta llanura?",
+      "a": "El Himalaya",
+      "x": [
+        "Los Ghats Occidentales",
+        "Los montes Vindhya"
+      ]
+    }
+  },
+  "Q486324": {
+    "t": "Un oasis verde y ovalado amurallado por montañas nevadas",
+    "s": "Busca un óvalo verde entre montañas: el valle de Fergana, de unos 300 km de largo, rodeado por el Tian Shan al norte y la cordillera de Alái al sur. Los ríos que bajan de la nieve alimentan un denso mosaico de algodonales, huertos, moreras y ciudades. Aquí nace el Sir Daria, donde se juntan el Naryn y el Kara Daria.",
+    "w": "Una cuenca verde y densamente cultivada, rodeada casi por todos lados de montañas altas, a menudo nevadas.",
+    "f": [
+      "El valle lo comparten Uzbekistán, Kirguistán y Tayikistán.",
+      "Hace más de 2000 años, los emperadores chinos codiciaban los famosos «caballos celestiales» de Fergana.",
+      "Margilán, en el valle, es conocida desde hace siglos por su tejido de seda."
+    ],
+    "q": {
+      "q": "¿Qué río nace en el valle de Fergana?",
+      "a": "El Sir Daria",
+      "x": [
+        "El Amu Daria",
+        "El Zeravshán"
+      ]
+    }
+  },
+  "Q51614": {
+    "t": "Una alta meseta de trigo, sal y pueblos antiguos",
+    "s": "El corazón de Anatolia es una meseta alta y abierta, a cerca de un kilómetro sobre el mar, donde los trigales pasan del verde en primavera al oro en verano y al ocre desnudo en otoño. Justo al suroeste está el lago Tuz, un inmenso lago salado que en verano se seca en una costra blanca deslumbrante. Más al sur se alzan los conos de viejos volcanes como el Hasan y el Erciyes.",
+    "w": "Una amplia meseta ocre y dorada; busca la enorme mancha blanca del lago Tuz y lejanos conos volcánicos.",
+    "f": [
+      "El nombre viene del griego «anatolē», «salida del sol», y por tanto el este.",
+      "Çatalhöyük, más al sur en la meseta, era un pueblo de casas de adobe hace más de 9000 años.",
+      "El lago Tuz aporta buena parte de la sal de Turquía."
+    ],
+    "q": {
+      "q": "¿Qué lago salado está en la meseta central de Anatolia?",
+      "a": "El lago Tuz",
+      "x": [
+        "El lago de Iznik",
+        "El lago Urmía"
+      ]
+    }
+  },
+  "Q1507": {
+    "t": "Viento, estepa y cielo en el extremo de América",
+    "s": "Desde el aire, la Patagonia es sobre todo vacío: estepa gris parda y mesetas de cima plana, cortadas por unos pocos valles fluviales que van como hilos verdes de los Andes al Atlántico. Al oeste, los Andes nevados se alzan sobre lagos de un azul intenso. El viento sopla fuerte y casi sin pausa desde el oeste y dobla los pocos árboles que hay.",
+    "w": "Una vasta estepa gris parda con mesetas planas y cañones; al oeste, los Andes nevados y largos lagos azules.",
+    "f": [
+      "Colonos galeses llegaron al valle del Chubut en 1865, y aún se habla galés en pueblos como Gaiman.",
+      "Algunos de los mayores dinosaurios conocidos, como Argentinosaurus y Patagotitan, se hallaron en la Patagonia.",
+      "El nombre suele vincularse a la tripulación de Magallanes, que en 1520 llamó «patagones» a los habitantes del lugar."
+    ],
+    "q": {
+      "q": "¿Qué lengua europea aún se habla en el valle del Chubut?",
+      "a": "El galés",
+      "x": [
+        "El irlandés",
+        "El euskera"
+      ]
+    }
+  },
+  "Q605779": {
+    "t": "Una vasta pendiente de hielo que cae al océano Austral",
+    "s": "Desde la costa de la Tierra de Wilkes, el hielo sube en una pendiente larga y suave hacia la alta meseta de la Antártida Oriental, cientos de kilómetros tierra adentro. Cerca del mar, los glaciares aceleran y se rajan en grietas, y su superficie parece papel arrugado. Bajo el hielo yace la profunda cuenca subglacial Aurora, en gran parte bajo el nivel del mar.",
+    "w": "Una pendiente blanca sin costuras; cerca de la costa, glaciares agrietados, acantilados de hielo y hielo marino sobre agua oscura.",
+    "f": [
+      "Debe su nombre a Charles Wilkes, que cartografió esta costa en 1840 en una expedición de la Marina de EE. UU.",
+      "El glaciar Totten, en su costa, drena gran parte del manto de hielo y los científicos lo vigilan de cerca.",
+      "La base australiana Casey está en su costa, en las islas Windmill."
+    ],
+    "q": {
+      "q": "¿A quién debe su nombre la Tierra de Wilkes?",
+      "a": "A un oficial naval estadounidense",
+      "x": [
+        "A un capitán ballenero británico",
+        "A un rey noruego"
+      ]
+    }
+  },
+  "Q1340442": {
+    "t": "Hielo sobre algunas de las rocas más antiguas de la Tierra",
+    "s": "Aquí el hielo va de horizonte a horizonte, roto cerca de la costa por crestas oscuras y nunataks, picos rocosos que asoman del manto de hielo como islas en un mar blanco. Algunas de esas rocas están entre las más antiguas de la Tierra. La costa la avistó por primera vez en 1831 John Biscoe, un capitán ballenero y cazador de focas que zarpó de Londres.",
+    "w": "Un manto de hielo blanco con picos rocosos oscuros cerca de la costa que asoman como islas.",
+    "f": [
+      "Toma su nombre de Enderby Brothers, la empresa ballenera londinense que envió a Biscoe al sur.",
+      "Las rocas de su complejo de Napier están entre las más antiguas de la Antártida: se formaron hace unos 3800 millones de años.",
+      "La base Molodiózhnaya, en su costa, fue en su día la principal base soviética en la Antártida."
+    ],
+    "q": {
+      "q": "¿Qué tipo de negocio dio nombre a la Tierra de Enderby?",
+      "a": "Una empresa ballenera",
+      "x": [
+        "Un comerciante de té",
+        "Una empresa de carbón"
+      ]
+    }
+  },
+  "Q189999": {
+    "t": "Montañas ahogadas en hielo, con nombre de reina",
+    "s": "Cerca de la costa de la Tierra de la Reina Maud, cadenas de montañas dentadas rompen el manto de hielo, con sus picos oscuros y agujas de granito medio enterrados en blanco. Más al sur, donde estás ahora, el hielo sube hasta la alta meseta polar y las montañas desaparecen bajo él. El nombre honra a la reina Maud de Noruega, esposa del rey Haakon VII.",
+    "w": "Una meseta blanca tierra adentro; hacia la costa, cordilleras oscuras y picos como agujas que asoman del hielo.",
+    "f": [
+      "Se extiende más de 2000 km a lo largo de la costa antártica.",
+      "Varios países tienen aquí bases de investigación, entre ellas Troll (Noruega), Neumayer (Alemania) y Maitri (India).",
+      "La reina Maud nació princesa británica, hija del rey Eduardo VII."
+    ],
+    "q": {
+      "q": "¿De qué país era reina Maud, que dio nombre a esta tierra?",
+      "a": "Noruega",
+      "x": [
+        "Dinamarca",
+        "Suecia"
+      ]
+    }
+  },
+  "Q745767": {
+    "t": "Volcanes bajo el hielo, con el nombre de una esposa",
+    "s": "Aquí y allá atraviesan el hielo de la Tierra de Marie Byrd los conos nevados de volcanes, algunos de más de 4 km de altura. El monte Sidley, de unos 4285 m, es el volcán más alto de la Antártida. Alrededor hay cientos de kilómetros de hielo blanco y llano. El aviador estadounidense Richard Byrd dio a este remoto rincón de la Antártida Occidental el nombre de su esposa, Marie, en 1929.",
+    "w": "Una extensión blanca con amplios conos volcánicos aislados que se alzan sobre el hielo hacia la costa.",
+    "f": [
+      "Ningún país ha reclamado nunca la Tierra de Marie Byrd.",
+      "En 1929, Byrd fue de los primeros en sobrevolar el Polo Sur.",
+      "Su costa da a los mares de Amundsen y de Ross, a menudo atascados de hielo marino."
+    ],
+    "q": {
+      "q": "¿A quién debe su nombre la Tierra de Marie Byrd?",
+      "a": "A la esposa de un explorador",
+      "x": [
+        "A una reina británica",
+        "A un capitán de barco"
+      ]
+    }
+  },
+  "Q80299": {
+    "t": "La cascada más alta del mundo, desde una montaña mesa",
+    "s": "El Salto Ángel cae 979 m desde el borde del Auyán-tepui, una montaña de arenisca de cima plana que se alza a pico sobre la selva venezolana. Es la cascada ininterrumpida más alta del mundo; en la estación seca, buena parte del agua se convierte en bruma antes de llegar abajo. Busca montañas oscuras en forma de mesa, de paredes verticales y a menudo envueltas en nubes.",
+    "w": "Montañas oscuras de cima plana y paredes verticales que se alzan sobre el bosque verde, a menudo medio ocultas por nubes.",
+    "f": [
+      "Debe su nombre a Jimmie Angel, un piloto estadounidense que lo sobrevoló en 1933 y aterrizó en el tepui en 1937.",
+      "En la lengua pemón local se llama Kerepakupai Merú.",
+      "El salto está en el Parque Nacional Canaima, Patrimonio de la Humanidad de la UNESCO desde 1994."
+    ],
+    "q": {
+      "q": "¿Qué altura tiene el Salto Ángel?",
+      "a": "Unos 979 m",
+      "x": [
+        "Unos 450 m",
+        "Unos 1500 m"
+      ]
+    }
+  },
+  "Q599529": {
+    "t": "La estepa donde probablemente se domó el caballo",
+    "s": "Del Danubio a los Urales, la estepa póntico-caspia fue en su día un mar de hierba estipa. Hoy, cerca del Volga, está casi toda arada en enormes campos de tierra negra, cruzados por cortavientos de árboles y cortados por barrancos ramificados. A principios de verano el trigo está verde; en agosto toda la tierra se vuelve dorada y polvorienta.",
+    "w": "Enormes campos verdes, dorados o negros, separados por finas líneas de árboles y cortados por barrancos; el Volga al oeste.",
+    "f": [
+      "Un estudio genético publicado en 2021 situó el origen de los caballos domésticos actuales en esta estepa, hace unos 4200 años.",
+      "Sus suelos negros, los chernozems, están entre los más fértiles de la Tierra.",
+      "Durante miles de años, nómadas como los escitas y los sármatas recorrieron esta pradera."
+    ],
+    "q": {
+      "q": "¿Qué animal se domesticó probablemente por primera vez en esta estepa?",
+      "a": "El caballo",
+      "x": [
+        "El camello",
+        "El yak"
+      ]
+    }
+  },
+  "ne-rg-1730073989": {
+    "t": "El corazón del Corn Belt, planchado por los glaciares",
+    "s": "Un tablero de ajedrez hasta el horizonte: es el corazón del Corn Belt estadounidense, tierra aplanada y enriquecida por los glaciares de la Edad de Hielo y el polvo que trajo el viento, y luego trazada en secciones de una milla cuadrada. En verano, los cuadros verdean de maíz y soja; tras la cosecha se vuelven pardos y tostados. Ríos como el Misisipi la cruzan por valles boscosos.",
+    "w": "Una cuadrícula de campos y caminos de una milla de lado, verde en verano y parda tras la cosecha, con valles fluviales boscosos.",
+    "f": [
+      "Iowa e Illinois, ambos en las Tierras Bajas Centrales, cultivan juntos cerca de un tercio del maíz de EE. UU.",
+      "Gran parte del suelo se formó sobre loess, polvo fino que el viento arrancó de depósitos glaciares al final de la Edad de Hielo.",
+      "Antes de la agricultura, casi todo esto era pradera de hierba alta, con pastos más altos que una persona."
+    ],
+    "q": {
+      "q": "¿Qué dos cultivos llenan en verano el tablero del Corn Belt?",
+      "a": "Maíz y soja",
+      "x": [
+        "Trigo y algodón",
+        "Arroz y remolacha"
+      ]
+    }
+  },
+  "Q2016601": {
+    "t": "La tundra de la «Tierra Grande», de lagos y renos",
+    "s": "Al este del río Pechora se extiende la tundra de Bolshezemélskaya, la tundra de la «Tierra Grande»: una llanura sin árboles de musgo, abedul enano y colinas bajas, que centellea con miles de lagos. Casi todo el año está blanca; en verano se vuelve verde y parda, y los lagos brillan como espejos esparcidos. Los pastores nenets aún mueven sus renos por ella según las estaciones.",
+    "w": "Una llanura sin árboles salpicada de incontables lagos y colinas bajas y redondeadas; blanca casi todo el año.",
+    "f": [
+      "Bajo la tundra hay permafrost, por eso el agua del deshielo se acumula en tantos lagos someros.",
+      "Vorkutá, una ciudad minera del carbón, está en su borde sureste.",
+      "Su nombre la contrapone a la tundra de Malozemélskaya, o de la «Tierra Pequeña», al oeste del Pechora."
+    ],
+    "q": {
+      "q": "¿Qué pueblo pastorea renos en la tundra de Bolshezemélskaya?",
+      "a": "Los nenets",
+      "x": [
+        "Los sami",
+        "Los yakutos"
+      ]
+    }
+  },
+  "Q252609": {
+    "t": "Antártida cartografiada por primera vez desde el aire",
+    "s": "Entre 1938 y 1939, una expedición alemana lanzó hidroaviones con catapulta desde el buque Schwabenland y fotografió desde el aire este tramo de la Tierra de la Reina Maud, que llamó Nueva Suabia por el barco. Tras las llanas barreras de hielo costeras, la tierra sube hacia cordilleras oscuras y desaparece bajo la meseta polar. Cerca de la costa está el oasis de Schirmacher, una rara franja de roca desnuda y lagos.",
+    "w": "Barreras de hielo llanas en la costa, luego cadenas de montañas oscuras que asoman del hielo y, más allá, la meseta blanca.",
+    "f": [
+      "El oasis de Schirmacher, de unos 17 km, tiene decenas de lagos y dos bases: la rusa Novolazárevskaya y la india Maitri.",
+      "El buque Schwabenland debía su nombre a Suabia, una región del suroeste de Alemania.",
+      "Novolazárevskaya honra a Mijaíl Lázarev, que navegaba con Bellingshausen cuando se avistó la Antártida en 1820."
+    ],
+    "q": {
+      "q": "¿Qué dio nombre a Nueva Suabia?",
+      "a": "Un buque de expedición",
+      "x": [
+        "Una base de investigación",
+        "Una cordillera"
+      ]
+    }
+  },
+  "Q973": {
+    "t": "Un gigante errante por las turberas siberianas",
+    "s": "Más que fluir, el Obi vaga: aquí, en plena llanura de Siberia Occidental, se abre en una amplia llanura aluvial de brazos, lagos en media luna e islas cubiertas de sauces, en algunos puntos de decenas de kilómetros de ancho. En mayo y junio, la crecida de primavera convierte gran parte de ella en una sola lámina brillante. Luego el agua vuelve despacio al cauce principal.",
+    "w": "Una amplia llanura aluvial plateada con muchos brazos, lagos en media luna e islas, entre turberas llanas y taiga.",
+    "f": [
+      "Con el Irtish, el Obi forma uno de los sistemas fluviales más largos de Asia, de unos 5400 km.",
+      "Termina en el golfo del Obi, un estuario de unos 800 km que se abre al mar de Kara.",
+      "El río pasa cerca de la mitad del año bajo el hielo."
+    ],
+    "q": {
+      "q": "¿A qué mar se abre el golfo del Obi?",
+      "a": "Al mar de Kara",
+      "x": [
+        "Al mar de Láptev",
+        "Al mar de Barents"
+      ]
+    }
+  },
+  "Q1538813": {
+    "t": "El primer hilo del Yangtsé, bajo los glaciares",
+    "s": "Este arroyo trenzado que brilla en un amplio valle pedregoso a más de 4500 m es el Tuotuo, la cabecera que suele contarse como la fuente oficial del Yangtsé. Nace en los glaciares del Geladaindong, en los montes Tanggula. Cerca del diminuto asentamiento de Tuotuohe, el ferrocarril y la carretera Qinghái-Tíbet lo cruzan por largos puentes.",
+    "w": "Un fino arroyo plateado y trenzado en un amplio valle gris pardo, con picos nevados al suroeste.",
+    "f": [
+      "El Geladaindong, el pico cuyos glaciares alimentan el Tuotuo, alcanza unos 6600 m.",
+      "Aquí los inviernos son largos y crudísimos, y el río se hiela varios meses al año.",
+      "Algunos estudios hallan más largo el Dangqu, otra fuente, así que el verdadero nacimiento del Yangtsé sigue en debate."
+    ],
+    "q": {
+      "q": "¿Qué gran río empieza con el Tuotuo?",
+      "a": "El Yangtsé",
+      "x": [
+        "El río Amarillo",
+        "El Salween"
+      ]
+    }
+  },
+  "ne-rv-1159113693": {
+    "t": "El brazo occidental del Nilo y la piedra que habló",
+    "s": "Aguas abajo de El Cairo, el Nilo se divide en dos, y este es su brazo occidental, el de Rosetta, que serpentea hacia el norte por el delta hasta el Mediterráneo. Desde arriba es un hilo oscuro en una densa colcha verde de campos y aldeas, recortada en seco por el desierto al oeste. Cerca de su desembocadura, en Rosetta, soldados franceses hallaron la piedra de Rosetta en 1799.",
+    "w": "Un río oscuro y sinuoso por un delta verde y denso de campos y aldeas, con el desierto muy cerca al oeste.",
+    "f": [
+      "La piedra de Rosetta lleva un decreto en jeroglíficos, demótico y griego, que ayudó a descifrar los jeroglíficos.",
+      "La ciudad de su desembocadura se llama Rashid en árabe; Rosetta es su nombre europeo.",
+      "Con el brazo de Damieta, enmarca el delta del Nilo, uno de los paisajes cultivados más antiguos de la Tierra."
+    ],
+    "q": {
+      "q": "¿Qué objeto famoso se halló cerca de la desembocadura del brazo de Rosetta?",
+      "a": "La piedra de Rosetta",
+      "x": [
+        "La paleta de Narmer",
+        "La máscara de Tutankamón"
+      ]
+    }
+  },
+  "ne-rv-1159113949": {
+    "t": "El brazo oriental del Nilo por un delta verde y poblado",
+    "s": "Donde el Nilo se abre en abanico en su delta, el brazo de Damieta toma el camino oriental hacia el mar. Desde el aire es una línea oscura y suavemente sinuosa por una tierra intensamente verde y abarrotada, donde campos, canales y aldeas apenas dejan un hueco. De noche, todo el delta centellea de luces, enmarcado por el negro del desierto.",
+    "w": "Un río oscuro y sinuoso por un delta intensamente verde y poblado; de noche, una red de luces bordeada de desierto oscuro.",
+    "f": [
+      "La ciudad de Mansura está en sus orillas, y Damieta, cerca de su desembocadura en el Mediterráneo.",
+      "Damieta es desde hace mucho el gran centro de fabricación de muebles de Egipto.",
+      "Desde la presa alta de Asuán, las crecidas del Nilo ya no llegan al delta, y en algunos puntos su costa retrocede."
+    ],
+    "q": {
+      "q": "¿Cuál de los dos brazos del delta del Nilo es el oriental?",
+      "a": "El de Damieta",
+      "x": [
+        "El de Rosetta",
+        "El Canópico"
+      ]
+    }
+  },
+  "Q1653": {
+    "t": "El gran río de Europa, estrujado por las Puertas de Hierro",
+    "s": "Aquí el Danubio se abre paso a través de los Cárpatos por las Puertas de Hierro, una cadena de gargantas en la frontera entre Serbia y Rumanía. Desde arriba, el ancho río se estrecha de golpe entre acantilados empinados y boscosos, y luego se ensancha de nuevo en un largo embalse tras la presa de las Puertas de Hierro. En su punto más estrecho, la garganta de Kazan, mide solo unos 150 m.",
+    "w": "Un río ancho estrujado entre montañas empinadas y boscosas en una garganta estrecha y sinuosa, con una gran presa aguas abajo.",
+    "f": [
+      "El Danubio cruza o bordea diez países, más que ningún otro río del mundo.",
+      "En un acantilado cerca de Orșova, el rostro del rey dacio Decébalo está tallado a unos 55 m de altura.",
+      "El río recorre unos 2850 km, de la Selva Negra alemana al mar Negro."
+    ],
+    "q": {
+      "q": "¿Cuántos países cruza o bordea el Danubio?",
+      "a": "Diez",
+      "x": [
+        "Seis",
+        "Ocho"
+      ]
+    }
+  },
+  "Q26301": {
+    "t": "La lejana fuente mongola del Yeniséi",
+    "s": "El Ider nace en lo alto de los montes Jangái, en Mongolia, y serpentea al noreste por estepa sin árboles y valles salpicados de alerces. Desde arriba parece modesto, un hilo gris azulado con un fino borde verde, pero es la fuente más lejana de un sistema enorme: por el Selengá, el lago Baikal, el Angará y el Yeniséi, su agua llega al océano Ártico.",
+    "w": "Un río fino y sinuoso con una estrecha orla verde en un amplio valle de estepa parda, con alerces oscuros en las laderas norte.",
+    "f": [
+      "Donde el Ider se junta con el Delgermörön nace el río Selengá.",
+      "Medido desde la fuente del Ider, el Yeniséi es uno de los sistemas fluviales más largos del mundo, de más de 5000 km.",
+      "El río pasa helado cerca de la mitad del año."
+    ],
+    "q": {
+      "q": "¿Por qué lago pasa el agua del Ider camino del Ártico?",
+      "a": "Por el lago Baikal",
+      "x": [
+        "Por el lago Jövsgöl",
+        "Por el lago Baljash"
+      ]
+    }
+  },
+  "Q75745": {
+    "t": "El río que llena el lago Baikal",
+    "s": "El Selengá reúne los ríos del norte de Mongolia y los lleva al norte, hacia Rusia y el lago Baikal. Aquí, cerca de la frontera, serpentea por un amplio valle entre la estepa y colinas cubiertas de pinos, dividiéndose en torno a islas y bancos de grava. Aporta cerca de la mitad de toda el agua que entra en el Baikal.",
+    "w": "Un río sinuoso con islas y bancos de grava en un ancho valle entre estepa y colinas oscuras de pinos.",
+    "f": [
+      "Donde entra en el Baikal, el Selengá ha formado un gran delta, un laberinto de brazos, carrizos y lagos.",
+      "Es el río más caudaloso de Mongolia.",
+      "Ulán-Udé, la capital de Buriatia, está a orillas del Selengá."
+    ],
+    "q": {
+      "q": "¿Qué parte del agua que entra en el Baikal aporta el Selengá?",
+      "a": "Cerca de la mitad",
+      "x": [
+        "Cerca de una décima parte",
+        "Casi toda"
+      ]
+    }
+  },
+  "Q15954437": {
+    "t": "El nacimiento del Brahmaputra, el «Manantial del Caballo»",
+    "s": "En el lejano oeste del Tíbet, un río joven vaga por un valle amplio y azotado por el viento a más de 4500 m, trenzado en brazos plateados entre arena y grava. Es el Maquan, el curso más alto del Yarlung Tsangpo, que luego se convierte en el Brahmaputra. Nace en glaciares al sureste del sagrado monte Kailash y del lago Manasarovar.",
+    "w": "Un río plateado y trenzado en un valle amplio, seco y arenoso, con picos nevados del Himalaya al sur.",
+    "f": [
+      "Maquan significa «Manantial del Caballo», eco de su nombre tibetano, Tamchok Khabab, «de la boca del caballo».",
+      "Según la tradición tibetana, cuatro grandes ríos nacen cerca del Kailash, de las bocas de un caballo, un león, un elefante y un pavo real.",
+      "Aguas abajo de la ciudad de Saga, el río toma el nombre de Yarlung Tsangpo."
+    ],
+    "q": {
+      "q": "¿Qué gran río empieza como el Maquan?",
+      "a": "El Brahmaputra",
+      "x": [
+        "El Ganges",
+        "El Indo"
+      ]
+    }
+  },
+  "Q162737": {
+    "t": "El único río que escapa del lago Baikal",
+    "s": "Más de 300 ríos desembocan en el lago Baikal, pero solo uno sale de él: el Angará. Aquí, muy aguas abajo, cruza la taiga oscura como un embalse ancho y parecido a un lago, un peldaño de una escalera de presas que convierten su caída en electricidad. Su agua es famosa por lo clara y, bajo las presas, en invierno suele humear en vez de helarse.",
+    "w": "Un embalse ancho como un lago, con bahías ramificadas en la taiga oscura, que se estrecha en río bajo las presas.",
+    "f": [
+      "El Angará es el mayor afluente del Yeniséi, al que se une mucho más al oeste.",
+      "El embalse de Bratsk, en el Angará, es uno de los mayores lagos artificiales del mundo por volumen.",
+      "Una leyenda buriata cuenta que Angará, hija del Baikal, huyó con su amado, el Yeniséi."
+    ],
+    "q": {
+      "q": "¿Cuántos ríos salen del lago Baikal?",
+      "a": "Uno",
+      "x": [
+        "Tres",
+        "Doce"
+      ]
+    }
+  },
+  "Q2220": {
+    "t": "Un hondo valle verde entre los campos del norte de Canadá",
+    "s": "Los campos llanos llegan al horizonte y, de pronto, se hunden en un valle profundo: el río Peace, que serpentea en amplias curvas unos 200 m por debajo de la pradera, entre laderas oscuras de álamos y píceas. Alrededor está el Peace Country, uno de los campos de cultivo más septentrionales de Norteamérica, dorado de cereal a finales del verano. Aguas abajo, el río gira al norte hacia el lago Athabasca y el Ártico.",
+    "w": "Un valle hondo, sinuoso y boscoso que corta una colcha llana de campos dorados y verdes.",
+    "f": [
+      "Su nombre recuerda una paz sellada en el siglo XVIII entre los cree y los dane-zaa, o castores.",
+      "Cerca del lago Athabasca alimenta el delta Peace-Athabasca, uno de los mayores deltas interiores de agua dulce de la Tierra.",
+      "En Columbia Británica, la presa W. A. C. Bennett retiene su agua en el lago Williston, el mayor de la provincia."
+    ],
+    "q": {
+      "q": "¿De dónde viene el nombre del río Peace («paz»)?",
+      "a": "De una paz entre dos pueblos",
+      "x": [
+        "Del lema de un misionero",
+        "De su corriente lenta y tranquila"
+      ]
+    }
+  },
+  "Q3411": {
+    "t": "El río más largo de Canadá, camino del Ártico",
+    "s": "El Mackenzie corre al norte más de 1700 km, del Gran Lago del Esclavo al mar de Beaufort, y aquí es un río ancho y gris pardo entre el bosque oscuro de píceas y las crestas de los montes Franklin. Cerca le entra el claro río Great Bear. En invierno, el Mackenzie se hiela a fondo y se convierte en una carretera de hielo que une comunidades remotas.",
+    "w": "Un río ancho y fangoso que serpentea al norte por un bosque oscuro de píceas, con crestas bajas al este.",
+    "f": [
+      "Con sus cabeceras, el sistema del Mackenzie mide unos 4200 km, el segundo más largo de Norteamérica.",
+      "Su nombre dene, Deh Cho, significa «río grande».",
+      "Debe su nombre a Alexander Mackenzie, que lo bajó hasta el océano Ártico en 1789."
+    ],
+    "q": {
+      "q": "¿De qué lago sale el Mackenzie?",
+      "a": "Del Gran Lago del Esclavo",
+      "x": [
+        "Del Gran Lago del Oso",
+        "Del lago Athabasca"
+      ]
+    }
+  },
+  "ne-rv-1159117999": {
+    "t": "El Mekong como torrente de montaña en la meseta tibetana",
+    "s": "Cuesta creer que este arroyo, que serpentea entre praderas altas y gargantas rocosas de Qinghái, acabe siendo el poderoso Mekong. El Za Qu, como se llama aquí el alto Mekong, corre a más de 4000 m sobre el mar, junto a pastos de yaks y empinadas paredes de valle. Nace en pequeños glaciares de la meseta y corre al sureste, hacia el Tíbet.",
+    "w": "Un río sinuoso en un valle hondo y estrecho, excavado entre colinas altas de pradera pelada, a menudo espolvoreadas de nieve.",
+    "f": [
+      "En Qamdo, en el Tíbet, se une al Ang Qu, y desde ahí se llama Lancang, el nombre chino del Mekong.",
+      "Después, el Mekong cruza seis países camino del mar de la China Meridional.",
+      "Su fuente, a más de 5000 m, está en el distrito de Zadoi, en la zona de Sanjiangyuan, la «Fuente de los Tres Ríos»."
+    ],
+    "q": {
+      "q": "¿De qué río es curso alto el Za Qu?",
+      "a": "Del Mekong",
+      "x": [
+        "Del Salween",
+        "Del Yangtsé"
+      ]
+    }
+  },
+  "Q21847787": {
+    "t": "El segundo gran río de Sudamérica, cuajado de islas",
+    "s": "Tras el Amazonas, el Paraná es el río más poderoso de Sudamérica: con su gran afluente, el Paraguay, drena una enorme cuenca que abarca Brasil, Paraguay y Argentina. Desde arriba es una ancha franja parda partida por islas y bancos de arena, con lagunas y bañados que brillan a ambos lados. Termina en un vasto delta cerca de Buenos Aires, que alimenta el Río de la Plata.",
+    "w": "Un río ancho y pardo lleno de islas y bancos de arena, con lagunas y bañados por toda su llanura aluvial.",
+    "f": [
+      "Con unos 4900 km, es el segundo río más largo de Sudamérica.",
+      "La represa de Itaipú, sobre el Paraná entre Brasil y Paraguay, es una de las mayores centrales hidroeléctricas del mundo.",
+      "El delta del Paraná, justo al norte de Buenos Aires, es un laberinto de islas y canales con casas sobre pilotes."
+    ],
+    "q": {
+      "q": "¿En qué estuario desemboca el Paraná?",
+      "a": "En el Río de la Plata",
+      "x": [
+        "En el golfo de Paria",
+        "En Bahía Blanca"
+      ]
+    }
+  },
+  "Q836812": {
+    "t": "El alto Congo, que un día se tomó por el Nilo",
+    "s": "El Lualaba es el río Congo en su juventud: nace en la meseta de Katanga y corre al norte por sabanas, gargantas y una cadena de lagos pantanosos. Desde el aire es una cinta oscura bordeada de pantano y pálida hierba de llanura aluvial. En la década de 1870, los exploradores aún discutían si alimentaba el Nilo o el Congo; Henry Morton Stanley zanjó la cuestión siguiéndolo hasta el Atlántico.",
+    "w": "Un río oscuro y sinuoso bordeado de pantanos y llanuras pálidas, con lagos en fila, en una sabana verde parda.",
+    "f": [
+      "David Livingstone creía que el Lualaba podía ser el alto Nilo.",
+      "En las cataratas Boyoma, cerca de Kisangani, termina el Lualaba y el río pasa a llamarse Congo.",
+      "El Parque Nacional de Upemba, en su curso alto, protege una cadena de lagos y humedales."
+    ],
+    "q": {
+      "q": "¿Qué explorador siguió el Lualaba hasta el Atlántico?",
+      "a": "Henry Morton Stanley",
+      "x": [
+        "David Livingstone",
+        "Richard Burton"
+      ]
+    }
+  },
+  "Q2226": {
+    "t": "Un río corto y ancho con pelícanos en sus rápidos",
+    "s": "El río Slave lleva el agua del río Peace y del lago Athabasca al norte, hasta el Gran Lago del Esclavo: un río ancho y pardo que serpentea entre bosque de píceas y humedales. Cerca de Fort Smith se precipita por una serie de rápidos, el principal obstáculo de la larga vía fluvial de Alberta al Ártico. En las islas rocosas de esos rápidos anidan pelícanos blancos americanos.",
+    "w": "Un río ancho y fangoso que serpentea entre bosque verde y humedales, con rápidos blancos cerca de la frontera de Alberta.",
+    "f": [
+      "Los pelícanos de Fort Smith forman la colonia de cría de pelícano blanco americano más septentrional.",
+      "El río toma su nombre de «Slavey», un antiguo nombre de los pueblos dene que viven en sus orillas.",
+      "Corre por el borde del Parque Nacional Wood Buffalo, el mayor parque nacional de Canadá."
+    ],
+    "q": {
+      "q": "¿Qué ave anida en las islas de los rápidos del río Slave?",
+      "a": "El pelícano blanco americano",
+      "x": [
+        "La grulla canadiense",
+        "El ánsar nival"
+      ]
+    }
+  },
+  "Q41179": {
+    "t": "Seis países, un río, que empieza en las gargantas de Yunnan",
+    "s": "En Yunnan, el Mekong, al que en China llaman Lancang, corre al sur por valles hondos y boscosos, gran parte convertida ya en largos embalses estrechos tras una cadena de presas. Desde arriba parece una serpiente verde parda enroscada entre crestas empinadas. Desde aquí aún le quedan miles de kilómetros: Laos, Tailandia, Camboya y Vietnam hasta su delta.",
+    "w": "Un río o embalse largo, estrecho y sinuoso en el fondo de crestas verdes y empinadas, más o menos de norte a sur.",
+    "f": [
+      "El Mekong recorre más de 4000 km y cruza o bordea seis países.",
+      "Su pesca fluvial está entre las mayores del mundo y alimenta a millones de personas.",
+      "Cada estación de lluvias, la crecida del Mekong empuja agua río Tonlé Sap arriba, hasta el gran lago de Camboya."
+    ],
+    "q": {
+      "q": "¿Cómo se llama el Mekong en China?",
+      "a": "Lancang",
+      "x": [
+        "Nu Jiang",
+        "Jinsha"
+      ]
+    }
+  },
+  "Q2599627": {
+    "t": "Un gran río que corre a más de 3,5 km sobre el mar",
+    "s": "Si aterrizas en Lhasa, este es el río junto a la pista: el Yarlung Tsangpo, trenzado por el ancho fondo de un valle a unos 3600 m, con dunas de arena dorada apiladas contra las laderas. Corre al este a lo largo del Himalaya, luego lo atraviesa por uno de los cañones más profundos de la Tierra y se convierte en el Brahmaputra en la India.",
+    "w": "Un río ancho y trenzado con bancos de arena pálidos y dunas en un amplio valle entre montañas pardas y peladas.",
+    "f": [
+      "Su Gran Cañón, en torno al pico Namcha Barwa, suele considerarse el más profundo del mundo.",
+      "Gran parte de su curso tibetano está a más de 3000 m, lo que lo hace uno de los grandes ríos más altos de la Tierra.",
+      "El río Lhasa, que pasa junto a la capital tibetana, se le une justo al oeste de aquí."
+    ],
+    "q": {
+      "q": "¿El aeropuerto de qué ciudad está en el valle del Yarlung Tsangpo?",
+      "a": "El de Lhasa",
+      "x": [
+        "El de Katmandú",
+        "El de Xining"
+      ]
+    }
+  },
+  "Q128102": {
+    "t": "Un afluente más largo que el río al que se une",
+    "s": "El Irtish nace en el Altái mongol, cruza China y Kazajistán y entra en Rusia, serpenteando al norte por la llanura de Siberia Occidental hasta el Obi. Aquí, aguas abajo de Omsk, traza bucles perezosos por una llanura aluvial verde de prados, lagos en media luna y abedulares, con campos más allá. Curiosamente, este afluente es más largo que el río en el que desemboca.",
+    "w": "Un río sinuoso en bucles amplios y regulares por una llanura verde de prados, lagos en media luna y abedulares.",
+    "f": [
+      "Con unos 4250 km, el Irtish es más largo que el Obi, en el que desemboca.",
+      "Se junta con el Obi cerca de Janti-Mansiisk.",
+      "Tobolsk, a orillas del Irtish, fue la primera capital de Siberia; su kremlin de piedra blanca domina el río."
+    ],
+    "q": {
+      "q": "¿En qué río desemboca el Irtish?",
+      "a": "En el Obi",
+      "x": [
+        "En el Yeniséi",
+        "En el Tobol"
+      ]
+    }
+  },
+  "Q3503": {
+    "t": "El río más hondo del mundo, que cruza dos veces el ecuador",
+    "s": "En torno al ecuador, el Congo se abre en un río vasto y lento de varios kilómetros de ancho, salpicado de largas islas boscosas y orlado de bosque inundado. Desde arriba parece un lago pardo enhebrado de verde. Es el segundo río de la Tierra por caudal y, en su gran arco por el centro de África, cruza dos veces el ecuador.",
+    "w": "Un río ancho y pardo lleno de largas islas boscosas, bordeado de bosque inundado oscuro en ambas orillas.",
+    "f": [
+      "En sus gargantas bajas, el Congo supera los 200 m de profundidad: es el río más profundo conocido.",
+      "Lleva más agua que ningún otro río salvo el Amazonas.",
+      "Kinsasa y Brazzaville se miran de orilla a orilla: son las capitales más cercanas del mundo, salvo Roma y el Vaticano."
+    ],
+    "q": {
+      "q": "¿Qué dos capitales se miran a través del Congo?",
+      "a": "Kinsasa y Brazzaville",
+      "x": [
+        "Kinsasa y Bangui",
+        "Brazzaville y Luanda"
+      ]
+    }
+  },
+  "Q45403": {
+    "t": "Un río tan ancho que parece un mar de bancos de arena",
+    "s": "En Assam, el Brahmaputra es menos un río que una llanura trenzada de agua y arena de varios kilómetros de ancho, con brazos que cambian con cada monzón. Desde arriba, busca bancos de arena pálidos e islas verdes esparcidos por él, y más allá, en tierras más altas, plantaciones de té y arrozales. Aguas arriba está Majuli, una de las mayores islas fluviales del mundo.",
+    "w": "Un río anchísimo y trenzado con bancos de arena pálidos e islas verdes, y las colinas de Megalaya al sur.",
+    "f": [
+      "Su nombre significa «hijo de Brahma»; es uno de los pocos ríos indios con nombre masculino.",
+      "Sus islas y bancos de arena, los chars, se cultivan e incluso se habitan, aunque las crecidas pueden llevárselos.",
+      "El Parque Nacional de Kaziranga, en su orilla sur, alberga cerca de dos tercios de los rinocerontes indios del mundo."
+    ],
+    "q": {
+      "q": "¿Por qué animal es famoso Kaziranga, junto al Brahmaputra?",
+      "a": "Por el rinoceronte indio",
+      "x": [
+        "Por el leopardo de las nieves",
+        "Por el león asiático"
+      ]
+    }
+  },
+  "Q947477": {
+    "t": "Un río de truchas que va de Yellowstone al Misuri",
+    "s": "El Madison nace dentro de Yellowstone, donde se juntan los ríos Firehole y Gibbon, y corre al norte por Montana en un valle ancho y abierto entre dos cordilleras. Desde arriba es un arroyo brillante y trenzado con una fina línea de sauces, que cruza ranchos de color gris salvia. En Three Forks se une al Jefferson y al Gallatin, y juntos forman el Misuri.",
+    "w": "Un arroyo brillante y sinuoso con una fina orla verde, en un ancho valle color salvia entre cordilleras nevadas.",
+    "f": [
+      "Lewis y Clark lo bautizaron en 1805 en honor a James Madison, entonces secretario de Estado de EE. UU.",
+      "Los pescadores lo cuentan entre los mejores ríos trucheros de Norteamérica.",
+      "El Firehole, una de sus fuentes, se calienta con las aguas termales y los géiseres de Yellowstone."
+    ],
+    "q": {
+      "q": "¿Qué gran río forman el Madison, el Jefferson y el Gallatin?",
+      "a": "El Misuri",
+      "x": [
+        "El Yellowstone",
+        "El Snake"
+      ]
+    }
+  },
+  "Q619802": {
+    "t": "El sitio más polvoriento del mundo, un viejo lecho de lago",
+    "s": "Un suelo pálido, casi blanco, rayado de dunas, marca la depresión de Bodélé, en Chad: el lecho seco de un antiguo lago. Su fondo es diatomita, los finos esqueletos de algas diminutas, y los vientos de invierno, encauzados entre los macizos del Tibesti y el Ennedi, la levantan en enormes penachos. Bodélé es la mayor fuente de polvo de la Tierra; parte de él cruza el Atlántico hasta la Amazonía.",
+    "w": "Una cuenca pálida, blanquecina, cruzada por hileras de dunas en media luna; en invierno, largos penachos de polvo hacia el suroeste.",
+    "f": [
+      "La cuenca es un resto del Megachad, un lago que llegó a ocupar una superficie comparable a la del mar Caspio.",
+      "Los vientos más fuertes soplan aquí de noviembre a marzo, la estación del harmatán.",
+      "El polvo de Bodélé lleva fósforo y otros nutrientes que ayudan a fertilizar la selva amazónica."
+    ],
+    "q": {
+      "q": "¿De qué está hecho el fondo pálido de la depresión de Bodélé?",
+      "a": "De restos de algas diminutas",
+      "x": [
+        "De cristales de sal",
+        "De ceniza volcánica"
+      ]
+    }
+  },
+  "Q1914": {
+    "t": "Una tierra de lagos, todos peinados en la misma dirección",
+    "s": "Carelia parece como si un rastrillo gigante la hubiera arañado: lagos largos y crestas van todos en la misma dirección, de noroeste a sureste, el sentido en que avanzó el manto de hielo. Entre ellos hay bosque oscuro de pinos y píceas, turberas y granito desnudo. En invierno, los lagos se vuelven pinceladas blancas sobre el bosque oscuro.",
+    "w": "Incontables lagos y crestas alargados de noroeste a sureste entre bosque oscuro; el lago Onega al este.",
+    "f": [
+      "La República de Carelia tiene unos 60 000 lagos.",
+      "En la isla de Kizhi, en el lago Onega, se alza la iglesia de madera de la Transfiguración, de 22 cúpulas, construida en 1714.",
+      "Muchos de los cantos que formaron la epopeya finlandesa Kalevala se recogieron de cantores de Carelia."
+    ],
+    "q": {
+      "q": "¿En qué dirección se alargan la mayoría de los lagos de Carelia?",
+      "a": "De noroeste a sureste",
+      "x": [
+        "De este a oeste",
+        "De noreste a suroeste"
+      ]
+    }
+  },
+  "Q137555": {
+    "t": "Una meseta de matorral pardo rojizo en el Cuerno de África",
+    "s": "El Ogadén es tierra seca: una meseta pardo rojiza de matorral espinoso y acacias dispersas, que baja suavemente de las tierras altas etíopes hacia Somalia. Desde arriba parece una alfombra color óxido con un fino punteado de arbustos, cortada por cauces pálidos casi siempre secos. Tras las lluvias cortas reverdece durante unas semanas.",
+    "w": "Una llanura rojo óxido con un fino moteado de arbustos y cauces secos pálidos; verde solo unas semanas tras las lluvias.",
+    "f": [
+      "El río Shebelle, que nace en las tierras altas etíopes, cruza el Ogadén camino de Somalia.",
+      "Aquí la lluvia llega en dos estaciones cortas, en primavera y en otoño.",
+      "Casi toda la gente de aquí son pastores somalíes que crían camellos, cabras y ovejas."
+    ],
+    "q": {
+      "q": "¿Qué río cruza el Ogadén camino de Somalia?",
+      "a": "El Shebelle",
+      "x": [
+        "El Awash",
+        "El Omo"
+      ]
+    }
+  },
+  "Q181103": {
+    "t": "Montañas peladas y plegadas en todos los tonos de pardo",
+    "s": "Baluchistán es una maraña salvaje de montañas peladas y cuencas secas, donde la roca se pliega en largas crestas paralelas que se curvan como la veta de la madera pulida. Hay poco verde: algunos oasis, cauces secos y salares en las hondonadas. La región abarca partes de Pakistán, Irán y Afganistán. Al noroeste se alza el Taftán, un volcán de casi 4000 m que aún humea.",
+    "w": "Crestas largas, paralelas y curvas de roca pelada parda y gris, con cauces secos pálidos y salares entre ellas.",
+    "f": [
+      "La provincia de Baluchistán ocupa cerca del 44 % de Pakistán, más que ninguna otra provincia.",
+      "Mehrgarh, en Baluchistán, es una de las aldeas agrícolas más antiguas del sur de Asia: tiene unos 9000 años.",
+      "En la costa de Makrán, en el sur, pequeños volcanes de lodo borbotean junto al mar."
+    ],
+    "q": {
+      "q": "¿Qué parte de la superficie de Pakistán ocupa Baluchistán?",
+      "a": "Cerca del 44 %",
+      "x": [
+        "Cerca del 10 %",
+        "Cerca del 70 %"
+      ]
+    }
+  },
+  "Q5700": {
+    "t": "Bosque, fells y turberas bajo la aurora boreal",
+    "s": "Desde el aire, Laponia es bosque oscuro, turberas pálidas y fells redondeados y sin árboles, surcados de ríos y lagos. Al norte del círculo polar ártico, el sol no se pone durante semanas en torno al solsticio de verano, y en pleno invierno apenas sale. En una noche de invierno despejada quizá veas la aurora desde tu ventanilla: un velo verde que se mueve sobre la nieve.",
+    "w": "Bosque oscuro de coníferas, turberas pálidas y cimas redondeadas peladas con ríos sinuosos; en invierno, blanco con manchas de bosque.",
+    "f": [
+      "Laponia abarca el norte de Noruega, Suecia y Finlandia y la península de Kola rusa: es la tierra de los sami.",
+      "Los renos vagan libres por gran parte de la Laponia finlandesa; su pastoreo es un modo de vida tradicional sami.",
+      "Rovaniemi, capital de la Laponia finlandesa, está justo en el círculo polar ártico."
+    ],
+    "q": {
+      "q": "¿Qué pueblo indígena vive en Laponia?",
+      "a": "Los sami",
+      "x": [
+        "Los inuit",
+        "Los nenets"
+      ]
+    }
+  },
+  "Q1528035": {
+    "t": "Una pata de pájaro de tierra que se adentra en el golfo",
+    "s": "Al final de su largo viaje, el Misisipi ha construido una forma extraña: una pata de pájaro, con dedos largos y finos de marisma y diques que se adentran en el golfo de México. Desde arriba, busca el agua parda que se abre desde sus puntas en el mar azul, y un laberinto verde de marismas, lagos y canales a su alrededor. Todo este paisaje está hecho de barro del río.",
+    "w": "Dedos largos y finos de tierra que entran en el golfo, con agua parda del río abriéndose en abanico en el mar azul.",
+    "f": [
+      "En los últimos 7000 años, el río ha construido el sur de Luisiana pasando de un lóbulo deltaico a otro.",
+      "La costa de Luisiana ha perdido unos 5000 km² de tierra desde la década de 1930, al hundirse y erosionarse el delta.",
+      "Head of Passes, donde el río se divide en los canales de la pata de pájaro, está unos 150 km aguas abajo de Nueva Orleans."
+    ],
+    "q": {
+      "q": "¿Con qué se suele comparar el delta actual del Misisipi?",
+      "a": "Con una pata de pájaro",
+      "x": [
+        "Con un abanico",
+        "Con un triángulo"
+      ]
+    }
+  },
+  "Q29412": {
+    "t": "Un laberinto de manglares y esteros en la boca del Níger",
+    "s": "Aquí el Níger se rompe en incontables esteros y canales antes de llegar al Atlántico, y forma el mayor delta de África. Desde arriba es un laberinto verde oscuro de manglar y bosque pantanoso, surcado de canales pardos que brillan al sol. De noche, los puntos naranjas de las antorchas de gas salpican la oscuridad.",
+    "w": "Un laberinto verde oscuro de manglares y bosque pantanoso cruzado por esteros pardos; de noche, antorchas naranjas dispersas.",
+    "f": [
+      "Los manglares de Nigeria, casi todos en este delta, son los mayores de África.",
+      "El delta abarca unos 70 000 km² de humedales, esteros e islas.",
+      "El Níger llega aquí tras recorrer unos 4200 km desde las tierras altas de Guinea."
+    ],
+    "q": {
+      "q": "¿Qué río forma este delta?",
+      "a": "El Níger",
+      "x": [
+        "El Volta",
+        "El Senegal"
+      ]
+    }
+  },
+  "Q1431507": {
+    "t": "El mayor delta de Europa, donde el loto florece en agosto",
+    "s": "Antes de llegar al Caspio, el Volga se abre en el mayor delta de Europa: cientos de brazos, carrizales e islas, verdes frente a la estepa seca y pálida a ambos lados. Desde arriba parece la nervadura ramificada de una hoja. A finales del verano, las flores de loto cubren de campos rosas enteros sus aguas someras exteriores.",
+    "w": "Un enorme abanico verde de brazos ramificados y carrizales que entra en el Caspio, entre estepa pálida y seca.",
+    "f": [
+      "El delta lo forman unos 500 brazos, canales y pequeños cursos de agua.",
+      "La Reserva Natural de Astracán, fundada aquí en 1919, es una de las más antiguas de Rusia.",
+      "El Caspio está unos 28 m bajo el nivel del mar, así que el delta queda por debajo del nivel del océano mundial."
+    ],
+    "q": {
+      "q": "¿Qué flor rosa cubre a finales del verano el delta exterior del Volga?",
+      "a": "El loto",
+      "x": [
+        "El tulipán",
+        "La peonía"
+      ]
+    }
+  },
+  "Q184429": {
+    "t": "Carrizales, pelícanos y tres brazos hasta el mar",
+    "s": "Justo antes del mar Negro, el Danubio se divide en tres brazos y se extiende en un vasto humedal de carrizos, lagos y canales sinuosos, uno de los mayores carrizales de la Tierra. Desde arriba es un mosaico verde dorado cosido con agua plateada, con el canal de Sulina, recto como una regla, cortándolo por el medio. En primavera y verano acoge enormes colonias de pelícanos.",
+    "w": "Un mosaico verde dorado de carrizos, lagos y canales sinuosos, cortado por un canal recto como una regla, junto al mar Negro.",
+    "f": [
+      "El delta del Danubio es Patrimonio de la Humanidad de la UNESCO desde 1991.",
+      "Es el segundo delta de Europa, tras el del Volga.",
+      "Casi todo el delta está en Rumanía; su borde norte pertenece a Ucrania."
+    ],
+    "q": {
+      "q": "¿En cuántos brazos principales se divide el Danubio en su delta?",
+      "a": "Tres",
+      "x": [
+        "Dos",
+        "Siete"
+      ]
+    }
+  },
+  "Q1052867": {
+    "t": "Un granero de arroz de nueve dragones y canales sin fin",
+    "s": "El Mekong termina aquí en un mundo llano de un verde intenso: arrozales en rectángulos sin fin, huertos, estanques de peces y aldeas ensartadas a lo largo de canales, todo surcado por anchos brazos pardos del río. Los vietnamitas lo llaman Cửu Long, los «Nueve Dragones», por sus muchas bocas. En la cosecha, comarcas enteras pasan del verde al oro.",
+    "w": "Rectángulos verde intenso de arrozales surcados por brazos pardos del río y canales rectos, todo perfectamente llano.",
+    "f": [
+      "El delta produce cerca de la mitad del arroz de Vietnam.",
+      "Casi todo está a menos de 2 m sobre el nivel del mar.",
+      "Los mercados flotantes, donde se vende directamente desde las barcas, aún se reúnen cerca de Cần Thơ."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre vietnamita Cửu Long?",
+      "a": "Nueve Dragones",
+      "x": [
+        "Gran Río",
+        "Agua Dorada"
+      ]
+    }
+  },
+  "Q81591": {
+    "t": "Donde África se está rasgando poco a poco",
+    "s": "Aquí, en la región de Afar, el Gran Valle del Rift se abre en una tierra baja abrasada de campos de lava, salares y volcanes, con partes a más de 100 m bajo el nivel del mar. Aquí se separan tres placas de la corteza terrestre, y algún día quizá entre el mar. Desde aquí, el rift corre al sur miles de kilómetros, marcado por una cadena de lagos alargados.",
+    "w": "Campos de lava negros, salares blancos y conos volcánicos en una tierra baja y caliente, cerrada al oeste por altos escarpes.",
+    "f": [
+      "En 1974 se halló en Hadar, en Afar, el esqueleto fósil conocido como Lucy, de unos 3,2 millones de años.",
+      "El Erta Ale, un volcán de la depresión de Danakil, tuvo un lago de lava en su cráter durante buena parte del siglo pasado.",
+      "Dallol, en el norte de la depresión, tiene una de las temperaturas medias anuales más altas de la Tierra."
+    ],
+    "q": {
+      "q": "¿Qué fósil famoso se halló en la región de Afar en 1974?",
+      "a": "Lucy",
+      "x": [
+        "El niño de Turkana",
+        "El niño de Taung"
+      ]
+    }
+  },
+  "Q4863367": {
+    "t": "Tundra sin árboles por donde vagan los caribúes",
+    "s": "Al norte del límite del bosque, los bosques de Canadá dan paso a los Barren Grounds: tundra abierta de musgo, líquenes y roca desnuda, salpicada de más lagos de los que nadie ha contado. Busca los eskers, largas crestas serpenteantes de grava que dejaron ríos que corrían dentro del manto de hielo. Cada año, grandes manadas de caribúes migran por esta tierra.",
+    "w": "Tierra sin árboles moteada de incontables lagos, cruzada por largas crestas sinuosas de grava; blanca casi todo el año.",
+    "f": [
+      "El Santuario de Fauna del Thelon, creado en 1927, protege bueyes almizcleros y caribúes en el corazón de los Barren Grounds.",
+      "Cerca está Baker Lake, la única comunidad del interior de Nunavut.",
+      "Algunos eskers de aquí se extienden cientos de kilómetros."
+    ],
+    "q": {
+      "q": "¿Cómo se llaman las largas crestas sinuosas de grava de los Barren Grounds?",
+      "a": "Eskers",
+      "x": [
+        "Drumlins",
+        "Morrenas"
+      ]
+    }
   }
 }

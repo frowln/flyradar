@@ -2458,5 +2458,697 @@
         "Khariton Laptev"
       ]
     }
+  },
+  "Q326917": {
+    "t": "China's rocky finger between the Bohai and Korea Bay",
+    "s": "The Liaodong Peninsula points south-west into the Yellow Sea like a finger, almost closing off the Bohai Sea from open water. Its spine is a line of low, forested mountains, and its coast is rocky and indented with bays. At its tip lies Dalian, one of China's busiest ports; across the narrow Bohai Strait, the Shandong Peninsula reaches back towards it.",
+    "w": "A long, narrow peninsula pointing south-west between the Bohai Sea and Korea Bay, with a large port city at its tip.",
+    "f": [
+      "The Bohai Strait between Liaodong and Shandong is roughly 100 km wide.",
+      "The Qian Mountains run down the middle of the peninsula like a backbone."
+    ],
+    "q": {
+      "q": "Which city lies at the tip of the Liaodong Peninsula?",
+      "a": "Dalian",
+      "x": [
+        "Qingdao",
+        "Tianjin"
+      ]
+    }
+  },
+  "Q1408929": {
+    "t": "The peninsula where Asia's last wild lions live",
+    "s": "Between the Gulf of Kutch and the Gulf of Khambhat, the Kathiawar Peninsula juts into the Arabian Sea, a broad, mostly flat land of fields and scrub with a few isolated hills. In its south lies the Gir Forest, the only place on Earth where Asiatic lions still live in the wild. Its hills and coast also hold some of India's most revered temples, at Somnath and Dwarka.",
+    "w": "A broad, rounded peninsula in western India between two gulfs, flat and brown with a few rocky hills in the south.",
+    "f": [
+      "More than 600 Asiatic lions now live in and around Gir.",
+      "Shatrunjaya hill at Palitana is crowned by hundreds of Jain temples.",
+      "Mount Girnar, about 1,070 m, is the highest point in Gujarat."
+    ],
+    "q": {
+      "q": "Which big cat lives in the wild only in and around Kathiawar's Gir Forest?",
+      "a": "The Asiatic lion",
+      "x": [
+        "The snow leopard",
+        "The clouded leopard"
+      ]
+    }
+  },
+  "Q875712": {
+    "t": "Mainland China's southern tip, facing Hainan",
+    "s": "The Leizhou Peninsula is the southernmost tip of mainland China, a low tongue of red earth reaching towards the island of Hainan across the Qiongzhou Strait. It is surprisingly volcanic: old basalt flows cover much of it, and round crater lakes such as Huguangyan dot the land. Sugar cane, pineapple fields and eucalyptus plantations paint it in patches of green.",
+    "w": "A low, flat peninsula of red earth and green plantations, pointing south towards the large island of Hainan across a narrow strait.",
+    "f": [
+      "The Qiongzhou Strait between Leizhou and Hainan is only about 20–40 km wide.",
+      "Huguangyan, a round crater lake, is part of a UNESCO Global Geopark.",
+      "Xuwen county, at the southern tip, grows a large share of China's pineapples."
+    ],
+    "q": {
+      "q": "Which large island lies across the strait from the Leizhou Peninsula?",
+      "a": "Hainan",
+      "x": [
+        "Taiwan",
+        "Hong Kong Island"
+      ]
+    }
+  },
+  "Q913329": {
+    "t": "A stone table with cliffs above a vanished sea",
+    "s": "Between the Caspian and the Aral Sea lies a huge, flat stone table: the Ustyurt Plateau, some 200,000 km² of bare clay, gravel and salt. It ends in sheer, pale cliffs, called chinks, that rise well over 100 m above the plains around it. On the eastern side they once looked out over the Aral Sea; today, as the sea shrinks, they overlook a desert of dried seabed.",
+    "w": "A vast flat plateau with bright white cliff edges, between the Caspian Sea and the dried-out bed of the Aral Sea.",
+    "f": [
+      "Ancient hunters built long stone 'arrows' on the plateau to drive herds of saiga and gazelle into traps.",
+      "Saiga antelope, with their bulbous noses, still roam the plateau."
+    ],
+    "q": {
+      "q": "What are the cliffs at the edge of the Ustyurt Plateau called?",
+      "a": "Chinks",
+      "x": [
+        "Kaluts",
+        "Takyrs"
+      ]
+    }
+  },
+  "Q359194": {
+    "t": "Antarctic peaks first seen from Ross's ships",
+    "s": "In January 1841 James Clark Ross sailed into an unknown sea and saw great white peaks rising straight from the water. He named them the Admiralty Mountains after the officials who had sent him. They form the north-eastern tip of Victoria Land, with glaciers pouring between summits above 4,000 m. At their foot, on Cape Adare, the first people to winter on the Antarctic continent built huts in 1899.",
+    "w": "White peaks and glaciers rising straight from the sea at the north-eastern tip of Victoria Land, facing the Ross Sea.",
+    "f": [
+      "Mount Minto, about 4,160 m, is the highest peak of the range.",
+      "Cape Adare hosts one of the largest Adélie penguin colonies in Antarctica.",
+      "The huts built at Cape Adare in 1899 are still standing."
+    ],
+    "q": {
+      "q": "Who named the Admiralty Mountains in 1841?",
+      "a": "James Clark Ross",
+      "x": [
+        "Robert Falcon Scott",
+        "Ernest Shackleton"
+      ]
+    }
+  },
+  "Q3861086": {
+    "t": "Dark peaks holding back the polar ice sheet",
+    "s": "Along the western shore of the Ross Sea, the Transantarctic Mountains hold back the vast ice sheet of East Antarctica, and the Prince Albert Mountains are one stretch of that wall. Their dark rock peaks and nunataks poke through the ice for hundreds of kilometres, with great glaciers flowing between them towards the sea. Just to the south lie the famous ice-free Dry Valleys.",
+    "w": "Dark rock summits poking through the ice along the western side of the Ross Sea, with glaciers flowing east between them.",
+    "f": [
+      "James Clark Ross named them in 1841 after Prince Albert, husband of Queen Victoria.",
+      "They form part of the Transantarctic Mountains, which cross the entire continent."
+    ],
+    "q": {
+      "q": "Who were the Prince Albert Mountains named after?",
+      "a": "Queen Victoria's husband",
+      "x": [
+        "Queen Victoria's father",
+        "A Belgian king"
+      ]
+    }
+  },
+  "Q1478409": {
+    "t": "Dinosaur bones high above an Antarctic glacier",
+    "s": "Beside the Beardmore Glacier, one of the great rivers of ice through the Transantarctic Mountains, rises the Queen Alexandra Range. Shackleton's party climbed the glacier past these peaks in 1908 on their march towards the South Pole. High on Mount Kirkpatrick, the range's highest summit at about 4,500 m, geologists found bones of Cryolophosaurus, a crested dinosaur from a warmer Antarctica.",
+    "w": "A long line of high, dark peaks beside a huge glacier flowing north from the polar plateau to the Ross Ice Shelf.",
+    "f": [
+      "Shackleton named the range after Queen Alexandra, wife of King Edward VII.",
+      "Cryolophosaurus, about 190 million years old, was dug out of the mountain in 1990–91.",
+      "The Beardmore Glacier is about 200 km long."
+    ],
+    "q": {
+      "q": "Which dinosaur was found on Mount Kirkpatrick?",
+      "a": "Cryolophosaurus",
+      "x": [
+        "Tyrannosaurus",
+        "Iguanodon"
+      ]
+    }
+  },
+  "Q5460053": {
+    "t": "A chain of ice-buried volcanoes in West Antarctica",
+    "s": "In Marie Byrd Land, far from any coast that visitors reach, a line of broad white domes rises out of the ice sheet. These are the volcanoes of the Flood Range, shield volcanoes so buried in ice that only their summits and craters show. The highest, Mount Berlin, reaches about 3,500 m and is considered potentially active. West Antarctica hides many more volcanoes beneath its ice.",
+    "w": "A line of broad, smooth white domes rising above the flat ice sheet of Marie Byrd Land, far inland from the Amundsen Sea.",
+    "f": [
+      "Mount Berlin, about 3,500 m, is the highest volcano of the range.",
+      "The range was first seen from the air during Richard Byrd's expeditions of the 1930s."
+    ],
+    "q": {
+      "q": "What are the peaks of the Flood Range?",
+      "a": "Ice-covered volcanoes",
+      "x": [
+        "Sandstone mesas",
+        "Granite spires"
+      ]
+    }
+  },
+  "Q4529916": {
+    "t": "Antarctic mountains named after a Detroit sponsor",
+    "s": "In December 1929, Richard Byrd's expedition flew east over the Ross Ice Shelf and found a cluster of dark ranges rising from the ice of Marie Byrd Land. Byrd named them after Edsel Ford, son of Henry Ford, who had helped fund the expedition. Today the Ford Ranges show as scattered rock ridges and peaks, divided by broad glaciers flowing towards Sulzberger Bay.",
+    "w": "Scattered dark ridges and peaks separated by wide glaciers, near the coast of Marie Byrd Land east of the Ross Ice Shelf.",
+    "f": [
+      "Byrd's aircraft was a Ford Trimotor named Floyd Bennett.",
+      "Marie Byrd Land is named after Richard Byrd's wife."
+    ],
+    "q": {
+      "q": "Who were the Ford Ranges named after?",
+      "a": "Edsel Ford",
+      "x": [
+        "Henry Ford",
+        "Gerald Ford"
+      ]
+    }
+  },
+  "Q1253855": {
+    "t": "An ice-buried peninsula at the corner of the Ross Ice Shelf",
+    "s": "At the eastern edge of the Ross Ice Shelf, a broad, ice-covered peninsula juts north into the sea. Robert Falcon Scott sighted it in January 1902 and named it after the new king, Edward VII. Almost all of it lies under ice, with only a few rocky ridges breaking through. In 1912 a Japanese expedition led by Nobu Shirase landed here, Japan's first exploration of Antarctica.",
+    "w": "A broad, white, ice-covered peninsula at the eastern corner of the Ross Ice Shelf, with sea ice along its shores.",
+    "f": [
+      "The Alexandra Mountains, among its few exposed rocks, are named after Queen Alexandra.",
+      "Nobu Shirase's ship, the Kainan Maru, reached its coast in 1912."
+    ],
+    "q": {
+      "q": "Which country's expedition landed on King Edward VII Land in 1912?",
+      "a": "Japan",
+      "x": [
+        "Germany",
+        "Argentina"
+      ]
+    }
+  },
+  "Q1641485": {
+    "t": "Mountains beside the largest glacier on Earth",
+    "s": "Deep in East Antarctica, a chain of dark peaks lines the western side of the Lambert Glacier, often called the largest glacier on Earth. The Prince Charles Mountains poke through the ice for hundreds of kilometres, while the Lambert flows past them into the Amery Ice Shelf, draining a large share of the East Antarctic ice sheet. Australian surveyors mapped and named them in the 1950s.",
+    "w": "Dark rock peaks and ridges poking through the ice beside a huge, slow river of ice flowing north into a floating ice shelf.",
+    "f": [
+      "The Lambert Glacier is about 400 km long.",
+      "Mount Menzies, about 3,350 m, is the highest peak of the range.",
+      "They are named after Prince Charles, later King Charles III."
+    ],
+    "q": {
+      "q": "Which huge glacier flows past the Prince Charles Mountains?",
+      "a": "The Lambert Glacier",
+      "x": [
+        "The Beardmore Glacier",
+        "The Thwaites Glacier"
+      ]
+    }
+  },
+  "Q6111566": {
+    "t": "Dark peaks scattered on the ice of Enderby Land",
+    "s": "On the coast of Enderby Land in East Antarctica, a cluster of dark peaks and nunataks breaks through the ice sheet, about 40 km across. The Scott Mountains were sighted in 1930 by Douglas Mawson's expedition and named after Robert Falcon Scott. Around them the ice slopes gently down to Amundsen Bay and the Southern Ocean, a white world without a single permanent inhabitant.",
+    "w": "Dark rocky peaks and nunataks poking through the ice just south of Amundsen Bay, on the coast of Enderby Land.",
+    "f": [
+      "The surrounding part of Enderby Land holds some of the oldest rocks on Earth.",
+      "They were discovered by BANZARE, the British, Australian and New Zealand Antarctic Research Expedition of 1929–31."
+    ],
+    "q": {
+      "q": "Who were the Scott Mountains named after?",
+      "a": "Robert Falcon Scott",
+      "x": [
+        "Ernest Shackleton",
+        "Douglas Mawson"
+      ]
+    }
+  },
+  "Q5306381": {
+    "t": "Some of the oldest rock on Earth, poking through ice",
+    "s": "The Napier Mountains are a small group of dark peaks rising through the ice near the coast of Enderby Land. What makes them special lies inside: they give their name to the Napier Complex, rocks close to four billion years old that were once heated to more than 1,000 °C deep in the crust. From above they are just dark specks on an endless white sheet.",
+    "w": "A small cluster of dark peaks on the white ice sheet near the coast of Enderby Land, east of Amundsen Bay.",
+    "f": [
+      "Parts of the Napier Complex are among the oldest known rocks on Earth.",
+      "The mountains were discovered in 1930 by Douglas Mawson's BANZARE expedition."
+    ],
+    "q": {
+      "q": "What are the Napier Mountains known for among geologists?",
+      "a": "Extremely ancient rocks",
+      "x": [
+        "Active volcanoes",
+        "Rich dinosaur fossils"
+      ]
+    }
+  },
+  "Q1550766": {
+    "t": "A range found from the air and named for Shackleton",
+    "s": "Rising from the ice east of the Filchner Ice Shelf, the Shackleton Range is a long block of dark mountains between two huge glaciers, the Slessor and the Recovery. It was spotted from the air in 1956–57 by the Commonwealth Trans-Antarctic Expedition and named after Sir Ernest Shackleton, who had dreamed of crossing the continent four decades earlier.",
+    "w": "A dark, rugged block of mountains between two broad glaciers flowing west into the Filchner Ice Shelf.",
+    "f": [
+      "The Commonwealth Trans-Antarctic Expedition completed the first land crossing of Antarctica in 1958.",
+      "Shackleton's own attempt to cross Antarctica set out in 1914 aboard the Endurance."
+    ],
+    "q": {
+      "q": "Which expedition first spotted the Shackleton Range, in 1956–57?",
+      "a": "The Commonwealth Trans-Antarctic",
+      "x": [
+        "The Discovery expedition",
+        "The Nimrod expedition"
+      ]
+    }
+  },
+  "ne-rg-1730070769": {
+    "t": "The 'black mountain' of basalt in central Libya",
+    "s": "Its Arabic name, Jabal as-Sawdā', means 'the black mountain', and it could hardly fit better: a broad plateau of dark basalt lava lying across central Libya like a smear of soot. Roughly 100 km across, it rises from the pale desert around it with low, flat-topped cliffs. At its eastern edge lie the date-palm oases of the Jufra district.",
+    "w": "A broad, flat plateau of dark volcanic rock sharply outlined against the pale desert of central Libya.",
+    "f": [
+      "Its dark surface is made of old basalt lava flows.",
+      "Sawdā' is Arabic for 'black'."
+    ],
+    "q": {
+      "q": "What does the Arabic name Jabal as-Sawdā' mean?",
+      "a": "The black mountain",
+      "x": [
+        "The white mountain",
+        "The green mountain"
+      ]
+    }
+  },
+  "ne-rg-1730071505": {
+    "t": "Frankincense country above the Gulf of Aden",
+    "s": "Along the southern shore of the Gulf of Aden, a steep escarpment rises from a hot, narrow coastal plain to cooler highlands more than 2,000 m high. These are the Ogo Mountains, a band of limestone and granite in the Horn of Africa. On their dry slopes grow frankincense trees, whose fragrant resin has been traded from this coast since antiquity.",
+    "w": "A steep escarpment rising from a narrow coastal plain along the Gulf of Aden to a higher, drier plateau inland.",
+    "f": [
+      "Frankincense is the dried resin of Boswellia trees, which grow on these slopes.",
+      "The hot coastal plain below is called the Guban, often translated as 'burnt land'."
+    ],
+    "q": {
+      "q": "Which aromatic resin comes from trees on the Ogo slopes?",
+      "a": "Frankincense",
+      "x": [
+        "Amber",
+        "Camphor"
+      ]
+    }
+  },
+  "Q5616476": {
+    "t": "Rain-soaked highlands where the Niger begins",
+    "s": "In south-eastern Guinea the land rises into rolling, rain-soaked highlands, green with forest and savanna. Here, near the Sierra Leone border, the Niger begins its 4,000-km arc through West Africa, first flowing away from the ocean only about 250 km away. At the highlands' southern edge, Mount Nimba lifts an iron-rich ridge above the forest to about 1,750 m.",
+    "w": "Rolling green highlands with dark forest in the valleys, where the borders of Guinea, Sierra Leone, Liberia and Côte d'Ivoire meet.",
+    "f": [
+      "The Mount Nimba Strict Nature Reserve is a UNESCO World Heritage site shared by Guinea and Côte d'Ivoire.",
+      "The Nimba toad, found only here, gives birth to live young instead of laying eggs."
+    ],
+    "q": {
+      "q": "Which great river rises in the Guinea Highlands?",
+      "a": "The Niger",
+      "x": [
+        "The Congo",
+        "The Nile"
+      ]
+    }
+  },
+  "Q2895205": {
+    "t": "Eastern Ethiopia's highlands around walled Harar",
+    "s": "East of the Rift Valley, Ethiopia's highlands continue as the Ahmar Mountains, a band of green ridges and terraced farmland above the dry lowlands. Their best-known town is Harar, an ancient walled city at about 1,900 m and for centuries a hub of trade and learning. The slopes around it produce Harar coffee, known for its fruity flavour.",
+    "w": "Green ridges and terraced fields rising above dry brown lowlands in eastern Ethiopia, east of the Rift Valley.",
+    "f": [
+      "Harar's walled old town, Jugol, is a UNESCO World Heritage site.",
+      "In Harar, men traditionally feed wild hyenas by hand at night.",
+      "Ahmar means 'red' in Arabic."
+    ],
+    "q": {
+      "q": "Which walled city lies in the Ahmar Mountains?",
+      "a": "Harar",
+      "x": [
+        "Lalibela",
+        "Aksum"
+      ]
+    }
+  },
+  "Q1478180": {
+    "t": "Algeria's green coastal mountains above the sea",
+    "s": "Along Algeria's Mediterranean coast, the Tell Atlas rises in a long chain of ridges and valleys, the greenest and most densely settled part of the country. Wheat fields, vineyards and olive groves fill the valleys, and villages cling to the ridge tops. In Kabylia, east of Algiers, the limestone crest of the Djurdjura climbs above 2,300 m and holds snow in winter.",
+    "w": "A long band of green and brown ridges parallel to Algeria's Mediterranean coast, with fields in the valleys and the sea just to the north.",
+    "f": [
+      "Lalla Khedidja, about 2,300 m in the Djurdjura, is the highest point of the Tell Atlas.",
+      "Tell comes from an Arabic word for 'hill'.",
+      "Atlas cedars grow on its higher slopes."
+    ],
+    "q": {
+      "q": "Which massif in Kabylia holds the Tell Atlas's highest peak?",
+      "a": "The Djurdjura",
+      "x": [
+        "The Hoggar",
+        "The Aurès"
+      ]
+    }
+  },
+  "Q633771": {
+    "t": "Cloud-wrapped mountains behind Port Moresby",
+    "s": "Behind Port Moresby, the land climbs into the Owen Stanley Range, the backbone of south-eastern New Guinea. Its ridges are steep, knife-edged and wrapped in cloud forest, rising to about 4,000 m at Mount Victoria. Named after Captain Owen Stanley, who charted this coast from HMS Rattlesnake around 1849, the range is so rugged that no road crosses it.",
+    "w": "Steep, cloud-covered ridges running along south-eastern New Guinea, rising just inland from Port Moresby.",
+    "f": [
+      "Mount Victoria, about 4,040 m, is the highest peak of the range.",
+      "Its cloud forests are home to many species of birds of paradise."
+    ],
+    "q": {
+      "q": "Who was the Owen Stanley Range named after?",
+      "a": "A Royal Navy captain",
+      "x": [
+        "A missionary",
+        "A gold prospector"
+      ]
+    }
+  },
+  "ne-rg-1730071583": {
+    "t": "New Guinea's snowy spine above hidden valleys",
+    "s": "Along the centre of western New Guinea run the Maoke Mountains, the highest mountains on any island, with ridges above 4,000 m and the last scraps of ice on Puncak Jaya. Dutch explorers called them the Snow Mountains. Tucked among them lies the broad Baliem Valley, home to the Dani people, which the outside world first saw only in 1938, from an American expedition's aircraft.",
+    "w": "A long chain of high grey limestone ridges and deep valleys along the centre of western New Guinea, often buried in cloud.",
+    "f": [
+      "Puncak Jaya, about 4,880 m, is the highest summit of the range.",
+      "Richard Archbold's expedition spotted the populous Baliem Valley from the air in 1938."
+    ],
+    "q": {
+      "q": "What did Dutch explorers call the Maoke Mountains?",
+      "a": "The Snow Mountains",
+      "x": [
+        "The Blue Mountains",
+        "The Iron Mountains"
+      ]
+    }
+  },
+  "ne-rg-1730071603": {
+    "t": "Bare Arctic uplands on the divide of two oceans",
+    "s": "Across the far north-east of Siberia runs a broad upland of bare, rounded mountains, the Chukotka Highlands. They split the region's waters: rivers flowing north reach the Arctic seas, while those flowing south drain to the Bering Sea and the Pacific. There are no forests here, only tundra, stone and snow for most of the year, and the ridges look like crumpled grey paper.",
+    "w": "Bare, rounded grey mountains and tundra valleys across northern Chukotka, between the Arctic coast and the Anadyr basin.",
+    "f": [
+      "The highest summits rise to only about 1,800 m.",
+      "Lake Elgygytgyn, in the uplands of central Chukotka, fills a meteorite crater about 3.6 million years old."
+    ],
+    "q": {
+      "q": "What covers the Chukotka Highlands instead of forest?",
+      "a": "Tundra",
+      "x": [
+        "Steppe",
+        "Savanna"
+      ]
+    }
+  },
+  "ne-rg-1730071613": {
+    "t": "A mountain wall along the shore of the Okhotsk Sea",
+    "s": "For hundreds of kilometres, the Dzhugdzhur range runs along the north-western shore of the Sea of Okhotsk, dropping steeply to the sea on one side and more gently to the Siberian taiga on the other. It forms a great divide: only a short distance from the Pacific coast, rain on its western slopes begins a long journey to the Arctic Ocean through the Aldan and the Lena.",
+    "w": "Bare, rocky ridges running parallel to the Okhotsk coast, with dark taiga valleys inland and a steep drop to the sea.",
+    "f": [
+      "Its highest peak, Topko, reaches about 1,900 m.",
+      "The small port of Ayan lies at the foot of the range on the Okhotsk coast."
+    ],
+    "q": {
+      "q": "Which sea lies at the foot of the Dzhugdzhur range?",
+      "a": "The Sea of Okhotsk",
+      "x": [
+        "The Sea of Japan",
+        "The Bering Sea"
+      ]
+    }
+  },
+  "ne-rg-1730071631": {
+    "t": "One of the oldest mountain ranges on Earth",
+    "s": "The Aravallis are worn down to stumps, and no wonder: they are among the oldest fold mountains on Earth, their rocks raised well over a billion years ago. The range runs some 700 km across Rajasthan from Gujarat towards Delhi, a line of rocky, scrub-covered hills separating the Thar Desert in the west from greener plains in the east. Hill forts crown many of its ridges.",
+    "w": "A long, broken line of low rocky ridges running north-east across Rajasthan, with the sandy Thar Desert on the western side.",
+    "f": [
+      "Guru Shikhar, at Mount Abu, is the highest point at about 1,720 m.",
+      "The walls of Kumbhalgarh Fort, in the Aravallis, run for more than 30 km.",
+      "Several Aravalli forts belong to the UNESCO site Hill Forts of Rajasthan."
+    ],
+    "q": {
+      "q": "Which desert lies west of the Aravalli Range?",
+      "a": "The Thar",
+      "x": [
+        "The Registan",
+        "The Dasht-e Lut"
+      ]
+    }
+  },
+  "ne-rg-1730071657": {
+    "t": "Western Afghan ridges with an ancient Greek name",
+    "s": "West of the Hindu Kush, Afghanistan's mountains fan out into long parallel ridges, known since ancient Greek times as the Paropamisus. They run east–west for hundreds of kilometres, bare and brown, with snow on the crests in winter. Between them flows the Hari Rud, whose valley leads west to Herat; hidden in one of its gorges stands the 12th-century Minaret of Jam.",
+    "w": "Long, parallel east–west ridges of bare brown rock in western Afghanistan, with the green thread of the Hari Rud valley between them.",
+    "f": [
+      "The Minaret of Jam, about 65 m tall, is a UNESCO World Heritage site.",
+      "The Hari Rud flows west past Herat and finally dies out in the Karakum Desert."
+    ],
+    "q": {
+      "q": "Which river flows between the Paropamisus ridges towards Herat?",
+      "a": "The Hari Rud",
+      "x": [
+        "The Helmand",
+        "The Amu Darya"
+      ]
+    }
+  },
+  "Q1422726": {
+    "t": "Ocean floor lifted into Arabia's highest mountains",
+    "s": "The rocks of the Al Hajar Mountains once lay at the bottom of an ocean. Here a huge slab of oceanic crust and mantle, the Semail ophiolite, was pushed up onto Arabia, and it is the best-exposed piece of sea floor on land anywhere. The range curves some 700 km through northern Oman and the UAE, dark and jagged, rising to about 3,000 m at Jebel Shams.",
+    "w": "A dark, jagged arc of bare mountains parallel to the Gulf of Oman coast, from the Musandam tip towards Muscat and beyond.",
+    "f": [
+      "Jebel Shams, about 3,000 m, is the highest point of Oman.",
+      "Oman's ancient falaj water channels, fed from these mountains, are a UNESCO World Heritage site.",
+      "Wadi Ghul, beside Jebel Shams, is often called the Grand Canyon of Arabia."
+    ],
+    "q": {
+      "q": "What makes the Al Hajar Mountains famous among geologists?",
+      "a": "Ocean floor pushed onto land",
+      "x": [
+        "Active volcanoes",
+        "Glacier-carved valleys"
+      ]
+    }
+  },
+  "ne-rg-1730071667": {
+    "t": "An 800-km cliff across the heart of Arabia",
+    "s": "West of Riyadh, the flat plateau of central Arabia ends at a sheer limestone cliff that runs for some 800 km, curving from north to south. The Tuwayq escarpment drops hundreds of metres to the desert below. At its most dramatic point, known as the Edge of the World, visitors stand on rock laid down in a Jurassic sea and look out across an endless plain.",
+    "w": "A long, pale cliff line curving north–south across central Arabia, facing west, with Riyadh on the plateau behind it.",
+    "f": [
+      "The cliffs are built of limestone laid down in a shallow sea during the Jurassic.",
+      "Riyadh stands on the plateau just east of the escarpment."
+    ],
+    "q": {
+      "q": "Which capital stands on the plateau behind the Tuwayq escarpment?",
+      "a": "Riyadh",
+      "x": [
+        "Doha",
+        "Muscat"
+      ]
+    }
+  },
+  "Q217202": {
+    "t": "Romania's 'Transylvanian Alps' of glacial lakes",
+    "s": "Across the middle of Romania, the Carpathians turn west and rise into their most alpine stretch: the Southern Carpathians, also called the Transylvanian Alps. Sharp ridges above 2,000 m separate Transylvania from Wallachia and stay snowy for half the year. In the Retezat Mountains dozens of glacial lakes glitter in rocky bowls, and at the range's western end the Danube cuts through the Iron Gates gorge.",
+    "w": "Sharp, often snowy ridges running east–west across central Romania, with the Danube gorge at their western end.",
+    "f": [
+      "Moldoveanu, about 2,544 m, is Romania's highest peak.",
+      "Retezat, created in 1935, is Romania's oldest national park.",
+      "The Transfăgărășan road climbs over the range in hairpin bends to about 2,040 m."
+    ],
+    "q": {
+      "q": "Which river cuts through the Southern Carpathians at the Iron Gates?",
+      "a": "The Danube",
+      "x": [
+        "The Dniester",
+        "The Tisza"
+      ]
+    }
+  },
+  "ne-rg-1730071739": {
+    "t": "A lake-dotted upland above Alberta's boreal lowlands",
+    "s": "North-west of Fort McMurray, a broad plateau of forest and lakes rises gently above the boreal lowlands of northern Alberta. The Birch Mountains are not mountains in the usual sense but an upland several hundred metres high, cut by streams and dotted with lakes and peat bogs. To the east the land drops to the Athabasca River valley and the oil sands.",
+    "w": "A broad forested upland with scattered lakes and bogs, north-west of Fort McMurray and west of the Athabasca River.",
+    "f": [
+      "Much of the upland is protected as the Birch Mountains Wildland Provincial Park.",
+      "Woodland caribou and moose roam its forests and bogs."
+    ],
+    "q": {
+      "q": "Which river valley lies east of the Birch Mountains?",
+      "a": "The Athabasca",
+      "x": [
+        "The Fraser",
+        "The Yukon"
+      ]
+    }
+  },
+  "Q357546": {
+    "t": "A dome of ancient rock that is still rising",
+    "s": "The Adirondacks look like any old mountains: rounded, forested summits scattered with thousands of lakes. Geologically, though, they are unusual: a dome of very ancient rock that is still slowly rising, and not part of the Appalachian chain around it. Almost all of them lie inside Adirondack Park, which at about 24,000 km² is larger than Yellowstone, Yosemite, Glacier and Grand Canyon parks combined.",
+    "w": "A roughly round cluster of forested peaks and countless lakes in northern New York, between Lake Champlain and the St. Lawrence.",
+    "f": [
+      "Mount Marcy, about 1,630 m, is the highest point in New York State.",
+      "Lake Placid, in the Adirondacks, hosted the Winter Olympics in 1932 and 1980.",
+      "Hikers who climb all 46 High Peaks are known as 'Forty-Sixers'."
+    ],
+    "q": {
+      "q": "Which Adirondack town has hosted the Winter Olympics twice?",
+      "a": "Lake Placid",
+      "x": [
+        "Sun Valley",
+        "Squaw Valley"
+      ]
+    }
+  },
+  "Q1457996": {
+    "t": "Granite domes between the Guianas and Amazonia",
+    "s": "Where Suriname, French Guiana and Brazil meet, the rainforest is broken by bare granite domes called inselbergs, rising like grey islands above the canopy. These are the Tumuc-Humac Mountains, a low, remote chain that forms the divide between rivers running north to the Atlantic coast of the Guianas and rivers flowing south into the Amazon basin.",
+    "w": "Scattered bare grey granite domes above unbroken rainforest along the southern borders of Suriname and French Guiana.",
+    "f": [
+      "Inselberg is German for 'island mountain'.",
+      "The French side lies within the Guiana Amazonian Park, one of the largest national parks in the European Union."
+    ],
+    "q": {
+      "q": "What are the bare granite domes above the forest called?",
+      "a": "Inselbergs",
+      "x": [
+        "Tepuis",
+        "Mesas"
+      ]
+    }
+  },
+  "ne-rg-1730071811": {
+    "t": "Painted cliffs above the dry Brazilian backlands",
+    "s": "In the dry thorn scrub of Piauí, sandstone cliffs and canyons hide one of the richest collections of rock art in the Americas. The Serra da Capivara holds hundreds of painted shelters, where red figures of people, deer and capybaras hunt, dance and embrace across the rock. Some sites here have been argued to hold very early traces of people in South America, a debate that continues.",
+    "w": "Reddish sandstone cliffs and canyons rising from grey-green thorny scrub in south-eastern Piauí.",
+    "f": [
+      "Serra da Capivara National Park became a UNESCO World Heritage site in 1991.",
+      "Pedra Furada, a pierced rock, is the park's best-known landmark."
+    ],
+    "q": {
+      "q": "Which animal gives the Serra da Capivara its name?",
+      "a": "The capybara",
+      "x": [
+        "The jaguar",
+        "The armadillo"
+      ]
+    }
+  },
+  "Q7455221": {
+    "t": "A green escarpment above the dry sertão",
+    "s": "On the border of Ceará and Piauí, the land rises abruptly in a long escarpment, the Serra da Ibiapaba, some 800 m high. Its top catches moisture from the Atlantic winds, so the plateau is green and cool while the sertão below is dry, thorny scrub. Near its edge, Ubajara National Park protects limestone caves reached by a cable car.",
+    "w": "A long, steep north–south escarpment with a green plateau on top and dry brown scrubland below, in north-eastern Brazil.",
+    "f": [
+      "Ubajara, created in 1959, is one of Brazil's smallest national parks.",
+      "The escarpment is gentle on the Piauí side and steep towards Ceará."
+    ],
+    "q": {
+      "q": "What does the Ubajara cable car take visitors to?",
+      "a": "Limestone caves",
+      "x": [
+        "A waterfall pool",
+        "A volcanic crater"
+      ]
+    }
+  },
+  "ne-rg-1730071825": {
+    "t": "Remote ridges named after a forest spirit",
+    "s": "On the border of Venezuela and Brazil, deep in the Amazon rainforest, low ridges and granite peaks rise from an unbroken green carpet. The Serra de Curupira takes its name from the Curupira, a spirit of Brazilian folklore who guards the forest, and whose backwards-turned feet leave tracks that lead hunters astray. Few places on Earth are farther from a road.",
+    "w": "Forest-covered ridges and a few bare rock peaks rising above an endless green canopy on the Venezuela–Brazil border.",
+    "f": [
+      "In Brazilian folklore, the Curupira has red hair and feet that point backwards.",
+      "Rivers on its southern side flow towards the Rio Negro, the Amazon's largest left-bank tributary."
+    ],
+    "q": {
+      "q": "What is the Curupira in Brazilian folklore?",
+      "a": "A spirit guarding the forest",
+      "x": [
+        "A river dolphin god",
+        "A giant snake"
+      ]
+    }
+  },
+  "ne-rg-1730071835": {
+    "t": "The 'golden range' of Brazil's central highlands",
+    "s": "Serra Dourada means 'golden range', and in the dry season its quartzite ridges and grasslands do glow gold and ochre in the sun. The range runs across the highlands of Goiás, in the heart of Brazil's cerrado savanna, where rocky crests alternate with patches of twisted trees and, increasingly, the geometric fields of farms. Rivers here flow north into the Tocantins basin.",
+    "w": "Long, pale quartzite ridges and golden grassland amid cerrado and farmland in the highlands of Goiás.",
+    "f": [
+      "Goiás was the scene of a gold rush in the 18th century.",
+      "The cerrado covers about a fifth of Brazil."
+    ],
+    "q": {
+      "q": "What does the Portuguese name Serra Dourada mean?",
+      "a": "Golden range",
+      "x": [
+        "Green range",
+        "Stony range"
+      ]
+    }
+  },
+  "ne-rg-1730071839": {
+    "t": "Forested ridges on the Amazon's cattle frontier",
+    "s": "In southern Pará, between the Xingu and Araguaia rivers, the Serra dos Gradaús rises as a long line of forested hills. The contrast around it is stark: dark rainforest still clothes the ridges and the protected lands nearby, while much of the lowland has been cleared into a pale patchwork of cattle pasture. The iron-rich hills of Carajás lie to the north.",
+    "w": "Dark forested ridges surrounded by pale rectangles of cleared pasture, between the Xingu and Araguaia rivers in southern Pará.",
+    "f": [
+      "The Carajás mines to the north hold some of the world's largest iron ore deposits.",
+      "Pará is one of Brazil's biggest cattle-raising states."
+    ],
+    "q": {
+      "q": "Which two rivers frame the region of the Serra dos Gradaús?",
+      "a": "The Xingu and the Araguaia",
+      "x": [
+        "The Madeira and the Purus",
+        "The Negro and the Branco"
+      ]
+    }
+  },
+  "ne-rg-1730071849": {
+    "t": "Table mountains and a thundering waterfall",
+    "s": "Where Guyana, Venezuela and Brazil meet, flat-topped sandstone mountains called tepuis rise from the forest with sheer walls hundreds of metres high. The Pakaraima Mountains include Mount Roraima, whose summit plateau, about 2,800 m high, is said to have inspired Arthur Conan Doyle's 'The Lost World'. On their Guyanese side, the Potaro River plunges 226 m in a single drop at Kaieteur Falls.",
+    "w": "Flat-topped mountains with vertical cliffs rising above rainforest and savanna where Guyana, Venezuela and Brazil meet.",
+    "f": [
+      "Kaieteur is one of the most powerful single-drop waterfalls in the world.",
+      "The borders of Guyana, Venezuela and Brazil meet on the summit of Mount Roraima."
+    ],
+    "q": {
+      "q": "Which novel is Mount Roraima said to have inspired?",
+      "a": "The Lost World",
+      "x": [
+        "Heart of Darkness",
+        "King Solomon's Mines"
+      ]
+    }
+  },
+  "Q7446846": {
+    "t": "Borneo's north-western corner on the South China Sea",
+    "s": "Here Borneo's coast turns a corner: the long western shore, facing the South China Sea, bends east towards Sarawak. The land is low and green, a mix of forest, swamp, rubber and oil-palm plantations, with forested hills rising behind long, straight beaches. The border between Indonesia and Malaysia runs close by, across the island's north-western tip.",
+    "w": "Low green coast with long beaches, plantations and forested hills at Borneo's north-western tip, facing the South China Sea.",
+    "f": [
+      "Borneo is the third-largest island in the world and is shared by three countries.",
+      "Tanjung Datu, the westernmost point of Sarawak, lies at this corner of the island."
+    ],
+    "q": {
+      "q": "How many countries share the island of Borneo?",
+      "a": "Three",
+      "x": [
+        "Two",
+        "Four"
+      ]
+    }
+  },
+  "ne-rg-1730071943": {
+    "t": "The 'land of thirst', a vast plateau of fossils",
+    "s": "The Great Karoo is a vast, dry plateau in the heart of South Africa, a land of flat-topped hills, dusty sheep farms and endless horizons. Its name is often traced to a Khoekhoe word meaning 'land of thirst'. Its rocks hold one of the world's great fossil records of mammal-like reptiles that lived more than 250 million years ago, distant relatives of mammals.",
+    "w": "Endless brown plains broken by flat-topped hills capped with dark rock, in the dry interior of South Africa.",
+    "f": [
+      "The dark caps on its flat-topped hills are dolerite, a hard volcanic rock that resists erosion.",
+      "Karoo National Park lies beside the town of Beaufort West.",
+      "Karoo lamb is prized for a flavour said to come from the local shrubs the sheep graze."
+    ],
+    "q": {
+      "q": "What is the name Karoo often said to mean?",
+      "a": "Land of thirst",
+      "x": [
+        "Land of stones",
+        "Land of sheep"
+      ]
+    }
+  },
+  "Q843903": {
+    "t": "Sandstone cliffs, desert oases and hidden crocodiles",
+    "s": "In central Mauritania, the Tagant plateau rises from the Sahara in sandstone cliffs cut by deep gorges. Oasis towns such as Tidjikja shelter their date palms against the rock, and the old caravan town of Tichitt is one of Mauritania's four ancient ksour listed by UNESCO. In a few permanent pools, such as Matmata, desert crocodiles have survived since the Sahara was green.",
+    "w": "A broad sandstone plateau with dark cliff edges and sand-filled valleys, rising from the desert in central Mauritania.",
+    "f": [
+      "Chinguetti, Ouadane, Tichitt and Oualata together form one UNESCO World Heritage site.",
+      "Stone-built Neolithic villages near Tichitt are more than 3,000 years old."
+    ],
+    "q": {
+      "q": "Which reptiles survive in the Tagant's desert pools?",
+      "a": "Crocodiles",
+      "x": [
+        "Iguanas",
+        "Alligators"
+      ]
+    }
   }
 }

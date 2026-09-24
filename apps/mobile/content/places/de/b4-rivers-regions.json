@@ -718,5 +718,1445 @@
         "Den Mähnenwolf"
       ]
     }
+  },
+  "Q141501": {
+    "t": "Ebenen, die jedes Jahr von Staub zum Binnenmeer werden",
+    "s": "Die Llanos wechseln zwischen zwei Gesichtern. In der Trockenzeit, etwa von Dezember bis April, ist dieses Tiefland am Orinoco goldenes Grasland, getupft mit Palmen und durchzogen von staubigen Pisten. Wenn der Regen kommt, treten die Flüsse über die Ufer, und weite Flächen werden zu einer flachen Wasserschicht, die in der Sonne glänzt. Es ist Cowboyland, wo Llaneros noch immer Rinder über die Ebenen treiben.",
+    "w": "Flaches Grasland mit Baumreihen an gewundenen Flüssen; in der Regenzeit glänzende Flächen aus Hochwasser.",
+    "f": [
+      "Die Llanos erstrecken sich über Venezuela und Kolumbien, zwischen den Anden und dem Orinoco.",
+      "Hier leben Capybaras, die größten Nagetiere der Welt, und Orinoko-Krokodile.",
+      "Joropo, die schnelle Musik der Llaneros mit Harfe und Maracas, ist Venezuelas Nationaltanz."
+    ],
+    "q": {
+      "q": "Wie heißen die Cowboys der Llanos?",
+      "a": "Llaneros",
+      "x": [
+        "Gauchos",
+        "Huasos"
+      ]
+    }
+  },
+  "Q184382": {
+    "t": "Flach wie ein Tisch und in riesige Felder eingeteilt",
+    "s": "Pampa kommt von einem Quechua-Wort für Ebene, und kaum eine Ebene ist flacher. Von oben sehen Sie eine Steppdecke aus riesigen rechteckigen Feldern, schnurgeraden Straßen, silbern glänzenden flachen Seen und dunklen Baumgruppen, die jede Estancia markieren. Einst hohes Grasland, durchritten von Gauchos, ist sie heute einer der großen Agrargürtel der Welt für Soja, Weizen, Mais und Rindfleisch.",
+    "w": "Eine riesige flache Steppdecke aus rechteckigen Feldern, geraden Straßen und silbrigen flachen Seen, mit dunklen Baumgruppen um Gehöfte.",
+    "f": [
+      "Fast alle Bäume, die Sie sehen, wurden gepflanzt: Die natürliche Pampa hatte Gras, aber kaum Bäume.",
+      "Die tiefen, fruchtbaren Böden der Pampa gehören zu den reichsten der Welt.",
+      "Charles Darwin ritt in den 1830er-Jahren während der Reise der Beagle durch die Pampa."
+    ],
+    "q": {
+      "q": "Was bedeutet das Quechua-Wort „pampa“?",
+      "a": "Ebene",
+      "x": [
+        "Gras",
+        "Wind"
+      ]
+    }
+  },
+  "Q192305": {
+    "t": "Himalaya-Schlamm als Heimat für Hunderte Millionen Menschen",
+    "s": "Hier schwingt der Ganges, nun als Padma auf dem Weg zum Golf von Bengalen, in weiten, verflochtenen Schleifen über eine Ebene, so flach, dass ihre Flüsse wandern, wie sie wollen. Jedes Feld, jedes Dorf und jeder Teich unter Ihnen liegt auf Schlamm, der aus dem Himalaya herabgetragen wurde. Die Indus-Ganges-Ebene zählt zu den am dichtesten besiedelten Orten der Erde, und nachts glitzert sie von unzähligen Lichtern.",
+    "w": "Ein breiter, verflochtener Fluss mit hellen Sandbänken in einem flachen grünen Flickwerk aus Feldern, Teichen und Dörfern.",
+    "f": [
+      "Stellenweise sind die Flussablagerungen unter der Ebene mehr als einen Kilometer mächtig.",
+      "Im Winter legt sich oft dichter Nebel über die Ebene, manchmal von Pakistan bis Bangladesch.",
+      "Die Ebene erstreckt sich über mehr als 2.500 km, von Pakistan quer durch Nordindien bis Bangladesch."
+    ],
+    "q": {
+      "q": "Aus welchem Gebirge stammt der Schlamm, der diese Ebene aufbaute?",
+      "a": "Aus dem Himalaya",
+      "x": [
+        "Aus den Westghats",
+        "Aus dem Vindhyagebirge"
+      ]
+    }
+  },
+  "Q486324": {
+    "t": "Eine grüne ovale Oase, ummauert von Schneebergen",
+    "s": "Suchen Sie ein grünes Oval zwischen Bergen: das Ferganatal, rund 300 km lang, im Norden vom Tian Shan und im Süden vom Alaigebirge umringt. Flüsse, die aus dem Schnee herabstürzen, speisen ein dichtes Flickwerk aus Baumwollfeldern, Obstgärten, Maulbeerbäumen und Städten. Hier entsteht der Syrdarja, wo Naryn und Karadarja zusammenfließen.",
+    "w": "Ein grünes, dicht bewirtschaftetes Becken, fast ringsum von hohen, oft schneebedeckten Bergen umgeben.",
+    "f": [
+      "Usbekistan, Kirgistan und Tadschikistan teilen sich das Tal.",
+      "Vor mehr als 2.000 Jahren begehrten chinesische Kaiser die berühmten „Himmelspferde“ aus Fergana.",
+      "Margilan im Tal ist seit Jahrhunderten für seine Seidenweberei bekannt."
+    ],
+    "q": {
+      "q": "Welcher Fluss entsteht im Ferganatal?",
+      "a": "Der Syrdarja",
+      "x": [
+        "Der Amudarja",
+        "Der Serafschan"
+      ]
+    }
+  },
+  "Q51614": {
+    "t": "Ein Hochplateau aus Weizen, Salz und uralten Städten",
+    "s": "Das Herz Anatoliens ist ein hohes, offenes Plateau rund einen Kilometer über dem Meer, wo die Weizenfelder im Frühling grün, im Sommer golden und im Herbst kahl ockerfarben sind. Gleich südwestlich liegt der Tuz-See, ein riesiger Salzsee, der im Sommer zu einer blendend weißen Kruste austrocknet. Weiter südlich erheben sich die Kegel alter Vulkane wie Hasan und Erciyes.",
+    "w": "Ein weites ocker- und goldfarbenes Plateau; achten Sie auf den riesigen weißen Fleck des Tuz-Sees und ferne Vulkankegel.",
+    "f": [
+      "Der Name kommt vom griechischen „anatolē“, Sonnenaufgang – und damit Osten.",
+      "Çatalhöyük, weiter südlich auf dem Plateau, war vor mehr als 9.000 Jahren eine Stadt aus Lehmziegelhäusern.",
+      "Der Tuz-See liefert einen großen Teil des türkischen Salzes."
+    ],
+    "q": {
+      "q": "Welcher Salzsee liegt auf dem zentralanatolischen Plateau?",
+      "a": "Der Tuz-See",
+      "x": [
+        "Der İznik-See",
+        "Der Urmiasee"
+      ]
+    }
+  },
+  "Q1507": {
+    "t": "Wind, Steppe und Himmel am Ende Amerikas",
+    "s": "Patagonien ist aus der Luft vor allem Leere: graubraune Steppe und Tafelberge, die Mesetas, durchschnitten von ein paar Flusstälern, die wie grüne Fäden von den Anden zum Atlantik ziehen. Im Westen erheben sich die verschneiten Anden über tiefblauen Seen. Der Wind weht heftig und fast unablässig von Westen und biegt die wenigen Bäume, die es gibt.",
+    "w": "Weite graubraune Steppe mit flachen Tafelbergen und Canyons; im Westen verschneite Anden und lange blaue Seen.",
+    "f": [
+      "Walisische Siedler erreichten 1865 das Chubut-Tal, und in Orten wie Gaiman wird noch heute Walisisch gesprochen.",
+      "Einige der größten bekannten Dinosaurier, darunter Argentinosaurus und Patagotitan, wurden in Patagonien gefunden.",
+      "Der Name geht meist auf Magellans Mannschaft zurück, die 1520 die Einheimischen „Patagones“ nannte."
+    ],
+    "q": {
+      "q": "Welche europäische Sprache wird im Chubut-Tal noch gesprochen?",
+      "a": "Walisisch",
+      "x": [
+        "Irisch",
+        "Baskisch"
+      ]
+    }
+  },
+  "Q605779": {
+    "t": "Ein gewaltiger Eishang hinab zum Südlichen Ozean",
+    "s": "Von der Küste des Wilkeslands steigt das Eis in einem langen, sanften Hang zum Hochplateau der Ostantarktis an, Hunderte Kilometer landeinwärts. Nahe dem Meer werden die Gletscher schneller und reißen in Spalten auf, und ihre Oberfläche sieht aus wie zerknülltes Papier. Unter dem Eis liegt das tiefe Aurora-Subglazialbecken, großenteils unter dem Meeresspiegel.",
+    "w": "Ein nahtloser weißer Hang; an der Küste zerklüftete Gletscher, Eisklippen und Meereis, verstreut auf dunklem Wasser.",
+    "f": [
+      "Es ist nach Charles Wilkes benannt, der diese Küste 1840 auf einer Expedition der US-Marine kartierte.",
+      "Der Totten-Gletscher an seiner Küste entwässert einen großen Teil des Eisschilds und wird von Forschern genau beobachtet.",
+      "Australiens Casey-Station steht an seiner Küste, auf den Windmill-Inseln."
+    ],
+    "q": {
+      "q": "Nach wem ist das Wilkesland benannt?",
+      "a": "Nach einem US-Marineoffizier",
+      "x": [
+        "Nach einem britischen Walfangkapitän",
+        "Nach einem norwegischen König"
+      ]
+    }
+  },
+  "Q1340442": {
+    "t": "Eis über einigen der ältesten Gesteine der Erde",
+    "s": "Eis reicht hier von Horizont zu Horizont, nahe der Küste durchbrochen von dunklen Kämmen und Nunatakkern – Felsgipfeln, die wie Inseln in einem weißen Meer aus dem Eisschild ragen. Einige dieser Gesteine gehören zu den ältesten der Erde. Die Küste wurde 1831 erstmals von John Biscoe gesichtet, einem Robben- und Walfangkapitän, der von London aus segelte.",
+    "w": "Ein weißer Eisschild, nahe der Küste durchstoßen von dunklen Felsgipfeln wie Inseln.",
+    "f": [
+      "Der Name stammt von Enderby Brothers, der Londoner Walfangfirma, die Biscoe nach Süden schickte.",
+      "Gesteine seines Napier-Komplexes gehören zu den ältesten der Antarktis, entstanden vor rund 3,8 Milliarden Jahren.",
+      "Die Station Molodjoschnaja an seiner Küste war einst die sowjetische Hauptbasis in der Antarktis."
+    ],
+    "q": {
+      "q": "Welche Art von Unternehmen gab dem Enderbyland seinen Namen?",
+      "a": "Eine Walfangfirma",
+      "x": [
+        "Ein Teehandelshaus",
+        "Eine Kohlegesellschaft"
+      ]
+    }
+  },
+  "Q189999": {
+    "t": "Im Eis versinkende Berge, benannt nach einer Königin",
+    "s": "Nahe der Küste des Königin-Maud-Lands durchbrechen zackige Gebirgsketten den Eisschild, ihre dunklen Gipfel und Granitnadeln halb im Weiß begraben. Weiter südlich, dort, wo Sie jetzt sind, steigt das Eis zum hohen Polarplateau an, und die Berge verschwinden darunter. Der Name ehrt Königin Maud von Norwegen, die Frau König Haakons VII.",
+    "w": "Landeinwärts ein weißes Plateau; zur Küste hin dunkle Gebirgszüge und nadelartige Gipfel, die aus dem Eis ragen.",
+    "f": [
+      "Es erstreckt sich über mehr als 2.000 km entlang der antarktischen Küste.",
+      "Mehrere Länder betreiben hier Forschungsstationen, darunter Norwegens Troll, Deutschlands Neumayer und Indiens Maitri.",
+      "Königin Maud wurde als britische Prinzessin geboren, als Tochter König Eduards VII."
+    ],
+    "q": {
+      "q": "Königin Maud, Namensgeberin dieses Landes, war Königin welches Landes?",
+      "a": "Norwegen",
+      "x": [
+        "Dänemark",
+        "Schweden"
+      ]
+    }
+  },
+  "Q745767": {
+    "t": "Vulkane unter Eis, benannt nach der Frau eines Forschers",
+    "s": "Hier und da durchstoßen die verschneiten Kegel von Vulkanen das Eis des Marie-Byrd-Lands, manche mehr als 4 km hoch. Der Mount Sidley, rund 4.285 m, ist der höchste Vulkan der Antarktis. Um sie herum liegen Hunderte Kilometer flaches weißes Eis. Der amerikanische Flieger Richard Byrd benannte diesen abgelegenen Winkel der Westantarktis 1929 nach seiner Frau Marie.",
+    "w": "Eine weiße Weite mit einzelnen breiten Vulkankegeln, die zur Küste hin über das Eis ragen.",
+    "f": [
+      "Kein Land hat je einen Gebietsanspruch auf das Marie-Byrd-Land erhoben.",
+      "1929 gehörte Byrd zu den Ersten, die über den Südpol flogen.",
+      "Seine Küste liegt an Amundsen- und Rossmeer, oft verstopft von Meereis."
+    ],
+    "q": {
+      "q": "Nach wem wurde das Marie-Byrd-Land benannt?",
+      "a": "Nach der Frau eines Forschers",
+      "x": [
+        "Nach einer britischen Königin",
+        "Nach einem Schiffskapitän"
+      ]
+    }
+  },
+  "Q80299": {
+    "t": "Der höchste Wasserfall der Welt, von einem Tafelberg",
+    "s": "Der Salto Ángel stürzt 979 m tief von der Kante des Auyán-tepui, eines flachen Sandsteinbergs, der senkrecht aus dem venezolanischen Regenwald aufragt. Er ist der höchste ununterbrochene Wasserfall der Welt; in der Trockenzeit wird ein Großteil des Wassers zu Nebel, bevor es den Grund erreicht. Suchen Sie dunkle Tafelberge mit senkrechten Wänden, oft in Wolken gehüllt.",
+    "w": "Dunkle Tafelberge mit senkrechten Felswänden über grünem Wald, oft halb in Wolken verborgen.",
+    "f": [
+      "Er ist nach Jimmie Angel benannt, einem US-Piloten, der ihn 1933 überflog und 1937 auf dem Tepui landete.",
+      "In der einheimischen Sprache der Pemón heißt er Kerepakupai Merú.",
+      "Die Fälle liegen im Nationalpark Canaima, seit 1994 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Wie hoch ist der Salto Ángel?",
+      "a": "Rund 979 m",
+      "x": [
+        "Rund 450 m",
+        "Rund 1.500 m"
+      ]
+    }
+  },
+  "Q599529": {
+    "t": "Die Steppe, in der das Pferd wohl zuerst gezähmt wurde",
+    "s": "Von der Donau bis zum Ural war die Pontisch-Kaspische Steppe einst ein Meer aus Federgras. Heute ist sie hier, nahe der Wolga, großenteils zu riesigen Schwarzerdefeldern umgepflügt, durchzogen von Windschutzstreifen aus Bäumen und zerschnitten von verzweigten Schluchten. Im Frühsommer ist der Weizen grün; im August wird das ganze Land golden und staubig.",
+    "w": "Riesige Felder in Grün, Gold oder Schwarz, getrennt von dünnen Baumreihen und zerschnitten von verzweigten Schluchten; im Westen die Wolga.",
+    "f": [
+      "Eine 2021 veröffentlichte genetische Studie führte die heutigen Hauspferde auf diese Steppe zurück, vor rund 4.200 Jahren.",
+      "Ihre schwarzen Böden, die Tschernoseme, gehören zu den fruchtbarsten der Erde.",
+      "Jahrtausendelang zogen Nomaden wie Skythen und Sarmaten durch dieses Grasland."
+    ],
+    "q": {
+      "q": "Welches Tier wurde wohl zuerst in dieser Steppe domestiziert?",
+      "a": "Das Pferd",
+      "x": [
+        "Das Kamel",
+        "Der Yak"
+      ]
+    }
+  },
+  "ne-rg-1730073989": {
+    "t": "Das Herz des Corn Belt, von Gletschern plattgebügelt",
+    "s": "Ein Schachbrett bis zum Horizont: Dies ist das Herz des amerikanischen Corn Belt, Land, das eiszeitliche Gletscher und windverwehter Staub eingeebnet und angereichert haben, dann in quadratmeilengroße Parzellen eingeteilt. Im Sommer sind die Quadrate grün von Mais und Sojabohnen; nach der Ernte werden sie braun und beige. Flüsse wie der Mississippi winden sich in bewaldeten Tälern hindurch.",
+    "w": "Ein Raster aus quadratmeilengroßen Feldern und Straßen, im Sommer grün, nach der Ernte braun, durchschnitten von bewaldeten Flusstälern.",
+    "f": [
+      "Iowa und Illinois, beide im Zentralen Tiefland, bauen zusammen rund ein Drittel des US-Maises an.",
+      "Ein Großteil des Bodens entstand auf Löss, feinem Staub, der am Ende der Eiszeit von Gletschersanden abgeweht wurde.",
+      "Vor dem Ackerbau war das meiste Land hier Hochgrasprärie, mit Gräsern höher als ein Mensch."
+    ],
+    "q": {
+      "q": "Welche zwei Feldfrüchte füllen das sommerliche Schachbrett des Corn Belt?",
+      "a": "Mais und Sojabohnen",
+      "x": [
+        "Weizen und Baumwolle",
+        "Reis und Zuckerrüben"
+      ]
+    }
+  },
+  "Q2016601": {
+    "t": "Die Tundra des „Großen Landes“ – Seen und Rentiere",
+    "s": "Östlich der Petschora breitet sich die Bolschesemelskaja-Tundra aus, die Tundra des „Großen Landes“: eine baumlose Ebene aus Moos, Zwergbirken und niedrigen Hügeln, glitzernd von Tausenden Seen. Den größten Teil des Jahres ist sie weiß; im Sommer wird sie grün und braun, und die Seen glänzen wie verstreute Spiegel. Nenzische Hirten ziehen noch immer mit den Jahreszeiten mit ihren Rentieren hindurch.",
+    "w": "Eine flache, baumlose Ebene, übersät mit unzähligen Seen und niedrigen runden Hügeln; den größten Teil des Jahres weiß.",
+    "f": [
+      "Unter der Tundra liegt Permafrost, deshalb sammelt sich Schmelzwasser in so vielen flachen Seen.",
+      "Workuta, eine Bergbaustadt für Kohle, liegt an ihrem Südostrand.",
+      "Ihr Name setzt sie ab von der kleineren Malosemelskaja-Tundra, der des „Kleinen Landes“, westlich der Petschora."
+    ],
+    "q": {
+      "q": "Welches Volk hütet Rentiere in der Bolschesemelskaja-Tundra?",
+      "a": "Die Nenzen",
+      "x": [
+        "Die Samen",
+        "Die Jakuten"
+      ]
+    }
+  },
+  "Q252609": {
+    "t": "Ein Stück Antarktis, zuerst aus der Luft kartiert",
+    "s": "1938–39 katapultierte eine deutsche Expedition Wasserflugzeuge vom Schiff Schwabenland und fotografierte diesen Teil des Königin-Maud-Lands aus der Luft; nach dem Schiff nannte sie ihn Neuschwabenland. Hinter den flachen Schelfeisen der Küste steigt das Land zu dunklen Gebirgsketten an und verschwindet dann unter dem Polarplateau. Nahe der Küste liegt die Schirmacher-Oase, ein seltener Streifen aus nacktem Fels und Seen.",
+    "w": "Flache Schelfeise an der Küste, dann dunkle Gebirgsketten, die aus dem Eis ragen, und dahinter weißes Plateau.",
+    "f": [
+      "Die rund 17 km lange Schirmacher-Oase birgt Dutzende Seen und zwei Stationen: Russlands Nowolasarewskaja und Indiens Maitri.",
+      "Das Schiff Schwabenland war nach Schwaben benannt, einer Region im Südwesten Deutschlands.",
+      "Nowolasarewskaja ehrt Michail Lasarew, der mit Bellingshausen segelte, als 1820 die Antarktis gesichtet wurde."
+    ],
+    "q": {
+      "q": "Wem verdankt Neuschwabenland seinen Namen?",
+      "a": "Einem Expeditionsschiff",
+      "x": [
+        "Einer Forschungsstation",
+        "Einem Gebirgszug"
+      ]
+    }
+  },
+  "Q973": {
+    "t": "Ein wandernder Riese durch die sibirischen Moore",
+    "s": "Der Ob fließt nicht so sehr, er wandert: Hier, mitten im Westsibirischen Tiefland, breitet er sich zu einer weiten Aue aus Armen, Altwasserseen und weidenbewachsenen Inseln aus, stellenweise Dutzende Kilometer breit. Im Mai und Juni verwandelt das Frühjahrshochwasser vieles davon in eine einzige glänzende Fläche. Dann zieht sich das Wasser langsam ins Hauptbett zurück.",
+    "w": "Eine breite silbrige Aue mit vielen Armen, Altwasserseen und Inseln, gewunden durch flaches Moor und Taiga.",
+    "f": [
+      "Mit dem Irtysch bildet der Ob eines der längsten Flusssysteme Asiens, rund 5.400 km.",
+      "Er endet im Ob-Busen, einem rund 800 km langen Mündungstrichter, der sich zur Karasee öffnet.",
+      "Etwa das halbe Jahr liegt der Fluss unter Eis."
+    ],
+    "q": {
+      "q": "In welches Meer öffnet sich der Ob-Busen?",
+      "a": "In die Karasee",
+      "x": [
+        "In die Laptewsee",
+        "In die Barentssee"
+      ]
+    }
+  },
+  "Q1538813": {
+    "t": "Der erste Faden des Jangtse, unterhalb der Gletscher",
+    "s": "Dieser verflochtene Bach, der in einem weiten steinigen Tal auf mehr als 4.500 m glänzt, ist der Tuotuo – der Quellfluss, der meist als offizielle Quelle des Jangtse gilt. Er entspringt den Gletschern des Geladaindong im Tanggula-Gebirge. Nahe der winzigen Siedlung Tuotuohe überqueren ihn die Qinghai-Tibet-Bahn und die Fernstraße auf langen Brücken.",
+    "w": "Ein dünner, verflochtener silberner Bach in einem breiten graubraunen Tal, im Südwesten verschneite Gipfel.",
+    "f": [
+      "Der Geladaindong, dessen Gletscher den Tuotuo speisen, ist rund 6.600 m hoch.",
+      "Die Winter hier sind lang und bitterkalt, und der Fluss friert jedes Jahr für mehrere Monate zu.",
+      "Manche Vermessungen halten den Dangqu, einen anderen Quellfluss, für länger – die wahre Jangtsequelle ist noch umstritten."
+    ],
+    "q": {
+      "q": "Welcher große Strom beginnt mit dem Tuotuo?",
+      "a": "Der Jangtse",
+      "x": [
+        "Der Gelbe Fluss",
+        "Der Saluen"
+      ]
+    }
+  },
+  "ne-rv-1159113693": {
+    "t": "Der Westarm des Nils – und der Stein, der sprach",
+    "s": "Unterhalb von Kairo teilt sich der Nil, und dies ist sein Westarm, der Rosette-Arm, der sich durch das Delta nordwärts zum Mittelmeer windet. Von oben ist er ein dunkler Faden durch eine dichte grüne Decke aus Feldern und Dörfern, im Westen scharf von Wüste begrenzt. Nahe seiner Mündung, bei Rosette, fanden französische Soldaten 1799 den Stein von Rosette.",
+    "w": "Ein gewundener dunkler Fluss durch ein dichtes grünes Delta aus Feldern und Dörfern, gleich im Westen die Wüste.",
+    "f": [
+      "Der Stein von Rosette trägt einen Erlass in Hieroglyphen, Demotisch und Griechisch; er half, die Hieroglyphen zu entziffern.",
+      "Die Stadt an seiner Mündung heißt auf Arabisch Raschid; Rosette ist ihr europäischer Name.",
+      "Mit dem Damiette-Arm umrahmt er das Nildelta, eine der ältesten Agrarlandschaften der Erde."
+    ],
+    "q": {
+      "q": "Welches berühmte Objekt fand man nahe der Mündung des Rosette-Arms?",
+      "a": "Den Stein von Rosette",
+      "x": [
+        "Die Narmer-Palette",
+        "Tutanchamuns Maske"
+      ]
+    }
+  },
+  "ne-rv-1159113949": {
+    "t": "Der Ostarm des Nils durch ein dicht besiedeltes grünes Delta",
+    "s": "Wo sich der Nil zu seinem Delta auffächert, nimmt der Damiette-Arm den östlichen Weg zum Meer. Aus der Luft ist er eine dunkle, sanft gewundene Linie durch ein leuchtend grünes, dicht bevölkertes Land, in dem Felder, Kanäle und Dörfer kaum eine Lücke lassen. Nachts funkelt das ganze Delta von Lichtern, eingerahmt vom Schwarz der Wüste.",
+    "w": "Ein dunkler gewundener Fluss durch ein leuchtend grünes, dicht besiedeltes Delta; nachts ein Lichternetz, gesäumt von dunkler Wüste.",
+    "f": [
+      "An seinen Ufern liegt die Stadt Mansura, nahe seiner Mündung am Mittelmeer Damiette.",
+      "Damiette ist seit Langem Ägyptens großes Zentrum der Möbelherstellung.",
+      "Seit dem Assuan-Hochdamm erreichen die Nilfluten das Delta nicht mehr, und stellenweise weicht seine Küste zurück."
+    ],
+    "q": {
+      "q": "Welcher der beiden Deltaarme des Nils ist der östliche?",
+      "a": "Der Damiette-Arm",
+      "x": [
+        "Der Rosette-Arm",
+        "Der Kanopische Arm"
+      ]
+    }
+  },
+  "Q1653": {
+    "t": "Europas großer Strom, gezwängt durchs Eiserne Tor",
+    "s": "Hier zwängt sich die Donau am Eisernen Tor, einer Kette von Schluchten an der Grenze zwischen Serbien und Rumänien, durch die Karpaten. Von oben verengt sich der breite Strom plötzlich zwischen steilen bewaldeten Felswänden und weitet sich dann wieder zu einem langen Stausee hinter dem Kraftwerk Eisernes Tor. An der engsten Stelle, in der Kasan-Schlucht, ist sie nur rund 150 m breit.",
+    "w": "Ein breiter Strom, zwischen steilen bewaldeten Bergen in eine schmale, gewundene Schlucht gezwängt, flussabwärts ein großer Damm.",
+    "f": [
+      "Die Donau fließt durch oder entlang von zehn Ländern – mehr als jeder andere Fluss der Welt.",
+      "An einer Felswand bei Orșova ist das Gesicht des Dakerkönigs Decebalus rund 55 m hoch in den Stein gehauen.",
+      "Der Strom ist rund 2.850 km lang, vom Schwarzwald bis zum Schwarzen Meer."
+    ],
+    "q": {
+      "q": "Durch oder entlang wie vieler Länder fließt die Donau?",
+      "a": "Zehn",
+      "x": [
+        "Sechs",
+        "Acht"
+      ]
+    }
+  },
+  "Q26301": {
+    "t": "Die ferne mongolische Quelle des Jenissei",
+    "s": "Der Ider entspringt hoch im Changai-Gebirge der Mongolei und windet sich nach Nordosten durch baumlose Steppe und Täler, getupft mit Lärchen. Von oben wirkt er bescheiden, ein blaugrauer Faden mit schmalem grünem Saum, doch er ist der entfernteste Quellfluss eines gewaltigen Systems: Über Selenga, Baikalsee, Angara und Jenissei erreicht sein Wasser das Nordpolarmeer.",
+    "w": "Ein dünner, gewundener Fluss mit schmalem grünem Saum in einem breiten Tal bräunlicher Steppe, dunkle Lärchen an Nordhängen.",
+    "f": [
+      "Wo der Ider auf den Delgermörön trifft, beginnt die Selenga.",
+      "Von der Quelle des Ider an gemessen, ist der Jenissei mit über 5.000 km eines der längsten Flusssysteme der Welt.",
+      "Etwa das halbe Jahr liegt der Fluss gefroren."
+    ],
+    "q": {
+      "q": "Durch welchen See fließt das Wasser des Ider auf dem Weg zur Arktis?",
+      "a": "Durch den Baikalsee",
+      "x": [
+        "Durch den Chöwsgöl-See",
+        "Durch den Balchaschsee"
+      ]
+    }
+  },
+  "Q75745": {
+    "t": "Der Fluss, der den Baikalsee füllt",
+    "s": "Die Selenga sammelt die Flüsse der nördlichen Mongolei und trägt sie nordwärts nach Russland und weiter zum Baikalsee. Hier, nahe der Grenze, windet sie sich durch ein breites Tal zwischen Steppe und kieferbewachsenen Hügeln und teilt sich um Inseln und Kiesbänke. Sie bringt rund die Hälfte allen Wassers, das in den Baikal fließt.",
+    "w": "Ein gewundener Fluss mit Inseln und Kiesbänken in einem weiten Tal zwischen Steppe und dunklen, kieferbewachsenen Hügeln.",
+    "f": [
+      "Wo sie in den Baikal mündet, hat die Selenga ein großes Delta aufgebaut, ein Labyrinth aus Armen, Schilf und Seen.",
+      "Nach Wassermenge ist sie der größte Fluss der Mongolei.",
+      "Ulan-Ude, die Hauptstadt Burjatiens, liegt an der Selenga."
+    ],
+    "q": {
+      "q": "Wie viel des Zuflusses zum Baikalsee stammt ungefähr aus der Selenga?",
+      "a": "Rund die Hälfte",
+      "x": [
+        "Rund ein Zehntel",
+        "Fast alles"
+      ]
+    }
+  },
+  "Q15954437": {
+    "t": "Die ersten Schritte des Brahmaputra, an der „Pferdequelle“",
+    "s": "Weit draußen im Westen Tibets wandert ein junger Fluss über ein breites, windgepeitschtes Tal auf mehr als 4.500 m Höhe, verflochten zu silbernen Armen zwischen Sand und Kies. Das ist der Maquan, der oberste Lauf des Yarlung Tsangpo, der später zum Brahmaputra wird. Seine Quelle liegt in Gletschern südöstlich des heiligen Kailash und des Manasarovar-Sees.",
+    "w": "Ein verflochtener silberner Fluss in einem breiten, trockenen, sandigen Tal, im Süden verschneite Himalaya-Gipfel.",
+    "f": [
+      "Maquan bedeutet „Pferdequelle“ – ein Echo seines tibetischen Namens Tamchok Khabab, „aus dem Maul des Pferdes“.",
+      "Nach tibetischer Überlieferung entspringen nahe dem Kailash vier große Flüsse, aus den Mäulern von Pferd, Löwe, Elefant und Pfau.",
+      "Unterhalb der Stadt Saga trägt der Fluss den Namen Yarlung Tsangpo."
+    ],
+    "q": {
+      "q": "Welcher große Strom beginnt als Maquan?",
+      "a": "Der Brahmaputra",
+      "x": [
+        "Der Ganges",
+        "Der Indus"
+      ]
+    }
+  },
+  "Q162737": {
+    "t": "Der einzige Fluss, der dem Baikalsee entkommt",
+    "s": "Mehr als 300 Flüsse münden in den Baikalsee, doch nur einer fließt hinaus: die Angara. Hier, weit flussabwärts, durchquert sie die dunkle Taiga als breiter, seeartiger Stausee – eine Stufe in einer Treppe von Dämmen, die ihr Gefälle in Strom verwandeln. Ihr Wasser ist berühmt klar, und unterhalb der Dämme dampft es im Winter oft, statt zu gefrieren.",
+    "w": "Ein breiter, seeartiger Stausee mit verzweigten Buchten in dunkler Taiga, unterhalb der Dämme zum Fluss verengt.",
+    "f": [
+      "Die Angara ist der größte Nebenfluss des Jenissei, in den sie weit im Westen mündet.",
+      "Der Bratsker Stausee an der Angara ist nach Volumen einer der größten künstlichen Seen der Welt.",
+      "Eine burjatische Legende erzählt, wie Angara, die Tochter des Baikal, zu ihrem Geliebten, dem Jenissei, davonlief."
+    ],
+    "q": {
+      "q": "Wie viele Flüsse fließen aus dem Baikalsee ab?",
+      "a": "Einer",
+      "x": [
+        "Drei",
+        "Zwölf"
+      ]
+    }
+  },
+  "Q2220": {
+    "t": "Ein tiefes grünes Tal durch Kanadas nördliches Ackerland",
+    "s": "Flaches Ackerland reicht bis zum Horizont und bricht dann plötzlich in ein tiefes Tal ab: den Peace River, der sich in weiten Bögen rund 200 m unter der Prärie windet, seine Hänge dunkel von Espen und Fichten. Ringsum liegt das Peace Country, eines der nördlichsten Ackerbaugebiete Nordamerikas, im Spätsommer golden von Getreide. Flussabwärts schwenkt der Fluss nach Norden, zum Athabascasee und zur Arktis.",
+    "w": "Ein tiefes, gewundenes, bewaldetes Tal, das flaches Ackerland aus goldenen und grünen Feldern durchschneidet.",
+    "f": [
+      "Sein Name erinnert an einen Frieden, der im 18. Jahrhundert zwischen den Cree und den Dane-zaa, auch Beaver genannt, geschlossen wurde.",
+      "Nahe dem Athabascasee speist er das Peace-Athabasca-Delta, eines der größten Binnensüßwasserdeltas der Erde.",
+      "In British Columbia staut der W.-A.-C.-Bennett-Damm sein Wasser im Williston Lake, dem größten See der Provinz."
+    ],
+    "q": {
+      "q": "Woher hat der Peace River seinen Namen?",
+      "a": "Von einem Frieden zweier Völker",
+      "x": [
+        "Vom Leitspruch eines Missionars",
+        "Von seiner ruhigen, trägen Strömung"
+      ]
+    }
+  },
+  "Q3411": {
+    "t": "Kanadas längster Fluss, auf dem Weg zur Arktis",
+    "s": "Der Mackenzie fließt über mehr als 1.700 km vom Großen Sklavensee nach Norden zur Beaufortsee, und hier ist er ein breiter, graubrauner Fluss zwischen dunklem Fichtenwald und den Kämmen der Franklin Mountains. In der Nähe mündet der klare Great Bear River ein. Im Winter friert der Mackenzie fest zu und wird zur Eisstraße, die abgelegene Gemeinden verbindet.",
+    "w": "Ein breiter, schlammiger Fluss, der sich nordwärts durch dunklen Fichtenwald windet, an seiner Ostseite niedrige Bergkämme.",
+    "f": [
+      "Mit seinen Quellflüssen ist das Mackenzie-System rund 4.200 km lang, das zweitlängste Nordamerikas.",
+      "Sein Dene-Name Deh Cho bedeutet „großer Fluss“.",
+      "Er ist nach Alexander Mackenzie benannt, der 1789 auf ihm bis zum Nordpolarmeer fuhr."
+    ],
+    "q": {
+      "q": "Aus welchem See fließt der Mackenzie ab?",
+      "a": "Aus dem Großen Sklavensee",
+      "x": [
+        "Aus dem Großen Bärensee",
+        "Aus dem Athabascasee"
+      ]
+    }
+  },
+  "ne-rv-1159117999": {
+    "t": "Der Mekong als Gebirgsbach auf dem Hochland von Tibet",
+    "s": "Kaum zu glauben, dass dieser Bach, der sich durch hohes Grasland und felsige Schluchten in Qinghai windet, einmal zum mächtigen Mekong wird. Der Za Qu, wie der obere Mekong hier heißt, fließt mehr als 4.000 m über dem Meer, vorbei an Yakweiden und steilen Talwänden. Er entspringt kleinen Gletschern auf dem Hochland und fließt nach Südosten, Richtung Tibet.",
+    "w": "Ein gewundener Fluss in einem tiefen, schmalen Tal, eingeschnitten in hohe, kahle Grashügel, oft mit Schnee bestäubt.",
+    "f": [
+      "Bei Qamdo in Tibet vereinigt er sich mit dem Ang Qu und heißt von dort an Lancang, Chinas Name für den Mekong.",
+      "Der Mekong fließt dann durch sechs Länder bis zum Südchinesischen Meer.",
+      "Seine Quelle, über 5.000 m hoch, liegt im Kreis Zadoi, im Gebiet Sanjiangyuan, der „Quelle der drei Flüsse“."
+    ],
+    "q": {
+      "q": "Der Za Qu ist der Oberlauf welches Flusses?",
+      "a": "Des Mekong",
+      "x": [
+        "Des Saluen",
+        "Des Jangtse"
+      ]
+    }
+  },
+  "Q21847787": {
+    "t": "Südamerikas zweiter großer Strom, durchsetzt mit Inseln",
+    "s": "Nach dem Amazonas ist der Paraná Südamerikas mächtigster Fluss; zusammen mit seinem großen Nebenfluss, dem Paraguay, entwässert er ein riesiges Becken in Brasilien, Paraguay und Argentinien. Von oben ist er ein breites braunes Band, zerteilt von Inseln und Sandbänken, zu beiden Seiten glitzernde Auenseen und Sümpfe. Er endet in einem weiten Delta bei Buenos Aires und speist den Río de la Plata.",
+    "w": "Ein breiter brauner Fluss voller Inseln und Sandbänke, Lagunen und Sümpfe über seine ganze Aue verteilt.",
+    "f": [
+      "Mit rund 4.900 km ist er der zweitlängste Fluss Südamerikas.",
+      "Der Itaipu-Damm am Paraná, zwischen Brasilien und Paraguay, ist eines der größten Wasserkraftwerke der Welt.",
+      "Das Paraná-Delta, kurz nördlich von Buenos Aires, ist ein Labyrinth aus Inseln und Kanälen mit Häusern auf Stelzen."
+    ],
+    "q": {
+      "q": "In welche Trichtermündung fließt der Paraná?",
+      "a": "In den Río de la Plata",
+      "x": [
+        "In den Golf von Paria",
+        "In die Bahía Blanca"
+      ]
+    }
+  },
+  "Q836812": {
+    "t": "Der obere Kongo, einst für den Nil gehalten",
+    "s": "Der Lualaba ist der junge Kongo: Er entspringt auf dem Hochland von Katanga und fließt nordwärts durch Savanne, Schluchten und eine Kette sumpfiger Seen. Aus der Luft ist er ein dunkles Band, gesäumt von Sumpf und blassem Auengras. In den 1870er-Jahren stritten Forscher noch, ob er den Nil oder den Kongo speist; Henry Morton Stanley klärte es, indem er ihm bis zum Atlantik folgte.",
+    "w": "Ein dunkler, gewundener Fluss mit Sümpfen und blassen Auen, an ihm aufgereihte Seen, in grünbrauner Savanne.",
+    "f": [
+      "David Livingstone hielt den Lualaba für den möglichen oberen Nil.",
+      "An den Boyoma-Fällen bei Kisangani endet der Lualaba, und der Fluss heißt Kongo.",
+      "Der Upemba-Nationalpark an seinem Oberlauf schützt eine Kette von Seen und Feuchtgebieten."
+    ],
+    "q": {
+      "q": "Welcher Forscher folgte dem Lualaba bis zum Atlantik?",
+      "a": "Henry Morton Stanley",
+      "x": [
+        "David Livingstone",
+        "Richard Burton"
+      ]
+    }
+  },
+  "Q2226": {
+    "t": "Ein kurzer, breiter Fluss, Pelikane in den Stromschnellen",
+    "s": "Der Slave River trägt das Wasser des Peace River und des Athabascasees nordwärts zum Großen Sklavensee, ein breiter brauner Fluss, der sich durch Fichtenwald und Feuchtgebiete windet. Bei Fort Smith stürzt er über eine Reihe von Stromschnellen, das größte Hindernis auf dem langen Wasserweg von Alberta zur Arktis. Auf felsigen Inseln in diesen Stromschnellen nisten Nashornpelikane.",
+    "w": "Ein breiter, schlammiger Fluss, der durch grünen Wald und Feuchtgebiete mäandert, nahe der Grenze zu Alberta weiße Stromschnellen.",
+    "f": [
+      "Die Pelikane bei Fort Smith bilden die nördlichste Brutkolonie der Nashornpelikane.",
+      "Der Fluss ist nach „Slavey“ benannt, einem alten Namen für das Dene-Volk an seinen Ufern.",
+      "Er fließt am Rand des Wood-Buffalo-Nationalparks entlang, des größten Nationalparks Kanadas."
+    ],
+    "q": {
+      "q": "Welcher Vogel nistet auf Inseln in den Stromschnellen des Slave River?",
+      "a": "Der Nashornpelikan",
+      "x": [
+        "Der Kanadakranich",
+        "Die Schneegans"
+      ]
+    }
+  },
+  "Q41179": {
+    "t": "Sechs Länder, ein Fluss – mit Anfang in Yunnans Schluchten",
+    "s": "In Yunnan fließt der Mekong, in China Lancang genannt, südwärts durch tiefe, bewaldete Täler, heute großenteils zu langen, schmalen Stauseen hinter einer Kette von Dämmen gestuft. Von oben sieht er aus wie eine grünbraune Schlange, zusammengerollt zwischen steilen Kämmen. Von hier hat er noch Tausende Kilometer vor sich, vorbei an Laos, Thailand, Kambodscha und Vietnam bis zu seinem Delta.",
+    "w": "Ein langer, schmaler, gewundener Fluss oder Stausee tief zwischen steilen grünen Kämmen, etwa in Nord-Süd-Richtung.",
+    "f": [
+      "Der Mekong fließt über mehr als 4.000 km durch oder entlang von sechs Ländern.",
+      "Seine Flussfischerei gehört zu den größten der Welt und ernährt Millionen Menschen.",
+      "In jeder Regenzeit drückt das Mekong-Hochwasser Wasser rückwärts den Tonle Sap hinauf in Kambodschas großen See."
+    ],
+    "q": {
+      "q": "Wie heißt der Mekong in China?",
+      "a": "Lancang",
+      "x": [
+        "Nu Jiang",
+        "Jinsha"
+      ]
+    }
+  },
+  "Q2599627": {
+    "t": "Ein großer Strom, mehr als 3,5 km über dem Meer",
+    "s": "Wenn Sie in Lhasa landen, ist dies der Fluss neben der Piste: der Yarlung Tsangpo, verflochten über einen breiten Talboden auf rund 3.600 m, mit goldenen Sanddünen an den Hängen. Er fließt nach Osten am Himalaya entlang, bricht dann in einer der tiefsten Schluchten der Erde hindurch und wird in Indien zum Brahmaputra.",
+    "w": "Ein breiter, verflochtener Fluss mit hellen Sandbänken und Dünen in einem weiten Tal zwischen kahlen braunen Bergen.",
+    "f": [
+      "Sein Großer Canyon rund um den Gipfel Namcha Barwa gilt oft als tiefster der Welt.",
+      "Ein Großteil seines tibetischen Laufs liegt über 3.000 m – damit zählt er zu den höchstgelegenen großen Flüssen der Erde.",
+      "Der Lhasa-Fluss, der an der tibetischen Hauptstadt vorbeifließt, mündet kurz westlich von hier ein."
+    ],
+    "q": {
+      "q": "Der Flughafen welcher Stadt liegt im Tal des Yarlung Tsangpo?",
+      "a": "Lhasa",
+      "x": [
+        "Kathmandu",
+        "Xining"
+      ]
+    }
+  },
+  "Q128102": {
+    "t": "Ein Nebenfluss, länger als der Fluss, in den er mündet",
+    "s": "Der Irtysch entspringt im Mongolischen Altai, durchquert China und Kasachstan und erreicht Russland, wo er sich nordwärts über das Westsibirische Tiefland zum Ob windet. Hier, unterhalb von Omsk, zieht er träge Schleifen durch eine grüne Aue aus Wiesen, Altwasserseen und Birkenhainen, dahinter Felder. Bemerkenswert: Dieser Nebenfluss ist länger als der Fluss, in den er mündet.",
+    "w": "Ein gewundener Fluss in weiten, gleichmäßigen Schleifen durch eine grüne Aue aus Wiesen, Altwasserseen und Birkenwäldern.",
+    "f": [
+      "Mit rund 4.250 km ist der Irtysch länger als der Ob, in den er mündet.",
+      "Er trifft bei Chanty-Mansijsk auf den Ob.",
+      "Tobolsk am Irtysch war die erste Hauptstadt Sibiriens; sein weißer steinerner Kreml thront über dem Fluss."
+    ],
+    "q": {
+      "q": "In welchen Fluss mündet der Irtysch?",
+      "a": "In den Ob",
+      "x": [
+        "In den Jenissei",
+        "In den Tobol"
+      ]
+    }
+  },
+  "Q3503": {
+    "t": "Der tiefste Fluss der Erde, der zweimal den Äquator quert",
+    "s": "Rund um den Äquator weitet sich der Kongo zu einem riesigen, trägen Strom von mehreren Kilometern Breite, getupft mit langen bewaldeten Inseln und gesäumt von überflutetem Wald. Von oben sieht er aus wie ein brauner See, durchzogen von Grün. Nach Abfluss ist er der zweitgrößte Fluss der Erde, und auf seinem großen Bogen durch Zentralafrika überquert er zweimal den Äquator.",
+    "w": "Ein breiter brauner Strom voller langer bewaldeter Inseln, an beiden Ufern gesäumt von dunklem überflutetem Wald.",
+    "f": [
+      "In seinen unteren Schluchten ist der Kongo mehr als 200 m tief – der tiefste bekannte Fluss.",
+      "Er führt mehr Wasser als jeder andere Fluss außer dem Amazonas.",
+      "Kinshasa und Brazzaville liegen sich an ihm gegenüber – nach Rom und dem Vatikan das nächstgelegene Hauptstadtpaar."
+    ],
+    "q": {
+      "q": "Welche zwei Hauptstädte liegen sich am Kongo gegenüber?",
+      "a": "Kinshasa und Brazzaville",
+      "x": [
+        "Kinshasa und Bangui",
+        "Brazzaville und Luanda"
+      ]
+    }
+  },
+  "Q45403": {
+    "t": "Ein Fluss so breit wie ein Meer aus Sandbänken",
+    "s": "In Assam ist der Brahmaputra weniger ein Fluss als eine verflochtene Ebene aus Wasser und Sand, mehrere Kilometer breit, deren Arme sich mit jedem Monsun verlagern. Achten Sie von oben auf helle Sandbänke und grüne Inseln darin, dahinter auf höherem Grund Teegärten und Reisfelder. Flussaufwärts liegt Majuli, eine der größten Flussinseln der Welt.",
+    "w": "Ein sehr breiter, verflochtener Fluss mit hellen Sandbänken und grünen Inseln, im Süden die Hügel von Meghalaya.",
+    "f": [
+      "Sein Name bedeutet „Sohn Brahmas“; er ist einer der wenigen indischen Flüsse mit männlichem Namen.",
+      "Seine Inseln und Sandbänke, Chars genannt, werden bewirtschaftet und sogar bewohnt, obwohl Fluten sie wegspülen können.",
+      "Der Kaziranga-Nationalpark an seinem Südufer beherbergt rund zwei Drittel aller Panzernashörner der Welt."
+    ],
+    "q": {
+      "q": "Wofür ist Kaziranga am Brahmaputra berühmt?",
+      "a": "Für das Panzernashorn",
+      "x": [
+        "Für den Schneeleoparden",
+        "Für den Asiatischen Löwen"
+      ]
+    }
+  },
+  "Q947477": {
+    "t": "Ein Forellenfluss vom Yellowstone bis zum Missouri",
+    "s": "Der Madison entsteht im Yellowstone, wo Firehole und Gibbon River zusammenfließen, und fließt nordwärts durch Montana in einem breiten, offenen Tal zwischen zwei Bergketten. Von oben ist er ein heller, verflochtener Fluss mit einer dünnen Linie aus Weiden, quer durch salbeigraues Weideland. Bei Three Forks trifft er auf Jefferson und Gallatin, und gemeinsam bilden sie den Missouri.",
+    "w": "Ein heller, gewundener Fluss in einem weiten salbeifarbenen Tal zwischen verschneiten Ketten, gesäumt von einem dünnen grünen Band.",
+    "f": [
+      "Lewis und Clark benannten ihn 1805 nach James Madison, damals Außenminister der USA.",
+      "Angler zählen ihn zu den besten Forellenflüssen Nordamerikas.",
+      "Der Firehole, einer seiner Quellflüsse, wird von den heißen Quellen und Geysiren des Yellowstone erwärmt."
+    ],
+    "q": {
+      "q": "Welchen großen Fluss bilden Madison, Jefferson und Gallatin?",
+      "a": "Den Missouri",
+      "x": [
+        "Den Yellowstone",
+        "Den Snake River"
+      ]
+    }
+  },
+  "Q619802": {
+    "t": "Der staubigste Ort der Erde, ein uralter Seeboden",
+    "s": "Heller, fast weißer Boden, gestreift von Dünen, markiert die Bodélé-Senke im Tschad, den ausgetrockneten Grund eines uralten Sees. Ihr Boden ist Diatomit, die feinen Skelette winziger Algen, und Winterwinde, zwischen den Hochländern Tibesti und Ennedi gebündelt, heben ihn in riesigen Fahnen empor. Die Bodélé ist die größte einzelne Staubquelle der Erde; ein Teil davon überquert den Atlantik bis zum Amazonas.",
+    "w": "Ein helles, weißliches Becken mit Reihen von Sicheldünen; im Winter lange Staubfahnen, die nach Südwesten ziehen.",
+    "f": [
+      "Das Becken ist ein Überrest des Mega-Tschadsees, der einst eine Fläche ähnlich dem Kaspischen Meer bedeckte.",
+      "Die stärksten Winde wehen hier von November bis März, in der Zeit des Harmattan.",
+      "Bodélé-Staub trägt Phosphor und andere Nährstoffe, die den Amazonas-Regenwald düngen."
+    ],
+    "q": {
+      "q": "Woraus besteht der helle Boden der Bodélé-Senke?",
+      "a": "Aus Resten winziger Algen",
+      "x": [
+        "Aus Salzkristallen",
+        "Aus Vulkanasche"
+      ]
+    }
+  },
+  "Q1914": {
+    "t": "Ein Land der Seen, alle in dieselbe Richtung gekämmt",
+    "s": "Karelien sieht aus, als hätte ein Riese einen Rechen darübergezogen: Lange Seen und Rücken verlaufen alle in dieselbe Richtung, von Nordwest nach Südost, so wie sich der Eisschild bewegte. Dazwischen liegen dunkler Kiefern- und Fichtenwald, Moore und nackter Granit. Im Winter werden die Seen zu weißen Pinselstrichen auf dem dunklen Wald.",
+    "w": "Unzählige lange Seen und Rücken, von Nordwest nach Südost ausgerichtet, zwischen dunklem Wald; im Osten der Onegasee.",
+    "f": [
+      "Die Republik Karelien hat rund 60.000 Seen.",
+      "Auf der Insel Kischi im Onegasee steht die hölzerne Verklärungskirche mit 22 Kuppeln, erbaut 1714.",
+      "Viele der Lieder, aus denen das finnische Epos Kalevala wurde, zeichnete man bei Sängern in Karelien auf."
+    ],
+    "q": {
+      "q": "In welche Richtung erstrecken sich die meisten Seen Kareliens?",
+      "a": "Von Nordwest nach Südost",
+      "x": [
+        "Von Ost nach West",
+        "Von Nordost nach Südwest"
+      ]
+    }
+  },
+  "Q137555": {
+    "t": "Ein rotbraunes Buschplateau am Horn von Afrika",
+    "s": "Der Ogaden ist trockenes Land: ein rotbraunes Plateau aus Dornbusch und verstreuten Akazien, das sanft vom äthiopischen Hochland zu Somalia hin abfällt. Von oben sieht es aus wie ein rostfarbener Teppich mit feiner Tüpfelung aus Büschen, durchschnitten von hellen, meist trockenen Flussbetten. Nach dem kurzen Regen wird es für einige Wochen grün.",
+    "w": "Eine rostrote Ebene mit feiner Tüpfelung aus Büschen und hellen trockenen Flussbetten; nur wochenlang nach dem Regen grün.",
+    "f": [
+      "Der Shebelle, der im äthiopischen Hochland entspringt, durchquert den Ogaden auf seinem Weg nach Somalia.",
+      "Regen fällt hier in zwei kurzen Zeiten, im Frühling und im Herbst.",
+      "Die meisten Menschen hier sind somalische Hirten, die Kamele, Ziegen und Schafe halten."
+    ],
+    "q": {
+      "q": "Welcher Fluss durchquert den Ogaden auf dem Weg nach Somalia?",
+      "a": "Der Shebelle",
+      "x": [
+        "Der Awash",
+        "Der Omo"
+      ]
+    }
+  },
+  "Q181103": {
+    "t": "Gefaltete kahle Berge in allen Brauntönen",
+    "s": "Belutschistan ist ein wildes Gewirr aus kahlen Bergen und trockenen Becken, wo der Fels in lange parallele Rücken gefaltet ist, die sich wie die Maserung polierten Holzes krümmen. Grün gibt es wenig: ein paar Oasen, trockene Flussbetten und Salzflächen in den Senken. Die Region erstreckt sich über Teile Pakistans, Irans und Afghanistans. Im Nordwesten erhebt sich der Taftan, ein fast 4.000 m hoher Vulkan, der noch immer dampft.",
+    "w": "Lange, parallele, geschwungene Rücken aus kahlem braunem und grauem Fels, dazwischen helle trockene Flussbetten und Salzflächen.",
+    "f": [
+      "Die Provinz Belutschistan umfasst rund 44 Prozent Pakistans, mehr als jede andere Provinz.",
+      "Mehrgarh in Belutschistan ist mit rund 9.000 Jahren eines der ältesten Bauerndörfer Südasiens.",
+      "An der Makran-Küste im Süden blubbern kleine Schlammvulkane nahe am Meer."
+    ],
+    "q": {
+      "q": "Welchen Anteil an Pakistans Fläche hat die Provinz Belutschistan ungefähr?",
+      "a": "Rund 44 Prozent",
+      "x": [
+        "Rund 10 Prozent",
+        "Rund 70 Prozent"
+      ]
+    }
+  },
+  "Q5700": {
+    "t": "Wald, Fjells und Moore unter dem Nordlicht",
+    "s": "Lappland ist aus der Luft dunkler Wald, blasse Moore und runde, baumlose Fjells, durchzogen von Flüssen und Seen. Nördlich des Polarkreises geht die Sonne um Mittsommer wochenlang nicht unter, und im Mittwinter steigt sie kaum über den Horizont. In einer klaren Winternacht sehen Sie vielleicht vom Fenster aus das Polarlicht, einen grünen Schleier, der über den Schnee unter Ihnen zieht.",
+    "w": "Dunkler Nadelwald, blasse Moore und kahle runde Kuppen mit gewundenen Flüssen; im Winter weiß mit dunklen Waldflecken.",
+    "f": [
+      "Lappland umfasst den Norden Norwegens, Schwedens und Finnlands sowie Russlands Halbinsel Kola – die Heimat der Samen.",
+      "In weiten Teilen Finnisch-Lapplands ziehen Rentiere frei umher; ihre Haltung ist ein traditioneller Erwerb der Samen.",
+      "Rovaniemi, die Hauptstadt Finnisch-Lapplands, liegt direkt am Polarkreis."
+    ],
+    "q": {
+      "q": "Welches indigene Volk lebt in Lappland?",
+      "a": "Die Samen",
+      "x": [
+        "Die Inuit",
+        "Die Nenzen"
+      ]
+    }
+  },
+  "Q1528035": {
+    "t": "Ein Vogelfuß aus Land, der in den Golf greift",
+    "s": "Am Ende seiner langen Reise hat der Mississippi eine seltsame Form geschaffen: einen Vogelfuß, dessen lange, dünne Finger aus Marsch und Uferdämmen in den Golf von Mexiko reichen. Achten Sie von oben auf braunes Wasser, das sich von ihren Spitzen ins blaue Meer ausbreitet, und auf ein Labyrinth aus grüner Marsch, Seen und Kanälen ringsum. Die ganze Landschaft besteht aus Flussschlamm.",
+    "w": "Lange, dünne Landfinger, die in den Golf reichen, an ihren Spitzen fächert braunes Flusswasser ins blaue Meer.",
+    "f": [
+      "In den letzten 7.000 Jahren hat der Fluss den Süden Louisianas aufgebaut, indem er zwischen mehreren Deltaloben wechselte.",
+      "Das küstennahe Louisiana hat seit den 1930er-Jahren rund 5.000 km² Land verloren, weil das Delta absinkt und abgetragen wird.",
+      "Head of Passes, wo sich der Fluss in die Vogelfußarme teilt, liegt rund 150 km unterhalb von New Orleans."
+    ],
+    "q": {
+      "q": "Womit wird das heutige Mississippidelta oft verglichen?",
+      "a": "Mit einem Vogelfuß",
+      "x": [
+        "Mit einem Fächer",
+        "Mit einem Dreieck"
+      ]
+    }
+  },
+  "Q29412": {
+    "t": "Ein Labyrinth aus Mangroven und Prielen an der Nigermündung",
+    "s": "Hier zerfällt der Niger in unzählige Priele und Arme, bevor er den Atlantik erreicht, und bildet so das größte Delta Afrikas. Von oben ist es ein dunkelgrünes Labyrinth aus Mangroven und Sumpfwald, durchzogen von braunen Wasserläufen, die in der Sonne glitzern. Nachts tupfen die orangen Punkte der Gasfackeln die Dunkelheit.",
+    "w": "Ein dunkelgrünes Labyrinth aus Mangroven und Sumpfwald, durchzogen von gewundenen braunen Prielen; nachts verstreute orange Fackeln.",
+    "f": [
+      "Nigerias Mangrovenwälder, die meisten davon in diesem Delta, sind die größten Afrikas.",
+      "Das Delta umfasst rund 70.000 km² Feuchtgebiete, Priele und Inseln.",
+      "Der Niger kommt hier nach rund 4.200 km aus dem Hochland Guineas an."
+    ],
+    "q": {
+      "q": "Welcher Fluss bildet dieses Delta?",
+      "a": "Der Niger",
+      "x": [
+        "Der Volta",
+        "Der Senegal"
+      ]
+    }
+  },
+  "Q1431507": {
+    "t": "Europas größtes Delta, wo im August der Lotus blüht",
+    "s": "Bevor sie das Kaspische Meer erreicht, fächert sich die Wolga zum größten Delta Europas auf: Hunderte Arme, Schilfgürtel und Inseln, grün vor der trockenen, blassen Steppe zu beiden Seiten. Von oben sieht es aus wie das verzweigte Adernetz eines Blattes. Im Spätsommer blühen Lotusblumen in ganzen rosafarbenen Feldern auf seinen flachen äußeren Gewässern.",
+    "w": "Ein riesiger grüner Fächer aus verzweigten Armen und Schilfgürteln, der ins Kaspische Meer reicht, gerahmt von blasser, trockener Steppe.",
+    "f": [
+      "Das Delta besteht aus rund 500 Armen, Kanälen und kleinen Wasserläufen.",
+      "Das 1919 hier gegründete Astrachan-Naturschutzgebiet ist eines der ältesten Russlands.",
+      "Das Kaspische Meer liegt rund 28 m unter dem Meeresspiegel – auch das Delta liegt also unter dem Niveau des Weltmeers."
+    ],
+    "q": {
+      "q": "Welche rosa Blume blüht im Spätsommer im äußeren Wolgadelta?",
+      "a": "Der Lotus",
+      "x": [
+        "Die Tulpe",
+        "Die Pfingstrose"
+      ]
+    }
+  },
+  "Q184429": {
+    "t": "Schilf, Pelikane und drei Arme zum Meer",
+    "s": "Kurz vor dem Schwarzen Meer teilt sich die Donau in drei Arme und breitet sich zu einem riesigen Feuchtgebiet aus Schilf, Seen und gewundenen Kanälen aus, einem der größten Schilfgebiete der Erde. Von oben ist es ein grüngoldenes Mosaik, durchnäht mit silbernem Wasser, mitten hindurch der schnurgerade Sulina-Arm. Im Frühling und Sommer leben hier riesige Pelikankolonien.",
+    "w": "Ein grüngoldenes Mosaik aus Schilf, Seen und gewundenen Kanälen, durchschnitten von einem schnurgeraden Kanal, am Schwarzen Meer.",
+    "f": [
+      "Das Donaudelta wurde 1991 in die Liste des UNESCO-Welterbes aufgenommen.",
+      "Es ist nach dem der Wolga das zweitgrößte Delta Europas.",
+      "Der größte Teil des Deltas liegt in Rumänien; sein Nordrand gehört zur Ukraine."
+    ],
+    "q": {
+      "q": "In wie viele Hauptarme teilt sich die Donau in ihrem Delta?",
+      "a": "In drei",
+      "x": [
+        "In zwei",
+        "In sieben"
+      ]
+    }
+  },
+  "Q1052867": {
+    "t": "Eine Reisschale der neun Drachen und endlosen Kanäle",
+    "s": "Der Mekong endet hier in einer flachen, leuchtend grünen Welt: Reisfelder in endlosen Rechtecken, Obstgärten, Fischteiche und Dörfer, aufgereiht an Kanälen, alles durchzogen von breiten braunen Flussarmen. Die Vietnamesen nennen ihn Cửu Long, „Neun Drachen“, nach seinen vielen Mündungen. Zur Erntezeit wechseln ganze Landstriche von Grün zu Gold.",
+    "w": "Leuchtend grüne Reisfeldrechtecke, durchzogen von braunen Flussarmen und geraden Kanälen, alles vollkommen flach.",
+    "f": [
+      "Das Delta erzeugt rund die Hälfte des vietnamesischen Reises.",
+      "Der größte Teil liegt weniger als 2 m über dem Meeresspiegel.",
+      "Schwimmende Märkte, auf denen Händler direkt von Booten verkaufen, gibt es noch bei Cần Thơ."
+    ],
+    "q": {
+      "q": "Was bedeutet der vietnamesische Name Cửu Long?",
+      "a": "Neun Drachen",
+      "x": [
+        "Großer Fluss",
+        "Goldenes Wasser"
+      ]
+    }
+  },
+  "Q81591": {
+    "t": "Wo Afrika langsam auseinanderreißt",
+    "s": "Hier, in der Afar-Region, öffnet sich der Große Afrikanische Grabenbruch zu einem glühend heißen Tiefland aus Lavafeldern, Salzflächen und Vulkanen, stellenweise mehr als 100 m unter dem Meeresspiegel. Hier driften drei Platten der Erdkruste auseinander, und eines Tages könnte das Meer hereinströmen. Von hier zieht sich der Graben Tausende Kilometer nach Süden, markiert von einer Kette langer Seen.",
+    "w": "Schwarze Lavafelder, weiße Salzpfannen und verstreute Vulkankegel in einem heißen Tiefland, im Westen von hohen Steilstufen ummauert.",
+    "f": [
+      "1974 wurde bei Hadar in Afar das als Lucy bekannte fossile Skelett gefunden, rund 3,2 Millionen Jahre alt.",
+      "Der Erta Ale, ein Vulkan in der Danakil-Senke, trug fast das ganze letzte Jahrhundert einen Lavasee in seinem Krater.",
+      "Dallol im Norden der Senke hat eine der höchsten Jahresdurchschnittstemperaturen der Erde."
+    ],
+    "q": {
+      "q": "Welches berühmte Fossil wurde 1974 in der Afar-Region gefunden?",
+      "a": "Lucy",
+      "x": [
+        "Der Turkana-Junge",
+        "Das Kind von Taung"
+      ]
+    }
+  },
+  "Q4863367": {
+    "t": "Baumlose Tundra, durch die die Karibus ziehen",
+    "s": "Nördlich der Baumgrenze weicht Kanadas Wald den Barren Grounds: offener Tundra aus Moos, Flechten und nacktem Fels, übersät mit mehr Seen, als je jemand gezählt hat. Achten Sie auf Oser, lange, gewundene Kiesrücken, die Flüsse hinterließen, die einst im Inneren des Eisschilds flossen. Jedes Jahr ziehen große Karibuherden über dieses Land.",
+    "w": "Baumloses Land voller unzähliger Seen, durchzogen von langen, gewundenen Kiesrücken; den größten Teil des Jahres weiß.",
+    "f": [
+      "Das 1927 geschaffene Thelon-Wildschutzgebiet schützt Moschusochsen und Karibus im Herzen der Barren Grounds.",
+      "Das nahe Baker Lake ist die einzige Binnengemeinde Nunavuts.",
+      "Manche Oser hier ziehen sich über Hunderte Kilometer."
+    ],
+    "q": {
+      "q": "Wie heißen die langen, gewundenen Kiesrücken der Barren Grounds?",
+      "a": "Oser",
+      "x": [
+        "Drumlins",
+        "Moränen"
+      ]
+    }
+  },
+  "Q381050": {
+    "t": "Keine Bäume, eine gerade Linie und Klippen über dem Meer",
+    "s": "Nullarbor ist Latein für „kein Baum“, und von oben passt der Name: eine riesige, flache, olivgraue Ebene aus Salz- und Blaubusch, kein einziger Baum in Sicht. Sie ist die größte zusammenhängende Kalksteinplatte der Welt, darunter von Höhlen durchlöchert. An ihrem Südrand stürzen die Bunda Cliffs senkrecht in die Große Australische Bucht.",
+    "w": "Eine topfebene graugrüne Ebene ohne Bäume, eine gerade Bahnlinie quer hindurch und steile Klippen am südlichen Meer.",
+    "f": [
+      "Die Transaustralische Eisenbahn quert sie auf einem schnurgeraden Abschnitt von rund 478 km – dem längsten der Welt.",
+      "Der Kalkstein entstand auf einem uralten Meeresboden und bedeckt rund 200.000 km².",
+      "Die Bunda Cliffs sind bis zu rund 120 m hoch und ziehen sich etwa 100 km weit."
+    ],
+    "q": {
+      "q": "Was bedeutet „Nullarbor“?",
+      "a": "Kein Baum",
+      "x": [
+        "Rote Erde",
+        "Große Ebene"
+      ]
+    }
+  },
+  "Q1807196": {
+    "t": "Tundra unzähliger Seen, alle in dieselbe Richtung",
+    "s": "Zwischen der Brookskette und dem Nordpolarmeer ist der North Slope eine flache, baumlose Tundra voller Seen, viele davon oval und in dieselbe Richtung ausgerichtet, wie vom Wind gekämmt. Rund neun Monate lang ist das Land weiß; im Sommer taut es zu einer glitzernden Fläche aus Wasser und Grün. Darunter liegt Hunderte Meter dicker Permafrost.",
+    "w": "Flache, baumlose Tundra mit unzähligen ovalen Seen, alle gleich ausgerichtet; im Süden die verschneite Brookskette.",
+    "f": [
+      "Prudhoe Bay am North Slope ist das größte Ölfeld Nordamerikas.",
+      "In Utqiaġvik, der nördlichsten Stadt der USA, geht die Sonne im Sommer mehr als 80 Tage lang nicht unter.",
+      "Die Trans-Alaska-Pipeline leitet Öl rund 1.300 km von hier bis zum Hafen Valdez."
+    ],
+    "q": {
+      "q": "Welches Gebirge bildet den Südrand des North Slope?",
+      "a": "Die Brookskette",
+      "x": [
+        "Die Alaskakette",
+        "Die Chugach Mountains"
+      ]
+    }
+  },
+  "Q271294": {
+    "t": "Ein rotes Becken unter einem Deckel aus Wolken",
+    "s": "Von Bergen umringt, verbirgt sich das Sichuan-Becken oft unter einem flachen Deckel aus Wolken oder Dunst; wenn er aufreißt, sehen Sie niedrige rötliche Hügel, gemeißelt in unzählige Terrassenfelder, Teiche und Dörfer. Seine Böden stammen aus purpurrotem Sandstein, der ihm den Namen „Rotes Becken“ gab. Chengdu liegt auf der fruchtbaren Ebene im Westen, Chongqing dort, wo der Jialing in den Jangtse mündet.",
+    "w": "Niedrige, runde rötliche Hügel voller winziger Terrassenfelder und Teiche, umringt von Bergen; oft unter einer Wolkendecke.",
+    "f": [
+      "Ein chinesisches Sprichwort, „Sichuans Hunde bellen die Sonne an“, spottet, die Sonne zeige sich hier so selten, dass die Hunde erschrecken.",
+      "Das im 3. Jahrhundert v. Chr. begonnene Bewässerungssystem Dujiangyan bewässert noch heute die Ebene von Chengdu.",
+      "Rund 100 Millionen Menschen leben im Becken."
+    ],
+    "q": {
+      "q": "Welche Farbe gibt dem Sichuan-Becken seinen Beinamen?",
+      "a": "Rot",
+      "x": [
+        "Gelb",
+        "Schwarz"
+      ]
+    }
+  },
+  "Q216622": {
+    "t": "Ein Sandmeer, umringt von Schneebergen und Oasen",
+    "s": "Das Tarimbecken birgt die Taklamakan, eine der größten Sandwüsten der Erde: ein Meer aus Dünen in Ocker und Gold, manche Kämme über 100 m hoch. Rundum speisen verschneite Ketten – Tian Shan, Pamir und Kunlun – Flüsse, die im Sand versiegen, und eine Kette grüner Oasen wie Kaschgar und Hotan. Die Seidenstraße verlief an beiden Rändern.",
+    "w": "Ein riesiges Meer goldener Dünen, umringt von verschneiten Bergen, grüne Oasen entlang der Ränder verstreut.",
+    "f": [
+      "Der Tarim, Chinas längster Binnenfluss, fließt am Nordrand der Wüste und erreicht nie das Meer.",
+      "Im Becken gefundene Mumien, manche rund 4.000 Jahre alt, wurden vom trockenen, salzigen Sand konserviert.",
+      "Eine Fernstraße durchquert die Taklamakan, Hunderte Kilometer lang gesäumt von bewässerten Sträuchern, die den Sand aufhalten."
+    ],
+    "q": {
+      "q": "Welche Wüste füllt das Tarimbecken?",
+      "a": "Die Taklamakan",
+      "x": [
+        "Die Gobi",
+        "Die Karakum"
+      ]
+    }
+  },
+  "Q157603": {
+    "t": "Das größte tropische Feuchtgebiet, im Atem der Fluten",
+    "s": "Das Pantanal atmet mit den Jahreszeiten. Etwa von Dezember bis März lässt Regen den Paraguay und seine Nebenflüsse anschwellen, bis ein Großteil dieser riesigen Ebene unter flachem Wasser liegt, getupft mit Waldinseln. In den trockenen Monaten zieht sich das Wasser in Lagunen und gewundene Arme zurück, und Grasland und Rinder tauchen wieder auf. Es ist das größte tropische Feuchtgebiet der Erde.",
+    "w": "Ein flaches Mosaik aus glänzenden Lagunen, gewundenen Armen und grünen Waldinseln; von Juni bis Oktober trockener und brauner.",
+    "f": [
+      "Es erstreckt sich über Brasilien, Bolivien und Paraguay und umfasst rund 150.000 km².",
+      "Es ist einer der besten Orte der Welt, um wilde Jaguare zu sehen.",
+      "Ein Teil des Pantanal ist seit 2000 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher Fluss entwässert das Pantanal?",
+      "a": "Der Paraguay",
+      "x": [
+        "Der Amazonas",
+        "Der São Francisco"
+      ]
+    }
+  },
+  "Q1347148": {
+    "t": "Endlose seengetupfte Tundra am Rand der Arktis",
+    "s": "Zwischen dem Byrranga-Gebirge auf Taimyr und dem Mittelsibirischen Bergland liegt das Nordsibirische Tiefland, eine flache, baumlose Tundra, die sich über mehr als tausend Kilometer erstreckt. Von oben ist es eine riesige Leinwand, getupft mit Seen, durchzogen von trägen, schleifenreichen Flüssen wie Anabar und Olenjok. Den größten Teil des Jahres ist es weiß; der kurze Sommer malt es braun und grün.",
+    "w": "Flache, baumlose Tundra, übersät mit Seen und durchzogen von Flussschleifen; den größten Teil des Jahres weiß.",
+    "f": [
+      "Der Permafrost reicht hier Hunderte Meter tief.",
+      "Im Mittwinter dauert die Polarnacht wochenlang; im Sommer kreist die Sonne am Himmel, ohne unterzugehen.",
+      "Die Flüsse hier liegen rund acht Monate im Jahr unter Eis."
+    ],
+    "q": {
+      "q": "Welches Gebirge erhebt sich am Nordrand des Tieflands?",
+      "a": "Das Byrranga-Gebirge",
+      "x": [
+        "Das Putorana-Plateau",
+        "Das Werchojansker Gebirge"
+      ]
+    }
+  },
+  "Q737789": {
+    "t": "Ein Tiefland unter dem Meeresspiegel, gesäumt von Salzseen",
+    "s": "Rund um das nördliche Kaspische Meer sinkt das Land unter das Niveau des Weltmeers. Von oben ist es eine trockene, hellbraune Ebene aus Steppe und Halbwüste, gestreift von Sand und getupft mit glitzernd weißen Salzseen, quer hindurch die grüne Wolga. An ihrer tiefsten Stelle, am Ufer des Kaspischen Meeres, liegt sie rund 28 m unter dem Meeresspiegel.",
+    "w": "Eine flache, hellbraune Ebene mit weißen Salzseen und Sandflecken, durchzogen vom grünen Band der Wolga.",
+    "f": [
+      "Der Eltonsee im Norden des Tieflands ist der größte Salzsee Europas.",
+      "Der Baskuntschak-See liefert Russland seit Jahrhunderten Salz.",
+      "Der Große Bogdo, nur rund 150 m hoch, ist der höchste Punkt des Tieflands und den Kalmücken heilig."
+    ],
+    "q": {
+      "q": "Wie tief unter den Meeresspiegel reicht die Kaspische Senke ungefähr?",
+      "a": "Rund 28 m",
+      "x": [
+        "Rund 5 m",
+        "Rund 90 m"
+      ]
+    }
+  },
+  "Q654544": {
+    "t": "Ein grünes Labyrinth, das den halben Weißen Nil schluckt",
+    "s": "Hier verliert sich der Weiße Nil im Sudd, einem der größten Feuchtgebiete der Welt: ein riesiges grünes Labyrinth aus Papyrus, Schilf und Schwimmpflanzen, durchzogen von Armen und Lagunen, die in der Sonne glitzern. So viel Wasser verdunstet, dass rund die Hälfte des Flusswassers den Sumpf nie verlässt. Seine Größe schwillt mit der Regenzeit an und schrumpft wieder.",
+    "w": "Ein riesiger, flacher grüner Sumpf, durchzogen von glänzenden Armen und Lagunen, mittendurch der gewundene Hauptstrom.",
+    "f": [
+      "Der Name kommt vom arabischen Wort für „Sperre“: Der Sumpf versperrte lange den Booten den Weg den Nil hinauf.",
+      "Um 60 n. Chr. mussten Kundschafter des römischen Kaisers Nero am Sumpf umkehren.",
+      "Der 1978 begonnene Jonglei-Kanal, der Wasser um den Sumpf herumleiten sollte, wurde nie fertig."
+    ],
+    "q": {
+      "q": "Was bedeutet der arabische Name „Sudd“?",
+      "a": "Sperre",
+      "x": [
+        "See",
+        "Grünes Meer"
+      ]
+    }
+  },
+  "Q11767": {
+    "t": "Das Land zwischen zwei Flüssen, wo die Schrift begann",
+    "s": "Mesopotamien heißt auf Griechisch „zwischen den Flüssen“, und von oben sehen Sie, warum: Tigris und Euphrat fließen fast nebeneinander durch eine braune, trockene Ebene, jeder gesäumt von einem schmalen grünen Streifen aus Feldern und Palmen. Dazwischen liegt offene Steppe, die nach dem Winterregen kurz grün wird. An diesen Flüssen entstanden einige der ersten Städte – und die erste Schrift.",
+    "w": "Eine trockene braune Ebene mit zwei großen Flüssen nach Südosten, jeder von einem schmalen grünen Ackerstreifen gesäumt.",
+    "f": [
+      "Die Keilschrift, eines der frühesten Schriftsysteme, entstand hier vor mehr als 5.000 Jahren.",
+      "Der Ackerbau hier hing von Bewässerungskanälen ab, einigen der ältesten der Welt.",
+      "Im Südirak vereinigen sich die beiden Flüsse schließlich und fließen als Schatt al-Arab weiter zum Golf."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Mesopotamien“?",
+      "a": "Zwischen den Flüssen",
+      "x": [
+        "Land der Palmen",
+        "Fruchtbare Ebene"
+      ]
+    }
+  },
+  "Q208965": {
+    "t": "Wo das Transantarktische Gebirge aufs Rossmeer trifft",
+    "s": "Victorialand ist die Antarktis in ihrer dramatischsten Form: Das Transantarktische Gebirge steigt direkt aus dem Rossmeer auf, seine Gipfel über 4.000 m hoch, und gewaltige Gletscher strömen dazwischen aufs Meereis. Weiter südlich liegen die McMurdo-Trockentäler, kahle braune Täler, die zu den trockensten Orten der Erde zählen. James Clark Ross benannte das Land 1841 nach Königin Victoria.",
+    "w": "Zackige dunkle Berge und breite Gletscher, die zu einem weißen, eisbedeckten Meer hinabziehen; weiter südlich kahle braune Täler.",
+    "f": [
+      "Die McMurdo-Trockentäler sind das größte eisfreie Gebiet der Antarktis.",
+      "Am Kap Adare im Norden stehen 1899 gebaute Hütten, die ersten Gebäude auf dem antarktischen Kontinent.",
+      "Italiens Station Mario Zucchelli steht an seiner Küste, an der Terra-Nova-Bucht."
+    ],
+    "q": {
+      "q": "Nach wem ist das Victorialand benannt?",
+      "a": "Nach Königin Victoria",
+      "x": [
+        "Nach dem Schiff Victoria",
+        "Nach der Tochter eines Forschers"
+      ]
+    }
+  },
+  "Q1389935": {
+    "t": "Benannt nach dem Schokoladenmacher, der die Reise zahlte",
+    "s": "Landeinwärts durchstoßen die dunklen Gipfel der Prince Charles Mountains das Eis des Mac-Robertson-Lands, und daneben fließt der Lambertgletscher, oft der größte Gletscher der Erde genannt, langsam nordwärts ins Amery-Schelfeis. Achten Sie auf die lange, gestreifte Oberfläche fließenden Eises zwischen den Bergen. Der Name ehrt Macpherson Robertson, einen australischen Schokoladenfabrikanten, der Mawsons Expedition 1929–31 mitfinanzierte.",
+    "w": "Dunkle Bergkämme, die aus dem Eis ragen, neben einem riesigen, gestreiften Gletscher, der zu einem flachen Schelfeis fließt.",
+    "f": [
+      "Robertsons Firma stellte Süßigkeiten her, etwa den Schokoladenfrosch Freddo Frog.",
+      "Der Lambertgletscher ist mehr als 400 km lang und bis zu rund 100 km breit.",
+      "Australiens Mawson-Station steht an seiner Küste."
+    ],
+    "q": {
+      "q": "Was stellte der Namensgeber des Mac-Robertson-Lands her?",
+      "a": "Schokolade und Süßigkeiten",
+      "x": [
+        "Walfangschiffe",
+        "Flugzeuge"
+      ]
+    }
+  },
+  "Q2607094": {
+    "t": "Wo sich Australien 1954 in der Antarktis niederließ",
+    "s": "An der Mawson-Küste endet der Eisschild in blauweißen Klippen, unterbrochen von ein paar dunklen felsigen Landspitzen und Inseln. Auf einer davon baute Australien 1954 die Mawson-Station, die älteste noch betriebene Station südlich des südlichen Polarkreises. Dahinter ragen die Framnes Mountains aus dem Eis, und heftige Winde stürzen den Hang hinab zum Meer.",
+    "w": "Blauweiße Eisklippen mit dunklen Felsinseln und Landspitzen, davor Meereis, landeinwärts dunkle Gipfel, die aus dem Eis ragen.",
+    "f": [
+      "Küste und Station sind nach Douglas Mawson benannt, dem australischen Geologen und Polarforscher.",
+      "In der Nähe, bei Auster, ziehen Kaiserpinguine ihre Küken auf dem winterlichen Meereis auf.",
+      "Fallwinde, die hier vom Eis herabstürzen, erreichen oft Sturmstärke."
+    ],
+    "q": {
+      "q": "Wann wurde die Mawson-Station gegründet?",
+      "a": "1954",
+      "x": [
+        "1911",
+        "1985"
+      ]
+    }
+  },
+  "Q1576051": {
+    "t": "Eine eisige Küste mit Indiens erster Antarktisbasis",
+    "s": "Ein flaches Schelfeis säumt die Prinzessin-Astrid-Küste und trifft in niedrigen weißen Klippen auf das Meer. Gleich dahinter liegt die Schirmacher-Oase, ein niedriger Streifen dunklen Fels mit Seen, die im Sommer auftauen. Weiter südlich, dort, wo Sie jetzt sind, durchbrechen die zackigen Spitzen des Wohlthat-Massivs das Eis, und dahinter beginnt das Polarplateau.",
+    "w": "Ein flaches weißes Schelfeis am Meer, ein kleiner dunkler Streifen aus Fels und Seen, landeinwärts zackige Bergspitzen.",
+    "f": [
+      "Indiens erste Antarktisbasis, Dakshin Gangotri, wurde 1983 hier auf dem Schelfeis gebaut.",
+      "1989 war Dakshin Gangotri bereits aufgegeben und wurde langsam von Schnee und Eis begraben.",
+      "Russlands Nowolasarewskaja und Indiens Maitri stehen Seite an Seite in der Schirmacher-Oase."
+    ],
+    "q": {
+      "q": "Welches Land baute hier 1983 seine erste Antarktisbasis?",
+      "a": "Indien",
+      "x": [
+        "China",
+        "Brasilien"
+      ]
+    }
+  },
+  "Q1663286": {
+    "t": "Eisfreie Hügel und Salzseen neben einem riesigen Schelfeis",
+    "s": "Entlang der Ingrid-Christensen-Küste öffnet sich der Eisschild stellenweise und gibt niedrige Hügel aus nacktem braunem Fels frei, übersät mit Seen, manche salziger als das Meer. Diese Oasen, die Vestfold- und die Larsemann-Berge, sind in der Antarktis selten, und mehrere Länder haben dazwischen Stationen gebaut. Im Westen liegt das riesige, flache Amery-Schelfeis.",
+    "w": "Weißes Eis mit Flecken kahler brauner Hügel und kleiner Seen an der Küste; im Westen ein riesiges, flaches Schelfeis.",
+    "f": [
+      "Der Deep Lake in den Vestfold-Bergen ist so salzig, dass er bei rund −18 °C flüssig bleibt.",
+      "Australiens Davis-Station steht in den Vestfold-Bergen; Russland, China und Indien haben Stationen in den Larsemann-Bergen.",
+      "Die Küste ist nach Ingrid Christensen benannt, der Frau des norwegischen Walfangmagnaten Lars Christensen."
+    ],
+    "q": {
+      "q": "Was macht die Vestfold-Berge in der Antarktis ungewöhnlich?",
+      "a": "Sie sind weitgehend eisfrei",
+      "x": [
+        "Sie sind aktive Vulkane",
+        "Sie sind ihre höchsten Gipfel"
+      ]
+    }
+  },
+  "Q21471424": {
+    "t": "Wo die erste sowjetische Antarktisstation entstand",
+    "s": "Die Queen-Mary-Küste wird vom Shackleton-Schelfeis gesäumt, einer flachen weißen Plattform aus schwimmendem Eis, die in Klippen zum Meer abbricht, darunter dicht gedrängte Eisberge. Dahinter steigt der Eisschild sanft landeinwärts an. 1956 baute die Sowjetunion hier Mirny, ihre erste Antarktisstation, und Russland betreibt sie bis heute.",
+    "w": "Ein flaches weißes Schelfeis, das in Klippen über dunklem, eisbergbesetztem Wasser endet; dahinter steigt der Eisschild sanft an.",
+    "f": [
+      "Mawsons Australasiatische Antarktisexpedition 1911–14 benannte sie nach Queen Mary, der Frau König Georgs V.",
+      "Mawsons Westgruppe verbrachte den Winter 1912 auf dem Shackleton-Schelfeis.",
+      "Kaiserpinguine brüten auf dem Meereis nahe Mirny."
+    ],
+    "q": {
+      "q": "Welche hier 1956 gegründete Station war die erste sowjetische Antarktisbasis?",
+      "a": "Mirny",
+      "x": [
+        "Wostok",
+        "Nowolasarewskaja"
+      ]
+    }
+  },
+  "Q2944697": {
+    "t": "Eine Oase aus Seen, 1947 aus der Luft entdeckt",
+    "s": "Entlang der Knox-Küste fließt der Eisschild in breiten Gletschern zum Meer hinab, doch an ihrem Westende wartet eine Überraschung: die Bunger Hills, ein Fleck aus nacktem, niedrigem Fels mit Dutzenden Seen. Aus der Luft sieht er aus wie eine braune Insel in einem weißen Meer. Der US-Marinepilot David Bunger entdeckte ihn 1947, und heute trägt er seinen Namen.",
+    "w": "Weißes Eis, das zum Meer abfällt, nahe dem Westende ein auffälliger Fleck kahler brauner Hügel und Seen.",
+    "f": [
+      "Die Küste ist nach Samuel Knox benannt, einem Schiffskommandanten der US-Forschungsexpedition 1838–42.",
+      "Die Bunger Hills sind eines der größten eisfreien Gebiete an der antarktischen Küste.",
+      "1956 eröffnete die Sowjetunion in den Bunger Hills eine Station namens Oasis."
+    ],
+    "q": {
+      "q": "Was entdeckte ein Pilot 1947 an dieser Küste?",
+      "a": "Eine eisfreie Oase mit Seen",
+      "x": [
+        "Einen aktiven Vulkan",
+        "Einen See unter dem Eis"
+      ]
+    }
+  },
+  "Q124971": {
+    "t": "Wo ein großer ostantarktischer Gletscher das Meer erreicht",
+    "s": "An der Sabrina-Küste strömt das Eis der Ostantarktis durch den Totten-Gletscher ins Meer, einen der größten des Kontinents, der in einer schwimmenden Eiszunge endet. Forscher haben warmes Meerwasser entdeckt, das bis unter ihn reicht, und beobachten ihn genau. Achten Sie von oben auf gestreiftes, zerklüftetes Eis, das auf ein Meer voller Eisberge trifft.",
+    "w": "Zerklüftetes, gestreiftes Eis, das in eine schwimmende Eiszunge fließt, dahinter Eisberge und Meereis auf dunklem Wasser.",
+    "f": [
+      "Die Küste ist nach der Sabrina benannt, einem Kutter der britischen Expedition John Ballenys von 1839.",
+      "Der Totten-Gletscher entwässert ein Becken mit genug Eis, um den Meeresspiegel weltweit um mehrere Meter zu heben.",
+      "Auch das Moscow-University-Schelfeis liegt an dieser Küste."
+    ],
+    "q": {
+      "q": "Wonach ist die Sabrina-Küste benannt?",
+      "a": "Nach einem kleinen Segelschiff",
+      "x": [
+        "Nach der Tochter eines Forschers",
+        "Nach einer Walfangstation"
+      ]
+    }
+  },
+  "Q21489984": {
+    "t": "Die windige Küste, die einem Pinguin den Namen gab",
+    "s": "Die Adélie-Küste ist ein kurzer Abschnitt aus Eisklippen und felsigen Inselchen, wo heftige Winde vom Eisschild zum Meer hinabstürzen. Der französische Entdecker Jules Dumont d'Urville landete hier 1840 und benannte das Land nach seiner Frau Adèle. Der Adeliepinguin, der auf ihren Felsinseln nistet, trägt denselben Namen.",
+    "w": "Eisklippen, unterbrochen von dunklen Felsinselchen, davor Meereis und Eisberge, landeinwärts stetig ansteigender Eisschild.",
+    "f": [
+      "Frankreichs Station Dumont d'Urville steht auf einer kleinen Insel direkt vor dieser Küste.",
+      "Ihre Fallwinde gehören zu den stärksten der Antarktis.",
+      "Der Film „Die Reise der Pinguine“ wurde bei Kaiserpinguinen nahe der Station Dumont d'Urville gedreht."
+    ],
+    "q": {
+      "q": "Nach wem wurde die Adélie-Küste benannt?",
+      "a": "Nach der Frau des Entdeckers",
+      "x": [
+        "Nach einer französischen Königin",
+        "Nach der Tochter des Kapitäns"
+      ]
+    }
+  },
+  "Q728390": {
+    "t": "Die eisige Küste, an der das Ozonloch entdeckt wurde",
+    "s": "Das Coatsland zieht sich an der Ostseite des Weddellmeers entlang, wo der Eisschild vom Land in breite Schelfeise gleitet. Auf einem davon, dem Brunt-Schelfeis, steht Großbritanniens Station Halley, deren Messungen 1985 das antarktische Ozonloch enthüllten. Von oben gibt es kaum etwas außer Weiß: flache Schelfeise, lange Risse und die Kante des Meereises.",
+    "w": "Flache weiße Schelfeise mit langen Rissen am gefrorenen Weddellmeer; landeinwärts steigt der Eisschild sanft an.",
+    "f": [
+      "Halley VI steht auf Beinen mit Kufen, damit man sie abschleppen kann; 2017 wurde sie von einem wachsenden Riss weggezogen.",
+      "Das Land wurde 1904 nach James und Andrew Coats benannt, schottischen Geldgebern der Expedition von William Speirs Bruce.",
+      "Kaiserpinguine brüten auf dem Meereis entlang dieser Küste."
+    ],
+    "q": {
+      "q": "Was enthüllten Messungen an der Station Halley 1985?",
+      "a": "Das Ozonloch",
+      "x": [
+        "Den Wostoksee",
+        "Das Gamburzew-Gebirge"
+      ]
+    }
+  },
+  "Q1134547": {
+    "t": "Heimat der höchsten Berge der Antarktis",
+    "s": "Im Ellsworthland erhebt sich das Ellsworthgebirge wie eine große, rund 350 km lange Mauer aus dem Eis, und darin steht das Vinson-Massiv, mit 4.892 m der höchste Punkt der Antarktis. Ringsum erstreckt sich der Eisschild flach und weiß zum Ronne-Schelfeis und zur Bellingshausensee. Lincoln Ellsworth überquerte dieses Land 1935 beim ersten Flug quer über die Antarktis.",
+    "w": "Eine lange Mauer aus dunklen, zackigen Bergen, die aus dem weißen Eisschild ragt, ringsum flaches Eis.",
+    "f": [
+      "Die Sentinel Range, der Nordteil des Ellsworthgebirges, birgt die höchsten Gipfel der Antarktis.",
+      "Bergsteiger erreichen den Vinson von einem Camp auf dem Eis am Union Glacier, angeflogen von Chile aus.",
+      "Der Vinson wurde erst 1966 zum ersten Mal bestiegen."
+    ],
+    "q": {
+      "q": "Wie hoch ist das Vinson-Massiv?",
+      "a": "4.892 m",
+      "x": [
+        "3.794 m",
+        "6.190 m"
+      ]
+    }
+  },
+  "Q136270": {
+    "t": "Einsame Küste, 1833 zuerst von einem Robbenjäger gesichtet",
+    "s": "Das Kempland ist einer der stillsten Winkel der Ostantarktis: ein glatter weißer Eishang, der zu niedrigen Eisklippen, Buchten und ein paar verstreuten kleinen Felsinseln hinabläuft. Kaum ein Mensch hat hier je den Fuß auf den Boden gesetzt. Die Küste wurde 1833 erstmals von Peter Kemp gesichtet, einem britischen Robbenfangkapitän, der im Südpolarmeer nach neuen Jagdgründen suchte.",
+    "w": "Ein glatter weißer Eishang, der in niedrigen Eisklippen und Buchten endet, verstreute dunkle Felsinselchen und Meereis.",
+    "f": [
+      "Kemp segelte die Brigg Magnet, als er die Küste sichtete.",
+      "Mawsons BANZARE-Expedition kartierte ihre Küstenlinie 1930 von der Discovery aus.",
+      "Es liegt zwischen dem Enderbyland im Westen und dem Mac-Robertson-Land im Osten."
+    ],
+    "q": {
+      "q": "Wer war Peter Kemp, der diese Küste 1833 sichtete?",
+      "a": "Ein Robbenfangkapitän",
+      "x": [
+        "Ein Admiral der Royal Navy",
+        "Ein Walfangstationsbesitzer"
+      ]
+    }
+  },
+  "Q4084201": {
+    "t": "Die Gletscherstraße, die Shackleton zum Pol nahm",
+    "s": "Hier trifft das Transantarktische Gebirge auf den Westrand des Ross-Schelfeises, und riesige Gletscher wie Nimrod und Beardmore zwängen sich zwischen den Gipfeln hinab aufs flache Eis. 1908–09 stieg Ernest Shackletons Gruppe den Beardmore hinauf Richtung Südpol und kehrte erst rund 180 km davor um. Achten Sie von oben auf lange Eisströme, gestreift von dunklen Moränen.",
+    "w": "Dunkle, schneegestreifte Berge mit breiten Gletschern, die auf das flache, weiße Ross-Schelfeis hinabfließen.",
+    "f": [
+      "Die Küste wurde 1961 nach Sir Ernest Shackleton benannt.",
+      "Der Nimrod-Gletscher ist nach dem Schiff von Shackletons Expedition 1907–09 benannt.",
+      "Der Beardmore-Gletscher am Südende der Küste ist rund 200 km lang, einer der größten Talgletscher der Erde."
+    ],
+    "q": {
+      "q": "Wie weit vor dem Südpol kehrte Shackletons Gruppe ungefähr um?",
+      "a": "Rund 180 km",
+      "x": [
+        "Rund 20 km",
+        "Rund 600 km"
+      ]
+    }
+  },
+  "Q2983463": {
+    "t": "Eine Küste, benannt nach den Initialen einer Expedition",
+    "s": "Wände aus blauweißen Eisklippen markieren die Banzare-Küste, wo der Eisschild ins Meer gleitet, davor treibende Eisberge und den größten Teil des Jahres ein Gürtel aus Meereis. Der Name ist ein Akronym: BANZARE, die British Australian and New Zealand Antarctic Research Expedition. Unter der Leitung von Douglas Mawson kartierte sie diese Küste 1931.",
+    "w": "Blauweiße Eisklippen am Meer, davor Eisberge und ein Meereisgürtel, dahinter ansteigendes glattes weißes Eis.",
+    "f": [
+      "BANZARE segelte mit der Discovery, dem Schiff, mit dem Robert Falcon Scott 1901 in die Antarktis gefahren war.",
+      "Weit landeinwärts steigt das Eis zum über 3.200 m hohen Dome C an, Standort der französisch-italienischen Station Concordia.",
+      "Die Küste liegt nahe am südlichen Polarkreis, daher geht die Sonne im Hochsommer kaum unter."
+    ],
+    "q": {
+      "q": "Woher stammt der Name Banzare?",
+      "a": "Von den Initialen einer Expedition",
+      "x": [
+        "Von einem Schiffsnamen",
+        "Vom Nachnamen eines Forschers"
+      ]
+    }
+  },
+  "Q2983473": {
+    "t": "Eine Reihe von Eisklippen, benannt nach einer Kapitänsfrau",
+    "s": "Die Clarie-Küste ist eine lange Reihe von Eisklippen, wo der ostantarktische Eisschild auf das Meer trifft, hier und da unterbrochen von Gletscherzungen und gestrandeten Eisbergen. Im Januar 1840 segelten die Schiffe von Jules Dumont d'Urville an diesen Klippen entlang. Er benannte die Küste nach Claire, der Frau von Charles Jacquinot, dem Kapitän seines zweiten Schiffs, der Zélée.",
+    "w": "Eine lange Reihe weißer Eisklippen mit vorspringenden Gletscherzungen und gestrandeten Eisbergen, davor ausgedehntes Meereis.",
+    "f": [
+      "Eine amerikanische Expedition unter Charles Wilkes kartierte im selben Monat dieselbe Küste.",
+      "Australien nennt diesen Abschnitt Wilkes-Küste.",
+      "Sie liegt zwischen der Banzare-Küste im Westen und dem Adélieland im Osten."
+    ],
+    "q": {
+      "q": "Wer war Claire, nach der die Clarie-Küste benannt ist?",
+      "a": "Die Frau eines Schiffskapitäns",
+      "x": [
+        "Eine französische Prinzessin",
+        "Die Tochter eines Forschers"
+      ]
+    }
+  },
+  "Q2576481": {
+    "t": "Felsinseln, an denen Australiens Casey-Station steht",
+    "s": "Eisklippen und Gletscher säumen die Budd-Küste, doch eine Schar niedriger Felsinseln, die Windmill-Inseln, unterbricht das Weiß. Auf einer felsigen Halbinsel ihnen gegenüber steht Australiens Casey-Station, eine seiner drei ständigen Basen auf dem Kontinent. Vor der Küste gefriert das Meer im Winter zu einem breiten Gürtel aus Festeis.",
+    "w": "Niedrige dunkle Felsinseln und Halbinseln am Rand weißer Eisklippen, davor ausgedehntes Meereis.",
+    "f": [
+      "Die Küste ist nach Thomas Budd benannt, einem Offizier der US-Expedition von Charles Wilkes 1838–42.",
+      "Die Casey-Station ist nach Richard Casey benannt, einem australischen Politiker, der später Generalgouverneur wurde.",
+      "Im Sommer nisten Adeliepinguine auf den Windmill-Inseln."
+    ],
+    "q": {
+      "q": "Welches Land betreibt die Casey-Station an der Budd-Küste?",
+      "a": "Australien",
+      "x": [
+        "Neuseeland",
+        "Chile"
+      ]
+    }
+  },
+  "Q21489993": {
+    "t": "Ein einsamer erloschener Vulkan an einer eisigen Küste",
+    "s": "Die Wilhelm-II.-Küste ist meist glattes Eis, das auf das Meer trifft, doch sie birgt eine Kuriosität: den Gaußberg, einen dunklen, runden erloschenen Vulkan von rund 370 m Höhe, der einsam am Rand des Eises steht. Entdeckt wurde er 1902 von Erich von Drygalskis deutscher Expedition, deren Schiff Gauß fast ein Jahr lang in der Nähe im Meereis festfror. Die Küste ist nach dem deutschen Kaiser Wilhelm II. benannt.",
+    "w": "Glattes weißes Eis am Meer, nahe der Küste ein einzelner dunkler, kuppelförmiger Hügel, der hervorsticht.",
+    "f": [
+      "Die Gauß blieb von Februar 1902 bis Februar 1903 im Eis gefangen.",
+      "Drygalskis Team ließ einen Fesselballon aufsteigen, um landeinwärts zu schauen – einer der ersten Flüge in der Antarktis.",
+      "Der Gaußberg ist nach dem Schiff benannt, das an den Mathematiker Carl Friedrich Gauß erinnerte."
+    ],
+    "q": {
+      "q": "Was ist der Gaußberg?",
+      "a": "Ein erloschener Vulkan",
+      "x": [
+        "Eine Forschungsstation",
+        "Eine Eiskuppel"
+      ]
+    }
+  },
+  "Q1634150": {
+    "t": "Japans Zuhause in der Antarktis, an einer eisigen Bucht",
+    "s": "Die Prinz-Harald-Küste legt sich um die Lützow-Holm-Bucht, eine weite Einbuchtung, meist dicht mit Meereis gefüllt und getupft mit Felsinseln. Auf einer davon, der Insel Ost-Ongul, steht Japans Station Syowa, eröffnet 1957. Landeinwärts steigt der Eisschild stetig zum Polarplateau an, nahe der Küste unterbrochen von kleinen Flecken nackten Felsens.",
+    "w": "Eine weite Bucht voll weißem Meereis, getupft mit dunklen Inseln, dahinter ansteigender Eisschild.",
+    "f": [
+      "Sie ist nach Prinz Harald von Norwegen benannt, dem späteren König Harald V.",
+      "Japans Eisbrecher Shirase muss sich oft durch dickes Meereis rammen, um Syowa zu erreichen.",
+      "Die Lützow-Holm-Bucht ist nach Finn Lützow-Holm benannt, einem norwegischen Marineflieger, der über diese Region flog."
+    ],
+    "q": {
+      "q": "Welches Land betreibt die Station Syowa an dieser Küste?",
+      "a": "Japan",
+      "x": [
+        "Südkorea",
+        "Norwegen"
+      ]
+    }
+  },
+  "Q1578672": {
+    "t": "Eine stille Küste, benannt nach einem künftigen König",
+    "s": "Östlich der Lützow-Holm-Bucht ist die Prinz-Olav-Küste ein Abschnitt niedriger Eisklippen und Gletscherzungen, wo der Eisschild auf das Meer trifft; den größten Teil des Jahres haftet Meereis am Ufer. Landeinwärts steigt der weiße Hang stetig zum Hochplateau an, nur von ein paar dunklen Nunatakkern unterbrochen. Sie ist nach Kronprinz Olav von Norwegen benannt.",
+    "w": "Niedrige Eisklippen und Gletscherzungen mit Meereis am Ufer, landeinwärts ein sanft ansteigender weißer Hang.",
+    "f": [
+      "Olav regierte später als König Olav V. von Norwegen, von 1957 bis 1991.",
+      "Norwegische Expeditionen der 1930er-Jahre benannten viele Küsten des Königin-Maud-Lands nach Mitgliedern der Königsfamilie.",
+      "Japanische Forscher der nahen Station Syowa haben einen Großteil dieser Küste vermessen und kartiert."
+    ],
+    "q": {
+      "q": "Wer war Prinz Olav, nach dem diese Küste benannt ist?",
+      "a": "Ein künftiger König Norwegens",
+      "x": [
+        "Ein dänischer Entdecker",
+        "Ein schwedischer Forscher"
+      ]
+    }
+  },
+  "Q928344": {
+    "t": "Wo 1820 zum ersten Mal die Antarktis gesichtet wurde",
+    "s": "Die Prinzessin-Martha-Küste wird von breiten, flachen Schelfeisen gesäumt, die in weißen Wänden am Meer enden. Vor dieser Küste sichtete im Januar 1820 die russische Expedition von Bellingshausen und Lasarew eine riesige Eisbarriere – oft als erste Sichtung der Antarktis gezählt. Heute steht Deutschlands Neumayer-Station auf dem Schelfeis und Südafrikas SANAE IV landeinwärts auf einem Felsvorsprung.",
+    "w": "Flache weiße Schelfeise, die in niedrigen Klippen am Meer enden; landeinwärts durchbrechen dunkle Felsen und Berge das Eis.",
+    "f": [
+      "Die Küste ist nach Kronprinzessin Märtha von Norwegen benannt, der Frau von Kronprinz Olav.",
+      "Die Neumayer-Station III steht auf hydraulischen Stelzen und kann so angehoben werden, wenn sich ringsum Schnee auftürmt.",
+      "SANAE IV, Südafrikas Antarktisbasis, thront auf einem Nunatak namens Vesleskarvet."
+    ],
+    "q": {
+      "q": "Wer sichtete im Januar 1820 vor dieser Küste ein Schelfeis?",
+      "a": "Bellingshausen und Lasarew",
+      "x": [
+        "Cook und Furneaux",
+        "Ross und Crozier"
+      ]
+    }
+  },
+  "Q6111648": {
+    "t": "Wo der gewaltige Thwaites-Gletscher das Meer erreicht",
+    "s": "An der Walgreen-Küste erreicht der westantarktische Eisschild die Amundsensee über einige der sich am schnellsten verändernden Gletscher der Erde, allen voran den Thwaites-Gletscher, etwa so groß wie Florida. Von oben sähen Sie ein Durcheinander aus zerklüftetem Eis, das in Eisberge zerbricht, dahinter Packeis. Die Küste ist nach Charles Walgreen von der Drogeriekette benannt, der Richard Byrds Expedition 1933–35 mitfinanzierte.",
+    "w": "Ein Chaos aus zerklüftetem, zerbrochenem Eis und Eisbergen, wo Gletscher auf ein von Packeis verstopftes Meer treffen.",
+    "f": [
+      "Der Thwaites-Gletscher liegt auf einem Untergrund weit unter dem Meeresspiegel, was ihn anfällig für warmes Meerwasser macht.",
+      "Forscher bohren durch das Eis und schicken Roboter darunter, um zu messen, wie schnell es schmilzt.",
+      "Der Pine-Island-Gletscher, ein weiterer schnell fließender Riese, liegt gleich östlich davon."
+    ],
+    "q": {
+      "q": "Welcher Gletscher an dieser Küste ist etwa so groß wie Florida?",
+      "a": "Der Thwaites-Gletscher",
+      "x": [
+        "Der Beardmore-Gletscher",
+        "Der Lambertgletscher"
+      ]
+    }
+  },
+  "Q5255259": {
+    "t": "Der ferne Rand des Ross-Schelfeises, unter den Bergen",
+    "s": "An der Gould-Küste trifft das flache Ross-Schelfeis, das größte Schelfeis der Erde, auf den Fuß des Transantarktischen Gebirges, wo Gletscher wie der Scott-Gletscher zwischen dunklen Gipfeln herabströmen. Dies ist einer der abgelegensten Orte des Planeten, nur rund 650 km vom Südpol entfernt. Benannt ist sie nach Laurence Gould, dem Geologen, der 1929 eine Hundeschlittengruppe hierher führte.",
+    "w": "Das flache weiße Schelfeis vor einer Wand aus dunklen, verschneiten Bergen, dazwischen breite Gletscher.",
+    "f": [
+      "Gould war Stellvertreter in Richard Byrds Expedition 1928–30; seine Gruppe kartierte rund 280 km dieser Küste.",
+      "Der 1929 von Goulds Gruppe entdeckte Scott-Gletscher ist nach Robert Falcon Scott benannt, der ihn nie sah.",
+      "Das Ross-Schelfeis ist etwa so groß wie Frankreich und Hunderte Meter dick."
+    ],
+    "q": {
+      "q": "Wer war Laurence Gould, nach dem diese Küste benannt ist?",
+      "a": "Ein Geologe und Forscher",
+      "x": [
+        "Ein Schiffskapitän",
+        "Ein Flugzeugbauer"
+      ]
+    }
+  },
+  "Q1551170": {
+    "t": "Der hohe, eisige Sockel der Antarktischen Halbinsel",
+    "s": "Das Palmerland ist der breite Südteil der Antarktischen Halbinsel, wo sich das schmale Bergrückgrat zu einem hohen, eisbedeckten Plateau weitet, zerschnitten von Gletschern, die zu beiden Küsten fließen. Achten Sie im Westen auf den George-VI.-Sund, einen langen, geraden Kanal voller Schelfeis, der es von der Alexander-I.-Insel trennt. Benannt ist es nach Nathaniel Palmer, einem amerikanischen Robbenjäger, der 1820 in diesen Gewässern segelte.",
+    "w": "Ein hohes weißes Plateau, von dem Gletscher zu beiden Seiten abfließen; im Westen ein langer, gerader, eisgefüllter Kanal.",
+    "f": [
+      "Die US-Station Palmer liegt gar nicht im Palmerland, sondern weit nördlich auf der Anvers-Insel vor dem Grahamland.",
+      "Seine Berge steigen auf mehr als 3.000 m.",
+      "Nathaniel Palmer war erst 21, als er mit seiner Schaluppe Hero in diese Gewässer segelte."
+    ],
+    "q": {
+      "q": "Wo liegt die US-Station Palmer?",
+      "a": "Auf der Anvers-Insel",
+      "x": [
+        "Im Palmerland",
+        "Auf der Alexander-I.-Insel"
+      ]
+    }
   }
 }
