@@ -8,10 +8,14 @@ vi.mock('../src/services/packageBuilder.js', () => ({
 vi.mock('../src/services/flightLookup.js', () => ({
   getFlightDetailed: vi.fn()
 }));
+vi.mock('../src/services/recentTrack.js', () => ({
+  getRecentTrack: vi.fn()
+}));
 
 import { flightRoutes, isCalendarDate } from '../src/routes/flights.js';
 import { buildPackage, getCachedPackage } from '../src/services/packageBuilder.js';
 import { getFlightDetailed } from '../src/services/flightLookup.js';
+import { getRecentTrack } from '../src/services/recentTrack.js';
 import { createPackageJobs } from '../src/services/packageJobs.js';
 import { errorHandler } from '../src/errorHandler.js';
 
@@ -189,5 +193,38 @@ describe('package job bookkeeping', () => {
     const jobs = createPackageJobs(() => new Promise(() => {}), { maxJobs: 1 });
     expect(jobs.start('SU100', '2026-05-20', 'en')).not.toBeNull();
     expect(jobs.start('SU101', '2026-05-20', 'en')).toBeNull();
+  });
+});
+
+describe('GET /flights/track', () => {
+  const get = (url: string) => app.inject({ method: 'GET', url, headers: AUTH });
+  const track = {
+    points: [[37.41, 55.97, 0, 0], [30.26, 59.8, 0, 4800]],
+    flownOn: '2026-09-22',
+    from: 'SVO',
+    to: 'LED'
+  };
+
+  it('answers with the recent track', async () => {
+    vi.mocked(getRecentTrack).mockResolvedValue({ track: track as any });
+    const res = await get('/flights/track?number=SU1234');
+    expect(res.statusCode).toBe(200);
+    expect(res.json()).toEqual(track);
+    expect(getRecentTrack).toHaveBeenCalledWith('SU1234');
+  });
+
+  it('answers 404 when there is none, with the reason when the provider failed', async () => {
+    vi.mocked(getRecentTrack).mockResolvedValue({ track: null });
+    expect((await get('/flights/track?number=SU1234')).statusCode).toBe(404);
+    vi.mocked(getRecentTrack).mockResolvedValue({ track: null, error: 'not_configured' });
+    const res = await get('/flights/track?number=SU1234');
+    expect(res.statusCode).toBe(404);
+    expect(res.json()).toMatchObject({ reason: 'not_configured' });
+  });
+
+  it('rejects a missing or malformed number before asking anyone', async () => {
+    expect((await get('/flights/track')).statusCode).toBe(400);
+    expect((await get('/flights/track?number=SU1%3A00')).statusCode).toBe(400);
+    expect(getRecentTrack).not.toHaveBeenCalled();
   });
 });
