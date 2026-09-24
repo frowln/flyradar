@@ -1755,5 +1755,777 @@
         "Un salar"
       ]
     }
+  },
+  "Q2933": {
+    "t": "La «madre de ciudades», en una curva del río Paraguay",
+    "s": "Asunción se extiende por la orilla este del río Paraguay, donde este se curva en torno a una amplia bahía. Al otro lado del agua empieza el Chaco, una llanura verde parda de pantanos y matorral que se extiende cientos de kilómetros al oeste. Fundada en 1537, es una de las ciudades más antiguas de Sudamérica, y sus pobladores fundaron muchas otras, entre ellas Buenos Aires, definitivamente, en 1580.",
+    "w": "Una ciudad en el exterior de una gran curva del río, junto a una bahía redondeada; al oeste, llanuras húmedas y de matorral.",
+    "f": [
+      "El río Pilcomayo se une al Paraguay justo aguas abajo de la ciudad.",
+      "Santa Cruz de la Sierra, hoy en Bolivia, también la fundó una expedición salida de Asunción, en 1561."
+    ],
+    "q": {
+      "q": "¿Por qué llaman a Asunción «madre de ciudades»?",
+      "a": "Sus pobladores fundaron muchas otras",
+      "x": [
+        "Es la ciudad más antigua de América",
+        "Tiene la catedral más antigua"
+      ]
+    }
+  },
+  "Q3274": {
+    "t": "Una capital lacustre salpicada de lagunas de cráter",
+    "s": "Managua se extiende por la orilla sur del lago de Managua, y dentro de la propia ciudad se distinguen pequeñas lagunas redondas de cráter: antiguas bocas volcánicas hoy llenas de agua. En el extremo noroeste del lago se alza el cono casi perfecto del Momotombo. La ciudad se convirtió en capital de Nicaragua en 1852, como compromiso entre las rivales León y Granada.",
+    "w": "Una ciudad baja y extendida en la orilla sur de un gran lago; lagunas de cráter redondas y azules; un cono volcánico al noroeste.",
+    "f": [
+      "La laguna de Asososca, una de las de cráter, abastece parte del agua potable de la ciudad.",
+      "El lago de Nicaragua, el mayor de Centroamérica, está a unos 30 km al sureste."
+    ],
+    "q": {
+      "q": "¿Por qué Managua pasó a ser la capital de Nicaragua en 1852?",
+      "a": "Como compromiso entre ciudades rivales",
+      "x": [
+        "Tenía el mejor puerto",
+        "Era la ciudad más grande"
+      ]
+    }
+  },
+  "Q3306": {
+    "t": "Donde los barcos hacen cola para el canal de Panamá",
+    "s": "Mira al mar frente a Ciudad de Panamá y a menudo verás decenas de barcos fondeados, esperando su turno para el canal. Las torres de la ciudad bordean una bahía curva junto a la entrada del canal por el Pacífico. Fundada en 1519, la ciudad original fue la primera europea en la costa pacífica de América. El canal se abrió en 1914 y cruza el istmo a lo largo de unos 80 km.",
+    "w": "Una ciudad de rascacielos en una bahía curva; barcos dispersos mar adentro; un canal y un puente justo al oeste de la ciudad.",
+    "f": [
+      "Curiosamente, el extremo pacífico del canal está más al este que el atlántico.",
+      "La Calzada de Amador, que une islotes en la boca del canal, se hizo con roca excavada para el canal.",
+      "Las esclusas elevan los barcos unos 26 m hasta el lago Gatún, en medio del istmo."
+    ],
+    "q": {
+      "q": "¿Qué extremo del canal de Panamá está más al este?",
+      "a": "El del Pacífico",
+      "x": [
+        "El del Atlántico",
+        "Ambos están en la misma longitud"
+      ]
+    }
+  },
+  "Q124739": {
+    "t": "Una ciudad pegada a la frontera con Estados Unidos",
+    "s": "Tijuana llena un revoltijo de mesetas y cañones en el extremo noroeste de México, y su borde norte es una línea recta y dura: la frontera con Estados Unidos, con San Diego detrás. La pista del aeropuerto corre justo al sur de esa línea, tan cerca que una pasarela permite a los pasajeros entrar a pie desde el lado estadounidense. La ciudad se fundó oficialmente en 1889.",
+    "w": "Una ciudad densa en terreno montuoso cortado por cañones, cerrada al norte por una línea recta y nítida; el Pacífico al oeste.",
+    "f": [
+      "El cruce de San Ysidro, entre Tijuana y San Diego, es uno de los pasos fronterizos terrestres con más tráfico del mundo.",
+      "El río Tijuana corre hacia el norte, cruza la frontera y llega al Pacífico en EE. UU."
+    ],
+    "q": {
+      "q": "¿Qué corre justo al lado de la pista del aeropuerto de Tijuana?",
+      "a": "La frontera entre México y EE. UU.",
+      "x": [
+        "La costa del Pacífico",
+        "Un canal de riego"
+      ]
+    }
+  },
+  "Q61302": {
+    "t": "Capital del desierto alto, puerta de la Barranca del Cobre",
+    "s": "Chihuahua está en una meseta ancha y seca a unos 1400 m, rodeada de sierras desnudas y rocosas; es la capital del estado más grande de México. Se fundó en 1709 como pueblo minero de plata. Desde aquí, el ferrocarril Chihuahua al Pacífico sale hacia el suroeste, cruza la Sierra Madre y atraviesa la Barranca del Cobre, un sistema de cañones más profundo en algunos puntos que el Gran Cañón.",
+    "w": "Una ciudad en una cuenca de desierto alto, llana y ocre, rodeada de sierras rocosas desnudas; la oscura Sierra Madre lejos al oeste.",
+    "f": [
+      "El ferrocarril Chihuahua al Pacífico, terminado en 1961, cruza decenas de puentes y atraviesa decenas de túneles.",
+      "La diminuta raza de perro chihuahua toma su nombre del estado de Chihuahua."
+    ],
+    "q": {
+      "q": "¿Qué sale de Chihuahua a través de la Barranca del Cobre?",
+      "a": "Un ferrocarril a la costa del Pacífico",
+      "x": [
+        "Un río navegable",
+        "Un teleférico"
+      ]
+    }
+  },
+  "Q40194": {
+    "t": "Un puerto del Pacífico en una península, junto al trópico",
+    "s": "Mazatlán ocupa una península rocosa en la costa pacífica de México, con un largo malecón que se curva hacia el norte junto a la playa y tres islotes frente a la costa. El trópico de Cáncer pasa a solo unos 25 km al norte, así que en el solsticio de junio el sol del mediodía está aquí casi en la vertical. El nombre viene del náhuatl y significa «lugar de venados».",
+    "w": "Ciudad en una península nudosa y a lo largo de una playa larga y recta; islotes cerca; colinas y la Sierra Madre detrás.",
+    "f": [
+      "El faro del cerro del Crestón brilla a unos 157 m sobre el mar, uno de los más altos del mundo.",
+      "Desde aquí, los ferris cruzan el golfo de California hasta La Paz, en Baja California."
+    ],
+    "q": {
+      "q": "¿Qué significa «Mazatlán» en náhuatl?",
+      "a": "Lugar de venados",
+      "x": [
+        "Lugar de peces",
+        "Lugar del sol"
+      ]
+    }
+  },
+  "Q273014": {
+    "t": "Un puerto petrolero entre lagunas en la boca del Pánuco",
+    "s": "Tampico está unos kilómetros río Pánuco arriba desde el golfo de México, y el agua está por todas partes: lagunas dentro de la ciudad, marismas alrededor y el ancho río pardo en su lado sur. A principios del siglo XX, el petróleo hallado cerca la convirtió en uno de los puertos petroleros con más tráfico del mundo. Busca el largo puente atirantado sobre el río.",
+    "w": "Una ciudad entre lagunas y un río ancho cerca de la costa; marismas alrededor; un largo puente cruza el río al sur.",
+    "f": [
+      "La ciudad moderna se refundó en 1823 cerca del emplazamiento de un asentamiento colonial más antiguo.",
+      "La laguna del Carpintero, en plena ciudad, alberga cocodrilos."
+    ],
+    "q": {
+      "q": "¿Qué hizo prosperar a Tampico a principios del siglo XX?",
+      "a": "El petróleo",
+      "x": [
+        "La plata",
+        "El azúcar"
+      ]
+    }
+  },
+  "Q81398": {
+    "t": "Una bahía en herradura rodeada de un anfiteatro de colinas",
+    "s": "Acapulco rodea una de las bahías de forma más perfecta del Pacífico, una herradura azul profundo con la ciudad trepando por las colinas empinadas de alrededor como las gradas de un anfiteatro. Durante unos 250 años, desde 1565, los galeones españoles zarparon de aquí hacia Manila: llevaban plata al oeste y volvían con seda y porcelana de Asia.",
+    "w": "Una bahía honda y redondeada casi cerrada por cabos; edificios blancos que trepan por las colinas verdes; largas playas al este.",
+    "f": [
+      "Los clavadistas de La Quebrada se lanzan desde unos 35 m a una estrecha cala rocosa.",
+      "El fuerte de San Diego, con forma de estrella, se construyó en el siglo XVII para proteger el puerto de los galeones."
+    ],
+    "q": {
+      "q": "¿A qué puerto asiático navegaban los galeones de Acapulco?",
+      "a": "Manila",
+      "x": [
+        "Macao",
+        "Nagasaki"
+      ]
+    }
+  },
+  "Q173270": {
+    "t": "Donde desembarcó Cortés, con el Orizaba en el horizonte",
+    "s": "Veracruz está en un tramo bajo y arenoso de la costa del golfo de México, con un puerto muy activo y, mar adentro, las formas claras de arrecifes de coral en agua turquesa. Hernán Cortés desembarcó en esta costa en 1519 y fundó la Villa Rica de la Vera Cruz, la primera población española en lo que hoy es México. En días claros, busca al oeste el cono blanco del Pico de Orizaba.",
+    "w": "Un puerto llano en una costa recta del golfo; rompeolas y muelles; arrecifes claros mar adentro; un volcán nevado lejos al oeste.",
+    "f": [
+      "La fortaleza de San Juan de Ulúa, iniciada en el siglo XVI, se alza en una antigua isla en la boca del puerto.",
+      "Los arrecifes frente a la ciudad están protegidos como parque nacional marino.",
+      "La ciudad cambió de sitio más de una vez antes de asentarse aquí hacia 1600."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Veracruz?",
+      "a": "Cruz verdadera",
+      "x": [
+        "Costa verde",
+        "Puerto santo"
+      ]
+    }
+  },
+  "Q207429": {
+    "t": "Una ciudad de valle al borde de un cañón de 1000 metros",
+    "s": "Tuxtla Gutiérrez se extiende por un valle cálido y verde de Chiapas, y justo al noreste la tierra se abre: el Cañón del Sumidero, donde el río Grijalva corre entre paredes de hasta unos 1000 m. Desde arriba parece una grieta oscura en la meseta. El nombre Tuxtla viene de una palabra náhuatl que suele traducirse como «lugar de conejos».",
+    "w": "Una ciudad alargada en un valle de este a oeste; al noreste, un desfiladero hondo y sinuoso con un río verde azulado al fondo.",
+    "f": [
+      "Aguas abajo, la presa de Chicoasén convierte el río en un largo embalse que serpentea entre las montañas.",
+      "La segunda parte del nombre honra a Joaquín Miguel Gutiérrez, un político chiapaneco del siglo XIX."
+    ],
+    "q": {
+      "q": "¿Qué cañón está justo al noreste de Tuxtla Gutiérrez?",
+      "a": "El Cañón del Sumidero",
+      "x": [
+        "La Barranca del Cobre",
+        "El cañón de la Huasteca"
+      ]
+    }
+  },
+  "Q8969": {
+    "t": "Un balneario con forma de 7 sobre agua turquesa",
+    "s": "La zona hotelera de Cancún es fácil de reconocer: una fina franja de arena blanca con forma de número 7, con el Caribe turquesa a un lado y la tranquila y más oscura laguna Nichupté al otro. Hasta 1970, más o menos, aquí no había casi nada; el balneario se planificó desde cero. Tierra adentro se extiende el llano y verde Yucatán, sin un solo río en superficie.",
+    "w": "Una isla estrecha y blanca con forma de 7 que encierra una laguna; mar turquesa al este; selva verde y llana tierra adentro.",
+    "f": [
+      "Justo frente a la costa empieza el Sistema Arrecifal Mesoamericano, el segundo sistema de barrera de coral más grande del mundo.",
+      "En la caliza del Yucatán, el agua de lluvia se filtra hacia dolinas subterráneas llamadas cenotes.",
+      "Isla Mujeres, una pequeña isla al norte, está a unos 13 km por mar."
+    ],
+    "q": {
+      "q": "¿Qué forma tiene la isla de la zona hotelera de Cancún?",
+      "a": "La del número 7",
+      "x": [
+        "La de una media luna",
+        "La de un anillo"
+      ]
+    }
+  },
+  "Q165204": {
+    "t": "La Ciudad Blanca, sobre el cráter enterrado de un asteroide",
+    "s": "Mérida se extiende por la llanura caliza del Yucatán, completamente plana, sin río, colina ni lago que rompan el matorral. Debajo guarda un secreto: el cráter enterrado de Chicxulub, abierto por el asteroide que ayudó a acabar con la era de los dinosaurios, tiene su centro en la costa, justo al norte de la ciudad. Los españoles fundaron Mérida en 1542 sobre la ciudad maya de T’hó.",
+    "w": "Una ciudad grande, baja y clara en una llanura verde perfectamente plana; la costa y el puerto de Progreso, a unos 35 km al norte.",
+    "f": [
+      "Un anillo de cenotes, dolinas llenas de agua, marca parte del borde enterrado del cráter alrededor de la ciudad.",
+      "A finales del siglo XIX, la fibra de sisal de las haciendas henequeneras hizo de Mérida una de las ciudades más ricas de México.",
+      "El cráter mide unos 180 km de ancho, pero está enterrado y no puede verse desde el aire."
+    ],
+    "q": {
+      "q": "¿Qué hay enterrado bajo las tierras que rodean Mérida?",
+      "a": "Un cráter de impacto de asteroide",
+      "x": [
+        "Una caldera volcánica",
+        "Un antiguo lago salado"
+      ]
+    }
+  },
+  "Q2900": {
+    "t": "Una capital larga y fina sobre un volcán, junto al ecuador",
+    "s": "Quito se aprieta en un estrecho valle andino a unos 2850 m, y se estira unos 40 km de norte a sur por la ladera del volcán Pichincha. El ecuador pasa a solo unos 25 km al norte. En un día claro, busca al sur el cono nevado y perfecto del Cotopaxi. En 1978, el casco antiguo de Quito fue uno de los primeros lugares declarados Patrimonio de la Humanidad.",
+    "w": "Una ciudad larga y estrecha apretada contra las laderas de un gran volcán; quebradas hondas al este; conos nevados en el horizonte.",
+    "f": [
+      "El Cotopaxi, de unos 5900 m, es uno de los volcanes activos más altos del mundo.",
+      "El aeropuerto está en una meseta al este de la ciudad, más bajo que el propio Quito."
+    ],
+    "q": {
+      "q": "¿A qué distancia está Quito del ecuador?",
+      "a": "A unos 25 km",
+      "x": [
+        "A unos 250 km",
+        "Está justo sobre él"
+      ]
+    }
+  },
+  "Q3070": {
+    "t": "Una capital en un valle verde rodeado de volcanes",
+    "s": "San José llena el corazón del Valle Central de Costa Rica, a unos 1150 m: un cuenco de tejados rojos y colinas verdes de cafetal rodeado de volcanes. Al norte se alzan el Poás y el Barva; al este, el Irazú y el Turrialba. Desde la cima del Irazú, en algún raro día despejado, se ven el Pacífico y el Caribe. La ciudad pasó a ser la capital del país en 1823.",
+    "w": "Una ciudad extensa que llena un valle verde, con montañas volcánicas al norte y al este; cafetales en las laderas.",
+    "f": [
+      "El Irazú, de unos 3430 m, es el volcán más alto de Costa Rica.",
+      "El café de las laderas volcánicas pagó en el siglo XIX buena parte del primer esplendor de la ciudad, incluido su Teatro Nacional."
+    ],
+    "q": {
+      "q": "¿Desde qué volcán cercano a San José se ven los dos océanos?",
+      "a": "El Irazú",
+      "x": [
+        "El Arenal",
+        "El Masaya"
+      ]
+    }
+  },
+  "Q3110": {
+    "t": "Una capital entre un volcán y un lago de caldera",
+    "s": "San Salvador se extiende por un valle al pie del volcán de San Salvador, cuyo cráter, El Boquerón, es un enorme pozo redondo de unos 1,5 km de ancho. Al este de la ciudad está el lago de Ilopango, que llena la caldera de una erupción colosal de hace unos 1500 años. Los colonos españoles trasladaron la ciudad a este valle en el siglo XVI, y hoy es la capital del país.",
+    "w": "Una ciudad densa al pie oriental de un gran volcán con un cráter redondo en la cumbre; un gran lago azul de caldera al este.",
+    "f": [
+      "El cráter de El Boquerón tiene unos 500 m de profundidad, con un pequeño cono en su interior.",
+      "El lago de Ilopango cubre unos 70 km²."
+    ],
+    "q": {
+      "q": "¿Qué lago llena la caldera al este de San Salvador?",
+      "a": "El lago de Ilopango",
+      "x": [
+        "El lago de Atitlán",
+        "El lago de Coatepeque"
+      ]
+    }
+  },
+  "Q34692": {
+    "t": "Una ciudad portuaria tras una larga y fina lengua de arena",
+    "s": "Kingston da a uno de los grandes puertos naturales del mundo, cerrado al Caribe por los Palisadoes, una lengua de arena de más de 10 km y apenas lo bastante ancha para una carretera y la pista del aeropuerto. En su punta está Port Royal, antaño famosa guarida de bucaneros. Detrás de la ciudad se alzan las Montañas Azules, cuna de uno de los cafés más famosos del mundo.",
+    "w": "Un puerto ancho y tranquilo cerrado por una larga lengua curva con una pista; una ciudad extensa bajo montañas al norte.",
+    "f": [
+      "El Blue Mountain Peak, de unos 2260 m, es el punto más alto de Jamaica.",
+      "Kingston se trazó en 1692 y pasó a ser la capital de Jamaica en 1872."
+    ],
+    "q": {
+      "q": "¿Qué hay sobre la larga lengua que cierra el puerto de Kingston?",
+      "a": "El aeropuerto internacional",
+      "x": [
+        "Una línea de ferrocarril",
+        "Unas salinas"
+      ]
+    }
+  },
+  "Q657461": {
+    "t": "Un puerto colonial amurallado entre bahías y lagunas",
+    "s": "Cartagena es un laberinto de agua: una bahía grande y resguardada con islas, lagunas interiores y canales, y una península estrecha bordeada de torres blancas. En su corazón, el casco antiguo sigue rodeado de murallas coloniales de piedra, unos 11 km, levantadas para proteger un puerto del tesoro. Pedro de Heredia fundó la ciudad en 1533; su centro amurallado es Patrimonio de la Humanidad.",
+    "w": "Una ciudad costera en torno a bahías y lagunas; una fina península de rascacielos; islas en la bahía; islotes de coral al suroeste.",
+    "f": [
+      "Las islas del Rosario, un archipiélago de coral al suroeste de la ciudad, están protegidas como parque nacional.",
+      "Las flotas del tesoro españolas hacían escala aquí para cargar plata y oro con destino a España."
+    ],
+    "q": {
+      "q": "¿Qué rodea el casco antiguo de Cartagena?",
+      "a": "Murallas coloniales de piedra",
+      "x": [
+        "Un ancho canal circular",
+        "Diques de tierra"
+      ]
+    }
+  },
+  "Q130242": {
+    "t": "Un pueblo fluvial perdido en un océano de selva amazónica",
+    "s": "Mitú es un pequeño pueblo a orillas del río Vaupés, en el extremo sureste de Colombia, rodeado en todas direcciones de selva continua. Ninguna carretera lo une con el resto del país; personas y mercancías llegan en avión o en barco. Desde arriba, el río serpentea por el verde como una cinta oscura, con el claro del pueblo y su pista en la orilla.",
+    "w": "Un pequeño claro con una pista junto a un río oscuro y sinuoso; un dosel de selva verde infinito alrededor.",
+    "f": [
+      "El Vaupés corre hacia el este hasta Brasil, donde, como Uaupés, se une al río Negro.",
+      "La mayoría de los habitantes de la región pertenecen a pueblos indígenas como los cubeo y los tucano."
+    ],
+    "q": {
+      "q": "¿Cómo se llega a Mitú desde el resto de Colombia?",
+      "a": "Solo por aire o por río",
+      "x": [
+        "Por carretera",
+        "En tren"
+      ]
+    }
+  },
+  "Q1555": {
+    "t": "Capital de meseta entre barrancos, vigilada por volcanes",
+    "s": "Ciudad de Guatemala está en una meseta alta a unos 1500 m, cortada por hondos barrancos verdes, así que la ciudad se extiende por dedos de tierra llana entre ellos. Al suroeste se alza una hilera de volcanes: el Agua, el Acatenango y el Fuego, que a menudo lleva un penacho de ceniza. La capital se trasladó aquí en 1776 desde Antigua, en el valle vecino al oeste.",
+    "w": "Una gran ciudad en una meseta partida por barrancos verdes y hondos; altos conos volcánicos al suroeste, uno a menudo humeante.",
+    "f": [
+      "Las ruinas de Kaminaljuyú, un gran asentamiento maya fundado hace más de 2000 años, están dentro de la ciudad actual.",
+      "El Pacaya, otro volcán activo, se alza justo al sur de la ciudad."
+    ],
+    "q": {
+      "q": "¿Qué ciudad fue la capital de Guatemala antes de 1776?",
+      "a": "Antigua Guatemala",
+      "x": [
+        "Quetzaltenango",
+        "Tikal"
+      ]
+    }
+  },
+  "Q44401": {
+    "t": "Un pedazo de Francia al borde de la selva amazónica",
+    "s": "Cayena ocupa una pequeña península montuosa en la desembocadura del río Cayena, con un mar pardo y fangoso delante y selva detrás. La Guayana Francesa es parte de Francia, así que esta es una ciudad de la Unión Europea en Sudamérica, y usa el euro. A unos 60 km costa arriba está Kourou, desde donde se lanzan los cohetes europeos cerca del ecuador.",
+    "w": "Una pequeña ciudad en una península nudosa en la boca de un río; mar pardo y fangoso; selva verde y densa tierra adentro.",
+    "f": [
+      "El agua costera parda está teñida por el limo del Amazonas, que las corrientes arrastran al noroeste por la costa.",
+      "El bosque cubre la inmensa mayoría del territorio de la Guayana Francesa."
+    ],
+    "q": {
+      "q": "¿Qué moneda se usa en Cayena?",
+      "a": "El euro",
+      "x": [
+        "El real brasileño",
+        "El dólar guyanés"
+      ]
+    }
+  },
+  "Q51599": {
+    "t": "Un puerto azotado por el viento en el estrecho de Magallanes",
+    "s": "Punta Arenas se extiende por la orilla oeste del estrecho de Magallanes, frente a las colinas bajas y leonadas de Tierra del Fuego, al otro lado del agua. Los barcos de Fernando de Magallanes cruzaron este paso en 1520. Antes de que se abriera el canal de Panamá, la ciudad era una escala de carbón muy activa para los vapores que pasaban de un océano a otro. Hoy salen de aquí aviones hacia la Antártida.",
+    "w": "Una ciudad alargada junto a un ancho estrecho gris azulado; estepa abierta sin árboles tierra adentro; las costas llanas de Tierra del Fuego enfrente.",
+    "f": [
+      "Chile fundó la ciudad en 1848.",
+      "Es una de las ciudades más australes del mundo con más de 100 000 habitantes."
+    ],
+    "q": {
+      "q": "¿A qué estrecho da Punta Arenas?",
+      "a": "El estrecho de Magallanes",
+      "x": [
+        "El paso de Drake",
+        "El canal Beagle"
+      ]
+    }
+  },
+  "Q14440": {
+    "t": "Un puerto del desierto bajo un acantilado y una duna gigante",
+    "s": "Iquique ocupa una repisa estrecha entre el Pacífico y un escarpe costero que se alza unos 600 m justo detrás: el borde del desierto de Atacama. Dentro de la ciudad hay una enorme duna, el Cerro Dragón. Arriba, en la meseta desnuda, están los pueblos fantasma del auge del salitre del siglo XIX que enriqueció este puerto.",
+    "w": "Una ciudad en una franja costera fina bajo un alto escarpe ocre; una gran duna clara entre las casas; desierto totalmente desnudo arriba.",
+    "f": [
+      "Las salitreras abandonadas de Humberstone y Santa Laura, tierra adentro, son Patrimonio Mundial de la UNESCO.",
+      "Aquí la lluvia es tan rara que pueden pasar años sin un solo chaparrón."
+    ],
+    "q": {
+      "q": "¿Qué rasgo natural insólito se alza dentro de Iquique?",
+      "a": "Una enorme duna de arena",
+      "x": [
+        "Un volcán",
+        "Un glaciar"
+      ]
+    }
+  },
+  "Q3612": {
+    "t": "Un puerto del cobre en una costa desértica junto al trópico",
+    "s": "Antofagasta se extiende kilómetros por una estrecha franja de costa, encajonada entre el muro pardo y desnudo de la cordillera de la Costa y el frío Pacífico azul. El trópico de Capricornio pasa justo al norte de la ciudad. Tierra adentro están algunas de las tierras más secas del planeta y algunas de las mayores minas de cobre del mundo, cuyo metal sale por este puerto.",
+    "w": "Una ciudad larga y fina a lo largo de una costa recta bajo un escarpe pardo y empinado; desierto totalmente desnudo detrás.",
+    "f": [
+      "El cielo del desierto es tan limpio que grandes observatorios, entre ellos Paranal, están a unos 120 km al sur.",
+      "La ciudad se fundó en 1868 para dar servicio a la minería del desierto.",
+      "La Portada, un arco natural marino justo al norte de la ciudad, es monumento natural protegido."
+    ],
+    "q": {
+      "q": "¿Qué paralelo pasa justo al norte de Antofagasta?",
+      "a": "El trópico de Capricornio",
+      "x": [
+        "El trópico de Cáncer",
+        "El ecuador"
+      ]
+    }
+  },
+  "Q33986": {
+    "t": "Un puerto que trepa por decenas de cerros sobre una bahía",
+    "s": "Valparaíso rodea una amplia bahía en un anfiteatro empinado, con casas que trepan por más de cuarenta cerros que se alzan desde una fina franja llana junto al puerto. Durante décadas, antes del canal de Panamá, fue la gran escala de los barcos que doblaban el cabo de Hornos. Su laberinto de barrios en las laderas es Patrimonio de la Humanidad, y Viña del Mar se funde con ella por el norte.",
+    "w": "Una bahía en media luna con un puerto; la ciudad sube empinada por muchos cerros; otra ciudad balneario sigue por la costa al norte.",
+    "f": [
+      "Algunos de los ascensores funiculares que suben a los cerros son de finales del siglo XIX.",
+      "Santiago está a unos 110 km al sureste, al otro lado de la cordillera de la Costa."
+    ],
+    "q": {
+      "q": "¿Cómo sube mucha gente los cerros de Valparaíso?",
+      "a": "En viejos funiculares",
+      "x": [
+        "En teleférico",
+        "En tren de cremallera"
+      ]
+    }
+  },
+  "Q160687": {
+    "t": "Una ciudad de ríos en el sur verde y lluvioso de Chile",
+    "s": "Valdivia está enlazada de agua: aquí se juntan varios ríos que serpentean al oeste entre humedales y bosque hasta el mar, en la bahía de Corral, a unos 15 km. A su alrededor crece una densa selva templada siempre verde, alimentada por lluvias intensas. Pedro de Valdivia fundó la ciudad en 1552 y le dio su propio nombre. Desde la década de 1850 llegaron colonos alemanes, que dejaron su huella.",
+    "w": "Una ciudad sobre ríos oscuros y sinuosos entre humedales y bosque; los ríos se ensanchan al oeste en una bahía del Pacífico.",
+    "f": [
+      "En los siglos XVII y XVIII, los españoles rodearon la bahía de Corral de fuertes para proteger la ruta fluvial a la ciudad.",
+      "Los lobos marinos suelen tumbarse junto al mercado de pescado ribereño, en el centro de la ciudad."
+    ],
+    "q": {
+      "q": "¿En honor de quién se llama Valdivia?",
+      "a": "Su fundador, Pedro de Valdivia",
+      "x": [
+        "Un presidente chileno",
+        "Un cacique mapuche"
+      ]
+    }
+  },
+  "Q1880": {
+    "t": "Una ciudad universitaria en la boca del ancho Biobío",
+    "s": "Concepción está donde el Biobío, uno de los ríos más largos y anchos de Chile, se ensancha antes de llegar al Pacífico, cruzado aquí por varios puentes largos. Hay lagunas repartidas por la ciudad, y el puerto de Talcahuano está en la bahía, justo al norte. Durante siglos, el Biobío marcó la frontera entre el Chile español y las tierras mapuches.",
+    "w": "Una ciudad entre colinas bajas y la desembocadura muy ancha de un río cruzado por largos puentes; una gran bahía con puerto al norte.",
+    "f": [
+      "A mediados del siglo XVIII, la ciudad se trasladó a su emplazamiento actual desde la cercana costa de Penco.",
+      "La Universidad de Concepción, fundada en 1919, es una de las más antiguas de Chile."
+    ],
+    "q": {
+      "q": "¿Qué río llega al mar en Concepción?",
+      "a": "El Biobío",
+      "x": [
+        "El Maule",
+        "El Mapocho"
+      ]
+    }
+  },
+  "Q36214": {
+    "t": "Donde el Chile continental se rompe en fiordos e islas",
+    "s": "Puerto Montt marca el punto donde el largo Valle Central de Chile llega al mar y la costa empieza a quebrarse en fiordos, canales e islas. La ciudad está en el seno de Reloncaví, con la isla de Chiloé al suroeste y, al noreste, el cono nevado y casi perfecto del volcán Osorno alzándose tras el lago Llanquihue. Colonos alemanes la fundaron en 1853.",
+    "w": "Una ciudad en un seno marino resguardado y lleno de islas; un gran lago justo al norte; conos volcánicos nevados al noreste.",
+    "f": [
+      "Aquí empieza la Carretera Austral, una ruta de más de 1200 km hacia la Patagonia.",
+      "El lago Llanquihue, justo al norte de la ciudad, cubre unos 860 km²."
+    ],
+    "q": {
+      "q": "¿Qué famosa carretera empieza en Puerto Montt?",
+      "a": "La Carretera Austral",
+      "x": [
+        "La Ruta 40",
+        "El Camino del Inca"
+      ]
+    }
+  },
+  "Q226": {
+    "t": "Una pequeña capital ártica en la boca de un fiordo gigante",
+    "s": "Nuuk se aferra a un cabo rocoso en la boca de un vasto sistema de fiordos que se adentra más de 100 km hacia el casquete de Groenlandia. Al otro lado del agua se alza el pico afilado del Sermitsiaq. El nombre significa simplemente «cabo». El misionero Hans Egede fundó aquí la colonia en 1728, pero siglos antes ya habían vivido en estos fiordos granjeros nórdicos.",
+    "w": "Una pequeña ciudad en una península rocosa y desnuda entre brazos de fiordo; picos oscuros e icebergs; el casquete blanco lejos tierra adentro.",
+    "f": [
+      "Colonos nórdicos cultivaron los fiordos cercanos a Nuuk desde el año 1000, más o menos, hasta mediados del siglo XIV.",
+      "Nuuk es una de las capitales más septentrionales del mundo.",
+      "El Sermitsiaq, el pico emblemático al otro lado del fiordo, se alza unos 1200 m directamente desde el mar."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Nuuk?",
+      "a": "Cabo",
+      "x": [
+        "Iceberg",
+        "Puerto"
+      ]
+    }
+  },
+  "Q941136": {
+    "t": "Un pueblo amazónico junto a un río de curvas imposibles",
+    "s": "Cruzeiro do Sul está cerca del borde occidental de Brasil, a orillas del Juruá, uno de los ríos de meandros más cerrados de la Tierra. Desde arriba, el Juruá se vuelve sobre sí mismo una y otra vez y deja lagos en media luna en la selva. Al oeste, las colinas bajas y verdes de la Serra do Divisor suben hacia la frontera con el Perú. El nombre significa «Cruz del Sur».",
+    "w": "Un pequeño pueblo junto a un río de curvas cerradas en una selva continua; lagos en media luna de antiguos meandros; colinas al oeste.",
+    "f": [
+      "El punto más occidental de Brasil está en la Serra do Divisor, al oeste del pueblo.",
+      "Es la segunda ciudad más grande del estado de Acre."
+    ],
+    "q": {
+      "q": "¿A qué debe su nombre Cruzeiro do Sul?",
+      "a": "A la constelación de la Cruz del Sur",
+      "x": [
+        "A un barco portugués",
+        "A una iglesia misionera"
+      ]
+    }
+  },
+  "Q214913": {
+    "t": "Donde tres países se encuentran en el Amazonas",
+    "s": "Leticia está en la orilla norte del Amazonas, en el punto donde se juntan Colombia, Brasil y el Perú. La ciudad se funde con la brasileña Tabatinga, con solo una calle como frontera, mientras el Perú queda al otro lado del ancho río salpicado de islas. Ninguna carretera llega desde el resto de Colombia; el Amazonas y el aeropuerto son sus salvavidas.",
+    "w": "Dos ciudades gemelas en la orilla de un río pardo muy ancho con largas islas boscosas; selva infinita por todos lados.",
+    "f": [
+      "Gracias a Leticia, Colombia tiene un tramo de orilla del Amazonas de unos 100 km.",
+      "La ciudad se fundó en 1867."
+    ],
+    "q": {
+      "q": "¿Qué ciudad brasileña está pegada a Leticia?",
+      "a": "Tabatinga",
+      "x": [
+        "Manaos",
+        "Iquitos"
+      ]
+    }
+  },
+  "Q40236": {
+    "t": "Donde el agua negra y la parda corren lado a lado",
+    "s": "Justo aguas abajo de Manaos, busca uno de los grandes espectáculos del Amazonas: el Encuentro de las Aguas. El río Negro, oscuro como el té, se une al pálido y turbio Solimões, y durante varios kilómetros ambos corren juntos por el mismo cauce sin mezclarse. La ciudad, en plena selva, se enriqueció con el auge del caucho de finales del siglo XIX.",
+    "w": "Una gran ciudad en la orilla norte de un río oscuro; aguas abajo, una línea nítida donde se juntan el agua negra y la parda.",
+    "f": [
+      "Las aguas no se mezclan porque difieren en temperatura, velocidad y el limo que arrastran.",
+      "Los barcos oceánicos remontan unos 1500 km del Amazonas para llegar al puerto de la ciudad.",
+      "El Teatro Amazonas, un teatro de ópera inaugurado en 1896, se construyó con la riqueza del caucho."
+    ],
+    "q": {
+      "q": "¿Qué dos ríos forman el Encuentro de las Aguas en Manaos?",
+      "a": "El Negro y el Solimões",
+      "x": [
+        "El Madeira y el Tapajós",
+        "El Xingu y el Tocantins"
+      ]
+    }
+  },
+  "Q997107": {
+    "t": "Un pueblo fluvial entre palmeras de babasú en Maranhão",
+    "s": "Caxias está a orillas del río Itapecuru, en el interior de Maranhão, donde la sabana seca del cerrado da paso a los bosques más húmedos de la cuenca amazónica. El campo que la rodea está salpicado de palmeras de babasú, cuyos cocos oleosos se recogen a mano. El poeta Gonçalves Dias, autor de la «Canción del exilio», uno de los poemas más queridos de Brasil, nació cerca de aquí en 1823.",
+    "w": "Una ciudad mediana junto a un río sinuoso en una campiña verde y ondulada; palmerales dispersos y manchas de sabana.",
+    "f": [
+      "El famoso militar brasileño duque de Caxias tomó su título nobiliario de esta ciudad.",
+      "El río Itapecuru corre hacia el norte hasta el Atlántico, cerca de São Luís."
+    ],
+    "q": {
+      "q": "¿Qué famoso poeta brasileño nació cerca de Caxias?",
+      "a": "Gonçalves Dias",
+      "x": [
+        "Carlos Drummond de Andrade",
+        "Machado de Assis"
+      ]
+    }
+  },
+  "Q659450": {
+    "t": "Donde el azul Tapajós se encuentra con el turbio Amazonas",
+    "s": "Santarém está justo sobre una línea de color: el Tapajós, claro y verde azulado, desemboca frente a la ciudad en el Amazonas, pardo y cargado de limo, y las dos aguas corren juntas durante kilómetros. Río arriba, el Tapajós se ensancha como un lago bordeado de playas de arena blanca. Los jesuitas fundaron aquí una misión en 1661, a medio camino entre Manaos y Belém.",
+    "w": "Una ciudad en una punta entre un río verde azulado y otro pardo mucho más ancho; bancos de arena claros y selva alrededor.",
+    "f": [
+      "En 1928, Henry Ford construyó una ciudad para plantar caucho, Fordlândia, muy arriba en el Tapajós.",
+      "En la estación seca, el Tapajós baja y descubre playas blancas en la cercana Alter do Chão."
+    ],
+    "q": {
+      "q": "¿Qué río se une al Amazonas en Santarém?",
+      "a": "El Tapajós",
+      "x": [
+        "El Xingu",
+        "El Madeira"
+      ]
+    }
+  },
+  "Q509818": {
+    "t": "Una ciudad de frontera donde se unen dos ríos amazónicos",
+    "s": "Marabá ocupa una punta de tierra donde el río Itacaiúnas desemboca en el ancho Tocantins, en el sureste de Pará. La ciudad creció a principios del siglo XX con el comercio de la castaña de Pará. Fíjate alrededor en el mosaico de pastos y restos de selva. Al oeste están las sierras de Carajás, con una de las mayores minas de hierro del mundo.",
+    "w": "Una ciudad en la punta donde se unen dos ríos anchos; islas inundables y bancos de arena; pastos y manchas de bosque alrededor.",
+    "f": [
+      "El ferrocarril de Carajás, que lleva mineral de hierro unos 900 km hasta la costa cerca de São Luís, cruza aquí el Tocantins.",
+      "En la estación de lluvias, los ríos suben varios metros y a menudo inundan las partes bajas de la ciudad."
+    ],
+    "q": {
+      "q": "¿Qué enorme distrito de hierro está al oeste de Marabá?",
+      "a": "Carajás",
+      "x": [
+        "Itabira",
+        "El Cuadrilátero Ferrífero"
+      ]
+    }
+  },
+  "Q1749958": {
+    "t": "Una ciudad de meseta a las puertas de Rondônia",
+    "s": "Vilhena está en la amplia meseta de los Parecis, a unos 600 m, en la entrada sureste del estado de Rondônia. Desde arriba, las tierras que la rodean están trazadas en vastos rectángulos de soja y maíz, con franjas de bosque a lo largo de los arroyos. El pueblo nació como estación de la línea telegráfica que las expediciones de Cândido Rondon llevaron a la Amazonia a principios del siglo XX.",
+    "w": "Una ciudad en una meseta llana entre enormes campos rectangulares; una carretera la cruza en línea recta; franjas de bosque en los arroyos.",
+    "f": [
+      "Lleva el nombre de Álvaro Vilhena, director del servicio de telégrafos de Brasil.",
+      "La carretera BR-364, que cruza la ciudad, es el principal enlace por carretera entre Rondônia y el resto de Brasil."
+    ],
+    "q": {
+      "q": "¿Cómo nació Vilhena?",
+      "a": "Como estación de telégrafos",
+      "x": [
+        "Como puerto del caucho",
+        "Como campamento de oro"
+      ]
+    }
+  },
+  "Q983815": {
+    "t": "Una ciudad fluvial entre los claros en espina de Rondônia",
+    "s": "Ji-Paraná se extiende a ambos lados del río Machado, también llamado Ji-Paraná, en el corazón de Rondônia. A su alrededor está uno de los dibujos más llamativos del planeta: largos caminos laterales y rectos que salen de la carretera principal, cada uno bordeado de claros, de modo que la selva parece cortada en una gigantesca espina de pescado. Casi todo este poblamiento data de los años setenta en adelante.",
+    "w": "Una ciudad a ambos lados de un río sinuoso; un dibujo en escalera de campos y caminos cortado en la selva de alrededor.",
+    "f": [
+      "Es la segunda ciudad de Rondônia, tras la capital, Porto Velho.",
+      "El río corre hacia el norte hasta el Madeira, uno de los grandes afluentes del Amazonas."
+    ],
+    "q": {
+      "q": "¿Qué dibujo forman los claros de la selva en torno a Ji-Paraná?",
+      "a": "Una espina de pescado",
+      "x": [
+        "Círculos concéntricos",
+        "Un panal"
+      ]
+    }
+  },
+  "Q168929": {
+    "t": "La «ciudad morena» de tierra roja, puerta del Pantanal",
+    "s": "Campo Grande se extiende por una meseta suave del centro-oeste de Brasil, trazada con avenidas anchas y arboladas. Aquí el suelo es de un pardo rojizo intenso, lo que le valió el apodo de Cidade Morena, la «ciudad morena». A su alrededor hay pastos de ganado y campos de soja, y a un par de cientos de kilómetros al oeste empieza el Pantanal, el mayor humedal tropical del mundo.",
+    "w": "Una ciudad espaciosa en una meseta suavemente ondulada; suelo pardo rojizo entre los campos y pastos de alrededor.",
+    "f": [
+      "El sobá, una sopa de fideos traída por inmigrantes de Okinawa, es patrimonio cultural oficial de la ciudad.",
+      "La ciudad pasó a ser capital del nuevo estado de Mato Grosso do Sul, creado en 1977."
+    ],
+    "q": {
+      "q": "¿Cuál es el apodo de Campo Grande, inspirado en su suelo?",
+      "a": "La ciudad morena",
+      "x": [
+        "La ciudad maravillosa",
+        "La ciudad luz"
+      ]
+    }
+  },
+  "Q132997": {
+    "t": "Una capital isleña de lagunas, dunas y playas",
+    "s": "Casi toda Florianópolis está en la isla de Santa Catarina, una isla verde y montuosa de unos 50 km de largo, unida al continente por puentes. Busca la Lagoa da Conceição, una laguna alargada tras dunas blancas, y decenas de playas ensartadas por la costa. Colonos de las Azores llegaron en el siglo XVIII, y la ciudad tomó su nombre actual en 1894.",
+    "w": "Una isla larga y montuosa paralela a la costa, con una laguna y dunas claras en su lado este; puentes hacia el continente.",
+    "f": [
+      "El puente Hercílio Luz, inaugurado en 1926, es el puente colgante más largo de Brasil.",
+      "El nombre honra a Floriano Peixoto, uno de los primeros presidentes de la república brasileña."
+    ],
+    "q": {
+      "q": "¿Dónde está la mayor parte de Florianópolis?",
+      "a": "En una isla",
+      "x": [
+        "En un delta fluvial",
+        "En una meseta de montaña"
+      ]
+    }
+  },
+  "Q194343": {
+    "t": "Un cruce de caminos que nació de una feria de ganado",
+    "s": "Feira de Santana está en una meseta suave a unos 100 km tierra adentro de Salvador, donde el cinturón costero verde de Bahía da paso al sertão seco. La ciudad creció en el siglo XVIII en torno a una feria de ganado junto a una capilla de Santa Ana, que le dio nombre. Hoy se cruzan aquí varias grandes carreteras del noreste de Brasil: es uno de los nudos viarios más transitados de la región.",
+    "w": "Una ciudad grande y compacta en una meseta llana; carreteras en varias direcciones; más verde al este, matorral seco al oeste.",
+    "f": [
+      "Es la segunda ciudad más grande del estado de Bahía.",
+      "Sus habitantes la llaman la «Princesa del Sertão»."
+    ],
+    "q": {
+      "q": "¿Qué dio nombre a Feira de Santana?",
+      "a": "Una feria de ganado",
+      "x": [
+        "Un mercado de pescado",
+        "Un mercado de sal"
+      ]
+    }
+  },
+  "Q2135": {
+    "t": "Una ciudad de pradera en el lecho de un lago glaciar extinto",
+    "s": "Winnipeg está en una tierra tan llana porque es el fondo de un antiguo lago: el lago glaciar Agassiz, que cubrió gran parte de la región al final de la última glaciación. Los ríos Red y Assiniboine se juntan en el centro, en un lugar que la gente usa como punto de encuentro desde hace unos 6000 años. Al este de la ciudad, busca un canal largo y recto: el aliviadero del río Red.",
+    "w": "Una ciudad en llanuras totalmente planas, en la unión de dos ríos; un largo canal de crecidas rodea su lado este; campos cuadrados detrás.",
+    "f": [
+      "El aliviadero, de unos 47 km, desvía las crecidas del río Red alrededor de la ciudad.",
+      "El nombre viene de una palabra cree que significa «agua fangosa», dada primero al lago Winnipeg, al norte."
+    ],
+    "q": {
+      "q": "¿Qué significa la palabra cree «Winnipeg»?",
+      "a": "Agua fangosa",
+      "x": [
+        "Gran pradera",
+        "Lugar de encuentro"
+      ]
+    }
+  },
+  "Q744553": {
+    "t": "El pueblo de los osos polares, en la bahía de Hudson",
+    "s": "Churchill es un pueblo diminuto donde el río Churchill llega a la bahía de Hudson, justo en el límite del bosque: píceas raquíticas al sur y tundra abierta al norte. Cada otoño, los osos polares se reúnen en esta costa a la espera de que la bahía se hiele para cazar focas sobre el hielo. En verano, miles de belugas se agolpan en la desembocadura del río.",
+    "w": "Un pequeño pueblo en una punta rocosa, en la boca de un río de una enorme bahía gris; tundra llana e innumerables charcas detrás.",
+    "f": [
+      "Ninguna carretera llega a Churchill; solo se une al sur por tren y por avión.",
+      "Al otro lado de la desembocadura está el fuerte de piedra Prince of Wales, que la Compañía de la Bahía de Hudson levantó entre 1731 y 1771."
+    ],
+    "q": {
+      "q": "¿Por qué se reúnen los osos polares cerca de Churchill cada otoño?",
+      "a": "Esperan a que la bahía se hiele",
+      "x": [
+        "Siguen a las manadas de caribúes",
+        "Buscan cuevas para hibernar"
+      ]
+    }
+  },
+  "Q2123": {
+    "t": "Una capital plantada a mano en la pradera sin árboles",
+    "s": "Regina se alza en una de las praderas más llanas y abiertas de Canadá, donde los únicos árboles son los que plantó la gente. Antes de 1882, el lugar se llamaba Pile o’ Bones, «montón de huesos», por las pilas de huesos de bisonte junto al arroyo. Ese año, la princesa Luisa lo rebautizó Regina, «reina» en latín, en honor de su madre, la reina Victoria. Busca el lago artificial Wascana en su corazón verde.",
+    "w": "Una ciudad compacta en una pradera inmensa, llana y ajedrezada; un lago curvo y parques en el centro; vías de tren que salen rectas.",
+    "f": [
+      "El Wascana Centre, el parque en torno al lago, es mayor que el Central Park de Nueva York.",
+      "La policía nacional de Canadá, la RCMP, forma a sus reclutas en Regina desde la década de 1880."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba el lugar de Regina antes de 1882?",
+      "a": "Pile o’ Bones",
+      "x": [
+        "Buffalo Crossing",
+        "Fort Qu’Appelle"
+      ]
+    }
+  },
+  "Q10566": {
+    "t": "La Ciudad de los Puentes, sobre el Saskatchewan Sur",
+    "s": "Saskatoon se extiende a ambos lados del río Saskatchewan Sur, que serpentea por la ciudad en un valle boscoso cruzado por una hilera de puentes; de ahí su apodo, la Ciudad de los Puentes. Alrededor, los campos llanos se extienden hasta el horizonte en cuadrados ordenados de trigo y colza. El pueblo se fundó en 1883 como colonia de abstemios y lleva el nombre de una baya dulce local.",
+    "w": "Una ciudad a ambos lados de un río sinuoso con varios puentes muy juntos; cuadrados llanos de cultivo alrededor.",
+    "f": [
+      "La baya saskatoon toma su nombre de la palabra cree misâskwatômina.",
+      "Las minas de potasa en torno a la ciudad explotan uno de los mayores yacimientos del mundo de este mineral fertilizante."
+    ],
+    "q": {
+      "q": "¿A qué debe su nombre Saskatoon?",
+      "a": "A una baya local",
+      "x": [
+        "A un jefe cree",
+        "A un comerciante de pieles"
+      ]
+    }
+  },
+  "Q36312": {
+    "t": "Donde la pradera choca con las Rocosas",
+    "s": "Calgary está donde la pradera llana empieza a ondularse en estribaciones y, en un día claro, el muro blanco de las Montañas Rocosas llena el horizonte oeste. Los ríos Bow y Elbow se unen en el centro, donde la Policía Montada del Noroeste construyó Fort Calgary en 1875. En invierno, busca una franja de cielo despejado sobre las montañas: el arco del chinook, señal de un viento cálido.",
+    "w": "Una gran ciudad donde la llanura se encuentra con las estribaciones; dos ríos que se unen en el centro; montañas nevadas al oeste.",
+    "f": [
+      "Un chinook puede subir aquí la temperatura más de 20 °C en pocas horas.",
+      "En 1988, Calgary acogió los primeros Juegos Olímpicos de Invierno celebrados en Canadá."
+    ],
+    "q": {
+      "q": "¿Cómo se llama el viento cálido de invierno que barre Calgary?",
+      "a": "El chinook",
+      "x": [
+        "El mistral",
+        "El Santa Ana"
+      ]
+    }
+  },
+  "Q1015639": {
+    "t": "Un lluvioso puerto isleño en el Pacífico norte de Canadá",
+    "s": "Prince Rupert está en la isla Kaien, cerca de la desembocadura del río Skeena, entre montañas oscuras y boscosas y ensenadas como fiordos, con la franja costera de Alaska justo al norte. Es una de las ciudades más lluviosas de Canadá. Su puerto profundo está entre los puertos norteamericanos más cercanos a Asia; por eso se llevó hasta él un ferrocarril transcontinental, que llegó a la costa en 1914.",
+    "w": "Un pequeño pueblo en una isla montuosa entre montañas boscosas y canales; un puerto grande y profundo con muelles de contenedores.",
+    "f": [
+      "El nombre se eligió en un concurso de 1906 y honra al príncipe Ruperto del Rin, primer gobernador de la Compañía de la Bahía de Hudson.",
+      "El Skeena, cuya boca está justo al sureste, es uno de los grandes ríos salmoneros de la Columbia Británica."
+    ],
+    "q": {
+      "q": "¿Cómo se eligió en 1906 el nombre de Prince Rupert?",
+      "a": "Mediante un concurso público",
+      "x": [
+        "Tras una visita real",
+        "Por el nombre de un barco"
+      ]
+    }
   }
 }

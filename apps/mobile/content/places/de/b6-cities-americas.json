@@ -1193,7 +1193,7 @@
     "s": "Pierre, gesprochen „Pier“, ist eine der kleinsten Hauptstädte der US-Bundesstaaten, ein ruhiger Ort am Missouri inmitten baumloser, welliger Ebenen. Gleich flussaufwärts wird der Fluss vom Oahe-Damm gestaut, einem riesigen Erddamm, und dahinter windet sich der Lake Oahe rund 370 km nach Norden, fast bis Bismarck, der Hauptstadt North Dakotas.",
     "w": "Eine kleine Stadt an einem Fluss direkt unterhalb eines gewaltigen Erddamms; ein langer, gewundener blauer See zieht sich nach Norden durch kahle braune Hügel.",
     "f": [
-      "1743 vergruben französische Entdecker auf einem Hügel gegenüber eine Bleiplatte, die das Land für Frankreich beanspruchte; Kinder fanden sie 1913.",
+      "Französische Entdecker vergruben 1743 auf einem Hügel gegenüber eine Bleiplatte als Anspruch für Frankreich; Kinder fanden sie 1913.",
       "Die Stadt ist nach Pierre Chouteau Jr. benannt, einem Pelzhändler aus St. Louis."
     ],
     "q": {
@@ -1580,6 +1580,832 @@
       "x": [
         "Über die Straße von Anchorage",
         "Mit der Bahn aus Kanada"
+      ]
+    }
+  },
+  "Q79638": {
+    "t": "Eine Flussstadt unter dem Polarlicht, im Herzen Alaskas",
+    "s": "Fairbanks liegt tief im Inneren Alaskas, wo der Chena River in den breiten, verflochtenen Tanana mündet, umgeben von Fichtenwald und niedrigen Hügeln. Es begann 1901 als Handelsposten, und ein Goldfund im Jahr darauf machte daraus eine Boomtown. Das Klima ist extrem: Im Winter kann es unter −40 °C fallen, während es in Sommernächten kaum dunkel wird.",
+    "w": "Eine weitläufige Stadt auf flachem, bewaldetem Tiefland an einem breiten, verflochtenen Fluss; weit im Süden die weiße Wand der Alaskakette.",
+    "f": [
+      "Seit 1906 wird hier um die Sommersonnenwende ein Mitternachtssonnen-Baseballspiel ohne Flutlicht ausgetragen.",
+      "Im tiefen Winter kann kalte, stille Luft eine Schicht Eisnebel über der Stadt festhalten.",
+      "Die Stadt wurde nach Charles Fairbanks benannt, einem Senator, der später US-Vizepräsident wurde."
+    ],
+    "q": {
+      "q": "Was wird in Fairbanks jeden Juni um Mitternacht ohne Flutlicht gespielt?",
+      "a": "Ein Baseballspiel",
+      "x": [
+        "Ein Footballspiel",
+        "Ein Golfturnier"
+      ]
+    }
+  },
+  "Q1013046": {
+    "t": "Ein Ölfeld in arktischer Tundra, wo die Pipeline beginnt",
+    "s": "Prudhoe Bay ist weniger eine Stadt als ein Arbeitslager an der flachen Arktisküste der Beaufortsee. Darunter liegt das größte Ölfeld Nordamerikas, 1968 entdeckt, und von hier beginnt die Trans-Alaska-Pipeline ihren rund 1.300 km langen Weg nach Süden. Ringsum ist die Tundra mit Tausenden Seen gesprenkelt, viele davon in dieselbe Richtung gestreckt.",
+    "w": "Flache Tundra voller länglicher Seen; ein Netz aus Schotterstraßen und Bohrplätzen; im Norden Meereis oder graues Meer.",
+    "f": [
+      "Sir John Franklin benannte die Bucht 1826 nach seinem Freund Algernon Percy, Lord Prudhoe.",
+      "Der Dalton Highway, eine der abgelegensten Straßen der USA, endet hier in Deadhorse."
+    ],
+    "q": {
+      "q": "Wer benannte die Prudhoe Bay 1826?",
+      "a": "Sir John Franklin",
+      "x": [
+        "James Cook",
+        "Vitus Bering"
+      ]
+    }
+  },
+  "Q3238": {
+    "t": "Eine Hauptstadt in einer Schüssel aus Kiefernbergen",
+    "s": "Tegucigalpa füllt ein enges Bergbecken in rund 1.000 m Höhe, ihre Häuser ziehen sich vom Río Choluteca die Hänge hinauf. Jenseits des Flusses liegt ihre Zwillingsstadt Comayagüela; zusammen bilden sie die Hauptstadt. Der Ort wuchs aus einer 1578 gegründeten Silberbergbausiedlung und wurde 1880 Hauptstadt von Honduras. Kiefernbewachsene Kämme umringen die ganze Schüssel.",
+    "w": "Eine dichte Stadt in einer kleinen Bergschüssel, die die Hänge ringsum hinaufklettert; ein Fluss mittendurch; der Flughafen in einem Tal im Süden.",
+    "f": [
+      "Der Flughafen Toncontín liegt zwischen Hügeln, und Piloten müssen im Anflug eine enge, tiefe Kurve fliegen.",
+      "Die Hauptstadt zog aus der Kolonialstadt Comayagua hierher, rund 80 km nordwestlich."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt Tegucigalpa am Río Choluteca gegenüber?",
+      "a": "Comayagüela",
+      "x": [
+        "Comayagua",
+        "San Pedro Sula"
+      ]
+    }
+  },
+  "Q10717": {
+    "t": "Trockengelegte Hauptstadt hinter einer Seemauer",
+    "s": "Georgetown liegt an der Mündung des Demerara an einer so flachen Küste, dass ein Großteil der Stadt unter der Hochwasserlinie liegt. Niederländische Kolonisten legten sie mit Kanälen und Schleusen trocken, und eine lange Seemauer hält noch heute den Atlantik zurück. Das Meer ist hier braun, gefärbt von Schlamm, den die Strömung an der Küste entlangträgt. Ihren heutigen Namen erhielt die Stadt 1812, nach König Georg III.",
+    "w": "Eine flache Stadt an der Mündung eines braunen Flusses an einer geraden, schlammigen Küste; flussaufwärts eine lange Schwimmbrücke.",
+    "f": [
+      "Die Demerara Harbour Bridge, fast 2 km lang, ruht auf schwimmenden Pontons.",
+      "Die St.-George’s-Kathedrale ist eine der höchsten Holzkirchen der Welt."
+    ],
+    "q": {
+      "q": "Was schützt das tief liegende Georgetown vor dem Atlantik?",
+      "a": "Eine lange Seemauer",
+      "x": [
+        "Korallenriffe",
+        "Hohe Sanddünen"
+      ]
+    }
+  },
+  "Q34261": {
+    "t": "Eine Hauptstadt am Ende einer riesigen Hufeisenbucht",
+    "s": "Port-au-Prince liegt am innersten Punkt des Golfs von Gonâve, eines großen Meereshufeisens zwischen Haitis zwei langen Halbinseln. Die Stadt klettert vom Ufer steile Hänge hinauf zu den Bergen des Massif de la Selle. Draußen im Golf liegt die lange, flache Insel Gonâve. Die Franzosen gründeten die Stadt 1749; 1804 errang Haiti seine Unabhängigkeit.",
+    "w": "Eine Stadt am Ende einer weiten Bucht, die im Südosten Berghänge hinaufsteigt; eine lange Insel im Golf im Westen.",
+    "f": [
+      "Die Bucht soll ihren Namen von einem französischen Schiff, „Le Prince“, haben, das hier 1706 ankerte.",
+      "Der Pic la Selle, mit rund 2.680 m Haitis höchster Gipfel, steht in den Bergen südöstlich der Stadt."
+    ],
+    "q": {
+      "q": "Welche Insel liegt in der Bucht vor Port-au-Prince?",
+      "a": "Gonâve",
+      "x": [
+        "Tortuga",
+        "Île-à-Vache"
+      ]
+    }
+  },
+  "Q3001": {
+    "t": "Eine hölzerne Kolonialhauptstadt an einem Dschungelfluss",
+    "s": "Paramaribo säumt das Westufer des breiten, braunen Suriname, rund 15 km vom Atlantik entfernt. Die Altstadt aus weißen Holzhäusern und Kirchen ist UNESCO-Welterbe. 1667 behielten die Niederländer mit dem Frieden von Breda diese Kolonie, während England Neu-Amsterdam behielt – das heutige New York. Jenseits der Stadt bedeckt Regenwald den Großteil des Landes.",
+    "w": "Eine flache Stadt am Westufer eines breiten braunen Flusses nahe der Küste; eine lange Brücke darüber; landeinwärts geschlossener grüner Wald.",
+    "f": [
+      "Die Jules-Wijdenbosch-Brücke über den Suriname ist rund 1,5 km lang.",
+      "Wald bedeckt mehr als 90 Prozent Surinames – einer der höchsten Anteile weltweit."
+    ],
+    "q": {
+      "q": "Mit dem Vertrag von 1667 behielten die Niederländer Suriname. Was behielt England?",
+      "a": "Neu-Amsterdam (New York)",
+      "x": [
+        "Jamaika",
+        "Barbados"
+      ]
+    }
+  },
+  "Q5582862": {
+    "t": "Die Inka-Hauptstadt, 3.400 m hoch in einem Andental",
+    "s": "Cuzco füllt ein schmales Tal hoch in den Anden, rund 3.400 m über dem Meer, ein Meer aus Terrakottadächern zwischen kahlen, braungrünen Hängen. Hier lag die Hauptstadt des Inkareichs, das sich entlang der Anden vom heutigen Ecuador bis Chile erstreckte. Die Spanier kamen 1533 und bauten ihre Kirchen auf Inka-Steinmauern. Machu Picchu liegt rund 75 km nordwestlich.",
+    "w": "Eine Stadt aus rotbraunen Dächern in einem hohen, schmalen Tal; ringsum kahle Berge; eine Landebahn, eingezwängt entlang des Talbodens.",
+    "f": [
+      "Der Überlieferung nach wurde die Inkastadt in Form eines Pumas angelegt.",
+      "Die Altstadt ist seit 1983 UNESCO-Welterbe.",
+      "Der verschneite Ausangate, über 6.300 m hoch, erhebt sich rund 100 km südöstlich."
+    ],
+    "q": {
+      "q": "Welches Reich hatte seine Hauptstadt in Cuzco?",
+      "a": "Das Inkareich",
+      "x": [
+        "Das Aztekenreich",
+        "Die Maya"
+      ]
+    }
+  },
+  "Q272795": {
+    "t": "Eine grüne Oase an Perus Südspitze",
+    "s": "Tacna ist ein grüner Fleck an einem der trockensten Orte der Erde, dem Nordrand der Atacama-Wüste, wo der Regen im Jahr nur ein paar Millimeter ergeben kann. Die Stadt lebt vom schmalen Río Caplina, der aus den Anden herabkommt, deren verschneite Gipfel den östlichen Horizont säumen. Die Grenze zu Chile verläuft nur rund 35 km südlich.",
+    "w": "Eine mittelgroße Stadt in sonst kahler, beiger Wüste; grüne bewässerte Felder in einem schmalen Tal; im Osten steigen die Anden auf.",
+    "f": [
+      "Tacna ist die südlichste Stadt Perus.",
+      "Olivenhaine rund um die Stadt machen die Region zu einem der wichtigsten Olivenanbaugebiete Perus."
+    ],
+    "q": {
+      "q": "Die Grenze welches Landes liegt gleich südlich von Tacna?",
+      "a": "Chile",
+      "x": [
+        "Bolivien",
+        "Argentinien"
+      ]
+    }
+  },
+  "Q214173": {
+    "t": "Ein ovaler Kolonialkern neben einer riesigen Lehmziegelruine",
+    "s": "Trujillo liegt an der Wüstenküste Nordperus, sein altes Zentrum sauber umschlossen von einer ovalen Allee, die dem Verlauf der kolonialen Stadtmauer folgt. Gleich westlich, zum Meer hin, erstrecken sich die verwitterten Lehmziegelruinen von Chan Chan, Hauptstadt des Chimú-Reichs und größte Adobestadt des vorkolumbischen Amerika. Die Spanier gründeten Trujillo 1534.",
+    "w": "Eine Stadt auf einer Wüstenküstenebene zwischen Meer und kahlen Bergen; ringsum grüne, bewässerte Talfelder.",
+    "f": [
+      "Die Ruinen von Chan Chan bedecken rund 20 km² und sind seit 1986 UNESCO-Welterbe.",
+      "Die Stadt ist nach Trujillo in Spanien benannt, der Heimatstadt Francisco Pizarros.",
+      "Fischer im nahen Huanchaco fahren noch heute mit kleinen Schilfbooten hinaus, den Caballitos de Totora."
+    ],
+    "q": {
+      "q": "Welches Volk baute Chan Chan bei Trujillo?",
+      "a": "Die Chimú",
+      "x": [
+        "Die Inka",
+        "Die Nazca"
+      ]
+    }
+  },
+  "Q840712": {
+    "t": "Weinberge und Riesendünen in der peruanischen Wüste",
+    "s": "Ica ist eine grüne Oase in der Küstenwüste Südperus, bewässert von einem Fluss aus den Anden und umgeben von riesigen Sanddünen. Das bewässerte Tal ist das Herz des peruanischen Weinbaus und die Heimat des Pisco, des einheimischen Traubenbrands. Gleich westlich der Stadt liegt die winzige Lagune von Huacachina in einer Senke, umringt von hoch aufragenden Dünen.",
+    "w": "Eine Stadt in einem grünen Talstreifen, der sich durch helle Wüste zieht; große, scharfkantige Dünen im Westen.",
+    "f": [
+      "Die berühmten Nazca-Linien liegen rund 100 km südöstlich, sind aber zu fein, um sie aus Reiseflughöhe zu sehen.",
+      "Regen ist hier so selten, dass das Tal fast ganz vom Wasser aus den Anden abhängt."
+    ],
+    "q": {
+      "q": "Was ist Huacachina bei Ica?",
+      "a": "Eine kleine Lagune zwischen Dünen",
+      "x": [
+        "Ein vulkanischer Kratersee",
+        "Eine Salzpfanne"
+      ]
+    }
+  },
+  "Q2933": {
+    "t": "Die „Mutter der Städte“ an einer Biegung des Paraguay",
+    "s": "Asunción erstreckt sich am Ostufer des Río Paraguay, wo er sich um eine weite Bucht krümmt. Jenseits des Wassers beginnt der Chaco, eine flache, grünbraune Ebene aus Sümpfen und Buschland, die sich Hunderte Kilometer nach Westen zieht. 1537 gegründet, ist sie eine der ältesten Städte Südamerikas, und ihre Siedler gründeten viele weitere – darunter 1580 endgültig Buenos Aires.",
+    "w": "Eine Stadt an der Außenseite einer großen Flussbiegung neben einer runden Bucht; jenseits des Flusses im Westen flache, nasse Buschebenen.",
+    "f": [
+      "Der Pilcomayo mündet gleich flussabwärts der Stadt in den Paraguay.",
+      "Auch Santa Cruz de la Sierra, heute in Bolivien, wurde 1561 von einer Expedition aus Asunción gegründet."
+    ],
+    "q": {
+      "q": "Warum heißt Asunción „Mutter der Städte“?",
+      "a": "Ihre Siedler gründeten viele Städte",
+      "x": [
+        "Sie ist die älteste Stadt Amerikas",
+        "Sie hat die älteste Kathedrale"
+      ]
+    }
+  },
+  "Q3274": {
+    "t": "Eine Seehauptstadt voller runder Kraterseen",
+    "s": "Managua zieht sich am Südufer des Managuasees entlang, und mitten in der Stadt entdecken Sie kleine, runde Kraterseen – alte Vulkanschlote, heute mit Wasser gefüllt. Am fernen Nordwestende des Sees erhebt sich der nahezu perfekte Kegel des Momotombo. 1852 wurde die Stadt Hauptstadt Nicaraguas, als Kompromiss zwischen den rivalisierenden Städten León und Granada.",
+    "w": "Eine flache, weitläufige Stadt am Südufer eines großen Sees; runde blaue Kraterseen in und um die Stadt; ein Vulkankegel im Nordwesten.",
+    "f": [
+      "Die Laguna de Asososca, einer der Kraterseen, liefert einen Teil des Trinkwassers der Stadt.",
+      "Der Nicaraguasee, der größte See Mittelamerikas, liegt rund 30 km südöstlich."
+    ],
+    "q": {
+      "q": "Warum wurde Managua 1852 Nicaraguas Hauptstadt?",
+      "a": "Als Kompromiss zwischen zwei Rivalen",
+      "x": [
+        "Sie hatte den besten Hafen",
+        "Sie war die größte Stadt"
+      ]
+    }
+  },
+  "Q3306": {
+    "t": "Wo Schiffe vor dem Panamakanal Schlange stehen",
+    "s": "Schauen Sie vor Panama-Stadt aufs Meer, und Sie sehen oft Dutzende Schiffe vor Anker, die auf ihre Kanalpassage warten. Die Hochhäuser der Stadt säumen eine geschwungene Bucht direkt neben der Pazifikeinfahrt des Kanals. Der 1519 gegründete ursprüngliche Ort war die erste europäische Stadt an der Pazifikküste Amerikas. Der Kanal selbst wurde 1914 eröffnet und durchschneidet die Landenge auf rund 80 km.",
+    "w": "Eine Hochhausstadt an einer geschwungenen Bucht; Schiffe verstreut vor der Küste; gleich westlich ein Kanalbett und eine Brücke.",
+    "f": [
+      "Seltsamerweise liegt das Pazifikende des Kanals weiter östlich als sein Atlantikende.",
+      "Der Amador Causeway, der kleine Inseln an der Kanalmündung verbindet, wurde aus Gestein vom Kanalaushub gebaut.",
+      "Schleusen heben die Schiffe rund 26 m bis zum Gatúnsee in der Mitte der Landenge."
+    ],
+    "q": {
+      "q": "Welches Ende des Panamakanals liegt weiter östlich?",
+      "a": "Das Pazifikende",
+      "x": [
+        "Das Atlantikende",
+        "Beide auf gleicher Länge"
+      ]
+    }
+  },
+  "Q124739": {
+    "t": "Eine Stadt, die sich an die US-Grenze drängt",
+    "s": "Tijuana füllt ein Gewirr aus Mesas und Canyons in Mexikos äußerstem Nordwesten, und ihr Nordrand ist eine harte, gerade Linie: die Grenze zu den Vereinigten Staaten, dahinter San Diego. Die Landebahn des Flughafens verläuft direkt südlich dieser Linie, so nah, dass Passagiere über eine Fußgängerbrücke direkt von der US-Seite hineingehen können. Offiziell gegründet wurde die Stadt 1889.",
+    "w": "Eine dichte Stadt auf hügeligem, von Canyons zerschnittenem Grund, im Norden abgeschnitten von einer scharfen geraden Linie; im Westen der Pazifik.",
+    "f": [
+      "Der Übergang San Ysidro zwischen Tijuana und San Diego ist einer der verkehrsreichsten Landgrenzübergänge der Welt.",
+      "Der Tijuana River fließt nach Norden über die Grenze und erreicht den Pazifik in den USA."
+    ],
+    "q": {
+      "q": "Was verläuft direkt neben der Landebahn des Flughafens von Tijuana?",
+      "a": "Die Grenze zu den USA",
+      "x": [
+        "Die Pazifikküste",
+        "Ein Bewässerungskanal"
+      ]
+    }
+  },
+  "Q61302": {
+    "t": "Eine Hauptstadt der Hochwüste, Tor zum Kupfercanyon",
+    "s": "Chihuahua liegt auf einer weiten, trockenen Hochebene in rund 1.400 m Höhe, umringt von kahlen Felsketten; sie ist Hauptstadt des größten Bundesstaats Mexikos. Gegründet wurde sie 1709 als Silberbergbaustadt. Von hier führt die Chihuahua-Pazifik-Bahn nach Südwesten über die Sierra Madre und durch den Kupfercanyon, ein Schluchtensystem, das stellenweise tiefer ist als der Grand Canyon.",
+    "w": "Eine Stadt in einem flachen, gelbbraunen Hochwüstenbecken, umringt von kahlen Felsketten; weit im Westen die dunkle Sierra Madre.",
+    "f": [
+      "Die 1961 vollendete Chihuahua-Pazifik-Bahn quert Dutzende Brücken und fährt durch Dutzende Tunnel.",
+      "Die winzige Hunderasse trägt ihren Namen nach dem Bundesstaat Chihuahua."
+    ],
+    "q": {
+      "q": "Was führt von Chihuahua durch den Kupfercanyon?",
+      "a": "Eine Bahnlinie zur Pazifikküste",
+      "x": [
+        "Ein schiffbarer Fluss",
+        "Eine Seilbahn"
+      ]
+    }
+  },
+  "Q40194": {
+    "t": "Pazifikhafen auf einer Halbinsel, knapp unter dem Wendekreis",
+    "s": "Mazatlán liegt auf einer felsigen Halbinsel an Mexikos Pazifikküste, mit einer langen Uferpromenade, die sich nach Norden am Strand entlangschwingt, und drei kleinen Inseln direkt vor der Küste. Der nördliche Wendekreis verläuft nur rund 25 km nördlich, sodass die Mittagssonne zur Junisonnenwende hier fast senkrecht steht. Der Name stammt aus dem Nahuatl und bedeutet „Ort der Hirsche“.",
+    "w": "Eine Stadt auf einer knubbeligen Halbinsel und entlang eines langen, geraden Strandes; kleine Inseln davor; landeinwärts grüne Hügel und die Sierra Madre.",
+    "f": [
+      "Der Leuchtturm auf dem Cerro del Crestón strahlt aus rund 157 m über dem Meer – einer der höchsten der Welt.",
+      "Fähren überqueren von hier den Golf von Kalifornien nach La Paz in Baja California."
+    ],
+    "q": {
+      "q": "Was bedeutet „Mazatlán“ auf Nahuatl?",
+      "a": "Ort der Hirsche",
+      "x": [
+        "Ort der Fische",
+        "Ort der Sonne"
+      ]
+    }
+  },
+  "Q273014": {
+    "t": "Ein Ölhafen zwischen Lagunen an der Mündung des Pánuco",
+    "s": "Tampico liegt ein paar Kilometer den Pánuco hinauf vom Golf von Mexiko, und überall ist Wasser: Lagunen in der Stadt, Sümpfe ringsum, der breite braune Fluss an ihrer Südseite. Anfang des 20. Jahrhunderts machten Ölfunde in der Nähe sie zu einem der verkehrsreichsten Ölhäfen der Welt. Achten Sie auf die lange Schrägseilbrücke über den Fluss.",
+    "w": "Eine Stadt zwischen Lagunen und einem breiten Fluss nahe der Küste; ringsum Sümpfe; im Süden eine lange Brücke über den Fluss.",
+    "f": [
+      "Die heutige Stadt wurde 1823 nahe dem Ort einer älteren Kolonialsiedlung neu gegründet.",
+      "In der Laguna del Carpintero mitten in der Stadt leben Krokodile."
+    ],
+    "q": {
+      "q": "Was ließ Tampico Anfang des 20. Jahrhunderts boomen?",
+      "a": "Öl",
+      "x": [
+        "Silber",
+        "Zucker"
+      ]
+    }
+  },
+  "Q81398": {
+    "t": "Eine Hufeisenbucht im Amphitheater der Hügel",
+    "s": "Acapulco legt sich um eine der vollkommensten Buchten des Pazifiks, ein tiefblaues Hufeisen, an dem die Stadt auf allen Seiten die steilen Hügel hinaufklettert wie die Ränge eines Amphitheaters. Rund 250 Jahre lang, ab 1565, segelten spanische Galeonen von hier nach Manila, brachten Silber nach Westen und kehrten mit Seide und Porzellan aus Asien zurück.",
+    "w": "Eine tiefe, runde Bucht, fast geschlossen von Landzungen; weiße Gebäude klettern die grünen Hügel hinauf; lange Strände im Osten.",
+    "f": [
+      "Klippenspringer an der La Quebrada stürzen sich rund 35 m tief in eine schmale Felsbucht.",
+      "Das sternförmige Fort San Diego wurde im 17. Jahrhundert gebaut, um den Galeonenhafen zu schützen."
+    ],
+    "q": {
+      "q": "Welchen asiatischen Hafen steuerten Acapulcos Galeonen an?",
+      "a": "Manila",
+      "x": [
+        "Macau",
+        "Nagasaki"
+      ]
+    }
+  },
+  "Q173270": {
+    "t": "Wo Cortés an Land ging, mit dem Orizaba am Horizont",
+    "s": "Veracruz liegt an einem flachen, sandigen Abschnitt der Golfküste, mit einem geschäftigen Hafen und vor der Küste den hellen Umrissen von Korallenriffen in türkisem Wasser. Hernán Cortés landete 1519 an dieser Küste und gründete Villa Rica de la Vera Cruz, die erste spanische Stadt im heutigen Mexiko. Schauen Sie an klaren Tagen nach Westen zum weißen Kegel des Pico de Orizaba.",
+    "w": "Eine flache Hafenstadt an einer geraden Golfküste; Molen und Docks; helle Riffflecken vor der Küste; weit im Westen ein verschneiter Vulkan.",
+    "f": [
+      "Die Festung San Juan de Ulúa, im 16. Jahrhundert begonnen, steht auf einer ehemaligen Insel an der Hafeneinfahrt.",
+      "Die Riffe vor der Stadt sind als Meeresnationalpark geschützt.",
+      "Der Standort der Stadt wechselte mehrmals, bevor sie sich um 1600 hier niederließ."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Veracruz?",
+      "a": "Wahres Kreuz",
+      "x": [
+        "Grüne Küste",
+        "Heiliger Hafen"
+      ]
+    }
+  },
+  "Q207429": {
+    "t": "Eine Talstadt am Rand eines 1.000 Meter tiefen Canyons",
+    "s": "Tuxtla Gutiérrez breitet sich über ein warmes, grünes Tal in Chiapas aus, und gleich nordöstlich reißt das Land auf: der Sumidero-Canyon, in dem der Grijalva zwischen bis zu rund 1.000 m hohen Felswänden fließt. Von oben wirkt er wie ein dunkler Riss im Plateau. Der Name Tuxtla stammt von einem Nahuatl-Wort, das meist mit „Ort der Kaninchen“ übersetzt wird.",
+    "w": "Eine lange Stadt in einem Ost-West-Tal; im Nordosten eine tiefe, gewundene Schlucht mit grünblauem Fluss am Grund.",
+    "f": [
+      "Flussabwärts verwandelt der Chicoasén-Damm den Fluss in einen langen Stausee, der sich durch die Berge windet.",
+      "Der zweite Teil des Namens ehrt Joaquín Miguel Gutiérrez, einen Politiker aus Chiapas im 19. Jahrhundert."
+    ],
+    "q": {
+      "q": "Welcher Canyon liegt gleich nordöstlich von Tuxtla Gutiérrez?",
+      "a": "Der Sumidero-Canyon",
+      "x": [
+        "Der Kupfercanyon",
+        "Der Huasteca-Canyon"
+      ]
+    }
+  },
+  "Q8969": {
+    "t": "Ein Badeort in Form einer 7 auf türkisem Wasser",
+    "s": "Cancúns Hotelzone ist leicht zu erkennen: ein schmaler weißer Sandstreifen in Form einer 7, auf der einen Seite die türkise Karibik, auf der anderen die ruhige, dunklere Nichupté-Lagune. Bis etwa 1970 gab es hier fast nichts; der Badeort wurde von Grund auf geplant. Landeinwärts dehnt sich die flache grüne Halbinsel Yucatán, ohne einen einzigen Fluss an ihrer Oberfläche.",
+    "w": "Eine schmale weiße Insel in Form einer 7, die eine Lagune umschließt; im Osten leuchtend türkises Meer; landeinwärts flacher grüner Dschungel.",
+    "f": [
+      "Direkt vor der Küste beginnt das Mesoamerikanische Riff, das zweitgrößte Barriereriffsystem der Welt.",
+      "Auf dem Kalkstein Yucatáns versickert Regenwasser in Einsturzlöcher namens Cenotes.",
+      "Isla Mujeres, eine kleine Insel im Norden, liegt rund 13 km entfernt."
+    ],
+    "q": {
+      "q": "Welche Form hat die Insel der Hotelzone von Cancún?",
+      "a": "Die einer 7",
+      "x": [
+        "Die einer Mondsichel",
+        "Die eines Rings"
+      ]
+    }
+  },
+  "Q165204": {
+    "t": "Die Weiße Stadt über einem begrabenen Asteroidenkrater",
+    "s": "Mérida breitet sich über die völlig flache Kalksteinebene Yucatáns aus, ohne Fluss, Hügel oder See, der das Buschland unterbricht. Darunter liegt ein Geheimnis: Der begrabene Chicxulub-Krater, geschlagen von dem Asteroiden, der das Zeitalter der Dinosaurier beenden half, hat seinen Mittelpunkt an der Küste gleich nördlich der Stadt. Die Spanier gründeten Mérida 1542 an der Stelle der Maya-Stadt T’hó.",
+    "w": "Eine große, flache, helle Stadt auf einer vollkommen ebenen grünen Fläche; die Küste und der Hafen Progreso rund 35 km nördlich.",
+    "f": [
+      "Ein Ring aus Cenotes, wassergefüllten Einsturzlöchern, zeichnet einen Teil des begrabenen Kraterrands um die Stadt nach.",
+      "Im späten 19. Jahrhundert machte Sisalfaser von Henequen-Plantagen Mérida zu einer der reichsten Städte Mexikos.",
+      "Der Krater misst rund 180 km im Durchmesser, liegt aber begraben und ist aus der Luft nicht zu sehen."
+    ],
+    "q": {
+      "q": "Was liegt unter dem Land um Mérida begraben?",
+      "a": "Ein Asteroiden-Einschlagkrater",
+      "x": [
+        "Eine vulkanische Caldera",
+        "Ein urzeitlicher Salzsee"
+      ]
+    }
+  },
+  "Q2900": {
+    "t": "Lange, schmale Hauptstadt an einem Vulkan, nah am Äquator",
+    "s": "Quito ist in ein schmales Andental in rund 2.850 m Höhe gezwängt und erstreckt sich etwa 40 km von Nord nach Süd an der Flanke des Vulkans Pichincha. Der Äquator verläuft nur rund 25 km nördlich. Schauen Sie an klaren Tagen nach Süden zum perfekten Schneekegel des Cotopaxi. 1978 gehörte Quitos Altstadt zu den allerersten Welterbestätten.",
+    "w": "Eine lange, schmale Stadt an den Hängen eines großen Vulkans; tiefe Schluchten im Osten; verschneite Kegel am Horizont.",
+    "f": [
+      "Der Cotopaxi, rund 5.900 m hoch, ist einer der höchsten aktiven Vulkane der Welt.",
+      "Der Flughafen liegt auf einem Plateau östlich der Stadt, tiefer als Quito selbst."
+    ],
+    "q": {
+      "q": "Wie weit ist Quito vom Äquator entfernt?",
+      "a": "Rund 25 km",
+      "x": [
+        "Rund 250 km",
+        "Es liegt direkt darauf"
+      ]
+    }
+  },
+  "Q3070": {
+    "t": "Eine Hauptstadt in einem grünen Tal im Vulkankranz",
+    "s": "San José füllt das Herz des costa-ricanischen Valle Central in rund 1.150 m Höhe: eine Schüssel aus roten Dächern und kaffeegrünen Hügeln, eingefasst von Vulkanen. Im Norden erheben sich Poás und Barva, im Osten Irazú und Turrialba. Vom Gipfel des Irazú sind an seltenen klaren Tagen Pazifik und Karibik zugleich zu sehen. 1823 wurde die Stadt Hauptstadt des Landes.",
+    "w": "Eine weitläufige Stadt in einem grünen Tal, mit Vulkanbergen im Norden und Osten; Kaffeeplantagen an den Hängen.",
+    "f": [
+      "Der Irazú, rund 3.430 m hoch, ist Costa Ricas höchster Vulkan.",
+      "Kaffee von den Vulkanhängen bezahlte im 19. Jahrhundert einen Großteil der frühen Pracht der Stadt, darunter ihr Nationaltheater."
+    ],
+    "q": {
+      "q": "Von welchem Vulkan bei San José sieht man beide Ozeane?",
+      "a": "Irazú",
+      "x": [
+        "Arenal",
+        "Masaya"
+      ]
+    }
+  },
+  "Q3110": {
+    "t": "Eine Hauptstadt zwischen Vulkan und Calderasee",
+    "s": "San Salvador breitet sich über ein Tal am Fuß des Vulkans San Salvador aus, dessen Gipfelkrater El Boquerón ein klaffendes rundes Loch von rund 1,5 km Breite ist. Östlich der Stadt liegt der Ilopango-See, der die Caldera eines gewaltigen Ausbruchs vor rund 1.500 Jahren füllt. Spanische Siedler verlegten den Ort im 16. Jahrhundert in dieses Tal; heute ist er die Hauptstadt des Landes.",
+    "w": "Eine dichte Stadt am Ostfuß eines großen Vulkans mit rundem Gipfelkrater; im Osten ein großer blauer Calderasee.",
+    "f": [
+      "Der Boquerón-Krater ist rund 500 m tief, mit einem kleinen Kegel darin.",
+      "Der Ilopango-See umfasst rund 70 km²."
+    ],
+    "q": {
+      "q": "Welcher See füllt die Caldera östlich von San Salvador?",
+      "a": "Der Ilopango-See",
+      "x": [
+        "Der Atitlán-See",
+        "Der Coatepeque-See"
+      ]
+    }
+  },
+  "Q34692": {
+    "t": "Eine Hafenstadt hinter einer langen, dünnen Sandnehrung",
+    "s": "Kingston blickt auf einen der großen Naturhäfen der Welt, abgeschirmt von der Karibik durch die Palisadoes, eine über 10 km lange Sandnehrung, kaum breit genug für eine Straße und die Landebahn des Flughafens. An ihrer Spitze liegt Port Royal, einst berüchtigter Schlupfwinkel der Bukaniere. Hinter der Stadt erheben sich die Blue Mountains, Heimat eines der berühmtesten Kaffees der Welt.",
+    "w": "Ein weiter, ruhiger Hafen, umschlossen von einer langen, gebogenen Nehrung mit Landebahn; eine ausgedehnte Stadt unter Bergen im Norden.",
+    "f": [
+      "Der Blue Mountain Peak, rund 2.260 m hoch, ist der höchste Punkt Jamaikas.",
+      "Kingston wurde 1692 angelegt und 1872 Hauptstadt Jamaikas."
+    ],
+    "q": {
+      "q": "Was liegt auf der langen Nehrung, die den Hafen von Kingston umschließt?",
+      "a": "Der internationale Flughafen",
+      "x": [
+        "Eine Bahnlinie",
+        "Salinen"
+      ]
+    }
+  },
+  "Q657461": {
+    "t": "Ein ummauerter Kolonialhafen zwischen Buchten und Lagunen",
+    "s": "Cartagena ist ein Labyrinth aus Wasser: eine große, geschützte Bucht mit Inseln, innere Lagunen und Kanäle und eine schmale Halbinsel voller weißer Türme. In ihrem Herzen ist die Altstadt noch immer von kolonialen Steinmauern umringt, rund 11 km davon, gebaut zum Schutz eines Schatzhafens. Pedro de Heredia gründete die Stadt 1533; ihr ummauertes Zentrum ist Welterbe.",
+    "w": "Eine Küstenstadt rund um Buchten und Lagunen; eine dünne Hochhaus-Halbinsel; Inseln in der Bucht; Koralleninselchen im Südwesten.",
+    "f": [
+      "Die Rosario-Inseln, ein Korallenarchipel südwestlich der Stadt, sind als Nationalpark geschützt.",
+      "Spanische Schatzflotten liefen hier ein, um Silber und Gold für Spanien zu laden."
+    ],
+    "q": {
+      "q": "Was umgibt Cartagenas Altstadt?",
+      "a": "Koloniale Steinmauern",
+      "x": [
+        "Ein breiter Ringkanal",
+        "Erddeiche"
+      ]
+    }
+  },
+  "Q130242": {
+    "t": "Ein Flussort, verloren in einem Ozean aus Amazonaswald",
+    "s": "Mitú ist eine kleine Stadt am Río Vaupés im äußersten Südosten Kolumbiens, in jeder Richtung von geschlossenem Regenwald umgeben. Keine Straße verbindet sie mit dem Rest des Landes; Menschen und Waren kommen per Flugzeug oder Boot. Von oben windet sich der Fluss wie ein dunkles Band durch das Grün, am Ufer die Lichtung der Stadt und ihre Landepiste.",
+    "w": "Eine kleine Lichtung mit Landepiste an einem gewundenen dunklen Fluss; ringsum endloses grünes Walddach.",
+    "f": [
+      "Der Vaupés fließt nach Osten nach Brasilien, wo er als Uaupés in den Rio Negro mündet.",
+      "Die meisten Bewohner der Region gehören indigenen Völkern wie den Cubeo und Tukano an."
+    ],
+    "q": {
+      "q": "Wie erreicht man Mitú vom Rest Kolumbiens aus?",
+      "a": "Nur per Flugzeug oder Boot",
+      "x": [
+        "Über eine Fernstraße",
+        "Mit der Bahn"
+      ]
+    }
+  },
+  "Q1555": {
+    "t": "Hauptstadt auf zerfurchtem Plateau, bewacht von Vulkanen",
+    "s": "Guatemala-Stadt liegt auf einer Hochebene in rund 1.500 m Höhe, zerschnitten von tiefen grünen Schluchten, sodass sich die Stadt über flache Landfinger dazwischen ausbreitet. Im Südwesten steht eine Reihe von Vulkanen: Agua, Acatenango und Fuego, der oft eine Aschefahne hinter sich herzieht. Die Hauptstadt zog 1776 aus Antigua hierher, aus dem Nachbartal im Westen.",
+    "w": "Eine große Stadt auf einem von tiefen grünen Schluchten zerteilten Plateau; hohe Vulkankegel im Südwesten, einer davon oft rauchend.",
+    "f": [
+      "Die Ruinen von Kaminaljuyú, einer großen, vor über 2.000 Jahren gegründeten Maya-Siedlung, liegen im heutigen Stadtgebiet.",
+      "Der Pacaya, ein weiterer aktiver Vulkan, erhebt sich gleich südlich der Stadt."
+    ],
+    "q": {
+      "q": "Welche Stadt war vor 1776 Guatemalas Hauptstadt?",
+      "a": "Antigua Guatemala",
+      "x": [
+        "Quetzaltenango",
+        "Tikal"
+      ]
+    }
+  },
+  "Q44401": {
+    "t": "Ein Stück Frankreich am Rand des Amazonaswaldes",
+    "s": "Cayenne liegt auf einer kleinen, hügeligen Halbinsel an der Mündung des Cayenne, vorn schlammbraunes Meer, hinten Regenwald. Französisch-Guayana gehört zu Frankreich, also ist dies eine Stadt der Europäischen Union in Südamerika, und hier zahlt man mit dem Euro. Rund 60 km die Küste hinauf liegt Kourou, wo Europas Raketen nahe dem Äquator starten.",
+    "w": "Eine kleine Stadt auf einer knubbeligen Halbinsel an einer Flussmündung; braunes, schlammiges Meer; landeinwärts dichter grüner Wald.",
+    "f": [
+      "Das braune Küstenwasser ist von Amazonasschlamm gefärbt, den Strömungen an der Küste nach Nordwesten tragen.",
+      "Wald bedeckt den weitaus größten Teil Französisch-Guayanas."
+    ],
+    "q": {
+      "q": "Welche Währung gilt in Cayenne?",
+      "a": "Der Euro",
+      "x": [
+        "Der brasilianische Real",
+        "Der Guyana-Dollar"
+      ]
+    }
+  },
+  "Q51599": {
+    "t": "Ein windgepeitschter Hafen an der Magellanstraße",
+    "s": "Punta Arenas zieht sich am Westufer der Magellanstraße entlang, gegenüber den niedrigen, gelbbraunen Hügeln Feuerlands. Ferdinand Magellans Schiffe fädelten sich 1520 durch diese Passage. Vor der Eröffnung des Panamakanals war der Ort ein geschäftiger Kohlehafen für Dampfer zwischen den Ozeanen. Heute starten von hier Flugzeuge in die Antarktis.",
+    "w": "Eine Stadt, aufgereiht an einer breiten graublauen Meerenge; landeinwärts offene, baumlose Steppe; gegenüber die flachen Ufer Feuerlands.",
+    "f": [
+      "Chile gründete die Stadt 1848.",
+      "Sie ist eine der südlichsten Städte der Welt mit mehr als 100.000 Einwohnern."
+    ],
+    "q": {
+      "q": "An welcher Meerenge liegt Punta Arenas?",
+      "a": "An der Magellanstraße",
+      "x": [
+        "An der Drakestraße",
+        "Am Beagle-Kanal"
+      ]
+    }
+  },
+  "Q14440": {
+    "t": "Ein Wüstenhafen zwischen Klippe und Riesendüne",
+    "s": "Iquique nimmt einen schmalen Sims zwischen dem Pazifik und einem Küstensteilhang ein, der rund 600 m direkt dahinter aufragt – dem Rand der Atacama. Mitten in der Stadt liegt eine riesige Sanddüne, der Cerro Dragón. Oben auf der kahlen Hochebene im Hinterland liegen die Geisterstädte des Salpeterbooms im 19. Jahrhundert, der diesen Hafen reich machte.",
+    "w": "Eine Stadt auf einem dünnen Küstenstreifen unter einem hohen gelbbraunen Steilhang; eine große helle Düne zwischen den Häusern; darüber völlig kahle Wüste.",
+    "f": [
+      "Die verlassenen Salpeterwerke Humberstone und Santa Laura im Hinterland sind UNESCO-Welterbe.",
+      "Regen ist hier so selten, dass Jahre ohne einen einzigen Schauer vergehen können."
+    ],
+    "q": {
+      "q": "Welches ungewöhnliche Naturgebilde steht mitten in Iquique?",
+      "a": "Eine riesige Sanddüne",
+      "x": [
+        "Ein Vulkan",
+        "Ein Gletscher"
+      ]
+    }
+  },
+  "Q3612": {
+    "t": "Ein Kupferhafen an einer Wüstenküste am Wendekreis",
+    "s": "Antofagasta erstreckt sich kilometerlang entlang eines schmalen Küstenstreifens, eingeklemmt zwischen der kahlen braunen Wand der Küstenkordillere und dem kalten blauen Pazifik. Der südliche Wendekreis verläuft gleich nördlich der Stadt. Im Hinterland liegt einiges vom trockensten Land der Erde und einige der größten Kupferminen der Welt, deren Metall über diesen Hafen verschifft wird.",
+    "w": "Eine lange, schmale Stadt entlang einer geraden Küste unter einem steilen braunen Hang; dahinter völlig kahle Wüste.",
+    "f": [
+      "Der Wüstenhimmel ist so klar, dass große Sternwarten, darunter Paranal, rund 120 km südlich stehen.",
+      "Die Stadt wurde 1868 gegründet, um den Bergbau in der Wüste zu versorgen.",
+      "La Portada, ein natürlicher Felsbogen im Meer gleich nördlich der Stadt, ist als Naturdenkmal geschützt."
+    ],
+    "q": {
+      "q": "Welcher Breitenkreis verläuft gleich nördlich von Antofagasta?",
+      "a": "Der südliche Wendekreis",
+      "x": [
+        "Der nördliche Wendekreis",
+        "Der Äquator"
+      ]
+    }
+  },
+  "Q33986": {
+    "t": "Eine Hafenstadt, die Dutzende Hügel um eine Bucht erklimmt",
+    "s": "Valparaíso legt sich wie ein steiles Amphitheater um eine weite Bucht, und seine Häuser klettern über mehr als vierzig Hügel, die direkt hinter einem schmalen flachen Streifen am Hafen aufsteigen. Jahrzehntelang war es vor dem Panamakanal der wichtigste Halt für Schiffe, die Kap Hoorn umrundeten. Sein Labyrinth aus Hangvierteln ist Welterbe, und im Norden geht es nahtlos in Viña del Mar über.",
+    "w": "Eine sichelförmige Bucht mit Hafen; dahinter steigt die Stadt steil über viele Hügel an; ein Badeort setzt sich an der Küste nach Norden fort.",
+    "f": [
+      "Einige der Standseilbahnen, die Menschen die Hügel hinaufbringen, stammen aus dem späten 19. Jahrhundert.",
+      "Santiago liegt rund 110 km südöstlich, jenseits der Küstenkordillere."
+    ],
+    "q": {
+      "q": "Womit fahren viele Menschen in Valparaíso die Hügel hinauf?",
+      "a": "Mit alten Standseilbahnen",
+      "x": [
+        "Mit einer Seilbahn",
+        "Mit einer Zahnradbahn"
+      ]
+    }
+  },
+  "Q160687": {
+    "t": "Eine Stadt der Flüsse im grünen, regnerischen Süden Chiles",
+    "s": "Valdivia ist von Wasser durchzogen: Mehrere Flüsse treffen sich hier und winden sich westwärts durch Feuchtgebiete und Wald zum Meer an der Bucht von Corral, rund 15 km entfernt. Ringsum wächst dichter, immergrüner gemäßigter Regenwald, genährt von starkem Regen. Pedro de Valdivia gründete die Stadt 1552 und benannte sie nach sich selbst. Ab den 1850er-Jahren kamen deutsche Siedler und prägten den Ort.",
+    "w": "Eine Stadt an mäandernden dunklen Flüssen inmitten grüner Feuchtgebiete und Wälder; die Flüsse weiten sich westwärts zu einer Pazifikbucht.",
+    "f": [
+      "Im 17. und 18. Jahrhundert umgaben die Spanier die Bucht von Corral mit Forts, um den Flussweg zur Stadt zu sichern.",
+      "Seelöwen räkeln sich oft neben dem Fischmarkt am Fluss mitten in der Stadt."
+    ],
+    "q": {
+      "q": "Nach wem ist Valdivia benannt?",
+      "a": "Nach ihrem Gründer Pedro de Valdivia",
+      "x": [
+        "Nach einem chilenischen Präsidenten",
+        "Nach einem Mapuche-Häuptling"
+      ]
+    }
+  },
+  "Q1880": {
+    "t": "Eine Universitätsstadt an der Mündung des breiten Biobío",
+    "s": "Concepción liegt dort, wo der Biobío, einer der längsten und breitesten Flüsse Chiles, sich vor dem Pazifik ausbreitet, hier überspannt von mehreren langen Brücken. Lagunen tüpfeln die Stadt, und der Hafen Talcahuano liegt an der Bucht gleich nördlich. Jahrhundertelang markierte der Biobío die Grenze zwischen dem spanischen Chile und dem Land der Mapuche.",
+    "w": "Eine Stadt zwischen niedrigen Hügeln und einer sehr breiten Flussmündung mit langen Brücken; im Norden eine große Bucht mit Hafen.",
+    "f": [
+      "Mitte des 18. Jahrhunderts zog die Stadt von der nahen Küste bei Penco an ihren heutigen Standort.",
+      "Die 1919 gegründete Universidad de Concepción ist eine der ältesten Universitäten Chiles."
+    ],
+    "q": {
+      "q": "Welcher Fluss erreicht bei Concepción das Meer?",
+      "a": "Der Biobío",
+      "x": [
+        "Der Maule",
+        "Der Mapocho"
+      ]
+    }
+  },
+  "Q36214": {
+    "t": "Wo Chiles Festland in Fjorde und Inseln zerbricht",
+    "s": "Puerto Montt markiert den Punkt, an dem Chiles langes Längstal das Meer erreicht und die Küste in Fjorde, Kanäle und Inseln zu zersplittern beginnt. Die Stadt liegt am Reloncaví-Sund, im Südwesten die Insel Chiloé und im Nordosten, jenseits des Llanquihue-Sees, der verschneite, fast perfekte Kegel des Vulkans Osorno. Deutsche Siedler gründeten sie 1853.",
+    "w": "Eine Stadt an einem geschützten, inselreichen Sund; gleich im Norden ein großer See; im Nordosten schneebedeckte Vulkankegel.",
+    "f": [
+      "Hier beginnt die Carretera Austral, eine über 1.200 km lange Straße nach Patagonien.",
+      "Der Llanquihue-See gleich nördlich der Stadt umfasst rund 860 km²."
+    ],
+    "q": {
+      "q": "Welche berühmte Straße beginnt in Puerto Montt?",
+      "a": "Die Carretera Austral",
+      "x": [
+        "Die Ruta 40",
+        "Die Inkastraße"
+      ]
+    }
+  },
+  "Q226": {
+    "t": "Eine kleine arktische Hauptstadt an einem Riesenfjord",
+    "s": "Nuuk klammert sich an eine felsige Landzunge an der Mündung eines riesigen Fjordsystems, das über 100 km landeinwärts bis zum grönländischen Eisschild reicht. Jenseits des Wassers ragt der spitze Gipfel des Sermitsiaq auf. Der Name bedeutet schlicht „Landzunge“. Der Missionar Hans Egede gründete die Kolonie hier 1728, doch nordische Bauern hatten schon Jahrhunderte früher in diesen Fjorden gelebt.",
+    "w": "Eine kleine Stadt auf einer kahlen Felshalbinsel zwischen Fjordarmen; ringsum dunkle Gipfel und Eisberge; weit landeinwärts der weiße Eisschild.",
+    "f": [
+      "Nordische Siedler bewirtschafteten die Fjorde bei Nuuk etwa vom Jahr 1000 bis Mitte des 14. Jahrhunderts.",
+      "Nuuk ist eine der nördlichsten Hauptstädte der Welt.",
+      "Der Sermitsiaq, der markante Gipfel jenseits des Fjords, steigt rund 1.200 m direkt aus dem Meer."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Nuuk?",
+      "a": "Landzunge",
+      "x": [
+        "Eisberg",
+        "Hafen"
+      ]
+    }
+  },
+  "Q941136": {
+    "t": "Amazonasstadt im fernen Westen an einem wilden Mäanderfluss",
+    "s": "Cruzeiro do Sul liegt nahe dem Westrand Brasiliens am Juruá, einem der am engsten mäandernden Flüsse der Erde. Von oben schlingt sich der Juruá immer wieder in sich zurück und hinterlässt sichelförmige Altwasserseen im Wald. Im Westen steigen die niedrigen grünen Hügel der Serra do Divisor zur Grenze nach Peru an. Der Name bedeutet „Kreuz des Südens“.",
+    "w": "Eine kleine Stadt an einem Fluss, der in engen Schleifen durch geschlossenen Wald zieht; Sichelseen alter Biegungen; Hügel im Westen.",
+    "f": [
+      "Der westlichste Punkt Brasiliens liegt in der Serra do Divisor, westlich der Stadt.",
+      "Sie ist die zweitgrößte Stadt im Bundesstaat Acre."
+    ],
+    "q": {
+      "q": "Wonach ist Cruzeiro do Sul benannt?",
+      "a": "Nach dem Sternbild Kreuz des Südens",
+      "x": [
+        "Nach einem portugiesischen Schiff",
+        "Nach einer Missionskirche"
+      ]
+    }
+  },
+  "Q214913": {
+    "t": "Wo sich am Amazonas drei Länder treffen",
+    "s": "Leticia liegt am Nordufer des Amazonas, dort, wo Kolumbien, Brasilien und Peru aufeinandertreffen. Der Ort geht nahtlos in das brasilianische Tabatinga über, nur eine Straße markiert die Grenze, während Peru jenseits des breiten, inselreichen Flusses liegt. Keine Straße führt vom Rest Kolumbiens hierher; der Amazonas und der Flughafen sind die Lebensadern.",
+    "w": "Zwillingsstädte am Ufer eines sehr breiten braunen Flusses mit langen bewaldeten Inseln; auf allen Seiten endloser Wald.",
+    "f": [
+      "Dank Leticia besitzt Kolumbien ein rund 100 km langes Stück Amazonasufer.",
+      "Die Stadt wurde 1867 gegründet."
+    ],
+    "q": {
+      "q": "Welche brasilianische Stadt ist mit Leticia zusammengewachsen?",
+      "a": "Tabatinga",
+      "x": [
+        "Manaus",
+        "Iquitos"
+      ]
+    }
+  },
+  "Q40236": {
+    "t": "Wo schwarzes und braunes Wasser nebeneinanderfließen",
+    "s": "Gleich unterhalb von Manaus liegt eines der großen Schauspiele des Amazonas: das Encontro das Águas, die Begegnung der Wasser. Der dunkle, teefarbene Rio Negro trifft auf den hellen, schlammigen Solimões, und über mehrere Kilometer fließen beide nebeneinander in einem Bett, ohne sich zu mischen. Die Stadt selbst, tief im Regenwald, wurde im Kautschukboom des späten 19. Jahrhunderts reich.",
+    "w": "Eine große Stadt am Nordufer eines dunklen Flusses; flussabwärts eine scharfe Linie, wo schwarzes und kaffeebraunes Wasser zusammentreffen.",
+    "f": [
+      "Die Wasser bleiben getrennt, weil sie sich in Temperatur, Geschwindigkeit und mitgeführtem Schlamm unterscheiden.",
+      "Hochseeschiffe fahren rund 1.500 km den Amazonas hinauf, um den Hafen der Stadt zu erreichen.",
+      "Das 1896 eröffnete Opernhaus Teatro Amazonas wurde mit dem Reichtum des Kautschukbooms gebaut."
+    ],
+    "q": {
+      "q": "Welche zwei Flüsse bilden die Begegnung der Wasser bei Manaus?",
+      "a": "Rio Negro und Solimões",
+      "x": [
+        "Madeira und Tapajós",
+        "Xingu und Tocantins"
+      ]
+    }
+  },
+  "Q997107": {
+    "t": "Eine Flussstadt zwischen Babaçu-Palmen in Maranhão",
+    "s": "Caxias liegt am Itapecuru im Inneren Maranhãos, wo die trockene Cerrado-Savanne in die feuchteren Wälder des Amazonasbeckens übergeht. Das Umland ist mit Babaçu-Palmen getüpfelt, deren ölhaltige Nüsse von Hand gesammelt werden. Der Dichter Gonçalves Dias, Verfasser der „Canção do Exílio“, eines der beliebtesten Gedichte Brasiliens, wurde 1823 hier in der Nähe geboren.",
+    "w": "Eine mittelgroße Stadt an einem gewundenen Fluss in welligem grünem Land; verstreute Palmenhaine und Savannenflecken.",
+    "f": [
+      "Brasiliens berühmter Heerführer, der Herzog von Caxias, trug seinen Adelstitel nach dieser Stadt.",
+      "Der Itapecuru fließt nach Norden und mündet bei São Luís in den Atlantik."
+    ],
+    "q": {
+      "q": "Welcher berühmte brasilianische Dichter wurde bei Caxias geboren?",
+      "a": "Gonçalves Dias",
+      "x": [
+        "Carlos Drummond de Andrade",
+        "Machado de Assis"
+      ]
+    }
+  },
+  "Q659450": {
+    "t": "Wo der blaue Tapajós auf den schlammigen Amazonas trifft",
+    "s": "Santarém liegt genau auf einer Farbgrenze: Der klare, blaugrüne Tapajós fließt vor der Stadt in den braunen, schlammbeladenen Amazonas, und beide Wasser laufen kilometerweit nebeneinander. Flussaufwärts weitet sich der Tapajós zu einem seeartigen Abschnitt mit weißen Sandstränden. Jesuiten gründeten hier 1661 eine Mission, etwa auf halbem Weg zwischen Manaus und Belém.",
+    "w": "Eine Stadt auf einer Landspitze zwischen einem blaugrünen Fluss und einem viel breiteren braunen; ringsum helle Sandbänke und Wald.",
+    "f": [
+      "1928 baute Henry Ford weit oben am Tapajós eine Kautschuk-Plantagenstadt, Fordlândia.",
+      "In der Trockenzeit legt der sinkende Tapajós im nahen Alter do Chão weiße Strände frei."
+    ],
+    "q": {
+      "q": "Welcher Fluss trifft bei Santarém auf den Amazonas?",
+      "a": "Der Tapajós",
+      "x": [
+        "Der Xingu",
+        "Der Madeira"
+      ]
+    }
+  },
+  "Q509818": {
+    "t": "Eine Grenzstadt, wo zwei Amazonasflüsse zusammenfließen",
+    "s": "Marabá liegt auf einer Landspitze, wo der Itacaiúnas in den breiten Tocantins mündet, im Südosten von Pará. Die Stadt wuchs Anfang des 20. Jahrhunderts mit dem Handel von Paranüssen. Achten Sie ringsum auf den Flickenteppich aus Weiden und Waldresten. Im Westen liegen die Hügel von Carajás mit einer der größten Eisenerzminen der Welt.",
+    "w": "Eine Stadt auf einer Landspitze, wo zwei breite Flüsse zusammentreffen; überflutete Inseln und Sandbänke; ringsum Weiden und Waldflecken.",
+    "f": [
+      "Die Carajás-Bahn, die Eisenerz rund 900 km zur Küste bei São Luís bringt, quert hier den Tocantins.",
+      "In der Regenzeit steigen die Flüsse um mehrere Meter und überfluten oft die tiefen Teile der Stadt."
+    ],
+    "q": {
+      "q": "Welches riesige Eisenerzgebiet liegt westlich von Marabá?",
+      "a": "Carajás",
+      "x": [
+        "Itabira",
+        "Das Eisenviereck"
+      ]
+    }
+  },
+  "Q1749958": {
+    "t": "Eine Plateaustadt am Tor nach Rondônia",
+    "s": "Vilhena liegt auf dem weiten Parecis-Plateau in rund 600 m Höhe, am südöstlichen Eingang des Bundesstaats Rondônia. Von oben ist das Land ringsum in riesige Rechtecke aus Soja und Mais gegliedert, mit Waldstreifen entlang der Bäche. Der Ort begann als Station an der Telegrafenlinie, die Cândido Rondons Expeditionen Anfang des 20. Jahrhunderts in den Amazonas vortrieben.",
+    "w": "Eine Stadt auf flachem Plateau zwischen riesigen rechteckigen Feldern; eine schnurgerade Fernstraße hindurch; Waldstreifen entlang der Bäche.",
+    "f": [
+      "Sie ist nach Álvaro Vilhena benannt, einem Direktor des brasilianischen Telegrafendienstes.",
+      "Die Fernstraße BR-364 durch die Stadt ist die wichtigste Straßenverbindung zwischen Rondônia und dem Rest Brasiliens."
+    ],
+    "q": {
+      "q": "Was war Vilhena ursprünglich?",
+      "a": "Eine Telegrafenstation",
+      "x": [
+        "Ein Kautschukhafen",
+        "Ein Goldgräberlager"
+      ]
+    }
+  },
+  "Q983815": {
+    "t": "Eine Flussstadt zwischen Rondônias Fischgrät-Rodungen",
+    "s": "Ji-Paraná liegt beiderseits des Rio Machado, auch Ji-Paraná genannt, im Herzen Rondônias. Ringsum liegt eines der auffälligsten Muster der Erde: lange, gerade Seitenstraßen, die von der Fernstraße abzweigen, jede gesäumt von Rodungen, sodass der Wald wie eine riesige Fischgräte zerschnitten wirkt. Diese Besiedlung stammt größtenteils aus der Zeit ab den 1970er-Jahren.",
+    "w": "Eine Stadt an beiden Ufern eines gewundenen Flusses; ringsum ein leiterartiges Muster aus Feldern und Straßen im Wald.",
+    "f": [
+      "Sie ist nach der Hauptstadt Porto Velho die zweitgrößte Stadt Rondônias.",
+      "Der Fluss fließt nach Norden in den Madeira, einen der großen Nebenflüsse des Amazonas."
+    ],
+    "q": {
+      "q": "Welches Muster bilden die Waldrodungen um Ji-Paraná?",
+      "a": "Eine Fischgräte",
+      "x": [
+        "Konzentrische Kreise",
+        "Eine Bienenwabe"
+      ]
+    }
+  },
+  "Q168929": {
+    "t": "Die „Braune Stadt“ auf roter Erde, Tor zum Pantanal",
+    "s": "Campo Grande breitet sich über ein sanftes Plateau im Mittelwesten Brasiliens aus, angelegt mit breiten, baumgesäumten Alleen. Der Boden ist hier tief rotbraun, was ihr den Beinamen Cidade Morena einbrachte, die „Braune Stadt“. Ringsum liegen Rinderweiden und Sojafelder, und ein paar Hundert Kilometer westlich beginnt das Pantanal, das größte tropische Feuchtgebiet der Welt.",
+    "w": "Eine weitläufige Stadt auf einem sanft gewellten Plateau; rotbrauner Boden zwischen den Feldern und Weiden ringsum.",
+    "f": [
+      "Sobá, eine von Einwanderern aus Okinawa mitgebrachte Nudelsuppe, gehört offiziell zum kulturellen Erbe der Stadt.",
+      "Die Stadt wurde Hauptstadt des 1977 geschaffenen Bundesstaats Mato Grosso do Sul."
+    ],
+    "q": {
+      "q": "Welchen Beinamen verdankt Campo Grande seinem Boden?",
+      "a": "Die Braune Stadt",
+      "x": [
+        "Die Wunderbare Stadt",
+        "Die Stadt des Lichts"
+      ]
+    }
+  },
+  "Q132997": {
+    "t": "Eine Inselhauptstadt aus Lagunen, Dünen und Stränden",
+    "s": "Der größte Teil von Florianópolis liegt auf der Insel Santa Catarina, einer grünen, hügeligen Insel von rund 50 km Länge, die über Brücken mit dem Festland verbunden ist. Achten Sie auf die Lagoa da Conceição, eine lange Lagune hinter weißen Dünen, und Dutzende Strände entlang der Küste. Siedler von den Azoren kamen im 18. Jahrhundert, und 1894 erhielt die Stadt ihren heutigen Namen.",
+    "w": "Eine lange, hügelige Insel parallel zur Küste, mit einer Lagune und hellen Dünen an der Ostseite; Brücken zum Festland.",
+    "f": [
+      "Die 1926 eröffnete Hercílio-Luz-Brücke ist Brasiliens längste Hängebrücke.",
+      "Der Name ehrt Floriano Peixoto, einen der ersten Präsidenten der brasilianischen Republik."
+    ],
+    "q": {
+      "q": "Wo liegt der größte Teil von Florianópolis?",
+      "a": "Auf einer Insel",
+      "x": [
+        "In einem Flussdelta",
+        "Auf einem Bergplateau"
       ]
     }
   }

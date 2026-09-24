@@ -1,0 +1,344 @@
+{
+  "Q1022": {
+    "t": "A city poured into a bowl of vineyards",
+    "s": "Stuttgart looks poured into a bowl. Its centre fills a steep hollow that locals call the Kessel, 'the cauldron', while the suburbs spill over the wooded rim and down to the Neckar. Look at the sunny slopes: those neat striped terraces are vineyards, many of them inside the city limits. Wine has been made here for centuries.",
+    "w": "A dense centre in a wooded hollow, the Neckar curving past to the east, striped vineyards on the slopes.",
+    "f": [
+      "Both Mercedes-Benz and Porsche have their headquarters in Stuttgart.",
+      "In 1885 Gottlieb Daimler's garden workshop in Cannstatt, now part of Stuttgart, produced one of the first motorcycles.",
+      "The mineral springs of Bad Cannstatt are among the most abundant in Europe."
+    ],
+    "q": {
+      "q": "Which river flows through Stuttgart?",
+      "a": "The Neckar",
+      "x": [
+        "The Main",
+        "The Moselle"
+      ]
+    }
+  },
+  "Q588": {
+    "t": "Where a dozen towns have grown into one",
+    "s": "Here the towns have run out of gaps between them. Katowice is the hub of the Upper Silesian conurbation, where more than a dozen cities merge into one mesh of housing estates, rail yards and old pitheads. Small ponds dot the patchwork: many fill hollows where the ground sank over worked-out coal seams. To the south, green Beskid ridges close the view.",
+    "w": "A sprawling grey-green urban mesh with scattered ponds and rail lines; wooded Beskid hills rise to the south.",
+    "f": [
+      "Katowice received town rights only in 1865, as coal was turning Upper Silesia into an industrial powerhouse.",
+      "The Vistula, Poland's longest river, rises on Barania Góra in the Silesian Beskids, about 70 km to the south.",
+      "Silesian Park in neighbouring Chorzów is one of the largest city parks in Europe."
+    ],
+    "q": {
+      "q": "Which historical region is Katowice part of?",
+      "a": "Upper Silesia",
+      "x": [
+        "Lesser Poland",
+        "Pomerania"
+      ]
+    }
+  },
+  "Q2119": {
+    "t": "A city laid out like a chessboard",
+    "s": "Mannheim's centre is a horseshoe of square blocks, and its streets have no names: addresses read like squares on a chessboard, such as Q6 or N1. The grid fills the angle where the Neckar flows into the Rhine. Across the Rhine, Ludwigshafen's enormous chemical works stretch along the bank, and on a clear night the two cities glow as one.",
+    "w": "A rounded grid of square blocks in the angle between the Rhine and the Neckar, with a vast chemical works across the Rhine.",
+    "f": [
+      "In 1817 Karl Drais rode his two-wheeled 'running machine', an ancestor of the bicycle, out of Mannheim.",
+      "In 1888 Bertha Benz drove her husband's motor car from Mannheim to Pforzheim — the first long-distance car journey.",
+      "The BASF site in Ludwigshafen, across the Rhine, is one of the largest chemical complexes in the world."
+    ],
+    "q": {
+      "q": "What did Karl Drais ride out of Mannheim in 1817?",
+      "a": "A two-wheeled running machine",
+      "x": [
+        "A steam-powered carriage",
+        "A pedal tricycle"
+      ]
+    }
+  },
+  "Q2256": {
+    "t": "Britain's canal city, far from any big river",
+    "s": "No great river runs through Birmingham, so in the 18th century the city dug its own waterways. Canals still thread between the red-brick districts, and locals like to claim the city has more of them than Venice. From cruise height, look instead for a knot of motorways on the north-eastern side: the tangle that earned the nickname Spaghetti Junction.",
+    "w": "A huge brick-red and green urban spread in the English Midlands; a knot of motorway loops on its north-eastern side.",
+    "f": [
+      "The Gravelly Hill Interchange, better known as Spaghetti Junction, opened in 1972.",
+      "In the 18th century Matthew Boulton and James Watt built steam engines at their Soho works in Birmingham.",
+      "Birmingham is the most populous British city after London."
+    ],
+    "q": {
+      "q": "What is Birmingham's Gravelly Hill Interchange better known as?",
+      "a": "Spaghetti Junction",
+      "x": [
+        "Pretzel Junction",
+        "The Magic Roundabout"
+      ]
+    }
+  },
+  "Q18125": {
+    "t": "The first industrial city, at the foot of the Pennines",
+    "s": "The Pennine hills rise just east of Manchester, and their damp air and fast streams helped cotton turn it into the world's first industrial city. Look west for a dark ribbon heading towards the Mersey estuary: the Ship Canal. It was dug in the 1880s and 1890s so that ocean-going ships could sail right up to the city without stopping at Liverpool.",
+    "w": "A broad urban spread with the Pennine moors rising to the east; the Ship Canal runs west towards the Mersey estuary.",
+    "f": [
+      "The Manchester Ship Canal, opened in 1894, is about 58 km long.",
+      "The Liverpool and Manchester Railway, opened in 1830, was the world's first inter-city passenger railway.",
+      "In 1948 the Manchester 'Baby' became the first computer to run a program stored in its own memory."
+    ],
+    "q": {
+      "q": "Which waterway lets ships sail from the Mersey estuary to Manchester?",
+      "a": "The Manchester Ship Canal",
+      "x": [
+        "The Grand Union Canal",
+        "The Caledonian Canal"
+      ]
+    }
+  },
+  "Q2066": {
+    "t": "Coal country that has turned green",
+    "s": "This is where the Ruhr's chain of cities is at its densest, and yet much of what you see is green. Coal and steel built Essen; the pits have closed, leaving parks, woods and grassed-over spoil heaps. South of the centre, the river Ruhr widens into a long reservoir, the Baldeneysee, shining among wooded hills.",
+    "w": "A dense, green-flecked city in the Ruhr chain, with a long lake winding through wooded hills to the south.",
+    "f": [
+      "The Zollverein colliery, once one of Europe's largest coal mines, has been a UNESCO World Heritage site since 2001.",
+      "Essen was named European Green Capital for 2017.",
+      "The Golden Madonna in Essen Cathedral, made around 980, is the oldest known fully sculpted figure of the Virgin Mary."
+    ],
+    "q": {
+      "q": "Which title did Essen hold in 2017?",
+      "a": "European Green Capital",
+      "x": [
+        "European Capital of Culture",
+        "European Youth Capital"
+      ]
+    }
+  },
+  "Q495": {
+    "t": "An Alpine wall behind a Roman grid",
+    "s": "Snowy Alps wrap around Turin in a great arc, often in plain sight from its streets. The city follows the Po, and its centre still keeps the rigid street grid of a Roman camp. Across the river rises a line of wooded hills. For four years, from 1861 to 1865, this was the capital of newly united Italy.",
+    "w": "A large, regular city on the Po, with the Alps curving round to the west and north and green hills across the river.",
+    "f": [
+      "Monviso (3,841 m), where the Po rises, stands about 65 km south-west of the city.",
+      "Fiat was founded in Turin in 1899.",
+      "Turin hosted the Winter Olympic Games in 2006."
+    ],
+    "q": {
+      "q": "Which car maker was founded in Turin in 1899?",
+      "a": "Fiat",
+      "x": [
+        "Alfa Romeo",
+        "Ferrari"
+      ]
+    }
+  },
+  "Q39121": {
+    "t": "A wool town grown big in a Pennine valley",
+    "s": "Wool made Leeds rich: fleece from the Yorkshire hills was spun and woven in mills along the River Aire. The river and a canal still run side by side through the city, then head north-west into the Pennines. North of the centre, the land rolls up towards the Yorkshire Dales in green waves split by dry-stone walls.",
+    "w": "A large city in the Aire valley, with the river and canal running north-west towards the moors of the Pennines.",
+    "f": [
+      "The Leeds and Liverpool Canal, about 204 km long, is the longest single canal in Britain.",
+      "Marks & Spencer began in 1884 as a penny stall in Leeds Kirkgate Market.",
+      "Louis Le Prince's Roundhay Garden Scene, filmed in Leeds in 1888, is the oldest surviving motion picture."
+    ],
+    "q": {
+      "q": "Which retailer began as a market stall in Leeds in 1884?",
+      "a": "Marks & Spencer",
+      "x": [
+        "Tesco",
+        "Sainsbury's"
+      ]
+    }
+  },
+  "Q2044": {
+    "t": "A red-roofed bowl on the Arno",
+    "s": "Hills close in on three sides, and in the bowl between them lies a tight mass of terracotta roofs cut by the Arno. That is the Florence of the Renaissance, a centre small enough to cross on foot in half an hour. Around it Tuscany unrolls in olive groves, lines of cypress and vineyards; to the south lie the hills of Chianti.",
+    "w": "A compact reddish-brown city in a valley ringed by hills, with the Arno crossing it from east to west.",
+    "f": [
+      "Brunelleschi's cathedral dome, completed in 1436, is still the largest brick dome ever built.",
+      "The gold florin, first struck here in 1252, became a standard coin of trade across medieval Europe.",
+      "The historic centre of Florence has been a UNESCO World Heritage site since 1982."
+    ],
+    "q": {
+      "q": "Which gold coin was first minted in Florence in 1252?",
+      "a": "The florin",
+      "x": [
+        "The ducat",
+        "The guilder"
+      ]
+    }
+  },
+  "Q42308": {
+    "t": "A university city on the edge of the steppe",
+    "s": "Three small rivers, the Kharkiv, the Lopan and the Udy, meet within the city, and Kharkiv spreads out from their valleys across a plateau of black earth. Broad avenues and big green parks read clearly from the air. The city grew around a 17th-century fortress and became a centre of learning when its university opened in 1805.",
+    "w": "A large city on a flat plateau cut by shallow river valleys, surrounded by dark fields and patches of forest.",
+    "f": [
+      "Kharkiv University, founded in 1805, is one of the oldest universities in the country.",
+      "Freedom Square, about 12 hectares, is one of the largest city squares in Europe.",
+      "The Derzhprom building, finished in 1928, was one of the first Soviet skyscrapers."
+    ],
+    "q": {
+      "q": "In which year did Kharkiv University open?",
+      "a": "1805",
+      "x": [
+        "1755",
+        "1834"
+      ]
+    }
+  },
+  "Q36600": {
+    "t": "Where the Dutch are governed, though it isn't the capital",
+    "s": "Parliament, the government and the king's working palace are all here, yet The Hague is not the Dutch capital; that title belongs to Amsterdam. The city runs straight into a line of pale dunes and the North Sea at Scheveningen. To the south-west, look for acres of glinting glass: the greenhouses of the Westland, one of the most intensively farmed corners of Europe.",
+    "w": "A city pressed against pale coastal dunes, with the shining glasshouses of the Westland spreading to the south-west.",
+    "f": [
+      "The Peace Palace, opened in 1913, houses the International Court of Justice.",
+      "Scheveningen, the city's seaside district, grew from a fishing village and has a pier over the North Sea.",
+      "The city's formal Dutch name, 's-Gravenhage, means 'the Count's hedge'."
+    ],
+    "q": {
+      "q": "Which UN court sits in The Hague?",
+      "a": "The International Court of Justice",
+      "x": [
+        "The European Court of Human Rights",
+        "The European Court of Justice"
+      ]
+    }
+  },
+  "Q23482": {
+    "t": "France's oldest city, framed by white cliffs",
+    "s": "Blinding white limestone hems Marseille in: bare hills behind, and to the south-east the Calanques, narrow fjord-like inlets cut into cliffs above turquoise water. Offshore lie the pale, treeless Frioul islands. Greek sailors from Phocaea founded a trading post here around 600 BC, which is why Marseille is called the oldest city in France.",
+    "w": "A large pale city around a bay, with white limestone hills behind, bare islands offshore and cliffs to the south-east.",
+    "f": [
+      "The Calanques became a national park in 2012, reaching right to the edge of the city.",
+      "The Château d'If, on a small island offshore, is the prison of 'The Count of Monte Cristo'.",
+      "Marseille-Fos is the largest port in France."
+    ],
+    "q": {
+      "q": "Greek settlers from which city founded Marseille?",
+      "a": "Phocaea",
+      "x": [
+        "Corinth",
+        "Athens"
+      ]
+    }
+  },
+  "Q36433": {
+    "t": "Steep banks and bridges over the Douro",
+    "s": "The Douro runs its last few kilometres in a deep gorge, with Porto piled up on the north bank and Vila Nova de Gaia facing it from the south. Six bridges stitch the two together. Boats once brought port wine down from vineyard terraces far upriver, and the lodges where it matures still line the Gaia shore. Beyond, Atlantic surf draws a white line.",
+    "w": "A city on steep banks where the Douro gorge meets the Atlantic, the river crossed by a string of bridges.",
+    "f": [
+      "Portugal takes its name from Portus Cale, the Roman-era settlement at the mouth of the Douro.",
+      "The two-deck Dom Luís I bridge, finished in 1886, was designed by Théophile Seyrig, a former partner of Gustave Eiffel.",
+      "Porto's historic centre has been a UNESCO World Heritage site since 1996."
+    ],
+    "q": {
+      "q": "Which river meets the Atlantic at Porto?",
+      "a": "The Douro",
+      "x": [
+        "The Tagus",
+        "The Minho"
+      ]
+    }
+  },
+  "Q42448": {
+    "t": "Steel city with one foot in the Peak District",
+    "s": "Where the houses stop, the moors begin. Sheffield climbs over steep hills where five rivers meet, and its western edge runs straight into the Peak District; a sizeable slice of the city lies inside the national park. Fast streams once turned the grinding wheels of the cutlers here, and the city's name became a byword for steel.",
+    "w": "A hilly city in green valleys, its western edge meeting the brown moorland of the Peak District.",
+    "f": [
+      "Harry Brearley developed stainless steel in Sheffield in 1913.",
+      "Sheffield FC, founded in 1857, is recognised as the world's oldest football club.",
+      "The city takes its name from the River Sheaf, one of the five rivers that meet here."
+    ],
+    "q": {
+      "q": "Which material did Harry Brearley develop in Sheffield in 1913?",
+      "a": "Stainless steel",
+      "x": [
+        "Vulcanised rubber",
+        "Duralumin"
+      ]
+    }
+  },
+  "Q2100": {
+    "t": "Where the Ruhr meets the Rhine: a sea of docks",
+    "s": "Harbour basins, rail yards and container stacks lace the water where the Ruhr flows into the Rhine. This is Duisport, often called the largest inland port in the world, and barges from the North Sea ports come up the Rhine to unload here. North of the city, an old ironworks has been kept as a park and is lit up in colour after dark.",
+    "w": "Long, finger-like harbour basins on the Rhine at the mouth of the Ruhr, with industry and rail lines around them.",
+    "f": [
+      "The cartographer Gerardus Mercator lived and worked in Duisburg for more than 40 years.",
+      "Landschaftspark Duisburg-Nord turned an ironworks, closed in 1985, into a public park.",
+      "The Rhine at Duisburg is a busy barge highway linking the Ruhr with Rotterdam and the North Sea."
+    ],
+    "q": {
+      "q": "Which famous mapmaker lived and worked in Duisburg?",
+      "a": "Gerardus Mercator",
+      "x": [
+        "Abraham Ortelius",
+        "Martin Waldseemüller"
+      ]
+    }
+  },
+  "Q1718": {
+    "t": "The village on the Düssel that grew rich on the Rhine",
+    "s": "The Rhine swings through Düsseldorf in wide loops, with the old town on the east bank and broad green meadows along the water. The name means 'village on the Düssel', after a small stream that joins the big river here. Today the capital of North Rhine-Westphalia is a city of fashion, advertising and art.",
+    "w": "Wide meanders of the Rhine with the city mostly on the east bank; the airport lies just to the north.",
+    "f": [
+      "The poet Heinrich Heine was born in Düsseldorf in 1797.",
+      "Düsseldorf is home to one of the largest Japanese communities in Europe.",
+      "The Königsallee, a shopping boulevard, runs along both sides of an old moat."
+    ],
+    "q": {
+      "q": "What does 'Dorf' mean in the name Düsseldorf?",
+      "a": "Village",
+      "x": [
+        "Castle",
+        "Bridge"
+      ]
+    }
+  },
+  "Q898": {
+    "t": "A fortress city where the Om meets the Irtysh",
+    "s": "Across the flat West Siberian plain the Irtysh loops broad and brown, and at the point where the little Om joins it, Omsk spreads over both banks. It began in 1716 as a wooden fortress on Russia's southern frontier. Beyond the last suburbs the land is almost perfectly level: birch groves, fields and lakes stretching away in every direction.",
+    "w": "A large city on a sweeping bend of the Irtysh where a smaller river joins from the east, in flat farmland.",
+    "f": [
+      "Dostoevsky served four years of penal labour in Omsk, later retold in 'Notes from the House of the Dead'.",
+      "The Trans-Siberian Railway crosses the Irtysh at Omsk.",
+      "The Om, which gives the city its name, flows for more than 1,000 km before joining the Irtysh."
+    ],
+    "q": {
+      "q": "Which river does the Om flow into at Omsk?",
+      "a": "The Irtysh",
+      "x": [
+        "The Ob",
+        "The Tobol"
+      ]
+    }
+  },
+  "Q906": {
+    "t": "Steel city among the lakes of the Urals",
+    "s": "Lakes are scattered around Chelyabinsk like dropped coins, catching the light where the Urals flatten into the West Siberian plain. Several reach right up to the city's edge. Founded in 1736 as a fortress on the Miass river, the city grew into a giant of steel and tractor building after the railway arrived.",
+    "w": "A large grey city on flat land peppered with round lakes, with low wooded Ural ridges to the west.",
+    "f": [
+      "Chelyabinsk was founded in 1736 as a fortress on the Miass river.",
+      "In 1892 the West Siberian section of the Trans-Siberian Railway began to be built eastwards from Chelyabinsk.",
+      "Lake Smolino, inside the city limits, is a salt lake."
+    ],
+    "q": {
+      "q": "On which river was Chelyabinsk founded?",
+      "a": "The Miass",
+      "x": [
+        "The Iset",
+        "The Ural"
+      ]
+    }
+  },
+  "Q908": {
+    "t": "Gateway to the Caucasus on the lower Don",
+    "s": "The Don makes its final run to the Sea of Azov here, broad and slow, and Rostov lines its high right bank. Across the river lie low meadows and reed beds, and a little downstream the Don begins to split into the channels of its delta. The city grew from a customs post set up in 1749, and grain and river trade made it rich.",
+    "w": "A big city on the high north bank of the Don, facing flat green floodplain, with the river's delta to the west.",
+    "f": [
+      "Rostov began in 1749 as the Temernik customs post, set up by decree of Empress Elizabeth.",
+      "Nakhichevan-on-Don, founded by Armenian settlers from Crimea in 1779, is now part of the city.",
+      "The Sea of Azov, fed by the Don, is the shallowest sea in the world, nowhere much deeper than 14 m."
+    ],
+    "q": {
+      "q": "What was Rostov-on-Don founded as in 1749?",
+      "a": "A customs post",
+      "x": [
+        "A monastery",
+        "A naval shipyard"
+      ]
+    }
+  }
+}

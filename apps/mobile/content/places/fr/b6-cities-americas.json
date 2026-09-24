@@ -2133,5 +2133,1014 @@
         "Un glacier"
       ]
     }
+  },
+  "Q3612": {
+    "t": "Un port du cuivre sur une côte désertique, près du tropique",
+    "s": "Antofagasta s’étire sur des kilomètres le long d’une étroite bande côtière, prise entre le mur brun et nu de la cordillère de la Côte et le Pacifique bleu et froid. Le tropique du Capricorne passe juste au nord de la ville. À l’intérieur s’étendent certaines des terres les plus sèches du globe, et quelques-unes des plus grandes mines de cuivre du monde, dont le métal part par ce port.",
+    "w": "Une ville longue et mince le long d’une côte rectiligne, sous un escarpement brun et abrupt ; un désert totalement nu au-delà.",
+    "f": [
+      "Le ciel du désert est si pur que de grands observatoires, dont celui de Paranal, se dressent à environ 120 km au sud.",
+      "La ville a été fondée en 1868 pour desservir les mines du désert.",
+      "La Portada, arche marine naturelle juste au nord de la ville, est un monument naturel protégé."
+    ],
+    "q": {
+      "q": "Quelle ligne de latitude passe juste au nord d’Antofagasta ?",
+      "a": "Le tropique du Capricorne",
+      "x": [
+        "Le tropique du Cancer",
+        "L’équateur"
+      ]
+    }
+  },
+  "Q33986": {
+    "t": "Une ville portuaire qui escalade des dizaines de collines",
+    "s": "Valparaíso s’enroule autour d’une large baie en amphithéâtre abrupt, ses maisons escaladant plus de quarante collines qui jaillissent d’une mince bande de terre plate le long du port. Pendant des décennies, avant le canal de Panama, ce fut l’escale principale des navires qui doublaient le cap Horn. Son dédale de quartiers perchés est inscrit au patrimoine mondial, et Viña del Mar la prolonge au nord.",
+    "w": "Une baie en croissant avec un port ; la ville qui grimpe raide sur de nombreuses collines ; une station balnéaire qui la prolonge au nord.",
+    "f": [
+      "Certains des funiculaires qui montent vers les collines datent de la fin du XIXe siècle.",
+      "Santiago se trouve à environ 110 km au sud-est, au-delà de la cordillère de la Côte."
+    ],
+    "q": {
+      "q": "Comment beaucoup d’habitants de Valparaíso montent-ils sur les collines ?",
+      "a": "En vieux funiculaires",
+      "x": [
+        "En téléphérique",
+        "En train à crémaillère"
+      ]
+    }
+  },
+  "Q160687": {
+    "t": "Une ville de rivières dans le Sud chilien, vert et pluvieux",
+    "s": "Valdivia est tissée d’eau : plusieurs rivières s’y rejoignent et serpentent vers l’ouest, à travers marais et forêts, jusqu’à la mer, dans la baie de Corral, à quelque 15 km. Autour pousse une dense forêt pluviale tempérée, toujours verte, nourrie de fortes pluies. Pedro de Valdivia fonda la ville en 1552 et lui donna son propre nom. À partir des années 1850, des colons allemands arrivèrent et marquèrent la ville de leur empreinte.",
+    "w": "Une ville sur des rivières sombres et sinueuses, parmi marais et forêts verts ; les rivières s’élargissent à l’ouest en une baie sur le Pacifique.",
+    "f": [
+      "Aux XVIIe et XVIIIe siècles, les Espagnols cernèrent la baie de Corral de forts pour garder la route fluviale vers la ville.",
+      "Des otaries se prélassent souvent près du marché aux poissons, au bord de la rivière, en plein centre."
+    ],
+    "q": {
+      "q": "D’après qui Valdivia a-t-elle été nommée ?",
+      "a": "Son fondateur, Pedro de Valdivia",
+      "x": [
+        "Un président chilien",
+        "Un chef mapuche"
+      ]
+    }
+  },
+  "Q1880": {
+    "t": "Une ville universitaire à l’embouchure du large Biobío",
+    "s": "Concepción se trouve là où le Biobío, l’un des fleuves les plus longs et les plus larges du Chili, s’étale avant de rejoindre le Pacifique, franchi ici par plusieurs longs ponts. Des lagunes parsèment la ville, et le port de Talcahuano occupe la baie juste au nord. Pendant des siècles, le Biobío a marqué la frontière entre le Chili espagnol et les terres des Mapuches.",
+    "w": "Une ville entre de basses collines et une très large embouchure franchie par de longs ponts ; une grande baie portuaire au nord.",
+    "f": [
+      "Au milieu du XVIIIe siècle, la ville s’est installée sur son site actuel, quittant la côte voisine de Penco.",
+      "L’université de Concepción, fondée en 1919, est l’une des plus anciennes du Chili."
+    ],
+    "q": {
+      "q": "Quel fleuve rejoint la mer à Concepción ?",
+      "a": "Le Biobío",
+      "x": [
+        "Le Maule",
+        "Le Mapocho"
+      ]
+    }
+  },
+  "Q36214": {
+    "t": "Là où le Chili continental éclate en fjords et en îles",
+    "s": "Puerto Montt marque l’endroit où la longue Vallée centrale du Chili rencontre la mer et où la côte commence à se briser en fjords, chenaux et îles. La ville borde le golfe de Reloncaví, avec l’île de Chiloé au sud-ouest et, au nord-est, le cône enneigé presque parfait du volcan Osorno, au-delà du lac Llanquihue. Des colons allemands l’ont fondée en 1853.",
+    "w": "Une ville sur un golfe abrité semé d’îles ; un grand lac juste au nord ; des cônes volcaniques enneigés au nord-est.",
+    "f": [
+      "La Carretera Austral, une route de plus de 1 200 km vers la Patagonie, commence ici.",
+      "Le lac Llanquihue, juste au nord de la ville, couvre environ 860 km²."
+    ],
+    "q": {
+      "q": "Quelle route célèbre commence à Puerto Montt ?",
+      "a": "La Carretera Austral",
+      "x": [
+        "La Ruta 40",
+        "Le chemin de l’Inca"
+      ]
+    }
+  },
+  "Q226": {
+    "t": "Une petite capitale arctique à l’entrée d’un fjord géant",
+    "s": "Nuuk s’accroche à un cap rocheux à l’entrée d’un immense réseau de fjords qui s’enfonce sur plus de 100 km vers l’inlandsis. De l’autre côté de l’eau se dresse le pic acéré du Sermitsiaq. Le nom signifie simplement « cap ». Le missionnaire Hans Egede fonda ici la colonie en 1728, mais des fermiers nordiques avaient vécu dans ces fjords des siècles plus tôt.",
+    "w": "Une petite ville sur une péninsule rocheuse et nue entre des bras de fjord ; pics sombres et icebergs autour ; l’inlandsis blanc au loin.",
+    "f": [
+      "Des colons nordiques ont cultivé les fjords proches de Nuuk de l’an 1000 environ jusqu’au milieu du XIVe siècle.",
+      "Nuuk est l’une des capitales les plus septentrionales du monde.",
+      "Le Sermitsiaq, pic emblématique de l’autre côté du fjord, s’élève d’environ 1 200 m droit hors de la mer."
+    ],
+    "q": {
+      "q": "Que signifie le nom Nuuk ?",
+      "a": "Cap",
+      "x": [
+        "Iceberg",
+        "Port"
+      ]
+    }
+  },
+  "Q941136": {
+    "t": "Une ville d’Amazonie occidentale sur un fleuve très sinueux",
+    "s": "Cruzeiro do Sul se trouve près de l’extrémité ouest du Brésil, sur le Juruá, l’un des fleuves aux méandres les plus serrés du monde. D’en haut, le Juruá revient sans cesse sur lui-même, laissant dans la forêt des bras morts en croissant. À l’ouest, les basses collines vertes de la Serra do Divisor montent vers la frontière péruvienne. Le nom signifie « Croix du Sud ».",
+    "w": "Une petite ville sur un fleuve aux boucles serrées dans une forêt continue ; des lacs en croissant laissés par d’anciens méandres ; des collines à l’ouest.",
+    "f": [
+      "Le point le plus occidental du Brésil se trouve dans la Serra do Divisor, à l’ouest de la ville.",
+      "C’est la deuxième ville de l’État d’Acre."
+    ],
+    "q": {
+      "q": "D’après quoi Cruzeiro do Sul a-t-elle été nommée ?",
+      "a": "La constellation de la Croix du Sud",
+      "x": [
+        "Un navire portugais",
+        "L’église d’une mission"
+      ]
+    }
+  },
+  "Q214913": {
+    "t": "Là où trois pays se rencontrent sur l’Amazone",
+    "s": "Leticia se trouve sur la rive nord de l’Amazone, au point de rencontre de la Colombie, du Brésil et du Pérou. La ville se prolonge sans transition dans la brésilienne Tabatinga, une simple rue marquant la frontière, tandis que le Pérou est de l’autre côté du large fleuve semé d’îles. Aucune route n’y mène depuis le reste de la Colombie : l’Amazone et l’aéroport sont ses cordons vitaux.",
+    "w": "Deux villes jumelles au bord d’un très large fleuve brun aux longues îles boisées ; une forêt sans fin de tous côtés.",
+    "f": [
+      "Grâce à Leticia, la Colombie possède un tronçon de rive de l’Amazone d’environ 100 km.",
+      "La ville a été fondée en 1867."
+    ],
+    "q": {
+      "q": "Quelle ville brésilienne est soudée à Leticia ?",
+      "a": "Tabatinga",
+      "x": [
+        "Manaus",
+        "Iquitos"
+      ]
+    }
+  },
+  "Q40236": {
+    "t": "Là où l’eau noire et l’eau brune coulent côte à côte",
+    "s": "Juste en aval de Manaus, cherchez l’un des grands spectacles de l’Amazonie : la Rencontre des eaux. Le rio Negro, sombre comme du thé, rejoint le Solimões, pâle et boueux, et sur plusieurs kilomètres les deux coulent côte à côte dans le même lit sans se mélanger. La ville elle-même, au cœur de la forêt tropicale, s’est enrichie pendant le boom du caoutchouc, à la fin du XIXe siècle.",
+    "w": "Une grande ville sur la rive nord d’une rivière sombre ; en aval, une ligne nette où se rencontrent eau noire et eau café au lait.",
+    "f": [
+      "Les eaux restent séparées car elles diffèrent par leur température, leur vitesse et les sédiments qu’elles charrient.",
+      "Des navires de haute mer remontent l’Amazone sur quelque 1 500 km pour atteindre le port de la ville.",
+      "L’opéra Teatro Amazonas, inauguré en 1896, a été bâti avec la fortune du caoutchouc."
+    ],
+    "q": {
+      "q": "Quels cours d’eau forment la Rencontre des eaux à Manaus ?",
+      "a": "Le rio Negro et le Solimões",
+      "x": [
+        "Le Madeira et le Tapajós",
+        "Le Xingu et le Tocantins"
+      ]
+    }
+  },
+  "Q997107": {
+    "t": "Une ville fluviale parmi les palmiers babassu du Maranhão",
+    "s": "Caxias se trouve sur l’Itapecuru, à l’intérieur du Maranhão, là où la savane sèche du cerrado cède la place aux forêts plus humides du bassin amazonien. La campagne alentour est parsemée de palmiers babassu, dont on récolte à la main les noix oléagineuses. Le poète Gonçalves Dias, auteur de « Chanson d’exil », l’un des poèmes les plus aimés du Brésil, est né près d’ici en 1823.",
+    "w": "Une ville moyenne sur une rivière sinueuse, dans une campagne verte et vallonnée ; des palmeraies éparses et des taches de savane.",
+    "f": [
+      "Le célèbre chef militaire brésilien, le duc de Caxias, a tiré son titre de noblesse de cette ville.",
+      "L’Itapecuru coule vers le nord et rejoint l’Atlantique près de São Luís."
+    ],
+    "q": {
+      "q": "Quel célèbre poète brésilien est né près de Caxias ?",
+      "a": "Gonçalves Dias",
+      "x": [
+        "Carlos Drummond de Andrade",
+        "Machado de Assis"
+      ]
+    }
+  },
+  "Q659450": {
+    "t": "Là où le Tapajós bleu rencontre l’Amazone boueuse",
+    "s": "Santarém est posée juste sur une ligne de couleur : le Tapajós, clair et bleu-vert, se jette devant la ville dans l’Amazone, brune et chargée de limon, et les deux eaux coulent côte à côte sur des kilomètres. En amont, le Tapajós s’élargit en un bief semblable à un lac, frangé de plages de sable blanc. Des jésuites fondèrent ici une mission en 1661, à peu près à mi-chemin entre Manaus et Belém.",
+    "w": "Une ville sur une pointe entre une rivière bleu-vert et un fleuve brun bien plus large ; bancs de sable pâles et forêt autour.",
+    "f": [
+      "En 1928, Henry Ford bâtit une ville de plantation d’hévéas, Fordlândia, loin en amont sur le Tapajós.",
+      "À la saison sèche, la décrue du Tapajós découvre des plages blanches à Alter do Chão, tout près."
+    ],
+    "q": {
+      "q": "Quelle rivière rejoint l’Amazone à Santarém ?",
+      "a": "Le Tapajós",
+      "x": [
+        "Le Xingu",
+        "Le Madeira"
+      ]
+    }
+  },
+  "Q509818": {
+    "t": "Une ville pionnière au confluent de deux rivières d’Amazonie",
+    "s": "Marabá occupe une pointe de terre où l’Itacaiúnas se jette dans le large Tocantins, dans le sud-est du Pará. La ville a grandi au début du XXe siècle grâce au commerce de la noix du Brésil. Regardez autour d’elle le patchwork de pâturages et de restes de forêt. À l’ouest s’élèvent les collines de Carajás, où se trouve l’une des plus grandes mines de fer du monde.",
+    "w": "Une ville sur une pointe au confluent de deux larges rivières ; îles inondées et bancs de sable ; pâturages et îlots de forêt tout autour.",
+    "f": [
+      "Le chemin de fer de Carajás, qui emporte le minerai sur environ 900 km jusqu’à la côte près de São Luís, franchit ici le Tocantins.",
+      "À la saison des pluies, les rivières montent de plusieurs mètres et inondent souvent les quartiers bas."
+    ],
+    "q": {
+      "q": "Quel immense district de minerai de fer s’étend à l’ouest de Marabá ?",
+      "a": "Carajás",
+      "x": [
+        "Itabira",
+        "Le Quadrilatère ferrifère"
+      ]
+    }
+  },
+  "Q1749958": {
+    "t": "Une ville de plateau aux portes du Rondônia",
+    "s": "Vilhena se trouve sur le vaste plateau des Parecis, à environ 600 m, à l’entrée sud-est de l’État du Rondônia. D’en haut, la terre alentour est découpée en immenses rectangles de soja et de maïs, avec des bandes de forêt le long des ruisseaux. La ville est née comme station de la ligne télégraphique que les expéditions de Cândido Rondon poussèrent en Amazonie au début du XXe siècle.",
+    "w": "Une ville sur un plateau plat parmi d’immenses champs rectangulaires ; une route qui la traverse tout droit ; des bandes de forêt le long des ruisseaux.",
+    "f": [
+      "Elle porte le nom d’Álvaro Vilhena, un directeur du service télégraphique brésilien.",
+      "La route BR-364, qui traverse la ville, est le principal lien routier entre le Rondônia et le reste du Brésil."
+    ],
+    "q": {
+      "q": "Qu’était Vilhena à l’origine ?",
+      "a": "Une station télégraphique",
+      "x": [
+        "Un port du caoutchouc",
+        "Un camp d’orpailleurs"
+      ]
+    }
+  },
+  "Q983815": {
+    "t": "Une ville fluviale et ses clairières en arête de poisson",
+    "s": "Ji-Paraná enjambe le rio Machado, aussi appelé Ji-Paraná, au cœur du Rondônia. Autour s’étend l’un des motifs les plus saisissants de la planète : de longues routes secondaires rectilignes partent de la grande route, chacune bordée de clairières, si bien que la forêt semble découpée en une arête de poisson géante. L’essentiel de cette colonisation date des années 1970 et après.",
+    "w": "Une ville sur les deux rives d’une rivière sinueuse ; un motif en échelle de champs et de routes taillé dans la forêt environnante.",
+    "f": [
+      "C’est la deuxième ville du Rondônia, après la capitale, Porto Velho.",
+      "La rivière coule vers le nord et rejoint le Madeira, l’un des grands affluents de l’Amazone."
+    ],
+    "q": {
+      "q": "Quel motif dessinent les défrichements autour de Ji-Paraná ?",
+      "a": "Une arête de poisson",
+      "x": [
+        "Des cercles concentriques",
+        "Un nid d’abeilles"
+      ]
+    }
+  },
+  "Q168929": {
+    "t": "La « ville brune » sur terre rouge, porte du Pantanal",
+    "s": "Campo Grande s’étend sur un plateau doux du Centre-Ouest brésilien, tracée de larges avenues bordées d’arbres. La terre y est d’un brun rougeâtre profond, ce qui lui a valu le surnom de Cidade Morena, la « ville brune ». Autour s’étendent pâturages et champs de soja, et à deux cents kilomètres environ à l’ouest commence le Pantanal, la plus grande zone humide tropicale du monde.",
+    "w": "Une ville aérée sur un plateau doucement ondulé ; la terre rouge-brun affleure entre les champs et les pâturages alentour.",
+    "f": [
+      "Le sobá, soupe de nouilles apportée par des immigrés d’Okinawa, fait officiellement partie du patrimoine culturel de la ville.",
+      "La ville est devenue la capitale du nouvel État du Mato Grosso do Sul, créé en 1977."
+    ],
+    "q": {
+      "q": "Quel surnom Campo Grande doit-elle à sa terre ?",
+      "a": "La ville brune",
+      "x": [
+        "La ville merveilleuse",
+        "La ville lumière"
+      ]
+    }
+  },
+  "Q132997": {
+    "t": "Une capitale insulaire de lagunes, de dunes et de plages",
+    "s": "L’essentiel de Florianópolis se trouve sur l’île de Santa Catarina, verte et vallonnée, longue d’environ 50 km, reliée au continent par des ponts. Cherchez la Lagoa da Conceição, longue lagune derrière des dunes blanches, et des dizaines de plages égrenées le long de la côte. Des colons açoriens arrivèrent au XVIIIe siècle, et la ville prit son nom actuel en 1894.",
+    "w": "Une longue île vallonnée parallèle à la côte, avec une lagune et des dunes pâles sur son flanc est ; des ponts vers le continent.",
+    "f": [
+      "Le pont Hercílio-Luz, inauguré en 1926, est le plus long pont suspendu du Brésil.",
+      "Le nom honore Floriano Peixoto, l’un des premiers présidents de la république brésilienne."
+    ],
+    "q": {
+      "q": "Où se trouve l’essentiel de Florianópolis ?",
+      "a": "Sur une île",
+      "x": [
+        "Dans un delta",
+        "Sur un plateau de montagne"
+      ]
+    }
+  },
+  "Q194343": {
+    "t": "Un carrefour né d’une foire aux bestiaux",
+    "s": "Feira de Santana se trouve sur un plateau doux à environ 100 km à l’intérieur des terres depuis Salvador, là où la bande côtière verte de Bahia cède la place au sertão sec. La ville a grandi au XVIIIe siècle autour d’une foire aux bestiaux, près d’une chapelle de sainte Anne, d’où son nom. Aujourd’hui, plusieurs grandes routes du Nordeste s’y croisent : l’un des carrefours routiers les plus actifs de la région.",
+    "w": "Une grande ville compacte sur un plateau plat ; des routes qui rayonnent ; des terres plus vertes à l’est, des broussailles plus sèches à l’ouest.",
+    "f": [
+      "C’est la deuxième ville de l’État de Bahia.",
+      "Ses habitants la surnomment la « princesse du sertão »."
+    ],
+    "q": {
+      "q": "D’où vient le nom de Feira de Santana ?",
+      "a": "D’une foire aux bestiaux",
+      "x": [
+        "D’un marché aux poissons",
+        "D’un marché au sel"
+      ]
+    }
+  },
+  "Q2135": {
+    "t": "Une ville des prairies au fond d’un lac glaciaire disparu",
+    "s": "Winnipeg repose sur une terre si plate parce que c’est le fond d’un lac ancien : le lac glaciaire Agassiz, qui recouvrait une grande partie de la région à la fin de la dernière glaciation. La rivière Rouge et l’Assiniboine se rejoignent en plein centre, un lieu de rencontre fréquenté depuis quelque 6 000 ans. À l’est de la ville, cherchez un long chenal rectiligne : le canal de dérivation de la rivière Rouge.",
+    "w": "Une ville sur des plaines parfaitement plates, à un confluent ; un long chenal de crue qui contourne son flanc est ; des champs carrés au-delà.",
+    "f": [
+      "Le canal de dérivation, long d’environ 47 km, détourne les crues de la rivière Rouge autour de la ville.",
+      "Le nom vient d’un mot cri signifiant « eau boueuse », donné d’abord au lac Winnipeg, au nord."
+    ],
+    "q": {
+      "q": "Que signifie le mot cri « Winnipeg » ?",
+      "a": "Eau boueuse",
+      "x": [
+        "Grande prairie",
+        "Lieu de rencontre"
+      ]
+    }
+  },
+  "Q744553": {
+    "t": "La ville des ours polaires, au bord de la baie d’Hudson",
+    "s": "Churchill est une minuscule ville à l’embouchure de la rivière Churchill sur la baie d’Hudson, juste à la limite des arbres : épicéas rabougris au sud, toundra ouverte au nord. Chaque automne, les ours polaires se rassemblent sur cette côte en attendant que la baie gèle pour chasser le phoque sur la glace. En été, des milliers de bélugas se pressent dans l’embouchure.",
+    "w": "Une petite ville sur une pointe rocheuse, à l’embouchure d’une rivière sur une immense baie grise ; toundra plate et innombrables mares.",
+    "f": [
+      "Aucune route n’atteint Churchill : elle n’est reliée au sud que par le train et l’avion.",
+      "De l’autre côté de l’embouchure se dresse le fort Prince-de-Galles, bâti en pierre par la Compagnie de la baie d’Hudson de 1731 à 1771."
+    ],
+    "q": {
+      "q": "Pourquoi les ours polaires se rassemblent-ils près de Churchill à l’automne ?",
+      "a": "Ils attendent que la baie gèle",
+      "x": [
+        "Ils suivent les caribous",
+        "Ils cherchent des grottes pour hiberner"
+      ]
+    }
+  },
+  "Q2123": {
+    "t": "Une capitale plantée à la main sur la prairie sans arbres",
+    "s": "Regina surgit de l’une des prairies les plus plates et les plus ouvertes du Canada, où les seuls arbres sont ceux qu’on a plantés. Avant 1882, le lieu s’appelait Pile o’ Bones, « tas d’os », d’après les amas d’ossements de bisons près du ruisseau. Cette année-là, la princesse Louise le rebaptisa Regina, « reine » en latin, en l’honneur de sa mère, la reine Victoria. Cherchez le lac artificiel Wascana, au cœur vert de la ville.",
+    "w": "Une ville compacte sur une immense prairie plate en damier ; un lac incurvé et un parc au centre ; des voies ferrées rectilignes.",
+    "f": [
+      "Le Wascana Centre, parc autour du lac, est plus vaste que Central Park à New York.",
+      "La police nationale du Canada, la GRC, forme ses recrues à Regina depuis les années 1880."
+    ],
+    "q": {
+      "q": "Comment s’appelait le site de Regina avant 1882 ?",
+      "a": "Pile o’ Bones",
+      "x": [
+        "Buffalo Crossing",
+        "Fort Qu’Appelle"
+      ]
+    }
+  },
+  "Q10566": {
+    "t": "La ville des ponts, sur la Saskatchewan Sud",
+    "s": "Saskatoon enjambe la Saskatchewan Sud, qui serpente à travers la ville dans une vallée boisée franchie par une série de ponts : d’où son surnom de « ville des ponts ». Autour, des terres agricoles plates filent jusqu’à l’horizon en carrés bien nets de blé et de colza. La ville a été fondée en 1883 comme colonie de tempérance et doit son nom à une baie sucrée locale.",
+    "w": "Une ville sur les deux rives d’une rivière sinueuse, avec plusieurs ponts rapprochés ; des carrés de cultures plats tout autour.",
+    "f": [
+      "L’amélanche de Saskatoon tire son nom du mot cri misâskwatômina.",
+      "Les mines de potasse autour de la ville exploitent l’un des plus grands gisements mondiaux de ce minéral engrais."
+    ],
+    "q": {
+      "q": "D’après quoi Saskatoon a-t-elle été nommée ?",
+      "a": "Une baie locale",
+      "x": [
+        "Un chef cri",
+        "Un marchand de fourrures"
+      ]
+    }
+  },
+  "Q36312": {
+    "t": "Là où la prairie vient buter contre les Rocheuses",
+    "s": "Calgary se trouve là où la prairie plate commence à onduler en contreforts, et par temps clair le mur blanc des Rocheuses emplit l’horizon ouest. La Bow et l’Elbow se rejoignent au centre-ville, où la Police à cheval du Nord-Ouest bâtit Fort Calgary en 1875. En hiver, cherchez une bande de ciel clair au-dessus des montagnes : l’arche du chinook, annonce d’un vent chaud.",
+    "w": "Une grande ville sur un terrain ondulé où les plaines rencontrent les contreforts ; deux rivières réunies au centre ; des montagnes enneigées à l’ouest.",
+    "f": [
+      "Un chinook peut faire grimper la température de plus de 20 °C en quelques heures.",
+      "En 1988, Calgary a accueilli les premiers Jeux olympiques d’hiver organisés au Canada."
+    ],
+    "q": {
+      "q": "Comment s’appelle le vent chaud d’hiver qui souffle sur Calgary ?",
+      "a": "Le chinook",
+      "x": [
+        "Le mistral",
+        "Le Santa Ana"
+      ]
+    }
+  },
+  "Q1015639": {
+    "t": "Un port insulaire pluvieux sur le Pacifique canadien",
+    "s": "Prince Rupert se trouve sur l’île Kaien, près de l’embouchure de la Skeena, parmi des montagnes sombres et boisées et des bras de mer en forme de fjords, avec l’enclave de l’Alaska juste au nord. C’est l’une des villes les plus pluvieuses du Canada. Son port profond compte parmi les ports nord-américains les plus proches de l’Asie : d’où le chemin de fer transcontinental poussé jusqu’ici, qui atteignit la côte en 1914.",
+    "w": "Une petite ville sur une île vallonnée parmi montagnes boisées et chenaux ; un grand port profond avec des quais à conteneurs.",
+    "f": [
+      "Le nom, choisi par concours en 1906, honore le prince Rupert du Rhin, premier gouverneur de la Compagnie de la baie d’Hudson.",
+      "La Skeena, dont l’embouchure est juste au sud-est, est l’une des grandes rivières à saumon de Colombie-Britannique."
+    ],
+    "q": {
+      "q": "Comment le nom de Prince Rupert a-t-il été choisi en 1906 ?",
+      "a": "Par un concours public",
+      "x": [
+        "Après une visite royale",
+        "D’après le nom d’un navire"
+      ]
+    }
+  },
+  "Q2132": {
+    "t": "Une capitale-jardin à la pointe sud de l’île de Vancouver",
+    "s": "Victoria se trouve à la pointe sud de l’île de Vancouver, face aux monts Olympiques enneigés, aux États-Unis, de l’autre côté du détroit de Juan de Fuca. À l’abri de leur ombre pluviométrique, elle jouit de l’un des climats les plus doux et les plus secs du Canada. La Compagnie de la baie d’Hudson y bâtit Fort Victoria en 1843, et la ville prospéra avec la ruée vers l’or de 1858.",
+    "w": "Une ville sur une côte rocheuse et découpée, à la pointe sud d’une île ; un port animé ; des montagnes enneigées au sud, par-delà le détroit.",
+    "f": [
+      "Victoria est la capitale de la Colombie-Britannique, même si Vancouver est bien plus grande.",
+      "Des hydravions décollent et se posent dans l’Inner Harbour, juste à côté du centre-ville."
+    ],
+    "q": {
+      "q": "Quand Fort Victoria a-t-il été fondé ?",
+      "a": "En 1843",
+      "x": [
+        "En 1792",
+        "En 1886"
+      ]
+    }
+  },
+  "Q638017": {
+    "t": "Un hameau inuit dans une poche de la côte arctique",
+    "s": "Arctic Bay se niche dans une petite baie ronde, presque fermée par des collines nues et abruptes, au nord de l’île de Baffin : son nom inuktitut, Ikpiarjuk, signifie « la poche ». Elle s’ouvre sur l’inlet de l’Amirauté, un fjord géant de plus de 300 km, où les narvals se rassemblent en été. Le nom anglais vient du baleinier Arctic, qui fit escale ici en 1872.",
+    "w": "Un minuscule hameau dans une baie presque fermée ; des collines brunes tabulaires ; un long et large fjord souvent pris par la glace.",
+    "f": [
+      "En hiver, le soleil reste ici sous l’horizon plus de deux mois.",
+      "C’est l’une des localités les plus septentrionales du Canada."
+    ],
+    "q": {
+      "q": "Que signifie Ikpiarjuk, le nom inuktitut d’Arctic Bay ?",
+      "a": "La poche",
+      "x": [
+        "La baleine",
+        "La glace"
+      ]
+    }
+  },
+  "Q606622": {
+    "t": "Le « lieu sans aube », sur un désert polaire de gravier",
+    "s": "Resolute se trouve sur la côte sud de l’île Cornwallis, au cœur de l’archipel arctique canadien, sur une plaine stérile de gravier gris où l’on voit à peine une plante. Son nom inuktitut, Qausuittuq, signifie « lieu sans aube », en raison de la longue obscurité hivernale. Le nom anglais vient du HMS Resolute, l’un des navires britanniques qui explorèrent ces chenaux dans les années 1850.",
+    "w": "Un minuscule hameau et une piste sur une plaine côtière nue, gris-brun ; banquise ou chenaux sombres entre des îles plates.",
+    "f": [
+      "Le bois du HMS Resolute a servi plus tard à fabriquer un bureau, toujours à la Maison-Blanche.",
+      "Il tombe ici si peu de pluie ou de neige que la région compte comme un désert polaire.",
+      "Les expéditions vers le pôle Nord partent souvent de la piste d’ici."
+    ],
+    "q": {
+      "q": "Qu’est devenu le bois du navire HMS Resolute ?",
+      "a": "Un bureau de la Maison-Blanche",
+      "x": [
+        "La tour de Big Ben",
+        "Une cathédrale canadienne"
+      ]
+    }
+  },
+  "Q1723761": {
+    "t": "Un hameau posé juste sur le cercle polaire",
+    "s": "Naujaat se trouve presque exactement sur le cercle polaire arctique, sur la rive nord d’une baie à la base de la presqu’île Melville. Son nom inuktitut signifie « lieu de nidification des goélands », d’après les falaises voisines. Son ancien nom anglais, Repulse Bay, date de 1742, quand l’explorateur Christopher Middleton découvrit que la baie était un cul-de-sac et non le passage du Nord-Ouest espéré.",
+    "w": "Un petit hameau sur la rive rocheuse et nue d’une large baie ; des collines de toundra basses et d’innombrables lacs à l’intérieur.",
+    "f": [
+      "L’explorateur écossais John Rae y hiverna en 1846-1847, vivant largement de la chasse et de la pêche comme les Inuits.",
+      "Le hameau a officiellement pris le nom de Naujaat en 2015."
+    ],
+    "q": {
+      "q": "Pourquoi Middleton a-t-il appelé ce lieu Repulse Bay en 1742 ?",
+      "a": "C’était un cul-de-sac, pas un passage",
+      "x": [
+        "Les habitants ont chassé ses navires",
+        "Une tempête l’a repoussé"
+      ]
+    }
+  },
+  "Q2061": {
+    "t": "Une ville de l’or au bord du lac le plus profond d’Amérique",
+    "s": "Yellowknife se trouve sur la rive nord, rocheuse, du Grand lac des Esclaves, qui, avec environ 614 m, est le lac le plus profond d’Amérique du Nord. Tout autour, les glaciers ont raclé le Bouclier canadien jusqu’à la roche gris-rose, semée de milliers de lacs. La ville est née des découvertes d’or des années 1930, et par les nuits claires d’hiver, c’est l’un des meilleurs endroits au monde pour voir les aurores boréales.",
+    "w": "Une petite ville sur la rive rocheuse d’un immense lac ; roche nue, épicéas épars et innombrables petits lacs tout autour.",
+    "f": [
+      "Le nom vient des couteaux de cuivre échangés par le peuple dénè local, les Couteaux-Jaunes.",
+      "L’hiver, une route de glace traverse la baie gelée jusqu’à la localité voisine de Dettah."
+    ],
+    "q": {
+      "q": "Au bord de quel lac se trouve Yellowknife ?",
+      "a": "Le Grand lac des Esclaves",
+      "x": [
+        "Le Grand lac de l’Ours",
+        "Le lac Athabasca"
+      ]
+    }
+  },
+  "Q201313": {
+    "t": "Vieux poste de traite du Mackenzie, près du cercle polaire",
+    "s": "Fort Good Hope se trouve sur la rive est du Mackenzie, le plus long fleuve du Canada, juste au sud du cercle polaire arctique. Un peu en amont, le fleuve se resserre dans les Remparts, une gorge entre des falaises calcaires. La Compagnie du Nord-Ouest ouvrit ici un poste de traite des fourrures en 1805, l’un des plus anciens du bas Mackenzie. Autour s’étendent forêt d’épicéas, fondrières et lacs.",
+    "w": "Un minuscule hameau sur un fleuve très large ; une gorge étroite juste en amont ; forêt plate et tourbières semées de lacs tout autour.",
+    "f": [
+      "Avec ses rivières de tête, le Mackenzie forme le plus long réseau fluvial du Canada, plus de 4 000 km.",
+      "L’église Notre-Dame-de-Bonne-Espérance, à l’intérieur peint à la main au XIXe siècle, est un lieu historique national."
+    ],
+    "q": {
+      "q": "Quel fleuve passe à Fort Good Hope ?",
+      "a": "Le Mackenzie",
+      "x": [
+        "Le Yukon",
+        "La rivière de la Paix"
+      ]
+    }
+  },
+  "Q2058": {
+    "t": "Une capitale fluviale nommée d’après des rapides blancs",
+    "s": "Whitehorse s’étend dans une large vallée du Yukon, cernée de montagnes arrondies et boisées. Le nom vient des rapides juste en amont, dont l’écume rappelait aux chercheurs d’or les crinières de chevaux blancs au galop ; un barrage les a depuis domptés en lac. En 1898, des milliers de prospecteurs du Klondike passèrent par ici, construisant des bateaux pour descendre le fleuve sur quelque 700 km jusqu’à Dawson City.",
+    "w": "Une petite ville sur une terrasse au bord d’une rivière sinueuse ; un canyon et un lac de barrage en amont ; des montagnes boisées tout autour.",
+    "f": [
+      "Le chemin de fer White Pass and Yukon Route, venu de Skagway sur la côte, a atteint Whitehorse en 1900.",
+      "Environ les deux tiers des habitants du Yukon vivent à Whitehorse."
+    ],
+    "q": {
+      "q": "D’où vient le nom de Whitehorse ?",
+      "a": "De rapides écumants",
+      "x": [
+        "D’une montagne blanche",
+        "D’un cheval célèbre"
+      ]
+    }
+  },
+  "Q181056": {
+    "t": "Une ville en éventail au nord de l’équateur, au Brésil",
+    "s": "Boa Vista est dessinée comme un éventail ouvert : ses avenues rayonnent d’un centre civique près de la rive du rio Branco, un plan des années 1940 qui se détache nettement vu d’avion. C’est la seule capitale d’État brésilienne située entièrement dans l’hémisphère Nord. Autour, au lieu de la forêt tropicale, s’étend le lavrado, une savane ouverte d’herbes et de palmiers épars.",
+    "w": "Une ville en demi-cercle dont les rues partent en éventail d’une rive ; une savane ouverte vert pâle semée de petits lacs autour.",
+    "f": [
+      "Le mont Roraima, tepuy tabulaire où se rejoignent le Brésil, le Venezuela et le Guyana, se trouve à environ 250 km au nord.",
+      "Le rio Branco coule vers le sud jusqu’au rio Negro et, par lui, jusqu’à l’Amazone."
+    ],
+    "q": {
+      "q": "Quelle forme a le plan de Boa Vista ?",
+      "a": "Un éventail ouvert depuis la rivière",
+      "x": [
+        "Un quadrillage parfait",
+        "Des anneaux concentriques"
+      ]
+    }
+  },
+  "Q180215": {
+    "t": "Une ville sur l’équateur, face à l’embouchure de l’Amazone",
+    "s": "Macapá se trouve juste sur l’équateur, sur la rive nord de l’Amazone, là où le grand fleuve s’ouvre en une immense embouchure semée d’îles. Devant la ville, l’eau est brune et large de nombreux kilomètres. Ici, on prend l’équateur au sérieux : la ligne médiane du stade de football le suit, si bien que chaque équipe défend un but dans un hémisphère différent.",
+    "w": "Une ville sur une rive rectiligne face à un immense estuaire brun plein d’îles ; forêt plate et savane à l’intérieur.",
+    "f": [
+      "La forteresse de São José de Macapá, achevée en 1782, est l’un des plus grands forts bâtis par les Portugais au Brésil.",
+      "Aucune route ne relie Macapá au reste du Brésil : on traverse l’Amazone en bateau ou en avion."
+    ],
+    "q": {
+      "q": "Quelle ligne suit la ligne médiane du stade de Macapá ?",
+      "a": "L’équateur",
+      "x": [
+        "Le tropique du Cancer",
+        "Le méridien de Greenwich"
+      ]
+    }
+  },
+  "Q1930": {
+    "t": "Une capitale sur une rivière-frontière, un canal où patiner",
+    "s": "Ottawa se trouve sur la rive sud de la large rivière des Outaouais, qui sépare ici l’Ontario du Québec ; la ville de Gatineau lui fait face sur la rive nord. Au milieu court le canal Rideau, ouvert en 1832, dont une longue section gèle l’hiver en une patinoire de près de 8 km. La reine Victoria choisit la ville comme capitale du Canada en 1857.",
+    "w": "Une ville sur une large rivière, Gatineau en face ; un mince canal qui serpente au sud à travers le centre ; des collines boisées au nord-ouest.",
+    "f": [
+      "Le canal Rideau est inscrit au patrimoine mondial de l’UNESCO depuis 2007.",
+      "Trois rivières se rejoignent ici : l’Outaouais, la Rideau et la Gatineau."
+    ],
+    "q": {
+      "q": "Qui a choisi Ottawa comme capitale du Canada en 1857 ?",
+      "a": "La reine Victoria",
+      "x": [
+        "John A. Macdonald",
+        "Le roi George III"
+      ]
+    }
+  },
+  "Q3078079": {
+    "t": "Le bout nord de l’Ontario, au bord de la baie d’Hudson",
+    "s": "Fort Severn est une petite communauté crie près de l’embouchure de la Severn sur la baie d’Hudson : la localité la plus septentrionale de l’Ontario. Autour s’étendent les basses terres de la baie d’Hudson, l’une des plus grandes zones humides du monde, mosaïque plate de tourbières, de mares et d’épicéas rabougris. La Compagnie de la baie d’Hudson installa un premier poste de traite à l’embouchure en 1689.",
+    "w": "Un minuscule hameau près d’une embouchure, sur une côte plate et grise ; tourbières et mares à perte de vue à l’intérieur.",
+    "f": [
+      "Le parc provincial Polar Bear, le plus grand de l’Ontario, s’étend le long de la côte vers l’est.",
+      "La plus grande partie de l’année, la communauté n’est accessible que par avion."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui distingue Fort Severn des autres localités de l’Ontario ?",
+      "a": "C’est la plus septentrionale",
+      "x": [
+        "C’est la plus ancienne ville",
+        "C’est la capitale provinciale"
+      ]
+    }
+  },
+  "Q34116": {
+    "t": "Un port lacustre veillé par un Géant endormi",
+    "s": "Thunder Bay borde la rive nord-ouest du lac Supérieur, le plus grand lac d’eau douce du monde en superficie. De l’autre côté de la baie s’étend la longue péninsule Sibley, dont les falaises tabulaires ressemblent, vues de la ville, à un géant couché sur le dos : le Géant endormi de la légende ojibwée. La ville est née en 1970 de la fusion de deux ports rivaux, Fort William et Port Arthur.",
+    "w": "Une ville le long d’une baie incurvée d’un immense lac ; une longue et haute péninsule ferme la baie à l’est ; forêt sombre à l’intérieur.",
+    "f": [
+      "Au début du XIXe siècle, Fort William était le quartier général intérieur de la traite des fourrures de la Compagnie du Nord-Ouest.",
+      "Les chutes Kakabeka, à environ 30 km à l’ouest, tombent de quelque 40 m sur des falaises de schiste sombre."
+    ],
+    "q": {
+      "q": "Quelles villes ont fusionné en 1970 pour former Thunder Bay ?",
+      "a": "Fort William et Port Arthur",
+      "x": [
+        "Fort Erie et Port Elgin",
+        "Fort Frances et Port Hope"
+      ]
+    }
+  },
+  "Q2145": {
+    "t": "Une ville fortifiée sur sa falaise, où le fleuve se resserre",
+    "s": "Québec se dresse sur une haute falaise, au-dessus de l’endroit où le Saint-Laurent se rétrécit soudain : c’est exactement ce que signifie son nom algonquien. Samuel de Champlain y fonda un comptoir en 1608. Sa vieille ville est toujours ceinte de remparts de pierre, les seuls murs d’enceinte subsistants au nord du Mexique. En aval, le fleuve se partage autour de la longue île d’Orléans, verte et cultivée.",
+    "w": "Une ville sur une hauteur au-dessus d’un fleuve qui se resserre ; des ponts en amont ; une longue île cultivée en aval, où le fleuve s’élargit.",
+    "f": [
+      "Le pont de Québec, juste en amont, possède la plus longue travée cantilever du monde : 549 m.",
+      "La chute Montmorency, juste à l’est de la ville, haute d’environ 83 m, dépasse le Niagara de quelque 30 m."
+    ],
+    "q": {
+      "q": "Que signifie le nom Québec ?",
+      "a": "Là où le fleuve se rétrécit",
+      "x": [
+        "Pays des lacs",
+        "Vent froid"
+      ]
+    }
+  },
+  "Q2141": {
+    "t": "Un profond port naturel, avec un grand bassin derrière",
+    "s": "Halifax occupe une péninsule au bord de l’un des plus grands ports naturels du monde : un long bras de mer profond qui se resserre puis s’ouvre sur le bassin de Bedford, une large baie intérieure. Deux ponts suspendus franchissent le port jusqu’à Dartmouth, sur l’autre rive. Les Britanniques fondèrent la ville en 1749 comme base navale, et pendant des décennies les immigrants arrivés par mer posaient ici le pied au Canada.",
+    "w": "Une ville sur une péninsule, au bord d’un port long et profond qui s’ouvre sur un large bassin intérieur ; deux ponts sur l’eau.",
+    "f": [
+      "Entre 1928 et 1971, environ un million d’immigrants sont entrés au Canada par le Quai 21 de Halifax.",
+      "Le port reste libre de glace tout l’hiver."
+    ],
+    "q": {
+      "q": "Comment s’appelle la grande baie intérieure du port de Halifax ?",
+      "a": "Le bassin de Bedford",
+      "x": [
+        "Le bassin des Mines",
+        "La baie de Mahone"
+      ]
+    }
+  },
+  "Q2082": {
+    "t": "La ville la plus orientale d’Amérique du Nord",
+    "s": "Saint-Jean de Terre-Neuve se blottit autour d’un port bien abrité sur la côte est de l’île, accessible depuis l’océan par le seul goulet des Narrows, une fente entre de hautes falaises. Sur Signal Hill, qui le domine, Guglielmo Marconi reçut en 1901 le premier signal radio transatlantique. À quelques kilomètres au sud-est, le cap Spear est le point le plus oriental du continent nord-américain.",
+    "w": "Une ville vallonnée autour d’un petit port presque fermé, à l’entrée étroite ; des falaises escarpées et l’Atlantique à l’est.",
+    "f": [
+      "Terre-Neuve a son propre fuseau horaire, en avance d’une demi-heure sur l’heure de l’Atlantique.",
+      "Au printemps et au début de l’été, des icebergs du Groenland dérivent souvent le long de cette côte."
+    ],
+    "q": {
+      "q": "Que s’est-il passé sur Signal Hill, à Saint-Jean, en 1901 ?",
+      "a": "Le premier signal radio transatlantique",
+      "x": [
+        "Le premier appel vers l’Europe",
+        "Le premier vapeur parti pour l’Europe"
+      ]
+    }
+  },
+  "Q3335210": {
+    "t": "La ville la plus au nord du Labrador, entre îles et fjords",
+    "s": "Nain se trouve dans une baie abritée de la rude côte nord du Labrador, où des centaines d’îles rocheuses et de longs fjords morcellent le rivage et où la banquise s’attarde jusque tard au printemps. Des missionnaires moraves y fondèrent une mission en 1771. C’est la localité permanente la plus septentrionale du Labrador et la porte des monts Torngat, plus au nord.",
+    "w": "Un petit hameau sur une baie derrière un dédale d’îles rocheuses ; collines nues et arrondies, fjords ; banquise une bonne partie de l’année.",
+    "f": [
+      "La labradorite, pierre aux éclats bleus et verts, a été décrite pour la première fois vers 1770 d’après l’île Paul, près de Nain.",
+      "Nain est le centre administratif du Nunatsiavut, la région inuite du Labrador."
+    ],
+    "q": {
+      "q": "Quel minéral chatoyant a été décrit pour la première fois près de Nain ?",
+      "a": "La labradorite",
+      "x": [
+        "La pierre de lune",
+        "L’opale"
+      ]
+    }
+  },
+  "Q2127": {
+    "t": "Une petite capitale sur une île aux champs rouge brique",
+    "s": "Charlottetown se trouve sur un port où se rejoignent trois petites rivières, au milieu de l’Île-du-Prince-Édouard, et ce qu’on remarque d’abord, c’est la couleur de la terre. Le sol de l’île est d’un rouge brique vif, visible dans les champs labourés, sur les falaises et les plages. En 1864, une conférence tenue ici lança l’union de provinces qui allait devenir le Canada.",
+    "w": "Une petite ville sur un port ramifié ; un patchwork de champs verts et rouge-brun ; des falaises rouges le long du rivage.",
+    "f": [
+      "La couleur rouge vient de l’oxyde de fer, la rouille, contenu dans le grès et le sol de l’île.",
+      "Le pont de la Confédération, long d’environ 12,9 km, est le plus long pont du monde au-dessus d’eaux prises par les glaces.",
+      "La ville doit son nom à la reine Charlotte, épouse du roi George III."
+    ],
+    "q": {
+      "q": "Pourquoi le sol de l’Île-du-Prince-Édouard est-il si rouge ?",
+      "a": "À cause de l’oxyde de fer",
+      "x": [
+        "À cause de cendres volcaniques",
+        "À cause de corail broyé"
+      ]
+    }
+  },
+  "Q923541": {
+    "t": "Un port de Patagonie sur une vallée fluviale noyée",
+    "s": "Puerto Deseado se trouve à l’embouchure du río Deseado, sur la côte venteuse de la Patagonie argentine, où la mer a envahi une ancienne vallée fluviale pour former une ría longue et étroite qui s’enfonce de quelque 40 km dans les terres. Ses falaises et ses îlots grouillent d’oiseaux marins, d’otaries et de manchots. Le navigateur anglais Thomas Cavendish baptisa le port d’après son navire, le Desire, en 1586.",
+    "w": "Une petite ville à l’entrée d’un bras de mer long et étroit, taillé dans un plateau nu et fauve ; des îlots rocheux au large.",
+    "f": [
+      "Charles Darwin a exploré la ría lors du voyage du Beagle, en 1833.",
+      "Des gorfous sauteurs nichent sur l’Isla Pingüino, un peu plus au sud le long de la côte."
+    ],
+    "q": {
+      "q": "Quel navire a donné son nom à Puerto Deseado ?",
+      "a": "Le Desire de Thomas Cavendish",
+      "x": [
+        "La Victoria de Magellan",
+        "Le Beagle de Darwin"
+      ]
+    }
+  },
+  "Q44242": {
+    "t": "Une capitale de steppe balayée par le vent, sur un estuaire",
+    "s": "Río Gallegos s’étend sur la rive sud d’un large estuaire près de la pointe sud de l’Argentine, entourée par la steppe patagonienne plate et sans arbres. Ses marées comptent parmi les plus fortes de la côte argentine, et à marée basse apparaissent d’immenses vasières grises où se nourrissent les limicoles migrateurs. Fondée en 1885, la ville a grandi comme port de la laine des immenses estancias à moutons alentour.",
+    "w": "Une ville basse au bord d’un large estuaire aux vastes vasières ; une steppe plate et fauve jusqu’à l’horizon.",
+    "f": [
+      "C’est la capitale de Santa Cruz, l’une des provinces les plus vastes et les moins peuplées d’Argentine.",
+      "De forts vents d’ouest balaient la steppe ici une grande partie de l’année."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a enrichi la région de Río Gallegos à la fin du XIXe siècle ?",
+      "a": "L’élevage ovin",
+      "x": [
+        "Les mines d’argent",
+        "La canne à sucre"
+      ]
+    }
+  },
+  "Q221921": {
+    "t": "Une ville née du pétrole, trouvé en cherchant de l’eau",
+    "s": "Comodoro Rivadavia est coincée entre le golfe San Jorge et les pentes raides du Cerro Chenque, une colline tabulaire qui domine le centre. En 1907, des ouvriers qui foraient pour trouver de l’eau douce dans ce coin aride de Patagonie tombèrent sur du pétrole : la ville devint le premier grand centre pétrolier d’Argentine. Des vents implacables balaient la steppe et font aujourd’hui tourner des rangées d’éoliennes.",
+    "w": "Une ville étirée le long d’un large golfe sous des collines nues et tabulaires ; des puits de pétrole semés sur la steppe brune derrière.",
+    "f": [
+      "La ville a été fondée en 1901 et porte le nom de l’officier de marine Martín Rivadavia.",
+      "Le golfe San Jorge est l’une des plus grandes baies de la côte atlantique argentine."
+    ],
+    "q": {
+      "q": "Que cherchaient les foreurs quand ils ont trouvé du pétrole ici en 1907 ?",
+      "a": "De l’eau",
+      "x": [
+        "De l’or",
+        "Du charbon"
+      ]
+    }
+  },
+  "Q44237": {
+    "t": "Une oasis verte de vignobles au pied des hautes Andes",
+    "s": "Mendoza est une oasis : la terre alentour est semi-désertique, mais la ville et ses vignes restent vertes grâce à des canaux d’irrigation alimentés par la fonte des neiges andines, un système lancé par le peuple huarpe bien avant que les Espagnols ne fondent la ville en 1561. À l’ouest, les Andes dressent un mur massif, et l’Aconcagua, plus haut sommet hors d’Asie, se trouve à environ 110 km.",
+    "w": "Une grande ville verte et un patchwork de vignes sur une plaine sèche, au pied d’un immense mur de montagnes striées de neige.",
+    "f": [
+      "La région de Mendoza produit l’essentiel du vin argentin et est surtout célèbre pour le malbec.",
+      "Les rues sont bordées de rigoles d’irrigation à ciel ouvert, les acequias, qui arrosent les arbres."
+    ],
+    "q": {
+      "q": "Pour quel cépage Mendoza est-elle surtout célèbre ?",
+      "a": "Le malbec",
+      "x": [
+        "Le pinot noir",
+        "Le riesling"
+      ]
+    }
+  },
+  "Q2907": {
+    "t": "La blanche capitale coloniale et son mur à dinosaures",
+    "s": "Sucre est une ville de murs blanchis à la chaux et de toits de tuiles rouges, au milieu de collines sèches et ondulées, à environ 2 800 m. C’est la capitale constitutionnelle de la Bolivie, même si le gouvernement siège à La Paz, et c’est ici que fut proclamée l’indépendance bolivienne en 1825. En lisière de la ville, une falaise de carrière, Cal Orck’o, est couverte de milliers d’empreintes de dinosaures.",
+    "w": "Une ville compacte de bâtiments clairs et de toits rouges dans une cuvette de collines brunes ; des vallées érodées tout autour.",
+    "f": [
+      "Cal Orck’o abrite l’une des plus grandes collections de traces de dinosaures du monde, sur un mur calcaire presque vertical.",
+      "Fondée en 1538, la ville a porté plusieurs noms, dont La Plata et Chuquisaca."
+    ],
+    "q": {
+      "q": "De quoi est couverte la falaise de Cal Orck’o, près de Sucre ?",
+      "a": "D’empreintes de dinosaures",
+      "x": [
+        "De peintures rupestres incas",
+        "De filons d’argent"
+      ]
+    }
+  },
+  "Q941357": {
+    "t": "Capitale de la noix du Brésil, entre deux rivières de jungle",
+    "s": "Riberalta se dresse sur une haute berge, là où la Madre de Dios se jette dans le Beni, au cœur des forêts de plaine du nord de la Bolivie. D’en haut, les deux rivières décrivent de larges boucles brunes, laissant derrière elles des lacs en croissant. La ville a été fondée en 1894, pendant le boom du caoutchouc, et vit aujourd’hui surtout de la noix du Brésil, récoltée à l’état sauvage dans la forêt.",
+    "w": "Une petite ville sur une berge au confluent de deux larges rivières brunes et sinueuses ; bras morts et forêt dense tout autour.",
+    "f": [
+      "La Bolivie est le premier exportateur mondial de noix du Brésil, et une grande partie est transformée à Riberalta.",
+      "La noix du Brésil vient d’arbres géants sauvages qui prospèrent rarement en plantation."
+    ],
+    "q": {
+      "q": "Quelle noix est transformée en énormes quantités à Riberalta ?",
+      "a": "La noix du Brésil",
+      "x": [
+        "La noix de cajou",
+        "La noix de macadamia"
+      ]
+    }
+  },
+  "Q54108": {
+    "t": "La « baie Blanche », dédale de chenaux et de sel",
+    "s": "Bahía Blanca se trouve au fond d’un large estuaire où des chenaux de marée serpentent entre prés salés et vasières ; les premiers marins l’appelèrent « baie Blanche » d’après les croûtes de sel qui brillaient sur le rivage. D’abord fort de frontière en 1828, elle est devenue l’un des grands ports en eau profonde d’Argentine, qui expédie les céréales de la pampa. Au nord s’élève la basse Sierra de la Ventana.",
+    "w": "Une ville au bord d’un vaste estuaire lacé de chenaux sinueux et d’étendues pâles ; quais et industries sur la rive ; des terres plates à l’intérieur.",
+    "f": [
+      "En 1832, Charles Darwin a exhumé à Punta Alta, sur cette baie, des fossiles de mammifères géants disparus.",
+      "Le Cerro Tres Picos, dans la Sierra de la Ventana, est le point culminant de la province de Buenos Aires."
+    ],
+    "q": {
+      "q": "D’où vient le nom de Bahía Blanca, « baie Blanche » ?",
+      "a": "Des croûtes de sel du rivage",
+      "x": [
+        "De dunes de sable blanc",
+        "De falaises de craie"
+      ]
+    }
+  },
+  "Q52607": {
+    "t": "La ville balnéaire argentine, où la pampa rejoint la mer",
+    "s": "Mar del Plata est l’endroit où la pampa plate et infinie atteint enfin l’Atlantique, et ici la côte devient rocheuse, avec de basses falaises et des caps entre de longues plages de sable. Fondée en 1874, elle devint le lieu de villégiature estival de Buenos Aires, et en janvier sa population gonfle énormément. Cherchez les longues digues de son port, où vit une colonie d’otaries.",
+    "w": "Une grande ville côtière qui suit plages et pointes rocheuses ; un port aux longues digues ; des terres agricoles plates et vertes à l’intérieur.",
+    "f": [
+      "Une colonie d’otaries à crinière vit en plein port de pêche.",
+      "Buenos Aires se trouve à environ 400 km au nord-ouest."
+    ],
+    "q": {
+      "q": "Quels animaux vivent en colonie en plein port de Mar del Plata ?",
+      "a": "Des otaries",
+      "x": [
+        "Des flamants",
+        "Des pélicans"
+      ]
+    }
+  },
+  "Q44210": {
+    "t": "La deuxième ville d’Argentine, entre plaines et sierras",
+    "s": "Córdoba s’étend le long du río Suquía, là où la pampa plate commence à monter vers les Sierras de Córdoba, une chaîne de collines de granit arrondies à l’ouest. Fondée en 1573, elle est devenue un centre du savoir : son université, fondée par les jésuites en 1613, est la plus ancienne d’Argentine. Les bâtiments jésuites du centre et leurs estancias dans les collines sont inscrits au patrimoine mondial.",
+    "w": "Une grande ville sur une plaine, avec des collines toutes proches à l’ouest ; une rivière qui serpente à travers le centre.",
+    "f": [
+      "Le Cerro Champaquí, point culminant des sierras, atteint environ 2 790 m.",
+      "Mar Chiquita, le plus grand lac salé d’Argentine, se trouve à environ 170 km au nord-est."
+    ],
+    "q": {
+      "q": "Quelle est la plus ancienne université d’Argentine ?",
+      "a": "L’université de Córdoba",
+      "x": [
+        "L’université de Buenos Aires",
+        "L’université de La Plata"
+      ]
+    }
+  },
+  "Q44238": {
+    "t": "Une ville de terre rouge face au Paraguay",
+    "s": "Posadas se trouve sur la rive sud du Paraná, barré en aval en une vaste étendue semblable à un lac ; en face, sur l’autre rive, Encarnación, au Paraguay, lui est reliée par un long pont. Le sol de la province de Misiones est d’un rouge brique saisissant, visible au bord des routes et dans les champs, entre des îlots de forêt et des plantations de maté.",
+    "w": "Une ville sur un fleuve très large, une autre ville en face, reliées par un long pont ; terre rouge, champs verts et forêt autour.",
+    "f": [
+      "Le barrage de Yacyretá, en aval, a fait monter le fleuve et l’a élargi en réservoir.",
+      "Les ruines de San Ignacio Miní, mission jésuite des XVIIe et XVIIIe siècles, se dressent à environ 60 km à l’est."
+    ],
+    "q": {
+      "q": "Quelle ville paraguayenne fait face à Posadas de l’autre côté du Paraná ?",
+      "a": "Encarnación",
+      "x": [
+        "Ciudad del Este",
+        "Pilar"
+      ]
+    }
+  },
+  "Q3043": {
+    "t": "Une petite capitale bâtie exprès dans la jungle du Belize",
+    "s": "Belmopan est l’une des plus petites capitales du monde, une ville bien rangée plantée dans la campagne verte et vallonnée de la vallée du Belize. Elle a été construite dans les années 1960, à environ 80 km à l’intérieur des terres, pour remplacer Belize City, basse et exposée aux ouragans des Caraïbes ; le gouvernement s’y est installé en 1970. Au sud s’élèvent les monts Maya, couverts de forêt.",
+    "w": "Une petite ville basse parmi collines vertes et forêt, près d’une rivière sinueuse ; des montagnes sombres et boisées au sud.",
+    "f": [
+      "Au large s’étend la barrière de corail du Belize, qui fait partie du deuxième plus grand système récifal du monde.",
+      "Le nom associe « Belize » et « Mopan », deux rivières du pays."
+    ],
+    "q": {
+      "q": "Pourquoi Belmopan a-t-elle été bâtie loin de la côte ?",
+      "a": "Pour être à l’abri des ouragans",
+      "x": [
+        "Pour être près du pétrole",
+        "Pour garder la frontière"
+      ]
+    }
+  },
+  "Q1491": {
+    "t": "Le plus haut siège de gouvernement du monde, dans un canyon",
+    "s": "La Paz est coulée dans un profond canyon entaillé au bord de l’Altiplano, ses immeubles dévalant depuis le rebord, à environ 4 000 m, vers un fond plusieurs centaines de mètres plus bas. Sur le plateau s’étale El Alto, avec l’un des aéroports internationaux les plus hauts du monde. Au-dessus de tout, au sud-est, se dressent les trois sommets enneigés de l’Illimani, haut d’environ 6 440 m.",
+    "w": "Une ville qui remplit un canyon profond et ramifié sous un haut plateau ; une autre ville sur le rebord ; un sommet enneigé triple au sud-est.",
+    "f": [
+      "À environ 3 600 m, La Paz est le siège de gouvernement le plus haut du monde.",
+      "Le lac Titicaca se trouve à environ 60 km au nord-ouest, de l’autre côté de l’Altiplano.",
+      "Les Espagnols ont fondé la ville en 1548."
+    ],
+    "q": {
+      "q": "Quelle montagne enneigée domine La Paz ?",
+      "a": "L’Illimani",
+      "x": [
+        "L’Aconcagua",
+        "Le Chimborazo"
+      ]
+    }
+  },
+  "Q170688": {
+    "t": "La plus grande ville de Bolivie, tracée en anneaux",
+    "s": "Santa Cruz de la Sierra ne se trouve pas dans les Andes mais dans les plaines chaudes et plates à leur est, et son plan saute aux yeux vu d’avion : des boulevards circulaires, les anillos, entourent la place centrale les uns dans les autres, comme les cernes d’un arbre. C’est aujourd’hui la plus grande ville de Bolivie. Autour s’étendent d’immenses champs de soja géométriques, taillés dans la forêt de plaine.",
+    "w": "Une grande ville aux boulevards concentriques sur une plaine verte ; une rivière le long de sa bordure ouest ; d’immenses champs rectangulaires au-delà.",
+    "f": [
+      "Une expédition partie d’Asunción fonda d’abord la ville en 1561, bien plus à l’est ; elle fut déplacée ici plus tard dans le même siècle.",
+      "À environ 400 m d’altitude, elle se trouve plus de 3 km plus bas que La Paz."
+    ],
+    "q": {
+      "q": "Quelle forme a le plan des routes de Santa Cruz ?",
+      "a": "Des anneaux concentriques",
+      "x": [
+        "Un éventail depuis la rivière",
+        "Un quadrillage strict"
+      ]
+    }
+  },
+  "Q41211": {
+    "t": "Une vieille ville fortifiée sur un îlot, à l’entrée du port",
+    "s": "Le cœur colonial de San Juan occupe un îlot étroit qui garde l’entrée d’une grande baie, ses forts de pierre tournés vers l’Atlantique. Les colons espagnols s’y installèrent en 1521 : c’est l’une des plus anciennes villes d’origine européenne des Amériques. À l’est, la ville moderne s’incurve le long de plages et de lagunes jusqu’à l’aéroport. Au large, le fond de l’océan plonge dans une fosse profonde.",
+    "w": "Un long îlot fortifié à l’entrée d’une large baie ; hôtels, lagunes et plages qui filent vers l’est jusqu’à l’aéroport.",
+    "f": [
+      "À environ 120 km au nord se trouve la fosse de Porto Rico, point le plus profond de l’Atlantique, à plus de 8 km.",
+      "Les forts et la vieille ville de San Juan sont inscrits au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Qu’y a-t-il au fond de la mer au nord de San Juan ?",
+      "a": "Le point le plus profond de l’Atlantique",
+      "x": [
+        "Une dorsale médio-océanique",
+        "Un trou bleu géant"
+      ]
+    }
+  },
+  "Q12245": {
+    "t": "Un petit port sur des îles sans arbres, battues par le vent",
+    "s": "Stanley est une petite ville sur un port abrité de Falkland-Oriental, face à une lande sans arbres, à des crêtes rocheuses basses et à une côte déchiquetée. Les îles sont célèbres pour leurs manchots : papous, royaux, gorfous sauteurs et manchots de Magellan. Cherchez à l’intérieur des traînées pâles sur les collines : des « stone runs », rivières de blocs laissées par le gel de l’ère glaciaire. La ville a été tracée dans les années 1840.",
+    "w": "Une petite ville sur la rive sud d’un port étroit ; lande nue vert-brun, crêtes rocheuses et coulées de blocs pâles autour.",
+    "f": [
+      "Des carcasses de voiliers du XIXe siècle, arrivés à bout de forces après le cap Horn, gisent encore dans le port et alentour.",
+      "Les îles n’ont aucun arbre indigène, et des vents violents les balaient une grande partie de l’année."
+    ],
+    "q": {
+      "q": "Que sont les « stone runs » visibles près de Stanley ?",
+      "a": "Des coulées de blocs glaciaires",
+      "x": [
+        "De vieux murets de pierre",
+        "Des coulées de lave"
+      ]
+    }
+  },
+  "Q30985": {
+    "t": "Un hameçon d’îles, seul au milieu de l’Atlantique",
+    "s": "Les Bermudes surgissent de l’Atlantique vide comme un mince hameçon d’îles enveloppé de hauts-fonds turquoise et de récifs coralliens, à environ 1 000 km du continent le plus proche. Hamilton, la capitale depuis 1815, se trouve au fond d’un port abrité, au milieu. Regardez bien les maisons : leurs toits à gradins sont peints en blanc et conçus pour recueillir l’eau de pluie, principale source d’eau douce des îles.",
+    "w": "Une chaîne incurvée d’îles vertes dans un large anneau de récif turquoise ; de minuscules toits blancs partout ; un port au milieu.",
+    "f": [
+      "Les îles doivent leur nom au navigateur espagnol Juan de Bermúdez, qui les découvrit au début du XVIe siècle.",
+      "Les Bermudes n’ont ni rivière ni lac d’eau douce."
+    ],
+    "q": {
+      "q": "Pourquoi les toits des Bermudes sont-ils blancs et à gradins ?",
+      "a": "Pour recueillir l’eau de pluie",
+      "x": [
+        "Pour détourner la foudre",
+        "Pour guider les pilotes"
+      ]
+    }
+  },
+  "Q38834": {
+    "t": "Une capitale royale sur une île corallienne plate",
+    "s": "Nuku’alofa se trouve sur la côte nord de Tongatapu, une île corallienne basse et plate cerclée de récifs, entaillée au nord par un grand lagon peu profond. Son nom signifie « demeure de l’amour ». Les Tonga sont un royaume, et l’un des premiers pays à saluer chaque nouveau jour, juste à l’ouest de la ligne de changement de date. Le capitaine Cook les baptisa îles des Amis dans les années 1770.",
+    "w": "Une petite ville sur la côte nord d’une île verte et plate ; un large lagon peu profond derrière ; récifs et îlots turquoise au large.",
+    "f": [
+      "Le Ha’amonga ’a Maui, trilithe de pierre bâti vers le XIIIe siècle, se dresse à l’extrémité est de l’île.",
+      "Environ les trois quarts des Tongiens vivent sur Tongatapu."
+    ],
+    "q": {
+      "q": "Comment le capitaine Cook appelait-il les îles Tonga ?",
+      "a": "Les îles des Amis",
+      "x": [
+        "Les îles de la Société",
+        "Les îles Sandwich"
+      ]
+    }
+  },
+  "Q36260": {
+    "t": "Une capitale portuaire sur une île volcanique verte",
+    "s": "Apia s’étire le long de la côte nord d’Upolu, île volcanique luxuriante dont les crêtes boisées se dressent derrière la ville. Son port s’ouvre sur la mer par une brèche dans le récif. Les Samoa étaient autrefois de l’autre côté de la ligne de changement de date, mais en 2011 elles ont sauté le 30 décembre pour vivre le même jour que l’Australie et la Nouvelle-Zélande : elles voient désormais parmi les premières chaque nouveau jour.",
+    "w": "Une ville le long d’une baie incurvée sur une île verte et montagneuse ; une ligne blanche de récif au large, percée d’une passe.",
+    "f": [
+      "Robert Louis Stevenson a passé ses dernières années à Vailima, au-dessus d’Apia, et repose sur le mont Vaea, tout proche.",
+      "Upolu et sa grande voisine, Savai’i, sont toutes deux des îles volcaniques."
+    ],
+    "q": {
+      "q": "Quel écrivain a passé ses dernières années sur les hauteurs d’Apia ?",
+      "a": "Robert Louis Stevenson",
+      "x": [
+        "Herman Melville",
+        "Jack London"
+      ]
+    }
+  },
+  "Q2467": {
+    "t": "Des bancs turquoise au bord d’une fosse océanique bleu nuit",
+    "s": "Autour de Nassau, la mer offre son spectacle le plus éblouissant : turquoise pâle et crème sur les bancs peu profonds des Bahamas, puis une plongée soudaine dans le bleu sombre de la Tongue of the Ocean, une fosse de plus de 1 500 m juste au sud de l’île. Nassau borde la côte nord de New Providence, face à Paradise Island, de l’autre côté du port.",
+    "w": "Une petite ville insulaire sur un port étroit ; des hauts-fonds turquoise éclatants ; au sud, la bordure nette d’eaux profondes bleu sombre.",
+    "f": [
+      "Au début du XVIIIe siècle, Nassau était un repaire notoire de pirates, dont Barbe Noire.",
+      "La ville a été baptisée en 1695 en l’honneur du roi Guillaume III, de la maison d’Orange-Nassau."
+    ],
+    "q": {
+      "q": "Qu’est-ce que la « Tongue of the Ocean », près de Nassau ?",
+      "a": "Une fosse d’eau profonde",
+      "x": [
+        "Un long récif corallien",
+        "Un banc de sable"
+      ]
+    }
   }
 }

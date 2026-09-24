@@ -2411,5 +2411,306 @@
         "Klaipėda"
       ]
     }
+  },
+  "Q81150": {
+    "t": "Mongolia's biggest lake, a salty oval in the steppe",
+    "s": "Uvs Nuur is Mongolia's largest lake: a broad, salty oval in a closed basin where desert dunes, steppe, taiga and snowy peaks all lie within sight of one another. No river flows out. Winters here are bitterly cold and the lake stays frozen for months; in summer, its blue shimmers against the brown steppe.",
+    "w": "A large, oval, salty lake in the dry steppe of north-western Mongolia, ringed by the mountains of its basin.",
+    "f": [
+      "The Uvs Nuur Basin, shared with Russia's Tuva, is a UNESCO World Heritage site.",
+      "It lies about 750 m above sea level, at the lowest point of its basin."
+    ],
+    "q": {
+      "q": "Uvs Nuur is the largest lake in which country?",
+      "a": "Mongolia",
+      "x": [
+        "Kazakhstan",
+        "China"
+      ]
+    }
+  },
+  "Q201294": {
+    "t": "China's largest lake, blue on the high plateau",
+    "s": "At about 3,200 m on the edge of the Tibetan Plateau lies China's largest lake, a vast salty sheet of vivid blue. Its Chinese name, Qinghai, means “blue sea”, and the Mongolian name Kokonor means “blue lake” — the whole province is named after it. In July its shores glow with yellow rapeseed fields, framed by bare brown mountains.",
+    "w": "A huge, bright blue oval lake on the high, bare north-eastern edge of the Tibetan Plateau, west of Xining.",
+    "f": [
+      "Bird Island is a nesting ground for bar-headed geese, famous for flying over the Himalayas.",
+      "Its water is salty, though less so than the sea.",
+      "The Qinghai–Tibet Railway runs along its northern shore."
+    ],
+    "q": {
+      "q": "What does the Mongolian name Kokonor mean?",
+      "a": "Blue lake",
+      "x": [
+        "Salt sea",
+        "Sky mirror"
+      ]
+    }
+  },
+  "Q2007652": {
+    "t": "The “Lake of Salt” west of Karbala",
+    "s": "Lake Milh — Buhayrat al-Milh, the “Lake of Salt” — spreads across a desert depression west of Karbala. Floodwater from the Euphrates reaches it by canal via Lake Habbaniyah, but in recent decades it has shrunk sharply, leaving wide white salt flats around a smaller sheet of blue-green water. It is also known as Lake Razzaza.",
+    "w": "A shallow blue-green lake ringed by white salt flats in the desert west of Karbala, south-west of Baghdad.",
+    "f": [
+      "It is one of the largest lakes in Iraq.",
+      "As its water shrank, it grew too salty for most fish."
+    ],
+    "q": {
+      "q": "What does Buhayrat al-Milh mean?",
+      "a": "Lake of Salt",
+      "x": [
+        "Lake of Palms",
+        "Lake of Stars"
+      ]
+    }
+  },
+  "Q204703": {
+    "t": "A stormy sea ringed by a loop of sub-Antarctic islands",
+    "s": "The Scotia Sea is one of the stormiest stretches of water on Earth, swept by the Antarctic Circumpolar Current and dotted with icebergs. Its edges are traced by the Scotia Arc, a great loop of islands from South Georgia to the South Shetlands. In 1916 Ernest Shackleton crossed it in a small open boat to fetch help for his stranded crew.",
+    "w": "Grey, wind-whipped open ocean between South America and Antarctica, with icebergs and the snowy peaks of South Georgia.",
+    "f": [
+      "It is named after the Scotia, ship of the Scottish National Antarctic Expedition of 1902–04.",
+      "Shackleton's boat journey from Elephant Island to South Georgia covered more than 1,200 km.",
+      "Its cold waters swarm with Antarctic krill, food for whales and penguins."
+    ],
+    "q": {
+      "q": "What did Shackleton cross the Scotia Sea in, in 1916?",
+      "a": "A small open boat",
+      "x": [
+        "A steamship",
+        "A seaplane"
+      ]
+    }
+  },
+  "Q41837": {
+    "t": "The seaway between Arabia and the Horn of Africa",
+    "s": "The Gulf of Aden is a long wedge of deep blue between the bare mountains of Yemen and the dry coast of Somalia. Ships heading to and from the Suez Canal funnel through it. Beneath it runs a spreading ridge where Arabia and Africa are slowly pulling apart. At its eastern mouth lies Socotra, an island of strange, umbrella-shaped dragon's blood trees.",
+    "w": "A long, deep-blue gulf between Yemen's rugged coast and the Horn of Africa, narrowing west towards the Bab-el-Mandeb strait.",
+    "f": [
+      "The Bab-el-Mandeb strait at its western end is only about 30 km wide.",
+      "Socotra and its unique plants are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which famous trees grow on Socotra, off the Gulf of Aden?",
+      "a": "Dragon's blood trees",
+      "x": [
+        "Giant sequoias",
+        "Monkey puzzle trees"
+      ]
+    }
+  },
+  "Q79948": {
+    "t": "Gateway to the Gulf, beneath the Hajar Mountains",
+    "s": "The Gulf of Oman is the entrance hall to the Persian Gulf: tankers file through it towards the Strait of Hormuz. Along its south-western shore, the jagged, rust-brown Hajar Mountains drop almost straight into the sea, with Muscat tucked between them. In the north-west, the Musandam Peninsula frays into fjords that earned it the nickname “Norway of Arabia”.",
+    "w": "A wide gulf between Oman's rugged mountain coast and Iran, narrowing north-west towards the Strait of Hormuz.",
+    "f": [
+      "Tankers carrying a large share of the world's oil pass through it every day.",
+      "Musandam is an exclave of Oman, cut off from the rest of the country by the UAE."
+    ],
+    "q": {
+      "q": "Which peninsula is nicknamed the “Norway of Arabia”?",
+      "a": "Musandam",
+      "x": [
+        "Qatar",
+        "Sinai"
+      ]
+    }
+  },
+  "Q38882": {
+    "t": "A volcanic sea between Italy and its great islands",
+    "s": "The Tyrrhenian is ringed by volcanoes and islands: Italy's west coast, Corsica, Sardinia and Sicily enclose it. Above the Bay of Naples rises Vesuvius, and in the south the Aeolian Islands include Stromboli, which throws up small bursts of lava every few minutes. On a night flight, you might even catch its red glow.",
+    "w": "A deep-blue sea west of mainland Italy, framed by Corsica and Sardinia; volcanic islands north of Sicily.",
+    "f": [
+      "Its name comes from the Tyrrhenians, as the ancient Greeks called the Etruscans.",
+      "Sailors have long called Stromboli the “Lighthouse of the Mediterranean”.",
+      "Its deepest point lies about 3,800 m down."
+    ],
+    "q": {
+      "q": "Which volcano is known as the “Lighthouse of the Mediterranean”?",
+      "a": "Stromboli",
+      "x": [
+        "Etna",
+        "Vesuvius"
+      ]
+    }
+  },
+  "Q44133": {
+    "t": "Russia's northern inland sea, white for half the year",
+    "s": "The White Sea cuts deep into northern Russia, a branching inland sea that lives up to its name: it is covered with ice for about half the year. Near its western shores lie the Solovetsky Islands, where a monastery founded in the 15th century still stands. In the south-east, the Northern Dvina splits into a delta around Arkhangelsk, once Russia's chief seaport.",
+    "w": "A branching inland sea in Russia's far north, white with ice in winter; the Solovetsky Islands near its western shores.",
+    "f": [
+      "The Solovetsky Islands are a UNESCO World Heritage site.",
+      "Tides in its Mezen Bay can reach about 10 m.",
+      "The White Sea–Baltic Canal links it to Lake Onega and the Baltic."
+    ],
+    "q": {
+      "q": "Which city stands at the Northern Dvina delta on the White Sea?",
+      "a": "Arkhangelsk",
+      "x": [
+        "Murmansk",
+        "Petrozavodsk"
+      ]
+    }
+  },
+  "Q223810": {
+    "t": "Hudson Bay's shallow, river-fed southern pocket",
+    "s": "James Bay is the shallow southern pocket of Hudson Bay, fed by so many big rivers that its water is only mildly salty. Its shores are low and flat — a wide fringe of marsh and tidal mudflats where huge flocks of geese and shorebirds stop on migration. In winter it freezes over completely, and the frozen coast blurs into the white land beyond.",
+    "w": "A shallow bay at the southern end of Hudson Bay, between Ontario and Quebec, with low, marshy shores and many river mouths.",
+    "f": [
+      "It is named after Captain Thomas James, who explored it in 1631.",
+      "Moose Factory, a Hudson's Bay Company post founded in 1673, stands near its southern shore.",
+      "Akimiski, its largest island, is part of Nunavut."
+    ],
+    "q": {
+      "q": "James Bay is the southern extension of which body of water?",
+      "a": "Hudson Bay",
+      "x": [
+        "Baffin Bay",
+        "The Gulf of St Lawrence"
+      ]
+    }
+  },
+  "Q180844": {
+    "t": "Home of the Morning Glory roll clouds",
+    "s": "In September and October, glider pilots travel to the southern shore of the Gulf of Carpentaria for a rare sight: the Morning Glory, a tube-shaped roll cloud that can stretch for hundreds of kilometres and rolls in at dawn. The gulf itself is a broad, shallow, warm sea between Cape York and Arnhem Land, fringed with mangroves and mudflats.",
+    "w": "A huge, squarish bay in northern Australia, between Cape York Peninsula and Arnhem Land; muddy green near the coasts.",
+    "f": [
+      "It is named after Pieter de Carpentier, a governor-general of the Dutch East Indies.",
+      "Most of it is less than 70 m deep.",
+      "The Morning Glory is best seen near the small town of Burketown."
+    ],
+    "q": {
+      "q": "What is the Morning Glory over the Gulf of Carpentaria?",
+      "a": "A giant roll cloud",
+      "x": [
+        "A flowering vine",
+        "A red tide"
+      ]
+    }
+  },
+  "Q132811": {
+    "t": "The long sea behind Baja California",
+    "s": "Look for a long, narrow sea between the bare mountains of the Baja California peninsula and mainland Mexico — about 1,100 km from end to end. It opened as Baja slowly tore away from the continent along the San Andreas fault system. Its water is famously rich in life; Jacques Cousteau called it “the aquarium of the world”.",
+    "w": "A long, narrow blue sea between the desert mountains of Baja California and mainland Mexico, dotted with bare islands.",
+    "f": [
+      "The vaquita, the world's smallest porpoise, lives only in its northern end.",
+      "Its islands and protected areas are a UNESCO World Heritage site.",
+      "It is also called the Sea of Cortés."
+    ],
+    "q": {
+      "q": "Which tiny, rare animal lives only in the Gulf of California?",
+      "a": "The vaquita porpoise",
+      "x": [
+        "The dugong",
+        "The Amazon river dolphin"
+      ]
+    }
+  },
+  "Q207702": {
+    "t": "The icy gateway into Hudson Bay",
+    "s": "Every ship bound for Hudson Bay from the Atlantic must pass through this long, icy strait between Baffin Island and northern Quebec. Henry Hudson sailed it in 1610. Its tides are fierce: in Ungava Bay, on its southern side, the sea can rise and fall by more than 15 m. For much of the year, drifting pack ice fills it from shore to shore.",
+    "w": "A long, wide strait between Baffin Island's rugged south coast and Quebec's Ungava Peninsula, often full of drifting ice.",
+    "f": [
+      "It is about 750 km long.",
+      "Ungava Bay has some of the highest tides on Earth."
+    ],
+    "q": {
+      "q": "Which bay on the Hudson Strait has some of the world's highest tides?",
+      "a": "Ungava Bay",
+      "x": [
+        "James Bay",
+        "Baffin Bay"
+      ]
+    }
+  },
+  "Q34640": {
+    "t": "The narrow, busy sea between England and France",
+    "s": "At its narrowest, the Strait of Dover, only about 33 km separate England from France — on a clear day the white chalk cliffs on both sides are easy to pick out. It is one of the busiest shipping lanes on Earth; look for the white wakes of ships lined up like traffic. Beneath the seabed, the Channel Tunnel links the two coasts.",
+    "w": "A long sea narrowing eastwards between England's south coast and northern France, busy with ships; chalk cliffs at the Dover end.",
+    "f": [
+      "The Channel Tunnel, opened in 1994, runs for about 38 km beneath the sea.",
+      "About 450,000 years ago a huge ice-age flood broke through a chalk ridge here, helping to cut Britain off.",
+      "The French call it La Manche, “the sleeve”."
+    ],
+    "q": {
+      "q": "About how wide is the Strait of Dover at its narrowest?",
+      "a": "About 33 km",
+      "x": [
+        "About 8 km",
+        "About 80 km"
+      ]
+    }
+  },
+  "Q795608": {
+    "t": "Turquoise cays where three countries meet the Caribbean",
+    "s": "The Gulf of Honduras is a sheltered corner of the Caribbean where the coasts of Belize, Guatemala and Honduras meet. Scattered across it are low mangrove cays and the southern tip of the great Mesoamerican Barrier Reef, bright turquoise against the deep blue. Rivers from the green mountains inland tint the water brown near their mouths.",
+    "w": "A broad Caribbean inlet south of Belize, with turquoise reefs and small cays; the Bay Islands of Honduras lie to the east.",
+    "f": [
+      "Whale sharks, the largest fish on Earth, visit the waters off Utila in the Bay Islands.",
+      "Belize's Sapodilla Cayes, near its mouth, mark the southern end of the barrier reef.",
+      "The Motagua River from Guatemala empties into it."
+    ],
+    "q": {
+      "q": "Which three countries share the shores of the Gulf of Honduras?",
+      "a": "Belize, Guatemala, Honduras",
+      "x": [
+        "Mexico, Belize, Honduras",
+        "Honduras, Nicaragua, Guatemala"
+      ]
+    }
+  },
+  "Q122574": {
+    "t": "A nearly fresh northern gulf where the land still rises",
+    "s": "The Gulf of Bothnia is the Baltic's long northern arm between Sweden and Finland, and its water is so fresh that in the far north it is barely salty. Each winter ice spreads across it, and in some years it freezes from shore to shore. The land here is still rising after the ice age, adding new islets and skerries to the Kvarken archipelago every century.",
+    "w": "A long grey-blue gulf between Sweden and Finland, white with ice in winter; an island-strewn narrow waist at Kvarken.",
+    "f": [
+      "Sweden's High Coast has risen about 286 m since the ice sheet melted — more than anywhere else known.",
+      "The High Coast and the Kvarken archipelago form a joint UNESCO World Heritage site.",
+      "Around Kvarken the land still rises by up to about 8 mm a year."
+    ],
+    "q": {
+      "q": "Why do new islands keep appearing in the Gulf of Bothnia?",
+      "a": "The land is still rising",
+      "x": [
+        "Volcanoes are erupting",
+        "Coral reefs are growing"
+      ]
+    }
+  },
+  "Q13924": {
+    "t": "A long blue sea between Italy and a coast of islands",
+    "s": "The Adriatic stretches for about 800 km between Italy's smooth coastline and the Balkans' jagged one. On the eastern side, the Croatian shore dissolves into long islands lying parallel to the coast — more than a thousand of them, counting islets and reefs. In the north the sea is shallow and greenish, with the Po delta and the lagoon of Venice on its western side.",
+    "w": "A long sea between Italy and the Balkans; the Croatian coast breaks into rows of long islands parallel to the shore.",
+    "f": [
+      "The Bora, a fierce cold wind, can sweep down from the mountains onto its eastern coast.",
+      "Its name comes from the ancient port of Adria, near the Po delta.",
+      "The Strait of Otranto, about 70 km wide, links it to the Ionian Sea."
+    ],
+    "q": {
+      "q": "Which ancient port gave the Adriatic Sea its name?",
+      "a": "Adria",
+      "x": [
+        "Aquileia",
+        "Ancona"
+      ]
+    }
+  },
+  "Q81136": {
+    "t": "The legendary sea route through the Arctic islands",
+    "s": "For centuries sailors dreamed of a shortcut from Europe to Asia over the top of North America. The Northwest Passage is that route: a maze of channels threading between the frozen islands of the Canadian Arctic. From above it's white ice cracked into floes, with dark open lanes in late summer. Roald Amundsen was the first to sail it, in 1903–06.",
+    "w": "Ice-choked channels winding between the brown and white islands of the Canadian Arctic; open water only in late summer.",
+    "f": [
+      "Amundsen's ship, the Gjøa, was a small former herring boat.",
+      "In 1944 the Canadian police schooner St. Roch became the first ship to cross it in a single season.",
+      "There are several possible routes, depending on where the ice allows a passage."
+    ],
+    "q": {
+      "q": "Who first sailed the Northwest Passage, in 1903–06?",
+      "a": "Roald Amundsen",
+      "x": [
+        "Fridtjof Nansen",
+        "Robert Peary"
+      ]
+    }
   }
 }
