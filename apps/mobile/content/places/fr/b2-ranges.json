@@ -446,5 +446,448 @@
         "L’Afrique contre l’Europe"
       ]
     }
+  },
+  "Q5955": {
+    "t": "Des montagnes d’or là où se rejoignent quatre pays",
+    "s": "Pics enneigés, rivières turquoise, forêt de mélèzes qui se fond dans la steppe : l’Altaï se dresse au milieu de l’Asie, là où se rejoignent la Russie, le Kazakhstan, la Chine et la Mongolie. Cherchez le ruban turquoise laiteux de la Katoun et la longue lame étroite du lac Teletskoïe. La Béloukha, le plus haut sommet avec 4 506 m, porte toute l’année une coiffe blanche à deux têtes.",
+    "w": "Des pics blancs au-dessus d’une sombre forêt de mélèzes, la Katoun turquoise et l’étroite bande bleue du lac Teletskoïe.",
+    "f": [
+      "Les montagnes dorées de l’Altaï sont inscrites au patrimoine mondial de l’UNESCO depuis 1998.",
+      "Les tombes anciennes de Pazyryk, scellées dans le pergélisol, ont conservé une peau humaine tatouée vieille d’environ 2 400 ans.",
+      "La Béloukha est le point culminant de la Sibérie."
+    ],
+    "q": {
+      "q": "Quel est le point culminant de l’Altaï ?",
+      "a": "La Béloukha",
+      "x": [
+        "Le Mounkou-Sardyk",
+        "Le Khan Tengri"
+      ]
+    }
+  },
+  "Q293713": {
+    "t": "La crête où finit la forêt et où commence la steppe",
+    "s": "Guettez un brusque changement de couleur : le Grand Khingan sépare le versant mandchou, humide et vert, à l’est, des prairies sèches du plateau mongol, à l’ouest. La chaîne elle-même est douce, dépassant rarement 2 000 m, mais elle arrête la mousson d’été et jette une ombre pluviométrique sur la steppe au-delà. Elle court sur environ 1 200 km du nord au sud.",
+    "w": "Des crêtes basses et boisées orientées nord–sud, avec des champs plus verts à l’est et une steppe fauve à l’ouest.",
+    "f": [
+      "Ses pentes nord portent l’une des plus grandes forêts de Chine, surtout de mélèzes.",
+      "À l’ouest de la chaîne s’étendent les prairies de Hulunbuir, parmi les plus beaux pâturages de Chine."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui s’étend à l’ouest du Grand Khingan ?",
+      "a": "Le plateau mongol",
+      "x": [
+        "La plaine de Mandchourie",
+        "La plaine de Chine du Nord"
+      ]
+    }
+  },
+  "Q214284": {
+    "t": "Une ligne de partage reculée entre Arctique et Pacifique",
+    "s": "Taïga sombre, sommets pierreux et nus, et presque aucune route : les monts Stanovoï comptent parmi les lieux les plus vides de Sibérie. C’est la grande ligne de partage des eaux de la région : les rivières du versant nord filent vers la Lena et l’Arctique, celles du sud vers l’Amour et le Pacifique. En hiver, les crêtes blanchissent et les vallées disparaissent sous la neige.",
+    "w": "De longues crêtes vert sombre aux sommets rocheux pâles, orientées est–ouest, et des rivières sinueuses dans des vallées désertes.",
+    "f": [
+      "Pendant près de deux siècles après le traité de Nertchinsk (1689), ces montagnes ont marqué à peu près la frontière russo-chinoise.",
+      "La voie ferrée vers Iakoutsk franchit la chaîne près de Nerioungri, ville charbonnière du sud de la Iakoutie."
+    ],
+    "q": {
+      "q": "Quel grand fleuve recueille les eaux du versant nord des Stanovoï ?",
+      "a": "La Lena",
+      "x": [
+        "L’Ienisseï",
+        "La Kolyma"
+      ]
+    }
+  },
+  "Q26813923": {
+    "t": "Le premier et le plus jeune pli de l’Himalaya",
+    "s": "En venant des plaines indiennes, ce sont les premières collines que l’on rencontre : des crêtes basses, vertes et abruptes qui jaillissent du Teraï tout plat. Les Siwalik sont le pli le plus jeune et le plus extérieur de l’Himalaya, fait de graviers et de sables arrachés aux hauts sommets puis soulevés à nouveau. Derrière elles montent des chaînes plus hautes et, par temps clair, les neiges.",
+    "w": "La première ligne de collines basses et boisées, dressée d’un coup au-dessus de la plaine cultivée, parallèle aux pics enneigés au loin.",
+    "f": [
+      "On explique généralement leur nom par « qui appartient à Shiva ».",
+      "Leurs roches regorgent de fossiles de singes anciens, d’éléphants et de girafes, certains vieux de plus de 10 millions d’années.",
+      "Au Népal, on appelle ces collines la chaîne des Churia."
+    ],
+    "q": {
+      "q": "Où se trouvent les Siwalik dans l’Himalaya ?",
+      "a": "Tout au bord sud, à l’extérieur",
+      "x": [
+        "Le long de la crête enneigée",
+        "Du côté tibétain"
+      ]
+    }
+  },
+  "Q161750": {
+    "t": "Le Toit du monde, taillé par des glaciers géants",
+    "s": "Les habitants l’appelaient Bam-i-Dunya, le Toit du monde, et vu d’avion il en a l’air : un haut nœud de montagnes nues où se rejoignent le Tian Shan, l’Hindou Kouch et le Karakoram. Dans le Pamir oriental, même le fond des vallées se trouve vers 4 000 m. Le glacier Fedtchenko, long de plus de 70 km, est le plus long glacier hors des régions polaires.",
+    "w": "Un nœud serré de pics enneigés et de longs glaciers ; à l’est, de hauts plateaux bruns et nus aux lacs turquoise.",
+    "f": [
+      "Le pic Ismoil Somoni, 7 495 m, est le point culminant du Pamir.",
+      "Le lac Karakoul, vers 3 900 m, occupe un cratère creusé par la chute d’une météorite il y a des millions d’années.",
+      "La route du Pamir franchit le col d’Ak-Baïtal vers 4 650 m, l’une des routes les plus hautes du monde."
+    ],
+    "q": {
+      "q": "Quel est le surnom traditionnel du Pamir ?",
+      "a": "Le Toit du monde",
+      "x": [
+        "La Demeure des neiges",
+        "Les monts Célestes"
+      ]
+    }
+  },
+  "Q5472": {
+    "t": "Un mur de neige sur les vieilles routes d’Asie centrale",
+    "s": "Une mer de pics enneigés et acérés, entaillés de vallées profondes, s’étire sur environ 800 km, du centre de l’Afghanistan au nord du Pakistan. Pendant des millénaires, marchands, pèlerins et armées ont emprunté les hauts cols de l’Hindou Kouch entre l’Asie centrale et l’Inde. Le Tirich Mir, plus haut sommet avec 7 708 m, se dresse près de son extrémité est.",
+    "w": "Des rangées et des rangées de pics blancs déchiquetés, avec loin en contrebas d’étroites vallées vertes et des rivières grises tressées.",
+    "f": [
+      "Le lapis-lazuli extrait de ces montagnes depuis plus de 6 000 ans a fini dans les bijoux des pharaons égyptiens.",
+      "Alexandre le Grand a franchi l’Hindou Kouch en route vers l’Inde, au IVe siècle av. J.-C."
+    ],
+    "q": {
+      "q": "Quel est le point culminant de l’Hindou Kouch ?",
+      "a": "Le Tirich Mir",
+      "x": [
+        "Le Nanga Parbat",
+        "Le Noshaq"
+      ]
+    }
+  },
+  "Q5469": {
+    "t": "Le royaume du K2 : roche, glace et glaciers géants",
+    "s": "Peu d’endroits hors des régions polaires retiennent autant de glace de montagne : des glaciers comme le Siachen et le Baltoro, longs chacun de plus de 60 km, remplissent les vallées du Karakoram comme des autoroutes gelées rayées de roche sombre. Au-dessus se dressent le K2 et trois autres sommets de plus de 8 000 m. On traduit généralement le nom, d’origine turcique, par « gravier noir ».",
+    "w": "De longs glaciers rectilignes rayés en leur milieu de bandes de roche sombre, entre des grappes de pics de granite acérés.",
+    "f": [
+      "Le K2, 8 611 m, est la deuxième montagne de la Terre.",
+      "Certains glaciers du Karakoram se maintiennent, voire grossissent, alors que la plupart reculent : l’« anomalie du Karakoram ».",
+      "La route du Karakoram franchit la chaîne au col de Khunjerab, vers 4 700 m."
+    ],
+    "q": {
+      "q": "Quelle est la deuxième montagne de la Terre ?",
+      "a": "Le K2",
+      "x": [
+        "Le Kangchenjunga",
+        "Le Lhotse"
+      ]
+    }
+  },
+  "Q187871": {
+    "t": "Le rempart sévère au nord du plateau tibétain",
+    "s": "Cherchez la ligne où s’arrête le sable. Le Kunlun se dresse comme un rempart le long du bord nord du plateau tibétain, avec à ses pieds le bassin jaune du Tarim et le désert du Taklamakan, et derrière lui le Tibet, haut et froid. La chaîne court sur quelque 3 000 km, et dans les mythes chinois ses sommets étaient la demeure des immortels.",
+    "w": "Une frontière nette : un bassin désertique jaune au nord, des crêtes grises striées de neige et le haut plateau au sud.",
+    "f": [
+      "Le chemin de fer Qinghai–Tibet franchit le Kunlun par un col d’environ 4 770 m.",
+      "Le jade néphrite des rivières du Kunlun, près de Hotan, est prisé en Chine depuis des millénaires.",
+      "Selon la légende chinoise, le Kunlun était la demeure de Xiwangmu, la Reine Mère de l’Occident."
+    ],
+    "q": {
+      "q": "Quel bassin s’étend au pied nord du Kunlun occidental ?",
+      "a": "Le bassin du Tarim",
+      "x": [
+        "Le bassin du Sichuan",
+        "Le bassin de Dzoungarie"
+      ]
+    }
+  },
+  "Q130135": {
+    "t": "La barrière entre la Méditerranée et le Sahara",
+    "s": "Vert d’un côté, rouge et ocre de l’autre : l’Atlas tient le Sahara à distance de la côte méditerranéenne sur quelque 2 500 km, du littoral atlantique marocain jusqu’à la Tunisie. Ses versants nord captent la pluie et même la neige, ses flancs sud semblent brûlés. Dans le Moyen Atlas, de sombres forêts de cèdres abritent le magot, le seul macaque vivant en Afrique.",
+    "w": "Des crêtes saupoudrées de neige, de sombres cédraies côté nord, et des pentes nues rouges et ocre côté Sahara.",
+    "f": [
+      "Le djebel Toubkal, 4 167 m, dans le Haut Atlas, est le point culminant de l’Afrique du Nord.",
+      "Le cèdre de l’Atlas ne pousse à l’état sauvage que dans ces montagnes du Maroc et de l’Algérie.",
+      "Les montagnes doivent leur nom à Atlas, le Titan de la mythologie grecque qui porte le ciel."
+    ],
+    "q": {
+      "q": "Quel est le point culminant de l’Atlas ?",
+      "a": "Le djebel Toubkal",
+      "x": [
+        "Le djebel Ayachi",
+        "Le mont Chélia"
+      ]
+    }
+  },
+  "Q93332": {
+    "t": "De vieilles crêtes peignées en lignes parallèles",
+    "s": "Cherchez des rayures : dans la région des Ridge-and-Valley, les Appalaches forment de longues crêtes boisées qui courent côte à côte sur des centaines de kilomètres, comme si l’on avait peigné la terre. Ce sont parmi les plus vieilles montagnes du monde, soulevées il y a plus de 250 millions d’années et jadis bien plus hautes. L’érosion les a usées en collines vertes et arrondies.",
+    "w": "De longues crêtes boisées parallèles, séparées de vallées cultivées, orientées sud-ouest–nord-est.",
+    "f": [
+      "L’Appalachian Trail suit la chaîne sur environ 3 500 km, de la Géorgie au Maine.",
+      "La brume bleue des Blue Ridge vient de composés naturels émis par ses arbres.",
+      "Le mont Mitchell, en Caroline du Nord, 2 037 m, est le point culminant de l’est des États-Unis."
+    ],
+    "q": {
+      "q": "Pourquoi les Blue Ridge Mountains paraissent-elles bleues ?",
+      "a": "Une brume émise par les arbres",
+      "x": [
+        "Un granite teinté de bleu",
+        "Le reflet de nombreux lacs"
+      ]
+    }
+  },
+  "Q929910": {
+    "t": "Un rempart sauvage au-dessus de la plaine arctique",
+    "s": "Au-delà du cercle arctique, la chaîne Brooks balaie le nord de l’Alaska sur environ 1 000 km : pics gris sans arbres, rivières tressées et presque aucun lieu habité. Au nord, le terrain descend vers la plaine côtière arctique, plate et semée de lacs innombrables. L’été, la neige quitte les vallées ; l’hiver, tout repose en blanc sous un soleil bas.",
+    "w": "Des crêtes grises, déchiquetées et sans arbres orientées est–ouest, de larges lits tressés ; au nord, une toundra plate pleine de lacs.",
+    "f": [
+      "Le parc national Gates of the Arctic, dans la chaîne Brooks, n’a ni route ni sentier.",
+      "L’oléoduc trans-Alaska franchit la chaîne au col d’Atigun, vers 1 400 m.",
+      "Sa crête sépare les rivières qui vont à l’océan Arctique de celles qui filent vers la mer de Béring."
+    ],
+    "q": {
+      "q": "Quel oléoduc franchit la chaîne Brooks au col d’Atigun ?",
+      "a": "L’oléoduc trans-Alaska",
+      "x": [
+        "L’oléoduc Keystone",
+        "L’oléoduc Colonial"
+      ]
+    }
+  },
+  "Q920070": {
+    "t": "Glace, forêt pluviale et fjords au bord du Pacifique",
+    "s": "Entre le Pacifique et l’intérieur de la Colombie-Britannique se dresse un mur de pics de granite et de champs de glace long d’environ 1 600 km. Des fjords s’enfoncent loin dans les terres entre eux, et leurs pentes basses sont drapées d’une épaisse forêt pluviale tempérée. Par temps clair, vous voyez d’en haut des glaciers alimenter des rivières laiteuses qui serpentent jusqu’à la mer.",
+    "w": "Des pics enneigés et déchiquetés et des champs de glace, entaillés de longs fjords et de vallées vertes venus de la côte pacifique.",
+    "f": [
+      "Le mont Waddington, 4 019 m, est le plus haut sommet entièrement situé en Colombie-Britannique.",
+      "La chaîne est en grande partie faite de granite : l’un des plus grands massifs granitiques de la Terre.",
+      "La Skeena et la Stikine traversent la chaîne de part en part en route vers le Pacifique."
+    ],
+    "q": {
+      "q": "Quel est le plus haut sommet entièrement situé en Colombie-Britannique ?",
+      "a": "Le mont Waddington",
+      "x": [
+        "Le mont Robson",
+        "Le mont Fairweather"
+      ]
+    }
+  },
+  "Q4558": {
+    "t": "Une file de volcans blancs solitaires au-dessus de la forêt",
+    "s": "Les Cascades se repèrent sans peine : une chaîne de grands cônes enneigés isolés — Baker, Rainier, Adams, Hood, Shasta — dressés bien au-dessus de la forêt, de la Colombie-Britannique au nord de la Californie. Entre eux, la chaîne est vert sombre sur son versant ouest pluvieux, brune et sèche à l’est. Au nord, les North Cascades déchiquetées abritent des centaines de glaciers.",
+    "w": "Des cônes volcaniques blancs et solitaires alignés nord–sud bien au-dessus de la forêt ; pentes ouest vertes, pentes est brunes et sèches.",
+    "f": [
+      "Le mont Rainier, 4 392 m, porte plus de glace glaciaire que n’importe quel autre sommet des États-Unis contigus.",
+      "Crater Lake, dans l’Oregon, emplit le sommet effondré d’un volcan : c’est le lac le plus profond des États-Unis (environ 590 m).",
+      "La chaîne doit son nom aux cascades du Columbia, là où le fleuve la traverse."
+    ],
+    "q": {
+      "q": "Quel lac emplit le sommet effondré d’un volcan des Cascades ?",
+      "a": "Crater Lake",
+      "x": [
+        "Le lac Tahoe",
+        "Le lac Chelan"
+      ]
+    }
+  },
+  "Q156684": {
+    "t": "Le domaine du Denali, géant de l’Amérique du Nord",
+    "s": "Même depuis l’altitude de croisière, le Denali paraît énorme : avec 6 190 m, c’est le plus haut sommet d’Amérique du Nord, et il surgit de basses terres à quelques centaines de mètres à peine au-dessus de la mer, si bien que toute sa masse se découvre. Autour, la chaîne d’Alaska décrit un arc d’environ 650 km, mur blanc de glace et de roche au-dessus de la forêt d’épicéas et de la toundra.",
+    "w": "Un pic blanc massif qui domine tous les autres, avec de longs glaciers s’écoulant d’un mur courbe de sommets enneigés.",
+    "f": [
+      "De la base au sommet, le Denali s’élève d’environ 5 500 m — plus que l’Everest au-dessus du plateau tibétain.",
+      "Le glacier Kahiltna, voie des alpinistes vers le Denali, mesure environ 70 km.",
+      "La montagne porte deux noms en usage : Denali et mont McKinley."
+    ],
+    "q": {
+      "q": "Quelle est l’altitude du Denali, plus haut sommet d’Amérique du Nord ?",
+      "a": "6 190 m",
+      "x": [
+        "5 642 m",
+        "6 961 m"
+      ]
+    }
+  },
+  "Q40556": {
+    "t": "La pointe est de l’Afrique, dardée dans l’océan",
+    "s": "Sur la carte, c’est exactement ce que dit son nom : une corne plantée dans la mer. La Corne de l’Afrique s’avance vers l’est entre le golfe d’Aden et l’océan Indien — une terre sèche de plaines brun-rouge, de broussailles épineuses et de longues plages rectilignes. D’en haut, c’est surtout de l’ocre, traversé par les fils verts du Chébéli et du Djouba.",
+    "w": "Des plaines ocre et brun-rouge à la végétation clairsemée, un long littoral sableux et de minces rubans verts le long des rivières.",
+    "f": [
+      "Ras Hafun, en Somalie, est le point le plus oriental de l’Afrique continentale.",
+      "La Somalie possède le plus long littoral de tous les pays d’Afrique continentale : plus de 3 000 km.",
+      "L’encens et la myrrhe, précieux dans l’Antiquité, viennent d’arbres qui poussent à l’état sauvage sur les collines sèches de la Corne."
+    ],
+    "q": {
+      "q": "Quel est le point le plus oriental de l’Afrique continentale ?",
+      "a": "Ras Hafun",
+      "x": [
+        "Le cap des Aiguilles",
+        "Ras ben Sakka"
+      ]
+    }
+  },
+  "Q23522": {
+    "t": "Un nœud de montagnes enveloppé de mers bleues",
+    "s": "Regardez en bas et vous comprendrez pourquoi voyager ici a toujours été lent : la péninsule des Balkans est un fouillis de chaînes, de vallées profondes et de hauts bassins, avec l’Adriatique d’un côté, l’Égée et la mer Noire de l’autre. Les grands axes nord–sud suivent les vallées de la Morava et du Vardar. La péninsule doit son nom au Grand Balkan, en Bulgarie.",
+    "w": "Des crêtes vertes et grises serrées, de petits bassins avec villes et champs, et de profondes vallées orientées nord–sud.",
+    "f": [
+      "On rattache généralement le mot « Balkan » à un terme turc désignant une chaîne de montagnes boisées.",
+      "Le Musala, en Bulgarie, 2 925 m, est le point culminant de la péninsule, juste devant l’Olympe.",
+      "Le lac d’Ohrid est l’un des plus anciens lacs d’Europe : il a plus d’un million d’années."
+    ],
+    "q": {
+      "q": "Quel est le point culminant de la péninsule des Balkans ?",
+      "a": "Le Musala",
+      "x": [
+        "L’Olympe",
+        "Le Triglav"
+      ]
+    }
+  },
+  "Q1359850": {
+    "t": "La « steppe de la Faim » du Kazakhstan, plate à perte de vue",
+    "s": "Entre la rivière Tchou et le lac Balkhach s’étend un plateau d’argile et de gravier si vide qu’on l’appelle aussi la steppe de la Faim du Nord. D’en haut, c’est une immense feuille plate gris-beige, traversée de vagues pistes et piquetée de cuvettes de sel blanches. Seulement au printemps, quelques courtes semaines, un voile vert s’y répand.",
+    "w": "Une plaine gris-beige sans relief, aux cuvettes de sel blanches ; le lac Balkhach au nord-est, le fil vert de la Tchou au sud-ouest.",
+    "f": [
+      "Le Betpak-Dala abrite l’un des principaux troupeaux de saïgas du Kazakhstan, l’antilope au nez en trompe.",
+      "Le désert couvre environ 75 000 km²."
+    ],
+    "q": {
+      "q": "Quel animal au nez en trompe parcourt le Betpak-Dala ?",
+      "a": "Le saïga",
+      "x": [
+        "La gazelle à goitre",
+        "Le koulan"
+      ]
+    }
+  },
+  "Q169132": {
+    "t": "Le pays des cinq rivières, patchwork de champs",
+    "s": "Pendjab signifie « cinq eaux » en persan, d’après les cinq rivières — Jhelum, Chenab, Ravi, Beas et Sutlej — qui traversent cette plaine plate pour rejoindre l’Indus. D’en haut, c’est l’un des paysages les plus intensément cultivés de la Terre : un fin patchwork de champs de blé et de riz, parcouru d’un réseau serré de canaux d’irrigation. La nuit, villes et villages scintillent partout.",
+    "w": "Un patchwork plat et finement découpé de champs verts et dorés, des canaux rectilignes et de larges lits de rivières tressés.",
+    "f": [
+      "Le réseau d’irrigation du bassin de l’Indus, alimenté par les rivières du Pendjab, est l’un des plus grands du monde.",
+      "Lahore, sur la Ravi, est célèbre pour son fort moghol et ses jardins de Shalimar, tous deux inscrits par l’UNESCO.",
+      "On appelle souvent le Pendjab le grenier du sous-continent."
+    ],
+    "q": {
+      "q": "Que signifie le nom Pendjab ?",
+      "a": "Cinq eaux",
+      "x": [
+        "Terre verte",
+        "Grande plaine"
+      ]
+    }
+  },
+  "Q229269": {
+    "t": "Le Quart vide : la plus grande mer de sable du monde",
+    "s": "Rien que du sable sur des centaines de kilomètres : le Rub al-Khali, le « Quart vide », est le plus grand désert de sable continu du monde, environ 650 000 km². D’en haut, cherchez des dunes géantes alignées comme des vagues, certaines hautes de plus de 200 m, avec des salars pâles dans les creux qui les séparent. Ses couleurs passent du jaune à un rouge orangé profond.",
+    "w": "D’interminables rangées de dunes orange comme des vagues figées, avec des salars blancs ou gris dans les couloirs entre elles.",
+    "f": [
+      "En 1930–1931, Bertram Thomas en a réussi la première traversée connue par un Occidental, à dos de chameau.",
+      "Wilfred Thesiger l’a traversé deux fois dans les années 1940 et l’a raconté dans son classique « Le Désert des déserts ».",
+      "Le Rub al-Khali est plus grand que la France."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Rub al-Khali » ?",
+      "a": "Le Quart vide",
+      "x": [
+        "Les Sables rouges",
+        "La Grande Mer"
+      ]
+    }
+  },
+  "Q375816": {
+    "t": "La « forêt blanche » du Brésil, verte en quelques jours",
+    "s": "À la saison sèche, la caatinga semble grise et sans vie vue d’en haut : des broussailles épineuses qui ont perdu toutes leurs feuilles, piquetées de cactus. Son nom vient du tupi et signifie « forêt blanche ». Mais quand la pluie arrive, tout le paysage reverdit en quelques jours. Cette terre semi-aride du nord-est du Brésil n’existe nulle part ailleurs.",
+    "w": "Des broussailles gris-brun à la saison sèche, vert vif après la pluie, avec des réservoirs qui brillent comme des miroirs éparpillés.",
+    "f": [
+      "La caatinga est le seul grand biome entièrement situé au Brésil.",
+      "Le mandacaru, grand cactus en colonne, est le symbole de cet arrière-pays sec, le sertão.",
+      "La Serra da Capivara, dans la caatinga, abrite l’une des plus grandes concentrations d’art rupestre préhistorique des Amériques."
+    ],
+    "q": {
+      "q": "Que signifie le nom tupi « caatinga » ?",
+      "a": "Forêt blanche",
+      "x": [
+        "Terre sèche",
+        "Champ d’épines"
+      ]
+    }
+  },
+  "Q47700": {
+    "t": "Du sable rouille sous une mer d’herbe et d’épineux",
+    "s": "Le Kalahari n’est pas le champ de dunes nues qu’on imagine : son épais sable rouge est tenu par l’herbe et les arbres épineux, si bien que d’en haut on dirait un sol couleur rouille effleuré d’un vert pâle. De longues dunes parallèles courent sur des kilomètres, alignées par le vent. Loin au nord, ce même sable avale l’Okavango, qui n’atteint jamais la mer.",
+    "w": "Un sol brun-rouge moucheté de broussailles gris-vert, de longues crêtes de dunes rectilignes et des cuvettes blanches de lacs salés asséchés.",
+    "f": [
+      "Le delta de l’Okavango, où un fleuve disparaît dans le sable du Kalahari, est inscrit au patrimoine mondial de l’UNESCO.",
+      "La couleur rouge du sable vient d’une fine pellicule d’oxyde de fer sur chaque grain.",
+      "Les San vivent dans le Kalahari depuis des milliers d’années."
+    ],
+    "q": {
+      "q": "Quel fleuve s’achève dans le Kalahari sans atteindre la mer ?",
+      "a": "L’Okavango",
+      "x": [
+        "Le Zambèze",
+        "L’Orange"
+      ]
+    }
+  },
+  "Q2913098": {
+    "t": "Des pics sombres échoués dans un océan de glace blanche",
+    "s": "Ici, les monts Transantarctiques s’effilochent en leurs dernières chaînes solitaires : des sommets et des crêtes sombres émergent d’une nappe blanche sans fin, près du bord intérieur de la barrière de Filchner-Ronne. Les monts Pensacola s’étirent sur environ 500 km. Ils n’ont été découverts qu’en 1956, repérés depuis un avion de l’US Navy.",
+    "w": "Des crêtes et des pics de roche sombre épars, qui percent une glace blanche, plate et sans fin.",
+    "f": [
+      "Les montagnes portent le nom de la base aéronavale américaine de Pensacola, en Floride.",
+      "Le massif Dufek, dans ce groupe, est l’une des plus grandes intrusions magmatiques litées de la Terre."
+    ],
+    "q": {
+      "q": "D’où les monts Pensacola tirent-ils leur nom ?",
+      "a": "D’une base aéronavale américaine",
+      "x": [
+        "D’un explorateur espagnol",
+        "D’un baleinier"
+      ]
+    }
+  },
+  "Q1139110": {
+    "t": "Le toit de l’Antarctique, couronné par le mont Vinson",
+    "s": "Les plus hautes montagnes du continent le plus froid se dressent ici en une crête sombre et acérée au-dessus de la glace de l’Antarctique de l’Ouest. Leur chaîne Sentinelle porte le mont Vinson, point culminant de l’Antarctique avec 4 892 m, et un chapelet d’autres sommets de plus de 4 000 m. D’en haut, les parois de roche noire et les longs glaciers tranchent net sur le blanc.",
+    "w": "Une ligne nord–sud acérée de pics et de crêtes sombres au-dessus de la glace blanche et plate, de longs glaciers de part et d’autre.",
+    "f": [
+      "Lincoln Ellsworth a découvert la chaîne en 1935, lors du premier vol à travers l’Antarctique.",
+      "Les alpinistes gagnent le Vinson via un camp saisonnier sur le glacier Union, où les avions se posent sur la glace bleue à nu."
+    ],
+    "q": {
+      "q": "Quel est le plus haut sommet de l’Antarctique ?",
+      "a": "Le mont Vinson",
+      "x": [
+        "Le mont Erebus",
+        "Le mont Kirkpatrick"
+      ]
+    }
+  },
+  "Q1796029": {
+    "t": "L’escalier d’Amundsen vers le pôle Sud",
+    "s": "En novembre 1911, Roald Amundsen et son équipe ont traversé ces montagnes avec leurs traîneaux à chiens, remontant le raide glacier Axel Heiberg jusqu’au plateau polaire. D’ici, le pôle Sud n’est qu’à 400 km environ. D’en haut, les monts de la Reine-Maud sont un fouillis de pics sombres et de larges glaciers qui descendent vers la barrière de Ross, toute plate.",
+    "w": "Des pics sombres et accidentés entre de larges glaciers qui s’écoulent vers le nord, sur la barrière de Ross, blanche et lisse.",
+    "f": [
+      "Amundsen a donné à la chaîne le nom de la reine Maud de Norvège.",
+      "Le glacier Axel Heiberg porte le nom d’un brasseur norvégien qui aida à financer les expéditions d’Amundsen.",
+      "L’équipe d’Amundsen a atteint le pôle Sud le 14 décembre 1911."
+    ],
+    "q": {
+      "q": "Quel glacier Amundsen a-t-il remonté à travers ces montagnes ?",
+      "a": "Le glacier Axel Heiberg",
+      "x": [
+        "Le glacier Beardmore",
+        "Le glacier Scott"
+      ]
+    }
+  },
+  "Q842139": {
+    "t": "Une échine verte et brumeuse qui cachait un animal inconnu",
+    "s": "Les nuages s’accrochent souvent à cette longue échine verte entre la vallée du Mékong et la côte du Viêt Nam. La cordillère Annamitique court sur quelque 1 100 km le long de la frontière entre le Laos et le Viêt Nam, ses crêtes boisées et abruptes si reculées qu’en 1992 des scientifiques y ont découvert un grand mammifère inconnu : le saola, un bovin forestier farouche aux longues cornes droites.",
+    "w": "Des crêtes abruptes vert forêt, souvent coiffées de nuages, entre les collines du Laos et l’étroite plaine côtière du Viêt Nam.",
+    "f": [
+      "En vietnamien, la chaîne s’appelle Trường Sơn, « les longues montagnes ».",
+      "La grotte de Son Doong, dans le parc de Phong Nha-Ke Bang, possède la plus grande galerie souterraine connue au monde."
+    ],
+    "q": {
+      "q": "Quel grand mammifère a-t-on découvert dans la cordillère Annamitique en 1992 ?",
+      "a": "Le saola",
+      "x": [
+        "Le kouprey",
+        "Le gaur"
+      ]
+    }
   }
 }
