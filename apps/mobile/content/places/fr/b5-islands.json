@@ -1422,5 +1422,484 @@
         "De vieilles coulées de lave"
       ]
     }
+  },
+  "Q25231": {
+    "t": "Montagnes pointues, glaciers et coffre-fort à graines",
+    "s": "Vu d’avion, c’est au Svalbard que l’Arctique est le plus spectaculaire : montagnes sombres aux crêtes acérées, glaciers qui coulent entre elles comme des fleuves gelés, fronts de glace qui vêlent dans les fjords. Environ 60 % des terres sont sous la glace. Willem Barentsz a baptisé l’île principale Spitzberg — « montagnes pointues » — en l’apercevant en 1596.",
+    "w": "Des pics sombres et déchiquetés entre de larges glaciers blancs, des fjords fermés par des falaises de glace, la banquise au nord et à l’est.",
+    "f": [
+      "Longyearbyen est la ville de plus de 1 000 habitants la plus septentrionale du monde.",
+      "La Réserve mondiale de semences, creusée dans une montagne près de Longyearbyen, conserve des graines du monde entier.",
+      "Le soleil de minuit y brille à peu près de fin avril à fin août."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Spitzberg » ?",
+      "a": "Montagnes pointues",
+      "x": [
+        "Côte blanche",
+        "Fjords de glace"
+      ]
+    }
+  },
+  "Q185018": {
+    "t": "Les îles les plus au nord de l’Europe, dans la banquise",
+    "s": "La Terre François-Joseph est un semis de près de 200 îles perdues dans l’Arctique, la plupart ensevelies sous des calottes, avec des falaises de basalte sombre sur les bords. D’en haut, les dômes de glace paraissent lisses et arrondis, et les chenaux qui les séparent restent gelés une bonne partie de l’année. Le cap Fligely, sur l’île Rodolphe, est le point le plus septentrional de l’Europe, à environ 900 km du pôle.",
+    "w": "Des dizaines d’îles sous des calottes lisses et arrondies, bordées de falaises sombres, séparées par des chenaux gelés.",
+    "f": [
+      "Une expédition austro-hongroise a découvert les îles en 1873 et les a baptisées du nom de l’empereur François-Joseph.",
+      "Fridtjof Nansen et Hjalmar Johansen y ont passé l’hiver 1895-1896 dans une hutte de pierre.",
+      "L’île Champ est célèbre pour ses étranges boules de pierre presque parfaitement rondes."
+    ],
+    "q": {
+      "q": "Quel empereur a donné son nom à la Terre François-Joseph ?",
+      "a": "François-Joseph Ier d’Autriche",
+      "x": [
+        "Guillaume II d’Allemagne",
+        "Alexandre II de Russie"
+      ]
+    }
+  },
+  "Q80413": {
+    "t": "Un mur de glace et de roche de 1 000 km entre deux mers",
+    "s": "La Nouvelle-Zemble est une longue barrière incurvée, de près de 1 000 km d’un bout à l’autre, qui sépare la mer de Barents de la mer de Kara : l’Oural prolongé jusque dans l’Arctique. Ses deux îles principales sont séparées par l’étroit détroit de Matotchkine Char. Celle du sud n’est que toundra et collines nues ; celle du nord disparaît en grande partie sous une vaste calotte dont les glaciers se brisent dans la mer.",
+    "w": "Deux îles très longues, étroites et incurvées : toundra brune au sud, calotte blanche continue au nord.",
+    "f": [
+      "La calotte de l’île du Nord, environ 20 000 km², est l’une des plus grandes d’Europe.",
+      "Willem Barentsz et son équipage ont hiverné en 1596-1597 près de sa pointe nord, dans une cabane de bois flotté.",
+      "Le Matotchkine Char, détroit entre les deux îles principales, mesure environ 100 km de long."
+    ],
+    "q": {
+      "q": "Quelles mers la Nouvelle-Zemble sépare-t-elle ?",
+      "a": "La mer de Barents et la mer de Kara",
+      "x": [
+        "La mer de Kara et la mer des Laptev",
+        "La mer de Barents et la mer Blanche"
+      ]
+    }
+  },
+  "Q3803": {
+    "t": "Volcan après volcan, de Bali à Timor",
+    "s": "À l’est de Java, les îles rapetissent et s’assèchent — Bali, Lombok, Sumbawa, Flores et plus loin Timor — et la plupart sont couronnées de volcans. Certains sommets abritent de saisissants lacs de cratère : le Rinjani, sur Lombok, berce un croissant d’eau bleue d’où surgit un jeune cône. Plus à l’est, le vert cède la place à une savane brune, où des dragons de Komodo errent encore sur quelques îles.",
+    "w": "Une chaîne ouest-est d’îles volcaniques, plus verte à l’ouest, plus brune à l’est ; cherchez lacs de cratère et caldeiras.",
+    "f": [
+      "Sur Flores, les trois lacs de cratère du Kelimutu ont chacun leur couleur, et ces couleurs changent avec le temps.",
+      "Sur Sumbawa, la grande éruption du Tambora, en 1815, a laissé une caldeira d’environ 6 km de large.",
+      "Des restes d’Homo floresiensis, minuscule humain disparu surnommé le « hobbit », ont été trouvés sur Flores en 2003."
+    ],
+    "q": {
+      "q": "Quelle île de la Sonde possède trois lacs de cratère de couleurs différentes ?",
+      "a": "Flores",
+      "x": [
+        "Lombok",
+        "Sumba"
+      ]
+    }
+  },
+  "Q215664": {
+    "t": "Des centaines de récifs épars en mer de Chine méridionale",
+    "s": "Dans le sud de la mer de Chine méridionale s’éparpillent bien plus d’une centaine de récifs, d’atolls et de cayes sableuses, dont beaucoup sont submergés à marée haute. D’en haut, ce ne sont que de vagues taches turquoise et des anneaux pâles sur le bleu profond, avec à peine quelques points de vraie terre. Les vieilles cartes britanniques marquaient toute la zone d’un avertissement sans détour : « Dangerous Ground », terrain dangereux.",
+    "w": "De vagues anneaux turquoise et des plaques de récif semés sur une mer bleu sombre, avec très peu de terre émergée.",
+    "f": [
+      "Les îles doivent leur nom à Richard Spratly, capitaine baleinier britannique qui aperçut l’une d’elles en 1843.",
+      "Toutes leurs terres émergées naturelles réunies ne couvrent qu’environ 2 km²."
+    ],
+    "q": {
+      "q": "Comment les vieilles cartes britanniques désignaient-elles cette zone ?",
+      "a": "Terrain dangereux",
+      "x": [
+        "Hauts-fonds perfides",
+        "Labyrinthe de corail"
+      ]
+    }
+  },
+  "Q201012": {
+    "t": "Des îles arctiques de glace, de sable et d’os de mammouth",
+    "s": "Les îles de Nouvelle-Sibérie s’étendent, basses et plates, entre la mer des Laptev et la mer de Sibérie orientale, souvent impossibles à distinguer de la banquise. En été, elles montrent une toundra brune et du sable gris, des lacs et des falaises de glace fossile qui s’effritent. Le sol gelé renferme tant d’os et de défenses de mammouth que des chasseurs d’ivoire y viennent depuis plus de deux siècles.",
+    "w": "Des îles basses et plates, brunes et grises, semées de lacs, qui se confondent avec la banquise une bonne partie de l’année.",
+    "f": [
+      "La Terre de Bunge, entre les îles Kotelny et Faddeïevski, est une plaine sableuse basse inondée lors des tempêtes.",
+      "En 1811, Iakov Sannikov signala une terre mystérieuse au nord ; cette « Terre de Sannikov » ne fut jamais retrouvée.",
+      "Kotelny est la plus grande île de l’archipel."
+    ],
+    "q": {
+      "q": "Quelle terre fantôme a-t-on signalée au nord des îles de Nouvelle-Sibérie ?",
+      "a": "La Terre de Sannikov",
+      "x": [
+        "La Terre de Crocker",
+        "La Terre de Bunge"
+      ]
+    }
+  },
+  "Q128011": {
+    "t": "Les grandes îles des Caraïbes, de Cuba à Porto Rico",
+    "s": "Les Grandes Antilles sont les poids lourds des Caraïbes : Cuba, Hispaniola, la Jamaïque et Porto Rico, alignées d’ouest en est. D’en haut, elles sont grandes, vertes et montagneuses, bordées de sable pâle et de hauts-fonds turquoise, tandis qu’au nord l’Atlantique plonge vers un bleu sombre et profond. Cuba, la plus grande, s’étire sur quelque 1 200 km d’un bout à l’autre.",
+    "w": "Une ligne ouest-est de grandes îles vertes : Cuba, longue et étroite, puis Hispaniola la montagneuse, la Jamaïque au sud, Porto Rico en dernier.",
+    "f": [
+      "Cuba est la plus grande île des Caraïbes, avec environ 105 000 km².",
+      "Au nord de Porto Rico, la fosse de Porto Rico plonge à environ 8 400 m, le point le plus profond de l’Atlantique.",
+      "Les Blue Mountains de la Jamaïque, qui culminent à environ 2 250 m, ont donné leur nom à un café célèbre."
+    ],
+    "q": {
+      "q": "Quelle est la plus grande île des Caraïbes ?",
+      "a": "Cuba",
+      "x": [
+        "Hispaniola",
+        "La Jamaïque"
+      ]
+    }
+  },
+  "Q21713615": {
+    "t": "Des bancs turquoise comme éclairés par en dessous",
+    "s": "Aux Bahamas, c’est l’eau qui vole la vedette. Les îles reposent sur de vastes bancs calcaires profonds de quelques mètres seulement, qui brillent d’un turquoise presque irréel, ridé de motifs de sable. Dans le Grand Banc des Bahamas s’enfonce la Tongue of the Ocean, une fosse dont l’eau bleu d’encre bute net contre les hauts-fonds pâles : l’une des lignes de couleur les plus tranchées que l’on puisse voir d’avion.",
+    "w": "D’immenses hauts-fonds turquoise pâle, ridés de sable, des îles basses sur leurs bords, et des lignes nettes où commence le bleu profond.",
+    "f": [
+      "C’est ici que Colomb a touché terre pour la première fois en Amérique, en octobre 1492.",
+      "Le pays compte environ 700 îles et plus de 2 000 petites cayes.",
+      "Le Dean’s Blue Hole, au large de Long Island, plonge à environ 200 m : l’un des plus profonds connus."
+    ],
+    "q": {
+      "q": "En quelle année Colomb a-t-il touché terre aux Bahamas pour la première fois ?",
+      "a": "En 1492",
+      "x": [
+        "En 1498",
+        "En 1502"
+      ]
+    }
+  },
+  "Q93259": {
+    "t": "Un collier incurvé d’îles qui ferme la mer des Caraïbes",
+    "s": "Les Petites Antilles s’incurvent sur quelque 800 km, des îles Vierges jusqu’à la Grenade, entre la mer des Caraïbes et l’Atlantique. La plupart sont des îles volcaniques vertes et escarpées, chacune un sommet ceint d’une jupe de récif ; la Guadeloupe a la forme d’un papillon. Par temps clair, cherchez sur la côte ouest de Sainte-Lucie les Pitons, deux aiguilles volcaniques côte à côte au bord de l’eau.",
+    "w": "Une chaîne incurvée de petites îles volcaniques vertes et abruptes, du nord au sud, avec l’Atlantique ouvert à l’est.",
+    "f": [
+      "Les îles de l’arc intérieur sont volcaniques ; celles de l’extérieur, comme Antigua et la Barbade, sont plus plates et calcaires.",
+      "Kick ’em Jenny, au nord de la Grenade, est un volcan actif qui grandit encore sous la mer.",
+      "Les Pitons de Sainte-Lucie sont inscrits au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quelle île est célèbre pour ses deux aiguilles volcaniques, les Pitons ?",
+      "a": "Sainte-Lucie",
+      "x": [
+        "La Dominique",
+        "La Grenade"
+      ]
+    }
+  },
+  "Q59771": {
+    "t": "Un croissant de forêt tropicale et de cônes abrupts",
+    "s": "La Nouvelle-Bretagne est un long croissant d’environ 500 km d’un bout à l’autre, la plus grande île de l’archipel Bismarck. Le long de sa côte nord s’aligne une file de volcans ; le plus saisissant est l’Ulawun, un cône raide et symétrique, qui compte aussi parmi les plus actifs de Papouasie-Nouvelle-Guinée. À l’intérieur, les monts calcaires Nakanai cachent des gouffres géants et des rivières souterraines.",
+    "w": "Une longue île en croissant, de forêt sombre, avec des cônes volcaniques le long de la côte nord, dont un haut et symétrique.",
+    "f": [
+      "L’Ulawun, environ 2 300 m, fait partie des « volcans de la décennie » choisis pour une étude particulière.",
+      "C’est la plus grande île de Papouasie-Nouvelle-Guinée après la Nouvelle-Guinée elle-même.",
+      "Certains gouffres des monts Nakanai font des centaines de mètres de profondeur."
+    ],
+    "q": {
+      "q": "Quel volcan actif se dresse sur la côte nord de la Nouvelle-Bretagne ?",
+      "a": "L’Ulawun",
+      "x": [
+        "Le Bagana",
+        "Le Manam"
+      ]
+    }
+  },
+  "Q17044696": {
+    "t": "Le pays qui a donné au monde le mot « atoll »",
+    "s": "Les Maldives ressemblent à des perles turquoise jetées sur un velours bleu nuit : 26 atolls en double chaîne sur quelque 870 km, chacun un anneau de récifs et d’îlots autour d’un lagon pâle. Beaucoup d’îles ne sont qu’une bande de sable blanc et de palmiers qui porte un seul hôtel ou un seul village. La capitale, Malé, couvre son îlot de constructions d’un bord à l’autre.",
+    "w": "Des anneaux de récif turquoise pâle et des points de sable blanc sur l’océan bleu profond, en longue double chaîne nord-sud.",
+    "f": [
+      "« Atoll » vient d’« atholhu », un mot du divehi, la langue des Maldives.",
+      "Les Maldives sont le pays le plus bas du monde : leur sol naturel ne dépasse guère 2,4 m.",
+      "Le pays compte environ 1 200 îles coralliennes, dont moins de 200 sont habitées."
+    ],
+    "q": {
+      "q": "Quel mot vient de la langue des Maldives ?",
+      "a": "Atoll",
+      "x": [
+        "Lagon",
+        "Récif"
+      ]
+    }
+  },
+  "Q25263": {
+    "t": "Des îles volcaniques vertes au milieu de l’Atlantique",
+    "s": "Neuf îles volcaniques s’éparpillent au milieu de l’Atlantique, à environ 1 500 km à l’ouest de Lisbonne. D’en haut, elles sont d’un vert intense, marquetées de petits champs, avec des lacs logés dans d’anciens cratères. Impossible de rater Pico : un cône presque parfait de 2 351 m, la plus haute montagne du Portugal, dont le sommet perce souvent une mer de nuages.",
+    "w": "De petites îles vertes en plein océan ; un grand cône sombre et solitaire sur Pico, des lacs de cratère ronds sur São Miguel.",
+    "f": [
+      "Les Açores se trouvent à la jonction des plaques eurasienne, nord-américaine et africaine.",
+      "Dans la caldeira de Sete Cidades, sur São Miguel, deux lacs jumeaux ont des couleurs différentes : l’un bleu, l’autre vert.",
+      "L’anticyclone des Açores, zone de hautes pressions qui porte le nom des îles, façonne une bonne part de l’été européen."
+    ],
+    "q": {
+      "q": "Quelle est la plus haute montagne du Portugal ?",
+      "a": "Le Pico",
+      "x": [
+        "La Torre (Serra da Estrela)",
+        "Le Pico Ruivo"
+      ]
+    }
+  },
+  "Q6980542": {
+    "t": "Une île qu’on distingue à peine de la glace qui l’entoure",
+    "s": "Le long de la côte de l’Antarctique de l’Ouest, la barrière de Getz retient une série d’îles prises dans sa glace flottante. L’île Wright, longue d’environ 65 km, est l’une d’elles. Entièrement ensevelie, elle ne se trahit que par un large renflement doux au-dessus de la barrière, plus visible quand un soleil bas projette des ombres. Au nord s’étend la mer d’Amundsen, souvent encombrée de banquise.",
+    "w": "Un long renflement blanc et lisse, à peine plus haut que la barrière de glace plate, avec une mer gelée au nord.",
+    "f": [
+      "Elle a été cartographiée d’abord d’après des photos aériennes de l’opération Highjump de l’US Navy, en janvier 1947.",
+      "Elle porte le nom de l’amiral Jerauld Wright, commandant en chef de l’opération Deep Freeze en 1957-1958.",
+      "La barrière de Getz, qui enserre l’île, s’étire sur plus de 500 km le long de la côte."
+    ],
+    "q": {
+      "q": "Quelle barrière de glace enserre l’île Wright ?",
+      "a": "La barrière de Getz",
+      "x": [
+        "La barrière de Ross",
+        "La barrière de Ronne"
+      ]
+    }
+  },
+  "Q1543171": {
+    "t": "Une île de glace découverte par un brise-glace en 1962",
+    "s": "L’île Grant fait partie des îles prises dans la barrière de Getz, au large de la Terre Marie Byrd, dans l’Antarctique de l’Ouest. Longue d’environ 37 km et entièrement couverte de glace, elle est enserrée par la barrière de tous côtés sauf au nord, où un détroit s’ouvre vers la mer. D’en haut, c’est une bosse blanche et lisse dont le contour se devine surtout aux ombres de ses pentes.",
+    "w": "Une bosse blanche et lisse au-dessus de la barrière plate, avec un détroit d’eau libre ou de banquise le long de son flanc nord.",
+    "f": [
+      "Les marins du brise-glace USS Glacier l’ont découverte et cartographiée le 4 février 1962.",
+      "Elle porte le nom du commandant E. G. Grant, alors capitaine du navire.",
+      "La petite île Shepard n’est qu’à environ 9 km à l’ouest."
+    ],
+    "q": {
+      "q": "Quel navire a découvert l’île Grant en 1962 ?",
+      "a": "L’USS Glacier",
+      "x": [
+        "L’USS Burton Island",
+        "Le HMS Endurance"
+      ]
+    }
+  },
+  "Q6272638": {
+    "t": "Une île de glace solitaire au large de la côte Ruppert",
+    "s": "Sur la côte Ruppert de la Terre Marie Byrd, loin de toute route aérienne régulière, la barrière de Nickerson retient une poignée d’îles couvertes de glace. L’île Newman mesure environ 28 km de long et disparaît entièrement sous la glace. D’en haut, elle ressemble moins à une île qu’à un renflement bas et arrondi, avec des glaciers qui descendent du continent au sud.",
+    "w": "Un renflement blanc, bas et arrondi, dans une barrière de glace plate, avec des glaciers qui descendent des terres au sud.",
+    "f": [
+      "Elle a été cartographiée d’après des relevés américains et des photos aériennes de l’US Navy prises entre 1959 et 1965.",
+      "Elle porte le nom du commandant J. F. Newman, de l’US Navy, qui a participé à l’opération Deep Freeze en 1966."
+    ],
+    "q": {
+      "q": "Quelle barrière de glace enserre l’île Newman ?",
+      "a": "La barrière de Nickerson",
+      "x": [
+        "La barrière de Getz",
+        "La barrière de Ross"
+      ]
+    }
+  },
+  "Q559842": {
+    "t": "Une île prise dans la glace, à l’ombre du mont Siple",
+    "s": "L’île Dean se trouve au milieu de la barrière de Getz, au large de la Terre Marie Byrd, entre l’île Grant et l’île Siple. Longue d’environ 37 km et large de 19, elle est si bien couverte de glace que, d’en haut, elle se fond presque parfaitement dans la barrière. Le repère voisin est le mont Siple, immense dôme volcanique de l’île d’à côté, qui dépasse 3 000 m.",
+    "w": "Une large élévation blanche et basse dans la barrière plate ; au nord-est, le haut dôme enneigé du mont Siple.",
+    "f": [
+      "C’est l’une des îles prises dans la barrière de Getz, qui s’étire sur plus de 500 km le long de la côte.",
+      "Le mont Siple, sur l’île voisine du même nom, est un volcan bouclier d’environ 3 100 m."
+    ],
+    "q": {
+      "q": "Entre quelles îles se trouve l’île Dean ?",
+      "a": "Grant et Siple",
+      "x": [
+        "Shepard et Grant",
+        "Carney et Wright"
+      ]
+    }
+  },
+  "Q33788": {
+    "t": "Une longue île montagneuse au cœur d’un immense lagon",
+    "s": "La Grande Terre, île principale de la Nouvelle-Calédonie, mesure environ 400 km de long pour 50 km de large à peine : une échine montagneuse marquée de cicatrices rouges là où l’on extrait le nickel. Tout autour s’étend l’un des plus grands lagons du monde, turquoise vif, fermé par une barrière de corail qui trace au loin une mince ligne blanche d’écume.",
+    "w": "Une île longue, étroite et montagneuse, aux plaques nues rougeâtres, dans un large lagon turquoise bordé au loin d’une ligne d’écume.",
+    "f": [
+      "Le capitaine Cook l’a baptisée en 1774, ses collines lui rappelant l’Écosse.",
+      "Ses lagons et ses récifs sont inscrits au patrimoine mondial de l’UNESCO depuis 2008.",
+      "Le cagou, oiseau gris presque incapable de voler, qui aboie comme un chien, ne vit qu’ici."
+    ],
+    "q": {
+      "q": "Quel métal extrait-on des collines rouges de Nouvelle-Calédonie ?",
+      "a": "Le nickel",
+      "x": [
+        "Le cuivre",
+        "L’or"
+      ]
+    }
+  },
+  "Q712": {
+    "t": "Plus de 300 îles à cheval sur le 180e méridien",
+    "s": "Les Fidji, c’est un semis de plus de 300 îles, de deux grandes îles montagneuses à d’innombrables points cerclés de récif. D’en haut, le spectacle est dans les couleurs : océan bleu profond, lagons turquoise et traits blancs d’écume là où les récifs brisent la houle. Le 180e méridien traverse l’archipel, mais la ligne de changement de date le contourne pour que tout le pays vive le même jour.",
+    "w": "Deux grandes îles vertes et une poussière de petites, toutes frangées de lagons turquoise et de lignes blanches de ressac.",
+    "f": [
+      "Seul un tiers environ des îles est habité.",
+      "Le Grand Récif marin, au large de Vanua Levu, est l’une des plus longues barrières de corail du monde.",
+      "Viti Levu et Vanua Levu réunissent l’essentiel des terres et presque toute la population."
+    ],
+    "q": {
+      "q": "Quelle est la plus grande île des Fidji ?",
+      "a": "Viti Levu",
+      "x": [
+        "Vanua Levu",
+        "Taveuni"
+      ]
+    }
+  },
+  "ne-rg-1730072401": {
+    "t": "Les îles des Amis, au bord d’une fosse abyssale",
+    "s": "Les Tonga forment une double ligne d’îles du nord au sud. À l’est, des îles coralliennes basses, comme la plate Tongatapu, cerclées de récifs ; à l’ouest, un chapelet de volcans, dont certains ne sont guère que des sommets affleurant la surface. Le capitaine Cook les appela les îles des Amis. À l’est de la chaîne, le fond marin plonge dans la fosse des Tonga, l’un des lieux les plus profonds de la planète.",
+    "w": "Des îles coralliennes plates cerclées de récifs à l’est, une ligne parallèle de petites îles volcaniques à l’ouest, et l’océan profond au-delà.",
+    "f": [
+      "La fosse des Tonga atteint environ 10 800 m à l’abîme Horizon, deuxième point le plus profond des océans.",
+      "Les Tonga sont le seul royaume du Pacifique, gouverné par ses propres monarques pendant toute l’époque coloniale.",
+      "Dans l’archipel de Vava’u, les baleines à bosse viennent mettre bas entre juillet et octobre."
+    ],
+    "q": {
+      "q": "Comment le capitaine Cook appelait-il les Tonga ?",
+      "a": "Les îles des Amis",
+      "x": [
+        "Les îles de la Société",
+        "Les îles des Navigateurs"
+      ]
+    }
+  },
+  "Q700048": {
+    "t": "La chaîne du « lever du soleil », où se trouve la capitale",
+    "s": "Ratak signifie « lever du soleil » : c’est la chaîne orientale des deux que forment les îles Marshall, une ligne d’atolls coralliens étirée sur plusieurs centaines de kilomètres d’océan. D’en haut, chacun est un mince collier d’îlots autour d’un lagon turquoise. Majuro, la capitale, se trouve vers l’extrémité sud : un ruban de terre étroit et surpeuplé qui s’enroule autour d’un lagon large de plusieurs kilomètres.",
+    "w": "Une ligne de minces anneaux de terre autour de lagons turquoise, égrenés du nord au sud sur l’océan bleu profond.",
+    "f": [
+      "À Majuro, la bande de terre habitée ne fait souvent que quelques centaines de mètres de large.",
+      "Bokak, l’atoll le plus au nord, est sec et inhabité : un refuge pour les oiseaux marins."
+    ],
+    "q": {
+      "q": "Que signifie « Ratak » ?",
+      "a": "Lever du soleil",
+      "x": [
+        "Coucher du soleil",
+        "Grand lagon"
+      ]
+    }
+  },
+  "Q697840": {
+    "t": "La chaîne du « coucher du soleil » et ses lagons géants",
+    "s": "Ralik signifie « coucher du soleil » : c’est la chaîne occidentale des deux lignes parallèles d’atolls des îles Marshall. Son atoll le plus connu est Kwajalein, dont les quelque 100 îlots enserrent l’un des plus grands lagons du monde, plus de 2 000 km² d’eau turquoise et calme. D’en haut, les îlots ressemblent à un bracelet brisé tombé sur l’océan.",
+    "w": "De grands anneaux de minuscules îlots autour de vastes lagons turquoise, égrenés sur une ligne à l’ouest de la chaîne Ratak.",
+    "f": [
+      "Le lagon de Kwajalein couvre environ 2 170 km².",
+      "Le bikini, maillot de bain lancé en 1946, tient son nom de l’atoll de Bikini, dans cette chaîne."
+    ],
+    "q": {
+      "q": "Quel vêtement porte le nom d’un atoll de la chaîne Ralik ?",
+      "a": "Le bikini",
+      "x": [
+        "Le sarong",
+        "Le muumuu"
+      ]
+    }
+  },
+  "Q11826289": {
+    "t": "Les pics verts de Rarotonga et le lagon lumineux d’Aitutaki",
+    "s": "Les Cook du Sud réunissent l’essentiel de la population du pays et ses paysages les plus célèbres. Rarotonga est une haute île volcanique aux pics verts déchiquetés, cerclée d’un récif et d’une route côtière d’à peine 32 km. Au nord, le lagon d’Aitutaki est un vaste triangle d’un turquoise lumineux, semé d’îlots minuscules ; au sud-est, Mangaia est ceinturée de falaises d’anciens coraux soulevés.",
+    "w": "Rarotonga : petite île ronde aux pics verts acérés dans son récif ; au nord, l’immense lagon triangulaire et turquoise d’Aitutaki.",
+    "f": [
+      "Mangaia, formée il y a environ 18 millions d’années, est l’une des plus anciennes îles du Pacifique.",
+      "Les habitants des îles Cook sont aussi citoyens néo-zélandais."
+    ],
+    "q": {
+      "q": "Quelle île des Cook du Sud est célèbre pour son lagon turquoise ?",
+      "a": "Aitutaki",
+      "x": [
+        "Mangaia",
+        "Atiu"
+      ]
+    }
+  },
+  "Q244978": {
+    "t": "Des îles volcaniques parfumées entre Afrique et Madagascar",
+    "s": "Les Comores se trouvent à l’entrée nord du canal du Mozambique : quatre îles volcaniques de plus en plus anciennes d’ouest en est. La plus grande, la Grande Comore, est dominée par le Karthala, vaste volcan actif coiffé d’un immense cratère, aux flancs striés de coulées sombres. À l’extrémité est, Mayotte, la plus ancienne, est enveloppée d’un large lagon derrière une barrière de corail.",
+    "w": "Quatre îles volcaniques vert sombre en ligne : celle de l’ouest coiffée d’un vaste cratère, celle de l’est dans un lagon turquoise.",
+    "f": [
+      "Le Karthala, environ 2 360 m, est entré en éruption plus de 20 fois depuis le XIXe siècle.",
+      "Le cœlacanthe, poisson qu’on croyait disparu avec les dinosaures, vit dans les eaux profondes au large de ces îles.",
+      "Les îles sont l’une des principales sources mondiales d’huile d’ylang-ylang, utilisée en parfumerie."
+    ],
+    "q": {
+      "q": "Quel poisson « fossile vivant » vit au large des Comores ?",
+      "a": "Le cœlacanthe",
+      "x": [
+        "Le dipneuste",
+        "L’esturgeon"
+      ]
+    }
+  },
+  "ne-rg-1730073253": {
+    "t": "800 îles boisées où naviguent encore des nomades de la mer",
+    "s": "Au large de la côte sud de la Birmanie, quelque 800 îles s’éparpillent dans la mer d’Andaman, pour la plupart vallonnées, couvertes de forêt et bordées de plages blanches et de mangroves. Peu de villes, peu d’aménagements : d’en haut, surtout des îles vertes, du sable pâle et une eau limpide dans tous les bleus. Les Moken, nomades de la mer qui vivent une grande partie de l’année en bateau, y naviguent depuis des siècles.",
+    "w": "Des centaines d’îles abruptes et boisées aux plages blanches, éparpillées le long de la côte sud de la Birmanie.",
+    "f": [
+      "L’archipel est resté largement fermé aux visiteurs étrangers jusqu’à la fin des années 1990.",
+      "L’île de Lampi est au cœur de l’unique parc national marin de Birmanie."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on les Moken de l’archipel de Mergui ?",
+      "a": "Les nomades de la mer",
+      "x": [
+        "Les bergers des montagnes",
+        "Les marchands de sel"
+      ]
+    }
+  },
+  "Q5765": {
+    "t": "Montagnes, criques et une eau si claire qu’on voit le fond",
+    "s": "Les Baléares s’étendent au large de l’est de l’Espagne : la grande Majorque au centre, Minorque plus douce au nord-est, Ibiza et la minuscule Formentera au sud-ouest. La côte nord-ouest de Majorque est un mur de montagnes calcaires, la Serra de Tramuntana, au-dessus d’une mer bleu profond. Autour de Formentera, l’eau est si claire que les herbiers sous-marins forment des taches sombres dans les hauts-fonds turquoise.",
+    "w": "Une grande île avec une crête montagneuse le long de sa côte nord-ouest, une plus plate au nord-est, deux autres au sud-ouest.",
+    "f": [
+      "La Serra de Tramuntana, à Majorque, est inscrite au patrimoine mondial de l’UNESCO.",
+      "Un herbier au large de Formentera pourrait être l’un des plus vieux êtres vivants du monde, âgé peut-être de dizaines de milliers d’années.",
+      "Minorque tout entière est une réserve de biosphère de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quelle est la plus grande des îles Baléares ?",
+      "a": "Majorque",
+      "x": [
+        "Minorque",
+        "Ibiza"
+      ]
+    }
+  },
+  "ne-rg-1730073309": {
+    "t": "Des îles arctiques nues le long du passage du Nord-Ouest",
+    "s": "Les îles Parry forment une large bande d’îles arctiques le long de la rive nord du passage du Nord-Ouest, de Cornwallis à l’est jusqu’à Prince-Patrick à l’ouest. D’en haut, elles sont brunes et grises, tabulaires et nues, rayées de vallées sèches et frangées de banquise la plus grande partie de l’année. En 1819, les navires de William Parry y ont poussé plus loin vers l’ouest que quiconque avant eux.",
+    "w": "De grandes îles nues, gris-brun, aux plateaux plats et aux vallées sèches, cernées de banquise presque toute l’année.",
+    "f": [
+      "Les navires de Parry ont passé l’hiver 1819-1820 pris dans les glaces à Winter Harbour, sur l’île Melville.",
+      "En franchissant le 110e méridien ouest, les équipages de Parry ont gagné une prime de 5 000 livres offerte par le Parlement britannique.",
+      "Resolute, sur l’île Cornwallis, est l’une des localités les plus septentrionales du Canada."
+    ],
+    "q": {
+      "q": "À qui les îles Parry doivent-elles leur nom ?",
+      "a": "William Edward Parry",
+      "x": [
+        "John Franklin",
+        "John Ross"
+      ]
+    }
+  },
+  "Q741243": {
+    "t": "Une île grande comme le Danemark, sans mer en vue",
+    "s": "L’île Berkner n’est guère une île que sur la carte : elle n’est pas entourée d’eau libre mais de la barrière flottante de Filchner-Ronne, et elle-même disparaît sous la glace. D’en haut, c’est un immense dôme aux pentes douces au-dessus de la barrière, long de quelque 320 km et haut de moins d’un kilomètre. Elle coupe la barrière en deux : Ronne à l’ouest, Filchner à l’est.",
+    "w": "Un immense dôme de glace aux formes douces, au-dessus de la barrière parfaitement plate qui l’entoure de tous côtés.",
+    "f": [
+      "Avec environ 44 000 km², elle a à peu près la taille du Danemark.",
+      "Elle a été découverte en 1957-1958 par une équipe américaine de la station Ellsworth, dirigée par Finn Ronne.",
+      "Elle porte le nom du physicien Lloyd Berkner, ingénieur radio de l’expédition antarctique de Byrd en 1928-1930."
+    ],
+    "q": {
+      "q": "Quelles barrières de glace l’île Berkner sépare-t-elle ?",
+      "a": "Ronne et Filchner",
+      "x": [
+        "Ross et Ronne",
+        "Filchner et Brunt"
+      ]
+    }
   }
 }

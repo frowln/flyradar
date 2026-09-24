@@ -1070,5 +1070,356 @@
         "La capa de hielo de Groenlandia"
       ]
     }
+  },
+  "ne-gl-bering-glacier": {
+    "t": "El glaciar más largo de Norteamérica, un río de hielo",
+    "s": "Si vuelas a lo largo del golfo de Alaska, busca un enorme lóbulo de hielo que se derrama sobre la llanura costera: el glaciar Bering, de unos 190 km, el más largo y extenso de América del Norte. Nace en el campo de hielo Bagley, en los montes Chugach y San Elías. Franjas oscuras de derrubios rocosos ondulan sobre su superficie, plegadas en olas por antiguos avances bruscos.",
+    "w": "Un enorme lóbulo de hielo que se derrama sobre la llanura costera al este del delta del río Copper, rayado de líneas oscuras y onduladas.",
+    "f": [
+      "Debe su nombre al explorador Vitus Bering y ha avanzado bruscamente varias veces en el último siglo.",
+      "En su frente está el lago Vitus, lleno de icebergs flotantes."
+    ],
+    "q": {
+      "q": "¿Qué campo de hielo alimenta el glaciar Bering?",
+      "a": "Campo de hielo Bagley",
+      "x": [
+        "Campo de hielo Harding",
+        "Campo de hielo Juneau"
+      ]
+    }
+  },
+  "ne-gl-brasvellbreen": {
+    "t": "El muro de hielo que saltó 20 km en dos años",
+    "s": "En Nordaustlandet, la segunda isla de Svalbard, el casquete Austfonna termina en un largo acantilado bajo, y Bråsvellbreen es su mayor glaciar de desagüe. Entre 1936 y 1938 avanzó hasta 20 km a lo largo de un frente de 30 km: uno de los mayores avances glaciares jamás registrados. En verano, el agua de deshielo cae del acantilado de hielo al mar en decenas de cascadas.",
+    "w": "Un largo acantilado de hielo, bajo, que corre junto al mar: el borde de un enorme casquete blanco en la segunda isla de Svalbard.",
+    "f": [
+      "Su nombre noruego significa más o menos «crecida repentina», por aquel avance.",
+      "El frente de hielo de Austfonna se extiende a lo largo de bastante más de 100 km, casi sin interrupción.",
+      "Austfonna es uno de los mayores casquetes de hielo de Europa."
+    ],
+    "q": {
+      "q": "¿Qué hizo Bråsvellbreen entre 1936 y 1938?",
+      "a": "Avanzó hasta 20 km",
+      "x": [
+        "Retrocedió 20 km",
+        "Se dividió en dos glaciares"
+      ]
+    }
+  },
+  "ne-gl-cambria-icefield": {
+    "t": "Un campo de hielo con glaciares azules sobre Stewart",
+    "s": "Al sureste del pequeño puerto de Stewart, al fondo del largo fiordo de Portland Canal, el campo de hielo Cambria cubre unos 700 km² de la cordillera Costera. Sus glaciares se derraman por todos lados hacia valles boscosos. Uno de ellos, el glaciar Bear, termina justo al lado de una carretera, con su frente de un azul intenso sobre un lago de deshielo.",
+    "w": "Un campo de hielo blanco entre picos costeros dentados, con glaciares que irradian hacia valles verdes, al este de un fiordo largo y estrecho.",
+    "f": [
+      "Portland Canal, el fiordo de abajo, mide más de 100 km y forma parte de la frontera entre Alaska y Canadá.",
+      "Stewart, al fondo del fiordo, se presenta como el puerto libre de hielo más septentrional de Canadá.",
+      "Sus glaciares de desagüe retroceden desde los primeros años del siglo XX."
+    ],
+    "q": {
+      "q": "¿Qué glaciar del Cambria termina junto a una carretera cerca de Stewart?",
+      "a": "Glaciar Bear",
+      "x": [
+        "Glaciar Athabasca",
+        "Glaciar Mendenhall"
+      ]
+    }
+  },
+  "ne-gl-columbia-icefield": {
+    "t": "El techo de las Rocosas, que vierte a tres océanos",
+    "s": "El campo de hielo Columbia es el mayor de las Montañas Rocosas: unos 200 km² de hielo sobre la divisoria continental, entre Alberta y la Columbia Británica. Su agua de deshielo va a tres océanos: al oeste, al Pacífico; al norte, al Ártico; y al este, por la bahía de Hudson, al Atlántico. Busca el glaciar Athabasca, una ancha lengua blanca que termina cerca de la carretera Icefields Parkway.",
+    "w": "Una alta meseta de hielo blanco rodeada de picos rocosos, con una ancha lengua glaciar que baja hacia una carretera.",
+    "f": [
+      "El monte Columbia, de 3747 m, en su borde, es el punto más alto de Alberta.",
+      "El Snow Dome, sobre el campo de hielo, es una triple divisoria: su deshielo puede llegar a tres océanos distintos.",
+      "El glaciar Athabasca ha retrocedido más de 1,5 km desde finales del siglo XIX."
+    ],
+    "q": {
+      "q": "¿A cuántos océanos llega el agua de deshielo del campo de hielo Columbia?",
+      "a": "Tres",
+      "x": [
+        "Dos",
+        "Cuatro"
+      ]
+    }
+  },
+  "ne-gl-devon-ice-cap": {
+    "t": "Hielo en la mayor isla deshabitada de la Tierra",
+    "s": "La isla Devon, al norte del estrecho de Lancaster, es la mayor isla de la Tierra sin habitantes permanentes, y su parte oriental yace bajo el casquete de Devon, unos 14 000 km² de blanco. Al oeste del hielo, la tierra es una meseta desnuda de color óxido, tan marciana que los científicos usan allí el cráter Haughton para ensayar misiones al planeta rojo. Desde el aire, el contraste entre blanco y pardo impresiona.",
+    "w": "Una cúpula blanca que cubre el extremo oriental de la isla, junto a mesetas desnudas de color óxido cortadas por cañones.",
+    "f": [
+      "El cráter Haughton, de unos 23 km de ancho, lo abrió un impacto hace decenas de millones de años.",
+      "El proyecto Haughton-Mars organiza campañas de campo en el cráter desde 1997."
+    ],
+    "q": {
+      "q": "¿Qué hace especial a la isla Devon?",
+      "a": "Es la mayor isla deshabitada",
+      "x": [
+        "Es la isla más septentrional",
+        "Es la mayor isla del Ártico"
+      ]
+    }
+  },
+  "ne-gl-edgeoyjokulen": {
+    "t": "Una cúpula blanca en la salvaje isla oriental de Svalbard",
+    "s": "Edgeøya, la tercera isla de Svalbard, no tiene habitantes permanentes, y gran parte de su lado oriental está bajo casquetes como Edgeøyjøkulen. Busca una cúpula blanca y lisa cuyos bordes se rompen en glaciares cortos que llegan al mar, mientras el oeste de la isla muestra mesetas pardas, desnudas y escalonadas. En invierno, toda la isla se funde con el mar helado que la rodea.",
+    "w": "Una cúpula blanca y lisa en una gran isla al sureste de Spitsbergen, con glaciares cortos hasta el mar y altiplanos pardos desnudos.",
+    "f": [
+      "La isla debe su nombre a Thomas Edge, un comerciante inglés dedicado a la caza de ballenas en el siglo XVII.",
+      "Edgeøya está dentro de una reserva natural por la que los osos polares campan a sus anchas."
+    ],
+    "q": {
+      "q": "¿Qué puesto ocupa Edgeøya entre las islas de Svalbard por tamaño?",
+      "a": "El tercero",
+      "x": [
+        "El primero",
+        "El quinto"
+      ]
+    }
+  },
+  "ne-gl-harding-icefield": {
+    "t": "Un mar helado que derrama decenas de glaciares",
+    "s": "En la península de Kenai, al sur de Anchorage, el campo de hielo Harding sepulta unos 1800 km² de montañas, y solo asoman algunas cumbres rocosas. De él salen más de 30 glaciares, varios de los cuales bajan hasta los fiordos del Parque Nacional Kenai Fjords. Desde arriba es un mar blanco salpicado de islas oscuras de roca, los nunataks, que termina de golpe en la costa verde.",
+    "w": "Una extensión blanca salpicada de picos oscuros, que envía lenguas glaciares hasta los fiordos de la costa sur de la península de Kenai.",
+    "f": [
+      "Debe su nombre al presidente estadounidense Warren G. Harding, que visitó Alaska en 1923.",
+      "El glaciar Exit, cerca de la ciudad de Seward, es la única parte del campo de hielo a la que se llega por carretera."
+    ],
+    "q": {
+      "q": "¿Qué parque nacional está a los pies del campo de hielo Harding?",
+      "a": "Kenai Fjords",
+      "x": [
+        "Glacier Bay",
+        "Denali"
+      ]
+    }
+  },
+  "ne-gl-holtedahlfonna": {
+    "t": "El hielo que alimenta los glaciares del Kongsfjorden",
+    "s": "El noroeste de Spitsbergen está coronado por Holtedahlfonna, el segundo casquete de hielo de la isla, unos 1400 km² de blanco. Su hielo desagua hacia el oeste por Kronebreen, uno de los glaciares más rápidos de Svalbard, que termina en un muro azul que se desmorona al fondo del Kongsfjorden. En el mismo fiordo está Ny-Ålesund, uno de los asentamientos científicos más septentrionales de la Tierra.",
+    "w": "Un ancho campo de hielo blanco al este del Kongsfjorden, que vierte un glaciar ancho en el fondo del fiordo.",
+    "f": [
+      "Debe su nombre al geólogo noruego Olaf Holtedahl.",
+      "Kronebreen puede avanzar hasta unos 3 m al día.",
+      "Ny-Ålesund acoge estaciones de investigación de unos diez países."
+    ],
+    "q": {
+      "q": "¿Qué glaciar rápido lleva el hielo de Holtedahlfonna al Kongsfjorden?",
+      "a": "Kronebreen",
+      "x": [
+        "Negribreen",
+        "Bråsvellbreen"
+      ]
+    }
+  },
+  "ne-gl-juneau-icefield": {
+    "t": "El campo de hielo tras la capital sin carreteras de Alaska",
+    "s": "Justo detrás de Juneau, la capital de Alaska, las montañas desaparecen bajo el campo de hielo Juneau, casi 4000 km² de hielo a caballo de la frontera entre EE. UU. y Canadá. De él bajan decenas de glaciares: el Mendenhall llega casi a los barrios de la ciudad, y el Taku desciende hacia el mar. El hielo es una de las razones por las que ninguna carretera une Juneau con el resto de Norteamérica.",
+    "w": "Una meseta blanca con picos oscuros detrás de Juneau y glaciares que caen hacia el mar; uno acaba en un lago junto a la ciudad.",
+    "f": [
+      "Juneau es la única capital estatal de EE. UU. en el continente norteamericano sin conexión por carretera con el resto del continente.",
+      "Desde finales de la década de 1940, cada verano hay estudiantes investigando el campo de hielo en el Juneau Icefield Research Program.",
+      "Durante décadas, el Taku fue uno de los pocos glaciares de Alaska que avanzaban."
+    ],
+    "q": {
+      "q": "¿Qué glaciar del campo de hielo Juneau acaba en un lago junto a la ciudad?",
+      "a": "Glaciar Mendenhall",
+      "x": [
+        "Glaciar Hubbard",
+        "Glaciar Columbia"
+      ]
+    }
+  },
+  "ne-gl-karpinsky-ice-cap": {
+    "t": "El punto más alto de Severnaya Zemlia es de hielo",
+    "s": "El casquete Karpinski es el mayor de los siete casquetes de hielo de la isla Revolución de Octubre, con unos 2800 km². Su cima, a unos 965 m, es el punto más alto de todo el archipiélago de Severnaya Zemlia, y es de hielo, no de roca. Busca una ancha cúpula que desciende hacia el mar de Láptev, con los bordes partidos en glaciares y bahías llenas de hielo marino casi todo el año.",
+    "w": "Una ancha cúpula blanca en el lado este de una gran isla ártica, con glaciares que llegan a bahías atascadas de hielo.",
+    "f": [
+      "Debe su nombre a Alexandr Karpinski, un geólogo que fue el primer presidente electo de la Academia de Ciencias de Rusia.",
+      "La isla Revolución de Octubre es la mayor de Severnaya Zemlia."
+    ],
+    "q": {
+      "q": "¿Qué forma el punto más alto de Severnaya Zemlia?",
+      "a": "Un casquete de hielo",
+      "x": [
+        "Un volcán",
+        "Un pináculo de roca"
+      ]
+    }
+  },
+  "ne-gl-kluane-ice-cap": {
+    "t": "Los mayores campos de hielo fuera de las regiones polares",
+    "s": "Entre el Yukón y Alaska se extiende un mar de hielo que engulle cordilleras enteras: los campos de hielo de los montes San Elías, los mayores fuera de las regiones polares. De ellos surge el monte Logan, de 5959 m, el pico más alto de Canadá y una de las montañas más voluminosas de la Tierra. Desde arriba, busca ríos de hielo de muchos kilómetros de ancho, rayados de morrenas oscuras como autopistas.",
+    "w": "Campos de hielo blancos sin fin, con picos rocosos oscuros y enormes glaciares rayados, tierra adentro del golfo de Alaska.",
+    "f": [
+      "El Parque Nacional Kluane y sus vecinos forman un solo sitio del Patrimonio Mundial de la UNESCO a ambos lados de la frontera Canadá–EE. UU.",
+      "Se cree que el monte Logan tiene la base más grande de todas las montañas no volcánicas de la Tierra.",
+      "El glaciar Hubbard, alimentado por estos campos de hielo, desprende icebergs al mar cerca de Yakutat."
+    ],
+    "q": {
+      "q": "¿Qué montaña, que surge de estos campos de hielo, es la más alta de Canadá?",
+      "a": "Monte Logan",
+      "x": [
+        "Monte Robson",
+        "Monte San Elías"
+      ]
+    }
+  },
+  "ne-gl-lyell-icefield": {
+    "t": "Cinco cumbres con nombres de guías de montaña suizos",
+    "s": "Al sur del campo de hielo Columbia, otra capa de hielo cubre la divisoria continental: el campo de hielo Lyell. Sobre él se alzan las cinco cumbres del monte Lyell, llamado así por el geólogo Charles Lyell; cada pico honra a un guía suizo que trabajó en las Rocosas canadienses. Busca una meseta blanca que envía glaciares al oeste, hacia la Columbia Británica, y al este, hacia los valles de Banff.",
+    "w": "Una meseta de hielo blanca en la cresta de las Rocosas, al sur del campo de hielo Columbia, más grande, con glaciares a ambos lados.",
+    "f": [
+      "Charles Lyell, que le da nombre, fue uno de los fundadores de la geología moderna.",
+      "Sus glaciares orientales alimentan el río Saskatchewan Norte, cuyas aguas acaban en la bahía de Hudson."
+    ],
+    "q": {
+      "q": "¿Qué río alimentan los glaciares orientales del campo de hielo Lyell?",
+      "a": "Saskatchewan Norte",
+      "x": [
+        "Athabasca",
+        "Bow"
+      ]
+    }
+  },
+  "ne-gl-malaspina-glacier": {
+    "t": "Un abanico gigante de hielo sobre la llanura de Alaska",
+    "s": "Busca un enorme lóbulo redondo de hielo tendido sobre la llanura costera, al pie del monte San Elías: el Malaspina, el mayor glaciar de piedemonte del mundo. El glaciar Seward sale de las montañas por un paso estrecho y se extiende como masa sobre una mesa, con unos 65 km de ancho. Su superficie está jaspeada de bandas oscuras de morrena, plegadas en zigzag por sucesivos avances bruscos.",
+    "w": "Un enorme lóbulo redondeado de hielo sobre la llanura costera, jaspeado de franjas oscuras en zigzag, al oeste de la bahía de Yakutat.",
+    "f": [
+      "Cubre unos 3900 km², más que el estado estadounidense de Rhode Island.",
+      "Debe su nombre a Alejandro Malaspina, que exploró esta costa para España en 1791.",
+      "Su lecho está por debajo del nivel del mar, así que el océano podría inundarlo algún día si el hielo adelgaza lo bastante."
+    ],
+    "q": {
+      "q": "¿Qué tipo de glaciar es el Malaspina?",
+      "a": "Un glaciar de piedemonte",
+      "x": [
+        "Un glaciar de marea",
+        "Un glaciar de circo"
+      ]
+    }
+  },
+  "ne-gl-manson-icefield": {
+    "t": "Una capa de hielo solitaria en la costa sur de Ellesmere",
+    "s": "En la costa sureste de la isla de Ellesmere, en el extremo norte de la bahía de Baffin, el campo de hielo Manson cubre unos 6000 km² de montañas. Desde arriba es una ancha meseta blanca cuyos glaciares caen a pico al mar y sueltan icebergs que derivan lentamente al sur. No hay carreteras ni poblados sobre el hielo, y en invierno se funde con el mar helado en una sola llanura blanca.",
+    "w": "Una ancha meseta blanca en la costa sureste de Ellesmere, con glaciares que caen a pico en aguas oscuras sembradas de hielo.",
+    "f": [
+      "Grise Fiord, la comunidad civil más septentrional de Canadá, está en la misma costa sur de Ellesmere.",
+      "Justo frente a la costa, la polinia North Water es un tramo de mar que sigue en parte abierto incluso en invierno."
+    ],
+    "q": {
+      "q": "¿Cuál es la comunidad civil más septentrional de Canadá, en Ellesmere?",
+      "a": "Grise Fiord",
+      "x": [
+        "Resolute",
+        "Alert"
+      ]
+    }
+  },
+  "ne-gl-monarch-icefield": {
+    "t": "Una corona de hielo sobre el valle de Bella Coola",
+    "s": "Al sureste de Bella Coola, pueblo de fiordo, la cordillera Costera desaparece bajo el campo de hielo Monarch, el más septentrional de una cadena de grandes campos de hielo de las cordilleras del Pacífico. El monte Monarch, de 3555 m, que le da nombre, domina los picos de alrededor. Desde arriba, busca una meseta blanca con cumbres oscuras, glaciares que caen hacia hondos valles verdes y, más allá, los largos fiordos de la costa.",
+    "w": "Un campo de hielo blanco con cumbres de roca oscura al sureste de un fiordo largo, con glaciares que bajan a hondos valles verdes.",
+    "f": [
+      "Henry Hall y Hans Fuhrer hicieron la primera ascensión del monte Monarch en 1936.",
+      "Al sur está el campo de hielo Ha-Iltzuk, más grande, el mayor de este grupo.",
+      "El valle de Bella Coola, a sus pies, es famoso por los osos pardos que pescan salmones."
+    ],
+    "q": {
+      "q": "¿Qué pueblo de fiordo está al noroeste del campo de hielo Monarch?",
+      "a": "Bella Coola",
+      "x": [
+        "Prince Rupert",
+        "Kitimat"
+      ]
+    }
+  },
+  "ne-gl-mount-brown-icefield": {
+    "t": "Escenario de un famoso error al medir montañas",
+    "s": "En torno al paso de Athabasca, sobre la divisoria continental, al sur de Jasper, se extiende el tranquilo campo de hielo del monte Brown. Su monte tiene historia: en 1827, el botánico escocés David Douglas afirmó que el monte Brown y el vecino Hooker medían unos 16 000 pies y eran las cumbres más altas de Norteamérica. Los mapas lo repitieron durante décadas. En realidad, ambos quedan muy por debajo de 3500 m.",
+    "w": "Un campo de hielo entre picos oscuros de las Rocosas, junto a una muesca baja: un viejo paso del comercio de pieles.",
+    "f": [
+      "El paso de Athabasca fue una de las principales rutas peleteras a través de las Rocosas a principios del siglo XIX.",
+      "El monte Brown debe su nombre al botánico Robert Brown, conocido por describir el movimiento browniano.",
+      "El mito de los picos gigantes duró hasta que escaladores y topógrafos los comprobaron en la década de 1890."
+    ],
+    "q": {
+      "q": "¿En qué se equivocó David Douglas sobre el monte Brown en 1827?",
+      "a": "En su altura",
+      "x": [
+        "En su nombre",
+        "En su ubicación"
+      ]
+    }
+  },
+  "ne-gl-muller-ice-cap": {
+    "t": "Hielo ártico en una isla de bosques fósiles",
+    "s": "La isla Axel Heiberg, al oeste de Ellesmere, está coronada por dos casquetes de hielo, y el Müller es el del norte. Sus glaciares de desagüe bajan lentamente hacia largos fiordos. Cerca, el glaciar White se mide cada año desde 1959, uno de los registros más largos de este tipo en el Ártico. En otras partes de la isla hay tocones momificados de bosques que crecieron aquí hace unos 45 millones de años.",
+    "w": "Un ancho casquete blanco en el norte de la isla Axel Heiberg, con glaciares que bajan hacia fiordos largos y oscuros.",
+    "f": [
+      "La isla lleva el nombre de Axel Heiberg, director de una cervecera noruega que financió la expedición de Otto Sverdrup.",
+      "La Universidad McGill mantiene desde 1960 una estación de investigación estival en Expedition Fiord."
+    ],
+    "q": {
+      "q": "¿Qué fósiles asombrosos se han hallado en la isla Axel Heiberg?",
+      "a": "Tocones de árboles momificados",
+      "x": [
+        "Huellas de dinosaurio",
+        "Esqueletos de mamut"
+      ]
+    }
+  },
+  "ne-gl-myrdalsjokull": {
+    "t": "Un casquete de hielo que oculta el volcán Katla",
+    "s": "Cerca del extremo sur de Islandia, un casquete blanco y redondo descansa sobre llanuras de arena negra: Mýrdalsjökull, de unos 500 km². Debajo está el Katla, uno de los volcanes más potentes de Islandia, cuya última gran erupción, en 1918, lanzó riadas de agua de deshielo sobre la costa. Justo al oeste está el Eyjafjallajökull, más pequeño, cuya erupción de 2010 paralizó durante días los vuelos de toda Europa.",
+    "w": "Un casquete blanco redondeado sobre llanuras de arena negra en la costa sur de Islandia, con el pequeño Eyjafjallajökull justo al oeste.",
+    "f": [
+      "La riada del Katla de 1918 arrastró tantos sedimentos que adelantó la costa varios kilómetros mar adentro.",
+      "Vík, cerca de su pie sur, es el pueblo más meridional de Islandia.",
+      "Mýrdalsjökull es el cuarto glaciar más grande de Islandia."
+    ],
+    "q": {
+      "q": "¿Qué volcán se oculta bajo Mýrdalsjökull?",
+      "a": "Katla",
+      "x": [
+        "Hekla",
+        "Grímsvötn"
+      ]
+    }
+  },
+  "ne-gl-negribreen": {
+    "t": "Un glaciar que despierta más o menos una vez por siglo",
+    "s": "En la costa este de Spitsbergen, Negribreen desemboca en el ancho Storfjorden: un gran río de hielo con la superficie cuajada de grietas. Es un glaciar de oleada: entre 1935 y 1936 dio un salto de casi 12 km en un solo año. En 2016 volvió a despertar, y en 2017 algunas partes corrían a unos 20 m al día. Desde arriba, busca una superficie caótica de bloques de hielo blanco hechos añicos.",
+    "w": "Un glaciar ancho y muy agrietado en la costa este de Spitsbergen, que termina en un acantilado de hielo en el ancho Storfjorden.",
+    "f": [
+      "En su avance de 1935–1936, el frente progresó a lo largo de un tramo de unos 15 km de ancho.",
+      "Los glaciares de oleada son comunes en Svalbard; muchos pasan décadas tranquilos entre un avance y otro."
+    ],
+    "q": {
+      "q": "¿Cuánto avanzó de golpe Negribreen en 1935–1936?",
+      "a": "Unos 12 km",
+      "x": [
+        "Cerca de 1 km",
+        "Unos 50 km"
+      ]
+    }
+  },
+  "ne-gl-north-ellesmere-ice-cap": {
+    "t": "Hielo en la cima misma de Norteamérica",
+    "s": "El extremo norte de la isla de Ellesmere es una de las tierras más septentrionales del planeta, y gran parte está bajo casquetes y campos de hielo. Aquí, en el Parque Nacional Quttinirpaaq, se alzan las montañas más altas del Ártico canadiense, como el pico Barbeau, de 2616 m. Desde arriba, busca mesetas blancas rotas por nunataks oscuros y, en la costa, los restos desgarrados de antiguas plataformas de hielo flotantes.",
+    "w": "Mesetas blancas perforadas por picos oscuros, bordeadas en la costa del océano Ártico por restos de plataformas de hielo flotantes.",
+    "f": [
+      "El cabo Columbia, en la costa norte de Ellesmere, es el punto más septentrional de Canadá.",
+      "Quttinirpaaq significa «la cima del mundo» en inuktitut.",
+      "El pico Barbeau, de 2616 m, es la montaña más alta de Nunavut."
+    ],
+    "q": {
+      "q": "¿Qué significa «Quttinirpaaq» en inuktitut?",
+      "a": "La cima del mundo",
+      "x": [
+        "Tierra de hielo",
+        "Lugar de osos"
+      ]
+    }
   }
 }

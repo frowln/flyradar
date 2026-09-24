@@ -1422,5 +1422,484 @@
         "Alte Lavaströme"
       ]
     }
+  },
+  "Q25231": {
+    "t": "Spitze Berge, fließende Gletscher und ein Tresor für Saatgut",
+    "s": "Auf Svalbard wirkt die Arktis aus der Luft am dramatischsten: dunkle Berge mit scharfen Graten, Gletscher, die wie gefrorene Flüsse zwischen ihnen fließen, und Eisfronten, die in Fjorde kalben. Rund 60 % des Landes liegen unter Eis. Willem Barentsz nannte die Hauptinsel Spitzbergen – „spitze Berge“ –, als er sie 1596 sichtete.",
+    "w": "Zackige dunkle Gipfel, getrennt von breiten weißen Gletschern, Fjorde, die an Eisklippen enden, und Meereis im Norden und Osten.",
+    "f": [
+      "Longyearbyen ist der nördlichste Ort der Erde mit mehr als 1.000 Einwohnern.",
+      "Der Global Seed Vault, in einen Berg bei Longyearbyen gegraben, lagert Saatgut aus aller Welt.",
+      "Die Mitternachtssonne scheint hier etwa von Ende April bis Ende August."
+    ],
+    "q": {
+      "q": "Welchen Namen gab Willem Barentsz 1596 der Hauptinsel Svalbards?",
+      "a": "Spitzbergen",
+      "x": [
+        "Nordostland",
+        "Edgeøya"
+      ]
+    }
+  },
+  "Q185018": {
+    "t": "Europas nördlichste Inseln, eingeschlossen im Packeis",
+    "s": "Franz-Josef-Land ist eine Streuung von fast 200 Inseln hoch in der Arktis, die meisten unter Eiskappen begraben, an deren Rändern dunkle Basaltklippen hervortreten. Von oben wirken die Eiskuppeln glatt und gerundet, und die Kanäle dazwischen bleiben einen Großteil des Jahres gefroren. Kap Fligely auf der Rudolf-Insel ist der nördlichste Punkt Europas, rund 900 km vom Pol entfernt.",
+    "w": "Dutzende Inseln unter glatten, gerundeten Eiskappen, mit dunklen Klippen an den Rändern und gefrorenen Kanälen dazwischen.",
+    "f": [
+      "Eine österreichisch-ungarische Expedition entdeckte die Inseln 1873 und benannte sie nach Kaiser Franz Joseph.",
+      "Fridtjof Nansen und Hjalmar Johansen überwinterten 1895–96 hier in einer Steinhütte.",
+      "Die Champ-Insel ist berühmt für ihre seltsamen, fast perfekt runden Steinkugeln."
+    ],
+    "q": {
+      "q": "Welcher Kaiser gab Franz-Josef-Land seinen Namen?",
+      "a": "Franz Joseph I. von Österreich",
+      "x": [
+        "Wilhelm II. von Deutschland",
+        "Alexander II. von Russland"
+      ]
+    }
+  },
+  "Q80413": {
+    "t": "Eine 1.000-km-Mauer aus Eis und Fels zwischen zwei Meeren",
+    "s": "Nowaja Semlja ist eine lange, gebogene Barriere, fast 1.000 km von Ende zu Ende, die die Barentssee von der Karasee trennt – der Ural, fortgesetzt hinaus in die Arktis. Ihre zwei Hauptinseln trennt die schmale Meerenge Matotschkin Schar. Die südliche ist Tundra mit kahlen Hügeln; die nördliche liegt größtenteils unter einer riesigen Eiskappe, deren Gletscher ins Meer abbrechen.",
+    "w": "Ein sehr langes, schmales, gebogenes Inselpaar: braune Tundra im Süden, eine geschlossene weiße Eiskappe im Norden.",
+    "f": [
+      "Die Eiskappe der Nordinsel, rund 20.000 km² groß, zählt zu den größten Europas.",
+      "Willem Barentsz und seine Mannschaft überwinterten 1596–97 nahe der Nordspitze in einer Hütte aus Treibholz.",
+      "Matotschkin Schar, die Meerenge zwischen den beiden Hauptinseln, ist rund 100 km lang."
+    ],
+    "q": {
+      "q": "Welche zwei Meere trennt Nowaja Semlja?",
+      "a": "Barentssee und Karasee",
+      "x": [
+        "Karasee und Laptewsee",
+        "Barentssee und Weißes Meer"
+      ]
+    }
+  },
+  "Q3803": {
+    "t": "Vulkan auf Vulkan, von Bali bis Timor",
+    "s": "Östlich von Java werden die Inseln kleiner und trockener – Bali, Lombok, Sumbawa, Flores und weiter bis Timor –, und die meisten tragen Vulkane. Manche Gipfel bergen eindrucksvolle Kraterseen: Der Rinjani auf Lombok hält eine blaue Wassersichel, in der ein junger Kegel aufragt. Weiter östlich weicht das Grün brauner Savanne, wo auf einigen Inseln noch Komodowarane umherstreifen.",
+    "w": "Eine West-Ost-Kette von Vulkaninseln, im Westen grüner, im Osten brauner; achten Sie auf Kraterseen und Calderen.",
+    "f": [
+      "Auf Flores haben die drei Kraterseen des Kelimutu je eine andere Farbe, und die Farben wechseln mit der Zeit.",
+      "Der Tambora auf Sumbawa hinterließ bei seinem großen Ausbruch 1815 eine rund 6 km breite Caldera.",
+      "Reste des Homo floresiensis, eines winzigen ausgestorbenen Menschen mit dem Spitznamen „Hobbit“, fand man 2003 auf Flores."
+    ],
+    "q": {
+      "q": "Welche der Kleinen Sundainseln hat drei verschiedenfarbige Kraterseen?",
+      "a": "Flores",
+      "x": [
+        "Lombok",
+        "Sumba"
+      ]
+    }
+  },
+  "Q215664": {
+    "t": "Hunderte Riffe, verstreut übers Südchinesische Meer",
+    "s": "Im südlichen Südchinesischen Meer liegen weit über hundert Riffe, Atolle und Sandbänke, viele davon bei Flut überspült. Von oben erscheinen sie als blasse türkisfarbene Flecken und helle Ringe auf tiefem Blau, mit nur wenigen Tupfen echten Landes dazwischen. Alte britische Seekarten versahen das ganze Gebiet mit einer knappen Warnung: „Dangerous Ground“ – gefährlicher Grund.",
+    "w": "Blasse türkisfarbene Ringe und Riffflecken, verstreut über dunkelblaues Meer, mit sehr wenig trockenem Land.",
+    "f": [
+      "Die Inseln sind nach Richard Spratly benannt, einem britischen Walfangkapitän, der eine von ihnen 1843 sichtete.",
+      "Ihre gesamte natürliche Landfläche zusammen umfasst nur rund 2 km²."
+    ],
+    "q": {
+      "q": "Wie bezeichneten alte britische Seekarten das Spratly-Gebiet?",
+      "a": "Dangerous Ground",
+      "x": [
+        "Treacherous Shoals",
+        "Coral Maze"
+      ]
+    }
+  },
+  "Q201012": {
+    "t": "Arktische Inseln aus Eis, Sand und Mammutknochen",
+    "s": "Die Neusibirischen Inseln liegen flach zwischen Laptewsee und Ostsibirischer See, oft kaum vom Meereis ringsum zu unterscheiden. Im Sommer zeigen sie braune Tundra und grauen Sand, mit Seen und bröckelnden Klippen aus uraltem Bodeneis. Der gefrorene Boden birgt so viele Mammutknochen und Stoßzähne, dass Elfenbeinsucher seit über zwei Jahrhunderten hierherkommen.",
+    "w": "Flache braune und graue Inseln mit vielen Seen, die einen Großteil des Jahres mit dem Meereis ringsum verschmelzen.",
+    "f": [
+      "Das Bunge-Land zwischen den Inseln Kotelny und Faddejewski ist eine flache Sandebene, die bei Stürmen überflutet wird.",
+      "1811 meldete Jakow Sannikow ein geheimnisvolles Land im Norden; das „Sannikowland“ wurde nie gefunden.",
+      "Kotelny ist die größte Insel der Gruppe."
+    ],
+    "q": {
+      "q": "Welches Phantomland wurde nördlich der Neusibirischen Inseln gemeldet?",
+      "a": "Sannikowland",
+      "x": [
+        "Crocker Land",
+        "Bunge-Land"
+      ]
+    }
+  },
+  "Q128011": {
+    "t": "Die großen Karibikinseln, von Kuba bis Puerto Rico",
+    "s": "Die Großen Antillen sind die Schwergewichte der Karibik: Kuba, Hispaniola, Jamaika und Puerto Rico, aufgereiht von West nach Ost. Von oben sind sie groß, grün und gebirgig, gesäumt von hellem Sand und türkisfarbenen Untiefen, während der Atlantik im Norden in tiefes, dunkles Blau abfällt. Kuba, die größte, erstreckt sich rund 1.200 km von einem Ende zum anderen.",
+    "w": "Eine West-Ost-Linie großer grüner Inseln: das lange, schmale Kuba, dann das gebirgige Hispaniola, Jamaika im Süden und zuletzt Puerto Rico.",
+    "f": [
+      "Kuba ist mit rund 105.000 km² die größte Insel der Karibik.",
+      "Nördlich von Puerto Rico fällt der Puerto-Rico-Graben auf rund 8.400 m ab – der tiefste Punkt des Atlantiks.",
+      "Jamaikas Blue Mountains, bis zu rund 2.250 m hoch, gaben einem berühmten Kaffee ihren Namen."
+    ],
+    "q": {
+      "q": "Welche ist die größte Insel der Karibik?",
+      "a": "Kuba",
+      "x": [
+        "Hispaniola",
+        "Jamaika"
+      ]
+    }
+  },
+  "Q21713615": {
+    "t": "Türkisbänke, so hell, als wären sie von unten beleuchtet",
+    "s": "Auf den Bahamas stiehlt das Wasser allem die Schau. Die Inseln liegen auf riesigen Kalkbänken, nur wenige Meter tief, die in einem fast unwirklichen Türkis leuchten, gemustert von Sandrippeln. In die Große Bahamabank schneidet die Tongue of the Ocean, ein tiefer Graben, dessen tintenblaues Wasser abrupt an den hellen Untiefen endet – eine der schärfsten Farbgrenzen, die Sie aus dem Flugzeug sehen werden.",
+    "w": "Riesige Flächen leuchtend hellen Türkis mit Sandrippeln, flache Inseln an ihren Rändern und scharfe Linien, wo das tiefe Blau beginnt.",
+    "f": [
+      "Kolumbus betrat hier im Oktober 1492 zum ersten Mal amerikanischen Boden.",
+      "Das Land zählt rund 700 Inseln und über 2.000 kleine Cays.",
+      "Dean’s Blue Hole vor Long Island reicht rund 200 m tief – eines der tiefsten bekannten."
+    ],
+    "q": {
+      "q": "In welchem Jahr landete Kolumbus erstmals auf den Bahamas?",
+      "a": "1492",
+      "x": [
+        "1498",
+        "1502"
+      ]
+    }
+  },
+  "Q93259": {
+    "t": "Eine geschwungene Inselkette, die die Karibik abschließt",
+    "s": "Die Kleinen Antillen ziehen sich in einem Bogen rund 800 km von den Jungferninseln bis Grenada und trennen die Karibik vom Atlantik. Die meisten sind steile, grüne Vulkaninseln, jede ein Gipfel mit einem Rock aus Riff; Guadeloupe hat die Form eines Schmetterlings. Achten Sie an klaren Tagen an der Westküste von Saint Lucia auf die Pitons, zwei spitze Vulkantürme, die Seite an Seite am Wasser stehen.",
+    "w": "Eine geschwungene Kette kleiner, steiler, grüner Vulkaninseln von Nord nach Süd, im Osten der offene Atlantik.",
+    "f": [
+      "Die inneren Inseln sind vulkanisch; äußere wie Antigua und Barbados sind flacher und bestehen aus Kalkstein.",
+      "Kick ’em Jenny nördlich von Grenada ist ein aktiver Vulkan, der unter dem Meer noch wächst.",
+      "Die Pitons von Saint Lucia sind UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welche Insel ist berühmt für zwei Vulkantürme namens Pitons?",
+      "a": "Saint Lucia",
+      "x": [
+        "Dominica",
+        "Grenada"
+      ]
+    }
+  },
+  "Q59771": {
+    "t": "Eine Sichel aus Regenwald und steilen Vulkankegeln",
+    "s": "Neubritannien ist eine lange, geschwungene Sichel von rund 500 km Länge, die größte Insel des Bismarck-Archipels. Entlang der Nordküste steht eine Reihe von Vulkanen; am eindrucksvollsten ist der Ulawun, ein steiler, symmetrischer Kegel und zugleich einer der aktivsten Papua-Neuguineas. Im Inneren verbergen die Kalksteinberge der Nakanai riesige Dolinen und unterirdische Flüsse.",
+    "w": "Eine lange, sichelförmige Insel aus dunklem Regenwald mit Vulkankegeln an der Nordküste, einer davon hoch und symmetrisch.",
+    "f": [
+      "Der Ulawun, rund 2.300 m hoch, gehört zu den für besondere Forschung ausgewählten Dekadenvulkanen.",
+      "Nach Neuguinea selbst ist sie die größte Insel Papua-Neuguineas.",
+      "Manche Dolinen in den Nakanai-Bergen sind Hunderte Meter tief."
+    ],
+    "q": {
+      "q": "Welcher aktive Vulkan steht an der Nordküste Neubritanniens?",
+      "a": "Ulawun",
+      "x": [
+        "Bagana",
+        "Manam"
+      ]
+    }
+  },
+  "Q17044696": {
+    "t": "Das Land, das der Welt das Wort „Atoll“ schenkte",
+    "s": "Die Malediven sehen aus wie türkise Perlen, verstreut auf dunkelblauem Samt: 26 Atolle in einer rund 870 km langen Doppelkette, jedes ein Ring aus Riffen und winzigen Inseln um eine helle Lagune. Viele Inseln sind nur ein Streifen weißer Sand mit Palmen, darauf ein einziges Resort oder Dorf. Die Hauptstadt Malé füllt ihre kleine Insel bis an den Rand mit Gebäuden.",
+    "w": "Ringe aus hell-türkisem Riff und weiße Sandtupfen auf tiefblauem Ozean, angeordnet in einer langen Nord-Süd-Doppelkette.",
+    "f": [
+      "„Atoll“ kommt von „atholhu“, einem Wort aus Dhivehi, der Sprache der Malediven.",
+      "Die Malediven sind das am tiefsten gelegene Land der Welt: Ihr natürlicher Boden erreicht höchstens rund 2,4 m.",
+      "Das Land hat rund 1.200 Koralleninseln, von denen weniger als 200 bewohnt sind."
+    ],
+    "q": {
+      "q": "Welches Wort stammt aus der Sprache der Malediven?",
+      "a": "Atoll",
+      "x": [
+        "Lagune",
+        "Riff"
+      ]
+    }
+  },
+  "Q25263": {
+    "t": "Grüne Vulkaninseln mitten im Atlantik",
+    "s": "Neun Vulkaninseln liegen verstreut im mittleren Atlantik, rund 1.500 km westlich von Lissabon. Von oben sind sie leuchtend grün, gefleckt von kleinen Feldern, mit Seen in alten Kratern. Unverwechselbar ist Pico: ein fast perfekter Kegel, 2.351 m hoch und Portugals höchster Berg, dessen Gipfel oft aus einem Wolkenmeer ragt.",
+    "w": "Kleine grüne Inseln im offenen Ozean; auf Pico ein einzelner hoher, dunkler Kegel, auf São Miguel runde Kraterseen.",
+    "f": [
+      "Die Azoren liegen dort, wo Eurasische, Nordamerikanische und Afrikanische Platte aufeinandertreffen.",
+      "In der Caldera von Sete Cidades auf São Miguel zeigen zwei verbundene Seen verschiedene Farben – einer blau, einer grün.",
+      "Das Azorenhoch, ein nach den Inseln benanntes Hochdruckgebiet, prägt einen Großteil des europäischen Sommerwetters."
+    ],
+    "q": {
+      "q": "Welcher ist der höchste Berg Portugals?",
+      "a": "Pico",
+      "x": [
+        "Torre (Serra da Estrela)",
+        "Pico Ruivo"
+      ]
+    }
+  },
+  "Q6980542": {
+    "t": "Eine Insel, kaum vom Eis ringsum zu unterscheiden",
+    "s": "Entlang der Küste der Westantarktis hält das Getz-Schelfeis eine Reihe von Inseln in seinem schwimmenden Eis gefangen. Wright Island, rund 65 km lang, ist eine davon. Vollständig unter Eis begraben, zeigt sie sich nur als breite, sanfte Wölbung über dem flachen Schelf – am besten zu erkennen, wenn tiefe Sonne Schatten wirft. Im Norden liegt die Amundsensee, oft voller Meereis.",
+    "w": "Eine lange, glatte weiße Wölbung, die sich leicht über das flache Schelfeis hebt, im Norden eisbedecktes Meer.",
+    "f": [
+      "Erstmals kartiert wurde sie nach Luftbildern der Operation Highjump der US Navy im Januar 1947.",
+      "Sie ist nach Admiral Jerauld Wright benannt, dem Oberbefehlshaber der Operation Deep Freeze 1957–58.",
+      "Das Getz-Schelfeis, das die Insel umschließt, erstreckt sich über mehr als 500 km entlang der Küste."
+    ],
+    "q": {
+      "q": "Welches Schelfeis umschließt Wright Island?",
+      "a": "Das Getz-Schelfeis",
+      "x": [
+        "Das Ross-Schelfeis",
+        "Das Ronne-Schelfeis"
+      ]
+    }
+  },
+  "Q1543171": {
+    "t": "Eine Eisinsel, 1962 von einem Eisbrecher entdeckt",
+    "s": "Grant Island ist eine von mehreren Inseln, die vor dem Marie-Byrd-Land in der Westantarktis im Getz-Schelfeis festgefroren sind. Rund 37 km lang und ganz von Eis bedeckt, ist sie auf allen Seiten vom Schelf umschlossen, außer im Norden, wo sich eine Meerenge zum Meer öffnet. Von oben ist sie ein glatter weißer Buckel, dessen Umriss sich vor allem durch Schattierungen an den Hängen verrät.",
+    "w": "Ein glatter weißer Buckel über dem flachen Schelfeis, an der Nordseite eine Meerenge mit offenem Wasser oder Meereis.",
+    "f": [
+      "Seeleute des Eisbrechers USS Glacier entdeckten und kartierten sie am 4. Februar 1962.",
+      "Sie ist nach Commander E. G. Grant benannt, dem damaligen Kapitän des Schiffs.",
+      "Die kleinere Shepard Island liegt nur rund 9 km weiter westlich."
+    ],
+    "q": {
+      "q": "Die Besatzung welches Schiffs entdeckte Grant Island 1962?",
+      "a": "USS Glacier",
+      "x": [
+        "USS Burton Island",
+        "HMS Endurance"
+      ]
+    }
+  },
+  "Q6272638": {
+    "t": "Eine einsame Eisinsel vor der Ruppert-Küste",
+    "s": "An der Ruppert-Küste des Marie-Byrd-Lands, fern aller regulären Flugrouten, hält das Nickerson-Schelfeis eine Handvoll eisbedeckter Inseln. Newman Island ist rund 28 km lang und vollständig unter Eis begraben. Von oben wirkt sie weniger wie eine Insel als wie eine flache, gerundete Beule im Eis, mit Gletschern, die vom Festland im Süden herabfließen.",
+    "w": "Eine flache, gerundete weiße Beule in einem ebenen Schelfeis, mit Gletschern, die vom Land im Süden herabsteigen.",
+    "f": [
+      "Kartiert wurde sie nach US-Vermessungen und Luftbildern der Navy aus den Jahren 1959 bis 1965.",
+      "Sie ist nach Commander J. F. Newman von der US Navy benannt, der 1966 an der Operation Deep Freeze teilnahm."
+    ],
+    "q": {
+      "q": "Welches Schelfeis umschließt Newman Island?",
+      "a": "Das Nickerson-Schelfeis",
+      "x": [
+        "Das Getz-Schelfeis",
+        "Das Ross-Schelfeis"
+      ]
+    }
+  },
+  "Q559842": {
+    "t": "Eine Eisinsel im Schatten des Mount Siple",
+    "s": "Dean Island liegt mitten im Getz-Schelfeis vor der Küste des Marie-Byrd-Lands, zwischen Grant Island und Siple Island. Sie ist rund 37 km lang und 19 km breit und so vollständig von Eis bedeckt, dass sie von oben fast nahtlos mit dem Schelf verschmilzt. Die Landmarke in der Nähe ist der Mount Siple, eine riesige Vulkankuppel auf der Nachbarinsel, über 3.000 m hoch.",
+    "w": "Eine breite, flache weiße Erhebung im ebenen Schelfeis; im Nordosten die hohe, verschneite Kuppel des Mount Siple.",
+    "f": [
+      "Sie ist eine von mehreren Inseln im Getz-Schelfeis, das sich über mehr als 500 km entlang der Küste zieht.",
+      "Der Mount Siple auf der benachbarten Siple Island ist ein rund 3.100 m hoher Schildvulkan."
+    ],
+    "q": {
+      "q": "Zwischen welchen beiden Inseln liegt Dean Island?",
+      "a": "Grant und Siple",
+      "x": [
+        "Shepard und Grant",
+        "Carney und Wright"
+      ]
+    }
+  },
+  "Q33788": {
+    "t": "Eine lange Gebirgsinsel in einer riesigen türkisen Lagune",
+    "s": "Grande Terre, die Hauptinsel Neukaledoniens, ist rund 400 km lang und nur etwa 50 km breit: ein gebirgiges Rückgrat, gezeichnet von roten Narben, wo Nickel abgebaut wurde. Ringsum breitet sich eine der größten Lagunen der Erde aus, leuchtend türkis und abgeschlossen von einem Barriereriff, das weit draußen eine dünne weiße Brandungslinie zieht.",
+    "w": "Eine lange, schmale, gebirgige Insel mit rötlichen kahlen Stellen, in einer weiten türkisen Lagune mit fernem Brandungssaum.",
+    "f": [
+      "Kapitän Cook gab ihr 1774 den Namen, weil ihn die Hügel an Schottland erinnerten.",
+      "Ihre Lagunen und Riffe sind seit 2008 UNESCO-Welterbe.",
+      "Der Kagu, ein grauer, fast flugunfähiger Vogel, der wie ein Hund bellt, lebt nur hier."
+    ],
+    "q": {
+      "q": "Welches Metall wird in Neukaledoniens roten Hügeln abgebaut?",
+      "a": "Nickel",
+      "x": [
+        "Kupfer",
+        "Gold"
+      ]
+    }
+  },
+  "Q712": {
+    "t": "Über 300 Inseln beiderseits des 180. Längengrads",
+    "s": "Fidschi ist eine Streuung von mehr als 300 Inseln, von zwei großen, gebirgigen bis zu unzähligen Tupfen mit Riffring. Von oben sind die Farben das Schauspiel: tiefblauer Ozean, türkise Lagunen und weiße Brandungslinien, wo die Riffe die Dünung brechen. Der 180. Längengrad verläuft durch die Inseln, doch die Datumsgrenze macht einen Bogen um sie, sodass im ganzen Land derselbe Tag gilt.",
+    "w": "Zwei große grüne Inseln und viele kleine, alle gesäumt von türkisen Lagunen und weißen Linien brechender Brandung.",
+    "f": [
+      "Nur etwa ein Drittel der Inseln ist bewohnt.",
+      "Das Great Sea Reef vor Vanua Levu ist eines der längsten Barriereriffe der Welt.",
+      "Viti Levu und Vanua Levu umfassen zusammen den größten Teil der Landfläche und fast die gesamte Bevölkerung."
+    ],
+    "q": {
+      "q": "Welche ist Fidschis größte Insel?",
+      "a": "Viti Levu",
+      "x": [
+        "Vanua Levu",
+        "Taveuni"
+      ]
+    }
+  },
+  "ne-rg-1730072401": {
+    "t": "Die Freundschaftsinseln neben einem der tiefsten Gräben",
+    "s": "Tonga ist eine doppelte Inselreihe von Nord nach Süd. Im Osten liegen flache Koralleninseln wie das ebene Tongatapu mit seinem Riffring; im Westen verläuft eine Kette von Vulkanen, manche kaum mehr als Gipfel, die die Oberfläche durchbrechen. Kapitän Cook nannte sie die Freundschaftsinseln. Östlich der Kette stürzt der Meeresboden in den Tongagraben ab, einen der tiefsten Orte der Erde.",
+    "w": "Flache, riffgesäumte Koralleninseln im Osten, eine parallele Reihe kleiner Vulkaninseln im Westen und tiefer Ozean dahinter.",
+    "f": [
+      "Der Tongagraben erreicht im Horizon-Tief rund 10.800 m – die zweittiefste Stelle der Ozeane.",
+      "Tonga ist das einzige Königreich im Pazifik und wurde auch in der Kolonialzeit von eigenen Monarchen regiert.",
+      "In der Vavaʻu-Gruppe bringen Buckelwale zwischen Juli und Oktober ihre Jungen zur Welt."
+    ],
+    "q": {
+      "q": "Wie nannte Kapitän Cook Tonga?",
+      "a": "Die Freundschaftsinseln",
+      "x": [
+        "Die Gesellschaftsinseln",
+        "Die Schifferinseln"
+      ]
+    }
+  },
+  "Q700048": {
+    "t": "Die „Sonnenaufgangskette“ mit der Hauptstadt Majuro",
+    "s": "Ratak bedeutet „Sonnenaufgang“, und dies ist die östliche der beiden Ketten der Marshallinseln: eine Reihe von Korallenatollen, die sich über mehrere Hundert Kilometer durch den Ozean zieht. Von oben ist jedes eine schmale Kette aus Inselchen um eine türkise Lagune. Majuro, die Hauptstadt des Landes, liegt nahe dem Südende – ein dünnes, dicht bebautes Landband, das sich um eine viele Kilometer weite Lagune krümmt.",
+    "w": "Eine Reihe schmaler Landringe um türkise Lagunen, von Nord nach Süd über tiefblauen Ozean aufgereiht.",
+    "f": [
+      "Auf Majuro ist der bewohnte Landstreifen oft nur wenige Hundert Meter breit.",
+      "Bokak, das nördlichste Atoll, ist trocken und unbewohnt – ein Refugium für Seevögel."
+    ],
+    "q": {
+      "q": "Was bedeutet „Ratak“?",
+      "a": "Sonnenaufgang",
+      "x": [
+        "Sonnenuntergang",
+        "Große Lagune"
+      ]
+    }
+  },
+  "Q697840": {
+    "t": "Die „Sonnenuntergangskette“ und ihre Riesenlagunen",
+    "s": "Ralik bedeutet „Sonnenuntergang“, und dies ist die westliche der beiden parallelen Atollketten der Marshallinseln. Ihr bekanntestes Mitglied ist Kwajalein, dessen fast 100 Inselchen eine der größten Lagunen der Welt umschließen – über 2.000 km² ruhiges, türkises Wasser. Von oben wirken die Inselchen wie ein zerrissenes Armband, das in den Ozean gefallen ist.",
+    "w": "Große Ringe winziger Inselchen um weite türkise Lagunen, verstreut entlang einer Linie westlich der Ratak-Kette.",
+    "f": [
+      "Die Lagune von Kwajalein umfasst rund 2.170 km².",
+      "Der 1946 vorgestellte Bikini verdankt seinen Namen dem Bikini-Atoll in dieser Kette."
+    ],
+    "q": {
+      "q": "Welches Kleidungsstück ist nach einem Atoll der Ralik-Kette benannt?",
+      "a": "Der Bikini",
+      "x": [
+        "Der Sarong",
+        "Der Muumuu"
+      ]
+    }
+  },
+  "Q11826289": {
+    "t": "Rarotongas grüne Gipfel und Aitutakis leuchtende Lagune",
+    "s": "Auf den südlichen Cookinseln leben die meisten Einwohner des Landes, und hier liegen seine berühmtesten Ansichten. Rarotonga ist eine hohe Vulkaninsel mit zackigen grünen Gipfeln, umringt von einem Riff und einer nur rund 32 km langen Küstenstraße. Im Norden ist die Lagune von Aitutaki ein riesiges Dreieck aus leuchtendem Türkis, getupft mit winzigen Inselchen; im Südosten ist Mangaia von Klippen aus uralter gehobener Koralle gesäumt.",
+    "w": "Rarotonga: eine kleine runde Insel mit spitzen grünen Gipfeln hinter einem Riff; im Norden Aitutakis riesige dreieckige Türkislagune.",
+    "f": [
+      "Mangaia entstand vor rund 18 Millionen Jahren und ist eine der ältesten Inseln des Pazifiks.",
+      "Die Bewohner der Cookinseln sind zugleich Staatsbürger Neuseelands."
+    ],
+    "q": {
+      "q": "Welche der südlichen Cookinseln ist für ihre türkise Lagune berühmt?",
+      "a": "Aitutaki",
+      "x": [
+        "Mangaia",
+        "Atiu"
+      ]
+    }
+  },
+  "Q244978": {
+    "t": "Duftende Vulkaninseln zwischen Afrika und Madagaskar",
+    "s": "Die Komoren liegen am Nordende der Straße von Mosambik: vier Vulkaninseln, die von West nach Ost älter werden. Die größte, Grande Comore, wird vom Karthala beherrscht, einem breiten aktiven Vulkan mit riesigem Gipfelkrater und dunklen Lavaströmen an den Flanken. Am Ostende liegt Mayotte, die älteste, eingebettet in eine weite Lagune hinter einem Barriereriff.",
+    "w": "Vier dunkelgrüne Vulkaninseln in einer Reihe: die westliche mit riesigem Krater, die östliche in einer türkisen Lagune.",
+    "f": [
+      "Der Karthala, rund 2.360 m hoch, ist seit dem 19. Jahrhundert mehr als 20-mal ausgebrochen.",
+      "Quastenflosser, Fische, die man mit den Dinosauriern ausgestorben glaubte, leben im tiefen Wasser vor diesen Inseln.",
+      "Die Inseln zählen zu den wichtigsten Lieferanten von Ylang-Ylang-Öl, das in Parfüms verwendet wird."
+    ],
+    "q": {
+      "q": "Welcher Fisch, ein „lebendes Fossil“, lebt in der Tiefe vor den Komoren?",
+      "a": "Der Quastenflosser",
+      "x": [
+        "Der Lungenfisch",
+        "Der Stör"
+      ]
+    }
+  },
+  "ne-rg-1730073253": {
+    "t": "800 Waldinseln, zwischen denen noch Seenomaden segeln",
+    "s": "Vor Myanmars Südküste verteilen sich rund 800 Inseln über die Andamanensee, die meisten hügelig, bewaldet und gesäumt von weißen Stränden und Mangroven. Es gibt kaum Städte und wenig Erschließung, und so sehen Sie von oben vor allem grüne Inseln, hellen Sand und klares Wasser in allen Blautönen. Die Moken, Seenomaden, die einen Großteil des Jahres auf Booten verbringen, leben seit Jahrhunderten zwischen ihnen.",
+    "w": "Hunderte steile, bewaldete Inseln mit weißen Stränden, verstreut entlang der Küste im Süden Myanmars.",
+    "f": [
+      "Der Archipel war für ausländische Besucher bis Ende der 1990er-Jahre weitgehend gesperrt.",
+      "Die Insel Lampi liegt im Herzen von Myanmars einzigem Meeresnationalpark."
+    ],
+    "q": {
+      "q": "Als was sind die Moken des Mergui-Archipels bekannt?",
+      "a": "Als Seenomaden",
+      "x": [
+        "Als Berghirten",
+        "Als Salzhändler"
+      ]
+    }
+  },
+  "Q5765": {
+    "t": "Berge, Buchten und Wasser so klar, dass man den Grund sieht",
+    "s": "Die Balearen liegen vor der Ostküste Spaniens: das große Mallorca in der Mitte, das sanftere Menorca im Nordosten, Ibiza und das winzige Formentera im Südwesten. Mallorcas Nordwestküste ist eine Mauer aus Kalksteinbergen, die Serra de Tramuntana, über tiefblauem Meer. Um Formentera ist das Wasser so klar, dass Seegraswiesen als dunkle Flecken im türkisen Flachwasser erscheinen.",
+    "w": "Eine große Insel mit Bergkamm an der Nordwestküste, eine flachere im Nordosten und zwei weitere im Südwesten.",
+    "f": [
+      "Mallorcas Serra de Tramuntana ist UNESCO-Welterbe.",
+      "Eine Seegraswiese vor Formentera könnte eines der ältesten Lebewesen der Erde sein, womöglich Zehntausende Jahre alt.",
+      "Ganz Menorca ist ein UNESCO-Biosphärenreservat."
+    ],
+    "q": {
+      "q": "Welche ist die größte der Balearischen Inseln?",
+      "a": "Mallorca",
+      "x": [
+        "Menorca",
+        "Ibiza"
+      ]
+    }
+  },
+  "ne-rg-1730073309": {
+    "t": "Kahle arktische Inseln an der Nordwestpassage",
+    "s": "Die Parry-Inseln bilden einen breiten Gürtel arktischer Inseln an der Nordseite der Nordwestpassage, von Cornwallis im Osten bis Prince Patrick im Westen. Von oben sind sie braun und grau, flach gekuppt und kahl, durchzogen von trockenen Tälern und den Großteil des Jahres von Meereis gesäumt. 1819 segelten William Parrys Schiffe weiter westlich durch diese Kanäle als je jemand zuvor.",
+    "w": "Große, kahle, braungraue Inseln mit flachen Hochflächen und trockenen Tälern, den Großteil des Jahres von Meereis umgeben.",
+    "f": [
+      "Parrys Schiffe überwinterten 1819–20 eingefroren in Winter Harbour auf Melville Island.",
+      "Weil sie 110° West passierten, gewannen Parrys Mannschaften einen Preis von 5.000 Pfund, ausgelobt vom britischen Parlament.",
+      "Resolute auf Cornwallis Island ist eine der nördlichsten Gemeinden Kanadas."
+    ],
+    "q": {
+      "q": "Nach wem sind die Parry-Inseln benannt?",
+      "a": "William Edward Parry",
+      "x": [
+        "John Franklin",
+        "John Ross"
+      ]
+    }
+  },
+  "Q741243": {
+    "t": "Eine Insel so groß wie Dänemark – und kein Meer in Sicht",
+    "s": "Die Berkner-Insel ist vor allem auf der Karte eine Insel: Sie ist nicht von offenem Wasser umgeben, sondern vom schwimmenden Filchner-Ronne-Schelfeis, und selbst unter Eis begraben. Von oben erscheint sie als riesige, sanfte Kuppel über dem flachen Schelf, rund 320 km lang und weniger als einen Kilometer hoch. Sie teilt das Schelfeis in zwei Teile: das Ronne im Westen, das Filchner im Osten.",
+    "w": "Eine riesige, sanft gerundete Eiskuppel über dem vollkommen flachen Schelfeis, das sie auf allen Seiten umgibt.",
+    "f": [
+      "Mit rund 44.000 km² ist sie etwa so groß wie Dänemark.",
+      "Entdeckt wurde sie 1957–58 von einer US-Gruppe der Ellsworth-Station unter Leitung von Finn Ronne.",
+      "Sie ist nach dem Physiker Lloyd Berkner benannt, Funkingenieur bei Byrds Antarktis-Expedition 1928–30."
+    ],
+    "q": {
+      "q": "Welche zwei Schelfeise trennt die Berkner-Insel?",
+      "a": "Ronne und Filchner",
+      "x": [
+        "Ross und Ronne",
+        "Filchner und Brunt"
+      ]
+    }
   }
 }

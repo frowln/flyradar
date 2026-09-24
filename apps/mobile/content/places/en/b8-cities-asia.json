@@ -2369,5 +2369,295 @@
         "The English"
       ]
     }
+  },
+  "Q205922": {
+    "t": "The crane city on the marshes of the Nen River",
+    "s": "Qiqihar spreads across the flat Songnen Plain beside the Nen River, in a landscape of reed marshes and shallow lakes that shine like scattered mirrors. South-east of the city lies Zhalong, a vast wetland where red-crowned cranes nest in summer; it became one of China's first nature reserves for cranes. The town began as a Qing fortress in 1691.",
+    "w": "A city beside a braided river on a flat plain of reed marsh and shallow lakes; white and frozen in winter.",
+    "f": [
+      "Zhalong's reed marshes cover more than 2,000 km².",
+      "In Chinese art, the red-crowned crane is a symbol of long life."
+    ],
+    "q": {
+      "q": "Which bird is Zhalong wetland near Qiqihar famous for?",
+      "a": "The red-crowned crane",
+      "x": [
+        "The mute swan",
+        "The mandarin duck"
+      ]
+    }
+  },
+  "Q200016": {
+    "t": "Where the Eastern Ghats run down to the Bay of Bengal",
+    "s": "Visakhapatnam, or Vizag, sits where green hills of the Eastern Ghats come right down to the Bay of Bengal. Its deep harbour is tucked behind a rocky headland called Dolphin's Nose, and long sandy beaches curve away to the north. The city is named after Visakha, a Hindu god of valour. Inland, the hills climb towards the Araku Valley and its coffee plantations.",
+    "w": "A coastal city between green hills and the sea, a harbour behind a rocky headland, long beaches to the north.",
+    "f": [
+      "Visakhapatnam is one of India's largest ports.",
+      "Coffee from the Araku Valley, grown largely by tribal farmers, has become known worldwide."
+    ],
+    "q": {
+      "q": "Vizag's harbour is sheltered by a headland called…",
+      "a": "Dolphin's Nose",
+      "x": [
+        "Elephant's Trunk",
+        "Lion's Head"
+      ]
+    }
+  },
+  "Q38807": {
+    "t": "A rainy harbour capital ringed by coral reefs",
+    "s": "Suva sits on a hilly peninsula on the south-east coast of Viti Levu, Fiji's main island, between a deep harbour and Laucala Bay. Look for the pale line of surf on the reef offshore and dark, rain-soaked mountains behind the city — clouds gather here often, and it is far wetter than Fiji's western side. Suva replaced Levuka as the capital in 1882.",
+    "w": "A city on a hilly peninsula between two bays, a pale line of reef offshore, green cloud-capped mountains behind.",
+    "f": [
+      "Suva gets around 3,000 mm of rain a year — several times as much as London.",
+      "Levuka, the old capital on the island of Ovalau, is a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which town was Fiji's capital before Suva?",
+      "a": "Levuka",
+      "x": [
+        "Nadi",
+        "Lautoka"
+      ]
+    }
+  },
+  "Q1520": {
+    "t": "A capital of many names on the open steppe",
+    "s": "This city rises from a flat, almost treeless steppe on the banks of the winding Ishim River, and in winter everything around it turns white under a hard frost. It began as the fort of Akmolinsk in 1830 and has changed its name more often than almost any capital: Tselinograd, Akmola, Astana, Nur-Sultan and, since 2022, Astana again. Kazakhstan moved its capital here from Almaty in 1997.",
+    "w": "A compact city on a flat, treeless steppe, with a winding river through it; white and frozen in winter.",
+    "f": [
+      "Winter nights here often drop below −30 °C, making it one of the coldest capitals in the world.",
+      "The Ishim flows on north into Russia, where it joins the Irtysh."
+    ],
+    "q": {
+      "q": "What was the city called from 1961 to 1992?",
+      "a": "Tselinograd",
+      "x": [
+        "Akmolinsk",
+        "Semipalatinsk"
+      ]
+    }
+  },
+  "Q484706": {
+    "t": "A coal city on the steppe, named after a shrub",
+    "s": "Qaraghandy, better known as Karaganda, sprawls across the bare Kazakh steppe, and around it you can spot the cones of old spoil heaps left by its coal mines. Coal was found here in 1833 — by a shepherd boy, local tradition says — and the modern city grew fast from the 1930s. Its name comes from karagan, the hardy caragana shrub that grows across the steppe.",
+    "w": "A sprawling city on flat, bare steppe, dotted with conical spoil heaps; a steel town and reservoir to the north-west.",
+    "f": [
+      "The Karaganda coal basin is one of the largest in Central Asia.",
+      "The steel town of Temirtau, about 30 km north-west, grew up beside a reservoir on the Nura River."
+    ],
+    "q": {
+      "q": "Karaganda is named after which steppe plant?",
+      "a": "The caragana shrub",
+      "x": [
+        "Wormwood",
+        "Feather grass"
+      ]
+    }
+  },
+  "Q35493": {
+    "t": "The apple city beneath a wall of snowy peaks",
+    "s": "Almaty spreads across a gently sloping plain at the very foot of the Trans-Ili Alatau, whose snowy peaks rise to nearly 5,000 m just south of the city — a wall of white hanging over the rooftops. The forests on these slopes are home to the wild apple from which the world's cultivated apples descend, and the city's name recalls the fruit.",
+    "w": "A big city on a slope running up to a steep wall of snowy mountains to the south; flat steppe to the north.",
+    "f": [
+      "The city began in 1854 as the Russian fort of Verny.",
+      "Almaty was the capital of Kazakhstan until 1997.",
+      "Medeu, a skating rink in a gorge above the city, lies at about 1,700 m."
+    ],
+    "q": {
+      "q": "Wild apples in the mountains near Almaty are the ancestors of…",
+      "a": "The cultivated apple",
+      "x": [
+        "The pear",
+        "The quince"
+      ]
+    }
+  },
+  "Q48403": {
+    "t": "The city of the Golden Temple and its pool of nectar",
+    "s": "Amritsar lies on the flat, fertile plain of Punjab, surrounded by a patchwork of wheat and rice fields laced with canals. Its heart is the Golden Temple, the holiest shrine of the Sikh faith, standing in the middle of a sacred pool. The city grew up around that pool in the 1570s under Guru Ram Das, and its name means “pool of nectar”.",
+    "w": "A dense city on a flat green plain of fields and canals stretching to the horizon in every direction.",
+    "f": [
+      "The Golden Temple's community kitchen serves free meals to tens of thousands of visitors every day.",
+      "The temple's upper storeys were covered in gold leaf in the early 19th century under Maharaja Ranjit Singh."
+    ],
+    "q": {
+      "q": "What does the name Amritsar mean?",
+      "a": "Pool of nectar",
+      "x": [
+        "City of gold",
+        "Holy river"
+      ]
+    }
+  },
+  "Q79980": {
+    "t": "A holy city on a crescent bend of the Ganges",
+    "s": "Varanasi lines the west bank of the Ganges where the river curves in a great crescent and, unusually, flows northwards. The contrast is striking from above: the city packs the western shore with stone steps, or ghats, while the eastern bank stays an almost empty strip of sand. It is often called one of the oldest continuously inhabited cities in the world.",
+    "w": "A dense city on the west side of a crescent-shaped bend of a wide river, with a bare sandy bank opposite.",
+    "f": [
+      "At Sarnath, about 10 km north-east, the Buddha is said to have given his first sermon.",
+      "More than 80 ghats line the river for several kilometres."
+    ],
+    "q": {
+      "q": "Who gave his first sermon at Sarnath, near Varanasi?",
+      "a": "The Buddha",
+      "x": [
+        "Mahavira",
+        "Guru Nanak"
+      ]
+    }
+  },
+  "Q202139": {
+    "t": "Where India first dug for coal",
+    "s": "Asansol spreads over rolling red-earth country between the Damodar and Ajay rivers, on the edge of the Chota Nagpur Plateau. This is the Raniganj coalfield, where commercial coal mining in India began in 1774, and the land around is dotted with pits, spoil heaps and flooded workings. To the west, dams on the Damodar and Barakar hold back large reservoirs.",
+    "w": "An industrial city on rolling reddish land dotted with pits and ponds, a river to the south, reservoirs to the west.",
+    "f": [
+      "The Damodar was once called the “Sorrow of Bengal” for its floods, until dams were built on it in the 1950s.",
+      "The Grand Trunk Road, one of Asia's oldest highways, runs through the city."
+    ],
+    "q": {
+      "q": "When did commercial coal mining in India begin, in the Raniganj field?",
+      "a": "1774",
+      "x": [
+        "1674",
+        "1874"
+      ]
+    }
+  },
+  "Q242144": {
+    "t": "A steel town built with Soviet help on a rice plain",
+    "s": "Bhilai rose in the 1950s around one of India's largest steelworks, built with Soviet help on the flat plain of Chhattisgarh. From above, look for the vast grey rectangle of the plant with its cooling ponds, and a neatly planned town beside it. All around stretches a quilt of paddy fields: Chhattisgarh is often called the rice bowl of India.",
+    "w": "A huge grey industrial complex with ponds beside a planned town, set in a flat patchwork of green paddy fields.",
+    "f": [
+      "The Bhilai plant has long been India's main maker of steel rails.",
+      "Bhilai and neighbouring Durg have grown together into a single urban area."
+    ],
+    "q": {
+      "q": "Bhilai's steelworks was built in the 1950s with help from…",
+      "a": "The Soviet Union",
+      "x": [
+        "Britain",
+        "West Germany"
+      ]
+    }
+  },
+  "Q80989": {
+    "t": "The city of lakes, once ruled by queens",
+    "s": "Bhopal wraps around two large lakes on the hilly Malwa Plateau, and the bigger one, the Upper Lake, dominates the view from above. Tradition says Raja Bhoj created it in the 11th century by damming a river. For more than a century from 1819, Bhopal was ruled by a line of four women, the Begums — a rarity in Indian history.",
+    "w": "A city on low hills around two large lakes, the western one much bigger; plateau and farmland all around.",
+    "f": [
+      "The Buddhist stupa of Sanchi, a UNESCO site, lies about 45 km to the north-east.",
+      "The rock shelters of Bhimbetka, south-east of the city, hold paintings thousands of years old."
+    ],
+    "q": {
+      "q": "Bhopal's Upper Lake is traditionally credited to which king?",
+      "a": "Raja Bhoj",
+      "x": [
+        "Ashoka",
+        "Akbar"
+      ]
+    }
+  },
+  "Q228405": {
+    "t": "Temple city of the Tamils, among granite hills",
+    "s": "Madurai spreads along the Vaigai River on a flat plain studded with bare granite hills; one, Yanaimalai, is said to look like a resting elephant. At the city's heart stands the Meenakshi Temple, whose colourful gateway towers rise above the streets. Madurai has been a centre of Tamil culture for over two thousand years, and tradition places the ancient Tamil poets' academies here.",
+    "w": "A city on a sandy river amid a flat plain dotted with isolated bare rocky hills, one long and elephant-shaped.",
+    "f": [
+      "The Meenakshi Temple has 14 gateway towers; the tallest is about 50 m high.",
+      "Madurai's jasmine is so prized that it carries a geographical indication tag."
+    ],
+    "q": {
+      "q": "Madurai's great temple is dedicated to the goddess…",
+      "a": "Meenakshi",
+      "x": [
+        "Kali",
+        "Lakshmi"
+      ]
+    }
+  },
+  "Q9885": {
+    "t": "A mill city by the great gap in the Western Ghats",
+    "s": "Coimbatore sits on a plain hemmed in by mountains: the Nilgiri Hills rise steeply to the north, and the Western Ghats wall off the west — except for the Palakkad Gap, a break some 30–40 km wide that lets winds and roads through to Kerala. Its many cotton mills earned the city the nickname Manchester of South India.",
+    "w": "A large city on a plain, a massive mountain block to the north, steep ranges to the west with a wide gap in them.",
+    "f": [
+      "The Palakkad Gap is the main break in the Western Ghats, which otherwise run unbroken for over 1,000 km.",
+      "Coimbatore is famous across India for its wet grinders, which carry a geographical indication tag."
+    ],
+    "q": {
+      "q": "Which gap in the Western Ghats lies just west of Coimbatore?",
+      "a": "The Palakkad Gap",
+      "x": [
+        "The Bhor Ghat",
+        "The Thal Ghat"
+      ]
+    }
+  },
+  "Q9326": {
+    "t": "A low, leafy capital on a great bend of the Mekong",
+    "s": "Vientiane lies low and leafy along a broad bend of the Mekong, and across the water you are looking at Thailand. In the dry season the river shrinks to reveal long sandbars. King Setthathirath moved the capital of the Lan Xang kingdom here from Luang Prabang in 1560. The name is usually translated as “city of sandalwood”.",
+    "w": "A low, green city along a wide river bend with sandbars; the far bank belongs to another country.",
+    "f": [
+      "The golden stupa of Pha That Luang is the national symbol of Laos.",
+      "The first Thai–Lao Friendship Bridge, opened in 1994, crosses the Mekong just downstream."
+    ],
+    "q": {
+      "q": "King Setthathirath moved his capital to Vientiane in 1560 from…",
+      "a": "Luang Prabang",
+      "x": [
+        "Ayutthaya",
+        "Champasak"
+      ]
+    }
+  },
+  "Q9279": {
+    "t": "A riverside capital with a whole village on stilts",
+    "s": "Bandar Seri Begawan sits on the Brunei River a few kilometres from Brunei Bay, surrounded by dark green rainforest. Across the river from the centre spreads Kampong Ayer, a village of houses on stilts linked by boardwalks — one of the largest water villages in the world. In 1521 members of Magellan's expedition visited and marvelled at a town built over the water.",
+    "w": "A small city on a river winding through rainforest, a large cluster of stilt houses on the water, a long bridge across the bay.",
+    "f": [
+      "The Temburong Bridge, opened in 2020, runs about 30 km across Brunei Bay to the country's separate eastern part.",
+      "The city took its present name in 1970; before that it was called Brunei Town."
+    ],
+    "q": {
+      "q": "What is Kampong Ayer?",
+      "a": "A village on stilts over water",
+      "x": [
+        "A floating market",
+        "A royal forest"
+      ]
+    }
+  },
+  "Q45604": {
+    "t": "A pomegranate oasis between bare ridges and red sands",
+    "s": "Kandahar lies on a dry plain about 1,000 m up, with bare, jagged ridges rising around it and the reddish dunes of the Registan Desert spreading to the south. North-west of the city, the Arghandab River feeds a ribbon of green orchards famous for pomegranates. In 1747 Ahmad Shah Durrani made Kandahar the capital of his new empire, and he is buried here.",
+    "w": "A city on a dry brown plain among bare rocky ridges, with a green ribbon of orchards along a river to the north-west.",
+    "f": [
+      "Many historians link Kandahar with a city founded by Alexander the Great, Alexandria in Arachosia.",
+      "Kandahar's pomegranates are prized across the region."
+    ],
+    "q": {
+      "q": "The Arghandab valley near Kandahar is famous for which fruit?",
+      "a": "Pomegranates",
+      "x": [
+        "Dates",
+        "Oranges"
+      ]
+    }
+  },
+  "Q1850": {
+    "t": "A capital where four river arms meet",
+    "s": "Phnom Penh stands at a great watery crossroads called Chaktomuk, “four faces”: the Mekong, the Tonle Sap and the Bassac meet here in an X of brown water. Each rainy season the Mekong swells so much that the Tonle Sap River reverses and flows backwards, filling the great lake upstream. The city's name means “hill of Penh”, after a woman who, legend says, founded a shrine here.",
+    "w": "A city at an X-shaped meeting of wide brown rivers, surrounded by flat floodplain and paddies.",
+    "f": [
+      "In the wet season Tonle Sap Lake can grow to several times its dry-season size.",
+      "King Norodom moved the royal capital here from Oudong in 1866."
+    ],
+    "q": {
+      "q": "What does the Tonle Sap River do each rainy season?",
+      "a": "Reverses its flow",
+      "x": [
+        "Dries up",
+        "Freezes over"
+      ]
+    }
   }
 }

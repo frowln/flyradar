@@ -1942,5 +1942,329 @@
         "6,190 m"
       ]
     }
+  },
+  "Q136270": {
+    "t": "A lonely coast first glimpsed by a sealer in 1833",
+    "s": "Kemp Land is one of the quietest corners of East Antarctica: a smooth white slope of ice running down to low ice cliffs, bays and a scatter of small rocky islands. Few people have ever set foot here. The coast was first sighted in 1833 by Peter Kemp, a British sealing captain searching the Southern Ocean for new hunting grounds.",
+    "w": "A smooth white ice slope ending in low ice cliffs and bays, with a scatter of dark rocky islets and sea ice.",
+    "f": [
+      "Kemp was sailing the brig Magnet when he sighted the coast.",
+      "Mawson's BANZARE expedition charted its coastline in 1930 from the ship Discovery.",
+      "It lies between Enderby Land to the west and Mac. Robertson Land to the east."
+    ],
+    "q": {
+      "q": "Who was Peter Kemp, who sighted this coast in 1833?",
+      "a": "A sealing captain",
+      "x": [
+        "A Royal Navy admiral",
+        "A whaling-station owner"
+      ]
+    }
+  },
+  "Q4084201": {
+    "t": "The glacier road Shackleton took towards the Pole",
+    "s": "Here the Transantarctic Mountains meet the western edge of the Ross Ice Shelf, and huge glaciers such as the Nimrod and the Beardmore squeeze between the peaks down onto the flat ice. In 1908–09 Ernest Shackleton's party climbed the Beardmore towards the South Pole and turned back only about 180 km short. From above, look for long rivers of ice striped with dark moraine.",
+    "w": "Dark, snow-streaked mountains with broad glaciers flowing down onto the flat, white Ross Ice Shelf.",
+    "f": [
+      "The coast was named after Sir Ernest Shackleton in 1961.",
+      "The Nimrod Glacier is named after the ship of Shackleton's 1907–09 expedition.",
+      "The Beardmore Glacier, at the coast's southern end, is about 200 km long, one of the largest valley glaciers on Earth."
+    ],
+    "q": {
+      "q": "About how far from the South Pole did Shackleton's party turn back?",
+      "a": "About 180 km",
+      "x": [
+        "About 20 km",
+        "About 600 km"
+      ]
+    }
+  },
+  "Q2983463": {
+    "t": "A coast named after an expedition's initials",
+    "s": "Along the Banzare Coast the ice sheet slides into the sea in walls of blue-white cliffs, with icebergs drifting offshore and a band of sea ice for much of the year. The name is an acronym: BANZARE, the British Australian and New Zealand Antarctic Research Expedition. Led by Douglas Mawson, it charted this coast in 1931.",
+    "w": "Blue-white ice cliffs along the sea, icebergs and a belt of sea ice offshore, smooth white ice rising behind.",
+    "f": [
+      "BANZARE sailed in the Discovery, the ship Robert Falcon Scott had taken to Antarctica in 1901.",
+      "Far inland the ice rises to Dome C, over 3,200 m high, home to the French–Italian Concordia station.",
+      "The coast lies close to the Antarctic Circle, so in midsummer the sun barely sets."
+    ],
+    "q": {
+      "q": "Where does the name Banzare come from?",
+      "a": "An expedition's initials",
+      "x": [
+        "A ship's name",
+        "An explorer's surname"
+      ]
+    }
+  },
+  "Q2983473": {
+    "t": "A line of ice cliffs named after a captain's wife",
+    "s": "The Clarie Coast is a long line of ice cliffs where the East Antarctic ice sheet meets the sea, broken here and there by glacier tongues and stranded icebergs. In January 1840 Jules Dumont d'Urville's ships sailed along these cliffs. He named the coast after Claire, wife of Charles Jacquinot, captain of his second ship, the Zélée.",
+    "w": "A long line of white ice cliffs with jutting glacier tongues and stranded icebergs, sea ice spreading offshore.",
+    "f": [
+      "An American expedition under Charles Wilkes was charting the same coast that very month.",
+      "Australia calls this stretch the Wilkes Coast.",
+      "It lies between the Banzare Coast to the west and Adélie Land to the east."
+    ],
+    "q": {
+      "q": "Who was Claire, after whom the Clarie Coast is named?",
+      "a": "A ship captain's wife",
+      "x": [
+        "A French princess",
+        "A scientist's daughter"
+      ]
+    }
+  },
+  "Q2576481": {
+    "t": "Rocky islands where Australia's Casey Station stands",
+    "s": "Along the Budd Coast the ice sheet ends in cliffs and glaciers, but a scatter of low rocky islands, the Windmill Islands, breaks the white. On a rocky peninsula facing them stands Australia's Casey Station, one of its three permanent bases on the continent. Offshore, the sea freezes into a wide belt of fast ice in winter.",
+    "w": "Low dark rocky islands and peninsulas at the edge of white ice cliffs, with sea ice spreading offshore.",
+    "f": [
+      "The coast is named after Thomas Budd, an officer on Charles Wilkes's US expedition of 1838–42.",
+      "Casey Station is named after Richard Casey, an Australian politician who later became governor-general.",
+      "Adélie penguins nest on the Windmill Islands in summer."
+    ],
+    "q": {
+      "q": "Which country runs Casey Station on the Budd Coast?",
+      "a": "Australia",
+      "x": [
+        "New Zealand",
+        "Chile"
+      ]
+    }
+  },
+  "Q21489993": {
+    "t": "A lone extinct volcano on an icy coast",
+    "s": "The Wilhelm II Coast is mostly smooth ice meeting the sea, but it holds one oddity: Gaussberg, a dark, rounded extinct volcano about 370 m high, standing alone at the edge of the ice. It was found in 1902 by Erich von Drygalski's German expedition, whose ship Gauss was frozen into the sea ice nearby for almost a year. The coast is named after the German emperor Wilhelm II.",
+    "w": "Smooth white ice meeting the sea, with a single dark, dome-shaped hill standing out near the coast.",
+    "f": [
+      "The Gauss stayed locked in the ice from February 1902 to February 1903.",
+      "Drygalski's team sent up a tethered balloon to look inland, one of the first flights in Antarctica.",
+      "Gaussberg is named after the ship, which honoured the mathematician Carl Friedrich Gauss."
+    ],
+    "q": {
+      "q": "What is Gaussberg?",
+      "a": "An extinct volcano",
+      "x": [
+        "A research station",
+        "An ice dome"
+      ]
+    }
+  },
+  "Q1634150": {
+    "t": "Japan's Antarctic home on an icy bay",
+    "s": "The Prince Harald Coast wraps around Lützow-Holm Bay, a wide inlet usually packed with sea ice and dotted with rocky islands. On one of them, East Ongul Island, stands Japan's Syowa Station, opened in 1957. Inland the ice sheet rises steadily towards the polar plateau, broken near the coast by small patches of bare rock.",
+    "w": "A broad bay filled with white sea ice and dotted with dark islands, the ice sheet rising behind it.",
+    "f": [
+      "It is named after Prince Harald of Norway, who later became King Harald V.",
+      "Japan's icebreaker Shirase often has to ram its way through thick sea ice to reach Syowa.",
+      "Lützow-Holm Bay is named after Finn Lützow-Holm, a Norwegian naval pilot who flew over this region."
+    ],
+    "q": {
+      "q": "Which country runs Syowa Station on this coast?",
+      "a": "Japan",
+      "x": [
+        "South Korea",
+        "Norway"
+      ]
+    }
+  },
+  "Q1578672": {
+    "t": "A quiet coast named after a future king",
+    "s": "East of Lützow-Holm Bay, the Prince Olav Coast is a stretch of low ice cliffs and glacier tongues where the ice sheet meets the sea, with sea ice clinging to the shore much of the year. Inland, the white slope climbs steadily towards the high plateau, broken only by a few dark nunataks. It is named after Crown Prince Olav of Norway.",
+    "w": "Low ice cliffs and glacier tongues with sea ice along the shore, and a white slope rising gently inland.",
+    "f": [
+      "Olav later reigned as King Olav V of Norway, from 1957 to 1991.",
+      "Norwegian expeditions of the 1930s named many coasts of Queen Maud Land after members of the royal family.",
+      "Japanese scientists from nearby Syowa Station have surveyed and mapped much of this coast."
+    ],
+    "q": {
+      "q": "Who was Prince Olav, after whom this coast is named?",
+      "a": "A future king of Norway",
+      "x": [
+        "A Danish explorer",
+        "A Swedish scientist"
+      ]
+    }
+  },
+  "Q928344": {
+    "t": "Where Antarctica was first sighted, in 1820",
+    "s": "The Princess Martha Coast is fringed by broad, flat ice shelves that end at the sea in white walls. Off this coast, in January 1820, the Russian expedition of Bellingshausen and Lazarev sighted a vast ice barrier, often counted as the first sighting of Antarctica. Today Germany's Neumayer station sits on the ice shelf, and South Africa's SANAE IV on a rocky outcrop inland.",
+    "w": "Flat white ice shelves ending in low cliffs at the sea; inland, dark rocky outcrops and mountains break the ice.",
+    "f": [
+      "The coast is named after Crown Princess Märtha of Norway, wife of Crown Prince Olav.",
+      "Neumayer Station III stands on hydraulic legs, so it can be raised as the snow builds up around it.",
+      "SANAE IV, South Africa's Antarctic base, perches on a nunatak called Vesleskarvet."
+    ],
+    "q": {
+      "q": "Who sighted an ice shelf off this coast in January 1820?",
+      "a": "Bellingshausen and Lazarev",
+      "x": [
+        "Cook and Furneaux",
+        "Ross and Crozier"
+      ]
+    }
+  },
+  "Q6111648": {
+    "t": "Where the vast Thwaites Glacier meets the sea",
+    "s": "On the Walgreen Coast the West Antarctic ice sheet reaches the Amundsen Sea through some of the fastest-changing glaciers on Earth, above all the Thwaites Glacier, about the size of Florida. From above you would see a jumble of crevassed ice breaking into icebergs, with pack ice beyond. The coast is named after Charles Walgreen of the drugstore chain, who helped fund Richard Byrd's 1933–35 expedition.",
+    "w": "A chaos of crevassed, broken ice and icebergs where glaciers meet a sea choked with pack ice.",
+    "f": [
+      "Thwaites Glacier rests on a bed far below sea level, which makes it sensitive to warm ocean water.",
+      "Scientists drill through the ice and send robots beneath it to measure how fast it is melting.",
+      "Pine Island Glacier, another fast-flowing giant, lies just to the east."
+    ],
+    "q": {
+      "q": "Which glacier on this coast is about the size of Florida?",
+      "a": "Thwaites Glacier",
+      "x": [
+        "Beardmore Glacier",
+        "Lambert Glacier"
+      ]
+    }
+  },
+  "Q5255259": {
+    "t": "The far edge of the Ross Ice Shelf, below the mountains",
+    "s": "At the Gould Coast the flat Ross Ice Shelf, the largest ice shelf on Earth, meets the foot of the Transantarctic Mountains, where glaciers such as the Scott Glacier pour down between dark peaks. This is one of the most remote places on the planet, only about 650 km from the South Pole. It is named after Laurence Gould, the geologist who led a dog-sledge party here in 1929.",
+    "w": "The flat white ice shelf meeting a wall of dark, snowy mountains, with broad glaciers flowing out between them.",
+    "f": [
+      "Gould was second-in-command of Richard Byrd's 1928–30 expedition; his party mapped some 280 km of this coast.",
+      "The Scott Glacier, discovered by Gould's party in 1929, is named after Robert Falcon Scott, who never saw it.",
+      "The Ross Ice Shelf is roughly the size of France and hundreds of metres thick."
+    ],
+    "q": {
+      "q": "Who was Laurence Gould, after whom this coast is named?",
+      "a": "A geologist and explorer",
+      "x": [
+        "A ship's captain",
+        "An aircraft maker"
+      ]
+    }
+  },
+  "Q1551170": {
+    "t": "The high, icy base of the Antarctic Peninsula",
+    "s": "Palmer Land is the broad southern part of the Antarctic Peninsula, where the narrow mountain spine widens into a high, ice-covered plateau cut by glaciers flowing to both coasts. To the west, look for George VI Sound, a long, straight channel filled with an ice shelf, separating it from Alexander Island. It is named after Nathaniel Palmer, an American sealer who sailed these waters in 1820.",
+    "w": "A high white plateau with glaciers running off both sides; to the west, a long, straight ice-filled channel.",
+    "f": [
+      "The US Palmer Station is not in Palmer Land at all, but far north on Anvers Island, off Graham Land.",
+      "Its mountains rise to more than 3,000 m.",
+      "Nathaniel Palmer was only 21 when he sailed his sloop Hero into these waters."
+    ],
+    "q": {
+      "q": "Where is the US Palmer Station?",
+      "a": "On Anvers Island",
+      "x": [
+        "In Palmer Land",
+        "On Alexander Island"
+      ]
+    }
+  },
+  "Q618370": {
+    "t": "Antarctica's mountainous arm reaching north",
+    "s": "Graham Land is the northern arm of the Antarctic Peninsula, a narrow, rugged spine of mountains draped in glaciers that reaches up towards South America. Its west coast is a maze of channels, islands and ice cliffs visited by most tourist ships to Antarctica. On its east coast lie the Larsen ice shelves, parts of which broke apart in 1995 and 2002.",
+    "w": "A narrow spine of jagged, glacier-draped mountains between two icy seas, with ice shelves along the eastern side.",
+    "f": [
+      "John Biscoe named it in 1832 after Sir James Graham, First Lord of the Admiralty.",
+      "The tip of the peninsula lies only about 1,000 km from South America, across the Drake Passage.",
+      "The Lemaire Channel on its west coast is so narrow and dramatic that it is nicknamed 'Kodak Gap'."
+    ],
+    "q": {
+      "q": "Which passage separates Graham Land from South America?",
+      "a": "The Drake Passage",
+      "x": [
+        "The Strait of Magellan",
+        "The Beagle Channel"
+      ]
+    }
+  },
+  "Q1145030": {
+    "t": "The very tip of the Horn of Africa",
+    "s": "Here Africa comes to a point. At Cape Guardafui the coast of the Horn, running east along the Gulf of Aden, turns sharply south into the Indian Ocean. From above, look for a bare, tan headland with pale cliffs and beaches, where turquoise shallows meet the deep blue sea. Ships bound to and from the Red Sea pass it every day.",
+    "w": "A bare, tan headland where the coast turns sharply from east to south, pale cliffs above turquoise and deep blue sea.",
+    "f": [
+      "Ancient Greek sailors knew it as Aromata, the 'Cape of Spices'.",
+      "Africa's easternmost point is not here but at Ras Hafun, about 150 km to the south.",
+      "The cape marks the boundary between the Gulf of Aden and the open Indian Ocean."
+    ],
+    "q": {
+      "q": "Which body of water lies north of Cape Guardafui?",
+      "a": "The Gulf of Aden",
+      "x": [
+        "The Red Sea",
+        "The Persian Gulf"
+      ]
+    }
+  },
+  "Q193401": {
+    "t": "A hook of sand where rockets leave the Earth",
+    "s": "Look for a hook of sand jutting from Florida's Atlantic coast, with lagoons and marshes behind it: Cape Canaveral. Rockets have launched from here since the 1950s, and the Apollo missions to the Moon left from the Kennedy Space Center next door, on Merritt Island. With luck you might even see a launch plume climbing from the coast.",
+    "w": "A pointed hook of sand on Florida's Atlantic coast, backed by broad lagoons and marshes.",
+    "f": [
+      "From 1963 to 1973 the cape was officially called Cape Kennedy.",
+      "Its name comes from the Spanish 'cañaveral', a place where cane grows.",
+      "Rockets launch eastwards over the Atlantic, so spent stages fall into the sea rather than on land."
+    ],
+    "q": {
+      "q": "Which Moon missions launched from beside Cape Canaveral?",
+      "a": "Apollo",
+      "x": [
+        "Gemini",
+        "Vostok"
+      ]
+    }
+  },
+  "Q780339": {
+    "t": "California's westernmost point, where three plates meet",
+    "s": "At Cape Mendocino the rugged Lost Coast of northern California juts furthest into the Pacific, its steep green hills dropping straight into the surf. Just offshore, three plates of the Earth's crust meet at the Mendocino Triple Junction, making this one of the most earthquake-prone corners of the United States. Look for a dark headland with a long white line of breakers.",
+    "w": "A dark, steep headland where the northern California coast bulges furthest west, fringed with white surf.",
+    "f": [
+      "Cape Mendocino is the westernmost point of California.",
+      "The Lost Coast around it is so steep that the coastal highway turns inland to avoid it.",
+      "Spanish galleons sailing from Manila to Mexico often used the cape as their first landmark in America."
+    ],
+    "q": {
+      "q": "How many tectonic plates meet off Cape Mendocino?",
+      "a": "Three",
+      "x": [
+        "Two",
+        "Four"
+      ]
+    }
+  },
+  "Q1020776": {
+    "t": "The rocky tip of Baja California, where two seas meet",
+    "s": "At the very end of the long, dry Baja California peninsula, granite cliffs break into the sea at Land's End, where the Gulf of California meets the open Pacific. From above, look for the sharp southern tip of the peninsula, a curved bay with white beaches and the resort town around it. In winter humpback whales gather in these warm waters.",
+    "w": "The sharp southern tip of a long desert peninsula: pale granite cliffs, a curved bay and a town along its shore.",
+    "f": [
+      "El Arco, a natural stone arch at Land's End, is the town's best-known landmark.",
+      "The Baja California peninsula stretches some 1,200 km from the US border to this cape.",
+      "The Tropic of Cancer passes just north of the town."
+    ],
+    "q": {
+      "q": "Which waters meet at Cabo San Lucas?",
+      "a": "Pacific and Gulf of California",
+      "x": [
+        "Gulf of Mexico and Pacific",
+        "Caribbean and Pacific"
+      ]
+    }
+  },
+  "ne-rg-1159105013": {
+    "t": "Where polar bears wait for the sea to freeze",
+    "s": "On the flat western shore of Hudson Bay, Cape Churchill pushes into the sea, a low point of tundra, lakes and gravel beaches. Every autumn polar bears gather here and near the town of Churchill, waiting for the bay to freeze so they can hunt seals on the ice. Much of the land around lies in Wapusk National Park, one of the largest polar bear denning areas in the world.",
+    "w": "A low, flat point of tundra dotted with countless lakes, jutting into Hudson Bay; white with ice much of the year.",
+    "f": [
+      "The nearby town of Churchill calls itself the 'Polar Bear Capital of the World'.",
+      "Each summer thousands of beluga whales gather in the Churchill River estuary.",
+      "The treeline runs close by, so forest, tundra and sea ice all meet in this corner of Manitoba."
+    ],
+    "q": {
+      "q": "Why do polar bears gather near Cape Churchill in autumn?",
+      "a": "To wait for the sea ice",
+      "x": [
+        "To catch salmon",
+        "To mate on the beaches"
+      ]
+    }
   }
 }

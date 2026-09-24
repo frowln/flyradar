@@ -243,12 +243,48 @@ export function cleanName(s) {
   return t === '' ? null : t;
 }
 
-/** `{ru, de, fr, es, ja}` from Natural Earth `name_xx` fields, dropping ones equal to English. */
+const SMALL_WORDS = {
+  es: new Set(['de', 'del', 'la', 'las', 'los', 'el', 'y', 'e', 'en']),
+  fr: new Set(['de', 'du', 'des', 'la', 'le', 'les', 'et', 'en']),
+  de: new Set(['am', 'an', 'der', 'die', 'das', 'des', 'und', 'von'])
+};
+
+/**
+ * Natural Earth writes some region labels in capitals, as printed on a map
+ * ("MONTES STANOVOI", "KASACHISCHE SCHWELLE"); a card shows them as a name.
+ * Roman numerals stay as they are.
+ */
+export function unshout(lang, v) {
+  if (!/\p{Lu}{3}/u.test(v) || /\p{Ll}/u.test(v)) return v;
+  const small = SMALL_WORDS[lang] ?? new Set();
+  return v
+    .split(' ')
+    .map((word, i) =>
+      word
+        .split('-')
+        .map((part) => {
+          if (/^[IVX]+$/.test(part)) return part;
+          const lower = part.toLocaleLowerCase(lang);
+          if (i > 0 && small.has(lower)) return lower;
+          return lower.charAt(0).toLocaleUpperCase(lang) + lower.slice(1);
+        })
+        .join('-')
+    )
+    .join(' ');
+}
+
+/**
+ * `{ru, de, fr, es, ja}` from Natural Earth `name_xx` fields, dropping ones
+ * equal to English — in capitals too: "WESTERN PLATEAU" as the German name is
+ * the English one.
+ */
 export function localNames(props, english) {
   const l = {};
   for (const lang of LANGS) {
-    const v = cleanName(props[`name_${lang}`]);
-    if (v && v !== english) l[lang] = v;
+    const raw = cleanName(props[`name_${lang}`]);
+    if (!raw || raw.toLocaleUpperCase('en') === english?.toLocaleUpperCase('en')) continue;
+    const v = unshout(lang, raw);
+    if (v !== english) l[lang] = v;
   }
   return Object.keys(l).length ? l : undefined;
 }

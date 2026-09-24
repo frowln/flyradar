@@ -1,0 +1,802 @@
+{
+  "via-appia": {
+    "name": "Via Appia",
+    "era": "ab 312 v. Chr.",
+    "t": "Die Römer nannten sie die Königin der Straßen",
+    "s": "Unter Ihnen verläuft die erste der großen Fernstraßen Roms, begonnen 312 v. Chr. und nach Süden vorangetrieben, bis sie den Adriahafen Brindisi erreichte. Soldaten, Händler und Reisende nutzten sie, um zu den Schiffen nach Griechenland und in den Osten zu gelangen. Die Pflastersteine sind viel zu klein, um sie zu sehen, doch südlich von Rom zeichnen moderne Straßen noch ihre schnurgerade Linie durch die flache Pontinische Ebene nach.",
+    "w": "Suchen Sie eine schnurgerade Straße, die von Rom nach Südosten über eine flache, karierte Ebene zur Küste bei Terracina führt.",
+    "f": [
+      "Begonnen wurde sie vom Zensor Appius Claudius Caecus, der der Straße seinen Namen gab.",
+      "Nahe Rom säumen noch Grabmäler und Pinien die alte Straße, und Teile des römischen Pflasters sind erhalten.",
+      "Von Brindisi setzten Schiffe nach Dyrrachium über, wo die Via Egnatia nach Osten Richtung Byzanz weiterführte."
+    ],
+    "q": {
+      "q": "Welcher Hafen war der Endpunkt der Via Appia?",
+      "a": "Brindisi",
+      "x": [
+        "Neapel",
+        "Ostia"
+      ]
+    }
+  },
+  "via-egnatia": {
+    "name": "Via Egnatia",
+    "era": "2. Jh. v. Chr. – Mittelalter",
+    "t": "Roms Fernstraße quer über den Balkan zum Bosporus",
+    "s": "Hier griff Rom nach dem Osten. Die im 2. Jahrhundert v. Chr. gebaute Via Egnatia führte von der Adriaküste des heutigen Albanien über die Berge nach Thessaloniki und weiter nach Byzanz. Sie war die natürliche Fortsetzung der Via Appia: von Brindisi übersetzen, dann weitermarschieren. Die Straße selbst ist aus Reiseflughöhe unsichtbar, doch ihrer Linie können Sie am Ohridsee vorbei und entlang der Ägäisküste folgen.",
+    "w": "Suchen Sie den Ohridsee zwischen den Bergen, dann östlich davon den Golf von Thessaloniki; die Straße verband beide und führte weiter Richtung Istanbul.",
+    "f": [
+      "Benannt ist sie nach dem römischen Prokonsul Gnaeus Egnatius, der sie bauen ließ.",
+      "Von der Adria bis Byzanz maß die Straße rund 1.100 km.",
+      "Der Apostel Paulus reiste auf ihr durch Philippi und Thessaloniki."
+    ],
+    "q": {
+      "q": "An welchem See führte die Via Egnatia auf dem Weg nach Osten vorbei?",
+      "a": "Am Ohridsee",
+      "x": [
+        "Am Plattensee",
+        "Am Skutarisee"
+      ]
+    }
+  },
+  "via-francigena": {
+    "name": "Via Francigena",
+    "era": "ab dem 9./10. Jh.",
+    "t": "Ein mittelalterlicher Pilgerweg von Canterbury nach Rom",
+    "s": "Sie sind über dem Weg, den mittelalterliche Pilger von England nach Rom gingen. 990 notierte Erzbischof Sigerich von Canterbury auf der Heimreise vom Papst jede seiner Übernachtungsstationen, und seine Liste bestimmt die Route bis heute. Sie durchquert Frankreich, steigt am Großen St. Bernhard über die Alpen und führt hinab durch die Toskana. Von oben erkennen Sie sie an den Seen, Pässen und Flussebenen, zwischen denen sie sich hindurchfädelt.",
+    "w": "Suchen Sie den Genfersee, südlich davon die hohe Alpenscharte des Großen St. Bernhard und dahinter die flache Poebene.",
+    "f": [
+      "Sigerichs Reisenotizen verzeichnen 79 Etappen zwischen Rom und dem Ärmelkanal.",
+      "Der Große St. Bernhard ist mit 2.469 m der höchste Punkt der Route.",
+      "Bis heute gehen Pilger den Weg und sammeln Stempel in einem Pilgerpass."
+    ],
+    "q": {
+      "q": "Wer hielt 990 die Etappen der Via Francigena fest?",
+      "a": "Erzbischof Sigerich",
+      "x": [
+        "Karl der Große",
+        "Papst Gregor der Große"
+      ]
+    }
+  },
+  "camino-frances": {
+    "name": "Jakobsweg (Camino Francés)",
+    "era": "ab dem 9. Jh.",
+    "t": "Tausend Jahre Schritte nach Santiago",
+    "s": "Unter Ihnen verläuft Europas beliebtester Pilgerweg. Seit mehr als tausend Jahren überqueren Wanderer hier die Pyrenäen und ziehen westwärts durch Nordspanien zum Grab des heiligen Jakobus in Santiago de Compostela, rund 780 km entfernt. Aus der Luft lässt sich die Route leicht vorstellen: an beiden Enden grüne Berge, dazwischen die Meseta, eine hohe, flache Hochebene aus goldenem Weizen rund um Burgos und León.",
+    "w": "Suchen Sie die weite gelbbraune Hochebene zwischen Burgos und León, im Westen die aufsteigenden grünen Hügel Galiciens.",
+    "f": [
+      "Die Jakobsmuschel, Symbol des heiligen Jakobus, markiert den Weg an Mauern und Wegweisern.",
+      "1987 wurde er die erste Kulturroute des Europarats.",
+      "Heute beenden jedes Jahr Hunderttausende Menschen die Pilgerreise."
+    ],
+    "q": {
+      "q": "Welches Symbol markiert den Jakobsweg?",
+      "a": "Eine Jakobsmuschel",
+      "x": [
+        "Ein Olivenzweig",
+        "Ein Eichenblatt"
+      ]
+    }
+  },
+  "amber-road": {
+    "name": "Bernsteinstraße",
+    "era": "Bronzezeit – Römerzeit",
+    "t": "Baltisches Gold, nach Süden bis Rom getragen",
+    "s": "Stellen Sie sich die Ostseeküste als Goldmine vor. Bernstein wurde an ihre Strände gespült, und Jahrtausende lang trugen Händler ihn nach Süden durch die Mährische Pforte zur Donau und hinab bis Aquileia an der Adria, wo römische Werkstätten Schmuck daraus fertigten. Die Route selbst hinterließ keine sichtbare Linie, doch ihre beiden Enden sind klar: die langen Sandnehrungen der Ostsee und die nördliche Adriaküste.",
+    "w": "Suchen Sie am Nordende die schmalen Sandnehrungen und Haffe der Ostseeküste bei Danzig und Kaliningrad.",
+    "f": [
+      "Bernstein ist versteinertes Baumharz, und baltischer Bernstein ist rund 40 Millionen Jahre alt.",
+      "Plinius der Ältere berichtet von einem römischen Ritter, den Nero an die Ostsee schickte, um Bernstein in großen Mengen zu kaufen.",
+      "Der meiste abgebaute Bernstein der Welt stammt bis heute von der Küste bei Kaliningrad."
+    ],
+    "q": {
+      "q": "Was ist Bernstein?",
+      "a": "Versteinertes Baumharz",
+      "x": [
+        "Versteinerter Meeresschaum",
+        "Vulkanisches Glas"
+      ]
+    }
+  },
+  "hadrians-wall": {
+    "name": "Hadrianswall",
+    "era": "122 n. Chr. – frühes 5. Jh.",
+    "t": "Roms Nordgrenze, von Küste zu Küste",
+    "s": "Sie überqueren den schmalen Hals Nordenglands, wo Kaiser Hadrian 122 n. Chr. eine Steinmauer errichten ließ. Sie reichte vom Tyne bis zum Solway Firth, mit kleinen Kastellen an jeder römischen Meile und Besatzungen aus dem ganzen Reich. Die Mauer ist nur wenige Meter breit und aus Reiseflughöhe nicht zu sehen, doch die Lücke zwischen zwei Mündungen, die sie bewachte, ist deutlich.",
+    "w": "Verfolgen Sie das Land von der Tyne-Mündung bei Newcastle nach Westen bis zum breiten, silbrigen Solway Firth hinter Carlisle.",
+    "f": [
+      "Der Wall war rund 117 km lang, also 80 römische Meilen.",
+      "Unter den Holztäfelchen-Briefen aus dem nahen Vindolanda ist eine Einladung zu einer Geburtstagsfeier aus der Zeit um 100 n. Chr.",
+      "1987 wurde er UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Wie lang war der Hadrianswall ungefähr?",
+      "a": "Etwa 117 km",
+      "x": [
+        "Etwa 40 km",
+        "Etwa 450 km"
+      ]
+    }
+  },
+  "limes-germanicus": {
+    "name": "Obergermanisch-Raetischer Limes",
+    "era": "um 100 – 260 n. Chr.",
+    "t": "Roms Grenzlinie vom Rhein bis zur Donau",
+    "s": "Unter Ihnen verlief der Rand der römischen Welt. Vom Rhein bei Koblenz bis zur Donau bei Regensburg markierten Palisade, Graben und Hunderte Wachtürme, wo das Reich endete und das freie Germanien begann. Vieles davon liegt heute im Wald, aus keiner Höhe zu erkennen. Sichtbar sind die beiden großen Flüsse, die er verband, und dazwischen die bewaldeten Höhen von Taunus und Odenwald.",
+    "w": "Suchen Sie Rhein und Donau; die Grenze zog in einer langen, geknickten Linie quer über das bewaldete Bergland dazwischen.",
+    "f": [
+      "Die Grenze war rund 550 km lang und hatte etwa 900 Wachtürme und 60 Kastelle.",
+      "Ein Abschnitt verläuft rund 80 km fast vollkommen gerade und ignoriert Hügel und Täler.",
+      "Auf der Saalburg bei Frankfurt wurde um 1900 ein römisches Kastell auf seinen originalen Fundamenten wiederaufgebaut."
+    ],
+    "q": {
+      "q": "Welche beiden Flüsse verband diese römische Grenze?",
+      "a": "Rhein und Donau",
+      "x": [
+        "Rhein und Elbe",
+        "Main und Oder"
+      ]
+    }
+  },
+  "danube-limes": {
+    "name": "Donaulimes",
+    "era": "1.–5. Jh.",
+    "t": "Der Fluss, der Roms Grenze war",
+    "s": "Vier Jahrhunderte lang war dieser Fluss eine Grenze. Die Römer säumten die Donau mit Kastellen und Wachtürmen, und mehrere heutige Hauptstädte wuchsen aus ihren Lagern, darunter Wien, Budapest und Belgrad. Anders als die meisten römischen Grenzen lässt sich diese aus der Luft leicht verfolgen, denn der Fluss selbst war die Linie. Achten Sie auf die Schlucht des Eisernen Tors, wo sich die Donau durch die Karpaten zwängt.",
+    "w": "Folgen Sie der breiten Donau; die enge Schlucht des Eisernen Tors zwischen Serbien und Rumänien ist der eindrucksvollste Abschnitt.",
+    "f": [
+      "Wien entstand aus dem Römerlager Vindobona, Budapest aus Aquincum.",
+      "Die Trajansbrücke über die Donau, 105 n. Chr. vollendet, war über einen Kilometer lang.",
+      "Ihre Steinpfeiler standen nahe dem heutigen Drobeta-Turnu Severin, und ein paar Stümpfe ragen noch an den Ufern auf."
+    ],
+    "q": {
+      "q": "Welche Hauptstadt wuchs aus dem Römerlager Vindobona?",
+      "a": "Wien",
+      "x": [
+        "Budapest",
+        "Bratislava"
+      ]
+    }
+  },
+  "hanseatic-route": {
+    "name": "Handelsweg der Hanse (London–Nowgorod)",
+    "era": "13.–17. Jh.",
+    "t": "Kaufmannsstädte, die über die Meere des Nordens herrschten",
+    "s": "Sie sind über dem alten Seeweg der Hanse, eines Kaufmannsbundes, der jahrhundertelang den Handel über Nord- und Ostsee beherrschte. Seine Schiffe brachten Tuch von West nach Ost und Pelze, Wachs, Getreide und Fisch in die Gegenrichtung und verbanden Kontore in London, Brügge, Bergen und Nowgorod. Schauen Sie auf die Ostseeküste unter Ihnen: Die Backsteinhafenstädte daran sind mit diesem Handel entstanden.",
+    "w": "Folgen Sie der Ostseeküste von der Lübecker Bucht nach Osten, draußen im Meer die lange Insel Gotland.",
+    "f": [
+      "Lübeck war die führende Stadt des Bundes und wurde oft Königin der Hanse genannt.",
+      "Hamburgs Autokennzeichen beginnen noch heute mit HH – für Hansestadt Hamburg.",
+      "Der Hansetag, die Versammlung des Bundes, tagte zum letzten Mal 1669."
+    ],
+    "q": {
+      "q": "Wofür steht HH auf Hamburger Autokennzeichen?",
+      "a": "Hansestadt Hamburg",
+      "x": [
+        "Hafen Hamburg",
+        "Hauptstadt Hamburg"
+      ]
+    }
+  },
+  "via-domitia": {
+    "name": "Via Domitia",
+    "era": "ab 118 v. Chr.",
+    "t": "Die erste Römerstraße in Gallien, von Italien nach Spanien",
+    "s": "Unter Ihnen verlief die erste Straße, die Rom in Gallien baute, ab 118 v. Chr. angelegt, um Italien mit Spanien zu verbinden. Sie überquerte die Alpen am Montgenèvre, folgte dem Tal der Durance, kreuzte die Rhone bei Beaucaire und zog durch die Küstenebene an Nîmes und Narbonne vorbei zu den Pyrenäen. Die Straße ist heute unsichtbar, doch Täler, Fluss und die von Lagunen gesäumte Küste zeigen noch ihren Weg.",
+    "w": "Suchen Sie das Rhonedelta und westlich davon die Kette von Lagunen entlang der Küste Richtung Pyrenäen.",
+    "f": [
+      "Benannt ist sie nach Gnaeus Domitius Ahenobarbus, dem römischen Feldherrn, der sie bauen ließ.",
+      "In Narbonne wurde auf dem Hauptplatz der Stadt ein Stück des originalen Pflasters freigelegt.",
+      "Die Pont Julien, eine Römerbrücke bei Apt, trug rund 2.000 Jahre lang Verkehr auf dieser Route."
+    ],
+    "q": {
+      "q": "Welche beiden Länder verband die Via Domitia?",
+      "a": "Italien und Spanien",
+      "x": [
+        "Italien und Britannien",
+        "Gallien und Germanien"
+      ]
+    }
+  },
+  "canal-du-midi": {
+    "name": "Canal du Midi",
+    "era": "1666–1681",
+    "t": "Abkürzung vom Atlantik ans Mittelmeer, im 17. Jh. gebaut",
+    "s": "Hier verband ein Ingenieur des 17. Jahrhunderts zwei Meere. Pierre-Paul Riquets Kanal führt von Toulouse zum Mittelmeer und verbindet zusammen mit der Garonne den Atlantik mit dem Mittelmeer, ohne dass man Spanien umsegeln muss. Das Geniale ist die Wasserversorgung: In der Montagne Noire gesammelt, wird das Wasser am Scheitelpunkt eingespeist. Mit rund 20 m Breite ist er aus Reiseflughöhe zu schmal, doch sein Korridor ist klar.",
+    "w": "Suchen Sie den Tieflandkorridor zwischen Pyrenäen und Zentralmassiv, von Toulouse bis zur Lagune Étang de Thau.",
+    "f": [
+      "Der Kanal ist rund 240 km lang und bis heute in Betrieb, inzwischen vor allem für Urlaubsboote.",
+      "In Béziers hebt eine Treppe aus acht Schleusen die Boote einen einzigen Hang hinauf.",
+      "1996 wurde er UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Wer baute den Canal du Midi?",
+      "a": "Pierre-Paul Riquet",
+      "x": [
+        "Ferdinand de Lesseps",
+        "Gustave Eiffel"
+      ]
+    }
+  },
+  "kiel-canal": {
+    "name": "Nord-Ostsee-Kanal",
+    "era": "eröffnet 1895",
+    "t": "Eine Abkürzung quer durch Deutschlands Hals",
+    "s": "Suchen Sie einen geraden silbernen Faden quer durch das flache Ackerland Norddeutschlands. Das ist der Nord-Ostsee-Kanal, 1895 eröffnet, um die Nordsee mit der Ostsee zu verbinden, damit Schiffe nicht mehr um Dänemark herumfahren mussten. Er verläuft 98 km von der Elbmündung bis Kiel. Mit rund 100 m Breite lässt er sich an einem klaren Tag aus Reiseflughöhe ausmachen.",
+    "w": "Eine dünne, gerade Wasserlinie, die von der Elbmündung bei Brunsbüttel nach Nordosten zur Förde bei Kiel führt.",
+    "f": [
+      "Nach Zahl der Schiffe ist er eine der meistbefahrenen künstlichen Wasserstraßen der Welt.",
+      "Die Abkürzung spart Schiffen rund 460 km gegenüber der Fahrt um Dänemark.",
+      "In Rendsburg trägt eine Schwebefähre von 1913 eine Gondel, die unter der Eisenbahnbrücke hängt."
+    ],
+    "q": {
+      "q": "Welche Halbinsel können Schiffe dank des Nord-Ostsee-Kanals umgehen?",
+      "a": "Jütland",
+      "x": [
+        "Cotentin",
+        "Istrien"
+      ]
+    }
+  },
+  "orient-express": {
+    "name": "Route des Orient-Express",
+    "era": "1883–1977",
+    "t": "Der legendäre Schlafwagenzug von Paris nach Konstantinopel",
+    "s": "Unter Ihnen fuhr der berühmteste Zug Europas. Ab 1883 brachte der Orient-Express Reisende in Schlafwagen von Paris Richtung Konstantinopel, ab 1889 durchgehend auf der Schiene, über München, Wien, Budapest und Belgrad. Mit ihm fühlte sich die Durchquerung eines halben Kontinents an wie ein Aufenthalt in einem Grandhotel. Folgen Sie von oben der Donau, dann den Balkantälern hinab zum Bosporus.",
+    "w": "Folgen Sie der Donau an Wien und Budapest vorbei, dann den Tälern durch Serbien und Bulgarien Richtung Bosporus.",
+    "f": [
+      "Geschaffen wurde der Zug vom belgischen Unternehmer Georges Nagelmackers.",
+      "Istanbuls Bahnhof Sirkeci, 1890 eröffnet, wurde als seine Endstation gebaut.",
+      "Die durchgehende Verbindung Paris–Istanbul endete 1977."
+    ],
+    "q": {
+      "q": "Wer gründete die Gesellschaft, die den Orient-Express betrieb?",
+      "a": "Georges Nagelmackers",
+      "x": [
+        "George Pullman",
+        "Thomas Cook"
+      ]
+    }
+  },
+  "bleriot-channel-1909": {
+    "name": "Blériots Flug über den Ärmelkanal (1909)",
+    "era": "25. Juli 1909",
+    "t": "Der Flug, der den Ärmelkanal schrumpfen ließ",
+    "s": "Am 25. Juli 1909 startete Louis Blériot in einem kleinen Eindecker von einem Feld bei Calais und landete rund 37 Minuten später unterhalb von Dover Castle. Es war der erste Flug eines Flugzeugs über den Ärmelkanal, nur sechs Jahre nach dem ersten Flug der Brüder Wright. Einen Kompass hatte er nicht. Die Meerenge unter Ihnen, mit ihren weißen Klippen und belebten Schifffahrtswegen, wirkte plötzlich viel schmaler.",
+    "w": "Suchen Sie die weißen Kreidefelsen von Dover gegenüber der flachen französischen Küste bei Calais, rund 35 km entfernt.",
+    "f": [
+      "Der Flug brachte Blériot ein Preisgeld von 1.000 Pfund der Londoner Daily Mail ein.",
+      "Ein Umriss seines Flugzeugs aus Granit markiert die Landestelle nahe Dover Castle.",
+      "Sein Flugzeug, die Blériot XI, steht heute im Musée des Arts et Métiers in Paris."
+    ],
+    "q": {
+      "q": "Wie lange dauerte Blériots Flug über den Ärmelkanal?",
+      "a": "Etwa 37 Minuten",
+      "x": [
+        "Etwa 12 Minuten",
+        "Etwa 2 Stunden"
+      ]
+    }
+  },
+  "paris-meridian-arc": {
+    "name": "Pariser Meridianbogen (Vermessung des Meters)",
+    "era": "1792–1798",
+    "t": "Wo der Meter auf dem Boden gemessen wurde",
+    "s": "Sie überqueren eine Linie, die der Welt den Meter gab. In den 1790er-Jahren vermaßen zwei Astronomen, Delambre und Méchain, die Strecke von Dünkirchen bis Barcelona mit Ketten von Dreiecken zwischen Kirchtürmen und Hügelkuppen. Daraus legten sie den Meter als ein Zehnmillionstel der Entfernung vom Pol zum Äquator fest. Die Linie verläuft fast genau von Nord nach Süd durch Paris – unsichtbar, aber exakt.",
+    "w": "Der Bogen verläuft fast genau nord-südlich durch Paris, von der Kanalküste bei Dünkirchen bis Barcelona.",
+    "f": [
+      "Delambre vermaß die Nordhälfte, Méchain die Südhälfte; sie trafen sich in Rodez.",
+      "Das Ergebnis wurde 1799 als Platinstab gegossen, das Mètre des Archives.",
+      "Sie schätzten die Abplattung der Erde leicht falsch, daher fiel ihr Meter rund 0,2 mm zu kurz aus."
+    ],
+    "q": {
+      "q": "Welche Einheit sollte diese Vermessung festlegen?",
+      "a": "Den Meter",
+      "x": [
+        "Die Seemeile",
+        "Das Kilogramm"
+      ]
+    }
+  },
+  "ancient-rome": {
+    "name": "Antikes Rom",
+    "era": "753 v. Chr. – 476 n. Chr.",
+    "t": "Die Stadt, zu der alle Wege führten",
+    "s": "Unter Ihnen liegt das Herz eines Reiches, das von Schottland bis Syrien reichte. Auf seinem Höhepunkt lebten im antiken Rom vielleicht eine Million Menschen, und Forum, Kolosseum und Pantheon stehen bis heute mitten in der modernen Stadt. Aus Reiseflughöhe verschwimmen die Monumente im Häusermeer, doch die trägen S-Kurven des Tibers durch das Zentrum sind derselbe Fluss, an dem die Stadt gegründet wurde.",
+    "w": "Suchen Sie den Tiber, der sich in engen Bögen durch die Stadt windet, rund 25 km landeinwärts der Küste bei Ostia.",
+    "f": [
+      "Das 80 n. Chr. eröffnete Kolosseum fasste rund 50.000 Zuschauer.",
+      "Die fast 2.000 Jahre alte Betonkuppel des Pantheons ist bis heute die größte unbewehrte der Welt.",
+      "Der Überlieferung nach wurde Rom am 21. April 753 v. Chr. gegründet, und die Stadt feiert dieses Datum noch heute."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurde Rom der Überlieferung nach gegründet?",
+      "a": "753 v. Chr.",
+      "x": [
+        "509 v. Chr.",
+        "312 v. Chr."
+      ]
+    }
+  },
+  "pompeii": {
+    "name": "Pompeji und Herculaneum",
+    "era": "verschüttet 79 n. Chr., ausgegraben seit 1738",
+    "t": "Römerstädte, 1.700 Jahre unter Asche bewahrt",
+    "s": "Suchen Sie den Kegel des Vesuvs über dem Golf von Neapel. 79 n. Chr. begrub er zwei römische Städte unter Asche und Schlamm und bewahrte sie so fast unversehrt: bemalte Wände, Bäckereien, Ladenschilder, sogar hingekritzelte Graffiti. Heute sind sie das vollständigste Bild, das wir vom römischen Alltag haben. Die Straßen sind von hier aus zu klein, doch der Vulkan, der sie berühmt machte, ist unverkennbar.",
+    "w": "Ein breiter Vulkankegel mit dunklem Krater, gleich östlich des Golfs von Neapel; die Ruinen liegen an seinem Fuß.",
+    "f": [
+      "Die Ausgrabungen in Pompeji begannen 1748, und rund ein Drittel der Stadt ist noch nicht freigelegt.",
+      "Ihre Wände sind voller antiker Graffiti, von Wahlparolen bis zu Witzen.",
+      "Verkohlte Papyrusrollen aus Herculaneum werden heute mit Röntgenscans und KI gelesen."
+    ],
+    "q": {
+      "q": "Welcher Vulkan begrub Pompeji?",
+      "a": "Der Vesuv",
+      "x": [
+        "Der Ätna",
+        "Der Stromboli"
+      ]
+    }
+  },
+  "acropolis-athens": {
+    "name": "Akropolis von Athen",
+    "era": "5. Jh. v. Chr.",
+    "t": "Der Fels, auf dem die Baukunst des Westens ihre Form fand",
+    "s": "Mitten im Becken von Athen erhebt sich ein flacher Fels, gekrönt von Marmortempeln. Der Parthenon entstand hier im 5. Jahrhundert v. Chr., als Athen mit der Demokratie experimentierte, und seine Proportionen wurden seither an Banken, Museen und Parlamenten kopiert. Der Tempel selbst ist aus Reiseflughöhe zu klein, doch die Schüssel der Stadt zwischen Bergen und Meer ist gut zu erkennen.",
+    "w": "Suchen Sie eine ausgedehnte helle Stadt in einem Kessel aus Bergen, der sich nach Südwesten zum Saronischen Golf und nach Piräus öffnet.",
+    "f": [
+      "Der Parthenon wurde zwischen 447 und 432 v. Chr. erbaut und Athene geweiht.",
+      "Seine Säulen sind leicht gewölbt und sein Boden steigt zur Mitte an, damit er dem Auge vollkommen gerade erscheint.",
+      "Der Marmor stammt vom Pentelikon, rund 16 km entfernt."
+    ],
+    "q": {
+      "q": "Welcher Göttin war der Parthenon geweiht?",
+      "a": "Athene",
+      "x": [
+        "Hera",
+        "Artemis"
+      ]
+    }
+  },
+  "delphi": {
+    "name": "Delphi",
+    "era": "8. Jh. v. Chr. – 4. Jh. n. Chr.",
+    "t": "Der Mittelpunkt der Welt der alten Griechen",
+    "s": "Suchen Sie das Massiv des Parnass, oft mit weißem Gipfel, über dem Golf von Korinth. An seinem Südhang lag Delphi, wo Griechen tausend Jahre lang das Orakel des Apollon zu Kriegen, Kolonien und Ehen befragten. Sie glaubten, hier liege der Mittelpunkt der Welt. Die Tempelterrassen sind von hier aus unsichtbar, doch der Berg und die silbrige Olivenebene, die zum Meer hinabläuft, sind klar.",
+    "w": "Ein hoher, oft verschneiter Gebirgsblock nördlich des Golfs von Korinth, unter seiner Südseite eine weite Olivenebene.",
+    "f": [
+      "Ein behauener Stein, der Omphalos oder „Nabel“, kennzeichnete Delphi als Mittelpunkt der Welt.",
+      "Bei den hier ausgetragenen Pythischen Spielen gab es neben Sport auch Musik- und Dichterwettbewerbe.",
+      "Die Sieger der Pythischen Spiele wurden mit Lorbeer bekränzt, der dem Apollon heiligen Pflanze."
+    ],
+    "q": {
+      "q": "Welcher Gott sprach durch das Orakel von Delphi?",
+      "a": "Apollon",
+      "x": [
+        "Zeus",
+        "Poseidon"
+      ]
+    }
+  },
+  "olympia": {
+    "name": "Olympia",
+    "era": "776 v. Chr. – 393 n. Chr.",
+    "t": "Wo die Olympischen Spiele begannen",
+    "s": "In einem grünen Tal auf der westlichen Peloponnes feierten die alten Griechen mehr als tausend Jahre lang die Olympischen Spiele. Kriege ruhten, damit die Athleten sicher reisen konnten, und Sieger kehrten mit einem Olivenkranz und bleibendem Ruhm heim. Jede moderne olympische Flamme wird bis heute hier mit Sonnenstrahlen entzündet. Suchen Sie aus Reiseflughöhe das weite Tal des Alfios, das sich zum Ionischen Meer windet.",
+    "w": "Suchen Sie das breite Tal des Alfios, das auf der westlichen Peloponnes nach Westen zur Ionischen Küste führt.",
+    "f": [
+      "Der Überlieferung nach fanden die ersten Spiele 776 v. Chr. statt.",
+      "Die Laufbahn des Stadions ist rund 192 m lang – ein antikes Stadion, das Längenmaß.",
+      "Die Zeusstatue aus Gold und Elfenbein war eines der Sieben Weltwunder der Antike."
+    ],
+    "q": {
+      "q": "Was erhielten die Sieger der antiken Olympischen Spiele?",
+      "a": "Einen Olivenkranz",
+      "x": [
+        "Eine Goldmedaille",
+        "Einen Lorbeerkranz"
+      ]
+    }
+  },
+  "knossos": {
+    "name": "Knossos",
+    "era": "um 1900–1350 v. Chr.",
+    "t": "Der Palast hinter der Sage vom Labyrinth",
+    "s": "Gleich landeinwärts von Heraklion an der Nordküste Kretas stand der größte Palast der ersten Hochkultur Europas, der Minoer. Sein Gewirr aus Räumen, Lichthöfen und bemalten Wänden steckt womöglich hinter dem griechischen Mythos von König Minos, dem Labyrinth und dem Minotaurus. Die Ruinen sehen Sie von oben nicht, wohl aber Kretas langes Gebirgsrückgrat und die belebte Küste, an der die Minoer ihre Welt des Seehandels aufbauten.",
+    "w": "Suchen Sie an Kretas Nordküste die Stadt Heraklion; der Palast liegt wenige Kilometer südlich davon im Landesinneren.",
+    "f": [
+      "Der britische Archäologe Arthur Evans grub Knossos ab 1900 aus.",
+      "Evans baute Teile des Palasts in Beton wieder auf – bis heute umstritten.",
+      "Tontafeln aus Knossos in Linear B erwiesen sich als frühe Form des Griechischen."
+    ],
+    "q": {
+      "q": "Wer grub Knossos ab 1900 aus?",
+      "a": "Arthur Evans",
+      "x": [
+        "Heinrich Schliemann",
+        "Howard Carter"
+      ]
+    }
+  },
+  "mycenae": {
+    "name": "Mykene",
+    "era": "um 1600–1100 v. Chr.",
+    "t": "Die Burg von Homers König Agamemnon",
+    "s": "Auf einem Hügel über der Ebene der Argolis stand Mykene, die Festung, die der späten Bronzezeit Griechenlands ihren Namen gab. Homer machte sie zur Heimat König Agamemnons, des Anführers der Griechen vor Troja. Ihre Mauern bestehen aus so gewaltigen Blöcken, dass spätere Griechen glaubten, Riesen hätten sie aufgeschichtet. Suchen Sie aus Reiseflughöhe die flache grüne Ebene von Argos, die sich zu ihrem Golf öffnet.",
+    "w": "Suchen Sie den Argolischen Golf im Nordosten der Peloponnes; die Burg steht am Nordrand der Ebene.",
+    "f": [
+      "Die Mauern heißen kyklopisch – nach den einäugigen Riesen, die sie gebaut haben sollen.",
+      "Das berühmte Löwentor, um 1250 v. Chr. gemeißelt, gehört zu den ältesten Monumentalskulpturen Europas.",
+      "Die 1876 hier gefundene goldene „Maske des Agamemnon“ ist rund 300 Jahre älter als der sagenhafte Trojanische Krieg."
+    ],
+    "q": {
+      "q": "Was bewacht den Haupteingang von Mykene?",
+      "a": "Zwei gemeißelte Löwen",
+      "x": [
+        "Zwei Sphingen",
+        "Ein bronzener Stier"
+      ]
+    }
+  },
+  "stonehenge": {
+    "name": "Stonehenge und Avebury",
+    "era": "um 3000–1500 v. Chr.",
+    "t": "Steinkreise, ausgerichtet auf die Mittsommersonne",
+    "s": "Auf den sanften Kreidehügeln der Salisbury Plain steht das berühmteste prähistorische Monument der Welt. Stonehenge entstand in Etappen über rund 1.500 Jahre; seine Achse weist auf den Sonnenaufgang zur Sommersonnenwende und den Sonnenuntergang zur Wintersonnenwende. Im nahen Avebury liegt ein noch größerer Steinkreis, mit einem Dorf darin. Die Steine sind von hier aus viel zu klein, doch das helle Hügelland ist leicht zu entdecken.",
+    "w": "Suchen Sie offenes, hellgrünes Kreidehügelland nördlich von Salisbury, mit wenigen Bäumen und verstreuten Truppenübungsplätzen.",
+    "f": [
+      "Seine kleineren Blausteine wurden rund 240 km weit aus den Preseli Hills in Wales herangeschafft.",
+      "Die größten Sarsensteine wiegen jeweils rund 25–30 Tonnen.",
+      "Der äußere Kreis von Avebury ist so groß, dass ein Teil des Dorfes darin liegt."
+    ],
+    "q": {
+      "q": "Woher stammen die Blausteine von Stonehenge?",
+      "a": "Aus den Preseli Hills, Wales",
+      "x": [
+        "Aus Cornwall",
+        "Aus dem Lake District"
+      ]
+    }
+  },
+  "carnac": {
+    "name": "Steinreihen von Carnac",
+    "era": "um 4500–3300 v. Chr.",
+    "t": "Steinreihen, die quer durch die Bretagne marschieren",
+    "s": "An der Südküste der Bretagne stehen Tausende Menhire in langen parallelen Reihen, manche über einen Kilometer lang. Sie wurden in der Jungsteinzeit aufgerichtet, lange vor den großen Sarsensteinen von Stonehenge, und niemand weiß genau, warum. Einer örtlichen Sage nach sind es zu Stein erstarrte römische Soldaten. Die Reihen sind zu klein, doch die Halbinsel Quiberon und der inselreiche Golf von Morbihan sind deutlich.",
+    "w": "Suchen Sie die schmale Halbinsel Quiberon, die nach Süden zeigt, gleich östlich davon den inselreichen Golf von Morbihan.",
+    "f": [
+      "Rund um Carnac sind mehr als 3.000 Menhire erhalten.",
+      "Allein die Steinreihe von Ménec umfasst über 1.000 Steine in 11 Reihen.",
+      "Das Wort „Menhir“ für einen aufrecht stehenden Stein kommt aus dem Bretonischen: „langer Stein“."
+    ],
+    "q": {
+      "q": "Wie viele Menhire sind in Carnac ungefähr erhalten?",
+      "a": "Über 3.000",
+      "x": [
+        "Etwa 300",
+        "Etwa 30.000"
+      ]
+    }
+  },
+  "lascaux": {
+    "name": "Lascaux und das Vézère-Tal",
+    "era": "vor rund 17.000 Jahren",
+    "t": "Eiszeitliche Pferde und Stiere, ins Dunkel gemalt",
+    "s": "Irgendwo in diesen bewaldeten Tälern birgt eine Höhle einige der schönsten Kunstwerke der Eiszeit: Pferde, Hirsche und riesige schwarze Stiere, vor rund 17.000 Jahren gemalt. Entdeckt wurde sie 1940 von vier Jugendlichen aus der Gegend. Das Vézère-Tal ringsum ist dicht besetzt mit prähistorischen Fundstätten. Aus der Luft sehen Sie nur grüne Kalkhügel und einen gewundenen Fluss – genau wie die Maler damals.",
+    "w": "Suchen Sie die mäandernde Vézère zwischen bewaldeten Kalkhügeln, nordöstlich des breiteren Dordogne-Tals.",
+    "f": [
+      "Die Höhle birgt rund 600 Malereien und etwa 1.500 Gravuren.",
+      "Zum Schutz der Bilder wurde sie 1963 für Besucher geschlossen; heute besucht man originalgetreue Nachbildungen in der Nähe.",
+      "Das Vézère-Tal steht mit 147 prähistorischen Fundstätten und 25 bemalten Höhlen auf der UNESCO-Liste."
+    ],
+    "q": {
+      "q": "Wer entdeckte 1940 die Höhle von Lascaux?",
+      "a": "Vier Jugendliche",
+      "x": [
+        "Ein Archäologenteam",
+        "Ein Schäfer"
+      ]
+    }
+  },
+  "newgrange": {
+    "name": "Newgrange (Brú na Bóinne)",
+    "era": "um 3200 v. Chr.",
+    "t": "Älter als die Pyramiden – ein Grab im Wintersonnenlicht",
+    "s": "In einer großen Schleife des Boyne nördlich von Dublin steht ein riesiger runder Hügel, verkleidet mit weißem Quarz. Newgrange entstand um 3200 v. Chr., vor dem Steinkreis von Stonehenge und den Pyramiden von Gizeh. Einmal im Jahr, beim Sonnenaufgang zur Wintersonnenwende, wandert ein Lichtstrahl durch den Gang und erhellt die innere Kammer. Der Hügel ist von hier aus klein, doch die Schleife des Boyne ist zu sehen.",
+    "w": "Suchen Sie den Boyne westlich von Drogheda; die Monumente liegen in einer engen südlichen Flussschleife.",
+    "f": [
+      "Der Sonnenstrahl fällt durch ein „Dachfenster“ über dem Eingang und hält rund 17 Minuten an.",
+      "Sein Gang ist rund 19 m lang und endet in einer Kammer mit steinernem Kraggewölbe.",
+      "Das benachbarte Knowth besitzt mehr Megalithkunst als jede andere Stätte Westeuropas."
+    ],
+    "q": {
+      "q": "Was erhellt jedes Jahr die Kammer von Newgrange?",
+      "a": "Der Sonnenaufgang im Mittwinter",
+      "x": [
+        "Der Sonnenuntergang im Mittsommer",
+        "Der Vollmond im Frühling"
+      ]
+    }
+  },
+  "skara-brae": {
+    "name": "Neolithisches Orkney (Skara Brae)",
+    "era": "um 3100–2500 v. Chr.",
+    "t": "Ein Steinzeitdorf, noch mit seinen Möbeln",
+    "s": "Auf der Hauptinsel von Orkney lag ein Steinzeitdorf unter Sand verborgen, bis ein Sturm es 1850 freilegte. Die Häuser von Skara Brae haben noch ihre steinernen Betten, Feuerstellen und Regale, als wären ihre Bewohner gerade erst hinausgegangen. In der Nähe stehen der Ring of Brodgar und das große Grab von Maeshowe. Suchen Sie von oben Orkneys grüne, baumlose Inseln und die zwei Seen in ihrer Mitte.",
+    "w": "Suchen Sie niedrige grüne Inseln vor der Nordspitze Schottlands; die Monumente liegen auf der größten, rund um zwei verbundene Seen.",
+    "f": [
+      "Skara Brae war rund 600 Jahre lang bewohnt.",
+      "Zur Wintersonnenwende scheint die untergehende Sonne durch den Eingangsgang von Maeshowe.",
+      "Der Ring of Brodgar hatte ursprünglich rund 60 Steine; etwa 27 stehen noch."
+    ],
+    "q": {
+      "q": "Was legte Skara Brae 1850 frei?",
+      "a": "Ein Sturm",
+      "x": [
+        "Der Pflug eines Bauern",
+        "Ein Erdrutsch"
+      ]
+    }
+  },
+  "pont-du-gard": {
+    "name": "Pont du Gard",
+    "era": "1. Jh. n. Chr.",
+    "t": "Roms Aquäduktbrücke, drei Stockwerke hoch",
+    "s": "In der Schlucht des Gardon trug eine römische Brücke aus drei übereinandergesetzten Bogenreihen Wasser in die Stadt Nîmes. Sie war Teil eines rund 50 km langen Aquädukts, der auf seiner ganzen Länge nur wenige Meter Gefälle hatte – eine Meisterleistung der Vermessung. Die Brücke ist aus Reiseflughöhe zu klein, doch die grüne Gardon-Schlucht zwischen Nîmes und Avignon ist die Stelle, an der Sie suchen sollten.",
+    "w": "Suchen Sie zwischen Nîmes und Avignon, wo der Gardon eine grüne Schlucht schneidet, bevor er die Rhone erreicht.",
+    "f": [
+      "Mit rund 49 m ist sie die höchste Aquäduktbrücke, die die Römer bauten.",
+      "Der Aquädukt fällt auf seinen 50 km nur rund 12 m ab – etwa 25 cm pro Kilometer.",
+      "In den großen Bögen wurden die Steine ohne Mörtel verlegt."
+    ],
+    "q": {
+      "q": "Welche römische Stadt versorgte der Pont du Gard?",
+      "a": "Nîmes",
+      "x": [
+        "Arles",
+        "Marseille"
+      ]
+    }
+  },
+  "mont-saint-michel": {
+    "name": "Mont-Saint-Michel",
+    "era": "ab 966",
+    "t": "Eine Abtei auf einem Felsen, von der Flut abgeschnitten",
+    "s": "Suchen Sie eine weite grau-silberne Bucht an der Grenze zwischen Normandie und Bretagne. In ihrer Mitte liegt eine winzige Felsinsel, gekrönt von einer gotischen Abtei, 966 als Benediktinerkloster gegründet. Die Bucht hat einige der höchsten Gezeiten Europas, und bei Flut umschließt das Meer den Felsen. Aus Reiseflughöhe ist die Abtei ein Punkt, doch die gemusterten Sandflächen und Priele sind eindrucksvoll.",
+    "w": "Eine weite Bucht aus Sandflächen und gewundenen Prielen, wo die Normandie auf die Bretagne trifft, mit einer kleinen Insel nahe dem Südufer.",
+    "f": [
+      "Der Tidenhub in der Bucht kann rund 14 m erreichen.",
+      "2014 ersetzte eine leichte Brücke den alten Damm, damit das Meer den Felsen wieder umspülen kann.",
+      "Zusammen mit seiner Bucht wurde er 1979 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Wie hoch kann die Flut in der Bucht des Mont-Saint-Michel steigen?",
+      "a": "Bis zu etwa 14 m",
+      "x": [
+        "Bis zu etwa 2 m",
+        "Bis zu etwa 40 m"
+      ]
+    }
+  },
+  "aachen": {
+    "name": "Aachen, Hauptstadt Karls des Großen",
+    "era": "um 800",
+    "t": "Die Bäderstadt, von der aus Karl der Große Europa regierte",
+    "s": "Nahe dem Dreiländereck von Deutschland, Belgien und den Niederlanden liegt Aachen, die Lieblingspfalz Karls des Großen. Um 800 baute er hier eine Kuppelkapelle, die zum Herzen seines Reiches wurde, und sechs Jahrhunderte lang wurden darin deutsche Könige gekrönt. Schon die Römer kamen wegen der heißen Quellen, die bis heute sprudeln. Suchen Sie von oben die Stadt am Rand der grünen Eifelhöhen.",
+    "w": "Suchen Sie die Stadt gleich östlich des Punkts, an dem Deutschland, Belgien und die Niederlande aneinandergrenzen, am Rand bewaldeter Höhen.",
+    "f": [
+      "Zwischen 936 und 1531 wurden in Aachen rund 30 deutsche Könige gekrönt.",
+      "1978 gehörte sein Dom zu den ersten 12 Stätten auf der UNESCO-Welterbeliste.",
+      "Der römische Name Aquae Granni bezog sich auf die heißen Quellen der Stadt."
+    ],
+    "q": {
+      "q": "Wessen Kapelle wurde zum Aachener Dom?",
+      "a": "Die Karls des Großen",
+      "x": [
+        "Die Ottos des Großen",
+        "Die Friedrich Barbarossas"
+      ]
+    }
+  },
+  "ravenna": {
+    "name": "Ravenna",
+    "era": "5.–6. Jh.",
+    "t": "Die letzte Hauptstadt des Weströmischen Reiches",
+    "s": "An der flachen Adriaküste Italiens war Ravenna eine Zeit lang Hauptstadt des Weströmischen Reiches, dann der ostgotischen Könige und byzantinischen Statthalter. Sie füllten die Kirchen der Stadt mit glitzernden Mosaiken, die nach 1.500 Jahren noch frisch wirken und zu den schönsten überhaupt zählen. Einst war die Stadt ein Hafen; das Meer hat sich seither zurückgezogen. Suchen Sie von oben die flache Küste, Pinienwälder und Lagunen.",
+    "w": "Suchen Sie eine niedrige, gerade Küstenlinie mit dunklen Pinienwäldern und im Norden die weiten Lagunen von Comacchio.",
+    "f": [
+      "Die weströmischen Kaiser verlegten ihren Hof 402 nach Ravenna.",
+      "Die Mosaiken von San Vitale zeigen Kaiser Justinian und Kaiserin Theodora mit ihrem Hofstaat.",
+      "Der Dichter Dante starb 1321 in Ravenna und ist dort begraben."
+    ],
+    "q": {
+      "q": "Welcher Dichter ist in Ravenna begraben?",
+      "a": "Dante",
+      "x": [
+        "Petrarca",
+        "Vergil"
+      ]
+    }
+  },
+  "venice-republic": {
+    "name": "Republik Venedig",
+    "era": "um 697–1797",
+    "t": "Eine Kaufmannsrepublik, in eine Lagune gebaut",
+    "s": "Suchen Sie eine fischförmige Stadt, die in einer Lagune schwimmt, über eine lange Brücke mit dem Festland verbunden. Rund tausend Jahre lang war Venedig eine unabhängige Republik unter gewählten Dogen, und ihre Galeeren brachten Gewürze, Seide und Glas zwischen Europa und dem Osten hin und her. Kaum ein Ort ist aus der Luft so leicht zu erkennen: die Lagune, die vorgelagerten Nehrungsinseln und das dichte Kanalgewirr der Stadt.",
+    "w": "Eine kompakte, fischförmige Stadt in einer flachen Lagune, über einen langen geraden Damm mit dem Festland verbunden.",
+    "f": [
+      "Die Stadt steht auf mehr als 100 kleinen Inseln, verbunden durch rund 400 Brücken.",
+      "Ihr Arsenal war eine der größten Werften der vorindustriellen Welt.",
+      "Marco Polo, dessen Reisen China in Europa berühmt machten, war ein venezianischer Kaufmann."
+    ],
+    "q": {
+      "q": "Wer beendete 1797 die Republik Venedig?",
+      "a": "Napoleon",
+      "x": [
+        "Ludwig XIV.",
+        "Ludwig XVI."
+      ]
+    }
+  },
+  "split-diocletian": {
+    "name": "Diokletianpalast, Split",
+    "era": "um 305 n. Chr.",
+    "t": "Der Alterssitz eines Kaisers, aus dem eine Stadt wurde",
+    "s": "Als Kaiser Diokletian um 305 n. Chr. dem Thron entsagte, zog er sich in einen festungsartigen Palast zurück, den er an der dalmatinischen Küste gebaut hatte. Nach dem Fall Roms zogen Einheimische in seine Mauern, und eine ganze Stadt wuchs darin. Heute füllen Läden, Wohnungen und eine Kathedrale den römischen Palast. Suchen Sie von oben Split auf seiner Halbinsel, gegenüber den langen Inseln Brač und Hvar.",
+    "w": "Eine Stadt auf einer Halbinsel der kroatischen Küste, vor der die langen Inseln Brač und Hvar liegen.",
+    "f": [
+      "Diokletian war der erste römische Kaiser, der freiwillig abdankte.",
+      "Die Kathedrale von Split wurde im Mausoleum des Kaisers selbst eingerichtet.",
+      "Rund 3.000 Menschen leben bis heute innerhalb der alten Palastmauern."
+    ],
+    "q": {
+      "q": "Welcher Kaiser zog sich in einen Palast in Split zurück?",
+      "a": "Diokletian",
+      "x": [
+        "Konstantin",
+        "Hadrian"
+      ]
+    }
+  },
+  "constantinople": {
+    "name": "Konstantinopel",
+    "era": "330–1453 n. Chr.",
+    "t": "Kaiserliche Hauptstadt auf zwei Kontinenten",
+    "s": "Das ist die Stadt, die Konstantin 330 zum neuen Rom machte. Als Konstantinopel war sie über tausend Jahre lang Hauptstadt des Byzantinischen Reiches, danach der osmanischen Sultane, und bewachte den einzigen Seeweg zwischen Schwarzem Meer und Mittelmeer. Die Kuppel der Hagia Sophia versetzte Besucher jahrhundertelang in Staunen. Suchen Sie aus der Luft den Bosporus und das gebogene Goldene Horn.",
+    "w": "Suchen Sie die schmale Meerenge des Bosporus und die gebogene Bucht des Goldenen Horns, die in die Altstadt schneidet.",
+    "f": [
+      "Die 537 vollendete Hagia Sophia war fast tausend Jahre lang die größte Kathedrale der Welt.",
+      "Die Landmauern der Stadt aus dem 5. Jahrhundert verliefen rund 6 km von Meer zu Meer.",
+      "Vor Konstantin war die Stadt die griechische Kolonie Byzantion, um 660 v. Chr. gegründet."
+    ],
+    "q": {
+      "q": "Welcher Kaiser gründete Byzanz 330 als seine Hauptstadt neu?",
+      "a": "Konstantin der Große",
+      "x": [
+        "Justinian",
+        "Theodosius"
+      ]
+    }
+  },
+  "alhambra-granada": {
+    "name": "Granada der Nasriden und die Alhambra",
+    "era": "1238–1492",
+    "t": "Eine rote Palaststadt unter der verschneiten Sierra Nevada",
+    "s": "Suchen Sie die oft schneebedeckte Sierra Nevada, die sich hinter der Stadt Granada erhebt. Hier herrschte bis 1492 die Dynastie der Nasriden über das letzte muslimische Königreich der Iberischen Halbinsel und baute die Alhambra, einen Hügelpalast aus geschnitztem Stuck, Fliesen und Brunnenhöfen. Der Palast ist aus Reiseflughöhe nicht zu sehen, doch die Bergmauer dahinter, höher als jede andere auf dem spanischen Festland, ist kaum zu übersehen.",
+    "w": "Ein langes Gebirge, im Winter und Frühling mit weißen Gipfeln; Granada breitet sich in der Ebene an seinem Nordwestfuß aus.",
+    "f": [
+      "Der Name Alhambra kommt vom Arabischen für „die Rote“ – nach der Farbe ihrer Mauern.",
+      "Der Brunnen im Löwenhof ruht auf den Rücken von 12 Marmorlöwen.",
+      "Der Mulhacén in der Sierra Nevada ist mit 3.479 m der höchste Gipfel des spanischen Festlands."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Alhambra“?",
+      "a": "Die Rote",
+      "x": [
+        "Die Hohe",
+        "Der Garten"
+      ]
+    }
+  },
+  "cordoba-umayyad": {
+    "name": "Córdoba der Umayyaden",
+    "era": "756–1031",
+    "t": "Einst eine der größten Städte Europas",
+    "s": "Im 10. Jahrhundert war Córdoba am Guadalquivir Hauptstadt eines Kalifats der Umayyaden und eine der größten und gelehrtesten Städte Europas. Seine Große Moschee mit einem Wald aus Säulen und rot-weiß gestreiften Bögen steht bis heute – mit einer Kathedrale mitten darin. Suchen Sie aus der Luft die Stadt am Fluss, im Norden die dunkle Sierra Morena.",
+    "w": "Suchen Sie das Tal des Guadalquivir; die Stadt liegt am Fluss am Fuß der bewaldeten Hügel der Sierra Morena.",
+    "f": [
+      "Der Gebetssaal der Moschee hat über 800 Säulen aus Marmor, Jaspis und Granit.",
+      "Im 16. Jahrhundert wurde in der Moschee eine Renaissance-Kathedrale errichtet.",
+      "Die Ruinen der Palaststadt Medina Azahara liegen gleich westlich von Córdoba."
+    ],
+    "q": {
+      "q": "Was wurde in Córdobas Großer Moschee errichtet?",
+      "a": "Eine Kathedrale",
+      "x": [
+        "Eine Stierkampfarena",
+        "Ein Königspalast"
+      ]
+    }
+  },
+  "belem-lisbon": {
+    "name": "Belém, Lissabon: Zeitalter der Entdeckungen",
+    "era": "15.–16. Jh.",
+    "t": "Das Flussufer, an dem der Seeweg nach Indien begann",
+    "s": "Von diesem Ufer an der Mündung des Tejo brachen im 15. und 16. Jahrhundert portugiesische Schiffe auf, um Afrikas Küste zu kartieren und Indien auf dem Seeweg zu erreichen. Vasco da Gama segelte 1497 von hier los. Das Gewürzgeld bezahlte das prunkvolle Hieronymitenkloster und den Turm von Belém, der den Hafen bewachte. Suchen Sie von oben die breite Tejomündung und die lange rote Hängebrücke darüber.",
+    "w": "Suchen Sie die weite Tejomündung, die sich zum Atlantik öffnet, überspannt von einer langen Hängebrücke westlich von Lissabons Zentrum.",
+    "f": [
+      "Vasco da Gama ist im Hieronymitenkloster begraben.",
+      "Der Turm von Belém wurde um 1519 fertiggestellt, um die Hafeneinfahrt zu bewachen.",
+      "Der verschlungene Stil des Klosters, Manuelinik genannt, arbeitet mit gemeißelten Tauen, Muscheln und Meerestieren."
+    ],
+    "q": {
+      "q": "Wer segelte 1497 von Belém los, um einen Seeweg nach Indien zu finden?",
+      "a": "Vasco da Gama",
+      "x": [
+        "Ferdinand Magellan",
+        "Bartolomeu Dias"
+      ]
+    }
+  },
+  "bergen-bryggen": {
+    "name": "Bryggen, Bergen",
+    "era": "um 1360–1754",
+    "t": "Der Hansekai mit seinen hölzernen Giebeln",
+    "s": "In Bergen, umgeben von Fjorden und Bergen, betrieben deutsche Kaufleute der Hanse fast 400 Jahre lang eines ihrer vier großen Auslandskontore. Sie tauschten Getreide gegen Stockfisch, Kabeljau, der auf Gestellen im arktischen Wind getrocknet wurde. Ihre Reihe hoher Holzhäuser mit Giebeln, Bryggen, säumt bis heute den Hafen. Suchen Sie von oben die Stadt an ihrer Bucht, umringt von steilen Hügeln.",
+    "w": "Eine Stadt an einer geschützten Bucht der norwegischen Westküste, umringt von steilen Hügeln und Fjorden, oft unter Wolken.",
+    "f": [
+      "Der Stockfisch kam von den Lofoten, Hunderte Kilometer weiter nördlich.",
+      "Bryggen brannte mehrmals und wurde nach einem Feuer 1702 im alten Stil wiederaufgebaut.",
+      "1979 wurde es UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Was exportierten die Hansekaufleute in Bergen vor allem?",
+      "a": "Stockfisch (getrockneter Kabeljau)",
+      "x": [
+        "Bernstein",
+        "Silber"
+      ]
+    }
+  },
+  "visby": {
+    "name": "Visby",
+    "era": "12.–14. Jh.",
+    "t": "Eine ummauerte Hansestadt mitten in der Ostsee",
+    "s": "An der Westküste Gotlands, mitten in der Ostsee, liegt Visby, eine Hansestadt, bis heute von ihrer mittelalterlichen Mauer umschlossen. Ihre Kaufleute wurden mit dem Handel zwischen Russland und Westeuropa reich und füllten die Stadt mit steinernen Kirchen, viele heute dachlose Ruinen. Suchen Sie aus der Luft die lange, flache Insel Gotland, die größte Schwedens.",
+    "w": "Eine lange, flache Kalksteininsel in der offenen Ostsee; Visby liegt an ihrem Westufer, Schweden zugewandt.",
+    "f": [
+      "Visbys Ringmauer ist rund 3,4 km lang und hat noch 27 ihrer Türme.",
+      "Auf Gotland wurden mehr Silberschätze der Wikingerzeit gefunden als irgendwo sonst in Skandinavien.",
+      "1995 wurde die Stadt UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Auf welcher Insel liegt Visby?",
+      "a": "Gotland",
+      "x": [
+        "Öland",
+        "Bornholm"
+      ]
+    }
+  },
+  "thingvellir": {
+    "name": "Þingvellir",
+    "era": "930–1798",
+    "t": "Parlament unter freiem Himmel, im Spalt zweier Kontinente",
+    "s": "Nordöstlich von Reykjavík liegt ein See in einem Grabenbruch, wo zwei Erdplatten auseinanderdriften. Ab 930 trafen sich Islands Siedler hier jeden Sommer zum Althing, einer Versammlung unter freiem Himmel, die Gesetze gab und Streit schlichtete. Bis 1798 tagte sie hier. Von oben sehen Sie, was sie nicht sehen konnten: den See und die langen Spalten in der Lava, an denen Nordamerika und Eurasien auseinanderdriften.",
+    "w": "Suchen Sie Islands größten natürlichen See nordöstlich von Reykjavík, an seinem Nordufer dunkle Lavaspalten.",
+    "f": [
+      "Das Althing gilt oft als eines der ältesten Parlamente der Welt.",
+      "Im Jahr 1000 beschloss die Versammlung hier, dass Island das Christentum annimmt.",
+      "Quer durch Island driften die beiden Platten um rund 2 cm pro Jahr auseinander."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurde das Althing gegründet?",
+      "a": "930",
+      "x": [
+        "874",
+        "1262"
+      ]
+    }
+  }
+}

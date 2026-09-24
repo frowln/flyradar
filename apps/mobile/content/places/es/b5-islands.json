@@ -1601,5 +1601,305 @@
         "El Manam"
       ]
     }
+  },
+  "Q17044696": {
+    "t": "El país que dio al mundo la palabra «atolón»",
+    "s": "Las Maldivas parecen cuentas turquesa esparcidas sobre terciopelo azul oscuro: 26 atolones en una doble cadena de unos 870 km, cada uno un anillo de arrecifes e islas diminutas alrededor de una laguna clara. Muchas islas son solo una franja de arena blanca y palmeras con un único complejo turístico o una aldea. La capital, Malé, llena de edificios su pequeña isla de orilla a orilla.",
+    "w": "Anillos de arrecife turquesa claro y puntos de arena blanca sobre un océano azul profundo, en una larga doble cadena de norte a sur.",
+    "f": [
+      "«Atolón» viene de «atholhu», palabra del divehi, la lengua de las Maldivas.",
+      "Maldivas es el país más bajo del mundo: su terreno natural se eleva, como mucho, unos 2,4 m.",
+      "El país tiene unas 1200 islas de coral, de las que menos de 200 están habitadas."
+    ],
+    "q": {
+      "q": "¿Qué palabra viene de la lengua de las Maldivas?",
+      "a": "Atolón",
+      "x": [
+        "Laguna",
+        "Arrecife"
+      ]
+    }
+  },
+  "Q25263": {
+    "t": "Islas volcánicas verdes en medio del Atlántico",
+    "s": "Nueve islas volcánicas se dispersan por el Atlántico central, a unos 1500 km al oeste de Lisboa. Desde arriba son de un verde intenso, cuadriculadas de pequeños campos, con lagos en antiguos cráteres. La inconfundible es Pico: un cono casi perfecto de 2351 m, la montaña más alta de Portugal, cuya cumbre suele asomar sobre un mar de nubes.",
+    "w": "Pequeñas islas verdes en mar abierto; un único cono alto y oscuro en Pico y lagos de cráter redondos en São Miguel.",
+    "f": [
+      "Las Azores están donde se juntan las placas euroasiática, norteamericana y africana.",
+      "En la caldera de Sete Cidades, en São Miguel, dos lagos unidos muestran colores distintos: uno azul y otro verde.",
+      "El anticiclón de las Azores, una zona de altas presiones que lleva el nombre de las islas, marca buena parte del verano europeo."
+    ],
+    "q": {
+      "q": "¿Cuál es la montaña más alta de Portugal?",
+      "a": "Pico",
+      "x": [
+        "Torre, en la Serra da Estrela",
+        "Pico Ruivo"
+      ]
+    }
+  },
+  "Q6980542": {
+    "t": "Una isla que apenas se distingue del hielo que la rodea",
+    "s": "En la costa de la Antártida Occidental, la plataforma de hielo Getz atrapa una hilera de islas en su hielo flotante. La isla Wright, de unos 65 km de largo, es una de ellas. Sepultada bajo el hielo, solo se ve como una ondulación ancha y suave sobre la plataforma llana, más fácil de distinguir cuando el sol bajo proyecta sombras. Al norte está el mar de Amundsen, a menudo atascado de hielo.",
+    "w": "Una ondulación blanca, larga y lisa, que se alza apenas sobre la plataforma de hielo llana, con mar helado al norte.",
+    "f": [
+      "Se cartografió por primera vez con fotos aéreas de la Operación Highjump de la Marina estadounidense, en enero de 1947.",
+      "Lleva el nombre del almirante Jerauld Wright, al mando general de la Operación Deep Freeze en 1957-1958.",
+      "La plataforma de hielo Getz, que sujeta la isla, se extiende más de 500 km a lo largo de la costa."
+    ],
+    "q": {
+      "q": "¿Qué plataforma de hielo contiene la isla Wright?",
+      "a": "La plataforma Getz",
+      "x": [
+        "La plataforma de Ross",
+        "La plataforma Ronne"
+      ]
+    }
+  },
+  "Q1543171": {
+    "t": "Una isla de hielo hallada por un rompehielos en 1962",
+    "s": "La isla Grant es una de las varias islas atrapadas en la plataforma de hielo Getz, frente a la Tierra de Marie Byrd, en la Antártida Occidental. Mide unos 37 km y está cubierta de hielo; la plataforma la encierra por todos lados salvo por el norte, donde un estrecho se abre al mar. Desde arriba es una joroba blanca y lisa cuyo contorno se adivina sobre todo por el sombreado de sus laderas.",
+    "w": "Una joroba blanca y lisa que se alza sobre la plataforma de hielo llana, con un estrecho de agua o hielo marino al norte.",
+    "f": [
+      "Marineros del rompehielos USS Glacier la descubrieron y cartografiaron el 4 de febrero de 1962.",
+      "Lleva el nombre del comandante E. G. Grant, capitán del barco en aquel momento.",
+      "La isla Shepard, más pequeña, está a solo unos 9 km al oeste."
+    ],
+    "q": {
+      "q": "¿La tripulación de qué barco descubrió la isla Grant en 1962?",
+      "a": "USS Glacier",
+      "x": [
+        "USS Burton Island",
+        "HMS Endurance"
+      ]
+    }
+  },
+  "Q6272638": {
+    "t": "Una isla de hielo solitaria frente a la costa de Ruppert",
+    "s": "En la costa de Ruppert, en la Tierra de Marie Byrd, lejos de cualquier ruta aérea regular, la plataforma de hielo Nickerson guarda un puñado de islas cubiertas de hielo. La isla Newman mide unos 28 km de largo y está sepultada por completo. Desde arriba parece menos una isla que un abultamiento bajo y redondeado del hielo, con glaciares que bajan del continente al sur.",
+    "w": "Un abultamiento blanco, bajo y redondeado dentro de una plataforma de hielo llana, con glaciares que descienden de tierra al sur.",
+    "f": [
+      "Se cartografió a partir de levantamientos estadounidenses y fotos aéreas de la Marina tomadas entre 1959 y 1965.",
+      "Lleva el nombre del comandante J. F. Newman, de la Marina de EE. UU., que sirvió en la Operación Deep Freeze en 1966."
+    ],
+    "q": {
+      "q": "¿Qué plataforma de hielo contiene la isla Newman?",
+      "a": "La plataforma Nickerson",
+      "x": [
+        "La plataforma Getz",
+        "La plataforma de Ross"
+      ]
+    }
+  },
+  "Q559842": {
+    "t": "Una isla presa del hielo a la sombra del monte Siple",
+    "s": "La isla Dean está en medio de la plataforma de hielo Getz, frente a la Tierra de Marie Byrd, entre las islas Grant y Siple. Mide unos 37 km de largo y 19 km de ancho, y está tan cubierta de hielo que desde arriba se funde casi sin costuras con la plataforma. El hito cercano es el monte Siple, una enorme cúpula volcánica en la isla vecina que supera los 3000 m.",
+    "w": "Una elevación blanca, ancha y baja dentro de la plataforma llana; al noreste, la alta cúpula nevada del monte Siple.",
+    "f": [
+      "Es una de las varias islas incrustadas en la plataforma de hielo Getz, que se extiende más de 500 km a lo largo de la costa.",
+      "El monte Siple, en la vecina isla Siple, es un volcán en escudo de unos 3100 m."
+    ],
+    "q": {
+      "q": "¿Entre qué dos islas se encuentra la isla Dean?",
+      "a": "Grant y Siple",
+      "x": [
+        "Shepard y Grant",
+        "Carney y Wright"
+      ]
+    }
+  },
+  "Q33788": {
+    "t": "Una isla montañosa dentro de una inmensa laguna turquesa",
+    "s": "Grande Terre, la isla principal de Nueva Caledonia, mide unos 400 km de largo y solo unos 50 km de ancho: una columna montañosa marcada por cicatrices rojas donde se ha extraído níquel. A su alrededor se extiende una de las lagunas más grandes de la Tierra, de un turquesa brillante y cerrada por una barrera de coral que traza una fina línea blanca de oleaje mar adentro.",
+    "w": "Una isla larga, estrecha y montañosa con manchas rojizas desnudas, dentro de una amplia laguna turquesa cerrada por una lejana línea de oleaje.",
+    "f": [
+      "El capitán Cook la bautizó en 1774 porque sus colinas le recordaban a Escocia.",
+      "Sus lagunas y arrecifes son Patrimonio Mundial de la UNESCO desde 2008.",
+      "El kagú, un ave gris casi incapaz de volar que ladra como un perro, solo vive aquí."
+    ],
+    "q": {
+      "q": "¿Qué metal se extrae en las colinas rojas de Nueva Caledonia?",
+      "a": "Níquel",
+      "x": [
+        "Cobre",
+        "Oro"
+      ]
+    }
+  },
+  "Q712": {
+    "t": "Más de 300 islas a caballo del meridiano 180",
+    "s": "Fiyi es un reguero de más de 300 islas, desde dos grandes y montañosas hasta innumerables motas rodeadas de arrecife. Desde arriba, el espectáculo son los colores: océano azul profundo, lagunas turquesa y líneas blancas de espuma donde los arrecifes rompen el oleaje. El meridiano 180 cruza las islas, pero la línea de cambio de fecha las rodea para que todo el país viva el mismo día.",
+    "w": "Dos grandes islas verdes y un reguero de islas pequeñas, todas orladas de lagunas turquesa y líneas blancas de oleaje.",
+    "f": [
+      "Solo alrededor de un tercio de las islas están habitadas.",
+      "El Gran Arrecife Marino, frente a Vanua Levu, es una de las barreras de coral más largas del mundo.",
+      "Viti Levu y Vanua Levu reúnen la mayor parte de la tierra y casi toda la población."
+    ],
+    "q": {
+      "q": "¿Cuál es la isla más grande de Fiyi?",
+      "a": "Viti Levu",
+      "x": [
+        "Vanua Levu",
+        "Taveuni"
+      ]
+    }
+  },
+  "ne-rg-1730072401": {
+    "t": "Las islas de los Amigos, junto a una fosa abismal",
+    "s": "Tonga es una doble línea de islas de norte a sur. Al este quedan islas de coral bajas, como la llana Tongatapu, rodeadas de arrecife; al oeste corre una hilera de volcanes, algunos poco más que picos que rompen la superficie. El capitán Cook las llamó islas de los Amigos. Al este de la cadena, el fondo marino se hunde en la fosa de Tonga, uno de los lugares más profundos de la Tierra.",
+    "w": "Islas de coral llanas y rodeadas de arrecife al este, una línea paralela de pequeñas islas volcánicas al oeste y océano profundo más allá.",
+    "f": [
+      "La fosa de Tonga alcanza unos 10 800 m en la sima Horizon, el segundo punto más profundo de los océanos.",
+      "Tonga es el único reino del Pacífico, gobernado por sus propios monarcas durante toda la época colonial.",
+      "En el grupo de Vava’u, las ballenas jorobadas acuden a parir entre julio y octubre."
+    ],
+    "q": {
+      "q": "¿Cómo llamó el capitán Cook a Tonga?",
+      "a": "Las islas de los Amigos",
+      "x": [
+        "Las islas de la Sociedad",
+        "Las islas de los Navegantes"
+      ]
+    }
+  },
+  "Q700048": {
+    "t": "La cadena del «amanecer», hogar de la capital marshalesa",
+    "s": "Ratak significa «amanecer», y es la cadena oriental de las dos de las Marshall: una línea de atolones de coral que se extiende varios cientos de kilómetros por el océano. Desde arriba, cada uno es un collar estrecho de islotes alrededor de una laguna turquesa. Majuro, la capital del país, está cerca del extremo sur: una cinta de tierra fina y abarrotada que se curva alrededor de una laguna de muchos kilómetros.",
+    "w": "Una línea de finos anillos de tierra alrededor de lagunas turquesa, ensartados de norte a sur sobre un océano azul profundo.",
+    "f": [
+      "En Majuro, la franja de tierra habitada a menudo mide solo unos cientos de metros de ancho.",
+      "Bokak, el atolón más septentrional, es seco y deshabitado, un refugio para las aves marinas."
+    ],
+    "q": {
+      "q": "¿Qué significa «Ratak»?",
+      "a": "Amanecer",
+      "x": [
+        "Ocaso",
+        "Gran laguna"
+      ]
+    }
+  },
+  "Q697840": {
+    "t": "La cadena del «ocaso» y sus lagunas gigantes",
+    "s": "Ralik significa «ocaso», y es la occidental de las dos cadenas paralelas de atolones de las Marshall. Su miembro más conocido es Kwajalein, cuyos casi 100 islotes encierran una de las lagunas más grandes del mundo: más de 2000 km² de agua turquesa en calma. Desde arriba, los islotes parecen una pulsera rota caída sobre el océano.",
+    "w": "Grandes anillos de islotes diminutos alrededor de vastas lagunas turquesa, dispersos a lo largo de una línea al oeste de la cadena Ratak.",
+    "f": [
+      "La laguna de Kwajalein cubre unos 2170 km².",
+      "El biquini, lanzado en 1946, tomó su nombre del atolón Bikini, en esta cadena."
+    ],
+    "q": {
+      "q": "¿Qué prenda lleva el nombre de un atolón de la cadena Ralik?",
+      "a": "El biquini",
+      "x": [
+        "El pareo",
+        "El muumuu"
+      ]
+    }
+  },
+  "Q11826289": {
+    "t": "Los picos de Rarotonga y la laguna radiante de Aitutaki",
+    "s": "Las Cook del Sur reúnen a la mayor parte de la población del país y sus vistas más famosas. Rarotonga es una isla volcánica alta de picos verdes y dentados, rodeada por un arrecife y por una carretera costera de solo unos 32 km. Al norte, la laguna de Aitutaki es un inmenso triángulo de turquesa luminoso salpicado de islotes; al sureste, Mangaia está rodeada de acantilados de antiguo coral elevado.",
+    "w": "Rarotonga: una pequeña isla redonda de picos verdes afilados dentro de un arrecife; al norte, la enorme laguna triangular y turquesa de Aitutaki.",
+    "f": [
+      "Mangaia, formada hace unos 18 millones de años, es una de las islas más antiguas del Pacífico.",
+      "Los habitantes de las islas Cook son también ciudadanos de Nueva Zelanda."
+    ],
+    "q": {
+      "q": "¿Qué isla de las Cook del Sur es famosa por su laguna turquesa?",
+      "a": "Aitutaki",
+      "x": [
+        "Mangaia",
+        "Atiu"
+      ]
+    }
+  },
+  "Q244978": {
+    "t": "Islas volcánicas perfumadas entre África y Madagascar",
+    "s": "Las Comoras están en el extremo norte del canal de Mozambique: cuatro islas volcánicas que envejecen de oeste a este. La mayor, Gran Comora, está dominada por el Karthala, un volcán activo y ancho con un enorme cráter en la cumbre y coladas de lava oscura en sus flancos. En el extremo oriental, Mayotte, la más antigua, está envuelta en una amplia laguna tras una barrera de coral.",
+    "w": "Cuatro islas volcánicas verde oscuro en fila: la occidental, coronada por un vasto cráter; la oriental, dentro de una laguna turquesa.",
+    "f": [
+      "El Karthala, de unos 2360 m, ha entrado en erupción más de 20 veces desde el siglo XIX.",
+      "En las aguas profundas de estas islas viven celacantos, peces que se creían extinguidos con los dinosaurios.",
+      "Las islas son una de las principales fuentes mundiales de aceite de ylang-ylang, usado en perfumería."
+    ],
+    "q": {
+      "q": "¿Qué pez «fósil viviente» habita las aguas profundas de las Comoras?",
+      "a": "El celacanto",
+      "x": [
+        "El pez pulmonado",
+        "El esturión"
+      ]
+    }
+  },
+  "ne-rg-1730073253": {
+    "t": "800 islas boscosas donde aún navegan los nómadas del mar",
+    "s": "Frente a la costa sur de Myanmar, unas 800 islas se dispersan por el mar de Andamán, casi todas montuosas, cubiertas de bosque y bordeadas de playas blancas y manglares. Hay pocos pueblos y poco desarrollo, así que desde arriba ves sobre todo islas verdes, arena clara y agua transparente en todos los tonos de azul. Los moken, nómadas del mar que pasan buena parte del año en barcas, viven entre ellas desde hace siglos.",
+    "w": "Cientos de islas empinadas y boscosas con playas blancas, dispersas a lo largo de la costa del sur de Myanmar.",
+    "f": [
+      "El archipiélago estuvo en gran parte cerrado a los visitantes extranjeros hasta finales de los años noventa.",
+      "La isla Lampi está en el corazón del único parque nacional marino de Myanmar."
+    ],
+    "q": {
+      "q": "¿Cómo se conoce a los moken del archipiélago de Mergui?",
+      "a": "Nómadas del mar",
+      "x": [
+        "Pastores de montaña",
+        "Comerciantes de sal"
+      ]
+    }
+  },
+  "Q5765": {
+    "t": "Montañas, calas y un agua tan clara que se ve el fondo",
+    "s": "Las Baleares están frente al este de España: la gran Mallorca en el centro, la más suave Menorca al noreste, e Ibiza y la diminuta Formentera al suroeste. La costa noroeste de Mallorca es un muro de montañas calizas, la Serra de Tramuntana, sobre un mar azul profundo. Alrededor de Formentera, el agua es tan clara que las praderas submarinas se ven como manchas oscuras en los bajíos turquesa.",
+    "w": "Una isla grande con una cordillera en su costa noroeste, otra más llana al noreste y dos más al suroeste.",
+    "f": [
+      "La Serra de Tramuntana, en Mallorca, es Patrimonio Mundial de la UNESCO.",
+      "Una pradera marina frente a Formentera podría ser uno de los seres vivos más antiguos de la Tierra, quizá con decenas de miles de años.",
+      "Toda Menorca es reserva de la biosfera de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Cuál es la mayor de las islas Baleares?",
+      "a": "Mallorca",
+      "x": [
+        "Menorca",
+        "Ibiza"
+      ]
+    }
+  },
+  "ne-rg-1730073309": {
+    "t": "Islas árticas desnudas a lo largo del paso del Noroeste",
+    "s": "Las islas Parry forman una ancha franja de islas árticas en el lado norte del paso del Noroeste, desde Cornwallis, al este, hasta Prince Patrick, al oeste. Desde arriba son pardas y grises, de cima plana y desnudas, surcadas por valles secos y bordeadas de hielo marino casi todo el año. En 1819, los barcos de William Parry navegaron por estos canales más al oeste que nadie antes.",
+    "w": "Islas grandes y desnudas, de un gris parduzco, con mesetas llanas y valles secos, rodeadas de hielo marino casi todo el año.",
+    "f": [
+      "Los barcos de Parry pasaron el invierno de 1819-1820 atrapados en el hielo en Winter Harbour, en la isla Melville.",
+      "Al navegar más allá de los 110° oeste, las tripulaciones de Parry ganaron un premio de 5000 libras del Parlamento británico.",
+      "Resolute, en la isla Cornwallis, es una de las comunidades más septentrionales de Canadá."
+    ],
+    "q": {
+      "q": "¿En honor de quién se llaman así las islas Parry?",
+      "a": "William Edward Parry",
+      "x": [
+        "John Franklin",
+        "John Ross"
+      ]
+    }
+  },
+  "Q741243": {
+    "t": "Una isla del tamaño de Dinamarca, sin mar a la vista",
+    "s": "La isla Berkner es una isla sobre todo en el mapa: no la rodea agua abierta, sino la plataforma de hielo flotante Filchner-Ronne, y ella misma está sepultada bajo el hielo. Desde arriba aparece como una vasta cúpula suave que se alza sobre la plataforma llana, de unos 320 km de largo y menos de un kilómetro de altura. Divide la plataforma en dos: la Ronne al oeste y la Filchner al este.",
+    "w": "Una enorme cúpula de hielo suavemente redondeada que se alza sobre la plataforma perfectamente llana que la rodea por todos lados.",
+    "f": [
+      "Con unos 44 000 km², tiene más o menos el tamaño de Dinamarca.",
+      "La descubrió en 1957-1958 un equipo estadounidense de la estación Ellsworth, dirigido por Finn Ronne.",
+      "Lleva el nombre del físico Lloyd Berkner, ingeniero de radio en la expedición antártica de Byrd de 1928-1930."
+    ],
+    "q": {
+      "q": "¿Qué dos plataformas de hielo separa la isla Berkner?",
+      "a": "La Ronne y la Filchner",
+      "x": [
+        "La de Ross y la Ronne",
+        "La Filchner y la Brunt"
+      ]
+    }
   }
 }

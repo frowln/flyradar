@@ -1421,5 +1421,349 @@
         "Le pays des ours"
       ]
     }
+  },
+  "ne-gl-northern-patagonian-ice-field": {
+    "t": "Là où un glacier touche la mer au plus près de l’équateur",
+    "s": "Le champ de glace nord de Patagonie est le plus petit des deux grands champs de glace patagons, mais il drape encore quelque 4 000 km² de glace sur les Andes du sud du Chili. Son point culminant, le mont San Valentín, vers 4 000 m, est le plus haut sommet de Patagonie. À l’ouest, le glacier San Rafael atteint la lagune San Rafael, ouverte sur le Pacifique, à 46,7° sud seulement.",
+    "w": "Un plateau glacé sur les Andes du sud du Chili, des glaciers filant à l’ouest vers une lagune laiteuse, à l’est vers des lacs turquoise.",
+    "f": [
+      "On dit souvent du San Rafael qu’il est le glacier à front marin le plus proche de l’équateur.",
+      "Le lac General Carrera, à l’est du champ de glace, est le plus grand lac du Chili."
+    ],
+    "q": {
+      "q": "Quel est le point culminant du champ de glace nord de Patagonie ?",
+      "a": "Le mont San Valentín",
+      "x": [
+        "Le Fitz Roy",
+        "Le Cerro Torre"
+      ]
+    }
+  },
+  "ne-gl-penny-ice-cap": {
+    "t": "La calotte de « la terre qui ne fond jamais »",
+    "s": "Sur la péninsule Cumberland, dans l’île de Baffin, la calotte Penny étale quelque 6 000 km² de blanc juste au nord du cercle arctique. Elle est le cœur du parc national Auyuittuq — « la terre qui ne fond jamais » en inuktitut. De ses bords, des glaciers dévalent dans de profondes vallées en U et des fjords, encadrés par certaines des plus hautes falaises de granite du monde.",
+    "w": "Une large calotte blanche qui nourrit des glaciers au fond de vallées profondes et abruptes, juste au nord du cercle arctique, sur l’île de Baffin.",
+    "f": [
+      "Le mont Thor, dans le parc, possède l’une des plus hautes parois verticales du monde, environ 1 250 m.",
+      "Le col d’Akshayuk, un itinéraire de trek réputé, traverse la péninsule au pied de la glace."
+    ],
+    "q": {
+      "q": "Que signifie Auyuittuq en inuktitut ?",
+      "a": "La terre qui ne fond jamais",
+      "x": [
+        "La terre des ours",
+        "Le grand mur blanc"
+      ]
+    }
+  },
+  "ne-gl-prince-of-wales-icefield": {
+    "t": "Une immense nappe de glace sur Ellesmere, face au Groenland",
+    "s": "Le champ de glace du Prince-de-Galles s’étend sur le flanc est du centre de l’île d’Ellesmere : quelque 20 000 km² de glace, plus que bien des petits pays. De l’autre côté des détroits, à l’est, se trouve le Groenland. D’en haut, cherchez un immense plateau blanc fendu de glaciers émissaires qui serpentent jusqu’à la mer et relâchent des icebergs dans des détroits encombrés de glace.",
+    "w": "Un immense plateau blanc à l’est d’Ellesmere, ses glaciers serpentant vers les détroits qui le séparent du Groenland.",
+    "f": [
+      "C’est l’un des plus grands champs de glace de l’Arctique canadien.",
+      "Le détroit de Smith et le détroit de Nares, à l’est, relient la baie de Baffin à l’océan Arctique."
+    ],
+    "q": {
+      "q": "Quelle terre se trouve de l’autre côté du détroit, à l’est de ce champ de glace ?",
+      "a": "Le Groenland",
+      "x": [
+        "L’île de Baffin",
+        "L’île Devon"
+      ]
+    }
+  },
+  "ne-gl-sargent-icefield": {
+    "t": "Des glaciers qui plongent droit dans le Prince William Sound",
+    "s": "À l’est de la péninsule Kenai, le champ de glace Sargent coiffe les montagnes qui dominent le dédale de fjords et d’îles du Prince William Sound. Ses glaciers dévalent des vallées abruptes jusqu’à la mer et vêlent des icebergs dans de calmes criques vertes. Certains portent des noms inattendus : le glacier Princeton, par exemple, fut nommé en 1909 d’après l’université.",
+    "w": "Un champ de glace blanc au-dessus d’un dédale de fjords et d’îles boisées, ses glaciers s’arrêtant au ras de l’eau.",
+    "f": [
+      "Il porte le nom de Rufus Harvey Sargent, cartographe de l’US Geological Survey qui a levé la péninsule Kenai.",
+      "Le glacier Chenega, l’un de ses émissaires, doit son nom à l’île Chenega voisine."
+    ],
+    "q": {
+      "q": "Dans quel bras de mer se jettent les glaciers du champ Sargent ?",
+      "a": "Le Prince William Sound",
+      "x": [
+        "Le Norton Sound",
+        "Le Kotzebue Sound"
+      ]
+    }
+  },
+  "ne-gl-southern-patagonian-ice-field": {
+    "t": "La plus grande glace du Sud hors de l’Antarctique",
+    "s": "Sur quelque 350 km le long des Andes, les montagnes de Patagonie disparaissent sous une nappe de glace continue, la plus vaste de l’hémisphère Sud hors de l’Antarctique. Par temps clair, on suit des glaciers qui filent à l’ouest vers les fjords du Pacifique et à l’est vers des lacs d’un turquoise laiteux, en Argentine. Des aiguilles de granite comme le Fitz Roy et les Torres del Paine hérissent ses bords comme des dents cassées.",
+    "w": "Une nappe blanche continue sur les Andes, des glaciers filant à l’ouest vers les fjords, à l’est vers des lacs turquoise comme le lac Argentino.",
+    "f": [
+      "Le Perito Moreno, l’un de ses émissaires, s’achève dans le lac Argentino par un mur de glace d’environ 5 km de large.",
+      "Le Pío XI, côté chilien, est le plus grand glacier d’Amérique du Sud."
+    ],
+    "q": {
+      "q": "Quel glacier célèbre de ce champ de glace s’achève dans le lac Argentino ?",
+      "a": "Le Perito Moreno",
+      "x": [
+        "Le San Rafael",
+        "Le Pío XI"
+      ]
+    }
+  },
+  "ne-gl-steacie-ice-cap": {
+    "t": "La calotte sud d’une île arctique inhabitée",
+    "s": "L’île Axel Heiberg, à l’ouest d’Ellesmere, porte deux grandes calottes, et la Steacie couvre les hautes terres du sud. D’en haut, c’est un large dôme blanc dont les glaciers émissaires serpentent entre des plateaux sombres et tabulaires jusqu’aux fjords. Personne ne vit sur l’île ; l’été, seuls quelques camps de recherche parsèment ses vallées, et l’hiver, la mer gèle tout autour.",
+    "w": "Un large dôme blanc sur le sud de l’île Axel Heiberg, des glaciers serpentant entre des plateaux sombres et tabulaires vers les fjords.",
+    "f": [
+      "Plus d’un quart de l’île Axel Heiberg, qui fait quelque 43 000 km², est sous la glace.",
+      "Plusieurs glaciers de l’ouest de l’île avancent depuis des décennies, à rebours de la tendance mondiale."
+    ],
+    "q": {
+      "q": "L’île Axel Heiberg est voisine de quelle île plus grande ?",
+      "a": "L’île d’Ellesmere",
+      "x": [
+        "L’île de Baffin",
+        "L’île Victoria"
+      ]
+    }
+  },
+  "ne-gl-stikine-icecap": {
+    "t": "Un champ de glace tranché par une rivière sauvage",
+    "s": "Le long de la frontière entre l’Alaska et la Colombie-Britannique, près de Wrangell et Petersburg, le champ de glace de la Stikine ensevelit la chaîne Côtière. La Stikine la traverse de part en part, l’une des rares rivières à le faire. Côté Alaska, le glacier LeConte atteint la mer et vêle des icebergs dans la baie LeConte. Cherchez aussi le Devils Thumb, aiguille rocheuse acérée surgie de la glace sur la frontière.",
+    "w": "Un large champ de glace blanc sur les montagnes côtières à l’est de Petersburg, entaillé d’une large vallée et de fjords pleins d’icebergs.",
+    "f": [
+      "Le glacier LeConte est le glacier à front marin le plus méridional de l’hémisphère Nord.",
+      "John Muir comparait la vallée de la Stikine à « un Yosemite long de cent milles »."
+    ],
+    "q": {
+      "q": "Quel glacier est ici le glacier à front marin le plus méridional de l’hémisphère Nord ?",
+      "a": "Le glacier LeConte",
+      "x": [
+        "Le glacier Mendenhall",
+        "Le glacier Hubbard"
+      ]
+    }
+  },
+  "ne-gl-university-ice-cap": {
+    "t": "L’une des sept calottes d’une île arctique isolée",
+    "s": "L’île de la Révolution-d’Octobre, la plus grande de la Severnaïa Zemlia, porte sept calottes, et celle de l’Université s’étend au sud de la plus grande, la Karpinski. Son dôme culmine vers 800 m. Entre les calottes, le sol nu est un désert polaire caillouteux, brun et gris en été, sans le moindre arbre ni arbuste. En hiver, tout se fond avec les mers gelées en une seule étendue blanche.",
+    "w": "Un dôme blanc sur une grande île arctique, bordé d’un désert polaire brun et caillouteux, d’autres calottes au nord.",
+    "f": [
+      "La Severnaïa Zemlia sépare la mer de Kara de la mer des Laptev.",
+      "L’archipel n’a été cartographié que de 1930 à 1932, par une expédition de quatre hommes menée par Gueorgui Ouchakov."
+    ],
+    "q": {
+      "q": "Quelles mers la Severnaïa Zemlia sépare-t-elle ?",
+      "a": "Kara et Laptev",
+      "x": [
+        "Barents et Kara",
+        "Laptev et Sibérie orientale"
+      ]
+    }
+  },
+  "ne-gl-vatnajokull": {
+    "t": "La calotte géante de l’Islande, posée sur des volcans",
+    "s": "Le Vatnajökull couvre environ 8 % de l’Islande, quelque 7 700 km² de glace épaisse de près d’un kilomètre par endroits. D’en haut, c’est un plateau blanc qui déverse des langues glaciaires dans toutes les directions, certaines finissant dans des lagunes pleines d’icebergs près de la côte sud. Sous la glace se cachent des volcans actifs, dont le Grímsvötn et le Bárðarbunga, dont les éruptions peuvent faire fondre la glace et déclencher des crues soudaines.",
+    "w": "Une vaste calotte blanche dans le sud-est de l’Islande, des langues glaciaires rayonnant vers l’extérieur et une lagune d’icebergs près de la côte.",
+    "f": [
+      "Le Hvannadalshnúkur, sur son rebord sud, est le point culminant de l’Islande, à environ 2 110 m.",
+      "Le Jökulsárlón, lagune au pied de l’un de ses glaciers, est encombré d’icebergs flottants.",
+      "Le parc national du Vatnajökull est inscrit au patrimoine mondial de l’UNESCO depuis 2019."
+    ],
+    "q": {
+      "q": "Quel volcan islandais se cache sous le Vatnajökull ?",
+      "a": "Le Grímsvötn",
+      "x": [
+        "L’Hekla",
+        "Le Katla"
+      ]
+    }
+  },
+  "ne-gl-vestfonna": {
+    "t": "La jumelle ouest des grandes calottes du Svalbard",
+    "s": "Nordaustlandet, deuxième île du Svalbard, est presque entièrement enveloppée de glace, partagée entre deux grandes calottes. Vestfonna, celle de l’ouest, couvre environ 2 500 km² : un dôme blanc et bas parcouru de crêtes et de glaciers émissaires qui s’achèvent en falaises de glace le long des fjords. Sa grande sœur, Austfonna, s’étend à l’est, et ensemble elles donnent à l’île, vue d’en haut, un air givré.",
+    "w": "Un dôme blanc et bas sur la moitié ouest d’une grande île couverte de glace, au nord-est du Spitzberg.",
+    "f": [
+      "Nordaustlandet n’a pas d’habitants permanents et est protégée comme réserve naturelle.",
+      "Les morses se hissent sur les plages le long des côtes de l’île."
+    ],
+    "q": {
+      "q": "Quelle est la grande voisine de Vestfonna, sur la même île ?",
+      "a": "Austfonna",
+      "x": [
+        "Holtedahlfonna",
+        "Åsgardfonna"
+      ]
+    }
+  },
+  "Q358755": {
+    "t": "Un immense volcan enneigé au nom d’un oiseau rare",
+    "s": "Le mont Takahe est un large volcan bouclier qui surgit seul de la glace de la Terre Marie Byrd : 3 460 m de haut, un volume d’environ 780 km³. D’en haut, on dirait un dôme blanc doucement renflé, coiffé d’un cratère large et peu profond. Sa dernière éruption connue remonte à environ 7 500 ans, et des couches de ses cendres apparaissent dans les carottes de glace antarctiques.",
+    "w": "Un large dôme de neige, doucement arrondi, dressé seul au-dessus de la glace plate, avec un large cratère peu profond au sommet.",
+    "f": [
+      "Il porte le nom du takahé, un oiseau rare de Nouvelle-Zélande qui ne vole pas.",
+      "Sa caldeira sommitale mesure environ 8 km de diamètre."
+    ],
+    "q": {
+      "q": "D’où le mont Takahe tire-t-il son nom ?",
+      "a": "D’un oiseau qui ne vole pas",
+      "x": [
+        "D’un navire",
+        "D’un alpiniste"
+      ]
+    }
+  },
+  "Q924312": {
+    "t": "Le plus haut volcan d’Antarctique, au cratère éventré",
+    "s": "Le mont Sidley est le plus haut de la chaîne Executive Committee, une file de volcans plantés dans la glace de la Terre Marie Byrd ; avec 4 285 m, c’est le plus haut volcan de l’Antarctique. Son flanc sud est éventré par une caldeira d’environ 5 km de large, énorme bouchée arrachée au cône blanc. Richard Byrd l’a repéré depuis les airs en 1934.",
+    "w": "Un volcan blanc massif dans une file nord–sud de cônes enneigés, son flanc sud entaillé par un immense cratère.",
+    "f": [
+      "Byrd l’a nommé d’après Mabelle Sidley, fille de l’un des mécènes de son expédition.",
+      "Il représente l’Antarctique parmi les « sept sommets volcaniques », les plus hauts volcans de chaque continent.",
+      "La première ascension connue date de 1990."
+    ],
+    "q": {
+      "q": "Quel est le plus haut volcan de l’Antarctique ?",
+      "a": "Le mont Sidley",
+      "x": [
+        "Le mont Erebus",
+        "Le mont Takahe"
+      ]
+    }
+  },
+  "Q3321842": {
+    "t": "Un géant au bord de la route d’Amundsen vers le pôle",
+    "s": "En novembre 1911, l’équipe de Roald Amundsen quitta la barrière de Ross et remonta le glacier Axel Heiberg vers le plateau polaire ; ce pic massif se dressait le long de sa route. Amundsen lui donna le nom de Fridtjof Nansen, l’explorateur norvégien qui lui avait prêté son navire, le Fram. Avec 4 069 m, c’est l’un des grands sommets des monts de la Reine-Maud, muraille de roche et de glace barrant la route du pôle.",
+    "w": "Un pic massif couvert de glace au bord de la barrière de Ross, près d’un glacier raide qui monte vers le plateau polaire.",
+    "f": [
+      "Amundsen a atteint le pôle Sud le 14 décembre 1911, environ un mois après être passé devant cette montagne.",
+      "Le glacier Axel Heiberg, à côté, monte d’environ 3 000 m de la barrière de glace jusqu’au plateau."
+    ],
+    "q": {
+      "q": "Qui a baptisé le mont Fridtjof Nansen en 1911 ?",
+      "a": "Roald Amundsen",
+      "x": [
+        "Robert Falcon Scott",
+        "Ernest Shackleton"
+      ]
+    }
+  },
+  "Q19459387": {
+    "t": "Le point culminant au-dessus du lac bleu de Pangong",
+    "s": "Le Kangju Kangri est le plus haut sommet de la chaîne de Pangong, 6 725 m, une crête blanche dans le haut désert de l’est du Ladakh. Son voisin le plus frappant n’est pas de roche mais d’eau : le Pangong Tso, lac étroit d’environ 130 km de long, vers 4 200 m, s’étend à son pied. D’en haut, c’est un ruban bleu impossible à manquer, qui passe du turquoise au bleu marine selon la lumière.",
+    "w": "Une crête blanche dans des montagnes brunes et nues, à côté d’un lac long, étroit et d’un bleu vif qui file vers l’est.",
+    "f": [
+      "Le Pangong Tso est saumâtre, et pourtant il gèle en hiver.",
+      "Le Kangju Kangri a été gravi pour la première fois en 1983.",
+      "Les villageois de la rive sud du lac appellent aussi ce sommet Thinguru."
+    ],
+    "q": {
+      "q": "Quel long lac d’altitude s’étend au pied du Kangju Kangri ?",
+      "a": "Le Pangong Tso",
+      "x": [
+        "Le Tso Moriri",
+        "Le Namtso"
+      ]
+    }
+  },
+  "Q28794266": {
+    "t": "La « montagne blanche » du Kunlun central",
+    "s": "Aktag signifie « montagne blanche » dans les langues turciques : un nom tout simple pour un sommet reculé du Kunlun, la longue chaîne qui sépare le plateau tibétain du bassin du Tarim. Avec 6 748 m, il compte parmi les plus hauts sommets du Kunlun, dans l’un des recoins les moins visités d’Asie. D’en haut, cherchez un massif blanc au-dessus de crêtes kaki, avec loin au nord les basses terres sableuses du Tarim.",
+    "w": "Un massif blanc surgi de crêtes kaki et nues, avec loin au nord les basses terres désertiques et pâles du bassin du Tarim.",
+    "f": [
+      "Le Kunlun s’étire sur plus de 2 000 km le long du rebord nord du plateau tibétain.",
+      "Au nord de la chaîne s’étend le Taklamakan, l’un des plus grands déserts de sable du monde."
+    ],
+    "q": {
+      "q": "Que signifie le nom turcique Aktag ?",
+      "a": "Montagne blanche",
+      "x": [
+        "Lac bleu",
+        "Rocher rouge"
+      ]
+    }
+  },
+  "ne-pk-1159105667": {
+    "t": "Le géant sacré que contourne le fleuve Jaune",
+    "s": "L’Amne Machin est la montagne sainte des Tibétains golok : un large massif de glace qui culmine à 6 282 m au-dessus des prairies du Qinghai. Le fleuve Jaune, qui coule vers l’est depuis sa source, contourne la chaîne en une grande boucle avant de tourner vers le nord. Les pèlerins en font le tour, un long circuit. D’en haut, cherchez une crête blanche de glaciers cernée de hauts pâturages verts.",
+    "w": "Un large massif de glace dans une prairie ondulée vert-brun, qu’un grand fleuve contourne en une large boucle.",
+    "f": [
+      "Au début du XXe siècle, des explorateurs l’ont cru capable de rivaliser avec l’Everest ; les relevés modernes lui donnent 6 282 m.",
+      "Amne signifie « grand-père » dans le dialecte local de l’Amdo, un titre d’honneur pour la divinité protectrice de la montagne."
+    ],
+    "q": {
+      "q": "Quel grand fleuve décrit une boucle autour de l’Amne Machin ?",
+      "a": "Le fleuve Jaune",
+      "x": [
+        "Le Yangzi",
+        "Le Mékong"
+      ]
+    }
+  },
+  "Q724367": {
+    "t": "Le plus haut sommet de Sibérie, blanc et à deux têtes",
+    "s": "La Béloukha est la plus haute montagne de l’Altaï et de toute la Sibérie, 4 506 m, à cheval sur la frontière entre la Russie et le Kazakhstan. Son nom vient de sa blancheur : deux sommets enneigés reliés par un col, drapés de glaciers qui nourrissent la Katoun, l’une des rivières qui forment l’Ob. D’en haut, cherchez une couronne d’un blanc éclatant au-dessus de crêtes plus basses et plus vertes, et de lacs turquoise.",
+    "w": "Un massif blanc à deux sommets au-dessus de vallées vertes et de lacs turquoise, sur la frontière russo-kazakhe, dans l’Altaï.",
+    "f": [
+      "La Katoun naît au glacier Gebler, sur le versant sud de la Béloukha.",
+      "Les frères Tronov ont réussi la première ascension du sommet est en 1914.",
+      "La Béloukha fait partie des montagnes dorées de l’Altaï, inscrites au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quelle rivière naît des glaciers de la Béloukha ?",
+      "a": "La Katoun",
+      "x": [
+        "L’Ienisseï",
+        "L’Irtych"
+      ]
+    }
+  },
+  "Q4062402": {
+    "t": "Un massif de glace solitaire à l’extrême ouest du Tibet",
+    "s": "Loin dans les hautes terres arides de l’ouest du Tibet, le massif du Nganglong culmine vers 6 720 m : un nœud de glace qui compte plus de 40 sommets de plus de 6 000 m. Il se dresse à environ 85 km à l’est-nord-est de la ville d’Ali, dans un pays de plaines de gravier et de lacs salés. D’en haut, cherchez un groupe de sommets blancs et de glaciers au milieu d’un immense paysage brun.",
+    "w": "Un groupe de sommets blancs et de glaciers au milieu d’immenses hautes terres brunes et de plaines de gravier, au nord-est de la ville d’Ali.",
+    "f": [
+      "Le massif compte 37 glaciers, dont deux de plus de 6 km.",
+      "Les cartes chinoises modernes indiquent environ 6 720 m, mais d’anciennes sources citent encore 7 315 m."
+    ],
+    "q": {
+      "q": "Quelle ville se trouve à environ 85 km à l’ouest-sud-ouest du massif du Nganglong ?",
+      "a": "Ali",
+      "x": [
+        "Lhassa",
+        "Shigatsé"
+      ]
+    }
+  },
+  "Q5530346": {
+    "t": "Là où naît le Yangzi, dans les glaces du Tibet",
+    "s": "Le plus long fleuve d’Asie commence ici. L’eau de fonte des glaciers du Geladaindong, point culminant des monts Tanggula à 6 621 m, se rassemble dans la Tuotuo, source traditionnelle du Yangzi. De ces hautes terres froides et vides, l’eau parcourra plus de 6 000 km jusqu’à la mer, à Shanghai. Cherchez un massif blanc de glaciers au-dessus de ruisseaux argentés et tressés, sur le plateau brun.",
+    "w": "Un massif blanc de glaciers au-dessus de ruisseaux argentés et tressés qui s’étalent sur le plateau brun du centre du Tibet.",
+    "f": [
+      "Le glacier Jianggendiru, sur son flanc sud-ouest, est généralement désigné comme la source du Yangzi.",
+      "À l’est du sommet, le chemin de fer Qinghai–Tibet franchit la chaîne des Tanggula vers 5 070 m."
+    ],
+    "q": {
+      "q": "Quel grand fleuve naît sur les glaciers du Geladaindong ?",
+      "a": "Le Yangzi",
+      "x": [
+        "Le fleuve Jaune",
+        "Le Mékong"
+      ]
+    }
+  },
+  "Q2102394": {
+    "t": "Un pic de glace isolé du Karakoram oriental",
+    "s": "Ce sommet du Karakoram oriental, coté à 6 934 m et connu sous le nom de Shahi Kangri, domine la haute vallée de la Shyok, au Ladakh, à l’ouest des hautes plaines désertes de l’Aksai Chin. C’est un monde de glace et de roche nue : des glaciers dévalent entre des crêtes brunes, et la Shyok tresse ses bras sur son lit de gravier, en contrebas. Plus au sud s’élève le groupe du Saser Kangri, plus haut.",
+    "w": "Des glaciers et des crêtes blanches au-dessus d’une vallée grise où la rivière se tresse, des plateaux bruns et nus filant vers l’est.",
+    "f": [
+      "Le Saser Kangri I, plus haut sommet du groupe voisin du Saser, atteint environ 7 670 m.",
+      "La Shyok, qui coule en contrebas, est un grand affluent de l’Indus."
+    ],
+    "q": {
+      "q": "La Shyok, sous ce sommet, est un affluent de quel fleuve ?",
+      "a": "L’Indus",
+      "x": [
+        "Le Gange",
+        "Le Brahmapoutre"
+      ]
+    }
   }
 }

@@ -101,6 +101,14 @@ const FAMOUS_KEYS = new Set(FAMOUS.map(([k, n]) => `${k}:${n}`));
 // Layer mappings
 // ---------------------------------------------------------------------------
 
+const RENAME = {
+  // 6,934 m at 35.17° N, 77.83° E is Shahi Kangri; Saser Kangri is ~7,670 m.
+  'ne-pk-1159105763': { n: 'Shahi Kangri', drop: ['ja'] },
+  // Filed as a plateau at 56.6° N, 112° E: the highlands north-east of Baikal,
+  // not the range along the Amur watershed.
+  'ne-rg-1730072981': { n: 'Stanovoy Highlands', drop: ['es'] }
+};
+
 const REGION_KIND = {
   'Range/mtn': 'range',
   Foothills: 'range',
@@ -727,6 +735,16 @@ function main() {
     for (let i = 2; used.has(id); i++) id = `${p.id}-${i}`;
     p.id = id;
     used.add(id);
+  }
+
+  // Natural Earth labels checked by hand and found wrong for the feature at
+  // those coordinates (content/places/* writers flagged them).
+  for (const p of kept) {
+    const fix = RENAME[p.id];
+    if (!fix) continue;
+    p.n = fix.n;
+    p.l = { ...(p.l || {}), ...fix.l };
+    for (const lang of fix.drop ?? []) delete p.l[lang];
   }
 
   const areas = {};
