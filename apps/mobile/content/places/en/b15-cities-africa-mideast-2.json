@@ -318,5 +318,938 @@
         "An oil refinery"
       ]
     }
+  },
+  "Q3320803": {
+    "t": "A market town among the rocky Yoruba Hills",
+    "s": "Bare rock domes and outcrops poke through the green here: this is Akoko country, a cluster of dozens of small towns in the Yoruba Hills of northern Ondo State. Ikare, one of the largest, grew as a market at a crossroads where roads from Owo, Okene, Kabba and Ado-Ekiti meet. Farmers from the surrounding hills bring in kola nuts, cocoa and coffee.",
+    "w": "A town spread among bare rocky hills and green farmland, about 70 km north-east of Akure.",
+    "f": [
+      "Ikare is the headquarters of the Akoko North-East local government area.",
+      "The Akoko area counts more than 40 small towns and villages, many of them built among rocky outcrops."
+    ],
+    "q": {
+      "q": "In which Nigerian state is Ikare?",
+      "a": "Ondo",
+      "x": [
+        "Ekiti",
+        "Kogi"
+      ]
+    }
+  },
+  "Q503056": {
+    "t": "A coal town on the Vaal, named after a mining company",
+    "s": "The Vaal River slides past Vereeniging in wide, muddy-green bends, and upstream spreads the branching reservoir of the Vaal Dam. The town was founded in 1892 by a coal-mining company whose long Dutch name ended in 'Vereeniging', meaning 'association'. Coal fed steelworks and power stations, and the town grew into the industrial Vaal Triangle with Vanderbijlpark and Sasolburg.",
+    "w": "An industrial city on a winding river, with a large, many-armed reservoir upstream to the south-east.",
+    "f": [
+      "The Vaal River here forms the border between Gauteng and the Free State.",
+      "The industrialist Sammy Marks was behind the coal company that founded the town."
+    ],
+    "q": {
+      "q": "What does the Dutch name Vereeniging mean?",
+      "a": "Association",
+      "x": [
+        "River crossing",
+        "Coal field"
+      ]
+    }
+  },
+  "Q93338": {
+    "t": "Pistachio orchards and a capital of baklava",
+    "s": "Rows of grey-green trees stripe the limestone hills around Gaziantep: pistachios, the city's pride, known across Turkey simply as Antep nuts. They end up in its baklava, the first Turkish product to win protected status in the European Union. About 45 km to the east flows the Euphrates, where the Roman city of Zeugma yielded a trove of floor mosaics, now in the city's museum.",
+    "w": "A large pale city on a limestone plateau, ringed by orchards in neat rows; the Euphrates and its reservoirs lie to the east.",
+    "f": [
+      "The 'Gypsy Girl' mosaic from Zeugma is the best-known piece in Gaziantep's mosaic museum.",
+      "UNESCO named Gaziantep a Creative City of Gastronomy in 2015.",
+      "The city sits on a plateau at about 850 metres above sea level."
+    ],
+    "q": {
+      "q": "Which nut is Gaziantep famous for?",
+      "a": "Pistachio",
+      "x": [
+        "Hazelnut",
+        "Almond"
+      ]
+    }
+  },
+  "Q217432": {
+    "t": "A port on the creeks of the Niger Delta",
+    "s": "South of the city, dry land dissolves into a maze of creeks, mangroves and river channels: the Niger Delta. Port Harcourt was founded in 1912 on the Bonny River to ship coal from the mines at Enugu. Oil later made it the hub of Nigeria's petroleum industry. At night, look for bright points among the dark swamps: flares burning off gas.",
+    "w": "A big city on a broad estuary, with a maze of creeks and dark-green mangroves spreading south to the sea.",
+    "f": [
+      "The city is named after Lewis Harcourt, Britain's Colonial Secretary when it was founded.",
+      "Its many parks once earned it the nickname 'Garden City'.",
+      "Port Harcourt is the capital of Rivers State."
+    ],
+    "q": {
+      "q": "What was Port Harcourt founded to export?",
+      "a": "Coal",
+      "x": [
+        "Cocoa",
+        "Rubber"
+      ]
+    }
+  },
+  "Q41621": {
+    "t": "A city climbing a green ridge above a curved bay",
+    "s": "Mount Carmel runs down to the Mediterranean like a green prow, and Haifa climbs its slopes from the port to the ridge top. North of it a smooth, curving bay sweeps round to the old walled town of Acre. The mountain gave its name to the Carmelites, a Catholic order that grew from hermits living on its slopes in the 12th century.",
+    "w": "A city on the slopes of a long ridge ending at the sea, with a smooth curved bay stretching north.",
+    "f": [
+      "Haifa's underground funicular, the Carmelit, is one of the world's smallest metro systems, with six stations.",
+      "The terraced Bahá'í Gardens on Mount Carmel are part of a UNESCO World Heritage site.",
+      "The Carmel ridge rises to just over 500 metres."
+    ],
+    "q": {
+      "q": "Which mountain ridge rises above Haifa?",
+      "a": "Mount Carmel",
+      "x": [
+        "Mount Tabor",
+        "Mount Hermon"
+      ]
+    }
+  },
+  "Q35484": {
+    "t": "An oasis city ringed by black lava fields",
+    "s": "Around Medina, dark lava fields spread like spilled ink across the tan desert: the harrats of western Arabia. In 1256 a lava flow from Harrat Rahat, to the south-east, stopped short of the city. Medina itself grew as a palm oasis, and in 622 the Prophet Muhammad settled here; his mosque makes it one of the holiest cities of Islam.",
+    "w": "A large city in a basin, hemmed in by black lava fields to the south and east and a rocky ridge to the north.",
+    "f": [
+      "Mount Uhud, a reddish granite ridge, rises on the city's northern edge.",
+      "The Hejaz Railway from Damascus reached Medina in 1908.",
+      "Harrat Rahat is one of the largest lava fields in Arabia."
+    ],
+    "q": {
+      "q": "In which year did the Prophet Muhammad move to Medina?",
+      "a": "622",
+      "x": [
+        "570",
+        "632"
+      ]
+    }
+  },
+  "Q131301": {
+    "t": "At the gap where Syria opens to the sea",
+    "s": "Coastal mountains wall inland Syria off from the Mediterranean, except at the Homs Gap, a broad, low corridor running west to the coast. Homs grew on the Orontes where that route crosses the road from north to south. Just south-west, the river widens into a lake held back by an ancient dam. As Emesa, the city gave Rome an empress, Julia Domna.",
+    "w": "A city on a broad plain by a river, with a lake to the south-west and a low gap in the mountains to the west.",
+    "f": [
+      "The crusader castle Krak des Chevaliers watches over the Homs Gap from a hill to the west.",
+      "Many of the old city's buildings are made of dark basalt."
+    ],
+    "q": {
+      "q": "Which river flows past Homs?",
+      "a": "The Orontes",
+      "x": [
+        "The Euphrates",
+        "The Litani"
+      ]
+    }
+  },
+  "Q170366": {
+    "t": "Iran's hot river city on the Karun",
+    "s": "The Karun, Iran's largest river by volume, winds through Ahvaz in broad loops, crossed by a string of bridges. Around the city lies the flat Khuzestan plain, the northern edge of Mesopotamia, pale and dusty in summer, green with fields in winter and spring. Summers here are among the hottest of any big city on Earth, and afternoons above 50°C are not unheard of.",
+    "w": "A large, low city on a looping river across a flat plain, with the Zagros foothills far to the north-east.",
+    "f": [
+      "The Karun is Iran's only navigable river; downstream it joins the Shatt al-Arab.",
+      "The steel White Bridge over the Karun, built in the 1930s, is the city's best-known landmark."
+    ],
+    "q": {
+      "q": "Which river flows through Ahvaz?",
+      "a": "The Karun",
+      "x": [
+        "The Karkheh",
+        "The Zayandeh"
+      ]
+    }
+  },
+  "Q500366": {
+    "t": "A hunter's town grown large on the savanna",
+    "s": "North of the forest belt the land opens into rolling farmland and savanna, and Ogbomosho spreads across it as a wide, low city. By tradition it was founded around 1650 by a hunter named Ogunlola, and his successors still reign with the title of Soun. In 1855 American Baptist missionaries opened one of their first stations in Nigeria here.",
+    "w": "A wide, low city on open, rolling savanna, about 90 km north of Ibadan.",
+    "f": [
+      "The city is home to Ladoke Akintola University of Technology.",
+      "Ogbomosho lies in Oyo State, on the road between the towns of Oyo and Ilorin."
+    ],
+    "q": {
+      "q": "What title does Ogbomosho's traditional ruler hold?",
+      "a": "Soun",
+      "x": [
+        "Alaafin",
+        "Ooni"
+      ]
+    }
+  },
+  "Q3604": {
+    "t": "A port on a flat spit at the Red Sea's gate",
+    "s": "Djibouti city juts into the Gulf of Tadjoura on a flat, low peninsula, not far from the Bab-el-Mandeb strait that links the Red Sea to the Indian Ocean. Inland lies a scorched land of lava fields and rifts. About 80 km to the west, look for a blinding-white crust of salt: Lake Assal, some 155 metres below sea level.",
+    "w": "A small city on a flat spit in a deep gulf; to the west, a white salt lake among dark lava.",
+    "f": [
+      "Lake Assal is the lowest point in Africa and one of the saltiest lakes in the world.",
+      "A railway links the port with Addis Ababa; the first line was completed in 1917.",
+      "The French founded the town in the late 1880s as a port on the route to Ethiopia."
+    ],
+    "q": {
+      "q": "What makes Lake Assal, west of Djibouti city, special?",
+      "a": "It is Africa's lowest point",
+      "x": [
+        "It is Africa's deepest lake",
+        "It is Africa's largest crater"
+      ]
+    }
+  },
+  "Q79857": {
+    "t": "Rumi's city on a vast, flat plain",
+    "s": "The Konya plain is one of the flattest places in Turkey, the bed of a lake that dried up long ago, now chequered with wheat fields. Konya sits on its western rim at about 1,000 metres. It was the capital of the Seljuk Sultanate of Rum, and the mystic poet Rumi is buried here; the whirling dervishes of his order made the city famous.",
+    "w": "A large city at the edge of a huge flat plain of geometric fields, with low mountains to the west.",
+    "f": [
+      "Çatalhöyük, one of the world's oldest known towns, lies about 40 km to the south-east.",
+      "Rumi's tomb, under a green-tiled dome, is now the Mevlana Museum.",
+      "Sinkholes called obruks pock the plain around the city."
+    ],
+    "q": {
+      "q": "Which mystic poet is buried in Konya?",
+      "a": "Rumi",
+      "x": [
+        "Hafez",
+        "Omar Khayyam"
+      ]
+    }
+  },
+  "Q221436": {
+    "t": "A Sahel city at the heart of old Borno",
+    "s": "The land here is flat to the horizon: a pale, sandy plain in the dry season, speckled with trees and fields after the rains. Maiduguri stands in the basin of Lake Chad. This was the core of the Kanem–Bornu empire, which ruled the lands around the lake for about a thousand years, and the city is the seat of the Shehu of Borno, heir to its rulers.",
+    "w": "A large, low city on a flat, sandy plain with scattered trees, towards the basin of Lake Chad to the north-east.",
+    "f": [
+      "Maiduguri is the capital of Borno State.",
+      "Rain falls mainly from June to September; the rest of the year is dry."
+    ],
+    "q": {
+      "q": "Maiduguri is the capital of which Nigerian state?",
+      "a": "Borno",
+      "x": [
+        "Yobe",
+        "Adamawa"
+      ]
+    }
+  },
+  "Q48195": {
+    "t": "Sinbad's port on the palm-lined Shatt al-Arab",
+    "s": "Above Basra, the Tigris and Euphrates merge into one wide waterway, the Shatt al-Arab, which carries their water past the city to the Gulf. Its banks were once lined with one of the largest date-palm forests in the world, criss-crossed by canals. Founded in the 630s, Basra became a great port of Islam's golden age, and in the Arabian Nights Sinbad the Sailor sets out from here.",
+    "w": "A city on a broad river flowing south-east to the Gulf, with dark palm groves along its banks.",
+    "f": [
+      "The Tigris and Euphrates meet at al-Qurnah, about 65 km upstream.",
+      "Its canals once earned Basra the nickname 'Venice of the East'.",
+      "The Mesopotamian Marshes, to the north-west, are a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "Which Arabian Nights hero sets sail from Basra?",
+      "a": "Sinbad",
+      "x": [
+        "Aladdin",
+        "Ali Baba"
+      ]
+    }
+  },
+  "Q3859": {
+    "t": "A capital spread over ridges and green valleys",
+    "s": "Kigali doesn't sit on one hill but on dozens: red-roofed neighbourhoods follow the ridge tops, while the valleys between them stay green with wetlands and fields. Rwanda calls itself the land of a thousand hills, and its capital proves the point. At around 1,500 metres, just south of the equator, the city enjoys mild, spring-like weather all year.",
+    "w": "A city draped over many green ridges, with red roofs along the crests and wetlands in the valleys between.",
+    "f": [
+      "Rwanda banned plastic bags in 2008, and Kigali is known as one of Africa's cleanest cities.",
+      "Kigali lies close to the geographic centre of Rwanda."
+    ],
+    "q": {
+      "q": "Rwanda is known as the land of a thousand what?",
+      "a": "Hills",
+      "x": [
+        "Lakes",
+        "Waterfalls"
+      ]
+    }
+  },
+  "Q574593": {
+    "t": "An old river kingdom in the heart of oil country",
+    "s": "Creeks and mangrove channels thread through the land around Warri, glinting between dark-green swamp forest. Portuguese traders reached the Itsekiri kingdom of Warri in the 15th century, and around 1600 one of its princes studied in Portugal. Today the city lives on oil: a refinery, a port on the Warri River and, at night, gas flares burning out in the delta.",
+    "w": "A city on a winding river in the western Niger Delta, among creeks and dark mangrove swamps.",
+    "f": [
+      "The Olu of Warri is the traditional ruler of the Itsekiri people.",
+      "Warri is one of the main oil and gas centres of the Niger Delta."
+    ],
+    "q": {
+      "q": "Which Europeans reached the Warri kingdom in the 15th century?",
+      "a": "The Portuguese",
+      "x": [
+        "The Dutch",
+        "The English"
+      ]
+    }
+  },
+  "Q205327": {
+    "t": "A railway town at the heart of the Kasai",
+    "s": "A sprawl of low roofs and red laterite roads spreads over the Kasai plateau, where savanna alternates with dark strips of forest along the rivers. Until 1966 Kananga was called Luluabourg, after the Lulua River that flows west of it. It grew as a station on the railway linking the copper mines of Katanga with the river port of Ilebo.",
+    "w": "A large, low city on a savanna plateau, with dark strips of forest following the river valleys.",
+    "f": [
+      "Kananga is the capital of Kasai-Central province.",
+      "The Lulua River flows into the Kasai, which in turn feeds the Congo."
+    ],
+    "q": {
+      "q": "What was Kananga called before 1966?",
+      "a": "Luluabourg",
+      "x": [
+        "Bakwanga",
+        "Stanleyville"
+      ]
+    }
+  },
+  "Q466216": {
+    "t": "A highland city beneath a 3,000-metre mountain",
+    "s": "Jabal Sabir rises steeply behind Ta'izz, its terraced slopes climbing some 1,600 metres above the city to a summit near 3,000 m. The city itself fills a green highland basin at about 1,400 metres, far cooler than the scorching Red Sea coast to the west. From the 13th to the 15th century the Rasulid sultans made it one of their capitals.",
+    "w": "A city in a highland basin at the foot of a massive terraced mountain, with the Red Sea coastal plain to the west.",
+    "f": [
+      "Terraced fields on Jabal Sabir climb almost to the summit.",
+      "Mocha, the old coffee port that gave its name to mocha coffee, lies about 90 km to the south-west."
+    ],
+    "q": {
+      "q": "Which mountain towers over Ta'izz?",
+      "a": "Jabal Sabir",
+      "x": [
+        "Jabal an-Nabi Shu'ayb",
+        "Jabal Haraz"
+      ]
+    }
+  },
+  "Q168193": {
+    "t": "A shrine city on the edge of the western desert",
+    "s": "Najaf stands on a low ridge at the edge of the desert, where the green of the Euphrates valley gives out to open sand and gravel. It grew around the shrine of Ali ibn Abi Talib and for centuries has been a great centre of Shia learning. Beside it spreads Wadi al-Salam, one of the largest cemeteries in the world, a grey expanse of tombs.",
+    "w": "A pale city on a low ridge between the green Euphrates valley and open desert, with a vast cemetery beside it.",
+    "f": [
+      "Wadi al-Salam covers roughly 6 square kilometres and holds millions of graves.",
+      "Kufa, one of the early capitals of the caliphate, lies about 10 km to the north-east on the Euphrates."
+    ],
+    "q": {
+      "q": "Najaf is home to one of the world's largest what?",
+      "a": "Cemeteries",
+      "x": [
+        "Bazaars",
+        "Palm groves"
+      ]
+    }
+  },
+  "Q223920": {
+    "t": "Congo's Atlantic port, named for a dark headland",
+    "s": "Portuguese navigators coasting past in the 15th century noted a dark, rocky point jutting into the Atlantic, and the name stuck: Pointe-Noire, 'Black Point'. Today it is the main port and oil town of the Republic of the Congo, spread along long sandy beaches. At night, look offshore for pinpricks of light from oil platforms. A railway runs about 500 km inland from here to Brazzaville.",
+    "w": "A city on a long, straight sandy coast with a harbour breakwater; green savanna and patches of forest inland.",
+    "f": [
+      "Just to the north lies Loango, once the capital of the Kingdom of Loango.",
+      "The Diosso Gorge, north of the city, is a red amphitheatre of eroded cliffs."
+    ],
+    "q": {
+      "q": "What did Portuguese sailors see that named Pointe-Noire?",
+      "a": "A dark rocky headland",
+      "x": [
+        "A black sand beach",
+        "A burnt-out shipwreck"
+      ]
+    }
+  },
+  "Q134509": {
+    "t": "The Suez Canal's Mediterranean gateway",
+    "s": "A ruler-straight line of water heads south from the coast, often with a string of ships on it: the Suez Canal begins here. Port Said was founded in 1859, as digging started, and named after Egypt's ruler Said Pasha. Across the canal lies Port Fuad, on the Asian side, so a short ferry ride here takes you from Africa to Asia.",
+    "w": "A city on a flat coast at the mouth of a straight canal, with a wide lagoon to the west and ships at anchor offshore.",
+    "f": [
+      "Bartholdi first imagined a colossal lighthouse-statue for the canal entrance here, before he designed the Statue of Liberty.",
+      "The canal runs about 190 km from Port Said to Suez.",
+      "Lake Manzala, a broad, shallow lagoon, stretches west of the city."
+    ],
+    "q": {
+      "q": "Which ruler is Port Said named after?",
+      "a": "Said Pasha",
+      "x": [
+        "Muhammad Ali",
+        "Ismail Pasha"
+      ]
+    }
+  },
+  "Q160450": {
+    "t": "A Black Sea port between two river deltas",
+    "s": "Two great bulges of flat, green farmland push into the Black Sea on either side of Samsun: the delta of the Kızılırmak to the west and that of the Yeşilırmak to the east. The city lies in the curve of coast between them, backed by forested hills. Greek colonists founded Amisos here in antiquity, and it has been a busy port ever since.",
+    "w": "A long coastal city in a shallow bay, with a broad, flat river delta bulging out to either side.",
+    "f": [
+      "The Kızılırmak, the 'Red River', is the longest river flowing entirely within Turkey.",
+      "The Kızılırmak delta is one of Turkey's most important wetlands for birds.",
+      "Samsun is the largest city on Turkey's Black Sea coast."
+    ],
+    "q": {
+      "q": "Which river's delta lies west of Samsun?",
+      "a": "The Kızılırmak",
+      "x": [
+        "The Sakarya",
+        "The Çoruh"
+      ]
+    }
+  },
+  "Q187346": {
+    "t": "A city on a rock, stitched together by bridges",
+    "s": "The Rhumel River has sawn a deep, narrow gorge around a rocky plateau, and Constantine sits on top, tied to the land around it by a series of bridges. As Cirta, it was the capital of the Numidian kings. The emperor Constantine rebuilt it in the early 4th century and gave it his name. From above, the gorge shows as a dark crack curling around the old town.",
+    "w": "A city on a rock plateau wrapped by a dark, narrow gorge, amid rolling, wheat-coloured hills.",
+    "f": [
+      "In places the gorge walls drop well over 100 metres to the river.",
+      "The Sidi M'Cid suspension bridge, opened in 1912, spans the gorge high above the river.",
+      "Constantine is often called the 'City of Bridges'."
+    ],
+    "q": {
+      "q": "What was Constantine called in ancient times?",
+      "a": "Cirta",
+      "x": [
+        "Hippo Regius",
+        "Thugga"
+      ]
+    }
+  },
+  "Q173310": {
+    "t": "An ancient citadel near fires that never go out",
+    "s": "Kirkuk grew around a citadel mound by the Khasa River, a hill built up by thousands of years of settlement on the same spot. The Zagros foothills rise to the north-east, and around the city lie rolling steppe and fields. Just outside, at Baba Gurgur, natural gas seeps from the ground and has burned in open flames since ancient times.",
+    "w": "A city on a rolling plain by a seasonal river, with the first folds of the Zagros rising to the north-east.",
+    "f": [
+      "Kirkuk stands on the site of ancient Arrapha, a city of the Hurrians and later the Assyrians.",
+      "The giant Kirkuk oil field was first struck at Baba Gurgur in 1927."
+    ],
+    "q": {
+      "q": "What has burned at Baba Gurgur, near Kirkuk, since antiquity?",
+      "a": "Gas seeping from the ground",
+      "x": [
+        "A temple's sacred lamp",
+        "A buried coal seam"
+      ]
+    }
+  },
+  "Q3929": {
+    "t": "A harbour capital in an amphitheatre of peaks",
+    "s": "Port Louis fills a narrow coastal plain on the north-west side of Mauritius, hemmed in by a horseshoe of steep, jagged mountains. Look for Pieter Both, with a boulder balanced on its summit, and the thumb-shaped peak of Le Pouce. The French founded the port in the 1730s. Around the island, a coral reef draws a white line of surf beyond a turquoise lagoon.",
+    "w": "A city on a small bay backed by a ring of sharp green peaks, on an island girdled by a turquoise lagoon.",
+    "f": [
+      "The dodo lived only on Mauritius and was extinct by the late 17th century.",
+      "Aapravasi Ghat in the harbour, where indentured labourers from India landed, is a UNESCO site.",
+      "Le Pouce, French for 'the thumb', rises to about 810 metres."
+    ],
+    "q": {
+      "q": "Which extinct bird lived only on Mauritius?",
+      "a": "The dodo",
+      "x": [
+        "The moa",
+        "The great auk"
+      ]
+    }
+  },
+  "Q188693": {
+    "t": "A Scottish mission town in Malawi's green highlands",
+    "s": "Blantyre spreads across the Shire Highlands at about 1,000 metres, a greener, cooler world than the hot Shire valley below. Scottish missionaries founded it in 1876 and named it after David Livingstone's birthplace near Glasgow. Look east on a clear day: the great granite massif of Mulanje rises abruptly from the plain, and between the two stretch the neat green rows of tea estates.",
+    "w": "A city on green, hilly uplands; to the east, a huge, isolated mountain massif stands above tea-covered slopes.",
+    "f": [
+      "Sapitwa, the highest summit of Mulanje, reaches about 3,000 metres.",
+      "Blantyre is Malawi's main commercial city and one of its oldest towns."
+    ],
+    "q": {
+      "q": "Blantyre is named after the birthplace of which explorer?",
+      "a": "David Livingstone",
+      "x": [
+        "Henry Morton Stanley",
+        "Mungo Park"
+      ]
+    }
+  },
+  "Q146723": {
+    "t": "Where the Congo's rapids end and the river road begins",
+    "s": "Just upstream of Kisangani, the Congo tumbles through the Boyoma Falls, a chain of seven cataracts spread over about 100 km. Below the city the river is navigable all the way to Kinshasa, more than 1,700 km downstream, so a river port grew here naturally. Henry Morton Stanley founded a station on the spot in 1883, and the town was long called Stanleyville.",
+    "w": "A city on a broad brown river in unbroken green rainforest, with rapids breaking the water just upstream.",
+    "f": [
+      "Kisangani lies only about 60 km north of the equator.",
+      "Wagenia fishermen fix wooden tripods in the rapids and hang huge conical fish traps from them."
+    ],
+    "q": {
+      "q": "What was Kisangani called in colonial times?",
+      "a": "Stanleyville",
+      "x": [
+        "Léopoldville",
+        "Élisabethville"
+      ]
+    }
+  },
+  "Q271000": {
+    "t": "Where a wedge of savanna cuts into the forest",
+    "s": "Côte d'Ivoire's forest belt is broken here by a tongue of open grassland pushing south, known as the V Baoulé after the Baoulé people who live in it. Bouaké, the country's second city, sits near its heart, at a crossroads of highways and the railway running north from Abidjan. To the south-west lies the vast, branching reservoir of Lake Kossou.",
+    "w": "A big city on open, patchy savanna, with darker forest to the south and a huge branching lake to the south-west.",
+    "f": [
+      "Lake Kossou, created by a dam in the 1970s, is the largest lake in Côte d'Ivoire.",
+      "The Baoulé are renowned for their carved wooden masks and figures."
+    ],
+    "q": {
+      "q": "Which people give their name to the savanna 'V' around Bouaké?",
+      "a": "The Baoulé",
+      "x": [
+        "The Bété",
+        "The Dioula"
+      ]
+    }
+  },
+  "Q3882": {
+    "t": "An island capital where fresh springs rise in the sea",
+    "s": "Bahrain is an archipelago, and Manama crowds its north-east tip, its shoreline pushed outward year after year onto reclaimed land. The name Bahrain means 'two seas', often explained by freshwater springs that bubble up through the salty Gulf. Four thousand years ago this was Dilmun, a trading hub between Mesopotamia and the Indus Valley.",
+    "w": "A dense city of towers on the north-east corner of a flat, sandy island, edged with straight reclaimed shorelines.",
+    "f": [
+      "Qal'at al-Bahrain, the ancient harbour and capital of Dilmun, is a UNESCO World Heritage site.",
+      "Bahrain's pearling heritage, once the island's main wealth, is also on the UNESCO list.",
+      "The King Fahd Causeway, about 25 km long, links Bahrain to Saudi Arabia."
+    ],
+    "q": {
+      "q": "What does the name Bahrain mean?",
+      "a": "Two seas",
+      "x": [
+        "Pearl island",
+        "Palm harbour"
+      ]
+    }
+  },
+  "Q244232": {
+    "t": "Green circles of farmland in the northern desert",
+    "s": "Around Tabuk, the desert is dotted with perfect green circles: fields watered by centre-pivot sprinklers that draw on deep groundwater. The city grew as an oasis and a stop on the pilgrim road to Mecca, and later on the Hejaz Railway. To the west the land rises towards the mountains of Midian, where snow sometimes dusts the peaks in winter.",
+    "w": "A city on a broad desert plain dotted with green circular fields, with dark mountains rising to the west.",
+    "f": [
+      "An Ottoman-era castle and the old Hejaz Railway station still stand in the city.",
+      "Jabal al-Lawz, north-west of Tabuk, rises to about 2,600 metres and sometimes gets snow."
+    ],
+    "q": {
+      "q": "Which railway once linked Tabuk with Damascus?",
+      "a": "The Hejaz Railway",
+      "x": [
+        "The Baghdad Railway",
+        "The Anatolian Railway"
+      ]
+    }
+  },
+  "Q28587": {
+    "t": "The Medes' ancient capital, beneath Mount Alvand",
+    "s": "Hamadan lies at about 1,850 metres, at the foot of Mount Alvand, whose summit stays white for much of the year. This was Ecbatana, capital of the Medes and later a summer residence of the Persian kings. The great physician and philosopher Avicenna is buried here, and on the mountain's flank Darius and Xerxes carved inscriptions in three languages.",
+    "w": "A city on a high green plain, set against the long bulk of a mountain that is snowy for much of the year.",
+    "f": [
+      "Mount Alvand rises to about 3,580 metres.",
+      "Avicenna's Canon of Medicine served as a standard medical textbook for centuries.",
+      "Winters here are cold and snowy."
+    ],
+    "q": {
+      "q": "Which famous physician is buried in Hamadan?",
+      "a": "Avicenna",
+      "x": [
+        "Rhazes",
+        "Averroes"
+      ]
+    }
+  },
+  "Q134514": {
+    "t": "The canal's southern gate, at the head of the Red Sea",
+    "s": "Here the ruler-straight Suez Canal meets the Gulf of Suez, the long northern arm of the Red Sea. On one side rise the pale, sharp mountains of the Eastern Desert; across the water lie the dunes and ridges of Sinai. Ships waiting to go north gather at anchor off the city, while the canal's line runs away across the desert towards the Mediterranean.",
+    "w": "A city where a straight canal ends at the head of a long gulf, with desert mountains to the south-west and Sinai to the east.",
+    "f": [
+      "The Suez Canal opened in 1869 and has no locks, since both seas lie at almost the same level.",
+      "Jebel Ataqa, the mountain south-west of the city, rises to about 870 metres."
+    ],
+    "q": {
+      "q": "In which year did the Suez Canal open?",
+      "a": "1869",
+      "x": [
+        "1859",
+        "1882"
+      ]
+    }
+  },
+  "Q47492": {
+    "t": "An ancient port at the end of the incense road",
+    "s": "The coast here runs in a smooth sandy arc from Sinai towards the Levant, backed by low dunes and a flat coastal plain. Gaza is one of the oldest cities on this shore. In antiquity it was one of the five Philistine cities and the end point of the incense route, which carried frankincense and myrrh from southern Arabia to the Mediterranean.",
+    "w": "A dense city on a smooth, sandy stretch of coast, on the flat plain between Sinai and the Levant.",
+    "f": [
+      "Caravans on the ancient incense route crossed the Negev to reach Gaza's harbour.",
+      "Gaza lay on the Via Maris, the ancient coastal road between Egypt and Mesopotamia."
+    ],
+    "q": {
+      "q": "Which ancient trade route ended at Gaza?",
+      "a": "The Incense Route",
+      "x": [
+        "The Silk Road",
+        "The Amber Road"
+      ]
+    }
+  },
+  "Q45942": {
+    "t": "Saint Augustine's Hippo, under a forested massif",
+    "s": "The forested Edough massif rises straight from the sea west of Annaba, and the city spreads across the plain at its foot, where the Seybouse River reaches the Mediterranean. As Hippo Regius, this was a Numidian royal city and later a Roman port. Its most famous citizen was Augustine, bishop here for over thirty years and author of the Confessions and The City of God.",
+    "w": "A port city on a bay where a river meets the sea, with a dark, forested mountain block rising to the west.",
+    "f": [
+      "Ruins of Roman Hippo, with baths and a forum, lie on the edge of the modern city.",
+      "The Edough massif is covered in cork-oak forest and rises to about 1,000 metres."
+    ],
+    "q": {
+      "q": "Which saint was bishop of Hippo, today's Annaba?",
+      "a": "Augustine",
+      "x": [
+        "Cyprian",
+        "Ambrose"
+      ]
+    }
+  },
+  "Q110218": {
+    "t": "The 'Rock City' on Lake Victoria's southern shore",
+    "s": "Giant granite boulders are piled across the hills around Mwanza, and some stand right in the water, like Bismarck Rock just offshore. The city fans out along the southern coast of Lake Victoria, the largest lake in Africa, its shore broken into gulfs and rocky islands. John Hanning Speke reached the lake near here in 1858 and judged it to be the source of the Nile.",
+    "w": "A city on a rocky, boulder-strewn shore of a vast lake, among long gulfs and islands.",
+    "f": [
+      "Lake Victoria covers about 68,000 km².",
+      "Mwanza is one of Tanzania's largest cities and its main port on Lake Victoria."
+    ],
+    "q": {
+      "q": "Which explorer reached Lake Victoria near Mwanza in 1858?",
+      "a": "John Hanning Speke",
+      "x": [
+        "Richard Burton",
+        "David Livingstone"
+      ]
+    }
+  },
+  "Q182394": {
+    "t": "A mud-brick city of wind towers between two deserts",
+    "s": "Yazd sits on a dry plain between Iran's two great deserts, the Dasht-e Kavir to the north and the Dasht-e Lut to the south-east. Its old town is a honey-coloured maze of mud brick, crowned by windcatchers, towers that funnel breezes down into houses. Water arrives by qanats, underground channels dug from the mountains. To the south-west rises Shir Kuh, over 4,000 metres high.",
+    "w": "A pale, flat city on a desert plain, with a high, often snowy mountain massif to the south-west.",
+    "f": [
+      "The historic city of Yazd became a UNESCO World Heritage site in 2017.",
+      "Yazd is a centre of Iran's Zoroastrian community, with a fire temple and old towers of silence."
+    ],
+    "q": {
+      "q": "What are the towers on Yazd's rooftops for?",
+      "a": "Catching wind to cool houses",
+      "x": [
+        "Storing grain",
+        "Signalling to caravans"
+      ]
+    }
+  },
+  "Q154814": {
+    "t": "A port on the Strait of Hormuz, facing colourful islands",
+    "s": "Bandar Abbas faces the Strait of Hormuz, the narrow gateway to the Persian Gulf, with bare brown mountains close behind. Offshore lie the long island of Qeshm and little Hormuz, whose soils flash red, ochre and yellow. Shah Abbas I made this his main port in the 1620s and gave it his name.",
+    "w": "A long coastal city at the foot of bare mountains, facing a large island and a small, reddish one across the strait.",
+    "f": [
+      "Qeshm is the largest island in the Persian Gulf.",
+      "Hormuz Island's red earth is used locally both as a spice and as a pigment."
+    ],
+    "q": {
+      "q": "Which is the largest island in the Persian Gulf?",
+      "a": "Qeshm",
+      "x": [
+        "Kish",
+        "Kharg"
+      ]
+    }
+  },
+  "Q528432": {
+    "t": "A highland city split by a green escarpment",
+    "s": "Bamenda spills down a steep escarpment on the edge of Cameroon's Western High Plateau: the old administrative quarter of Up Station on the heights, the busy town spread over the valley below. All around lie the Grassfields, rolling green uplands of old kingdoms ruled by Fons. To the north-east, look for the Oku massif, which hides a crater lake.",
+    "w": "A city spilling down a steep green escarpment, with rolling grassy uplands around and a higher massif to the north-east.",
+    "f": [
+      "Mount Oku rises to about 3,000 metres; in Cameroon only Mount Cameroon is higher.",
+      "The Ring Road, a loop of several hundred kilometres, circles the Grassfields from Bamenda."
+    ],
+    "q": {
+      "q": "What is the traditional ruler of a Grassfields kingdom called?",
+      "a": "Fon",
+      "x": [
+        "Oba",
+        "Emir"
+      ]
+    }
+  },
+  "Q157915": {
+    "t": "A river port on the Benue, deep inside Africa",
+    "s": "The Benue winds broad and sandy past Garoua, shrunken in the dry season and swollen after the summer rains. At high water, for a few weeks a year, boats could once travel downstream all the way to the Niger in Nigeria, which made Garoua a river port deep in the interior. Upstream to the south spreads the big reservoir of the Lagdo Dam, amid hot, open savanna.",
+    "w": "A city on a broad, sandy river in open savanna, with a large reservoir to the south.",
+    "f": [
+      "Garoua is the capital of Cameroon's North Region.",
+      "Bénoué National Park, south of the city, protects savanna along the upper river."
+    ],
+    "q": {
+      "q": "Which river flows past Garoua?",
+      "a": "The Benue",
+      "x": [
+        "The Logone",
+        "The Sanaga"
+      ]
+    }
+  },
+  "Q1015631": {
+    "t": "A planned gold town where flamingos gather",
+    "s": "Welkom rose from open Free State farmland after the gold discoveries of the 1940s, a town laid out on the drawing board with broad streets and a circular centre. Around it, mine headgear, pale tailings dams and shallow pans break up the maize country. Water pumped from the mines filled some of those pans, and flocks of flamingos now feed in them.",
+    "w": "A planned town in flat farmland, dotted with pale, flat-topped mine dumps and shallow pans of water.",
+    "f": [
+      "The town was founded in 1947 on a farm of the same name.",
+      "The Free State goldfields around Welkom are part of the rich Witwatersrand Basin."
+    ],
+    "q": {
+      "q": "What does Welkom mean in Afrikaans?",
+      "a": "Welcome",
+      "x": [
+        "Gold field",
+        "New town"
+      ]
+    }
+  },
+  "Q29962": {
+    "t": "Upper Egypt's big city on a narrow ribbon of green",
+    "s": "In Middle Egypt the Nile valley shrinks to a narrow strip of green squeezed between pale limestone desert cliffs, and Asyut sits right in the middle of it. For centuries caravans set out from here along the Forty Days Road to Darfur. The Greeks called the town Lycopolis, 'wolf city', after the jackal-headed god worshipped here.",
+    "w": "A city on the Nile's west bank in a narrow green valley, with pale desert cliffs on both sides.",
+    "f": [
+      "The Asyut Barrage across the Nile, completed in 1902, feeds the large Ibrahimiya irrigation canal.",
+      "Asyut is one of the largest cities of Upper Egypt."
+    ],
+    "q": {
+      "q": "What did the ancient Greeks call Asyut?",
+      "a": "Lycopolis",
+      "x": [
+        "Heliopolis",
+        "Hermopolis"
+      ]
+    }
+  },
+  "Q193802": {
+    "t": "Morocco's eastern gateway, a thousand years old",
+    "s": "Oujda spreads over the Angad plain in the far north-east of Morocco, only about 15 km from the border with Algeria. It was founded in 994 by the Zenata chief Ziri ibn Atiyya, and its position on the road between Fes and Tlemcen made it a crossroads of trade. North of the city rise the Beni Snassen mountains, with the Mediterranean beyond.",
+    "w": "A large city on a broad, flat plain, with a line of mountains to the north and the Algerian border just to the east.",
+    "f": [
+      "Oujda is the capital of Morocco's Oriental region.",
+      "The Mediterranean coast at Saïdia is about 50 km to the north-west."
+    ],
+    "q": {
+      "q": "In which year was Oujda founded?",
+      "a": "994",
+      "x": [
+        "789",
+        "1070"
+      ]
+    }
+  },
+  "Q239580": {
+    "t": "Heart of the Copperbelt, beside the Kafue",
+    "s": "Kitwe and Ndola are the two big cities of Zambia's Copperbelt, a mining region running along the border with Congo's Katanga. Kitwe grew up beside the Nkana mine in the 1930s, and from above you can pick out broad, pale tailings dams and dark slag heaps among the green bush. The Kafue River winds past the city, heading south towards the Zambezi.",
+    "w": "A large town in green bush, with pale tailings dams and dark slag heaps around it and a winding river nearby.",
+    "f": [
+      "The Copperbelt straddles the border between Zambia and the DR Congo.",
+      "The Kafue is one of Zambia's major rivers and a tributary of the Zambezi."
+    ],
+    "q": {
+      "q": "Which river flows past Kitwe?",
+      "a": "The Kafue",
+      "x": [
+        "The Luangwa",
+        "The Chambeshi"
+      ]
+    }
+  },
+  "Q309475": {
+    "t": "The gum arabic market of Kordofan",
+    "s": "El Obeid stands on a sandy plain in the middle of Sudan, where acacias dot the reddish ground. Some of those trees yield gum arabic, a hardened sap that ends up in soft drinks, sweets and medicines worldwide, and the city has long been its main market. A railway from the Nile reached El Obeid in 1912, and roads fan out from here across Kordofan.",
+    "w": "A sprawling town on a flat, sandy plain dotted with trees, far from any river.",
+    "f": [
+      "Sudan has long been the world's leading source of gum arabic, gathered from acacia trees.",
+      "El Obeid is the capital of North Kordofan state."
+    ],
+    "q": {
+      "q": "Which product is El Obeid's market famous for?",
+      "a": "Gum arabic",
+      "x": [
+        "Coffee",
+        "Cotton"
+      ]
+    }
+  },
+  "Q323801": {
+    "t": "A city among giant granite domes",
+    "s": "Northern Mozambique looks strange from above: smooth granite domes, some hundreds of metres high, rise abruptly out of a flat green plain like the backs of whales. Nampula, the biggest city of the north, sits among them. A railway runs through it from the deep-water port of Nacala towards Malawi, and the old island capital, Mozambique Island, lies to the east on the coast.",
+    "w": "A city on a flat green plain from which bare, rounded granite domes rise here and there.",
+    "f": [
+      "Such isolated rock domes are called inselbergs, German for 'island mountains'.",
+      "Mozambique Island, the country's first capital, is a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "What do geographers call the granite domes around Nampula?",
+      "a": "Inselbergs",
+      "x": [
+        "Mesas",
+        "Drumlins"
+      ]
+    }
+  },
+  "Q131323": {
+    "t": "Where Libya's coast turns into the Gulf of Sidra",
+    "s": "Just east of Misrata, the coast of Libya turns sharply south-east and the long, empty curve of the Gulf of Sidra begins. The city spreads over the flat coastal plain around the headland of Cape Misrata, its palm groves and fields giving way to desert and a broad salt flat to the south. Its port and steelworks make it one of Libya's main industrial centres.",
+    "w": "A city on a flat coast by a headland, where the shoreline turns south-east into a vast gulf; salt flats inland.",
+    "f": [
+      "Misrata is Libya's third-largest city.",
+      "In Roman times a small port called Thubactis stood near here."
+    ],
+    "q": {
+      "q": "Which gulf begins just east of Misrata?",
+      "a": "The Gulf of Sidra",
+      "x": [
+        "The Gulf of Gabès",
+        "The Gulf of Bomba"
+      ]
+    }
+  },
+  "Q223761": {
+    "t": "A mud-mosque city in Burkina Faso's green south-west",
+    "s": "Bobo-Dioulasso lies in the greenest corner of Burkina Faso, where the Sahel gives way to wooded savanna, streams and mango orchards. Its name joins two peoples, the Bobo and the Dioula traders. The old Grand Mosque, built of mud in the late 19th century and bristling with wooden beams, is a classic of Sudano-Sahelian architecture.",
+    "w": "A large, low city in green, wooded savanna and orchards, with a railway line running through it.",
+    "f": [
+      "Bobo-Dioulasso is Burkina Faso's second-largest city.",
+      "The railway from Abidjan to Ouagadougou passes through the city."
+    ],
+    "q": {
+      "q": "Which two peoples does the name Bobo-Dioulasso refer to?",
+      "a": "The Bobo and the Dioula",
+      "x": [
+        "The Mossi and the Dioula",
+        "The Bobo and the Fula"
+      ]
+    }
+  },
+  "Q183405": {
+    "t": "Potters' hill and sardine boats on the Atlantic",
+    "s": "Safi sits on a stretch of Morocco's Atlantic coast where cliffs drop to the surf. Its potters have worked for centuries on a hill just outside the old medina, firing glazed bowls and tiles in kilns. The harbour lands huge catches of sardines, and plants south of the city process phosphate from the interior. The Portuguese held the town in the early 16th century and left a sea fort.",
+    "w": "A port city on a cliff-lined Atlantic coast, with a harbour and industrial plants stretching south along the shore.",
+    "f": [
+      "The Portuguese sea fortress, Dar el-Bahar, still stands on the seafront.",
+      "Safi is one of Morocco's main sardine ports."
+    ],
+    "q": {
+      "q": "Which craft is Safi famous for?",
+      "a": "Pottery",
+      "x": [
+        "Carpet weaving",
+        "Leather tanning"
+      ]
+    }
+  },
+  "Q322149": {
+    "t": "A highland farm town in running country",
+    "s": "Eldoret sits on the Uasin Gishu Plateau at over 2,000 metres, surrounded by a patchwork of big wheat and maize fields. Just to the east the land falls away abruptly into the deep Kerio Valley, part of the Great Rift. The thin air and high trails of this region have produced a remarkable number of world-class distance runners.",
+    "w": "A town on a high, open plateau of large fields, with a steep escarpment dropping into a rift valley to the east.",
+    "f": [
+      "The small town of Iten, on the escarpment edge nearby, is famous as a training base for runners.",
+      "Eldoret lies only about 60 km north of the equator."
+    ],
+    "q": {
+      "q": "Which sport made the Eldoret area world-famous?",
+      "a": "Distance running",
+      "x": [
+        "Cycling",
+        "Boxing"
+      ]
+    }
+  },
+  "Q4301": {
+    "t": "Safari gateway at the foot of Mount Meru",
+    "s": "Mount Meru rises steeply just north of Arusha, a big volcanic cone whose summit crater has collapsed on the eastern side into a great horseshoe. On a clear day the snows of Kilimanjaro float on the horizon about 80 km to the east. The city, at around 1,400 metres, is the starting point for safaris to the Serengeti, Ngorongoro and Tarangire.",
+    "w": "A city spread over the southern slopes below a big volcanic cone, with Kilimanjaro's white summit far to the east.",
+    "f": [
+      "Mount Meru reaches 4,566 metres, one of the highest peaks in Africa.",
+      "Arusha National Park covers Meru's slopes and crater."
+    ],
+    "q": {
+      "q": "Which volcano rises just north of Arusha?",
+      "a": "Mount Meru",
+      "x": [
+        "Mount Kenya",
+        "Ol Doinyo Lengai"
+      ]
+    }
+  },
+  "Q399119": {
+    "t": "Harare's big neighbour on the Highveld",
+    "s": "Just south of Harare, about 20 km from the centre, a dense grid of small houses stands out on the open grassland of the Highveld: Chitungwiza. It grew as a satellite town for the capital, and every morning many of its residents head into Harare to work. At around 1,400 metres the air is fresh, and rolling fields and patches of woodland surround the town.",
+    "w": "A dense grid of small houses on open grassland, just south of the larger sprawl of Harare.",
+    "f": [
+      "Chitungwiza is one of Zimbabwe's largest urban areas.",
+      "It became a town in 1978, joining the townships of Seke, Zengeza and St Mary's."
+    ],
+    "q": {
+      "q": "Chitungwiza is a satellite town of which capital?",
+      "a": "Harare",
+      "x": [
+        "Lusaka",
+        "Gaborone"
+      ]
+    }
+  },
+  "Q209537": {
+    "t": "The river port where a 'living fossil' surfaced",
+    "s": "East London grew around the mouth of the Buffalo River, and it is South Africa's only major river port. Green hills roll down to a coast of long beaches and rocky points. In 1938 a local museum curator, Marjorie Courtenay-Latimer, spotted a strange blue fish in a trawler's catch: a coelacanth, a creature thought to have died out tens of millions of years ago.",
+    "w": "A coastal city around a river mouth, with green rolling hills and long sandy beaches on the Indian Ocean.",
+    "f": [
+      "The coelacanth's scientific name, Latimeria, honours Marjorie Courtenay-Latimer.",
+      "The fish was caught near the mouth of the Chalumna River, south-west of the city.",
+      "The Wild Coast, a rugged stretch of cliffs and river mouths, begins to the north-east."
+    ],
+    "q": {
+      "q": "Which 'living fossil' fish was identified at East London in 1938?",
+      "a": "The coelacanth",
+      "x": [
+        "The lungfish",
+        "The sturgeon"
+      ]
+    }
+  },
+  "Q3854": {
+    "t": "A lakeside city under a mountain wall",
+    "s": "Bujumbura lies at the northern tip of Lake Tanganyika, on a narrow plain squeezed between the water and a steep green escarpment rising more than 1,000 metres behind it. To the west, the Rusizi River wanders into the lake through a marshy delta where hippos live. The lake itself is one of the deepest on Earth, reaching about 1,470 metres.",
+    "w": "A city at the head of a long, deep lake, pressed against a steep green escarpment, with a river delta to the west.",
+    "f": [
+      "Lake Tanganyika is the longest freshwater lake in the world, about 670 km.",
+      "At Mugere, 12 km south of the city, Livingstone and Stanley stayed two nights in November 1871."
+    ],
+    "q": {
+      "q": "Which lake does Bujumbura stand on?",
+      "a": "Lake Tanganyika",
+      "x": [
+        "Lake Kivu",
+        "Lake Malawi"
+      ]
+    }
+  },
+  "Q180717": {
+    "t": "A walled medina amid a sea of olive trees",
+    "s": "Behind Sousse the land becomes a vast grid of olive trees, row after row across the Tunisian Sahel. The city itself hugs the coast, its walled medina climbing a gentle slope from the harbour. Phoenicians founded it as Hadrumetum. The medina, with its fortress-like ribat and Great Mosque, is on the UNESCO World Heritage list.",
+    "w": "A coastal city with a compact walled old town by the harbour, surrounded by endless grids of olive groves.",
+    "f": [
+      "The ribat, a fortified monastery on the medina's edge, is more than 1,100 years old.",
+      "Beneath the city lie early Christian catacombs with thousands of tombs."
+    ],
+    "q": {
+      "q": "What was Sousse called in Roman times?",
+      "a": "Hadrumetum",
+      "x": [
+        "Utica",
+        "Leptis Magna"
+      ]
+    }
+  },
+  "Q203299": {
+    "t": "A green oasis cupped in a desert depression",
+    "s": "West of the Nile, a round green bowl sits inside the desert: the Faiyum, a depression watered by a canal from the river, the Bahr Yussef. Its lowest part holds Lake Qarun, a salty lake whose surface lies more than 40 metres below sea level. The Faiyum gave the world its famous mummy portraits, painted faces of Roman-era Egyptians that look startlingly alive.",
+    "w": "A roughly circular patch of green fields in the desert west of the Nile, with a long lake along its north-west edge.",
+    "f": [
+      "Wadi El Hitan, with fossil whale skeletons lying in the desert, is to the west and is a UNESCO site.",
+      "Old wooden waterwheels still turn in the city's canals.",
+      "In ancient times the city was called Crocodilopolis, after the crocodile god Sobek."
+    ],
+    "q": {
+      "q": "Which lake lies in the Faiyum depression?",
+      "a": "Lake Qarun",
+      "x": [
+        "Lake Nasser",
+        "Lake Manzala"
+      ]
+    }
   }
 }

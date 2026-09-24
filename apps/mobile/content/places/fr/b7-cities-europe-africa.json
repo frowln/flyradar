@@ -1977,5 +1977,1326 @@
         "Soundiata Keïta"
       ]
     }
+  },
+  "Q915": {
+    "t": "La ville qui a donné son nom à une période géologique",
+    "s": "Toute une période de l’histoire de la Terre porte le nom de cette région : en 1841, le géologue écossais Roderick Murchison étudia ses roches et les baptisa permien. Perm s’étire sur des kilomètres le long de la Kama, large rivière qui s’élargit en réservoir juste en amont. Une taïga sans fin l’entoure, et à l’est commencent les premières crêtes basses de l’Oural.",
+    "w": "Une longue ville sur les deux rives d’une large rivière, un réservoir en amont et une forêt sombre dans toutes les directions.",
+    "f": [
+      "Le Permien, il y a environ 299 à 252 millions d’années, s’acheva par la plus grande extinction massive de l’histoire de la Terre.",
+      "Perm est née en 1723 autour d’une fonderie de cuivre.",
+      "La ville s’étire sur environ 70 km le long de la Kama."
+    ],
+    "q": {
+      "q": "Quelle période géologique tient son nom de la région de Perm ?",
+      "a": "Le Permien",
+      "x": [
+        "Le Dévonien",
+        "Le Jurassique"
+      ]
+    }
+  },
+  "Q335548": {
+    "t": "Une ville d’altitude près d’une géante de fer venue du ciel",
+    "s": "Mbeya occupe une haute vallée des hautes terres du sud de la Tanzanie, à environ 1 700 mètres, avec la chaîne abrupte de Mbeya dressée juste derrière. La terre alentour est d’un vert intense, patchwork de thé, de café et de maïs sur de riches sols volcaniques. Au sud-ouest de la ville, un bloc de fer venu de l’espace, d’environ 16 tonnes, repose toujours là où il est tombé.",
+    "w": "Une ville dans une vallée verte au pied d’une chaîne abrupte, entourée d’un patchwork de cultures d’altitude.",
+    "f": [
+      "La météorite de Mbozi, à quelque 50 km au sud-ouest de Mbeya, est l’une des plus grosses jamais trouvées.",
+      "Le pic de Mbeya, point culminant de la chaîne qui domine la ville, s’élève à environ 2 800 mètres.",
+      "Plus à l’est, le plateau de Kitulo est si riche en orchidées sauvages qu’on l’appelle le « jardin de Dieu »."
+    ],
+    "q": {
+      "q": "Quel objet géant repose à Mbozi, près de Mbeya ?",
+      "a": "Une météorite de fer",
+      "x": [
+        "Un squelette de dinosaure",
+        "Un satellite tombé"
+      ]
+    }
+  },
+  "Q3935": {
+    "t": "Une capitale de pays sec qui recycle chaque goutte",
+    "s": "L’eau est si précieuse à Windhoek que, depuis 1968, la ville transforme directement ses eaux usées en eau potable, une première mondiale. Elle occupe un bassin des hauts plateaux du centre de la Namibie, à environ 1 650 mètres, encadrée par les monts Auas au sud et les collines d’Eros au nord, dans une savane sèche et épineuse.",
+    "w": "Une ville compacte dans une cuvette de collines basses et accidentées, sur une savane d’altitude sèche et brune.",
+    "f": [
+      "La côte atlantique de la Namibie se trouve à environ 300 km à l’ouest.",
+      "Les monts Auas, au sud de la ville, culminent à environ 2 480 mètres, parmi les plus hauts de Namibie.",
+      "Des sources chaudes jaillissaient jadis dans la vallée, attirant les premiers habitants."
+    ],
+    "q": {
+      "q": "Que fait Windhoek de ses eaux usées depuis 1968 ?",
+      "a": "Elle en fait de l’eau potable",
+      "x": [
+        "Elle les rejette dans l’Atlantique",
+        "Elle refroidit une centrale avec"
+      ]
+    }
+  },
+  "Q986336": {
+    "t": "Un bourg agricole près de la plus lourde météorite du monde",
+    "s": "Grootfontein est une petite ville du bush du nord de la Namibie, nommée d’après une grande source qui attira colons et éleveurs. La surprise se trouve à environ 20 km à l’ouest, dans une ferme : la météorite de Hoba, bloc de fer d’environ 60 tonnes, la plus grosse connue sur Terre. Elle est si lourde qu’elle n’a jamais été déplacée de l’endroit où elle est tombée.",
+    "w": "Une petite ville dans une savane verte et buissonneuse, avec de basses collines de dolomie et des terres agricoles autour.",
+    "f": [
+      "La météorite de Hoba est tombée il y a moins de 80 000 ans et a été découverte par un fermier en 1920.",
+      "Grootfontein signifie « grande source » en afrikaans.",
+      "Le pays de dolomie autour de la ville cache des lacs de doline, comme Otjikoto près de Tsumeb."
+    ],
+    "q": {
+      "q": "Quel objet record repose près de Grootfontein ?",
+      "a": "La plus grosse météorite connue",
+      "x": [
+        "Le plus vieux baobab connu",
+        "Le plus grand cratère d’Afrique"
+      ]
+    }
+  },
+  "Q2222874": {
+    "t": "Port des épices en pierre de corail, sur l’eau turquoise",
+    "s": "La ville de Zanzibar se trouve sur la côte ouest d’Unguja, île principale de l’archipel de Zanzibar, face au continent africain de l’autre côté d’un chenal de hauts-fonds turquoise et de récifs. Son vieux cœur, Stone Town, est un dédale de maisons en pierre de corail. En 1840, le sultan d’Oman en fit sa capitale, et le clou de girofle de l’île partait dans le monde entier.",
+    "w": "Une ville sur la côte ouest d’une île verte et plate, frangée de récifs turquoise et de bancs de sable, le continent à l’ouest.",
+    "f": [
+      "Stone Town est inscrite au patrimoine mondial de l’UNESCO depuis 2000.",
+      "Freddie Mercury est né à Stone Town en 1946.",
+      "Au XIXe siècle, Zanzibar était le premier producteur mondial de clous de girofle."
+    ],
+    "q": {
+      "q": "Quelle épice a rendu Zanzibar célèbre au XIXe siècle ?",
+      "a": "Le clou de girofle",
+      "x": [
+        "Le safran",
+        "La vanille"
+      ]
+    }
+  },
+  "Q8818": {
+    "t": "Une rivière verte de parcs à travers une ville d’orangers",
+    "s": "Un long ruban vert s’incurve à travers Valence : l’ancien lit du Turia, transformé en parc après que le fleuve a été détourné vers le sud. Autour de la ville s’étend la huerta, patchwork de vergers et de champs irrigués sur une plaine côtière plate. Juste au sud de la ville scintille l’Albufera, lagune cernée de rizières.",
+    "w": "Une grande ville sur une côte plate, traversée par un parc vert sinueux, avec une grande lagune peu profonde et des rizières au sud.",
+    "f": [
+      "Les jardins du Turia, aménagés dans l’ancien lit, traversent la ville sur environ 9 km.",
+      "Les rizières autour de la lagune de l’Albufera sont le berceau de la paella.",
+      "Les Romains ont fondé Valence en 138 av. J.-C."
+    ],
+    "q": {
+      "q": "Quel plat est né dans les rizières autour de Valence ?",
+      "a": "La paella",
+      "x": [
+        "Le gaspacho",
+        "La tortilla"
+      ]
+    }
+  },
+  "Q3787": {
+    "t": "Une capitale planifiée parmi des dômes de granit géants",
+    "s": "Abuja a été bâtie de toutes pièces près du centre géographique du Nigeria et est devenue la capitale en 1991. D’en haut, cherchez ses larges avenues qui s’ouvrent en éventail sous l’Aso Rock, dôme de granit nu d’environ 400 mètres sur la bordure est de la ville. La savane vallonnée alentour est parsemée d’autres grands rochers arrondis.",
+    "w": "Une ville planifiée et aérée, aux larges avenues, au pied d’un grand dôme de granit nu, dans une savane verte vallonnée.",
+    "f": [
+      "Zuma Rock, immense monolithe de granit à environ 40 km à l’ouest de la ville, figure sur le billet de 100 nairas.",
+      "Le plan directeur de la ville a été dessiné à la fin des années 1970.",
+      "Abuja se trouve dans le Territoire de la capitale fédérale, créé pour que la capitale n’appartienne à aucun État."
+    ],
+    "q": {
+      "q": "Quelle ville Abuja a-t-elle remplacée comme capitale du Nigeria en 1991 ?",
+      "a": "Lagos",
+      "x": [
+        "Ibadan",
+        "Kano"
+      ]
+    }
+  },
+  "Q3739": {
+    "t": "Une capitale d’estuaire face à un dédale d’îles",
+    "s": "Bissau s’étend sur le large estuaire du Geba, où l’eau boueuse, les mangroves et les vasières brouillent la limite entre terre et mer. Au large s’étale l’archipel des Bijagos, un semis de dizaines d’îles basses et vertes et de bancs de sable. Les marées sont fortes, et à marée basse apparaissent d’immenses bancs de vase et de sable. Les Portugais y bâtirent un fort en 1687.",
+    "w": "Une ville sur un large estuaire boueux bordé de mangroves, avec un semis d’îles basses et vertes vers le large.",
+    "f": [
+      "L’archipel des Bijagos compte environ 88 îles et îlots, dont une vingtaine seulement sont habités en permanence.",
+      "Aux Bijagos, des hippopotames nagent dans l’eau salée entre les îles.",
+      "L’estuaire du Geba est si large à Bissau qu’il ressemble davantage à un bras de mer qu’à un fleuve."
+    ],
+    "q": {
+      "q": "Quel archipel s’étend au large de Bissau ?",
+      "a": "Les Bijagos",
+      "x": [
+        "Les îles de Los",
+        "Les îles Banana"
+      ]
+    }
+  },
+  "Q2656": {
+    "t": "La « conque d’or » entre montagnes nues et mer",
+    "s": "Palerme remplit une large baie de la côte nord de la Sicile, dans un croissant de montagnes nues. La plaine sur laquelle elle se dresse s’appelle la Conca d’Oro, la « conque d’or », d’après les agrumes qui la couvraient jadis. Au nord, le promontoire calcaire du Monte Pellegrino s’avance dans la mer. Les Phéniciens fondèrent la ville au VIIIe siècle av. J.-C.",
+    "w": "Une ville sur une plaine incurvée autour d’une baie, cernée de montagnes nues, avec un grand promontoire rocheux au nord.",
+    "f": [
+      "Goethe qualifia le Monte Pellegrino de plus beau promontoire du monde.",
+      "Les monuments arabo-normands de Palerme sont inscrits au patrimoine mondial de l’UNESCO depuis 2015.",
+      "Les Phéniciens appelaient la ville Ziz, nom qu’on traduit généralement par « fleur »."
+    ],
+    "q": {
+      "q": "Comment s’appelle la plaine autour de Palerme ?",
+      "a": "La Conca d’Oro",
+      "x": [
+        "La Campania Felix",
+        "Le Tavoliere"
+      ]
+    }
+  },
+  "Q3805": {
+    "t": "Une ville de pierre blanche répandue sur ses collines",
+    "s": "Amman s’étale sur un enchevêtrement de collines abruptes au bord du plateau désertique, et d’en haut elle paraît presque entièrement blanche, car la plupart des bâtiments sont parementés de calcaire clair. À l’ouest, le terrain plonge vers la vallée du Jourdain et la mer Morte, à quelque 40 km. À l’époque gréco-romaine, la ville s’appelait Philadelphie.",
+    "w": "Une ville claire, presque blanche, drapée sur des collines abruptes, avec à l’ouest la profonde tranchée du Jourdain et la mer Morte.",
+    "f": [
+      "Le rivage de la mer Morte, à environ 430 mètres sous le niveau de la mer, est la terre la plus basse du globe.",
+      "Le théâtre romain d’Amman, taillé dans une colline, pouvait accueillir environ 6 000 spectateurs.",
+      "La ville a grandi sur le site de Rabbath Ammon, capitale des anciens Ammonites."
+    ],
+    "q": {
+      "q": "Comment s’appelait Amman à l’époque gréco-romaine ?",
+      "a": "Philadelphie",
+      "x": [
+        "Gérasa",
+        "Pétra"
+      ]
+    }
+  },
+  "Q216": {
+    "t": "Une ville baroque parmi collines boisées et méandres",
+    "s": "Des clochers baroques se pressent dans la vieille ville de Vilnius, l’une des plus grandes d’Europe de l’Est, et les collines boisées donnent à toute la ville un air étonnamment vert vu d’en haut. Elle se trouve là où la petite Vilnia rejoint la sinueuse Neris. La ville est mentionnée pour la première fois en 1323, dans des lettres du grand-duc Gediminas invitant marchands et artisans à s’y installer.",
+    "w": "Une ville verte et vallonnée sur une rivière en boucles, des forêts jusque dans la ville et de nombreux lacs à l’ouest.",
+    "f": [
+      "La vieille ville de Vilnius est inscrite au patrimoine mondial de l’UNESCO depuis 1994.",
+      "En 1989, des géographes français ont placé le centre géographique de l’Europe à environ 26 km au nord de Vilnius.",
+      "Trakai, avec son château sur une île d’un lac, se trouve à moins de 30 km à l’ouest."
+    ],
+    "q": {
+      "q": "Dans quelle rivière la Vilnia se jette-t-elle à Vilnius ?",
+      "a": "La Neris",
+      "x": [
+        "Le Niémen",
+        "La Daugava"
+      ]
+    }
+  },
+  "Q1773": {
+    "t": "Un port hanséatique où un grand fleuve rejoint le golfe",
+    "s": "Riga se dresse sur la Daugava, à quelques kilomètres de son embouchure dans le golfe de Riga, large baie peu profonde de la Baltique. D’en haut, le large fleuve sépare la vieille ville compacte, sur la rive est, des quartiers plus récents à l’ouest, et forêts de pins et tourbières se referment tout autour. L’évêque Albert fonda la ville en 1201, et elle devint l’un des grands ports de la Hanse.",
+    "w": "Une ville sur un large fleuve juste avant une vaste baie, avec une côte sableuse et une forêt de pins sombre le long du rivage.",
+    "f": [
+      "Environ un tiers des bâtiments du centre de Riga sont Art nouveau : l’une des plus fortes concentrations au monde.",
+      "Le centre historique de Riga est inscrit au patrimoine mondial de l’UNESCO depuis 1997.",
+      "À l’ouest de la ville, la station de Jūrmala s’étire sur plus de 30 km le long d’une plage de sable."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Riga ?",
+      "a": "La Daugava",
+      "x": [
+        "Le Niémen",
+        "La Gauja"
+      ]
+    }
+  },
+  "Q225641": {
+    "t": "Un port insulaire enveloppé de deux criques profondes",
+    "s": "Le vieux cœur de Mombasa est une île, bloc de corail bas coincé entre deux bras de mer profonds qui entaillent la côte kényane. D’un côté, le port de Kilindini abrite l’un des plus grands ports d’Afrique de l’Est ; de l’autre, la vieille ville fait face à la crique de Tudor. Au large, une ligne d’écume blanche marque le récif frangeant. Pendant des siècles, ce fut un port clé de la côte swahilie.",
+    "w": "Une petite île nichée entre deux criques sinueuses sur une côte verte, avec l’écume blanche qui se brise sur le récif au large.",
+    "f": [
+      "Fort Jesus, commencé en 1593, est inscrit au patrimoine mondial de l’UNESCO.",
+      "Vasco de Gama fit escale à Mombasa en 1498, en route vers l’Inde.",
+      "L’île est reliée au continent par des chaussées et des ponts, et à la côte sud par un bac."
+    ],
+    "q": {
+      "q": "Qui a bâti Fort Jesus, à Mombasa, dans les années 1590 ?",
+      "a": "Les Portugais",
+      "x": [
+        "Les Omanais",
+        "Les Britanniques"
+      ]
+    }
+  },
+  "Q3909": {
+    "t": "La capitale « basse » d’un royaume dans le ciel",
+    "s": "Même la capitale « des plaines » du Lesotho se trouve à environ 1 600 mètres au-dessus de la mer. Maseru borde le Caledon, juste à la frontière ouest d’un pays entièrement enclavé dans l’Afrique du Sud. D’en haut, regardez à l’est : le terrain monte vers les monts Maloti, où l’essentiel du Lesotho dépasse 1 800 mètres, souvent saupoudré de neige en hiver.",
+    "w": "Une ville au bord d’une étroite rivière-frontière, des terres plates à l’ouest et des montagnes nues et plissées à l’est.",
+    "f": [
+      "Le point le plus bas du Lesotho, environ 1 400 mètres, est le « point le plus bas » le plus élevé de tous les pays.",
+      "Le nom de Maseru signifie « grès rouges » en sesotho.",
+      "Thaba Bosiu, montagne-forteresse tabulaire du roi Moshoeshoe Ier, se trouve à environ 25 km à l’est."
+    ],
+    "q": {
+      "q": "Quel pays entoure entièrement le Lesotho ?",
+      "a": "L’Afrique du Sud",
+      "x": [
+        "Le Botswana",
+        "L’Eswatini"
+      ]
+    }
+  },
+  "Q3915": {
+    "t": "Une ville de collines et de rizières sur la Grande Île rouge",
+    "s": "Antananarivo s’étale sur une longue crête de granit et les collines alentour, au centre de Madagascar, à environ 1 300 mètres. Entre les collines, des rizières vert vif remplissent encore les vallées en pleine ville, et la terre alentour est d’un rouge saisissant. Le nom signifie « ville des mille », en souvenir, dit-on, de mille guerriers qui la gardaient.",
+    "w": "Une ville vallonnée avec une longue crête au centre, des rizières vert vif dans les vallées et la terre rouge tout autour.",
+    "f": [
+      "Le Rova, ancien ensemble du palais royal, couronne la plus haute colline de la ville.",
+      "Le lac Anosy, en plein centre, est cerclé de jacarandas qui fleurissent en violet au printemps.",
+      "Les sols de latérite rouge de Madagascar lui ont valu le surnom de « Grande Île rouge »."
+    ],
+    "q": {
+      "q": "Que signifie le nom Antananarivo ?",
+      "a": "Ville des mille",
+      "x": [
+        "Ville du riz",
+        "Colline rouge"
+      ]
+    }
+  },
+  "Q456": {
+    "t": "Deux fleuves réunis au bout d’une étroite presqu’île",
+    "s": "Lyon est bâtie autour d’une rencontre de fleuves. Le Rhône, large et rapide, venu des Alpes, et la Saône, plus calme, venue du nord, traversent la ville côte à côte, enserrant une longue presqu’île étroite avant de se rejoindre à sa pointe sud. À l’ouest de la Saône se dresse la colline de Fourvière. Les Romains y fondèrent Lugdunum en 43 av. J.-C.",
+    "w": "Deux fleuves côte à côte à travers une grande ville, une longue et mince bande de terre entre eux, réunis en pointe au sud.",
+    "f": [
+      "Lugdunum était une capitale de la Gaule romaine, et l’empereur Claude y est né.",
+      "Le centre historique de Lyon est inscrit au patrimoine mondial de l’UNESCO depuis 1998.",
+      "Du XVIe au XIXe siècle, Lyon fut la grande ville du tissage de la soie en Europe."
+    ],
+    "q": {
+      "q": "Quels cours d’eau se rejoignent à Lyon ?",
+      "a": "Le Rhône et la Saône",
+      "x": [
+        "La Loire et l’Allier",
+        "La Seine et la Marne"
+      ]
+    }
+  },
+  "Q1004822": {
+    "t": "Un port fluvial près du sommet du grand arc du Congo",
+    "s": "Bumba se trouve sur la rive nord du Congo, près du sommet du grand arc que le fleuve dessine à travers l’Afrique centrale. Ici, le Congo est un géant tressé, large de plusieurs kilomètres et semé de longues îles boisées, qui coule à travers une forêt tropicale ininterrompue. D’en haut, le fleuve brun et la canopée vert sombre s’étendent jusqu’à tous les horizons.",
+    "w": "Une petite ville sur la rive nord d’un immense fleuve brun et tressé, plein d’îles boisées, au milieu d’une forêt sans fin.",
+    "f": [
+      "Le Congo franchit deux fois l’équateur au fil de son grand arc à travers l’Afrique centrale.",
+      "Seule l’Amazone déverse plus d’eau dans la mer que le Congo.",
+      "Autour de Bumba, le fleuve atteint le point le plus septentrional de son cours."
+    ],
+    "q": {
+      "q": "Combien de fois le fleuve Congo franchit-il l’équateur ?",
+      "a": "Deux fois",
+      "x": [
+        "Une fois",
+        "Trois fois"
+      ]
+    }
+  },
+  "Q3659": {
+    "t": "Une capitale du Sahel au confluent de deux rivières",
+    "s": "N’Djamena se dresse là où le Logone se jette dans le Chari, sur une plaine plate à la lisière sud du Sahel. De l’autre côté du Logone, c’est le Cameroun, si proche que les deux pays se font face au-dessus de l’eau. Le fleuve réuni poursuit vers le nord-ouest jusqu’au lac Tchad, lac peu profond qui gonfle et rétrécit de façon spectaculaire selon les saisons et les années.",
+    "w": "Une ville plate à un confluent, une ville plus petite de l’autre côté de l’eau, des plaines inondables et une savane sèche autour.",
+    "f": [
+      "Le bassin du Chari fournit environ 90 % de l’eau qui atteint le lac Tchad.",
+      "La ville a été fondée en 1900 sous le nom de Fort-Lamy.",
+      "La rive sud du lac Tchad se trouve à environ 100 km au nord-ouest de la ville."
+    ],
+    "q": {
+      "q": "Quel lac le Chari alimente-t-il, au nord-ouest de N’Djamena ?",
+      "a": "Le lac Tchad",
+      "x": [
+        "Le lac Victoria",
+        "Le lac Volta"
+      ]
+    }
+  },
+  "Q242587": {
+    "t": "Une ancienne capitale de sultanat sur une route caravanière",
+    "s": "Abéché s’étend sur le plateau sec de l’est du Tchad, ville basse couleur de sable parmi des collines rocheuses éparses et des oueds saisonniers. À partir de 1850, ce fut la capitale du sultanat du Ouaddaï, puissant État du Sahel. Des caravanes en partaient jadis à travers le Sahara jusqu’à la côte méditerranéenne, à Benghazi, à quelque 2 000 km.",
+    "w": "Une petite ville poussiéreuse parmi de basses collines rocheuses et des lits sableux à sec, sur un plateau brun et plat.",
+    "f": [
+      "L’ancienne capitale du Ouaddaï, Ouara, gît en ruine à une cinquantaine de kilomètres au nord.",
+      "L’essentiel des pluies tombe en juillet et en août, transformant brièvement les oueds en rivières."
+    ],
+    "q": {
+      "q": "De quel sultanat Abéché était-elle la capitale ?",
+      "a": "Le Ouaddaï",
+      "x": [
+        "Le Bornou",
+        "Le Darfour"
+      ]
+    }
+  },
+  "Q3818": {
+    "t": "Une capitale insulaire sous un volcan de 3 000 mètres",
+    "s": "Un volcan boisé de plus de 3 000 mètres, souvent coiffé de nuages, se dresse derrière Malabo : le pic Basilé. La ville occupe la côte nord de Bioko, île volcanique luxuriante du golfe de Guinée, séparée du reste de son pays, sur le continent. Son port s’incurve dans le rebord d’un ancien cratère volcanique en partie envahi par la mer.",
+    "w": "Une petite ville sur la rive nord d’une île volcanique verte, avec un immense sommet boisé qui se dresse derrière elle.",
+    "f": [
+      "Le pic Basilé, environ 3 010 mètres, est le point culminant de la Guinée équatoriale.",
+      "Bioko se trouve à moins de 40 km de la côte du Cameroun.",
+      "Malabo est l’une des rares capitales situées sur une île séparée du territoire continental de son pays."
+    ],
+    "q": {
+      "q": "Comment s’appelait Malabo quand les Britanniques l’ont fondée en 1827 ?",
+      "a": "Port Clarence",
+      "x": [
+        "Fernando Po",
+        "Bathurst"
+      ]
+    }
+  },
+  "Q130514": {
+    "t": "L’antique Thèbes, partagée par le Nil entre vie et mort",
+    "s": "Louxor enjambe le Nil dans une étroite vallée verte entre des falaises désertiques nues. Sur la rive est, où se lève le soleil, se trouvent la ville et les immenses temples de Karnak et de Louxor. Sur la rive ouest, au-delà des champs, le terrain monte vers des collines calcaires sèches qui cachent la Vallée des Rois, où furent inhumés les pharaons du Nouvel Empire.",
+    "w": "Une bande verte sur les deux rives du Nil, une ville côté est et des falaises désertiques pâles qui se dressent à l’ouest.",
+    "f": [
+      "Sous le nom de Thèbes, ce fut la capitale de l’Égypte pendant une grande partie du Nouvel Empire, il y a plus de 3 000 ans.",
+      "L’ensemble des temples de Karnak est l’un des plus grands sites religieux jamais construits.",
+      "Thèbes antique et sa nécropole sont inscrites au patrimoine mondial de l’UNESCO depuis 1979."
+    ],
+    "q": {
+      "q": "Comment les Grecs anciens appelaient-ils la ville de Louxor ?",
+      "a": "Thèbes",
+      "x": [
+        "Memphis",
+        "Héliopolis"
+      ]
+    }
+  },
+  "Q3642": {
+    "t": "Une ville moderniste au bord d’un grand escarpement",
+    "s": "Juste à l’est d’Asmara, le terrain plonge de plus de 2 000 mètres vers la côte brûlante de la mer Rouge en quelques dizaines de kilomètres seulement. La ville se trouve à environ 2 300 mètres sur les hauts plateaux érythréens, près du bord de cet escarpement. Ses rues sont bordées d’édifices modernistes du début du XXe siècle, et l’UNESCO l’a classée en 2017 comme ville moderniste africaine.",
+    "w": "Une ville compacte sur un haut plateau, au bord d’un escarpement abrupt et profondément entaillé qui plonge à l’est vers la mer Rouge.",
+    "f": [
+      "Une voie ferrée à voie étroite descend l’escarpement en lacets d’Asmara jusqu’au port de Massaoua.",
+      "Grâce à son altitude, Asmara jouit de températures douces toute l’année, bien qu’elle soit sous les tropiques.",
+      "On explique souvent le nom d’Asmara par « elles les ont unies », d’après quatre villages qui se sont réunis."
+    ],
+    "q": {
+      "q": "Pour quel style d’architecture Asmara est-elle classée par l’UNESCO ?",
+      "a": "Le modernisme",
+      "x": [
+        "Le gothique",
+        "Le baroque"
+      ]
+    }
+  },
+  "Q1435": {
+    "t": "Une montagne boisée au-dessus, la plaine de la Save en bas",
+    "s": "Zagreb descend vers le sud depuis les pentes de la Medvednica, montagne boisée qui se dresse juste au nord de la ville, jusqu’à la large plaine de la Save. Le cœur historique occupe les basses collines ; les quartiers plus récents s’étendent sur la plaine au-delà de la rivière. Les deux villes médiévales de Gradec et Kaptol ont été réunies en une seule en 1850.",
+    "w": "Une ville entre une montagne sombre et boisée au nord et une rivière qui traverse la plaine au sud.",
+    "f": [
+      "Sljeme, sommet de la Medvednica, culmine à environ 1 030 mètres.",
+      "Dans la ville basse, une chaîne de parcs et de places en U est appelée le « Fer à cheval vert ».",
+      "La Save, qui longe la ville, rejoint le Danube à Belgrade."
+    ],
+    "q": {
+      "q": "Quelle rivière traverse Zagreb ?",
+      "a": "La Save",
+      "x": [
+        "La Drave",
+        "Le Danube"
+      ]
+    }
+  },
+  "Q1770": {
+    "t": "Une ville hanséatique médiévale sur une baie calcaire",
+    "s": "Une colline calcaire, Toompea, domine la large baie de Tallinn, avec autour d’elle une vieille ville médiévale parmi les mieux conservées d’Europe du Nord. La colline fait partie du Glint baltique, long escarpement côtier. Des îles boisées ponctuent la baie, et Helsinki se trouve à environ 80 km de l’autre côté de la mer. Sous le nom de Reval, la ville fut un port hanséatique prospère.",
+    "w": "Une ville compacte incurvée autour d’une large baie à quelques îles boisées, avec une côte plate et boisée à l’est et à l’ouest.",
+    "f": [
+      "Le centre historique de Tallinn est inscrit au patrimoine mondial de l’UNESCO depuis 1997.",
+      "Le Glint baltique, escarpement calcaire, court sur plus de 1 000 km de la Suède jusqu’en Russie.",
+      "On explique souvent le nom de Tallinn par « ville danoise », en souvenir de la domination danoise au XIIIe siècle."
+    ],
+    "q": {
+      "q": "Quel était l’ancien nom hanséatique de Tallinn ?",
+      "a": "Reval",
+      "x": [
+        "Dorpat",
+        "Memel"
+      ]
+    }
+  },
+  "Q261887": {
+    "t": "Une ville fluviale entre plateaux herbeux et vallées boisées",
+    "s": "Kikwit se trouve sur le Kwilu, dans le sud-ouest du Congo, ville régionale animée dans un paysage de plateaux herbeux entaillés de vallées profondes et boisées. D’en haut, cherchez ce motif saisissant : une savane pâle sur les hauteurs et des rubans vert sombre de forêt-galerie le long de chaque cours d’eau. Le Kwilu coule vers le nord, vers le Kasaï, puis le Congo.",
+    "w": "Une ville sur une rivière sinueuse, avec des plateaux herbeux pâles et des bandes de forêt vert sombre au fond des vallées.",
+    "f": [
+      "Le Kwilu rejoint le Kwango, qui alimente le Kasaï, l’un des plus grands affluents du Congo.",
+      "La région de Kikwit est connue depuis longtemps pour ses palmiers à huile."
+    ],
+    "q": {
+      "q": "Quelle rivière traverse Kikwit ?",
+      "a": "Le Kwilu",
+      "x": [
+        "Le Kwango",
+        "Le Lomami"
+      ]
+    }
+  },
+  "Q211073": {
+    "t": "Un port rocheux où les navires de haute mer s’arrêtent",
+    "s": "Matadi s’accroche à des collines rocheuses et abruptes sur la rive gauche du Congo, à environ 150 km de l’Atlantique. C’est le terminus des navires de haute mer : juste en amont, le fleuve se resserre en gorges et en rapides. Dans les années 1890, une voie ferrée fut construite pour contourner ces obstacles jusqu’à Kinshasa. Le nom de la ville signifie « pierres » en kikongo.",
+    "w": "Une ville rocheuse et vallonnée sur un tronçon étroit et rapide du Congo, franchi par un unique long pont suspendu.",
+    "f": [
+      "Le chemin de fer Matadi-Kinshasa, construit de 1890 à 1898, contourne les chutes Livingstone.",
+      "Le pont de Matadi sur le Congo a une travée principale d’environ 520 mètres.",
+      "En amont, aux chutes de Yelala, le navigateur portugais Diogo Cão laissa une inscription sur les rochers en 1485."
+    ],
+    "q": {
+      "q": "Que signifie le nom Matadi en kikongo ?",
+      "a": "Pierres",
+      "x": [
+        "Port",
+        "Banc de sable"
+      ]
+    }
+  },
+  "Q271404": {
+    "t": "Une ville minière cernée de mines géantes à ciel ouvert",
+    "s": "Cratères en gradins, terrils gris et bassins de résidus pâles balafrent la terre autour de Kolwezi : d’immenses mines à ciel ouvert sur l’une des ceintures minérales les plus riches du monde. La ville occupe un haut plateau du sud du Congo. Les minerais contiennent ici du cuivre et du cobalt, métal aujourd’hui recherché pour les batteries rechargeables.",
+    "w": "Une ville entourée d’immenses mines en gradins, de terrils gris et de bassins de résidus plats, sur un haut plateau.",
+    "f": [
+      "La République démocratique du Congo produit plus de la moitié du cobalt extrait dans le monde, en grande partie autour de Kolwezi.",
+      "La ceinture de cuivre d’Afrique centrale s’étend de Kolwezi jusqu’en Zambie, de l’autre côté de la frontière.",
+      "Kolwezi se trouve à environ 1 450 mètres d’altitude."
+    ],
+    "q": {
+      "q": "Quel métal des batteries extrait-on en masse autour de Kolwezi ?",
+      "a": "Le cobalt",
+      "x": [
+        "Le lithium",
+        "Le nickel"
+      ]
+    }
+  },
+  "Q187593": {
+    "t": "La capitale du cuivre et sa montagne noire de scories",
+    "s": "Lubumbashi s’étend sur le haut plateau plat de la ceinture de cuivre, à l’extrême sud-est du Congo, à quelques dizaines de kilomètres seulement de la Zambie. Cherchez une colline sombre près du centre-ville : un énorme terril de scories laissé par un siècle de fonte du cuivre, à côté de la haute cheminée de la fonderie. La ville a été fondée en 1910 sous le nom d’Élisabethville.",
+    "w": "Une ville quadrillée sur un plateau plat, avec un terril de scories sombre et tabulaire près du centre et des bois secs autour.",
+    "f": [
+      "Lubumbashi est l’une des plus grandes villes de la République démocratique du Congo.",
+      "La frontière zambienne n’est qu’à une trentaine de kilomètres.",
+      "Le miombo, forêt sèche de feuillus, couvre une grande partie du plateau autour de la ville."
+    ],
+    "q": {
+      "q": "Comment s’appelait Lubumbashi à sa fondation en 1910 ?",
+      "a": "Élisabethville",
+      "x": [
+        "Léopoldville",
+        "Stanleyville"
+      ]
+    }
+  },
+  "Q3876": {
+    "t": "Une capitale-jardin étalée sur le plateau central",
+    "s": "Lilongwe s’étend sur le plateau central du Malawi, à environ 1 050 mètres : ville éclatée en quartiers distincts séparés par des ceintures vertes et par la sinueuse rivière Lilongwe. Autour, la terre rouge et les cultures s’étendent dans toutes les directions, beaucoup plantées de maïs et de tabac. À une centaine de kilomètres à l’est, le terrain descend vers la rive du lac Malawi.",
+    "w": "Une ville lâche, éclatée en quartiers parmi les arbres et les terres rouges, traversée par une petite rivière sinueuse.",
+    "f": [
+      "Lilongwe a remplacé Zomba comme capitale du Malawi en 1975.",
+      "Le lac Malawi abrite plus d’espèces de poissons que tout autre lac au monde.",
+      "Beaucoup de quartiers de Lilongwe ont des numéros au lieu de noms, comme Area 3 ou Area 47."
+    ],
+    "q": {
+      "q": "Quel lac se trouve à environ 100 km à l’est de Lilongwe ?",
+      "a": "Le lac Malawi",
+      "x": [
+        "Le lac Tanganyika",
+        "Le lac Kariba"
+      ]
+    }
+  },
+  "Q3825": {
+    "t": "Une « ville libre » sur un estuaire, au nord de l’équateur",
+    "s": "Libreville borde la rive nord de l’estuaire du Komo, là où le fleuve s’ouvre sur l’Atlantique, à seulement 40 km environ au nord de l’équateur. La forêt tropicale arrive presque aux portes de la ville, et de l’autre côté de l’estuaire, les mangroves et les plages du parc national de Pongara restent sauvages. La ville a été fondée en 1849 par des Africains libérés d’un navire négrier.",
+    "w": "Une ville le long de la rive nord d’un large estuaire ouvert sur la mer, avec forêt dense et mangroves sur l’autre rive.",
+    "f": [
+      "Les plages de Pongara, de l’autre côté de l’estuaire, sont un site de ponte des tortues luths.",
+      "Près de 90 % du Gabon est couvert de forêt.",
+      "Libreville est la capitale du Gabon et de loin sa plus grande ville."
+    ],
+    "q": {
+      "q": "Que signifie le nom Libreville ?",
+      "a": "Ville libre",
+      "x": [
+        "Ville nouvelle",
+        "Ville du fleuve"
+      ]
+    }
+  },
+  "Q501715": {
+    "t": "Une ville pétrolière insulaire au bord d’un grand delta",
+    "s": "Port-Gentil se dresse près de la pointe du cap Lopez, sur l’île Mandji, île plate et sableuse à l’embouchure de l’Ogooué, le grand fleuve du Gabon. Derrière elle s’étale le delta du fleuve, dédale de bras, de lagunes et de mangroves. La ville est le centre de l’industrie pétrolière gabonaise, et la nuit vous apercevrez peut-être les lumières des plates-formes au large.",
+    "w": "Une petite ville à la pointe nord d’une île plate et sableuse, avec un immense delta de bras et de mangroves au sud-est.",
+    "f": [
+      "L’Ogooué est le plus long fleuve du Gabon et draine la majeure partie du pays.",
+      "Le cap Lopez doit son nom au navigateur portugais Lopo Gonçalves, qui le longea dans les années 1470."
+    ],
+    "q": {
+      "q": "À l’embouchure de quel fleuve se trouve Port-Gentil ?",
+      "a": "L’Ogooué",
+      "x": [
+        "Le Congo",
+        "La Sanaga"
+      ]
+    }
+  },
+  "Q9427": {
+    "t": "La ville légendaire du désert, juste au-delà du Niger",
+    "s": "D’en haut, Tombouctou est une petite ville couleur de sable qui pourrait être n’importe où. Pourtant, du XIVe au XVIe siècle, ce fut un grand centre de commerce et de savoir islamique, aux bibliothèques remplies de manuscrits. Elle se dresse là où le désert rencontre le fleuve : le Sahara atteint sa bordure nord, tandis que le Niger coule à environ 15 km au sud.",
+    "w": "Une petite ville couleur de sable au bord des dunes, avec la plaine inondable verte du Niger un peu au sud.",
+    "f": [
+      "La mosquée Djingareyber, bâtie vers 1327, est faite en grande partie de terre et de paille.",
+      "Des familles de Tombouctou ont conservé des dizaines de milliers de vieux manuscrits de droit, d’astronomie et de médecine.",
+      "Tombouctou est inscrite au patrimoine mondial de l’UNESCO depuis 1988."
+    ],
+    "q": {
+      "q": "Quel empereur du Mali fit bâtir la mosquée Djingareyber de Tombouctou ?",
+      "a": "Mansa Moussa",
+      "x": [
+        "Soundiata Keïta",
+        "Askia Mohammed"
+      ]
+    }
+  },
+  "Q3688": {
+    "t": "Une capitale bâtie sur les dunes, face à l’Atlantique",
+    "s": "En 1958, ce n’était guère qu’un village ; Nouakchott compte aujourd’hui environ un million d’habitants. Cette année-là commencèrent les travaux d’une nouvelle capitale, prévue pour quelque 15 000 personnes. Elle se trouve là où le Sahara rencontre l’Atlantique : une ville basse et étalée sur un sable plat, entre l’océan et une mer de dunes qui presse toujours ses bords.",
+    "w": "Une ville basse et étalée sur un sable plat, une plage atlantique rectiligne à l’ouest et des dunes orange qui avancent à l’est.",
+    "f": [
+      "Le parc national du Banc d’Arguin, site UNESCO plus au nord sur la côte, accueille des millions de limicoles en hiver.",
+      "Une grande partie de la ville ne se trouve qu’à quelques mètres au-dessus du niveau de la mer.",
+      "On traduit souvent le nom de Nouakchott par « lieu des vents »."
+    ],
+    "q": {
+      "q": "En quelle année ont commencé les travaux de Nouakchott, nouvelle capitale ?",
+      "a": "En 1958",
+      "x": [
+        "En 1901",
+        "En 1985"
+      ]
+    }
+  },
+  "Q3703": {
+    "t": "Une capitale sur le Niger, sous un escarpement de grès",
+    "s": "Bamako s’étend sur les deux rives du Niger, fleuve large et peu profond, tressé de bancs de sable et de petites îles rocheuses. Derrière la ville, au nord, se dresse le rebord du plateau mandingue, ligne de falaises et de collines de grès. Des ponts relient les deux moitiés de la ville. On dit souvent que le nom signifie « fleuve aux crocodiles » en bambara.",
+    "w": "Une grande ville sur les deux rives d’un large fleuve à bancs de sable et à ponts, adossée à des collines de grès au nord.",
+    "f": [
+      "Juste en aval du centre, les rapides de Sotuba brisent le cours du Niger.",
+      "Bamako est l’une des villes qui grandissent le plus vite en Afrique.",
+      "Le Niger naît à seulement 250 km environ de l’Atlantique, mais coule vers l’intérieur, en s’en éloignant, en passant par Bamako."
+    ],
+    "q": {
+      "q": "Que signifierait, dit-on souvent, le nom Bamako ?",
+      "a": "Fleuve aux crocodiles",
+      "x": [
+        "Mare aux hippopotames",
+        "Falaise rouge"
+      ]
+    }
+  },
+  "Q735645": {
+    "t": "Une porte oasis vers l’Adrar et l’Œil du Sahara",
+    "s": "Atar est une ville-oasis de palmiers-dattiers dans une vallée du plateau de l’Adrar, au cœur du Sahara mauritanien. Des falaises de grès sombre et des dunes orange l’entourent. À quelque 180 km au nord-est se trouve l’une des vues aériennes les plus célèbres : la structure de Richat, ou Œil du Sahara, immense ensemble d’anneaux rocheux concentriques.",
+    "w": "Une bande verte de palmeraies dans une vallée sèche entre de sombres falaises de plateau, avec des dunes tout autour.",
+    "f": [
+      "La structure de Richat mesure environ 40 km de diamètre, assez pour être repérée par les astronautes.",
+      "Chinguetti, vieille ville caravanière à environ 80 km à l’est, est inscrite au patrimoine mondial de l’UNESCO.",
+      "Chaque été, la récolte des dattes, la guetna, attire les familles dans les oasis de l’Adrar."
+    ],
+    "q": {
+      "q": "Qu’est-ce que l’Œil du Sahara, au nord-est d’Atar ?",
+      "a": "Un dôme de strates rocheuses érodé",
+      "x": [
+        "Un cratère de météorite",
+        "Un lac salé asséché"
+      ]
+    }
+  },
+  "Q213507": {
+    "t": "Une ville de terre crue qui devient île pendant la crue",
+    "s": "Djenné se dresse dans le delta intérieur du Niger, sur un tertre que les crues du Bani transforment en île à chaque saison des pluies. Sa grande mosquée est le plus grand édifice en terre crue du monde, et chaque année les habitants la recrépissent ensemble lors d’une fête. D’en haut, cherchez une ville brune et compacte cernée d’eau ou de plaine inondable verte.",
+    "w": "Une ville compacte, brun terre, sur une île basse dans une vaste plaine inondable qui se couvre d’eau à la saison humide.",
+    "f": [
+      "La grande mosquée actuelle date de 1907, reconstruite sur le site d’une mosquée bien plus ancienne.",
+      "Djenné-Djeno, tout près, occupée vers 250 av. J.-C., est l’une des plus anciennes villes connues d’Afrique subsaharienne.",
+      "Les villes anciennes de Djenné sont inscrites au patrimoine mondial de l’UNESCO depuis 1988."
+    ],
+    "q": {
+      "q": "Qu’est-ce que les habitants de Djenné recrépissent ensemble chaque année ?",
+      "a": "La grande mosquée",
+      "x": [
+        "Les remparts",
+        "La halle du marché"
+      ]
+    }
+  },
+  "Q208389": {
+    "t": "Une oasis du Sahara aux cercles verts sur le sable",
+    "s": "Des cercles verts parfaits ponctuent le désert autour de Sebha : des champs arrosés par des rampes d’irrigation pivotantes qui puisent dans des eaux souterraines anciennes. La ville se trouve au cœur du Sahara libyen, dans le Fezzan, région d’erg, de plateaux caillouteux et de chapelets d’oasis. Pendant des siècles, ce fut un carrefour des caravanes entre la Méditerranée et le Sahel.",
+    "w": "Une ville sur une plaine désertique plate, avec des champs circulaires verts épars, et des plateaux rocheux sombres et des ergs autour.",
+    "f": [
+      "L’eau pompée autour de Sebha est tombée en pluie il y a des milliers d’années, quand le Sahara était plus vert.",
+      "À environ 150 km à l’ouest, Germa était la capitale des Garamantes, royaume du désert à l’époque romaine.",
+      "Au Fezzan, bien des années passent presque sans pluie."
+    ],
+    "q": {
+      "q": "Quel peuple antique régnait sur un royaume du désert à l’ouest de Sebha ?",
+      "a": "Les Garamantes",
+      "x": [
+        "Les Nabatéens",
+        "Les Phéniciens"
+      ]
+    }
+  },
+  "Q40816": {
+    "t": "Un port de fondation grecque sur le golfe de Syrte",
+    "s": "Benghazi s’étale le long d’une côte basse à l’angle nord-est du golfe de Syrte, où prés salés et lagunes bordent la mer. À l’intérieur, à l’est, s’élèvent les hauteurs vertes du Djebel Akhdar, l’une des régions les plus arrosées de Libye. La ville est née comme colonie grecque d’Euhespérides, avant d’être rebaptisée Bérénice, d’après une reine ptolémaïque.",
+    "w": "Une ville côtière plate avec lagunes et étendues salées le long du rivage, et des hauteurs vertes et boisées au nord-est.",
+    "f": [
+      "Des colons grecs ont fondé Euhespérides ici au VIe siècle av. J.-C.",
+      "Le Djebel Akhdar, la « Montagne verte », reçoit bien plus de pluie que presque partout ailleurs en Libye.",
+      "Benghazi est la deuxième ville de Libye."
+    ],
+    "q": {
+      "q": "Comment s’appelait Benghazi à l’époque ptolémaïque ?",
+      "a": "Bérénice",
+      "x": [
+        "Cyrène",
+        "Apollonie"
+      ]
+    }
+  },
+  "Q17151": {
+    "t": "Une ville portuaire face à l’Olympe, par-delà le golfe",
+    "s": "Thessalonique s’incurve au fond du golfe Thermaïque, long front de mer adossé à des collines. Par temps clair, regardez au sud-ouest, de l’autre côté de l’eau : le massif de l’Olympe, demeure des dieux grecs, s’élève à près de 3 000 mètres, souvent coiffé de neige. À l’ouest de la ville, l’Axios construit un delta vert de zones humides et de rizières.",
+    "w": "Une ville le long du fond incurvé d’un golfe, adossée à des collines, avec un delta à l’ouest et l’Olympe de l’autre côté de l’eau.",
+    "f": [
+      "Le roi Cassandre fonda la ville en 315 av. J.-C. et lui donna le nom de sa femme Thessalonikè, demi-sœur d’Alexandre le Grand.",
+      "L’Olympe culmine à environ 2 918 mètres : le point le plus haut de Grèce.",
+      "Les monuments paléochrétiens et byzantins de la ville sont inscrits au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Thessalonique porte le nom de la demi-sœur de quel souverain ?",
+      "a": "Alexandre le Grand",
+      "x": [
+        "Jules César",
+        "Ptolémée Ier"
+      ]
+    }
+  },
+  "Q3820": {
+    "t": "Des sommets enneigés et une mer chaude, côte à côte",
+    "s": "Beyrouth occupe un cap triangulaire qui s’avance dans la Méditerranée, avec les pentes du mont Liban qui s’élèvent à pic juste derrière. En hiver, les sommets, bien au-dessus de 2 000 mètres, blanchissent de neige tandis que la mer reste bleue en contrebas. Au large de la pointe ouest se dressent deux grandes arches marines, la grotte aux Pigeons. Sous le nom romain de Berytus, la ville était célèbre pour son école de droit.",
+    "w": "Une ville dense couvrant un cap triangulaire, avec des pentes montagneuses abruptes qui s’élèvent aussitôt à l’est.",
+    "f": [
+      "Beyrouth est habitée depuis environ 5 000 ans.",
+      "Le cèdre est l’emblème du Liban, et de vieux bois de cèdres subsistent en altitude sur le mont Liban.",
+      "À la fin de l’hiver, on peut skier sur le mont Liban et se baigner dans la mer le même jour."
+    ],
+    "q": {
+      "q": "Quel genre d’école rendit célèbre la Berytus romaine ?",
+      "a": "Une école de droit",
+      "x": [
+        "Une école de médecine",
+        "Une école de philosophie"
+      ]
+    }
+  },
+  "Q994": {
+    "t": "Des sources chaudes dans une gorge lui ont donné son nom",
+    "s": "Tbilissi serpente le long de la vallée de la Koura, qui traverse la ville dans une gorge étroite entre des collines abruptes. La vieille ville se blottit sous une forteresse perchée sur une crête, là où des sources chaudes sulfureuses alimentent toujours des bains à coupoles. Le nom vient du mot géorgien pour « chaud ». Par temps clair, le mur enneigé du Grand Caucase borde l’horizon nord.",
+    "w": "Une longue ville dans une vallée sinueuse entre des collines nues, avec la chaîne enneigée du Grand Caucase loin au nord.",
+    "f": [
+      "La tradition attribue la fondation de la ville au roi Vakhtang Gorgassali, au Ve siècle.",
+      "La mer de Tbilissi, réservoir au nord-est de la ville, mesure environ 9 km de long.",
+      "La Koura, appelée Mtkvari en géorgien, poursuit jusqu’à la mer Caspienne à travers l’Azerbaïdjan."
+    ],
+    "q": {
+      "q": "D’où vient le nom de Tbilissi ?",
+      "a": "De ses sources chaudes",
+      "x": [
+        "De ses vignes",
+        "D’un méandre du fleuve"
+      ]
+    }
+  },
+  "Q218861": {
+    "t": "Une cité royale hérissée de châteaux au-dessus du lac Tana",
+    "s": "Gondar se trouve sur les hauts plateaux du nord de l’Éthiopie, à plus de 2 100 mètres, sur des collines qui dominent la plaine descendant vers le lac Tana, à quelque 35 km au sud. En 1636, l’empereur Fasilidas en fit sa capitale et y bâtit un château de pierre ; ses successeurs en ajoutèrent d’autres, formant une enceinte royale fortifiée. Au nord-est se dressent les pics déchiquetés du Simien.",
+    "w": "Une ville vallonnée sur les hauts plateaux, un grand lac au sud et une chaîne de pics déchiquetés loin au nord-est.",
+    "f": [
+      "L’enceinte royale de Fasil Ghebbi est inscrite au patrimoine mondial de l’UNESCO depuis 1979.",
+      "Gondar est restée la capitale de l’Éthiopie pendant plus de deux siècles.",
+      "Le Simien comprend le Ras Dashen, environ 4 550 mètres, point culminant de l’Éthiopie."
+    ],
+    "q": {
+      "q": "Quel lac, source du Nil Bleu, se trouve au sud de Gondar ?",
+      "a": "Le lac Tana",
+      "x": [
+        "Le lac Turkana",
+        "Le lac Abaya"
+      ]
+    }
+  },
+  "Q42053": {
+    "t": "« La moitié du monde », capitale safavide au pied du Zagros",
+    "s": "Ispahan s’étend sur une haute plaine sèche au pied oriental des monts Zagros, enfilée le long du Zayandeh Roud, la rivière qui a rendu cette oasis possible. En 1598, Chah Abbas Ier en fit la capitale safavide et la couvrit de mosquées, de ponts et d’une immense place publique. Un dicton persan de l’époque appelle Ispahan « la moitié du monde ».",
+    "w": "Une grande ville sur une plaine plate et sèche, traversée d’ouest en est par une rivière, avec les chaînes du Zagros à l’ouest.",
+    "f": [
+      "La place Naqsh-e Jahan, tracée sous Chah Abbas Ier, mesure environ 560 mètres et est classée par l’UNESCO.",
+      "Le pont Si-o-se-pol, sur le Zayandeh Roud, doit son nom à ses 33 arches.",
+      "Le Zayandeh Roud n’aboutit pas à la mer mais au marais salant de Gavkhouni, à l’est."
+    ],
+    "q": {
+      "q": "Comment un vieux dicton persan appelle-t-il Ispahan ?",
+      "a": "La moitié du monde",
+      "x": [
+        "La perle du désert",
+        "La ville des roses"
+      ]
+    }
+  },
+  "Q6397066": {
+    "t": "Poètes, jardins et un lac qui vire au rose",
+    "s": "Chiraz s’étend dans une vallée verte des monts Zagros, à environ 1 500 mètres, entre des crêtes nues et plissées. C’est la ville des poètes en Iran : Hafez et Saadi y reposent, et l’on visite encore leurs tombeaux comme des sanctuaires. Juste au sud-est se trouve le lac Maharloo, lac salé qui peut virer au rose en été. Les ruines de Persépolis se dressent à quelque 60 km au nord-est.",
+    "w": "Une ville dans une longue vallée entre des crêtes nues et plissées, avec un lac salé peu profond, parfois rose, au sud-est.",
+    "f": [
+      "Persépolis, capitale cérémonielle des rois achéménides, est inscrite au patrimoine mondial de l’UNESCO.",
+      "Le lac Maharloo doit sa couleur rose à des micro-organismes amateurs de sel.",
+      "Le jardin d’Eram, à Chiraz, fait partie du Jardin persan classé par l’UNESCO."
+    ],
+    "q": {
+      "q": "Quelle antique cité royale se trouve à environ 60 km au nord-est de Chiraz ?",
+      "a": "Persépolis",
+      "x": [
+        "Suse",
+        "Ecbatane"
+      ]
+    }
+  },
+  "Q3844": {
+    "t": "Face à face avec Kinshasa, de part et d’autre du Congo",
+    "s": "Brazzaville s’étire le long de la rive nord du Congo, face à Kinshasa, bien plus grande, de l’autre côté de l’eau. Juste en aval de la ville, le fleuve quitte la vaste étendue calme du pool Malebo et se brise en rapides écumants, traînées blanches que vous verrez peut-être d’en haut. La ville porte le nom de l’explorateur Pierre Savorgnan de Brazza, qui y fonda un poste en 1880.",
+    "w": "Une ville sur la rive nord d’un large fleuve, face à une ville plus grande, avec des rapides blancs juste en aval.",
+    "f": [
+      "Brazzaville est la capitale de la République du Congo, pays distinct de son voisin d’en face.",
+      "Les rapides en aval de la ville, début des chutes Livingstone, empêchent de naviguer jusqu’à la mer.",
+      "Mbamou, grande île du pool Malebo, se trouve juste en amont de la ville."
+    ],
+    "q": {
+      "q": "Quel explorateur a donné son nom à Brazzaville ?",
+      "a": "Pierre Savorgnan de Brazza",
+      "x": [
+        "Henry Morton Stanley",
+        "David Livingstone"
+      ]
+    }
+  },
+  "Q3733": {
+    "t": "Une capitale longue et mince sur une presqu’île pluvieuse",
+    "s": "Conakry s’étire le long de la presqu’île du Kaloum, étroit doigt de terre pointé vers le sud-ouest dans l’Atlantique, avec son vieux centre sur l’ancienne île de Tombo, tout au bout. Au large se trouvent les îles de Los, vertes et rocheuses. C’est l’une des capitales les plus pluvieuses du monde, noyée sous plusieurs mètres de pluie par an, surtout de juin à septembre.",
+    "w": "Une ville qui remplit une longue presqu’île étroite pointée vers le sud-ouest, avec un groupe d’îles vertes au large.",
+    "f": [
+      "Conakry reçoit environ 3 700 mm de pluie par an, en grande partie en juillet et en août.",
+      "Les îles de Los sont les restes d’un ancien anneau de roche volcanique.",
+      "La Guinée possède les plus grandes réserves mondiales de bauxite, le minerai de l’aluminium."
+    ],
+    "q": {
+      "q": "Quelles îles se trouvent juste au large de Conakry ?",
+      "a": "Les îles de Los",
+      "x": [
+        "Les Bijagos",
+        "Les îles Banana"
+      ]
+    }
+  },
+  "Q3768": {
+    "t": "Un village devenu capitale, avec une basilique géante",
+    "s": "Yamoussoukro se trouve au centre doucement vallonné de la Côte d’Ivoire, là où la forêt cède la place à la savane. Simple village autrefois, elle est devenue la capitale officielle en 1983 et a été tracée avec des avenues immenses et des lacs artificiels. Sa basilique est l’une des plus grandes églises du monde. Au nord-ouest de la ville s’étend le grand réservoir ramifié du lac de Kossou.",
+    "w": "Une ville aérée aux larges avenues et petits lacs, dans une campagne verte et vallonnée, avec un grand réservoir ramifié au nord-ouest.",
+    "f": [
+      "La basilique Notre-Dame-de-la-Paix, achevée en 1989, a un dôme inspiré de Saint-Pierre de Rome.",
+      "Le lac de Kossou, créé par un barrage sur le Bandama, est le plus grand lac de Côte d’Ivoire.",
+      "Abidjan, centre économique du pays, se trouve à environ 230 km au sud-est."
+    ],
+    "q": {
+      "q": "Depuis quelle année Yamoussoukro est-elle la capitale officielle ?",
+      "a": "Depuis 1983",
+      "x": [
+        "Depuis 1960",
+        "Depuis 2001"
+      ]
+    }
+  },
+  "Q612713": {
+    "t": "Une ville isolée de la savane, parmi des collines rocheuses",
+    "s": "N’Délé est une petite ville de l’extrême nord de la République centrafricaine, nichée parmi des collines rocheuses au-dessus d’une vaste plaine de savane boisée. À la fin du XIXe siècle, ce fut le siège du sultanat du Dar al-Kuti, dont les souverains adossèrent leur ville aux pentes. Au nord-est s’étend l’un des grands parcs sauvages d’Afrique, traversé de rivières saisonnières.",
+    "w": "Une toute petite ville parmi des collines rocheuses, entourée d’une savane boisée sans fin, coupée de rivières saisonnières.",
+    "f": [
+      "Le parc national du Manovo-Gounda St Floris, au nord-est de la ville, est inscrit au patrimoine mondial de l’UNESCO.",
+      "La saison des pluies va ici à peu près de mai à octobre, quand la savane reverdit."
+    ],
+    "q": {
+      "q": "Quel parc classé par l’UNESCO s’étend au nord-est de N’Délé ?",
+      "a": "Manovo-Gounda St Floris",
+      "x": [
+        "Dzanga-Sangha",
+        "Garamba"
+      ]
+    }
+  },
+  "Q3711": {
+    "t": "Une ville blanche sur la crête où la Save rejoint le Danube",
+    "s": "Belgrade se dresse sur une crête au-dessus de l’un des grands confluents d’Europe : la Save se jette dans le Danube juste sous la vieille forteresse. D’en haut, cherchez la pointe où les deux rivières se rejoignent, avec une île boisée au confluent et, sur l’autre rive de la Save, le quadrillage plat et planifié de Novi Beograd. Les Romains appelaient la ville Singidunum.",
+    "w": "Deux larges rivières réunies sous une forteresse de crête, une île verte au confluent et un quadrillage plat de l’autre côté.",
+    "f": [
+      "Belgrade est l’une des plus anciennes villes habitées sans interruption d’Europe.",
+      "La Save atteint ici le Danube après un voyage de près de 1 000 km depuis les Alpes slovènes.",
+      "Novi Beograd, de l’autre côté de la Save, a été bâtie à partir de 1948 sur d’anciens marécages."
+    ],
+    "q": {
+      "q": "Que signifie le nom Belgrade ?",
+      "a": "Ville blanche",
+      "x": [
+        "Ville de pierre",
+        "Ville du fleuve"
+      ]
+    }
+  },
+  "Q1025617": {
+    "t": "Un avant-poste isolé près de trois frontières",
+    "s": "Obo est une petite ville de l’extrême sud-est de la République centrafricaine, près des frontières du Soudan du Sud et de la République démocratique du Congo. Autour, savane boisée et sombre forêt-galerie s’étendent sur des centaines de kilomètres, traversées par de rares routes. Les cours d’eau d’ici s’écoulent vers le sud jusqu’au Mbomou, puis, au bout du compte, jusqu’au Congo.",
+    "w": "Une minuscule clairière habitée dans une immense mosaïque verte de savane et de sombre forêt riveraine.",
+    "f": [
+      "Bangui, la capitale, se trouve à près de 900 km à l’ouest à vol d’oiseau.",
+      "Le Mbomou, qui draine la région, rejoint l’Uele pour former l’Oubangui."
+    ],
+    "q": {
+      "q": "Près des frontières de quels pays se trouve Obo ?",
+      "a": "Soudan du Sud et RD Congo",
+      "x": [
+        "Tchad et Soudan",
+        "Cameroun et Congo"
+      ]
+    }
+  },
+  "Q3832": {
+    "t": "Une capitale fluviale nommée d’après ses rapides",
+    "s": "Bangui s’étend sur la rive nord de l’Oubangui, juste là où la rivière oblique vers le sud et dévale une ligne de rapides qui a donné son nom à la ville. De l’autre côté de l’eau se trouve la ville de Zongo, en République démocratique du Congo. Des collines boisées se dressent derrière la ville, et forêt et savane s’étendent loin au-delà.",
+    "w": "Une ville sur la rive nord d’un large coude de rivière, des collines boisées derrière et une autre ville sur la rive opposée.",
+    "f": [
+      "Les Français ont fondé un poste ici en 1889.",
+      "L’Oubangui est le plus grand affluent de rive droite du Congo.",
+      "Bangui se trouve à moins de 500 km au nord de l’équateur."
+    ],
+    "q": {
+      "q": "D’où vient le nom de Bangui ?",
+      "a": "Des rapides de la rivière",
+      "x": [
+        "D’une colline royale",
+        "D’un marché au sel"
+      ]
+    }
+  },
+  "Q818824": {
+    "t": "Une ville du Sahel près des montagnes aux aiguilles",
+    "s": "Maroua s’étend sur les plaines sèches de l’Extrême-Nord camerounais, là où se rejoignent deux rivières saisonnières dont les larges lits de sable ne se remplissent qu’après les pluies d’été. À l’ouest se dressent les monts Mandara, chaîne accidentée dont les cheminées volcaniques pointent comme des aiguilles autour de villages comme Rhumsiki. Au nord, le parc national de Waza couvre une plaine inondable plate.",
+    "w": "Une ville étalée sur une plaine plate et sèche traversée de larges lits sableux, avec une chaîne accidentée à l’ouest.",
+    "f": [
+      "Les monts Mandara longent la frontière entre le Cameroun et le Nigeria.",
+      "Le parc national de Waza, au nord de la ville, protège éléphants, girafes et lions.",
+      "Maroua est la plus grande ville de la région de l’Extrême-Nord du Cameroun."
+    ],
+    "q": {
+      "q": "Quelles montagnes se dressent à l’ouest de Maroua ?",
+      "a": "Les monts Mandara",
+      "x": [
+        "Le plateau de l’Adamaoua",
+        "Le massif de l’Aïr"
+      ]
+    }
+  },
+  "Q3808": {
+    "t": "Sept collines vertes, rafraîchies par l’altitude",
+    "s": "Yaoundé est bâtie sur un groupe de collines boisées du sud du Cameroun, à environ 750 mètres, ce qui la rend nettement plus fraîche que la côte moite. D’en haut, des quartiers aux toits rouges remplissent les vallées entre des crêtes vertes, et la forêt tropicale s’étend vers le sud. Les Allemands y installèrent un poste commercial et scientifique en 1889.",
+    "w": "Une ville étalée sur des collines et des vallées vertes, avec des sommets boisés plus hauts au nord-ouest et la forêt tout autour.",
+    "f": [
+      "On surnomme souvent Yaoundé la « ville aux sept collines ».",
+      "Le mont Mbam Minkom, au nord-ouest de la ville, culmine à environ 1 300 mètres.",
+      "Douala, plus grande ville et principal port du Cameroun, se trouve à environ 200 km à l’ouest."
+    ],
+    "q": {
+      "q": "Quelle ville, et non Yaoundé, est la plus grande du Cameroun et son principal port ?",
+      "a": "Douala",
+      "x": [
+        "Kribi",
+        "Limbé"
+      ]
+    }
+  },
+  "Q19689": {
+    "t": "Le mont Dajti d’un côté, l’Adriatique de l’autre",
+    "s": "Tirana s’étale sur une plaine verte du centre de l’Albanie, avec le mur abrupt du mont Dajti dressé juste sur sa bordure est. L’Adriatique n’est qu’à une trentaine de kilomètres à l’ouest, au-delà d’une ligne de basses collines. La ville a été fondée en 1614 par un général ottoman, Suleyman Pacha, et a grandi lentement jusqu’à devenir la capitale en 1920.",
+    "w": "Une ville compacte sur une plaine verte, adossée à l’est à un mur de montagne abrupt, avec la mer non loin à l’ouest.",
+    "f": [
+      "Le mont Dajti, à l’est de la ville, culmine à environ 1 610 mètres et se rejoint en téléphérique.",
+      "Un lac artificiel bordé de bois s’étend dans le Grand Parc, au sud de la ville.",
+      "Le port de Durrës, à environ 30 km à l’ouest, a été fondé par des colons grecs sous le nom d’Épidamne."
+    ],
+    "q": {
+      "q": "Quelle montagne se dresse juste à l’est de Tirana ?",
+      "a": "Le mont Dajti",
+      "x": [
+        "Le mont Olympe",
+        "Le mont Lovćen"
+      ]
+    }
+  },
+  "Q1953": {
+    "t": "Une ville de pierre rose sous les neiges de l’Ararat",
+    "s": "Le mont Ararat, immense volcan enneigé flanqué de son jumeau plus petit, emplit l’horizon sud d’Erevan, à environ 60 km. La ville occupe un bassin au bord de la plaine de l’Ararat, et beaucoup de ses bâtiments sont en tuf volcanique rosé. Erevan fait remonter sa fondation à la forteresse d’Erebouni, bâtie en 782 av. J.-C.",
+    "w": "Une ville dans un bassin, une plaine verte et plate au sud et, au-delà, un volcan enneigé, massif et solitaire.",
+    "f": [
+      "Le mont Ararat culmine à environ 5 137 mètres, plus de 4 km au-dessus de la plaine.",
+      "L’Aragats, point culminant de l’Arménie à environ 4 090 mètres, se dresse au nord-ouest de la ville.",
+      "Le lac Sevan, à environ 60 km au nord-est, est l’un des plus grands lacs d’altitude d’Eurasie."
+    ],
+    "q": {
+      "q": "Quelle montagne domine la plaine au sud d’Erevan ?",
+      "a": "L’Ararat",
+      "x": [
+        "L’Aragats",
+        "L’Elbrouz"
+      ]
+    }
+  },
+  "Q9248": {
+    "t": "La capitale la plus basse du monde, sur une rive pétrolière",
+    "s": "Bakou est la capitale nationale la plus basse du globe : comme la surface de la Caspienne à ses pieds, la ville se trouve sous le niveau des océans. Elle s’incurve autour d’une baie, sur le flanc sud de la péninsule d’Apchéron. La terre sèche et brune alentour est piquetée de derricks, et au sud de la ville bouillonnent des dizaines de volcans de boue.",
+    "w": "Une ville incurvée autour d’une large baie sur une péninsule sèche et brune avancée dans la Caspienne, avec champs pétroliers et plates-formes.",
+    "f": [
+      "L’Azerbaïdjan compte plusieurs centaines de volcans de boue, une grande part de ceux du globe.",
+      "Certains des premiers puits de pétrole industriels du monde ont été forés à Bibi-Heybat, près de Bakou, dans les années 1840.",
+      "La vieille ville fortifiée de Bakou, avec la tour de la Vierge, est inscrite au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "À combien environ sous le niveau de la mer se trouve Bakou ?",
+      "a": "Environ 28 m",
+      "x": [
+        "Environ 280 m",
+        "Environ 2 m"
+      ]
+    }
+  },
+  "Q818731": {
+    "t": "Une ville de plateau où naissent les eaux de l’Okavango",
+    "s": "Menongue se trouve sur le haut plateau boisé du sud-est de l’Angola, au bord du Cuebe. Les rivières d’ici n’atteignent jamais la mer : le Cuebe rejoint le Cubango, qui file au sud-est le long de la frontière namibienne et finit dans le delta de l’Okavango, où il s’étale dans les sables du Kalahari, au Botswana. Autour de la ville, une forêt claire court jusqu’à l’horizon.",
+    "w": "Une petite ville au bord d’une rivière sinueuse sur un plateau plat et boisé, avec des zones humides herbeuses dans les vallées.",
+    "f": [
+      "Le delta de l’Okavango, où finit le Cubango, est l’un des plus grands deltas intérieurs du monde.",
+      "L’essentiel de l’eau de l’Okavango vient des pluies tombées sur les hauts plateaux angolais.",
+      "Menongue se trouve à environ 1 350 mètres d’altitude."
+    ],
+    "q": {
+      "q": "Où finissent les rivières autour de Menongue ?",
+      "a": "Dans le delta de l’Okavango",
+      "x": [
+        "Dans l’océan Atlantique",
+        "Dans le lac Malawi"
+      ]
+    }
+  },
+  "Q207322": {
+    "t": "Une ville d’altitude où naissent les grands fleuves d’Angola",
+    "s": "Huambo se dresse sur le plateau central de l’Angola, à environ 1 700 mètres, haut pays frais et vert où naissent certains des grands fleuves d’Afrique australe : le Kwanza, le Cunene et le Cubango prennent tous leur source ici et partent dans des directions différentes. La ville a été fondée en 1912 sur le chemin de fer de Benguela. À l’ouest se dresse le mont Moco, point culminant de l’Angola.",
+    "w": "Une ville sur un haut plateau ouvert de prairies et de fermes, avec des montagnes plus hautes à l’ouest.",
+    "f": [
+      "Le mont Moco, environ 2 620 mètres, est le point culminant de l’Angola.",
+      "Le chemin de fer de Benguela relie Huambo au port atlantique de Lobito."
+    ],
+    "q": {
+      "q": "Comment s’appelait Huambo à l’époque coloniale ?",
+      "a": "Nova Lisboa",
+      "x": [
+        "Sá da Bandeira",
+        "Silva Porto"
+      ]
+    }
+  },
+  "Q131818": {
+    "t": "Une baie lumineuse devant, un lac salé blanc derrière",
+    "s": "Oran s’incurve autour d’une large baie de la côte ouest algérienne, gardée à l’ouest par la montagne abrupte du Murdjadjo. Juste à l’intérieur, au sud, s’étend la sebkha d’Oran, immense lac salé peu profond qui éblouit de blanc à la saison sèche. Des marchands andalous fondèrent la ville en 903, et l’Espagne la tint pendant une grande partie des XVIe-XVIIIe siècles.",
+    "w": "Une ville incurvée autour d’une baie, une montagne abrupte à l’ouest et un grand lac salé pâle à l’intérieur, au sud.",
+    "f": [
+      "La sebkha d’Oran s’assèche souvent en été en une croûte de sel blanc.",
+      "Le fort de Santa Cruz, bâti par les Espagnols, couronne le Murdjadjo au-dessus du port.",
+      "Oran est la deuxième ville d’Algérie."
+    ],
+    "q": {
+      "q": "Quel style de musique est né à Oran ?",
+      "a": "Le raï",
+      "x": [
+        "Le gnaoua",
+        "Le fado"
+      ]
+    }
+  },
+  "Q43595": {
+    "t": "Entre lagune et océan, avec une ville sur pilotis tout près",
+    "s": "Cotonou occupe une étroite bande de sable entre l’Atlantique et le lac Nokoué, large lagune peu profonde, et un chenal traverse la ville pour relier les deux. Sur les hauts-fonds nord du lac se dresse Ganvié, ville bâtie entièrement sur pilotis, où l’on circule en pirogue. Porto-Novo est la capitale officielle, mais Cotonou est la plus grande ville du Bénin et le siège du gouvernement.",
+    "w": "Une ville sur une bande de sable entre une plage océanique droite et un large lac peu profond, coupée par un chenal qui les relie.",
+    "f": [
+      "Ganvié, sur le lac Nokoué, compte quelque 20 000 habitants vivant dans des maisons sur pilotis.",
+      "Ouidah, plus à l’ouest sur la côte, fut un grand port de la traite atlantique."
+    ],
+    "q": {
+      "q": "Quel village sur pilotis se dresse sur le lac Nokoué, près de Cotonou ?",
+      "a": "Ganvié",
+      "x": [
+        "Ouidah",
+        "Abomey"
+      ]
+    }
+  },
+  "Q205792": {
+    "t": "Une oasis au cœur volcanique du Sahara",
+    "s": "Tamanrasset s’étend dans une vallée sèche au bord du Hoggar, vaste massif de pics volcaniques sombres et de granit érodé au milieu du Sahara. À environ 1 400 mètres, elle est plus fraîche que le désert qui l’entoure. D’en haut, cherchez les cheminées volcaniques noires et les plateaux de basalte qui cernent la ville, tranchant sur le sable orange.",
+    "w": "Une petite ville sur le fond sableux d’une vallée, cerclée de pics et de plateaux volcaniques sombres jaillis du désert.",
+    "f": [
+      "Le mont Tahat, dans le Hoggar, environ 2 900 mètres, est le point culminant de l’Algérie.",
+      "Le plateau de l’Assekrem, dans le Hoggar, est célèbre pour ses levers de soleil sur une mer de pics volcaniques.",
+      "Tamanrasset est à près de 2 000 km d’Alger par la route."
+    ],
+    "q": {
+      "q": "Quelles montagnes se dressent autour de Tamanrasset ?",
+      "a": "Le Hoggar",
+      "x": [
+        "Le Tibesti",
+        "L’Aïr"
+      ]
+    }
+  },
+  "Q622841": {
+    "t": "Cinq villes perchées dans une vallée du désert",
+    "s": "Ghardaïa est la plus grande des cinq cités fortifiées bâties dans la vallée du M’zab, gorge sèche entaillée dans le plateau rocheux du nord du Sahara. Chacune escalade une basse colline en anneaux serrés de maisons, couronnés d’un minaret, avec des palmeraies dans la vallée en contrebas. Les Mozabites les fondèrent à partir du XIe siècle et inventèrent d’ingénieux moyens de partager les rares crues.",
+    "w": "Une vallée désertique sinueuse avec plusieurs villes compactes, chacune empilée sur une basse colline, et des palmeraies vertes entre elles.",
+    "f": [
+      "La vallée du M’zab est inscrite au patrimoine mondial de l’UNESCO depuis 1982.",
+      "L’architecte Le Corbusier admirait les formes simples et pratiques des villes du M’zab.",
+      "Puits et canaux répartissent entre les palmeraies de la vallée les rares crues soudaines."
+    ],
+    "q": {
+      "q": "Dans quelle vallée se trouvent Ghardaïa et ses villes sœurs ?",
+      "a": "Le M’zab",
+      "x": [
+        "Le Drâa",
+        "Le Souf"
+      ]
+    }
+  },
+  "Q472": {
+    "t": "Une montagne à la porte d’une capitale de haut bassin",
+    "s": "Le dôme arrondi de la Vitocha se dresse juste sur la bordure sud de Sofia, souvent blanc de neige en hiver, tandis que la longue crête du Grand Balkan ferme la vue au nord. Entre les deux, la ville remplit un large bassin élevé, à environ 550 mètres. À l’époque romaine, c’était Serdica, et l’empereur Constantin l’aurait appelée « ma Rome ».",
+    "w": "Une grande ville dans un bassin plat, avec une grosse montagne arrondie juste au sud et une longue chaîne au nord.",
+    "f": [
+      "Le Tcherni Vrah, sommet de la Vitocha, culmine à environ 2 290 mètres.",
+      "Sofia repose sur des sources minérales, et des fontaines publiques du centre déversent une eau tiède.",
+      "La Vitocha est devenue en 1934 le premier parc protégé des Balkans."
+    ],
+    "q": {
+      "q": "Quelle montagne se dresse juste au sud de Sofia ?",
+      "a": "La Vitocha",
+      "x": [
+        "Le Moussala",
+        "L’Olympe"
+      ]
+    }
+  },
+  "Q2280": {
+    "t": "Larges avenues, rivière paisible et fausse « mer »",
+    "s": "La « mer de Minsk » n’est pas une mer mais le réservoir de Zaslaouï, qui s’étale au nord-ouest de la capitale biélorusse. Minsk elle-même couvre une plaine doucement ondulée au centre du pays, entourée de forêts sombres et de cultures, et la petite Svislatch serpente en son centre en un chapelet d’étangs. La ville est mentionnée pour la première fois dans une chronique en 1067.",
+    "w": "Une grande ville aux larges avenues droites sur une plaine plate et boisée, avec une rivière sinueuse et un grand réservoir au nord-ouest.",
+    "f": [
+      "Le périphérique de Minsk mesure environ 56 km.",
+      "La Svislatch poursuit jusqu’à la Bérézina, puis jusqu’au Dniepr.",
+      "Minsk se trouve près du centre géographique de la Biélorussie."
+    ],
+    "q": {
+      "q": "Quelle rivière traverse Minsk ?",
+      "a": "La Svislatch",
+      "x": [
+        "Le Niémen",
+        "Le Pripiat"
+      ]
+    }
+  },
+  "Q3919": {
+    "t": "Une jeune capitale au bord du Kalahari",
+    "s": "Gaborone est l’une des plus jeunes capitales d’Afrique, planifiée dans les années 1960 au bord de la Notwane, à quelques kilomètres seulement de la frontière sud-africaine. D’en haut, cherchez un grand réservoir au sud, retenu par le barrage de Gaborone, avec des collines rocheuses toutes proches comme Kgale Hill. À l’ouest, la brousse sèche du Kalahari s’étend sur des centaines de kilomètres.",
+    "w": "Une ville étalée près d’un grand réservoir au sud, avec des collines rocheuses toutes proches et une brousse sèche et plate à l’ouest.",
+    "f": [
+      "Le Kalahari couvre environ 70 % du Botswana.",
+      "La construction a commencé en 1964, juste avant l’indépendance du Botswana en 1966.",
+      "La ville porte le nom de Kgosi Gaborone, un chef local."
+    ],
+    "q": {
+      "q": "Quel désert couvre l’essentiel du Botswana, à l’ouest de Gaborone ?",
+      "a": "Le Kalahari",
+      "x": [
+        "Le Namib",
+        "Le Karoo"
+      ]
+    }
+  },
+  "Q3777": {
+    "t": "Une capitale de savane, de terre rouge et de retenues d’eau",
+    "s": "Un chapelet de retenues d’eau le long de la bordure nord de Ouagadougou stocke l’eau pendant la longue saison sèche ; cherchez-les sur la savane plate du centre du Burkina Faso. La ville est basse, avec des rues de latérite rouge et des quartiers arborés. Pendant des siècles, ce fut la capitale du royaume mossi, et son roi traditionnel, le Mogho Naba, y tient toujours sa cour.",
+    "w": "Une ville plate, basse et rougeâtre sur une savane ouverte, avec un chapelet de retenues d’eau le long de son flanc nord.",
+    "f": [
+      "Le FESPACO, organisé ici tous les deux ans, est le plus grand festival de cinéma d’Afrique.",
+      "La saison des pluies ne dure qu’à peu près de juin à septembre."
+    ],
+    "q": {
+      "q": "Quel genre de festival a rendu Ouagadougou célèbre ?",
+      "a": "Un festival de cinéma",
+      "x": [
+        "Un festival de jazz",
+        "Une course de chameaux"
+      ]
+    }
+  },
+  "Q11194": {
+    "t": "Une longue ville de vallée cernée de montagnes olympiques",
+    "s": "Des montagnes abruptes et boisées enserrent Sarajevo de tous côtés, alors la ville s’étire : un long ruban mince d’est en ouest dans l’étroite vallée de la Miljacka, avec des sommets enneigés autour en hiver. Le gouverneur ottoman Isa-Beg Isaković fonda la ville dans les années 1460, et son vieux bazar porte encore sa marque.",
+    "w": "Une ville longue et étroite serrée dans une vallée, entourée de tous côtés de montagnes abruptes et boisées.",
+    "f": [
+      "Les montagnes autour de la ville, dont la Bjelašnica, la Jahorina et l’Igman, ont accueilli des épreuves olympiques.",
+      "En 1895, Sarajevo a ouvert une ligne de tramway électrique, l’une des premières d’Europe.",
+      "Baščaršija, le vieux bazar, date du XVe siècle."
+    ],
+    "q": {
+      "q": "Quels Jeux olympiques Sarajevo a-t-elle accueillis ?",
+      "a": "Les Jeux d’hiver de 1984",
+      "x": [
+        "Les Jeux d’été de 1972",
+        "Les Jeux d’hiver de 1980"
+      ]
+    }
+  },
+  "Q168652": {
+    "t": "Une ville d’altitude près d’un art rupestre exceptionnel",
+    "s": "Hargeisa se trouve sur un plateau sec de la Corne de l’Afrique, à environ 1 300 mètres, le long d’un large lit de rivière saisonnier qui ne se remplit qu’après la pluie. Autour s’étendent broussailles épineuses et terre rouge, pâturées par chameaux et chèvres. Dans des abris sous roche à quelque 50 km au nord-est, à Laas Geel, des bovins et des bergers peints il y a des millénaires brillent encore en rouge et blanc.",
+    "w": "Une ville étalée sur un plateau sec et rougeâtre, coupée par un large lit sableux, avec broussailles et basses collines autour.",
+    "f": [
+      "Les peintures de Laas Geel auraient au moins 5 000 ans.",
+      "Le marché au bétail de la ville est l’un des plus grands de la Corne de l’Afrique.",
+      "Son air d’altitude rend Hargeisa bien plus douce que la côte brûlante du golfe d’Aden."
+    ],
+    "q": {
+      "q": "Que trouve-t-on dans les abris sous roche de Laas Geel, près de Hargeisa ?",
+      "a": "D’anciennes peintures rupestres",
+      "x": [
+        "Des traces de dinosaures",
+        "Des pièces romaines"
+      ]
+    }
+  },
+  "Q3940": {
+    "t": "Une minuscule capitale sur un granit très ancien",
+    "s": "La plupart des îles océaniques sont volcaniques ou coralliennes, mais les montagnes de granit derrière Victoria sont des fragments de l’ancien supercontinent Gondwana, échoués en plein océan. La ville s’accroche à la côte nord-est de Mahé, la plus grande île des Seychelles. Juste au large, de petites îles et des récifs turquoise forment un parc national marin.",
+    "w": "Une petite ville sur une île de granit verte et montagneuse, avec des îlots et des récifs turquoise juste au large.",
+    "f": [
+      "Le granit des Seychelles a environ 750 millions d’années.",
+      "Victoria est l’une des plus petites capitales nationales du monde.",
+      "Le cocotier de mer, qui porte la plus grosse graine du monde, ne pousse à l’état sauvage qu’aux Seychelles."
+    ],
+    "q": {
+      "q": "De quelle roche sont faites les principales îles des Seychelles ?",
+      "a": "Le granit",
+      "x": [
+        "Le calcaire corallien",
+        "Le basalte"
+      ]
+    }
+  },
+  "Q3932": {
+    "t": "Pics volcaniques et jungle juste au nord de l’équateur",
+    "s": "São Tomé se trouve sur la côte nord-est d’une île volcanique luxuriante du golfe de Guinée, à seulement 40 km environ au nord de l’équateur. Derrière la ville, des montagnes boisées dépassent 2 000 mètres, et au sud de l’île une aiguille de roche volcanique, le Pico Cão Grande, jaillit de la jungle. Les Portugais s’installèrent sur l’île à la fin du XVe siècle.",
+    "w": "Une petite ville sur la rive nord-est d’une île verte et montagneuse, avec une forêt qui grimpe à pic derrière elle.",
+    "f": [
+      "Le pic de São Tomé, point culminant de l’île, s’élève à environ 2 020 mètres.",
+      "Au début du XXe siècle, São Tomé était l’un des premiers producteurs de cacao du monde."
+    ],
+    "q": {
+      "q": "Quelle ligne traverse l’îlot das Rolas, au large de la pointe sud de São Tomé ?",
+      "a": "L’équateur",
+      "x": [
+        "Le tropique du Capricorne",
+        "Le méridien de Greenwich"
+      ]
+    }
+  },
+  "Q23800": {
+    "t": "Une ville-forteresse sur une presqu’île entre deux ports",
+    "s": "La Valette remplit une étroite presqu’île rocheuse de la côte nord-est de Malte, avec un profond port naturel de chaque côté : le Grand Port au sud-est et Marsamxett au nord-ouest. Les chevaliers de Saint-Jean la bâtirent à partir de 1566, ville-forteresse planifiée, quadrillage de rues à l’intérieur de bastions massifs. Autour, Malte est un patchwork de villes de pierre claire et de petits champs.",
+    "w": "Une presqu’île fortifiée et quadrillée entre deux ports profonds et ramifiés, sur une petite île de pierre claire et de champs minuscules.",
+    "f": [
+      "La Valette couvre moins d’un kilomètre carré : la plus petite capitale de l’Union européenne.",
+      "Toute la ville est inscrite au patrimoine mondial de l’UNESCO depuis 1980.",
+      "La ville porte le nom de Jean de Valette, grand maître des chevaliers."
+    ],
+    "q": {
+      "q": "Quel ordre de chevalerie a bâti La Valette ?",
+      "a": "Les chevaliers de Saint-Jean",
+      "x": [
+        "Les Templiers",
+        "Les chevaliers Teutoniques"
+      ]
+    }
+  },
+  "Q1218": {
+    "t": "Sur la crête où les collines vertes cèdent au désert",
+    "s": "À quelque 25 km à peine de Jérusalem, le terrain plonge de plus de 1 000 mètres jusqu’au rivage de la mer Morte. La ville se dresse sur la crête des monts de Judée, à environ 750 mètres, juste sur la ligne de partage entre le versant méditerranéen à l’ouest et le désert à l’est. Sa vieille ville fortifiée est sacrée pour le judaïsme, le christianisme et l’islam.",
+    "w": "Une ville de pierre claire sur une crête de collines, des terrasses vertes à l’ouest et un désert brun et nu qui plonge à l’est.",
+    "f": [
+      "La vieille ville fortifiée couvre moins d’un kilomètre carré.",
+      "La vieille ville et ses remparts sont inscrits sur la liste du patrimoine mondial de l’UNESCO.",
+      "L’hiver peut apporter ici pluie et même neige, alors que le rivage de la mer Morte, en contrebas, reste doux et sec."
+    ],
+    "q": {
+      "q": "Quel sultan ottoman a bâti les remparts de la vieille ville de Jérusalem ?",
+      "a": "Soliman le Magnifique",
+      "x": [
+        "Mehmed II",
+        "Sélim Ier"
+      ]
+    }
+  },
+  "Q3751": {
+    "t": "Une capitale atlantique sur un plateau tabulaire",
+    "s": "Ces îles, à quelque 600 km des côtes africaines, étaient inhabitées jusqu’à l’arrivée des Portugais vers 1460. Praia, capitale du Cap-Vert, se trouve sur la côte sud de Santiago, la plus grande d’entre elles, son vieux centre sur un plateau tabulaire au-dessus d’une baie abritée. Juste à l’ouest se trouve le premier établissement portugais, Cidade Velha.",
+    "w": "Une ville sur un plateau plat au-dessus d’une petite baie, sur la côte sud, sèche et accidentée, d’une île volcanique.",
+    "f": [
+      "Cidade Velha, fondée en 1462, fut la première ville coloniale européenne sous les tropiques ; elle est classée par l’UNESCO.",
+      "La pluie est rare ici ; l’essentiel tombe en août et en septembre."
+    ],
+    "q": {
+      "q": "Que signifie le mot portugais praia ?",
+      "a": "Plage",
+      "x": [
+        "Port",
+        "Plateau"
+      ]
+    }
+  },
+  "Q3856": {
+    "t": "Une vieille ville en étoile sur la plaine de Chypre",
+    "s": "La vieille ville de Nicosie est un cercle presque parfait, ceint de remparts bâtis par les Vénitiens dans les années 1560, dont les bastions en pointe de flèche lui donnent un contour d’étoile. La ville occupe le milieu de la Mésorée, large plaine sèche au cœur de Chypre, avec la chaîne déchiquetée de Kyrenia au nord et les monts Troodos au sud-ouest.",
+    "w": "Une ville sur une plaine plate et fauve, un vieux cœur rond, une crête déchiquetée au nord et de plus hautes montagnes au sud-ouest.",
+    "f": [
+      "L’un des sommets de la chaîne de Kyrenia s’appelle Pentadaktylos, « cinq doigts », d’après son profil déchiqueté.",
+      "Le mont Olympe, dans le Troodos, point culminant de Chypre, s’élève à environ 1 950 mètres."
+    ],
+    "q": {
+      "q": "Combien de bastions comptent les remparts vénitiens de Nicosie ?",
+      "a": "Onze",
+      "x": [
+        "Sept",
+        "Vingt"
+      ]
+    }
   }
 }

@@ -1,0 +1,974 @@
+{
+  "Q170322": {
+    "t": "Red roofs, a pinched-shut bay and a famous beer",
+    "s": "Jiaozhou Bay is squeezed almost closed, with a long, hair-thin bridge drawn across it and Qingdao guarding the narrow mouth. East of the city, the granite massif of Lao Shan climbs straight out of the sea. Germany leased this coast in 1898, and the red-roofed old town and the Tsingtao brewery are both left over from that era.",
+    "w": "A nearly enclosed bay on the south coast of the Shandong Peninsula, a bridge across it, dark mountains just east of the city.",
+    "f": [
+      "The Tsingtao brewery was founded in 1903 by German and British settlers.",
+      "The Jiaozhou Bay Bridge, opened in 2011, runs for more than 25 km over the water.",
+      "The sailing races of the 2008 Beijing Olympics were held off Qingdao."
+    ],
+    "q": {
+      "q": "Which country leased Qingdao from 1898?",
+      "a": "Germany",
+      "x": [
+        "Britain",
+        "Russia"
+      ]
+    }
+  },
+  "Q26600": {
+    "t": "Kyushu's big city, with its airport almost downtown",
+    "s": "Few big cities keep their airport this close: Fukuoka's runway lies only a few kilometres from the centre, so jets skim low over the rooftops. The city curves around Hakata Bay, closed off to the north by a thin sandbar that leads out to Shikanoshima island. In 1274 and 1281, fleets sent by Kublai Khan landed on these very shores.",
+    "w": "A city wrapped around a round bay in northern Kyushu, with a long thin sandspit closing the bay to the north.",
+    "f": [
+      "Fukuoka Airport is just two subway stops from Hakata Station.",
+      "A gold seal given by a Han emperor to a local king was found on Shikanoshima in 1784.",
+      "A typhoon wrecked much of the second Mongol fleet; it was remembered as kamikaze, the “divine wind”."
+    ],
+    "q": {
+      "q": "Which empire twice landed troops at Hakata Bay, in 1274 and 1281?",
+      "a": "The Mongol Empire",
+      "x": [
+        "Ming China",
+        "Portugal"
+      ]
+    }
+  },
+  "Q245023": {
+    "t": "Central Taiwan's sunny city between mountains and sea",
+    "s": "Wide riverbeds of pale gravel streak the plain around Taichung, which fills a broad basin halfway down Taiwan's west coast. To the east the Central Mountain Range climbs in dark green folds; to the west a low plateau hides the sea. The climate is famously mild and sunny, and since 2017 Taichung has been Taiwan's second most populous city.",
+    "w": "A large grid city in a basin halfway down Taiwan's west coast, with mountains rising steeply to the east.",
+    "f": [
+      "The name Taichung simply means “central Taiwan”.",
+      "Chun Shui Tang, a Taichung teahouse, is one of two places that claim to have invented bubble tea in the 1980s.",
+      "Sun Moon Lake lies in the mountains about 40 km to the south-east."
+    ],
+    "q": {
+      "q": "What does the name Taichung mean?",
+      "a": "Central Taiwan",
+      "x": [
+        "Northern Taiwan",
+        "Eastern Taiwan"
+      ]
+    }
+  },
+  "Q215755": {
+    "t": "A bend of the Xiang, and a painter's home country",
+    "s": "Three cities crowd the Xiang River here — Xiangtan, Zhuzhou and Changsha — each within about 50 km of the others. Xiangtan sits on a wide bend of the river among low red hills and rice paddies. Its countryside produced two very different men: the painter Qi Baishi, born in 1864, and Mao Zedong, born in 1893 in the village of Shaoshan.",
+    "w": "A wide bend of the Xiang River, with Zhuzhou just to the east and the bigger sprawl of Changsha to the north.",
+    "f": [
+      "Qi Baishi, famous for his lively ink shrimps, was born in the Xiangtan countryside in 1864.",
+      "Shaoshan, Mao Zedong's birthplace, is administered by Xiangtan and lies about 40 km to the west.",
+      "The name means roughly “deep pool of the Xiang”."
+    ],
+    "q": {
+      "q": "Which painter, famous for his ink shrimps, was born near Xiangtan?",
+      "a": "Qi Baishi",
+      "x": [
+        "Xu Beihong",
+        "Zhang Daqian"
+      ]
+    }
+  },
+  "Q20934": {
+    "t": "Korea's air gateway, on land won from the sea",
+    "s": "At low tide the sea here simply leaves: grey-brown mudflats stretch for kilometres, laced with glinting channels. Incheon's airport stands on reclaimed land that joined two islands, and a bridge more than 21 km long strides across the shallows to the new district of Songdo. Seoul presses in from the east, so the two cities blur into one.",
+    "w": "Wide grey mudflats and islands on the Yellow Sea coast west of Seoul; a long bridge links the airport island to the mainland.",
+    "f": [
+      "The tide here can rise and fall by more than 8 metres.",
+      "Incheon Airport, opened in 2001, was built on reclaimed land between Yeongjong and Yongyu islands.",
+      "Jajangmyeon, noodles in black-bean sauce, is said to have been born in Incheon's Chinatown."
+    ],
+    "q": {
+      "q": "Which dish is said to have been born in Incheon's Chinatown?",
+      "a": "Jajangmyeon",
+      "x": [
+        "Bibimbap",
+        "Naengmyeon"
+      ]
+    }
+  },
+  "Q68744": {
+    "t": "An island city with a car-free islet at its tip",
+    "s": "Most of Xiamen fits on one rounded island, tied to the mainland by bridges and a causeway that fan out across the water. Off its south-western corner floats tiny Gulangyu, where old villas climb the hills and private cars are not allowed. Foreign traders knew the port as Amoy, and in 1842 it was among the first Chinese ports opened to them.",
+    "w": "A rounded island packed with city, bridges fanning out to the mainland, and a small green islet off its south-west tip.",
+    "f": [
+      "Gulangyu has been a UNESCO World Heritage site since 2017.",
+      "Gulangyu is nicknamed “piano island” for its many pianos and musicians.",
+      "The Gaoji Causeway, the island's first land link, was finished in 1955."
+    ],
+    "q": {
+      "q": "What did English-speaking traders call Xiamen?",
+      "a": "Amoy",
+      "x": [
+        "Swatow",
+        "Canton"
+      ]
+    }
+  },
+  "Q20927": {
+    "t": "A bowl of mountains that traps Korea's summer heat",
+    "s": "Mountains close around Daegu on every side, and the basin they form traps the heat: the city is known for some of South Korea's hottest summers. To the north, the ridge of Palgongsan climbs to about 1,190 m, while the Nakdong River curves past the western edge. Daegu grew rich on textiles and was long famous for apples from the surrounding slopes.",
+    "w": "A large city filling a round basin ringed by mountains, with the wide Nakdong River curving along its western side.",
+    "f": [
+      "Yangnyeongsi, Daegu's herbal-medicine market, dates back to the 17th century.",
+      "Palgongsan, north of the city, is scattered with Buddhist temples and hermitages.",
+      "Koreans jokingly call the city “Daefrica” for its summer heat."
+    ],
+    "q": {
+      "q": "Which fruit was Daegu long famous for?",
+      "a": "Apples",
+      "x": [
+        "Tangerines",
+        "Persimmons"
+      ]
+    }
+  },
+  "ne-pp-1159149137": {
+    "t": "A gourd-shaped peninsula on the road to Manchuria",
+    "s": "Since 1994 Jinxi has gone by a new name, Huludao — “gourd island”, after the bulbous peninsula poking into Liaodong Bay beside it. The city lies on the Liaoxi Corridor, the narrow strip between hills and sea that has always carried the road from Beijing to the north-east. Just to the south-west, Xingcheng keeps a complete Ming-dynasty walled town.",
+    "w": "A coastal city on the western shore of Liaodong Bay, a knobbly peninsula jutting into the sea and hills close behind.",
+    "f": [
+      "Xingcheng's walls, first built in 1428, enclose one of China's best-preserved Ming towns.",
+      "Shanhaiguan, where the Great Wall meets the sea, guards the south-western end of the same coastal corridor.",
+      "Huludao means “gourd island”, although the gourd is really a peninsula."
+    ],
+    "q": {
+      "q": "What is Jinxi called today?",
+      "a": "Huludao",
+      "x": [
+        "Jinzhou",
+        "Yingkou"
+      ]
+    }
+  },
+  "Q58401": {
+    "t": "A railway junction that outgrew its village name",
+    "s": "A little over a century ago this was a village, and the name still says so: Shijiazhuang means “the Shi family's village”. Then railway lines met here, and a provincial capital grew up on the flat North China Plain. To the west, the Taihang Mountains rise like a wall. Some 40 km south-east, a stone bridge about 1,400 years old still spans its river.",
+    "w": "A large grid city on the flat plain, with the Taihang Mountains rising abruptly to the west.",
+    "f": [
+      "The Anji Bridge, built around 600 AD, is the world's oldest standing open-spandrel stone arch bridge.",
+      "Zhengding, on the city's northern edge, is home to Longxing Temple, founded in 586.",
+      "Shijiazhuang is the capital of Hebei, the province that surrounds Beijing."
+    ],
+    "q": {
+      "q": "What turned the village of Shijiazhuang into a city?",
+      "a": "Railways",
+      "x": [
+        "The Grand Canal",
+        "A gold rush"
+      ]
+    }
+  },
+  "Q92277": {
+    "t": "Where winter mist turns riverside trees to crystal",
+    "s": "In the depths of winter the Songhua River keeps flowing through Jilin: water released from the Fengman Dam upstream is too warm to freeze. Its mist settles on the willows along the banks and freezes into feathery rime, turning the city silver. The river draws a broad S through the streets, and the long reservoir of Songhua Lake stretches away to the south-east.",
+    "w": "In winter a dark, unfrozen river snaking through a snowy city; a long, branching reservoir lies upstream to the south-east.",
+    "f": [
+      "The province of Jilin takes its name from this city.",
+      "The name comes from Manchu girin ula, “along the river”.",
+      "In 1976 a meteorite shower fell near Jilin; its largest stone weighs about 1.7 tonnes."
+    ],
+    "q": {
+      "q": "Which river loops through Jilin city?",
+      "a": "The Songhua",
+      "x": [
+        "The Amur",
+        "The Yalu"
+      ]
+    }
+  },
+  "Q42635": {
+    "t": "A river-mouth city with a dialect all its own",
+    "s": "Hemmed in by green mountains, Wenzhou spreads along the south bank of the Ou River as it widens into the East China Sea. Its people are famous traders: shops and workshops founded by Wenzhou families dot Italy, France and far beyond. At home they speak a dialect so distinct that other Chinese struggle to understand it.",
+    "w": "A city on the south bank of a wide, muddy river mouth, with an islet in mid-river and mountains all around.",
+    "f": [
+      "Southern opera, nanxi, one of China's earliest mature forms of drama, arose here under the Song dynasty.",
+      "Jiangxin Islet, in the Ou River, carries two pagodas more than a thousand years old.",
+      "Many Chinese communities in Italy and France trace their roots to the Wenzhou area."
+    ],
+    "q": {
+      "q": "Which river meets the sea at Wenzhou?",
+      "a": "The Ou River",
+      "x": [
+        "The Qiantang",
+        "The Min"
+      ]
+    }
+  },
+  "Q46747": {
+    "t": "The “city of trees”, founded by a one-eyed warlord",
+    "s": "Sendai calls itself the “city of trees”, and avenues of zelkova really do run like green rivers through the centre. The castle town was founded around 1600 by Date Masamune, the warlord remembered as the “one-eyed dragon”. To the north-east, Matsushima Bay is scattered with some 260 pine-topped islets, praised for centuries as one of Japan's three finest views.",
+    "w": "The largest city of north-eastern Japan, on a plain by the Pacific, with an island-dotted bay to the north-east.",
+    "f": [
+      "At the Tanabata festival each August, huge paper streamers hang over Sendai's shopping arcades.",
+      "Matsushima is one of the Three Views of Japan, alongside Miyajima and Amanohashidate.",
+      "In the Zaō mountains to the south-west, winter rime turns trees into “snow monsters”."
+    ],
+    "q": {
+      "q": "Which warlord founded Sendai?",
+      "a": "Date Masamune",
+      "x": [
+        "Oda Nobunaga",
+        "Takeda Shingen"
+      ]
+    }
+  },
+  "Q426996": {
+    "t": "Silk town in the loops of the Jialing River",
+    "s": "The Jialing River seems unable to run straight here: it swings in wide loops through the red hills of the Sichuan Basin, and Nanchong has settled inside them. Mulberry trees and silk have kept the town busy for centuries, earning it a name as a silk city of western China. The 3rd-century historian Chen Shou, author of the Records of the Three Kingdoms, was born here.",
+    "w": "A city folded into the loops of a broad river, among terraced red hills in the north-east of the Sichuan Basin.",
+    "f": [
+      "Chen Shou's Records of the Three Kingdoms later inspired the famous novel Romance of the Three Kingdoms.",
+      "Langzhong, within Nanchong's borders, is one of the best-preserved old towns in China.",
+      "The Han astronomer Luoxia Hong, who helped draw up a new calendar in 104 BC, came from Langzhong."
+    ],
+    "q": {
+      "q": "Which river loops around Nanchong?",
+      "a": "The Jialing",
+      "x": [
+        "The Min",
+        "The Tuo"
+      ]
+    }
+  },
+  "Q147187": {
+    "t": "Coal, jujubes and an old town on the Grand Canal",
+    "s": "Its name means “jujube village”, but Zaozhuang grew on coal: modern mines opened here in the late 19th century, among the first run by a Chinese company. The city lies among low hills in the south of Shandong. On its southern edge the Grand Canal passes Taierzhuang, a canal town of stone lanes and waterways, and to the west stretch the long, reedy Weishan lakes.",
+    "w": "A spread-out city among low hills in southern Shandong, with the Grand Canal to the south and a chain of lakes to the west.",
+    "f": [
+      "The Zhongxing coal company, founded here in 1878, was one of China's first modern mining firms.",
+      "Tengzhou, within Zaozhuang, is traditionally named as the birthplace of the philosopher Mozi.",
+      "Weishan Lake belongs to the Nansi Lakes, a chain of four lakes more than 100 km long."
+    ],
+    "q": {
+      "q": "What does the name Zaozhuang mean?",
+      "a": "Jujube village",
+      "x": [
+        "Pear village",
+        "Salt village"
+      ]
+    }
+  },
+  "Q210493": {
+    "t": "Beacon smoke, sea mirages and China's oldest winery",
+    "s": "Pirates gave Yantai its name: in the Ming era, beacon fires on the hill above the harbour warned of their ships, and “Yantai” means “smoke terrace”. The city stretches along the north coast of the Shandong Peninsula, facing the islands of the Bohai Strait. Further west, at Penglai, rare summer mirages of phantom towns over the sea fed legends of the islands of the immortals.",
+    "w": "A long coastal city on the north shore of the Shandong Peninsula, a small island tied to land by a neck of sand, islands offshore.",
+    "f": [
+      "Changyu, China's first modern winery, was founded here in 1892.",
+      "Zhifu Island, joined to the mainland by a neck of sand, gave the port its old European name, Chefoo.",
+      "The hills around Yantai are one of China's best-known apple-growing regions."
+    ],
+    "q": {
+      "q": "What does the name Yantai mean?",
+      "a": "Smoke terrace",
+      "x": [
+        "Swallow terrace",
+        "Salt terrace"
+      ]
+    }
+  },
+  "Q57719": {
+    "t": "A crossroads city on the Yellow River's old bed",
+    "s": "For centuries the Yellow River flowed right through Xuzhou, until it swung north in 1855; its abandoned bed still winds across the city as a ribbon of water and trees. Low hills ring the centre, and Yunlong Lake shines on the southern side. Liu Bang, who founded the Han dynasty in 202 BC, came from nearby Pei, so the area is full of Han tombs.",
+    "w": "A big city ringed by low green hills on the flat plain, with a lake on its southern side and rail lines radiating out.",
+    "f": [
+      "Han-era terracotta soldiers, much smaller than those of Xi'an, were found at Shizishan in 1984.",
+      "Two of China's main railways, Beijing–Shanghai and the east–west Longhai line, cross here.",
+      "In ancient times the city was called Pengcheng."
+    ],
+    "q": {
+      "q": "Which dynasty's founder came from the Xuzhou area?",
+      "a": "The Han",
+      "x": [
+        "The Tang",
+        "The Ming"
+      ]
+    }
+  },
+  "Q373346": {
+    "t": "Home town of calligraphy's greatest master",
+    "s": "Dams have turned the Yi River into a chain of broad, still pools running right through Linyi, shining like a string of mirrors. North of the city rise the rugged Yimeng hills. The old name of this land was Langya, and it produced two of China's most famous men: the calligrapher Wang Xizhi, born in 303, and Zhuge Liang, the strategist of the Three Kingdoms.",
+    "w": "A wide river turned into a chain of broad pools running north–south through a large city, with hills to the north.",
+    "f": [
+      "Wang Xizhi's Preface to the Orchid Pavilion is the most celebrated work in Chinese calligraphy.",
+      "In 1972, bamboo slips from a tomb at Yinqueshan here revealed Sun Bin's lost Art of War.",
+      "Zhuge Liang was born in Yinan county, now part of Linyi."
+    ],
+    "q": {
+      "q": "Which famous calligrapher was born in Linyi?",
+      "a": "Wang Xizhi",
+      "x": [
+        "Su Shi",
+        "Mi Fu"
+      ]
+    }
+  },
+  "Q189823": {
+    "t": "Hainan's gateway across a narrow strait",
+    "s": "Haikou means “mouth of the sea”, and it sits exactly there, where the Nandu River meets the Qiongzhou Strait on Hainan's north coast. Across roughly 30 km of water lies the Leizhou Peninsula, part of mainland China. South-west of the city, extinct volcanic cones pock the green countryside; one of them, Ma'anling, still has a clear crater.",
+    "w": "A flat, sprawling city on Hainan's north coast, a river delta with islands, and the mainland across the strait.",
+    "f": [
+      "Old downtown Haikou is lined with qilou, arcaded shophouses from the early 20th century.",
+      "The volcano field around Haikou is part of the Leiqiong UNESCO Global Geopark.",
+      "Trains cross the Qiongzhou Strait on ferries — the tracks run straight onto the ships."
+    ],
+    "q": {
+      "q": "Which strait separates Haikou from mainland China?",
+      "a": "The Qiongzhou Strait",
+      "x": [
+        "The Taiwan Strait",
+        "The Bohai Strait"
+      ]
+    }
+  },
+  "Q185684": {
+    "t": "A science city beside a lake called “the nest”",
+    "s": "South-east of Hefei spreads Chaohu, one of China's five great freshwater lakes; its name means “nest lake”, and the city has now grown right down to its shore. Hefei lies between the Yangtze and the Huai, and it has become a science city, home to a leading university and an experimental fusion reactor nicknamed the “artificial sun”.",
+    "w": "A large city on a plain, with a big, irregular lake to its south-east and the Yangtze further south.",
+    "f": [
+      "Judge Bao, the incorruptible magistrate of Chinese opera, was born in Hefei in 999.",
+      "Hefei's EAST tokamak is one of China's main fusion-energy experiments.",
+      "The University of Science and Technology of China moved to Hefei in 1970."
+    ],
+    "q": {
+      "q": "Which lake lies just south-east of Hefei?",
+      "a": "Chaohu",
+      "x": [
+        "Taihu",
+        "Poyang Lake"
+      ]
+    }
+  },
+  "Q360643": {
+    "t": "The other Suzhou, on the plain where empires fell",
+    "s": "Don't confuse it with the garden city near Shanghai: this Suzhou, in northern Anhui, is written with a different character and sits among the endless flat fields of the Huai plain. Its history is bigger than its skyline. In 209 BC the first great peasant revolt against the Qin broke out at Dazexiang, now in the city, and seven years later Xiang Yu's army was surrounded at nearby Gaixia.",
+    "w": "A mid-sized city on a vast, flat patchwork of fields, crossed by straight canals and rail lines.",
+    "f": [
+      "The two Suzhous sound the same, but their first characters differ; this one means “lodging”.",
+      "Gaixia, where Xiang Yu was cornered in 202 BC, lies in today's Lingbi county.",
+      "Lingbi county is famous for Lingbi stones, dark scholar's rocks that ring when struck."
+    ],
+    "q": {
+      "q": "Which revolt against the Qin began near Suzhou, Anhui, in 209 BC?",
+      "a": "Chen Sheng and Wu Guang's uprising",
+      "x": [
+        "The Yellow Turban Rebellion",
+        "The Red Eyebrows rebellion"
+      ]
+    }
+  },
+  "Q404763": {
+    "t": "A basin of scholars, jade and a canal heading north",
+    "s": "Mountains wrap Nanyang on three sides, leaving its basin open only to the south. On the western edge lies the great Danjiangkou Reservoir, and from its shore a man-made river sets off north towards Beijing, more than 1,200 km away. Nanyang produced Zhang Heng, the Han scientist who built a seismoscope in 132 AD, and Zhang Zhongjing, revered as China's sage of medicine.",
+    "w": "A city in a wide basin ringed by hills on three sides, with a large, branching reservoir far to the west.",
+    "f": [
+      "The central route of the South–North Water Transfer begins at Taocha, on the reservoir in Nanyang's west.",
+      "Dushan jade, from a hill north of the city, is counted among China's four famous jades.",
+      "Zhang Zhongjing's treatise on fevers, written around 200 AD, is still studied in Chinese medicine."
+    ],
+    "q": {
+      "q": "What did Nanyang native Zhang Heng build in 132 AD?",
+      "a": "A seismoscope",
+      "x": [
+        "A magnetic compass",
+        "A printing press"
+      ]
+    }
+  },
+  "Q42780": {
+    "t": "Three rivers meet at a port like no other",
+    "s": "Three rivers meet in the heart of Ningbo and flow on as one to the sea, past kilometres of cranes and quays. Together with the Zhoushan islands offshore, this is the world's busiest port by cargo tonnage. To the north-west, the Hangzhou Bay Bridge draws a thin S-curve 36 km across the brown water. Ningbo has traded by sea for more than a thousand years.",
+    "w": "A city where rivers join, docks stretching to the coast, an archipelago to the east and a long bridge across the bay to the north-west.",
+    "f": [
+      "Tianyi Pavilion, built in 1561, is China's oldest surviving private library.",
+      "At Hemudu, west of the city, people were growing rice about 7,000 years ago.",
+      "The Hangzhou Bay Bridge opened in 2008."
+    ],
+    "q": {
+      "q": "Which bridge links Ningbo's side of Hangzhou Bay to the north shore?",
+      "a": "The Hangzhou Bay Bridge",
+      "x": [
+        "The Donghai Bridge",
+        "The Jiaozhou Bay Bridge"
+      ]
+    }
+  },
+  "Q58422": {
+    "t": "Coal, cement and China's first standard railway",
+    "s": "Modern Chinese industry started in places like Tangshan. Coal from the Kaiping mines had to be hauled away, so in 1881 the country's first standard-gauge railway was laid here, and in 1889 its first cement works followed. The city spreads over the plain between the Yan Mountains and the Bohai Sea, and on the coast to the south, the port of Caofeidian stands on land built out into the sea.",
+    "w": "An industrial city on the flat coastal plain, hills to the north, reclaimed land and port basins on the Bohai coast to the south.",
+    "f": [
+      "The Tangxu railway of 1881 ran about 10 km, from Tangshan to Xugezhuang.",
+      "Tangshan is called the porcelain capital of North China and is known for its bone china.",
+      "Caofeidian port was built on sandbanks and reclaimed land in the Bohai Sea."
+    ],
+    "q": {
+      "q": "What did China's first standard-gauge railway, opened at Tangshan in 1881, carry?",
+      "a": "Coal",
+      "x": [
+        "Salt",
+        "Iron ore"
+      ]
+    }
+  },
+  "Q140631": {
+    "t": "Taiwan's oldest city, fringed with glittering fish ponds",
+    "s": "Along Tainan's coast, land and water blur into a mosaic of fish ponds, salt pans and lagoons that glitter in the sun. This is Taiwan's oldest city: the Dutch built Fort Zeelandia at Anping in 1624, Koxinga drove them out in 1662, and Tainan remained the island's capital until the 1880s. Hundreds of temples still crowd its lanes.",
+    "w": "A flat coastal city in south-west Taiwan, with a shimmering patchwork of fish ponds and lagoons along the shore.",
+    "f": [
+      "Rare black-faced spoonbills spend the winter at the mouth of the Zengwen River, north of the city.",
+      "The closed Qigu salt works left behind a white “salt mountain” that visitors can climb.",
+      "Fort Zeelandia at Anping still has stretches of its original Dutch brick walls."
+    ],
+    "q": {
+      "q": "Which European power built Fort Zeelandia at Tainan?",
+      "a": "The Dutch",
+      "x": [
+        "The Spanish",
+        "The Portuguese"
+      ]
+    }
+  },
+  "Q72877": {
+    "t": "Buddhas in the cliffs at the edge of the steppe",
+    "s": "Datong stands high on the Shanxi plateau, where brown loess hills reach towards Inner Mongolia and fragments of the Great Wall run along the ridges. As Pingcheng, it was the capital of the Northern Wei, who in the 5th century carved the Yungang Grottoes into a sandstone cliff west of the city. Coal later made it rich, and dark mining scars mark the hills.",
+    "w": "A walled city in a broad brown basin on the Shanxi plateau, with dark coal-mining areas in the hills to the west.",
+    "f": [
+      "The Yungang Grottoes hold about 51,000 Buddhist statues; the largest is nearly 17 m tall.",
+      "The Northern Wei ruled from here from 398 until they moved their capital to Luoyang in 494.",
+      "The Hanging Temple, clinging to a cliff about 60 km south-east, is some 1,500 years old."
+    ],
+    "q": {
+      "q": "Which Buddhist grottoes lie on Datong's western edge?",
+      "a": "Yungang",
+      "x": [
+        "Longmen",
+        "Mogao"
+      ]
+    }
+  },
+  "Q34600": {
+    "t": "Japan's capital for a thousand years, in a bowl of hills",
+    "s": "A grid in a bowl: straight streets fill a basin closed by wooded hills on three sides and open only to the south. The plan was copied from the Chinese capital Chang'an when the emperor moved here in 794, and Kyoto remained the imperial capital until 1868. Just over the eastern hills shines Lake Biwa, the largest lake in Japan.",
+    "w": "A grid city in a basin with wooded hills on three sides, open to the south; Lake Biwa lies just beyond the eastern hills.",
+    "f": [
+      "Every 16 August, bonfires shaped as giant characters blaze on the hills around the city.",
+      "A canal completed in 1890 brings water from Lake Biwa through the hills into Kyoto.",
+      "Seventeen sites in and around Kyoto together form one UNESCO World Heritage listing."
+    ],
+    "q": {
+      "q": "In which year did Kyoto become Japan's capital?",
+      "a": "794",
+      "x": [
+        "710",
+        "1185"
+      ]
+    }
+  },
+  "ne-pp-1159140995": {
+    "t": "A county that grows flowers for all of China",
+    "s": "Shuyang is only a county, but a huge one, spread across the flat, watery plain of northern Jiangsu. Greenhouses and nursery beds glint all over its fields: Shuyang is one of China's biggest centres for garden plants, flowers and saplings, many of them sold online to buyers across the country. Straight channels between high levees cross the plain, dug to lead floods to the sea.",
+    "w": "A flat plain of fields and greenhouses crossed by wide, straight flood channels, with a large town at its centre.",
+    "f": [
+      "The name means “north bank of the Shu River”: yang is the sunny side of a river.",
+      "Hundreds of villages here sell plants online, a trade that grew out of old family nurseries.",
+      "The New Yi River, a flood channel dug in the mid-20th century, crosses the county to the sea."
+    ],
+    "q": {
+      "q": "What does Shuyang grow on a huge scale?",
+      "a": "Flowers and nursery plants",
+      "x": [
+        "Tea",
+        "Tobacco"
+      ]
+    }
+  },
+  "Q404817": {
+    "t": "An old town laid out like an ancient coin",
+    "s": "Shangqiu's old town, Guide, is a square of walls set inside a round moat and an outer ring of earth — the design of a traditional Chinese coin, round outside and square within. That ring of water can stand out on the flat plain of eastern Henan. The name recalls the Shang, who are said to have had early seats in the area.",
+    "w": "A small square old town inside a ring of water, beside a large modern city on the flat plain.",
+    "f": [
+      "Yingtian Academy here was one of the four great academies of the Northern Song.",
+      "Guide's walls were rebuilt in the early 16th century after floods buried the older town.",
+      "The name means “mound of the Shang”."
+    ],
+    "q": {
+      "q": "What does the layout of Shangqiu's old town resemble?",
+      "a": "An ancient coin",
+      "x": [
+        "A turtle",
+        "A lotus flower"
+      ]
+    }
+  },
+  "Q42651": {
+    "t": "The city named for tin that ran out",
+    "s": "Taihu, a vast shallow lake scattered with islands, washes against Wuxi's southern edge, and the Grand Canal threads straight through the city. The name means “without tin”: legend says the local tin was mined out in ancient times. On the western shore a bronze Buddha 88 m tall gazes over the water, and the long peninsula of Yuantouzhu, “turtle-head islet”, turns pink with cherry blossom in spring.",
+    "w": "A large city on the north shore of a vast lake with peninsulas and islands, a canal cutting through the centre.",
+    "f": [
+      "Taihu covers more than 2,000 km² and is one of China's largest freshwater lakes.",
+      "The Lingshan Grand Buddha, cast in bronze, was completed in 1996.",
+      "Huishan clay figurines, plump painted dolls, have been made in Wuxi for centuries."
+    ],
+    "q": {
+      "q": "What does the name Wuxi mean?",
+      "a": "Without tin",
+      "x": [
+        "Five streams",
+        "Western lake"
+      ]
+    }
+  },
+  "Q535534": {
+    "t": "The Blue City beneath the Yin Mountains",
+    "s": "A dark mountain wall runs along Hohhot's northern edge: the Daqing range, part of the Yin Shan, beyond which the Mongolian plateau begins. The city's name is Mongolian for “blue city”. Altan Khan founded it in the late 16th century around a Buddhist monastery. Today it is China's dairy capital, home to the country's two biggest milk companies.",
+    "w": "A large city on a flat plain, a straight dark mountain wall to the north, the Yellow River further south-west.",
+    "f": [
+      "Dazhao, the monastery the city grew around, dates from 1579.",
+      "The Yili and Mengniu dairy companies both have their headquarters in Hohhot.",
+      "South of the city lies the tomb of Wang Zhaojun, a Han court lady married to a Xiongnu ruler."
+    ],
+    "q": {
+      "q": "What does the name Hohhot mean?",
+      "a": "Blue city",
+      "x": [
+        "Red city",
+        "Golden city"
+      ]
+    }
+  },
+  "Q187136": {
+    "t": "Ancient capital of peonies and cliff-carved Buddhas",
+    "s": "Few places have been China's capital as often as Luoyang, strung along the Luo River in a basin between mountains. South of the city, the Yi River slips through a gap in the hills — the Longmen gorge, whose limestone cliffs hold about 100,000 Buddhist statues. The Yellow River flows past to the north. Every April the city bursts into peonies, its emblem.",
+    "w": "A long city on the Luo River in a basin, a narrow gap in the hills to the south, the Yellow River to the north.",
+    "f": [
+      "The White Horse Temple, traditionally founded in 68 AD, is considered China's first Buddhist temple.",
+      "The Longmen Grottoes have been a UNESCO World Heritage site since 2000.",
+      "Luoyang served as the capital of more than a dozen dynasties and kingdoms."
+    ],
+    "q": {
+      "q": "Which flower is Luoyang famous for?",
+      "a": "The peony",
+      "x": [
+        "The plum blossom",
+        "The lotus"
+      ]
+    }
+  },
+  "ne-pp-1159146993": {
+    "t": "Home of the sage who wrote the first book on tea",
+    "s": "The city at this spot is Tianmen, on the flat Jianghan Plain of Hubei, where rice paddies, fish ponds and lakes break the land into a watery mosaic. The Han River curves along its southern side. In the 8th century a foundling raised in a monastery here, Lu Yu, grew up to write The Classic of Tea, the world's first book about the drink.",
+    "w": "A city on a flat plain of paddies, fish ponds and lakes, with the Han River curving to the south.",
+    "f": [
+      "In Lu Yu's day the town was called Jingling; it was renamed Tianmen in 1726.",
+      "The name, “Heaven's Gate”, comes from hills north-west of the city.",
+      "The Jianghan Plain, built up by the Yangtze and Han rivers, is one of China's great rice and cotton lands."
+    ],
+    "q": {
+      "q": "Which book did Lu Yu, a native of Tianmen, write?",
+      "a": "The Classic of Tea",
+      "x": [
+        "The Art of War",
+        "The Book of Songs"
+      ]
+    }
+  },
+  "Q304848": {
+    "t": "China's great oilfield on a plain of a hundred lakes",
+    "s": "Hundreds of small lakes and marshes dot the flat Songnen Plain here, glinting between grassland and the grids of oil-well pads. Oil was struck in 1959, and the city was named Daqing, “great celebration”, to mark the tenth anniversary of the People's Republic. For decades Daqing produced more oil than any other field in China. In winter the whole plain turns white and frozen.",
+    "w": "A flat plain dotted with countless small lakes, criss-crossed by roads and regular rows of oil wells.",
+    "f": [
+      "For more than 25 years in a row, Daqing pumped over 50 million tonnes of oil a year.",
+      "Nodding-donkey pumps still work among the city's streets and lakes.",
+      "Winter temperatures here regularly fall below −25 °C."
+    ],
+    "q": {
+      "q": "What was discovered at Daqing in 1959?",
+      "a": "Oil",
+      "x": [
+        "Gold",
+        "Iron ore"
+      ]
+    }
+  },
+  "Q360702": {
+    "t": "Tea country at the foot of the Dabie Mountains",
+    "s": "Lu'an sits where the Huai plain meets the Dabie Mountains, which rise in green folds to the south-west. Big reservoirs glitter among those hills; built from the 1950s, they feed canals that water a vast spread of farmland. The slopes are also tea country: Lu'an Guapian, one of China's famous green teas, is made from single leaves, with no buds or stems.",
+    "w": "A city at the edge of the plain, with wooded mountains and several large reservoirs to the south and south-west.",
+    "f": [
+      "The Pishihang irrigation system, fed by these reservoirs, is one of the largest in China.",
+      "Guapian means “melon slices”, after the shape of the rolled leaves.",
+      "On the border with Hubei, the Dabie Mountains rise above 1,700 m."
+    ],
+    "q": {
+      "q": "Which tea is Lu'an famous for?",
+      "a": "Guapian green tea",
+      "x": [
+        "Pu'er",
+        "Oolong"
+      ]
+    }
+  },
+  "ne-pp-1159146887": {
+    "t": "A Yangtze city that climbed uphill from the water",
+    "s": "Above the Three Gorges Dam, the Yangtze no longer races past here brown and fast: it has become a broad, calm reservoir winding between steep green hills. When the water rose in the 2000s, the lower parts of old Wanzhou went under, and new districts grew higher up the slopes. The city, called Wanxian until 1998, is a gateway to the gorges downstream.",
+    "w": "A hilly city spread along both banks of a wide, winding reservoir on the Yangtze, with bridges across it.",
+    "f": [
+      "The Wanxian Yangtze Bridge, opened in 1997, spans 420 m — then a record for a concrete arch.",
+      "Wanzhou lies roughly 300 km upstream of the Three Gorges Dam.",
+      "Wanzhou grilled fish, served in a spicy broth, is known all over China."
+    ],
+    "q": {
+      "q": "Which reservoir now fills the Yangtze at Wanzhou?",
+      "a": "The Three Gorges",
+      "x": [
+        "Xiaolangdi",
+        "Danjiangkou"
+      ]
+    }
+  },
+  "Q42622": {
+    "t": "Canals and gardens between great lakes",
+    "s": "Water is everywhere around Suzhou: vast Taihu to the west, the Yangcheng and Jinji lakes to the east, and canals threading the old town in between. Founded in 514 BC as the capital of the Wu kingdom, it has stood on roughly the same spot ever since. Silk and scholars' gardens made it famous, and nine of those gardens are now on the UNESCO list.",
+    "w": "A large city between a vast lake to the west and smaller lakes to the east, criss-crossed by canals.",
+    "f": [
+      "The Grand Canal still carries barges along the western and southern sides of old Suzhou.",
+      "The brick pagoda on Tiger Hill, finished in 961, leans noticeably.",
+      "Suzhou embroidery, using silk thread split finer than a hair, is one of China's four great styles."
+    ],
+    "q": {
+      "q": "What is Suzhou's UNESCO World Heritage listing for?",
+      "a": "Classical gardens",
+      "x": [
+        "Rock-cut grottoes",
+        "Imperial tombs"
+      ]
+    }
+  },
+  "Q74957": {
+    "t": "A steel city beneath the “thousand lotus peaks”",
+    "s": "Anshan was built on steel: ore from the surrounding hills has fed its blast furnaces since the early 20th century, and Anshan Iron and Steel grew into one of China's biggest producers. South-east of the city rise the Qianshan hills, called the “thousand lotus peaks” for their crowd of rocky summits. The name Anshan itself means “saddle mountain”, after a saddle-shaped hill.",
+    "w": "A large industrial city on the edge of the Liao River plain, with rugged, rocky hills to the south-east.",
+    "f": [
+      "Anshan's Jade Buddha, one of the largest in the world, was carved from a single jade boulder.",
+      "The local blast furnaces produced their first iron in 1919.",
+      "The Qianshan hills have been sacred to both Buddhists and Taoists for centuries."
+    ],
+    "q": {
+      "q": "What does the name Anshan mean?",
+      "a": "Saddle mountain",
+      "x": [
+        "Iron mountain",
+        "Peace mountain"
+      ]
+    }
+  },
+  "Q172146": {
+    "t": "A halfway town on a tableland of a thousand ponds",
+    "s": "Hundreds of ponds glint on the Taoyuan tableland around Zhongli, dug over the centuries to store water for the rice fields. The name is said to recall the town's position halfway along the old road between Tamsui and Hsinchu. Many residents are Hakka, and Taiwan's main international airport is only a short drive to the north.",
+    "w": "A dense city on a low plateau south-west of Taipei, surrounded by fields dotted with many small ponds.",
+    "f": [
+      "The tableland once held thousands of irrigation ponds; hundreds survive today.",
+      "Zhongli is a district of Taoyuan, one of Taiwan's six special municipalities.",
+      "Taoyuan International Airport, Taiwan's busiest, lies about 15 km to the north."
+    ],
+    "q": {
+      "q": "What dots the Taoyuan tableland around Zhongli?",
+      "a": "Irrigation ponds",
+      "x": [
+        "Tea terraces",
+        "Salt pans"
+      ]
+    }
+  },
+  "Q58570": {
+    "t": "An ancient capital that gave China hundreds of proverbs",
+    "s": "A man once came to Handan to copy the elegant local walk, failed, and forgot his own, so he had to crawl home. That is just one of hundreds of Chinese idioms born in this city. From 386 BC Handan was the capital of the state of Zhao. Today it spreads over the plain at the foot of the Taihang Mountains, a city of steel and coal.",
+    "w": "A large city on the flat plain, with the Taihang Mountains rising to the west.",
+    "f": [
+      "Handan was the capital of Zhao from 386 BC until the Qin took it in 228 BC.",
+      "At Cishan, west of the city, people stored millet in pits more than 8,000 years ago.",
+      "Around 307 BC, King Wuling of Zhao put his soldiers in nomad trousers so they could fight on horseback."
+    ],
+    "q": {
+      "q": "Which ancient state had its capital at Handan?",
+      "a": "Zhao",
+      "x": [
+        "Qin",
+        "Chu"
+      ]
+    }
+  },
+  "Q217681": {
+    "t": "The city at the foot of China's most sacred mountain",
+    "s": "Tai'an grew up at the very foot of Tai Shan, a mountain that rises abruptly from the Shandong plain to more than 1,500 m. For two thousand years emperors climbed it to offer sacrifices to heaven and earth, and pilgrims still toil up thousands of stone steps to watch the sunrise from the top. The city's great Dai Temple marks the spot where the climb traditionally begins.",
+    "w": "A city spread along the southern foot of a dark, isolated mountain massif that rises steeply from the plain.",
+    "f": [
+      "More than 6,000 stone steps lead to the summit of Tai Shan.",
+      "In 1987 Tai Shan was among China's first UNESCO World Heritage sites, listed as both cultural and natural.",
+      "Qin Shi Huang, China's first emperor, performed sacrifices on Tai Shan in 219 BC."
+    ],
+    "q": {
+      "q": "Which sacred mountain rises over Tai'an?",
+      "a": "Tai Shan",
+      "x": [
+        "Hua Shan",
+        "Emei Shan"
+      ]
+    }
+  },
+  "Q59144": {
+    "t": "A deep harbour once leased to France",
+    "s": "At the base of the Leizhou Peninsula, Zhanjiang wraps around a deep, sheltered harbour, shielded by Donghai Island, the largest island in Guangdong. From 1898 to 1945 this was the French leased territory of Kouang-Tchéou-Wan. Mangroves fringe the coast all around, and south-west of the city lies Huguangyan, an almost perfectly round lake in a volcanic crater.",
+    "w": "A port city on a large sheltered bay on the east side of the Leizhou Peninsula, with big, low islands offshore.",
+    "f": [
+      "Huguangyan is a maar: a crater blasted out by volcanic steam explosions.",
+      "Zhanjiang's mangrove reserve is the largest in China.",
+      "The territory the French called Kouang-Tchéou-Wan was returned to China in 1945."
+    ],
+    "q": {
+      "q": "Which European country once leased Zhanjiang?",
+      "a": "France",
+      "x": [
+        "Portugal",
+        "Germany"
+      ]
+    }
+  },
+  "Q71455": {
+    "t": "A town on a watery plain that raised Olympic gymnasts",
+    "s": "The flat Jianghan Plain around Xiantao is more water than land: rice paddies, fish ponds and lakes, cut by straight canals, with the Han River winding along the northern edge. Gymnastics made this modest city famous. Its sports school has turned out world and Olympic champions, including the all-around gold medallists Li Xiaoshuang and Yang Wei.",
+    "w": "A city on a flat, lake-strewn plain cut by straight canals, with the Han River curving along its north side.",
+    "f": [
+      "Until 1986 Xiantao was called Mianyang — not to be confused with Mianyang in Sichuan.",
+      "Li Xiaoshuang won Olympic all-around gold in 1996, Yang Wei in 2008; both were born here.",
+      "The town of Pengchang is a major centre for non-woven fabric used in masks and medical gowns."
+    ],
+    "q": {
+      "q": "Which sport made Xiantao famous?",
+      "a": "Gymnastics",
+      "x": [
+        "Table tennis",
+        "Diving"
+      ]
+    }
+  },
+  "Q217698": {
+    "t": "The world capital of kites",
+    "s": "Every April the sky over Weifang fills with dragons, centipedes and swallows of silk and bamboo: the city has held an international kite festival since 1984 and calls itself the world's kite capital. It lies on the flat plain of central Shandong and reaches north to Laizhou Bay, where salt pans form a bright chequerboard along the shore. Nearby Yangjiabu has printed colourful New Year pictures for centuries.",
+    "w": "A big city on the Shandong plain; to the north, along Laizhou Bay, a grid of salt pans and ponds.",
+    "f": [
+      "Yangjiabu's New Year woodblock prints have been made since the Ming dynasty.",
+      "Zheng Banqiao, famous for painting bamboo, served as magistrate of Weixian, today's Weifang, in the 18th century.",
+      "Weifang's kite museum has a roof shaped like a dragon kite."
+    ],
+    "q": {
+      "q": "What is Weifang called the world capital of?",
+      "a": "Kites",
+      "x": [
+        "Lanterns",
+        "Fireworks"
+      ]
+    }
+  },
+  "Q404873": {
+    "t": "Tea hills where northern China turns southern",
+    "s": "Somewhere around Xinyang, northern China gives way to southern China: the Huai River, the traditional line between wheat and rice, between dry winters and damp ones, crosses its land. The hills south of the city grow Xinyang Maojian, one of China's famous green teas. On the border with Hubei, Jigong Shan rises with its old summer villas, and reservoirs gleam among the forests.",
+    "w": "A city among green hills and reservoirs in southern Henan, with the Huai River plain opening to the north.",
+    "f": [
+      "Xinyang Maojian is counted among China's ten famous teas.",
+      "Foreign missionaries and merchants built stone villas on Jigong Shan from the early 1900s.",
+      "Nanwan Lake, a reservoir just west of the city, is dotted with dozens of wooded islands."
+    ],
+    "q": {
+      "q": "Which green tea comes from Xinyang?",
+      "a": "Maojian",
+      "x": [
+        "Longjing",
+        "Biluochun"
+      ]
+    }
+  },
+  "Q425492": {
+    "t": "Where the Tuo meets the Yangtze and baijiu is king",
+    "s": "The Tuo River slides into the Yangtze at Luzhou, wrapping the old centre in water on three sides. This is one of the homes of baijiu, China's fiery grain spirit, and some of the local fermentation pits have been in constant use since the Ming dynasty. Around the city, the low red hills of southern Sichuan roll away towards the mountains of Guizhou.",
+    "w": "A city on a tongue of land where a smaller river joins the wide, brown Yangtze, among low red hills.",
+    "f": [
+      "Luzhou Laojiao's “1573” cellars are named after the year their fermentation pits were dug.",
+      "Oil-paper umbrellas are still made by hand in the nearby town of Fenshui.",
+      "The rich “strong-aroma” style of baijiu is also known as Luzhou style."
+    ],
+    "q": {
+      "q": "Which drink is Luzhou famous for?",
+      "a": "Baijiu",
+      "x": [
+        "Rice wine",
+        "Beer"
+      ]
+    }
+  },
+  "Q48320": {
+    "t": "A city squeezed between the mountains and the sea",
+    "s": "Kobe is a ribbon: the city runs for kilometres along Osaka Bay but is rarely more than a few kilometres deep, pinned against the steep green Rokko mountains. The only way left to grow was into the sea. Port Island and Rokko Island are square slabs of land built from earth cut out of those very mountains. To the west, a great suspension bridge leaps to Awaji Island.",
+    "w": "A narrow strip of city between steep green mountains and the bay, square artificial islands offshore, a long bridge to the west.",
+    "f": [
+      "The Akashi Kaikyō Bridge held the world record for main span, 1,991 m, from 1998 to 2022.",
+      "Kobe's port opened to foreign ships in 1868, and a quarter of Western-style houses survives.",
+      "Mount Rokko, the highest point of the range, is 931 m high."
+    ],
+    "q": {
+      "q": "Which island does the Akashi Kaikyō Bridge link Kobe to?",
+      "a": "Awaji",
+      "x": [
+        "Shōdoshima",
+        "Sado"
+      ]
+    }
+  },
+  "Q363166": {
+    "t": "Two rivers meet here, and even their names merge",
+    "s": "The Zhang and Gong rivers meet at the tip of old Ganzhou, and even their names merge: their two characters combine into “Gan”, the river they form, which flows north to Poyang Lake. The old town is still guarded by Song-dynasty walls along the water. Around it, red hills are striped with navel-orange groves, and the mines of southern Jiangxi yield tungsten and rare earths.",
+    "w": "An old town on a point of land where two rivers join, surrounded by hills striped with orchards.",
+    "f": [
+      "Fushou Gou, a drainage system built under the Song dynasty, still keeps the old town from flooding.",
+      "Southern Jiangxi around Ganzhou is one of China's biggest navel-orange regions.",
+      "Ganzhou is a Hakka heartland, with fortified family compounds called weiwu."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Ganzhou to form the Gan?",
+      "a": "The Zhang and the Gong",
+      "x": [
+        "The Xiang and the Zi",
+        "The Min and the Tuo"
+      ]
+    }
+  },
+  "Q38968": {
+    "t": "A river loop, karst hills and a notorious noodle soup",
+    "s": "The Liu River swings almost all the way round the centre of Liuzhou, drawing a nearly closed loop, while green karst hills poke up between the city blocks. It is an industrial city — Wuling minivans are built here — but it is best known for luosifen, a river-snail rice-noodle soup whose pungent smell divides China. The Tang poet Liu Zongyuan governed Liuzhou and died here in 819.",
+    "w": "A city inside a big, almost closed loop of a river, with steep green karst hills scattered among the buildings.",
+    "f": [
+      "Liu Zongyuan's memorial temple stands in Liuhou Park in the city centre.",
+      "Luosifen's smell comes mostly from fermented bamboo shoots, not from the snails.",
+      "Liuzhou is one of Guangxi's biggest industrial cities, making cars, steel and machinery."
+    ],
+    "q": {
+      "q": "Which famously pungent dish comes from Liuzhou?",
+      "a": "Luosifen",
+      "x": [
+        "Stinky tofu",
+        "Guilin rice noodles"
+      ]
+    }
+  },
+  "Q75026": {
+    "t": "A giant coal pit and the cradle of the Qing",
+    "s": "A huge terraced hole scars Fushun's south-western edge: the West Open-Pit Mine, some 6 km long and hundreds of metres deep, one of the largest coal pits in Asia. The Hun River runs through the city. In the hills to the east lies Hetu Ala, where the Manchu leader Nurhaci set up his first capital in 1603 — the start of a dynasty that would go on to rule all of China.",
+    "w": "A city along a river valley, with a huge grey terraced pit on its south-western edge.",
+    "f": [
+      "Coal has been mined at Fushun on an industrial scale for more than a century.",
+      "Yongling, the tombs of Nurhaci's ancestors, is part of a UNESCO World Heritage site.",
+      "The Dahuofang Reservoir, upstream on the Hun River, supplies water to much of central Liaoning."
+    ],
+    "q": {
+      "q": "What is the giant hole on Fushun's south-western edge?",
+      "a": "An open-pit coal mine",
+      "x": [
+        "A meteorite crater",
+        "A volcanic crater"
+      ]
+    }
+  },
+  "Q416544": {
+    "t": "The gateway to the Peach Blossom Spring",
+    "s": "Changde stands on the Yuan River just before it spreads into the western side of Dongting Lake, in a land of paddies and shallow lakes. A flood wall along the river is carved with poems and calligraphy for kilometres. Upriver, Taoyuan county is identified with the Peach Blossom Spring, the hidden valley of Tao Yuanming's 5th-century fable — China's picture of a lost paradise.",
+    "w": "A city on a wide river just west of a vast lake plain, with hills rising to the west.",
+    "f": [
+      "The poetry wall on the Yuan River flood dyke runs for about 3 km.",
+      "Liuye Lake, “willow-leaf lake”, lies on the city's north-eastern edge.",
+      "In Tao Yuanming's fable a fisherman finds a valley whose people had lived cut off from the world for centuries."
+    ],
+    "q": {
+      "q": "Which fabled paradise is linked to the Changde area?",
+      "a": "The Peach Blossom Spring",
+      "x": [
+        "Shangri-La",
+        "Mount Penglai"
+      ]
+    }
+  },
+  "Q20921": {
+    "t": "A “big field” that grew into Korea's science city",
+    "s": "Little more than a century ago Daejeon was a village called Hanbat, “big field”. The railway from Seoul to Busan arrived in 1905, a line to the south-west soon branched off here, and the junction became a city. Today Daejeon is Korea's science town: dozens of research institutes cluster in Daedeok to the north, and in 1993 the city hosted an international Expo.",
+    "w": "A large city in a basin of low hills in central South Korea, where railways and motorways converge.",
+    "f": [
+      "The Honam line to the south-west, which branches off here, was completed in 1914.",
+      "The Yuseong hot springs in western Daejeon have been known for centuries.",
+      "Many government agencies moved to the Government Complex in Daejeon in the late 1990s."
+    ],
+    "q": {
+      "q": "Which world event did Daejeon host in 1993?",
+      "a": "An international Expo",
+      "x": [
+        "The Summer Olympics",
+        "The Asian Games"
+      ]
+    }
+  },
+  "Q426756": {
+    "t": "A “sweet city” of sugar cane on the looping Tuo",
+    "s": "The Tuo River winds through Neijiang in tight, glinting loops, cutting through the red hills of the Sichuan Basin. Sugar cane once covered these slopes, and the sugar trade earned Neijiang the nickname “sweet city”. The painter Zhang Daqian was born here in 1899; he went on to work across the world, from the caves of Dunhuang to Brazil and California.",
+    "w": "A city among red hills, threaded by a river coiling in tight meanders, halfway between Chengdu and Chongqing.",
+    "f": [
+      "Zhang Daqian spent more than two years copying the murals of the Mogao Caves at Dunhuang.",
+      "Neijiang sits on the railway and motorway midway between Chengdu and Chongqing.",
+      "Sugar refining made the city prosperous in the early 20th century."
+    ],
+    "q": {
+      "q": "Which painter was born in Neijiang?",
+      "a": "Zhang Daqian",
+      "x": [
+        "Qi Baishi",
+        "Xu Beihong"
+      ]
+    }
+  },
+  "Q68695": {
+    "t": "Zayton, the medieval port that dazzled Marco Polo",
+    "s": "Seven centuries ago, travellers from Venice and Morocco sailed into Quanzhou and called it Zayton, one of the greatest ports on earth. Arab, Persian and Indian merchants lived here, and a mosque founded in 1009 still stands. Today the city spreads around the estuary of the Jin River, and its Song and Yuan trading sites are on the UNESCO list.",
+    "w": "A city on a river estuary on the Fujian coast, with a bay to the south and green hills behind.",
+    "f": [
+      "Quanzhou's Song–Yuan port sites have been a UNESCO World Heritage site since 2021.",
+      "The Luoyang Bridge, a stone bridge across an estuary here, was completed in 1059.",
+      "Anxi county, north-west of the city, is the home of Tieguanyin oolong tea."
+    ],
+    "q": {
+      "q": "What did Marco Polo and Ibn Battuta call Quanzhou?",
+      "a": "Zayton",
+      "x": [
+        "Cathay",
+        "Quinsai"
+      ]
+    }
+  },
+  "Q41283": {
+    "t": "The “city of light” under a mountain of stone pillars",
+    "s": "Gwangju's name means “district of light”. The city fills a basin in Korea's south-west, the old heart of the rice-growing Jeolla region. To the east rises Mudeungsan, about 1,190 m high, its upper slopes crowned with clusters of tall, many-sided stone columns. Gwangju is proud of its food and its art, and it hosts the Gwangju Biennale, one of Asia's leading contemporary-art shows.",
+    "w": "A large city in a basin in south-western Korea, with a big rounded mountain rising to the east.",
+    "f": [
+      "Mudeungsan's stone columns, Ipseokdae and Seoseokdae, formed as cooling lava cracked.",
+      "The Gwangju Biennale has been held since 1995.",
+      "Mudeungsan became a national park in 2013."
+    ],
+    "q": {
+      "q": "What does Gwangju's name mean?",
+      "a": "District of light",
+      "x": [
+        "Great hill",
+        "Big field"
+      ]
+    }
+  }
+}

@@ -180,7 +180,7 @@
     }
   },
   "Q36600": {
-    "t": "Where the Dutch are governed, though it isn't the capital",
+    "t": "The Dutch seat of power that isn't the capital",
     "s": "Parliament, the government and the king's working palace are all here, yet The Hague is not the Dutch capital; that title belongs to Amsterdam. The city runs straight into a line of pale dunes and the North Sea at Scheveningen. To the south-west, look for acres of glinting glass: the greenhouses of the Westland, one of the most intensively farmed corners of Europe.",
     "w": "A city pressed against pale coastal dunes, with the shining glasshouses of the Westland spreading to the south-west.",
     "f": [
@@ -252,7 +252,7 @@
     }
   },
   "Q2100": {
-    "t": "Where the Ruhr meets the Rhine: a sea of docks",
+    "t": "A sea of docks where the Ruhr meets the Rhine",
     "s": "Harbour basins, rail yards and container stacks lace the water where the Ruhr flows into the Rhine. This is Duisport, often called the largest inland port in the world, and barges from the North Sea ports come up the Rhine to unload here. North of the city, an old ironworks has been kept as a park and is lit up in colour after dark.",
     "w": "Long, finger-like harbour basins on the Rhine at the mouth of the Ruhr, with industry and rail lines around them.",
     "f": [
@@ -306,7 +306,7 @@
     }
   },
   "Q906": {
-    "t": "Steel city among the lakes of the Urals",
+    "t": "An industrial giant among the lakes of the Urals",
     "s": "Lakes are scattered around Chelyabinsk like dropped coins, catching the light where the Urals flatten into the West Siberian plain. Several reach right up to the city's edge. Founded in 1736 as a fortress on the Miass river, the city grew into a giant of steel and tractor building after the railway arrived.",
     "w": "A large grey city on flat land peppered with round lakes, with low wooded Ural ridges to the west.",
     "f": [
@@ -667,7 +667,7 @@
   },
   "Q4454": {
     "t": "The city on the banknote, where the Amur is vast",
-    "s": "Here the Amur is enormous: a maze of channels, islands and sandbanks kilometres wide, joined by the Ussuri just upstream. Khabarovsk lines the high right bank. A long bridge carrying both a road and a railway spans the river. The city began in 1858 as a military post and took its name from the 17th-century explorer Yerofey Khabarov.",
+    "s": "A maze of channels, islands and sandbanks kilometres wide: that is the Amur at Khabarovsk, joined by the Ussuri just upstream. The city lines the high right bank. A long bridge carrying both a road and a railway spans the river. The city began in 1858 as a military post and took its name from the 17th-century explorer Yerofey Khabarov.",
     "w": "A long city on the high east bank of a huge braided river, with a long bridge across it and flat wetlands beyond.",
     "f": [
       "Khabarovsk and its Amur bridge appear on the Russian 5,000-rouble banknote.",
@@ -680,6 +680,1334 @@
       "x": [
         "Vitus Bering",
         "Semyon Dezhnev"
+      ]
+    }
+  },
+  "Q5337": {
+    "t": "A steppe city on the river between two continents",
+    "s": "Open steppe runs to the horizon, and through it the Ural river winds in tight loops, lined by a green ribbon of floodplain woods. Orenburg stands on the high bank above. The river is often taken as a boundary between Europe and Asia, and a footbridge in the city lets you walk from one to the other. Gas fields spread across the plain to the south.",
+    "w": "A city on a high riverbank above a meandering, tree-lined river, with flat yellow-brown steppe all around.",
+    "f": [
+      "Orenburg's gossamer down shawls are said to be fine enough to pull through a wedding ring.",
+      "Yuri Gagarin trained at the military flight school in Orenburg and married a local girl here in 1957.",
+      "The Orenburg gas field, one of the largest in Europe, lies just south of the city."
+    ],
+    "q": {
+      "q": "What is Orenburg famous for making?",
+      "a": "Fine down shawls",
+      "x": [
+        "Painted clay toys",
+        "Lacquered boxes"
+      ]
+    }
+  },
+  "Q93910": {
+    "t": "Steel smoke in a valley of the Kuzbass",
+    "s": "Mountains close in around Novokuznetsk: the Kuznetsk Alatau to the east, the dark taiga of Mountain Shoria to the south. The city follows the Tom along the valley floor, with vast steelworks on its edges and coal pits scarring the hills. It began in 1618 as the Kuznetsk fortress, named after the local people's skill as blacksmiths.",
+    "w": "An industrial city strung along a river valley, with steelworks, coal pits and forested mountains to the east and south.",
+    "f": [
+      "Sheregesh, one of Siberia's best-known ski resorts, lies in the mountains of Mountain Shoria to the south.",
+      "Fyodor Dostoevsky married Maria Isaeva in Kuznetsk in 1857.",
+      "Novokuznetsk is one of the main steel-making centres of Siberia."
+    ],
+    "q": {
+      "q": "Which writer married in Kuznetsk, now Novokuznetsk, in 1857?",
+      "a": "Fyodor Dostoevsky",
+      "x": [
+        "Leo Tolstoy",
+        "Anton Chekhov"
+      ]
+    }
+  },
+  "Q2746": {
+    "t": "An old kremlin above the Oka's green meadows",
+    "s": "The Oka swings past Ryazan in wide loops, and across the river a sea of flat meadows and forest stretches north towards the lakes and marshes of Meshchera. The city climbs the higher southern bank, where the kremlin stands on a hill above two small streams. In late spring the Oka floods its meadows for kilometres, turning them into a shining lake.",
+    "w": "A city on the south bank of a looping river, facing a broad green floodplain and dark forests to the north.",
+    "f": [
+      "Ivan Pavlov, the first Russian Nobel laureate, was born in Ryazan in 1849.",
+      "The poet Sergei Yesenin was born in 1895 in Konstantinovo, a village on the Oka in the Ryazan region.",
+      "Until 1778 the city was called Pereyaslavl-Ryazansky."
+    ],
+    "q": {
+      "q": "Which Nobel-winning scientist was born in Ryazan?",
+      "a": "Ivan Pavlov",
+      "x": [
+        "Ilya Mechnikov",
+        "Pyotr Kapitsa"
+      ]
+    }
+  },
+  "Q5815": {
+    "t": "Siberia's first Russian town, now an oil capital",
+    "s": "Tyumen was the first foothold: founded in 1586 on the Tura, it is considered the oldest Russian town in Siberia. From the air the city is ringed by pine and birch forest, with bogs and lakes glinting beyond. Today it runs the oil and gas fields far to the north, and its hot springs let people bathe outdoors in the depths of winter.",
+    "w": "A large city on a winding river in flat forest land, with lakes and bogs scattered around it.",
+    "f": [
+      "The Trans-Siberian Railway runs through Tyumen on its way from the Urals to Omsk.",
+      "Warm water from deep thermal springs around Tyumen fills outdoor pools that stay open all winter.",
+      "The Tura, on which the city stands, flows into the Tobol, a tributary of the Irtysh."
+    ],
+    "q": {
+      "q": "In which year was Tyumen founded?",
+      "a": "1586",
+      "x": [
+        "1703",
+        "1480"
+      ]
+    }
+  },
+  "Q5540": {
+    "t": "An old frontier fortress in the forest-steppe",
+    "s": "Penza marks the meeting of forest and steppe: patches of woodland give way to wide fields, and the city spreads along the Sura in between. It was founded in 1663 as a fortress guarding Russia's south-eastern frontier. South-west of the city a large reservoir fills the Sura valley. The poet Lermontov grew up on an estate in this region.",
+    "w": "A city on a small river among fields and patches of forest, with a long reservoir to the south-west.",
+    "f": [
+      "Penza was founded in 1663 as a fortress on the Sura.",
+      "Mikhail Lermontov grew up at Tarkhany, his grandmother's estate in the Penza region, where he is buried.",
+      "The Sura, which flows through the city, is a tributary of the Volga."
+    ],
+    "q": {
+      "q": "Which poet grew up at Tarkhany in the Penza region?",
+      "a": "Mikhail Lermontov",
+      "x": [
+        "Alexander Pushkin",
+        "Sergei Yesenin"
+      ]
+    }
+  },
+  "Q3927": {
+    "t": "Where the Volga shatters into a maze of channels",
+    "s": "South of Astrakhan the Volga falls apart: hundreds of channels, reed beds and islands fan out towards the Caspian Sea in the largest river delta in Europe. The city itself stands on islands in the upper delta, around a white-walled 16th-century kremlin. In summer, whole bays of the lower delta turn pink with blooming lotus.",
+    "w": "A city among river channels at the head of a vast delta of reed beds and waterways spreading south-east to the Caspian.",
+    "f": [
+      "The Volga delta, which begins just upstream of Astrakhan, is the largest river delta in Europe.",
+      "Astrakhan's kremlin was built of stone in the late 16th century.",
+      "The curly lamb fur called astrakhan takes its name from the city."
+    ],
+    "q": {
+      "q": "Which river's delta begins near Astrakhan?",
+      "a": "The Volga",
+      "x": [
+        "The Don",
+        "The Ural"
+      ]
+    }
+  },
+  "Q384": {
+    "t": "A city strung along the Vardar under a mountain",
+    "s": "Mountains frame Skopje on every side, and the city stretches for kilometres along the Vardar on the floor of the basin. Mount Vodno rises steeply right above its southern edge. A little to the south-west, the Treska river cuts the deep Matka canyon, now a narrow reservoir. In the old bazaar across the Stone Bridge, streets keep an Ottoman pattern.",
+    "w": "A long city on a river in a mountain-ringed basin, with a steep wooded peak rising right above its southern edge.",
+    "f": [
+      "Mother Teresa was born in Skopje in 1910.",
+      "The Stone Bridge over the Vardar was built in the 15th century.",
+      "Matka Canyon, with its caves and small reservoir, lies about 15 km south-west of the centre."
+    ],
+    "q": {
+      "q": "Which river flows through Skopje?",
+      "a": "The Vardar",
+      "x": [
+        "The Morava",
+        "The Drina"
+      ]
+    }
+  },
+  "Q6066": {
+    "t": "The birthplace of Kuzbass coal",
+    "s": "The Tom cuts through Kemerovo in a broad curve, with the city on both banks and dark taiga beyond. Around it the land is stripped in places by open-pit coal mines, terraced like giant steps. This is the Kuzbass, one of the world's great coalfields, and the story of its coal began on this riverbank three centuries ago.",
+    "w": "A city on both banks of a curving river, with grey terraced open-pit mines and dark forest around it.",
+    "f": [
+      "In 1721 the ore prospector Mikhail Volkov found coal on the Tom here — the first recorded find in the Kuzbass.",
+      "The city grew from the villages of Shcheglovo and Kemerovo and took its present name in 1932.",
+      "The Kuznetsk Basin, or Kuzbass, is one of the largest coalfields in the world."
+    ],
+    "q": {
+      "q": "In which year was coal first found at Kemerovo?",
+      "a": "1721",
+      "x": [
+        "1812",
+        "1905"
+      ]
+    }
+  },
+  "Q25270": {
+    "t": "A hill city where the Kosovo plain begins",
+    "s": "Pristina climbs over low hills where the flat Kosovo plain meets forested uplands to the east. Around 650 m above sea level, the city is the largest in Kosovo. West of it, look for grey open-pit mines and the smokestacks of power stations: the area sits on some of the largest lignite deposits in Europe. Wooded Germia Park reaches into the city from the east.",
+    "w": "A city on low hills with a broad plain to the west, grey open-pit mines beyond, and wooded uplands to the east.",
+    "f": [
+      "The Kosovo plain west of the city is drained by the Sitnica river, which flows north.",
+      "The ruins of Ulpiana, a Roman city, lie about 10 km to the south-east.",
+      "Germia Park, the forested hills on the city's eastern edge, is Pristina's largest green space."
+    ],
+    "q": {
+      "q": "Which ancient Roman city's ruins lie just south-east of Pristina?",
+      "a": "Ulpiana",
+      "x": [
+        "Stobi",
+        "Naissus"
+      ]
+    }
+  },
+  "Q5384": {
+    "t": "A river-bend city of clay toys and taiga",
+    "s": "The Vyatka loops lazily through a green sea of forest, and Kirov stands on the high bank of one of its great bends. The city has worn three names: Khlynov, Vyatka and, since 1934, Kirov. Across the river lies the village of Dymkovo, where craftswomen have long shaped and painted bright clay toys, one of Russia's best-known folk crafts.",
+    "w": "A city on a high bank inside a big loop of a river, with endless taiga around it.",
+    "f": [
+      "Dymkovo toys — clay figures whitewashed and painted in bright patterns — are named after a village across the river.",
+      "The city's founding is traditionally dated to 1374.",
+      "The Vyatka flows for more than 1,300 km before joining the Kama."
+    ],
+    "q": {
+      "q": "What are Dymkovo toys, made near Kirov, made of?",
+      "a": "Painted clay",
+      "x": [
+        "Carved birch wood",
+        "Woven straw"
+      ]
+    }
+  },
+  "Q10686": {
+    "t": "A shipbuilding city at the head of a sea lough",
+    "s": "Belfast Lough runs inland like a long funnel, and the city fills its head, where the river Lagan comes in. Dark hills rise steeply on the north-western side: Cave Hill's cliffs are said to resemble Napoleon's profile. Shipbuilding made the city famous, and two huge yellow gantry cranes still stand over the docks. Just west glints Lough Neagh.",
+    "w": "A city at the end of a funnel-shaped sea inlet, with steep dark hills to the north-west and a huge lake further west.",
+    "f": [
+      "Lough Neagh, about 25 km west of the city, is the largest lake in the British Isles.",
+      "The shipyard's yellow gantry cranes, Samson and Goliath, are each about 100 m tall.",
+      "Queen's University Belfast was founded in 1845."
+    ],
+    "q": {
+      "q": "Which is the largest lake in the British Isles, just west of Belfast?",
+      "a": "Lough Neagh",
+      "x": [
+        "Loch Lomond",
+        "Lough Erne"
+      ]
+    }
+  },
+  "Q1829": {
+    "t": "Königsberg's bridges, amber and sand spits",
+    "s": "Look for the Pregolya river winding into a shallow lagoon, and beyond it two impossibly thin sand spits running along the Baltic coast: the Vistula Spit to the south-west and the Curonian Spit to the north-east. Kaliningrad sits between them. Until 1946 it was Königsberg, the city of the philosopher Kant, and its bridges gave rise to a famous puzzle.",
+    "w": "A city on a river flowing into a lagoon, with long, pencil-thin sand spits along the sea coast to the south-west and north-east.",
+    "f": [
+      "In 1736 Leonhard Euler proved that no walk could cross Königsberg's seven bridges exactly once each, founding graph theory.",
+      "The philosopher Immanuel Kant was born in Königsberg in 1724 and lived there almost all his life.",
+      "The Curonian Spit, about 98 km long, has been a UNESCO World Heritage site since 2000."
+    ],
+    "q": {
+      "q": "Which mathematician solved the Seven Bridges of Königsberg puzzle?",
+      "a": "Leonhard Euler",
+      "x": [
+        "Carl Friedrich Gauss",
+        "Gottfried Leibniz"
+      ]
+    }
+  },
+  "Q2801": {
+    "t": "A city named after the thickets of the Desna",
+    "s": "Deep forests have always surrounded Bryansk, and its name is thought to come from the old Russian word for dense thickets. The city spreads across both banks of the Desna, broken up by steep, wooded ravines. The river wanders across a wide green floodplain, and beyond it the woods run on to the south for many kilometres.",
+    "w": "A city on both sides of a winding river, cut by ravines and surrounded by broad forests.",
+    "f": [
+      "Bryansk was first mentioned in a chronicle in 1146.",
+      "The poet Fyodor Tyutchev was born in 1803 at Ovstug, a family estate in the Bryansk region.",
+      "The Desna, which flows through the city, is a large tributary of the Dnieper."
+    ],
+    "q": {
+      "q": "Which poet was born at Ovstug near Bryansk in 1803?",
+      "a": "Fyodor Tyutchev",
+      "x": [
+        "Afanasy Fet",
+        "Alexander Pushkin"
+      ]
+    }
+  },
+  "Q1780": {
+    "t": "A capital on the Danube that touches two borders",
+    "s": "Austria and Hungary both begin at the city limits: Bratislava is the only capital that borders two other countries. The Danube divides it, with the castle hill and old town on the north bank and the vast high-rise estate of Petržalka across the water. The Little Carpathians start right in the city, their slopes striped with vineyards running away to the north-east.",
+    "w": "A city on both banks of the Danube, with wooded hills rising to the north and flat farmland to the south.",
+    "f": [
+      "Vienna and Bratislava are about 55 km apart, the closest pair of capitals in Europe after Rome and Vatican City.",
+      "Hungarian kings and queens were crowned in Bratislava's St Martin's Cathedral from 1563 to 1830.",
+      "Petržalka, on the south bank, is one of the largest housing estates in Central Europe."
+    ],
+    "q": {
+      "q": "Which two countries border Bratislava?",
+      "a": "Austria and Hungary",
+      "x": [
+        "Czechia and Austria",
+        "Hungary and Poland"
+      ]
+    }
+  },
+  "Q95449": {
+    "t": "A steel giant built beside a mountain of iron",
+    "s": "Magnitogorsk was built from scratch from 1929 beside Magnitnaya, a mountain so rich in magnetic iron ore that it has now been largely dug away. The steelworks stretches for kilometres along a reservoir on the Ural river. Because the river runs through the city, Magnitogorsk lies partly in Europe and partly in Asia.",
+    "w": "A huge steelworks along a long reservoir on a river, with the city on both sides and open steppe beyond.",
+    "f": [
+      "Construction of the city and its steelworks began in 1929 on the open steppe.",
+      "The Magnitogorsk steelworks is one of the largest in Russia."
+    ],
+    "q": {
+      "q": "What gave Magnitogorsk its name?",
+      "a": "A magnetic iron-ore mountain",
+      "x": [
+        "A meteorite crater",
+        "A salt lake"
+      ]
+    }
+  },
+  "Q2288": {
+    "t": "A Volga city halfway between two capitals",
+    "s": "Halfway between Moscow and St Petersburg, the railway and main road linking the two cities cut straight through Tver. The Volga, still young here, crosses the city in a gentle curve and is joined by the Tvertsa and the Tmaka. From Tver in the 15th century, a merchant named Afanasy Nikitin set off on a journey that took him all the way to India.",
+    "w": "A city on both banks of a medium-sized river, with a straight railway and motorway running north-west to south-east.",
+    "f": [
+      "Afanasy Nikitin described his journey to India in 'A Journey Beyond Three Seas'.",
+      "The Volga's source in the Valdai Hills is only a few hundred kilometres upstream.",
+      "In the 14th century Tver was a powerful principality and a rival of Moscow."
+    ],
+    "q": {
+      "q": "Which Tver merchant travelled to India in the 15th century?",
+      "a": "Afanasy Nikitin",
+      "x": [
+        "Semyon Dezhnev",
+        "Vitus Bering"
+      ]
+    }
+  },
+  "Q98967": {
+    "t": "Where the Demidovs forged iron for Europe",
+    "s": "Nizhny Tagil sprawls between forested Ural ridges, around a long dammed pond that once drove the ironworks' waterwheels. The Demidov family founded the works in the 1720s, and the town grew into one of the great iron centres of the Russian Empire. Look for the huge terraced pit on the edge of town: Mount Vysokaya, a hill of iron ore mined into a hole.",
+    "w": "An industrial city around a long pond, with deep terraced mining pits and forested Ural ridges around it.",
+    "f": [
+      "In 1834 the Cherepanovs, father and son, built Russia's first steam locomotive here.",
+      "Demidov iron, stamped with a sable, was prized in 18th-century England as 'Old Sable'.",
+      "The Nizhny Tagil Charter of 2003, the international charter for industrial heritage, is named after the city."
+    ],
+    "q": {
+      "q": "What did the Cherepanovs build in Nizhny Tagil in 1834?",
+      "a": "Russia's first steam locomotive",
+      "x": [
+        "Russia's first steamship",
+        "Russia's first blast furnace"
+      ]
+    }
+  },
+  "Q8745": {
+    "t": "A deep Atlantic inlet dotted with mussel rafts",
+    "s": "The Ría de Vigo reaches deep into the green Galician hills, and at its mouth the granite Cíes Islands stand guard against the Atlantic. Look closely at the calm water: it is freckled with hundreds of small dark squares, rafts where mussels are grown on hanging ropes. Vigo climbs the southern shore, one of Europe's busiest fishing ports.",
+    "w": "A long sea inlet between green hills, with rocky islands at its mouth and rows of tiny rafts on the water.",
+    "f": [
+      "The Cíes Islands are part of the Atlantic Islands of Galicia National Park.",
+      "The Rande Bridge spans the ría at its narrowest point, upstream of the city.",
+      "Galicia's rías produce most of Spain's mussels, grown on thousands of floating rafts."
+    ],
+    "q": {
+      "q": "Which islands guard the mouth of the Ría de Vigo?",
+      "a": "The Cíes Islands",
+      "x": [
+        "The Ons Islands",
+        "The Columbretes"
+      ]
+    }
+  },
+  "Q11974": {
+    "t": "A city on a sandy neck between two shores",
+    "s": "At the north-eastern tip of Gran Canaria, a volcanic knob called La Isleta is tied to the island by a narrow sandy isthmus. Las Palmas fills that neck, with a long beach on one side and a busy port on the other, then runs south along the coast. Behind it, bare ravines climb towards the island's volcanic heights.",
+    "w": "A city on the north-east corner of a round island, stretched along the coast and spreading onto a rocky peninsula.",
+    "f": [
+      "Las Palmas was founded in 1478.",
+      "Columbus stopped at Gran Canaria in 1492 on his first voyage across the Atlantic.",
+      "Las Canteras beach is sheltered by a natural offshore reef called La Barra."
+    ],
+    "q": {
+      "q": "In which year was Las Palmas founded?",
+      "a": "1478",
+      "x": [
+        "1402",
+        "1571"
+      ]
+    }
+  },
+  "Q5206": {
+    "t": "The 'city of the cross' on a high plateau",
+    "s": "Stavropol has a head start on height: it sprawls over the Stavropol Upland, with woods on its slopes and the steppe spreading out far below. It was founded in 1777 as one of a chain of fortresses guarding the empire's new southern frontier, and its Greek name means 'city of the cross'. On a clear day the snowy Caucasus may show far to the south.",
+    "w": "A large city on a raised, partly wooded plateau, with a patchwork of farmland spreading away in every direction.",
+    "f": [
+      "Stavropol was founded in 1777 as a fortress on the Azov–Mozdok defensive line.",
+      "The city is the capital of Stavropol Krai, one of southern Russia's main grain-growing regions."
+    ],
+    "q": {
+      "q": "What does the name Stavropol mean?",
+      "a": "City of the cross",
+      "x": [
+        "City of the steppe",
+        "City of the eagle"
+      ]
+    }
+  },
+  "Q6816": {
+    "t": "Where the Trans-Siberian turns off for Mongolia",
+    "s": "Bare steppe hills and dark forested ridges meet around Ulan-Ude, where the little Uda flows into the broad, braided Selenga. The name means 'Red Uda'. Lake Baikal lies less than 100 km to the north-west, and the Mongolian border about 200 km to the south. This is the heart of Buryatia, where Buddhist monasteries stand among the hills.",
+    "w": "A city where two rivers meet in a broad valley, with bare steppe hills and forested ridges around.",
+    "f": [
+      "Just outside the city the Trans-Mongolian Railway branches off the Trans-Siberian towards Ulaanbaatar and Beijing.",
+      "The Ivolginsky datsan, south-west of the city, is a leading centre of Buddhism in Russia.",
+      "A bronze head of Lenin about 7.7 m tall, one of the largest ever made, stands in the main square."
+    ],
+    "q": {
+      "q": "What does the name Ulan-Ude mean?",
+      "a": "Red Uda",
+      "x": [
+        "White Water",
+        "Great Steppe"
+      ]
+    }
+  },
+  "Q39420": {
+    "t": "A subtropical coast under snowy peaks",
+    "s": "Palm trees on the beach and snow on the peaks: Sochi squeezes a thin ribbon of subtropical coast between the Black Sea and the forested slopes of the Caucasus. Greater Sochi runs for about 145 km along the shore. Up in the mountains to the east lies Krasnaya Polyana, where the ski and sledding events of the 2014 Winter Olympics were held.",
+    "w": "A long, thin strip of town along the sea, backed by steep green mountains with snowy summits behind.",
+    "f": [
+      "Greater Sochi stretches about 145 km along the Black Sea coast.",
+      "Sochi hosted the Winter Olympic Games in 2014.",
+      "Tea has grown on the hills around Sochi since the early 20th century, in some of the world's most northerly tea gardens."
+    ],
+    "q": {
+      "q": "In which year did Sochi host the Winter Olympics?",
+      "a": "2014",
+      "x": [
+        "2010",
+        "2018"
+      ]
+    }
+  },
+  "Q46852": {
+    "t": "The old Moldavian capital on seven hills",
+    "s": "Like Rome, Iași is said to stand on seven hills, rolling above the valley of the little Bahlui. For three centuries this was the capital of the Principality of Moldavia, and it remains a city of churches, theatres and students. East of the city, the land drops to the wide green floodplain of the Prut.",
+    "w": "A city spread over low hills above a small river valley, with a wide green floodplain to the east.",
+    "f": [
+      "Iași was the capital of Moldavia from 1564 to 1859.",
+      "Romania's first modern university was founded in Iași in 1860.",
+      "The Prut river flows about 15 km east of the city."
+    ],
+    "q": {
+      "q": "Until 1859, Iași was the capital of which principality?",
+      "a": "Moldavia",
+      "x": [
+        "Wallachia",
+        "Transylvania"
+      ]
+    }
+  },
+  "Q5818": {
+    "t": "A caliphs' city on the Guadalquivir",
+    "s": "The Guadalquivir winds across a plain of olive groves and wheat, and dark hills of the Sierra Morena rise just north of the city. A thousand years ago Córdoba was the capital of a caliphate and one of the largest cities in Europe. In high summer the plain bakes: afternoon temperatures here often climb past 40 °C.",
+    "w": "A compact city on a winding river, with dark wooded hills to the north and olive groves on the plain to the south.",
+    "f": [
+      "Córdoba's Great Mosque, begun in 785, has had a cathedral built inside it since the 16th century.",
+      "Medina Azahara, a ruined 10th-century palace city about 8 km west, became a UNESCO World Heritage site in 2018.",
+      "The Roman bridge over the Guadalquivir was first built in the 1st century BC."
+    ],
+    "q": {
+      "q": "Which river flows through Córdoba?",
+      "a": "The Guadalquivir",
+      "x": [
+        "The Guadiana",
+        "The Ebro"
+      ]
+    }
+  },
+  "Q2337": {
+    "t": "An old fortress city on the upper Dnieper",
+    "s": "Wooded hills crowd the upper Dnieper, still a modest river here, and Smolensk climbs both its banks. The city was first mentioned in 863, which makes it one of the oldest in Russia. Around 1600 it was ringed by a massive brick wall with dozens of towers, and long stretches of it still stand.",
+    "w": "A hilly city on both banks of a winding river, surrounded by forest and farmland.",
+    "f": [
+      "Smolensk's fortress wall, built in 1595–1602, was about 6.5 km long with 38 towers.",
+      "The composer Mikhail Glinka was born in 1804 at Novospasskoye, an estate in the Smolensk region.",
+      "Yuri Gagarin was born in 1934 in a village in the Smolensk region."
+    ],
+    "q": {
+      "q": "Which river flows through Smolensk?",
+      "a": "The Dnieper",
+      "x": [
+        "The Western Dvina",
+        "The Oka"
+      ]
+    }
+  },
+  "Q437": {
+    "t": "A small capital between the Alps and a marsh",
+    "s": "Alpine peaks to the north, a flat marsh to the south, and Ljubljana tucked between them around a wooded castle hill. The little Ljubljanica river curls through the old town below the castle. On those southern marshes, archaeologists found prehistoric pile dwellings and a wooden wheel more than 5,000 years old.",
+    "w": "A modest city around a wooded hill, flat marshland to the south and a wall of Alpine peaks to the north.",
+    "f": [
+      "The Ljubljana Marshes wheel, about 5,150 years old, is one of the oldest wooden wheels ever found.",
+      "Prehistoric pile dwellings on the Ljubljana Marshes are part of a UNESCO World Heritage site.",
+      "The architect Jože Plečnik reshaped much of the city centre in the 20th century."
+    ],
+    "q": {
+      "q": "Which river flows through the old town of Ljubljana?",
+      "a": "The Ljubljanica",
+      "x": [
+        "The Drava",
+        "The Soča"
+      ]
+    }
+  },
+  "Q5265": {
+    "t": "A green spa town with Elbrus on the skyline",
+    "s": "The plains end abruptly at Nalchik, where the first forested ridges of the Caucasus rise. On clear days the twin white summit of Elbrus stands out to the south-west. The city's name is said to mean 'little horseshoe', after the curve of the hills around it. Parks and mineral springs have made it a spa town.",
+    "w": "A city at the edge of the plain against forested foothills, with the snowy main Caucasus ridge beyond.",
+    "f": [
+      "Elbrus, the highest peak in Europe at 5,642 m, stands about 100 km to the south-west.",
+      "Nalchik is the capital of Kabardino-Balkaria.",
+      "The city's large park runs up into the forested foothills."
+    ],
+    "q": {
+      "q": "What does the name Nalchik mean?",
+      "a": "Little horseshoe",
+      "x": [
+        "Eagle's nest",
+        "White water"
+      ]
+    }
+  },
+  "Q79808": {
+    "t": "Ovid's place of exile, now a busy Black Sea port",
+    "s": "Long breakwaters and a maze of docks mark Romania's main gateway to the sea. North of the city, Mamaia's hotels line a narrow strip of sand between the Black Sea and a freshwater lake. In ancient times this was the Greek town of Tomis, and the Roman poet Ovid spent his last years here in exile, complaining of the cold.",
+    "w": "A port city with long breakwaters, a canal joining from the west and a thin sandbar between a lake and the sea to the north.",
+    "f": [
+      "The Danube–Black Sea Canal, opened in 1984, reaches the sea just south of the city.",
+      "Constanța is Romania's largest port and one of the biggest on the Black Sea.",
+      "Mamaia resort runs along a sandbar between Lake Siutghiol and the sea."
+    ],
+    "q": {
+      "q": "Which Roman poet was exiled to Tomis, today's Constanța?",
+      "a": "Ovid",
+      "x": [
+        "Virgil",
+        "Horace"
+      ]
+    }
+  },
+  "Q140147": {
+    "t": "A border river and a break of gauge",
+    "s": "The Western Bug and the Mukhavets meet at Brest, and the Bug forms the border here. The land is flat, with forests and fields to the horizon. Brest is a railway crossroads where two track widths meet, Europe's standard gauge and the wider one used across the former Russian Empire, so long-distance trains change their wheel sets here.",
+    "w": "A city where two rivers meet on a flat, forested plain; the larger river runs north–south along the border.",
+    "f": [
+      "Brest was first mentioned in a chronicle, as Berestye, in 1019.",
+      "At Brest, 1,435 mm standard-gauge track meets the 1,520 mm gauge used further east.",
+      "Białowieża Forest, one of the last primeval forests of Europe, lies a short way to the north."
+    ],
+    "q": {
+      "q": "Which river forms the border at Brest?",
+      "a": "The Western Bug",
+      "x": [
+        "The Neman",
+        "The Pripyat"
+      ]
+    }
+  },
+  "Q1957": {
+    "t": "Lace, butter and a white cathedral in the north",
+    "s": "Flat forest and marsh stretch around Vologda, and the little Vologda river loops through the middle. The city dates its founding to 1147, the same year as Moscow. Its white St Sophia Cathedral was built on the orders of Ivan the Terrible, and whole streets of carved wooden houses survive around the centre. Lake Kubenskoye glints to the north-west.",
+    "w": "A city on a small winding river in flat, forested lowland, with a long lake to the north-west.",
+    "f": [
+      "Vologda lace, woven on bobbins, is one of Russia's best-known crafts.",
+      "St Sophia Cathedral in Vologda was built in 1568–1570.",
+      "Vologda butter, with its nutty taste, has a protected regional name."
+    ],
+    "q": {
+      "q": "What kind of lace is Vologda famous for?",
+      "a": "Bobbin lace",
+      "x": [
+        "Needle lace",
+        "Crochet lace"
+      ]
+    }
+  },
+  "Q156713": {
+    "t": "Granite cliffs and the birthplace of a space pioneer",
+    "s": "North of Zhytomyr the dark forests of Polesia begin, and the city spreads along the Teteriv, which cuts through outcrops of grey granite here. According to tradition, Zhytomyr was founded in 884. Its best-known son is Sergei Korolev, who became chief designer of the Soviet space programme. The city now has a museum of space flight in his name.",
+    "w": "A city on a winding river with rocky banks, farmland to the south and dark forests to the north.",
+    "f": [
+      "Sergei Korolev, who led the design of the first satellite and Gagarin's rocket, was born in Zhytomyr in 1907.",
+      "The Teteriv river runs through granite cliffs in the city.",
+      "The Teteriv is a tributary of the Dnieper."
+    ],
+    "q": {
+      "q": "Which space pioneer was born in Zhytomyr?",
+      "a": "Sergei Korolev",
+      "x": [
+        "Konstantin Tsiolkovsky",
+        "Valentin Glushko"
+      ]
+    }
+  },
+  "Q70": {
+    "t": "An old town wrapped in a loop of green river",
+    "s": "The Aare, milky green with Alpine meltwater, curls around Bern's old town in a tight loop, leaving the medieval streets on a narrow peninsula. On clear days the white wall of the Bernese Alps fills the southern horizon. Officially, Switzerland has no capital: Bern is the 'federal city', where the government and parliament sit.",
+    "w": "A tight loop of a green river around a narrow old town, with snowy Alpine peaks far to the south.",
+    "f": [
+      "The Old City of Bern has been a UNESCO World Heritage site since 1983.",
+      "Albert Einstein developed his special theory of relativity while living in Bern in 1905.",
+      "The Aare gets its green colour from fine rock flour carried down by Alpine glaciers."
+    ],
+    "q": {
+      "q": "Which theory did Einstein publish while living in Bern in 1905?",
+      "a": "Special relativity",
+      "x": [
+        "General relativity",
+        "Quantum electrodynamics"
+      ]
+    }
+  },
+  "Q641": {
+    "t": "A fish-shaped city floating in a lagoon",
+    "s": "In the middle of a shallow lagoon lies a tight cluster of islands shaped like a fish, cut through by one reversed S of water: the Grand Canal. That is Venice. A long straight causeway ties it to the mainland, and a chain of thin barrier islands, including the Lido, shields the lagoon from the Adriatic. Cars stop where the causeway ends; beyond, the city moves on foot and by boat.",
+    "w": "A fish-shaped island city in a shallow lagoon, linked to the mainland by a long causeway, with thin barrier islands offshore.",
+    "f": [
+      "Venice is built on about 118 small islands separated by canals.",
+      "The Ponte della Libertà, about 3.8 km long, carries a road and railway to the mainland.",
+      "Venice and its Lagoon have been a UNESCO World Heritage site since 1987."
+    ],
+    "q": {
+      "q": "About how many islands is Venice built on?",
+      "a": "About 118",
+      "x": [
+        "About 30",
+        "About 400"
+      ]
+    }
+  },
+  "Q2211": {
+    "t": "A bridge that dives under the sea to Denmark",
+    "s": "A thin line leaves the coast south-west of Malmö and heads out to sea: the Øresund Bridge. It runs about 8 km to an artificial island, then vanishes into a tunnel for the rest of the way to Copenhagen. Malmö itself spreads over the flat, fertile farmland of Scania, Sweden's southern tip.",
+    "w": "A city on a flat coast, with a long bridge heading west over the strait to an island and Copenhagen beyond.",
+    "f": [
+      "The Øresund link, opened in 2000, joins a bridge, an artificial island and a tunnel under the sea.",
+      "Turning Torso, a twisting tower about 190 m tall, was the tallest building in Scandinavia when completed in 2005.",
+      "Malmö is Sweden's third-largest city."
+    ],
+    "q": {
+      "q": "Which city does the Øresund link connect Malmö with?",
+      "a": "Copenhagen",
+      "x": [
+        "Helsingør",
+        "Aarhus"
+      ]
+    }
+  },
+  "Q1895": {
+    "t": "Peter's ironworks on a great northern lake",
+    "s": "Lake Onega stretches north like a scattered puzzle of bays, islands and rocky peninsulas, and Petrozavodsk lines its western shore. The city grew from an ironworks that Peter the Great founded in 1703 to cast cannon, and its name simply means 'Peter's works'. Out on the lake lies Kizhi island, famous for its wooden churches.",
+    "w": "A city along the curved shore of a huge lake, with long bays and forested peninsulas reaching north.",
+    "f": [
+      "Lake Onega is the second-largest lake in Europe, after Ladoga.",
+      "Kizhi's wooden churches, north-east of the city on the lake, are a UNESCO World Heritage site.",
+      "The ironworks that gave the city its name was founded in 1703."
+    ],
+    "q": {
+      "q": "On which lake does Petrozavodsk stand?",
+      "a": "Lake Onega",
+      "x": [
+        "Lake Ladoga",
+        "Lake Peipus"
+      ]
+    }
+  },
+  "Q40840": {
+    "t": "A factory town between two lakes",
+    "s": "Two big lakes nearly touch at Tampere, and the city fills the narrow neck between them. Water pours from the northern lake to the southern one down the Tammerkoski rapids, and that drop powered the first factories in the 19th century. Red-brick mills made this the 'Manchester of Finland'. All around, forest and lakes stretch into the distance.",
+    "w": "A city on a narrow strip of land between a large lake to the north and another to the south.",
+    "f": [
+      "The Tammerkoski rapids fall about 18 m between lakes Näsijärvi and Pyhäjärvi.",
+      "Scottish engineer James Finlayson founded a cotton mill beside the rapids in 1820.",
+      "Tampere is the largest inland city in the Nordic countries."
+    ],
+    "q": {
+      "q": "What connects Tampere's two big lakes?",
+      "a": "The Tammerkoski rapids",
+      "x": [
+        "A flight of locks",
+        "An underground river"
+      ]
+    }
+  },
+  "Q103565": {
+    "t": "A planned city on the river that leaves Baikal",
+    "s": "Angarsk was laid out from 1948 as a planned city, and its neat grid of blocks still stands out between the Angara and the Kitoy. On its edge sprawls one of Siberia's biggest refinery and chemical complexes. The Angara here has only recently left Lake Baikal, and the city of Irkutsk lies a short way upstream.",
+    "w": "A neat grid of blocks between two rivers, with a large industrial complex alongside and taiga beyond.",
+    "f": [
+      "Construction of Angarsk began in 1948, and it became a city in 1951.",
+      "The Angara is the only river that flows out of Lake Baikal.",
+      "Angarsk has a museum devoted entirely to clocks."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Baikal past Angarsk?",
+      "a": "The Angara",
+      "x": [
+        "The Selenga",
+        "The Lena"
+      ]
+    }
+  },
+  "Q42810": {
+    "t": "The harbour that gave Impressionism its name",
+    "s": "The Seine ends in a wide estuary, and Le Havre guards its northern shore. Look for the fine line of the Pont de Normandie arching across the river mouth. The city was founded in 1517 by King Francis I as a port. In 1872 Claude Monet painted its harbour at dawn, and the title, 'Impression, Sunrise', gave a whole art movement its name.",
+    "w": "A port city on the northern shore of a wide estuary, with long docks and a slender bridge across the river mouth.",
+    "f": [
+      "Auguste Perret's concrete city centre has been a UNESCO World Heritage site since 2005.",
+      "The Pont de Normandie, opened in 1995, is a cable-stayed bridge more than 2 km long.",
+      "Le Havre is one of France's busiest container ports."
+    ],
+    "q": {
+      "q": "Which painting of Le Havre gave Impressionism its name?",
+      "a": "Impression, Sunrise",
+      "x": [
+        "The Water Lilies",
+        "The Hay Wain"
+      ]
+    }
+  },
+  "Q5196": {
+    "t": "An oil city on the Sunzha below the Caucasus",
+    "s": "The plain north of the Caucasus is crossed here by the Sunzha, and Grozny spreads along its banks with low ridges rising to the north. On the southern horizon, forested foothills climb towards the snowy main range. The city began in 1818 as a Russian fortress, and oil made it grow: wells were drilled here in the 1890s, among the earliest in the empire.",
+    "w": "A large city on a river crossing a plain, low ridges to the north and forested mountains rising to the south.",
+    "f": [
+      "Grozny was founded in 1818 as the fortress of Groznaya on the Sunzha river.",
+      "Industrial oil production around Grozny began in the 1890s.",
+      "The Sunzha is a tributary of the Terek, which it joins east of the city."
+    ],
+    "q": {
+      "q": "On which river does Grozny stand?",
+      "a": "The Sunzha",
+      "x": [
+        "The Terek",
+        "The Kuban"
+      ]
+    }
+  },
+  "Q6934": {
+    "t": "A border river with a city on each bank",
+    "s": "Two countries, two cities, one river: across the Amur from Blagoveshchensk, less than a kilometre away, stands Heihe in China. At night their lights face each other over the dark water. Blagoveshchensk began in 1856 as a military post where the Zeya pours into the Amur, and flat, fertile farmland of the Amur region spreads all around it.",
+    "w": "Two cities facing each other across a wide river, where a large tributary joins from the north; flat farmland all around.",
+    "f": [
+      "The Chinese city of Heihe lies directly across the Amur, less than a kilometre away.",
+      "The city's name means 'Annunciation', after its first church.",
+      "The Zeya, which joins the Amur here, is more than 1,200 km long."
+    ],
+    "q": {
+      "q": "Which river joins the Amur at Blagoveshchensk?",
+      "a": "The Zeya",
+      "x": [
+        "The Ussuri",
+        "The Shilka"
+      ]
+    }
+  },
+  "Q2214": {
+    "t": "A stone kremlin on a spit between two rivers",
+    "s": "On a rocky spit where the little Pskova joins the broad Velikaya rises the Krom, Pskov's kremlin, and the city spreads around it on both banks. A short way downstream the Velikaya flows into Lake Pskov, the southern part of the vast Lake Peipus. Pskov was first mentioned in 903, making it one of Russia's oldest cities.",
+    "w": "A city on a broad river flowing north-west into a huge lake, with a smaller river joining in the centre.",
+    "f": [
+      "Pskov was first mentioned in the chronicles in 903.",
+      "The churches of the Pskov school of architecture became a UNESCO World Heritage site in 2019.",
+      "Lake Peipus, into which the Velikaya flows, is one of the largest lakes in Europe."
+    ],
+    "q": {
+      "q": "Which river flows past the Pskov Krom?",
+      "a": "The Velikaya",
+      "x": [
+        "The Volkhov",
+        "The Narva"
+      ]
+    }
+  },
+  "Q7859": {
+    "t": "A ski slope right above an island capital",
+    "s": "A ski slope drops almost into the eastern streets of Yuzhno-Sakhalinsk, which lines a long valley between two ranges of forested mountains near the southern end of Sakhalin. To the south the valley opens onto Aniva Bay, where the port of Korsakov sits. Sakhalin is Russia's largest island, and its southern tip is only about 40 km from Japan's Hokkaido.",
+    "w": "A long city in a green valley between two forested mountain ranges, opening south to a wide bay.",
+    "f": [
+      "Sakhalin, about 950 km long, is the largest island in Russia.",
+      "Russia's first liquefied natural gas plant opened in 2009 at Prigorodnoye on Aniva Bay.",
+      "The Gorny Vozdukh ski area rises right at the city's eastern edge."
+    ],
+    "q": {
+      "q": "Which bay lies south of Yuzhno-Sakhalinsk?",
+      "a": "Aniva Bay",
+      "x": [
+        "Terpeniya Bay",
+        "Peter the Great Gulf"
+      ]
+    }
+  },
+  "Q875": {
+    "t": "A steppe capital among ancient burial mounds",
+    "s": "In a wide basin ringed by the Sayan and Kuznetsk Alatau mountains, the Abakan river joins the mighty Yenisei, and the city of Abakan stands in the angle between them. The basin is open steppe, warm by Siberian standards, and scattered with ancient burial mounds and standing stones. Across the Yenisei lies the older town of Minusinsk.",
+    "w": "A city where a river joins a much bigger one in open steppe, with mountains far around the basin.",
+    "f": [
+      "Abakan is the capital of Khakassia.",
+      "Abakan received city status only in 1931.",
+      "The Minusinsk Basin around Abakan is rich in ancient kurgans, standing stones and rock carvings."
+    ],
+    "q": {
+      "q": "Which great river does the Abakan join here?",
+      "a": "The Yenisei",
+      "x": [
+        "The Ob",
+        "The Angara"
+      ]
+    }
+  },
+  "Q175517": {
+    "t": "The biggest city this far north, cut off from roads",
+    "s": "No city of more than 100,000 people lies farther north than Norilsk, set in bare tundra near the foot of the Putorana Plateau. No road or railway links it to the rest of Russia: people fly in, and freight comes up the Yenisei to the port of Dudinka. Much of the year the land is white, and from early December the sun does not rise for weeks.",
+    "w": "A compact city and huge smelters on white or brown tundra, with lakes and the dark cliffs of a plateau to the east.",
+    "f": [
+      "Norilsk is the world's leading producer of palladium, a metal used in car exhaust catalysts.",
+      "The Putorana Plateau, rising east of the city, has been a UNESCO World Heritage site since 2010.",
+      "A short railway links Norilsk only with Dudinka, its port on the Yenisei."
+    ],
+    "q": {
+      "q": "Norilsk is the world's leading producer of which metal?",
+      "a": "Palladium",
+      "x": [
+        "Tin",
+        "Uranium"
+      ]
+    }
+  },
+  "Q23564": {
+    "t": "A hot capital between canyons and a great lake",
+    "s": "Mountains wall in Podgorica on three sides, while to the south the flat Zeta plain runs down to Lake Skadar, the largest lake in the Balkans. The Morača river cuts through the city in a rocky channel and is joined here by the Ribnica. The name means 'below Gorica', after the small wooded hill beside the centre.",
+    "w": "A city on a flat plain ringed by bare mountains, with a river gorge through it and a large lake to the south.",
+    "f": [
+      "Lake Skadar, shared by Montenegro and Albania, is the largest lake in the Balkans.",
+      "Summer afternoons in Podgorica often pass 35 °C.",
+      "North of the city, the Morača has carved a canyon hundreds of metres deep."
+    ],
+    "q": {
+      "q": "What does the name Podgorica mean?",
+      "a": "Below Gorica hill",
+      "x": [
+        "Between two rivers",
+        "Beside the lake"
+      ]
+    }
+  },
+  "Q6049": {
+    "t": "The claimed centre of Asia, where the Yenisei is born",
+    "s": "Two mountain rivers, the Big and Little Yenisei, meet at Kyzyl and flow on together as the Yenisei, one of the longest rivers on Earth. Around the city spreads a dry basin of steppe, ringed by the mountains of Tuva. On the riverbank an obelisk marks what is claimed to be the geographical centre of Asia. The name Kyzyl simply means 'red'.",
+    "w": "A small city where two rivers meet, in a dry steppe basin ringed by mountains.",
+    "f": [
+      "The Biy-Khem and the Kaa-Khem, the Big and Little Yenisei, join at Kyzyl.",
+      "Kyzyl is the capital of Tuva, a republic famous for throat singing.",
+      "The Arzhan burial mounds in Tuva held some of the richest Scythian-era gold ever found."
+    ],
+    "q": {
+      "q": "What is said to lie at Kyzyl?",
+      "a": "The centre of Asia",
+      "x": [
+        "The source of the Ob",
+        "Asia's coldest point"
+      ]
+    }
+  },
+  "Q1842": {
+    "t": "A fortress city on cliffs above deep gorges",
+    "s": "Sheer cliffs drop from Luxembourg's old town, on its rocky plateau, into the green gorges of the Alzette and the Pétrusse. Its fortifications were once so formidable that it was called the Gibraltar of the North. East of the old town, the Kirchberg plateau carries European institutions, and all around lie the rolling woods and fields of a small country.",
+    "w": "A city cut by deep, green river gorges, with an old town on a rocky plateau and new districts on a plateau to the east.",
+    "f": [
+      "Luxembourg's old quarters and fortifications have been a UNESCO World Heritage site since 1994.",
+      "The Bock casemates, tunnels carved into the rock, once ran for about 23 km.",
+      "Luxembourg, with Brussels and Strasbourg, is one of the main seats of European Union institutions."
+    ],
+    "q": {
+      "q": "What nickname did Luxembourg's fortress earn?",
+      "a": "The Gibraltar of the North",
+      "x": [
+        "The Rock of Europe",
+        "The Key of the Rhine"
+      ]
+    }
+  },
+  "Q196946": {
+    "t": "A dam town where the Ilim meets the Angara",
+    "s": "Taiga runs unbroken to the horizon, and through it the Angara has been turned into a long, branching reservoir. At its lower end stands the Ust-Ilimsk dam, and beside it the town, built from the late 1960s. Its name means 'mouth of the Ilim': the reservoir drowned the lower valley of that river too, reaching deep into the forest.",
+    "w": "A long, many-armed reservoir in endless taiga, with a straight dam across the river and a town beside it.",
+    "f": [
+      "The Ust-Ilimsk hydroelectric station on the Angara has a capacity of about 3,840 MW.",
+      "The Ust-Ilimsk reservoir stretches for hundreds of kilometres up the Angara and the Ilim.",
+      "Timber and pulp from the surrounding taiga are the town's other main industry."
+    ],
+    "q": {
+      "q": "What does 'Ust' mean in the name Ust-Ilimsk?",
+      "a": "River mouth",
+      "x": [
+        "Upper reaches",
+        "Fortress"
+      ]
+    }
+  },
+  "Q133529": {
+    "t": "A coal town in the tundra with no road out",
+    "s": "About 100 km beyond the Arctic Circle, in open tundra near the Polar Urals, stands Vorkuta. No road connects it to the rest of Russia; the railway is its lifeline. Coal mines are scattered around it, and a ring road links the city with a chain of mining settlements. In winter the sun disappears for weeks.",
+    "w": "A small city on white or brown tundra, linked by a looping road to outlying settlements, with mountains to the east.",
+    "f": [
+      "Vorkuta is one of the largest towns north of the Arctic Circle in Europe.",
+      "The Pechora coal basin around Vorkuta produces high-quality coking coal."
+    ],
+    "q": {
+      "q": "What is mined around Vorkuta?",
+      "a": "Coal",
+      "x": [
+        "Gold",
+        "Diamonds"
+      ]
+    }
+  },
+  "Q26476": {
+    "t": "A stone town between two hills on a Baltic bay",
+    "s": "Two steep, wooded hills stand guard over Sundsvall, which fills the gap between them at the head of a bay on the Gulf of Bothnia. In the 19th century the coast here was lined with sawmills, and timber made the town rich. Its centre, rebuilt in stone in the 1890s, is still called Stenstaden, 'the stone town'. Alnö island lies just offshore to the east.",
+    "w": "A town at the head of a bay between two wooded hills, with a large island just offshore.",
+    "f": [
+      "In the late 19th century, dozens of sawmills made the Sundsvall area one of the world's great timber exporters.",
+      "The stone-built centre, Stenstaden, dates from the 1890s.",
+      "The High Coast, a UNESCO site known for rapid land uplift, lies a short way to the north."
+    ],
+    "q": {
+      "q": "What made Sundsvall rich in the 19th century?",
+      "a": "Sawmills and timber",
+      "x": [
+        "Iron mines",
+        "Herring fishing"
+      ]
+    }
+  },
+  "Q2415": {
+    "t": "Norway's southern tip, laid out by a king",
+    "s": "A tangle of rocky skerries and pine-clad islets fringes the coast at Kristiansand, near Norway's southern tip. The town was founded in 1641 by King Christian IV, who gave it his name and a strict grid of square blocks, still visible in the centre. Ferries leave from here across the Skagerrak to Denmark.",
+    "w": "A small gridded town on a rocky coast full of islets, with forested hills behind.",
+    "f": [
+      "Kristiansand's centre, Kvadraturen, keeps the square grid laid out in 1641.",
+      "Ferries link Kristiansand with Hirtshals in Denmark, across the Skagerrak.",
+      "Kristiansand is the largest city of Sørlandet, Norway's southern coast."
+    ],
+    "q": {
+      "q": "Which king founded Kristiansand in 1641?",
+      "a": "Christian IV",
+      "x": [
+        "Frederick III",
+        "Haakon VII"
+      ]
+    }
+  },
+  "Q208149": {
+    "t": "A mid-Atlantic port beside blue and green crater lakes",
+    "s": "São Miguel rises alone from the middle of the Atlantic, and Ponta Delgada lines its southern shore. West of the city, look for a great round crater holding two lakes side by side, one blue and one green: Sete Cidades. The island is patched with green pastures and hedges of blue hydrangeas.",
+    "w": "A white town along the south coast of a green volcanic island, with a large crater holding two lakes to the north-west.",
+    "f": [
+      "São Miguel is the largest island of the Azores.",
+      "Tea has been grown on São Miguel since the 19th century, one of the few tea plantations in Europe.",
+      "The Sete Cidades crater, about 5 km across, lies about 15 km north-west of the city."
+    ],
+    "q": {
+      "q": "On which island does Ponta Delgada stand?",
+      "a": "São Miguel",
+      "x": [
+        "Terceira",
+        "Madeira"
+      ]
+    }
+  },
+  "Q125080": {
+    "t": "A coast where the land keeps rising from the sea",
+    "s": "Off Vaasa, the sea is scattered with thousands of low islands and skerries, and every year there is a little more land. Freed from the weight of the Ice Age glaciers, the ground here still rises by several millimetres a year, so new islets surface and bays turn into meadows. The Kvarken archipelago is a UNESCO site for this very reason.",
+    "w": "A coastal town facing a sea filled with countless low, rocky islands, with flat farmland inland.",
+    "f": [
+      "The land around Vaasa rises about 8 mm a year as it rebounds from the Ice Age.",
+      "The Replot Bridge, about 1 km long, is the longest bridge in Finland.",
+      "The Kvarken Archipelago shares a UNESCO listing with Sweden's High Coast."
+    ],
+    "q": {
+      "q": "Why is new land slowly appearing off Vaasa?",
+      "a": "Post-glacial land uplift",
+      "x": [
+        "River silt",
+        "Volcanic activity"
+      ]
+    }
+  },
+  "Q1863": {
+    "t": "Europe's highest capital, deep in the Pyrenees",
+    "s": "Steep Pyrenean slopes, snowy for much of the year, leave room only for a narrow valley, and Andorra la Vella fills its floor along the Gran Valira river. At about 1,023 m above sea level, it is the highest capital city in Europe. From the air the whole country looks tiny: a knot of mountain valleys between France and Spain.",
+    "w": "A narrow town squeezed along a mountain valley floor, surrounded by high, often snowy Pyrenean ridges.",
+    "f": [
+      "Andorra la Vella lies at about 1,023 m, the highest of Europe's capitals.",
+      "Andorra has two co-princes: the Bishop of Urgell and the President of France.",
+      "Andorra covers about 468 km²."
+    ],
+    "q": {
+      "q": "Who is Andorra's co-prince alongside the Bishop of Urgell?",
+      "a": "The President of France",
+      "x": [
+        "The King of Spain",
+        "The Pope"
+      ]
+    }
+  },
+  "Q26268": {
+    "t": "A town that moved to follow the sea",
+    "s": "The Lule river meets the Gulf of Bothnia among an archipelago of more than a thousand islands, and Luleå sits on a peninsula in their midst. The town moved here in 1649: the land was rising so fast after the Ice Age that its old harbour had become too shallow. In winter the sea freezes, and roads are ploughed across the ice to the islands.",
+    "w": "A town on a peninsula at a river mouth, surrounded by a maze of forested islands in a shallow sea.",
+    "f": [
+      "Gammelstad, the old church town with more than 400 wooden cottages, is a UNESCO World Heritage site.",
+      "The Luleå archipelago has about 1,300 islands.",
+      "In winter, ice roads are ploughed across the frozen sea to some of the islands."
+    ],
+    "q": {
+      "q": "Why did Luleå move to a new site in 1649?",
+      "a": "Rising land made the harbour too shallow",
+      "x": [
+        "The river changed its course",
+        "The king wanted a sea fortress"
+      ]
+    }
+  },
+  "Q105477": {
+    "t": "A giant diamond pit at the edge of town",
+    "s": "Look for a vast round hole beside the town, its sides spiralling down in terraces: the Mir mine, one of the largest man-made pits on Earth. Diamond-bearing rock was found here in 1955, and the town of Mirny grew up in the Yakutian taiga beside it. In winter the temperature here can drop below −40 °C.",
+    "w": "A huge round pit with terraced sides at the edge of a small town, in endless taiga.",
+    "f": [
+      "The Mir pit is about 525 m deep and about 1.2 km across.",
+      "Mirny is the centre of Russia's diamond industry.",
+      "Open-pit mining at Mir ended in 2001; mining continued underground."
+    ],
+    "q": {
+      "q": "What was mined in the great pit at Mirny?",
+      "a": "Diamonds",
+      "x": [
+        "Gold",
+        "Copper"
+      ]
+    }
+  },
+  "Q235": {
+    "t": "A whole country squeezed onto a strip of coast",
+    "s": "Between the mountains and the sea, a tiny country packs itself into a strip of coast only a few kilometres long. Monaco's towers crowd around a harbour full of yachts, and some districts stand on land reclaimed from the Mediterranean. Behind it, bare limestone slopes rise steeply towards the Alps, and France surrounds it on every landward side.",
+    "w": "A dense strip of towers around a small harbour on a steep coast, between the sea and bare mountains.",
+    "f": [
+      "At about 2 km², Monaco is the world's second-smallest country, after Vatican City.",
+      "The Grimaldi family has ruled Monaco, with interruptions, since 1297.",
+      "The Fontvieille district was built on land reclaimed from the sea."
+    ],
+    "q": {
+      "q": "Which is the only country smaller than Monaco?",
+      "a": "Vatican City",
+      "x": [
+        "San Marino",
+        "Liechtenstein"
+      ]
+    }
+  },
+  "Q1844": {
+    "t": "A tiny capital on the Rhine, twice cut off from the sea",
+    "s": "Straight and wide, the Rhine runs down a flat-floored Alpine valley here, marking the border with Switzerland. On its eastern side, Vaduz spreads along the foot of steep, forested mountains, with the prince's castle perched on a ledge above. Liechtenstein itself is only about 25 km long, so from cruise height the whole country fits in a single glance.",
+    "w": "A small town beside a straight, broad river in a flat Alpine valley, backed by steep forested slopes.",
+    "f": [
+      "Liechtenstein is one of only two doubly landlocked countries in the world; the other is Uzbekistan.",
+      "Liechtenstein covers about 160 km².",
+      "Vaduz Castle, above the town, is the residence of the Prince of Liechtenstein."
+    ],
+    "q": {
+      "q": "Which other country is, like Liechtenstein, doubly landlocked?",
+      "a": "Uzbekistan",
+      "x": [
+        "Kazakhstan",
+        "Switzerland"
+      ]
+    }
+  },
+  "Q103717": {
+    "t": "Lapland's capital, a stone's throw from the Arctic Circle",
+    "s": "The Kemijoki and the Ounasjoki, two big rivers, meet at Rovaniemi amid endless pine forest and bog. The Arctic Circle runs only about 8 km north of the centre, and a whole tourist village has grown up on the line itself, home to Santa Claus. In December the sun barely clears the horizon, and the northern lights often flicker overhead.",
+    "w": "A town where two wide rivers meet in flat, forested country, snow-covered for about half the year.",
+    "f": [
+      "Santa Claus Village stands right on the Arctic Circle, about 8 km north of the centre.",
+      "Alvar Aalto's town plan lays out Rovaniemi's main roads in the shape of a reindeer's head and antlers.",
+      "The Kemijoki, which flows through the town, is Finland's longest river."
+    ],
+    "q": {
+      "q": "Whose official 'village' stands on the Arctic Circle near Rovaniemi?",
+      "a": "Santa Claus",
+      "x": [
+        "The Snow Queen",
+        "The Moomins"
+      ]
+    }
+  },
+  "Q1848": {
+    "t": "The world's oldest republic, on a three-towered ridge",
+    "s": "A lone limestone ridge rears up from the rolling hills behind the Adriatic coast: Monte Titano, crowned by three towers and the old town of San Marino. The whole country, about 61 km², is surrounded by Italy. Tradition says a stonemason named Marinus founded a community here in 301, which would make it the oldest surviving republic in the world.",
+    "w": "A steep, isolated ridge with a town along its crest, rising from green hills a short way inland from the Adriatic coast.",
+    "f": [
+      "Monte Titano rises to 739 m, with three medieval towers along its ridge.",
+      "San Marino covers about 61 km² and is entirely surrounded by Italy.",
+      "The historic centre and Monte Titano became a UNESCO World Heritage site in 2008."
+    ],
+    "q": {
+      "q": "According to tradition, in which year was San Marino founded?",
+      "a": "301",
+      "x": [
+        "1291",
+        "1054"
+      ]
+    }
+  },
+  "Q177782": {
+    "t": "Sakhalin's northern oil town",
+    "s": "Near the northern end of Sakhalin, the island flattens into a low, boggy plain of larch woods and lakes, and Okha grew up among the oil fields there. Oil seeping from the ground was noticed in the 19th century. The town's name is thought to come from an Evenki word meaning 'bad', after the oily, undrinkable water of the local river.",
+    "w": "A small town on a flat, boggy plain near the northern tip of a long, narrow island, with oil fields around it.",
+    "f": [
+      "The Okha oil field was discovered in 1880, and industrial production began in 1921.",
+      "Okha received town status in 1938.",
+      "Okha is the northernmost town on Sakhalin."
+    ],
+    "q": {
+      "q": "What resource did Okha grow up around?",
+      "a": "Oil",
+      "x": [
+        "Coal",
+        "Gold"
+      ]
+    }
+  },
+  "Q157493": {
+    "t": "A Lena river port feeding the diamond fields",
+    "s": "Wide and brown, the Lena winds through the Yakutian taiga, and Lensk strings out along its bank. Much of what the diamond mines of Mirny need, from fuel to machinery, comes upriver by barge in the short summer and is unloaded here for the long road north. Until 1963 the town was called Mukhtuya.",
+    "w": "A town strung along a wide river winding through endless taiga, with a road heading north through the forest.",
+    "f": [
+      "The Lena, about 4,400 km long, is one of the longest rivers in the world.",
+      "Mirny, the diamond town supplied through Lensk, lies about 200 km to the north.",
+      "The river is navigable here only in the ice-free months, roughly from late May to October."
+    ],
+    "q": {
+      "q": "What was Lensk called until 1963?",
+      "a": "Mukhtuya",
+      "x": [
+        "Nezametny",
+        "Ust-Kut"
+      ]
+    }
+  },
+  "Q103273": {
+    "t": "A gold-rush town named after an 'unnoticeable' creek",
+    "s": "Rounded, forested hills of the Aldan Highlands roll away in every direction, scarred here and there by old gold workings. In 1923 prospectors found gold beside a stream called Nezametny, 'the unnoticeable one', and a rush followed. The town that grew up took the stream's name and became Aldan only in 1939. The railway and highway to Yakutsk now pass through it.",
+    "w": "A small town in rolling, forested highlands, with a railway and a road running north through the taiga.",
+    "f": [
+      "Aldan was founded in 1923 beside a newly found gold deposit and became a town in 1932.",
+      "Despite its name, the town stands not on the Aldan river but on a small stream in the Aldan Highlands.",
+      "The Amur–Yakutsk railway runs through Aldan on its way north towards Yakutsk."
+    ],
+    "q": {
+      "q": "What was Aldan called until 1939?",
+      "a": "Nezametny",
+      "x": [
+        "Mukhtuya",
+        "Zolotoy"
+      ]
+    }
+  },
+  "Q721374": {
+    "t": "A far-north town that lit its streets first",
+    "s": "Hammerfest clings to a bay on the island of Kvaløya, among bare, rounded hills above the Norwegian Sea. It is one of the northernmost towns in the world: the sun does not set from mid-May to late July, and in midwinter it does not rise. Just offshore, on the islet of Melkøya, gas from beneath the Barents Sea is chilled into liquid for shipping.",
+    "w": "A small town around a bay on a bare, hilly island, with an industrial plant on an islet just offshore.",
+    "f": [
+      "In 1891 Hammerfest became the first town in Northern Europe with electric street lighting.",
+      "The Meridian Column here marks the northern end of the Struve Geodetic Arc, a UNESCO World Heritage site.",
+      "The Melkøya plant, opened in 2007, was Europe's first large liquefied natural gas export plant."
+    ],
+    "q": {
+      "q": "What does Hammerfest's Meridian Column mark?",
+      "a": "The end of the Struve Geodetic Arc",
+      "x": [
+        "The Arctic Circle",
+        "Europe's northernmost point"
+      ]
+    }
+  },
+  "Q1025866": {
+    "t": "A gold town in the frozen heart of Yakutia",
+    "s": "Deep among the bare ridges of the Chersky Range, the Nera flows into the Indigirka, and Ust-Nera takes its name from that meeting point. It is the centre of the Oymyakon district, one of the coldest inhabited places on Earth, where winter temperatures often fall below −50 °C. Gold brought people here, and the Kolyma Highway crosses the Indigirka by the settlement.",
+    "w": "A small settlement where two rivers meet in a wide valley among bare, often snowy mountain ridges.",
+    "f": [
+      "Ust-Nera is the administrative centre of the Oymyakon district, known as a pole of cold.",
+      "A concrete bridge carrying the Kolyma Highway across the Indigirka opened here in 1978.",
+      "Gold mining is the main industry around Ust-Nera."
+    ],
+    "q": {
+      "q": "Which river does the Nera flow into at Ust-Nera?",
+      "a": "The Indigirka",
+      "x": [
+        "The Kolyma",
+        "The Yana"
+      ]
+    }
+  },
+  "Q7054": {
+    "t": "A mountain mining town famous for its crystals",
+    "s": "A narrow valley in the forested Sikhote-Alin mountains holds Dalnegorsk, about 30 km from the Sea of Japan. The hills around it are riddled with ore: lead, zinc and boron have been mined here for decades. To mineral collectors worldwide, the name means superb crystals, from glassy calcite to pale green datolite. Until 1972 the town was called Tetyukhe.",
+    "w": "A small town strung along a narrow valley in forested mountains, with a river running south-east to the sea.",
+    "f": [
+      "Dalnegorsk is the only place in Russia where boron is mined.",
+      "The boron plant at Dalnegorsk began work in 1965.",
+      "The Rudnaya river flows from the town to the Sea of Japan."
+    ],
+    "q": {
+      "q": "What was Dalnegorsk called until 1972?",
+      "a": "Tetyukhe",
+      "x": [
+        "Iman",
+        "Suchan"
+      ]
+    }
+  },
+  "Q648799": {
+    "t": "Russia's first foothold on the Pacific",
+    "s": "A low, narrow spit between the open sea and a shallow estuary carries Okhotsk, where the Okhota and Kukhtuy rivers reach the coast. Founded in 1647, it was the first Russian settlement on the Pacific shore, and for more than a century its main port for voyages to Kamchatka and Alaska. Behind it, flat, lake-dotted lowland runs to low hills.",
+    "w": "A small settlement on a thin spit between a wide sea and a river estuary, backed by flat lowland and low hills.",
+    "f": [
+      "For about half the year the sea off Okhotsk is covered with ice.",
+      "Vitus Bering's expeditions built ships at Okhotsk in the 18th century.",
+      "The Sea of Okhotsk is named after the town, and the town after the Okhota river."
+    ],
+    "q": {
+      "q": "Which explorer's expeditions built ships at Okhotsk?",
+      "a": "Vitus Bering",
+      "x": [
+        "Yerofey Khabarov",
+        "Semyon Dezhnev"
+      ]
+    }
+  },
+  "Q2359080": {
+    "t": "A tiny town next to a giant permafrost scar",
+    "s": "About 10 km south-east of Batagay, look for a pale, tadpole-shaped scar on a forested hillside: the Batagaika crater, a slump about 1 km long where the permafrost is thawing. Each summer its cliffs retreat further, exposing ice and soil tens of thousands of years old. Batagay itself sits on the Yana, in one of the coldest corners of Yakutia.",
+    "w": "A small settlement on a river in taiga, with a large, pale, tadpole-shaped scar on a hillside to the south-east.",
+    "f": [
+      "The Batagaika crater is about 1 km long, around 800 m wide and in places 50–100 m deep.",
+      "The crater began as a small gully after the forest on the slope was cleared in the 1960s, and has grown ever since.",
+      "Batagay is the centre of the Verkhoyansk district, one of the coldest places in the Northern Hemisphere."
+    ],
+    "q": {
+      "q": "What is the Batagaika crater near Batagay?",
+      "a": "A thawing permafrost slump",
+      "x": [
+        "A meteorite crater",
+        "A volcanic caldera"
+      ]
+    }
+  },
+  "Q1003237": {
+    "t": "A coal-mining settlement in the Transbaikal hills",
+    "s": "Low, forested ridges of Transbaikalia roll to the horizon, larch and pine on the slopes and open meadows in the valleys. In one of those valleys lies Bukachacha, which grew up around a coal mine opened in 1930. A branch railway carried its coal south to the Trans-Siberian. The mine closed in 1998, and the settlement has been shrinking ever since.",
+    "w": "A small settlement in a valley among rolling, forested ridges, with a railway line heading off to the south.",
+    "f": [
+      "The Bukachacha coal mine began work in November 1930.",
+      "A railway branch from Chernyshevsk, on the Trans-Siberian, reached the settlement in 1932.",
+      "In 1979 Bukachacha had more than 9,000 inhabitants."
+    ],
+    "q": {
+      "q": "What was mined at Bukachacha?",
+      "a": "Coal",
+      "x": [
+        "Gold",
+        "Tin"
+      ]
+    }
+  },
+  "Q1305638": {
+    "t": "Chukotka's airport settlement across the estuary",
+    "s": "Across the wide Anadyr estuary from Anadyr, on a flat, lake-dotted shore of tundra, sits Ugolnye Kopi, whose name means 'coal mines'. It began in 1929 as a miners' settlement on a brown-coal deposit that fuelled Anadyr. Today it is best known for the airport serving Chukotka's capital: passengers cross the estuary by boat in summer and over the ice in winter.",
+    "w": "A small settlement on flat tundra beside a wide estuary, with a long runway nearby and a town on the opposite shore.",
+    "f": [
+      "The settlement was founded in 1929 beside a brown-coal deposit.",
+      "Ugolny airport, beside the settlement, serves Anadyr, the capital of Chukotka.",
+      "Brown-coal mining remains the settlement's main industry."
+    ],
+    "q": {
+      "q": "Which city does the airport at Ugolnye Kopi serve?",
+      "a": "Anadyr",
+      "x": [
+        "Pevek",
+        "Provideniya"
+      ]
+    }
+  },
+  "Q2621673": {
+    "t": "An old Cossack fort just past the Arctic Circle",
+    "s": "A giant of a river, kilometres wide and braided with sandy islands, the Lena flows north here through larch taiga towards the Arctic Ocean. Zhigansk stands on its left bank, just north of the Arctic Circle. Cossacks built a fort here in 1632, the same year Yakutsk was founded, which makes it one of the oldest Russian settlements in Yakutia.",
+    "w": "A small village on the west bank of a huge river full of sandy islands, with larch forest all around.",
+    "f": [
+      "In 1783 Zhigansk became a district town, but it lost that status in 1805.",
+      "Zhigansk is the centre of a district where many Evenks live."
+    ],
+    "q": {
+      "q": "In which year was the fort at Zhigansk founded?",
+      "a": "1632",
+      "x": [
+        "1586",
+        "1703"
+      ]
+    }
+  },
+  "Q918830": {
+    "t": "The last stop before the North Pole",
+    "s": "Far out on the Taymyr tundra, the Khatanga river winds towards the Laptev Sea, and on its high bank stands the settlement of the same name. It began in the 17th century as a winter outpost for collecting fur tribute. Today its long runway makes it a staging point for expeditions to the North Pole, and a museum here keeps mammoth remains found in the frozen ground.",
+    "w": "A small settlement on the high bank of a broad river winding across flat tundra dotted with lakes.",
+    "f": [
+      "Khatanga was founded in 1626.",
+      "Khatanga's mammoth museum opened in 2007.",
+      "Cellars dug into the permafrost of the riverbank stay below freezing all year round."
+    ],
+    "q": {
+      "q": "Khatanga is a staging point for expeditions to where?",
+      "a": "The North Pole",
+      "x": [
+        "The Pole of Cold",
+        "Wrangel Island"
+      ]
+    }
+  },
+  "Q2312088": {
+    "t": "A tundra outpost on the lower Indigirka",
+    "s": "Beyond the Arctic Circle, the lower Indigirka winds across tundra so riddled with lakes that there seems to be more water than land. Chokurdakh stands on the river's left bank, the centre of a vast and almost empty district. Nearby, the Kytalyk protected area guards a nesting ground of the Siberian white crane, one of the rarest cranes on Earth.",
+    "w": "A small settlement on a big river crossing flat tundra covered with countless round lakes.",
+    "f": [
+      "Chokurdakh is the centre of the Allaikhovsky district, which covers more than 100,000 km².",
+      "The Indigirka reaches the East Siberian Sea through a delta north of the settlement.",
+      "Kytalyk, near Chokurdakh, is world-famous as a nesting place of the Siberian crane."
+    ],
+    "q": {
+      "q": "Which rare bird nests in the Kytalyk area near Chokurdakh?",
+      "a": "The Siberian crane",
+      "x": [
+        "The Dalmatian pelican",
+        "The great bustard"
+      ]
+    }
+  },
+  "Q237": {
+    "t": "The world's smallest country, inside a city",
+    "s": "Inside Rome, a short way west of the Tiber, lies a walled patch less than a kilometre across: Vatican City, the smallest country in the world. It covers about 44 hectares, less than many city parks. From cruise height it is only a speck within the sprawl of Rome, yet it has its own government, flag, stamps and even a railway station.",
+    "w": "A tiny walled patch in the western part of Rome, a short way west of the Tiber — too small to pick out easily.",
+    "f": [
+      "At about 0.44 km², Vatican City is the smallest country in the world.",
+      "The dome of St Peter's Basilica, designed by Michelangelo, rises to about 136 m.",
+      "The Swiss Guard has protected the Pope since 1506."
+    ],
+    "q": {
+      "q": "Since which year has the Swiss Guard protected the Pope?",
+      "a": "1506",
+      "x": [
+        "1648",
+        "1870"
       ]
     }
   }

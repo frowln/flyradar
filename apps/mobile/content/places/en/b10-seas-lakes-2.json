@@ -432,8 +432,8 @@
     }
   },
   "Q753898": {
-    "t": "Argentina's largest lake, tinted by glacier flour",
-    "s": "Glaciers grind the Andes into fine rock flour, and it tints Lago Argentino an unreal milky turquoise. This is the largest lake in Argentina, and its western arms reach deep into the ice: the Perito Moreno Glacier pushes right across one of them, now and then damming the water until it breaks through. The town of El Calafate sits on the southern shore, where mountains give way to dry steppe.",
+    "t": "Argentina's largest freshwater lake, tinted by glacier flour",
+    "s": "Glaciers grind the Andes into fine rock flour, and it tints Lago Argentino an unreal milky turquoise. This is the largest freshwater lake in Argentina, and its western arms reach deep into the ice: the Perito Moreno Glacier pushes right across one of them, now and then damming the water until it breaks through. The town of El Calafate sits on the southern shore, where mountains give way to dry steppe.",
     "w": "A large turquoise lake with long fjord-like arms reaching west into snowy mountains and glaciers, and brown steppe to the east.",
     "f": [
       "Its western arms lie within Los Glaciares National Park, a UNESCO World Heritage site since 1981.",
@@ -678,6 +678,1372 @@
       "x": [
         "Hunan and Jiangxi",
         "Henan and Shandong"
+      ]
+    }
+  },
+  "Q7374197": {
+    "t": "Mother lake of Wuhan's most famous fish",
+    "s": "Wuhan's best-known dish, Wuchang fish, is a bream that scientists first described from specimens caught here, and locals call Liangzi its 'mother lake'. The fish's fame spread across China after Mao Zedong mentioned it in a poem in 1956. From above, Liangzi is a many-armed lake with countless bays and islands, spread through green countryside south-east of Wuhan's sprawl.",
+    "w": "A many-armed lake with dozens of bays and islands in green farmland south of the Yangtze, between Wuhan and Ezhou.",
+    "f": [
+      "The type specimen of the blunt-snout bream, sold as Wuchang fish, came from Liangzi Lake.",
+      "Mao's 1956 line 'and now I eat Wuchang fish' made the dish famous across China.",
+      "It is one of the largest lakes of Hubei, long nicknamed the 'province of a thousand lakes'."
+    ],
+    "q": {
+      "q": "Which fish, famous in Wuhan cooking, was first described from Liangzi Lake?",
+      "a": "The Wuchang bream",
+      "x": [
+        "The mandarin fish",
+        "The grass carp"
+      ]
+    }
+  },
+  "Q1404973": {
+    "t": "The Tibetan lake that grew past Namtso",
+    "s": "For a long time Namtso was the largest lake in Tibet, but Siling Co has overtaken it: fed by melting glaciers and heavier rain, it has swollen by hundreds of square kilometres in recent decades. It lies at about 4,530 m in a wide, empty basin of the Changtang plateau. The salty water is an intense blue, and black-necked cranes breed on the marshes around it.",
+    "w": "A large, deep-blue lake with a lobed outline on a bare brown plateau, north-west of Namtso.",
+    "f": [
+      "Its area grew from roughly 1,600 km² in the 1970s to more than 2,300 km² in recent years.",
+      "The lake lies at the heart of a reserve for the black-necked crane, the only crane of high plateaus.",
+      "Even at 4,530 m, the lake is still some 6.5 km lower than a cruising airliner."
+    ],
+    "q": {
+      "q": "Which lake did Siling Co overtake as Tibet's largest?",
+      "a": "Namtso",
+      "x": [
+        "Yamdrok Tso",
+        "Manasarovar"
+      ]
+    }
+  },
+  "Q1323267": {
+    "t": "Mongolia's second-largest freshwater lake, in a dry basin",
+    "s": "The Khovd River comes down from the Altai and spreads into a vast marshy delta before it reaches Khar-Us Nuur, Mongolia's second-largest freshwater lake. Reed beds, channels and a big island called Agbash fill much of it, so from above it looks more like a green-and-blue mosaic than open water. All around lies the dry, brown Great Lakes Depression of western Mongolia.",
+    "w": "A large lake broken up by reeds and one big island, with a wide green delta on its western side, east of Khovd city.",
+    "f": [
+      "Agbash Island, inside the lake, covers about 274 km².",
+      "A channel carries water from Khar-Us Nuur on to neighbouring Khar Nuur.",
+      "The lake and its delta are protected as a national park and a Ramsar wetland."
+    ],
+    "q": {
+      "q": "Which river forms the big delta at Khar-Us Nuur?",
+      "a": "The Khovd",
+      "x": [
+        "The Zavkhan",
+        "The Selenge"
+      ]
+    }
+  },
+  "Q6403": {
+    "t": "A blue crescent with Mont Blanc on the horizon",
+    "s": "From cruise height Lake Geneva is an unmistakable blue crescent some 73 km long, with Geneva at one tip and the Rhône valley at the other. The northern shore is Swiss, most of the southern shore French. The Rhône flows in grey with glacier silt at the eastern end and leaves clear at Geneva. On a clear day Mont Blanc's white dome shines to the south-east.",
+    "w": "A large crescent-shaped lake curving between the Jura and the Alps, with Geneva at its south-western tip.",
+    "f": [
+      "The lake is about 310 m deep at its deepest and covers around 580 km².",
+      "The terraced Lavaux vineyards on its northern shore are a UNESCO World Heritage site.",
+      "Its French name, Lac Léman, comes from the Latin Lacus Lemannus."
+    ],
+    "q": {
+      "q": "Which river flows through Lake Geneva?",
+      "a": "The Rhône",
+      "x": [
+        "The Rhine",
+        "The Aare"
+      ]
+    }
+  },
+  "Q206942": {
+    "t": "The British Isles' biggest lake — a giant's handiwork?",
+    "s": "Legend says the giant Fionn mac Cumhaill scooped up a huge clod of earth and hurled it at a rival, leaving the hollow that filled to become Lough Neagh; the clod, they say, landed in the sea as the Isle of Man. The real origin is geological, but the lake is truly big — the largest in the British Isles by area. Belfast International Airport sits close to its eastern shore.",
+    "w": "A broad, roughly square lake in green farmland west of Belfast, with Belfast International Airport near its eastern shore.",
+    "f": [
+      "Five of Northern Ireland's six counties touch its shores.",
+      "It supports one of Europe's largest commercial fisheries for wild eels.",
+      "Although it covers about 390 km², it averages only around 9 m deep."
+    ],
+    "q": {
+      "q": "How many of Northern Ireland's six counties touch Lough Neagh?",
+      "a": "Five",
+      "x": [
+        "Three",
+        "All six"
+      ]
+    }
+  },
+  "Q188195": {
+    "t": "Sweden's long, clear, cold blade of water",
+    "s": "Vättern is a slim blue blade about 135 km long, cutting north–south through southern Sweden. Its water is so clean and cold that it supplies drinking water to about a quarter of a million people. Jönköping curls around the southern tip, the long island of Visingsö floats in its southern half, and the Göta Canal crosses it on the way between the Baltic and Lake Vänern.",
+    "w": "A long, narrow lake running north–south, with Jönköping at its southern tip and a slim island in its southern half.",
+    "f": [
+      "Vättern is Sweden's second-largest lake and reaches about 128 m deep.",
+      "The Göta Canal crosses the lake, linking the Baltic coast with Lake Vänern.",
+      "Vadstena, on the eastern shore, grew up around the abbey founded by St Birgitta's order in the 14th century."
+    ],
+    "q": {
+      "q": "Which canal crosses Lake Vättern?",
+      "a": "The Göta Canal",
+      "x": [
+        "The Kiel Canal",
+        "The Trollhätte Canal"
+      ]
+    }
+  },
+  "Q845868": {
+    "t": "A big lake at 74° north, free of ice for only weeks",
+    "s": "At about 74° N, Lake Taymyr is one of the most northerly large lakes on Earth, and its ice usually breaks up only in July. It is vast but shallow, on average just a few metres deep, and its long arms reach towards the bare ridges of the Byrranga Mountains to the north. Musk oxen, brought back to Taymyr in the 1970s, graze the tundra around it.",
+    "w": "A long, many-armed lake on flat tundra, with the low, bare Byrranga Mountains rising to the north.",
+    "f": [
+      "The Upper Taymyra River flows in, and the Lower Taymyra carries the water north to the Kara Sea.",
+      "Musk oxen were reintroduced to the Taymyr Peninsula from Canada and Alaska in 1974–1975.",
+      "Its area runs to thousands of square kilometres, yet its average depth is only about 3 m."
+    ],
+    "q": {
+      "q": "Which animals were brought back to Taymyr's tundra in the 1970s?",
+      "a": "Musk oxen",
+      "x": [
+        "Bison",
+        "Wild horses"
+      ]
+    }
+  },
+  "Q240398": {
+    "t": "A lake of 580 islands that doubled in size",
+    "s": "More than 580 islands are scattered across Kovdozero, so from above it reads like a jigsaw of dark forest pieces floating on grey-blue water. In 1955 a hydropower dam downstream raised its level by more than six metres, and the lake's surface roughly doubled. Its water runs on by the Kovda River to the White Sea's Kandalaksha Gulf, only a short distance to the east.",
+    "w": "A sprawling lake crowded with hundreds of wooded islands, just north of the Arctic Circle and west of the White Sea's Kandalaksha Gulf.",
+    "f": [
+      "Before the dam the lake covered about 294 km²; its surface is now about 608 km².",
+      "Its islands, more than 580 of them, add up to some 70 km².",
+      "The Kovda cascade of power stations uses the lake's water on its short run to the sea."
+    ],
+    "q": {
+      "q": "What happened to Kovdozero's area after the 1955 dam?",
+      "a": "It roughly doubled",
+      "x": [
+        "It halved",
+        "It barely changed"
+      ]
+    }
+  },
+  "Q1345130": {
+    "t": "A maze of 451 islands near Finland's eastern edge",
+    "s": "Some 451 islands are scattered across Koitere, a maze of wooded strips and open water deep in the forests of Ilomantsi, in North Karelia. The easternmost point of Finland — and of the European Union — lies not far to the east. The Koitajoki River flows out towards the Pielisjoki, although most of the lake's outflow is sent through a tunnel to a hydropower plant at Pamilo.",
+    "w": "An island-choked lake in unbroken forest near Finland's eastern border, about 60 km north-east of Joensuu.",
+    "f": [
+      "The lake covers about 164 km² and holds some 451 islands.",
+      "Finland's easternmost point, on the lake Virmajärvi, is in the same municipality of Ilomantsi.",
+      "A tunnel sends most of the outflow to the Pamilo power station, bypassing about 20 km of river."
+    ],
+    "q": {
+      "q": "Where is most of Koitere's outflow sent?",
+      "a": "Through a hydropower tunnel",
+      "x": [
+        "Into a canal to Lake Saimaa",
+        "Into irrigation channels"
+      ]
+    }
+  },
+  "Q7334058": {
+    "t": "The lake that broke through and dropped 9.5 metres",
+    "s": "In 1859 workers were digging a canal to lower this lake and win new farmland; instead the water broke through the sandy ridge of Jaamankangas and carved its own outlet. Within about a month Höytiäinen fell some 9.5 m and lost roughly a third of its area. Even so, it still spreads over about 283 km² of North Karelia, just north of Joensuu.",
+    "w": "A large lake in forest just north of Joensuu, separated from the Pyhäselkä basin to the south-west by a sandy ridge.",
+    "f": [
+      "The water level fell about 9.5 m within a month in 1859.",
+      "The lake shrank by roughly a third, and the exposed bed became new land.",
+      "Today it drains south-west into Pyhäselkä through the channel the water cut."
+    ],
+    "q": {
+      "q": "What happened to Höytiäinen in 1859?",
+      "a": "Its level fell about 9.5 m",
+      "x": [
+        "It froze to the bottom",
+        "It was dammed for hydropower"
+      ]
+    }
+  },
+  "Q203462": {
+    "t": "The lake on the old road from the Varangians to the Greeks",
+    "s": "A thousand years ago, merchants rowing from the Baltic towards Byzantium crossed Lake Ilmen: the route from the Varangians to the Greeks ran up the Volkhov, across the lake and on up the Lovat. At its northern tip the Volkhov leaves for Lake Ladoga, passing Veliky Novgorod. The lake is shallow and restless, swelling hugely each spring with meltwater from some fifty rivers.",
+    "w": "A broad, shallow lake in flat, marshy country, with Veliky Novgorod just beyond its northern tip on the Volkhov River.",
+    "f": [
+      "In the spring flood its area can nearly triple compared with the low-water season.",
+      "More than 50 rivers, including the Msta, Lovat and Shelon, flow in; only the Volkhov flows out.",
+      "In the Novgorod tale of Sadko, the minstrel's music charms a king who rises from Lake Ilmen."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Ilmen?",
+      "a": "The Volkhov",
+      "x": [
+        "The Msta",
+        "The Lovat"
+      ]
+    }
+  },
+  "Q580019": {
+    "t": "The 'Sea of Kainuu' and its old tar route",
+    "s": "Locals call Oulujärvi the Sea of Kainuu, and on a windy day its steep grey waves earn the name. In the 19th century the lake was a highway for tar: boats loaded with barrels crossed it and shot the rapids of the Oulujoki down to Oulu, then one of the world's great tar ports. Sandy islands and beaches rim its open water.",
+    "w": "A wide, open lake in Finland's forested interior, with Kajaani near its south-eastern end and a long wooded island in the middle.",
+    "f": [
+      "The lake covers roughly 900 km², one of the largest areas of open water in Finland.",
+      "Its water flows west by the Oulujoki River to the Gulf of Bothnia at Oulu.",
+      "Manamansalo, a long sandy island, lies in the middle of the lake."
+    ],
+    "q": {
+      "q": "What cargo did boats carry across Oulujärvi towards Oulu in the 1800s?",
+      "a": "Tar",
+      "x": [
+        "Iron ore",
+        "Salted fish"
+      ]
+    }
+  },
+  "Q1888211": {
+    "t": "A lake raised 3 m to send a river another way",
+    "s": "Southern Indian Lake was once simply a wide stretch of the Churchill River. In 1976 a dam at Missi Falls raised it by about 3 m, and now much of the Churchill's water leaves by a new channel on the lake's southern side, heading for the Rat and Burntwood rivers and the power stations of the Nelson. From above it is a huge lake of many broad basins in dense forest.",
+    "w": "A huge lake of many broad basins and islands in dense northern forest, on the Churchill River in northern Manitoba.",
+    "f": [
+      "The dam at Missi Falls, at the lake's natural outlet, holds the water about 3 m above its old level.",
+      "A channel at South Bay sends water into the Rat River and on to the Nelson River's hydro plants.",
+      "The diversion carries on average about 875 cubic metres of water a second."
+    ],
+    "q": {
+      "q": "Which river's water is diverted out of Southern Indian Lake?",
+      "a": "The Churchill",
+      "x": [
+        "The Saskatchewan",
+        "The Hayes"
+      ]
+    }
+  },
+  "Q1052532": {
+    "t": "Where the Saskatchewan River pauses before Lake Winnipeg",
+    "s": "The Saskatchewan River, which drains the prairies all the way from the Rocky Mountains, spreads into Cedar Lake before its final drop at Grand Rapids into Lake Winnipeg. Since the 1960s a hydroelectric dam at Grand Rapids has held the lake higher than before, drowning low shoreline forest and marsh. It is one link in the chain of big lakes that dominates the map of Manitoba.",
+    "w": "A broad, irregular lake in flat forest and marsh, just north of Lake Winnipegosis and west of the north basin of Lake Winnipeg.",
+    "f": [
+      "The Saskatchewan River flows through the lake and leaves by Grand Rapids for Lake Winnipeg.",
+      "The Grand Rapids generating station, finished in the 1960s, turned Cedar Lake into a reservoir.",
+      "Some of the river's water begins in glaciers of the Canadian Rockies."
+    ],
+    "q": {
+      "q": "Which river flows through Cedar Lake on its way to Lake Winnipeg?",
+      "a": "The Saskatchewan",
+      "x": [
+        "The Red River",
+        "The Assiniboine"
+      ]
+    }
+  },
+  "Q979922": {
+    "t": "A near-round lake that feeds the Saguenay fjord",
+    "s": "Lac Saint-Jean is almost round, about 1,000 km² of water in a flat, farmed lowland ringed by forested hills, an unmistakable shape from the air. It is the source of the Saguenay River, which leaves from the eastern side at Alma and runs down to its famous fjord. People from around here are nicknamed 'Bleuets', after the wild blueberries that grow in abundance.",
+    "w": "A large, almost circular lake in a flat lowland with forested hills all around, north of Quebec City.",
+    "f": [
+      "Each summer swimmers race about 32 km across it in the Traversée internationale du lac Saint-Jean.",
+      "Its big tributaries include the Péribonka, Mistassini and Ashuapmushuan rivers.",
+      "The ouananiche, a landlocked salmon, is the lake's emblem fish."
+    ],
+    "q": {
+      "q": "Which river flows out of Lac Saint-Jean?",
+      "a": "The Saguenay",
+      "x": [
+        "The Saint-Maurice",
+        "The Péribonka"
+      ]
+    }
+  },
+  "Q22617464": {
+    "t": "The sprawling reservoir of the James Bay hydro giant",
+    "s": "The Robert-Bourassa dam flooded some 2,800 km² of taiga in the late 1970s, turning hills into a maze of islands and long drowned valleys. Its water drives the Robert-Bourassa power station, carved deep into the rock and one of the largest underground power plants in the world. The spillway, ten giant steps blasted down a hillside, is nicknamed the Giant's Staircase.",
+    "w": "A vast, branching reservoir full of islands in flat taiga, stretching east from the lower dams of the La Grande River.",
+    "f": [
+      "The reservoir covers a little more than the area of Luxembourg.",
+      "It is named after Robert Bourassa, the Quebec premier who launched the James Bay project in 1971.",
+      "The nearby town of Radisson was built in the 1970s for the project's workers."
+    ],
+    "q": {
+      "q": "What is the Robert-Bourassa spillway nicknamed?",
+      "a": "The Giant's Staircase",
+      "x": [
+        "The Devil's Slide",
+        "The Stairway to Heaven"
+      ]
+    }
+  },
+  "Q2179011": {
+    "t": "The next giant step up the La Grande River",
+    "s": "Upstream of the Robert-Bourassa Reservoir, the La Grande River widens again into this second great artificial lake, created when the La Grande-3 dam closed in the early 1980s. It covers about 2,400 km², a ragged tangle of drowned valleys and hilltop islands that is hard to tell from the natural lakes around it. It is one step in a staircase of reservoirs and power stations descending towards James Bay.",
+    "w": "A huge ragged reservoir with countless islands in flat taiga, east of the Robert-Bourassa Reservoir along the La Grande River.",
+    "f": [
+      "The La Grande River drops through a series of dams and power stations before it reaches James Bay.",
+      "The gravel Trans-Taiga Road runs east past the reservoir deep into the interior of Quebec.",
+      "The La Grande complex is one of the largest hydroelectric systems in the world."
+    ],
+    "q": {
+      "q": "Into which bay does the La Grande River flow?",
+      "a": "James Bay",
+      "x": [
+        "Ungava Bay",
+        "Frobisher Bay"
+      ]
+    }
+  },
+  "Q654515": {
+    "t": "A desert reservoir with a pale 'bathtub ring'",
+    "s": "Lake Mead fills the canyons of the Colorado behind the Hoover Dam, and when full it is the largest reservoir in the United States by capacity. Years of drought have pulled the water far below that mark, leaving a pale band of minerals on the canyon walls — the famous 'bathtub ring' that frames the dark-blue water in the reddish desert.",
+    "w": "Deep-blue water branching through reddish desert canyons, with a pale rim along the shores, about 40 km east of Las Vegas.",
+    "f": [
+      "The Hoover Dam, at the lake's south-western end, was completed in 1936.",
+      "Las Vegas draws most of its water from the lake.",
+      "The lake is named after Elwood Mead, head of the Bureau of Reclamation while the dam was built."
+    ],
+    "q": {
+      "q": "Which dam holds back Lake Mead?",
+      "a": "The Hoover Dam",
+      "x": [
+        "The Glen Canyon Dam",
+        "The Grand Coulee Dam"
+      ]
+    }
+  },
+  "Q667507": {
+    "t": "A blue maze drowned in red-rock canyons",
+    "s": "Lake Powell is a startling sight from the air: fingers of deep-blue water threading through red and orange sandstone, filling the side canyons of the Colorado for nearly 300 km. It formed behind Glen Canyon Dam, closed in 1963, and took seventeen years to fill. It is named after John Wesley Powell, who led the first known expedition by boat through these canyons in 1869.",
+    "w": "Deep-blue water snaking through red-rock desert in countless branching canyons, with the dam and the town of Page at its south-western end.",
+    "f": [
+      "Its winding shoreline is longer than the whole Pacific coast of the contiguous United States.",
+      "Rainbow Bridge, one of the world's largest natural stone arches, stands in one of its side canyons.",
+      "The lake straddles the border between Utah and Arizona."
+    ],
+    "q": {
+      "q": "Which explorer is Lake Powell named after?",
+      "a": "John Wesley Powell",
+      "x": [
+        "Zebulon Pike",
+        "John C. Frémont"
+      ]
+    }
+  },
+  "Q1539726": {
+    "t": "A labyrinth of flooded lakes behind a silenced waterfall",
+    "s": "In the early 1970s dams and dykes on the Labrador plateau joined dozens of lakes into the Smallwood Reservoir, a labyrinth of water covering roughly 6,500 km². Its water now drives the underground Churchill Falls power station instead of pouring over Churchill Falls itself, a cascade of about 75 m that is now mostly a trickle. The reservoir is named after Joey Smallwood, Newfoundland's first premier as a Canadian province.",
+    "w": "A vast tangle of lakes, channels and islands on the flat, forested Labrador plateau, far inland from the Atlantic coast.",
+    "f": [
+      "The Churchill Falls power station, built deep underground, is one of the largest hydroelectric plants in the world.",
+      "The reservoir swallowed older lakes, among them Michikamau and Lobstick.",
+      "Joey Smallwood led Newfoundland into Canada in 1949 and became its first premier."
+    ],
+    "q": {
+      "q": "What happened to Churchill Falls once the reservoir was built?",
+      "a": "Most of its water was diverted",
+      "x": [
+        "It doubled in height",
+        "It froze over for good"
+      ]
+    }
+  },
+  "Q770141": {
+    "t": "A lake on the Niger that drowned Mungo Park's rapids",
+    "s": "The Scottish explorer Mungo Park died in 1806 in the rapids of the Niger at Bussa, while trying to follow the river to its mouth. Those rapids, and the old town of Bussa, now lie beneath Kainji Reservoir, formed when the Kainji Dam closed in the late 1960s. From above it is a long, many-armed lake in dry savanna, fed by the Niger from the north.",
+    "w": "A long, branching lake on the Niger River, running north–south through dry brown savanna in western Nigeria.",
+    "f": [
+      "The Kainji Dam was completed in 1968, and a new town, New Bussa, replaced the drowned one.",
+      "Kainji Lake National Park stretches beside the reservoir.",
+      "When full, the reservoir covers about 1,200 km²."
+    ],
+    "q": {
+      "q": "Which explorer died in rapids now drowned by Kainji Reservoir?",
+      "a": "Mungo Park",
+      "x": [
+        "David Livingstone",
+        "Richard Lander"
+      ]
+    }
+  },
+  "Q1540436": {
+    "t": "A former reservoir where a lost river meadow returns",
+    "s": "For almost seventy years this stretch of the Dnipro was the 'Kakhovka Sea', a reservoir more than 200 km long. Since 2023 it has largely emptied, and the Dnipro once again winds through the old bed, where young willows and poplars have sprung up with astonishing speed. The floodplain drowned in the 1950s was the Great Meadow, a legendary haunt of the Zaporozhian Cossacks.",
+    "w": "A long, wide valley of the Dnipro where the reservoir used to be: a green band of young forest with the river winding through it.",
+    "f": [
+      "The reservoir was created in the 1950s by a dam at Nova Kakhovka.",
+      "When full, it covered about 2,150 km², one of the largest reservoirs on the Dnipro.",
+      "The Great Meadow was a vast floodplain of channels, woods and islands below the Dnipro rapids."
+    ],
+    "q": {
+      "q": "What was the floodplain under the Kakhovka Reservoir called?",
+      "a": "The Great Meadow",
+      "x": [
+        "The Golden Steppe",
+        "The Cossack Marsh"
+      ]
+    }
+  },
+  "Q1431500": {
+    "t": "The widest stretch of the Dnipro, an inland 'sea'",
+    "s": "Here the Dnipro spreads so wide that people call it the Kremenchuk Sea: the reservoir is almost 30 km across in places and roughly 150 km long, the largest by area on the whole river. It filled in the early 1960s behind a dam near Kremenchuk. Cherkasy lines its western shore, where a long causeway and bridge carry road and rail across the water.",
+    "w": "A very wide blue stretch of the Dnipro with flat farmland all round, and the city of Cherkasy along its western shore.",
+    "f": [
+      "With about 2,250 km² of water, it is the largest reservoir on the Dnipro by area.",
+      "The Sula River enters from the east through wide marshes and reed beds."
+    ],
+    "q": {
+      "q": "Which river does the Kremenchuk Reservoir lie on?",
+      "a": "The Dnipro",
+      "x": [
+        "The Dniester",
+        "The Southern Bug"
+      ]
+    }
+  },
+  "Q745937": {
+    "t": "Europe's largest reservoir, where the Volga meets the Kama",
+    "s": "No reservoir in Europe covers more water. Behind the Zhiguli dam near Tolyatti the Volga backs up for some 500 km, and the Kama joins it in a vast bay south of Kazan. The reservoir filled in the late 1950s, drowning old riverside towns; Stavropol was moved and grew into Tolyatti. Near Ulyanovsk the water spreads so wide that the bridges across it run for kilometres.",
+    "w": "A huge, branching expanse of the Volga, many kilometres wide, with the city of Ulyanovsk on its western bank.",
+    "f": [
+      "With about 6,450 km² of water, it is the largest reservoir in Europe.",
+      "Sviyazhsk, an old town near Kazan, became an island when the reservoir filled in 1957.",
+      "The ruins of Bolgar, capital of Volga Bulgaria, stand on its eastern shore and are a UNESCO site."
+    ],
+    "q": {
+      "q": "Which river joins the Volga inside the Kuybyshev Reservoir?",
+      "a": "The Kama",
+      "x": [
+        "The Oka",
+        "The Sura"
+      ]
+    }
+  },
+  "Q3234165": {
+    "t": "Where the backlands really did turn into sea",
+    "s": "'The backlands will become sea,' goes an old prophecy of the Brazilian sertão, and at Sobradinho it came true. In the late 1970s a dam on the São Francisco River flooded more than 4,000 km² of dry scrubland, creating one of the largest artificial lakes in the world by area. Several riverside towns had to be rebuilt on higher ground.",
+    "w": "A huge, long lake of blue-grey water stretching through dry scrubland along the São Francisco River in northern Bahia.",
+    "f": [
+      "The São Francisco is the longest river that flows entirely within Brazil.",
+      "Towns including Remanso, Casa Nova, Sento Sé and Pilão Arcado were rebuilt away from the rising water.",
+      "The reservoir also evens out the river's flow for the power stations farther downstream."
+    ],
+    "q": {
+      "q": "Which river is dammed to form the Sobradinho Reservoir?",
+      "a": "The São Francisco",
+      "x": [
+        "The Paraná",
+        "The Tocantins"
+      ]
+    }
+  },
+  "Q1464758": {
+    "t": "The Caribbean's lowest point — with crocodiles",
+    "s": "Lago Enriquillo lies well below sea level, the lowest point in the Caribbean, in a hot, dry trough between two mountain ranges. Its water is saltier than the ocean, yet American crocodiles live here, and rhinoceros iguanas roam Isla Cabritos in the middle. The lake takes its name from Enriquillo, a Taíno chief who held out against the Spanish in the nearby mountains.",
+    "w": "A long, pale-blue lake with a large island, in a hot dry valley between mountain ranges in the south-west of the Dominican Republic.",
+    "f": [
+      "No point in the Caribbean islands lies lower than the surface of this lake.",
+      "Isla Cabritos, in the middle of the lake, is a national park known for its iguanas.",
+      "Since the early 2000s the lake has risen markedly, drowning roads and farmland."
+    ],
+    "q": {
+      "q": "Which reptile lives in salty Lago Enriquillo?",
+      "a": "The American crocodile",
+      "x": [
+        "The Nile crocodile",
+        "The spectacled caiman"
+      ]
+    }
+  },
+  "Q199551": {
+    "t": "A great salt lake turned red and white",
+    "s": "Lake Urmia was once one of the largest salt lakes in the world, a long turquoise sheet in north-western Iran. In recent decades it has lost most of its water, and much of its bed is now a glaring white salt flat. What remains can turn blood-red in summer, when salt-loving algae and bacteria bloom. A long causeway still runs straight across the middle.",
+    "w": "A long basin of white salt flats and patches of red or turquoise water, with a straight causeway crossing its middle.",
+    "f": [
+      "Its water became so salty that little but brine shrimp and microbes can live in it.",
+      "Flamingos have long bred on its islands in years with enough water.",
+      "The lake has no outlet; water leaves only by evaporation."
+    ],
+    "q": {
+      "q": "What turns Lake Urmia's water red in some summers?",
+      "a": "Salt-loving algae and bacteria",
+      "x": [
+        "Iron-rich mud from rivers",
+        "Volcanic gases"
+      ]
+    }
+  },
+  "Q257416": {
+    "t": "A desert lake filled by water drained from fields",
+    "s": "Before the 1960s this was largely a dry, salty hollow in the Karakum desert; today it holds one of the largest lakes in Central Asia. The water comes from farming: salty runoff from the irrigated cotton and rice fields of the lower Amu Darya is carried here by drainage canals. Long ago the river itself sometimes turned this way, and its water flowed on towards the Caspian.",
+    "w": "A large, irregular turquoise lake in brown desert, south of the pale cliffs of the Ustyurt plateau.",
+    "f": [
+      "The lake fills a depression whose floor lies below sea level.",
+      "Nothing flows out, so its water grows steadily saltier.",
+      "The Uzboy, a dry ancient riverbed, once carried water from here towards the Caspian Sea."
+    ],
+    "q": {
+      "q": "Where does most of Sarygamysh Lake's water come from?",
+      "a": "Drainage from irrigated fields",
+      "x": [
+        "Melting glaciers",
+        "Underground hot springs"
+      ]
+    }
+  },
+  "Q310547": {
+    "t": "A 'motley lake' at the mouth of a windy gate",
+    "s": "Alakol means 'motley lake', and its colours shift from turquoise to steel-grey as clouds race across it. They race for a reason: to the south-east lies the Dzungarian Gate, a mountain corridor between Kazakhstan and China through which fierce winds funnel. Holidaymakers prize its salty water, and islands in the lake shelter colonies of the rare relict gull.",
+    "w": "A large salt lake in a dry basin, with a narrow gap between mountains to its south-east leading towards China.",
+    "f": [
+      "The Ebe, a cold wind that blasts through the Dzungarian Gate, can reach storm force.",
+      "The lake has no outlet, which is why its water is salty.",
+      "For thousands of years the Dzungarian Gate has been a route for nomads and traders."
+    ],
+    "q": {
+      "q": "What does the name Alakol mean?",
+      "a": "Motley lake",
+      "x": [
+        "Salt lake",
+        "Windy lake"
+      ]
+    }
+  },
+  "Q21837060": {
+    "t": "South America's largest salt lake, pink with flamingos",
+    "s": "Mar Chiquita means 'little sea', and in wet years this salt lake on the plains of Córdoba spreads over thousands of square kilometres, the largest in South America. Its size swings with the rains: in the 1970s and 80s it rose so fast that part of the resort town of Miramar was swallowed. Big flocks of flamingos feed in its shallows, turning stretches of shore pink.",
+    "w": "A vast, pale, shallow lake on the flat pampas, often edged with white salt, north-east of the city of Córdoba.",
+    "f": [
+      "Three species of flamingo feed on the lake.",
+      "Since 2022 the lake and its wetlands have been protected as Ansenuza National Park.",
+      "The Dulce River brings in much of its water from the north."
+    ],
+    "q": {
+      "q": "What does the Spanish name Mar Chiquita mean?",
+      "a": "Little sea",
+      "x": [
+        "Salty sea",
+        "Silver sea"
+      ]
+    }
+  },
+  "Q211823": {
+    "t": "Turkey's salt pan, white as snow in summer",
+    "s": "In summer most of Lake Tuz dries out into a dazzling white crust of salt, so bright it looks like snow lying in the middle of the Anatolian steppe. It is Turkey's second-largest lake, yet only a metre or two deep, and one of the saltiest lakes on Earth. Salt works along its shores produce much of the salt eaten in Turkey.",
+    "w": "A huge white or pale-blue patch on the brown Anatolian plateau, roughly midway between Ankara and Konya.",
+    "f": [
+      "Its name simply means 'Salt Lake' in Turkish.",
+      "Greater flamingos gather on its islands to breed.",
+      "The lake lies about 905 m above sea level in a basin with no outlet."
+    ],
+    "q": {
+      "q": "What does 'Tuz' mean in Turkish?",
+      "a": "Salt",
+      "x": [
+        "White",
+        "Mirror"
+      ]
+    }
+  },
+  "Q126307": {
+    "t": "A soda sea on the Anatolian plateau, 1,640 m up",
+    "s": "Lake Van is so big and so alkaline that it feels like an inland sea: its water is rich in soda and feels soapy to the touch. The lake formed when lava from the Nemrut volcano blocked its outlet, and the snowy volcano Süphan, over 4,000 m high, still rises above the north shore. Only one fish, the pearl mullet, has adapted to its water.",
+    "w": "A huge blue lake on a high plateau, with a snowy volcano on its northern shore and a crater-topped mountain at its western end.",
+    "f": [
+      "Van is Turkey's largest lake, covering about 3,700 km² at some 1,640 m above sea level.",
+      "Each spring pearl mullet swim up freshwater streams to spawn.",
+      "On Akdamar Island stands a 10th-century church famous for its stone carvings."
+    ],
+    "q": {
+      "q": "What blocked Lake Van's outlet and created the lake?",
+      "a": "Lava from the Nemrut volcano",
+      "x": [
+        "A glacial moraine",
+        "A landslide from Süphan"
+      ]
+    }
+  },
+  "Q199903": {
+    "t": "A calm lake filling the crater of a super-eruption",
+    "s": "Lake Taupō, New Zealand's largest lake, fills a caldera left by some of the most violent eruptions of recent geological time. About 25,500 years ago the Oruanui eruption buried much of the North Island in ash and pumice, and around 1,800 years ago another eruption sent flows of hot pumice racing across the land. Today the calm blue water drains into the Waikato, New Zealand's longest river.",
+    "w": "A large, rounded blue lake in the middle of the North Island, with the snowy volcanoes of Tongariro rising to the south.",
+    "f": [
+      "The lake covers about 616 km² and is up to about 186 m deep.",
+      "The Waikato River, New Zealand's longest, flows out at the town of Taupō.",
+      "Trout introduced in the 19th century draw anglers from around the world."
+    ],
+    "q": {
+      "q": "Which river flows out of Lake Taupō?",
+      "a": "The Waikato",
+      "x": [
+        "The Whanganui",
+        "The Clutha"
+      ]
+    }
+  },
+  "Q940488": {
+    "t": "The short river that carries all of Lake Superior",
+    "s": "Every drop of water leaving Lake Superior passes down the St. Marys River on its way to Lake Huron. At the twin cities of Sault Ste. Marie it tumbles about 6 m over rapids, which is why ships climb and descend through the Soo Locks beside them. Below the rapids the river braids around large islands and widens into lakes before reaching Huron.",
+    "w": "A broad river channel with big islands and lake-like widenings, running south-east from the twin cities of Sault Ste. Marie.",
+    "f": [
+      "The river is about 120 km long and forms part of the border between the United States and Canada.",
+      "The Soo Locks let ships bypass the rapids, where Superior's level drops about 6 m to Huron's.",
+      "Sault Ste. Marie grew from a French mission founded in 1668, among the oldest in the Great Lakes region."
+    ],
+    "q": {
+      "q": "Which two lakes does the St. Marys River connect?",
+      "a": "Superior and Huron",
+      "x": [
+        "Huron and Erie",
+        "Michigan and Huron"
+      ]
+    }
+  },
+  "Q188203": {
+    "t": "A funnel of sea with one of the world's biggest tides",
+    "s": "Twice a day the sea surges up the Bristol Channel into the Severn Estuary, where the tide can rise and fall by around 14 m, one of the greatest tidal ranges in the world. The funnel shape does it: the channel narrows and shallows between the coasts of Wales and south-west England, squeezing the incoming water higher. Near its mouth the granite island of Lundy stands guard.",
+    "w": "A wide inlet narrowing eastward between the green coasts of south Wales and Devon, with a small island near its mouth.",
+    "f": [
+      "Where the channel meets the Severn Estuary, the tidal range can reach about 14 m.",
+      "The rising tide pushes a wave called the Severn Bore far up the river.",
+      "Lundy's name comes from the Old Norse for 'puffin island'."
+    ],
+    "q": {
+      "q": "What does the name of Lundy island mean in Old Norse?",
+      "a": "Puffin island",
+      "x": [
+        "Seal island",
+        "Storm island"
+      ]
+    }
+  },
+  "Q1971856": {
+    "t": "An island-studded sea where planes land on a beach",
+    "s": "Between the long chain of the Outer Hebrides and the mountainous islands of Skye, Rùm, Coll and Tiree lies the Sea of the Hebrides, scattered with islands of every size. On Barra, at its western edge, scheduled flights land on the sands of Traigh Mhòr, and the timetable follows the tides. In summer basking sharks and minke whales feed in these cold, rich waters.",
+    "w": "Grey-blue sea scattered with islands, between the long Outer Hebrides chain to the west and Skye's jagged mountains to the east.",
+    "f": [
+      "Barra's airport uses a tidal beach as its runway, a rarity among scheduled airports.",
+      "The Cuillin ridge on Skye is one of the most rugged mountain ranges in Britain.",
+      "Basking sharks, the world's second-largest fish, are often seen here in summer."
+    ],
+    "q": {
+      "q": "What serves as the runway at Barra's airport?",
+      "a": "A tidal sandy beach",
+      "x": [
+        "A frozen lake",
+        "A floating pontoon"
+      ]
+    }
+  },
+  "Q35000": {
+    "t": "The world's shallowest sea, rimmed by pink lagoons",
+    "s": "No sea on Earth is shallower: the Sea of Azov is nowhere deeper than about 14 m, and much of it is far less. Two great rivers, the Don and the Kuban, pour in fresh water, so it is only mildly salty and often freezes in winter. On its western side the thin Arabat Spit, over 100 km long, walls off the Sivash, a maze of lagoons tinted pink and red.",
+    "w": "An enclosed greenish sea with a long, thread-thin sand spit along its western shore and pinkish lagoons behind it.",
+    "f": [
+      "Its greatest depth is only about 14 m.",
+      "The narrow Kerch Strait connects it with the Black Sea.",
+      "The Sivash lagoons are so salty that microscopic algae tint them pink."
+    ],
+    "q": {
+      "q": "Roughly how deep is the Sea of Azov at its deepest?",
+      "a": "About 14 m",
+      "x": [
+        "About 140 m",
+        "About 1,400 m"
+      ]
+    }
+  },
+  "Q14686": {
+    "t": "Two capitals and an imperial city on one Baltic gulf",
+    "s": "Helsinki and Tallinn face each other across the Gulf of Finland, only about 80 km apart, and at its far eastern end lies St Petersburg, Russia's capital for two centuries. The gulf is shallow and barely salty, so in cold winters its eastern part freezes over. Near St Petersburg a thin line crosses the water: a flood barrier running through Kotlin Island.",
+    "w": "A long, narrow arm of the Baltic running east, with Helsinki on the north shore, Tallinn on the south and St Petersburg at its head.",
+    "f": [
+      "The Neva, entering at St Petersburg, carries more water than any other river flowing into the Baltic.",
+      "The St Petersburg flood barrier stretches about 25 km across the head of the gulf.",
+      "Thousands of rocky islands and skerries line the Finnish coast."
+    ],
+    "q": {
+      "q": "Which two capitals face each other across the Gulf of Finland?",
+      "a": "Helsinki and Tallinn",
+      "x": [
+        "Helsinki and Riga",
+        "Stockholm and Tallinn"
+      ]
+    }
+  },
+  "Q210118": {
+    "t": "A curving coast of lagoons, flamingos and pink salt pans",
+    "s": "The Gulf of Lion sweeps in a broad arc from the Pyrenees to Provence, and its shore is a string of lagoons cut off from the sea by thin sandbars. In the middle sprawls the Camargue, the Rhône delta, where salt pans glow pink and flamingos wade. Two cold winds, the Mistral and the Tramontane, often rush down here, whipping the sea white.",
+    "w": "A wide, gently curved bay of the Mediterranean with a lagoon-lined coast, the Rhône delta in the middle and the Pyrenees at its south-western end.",
+    "f": [
+      "The salt pans of Aigues-Mortes and Salin-de-Giraud turn pink thanks to salt-loving microalgae.",
+      "The Camargue is one of the main breeding grounds of greater flamingos in the Mediterranean.",
+      "The Canal du Midi ends in the Étang de Thau, the big lagoon beside the port of Sète."
+    ],
+    "q": {
+      "q": "Which river's delta forms the Camargue?",
+      "a": "The Rhône",
+      "x": [
+        "The Garonne",
+        "The Loire"
+      ]
+    }
+  },
+  "Q232912": {
+    "t": "Where the Gulf Stream races out into the Atlantic",
+    "s": "A river runs through this sea: the Florida Current, the start of the Gulf Stream, pours north through the strait carrying more water than all the world's rivers combined. From above, the deep channel shows dark indigo, sharply edged by the glowing turquoise shallows of the Bahama Banks to the east. Florida's coast and the curve of the Keys frame it to the west.",
+    "w": "Deep indigo water between the Florida coast and the brilliant turquoise shallows of the Bahama Banks.",
+    "f": [
+      "At its core the current moves faster than a person walks.",
+      "Ponce de León's pilots noticed the powerful current here in 1513.",
+      "The strait separates the Florida Keys from Cuba, about 150 km to the south."
+    ],
+    "q": {
+      "q": "Which famous current flows through the Florida Strait?",
+      "a": "The Gulf Stream",
+      "x": [
+        "The Humboldt Current",
+        "The Labrador Current"
+      ]
+    }
+  },
+  "Q140290": {
+    "t": "Named by Cook for the food it gave his crew",
+    "s": "When James Cook sailed along this coast in 1769, Māori communities supplied his ship generously, and he called it the Bay of Plenty. The name still fits: behind long white beaches spread kiwifruit and avocado orchards, and the town of Te Puke calls itself the kiwifruit capital of the world. The volcanic cone of Mauao stands guard at the entrance to Tauranga Harbour.",
+    "w": "A broad, open bay on the North Island's northern coast, with long beaches, a small cone at Tauranga harbour and islands offshore.",
+    "f": [
+      "Cook named Poverty Bay, farther east, after a stop where he could get nothing he wanted.",
+      "Mayor Island (Tūhua), offshore, was an important source of obsidian for early Māori.",
+      "Mauao, at Tauranga's harbour entrance, is an extinct volcano about 230 m high."
+    ],
+    "q": {
+      "q": "Why did Cook name it the Bay of Plenty?",
+      "a": "Food and supplies were plentiful",
+      "x": [
+        "It had many islands",
+        "Its beaches seemed endless"
+      ]
+    }
+  },
+  "Q2565098": {
+    "t": "Open Pacific between Haida Gwaii and Vancouver Island",
+    "s": "Between the southern tip of Haida Gwaii and the northern end of Vancouver Island, the coast of British Columbia opens straight onto the Pacific, and Queen Charlotte Sound takes the full force of its swells. Ships following the sheltered Inside Passage must cross this exposed stretch. To the east the mainland shatters into fjords and islands cloaked in the Great Bear Rainforest.",
+    "w": "Open ocean between the north tip of Vancouver Island and Haida Gwaii, with a coast of fjords and forested islands to the east.",
+    "f": [
+      "Haida Gwaii, to the north-west, was known as the Queen Charlotte Islands until 2010.",
+      "The Great Bear Rainforest on the mainland coast is one of the largest temperate rainforests in the world.",
+      "Humpback and grey whales pass along this coast on their long migrations."
+    ],
+    "q": {
+      "q": "What was Haida Gwaii called until 2010?",
+      "a": "The Queen Charlotte Islands",
+      "x": [
+        "The Vancouver Islands",
+        "The Prince Rupert Islands"
+      ]
+    }
+  },
+  "Q212428": {
+    "t": "A gulf of limestone towers and one tide a day",
+    "s": "In the north-western corner of the Gulf of Tonkin, some 1,600 limestone islands rise straight out of green water — Ha Long Bay, one of Asia's most famous seascapes. The gulf is shallow and sheltered by the big island of Hainan to the east. Its tides are unusual too: along much of this coast the sea rises and falls only once a day, not twice.",
+    "w": "A broad, shallow gulf between Vietnam's coast and the island of Hainan, with a maze of rocky islets in its north-western corner.",
+    "f": [
+      "Ha Long Bay's limestone islands and islets are a UNESCO World Heritage site.",
+      "The Red River pours reddish-brown silt into the gulf's western side.",
+      "In Vietnamese it is called Vịnh Bắc Bộ, the Gulf of the North."
+    ],
+    "q": {
+      "q": "How many high tides a day does much of the Gulf of Tonkin get?",
+      "a": "One",
+      "x": [
+        "Two",
+        "Four"
+      ]
+    }
+  },
+  "Q181857": {
+    "t": "The highest tides on Earth, twice a day",
+    "s": "Twice a day the Bay of Fundy fills and empties, and in its upper reaches the tide rises by as much as 16 m — the highest tides on Earth. At low water, vast red-brown mudflats appear where boats floated a few hours before. The long funnel of the bay does the work: its natural rhythm almost matches the ocean tide, so the water piles up higher and higher.",
+    "w": "A long, funnel-shaped bay between New Brunswick and Nova Scotia, its upper arms edged with wide red-brown mudflats.",
+    "f": [
+      "In the Minas Basin the difference between high and low tide can reach about 16 m.",
+      "At Hopewell Rocks, visitors walk on the sea floor at low tide around rocks shaped like giant flowerpots.",
+      "The Joggins Fossil Cliffs on its shore preserve forests from some 300 million years ago."
+    ],
+    "q": {
+      "q": "Roughly how high can the Bay of Fundy's tides reach?",
+      "a": "About 16 m",
+      "x": [
+        "About 4 m",
+        "About 40 m"
+      ]
+    }
+  },
+  "Q35827": {
+    "t": "A brown 'river' so wide the far shore vanishes",
+    "s": "The Paraná and Uruguay rivers meet and pour into the Atlantic through the Río de la Plata, a funnel of brown, silty water up to about 220 km wide at its mouth. It is often called the widest river in the world, though geographers class it as an estuary. Buenos Aires spreads along one shore and Montevideo sits on the other, where brown river water meets the blue sea.",
+    "w": "A huge funnel of brown water opening to the south-east, with the sprawl of Buenos Aires on its south-western shore and Montevideo on the north.",
+    "f": [
+      "Spanish explorers named it the 'River of Silver', hoping it led to silver mines inland.",
+      "Two capitals, Buenos Aires and Montevideo, face each other across it.",
+      "Its muddy colour comes from sediment carried down by the Paraná, one of South America's great rivers."
+    ],
+    "q": {
+      "q": "Which two rivers join to form the Río de la Plata?",
+      "a": "The Paraná and the Uruguay",
+      "x": [
+        "The Paraná and the Paraguay",
+        "The Amazon and the Uruguay"
+      ]
+    }
+  },
+  "Q205655": {
+    "t": "A strait so busy that ships dot it like grains of rice",
+    "s": "On a clear day the Singapore Strait looks peppered with white dots: tankers, container ships and bulk carriers under way or waiting at anchor, each trailing a thin wake. This narrow channel, only about 16 km wide, links the Strait of Malacca with the South China Sea and is one of the busiest shipping lanes on Earth. Singapore lies on the north side, Indonesia's Riau Islands on the south.",
+    "w": "A narrow channel crowded with ships, between the dense city of Singapore to the north and the green islands of Batam and Bintan.",
+    "f": [
+      "The strait is about 105 km long.",
+      "The Port of Singapore is one of the busiest container ports in the world.",
+      "At night the anchored ships glitter like a floating city."
+    ],
+    "q": {
+      "q": "Which two waters does the Singapore Strait link?",
+      "a": "Malacca Strait and South China Sea",
+      "x": [
+        "Java Sea and Indian Ocean",
+        "Andaman Sea and Gulf of Thailand"
+      ]
+    }
+  },
+  "Q52052": {
+    "t": "The sea gate between Korea and Japan, split by Tsushima",
+    "s": "Only about 200 km of water separate Korea from Japan's island of Kyushu here, and the island of Tsushima sits in the middle, splitting the strait into two channels. On a clear day Busan's coast and Tsushima's green hills can be seen at the same time from cruise height. A warm current from the south flows through, keeping the Japanese shores of the Sea of Japan milder.",
+    "w": "A broad strait between Korea's south coast and Kyushu, with the long, hilly island of Tsushima in the middle.",
+    "f": [
+      "Tsushima lies only about 50 km from the Korean coast.",
+      "The warm Tsushima Current, a branch of the Kuroshio, flows north-east through the strait.",
+      "Ferries link Busan and Fukuoka across the strait in a matter of hours."
+    ],
+    "q": {
+      "q": "Which island divides the Korea Strait into two channels?",
+      "a": "Tsushima",
+      "x": [
+        "Jeju",
+        "Sado"
+      ]
+    }
+  },
+  "Q231312": {
+    "t": "A sea of three thousand islands stitched by bridges",
+    "s": "Some 3,000 islands are scattered across the Seto Inland Sea, the calm water enclosed by Honshu, Shikoku and Kyushu. Three chains of bridges now stitch Honshu to Shikoku across it; from cruise height they show as fine threads hopping from island to island. At the Naruto Strait, on its eastern edge, the tide spins whirlpools up to about 20 m across.",
+    "w": "A long, calm inland sea crowded with green islands between Honshu and Shikoku, crossed by several chains of bridges.",
+    "f": [
+      "The Akashi Kaikyō Bridge, at its eastern end, held the record for the longest suspension span from 1998 to 2022.",
+      "Itsukushima Shrine on Miyajima, with its torii gate standing in the sea, is a UNESCO site.",
+      "In 1934 the Inland Sea became one of Japan's first national parks."
+    ],
+    "q": {
+      "q": "Which two main islands of Japan are linked by bridges across this sea?",
+      "a": "Honshu and Shikoku",
+      "x": [
+        "Honshu and Hokkaido",
+        "Kyushu and Shikoku"
+      ]
+    }
+  },
+  "Q127031": {
+    "t": "A shallow strait that was dry land in the Ice Age",
+    "s": "Between the mountainous island of Taiwan and the coast of Fujian lies a strait about 130 to 180 km wide, yet surprisingly shallow, mostly less than 100 m deep. During the last Ice Age, when sea level fell, much of it was dry land that animals could walk across. In the middle lie the low, flat Penghu Islands, fringed with pale reefs.",
+    "w": "A wide channel between the high, cloud-capped mountains of Taiwan and the Fujian coast, with a cluster of flat islands in the middle.",
+    "f": [
+      "Its narrowest crossing is about 130 km.",
+      "The Penghu Islands are famous for cliffs of columnar basalt.",
+      "Fishing boats sometimes haul up fossils of Ice Age animals from its sea floor."
+    ],
+    "q": {
+      "q": "What was much of the Taiwan Strait during the last Ice Age?",
+      "a": "Dry land",
+      "x": [
+        "A freshwater lake",
+        "A glacier"
+      ]
+    }
+  },
+  "Q1129590": {
+    "t": "A tidal inlet guarded by a row of volcanoes",
+    "s": "Tikahtnu, the Dena'ina name for Cook Inlet, runs about 290 km from the Gulf of Alaska up to Anchorage, and its tides are among the biggest in North America. Along its western shore stands a line of volcanoes — Augustine, Iliamna, Redoubt and Spurr — often snow-capped and sometimes steaming. James Cook sailed in here in 1778, hoping it might lead to a passage to the Atlantic.",
+    "w": "A long, silty-grey inlet running north-east towards Anchorage, with snowy volcanic cones along its western shore.",
+    "f": [
+      "At Anchorage the tide can rise and fall by about 9 m.",
+      "Augustine volcano forms its own island near the inlet's mouth.",
+      "A small, isolated population of beluga whales lives in these waters."
+    ],
+    "q": {
+      "q": "Which city stands at the head of Cook Inlet?",
+      "a": "Anchorage",
+      "x": [
+        "Juneau",
+        "Fairbanks"
+      ]
+    }
+  },
+  "Q917872": {
+    "t": "Home of the world's biggest sockeye salmon run",
+    "s": "Every summer tens of millions of sockeye salmon swim in from the Bering Sea and head up the rivers that drain into Bristol Bay — the largest run of these fish anywhere on Earth. Fishing boats crowd its muddy estuaries in July, and brown bears line the streams inland. James Cook named the bay in 1778 after Admiral the Earl of Bristol.",
+    "w": "A broad, shallow bay of the Bering Sea, with the long Alaska Peninsula forming its southern shore.",
+    "f": [
+      "Male walruses haul out by the thousand on Round Island, in the north of the bay.",
+      "The Kvichak River carries water from Lake Iliamna, Alaska's largest lake, into the bay.",
+      "Katmai National Park, famous for bears fishing at Brooks Falls, lies on its south-eastern side."
+    ],
+    "q": {
+      "q": "Which fish makes Bristol Bay famous?",
+      "a": "Sockeye salmon",
+      "x": [
+        "Atlantic cod",
+        "Bluefin tuna"
+      ]
+    }
+  },
+  "Q2336534": {
+    "t": "Where Greenland's ice sheet spills into the sea",
+    "s": "Along Melville Bay the Greenland ice sheet reaches the sea almost without a break, pouring through dozens of glaciers that calve icebergs into the water. For 19th-century whalers this was one of the most feared stretches of the Arctic: many ships were crushed by drifting ice while trying to pass. Today much of it is a nature reserve, home to polar bears and narwhals.",
+    "w": "A wide bay on Greenland's north-west coast where the white ice sheet spills straight into a sea full of icebergs.",
+    "f": [
+      "The Melville Bay Nature Reserve protects polar bears and narwhals.",
+      "John Ross named it in 1818 after Viscount Melville, First Lord of the Admiralty.",
+      "Sea ice covers the bay for much of the year."
+    ],
+    "q": {
+      "q": "Which Arctic whale with a single long tusk lives in Melville Bay?",
+      "a": "The narwhal",
+      "x": [
+        "The beluga",
+        "The bowhead whale"
+      ]
+    }
+  },
+  "Q876470": {
+    "t": "A cold, whale-rich sea closed off by an undersea bank",
+    "s": "From the curled arm of Cape Cod to the tip of Nova Scotia, the Gulf of Maine is almost a sea of its own, cut off from the open Atlantic by the shallow Georges Bank. Its cold, rich water draws humpback and right whales to feed. Along the Maine coast, thousands of rocky islands and drowned valleys make one of the most ragged shorelines in America.",
+    "w": "A broad, cold gulf edged by the sandy hook of Cape Cod to the south-west and the rocky, island-studded coast of Maine to the north.",
+    "f": [
+      "The Bay of Fundy, with the world's highest tides, is one of its arms.",
+      "Georges Bank, at its mouth, was for centuries one of the richest fishing grounds on Earth.",
+      "For part of the year, Cadillac Mountain on its coast is among the first places in the US to see sunrise."
+    ],
+    "q": {
+      "q": "Which shallow undersea bank partly encloses the Gulf of Maine?",
+      "a": "Georges Bank",
+      "x": [
+        "The Grand Banks",
+        "Dogger Bank"
+      ]
+    }
+  },
+  "Q216868": {
+    "t": "America's largest estuary, over an ancient impact crater",
+    "s": "Chesapeake Bay runs some 300 km from the mouth of the Susquehanna to the Atlantic, a branching estuary fed by dozens of rivers and the largest in the United States. Its mouth hides a surprise: an asteroid crater about 35 million years old, buried under sediment. There a thin bridge line crosses the water and twice seems to vanish — the Chesapeake Bay Bridge-Tunnel diving underwater.",
+    "w": "A long, branching bay with many river mouths, running north–south from Maryland to Virginia's Atlantic coast.",
+    "f": [
+      "The Chesapeake Bay Bridge-Tunnel is about 28 km long, with two tunnels that let ships pass over them.",
+      "The bay is famous for its blue crabs.",
+      "More than 150 rivers and streams flow into it."
+    ],
+    "q": {
+      "q": "What lies buried beneath the mouth of Chesapeake Bay?",
+      "a": "An asteroid impact crater",
+      "x": [
+        "A sunken volcano",
+        "A glacial valley"
+      ]
+    }
+  },
+  "Q1536292": {
+    "t": "A Patagonian bay where water-seekers struck oil",
+    "s": "In 1907 drillers at Comodoro Rivadavia, on the shore of this gulf, were searching for fresh water in the parched Patagonian steppe. They struck oil instead, and Argentina's oil industry was born. Today the San Jorge Gulf is a broad, windswept bay about 250 km across, its dry brown shores dotted with oil wells and scoured by strong westerly winds.",
+    "w": "A wide, semicircular bay on the Patagonian coast, edged by dry brown tablelands, with Comodoro Rivadavia on its western shore.",
+    "f": [
+      "The gulf stretches about 250 km between Cape Dos Bahías and Cape Tres Puntas.",
+      "The San Jorge basin around it is one of Argentina's main oil-producing regions."
+    ],
+    "q": {
+      "q": "What did drillers looking for water find at Comodoro Rivadavia in 1907?",
+      "a": "Oil",
+      "x": [
+        "Gold",
+        "Coal"
+      ]
+    }
+  },
+  "Q200712": {
+    "t": "Turquoise shallows between Spain and its islands",
+    "s": "The Balearic Sea lies between Spain's Mediterranean coast and the islands of Mallorca, Ibiza and Formentera. Where it is shallow, meadows of Posidonia seagrass over pale sand make the water glow turquoise, especially in the channel between Ibiza and Formentera. On the mainland side the Ebro delta pushes a green-and-brown triangle far out into the blue.",
+    "w": "Deep-blue sea between the Spanish coast and the Balearic Islands, with turquoise shallows around Ibiza and the Ebro delta jutting from the mainland.",
+    "f": [
+      "The Posidonia meadows between Ibiza and Formentera are part of a UNESCO World Heritage site.",
+      "Posidonia is not a seaweed but a flowering plant found only in the Mediterranean.",
+      "Much of the Ebro delta, one of the largest wetlands in the western Mediterranean, is covered with rice fields."
+    ],
+    "q": {
+      "q": "What makes the shallows around Ibiza and Formentera glow turquoise?",
+      "a": "Seagrass meadows over pale sand",
+      "x": [
+        "Coral reefs",
+        "Volcanic minerals"
+      ]
+    }
+  },
+  "Q34575": {
+    "t": "A sea of islands with a drowned volcano at its heart",
+    "s": "Thousands of islands are scattered across the Aegean between the coasts of Greece and Anatolia, and from cruise height they look like crumbs of brown and white on deep blue. In the south, a broken ring of cliffs around a flooded bay is Santorini, the rim of a volcano that erupted about 3,600 years ago. In summer the strong meltemi wind streaks the sea with whitecaps.",
+    "w": "Deep-blue sea scattered with rocky brown islands, with a broken ring-shaped island in the south.",
+    "f": [
+      "In Greek myth it is named after King Aegeus, who threw himself into the sea believing his son Theseus was dead.",
+      "The Cyclades take their name from the circle they form around the sacred island of Delos.",
+      "The meltemi, a dry northerly wind, blows across it through much of the summer."
+    ],
+    "q": {
+      "q": "In Greek myth, which king gave his name to the Aegean Sea?",
+      "a": "Aegeus",
+      "x": [
+        "Minos",
+        "Priam"
+      ]
+    }
+  },
+  "Q622811": {
+    "t": "A sea edged by a chain of sandbanks called Adam's Bridge",
+    "s": "Between India and Sri Lanka runs a strange line of shoals and sandbanks about 48 km long, pale against turquoise water: Adam's Bridge, known in India as Rama Setu, the bridge that the Ramayana says Rama's army built. It marks the northern edge of the Gulf of Mannar, a warm sea of coral islets, seagrass and dugongs. For centuries its oyster beds were famous for pearls.",
+    "w": "A string of pale sandbanks linking India's Pamban Island with Sri Lanka's Mannar Island, with turquoise shallows to the south.",
+    "f": [
+      "Twenty-one small islands in the gulf make up India's Gulf of Mannar Marine National Park.",
+      "Dugongs, the sea cows that graze on seagrass, still live in the gulf.",
+      "The pearl fisheries off Thoothukudi (Tuticorin) have been known since ancient times."
+    ],
+    "q": {
+      "q": "What is the chain of shoals between India and Sri Lanka called?",
+      "a": "Adam's Bridge (Rama Setu)",
+      "x": [
+        "Palk Causeway",
+        "Mannar Reef"
+      ]
+    }
+  },
+  "Q181969": {
+    "t": "China's inner sea, where the Yellow River ends",
+    "s": "The Bohai is almost enclosed: the Liaodong and Shandong peninsulas reach towards each other and leave only a narrow, island-strewn gap to the Yellow Sea. It is shallow, averaging less than 20 m, and in hard winters ice forms along its shores. On the south-western side a brown plume fans into the sea — the mouth of the Yellow River, whose delta keeps growing.",
+    "w": "A nearly enclosed, often murky sea between two peninsulas, with a brown river plume on its south-western shore.",
+    "f": [
+      "The Great Wall meets the sea at Shanhaiguan, on its north-western shore.",
+      "Tianjin, one of China's biggest ports, stands on its western shore.",
+      "The Bohai Strait between the two peninsulas is only about 100 km wide."
+    ],
+    "q": {
+      "q": "Which great river flows into the Bohai Sea?",
+      "a": "The Yellow River",
+      "x": [
+        "The Yangtze",
+        "The Amur"
+      ]
+    }
+  },
+  "Q844917": {
+    "t": "Coral reefs, mangroves and a salt desert next door",
+    "s": "The Gulf of Kutch pushes about 160 km into the coast of Gujarat, a funnel of muddy water with strong tides. Yet its southern shore hides coral reefs and mangrove islands, protected since 1982 as India's first marine national park. To the north stretches the Rann of Kutch, a vast salt marsh that turns into a dazzling white desert in the dry season.",
+    "w": "A long, funnel-shaped gulf of brownish water on India's west coast, with mangrove-fringed islands in the south and white salt flats to the north.",
+    "f": [
+      "Tides in the inner gulf rise and fall by several metres, among the largest on India's coast.",
+      "Big cargo ports at Kandla and Mundra stand on its northern shore.",
+      "Dolphins, sea turtles and a few dugongs live in the marine national park."
+    ],
+    "q": {
+      "q": "What was set up in the Gulf of Kutch in 1982?",
+      "a": "India's first marine national park",
+      "x": [
+        "India's first nuclear power plant",
+        "India's first oil refinery"
+      ]
+    }
+  },
+  "Q645012": {
+    "t": "Where ships queue for the Panama Canal",
+    "s": "At the head of the Gulf of Panama, dozens of ships often lie at anchor, waiting their turn to enter the Panama Canal and cross to the Caribbean. Behind them rise the towers of Panama City. Out in the gulf, the green Pearl Islands earned their name: La Peregrina, one of the most famous pearls in history, was found there in the 16th century.",
+    "w": "A broad Pacific bay with Panama City on its northern shore, ships anchored offshore and a cluster of green islands to the south-east.",
+    "f": [
+      "The canal's Pacific entrance lies at the head of the gulf, next to Panama City.",
+      "Surprisingly, the Pacific end of the canal lies farther east than its Atlantic end.",
+      "From about July to October humpback whales from the Southern Hemisphere come here to breed."
+    ],
+    "q": {
+      "q": "Which Panama Canal entrance lies farther east?",
+      "a": "The Pacific entrance",
+      "x": [
+        "The Atlantic entrance",
+        "Neither: they align north–south"
+      ]
+    }
+  },
+  "Q1974744": {
+    "t": "The western doorway of the Northwest Passage",
+    "s": "Ships threading the Northwest Passage from the Pacific side enter the Canadian Arctic islands here, between Banks Island to the north and the mainland to the south. Roald Amundsen sailed through in 1905 aboard the little Gjøa, completing the first voyage along the whole passage the following year, and the gulf now bears his name. For most of the year it is covered in ice.",
+    "w": "A broad arm of the Arctic Ocean between flat Banks Island to the north and the mainland coast, usually white with ice.",
+    "f": [
+      "An area of open water that often stays unfrozen, the Cape Bathurst polynya, forms at its western end.",
+      "Bowhead and beluga whales pass through it in summer.",
+      "Victoria Island, one of the largest islands in the world, borders it to the east."
+    ],
+    "q": {
+      "q": "Whose ship first sailed the whole Northwest Passage, via this gulf?",
+      "a": "Roald Amundsen's",
+      "x": [
+        "John Franklin's",
+        "Robert McClure's"
+      ]
+    }
+  },
+  "Q5605258": {
+    "t": "An ice-choked sound where Parry won a prize",
+    "s": "In September 1819 William Parry's ships pushed west into this sound and crossed 110° W, winning a £5,000 reward offered by Parliament for getting that far along the Northwest Passage. Beyond it the ice stopped them. Viscount Melville Sound is still one of the passage's hardest stretches: thick, old sea ice drifts in from the Arctic Ocean and often lingers all summer.",
+    "w": "A wide channel of white sea ice between Melville Island to the north and Victoria Island to the south.",
+    "f": [
+      "It is named after Viscount Melville, First Lord of the Admiralty at the time.",
+      "Parry's crews wintered at Winter Harbour on Melville Island in 1819–1820.",
+      "The sound is part of Parry Channel, the main east–west route of the Northwest Passage."
+    ],
+    "q": {
+      "q": "How much prize money did Parry's crews win for crossing 110° W?",
+      "a": "£5,000",
+      "x": [
+        "£500",
+        "£50,000"
+      ]
+    }
+  },
+  "Q1165951": {
+    "t": "An Arctic bay whose tides rival the Bay of Fundy",
+    "s": "Ungava Bay's tides are contenders for the world record: in Leaf Basin, on its western side, the sea can rise and fall by around 16 m, rivalling the Bay of Fundy. The bay is frozen for much of the year, and floes grind along its shores as the tide lifts and drops them. Kuujjuaq, the largest community in Nunavik, lies up the Koksoak River near its southern end.",
+    "w": "A broad bay in far northern Quebec opening north into Hudson Strait, with a large, flat-topped island near its mouth.",
+    "f": [
+      "Akpatok Island, in the bay, is ringed by high limestone cliffs where seabirds nest.",
+      "Kuujjuaq is the administrative centre of Nunavik, the Inuit region of northern Quebec.",
+      "The bay opens into Hudson Strait, the passage between the Atlantic and Hudson Bay."
+    ],
+    "q": {
+      "q": "Which famous bay's tides do Ungava Bay's tides rival?",
+      "a": "The Bay of Fundy",
+      "x": [
+        "The Bay of Biscay",
+        "Hudson Bay"
+      ]
+    }
+  },
+  "Q243125": {
+    "t": "A sea at the top of the world, locked in old ice",
+    "s": "The Lincoln Sea lies at about 83° N, between the northern tips of Ellesmere Island and Greenland, less than 800 km from the North Pole. Its sea ice is among the thickest and oldest in the Arctic, pressed against the coast by the drifting pack. On its shore stands Alert, the northernmost permanently inhabited place on Earth.",
+    "w": "A frozen expanse of jumbled white pack ice, bordered by the dark, mountainous northern coasts of Ellesmere Island and Greenland.",
+    "f": [
+      "Cape Columbia on Ellesmere Island, the northernmost point of Canada, overlooks it.",
+      "Greenland's Cape Morris Jesup, near its eastern edge, is among the northernmost points of land on Earth.",
+      "Scientists call this region the 'Last Ice Area', expected to keep its summer ice the longest."
+    ],
+    "q": {
+      "q": "Which settlement on the Lincoln Sea is the northernmost inhabited place?",
+      "a": "Alert",
+      "x": [
+        "Qaanaaq",
+        "Longyearbyen"
+      ]
+    }
+  },
+  "Q171846": {
+    "t": "The stormy strait that proved Tasmania an island",
+    "s": "Until 1798 Europeans did not know whether Tasmania was joined to the mainland. Then George Bass and Matthew Flinders sailed right around it through this strait, which now bears Bass's name. It is about 240 km wide but shallow, mostly 50 to 70 m deep, so the westerly gales of the Roaring Forties whip up short, steep and dangerous seas.",
+    "w": "A wide stretch of sea between Victoria's coast and Tasmania, dotted with islands: King Island in the west, the Furneaux group in the east.",
+    "f": [
+      "During the last Ice Age the strait was dry land, and people walked from the mainland to Tasmania.",
+      "Oil and gas have been produced from platforms in its eastern part since the late 1960s.",
+      "Flinders Island, the largest of the Furneaux group, is named after Matthew Flinders."
+    ],
+    "q": {
+      "q": "Who is Bass Strait named after?",
+      "a": "George Bass",
+      "x": [
+        "Abel Tasman",
+        "Matthew Flinders"
+      ]
+    }
+  },
+  "Q1135336": {
+    "t": "An ice-choked strait that trapped McClure's ship",
+    "s": "Thick, old ice from the Arctic Ocean jams into M'Clure Strait, and ships that try this western route of the Northwest Passage rarely get through. Robert McClure's expedition tried in 1851; his ship Investigator became trapped in the ice of Mercy Bay on Banks Island and had to be abandoned. His men were rescued by sledge from the east — and so became the first to cross the whole passage.",
+    "w": "A broad channel of white pack ice between the flat north coast of Banks Island and Melville Island.",
+    "f": [
+      "The wreck of HMS Investigator was found in shallow water in Mercy Bay in 2010.",
+      "The strait opens west onto the Beaufort Sea and the Arctic Ocean.",
+      "It is named after Robert McClure, the Irish-born naval officer who led the expedition."
+    ],
+    "q": {
+      "q": "Which ship did McClure abandon in the ice near this strait?",
+      "a": "HMS Investigator",
+      "x": [
+        "HMS Erebus",
+        "HMS Terror"
+      ]
+    }
+  },
+  "Q2328243": {
+    "t": "The blue whales' dining room below a hunchbacked volcano",
+    "s": "Each summer the largest animals that have ever lived come here to feed: blue whales gather in the Gulf of Corcovado, between Chiloé Island and the Chilean mainland, to eat swarms of krill. The gulf takes its name from the Corcovado volcano on the mainland shore, whose lopsided summit looks like a hunched back. Rain-soaked forest covers almost every slope around it.",
+    "w": "A wide gulf between the green island of Chiloé and the mountainous mainland, with a snow-capped volcano on the eastern shore.",
+    "f": [
+      "Corcovado volcano rises about 2,300 m above the gulf.",
+      "The gulf is one of the most important feeding grounds for blue whales in the Southern Hemisphere.",
+      "Chiloé's wooden churches, a UNESCO site, stand on the island's shores to the west."
+    ],
+    "q": {
+      "q": "What does 'Corcovado' mean in Spanish?",
+      "a": "Hunchbacked",
+      "x": [
+        "Crowned",
+        "Smoking"
+      ]
+    }
+  },
+  "Q281638": {
+    "t": "An Antarctic gulf named after a chewing-gum magnate",
+    "s": "Wrigley Gulf curves along the coast of Marie Byrd Land, in front of the long Getz Ice Shelf, and very few people have ever seen it. An American expedition discovered it in December 1940 and named it after Philip Wrigley, the Chicago chewing-gum manufacturer who had helped fund the venture. Nearby, the huge snowy dome of Mount Siple, a volcano, rises above the ice.",
+    "w": "A broad bay of sea ice and icebergs along the edge of a flat white ice shelf, with a large volcanic dome to the east.",
+    "f": [
+      "The gulf is about 185 km wide.",
+      "Mount Siple, on Siple Island nearby, is a volcano more than 3,000 m high.",
+      "The Getz Ice Shelf along its shore stretches for hundreds of kilometres."
+    ],
+    "q": {
+      "q": "Which product made Philip Wrigley's company famous?",
+      "a": "Chewing gum",
+      "x": [
+        "Canned soup",
+        "Motor oil"
+      ]
+    }
+  },
+  "Q281737": {
+    "t": "An ice-locked bay named after a New York publisher",
+    "s": "Richard Byrd's expedition flew over this coast of Marie Byrd Land in December 1929 and named the bay after Arthur Hays Sulzberger of The New York Times, a supporter of the venture. Along its shore spreads the Sulzberger Ice Shelf, studded with ice-covered islands and hemmed in by sea ice for most of the year. It remains one of the least visited coasts of the continent.",
+    "w": "A wide bay of white sea ice and ice-shelf edge, dotted with ice-covered islands, along the coast of Marie Byrd Land.",
+    "f": [
+      "The bay was first seen from an aircraft during Byrd's expedition in 1929.",
+      "Arthur Hays Sulzberger later became publisher of The New York Times.",
+      "Marie Byrd Land, around it, is named after Admiral Byrd's wife."
+    ],
+    "q": {
+      "q": "Which newspaper is linked to the man Sulzberger Bay honours?",
+      "a": "The New York Times",
+      "x": [
+        "The Washington Post",
+        "The Chicago Tribune"
+      ]
+    }
+  },
+  "Q898839": {
+    "t": "An Antarctic strait with a ring-shaped volcano",
+    "s": "At the western end of the strait lies a ring-shaped island: Deception Island, a volcano whose flooded crater ships can sail right into through a narrow gap. The Bransfield Strait separates the South Shetland Islands from the icy mountains of the Antarctic Peninsula. It is named after Edward Bransfield, who charted part of the peninsula in January 1820, one of the first sightings of the Antarctic mainland.",
+    "w": "A wide channel between the snowy South Shetland Islands and the glaciated mountains of the Antarctic Peninsula, with a ring-shaped island to the west.",
+    "f": [
+      "The entrance to Deception Island's flooded crater, Neptune's Bellows, is only a few hundred metres wide.",
+      "King George Island, on its northern side, hosts research stations of several countries.",
+      "Humpback whales feed in the strait in summer."
+    ],
+    "q": {
+      "q": "What is Deception Island, at the edge of the Bransfield Strait?",
+      "a": "A flooded volcanic caldera",
+      "x": [
+        "A coral atoll",
+        "A giant stranded iceberg"
+      ]
+    }
+  },
+  "Q1056751": {
+    "t": "Antarctica's front door, watched by a smoking volcano",
+    "s": "Mount Erebus, the southernmost active volcano on Earth, rises 3,794 m above the eastern side of McMurdo Sound, often trailing steam from a lava lake in its crater. Across the water the Dry Valleys lie bare and brown, among the driest places on the planet. The sound is the gateway to the largest research station in Antarctica and to the old routes towards the South Pole.",
+    "w": "A wide bay of sea ice beside a large island crowned by a smoking volcano, with bare brown valleys in the mountains to the west.",
+    "f": [
+      "Erebus holds one of the few long-lasting lava lakes in the world.",
+      "Scott and Shackleton built expedition huts on Ross Island, and several still stand.",
+      "James Clark Ross named the sound in 1841 after Archibald McMurdo, an officer of HMS Terror."
+    ],
+    "q": {
+      "q": "Which active volcano rises over McMurdo Sound?",
+      "a": "Mount Erebus",
+      "x": [
+        "Mount Terror",
+        "Mount Vinson"
+      ]
+    }
+  },
+  "Q938327": {
+    "t": "A long Arctic sound, once a whalers' winter home",
+    "s": "Cumberland Sound cuts about 250 km into Baffin Island, a broad arm of the sea walled by rugged, glaciated mountains. In the 19th century Scottish and American whalers wintered here, and the remains of a whaling station still stand on Kekerten Island. Today the hamlet of Pangnirtung sits beside a fjord on its north-eastern shore, the gateway to Auyuittuq National Park.",
+    "w": "A long, wide inlet slicing into Baffin Island, lined with snowy mountains and glaciers, often partly covered in sea ice.",
+    "f": [
+      "The old whaling station on Kekerten Island is now a territorial historic park.",
+      "Auyuittuq, near Pangnirtung, means 'land that never melts' in Inuktitut.",
+      "Beluga whales gather in the sound's waters."
+    ],
+    "q": {
+      "q": "What does Auyuittuq, the park near Cumberland Sound, mean?",
+      "a": "Land that never melts",
+      "x": [
+        "Land of many bears",
+        "Land of long nights"
+      ]
+    }
+  },
+  "Q1695": {
+    "t": "Where two seas collide at the tip of Denmark",
+    "s": "At Grenen, the sandy northern tip of Denmark, waves from the Skagerrak and the Kattegat run into each other along a line you can stand beside. The Skagerrak itself is a broad channel between Norway's rocky south coast and Jutland, linking the North Sea with the approaches to the Baltic. Along the Norwegian side it plunges to about 700 m, the deepest part of the Norwegian Trench.",
+    "w": "A wide channel between Norway's island-fringed south coast and the flat, sandy tip of Denmark, with Sweden's west coast to the east.",
+    "f": [
+      "The Skagen painters of the late 1800s were drawn to the town by its famous clear light.",
+      "The strait is about 240 km long and between about 80 and 140 km wide.",
+      "It is one of the busiest shipping routes in Europe."
+    ],
+    "q": {
+      "q": "Which sea meets the Skagerrak at Grenen?",
+      "a": "The Kattegat",
+      "x": [
+        "The Wadden Sea",
+        "The Bothnian Sea"
+      ]
+    }
+  },
+  "Q131716": {
+    "t": "The shallow gateway between the North Sea and the Baltic",
+    "s": "Most ships sailing between the Baltic and the open ocean cross the Kattegat, a shallow sea hemmed in by Denmark's Jutland on the west and Sweden's west coast on the east. It averages only about 23 m deep and is dotted with sandbanks and low islands such as Læsø and Anholt. At its southern end it narrows into the Øresund and the Danish belts.",
+    "w": "A shallow, rounded sea between flat Danish shores to the west and Sweden's rocky, island-fringed coast to the east, with Gothenburg in the north-east.",
+    "f": [
+      "Part of Anholt, in the middle of the Kattegat, is a desert-like expanse of dunes and lichen.",
+      "Gothenburg, Sweden's second city, stands where the Göta River enters it.",
+      "Its water grows fresher towards the south, as brackish Baltic water flows out on the surface."
+    ],
+    "q": {
+      "q": "Which Swedish city stands on the Kattegat?",
+      "a": "Gothenburg",
+      "x": [
+        "Stockholm",
+        "Kalmar"
+      ]
+    }
+  },
+  "Q654010": {
+    "t": "A muddy funnel of huge tides and river mouths",
+    "s": "The Gulf of Khambhat narrows like a funnel into Gujarat, and the tide rushes up it so hard that the range can reach around 10 m, among the largest in India. Four big rivers — the Narmada, Tapi, Mahi and Sabarmati — pour in silt, turning the water an opaque brown. On its western shore at Alang, huge old ships are run aground on the beach to be broken up.",
+    "w": "A long, funnel-shaped gulf of opaque brown water on India's west coast, north of Mumbai and east of the Kathiawar peninsula.",
+    "f": [
+      "Alang is one of the largest ship-breaking yards in the world.",
+      "The rising tide can race up the gulf as a tidal bore.",
+      "Its old name, the Gulf of Cambay, comes from Khambhat, once a great trading port at its head."
+    ],
+    "q": {
+      "q": "What happens to ships run aground at Alang?",
+      "a": "They are broken up for scrap",
+      "x": [
+        "They are repaired in dry docks",
+        "They are sunk as artificial reefs"
       ]
     }
   }

@@ -1,0 +1,2942 @@
+{
+  "Q5513": {
+    "t": "El lago más profundo del mundo, una media luna en Siberia",
+    "s": "Busca una larga media luna azul encajada entre crestas montañosas oscuras: es el Baikal, de más de 600 km de punta a punta. Su punto más hondo está a 1642 m de profundidad, más que cualquier otro lago de la Tierra. A finales del invierno, el hielo se vuelve vidrioso y de un turquesa pálido, partido por grietas que corren kilómetros.",
+    "w": "Una estrecha media luna de azul profundo, o de hielo blanco en invierno, de suroeste a noreste entre montañas.",
+    "f": [
+      "El Baikal guarda cerca de una quinta parte del agua dulce no helada de la superficie de la Tierra.",
+      "Más de 300 ríos desembocan en él, pero solo uno, el Angará, sale de él.",
+      "Es el hogar de la nerpa, una foca que no vive en ningún otro lugar del mundo."
+    ],
+    "q": {
+      "q": "¿Cuál es el único río que sale del lago Baikal?",
+      "a": "El Angará",
+      "x": [
+        "El Selengá",
+        "El Yeniséi"
+      ]
+    }
+  },
+  "Q23883": {
+    "t": "El agua más baja de la Tierra, y sigue bajando",
+    "s": "La orilla del mar Muerto es la tierra firme más baja del planeta, a más de 430 m bajo el nivel del mar, y el agua baja cerca de un metro al año. Es tan salado que la gente flota sin esfuerzo. Desde arriba, la cuenca norte, de azul intenso, da paso en el sur a pálidas salinas geométricas.",
+    "w": "Un lago azul y delgado en una honda fosa desértica al este de Jerusalén, con balsas de sal turquesa y blancas en su extremo sur.",
+    "f": [
+      "Su agua es unas diez veces más salada que el océano: demasiado para los peces.",
+      "El río Jordán es su principal fuente, y no tiene salida: el agua solo se va por evaporación.",
+      "La cuenca sur es hoy casi toda un mosaico de balsas de evaporación para potasa y sal."
+    ],
+    "q": {
+      "q": "¿A qué profundidad bajo el nivel del mar está, más o menos, la orilla del mar Muerto?",
+      "a": "A más de 400 m",
+      "x": [
+        "A unos 100 m",
+        "A unos 250 m"
+      ]
+    }
+  },
+  "Q788": {
+    "t": "Un océano helado donde el propio hielo va a la deriva",
+    "s": "Desde un vuelo polar, el océano Ártico parece un plato blanco agrietado: banquisa rota por canales oscuros de agua abierta. Es el océano más pequeño y menos profundo, pero bajo el Polo Norte el mar tiene más de 4 km de profundidad. En verano, charcas de deshielo salpican el hielo de azul.",
+    "w": "Banquisa blanca sin fin surcada de grietas oscuras; en verano, charcas turquesa de deshielo y claros de mar abierto.",
+    "f": [
+      "En el Polo Norte no hay tierra: solo hielo marino a la deriva de unos pocos metros de espesor.",
+      "Entre 1893 y 1896, el barco de Nansen, el Fram, se dejó atrapar a propósito en el hielo y cruzó el Ártico a la deriva.",
+      "Cerca del polo, el sol está unos seis meses sobre el horizonte y luego otros seis por debajo."
+    ],
+    "q": {
+      "q": "¿Qué hay bajo el hielo del Polo Norte?",
+      "a": "Océano de más de 4 km de hondo",
+      "x": [
+        "Una isla rocosa",
+        "Un mar de plataforma somero"
+      ]
+    }
+  },
+  "Q7354": {
+    "t": "El océano que da la vuelta entera al mundo",
+    "s": "Pocos vuelos lo cruzan, así que esta vista es rara. El océano Austral rodea la Antártida sin tierra que lo detenga, y su corriente da vueltas al planeta sin fin de oeste a este. Busca icebergs de cima plana —algunos miden decenas de kilómetros— y, en invierno, un delantal blanco de hielo marino mayor que el propio continente.",
+    "w": "Agua oscura rayada por el viento con icebergs blancos dispersos; más al sur, un borde continuo de hielo marino alrededor de la Antártida.",
+    "f": [
+      "La corriente Circumpolar Antártica transporta más agua que ninguna otra corriente de la Tierra.",
+      "Los marinos llamaron a sus latitudes tormentosas los cuarenta rugientes, los cincuenta aulladores y los sesenta bramadores.",
+      "Su límite norte suele trazarse en los 60° S."
+    ],
+    "q": {
+      "q": "¿En qué dirección fluye la corriente Circumpolar Antártica?",
+      "a": "De oeste a este",
+      "x": [
+        "De este a oeste",
+        "De sur a norte"
+      ]
+    }
+  },
+  "Q98": {
+    "t": "Más grande que todas las tierras del mundo juntas",
+    "s": "Horas de azul casi sin una mota de tierra: es el Pacífico, que cubre cerca de un tercio del planeta. Su punto más hondo, el abismo Challenger, está a casi 11 km de profundidad: más o menos tan lejos bajo la superficie como tú estás por encima. Magallanes lo llamó «mar Pacífico» por las aguas tranquilas que encontró en 1520.",
+    "w": "Agua azul marino hasta todos los horizontes, rota solo por hileras de nubes y, de vez en cuando, el anillo pálido de un atolón.",
+    "f": [
+      "El Pacífico es más grande que todas las tierras emergidas juntas.",
+      "Volcanes y zonas sísmicas bordean gran parte de él: es el llamado Cinturón de Fuego.",
+      "En los trópicos se extiende casi media vuelta al globo."
+    ],
+    "q": {
+      "q": "¿Quién llamó al Pacífico así por sus aguas tranquilas?",
+      "a": "Fernando de Magallanes",
+      "x": [
+        "James Cook",
+        "Vasco da Gama"
+      ]
+    }
+  },
+  "Q1239": {
+    "t": "El océano cálido que mueve el monzón",
+    "s": "El reflejo del sol sobre el Índico puede arder como metal martillado durante minutos. Es el más cálido de los océanos, y al norte lo cierra Asia en vez de abrirse al Ártico. Esa forma mueve el monzón: cada verano, el continente se calienta y atrae aire húmedo del océano, que trae las lluvias al sur de Asia.",
+    "w": "Océano azul abierto con un camino brillante de reflejo solar; en los trópicos, hileras de cúmulos esponjosos sobre el agua.",
+    "f": [
+      "Cubre cerca de una quinta parte de la superficie oceánica del mundo.",
+      "Las Maldivas, en su norte, son unas 1200 islas de coral pequeñas agrupadas en 26 atolones.",
+      "Es el único océano que lleva el nombre de un país: la India."
+    ],
+    "q": {
+      "q": "¿Qué puesto ocupa el Índico por tamaño entre los océanos?",
+      "a": "El tercero",
+      "x": [
+        "El segundo",
+        "El cuarto"
+      ]
+    }
+  },
+  "Q97": {
+    "t": "Un océano que aún crece unos centímetros al año",
+    "s": "Por el centro del Atlántico, escondida bajo kilómetros de agua, corre la dorsal mesoatlántica, una costura volcánica donde el fondo marino se separa. El océano se ensancha unos centímetros cada año, más o menos lo que crecen tus uñas. En la superficie, el reflejo del sol dibuja las líneas largas y regulares del mar de fondo.",
+    "w": "Océano abierto surcado de largo mar de fondo bajo campos de nubes; el reflejo del sol revela la textura de las olas.",
+    "f": [
+      "Islandia y las Azores son partes de la dorsal mesoatlántica que asoman sobre las olas.",
+      "El Atlántico Norte es el espacio aéreo oceánico con más tráfico del mundo.",
+      "Su nombre viene de Atlas, el titán de la mitología griega que sostenía el cielo."
+    ],
+    "q": {
+      "q": "¿Qué isla está justo sobre la dorsal mesoatlántica?",
+      "a": "Islandia",
+      "x": [
+        "Irlanda",
+        "Madeira"
+      ]
+    }
+  },
+  "Q4918": {
+    "t": "El mar en medio de las tierras",
+    "s": "Su famoso azul intenso viene de la pobreza, no de la riqueza: el agua lleva pocos nutrientes y poco plancton, así que la luz del sol penetra hondo. El Mediterráneo solo se une al Atlántico por el hueco de 14 km de Gibraltar. Hace unos seis millones de años, su enlace con el océano se cerró y el mar casi se secó, dejando gruesas capas de sal que aún yacen bajo su fondo.",
+    "w": "Agua de un azul cobalto intenso entre Europa y África, a menudo con un nítido reflejo plateado del sol e islas rocosas dispersas.",
+    "f": [
+      "Su nombre viene del latín y significa «en medio de las tierras».",
+      "En casi todo él las mareas son pequeñas, normalmente de bastante menos de medio metro.",
+      "Se evapora más agua de la que aportan los ríos, así que es más salado que el Atlántico abierto."
+    ],
+    "q": {
+      "q": "¿Qué anchura tiene, más o menos, el estrecho de Gibraltar en su punto más estrecho?",
+      "a": "Unos 14 km",
+      "x": [
+        "Unos 3 km",
+        "Unos 50 km"
+      ]
+    }
+  },
+  "Q5484": {
+    "t": "Un «mar» que en realidad es el mayor lago del mundo",
+    "s": "Llámalo mar, pero es la mayor masa de agua de la Tierra sin salida al océano: más grande que Alemania. Sus dos extremos no se parecen en nada: el norte, poco profundo y alimentado por el Volga, suele helarse en invierno, mientras el sur supera los 1000 m de profundidad. En la orilla este, busca Kara-Bogaz-Gol, una laguna de un turquesa vivo.",
+    "w": "Un enorme mar interior con el norte pálido y lleno de limo y el sur azul profundo; al este, el redondo Kara-Bogaz-Gol, turquesa.",
+    "f": [
+      "Su superficie está unos 28 m por debajo del nivel del océano mundial.",
+      "El Volga aporta cerca de cuatro quintas partes de toda el agua fluvial que recibe el Caspio.",
+      "Durante siglos ha sido la principal fuente mundial de esturión y caviar negro."
+    ],
+    "q": {
+      "q": "¿Qué río aporta la mayor parte del agua del mar Caspio?",
+      "a": "El Volga",
+      "x": [
+        "El Ural",
+        "El Kurá"
+      ]
+    }
+  },
+  "Q166": {
+    "t": "Una superficie turquesa sobre un abismo sin oxígeno",
+    "s": "A finales de primavera, el mar Negro puede volverse turquesa lechoso cuando las floraciones de plancton con placas de caliza se arremolinan sobre él. Sus profundidades son otro mundo: por debajo de unos 200 m no hay nada de oxígeno, y en ellas descansan barcos antiguos de madera casi intactos. Solo llega al Mediterráneo por los estrechos del Bósforo y los Dardanelos.",
+    "w": "Un mar ancho y ovalado entre Turquía, los Balcanes y el Cáucaso; a comienzos del verano, remolinos turquesa pálido sobre agua oscura.",
+    "f": [
+      "Casi el 90 % de su agua no tiene oxígeno, solo sulfuro de hidrógeno disuelto.",
+      "En 2018 se halló en su fondo un barco mercante griego intacto de unos 2400 años.",
+      "El Danubio llega a él por un enorme delta, uno de los mayores humedales de Europa."
+    ],
+    "q": {
+      "q": "¿Qué le falta al agua profunda del mar Negro?",
+      "a": "Oxígeno",
+      "x": [
+        "Sal",
+        "Nitrógeno"
+      ]
+    }
+  },
+  "Q159183": {
+    "t": "Un criadero cálido y profundo de tifones",
+    "s": "Aquí está parte del agua abierta más cálida del planeta, y tiene un talento tormentoso: muchos de los tifones más violentos del Pacífico nacen en ella. El mar está cercado por cadenas de islas: Filipinas, Taiwán, las Ryukyu y Japón al oeste y al norte, y las Marianas al este. Muy por debajo, las fosas superan los 10 km de profundidad.",
+    "w": "Océano añil profundo salpicado de cúmulos enormes; arcos de islas marcan sus bordes: Luzón y Taiwán al oeste, las Marianas al este.",
+    "f": [
+      "La cálida corriente de Kuroshio nace en su borde occidental y sube al norte junto a Japón.",
+      "La fosa de Filipinas, en su lado oeste, supera los 10 km de profundidad.",
+      "El mar descansa sobre su propia placa tectónica, la placa Filipina."
+    ],
+    "q": {
+      "q": "¿Qué corriente cálida sube al norte por el borde oeste del mar de Filipinas?",
+      "a": "La de Kuroshio",
+      "x": [
+        "La de Oyashio",
+        "La de Humboldt"
+      ]
+    }
+  },
+  "Q82931": {
+    "t": "El hogar de la Gran Barrera de Coral",
+    "s": "El mar del Coral se gana su nombre en su lado oeste, donde la Gran Barrera de Coral recorre unos 2300 km de la costa australiana. Desde arriba, los arrecifes parecen pinceladas turquesa y anillos pálidos esparcidos sobre azul profundo, con espuma blanca en sus bordes hacia mar abierto. Más al este, el agua se hace más honda y de un añil oscuro.",
+    "w": "Manchas de arrecife turquesa y líneas de espuma blanca frente al noreste de Australia, que se funden en azul profundo hacia el este.",
+    "f": [
+      "La Gran Barrera de Coral está formada por casi 3000 arrecifes distintos y cientos de islas.",
+      "Es la mayor estructura construida por seres vivos, y se ve desde la órbita.",
+      "El arrecife es Patrimonio de la Humanidad de la UNESCO desde 1981."
+    ],
+    "q": {
+      "q": "¿Cuánto mide, más o menos, la Gran Barrera de Coral?",
+      "a": "Unos 2300 km",
+      "x": [
+        "Unos 600 km",
+        "Unos 5000 km"
+      ]
+    }
+  },
+  "Q33254": {
+    "t": "«La Zanja» entre Australia y Nueva Zelanda",
+    "s": "Australianos y neozelandeses lo llaman «la Zanja», pero mide unos 2000 km de ancho: unas tres horas de vuelo. El mar de Tasmania es conocido por sus aguas bravas, agitadas por los vientos del oeste que llegan del océano Austral. Su nombre honra a Abel Tasman, el navegante neerlandés que lo cruzó en 1642 y avistó Nueva Zelanda.",
+    "w": "Agua abierta gris azulada entre dos costas, a menudo rayada de borreguillos y bandas de nubes que llegan del oeste.",
+    "f": [
+      "La isla de Lord Howe, en su parte occidental, es Patrimonio de la Humanidad de la UNESCO.",
+      "Cerca, la Pirámide de Ball, un farallón volcánico de 562 m, surge directamente del mar.",
+      "En su fondo está la elevación de Lord Howe, parte de Zelandia, un continente casi todo sumergido."
+    ],
+    "q": {
+      "q": "¿Cómo apodan al mar de Tasmania australianos y neozelandeses?",
+      "a": "La Zanja",
+      "x": [
+        "El Charco",
+        "La Brecha"
+      ]
+    }
+  },
+  "Q38684": {
+    "t": "La mayor bahía del mundo, alimentada por el Ganges",
+    "s": "Al fondo del golfo de Bengala, el Ganges y el Brahmaputra vierten tanto limo que el mar se vuelve color café con leche lejos de la costa. Es la mayor bahía de la Tierra, y en su cabecera está el mayor delta del mundo, orlado por la maraña verde de los manglares de los Sundarbans. Más al sur, el limo se asienta y el agua se vuelve azul profundo.",
+    "w": "Un vasto triángulo de mar entre la India y Myanmar; cerca de Bangladés, penachos de limo pardo se arremolinan en el azul.",
+    "f": [
+      "Los Sundarbans, en su orilla norte, son el mayor manglar del mundo.",
+      "Bajo el golfo está el abanico de Bengala, un montón de sedimento fluvial de unos 3000 km de largo.",
+      "El agua de los ríos hace su superficie notablemente menos salada que el océano abierto."
+    ],
+    "q": {
+      "q": "¿Qué ríos forman el enorme delta del fondo del golfo de Bengala?",
+      "a": "Ganges y Brahmaputra",
+      "x": [
+        "Indo y Narmada",
+        "Irawadi y Salween"
+      ]
+    }
+  },
+  "Q37660": {
+    "t": "Una de las rutas marítimas más transitadas del planeta",
+    "s": "Con buen tiempo, busca tenues arañazos blancos sobre el azul: las estelas de los barcos. Una parte enorme del comercio marítimo mundial cruza estas aguas entre el estrecho de Malaca, China, Japón y Corea. Esparcidos por el centro hay arrecifes de coral bajos y atolones, que se ven como anillos turquesa donde el agua profunda da paso de golpe a bajíos.",
+    "w": "Un mar azul y ancho entre Vietnam, Filipinas y el sur de China, con estelas de barcos y pequeños anillos turquesa de arrecifes.",
+    "f": [
+      "Cerca de un tercio de todo el tráfico marítimo mundial pasa por él.",
+      "El Mekong y el río de las Perlas desembocan en él; este último, junto a Hong Kong.",
+      "Su cuenca más profunda baja a más de 5000 m."
+    ],
+    "q": {
+      "q": "¿El delta de qué gran río se abre al mar de la China Meridional?",
+      "a": "El Mekong",
+      "x": [
+        "El Irawadi",
+        "El Ganges"
+      ]
+    }
+  },
+  "Q27092": {
+    "t": "Nubes en hilera de día, luces de calamareros de noche",
+    "s": "En un vuelo de invierno, busca líneas paralelas de nubes que cruzan el agua desde el continente asiático: los helados vientos del monzón se cargan aquí de humedad y la descargan como nieve espesa en la costa oeste de Japón. De noche, el mar puede centellear de puntos de luz: barcos pesqueros que usan potentes lámparas para atraer calamares.",
+    "w": "Un mar cerrado entre Japón y el continente asiático; en invierno, hileras de bandas de nubes que soplan hacia Japón.",
+    "f": [
+      "Solo se comunica con el océano abierto por un puñado de estrechos angostos.",
+      "Su cuenca más profunda llega a unos 3700 m.",
+      "En invierno se forma hielo marino en su extremo norte, cerca del estrecho de Tartaria."
+    ],
+    "q": {
+      "q": "¿Qué hace brillar de noche el mar del Japón?",
+      "a": "Las lámparas de los calamareros",
+      "x": [
+        "Plataformas petrolíferas",
+        "Parques solares flotantes"
+      ]
+    }
+  },
+  "Q58705": {
+    "t": "El mar del monzón entre Arabia y la India",
+    "s": "Cada verano, el monzón del suroeste barre el mar Arábigo y hace aflorar frente a Omán agua fría y rica en nutrientes: las floraciones de plancton pueden teñir entonces el mar de verde. Durante miles de años, los marinos aprovecharon estos vientos estacionales para navegar entre Arabia y la India en dhows de madera. Al norte, el Indo se abre en un delta fangoso.",
+    "w": "Un mar ancho entre la península arábiga y la India; en verano, remolinos verdosos de plancton pueden verse frente a Omán.",
+    "f": [
+      "El Indo llega al mar por un amplio delta en la costa de Pakistán.",
+      "Bajo la superficie hay una de las mayores zonas pobres en oxígeno de todos los océanos.",
+      "Una guía náutica griega del siglo I, el Periplo del mar Eritreo, describe el comercio que lo cruzaba."
+    ],
+    "q": {
+      "q": "¿Qué gran río desemboca en el mar Arábigo?",
+      "a": "El Indo",
+      "x": [
+        "El Ganges",
+        "El Brahmaputra"
+      ]
+    }
+  },
+  "Q131274": {
+    "t": "Donde el Mackenzie se encuentra con el hielo ártico",
+    "s": "Casi todo el año, el mar de Beaufort es una llanura blanca de hielo a la deriva que un enorme remolino oceánico hace girar despacio en el sentido de las agujas del reloj. En verano, el hielo se retira de la costa y el río Mackenzie vierte un penacho pardo de limo desde un delta trenzado de incontables lagos. Busca esa mancha color té contra el hielo.",
+    "w": "Hielo marino al norte de Alaska y Canadá; en verano, un penacho fluvial pardo y un delta moteado de lagos en la orilla canadiense.",
+    "f": [
+      "Debe su nombre al almirante Francis Beaufort, que ideó la escala de la fuerza del viento.",
+      "El Mackenzie, el río más largo de Canadá, forma un enorme delta en su orilla.",
+      "Las ballenas de Groenlandia lo cruzan cada año en su migración estacional."
+    ],
+    "q": {
+      "q": "¿Qué ideó el almirante que da nombre al mar de Beaufort?",
+      "a": "Una escala de fuerza del viento",
+      "x": [
+        "Una proyección cartográfica",
+        "Una tabla de mareas"
+      ]
+    }
+  },
+  "Q1247": {
+    "t": "Bajíos turquesa junto a aguas de azul profundo",
+    "s": "Los famosos colores son reales: sobre bancos de arena y arrecifes, el Caribe brilla turquesa y jade, con la arena blanca asomando. Junto a esos bajíos, el fondo cae en picado hasta el azul profundo: en la fosa de las Caimán está a unos 7700 m. El mar está cercado por el arco de las Antillas, una cadena de islas que se curva de Cuba casi hasta Venezuela.",
+    "w": "Bajíos turquesa y esmeralda alrededor de islas, bancos de arena blanca y un borde nítido donde el agua se vuelve azul profundo.",
+    "f": [
+      "Toma su nombre de los caribes, un pueblo de las Antillas Menores.",
+      "El Sistema Arrecifal Mesoamericano, frente a Belice y México, es el mayor sistema de arrecifes de América.",
+      "El canal de Panamá lo une con el Pacífico a través de un estrecho istmo."
+    ],
+    "q": {
+      "q": "¿A qué pueblo debe su nombre el mar Caribe?",
+      "a": "A los caribes",
+      "x": [
+        "A los mayas",
+        "A los taínos"
+      ]
+    }
+  },
+  "Q12630": {
+    "t": "Una cuenca cálida con un delta en pata de pájaro",
+    "s": "Donde el Misisipi llega al golfo, su delta se abre como la pata de un pájaro y arrastra limo pardo hacia el azul. El golfo es una cuenca cálida, casi redonda, y de noche cientos de plataformas de petróleo y gas esparcen luces mar adentro. Frente a Yucatán yace enterrado el cráter del asteroide que acabó con la era de los dinosaurios.",
+    "w": "Un golfo ancho y redondeado; frente a Luisiana, el delta digitado del Misisipi y su penacho pardo; de noche, luces de plataformas.",
+    "f": [
+      "El cráter de Chicxulub, de unos 180 km de diámetro, está en parte bajo su fondo.",
+      "La isla del Padre, frente a Texas, es la isla barrera más larga del mundo.",
+      "La cálida corriente del Lazo entra entre Yucatán y Cuba y sale junto a Florida."
+    ],
+    "q": {
+      "q": "¿Por qué forma es famoso el delta del Misisipi?",
+      "a": "Una pata de pájaro",
+      "x": [
+        "Un abanico perfecto",
+        "Una media luna"
+      ]
+    }
+  },
+  "Q184189": {
+    "t": "La autopista de icebergs entre Groenlandia y el Labrador",
+    "s": "Muchos vuelos entre Europa y Norteamérica cruzan este mar frío entre Groenlandia y el Labrador. En primavera y a principios del verano, busca motas blancas sobre agua oscura: icebergs desprendidos de los glaciares de Groenlandia que la corriente del Labrador lleva al sur, hacia Terranova. En invierno, el agua de la superficie se vuelve tan fría y densa que se hunde, y así ayuda a mover la lenta circulación oceánica mundial.",
+    "w": "Agua abierta y oscura entre el extremo sur de Groenlandia y la costa del Labrador; en primavera, icebergs blancos y hielo a la deriva.",
+    "f": [
+      "Las sagas nórdicas describen Markland, una costa boscosa que se cree que es el Labrador, alcanzada hacia el año 1000.",
+      "La fría corriente del Labrador baja al sur por su lado oeste, cargada de icebergs y hielo marino.",
+      "El cabo Farewell, extremo sur de Groenlandia, marca su esquina noreste."
+    ],
+    "q": {
+      "q": "¿De dónde vienen casi todos los icebergs del mar del Labrador?",
+      "a": "De los glaciares de Groenlandia",
+      "x": [
+        "De la Antártida",
+        "De la bahía de Hudson"
+      ]
+    }
+  },
+  "Q3040": {
+    "t": "Un mar interior que se hiela cada invierno",
+    "s": "La bahía de Hudson es un auténtico mar metido en un continente, y cada invierno se congela casi por completo. Mira su costa este: se curva en un arco liso, casi perfecto, como trazado alrededor de un plato gigante. La tierra que rodea la bahía sigue elevándose poco a poco, recuperándose ahora que ya no carga con el peso de los glaciares.",
+    "w": "Una bahía enorme y casi redonda en el norte de Canadá, blanca en invierno y oscura a finales del verano; fíjate en su arco este.",
+    "f": [
+      "La suave curva de su costa este se conoce como el arco de Nastapoka.",
+      "La tierra de alrededor sigue elevándose cerca de un centímetro al año desde la última glaciación.",
+      "Cada otoño, los osos polares se reúnen cerca de Churchill a esperar que la bahía se hiele para cazar focas."
+    ],
+    "q": {
+      "q": "¿Qué esperan cada otoño los osos polares de Churchill?",
+      "a": "Que la bahía se hiele",
+      "x": [
+        "La subida del salmón",
+        "La primera nevada"
+      ]
+    }
+  },
+  "Q37040": {
+    "t": "Agua sembrada de icebergs entre Baffin y Groenlandia",
+    "s": "En un día claro, la bahía de Baffin es puro contraste: el casquete blanco y las lenguas glaciares de Groenlandia a un lado, las montañas nevadas de la isla de Baffin al otro. Icebergs de glaciares como el de Ilulissat flotan sobre el agua como terrones de azúcar esparcidos. En invierno casi toda la bahía se congela, salvo el North Water, en el extremo norte, que sigue abierto.",
+    "w": "Una larga bahía entre la costa helada de Groenlandia y la isla de Baffin; en verano, icebergs blancos salpican el agua oscura.",
+    "f": [
+      "El North Water es uno de los mayores tramos de mar ártico que permanecen abiertos todo el invierno.",
+      "El fiordo helado de Ilulissat, en su orilla groenlandesa y sitio de la UNESCO, envía enormes icebergs a la bahía.",
+      "Debe su nombre a William Baffin, que la navegó y cartografió en 1616."
+    ],
+    "q": {
+      "q": "¿Qué es el North Water de la bahía de Baffin?",
+      "a": "Mar que no se hiela en invierno",
+      "x": [
+        "Un cañón submarino profundo",
+        "Un lago de agua dulce en una isla"
+      ]
+    }
+  },
+  "Q180531": {
+    "t": "Donde los glaciares se derraman hasta el mar",
+    "s": "Pocas costas se ven tan salvajes desde el aire. A lo largo del golfo de Alaska, los campos de hielo derraman glaciares directamente hacia el mar, y el glaciar Malaspina se extiende por la llanura costera en un enorme lóbulo veteado como un bizcocho marmolado. Donde el agua de deshielo cargada de limo se encuentra con el océano limpio, quizá veas una línea nítida entre verde lechoso y azul profundo.",
+    "w": "La costa curva del sur de Alaska: picos nevados, lenguas glaciares y el enorme lóbulo redondeado del glaciar Malaspina.",
+    "f": [
+      "El Malaspina es uno de los mayores glaciares de piedemonte del mundo: hielo que se extiende sobre tierra llana.",
+      "El monte San Elías, de 5489 m, se alza cerca de la orilla norte del golfo.",
+      "La isla Kodiak, en su lado oeste, es el hogar del enorme oso pardo de Kodiak."
+    ],
+    "q": {
+      "q": "¿Qué altura tiene, más o menos, el monte San Elías, junto al golfo de Alaska?",
+      "a": "Unos 5500 m",
+      "x": [
+        "Unos 3500 m",
+        "Unos 7500 m"
+      ]
+    }
+  },
+  "Q23406": {
+    "t": "Un océano joven que nace entre África y Arabia",
+    "s": "El mar Rojo es un océano en formación: África y Arabia se separan poco a poco, y la grieta entre ellas se ha inundado. Desde el aire es un canal azul, largo y estrecho, entre costas desérticas, orlado de arrecifes turquesa. Al norte se divide en torno al Sinaí en dos cuernos: los golfos de Suez y de Áqaba.",
+    "w": "Un mar largo y esbelto entre orillas desérticas pardas, con franjas de coral turquesa; arriba, dos brazos en torno al triángulo del Sinaí.",
+    "f": [
+      "Ningún río permanente desemboca en él, y es uno de los mares más salados conectados con el océano.",
+      "África y Arabia se separan aquí cerca de un centímetro al año.",
+      "Desde 1869, el canal de Suez une su extremo norte con el Mediterráneo."
+    ],
+    "q": {
+      "q": "¿Qué dos golfos forman los «cuernos» del norte del mar Rojo?",
+      "a": "Suez y Áqaba",
+      "x": [
+        "Adén y Omán",
+        "Áqaba y Sidra"
+      ]
+    }
+  },
+  "Q41602": {
+    "t": "Un mar norteño cuyo hielo llega a Hokkaido",
+    "s": "En invierno, el mar de Ojotsk se vuelve blanco muy al sur: su hielo a la deriva llega a la costa de Hokkaido, más o menos a la latitud de Venecia. El mar está cercado por Kamchatka al este, Sajalín al oeste y la larga cadena de volcanes de las Kuriles al sureste. En verano, la niebla suele ocultar el agua.",
+    "w": "Un ancho mar del norte entre Kamchatka, Sajalín y el arco de las Kuriles; blanco de hielo en invierno, a menudo bajo niebla en verano.",
+    "f": [
+      "El hielo a la deriva de invierno llega aquí a la costa de Hokkaido, hacia los 44° N.",
+      "Las islas Kuriles, una cadena de volcanes, lo separan del Pacífico abierto.",
+      "Ojotsk, fundada en su orilla en la década de 1640, fue el primer asentamiento ruso en el Pacífico."
+    ],
+    "q": {
+      "q": "¿A la costa de qué isla llega por el sur el hielo del mar de Ojotsk?",
+      "a": "Hokkaido",
+      "x": [
+        "Honshu",
+        "Kyushu"
+      ]
+    }
+  },
+  "Q173343": {
+    "t": "El agua de mar más transparente jamás medida",
+    "s": "En el mar de Weddell manda el hielo. Su banquisa gira en un lento remolino en el sentido de las agujas del reloj que en 1915 atrapó y aplastó el barco de Shackleton, el Endurance; toda la tripulación sobrevivió, y el pecio se halló en 2022 a unos 3 km de profundidad. Al sur está la plataforma de hielo Filchner-Ronne, una llanura de hielo flotante que termina en acantilados de decenas de metros.",
+    "w": "Una vasta lámina de banquisa al este de la península Antártica, que termina en el acantilado blanco y llano de una plataforma de hielo.",
+    "f": [
+      "En 1986, un disco blanco sumergido en su agua siguió viéndose a 79 m: el agua de mar más transparente registrada.",
+      "La plataforma Filchner-Ronne, en su extremo sur, es una de las mayores plataformas de hielo flotante de la Tierra.",
+      "Debe su nombre a James Weddell, un cazador de focas británico que se adentró mucho en él en 1823."
+    ],
+    "q": {
+      "q": "¿El barco de quién aplastó el hielo del mar de Weddell en 1915?",
+      "a": "El de Ernest Shackleton",
+      "x": [
+        "El de Roald Amundsen",
+        "El de Robert Scott"
+      ]
+    }
+  },
+  "Q34675": {
+    "t": "Somero, cálido y salpicado de islas artificiales",
+    "s": "Es un mar somero y cálido como un baño: de media solo tiene unos 50 m de profundidad, y en verano el agua de la superficie suele superar los 30 °C. Frente a Dubái, busca las inconfundibles hojas de las islas artificiales en forma de palmera, y Catar sobresaliendo al norte como un pulgar. De noche, antorchas de gas y luces urbanas rodean el agua. Antes del petróleo, su riqueza eran las perlas.",
+    "w": "Un golfo turquesa y poco profundo entre Irán y Arabia; busca la península de Catar, como un pulgar, y las islas-palmera de Dubái.",
+    "f": [
+      "El Tigris y el Éufrates llegan a él juntos por el Shatt al-Arab.",
+      "Su única salida al océano es el estrecho de Ormuz, de menos de 40 km de ancho en su punto más estrecho.",
+      "Durante siglos, el buceo de perlas fue el principal sustento de los pueblos de su orilla arábiga."
+    ],
+    "q": {
+      "q": "¿Qué península sobresale en el golfo Pérsico como un pulgar?",
+      "a": "Catar",
+      "x": [
+        "Sinaí",
+        "Kathiawar"
+      ]
+    }
+  },
+  "Q164466": {
+    "t": "El mar al pie de la gran barrera de hielo",
+    "s": "El mar de Ross termina en una muralla. Su borde sur es la plataforma de hielo de Ross, una losa de hielo flotante del tamaño aproximado de Francia, cuyos acantilados los primeros exploradores llamaban simplemente «la Barrera». En la isla de Ross, el monte Erebus exhala vapor desde un lago de lava en su cráter. En ningún otro lugar llega el mar abierto tan cerca del Polo Sur.",
+    "w": "Agua oscura y banquisa que acaban en una meseta blanca y llana de hielo flotante; al oeste, la nevada isla volcánica de Ross.",
+    "f": [
+      "El frente de la plataforma se alza decenas de metros sobre el mar y se extiende unos 600 km.",
+      "El monte Erebus, de 3794 m, es el volcán activo más austral de la Tierra.",
+      "Gran parte del mar de Ross es área marina protegida desde 2017."
+    ],
+    "q": {
+      "q": "¿De qué país tiene más o menos el tamaño la plataforma de hielo de Ross?",
+      "a": "Francia",
+      "x": [
+        "Bélgica",
+        "Irlanda"
+      ]
+    }
+  },
+  "Q5525": {
+    "t": "El mayor lago enteramente canadiense, en el círculo polar",
+    "s": "El Gran Lago del Oso se extiende por el bosque y la tundra del norte en cinco largos brazos, como una estrella de mar apretada contra la tierra. El círculo polar ártico cruza su parte norte, y el hielo suele seguir sobre el agua hasta julio. Es el mayor lago situado por completo en Canadá, y está casi intacto: solo una comunidad, Déline, se asienta en su orilla.",
+    "w": "Un lago enorme de muchos brazos en el extremo noroeste de Canadá, blanco o veteado de hielo gran parte del año.",
+    "f": [
+      "Su desagüe, el río Great Bear, desemboca en el Mackenzie.",
+      "Una trucha de lago de 33 kg capturada aquí en 1995 fijó un récord mundial de pesca con caña.",
+      "El lago y su cuenca forman Tsá Tué, una reserva de la biosfera de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué línea cruza el Gran Lago del Oso?",
+      "a": "El círculo polar ártico",
+      "x": [
+        "El paralelo 60",
+        "La divisoria continental"
+      ]
+    }
+  },
+  "Q5539": {
+    "t": "El lago más profundo de Norteamérica",
+    "s": "El Gran Lago del Esclavo tiene dos caras. Su cuenca principal, al oeste, es ancha y abierta, mientras el brazo Este es un laberinto de acantilados, islas y canales profundos: allí el lago llega a 614 m, más que ningún otro de Norteamérica. La capital territorial, Yellowknife, está en la orilla norte, y el río Mackenzie sale por el extremo occidental.",
+    "w": "Un lago ancho con un largo brazo oriental sembrado de islas; de noche, las luces de Yellowknife en la orilla norte.",
+    "f": [
+      "Su nombre viene de los slavey, un pueblo dene, y no de la esclavitud.",
+      "En invierno, una carretera de hielo sobre el lago helado une Yellowknife con la comunidad de Dettah.",
+      "El hielo cubre el lago cerca de la mitad de cada año."
+    ],
+    "q": {
+      "q": "¿Qué profundidad tiene el Gran Lago del Esclavo en su punto más hondo?",
+      "a": "614 m",
+      "x": [
+        "214 m",
+        "1014 m"
+      ]
+    }
+  },
+  "Q3272": {
+    "t": "Un gigante poco profundo, heredado de un lago glaciar",
+    "s": "El lago Winnipeg se estira más de 400 km hacia el norte y se estrecha en la cintura, donde sus cuencas norte y sur se unen en los Narrows. Pese a su tamaño es poco profundo, unos 12 m de media, y en verano las floraciones de algas pueden arremolinarse en él en tonos verdes visibles desde el aire. Su nombre significa «agua fangosa» en cree.",
+    "w": "Un lago largo al norte de la ciudad de Winnipeg, estrechado en el centro; a finales del verano, a menudo verdoso.",
+    "f": [
+      "Es un resto del lago glaciar Agassiz, que llegó a cubrir más superficie que todos los Grandes Lagos actuales.",
+      "Su desagüe, el río Nelson, lleva su agua al norte, hasta la bahía de Hudson.",
+      "Su cuenca de drenaje llega hasta las Montañas Rocosas."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre cree «Winnipeg»?",
+      "a": "Agua fangosa",
+      "x": [
+        "Agua grande",
+        "Lago de los espíritus"
+      ]
+    }
+  },
+  "Q5492": {
+    "t": "El Gran Lago somero y cálido que alimenta el Niágara",
+    "s": "El lago Erie es el menos profundo de los Grandes Lagos, así que es el que antes se calienta en verano y el que más fácilmente se congela en invierno. Desde arriba, busca Long Point, una delgada lengua de arena que se curva unos 40 km desde la orilla canadiense. El agua del lago sale hacia el este, por las cataratas del Niágara.",
+    "w": "Un lago ovalado y largo entre Ontario y Ohio; busca el fino gancho de arena de Long Point en la orilla norte.",
+    "f": [
+      "Su profundidad media es de solo unos 19 m, mucho menos que la de los demás Grandes Lagos.",
+      "Point Pelee, que se adentra en su parte oeste, es el extremo sur de la Canadá continental.",
+      "A finales del verano, las floraciones de algas verdes de su cuenca oeste se ven desde el espacio."
+    ],
+    "q": {
+      "q": "¿Cuál es el menos profundo de los Grandes Lagos?",
+      "a": "El lago Erie",
+      "x": [
+        "El lago Ontario",
+        "El lago Hurón"
+      ]
+    }
+  },
+  "Q1062": {
+    "t": "El último Gran Lago antes del mar",
+    "s": "Es el último peldaño de la escalera de los Grandes Lagos: el agua llega por el río Niágara y sale por el San Lorenzo hacia el Atlántico. El lago Ontario es el más pequeño de los cinco en superficie, pero tan profundo que rara vez se congela entero. De noche, busca el denso resplandor de Toronto y sus suburbios envolviendo la orilla occidental.",
+    "w": "Un lago ovalado con la mancha urbana de Toronto en su orilla noroeste; en su extremo este, un reguero de islas.",
+    "f": [
+      "El San Lorenzo sale de él entre las Mil Islas, que en realidad son más de 1800.",
+      "Su punto más hondo está a unos 244 m.",
+      "Los vientos que lo cruzan descargan intensas nevadas de efecto lago sobre la meseta de Tug Hill, en Nueva York."
+    ],
+    "q": {
+      "q": "¿Qué río lleva el agua del lago Ontario al Atlántico?",
+      "a": "El San Lorenzo",
+      "x": [
+        "El Hudson",
+        "El Ottawa"
+      ]
+    }
+  },
+  "Q1066": {
+    "t": "El mayor lago de agua dulce de la Tierra por superficie",
+    "s": "El lago Superior es tan grande que tiene su propio horizonte: mide 563 km de largo, así que ni desde la altitud de crucero quizá lo veas de punta a punta. Ningún lago de agua dulce de la Tierra ocupa más superficie, y su agua fría y clara guarda cerca de una décima parte de toda el agua dulce superficial del planeta. En invierno, hielo y nieve dibujan de blanco su contorno rocoso.",
+    "w": "Un lago enorme con forma parecida a una cabeza de lobo mirando al oeste, con la larga península de Keweenaw en su orilla sur.",
+    "f": [
+      "Una gota de agua que entra en él se queda, de media, casi 200 años.",
+      "La isla Royale, en su noroeste, acoge desde 1958 un estudio de lobos y alces de los más largos de su tipo.",
+      "Su punto más hondo está a 406 m bajo la superficie."
+    ],
+    "q": {
+      "q": "¿Cuánto tiempo pasa de media el agua en el lago Superior?",
+      "a": "Casi 200 años",
+      "x": [
+        "Unos 20 años",
+        "Unos 2 años"
+      ]
+    }
+  },
+  "Q1169": {
+    "t": "El único Gran Lago enteramente estadounidense",
+    "s": "El lago Míchigan cuelga del estrecho de Mackinac como un largo colgante azul, con la cuadrícula de Chicago pegada a su esquina suroeste. Su orilla este está bordeada de dunas de arena claras, algunas de más de 100 m sobre el agua. En rigor, forma un solo lago con el Hurón: los dos se unen en el estrecho y comparten el mismo nivel.",
+    "w": "Un lago largo de norte a sur: Chicago al suroeste, costas de dunas claras al este y el estrecho de Mackinac arriba.",
+    "f": [
+      "Su orilla este tiene las mayores dunas de arena de agua dulce del mundo.",
+      "El puente Mackinac, de unos 8 km, cruza el estrecho que lo une con el lago Hurón.",
+      "Su nombre viene de una palabra ojibwa que significa «gran agua»."
+    ],
+    "q": {
+      "q": "¿Con qué lago está unido hidrológicamente el lago Míchigan?",
+      "a": "El lago Hurón",
+      "x": [
+        "El lago Superior",
+        "El lago Erie"
+      ]
+    }
+  },
+  "Q1383": {
+    "t": "El Gran Lago de las decenas de miles de islas",
+    "s": "El Hurón es el lago de las islas. En el norte y el este, su orilla de granito se rompe en miles de islotes rocosos, y Manitoulin, la mayor isla de cualquier lago de agua dulce de la Tierra, separa el lago principal del canal Norte. Al este se abre la bahía Georgiana, casi un lago por sí misma.",
+    "w": "Un lago ancho al este de la «manopla» de Míchigan; la larga isla de Manitoulin al norte y la bahía Georgiana al este.",
+    "f": [
+      "Contando todas sus islas, tiene la costa más larga de los Grandes Lagos.",
+      "La bahía de Saginaw entra en la costa de Míchigan y separa el «pulgar» del resto de la «manopla».",
+      "Los franceses lo bautizaron por el pueblo hurón, o wendat."
+    ],
+    "q": {
+      "q": "¿Qué isla del lago Hurón es la mayor de cualquier lago de agua dulce?",
+      "a": "Manitoulin",
+      "x": [
+        "Isla Royale",
+        "Isla Mackinac"
+      ]
+    }
+  },
+  "Q5532": {
+    "t": "El lago con más especies de peces del mundo",
+    "s": "El lago Malaui llena una larga fosa del Rift de África Oriental: una esbelta hoja azul de unos 580 km, encerrada entre escarpes empinados. Bajo su superficie nadan más especies de peces que en ningún otro lago de la Tierra: cientos de cíclidos de colores vivos, casi todos exclusivos de aquí. De noche, las lámparas de los pescadores pueden motear el agua oscura.",
+    "w": "Un lago largo y estrecho de norte a sur en el valle del Rift, con montañas que caen a pico en sus orillas del norte.",
+    "f": [
+      "Su punto más hondo supera los 700 m.",
+      "El Parque Nacional del Lago Malaui, en su extremo sur, es Patrimonio de la Humanidad de la UNESCO.",
+      "También se llama lago Nyasa, y Lago Niassa en Mozambique."
+    ],
+    "q": {
+      "q": "¿Qué peces forman casi toda la famosa variedad del lago Malaui?",
+      "a": "Cíclidos",
+      "x": [
+        "Salmones",
+        "Esturiones"
+      ]
+    }
+  },
+  "Q5511": {
+    "t": "El lago de agua dulce más largo del mundo",
+    "s": "El lago Tanganica se extiende unos 670 km por el fondo del valle del Rift, más que ningún otro lago de agua dulce. Es estrecho, unos 50 km de ancho de media, pero baja hasta 1470 m, solo superado por el Baikal. Cuatro países comparten sus largas y empinadas orillas, y su agua es de un azul intenso y transparente.",
+    "w": "Un lago muy largo y estrecho de norte a sur en una fosa profunda, bordeado a ambos lados por empinadas paredes montañosas.",
+    "f": [
+      "Tanzania, la RD del Congo, Burundi y Zambia comparten sus orillas.",
+      "En 1871, Stanley encontró a Livingstone en Ujiji, en su orilla este.",
+      "Es de los lagos más antiguos de la Tierra: se formó hace unos 10 millones de años."
+    ],
+    "q": {
+      "q": "¿Qué lago es más profundo que el Tanganica?",
+      "a": "El lago Baikal",
+      "x": [
+        "El lago Malaui",
+        "El lago Superior"
+      ]
+    }
+  },
+  "Q5505": {
+    "t": "El mayor lago de África, donde nace el Nilo Blanco",
+    "s": "El lago Victoria es tan ancho que parece un mar interior, con una costa desgarrada de bahías, penínsulas e islas verdes. Es el mayor lago de África y, sin embargo, sorprendentemente poco profundo: solo unos 80 m en su punto más hondo. El ecuador cruza sus aguas del norte, y desde su orilla norte sale el Nilo Blanco en su largo viaje hacia el Mediterráneo.",
+    "w": "Un lago enorme a caballo del ecuador, con una costa dentada, muchas islas y nubes de tormenta que crecen sobre el agua por la tarde.",
+    "f": [
+      "Es el mayor lago tropical del mundo y el segundo lago de agua dulce por superficie.",
+      "Speke lo bautizó en honor a la reina Victoria en 1858; «Nyanza» significa simplemente «lago» en varias lenguas locales.",
+      "Uganda, Kenia y Tanzania comparten sus aguas."
+    ],
+    "q": {
+      "q": "¿Qué gran río sale del lago Victoria?",
+      "a": "El Nilo Blanco",
+      "x": [
+        "El Congo",
+        "El Nilo Azul"
+      ]
+    }
+  },
+  "Q173862": {
+    "t": "Un mar de agua dulce con una isla de dos volcanes",
+    "s": "Busca Ometepe: una isla con forma de ocho, formada por dos conos volcánicos unidos por un istmo bajo. Surge del mayor lago de Centroamérica, tan ancho que los españoles lo llamaron la Mar Dulce. Desde hace mucho, los tiburones toro llegan hasta aquí desde el Caribe remontando el río San Juan.",
+    "w": "Un lago ancho en el suroeste de Nicaragua; busca los conos volcánicos gemelos de la isla de Ometepe cerca de su orilla oeste.",
+    "f": [
+      "El volcán más alto de Ometepe, el Concepción, está activo y alcanza unos 1600 m.",
+      "Cerca de la ciudad de Granada, cientos de islotes diminutos, Las Isletas, salpican la orilla.",
+      "El lago desagua en el Caribe por el río San Juan."
+    ],
+    "q": {
+      "q": "¿Qué forma la isla de Ometepe?",
+      "a": "Dos volcanes",
+      "x": [
+        "Un arrecife de coral",
+        "El delta de un río"
+      ]
+    }
+  },
+  "Q1134446": {
+    "t": "Un lago claro y sembrado de islas en el escudo Canadiense",
+    "s": "El lago Reindeer es escudo Canadiense en estado puro: una larga lámina de agua oscura y clara salpicada de islas rocosas y boscosas, con orillas talladas en incontables bahías por los glaciares. Se extiende de norte a sur entre bosques casi sin carreteras. Su agua sale hacia el sur por el río Reindeer hasta el Churchill y, de ahí, hasta la bahía de Hudson.",
+    "w": "Un lago largo de norte a sur, de orillas desgarradas y muchas islas rocosas, en el bosque oscuro del noreste de Saskatchewan.",
+    "f": [
+      "Es el segundo lago más grande de Saskatchewan, tras el lago Athabasca.",
+      "La comunidad cree de Southend está en su extremo sur.",
+      "Su agua fría y clara alberga grandes truchas de lago y lucios."
+    ],
+    "q": {
+      "q": "¿Adónde va a parar finalmente el agua del lago Reindeer?",
+      "a": "A la bahía de Hudson",
+      "x": [
+        "Al océano Pacífico",
+        "Al golfo de México"
+      ]
+    }
+  },
+  "Q845876": {
+    "t": "Un laberinto de islas con una muesca en la frontera",
+    "s": "Desde arriba, el lago de los Bosques parece dos lagos en uno: una cuenca abierta y redondeada al sur y, al norte, un laberinto hecho añicos de unas 14 500 islas rocosas y boscosas. En su lado occidental está el Northwest Angle, una rareza de la cartografía antigua que deja un trozo de Minnesota al norte del paralelo 49, al que por tierra solo se llega pasando por Canadá.",
+    "w": "Un lago en la frontera entre Canadá y EE. UU.: una bahía sur abierta y un laberinto norte de islas boscosas.",
+    "f": [
+      "El Northwest Angle es la única parte de los Estados Unidos contiguos al norte del paralelo 49.",
+      "Su agua sale hacia el norte por el río Winnipeg.",
+      "La ciudad de Kenora, en Ontario, está junto a su desagüe norte."
+    ],
+    "q": {
+      "q": "¿Cuántas islas tiene, más o menos, el lago de los Bosques?",
+      "a": "Unas 14 500",
+      "x": [
+        "Unas 1500",
+        "Unas 4500"
+      ]
+    }
+  },
+  "Q122184": {
+    "t": "El gran lago que alimenta el lago Superior",
+    "s": "Justo al norte del lago Superior hay un lago grande y desgarrado, sembrado de cientos de islas. El Nipigon es el mayor lago situado por completo en Ontario, y desagua al sur por el río Nipigon, el mayor río que desemboca en el Superior. A su alrededor se extiende un bosque boreal casi continuo, verde oscuro en verano y blanco en invierno.",
+    "w": "Un lago grande salpicado de islas, un poco al norte de la orilla norte del lago Superior, rodeado de bosque oscuro.",
+    "f": [
+      "La trucha de arroyo récord mundial, de 6,6 kg, se pescó en el río Nipigon en 1915.",
+      "El lago ocupa unos 4800 km²."
+    ],
+    "q": {
+      "q": "¿En qué Gran Lago desagua el lago Nipigon?",
+      "a": "El lago Superior",
+      "x": [
+        "El lago Hurón",
+        "El lago Míchigan"
+      ]
+    }
+  },
+  "Q645901": {
+    "t": "El lago que dio nombre a una provincia",
+    "s": "El lago Manitoba es largo y poco profundo, y a mitad de camino se estrecha en un cuello fino llamado los Narrows. Allí, las olas que golpean las orillas de caliza producen extraños retumbos que la gente oía como el tambor de un espíritu: probablemente el origen del nombre del lago y de la provincia que lo lleva. En casi ningún punto supera mucho los 7 m de profundidad.",
+    "w": "Un lago largo y esbelto al oeste del lago Winnipeg, que se estrecha bruscamente a medio camino; marismas en su extremo sur.",
+    "f": [
+      "Delta Marsh, en su orilla sur, es una de las mayores marismas de agua dulce de Norteamérica.",
+      "Su agua sigue, por ríos y lagos más pequeños, hasta el lago Winnipeg."
+    ],
+    "q": {
+      "q": "¿Qué recibió su nombre del lago Manitoba?",
+      "a": "Una provincia canadiense",
+      "x": [
+        "Un estado de EE. UU.",
+        "Una cordillera"
+      ]
+    }
+  },
+  "Q934638": {
+    "t": "La hermana «un poco fangosa» del Winnipeg",
+    "s": "Tres grandes lagos se tienden uno junto a otro en Manitoba, todos restos del mismo lago glaciar desaparecido. El Winnipegosis es el más occidental: largo, estrecho y poco profundo, con una orilla de puntas bajas y bahías tranquilas. Hasta su nombre es el de la hermana pequeña del Winnipeg: más o menos «agua un poco fangosa» en cree. Su agua va al sur, al lago Manitoba.",
+    "w": "El más occidental de los tres grandes lagos de Manitoba: largo y estrecho, de norte a sur, al oeste del lago Winnipeg.",
+    "f": [
+      "Desagua al sur, en el lago Manitoba, por el río Waterhen.",
+      "Los lagos Winnipegosis, Manitoba y Winnipeg son restos del lago glaciar Agassiz.",
+      "Ocupa más de 5000 km², pero en casi toda esa superficie solo tiene unos pocos metros de profundidad."
+    ],
+    "q": {
+      "q": "¿En qué lago desagua directamente el Winnipegosis?",
+      "a": "El lago Manitoba",
+      "x": [
+        "El lago Athabasca",
+        "El lago de los Bosques"
+      ]
+    }
+  },
+  "Q272463": {
+    "t": "Un lago norteño con un desierto en la orilla",
+    "s": "A lo largo de la orilla sur del lago Athabasca, el bosque oscuro da paso de repente a arena pálida y desnuda: las dunas de Athabasca, de las grandes dunas activas más septentrionales de la Tierra. En el extremo oeste del lago, los ríos Peace y Athabasca forman un enorme delta verde. La orilla norte es escudo Canadiense rocoso, picado de pequeños lagos.",
+    "w": "Un lago largo de este a oeste en la frontera entre Alberta y Saskatchewan; busca manchas de arena pálida en su orilla sur.",
+    "f": [
+      "El delta Peace-Athabasca es uno de los mayores deltas de agua dulce del mundo.",
+      "Fort Chipewyan, fundado en su orilla en 1788, es uno de los asentamientos más antiguos de Alberta.",
+      "Su agua va al norte por el río Slave hacia el Gran Lago del Esclavo y el Ártico."
+    ],
+    "q": {
+      "q": "¿Qué paisaje insólito hay en la orilla sur del lago Athabasca?",
+      "a": "Dunas de arena activas",
+      "x": [
+        "Aguas termales",
+        "Un cráter volcánico"
+      ]
+    }
+  },
+  "Q1458051": {
+    "t": "El mayor lago natural de Quebec, partido por islas",
+    "s": "El lago Mistassini parece rastrillado por un peine gigante: largo y estrecho, corre hacia el noreste más de 150 km, con una cadena de islas esbeltas que lo divide a lo largo. La comunidad cree de Mistissini está en su orilla sur, y el lago desagua al oeste por el río Rupert hasta la bahía de James.",
+    "w": "Un lago largo y estrecho de suroeste a noreste en los bosques del centro de Quebec, partido por el medio por islas.",
+    "f": [
+      "Su nombre viene de la expresión cree para «gran roca».",
+      "Ocupa unos 2300 km², más que cualquier otro lago natural de Quebec."
+    ],
+    "q": {
+      "q": "¿Adónde va a parar el agua del lago Mistassini?",
+      "a": "A la bahía de James",
+      "x": [
+        "Al golfo de San Lorenzo",
+        "Al lago Ontario"
+      ]
+    }
+  },
+  "Q1267413": {
+    "t": "La gran bahía del Hurón, de treinta mil islas",
+    "s": "La bahía Georgiana es tan grande que a veces se la llama el sexto Gran Lago, aunque en realidad es un brazo del lago Hurón. La península de Bruce la cierra por el oeste: un dedo de acantilados calizos sobre agua turquesa. En la orilla este, el granito rosado se rompe en las Treinta Mil Islas, un reguero centelleante visto desde el aire.",
+    "w": "Una gran bahía al este del lago Hurón, cerrada por el dedo de la península de Bruce, con un laberinto de islas al este.",
+    "f": [
+      "Las Treinta Mil Islas forman el mayor archipiélago de agua dulce del mundo.",
+      "La península de Bruce forma parte del escarpe del Niágara, la misma cresta rocosa por la que caen las cataratas del Niágara.",
+      "Se bautizó en 1822 en honor al rey Jorge IV."
+    ],
+    "q": {
+      "q": "¿Qué península separa la bahía Georgiana del resto del lago Hurón?",
+      "a": "La península de Bruce",
+      "x": [
+        "La península de Keweenaw",
+        "La península de Door"
+      ]
+    }
+  },
+  "Q15288": {
+    "t": "El mayor lago de Europa, rocoso en el norte",
+    "s": "El mayor lago de Europa tiene dos caras. Su orilla sur es baja y pantanosa, pero el norte se rompe en skerries —islas rocosas y ensenadas estrechas excavadas por los glaciares— donde el agua baja a más de 200 m. En las islas Valaam, al norte, se alza un monasterio fundado en la Edad Media.",
+    "w": "Un lago enorme al noreste de San Petersburgo, de orillas bajas al sur; al norte, un laberinto rocoso de islas y ensenadas.",
+    "f": [
+      "El Nevá lleva su agua solo unos 74 km hasta el Báltico, atravesando San Petersburgo.",
+      "Es el hogar de la foca anillada del Ládoga, una subespecie que no existe en ningún otro lugar.",
+      "El lago ocupa unos 17 700 km²: más de la mitad de Bélgica."
+    ],
+    "q": {
+      "q": "¿Qué río lleva el agua del lago Ládoga al Báltico?",
+      "a": "El Nevá",
+      "x": [
+        "El Svir",
+        "El Vóljov"
+      ]
+    }
+  },
+  "Q134485": {
+    "t": "Un lago mitad dulce y mitad salado",
+    "s": "El lago Baljash es un arco largo y delgado sobre la estepa kazaja, de unos 600 km de punta a punta, y son dos lagos en uno. La mitad oeste, alimentada por el río Ili, es casi dulce; la mitad este, unida a ella solo por un estrecho angosto, es salada. Desde arriba, las dos mitades muestran a menudo tonos algo distintos.",
+    "w": "Un arco de agua largo y delgado sobre la estepa seca del este de Kazajistán, con el verde delta del Ili al oeste.",
+    "f": [
+      "El río Ili, que llega desde el sur, aporta la mayor parte de su agua.",
+      "El estrecho que une sus dos mitades mide solo unos pocos kilómetros de ancho.",
+      "No tiene salida: el agua solo se va por evaporación."
+    ],
+    "q": {
+      "q": "¿Qué río alimenta el lago Baljash?",
+      "a": "El Ili",
+      "x": [
+        "El Irtish",
+        "El Sir Daria"
+      ]
+    }
+  },
+  "Q125888": {
+    "t": "Un lago del Rift por el que pasa el Nilo",
+    "s": "El lago Alberto está en una honda fosa del Rift occidental, cercado por escarpes empinados; en el lado del Congo se alzan de golpe cientos de metros. El Nilo solo roza su extremo norte: el Nilo Victoria entra aguas abajo de las cataratas Murchison, y el Nilo Alberto sale a pocos kilómetros. El lago se extiende unos 160 km de suroeste a noreste.",
+    "w": "Un lago largo y estrecho entre escarpes empinados en la frontera entre Uganda y el Congo, con llanos verdes de papiro en su extremo norte.",
+    "f": [
+      "Samuel Baker llegó a él en 1864 y lo bautizó en honor al príncipe Alberto, el difunto esposo de la reina Victoria.",
+      "El río Semliki entra por su extremo sur con agua de los montes Rwenzori."
+    ],
+    "q": {
+      "q": "¿Quién bautizó el lago Alberto en 1864?",
+      "a": "Samuel Baker",
+      "x": [
+        "John Hanning Speke",
+        "Henry Morton Stanley"
+      ]
+    }
+  },
+  "Q173596": {
+    "t": "El mar interior de Suecia, partido en dos cuencas",
+    "s": "El mayor lago de Suecia tiene dos partes: la amplia cuenca principal y, al suroeste, el Dalbosjön, más pequeño, casi aislado por dos penínsulas que se tienden la una hacia la otra. Islas rocosas y escollos salpican el agua, y en Karlstad, en la orilla norte, el río Klarälven se abre en un delta. El Vänern es el mayor lago de la Unión Europea.",
+    "w": "Un lago enorme en el suroeste de Suecia, estrechado en dos cuencas por penínsulas, con islas rocosas y un delta en Karlstad, al norte.",
+    "f": [
+      "Su agua sale por el Göta älv, que llega al mar en Gotemburgo.",
+      "El canal de Göta lo une al este con el lago Vättern y, de ahí, con el Báltico.",
+      "Ocupa unos 5600 km²."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está en la desembocadura del río que desagua el Vänern?",
+      "a": "Gotemburgo",
+      "x": [
+        "Estocolmo",
+        "Malmö"
+      ]
+    }
+  },
+  "Q166162": {
+    "t": "El segundo lago de Europa, con dedos en el norte",
+    "s": "Mira el extremo norte del lago Onega: se divide en bahías largas y estrechas, tendidas una junto a otra como los dedos de una mano, moldeadas por los mantos de hielo. El sur es una cuenca amplia y abierta. Entre las islas del norte está Kizhi, cuya iglesia de madera de la Transfiguración se corona con 22 cúpulas: demasiado pequeñas para verlas desde aquí, pero vale la pena saberlo.",
+    "w": "Un gran lago al noreste del Ládoga, con su extremo norte partido en largas bahías paralelas; Petrozavodsk en la orilla oeste.",
+    "f": [
+      "Las iglesias de madera de Kizhi son Patrimonio de la Humanidad de la UNESCO.",
+      "Más de mil grabados rupestres, de miles de años, cubren las repisas de granito de su orilla este.",
+      "El río Svir lleva su agua al oeste, hasta el lago Ládoga."
+    ],
+    "q": {
+      "q": "¿Cuántas cúpulas coronan la iglesia de la Transfiguración de Kizhi?",
+      "a": "22",
+      "x": [
+        "12",
+        "33"
+      ]
+    }
+  },
+  "Q116685": {
+    "t": "El lago donde nace el Nilo Azul",
+    "s": "En lo alto de la meseta etíope, a unos 1800 m, el lago Tana es la fuente del Nilo Azul, que sale de su orilla sur en Bahir Dar. Sus islas y penínsulas abrigan viejos monasterios de iglesias pintadas, y los pescadores aún reman en barcas de papiro llamadas tankwa. Desde el aire es un lago ancho y redondeado, rodeado de campos verdes.",
+    "w": "Un lago ancho y casi redondo en las verdes tierras altas etíopes, con Bahir Dar y la salida del Nilo Azul en su extremo sur.",
+    "f": [
+      "El Nilo Azul aporta la mayor parte del agua que baja por el Nilo a través de Egipto.",
+      "Unos 30 km aguas abajo, el Nilo Azul se precipita por las cataratas de Tis Issat.",
+      "Algunos de sus monasterios isleños se remontan al siglo XIV."
+    ],
+    "q": {
+      "q": "¿Qué río sale del lago Tana?",
+      "a": "El Nilo Azul",
+      "x": [
+        "El Nilo Blanco",
+        "El Awash"
+      ]
+    }
+  },
+  "Q35342": {
+    "t": "Un lago azul intenso a 3800 m, con islas flotantes",
+    "s": "El lago Titicaca está a unos 3810 m, más de un tercio de tu altitud de crucero, y en el aire enrarecido de la montaña su agua se ve de un azul oscuro e intenso. Detrás se alzan los picos nevados de la cordillera Real de Bolivia. En su lado peruano, el pueblo uro vive en islas flotantes hechas de totora.",
+    "w": "Un gran lago irregular de azul profundo sobre el altiplano desnudo, con montañas nevadas que se alzan por su lado este.",
+    "f": [
+      "Suele llamarse el lago navegable más alto del mundo.",
+      "Sus dos cuencas se unen por el estrecho de Tiquina.",
+      "Según la leyenda inca, los fundadores de la dinastía inca surgieron de sus aguas."
+    ],
+    "q": {
+      "q": "¿De qué están hechas las islas flotantes de los uros?",
+      "a": "De totora",
+      "x": [
+        "De troncos de balsa",
+        "De piedra pómez"
+      ]
+    }
+  },
+  "Q192770": {
+    "t": "Un laberinto de agua y 14 000 islas",
+    "s": "Desde arriba, el Saimaa apenas parece un lago: más bien un rompecabezas de canales azules, islas oscuras de pinos y estrechos por todo el este de Finlandia. Tiene unas 14 000 islas y una orilla tan retorcida que mide unos 15 000 km. En invierno, todo el laberinto se congela en un puzle blanco.",
+    "w": "Un laberinto extenso de lagos, canales e islas boscosas por el sureste de Finlandia, sin ninguna gran extensión abierta.",
+    "f": [
+      "La foca anillada del Saimaa vive aquí y en ningún otro sitio; solo quedan unos pocos cientos.",
+      "El canal del Saimaa lo une con el golfo de Finlandia en Víborg.",
+      "Es el mayor lago de Finlandia."
+    ],
+    "q": {
+      "q": "¿Qué animal raro vive solo en el lago Saimaa?",
+      "a": "Una foca anillada",
+      "x": [
+        "Un delfín de agua dulce",
+        "Una salamandra gigante"
+      ]
+    }
+  },
+  "Q375029": {
+    "t": "Un «mar» artificial sobre una ciudad sumergida",
+    "s": "Los lugareños lo llaman el mar de Rybinsk, y desde el aire se gana el nombre: una ancha lámina de agua gris azulada que se extiende al norte del Volga sobre bosques y campos llanos. Creado en la década de 1940 al represar el Volga y el Sheksná, fue entonces el mayor lago artificial del mundo. Bajo él yace la antigua ciudad de Mologa.",
+    "w": "Un embalse ancho, somero y de muchos brazos al norte de Rybinsk, que llena los valles inundados del Volga, el Sheksná y el Mologa.",
+    "f": [
+      "Su profundidad media es de solo unos 5–6 m.",
+      "Balsas de turba flotante, a veces con arbustos y árboles pequeños encima, van a la deriva por él.",
+      "La reserva natural Darwin, en su orilla, se creó para estudiar cómo cambió la naturaleza con la inundación."
+    ],
+    "q": {
+      "q": "¿Qué ciudad quedó sumergida al crear el embalse de Rybinsk?",
+      "a": "Mologa",
+      "x": [
+        "Kostromá",
+        "Vólogda"
+      ]
+    }
+  },
+  "Q21890573": {
+    "t": "El punto más bajo de Australia, un salar casi siempre seco",
+    "s": "Casi siempre, Kati Thanda–lago Eyre es un enorme salar de un blanco cegador, a unos 15 m bajo el nivel del mar: el punto más bajo de Australia. Solo tras grandes lluvias muy al norte se extiende el agua sobre él, a veces teñida de rosa por algas amantes de la sal. Entonces llegan pelícanos desde la costa, a cientos de kilómetros, para criar.",
+    "w": "Un enorme salar blanco en el interior de Australia Meridional, a veces veteado de agua somera azul o rosada.",
+    "f": [
+      "Su cuenca abarca cerca de una sexta parte de Australia.",
+      "En 1964, Donald Campbell batió en su sal un récord de velocidad en tierra de unos 649 km/h.",
+      "Solo se ha llenado por completo unas pocas veces desde que lo vieron los primeros europeos."
+    ],
+    "q": {
+      "q": "¿A qué profundidad bajo el nivel del mar está el lecho de Kati Thanda–lago Eyre?",
+      "a": "A unos 15 m",
+      "x": [
+        "A unos 150 m",
+        "A unos 400 m"
+      ]
+    }
+  },
+  "Q178741": {
+    "t": "Un lago partido en dos: rosa a un lado, azul al otro",
+    "s": "Busca una línea perfectamente recta sobre el agua: un terraplén ferroviario terminado en 1959 parte en dos el Gran Lago Salado. Al norte, la salmuera es tan salada que los microbios la tiñen de rosa o rojo óxido; al sur, el agua sigue verde azulada. El lago es lo que queda del lago Bonneville, un lago glaciar que llegó a cubrir gran parte del oeste de Utah.",
+    "w": "Un lago grande y somero al oeste de Salt Lake City, cruzado por un terraplén recto: agua rojiza al norte, verde azulada al sur.",
+    "f": [
+      "Es el mayor lago de agua salada del hemisferio occidental.",
+      "La isla Antelope, la mayor del lago, alberga una manada de bisontes en libertad.",
+      "Diminutas artemias prosperan en él, y sus huevos se recogen como pienso para piscifactorías."
+    ],
+    "q": {
+      "q": "¿Qué tiñe de rosa el brazo norte del Gran Lago Salado?",
+      "a": "Microbios amantes de la sal",
+      "x": [
+        "Barro rico en hierro",
+        "El reflejo de la arena"
+      ]
+    }
+  },
+  "Q276776": {
+    "t": "Un mar que se desvanece, convertido en desierto",
+    "s": "Lo que ves es el fantasma de un mar. En 1960, el Aral era el cuarto lago del mundo, pero sus ríos se desviaron para regar algodón y se encogió. La parte sur se partió en restos: una cuenca occidental profunda y otra oriental, pálida y cambiante, que se secó casi por completo en 2014. Su antiguo fondo es hoy un desierto nuevo, el Aralkum.",
+    "w": "Una estrecha franja de agua oscura al oeste y salares pálidos al este, rodeados de antiguas orillas en el desierto.",
+    "f": [
+      "El viejo puerto pesquero de Moynaq está hoy a más de 100 km del agua, con barcos oxidados en la arena.",
+      "La antigua isla de Vozrozhdéniya está hoy unida al continente.",
+      "La sal y el polvo que el viento arranca del fondo seco pueden viajar cientos de kilómetros."
+    ],
+    "q": {
+      "q": "¿Por qué se encogió el mar de Aral?",
+      "a": "Desviaron sus ríos para regar",
+      "x": [
+        "Un terremoto lo vació",
+        "Un canal lo vació en el Caspio"
+      ]
+    }
+  },
+  "Q876280": {
+    "t": "La laguna «pequeña» de 180 km de largo",
+    "s": "Su nombre significa «pequeña» en tupí-guaraní, pero la laguna Merín se extiende unos 180 km por la llanura costera, compartida por Brasil y Uruguay. Solo una franja de dunas y marismas la separa del Atlántico. Desde el aire, busca su agua parda y cargada de limo junto al azul del océano, con arrozales verdes a lo largo de su orilla oeste.",
+    "w": "Una laguna larga paralela a la costa atlántica, cerca de la frontera entre Brasil y Uruguay, separada del mar por una franja de arena.",
+    "f": [
+      "El canal de São Gonçalo la une con la aún mayor Lagoa dos Patos, al noreste.",
+      "Los humedales del Taim, una reserva rica en aves acuáticas, están entre la laguna y el mar."
+    ],
+    "q": {
+      "q": "¿Qué significa «Mirim» en tupí-guaraní?",
+      "a": "Pequeña",
+      "x": [
+        "Profunda",
+        "Salada"
+      ]
+    }
+  },
+  "Q42191": {
+    "t": "El «lago cálido» del Tian Shan, que nunca se hiela",
+    "s": "El Issyk-Kul es un largo óvalo de zafiro entre dos cordilleras nevadas del Tian Shan, a unos 1600 m sobre el mar. Los inviernos en estas montañas son duros, pero el lago nunca se congela: su nombre significa «lago cálido» en kirguís. Es profundo, algo salado y asombrosamente transparente, y casi todo el año su azul está enmarcado por picos blancos.",
+    "w": "Un largo óvalo de azul profundo de este a oeste entre dos cordilleras nevadas paralelas, en el noreste de Kirguistán.",
+    "f": [
+      "Alcanza unos 668 m de profundidad.",
+      "Ningún río sale de él, y por eso su agua es ligeramente salada.",
+      "Es uno de los mayores lagos de montaña del mundo."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Issyk-Kul?",
+      "a": "Lago cálido",
+      "x": [
+        "Lago azul",
+        "Lago salado"
+      ]
+    }
+  },
+  "Q3358037": {
+    "t": "La parte del Aral que está volviendo",
+    "s": "A diferencia de su vecino del sur, el Aral Norte es una rara historia de recuperación. En 2005, la presa de Kokaral lo separó del sur menguante, y el agua del Sir Daria se queda ahora aquí. El nivel subió, el agua se volvió menos salada y volvieron los peces. Desde arriba es un lago azul lobulado en un desierto pálido, aún lejos de sus antiguas orillas.",
+    "w": "Un lago azul lobulado en el desierto del suroeste de Kazajistán; una presa en su extremo sur y el Sir Daria entrando por el este.",
+    "f": [
+      "La presa de Kokaral, de unos 13 km, contiene su agua.",
+      "El agua ha vuelto a acercarse a Aralsk, un puerto que había quedado muy tierra adentro.",
+      "La pesca comercial ha vuelto a sus aguas."
+    ],
+    "q": {
+      "q": "¿Qué ayudó a recuperarse al Aral Norte?",
+      "a": "Una presa",
+      "x": [
+        "Bombear agua del Caspio",
+        "Una desaladora"
+      ]
+    }
+  },
+  "Q19270": {
+    "t": "Una honda cuenca tropical en el Triángulo de Coral",
+    "s": "Rodeada por Mindanao, Sulawesi y Borneo, esta cuenca casi cerrada baja a más de 6000 m. Su agua abierta es de un azul oscuro y aterciopelado, pero los bordes brillan turquesa allí donde los arrecifes orlan las islas. El mar de Célebes forma parte del Triángulo de Coral, donde viven más especies de coral y de peces de arrecife que en ningún otro lugar de la Tierra.",
+    "w": "Un mar azul profundo entre Mindanao, el largo brazo norte de Sulawesi y el noreste de Borneo, con islas volcánicas en su borde este.",
+    "f": [
+      "«Célebes» es el antiguo nombre europeo de la isla de Sulawesi.",
+      "El archipiélago de Joló, una cadena de islas pequeñas, lo separa del mar de Joló."
+    ],
+    "q": {
+      "q": "¿De qué isla es «Célebes» el antiguo nombre?",
+      "a": "Sulawesi",
+      "x": [
+        "Borneo",
+        "Mindanao"
+      ]
+    }
+  },
+  "Q160194": {
+    "t": "Atolones de coral en el corazón de los mares filipinos",
+    "s": "El mar de Joló está rodeado de islas. Busca la isla larga y delgada de Palawan: forma su muralla noroeste, como una espina verde tendida sobre el azul. En medio del agua abierta, lejos de cualquier costa, están los arrecifes de Tubbataha: dos atolones cuyas lagunas turquesa y cayos de arena blanca destacan con nitidez sobre el azul profundo.",
+    "w": "Un mar azul profundo entre Palawan, Mindanao y las islas del centro de Filipinas, con pequeños atolones turquesa en el medio.",
+    "f": [
+      "Los arrecifes de Tubbataha son Patrimonio de la Humanidad de la UNESCO desde 1993.",
+      "Su cuenca profunda baja a más de 5000 m.",
+      "El archipiélago de Joló, que da nombre al mar, se extiende por su borde sureste."
+    ],
+    "q": {
+      "q": "¿Qué isla larga forma el borde noroeste del mar de Joló?",
+      "a": "Palawan",
+      "x": [
+        "Luzón",
+        "Sámar"
+      ]
+    }
+  },
+  "Q47545": {
+    "t": "Un mar ártico abierto gracias al agua cálida del Atlántico",
+    "s": "Aunque gran parte está al norte del círculo polar ártico, el mar de Noruega se mantiene casi libre de hielo todo el año: un ramal del agua cálida de la corriente del Golfo lo cruza camino del Ártico. En el lado noruego, busca los picos dentados de las islas Lofoten, que surgen directamente del agua como una hilera de dientes de tiburón.",
+    "w": "Mar abierto gris azulado frente a Noruega; al este, la cadena dentada de las Lofoten y una costa desgarrada en fiordos.",
+    "f": [
+      "Frente al extremo de las Lofoten gira el Moskstraumen, el remolino que inspiró a Edgar Allan Poe y a Julio Verne.",
+      "El arrecife de Røst, frente a las Lofoten, es el mayor arrecife de coral de aguas frías descubierto hasta ahora.",
+      "Sus cuencas profundas bajan a más de 3000 m."
+    ],
+    "q": {
+      "q": "¿Qué famoso remolino gira frente a las islas Lofoten?",
+      "a": "El Moskstraumen",
+      "x": [
+        "El Corryvreckan",
+        "Caribdis"
+      ]
+    }
+  },
+  "Q132868": {
+    "t": "La puerta de salida del Ártico para el hielo a la deriva",
+    "s": "Casi todo el hielo marino que sale del océano Ártico lo hace por aquí. Los témpanos se escurren por el estrecho de Fram, entre Groenlandia y Svalbard, y luego bajan al sur con la corriente de Groenlandia Oriental en una larga franja blanca junto a la costa. Al este de esa franja, el mar es oscuro y abierto. Muy al sur se alza Jan Mayen, coronada por el volcán nevado Beerenberg.",
+    "w": "Entre Groenlandia y Svalbard: una franja blanca de banquisa a la deriva junto a la costa groenlandesa, con agua oscura y abierta al este.",
+    "f": [
+      "El Beerenberg, en Jan Mayen, de 2277 m, es el volcán activo terrestre más septentrional.",
+      "El estrecho de Fram, en su extremo norte, es la principal puerta por la que sale el hielo marino del Ártico.",
+      "En invierno, su agua superficial se hunde y ayuda a mover la circulación del Atlántico."
+    ],
+    "q": {
+      "q": "¿Por qué estrecho sale del océano Ártico la mayor parte del hielo?",
+      "a": "El estrecho de Fram",
+      "x": [
+        "El estrecho de Bering",
+        "El estrecho de Davis"
+      ]
+    }
+  },
+  "Q171510": {
+    "t": "El mar azul profundo de las auténticas islas de las Especias",
+    "s": "El mar de Banda está rodeado por un gran arco curvo de islas volcánicas, y en algunos puntos su fondo baja a más de 7000 m. En él se esparcen las diminutas islas Banda: durante siglos, el único lugar de la Tierra donde crecía la nuez moscada, una especia tan valiosa que las potencias europeas lucharon por estas motas de tierra.",
+    "w": "Mar añil profundo en el este de Indonesia, bordeado de islas volcánicas; busca diminutas motas verdes y conos en el agua abierta.",
+    "f": [
+      "Por un tratado de 1667, Inglaterra renunció a Run, una diminuta isla de nuez moscada de Banda, y se quedó con Manhattan.",
+      "La fosa de Weber, en el este del mar, tiene más de 7 km de profundidad."
+    ],
+    "q": {
+      "q": "¿Qué especia crecía antaño solo en las islas Banda?",
+      "a": "La nuez moscada",
+      "x": [
+        "La canela",
+        "La pimienta negra"
+      ]
+    }
+  },
+  "Q41573": {
+    "t": "Un golfo tormentoso entre la recta costa francesa y España",
+    "s": "Mira al este sobre el golfo de Vizcaya y quizá veas una de las costas más rectas de Europa: más de 200 km de arena casi ininterrumpida en las Landas francesas, con la duna de Pilat amontonada cerca de su extremo norte. La orilla sur es lo contrario: la costa norte de España, verde y montañosa. El golfo es famoso por sus tormentas repentinas y su gran mar de fondo atlántico.",
+    "w": "Un golfo ancho enmarcado por la costa arenosa, larga y recta de Francia al este y la orilla montañosa de España al sur.",
+    "f": [
+      "La duna de Pilat, de unos 100 m, es la duna de arena más alta de Europa.",
+      "Más allá de la plataforma continental, su fondo baja a más de 4000 m.",
+      "Delfines y ballenas se alimentan aquí y se ven a menudo desde los ferris que lo cruzan."
+    ],
+    "q": {
+      "q": "¿Cuál es la duna de arena más alta de Europa, en el golfo de Vizcaya?",
+      "a": "La duna de Pilat",
+      "x": [
+        "La Råbjerg Mile",
+        "Las dunas de Łeba"
+      ]
+    }
+  },
+  "Q165100": {
+    "t": "El estrecho entre África y Madagascar",
+    "s": "Este ancho canal separa Madagascar del continente africano por al menos 400 km de agua azul profunda. Se abrió hace más de 100 millones de años, cuando Madagascar se alejó de África a la deriva. Desde arriba, busca el penacho pardo del Zambeze en el lado africano y, en el extremo norte, las volcánicas Comoras.",
+    "w": "Agua azul y ancha entre la costa baja de Mozambique y la orilla oeste de Madagascar; las Comoras marcan su extremo norte.",
+    "f": [
+      "Frente a las Comoras viven en aguas profundas celacantos, peces que se creían extinguidos desde hacía 66 millones de años.",
+      "El canal mide unos 1600 km de largo.",
+      "Las ballenas jorobadas vienen aquí a reproducirse durante el invierno austral."
+    ],
+    "q": {
+      "q": "¿Qué pez «fósil viviente» vive frente a las Comoras?",
+      "a": "El celacanto",
+      "x": [
+        "El pez pulmonado",
+        "El esturión"
+      ]
+    }
+  },
+  "Q41430": {
+    "t": "Donde el ecuador se cruza con el meridiano cero",
+    "s": "En algún lugar de este golfo cálido y brumoso está el punto 0° de latitud y 0° de longitud, donde el ecuador cruza el meridiano de Greenwich, señalado solo por una boya meteorológica. Al norte, el Níger se abre en un enorme delta de manglares y esteros, y de noche sus antorchas de petróleo y gas brillan como brasas. Mar adentro, islas volcánicas surgen del agua.",
+    "w": "Un golfo ancho y cálido frente a África occidental; al norte, el laberinto verde del delta del Níger y, mar adentro, islas volcánicas como Bioko.",
+    "f": [
+      "Bioko, Santo Tomé y Príncipe son volcanes de la línea de Camerún, que va del continente al mar.",
+      "El delta del Níger es el mayor delta fluvial de África.",
+      "Los marinos europeos llamaron a tramos de su costa Costa de Oro y Costa de Marfil."
+    ],
+    "q": {
+      "q": "¿Qué dos líneas se cruzan en el golfo de Guinea?",
+      "a": "Ecuador y meridiano cero",
+      "x": [
+        "Trópico de Cáncer y meridiano cero",
+        "Ecuador y meridiano 180"
+      ]
+    }
+  },
+  "Q545": {
+    "t": "Un mar joven y medio dulce, nacido tras la era glacial",
+    "s": "El Báltico apenas es un mar: lo alimentan más de 200 ríos y solo se comunica con el océano por los angostos estrechos daneses, así que su agua es salobre y, en el extremo norte, casi dulce. Se formó tras la última glaciación, y durante un tiempo fue un lago. Busca Gotland y Öland, largas islas de caliza frente a Suecia.",
+    "w": "Un gran mar interior gris azulado en el norte de Europa; las largas islas de Gotland y Öland frente a la costa sureste de Suecia.",
+    "f": [
+      "La mayor parte del ámbar del mundo aparece en sus costas del sureste.",
+      "En los inviernos fríos, sus golfos del norte se congelan por completo.",
+      "Su profundidad media es de solo unos 55 m."
+    ],
+    "q": {
+      "q": "¿Qué arrojan las olas a las costas del sureste del Báltico?",
+      "a": "Ámbar",
+      "x": [
+        "Jade",
+        "Coral"
+      ]
+    }
+  },
+  "Q45823": {
+    "t": "Un mar ártico medio abierto gracias al Atlántico",
+    "s": "El mar de Barents tiene dos mitades. El agua cálida del Atlántico mantiene abierta todo el invierno su parte suroeste —el puerto de Múrmansk nunca se hiela—, mientras el norte queda atrapado en el hielo gran parte del año. En agosto, las floraciones de plancton pueden jaspear el agua de turquesa lechoso, una imagen que los satélites captan a menudo.",
+    "w": "Agua abierta y oscura al suroeste, banquisa al norte; la larga isla curva de Nueva Zembla lo cierra por el este.",
+    "f": [
+      "Debe su nombre a Willem Barentsz, que pasó el invierno de 1596–1597 en Nueva Zembla.",
+      "Sus aguas guardan una de las mayores poblaciones de bacalao del mundo.",
+      "Svalbard, la Tierra de Francisco José y Nueva Zembla lo enmarcan al oeste, al norte y al este."
+    ],
+    "q": {
+      "q": "¿Por qué el puerto de Múrmansk no se hiela en invierno?",
+      "a": "Por el agua cálida del Atlántico",
+      "x": [
+        "Por fuentes termales bajo la bahía",
+        "Por la sal de minas cercanas"
+      ]
+    }
+  },
+  "Q1693": {
+    "t": "Un mar poco profundo que antes fue tierra firme",
+    "s": "Gran parte del sur del mar del Norte fue tierra firme hasta hace unos 8000 años: los cazadores recorrían una llanura hoy llamada Doggerland, que unía Gran Bretaña con el continente. Hoy el mar es somero y ajetreado. En días claros quizá distingas las cuadrículas regulares de los parques eólicos marinos y, en las costas neerlandesa, alemana y danesa, las marismas gris pardo del mar de Frisia.",
+    "w": "Mar somero gris verdoso entre Gran Bretaña, Noruega y el continente; marismas e islas barrera a lo largo de la costa sur.",
+    "f": [
+      "El mar de Frisia es el mayor sistema continuo de llanuras de marea del mundo.",
+      "Su profundidad media es de solo unos 95 m.",
+      "Los arrastreros todavía sacan a veces huesos de mamut del banco Dogger."
+    ],
+    "q": {
+      "q": "¿Cómo se llama la tierra sumergida bajo el sur del mar del Norte?",
+      "a": "Doggerland",
+      "x": [
+        "Atlántida",
+        "Lyonesse"
+      ]
+    }
+  },
+  "Q41735": {
+    "t": "Entre Gran Bretaña e Irlanda, con Man en el centro",
+    "s": "Justo en el centro del mar de Irlanda está la isla de Man, verde y montuosa, con su propio parlamento antiquísimo. En días claros puedes distinguir Anglesey y las montañas de Snowdonia al este, la bahía de Dublín al oeste, y amplias bahías donde la marea baja deja al descubierto kilómetros de arena.",
+    "w": "Un mar gris verdoso entre Irlanda y Gran Bretaña; la isla de Man cerca del centro y Anglesey frente a la costa galesa.",
+    "f": [
+      "El parlamento de la isla de Man, el Tynwald, remonta sus orígenes a hace más de mil años.",
+      "La bahía de Morecambe, en su lado inglés, tiene una de las mayores extensiones de arena y fango de marea de Gran Bretaña.",
+      "Un viejo dicho asegura que desde el Snaefell, la cima de 621 m de la isla de Man, se ven seis reinos."
+    ],
+    "q": {
+      "q": "¿Qué isla está cerca del centro del mar de Irlanda?",
+      "a": "La isla de Man",
+      "x": [
+        "La isla de Wight",
+        "Arran"
+      ]
+    }
+  },
+  "Q49364": {
+    "t": "Un mar tropical somero sobre una llanura sumergida",
+    "s": "El mar de Java es asombrosamente somero —de media, menos de 50 m— porque inunda una antigua llanura. En las glaciaciones, con el mar más bajo, se podía ir a pie de Java a Borneo. Busca la mancha urbana de Yakarta en la orilla sur y, justo frente a ella, el reguero de islotes de coral llamado las Mil Islas.",
+    "w": "Un mar cálido, somero y a menudo verdoso entre Java y Borneo, lleno de barcos; Yakarta se extiende por su orilla sur.",
+    "f": [
+      "Las Mil Islas, frente a Yakarta, son en realidad poco más de un centenar.",
+      "Su fondo forma parte de la plataforma de la Sonda, una de las mayores plataformas continentales de la Tierra.",
+      "Karimunjawa, un grupo de islas de coral en su centro, es parque nacional."
+    ],
+    "q": {
+      "q": "En las glaciaciones, ¿hasta qué isla se podía ir a pie desde Java?",
+      "a": "Borneo",
+      "x": [
+        "Sulawesi",
+        "Nueva Guinea"
+      ]
+    }
+  },
+  "Q47632": {
+    "t": "Torres de caliza, cadenas de islas y un volcán solitario",
+    "s": "El mar de Andamán está enmarcado por islas: la larga cadena de las Andamán y Nicobar al oeste y, frente a Myanmar, los cientos de islotes boscosos del archipiélago de Mergui. Cerca de Phuket, en la bahía de Phang Nga, torres verticales de caliza surgen directamente del agua verde. El delta fangoso del Irawadi se extiende por el norte y tiñe el mar de pardo.",
+    "w": "Mar azul y cálido al oeste de Tailandia y Myanmar, con cadenas de islas a ambos lados y agua fluvial parda al norte.",
+    "f": [
+      "La isla Barren, en su parte occidental, es el único volcán activo confirmado del sur de Asia.",
+      "El archipiélago de Mergui, frente a Myanmar, cuenta unas 800 islas."
+    ],
+    "q": {
+      "q": "¿El delta de qué río se extiende por el norte del mar de Andamán?",
+      "a": "El Irawadi",
+      "x": [
+        "El Mekong",
+        "El Chao Phraya"
+      ]
+    }
+  },
+  "Q37960": {
+    "t": "Un mar teñido por el limo de los ríos de China",
+    "s": "El nombre no exagera: cerca de la costa china, el limo de grandes ríos tiñe el agua de un amarillo pardo turbio que se vuelve verde mar adentro. El mar Amarillo es somero —unos 44 m de media— y en el lado coreano las mareas son enormes: se retiran dos veces al día y dejan al descubierto kilómetros de marismas relucientes.",
+    "w": "Un mar somero entre China y Corea: agua amarillo parda junto a la costa china y amplias marismas grises en el oeste de Corea.",
+    "f": [
+      "En Incheon, la marea puede subir y bajar más de 8 m.",
+      "Sus llanuras de marea son una escala vital para millones de aves limícolas migratorias.",
+      "Cerca de la isla de Jindo, las mareas muy bajas dejan al descubierto un camino de fondo marino de casi 3 km."
+    ],
+    "q": {
+      "q": "¿Qué le da su color al mar Amarillo?",
+      "a": "El limo de los ríos",
+      "x": [
+        "Floraciones de algas",
+        "Manantiales de azufre"
+      ]
+    }
+  },
+  "Q45341": {
+    "t": "Donde el Yangtsé desemboca en el Pacífico",
+    "s": "En la desembocadura del Yangtsé, junto a Shanghái, el mar de la China Oriental toma el color del té con leche: el río más largo de Asia vierte un enorme penacho de limo. Al sur de la ciudad, busca la fina línea del puente de la bahía de Hangzhou, que cruza unos 36 km sobre el agua. Más al este, el mar se hace más hondo y claro hacia las islas Ryukyu.",
+    "w": "Agua parda que se abre en abanico desde la desembocadura del Yangtsé, junto a Shanghái, y se vuelve verde azulada hacia las Ryukyu.",
+    "f": [
+      "La cálida corriente de Kuroshio corre hacia el noreste por su borde oriental.",
+      "Su ancha plataforma continental tiene casi siempre menos de 200 m de profundidad.",
+      "Las islas Ryukyu, tendidas entre Kyushu y Taiwán, forman su límite oriental."
+    ],
+    "q": {
+      "q": "¿Qué gran río desemboca en el mar de la China Oriental?",
+      "a": "El Yangtsé",
+      "x": [
+        "El río Amarillo",
+        "El río de las Perlas"
+      ]
+    }
+  },
+  "Q159252": {
+    "t": "El mar ártico donde vivieron los últimos mamuts",
+    "s": "Al norte del estrecho de Bering, el mar de Chukotka se extiende entre Chukotka y Alaska, y la línea internacional de cambio de fecha lo atraviesa de lleno: crúzala y el calendario salta un día. El mar pasa helado casi todo el año. En su borde oeste está la isla de Wrangel, donde los mamuts lanudos sobrevivieron hasta hace unos 4000 años, mucho después de desaparecer en el resto del mundo.",
+    "w": "Hielo o agua abierta oscura al norte del estrecho de Bering, entre las colinas de Chukotka y la llana costa noroeste de Alaska.",
+    "f": [
+      "La isla de Wrangel es sitio de la UNESCO y una gran zona de oseras de osos polares.",
+      "En otoño, miles de morsas del Pacífico salen a descansar a sus playas."
+    ],
+    "q": {
+      "q": "¿Hasta cuándo sobrevivieron los mamuts en la isla de Wrangel, más o menos?",
+      "a": "Hasta hace unos 4000 años",
+      "x": [
+        "Hasta hace unos 40 000 años",
+        "Hasta hace unos 400 años"
+      ]
+    }
+  },
+  "Q61304": {
+    "t": "El bolsillo sur del golfo de México, rico en petróleo",
+    "s": "Curvándose desde Veracruz hasta la península de Yucatán, la bahía de Campeche es el bolsillo sur del golfo de México. Bajo sus aguas está Cantarell, que llegó a ser uno de los mayores yacimientos de petróleo de la Tierra, y de noche las luces de las plataformas salpican el mar. En la orilla sur, los ríos se abren en lagunas y humedales bordeados de manglares.",
+    "w": "La ensenada sur del golfo de México, de Veracruz al Yucatán; de noche, luces de plataformas mar adentro.",
+    "f": [
+      "La laguna de Términos, en su orilla sur, es una de las mayores lagunas costeras de México.",
+      "Veracruz, en su orilla oeste, la fundó Hernán Cortés en 1519.",
+      "Los ríos Grijalva y Usumacinta llegan a ella por un delta compartido de pantanos y canales."
+    ],
+    "q": {
+      "q": "¿Quién fundó Veracruz, en la bahía de Campeche?",
+      "a": "Hernán Cortés",
+      "x": [
+        "Francisco Pizarro",
+        "Cristóbal Colón"
+      ]
+    }
+  },
+  "Q128880": {
+    "t": "Un mar somero sobre el puente de tierra hacia Nueva Guinea",
+    "s": "Entre el norte de Australia y Nueva Guinea se extiende el mar de Arafura: ancho, cálido y sorprendentemente somero, casi siempre de menos de 80 m. En las glaciaciones fue tierra firme, y personas y animales podían pasar a pie de una a otra. Desde el aire, busca agua verde parda junto a las costas fangosas y, al norte, las islas Aru, bajas y boscosas.",
+    "w": "Un mar ancho, somero y a menudo verdoso entre el Top End australiano y Nueva Guinea, con las bajas islas Aru al norte.",
+    "f": [
+      "El golfo de Carpentaria se abre en su lado sur.",
+      "El estrecho de Torres, un laberinto de islas y arrecifes, lo une con el mar del Coral."
+    ],
+    "q": {
+      "q": "¿Qué unía el fondo del mar de Arafura en las glaciaciones?",
+      "a": "Australia y Nueva Guinea",
+      "x": [
+        "Australia y Timor",
+        "Nueva Guinea y Borneo"
+      ]
+    }
+  },
+  "Q131418": {
+    "t": "Un mar con el nombre de la isla «del este»",
+    "s": "El mar de Timor toma su nombre de Timor, y el nombre de Timor viene de la palabra malaya para «este». Casi todo es una ancha plataforma somera frente al norte de Australia, pero cerca de Timor el fondo se hunde en una fosa de más de 3000 m. En el lado australiano, grandes mareas entran y salen entre acantilados rojo óxido y esteros de manglar.",
+    "w": "Mar abierto verde azulado entre la montañosa isla de Timor y las costas rojas del Kimberley y el Top End australianos.",
+    "f": [
+      "La ciudad de Darwin está en su borde oriental.",
+      "El golfo de Joseph Bonaparte, en su lado australiano, lleva el nombre del hermano mayor de Napoleón."
+    ],
+    "q": {
+      "q": "¿Qué significa la palabra malaya de la que viene «Timor»?",
+      "a": "Este",
+      "x": [
+        "Isla",
+        "Montaña"
+      ]
+    }
+  },
+  "Q131217": {
+    "t": "Un golfo cálido y somero rodeado de islas tropicales",
+    "s": "Cálido y somero —unos 45 m de media—, el golfo de Tailandia suele verse verde jade más que azul. Busca las islas de Ko Samui y Ko Pha Ngan frente a la orilla oeste, y la gran isla de Phu Quoc cerca de la oriental. De noche, las lámparas de los barcos pesqueros pueden salpicar de luz el agua oscura.",
+    "w": "Un golfo ancho y a menudo verdoso al sur de Bangkok, con la península malaya al oeste e islas dispersas frente a ambas orillas.",
+    "f": [
+      "El Chao Phraya, el río de Bangkok, desemboca en su extremo norte.",
+      "Su antiguo nombre, golfo de Siam, aún se usa en algunas lenguas, entre ellas el ruso.",
+      "Su fondo fue tierra firme durante la última glaciación."
+    ],
+    "q": {
+      "q": "¿Qué río de Bangkok desemboca en el golfo de Tailandia?",
+      "a": "El Chao Phraya",
+      "x": [
+        "El Mekong",
+        "El Irawadi"
+      ]
+    }
+  },
+  "Q544914": {
+    "t": "Mar cálido entre la punta de la India y los atolones",
+    "s": "Al suroeste de la India hay un mar cálido de un azul brillante, salpicado de atolones de coral. Las islas Lakshadweep —el nombre significa «cien mil islas», aunque solo hay unas tres docenas— se alzan en su oeste, con las Maldivas al sur. En el lado indio, busca la costa verde de Kerala, bordeada de palmeras, con su laberinto de lagunas interiores.",
+    "w": "Agua azul brillante al suroeste de la India, entre la costa de Kerala, Sri Lanka y los pequeños atolones en anillo de Lakshadweep.",
+    "f": [
+      "Kanyakumari, el extremo sur de la India continental, se asoma a él.",
+      "El golfo de Mannar, entre la India y Sri Lanka, se abre en su lado este.",
+      "También se le llama mar de Lakshadweep."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Lakshadweep?",
+      "a": "Cien mil islas",
+      "x": [
+        "Islas de cocos",
+        "Islas de la luna"
+      ]
+    }
+  },
+  "Q183455": {
+    "t": "Un mar remoto y helado frente a la península Antártica",
+    "s": "Pocos llegan a ver el mar de Bellingshausen: está frente al lado oeste de la península Antártica, lejos de las rutas marítimas habituales. En invierno es una llanura de banquisa; en verano, agua abierta salpicada de icebergs que lame plataformas de hielo y las montañas nevadas de la isla Alejandro I, la mayor de la Antártida.",
+    "w": "Banquisa o agua salpicada de icebergs al oeste de la península Antártica, con la mole blanca de la isla Alejandro I al este.",
+    "f": [
+      "Debe su nombre a Fabian Gottlieb von Bellingshausen, cuya expedición rusa avistó la Antártida en 1820.",
+      "Las aguas al oeste de la península Antártica están entre los lugares que más rápido se calientan de la Tierra."
+    ],
+    "q": {
+      "q": "¿Para qué país navegaba la expedición de Bellingshausen de 1820?",
+      "a": "Rusia",
+      "x": [
+        "Gran Bretaña",
+        "Noruega"
+      ]
+    }
+  },
+  "Q72154": {
+    "t": "Donde los glaciares de la Antártida Occidental tocan el mar",
+    "s": "El mar de Amundsen es remoto incluso para la Antártida y suele estar atascado de banquisa gruesa. Aun así, los científicos lo vigilan de cerca: dos de los glaciares más grandes y cambiantes del continente, el Thwaites y el de la isla Pine, desembocan en él, y el agua cálida profunda los funde desde abajo. Lo que pase aquí podría subir el nivel del mar en todo el mundo.",
+    "w": "Banquisa espesa y lenguas glaciares flotantes a lo largo de la costa de la Antártida Occidental, y detrás solo la capa de hielo.",
+    "f": [
+      "El glaciar Thwaites es más o menos tan grande como Gran Bretaña.",
+      "El mar debe su nombre a Roald Amundsen, la primera persona que llegó al Polo Sur, en 1911."
+    ],
+    "q": {
+      "q": "¿Qué gran glaciar desemboca en el mar de Amundsen?",
+      "a": "El glaciar Thwaites",
+      "x": [
+        "El glaciar Lambert",
+        "El glaciar Beardmore"
+      ]
+    }
+  },
+  "Q189262": {
+    "t": "La ancha puerta entre Groenlandia y la isla de Baffin",
+    "s": "Muchos vuelos transatlánticos cruzan el estrecho de Davis, el ancho canal entre Groenlandia y la isla de Baffin. Incluso en su punto más estrecho mide más de 300 km. En el lado groenlandés, glaciares y roca desnuda bordean una costa cortada por fiordos; en primavera y verano, los icebergs bajan a la deriva por el estrecho.",
+    "w": "Agua oscura y ancha entre la costa oeste de Groenlandia, cortada por glaciares, y las montañas de Baffin, a menudo salpicada de hielo.",
+    "f": [
+      "Debe su nombre a John Davis, un navegante inglés que lo recorrió en la década de 1580.",
+      "Nuuk, la capital de Groenlandia, está en su orilla este.",
+      "Une la bahía de Baffin, al norte, con el mar del Labrador, al sur."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está en la orilla groenlandesa del estrecho de Davis?",
+      "a": "Nuuk",
+      "x": [
+        "Reikiavik",
+        "Iqaluit"
+      ]
+    }
+  },
+  "Q33629": {
+    "t": "Un mar helado que alimentan dos grandes ríos siberianos",
+    "s": "El mar de Kara es uno de los mares más fríos de la Tierra, helado casi todo el año. Dos ríos siberianos gigantes, el Obi y el Yeniséi, desembocan en él por estuarios de cientos de kilómetros y endulzan su superficie. Al oeste, la larga espina montañosa de Nueva Zembla lo separa del mar de Barents.",
+    "w": "Mar cubierto de hielo al norte de Siberia occidental, entre Nueva Zembla y la península de Taimyr; al sur, largos estuarios.",
+    "f": [
+      "El golfo del Obi, estuario del Obi, se adentra unos 800 km tierra adentro.",
+      "Toma su nombre del pequeño río Kara, que desemboca en su esquina suroeste.",
+      "Severnaya Zemlia, en su borde este, fue uno de los últimos archipiélagos en cartografiarse, en 1930–1932."
+    ],
+    "q": {
+      "q": "¿Qué dos grandes ríos desembocan en el mar de Kara?",
+      "a": "El Obi y el Yeniséi",
+      "x": [
+        "El Lena y el Kolimá",
+        "El Volga y el Pechora"
+      ]
+    }
+  },
+  "Q7988": {
+    "t": "La fábrica de hielo del Ártico, frente al delta del Lena",
+    "s": "El mar de Láptev es una de las grandes fábricas de hielo del Ártico: los vientos de tierra empujan el hielo lejos de la costa, el agua abierta vuelve a congelarse y el hielo nuevo deriva hacia el polo. En su orilla sur se extiende el delta del Lena, el mayor del Ártico: en verano, un abanico verde entrelazado de miles de lagos y canales.",
+    "w": "Banquisa o agua gris frente al norte de Siberia; al sur, el enorme abanico del delta del Lena, moteado de lagos.",
+    "f": [
+      "Debe su nombre a los primos Jaritón y Dmitri Láptev, que cartografiaron esta costa en las décadas de 1730 y 1740.",
+      "Las islas de Nueva Siberia marcan su borde este."
+    ],
+    "q": {
+      "q": "¿El delta de qué río está en el mar de Láptev?",
+      "a": "El Lena",
+      "x": [
+        "El Obi",
+        "El Yeniséi"
+      ]
+    }
+  },
+  "Q186733": {
+    "t": "Un enorme mordisco en Australia, bordeado de acantilados",
+    "s": "Desde el aire, la costa sur de Australia parece haber recibido un mordisco gigante: es la Gran Bahía Australiana. En su fondo, la llana y desarbolada llanura de Nullarbor termina de golpe en los acantilados de Bunda, pálidas paredes de caliza que corren sin interrupción unos 100 km sobre el oscuro mar de fondo.",
+    "w": "Una enorme curva en la costa sur de Australia; busca una línea larga y recta de acantilados pálidos al borde de una llanura desértica.",
+    "f": [
+      "Los acantilados de Bunda se alzan hasta unos 120 m directamente desde el mar.",
+      "Las ballenas francas australes se reúnen cada invierno en el fondo de la bahía para parir.",
+      "Nullarbor viene del latín y significa «ningún árbol»."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre de la llanura de Nullarbor?",
+      "a": "Ningún árbol",
+      "x": [
+        "Tierra roja",
+        "Gran llanura"
+      ]
+    }
+  },
+  "Q44725": {
+    "t": "Un mar frío y rico, cercado por una cadena de volcanes",
+    "s": "Por su borde sur corre el arco de las Aleutianas: una cadena de islas volcánicas, muchas coronadas de conos nevados, que se curva casi 2000 km hacia Kamchatka y cierra el mar de Bering. Al norte hay uno de los caladeros más ricos de la Tierra. En las glaciaciones, su parte norte, poco profunda, fue tierra firme: el puente por el que las personas llegaron por primera vez a América.",
+    "w": "Un mar ancho gris azulado entre Alaska y el Extremo Oriente ruso, cerrado al sur por la larga cadena de volcanes de las Aleutianas.",
+    "f": [
+      "Debe su nombre a Vitus Bering, un navegante danés al servicio de Rusia que lo exploró en 1728.",
+      "Las islas Pribilof albergan la mayor colonia de cría del oso marino ártico.",
+      "En invierno, su hielo marino puede extenderse cientos de kilómetros al sur."
+    ],
+    "q": {
+      "q": "¿Qué fue el fondo norte del mar de Bering en las glaciaciones?",
+      "a": "Un puente de tierra",
+      "x": [
+        "Un glaciar",
+        "Un lago de agua dulce"
+      ]
+    }
+  },
+  "Q169274": {
+    "t": "El único mar sin una sola costa",
+    "s": "Ninguna costa limita el mar de los Sargazos: sus bordes son corrientes oceánicas, entre ellas la del Golfo, que giran despacio a su alrededor. Dentro de ese anillo, el agua es cálida, tranquila y de un azul asombrosamente claro. Esteras de sargazo pardo dorado flotan en la superficie, y anguilas de ríos de Europa y Norteamérica nadan miles de kilómetros hasta aquí para desovar.",
+    "w": "Océano abierto azul profundo y claro al este de las Bermudas; en un día en calma, franjas de alga pardo dorada en la superficie.",
+    "f": [
+      "Las Bermudas están en su borde oeste.",
+      "Su nombre viene de la palabra portuguesa para esa alga flotante.",
+      "Las tripulaciones de Colón lo cruzaron entre las algas en 1492 y temieron encallar."
+    ],
+    "q": {
+      "q": "¿Qué forma los límites del mar de los Sargazos?",
+      "a": "Corrientes oceánicas",
+      "x": [
+        "Arrecifes de coral",
+        "Islas volcánicas"
+      ]
+    }
+  },
+  "ne-lk-1159106739": {
+    "t": "El lejano brazo oriental del Gran Lago del Esclavo",
+    "s": "La bahía McLeod es el tramo más oriental del brazo Este del Gran Lago del Esclavo, un largo pasillo de agua oscura y fría entre las orillas rocosas y acantiladas del escudo Canadiense. Más allá de su extremo este, el bosque se aclara hacia las Barren Lands, sin árboles. El agua es clara y pasa helada gran parte del año, y muy poca gente vive en sus orillas.",
+    "w": "Un brazo de agua largo y estrecho en el extremo este del Gran Lago del Esclavo, con orillas rocosas oscuras e islas dispersas.",
+    "f": [
+      "En su extremo este, el explorador George Back construyó Fort Reliance en 1833.",
+      "El río Lockhart desemboca en su extremo oriental.",
+      "Sus orillas están dentro de Thaidene Nëné, una reserva de parque nacional creada en 2019."
+    ],
+    "q": {
+      "q": "¿De qué lago forma parte la bahía McLeod?",
+      "a": "El Gran Lago del Esclavo",
+      "x": [
+        "El Gran Lago del Oso",
+        "El lago Athabasca"
+      ]
+    }
+  },
+  "Q736707": {
+    "t": "El pequeño lago redondo entre el Hurón y el Erie",
+    "s": "Entre los enormes lagos Hurón y Erie está este lago pequeño y casi redondo, un eslabón de la cadena. Su agua llega del norte por el río St. Clair, que se abre en un delta en pata de pájaro de marismas y canales, y sale junto a Detroit por el río Detroit. Para su tamaño es asombrosamente somero: unos 3 m de media.",
+    "w": "Un lago pequeño y redondo entre Detroit y Ontario, con un abanico de canales pantanosos de delta en su orilla noreste.",
+    "f": [
+      "Los exploradores franceses lo bautizaron en 1679, el día de la festividad de santa Clara.",
+      "Se draga un canal a través de él para que puedan pasar los grandes cargueros lacustres.",
+      "Su delta, St. Clair Flats, es el mayor delta del sistema de los Grandes Lagos."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está en la orilla suroeste del lago St. Clair?",
+      "a": "Detroit",
+      "x": [
+        "Cleveland",
+        "Toronto"
+      ]
+    }
+  },
+  "Q202905": {
+    "t": "El gran «mar interior» de Florida, redondo y somero",
+    "s": "En el centro del sur de Florida hay un lago casi redondo tan grande que parece un trozo de mar: el Okeechobee, «agua grande» en lengua hitchiti. Es asombrosamente somero, de menos de 3 m de media, y lo rodea un dique cubierto de hierba. Históricamente, sus desbordes bajaban al sur como una lenta lámina de agua a través de los Everglades.",
+    "w": "Un lago grande y casi circular en el centro-sur de Florida, rodeado por un dique, con campos verdes de caña de azúcar al sur.",
+    "f": [
+      "Es el mayor lago de agua dulce de Florida, con unos 1900 km².",
+      "El dique Herbert Hoover lo rodea a lo largo de unos 230 km.",
+      "Hay canales que lo unen tanto con el Atlántico como con el golfo de México."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre «Okeechobee»?",
+      "a": "Agua grande",
+      "x": [
+        "Agua dulce",
+        "Lago soleado"
+      ]
+    }
+  },
+  "Q1640500": {
+    "t": "Un lago que desagua en dos direcciones a la vez",
+    "s": "El lago Wollaston hace algo que casi ningún lago hace: desagua en dos direcciones a la vez. Una salida, el río Fond du Lac, va hacia el lago Athabasca y el Mackenzie; la otra, el río Cochrane, se dirige al lago Reindeer y, al final, a la bahía de Hudson. Es el mayor lago de la Tierra con dos salidas naturales así.",
+    "w": "Un gran lago sembrado de islas en el noreste de Saskatchewan, entre bosque oscuro sobre el rocoso escudo Canadiense.",
+    "f": [
+      "El agua de sus dos salidas acaba a miles de kilómetros una de otra: en el mar de Beaufort y en la bahía de Hudson.",
+      "Cerca de sus orillas hay algunos de los yacimientos de uranio más ricos del mundo."
+    ],
+    "q": {
+      "q": "¿Qué tiene de insólito el lago Wollaston?",
+      "a": "Desagua en dos direcciones",
+      "x": [
+        "Nunca se hiela",
+        "Está bajo el nivel del mar"
+      ]
+    }
+  },
+  "Q965436": {
+    "t": "El mayor lago de Alaska, hogar de focas de agua dulce",
+    "s": "El Iliamna es el mayor lago de Alaska, una larga lámina de agua fría entre colinas de tundra y los volcanes de la cordillera Aleutiana. Alberga una rara población de focas comunes que viven todo el año en agua dulce. Cada verano, millones de salmones rojos suben desde la bahía de Bristol para desovar en sus orillas y arroyos, y en invierno se congela de blanco.",
+    "w": "Un lago largo cerca de la base de la península de Alaska, con volcanes nevados que se alzan al este.",
+    "f": [
+      "Su agua sale por el río Kvichak hasta la bahía de Bristol.",
+      "La migración del salmón rojo de la bahía de Bristol es la mayor del mundo.",
+      "Una leyenda local habla de «Illie», una criatura gigante que viviría en sus profundidades."
+    ],
+    "q": {
+      "q": "¿Qué animales insólitos viven todo el año en el lago Iliamna?",
+      "a": "Focas comunes",
+      "x": [
+        "Belugas",
+        "Nutrias marinas"
+      ]
+    }
+  },
+  "Q169962": {
+    "t": "Un lago alpino, hondo y claro en lo alto de Sierra Nevada",
+    "s": "El lago Tahoe está a casi 1900 m de altitud en Sierra Nevada: un óvalo azul intenso rodeado de pinares y, gran parte del año, de picos nevados. Su color se debe a su profundidad y transparencia: el lago baja a 501 m, y a menudo se ve a más de 20 m bajo el agua. La frontera entre California y Nevada lo cruza de lleno.",
+    "w": "Un lago ovalado de azul intenso en las montañas al oeste de Reno, rodeado de bosque y picos nevados.",
+    "f": [
+      "Es el segundo lago más profundo de Estados Unidos, tras el lago del Cráter.",
+      "La frontera entre California y Nevada se dobla en ángulo en medio del lago.",
+      "Emerald Bay, en su orilla suroeste, es famosa por su agua verde azulada."
+    ],
+    "q": {
+      "q": "¿Qué dos estados comparten el lago Tahoe?",
+      "a": "California y Nevada",
+      "x": [
+        "Oregón y Nevada",
+        "California y Arizona"
+      ]
+    }
+  },
+  "Q1801110": {
+    "t": "El gran lago de Wisconsin, junto a una famosa feria aérea",
+    "s": "Los pilotos conocen este lago: en su orilla oeste está Oshkosh, donde cada verano el encuentro EAA AirVenture llena el cielo de miles de aviones y convierte su aeropuerto, por unos días, en uno de los más transitados del mundo. El Winnebago es el mayor lago situado por completo en Wisconsin, y en invierno los pescadores abren agujeros en su hielo para arponear esturiones gigantes.",
+    "w": "Un lago grande y alargado en el este de Wisconsin, con Oshkosh en la orilla oeste y Fond du Lac en el extremo sur.",
+    "f": [
+      "Es somero para su tamaño: solo unos 5 m de media.",
+      "El río Fox lleva su agua al norte, hasta Green Bay y el lago Míchigan.",
+      "Una cresta caliza, parte del escarpe del Niágara, corre a lo largo de su orilla este."
+    ],
+    "q": {
+      "q": "¿Qué famoso evento aeronáutico se celebra junto al lago Winnebago?",
+      "a": "EAA AirVenture Oshkosh",
+      "x": [
+        "Farnborough Airshow",
+        "Reno Air Races"
+      ]
+    }
+  },
+  "Q1132211": {
+    "t": "El mayor lago de una isla, sobre el círculo polar",
+    "s": "El lago Nettilling está en la isla de Baffin, y ningún lago situado en una isla es más grande en todo el mundo. El círculo polar ártico lo cruza de lleno, y el hielo lo cubre casi todo el año. Su nombre viene de la palabra inuktitut para la foca anillada, y a veces las focas remontan hasta él desde el mar.",
+    "w": "Un lago enorme e irregular en la tundra llana del sur de la isla de Baffin, blanco de hielo gran parte del año.",
+    "f": [
+      "Ocupa unos 5500 km², más o menos el doble de Luxemburgo.",
+      "Desagua al oeste por el río Koukdjuak hasta la cuenca de Foxe.",
+      "Es el mayor lago de Nunavut."
+    ],
+    "q": {
+      "q": "¿Qué hace especial al lago Nettilling?",
+      "a": "Es el mayor lago en una isla",
+      "x": [
+        "Es el lago más profundo de Canadá",
+        "Nunca se hiela"
+      ]
+    }
+  },
+  "Q1262967": {
+    "t": "Un remoto lago de tundra en las Barren Lands de Canadá",
+    "s": "El lago Dubawnt está en lo más hondo de las Barren Lands, la tundra sin árboles al oeste de la bahía de Hudson, lejos de cualquier carretera o pueblo. Desde arriba, mira el terreno que lo rodea: largas crestas sinuosas de grava llamadas eskers serpentean por la tundra, dejadas por ríos que corrían bajo el manto de hielo. El hielo suele durar sobre el lago hasta julio.",
+    "w": "Un lago grande e irregular en la tundra desnuda del sur de Nunavut; busca largas crestas sinuosas de eskers cruzando el terreno.",
+    "f": [
+      "En 1893, Joseph Tyrrell cruzó las Barren Lands en canoa bajando por el río Dubawnt.",
+      "Su agua va por los ríos Dubawnt y Thelon hasta el lago Baker y, de ahí, a la bahía de Hudson."
+    ],
+    "q": {
+      "q": "¿Qué son las largas crestas sinuosas que rodean el lago Dubawnt?",
+      "a": "Eskers",
+      "x": [
+        "Coladas de lava",
+        "Dunas de arena"
+      ]
+    }
+  },
+  "Q1391737": {
+    "t": "Un lago de tundra casi en el centro de Canadá",
+    "s": "El lago Baker está casi en el centro geográfico de Canadá, en tundra abierta, donde el río Thelon termina su largo viaje desde el oeste. En su orilla está la aldea de Baker Lake, la única comunidad del interior de Nunavut y un conocido centro de arte inuit. Hacia el este, la larga ensenada Chesterfield lleva su agua a la bahía de Hudson.",
+    "w": "Un lago ancho en la tundra llana al oeste de la bahía de Hudson, unido a ella por la larga y estrecha ensenada Chesterfield.",
+    "f": [
+      "El nombre inuktitut de la aldea, Qamani'tuaq, significa más o menos «donde el río se ensancha».",
+      "Sus artistas son conocidos en todo el mundo por sus grabados y sus coloridos tapices murales.",
+      "La ensenada Chesterfield, un brazo de la bahía de Hudson con aire de fiordo, penetra más de 150 km hasta el lago."
+    ],
+    "q": {
+      "q": "¿Qué hace única a la aldea de Baker Lake en Nunavut?",
+      "a": "Es la única comunidad del interior",
+      "x": [
+        "Es la capital del territorio",
+        "Es el pueblo más septentrional"
+      ]
+    }
+  },
+  "Q68467": {
+    "t": "Un largo lago de valle entre dos cordilleras",
+    "s": "El lago Champlain se tiende en un largo valle como una cinta azul, de unos 190 km de punta a punta, con los Adirondacks al oeste y las Montañas Verdes de Vermont al este. Samuel de Champlain llegó a él en 1609 y le dio su nombre. Desagua hacia el norte: su agua sale por el río Richelieu hacia Quebec y el San Lorenzo.",
+    "w": "Un lago largo y estrecho de norte a sur entre los Adirondacks y las Montañas Verdes, con Burlington en su orilla este.",
+    "f": [
+      "En 1998, una ley de EE. UU. lo declaró brevemente Gran Lago; la etiqueta se retiró en pocas semanas.",
+      "Una leyenda local habla de «Champ», un monstruo que viviría en sus profundidades.",
+      "Su extremo norte se adentra en Quebec."
+    ],
+    "q": {
+      "q": "¿Qué lo declaró brevemente una ley de EE. UU. de 1998?",
+      "a": "Un Gran Lago",
+      "x": [
+        "Un parque nacional",
+        "Un mar interior"
+      ]
+    }
+  },
+  "Q1089891": {
+    "t": "Donde nace el río Churchill, de 1600 km",
+    "s": "Aquí, en un largo lago del noroeste de Saskatchewan, el río Churchill empieza su viaje de 1600 km hacia el este, hasta la bahía de Hudson. El lago se une a su vecino, el lago Peter Pond, por un canal estrecho en el pueblo de Buffalo Narrows. A su alrededor se extiende el bosque boreal, una alfombra oscura rota por incontables lagos más pequeños que destellan al sol.",
+    "w": "Un lago largo en los bosques del noroeste de Saskatchewan, unido por una cintura estrecha al lago Peter Pond.",
+    "f": [
+      "El río Churchill fue una gran autopista del comercio de pieles, entre la bahía de Hudson y el lejano noroeste.",
+      "El canal de Buffalo Narrows se llama canal Kisis."
+    ],
+    "q": {
+      "q": "¿Dónde termina el río que sale del lago Churchill?",
+      "a": "En la bahía de Hudson",
+      "x": [
+        "En el mar de Beaufort",
+        "En el lago Winnipeg"
+      ]
+    }
+  },
+  "Q1516443": {
+    "t": "El «lago de la marta» en el bosque del norte",
+    "s": "El Lac la Martre —«lago de la marta» en francés— se extiende por el bosque al noroeste del Gran Lago del Esclavo, con orillas desgarradas de bahías e islas. En su orilla está la comunidad tłı̨chǫ de Whatì, cuyo nombre también significa «lago de la marta». En invierno, el lago se vuelve una llanura blanca; en verano, su agua oscura refleja el cielo.",
+    "w": "Un lago extenso y de muchas bahías en el bosque al noroeste del Gran Lago del Esclavo, salpicado de islas.",
+    "f": [
+      "Whatì se llamó Lac La Martre hasta 1996, cuando recuperó su nombre tłı̨chǫ.",
+      "En 2021, una carretera utilizable todo el año llegó por primera vez a Whatì."
+    ],
+    "q": {
+      "q": "¿A qué animal debe su nombre el Lac la Martre?",
+      "a": "A la marta",
+      "x": [
+        "Al castor",
+        "A la nutria"
+      ]
+    }
+  },
+  "Q12341531": {
+    "t": "La puerta del lago Superior hacia las esclusas Soo",
+    "s": "La bahía Whitefish es el embudo del extremo este del lago Superior: todos los cargueros que entran o salen del lago pasan por ella camino del río St. Marys y de las esclusas Soo, en Sault Ste. Marie. Desde arriba, busca el gancho arenoso de Whitefish Point en su extremo noroeste, con la orilla boscosa de Ontario enfrente.",
+    "w": "Una amplia bahía en la esquina sureste del lago Superior, entre la península Superior de Míchigan y Ontario.",
+    "f": [
+      "El faro de Whitefish Point, encendido por primera vez en 1849, es la luz en activo más antigua del lago Superior.",
+      "En primavera, miles de halcones y otras aves migratorias pasan en embudo junto a Whitefish Point."
+    ],
+    "q": {
+      "q": "¿Hacia qué esclusas se dirigen los barcos tras cruzar la bahía Whitefish?",
+      "a": "Las esclusas Soo",
+      "x": [
+        "Las del canal Welland",
+        "Las del canal Erie"
+      ]
+    }
+  },
+  "Q2211837": {
+    "t": "La muesca que le da el pulgar a la manopla de Míchigan",
+    "s": "Mira Míchigan desde arriba y la península Inferior parece de verdad una manopla, y la bahía de Saginaw es el hueco entre el pulgar y los dedos. La bahía es somera y se calienta deprisa en verano, cuando su agua puede volverse verdosa. En su fondo desemboca el río Saginaw, que drena la mayor cuenca fluvial de Míchigan.",
+    "w": "Una larga bahía que entra al suroeste en Míchigan desde el lago Hurón, entre el «pulgar» y el resto de la península Inferior.",
+    "f": [
+      "Su parte interior tiene solo unos pocos metros de profundidad.",
+      "Sus orillas guardan algunos de los mayores humedales costeros de los Grandes Lagos."
+    ],
+    "q": {
+      "q": "¿Qué separa la bahía de Saginaw del resto de Míchigan?",
+      "a": "El «pulgar»",
+      "x": [
+        "La península Superior",
+        "La península de Keweenaw"
+      ]
+    }
+  },
+  "Q2000567": {
+    "t": "El canal resguardado del Hurón, tras Manitoulin",
+    "s": "El canal Norte es la trastienda tranquila del lago Hurón: un tramo largo y resguardado de agua entre la isla de Manitoulin y la orilla rocosa de Ontario. Su costa es un laberinto de islas pedregosas y calas que adoran los navegantes. Cerca de su extremo este, busca las colinas de La Cloche, cuyas crestas de cuarcita blanca pueden parecer nieve incluso en verano.",
+    "w": "Un largo canal del lago Hurón entre la gran isla de Manitoulin y el continente, con colinas de crestas blancas cerca de su extremo este.",
+    "f": [
+      "La isla de Manitoulin, en su lado sur, es la mayor isla de cualquier lago de agua dulce.",
+      "El Parque Provincial Killarney protege las crestas de cuarcita blanca de los montes La Cloche."
+    ],
+    "q": {
+      "q": "¿Qué isla separa el canal Norte del resto del lago Hurón?",
+      "a": "La isla de Manitoulin",
+      "x": [
+        "La isla Royale",
+        "La isla Wolfe"
+      ]
+    }
+  },
+  "Q125309": {
+    "t": "Un lago somero del Sahel que respira con las lluvias",
+    "s": "El lago Chad, más que un lago, es una enorme marisma cambiante al borde del Sahara. Es tan somero que su tamaño oscila con cada estación de lluvias, y desde la década de 1960 ha menguado hasta una fracción de lo que fue. Desde arriba, busca un mosaico de agua abierta, carrizales verdes e islas, alimentado desde el sur por el río Chari.",
+    "w": "Un mosaico de agua abierta, marisma verde e islas arenosas en el borde sur del Sahara, donde se juntan cuatro países.",
+    "f": [
+      "El río Chari aporta cerca del 90 % de su agua.",
+      "Chad, Camerún, Níger y Nigeria lo rodean.",
+      "Hace varios miles de años, un enorme mar interior, el Megachad, se extendía por esta cuenca."
+    ],
+    "q": {
+      "q": "¿Qué río aporta la mayor parte del agua del lago Chad?",
+      "a": "El Chari",
+      "x": [
+        "El Níger",
+        "El Nilo"
+      ]
+    }
+  },
+  "Q503842": {
+    "t": "Un lago turquesa con dos nombres y cuevas de mármol",
+    "s": "Este largo lago se extiende desde los Andes hasta la seca estepa patagónica, con un agua de un turquesa glaciar vivísimo, y responde a dos nombres: General Carrera en Chile, Buenos Aires en Argentina. En su orilla chilena, las olas han tallado las Capillas de Mármol, cuya piedra veteada refleja el agua azul. Desagua al oeste por el río Baker, el más caudaloso de Chile, hasta el Pacífico.",
+    "w": "Un lago largo de un turquesa vivo que se extiende al este desde los Andes nevados hasta la seca estepa patagónica.",
+    "f": [
+      "Es el lago más grande de Chile.",
+      "A las Capillas de Mármol solo se llega en barca."
+    ],
+    "q": {
+      "q": "¿Cómo se llama el lago General Carrera en Argentina?",
+      "a": "Lago Buenos Aires",
+      "x": [
+        "Lago Argentino",
+        "Lago Nahuel Huapi"
+      ]
+    }
+  },
+  "Q826464": {
+    "t": "Un gran lago azul bajo un cono volcánico perfecto",
+    "s": "Busca el Osorno: un volcán nevado tan simétrico que a menudo se le compara con el Fuji, alzándose hasta 2652 m sobre la orilla este del lago Llanquihue. Su vecino, el Calbuco, más áspero y ancho, está al sureste. El lago es una ancha lámina azul rodeada de campos, adonde llegaron colonos alemanes en la década de 1850 que fundaron pueblos como Frutillar y Puerto Varas.",
+    "w": "Un lago grande, azul y casi redondo en el sur de Chile, con el cono blanco del volcán Osorno en su orilla este.",
+    "f": [
+      "Es el segundo lago más grande de Chile.",
+      "Los glaciares cubren la cima del Osorno todo el año."
+    ],
+    "q": {
+      "q": "¿Qué volcán se alza en la orilla este del lago Llanquihue?",
+      "a": "Osorno",
+      "x": [
+        "Villarrica",
+        "Lanín"
+      ]
+    }
+  },
+  "Q31845950": {
+    "t": "Un lago «colgado», sostenido sobre los campos por un dique",
+    "s": "El lago Hongze está más alto que los pueblos y campos que lo rodean: su agua la contiene el viejo dique de Gaojia, en su orilla este. Hace unos novecientos años aquí no había ningún gran lago. Creció después de que el río Amarillo se desviara al sur y atascara de limo la salida al mar del río Huai; luego los ingenieros elevaron el dique para almacenar el agua del Huai.",
+    "w": "Un lago ancho, somero y más o menos redondo en la llanura del norte de Jiangsu, con un largo dique en su lado este.",
+    "f": [
+      "Es uno de los cinco mayores lagos de agua dulce de China.",
+      "El río Huai entra por el oeste y sale hacia el Yangtsé y el mar."
+    ],
+    "q": {
+      "q": "¿Por qué se dice que el Hongze es un lago «colgado»?",
+      "a": "Su agua está por encima del terreno",
+      "x": [
+        "Está en un cráter de montaña",
+        "Flota sobre agua salada"
+      ]
+    }
+  },
+  "Q192215": {
+    "t": "La «perla azul» de Mongolia, hermano pequeño del Baikal",
+    "s": "El Jövsgöl es un lago largo de azul intenso en las montañas del norte de Mongolia, a unos 200 km al oeste del extremo sur del Baikal, y en cierto modo su hermano pequeño, porque su agua sale por los ríos Egiin Gol y Selengá hasta el Baikal. Está a unos 1645 m, orlado de bosque de alerces, y en invierno su hielo suele superar un metro de espesor.",
+    "w": "Un lago largo de azul intenso de norte a sur entre montañas boscosas cerca de la frontera norte de Mongolia, blanco de hielo en invierno.",
+    "f": [
+      "Guarda cerca del 70 % del agua dulce de Mongolia.",
+      "Su punto más hondo está a 262 m."
+    ],
+    "q": {
+      "q": "¿A qué famoso lago acaba llegando el agua del Jövsgöl?",
+      "a": "Al lago Baikal",
+      "x": [
+        "Al lago Baljash",
+        "Al Issyk-Kul"
+      ]
+    }
+  },
+  "Q213769": {
+    "t": "El lago más hondo de Finlandia, y el grifo de Helsinki",
+    "s": "El Päijänne es un lago largo y estrecho que se extiende unos 120 km de norte a sur por los bosques del centro de Finlandia. Es el más profundo del país, y su agua limpia abastece a Helsinki por un túnel de 120 km abierto a barrenos en la roca madre. En su parte sur, busca Pulkkilanharju, una esbelta cresta de grava de la era glacial que lleva una carretera sobre el agua.",
+    "w": "Un lago largo y esbelto, salpicado de islas, que corre de norte a sur por el centro de Finlandia, de Jyväskylä hacia Lahti.",
+    "f": [
+      "Con unos 95 m, es el lago más profundo de Finlandia.",
+      "El túnel de agua del Päijänne abastece a la región de Helsinki desde 1982.",
+      "Es el segundo lago más grande de Finlandia, tras el Saimaa."
+    ],
+    "q": {
+      "q": "¿Qué ciudad recibe su agua potable del Päijänne por un túnel?",
+      "a": "Helsinki",
+      "x": [
+        "Tampere",
+        "Turku"
+      ]
+    }
+  },
+  "Q504433": {
+    "t": "Un lago en el largo camino del río Congo",
+    "s": "El lago Mweru es un eslabón de la enorme cadena del sistema del río Congo. En su extremo sur, el río Luapula se abre en un delta verde y pantanoso; al norte, el Luvua lleva el agua hacia el Congo. La frontera entre Zambia y la República Democrática del Congo lo recorre por el centro, y aldeas de pescadores bordean ambas orillas.",
+    "w": "Un lago ancho en la frontera entre Zambia y el Congo, con un delta verde y pantanoso en su extremo sur.",
+    "f": [
+      "David Livingstone llegó a sus orillas en 1867.",
+      "Su desagüe, el Luvua, se une al Lualaba, como se llama el alto Congo."
+    ],
+    "q": {
+      "q": "¿A qué gran sistema fluvial pertenece el lago Mweru?",
+      "a": "Al del Congo",
+      "x": [
+        "Al del Nilo",
+        "Al del Zambeze"
+      ]
+    }
+  },
+  "Q201843": {
+    "t": "Un lago fronterizo somero de lotos y grullas",
+    "s": "El lago Janka es ancho pero asombrosamente somero —solo unos pocos metros—, así que el viento mantiene su agua turbia, color arena. La frontera entre Rusia y China lo cruza, y en el lado chino una estrecha barra de arena separa un lago compañero más pequeño. Sus orillas pantanosas acogen grullas que anidan y, en verano, lotos rosados en flor.",
+    "w": "Un lago ancho, pálido y casi redondo en la frontera entre Rusia y China, al norte de Vladivostok, rodeado de marismas llanas.",
+    "f": [
+      "Su agua sale por el río Sungacha hacia el Ussuri y, de ahí, al Amur.",
+      "El loto silvestre, raro tan al norte, florece en sus bahías.",
+      "Los humedales que lo rodean están protegidos a ambos lados de la frontera."
+    ],
+    "q": {
+      "q": "¿Qué dos países comparten el lago Janka?",
+      "a": "Rusia y China",
+      "x": [
+        "Rusia y Mongolia",
+        "China y Corea del Norte"
+      ]
+    }
+  },
+  "Q199938": {
+    "t": "El lago que crece cuando su río corre al revés",
+    "s": "El Tonlé Sap hace algo extraordinario: cada estación de lluvias, el Mekong sube tanto que el río que desagua este lago invierte su curso y vuelve a llenarlo. El lago se multiplica respecto a su tamaño de la estación seca e inunda bosques y campos de agua parda. Las aldeas flotantes suben y bajan con él, y los templos de Angkor están justo al norte de su orilla.",
+    "w": "Un lago grande, pardo y somero en el corazón de Camboya; mucho mayor en la estación húmeda, con bosque inundado alrededor.",
+    "f": [
+      "Sus peces son una de las principales fuentes de proteína para millones de camboyanos.",
+      "En la estación seca, gran parte del lago tiene solo cerca de un metro de profundidad.",
+      "Cada otoño, la Fiesta del Agua de Camboya celebra el momento en que el río vuelve a correr hacia el Mekong."
+    ],
+    "q": {
+      "q": "¿Qué le pasa al río Tonlé Sap en la estación de lluvias?",
+      "a": "Invierte su curso",
+      "x": [
+        "Se seca por completo",
+        "Se vuelve salado"
+      ]
+    }
+  },
+  "Q1144905": {
+    "t": "El extremo sur, somero, del sistema del lago Peipus",
+    "s": "Aquí hay tres lagos en fila: el enorme lago Peipus al norte, el estrecho Lämmijärv en medio y, en el extremo sur, el lago Pskov, Pihkva en estonio. La frontera entre Estonia y Rusia lo cruza. El lago es somero, de menos de 4 m de media, y se congela en invierno; el río Velíkaya desemboca en él tras pasar por la antigua ciudad de Pskov.",
+    "w": "Un lago somero al sur del enorme lago Peipus, unido a él por un estrecho angosto; el delta del Velíkaya en su esquina sureste.",
+    "f": [
+      "Junto con el lago Peipus, forma uno de los mayores lagos de Europa.",
+      "Las pequeñas islas Talabsk, en su centro, guardan viejas aldeas de pescadores."
+    ],
+    "q": {
+      "q": "¿A qué lago mayor está unido el lago Pskov?",
+      "a": "Al lago Peipus",
+      "x": [
+        "Al lago Ládoga",
+        "Al lago Ilmen"
+      ]
+    }
+  },
+  "ne-lk-1159113481": {
+    "t": "Un lago de Carelia en la cuna del Kalevala",
+    "s": "El Srédneye Kuito —«Kuito Medio»— es el eslabón central de una cadena de tres lagos que se extiende unos 140 km por los bosques del norte de Carelia, llenando largas grietas de la antigua roca madre. En su orilla norte está el pueblo de Kalevala, llamado Ujtá hasta 1963. En las aldeas de esta zona, Elias Lönnrot recogió muchos de los viejos cantos que tejió en el Kalevala, la epopeya finlandesa.",
+    "w": "Un lago largo sembrado de islas entre los oscuros bosques del norte de Carelia, parte de una cadena de lagos de oeste a este.",
+    "f": [
+      "Su agua va al este por el Kuito Inferior hasta el río Kem y, de ahí, al mar Blanco.",
+      "Los lagos Kuito son tectónicos: llenan grietas de la corteza terrestre."
+    ],
+    "q": {
+      "q": "¿Qué epopeya se asocia a las aldeas de los lagos Kuito?",
+      "a": "El Kalevala",
+      "x": [
+        "La Edda",
+        "Beowulf"
+      ]
+    }
+  },
+  "Q184492": {
+    "t": "La bahía marina que se volvió lago al elevarse Suecia",
+    "s": "El Mälaren es un lago extenso de bahías e islas que se estira unos 120 km al oeste de Estocolmo. Hace mil años aún era un brazo del Báltico; al elevarse poco a poco la tierra tras la era glacial, quedó aislado y se volvió de agua dulce. Estocolmo creció justo donde el lago se encuentra con el mar, y las islas de la ciudad se esparcen por el extremo este del lago.",
+    "w": "Un lago largo y ramificado de bahías e islas boscosas al oeste de Estocolmo, con las islas de la ciudad en su extremo este.",
+    "f": [
+      "Birka, una ciudad comercial vikinga en la isla de Björkö, es Patrimonio de la Humanidad de la UNESCO.",
+      "Drottningholm, residencia de la familia real sueca, está en una de sus islas.",
+      "Abastece de agua potable a Estocolmo y su región."
+    ],
+    "q": {
+      "q": "¿Qué era el Mälaren hace mil años?",
+      "a": "Un brazo del mar Báltico",
+      "x": [
+        "Un glaciar",
+        "Un valle fluvial"
+      ]
+    }
+  },
+  "Q216621": {
+    "t": "Un lago de estepa donde el Irtish empieza su largo viaje",
+    "s": "El agua que entra en el lago Zaysan está al principio de un viaje larguísimo: el Irtish Negro llega desde China y sale como Irtish, rumbo al Obi y al océano Ártico. El lago está en una amplia cuenca del este de Kazajistán, con el Altái al norte y las cordilleras Saur y Tarbagatai al sur. Desde la década de 1960, una presa aguas abajo ha elevado su nivel.",
+    "w": "Un lago ancho y alargado en la estepa del este de Kazajistán, entre el Altái y las cordilleras Saur y Tarbagatai.",
+    "f": [
+      "La presa de Bujtarmá, en el Irtish, mantiene su nivel más alto desde la década de 1960 y lo ha integrado en un enorme embalse.",
+      "Se congela durante varios meses cada invierno."
+    ],
+    "q": {
+      "q": "¿Qué río sale del lago Zaysan?",
+      "a": "El Irtish",
+      "x": [
+        "El Ili",
+        "El Yeniséi"
+      ]
+    }
+  },
+  "Q1640519": {
+    "t": "Una cuenca desértica llenada para mantener seca Bagdad",
+    "s": "El lago Tharthar es un lago diseñado. Llena una depresión natural del desierto entre el Tigris y el Éufrates, y desde la década de 1950 los ingenieros desvían hacia él las crecidas del Tigris para proteger Bagdad, aguas abajo. Desde arriba es una gran lámina azul en el desierto ocre, de orillas desnudas y pálidas.",
+    "w": "Un gran lago azul en el desierto al noroeste de Bagdad, entre el Tigris y el Éufrates.",
+    "f": [
+      "Es el mayor lago de Irak.",
+      "Lo alimenta un canal que sale del Tigris cerca de Samarra.",
+      "Otros canales pueden enviar su agua al Éufrates."
+    ],
+    "q": {
+      "q": "¿Por qué se desvió agua del Tigris al lago Tharthar?",
+      "a": "Para proteger Bagdad de crecidas",
+      "x": [
+        "Para regar palmerales",
+        "Para abrir una ruta de barcos"
+      ]
+    }
+  },
+  "Q756106": {
+    "t": "El «Ojo de Quebec»: un lago en anillo en un cráter antiguo",
+    "s": "Pocos lagos son tan inconfundibles desde el aire: un anillo de agua casi perfecto de unos 70 km de diámetro que rodea una enorme isla. Marca un cráter de impacto abierto por un asteroide hace unos 214 millones de años y desgastado desde entonces. El anillo alcanzó su tamaño actual tras construirse una presa en la década de 1960, y de ahí su apodo: el «Ojo de Quebec».",
+    "w": "Un inconfundible anillo de agua alrededor de una gran isla redonda, en los bosques del este de Quebec.",
+    "f": [
+      "La presa Daniel-Johnson, que elevó el lago, es la mayor presa de bóvedas múltiples y contrafuertes del mundo.",
+      "Los astronautas lo fotografían a menudo: el anillo se distingue fácilmente desde la órbita."
+    ],
+    "q": {
+      "q": "¿Qué formó el anillo de Manicouagan?",
+      "a": "El impacto de un asteroide",
+      "x": [
+        "Un volcán hundido",
+        "Un glaciar que se fundió"
+      ]
+    }
+  },
+  "Q1638191": {
+    "t": "Un lago de sal blanco en el corazón del Desierto Occidental",
+    "s": "En la tierra de arena roja de los desiertos de Australia Occidental, Kumpupintil aparece como una enorme cuenca blanca que deslumbra al sol y suele estar seca. Su antiguo nombre inglés, lago Disappointment («decepción»), data de 1897, cuando el explorador Frank Hann siguió unos arroyos hasta aquí esperando agua dulce y encontró sal. Para el pueblo martu, dueño de esta tierra, es un lugar de gran importancia.",
+    "w": "Una gran cuenca de sal blanca salpicada de islas oscuras, rodeada de desierto de dunas en el interior de Australia Occidental.",
+    "f": [
+      "La Canning Stock Route, una de las pistas más remotas del mundo, pasa cerca.",
+      "Tras las raras lluvias intensas, el agua somera puede cubrirlo durante meses.",
+      "En 2020, su nombre martu, Kumpupintil, pasó a ser el nombre oficial del lago."
+    ],
+    "q": {
+      "q": "¿Por qué lo llamó Frank Hann lago Disappointment?",
+      "a": "Halló sal, no agua dulce",
+      "x": [
+        "Perdió allí sus caballos",
+        "Era menor que en su mapa"
+      ]
+    }
+  },
+  "Q1074063": {
+    "t": "Un lago de sal reluciente sobre una frontera recta",
+    "s": "Desde la altitud de crucero, el lago Mackay parece una mancha blanca gigante derramada sobre el desierto rojo, con bordes calados de ensenadas y la superficie salpicada de islotes. Es uno de los mayores lagos salados de Australia, pero casi todos los años tiene poca agua o ninguna. La frontera recta como una regla entre Australia Occidental y el Territorio del Norte lo cruza de lleno.",
+    "w": "Un enorme salar blanco y deshilachado en el desierto de dunas rojas donde Australia Occidental se encuentra con el Territorio del Norte.",
+    "f": [
+      "El pueblo pintupi lo llama Wilkinkarra.",
+      "Debe su nombre al explorador Donald Mackay, que llegó en 1930 y fue de los primeros en dar la vuelta a Australia en bicicleta.",
+      "Ocupa unos 3500 km² y mide unos 100 km de un lado a otro."
+    ],
+    "q": {
+      "q": "¿Cómo llama el pueblo pintupi al lago Mackay?",
+      "a": "Wilkinkarra",
+      "x": [
+        "Kumpupintil",
+        "Kati Thanda"
+      ]
+    }
+  },
+  "Q965973": {
+    "t": "Un salar deslumbrante donde los pilotos buscan velocidad",
+    "s": "El lago Gairdner es un salar de unos 160 km de largo, tan blanco que puede hacer daño a la vista, al pie norte de las rojizas cordilleras Gawler. Su costra tiene más de un metro de espesor en algunos puntos, lo bastante dura y llana para que cada año pilotos de coches y motos vengan a correr sobre ella en la Speed Week, en busca de récords en la sal.",
+    "w": "Un lago de sal largo y deslumbrante en Australia Meridional, justo al norte de las rojizas cordilleras Gawler.",
+    "f": [
+      "Está dentro del Parque Nacional del Lago Gairdner.",
+      "Es el tercer lago salado de Australia Meridional, tras el Eyre y el Torrens."
+    ],
+    "q": {
+      "q": "¿Por qué vienen los pilotos al lago Gairdner?",
+      "a": "Por su costra de sal dura y llana",
+      "x": [
+        "Por sus empinadas dunas",
+        "Por su superficie helada en invierno"
+      ]
+    }
+  },
+  "Q163855": {
+    "t": "Un largo lago salado que casi nunca se llena",
+    "s": "El lago Torrens corre como una larga franja pálida al pie occidental de las cordilleras Flinders: un salar que solo se ha llenado de agua un puñado de veces en la historia registrada. Los primeros exploradores coloniales, al verlo desde las colinas, imaginaron una enorme herradura de lagos salados que cerraba el paso hacia el norte, una creencia que duró años.",
+    "w": "Un salar blanco, largo y estrecho de norte a sur, justo al oeste de las escarpadas cordilleras Flinders, en Australia Meridional.",
+    "f": [
+      "Debe su nombre a Robert Torrens, presidente de la comisión que fundó la colonia de Australia Meridional.",
+      "Es el segundo lago salado de Australia Meridional, tras Kati Thanda–lago Eyre.",
+      "El lago y sus orillas forman el Parque Nacional del Lago Torrens."
+    ],
+    "q": {
+      "q": "¿Qué cordillera se alza justo al este del lago Torrens?",
+      "a": "Las cordilleras Flinders",
+      "x": [
+        "Las cordilleras MacDonnell",
+        "Las cordilleras Gawler"
+      ]
+    }
+  },
+  "Q626907": {
+    "t": "Un salar entre las cordilleras Flinders y dunas rojas",
+    "s": "Al otro lado de las cordilleras Flinders respecto al lago Torrens está su gemelo: el lago Frome, un salar blanco y llano de unos 100 km de largo. Al oeste se alzan las crestas escarpadas de las Flinders del norte; al este, hileras de dunas rojas se alejan hacia el desierto de Strzelecki. El agua solo lo cubre tras las raras lluvias intensas.",
+    "w": "Un salar blanco y largo al este de las Flinders del norte, bordeado al este por dunas rojas paralelas.",
+    "f": [
+      "Debe su nombre a Edward Frome, agrimensor general de Australia Meridional en la década de 1840.",
+      "El santuario natural de Arkaroola está en las cordilleras, justo al oeste."
+    ],
+    "q": {
+      "q": "¿Las dunas rojas de qué desierto bordean el lago Frome por el este?",
+      "a": "El desierto de Strzelecki",
+      "x": [
+        "El desierto de Gibson",
+        "El Gran Desierto Victoria"
+      ]
+    }
+  },
+  "ne-lk-1159126435": {
+    "t": "Una laguna hipersalada tras una cinta de arena",
+    "s": "A lo largo de la costa de Tamaulipas, una fina cinta de islas barrera de arena corre durante bastante más de 100 km, y detrás está la laguna Madre: una laguna larga y somera más salada que el mar, porque le entra poca agua dulce y el sol evapora gran parte. En invierno rebosa de patos, entre ellos buena parte de los patos cabeza roja del mundo.",
+    "w": "Una laguna larga, somera y verdosa en la costa mexicana del golfo, al sur del río Bravo, separada del mar por finas islas de arena.",
+    "f": [
+      "Es una de las pocas lagunas costeras hipersalinas del mundo.",
+      "El delta del río Bravo la separa de su gemela, la laguna Madre de Texas."
+    ],
+    "q": {
+      "q": "¿Por qué la laguna Madre es más salada que el mar?",
+      "a": "Mucha evaporación y poca agua dulce",
+      "x": [
+        "Manantiales salados en su fondo",
+        "Minas de sal que desaguan en ella"
+      ]
+    }
+  },
+  "Q503301": {
+    "t": "Un lago accidental en un desierto bajo el nivel del mar",
+    "s": "El mar de Salton es un accidente. En 1905, el río Colorado reventó un canal de riego y se vertió en esta cuenca desértica durante casi dos años, creando el mayor lago de California. Su superficie está unos 70 m por debajo del nivel del mar y, al no tener salida, se ha vuelto más salado que el Pacífico. Busca campos verdes apiñados en su orilla sur.",
+    "w": "Un lago azul y largo en el desierto al sureste de Palm Springs, con la cuadrícula verde del valle Imperial al sur.",
+    "f": [
+      "Es una escala vital para las aves migratorias de la ruta del Pacífico.",
+      "A medida que mengua, deja al descubierto anchas franjas pálidas de lecho seco."
+    ],
+    "q": {
+      "q": "¿Cómo se formó el mar de Salton en 1905–1907?",
+      "a": "El río Colorado se vertió en él",
+      "x": [
+        "Se fundió un glaciar",
+        "Un terremoto abrió un manantial"
+      ]
+    }
+  },
+  "Q4121": {
+    "t": "Un mar convertido en lago por un solo dique largo",
+    "s": "Hasta 1932 esto era el Zuiderzee, un tormentoso brazo del mar del Norte. Luego el Afsluitdijk, un dique de 32 km, lo cerró, y el agua salada se volvió poco a poco dulce. Desde arriba, el dique es una línea recta como un cuchillo sobre el agua, y al este y al sur están los pólderes de Flevoland: campos trazados con regla sobre lo que fue fondo marino.",
+    "w": "Un lago ancho, gris verdoso, en los Países Bajos, separado al norte del mar de Frisia por un dique largo y perfectamente recto.",
+    "f": [
+      "Flevoland, construida sobre tierra ganada al lago, se convirtió en 1986 en la provincia neerlandesa más joven.",
+      "Es uno de los mayores lagos de agua dulce de Europa occidental.",
+      "Un segundo dique, el Houtribdijk, separa su parte sur, el Markermeer."
+    ],
+    "q": {
+      "q": "¿Qué era el IJsselmeer antes de 1932?",
+      "a": "Una bahía marina, el Zuiderzee",
+      "x": [
+        "Una turbera",
+        "Un valle fluvial"
+      ]
+    }
+  },
+  "ne-lk-1159126643": {
+    "t": "Las lagunas rosas del «Mar Podrido»",
+    "s": "Pocas vistas aéreas son tan extrañas como el Sivash: un laberinto de lagunas someras entre Crimea y el continente, veteado de rosa, rojo óxido y verde lechoso. El agua es tan salada que la tiñen algas amantes de la sal, y con el calor del verano huele, de ahí su otro nombre: el Mar Podrido. Al este, la fina lengua de Arabat lo separa del mar de Azov.",
+    "w": "Un laberinto de lagunas rosas, rojas y verdes entre Crimea y el continente, separado del mar de Azov por una fina lengua de arena.",
+    "f": [
+      "La lengua de Arabat, que lo separa del mar de Azov, mide unos 110 km.",
+      "Gran parte tiene menos de un metro de profundidad.",
+      "Desde hace siglos se recoge sal en sus orillas."
+    ],
+    "q": {
+      "q": "¿Qué da al Sivash sus colores rosa y rojo?",
+      "a": "Algas amantes de la sal",
+      "x": [
+        "Arena rica en hierro",
+        "Arcilla roja de los ríos"
+      ]
+    }
+  },
+  "Q182719": {
+    "t": "El Mar de Jade en el desierto del norte de Kenia",
+    "s": "Al lago Turkana lo llaman el Mar de Jade: con la luz adecuada, las algas vuelven su agua de un verde llamativo frente al desierto de lava parda que lo rodea. Es el mayor lago permanente de cualquier desierto, y sus orillas han dado algunos de los fósiles de humanos primitivos más importantes. En su centro se alzan islas volcánicas con lagos de cráter.",
+    "w": "Un lago largo y estrecho, verde azulado, en el árido norte de Kenia, que se adentra en Etiopía, con islas volcánicas oscuras.",
+    "f": [
+      "El río Omo, que llega de Etiopía, aporta casi toda su agua.",
+      "El esqueleto del «niño de Turkana», de unos 1,5 millones de años, se halló cerca de su orilla oeste en 1984.",
+      "Su antiguo nombre, lago Rodolfo, se le dio en 1888 en honor al príncipe heredero Rodolfo de Austria."
+    ],
+    "q": {
+      "q": "¿Cuál es el apodo del lago Turkana?",
+      "a": "El Mar de Jade",
+      "x": [
+        "La Perla de África",
+        "El Mar de las Estrellas"
+      ]
+    }
+  },
+  "Q5605": {
+    "t": "Una laguna somera tras una larga cinta de dunas",
+    "s": "Busca una lengua de arena larga y esbelta, coronada de bosque y dunas, paralela a la costa báltica, y detrás una laguna somera de un verde parduzco. La laguna del Vístula tiene de media menos de 3 m de profundidad, y su enlace natural con el mar es un único estrecho angosto en Baltiysk. En su extremo este desemboca el río Pregolia, que viene de Kaliningrado.",
+    "w": "Una laguna larga y somera en la costa báltica cerca de Kaliningrado, separada del mar por una fina lengua de arena boscosa.",
+    "f": [
+      "La lengua del Vístula, que la protege, se extiende unos 65 km.",
+      "En invierno, la laguna suele congelarse.",
+      "Su agua es salobre, una mezcla de agua de río y del Báltico."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está a orillas del río que entra por el extremo este de la laguna?",
+      "a": "Kaliningrado",
+      "x": [
+        "Gdansk",
+        "Klaipėda"
+      ]
+    }
+  },
+  "Q81150": {
+    "t": "El mayor lago de Mongolia, un óvalo salado en la estepa",
+    "s": "El Uvs Nuur es el mayor lago de Mongolia: un óvalo ancho y salado en una cuenca cerrada donde dunas de desierto, estepa, taiga y picos nevados quedan todos a la vista unos de otros. Ningún río sale de él. Aquí los inviernos son durísimos y el lago pasa meses helado; en verano, su azul reluce contra la estepa parda.",
+    "w": "Un lago grande, ovalado y salado en la estepa seca del noroeste de Mongolia, rodeado por las montañas de su cuenca.",
+    "f": [
+      "La cuenca del Uvs Nuur, compartida con Tuvá, en Rusia, es Patrimonio de la Humanidad de la UNESCO.",
+      "Está a unos 750 m sobre el nivel del mar, en el punto más bajo de su cuenca."
+    ],
+    "q": {
+      "q": "¿De qué país es el Uvs Nuur el mayor lago?",
+      "a": "Mongolia",
+      "x": [
+        "Kazajistán",
+        "China"
+      ]
+    }
+  },
+  "Q201294": {
+    "t": "El mayor lago de China, azul en la alta meseta",
+    "s": "A unos 3200 m, en el borde de la meseta tibetana, está el mayor lago de China, una enorme lámina salada de azul vivo. Su nombre chino, Qinghai, significa «mar azul», y el mongol, Kokonor, «lago azul»: toda la provincia lleva su nombre. En julio, sus orillas brillan con campos amarillos de colza, enmarcados por montañas pardas y desnudas.",
+    "w": "Un enorme óvalo de azul brillante en el borde noreste, alto y desnudo, de la meseta tibetana, al oeste de Xining.",
+    "f": [
+      "La isla de los Pájaros es zona de cría del ánsar indio, famoso por sobrevolar el Himalaya.",
+      "Su agua es salada, aunque menos que el mar.",
+      "El ferrocarril Qinghái-Tíbet corre por su orilla norte."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre mongol Kokonor?",
+      "a": "Lago azul",
+      "x": [
+        "Mar de sal",
+        "Espejo del cielo"
+      ]
+    }
+  },
+  "Q2007652": {
+    "t": "El «lago de la Sal», al oeste de Kerbala",
+    "s": "El lago Milh —Buhayrat al-Milh, el «lago de la Sal»— se extiende por una depresión desértica al oeste de Kerbala. Las crecidas del Éufrates llegan a él por un canal a través del lago Habbaniya, pero en las últimas décadas ha menguado mucho y ha dejado amplios salares blancos alrededor de una lámina más pequeña de agua verde azulada. También se le conoce como lago Razzaza.",
+    "w": "Un lago somero verde azulado rodeado de salares blancos en el desierto al oeste de Kerbala, al suroeste de Bagdad.",
+    "f": [
+      "Es uno de los mayores lagos de Irak.",
+      "Al menguar su agua, se volvió demasiado salado para la mayoría de los peces."
+    ],
+    "q": {
+      "q": "¿Qué significa Buhayrat al-Milh?",
+      "a": "Lago de la Sal",
+      "x": [
+        "Lago de las Palmeras",
+        "Lago de las Estrellas"
+      ]
+    }
+  },
+  "Q204703": {
+    "t": "Un mar bravo rodeado por un lazo de islas subantárticas",
+    "s": "El mar de Escocia es uno de los tramos de agua más tormentosos de la Tierra, barrido por la corriente Circumpolar Antártica y salpicado de icebergs. Sus bordes los dibuja el arco de Scotia, un gran lazo de islas de Georgia del Sur a las Shetland del Sur. En 1916, Ernest Shackleton lo cruzó en un pequeño bote abierto para buscar ayuda para su tripulación varada.",
+    "w": "Océano abierto gris y azotado por el viento entre Sudamérica y la Antártida, con icebergs y los picos nevados de Georgia del Sur.",
+    "f": [
+      "Debe su nombre al Scotia, barco de la Expedición Nacional Antártica Escocesa de 1902–1904.",
+      "El viaje en bote de Shackleton desde la isla Elefante hasta Georgia del Sur superó los 1200 km.",
+      "Sus aguas frías rebosan de kril antártico, alimento de ballenas y pingüinos."
+    ],
+    "q": {
+      "q": "¿En qué cruzó Shackleton el mar de Escocia en 1916?",
+      "a": "En un pequeño bote abierto",
+      "x": [
+        "En un barco de vapor",
+        "En un hidroavión"
+      ]
+    }
+  },
+  "Q41837": {
+    "t": "La ruta marítima entre Arabia y el Cuerno de África",
+    "s": "Entre las montañas peladas de Yemen y la costa seca de Somalia se extiende una larga cuña de azul profundo: el golfo de Adén. Los barcos que van o vienen del canal de Suez pasan por él en embudo. Bajo él corre una dorsal en expansión donde Arabia y África se separan despacio. En su boca oriental está Socotra, una isla de extraños dragos en forma de paraguas.",
+    "w": "Un golfo largo y azul profundo entre la escarpada costa de Yemen y el Cuerno de África, que se estrecha al oeste hacia Bab el-Mandeb.",
+    "f": [
+      "El estrecho de Bab el-Mandeb, en su extremo oeste, solo mide unos 30 km de ancho.",
+      "Socotra y sus plantas únicas son Patrimonio de la Humanidad de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué famosos árboles crecen en Socotra, frente al golfo de Adén?",
+      "a": "Los dragos de Socotra",
+      "x": [
+        "Las secuoyas gigantes",
+        "Las araucarias"
+      ]
+    }
+  },
+  "Q79948": {
+    "t": "La antesala del Golfo, bajo los montes Hajar",
+    "s": "El golfo de Omán es el vestíbulo del golfo Pérsico: los petroleros desfilan por él hacia el estrecho de Ormuz. En su orilla suroeste, los dentados montes Hajar, de color óxido, caen casi en vertical al mar, con Mascate encajada entre ellos. Al noroeste, la península de Musandam se deshilacha en fiordos que le valieron el apodo de «Noruega de Arabia».",
+    "w": "Un golfo ancho entre la costa montañosa y escarpada de Omán e Irán, que se estrecha al noroeste hacia el estrecho de Ormuz.",
+    "f": [
+      "Por él pasan cada día petroleros con una gran parte del petróleo del mundo.",
+      "Musandam es un exclave de Omán, separado del resto del país por los Emiratos Árabes Unidos."
+    ],
+    "q": {
+      "q": "¿Qué península se apoda la «Noruega de Arabia»?",
+      "a": "Musandam",
+      "x": [
+        "Catar",
+        "Sinaí"
+      ]
+    }
+  },
+  "Q38882": {
+    "t": "Un mar volcánico entre Italia y sus grandes islas",
+    "s": "El Tirreno está rodeado de volcanes e islas: la costa oeste de Italia, Córcega, Cerdeña y Sicilia lo encierran. Sobre la bahía de Nápoles se alza el Vesubio, y al sur las islas Eolias incluyen el Estrómboli, que lanza pequeñas ráfagas de lava cada pocos minutos. En un vuelo nocturno quizá veas incluso su resplandor rojo.",
+    "w": "Un mar azul intenso al oeste de la Italia continental, enmarcado por Córcega y Cerdeña, con islas volcánicas al norte de Sicilia.",
+    "f": [
+      "Su nombre viene de los tirrenos, como llamaban los antiguos griegos a los etruscos.",
+      "Los marinos llaman desde hace mucho al Estrómboli el «faro del Mediterráneo».",
+      "Su punto más hondo está a unos 3800 m."
+    ],
+    "q": {
+      "q": "¿Qué volcán se conoce como el «faro del Mediterráneo»?",
+      "a": "Estrómboli",
+      "x": [
+        "Etna",
+        "Vesubio"
+      ]
+    }
+  },
+  "Q44133": {
+    "t": "El mar interior del norte de Rusia, blanco medio año",
+    "s": "El mar Blanco se adentra mucho en el norte de Rusia: un mar interior ramificado que hace honor a su nombre, pues pasa cubierto de hielo cerca de medio año. Cerca de sus orillas occidentales están las islas Solovetski, donde aún se alza un monasterio fundado en el siglo XV. Al sureste, el Dviná Septentrional se abre en un delta en torno a Arcángel, antaño el principal puerto de Rusia.",
+    "w": "Un mar interior ramificado en el extremo norte de Rusia, blanco de hielo en invierno; las islas Solovetski cerca de su orilla oeste.",
+    "f": [
+      "Las islas Solovetski son Patrimonio de la Humanidad de la UNESCO.",
+      "En su bahía de Mezén, las mareas pueden alcanzar unos 10 m.",
+      "El canal del mar Blanco-Báltico lo une con el lago Onega y el Báltico."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está en el delta del Dviná Septentrional, junto al mar Blanco?",
+      "a": "Arcángel",
+      "x": [
+        "Múrmansk",
+        "Petrozavodsk"
+      ]
+    }
+  },
+  "Q223810": {
+    "t": "El bolsillo sur de Hudson, somero y lleno de ríos",
+    "s": "La bahía de James es el bolsillo sur, poco profundo, de la bahía de Hudson, y la alimentan tantos ríos grandes que su agua apenas es salada. Sus orillas son bajas y llanas: una ancha franja de marismas y llanuras de marea donde enormes bandadas de gansos y limícolas hacen escala en su migración. En invierno se congela por completo, y la costa helada se confunde con la tierra blanca de detrás.",
+    "w": "Una bahía somera en el extremo sur de la bahía de Hudson, entre Ontario y Quebec, de orillas bajas y pantanosas y muchas desembocaduras.",
+    "f": [
+      "Debe su nombre al capitán Thomas James, que la exploró en 1631.",
+      "Moose Factory, un puesto de la Compañía de la Bahía de Hudson fundado en 1673, está cerca de su orilla sur.",
+      "Akimiski, su mayor isla, pertenece a Nunavut."
+    ],
+    "q": {
+      "q": "¿De qué masa de agua es la bahía de James la prolongación sur?",
+      "a": "La bahía de Hudson",
+      "x": [
+        "La bahía de Baffin",
+        "El golfo de San Lorenzo"
+      ]
+    }
+  },
+  "Q180844": {
+    "t": "El hogar de las nubes en rollo Morning Glory",
+    "s": "En septiembre y octubre, pilotos de planeador viajan a la orilla sur del golfo de Carpentaria para ver algo raro: la Morning Glory, una nube en forma de tubo que puede extenderse cientos de kilómetros y llega rodando al amanecer. El golfo en sí es un mar ancho, somero y cálido entre el cabo York y la Tierra de Arnhem, bordeado de manglares y llanuras de barro.",
+    "w": "Una enorme bahía casi cuadrada del norte de Australia, entre el cabo York y Arnhem; verde y fangosa en la costa.",
+    "f": [
+      "Debe su nombre a Pieter de Carpentier, gobernador general de las Indias Orientales Neerlandesas.",
+      "Casi todo él tiene menos de 70 m de profundidad.",
+      "La Morning Glory se ve mejor cerca del pueblecito de Burketown."
+    ],
+    "q": {
+      "q": "¿Qué es la Morning Glory del golfo de Carpentaria?",
+      "a": "Una nube en rollo gigante",
+      "x": [
+        "Una enredadera en flor",
+        "Una marea roja"
+      ]
+    }
+  },
+  "Q132811": {
+    "t": "El largo mar detrás de Baja California",
+    "s": "Las montañas peladas de la península de Baja California separan del Pacífico un mar largo y estrecho, de unos 1100 km de punta a punta. Se abrió cuando Baja se fue desgajando despacio del continente por el sistema de fallas de San Andrés. Su agua es famosa por su riqueza en vida; Jacques Cousteau lo llamó «el acuario del mundo».",
+    "w": "Un mar azul, largo y estrecho entre las montañas desérticas de Baja California y el México continental, salpicado de islas peladas.",
+    "f": [
+      "La vaquita marina, la marsopa más pequeña del mundo, solo vive en su extremo norte.",
+      "Sus islas y áreas protegidas son Patrimonio de la Humanidad de la UNESCO.",
+      "También se le llama mar de Cortés."
+    ],
+    "q": {
+      "q": "¿Qué animal diminuto y raro vive solo en el golfo de California?",
+      "a": "La vaquita marina",
+      "x": [
+        "El dugongo",
+        "El delfín rosado del Amazonas"
+      ]
+    }
+  },
+  "Q207702": {
+    "t": "La puerta helada de la bahía de Hudson",
+    "s": "Todo barco que va del Atlántico a la bahía de Hudson tiene que pasar por este largo estrecho helado entre la isla de Baffin y el norte de Quebec. Henry Hudson lo navegó en 1610. Sus mareas son feroces: en la bahía de Ungava, en su lado sur, el mar puede subir y bajar más de 15 m. Gran parte del año, la banquisa a la deriva lo llena de orilla a orilla.",
+    "w": "Un estrecho largo y ancho entre la escarpada costa sur de Baffin y la península de Ungava, en Quebec, a menudo lleno de hielo.",
+    "f": [
+      "Mide unos 750 km de largo.",
+      "La bahía de Ungava tiene algunas de las mareas más altas de la Tierra."
+    ],
+    "q": {
+      "q": "¿Qué bahía del estrecho de Hudson tiene algunas de las mareas más altas del mundo?",
+      "a": "La bahía de Ungava",
+      "x": [
+        "La bahía de James",
+        "La bahía de Baffin"
+      ]
+    }
+  },
+  "Q34640": {
+    "t": "El mar estrecho y ajetreado entre Inglaterra y Francia",
+    "s": "En su punto más estrecho, el paso de Calais, solo unos 33 km separan Inglaterra de Francia: en un día claro se distinguen fácilmente los acantilados blancos de creta de ambas orillas. Es una de las rutas marítimas más transitadas del planeta; busca las estelas blancas de los barcos, en fila como en un atasco. Bajo el lecho marino, el túnel del canal une las dos costas.",
+    "w": "Un mar largo que se estrecha al este entre el sur de Inglaterra y el norte de Francia, lleno de barcos; creta blanca en Dover.",
+    "f": [
+      "El túnel del canal de la Mancha, inaugurado en 1994, recorre unos 38 km bajo el mar.",
+      "Hace unos 450 000 años, una enorme inundación glacial rompió aquí una cresta de creta y ayudó a separar Gran Bretaña del continente.",
+      "Los franceses lo llaman La Manche, «la manga»."
+    ],
+    "q": {
+      "q": "¿Qué anchura tiene, más o menos, el paso de Calais en su punto más estrecho?",
+      "a": "Unos 33 km",
+      "x": [
+        "Unos 8 km",
+        "Unos 80 km"
+      ]
+    }
+  },
+  "Q795608": {
+    "t": "Cayos turquesa donde tres países se asoman al Caribe",
+    "s": "Donde se juntan las costas de Belice, Guatemala y Honduras hay un rincón resguardado del Caribe: el golfo de Honduras. Por él se esparcen cayos bajos de manglar y el extremo sur de la gran Barrera Arrecifal Mesoamericana, de un turquesa brillante sobre el azul profundo. Los ríos que bajan de las verdes montañas del interior tiñen de pardo el agua junto a sus desembocaduras.",
+    "w": "Una amplia ensenada caribeña al sur de Belice, con arrecifes turquesa y pequeños cayos; las islas de la Bahía de Honduras quedan al este.",
+    "f": [
+      "Los tiburones ballena, los peces más grandes de la Tierra, visitan las aguas de Utila, en las islas de la Bahía.",
+      "Los cayos Sapodilla de Belice, cerca de su boca, marcan el extremo sur de la barrera de coral.",
+      "El río Motagua, que viene de Guatemala, desemboca en él."
+    ],
+    "q": {
+      "q": "¿Qué tres países comparten las orillas del golfo de Honduras?",
+      "a": "Belice, Guatemala y Honduras",
+      "x": [
+        "México, Belice y Honduras",
+        "Honduras, Nicaragua y Guatemala"
+      ]
+    }
+  },
+  "Q122574": {
+    "t": "Un golfo norteño casi dulce donde la tierra aún se eleva",
+    "s": "En el largo brazo norte del Báltico, entre Suecia y Finlandia, el agua es tan dulce que en el extremo norte apenas es salada. Cada invierno el hielo se extiende sobre él, y algunos años se congela de orilla a orilla. La tierra aquí aún se eleva tras la era glacial y añade cada siglo nuevos islotes y escollos al archipiélago de Kvarken.",
+    "w": "Un largo golfo gris azulado entre Suecia y Finlandia, blanco de hielo en invierno, con una cintura estrecha sembrada de islas en Kvarken.",
+    "f": [
+      "La Costa Alta de Suecia se ha elevado unos 286 m desde que se fundió el manto de hielo, más que en ningún otro lugar conocido.",
+      "La Costa Alta y el archipiélago de Kvarken forman un sitio conjunto del Patrimonio Mundial de la UNESCO.",
+      "En torno a Kvarken, la tierra aún se eleva hasta unos 8 mm al año."
+    ],
+    "q": {
+      "q": "¿Por qué siguen apareciendo islas nuevas en el golfo de Botnia?",
+      "a": "La tierra aún se eleva",
+      "x": [
+        "Hay volcanes en erupción",
+        "Crecen arrecifes de coral"
+      ]
+    }
+  },
+  "Q13924": {
+    "t": "Un mar azul y largo entre Italia y una costa de islas",
+    "s": "El Adriático se extiende unos 800 km entre la costa lisa de Italia y la dentada de los Balcanes. En el lado este, la orilla croata se disuelve en islas largas tendidas en paralelo a la costa: más de mil, contando islotes y arrecifes. Al norte el mar es somero y verdoso, con el delta del Po y la laguna de Venecia en su lado oeste.",
+    "w": "Un mar largo entre Italia y los Balcanes; la costa croata se rompe en hileras de islas largas paralelas a la orilla.",
+    "f": [
+      "El bora, un viento frío y violento, puede bajar de las montañas sobre su costa este.",
+      "Su nombre viene del antiguo puerto de Adria, cerca del delta del Po.",
+      "El canal de Otranto, de unos 70 km de ancho, lo une con el mar Jónico."
+    ],
+    "q": {
+      "q": "¿Qué antiguo puerto dio nombre al mar Adriático?",
+      "a": "Adria",
+      "x": [
+        "Aquilea",
+        "Ancona"
+      ]
+    }
+  },
+  "Q81136": {
+    "t": "La legendaria ruta marítima entre las islas árticas",
+    "s": "Durante siglos, los marinos soñaron con un atajo de Europa a Asia por encima de Norteamérica. El paso del Noroeste es esa ruta: un laberinto de canales entre las islas heladas del Ártico canadiense. Desde arriba es hielo blanco roto en témpanos, con canales oscuros abiertos a finales del verano. Roald Amundsen fue el primero en navegarlo, entre 1903 y 1906.",
+    "w": "Canales atascados de hielo que serpentean entre las islas pardas y blancas del Ártico canadiense; agua abierta solo a finales del verano.",
+    "f": [
+      "El barco de Amundsen, el Gjøa, era un pequeño antiguo pesquero de arenque.",
+      "En 1944, la goleta de la policía canadiense St. Roch fue el primer barco en cruzarlo en una sola temporada.",
+      "Hay varias rutas posibles, según por dónde deje paso el hielo."
+    ],
+    "q": {
+      "q": "¿Quién navegó por primera vez el paso del Noroeste, entre 1903 y 1906?",
+      "a": "Roald Amundsen",
+      "x": [
+        "Fridtjof Nansen",
+        "Robert Peary"
+      ]
+    }
+  },
+  "Q37495": {
+    "t": "La parte más profunda del Mediterráneo",
+    "s": "Entre el tacón de Italia y la costa oeste de Grecia se extiende el mar Jónico, una extensión azul profunda y clara. Frente a la costa suroeste de Grecia, el fondo baja a unos 5270 m: el punto más hondo de todo el Mediterráneo. A lo largo de su lado este, busca las verdes y montañosas islas Jónicas —Corfú, Cefalonia y Zante—, orladas de acantilados pálidos.",
+    "w": "Mar azul profundo entre el sur de Italia, Sicilia y el oeste de Grecia, con las verdes islas Jónicas en el lado griego.",
+    "f": [
+      "Las tortugas bobas anidan en las playas de Zante.",
+      "Una leyenda griega relaciona su nombre con Ío, que lo cruzó a nado.",
+      "El canal de Otranto lo une con el Adriático al norte."
+    ],
+    "q": {
+      "q": "¿Qué profundidad tiene el punto más hondo del Mediterráneo, en el Jónico?",
+      "a": "Unos 5300 m",
+      "x": [
+        "Unos 2000 m",
+        "Unos 9000 m"
+      ]
+    }
+  },
+  "Q169523": {
+    "t": "Un mar del norte de acantilados rojos y hielo invernal",
+    "s": "El golfo de San Lorenzo es donde el agua de los Grandes Lagos se encuentra por fin con el Atlántico: un ancho mar interior rodeado por Quebec, las provincias Marítimas y Terranova. Busca los acantilados rojos y los campos verdes de la isla del Príncipe Eduardo, y la larga y baja isla de Anticosti. A finales del invierno, la banquisa a la deriva llena gran parte del golfo, y las focas arpa paren sobre ella.",
+    "w": "Un golfo ancho al este de Quebec; la media luna de la isla del Príncipe Eduardo al sur y la larga Anticosti al norte.",
+    "f": [
+      "Jacques Cartier entró en él en 1534.",
+      "La isla de Anticosti es más grande que toda la provincia de la Isla del Príncipe Eduardo.",
+      "Las islas de la Magdalena, cerca de su centro, están unidas entre sí por largas dunas de arena."
+    ],
+    "q": {
+      "q": "¿Qué animales paren sobre la banquisa del golfo a finales del invierno?",
+      "a": "Focas arpa",
+      "x": [
+        "Osos polares",
+        "Morsas"
+      ]
+    }
+  },
+  "Q185291": {
+    "t": "Un mar apretado entre dos arcos volcánicos",
+    "s": "El mar de las Molucas está siendo engullido por ambos lados: el fondo marino que hay debajo se hunde a la vez bajo dos arcos volcánicos, una disposición rara que los geólogos llaman doble subducción. Busca conos volcánicos perfectos que surgen del agua, como Ternate y Tidore, frente a Halmahera: islas donde crecía originalmente el clavo.",
+    "w": "Mar azul profundo entre el largo brazo norte de Sulawesi y Halmahera, salpicado de islas que son conos volcánicos empinados.",
+    "f": [
+      "El clavo crecía originalmente solo en unas pocas islas de aquí, entre ellas Ternate y Tidore.",
+      "El ecuador lo cruza de lleno."
+    ],
+    "q": {
+      "q": "¿Qué especia crecía originalmente en Ternate y Tidore?",
+      "a": "El clavo",
+      "x": [
+        "La vainilla",
+        "El azafrán"
+      ]
+    }
+  },
+  "Q199436": {
+    "t": "Un mar volcánico enmarcado por el archipiélago Bismarck",
+    "s": "El mar de Bismarck está encerrado por un gran arco de islas —Nueva Bretaña, Nueva Irlanda y las islas del Almirantazgo—, con la costa norte de Nueva Guinea al sur. En sus bordes se alzan volcanes, entre ellos Manam, un cono casi perfecto justo frente al continente. Donde el río Sepik llega al mar, su penacho pardo se extiende sobre el azul.",
+    "w": "Mar azul profundo al norte de Nueva Guinea, rodeado por las largas y montañosas islas de Nueva Bretaña y Nueva Irlanda.",
+    "f": [
+      "Recibió el nombre de Otto von Bismarck cuando la región se convirtió en colonia alemana en la década de 1880.",
+      "Manam, una isla volcánica frente a Nueva Guinea, es uno de los volcanes más activos de la región."
+    ],
+    "q": {
+      "q": "¿El penacho pardo de qué río se extiende por el mar de Bismarck?",
+      "a": "El Sepik",
+      "x": [
+        "El Fly",
+        "El Mekong"
+      ]
+    }
+  },
+  "Q199479": {
+    "t": "Un mar tropical profundo entre Nueva Guinea y las Salomón",
+    "s": "Enmarcado por la larga cola oriental de Nueva Guinea, la montañosa isla de Nueva Bretaña y las islas Salomón, el mar de las Salomón es cálido, profundo y está salpicado de islas de coral. Por su borde norte, la fosa de Nueva Bretaña baja a más de 8000 m. Al oeste están las islas Trobriand, bajas y llanas, rodeadas de arrecifes turquesa.",
+    "w": "Mar azul profundo al este de la cola de Nueva Guinea, limitado por Nueva Bretaña al norte y las islas Salomón al este.",
+    "f": [
+      "Las islas Trobriand se hicieron famosas gracias al antropólogo Bronisław Malinowski, que vivió allí en la década de 1910.",
+      "Sus aguas cálidas están dentro del Triángulo de Coral, una de las regiones de arrecifes más ricas de la Tierra."
+    ],
+    "q": {
+      "q": "¿Qué antropólogo hizo famosas las islas Trobriand?",
+      "a": "Bronisław Malinowski",
+      "x": [
+        "Margaret Mead",
+        "Claude Lévi-Strauss"
+      ]
+    }
+  },
+  "Q48359": {
+    "t": "La estrecha ruta marítima que une dos océanos",
+    "s": "Este largo embudo de agua entre Sumatra y la península malaya une el océano Índico con el Pacífico, y decenas de miles de barcos se aprietan por él cada año. Busca sus estelas, a menudo en largas filas. Cerca de Singapur, donde se une al estrecho de Singapur, el canal de navegación se estrecha a menos de 3 km. El estrecho debe su nombre a Malaca, antaño una gran ciudad comercial.",
+    "w": "Un estrecho largo que se va cerrando entre la costa boscosa de Sumatra y la península malaya, rayado por las estelas de muchos barcos.",
+    "f": [
+      "Mide unos 900 km de largo.",
+      "En el siglo XV, el sultanato de Malaca controlaba el comercio que lo atravesaba."
+    ],
+    "q": {
+      "q": "¿Qué dos tierras separa el estrecho de Malaca?",
+      "a": "Sumatra y la península malaya",
+      "x": [
+        "Java y Borneo",
+        "Sumatra y Java"
+      ]
+    }
+  },
+  "Q194477": {
+    "t": "La línea invisible entre la fauna asiática y la australiana",
+    "s": "Por el centro del estrecho de Makassar, entre Borneo y Sulawesi, corre una frontera invisible: la línea de Wallace. En la década de 1850, Alfred Russel Wallace se fijó en lo distintos que eran los animales a cada lado: especies sobre todo asiáticas al oeste y cada vez más australasianas al este. El estrecho es profundo, y por él pasa casi toda el agua del Pacífico que cruza Indonesia hacia el Índico.",
+    "w": "Un estrecho ancho y profundo entre la costa verde de Borneo y la silueta de araña de Sulawesi.",
+    "f": [
+      "El agua profunda de aquí mantuvo separadas Borneo y Sulawesi incluso cuando el mar bajó en las glaciaciones.",
+      "Makassar, en la costa suroeste de Sulawesi, es un gran puerto desde hace siglos."
+    ],
+    "q": {
+      "q": "¿Qué famosa frontera biológica cruza el estrecho de Makassar?",
+      "a": "La línea de Wallace",
+      "x": [
+        "La línea de Humboldt",
+        "La línea de Darwin"
+      ]
+    }
+  },
+  "Q210855": {
+    "t": "Un mar remoto entre Seram y la Cabeza de Pájaro",
+    "s": "El mar de Seram se extiende entre la larga y montañosa isla de Seram y el extremo oeste de Nueva Guinea, conocido como la Cabeza de Pájaro. En su lado norte están las islas calizas de Misool, parte de Raja Ampat, cuyos arrecifes guardan una de las vidas marinas más ricas de la Tierra. Desde arriba, busca crestas cubiertas de selva que se hunden directamente en agua azul profunda.",
+    "w": "Mar azul profundo entre la larga isla verde de Seram y el extremo oeste de Nueva Guinea, con pequeñas islas calizas al norte.",
+    "f": [
+      "La montaña más alta de Seram, el Binaiya, alcanza unos 3000 m.",
+      "«Ceram» es una grafía antigua de Seram, la isla de su lado sur."
+    ],
+    "q": {
+      "q": "¿Cómo se apoda el extremo oeste de Nueva Guinea, junto al mar de Seram?",
+      "a": "La Cabeza de Pájaro",
+      "x": [
+        "La Cola del Dragón",
+        "La Garra del León"
+      ]
+    }
+  },
+  "Q639399": {
+    "t": "Un remoto golfo del Pacífico con mareas récord",
+    "s": "El golfo de Shélijov es el rincón noreste, salvaje, del mar de Ojotsk, encajado entre Kamchatka y el continente. En su fondo, la bahía de Penzhina tiene las mareas más altas del Pacífico: el agua puede subir y bajar hasta 13 m y dejar al descubierto enormes llanuras de barro. En invierno, todo el golfo queda atrapado en hielo a la deriva.",
+    "w": "Un golfo largo entre las montañas de Kamchatka y el continente del Extremo Oriente ruso, blanco de hielo en invierno.",
+    "f": [
+      "Debe su nombre a Grigori Shélijov, el comerciante que fundó el primer asentamiento ruso permanente en Alaska en 1784.",
+      "Las mareas de la bahía de Penzhina son las más altas de toda Rusia."
+    ],
+    "q": {
+      "q": "¿Dónde están las mareas más altas del océano Pacífico?",
+      "a": "En la bahía de Penzhina",
+      "x": [
+        "En la bahía de Tokio",
+        "En la bahía de San Francisco"
+      ]
+    }
+  },
+  "Q163434": {
+    "t": "Un mar somero y helado frente al noreste de Siberia",
+    "s": "El mar de Siberia Oriental se extiende de las islas de Nueva Siberia a la isla de Wrangel, y casi todo el año es una llanura blanca y helada. También es asombrosamente somero, casi siempre de menos de 50 m, y en verano el agua parda del Indiguirka y del Kolimá se extiende por su superficie. La banquisa suele seguir pegada a la costa incluso en agosto.",
+    "w": "Hielo o agua gris frente a la baja costa de tundra del noreste de Siberia, entre las islas de Nueva Siberia y la de Wrangel.",
+    "f": [
+      "Las islas de los Osos, un pequeño archipiélago, están frente a la desembocadura del Kolimá.",
+      "El puerto de Pevek, en su orilla, suele considerarse la ciudad más septentrional de Rusia."
+    ],
+    "q": {
+      "q": "¿Qué dos ríos desembocan en el mar de Siberia Oriental?",
+      "a": "El Indiguirka y el Kolimá",
+      "x": [
+        "El Obi y el Yeniséi",
+        "El Lena y el Játanga"
+      ]
+    }
+  },
+  "Q845217": {
+    "t": "Un mar ártico somero con una isla hallada desde el aire",
+    "s": "La cuenca de Foxe es un mar somero y helado al norte de la bahía de Hudson, y su hielo a veces se tiñe de pardo por el sedimento que se remueve del fondo. Guardó un secreto mucho tiempo: la isla del Príncipe Carlos, más o menos del tamaño de Chipre, no entró en el mapa hasta 1948, cuando la avistaron desde un avión.",
+    "w": "Un mar ancho, somero y a menudo helado al oeste de la isla de Baffin, con islas bajas y llanas en su parte este.",
+    "f": [
+      "Debe su nombre a Luke Foxe, que la exploró en 1631.",
+      "Sus aguas someras son un hogar clave de la morsa atlántica.",
+      "Igloolik, una comunidad inuit, está en una isla de su esquina noroeste."
+    ],
+    "q": {
+      "q": "¿Cómo se descubrió en 1948 la isla del Príncipe Carlos?",
+      "a": "Desde un avión",
+      "x": [
+        "Desde un ballenero",
+        "Por satélite"
+      ]
+    }
+  },
+  "Q509321": {
+    "t": "Un mar lleno de icebergs frente a la Antártida Oriental",
+    "s": "El mar de Davis es un mar remoto en el borde de la Antártida Oriental, atestado de icebergs y hielo fijo casi todo el año. A lo largo de su costa, la capa de hielo termina en altos acantilados blancos y en la ancha plataforma de hielo Shackleton. En su orilla está Mirni, fundada en 1956 como la primera estación soviética en la Antártida.",
+    "w": "Banquisa e icebergs dispersos en el borde de la capa de hielo de la Antártida Oriental, que aquí termina en acantilados blancos.",
+    "f": [
+      "Debe su nombre a John King Davis, capitán del Aurora en la expedición de Douglas Mawson de 1911–1914.",
+      "Mirni, en su orilla, sigue siendo una estación de investigación rusa."
+    ],
+    "q": {
+      "q": "¿Qué estación, fundada en 1956, está en el mar de Davis?",
+      "a": "Mirni",
+      "x": [
+        "McMurdo",
+        "Vostok"
+      ]
+    }
+  },
+  "Q7347": {
+    "t": "Cinco mares interiores con una quinta parte del agua dulce",
+    "s": "Desde la altitud de crucero, los Grandes Lagos parecen mares, con la orilla opuesta a menudo perdida en la bruma. Superior, Míchigan, Hurón, Erie y Ontario forman el mayor grupo de lagos de agua dulce de la Tierra y guardan cerca de una quinta parte del agua dulce superficial del mundo. En invierno, el aire frío que los cruza forma bandas de nubes y descarga intensas nevadas de efecto lago en sus orillas.",
+    "w": "Cinco lagos enormes e interconectados en la frontera entre EE. UU. y Canadá, del Superior al oeste al Ontario al este.",
+    "f": [
+      "El agua del lago Superior baja unos 100 m camino del lago Ontario, casi todo a lo largo del río Niágara.",
+      "Juntos guardan cerca del 84 % del agua dulce superficial de Norteamérica.",
+      "Los barcos pueden navegar del lago Superior hasta el Atlántico por esclusas y la vía marítima del San Lorenzo."
+    ],
+    "q": {
+      "q": "¿Cuál de los Grandes Lagos es el mayor por superficie?",
+      "a": "El lago Superior",
+      "x": [
+        "El lago Hurón",
+        "El lago Míchigan"
+      ]
+    }
+  }
+}

@@ -1078,5 +1078,1805 @@
         "Detroit of São Paulo"
       ]
     }
+  },
+  "Q117040": {
+    "t": "A pocket bay behind a castle, under Cuba's highest mountains",
+    "s": "Santiago de Cuba hides behind a narrow gap in the cliffs: the bay opens up only once you are through it, and the city climbs the hills around its inner shore. A stone castle has guarded that entrance since the 17th century. Westward rise the dark ridges of the Sierra Maestra. This is the city of son, the music that grew into salsa.",
+    "w": "A pouch-shaped bay behind a narrow entrance on Cuba's south-east coast; the city on hills around it, dark mountains to the west.",
+    "f": [
+      "The Castillo de San Pedro de la Roca at the bay mouth has been a UNESCO World Heritage site since 1997.",
+      "Pico Turquino, Cuba's highest peak at about 1,970 m, rises in the Sierra Maestra west of the city.",
+      "Diego Velázquez founded Santiago in 1515, making it one of Cuba's oldest cities."
+    ],
+    "q": {
+      "q": "Which mountain range rises west of Santiago de Cuba?",
+      "a": "The Sierra Maestra",
+      "x": [
+        "The Sierra del Escambray",
+        "The Sierra de los Órganos"
+      ]
+    }
+  },
+  "Q188892": {
+    "t": "Coffee capital turned ocean of sugar cane",
+    "s": "Around Ribeirão Preto the land is a sea of sugar cane cut into huge rectangles, and where a field is bare, the soil shows a deep purplish red. That rich 'terra roxa' once made this the heart of Brazil's coffee empire. Today cane and ethanol rule, and the city is so prosperous that it's been called the Brazilian California.",
+    "w": "A large city in an endless patchwork of cane fields, with patches of dark-red bare soil, in the north of São Paulo state.",
+    "f": [
+      "Ribeirão Preto means 'black stream'.",
+      "Around 1900 its plantations made it known as the world capital of coffee.",
+      "Each year the city hosts Agrishow, one of Latin America's largest farm-machinery fairs."
+    ],
+    "q": {
+      "q": "What does the name Ribeirão Preto mean?",
+      "a": "Black stream",
+      "x": [
+        "Red river",
+        "Stony creek"
+      ]
+    }
+  },
+  "Q738353": {
+    "t": "The last border city before the river meets the Gulf",
+    "s": "The Rio Grande makes its final loops through flat delta land here, and Matamoros sits on the south bank, facing Brownsville in Texas. A few dozen kilometres east, the river slips into the Gulf of Mexico. Around the city stretch shallow lagoons and marsh. It takes its name from Mariano Matamoros, a priest who fought for Mexico's independence.",
+    "w": "Twin cities on the last big loops of the Rio Grande; flat delta and shallow lagoons between them and the Gulf coast.",
+    "f": [
+      "The city is named after Mariano Matamoros, a priest and hero of Mexico's independence war.",
+      "The Rio Grande reaches the Gulf of Mexico some 35 km east of the city.",
+      "The Laguna Madre along the coast is one of the few hypersaline lagoons in the world."
+    ],
+    "q": {
+      "q": "Which Texan city faces Matamoros across the Rio Grande?",
+      "a": "Brownsville",
+      "x": [
+        "Laredo",
+        "McAllen"
+      ]
+    }
+  },
+  "Q131429": {
+    "t": "A green-stone city watched by a flattened mountaintop",
+    "s": "Three valleys meet in the mountains of southern Mexico, and Oaxaca lies where they join, at about 1,550 m. More than 2,000 years ago the Zapotecs levelled the top of a ridge above the valley and built a city there, Monte Albán. Below, the colonial town grew in pale green stone. Today it is known for its markets, mezcal and seven kinds of mole.",
+    "w": "A city where three valley arms meet, ringed by mountains; a long ridge rising just west of the centre.",
+    "f": [
+      "The historic centre and Monte Albán have been a UNESCO World Heritage site since 1987.",
+      "The Tule tree, a cypress in a village just east of the city, has one of the thickest trunks in the world.",
+      "Every July the Guelaguetza festival gathers dancers from all the state's regions."
+    ],
+    "q": {
+      "q": "Which people built Monte Albán above Oaxaca?",
+      "a": "The Zapotecs",
+      "x": [
+        "The Aztecs",
+        "The Maya"
+      ]
+    }
+  },
+  "Q234053": {
+    "t": "The older Vancouver, across the river from Portland",
+    "s": "Not the Canadian one: this Vancouver sits on the north bank of the broad Columbia River in Washington State, facing Portland, Oregon. It is actually the older of the two. In 1825 the Hudson's Bay Company built Fort Vancouver here as the hub of its fur trade in the Pacific Northwest. On a clear day, Mount Hood and Mount St. Helens stand on the horizon.",
+    "w": "A city on the north bank of a wide river, opposite Portland; snowy Mount Hood to the east, Mount St. Helens to the north-east.",
+    "f": [
+      "Fort Vancouver, built in 1825, was the Hudson's Bay Company's headquarters on the Pacific coast.",
+      "The Canadian city of Vancouver was incorporated only in 1886.",
+      "Both cities are named after George Vancouver, the British captain who charted this coast in the 1790s."
+    ],
+    "q": {
+      "q": "Which city faces Vancouver, Washington, across the Columbia River?",
+      "a": "Portland",
+      "x": [
+        "Seattle",
+        "Salem"
+      ]
+    }
+  },
+  "Q36307": {
+    "t": "Salta the Beautiful, gateway to the high Andes",
+    "s": "Argentines call it Salta la Linda, 'Salta the Beautiful', for its colonial arcades and churches. The city fills a green valley at about 1,150 m, ringed by forested hills, with the bare, high Andes rising beyond. From here the Train to the Clouds climbs to a viaduct above 4,000 m, and roads lead to red canyons and high-altitude vineyards.",
+    "w": "A city on a green valley floor ringed by wooded hills; higher, bare Andean ranges to the west.",
+    "f": [
+      "Salta was founded in 1582 by Hernando de Lerma, who gave his name to the valley.",
+      "The Train to the Clouds reaches the La Polvorilla viaduct at about 4,200 m.",
+      "Vineyards in the province, some above 2,000 m, are famous for the white Torrontés wine."
+    ],
+    "q": {
+      "q": "What is Salta's famous mountain railway called?",
+      "a": "The Train to the Clouds",
+      "x": [
+        "The Train at the End of the World",
+        "The Andean Explorer"
+      ]
+    }
+  },
+  "Q49258": {
+    "t": "The mountain that inspired 'America the Beautiful'",
+    "s": "The Great Plains run west as flat as a table until they hit a wall of mountains, and Colorado Springs sits right at the join. Above it looms Pikes Peak, 4,302 m high and often white with snow. In 1893 the view from its summit moved Katharine Lee Bates to write the words of 'America the Beautiful'. Red sandstone fins stand at the city's western edge.",
+    "w": "A city where the flat plains meet the Rockies, with the massive, often snowy bulk of Pikes Peak directly to the west.",
+    "f": [
+      "Pikes Peak rises more than 2,400 m above the city.",
+      "The red rock fins of the Garden of the Gods are a free public park on the city's west side.",
+      "The US Olympic and Paralympic Training Center is based in Colorado Springs."
+    ],
+    "q": {
+      "q": "Which song was inspired by the view from Pikes Peak?",
+      "a": "America the Beautiful",
+      "x": [
+        "This Land Is Your Land",
+        "Home on the Range"
+      ]
+    }
+  },
+  "Q44244": {
+    "t": "A capital between lagoons on the Paraná floodplain",
+    "s": "Santa Fe sits on a strip of land between lagoons and river channels, on the wide, watery floodplain of the Paraná. Across the water, on a high bank, stands its sister city, Paraná, linked by a tunnel under the river. In 1853 Argentina's constitution was adopted here. The city's emblem is the Puente Colgante, a suspension bridge over the lagoon.",
+    "w": "A city between lagoons and river channels on a wide, green floodplain; another city on the high bank opposite.",
+    "f": [
+      "Argentina's national constitution was adopted in Santa Fe in 1853.",
+      "Juan de Garay founded the city in 1573; it moved to its present site in the 1650s.",
+      "The Hernandarias tunnel, opened in 1969, carries traffic beneath the Paraná River."
+    ],
+    "q": {
+      "q": "Which city faces Santa Fe across the river, linked by a tunnel?",
+      "a": "Paraná",
+      "x": [
+        "Rosario",
+        "Corrientes"
+      ]
+    }
+  },
+  "Q193289": {
+    "t": "The big city no road can reach",
+    "s": "Iquitos is surrounded by rainforest in every direction, and no highway leads to it: you arrive by plane or by boat. It is often called the largest city in the world that cannot be reached by road. The Amazon flows past its edge, joined by two smaller rivers, and in the Belén district houses stand on stilts or float with the seasonal flood.",
+    "w": "A city on a bend of a huge brown river, hemmed in by smaller rivers and oxbow lakes, with unbroken forest all around.",
+    "f": [
+      "About 100 km upstream, the Marañón and Ucayali rivers join to form the Amazon.",
+      "The rubber boom of the late 1800s filled the city with mansions faced with European tiles.",
+      "In the rainy season the river can rise by several metres, lifting Belén's floating houses."
+    ],
+    "q": {
+      "q": "How do most people travel to Iquitos?",
+      "a": "By air or by river",
+      "x": [
+        "By highway from Lima",
+        "By railway"
+      ]
+    }
+  },
+  "Q44241": {
+    "t": "A vineyard oasis in a sun-baked Andean valley",
+    "s": "In the rain shadow of the Andes, San Juan is a green island of vineyards and poplar windbreaks in a brown desert valley, watered by the San Juan River. The province is Argentina's second-biggest wine producer. The sun shines here almost every day. San Juan is also the birthplace of Domingo Faustino Sarmiento, the president who spread public schools across Argentina.",
+    "w": "A green oasis of vineyards in a brown desert valley; a reservoir to the west, bare Andean foothills beyond.",
+    "f": [
+      "Domingo Faustino Sarmiento was born in San Juan in 1811.",
+      "San Juan is Argentina's second-largest wine province, after Mendoza.",
+      "Ischigualasto, in the north of the province, holds some of the oldest known dinosaur fossils."
+    ],
+    "q": {
+      "q": "Which Argentine president was born in San Juan?",
+      "a": "Domingo F. Sarmiento",
+      "x": [
+        "Bartolomé Mitre",
+        "Julio A. Roca"
+      ]
+    }
+  },
+  "Q16868": {
+    "t": "America's busy trade gateway on the Rio Grande",
+    "s": "Look for lorries: long lines of them crawl over the bridges at Laredo, one of the busiest trade crossings between the United States and Mexico. The city sits on the north bank of the Rio Grande in Texas, facing Nuevo Laredo. It was founded in 1755 as a Spanish ranching town, and for a few months in 1840 it was the capital of a would-be republic.",
+    "w": "Twin cities across a looping river in flat, dry brush country; big bridges and rail yards on both banks.",
+    "f": [
+      "Laredo was founded in 1755 by Tomás Sánchez as a settlement of New Spain.",
+      "In 1840 it was the capital of the short-lived Republic of the Rio Grande.",
+      "The city's Washington's Birthday Celebration, held since 1898, is the largest in the US."
+    ],
+    "q": {
+      "q": "Which Mexican city faces Laredo across the Rio Grande?",
+      "a": "Nuevo Laredo",
+      "x": [
+        "Reynosa",
+        "Piedras Negras"
+      ]
+    }
+  },
+  "Q28218": {
+    "t": "A red stick on the banks of the Mississippi",
+    "s": "In 1699 French explorers paddling up the Mississippi saw a red-painted pole on the bluff here, marking a hunting boundary between two tribes. They called the spot Baton Rouge, 'red stick'. Today it is Louisiana's capital, with refineries and docks lining the river. It is as far up the Mississippi as big ocean-going ships can sail.",
+    "w": "A city on the east bank of the broad, winding Mississippi; docks and industry along the river, swamps and oxbow lakes around.",
+    "f": [
+      "The name means 'red stick', after the painted pole the French saw in 1699.",
+      "Louisiana's State Capitol, about 137 m tall, is the tallest state capitol in the US.",
+      "Louisiana State University's campus lies south of downtown, by the river."
+    ],
+    "q": {
+      "q": "What does 'Baton Rouge' mean?",
+      "a": "Red stick",
+      "x": [
+        "Red river",
+        "Red rock"
+      ]
+    }
+  },
+  "Q468782": {
+    "t": "A high Andean valley of farms, fairs and railways",
+    "s": "At about 3,250 m, the Mantaro Valley opens wide and flat between the ranges of the central Peruvian Andes, a patchwork of potato and maize fields. Huancayo is its busy market capital. A railway climbs here from Lima over one of the highest passes in the world. On clear days, the snowy peaks of the Huaytapallana range shine to the north-east.",
+    "w": "A broad, flat valley floor high in the Andes, a braided river along it; snowy peaks to the north-east.",
+    "f": [
+      "The Central Railway from Lima to Huancayo crosses the Andes at more than 4,700 m.",
+      "The Mantaro River leaves the valley through deep gorges and eventually joins the Apurímac.",
+      "Huancayo's Sunday market spreads for blocks along one of its main avenues."
+    ],
+    "q": {
+      "q": "Which valley is Huancayo the main city of?",
+      "a": "The Mantaro Valley",
+      "x": [
+        "The Sacred Valley",
+        "The Colca Valley"
+      ]
+    }
+  },
+  "Q38453": {
+    "t": "A planned capital where two rivers become one",
+    "s": "Columbia was one of the first planned cities in America: in 1786 South Carolina's lawmakers laid out a new capital in the middle of the state. The Broad and Saluda rivers meet here to form the Congaree. Just south-east lies Congaree National Park, a dark, swampy old-growth forest, and to the west spreads the branching blue of Lake Murray.",
+    "w": "A city at a river confluence, with a large branching lake to the west and dark floodplain forest to the south-east.",
+    "f": [
+      "Columbia was laid out in 1786 to replace Charleston as the capital.",
+      "Congaree National Park protects the largest old-growth bottomland hardwood forest left in the south-eastern US.",
+      "Lake Murray was created by a dam on the Saluda River completed in 1930."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Columbia to form the Congaree?",
+      "a": "The Broad and the Saluda",
+      "x": [
+        "The Santee and the Saluda",
+        "The Broad and the Pee Dee"
+      ]
+    }
+  },
+  "Q223966": {
+    "t": "Peru's first Spanish city, in the sun-baked north",
+    "s": "In 1532, before he marched inland to meet the Inca, Francisco Pizarro founded a town in this northern desert: Piura, the first Spanish city in Peru. It moved a few times before settling on the river. Around it spreads the pale Sechura Desert, dotted with dry algarrobo forest. Its residents call it the City of Eternal Heat.",
+    "w": "A city on a river in flat, pale desert near the Pacific coast, with green irrigated strips along the water.",
+    "f": [
+      "Piura was founded in 1532 as San Miguel de Piura.",
+      "The algarrobo, a kind of mesquite, is the tree of the northern Peruvian desert and a local emblem.",
+      "In strong El Niño years, heavy rains can briefly fill the Sechura Desert with lakes."
+    ],
+    "q": {
+      "q": "Who founded Piura in 1532?",
+      "a": "Francisco Pizarro",
+      "x": [
+        "Diego de Almagro",
+        "Hernán Cortés"
+      ]
+    }
+  },
+  "Q320015": {
+    "t": "A carnival city at the foot of a volcano",
+    "s": "Pasto lies in a high green valley of the southern Colombian Andes at about 2,500 m, and the Galeras volcano rises right at its western edge. Every January the city explodes into the Carnival of Blacks and Whites, when people paint each other's faces and giant floats parade through the streets. To the south-east lies the large mountain lake of La Cocha.",
+    "w": "A city in a high green valley with a large volcano rising at its western edge; a big lake to the south-east.",
+    "f": [
+      "The Carnival of Blacks and Whites has been on UNESCO's intangible heritage list since 2009.",
+      "Galeras volcano rises to about 4,280 m, more than 1,700 m above the city.",
+      "Barniz de Pasto, a lacquer made from the resin of the mopa-mopa shrub, is a centuries-old local craft."
+    ],
+    "q": {
+      "q": "Which carnival is Pasto famous for?",
+      "a": "The Carnival of Blacks and Whites",
+      "x": [
+        "The Carnival of the Devil",
+        "The Flower Festival"
+      ]
+    }
+  },
+  "Q110017": {
+    "t": "Italian vineyards in Brazil's southern highlands",
+    "s": "In 1875 families from the Veneto began clearing the araucaria forest on these high, hilly lands of southern Brazil, and they brought their vines with them. Caxias do Sul grew from those colonies into an industrial city, but grapes still define it. Every few years the Festa da Uva celebrates the harvest. Winters here are cold, and snow is not unknown.",
+    "w": "A city on high, hilly ground with dark araucaria woods and vineyards; deep river valleys cutting into the plateau.",
+    "f": [
+      "Italian immigrants, mostly from the Veneto, began settling the area in 1875.",
+      "The Festa da Uva, a grape festival, was first held in 1931.",
+      "Marcopolo, one of the world's big bus-body makers, is based in Caxias do Sul."
+    ],
+    "q": {
+      "q": "Where did most of Caxias do Sul's first settlers come from?",
+      "a": "Northern Italy",
+      "x": [
+        "Germany",
+        "The Azores"
+      ]
+    }
+  },
+  "Q235190": {
+    "t": "A city balanced on a knife-edge ridge",
+    "s": "Manizales was built along the crest of a narrow Andean ridge, so its streets run along the top and the slopes fall away steeply on both sides. Settlers from Antioquia founded it in 1849, in the heart of coffee country. On clear mornings, the snowy summit of the Nevado del Ruiz shines to the south-east. Cable cars serve as public transport here.",
+    "w": "A city strung along a narrow ridge with steep green slopes on both sides; a snow-capped volcano to the south-east.",
+    "f": [
+      "Manizales was founded in 1849 by settlers from Antioquia.",
+      "The Nevado del Ruiz, about 5,320 m, rises some 30 km south-east of the city.",
+      "The area is part of the Coffee Cultural Landscape of Colombia, a UNESCO site since 2011."
+    ],
+    "q": {
+      "q": "Which snowy volcano looms over Manizales?",
+      "a": "Nevado del Ruiz",
+      "x": [
+        "Galeras",
+        "Cotopaxi"
+      ]
+    }
+  },
+  "Q518431": {
+    "t": "An anchovy boomtown on a desert bay",
+    "s": "Chimbote curves around a sheltered bay on Peru's bone-dry coast, with rocky islands at its mouth. In the 1960s it boomed as few towns ever have: the cold Humboldt Current teemed with anchovies, and Chimbote became one of the biggest fishing ports in the world. Just to the north, the Santa River brings a green valley down from the Andes.",
+    "w": "A city around a bay with islands at its mouth, on bare desert coast; a green river valley just to the north.",
+    "f": [
+      "Most of the anchovy catch landed here is turned into fishmeal for animal feed.",
+      "The Santa River, fed by the glaciers of the Cordillera Blanca, flows all year.",
+      "The bay is also known as Ferrol Bay."
+    ],
+    "q": {
+      "q": "Which fish made Chimbote a boomtown?",
+      "a": "Anchovy",
+      "x": [
+        "Tuna",
+        "Cod"
+      ]
+    }
+  },
+  "Q328846": {
+    "t": "Founded by those who chose to stay Mexican",
+    "s": "When the war of 1846–48 turned the Rio Grande into the border, Laredo ended up in the United States. Some of its families refused to change country: they crossed to the south bank and founded Nuevo Laredo in 1848. Today the two Laredos, joined by several bridges, form the busiest trade crossing on the whole border.",
+    "w": "A city on the south bank of a looping river, facing Laredo; flat, dry brush country all around.",
+    "f": [
+      "Nuevo Laredo was founded in 1848 by families who wanted to remain Mexican.",
+      "The city belongs to the state of Tamaulipas.",
+      "More US–Mexico trade passes through the two Laredos than any other crossing."
+    ],
+    "q": {
+      "q": "Why was Nuevo Laredo founded in 1848?",
+      "a": "For Laredo families staying Mexican",
+      "x": [
+        "As a railway town",
+        "As a silver-mining camp"
+      ]
+    }
+  },
+  "Q187805": {
+    "t": "Waterfalls downtown, flood-scoured land to the south-west",
+    "s": "Spokane grew around a set of waterfalls right in the city centre, where the Spokane River drops through basalt ledges. Look south-west and you'll see a strange landscape of bare channels and scattered lakes: the Channeled Scablands, gouged by colossal floods at the end of the last ice age. Father's Day was first celebrated here, in 1910.",
+    "w": "A city on a river among pine-covered hills; to the south-west, dark scoured channels and small lakes; wheat fields to the south.",
+    "f": [
+      "Father's Day was first celebrated in Spokane in June 1910.",
+      "When Spokane hosted the 1974 World's Fair, it was the smallest city ever to have done so.",
+      "The Ice Age floods that carved the Scablands burst out of glacial Lake Missoula, in today's Montana."
+    ],
+    "q": {
+      "q": "Which holiday was first celebrated in Spokane in 1910?",
+      "a": "Father's Day",
+      "x": [
+        "Mother's Day",
+        "Labor Day"
+      ]
+    }
+  },
+  "Q23551": {
+    "t": "A university town under Venezuela's highest peaks",
+    "s": "Mérida sits on a long, flat terrace in the deep valley of the Chama River, at about 1,600 m, walled in by two high ranges of the Venezuelan Andes. To the south-east tower the country's highest mountains, led by Pico Bolívar. A cable car climbs from the edge of town almost to the summits. Students of the old University of the Andes fill the streets.",
+    "w": "A city on a long, flat terrace in a deep valley between two high ranges; bare rocky peaks to the south-east.",
+    "f": [
+      "Pico Bolívar, about 4,980 m, is the highest mountain in Venezuela.",
+      "The Mukumbarí cable car rises from the city to Pico Espejo at about 4,765 m.",
+      "The Coromoto ice-cream parlour once held a world record for the most flavours on sale."
+    ],
+    "q": {
+      "q": "Which mountain, towering over Mérida, is Venezuela's highest?",
+      "a": "Pico Bolívar",
+      "x": [
+        "Pico Humboldt",
+        "Mount Roraima"
+      ]
+    }
+  },
+  "Q651906": {
+    "t": "Capital of the backlands of northern Minas",
+    "s": "North of the mining towns of Minas Gerais, the land grows drier and wider: this is the sertão, a country of cerrado scrub, cattle and dry-season dust. Montes Claros is its biggest city and its market town, a crossroads of highways and trade. These backlands are the setting of one of Brazil's greatest novels, Guimarães Rosa's Grande Sertão: Veredas.",
+    "w": "A city on a broad plain between low ridges, amid brownish cerrado in the dry season that turns green in the rains.",
+    "f": [
+      "Montes Claros means 'clear hills'.",
+      "It is the largest city in the north of Minas Gerais.",
+      "Pequi, a pungent cerrado fruit, is cooked with rice and chicken throughout the region."
+    ],
+    "q": {
+      "q": "Which famous Brazilian novel is set in the northern Minas backlands?",
+      "a": "Grande Sertão: Veredas",
+      "x": [
+        "Dom Casmurro",
+        "Os Sertões"
+      ]
+    }
+  },
+  "Q49225": {
+    "t": "The Biggest Little City, at the Sierra's dry foot",
+    "s": "On the dry, eastern side of the Sierra Nevada, Reno fills a high basin at about 1,370 m. Through downtown flows the Truckee River, which leaves Lake Tahoe just over the mountains and ends in Pyramid Lake in the desert, never reaching the sea. An arch over the main street proudly calls Reno 'The Biggest Little City in the World'.",
+    "w": "A city in a high desert basin at the eastern foot of forested mountains; a river winding east, Lake Tahoe hidden beyond the ridge.",
+    "f": [
+      "Pyramid Lake, where the Truckee ends, has no outlet to the sea.",
+      "In the 1930s Reno became famous for quick divorces, after Nevada cut residency to six weeks.",
+      "Lake Tahoe lies only about 35 km south-west, on the other side of the Carson Range."
+    ],
+    "q": {
+      "q": "Which lake does the Truckee River flow out of?",
+      "a": "Lake Tahoe",
+      "x": [
+        "Pyramid Lake",
+        "Mono Lake"
+      ]
+    }
+  },
+  "Q192235": {
+    "t": "Where three countries meet by a mighty dam",
+    "s": "Two big rivers meet just south of here, and three countries touch: Paraguay, Brazil and Argentina. Ciudad del Este, Paraguay's second city, faces Brazil across the Paraná, joined by the Friendship Bridge, and its streets are crowded with shoppers from across the border. Just upstream stands the Itaipú Dam, and a short way south thunder the Iguazu Falls.",
+    "w": "A city on the west bank of a wide river facing Brazil; a huge reservoir behind a dam just to the north.",
+    "f": [
+      "The Itaipú Dam, shared by Paraguay and Brazil, is one of the largest hydroelectric plants in the world.",
+      "The Friendship Bridge across the Paraná links the city with Foz do Iguaçu in Brazil.",
+      "Ciudad del Este was founded only in 1957."
+    ],
+    "q": {
+      "q": "Which huge dam lies just north of Ciudad del Este?",
+      "a": "Itaipú",
+      "x": [
+        "Yacyretá",
+        "Guri"
+      ]
+    }
+  },
+  "Q109188": {
+    "t": "Salt beef, sweet pastries and two vast lagoons",
+    "s": "Pelotas lies on a flat plain beside the channel that links Brazil's two great coastal lagoons, the Lagoa dos Patos and the Lagoa Mirim. In the 19th century its salt-beef works made it one of the richest towns in the country, and the wealth built grand mansions. Its Portuguese-style egg and sugar sweets are still famous.",
+    "w": "A flat city on a channel between two huge lagoons; the enormous Lagoa dos Patos stretching to the north-east.",
+    "f": [
+      "The name comes from pelotas, small boats of stretched hide once used to cross the rivers.",
+      "The sweets of Pelotas were declared part of Brazil's cultural heritage in 2018.",
+      "The Lagoa dos Patos is the largest coastal lagoon in Brazil."
+    ],
+    "q": {
+      "q": "What were the 'pelotas' that gave the city its name?",
+      "a": "Small hide boats",
+      "x": [
+        "Clay balls",
+        "Cattle ranches"
+      ]
+    }
+  },
+  "Q217071": {
+    "t": "Where the road from Lima meets the rivers of the Amazon",
+    "s": "The Ucayali twists across the green plain in huge loops, leaving behind crescent-shaped lakes wherever it changes course. Pucallpa sits on its bank, at the point where the long road over the Andes from Lima finally reaches a river that ships can follow to the Amazon. Right next to the city lies Yarinacocha, an old river bend turned into a lake.",
+    "w": "A wide brown river looping wildly across green forest, with crescent lakes everywhere; the city on its bank beside one of them.",
+    "f": [
+      "Yarinacocha, the oxbow lake on the city's northern edge, was once a bend of the Ucayali.",
+      "Riverboats sail from Pucallpa down the Ucayali to Iquitos, a trip of several days.",
+      "The Shipibo-Konibo people are known for kené, intricate geometric patterns on cloth and pottery."
+    ],
+    "q": {
+      "q": "On which river does Pucallpa stand?",
+      "a": "The Ucayali",
+      "x": [
+        "The Marañón",
+        "The Huallaga"
+      ]
+    }
+  },
+  "Q22062839": {
+    "t": "A cool plateau city in the Bahian backlands",
+    "s": "Vitória da Conquista stands on a plateau at about 900 m in south-western Bahia, and that height gives it cool nights that surprise visitors to north-eastern Brazil. Coffee grows on the surrounding hills. It is the third-largest city in Bahia and a crossroads on the highway between the north-east and the south. Film-maker Glauber Rocha was born here.",
+    "w": "A city on a high plateau of farms and coffee plantations; the land drops away to lower, drier country around it.",
+    "f": [
+      "Glauber Rocha, a leader of Brazil's Cinema Novo, was born here in 1939.",
+      "At about 900 m, it is one of the coolest cities in north-eastern Brazil.",
+      "It is Bahia's third-largest city, after Salvador and Feira de Santana."
+    ],
+    "q": {
+      "q": "Which film-maker was born in Vitória da Conquista?",
+      "a": "Glauber Rocha",
+      "x": [
+        "Nelson Pereira dos Santos",
+        "Walter Salles"
+      ]
+    }
+  },
+  "Q172512": {
+    "t": "A railway built for rubber, on the Amazon's big tributary",
+    "s": "Porto Velho grew up where boats on the Madeira River met a stretch of rapids they could not pass. To get Bolivian rubber around them, a railway was cut through the jungle, finished in 1912. The capital of Rondônia now sits beside a big hydroelectric dam, and around it the forest is cut into long clearings like the bones of a fish.",
+    "w": "A city on the east bank of a wide brown river, a dam just upstream; forest cut into fishbone-shaped clearings around it.",
+    "f": [
+      "The Madeira–Mamoré Railway, finished in 1912, ran about 366 km around the rapids.",
+      "The Madeira is the Amazon's largest tributary.",
+      "The Santo Antônio hydroelectric dam stands at the edge of the city."
+    ],
+    "q": {
+      "q": "Which river flows past Porto Velho?",
+      "a": "The Madeira",
+      "x": [
+        "The Tapajós",
+        "The Xingu"
+      ]
+    }
+  },
+  "Q39178": {
+    "t": "Carnival capital between mountains and a calm gulf",
+    "s": "Port of Spain lies on the calm Gulf of Paria, with the forested Northern Range rising right behind it. Just north of downtown, look for a big green oval: the Queen's Park Savannah, heart of one of the world's great carnivals. Trinidad gave the world the steelpan, an instrument hammered out of oil drums. Venezuela is only a short hop across the water.",
+    "w": "A city on a calm gulf at the foot of forested mountains; a large green oval north of downtown, mangrove swamp to the south.",
+    "f": [
+      "The steelpan, made from oil drums, was invented in Trinidad in the 20th century.",
+      "At the Dragon's Mouths, Trinidad is only about 11 km from the coast of Venezuela.",
+      "The Caroni Swamp, just south of the city, is famous for flocks of scarlet ibis at dusk."
+    ],
+    "q": {
+      "q": "Which musical instrument was invented in Trinidad?",
+      "a": "The steelpan",
+      "x": [
+        "The marimba",
+        "The bongo drums"
+      ]
+    }
+  },
+  "Q242906": {
+    "t": "Stone goblets on the grassy plains of Paraná",
+    "s": "Ponta Grossa lies on the Campos Gerais, rolling natural grasslands on a high plateau of Paraná. Its name, 'big point', recalls a wooded hill that stood out on the open plain. The city grew as a stop on the old cattle trail to São Paulo. Nearby, in Vila Velha State Park, wind and rain have sculpted sandstone into towers, one shaped like a giant goblet.",
+    "w": "A city on rolling open grassland with dark patches of pine plantations; a low escarpment to the east.",
+    "f": [
+      "Vila Velha State Park's sandstone pillars include one known as 'the Cup'.",
+      "The park also has deep water-filled sinkholes called furnas.",
+      "Drovers taking mules from the south to Sorocaba once rested their herds here."
+    ],
+    "q": {
+      "q": "What is Vila Velha State Park near Ponta Grossa known for?",
+      "a": "Sandstone pillars",
+      "x": [
+        "Hot springs",
+        "Salt flats"
+      ]
+    }
+  },
+  "Q54886": {
+    "t": "Where Panama hats are actually made",
+    "s": "Cuenca sits in a green Andean basin at about 2,550 m, crossed by four rivers, and its colonial centre is a UNESCO World Heritage site. Here's a surprise: the famous Panama hat comes from here and the surrounding towns, woven from toquilla straw. It got its name because it was sold to travellers and canal workers in Panama. West of the city, the Cajas moors glitter with lakes.",
+    "w": "A city in a green mountain basin crossed by several rivers; high moorland dotted with small lakes to the west.",
+    "f": [
+      "Cuenca's historic centre has been on the UNESCO World Heritage list since 1999.",
+      "The Inca built a major city here called Tomebamba before the Spanish arrived.",
+      "Cajas National Park, just west, holds more than 200 lakes and ponds."
+    ],
+    "q": {
+      "q": "Which famous hat is actually made in and around Cuenca?",
+      "a": "The Panama hat",
+      "x": [
+        "The bowler hat",
+        "The sombrero vueltiao"
+      ]
+    }
+  },
+  "Q49242": {
+    "t": "Behind the longest barrier island on Earth",
+    "s": "Look along the Texas coast for a thin ribbon of sand that seems to go on forever: Padre Island, the longest barrier island in the world. Corpus Christi sits on a round bay sheltered behind its northern end. Between the island and the mainland lies the shallow, salty Laguna Madre. On the quiet beaches, rare sea turtles come ashore to lay eggs.",
+    "w": "A round bay behind a thin sandy island that runs far to the south; a narrow lagoon between the island and the mainland.",
+    "f": [
+      "Padre Island stretches about 180 km along the Texas coast.",
+      "Padre Island National Seashore is the main US nesting beach of the Kemp's ridley sea turtle.",
+      "Tradition says the bay was named on the feast of Corpus Christi in 1519."
+    ],
+    "q": {
+      "q": "Which long barrier island lies off Corpus Christi?",
+      "a": "Padre Island",
+      "x": [
+        "Galveston Island",
+        "Hatteras Island"
+      ]
+    }
+  },
+  "Q842143": {
+    "t": "Grapes and mangoes in the heart of the dry backlands",
+    "s": "In the grey-brown scrub of Brazil's semi-arid north-east, a blaze of green appears along the São Francisco River: irrigated vineyards and mango orchards. Petrolina, on the Pernambuco bank, faces its twin Juazeiro across the river. With sun almost every day and water from the river, vines here can give more than two harvests a year.",
+    "w": "Bright green irrigated fields along a big river in brownish scrubland; twin cities joined by a bridge; a vast reservoir upstream.",
+    "f": [
+      "Mangoes and grapes from this valley are exported to Europe and North America.",
+      "Upstream, the Sobradinho reservoir is one of the largest artificial lakes in the world by area.",
+      "The valley also makes wine, unusual so close to the equator."
+    ],
+    "q": {
+      "q": "Which city faces Petrolina across the São Francisco River?",
+      "a": "Juazeiro",
+      "x": [
+        "Juazeiro do Norte",
+        "Paulo Afonso"
+      ]
+    }
+  },
+  "Q171612": {
+    "t": "A rubber town that joined Brazil in 1903",
+    "s": "Rio Branco grew on the meandering Acre River, deep in the western Amazon, from a rubber-tapping settlement of the 1880s. Back then this land was claimed by Bolivia; it became Brazilian by treaty in 1903, and the city was named after the diplomat who negotiated it, the Baron of Rio Branco. Today it is the capital of Acre.",
+    "w": "A city on a winding river in the rainforest, surrounded by cattle pastures cut out of the forest.",
+    "f": [
+      "The Treaty of Petrópolis, signed in 1903, made Acre part of Brazil.",
+      "The city began in 1882 as a rubber estate on the Acre River.",
+      "The Santo Daime religion was founded near Rio Branco in the 1930s."
+    ],
+    "q": {
+      "q": "Which country did Acre belong to before 1903?",
+      "a": "Bolivia",
+      "x": [
+        "Paraguay",
+        "Colombia"
+      ]
+    }
+  },
+  "Q80517": {
+    "t": "Named after the man who cleared a giant logjam",
+    "s": "For centuries a vast tangle of fallen trees, the Great Raft, choked the Red River for well over 200 km. In the 1830s Captain Henry Shreve cleared it with his snag boats, opening the river to steamboats, and the town that sprang up was named after him. Shreveport faces Bossier City across the rust-coloured river, amid pine forests and lakes.",
+    "w": "A city on a winding, reddish-brown river with oxbow lakes, surrounded by pine forest; a large lake just west of downtown.",
+    "f": [
+      "Henry Shreve's snag boats pulled apart the Great Raft logjam in the 1830s.",
+      "Elvis Presley made some of his first broadcasts on Shreveport's Louisiana Hayride in 1954.",
+      "The Red River takes its colour from the reddish soils it carries."
+    ],
+    "q": {
+      "q": "What did Henry Shreve clear from the Red River?",
+      "a": "A giant logjam",
+      "x": [
+        "A sandbar",
+        "A waterfall"
+      ]
+    }
+  },
+  "Q44239": {
+    "t": "Two rivers join to make one, in dinosaur country",
+    "s": "In the brown Patagonian steppe, two rivers from the Andes meet — the Limay and the Neuquén — and together become the Río Negro. Neuquén sits right at the fork, at the head of a green strip of apple and pear orchards. The province is famous for giants: some of the largest dinosaurs ever found were dug up here.",
+    "w": "A city at the fork of two rivers in brown steppe; a green ribbon of orchards running east along the merged river.",
+    "f": [
+      "Argentinosaurus and Giganotosaurus, two of the largest known dinosaurs, were found in Neuquén province.",
+      "The city was founded in 1904 and became the provincial capital that same year.",
+      "The Vaca Muerta shale formation in the province holds huge oil and gas reserves."
+    ],
+    "q": {
+      "q": "Which two rivers meet at Neuquén to form the Río Negro?",
+      "a": "The Limay and the Neuquén",
+      "x": [
+        "The Colorado and the Neuquén",
+        "The Limay and the Chubut"
+      ]
+    }
+  },
+  "Q43919": {
+    "t": "A capital in the green Willamette Valley",
+    "s": "Oregon's capital lies in the heart of the Willamette Valley, a flat patchwork of farms, hazelnut orchards and grass-seed fields between two mountain ranges. The city grew from a Methodist mission of the 1840s on the Willamette River. On clear days, the snowy cones of the Cascades line the eastern horizon, and the lower Coast Range closes the view to the west.",
+    "w": "A city on a winding river in a flat green-and-gold valley; the Coast Range to the west, snowy Cascade volcanoes to the east.",
+    "f": [
+      "Willamette University in Salem, founded in 1842, is the oldest university in the western US.",
+      "Oregon grows nearly all of America's hazelnuts, mostly in the Willamette Valley.",
+      "A gilded statue of a pioneer stands on top of the Oregon State Capitol."
+    ],
+    "q": {
+      "q": "Which river flows through Salem, Oregon?",
+      "a": "The Willamette",
+      "x": [
+        "The Columbia",
+        "The Snake"
+      ]
+    }
+  },
+  "Q61320": {
+    "t": "A city of palms beneath a smoking volcano",
+    "s": "Colima is a warm, low city of palms in western Mexico, and its horizon is dominated by two volcanoes. The nearer one, the Volcán de Colima, is among the most active in the country and often trails a plume. Behind it rises the older, higher Nevado de Colima, sometimes white with snow. In ancient tombs here, archaeologists found hundreds of plump clay dogs.",
+    "w": "A city on a green plain with two large volcanoes to the north, one often smoking.",
+    "f": [
+      "The Volcán de Colima, about 30 km north of the city, is one of Mexico's most active volcanoes.",
+      "The neighbouring Nevado de Colima rises to over 4,200 m.",
+      "The clay dogs of ancient Colima were buried in deep shaft tombs."
+    ],
+    "q": {
+      "q": "Which animal do Colima's famous ancient clay figures show?",
+      "a": "Dogs",
+      "x": [
+        "Jaguars",
+        "Eagles"
+      ]
+    }
+  },
+  "Q44214": {
+    "t": "The 'beautiful bend' of the Paraguay River",
+    "s": "Old Spanish sailors called this bend of the Paraguay River the Vuelta Formosa, the 'beautiful bend', and the name stuck. The city, capital of Argentina's Formosa province, faces Paraguay across the wide brown river. Behind it spreads the flat, humid Chaco: palm savannas, forest islands and wetlands under a big sky.",
+    "w": "A city on a bend of a wide brown river facing Paraguay; flat green plains with palm savanna and wetlands to the west.",
+    "f": [
+      "Formosa was founded in 1879 by Luis Jorge Fontana.",
+      "Across the river lies the Paraguayan town of Alberdi.",
+      "The Bañado La Estrella, in the west of the province, is one of Argentina's largest wetlands."
+    ],
+    "q": {
+      "q": "Which river separates Formosa city from Paraguay?",
+      "a": "The Paraguay River",
+      "x": [
+        "The Uruguay River",
+        "The Bermejo"
+      ]
+    }
+  },
+  "Q37043": {
+    "t": "A capital picked for being halfway",
+    "s": "In 1824 Florida's two main towns, Pensacola and St. Augustine, lay more than 500 km apart, so lawmakers met in the middle and built a capital in the forest: Tallahassee. It sits among rolling red-clay hills, unusual for flat Florida, and its old 'canopy roads' run under arches of live oaks hung with Spanish moss. The Gulf coast lies about 35 km south.",
+    "w": "A city in rolling, forested hills dotted with lakes; the flat, dark pine forests of the Gulf coast to the south.",
+    "f": [
+      "Hernando de Soto's expedition spent the winter of 1539–40 in the area.",
+      "The Apalachicola National Forest, the largest in Florida, begins at the city's south-western edge.",
+      "Florida State University and Florida A&M are both in Tallahassee."
+    ],
+    "q": {
+      "q": "Why was Tallahassee chosen as Florida's capital in 1824?",
+      "a": "It lay halfway between two main towns",
+      "x": [
+        "It had the best harbour",
+        "It was the oldest settlement"
+      ]
+    }
+  },
+  "Q61301": {
+    "t": "A walled port that stood up to the pirates",
+    "s": "In the 1600s pirates sacked Campeche again and again, so the Spanish finally ringed it with thick walls and bastions. Much of that fortress still stands, and inside it the streets are painted in pastel colours. The city faces the shallow, greenish Gulf of Mexico on the west coast of the Yucatán Peninsula, and the sun sets straight over the sea.",
+    "w": "A city on the flat western coast of the Yucatán Peninsula facing the Gulf; pale-green shallow water offshore, low forest inland.",
+    "f": [
+      "The city walls were built between 1686 and 1704 to keep out pirates.",
+      "The fortified town has been a UNESCO World Heritage site since 1999.",
+      "The Maya city of Calakmul, deep in the forest of Campeche state, is also a UNESCO site."
+    ],
+    "q": {
+      "q": "Why did the Spanish wall in Campeche?",
+      "a": "To keep out pirates",
+      "x": [
+        "To hold back the sea",
+        "To guard a silver mint"
+      ]
+    }
+  },
+  "Q29364": {
+    "t": "Where a bus seat changed American history",
+    "s": "On 1 December 1955, Rosa Parks refused to give up her bus seat in Montgomery, and the boycott that followed made the city a birthplace of the civil rights movement. Alabama's capital sits on a looping stretch of the Alabama River, amid the dark, fertile farmland of the Black Belt. The Wright brothers opened one of the first flying schools here in 1910.",
+    "w": "A city on a looping river amid flat farmland and forest in central Alabama.",
+    "f": [
+      "The Montgomery bus boycott lasted more than a year, from 1955 to 1956.",
+      "In 1910 the Wright brothers opened a flying school on the edge of the city.",
+      "The Black Belt around Montgomery is named for its dark, rich soil."
+    ],
+    "q": {
+      "q": "Whose refusal to give up a bus seat began the Montgomery bus boycott?",
+      "a": "Rosa Parks",
+      "x": [
+        "Harriet Tubman",
+        "Coretta Scott King"
+      ]
+    }
+  },
+  "Q36168": {
+    "t": "A capital on the island that stands apart",
+    "s": "Barbados sits alone in the Atlantic, east of the arc of Caribbean islands, a low, green, pear-shaped island of coral limestone. Bridgetown lies on Carlisle Bay on its south-west coast, where the water turns turquoise over the reefs. The old town and its British garrison are a UNESCO World Heritage site. George Washington stayed here in 1751.",
+    "w": "A low green island alone to the east of the island chain; the capital on a bay on its sheltered south-west coast.",
+    "f": [
+      "George Washington visited Barbados in 1751, his only journey outside mainland North America.",
+      "Historic Bridgetown and its Garrison became a UNESCO World Heritage site in 2011.",
+      "Barbados is made largely of coral limestone rather than volcanic rock."
+    ],
+    "q": {
+      "q": "Which future US president visited Barbados in 1751?",
+      "a": "George Washington",
+      "x": [
+        "Thomas Jefferson",
+        "John Adams"
+      ]
+    }
+  },
+  "Q214215": {
+    "t": "Sunset over the Sea of Cortez",
+    "s": "Near the southern tip of the Baja California peninsula, a round bay is closed off by a long sandbar, and La Paz stretches along its shore. Thanks to the bay's shape, this Gulf city watches the sun set over the water. Desert mountains rise behind it, while the islands of Espíritu Santo lie just to the north, and whale sharks visit the bay.",
+    "w": "A city on a round bay partly closed by a long sandbar; rugged islands to the north, desert mountains behind.",
+    "f": [
+      "Hernán Cortés tried to found a colony here in 1535.",
+      "The Espíritu Santo islands are part of a UNESCO World Heritage site covering the Gulf of California's islands.",
+      "La Paz is the capital of the state of Baja California Sur."
+    ],
+    "q": {
+      "q": "Who tried to found a colony at La Paz in 1535?",
+      "a": "Hernán Cortés",
+      "x": [
+        "Francisco Pizarro",
+        "Juan Rodríguez Cabrillo"
+      ]
+    }
+  },
+  "Q2203": {
+    "t": "Home of mummies older than Egypt's",
+    "s": "Arica sits where the bare Atacama Desert meets the Pacific, beneath a steep headland called the Morro. It is Chile's northernmost city and one of the driest inhabited places on Earth: rain may not fall for years. Yet some 7,000 years ago, the Chinchorro fishing people here were already mummifying their dead, long before the Egyptians.",
+    "w": "A coastal city at the foot of a steep headland; two thin green valleys cutting through bare brown desert.",
+    "f": [
+      "Arica averages less than a millimetre of rain a year.",
+      "The Chinchorro mummification sites became a UNESCO World Heritage site in 2021.",
+      "The green Azapa Valley, just inland, grows olives and tomatoes in the middle of the desert."
+    ],
+    "q": {
+      "q": "What is special about Arica's Chinchorro mummies?",
+      "a": "Oldest known artificial mummies",
+      "x": [
+        "Found frozen on a volcano summit",
+        "Buried with Inca gold"
+      ]
+    }
+  },
+  "Q51691": {
+    "t": "Yellow city on a table-flat plain",
+    "s": "Few places on Earth are as flat as the Llano Estacado, the high tableland of the Texas Panhandle, and Amarillo sits right in the middle of it. Circles of irrigated crops and vast cattle feedlots dot the plain. Then, to the south-east, the ground suddenly falls away into Palo Duro Canyon, a gash of red and gold rock.",
+    "w": "A city on an utterly flat plain of circles and squares; a red canyon cutting into the plateau to the south-east.",
+    "f": [
+      "Amarillo means 'yellow' in Spanish.",
+      "Palo Duro Canyon is often called the second-largest canyon in the United States.",
+      "Amarillo was once called the Helium Capital of the World for the gas stored and produced nearby."
+    ],
+    "q": {
+      "q": "What does 'Amarillo' mean in Spanish?",
+      "a": "Yellow",
+      "x": [
+        "Windy",
+        "Plain"
+      ]
+    }
+  },
+  "Q159288": {
+    "t": "The California coast that faces south",
+    "s": "Here the California coast takes a turn and runs east–west, so Santa Barbara's beaches face south into the sun. The city fills a narrow shelf between the Pacific and the steep Santa Ynez Mountains, all white walls and red-tiled roofs. It calls itself the American Riviera. Out on the horizon float the Channel Islands.",
+    "w": "A city on a narrow coastal shelf between the ocean and a steep mountain wall; the coast running east–west, islands offshore.",
+    "f": [
+      "Mission Santa Barbara, founded in 1786, is known as the Queen of the Missions.",
+      "The Channel Islands, about 40 km offshore, form a national park.",
+      "The Santa Ynez Mountains rise to over 1,200 m just behind the city."
+    ],
+    "q": {
+      "q": "Which way do Santa Barbara's beaches face?",
+      "a": "South",
+      "x": [
+        "West",
+        "North"
+      ]
+    }
+  },
+  "Q83813": {
+    "t": "A city planned around squares, in a sea of marsh",
+    "s": "Savannah was designed on paper in 1733: James Oglethorpe laid out a grid of neighbourhoods, each built around a small square, and 22 of those squares survive, shaded by live oaks and Spanish moss. The city sits on a bluff above the Savannah River, which winds through wide golden-green salt marshes to the Atlantic.",
+    "w": "A city on the south bank of a river winding through wide golden-green salt marshes toward the Atlantic.",
+    "f": [
+      "James Oglethorpe founded Savannah in 1733 as the first city of the Georgia colony.",
+      "Juliette Gordon Low founded the Girl Scouts of the USA in Savannah in 1912.",
+      "The Port of Savannah is one of the busiest container ports in the United States."
+    ],
+    "q": {
+      "q": "Who founded Savannah in 1733?",
+      "a": "James Oglethorpe",
+      "x": [
+        "William Penn",
+        "John Smith"
+      ]
+    }
+  },
+  "Q79783": {
+    "t": "Twin towns named for walnut trees",
+    "s": "In a narrow valley between dry hills, the border runs straight over the ridges and splits one town in two: Nogales, Sonora, in Mexico and the much smaller Nogales, Arizona. The name means 'walnut trees', which once grew in the pass. In winter, lorries loaded with Mexican tomatoes, peppers and cucumbers queue here to cross into the United States.",
+    "w": "Twin towns in a narrow valley of dry hills, cut by a straight border line; a highway heading north toward Tucson.",
+    "f": [
+      "Nogales means 'walnut trees' in Spanish.",
+      "A large share of the fresh vegetables Mexico sends to the US in winter crosses at Nogales.",
+      "Tucson lies about 100 km to the north."
+    ],
+    "q": {
+      "q": "What does 'Nogales' mean?",
+      "a": "Walnut trees",
+      "x": [
+        "Pine trees",
+        "Oak trees"
+      ]
+    }
+  },
+  "Q34109": {
+    "t": "Flat as a table, on a river that runs north",
+    "s": "Around Fargo the land is astonishingly flat: this is the bed of glacial Lake Agassiz, a vast lake that covered the region at the end of the last ice age. Fields stretch in perfect squares to the horizon. Along the city's eastern edge winds the Red River of the North, the border with Minnesota, flowing north toward Canada.",
+    "w": "A grid city on dead-flat farmland cut into huge squares; a thin, winding river along its east side.",
+    "f": [
+      "The Red River of the North flows north into Lake Winnipeg, in Canada.",
+      "Fargo faces its twin, Moorhead, Minnesota, across the river.",
+      "The city was named after William Fargo, a director of the Northern Pacific Railway."
+    ],
+    "q": {
+      "q": "Which ancient lake bed makes the land around Fargo so flat?",
+      "a": "Lake Agassiz",
+      "x": [
+        "Lake Bonneville",
+        "Lake Missoula"
+      ]
+    }
+  },
+  "Q659400": {
+    "t": "Home turf of the Venus flytrap",
+    "s": "Wilmington sits on the Cape Fear River, some 40 km before it reaches the Atlantic, with barrier-island beaches just to the east. The pine savannas around it hide a botanical wonder: the Venus flytrap, which grows wild only in this small corner of the Carolinas. Film studios have also turned the city into a busy location for movies and TV.",
+    "w": "A city on the east bank of a wide river, with barrier-island beaches to the east; pine forest and swamp around.",
+    "f": [
+      "The Venus flytrap grows wild only within about 120 km of Wilmington.",
+      "The Cape Fear River meets the Atlantic about 40 km south of the city.",
+      "Wilmington's film studios have produced dozens of movies and TV series."
+    ],
+    "q": {
+      "q": "Which carnivorous plant grows wild only near Wilmington?",
+      "a": "The Venus flytrap",
+      "x": [
+        "The cobra lily",
+        "The waterwheel plant"
+      ]
+    }
+  },
+  "Q35004": {
+    "t": "Bolivia's wine valley, high in the Andes",
+    "s": "In the far south of Bolivia, a warm green valley opens at about 1,850 m, and vineyards cover its floor: this is Tarija, Bolivia's wine country. Its vines are among the highest-growing in the world. The valley also makes singani, the national grape brandy. The city was founded in 1574, and its easy-going charm earned it the name 'Andalusia of Bolivia'.",
+    "w": "A green valley of vineyards in the southern Andes, ringed by eroded, pale badlands; a reservoir to the south-west.",
+    "f": [
+      "Luis de Fuentes founded Tarija in 1574.",
+      "Singani, Bolivia's national grape spirit, is distilled in the valleys around Tarija.",
+      "Fossils of Ice Age giants such as mastodons have been found in the valley's eroded badlands."
+    ],
+    "q": {
+      "q": "Which spirit, besides wine, is Tarija known for?",
+      "a": "Singani",
+      "x": [
+        "Pisco",
+        "Mezcal"
+      ]
+    }
+  },
+  "Q1384520": {
+    "t": "Gateway to a new frontier of soy and cotton",
+    "s": "Barreiras sits in a river valley in western Bahia, and above it, on the vast flat plateau to the west, lies one of Brazil's newest farming frontiers. Since the 1980s, the native cerrado there has been turned into huge fields of soy, maize and cotton, many watered by circular pivots. The town grew from a river port into a busy agricultural hub.",
+    "w": "A city in a river valley below the edge of a vast flat plateau covered in huge rectangular fields and green irrigation circles.",
+    "f": [
+      "Barreiras stands on the Rio Grande, a tributary of the São Francisco.",
+      "Many of the plateau's farmers came from southern Brazil, especially Rio Grande do Sul.",
+      "Western Bahia is one of Brazil's leading cotton-growing regions."
+    ],
+    "q": {
+      "q": "Which river flows through Barreiras?",
+      "a": "The Rio Grande",
+      "x": [
+        "The Rio Pardo",
+        "The Rio Doce"
+      ]
+    }
+  },
+  "Q42735": {
+    "t": "A small capital at the tip of Puget Sound",
+    "s": "Puget Sound ends in a spread of long, narrow fingers of water, and at the tip of one of them sits Olympia, the capital of Washington State. Despite its title, it is a small city of trees and water. On clear days, the white cone of Mount Rainier dominates the eastern horizon, and the Olympic Mountains, which gave the city its name, rise to the north-west.",
+    "w": "The southern fingers of Puget Sound; a small city at the tip of one inlet, Mount Rainier's white cone to the east.",
+    "f": [
+      "Olympia is named after the Olympic Mountains, visible to the north-west on clear days.",
+      "The Nisqually River delta, just north-east of the city, is a protected estuary rich in birds.",
+      "Washington's Capitol dome is one of the tallest masonry domes in the world."
+    ],
+    "q": {
+      "q": "Olympia takes its name from which mountains?",
+      "a": "The Olympic Mountains",
+      "x": [
+        "The Cascades",
+        "The Blue Mountains"
+      ]
+    }
+  },
+  "Q131335": {
+    "t": "Pink stone waterfalls on the prairie",
+    "s": "Out on the flat farmland of eastern South Dakota, the Big Sioux River loops around the centre of Sioux Falls and tumbles over wide ledges of pink quartzite. The falls gave the city its name and its start. The same hard pink stone, quarried nearby, built many of its old buildings. Today it is the largest city in South Dakota.",
+    "w": "A city on flat prairie farmland, with a river curling around its centre.",
+    "f": [
+      "The falls cascade over Sioux quartzite, a hard pink rock about 1.6 billion years old.",
+      "Sioux Falls is the most populous city in South Dakota.",
+      "Local quartzite was used for many of the city's 19th-century buildings."
+    ],
+    "q": {
+      "q": "What rock forms the falls at Sioux Falls?",
+      "a": "Pink quartzite",
+      "x": [
+        "Black basalt",
+        "White limestone"
+      ]
+    }
+  },
+  "Q14467": {
+    "t": "Chile's second-oldest city, under the clearest skies",
+    "s": "La Serena spreads along a wide bay where the green Elqui Valley reaches the sea through bare desert hills. Founded in 1544, it is the second-oldest city in Chile. Inland, the Elqui's dry, cloudless nights have drawn some of the world's great observatories to the mountaintops, and its vineyards distil pisco. Its twin, Coquimbo, sits on the headland to the south.",
+    "w": "A city on a wide bay where a green valley meets the sea through desert hills; its twin city on a headland to the south.",
+    "f": [
+      "Founded in 1544, La Serena is Chile's second-oldest city after Santiago.",
+      "Observatories such as Cerro Tololo and La Silla crown mountaintops inland from the city.",
+      "Poet Gabriela Mistral, Nobel laureate in 1945, grew up in the Elqui Valley."
+    ],
+    "q": {
+      "q": "Which poet, a Nobel laureate, grew up in the Elqui Valley?",
+      "a": "Gabriela Mistral",
+      "x": [
+        "Pablo Neruda",
+        "Vicente Huidobro"
+      ]
+    }
+  },
+  "Q16910": {
+    "t": "Chile's own Los Ángeles, below the southern volcanoes",
+    "s": "Yes, Chile has a Los Ángeles too: a farming and forestry town in the Central Valley, some 450 km south of Santiago. Around it, flat green fields alternate with dark pine plantations. To the east the Andes rise, with the snowy cone of Antuco above Laguna del Laja. Just north, the Laja River plunges over a wide horseshoe of falls.",
+    "w": "A town on a flat green valley with dark pine plantations; snowy volcanic cones in the Andes to the east.",
+    "f": [
+      "The town was founded in 1739 as the Villa de Santa María de los Ángeles.",
+      "The Laja Falls lie about 25 km north of the city.",
+      "The Antuco volcano rises to about 2,980 m above Laguna del Laja."
+    ],
+    "q": {
+      "q": "Which famous waterfalls lie north of Los Ángeles, Chile?",
+      "a": "The Laja Falls",
+      "x": [
+        "The Petrohué Falls",
+        "The Huilo-Huilo Falls"
+      ]
+    }
+  },
+  "Q41057": {
+    "t": "A prairie capital where a landmark case began",
+    "s": "Kansas's capital lies on the winding Kansas River amid rolling farmland, with the tallgrass hills of the Flint Hills to the south-west. In 1951 a Topeka father sued the school board so his daughter could attend a nearby whites-only school. The case, Brown v. Board of Education, ended in 1954 with the Supreme Court outlawing school segregation.",
+    "w": "A city on a winding river in rolling farmland; the grassy Flint Hills to the south-west.",
+    "f": [
+      "The name is often said to mean 'a good place to dig potatoes'.",
+      "Charles Curtis, the first US vice president of Native American descent, was born in Topeka in 1860.",
+      "The Flint Hills hold one of the largest surviving tracts of tallgrass prairie in North America."
+    ],
+    "q": {
+      "q": "Which landmark court case began in Topeka?",
+      "a": "Brown v. Board of Education",
+      "x": [
+        "Roe v. Wade",
+        "Marbury v. Madison"
+      ]
+    }
+  },
+  "Q3868": {
+    "t": "A silver-rush town in the Atacama",
+    "s": "A thin thread of green winds through bare brown mountains: the valley of the Copiapó River, and in it the city of Copiapó. In 1832 a silver strike nearby made it rich, and in 1851 it got Chile's first railway, down to the port of Caldera. When rare rains fall, the desert around it bursts into flower, a spectacle called the desierto florido.",
+    "w": "A thin green valley winding through bare desert mountains; the city in the valley, the high Andes far to the east.",
+    "f": [
+      "Chile's first railway, opened in 1851, ran from Copiapó to the port of Caldera.",
+      "The silver of Chañarcillo, found in 1832, brought a rush to the region.",
+      "Ojos del Salado, the world's highest volcano at about 6,890 m, rises on the border to the east."
+    ],
+    "q": {
+      "q": "Where did Chile's first railway, from Copiapó, lead?",
+      "a": "The port of Caldera",
+      "x": [
+        "Valparaíso",
+        "Antofagasta"
+      ]
+    }
+  },
+  "Q44564": {
+    "t": "A capital squeezed into an Appalachian valley",
+    "s": "In West Virginia there is almost no flat land, and Charleston makes the most of a narrow river valley, strung along the Kanawha where the Elk River flows in. Steep, forested ridges rise straight from the edge of town. In the early 1800s salt boiled from brine wells here was shipped all over the country; later came coal, gas and chemicals.",
+    "w": "A city squeezed into a narrow, winding river valley between steep, forested ridges.",
+    "f": [
+      "Charleston lies where the Elk River flows into the Kanawha.",
+      "Frontiersman Daniel Boone lived in the Kanawha valley in the 1790s.",
+      "The gold-leaf dome of the West Virginia Capitol is slightly taller than the US Capitol's."
+    ],
+    "q": {
+      "q": "Which river meets the Kanawha at Charleston?",
+      "a": "The Elk",
+      "x": [
+        "The Ohio",
+        "The Monongahela"
+      ]
+    }
+  },
+  "Q44215": {
+    "t": "A small capital on the endless pampas",
+    "s": "Santa Rosa is a neat grid of streets set down on the flat pampas of central Argentina, with nothing but fields and sky around it. It was founded only in 1892 and is the capital of La Pampa province. On its western edge lies a shallow lake ringed by a park. Further west, farmland gives way to dry woods of caldén.",
+    "w": "A small grid city on endlessly flat plains; a shallow lake on its western edge, farmland squares turning to scrub westward.",
+    "f": [
+      "Santa Rosa was founded in 1892.",
+      "Laguna Don Tomás, the lake at the city's edge, is surrounded by a large park.",
+      "The caldén, a hardy tree of the mesquite family, grows wild only in central Argentina."
+    ],
+    "q": {
+      "q": "Santa Rosa is the capital of which Argentine province?",
+      "a": "La Pampa",
+      "x": [
+        "Córdoba",
+        "San Luis"
+      ]
+    }
+  },
+  "Q279009": {
+    "t": "Under the volcano where you can see two oceans",
+    "s": "David spreads across the hot, green Pacific lowlands of western Panama, not far from the border with Costa Rica. Look north: the land climbs steadily to Volcán Barú, the highest point in Panama. On a clear morning, climbers on its summit can see both the Pacific and the Caribbean. The cool highlands on its slopes grow some of the world's most prized coffee.",
+    "w": "A city on a green coastal plain near the Pacific, mangrove estuaries to the south, a large volcano to the north.",
+    "f": [
+      "Volcán Barú, about 3,470 m, rises roughly 40 km north of the city.",
+      "The highland town of Boquete, above David, grows the famous Geisha coffee.",
+      "David is the capital of Chiriquí province."
+    ],
+    "q": {
+      "q": "What is Panama's highest peak, rising north of David?",
+      "a": "Volcán Barú",
+      "x": [
+        "Cerro Chirripó",
+        "Cerro Pirre"
+      ]
+    }
+  },
+  "Q166304": {
+    "t": "Montana's biggest city, under the Rimrocks",
+    "s": "Along the northern edge of Billings runs a long line of pale sandstone cliffs, the Rimrocks, and below them the city fills the valley of the Yellowstone River. It is the largest city in Montana, a railway and ranching hub for a huge stretch of the northern plains. On the south-western horizon, the snowy Beartooth Mountains stand guard.",
+    "w": "A city in a wide river valley below long, pale cliffs; dry plains around, snowy mountains to the south-west.",
+    "f": [
+      "At Pompeys Pillar, about 40 km east, William Clark carved his name into the rock in 1806.",
+      "Billings is the most populous city in Montana.",
+      "The Yellowstone, which flows through the city, is one of the longest undammed rivers in the lower 48 states."
+    ],
+    "q": {
+      "q": "Which river flows through Billings?",
+      "a": "The Yellowstone",
+      "x": [
+        "The Missouri",
+        "The Clark Fork"
+      ]
+    }
+  },
+  "Q985521": {
+    "t": "A deep harbour among jagged desert hills",
+    "s": "On the desert coast of Sonora, the Gulf of California slips into a many-armed bay ringed by bare, jagged hills, and Guaymas wraps around it. It is one of the best natural harbours on the Gulf, and Mexicans know it above all for its big shrimp. Just to the north-west, the twin horns of Tetakawi mountain rise over the resort of San Carlos.",
+    "w": "A port around a rocky, many-armed bay on the desert coast, with bare jagged hills behind.",
+    "f": [
+      "Guaymas shrimp are famous across Mexico for their size.",
+      "The twin-peaked Tetakawi mountain stands above the neighbouring resort of San Carlos.",
+      "Hermosillo, the state capital, lies about 130 km to the north."
+    ],
+    "q": {
+      "q": "Which seafood is Guaymas famous for?",
+      "a": "Shrimp",
+      "x": [
+        "Lobster",
+        "Oysters"
+      ]
+    }
+  },
+  "Q271215": {
+    "t": "Capital of the Pantanal, on the Bolivian border",
+    "s": "Corumbá stands on a low limestone bluff above the Paraguay River, and around it stretch the endless flatlands of the Pantanal, the world's largest tropical wetland. In the wet season much of it lies under water. South of the city, a dark mountain block, the Urucum massif, rises from the plain. The Bolivian border is just to the west.",
+    "w": "A town on a bluff above a winding river amid immense flat wetlands; a dark mountain block rising from the plain to the south.",
+    "f": [
+      "Corumbá is often called the capital of the Pantanal.",
+      "The Urucum massif south of the city holds large deposits of iron and manganese.",
+      "The town was founded in 1778 as a Portuguese outpost on the Paraguay River."
+    ],
+    "q": {
+      "q": "Which vast wetland is Corumbá the gateway to?",
+      "a": "The Pantanal",
+      "x": [
+        "The Llanos de Moxos",
+        "The Iberá Wetlands"
+      ]
+    }
+  },
+  "Q47772": {
+    "t": "Alpine chocolate town on a deep-blue Andean lake",
+    "s": "A huge, many-armed lake of deep blue, forested mountains all around and snowy peaks on the Chilean border: that is Nahuel Huapi, and Bariloche sits on its southern shore. The town looks almost Alpine, with stone and timber buildings, ski slopes on Cerro Catedral and a main street full of chocolate shops. It is the gateway to Argentina's oldest national park.",
+    "w": "A town on the southern shore of a large, branching deep-blue lake among forested mountains; snowy peaks to the west.",
+    "f": [
+      "Nahuel Huapi National Park, created in 1934, is the oldest national park in Argentina.",
+      "Monte Tronador, an extinct volcano on the Chilean border, carries several glaciers.",
+      "Nahuel Huapi lake covers more than 500 km² and is over 400 m deep."
+    ],
+    "q": {
+      "q": "On which lake does Bariloche stand?",
+      "a": "Nahuel Huapi",
+      "x": [
+        "Lago Argentino",
+        "Lago General Carrera"
+      ]
+    }
+  },
+  "Q31058": {
+    "t": "The small big city on Lake Champlain",
+    "s": "Lake Champlain runs long and narrow between two ranges: the Adirondacks of New York on the west, Vermont's Green Mountains on the east. Burlington sits on the Vermont shore, looking across the water to the sunset. It is the largest city in Vermont, yet small enough that it's said to be the smallest largest city of any US state. Ben & Jerry's began here.",
+    "w": "A city on the eastern shore of a long, narrow lake; the Adirondacks across the water to the west, the Green Mountains to the east.",
+    "f": [
+      "Ben & Jerry's opened its first ice-cream shop in a converted petrol station here in 1978.",
+      "Lake Champlain stretches about 190 km from New York State into Quebec.",
+      "The University of Vermont was founded in Burlington in 1791."
+    ],
+    "q": {
+      "q": "Which ice-cream company started in Burlington in 1978?",
+      "a": "Ben & Jerry's",
+      "x": [
+        "Häagen-Dazs",
+        "Baskin-Robbins"
+      ]
+    }
+  },
+  "Q30620": {
+    "t": "Where Columbus dropped anchor in Costa Rica",
+    "s": "On his fourth and last voyage, in 1502, Christopher Columbus anchored off a small island here on Costa Rica's Caribbean coast. Limón grew into the country's main port on this side. In the 1870s workers from Jamaica came to build the railway and stayed, giving the city its Caribbean flavour: rice and beans cooked in coconut milk, calypso and English Creole.",
+    "w": "A small port on a green Caribbean coast, with a little island just offshore and banana plantations inland.",
+    "f": [
+      "Columbus anchored off Uvita Island, just off the city, in September 1502.",
+      "Limón is Costa Rica's main port for banana exports.",
+      "North of the city, the Tortuguero canals lead to one of the Caribbean's key nesting beaches for green turtles."
+    ],
+    "q": {
+      "q": "Who anchored off Limón in 1502?",
+      "a": "Christopher Columbus",
+      "x": [
+        "Vasco Núñez de Balboa",
+        "Hernán Cortés"
+      ]
+    }
+  },
+  "Q34986": {
+    "t": "A mission town on the flooding plains of Moxos",
+    "s": "In north-eastern Bolivia the land is flat to the horizon: grassy savannas, islands of forest and winding rivers, which in the rainy season flood into a vast shallow sheet of water. These are the Llanos de Moxos, and Trinidad is their capital. It began in 1686 as a Jesuit mission. Long before that, local peoples built raised fields and causeways across these plains.",
+    "w": "A town on flat savanna with islands of forest, lakes and winding rivers; in the wet season, sheets of floodwater.",
+    "f": [
+      "Trinidad was founded in 1686 as the Jesuit mission of La Santísima Trinidad.",
+      "Thousands of ancient mounds, canals and raised fields dot the Llanos de Moxos.",
+      "Trinidad is the capital of the Beni department."
+    ],
+    "q": {
+      "q": "Trinidad is the capital of which Bolivian department?",
+      "a": "Beni",
+      "x": [
+        "Pando",
+        "Santa Cruz"
+      ]
+    }
+  },
+  "Q986634": {
+    "t": "The locks between Lake Superior and Lake Huron",
+    "s": "Lake Superior drains into Lake Huron through the short St. Marys River, and at its rapids stand twin cities: Sault Ste. Marie, Michigan, and its larger namesake in Ontario. Ships bypass the rapids through the Soo Locks, which lift them about 6 m between the lakes. French missionaries founded the Michigan side in 1668, making it the oldest city in the state.",
+    "w": "Twin towns on a short river between two great lakes; the locks and rapids side by side, forest all around.",
+    "f": [
+      "Sault Ste. Marie is the oldest city in Michigan, founded in 1668.",
+      "The first Soo Locks opened in 1855.",
+      "The International Bridge links the city with Sault Ste. Marie, Ontario."
+    ],
+    "q": {
+      "q": "Which two lakes does the St. Marys River connect?",
+      "a": "Superior and Huron",
+      "x": [
+        "Superior and Michigan",
+        "Huron and Erie"
+      ]
+    }
+  },
+  "Q189602": {
+    "t": "A town that once lay under an ice-age lake",
+    "s": "Look at the bare hills above Missoula: faint horizontal lines run across them like bathtub rings. They are old shorelines of glacial Lake Missoula, which filled these valleys at the end of the ice age and several times burst out in colossal floods. Today five valleys meet at the town, and the Clark Fork River flows through it.",
+    "w": "A town where several mountain valleys meet, a river flowing west; bare grassy hills around with faint horizontal lines.",
+    "f": [
+      "At its deepest, the ice-age lake stood a few hundred metres above today's town.",
+      "Norman Maclean's novella A River Runs Through It is set in and around Missoula.",
+      "The University of Montana has its main campus here."
+    ],
+    "q": {
+      "q": "What drew the horizontal lines on Missoula's hills?",
+      "a": "An ice-age lake's shorelines",
+      "x": [
+        "Old mining roads",
+        "Terraced farming"
+      ]
+    }
+  },
+  "Q466190": {
+    "t": "The falls that stalled Lewis and Clark",
+    "s": "Here the Missouri River drops in a series of five waterfalls through a canyon cut into the plains. In 1805 Lewis and Clark had to haul their boats and supplies around them overland, a gruelling task that took nearly a month. Today dams harness the falls, earning Great Falls the nickname Electric City. Wheat fields stretch to the mountains in the west.",
+    "w": "A city on the Missouri where the river steps down through a shallow canyon; wheat fields on the plains, mountains to the west.",
+    "f": [
+      "Giant Springs, on the edge of the city, is one of the largest freshwater springs in the US.",
+      "Western artist Charles M. Russell lived and painted in Great Falls.",
+      "Lewis and Clark's portage around the falls covered about 30 km."
+    ],
+    "q": {
+      "q": "Which explorers portaged around the Great Falls in 1805?",
+      "a": "Lewis and Clark",
+      "x": [
+        "Zebulon Pike",
+        "John C. Frémont"
+      ]
+    }
+  },
+  "Q79842": {
+    "t": "Pluto's discovery, pines and a dark night sky",
+    "s": "Flagstaff sits at about 2,100 m in a vast, dark-green forest of ponderosa pines, with the old volcanic San Francisco Peaks rising just north. In 1930, at Lowell Observatory on a hill above town, Clyde Tombaugh discovered Pluto. The city still guards its dark skies. East of town, look for a round pale scar in the desert: Meteor Crater.",
+    "w": "A town in a huge dark-green pine forest below snowy volcanic peaks; a round crater in the desert about 60 km east.",
+    "f": [
+      "In 2001 Flagstaff became the world's first International Dark Sky City.",
+      "Humphreys Peak, at 3,851 m the highest point in Arizona, rises in the San Francisco Peaks.",
+      "Meteor Crater is about 1.2 km across and 170 m deep."
+    ],
+    "q": {
+      "q": "Which dwarf planet was discovered in Flagstaff?",
+      "a": "Pluto",
+      "x": [
+        "Ceres",
+        "Eris"
+      ]
+    }
+  },
+  "Q223177": {
+    "t": "Where the wagon trails crossed the North Platte",
+    "s": "In the mid-1800s, tens of thousands of emigrants bound for Oregon, California and Utah crossed the North Platte River here, some on ferries and later on a bridge. Casper grew later, first on the railway and then on oil. It sits on the river among wide, dry sagebrush plains, with the dark, forested ridge of Casper Mountain rising right to the south.",
+    "w": "A city on a river in wide, dry plains, with a dark forested ridge just to the south.",
+    "f": [
+      "The Oregon, Mormon and California trails all crossed the North Platte near Casper.",
+      "Oil from the Salt Creek field, north of the city, made Casper a boomtown in the early 1900s.",
+      "Casper Mountain rises about 900 m above the city."
+    ],
+    "q": {
+      "q": "Which river flows through Casper, Wyoming?",
+      "a": "The North Platte",
+      "x": [
+        "The Yellowstone",
+        "The Green"
+      ]
+    }
+  },
+  "Q372920": {
+    "t": "Granite domes and a river of rapids",
+    "s": "Here the mighty Orinoco breaks into white rapids among black rocks, and huge bare domes of granite rise out of the green forest and savanna. Puerto Ayacucho, the capital of Venezuela's Amazonas state, sits beside the Atures Rapids, where boats cannot pass. Colombia lies directly across the river. Alexander von Humboldt came this way in 1800.",
+    "w": "A town beside a wide river broken by rocky rapids; bare granite domes rising from green forest and savanna.",
+    "f": [
+      "A road runs past the Atures Rapids so that river cargo can continue upstream.",
+      "Cerro Pintado, near the city, bears some of the largest known petroglyphs, including a giant serpent.",
+      "Humboldt and Bonpland travelled the Orinoco past these rapids in 1800."
+    ],
+    "q": {
+      "q": "Which river rushes over rapids at Puerto Ayacucho?",
+      "a": "The Orinoco",
+      "x": [
+        "The Amazon",
+        "The Meta"
+      ]
+    }
+  },
+  "Q216258": {
+    "t": "A rainy bay town beneath two giant volcanoes",
+    "s": "Hilo curves around a bay on the wet, green eastern side of Hawaii's Big Island, and behind it rise two giants: Mauna Kea and Mauna Loa, their slopes so gentle they hardly look like mountains. Clouds pile up against them, so Hilo is one of the rainiest cities in the United States. In winter, Mauna Kea's summit can wear snow.",
+    "w": "A town on a crescent bay on the island's green east coast; two huge, gently sloping volcanoes behind.",
+    "f": [
+      "Hilo gets more than 3 m of rain in an average year.",
+      "Measured from its base on the sea floor, Mauna Kea is over 10,000 m tall — more than Everest.",
+      "A lava flow from Mauna Loa in 1880–81 stopped just short of the town."
+    ],
+    "q": {
+      "q": "Which volcano above Hilo is taller than Everest from base to summit?",
+      "a": "Mauna Kea",
+      "x": [
+        "Kīlauea",
+        "Haleakalā"
+      ]
+    }
+  },
+  "Q912253": {
+    "t": "Gateway to the north on the voyageurs' lake",
+    "s": "North Bay sits on the shore of Lake Nipissing, a big lake in the endless forests of northern Ontario. For two centuries fur traders' canoes crossed this lake on the water route from Montreal to the upper Great Lakes, paddling on down the French River to Georgian Bay. The railways later made the town the 'Gateway to the North'.",
+    "w": "A town on the north-east shore of a large lake, among endless forest and countless smaller lakes.",
+    "f": [
+      "The French River carries Lake Nipissing's water west to Georgian Bay.",
+      "The Dionne quintuplets, the first quintuplets known to survive infancy, were born near North Bay in 1934.",
+      "Algonquin Provincial Park lies to the south-east."
+    ],
+    "q": {
+      "q": "Which lake lies on the edge of North Bay?",
+      "a": "Lake Nipissing",
+      "x": [
+        "Lake Simcoe",
+        "Lake Nipigon"
+      ]
+    }
+  },
+  "Q41474": {
+    "t": "The island where Captain Bligh's breadfruit landed",
+    "s": "Kingstown curls around a bay on the green, mountainous island of St Vincent, and to the south the little Grenadines trail away across the sea. Its botanical garden, founded in 1765, is the oldest in the Western Hemisphere. In 1793 Captain Bligh delivered breadfruit trees from Tahiti here. In the north of the island rises the La Soufrière volcano.",
+    "w": "A small town around a bay on a green, mountainous island; a chain of small islands stretching away to the south.",
+    "f": [
+      "The St Vincent Botanical Gardens, founded in 1765, are the oldest in the Western Hemisphere.",
+      "A breadfruit tree grown from one of Bligh's 1793 plants still stands in the gardens.",
+      "La Soufrière, about 1,230 m, is the highest point on St Vincent."
+    ],
+    "q": {
+      "q": "Which tree did Captain Bligh bring to St Vincent in 1793?",
+      "a": "Breadfruit",
+      "x": [
+        "Nutmeg",
+        "Cacao"
+      ]
+    }
+  },
+  "Q3810": {
+    "t": "A Patagonian town around a five-sided square",
+    "s": "Coyhaique lies in a green valley of Chilean Patagonia, surrounded by mountains, forests and rivers, and it is the capital of the wild Aysén region. Founded only in 1929, it was laid out around a square with five sides, from which streets radiate like a star. The Carretera Austral, the long road through Chile's far south, passes here.",
+    "w": "A small town in a green valley where rivers meet, ringed by forested and bare mountains; snowy peaks around.",
+    "f": [
+      "Coyhaique was founded in 1929.",
+      "Its main square is a pentagon, with streets fanning out from it in all directions.",
+      "The jagged Cerro Castillo, shaped like a castle, rises to the south."
+    ],
+    "q": {
+      "q": "What is unusual about Coyhaique's main square?",
+      "a": "It has five sides",
+      "x": [
+        "It is perfectly round",
+        "It sits on an island"
+      ]
+    }
+  },
+  "Q488702": {
+    "t": "A foggy redwood town on a hidden bay",
+    "s": "Behind a pair of long, thin sand spits on California's far north coast hides Humboldt Bay, and Eureka sits on its shore. The hills around are dark with forests of coast redwoods, the tallest trees on Earth, and the town grew rich milling their timber. Fog rolls in off the cold Pacific much of the summer.",
+    "w": "A town on a long, narrow bay behind thin sand spits; dark forested hills inland, often a blanket of coastal fog.",
+    "f": [
+      "Humboldt Bay is California's second-largest natural bay, after San Francisco Bay.",
+      "Eureka is Greek for 'I have found it!' — also California's state motto.",
+      "The town is known for its ornate wooden Victorian houses, built with local redwood."
+    ],
+    "q": {
+      "q": "What does 'Eureka' mean?",
+      "a": "I have found it",
+      "x": [
+        "Land of gold",
+        "Safe harbour"
+      ]
+    }
+  },
+  "Q433574": {
+    "t": "A town named for the forest it replaced",
+    "s": "Alta Floresta means 'tall forest', and when the town was founded in 1976, that's exactly what surrounded it. It was a planned settlement in the far north of Mato Grosso, carved out of the southern Amazon for farmers from the south. Today pastures and fields spread around it, but to the north unbroken rainforest still stretches toward the Teles Pires River.",
+    "w": "A town in a patchwork of pastures cut out of the rainforest; unbroken dark-green forest further north.",
+    "f": [
+      "Alta Floresta was founded in 1976 as a private colonisation project.",
+      "Its name means 'tall forest' in Portuguese.",
+      "The forests along the Cristalino River, to the north, are famous among birdwatchers."
+    ],
+    "q": {
+      "q": "What does the name Alta Floresta mean?",
+      "a": "Tall forest",
+      "x": [
+        "Green river",
+        "Red earth"
+      ]
+    }
+  },
+  "Q487201": {
+    "t": "A prairie town with a Scandinavian heart",
+    "s": "Minot sits in a broad valley that the Souris River has cut into the flat prairie of North Dakota. It sprang up almost overnight in 1886, when the Great Northern Railway arrived, and was quickly dubbed the Magic City. Many of the farmers around descend from Norwegian settlers, and each autumn the city throws a huge Scandinavian festival.",
+    "w": "A town in a broad valley cut into flat prairie, a river looping through it; square farm fields all around.",
+    "f": [
+      "Minot's Norsk Høstfest is billed as the largest Scandinavian festival in North America.",
+      "The Souris River rises in Canada, loops through North Dakota and flows back into Canada.",
+      "The city's Scandinavian Heritage Park has a full-size copy of a Norwegian stave church."
+    ],
+    "q": {
+      "q": "Which heritage does Minot's big autumn festival celebrate?",
+      "a": "Scandinavian",
+      "x": [
+        "German",
+        "Irish"
+      ]
+    }
+  },
+  "Q41699": {
+    "t": "A tiny island capital with two Nobel laureates",
+    "s": "Castries lies at the head of a deep, sheltered harbour on the north-west coast of St Lucia, a green, steep volcanic island. Look far to the south-west for two sharp spires rising from the sea: the Pitons. This small place has produced two Nobel laureates, poet Derek Walcott and economist Arthur Lewis, both born here.",
+    "w": "A harbour town in a deep inlet on a green, mountainous island; two sharp volcanic spires on the coast far to the south-west.",
+    "f": [
+      "Derek Walcott, born in Castries in 1930, won the Nobel Prize in Literature in 1992.",
+      "Sir Arthur Lewis, also born in Castries, won the Nobel Prize in Economics in 1979.",
+      "The Pitons, two volcanic spires, have been a UNESCO World Heritage site since 2004."
+    ],
+    "q": {
+      "q": "Which Nobel-winning poet was born in Castries?",
+      "a": "Derek Walcott",
+      "x": [
+        "V. S. Naipaul",
+        "Aimé Césaire"
+      ]
+    }
+  },
+  "Q932261": {
+    "t": "Cape Breton's steel town, far from its namesake",
+    "s": "Not the one in Australia: this Sydney sits on a branching harbour on the Atlantic coast of Cape Breton Island. For a century it was a steel town, fed by coal from mines that ran far out under the sea. The mills are gone and the land has been cleaned and turned into parks. Across the harbour, ferries leave for Newfoundland.",
+    "w": "A town on a branching harbour on the east coast of Cape Breton Island; dark forest and the open Atlantic beyond.",
+    "f": [
+      "Sydney was founded in 1785 as the capital of the separate colony of Cape Breton.",
+      "Its steelworks ran for about a century, until 2001.",
+      "Ferries to Newfoundland sail from North Sydney, across the harbour."
+    ],
+    "q": {
+      "q": "On which island is Sydney, Nova Scotia?",
+      "a": "Cape Breton Island",
+      "x": [
+        "Prince Edward Island",
+        "Newfoundland"
+      ]
+    }
+  },
+  "Q36262": {
+    "t": "An island with a beach for every day of the year",
+    "s": "Antigua is a low, scalloped island ringed by coves, reefs and white sand, and it likes to say it has 365 beaches, one for every day of the year. St John's, the capital, sits on a deep bay on the north-west coast. On the south coast, English Harbour sheltered the Royal Navy in the age of sail, and its restored dockyard still stands.",
+    "w": "A harbour town on the north-west coast of a low island with a heavily indented shoreline, white beaches and pale reefs.",
+    "f": [
+      "Nelson's Dockyard at English Harbour has been a UNESCO World Heritage site since 2016.",
+      "Cricket great Viv Richards was born in St John's in 1952.",
+      "Barbuda, the country's second island, lies about 40 km to the north."
+    ],
+    "q": {
+      "q": "How many beaches is Antigua said to have?",
+      "a": "365",
+      "x": [
+        "100",
+        "1,000"
+      ]
+    }
+  },
+  "Q991310": {
+    "t": "A gold-rush town in the northern forest",
+    "s": "In 1909 prospectors found gold in the forests of northern Ontario, and the Porcupine gold rush began. Timmins grew out of it and has been mining ever since. From above it is a town surrounded by endless boreal forest and lakes, with pale scars of tailings and pits around it. Singer Shania Twain grew up here.",
+    "w": "A town amid endless dark forest and lakes, with pale mine tailings and open pits nearby; a river running north.",
+    "f": [
+      "The Porcupine gold rush of 1909 gave birth to the town.",
+      "The Kidd Creek mine north of the city goes down nearly 3 km, one of the deepest base-metal mines on Earth.",
+      "The Mattagami River, which flows through the city, runs north toward James Bay."
+    ],
+    "q": {
+      "q": "Which rush founded Timmins in 1909?",
+      "a": "A gold rush",
+      "x": [
+        "A silver rush",
+        "A copper rush"
+      ]
+    }
+  },
+  "Q855645": {
+    "t": "A peach of a town in the heart of Uruguay",
+    "s": "Durazno means 'peach', and this quiet town sits almost in the geographic centre of Uruguay, on the tree-lined Yí River. All around it roll the green grasslands of cattle country, with hardly a hill in sight. It was founded in 1821 under Fructuoso Rivera, who later became Uruguay's first president.",
+    "w": "A small town on a winding, tree-lined river amid rolling green grassland; cattle country in every direction.",
+    "f": [
+      "Durazno means 'peach' in Spanish.",
+      "The town was founded in 1821 on the orders of Fructuoso Rivera.",
+      "The Yí River flows west into the Río Negro, the river that crosses the whole of Uruguay."
+    ],
+    "q": {
+      "q": "What does 'Durazno' mean in Spanish?",
+      "a": "Peach",
+      "x": [
+        "Apricot",
+        "Plum"
+      ]
+    }
+  },
+  "Q41547": {
+    "t": "A horseshoe harbour on the Spice Isle",
+    "s": "St George's wraps around a small horseshoe-shaped harbour on the south-west tip of Grenada, its red-roofed houses climbing the green hills. It is often called one of the prettiest harbours in the Caribbean. Grenada is the Spice Isle: nutmeg grows so well here that it appears on the national flag. Just north of town lies the world's first underwater sculpture park.",
+    "w": "A small horseshoe harbour on the south-west tip of a green, mountainous island; red roofs climbing the hills.",
+    "f": [
+      "Grenada's flag bears a nutmeg, the island's most famous spice.",
+      "The world's first underwater sculpture park opened in Molinere Bay, near the capital, in 2006.",
+      "Fort George, begun in 1705, guards the entrance to the harbour."
+    ],
+    "q": {
+      "q": "Which spice appears on Grenada's flag?",
+      "a": "Nutmeg",
+      "x": [
+        "Cinnamon",
+        "Clove"
+      ]
+    }
+  },
+  "Q1376242": {
+    "t": "A Maroon river village on the French Guiana border",
+    "s": "Deep in the rainforest of south-eastern Suriname, the village of Cottica sits on the Lawa, the river that forms the border with French Guiana. Its story is tied to the Aluku, a Maroon people descended from Africans who escaped plantation slavery in the 18th century and built free villages along these rivers. Around it, the forest stretches unbroken for hundreds of kilometres.",
+    "w": "A dark river winding through unbroken green rainforest, with small clearings along its banks.",
+    "f": [
+      "The Lawa River, on which Cottica stands, forms part of the border between Suriname and French Guiana.",
+      "Downstream, the Lawa joins the Tapanahony to form the Marowijne, or Maroni, River.",
+      "Most travel in this region is by boat or small plane rather than by road."
+    ],
+    "q": {
+      "q": "Which territory lies across the Lawa River from Cottica?",
+      "a": "French Guiana",
+      "x": [
+        "Guyana",
+        "Brazil"
+      ]
+    }
+  },
+  "Q61432": {
+    "t": "The Wheat City in a prairie valley",
+    "s": "Brandon grew in 1881, when the Canadian Pacific Railway reached the Assiniboine River here on its way west. It sits in the river's shallow valley, surrounded by prairie farmland cut into enormous squares of wheat and canola. Its nickname, the Wheat City, says it all. To the north the land rises to the forested plateau of Riding Mountain.",
+    "w": "A town in a shallow river valley amid flat, square-cut prairie farmland; a forested upland to the north.",
+    "f": [
+      "Brandon is Manitoba's second-largest city, after Winnipeg.",
+      "The Assiniboine River flows east through the city toward Winnipeg.",
+      "Riding Mountain National Park lies about 100 km to the north."
+    ],
+    "q": {
+      "q": "What is Brandon's nickname?",
+      "a": "The Wheat City",
+      "x": [
+        "The Steel City",
+        "The Gateway City"
+      ]
+    }
+  },
+  "Q1805608": {
+    "t": "A frontier town named after the company that built it",
+    "s": "Colíder grew up along the BR-163, the long highway pushed north from Cuiabá toward the Amazon in the 1970s. A land company called Colonizadora Líder divided the forest into plots for settlers, and its name gave the town its own. Around it, fields and pastures now cut into the southern edge of the Amazon rainforest.",
+    "w": "A small town on a straight highway through a patchwork of pastures and rainforest remnants; a large river to the north.",
+    "f": [
+      "The name joins the words 'Colonizadora Líder', the company that settled the area.",
+      "The settlement dates from 1974 and became a municipality in 1979.",
+      "A hydroelectric plant on the Teles Pires River bears the town's name."
+    ],
+    "q": {
+      "q": "Where does the name Colíder come from?",
+      "a": "A land-settlement company",
+      "x": [
+        "A Tupi word for river",
+        "A pioneer family"
+      ]
+    }
+  },
+  "Q44208": {
+    "t": "Founded by Welsh settlers in Patagonia",
+    "s": "In 1865 about 150 settlers from Wales landed on this barren Patagonian coast, hoping to build a community where their language could live on. That same year they founded Rawson near the mouth of the Chubut River. Today it is the small capital of Chubut province, and Welsh tea houses still serve cakes in the green valley upriver.",
+    "w": "A small town near a river mouth on the Atlantic coast; a green irrigated valley winding inland through pale steppe.",
+    "f": [
+      "The Welsh settlers arrived on the ship Mimosa in July 1865.",
+      "The town is named after Guillermo Rawson, the Argentine minister who backed the Welsh colony.",
+      "Black-and-white Commerson's dolphins are often seen near the port at Playa Unión."
+    ],
+    "q": {
+      "q": "Who founded Rawson in 1865?",
+      "a": "Welsh settlers",
+      "x": [
+        "Italian settlers",
+        "Basque settlers"
+      ]
+    }
+  },
+  "Q867573": {
+    "t": "A planned port on a flat, pine-covered island",
+    "s": "Grand Bahama is long, low and green with pines, and on its south coast lies Freeport, a city that was planned rather than grown. In 1955 an agreement with the government created a free-trade zone here, and a deep harbour and resort town followed. North of the island, the sea turns pale turquoise over the shallow Little Bahama Bank.",
+    "w": "A planned grid and harbour on a long, flat, pine-covered island; turquoise shallows to the north, deep blue to the south.",
+    "f": [
+      "Freeport was created under the Hawksbill Creek Agreement of 1955.",
+      "Lucayan National Park, east of the city, protects one of the longest known underwater cave systems.",
+      "Florida's coast lies only about 90 km west of Grand Bahama's western tip."
+    ],
+    "q": {
+      "q": "In which year was the agreement that created Freeport signed?",
+      "a": "1955",
+      "x": [
+        "1905",
+        "1973"
+      ]
+    }
+  },
+  "Q28206": {
+    "t": "A Pilgrim trading post turned state capital",
+    "s": "Maine's small capital lies on the Kennebec River, amid thick forest dotted with lakes. Its story goes back to 1628, when the Pilgrims of Plymouth Colony set up a trading post here to buy furs. A wooden fort followed in 1754 and still stands. The State House was designed by Charles Bulfinch, who also finished the US Capitol.",
+    "w": "A small city on a river winding south through dense forest dotted with lakes toward the Atlantic coast.",
+    "f": [
+      "The Plymouth Colony's Cushnoc trading post stood here from 1628.",
+      "Fort Western, built in 1754, is one of the oldest wooden forts in the United States.",
+      "Augusta is one of the smallest state capitals in the US by population."
+    ],
+    "q": {
+      "q": "Which river flows through Augusta, Maine?",
+      "a": "The Kennebec",
+      "x": [
+        "The Penobscot",
+        "The Androscoggin"
+      ]
+    }
+  },
+  "Q36281": {
+    "t": "Capital of the Nature Island, where a lake boils",
+    "s": "Dominica rises steeply from the sea, covered in rainforest and cut by countless rivers, and Roseau sits on its sheltered west coast at the mouth of one of them. The island calls itself the Nature Island. In the cloudy mountains east of town lies the Boiling Lake, a flooded volcanic vent that bubbles and steams, one of the largest hot lakes on Earth.",
+    "w": "A small town on the west coast of a steep, densely forested volcanic island; mountains in cloud behind.",
+    "f": [
+      "Morne Trois Pitons National Park, home of the Boiling Lake, has been a UNESCO site since 1997.",
+      "Roseau is French for 'reed', after the reeds that grew at the river mouth.",
+      "Morne Diablotins, about 1,450 m, is the island's highest peak."
+    ],
+    "q": {
+      "q": "What is Dominica's nickname?",
+      "a": "The Nature Island",
+      "x": [
+        "The Spice Isle",
+        "The Helen of the West Indies"
+      ]
+    }
+  },
+  "Q41295": {
+    "t": "An island capital facing Hamilton's birthplace",
+    "s": "St Kitts is shaped a bit like a cricket bat: a round volcanic body in the north and a thin handle pointing south-east toward the cone of Nevis. Basseterre lies on the south-west coast where the two meet. The French founded it in 1627. Just across a narrow strait is Nevis, the island where Alexander Hamilton was born.",
+    "w": "A town on the south coast of a green island with a volcano in its north; a thin peninsula pointing toward round Nevis.",
+    "f": [
+      "Brimstone Hill Fortress, on St Kitts' west coast, has been a UNESCO site since 1999.",
+      "The strait between St Kitts and Nevis, called the Narrows, is about 3 km wide.",
+      "Mount Liamuiga, about 1,156 m, is the highest point of St Kitts."
+    ],
+    "q": {
+      "q": "Which US founding father was born on Nevis, near Basseterre?",
+      "a": "Alexander Hamilton",
+      "x": [
+        "Benjamin Franklin",
+        "John Jay"
+      ]
+    }
+  },
+  "Q126624": {
+    "t": "Boomtown on the oil sands, deep in the forest",
+    "s": "In the boreal forest of northern Alberta, where the Clearwater River joins the Athabasca, lies Fort McMurray. North of town the forest gives way to something astonishing from the air: vast open-pit mines, dark scraped earth and pale tailings ponds. They are digging the Athabasca oil sands, one of the largest oil deposits on Earth.",
+    "w": "A town at a river confluence in dense forest; to the north, huge dark open pits and pale ponds cut into the woods.",
+    "f": [
+      "The Athabasca oil sands hold one of the largest oil reserves in the world.",
+      "Fur traders reached the Clearwater from Hudson Bay waters over the Methye Portage.",
+      "The Athabasca River flows north from here to Lake Athabasca."
+    ],
+    "q": {
+      "q": "What resource drives the economy around Fort McMurray?",
+      "a": "Oil sands",
+      "x": [
+        "Gold",
+        "Potash"
+      ]
+    }
+  },
+  "Q945084": {
+    "t": "Cowboy poets under Nevada's Alps",
+    "s": "Elko is a small railway town on the Humboldt River, in a wide valley of silvery sagebrush. To the south-east rise the Ruby Mountains, their glacier-carved peaks often white with snow — people call them Nevada's Alps. Every winter the town hosts the National Cowboy Poetry Gathering, and its Basque restaurants recall the shepherds who settled here.",
+    "w": "A small town on a river in a wide sagebrush valley; snowy, glacier-carved mountains to the south-east.",
+    "f": [
+      "The National Cowboy Poetry Gathering has been held in Elko since 1985.",
+      "Basque shepherds who settled here gave Elko its Basque boarding houses and festival.",
+      "The Carlin Trend gold mines nearby make this one of the richest gold districts in the world."
+    ],
+    "q": {
+      "q": "Which event has Elko hosted every winter since 1985?",
+      "a": "A cowboy poetry gathering",
+      "x": [
+        "A chili cook-off",
+        "An ice sculpture festival"
+      ]
+    }
+  },
+  "Q23021": {
+    "t": "An old fur post in the Peace River country",
+    "s": "Fort St. John sits on a plateau above the deep valley of the Peace River, in north-eastern British Columbia, east of the Rockies. Around it, square farm fields cut into the forest: the Peace River country is the province's main grain region. The town traces its origin to a fur-trading post of 1794, often called the oldest European settlement in mainland BC.",
+    "w": "A town on a plateau above a deep river valley; square farm fields cut into forest, the Rockies far to the west.",
+    "f": [
+      "The Alaska Highway runs through the city on its way north-west from Dawson Creek.",
+      "Rocky Mountain Fort, the town's forerunner, was built by the North West Company in 1794.",
+      "The Peace River flows east from here into Alberta and on toward the Arctic."
+    ],
+    "q": {
+      "q": "Which famous highway runs through Fort St. John?",
+      "a": "The Alaska Highway",
+      "x": [
+        "The Trans-Canada Highway",
+        "The Dempster Highway"
+      ]
+    }
   }
 }

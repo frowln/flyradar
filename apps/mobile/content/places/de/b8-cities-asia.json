@@ -1,0 +1,398 @@
+{
+  "Q956": {
+    "t": "Ein kaiserliches Raster, an zwei Seiten von Bergen gerahmt",
+    "s": "Peking ist angelegt wie ein Schachbrett: gerade Alleen, eine strenge Nord-Süd-Achse und ineinanderliegende Ringstraßen. Im Westen und Norden legen sich Berge um die Stadt, im Südosten öffnet sich die Ebene zum Meer. Ihr Name bedeutet „nördliche Hauptstadt“, und seit dem 13. Jahrhundert regierten die Kaiser die meiste Zeit von hier aus.",
+    "w": "Ein riesiges Raster auf flacher Ebene, im Norden und Westen von dunklen Bergen eingefasst; nachts rechteckige Lichterringe.",
+    "f": [
+      "Der 2. Ring folgt der Linie der alten Stadtmauern, die im 20. Jahrhundert größtenteils abgerissen wurden.",
+      "Der Kaiserkanal, fast 1.800 km lang, endet im Norden an der Ostseite Pekings.",
+      "Die 1420 vollendete Verbotene Stadt liegt genau auf der Nord-Süd-Achse der Stadt."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Beijing“?",
+      "a": "Nördliche Hauptstadt",
+      "x": [
+        "Südliche Hauptstadt",
+        "Westliche Hauptstadt"
+      ]
+    }
+  },
+  "Q3630": {
+    "t": "Javas großes Häusermeer, davor verstreute Inseln",
+    "s": "Eine Stadt ohne sichtbaren Rand: Jakarta breitet sich über eine flache, diesige Ebene aus, wo Java auf die flache Javasee trifft, und geht einfach in ihre Nachbarn über. Vor der Küste tüpfeln die Tausend Inseln das Wasser wie Krümel. An klaren Tagen erheben sich im Süden Vulkankegel. Die Niederländer nannten sie Batavia und lenkten von hier ihren Ostindienhandel.",
+    "w": "Ein riesiges graues Häusermeer an Javas Nordküste, im Norden eine Bucht mit kleinen Inseln, am südlichen Horizont Vulkane.",
+    "f": [
+      "Trotz ihres Namens zählen die Tausend Inseln vor Jakarta nur gut hundert.",
+      "Die Niederländische Ostindien-Kompanie gründete Batavia 1619 an der Stelle des Hafens Jayakarta.",
+      "Im alten Hafen Sunda Kelapa liegen noch hölzerne Pinisi-Schoner."
+    ],
+    "q": {
+      "q": "Wie hieß Jakarta unter niederländischer Herrschaft?",
+      "a": "Batavia",
+      "x": [
+        "Buitenzorg",
+        "Nieuw Amsterdam"
+      ]
+    }
+  },
+  "Q8686": {
+    "t": "Wo der schlammige Jangtse endlich das Meer erreicht",
+    "s": "Achten Sie auf braunes Wasser, das blau wird: Der Jangtse schüttet seinen Schlamm direkt neben Shanghai ins Ostchinesische Meer. Die Stadt liegt flach am Südufer, zweigeteilt vom gewundenen Huangpu. Draußen auf dem Meer zieht sich eine haarfeine Linie übers Wasser – eine über 30 km lange Brücke zu einem Containerhafen auf einer Insel.",
+    "w": "Eine riesige flache Stadt an der Südseite der braunen Jangtse-Mündung, mit einer langen, flachen Insel in der Mündung.",
+    "f": [
+      "Die Insel Chongming in der Jangtse-Mündung besteht ganz aus Flussschlamm und ist rund 80 km lang.",
+      "Shanghai ist seit 2010 der größte Containerhafen der Welt.",
+      "Der Name wird meist als „am Meer“ oder „auf dem Meer“ gelesen."
+    ],
+    "q": {
+      "q": "Welcher Fluss windet sich durch das Zentrum Shanghais?",
+      "a": "Der Huangpu",
+      "x": [
+        "Der Perlfluss",
+        "Der Qiantang"
+      ]
+    }
+  },
+  "Q1490": {
+    "t": "Eine Stadt, die eine ganze Ebene füllt, rund um eine Bucht",
+    "s": "Tokio hört nicht so sehr auf, als dass ihm das flache Land ausgeht: Häuser bedecken die Kantō-Ebene, Japans größte, von den Bergen bis zum Meer. Die Stadt legt sich um die Bucht von Tokio, deren Ufer großteils aufgeschüttetes Land ist. An klaren Tagen steht der Kegel des Fuji rund 100 km südwestlich. Bis 1868 war dies Edo, die Stadt der Shogune.",
+    "w": "Durchgehende Stadt um eine weite Bucht; im Südwesten der einsame Fuji-Kegel; nachts ein ununterbrochener Lichterteppich.",
+    "f": [
+      "Odaiba ist nach Kanonenbatterien benannt, die 1853–54 nach der Ankunft von Commodore Perrys Schiffen in der Bucht entstanden.",
+      "Der Name Tokio bedeutet „östliche Hauptstadt“; der Kaiser zog 1868–69 aus Kyoto hierher.",
+      "Die Aqua-Line führt in die Bucht und scheint an einer Insel zu enden – der Rest ist ein Tunnel unter dem Meeresboden."
+    ],
+    "q": {
+      "q": "Wie hieß Tokio vor 1868?",
+      "a": "Edo",
+      "x": [
+        "Naniwa",
+        "Heian-kyō"
+      ]
+    }
+  },
+  "Q1156": {
+    "t": "Sieben Inseln, zu einer langen Halbinsel vernäht",
+    "s": "Mumbai zeigt wie ein Daumen nach Süden ins Arabische Meer. Einst waren es sieben getrennte Inseln, ab dem 18. Jahrhundert durch Dämme und Aufschüttungen zu einem dicht bevölkerten Streifen verbunden. Im Osten liegt Hafenwasser, im Westen offenes Meer. Achten Sie nach Einbruch der Dunkelheit auf den hellen Lichterbogen entlang der Back Bay – die Einheimischen nennen ihn Queen’s Necklace, die Halskette der Königin.",
+    "w": "Ein schmaler Landfinger, der nach Süden ins Meer ragt, an seiner Ostseite ein weiter Hafen, im Norden ein grüner Waldfleck.",
+    "f": [
+      "Portugal übergab Bombay 1661 als Teil der Mitgift Katharinas von Braganza bei ihrer Heirat mit Karl II. an England.",
+      "Der Sanjay-Gandhi-Nationalpark, ein Wald mit wilden Leoparden, liegt innerhalb der Stadtgrenzen.",
+      "Eine rund 22 km lange, 2024 eröffnete Meeresbrücke verbindet die Stadt über den Hafen mit dem Festland."
+    ],
+    "q": {
+      "q": "Aus wie vielen Inseln entstand Mumbai?",
+      "a": "Aus sieben",
+      "x": [
+        "Aus drei",
+        "Aus zwölf"
+      ]
+    }
+  },
+  "Q1348": {
+    "t": "Einstige Hauptstadt Britisch-Indiens an einem Deltafluss",
+    "s": "Kolkata zieht sich am Ostufer des Hugli entlang, eines Arbeitsarms des Ganges, gegenüber liegt Howrah. Jenseits des Ostrands reinigt ein Flickenteppich aus Teichen und Sümpfen still das Abwasser der Stadt und zieht dabei Fische auf. Weiter südlich löst sich das Land in die Kanäle und Mangroven der Sundarbans auf. Bis 1911 war dies die Hauptstadt Britisch-Indiens.",
+    "w": "Eine lange Stadt an einem braunen, von Nord nach Süd fließenden Fluss; im Osten quadratische Fischteiche, im Süden Deltaarme.",
+    "f": [
+      "Die East Kolkata Wetlands nutzen das Abwasser der Stadt, um Fischteiche zu speisen, und sind ein geschütztes Ramsar-Gebiet.",
+      "Kolkatas Hafen liegt am Fluss, weit über 100 km vom offenen Meer entfernt.",
+      "Die Sundarbans im Süden sind der größte Mangrovenwald der Welt, geteilt mit Bangladesch."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Kolkata?",
+      "a": "Der Hugli",
+      "x": [
+        "Der Brahmaputra",
+        "Die Mahanadi"
+      ]
+    }
+  },
+  "Q3130": {
+    "t": "Ein ertrunkenes Tal aus blauen Fingern, offen zum Pazifik",
+    "s": "Sydneys Hafen ist ein ertrunkenes Flusstal, und von oben sieht er aus wie eine Hand aus blauen Fingern, die tief in die Stadt greifen. Sandsteinlandzungen bewachen seine schmale Öffnung zum Pazifik. Im Süden liegt die Botany Bay, wo die Landebahnen des Flughafens ins Wasser hinausreichen. Im Westen erheben sich die Blue Mountains in einem Dunst, der wirklich blau aussieht.",
+    "w": "Ein tiefer, verzweigter Hafen, der zwischen zwei Landzungen in die Küste greift; im Süden eine runde Bucht mit Landebahnen.",
+    "f": [
+      "Der blaue Dunst über den Blue Mountains stammt von Ölen, die aus Eukalyptusblättern verdunsten.",
+      "James Cook landete 1770 in der Botany Bay; die First Fleet ließ sich 1788 in Sydney Cove nieder.",
+      "Die 1932 eröffnete Harbour Bridge heißt wegen der Form ihres Bogens im Volksmund „Coathanger“ – Kleiderbügel."
+    ],
+    "q": {
+      "q": "Wo landete James Cook 1770, an Sydneys Südseite?",
+      "a": "In der Botany Bay",
+      "x": [
+        "In der Moreton Bay",
+        "In der Port Phillip Bay"
+      ]
+    }
+  },
+  "Q334": {
+    "t": "Ein Inselstaat, umringt von Hunderten wartender Schiffe",
+    "s": "Noch vor der Stadt fällt Ihnen das Meer auf: Hunderte Schiffe liegen in der Straße von Singapur vor Anker, verstreut wie Reiskörner. Die rautenförmige Insel an der Spitze der Malaiischen Halbinsel ist durch Landgewinnung um rund ein Viertel gewachsen, und ihre geraden neuen Uferlinien sind leicht zu erkennen. Der Äquator liegt keine 150 km südlich.",
+    "w": "Eine rautenförmige Insel direkt vor der Malaiischen Halbinsel, über einen Damm verbunden, die Meerenge gesprenkelt mit ankernden Schiffen.",
+    "f": [
+      "Stamford Raffles gründete hier 1819 einen britischen Handelsposten.",
+      "Der Name kommt vom malaiischen Singapura, „Löwenstadt“.",
+      "Jurong Island, das Raffineriezentrum im Südwesten, entstand durch Verbinden von sieben kleinen Inseln mit Aufschüttungen."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Singapura“?",
+      "a": "Löwenstadt",
+      "x": [
+        "Tigerstadt",
+        "Stadt am Meer"
+      ]
+    }
+  },
+  "Q8646": {
+    "t": "Grüne Berge, ein dichtes Ufer und ein duftender Hafen",
+    "s": "Von oben ist Hongkong überraschend grün: steile, bewaldete Hügel und Dutzende Inseln, die Stadt in schmale Streifen am Ufer gepackt. Der Victoria Harbour, ein schmaler blauer Kanal, trennt Kowloon von Hong Kong Island. Achten Sie weiter westlich auf den Flughafen auf einer flachen künstlichen Plattform und eine lange Brücke, die über die Mündung des Perlflusses hinausführt.",
+    "w": "Hügelige grüne Inseln und eine Halbinsel, dichte Stadt an einem schmalen Hafen; im Westen eine rechteckige Flughafeninsel.",
+    "f": [
+      "Rund 40 Prozent der Landfläche Hongkongs sind als Landschaftsparks geschützt.",
+      "Die Brücke nach Zhuhai und Macau ist rund 55 km lang und taucht zwischen zwei künstlichen Inseln in einen Unterwassertunnel ab.",
+      "Der Name bedeutet „duftender Hafen“, vermutlich nach dem Räucherholz, das einst von hier verschifft wurde."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Hongkong“?",
+      "a": "Duftender Hafen",
+      "x": [
+        "Perlenhafen",
+        "Tiefer Hafen"
+      ]
+    }
+  },
+  "Q1353": {
+    "t": "Sieben Städte in einer, an den Ufern der Yamuna",
+    "s": "Delhi wurde immer wieder auf demselben Abschnitt der Yamuna neu gebaut, und die Überlieferung zählt hier mindestens sieben historische Städte übereinander. Von oben fließt der Fluss an der Ostseite entlang, in der Trockenzeit von Sandbänken durchflochten. Ein niedriger, buschiger Kamm – der letzte Ausläufer der uralten Aravalli-Berge – durchschneidet den Westen. Nachts breitet sich der Lichtschein weit über die Ebene.",
+    "w": "Ein riesiges Häusermeer auf flacher Ebene, ein verflochtener Fluss an seiner Ostseite, ein dunkler bewaldeter Kamm durch den Westen.",
+    "f": [
+      "Alt-Delhi oder Shahjahanabad wurde von Shah Jahan erbaut, dem Schöpfer des Taj Mahal; sein Rotes Fort wurde 1648 vollendet.",
+      "Die Aravalli-Kette, deren letzter Ausläufer in Delhi endet, ist eines der ältesten Gebirge der Erde.",
+      "Die Eiserne Säule beim Qutb Minar steht seit rund 1.600 Jahren – bemerkenswert wenig verrostet."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt an Delhi vorbei?",
+      "a": "Die Yamuna",
+      "x": [
+        "Der Ganges",
+        "Der Sutlej"
+      ]
+    }
+  },
+  "Q269": {
+    "t": "Eine grüne Oasenstadt am Fuß des Tian Shan",
+    "s": "Taschkent breitet sich als weites, grünes Raster über eine bewässerte Ebene aus, gespeist von Kanälen aus dem Tschirtschik. Im Nordosten steigt das Land zu den ersten Kämmen des Tian Shan an, im Winter und Frühjahr verschneit, und der türkise Tscharwak-Stausee füllt ein Bergtal. Karawanen der Seidenstraße kannten diese Oase als Chach.",
+    "w": "Ein großes grünes Raster auf flacher Ebene; im Nordosten Berge mit einem türkisen Stausee in einem Tal.",
+    "f": [
+      "Der Name wird in den Turksprachen meist als „Steinstadt“ gelesen.",
+      "Taschkents 1977 eröffnete U-Bahn war die erste Zentralasiens.",
+      "Es ist die bevölkerungsreichste Stadt Zentralasiens."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Taschkent“ am wahrscheinlichsten?",
+      "a": "Steinstadt",
+      "x": [
+        "Grüne Stadt",
+        "Sonnenstadt"
+      ]
+    }
+  },
+  "Q1861": {
+    "t": "Stadt der Engel an einem Fluss in braunen Schleifen",
+    "s": "Der Chao Phraya windet sich in trägen braunen Schleifen durch Bangkok, und die ganze Stadt liegt auf einem Delta, so flach, dass es sich kaum über das Meer erhebt. Ringsum erstrecken sich Reisfelder und quadratische Fischteiche bis zum Golf von Thailand, rund 30 km südlich. Thais sagen selten Bangkok: Sie nennen die Stadt Krung Thep, die Stadt der Engel.",
+    "w": "Eine riesige flache graue Stadt an einem braunen Fluss in Schleifen, zwischen ihr und dem Golf ein Raster grüner Felder und Teiche.",
+    "f": [
+      "Bangkoks vollständiger zeremonieller Name ist einer der längsten Ortsnamen der Welt.",
+      "Hauptstadt wurde es 1782, als König Rama I. den Hof von Thonburi über den Fluss verlegte.",
+      "Sein altes Kanalnetz brachte Bangkok den Beinamen „Venedig des Ostens“ ein."
+    ],
+    "q": {
+      "q": "Wie nennen Thais Bangkok meist?",
+      "a": "Krung Thep",
+      "x": [
+        "Ayutthaya",
+        "Sukhothai"
+      ]
+    }
+  },
+  "Q8684": {
+    "t": "Ein breiter Fluss und Granitgipfel in einer Hauptstadt",
+    "s": "Seoul ist eine Stadtschüssel zwischen steilen Granitbergen, geteilt vom breiten Han. Hier bis zu einem Kilometer breit, wird der Han von mehr als 25 Brücken gequert, die sich wie feine Stiche über das Wasser ziehen. Die Joseon-Könige machten die Stadt 1394 zur Hauptstadt: Berge im Rücken, ein Fluss davor – ideal nach den Regeln der Geomantie.",
+    "w": "Ein breiter Fluss, der sich nach Westen durch eine dichte Stadt schwingt, umringt von felsigen, bewaldeten Bergen; alle ein bis zwei Kilometer eine Brücke.",
+    "f": [
+      "Die Joseon-Könige umgaben ihre Hauptstadt mit einer rund 18 km langen Steinmauer, begonnen 1396.",
+      "Bukhansan, ein Nationalpark aus Granitgipfeln, erhebt sich direkt am Nordrand der Stadt.",
+      "Auf Koreanisch bedeutet „Seoul“ schlicht „Hauptstadt“."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Seoul?",
+      "a": "Der Han",
+      "x": [
+        "Der Nakdong",
+        "Der Taedong"
+      ]
+    }
+  },
+  "Q1461": {
+    "t": "Große runde Bucht, ein Fluss und ein See hinter der Stadt",
+    "s": "Manila säumt das Ostufer einer weiten, fast kreisrunden Bucht, berühmt für ihre Sonnenuntergänge. Der Pasig durchzieht die Stadt und verbindet die Bucht mit der Laguna de Bay, dem größten See der Philippinen. 250 Jahre lang segelten spanische Galeonen von hier nach Mexiko und trugen chinesische Seide und Porzellan über den Pazifik.",
+    "w": "Eine dichte Stadt am Ostufer einer weiten runden Bucht; ein Fluss windet sich nach Osten zu einem riesigen See.",
+    "f": [
+      "Die Spanier gründeten 1571 das ummauerte Intramuros; die Manila-Galeonen fuhren von 1565 bis 1815 nach Acapulco.",
+      "Der Name kommt von nilad, einem Mangrovenstrauch, der einst am Fluss wuchs.",
+      "Die Laguna de Bay ist sehr flach: im Schnitt nur rund drei Meter tief."
+    ],
+    "q": {
+      "q": "Wohin segelten die Manila-Galeonen über den Pazifik?",
+      "a": "Nach Acapulco",
+      "x": [
+        "Nach Lima",
+        "Nach San Francisco"
+      ]
+    }
+  },
+  "Q16959": {
+    "t": "Die Großstadt, die am weitesten von jedem Meer entfernt ist",
+    "s": "Keine große Stadt der Erde liegt weiter vom Ozean entfernt als Ürümqi – die nächste Küste ist rund 2.500 km weg. Sie füllt ein Tal am Nordfuß des Tian Shan, im Osten erhebt sich das verschneite Massiv des Bogda Feng. Nördlich der Stadt flacht das Land zum trockenen Dsungarischen Becken ab.",
+    "w": "Eine lange Stadt in einem Tal unter verschneiten Bergen; im Osten die Gletscher des Bogda Feng, im Norden ein trockenes Becken.",
+    "f": [
+      "Der Bogda Feng ist 5.445 m hoch – und liegt trotzdem mehr als 5 km unter Ihnen.",
+      "Die Gurbantünggüt, Chinas zweitgrößte Wüste, füllt das Becken nördlich der Stadt.",
+      "Der Name stammt aus dem Mongolischen und bedeutet „schöne Weide“."
+    ],
+    "q": {
+      "q": "Wie weit ist Ürümqi ungefähr vom nächsten Meer entfernt?",
+      "a": "Rund 2.500 km",
+      "x": [
+        "Rund 900 km",
+        "Rund 5.000 km"
+      ]
+    }
+  },
+  "Q30002": {
+    "t": "Eine runde Stadt auf einer Ebene, bewässert seit 256 v. Chr.",
+    "s": "Ringstraßen zeichnen konzentrische Kreise auf eine bemerkenswert flache, grüne Ebene: Das ist Chengdu am Westrand des Sichuan-Beckens. Gleich westlich steigen die Berge abrupt zum Tibetischen Hochland an. Ihre Fruchtbarkeit verdankt die Ebene Dujiangyan, einem um 256 v. Chr. gebauten Bewässerungssystem, das den Min noch heute in einen Fächer von Kanälen teilt.",
+    "w": "Eine runde Stadt aus konzentrischen Ringstraßen auf grüner Ebene; im Westen steigt eine Bergwand steil an.",
+    "f": [
+      "Ein altes Sprichwort behauptet, Sichuans Hunde bellten die Sonne an, weil sie sie durch den Dunst so selten sähen.",
+      "Dujiangyan, rund 50 km nordwestlich der Stadt, ist UNESCO-Welterbe.",
+      "Chengdu hat seit 1987 eine Zuchtstation für Große Pandas."
+    ],
+    "q": {
+      "q": "Welches antike Bewässerungssystem wässert noch heute die Chengdu-Ebene?",
+      "a": "Dujiangyan",
+      "x": [
+        "Der Kaiserkanal",
+        "Der Lingqu-Kanal"
+      ]
+    }
+  },
+  "Q35765": {
+    "t": "Japans alte Küche, mit einem Flughafen draußen in der Bucht",
+    "s": "Osaka füllt das flache Land am Ende der Bucht von Osaka, wo sich der Yodo auf dem Weg zum Meer in Arme teilt. Das bebaute Gebiet setzt sich ohne Unterbrechung Richtung Kobe und Kyoto fort. Achten Sie draußen in der Bucht auf ein ordentliches Rechteck, das nur über eine einzige lange Brücke mit dem Ufer verbunden ist: den Flughafen Kansai auf einer künstlichen Insel.",
+    "w": "Eine durchgehende Stadt um das Ende einer Bucht; vor der Küste eine rechteckige Flughafeninsel, verbunden über eine einzige Brücke.",
+    "f": [
+      "Osaka beherrschte in der Edo-Zeit den Reishandel so vollständig, dass man es „die Küche der Nation“ nannte.",
+      "Toyotomi Hideyoshi begann 1583 mit dem Bau der Burg Osaka.",
+      "Im benachbarten Sakai ist der schlüssellochförmige Grabhügel des Kaisers Nintoku rund 486 m lang."
+    ],
+    "q": {
+      "q": "Welchen Beinamen trug Osaka in der Edo-Zeit?",
+      "a": "Die Küche der Nation",
+      "x": [
+        "Die Schmiede der Nation",
+        "Der Garten der Nation"
+      ]
+    }
+  },
+  "Q987": {
+    "t": "Eine geplante Kaiserhauptstadt in einer viel älteren Stadt",
+    "s": "Suchen Sie im endlosen Häusermeer Delhis einen grüneren, lockereren Fleck südlich der Altstadt: Das ist Neu-Delhi. Es wurde nach 1911 von Grund auf geplant, als Großbritannien beschloss, seine indische Hauptstadt von Kalkutta hierher zu verlegen. Die Architekten Edwin Lutyens und Herbert Baker legten breite Alleen an, die sich an Kreisverkehren treffen, mit einer zeremoniellen Achse, die vom Raisina Hill nach Osten verläuft.",
+    "w": "Ein grünerer, offenerer Fleck mitten im Häusermeer Delhis, einige Kilometer westlich der Yamuna.",
+    "f": [
+      "Neu-Delhi wurde 1931 feierlich als Hauptstadt eingeweiht, zwanzig Jahre nach der Ankündigung des Umzugs.",
+      "Sein Grundriss besteht aus Dreiecken und Sechsecken, mit Alleen, die strahlenförmig von Kreisverkehren ausgehen.",
+      "Der Präsidentenpalast auf dem Raisina Hill hat rund 340 Räume."
+    ],
+    "q": {
+      "q": "Wann wurde Neu-Delhi feierlich als Hauptstadt eingeweiht?",
+      "a": "1931",
+      "x": [
+        "1911",
+        "1947"
+      ]
+    }
+  },
+  "Q1355": {
+    "t": "Eine Gartenstadt der Seen auf einem kühlen Hochplateau",
+    "s": "Dutzende Seen glitzern über diesem Häusermeer auf dem Dekkan-Plateau – die meisten alte Stauteiche, sogenannte Tanks, die vor Jahrhunderten durch Abdämmen flacher Täler entstanden. Bengaluru liegt rund 900 m hoch, was es spürbar kühler hält als Indiens Küstenstädte. Ein örtlicher Fürst, Kempe Gowda, gründete die Stadt 1537 mit einem Lehmfort.",
+    "w": "Eine ausgedehnte Stadt auf welligem Hochland, gesprenkelt mit Seen aller Größen; im Norden kahle Granithügel.",
+    "f": [
+      "Seine vielen Softwarefirmen brachten ihm den Spitznamen „Indiens Silicon Valley“ ein.",
+      "Lalbagh, ein unter Hyder Ali im 18. Jahrhundert begonnener botanischer Garten, trug zum Beinamen „Gartenstadt“ bei.",
+      "2014 wurde der offizielle Name von Bangalore in Bengaluru geändert, wie die Stadt auf Kannada schon immer hieß."
+    ],
+    "q": {
+      "q": "Wie hoch über dem Meer liegt Bengaluru ungefähr?",
+      "a": "Rund 900 m",
+      "x": [
+        "Rund 100 m",
+        "Rund 2.000 m"
+      ]
+    }
+  },
+  "Q5838": {
+    "t": "Ein hohes Bergtal, in dem Babur ruhen wollte",
+    "s": "Kabul liegt rund 1.800 m hoch in einer Schüssel kahler brauner Berge, felsige Kämme ragen mitten durch die Stadt. Der Kabul-Fluss windet sich von hier nach Osten zum Chaibarpass und schließlich zum Indus. Im Winter leuchtet im Norden die verschneite Wand des Hindukusch. Babur, Gründer des Mogulreichs, liebte dieses Tal und wählte es als Grabstätte.",
+    "w": "Eine dichte Stadt in einem hohen, trockenen Becken, durchbrochen von kahlen Kämmen; im Norden verschneite Berge.",
+    "f": [
+      "Baburs Grab steht im Bagh-e Babur, einem Terrassengarten, den er selbst anlegte.",
+      "Mit rund 1.800 m liegt Kabul höher als der Gipfel des Ben Nevis, des höchsten Bergs Großbritanniens.",
+      "Der Kabul-Fluss fließt nach Osten nach Pakistan und mündet bei Attock in den Indus."
+    ],
+    "q": {
+      "q": "Welcher Mogulkaiser wollte in Kabul begraben werden?",
+      "a": "Babur",
+      "x": [
+        "Akbar",
+        "Aurangzeb"
+      ]
+    }
+  },
+  "Q3141": {
+    "t": "Eine Stadt am Ende einer riesigen, fast geschlossenen Bucht",
+    "s": "Stellen Sie sich eine riesige Wasserfläche vor, fast abgeriegelt vom Ozean: Das ist die Port Phillip Bay, an ihrem Ende Melbourne. Die Einfahrt, der Rip, ist nur rund 3 km breit und bei Seeleuten gefürchtet. Der Yarra schlängelt sich von Osten ins Zentrum; dort im Osten erheben sich die bewaldeten Dandenong Ranges. Ein Goldrausch in den 1850er-Jahren machte die Stadt zu einer der reichsten der Welt.",
+    "w": "Eine ausgedehnte Stadt am Ende einer riesigen, fast runden Bucht; im Osten bewaldete Hügel, im Westen flache Ebenen.",
+    "f": [
+      "Von 1901 bis 1927 tagte Australiens Bundesparlament in Melbourne, bis Canberra fertig war.",
+      "Die Stadt wurde 1835 am Ufer des Yarra gegründet.",
+      "Die Port Phillip Bay umfasst fast 2.000 km² und ist doch nirgends tiefer als rund 24 m."
+    ],
+    "q": {
+      "q": "Wie breit ist die Einfahrt zur Port Phillip Bay ungefähr?",
+      "a": "Rund 3 km",
+      "x": [
+        "Rund 30 km",
+        "Rund 300 m"
+      ]
+    }
+  },
+  "Q1867": {
+    "t": "Eine Stadt, in ein Becken grüner Berge gegossen",
+    "s": "Taipeh füllt ein flaches Becken wie Wasser eine Schüssel, auf allen Seiten steigen bewaldete Berge auf. Im Norden dampfen still die ruhenden Vulkane des Yangmingshan und speisen heiße Quellen am Stadtrand. Drei Flüsse vereinen sich im Becken und verlassen es durch eine einzige Lücke im Nordwesten als Tamsui, Richtung Taiwanstraße.",
+    "w": "Eine dichte Stadt, die ein rundes Becken füllt, ringsum grüne Berge, ein Fluss schlängelt sich nach Nordwesten zum Meer.",
+    "f": [
+      "Taipei 101, 2004 vollendet, war bis 2010 das höchste Gebäude der Welt.",
+      "Der Qixing im Yangmingshan, rund 1.120 m hoch, ist ein ruhender Vulkan innerhalb der Stadtgrenzen.",
+      "Die heißen Quellen von Beitou im Norden der Stadt werden von derselben Vulkangruppe beheizt."
+    ],
+    "q": {
+      "q": "Welcher Fluss entwässert das Taipeh-Becken zum Meer?",
+      "a": "Der Tamsui",
+      "x": [
+        "Der Zhuoshui",
+        "Der Gaoping"
+      ]
+    }
+  }
+}

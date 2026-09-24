@@ -1074,5 +1074,1869 @@
         "Gespiegelter Wüstensand"
       ]
     }
+  },
+  "Q276776": {
+    "t": "Ein verschwindendes Meer, zur neuen Wüste geworden",
+    "s": "Was Sie sehen, ist der Geist eines Meeres. 1960 war der Aralsee der viertgrößte See der Welt, doch seine Flüsse wurden zur Bewässerung von Baumwolle umgeleitet, und er schrumpfte. Der südliche Teil zerfiel in Reste: ein tiefes Westbecken und ein blasses, wanderndes Ostbecken, das 2014 fast vollständig austrocknete. Sein alter Meeresboden ist heute eine neue Wüste, die Aralkum.",
+    "w": "Im Westen ein schmaler Streifen dunklen Wassers, im Osten blasse Salzflächen, umringt von alten Uferlinien in der Wüste.",
+    "f": [
+      "Der alte Fischereihafen Moynaq liegt heute mehr als 100 km vom Wasser entfernt, mit rostenden Schiffen im Sand.",
+      "Die frühere Insel Wosroschdenija ist heute mit dem Festland verbunden.",
+      "Salz und Staub vom trockenen Seeboden können Hunderte Kilometer weit getragen werden."
+    ],
+    "q": {
+      "q": "Warum schrumpfte der Aralsee?",
+      "a": "Flüsse wurden zur Bewässerung umgeleitet",
+      "x": [
+        "Ein Erdbeben ließ ihn auslaufen",
+        "Ein Kanal leerte ihn ins Kaspimeer"
+      ]
+    }
+  },
+  "Q876280": {
+    "t": "Die „kleine“ Lagune, die 180 km lang ist",
+    "s": "Ihr Name bedeutet auf Tupí-Guaraní „klein“, und doch erstreckt sich die Lagoa Mirim rund 180 km entlang der Küstenebene, geteilt von Brasilien und Uruguay. Nur ein Streifen aus Sanddünen und Sümpfen trennt sie vom Atlantik. Suchen Sie aus der Luft ihr bräunliches, schlammiges Wasser neben dem Blau des Ozeans, am Westufer ausgebreitete grüne Reisfelder.",
+    "w": "Eine lange Lagune parallel zur Atlantikküste nahe der Grenze zwischen Brasilien und Uruguay, durch einen Sandstreifen vom Meer getrennt.",
+    "f": [
+      "Der São-Gonçalo-Kanal verbindet sie mit der noch größeren Lagoa dos Patos im Nordosten.",
+      "Das Feuchtgebiet von Taim, ein an Wasservögeln reiches Schutzgebiet, liegt zwischen Lagune und Meer."
+    ],
+    "q": {
+      "q": "Was bedeutet „Mirim“ auf Tupí-Guaraní?",
+      "a": "Klein",
+      "x": [
+        "Tief",
+        "Salzig"
+      ]
+    }
+  },
+  "Q42191": {
+    "t": "Der „warme See“ des Tian Shan, der nie zufriert",
+    "s": "Der Yssykköl ist ein langes, saphirblaues Oval zwischen zwei verschneiten Ketten des Tian Shan, rund 1.600 m über dem Meer. Die Winter in diesen Bergen sind hart, doch der See friert nie zu – sein Name bedeutet auf Kirgisisch „warmer See“. Er ist tief, leicht salzig und verblüffend klar, und fast das ganze Jahr rahmen weiße Gipfel sein Blau.",
+    "w": "Ein langes Ost-West-Oval aus tiefem Blau zwischen zwei parallelen, schneebedeckten Ketten im Nordosten Kirgisistans.",
+    "f": [
+      "Er ist bis zu rund 668 m tief.",
+      "Kein Fluss fließt aus ihm ab, darum ist sein Wasser leicht salzig.",
+      "Er ist einer der größten Bergseen der Welt."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Yssykköl?",
+      "a": "Warmer See",
+      "x": [
+        "Blauer See",
+        "Salzsee"
+      ]
+    }
+  },
+  "Q3358037": {
+    "t": "Der Teil des Aralsees, der zurückkehrt",
+    "s": "Anders als sein südlicher Nachbar ist der Nördliche Aralsee eine seltene Geschichte der Erholung. 2005 riegelte der Kokaral-Damm ihn vom schrumpfenden Süden ab, sodass das Wasser des Syrdarja nun hier bleibt. Der Spiegel stieg, das Wasser wurde weniger salzig, und die Fische kehrten zurück. Von oben ist er ein gelappter blauer See in blasser Wüste, noch weit von seinen alten Ufern entfernt.",
+    "w": "Ein gelappter blauer See in der Wüste im Südwesten Kasachstans; ein Damm an seiner Südspitze, von Osten mündet der Syrdarja.",
+    "f": [
+      "Der rund 13 km lange Kokaral-Damm hält sein Wasser zurück.",
+      "Das Wasser ist wieder bis nahe an Aralsk herangekrochen, einen Hafen, der weit im Landesinneren zurückgeblieben war.",
+      "In seinen Gewässern wird wieder gewerblich gefischt."
+    ],
+    "q": {
+      "q": "Was half dem Nördlichen Aralsee, sich zu erholen?",
+      "a": "Ein Damm",
+      "x": [
+        "Pumpen aus dem Kaspimeer",
+        "Eine Entsalzungsanlage"
+      ]
+    }
+  },
+  "Q19270": {
+    "t": "Ein tiefes tropisches Becken im Korallendreieck",
+    "s": "Umringt von Mindanao, Sulawesi und Borneo fällt dieses fast geschlossene Becken auf mehr als 6.000 m ab. Sein offenes Wasser ist dunkles, samtiges Blau, doch an den Rändern leuchtet es türkis, wo Riffe die Inseln säumen. Die Celebessee gehört zum Korallendreieck, wo mehr Korallen- und Rifffischarten leben als irgendwo sonst auf der Erde.",
+    "w": "Ein tiefblaues Meer zwischen Mindanao, dem langen Nordarm Sulawesis und Nordostborneo; an seinem Ostrand Vulkaninseln.",
+    "f": [
+      "„Celebes“ ist der alte europäische Name der Insel Sulawesi.",
+      "Der Sulu-Archipel, eine Kette kleiner Inseln, trennt sie von der Sulusee."
+    ],
+    "q": {
+      "q": "„Celebes“ ist der alte Name welcher Insel?",
+      "a": "Sulawesi",
+      "x": [
+        "Borneo",
+        "Mindanao"
+      ]
+    }
+  },
+  "Q160194": {
+    "t": "Korallenatolle im Herzen der philippinischen Meere",
+    "s": "Die Sulusee ist von Inseln umringt. Suchen Sie die lange, schmale Insel Palawan – sie bildet die Nordwestwand wie ein grünes Rückgrat auf dem Blau. Mitten im offenen Wasser, fern jeder Küste, liegen die Tubbataha-Riffe: zwei Atolle, deren türkisfarbene Lagunen und weiße Sandinseln sich scharf vom tiefen Blau abheben.",
+    "w": "Ein tiefblaues Meer zwischen Palawan, Mindanao und den mittleren Philippinen, in der Mitte kleine türkisfarbene Atolle.",
+    "f": [
+      "Die Tubbataha-Riffe sind seit 1993 UNESCO-Welterbe.",
+      "Ihr tiefes Becken fällt auf mehr als 5.000 m ab.",
+      "Der Sulu-Archipel, der dem Meer seinen Namen gibt, zieht sich an ihrem Südostrand entlang."
+    ],
+    "q": {
+      "q": "Welche lange Insel bildet den Nordwestrand der Sulusee?",
+      "a": "Palawan",
+      "x": [
+        "Luzon",
+        "Samar"
+      ]
+    }
+  },
+  "Q47545": {
+    "t": "Arktisches Meer, von warmem Atlantikwasser offen gehalten",
+    "s": "Obwohl große Teile nördlich des Polarkreises liegen, bleibt das Europäische Nordmeer fast das ganze Jahr eisfrei: Ein Arm des warmen Golfstromwassers fließt hindurch Richtung Arktis. Suchen Sie auf der norwegischen Seite die zackigen Gipfel der Lofoten, die direkt aus dem Wasser ragen wie eine Reihe Haifischzähne.",
+    "w": "Offenes graublaues Meer vor Norwegens Küste; im Osten die sägezahnartige Kette der Lofoten und eine in Fjorde zerfetzte Küste.",
+    "f": [
+      "Vor der Spitze der Lofoten wirbelt der Moskstraumen, der Mahlstrom, der Edgar Allan Poe und Jules Verne inspirierte.",
+      "Das Røst-Riff vor den Lofoten ist das größte bisher entdeckte Kaltwasserkorallenriff.",
+      "Seine tiefen Becken reichen mehr als 3.000 m hinab."
+    ],
+    "q": {
+      "q": "Welcher berühmte Strudel wirbelt vor den Lofoten?",
+      "a": "Der Moskstraumen",
+      "x": [
+        "Der Corryvreckan",
+        "Die Charybdis"
+      ]
+    }
+  },
+  "Q132868": {
+    "t": "Die Ausgangstür der Arktis für treibendes Meereis",
+    "s": "Das meiste Meereis, das das Nordpolarmeer verlässt, tut es hier. Schollen zwängen sich durch die Framstraße zwischen Grönland und Spitzbergen und reiten dann mit dem Ostgrönlandstrom in einem langen weißen Band die Küste hinab nach Süden. Östlich dieses Bandes ist das Meer dunkel und offen. Weit im Süden erhebt sich Jan Mayen, gekrönt vom verschneiten Vulkan Beerenberg.",
+    "w": "Zwischen Grönland und Spitzbergen: ein weißes Band treibenden Packeises entlang der Küste Grönlands, im Osten offenes dunkles Wasser.",
+    "f": [
+      "Der Beerenberg auf Jan Mayen (2.277 m) ist der nördlichste aktive Vulkan an Land.",
+      "Die Framstraße an ihrem Nordende ist das Haupttor, durch das arktisches Meereis hinaustreibt.",
+      "Im Winter sinkt ihr Oberflächenwasser in die Tiefe und treibt die Zirkulation des Atlantiks mit an."
+    ],
+    "q": {
+      "q": "Durch welche Meerenge verlässt das meiste Eis das Nordpolarmeer?",
+      "a": "Die Framstraße",
+      "x": [
+        "Die Beringstraße",
+        "Die Davisstraße"
+      ]
+    }
+  },
+  "Q171510": {
+    "t": "Tiefblaues Meer der ursprünglichen Gewürzinseln",
+    "s": "Die Bandasee ist von einem großen gebogenen Bogen aus Vulkaninseln umringt, und stellenweise fällt ihr Boden auf mehr als 7.000 m ab. Verstreut darin liegen die winzigen Banda-Inseln – jahrhundertelang der einzige Ort der Erde, an dem Muskatnuss wuchs, ein Gewürz so kostbar, dass europäische Mächte um diese Landflecken kämpften.",
+    "w": "Tiefes indigoblaues Meer im Osten Indonesiens, gesäumt von Vulkaninseln; suchen Sie winzige grüne Tupfen und Kegel im offenen Wasser.",
+    "f": [
+      "In einem Vertrag von 1667 gab England seinen Anspruch auf Run auf, eine winzige Muskatinsel der Bandas, und behielt Manhattan.",
+      "Das Webertief im Osten des Meeres ist mehr als 7 km tief."
+    ],
+    "q": {
+      "q": "Welches Gewürz wuchs einst nur auf den Banda-Inseln?",
+      "a": "Muskatnuss",
+      "x": [
+        "Zimt",
+        "Schwarzer Pfeffer"
+      ]
+    }
+  },
+  "Q41573": {
+    "t": "Stürmische Bucht zwischen Frankreichs Sandküste und Spanien",
+    "s": "Blicken Sie über den Golf von Biskaya nach Osten, und Sie sehen vielleicht eine der geradesten Küstenlinien Europas: über 200 km fast ununterbrochener Sand an Frankreichs Küste der Landes, nahe ihrem Nordende die aufgetürmte Dune du Pilat. Das Südufer ist das Gegenteil – Spaniens grüne, gebirgige Nordküste. Die Bucht ist berühmt für plötzliche Stürme und hohe Atlantikdünung.",
+    "w": "Eine weite Bucht, eingerahmt von Frankreichs langer, gerader Sandküste im Osten und Spaniens gebirgigem Ufer im Süden.",
+    "f": [
+      "Die rund 100 m hohe Dune du Pilat ist die höchste Sanddüne Europas.",
+      "Jenseits des Kontinentalschelfs fällt ihr Boden auf mehr als 4.000 m ab.",
+      "Delfine und Wale fressen hier und sind von den Fähren, die sie queren, oft zu sehen."
+    ],
+    "q": {
+      "q": "Welche ist die höchste Sanddüne Europas, am Golf von Biskaya?",
+      "a": "Die Dune du Pilat",
+      "x": [
+        "Die Råbjerg Mile",
+        "Die Dünen von Łeba"
+      ]
+    }
+  },
+  "Q165100": {
+    "t": "Die Meerenge zwischen Afrika und Madagaskar",
+    "s": "Dieser breite Kanal trennt Madagaskar durch mindestens 400 km tiefblaues Wasser vom afrikanischen Festland. Er öffnete sich vor mehr als 100 Millionen Jahren, als Madagaskar von Afrika wegdriftete. Suchen Sie von oben auf der afrikanischen Seite die braune Fahne des Sambesi und am Nordende die vulkanischen Komoren.",
+    "w": "Weites blaues Wasser zwischen Mosambiks flacher Küste und Madagaskars Westufer; die Komoren markieren sein Nordende.",
+    "f": [
+      "Quastenflosser, Fische, die man seit 66 Millionen Jahren für ausgestorben hielt, leben in tiefem Wasser vor den Komoren.",
+      "Der Kanal ist rund 1.600 km lang.",
+      "Buckelwale kommen im Südwinter zur Fortpflanzung hierher."
+    ],
+    "q": {
+      "q": "Welcher Fisch, ein „lebendes Fossil“, lebt vor den Komoren?",
+      "a": "Der Quastenflosser",
+      "x": [
+        "Der Lungenfisch",
+        "Der Stör"
+      ]
+    }
+  },
+  "Q41430": {
+    "t": "Wo sich Äquator und Nullmeridian kreuzen",
+    "s": "Irgendwo in diesem warmen, dunstigen Golf liegt 0° Breite, 0° Länge – der Punkt, an dem der Äquator den Nullmeridian kreuzt, nur markiert von einer Wetterboje. Im Norden breitet sich der Niger zu einem riesigen Delta aus Mangroven und Prielen aus, und nachts glühen seine Öl- und Gasfackeln wie Glut. Vor der Küste steigen Vulkaninseln aus dem Meer.",
+    "w": "Ein weiter, warmer Golf vor Westafrika; im Norden das grüne Labyrinth des Nigerdeltas, vor der Küste Vulkaninseln wie Bioko.",
+    "f": [
+      "Bioko, São Tomé und Príncipe sind Vulkane der Kamerunlinie, die vom Festland ins Meer hinausläuft.",
+      "Das Nigerdelta ist das größte Flussdelta Afrikas.",
+      "Europäische Seefahrer nannten Abschnitte seiner Küste einst Goldküste und Elfenbeinküste."
+    ],
+    "q": {
+      "q": "Welche beiden Linien kreuzen sich im Golf von Guinea?",
+      "a": "Äquator und Nullmeridian",
+      "x": [
+        "Nördlicher Wendekreis und Nullmeridian",
+        "Äquator und 180. Meridian"
+      ]
+    }
+  },
+  "Q545": {
+    "t": "Ein junges, halb süßes Meer, nach der Eiszeit entstanden",
+    "s": "Die Ostsee ist kaum ein Meer: Gespeist von mehr als 200 Flüssen und mit dem Ozean nur durch die schmalen dänischen Meerengen verbunden, ist ihr Wasser brackig und im hohen Norden fast süß. Sie entstand nach der letzten Eiszeit und war eine Zeit lang ein See. Suchen Sie Gotland und Öland, lange Kalksteininseln vor Schweden.",
+    "w": "Ein großes graublaues Binnenmeer in Nordeuropa; die langen Inseln Gotland und Öland liegen vor Schwedens Südostküste.",
+    "f": [
+      "Der meiste Bernstein der Welt findet sich an ihren südöstlichen Küsten.",
+      "In kalten Wintern frieren ihre nördlichen Meerbusen vollständig zu.",
+      "Ihre mittlere Tiefe beträgt nur rund 55 m."
+    ],
+    "q": {
+      "q": "Was wird an den südöstlichen Küsten der Ostsee angespült?",
+      "a": "Bernstein",
+      "x": [
+        "Jade",
+        "Korallen"
+      ]
+    }
+  },
+  "Q45823": {
+    "t": "Ein arktisches Meer, vom Atlantik halb offen gehalten",
+    "s": "Die Barentssee ist ein Meer aus zwei Hälften. Warmes Atlantikwasser hält ihren Südwesten den ganzen Winter offen – der Hafen von Murmansk friert nie zu –, während der Norden einen Großteil des Jahres im Eis gefangen ist. Im August können Planktonblüten das Wasser milchig türkis marmorieren, ein Anblick, den Satelliten oft festhalten.",
+    "w": "Im Südwesten offenes dunkles Wasser, im Norden Packeis; im Osten riegelt die lange, gebogene Insel Nowaja Semlja sie ab.",
+    "f": [
+      "Sie ist nach Willem Barentsz benannt, der 1596–97 auf Nowaja Semlja überwinterte.",
+      "In ihren Gewässern lebt einer der größten Kabeljaubestände der Welt.",
+      "Spitzbergen, Franz-Josef-Land und Nowaja Semlja rahmen sie im Westen, Norden und Osten."
+    ],
+    "q": {
+      "q": "Warum bleibt der Hafen von Murmansk im Winter eisfrei?",
+      "a": "Warmes Atlantikwasser",
+      "x": [
+        "Heiße Quellen unter der Bucht",
+        "Salz aus nahen Minen"
+      ]
+    }
+  },
+  "Q1693": {
+    "t": "Ein flaches Meer, das einst trockenes Land war",
+    "s": "Ein Großteil der südlichen Nordsee war bis vor rund 8.000 Jahren trockenes Land: Jäger durchstreiften eine Ebene, die man heute Doggerland nennt und die Britannien mit dem Kontinent verband. Heute ist das Meer flach und belebt. An klaren Tagen erkennen Sie vielleicht die regelmäßigen Raster von Offshore-Windparks und entlang der niederländischen, deutschen und dänischen Küste die graubraunen Watten des Wattenmeers.",
+    "w": "Graugrünes, flaches Meer zwischen Britannien, Norwegen und dem Kontinent; Watten und Barriereinseln entlang der Südküste.",
+    "f": [
+      "Das Wattenmeer ist das größte zusammenhängende Wattsystem der Welt.",
+      "Ihre mittlere Tiefe beträgt nur rund 95 m.",
+      "Trawler holen noch heute gelegentlich Mammutknochen von der Doggerbank herauf."
+    ],
+    "q": {
+      "q": "Wie heißt das versunkene Land unter der südlichen Nordsee?",
+      "a": "Doggerland",
+      "x": [
+        "Atlantis",
+        "Lyonesse"
+      ]
+    }
+  },
+  "Q41735": {
+    "t": "Zwischen Britannien und Irland, mit Man in der Mitte",
+    "s": "Mitten in der Irischen See liegt die Isle of Man, grün und hügelig, mit ihrem eigenen uralten Parlament. An klaren Tagen erkennen Sie im Osten Anglesey und die Berge von Snowdonia, im Westen die Bucht von Dublin und weite Buchten, in denen die Ebbe kilometerweit Sand freilegt.",
+    "w": "Ein graugrünes Meer zwischen Irland und Britannien; nahe der Mitte die Isle of Man, vor der walisischen Küste Anglesey.",
+    "f": [
+      "Das Parlament der Isle of Man, Tynwald, reicht mit seinen Ursprüngen mehr als tausend Jahre zurück.",
+      "Die Morecambe Bay auf der englischen Seite birgt eine der größten Sand- und Schlickflächen Britanniens.",
+      "Ein altes Sprichwort sagt, vom Snaefell, dem 621 m hohen Gipfel der Isle of Man, sehe man sechs Königreiche."
+    ],
+    "q": {
+      "q": "Welche Insel liegt nahe der Mitte der Irischen See?",
+      "a": "Die Isle of Man",
+      "x": [
+        "Die Isle of Wight",
+        "Arran"
+      ]
+    }
+  },
+  "Q49364": {
+    "t": "Ein flaches Tropenmeer über einer versunkenen Ebene",
+    "s": "Die Javasee ist bemerkenswert flach – im Schnitt weniger als 50 m tief –, weil sie eine frühere Ebene überflutet. In den Eiszeiten, als der Meeresspiegel tiefer lag, hätte man von Java nach Borneo laufen können. Suchen Sie am Südufer das Häusermeer von Jakarta und gleich vor der Küste das Gestreu aus Koralleninselchen, die Tausend Inseln.",
+    "w": "Ein warmes, flaches, oft grünliches Meer zwischen Java und Borneo, voller Schiffe; Jakarta breitet sich an seinem Südufer aus.",
+    "f": [
+      "Die Tausend Inseln vor Jakarta sind in Wahrheit gut hundert.",
+      "Ihr Meeresboden gehört zum Sundaschelf, einem der größten Kontinentalschelfe der Erde.",
+      "Karimunjawa, eine Gruppe von Koralleninseln in ihrer Mitte, ist ein Nationalpark."
+    ],
+    "q": {
+      "q": "Zu welcher Insel konnte man in den Eiszeiten von Java aus laufen?",
+      "a": "Borneo",
+      "x": [
+        "Sulawesi",
+        "Neuguinea"
+      ]
+    }
+  },
+  "Q47632": {
+    "t": "Kalksteintürme, Inselketten und ein einsamer Vulkan",
+    "s": "Die Andamanensee ist von Inseln eingerahmt: im Westen die lange Kette der Andamanen und Nikobaren, vor Myanmar die Hunderte bewaldeter Inseln des Mergui-Archipels. Bei Phuket, in der Phang-Nga-Bucht, ragen senkrechte Kalksteintürme direkt aus grünem Wasser. Im Norden breitet sich das schlammige Delta des Irrawaddy aus und färbt das Meer braun.",
+    "w": "Warmes blaues Meer westlich von Thailand und Myanmar; auf beiden Seiten Inselketten, im Norden braunes Flusswasser.",
+    "f": [
+      "Barren Island in ihrem Westteil ist der einzige bestätigte aktive Vulkan Südasiens.",
+      "Der Mergui-Archipel vor Myanmar zählt rund 800 Inseln."
+    ],
+    "q": {
+      "q": "Das Delta welches Flusses breitet sich in die nördliche Andamanensee aus?",
+      "a": "Des Irrawaddy",
+      "x": [
+        "Des Mekong",
+        "Des Chao Phraya"
+      ]
+    }
+  },
+  "Q37960": {
+    "t": "Ein Meer, gefärbt vom Schlick der Flüsse Chinas",
+    "s": "Der Name ist keine Übertreibung: Nahe der chinesischen Küste färbt Schlick großer Flüsse das Wasser trüb gelbbraun, das weiter draußen in Grün übergeht. Das Gelbe Meer ist flach – im Schnitt rund 44 m –, und auf der koreanischen Seite sind die Gezeiten gewaltig: Zweimal täglich zieht sich das Wasser zurück und legt kilometerweit glänzendes Watt frei.",
+    "w": "Ein flaches Meer zwischen China und Korea: gelbbraunes Wasser vor der chinesischen Küste, weite graue Watten an Koreas Westküste.",
+    "f": [
+      "In Incheon kann der Tidenhub mehr als 8 m betragen.",
+      "Seine Watten sind ein lebenswichtiger Rastplatz für Millionen ziehender Watvögel.",
+      "Nahe der Insel Jindo legt sehr niedriges Wasser kurzzeitig einen fast 3 km langen Pfad aus Meeresboden frei."
+    ],
+    "q": {
+      "q": "Was gibt dem Gelben Meer seine Farbe?",
+      "a": "Flussschlick",
+      "x": [
+        "Algenblüten",
+        "Schwefelquellen"
+      ]
+    }
+  },
+  "Q45341": {
+    "t": "Wo der Jangtse in den Pazifik strömt",
+    "s": "An der Mündung des Jangtse, neben Shanghai, nimmt das Ostchinesische Meer die Farbe von Milchtee an: Asiens längster Fluss stößt eine riesige Schlammfahne aus. Suchen Sie südlich der Stadt die dünne Linie der Hangzhou-Bucht-Brücke, die sich rund 36 km über das Wasser zieht. Weiter östlich wird das Meer tiefer und klarer, Richtung Ryūkyū-Inseln.",
+    "w": "Braunes Wasser, das sich bei Shanghai aus der Jangtse-Mündung auffächert und draußen Richtung Ryūkyū-Kette blaugrün wird.",
+    "f": [
+      "Die warme Kuroshio-Strömung zieht an ihrem Ostrand nach Nordosten.",
+      "Ihr breiter Kontinentalschelf ist größtenteils weniger als 200 m tief.",
+      "Die Ryūkyū-Inseln, aufgereiht zwischen Kyūshū und Taiwan, bilden ihre Ostgrenze."
+    ],
+    "q": {
+      "q": "Welcher große Fluss mündet ins Ostchinesische Meer?",
+      "a": "Der Jangtse",
+      "x": [
+        "Der Gelbe Fluss",
+        "Der Perlfluss"
+      ]
+    }
+  },
+  "Q159252": {
+    "t": "Das arktische Meer, an dem die letzten Mammuts lebten",
+    "s": "Nördlich der Beringstraße liegt die Tschuktschensee zwischen Tschukotka und Alaska, und die Datumsgrenze verläuft mitten hindurch – wer sie quert, springt im Kalender einen Tag. Den größten Teil des Jahres ist das Meer gefroren. An seinem Westrand liegt die Wrangelinsel, wo Wollhaarmammuts bis vor rund 4.000 Jahren überlebten, lange nachdem sie anderswo verschwunden waren.",
+    "w": "Eis oder dunkles offenes Wasser nördlich der Beringstraße, zwischen den Hügeln Tschukotkas und Alaskas flacher Nordwestküste.",
+    "f": [
+      "Die Wrangelinsel ist UNESCO-Welterbe und ein wichtiges Gebiet für die Wurfhöhlen der Eisbären.",
+      "Im Herbst ruhen Tausende Pazifische Walrosse an ihren Stränden."
+    ],
+    "q": {
+      "q": "Bis wann ungefähr überlebten Mammuts auf der Wrangelinsel?",
+      "a": "Bis vor etwa 4.000 Jahren",
+      "x": [
+        "Bis vor etwa 40.000 Jahren",
+        "Bis vor etwa 400 Jahren"
+      ]
+    }
+  },
+  "Q61304": {
+    "t": "Die ölreiche Südtasche des Golfs von Mexiko",
+    "s": "Von Veracruz bis zur Halbinsel Yucatán schwingt sich die Bucht von Campeche, die südliche Tasche des Golfs von Mexiko. Unter ihrem Wasser liegt Cantarell, einst eines der größten Ölfelder der Erde, und nachts verstreuen sich Plattformlichter über das Meer. Entlang der Südküste breiten sich Flüsse zu Lagunen und mangrovengesäumten Feuchtgebieten aus.",
+    "w": "Die südliche Bucht des Golfs von Mexiko, von Veracruz ostwärts bis Yucatán; nachts Plattformlichter auf See.",
+    "f": [
+      "Die Laguna de Términos an ihrer Südküste ist eine der größten Küstenlagunen Mexikos.",
+      "Veracruz an ihrem Westufer wurde 1519 von Hernán Cortés gegründet.",
+      "Grijalva und Usumacinta erreichen sie über ein gemeinsames Delta aus Sümpfen und Kanälen."
+    ],
+    "q": {
+      "q": "Wer gründete Veracruz an der Bucht von Campeche?",
+      "a": "Hernán Cortés",
+      "x": [
+        "Francisco Pizarro",
+        "Christoph Kolumbus"
+      ]
+    }
+  },
+  "Q128880": {
+    "t": "Ein flaches Meer über der Landbrücke nach Neuguinea",
+    "s": "Zwischen Nordaustralien und Neuguinea breitet sich die Arafurasee aus – weit, warm und erstaunlich flach, meist weniger als 80 m tief. In den Eiszeiten war sie trockenes Land, und Menschen und Tiere konnten zwischen beiden hin- und herlaufen. Suchen Sie aus der Luft grünbraunes Wasser nahe den schlammigen Küsten und im Norden die flachen, bewaldeten Aru-Inseln.",
+    "w": "Weites, flaches, oft grünliches Meer zwischen Australiens Top End und Neuguinea, im Norden die flachen Aru-Inseln.",
+    "f": [
+      "Der Golf von Carpentaria öffnet sich an ihrer Südseite.",
+      "Die Torres-Straße, ein Labyrinth aus Inseln und Riffen, verbindet sie mit dem Korallenmeer."
+    ],
+    "q": {
+      "q": "Was verband der Boden der Arafurasee in den Eiszeiten?",
+      "a": "Australien und Neuguinea",
+      "x": [
+        "Australien und Timor",
+        "Neuguinea und Borneo"
+      ]
+    }
+  },
+  "Q131418": {
+    "t": "Ein Meer, benannt nach der „östlichen“ Insel",
+    "s": "Die Timorsee trägt den Namen Timors, und Timors Name kommt vom malaiischen Wort für „Osten“. Der größte Teil ist ein weiter, flacher Schelf vor Nordaustralien, doch nahe Timor stürzt der Boden in einen Graben von über 3.000 m Tiefe. Auf der australischen Seite strömen große Gezeiten zwischen rostroten Klippen und Mangrovenprielen ein und aus.",
+    "w": "Offenes blaugrünes Meer zwischen der gebirgigen Insel Timor und den roten Küsten der Kimberley und des Top End.",
+    "f": [
+      "Die Stadt Darwin liegt an ihrem Ostrand.",
+      "Der Joseph Bonaparte Gulf auf ihrer australischen Seite ist nach Napoleons älterem Bruder benannt."
+    ],
+    "q": {
+      "q": "Was bedeutet das malaiische Wort hinter dem Namen „Timor“?",
+      "a": "Osten",
+      "x": [
+        "Insel",
+        "Berg"
+      ]
+    }
+  },
+  "Q131217": {
+    "t": "Ein warmer, flacher Golf, umringt von Tropeninseln",
+    "s": "Warm und flach – im Schnitt rund 45 m tief – wirkt der Golf von Thailand oft eher jadegrün als blau. Suchen Sie vor dem Westufer die Inseln Ko Samui und Ko Pha Ngan und nahe dem Ostufer die große Insel Phu Quoc. Nachts können die Lampen der Fischerboote das dunkle Wasser mit Licht übersäen.",
+    "w": "Ein weiter, oft grünlicher Golf südlich von Bangkok, im Westen die Malaiische Halbinsel, vor beiden Ufern verstreute Inseln.",
+    "f": [
+      "Der Chao Phraya, der Fluss Bangkoks, mündet in seine Nordspitze.",
+      "Sein alter Name, Golf von Siam, ist in manchen Sprachen noch gebräuchlich, etwa im Russischen.",
+      "Sein Meeresboden war in der letzten Eiszeit trockenes Land."
+    ],
+    "q": {
+      "q": "Welcher Fluss Bangkoks mündet in den Golf von Thailand?",
+      "a": "Der Chao Phraya",
+      "x": [
+        "Der Mekong",
+        "Der Irrawaddy"
+      ]
+    }
+  },
+  "Q544914": {
+    "t": "Warmes Meer zwischen Indiens Spitze und den Korallenatollen",
+    "s": "Südwestlich von Indien liegt ein warmes, leuchtend blaues Meer, getupft mit Korallenatollen. Die Lakshadweep-Inseln – der Name bedeutet „hunderttausend Inseln“, obwohl es nur rund drei Dutzend sind – erheben sich in seinem Westen, im Süden die Malediven. Suchen Sie auf der indischen Seite die grüne, palmengesäumte Küste Keralas mit ihrem Labyrinth aus Backwater-Lagunen.",
+    "w": "Leuchtend blaues Wasser südwestlich von Indien, zwischen der Küste Keralas, Sri Lanka und den kleinen ringförmigen Atollen von Lakshadweep.",
+    "f": [
+      "Kanyakumari, die Südspitze des indischen Festlands, blickt auf dieses Meer.",
+      "Der Golf von Mannar zwischen Indien und Sri Lanka öffnet sich an seiner Ostseite.",
+      "Es heißt auch Lakshadweep-See."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Lakshadweep?",
+      "a": "Hunderttausend Inseln",
+      "x": [
+        "Inseln der Kokospalmen",
+        "Inseln des Mondes"
+      ]
+    }
+  },
+  "Q183455": {
+    "t": "Ein abgelegenes Eismeer vor der Antarktischen Halbinsel",
+    "s": "Nur wenige Menschen sehen je die Bellingshausensee: Sie liegt vor der Westseite der Antarktischen Halbinsel, fern regelmäßiger Schifffahrtswege. Im Winter ist sie eine Ebene aus Packeis; im Sommer schwappt offenes, eisbergübersätes Wasser gegen Schelfeise und die verschneiten Berge der Alexanderinsel, der größten Insel der Antarktis.",
+    "w": "Packeis oder eisbergübersätes Wasser westlich der Antarktischen Halbinsel, im Osten die weiße Masse der Alexanderinsel.",
+    "f": [
+      "Sie ist nach Fabian Gottlieb von Bellingshausen benannt, dessen russische Expedition 1820 die Antarktis sichtete.",
+      "Die Gewässer westlich der Antarktischen Halbinsel gehören zu den sich am schnellsten erwärmenden Orten der Erde."
+    ],
+    "q": {
+      "q": "Für welches Land segelte Bellingshausens Expedition 1820?",
+      "a": "Für Russland",
+      "x": [
+        "Für Großbritannien",
+        "Für Norwegen"
+      ]
+    }
+  },
+  "Q72154": {
+    "t": "Wo die großen Gletscher der Westantarktis das Meer erreichen",
+    "s": "Die Amundsensee ist selbst für antarktische Verhältnisse abgelegen, oft verstopft von dickem Packeis. Doch Forscher beobachten sie genau: Zwei der größten und sich am schnellsten verändernden Gletscher des Kontinents, Thwaites und Pine Island, fließen in sie, und warmes Tiefenwasser schmilzt sie von unten. Was hier geschieht, könnte den Meeresspiegel weltweit steigen lassen.",
+    "w": "Schweres Packeis und schwimmende Gletscherzungen entlang der Küste der Westantarktis, dahinter nichts als der Eisschild.",
+    "f": [
+      "Der Thwaites-Gletscher ist ungefähr so groß wie Großbritannien.",
+      "Das Meer ist nach Roald Amundsen benannt, der 1911 als Erster den Südpol erreichte."
+    ],
+    "q": {
+      "q": "Welcher große Gletscher fließt in die Amundsensee?",
+      "a": "Der Thwaites-Gletscher",
+      "x": [
+        "Der Lambert-Gletscher",
+        "Der Beardmore-Gletscher"
+      ]
+    }
+  },
+  "Q189262": {
+    "t": "Das weite Tor zwischen Grönland und der Baffininsel",
+    "s": "Viele Transatlantikflüge überqueren die Davisstraße, den breiten Kanal zwischen Grönland und der Baffininsel. Selbst an der schmalsten Stelle ist sie mehr als 300 km breit. Auf der grönländischen Seite säumen Gletscher und nackter Fels eine von Fjorden zerschnittene Küste; im Frühling und Sommer treiben Eisberge durch die Straße nach Süden.",
+    "w": "Weites dunkles Wasser zwischen Grönlands von Gletschern zerschnittener Westküste und den Bergen der Baffininsel, oft mit Eis getupft.",
+    "f": [
+      "Sie ist nach John Davis benannt, einem englischen Seefahrer, der sie in den 1580er-Jahren befuhr.",
+      "Nuuk, die Hauptstadt Grönlands, liegt an ihrem Ostufer.",
+      "Sie verbindet die Baffin Bay im Norden mit der Labradorsee im Süden."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt am grönländischen Ufer der Davisstraße?",
+      "a": "Nuuk",
+      "x": [
+        "Reykjavík",
+        "Iqaluit"
+      ]
+    }
+  },
+  "Q33629": {
+    "t": "Gefrorenes Meer, gespeist von zwei großen Strömen Sibiriens",
+    "s": "Die Karasee ist eines der kältesten Meere der Erde, den größten Teil des Jahres vereist. Zwei gewaltige sibirische Ströme, Ob und Jenissei, münden über Hunderte Kilometer lange Trichter in sie und machen ihre Oberfläche süßer. Im Westen riegelt das lange Bergrückgrat von Nowaja Semlja sie von der Barentssee ab.",
+    "w": "Eisbedecktes Meer nördlich Westsibiriens, zwischen Nowaja Semlja und der Taimyr-Halbinsel; im Süden lange Flussmündungen.",
+    "f": [
+      "Der Obbusen, die Mündung des Ob, reicht rund 800 km ins Land hinein.",
+      "Sie ist nach dem kleinen Fluss Kara benannt, der in ihre Südwestecke mündet.",
+      "Sewernaja Semlja an ihrem Ostrand gehörte zu den letzten Archipelen, die kartiert wurden, 1930–32."
+    ],
+    "q": {
+      "q": "Welche zwei großen Ströme münden in die Karasee?",
+      "a": "Ob und Jenissei",
+      "x": [
+        "Lena und Kolyma",
+        "Wolga und Petschora"
+      ]
+    }
+  },
+  "Q7988": {
+    "t": "Die Eisfabrik der Arktis, vor dem Lenadelta",
+    "s": "Die Laptewsee ist eine der großen Eisfabriken der Arktis: Ablandige Winde schieben das Eis von der Küste weg, das offene Wasser friert neu zu, und das junge Eis treibt Richtung Pol davon. An ihrem Südufer breitet sich das Lenadelta aus, das größte der Arktis – im Sommer ein grüner Fächer, durchzogen von Tausenden Seen und Armen.",
+    "w": "Packeis oder graues Wasser vor Nordsibirien; im Süden der riesige Fächer des Lenadeltas, übersät mit Seen.",
+    "f": [
+      "Sie ist nach den Cousins Chariton und Dmitri Laptew benannt, die diese Küste in den 1730er- und 1740er-Jahren kartierten.",
+      "Die Neusibirischen Inseln markieren ihren Ostrand."
+    ],
+    "q": {
+      "q": "Welcher Fluss hat sein Delta an der Laptewsee?",
+      "a": "Die Lena",
+      "x": [
+        "Der Ob",
+        "Der Jenissei"
+      ]
+    }
+  },
+  "Q186733": {
+    "t": "Ein riesiger Biss aus Australien, von Klippen gesäumt",
+    "s": "Aus der Luft sieht die Südküste Australiens aus, als hätte ein Riese hineingebissen: Das ist die Große Australische Bucht. An ihrem Scheitel endet die flache, baumlose Nullarbor-Ebene jäh an den Bunda Cliffs, hellen Kalksteinwänden, die sich rund 100 km ununterbrochen über der dunklen Meeresdünung hinziehen.",
+    "w": "Ein riesiger Bogen in Australiens Südküste; suchen Sie eine lange, gerade Linie heller Klippen am Rand einer flachen Wüstenebene.",
+    "f": [
+      "Die Bunda Cliffs ragen bis zu rund 120 m senkrecht aus dem Meer.",
+      "Südkaper sammeln sich jeden Winter am Head of Bight, um ihre Jungen zur Welt zu bringen.",
+      "Nullarbor kommt vom Lateinischen für „kein Baum“."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name der Nullarbor-Ebene?",
+      "a": "Kein Baum",
+      "x": [
+        "Rote Erde",
+        "Große Ebene"
+      ]
+    }
+  },
+  "Q44725": {
+    "t": "Ein reiches, kaltes Meer, umzäunt von einer Vulkankette",
+    "s": "An ihrem Südrand verläuft der Aleutenbogen: eine Kette von Vulkaninseln, viele mit verschneiten Kegeln, die sich fast 2.000 km bis Kamtschatka schwingt und das Beringmeer abriegelt. Nördlich davon liegt eines der reichsten Fischgründe der Erde. In den Eiszeiten war sein flacher Nordteil trockenes Land – die Brücke, über die Menschen zuerst nach Amerika gelangten.",
+    "w": "Weites graublaues Meer zwischen Alaska und dem russischen Fernen Osten, im Süden begrenzt von der langen Kette der Aleutenvulkane.",
+    "f": [
+      "Es ist nach Vitus Bering benannt, einem dänischen Seefahrer in russischen Diensten, der es 1728 erkundete.",
+      "Auf den Pribilof-Inseln liegt die größte Brutkolonie der Nördlichen Seebären.",
+      "Im Winter kann sich sein Meereis Hunderte Kilometer nach Süden ausbreiten."
+    ],
+    "q": {
+      "q": "Was war der nördliche Boden des Beringmeers in den Eiszeiten?",
+      "a": "Eine Landbrücke",
+      "x": [
+        "Ein Gletscher",
+        "Ein Süßwassersee"
+      ]
+    }
+  },
+  "Q169274": {
+    "t": "Das einzige Meer ohne ein einziges Ufer",
+    "s": "Keine Küste begrenzt die Sargassosee: Ihre Ränder sind Meeresströmungen, darunter der Golfstrom, die langsam um sie kreisen. Innerhalb dieser Schleife ist das Wasser warm, ruhig und verblüffend klar und blau. Matten aus goldbraunem Sargassum-Tang treiben an der Oberfläche, und Aale aus Flüssen Europas und Nordamerikas schwimmen Tausende Kilometer hierher, um zu laichen.",
+    "w": "Tiefblauer, klarer offener Ozean östlich der Bermudas; an ruhigen Tagen zeigen sich womöglich Streifen goldbraunen Tangs an der Oberfläche.",
+    "f": [
+      "Die Bermudas liegen an ihrem Westrand.",
+      "Ihr Name kommt vom portugiesischen Wort für den treibenden Tang.",
+      "Kolumbus’ Mannschaften segelten 1492 durch ihren Tang und fürchteten, auf Grund zu laufen."
+    ],
+    "q": {
+      "q": "Was bildet die Grenzen der Sargassosee?",
+      "a": "Meeresströmungen",
+      "x": [
+        "Korallenriffe",
+        "Vulkaninseln"
+      ]
+    }
+  },
+  "ne-lk-1159106739": {
+    "t": "Der äußerste Ostarm des Großen Sklavensees",
+    "s": "Die McLeod Bay ist der östlichste Ausläufer des East Arm des Großen Sklavensees, ein langer Korridor aus dunklem, kaltem Wasser zwischen den felsigen, von Klippen gesäumten Ufern des Kanadischen Schilds. Jenseits ihrer Ostspitze lichtet sich der Wald zu den baumlosen Barren Lands. Das Wasser ist klar und einen Großteil des Jahres vereist, und an ihren Ufern leben nur sehr wenige Menschen.",
+    "w": "Ein langer, schmaler Wasserarm am Ostende des Großen Sklavensees, mit dunklen Felsufern und verstreuten Inseln.",
+    "f": [
+      "An ihrer Ostspitze baute der Forscher George Back 1833 Fort Reliance.",
+      "Der Lockhart River mündet in ihr Ostende.",
+      "Ihre Ufer liegen im 2019 geschaffenen Nationalparkreservat Thaidene Nëné."
+    ],
+    "q": {
+      "q": "Zu welchem See gehört die McLeod Bay?",
+      "a": "Zum Großen Sklavensee",
+      "x": [
+        "Zum Großen Bärensee",
+        "Zum Athabascasee"
+      ]
+    }
+  },
+  "Q736707": {
+    "t": "Der kleine runde See zwischen Huron- und Eriesee",
+    "s": "Zwischen den riesigen Seen Huron und Erie liegt dieser kleine, rundliche See, ein Glied der Kette. Sein Wasser kommt von Norden über den St. Clair River, der sich zu einem Vogelfuß-Delta aus Marschen und Kanälen aufspaltet, und fließt an Detroit vorbei durch den Detroit River ab. Für seine Größe ist er erstaunlich flach – im Schnitt rund 3 m.",
+    "w": "Ein kleiner runder See zwischen Detroit und Ontario, an seinem Nordostufer ein Fächer marschiger Deltakanäle.",
+    "f": [
+      "Französische Entdecker benannten ihn 1679 am Festtag der heiligen Klara.",
+      "Eine ausgebaggerte Fahrrinne quert ihn, damit große Seefrachter passieren können.",
+      "Sein Delta, die St. Clair Flats, ist das größte Delta im System der Großen Seen."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt am Südwestufer des Lake Saint Clair?",
+      "a": "Detroit",
+      "x": [
+        "Cleveland",
+        "Toronto"
+      ]
+    }
+  },
+  "Q202905": {
+    "t": "Floridas großes, rundes, flaches „Binnenmeer“",
+    "s": "Mitten im Süden Floridas liegt ein fast runder See, so groß, dass er wie ein Stück Meer wirkt – Okeechobee, in der Sprache der Hitchiti „großes Wasser“. Er ist bemerkenswert flach, im Schnitt unter 3 m tief, und von einem grasbewachsenen Deich umringt. Früher floss sein Überlauf als träge Wasserfläche nach Süden durch die Everglades.",
+    "w": "Ein großer, fast kreisrunder See im südlichen Zentralflorida, von einem Deich umringt, im Süden grüne Zuckerrohrfelder.",
+    "f": [
+      "Er ist mit rund 1.900 km² der größte Süßwassersee Floridas.",
+      "Der Herbert-Hoover-Deich verläuft rund 230 km um ihn herum.",
+      "Kanäle verbinden ihn mit dem Atlantik und dem Golf von Mexiko."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name „Okeechobee“?",
+      "a": "Großes Wasser",
+      "x": [
+        "Süßes Wasser",
+        "Sonniger See"
+      ]
+    }
+  },
+  "Q1640500": {
+    "t": "Ein See, der in zwei Richtungen zugleich abfließt",
+    "s": "Der Wollaston Lake tut etwas, das kaum ein See tut: Er entwässert gleichzeitig in zwei Richtungen. Ein Abfluss, der Fond du Lac River, fließt zum Athabascasee und weiter zum Mackenzie; der andere, der Cochrane River, strebt zum Reindeer Lake und schließlich zur Hudson Bay. Er ist der größte See der Erde mit zwei solchen natürlichen Abflüssen.",
+    "w": "Ein großer, inselreicher See im Nordosten Saskatchewans, eingebettet in dunklen Wald auf dem felsigen Kanadischen Schild.",
+    "f": [
+      "Das Wasser seiner beiden Abflüsse landet Tausende Kilometer voneinander entfernt – in der Beaufortsee und in der Hudson Bay.",
+      "Einige der reichsten Uranvorkommen der Welt liegen nahe seinen Ufern."
+    ],
+    "q": {
+      "q": "Was ist am Wollaston Lake ungewöhnlich?",
+      "a": "Er fließt in zwei Richtungen ab",
+      "x": [
+        "Er friert nie zu",
+        "Er liegt unter dem Meeresspiegel"
+      ]
+    }
+  },
+  "Q965436": {
+    "t": "Alaskas größter See, Heimat von Süßwasserrobben",
+    "s": "Der Iliamna ist Alaskas größter See, eine lange Fläche kalten Wassers zwischen Tundrahügeln und den Vulkanen der Aleutenkette. Hier lebt eine seltene Population von Seehunden, die das ganze Jahr im Süßwasser bleiben. Jeden Sommer ziehen Millionen Rotlachse aus der Bristol Bay herauf, um an seinen Ufern und Bächen zu laichen, und im Winter friert er weiß zu.",
+    "w": "Ein langer See nahe dem Ansatz der Alaska-Halbinsel, im Osten aufragende verschneite Vulkane.",
+    "f": [
+      "Sein Wasser fließt über den Kvichak River in die Bristol Bay ab.",
+      "Der Rotlachszug der Bristol Bay ist der größte der Welt.",
+      "Eine örtliche Legende erzählt von „Illie“, einem Riesenwesen, das in seiner Tiefe leben soll."
+    ],
+    "q": {
+      "q": "Welche ungewöhnlichen Tiere leben ganzjährig im Iliamna Lake?",
+      "a": "Seehunde",
+      "x": [
+        "Belugawale",
+        "Seeotter"
+      ]
+    }
+  },
+  "Q169962": {
+    "t": "Ein tiefer, klarer Bergsee hoch in der Sierra Nevada",
+    "s": "Der Lake Tahoe liegt fast 1.900 m hoch in der Sierra Nevada, ein tiefblaues Oval, umringt von Kiefernwald und einen Großteil des Jahres von verschneiten Gipfeln. Seine Farbe kommt von Tiefe und Klarheit: Der See reicht 501 m tief, und oft sieht man mehr als 20 m hinab. Die Grenze zwischen Kalifornien und Nevada verläuft mitten hindurch.",
+    "w": "Ein tiefblauer ovaler See in den Bergen westlich von Reno, umgeben von Wald und schneebedeckten Gipfeln.",
+    "f": [
+      "Er ist nach dem Crater Lake der zweittiefste See der USA.",
+      "Die Grenze zwischen Kalifornien und Nevada knickt mitten im See ab.",
+      "Die Emerald Bay an seinem Südwestufer ist für ihr grünblaues Wasser berühmt."
+    ],
+    "q": {
+      "q": "Welche beiden Bundesstaaten teilen sich den Lake Tahoe?",
+      "a": "Kalifornien und Nevada",
+      "x": [
+        "Oregon und Nevada",
+        "Kalifornien und Arizona"
+      ]
+    }
+  },
+  "Q1801110": {
+    "t": "Wisconsins großer See neben einer berühmten Flugschau-Stadt",
+    "s": "Piloten kennen diesen See: An seinem Westufer liegt Oshkosh, wo jeden Sommer das Fliegertreffen EAA AirVenture den Himmel mit Tausenden Flugzeugen füllt und den Flughafen kurzzeitig zu einem der belebtesten der Erde macht. Der Lake Winnebago ist der größte See, der ganz in Wisconsin liegt, und im Winter schlagen Angler Löcher in sein Eis, um riesige Seestöre mit dem Speer zu fangen.",
+    "w": "Ein großer, länglicher See im Osten Wisconsins, am Westufer Oshkosh, an der Südspitze Fond du Lac.",
+    "f": [
+      "Für seine Größe ist er flach, im Schnitt nur rund 5 m tief.",
+      "Der Fox River trägt sein Wasser nach Norden zur Green Bay und in den Michigansee.",
+      "Ein Kalksteinrücken, Teil der Niagara-Schichtstufe, verläuft an seinem Ostufer."
+    ],
+    "q": {
+      "q": "Welches berühmte Luftfahrtereignis findet am Lake Winnebago statt?",
+      "a": "EAA AirVenture Oshkosh",
+      "x": [
+        "Die Farnborough Airshow",
+        "Die Reno Air Races"
+      ]
+    }
+  },
+  "Q1132211": {
+    "t": "Der größte See auf einer Insel, genau am Polarkreis",
+    "s": "Der Nettilling-See liegt auf der Baffininsel, und kein See auf irgendeiner Insel der Welt ist größer. Der Polarkreis verläuft mitten über ihn, und den größten Teil des Jahres ist er von Eis bedeckt. Sein Name kommt vom Inuktitut-Wort für die Ringelrobbe – und tatsächlich schwimmen manchmal Robben vom Meer in ihn herauf.",
+    "w": "Ein riesiger, unregelmäßiger See auf der flachen Tundra der südlichen Baffininsel, einen Großteil des Jahres weiß vor Eis.",
+    "f": [
+      "Er bedeckt rund 5.500 km², etwa doppelt so viel wie Luxemburg.",
+      "Er entwässert über den Koukdjuak River nach Westen ins Foxe Basin.",
+      "Er ist der größte See Nunavuts."
+    ],
+    "q": {
+      "q": "Was macht den Nettilling-See besonders?",
+      "a": "Größter See auf einer Insel",
+      "x": [
+        "Tiefster See Kanadas",
+        "Er friert nie zu"
+      ]
+    }
+  },
+  "Q1262967": {
+    "t": "Ein abgelegener Tundrasee in Kanadas Barren Lands",
+    "s": "Der Dubawnt Lake liegt tief in den Barren Lands, der baumlosen Tundra westlich der Hudson Bay, fern jeder Straße und Stadt. Schauen Sie von oben auf das Land ringsum: Lange, gewundene Kiesrücken, sogenannte Oser, schlängeln sich über die Tundra, hinterlassen von Flüssen, die einst unter dem Eisschild flossen. Auf dem See selbst hält sich das Eis oft bis in den Juli.",
+    "w": "Ein großer, unregelmäßiger See auf der kahlen Tundra im Süden Nunavuts; achten Sie auf lange, gewundene Oser, die das Land queren.",
+    "f": [
+      "1893 durchquerte Joseph Tyrrell die Barren Lands im Kanu, den Dubawnt River hinab.",
+      "Sein Wasser fließt über Dubawnt und Thelon zum Baker Lake und weiter zur Hudson Bay."
+    ],
+    "q": {
+      "q": "Was sind die langen, gewundenen Rücken um den Dubawnt Lake?",
+      "a": "Oser",
+      "x": [
+        "Lavaströme",
+        "Sanddünen"
+      ]
+    }
+  },
+  "Q1391737": {
+    "t": "Ein Tundrasee nahe dem Mittelpunkt Kanadas",
+    "s": "Der Baker Lake liegt fast im geografischen Mittelpunkt Kanadas, in offener Tundra, wo der Thelon seine lange Reise aus dem Westen beendet. An seinem Ufer steht die Siedlung Baker Lake, der einzige Ort Nunavuts im Landesinneren und ein bekanntes Zentrum der Inuit-Kunst. Nach Osten trägt der lange Chesterfield Inlet sein Wasser zur Hudson Bay.",
+    "w": "Ein weiter See auf flacher Tundra westlich der Hudson Bay, mit ihr verbunden durch den langen, schmalen Chesterfield Inlet.",
+    "f": [
+      "Der Inuktitut-Name der Siedlung, Qamani'tuaq, bedeutet etwa „wo der Fluss sich weitet“.",
+      "Ihre Künstler sind weltweit für Drucke und farbenfrohe Wandbehänge bekannt.",
+      "Der Chesterfield Inlet, ein fjordartiger Arm der Hudson Bay, reicht mehr als 150 km landeinwärts bis zum See."
+    ],
+    "q": {
+      "q": "Was macht die Siedlung Baker Lake in Nunavut einzigartig?",
+      "a": "Einziger Ort im Landesinneren",
+      "x": [
+        "Hauptstadt des Territoriums",
+        "Nördlichster Ort"
+      ]
+    }
+  },
+  "Q68467": {
+    "t": "Ein langer Talsee zwischen zwei Gebirgszügen",
+    "s": "Der Lake Champlain liegt wie ein blaues Band in einem langen Tal, rund 190 km von Ende zu Ende, im Westen die Adirondacks, im Osten die Green Mountains von Vermont. Samuel de Champlain erreichte ihn 1609 und gab ihm seinen Namen. Er entwässert nach Norden: Sein Wasser fließt über den Richelieu nach Québec und in den Sankt-Lorenz-Strom.",
+    "w": "Ein langer, schmaler Nord-Süd-See zwischen Adirondacks und Green Mountains, mit Burlington am Ostufer.",
+    "f": [
+      "1998 erklärte ein US-Gesetz ihn kurzzeitig zum Großen See; binnen Wochen wurde die Bezeichnung wieder gestrichen.",
+      "Eine örtliche Legende erzählt von „Champ“, einem Ungeheuer, das in seiner Tiefe leben soll.",
+      "Seine Nordspitze reicht bis nach Québec."
+    ],
+    "q": {
+      "q": "Wozu erklärte ein US-Gesetz den Lake Champlain 1998 kurzzeitig?",
+      "a": "Zu einem Großen See",
+      "x": [
+        "Zu einem Nationalpark",
+        "Zu einem Binnenmeer"
+      ]
+    }
+  },
+  "Q1089891": {
+    "t": "Wo der 1.600 km lange Churchill River beginnt",
+    "s": "Hier, in einem langen See im Nordwesten Saskatchewans, beginnt der Churchill River seine 1.600 km lange Reise nach Osten zur Hudson Bay. Mit seinem Nachbarn, dem Peter Pond Lake, ist der See am Dorf Buffalo Narrows durch einen schmalen Kanal verbunden. Ringsum breitet sich borealer Wald aus, ein dunkler Teppich, unterbrochen von unzähligen kleineren Seen, die in der Sonne aufblitzen.",
+    "w": "Ein langer See in den Wäldern im Nordwesten Saskatchewans, an einer schmalen Taille mit dem Peter Pond Lake verbunden.",
+    "f": [
+      "Der Churchill River war eine Hauptstraße des Pelzhandels und verband die Hudson Bay mit dem fernen Nordwesten.",
+      "Der Kanal bei Buffalo Narrows heißt Kisis Channel."
+    ],
+    "q": {
+      "q": "Wo endet der Fluss, der aus dem Churchill Lake abfließt?",
+      "a": "In der Hudson Bay",
+      "x": [
+        "In der Beaufortsee",
+        "Im Winnipegsee"
+      ]
+    }
+  },
+  "Q1516443": {
+    "t": "Der „See des Marders“ im nördlichen Wald",
+    "s": "Der Lac la Martre – französisch für „See des Marders“ – breitet sich im Wald nordwestlich des Großen Sklavensees aus, seine Ufer zerfranst von Buchten und Inseln. An seinem Ufer liegt die Tłı̨chǫ-Gemeinde Whatì, deren Name ebenfalls „Mardersee“ bedeutet. Im Winter wird der See zu einer flachen weißen Ebene; im Sommer spiegelt sein dunkles Wasser den Himmel.",
+    "w": "Ein ausgedehnter, buchtenreicher See im Wald nordwestlich des Großen Sklavensees, übersät mit Inseln.",
+    "f": [
+      "Whatì hieß selbst Lac La Martre, bis es 1996 seinen Tłı̨chǫ-Namen zurücknahm.",
+      "2021 erreichte zum ersten Mal eine ganzjährig befahrbare Straße Whatì."
+    ],
+    "q": {
+      "q": "Nach welchem Tier ist der Lac la Martre benannt?",
+      "a": "Nach dem Marder",
+      "x": [
+        "Nach dem Biber",
+        "Nach dem Otter"
+      ]
+    }
+  },
+  "Q12341531": {
+    "t": "Das Tor des Oberen Sees zu den Soo Locks",
+    "s": "Die Whitefish Bay ist der Trichter am Ostende des Oberen Sees: Jeder Frachter, der den See erreicht oder verlässt, passiert sie auf dem Weg zum St. Marys River und zu den Soo Locks in Sault Ste. Marie. Suchen Sie von oben den sandigen Haken des Whitefish Point an ihrer Nordwestspitze, gegenüber das bewaldete Ufer Ontarios.",
+    "w": "Eine weite Bucht an der Südostecke des Oberen Sees, zwischen Michigans Upper Peninsula und Ontario.",
+    "f": [
+      "Der Leuchtturm am Whitefish Point, 1849 erstmals entzündet, ist das älteste aktive Leuchtfeuer am Oberen See.",
+      "Im Frühling ziehen Tausende Greifvögel und andere Vögel gebündelt am Whitefish Point vorbei."
+    ],
+    "q": {
+      "q": "Welche Schleusen steuern Schiffe nach der Whitefish Bay an?",
+      "a": "Die Soo Locks",
+      "x": [
+        "Die Schleusen des Welland-Kanals",
+        "Die Schleusen des Eriekanals"
+      ]
+    }
+  },
+  "Q2211837": {
+    "t": "Die Kerbe, die Michigans Fäustling den Daumen gibt",
+    "s": "Schauen Sie von oben auf Michigan, und die Lower Peninsula sieht wirklich aus wie ein Fäustling – die Saginaw Bay ist die Lücke zwischen Daumen und Fingern. Die Bucht ist flach und erwärmt sich im Sommer schnell, wenn ihr Wasser grünlich werden kann. Der Saginaw River, der das größte Flusseinzugsgebiet Michigans entwässert, mündet an ihrem inneren Ende.",
+    "w": "Eine lange Bucht, die vom Huronsee nach Südwesten in Michigan schneidet, zwischen dem Daumen und der übrigen Lower Peninsula.",
+    "f": [
+      "Ihr innerer Teil ist nur wenige Meter tief.",
+      "An ihren Ufern liegen einige der größten Küstenfeuchtgebiete der Großen Seen."
+    ],
+    "q": {
+      "q": "Wovon trennt die Saginaw Bay das übrige Michigan?",
+      "a": "Vom Daumen",
+      "x": [
+        "Von der Upper Peninsula",
+        "Von der Keweenaw-Halbinsel"
+      ]
+    }
+  },
+  "Q2000567": {
+    "t": "Der geschützte Kanal des Huronsees hinter Manitoulin",
+    "s": "Der North Channel ist das stille Hinterzimmer des Huronsees: eine lange, geschützte Wasserstrecke zwischen Manitoulin Island und dem felsigen Ufer Ontarios. Seine Küste ist ein Labyrinth aus steinigen Inseln und Buchten, bei Seglern beliebt. Suchen Sie nahe seinem Ostende die La-Cloche-Hügel, deren weiße Quarzitkämme selbst im Sommer wie Schnee aussehen können.",
+    "w": "Ein langer Kanal des Huronsees zwischen der großen Manitoulin Island und dem Festland, nahe seinem Ostende weiß gerippte Hügel.",
+    "f": [
+      "Manitoulin Island an seiner Südseite ist die größte Insel in einem Süßwassersee.",
+      "Der Killarney Provincial Park schützt die weißen Quarzitkämme der La Cloche Mountains."
+    ],
+    "q": {
+      "q": "Welche Insel trennt den North Channel vom übrigen Huronsee?",
+      "a": "Manitoulin Island",
+      "x": [
+        "Isle Royale",
+        "Wolfe Island"
+      ]
+    }
+  },
+  "Q125309": {
+    "t": "Ein flacher Sahelsee, der mit dem Regen atmet",
+    "s": "Der Tschadsee ist weniger ein See als ein riesiger, wandernder Sumpf am Rand der Sahara. Er ist so flach, dass seine Größe mit jeder Regenzeit schwankt, und seit den 1960er-Jahren ist er auf einen Bruchteil seiner früheren Fläche geschrumpft. Suchen Sie von oben einen Flickenteppich aus offenem Wasser, grünen Schilfflächen und Inseln, von Süden gespeist vom Schari.",
+    "w": "Ein Flickenteppich aus offenem Wasser, grünem Sumpf und sandigen Inseln am Südrand der Sahara, wo vier Länder aneinanderstoßen.",
+    "f": [
+      "Der Schari bringt rund 90 Prozent seines Wassers.",
+      "Tschad, Kamerun, Niger und Nigeria grenzen alle an ihn.",
+      "Vor einigen Tausend Jahren breitete sich ein riesiges Binnenmeer, Mega-Tschad genannt, über dieses Becken aus."
+    ],
+    "q": {
+      "q": "Welcher Fluss liefert den größten Teil des Wassers im Tschadsee?",
+      "a": "Der Schari",
+      "x": [
+        "Der Niger",
+        "Der Nil"
+      ]
+    }
+  },
+  "Q503842": {
+    "t": "Ein türkisfarbener See mit zwei Namen und Marmorhöhlen",
+    "s": "Dieser lange See reicht von den Anden weit hinaus in die trockene patagonische Steppe, sein Wasser leuchtend gletschertürkis, und er hört auf zwei Namen: General Carrera in Chile, Buenos Aires in Argentinien. An seinem chilenischen Ufer haben Wellen die Marmorhöhlen ausgewaschen, deren gewirbelter Stein das blaue Wasser spiegelt. Nach Westen entwässert er über den Río Baker, Chiles wasserreichsten Fluss, in den Pazifik.",
+    "w": "Ein langer, leuchtend türkisfarbener See, der sich von den verschneiten Anden nach Osten in die trockene patagonische Steppe zieht.",
+    "f": [
+      "Er ist der größte See Chiles.",
+      "Die Marmorhöhlen sind nur per Boot erreichbar."
+    ],
+    "q": {
+      "q": "Wie heißt der Lago General Carrera in Argentinien?",
+      "a": "Lago Buenos Aires",
+      "x": [
+        "Lago Argentino",
+        "Lago Nahuel Huapi"
+      ]
+    }
+  },
+  "Q826464": {
+    "t": "Ein großer blauer See unter einem vollkommenen Vulkankegel",
+    "s": "Suchen Sie den Osorno: einen schneebedeckten Vulkan, so symmetrisch, dass man ihn oft mit dem Fuji vergleicht, 2.652 m hoch über dem Ostufer des Llanquihue-Sees. Sein Nachbar Calbuco, rauer und breiter, steht im Südosten. Der See selbst ist eine weite blaue Fläche, umringt von Farmland, wo in den 1850er-Jahren deutsche Siedler ankamen und Orte wie Frutillar und Puerto Varas gründeten.",
+    "w": "Ein großer, rundlicher blauer See im Süden Chiles, an seinem Ostufer der weiße Kegel des Vulkans Osorno.",
+    "f": [
+      "Er ist der zweitgrößte See Chiles.",
+      "Gletscher bedecken den Gipfel des Osorno das ganze Jahr."
+    ],
+    "q": {
+      "q": "Welcher Vulkan erhebt sich am Ostufer des Llanquihue-Sees?",
+      "a": "Osorno",
+      "x": [
+        "Villarrica",
+        "Lanín"
+      ]
+    }
+  },
+  "Q31845950": {
+    "t": "Ein „schwebender“ See, per Deich über dem Ackerland gehalten",
+    "s": "Der Hongze-See liegt höher als die Städte und Felder neben ihm: Sein Wasser wird vom alten Gaojia-Deich an seinem Ostufer zurückgehalten. Vor rund neunhundert Jahren gab es hier gar keinen großen See. Er entstand, nachdem der Gelbe Fluss nach Süden ausgewichen war und den Weg des Huai zum Meer mit Schlick verstopft hatte; dann erhöhten Ingenieure den Deich, um das Wasser des Huai zu speichern.",
+    "w": "Ein weiter, flacher, grob runder See in der flachen Ebene Nordjiangsus, an seiner Ostseite ein langer Deich.",
+    "f": [
+      "Er gehört zu den fünf größten Süßwasserseen Chinas.",
+      "Der Huai fließt von Westen herein und verlässt ihn Richtung Jangtse und Meer."
+    ],
+    "q": {
+      "q": "Warum heißt der Hongze ein „schwebender“ See?",
+      "a": "Sein Wasser liegt über dem Umland",
+      "x": [
+        "Er liegt in einem Bergkrater",
+        "Er schwimmt auf Salzwasser"
+      ]
+    }
+  },
+  "Q192215": {
+    "t": "Die „blaue Perle“ der Mongolei, kleine Schwester des Baikal",
+    "s": "Der Chöwsgöl ist ein langer, tiefblauer See in den Bergen der Nordmongolei, rund 200 km westlich der Südspitze des Baikal – und gewissermaßen seine kleine Schwester, denn sein Wasser fließt über Egiin Gol und Selenga in den Baikal. Er liegt rund 1.645 m hoch, gesäumt von Lärchenwald, und im Winter ist sein Eis oft mehr als einen Meter dick.",
+    "w": "Ein langer Nord-Süd-See aus tiefem Blau zwischen bewaldeten Bergen nahe der Nordgrenze der Mongolei, im Winter weiß vor Eis.",
+    "f": [
+      "Er birgt rund 70 Prozent des Süßwassers der Mongolei.",
+      "Seine tiefste Stelle liegt bei 262 m."
+    ],
+    "q": {
+      "q": "In welchen berühmten See fließt das Wasser des Chöwsgöl schließlich?",
+      "a": "In den Baikalsee",
+      "x": [
+        "In den Balchaschsee",
+        "In den Yssykköl"
+      ]
+    }
+  },
+  "Q213769": {
+    "t": "Finnlands tiefster See – und Helsinkis Wasserhahn",
+    "s": "Der Päijänne ist ein langer, schmaler See, der sich rund 120 km von Nord nach Süd durch die Wälder Mittelfinnlands zieht. Er ist der tiefste des Landes, und sein sauberes Wasser versorgt Helsinki durch einen 120 km langen, in den Fels gesprengten Tunnel. Suchen Sie in seinem Südteil den Pulkkilanharju, einen schlanken eiszeitlichen Kiesrücken, der eine Straße über das Wasser trägt.",
+    "w": "Ein langer, schlanker, inselgetupfter See in Nord-Süd-Richtung durch Mittelfinnland, von Jyväskylä Richtung Lahti.",
+    "f": [
+      "Mit rund 95 m ist er der tiefste See Finnlands.",
+      "Der Päijänne-Wassertunnel bringt seit 1982 Wasser in die Region Helsinki.",
+      "Er ist nach dem Saimaa der zweitgrößte See Finnlands."
+    ],
+    "q": {
+      "q": "Welche Stadt bezieht ihr Trinkwasser per Tunnel aus dem Päijänne?",
+      "a": "Helsinki",
+      "x": [
+        "Tampere",
+        "Turku"
+      ]
+    }
+  },
+  "Q504433": {
+    "t": "Ein See am langen Weg des Kongo",
+    "s": "Der Mwerusee ist ein Glied in der riesigen Kette des Kongo-Flusssystems. An seinem Südende fächert sich der Luapula zu einem sumpfigen grünen Delta auf; im Norden trägt der Luvua das Wasser weiter Richtung Kongo. Die Grenze zwischen Sambia und der Demokratischen Republik Kongo verläuft mitten hindurch, und Fischerdörfer säumen beide Ufer.",
+    "w": "Ein weiter See an der Grenze zwischen Sambia und Kongo, an seinem Südende ein grünes, sumpfiges Delta.",
+    "f": [
+      "David Livingstone erreichte seine Ufer 1867.",
+      "Sein Abfluss, der Luvua, mündet in den Lualaba, wie der Oberlauf des Kongo heißt."
+    ],
+    "q": {
+      "q": "Zu welchem großen Flusssystem gehört der Mwerusee?",
+      "a": "Zum Kongo",
+      "x": [
+        "Zum Nil",
+        "Zum Sambesi"
+      ]
+    }
+  },
+  "Q201843": {
+    "t": "Ein flacher Grenzsee der Lotusblüten und Kraniche",
+    "s": "Der Chankasee ist weit, aber erstaunlich flach – nur wenige Meter tief –, sodass der Wind sein Wasser trüb und sandfarben hält. Die Grenze zwischen Russland und China quert ihn, und auf der chinesischen Seite riegelt eine schmale Sandbank einen kleineren Begleitsee ab. An seinen sumpfigen Ufern brüten Kraniche, und im Sommer blüht rosa Lotus.",
+    "w": "Ein weiter, blasser, rundlicher See an der russisch-chinesischen Grenze nördlich von Wladiwostok, umringt von flachem Marschland.",
+    "f": [
+      "Sein Wasser fließt über die Sungatscha zum Ussuri und weiter zum Amur.",
+      "Wilder Lotus, so weit im Norden selten, blüht in seinen Buchten.",
+      "Die Feuchtgebiete um ihn stehen auf beiden Seiten der Grenze unter Schutz."
+    ],
+    "q": {
+      "q": "Welche beiden Länder teilen sich den Chankasee?",
+      "a": "Russland und China",
+      "x": [
+        "Russland und Mongolei",
+        "China und Nordkorea"
+      ]
+    }
+  },
+  "Q199938": {
+    "t": "Der See, der anschwillt, wenn sein Fluss rückwärts fließt",
+    "s": "Der Tonle Sap tut etwas Außergewöhnliches: In jeder Regenzeit steigt der Mekong so hoch, dass der Fluss, der diesen See entwässert, seine Richtung umkehrt und zurück in ihn fließt. Der See schwillt auf ein Mehrfaches seiner Größe in der Trockenzeit an und überflutet Wälder und Felder mit braunem Wasser. Schwimmende Dörfer steigen und sinken mit ihm, und die Tempel von Angkor liegen gleich nördlich seines Ufers.",
+    "w": "Ein großer, brauner, flacher See im Herzen Kambodschas; in der Regenzeit viel größer, ringsum überfluteter Wald.",
+    "f": [
+      "Seine Fische sind eine Hauptquelle von Eiweiß für Millionen Kambodschaner.",
+      "In der Trockenzeit ist er großenteils nur rund einen Meter tief.",
+      "Jeden Herbst feiert Kambodschas Wasserfest den Moment, in dem der Fluss wieder zum Mekong strömt."
+    ],
+    "q": {
+      "q": "Was geschieht in der Regenzeit mit dem Tonle-Sap-Fluss?",
+      "a": "Er kehrt seine Richtung um",
+      "x": [
+        "Er trocknet völlig aus",
+        "Er wird salzig"
+      ]
+    }
+  },
+  "Q1144905": {
+    "t": "Das flache Südende des Peipus-Seensystems",
+    "s": "Drei Seen liegen hier in einer Reihe: im Norden der riesige Peipussee, in der Mitte der schmale Lämmijärv und am Südende der Pskower See – Pihkva auf Estnisch. Die Grenze zwischen Estland und Russland quert ihn. Der See ist flach, im Schnitt unter 4 m, und friert im Winter zu; die Welikaja mündet in ihn, nachdem sie an der alten Stadt Pskow vorbeigeflossen ist.",
+    "w": "Ein flacher See südlich des riesigen Peipussees, mit ihm durch eine schmale Meerenge verbunden; an seiner Südostecke das Welikaja-Delta.",
+    "f": [
+      "Zusammen mit dem Peipussee bildet er einen der größten Seen Europas.",
+      "Auf den kleinen Talabsker Inseln in seiner Mitte liegen alte Fischerdörfer."
+    ],
+    "q": {
+      "q": "Mit welchem größeren See ist der Pskower See verbunden?",
+      "a": "Mit dem Peipussee",
+      "x": [
+        "Mit dem Ladogasee",
+        "Mit dem Ilmensee"
+      ]
+    }
+  },
+  "ne-lk-1159113481": {
+    "t": "Ein karelischer See an der Wiege der Kalevala",
+    "s": "Der Srednje Kuito – der „Mittlere Kuito“ – ist das mittlere Glied einer Kette aus drei Seen, die sich rund 140 km durch die Wälder Nordkareliens ziehen und lange Risse im uralten Grundgebirge füllen. An seinem Nordufer liegt die Siedlung Kalevala, bis 1963 Uchta genannt. In den Dörfern ringsum sammelte Elias Lönnrot viele der alten Lieder, die er zum finnischen Epos Kalevala verwob.",
+    "w": "Ein langer, inselreicher See zwischen den dunklen Wäldern Nordkareliens, Teil einer Seenkette von West nach Ost.",
+    "f": [
+      "Sein Wasser fließt nach Osten über den Unteren Kuito in den Kem und weiter zum Weißen Meer.",
+      "Die Kuito-Seen sind tektonisch: Sie füllen Risse in der Erdkruste."
+    ],
+    "q": {
+      "q": "Welches Epos ist mit den Dörfern um die Kuito-Seen verbunden?",
+      "a": "Die Kalevala",
+      "x": [
+        "Die Edda",
+        "Beowulf"
+      ]
+    }
+  },
+  "Q184492": {
+    "t": "Die Meeresbucht, die zum See wurde, als Schweden sich hob",
+    "s": "Der Mälaren ist ein weitverzweigter See aus Buchten und Inseln, der sich rund 120 km westwärts von Stockholm erstreckt. Vor tausend Jahren war er noch ein Arm der Ostsee; als sich das Land nach der Eiszeit langsam hob, wurde er abgeschnitten und süß. Stockholm wuchs genau dort, wo See und Meer sich treffen, und die Inseln der Stadt verteilen sich über das Wasser am Ostende des Sees.",
+    "w": "Ein langer, verzweigter See aus Buchten und bewaldeten Inseln westlich von Stockholm, an seinem Ostende die Inseln der Stadt.",
+    "f": [
+      "Birka, eine Handelsstadt der Wikingerzeit auf der Insel Björkö, ist UNESCO-Welterbe.",
+      "Drottningholm, der Wohnsitz der schwedischen Königsfamilie, steht auf einer seiner Inseln.",
+      "Er liefert Trinkwasser für Stockholm und die umliegende Region."
+    ],
+    "q": {
+      "q": "Was war der Mälaren vor tausend Jahren?",
+      "a": "Ein Arm der Ostsee",
+      "x": [
+        "Ein Gletscher",
+        "Ein Flusstal"
+      ]
+    }
+  },
+  "Q216621": {
+    "t": "Ein Steppensee, an dem der Irtysch seine lange Reise beginnt",
+    "s": "Wasser, das in den Saissansee gelangt, steht am Anfang einer sehr langen Reise: Der Schwarze Irtysch fließt aus China herein und verlässt den See als Irtysch, unterwegs zu Ob und Nordpolarmeer. Der See liegt in einem weiten Becken im Osten Kasachstans, im Norden der Altai, im Süden die Ketten von Saur und Tarbagatai. Seit den 1960er-Jahren hebt ein Staudamm flussabwärts seinen Spiegel.",
+    "w": "Ein weiter, länglicher See in der Steppe Ostkasachstans, zwischen Altai und den Ketten von Saur und Tarbagatai.",
+    "f": [
+      "Der Buchtarma-Damm am Irtysch hält seinen Spiegel seit den 1960er-Jahren höher und macht ihn zum Teil eines riesigen Stausees.",
+      "Jeden Winter friert er für mehrere Monate zu."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt aus dem Saissansee ab?",
+      "a": "Der Irtysch",
+      "x": [
+        "Der Ili",
+        "Der Jenissei"
+      ]
+    }
+  },
+  "Q1640519": {
+    "t": "Ein Wüstenbecken, gefüllt, um Bagdad trocken zu halten",
+    "s": "Der Tharthar-See ist ein See nach Plan. Er füllt eine natürliche Senke in der Wüste zwischen Tigris und Euphrat, und seit den 1950er-Jahren leiten Ingenieure Hochwasser des Tigris hinein, um Bagdad flussabwärts zu schützen. Von oben ist er eine große blaue Fläche in der gelbbraunen Wüste, mit kahlen, hellen Ufern.",
+    "w": "Ein großer blauer See in der Wüste nordwestlich von Bagdad, zwischen Tigris und Euphrat.",
+    "f": [
+      "Er ist der größte See des Irak.",
+      "Ein Kanal vom Tigris bei Samarra speist ihn.",
+      "Weitere Kanäle können sein Wasser weiter zum Euphrat leiten."
+    ],
+    "q": {
+      "q": "Warum wurde Tigriswasser in den Tharthar-See geleitet?",
+      "a": "Um Bagdad vor Hochwasser zu schützen",
+      "x": [
+        "Um Dattelfarmen zu bewässern",
+        "Um einen Schifffahrtsweg zu schaffen"
+      ]
+    }
+  },
+  "Q756106": {
+    "t": "Das „Auge Québecs“: ein Ringsee in einem uralten Krater",
+    "s": "Kaum ein See ist aus der Luft so unverwechselbar: ein fast vollkommener Wasserring von rund 70 km Durchmesser um eine riesige Insel. Er markiert einen Einschlagkrater, den ein Asteroid vor rund 214 Millionen Jahren schlug und der seither abgetragen wurde. Auf seine heutige Größe füllte sich der Ring, nachdem in den 1960er-Jahren ein Damm gebaut wurde – daher der Beiname „Auge Québecs“.",
+    "w": "Ein unverwechselbarer Wasserring um eine große, runde Insel in den Wäldern Ostquébecs.",
+    "f": [
+      "Der Daniel-Johnson-Damm, der den See aufstaute, ist die größte Pfeilerbogenstaumauer der Welt.",
+      "Astronauten fotografieren ihn oft – der Ring ist aus dem Orbit leicht zu erkennen."
+    ],
+    "q": {
+      "q": "Wodurch entstand der Manicouagan-Ring?",
+      "a": "Durch einen Asteroideneinschlag",
+      "x": [
+        "Durch einen eingestürzten Vulkan",
+        "Durch einen schmelzenden Gletscher"
+      ]
+    }
+  },
+  "Q1638191": {
+    "t": "Ein weißer Salzsee im Herzen der Westlichen Wüste",
+    "s": "Im roten Sandland der Wüsten Westaustraliens zeigt sich Kumpupintil als riesige weiße Pfanne, gleißend in der Sonne und meist trocken. Sein früherer englischer Name, Lake Disappointment, stammt von 1897, als der Forscher Frank Hann Bächen hierher folgte, in der Hoffnung auf Süßwasser, und Salz fand. Für die Martu, deren Land dies ist, ist es ein Ort von großer Bedeutung.",
+    "w": "Eine große weiße Salzpfanne mit dunklen Inseln, umgeben von Dünenwüste im Inneren Westaustraliens.",
+    "f": [
+      "Die Canning Stock Route, eine der abgelegensten Pisten der Welt, führt in der Nähe vorbei.",
+      "Nach seltenen Starkregen kann sich monatelang flaches Wasser darüber ausbreiten.",
+      "2020 wurde sein Martu-Name, Kumpupintil, zum offiziellen Namen des Sees."
+    ],
+    "q": {
+      "q": "Warum nannte Frank Hann ihn Lake Disappointment?",
+      "a": "Er fand Salz statt Süßwasser",
+      "x": [
+        "Er verlor dort seine Pferde",
+        "Er war kleiner als auf der Karte"
+      ]
+    }
+  },
+  "Q1074063": {
+    "t": "Ein glitzernder Salzsee an der Grenze von WA und NT",
+    "s": "Aus Reiseflughöhe wirkt der Lake Mackay wie ein riesiger weißer Fleck, über rote Wüste verschüttet, seine Ränder spitzenartig von Buchten durchzogen, seine Fläche getupft mit kleinen Inseln. Er ist einer der größten Salzseen Australiens und führt doch in den meisten Jahren kaum oder kein Wasser. Die schnurgerade Grenze zwischen Western Australia und dem Northern Territory verläuft mitten hindurch.",
+    "w": "Eine riesige, zerfranste weiße Salzpfanne in der roten Dünenwüste, wo Western Australia auf das Northern Territory trifft.",
+    "f": [
+      "Die Pintupi nennen ihn Wilkinkarra.",
+      "Benannt ist er nach dem Forscher Donald Mackay, der ihn 1930 erreichte und als einer der Ersten Australien mit dem Fahrrad umrundete.",
+      "Er bedeckt rund 3.500 km² und misst etwa 100 km im Durchmesser."
+    ],
+    "q": {
+      "q": "Wie nennen die Pintupi den Lake Mackay?",
+      "a": "Wilkinkarra",
+      "x": [
+        "Kumpupintil",
+        "Kati Thanda"
+      ]
+    }
+  },
+  "Q965973": {
+    "t": "Eine gleißende Salzpfanne, auf der Raser Tempo jagen",
+    "s": "Der Lake Gairdner ist eine rund 160 km lange Salzpfanne, so weiß, dass sie in den Augen schmerzen kann, am Nordfuß der rostroten Gawler Ranges. Seine Kruste ist stellenweise mehr als einen Meter dick, hart und flach genug, dass jedes Jahr Fahrer und Motorradfahrer zur Speed Week kommen, um auf dem Salz Rekorde zu jagen.",
+    "w": "Ein langer, gleißend weißer Salzsee in Südaustralien, gleich nördlich der rötlichen Gawler Ranges.",
+    "f": [
+      "Er liegt im Lake-Gairdner-Nationalpark.",
+      "Er ist nach Eyre und Torrens der drittgrößte Salzsee Südaustraliens."
+    ],
+    "q": {
+      "q": "Warum kommen Rennfahrer zum Lake Gairdner?",
+      "a": "Wegen seiner harten, flachen Salzkruste",
+      "x": [
+        "Wegen seiner steilen Sanddünen",
+        "Wegen seiner gefrorenen Winterfläche"
+      ]
+    }
+  },
+  "Q163855": {
+    "t": "Ein langer Salzsee, der sich fast nie füllt",
+    "s": "Der Lake Torrens zieht sich als langer, blasser Streifen am Westfuß der Flinders Ranges entlang, eine Salzpfanne, die sich in der dokumentierten Geschichte nur eine Handvoll Male mit Wasser gefüllt hat. Frühe Kolonialforscher, die ihn von den Hügeln aus sahen, stellten sich einen riesigen Hufeisenbogen aus Salzseen vor, der den Weg nach Norden versperrte – ein Irrglaube, der sich jahrelang hielt.",
+    "w": "Eine lange, schmale weiße Salzpfanne in Nord-Süd-Richtung, gleich westlich der schroffen Flinders Ranges in Südaustralien.",
+    "f": [
+      "Er ist nach Robert Torrens benannt, dem Vorsitzenden der Kommission, die die Kolonie Südaustralien gründete.",
+      "Er ist nach Kati Thanda–Lake Eyre der zweitgrößte Salzsee Südaustraliens.",
+      "Der See und seine Ufer bilden den Lake-Torrens-Nationalpark."
+    ],
+    "q": {
+      "q": "Welches Gebirge erhebt sich gleich östlich des Lake Torrens?",
+      "a": "Die Flinders Ranges",
+      "x": [
+        "Die MacDonnell Ranges",
+        "Die Gawler Ranges"
+      ]
+    }
+  },
+  "Q626907": {
+    "t": "Eine Salzpfanne zwischen Flinders Ranges und roten Dünen",
+    "s": "Auf der anderen Seite der Flinders Ranges, gegenüber dem Lake Torrens, liegt sein Zwilling: der Lake Frome, eine flache weiße Salzpfanne von rund 100 km Länge. Im Westen erheben sich die schroffen Kämme der nördlichen Flinders; im Osten marschieren Reihen roter Sanddünen in die Strzelecki-Wüste hinein. Wasser bedeckt ihn nur nach seltenen Starkregen.",
+    "w": "Eine lange weiße Salzpfanne östlich der nördlichen Flinders Ranges, im Osten gesäumt von parallelen roten Dünen.",
+    "f": [
+      "Er ist nach Edward Frome benannt, in den 1840er-Jahren Generalvermesser Südaustraliens.",
+      "Das Wildnisschutzgebiet Arkaroola liegt in den Bergen gleich westlich davon."
+    ],
+    "q": {
+      "q": "Die roten Dünen welcher Wüste säumen den Lake Frome im Osten?",
+      "a": "Der Strzelecki-Wüste",
+      "x": [
+        "Der Gibsonwüste",
+        "Der Großen Victoria-Wüste"
+      ]
+    }
+  },
+  "ne-lk-1159126435": {
+    "t": "Eine übersalzene Lagune hinter einem Band aus Sand",
+    "s": "Entlang der Küste von Tamaulipas zieht sich ein dünnes Band sandiger Barriereinseln über weit mehr als 100 km, und dahinter liegt die Laguna Madre: eine lange, flache Lagune, salziger als das Meer, weil wenig Süßwasser hineinfließt und die Sonne viel davon verdunstet. Im Winter wimmelt es hier von Enten, darunter ein großer Teil der Rotkopfenten der Welt.",
+    "w": "Eine lange, flache, grünliche Lagune an Mexikos Golfküste südlich des Rio Grande, vom Meer durch dünne Sandinseln getrennt.",
+    "f": [
+      "Sie ist eine der wenigen hypersalinen Küstenlagunen der Welt.",
+      "Das Delta des Rio Grande trennt sie von ihrem Zwilling, der Laguna Madre in Texas."
+    ],
+    "q": {
+      "q": "Warum ist die Laguna Madre salziger als das Meer?",
+      "a": "Starke Verdunstung, wenig Süßwasser",
+      "x": [
+        "Salzquellen auf ihrem Grund",
+        "Salzminen entwässern hinein"
+      ]
+    }
+  },
+  "Q503301": {
+    "t": "Ein zufälliger See in einer Wüste unter dem Meeresspiegel",
+    "s": "Die Salton Sea ist ein Unfall. 1905 brach der Colorado River durch einen Bewässerungskanal und strömte fast zwei Jahre lang in dieses Wüstenbecken – so entstand Kaliforniens größter See. Seine Oberfläche liegt rund 70 m unter dem Meeresspiegel, und ohne Abfluss ist er salziger geworden als der Pazifik. Achten Sie auf grüne Felder, die sich an seinem Südufer drängen.",
+    "w": "Ein langer blauer See in der Wüste südöstlich von Palm Springs, im Süden das grüne Raster des Imperial Valley.",
+    "f": [
+      "Er ist ein lebenswichtiger Rastplatz für Zugvögel auf dem Pacific Flyway.",
+      "Während er schrumpft, legt er breite, blasse Streifen ausgetrockneten Seebodens frei."
+    ],
+    "q": {
+      "q": "Wie entstand die Salton Sea 1905–1907?",
+      "a": "Der Colorado River brach ein",
+      "x": [
+        "Ein Gletscher schmolz",
+        "Ein Erdbeben öffnete eine Quelle"
+      ]
+    }
+  },
+  "Q4121": {
+    "t": "Ein Meer, durch einen langen Damm zum See gemacht",
+    "s": "Bis 1932 war dies die Zuiderzee, ein stürmischer Arm der Nordsee. Dann riegelte der Afsluitdijk, ein 32 km langer Damm, sie ab, und das Salzwasser wurde langsam süß. Von oben ist der Damm eine messerscharfe Linie über dem Wasser, und im Osten und Süden liegen die Polder von Flevoland – mit dem Lineal gezogene Felder auf dem einstigen Meeresboden.",
+    "w": "Ein weiter, graugrüner See in den Niederlanden, im Norden durch einen langen, schnurgeraden Damm vom Wattenmeer getrennt.",
+    "f": [
+      "Flevoland, auf ihm abgerungenem Land gebaut, wurde 1986 die jüngste Provinz der Niederlande.",
+      "Es ist einer der größten Süßwasserseen Westeuropas.",
+      "Ein zweiter Damm, der Houtribdijk, trennt seinen südlichen Teil ab, das Markermeer."
+    ],
+    "q": {
+      "q": "Was war das IJsselmeer vor 1932?",
+      "a": "Eine Meeresbucht, die Zuiderzee",
+      "x": [
+        "Ein Torfmoor",
+        "Ein Flusstal"
+      ]
+    }
+  },
+  "ne-lk-1159126643": {
+    "t": "Die rosa Lagunen des „Faulen Meeres“",
+    "s": "Kaum ein Anblick aus der Luft ist seltsamer als der Siwasch: ein Labyrinth flacher Lagunen zwischen der Krim und dem Festland, gestreift in Rosa, Rostrot und Milchgrün. Das Wasser ist so salzig, dass salzliebende Algen es färben, und in der Sommerhitze riecht es – daher sein anderer Name, das Faule Meer. Im Osten riegelt die dünne Arabat-Nehrung es vom Asowschen Meer ab.",
+    "w": "Ein Labyrinth aus rosa, roten und grünen Lagunen zwischen der Krim und dem Festland, durch eine dünne Nehrung vom Asowschen Meer getrennt.",
+    "f": [
+      "Die Arabat-Nehrung, die ihn vom Asowschen Meer trennt, ist rund 110 km lang.",
+      "Große Teile sind weniger als einen Meter tief.",
+      "An seinen Ufern wird seit Jahrhunderten Salz gewonnen."
+    ],
+    "q": {
+      "q": "Was gibt dem Siwasch seine rosa und roten Farben?",
+      "a": "Salzliebende Algen",
+      "x": [
+        "Eisenreicher Sand",
+        "Roter Ton aus Flüssen"
+      ]
+    }
+  },
+  "Q182719": {
+    "t": "Das Jademeer in der Wüste Nordkenias",
+    "s": "Der Turkana-See heißt das Jademeer: Im richtigen Licht färben Algen sein Wasser verblüffend grün vor der braunen Lavawüste ringsum. Er ist der größte ständige See in einer Wüste, und an seinen Ufern kamen einige der wichtigsten Fossilien früher Menschen zutage. Vulkaninseln mit Kraterseen ragen aus seiner Mitte.",
+    "w": "Ein langer, schmaler grünblauer See im kargen Norden Kenias, der nach Norden bis Äthiopien reicht, mit dunklen Vulkaninseln.",
+    "f": [
+      "Der Omo, der aus Äthiopien zufließt, bringt fast sein gesamtes Wasser.",
+      "Das Skelett des „Turkana-Jungen“, rund 1,5 Millionen Jahre alt, wurde 1984 nahe seinem Westufer gefunden.",
+      "Sein alter Name, Rudolfsee, wurde 1888 zu Ehren von Kronprinz Rudolf von Österreich vergeben."
+    ],
+    "q": {
+      "q": "Welchen Beinamen trägt der Turkana-See?",
+      "a": "Das Jademeer",
+      "x": [
+        "Die Perle Afrikas",
+        "Das Sternenmeer"
+      ]
+    }
+  },
+  "Q5605": {
+    "t": "Ein flaches Haff hinter einem langen Dünenband",
+    "s": "Suchen Sie eine lange, schlanke Sandnehrung, gekrönt von Wald und Dünen, parallel zur Ostseeküste – und dahinter ein flaches, bräunlich grünes Haff. Das Frische Haff ist im Schnitt weniger als 3 m tief, und seine natürliche Verbindung zum Meer ist eine einzige schmale Meerenge bei Baltijsk. An seinem Ostende mündet der Pregel aus Kaliningrad.",
+    "w": "Ein langes, flaches Haff an der Ostseeküste bei Kaliningrad, vom Meer durch eine dünne bewaldete Nehrung getrennt.",
+    "f": [
+      "Die Frische Nehrung, die es schützt, ist rund 65 km lang.",
+      "Im Winter friert das Haff oft zu.",
+      "Sein Wasser ist brackig, eine Mischung aus Flusswasser und Ostsee."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt am Fluss, der ins Ostende des Haffs mündet?",
+      "a": "Kaliningrad",
+      "x": [
+        "Danzig",
+        "Klaipėda"
+      ]
+    }
+  },
+  "Q81150": {
+    "t": "Der größte See der Mongolei, ein salziges Oval in der Steppe",
+    "s": "Der Uws Nuur ist der größte See der Mongolei: ein weites, salziges Oval in einem abflusslosen Becken, in dem Wüstendünen, Steppe, Taiga und Schneegipfel in Sichtweite zueinander liegen. Kein Fluss fließt ab. Die Winter sind hier bitterkalt, und der See bleibt monatelang gefroren; im Sommer schimmert sein Blau vor der braunen Steppe.",
+    "w": "Ein großer, ovaler, salziger See in der trockenen Steppe der Nordwestmongolei, umringt von den Bergen seines Beckens.",
+    "f": [
+      "Das Uws-Nuur-Becken, geteilt mit dem russischen Tuwa, ist UNESCO-Welterbe.",
+      "Er liegt rund 750 m über dem Meer, am tiefsten Punkt seines Beckens."
+    ],
+    "q": {
+      "q": "Der Uws Nuur ist der größte See welches Landes?",
+      "a": "Der Mongolei",
+      "x": [
+        "Kasachstans",
+        "Chinas"
+      ]
+    }
+  },
+  "Q201294": {
+    "t": "Chinas größter See, blau auf dem Hochplateau",
+    "s": "Auf rund 3.200 m am Rand des Hochlands von Tibet liegt Chinas größter See, eine riesige salzige Fläche von leuchtendem Blau. Sein chinesischer Name, Qinghai, bedeutet „blaues Meer“, und der mongolische Name Kokonor „blauer See“ – die ganze Provinz ist nach ihm benannt. Im Juli leuchten seine Ufer von gelben Rapsfeldern, eingerahmt von kahlen braunen Bergen.",
+    "w": "Ein riesiger, leuchtend blauer ovaler See am hohen, kahlen Nordostrand des Hochlands von Tibet, westlich von Xining.",
+    "f": [
+      "Die Vogelinsel ist ein Brutplatz der Streifengänse, berühmt dafür, den Himalaya zu überfliegen.",
+      "Sein Wasser ist salzig, wenn auch weniger als das Meer.",
+      "Die Qinghai-Tibet-Bahn verläuft an seinem Nordufer."
+    ],
+    "q": {
+      "q": "Was bedeutet der mongolische Name Kokonor?",
+      "a": "Blauer See",
+      "x": [
+        "Salzmeer",
+        "Himmelsspiegel"
+      ]
+    }
+  },
+  "Q2007652": {
+    "t": "Der „Salzsee“ westlich von Kerbela",
+    "s": "Der Milh-See – Buhayrat al-Milh, der „Salzsee“ – breitet sich in einer Wüstensenke westlich von Kerbela aus. Hochwasser des Euphrat erreicht ihn per Kanal über den Habbaniya-See, doch in den letzten Jahrzehnten ist er stark geschrumpft und hat weite weiße Salzflächen um eine kleinere blaugrüne Wasserfläche hinterlassen. Er heißt auch Razzaza-See.",
+    "w": "Ein flacher blaugrüner See, umringt von weißen Salzflächen, in der Wüste westlich von Kerbela, südwestlich von Bagdad.",
+    "f": [
+      "Er ist einer der größten Seen des Irak.",
+      "Als sein Wasser schwand, wurde er für die meisten Fische zu salzig."
+    ],
+    "q": {
+      "q": "Was bedeutet Buhayrat al-Milh?",
+      "a": "Salzsee",
+      "x": [
+        "See der Palmen",
+        "See der Sterne"
+      ]
+    }
+  },
+  "Q204703": {
+    "t": "Ein stürmisches Meer im Ring subantarktischer Inseln",
+    "s": "Die Scotiasee ist eine der stürmischsten Wasserflächen der Erde, gepeitscht vom Antarktischen Zirkumpolarstrom und übersät mit Eisbergen. Ihre Ränder zeichnet der Scotiabogen nach, eine große Inselschleife von Südgeorgien bis zu den Südlichen Shetlandinseln. 1916 überquerte Ernest Shackleton sie in einem kleinen offenen Boot, um Hilfe für seine gestrandete Mannschaft zu holen.",
+    "w": "Grauer, windgepeitschter offener Ozean zwischen Südamerika und der Antarktis, mit Eisbergen und den verschneiten Gipfeln Südgeorgiens.",
+    "f": [
+      "Sie ist nach der Scotia benannt, dem Schiff der Schottischen Nationalen Antarktisexpedition 1902–04.",
+      "Shackletons Bootsfahrt von Elephant Island nach Südgeorgien führte über mehr als 1.200 km.",
+      "In ihrem kalten Wasser wimmelt es von Krill, Nahrung für Wale und Pinguine."
+    ],
+    "q": {
+      "q": "Womit überquerte Shackleton 1916 die Scotiasee?",
+      "a": "Mit einem kleinen offenen Boot",
+      "x": [
+        "Mit einem Dampfschiff",
+        "Mit einem Wasserflugzeug"
+      ]
+    }
+  },
+  "Q41837": {
+    "t": "Der Seeweg zwischen Arabien und dem Horn von Afrika",
+    "s": "Zwischen den kahlen Bergen Jemens und der trockenen Küste Somalias erstreckt sich ein langer Keil aus tiefem Blau: der Golf von Aden. Schiffe von und zum Suezkanal fädeln sich hindurch. Unter ihm verläuft ein Spreizungsrücken, an dem Arabien und Afrika langsam auseinanderdriften. An seiner östlichen Mündung liegt Sokotra, eine Insel mit seltsamen, schirmförmigen Drachenblutbäumen.",
+    "w": "Ein langer, tiefblauer Golf zwischen Jemens schroffer Küste und dem Horn von Afrika, der sich nach Westen zum Bab al-Mandab verengt.",
+    "f": [
+      "Die Meerenge Bab al-Mandab an seinem Westende ist nur rund 30 km breit.",
+      "Sokotra mit seinen einzigartigen Pflanzen ist UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welche berühmten Bäume wachsen auf Sokotra im Golf von Aden?",
+      "a": "Drachenblutbäume",
+      "x": [
+        "Riesenmammutbäume",
+        "Chilenische Araukarien"
+      ]
+    }
+  },
+  "Q79948": {
+    "t": "Tor zum Golf, unter dem Hadschar-Gebirge",
+    "s": "Der Golf von Oman ist die Eingangshalle zum Persischen Golf: Tanker ziehen in Reihe hindurch zur Straße von Hormus. An seinem Südwestufer fällt das zackige, rostbraune Hadschar-Gebirge fast senkrecht ins Meer, dazwischen eingezwängt Maskat. Im Nordwesten zerfranst die Halbinsel Musandam in Fjorde, die ihr den Beinamen „Norwegen Arabiens“ eintrugen.",
+    "w": "Ein weiter Golf zwischen Omans schroffer Bergküste und Iran, der sich nach Nordwesten zur Straße von Hormus verengt.",
+    "f": [
+      "Tanker mit einem großen Teil des Erdöls der Welt passieren ihn jeden Tag.",
+      "Musandam ist eine Exklave Omans, durch die VAE vom übrigen Land getrennt."
+    ],
+    "q": {
+      "q": "Welche Halbinsel trägt den Beinamen „Norwegen Arabiens“?",
+      "a": "Musandam",
+      "x": [
+        "Katar",
+        "Sinai"
+      ]
+    }
+  },
+  "Q38882": {
+    "t": "Vulkanisches Meer zwischen Italien und seinen großen Inseln",
+    "s": "Das Tyrrhenische Meer ist von Vulkanen und Inseln umringt: Italiens Westküste, Korsika, Sardinien und Sizilien umschließen es. Über dem Golf von Neapel erhebt sich der Vesuv, und im Süden gehört zu den Liparischen Inseln der Stromboli, der alle paar Minuten kleine Lavastöße ausschleudert. Auf einem Nachtflug erhaschen Sie vielleicht sogar sein rotes Glühen.",
+    "w": "Ein tiefblaues Meer westlich des italienischen Festlands, eingerahmt von Korsika und Sardinien; nördlich von Sizilien Vulkaninseln.",
+    "f": [
+      "Sein Name kommt von den Tyrrhenern, wie die alten Griechen die Etrusker nannten.",
+      "Seeleute nennen den Stromboli seit Langem den „Leuchtturm des Mittelmeers“.",
+      "Seine tiefste Stelle liegt rund 3.800 m tief."
+    ],
+    "q": {
+      "q": "Welcher Vulkan heißt „Leuchtturm des Mittelmeers“?",
+      "a": "Stromboli",
+      "x": [
+        "Ätna",
+        "Vesuv"
+      ]
+    }
+  },
+  "Q44133": {
+    "t": "Russlands nördliches Binnenmeer, ein halbes Jahr lang weiß",
+    "s": "Das Weiße Meer schneidet tief in den Norden Russlands, ein verzweigtes Binnenmeer, das seinem Namen gerecht wird: Rund ein halbes Jahr ist es von Eis bedeckt. Nahe seinen Westufern liegen die Solowezki-Inseln, wo ein im 15. Jahrhundert gegründetes Kloster noch steht. Im Südosten teilt sich die Nördliche Dwina um Archangelsk zu einem Delta, einst Russlands wichtigster Seehafen.",
+    "w": "Ein verzweigtes Binnenmeer im hohen Norden Russlands, im Winter weiß vor Eis; nahe seinen Westufern die Solowezki-Inseln.",
+    "f": [
+      "Die Solowezki-Inseln sind UNESCO-Welterbe.",
+      "Der Tidenhub in seiner Mesener Bucht kann rund 10 m erreichen.",
+      "Der Weißmeer-Ostsee-Kanal verbindet es mit dem Onegasee und der Ostsee."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt am Delta der Nördlichen Dwina am Weißen Meer?",
+      "a": "Archangelsk",
+      "x": [
+        "Murmansk",
+        "Petrosawodsk"
+      ]
+    }
+  },
+  "Q223810": {
+    "t": "Die flache, flussgespeiste Südtasche der Hudson Bay",
+    "s": "Die James Bay ist die flache Südtasche der Hudson Bay, gespeist von so vielen großen Flüssen, dass ihr Wasser nur schwach salzig ist. Ihre Ufer sind niedrig und flach – ein breiter Saum aus Marschen und Watt, wo riesige Schwärme von Gänsen und Watvögeln auf dem Zug rasten. Im Winter friert sie vollständig zu, und die gefrorene Küste verschwimmt mit dem weißen Land dahinter.",
+    "w": "Eine flache Bucht am Südende der Hudson Bay, zwischen Ontario und Québec, mit niedrigen, sumpfigen Ufern und vielen Flussmündungen.",
+    "f": [
+      "Sie ist nach Kapitän Thomas James benannt, der sie 1631 erkundete.",
+      "Moose Factory, ein 1673 gegründeter Posten der Hudson's Bay Company, liegt nahe ihrem Südufer.",
+      "Akimiski, ihre größte Insel, gehört zu Nunavut."
+    ],
+    "q": {
+      "q": "Die James Bay ist die südliche Verlängerung welches Gewässers?",
+      "a": "Der Hudson Bay",
+      "x": [
+        "Der Baffin Bay",
+        "Des Sankt-Lorenz-Golfs"
+      ]
+    }
+  },
+  "Q180844": {
+    "t": "Heimat der Morning-Glory-Wolkenwalzen",
+    "s": "Im September und Oktober reisen Segelflieger an das Südufer des Golfs von Carpentaria, um einen seltenen Anblick zu erleben: die Morning Glory, eine röhrenförmige Rollwolke, die sich über Hunderte Kilometer erstrecken kann und im Morgengrauen heranrollt. Der Golf selbst ist ein weites, flaches, warmes Meer zwischen Cape York und Arnhemland, gesäumt von Mangroven und Watt.",
+    "w": "Eine riesige, fast quadratische Bucht in Nordaustralien, zwischen der Kap-York-Halbinsel und Arnhemland; nahe den Küsten schlammgrün.",
+    "f": [
+      "Er ist nach Pieter de Carpentier benannt, einem Generalgouverneur Niederländisch-Ostindiens.",
+      "Der größte Teil ist weniger als 70 m tief.",
+      "Die Morning Glory ist am besten nahe dem Städtchen Burketown zu sehen."
+    ],
+    "q": {
+      "q": "Was ist die Morning Glory über dem Golf von Carpentaria?",
+      "a": "Eine riesige Rollwolke",
+      "x": [
+        "Eine blühende Kletterpflanze",
+        "Eine rote Algenblüte"
+      ]
+    }
+  },
+  "Q132811": {
+    "t": "Das lange Meer hinter Baja California",
+    "s": "Die kahlen Berge der Halbinsel Baja California trennen ein langes, schmales Meer vom Pazifik – rund 1.100 km von Ende zu Ende. Es öffnete sich, als sich die Baja entlang des San-Andreas-Verwerfungssystems langsam vom Kontinent losriss. Sein Wasser ist berühmt für seinen Artenreichtum; Jacques Cousteau nannte es „das Aquarium der Welt“.",
+    "w": "Ein langes, schmales blaues Meer zwischen den Wüstenbergen der Baja California und dem mexikanischen Festland, getupft mit kahlen Inseln.",
+    "f": [
+      "Der Vaquita, der kleinste Schweinswal der Welt, lebt nur an seinem Nordende.",
+      "Seine Inseln und Schutzgebiete sind UNESCO-Welterbe.",
+      "Es heißt auch Meer von Cortés."
+    ],
+    "q": {
+      "q": "Welches winzige, seltene Tier lebt nur im Golf von Kalifornien?",
+      "a": "Der Vaquita-Schweinswal",
+      "x": [
+        "Der Dugong",
+        "Der Amazonasdelfin"
+      ]
+    }
+  },
+  "Q207702": {
+    "t": "Das eisige Tor zur Hudson Bay",
+    "s": "Jedes Schiff, das vom Atlantik zur Hudson Bay will, muss diese lange, eisige Meerenge zwischen der Baffininsel und dem Norden Québecs passieren. Henry Hudson befuhr sie 1610. Ihre Gezeiten sind gewaltig: In der Ungava Bay an ihrer Südseite kann das Meer um mehr als 15 m steigen und fallen. Einen Großteil des Jahres füllt treibendes Packeis sie von Ufer zu Ufer.",
+    "w": "Eine lange, breite Meerenge zwischen der schroffen Südküste der Baffininsel und Québecs Ungava-Halbinsel, oft voller Treibeis.",
+    "f": [
+      "Sie ist rund 750 km lang.",
+      "Die Ungava Bay hat einige der höchsten Gezeiten der Erde."
+    ],
+    "q": {
+      "q": "Welche Bucht an der Hudsonstraße hat einige der höchsten Gezeiten der Welt?",
+      "a": "Die Ungava Bay",
+      "x": [
+        "Die James Bay",
+        "Die Baffin Bay"
+      ]
+    }
+  },
+  "Q34640": {
+    "t": "Das schmale, belebte Meer zwischen England und Frankreich",
+    "s": "An seiner schmalsten Stelle, der Straße von Dover, trennen nur rund 33 km England von Frankreich – an einem klaren Tag sind die weißen Kreidefelsen auf beiden Seiten leicht zu erkennen. Der Ärmelkanal gehört zu den meistbefahrenen Schifffahrtswegen der Erde; achten Sie auf die weißen Kielwasser der Schiffe, aufgereiht wie im Verkehr. Unter dem Meeresboden verbindet der Kanaltunnel beide Küsten.",
+    "w": "Ein langes Meer, das sich nach Osten zwischen Englands Südküste und Nordfrankreich verengt, voller Schiffe; am Dover-Ende Kreidefelsen.",
+    "f": [
+      "Der 1994 eröffnete Kanaltunnel verläuft rund 38 km unter dem Meer.",
+      "Vor rund 450.000 Jahren durchbrach hier eine gewaltige eiszeitliche Flut einen Kreiderücken und trug dazu bei, Britannien abzutrennen.",
+      "Die Franzosen nennen ihn La Manche, „der Ärmel“."
+    ],
+    "q": {
+      "q": "Wie breit ist die Straße von Dover an ihrer schmalsten Stelle ungefähr?",
+      "a": "Etwa 33 km",
+      "x": [
+        "Etwa 8 km",
+        "Etwa 80 km"
+      ]
+    }
+  },
+  "Q795608": {
+    "t": "Türkisfarbene Cays, wo drei Länder an die Karibik stoßen",
+    "s": "Wo die Küsten von Belize, Guatemala und Honduras zusammentreffen, liegt eine geschützte Ecke der Karibik, der Golf von Honduras. Verstreut darin liegen flache Mangroveninseln und die Südspitze des großen Mesoamerikanischen Barriereriffs, leuchtend türkis vor dem tiefen Blau. Flüsse aus den grünen Bergen im Hinterland färben das Wasser nahe ihren Mündungen braun.",
+    "w": "Eine weite Karibikbucht südlich von Belize, mit türkisfarbenen Riffen und kleinen Cays; im Osten die Bay Islands von Honduras.",
+    "f": [
+      "Walhaie, die größten Fische der Erde, besuchen die Gewässer vor Utila auf den Bay Islands.",
+      "Die Sapodilla Cayes von Belize nahe seiner Mündung markieren das Südende des Barriereriffs.",
+      "Der Motagua aus Guatemala mündet in ihn."
+    ],
+    "q": {
+      "q": "Welche drei Länder teilen sich die Ufer des Golfs von Honduras?",
+      "a": "Belize, Guatemala, Honduras",
+      "x": [
+        "Mexiko, Belize, Honduras",
+        "Honduras, Nicaragua, Guatemala"
+      ]
+    }
+  },
+  "Q122574": {
+    "t": "Ein fast süßer Golf im Norden, wo sich das Land noch hebt",
+    "s": "Im langen Nordarm der Ostsee, zwischen Schweden und Finnland, ist das Wasser so süß, dass es im hohen Norden kaum noch salzig ist. Jeden Winter breitet sich Eis darüber aus, und in manchen Jahren friert der Bottnische Meerbusen von Ufer zu Ufer zu. Das Land hebt sich hier noch immer nach der Eiszeit und fügt dem Kvarken-Archipel jedes Jahrhundert neue Inselchen und Schären hinzu.",
+    "w": "Ein langer graublauer Golf zwischen Schweden und Finnland, im Winter weiß vor Eis; beim Kvarken eine inselübersäte schmale Taille.",
+    "f": [
+      "Schwedens Höga Kusten hat sich seit dem Abschmelzen des Eisschilds um rund 286 m gehoben – mehr als irgendwo sonst bekannt.",
+      "Höga Kusten und der Kvarken-Archipel bilden gemeinsam ein UNESCO-Welterbe.",
+      "Rund um den Kvarken hebt sich das Land noch um bis zu etwa 8 mm pro Jahr."
+    ],
+    "q": {
+      "q": "Warum tauchen im Bottnischen Meerbusen immer neue Inseln auf?",
+      "a": "Das Land hebt sich noch",
+      "x": [
+        "Vulkane brechen aus",
+        "Korallenriffe wachsen"
+      ]
+    }
+  },
+  "Q13924": {
+    "t": "Ein langes blaues Meer zwischen Italien und einer Inselküste",
+    "s": "Die Adria erstreckt sich rund 800 km zwischen Italiens glatter Küste und der zerklüfteten des Balkans. Auf der Ostseite löst sich das kroatische Ufer in lange, küstenparallele Inseln auf – mehr als tausend, zählt man Inselchen und Riffe mit. Im Norden ist das Meer flach und grünlich, auf seiner Westseite das Podelta und die Lagune von Venedig.",
+    "w": "Ein langes Meer zwischen Italien und dem Balkan; die kroatische Küste zerfällt in Reihen langer, küstenparalleler Inseln.",
+    "f": [
+      "Die Bora, ein heftiger kalter Wind, kann von den Bergen auf ihre Ostküste herabfegen.",
+      "Ihr Name kommt vom antiken Hafen Adria nahe dem Podelta.",
+      "Die rund 70 km breite Straße von Otranto verbindet sie mit dem Ionischen Meer."
+    ],
+    "q": {
+      "q": "Welcher antike Hafen gab der Adria ihren Namen?",
+      "a": "Adria",
+      "x": [
+        "Aquileia",
+        "Ancona"
+      ]
+    }
+  },
+  "Q81136": {
+    "t": "Der legendäre Seeweg durch die arktischen Inseln",
+    "s": "Jahrhundertelang träumten Seeleute von einer Abkürzung von Europa nach Asien über den Norden Nordamerikas. Die Nordwestpassage ist dieser Weg: ein Labyrinth aus Kanälen, das sich zwischen den gefrorenen Inseln der kanadischen Arktis hindurchfädelt. Von oben ist sie weißes Eis, in Schollen zersprungen, im Spätsommer mit dunklen offenen Rinnen. Roald Amundsen durchfuhr sie 1903–06 als Erster.",
+    "w": "Eisverstopfte Kanäle, die sich zwischen den braunen und weißen Inseln der kanadischen Arktis winden; offenes Wasser nur im Spätsommer.",
+    "f": [
+      "Amundsens Schiff, die Gjøa, war ein kleines ehemaliges Heringsboot.",
+      "1944 querte der kanadische Polizeischoner St. Roch sie als erstes Schiff in einer einzigen Saison.",
+      "Es gibt mehrere mögliche Routen, je nachdem, wo das Eis eine Durchfahrt zulässt."
+    ],
+    "q": {
+      "q": "Wer durchfuhr 1903–06 als Erster die Nordwestpassage?",
+      "a": "Roald Amundsen",
+      "x": [
+        "Fridtjof Nansen",
+        "Robert Peary"
+      ]
+    }
+  },
+  "Q37495": {
+    "t": "Der tiefste Teil des Mittelmeers",
+    "s": "Zwischen dem Absatz Italiens und der Westküste Griechenlands liegt das Ionische Meer, eine klare, tiefblaue Weite. Vor der Südwestküste Griechenlands stürzt der Boden auf rund 5.270 m ab – die tiefste Stelle des ganzen Mittelmeers. Suchen Sie an seiner Ostseite die grünen, gebirgigen Ionischen Inseln: Korfu, Kefalonia und Zakynthos, gesäumt von hellen Klippen.",
+    "w": "Tiefblaues Meer zwischen Süditalien, Sizilien und Westgriechenland, entlang der griechischen Seite die grünen Ionischen Inseln.",
+    "f": [
+      "Unechte Karettschildkröten legen an den Stränden von Zakynthos ihre Eier ab.",
+      "Eine griechische Sage verbindet seinen Namen mit Io, die es durchschwamm.",
+      "Im Norden verbindet die Straße von Otranto es mit der Adria."
+    ],
+    "q": {
+      "q": "Wie tief ist die tiefste Stelle des Mittelmeers im Ionischen Meer ungefähr?",
+      "a": "Etwa 5.300 m",
+      "x": [
+        "Etwa 2.000 m",
+        "Etwa 9.000 m"
+      ]
+    }
+  },
+  "Q169523": {
+    "t": "Ein nördliches Meer mit rot geklippten Inseln und Wintereis",
+    "s": "Im Sankt-Lorenz-Golf trifft das Wasser der Großen Seen endlich auf den Atlantik – ein weites Binnenmeer, umringt von Québec, den Seeprovinzen und Neufundland. Suchen Sie die roten Klippen und grünen Felder der Prince Edward Island und die lange, flache Anticosti-Insel. Im Spätwinter füllt treibendes Packeis große Teile des Golfs, und Sattelrobben bringen darauf ihre Jungen zur Welt.",
+    "w": "Ein weiter Golf östlich von Québec; im Süden die Sichel der Prince Edward Island, im Norden die lange Anticosti-Insel.",
+    "f": [
+      "Jacques Cartier segelte 1534 in ihn hinein.",
+      "Die Anticosti-Insel ist größer als die ganze Provinz Prince Edward Island.",
+      "Die Magdalenen-Inseln nahe seiner Mitte sind durch lange Sanddünen aneinandergereiht."
+    ],
+    "q": {
+      "q": "Welche Tiere bringen im Spätwinter auf dem Packeis des Golfs ihre Jungen zur Welt?",
+      "a": "Sattelrobben",
+      "x": [
+        "Eisbären",
+        "Walrosse"
+      ]
+    }
+  },
+  "Q185291": {
+    "t": "Ein Meer, eingezwängt zwischen zwei Vulkanbögen",
+    "s": "Die Molukkensee wird von zwei Seiten verschluckt: Der Meeresboden unter ihr taucht gleichzeitig unter zwei Vulkanbögen ab, eine seltene Anordnung, die Geologen doppelte Subduktion nennen. Suchen Sie vollkommene Vulkankegel, die aus dem Wasser ragen, wie Ternate und Tidore vor Halmahera – Inseln, auf denen ursprünglich Gewürznelken wuchsen.",
+    "w": "Tiefblaues Meer zwischen dem langen Nordarm Sulawesis und Halmahera, getupft mit steilen Vulkankegelinseln.",
+    "f": [
+      "Gewürznelken wuchsen ursprünglich nur auf einer Handvoll Inseln hier, darunter Ternate und Tidore.",
+      "Der Äquator verläuft mitten hindurch."
+    ],
+    "q": {
+      "q": "Welches Gewürz wuchs ursprünglich auf Ternate und Tidore?",
+      "a": "Gewürznelken",
+      "x": [
+        "Vanille",
+        "Safran"
+      ]
+    }
+  },
+  "Q199436": {
+    "t": "Ein vulkanisches Meer, gerahmt vom Bismarck-Archipel",
+    "s": "Die Bismarcksee ist von einem großen Inselbogen umschlossen – Neubritannien, Neuirland und die Admiralitätsinseln –, im Süden die Nordküste Neuguineas. Vulkane erheben sich an ihren Rändern, darunter Manam, ein fast vollkommener Kegel gleich vor dem Festland. Wo der Sepik das Meer erreicht, breitet sich seine braune Fahne ins Blau aus.",
+    "w": "Tiefblaues Meer nördlich von Neuguinea, umringt von den langen, gebirgigen Inseln Neubritannien und Neuirland.",
+    "f": [
+      "Sie wurde nach Otto von Bismarck benannt, als die Region in den 1880er-Jahren deutsche Kolonie wurde.",
+      "Manam, eine Vulkaninsel vor Neuguinea, gehört zu den aktivsten Vulkanen der Region."
+    ],
+    "q": {
+      "q": "Welcher Fluss breitet seine braune Fahne in die Bismarcksee aus?",
+      "a": "Der Sepik",
+      "x": [
+        "Der Fly",
+        "Der Mekong"
+      ]
+    }
+  },
+  "Q199479": {
+    "t": "Ein tiefes Tropenmeer zwischen Neuguinea und den Salomonen",
+    "s": "Eingerahmt von Neuguineas langem Ostschwanz, der gebirgigen Insel Neubritannien und den Salomonen ist die Salomonensee warm, tief und getupft mit Koralleninseln. An ihrem Nordrand fällt der Neubritannien-Graben auf mehr als 8.000 m ab. Im Westen liegen die flachen Trobriand-Inseln, umringt von türkisfarbenen Riffen.",
+    "w": "Tiefblaues Meer östlich des Schwanzes von Neuguinea, im Norden begrenzt von Neubritannien, im Osten von den Salomonen.",
+    "f": [
+      "Die Trobriand-Inseln wurden durch den Ethnologen Bronisław Malinowski weltberühmt, der in den 1910er-Jahren dort lebte.",
+      "Ihr warmes Wasser liegt im Korallendreieck, einer der riffreichsten Regionen der Erde."
+    ],
+    "q": {
+      "q": "Welcher Ethnologe machte die Trobriand-Inseln berühmt?",
+      "a": "Bronisław Malinowski",
+      "x": [
+        "Margaret Mead",
+        "Claude Lévi-Strauss"
+      ]
+    }
+  },
+  "Q48359": {
+    "t": "Die schmale Seestraße, die zwei Ozeane verbindet",
+    "s": "Dieser lange Wassertrichter zwischen Sumatra und der Malaiischen Halbinsel verbindet den Indischen Ozean mit dem Pazifik, und Zehntausende Schiffe zwängen sich jedes Jahr hindurch. Achten Sie auf ihre Kielwasser, oft in langen Reihen. Bei Singapur, wo sie auf die Singapurstraße trifft, verengt sich die Fahrrinne auf weniger als 3 km. Ihren Namen hat die Straße von Malakka, einst eine große Handelsstadt.",
+    "w": "Eine lange, sich verengende Meerenge zwischen Sumatras bewaldeter Küste und der Malaiischen Halbinsel, gestreift von den Kielwassern vieler Schiffe.",
+    "f": [
+      "Sie ist rund 900 km lang.",
+      "Im 15. Jahrhundert kontrollierte das Sultanat Malakka den Handel, der sie passierte."
+    ],
+    "q": {
+      "q": "Welche beiden Landmassen trennt die Straße von Malakka?",
+      "a": "Sumatra und die Malaiische Halbinsel",
+      "x": [
+        "Java und Borneo",
+        "Sumatra und Java"
+      ]
+    }
+  },
+  "Q194477": {
+    "t": "Wo Asiens Tierwelt auf die Australiens trifft",
+    "s": "Mitten durch die Makassarstraße zwischen Borneo und Sulawesi verläuft eine unsichtbare Grenze: die Wallace-Linie. In den 1850er-Jahren bemerkte Alfred Russel Wallace, wie verschieden die Tiere auf beiden Seiten waren – im Westen vor allem asiatische Arten, im Osten immer mehr australasiatische. Die Straße ist tief, und das meiste Pazifikwasser, das durch Indonesien in den Indischen Ozean fließt, passiert sie.",
+    "w": "Eine breite, tiefe Meerenge zwischen Borneos grüner Küste und dem spinnenartigen Umriss Sulawesis.",
+    "f": [
+      "Tiefes Wasser hielt Borneo und Sulawesi hier getrennt, selbst als der Meeresspiegel in den Eiszeiten tief lag.",
+      "Makassar an der Südwestküste Sulawesis ist seit Jahrhunderten ein bedeutender Hafen."
+    ],
+    "q": {
+      "q": "Welche berühmte biologische Grenze verläuft durch die Makassarstraße?",
+      "a": "Die Wallace-Linie",
+      "x": [
+        "Die Humboldt-Linie",
+        "Die Darwin-Linie"
+      ]
+    }
+  },
+  "Q210855": {
+    "t": "Ein abgelegenes Meer zwischen Seram und dem Vogelkopf",
+    "s": "Die Seramsee erstreckt sich zwischen der langen, gebirgigen Insel Seram und der Westspitze Neuguineas, dem sogenannten Vogelkopf. An ihrer Nordseite liegen die Kalksteininseln von Misool, Teil von Raja Ampat, wo Riffe einige der reichsten Meereslebewelten der Erde bergen. Suchen Sie von oben dschungelbedeckte Kämme, die direkt in tiefblaues Wasser stürzen.",
+    "w": "Tiefblaues Meer zwischen der langen grünen Insel Seram und der Westspitze Neuguineas, im Norden kleine Kalksteininseln.",
+    "f": [
+      "Serams höchster Berg, der Binaiya, erreicht rund 3.000 m.",
+      "„Ceram“ ist eine alte Schreibweise von Seram, der Insel an ihrer Südseite."
+    ],
+    "q": {
+      "q": "Welchen Beinamen trägt die Westspitze Neuguineas an der Seramsee?",
+      "a": "Der Vogelkopf",
+      "x": [
+        "Der Drachenschwanz",
+        "Die Löwenpranke"
+      ]
+    }
+  },
+  "Q639399": {
+    "t": "Ein abgelegener Pazifikgolf mit Rekordgezeiten",
+    "s": "Der Schelichow-Golf ist die wilde Nordostecke des Ochotskischen Meeres, eingekeilt zwischen Kamtschatka und dem Festland. An seinem inneren Ende hat die Penschina-Bucht die höchsten Gezeiten des Pazifiks: Das Wasser kann um bis zu 13 m steigen und fallen und riesige Watten freilegen. Im Winter ist der ganze Golf in Treibeis gefangen.",
+    "w": "Ein langer Golf zwischen den Bergen Kamtschatkas und dem Festland des russischen Fernen Ostens, im Winter weiß vor Eis.",
+    "f": [
+      "Er ist nach Grigori Schelichow benannt, dem Kaufmann, der 1784 die erste dauerhafte russische Siedlung in Alaska gründete.",
+      "Die Gezeiten der Penschina-Bucht sind die höchsten in ganz Russland."
+    ],
+    "q": {
+      "q": "Wo sind die höchsten Gezeiten des Pazifischen Ozeans?",
+      "a": "In der Penschina-Bucht",
+      "x": [
+        "In der Bucht von Tokio",
+        "In der Bucht von San Francisco"
+      ]
+    }
+  },
+  "Q163434": {
+    "t": "Ein flaches, eisgebundenes Meer vor Sibiriens Nordosten",
+    "s": "Die Ostsibirische See erstreckt sich von den Neusibirischen Inseln bis zur Wrangelinsel, und den größten Teil des Jahres ist sie eine weiße, gefrorene Ebene. Sie ist zudem bemerkenswert flach, meist weniger als 50 m tief, und im Sommer breitet sich das braune Wasser von Indigirka und Kolyma über ihre Oberfläche aus. Packeis hält sich oft selbst im August an der Küste.",
+    "w": "Eis oder graues Wasser vor der flachen Tundraküste Nordostsibiriens, zwischen den Neusibirischen Inseln und der Wrangelinsel.",
+    "f": [
+      "Die Bäreninseln, ein kleiner Archipel, liegen vor der Mündung der Kolyma.",
+      "Der Hafen Pewek an ihrem Ufer gilt oft als nördlichste Stadt Russlands."
+    ],
+    "q": {
+      "q": "Welche zwei Flüsse münden in die Ostsibirische See?",
+      "a": "Indigirka und Kolyma",
+      "x": [
+        "Ob und Jenissei",
+        "Lena und Chatanga"
+      ]
+    }
+  },
+  "Q845217": {
+    "t": "Arktisches Flachmeer mit einer aus der Luft entdeckten Insel",
+    "s": "Das Foxe Basin ist ein flaches, eisgebundenes Meer nördlich der Hudson Bay, und sein Eis ist manchmal braun getönt von Sediment, das vom Meeresboden aufgewirbelt wird. Es hütete lange ein Geheimnis: Prince Charles Island, etwa so groß wie Zypern, kam erst 1948 auf die Karte, nachdem man sie von einem Flugzeug aus entdeckt hatte.",
+    "w": "Ein weites, flaches, oft eisbedecktes Meer westlich der Baffininsel, in seinem Ostteil niedrige, flache Inseln.",
+    "f": [
+      "Es ist nach Luke Foxe benannt, der es 1631 erkundete.",
+      "Seine flachen Gewässer sind ein wichtiger Lebensraum Atlantischer Walrosse.",
+      "Igloolik, eine Inuit-Gemeinde, liegt auf einer Insel in seiner Nordwestecke."
+    ],
+    "q": {
+      "q": "Wie wurde Prince Charles Island im Foxe Basin 1948 entdeckt?",
+      "a": "Von einem Flugzeug aus",
+      "x": [
+        "Von einem Walfangschiff",
+        "Per Satellit"
+      ]
+    }
+  },
+  "Q509321": {
+    "t": "Ein eisbergreiches Meer vor der Ostantarktis",
+    "s": "Die Davissee ist ein abgelegenes Meer am Rand der Ostantarktis, den größten Teil des Jahres voller Eisberge und Festeis. Entlang ihrer Küste endet der Eisschild in hohen weißen Klippen und dem breiten Shackleton-Schelfeis. An ihrem Ufer steht Mirny, 1956 als erste sowjetische Station in der Antarktis gegründet.",
+    "w": "Packeis und verstreute Eisberge am Rand des ostantarktischen Eisschilds, der hier in weißen Eisklippen endet.",
+    "f": [
+      "Sie ist nach John King Davis benannt, dem Kapitän der Aurora auf Douglas Mawsons Expedition 1911–14.",
+      "Mirny an ihrem Ufer dient bis heute als russische Forschungsstation."
+    ],
+    "q": {
+      "q": "Welche 1956 gegründete Station steht an der Davissee?",
+      "a": "Mirny",
+      "x": [
+        "McMurdo",
+        "Wostok"
+      ]
+    }
+  },
+  "Q7347": {
+    "t": "Fünf Binnenmeere mit einem Fünftel des Süßwassers der Erde",
+    "s": "Aus Reiseflughöhe wirken die Großen Seen wie Meere, ihre fernen Ufer oft im Dunst verloren. Oberer See, Michigan-, Huron-, Erie- und Ontariosee bilden die größte Süßwasserseengruppe der Erde und bergen rund ein Fünftel des oberirdischen Süßwassers der Welt. Im Winter baut kalte Luft, die über sie hinwegzieht, Wolkenbänder auf und lädt an ihren Ufern schweren Seeeffektschnee ab.",
+    "w": "Fünf riesige, miteinander verbundene Seen an der Grenze zwischen den USA und Kanada, vom Oberen See im Westen bis zum Ontariosee im Osten.",
+    "f": [
+      "Wasser aus dem Oberen See fällt auf dem Weg zum Ontariosee rund 100 m, das meiste davon am Niagara River.",
+      "Zusammen bergen sie rund 84 Prozent des oberirdischen Süßwassers Nordamerikas.",
+      "Schiffe können vom Oberen See durch Schleusen und den Sankt-Lorenz-Seeweg bis zum Atlantik fahren."
+    ],
+    "q": {
+      "q": "Welcher der Großen Seen ist nach Fläche der größte?",
+      "a": "Der Obere See",
+      "x": [
+        "Der Huronsee",
+        "Der Michigansee"
+      ]
+    }
   }
 }

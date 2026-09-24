@@ -1,0 +1,362 @@
+{
+  "Q956": {
+    "t": "Una cuadrícula imperial enmarcada por montañas en dos lados",
+    "s": "Pekín está trazada como un tablero de ajedrez: avenidas rectas, un eje estricto de norte a sur y anillos viales encajados uno dentro de otro. Las montañas la rodean por el oeste y el norte, mientras la llanura se abre hacia el mar por el sureste. Su nombre significa «capital del norte», y los emperadores gobernaron desde aquí la mayor parte del tiempo desde el siglo XIII.",
+    "w": "Una cuadrícula inmensa en una llanura, cercada por montañas oscuras al norte y al oeste; de noche, anillos rectangulares de luz.",
+    "f": [
+      "El Segundo Anillo sigue el trazado de las antiguas murallas, derribadas en gran parte en el siglo XX.",
+      "El Gran Canal, de casi 1800 km, tiene su extremo norte en el lado este de Pekín.",
+      "La Ciudad Prohibida, terminada en 1420, está exactamente sobre el eje norte-sur de la ciudad."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Pekín?",
+      "a": "Capital del norte",
+      "x": [
+        "Capital del sur",
+        "Capital del oeste"
+      ]
+    }
+  },
+  "Q3630": {
+    "t": "La gran mancha urbana de Java, con islas frente a la costa",
+    "s": "Una ciudad sin borde visible: Yakarta se extiende por una llanura plana y brumosa donde Java se encuentra con el somero mar de Java, y simplemente se funde con sus vecinas. Frente a la costa, las Mil Islas salpican el agua como migas. En un día claro, al sur se alzan conos volcánicos. Los neerlandeses la llamaban Batavia y dirigían desde aquí su comercio en las Indias Orientales.",
+    "w": "Una enorme mancha gris en la costa norte de Java, una bahía con islitas al norte y volcanes en el horizonte sur.",
+    "f": [
+      "Pese a su nombre, las Mil Islas frente a Yakarta son poco más de un centenar.",
+      "La Compañía Neerlandesa de las Indias Orientales fundó Batavia aquí en 1619, sobre el puerto de Jayakarta.",
+      "El viejo puerto de Sunda Kelapa aún acoge goletas de madera pinisi."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Yakarta bajo dominio neerlandés?",
+      "a": "Batavia",
+      "x": [
+        "Buitenzorg",
+        "Nieuw Amsterdam"
+      ]
+    }
+  },
+  "Q8686": {
+    "t": "Donde el turbio Yangtsé llega por fin al mar",
+    "s": "Busca el agua parda que se vuelve azul: el Yangtsé vierte su limo en el mar de la China Oriental justo al lado de Shanghái. La ciudad se extiende llana por la orilla sur, partida en dos por el sinuoso río Huangpu. Mar adentro, una línea fina como un cabello cruza el agua: un puente de más de 30 km hasta un puerto de contenedores en una isla.",
+    "w": "Una ciudad gigante y llana al sur del estuario pardo del Yangtsé, con una isla larga y baja en la desembocadura.",
+    "f": [
+      "La isla de Chongming, en la boca del Yangtsé, está hecha por completo de limo fluvial y mide unos 80 km.",
+      "Shanghái es el puerto de contenedores con más tráfico del mundo desde 2010.",
+      "El nombre suele leerse como «sobre el mar» o «junto al mar»."
+    ],
+    "q": {
+      "q": "¿Qué río serpentea por el centro de Shanghái?",
+      "a": "El Huangpu",
+      "x": [
+        "El río de las Perlas",
+        "El Qiantang"
+      ]
+    }
+  },
+  "Q1490": {
+    "t": "Una ciudad que llena una llanura entera en torno a una bahía",
+    "s": "Tokio no termina: se queda sin tierra llana. Los edificios cubren la llanura de Kanto, la mayor de Japón, desde las montañas hasta el mar. La ciudad rodea la bahía de Tokio, con buena parte de su orilla ganada al mar. En un día claro, el cono del Fuji se alza a unos 100 km al suroeste. Hasta 1868, esto era Edo, la ciudad de los sogunes.",
+    "w": "Ciudad continua alrededor de una bahía ancha; el cono solitario del Fuji al suroeste; de noche, una alfombra de luces sin cortes.",
+    "f": [
+      "Odaiba debe su nombre a baterías de cañones construidas en la bahía en 1853-1854, tras la llegada de los barcos del comodoro Perry.",
+      "El nombre Tokio significa «capital del este»; el emperador se trasladó aquí desde Kioto en 1868-1869.",
+      "La Aqua-Line entra en la bahía de Tokio y parece acabar en una isla: el resto de la carretera es un túnel bajo el fondo."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Tokio antes de 1868?",
+      "a": "Edo",
+      "x": [
+        "Naniwa",
+        "Heian-kyō"
+      ]
+    }
+  },
+  "Q1156": {
+    "t": "Siete islas cosidas en una larga península",
+    "s": "Bombay apunta al sur, hacia el mar Arábigo, como un pulgar. Fueron siete islas separadas, unidas desde el siglo XVIII con calzadas y rellenos en una sola franja abarrotada. Al este queda el agua del puerto; al oeste, el mar abierto. Al anochecer, busca la curva brillante de luces a lo largo de Back Bay: los vecinos la llaman el Collar de la Reina.",
+    "w": "Un dedo estrecho de tierra que entra al sur en el mar, un amplio puerto al este y una mancha de bosque verde al norte.",
+    "f": [
+      "Portugal cedió Bombay a Inglaterra en 1661 como parte de la dote de Catalina de Braganza al casarse con Carlos II.",
+      "El Parque Nacional Sanjay Gandhi, un bosque con leopardos salvajes, está dentro del término municipal.",
+      "Un puente marino de unos 22 km, abierto en 2024, une la ciudad con el continente cruzando el puerto."
+    ],
+    "q": {
+      "q": "¿Cuántas islas se unieron para formar Bombay?",
+      "a": "Siete",
+      "x": [
+        "Tres",
+        "Doce"
+      ]
+    }
+  },
+  "Q1348": {
+    "t": "Antigua capital de la India británica en un río del delta",
+    "s": "Calcuta se extiende por la orilla este del Hooghly, un brazo activo del Ganges, con Howrah al otro lado del agua. Más allá de su borde este, un mosaico de estanques y marismas limpia en silencio las aguas residuales de la ciudad y cría peces. Más al sur, la tierra se deshace en los canales y manglares de los Sundarbans. Hasta 1911, fue la capital de la India británica.",
+    "w": "Una ciudad alargada junto a un río pardo que corre de norte a sur; estanques cuadrados al este y canales del delta al sur.",
+    "f": [
+      "Los humedales del este de Calcuta usan las aguas residuales de la ciudad para alimentar estanques de peces y son sitio Ramsar.",
+      "El puerto de Calcuta está en el río, a mucho más de 100 km del mar abierto.",
+      "Los Sundarbans, al sur, son el mayor manglar del mundo, compartido con Bangladés."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa Calcuta?",
+      "a": "El Hooghly",
+      "x": [
+        "El Brahmaputra",
+        "El Mahanadi"
+      ]
+    }
+  },
+  "Q3130": {
+    "t": "Un valle sumergido de dedos azules, abierto al Pacífico",
+    "s": "El puerto de Sídney es un valle fluvial sumergido, y desde arriba parece una mano de dedos azules que se adentran en la ciudad. Cabos de arenisca guardan su estrecha boca al Pacífico. Al sur está Botany Bay, donde las pistas del aeropuerto se adentran en el agua. Al oeste, las Montañas Azules se alzan en una bruma que de verdad parece azul.",
+    "w": "Un puerto profundo y ramificado que entra en la costa entre dos cabos; una bahía redonda con pistas al sur.",
+    "f": [
+      "La bruma azul sobre las Montañas Azules procede de aceites que se evaporan de las hojas de eucalipto.",
+      "James Cook desembarcó en Botany Bay en 1770; la Primera Flota se asentó en Sydney Cove en 1788.",
+      "El puente del Puerto, inaugurado en 1932, tiene el apodo de «la Percha» por la forma de su arco."
+    ],
+    "q": {
+      "q": "¿Dónde desembarcó James Cook en 1770, en el lado sur de Sídney?",
+      "a": "Botany Bay",
+      "x": [
+        "Moreton Bay",
+        "Port Phillip Bay"
+      ]
+    }
+  },
+  "Q334": {
+    "t": "Una isla nación rodeada de cientos de barcos en espera",
+    "s": "Antes que la ciudad, ves el mar: cientos de barcos fondeados en el estrecho de Singapur, esparcidos como granos de arroz. La isla en forma de rombo, en la punta de la península malaya, ha crecido cerca de una cuarta parte gracias a tierras ganadas al mar, y sus nuevas costas rectas se distinguen fácilmente. El ecuador está a menos de 150 km al sur.",
+    "w": "Una isla en forma de rombo junto a la península malaya, unida por una calzada, con barcos fondeados salpicando el estrecho.",
+    "f": [
+      "Stamford Raffles estableció aquí un puesto comercial británico en 1819.",
+      "El nombre viene del malayo Singapura, «ciudad del león».",
+      "La isla de Jurong, centro de refino al suroeste, se hizo uniendo siete islitas con rellenos."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Singapura?",
+      "a": "Ciudad del león",
+      "x": [
+        "Ciudad del tigre",
+        "Ciudad junto al mar"
+      ]
+    }
+  },
+  "Q8646": {
+    "t": "Montañas verdes, una costa abarrotada y un puerto fragante",
+    "s": "Desde arriba, Hong Kong es sorprendentemente verde: colinas empinadas y boscosas y decenas de islas, con la ciudad apretada en finas franjas junto a la costa. El puerto Victoria, un estrecho canal azul, separa Kowloon de la isla de Hong Kong. Más al oeste, busca el aeropuerto sobre una plataforma artificial llana y un largo puente que cruza el estuario del río de las Perlas.",
+    "w": "Islas y una península verdes y montuosas, ciudad densa junto a un puerto estrecho; una isla rectangular con el aeropuerto al oeste.",
+    "f": [
+      "Cerca del 40 % del territorio de Hong Kong está protegido como parques rurales.",
+      "El puente hacia Zhuhai y Macao mide unos 55 km y se sumerge en un túnel submarino entre dos islas artificiales.",
+      "El nombre significa «puerto fragante», probablemente por la madera de incienso que antes se embarcaba aquí."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Hong Kong?",
+      "a": "Puerto fragante",
+      "x": [
+        "Puerto de perlas",
+        "Puerto profundo"
+      ]
+    }
+  },
+  "Q1353": {
+    "t": "Siete ciudades en una, a orillas del Yamuna",
+    "s": "Delhi se ha reconstruido una y otra vez en el mismo tramo del Yamuna, y la tradición cuenta al menos siete ciudades históricas superpuestas aquí. Desde arriba, el río corre por el lado este, trenzado de bancos de arena en la estación seca. Una cresta baja y de matorral, el último extremo de los antiguos montes Aravalli, cruza el oeste. De noche, el resplandor se extiende muy lejos por la llanura.",
+    "w": "Una mancha enorme en una llanura, un río trenzado por su lado este y una cresta oscura y boscosa que cruza el oeste.",
+    "f": [
+      "La Vieja Delhi, o Shahjahanabad, la construyó Sha Jahan, creador del Taj Mahal; su Fuerte Rojo se terminó en 1648.",
+      "Los montes Aravalli, cuya última estribación acaba en Delhi, son una de las cordilleras más antiguas de la Tierra.",
+      "El Pilar de Hierro junto al Qutb Minar lleva unos 1600 años en pie con notablemente poco óxido."
+    ],
+    "q": {
+      "q": "¿Qué río pasa por Delhi?",
+      "a": "El Yamuna",
+      "x": [
+        "El Ganges",
+        "El Sutlej"
+      ]
+    }
+  },
+  "Q269": {
+    "t": "Una ciudad oasis verde al pie del Tian Shan",
+    "s": "Taskent se extiende como una cuadrícula amplia y frondosa por una llanura de regadío, alimentada por canales que salen del río Chirchiq. Al noreste, el terreno sube hacia las primeras crestas del Tian Shan, nevadas en invierno y primavera, y el embalse turquesa de Charvak llena un valle de montaña. Las caravanas de la Ruta de la Seda conocían este oasis como Chach.",
+    "w": "Una gran cuadrícula verde en una llanura; montañas que se alzan al noreste con un embalse turquesa en un valle.",
+    "f": [
+      "El nombre suele leerse como «ciudad de piedra» en túrquico.",
+      "El metro de Taskent, inaugurado en 1977, fue el primero de Asia central.",
+      "Es la ciudad más poblada de Asia central."
+    ],
+    "q": {
+      "q": "¿Qué significa, probablemente, el nombre Taskent?",
+      "a": "Ciudad de piedra",
+      "x": [
+        "Ciudad verde",
+        "Ciudad del sol"
+      ]
+    }
+  },
+  "Q1861": {
+    "t": "La ciudad de los ángeles en un río pardo de meandros",
+    "s": "El Chao Phraya serpentea por Bangkok en perezosos bucles pardos, y toda la ciudad se asienta en un delta tan llano que apenas se eleva sobre el mar. Alrededor, arrozales y estanques cuadrados de peces se extienden hasta el golfo de Tailandia, a unos 30 km al sur. Los tailandeses casi nunca dicen Bangkok: la llaman Krung Thep, la ciudad de los ángeles.",
+    "w": "Una ciudad gris, inmensa y llana junto a un río pardo en bucles, con una cuadrícula de campos y estanques entre ella y el golfo.",
+    "f": [
+      "El nombre ceremonial completo de Bangkok es uno de los topónimos más largos del mundo.",
+      "Se convirtió en capital en 1782, cuando el rey Rama I trasladó la corte al otro lado del río desde Thonburi.",
+      "Su antigua red de canales le valió a Bangkok el apodo de «Venecia de Oriente»."
+    ],
+    "q": {
+      "q": "¿Cómo suelen llamar los tailandeses a Bangkok?",
+      "a": "Krung Thep",
+      "x": [
+        "Ayutthaya",
+        "Sukhothai"
+      ]
+    }
+  },
+  "Q8684": {
+    "t": "Un río ancho y cumbres de granito en una misma capital",
+    "s": "Seúl es un cuenco de ciudad entre empinadas montañas de granito, partido por el ancho río Han. De hasta un kilómetro de ancho aquí, el Han lo cruzan más de 25 puentes que se ven como finas puntadas sobre el agua. Los reyes Joseon la hicieron su capital en 1394: montañas detrás y un río delante, lo ideal según las reglas de la geomancia.",
+    "w": "Un río ancho que se curva al oeste por una ciudad densa rodeada de montañas rocosas y boscosas; puentes cada uno o dos kilómetros.",
+    "f": [
+      "Los reyes Joseon rodearon su capital con una muralla de piedra de unos 18 km, iniciada en 1396.",
+      "Bukhansan, un parque nacional de cumbres de granito, se alza justo en el borde norte de la ciudad.",
+      "En coreano, la palabra «Seúl» significa simplemente «capital»."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa Seúl?",
+      "a": "El Han",
+      "x": [
+        "El Nakdong",
+        "El Taedong"
+      ]
+    }
+  },
+  "Q1461": {
+    "t": "Una bahía redonda, un río y un lago detrás de la ciudad",
+    "s": "Manila bordea la orilla este de una bahía amplia y casi circular, famosa por sus atardeceres. El río Pasig atraviesa la ciudad y une la bahía con la Laguna de Bay, el mayor lago de Filipinas. Durante 250 años, los galeones españoles zarparon de aquí hacia México, llevando seda y porcelana chinas a través del Pacífico.",
+    "w": "Una ciudad densa en la orilla este de una bahía ancha y redonda; un río serpentea al este hasta un lago enorme.",
+    "f": [
+      "Los españoles fundaron la amurallada Intramuros en 1571; el galeón de Manila navegó a Acapulco de 1565 a 1815.",
+      "El nombre viene de nilad, un arbusto de manglar que antes crecía junto al río.",
+      "La Laguna de Bay es muy poco profunda: de media tiene solo unos tres metros."
+    ],
+    "q": {
+      "q": "¿Hacia dónde navegaban los galeones de Manila, al otro lado del Pacífico?",
+      "a": "Acapulco",
+      "x": [
+        "Lima",
+        "San Francisco"
+      ]
+    }
+  },
+  "Q16959": {
+    "t": "La gran ciudad más alejada de cualquier mar",
+    "s": "Ninguna gran ciudad de la Tierra está más lejos del océano que Urumqi: la costa más cercana está a unos 2500 km. Llena un valle al pie norte del Tian Shan, con el macizo nevado del pico Bogda al este. Al norte de la ciudad, el terreno se aplana en la seca cuenca de Dzungaria.",
+    "w": "Una ciudad alargada en un valle bajo montañas nevadas; los glaciares del pico Bogda al este y una cuenca seca al norte.",
+    "f": [
+      "El pico Bogda mide 5445 m, y aun así queda más de 5 km por debajo de ti.",
+      "El Gurbantünggüt, el segundo desierto más grande de China, llena la cuenca al norte de la ciudad.",
+      "El nombre viene del mongol y significa «hermoso pasto»."
+    ],
+    "q": {
+      "q": "¿A qué distancia aproximada está Urumqi del mar más cercano?",
+      "a": "A unos 2500 km",
+      "x": [
+        "A unos 900 km",
+        "A unos 5000 km"
+      ]
+    }
+  },
+  "Q30002": {
+    "t": "Una ciudad redonda en una llanura regada desde el 256 a. C.",
+    "s": "Anillos viales dibujan círculos concéntricos en una llanura verde y notablemente plana: es Chengdu, en el borde oeste de la cuenca de Sichuan. Justo al oeste, las montañas se alzan de golpe hacia la meseta tibetana. La llanura debe su fertilidad a Dujiangyan, un sistema de riego construido hacia el 256 a. C. que aún divide el río Min en un abanico de canales.",
+    "w": "Una ciudad redonda de anillos viales concéntricos en una llanura verde; un muro de montañas que se alza bruscamente al oeste.",
+    "f": [
+      "Un viejo dicho asegura que los perros de Sichuan le ladran al sol porque lo ven muy poco a través de la bruma.",
+      "Dujiangyan, a unos 50 km al noroeste de la ciudad, es Patrimonio Mundial de la UNESCO.",
+      "Chengdu tiene un centro de cría de pandas gigantes desde 1987."
+    ],
+    "q": {
+      "q": "¿Qué antiguo sistema de riego aún riega la llanura de Chengdu?",
+      "a": "Dujiangyan",
+      "x": [
+        "El Gran Canal",
+        "El canal de Lingqu"
+      ]
+    }
+  },
+  "Q35765": {
+    "t": "La vieja cocina de Japón, con un aeropuerto en la bahía",
+    "s": "Osaka llena la tierra llana del fondo de la bahía de Osaka, donde el río Yodo se divide en canales camino del mar. La zona urbana sigue sin interrupción hacia Kobe y Kioto. En la bahía, busca un rectángulo nítido unido a la costa por un único puente largo: el aeropuerto de Kansai, construido en una isla artificial.",
+    "w": "Una ciudad continua en torno al fondo de una bahía; una isla rectangular con el aeropuerto mar adentro, unida por un puente.",
+    "f": [
+      "En el periodo Edo, Osaka dominaba tanto el comercio del arroz que la llamaban «la cocina de la nación».",
+      "Toyotomi Hideyoshi empezó a construir el castillo de Osaka en 1583.",
+      "En la vecina Sakai, el túmulo en forma de ojo de cerradura del emperador Nintoku mide unos 486 m."
+    ],
+    "q": {
+      "q": "¿Qué apodo tenía Osaka en el periodo Edo?",
+      "a": "La cocina de la nación",
+      "x": [
+        "La fragua de la nación",
+        "El jardín de la nación"
+      ]
+    }
+  },
+  "Q987": {
+    "t": "Una capital imperial planificada dentro de una urbe antigua",
+    "s": "Dentro de la mancha infinita de Delhi, busca una zona más verde y holgada al sur de la ciudad vieja: es Nueva Delhi. Se planificó desde cero a partir de 1911, cuando Gran Bretaña decidió trasladar aquí su capital india desde Calcuta. Los arquitectos Edwin Lutyens y Herbert Baker trazaron anchas avenidas que se unen en glorietas, con un eje ceremonial que sale al este desde la colina de Raisina.",
+    "w": "Una zona más verde y abierta en medio de la mancha urbana de Delhi, a pocos kilómetros al oeste del Yamuna.",
+    "f": [
+      "Nueva Delhi se inauguró formalmente como capital en 1931, veinte años después de anunciarse el traslado.",
+      "Su plano se basa en triángulos y hexágonos, con avenidas que irradian desde glorietas.",
+      "El palacio presidencial de la colina de Raisina tiene unas 340 habitaciones."
+    ],
+    "q": {
+      "q": "¿Cuándo se inauguró formalmente Nueva Delhi como capital?",
+      "a": "En 1931",
+      "x": [
+        "En 1911",
+        "En 1947"
+      ]
+    }
+  },
+  "Q1355": {
+    "t": "Una ciudad jardín de lagos en una meseta alta y fresca",
+    "s": "Decenas de lagos brillan por esta mancha urbana de la meseta del Decán: la mayoría son viejos embalses, o tanques, creados hace siglos al represar valles poco profundos. Bengaluru está a unos 900 m de altitud, lo que la mantiene claramente más fresca que las ciudades costeras de la India. Un jefe local, Kempe Gowda, fundó la ciudad con un fuerte de barro en 1537.",
+    "w": "Una ciudad extensa en tierras altas onduladas, moteada de lagos de todos los tamaños; colinas de granito desnudo al norte.",
+    "f": [
+      "Sus muchas empresas de software le han valido el apodo de «Silicon Valley de la India».",
+      "Lalbagh, un jardín botánico iniciado bajo Hyder Ali en el siglo XVIII, ayudó a darle el nombre de «Ciudad Jardín».",
+      "En 2014, el nombre oficial cambió de Bangalore a Bengaluru, como siempre se ha llamado en canarés."
+    ],
+    "q": {
+      "q": "¿A qué altitud aproximada está Bengaluru?",
+      "a": "A unos 900 m",
+      "x": [
+        "A unos 100 m",
+        "A unos 2000 m"
+      ]
+    }
+  },
+  "Q5838": {
+    "t": "Un alto valle de montaña donde Babur eligió descansar",
+    "s": "Kabul está a unos 1800 m, en un cuenco de montañas pardas y desnudas, con crestas rocosas que se alzan en plena ciudad. El río Kabul serpentea desde aquí hacia el este, hacia el paso de Khyber y, al final, el Indo. En invierno, el muro nevado del Hindu Kush brilla al norte. Babur, fundador del Imperio mogol, amaba este valle y eligió ser enterrado aquí.",
+    "w": "Una ciudad densa en una cuenca alta y seca atravesada por crestas desnudas; montañas nevadas al norte.",
+    "f": [
+      "La tumba de Babur está en Bagh-e Babur, un jardín en terrazas que él mismo trazó.",
+      "A unos 1800 m, Kabul está más alta que la cumbre del Ben Nevis, la montaña más alta de Gran Bretaña.",
+      "El río Kabul corre al este hasta Pakistán y se une al Indo en Attock."
+    ],
+    "q": {
+      "q": "¿Qué emperador mogol eligió ser enterrado en Kabul?",
+      "a": "Babur",
+      "x": [
+        "Akbar",
+        "Aurangzeb"
+      ]
+    }
+  }
+}

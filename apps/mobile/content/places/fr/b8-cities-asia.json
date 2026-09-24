@@ -1,0 +1,2919 @@
+{
+  "Q956": {
+    "t": "Une grille impériale encadrée de montagnes sur deux côtés",
+    "s": "Pékin est tracée comme un échiquier : avenues rectilignes, axe nord-sud strict et périphériques emboîtés les uns dans les autres. Les montagnes l’enveloppent à l’ouest et au nord, tandis que la plaine s’ouvre vers la mer au sud-est. Son nom signifie « capitale du Nord », et les empereurs y ont régné presque sans interruption depuis le XIIIe siècle.",
+    "w": "Une immense grille sur une plaine plate, cernée de montagnes sombres au nord et à l’ouest ; la nuit, des anneaux rectangulaires de lumière.",
+    "f": [
+      "Le 2e périphérique suit le tracé des anciennes murailles, en grande partie abattues au XXe siècle.",
+      "Le Grand Canal, long de près de 1 800 km, atteint son extrémité nord à l’est de Pékin.",
+      "La Cité interdite, achevée en 1420, se trouve exactement sur l’axe nord-sud de la ville."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Pékin » (Beijing) ?",
+      "a": "Capitale du Nord",
+      "x": [
+        "Capitale du Sud",
+        "Capitale de l’Ouest"
+      ]
+    }
+  },
+  "Q3630": {
+    "t": "L’immense étalement de Java, et un semis d’îles au large",
+    "s": "Une ville sans bord visible : Jakarta s’étale sur une plaine plate et brumeuse, là où Java rencontre la mer de Java peu profonde, et se fond simplement dans ses voisines. Au large, les Mille Îles parsèment l’eau comme des miettes. Par temps clair, des cônes volcaniques se dressent au sud. Les Néerlandais l’appelaient Batavia et y dirigeaient leur commerce des Indes orientales.",
+    "w": "Un immense étalement gris sur la côte nord de Java, une baie semée de petites îles au nord, des volcans à l’horizon sud.",
+    "f": [
+      "Malgré leur nom, les Mille Îles au large de Jakarta ne sont guère plus d’une centaine.",
+      "La Compagnie néerlandaise des Indes orientales fonda Batavia ici en 1619, sur le site du port de Jayakarta.",
+      "Le vieux port de Sunda Kelapa accueille encore des goélettes pinisi en bois."
+    ],
+    "q": {
+      "q": "Comment s’appelait Jakarta sous domination néerlandaise ?",
+      "a": "Batavia",
+      "x": [
+        "Buitenzorg",
+        "Nieuw Amsterdam"
+      ]
+    }
+  },
+  "Q8686": {
+    "t": "Là où le Yangzi boueux rejoint enfin la mer",
+    "s": "Cherchez une eau brune qui vire au bleu : le Yangzi déverse son limon dans la mer de Chine orientale juste à côté de Shanghai. La ville s’étend à plat sur la rive sud, coupée en deux par le sinueux Huangpu. Au large, une ligne fine comme un cheveu traverse l’eau : un pont de plus de 30 km vers un port à conteneurs insulaire.",
+    "w": "Une ville géante et plate au sud de l’estuaire brun du Yangzi, avec une longue île basse dans l’embouchure.",
+    "f": [
+      "L’île de Chongming, dans l’embouchure du Yangzi, est entièrement faite de limon fluvial et mesure environ 80 km.",
+      "Shanghai est le premier port à conteneurs du monde depuis 2010.",
+      "On lit généralement le nom comme « sur la mer »."
+    ],
+    "q": {
+      "q": "Quelle rivière serpente au centre de Shanghai ?",
+      "a": "Le Huangpu",
+      "x": [
+        "La rivière des Perles",
+        "Le Qiantang"
+      ]
+    }
+  },
+  "Q1490": {
+    "t": "Une ville qui remplit toute une plaine, autour d’une baie",
+    "s": "Tokyo ne s’arrête pas vraiment : elle manque de terre plate. Les constructions couvrent la plaine du Kantō, la plus grande du Japon, des montagnes jusqu’à la mer. La ville s’enroule autour de la baie de Tokyo, dont une grande partie du rivage est gagnée sur l’eau. Par temps clair, le cône du Fuji se dresse à environ 100 km au sud-ouest. Jusqu’en 1868, c’était Edo, la ville des shoguns.",
+    "w": "Une ville continue autour d’une large baie ; le cône solitaire du Fuji au sud-ouest ; la nuit, un tapis de lumières ininterrompu.",
+    "f": [
+      "Odaiba doit son nom aux batteries de canons bâties dans la baie en 1853-1854, après l’arrivée des navires du commodore Perry.",
+      "Le nom Tokyo signifie « capitale de l’Est » ; l’empereur s’y installa depuis Kyoto en 1868-1869.",
+      "L’Aqua-Line file dans la baie et semble s’arrêter sur une île : la suite de la route est un tunnel sous le fond marin."
+    ],
+    "q": {
+      "q": "Comment s’appelait Tokyo avant 1868 ?",
+      "a": "Edo",
+      "x": [
+        "Naniwa",
+        "Heian-kyō"
+      ]
+    }
+  },
+  "Q1156": {
+    "t": "Sept îles cousues en une longue péninsule",
+    "s": "Mumbai pointe vers le sud dans la mer d’Arabie comme un pouce. C’étaient autrefois sept îles distinctes, réunies à partir du XVIIIe siècle par des chaussées et des remblais en une seule bande surpeuplée. À l’est s’étendent les eaux du port, à l’ouest la pleine mer. La nuit, cherchez la courbe brillante des lumières le long de Back Bay : les habitants l’appellent le « collier de la reine ».",
+    "w": "Un étroit doigt de terre pointé vers le sud dans la mer, un large port à l’est, une tache de forêt verte au nord.",
+    "f": [
+      "Le Portugal céda Bombay à l’Angleterre en 1661, dans la dot de Catherine de Bragance lors de son mariage avec Charles II.",
+      "Le parc national Sanjay Gandhi, forêt où vivent des léopards sauvages, se trouve dans les limites de la ville.",
+      "Un pont maritime d’environ 22 km, ouvert en 2024, relie la ville au continent par-dessus le port."
+    ],
+    "q": {
+      "q": "Mumbai est née de la réunion de combien d’îles ?",
+      "a": "Sept",
+      "x": [
+        "Trois",
+        "Douze"
+      ]
+    }
+  },
+  "Q1348": {
+    "t": "L’ancienne capitale des Indes britanniques, sur le delta",
+    "s": "Calcutta s’étire le long de la rive est de l’Hooghly, bras actif du Gange, avec Howrah en face. Au-delà de sa bordure est, un patchwork d’étangs et de marais épure discrètement les eaux usées de la ville tout en produisant du poisson. Plus au sud, la terre se dissout en chenaux et en mangroves : les Sundarbans. Jusqu’en 1911, c’était la capitale des Indes britanniques.",
+    "w": "Une longue ville sur un fleuve brun orienté nord-sud ; des étangs à poissons carrés à l’est, des chenaux de delta au sud.",
+    "f": [
+      "Les zones humides de l’est de Calcutta nourrissent des étangs à poissons avec les eaux usées de la ville et sont un site Ramsar protégé.",
+      "Le port de Calcutta se trouve sur le fleuve, à bien plus de 100 km de la pleine mer.",
+      "Les Sundarbans, au sud, sont la plus grande mangrove du monde, partagée avec le Bangladesh."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Calcutta ?",
+      "a": "L’Hooghly",
+      "x": [
+        "Le Brahmapoutre",
+        "La Mahanadi"
+      ]
+    }
+  },
+  "Q3130": {
+    "t": "Une vallée noyée aux doigts bleus, ouverte sur le Pacifique",
+    "s": "Le port de Sydney est une vallée fluviale noyée, et d’en haut il ressemble à une main aux doigts bleus qui s’enfoncent loin dans la ville. Des caps de grès gardent son entrée étroite sur le Pacifique. Au sud s’étend Botany Bay, où les pistes de l’aéroport s’avancent dans l’eau. À l’ouest, les Blue Mountains se dressent dans une brume qui paraît vraiment bleue.",
+    "w": "Un port profond et ramifié qui entre dans la côte entre deux caps ; au sud, une baie ronde avec des pistes.",
+    "f": [
+      "La brume bleue des Blue Mountains vient des huiles qui s’évaporent des feuilles d’eucalyptus.",
+      "James Cook débarqua à Botany Bay en 1770 ; la First Fleet s’installa à Sydney Cove en 1788.",
+      "Le Harbour Bridge, ouvert en 1932, est surnommé « le cintre » pour la forme de son arche."
+    ],
+    "q": {
+      "q": "Où James Cook a-t-il débarqué en 1770, au sud de Sydney ?",
+      "a": "À Botany Bay",
+      "x": [
+        "Dans la baie Moreton",
+        "Dans la baie de Port Phillip"
+      ]
+    }
+  },
+  "Q334": {
+    "t": "Une île-nation cerclée de centaines de navires au mouillage",
+    "s": "Avant la ville, on remarque la mer : des centaines de navires au mouillage dans le détroit de Singapour, éparpillés comme des grains de riz. L’île en forme de losange, à la pointe de la péninsule Malaise, a grandi d’environ un quart grâce aux remblais, et ses nouveaux rivages rectilignes se repèrent facilement. L’équateur passe à moins de 150 km au sud.",
+    "w": "Une île en losange juste au large de la péninsule Malaise, reliée par une chaussée, avec des navires au mouillage dans le détroit.",
+    "f": [
+      "Stamford Raffles y installa un comptoir britannique en 1819.",
+      "Le nom vient du malais Singapura, « ville du lion ».",
+      "L’île de Jurong, pôle de raffinage au sud-ouest, est née de la réunion de sept petites îles par des remblais."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Singapura » ?",
+      "a": "Ville du lion",
+      "x": [
+        "Ville du tigre",
+        "Ville au bord de la mer"
+      ]
+    }
+  },
+  "Q8646": {
+    "t": "Montagnes vertes, rivage bondé et « port parfumé »",
+    "s": "D’en haut, Hong Kong est étonnamment verte : des collines abruptes et boisées et des dizaines d’îles, avec la ville entassée en minces bandes le long du rivage. Le port Victoria, étroit chenal bleu, sépare Kowloon de l’île de Hong Kong. Plus à l’ouest, cherchez l’aéroport sur une plate-forme artificielle et un long pont qui s’élance à travers l’estuaire de la rivière des Perles.",
+    "w": "Des îles et une péninsule vertes et vallonnées, une ville dense le long d’un port étroit ; une île-aéroport rectangulaire à l’ouest.",
+    "f": [
+      "Environ 40 % du territoire de Hong Kong est protégé en parcs naturels.",
+      "Le pont vers Zhuhai et Macao mesure environ 55 km et plonge dans un tunnel sous-marin entre deux îles artificielles.",
+      "Le nom signifie « port parfumé », sans doute d’après le bois d’encens autrefois expédié d’ici."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Hong Kong » ?",
+      "a": "Port parfumé",
+      "x": [
+        "Port des perles",
+        "Port profond"
+      ]
+    }
+  },
+  "Q1353": {
+    "t": "Sept villes en une, sur les rives de la Yamuna",
+    "s": "Delhi a été rebâtie encore et encore sur le même tronçon de la Yamuna, et la tradition compte au moins sept villes historiques superposées ici. D’en haut, le fleuve longe le côté est, tressé de bancs de sable à la saison sèche. Une crête basse et broussailleuse, dernière pointe des antiques monts Aravalli, traverse l’ouest. La nuit, la lueur s’étend loin sur la plaine.",
+    "w": "Un immense étalement sur une plaine plate, un fleuve en tresses à l’est, une crête sombre et boisée à travers l’ouest.",
+    "f": [
+      "Le vieux Delhi, ou Shahjahanabad, a été bâti par Shah Jahan, créateur du Taj Mahal ; son Fort rouge fut achevé en 1648.",
+      "Les monts Aravalli, dont le dernier éperon finit à Delhi, sont l’une des plus anciennes chaînes de montagnes du monde.",
+      "Le pilier de fer, près du Qutb Minar, se dresse depuis environ 1 600 ans avec remarquablement peu de rouille."
+    ],
+    "q": {
+      "q": "Quel fleuve coule le long de Delhi ?",
+      "a": "La Yamuna",
+      "x": [
+        "Le Gange",
+        "Le Sutlej"
+      ]
+    }
+  },
+  "Q269": {
+    "t": "Une ville-oasis verte au pied du Tian Shan",
+    "s": "Tachkent s’étale en une large grille verdoyante sur une plaine irriguée, alimentée par des canaux tirés de la Tchirtchik. Au nord-est, le terrain monte vers les premières crêtes du Tian Shan, enneigées en hiver et au printemps, et le réservoir turquoise de Tcharvak remplit une vallée de montagne. Les caravanes de la route de la soie connaissaient cette oasis sous le nom de Chach.",
+    "w": "Une grande grille verte sur une plaine plate ; des montagnes au nord-est, avec un réservoir turquoise dans une vallée.",
+    "f": [
+      "On lit généralement le nom comme « ville de pierre » en turc.",
+      "Le métro de Tachkent, ouvert en 1977, fut le premier d’Asie centrale.",
+      "C’est la ville la plus peuplée d’Asie centrale."
+    ],
+    "q": {
+      "q": "Que signifie probablement le nom « Tachkent » ?",
+      "a": "Ville de pierre",
+      "x": [
+        "Ville verte",
+        "Ville du soleil"
+      ]
+    }
+  },
+  "Q1861": {
+    "t": "La cité des anges sur un fleuve brun en boucles",
+    "s": "Le Chao Phraya serpente à travers Bangkok en boucles brunes et paresseuses, et toute la ville repose sur un delta si plat qu’il dépasse à peine le niveau de la mer. Autour, rizières et étangs à poissons carrés s’étendent jusqu’au golfe de Thaïlande, à une trentaine de kilomètres au sud. Les Thaïlandais disent rarement Bangkok : ils l’appellent Krung Thep, la cité des anges.",
+    "w": "Une immense ville grise et plate sur un fleuve brun en boucles, avec une grille de champs verts et d’étangs jusqu’au golfe.",
+    "f": [
+      "Le nom cérémoniel complet de Bangkok est l’un des plus longs noms de lieux du monde.",
+      "Elle est devenue la capitale en 1782, quand le roi Rama Ier installa la cour sur l’autre rive, face à Thonburi.",
+      "Son ancien réseau de canaux a valu à Bangkok le surnom de « Venise de l’Orient »."
+    ],
+    "q": {
+      "q": "Comment les Thaïlandais appellent-ils généralement Bangkok ?",
+      "a": "Krung Thep",
+      "x": [
+        "Ayutthaya",
+        "Sukhothaï"
+      ]
+    }
+  },
+  "Q8684": {
+    "t": "Un large fleuve et des pics de granit dans une même capitale",
+    "s": "Séoul est une cuvette urbaine parmi des montagnes de granit abruptes, coupée par le large fleuve Han. Large ici d’un kilomètre, le Han est franchi par plus de 25 ponts qui apparaissent comme de fins points de couture sur l’eau. Les rois Joseon en firent leur capitale en 1394 : montagnes derrière, fleuve devant, l’idéal selon les règles de la géomancie.",
+    "w": "Un large fleuve qui s’incurve vers l’ouest à travers une ville dense cerclée de montagnes rocheuses ; des ponts tous les un ou deux kilomètres.",
+    "f": [
+      "Les rois Joseon ceinturèrent leur capitale d’un mur de pierre d’environ 18 km, commencé en 1396.",
+      "Le Bukhansan, parc national de pics de granit, se dresse juste à la limite nord de la ville.",
+      "En coréen, le mot « Séoul » signifie simplement « capitale »."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Séoul ?",
+      "a": "Le Han",
+      "x": [
+        "Le Nakdong",
+        "Le Taedong"
+      ]
+    }
+  },
+  "Q1461": {
+    "t": "Une grande baie ronde, un fleuve et un lac derrière la ville",
+    "s": "Manille borde la rive est d’une large baie presque circulaire, célèbre pour ses couchers de soleil. Le Pasig traverse la ville et relie la baie à la Laguna de Bay, le plus grand lac des Philippines. Pendant 250 ans, les galions espagnols partirent d’ici pour le Mexique, emportant soie et porcelaine chinoises à travers le Pacifique.",
+    "w": "Une ville dense sur la rive est d’une large baie ronde ; un fleuve qui serpente vers l’est jusqu’à un immense lac.",
+    "f": [
+      "Les Espagnols fondèrent Intramuros, ville fortifiée, en 1571 ; les galions de Manille rallièrent Acapulco de 1565 à 1815.",
+      "Le nom vient de nilad, arbuste de mangrove qui poussait autrefois le long du fleuve.",
+      "La Laguna de Bay est très peu profonde : en moyenne, trois mètres seulement environ."
+    ],
+    "q": {
+      "q": "Vers quel port les galions de Manille traversaient-ils le Pacifique ?",
+      "a": "Acapulco",
+      "x": [
+        "Lima",
+        "San Francisco"
+      ]
+    }
+  },
+  "Q16959": {
+    "t": "La grande ville la plus éloignée de toute mer",
+    "s": "Aucune grande ville au monde n’est plus loin de l’océan qu’Ürümqi : la côte la plus proche est à environ 2 500 km. Elle remplit une vallée au pied nord du Tian Shan, avec le massif enneigé du pic Bogda qui se dresse à l’est. Au nord de la ville, le terrain s’aplatit dans le bassin sec de Dzoungarie.",
+    "w": "Une longue ville dans une vallée sous des montagnes enneigées ; les glaciers du pic Bogda à l’est, un bassin sec au nord.",
+    "f": [
+      "Le pic Bogda culmine à 5 445 m, et reste pourtant plus de 5 km sous vous.",
+      "Le Gurbantünggüt, deuxième désert de Chine, remplit le bassin au nord de la ville.",
+      "Le nom vient du mongol et signifie « beau pâturage »."
+    ],
+    "q": {
+      "q": "À quelle distance environ de la mer la plus proche se trouve Ürümqi ?",
+      "a": "Environ 2 500 km",
+      "x": [
+        "Environ 900 km",
+        "Environ 5 000 km"
+      ]
+    }
+  },
+  "Q30002": {
+    "t": "Une ville ronde sur une plaine irriguée depuis 256 av. J.-C.",
+    "s": "Des périphériques dessinent des cercles concentriques sur une plaine verte remarquablement plate : c’est Chengdu, au bord ouest du bassin du Sichuan. Juste à l’ouest, des montagnes s’élèvent brusquement vers le plateau tibétain. La plaine doit sa fertilité à Dujiangyan, système d’irrigation construit vers 256 av. J.-C., qui divise toujours la rivière Min en un éventail de canaux.",
+    "w": "Une ville ronde aux périphériques concentriques sur une plaine verte ; un mur de montagnes qui se dresse brusquement à l’ouest.",
+    "f": [
+      "Un vieux dicton prétend que les chiens du Sichuan aboient au soleil tant ils le voient rarement à travers la brume.",
+      "Dujiangyan, à environ 50 km au nord-ouest de la ville, est inscrit au patrimoine mondial de l’UNESCO.",
+      "Chengdu possède un centre d’élevage de pandas géants depuis 1987."
+    ],
+    "q": {
+      "q": "Quel ancien système d’irrigation arrose encore la plaine de Chengdu ?",
+      "a": "Dujiangyan",
+      "x": [
+        "Le Grand Canal",
+        "Le canal Lingqu"
+      ]
+    }
+  },
+  "Q35765": {
+    "t": "L’ancienne cuisine du Japon, avec un aéroport dans la baie",
+    "s": "Osaka remplit la terre plate au fond de la baie d’Osaka, où la Yodo se divise en bras en route vers la mer. L’agglomération continue sans interruption vers Kobe et Kyoto. Dans la baie, cherchez un rectangle bien net relié au rivage par un unique long pont : l’aéroport du Kansai, bâti sur une île artificielle.",
+    "w": "Une ville continue autour du fond d’une baie ; une île-aéroport rectangulaire au large, reliée par un seul pont.",
+    "f": [
+      "À l’époque d’Edo, Osaka dominait si bien le commerce du riz qu’on l’appelait « la cuisine du pays ».",
+      "Toyotomi Hideyoshi commença la construction du château d’Osaka en 1583.",
+      "Dans la ville voisine de Sakai, le tumulus en trou de serrure de l’empereur Nintoku mesure environ 486 m."
+    ],
+    "q": {
+      "q": "Quel surnom portait Osaka à l’époque d’Edo ?",
+      "a": "La cuisine du pays",
+      "x": [
+        "La forge du pays",
+        "Le jardin du pays"
+      ]
+    }
+  },
+  "Q987": {
+    "t": "Une capitale impériale planifiée au cœur d’une vieille ville",
+    "s": "Dans l’étalement sans fin de Delhi, cherchez une tache plus verte et plus aérée au sud de la vieille ville : c’est New Delhi. Elle a été planifiée de toutes pièces après 1911, quand la Grande-Bretagne décida d’y transférer sa capitale indienne depuis Calcutta. Les architectes Edwin Lutyens et Herbert Baker tracèrent de larges avenues convergeant vers des ronds-points, avec un axe cérémoniel qui part vers l’est depuis Raisina Hill.",
+    "w": "Une tache plus verte et plus ouverte au milieu de l’étalement de Delhi, à quelques kilomètres à l’ouest de la Yamuna.",
+    "f": [
+      "New Delhi a été officiellement inaugurée comme capitale en 1931, vingt ans après l’annonce du transfert.",
+      "Son plan est construit de triangles et d’hexagones, avec des avenues qui rayonnent depuis des ronds-points.",
+      "Le palais présidentiel, sur Raisina Hill, compte environ 340 pièces."
+    ],
+    "q": {
+      "q": "Quand New Delhi a-t-elle été officiellement inaugurée comme capitale ?",
+      "a": "En 1931",
+      "x": [
+        "En 1911",
+        "En 1947"
+      ]
+    }
+  },
+  "Q1355": {
+    "t": "Une ville-jardin de lacs sur un haut plateau frais",
+    "s": "Des dizaines de lacs scintillent dans cet étalement du plateau du Deccan : pour la plupart d’anciens réservoirs, les « tanks », créés il y a des siècles en barrant des vallées peu profondes. Bangalore se trouve à environ 900 m d’altitude, ce qui la rend nettement plus fraîche que les villes côtières de l’Inde. Un chef local, Kempe Gowda, fonda la ville avec un fort de terre en 1537.",
+    "w": "Une ville étalée sur des hauteurs ondulées, criblée de lacs de toutes tailles ; des collines de granit nu au nord.",
+    "f": [
+      "Ses nombreuses entreprises de logiciels lui ont valu le surnom de « Silicon Valley de l’Inde ».",
+      "Lalbagh, jardin botanique commencé sous Haidar Ali au XVIIIe siècle, lui a valu le nom de « ville-jardin ».",
+      "En 2014, le nom officiel est passé de Bangalore à Bengaluru, comme on l’a toujours appelée en kannada."
+    ],
+    "q": {
+      "q": "À quelle altitude environ se trouve Bangalore ?",
+      "a": "Environ 900 m",
+      "x": [
+        "Environ 100 m",
+        "Environ 2 000 m"
+      ]
+    }
+  },
+  "Q5838": {
+    "t": "Une haute vallée où Babur choisit de reposer",
+    "s": "Kaboul se trouve à environ 1 800 m, dans une cuvette de montagnes brunes et nues, avec des crêtes rocheuses qui traversent la ville elle-même. La rivière Kaboul file d’ici vers l’est, vers la passe de Khyber puis, au bout, l’Indus. En hiver, le mur enneigé de l’Hindou Kouch brille au nord. Babur, fondateur de l’Empire moghol, aimait cette vallée et choisit d’y être enterré.",
+    "w": "Une ville dense dans un haut bassin sec percé de crêtes nues ; des montagnes enneigées au nord.",
+    "f": [
+      "Le tombeau de Babur se trouve dans le Bagh-e Babur, jardin en terrasses qu’il a lui-même dessiné.",
+      "À environ 1 800 m, Kaboul est plus haute que le sommet du Ben Nevis, point culminant de la Grande-Bretagne.",
+      "La rivière Kaboul coule vers l’est jusqu’au Pakistan et rejoint l’Indus à Attock."
+    ],
+    "q": {
+      "q": "Quel empereur moghol a choisi d’être enterré à Kaboul ?",
+      "a": "Babur",
+      "x": [
+        "Akbar",
+        "Aurangzeb"
+      ]
+    }
+  },
+  "Q3141": {
+    "t": "Une ville au fond d’une immense baie presque fermée",
+    "s": "Imaginez une immense nappe d’eau presque coupée de l’océan : c’est la baie de Port Phillip, avec Melbourne à son fond. Son entrée, le Rip, ne fait qu’environ 3 km de large et a une redoutable réputation chez les marins. La Yarra s’enroule vers le centre depuis l’est, où se dressent les Dandenong Ranges boisées. Une ruée vers l’or dans les années 1850 fit de Melbourne l’une des villes les plus riches du monde.",
+    "w": "Une ville étalée autour du fond d’une immense baie presque ronde ; des collines boisées à l’est, des plaines plates à l’ouest.",
+    "f": [
+      "De 1901 à 1927, le parlement fédéral australien siégea à Melbourne, en attendant que Canberra soit prête.",
+      "La ville a été fondée en 1835 sur les rives de la Yarra.",
+      "La baie de Port Phillip couvre près de 2 000 km², mais nulle part plus de 24 m de fond environ."
+    ],
+    "q": {
+      "q": "Quelle est la largeur approximative de l’entrée de la baie de Port Phillip ?",
+      "a": "Environ 3 km",
+      "x": [
+        "Environ 30 km",
+        "Environ 300 m"
+      ]
+    }
+  },
+  "Q1867": {
+    "t": "Une ville coulée dans un bassin de montagnes vertes",
+    "s": "Taipei remplit un bassin plat comme de l’eau dans un bol, avec des montagnes boisées de tous côtés. Au nord, les volcans endormis du Yangmingshan fument doucement et alimentent des sources chaudes aux portes de la ville. Trois rivières se rejoignent dans le bassin et en sortent par une seule brèche au nord-ouest, sous le nom de Tamsui, vers le détroit de Taïwan.",
+    "w": "Une ville dense qui remplit un bassin rond, des montagnes vertes tout autour, une rivière qui serpente au nord-ouest vers la mer.",
+    "f": [
+      "Taipei 101, achevée en 2004, fut le plus haut bâtiment du monde jusqu’en 2010.",
+      "Le mont Qixing, dans le Yangmingshan, environ 1 120 m, est un volcan endormi situé dans la ville.",
+      "Les sources chaudes de Beitou, au nord de la ville, sont chauffées par le même groupe volcanique."
+    ],
+    "q": {
+      "q": "Quelle rivière draine le bassin de Taipei jusqu’à la mer ?",
+      "a": "La Tamsui",
+      "x": [
+        "La Zhuoshui",
+        "La Gaoping"
+      ]
+    }
+  },
+  "Q37100": {
+    "t": "Une ville sur un isthme étroit entre deux mers",
+    "s": "Auckland est coincée sur un isthme étroit : le port de Waitematā s’ouvre à l’est sur le Pacifique, celui de Manukau à l’ouest sur la mer de Tasman. La ville repose sur un champ d’une cinquantaine de petits volcans, dont beaucoup subsistent en cônes verts et herbeux au milieu des banlieues. Juste au large, cherchez Rangitoto, île symétrique sortie de la mer il y a seulement 600 ans environ.",
+    "w": "Une ville sur un mince isthme entre deux ports, semée de cônes verts ; une île ronde et symétrique juste au large.",
+    "f": [
+      "Au plus étroit, l’isthme est si mince que les Maoris y portaient leurs pirogues d’un port à l’autre.",
+      "Le nom maori d’Auckland, Tāmaki Makaurau, se traduit souvent par « Tāmaki convoitée par beaucoup ».",
+      "Rangitoto est à la fois le plus jeune et le plus grand volcan du champ d’Auckland."
+    ],
+    "q": {
+      "q": "Combien de volcans compte à peu près le champ volcanique d’Auckland ?",
+      "a": "Environ 50",
+      "x": [
+        "Environ 5",
+        "Environ 500"
+      ]
+    }
+  },
+  "Q15174": {
+    "t": "Une ville-champignon le long de la bordure nord de Hong Kong",
+    "s": "Shenzhen court en un long ruban le long de la côte, face aux collines vertes de Hong Kong, de l’autre côté d’une étroite rivière. Avant 1980, c’était un paisible district frontalier de rizières et de villages de pêcheurs ; cette année-là, elle devint l’une des premières zones économiques spéciales de Chine et grandit à une vitesse stupéfiante. La nuit, ses lumières courent presque sans interruption de l’estuaire des Perles aux péninsules de l’est.",
+    "w": "Une longue bande urbaine le long de la côte, juste au nord de Hong Kong ; une baie avec un pont à l’ouest.",
+    "f": [
+      "La rivière Shenzhen forme une grande partie de la limite avec Hong Kong.",
+      "Un pont d’environ 5 km franchit la baie de Shenzhen jusqu’aux Nouveaux Territoires de Hong Kong.",
+      "Des mangroves bordent encore la baie de Shenzhen à Futian, refuge protégé pour les oiseaux migrateurs."
+    ],
+    "q": {
+      "q": "En quelle année Shenzhen est-elle devenue une zone économique spéciale ?",
+      "a": "En 1980",
+      "x": [
+        "En 1949",
+        "En 1997"
+      ]
+    }
+  },
+  "Q198370": {
+    "t": "Une ville de bourgs épars, berceau antique du football",
+    "s": "Zibo est moins une ville qu’un groupe lâche de bourgs, égrenés là où les collines du centre du Shandong descendent vers la plaine de Chine du Nord. L’un d’eux, Linzi, fut la capitale de l’antique État de Qi et l’une des plus grandes villes de son temps. Un autre, Boshan, est réputé depuis des siècles pour sa céramique et son verre coloré.",
+    "w": "Plusieurs taches urbaines séparées, étalées au bord de basses collines, avec la plaine plate qui s’ouvre au nord.",
+    "f": [
+      "En 2004, la FIFA a reconnu le cuju, pratiqué à Linzi il y a plus de 2 000 ans, comme la plus ancienne forme connue de football.",
+      "Linzi resta la capitale de Qi pendant des siècles, jusqu’à la conquête par les Qin en 221 av. J.-C."
+    ],
+    "q": {
+      "q": "Le district de Linzi, à Zibo, est honoré comme berceau de quel sport ?",
+      "a": "Le football",
+      "x": [
+        "Le tennis de table",
+        "Le badminton"
+      ]
+    }
+  },
+  "Q1858": {
+    "t": "Une capitale millénaire sur le fleuve couleur de rouille",
+    "s": "Chargé de limon, le fleuve Rouge paraît vraiment rouillé vu d’en haut, et Hanoï s’étend sur sa rive droite. La ville est constellée de lacs, le plus grand étant le lac de l’Ouest, au nord. Tout autour, le delta du fleuve Rouge, plat et vert, est découpé en rizières. La dynastie Lý en fit sa capitale en 1010 et l’appela Thăng Long, « dragon qui s’élève ».",
+    "w": "Une ville sur la rive sud-ouest d’un large fleuve brun, avec un grand lac au nord, au milieu de rizières vertes et plates.",
+    "f": [
+      "Le nom Hà Nội signifie à peu près « en deçà du fleuve » ; la ville l’a reçu en 1831.",
+      "Le lac de l’Ouest, le plus grand lac d’Hanoï, couvre environ 500 hectares."
+    ],
+    "q": {
+      "q": "Comment s’appelait Hanoï quand elle devint capitale en 1010 ?",
+      "a": "Thăng Long",
+      "x": [
+        "Phú Xuân",
+        "Gia Định"
+      ]
+    }
+  },
+  "Q1854": {
+    "t": "Boucles de rivière, vaste delta et dédale de mangroves",
+    "s": "La rivière de Saïgon décrit des boucles serrées et brillantes à travers la ville avant de filer vers la mer. Au sud-est du centre, la terre cède la place à Cần Giờ, labyrinthe vert sombre de mangroves et de chenaux de marée. Au sud-ouest s’étend le delta du Mékong, l’un des grands greniers à riz de l’Asie. Beaucoup d’habitants appellent encore la ville par son ancien nom, Saïgon.",
+    "w": "Une ville dense sur une rivière en boucles ; des chenaux de mangrove sombres au sud-est, un delta vert et plat au sud-ouest.",
+    "f": [
+      "La mangrove de Cần Giờ est une réserve de biosphère de l’UNESCO.",
+      "Avant l’arrivée des colons vietnamiens au XVIIe siècle, un port khmer appelé Prey Nokor se trouvait ici."
+    ],
+    "q": {
+      "q": "Quelle mangrove s’étend entre Hô Chi Minh-Ville et la mer ?",
+      "a": "Cần Giờ",
+      "x": [
+        "Les Sundarbans",
+        "Bhitarkanika"
+      ]
+    }
+  },
+  "Q11739": {
+    "t": "Une ville moghole de jardins sur la plaine du Pendjab",
+    "s": "Des canaux d’irrigation rectilignes tirent des traits sur la plaine plate du Pendjab autour de Lahore, et la Ravi longe la bordure nord-ouest de la ville. Pendant des siècles, ce fut l’une des grandes villes de l’Empire moghol, et Akbar y tint sa capitale plus de dix ans. La vieille ville fortifiée reste un nœud serré de ruelles près de la rivière.",
+    "w": "Une grande ville plate avec une rivière au nord-ouest et des canaux rectilignes à travers des champs verts.",
+    "f": [
+      "Akbar tint sa cour à Lahore de 1585 à 1598.",
+      "Le fort de Lahore et les jardins de Shalimar sont inscrits ensemble au patrimoine mondial de l’UNESCO.",
+      "On entrait jadis dans la ville fortifiée par une douzaine de portes environ."
+    ],
+    "q": {
+      "q": "Quelle rivière coule le long de Lahore ?",
+      "a": "La Ravi",
+      "x": [
+        "La Jhelum",
+        "La Kaboul"
+      ]
+    }
+  },
+  "Q8660": {
+    "t": "Une mégapole sur une côte sèche, près du delta de l’Indus",
+    "s": "Karachi s’étale sur une côte sèche couleur de sable, avec des collines nues derrière et la mer d’Arabie devant. Son port est abrité par une basse langue de terre, et au sud-est le rivage s’effiloche en criques de mangrove là où commence le delta de l’Indus. Au XVIIIe siècle, ce n’était qu’un petit village de pêcheurs ; c’est aujourd’hui la plus grande ville du Pakistan.",
+    "w": "Une immense ville beige sur une côte sèche et rectiligne ; un port abrité et des criques de mangrove au sud-est, des collines nues à l’intérieur.",
+    "f": [
+      "Son ancien nom était Kolachi, d’après un village de pêcheurs de ce rivage.",
+      "Karachi fut la capitale du Pakistan de 1947 à 1959.",
+      "Les mangroves du delta de l’Indus, au sud-est, comptent parmi les plus grandes mangroves en climat sec."
+    ],
+    "q": {
+      "q": "Quel était le nom de Karachi quand c’était un village de pêcheurs au XVIIIe siècle ?",
+      "a": "Kolachi",
+      "x": [
+        "Thatta",
+        "Gwadar"
+      ]
+    }
+  },
+  "Q18808": {
+    "t": "Une ville aux îles fluviales, jadis « capitale des saules »",
+    "s": "De longues îles basses divisent le large et calme Taedong qui traverse Pyongyang, et la ville s’étend sur les deux rives. Au-delà, terres agricoles plates et basses collines s’étirent vers la mer Jaune, à une cinquantaine de kilomètres au sud-ouest. Le nom signifie « terre plate », et en 427 le royaume de Koguryo y transféra sa capitale.",
+    "w": "Une ville sur les deux rives d’un large fleuve aux longues îles ; le fleuve serpente au sud-ouest vers la mer à travers des terres plates.",
+    "f": [
+      "Un ancien nom de la ville est Ryugyong, « capitale des saules », d’après les arbres de ses berges.",
+      "Koguryo régna depuis Pyongyang pendant plus de deux siècles, de 427 à 668."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Pyongyang ?",
+      "a": "Le Taedong",
+      "x": [
+        "Le Han",
+        "Le Yalou"
+      ]
+    }
+  },
+  "Q5972": {
+    "t": "La plus grande ville de Sumatra, bâtie sur le tabac",
+    "s": "De vastes grilles bien nettes de plantations entourent Medan, sur la plaine côtière plate du nord-est de Sumatra, à quelques kilomètres du détroit de Malacca. Au XIXe siècle, la feuille cultivée ici, le tabac de Deli, était recherchée dans le monde entier comme cape de cigare, et un petit village s’enrichit. Au sud-ouest, des cônes volcaniques montent vers le grand lac de caldeira du Toba.",
+    "w": "Un étalement gris sur une plaine plate près de la côte, cerné de plantations en grille ; des pics volcaniques à l’horizon sud-ouest.",
+    "f": [
+      "Medan est la plus grande ville de Sumatra.",
+      "Le lac Toba, au sud de la ville, remplit la caldeira d’un supervolcan entré en éruption il y a environ 74 000 ans.",
+      "Le tabac de Deli, nommé d’après le sultanat local, fut cultivé ici pour les capes de cigares dès les années 1860."
+    ],
+    "q": {
+      "q": "Quelle culture a enrichi Medan au XIXe siècle ?",
+      "a": "Le tabac",
+      "x": [
+        "La noix de muscade",
+        "Le clou de girofle"
+      ]
+    }
+  },
+  "Q1865": {
+    "t": "Un confluent boueux que l’étain a changé en capitale",
+    "s": "Kuala Lumpur remplit la vallée de Klang, avec les crêtes boisées des monts Titiwangsa à l’est. La ville est née dans les années 1850, rude camp de mineurs d’étain, et beaucoup des lacs qui scintillent alentour sont d’anciennes fosses de mines inondées. Au sud, cherchez Putrajaya, ville administrative planifiée autour d’un grand lac artificiel.",
+    "w": "Une ville dense dans une vallée verte, des montagnes boisées à l’est, des lacs épars autour et une ville planifiée au sud.",
+    "f": [
+      "Kuala Lumpur signifie « confluent boueux » : la ville a grandi là où la Gombak rejoint la Klang.",
+      "Les tours jumelles Petronas furent les plus hauts bâtiments du monde de 1998 à 2004.",
+      "Les grottes de Batu, dans une colline calcaire au nord de la ville, sont un sanctuaire hindou depuis les années 1890."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Kuala Lumpur » ?",
+      "a": "Confluent boueux",
+      "x": [
+        "Rivière de l’étain",
+        "Ville des collines"
+      ]
+    }
+  },
+  "Q183584": {
+    "t": "Une ville longue et mince serrée le long du fleuve Jaune",
+    "s": "Lanzhou n’a pas la place de s’étaler : elle court sur des dizaines de kilomètres le long d’une étroite vallée du fleuve Jaune, enserrée par des collines de lœss nues et ocre. D’en haut, on dirait un ruban gris posé dans un pli du terrain. Pour les caravanes de la route de la soie, c’était le passage clé du fleuve Jaune vers l’ouest et le corridor du Hexi.",
+    "w": "Un étroit ruban urbain gris qui suit un fleuve sinueux entre des collines nues brun-jaune.",
+    "f": [
+      "Le pont Zhongshan, achevé en 1909, fut le premier pont permanent sur le fleuve Jaune.",
+      "Avant les ponts, on traversait ici le fleuve sur des radeaux portés par des peaux de mouton gonflées."
+    ],
+    "q": {
+      "q": "Quel fleuve traverse Lanzhou en son milieu ?",
+      "a": "Le fleuve Jaune",
+      "x": [
+        "Le Yangzi",
+        "La Wei"
+      ]
+    }
+  },
+  "Q179608": {
+    "t": "Une ville verte et subtropicale dans les boucles de la Yong",
+    "s": "Nanning s’enroule autour des larges méandres de la Yong, au cœur du Sud subtropical de la Chine. La campagne alentour est un patchwork de collines et de champs verts, dont beaucoup plantés de canne à sucre. La frontière vietnamienne est à moins de 200 km au sud-ouest, et depuis 2004 la ville accueille chaque année une foire commerciale avec l’Asie du Sud-Est.",
+    "w": "Une ville étalée autour de larges boucles de rivière, avec des collines et des champs verts tout autour.",
+    "f": [
+      "Le Guangxi, dont Nanning est la capitale, cultive plus de la moitié de la canne à sucre chinoise.",
+      "Sa verdure toute l’année vaut à Nanning le surnom de « ville verte ».",
+      "La Yong se jette dans le Xi, qui rejoint ensuite le delta de la rivière des Perles."
+    ],
+    "q": {
+      "q": "De quelle culture le Guangxi est-il le premier producteur chinois ?",
+      "a": "La canne à sucre",
+      "x": [
+        "Le thé",
+        "Le coton"
+      ]
+    }
+  },
+  "Q192271": {
+    "t": "Une ville perchée parmi d’innombrables cônes karstiques",
+    "s": "Des cônes et des creux calcaires froissent la terre autour de Guiyang, à environ 1 100 m sur le plateau du Yunnan-Guizhou. Les quartiers se glissent entre les collines : d’en haut, la ville semble éclatée en morceaux. Un vieux dicton affirme que le Guizhou n’a jamais trois jours de soleil d’affilée ni trois li de terrain plat : regardez en bas et vous comprendrez.",
+    "w": "Des taches urbaines éparses entre des collines vertes en cône, sur un haut plateau froissé, souvent sous les nuages.",
+    "f": [
+      "Grâce à l’altitude, les étés de Guiyang sont doux pour le sud de la Chine.",
+      "Le nom signifie « au sud du mont Gui » : en chinois, « yang » désigne le versant ensoleillé d’une colline."
+    ],
+    "q": {
+      "q": "Guiyang est la capitale de quelle province ?",
+      "a": "Le Guizhou",
+      "x": [
+        "Le Guangxi",
+        "Le Yunnan"
+      ]
+    }
+  },
+  "Q11725": {
+    "t": "Une ville de montagne à la pointe de deux fleuves",
+    "s": "Le vieux centre de Chongqing est une péninsule abrupte et bondée, au confluent de deux fleuves : la Jialing venue du nord et le Yangzi. À la pointe, leurs eaux coulent souvent côte à côte en deux couleurs avant de se mêler. Autour de la ville, de longues crêtes parallèles filent vers le nord-est comme les plis d’un drap froissé. Collines, brouillard et étés brûlants lui valent ses surnoms : ville des montagnes, ville du brouillard.",
+    "w": "Une péninsule dense entre deux fleuves qui convergent, encadrée de longues crêtes parallèles orientées nord-est sud-ouest.",
+    "f": [
+      "Le réservoir du barrage des Trois-Gorges s’étire sur quelque 600 km en amont, jusqu’à Chongqing.",
+      "Chongqing compte parmi les « fournaises » de la Chine pour ses étés chauds et humides.",
+      "L’ensemble de la municipalité de Chongqing a à peu près la taille de l’Autriche."
+    ],
+    "q": {
+      "q": "Quelle rivière rejoint le Yangzi au centre de Chongqing ?",
+      "a": "La Jialing",
+      "x": [
+        "La Min",
+        "La Han"
+      ]
+    }
+  },
+  "Q68481": {
+    "t": "La ville des banians, dans un bassin vert sur la Min",
+    "s": "Des banians, plantés ici il y a environ mille ans, ombragent toujours les rues de Fuzhou et lui valent le surnom de « ville des banians ». D’en haut, la ville remplit un bassin cerné de montagnes vertes sur le cours inférieur de la Min, juste avant que le fleuve ne s’élargisse vers la mer. Une grande île du fleuve, Nantai, est elle-même couverte de ville.",
+    "w": "Une ville dans un bassin cerné de montagnes sur un large fleuve, avec une grande île bâtie au milieu du fleuve.",
+    "f": [
+      "La FAO classe la culture du jasmin et du thé de Fuzhou parmi les systèmes ingénieux du patrimoine agricole mondial.",
+      "Des sources chaudes jaillissent sous le centre-ville, et des bains les utilisent depuis des siècles.",
+      "Le chantier naval de Mawei, fondé en 1866, fut l’un des premiers chantiers navals modernes de Chine."
+    ],
+    "q": {
+      "q": "De quel arbre vient le surnom de Fuzhou ?",
+      "a": "Le banian",
+      "x": [
+        "Le camphrier",
+        "Le saule"
+      ]
+    }
+  },
+  "Q16572": {
+    "t": "L’ancienne Canton, en tête du delta de la rivière des Perles",
+    "s": "Là où la rivière des Perles éclate en un dédale de bras dans son delta, Guangzhou se fond sans transition dans les villes voisines. La bosse verte du mont Baiyun se dresse sur son flanc nord. De 1757 à 1842, ce fut le seul port chinois où les marchands occidentaux avaient le droit de commercer, et ils l’appelaient Canton.",
+    "w": "Une ville immense sur un fleuve ramifié en tête du delta, avec une montagne verte sur sa bordure nord.",
+    "f": [
+      "Une légende de cinq béliers apportant du riz au peuple a valu à Guangzhou son surnom de « ville des béliers ».",
+      "La foire de Canton se tient ici deux fois par an depuis 1957."
+    ],
+    "q": {
+      "q": "Comment les marchands européens appelaient-ils Guangzhou ?",
+      "a": "Canton",
+      "x": [
+        "Amoy",
+        "Foochow"
+      ]
+    }
+  },
+  "Q59218": {
+    "t": "Un patchwork de villes-usines sur la rivière des Perles",
+    "s": "Dongguan n’a pas de centre unique : c’est un patchwork d’une trentaine de bourgs, de zones industrielles et d’étangs à poissons sur la rive est de l’estuaire de la rivière des Perles, comblant l’espace entre Guangzhou et Shenzhen. D’innombrables jouets, chaussures et gadgets électroniques sont sortis de ses ateliers. À sa bordure ouest, le pont de Humen s’élance au-dessus de l’embouchure.",
+    "w": "Un étalement de bourgs et d’étangs sur la rive est d’un large estuaire, avec un long pont suspendu sur sa bordure ouest.",
+    "f": [
+      "À Humen, en 1839, le commissaire Lin Zexu fit détruire plus de mille tonnes d’opium saisi.",
+      "Le pont de Humen, ouvert en 1997, a une travée principale de 888 m."
+    ],
+    "q": {
+      "q": "Qu’a fait détruire le commissaire Lin Zexu à Humen en 1839 ?",
+      "a": "De l’opium",
+      "x": [
+        "De l’argent",
+        "Du thé"
+      ]
+    }
+  },
+  "Q10389": {
+    "t": "Un frais bassin d’altitude cerné de volcans",
+    "s": "Bandung remplit un bassin à environ 700 m dans les hautes terres de Java-Ouest, et le fond plat sur lequel elle repose fut jadis le lit d’un grand lac préhistorique. Des volcans se dressent tout autour ; le long volcan tabulaire au nord est le Tangkuban Perahu, le « bateau renversé ». Son climat frais et ses avenues élégantes lui valurent autrefois le surnom de « Paris de Java ».",
+    "w": "Une ville étalée sur le fond plat d’un bassin, des volcans de tous côtés ; une longue montagne tabulaire au nord.",
+    "f": [
+      "En 1955, Bandung accueillit la conférence afro-asiatique, qui réunit 29 pays.",
+      "Des plantations de thé couvrent beaucoup des pentes volcaniques autour de la ville.",
+      "Selon la légende, le Tangkuban Perahu est un bateau renversé d’un coup de pied rageur par le héros Sangkuriang."
+    ],
+    "q": {
+      "q": "Que signifie le nom du volcan Tangkuban Perahu ?",
+      "a": "Bateau renversé",
+      "x": [
+        "Géant endormi",
+        "Montagne en feu"
+      ]
+    }
+  },
+  "Q11462": {
+    "t": "Un requin, un crocodile et un pont vers Madura",
+    "s": "Un mince fil cousant deux îles vous met sur la voie : le pont de Suramadu, long d’environ 5 km, relie Surabaya, sur la côte nord-est plate de Java, à l’île de Madura. Le long du rivage, des étangs à poissons carrés scintillent en rangées. L’emblème de la ville montre un requin et un crocodile, sura et baya, engagés dans un combat.",
+    "w": "Une grande ville côtière face à un étroit détroit, un long pont vers une île et des rangées d’étangs à poissons le long du rivage.",
+    "f": [
+      "À son ouverture en 2009, le pont de Suramadu était le plus long d’Indonésie.",
+      "Tanjung Perak, le port de Surabaya, est l’un des plus actifs d’Indonésie."
+    ],
+    "q": {
+      "q": "Sur l’emblème de Surabaya, un requin combat quel animal ?",
+      "a": "Un crocodile",
+      "x": [
+        "Un tigre",
+        "Un aigle"
+      ]
+    }
+  },
+  "Q5826": {
+    "t": "Au départ de la route de la soie, sous le mur des Qinling",
+    "s": "Un mur sombre de montagnes, les Qinling, se dresse au sud de Xi’an, étendue sur la plaine plate de la Wei. Ses rues suivent toujours une stricte grille nord-sud autour d’un vieux cœur rectangulaire. Sous le nom de Chang’an, ce fut la capitale de la dynastie Tang, point de départ oriental de la route de la soie et l’une des plus grandes villes du monde.",
+    "w": "Une grande ville quadrillée sur une plaine plate ; un mur de montagnes abrupt au sud, une rivière au nord.",
+    "f": [
+      "La muraille de Xi’an, d’époque Ming, longue d’environ 14 km, est l’une des plus complètes de Chine.",
+      "L’armée de terre cuite a été découverte en 1974 par des paysans creusant un puits, à environ 35 km à l’est.",
+      "La chaîne des Qinling est la ligne de partage traditionnelle entre le nord et le sud de la Chine."
+    ],
+    "q": {
+      "q": "Comment s’appelait Xi’an quand elle était la capitale des Tang ?",
+      "a": "Chang’an",
+      "x": [
+        "Luoyang",
+        "Kaifeng"
+      ]
+    }
+  },
+  "Q72778": {
+    "t": "La capitale du pays du charbon, le long de la Fen",
+    "s": "Taiyuan s’étire du nord au sud le long de la Fen, dans un long bassin pincé entre deux chaînes de montagnes du plateau de lœss. Les collines alentour sont sèches et ravinées, brun-jaune une grande partie de l’année. Sous la province du Shanxi se trouve l’un des charbons les plus riches de Chine, et la ville a grandi comme son cœur industriel.",
+    "w": "Une longue ville qui suit une rivière au fond d’un bassin étroit, avec des collines nues et ravinées de chaque côté.",
+    "f": [
+      "La première ville fortifiée ici, Jinyang, a été bâtie vers 497 av. J.-C.",
+      "Le Shanxi est célèbre pour son vinaigre vieilli sombre, fabriqué autour de Taiyuan depuis des siècles."
+    ],
+    "q": {
+      "q": "Quelle rivière traverse Taiyuan ?",
+      "a": "La Fen",
+      "x": [
+        "La Wei",
+        "La Luo"
+      ]
+    }
+  },
+  "Q11746": {
+    "t": "Trois villes séparées par deux fleuves et cent lacs",
+    "s": "Wuhan, ce sont en réalité trois anciennes villes, Wuchang, Hankou et Hanyang, séparées par la rencontre du Yangzi et de son affluent, la Han. D’en haut, les fleuves dessinent un Y géant, et des lacs scintillent partout entre les quartiers. Le plus grand, le lac de l’Est, étale ses nombreux bras sur plus de 30 km² à l’est.",
+    "w": "Deux grands fleuves réunis en Y à travers une immense ville semée de lacs ; un grand lac ramifié à l’est.",
+    "f": [
+      "Le tout premier pont sur le Yangzi a ouvert ici en 1957.",
+      "Au XIXe siècle, des marchands russes exploitaient à Hankou des fabriques de thé en briques.",
+      "Sa place au cœur du réseau fluvial chinois vaut à Wuhan le surnom de « carrefour des neuf provinces »."
+    ],
+    "q": {
+      "q": "Quelle rivière rejoint le Yangzi à Wuhan ?",
+      "a": "La Han",
+      "x": [
+        "La Jialing",
+        "La Xiang"
+      ]
+    }
+  },
+  "Q174091": {
+    "t": "Une longue île aux orangers dans la Xiang",
+    "s": "Changsha borde les deux rives de la Xiang, et au milieu du fleuve s’étire une île remarquablement longue et mince : l’île aux Oranges, jadis couverte d’agrumes. Sur la rive ouest se dresse la colline boisée de Yuelu. À son pied se trouve l’une des plus anciennes académies de Chine, fondée en 976 et qui fait toujours partie d’une université.",
+    "w": "Une ville sur les deux rives d’un large fleuve, avec une longue île étroite au milieu ; une colline boisée sur la rive ouest.",
+    "f": [
+      "L’île aux Oranges mesure environ 5 km de long, mais elle est très étroite.",
+      "Les tombes Han de Mawangdui, découvertes à Changsha en 1972, contenaient une noble au corps remarquablement conservé."
+    ],
+    "q": {
+      "q": "Comment s’appelle la longue île de la Xiang, à Changsha ?",
+      "a": "L’île aux Oranges",
+      "x": [
+        "L’île aux Pêches",
+        "L’île aux Lotus"
+      ]
+    }
+  },
+  "Q182852": {
+    "t": "L’éternel printemps au bord d’un lac de montagne",
+    "s": "À près de 1 900 m sur le plateau du Yunnan, Kunming s’étend depuis l’extrémité nord du lac Dian, longue nappe d’eau dont la rive ouest est bordée de collines abruptes. Altitude et latitude lui donnent un temps doux toute l’année : on l’appelle la « ville de l’éternel printemps ». Les champs alentour montrent la terre rouge profond typique du plateau.",
+    "w": "Une ville au bout nord d’un long lac bordé de collines abruptes à l’ouest ; des champs à la terre rouge autour.",
+    "f": [
+      "Le lac Dian couvre environ 300 km² : c’est le plus grand lac du Yunnan.",
+      "Depuis les années 1980, des mouettes rieuses venues de Sibérie passent chaque hiver à Kunming.",
+      "La forêt de pierre, dédale de pinacles calcaires classé par l’UNESCO, se trouve à moins de 100 km au sud-est."
+    ],
+    "q": {
+      "q": "Quel est le surnom de Kunming ?",
+      "a": "Ville de l’éternel printemps",
+      "x": [
+        "Ville de l’éternel automne",
+        "Ville des vents"
+      ]
+    }
+  },
+  "Q30340": {
+    "t": "Un nœud ferroviaire près d’un fleuve perché sur la plaine",
+    "s": "Ici, le fleuve Jaune coule plus haut que les champs qui l’entourent : son lit s’est exhaussé entre de hautes digues, et il court large, tressé et sableux. Zhengzhou s’étale sur la plaine plate de Chine du Nord, juste au sud. On vit ici depuis longtemps : des pans de murailles en terre damée d’une ville Shang, vieilles de quelque 3 500 ans, se dressent encore au centre.",
+    "w": "Une grande ville plate et quadrillée, avec un fleuve large, sableux et tressé qui coule d’est en ouest juste au nord.",
+    "f": [
+      "Le temple de Shaolin, berceau légendaire du kung-fu, se trouve dans les monts Song, à moins de 100 km à l’ouest.",
+      "Zhengzhou a grandi au croisement des grandes lignes ferroviaires nord-sud et est-ouest de la Chine."
+    ],
+    "q": {
+      "q": "Zhengzhou est la capitale de quelle province ?",
+      "a": "Le Henan",
+      "x": [
+        "Le Hebei",
+        "Le Hubei"
+      ]
+    }
+  },
+  "Q11720": {
+    "t": "La capitale mandchoue avant Pékin, sur une plaine hivernale",
+    "s": "En hiver, la rivière Hun gèle et les champs blanchissent autour de Shenyang, étendue sur la plaine plate du nord-est de la Chine, la rivière s’incurvant le long de son flanc sud. En 1625, le chef mandchou Nurhaci en fit sa capitale, et ses successeurs y régnèrent jusqu’à la prise de Pékin en 1644. Les Mandchous l’appelaient Moukden.",
+    "w": "Une grande ville plate sur une vaste plaine, une rivière le long de sa bordure sud ; blanche et grise en hiver.",
+    "f": [
+      "Le palais de Moukden, bâti à partir de 1625, est un petit cousin de la Cité interdite de Pékin et un site UNESCO.",
+      "Le nom signifie « au nord de la Shen », ancien nom de la Hun."
+    ],
+    "q": {
+      "q": "Quel était le nom mandchou de Shenyang ?",
+      "a": "Moukden",
+      "x": [
+        "Harbin",
+        "Kirin"
+      ]
+    }
+  },
+  "Q170247": {
+    "t": "La ville des sources, entre le mont Tai et le fleuve Jaune",
+    "s": "Jinan est coincée entre de basses collines au sud et le fleuve Jaune au nord. L’eau qui s’infiltre dans les collines calcaires jaillit en plein centre par des dizaines de sources, qui alimentent le lac Daming et valent à Jinan le nom de « ville des sources ». Par temps clair, le mont Tai, premier des cinq monts sacrés de Chine, se dresse à environ 60 km au sud.",
+    "w": "Une ville entre des collines vertes au sud et un large fleuve au nord, avec un lac en son centre.",
+    "f": [
+      "La tradition compte 72 sources célèbres à Jinan ; la plus connue est la source Baotu.",
+      "Jinan signifie « au sud de la Ji » ; depuis 1855, le fleuve Jaune coule dans l’ancien lit de la Ji."
+    ],
+    "q": {
+      "q": "Quand le fleuve Jaune a-t-il pris son cours actuel devant Jinan ?",
+      "a": "En 1855",
+      "x": [
+        "En 1755",
+        "En 1911"
+      ]
+    }
+  },
+  "Q11736": {
+    "t": "La porte de Pékin sur la mer, bordée de marais salants",
+    "s": "Un motif géométrique de marais salants et de bassins portuaires marque la côte où la Hai rejoint la baie de Bohai. Tianjin s’étale sur la plaine plate derrière eux, à environ 120 km au sud-est de Pékin. Le nom signifie « gué céleste » ; il fut donné en 1404 par l’empereur Yongle, qui avait traversé la rivière ici.",
+    "w": "Une grande ville sur une plaine plate, une rivière sinueuse jusqu’à la mer, et une côte de salines et de bassins rectangulaires.",
+    "f": [
+      "Après 1860, plusieurs puissances étrangères obtinrent des concessions à Tianjin, dont les rues de style européen subsistent.",
+      "Les salines de Changlu, le long de cette côte, comptent parmi les plus anciennes et les plus grandes de Chine."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Tianjin » ?",
+      "a": "Gué céleste",
+      "x": [
+        "Porte céleste",
+        "Porte de la mer"
+      ]
+    }
+  },
+  "Q171943": {
+    "t": "La porte d’un lac qui gonfle et rétrécit au fil des saisons",
+    "s": "Nanchang enjambe la Gan juste avant qu’elle ne s’étale dans la plaine marécageuse du lac Poyang, le plus grand lac d’eau douce de Chine. En été, le lac gonfle en mer intérieure ; en hiver, il peut se réduire à un réseau de chenaux et de prairies. Ces zones humides d’hiver accueillent la grande majorité des grues de Sibérie du monde.",
+    "w": "Une ville sur les deux rives d’une large rivière ; au nord-est, l’immense étendue changeante du lac Poyang.",
+    "f": [
+      "Le lac Poyang peut couvrir plusieurs milliers de km² à la saison humide et rétrécir de plusieurs fois à la saison sèche.",
+      "Le pavillon du Prince Teng, sur la Gan, a été construit pour la première fois en 653."
+    ],
+    "q": {
+      "q": "Quel lac, le plus grand lac d’eau douce de Chine, se trouve près de Nanchang ?",
+      "a": "Le lac Poyang",
+      "x": [
+        "Le lac Dongting",
+        "Le lac Tai"
+      ]
+    }
+  },
+  "Q16666": {
+    "t": "La capitale du Sud, entre le Yangzi et des collines vertes",
+    "s": "Là où le Yangzi oblique vers le nord-est pour son dernier tronçon vers la mer, Nankin occupe la rive sud. Le dôme boisé de la montagne Pourpre se dresse sur sa bordure est, et le lac Xuanwu scintille juste à l’intérieur des vieilles murailles. Le premier empereur Ming en fit sa capitale en 1368, et son nom signifie toujours « capitale du Sud ».",
+    "w": "Une grande ville sur la rive sud du large Yangzi, une montagne verte à l’est et un lac dans sa partie nord.",
+    "f": [
+      "La muraille Ming de Nankin, d’environ 35 km, compte parmi les plus longues murailles urbaines jamais bâties ; une bonne partie subsiste.",
+      "Zhu Yuanzhang, fondateur de la dynastie Ming, repose dans un tombeau sur la montagne Pourpre."
+    ],
+    "q": {
+      "q": "Quelle dynastie a bâti la grande muraille de Nankin ?",
+      "a": "Les Ming",
+      "x": [
+        "Les Tang",
+        "Les Song"
+      ]
+    }
+  },
+  "Q4970": {
+    "t": "Un lac de poètes et un fleuve au mascaret fougueux",
+    "s": "Hangzhou s’enroule autour du lac de l’Ouest, nappe d’eau calme tenue sur trois côtés par des collines vertes et chantée par les poètes chinois depuis plus de mille ans. Au sud de la ville, le large Qiantang s’incurve vers la baie de Hangzhou, en forme d’entonnoir. Surtout en automne, un mascaret remonte le fleuve comme un mur d’eau et attire les foules sur les berges.",
+    "w": "Une ville sur la rive est d’un lac entouré de collines sur trois côtés ; un large fleuve qui s’incurve vers une baie en entonnoir.",
+    "f": [
+      "Hangzhou fut la capitale de la dynastie des Song du Sud, et alors l’une des plus grandes villes du monde.",
+      "Le Grand Canal, qui file au nord jusqu’à Pékin, commence ici.",
+      "Le Longjing, ou « puits du Dragon », l’un des thés verts les plus célèbres de Chine, pousse dans les collines à l’ouest du lac."
+    ],
+    "q": {
+      "q": "Quel fleuve de Hangzhou est célèbre pour son mascaret ?",
+      "a": "Le Qiantang",
+      "x": [
+        "Le Huangpu",
+        "La Min"
+      ]
+    }
+  },
+  "Q34664": {
+    "t": "Une ville sur les doigts d’un delta, face à une mer d’îles",
+    "s": "Hiroshima s’étend sur le delta de l’Ōta, dont les bras s’ouvrent vers la mer comme les doigts d’une main et découpent la ville en longues îles. Au-delà s’étend la paisible mer intérieure de Seto, semée d’îles vertes. Le nom signifie « île large », et la ville a été fondée en 1589, quand le seigneur Mōri Terumoto bâtit son château sur le delta.",
+    "w": "Une ville sur un delta de bras parallèles au fond d’une baie, avec des îles boisées semées au large.",
+    "f": [
+      "La préfecture d’Hiroshima produit plus de la moitié des huîtres d’élevage du Japon.",
+      "Le sanctuaire d’Itsukushima, sur l’île de Miyajima à environ 20 km au sud-ouest, est célèbre pour son torii dressé dans la mer."
+    ],
+    "q": {
+      "q": "Sur le delta de quel fleuve Hiroshima est-elle bâtie ?",
+      "a": "L’Ōta",
+      "x": [
+        "La Yodo",
+        "La Shinano"
+      ]
+    }
+  },
+  "Q92161": {
+    "t": "La ville automobile de Chine, sur une plaine de terre noire",
+    "s": "Des mois durant chaque hiver, la fertile terre noire de la plaine du Songliao disparaît sous la neige, et Changchun se trouve en plein milieu, tracée en quadrillage net de larges avenues. En 1953 y fut fondée la première usine automobile de Chine, et la ville reste le berceau de l’industrie automobile du pays. Son nom, ironie pour un lieu si froid, signifie « long printemps ».",
+    "w": "Une ville quadrillée sur une plaine infinie de champs sombres ; un réservoir boisé sur sa bordure sud-est.",
+    "f": [
+      "Les premiers camions construits en République populaire sont sortis des chaînes ici en 1956.",
+      "Jingyuetan, au sud-est, est un réservoir cerné d’une immense forêt plantée."
+    ],
+    "q": {
+      "q": "Pour la fabrication de quoi Changchun est-elle surtout connue ?",
+      "a": "Des automobiles",
+      "x": [
+        "De la soie",
+        "De la porcelaine"
+      ]
+    }
+  },
+  "Q569907": {
+    "t": "La ville du cerf, sur le grand coude nord du fleuve Jaune",
+    "s": "Baotou s’étire le long de la plaine entre les monts Yin, nus, et le fleuve Jaune, près du sommet de la grande boucle que dessine le fleuve en Mongolie-Intérieure. De l’autre côté de l’eau, au sud, commencent les dunes du désert de Kubuqi. La ville est devenue un centre sidérurgique dans les années 1950, et son nom mongol se traduit souvent par « lieu des cerfs », d’où son surnom de « ville du cerf ».",
+    "w": "Une ville industrielle étirée sur une plaine entre des montagnes nues au nord et un large fleuve au sud ; des dunes au-delà.",
+    "f": [
+      "Bayan Obo, à plus de 100 km au nord, est le plus grand gisement connu de terres rares du monde.",
+      "La boucle du fleuve Jaune autour du plateau de l’Ordos est si grande que le fleuve coule vers le nord, puis l’est, puis le sud."
+    ],
+    "q": {
+      "q": "À quel animal fait référence le nom mongol de Baotou ?",
+      "a": "Le cerf",
+      "x": [
+        "Le cheval",
+        "Le loup"
+      ]
+    }
+  },
+  "Q42956": {
+    "t": "Une ville du rail sur un fleuve qui gèle en festival",
+    "s": "Harbin s’étend sur la rive sud de la Songhua, dans les plaines plates du Nord-Est. En hiver, le fleuve gèle en une route blanche, et les blocs taillés dans sa glace deviennent les palais sculptés du célèbre festival de la glace et de la neige. La ville a grandi à partir de 1898 autour d’une voie ferrée construite par la Russie, et ses églises à bulbes rappellent ces années.",
+    "w": "Une grande ville sur la rive sud d’un large fleuve, avec une île-parc en face ; le fleuve blanc et gelé en hiver.",
+    "f": [
+      "La température moyenne de janvier est ici bien inférieure à −15 °C.",
+      "Le festival de la glace et de la neige de Harbin a lieu chaque hiver depuis 1985."
+    ],
+    "q": {
+      "q": "Harbin a grandi autour d’une voie ferrée construite par quel pays ?",
+      "a": "La Russie",
+      "x": [
+        "Le Japon",
+        "La Grande-Bretagne"
+      ]
+    }
+  },
+  "Q37951": {
+    "t": "Une ville quadrillée et enneigée au pied des montagnes",
+    "s": "Sapporo a été tracée à partir de 1869 selon un quadrillage net, et l’on voit toujours ses lignes droites sur la plaine d’Ishikari, avec des montagnes boisées dressées juste derrière, à l’ouest. Peu de grandes villes au monde reçoivent autant de neige : environ cinq mètres tombent un hiver ordinaire. Le nom vient de la langue aïnoue et se lit souvent « grande rivière sèche ».",
+    "w": "Une ville quadrillée sur une plaine au pied de montagnes boisées ; en hiver, tout est blanc.",
+    "f": [
+      "En 1972, Sapporo accueillit les premiers Jeux olympiques d’hiver organisés en Asie.",
+      "Le festival de la neige de Sapporo a commencé en 1950 avec six statues de neige sculptées par des lycéens."
+    ],
+    "q": {
+      "q": "Quand Sapporo a-t-elle accueilli les premiers Jeux d’hiver d’Asie ?",
+      "a": "En 1972",
+      "x": [
+        "En 1964",
+        "En 1998"
+      ]
+    }
+  },
+  "Q1361": {
+    "t": "Une ville de perles et de diamants parmi les blocs de granit",
+    "s": "D’énormes blocs de granit parsèment le plateau rocheux du Deccan comme posés à la main, et Hyderabad a grandi parmi eux. Cherchez un grand lac en plein milieu de la ville : le Hussain Sagar, construit au XVIe siècle, qui sépare Hyderabad de sa jumelle, Secunderabad. Les sultans Qutb Shahi fondèrent la ville en 1591, et Golconde, toute proche, était célèbre pour son commerce de diamants.",
+    "w": "Une immense ville sur un plateau rocheux semé de lacs, un grand lac au centre et une rivière qui traverse le sud.",
+    "f": [
+      "Le diamant Koh-i-Noor proviendrait des mines de la région de Golconde.",
+      "Son commerce des perles, vieux de plusieurs siècles, vaut à Hyderabad le surnom de « ville des perles ».",
+      "Le Charminar, emblème à quatre minarets de la ville, a été bâti en 1591, l’année de la fondation d’Hyderabad."
+    ],
+    "q": {
+      "q": "Quel diamant célèbre viendrait des mines de Golconde ?",
+      "a": "Le Koh-i-Noor",
+      "x": [
+        "Le Cullinan",
+        "L’Excelsior"
+      ]
+    }
+  },
+  "Q1538": {
+    "t": "La ville des Peshwas, à l’abri des Ghats occidentaux",
+    "s": "Là où la Mula et la Mutha se rejoignent, à environ 560 m sur le plateau du Deccan, se trouve Pune. Juste à l’ouest se dressent les Ghats occidentaux, abrupts et verts, avec une chaîne de réservoirs dans leurs vallées. Au XVIIIe siècle, ce fut le siège des Peshwas, ministres en chef qui dirigeaient l’Empire marathe. Elle compte aujourd’hui tant d’universités qu’on l’appelle « l’Oxford de l’Orient ».",
+    "w": "Une grande ville au confluent de deux rivières sur un plateau ; des collines vertes et abruptes et des réservoirs à l’ouest.",
+    "f": [
+      "Shaniwar Wada, palais fortifié des Peshwas, a été achevé en 1732.",
+      "Le fort de colline de Sinhagad se dresse à environ 30 km au sud-ouest, sur une crête des Ghats."
+    ],
+    "q": {
+      "q": "Pune était le siège de quels dirigeants au XVIIIe siècle ?",
+      "a": "Les Peshwas",
+      "x": [
+        "Les Grands Moghols",
+        "Les Nizams"
+      ]
+    }
+  },
+  "Q1513": {
+    "t": "La ville des oranges, au cœur même de l’Inde",
+    "s": "Le centre géographique de l’Inde se trouve tout près, et une borne du « mille zéro » posée par des géomètres britanniques à Nagpur marque toujours l’endroit. D’en haut, c’est une ville étalée sur un plateau doucement ondulé, avec plusieurs lacs à l’ouest. Des vergers d’orangers l’entourent et lui valent le nom de « ville des oranges », et les forêts plus lointaines abritent des tigres.",
+    "w": "Une grande ville sur un plateau plat, quelques lacs sur sa bordure ouest, entourée de cultures et de vergers.",
+    "f": [
+      "Les oranges de Nagpur sont célèbres dans toute l’Inde et bénéficient d’une indication géographique.",
+      "Des réserves de tigres, dont Pench et Tadoba, se trouvent à quelques heures de route."
+    ],
+    "q": {
+      "q": "De quel fruit vient le surnom de Nagpur ?",
+      "a": "L’orange",
+      "x": [
+        "La mangue",
+        "La banane"
+      ]
+    }
+  },
+  "Q66485": {
+    "t": "La ville rose, tracée en damier en 1727",
+    "s": "De vieux forts gardent les cols des crêtes accidentées des Aravalli qui se dressent au nord et à l’est de Jaipur, ville étalée sur une plaine sèche du Rajasthan. Le maharaja Sawai Jai Singh II la fonda en 1727 selon un quadrillage strict, rare pour l’époque. Sa vieille ville est peinte en rose terre cuite, une première fois pour accueillir le prince de Galles en 1876.",
+    "w": "Une grande ville sur une plaine sèche, des crêtes rocheuses coiffées de forts au nord et à l’est, un lac à leur pied.",
+    "f": [
+      "Jai Singh II était aussi astronome ; son observatoire, le Jantar Mantar, est inscrit au patrimoine mondial de l’UNESCO.",
+      "La ville fortifiée de Jaipur a été inscrite au patrimoine mondial de l’UNESCO en 2019."
+    ],
+    "q": {
+      "q": "Pour la visite de qui Jaipur a-t-elle été peinte en rose en 1876 ?",
+      "a": "Le prince de Galles",
+      "x": [
+        "La reine Victoria",
+        "Le vice-roi des Indes"
+      ]
+    }
+  },
+  "Q66568": {
+    "t": "Une vieille ville d’usines sur les rives du Gange",
+    "s": "Kanpur s’étire le long de la rive sud-ouest du Gange, qui passe au nord de la ville en larges bras sableux. Tout autour s’étend la plaine gangétique, plate et fertile, découpée en petits champs. Au XIXe siècle, filatures de coton et tanneries firent de la ville un pôle industriel surnommé « le Manchester de l’Orient ». Le cuir reste l’une de ses grandes activités.",
+    "w": "Une grande ville plate sur la rive sud d’un large fleuve à bancs de sable, entourée d’un patchwork de petits champs.",
+    "f": [
+      "Sous la domination britannique, la ville s’appelait Cawnpore.",
+      "Kanpur est l’un des plus grands centres de tannerie de l’Inde."
+    ],
+    "q": {
+      "q": "Quel fleuve coule le long de Kanpur ?",
+      "a": "Le Gange",
+      "x": [
+        "La Yamuna",
+        "La Gomti"
+      ]
+    }
+  },
+  "Q80484": {
+    "t": "L’antique Pataliputra, étirée le long du large Gange",
+    "s": "Patna est longue et mince : elle court sur des kilomètres le long de la rive sud du Gange, large ici de plusieurs kilomètres en crue et divisé en bras autour de bancs de sable à la saison sèche. Cherchez le long pont qui le franchit vers le nord. Il y a plus de 2 000 ans, sous le nom de Pataliputra, ce fut la capitale de l’Empire maurya, l’une des grandes villes du monde antique.",
+    "w": "Une ville longue et étroite le long de la rive sud d’un fleuve très large et tressé, franchi par un long pont.",
+    "f": [
+      "Vers 300 av. J.-C., l’envoyé grec Mégasthène décrivit les immenses remparts de bois de Pataliputra.",
+      "Le Mahatma Gandhi Setu, ouvert en 1982, fait franchir le Gange à une route sur environ 5,7 km."
+    ],
+    "q": {
+      "q": "Comment s’appelait Patna quand elle était la capitale maurya ?",
+      "a": "Pataliputra",
+      "x": [
+        "Taxila",
+        "Ujjain"
+      ]
+    }
+  },
+  "Q1352": {
+    "t": "L’ancienne Madras, face au golfe du Bengale",
+    "s": "Chennai borde une longue portion rectiligne de la côte de Coromandel, et sa signature est Marina Beach : une bande de sable pâle qui court sur des kilomètres le long du golfe du Bengale. Deux rivières paresseuses, la Cooum et l’Adyar, traversent la ville jusqu’à la mer. La Compagnie anglaise des Indes orientales y bâtit le fort Saint-George en 1644, et la ville de Madras grandit autour.",
+    "w": "Une ville plate le long d’une longue côte sableuse et rectiligne ; des digues portuaires au nord, deux rivières qui rejoignent la mer.",
+    "f": [
+      "Marina Beach est l’une des plus longues plages urbaines du monde.",
+      "Le nom officiel de la ville est passé de Madras à Chennai en 1996.",
+      "Le lac Pulicat, grande lagune à environ 50 km au nord, attire des vols de flamants en hiver."
+    ],
+    "q": {
+      "q": "Quel fort les Anglais ont-ils bâti à Chennai en 1644 ?",
+      "a": "Le fort Saint-George",
+      "x": [
+        "Le fort William",
+        "Le fort Saint-David"
+      ]
+    }
+  },
+  "Q1070": {
+    "t": "La ville des cerfs-volants d’un sultan, sur la Sabarmati",
+    "s": "Ahmedabad s’étale sur les plaines plates du Gujarat, sur les deux rives de la Sabarmati, dont le cours traverse la ville tout droit entre de longs quais de béton. Le sultan Ahmad Shah la fonda en 1411, et en 2017 elle devint la première ville indienne inscrite au patrimoine mondial de l’UNESCO. Chaque janvier, pour la fête d’Uttarayan, son ciel se remplit de milliers de cerfs-volants.",
+    "w": "Une grande ville plate coupée par une rivière rectiligne entre des quais ; une capitale planifiée aux avenues vertes au nord.",
+    "f": [
+      "Gandhi vécut à son ashram de Sabarmati, au bord de la rivière, de 1917 à 1930.",
+      "Gandhinagar, capitale planifiée du Gujarat, se trouve à environ 25 km au nord."
+    ],
+    "q": {
+      "q": "Quelle rivière traverse Ahmedabad ?",
+      "a": "La Sabarmati",
+      "x": [
+        "La Narmada",
+        "La Tapti"
+      ]
+    }
+  },
+  "Q4629": {
+    "t": "Là où l’on taille la plupart des diamants du monde",
+    "s": "Surat se trouve sur un large coude de la Tapti, à quelques kilomètres des vasières de la côte de la mer d’Arabie. À l’époque moghole, c’était le port le plus actif de l’Inde, et les pèlerins en partaient pour La Mecque. Dans les années 1610, la Compagnie anglaise des Indes orientales y établit l’un de ses premiers comptoirs indiens. Aujourd’hui, ses ateliers taillent et polissent la grande majorité des diamants du monde.",
+    "w": "Une ville dense sur un large coude de rivière près d’une côte plate et vaseuse, avec de nouveaux quartiers qui s’étendent vers la mer.",
+    "f": [
+      "Environ neuf diamants sur dix dans le monde sont taillés et polis à Surat.",
+      "Surat est aussi l’un des plus grands centres de textiles synthétiques de l’Inde."
+    ],
+    "q": {
+      "q": "Pour la taille et le polissage de quoi Surat est-elle célèbre ?",
+      "a": "Des diamants",
+      "x": [
+        "Des émeraudes",
+        "Des perles"
+      ]
+    }
+  },
+  "Q1354": {
+    "t": "Une mégapole cernée de rivières, patrie de la mousseline",
+    "s": "Dacca est presque une île : la Buriganga, la Turag, la Balu et la Shitalakshya l’enveloppent, et pendant la mousson les champs au-delà se changent en nappes d’eau. À l’intérieur de cet anneau, la ville est l’une des plus densément peuplées du monde. En 1610, les Moghols en firent la capitale du Bengale, et ses tisserands produisaient une mousseline si fine qu’on la comparait à de l’air tissé.",
+    "w": "Une ville très dense sur un terrain un peu plus élevé, cerclée de rivières ; à la mousson, des champs inondés tout autour.",
+    "f": [
+      "On surnomme souvent Dacca la capitale mondiale du rickshaw, avec des centaines de milliers de cyclo-pousses.",
+      "Sous les Moghols, la ville fut rebaptisée Jahangirnagar, d’après l’empereur Jahangir.",
+      "Elle compte tant de mosquées qu’on la surnomme la « ville des mosquées »."
+    ],
+    "q": {
+      "q": "Pour quel tissu fin Dacca était-elle célèbre à l’époque moghole ?",
+      "a": "La mousseline",
+      "x": [
+        "Le brocart de soie",
+        "Le cachemire"
+      ]
+    }
+  },
+  "Q376749": {
+    "t": "Le grand port du Bangladesh, où les collines touchent la mer",
+    "s": "Là où le delta plat du Bangladesh cède enfin la place à des collines vertes qui ondulent vers la Birmanie, Chattogram se dresse à l’embouchure de la Karnaphuli. C’est le principal port maritime du pays. Au nord de la ville, cherchez le long du rivage une rangée de grands navires volontairement échoués sur les vasières : l’une des plus grandes côtes de démolition navale du monde. Les marchands portugais l’appelaient Porto Grande.",
+    "w": "Une ville portuaire à l’embouchure d’une rivière, des collines vertes à l’est ; une ligne de navires échoués sur la côte au nord.",
+    "f": [
+      "Dans les chantiers de Sitakunda, au nord de la ville, des navires de haute mer sont démontés sur la plage, en grande partie à la main.",
+      "En 2018, l’orthographe anglaise officielle est passée de Chittagong à Chattogram, plus proche du bengali."
+    ],
+    "q": {
+      "q": "Comment les marchands portugais appelaient-ils Chattogram ?",
+      "a": "Porto Grande",
+      "x": [
+        "Porto Pequeno",
+        "Porto Novo"
+      ]
+    }
+  },
+  "Q3183": {
+    "t": "Une capitale isolée sur un fleuve-lac aux cygnes noirs",
+    "s": "Perth est l’une des grandes villes les plus isolées du monde : Adélaïde, la ville de taille comparable la plus proche, est à plus de 2 000 km. La Swan s’élargit ici en vastes bassins bleus qui ressemblent plutôt à des lacs, avec la ville sur leurs rives. À l’est, le terrain monte brusquement le long de la ligne droite de l’escarpement de Darling ; à l’ouest s’étendent des plages blanches et l’île Rottnest.",
+    "w": "Une ville autour de larges bassins fluviaux semblables à des lacs ; un escarpement rectiligne à l’est, plages blanches et île à l’ouest.",
+    "f": [
+      "L’explorateur néerlandais Willem de Vlamingh baptisa la Swan en 1697, d’après ses cygnes noirs.",
+      "L’île Rottnest, au large, abrite le quokka, petit marsupial à la mine souriante.",
+      "La colonie de la Swan River, devenue Perth, a été fondée en 1829."
+    ],
+    "q": {
+      "q": "Qui a baptisé la Swan d’après ses cygnes noirs en 1697 ?",
+      "a": "Willem de Vlamingh",
+      "x": [
+        "Abel Tasman",
+        "Dirk Hartog"
+      ]
+    }
+  },
+  "Q37995": {
+    "t": "Une ville à la pagode d’or entre les fleuves du delta",
+    "s": "Sur une langue de terre où se rejoignent le Yangon et le Bago, à quelque 30 km de la mer d’Andaman, se trouve Rangoun. À l’ouest s’étend l’immense delta vert de l’Irrawaddy, lacé de chenaux. Deux grands lacs, Inya et Kandawgyi, scintillent dans les quartiers nord. Près du second, sur une basse colline, se dresse la pagode dorée Shwedagon, le site bouddhique le plus sacré de Birmanie.",
+    "w": "Une ville sur une pointe entre deux fleuves qui convergent, avec des lacs dans sa moitié nord ; un delta vert qui s’étend à l’ouest.",
+    "f": [
+      "Le roi Alaungpaya baptisa la ville Yangon, « fin des conflits », en 1755.",
+      "Sous la domination britannique, la ville s’appelait Rangoon.",
+      "Le stupa de la Shwedagon mesure environ 100 m de haut et est couvert de plaques d’or."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Yangon » ?",
+      "a": "Fin des conflits",
+      "x": [
+        "Ville d’or",
+        "Embouchure du fleuve"
+      ]
+    }
+  },
+  "Q572089": {
+    "t": "Pics karstiques, rivière rouge barrée et longévité",
+    "s": "Hechi s’étend sur un coin accidenté du nord-ouest du Guangxi, où des pics calcaires boisés se serrent si fort que villes et champs se glissent dans les vallées étroites entre eux. Le Hongshui, la « rivière Rouge », serpente ici dans des gorges profondes et franchit par paliers de grands barrages. C’est une terre de plusieurs minorités, dont les Zhuang, les Yao, les Mulao et les Maonan.",
+    "w": "Une mer de pics calcaires boisés et abrupts, avec de petites villes et des champs nichés dans les vallées ; une rivière barrée dans des gorges.",
+    "f": [
+      "Le district de Bama, à Hechi, est célèbre pour son nombre exceptionnel d’habitants qui dépassent 100 ans.",
+      "Hechi abrite les seuls districts autonomes de Chine des peuples mulao et maonan.",
+      "Le barrage de Longtan, sur le Hongshui, à Hechi, alimente l’une des plus grandes centrales hydroélectriques de Chine."
+    ],
+    "q": {
+      "q": "Le district de Bama, à Hechi, est célèbre pour ses nombreux…",
+      "a": "Centenaires",
+      "x": [
+        "Jumeaux",
+        "Salons de thé"
+      ]
+    }
+  },
+  "Q68814": {
+    "t": "Vergers, delta et forteresses rondes en terre",
+    "s": "Une courtepointe verte de vergers et de champs, réputés pour leurs litchis, leurs pomelos et leurs bulbes de narcisse, couvre la plaine fertile autour de Zhangzhou. Ici, la Jiulong, la « rivière des Neuf Dragons », s’élargit vers l’est en un estuaire avec Xiamen à son embouchure. En 1567, les Ming levèrent leur interdiction du commerce maritime à Yuegang, port sur cette rivière, et les marchandises de Zhangzhou partirent vers Manille et au-delà.",
+    "w": "Une ville sur une plaine deltaïque verte ; la rivière s’élargit à l’est en estuaire vers Xiamen, des collines à l’ouest.",
+    "f": [
+      "Dans les collines à l’ouest de la ville se dressent les tulou du Fujian, immenses maisons rondes en terre classées par l’UNESCO.",
+      "Les bulbes de narcisse de Zhangzhou sont expédiés dans toute la Chine pour le Nouvel An lunaire."
+    ],
+    "q": {
+      "q": "Comment s’appellent les immenses maisons rondes en terre des collines de Zhangzhou ?",
+      "a": "Les tulou",
+      "x": [
+        "Les siheyuan",
+        "Les yaodong"
+      ]
+    }
+  },
+  "Q205697": {
+    "t": "La jumelle de Calcutta, de l’autre côté de l’Hooghly",
+    "s": "Haora, ou Howrah, fait face à Calcutta de l’autre côté de l’Hooghly, et d’en haut les deux se lisent comme une seule ville coupée par un ruban d’eau brune. Des ponts les cousent, et les vastes faisceaux ferroviaires de ce côté signalent la gare de Howrah, ouverte en 1854 et toujours l’une des plus fréquentées de l’Inde. En aval, le jardin botanique de Shibpur abrite le Grand Banian, un seul arbre devenu petite forêt.",
+    "w": "La moitié rive ouest d’une ville coupée par un fleuve brun, avec des ponts et de vastes faisceaux ferroviaires de ce côté.",
+    "f": [
+      "Les racines aériennes du Grand Banian sont devenues des milliers de troncs, et sa ramure couvre bien plus d’un hectare.",
+      "Le pont de Howrah, ouvert en 1943, a été construit sans écrous ni boulons : il tient par des rivets."
+    ],
+    "q": {
+      "q": "Quel arbre célèbre pousse dans le jardin botanique de Howrah ?",
+      "a": "Le Grand Banian",
+      "x": [
+        "Un séquoia géant",
+        "Un baobab"
+      ]
+    }
+  },
+  "Q38283": {
+    "t": "Un village de pêcheurs devenu le grand port du Japon",
+    "s": "Yokohama borde la rive ouest de la baie de Tokyo, et d’en haut elle se fond dans Tokyo sans frontière visible. Son front de mer est un puzzle de jetées, de terminaux à conteneurs et de terres gagnées sur l’eau, franchi par le long Bay Bridge. En 1859, c’était un petit village de pêcheurs choisi comme port de commerce avec l’étranger ; en quelques décennies, il devint la porte du Japon sur le monde.",
+    "w": "Une ville portuaire sur la rive ouest d’une grande baie, qui se fond dans Tokyo ; jetées, remblais et un pont sur le port.",
+    "f": [
+      "Le premier chemin de fer du Japon, ouvert en 1872, reliait Shimbashi, à Tokyo, à Yokohama.",
+      "Yokohama est la deuxième ville la plus peuplée du Japon, après Tokyo.",
+      "Son quartier chinois est le plus grand du Japon."
+    ],
+    "q": {
+      "q": "En quelle année Yokohama a-t-elle été ouverte au commerce étranger ?",
+      "a": "En 1859",
+      "x": [
+        "En 1603",
+        "En 1905"
+      ]
+    }
+  },
+  "Q244898": {
+    "t": "Une ville en anneau enroulée autour de Taipei",
+    "s": "New Taipei a la forme d’un anneau : elle entoure complètement Taipei, remplit le reste du bassin et déborde par-dessus les montagnes vertes jusqu’à la côte nord de Taïwan. Cherchez l’embouchure de la Tamsui, où un vieux port fait face au couchant, et les caps rocheux de l’extrême nord. Avec près de quatre millions d’habitants, c’est la ville la plus peuplée de Taïwan.",
+    "w": "Une bande de ville et de collines vertes qui encercle Taipei et rejoint la mer à une embouchure et à des caps rocheux au nord.",
+    "f": [
+      "Les Espagnols ont bâti le premier fort San Domingo à Tamsui en 1628.",
+      "Fuguijiao, point le plus au nord de l’île principale de Taïwan, se trouve dans la ville.",
+      "Yehliu, sur sa côte nord, est célèbre pour ses rochers en forme de champignon sculptés par la mer."
+    ],
+    "q": {
+      "q": "Qui a bâti le premier fort San Domingo à Tamsui en 1628 ?",
+      "a": "Les Espagnols",
+      "x": [
+        "Les Portugais",
+        "Les Français"
+      ]
+    }
+  },
+  "Q16520": {
+    "t": "Une ville portuaire coincée entre collines abruptes et mer",
+    "s": "Busan est coincée dans les interstices entre des crêtes vertes et abruptes et une côte déchiquetée de baies, à la pointe sud-est de la Corée. À l’ouest, le Nakdong se termine en un delta de bancs de sable et de roselières qui abrite les oiseaux migrateurs. De longs ponts enjambent les baies. Par temps clair, l’île japonaise de Tsushima est visible à environ 50 km au large.",
+    "w": "Une longue ville qui se faufile entre des crêtes abruptes le long d’une côte découpée ; un delta à bancs de sable à l’ouest.",
+    "f": [
+      "Busan est le premier port de Corée du Sud et l’un des ports à conteneurs les plus actifs du monde.",
+      "À l’époque Joseon, Busan abritait un comptoir japonais fortifié, le Waegwan."
+    ],
+    "q": {
+      "q": "Quelle île japonaise voit-on depuis Busan par temps clair ?",
+      "a": "Tsushima",
+      "x": [
+        "Okinawa",
+        "Sado"
+      ]
+    }
+  },
+  "Q74881": {
+    "t": "Un port à la pointe d’une péninsule, entre deux mers",
+    "s": "Dalian occupe la pointe sud vallonnée de la péninsule du Liaodong, là où la mer de Bohai rencontre la mer Jaune. Sa côte est découpée en baies, caps et ports. La Russie fonda la ville moderne en 1898 sous le nom de Dalny, « lointain », et la traça avec des places rondes d’où les rues partent comme des rayons.",
+    "w": "Une pointe de péninsule vallonnée à la côte déchiquetée de baies et de ports ; la mer ouverte des deux côtés.",
+    "f": [
+      "Le port de Dalian reste en grande partie libre de glace en hiver, chose rare dans le nord de la Chine.",
+      "Lüshun, jadis appelée Port-Arthur, se trouve tout au bout de la péninsule."
+    ],
+    "q": {
+      "q": "Sous quel nom la Russie a-t-elle fondé Dalian en 1898 ?",
+      "a": "Dalny",
+      "x": [
+        "Port-Arthur",
+        "Nikolaïevsk"
+      ]
+    }
+  },
+  "Q11751": {
+    "t": "Ville de château sur une plaine de trois fleuves parallèles",
+    "s": "Juste à l’ouest de Nagoya, trois grands fleuves, le Kiso, le Nagara et l’Ibi, courent côte à côte vers la mer comme des coups de pinceau parallèles. La ville elle-même s’étend sur la plaine plate de Nōbi, au fond de la baie d’Ise, et au large, au sud, l’aéroport occupe sa propre île artificielle. Tokugawa Ieyasu fit bâtir le château de Nagoya dans les années 1610, et la ville grandit autour.",
+    "w": "Une grande ville sur une plaine plate au fond d’une baie ; trois fleuves parallèles à l’ouest, une île-aéroport au sud.",
+    "f": [
+      "Le sanctuaire d’Atsuta, à Nagoya, abriterait l’épée Kusanagi, l’un des trois trésors sacrés impériaux du Japon.",
+      "La ville de Toyota se trouve juste à l’est de Nagoya : la région est le cœur de l’industrie automobile japonaise."
+    ],
+    "q": {
+      "q": "Quelle épée légendaire serait conservée au sanctuaire d’Atsuta ?",
+      "a": "Kusanagi",
+      "x": [
+        "Masamune",
+        "Muramasa"
+      ]
+    }
+  },
+  "Q28729": {
+    "t": "Là où Vasco de Gama atteignit l’Inde, sous les cocotiers",
+    "s": "Une épaisse couverture verte de cocotiers cache à demi Kozhikode, sur la côte de Malabar, entre la mer d’Arabie et les Ghats occidentaux qui s’élèvent. Sous le nom de Calicut, ce fut l’active capitale des rois Zamorin et une plaque tournante du commerce du poivre. En 1498, Vasco de Gama débarqua tout près, achevant le premier voyage maritime de l’Europe à l’Inde.",
+    "w": "Une ville sous une dense canopée de palmiers le long d’une côte rectiligne, avec des montagnes à l’est.",
+    "f": [
+      "Le calicot, toile de coton unie, tire son nom de Calicut.",
+      "Les flottes chinoises de Zheng He firent escale à Calicut au début du XVe siècle."
+    ],
+    "q": {
+      "q": "Quel tissu tire son nom de Calicut ?",
+      "a": "Le calicot",
+      "x": [
+        "La mousseline",
+        "Le chintz"
+      ]
+    }
+  },
+  "Q171771": {
+    "t": "La ville des temples, au bord du delta de la Mahanadi",
+    "s": "Des centaines de temples de pierre se dressaient jadis à Bhubaneswar, qu’on appelle toujours la « ville des temples ». Elle occupe une terre rouge légèrement surélevée au bord sud-ouest du delta de la Mahanadi, où des rizières vertes s’étendent vers le golfe du Bengale. La ville moderne a été planifiée à partir de 1948 comme nouvelle capitale de l’Odisha, juste à côté de l’ancienne.",
+    "w": "Une ville sur de basses hauteurs rougeâtres, avec le delta vert, sillonné de rivières, qui s’étend à l’est et au nord vers la côte.",
+    "f": [
+      "Le temple de Lingaraja, le plus grand de la ville, date pour l’essentiel du XIe siècle.",
+      "Les grottes creusées dans la roche d’Udayagiri et de Khandagiri, à l’ouest, ont été taillées pour des moines jaïns il y a plus de 2 000 ans.",
+      "Chilika, plus grande lagune côtière de l’Inde, se trouve à environ 100 km au sud-ouest."
+    ],
+    "q": {
+      "q": "Quel est le surnom de Bhubaneswar ?",
+      "a": "La ville des temples",
+      "x": [
+        "La ville rose",
+        "La ville-jardin"
+      ]
+    }
+  },
+  "Q200054": {
+    "t": "La ville de l’acier de l’Inde, planifiée autour d’une usine",
+    "s": "Jamshedpur a grandi autour d’une aciérie fondée en 1907 sur le plateau du Chota Nagpur, où minerai de fer, charbon et eau se trouvaient à proximité. D’en haut, cherchez le bloc sombre de l’aciérie près du confluent de la Subarnarekha et de la Kharkai, entouré de quartiers verts planifiés. Les collines boisées de Dalma, au nord, abritent des éléphants sauvages.",
+    "w": "Une ville planifiée au confluent de deux rivières, un grand bloc industriel sombre au centre, des collines boisées au nord.",
+    "f": [
+      "La ville porte le nom de Jamsetji Tata, qui imagina l’aciérie mais mourut avant sa construction.",
+      "Ce fut l’une des premières villes industrielles planifiées de l’Inde."
+    ],
+    "q": {
+      "q": "D’après quel industriel Jamshedpur a-t-elle été nommée ?",
+      "a": "Jamsetji Tata",
+      "x": [
+        "G. D. Birla",
+        "Walchand Hirachand"
+      ]
+    }
+  },
+  "Q5753": {
+    "t": "La capitale aux coupoles bleues de Tamerlan, en pleine oasis",
+    "s": "Samarcande est une oasis verte dans la vallée du Zeravchan, dont le nom signifie « qui répand l’or », avec des crêtes brunes au sud. Au nord de la ville s’étend Afrasiab, butte nue et vide qui fut la ville pendant ses deux mille premières années. Tamerlan fit de Samarcande sa capitale en 1370 et la couvrit de coupoles turquoise.",
+    "w": "Une oasis verte dans une large vallée fluviale, des crêtes brunes au sud, une butte de terre nue sur la bordure nord.",
+    "f": [
+      "Le petit-fils de Tamerlan, Ulugh Beg, y bâtit un grand observatoire dans les années 1420.",
+      "Âgée d’environ 2 700 ans, Samarcande est l’une des plus anciennes villes d’Asie centrale.",
+      "À partir du VIIIe siècle, le papier de Samarcande fut prisé dans tout le monde islamique."
+    ],
+    "q": {
+      "q": "Quel souverain fit de Samarcande sa capitale en 1370 ?",
+      "a": "Tamerlan",
+      "x": [
+        "Gengis Khan",
+        "Babur"
+      ]
+    }
+  },
+  "Q9310": {
+    "t": "Une petite capitale entre montagnes abruptes et île récifale",
+    "s": "Des montagnes abruptes se dressent tout près derrière Dili, ville basse et compacte sur une étroite bande de terre plate le long de la côte nord de Timor. De l’autre côté du détroit, à environ 25 km au nord, se trouve l’île d’Atauro, frangée de récifs coralliens. Les Portugais y transférèrent leur capitale coloniale en 1769, et le portugais reste l’une des langues officielles du pays.",
+    "w": "Une petite ville sur une mince plaine côtière, des montagnes abruptes derrière, une longue île de l’autre côté de l’eau au nord.",
+    "f": [
+      "Les inventaires autour d’Atauro ont relevé l’une des plus fortes diversités de poissons de récif au monde.",
+      "Timor se trouve en Wallacea, zone de transition entre la faune asiatique et la faune australienne."
+    ],
+    "q": {
+      "q": "Quand les Portugais ont-ils transféré leur capitale de Timor à Dili ?",
+      "a": "En 1769",
+      "x": [
+        "En 1669",
+        "En 1869"
+      ]
+    }
+  },
+  "Q37806": {
+    "t": "Une petite capitale portuaire parmi récifs et lagons",
+    "s": "Port-Vila s’enroule autour d’un port abrité de la côte sud-ouest d’Efate, l’une des quelque 80 îles du Vanuatu. D’en haut, cherchez le turquoise des récifs et des lagons contre des collines vert sombre, et les îlots de la baie. Jusqu’en 1980, ces îles étaient les Nouvelles-Hébrides, gouvernées ensemble par la Grande-Bretagne et la France : un arrangement singulier appelé condominium.",
+    "w": "Une petite ville autour d’une baie abritée, récifs et lagons turquoise le long du rivage, collines vertes derrière.",
+    "f": [
+      "La langue nationale du Vanuatu, le bichelamar, est un créole en grande partie fondé sur l’anglais.",
+      "Le saut du gol, sur l’île de Pentecôte au nord, est souvent présenté comme l’ancêtre du saut à l’élastique."
+    ],
+    "q": {
+      "q": "Comment s’appelaient les îles du Vanuatu avant 1980 ?",
+      "a": "Les Nouvelles-Hébrides",
+      "x": [
+        "La Nouvelle-Calédonie",
+        "Les îles des Amis"
+      ]
+    }
+  },
+  "Q9365": {
+    "t": "Une ville nommée d’après un marché du lundi, sous les neiges",
+    "s": "Douchanbé remplit une large vallée verte là où la Varzob dévale de la chaîne du Hissar, dont les crêtes enneigées se dressent juste au nord de la ville. Il y a un siècle, c’était un village connu pour son bazar hebdomadaire, qui se tenait le lundi, et « douchanbé » veut tout simplement dire lundi en tadjik. À l’est, la Vakhch est retenue par certains des plus hauts barrages du monde.",
+    "w": "Une ville verte dans une large vallée au pied de montagnes enneigées au nord, traversée par une rivière descendue des hauteurs.",
+    "f": [
+      "Le barrage de Nourek, sur la Vakhch, à environ 75 km à l’est, mesure quelque 300 m de haut.",
+      "De 1929 à 1961, la ville s’est appelée Stalinabad."
+    ],
+    "q": {
+      "q": "Que signifie « Douchanbé » en tadjik ?",
+      "a": "Lundi",
+      "x": [
+        "Marché",
+        "Carrefour"
+      ]
+    }
+  },
+  "Q1362": {
+    "t": "Une capitale en grille au pied des collines de Margalla",
+    "s": "Islamabad est l’une des capitales les plus récentes du monde, tracée à partir des années 1960 selon une grille nette de secteurs, chacun avec sa ceinture verte. D’en haut, elle paraît bien rangée et verdoyante, plaquée contre les collines boisées de Margalla, premiers contreforts de l’Himalaya. Juste au sud, sa jumelle plus ancienne, Rawalpindi, forme une agglomération bien plus dense et animée.",
+    "w": "Une grille nette de secteurs verts au pied de collines boisées, un lac à l’est et une ville plus dense au sud.",
+    "f": [
+      "L’urbaniste grec Constantinos Doxiadis a dessiné le plan directeur d’Islamabad.",
+      "Ses secteurs sont désignés par une lettre et un chiffre, comme les cases d’un échiquier.",
+      "Le lac Rawal, à l’est, est un réservoir qui alimente en eau les deux villes."
+    ],
+    "q": {
+      "q": "Qui a dessiné le plan directeur d’Islamabad ?",
+      "a": "Constantinos Doxiadis",
+      "x": [
+        "Le Corbusier",
+        "Edwin Lutyens"
+      ]
+    }
+  },
+  "Q185453": {
+    "t": "Une antique ville des saints sur la plaine du Pendjab",
+    "s": "Un vieux distique persan énumère les quatre dons de Multan : la poussière, la chaleur, les mendiants et les cimetières. La ville s’étend sur la plaine plate et irriguée du sud du Pendjab, avec le Chenab, en tresses, à quelques kilomètres à l’ouest. C’est l’une des plus anciennes villes habitées sans interruption d’Asie du Sud, et ses nombreux sanctuaires soufis lui valent le nom de « ville des saints ».",
+    "w": "Une grande ville sur une plaine plate de champs et de canaux, une large rivière en tresses à l’ouest, des vergers autour.",
+    "f": [
+      "Le mausolée du saint soufi Shah Rukn-e-Alam, bâti au XIVe siècle, est un repère octogonal en brique.",
+      "Multan est célèbre dans tout le Pakistan pour ses mangues.",
+      "Carreaux et poteries à glaçure bleue sont un artisanat local vieux de plusieurs siècles."
+    ],
+    "q": {
+      "q": "Multan est traditionnellement appelée la ville des…",
+      "a": "Saints",
+      "x": [
+        "Jardins",
+        "Lumières"
+      ]
+    }
+  },
+  "Q1640079": {
+    "t": "Une ville de capteurs de vent au bord de l’Indus",
+    "s": "Des capteurs de vent hérissaient jadis les toits des vieilles maisons de Hyderabad, canalisant la brise à l’intérieur. La ville se trouve sur une basse crête calcaire de la rive est de l’Indus, à environ 150 km en amont de Karachi. Le fleuve est ici large et tressé, et un barrage près de la ville répartit son eau dans des canaux qui font verdir le désert. Le souverain kalhora Ghulam Shah fonda Hyderabad en 1768.",
+    "w": "Une ville sur une basse crête au bord d’un large fleuve tressé, barré d’un ouvrage, avec des champs verts irrigués autour.",
+    "f": [
+      "Hyderabad est surnommée la ville des bracelets pour ses nombreux ateliers de bracelets de verre.",
+      "Le barrage de Kotri, près de la ville, dérive l’eau de l’Indus vers des canaux d’irrigation."
+    ],
+    "q": {
+      "q": "Que portaient sur leurs toits les vieilles maisons de Hyderabad, au Sind ?",
+      "a": "Des capteurs de vent",
+      "x": [
+        "Des roues à eau",
+        "Des clochers"
+      ]
+    }
+  },
+  "Q1113311": {
+    "t": "Une ville-frontière au pied de la passe de Khyber",
+    "s": "Juste à l’est de l’endroit où la passe de Khyber monte vers l’Afghanistan, Peshawar occupe un bassin vert et fertile cerné de montagnes brunes et nues. La rivière Kaboul décrit des boucles à travers la vallée, au nord. Sous le nom de Purushapura, ce fut la capitale du roi kouchan Kanishka il y a près de deux mille ans, et pendant des siècles les caravanes s’y reposaient avant ou après la passe.",
+    "w": "Une ville dense sur une plaine verte encerclée de montagnes nues, avec une brèche qui mène vers l’ouest dans les collines.",
+    "f": [
+      "Kanishka y éleva un immense stupa bouddhique, décrit par des pèlerins chinois comme l’une des plus hautes constructions de son temps.",
+      "Le nom du vieux bazar Qissa Khwani signifie « marché des conteurs »."
+    ],
+    "q": {
+      "q": "Comment s’appelait Peshawar quand elle était la capitale kouchane ?",
+      "a": "Purushapura",
+      "x": [
+        "Pataliputra",
+        "Taxila"
+      ]
+    }
+  },
+  "Q3037": {
+    "t": "Une vallée qui fut un lac, au pied de l’Himalaya",
+    "s": "Katmandou remplit une vallée presque ronde à environ 1 400 m, cernée de collines vertes en terrasses. Les géologues confirment ce que dit la légende : le fond de la vallée était jadis un lac, et ses sédiments asséchés ont rendu la terre si fertile. Par temps clair, un mur de sommets himalayens enneigés brille le long de l’horizon nord.",
+    "w": "Une vallée ronde et densément bâtie, cernée de collines en terrasses ; par temps clair, un mur de sommets enneigés au nord.",
+    "f": [
+      "La vallée compte sept ensembles de monuments inscrits au patrimoine mondial de l’UNESCO.",
+      "Le nom de la ville viendrait du Kasthamandap, pavillon de bois qui aurait été construit avec un seul arbre.",
+      "L’Everest, à environ 160 km à l’est, n’est qu’à quelque 2 km sous votre altitude de croisière."
+    ],
+    "q": {
+      "q": "Légende et géologie s’accordent : la vallée de Katmandou était jadis…",
+      "a": "Un lac",
+      "x": [
+        "Un désert",
+        "Un glacier"
+      ]
+    }
+  },
+  "Q36526": {
+    "t": "Une capitale tropicale sur une côte étonnamment sèche",
+    "s": "Port Moresby s’enroule autour d’un port de la côte sud de la Nouvelle-Guinée, et elle paraît étonnamment sèche pour les tropiques : ses collines brunissent et se couvrent d’herbe à la saison sèche, car elles sont dans une ombre pluviométrique. Des récifs coralliens frangent la côte. À l’intérieur, la chaîne boisée d’Owen Stanley monte à des sommets d’environ 4 000 m. Le capitaine John Moresby baptisa le port en 1873 d’après son père.",
+    "w": "Une ville étalée autour d’un port et de baies, collines brunes et herbeuses derrière, récifs au large et hautes montagnes à l’intérieur.",
+    "f": [
+      "Hanuabada, village de maisons sur pilotis au-dessus du port, est le berceau traditionnel du peuple motu.",
+      "Les commerçants motu naviguaient jadis le long de la côte sur de grandes pirogues lakatoi, lors de voyages commerciaux appelés hiri."
+    ],
+    "q": {
+      "q": "En 1873, le capitaine John Moresby a baptisé le port d’après…",
+      "a": "Son père",
+      "x": [
+        "Son navire",
+        "La reine Victoria"
+      ]
+    }
+  },
+  "Q40921": {
+    "t": "Une bande de ville sous les montagnes vertes de Guadalcanal",
+    "s": "Honiara est une mince bande de ville le long de la côte nord de Guadalcanal, coincée entre la mer et des contreforts herbeux qui montent vers des montagnes couvertes de jungle. Les plus hauts sommets de l’île, au-delà de 2 300 m, sont les plus élevés des Salomon. Le navigateur espagnol Álvaro de Mendaña atteignit ces îles en 1568 et les nomma d’après le roi Salomon, espérant y trouver de l’or.",
+    "w": "Une ville étroite le long d’une côte, collines vertes et hautes montagnes derrière, des îles de l’autre côté de l’eau au nord.",
+    "f": [
+      "On dit souvent que le nom Honiara vient d’une expression locale signifiant « face au vent du sud-est ».",
+      "Guadalcanal tient son nom d’une ville d’Andalousie, en Espagne, patrie de l’un des officiers de Mendaña."
+    ],
+    "q": {
+      "q": "Qui a baptisé les îles Salomon en 1568 ?",
+      "a": "Álvaro de Mendaña",
+      "x": [
+        "Abel Tasman",
+        "James Cook"
+      ]
+    }
+  },
+  "Q976": {
+    "t": "La vieille ville universitaire de Sibérie, dentelle de bois",
+    "s": "Une taïga sombre s’étend jusqu’à tous les horizons autour de Tomsk, sur la haute rive droite de la Tom. Des Cosaques y fondèrent un fort en 1604, sur ordre du tsar Boris Godounov. En 1888, la ville ouvrit la première université de Sibérie, et c’est toujours une ville d’étudiants. Beaucoup de vieilles maisons en bois sont ornées de sculptures aussi délicates que de la dentelle.",
+    "w": "Une ville sur la haute rive est d’une rivière sinueuse, entourée d’une sombre forêt de conifères ; blanche en hiver.",
+    "f": [
+      "L’université d’État de Tomsk, ouverte en 1888, fut la première université de la Russie d’Asie.",
+      "La ville conserve des centaines de maisons de bois anciennes aux encadrements de fenêtres sculptés."
+    ],
+    "q": {
+      "q": "Quand Tomsk a-t-elle ouvert la première université de Sibérie ?",
+      "a": "En 1888",
+      "x": [
+        "En 1755",
+        "En 1918"
+      ]
+    }
+  },
+  "Q7978": {
+    "t": "La ville la plus orientale de Russie, sur un estuaire",
+    "s": "Là où l’Anadyr s’ouvre en un large estuaire sur la mer de Béring, la ville d’Anadyr occupe une pointe de terre, entourée d’une toundra sans arbres sur un pergélisol qui reste blanc une grande partie de l’année. C’est la ville la plus orientale de Russie, à deux degrés et demi seulement à l’ouest du 180e méridien, et environ 10 000 personnes y vivent.",
+    "w": "Un petit groupe de maisons sur une pointe de terre, dans un large estuaire, entouré d’une toundra plate et sans arbres.",
+    "f": [
+      "La ville a été fondée en 1889 sous le nom de Novo-Mariinsk.",
+      "L’estuaire est gelé une grande partie de l’année, de l’automne jusqu’au début de l’été."
+    ],
+    "q": {
+      "q": "Comment s’appelait Anadyr à sa fondation en 1889 ?",
+      "a": "Novo-Mariinsk",
+      "x": [
+        "Novo-Arkhangelsk",
+        "Nikolaïevsk"
+      ]
+    }
+  },
+  "Q887": {
+    "t": "Une ville de forges dans l’Oural, au bord de l’Asie",
+    "s": "Iekaterinbourg s’étale sur les basses collines boisées de l’Oural moyen, juste à l’est de la ligne de partage des eaux considérée traditionnellement comme la frontière entre l’Europe et l’Asie. Elle est née en 1723 autour d’une forge, et la digue construite pour l’alimenter retient toujours l’étang de la ville, au centre. La ville porte le nom de Catherine Ire, épouse de Pierre le Grand.",
+    "w": "Une grande ville parmi de basses collines boisées, un étang de barrage sur la rivière en son centre et de nombreux lacs autour.",
+    "f": [
+      "Des monuments marquant la frontière Europe-Asie se dressent sur la crête, à moins de 20 km à l’ouest de la ville.",
+      "De 1924 à 1991, la ville s’est appelée Sverdlovsk."
+    ],
+    "q": {
+      "q": "D’après quelle impératrice Iekaterinbourg a-t-elle été nommée ?",
+      "a": "Catherine Ire",
+      "x": [
+        "Catherine II",
+        "Élisabeth"
+      ]
+    }
+  },
+  "Q183002": {
+    "t": "Une ville pétrolière parmi marais et lacs, sur le grand Ob",
+    "s": "Sourgout se dresse sur la rive droite de l’Ob, au milieu de la plaine de Sibérie occidentale, l’un des lieux les plus plats et les plus marécageux du monde, criblé d’innombrables lacs. Autour se trouvent certains des plus grands gisements pétroliers de Russie ; cherchez des routes rectilignes reliant des plates-formes de forage carrées à travers les marais. La nuit, des torchères isolées rougeoient dans l’obscurité.",
+    "w": "Une ville sur un large fleuve au milieu de marais et de lacs sans fin, traversés de routes droites ; des torchères rougeoient la nuit.",
+    "f": [
+      "Fondée en 1594, Sourgout est l’une des plus anciennes villes russes de Sibérie.",
+      "Son pont sur l’Ob, ouvert en 2000, est suspendu à un unique grand pylône."
+    ],
+    "q": {
+      "q": "En quelle année Sourgout a-t-elle été fondée ?",
+      "a": "En 1594",
+      "x": [
+        "En 1794",
+        "En 1961"
+      ]
+    }
+  },
+  "Q6014": {
+    "t": "Ville de l’argent, où des rubans de pins barrent la steppe",
+    "s": "Barnaoul se dresse sur la haute rive gauche de l’Ob, là où champs et steppe commencent à remplacer la taïga. Cherchez un motif étrange au sud-ouest de la ville : de longues et étroites bandes de forêt de pins sombres qui traversent tout droit les cultures, comme des rubans posés sur une table. La ville est née de fonderies du XVIIIe siècle et produisit pendant des décennies l’essentiel de l’argent russe.",
+    "w": "Une ville sur la haute rive d’un large fleuve ; de longues bandes droites et sombres de forêt de pins qui traversent les champs en diagonale.",
+    "f": [
+      "Ces forêts en rubans suivent d’anciens chenaux creusés par les eaux de fonte ; certaines s’étirent sur des centaines de kilomètres.",
+      "La première fonderie a été installée ici dans les années 1730 par l’industriel Akinfi Demidov."
+    ],
+    "q": {
+      "q": "Sur quel fleuve se trouve Barnaoul ?",
+      "a": "L’Ob",
+      "x": [
+        "L’Irtych",
+        "L’Ienisseï"
+      ]
+    }
+  },
+  "Q883": {
+    "t": "La plus grande ville de Sibérie, née d’un pont sur l’Ob",
+    "s": "Novossibirsk enjambe l’Ob, et sa raison d’être est un pont : en 1893, le Transsibérien franchit le fleuve ici, et une bourgade surgit à côté du chantier. En à peine un siècle, elle devint la plus grande ville de Sibérie. Au sud de la ville, un barrage a transformé l’Ob en un réservoir d’environ 200 km que les habitants appellent la « mer de l’Ob ».",
+    "w": "Une grande ville sur les deux rives d’un large fleuve franchi par plusieurs ponts ; un vaste et long réservoir s’étire au sud.",
+    "f": [
+      "La ville s’est appelée Novonikolaïevsk jusqu’en 1926.",
+      "Akademgorodok, ville scientifique fondée dans les années 1950, se trouve dans la forêt de pins au bord de la mer de l’Ob."
+    ],
+    "q": {
+      "q": "Comment s’appelait Novossibirsk à sa fondation ?",
+      "a": "Novonikolaïevsk",
+      "x": [
+        "Nikolsk",
+        "Novoarkhangelsk"
+      ]
+    }
+  },
+  "Q35381": {
+    "t": "Une ville portuaire et sa terre neuve gagnée sur la mer",
+    "s": "Colombo borde la côte ouest et plate du Sri Lanka, son port abrité derrière de longues digues. Juste à côté, cherchez un grand bloc géométrique de terre nouvelle avancé dans l’océan Indien : tout un quartier bâti sur du sable remblayé. Marchands portugais, néerlandais et britanniques tinrent tour à tour le port. À l’intérieur, des collines vertes montent vers les montagnes du cœur de l’île.",
+    "w": "Une ville côtière plate, un port derrière des digues et un bloc géométrique de terre remblayée qui s’avance dans la mer.",
+    "f": [
+      "La capitale officielle du Sri Lanka, Sri Jayawardenepura Kotte, jouxte Colombo à l’est.",
+      "Le port de Colombo est artificiel : les travaux de sa première grande digue ont commencé en 1875."
+    ],
+    "q": {
+      "q": "Quelle ville, voisine de Colombo, est la capitale officielle du Sri Lanka ?",
+      "a": "Sri Jayawardenepura Kotte",
+      "x": [
+        "Kandy",
+        "Anuradhapura"
+      ]
+    }
+  },
+  "Q1467": {
+    "t": "Là où a commencé l’histoire de l’Espagne aux Philippines",
+    "s": "L’aéroport se trouve sur l’île plate de Mactan, et de l’autre côté d’un mince chenal franchi par des ponts s’étend Cebu City, sur la côte est d’une île longue, étroite et montagneuse. L’expédition de Magellan arriva ici en 1521 et planta une croix toujours vénérée. En 1565, Miguel López de Legazpi fonda sur ce rivage le premier établissement espagnol de l’archipel.",
+    "w": "Une ville sur la côte est d’une île longue et vallonnée, face à une île plate portant un aéroport, de l’autre côté d’un chenal étroit.",
+    "f": [
+      "À Mactan, en 1521, Magellan tomba lors d’un affrontement avec le chef Lapu-Lapu, aujourd’hui héros national.",
+      "Cebu est considérée comme la plus ancienne ville des Philippines."
+    ],
+    "q": {
+      "q": "En quelle année l’expédition de Magellan a-t-elle planté une croix à Cebu ?",
+      "a": "En 1521",
+      "x": [
+        "En 1492",
+        "En 1565"
+      ]
+    }
+  },
+  "Q459787": {
+    "t": "Un vieux port sucrier face à une île aux mangues",
+    "s": "Iloilo s’étend sur une terre plate de la côte sud de Panay, face à l’île vallonnée de Guimaras, de l’autre côté d’un détroit large de quelques kilomètres seulement. Rivières et étangs à poissons découpent les bords de la ville. Quand le port s’ouvrit au commerce mondial en 1855, le sucre de l’île voisine de Negros y afflua, et de grandes maisons de négociants s’élevèrent dans ses rues.",
+    "w": "Une ville plate sur une côte face à une île vallonnée, de l’autre côté d’un étroit détroit, avec rivières et étangs à poissons autour.",
+    "f": [
+      "Guimaras, de l’autre côté du détroit, est célèbre pour ses mangues sucrées.",
+      "L’église de Miag-ao, à environ 40 km à l’ouest, est une église baroque du XVIIIe siècle en pierre jaune classée par l’UNESCO."
+    ],
+    "q": {
+      "q": "Quelle île Iloilo a-t-elle en face, de l’autre côté d’un étroit détroit ?",
+      "a": "Guimaras",
+      "x": [
+        "Mindoro",
+        "Bohol"
+      ]
+    }
+  },
+  "Q1473": {
+    "t": "Une ville de golfe sous le plus haut sommet des Philippines",
+    "s": "Davao s’étend le long du golfe de Davao, au sud-est de Mindanao, avec l’île verte de Samal juste en face. À l’ouest se dresse le mont Apo, pic volcanique de 2 954 m et plus haute montagne des Philippines. La terre entre les deux est tapissée de bananeraies et de vergers, et Davao est célèbre pour son durian.",
+    "w": "Une longue ville au bord d’un large golfe, avec une île juste au large ; une grande montagne volcanique à l’ouest.",
+    "f": [
+      "Davao est la plus grande ville des Philippines par la superficie.",
+      "Le rare aigle des Philippines niche dans les forêts autour du mont Apo."
+    ],
+    "q": {
+      "q": "Quelle est la plus haute montagne des Philippines ?",
+      "a": "Le mont Apo",
+      "x": [
+        "Le Mayon",
+        "Le mont Pulag"
+      ]
+    }
+  },
+  "Q132732": {
+    "t": "Au bord de l’un des plus grands lacs artificiels du monde",
+    "s": "Bratsk se trouve au bord d’un énorme réservoir qui remplit les vallées de l’Angara et de ses affluents, s’enfonçant dans la taïga en longs bras ramifiés. Le barrage, achevé dans les années 1960, alimentait l’une des plus grandes centrales hydroélectriques de son temps. La ville elle-même est éparpillée en quartiers distincts le long des rives. Un fort cosaque se dressait ici dès 1631.",
+    "w": "Un immense réservoir aux bras multiples qui serpente dans une taïga sombre, avec un barrage et des quartiers épars sur ses rives.",
+    "f": [
+      "Le réservoir de Bratsk contient environ 170 km³ d’eau : l’un des plus grands réservoirs du monde en volume.",
+      "À son achèvement, la centrale hydroélectrique de Bratsk était la plus puissante du monde."
+    ],
+    "q": {
+      "q": "Un barrage sur quelle rivière a créé le réservoir de Bratsk ?",
+      "a": "L’Angara",
+      "x": [
+        "La Léna",
+        "L’Ienisseï"
+      ]
+    }
+  },
+  "Q6576": {
+    "t": "La porte du Baïkal, sur l’unique émissaire du lac",
+    "s": "Irkoutsk s’étend sur les deux rives de l’Angara, seule rivière qui sorte du lac Baïkal, à quelque 60 km en amont. Un barrage juste au-dessus de la ville a élargi la rivière en un long réservoir. Par temps clair, regardez au sud-est le Baïkal lui-même : un croissant bleu profond encadré de montagnes, le lac le plus profond du monde. Irkoutsk, née d’un fort en 1661, s’est enrichie du thé et des fourrures.",
+    "w": "Une ville sur les deux rives d’une large rivière avec un réservoir en amont ; au sud-est, le long arc bleu profond du Baïkal.",
+    "f": [
+      "Le lac Baïkal dépasse 1 600 m de profondeur et contient environ un cinquième de l’eau douce de surface non gelée du monde.",
+      "Beaucoup de décembristes exilés après 1825 s’installèrent à Irkoutsk et façonnèrent sa vie culturelle."
+    ],
+    "q": {
+      "q": "Combien de rivières sortent du lac Baïkal ?",
+      "a": "Une seule",
+      "x": [
+        "Trois",
+        "Plus de 300"
+      ]
+    }
+  },
+  "Q919": {
+    "t": "Une ville de l’Ienisseï où le fleuve ne gèle jamais",
+    "s": "Krasnoïarsk borde les deux rives du puissant Ienisseï, avec des collines boisées et des affleurements rocheux au sud. En amont, un immense barrage relâche une eau plus chaude que l’air d’hiver : le fleuve reste ouvert à travers la ville et fume même par −30 °C. La ville est née en 1628, fort cosaque nommé d’après une falaise d’argile rouge sur la rive.",
+    "w": "Une grande ville sur les deux rives d’un fleuve très large, des collines boisées et des piliers rocheux au sud ; en hiver, l’eau libre fume.",
+    "f": [
+      "Stolby, réserve de piliers de granit géants dans la taïga, commence juste à la limite sud de la ville.",
+      "Le barrage de Krasnoïarsk, à environ 30 km en amont, est l’une des plus puissantes centrales hydroélectriques de Russie.",
+      "Le pont Kommounalny de la ville figure sur le billet russe de 10 roubles."
+    ],
+    "q": {
+      "q": "À quoi fait référence le nom Krasnoïarsk ?",
+      "a": "Une falaise rouge sur la rive",
+      "x": [
+        "Une belle source",
+        "Une forêt rouge"
+      ]
+    }
+  },
+  "Q678299": {
+    "t": "Un avant-poste arctique où l’Ienisseï rejoint la mer de Kara",
+    "s": "Là où le vaste golfe de l’Ienisseï s’ouvre sur la mer de Kara, Dikson s’accroche à des rivages rocheux et nus. Une grande partie de l’année, mer et terre sont blanches, et la localité n’est guère qu’un semis de bâtiments sur la toundra. Un millier de personnes seulement y vivent, loin au-delà du cercle polaire, où le soleil ne se lève pas pendant des semaines en plein hiver.",
+    "w": "Un minuscule semis de bâtiments sur un rivage arctique rocheux, à l’entrée d’un immense golfe couvert de glace.",
+    "f": [
+      "Nordenskiöld baptisa le port en 1875 d’après Oscar Dickson, le négociant suédois qui finançait ses expéditions.",
+      "La nuit polaire dure ici environ deux mois et demi.",
+      "Son port a servi aux navires de la route maritime du Nord."
+    ],
+    "q": {
+      "q": "De quel pays venait Oscar Dickson, qui a donné son nom à Dikson ?",
+      "a": "La Suède",
+      "x": [
+        "La Norvège",
+        "Le Danemark"
+      ]
+    }
+  },
+  "Q53139": {
+    "t": "Une ville ensoleillée de Transbaïkalie, entre crêtes boisées",
+    "s": "Tchita s’étend dans une large vallée où la Tchita rejoint l’Ingoda, encadrée de basses crêtes de mélèzes et de pins. La Transbaïkalie est l’une des régions les plus ensoleillées de Russie, et en hiver le sol reste souvent nu sous un gel dur et sec. À partir de 1827, de nombreux décembristes exilés y furent détenus, et les épouses qui les suivirent contribuèrent à faire d’un petit fort une ville.",
+    "w": "Une ville dans une large vallée entre de basses crêtes boisées, au confluent de deux rivières ; un grand lac à l’ouest.",
+    "f": [
+      "Le Transsibérien passe par Tchita en route vers le Pacifique.",
+      "Le soleil brille ici bien plus de 2 000 heures par an."
+    ],
+    "q": {
+      "q": "Quels célèbres exilés furent détenus à Tchita à partir de 1827 ?",
+      "a": "Les décembristes",
+      "x": [
+        "Les streltsy",
+        "Les vieux-croyants"
+      ]
+    }
+  },
+  "Q959": {
+    "t": "Le bout du Transsibérien, sur une péninsule de baies",
+    "s": "Vladivostok escalade les collines d’une péninsule entre deux baies de la mer du Japon, et son port, la Corne d’Or, a été nommé d’après celui d’Istanbul. Regardez au sud la longue ligne fine d’un pont vers l’île Rousski. La ville a été fondée en 1860, et c’est le terminus oriental du Transsibérien, à environ 9 300 km de Moscou.",
+    "w": "Une ville vallonnée sur une péninsule entre deux baies, un port incurvé au milieu et un long pont vers une île au sud.",
+    "f": [
+      "Le pont de l’île Rousski, ouvert en 2012, avait la plus longue travée haubanée du monde : 1 104 m.",
+      "Le nom associe les mots russes signifiant « dominer » et « Orient »."
+    ],
+    "q": {
+      "q": "Le port de Vladivostok porte le nom de quelle baie d’Istanbul ?",
+      "a": "La Corne d’Or",
+      "x": [
+        "La Corne d’Argent",
+        "La Porte d’Or"
+      ]
+    }
+  },
+  "Q1993488": {
+    "t": "Un port fluvial isolé près du delta de la Iana",
+    "s": "Nijneïansk, la « Basse-Iana », est un minuscule hameau sur la toundra, près de l’endroit où la Iana se divise en delta et rejoint la mer des Laptev. D’en haut, la terre alentour est criblée d’innombrables lacs de dégel, gelés et blancs une grande partie de l’année. Il ne reste que quelques centaines d’habitants dans ce qui fut un port fluvial plus animé de cette côte arctique isolée.",
+    "w": "Un minuscule hameau sur une toundra plate semée de lacs, près d’un fleuve qui se divise en nombreux bras vers la mer.",
+    "f": [
+      "Loin en amont sur la Iana se trouve Verkhoïansk, l’un des lieux habités les plus froids de l’hémisphère Nord.",
+      "Sur la basse Iana, des archéologues ont trouvé des traces d’humains vivant dans l’Arctique il y a environ 32 000 ans."
+    ],
+    "q": {
+      "q": "Quelle ville célèbre pour son froid se trouve en amont sur la Iana ?",
+      "a": "Verkhoïansk",
+      "x": [
+        "Oïmiakon",
+        "Norilsk"
+      ]
+    }
+  },
+  "Q6610": {
+    "t": "La grande ville la plus froide, sur un fleuve immense",
+    "s": "En janvier, la moyenne avoisine −40 °C : on dit souvent de Iakoutsk qu’elle est la grande ville la plus froide du monde, et le brouillard givrant peut y stagner des jours. Elle borde la rive ouest de la Léna, qui s’étale en un dédale de bras et d’îles large de plusieurs kilomètres. Toute la ville repose sur le pergélisol : la plupart des bâtiments sont posés sur des pieux enfoncés dans le sol gelé.",
+    "w": "Une ville sur la rive ouest d’un fleuve extrêmement large et semé d’îles, une taïga plate tout autour ; brouillard givrant en hiver.",
+    "f": [
+      "Des Cosaques menés par Piotr Beketov fondèrent un fort sur la Léna ici en 1632.",
+      "Les colonnes de la Léna, muraille de tours rocheuses classée par l’UNESCO, bordent le fleuve à environ 200 km en amont."
+    ],
+    "q": {
+      "q": "Pourquoi la plupart des bâtiments de Iakoutsk reposent-ils sur des pieux ?",
+      "a": "À cause du pergélisol",
+      "x": [
+        "À cause des crues",
+        "À cause des séismes"
+      ]
+    }
+  },
+  "Q500895": {
+    "t": "Un port polaire près de l’immense delta de la Léna",
+    "s": "Juste à l’ouest de Tiksi s’étend l’un des grands spectacles du Nord : le delta de la Léna, éventail de centaines de bras et de milliers de lacs, environ 30 000 km² en tout. Le petit port arctique occupe une baie de la mer des Laptev, adossé à de basses montagnes nues. La mer est gelée ici presque toute l’année, et en plein hiver le soleil reste sous l’horizon pendant des semaines.",
+    "w": "Un petit port sur une baie glacée ; à l’ouest, un delta gigantesque qui s’ouvre en innombrables bras et lacs.",
+    "f": [
+      "Le delta de la Léna est le plus grand delta de l’Arctique et une réserve naturelle protégée.",
+      "Tiksi sert aux navires de la route maritime du Nord depuis les années 1930."
+    ],
+    "q": {
+      "q": "Le vaste delta de quel fleuve s’étend juste à l’ouest de Tiksi ?",
+      "a": "La Léna",
+      "x": [
+        "L’Ienisseï",
+        "La Kolyma"
+      ]
+    }
+  },
+  "Q7968": {
+    "t": "Un port entre deux baies de la mer d’Okhotsk",
+    "s": "Deux baies de la mer d’Okhotsk, Nagaïev et Gertner, pincent Magadan sur un isthme, avec des montagnes nues et arrondies derrière. En hiver, la mer gèle et la côte devient uniformément blanche. Pour la plupart des voyageurs, c’est ici que commence la Kolyma : une vaste terre de montagnes, de rivières aurifères et de forêts de mélèzes qui s’étend vers l’intérieur.",
+    "w": "Une ville sur un étroit isthme entre deux baies, des collines nues derrière ; banquise le long de la côte en hiver.",
+    "f": [
+      "La route de la Kolyma relie Magadan à Iakoutsk, à environ 2 000 km.",
+      "Le bassin de la Kolyma, à l’intérieur, est l’une des principales régions aurifères de Russie depuis les années 1930."
+    ],
+    "q": {
+      "q": "Sur quelle mer se trouve Magadan ?",
+      "a": "La mer d’Okhotsk",
+      "x": [
+        "La mer de Béring",
+        "La mer du Japon"
+      ]
+    }
+  },
+  "Q230628": {
+    "t": "Une ville minière à côté d’un cratère géant à ciel ouvert",
+    "s": "Erdenet s’étend parmi des collines vertes et ondulées du nord de la Mongolie, et impossible de manquer la mine à côté : une immense fosse grise en gradins et un large bassin de résidus pâle. La ville a été bâtie à partir de 1974 pour exploiter l’un des plus grands gisements de cuivre d’Asie. Son nom signifie à peu près « qui a un trésor ».",
+    "w": "Une petite ville dans les collines vertes de la steppe, à côté d’une immense fosse grise en gradins et d’un grand bassin de résidus pâle.",
+    "f": [
+      "Outre le cuivre, la mine d’Erdenet produit du molybdène, métal utilisé pour durcir l’acier.",
+      "Le concentré de cuivre est l’une des principales exportations de la Mongolie."
+    ],
+    "q": {
+      "q": "Qu’extrait-on surtout à Erdenet ?",
+      "a": "Du cuivre",
+      "x": [
+        "Du charbon",
+        "De l’or"
+      ]
+    }
+  },
+  "Q23430": {
+    "t": "La capitale la plus froide du monde, dans la steppe",
+    "s": "Oulan-Bator s’étire d’est en ouest le long de la vallée de la Tuul, avec la crête boisée du Bogd Khan au sud et, au nord, des quartiers de yourtes pâles qui débordent sur les collines. Autour, la steppe sans arbres ondule jusqu’à l’horizon. Avec une température moyenne annuelle sous zéro, c’est la capitale nationale la plus froide du monde.",
+    "w": "Une longue ville dans une large vallée, une sombre montagne boisée au sud, une steppe nue et ondulée tout autour.",
+    "f": [
+      "La ville est née en 1639, campement monastique itinérant, et ne s’est fixée ici qu’en 1778.",
+      "Le mont Bogd Khan est protégé depuis le XVIIIe siècle : l’une des plus anciennes réserves naturelles du monde.",
+      "Le nom signifie « héros rouge » ; la ville l’a pris en 1924."
+    ],
+    "q": {
+      "q": "Parmi les capitales du monde, Oulan-Bator est la…",
+      "a": "Plus froide",
+      "x": [
+        "Plus haute",
+        "Plus sèche"
+      ]
+    }
+  },
+  "Q695360": {
+    "t": "Une minuscule capitale koriak près de la côte d’Okhotsk",
+    "s": "À quelques kilomètres de la mer d’Okhotsk, sur la lointaine côte nord-ouest du Kamtchatka, Palana occupe la vallée de la Palana. Autour s’étend un pays sauvage de toundra, de pins nains et de crêtes striées de neige qui montent vers la chaîne Sredinny. C’est le centre administratif du district koriak, terre du peuple koriak, éleveurs de rennes et chasseurs marins.",
+    "w": "Une petite localité dans une vallée près de la mer, parmi toundra et basses montagnes ; la neige s’attarde sur les crêtes jusqu’en été.",
+    "f": [
+      "Palana fut la capitale du district autonome koriak jusqu’à sa fusion dans le kraï du Kamtchatka en 2007.",
+      "La localité est si isolée que la plupart des visiteurs arrivent en avion."
+    ],
+    "q": {
+      "q": "Palana se trouve sur les terres de quel peuple ?",
+      "a": "Les Koriaks",
+      "x": [
+        "Les Tchouktches",
+        "Les Nénetses"
+      ]
+    }
+  },
+  "Q7951": {
+    "t": "Une ville portuaire au pied de deux volcans fumants",
+    "s": "Petropavlovsk-Kamtchatski borde la baie d’Avatcha, l’un des plus beaux ports naturels du monde, et derrière elle se dressent deux cônes géants : le Koriakski, environ 3 456 m, et l’Avatchinski, qui fume souvent. Aucune route ne relie la ville au reste de la Russie ; tout arrive par mer ou par air. Vitus Béring la fonda en 1740 et la nomma d’après ses deux navires.",
+    "w": "Une ville le long d’une large baie presque fermée, avec deux grands cônes volcaniques striés de neige juste derrière.",
+    "f": [
+      "Les navires de Béring étaient le Saint-Pierre et le Saint-Paul : d’où le nom de la ville.",
+      "Le Kamtchatka compte une trentaine de volcans actifs, et plusieurs se voient de la ville par temps clair."
+    ],
+    "q": {
+      "q": "Béring a nommé la ville d’après ses deux navires : le Saint-Pierre et le…",
+      "a": "Saint-Paul",
+      "x": [
+        "Saint-André",
+        "Saint-Nicolas"
+      ]
+    }
+  },
+  "Q7253": {
+    "t": "La patrie du rendang, entre l’océan et les volcans",
+    "s": "Des toits recourbés comme des cornes de buffle signent le peuple minangkabau, et Padang est sa grande ville. Elle occupe une étroite plaine côtière de Sumatra-Ouest, pressée entre l’océan Indien et le mur vert et abrupt des monts Barisan, avec des volcans à l’intérieur. La cuisine minangkabau, du rendang aux currys brûlants, est servie dans les « restaurants padang » de toute l’Indonésie.",
+    "w": "Une ville sur une mince plaine côtière, des montagnes vertes et abruptes derrière, l’océan devant et des îles au large.",
+    "f": [
+      "Les Minangkabau forment l’une des plus grandes sociétés matrilinéaires du monde : la terre se transmet par les femmes.",
+      "Selon la légende, le nom Minangkabau signifie « buffle victorieux »."
+    ],
+    "q": {
+      "q": "Chez les Minangkabau, la terre familiale se transmet par…",
+      "a": "Les mères",
+      "x": [
+        "Les pères",
+        "Les fils aînés"
+      ]
+    }
+  },
+  "Q9361": {
+    "t": "Une ville verte en damier sous un mur de sommets enneigés",
+    "s": "Un mur de sommets enneigés de plus de 4 000 m se dresse juste au sud de Bichkek : la chaîne de l’Ala-Too kirghize. La ville occupe le fond plat de la vallée de la Tchouï, tracée en un damier vert de rues bordées d’arbres. Elle est née de Pichpek, forteresse d’argile bâtie par le khanat de Kokand en 1825.",
+    "w": "Une ville verte et quadrillée sur un fond de vallée plat, avec un mur abrupt de montagnes enneigées juste au sud.",
+    "f": [
+      "De 1926 à 1991, la ville s’est appelée Frounze.",
+      "Le parc national d’Ala Artcha, gorge de glaciers et de genévriers, commence à quelque 40 km au sud du centre.",
+      "La Tchouï, au nord de la ville, forme une partie de la frontière avec le Kazakhstan."
+    ],
+    "q": {
+      "q": "Comment s’appelait Bichkek de 1926 à 1991 ?",
+      "a": "Frounze",
+      "x": [
+        "Pichpek",
+        "Verny"
+      ]
+    }
+  },
+  "Q532560": {
+    "t": "Là où finit la Grande Muraille des Ming, dans le Gobi",
+    "s": "Jiayuguan se dresse au point le plus étroit du corridor du Hexi, brèche entre les monts Qilian enneigés au sud et des collines désertiques nues au nord. C’est ici que la dynastie Ming termina sa Grande Muraille : la forteresse de la passe de Jiayu, bâtie pour la première fois en 1372, gardait la route de l’ouest. Autour de la ville sidérurgique moderne, les champs verts de l’oasis s’effacent vite dans le gobi caillouteux.",
+    "w": "Une petite ville dans un étroit corridor désertique, des montagnes enneigées au sud, des plaines caillouteuses tout autour.",
+    "f": [
+      "La passe de Jiayu était surnommée la « première et plus grande passe sous le Ciel ».",
+      "La fonte des neiges des monts Qilian, qui dépassent 5 000 m, arrose les oasis du corridor du Hexi."
+    ],
+    "q": {
+      "q": "La passe de Jiayu marque l’extrémité ouest de quelle Grande Muraille ?",
+      "a": "Celle des Ming",
+      "x": [
+        "Celle des Qin",
+        "Celle des Han"
+      ]
+    }
+  },
+  "Q69060": {
+    "t": "Une ville de haute vallée au seuil du plateau tibétain",
+    "s": "Xining se trouve à environ 2 200 m, étirée le long de l’étroite vallée du Huangshui entre des collines nues et profondément ravinées. C’est le seuil du plateau tibétain : à l’ouest, le terrain monte vers le lac Qinghai et les hautes prairies. Pendant des siècles, la ville fut un marché où l’on échangeait le thé chinois contre des chevaux tibétains. Son nom signifie « paix de l’Ouest ».",
+    "w": "Une longue ville serrée dans une vallée étroite entre des collines nues et érodées, avec de plus hautes montagnes à l’ouest.",
+    "f": [
+      "Le monastère de Kumbum, à environ 25 km au sud-ouest, marque le lieu de naissance de Tsongkhapa, fondateur de l’école gelug.",
+      "Le lac Qinghai, à environ 150 km à l’ouest, est le plus grand lac de Chine.",
+      "La voie ferrée vers Lhassa, qui franchit des cols à plus de 5 000 m, commence ici son ascension."
+    ],
+    "q": {
+      "q": "Xining est la capitale de quelle province ?",
+      "a": "Le Qinghai",
+      "x": [
+        "Le Gansu",
+        "Le Sichuan"
+      ]
+    }
+  },
+  "Q189633": {
+    "t": "Une ville de tours calcaires, sur le billet de 20 yuans",
+    "s": "Guilin est éparpillée parmi des centaines de tours calcaires abruptes et arrondies qui jaillissent de champs verts et plats ; d’en haut, on dirait un champ de taupinières géantes. La rivière Li se glisse vers le sud entre elles jusqu’à Yangshuo, à travers l’un des paysages les plus peints de Chine. Le nom signifie « forêt d’osmanthes », d’après les arbres qui parfument la ville chaque automne.",
+    "w": "Une ville parmi d’innombrables pics calcaires abrupts et arrondis, avec une rivière qui serpente vers le sud entre eux, à travers des champs verts.",
+    "f": [
+      "Un paysage de la rivière Li près de Guilin figure au dos du billet de 20 yuans.",
+      "Le canal Lingqu, creusé vers 214 av. J.-C. au nord de Guilin, est l’un des plus anciens canaux du monde.",
+      "Un dicton chinois affirme que les paysages de Guilin sont les plus beaux sous le ciel."
+    ],
+    "q": {
+      "q": "Sur quel billet figure un paysage de la rivière Li près de Guilin ?",
+      "a": "Le billet de 20 yuans",
+      "x": [
+        "Le billet de 5 yuans",
+        "Le billet de 100 yuans"
+      ]
+    }
+  },
+  "Q360178": {
+    "t": "Charbon, tofu et panneaux solaires sur des lacs de mine",
+    "s": "Huainan s’étire le long de la rive sud de la Huai, ligne traditionnelle entre le nord et le sud de la Chine. On y extrait le charbon depuis plus d’un siècle, et là où le sol s’est affaissé au-dessus des galeries, il s’est inondé en lacs peu profonds, dont certains portent des grilles sombres de panneaux solaires flottants. La légende attribue l’invention du tofu à Liu An, prince de Huainan au IIe siècle av. J.-C.",
+    "w": "Une ville industrielle le long de la rive sud d’un grand fleuve, avec des lacs épars, certains couverts de grilles sombres de panneaux solaires.",
+    "f": [
+      "Une bataille sur la rivière Fei toute proche, en 383, a donné au chinois l’expression « chaque arbre, chaque buisson semble un soldat ».",
+      "Avec les monts Qinling, la Huai est considérée comme la limite entre le nord et le sud de la Chine."
+    ],
+    "q": {
+      "q": "La légende attribue à un prince de Huainan l’invention de quel aliment ?",
+      "a": "Le tofu",
+      "x": [
+        "Les nouilles",
+        "Les raviolis"
+      ]
+    }
+  },
+  "Q59100": {
+    "t": "Le cœur teochew, sur le delta de la rivière Han",
+    "s": "Shantou s’étend sur le delta plat de la rivière Han, là où elle rejoint la mer de Chine méridionale, enroulée autour d’une lagune portuaire abritée. Les terres voisines sont une mosaïque d’étangs à poissons et de rizières, et la grande île de Nan’ao se trouve au large, à l’est. C’est le cœur du pays chaoshan, ou teochew, célèbre pour sa cuisine et son rituel raffiné du thé gongfu.",
+    "w": "Une ville côtière sur un delta plat autour d’un port abrité, des étangs à poissons autour et une grande île à l’est.",
+    "f": [
+      "En 1980, Shantou est devenue l’une des quatre premières zones économiques spéciales de Chine.",
+      "Beaucoup de communautés chinoises de Thaïlande et d’Asie du Sud-Est descendent d’émigrants teochew de cette région."
+    ],
+    "q": {
+      "q": "Comment les marchands occidentaux appelaient-ils Shantou ?",
+      "a": "Swatow",
+      "x": [
+        "Amoy",
+        "Chefoo"
+      ]
+    }
+  },
+  "Q14501": {
+    "t": "Une île pétrolière parmi les deltas à mangroves de Bornéo",
+    "s": "Tarakan occupe une petite île juste au large de la côte nord-est de Bornéo, là où plusieurs rivières se brisent en un dédale de chenaux boueux et de mangroves. D’en haut, l’île est une tache verte cerclée d’eau brune. On y pompe le pétrole depuis le début du XXe siècle, et ses puits et sa raffinerie en firent un port actif des Indes orientales néerlandaises.",
+    "w": "Une petite île verte au large d’une côte de chenaux boueux et de mangroves sombres ; la ville sur sa rive sud-ouest.",
+    "f": [
+      "Une réserve de mangrove en pleine ville abrite des nasiques, singes célèbres pour leur long nez.",
+      "Tarakan est la plus grande ville du Kalimantan du Nord, province créée en 2012."
+    ],
+    "q": {
+      "q": "Quel singe au long nez vit dans la mangrove de Tarakan ?",
+      "a": "Le nasique",
+      "x": [
+        "Le rhinopithèque doré",
+        "Le mandrill"
+      ]
+    }
+  },
+  "Q11025": {
+    "t": "Une ville portuaire qui grimpe vers des collines volcaniques",
+    "s": "Semarang a deux étages : une ville basse et plate le long de la côte de la mer de Java, et une ville haute plus verte qui grimpe sur les collines au sud, avec le volcan Ungaran au-delà. Le vieux quartier néerlandais près du port est surnommé la « petite Hollande ». Selon la tradition locale, l’amiral chinois Zheng He débarqua ici au début du XVe siècle, et le temple de Sam Poo Kong l’honore.",
+    "w": "Une ville sur une côte plate qui monte sur des collines vertes au sud ; un volcan derrière, un port devant.",
+    "f": [
+      "Lawang Sewu, bâti en 1907 pour une compagnie ferroviaire néerlandaise, est surnommé les « mille portes » pour ses innombrables ouvertures.",
+      "Semarang est la capitale de Java central."
+    ],
+    "q": {
+      "q": "Le temple de Sam Poo Kong, à Semarang, honore quel amiral chinois ?",
+      "a": "Zheng He",
+      "x": [
+        "Koxinga",
+        "Shi Lang"
+      ]
+    }
+  },
+  "Q8131": {
+    "t": "L’ancienne capitale de Srivijaya, sur la large Musi brune",
+    "s": "Palembang enjambe la Musi, large et brune, loin à l’intérieur des marais plats et des plantations du sud de Sumatra. Des navires remontent encore depuis la mer, un trajet de près de 100 km. Il y a plus de mille ans, c’était le cœur de Srivijaya, empire maritime qui contrôlait le commerce du détroit de Malacca. Cherchez le long pont qui relie les deux moitiés de la ville.",
+    "w": "Une ville sur les deux rives d’un large fleuve brun qui serpente dans une plaine basse et marécageuse, avec un long pont.",
+    "f": [
+      "Le pont Ampera, ouvert en 1965, avait une travée centrale levante pour les navires ; elle a ensuite été fixée.",
+      "Des maisons de bois flottant sur des radeaux bordent encore certaines parties de la rive.",
+      "Le pèlerin chinois Yijing étudia le sanskrit à Srivijaya à la fin du VIIe siècle."
+    ],
+    "q": {
+      "q": "Palembang était le cœur de quel empire maritime ?",
+      "a": "Srivijaya",
+      "x": [
+        "Majapahit",
+        "Mataram"
+      ]
+    }
+  },
+  "Q14182": {
+    "t": "La ville aux mille rivières et aux marchés flottants",
+    "s": "Banjarmasin se trouve dans les plaines basses et marécageuses du sud de Bornéo, là où la Martapura rejoint le large Barito non loin de la mer. Rivières et canaux sillonnent chaque quartier, d’où son nom de « ville aux mille rivières ». À l’aube, des marchands en petites barques se retrouvent sur l’eau pour ses célèbres marchés flottants, vendant fruits et légumes directement depuis leurs pirogues.",
+    "w": "Une ville plate sillonnée de rivières et de canaux au bord d’un large fleuve brun, entourée de plaine marécageuse et de rizières.",
+    "f": [
+      "Le sultanat de Banjar, fondé dans les années 1520, régna depuis ici pendant plus de trois siècles.",
+      "Une grande partie de la ville se trouve à peine au-dessus du niveau de la marée haute."
+    ],
+    "q": {
+      "q": "Banjarmasin est célèbre pour ses…",
+      "a": "Marchés flottants",
+      "x": [
+        "Temples sur pilotis",
+        "Salines"
+      ]
+    }
+  },
+  "Q14634": {
+    "t": "Une ville de marins face à un semis d’îles coralliennes",
+    "s": "Makassar borde la côte ouest et plate du Sulawesi du Sud, face à l’archipel de Spermonde, semis de minuscules îles coralliennes cerclées de récifs turquoise. À l’intérieur, au nord-est, se dressent les tours calcaires déchiquetées de Maros. Pendant des siècles, ce fut le grand port marchand du sultanat de Gowa, et ses marins sillonnaient les mers de l’Est.",
+    "w": "Une ville sur une côte plate face à des dizaines de minuscules îles coralliennes ; des collines calcaires déchiquetées au nord-est.",
+    "f": [
+      "À partir du XVIIIe siècle, des marins makassar se rendaient chaque année dans le nord de l’Australie pour récolter des holothuries.",
+      "Le fort Rotterdam, en plein centre, a été reconstruit par les Néerlandais dans les années 1670 sur le site d’une forteresse de Gowa."
+    ],
+    "q": {
+      "q": "Les marins makassar allaient jadis dans le nord de l’Australie récolter…",
+      "a": "Des holothuries",
+      "x": [
+        "Des perles",
+        "Du santal"
+      ]
+    }
+  },
+  "Q5869": {
+    "t": "Une ville dans une haute vallée himalayenne, à 3 650 m",
+    "s": "Même à 3 650 m d’altitude, Lhassa est dominée par des montagnes brunes et nues qui s’élèvent encore de 1 500 m ou plus. La ville s’étend dans la vallée plate du Kyi Chu, affluent du Yarlung Tsangpo. L’air est mince et sec, et le soleil si généreux que Lhassa est surnommée la « ville du soleil ». Son nom signifie « lieu des dieux ».",
+    "w": "Une vallée fluviale verte à fond plat, enserrée de montagnes nues et abruptes, la ville étendue le long de son flanc nord.",
+    "f": [
+      "Le palais du Potala, sur une colline de la ville, compte 13 étages et est inscrit au patrimoine mondial de l’UNESCO.",
+      "Le temple du Jokhang, dans le vieux centre, remonte au VIIe siècle.",
+      "Lhassa reçoit environ 3 000 heures de soleil par an."
+    ],
+    "q": {
+      "q": "À quelle altitude environ se trouve Lhassa ?",
+      "a": "Environ 3 650 m",
+      "x": [
+        "Environ 1 650 m",
+        "Environ 5 650 m"
+      ]
+    }
+  },
+  "Q650585": {
+    "t": "L’oasis des melons, au bout est du Tian Shan",
+    "s": "Après des jours de traversée du Gobi, les caravanes de la route de la soie venues du Gansu atteignaient ici leur première grande oasis. Hami est une tache verte au pied sud des monts Karlik, queue orientale enneigée du Tian Shan, avec un immense désert de graviers de tous côtés. Son nom voyage dans le monde entier grâce au célèbre melon de Hami, sucré et croquant.",
+    "w": "Une oasis verte au pied de montagnes enneigées, entourée d’un immense désert de graviers gris ; de grandes centrales solaires tout près.",
+    "f": [
+      "Les melons de Hami étaient envoyés en tribut aux empereurs Qing dès la fin du XVIIe siècle.",
+      "Son district central, Yizhou, porte le nom Tang de l’oasis ; en ouïghour, l’oasis s’appelle Kumul."
+    ],
+    "q": {
+      "q": "Quel fruit porte le nom de Hami ?",
+      "a": "Un melon",
+      "x": [
+        "Un raisin",
+        "Une grenade"
+      ]
+    }
+  },
+  "Q235389": {
+    "t": "Une oasis du jade au bord du Taklamakan",
+    "s": "Deux rivières en tresses nommées d’après le jade, le Jade blanc et le Jade noir, descendent des monts Kunlun enneigés de part et d’autre de Hotan, puis se rejoignent et poussent vers le nord dans la mer de sable du Taklamakan. Entre elles s’étend l’oasis verte. Depuis des millénaires, on ramasse le jade néphrite dans les lits de graviers des rivières.",
+    "w": "Une oasis verte entre deux rivières en tresses, des montagnes enneigées au sud et une mer de dunes sans fin au nord.",
+    "f": [
+      "Le jade de Hotan fut acheminé vers l’est, jusqu’aux cours des souverains chinois, pendant des millénaires.",
+      "Une légende rapportée par le moine Xuanzang dit que la soie arriva à Khotan quand une princesse cacha des œufs de ver à soie dans sa coiffe.",
+      "La rivière de Hotan ne traverse le Taklamakan qu’en été, quand la fonte des neiges la remplit."
+    ],
+    "q": {
+      "q": "Quelle pierre trouve-t-on dans les rivières de Hotan ?",
+      "a": "Le jade",
+      "x": [
+        "La turquoise",
+        "Le lapis-lazuli"
+      ]
+    }
+  },
+  "Q170521": {
+    "t": "Un carrefour de la route de la soie au pied du Pamir",
+    "s": "Tian Shan, Pamir et Kunlun se referment sur le désert à Kachgar, oasis verte à la pointe ouest du bassin du Tarim. C’était le grand carrefour des caravanes : les routes qui contournaient le Taklamakan par le nord et par le sud s’y rejoignaient avant de monter vers les cols de l’ouest. Par temps clair, les dômes enneigés du Kongur et du Muztagh Ata, au-delà de 7 500 m, se dressent au sud-ouest.",
+    "w": "Une oasis verte au bout ouest d’un bassin désertique, avec des murs de montagnes enneigées à l’ouest, au nord et au sud.",
+    "f": [
+      "Mahmoud al-Kachgari, originaire de la région, compila dans les années 1070 le premier grand dictionnaire des langues turques.",
+      "Le marché aux bestiaux du dimanche, à Kachgar, attire depuis des générations des marchands de toute la région."
+    ],
+    "q": {
+      "q": "Quel savant du XIe siècle, originaire d’ici, compila un grand dictionnaire turc ?",
+      "a": "Mahmoud al-Kachgari",
+      "x": [
+        "Al-Biruni",
+        "Avicenne"
+      ]
+    }
+  },
+  "Q211243": {
+    "t": "Une plaine verte entre mur de montagnes et fleuve Jaune",
+    "s": "Un mur de montagnes sombre et déchiqueté, les monts Helan, protège Yinchuan des sables du désert de Tengger à l’ouest, tandis que le fleuve Jaune coule à l’est. Entre les deux s’étend une bande de plaine verte et irriguée, arrosée par des canaux creusés il y a plus de 2 000 ans. Ses lacs et ses rizières lui ont valu le nom de « Jiangnan au-delà de la frontière ».",
+    "w": "Une plaine verte semée de lacs entre une longue chaîne sombre à l’ouest et un large fleuve à l’est ; le désert au-delà.",
+    "f": [
+      "Du XIe au XIIIe siècle, Yinchuan fut la capitale du royaume des Xia occidentaux.",
+      "Les tombeaux royaux des Xia occidentaux se dressent au pied des monts Helan, à l’ouest de la ville.",
+      "Les baies de goji du Ningxia sont célèbres dans toute la Chine."
+    ],
+    "q": {
+      "q": "Yinchuan était la capitale de quel royaume médiéval ?",
+      "a": "Les Xia occidentaux",
+      "x": [
+        "Les Liao",
+        "Les Jin"
+      ]
+    }
+  },
+  "Q362865": {
+    "t": "Une vieille ville du charbon dans les collines du Hunan",
+    "s": "Le charbon a bâti Pingxiang, ville nichée dans une vallée de collines vertes à la frontière ouest du Jiangxi, là où les monts Luoxiao séparent la province du Hunan. La mine d’Anyuan, ouverte en 1898, alimentait l’une des premières aciéries modernes de Chine. Au sud-est se dresse le mont Wugong, dont les sommets arrondis sont couverts de prairies plutôt que de forêts.",
+    "w": "Une ville dans une vallée de collines vertes et ondulées, avec de plus hautes montagnes à l’ouest et au sud, le long de la frontière.",
+    "f": [
+      "Le coke d’Anyuan alimentait les forges de Hanyang, à Wuhan, l’une des premières aciéries modernes de Chine.",
+      "Les prairies sommitales du mont Wugong, à plus de 1 900 m, se dorent en automne."
+    ],
+    "q": {
+      "q": "Que produisait la mine d’Anyuan, à Pingxiang, ouverte en 1898 ?",
+      "a": "Du charbon",
+      "x": [
+        "De l’étain",
+        "Du tungstène"
+      ]
+    }
+  },
+  "Q38234": {
+    "t": "La fenêtre du Japon sur l’Europe, autour d’un port étroit",
+    "s": "Nagasaki s’enroule autour d’un port long et étroit, avec des maisons qui escaladent des collines vertes et abruptes des deux côtés, comme les gradins d’un amphithéâtre. Les navires portugais en firent un port en 1571. Pendant plus de deux siècles d’isolement du Japon, une petite île artificielle d’ici, Dejima, fut la seule fenêtre régulière du pays sur l’Europe. Au large, au sud-ouest, s’éparpillent des îles.",
+    "w": "Un port long et étroit comme un fjord, la ville qui escalade des collines vertes et abruptes des deux côtés ; des îles au sud-ouest.",
+    "f": [
+      "De 1641 à 1859, les marchands néerlandais de Dejima furent les seuls Européens autorisés à commercer avec le Japon.",
+      "La castella, gâteau éponge vendu partout à Nagasaki, arriva avec les marchands portugais au XVIe siècle."
+    ],
+    "q": {
+      "q": "Quels Européens commerçaient à Dejima à partir de 1641 ?",
+      "a": "Les Néerlandais",
+      "x": [
+        "Les Portugais",
+        "Les Anglais"
+      ]
+    }
+  },
+  "Q205922": {
+    "t": "La ville des grues, sur les marais de la Nen",
+    "s": "Qiqihar s’étend sur la plaine plate de Songnen, au bord de la Nen, dans un paysage de roselières et de lacs peu profonds qui brillent comme des miroirs épars. Au sud-est de la ville se trouve Zhalong, vaste zone humide où nichent en été les grues du Japon ; ce fut l’une des premières réserves naturelles de grues de Chine. La ville est née d’une forteresse Qing en 1691.",
+    "w": "Une ville au bord d’une rivière tressée, sur une plaine plate de roselières et de lacs peu profonds ; blanche et gelée en hiver.",
+    "f": [
+      "Les roselières de Zhalong couvrent plus de 2 000 km².",
+      "Dans l’art chinois, la grue du Japon est un symbole de longévité."
+    ],
+    "q": {
+      "q": "Pour quel oiseau la zone humide de Zhalong, près de Qiqihar, est-elle célèbre ?",
+      "a": "La grue du Japon",
+      "x": [
+        "Le cygne tuberculé",
+        "Le canard mandarin"
+      ]
+    }
+  },
+  "Q200016": {
+    "t": "Là où les Ghats orientaux plongent dans le golfe du Bengale",
+    "s": "Visakhapatnam, ou Vizag, se trouve là où les collines vertes des Ghats orientaux descendent jusqu’au golfe du Bengale. Son port profond est niché derrière un promontoire rocheux appelé le Nez du Dauphin, et de longues plages de sable s’incurvent vers le nord. La ville porte le nom de Visakha, dieu hindou de la bravoure. À l’intérieur, les collines montent vers la vallée d’Araku et ses plantations de café.",
+    "w": "Une ville côtière entre collines vertes et mer, un port derrière un promontoire rocheux, de longues plages au nord.",
+    "f": [
+      "Visakhapatnam est l’un des plus grands ports de l’Inde.",
+      "Le café de la vallée d’Araku, cultivé en grande partie par des paysans tribaux, est devenu célèbre dans le monde entier."
+    ],
+    "q": {
+      "q": "Le port de Vizag est abrité par un promontoire appelé…",
+      "a": "Le Nez du Dauphin",
+      "x": [
+        "La Trompe de l’Éléphant",
+        "La Tête du Lion"
+      ]
+    }
+  },
+  "Q38807": {
+    "t": "Une capitale portuaire pluvieuse cernée de récifs",
+    "s": "Cherchez une ligne d’écume pâle sur le récif et des montagnes sombres détrempées derrière : c’est Suva, sur une péninsule vallonnée de la côte sud-est de Viti Levu, l’île principale des Fidji. Les nuages s’y accumulent souvent, et elle est bien plus humide que l’ouest des Fidji. Suva a remplacé Levuka comme capitale en 1882.",
+    "w": "Une ville sur une péninsule vallonnée entre deux baies, une ligne pâle de récif au large, des montagnes vertes coiffées de nuages derrière.",
+    "f": [
+      "Suva reçoit environ 3 000 mm de pluie par an, plusieurs fois plus que Londres.",
+      "Levuka, l’ancienne capitale sur l’île d’Ovalau, est inscrite au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quelle ville était la capitale des Fidji avant Suva ?",
+      "a": "Levuka",
+      "x": [
+        "Nadi",
+        "Lautoka"
+      ]
+    }
+  },
+  "Q1520": {
+    "t": "Une capitale aux multiples noms sur la steppe ouverte",
+    "s": "Cette ville surgit d’une steppe plate, presque sans arbres, sur les rives de l’Ichim sinueux, et en hiver tout blanchit autour d’elle sous un gel intense. Née en 1830 comme fort d’Akmolinsk, elle a changé de nom plus souvent que presque toute autre capitale : Tselinograd, Akmola, Astana, Nour-Soultan et, depuis 2022, de nouveau Astana. Le Kazakhstan y a transféré sa capitale depuis Almaty en 1997.",
+    "w": "Une ville compacte sur une steppe plate et sans arbres, traversée par une rivière sinueuse ; blanche et gelée en hiver.",
+    "f": [
+      "Les nuits d’hiver descendent souvent sous −30 °C : l’une des capitales les plus froides du monde.",
+      "L’Ichim coule vers le nord jusqu’en Russie, où il rejoint l’Irtych."
+    ],
+    "q": {
+      "q": "Comment s’appelait la ville de 1961 à 1992 ?",
+      "a": "Tselinograd",
+      "x": [
+        "Akmolinsk",
+        "Semipalatinsk"
+      ]
+    }
+  },
+  "Q484706": {
+    "t": "Une ville du charbon sur la steppe, au nom d’arbuste",
+    "s": "Qaraghandy, plus connue sous le nom de Karaganda, s’étale sur la steppe kazakhe nue, et autour d’elle on repère les cônes des anciens terrils de ses mines de charbon. Le charbon a été découvert ici en 1833, par un jeune berger selon la tradition locale, et la ville moderne a grandi vite à partir des années 1930. Son nom vient du karagan, le robuste caragana qui pousse dans toute la steppe.",
+    "w": "Une ville étalée sur une steppe plate et nue, piquetée de terrils coniques ; une ville sidérurgique et un réservoir au nord-ouest.",
+    "f": [
+      "Le bassin houiller de Karaganda est l’un des plus grands d’Asie centrale.",
+      "La ville sidérurgique de Temirtaou, à environ 30 km au nord-ouest, a grandi au bord d’un réservoir sur la Noura."
+    ],
+    "q": {
+      "q": "D’après quelle plante de la steppe Karaganda a-t-elle été nommée ?",
+      "a": "Le caragana",
+      "x": [
+        "L’armoise",
+        "La stipe"
+      ]
+    }
+  },
+  "Q35493": {
+    "t": "La ville des pommes sous un mur de sommets enneigés",
+    "s": "Almaty s’étend sur une plaine en pente douce au pied même de l’Alataou transilien, dont les sommets enneigés montent à près de 5 000 m juste au sud de la ville : un mur blanc suspendu au-dessus des toits. Les forêts de ces pentes abritent le pommier sauvage dont descendent toutes les pommes cultivées du monde, et le nom de la ville évoque ce fruit.",
+    "w": "Une grande ville sur une pente qui monte vers un mur abrupt de montagnes enneigées au sud ; une steppe plate au nord.",
+    "f": [
+      "La ville est née en 1854 comme fort russe de Verny.",
+      "Almaty fut la capitale du Kazakhstan jusqu’en 1997.",
+      "Medeu, patinoire dans une gorge au-dessus de la ville, se trouve à environ 1 700 m."
+    ],
+    "q": {
+      "q": "Les pommiers sauvages des montagnes près d’Almaty sont les ancêtres…",
+      "a": "Du pommier cultivé",
+      "x": [
+        "Du poirier",
+        "Du cognassier"
+      ]
+    }
+  },
+  "Q48403": {
+    "t": "La ville du Temple d’or et de son bassin de nectar",
+    "s": "Au cœur d’Amritsar, le Temple d’or, sanctuaire le plus sacré du sikhisme, se dresse au milieu d’un bassin sacré. Autour de la ville, la plaine plate et fertile du Pendjab est un patchwork de champs de blé et de riz sillonnés de canaux. Amritsar a grandi autour de ce bassin dans les années 1570, sous le guru Ram Das, et son nom signifie « bassin de nectar ».",
+    "w": "Une ville dense sur une plaine verte et plate de champs et de canaux qui s’étend jusqu’à l’horizon dans toutes les directions.",
+    "f": [
+      "La cuisine communautaire du Temple d’or sert chaque jour des repas gratuits à des dizaines de milliers de visiteurs.",
+      "Les étages supérieurs du temple furent couverts de feuille d’or au début du XIXe siècle, sous le maharaja Ranjit Singh."
+    ],
+    "q": {
+      "q": "Que signifie le nom Amritsar ?",
+      "a": "Bassin de nectar",
+      "x": [
+        "Ville d’or",
+        "Rivière sacrée"
+      ]
+    }
+  },
+  "Q79980": {
+    "t": "Une ville sainte dans un croissant du Gange",
+    "s": "Varanasi borde la rive ouest du Gange, là où le fleuve dessine un grand croissant et, fait rare, coule vers le nord. Le contraste frappe d’en haut : la ville couvre la rive ouest de marches de pierre, les ghats, tandis que la rive est reste une bande de sable presque vide. On la dit souvent l’une des plus anciennes villes habitées sans interruption du monde.",
+    "w": "Une ville dense sur le côté ouest d’un coude en croissant d’un large fleuve, avec une rive sableuse nue en face.",
+    "f": [
+      "À Sarnath, à environ 10 km au nord-est, le Bouddha aurait prononcé son premier sermon.",
+      "Plus de 80 ghats bordent le fleuve sur plusieurs kilomètres."
+    ],
+    "q": {
+      "q": "Qui a prononcé son premier sermon à Sarnath, près de Varanasi ?",
+      "a": "Le Bouddha",
+      "x": [
+        "Mahavira",
+        "Guru Nanak"
+      ]
+    }
+  },
+  "Q202139": {
+    "t": "Là où l’Inde a commencé à extraire le charbon",
+    "s": "Asansol s’étale sur une campagne ondulée de terre rouge entre le Damodar et l’Ajay, au bord du plateau du Chota Nagpur. C’est le bassin houiller de Raniganj, où l’exploitation commerciale du charbon a commencé en Inde en 1774, et la terre alentour est piquetée de puits, de terrils et d’anciennes galeries inondées. À l’ouest, des barrages sur le Damodar et la Barakar retiennent de grands réservoirs.",
+    "w": "Une ville industrielle sur une terre rougeâtre et ondulée piquetée de puits et de mares, une rivière au sud, des réservoirs à l’ouest.",
+    "f": [
+      "On appelait jadis le Damodar le « chagrin du Bengale » pour ses crues, jusqu’à la construction de barrages dans les années 1950.",
+      "La Grand Trunk Road, l’une des plus anciennes routes d’Asie, traverse la ville."
+    ],
+    "q": {
+      "q": "Quand l’exploitation commerciale du charbon a-t-elle commencé en Inde, à Raniganj ?",
+      "a": "En 1774",
+      "x": [
+        "En 1674",
+        "En 1874"
+      ]
+    }
+  },
+  "Q242144": {
+    "t": "Une ville de l’acier née avec l’aide soviétique",
+    "s": "Bhilai est née dans les années 1950 autour de l’une des plus grandes aciéries de l’Inde, construite avec l’aide soviétique sur la plaine plate du Chhattisgarh. D’en haut, cherchez l’immense rectangle gris de l’usine et ses bassins de refroidissement, et une ville bien planifiée à côté. Tout autour s’étend un patchwork de rizières : on appelle souvent le Chhattisgarh le grenier à riz de l’Inde.",
+    "w": "Un immense complexe industriel gris avec des bassins, à côté d’une ville planifiée, au milieu d’un patchwork plat de rizières vertes.",
+    "f": [
+      "L’usine de Bhilai est depuis longtemps le principal fabricant indien de rails.",
+      "Bhilai et sa voisine Durg ont fusionné en une seule agglomération."
+    ],
+    "q": {
+      "q": "L’aciérie de Bhilai a été construite dans les années 1950 avec l’aide…",
+      "a": "De l’Union soviétique",
+      "x": [
+        "De la Grande-Bretagne",
+        "De l’Allemagne de l’Ouest"
+      ]
+    }
+  },
+  "Q80989": {
+    "t": "La ville des lacs, jadis gouvernée par des reines",
+    "s": "Bhopal s’enroule autour de deux grands lacs sur le plateau vallonné du Malwa, et le plus grand, le lac Supérieur, domine la vue d’en haut. Selon la tradition, le raja Bhoj le créa au XIe siècle en barrant une rivière. Pendant plus d’un siècle à partir de 1819, Bhopal fut gouvernée par une lignée de quatre femmes, les bégums : une rareté dans l’histoire de l’Inde.",
+    "w": "Une ville sur de basses collines autour de deux grands lacs, celui de l’ouest bien plus vaste ; plateau et cultures tout autour.",
+    "f": [
+      "Le stupa bouddhique de Sanchi, site UNESCO, se trouve à environ 45 km au nord-est.",
+      "Les abris sous roche de Bhimbetka, au sud-est de la ville, abritent des peintures vieilles de plusieurs millénaires."
+    ],
+    "q": {
+      "q": "À quel roi la tradition attribue-t-elle le lac Supérieur de Bhopal ?",
+      "a": "Au raja Bhoj",
+      "x": [
+        "À Ashoka",
+        "À Akbar"
+      ]
+    }
+  },
+  "Q228405": {
+    "t": "La ville-temple des Tamouls, parmi les collines de granit",
+    "s": "Madurai s’étend le long de la Vaigai, sur une plaine plate semée de collines de granit nu ; l’une d’elles, Yanaimalai, ressemblerait à un éléphant couché. Au cœur de la ville se dresse le temple de Minakshi, dont les tours-portails colorées dominent les rues. Madurai est un foyer de la culture tamoule depuis plus de deux mille ans, et la tradition y situe les académies des anciens poètes tamouls.",
+    "w": "Une ville sur une rivière sableuse au milieu d’une plaine plate semée de collines rocheuses isolées, dont une longue en forme d’éléphant.",
+    "f": [
+      "Le temple de Minakshi compte 14 tours-portails ; la plus haute mesure environ 50 m.",
+      "Le jasmin de Madurai est si prisé qu’il bénéficie d’une indication géographique."
+    ],
+    "q": {
+      "q": "Le grand temple de Madurai est dédié à la déesse…",
+      "a": "Minakshi",
+      "x": [
+        "Kali",
+        "Lakshmi"
+      ]
+    }
+  },
+  "Q9885": {
+    "t": "Une ville de filatures près de la grande brèche des Ghats",
+    "s": "La seule grande brèche des Ghats occidentaux s’ouvre juste à l’ouest de Coimbatore : la trouée de Palakkad, large de quelque 30 à 40 km, laisse passer vents et routes vers le Kerala. Ailleurs, la plaine de la ville est enserrée de montagnes, avec les monts Nilgiri qui se dressent à pic au nord. Ses nombreuses filatures de coton lui ont valu le surnom de « Manchester de l’Inde du Sud ».",
+    "w": "Une grande ville sur une plaine, un massif montagneux au nord, des chaînes abruptes à l’ouest percées d’une large brèche.",
+    "f": [
+      "La trouée de Palakkad est la principale brèche des Ghats occidentaux, qui courent sinon sans interruption sur plus de 1 000 km.",
+      "Coimbatore est célèbre dans toute l’Inde pour ses moulins à pâte humide, qui bénéficient d’une indication géographique."
+    ],
+    "q": {
+      "q": "Quelle brèche des Ghats occidentaux s’ouvre juste à l’ouest de Coimbatore ?",
+      "a": "La trouée de Palakkad",
+      "x": [
+        "Le Bhor Ghat",
+        "Le Thal Ghat"
+      ]
+    }
+  },
+  "Q9326": {
+    "t": "Une capitale basse et verte sur une boucle du Mékong",
+    "s": "Vientiane s’étend, basse et verdoyante, le long d’une large boucle du Mékong, et de l’autre côté de l’eau, c’est la Thaïlande. À la saison sèche, le fleuve rétrécit et découvre de longs bancs de sable. Le roi Setthathirath transféra ici la capitale du royaume de Lan Xang depuis Luang Prabang en 1560. On traduit généralement le nom par « ville du santal ».",
+    "w": "Une ville basse et verte le long d’une large boucle de fleuve à bancs de sable ; la rive opposée appartient à un autre pays.",
+    "f": [
+      "Le stupa doré du Pha That Luang est le symbole national du Laos.",
+      "Le premier pont de l’Amitié lao-thaïlandaise, ouvert en 1994, franchit le Mékong juste en aval."
+    ],
+    "q": {
+      "q": "En 1560, le roi Setthathirath transféra sa capitale à Vientiane depuis…",
+      "a": "Luang Prabang",
+      "x": [
+        "Ayutthaya",
+        "Champassak"
+      ]
+    }
+  },
+  "Q9279": {
+    "t": "Une capitale fluviale avec tout un village sur pilotis",
+    "s": "Tout un village sur pilotis, relié par des passerelles, s’étend sur la rivière face au centre de Bandar Seri Begawan : Kampong Ayer, l’un des plus grands villages sur l’eau du monde. La capitale borde la rivière Brunei, à quelques kilomètres de la baie de Brunei, entourée de forêt tropicale vert sombre. En 1521, des membres de l’expédition de Magellan la visitèrent et s’émerveillèrent d’une ville bâtie sur l’eau.",
+    "w": "Une petite ville sur une rivière qui serpente dans la forêt, un grand ensemble de maisons sur pilotis, un long pont sur la baie.",
+    "f": [
+      "Le pont de Temburong, ouvert en 2020, traverse la baie de Brunei sur environ 30 km jusqu’à la partie orientale séparée du pays.",
+      "La ville a pris son nom actuel en 1970 ; auparavant, elle s’appelait Brunei Town."
+    ],
+    "q": {
+      "q": "Qu’est-ce que Kampong Ayer ?",
+      "a": "Un village sur pilotis sur l’eau",
+      "x": [
+        "Un marché flottant",
+        "Une forêt royale"
+      ]
+    }
+  },
+  "Q45604": {
+    "t": "Une oasis de grenadiers entre crêtes nues et sables rouges",
+    "s": "Les dunes rougeâtres du désert du Registan s’étendent au sud de Kandahar, posée sur une plaine sèche à environ 1 000 m, parmi des crêtes nues et déchiquetées. Au nord-ouest de la ville, l’Arghandab alimente un ruban de vergers verts célèbres pour leurs grenades. En 1747, Ahmad Shah Durrani fit de Kandahar la capitale de son nouvel empire, et il y est enterré.",
+    "w": "Une ville sur une plaine brune et sèche parmi des crêtes rocheuses nues, avec un ruban vert de vergers le long d’une rivière au nord-ouest.",
+    "f": [
+      "Beaucoup d’historiens rattachent Kandahar à une ville fondée par Alexandre le Grand, Alexandrie d’Arachosie.",
+      "Les grenades de Kandahar sont prisées dans toute la région."
+    ],
+    "q": {
+      "q": "La vallée de l’Arghandab, près de Kandahar, est célèbre pour quel fruit ?",
+      "a": "Les grenades",
+      "x": [
+        "Les dattes",
+        "Les oranges"
+      ]
+    }
+  },
+  "Q1850": {
+    "t": "Une capitale au croisement de quatre bras de fleuve",
+    "s": "Phnom Penh se dresse à un grand carrefour aquatique appelé Chaktomuk, « quatre visages » : le Mékong, le Tonlé Sap et le Bassac s’y rencontrent en un X d’eau brune. À chaque saison des pluies, le Mékong gonfle tant que la rivière Tonlé Sap inverse son cours et remonte vers le grand lac en amont. Le nom de la ville signifie « colline de Penh », d’après une femme qui, selon la légende, y fonda un sanctuaire.",
+    "w": "Une ville à la rencontre en X de larges fleuves bruns, entourée de plaine inondable et de rizières.",
+    "f": [
+      "À la saison humide, le lac Tonlé Sap peut atteindre plusieurs fois sa taille de saison sèche.",
+      "Le roi Norodom transféra ici la capitale royale depuis Oudong en 1866."
+    ],
+    "q": {
+      "q": "Que fait la rivière Tonlé Sap à chaque saison des pluies ?",
+      "a": "Elle inverse son cours",
+      "x": [
+        "Elle s’assèche",
+        "Elle gèle"
+      ]
+    }
+  },
+  "Q9270": {
+    "t": "Une petite capitale étirée dans une vallée himalayenne",
+    "s": "Thimphou s’étire le long de l’étroite vallée du Wang Chhu, à environ 2 300 m, avec des montagnes abruptes et boisées de chaque côté. C’est l’une des plus petites capitales d’Asie, et elle n’a toujours pas de feux de circulation : à son carrefour le plus animé, un policier dirige les voitures par de gracieux gestes de la main. Au fond de la vallée se dresse Tashichho Dzong, forteresse-monastère qui abrite le gouvernement.",
+    "w": "Une petite ville allongée dans une étroite vallée fluviale, entre des versants montagneux abrupts et densément boisés.",
+    "f": [
+      "Thimphou est devenue la capitale du Bhoutan dans les années 1950, à la place de Punakha.",
+      "Le seul aéroport international du Bhoutan, à Paro, se trouve dans une vallée voisine, à environ 50 km."
+    ],
+    "q": {
+      "q": "Qu’est-ce que Thimphou, fait célèbre, ne possède pas ?",
+      "a": "Des feux de circulation",
+      "x": [
+        "Des réverbères",
+        "Des ponts"
+      ]
+    }
+  },
+  "Q11568": {
+    "t": "Une ville portuaire tropicale nommée d’après Charles Darwin",
+    "s": "De sombres mangroves frangent un grand port de la côte tropicale nord de l’Australie, et Darwin occupe une presqu’île basse en son sein. Autour s’étendent une savane boisée plate et, plus à l’est, les plaines inondables du Kakadu. À la saison humide, d’immenses orages se forment sur les terres presque chaque après-midi. Le port fut baptisé en 1839 par l’équipage du HMS Beagle, d’après leur ancien compagnon de bord Charles Darwin.",
+    "w": "Une petite ville sur une presqu’île basse dans un large port bordé de mangroves ; une savane verte et plate au-delà.",
+    "f": [
+      "Darwin est plus proche de Jakarta que de Sydney.",
+      "Des crocodiles marins vivent dans les rivières et les baies autour de la ville."
+    ],
+    "q": {
+      "q": "Darwin a été baptisée en 1839 par l’équipage de quel navire ?",
+      "a": "Le HMS Beagle",
+      "x": [
+        "Le HMS Endeavour",
+        "Le HMS Bounty"
+      ]
+    }
+  },
+  "Q17872": {
+    "t": "Une ville dans une brèche de crêtes rouges, au cœur du pays",
+    "s": "Alice Springs se trouve presque au centre de l’Australie, nichée dans une brèche des MacDonnell Ranges, longues crêtes rouges parallèles qui traversent le désert d’est en ouest comme les plis d’un tapis. La Todd, qui traverse la ville, n’est d’ordinaire qu’un lit de sable sec. La localité a grandi autour d’une station de l’Overland Telegraph, achevé en 1872, qui reliait Adélaïde à Darwin.",
+    "w": "De longues crêtes rouges parallèles d’est en ouest dans un désert rouge, avec une petite ville dans une brèche entre elles.",
+    "f": [
+      "Lors de la Henley-on-Todd Regatta, les équipages courent avec des bateaux sans fond le long du lit de rivière à sec.",
+      "Les sources, puis la ville, furent nommées d’après Alice Todd, épouse du constructeur du télégraphe, Charles Todd."
+    ],
+    "q": {
+      "q": "Les bateaux de la Henley-on-Todd Regatta, à Alice Springs, n’ont pas de…",
+      "a": "Fond",
+      "x": [
+        "Rames",
+        "Voiles"
+      ]
+    }
+  },
+  "Q3114": {
+    "t": "Une capitale dessinée sur papier, autour d’un lac artificiel",
+    "s": "Canberra fut choisie comme compromis entre les rivales Sydney et Melbourne, et dessinée sur le papier par les architectes américains Walter Burley Griffin et Marion Mahony Griffin. D’en haut, cherchez le lac artificiel en son centre et le motif géométrique d’avenues et de cercles autour. Des collines boisées et des réserves naturelles séparent les banlieues, d’où son surnom de « capitale du bush ».",
+    "w": "Une ville étalée parmi des collines boisées, avec un long lac artificiel au milieu et des avenues géométriques autour.",
+    "f": [
+      "Le projet des Griffin a remporté un concours international en 1912.",
+      "Le lac Burley Griffin a été créé en 1963 en barrant la Molonglo."
+    ],
+    "q": {
+      "q": "Qui a remporté en 1912 le concours pour dessiner Canberra ?",
+      "a": "Walter Burley Griffin",
+      "x": [
+        "Edwin Lutyens",
+        "Frank Lloyd Wright"
+      ]
+    }
+  },
+  "Q57278": {
+    "t": "Charbonniers, embouchure et mer de dunes",
+    "s": "Une file de vraquiers au mouillage au large trahit Newcastle : à l’embouchure de la Hunter se trouve le plus grand port d’exportation de charbon du monde. Au nord du port, les dunes pâles de Stockton Bight s’étirent sur environ 30 km le long de la côte. Au sud s’étend le grand lac ramifié de Macquarie. Le charbon a été découvert ici en 1797.",
+    "w": "Une ville à l’embouchure d’une rivière, des navires au mouillage au large ; de longues dunes pâles au nord, un grand lac au sud.",
+    "f": [
+      "Les dunes de Stockton Bight sont les plus grandes dunes côtières mobiles de Nouvelle-Galles du Sud.",
+      "La vallée de la Hunter, à l’intérieur, est l’une des plus anciennes régions viticoles d’Australie."
+    ],
+    "q": {
+      "q": "Newcastle est le premier port d’exportation du monde pour…",
+      "a": "Le charbon",
+      "x": [
+        "Le minerai de fer",
+        "Le blé"
+      ]
+    }
+  },
+  "Q5112": {
+    "t": "Une ville en damier ceinte d’un anneau de parcs",
+    "s": "Un anneau continu de parcs verts encadre le centre en damier d’Adélaïde, plan tracé par le colonel William Light en 1837 et toujours bien visible d’en haut. La ville s’étend sur une plaine côtière entre le golfe Saint-Vincent et les monts Lofty, boisés. Contrairement à Sydney ou Hobart, l’Australie-Méridionale a été peuplée de colons libres, jamais de forçats.",
+    "w": "Un centre en damier carré encadré d’une ceinture verte de parcs, sur une plaine entre un golfe à l’ouest et des collines à l’est.",
+    "f": [
+      "La ville porte le nom de la reine Adélaïde, épouse du roi Guillaume IV.",
+      "La vallée de la Barossa, l’une des régions viticoles les plus connues d’Australie, se trouve à environ 60 km au nord-est."
+    ],
+    "q": {
+      "q": "Qui a tracé le damier et les parcs d’Adélaïde ?",
+      "a": "William Light",
+      "x": [
+        "Lachlan Macquarie",
+        "Walter Burley Griffin"
+      ]
+    }
+  },
+  "Q190021": {
+    "t": "Tropiques secs, rocher rouge et île magnétique",
+    "s": "Townsville s’étale le long d’une portion plate et sèche de la côte nord du Queensland, autour de Castle Hill, dôme de granit rose-rouge qui jaillit en pleine ville. Juste au large se trouve Magnetic Island, montagneuse et boisée, et plus loin commence la Grande Barrière de corail. Les collines derrière reçoivent moins de pluie que la côte humide plus au nord, d’où l’aspect plus sec et l’herbe brune de Townsville.",
+    "w": "Une ville sur une côte plate autour d’une colline rocheuse rouge, avec une île vallonnée juste au large ; une prairie brune derrière.",
+    "f": [
+      "James Cook baptisa Magnetic Island en 1770, car elle semblait perturber le compas de son navire.",
+      "Castle Hill, haute d’environ 286 m, se dresse en plein centre-ville."
+    ],
+    "q": {
+      "q": "Pourquoi James Cook l’a-t-il appelée Magnetic Island ?",
+      "a": "Elle semblait dérégler son compas",
+      "x": [
+        "Elle était riche en minerai de fer",
+        "Elle attirait les navires par tempête"
+      ]
+    }
+  },
+  "Q34932": {
+    "t": "Un fleuve en serpentins et une baie d’îles de sable géantes",
+    "s": "La Brisbane s’enroule à travers la ville en boucles serrées avant d’atteindre la baie Moreton. Dans la baie, les îles Moreton et North Stradbroke comptent parmi les plus grandes îles de sable du monde, leurs dunes pâles face au Pacifique. Au nord, cherchez les Glass House Mountains, groupe de cheminées volcaniques qui jaillissent brusquement de la plaine.",
+    "w": "Une ville le long d’un fleuve aux boucles serrées ; une large baie abritée par de longues îles de sable ; des pics volcaniques au nord.",
+    "f": [
+      "James Cook baptisa les Glass House Mountains en 1770 : elles lui rappelaient des fours de verrerie du Yorkshire.",
+      "Brisbane est née en 1825 comme colonie pénitentiaire pour forçats."
+    ],
+    "q": {
+      "q": "Qui a baptisé les Glass House Mountains, au nord de Brisbane ?",
+      "a": "James Cook",
+      "x": [
+        "Matthew Flinders",
+        "John Oxley"
+      ]
+    }
+  },
+  "Q40191": {
+    "t": "Une ville portuaire sous une montagne saupoudrée de neige",
+    "s": "Hobart épouse les rives du large estuaire de la Derwent, franchi par un long pont, et juste derrière elle se dresse le kunanyi / mont Wellington, haut de 1 271 m et souvent saupoudré de neige. Fondée en 1804, c’est la deuxième plus ancienne capitale d’Australie. Des navires en partent pour l’océan Austral : Hobart est une porte de l’Antarctique.",
+    "w": "Une ville le long d’un large estuaire franchi par un long pont, avec une grande montagne sombre qui se dresse juste derrière.",
+    "f": [
+      "La course de voile Sydney-Hobart, courue pour la première fois en 1945, arrive chaque année sur la Derwent.",
+      "La Division antarctique australienne est installée juste au sud de la ville."
+    ],
+    "q": {
+      "q": "En quelle année Hobart a-t-elle été fondée ?",
+      "a": "En 1804",
+      "x": [
+        "En 1788",
+        "En 1836"
+      ]
+    }
+  },
+  "Q37400": {
+    "t": "Une capitale neuve aux routes immenses, en rase campagne",
+    "s": "Naypyidaw a été bâtie de toutes pièces au début des années 2000 sur une plaine entre les collines boisées du Bago Yoma et les hauteurs shan, et elle est devenue la capitale de la Birmanie en 2005-2006. D’en haut, elle ne ressemble à aucune autre ville : routes rectilignes très larges, quartiers très espacés et grands vides de campagne entre eux. Son nom signifie à peu près « demeure des rois ».",
+    "w": "Une ville étalée et peu bâtie, aux routes droites très larges et aux quartiers épars, sur une plaine entre des collines boisées.",
+    "f": [
+      "Certaines de ses grandes avenues comptent environ 20 voies.",
+      "La pagode Uppatasanti y est une copie presque exacte de la Shwedagon de Rangoun, à peine moins haute."
+    ],
+    "q": {
+      "q": "Que signifie le nom Naypyidaw ?",
+      "a": "Demeure des rois",
+      "x": [
+        "Ville d’or",
+        "Fin des conflits"
+      ]
+    }
+  },
+  "Q9347": {
+    "t": "Toute une capitale tassée sur un minuscule îlot corallien",
+    "s": "Malé est l’une des capitales les plus saisissantes vues d’avion : une petite île corallienne, longue d’environ 2 km seulement, couverte de bâtiments jusqu’au bord de l’eau. À côté se trouvent l’île plate de l’aéroport et Hulhumalé, grande île bâtie avec du sable dragué. Tout autour, les atolls parsèment de lagons turquoise l’océan Indien bleu sombre.",
+    "w": "Une minuscule île couverte de bâtiments d’un bord à l’autre, à côté d’une île-aéroport plate ; lagons turquoise et récifs tout autour.",
+    "f": [
+      "Le mot « atoll » vient du divehi, la langue des Maldives.",
+      "Les Maldives sont le pays le plus bas du monde, avec une altitude moyenne d’environ 1,5 m.",
+      "Un pont ouvert en 2018 relie Malé à l’île de l’aéroport."
+    ],
+    "q": {
+      "q": "De quelle langue vient le mot « atoll » ?",
+      "a": "Du divehi",
+      "x": [
+        "De l’hawaïen",
+        "Du malais"
+      ]
+    }
+  },
+  "Q181557": {
+    "t": "Une ville portuaire derrière une île longue et mince",
+    "s": "Kaohsiung s’étire le long de la côte sud-ouest de Taïwan derrière Cijin, île longue et fine comme un crayon qui abrite son port du détroit de Taïwan. Les navires entrent par des passes à chaque extrémité. C’est le premier port de Taïwan. À l’extrémité nord, la bosse verte du Shoushan domine l’eau, et loin à l’intérieur, la chaîne centrale borde l’horizon est.",
+    "w": "Une longue ville derrière une île mince parallèle à la côte, une colline verte au nord et des montagnes loin à l’est.",
+    "f": [
+      "L’ancien nom de la ville, Takau, viendrait d’un mot autochtone désignant une forêt de bambous.",
+      "La seconde entrée du port a été percée à travers Cijin dans les années 1970."
+    ],
+    "q": {
+      "q": "Quelle île longue et étroite abrite le port de Kaohsiung ?",
+      "a": "Cijin",
+      "x": [
+        "Penghu",
+        "Liuqiu"
+      ]
+    }
+  },
+  "Q23661": {
+    "t": "La capitale la plus australe, sur un port rond et venteux",
+    "s": "Wellington escalade des collines vertes et abruptes autour d’un port rond presque fermé, à la pointe sud de l’île du Nord de la Nouvelle-Zélande. Cherchez le bord parfaitement rectiligne de la vallée de la Hutt au nord-est : il suit la faille de Wellington. Juste au sud, les eaux souvent agitées du détroit de Cook vous séparent de l’île du Sud, visible par temps clair.",
+    "w": "Une ville sur des collines abruptes autour d’un port rond ; une vallée au bord rectiligne au nord-est, un détroit et une île lointaine au sud.",
+    "f": [
+      "Wellington est la capitale d’État souverain la plus australe du monde.",
+      "Les vents canalisés par le détroit de Cook en font l’une des villes les plus venteuses du monde."
+    ],
+    "q": {
+      "q": "Quel détroit s’étend juste au sud de Wellington ?",
+      "a": "Le détroit de Cook",
+      "x": [
+        "Le détroit de Bass",
+        "Le détroit de Foveaux"
+      ]
+    }
+  },
+  "Q79990": {
+    "t": "Une ville-jardin entre rivières en tresses et vieux volcans",
+    "s": "De larges rivières en tresses s’étalent en éventail depuis les Alpes du Sud à travers le patchwork plat des plaines de Canterbury, et Christchurch se trouve au bord maritime de ces plaines. Au sud-est de la ville se dresse la péninsule de Banks, bâtie par deux anciens volcans dont les cratères noyés forment aujourd’hui les ports de Lyttelton et d’Akaroa. Des colons anglais fondèrent la ville en 1850.",
+    "w": "Une ville plate à côté d’une péninsule ronde et vallonnée ; des plaines quadrillées et des rivières en tresses, des montagnes enneigées loin à l’ouest.",
+    "f": [
+      "Christchurch est une grande porte de l’Antarctique : les vols de ravitaillement de plusieurs programmes nationaux partent de son aéroport.",
+      "La Waimakariri, au nord de la ville, se divise en nombreux bras sur un large lit de graviers."
+    ],
+    "q": {
+      "q": "Que sont les ports de Lyttelton et d’Akaroa ?",
+      "a": "Des cratères volcaniques noyés",
+      "x": [
+        "Des fjords glaciaires",
+        "Des lagons coralliens"
+      ]
+    }
+  },
+  "Q19881964": {
+    "t": "Une capitale nouvelle au nom d’une antique ville bouddhique",
+    "s": "Amaravati est en cours de tracé sur des terres agricoles plates de la rive sud de la Krishna, juste en amont de Vijayawada et de son long barrage ; d’en haut, cherchez de nouvelles grilles de routes découpées à travers les champs verts. Le nom est emprunté à l’antique ville d’Amaravathi, un peu plus en amont, où se dressait un grand stupa bouddhique il y a plus de 2 000 ans.",
+    "w": "Des terres agricoles vertes et plates sur la rive sud d’un large fleuve, traversées d’une grille de routes neuves, près d’une ville à barrage.",
+    "f": [
+      "Des sculptures du stupa d’Amaravati comptent parmi les trésors du British Museum et du Government Museum de Chennai.",
+      "La Krishna, longue d’environ 1 400 km, est l’un des grands fleuves de l’Inde péninsulaire."
+    ],
+    "q": {
+      "q": "L’antique stupa d’Amaravati se dressait au bord de quel fleuve ?",
+      "a": "La Krishna",
+      "x": [
+        "La Godavari",
+        "La Kaveri"
+      ]
+    }
+  }
+}

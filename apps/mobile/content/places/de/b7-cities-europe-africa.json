@@ -862,5 +862,2441 @@
         "Placentia"
       ]
     }
+  },
+  "Q87": {
+    "t": "Ein langes Stadtband zwischen Meer und See",
+    "s": "Ein dünnes Band heller Gebäude, eingezwängt zwischen dem Mittelmeer und dem flachen Mariut-See, zieht sich kilometerweit an der Küste entlang: Das ist Alexandria. Achten Sie auf die Rundung des Osthafens. Alexander der Große gründete die Stadt 331 v. Chr., und ihr Leuchtturm, der Pharos, war eines der Sieben Weltwunder der Antike.",
+    "w": "Eine schmale Stadt entlang einer geraden Küste, mit einem gebogenen Hafen und direkt landeinwärts einem flachen See mit Sümpfen.",
+    "f": [
+      "Die Stadt erstreckt sich über mehr als 30 km an der Küste, reicht aber nur wenige Kilometer ins Land.",
+      "Die antike Bibliothek von Alexandria war eines der großen Zentren der Gelehrsamkeit der klassischen Welt.",
+      "Der Pharos stand weit über 1.500 Jahre lang auf einer Insel an der Hafeneinfahrt."
+    ],
+    "q": {
+      "q": "Wer gründete Alexandria 331 v. Chr.?",
+      "a": "Alexander der Große",
+      "x": [
+        "Ptolemaios I.",
+        "Julius Caesar"
+      ]
+    }
+  },
+  "Q1794": {
+    "t": "Landebahnen, in den Wald am Main geschnitten",
+    "s": "Helle Pistenstreifen, in einen großen dunklen Wald geschnitten, markieren einen der verkehrsreichsten Flughäfen Europas, gleich südlich von Frankfurt. Die Stadt liegt am Main, rund 30 km bevor er in den Rhein mündet, und im Nordwesten steigen die bewaldeten Höhen des Taunus an. Jahrhundertelang wurden hier die deutschen Könige gewählt.",
+    "w": "Ein kompaktes Zentrum an einem von Ost nach West fließenden Fluss, im Süden ein großer Wald, durchschnitten von langen, geraden Landebahnen.",
+    "f": [
+      "Ab 1356 wurden die Kaiser des Heiligen Römischen Reiches in Frankfurt gewählt, ab 1562 auch hier gekrönt.",
+      "Johann Wolfgang von Goethe wurde 1749 in Frankfurt geboren.",
+      "Der Taunus im Nordwesten erreicht am Großen Feldberg rund 880 Meter."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Frankfurt?",
+      "a": "Der Main",
+      "x": [
+        "Der Neckar",
+        "Die Mosel"
+      ]
+    }
+  },
+  "Q1055": {
+    "t": "Ein großer Hafen weit elbaufwärts, mit einem See im Herzen",
+    "s": "Rund 100 km elbaufwärts von der Nordsee liegt einer der größten Häfen Europas. Achten Sie von oben auf Hamburgs Labyrinth aus Hafenbecken und Containerterminals am Südufer und auf einen hellen See mitten in der Innenstadt: die Alster, ein kleiner Fluss, vor Jahrhunderten aufgestaut. Hamburg war eine führende Stadt der Hanse.",
+    "w": "Ein breiter Fluss mit einem Labyrinth aus Hafenbecken am Südufer und gleich nördlich davon ein weiter See in der Innenstadt.",
+    "f": [
+      "Die Alsterseen entstanden im Mittelalter durch das Aufstauen eines kleinen Flusses für eine Mühle.",
+      "Die Speicherstadt, ein auf Eichenpfählen erbautes Lagerhausviertel, ist UNESCO-Welterbe.",
+      "Die Gezeiten reichen bis Hamburg: Hier steigt und fällt die Elbe um mehr als drei Meter."
+    ],
+    "q": {
+      "q": "Welcher See liegt im Zentrum Hamburgs?",
+      "a": "Die Alster",
+      "x": [
+        "Die Müritz",
+        "Das Steinhuder Meer"
+      ]
+    }
+  },
+  "Q1726": {
+    "t": "Eine bayerische Stadt mit den Alpen vor der Haustür",
+    "s": "Wenn der warme, trockene Föhn weht, wirken die Alpen von München aus zum Greifen nah, obwohl die Gipfelwand rund 60 km südlich liegt. Die Stadt breitet sich über eine flache Schotterebene an der grünen Isar aus. Südwestlich davon glitzern zwei große Seen, Starnberger See und Ammersee, zwischen Feldern und Wäldern.",
+    "w": "Eine große Stadt auf flacher Ebene, geteilt von einem grünen Flusstal, mit Seen im Südwesten und den Alpen dahinter.",
+    "f": [
+      "Münchens Name geht auf die Mönche zurück, die hier lebten, bevor Heinrich der Löwe den Ort 1158 gründete.",
+      "Das erste Oktoberfest fand 1810 zur Feier einer königlichen Hochzeit statt.",
+      "Mit rund 520 Metern ist München eine der höchstgelegenen deutschen Großstädte."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch München?",
+      "a": "Die Isar",
+      "x": [
+        "Der Inn",
+        "Der Lech"
+      ]
+    }
+  },
+  "Q1085": {
+    "t": "Ein Fluss in S-Kurven zwischen hundert Türmen",
+    "s": "Die Moldau gibt Prag seine Form. Von oben schwingt sich der Fluss in einem weiten S durch die Stadt, mit der bewaldeten Anhöhe des Petřín und dem Burgberg am Westufer und der dichten Altstadt im Osten. Grüne Inseln liegen im Strom. Rund 30 km weiter nördlich endet die Moldau in der Elbe.",
+    "w": "Ein Fluss in großen S-förmigen Bögen durch eine dichte Stadt, bewaldete Hügel am Westufer und kleine Inseln mitten im Strom.",
+    "f": [
+      "Die Prager Burg gilt oft als größtes geschlossenes Burgareal der Welt.",
+      "Die Karlsbrücke wurde 1357 unter Kaiser Karl IV. begonnen.",
+      "Die Prager Altstadt ist seit 1992 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Prag?",
+      "a": "Die Moldau",
+      "x": [
+        "Die Elbe",
+        "Die March"
+      ]
+    }
+  },
+  "Q35178": {
+    "t": "Eine Wüstenstadt um eine weite, flache Bucht",
+    "s": "Halbringe aus Autobahnen ziehen sich von der Altstadt hinaus in flache, fast konturlose Wüste. Kuwait-Stadt legt sich um das Südufer der Kuwait-Bucht, eines breiten Meeresarms im Nordwestwinkel des Persischen Golfs. Der Name kommt vom arabischen Wort für „kleine Festung“, und der Ort wuchs mit Perlenfischerei und Seefahrt.",
+    "w": "Eine Stadt am Südufer einer weiten Bucht, mit halbkreisförmigen Ringstraßen, die in flache Wüste ausgreifen.",
+    "f": [
+      "Die Ringstraßen der Stadt, nummeriert vom Ersten bis zum Siebten, ziehen sich in konzentrischen Bögen vom alten Zentrum hinaus.",
+      "Auf der Insel Failaka an der Buchteinfahrt stehen Reste eines griechischen Tempels aus dem 3. Jahrhundert v. Chr.",
+      "Vor dem Öl war die Perlentaucherei das Rückgrat der kuwaitischen Wirtschaft."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Kuwait?",
+      "a": "Kleine Festung",
+      "x": [
+        "Perlenbucht",
+        "Süßes Wasser"
+      ]
+    }
+  },
+  "Q3761": {
+    "t": "Fast genau auf Länge null",
+    "s": "Hier sind Sie ganz nah am Nullmeridian: Gleich östlich von Accra, im Hafen Tema, geht der Greenwich-Meridian an Land. Die Stadt breitet sich an einem flachen Abschnitt des Golfs von Guinea aus, ihre niedrigen Dächer ziehen sich landeinwärts über eine grasige Küstenebene, nur rund 600 km nördlich des Punkts, an dem der Meridian den Äquator kreuzt.",
+    "w": "Eine weite, flache Stadt an einer flachen, sanft geschwungenen Küste, im Norden landeinwärts ein langer Hügelkamm.",
+    "f": [
+      "Der Greenwich-Meridian verläuft durch Tema, rund 25 km östlich des Zentrums von Accra.",
+      "Der Name Accra geht vermutlich auf „nkran“ zurück, ein Akan-Wort für Ameisen.",
+      "Accra wurde 1877 Hauptstadt der britischen Kolonie Goldküste."
+    ],
+    "q": {
+      "q": "Welcher Hafen bei Accra liegt auf dem Greenwich-Meridian?",
+      "a": "Tema",
+      "x": [
+        "Takoradi",
+        "Lomé"
+      ]
+    }
+  },
+  "Q3579": {
+    "t": "Ein alter Mittelmeerhafen zwischen Meer und Wüste",
+    "s": "Tripolis breitet sich an der libyschen Küste aus, eine helle Stadt an flachem Ufer, wo ein Gürtel aus Gärten und Palmenhainen landeinwärts in Wüste übergeht. Phönizier gründeten sie im 7. Jahrhundert v. Chr. als Oea. Ihr griechischer Name bedeutet „drei Städte“, nach Oea und seinen Nachbarn Sabratha und Leptis Magna, heute beides berühmte römische Ruinen.",
+    "w": "Eine helle Stadt an einer geraden Mittelmeerküste, ein Hafen am alten Zentrum, dahinter grünes Farmland, das in Wüste übergeht.",
+    "f": [
+      "Der Mark-Aurel-Bogen, um 165 n. Chr. erbaut, steht noch in der Altstadt von Tripolis.",
+      "Leptis Magna, rund 120 km östlich der Stadt, ist eine der besterhaltenen Römerstädte am Mittelmeer.",
+      "Die ummauerte Altstadt von Tripolis liegt direkt neben dem Hafen."
+    ],
+    "q": {
+      "q": "Was bedeutet der griechische Name Tripolis?",
+      "a": "Drei Städte",
+      "x": [
+        "Drei Hügel",
+        "Meerestor"
+      ]
+    }
+  },
+  "Q33935": {
+    "t": "Weiße Stadt auf Dünen, ein uralter Hafen an ihrer Spitze",
+    "s": "Ein dichtes Band heller Gebäude drängt sich bis an einen geraden, sandigen Mittelmeerstrand, und an seinem Südende, auf einer niedrigen felsigen Landzunge, liegt Jaffa, ein seit Jahrtausenden genutzter Hafen. Tel Aviv selbst ist jung: Es wurde 1909 auf den Dünen nördlich von Jaffa gegründet.",
+    "w": "Eine helle, dichte Stadt entlang einer schnurgeraden Sandküste, eine kleine Landzunge am Südende, eine Flussmündung im Norden.",
+    "f": [
+      "Die „Weiße Stadt“ Tel Avivs umfasst Tausende Bauhaus-Gebäude und ist seit 2003 UNESCO-Welterbe.",
+      "Der Name Tel Aviv bedeutet „Frühlingshügel“ – Frühling als Jahreszeit.",
+      "Der Jarkon mündet am Nordrand der Stadt ins Meer."
+    ],
+    "q": {
+      "q": "Welcher uralte Hafen bildet das Südende von Tel Aviv?",
+      "a": "Jaffa",
+      "x": [
+        "Akko",
+        "Caesarea"
+      ]
+    }
+  },
+  "Q1757": {
+    "t": "Eine Stadt auf Granit, gesäumt von Inseln",
+    "s": "In kalten Wintern friert das Meer um Helsinki zu, und der ganze Schärengarten wird weiß. Die Stadt liegt auf einer zerfransten Granithalbinsel im Finnischen Meerbusen, zwischen Buchten, Meeresarmen und mehr als dreihundert Inseln; an der Hafeneinfahrt trägt eine Gruppe von Inselchen die alte Seefestung Suomenlinna. Tallinn liegt nur rund 80 km entfernt jenseits des Meerbusens.",
+    "w": "Eine felsige Halbinsel, zerfranst von Buchten und Inseln, nach Süden über den Meerbusen blickend, im Landesinneren Wald und Seen.",
+    "f": [
+      "Helsinki wurde 1812 Hauptstadt Finnlands und löste Turku ab.",
+      "Die 1748 begonnene Seefestung Suomenlinna ist UNESCO-Welterbe.",
+      "Helsinki ist die nördlichste Hauptstadt der Europäischen Union."
+    ],
+    "q": {
+      "q": "Welcher König gründete Helsinki im Jahr 1550?",
+      "a": "Gustav I. von Schweden",
+      "x": [
+        "Christian IV. von Dänemark",
+        "Peter der Große"
+      ]
+    }
+  },
+  "Q121157": {
+    "t": "Eine Pilgerstadt in einem Tal zwischen zwei Gebirgen",
+    "s": "Maschhad füllt ein weites Tal im Nordosten Irans, mit dem Binalud-Gebirge im Südwesten und der Kette des Hezar Masdsched im Nordosten. Die Stadt wuchs um den Schrein des Imam Reza, und ihr Name bedeutet „Ort des Martyriums“. Jedes Jahr kommen Millionen Pilger – eines der großen Pilgerzentren der muslimischen Welt.",
+    "w": "Eine große Stadt in einem weiten Tal, zwischen einer hohen, oft verschneiten Kette im Südwesten und kahlen Bergen im Nordosten.",
+    "f": [
+      "Das Grab Ferdousis, des Dichters des persischen Epos Schahname, steht in Tus, rund 25 km von der Stadt.",
+      "Maschhad ist nach Teheran die zweitgrößte Stadt Irans.",
+      "Das Binalud-Gebirge südwestlich der Stadt steigt über 3.000 Meter an."
+    ],
+    "q": {
+      "q": "Welcher Dichter ist in Tus bei Maschhad begraben?",
+      "a": "Ferdousi",
+      "x": [
+        "Hafis",
+        "Saadi"
+      ]
+    }
+  },
+  "Q1748": {
+    "t": "Wo eine Brücke in einen Tunnel unters Meer taucht",
+    "s": "Kopenhagen blickt auf den Øresund, die Meerenge zwischen Dänemark und Schweden. Achten Sie südlich der Stadt auf eine der großen Ingenieurslinien Europas: Eine Brücke führt von Schweden hinaus, landet auf einer künstlichen Insel und verschwindet dann in einem Tunnel unter dem Meer, um das dänische Ufer zu erreichen. Die Stadt selbst breitet sich über den Rand Seelands und die flache Insel Amager aus.",
+    "w": "Eine lange Brücke über die Meerenge zu einer künstlichen Insel, wo sie verschwindet; Stadt und Flughafen auf der dänischen Seite.",
+    "f": [
+      "Die Øresundbrücke ist rund 8 km lang, und die Verbindung setzt sich in einem 4 km langen Tunnel unter dem Meer fort.",
+      "Peberholm, wo Brücke und Tunnel aufeinandertreffen, ist eine eigens für die Querung aufgeschüttete Insel.",
+      "Bischof Absalon baute hier um 1167 eine Burg – traditionell gilt das als Gründung der Stadt."
+    ],
+    "q": {
+      "q": "Was bedeutet der dänische Name København?",
+      "a": "Kaufmannshafen",
+      "x": [
+        "Königsburg",
+        "Salzbucht"
+      ]
+    }
+  },
+  "Q1515": {
+    "t": "Eine Lagunenstadt mit Regenwald innerhalb ihrer Grenzen",
+    "s": "Abidjan legt sich um die Ébrié-Lagune, ein langes, ruhiges Gewässer hinter einer schmalen Sandnehrung am Golf von Guinea. Die Stadtteile liegen auf Halbinseln und Inseln, verbunden durch Brücken. Achten Sie auf den geraden Durchstich durch die Nehrung – den Vridi-Kanal –, durch den Schiffe in die Lagune gelangen. Mitten in der Stadt liegt ein dunkelgrüner Block geschützten Regenwalds.",
+    "w": "Eine Stadt rund um eine verzweigte Lagune hinter einer geraden Sandküste, durchschnitten von einem schmalen Kanal zum Meer.",
+    "f": [
+      "Der 1950 eröffnete Vridi-Kanal machte Abidjan zu einem der wichtigsten Häfen Westafrikas.",
+      "Der Banco-Nationalpark, ein Rest Regenwald, liegt innerhalb der Stadt.",
+      "Abidjan ist die größte Stadt der Elfenbeinküste, doch die offizielle Hauptstadt ist Yamoussoukro."
+    ],
+    "q": {
+      "q": "Welche Lagune umschließt Abidjan?",
+      "a": "Die Ébrié-Lagune",
+      "x": [
+        "Die Aby-Lagune",
+        "Die Lagune von Lagos"
+      ]
+    }
+  },
+  "Q239": {
+    "t": "Wo ist der Fluss geblieben? Unter den Boulevards",
+    "s": "Suchen Sie in Brüssel keinen Fluss: Im 19. Jahrhundert wurde die Senne überwölbt und unter den Boulevards versteckt. Was Sie sehen, ist eine Stadt auf sanften Hügeln mitten in Belgien, umringt von einer Autobahn, und am Südostrand der Sonienwald, ein großer dunkler Block alter Buchenwälder.",
+    "w": "Eine große Stadt in welligem Farmland, umringt von einer Ringautobahn, mit einem großen dunklen Wald an ihrem Südostrand.",
+    "f": [
+      "Der Sonienwald umfasst mehr als 4.000 Hektar, und Teile davon sind wegen ihrer alten Buchen UNESCO-Welterbe.",
+      "Die Senne wurde in den 1860er- und 1870er-Jahren überbaut und fließt noch heute in Tunneln unter der Stadt.",
+      "Die Grand-Place, der alte Marktplatz, ist UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Was bedeutet Bruocsella, der alte Name Brüssels?",
+      "a": "Heim im Sumpf",
+      "x": [
+        "Brückenstadt",
+        "Hügelfestung"
+      ]
+    }
+  },
+  "Q3897": {
+    "t": "Eine Buchtstadt hinter einem langen Sandfinger",
+    "s": "Luanda schwingt sich um eine Bucht an Angolas Atlantikküste, geschützt von der Ilha, einer langen, dünnen Sandnehrung voller Strände. Weiter südlich umschließt eine weitere Nehrung, die Mussulo-Halbinsel, kilometerweit eine ruhige türkise Lagune. Portugiesische Siedler gründeten die Stadt 1576 – eine der ältesten von Europäern gegründeten Städte südlich der Sahara.",
+    "w": "Eine Stadt um eine Bucht, abgeschlossen von einer dünnen Sandnehrung, weiter südlich eine längere Nehrung mit Lagune.",
+    "f": [
+      "Die Mussulo-Halbinsel südlich der Stadt ist eine fast 30 km lange Sandnehrung.",
+      "Der kalte Benguelastrom hält diese Küste für die Tropen erstaunlich trocken.",
+      "Der Kwanza, nach dem Angolas Währung benannt ist, erreicht rund 70 km südlich das Meer."
+    ],
+    "q": {
+      "q": "Welches europäische Land gründete Luanda 1576?",
+      "a": "Portugal",
+      "x": [
+        "Die Niederlande",
+        "Spanien"
+      ]
+    }
+  },
+  "Q3561": {
+    "t": "Eine weiße Stadt, auf die Hügel über einer Bucht gestapelt",
+    "s": "Algier steigt in weißen Terrassen aus einer weiten, geschwungenen Bucht die steilen Hügel hinter dem Hafen hinauf; die Franzosen nannten es Alger la Blanche, „Algier die Weiße“. Sein arabischer Name bezieht sich auf kleine Inselchen vor der Küste, die vor langer Zeit mit dem Festland verbunden wurden, um den Hafen zu bilden. Die alte Kasbah klammert sich an den Hang über dem Meer.",
+    "w": "Eine weiße Stadt, die steile grüne Hügel um eine weite, geschwungene Bucht erklimmt, mit einer langen Hafenmole.",
+    "f": [
+      "Die Kasbah von Algier ist seit 1992 UNESCO-Welterbe.",
+      "Im 10. Jahrhundert gründete der Berberherrscher Buluggin ibn Ziri die Stadt an der Stelle des antiken Icosium neu.",
+      "Algerien ist flächenmäßig das größte Land Afrikas, und Algier ist Hauptstadt und größte Stadt zugleich."
+    ],
+    "q": {
+      "q": "Was bedeutet Algiers arabischer Name al-Dschazair?",
+      "a": "Die Inseln",
+      "x": [
+        "Die Festung",
+        "Der Hafen"
+      ]
+    }
+  },
+  "Q3792": {
+    "t": "Eine Hauptstadt, direkt an eine Grenze gedrückt",
+    "s": "Der Rand von Lomé läuft geradewegs auf eine Grenze zu: Die Stadt liegt am Westende der kurzen Küste Togos, so nah an Ghana, dass sich beide praktisch berühren. Hinter dem geraden, brandungsumspülten Strand zieht sich eine Lagunenkette parallel zur Küste. 1897 wurde der Ort Hauptstadt der deutschen Kolonie Togo und später des unabhängigen Landes.",
+    "w": "Eine flache Stadt an einer geraden Sandküste, dahinter Lagunen, davor Hafenmolen, die ins Meer ragen.",
+    "f": [
+      "Togos gesamte Küste ist nur gut 50 km lang.",
+      "Lomés westliche Viertel reichen direkt bis an die Grenze zu Ghana.",
+      "Der Grand Marché der Stadt ist berühmt für seine Stoffhändler, besonders für bedruckte Wachsstoffe."
+    ],
+    "q": {
+      "q": "Die Grenze welches Landes verläuft an Lomés Westrand?",
+      "a": "Ghana",
+      "x": [
+        "Benin",
+        "Nigeria"
+      ]
+    }
+  },
+  "Q3572": {
+    "t": "Zwei flache Seen, und Karthago nebenan",
+    "s": "Tunis liegt auf einem schmalen Landhals zwischen zwei flachen Seen, wo der Golf von Tunis tief in Nordafrika einschneidet. Östlich der Altstadt wird der See von Tunis von einem geraden Kanal geteilt, durch den Schiffe zum Hafen der Stadt gelangen. Am Golfufer gleich nordöstlich liegen die Ruinen von Karthago, einst Roms großer Rivale.",
+    "w": "Eine Stadt zwischen einer flachen Lagune mit geradem Kanal im Osten und einer Salzpfanne im Südwesten.",
+    "f": [
+      "Die Ruinen von Karthago, rund 15 km vom Zentrum, sind seit 1979 UNESCO-Welterbe.",
+      "Auch die Medina von Tunis, ein Labyrinth aus Souks und Gassen, ist UNESCO-Welterbe.",
+      "Der See von Tunis ist stellenweise nur rund einen Meter tief, und Flamingos waten in seinem Flachwasser."
+    ],
+    "q": {
+      "q": "Die Ruinen welcher antiken Stadt liegen neben Tunis?",
+      "a": "Karthago",
+      "x": [
+        "Leptis Magna",
+        "Kyrene"
+      ]
+    }
+  },
+  "Q7525": {
+    "t": "Eine Stadt tiefer Buchten nahe der Spitze der Krim",
+    "s": "Sewastopol liegt nahe der Südwestspitze der Halbinsel Krim an einer langen, tiefen Bucht, die mehrere Kilometer ins Land schneidet, mit kleineren Buchten, die wie Finger davon abzweigen. Jenseits der Stadt steigt das Land zum Krimgebirge an. Auf einer Landzunge im Westen liegen die Ruinen von Chersonesos, einer griechischen Kolonie, die vor rund 2.400 Jahren gegründet wurde.",
+    "w": "Eine lange, schmale Bucht, die vom Schwarzen Meer ins Land reicht, mit abzweigenden Seitenbuchten und der Stadt dazwischen.",
+    "f": [
+      "Die Hauptbucht reicht rund 7 km ins Land und ist einer der besten Naturhäfen am Schwarzen Meer.",
+      "Chersonesos wurde im 5. Jahrhundert v. Chr. von griechischen Kolonisten gegründet.",
+      "Die heutige Stadt wurde 1783 gegründet."
+    ],
+    "q": {
+      "q": "Die Ruinen welcher antiken griechischen Stadt liegen bei Sewastopol?",
+      "a": "Chersonesos",
+      "x": [
+        "Olbia",
+        "Tanais"
+      ]
+    }
+  },
+  "Q1519": {
+    "t": "Inselstadt in einem Labyrinth aus Mangroven und Untiefen",
+    "s": "Abu Dhabi liegt auf einer Insel direkt vor der Golfküste, vom Festland durch einen schmalen Kanal getrennt und über Brücken verbunden. Ringsum ist das Meer ein Puzzle aus türkisem Flachwasser, Sandbänken, dunklen Mangroven und flachen Inseln. Das zentrale Straßenraster der Stadt endet abrupt am Wasser, und eine lange Corniche schwingt sich an ihrem Nordwestufer entlang.",
+    "w": "Eine rasterförmig geplante Inselstadt, umringt von türkisem Flachwasser, im Osten dunkle Mangroven und viele flache Inseln.",
+    "f": [
+      "Qasr al-Hosn, ein Fort, das als Wachturm des 18. Jahrhunderts begann, ist das älteste Steingebäude der Stadt.",
+      "Das Emirat Abu Dhabi umfasst mehr als vier Fünftel des Staatsgebiets der VAE.",
+      "Die Mangroven östlich der Insel sind als Nationalpark geschützt."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Abu Dhabi?",
+      "a": "Vater der Gazelle",
+      "x": [
+        "Vater der Perlen",
+        "Tor der Sonne"
+      ]
+    }
+  },
+  "Q23438": {
+    "t": "Eine weiße Hauptstadt zwischen Bergen und Karakum",
+    "s": "In Aschgabat treffen zwei Welten aufeinander: Im Süden erhebt sich das kahle Kopet-Dag-Gebirge, im Norden erstreckt sich die Wüste Karakum, und die Stadt liegt auf einem schmalen grünen Streifen dazwischen. Eine dünne Wasserlinie, der Karakum-Kanal, schwingt sich am Wüstenrand entlang und bringt Wasser vom Amudarja weit im Osten. Die Stadt ist für ihre weißen Marmorfassaden bekannt.",
+    "w": "Eine helle Stadt am Fuß eines kahlen Gebirges, im Norden Sandwüste und ein langer Kanal, der sich vorbeischwingt.",
+    "f": [
+      "Der Karakum-Kanal führt über mehr als 1.000 km durch die Wüste, einer der längsten Bewässerungskanäle der Welt.",
+      "Die Ruinen von Nisa, einer frühen Hauptstadt der Parther, liegen gleich westlich der Stadt und sind UNESCO-Welterbe.",
+      "Der Kopet Dag südlich der Stadt bildet die Grenze Turkmenistans zum Iran."
+    ],
+    "q": {
+      "q": "Welche Wüste erstreckt sich nördlich von Aschgabat?",
+      "a": "Die Karakum",
+      "x": [
+        "Die Kysylkum",
+        "Die Gobi"
+      ]
+    }
+  },
+  "Q3881": {
+    "t": "Eine Plateau-Hauptstadt, die an einem Abstellgleis begann",
+    "s": "Die Luft auf Lusakas Plateau ist frischer, als die Breitenlage vermuten lässt: Die Stadt liegt rund 1.280 Meter hoch auf einer weiten, flachen Hochfläche mitten in Sambia. Sie wuchs aus einem kleinen Abstellgleis an der Bahnlinie aus dem Süden, gebaut Anfang des 20. Jahrhunderts. 1935 wurde sie koloniale Hauptstadt, gewählt wegen ihrer zentralen Lage und gesunden Höhe.",
+    "w": "Eine ausgedehnte, flache Stadt auf einem ebenen, licht bewaldeten Plateau, ringsum Farmland und rotbraune Erde.",
+    "f": [
+      "Die Stadt trägt den Namen von Lusaaka, einem örtlichen Dorfoberhaupt, dessen Dorf hier stand.",
+      "Der Kafue fließt rund 50 km südlich der Stadt vorbei.",
+      "Dank der Höhe sind die Winter hier mild und trocken, mit kühlen Nächten von Mai bis August."
+    ],
+    "q": {
+      "q": "Was ließ Lusaka Anfang des 20. Jahrhunderts wachsen?",
+      "a": "Ein Abstellgleis der Bahn",
+      "x": [
+        "Eine Goldmine",
+        "Ein Flusshafen"
+      ]
+    }
+  },
+  "Q3921": {
+    "t": "Hochland-Hauptstadt zwischen Granithügeln und Jacarandas",
+    "s": "Harare breitet sich über das hohe Grasland im Norden Simbabwes aus, rund 1.500 Meter über dem Meer, wo runde Granithügel aus dem Plateau ragen. Suchen Sie südwestlich der Stadt einen gewundenen See: den Chivero-See, einen Stausee am Manyame. Im Oktober blühen Tausende Jacarandabäume entlang der Alleen violett auf.",
+    "w": "Eine ausgedehnte Stadt auf flachem, grasigem Plateau voller Granitkuppen; im Südwesten ein gewundener Stausee.",
+    "f": [
+      "Harare liegt auf rund 1.490 Metern, deshalb sind seine Sommer warm statt heiß.",
+      "Der Chivero-See, rund 30 km südwestlich des Zentrums, liefert einen Großteil des Wassers der Stadt.",
+      "Die erste Siedlung wuchs neben dem Kopje, einem Granithügel neben der heutigen Innenstadt."
+    ],
+    "q": {
+      "q": "Wie hieß Harare bis 1982?",
+      "a": "Salisbury",
+      "x": [
+        "Fort Victoria",
+        "Umtali"
+      ]
+    }
+  },
+  "Q193250": {
+    "t": "Breite Straßen nahe einem Land aus Granitkuppeln",
+    "s": "Bulawayo liegt auf dem trockenen, offenen Plateau im Südwesten Simbabwes, ein ordentliches Raster ungewöhnlich breiter Straßen. Sie wurden angeblich so breit angelegt, dass ein Wagen mit einem vollen Ochsengespann darin wenden konnte. Rund 35 km südlich erheben sich die Matobo Hills, eine wilde Landschaft aus kahlen Granitkuppeln und gewagt balancierenden Felsblöcken.",
+    "w": "Eine rasterförmig angelegte Stadt auf trockenem, flachem Plateau, im Süden raues Land aus kahlen Granithügeln.",
+    "f": [
+      "Die Matobo Hills sind seit 2003 UNESCO-Welterbe, bekannt für ihre uralten Felsmalereien.",
+      "Bulawayo war die Königsstadt des Ndebele-Königs Lobengula, bevor 1894 die Kolonialstadt angelegt wurde.",
+      "Bulawayo ist die zweitgrößte Stadt Simbabwes."
+    ],
+    "q": {
+      "q": "Welche Granithügel erheben sich südlich von Bulawayo?",
+      "a": "Die Matobo Hills",
+      "x": [
+        "Die Chimanimani-Berge",
+        "Die Drakensberge"
+      ]
+    }
+  },
+  "Q1764": {
+    "t": "Die nördlichste Hauptstadt der Welt, benannt nach Dampf",
+    "s": "Dunkle Lavafelder, teils das jüngste Land Europas, ziehen sich südwestlich von Reykjavík über die Halbinsel Reykjanes. Die Stadt liegt auf einer flachen Halbinsel am Südufer der Bucht Faxaflói, gegenüber der lange Tafelberg Esja. Der erste Siedler, Ingólfur Arnarson, soll die Bucht nach dem Dampf benannt haben, der aus heißen Quellen aufstieg.",
+    "w": "Eine flache, kompakte Stadt auf einer Halbinsel, gegenüber in der Bucht ein Tafelberg, im Südwesten dunkle Lavafelder.",
+    "f": [
+      "Reykjavík ist die nördlichste Hauptstadt eines souveränen Staates.",
+      "Fast alle Wohnungen der Stadt werden mit heißem Wasser aus geothermischen Quellen beheizt.",
+      "Die Esja jenseits der Bucht erreicht rund 900 Meter."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Reykjavík?",
+      "a": "Rauchbucht",
+      "x": [
+        "Eishafen",
+        "Walfjord"
+      ]
+    }
+  },
+  "Q4093": {
+    "t": "Schottlands größte Stadt, am Werftenfluss Clyde",
+    "s": "Glasgow erstreckt sich entlang des Clyde, eines Flusses, an dem einst ein großer Teil der Schiffe der Welt gebaut wurde. Flussabwärts weitet er sich zum langen, inselreichen Firth of Clyde. Im Norden steigen die niedrigen, grünen Campsie Fells an, und dahinter, rund 30 km entfernt, liegt Loch Lomond, nach Fläche der größte See Großbritanniens.",
+    "w": "Eine große Stadt an einem Fluss, der nach Westen in einen langen, inselreichen Meeresarm mündet; im Nordwesten grüne Hügel und ein großer See.",
+    "f": [
+      "Loch Lomond ist nach Fläche der größte See Großbritanniens.",
+      "Glasgows Name soll auf gälische Wörter für „lieber grüner Ort“ zurückgehen.",
+      "Glasgow ist Schottlands größte Stadt, größer als die Hauptstadt Edinburgh."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Glasgow?",
+      "a": "Der Clyde",
+      "x": [
+        "Der Forth",
+        "Der Tay"
+      ]
+    }
+  },
+  "Q3894": {
+    "t": "Grüne Hügel am Ufer des größten Sees Afrikas",
+    "s": "Kampala ist über eine Gruppe grüner Hügel gleich nördlich des Victoriasees gebaut, die Stadt füllt die Täler dazwischen. Ihr Name stammt von einem alten Luganda-Ausdruck für „Hügel der Impala“. Hier sind Sie fast genau am Äquator: Er verläuft nur rund 35 km südlich des Zentrums, quer über den See.",
+    "w": "Eine grüne, hügelige Stadt, die zu einer zerfransten Bucht eines riesigen Sees hinabfließt, im Südwesten die Halbinsel von Entebbe.",
+    "f": [
+      "Der Victoriasee ist der größte See Afrikas und die Hauptquelle des Weißen Nils.",
+      "Der Nil verlässt den Victoriasee bei Jinja, rund 80 km östlich von Kampala.",
+      "Die Kasubi-Gräber, Grabstätte der Könige von Buganda, sind UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher See liegt gleich südlich von Kampala?",
+      "a": "Der Victoriasee",
+      "x": [
+        "Der Albertsee",
+        "Der Kyogasee"
+      ]
+    }
+  },
+  "Q131694": {
+    "t": "Eine Hafenstadt im Inneren eines alten Vulkans",
+    "s": "Aden wuchs auf einer zerklüfteten Vulkanhalbinsel am Golf von Aden, und sein ältester Stadtteil liegt tatsächlich in einem Krater, umringt von den zackigen Wänden eines erloschenen Vulkans. Jenseits des Hafens ist die Halbinsel Klein-Aden ein weiterer alter Vulkan. Das tiefe, geschützte Wasser dazwischen machte Aden zu einem der großen Häfen auf dem Seeweg zwischen Europa und Indien.",
+    "w": "Zwei dunkle Vulkanhalbinseln, die einen weiten Naturhafen umschließen, die Stadt in ihre Buchten und Krater geschmiegt.",
+    "f": [
+      "Die antiken Tawila-Zisternen, in die Kraterwand gehauen, sollten den seltenen Regen auffangen.",
+      "1839 wurde Aden eine britische Kohlestation für Dampfschiffe auf dem Weg nach Indien.",
+      "Der Dschabal Schamsan, höchster Punkt des Kraterrands, erreicht rund 550 Meter."
+    ],
+    "q": {
+      "q": "Worin ist Adens Altstadt Crater gebaut?",
+      "a": "In einem erloschenen Vulkan",
+      "x": [
+        "In einem Meteoritenkrater",
+        "In einem ausgetrockneten See"
+      ]
+    }
+  },
+  "Q8717": {
+    "t": "Der Binnenhafen, der einst den Amerikahandel beherrschte",
+    "s": "Hochseeschiffe fuhren einst den Guadalquivir hinauf bis Sevilla, rund 80 km vom Meer, und ab 1503 hielt die Stadt das königliche Monopol auf den Handel mit Amerika. Heute breitet sie sich über eine flache, sonnengebleichte Ebene aus Olivenhainen und Feldern aus. Flussabwärts windet sich der Fluss durch die riesigen Marschen von Doñana zum Atlantik.",
+    "w": "Eine große Stadt auf einer flachen Ebene an einem Fluss, mit einem geraden, kanalartigen Arm und Feldern in alle Richtungen.",
+    "f": [
+      "Sevilla hat den einzigen Flusshafen Spaniens im Landesinneren.",
+      "Magellans Expedition, die erste Weltumsegelung, brach 1519 von Sevilla auf.",
+      "Die Kathedrale von Sevilla gilt oft als größte gotische Kathedrale der Welt."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Sevilla?",
+      "a": "Der Guadalquivir",
+      "x": [
+        "Der Guadiana",
+        "Der Ebro"
+      ]
+    }
+  },
+  "Q204365": {
+    "t": "Eine alte Sultansstadt zwischen Sahel-Granit",
+    "s": "Zinder breitet sich über den trockenen Sahel im Süden Nigers aus, eine flache, sandfarbene Stadt zwischen Kuppen aus nacktem Granit. Sie war Sitz des Sultanats Damagaram, das durch Karawanen zwischen Kano und dem Norden quer durch die Sahara reich wurde. Ihr altes ummauertes Viertel, der Birni, umgibt noch immer den Sultanspalast.",
+    "w": "Eine flache, sandige Stadt zwischen kahlen Felskuppen auf flachen, trockenen Sahel-Ebenen, ringsum verstreute Felder.",
+    "f": [
+      "Das Sultanat Damagaram machte Zinder im 18. Jahrhundert zu seiner Hauptstadt.",
+      "Die nigerianische Stadt Kano liegt rund 200 km südlich.",
+      "Zinder war bis 1926 Hauptstadt der französischen Kolonie Niger."
+    ],
+    "q": {
+      "q": "Welche Stadt löste Zinder 1926 als Hauptstadt Nigers ab?",
+      "a": "Niamey",
+      "x": [
+        "Agadez",
+        "Maradi"
+      ]
+    }
+  },
+  "Q3674": {
+    "t": "Eine Sahel-Hauptstadt am großen Niger",
+    "s": "Grüne Streifen aus Reisfeldern und Gärten säumen den breiten braunen Niger bei Niamey, die einzige leuchtende Farbe in einem sonst staubigen Land. Im späten 19. Jahrhundert nur ein kleines Dorf, wurde die Stadt 1926 koloniale Hauptstadt und wächst seither rasant. Östlich davon lebt im Buschland die letzte wilde Herde westafrikanischer Giraffen.",
+    "w": "Eine Stadt an einem breiten braunen Fluss, der nach Südosten fließt, mit grünen Feldbändern an seinen Ufern und trockenen Plateaus dahinter.",
+    "f": [
+      "Die letzten wilden Westafrikanischen Giraffen leben um Kouré, rund 60 km südöstlich von Niamey.",
+      "Der Niger, der drittlängste Fluss Afrikas, zieht in einer Schleife durch den Sahel an der Stadt vorbei.",
+      "Flussabwärts liegt der W-Nationalpark, benannt nach einer W-förmigen Biegung des Niger."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt an Niamey vorbei?",
+      "a": "Der Niger",
+      "x": [
+        "Der Senegal",
+        "Der Volta"
+      ]
+    }
+  },
+  "Q208718": {
+    "t": "Ein junger Hafen am Roten Meer, mit Korallenriffen davor",
+    "s": "Port Sudan liegt an einem flachen, heißen Küstenstreifen am Roten Meer, wo eine tiefe, korallengesäumte Bucht einen Naturhafen bildet. Die Stadt ist jung, Anfang des 20. Jahrhunderts gebaut als Ersatz für den alten Hafen Suakin, dessen Fahrrinne für moderne Schiffe zu eng war. Achten Sie vor der Küste auf türkise Flecken im tiefen Blau: Riffe und Atolle.",
+    "w": "Eine flache Stadt um eine geschützte Bucht an einer geraden Wüstenküste, davor türkise Riffe, landeinwärts trockene Hügel.",
+    "f": [
+      "Sanganeb, ein Atoll rund 25 km vor der Küste, ist ein Meeresnationalpark und UNESCO-Welterbe.",
+      "Die Red Sea Hills hinter der Küstenebene steigen auf über 2.000 Meter an.",
+      "Die Arbeiten am neuen Hafen begannen 1905."
+    ],
+    "q": {
+      "q": "Welchen alten Hafen löste Port Sudan als Haupthafen ab?",
+      "a": "Suakin",
+      "x": [
+        "Massaua",
+        "Berbera"
+      ]
+    }
+  },
+  "Q3780": {
+    "t": "Löwenberge über einem der großen Häfen der Welt",
+    "s": "Freetown klammert sich an die Nordspitze einer bergigen Halbinsel, eingezwängt zwischen bewaldeten Hügeln und der weiten Mündung des Sierra Leone River. Diese Mündung ist einer der größten Naturhäfen der Welt. Portugiesische Seefahrer nannten die Gipfel „Serra Leoa“, die Löwenberge. Die Stadt wurde 1792 als Heimat für befreite Afrikaner gegründet.",
+    "w": "Eine Stadt, eingezwängt zwischen grünen, bergigen Kämmen und einer sehr weiten Flussmündung, die sich zum Atlantik öffnet.",
+    "f": [
+      "Die höchsten Hügel der Freetown-Halbinsel erreichen fast 900 Meter.",
+      "Siedler aus Nova Scotia, früher versklavte Afrikaner, gründeten die Stadt 1792.",
+      "Der Regenwald der Halbinsel ist als Western-Area-Peninsula-Nationalpark geschützt."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Sierra Leone?",
+      "a": "Löwenberge",
+      "x": [
+        "Grüne Küste",
+        "Goldfluss"
+      ]
+    }
+  },
+  "Q320049": {
+    "t": "Ein Lehmziegel-Tor zur Sahara",
+    "s": "Agadez ist eine sandfarbene Oasenstadt am Südrand des Aïr-Gebirges, wo der Sahel in die Sahara übergeht. Jahrhundertelang war sie Kreuzungspunkt für Tuareg-Karawanen, die Salz und Waren durch die Wüste trugen. Ihre Silhouette prägt ein Minarett aus Lehmziegeln, gespickt mit Holzbalken, erstmals Anfang des 16. Jahrhunderts errichtet.",
+    "w": "Eine kleine, erdfarbene Stadt auf flachem Sand, im Norden und Osten das dunkle, zerklüftete Aïr-Gebirge.",
+    "f": [
+      "Das Minarett der Großen Moschee ist rund 27 Meter hoch – eines der höchsten Lehmziegelbauwerke der Welt.",
+      "Die Altstadt von Agadez wurde 2013 UNESCO-Welterbe.",
+      "Das Aïr-Gebirge nördlich der Stadt erreicht knapp über 2.000 Meter."
+    ],
+    "q": {
+      "q": "Woraus ist das berühmte Minarett von Agadez gebaut?",
+      "a": "Aus Lehmziegeln",
+      "x": [
+        "Aus weißem Marmor",
+        "Aus Korallenstein"
+      ]
+    }
+  },
+  "Q851576": {
+    "t": "Eine Savannenstadt unter einem Vulkanmassiv",
+    "s": "Nyala liegt in der welligen Savanne Süd-Darfurs, an einem breiten, sandigen Wadi, das nur in der Regenzeit Wasser führt. Von oben ist das Land mit Akazien und bestellten Flecken getüpfelt, die nach den Sommerregen grün werden. Im Nordwesten erhebt sich das Marra-Gebirge, ein Vulkanmassiv, gekrönt von einer großen Caldera.",
+    "w": "Eine weitläufige Stadt auf flacher, getüpfelter Savanne an einem breiten, sandigen Flussbett, weit im Nordwesten dunkles Vulkanhochland.",
+    "f": [
+      "Der Dschebel Marra erreicht rund 3.000 Meter, weit über den Ebenen ringsum.",
+      "Nyala ist die größte Stadt der Region Darfur.",
+      "Regen fällt hier vor allem zwischen Juni und September; der Rest des Jahres ist trocken."
+    ],
+    "q": {
+      "q": "Was liegt in der Gipfelcaldera des Dschebel Marra bei Nyala?",
+      "a": "Zwei Kraterseen",
+      "x": [
+        "Ein Gletscher",
+        "Eine Salzpfanne"
+      ]
+    }
+  },
+  "Q276534": {
+    "t": "Eine Flussstadt auf der roten Erde des Eisensteinplateaus",
+    "s": "Wau liegt am Jur im Nordwesten des Südsudan, wo sich bewaldete Savanne auf rötlichen Eisensteinböden in alle Richtungen erstreckt. In der Regenzeit wird die ganze Region leuchtend grün, und der Fluss schwillt an. Sein Wasser fließt weiter zum Sudd, einem der größten Feuchtgebiete der Welt, bevor es den Weißen Nil erreicht.",
+    "w": "Eine bescheidene Stadt an einem gewundenen Fluss in flacher, bewaldeter Savanne, mit durchscheinenden Flecken roter Erde.",
+    "f": [
+      "Wau ist eine der größten Städte des Südsudan.",
+      "Der Jur speist den Bahr al-Ghazal, der im No-See auf den Weißen Nil trifft.",
+      "Die rötlichen Böden um Wau gehören zum Eisensteinplateau, das große Teile des westlichen Südsudan bedeckt."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt an Wau vorbei?",
+      "a": "Der Jur",
+      "x": [
+        "Der Sobat",
+        "Der Blaue Nil"
+      ]
+    }
+  },
+  "Q821321": {
+    "t": "Ein dünner grüner Nilfaden durch die Wüste",
+    "s": "Dongola liegt am Westufer des Nils im Norden Sudans, wo der Streifen aus Dattelpalmen und Feldern nur wenige Kilometer breit ist und gelbe Wüste von beiden Seiten heranrückt. Von oben ist es das klarste Bild dafür, wie der Nil Leben möglich macht. Flussaufwärts war Alt-Dongola einst eine mittelalterliche nubische Königsstadt.",
+    "w": "Ein schmales dunkelgrünes Band entlang des Nils, eine kleine Stadt an seinem Westufer und beiderseits kahle Wüste.",
+    "f": [
+      "Kerma, rund 50 km flussabwärts, war vor über 4.000 Jahren Zentrum eines der frühesten Königreiche Afrikas.",
+      "Zwischen Khartum und Ägypten macht der Nil eine riesige S-Kurve; Dongola liegt an ihrem nordwärts fließenden Abschnitt.",
+      "Regen ist hier so selten, dass manche Jahre fast ohne vergehen."
+    ],
+    "q": {
+      "q": "Alt-Dongola war Hauptstadt welches mittelalterlichen Königreichs?",
+      "a": "Makuria",
+      "x": [
+        "Aksum",
+        "Kanem"
+      ]
+    }
+  },
+  "Q686813": {
+    "t": "Eine Stadt am Fuß jäh aufragender Granittürme",
+    "s": "Kassala liegt auf der flachen Ebene im Osten Sudans, direkt am Fuß der Taka-Berge, einer Gruppe kahler Granitkuppeln, die abrupt aus dem Land schießen und aus der Luft unverkennbar sind. Der saisonale Gash fließt an der Stadt vorbei und fächert sich im Norden zu einem Binnendelta aus Feldern auf. Die Grenze zu Eritrea liegt gleich östlich.",
+    "w": "Eine Gruppe steiler, kahler Felskuppeln, die direkt aus einer flachen Ebene ragen, an ihrem Fuß eine Stadt und grüne Obstgärten.",
+    "f": [
+      "Die Taka-Berge steigen mehrere Hundert Meter senkrecht aus der umgebenden Ebene.",
+      "Der Gash führt nur in der Regenzeit Wasser und fächert sich nördlich der Stadt zu einem Binnendelta auf.",
+      "Vom Gash bewässerte Obstgärten machen Kassala im ganzen Sudan für sein Obst bekannt."
+    ],
+    "q": {
+      "q": "Was ragt jäh neben Kassala auf?",
+      "a": "Kahle Granitberge",
+      "x": [
+        "Sanddünen",
+        "Ein Vulkankegel"
+      ]
+    }
+  },
+  "Q26087": {
+    "t": "Eine arktische Inselstadt unter dem Nordlicht",
+    "s": "Mitten im Winter geht die Sonne hier wochenlang nicht auf, und oft tanzt das Nordlicht am Himmel; im Hochsommer geht sie nicht unter. Tromsø liegt größtenteils auf einer kleinen Insel zwischen steilen, schneegestreiften Bergen und tiefen Sunden, rund 350 km nördlich des Polarkreises, über Brücken und Tunnel mit dem Festland verbunden. Polarexpeditionen brachen lange von hier auf.",
+    "w": "Eine kleine Stadt auf einer flachen Insel in einem schmalen Sund, umringt von steilen, weiß bedeckten Bergen und Fjorden.",
+    "f": [
+      "Die Mitternachtssonne scheint hier etwa von Ende Mai bis Ende Juli.",
+      "Während der Polarnacht, von Ende November bis Mitte Januar, bleibt die Sonne unter dem Horizont.",
+      "Tromsø liegt unter dem Polarlichtoval – einer der besten Orte der Erde, um Nordlichter zu sehen."
+    ],
+    "q": {
+      "q": "Wie weit nördlich des Polarkreises liegt Tromsø ungefähr?",
+      "a": "Rund 350 km",
+      "x": [
+        "Rund 50 km",
+        "Rund 1.000 km"
+      ]
+    }
+  },
+  "Q25804": {
+    "t": "Eine Stadt aus der Wikingerzeit in einer Flussschleife",
+    "s": "Trondheim liegt am Südufer des langen Trondheimsfjords, wo sich die Nidelva in einer engen Schleife um die Altstadt legt und sie fast zur Insel macht. König Olav Tryggvason gründete den Ort 997, und jahrhundertelang kamen Pilger zum Schrein des heiligen Olav. Achten Sie auf den breiten Arm des Fjords, der weit ins Land reicht.",
+    "w": "Eine Stadt an einem langen Fjord, mit einem Fluss, der sich in fast geschlossener Schleife um das kompakte alte Zentrum legt.",
+    "f": [
+      "Der Nidarosdom, über dem Grab des heiligen Olav erbaut, ist die nördlichste mittelalterliche Kathedrale der Welt.",
+      "Der Trondheimsfjord ist rund 130 km lang, einer der längsten Fjorde Norwegens.",
+      "Warmes Atlantikwasser hält den Fjord den Winter über weitgehend eisfrei."
+    ],
+    "q": {
+      "q": "Wie hieß Trondheim im Mittelalter?",
+      "a": "Nidaros",
+      "x": [
+        "Bjørgvin",
+        "Christiania"
+      ]
+    }
+  },
+  "Q26793": {
+    "t": "Ein regnerischer Hafen im Kranz von sieben Bergen",
+    "s": "Regen ist Bergens Markenzeichen: Eingezwängt zwischen steilen Bergen und einem Labyrinth aus Inseln und Fjorden an Norwegens Westküste, ist es eine der regenreichsten Städte Europas. Achten Sie auf eine kleine Hafenbucht, die ins Zentrum schneidet, eingerahmt von Bergen. Jahrhundertelang war dies ein wichtiger Hansehafen, der getrockneten Kabeljau aus dem Norden quer durch Europa verschiffte.",
+    "w": "Eine Stadt, eingezwängt um einen schmalen Hafen zwischen steilen Bergen, mit unzähligen Inseln und Fjorden, die sich zum Meer hin ausbreiten.",
+    "f": [
+      "In einem durchschnittlichen Jahr fallen in Bergen rund 2.250 mm Regen.",
+      "Bryggen, das alte Hanseviertel am Kai, ist seit 1979 UNESCO-Welterbe.",
+      "Der Sognefjord, Norwegens längster und tiefster Fjord, öffnet sich nördlich der Stadt zum Meer."
+    ],
+    "q": {
+      "q": "Für welches Hanseviertel am Kai ist Bergen berühmt?",
+      "a": "Bryggen",
+      "x": [
+        "Speicherstadt",
+        "Nyhavn"
+      ]
+    }
+  },
+  "Q990080": {
+    "t": "Eine Tiefwasserbucht an Mosambiks Nordküste",
+    "s": "Nacala liegt am Ufer einer langen, tiefen Bucht an Mosambiks Nordküste, einem der schönsten Naturhäfen Ostafrikas. Das Wasser ist so tief, dass große Schiffe ohne Ausbaggern nah heranfahren können. Achten Sie von oben auf einen Meeresarm mit schmaler Einfahrt, der zwischen grünen Hügeln ins Land reicht, draußen an der Ozeanküste Korallenriffe.",
+    "w": "Ein langer, tiefer Meeresarm mit schmaler Einfahrt, eine Stadt an seinem Ufer und ringsum grüne Hügel.",
+    "f": [
+      "Nacalas Bucht gilt oft als tiefster Naturhafen an der Ostküste Afrikas.",
+      "Eine Bahnlinie verbindet Nacalas Hafen mit dem Binnenstaat Malawi.",
+      "Korallenriffe säumen die Küste außerhalb der Bucht."
+    ],
+    "q": {
+      "q": "Welche UNESCO-Insel liegt rund 60 km südlich von Nacala?",
+      "a": "Die Ilha de Moçambique",
+      "x": [
+        "Sansibar",
+        "Lamu"
+      ]
+    }
+  },
+  "Q37701": {
+    "t": "Justizhauptstadt in den offenen Ebenen des Free State",
+    "s": "Bloemfontein liegt mitten im hohen, flachen Grasland Südafrikas, rund 1.400 Meter hoch, wo einige felsige Tafelhügel – Koppies – den Horizont unterbrechen. Es ist eine der drei Hauptstädte des Landes und Sitz des Obersten Berufungsgerichts. Hier wurde auch J. R. R. Tolkien geboren, im Jahr 1892.",
+    "w": "Eine kompakte Stadt auf weitem, flachem, gelbbraunem Grasland, mit einigen kleinen Tafelhügeln um ihr Zentrum.",
+    "f": [
+      "Naval Hill mitten in der Stadt ist ein kleines Naturreservat mit Giraffen.",
+      "Südafrika hat drei Hauptstädte: Pretoria, Kapstadt und Bloemfontein.",
+      "Die Stadt wurde 1846 als britischer Außenposten neben einer Quelle gegründet."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Bloemfontein?",
+      "a": "Blumenquelle",
+      "x": [
+        "Blumenhügel",
+        "Blühendes Tal"
+      ]
+    }
+  },
+  "Q3926": {
+    "t": "Die Jacaranda-Stadt zwischen langen Felskämmen",
+    "s": "Im Oktober und November blühen Zehntausende Jacarandabäume entlang der Straßen Pretorias und tauchen ganze Vororte in Violett. Die Stadt liegt in Tälern zwischen langen, parallelen Ost-West-Kämmen der Magaliesberge, rund 50 km nördlich von Johannesburg, und ist Südafrikas Regierungssitz. Sie wurde 1855 gegründet und nach Andries Pretorius benannt.",
+    "w": "Eine Stadt, verteilt über Täler zwischen langen, geraden Ost-West-Kämmen, die nach Süden in das Häusermeer von Johannesburg übergeht.",
+    "f": [
+      "Tswaing, ein rund 1,1 km breiter Meteoritenkrater, liegt etwa 40 km nordwestlich der Stadt.",
+      "Die Gesteine der Magaliesberge sind mehr als zwei Milliarden Jahre alt.",
+      "Pretorias Jacarandas sind nicht heimisch: Sie wurden aus Südamerika eingeführt."
+    ],
+    "q": {
+      "q": "Welcher Baum färbt Pretoria im Frühling violett?",
+      "a": "Die Jacaranda",
+      "x": [
+        "Der Flammenbaum",
+        "Die Mimose"
+      ]
+    }
+  },
+  "Q80985": {
+    "t": "Ein mittelalterliches Labyrinth, lebendig in seinen Mauern",
+    "s": "Fès liegt in einem grünen Tal zwischen Mittlerem Atlas und Rif, und seine alte Medina, Fès el-Bali, ist eines der größten autofreien Stadtgebiete der Welt. Von oben ist sie eine dichte, helle Masse in einer Hügelschüssel, daneben auf der Ebene die neuere Stadt. Ihre Universität, al-Qarawiyyin, reicht bis ins Jahr 859 zurück.",
+    "w": "Eine dichte, helle Altstadt in einer Hügelschüssel, daneben auf der Ebene eine rasterförmig angelegte Neustadt.",
+    "f": [
+      "Al-Qarawiyyin, 859 gegründet, gilt oft als älteste ununterbrochen bestehende Universität der Welt.",
+      "Die Medina von Fès ist seit 1981 UNESCO-Welterbe.",
+      "Die Gerbereien von Fès färben Leder noch heute in steinernen Bottichen, ganz wie vor Jahrhunderten."
+    ],
+    "q": {
+      "q": "Wer gründete al-Qarawiyyin in Fès im Jahr 859?",
+      "a": "Fatima al-Fihri",
+      "x": [
+        "Idris I.",
+        "Ibn Battuta"
+      ]
+    }
+  },
+  "Q3551": {
+    "t": "Zwillingsstädte, einander gegenüber an einer Flussmündung",
+    "s": "Rabat liegt am Atlantik, wo der Bou Regreg das Meer erreicht, gegenüber seiner älteren Zwillingsstadt Salé jenseits der Mündung. Auf der Klippe an der Flussmündung steht die ummauerte Kasbah der Oudaya. Etwas flussaufwärts begann ein Kalif im 12. Jahrhundert eine gewaltige Moschee, deren unvollendetes Minarett, der Hassan-Turm, noch immer über das Wasser blickt.",
+    "w": "Zwei Städte, einander gegenüber an einer Flussmündung an gerader Atlantikküste, mit einer ummauerten Festung auf der südlichen Spitze.",
+    "f": [
+      "Der Hassan-Turm blieb unvollendet, als sein Bauherr, der Almohaden-Kalif Yaqub al-Mansur, 1199 starb.",
+      "Rabats historische und moderne Stadt wurde 2012 UNESCO-Welterbe.",
+      "Im 17. Jahrhundert war Salé ein Stützpunkt atlantischer Korsaren, der „Sallee Rovers“."
+    ],
+    "q": {
+      "q": "Welche Stadt liegt Rabat am Bou Regreg gegenüber?",
+      "a": "Salé",
+      "x": [
+        "Kenitra",
+        "Témara"
+      ]
+    }
+  },
+  "Q101625": {
+    "t": "Eine rote Stadt mit Schneegipfeln am Horizont",
+    "s": "Schauen Sie von Marrakesch nach Süden, und der Hohe Atlas erhebt sich wie eine Wand, rund 50 km entfernt, seine Gipfel oft vom Winter bis in den Frühling weiß. Die Stadt selbst breitet sich über die flache Haouz-Ebene aus, ganz ockerrote Mauern und Palmenhaine. Achten Sie auf das dunkle Grün des Palmenhains im Norden und die ordentlichen Rechtecke alter Gartenbecken.",
+    "w": "Eine rötliche Stadt auf flacher, trockener Ebene, im Norden ein dunkler Palmenhain und im Süden der schneebedeckte Hohe Atlas.",
+    "f": [
+      "Der Toubkal, mit rund 4.170 Metern der höchste Gipfel Nordafrikas, liegt rund 60 km südlich der Stadt.",
+      "Die Dynastie der Almoraviden gründete Marrakesch um 1070.",
+      "Die Medina von Marrakesch ist seit 1985 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welches Gebirge erhebt sich südlich von Marrakesch?",
+      "a": "Der Hohe Atlas",
+      "x": [
+        "Das Rif",
+        "Der Mittlere Atlas"
+      ]
+    }
+  },
+  "Q21197": {
+    "t": "Eine grüne Hügelstadt über endlosen Weinkellern",
+    "s": "Chișinău breitet sich über sanfte Hügel mitten in Moldau aus, mit ungewöhnlich viel Grün: Parks, Seen und baumgesäumte Alleen sind von oben deutlich zu sehen. Ringsum ist welliges Farmland von Weinbergen gestreift. Unter dem Land gleich nördlich und südlich der Stadt verlaufen alte, viele Kilometer lange Kalksteinbrüche, heute voller Wein.",
+    "w": "Eine grüne Stadt auf welligen Hügeln, getüpfelt mit kleinen Seen und Parks, umgeben von gestreiften Feldern und Weinbergen.",
+    "f": [
+      "Die Keller von Mileștii Mici südlich der Stadt beherbergen laut Guinness-Buch der Rekorde die größte Weinsammlung der Welt.",
+      "Die Keller von Cricova nördlich der Stadt haben rund 120 km unterirdische Straßen.",
+      "Chișinău wird erstmals in einer Urkunde von 1436 erwähnt."
+    ],
+    "q": {
+      "q": "Was füllt die alten Kalksteinstollen bei Chișinău?",
+      "a": "Weinkeller",
+      "x": [
+        "Salzbergwerke",
+        "Pilzzuchten"
+      ]
+    }
+  },
+  "Q211563": {
+    "t": "Tief liegender Hafen an einer Mündung mit starken Gezeiten",
+    "s": "Beira liegt auf flachem, tief liegendem Land, wo der Pungwe in den Indischen Ozean mündet, umgeben von Mangroven, Watten und weiten, sandigen Untiefen. Die Gezeiten sind hier stark und legen zweimal täglich breite Sandbänke frei. Die Portugiesen gründeten die Stadt 1887, und sie wuchs als Seetor für die Binnenländer im Hinterland.",
+    "w": "Eine flache Küstenstadt an einer weiten, schlammigen Mündung, gesäumt von dunklen Mangroven und hellen, bei Ebbe freiliegenden Sandbänken.",
+    "f": [
+      "Der Beira-Korridor verbindet den Hafen per Straße, Bahn und Ölpipeline mit Simbabwe.",
+      "Bei Springflut steigt und fällt das Meer hier um mehrere Meter.",
+      "Das Sambesi-Delta, das größte Mosambiks, liegt rund 200 km die Küste hinauf im Nordosten."
+    ],
+    "q": {
+      "q": "An der Mündung welches Flusses liegt Beira?",
+      "a": "Des Pungwe",
+      "x": [
+        "Des Sambesi",
+        "Des Limpopo"
+      ]
+    }
+  },
+  "Q125434": {
+    "t": "Eine windige Buchtstadt mit Elefanten im Hinterland",
+    "s": "Port Elizabeth schwingt sich am Westufer der Algoa Bay entlang, eines weiten Bogens des Indischen Ozeans an Südafrikas Südküste. Sie trägt den Spitznamen „Windy City“, und von oben sehen Sie vielleicht Schaumkronen über die Bucht jagen. Rund 40 km landeinwärts schützt der Addo-Elefanten-Nationalpark Hunderte Elefanten im dichten Busch. Offiziell heißt die Stadt heute Gqeberha.",
+    "w": "Eine Stadt entlang der westlichen Rundung einer weiten, offenen Bucht, mit einem kleinen Kap am Südende und trockenem Busch landeinwärts.",
+    "f": [
+      "Britische Siedler, die 1820 ankamen, legten den Grundstein der Stadt.",
+      "Fort Frederick, eine 1799 von den Briten erbaute Steinfestung, überblickt den Hafen.",
+      "Auf St Croix Island in der Algoa Bay lebt eine der größten Brillenpinguin-Kolonien der Welt."
+    ],
+    "q": {
+      "q": "An welcher Bucht liegt Port Elizabeth?",
+      "a": "An der Algoa Bay",
+      "x": [
+        "An der Tafelbucht",
+        "An der False Bay"
+      ]
+    }
+  },
+  "Q3889": {
+    "t": "Hauptstadt an weiter Bucht, mit Brücke über die Mündung",
+    "s": "Maputo liegt am Westufer der Maputo-Bucht, eines weiten Meeresarms des Indischen Ozeans, auf niedrigen roten Klippen über dem Wasser. Draußen in der Bucht bewacht die grüne Insel Inhaca die Einfahrt. Eine hohe Hängebrücke quert heute die Mündung gleich südlich des Zentrums. Bis 1976 hieß die Stadt Lourenço Marques, nach einem portugiesischen Händler, der die Bucht in den 1540er-Jahren erkundete.",
+    "w": "Eine Stadt auf roten Klippen an einer weiten Bucht, mit einer Hängebrücke über die Mündung und einer großen Insel nahe der Buchteinfahrt.",
+    "f": [
+      "Die 2018 eröffnete Brücke Maputo–Katembe hat eine Hauptspannweite von rund 680 Metern.",
+      "Die Insel Inhaca an der Buchteinfahrt ist von Korallenriffen und Seegraswiesen umgeben.",
+      "Maputo liegt keine 100 km von den Grenzen Südafrikas und Eswatinis entfernt."
+    ],
+    "q": {
+      "q": "Wie hieß Maputo bis 1976?",
+      "a": "Lourenço Marques",
+      "x": [
+        "Sofala",
+        "Vila Pery"
+      ]
+    }
+  },
+  "Q1763": {
+    "t": "Die größte Stadt jenseits des Polarkreises",
+    "s": "Keine Stadt nördlich des Polarkreises ist größer als Murmansk. Sie zieht sich am Ostufer der Kola-Bucht entlang, eines langen, fjordartigen Meeresarms, der nach Norden zur Barentssee führt. Dank der letzten warmen Ausläufer des Nordatlantikstroms bleibt ihr Hafen den ganzen Winter eisfrei, während Seen und Tundra ringsum fest zufrieren.",
+    "w": "Eine lange Stadt am hügeligen Ostufer einer schmalen, fjordartigen Bucht, umgeben von flacher, seenreicher Tundra.",
+    "f": [
+      "Die Polarnacht dauert hier rund 40 Tage, von Anfang Dezember bis Mitte Januar.",
+      "Die Mitternachtssonne scheint über Murmansk von Ende Mai bis Ende Juli.",
+      "Murmansk wurde 1916 gegründet."
+    ],
+    "q": {
+      "q": "Was hält Murmansks Hafen im Winter eisfrei?",
+      "a": "Warmes Nordatlantikwasser",
+      "x": [
+        "Salz aus nahen Bergwerken",
+        "Heiße Vulkanquellen"
+      ]
+    }
+  },
+  "ne-pp-1159150693": {
+    "t": "Russlands erster Seehafen, an einem großen nördlichen Delta",
+    "s": "Archangelsk liegt dort, wo sich die Nördliche Dwina vor dem Weißen Meer zu einem weiten Delta aus Armen und Inseln auffächert. Endlose dunkle Taiga umgibt die Stadt. 1584 um das Kloster des Erzengels Michael gegründet, war sie über ein Jahrhundert lang Russlands wichtigstes Tor zum Meer, bis Sankt Petersburg übernahm. Im Winter wird der gefrorene Fluss zur weißen Straße.",
+    "w": "Eine lange Stadt an einem breiten Fluss, der sich kurz vor einer großen Bucht in viele Arme teilt, umgeben von dunklem Wald.",
+    "f": [
+      "Der Gelehrte Michail Lomonossow wurde 1711 bei Cholmogory geboren, flussaufwärts an der Dwina.",
+      "Eis bedeckt das Meer vor der Stadt etwa das halbe Jahr.",
+      "Die Solowezki-Inseln, UNESCO-Welterbe, liegen rund 230 km westlich im Weißen Meer."
+    ],
+    "q": {
+      "q": "Welcher Fluss bildet bei Archangelsk ein Delta?",
+      "a": "Die Nördliche Dwina",
+      "x": [
+        "Die Petschora",
+        "Die Onega"
+      ]
+    }
+  },
+  "Q891": {
+    "t": "Wo die Oka in die Wolga strömt",
+    "s": "Nischni Nowgorod liegt an einem der großen Flusszusammenflüsse Russlands: Die Oka mündet mitten in der Stadt in die Wolga. Die Altstadt thront auf dem steilen rechten Ufer und blickt über das Wasser auf eine flache, bewaldete Ebene auf der anderen Seite. Die Stadt wurde 1221 gegründet, um diesen Knoten der Flusswege zu sichern.",
+    "w": "Zwei breite Flüsse, die sich in einer scharfen Spitze treffen, die Stadt auf hohen bewaldeten Steilufern und jenseits der Wolga flacher Wald.",
+    "f": [
+      "Eine Seilbahn über die Wolga verbindet die Stadt mit dem rund 3,6 km entfernten Ort Bor.",
+      "Ab 1817 fand hier eine berühmte Sommermesse statt, eine der größten im Russischen Reich.",
+      "Die Wolga, die an der Stadt vorbeifließt, ist mit rund 3.500 km Europas längster Fluss."
+    ],
+    "q": {
+      "q": "Welcher Fluss mündet bei Nischni Nowgorod in die Wolga?",
+      "a": "Die Oka",
+      "x": [
+        "Die Kama",
+        "Die Scheksna"
+      ]
+    }
+  },
+  "Q914": {
+    "t": "Mehr als 60 km Stadt entlang eines einzigen Ufers",
+    "s": "Wolgograd gehört zu den längsten Städten Europas: ein schmales Band entlang des hohen Westufers der Wolga, über mehr als 60 km. Jenseits des Flusses liegt eine ganz andere Welt, die grüne Wolga-Achtuba-Aue, durchzogen von Armen, Seen und Wäldern. Am Südende der Stadt bricht der Wolga-Don-Kanal nach Westen zum Don auf.",
+    "w": "Eine lange, schmale Stadt am Westufer der breiten Wolga, gegenüber im Osten eine grüne, von Armen durchzogene Aue.",
+    "f": [
+      "Der rund 100 km lange Wolga-Don-Kanal verbindet die Wolga mit dem Don und so mit dem Schwarzen Meer.",
+      "Ein Damm gleich nördlich der Stadt staut den Wolgograder Stausee, der rund 540 km lang ist.",
+      "Die Wolga-Achtuba-Aue gegenüber der Stadt ist als Naturpark geschützt."
+    ],
+    "q": {
+      "q": "Wie hieß Wolgograd ursprünglich?",
+      "a": "Zarizyn",
+      "x": [
+        "Simbirsk",
+        "Kuibyschew"
+      ]
+    }
+  },
+  "Q911": {
+    "t": "Eine Stadt auf einem Kamm zwischen zwei gewundenen Flüssen",
+    "s": "Ufa erstreckt sich entlang eines langen, hohen Kamms zwischen zwei Flüssen, der Belaja und der Ufa, die sich unterhalb in weiten Schleifen winden, bevor sie zusammenfließen. Im Osten steigt das Land sanft zum Südlichen Ural an. Die Stadt ist Hauptstadt Baschkortostans, einer Region, die für ihre bewaldeten Hügel und den Honig wilder Bienen bekannt ist.",
+    "w": "Eine lange Stadt auf einem hohen Kamm, eingezwängt zwischen zwei mäandernden Flüssen, im Osten bewaldete Hügel.",
+    "f": [
+      "Die Belaja, Ufas Hauptfluss, ist der größte Nebenfluss der Kama.",
+      "In Baschkortostans Wäldern wird noch Honig von wilden Bienen gesammelt, die in hohlen Bäumen nisten.",
+      "Die Stadt wuchs aus einer 1574 gegründeten russischen Festung."
+    ],
+    "q": {
+      "q": "Die Ufa mündet bei Ufa in welchen anderen Fluss?",
+      "a": "In die Belaja",
+      "x": [
+        "In die Tschussowaja",
+        "In die Wjatka"
+      ]
+    }
+  },
+  "Q894": {
+    "t": "Wo die Wolga um eine Schleife bewaldeter Hügel schwingt",
+    "s": "Samara liegt am linken Wolgaufer neben einem der eindrucksvollsten Merkmale des Flusses, dem Samarabogen: Die Wolga schwingt in einer riesigen Schleife nach Osten um die bewaldeten Schiguli-Berge. Von oben sind die Schleife und ihre dunklen Waldhügel unverkennbar. Die Stadt zieht sich kilometerweit am Fluss entlang, der hier mehr als einen Kilometer breit ist.",
+    "w": "Eine lange Stadt am Ostufer der breiten Wolga, gegenüber die dunklen, bewaldeten Hügel innerhalb der großen Flussschleife.",
+    "f": [
+      "Die Schiguli-Berge innerhalb der Schleife sind als Naturschutzgebiet und Nationalpark geschützt.",
+      "Samara wurde 1586 als Festung zum Schutz des Wolga-Handelswegs gegründet.",
+      "Flussaufwärts weitet sich die Wolga zum Kuibyschewer Stausee, dem größten Stausee Europas."
+    ],
+    "q": {
+      "q": "Um welche Berge schlingt sich die Wolga bei Samara?",
+      "a": "Die Schiguli-Berge",
+      "x": [
+        "Die Waldaihöhen",
+        "Die Chibinen"
+      ]
+    }
+  },
+  "Q900": {
+    "t": "Die Wolga, breit wie ein Meer, und ein weißer Kreml",
+    "s": "Kasan liegt am linken Wolgaufer, wo die kleine Kasanka einmündet, und hier ist die Wolga, von einem Stausee flussabwärts aufgestaut, mehrere Kilometer breit. Der weiß ummauerte Kreml thront auf einem Hügel über dem Zusammenfluss. Seit Jahrhunderten begegnen sich hier russische und tatarische, christliche und muslimische Kultur; die Stadt ist Hauptstadt Tatarstans.",
+    "w": "Eine große Stadt am Ostufer eines sehr breiten Wolgaabschnitts, geteilt von einem kleineren Fluss aus Nordosten.",
+    "f": [
+      "Der Kasaner Kreml ist seit 2000 UNESCO-Welterbe.",
+      "Rund 70 km flussabwärts mündet die Kama, der größte Nebenfluss der Wolga.",
+      "Kasan feierte 2005 sein 1.000-jähriges Bestehen."
+    ],
+    "q": {
+      "q": "Welcher kleine Fluss mündet beim Kreml von Kasan in die Wolga?",
+      "a": "Die Kasanka",
+      "x": [
+        "Die Oka",
+        "Die Sura"
+      ]
+    }
+  },
+  "Q2449": {
+    "t": "Alter Handelshafen am Indischen Ozean, zwischen weißen Dünen",
+    "s": "Mogadischu säumt die Küste des Indischen Ozeans am Horn von Afrika, eine helle Stadt vor Sanddünen, mit Riffen direkt vor der Küste. Tausend Jahre lang war sie ein Handelshafen, der Afrika mit Arabien, Persien und Indien verband. Als der Reisende Ibn Battuta 1331 kam, beschrieb er eine sehr große, reiche Stadt, deren Stoffe bis nach Ägypten geliefert wurden.",
+    "w": "Eine helle Stadt entlang einer geraden Brandungsküste, dahinter Sanddünen, im Westen landeinwärts das grüne Tal des Shabelle.",
+    "f": [
+      "Mogadischu liegt nur rund 230 km nördlich des Äquators.",
+      "Der Shabelle fließt bis auf rund 30 km an die Stadt heran, erreicht aber nie das Meer.",
+      "Im Mittelalter prägte das Sultanat Mogadischu eigene Münzen."
+    ],
+    "q": {
+      "q": "Welcher berühmte Reisende besuchte Mogadischu 1331?",
+      "a": "Ibn Battuta",
+      "x": [
+        "Marco Polo",
+        "Vasco da Gama"
+      ]
+    }
+  },
+  "Q3826": {
+    "t": "Weiße Buchten unter Bergen aus Meeresboden",
+    "s": "Maskat ufert nicht aus wie andere Golfhauptstädte: Es fädelt sich durch eine Reihe von Buchten und Tälern zwischen dem zerklüfteten Hadschar-Gebirge und dem Golf von Oman. Das dunkelbraune Gestein dieser Berge ist uralter Meeresboden, aufs Land geschoben. Im alten Hafen bewachen noch zwei portugiesische Festungen aus dem 16. Jahrhundert die Einfahrt.",
+    "w": "Eine lange Kette weißer Viertel in Tälern und Buchten zwischen dunklen, zackigen Bergen und blauem Meer.",
+    "f": [
+      "Der Semail-Ophiolith, das dunkle Gestein um Maskat, ist eine der größten freiliegenden Platten ozeanischer Kruste der Erde.",
+      "Die Forts Jalali und Mirani wurden in den 1580er-Jahren von den Portugiesen gebaut.",
+      "Jahrhundertelang diente Maskats geschützte Bucht Schiffen im Handel zwischen Arabien, Indien und Ostafrika."
+    ],
+    "q": {
+      "q": "Woraus bestehen Maskats dunkle Berge größtenteils?",
+      "a": "Aus uraltem Meeresboden",
+      "x": [
+        "Aus Vulkanasche",
+        "Aus Korallenkalk"
+      ]
+    }
+  },
+  "Q465022": {
+    "t": "Nigerias Kohlestadt unter einem grünen Steilhang",
+    "s": "Enugu liegt am Fuß der Udi Hills, eines steilen, grünen Steilhangs an seiner Westseite im Südosten Nigerias. 1909 wurde in diesen Hügeln Kohle gefunden, und die Stadt wuchs um die Minen herum – daher der Spitzname „Coal City“. Achten Sie von oben auf die Stadt, die sich an den Kamm schmiegt, ringsum welliges, bewaldetes Farmland.",
+    "w": "Eine Stadt am Fuß eines steilen, grünen Steilhangs an ihrer Westseite, inmitten welliger, bewaldeter Hügel.",
+    "f": [
+      "1909 wurde in den Udi Hills Kohle entdeckt, und wenige Jahre später begann der Abbau.",
+      "Das Udi-Plateau erhebt sich einige Hundert Meter über die Ebene rund um die Stadt."
+    ],
+    "q": {
+      "q": "Was bedeutet der Igbo-Name Enugu?",
+      "a": "Gipfel des Hügels",
+      "x": [
+        "Flussbiegung",
+        "Marktstadt"
+      ]
+    }
+  },
+  "Q336350": {
+    "t": "Hauptstadt eines Kalifats, an einem Fluss im Sahel",
+    "s": "Sokoto liegt im äußersten Nordwesten Nigerias, wo die Flüsse Sokoto und Rima auf einer weiten, flachen Aue zusammenfließen. In der Regenzeit wird der Talboden grün von Reis und Gemüse; den Rest des Jahres reicht staubige Savanne bis zum Horizont. Die Stadt wurde 1809 als Hauptstadt des Kalifats von Sokoto gegründet, eines der größten Staaten Afrikas im 19. Jahrhundert.",
+    "w": "Eine flache, staubige Stadt auf einer Ebene neben einem breiten Flusstal, mit grünen Feldern am Wasser.",
+    "f": [
+      "Das Kalifat von Sokoto reichte vom heutigen Burkina Faso bis Kamerun.",
+      "Sokoto ist eine der heißesten Städte Nigerias; Nachmittage im April liegen oft über 40 °C.",
+      "Der Sultan von Sokoto gilt vielen nigerianischen Muslimen noch heute als geistliches Oberhaupt."
+    ],
+    "q": {
+      "q": "Wer gründete das Kalifat von Sokoto?",
+      "a": "Usman dan Fodio",
+      "x": [
+        "Mansa Musa",
+        "Sundiata Keita"
+      ]
+    }
+  },
+  "Q915": {
+    "t": "Die Stadt, die einem Erdzeitalter ihren Namen gab",
+    "s": "Ein ganzer Abschnitt der Erdgeschichte ist nach dieser Region benannt: 1841 untersuchte der schottische Geologe Roderick Murchison ihre Gesteine und nannte ihn Perm. Die Stadt selbst erstreckt sich kilometerweit entlang der Kama, eines breiten Flusses, der sich gleich flussaufwärts zu einem Stausee weitet. Endlose Taiga umgibt sie, und im Osten beginnen die ersten niedrigen Kämme des Urals.",
+    "w": "Eine lange Stadt an beiden Ufern eines breiten Flusses, flussaufwärts ein Stausee, in jeder Richtung dunkler Wald.",
+    "f": [
+      "Das Perm, vor rund 299 bis 252 Millionen Jahren, endete mit dem größten Massenaussterben der Erdgeschichte.",
+      "Perm begann 1723 als Kupferhütte.",
+      "Die Stadt erstreckt sich über rund 70 km entlang der Kama."
+    ],
+    "q": {
+      "q": "Welches Erdzeitalter ist nach der Region Perm benannt?",
+      "a": "Das Perm",
+      "x": [
+        "Das Devon",
+        "Der Jura"
+      ]
+    }
+  },
+  "Q335548": {
+    "t": "Eine Hochlandstadt nahe einem riesigen Eisenmeteoriten",
+    "s": "Mbeya liegt in einem hohen Tal im Südlichen Hochland Tansanias, rund 1.700 Meter hoch, direkt dahinter steigt die steile Mbeya-Kette auf. Das Land ringsum ist intensiv grün, ein Flickenteppich aus Tee, Kaffee und Mais auf fruchtbaren Vulkanböden. Südwestlich der Stadt liegt ein rund 16 Tonnen schwerer Eisenbrocken aus dem All noch dort, wo er einschlug.",
+    "w": "Eine Stadt in einem grünen Tal am Fuß einer steilen Bergkette, umgeben von einem Flickenteppich aus Hochlandfarmen.",
+    "f": [
+      "Der Mbozi-Meteorit, rund 50 km südwestlich von Mbeya, ist einer der größten je gefundenen Meteoriten.",
+      "Der Mbeya Peak, höchster Punkt der Kette über der Stadt, erreicht rund 2.800 Meter.",
+      "Weiter östlich ist das Kitulo-Plateau so reich an wilden Orchideen, dass man es „Garten Gottes“ nennt."
+    ],
+    "q": {
+      "q": "Welches riesige Objekt liegt bei Mbozi nahe Mbeya?",
+      "a": "Ein Eisenmeteorit",
+      "x": [
+        "Ein Dinosaurierskelett",
+        "Ein abgestürzter Satellit"
+      ]
+    }
+  },
+  "Q3935": {
+    "t": "Eine Hauptstadt im Trockenland, die jeden Tropfen recycelt",
+    "s": "Wasser ist in Windhoek so kostbar, dass die Stadt seit 1968 Abwasser direkt zu Trinkwasser aufbereitet – eine Weltpremiere. Sie liegt in einem Becken im zentralen Hochland Namibias, rund 1.650 Meter hoch, eingerahmt von den Auasbergen im Süden und den Eros-Hügeln im Norden, ringsum trockene, dornige Savanne.",
+    "w": "Eine kompakte Stadt in einer Schüssel niedriger, zerklüfteter Hügel auf trockener, brauner Hochlandsavanne.",
+    "f": [
+      "Namibias Atlantikküste liegt rund 300 km westlich.",
+      "Die Auasberge südlich der Stadt erreichen rund 2.480 Meter und gehören zu den höchsten Namibias.",
+      "Einst sprudelten im Tal heiße Quellen, die die ersten Siedler anzogen."
+    ],
+    "q": {
+      "q": "Was macht Windhoek seit 1968 mit seinem Abwasser?",
+      "a": "Es bereitet es zu Trinkwasser auf",
+      "x": [
+        "Es leitet es in den Atlantik",
+        "Es kühlt damit ein Kraftwerk"
+      ]
+    }
+  },
+  "Q986336": {
+    "t": "Ruhige Farmstadt neben dem schwersten Meteoriten der Erde",
+    "s": "Grootfontein ist eine kleine Stadt im Buschland Nordnamibias, benannt nach einer großen Quelle, die Siedler und Viehhirten anzog. Die Überraschung liegt rund 20 km westlich auf einer Farm: der Hoba-Meteorit, eine rund 60 Tonnen schwere Eisenplatte, der größte bekannte Meteorit der Erde. Er ist so schwer, dass er nie von der Stelle bewegt wurde, an der er landete.",
+    "w": "Eine kleine Stadt in grüner, buschiger Savanne, ringsum niedrige Dolomithügel und Farmland.",
+    "f": [
+      "Der Hoba-Meteorit fiel vor weniger als 80.000 Jahren und wurde 1920 von einem Farmer gefunden.",
+      "Grootfontein bedeutet auf Afrikaans „große Quelle“.",
+      "Das Dolomitland um die Stadt birgt Dolinenseen wie den Otjikoto bei Tsumeb."
+    ],
+    "q": {
+      "q": "Welches Rekordobjekt liegt bei Grootfontein?",
+      "a": "Der größte bekannte Meteorit",
+      "x": [
+        "Der älteste bekannte Baobab",
+        "Afrikas größter Krater"
+      ]
+    }
+  },
+  "Q2222874": {
+    "t": "Ein Gewürzinselhafen aus Korallenstein und türkisem Wasser",
+    "s": "Sansibar-Stadt liegt an der Westküste von Unguja, der Hauptinsel des Sansibar-Archipels, gegenüber dem afrikanischen Festland jenseits eines Kanals aus türkisem Flachwasser und Riffen. Ihr altes Herz, Stone Town, ist ein Labyrinth aus Häusern aus Korallenstein. 1840 machte der Sultan von Oman sie zu seiner Hauptstadt, und auf der Insel angebaute Gewürznelken gingen in alle Welt.",
+    "w": "Eine Stadt an der Westküste einer flachen grünen Insel, gesäumt von türkisen Riffen und Sandbänken, im Westen das Festland.",
+    "f": [
+      "Stone Town ist seit 2000 UNESCO-Welterbe.",
+      "Freddie Mercury wurde 1946 in Stone Town geboren.",
+      "Im 19. Jahrhundert war Sansibar der weltweit führende Produzent von Gewürznelken."
+    ],
+    "q": {
+      "q": "Welches Gewürz machte Sansibar im 19. Jahrhundert berühmt?",
+      "a": "Gewürznelken",
+      "x": [
+        "Safran",
+        "Vanille"
+      ]
+    }
+  },
+  "Q8818": {
+    "t": "Ein grüner Parkfluss durch eine Stadt der Orangenhaine",
+    "s": "Ein langes grünes Band schwingt sich durch Valencia: das alte Bett des Turia, in einen Park verwandelt, nachdem der Fluss nach Süden umgeleitet wurde. Rund um die Stadt liegt die Huerta, ein Flickenteppich aus bewässerten Obstgärten und Feldern auf einer flachen Küstenebene. Gleich südlich der Stadt glitzert die Albufera, eine von Reisfeldern umringte Lagune.",
+    "w": "Eine große Stadt an einer flachen Küste, durch die sich ein grüner Park schlängelt, im Süden eine große, flache Lagune mit Reisfeldern.",
+    "f": [
+      "Die Turia-Gärten im alten Flussbett ziehen sich rund 9 km durch die Stadt.",
+      "Die Reisfelder um die Albufera-Lagune sind die Heimat der Paella.",
+      "Die Römer gründeten Valencia 138 v. Chr."
+    ],
+    "q": {
+      "q": "Welches Gericht entstand in den Reisfeldern um Valencia?",
+      "a": "Paella",
+      "x": [
+        "Gazpacho",
+        "Tortilla"
+      ]
+    }
+  },
+  "Q3787": {
+    "t": "Eine Planhauptstadt zwischen riesigen Granitkuppeln",
+    "s": "Abuja wurde nahe dem geografischen Mittelpunkt Nigerias von Grund auf neu gebaut und 1991 Hauptstadt. Achten Sie von oben auf die breiten Alleen, die sich unterhalb des Aso Rock auffächern, einer kahlen, rund 400 Meter hohen Granitkuppel am Ostrand der Stadt. Die hügelige Savanne ringsum ist mit weiteren solchen großen runden Felsen gespickt.",
+    "w": "Eine weitläufig geplante Stadt breiter Alleen am Fuß einer großen, kahlen Granitkuppel, in hügeliger grüner Savanne.",
+    "f": [
+      "Der Zuma Rock, ein riesiger Granitmonolith rund 40 km westlich der Stadt, ist auf Nigerias 100-Naira-Schein abgebildet.",
+      "Der Masterplan der Stadt entstand Ende der 1970er-Jahre.",
+      "Abuja liegt im Federal Capital Territory, geschaffen, damit die Hauptstadt keinem einzelnen Bundesstaat gehört."
+    ],
+    "q": {
+      "q": "Welche Stadt löste Abuja 1991 als Hauptstadt Nigerias ab?",
+      "a": "Lagos",
+      "x": [
+        "Ibadan",
+        "Kano"
+      ]
+    }
+  },
+  "Q3739": {
+    "t": "Eine Hauptstadt an einer Mündung, vor einem Inselgewirr",
+    "s": "Bissau liegt an der weiten Mündung des Geba, wo schlammiges Wasser, Mangroven und Watten die Grenze zwischen Land und Meer verwischen. Vor der Küste breitet sich der Bijagós-Archipel aus, eine Streuung Dutzender flacher, grüner Inseln und Sandbänke. Die Gezeiten sind stark, und bei Niedrigwasser tauchen riesige Schlamm- und Sandbänke auf. Die Portugiesen bauten hier 1687 ein Fort.",
+    "w": "Eine Stadt an einer breiten, schlammigen, mangrovengesäumten Mündung, draußen im Meer verstreute flache grüne Inseln.",
+    "f": [
+      "Der Bijagós-Archipel hat rund 88 Inseln und Inselchen, nur etwa 20 davon dauerhaft bewohnt.",
+      "Auf den Bijagós schwimmen Flusspferde im Salzwasser zwischen den Inseln.",
+      "Die Geba-Mündung ist bei Bissau so breit, dass sie eher wie ein Meeresarm als wie ein Fluss wirkt."
+    ],
+    "q": {
+      "q": "Welcher Archipel liegt vor der Küste bei Bissau?",
+      "a": "Der Bijagós-Archipel",
+      "x": [
+        "Die Los-Inseln",
+        "Die Banana-Inseln"
+      ]
+    }
+  },
+  "Q2656": {
+    "t": "Die „goldene Muschel“ zwischen kahlen Bergen und Meer",
+    "s": "Palermo füllt eine weite Bucht an Siziliens Nordküste, eingefasst von einem Halbmond kahler Berge. Die Ebene, auf der es steht, heißt Conca d’Oro, die „goldene Muschel“, nach den Zitrushainen, die sie einst bedeckten. Im Norden ragt das Kalksteinkap des Monte Pellegrino ins Meer. Phönizier gründeten die Stadt im 8. Jahrhundert v. Chr.",
+    "w": "Eine Stadt auf einer Ebene, die sich um eine Bucht schwingt, umringt von kahlen Bergen, mit einem großen Felskap an ihrer Nordseite.",
+    "f": [
+      "Goethe nannte den Monte Pellegrino das schönste Vorgebirge der Welt.",
+      "Palermos arabisch-normannische Bauten wurden 2015 UNESCO-Welterbe.",
+      "Die Phönizier nannten die Stadt Ziz, meist mit „Blume“ übersetzt."
+    ],
+    "q": {
+      "q": "Wie heißt die Ebene um Palermo?",
+      "a": "Conca d’Oro",
+      "x": [
+        "Campania Felix",
+        "Tavoliere"
+      ]
+    }
+  },
+  "Q3805": {
+    "t": "Eine Stadt aus weißem Stein über vielen Hügeln",
+    "s": "Amman breitet sich über ein Gewirr steiler Hügel am Rand der Wüstenhochebene aus, und von oben wirkt es fast ganz weiß, denn die meisten Gebäude sind mit hellem Kalkstein verkleidet. Im Westen fällt das Land ins Jordantal und zum Toten Meer ab, rund 40 km entfernt. In griechisch-römischer Zeit hieß die Stadt Philadelphia.",
+    "w": "Eine helle, fast weiße Stadt, über steile Hügel gebreitet, im Westen der tiefe Graben des Jordantals und das Tote Meer.",
+    "f": [
+      "Das Ufer des Toten Meeres, rund 430 Meter unter dem Meeresspiegel, ist das tiefste Land der Erde.",
+      "Ammans römisches Theater, in einen Hang gehauen, bot rund 6.000 Menschen Platz.",
+      "Die Stadt wuchs an der Stelle von Rabbath Ammon, der Hauptstadt der antiken Ammoniter."
+    ],
+    "q": {
+      "q": "Wie hieß Amman in griechisch-römischer Zeit?",
+      "a": "Philadelphia",
+      "x": [
+        "Gerasa",
+        "Petra"
+      ]
+    }
+  },
+  "Q216": {
+    "t": "Eine Barockstadt zwischen Waldhügeln und Flussbiegungen",
+    "s": "Barocke Kirchtürme drängen sich in der Altstadt von Vilnius, einer der größten Osteuropas, und bewaldete Hügel lassen die ganze Stadt von oben erstaunlich grün wirken. Sie liegt dort, wo die kleine Vilnia in die gewundene Neris mündet. Erstmals erwähnt wird die Stadt 1323, in Briefen des Großfürsten Gediminas, der Kaufleute und Handwerker einlud, sich hier niederzulassen.",
+    "w": "Eine grüne, hügelige Stadt an einem Fluss in Schleifen, mit Wäldern bis in die Stadt und vielen Seen im Westen.",
+    "f": [
+      "Die Altstadt von Vilnius ist seit 1994 UNESCO-Welterbe.",
+      "1989 bestimmten französische Geografen den geografischen Mittelpunkt Europas rund 26 km nördlich von Vilnius.",
+      "Trakai mit seiner Inselburg in einem See liegt keine 30 km westlich."
+    ],
+    "q": {
+      "q": "In welchen Fluss mündet die Vilnia bei Vilnius?",
+      "a": "In die Neris",
+      "x": [
+        "In die Memel",
+        "In die Düna"
+      ]
+    }
+  },
+  "Q1773": {
+    "t": "Ein Hansehafen, wo ein großer Fluss die Bucht erreicht",
+    "s": "Riga liegt an der Daugava, wenige Kilometer bevor sie in den Rigaischen Meerbusen mündet, eine weite, flache Bucht der Ostsee. Von oben trennt der breite Fluss die kompakte Altstadt am Ostufer von neueren Vierteln im Westen, und ringsum rücken Kiefernwälder und Moore heran. Bischof Albert gründete die Stadt 1201, und sie wurde ein führender Hansehafen.",
+    "w": "Eine Stadt an einem breiten Fluss kurz vor seiner Mündung in eine weite Bucht, mit Sandküste und dunklem Kiefernwald am Ufer.",
+    "f": [
+      "Rund ein Drittel der Gebäude im Zentrum Rigas ist im Jugendstil erbaut, eine der dichtesten Sammlungen überhaupt.",
+      "Das historische Zentrum von Riga ist seit 1997 UNESCO-Welterbe.",
+      "Westlich der Stadt erstreckt sich der Badeort Jūrmala über mehr als 30 km entlang eines Sandstrands."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Riga?",
+      "a": "Die Daugava",
+      "x": [
+        "Die Memel",
+        "Die Gauja"
+      ]
+    }
+  },
+  "Q225641": {
+    "t": "Ein Inselhafen, umschlungen von zwei tiefen Meeresarmen",
+    "s": "Mombasas altes Herz ist eine Insel, ein flacher Korallenblock zwischen zwei tiefen Meeresarmen, die in die kenianische Küste reichen. Auf der einen Seite schützt der Kilindini Harbour einen der größten Häfen Ostafrikas; auf der anderen blickt die Altstadt auf den Tudor Creek. Vor der Küste markiert eine weiße Brandungslinie das Saumriff. Jahrhundertelang war dies ein wichtiger Hafen der Swahili-Küste.",
+    "w": "Eine kleine Insel zwischen zwei gewundenen Meeresarmen an einer grünen Küste, davor bricht sich weiße Brandung am Riff.",
+    "f": [
+      "Fort Jesus, 1593 begonnen, ist UNESCO-Welterbe.",
+      "Vasco da Gama legte 1498 auf dem Weg nach Indien in Mombasa an.",
+      "Die Insel ist über Dämme und Brücken mit dem Festland verbunden, per Fähre mit der Südküste."
+    ],
+    "q": {
+      "q": "Wer baute in den 1590er-Jahren Fort Jesus in Mombasa?",
+      "a": "Die Portugiesen",
+      "x": [
+        "Die Omaner",
+        "Die Briten"
+      ]
+    }
+  },
+  "Q3909": {
+    "t": "Die Tiefland-Hauptstadt eines Königreichs im Himmel",
+    "s": "Selbst die „Tiefland“-Hauptstadt Lesothos liegt rund 1.600 Meter über dem Meer. Maseru liegt am Caledon, direkt an der Westgrenze eines Landes, das vollständig von Südafrika umgeben ist. Schauen Sie von oben nach Osten: Das Land steigt in die Maloti-Berge an, wo der größte Teil Lesothos über 1.800 Metern liegt, im Winter oft schneebestäubt.",
+    "w": "Eine Stadt an einem schmalen Grenzfluss, im Westen flaches Farmland, im Osten gefaltete, kahle Berge.",
+    "f": [
+      "Lesothos tiefster Punkt liegt bei rund 1.400 Metern – der höchste „tiefste Punkt“ aller Länder.",
+      "Maserus Name bedeutet auf Sesotho „rote Sandsteine“.",
+      "Thaba Bosiu, der Tafelberg und Rückzugsort König Moshoeshoes I., liegt rund 25 km östlich."
+    ],
+    "q": {
+      "q": "Welches Land umschließt Lesotho vollständig?",
+      "a": "Südafrika",
+      "x": [
+        "Botswana",
+        "Eswatini"
+      ]
+    }
+  },
+  "Q3915": {
+    "t": "Eine Hügelstadt zwischen Reisfeldern auf der Roten Insel",
+    "s": "Antananarivo breitet sich über einen langen Granitkamm und die Hügel ringsum mitten auf Madagaskar aus, rund 1.300 Meter hoch. Zwischen den Hügeln füllen leuchtend grüne Reisfelder noch mitten in der Stadt die Täler, und der Boden ringsum ist auffallend rot. Der Name bedeutet „Stadt der Tausend“ und soll an tausend Krieger erinnern, die sie bewachten.",
+    "w": "Eine hügelige Stadt mit langem Kamm in der Mitte, leuchtend grünen Reisfeldern in den Tälern und roter Erde ringsum.",
+    "f": [
+      "Der Rova, der alte Königspalast, krönt den höchsten Hügel der Stadt.",
+      "Der Anosy-See im Stadtzentrum ist von Jacarandas umringt, die im Frühling violett blühen.",
+      "Madagaskars rote Lateritböden brachten der Insel den Beinamen „die Große Rote Insel“ ein."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Antananarivo?",
+      "a": "Stadt der Tausend",
+      "x": [
+        "Stadt des Reises",
+        "Roter Hügel"
+      ]
+    }
+  },
+  "Q456": {
+    "t": "Zwei Flüsse, die sich an der Spitze einer Halbinsel treffen",
+    "s": "Lyon ist um einen Zusammenfluss gebaut. Die breite, schnelle Rhone aus den Alpen und die ruhigere Saône aus dem Norden fließen nebeneinander durch die Stadt, umschließen eine lange, schmale Halbinsel und vereinen sich an ihrer Südspitze. Westlich der Saône erhebt sich der Hügel Fourvière. Die Römer gründeten hier 43 v. Chr. Lugdunum.",
+    "w": "Zwei Flüsse, die nebeneinander durch eine große Stadt fließen, dazwischen ein langer, dünner Landstreifen, im Süden vereinen sie sich.",
+    "f": [
+      "Lugdunum war eine Hauptstadt des römischen Gallien, und Kaiser Claudius wurde hier geboren.",
+      "Die Altstadt von Lyon ist seit 1998 UNESCO-Welterbe.",
+      "Vom 16. bis zum 19. Jahrhundert war Lyon Europas große Seidenweberstadt."
+    ],
+    "q": {
+      "q": "Welche zwei Flüsse treffen sich bei Lyon?",
+      "a": "Rhone und Saône",
+      "x": [
+        "Loire und Allier",
+        "Seine und Marne"
+      ]
+    }
+  },
+  "Q1004822": {
+    "t": "Ein Flusshafen nahe dem Scheitel des großen Kongobogens",
+    "s": "Bumba liegt am Nordufer des Kongo, nahe dem Scheitel des großen Bogens, den der Fluss quer durch Zentralafrika zieht. Hier ist der Kongo ein verflochtener Riese, mehrere Kilometer breit und mit langen bewaldeten Inseln getüpfelt, der durch geschlossenen Regenwald fließt. Von oben reichen der braune Fluss und das dunkelgrüne Blätterdach bis an jeden Horizont.",
+    "w": "Eine kleine Stadt am Nordufer eines riesigen, verflochtenen braunen Flusses voller bewaldeter Inseln, inmitten endlosen Regenwalds.",
+    "f": [
+      "Der Kongo quert auf seinem langen Bogen durch Zentralafrika zweimal den Äquator.",
+      "Nur der Amazonas führt mehr Wasser ins Meer als der Kongo.",
+      "Um Bumba erreicht der Fluss den nördlichsten Abschnitt seines Laufs."
+    ],
+    "q": {
+      "q": "Wie oft quert der Kongo den Äquator?",
+      "a": "Zweimal",
+      "x": [
+        "Einmal",
+        "Dreimal"
+      ]
+    }
+  },
+  "Q3659": {
+    "t": "Sahel-Hauptstadt, wo zwei Flüsse sich an der Grenze treffen",
+    "s": "N’Djamena liegt dort, wo der Logone in den Schari mündet, auf einer flachen Ebene am Südrand des Sahel. Jenseits des Logone liegt Kamerun, so nah, dass sich beide Länder über das Wasser hinweg anblicken. Der vereinte Fluss fließt weiter nach Nordwesten zum Tschadsee, einem flachen See, der mit Jahreszeiten und Jahren dramatisch anschwillt und schrumpft.",
+    "w": "Eine flache Stadt an einem Flusszusammenfluss, gegenüber eine kleinere Stadt, ringsum Überschwemmungsebenen und trockene Savanne.",
+    "f": [
+      "Das Flusssystem des Schari liefert rund 90 Prozent des Wassers, das den Tschadsee erreicht.",
+      "Die Stadt wurde 1900 als Fort-Lamy gegründet.",
+      "Das Südufer des Tschadsees liegt rund 100 km nordwestlich der Stadt."
+    ],
+    "q": {
+      "q": "Welchen See speist der Schari nordwestlich von N’Djamena?",
+      "a": "Den Tschadsee",
+      "x": [
+        "Den Victoriasee",
+        "Den Voltasee"
+      ]
+    }
+  },
+  "Q242587": {
+    "t": "Eine alte Sultanshauptstadt an einer Karawanenstraße",
+    "s": "Abéché liegt auf dem trockenen Plateau im Osten des Tschad, eine flache, sandfarbene Stadt zwischen verstreuten Felshügeln und saisonalen Flussbetten. Ab 1850 war sie Hauptstadt des Sultanats Wadai, eines mächtigen Sahel-Staates. Karawanen brachen einst von hier quer durch die Sahara zur Mittelmeerküste bei Bengasi auf, rund 2.000 km entfernt.",
+    "w": "Eine kleine, staubige Stadt zwischen niedrigen Felshügeln und trockenen, sandigen Flussbetten auf einem flachen, braunen Plateau.",
+    "f": [
+      "Die frühere Wadai-Hauptstadt Ouara liegt rund 50 km nördlich in Ruinen.",
+      "Der meiste Regen des Jahres fällt im Juli und August und verwandelt die Wadis kurz in Flüsse."
+    ],
+    "q": {
+      "q": "Abéché war Hauptstadt welches Sultanats?",
+      "a": "Wadai",
+      "x": [
+        "Bornu",
+        "Darfur"
+      ]
+    }
+  },
+  "Q3818": {
+    "t": "Eine Inselhauptstadt unter einem 3.000 Meter hohen Vulkan",
+    "s": "Ein bewaldeter Vulkan von über 3.000 Metern, oft wolkenverhangen, erhebt sich hinter Malabo: der Pico Basilé. Die Stadt liegt an der Nordküste von Bioko, einer üppigen Vulkaninsel im Golf von Guinea, getrennt vom übrigen Land auf dem Festland. Ihr Hafen schwingt sich im Rand eines alten, teils vom Meer gefluteten Vulkankraters.",
+    "w": "Eine kleine Stadt am Nordufer einer grünen Vulkaninsel, hinter ihr ein riesiger bewaldeter Gipfel.",
+    "f": [
+      "Der Pico Basilé ist mit rund 3.010 Metern der höchste Punkt Äquatorialguineas.",
+      "Bioko liegt keine 40 km vor der Küste Kameruns.",
+      "Malabo ist eine der wenigen Hauptstädte auf einer Insel abseits des Festlandsteils ihres Landes."
+    ],
+    "q": {
+      "q": "Wie hieß Malabo bei seiner Gründung durch die Briten 1827?",
+      "a": "Port Clarence",
+      "x": [
+        "Fernando Po",
+        "Bathurst"
+      ]
+    }
+  },
+  "Q130514": {
+    "t": "Das alte Theben, vom Nil geteilt zwischen Leben und Tod",
+    "s": "Luxor liegt beiderseits des Nils in einem schmalen grünen Tal zwischen kahlen Wüstenklippen. Am Ostufer, wo die Sonne aufgeht, liegen die Stadt und die riesigen Tempel von Karnak und Luxor. Am Westufer steigt das Land jenseits der Felder zu trockenen Kalksteinhügeln an, die das Tal der Könige verbergen, wo die Pharaonen des Neuen Reiches bestattet wurden.",
+    "w": "Ein grüner Streifen an beiden Nilufern, eine Stadt auf der Ostseite und im Westen steil aufragende helle Wüstenklippen.",
+    "f": [
+      "Als Theben war dies vor mehr als 3.000 Jahren einen Großteil des Neuen Reiches die Hauptstadt Ägyptens.",
+      "Der Tempelbezirk von Karnak ist eine der größten religiösen Anlagen, die je gebaut wurden.",
+      "Das antike Theben und seine Totenstadt wurden 1979 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Wie nannten die alten Griechen die Stadt bei Luxor?",
+      "a": "Theben",
+      "x": [
+        "Memphis",
+        "Heliopolis"
+      ]
+    }
+  },
+  "Q3642": {
+    "t": "Eine Stadt der Moderne am Rand einer großen Steilstufe",
+    "s": "Gleich östlich von Asmara stürzt das Land auf nur wenigen Dutzend Kilometern mehr als 2.000 Meter zur heißen Küste des Roten Meeres ab. Die Stadt liegt auf rund 2.300 Metern im eritreischen Hochland, nahe dem Rand dieser Steilstufe. Ihre Straßen säumen Bauten der Moderne aus dem frühen 20. Jahrhundert, und 2017 nahm die UNESCO sie als modernistische afrikanische Stadt in die Welterbeliste auf.",
+    "w": "Eine kompakte Stadt auf einem hohen Plateau, am Rand einer steilen, tief zerschnittenen Stufe, die nach Osten zum Roten Meer abfällt.",
+    "f": [
+      "Eine Schmalspurbahn windet sich von Asmara die Steilstufe hinab zum Hafen Massaua.",
+      "Dank ihrer Höhe hat Asmara trotz tropischer Lage das ganze Jahr über milde Temperaturen.",
+      "Asmaras Name wird oft als „sie vereinten sie“ erklärt, nach vier Dörfern, die sich zusammenschlossen."
+    ],
+    "q": {
+      "q": "Für welchen Baustil steht Asmara auf der UNESCO-Liste?",
+      "a": "Moderne",
+      "x": [
+        "Gotik",
+        "Barock"
+      ]
+    }
+  },
+  "Q1435": {
+    "t": "Oben ein Waldberg, unten die Save-Ebene",
+    "s": "Zagreb erstreckt sich von den Hängen der Medvednica, eines bewaldeten Bergs gleich nördlich der Stadt, hinunter in die weite Ebene der Save. Der historische Kern liegt auf den niedrigeren Hügeln; neuere Viertel ziehen sich über das flache Land jenseits des Flusses. Die beiden mittelalterlichen Städte Gradec und Kaptol wurden 1850 zu einer Stadt vereint.",
+    "w": "Eine Stadt zwischen einem dunklen, bewaldeten Berg im Norden und einem Fluss, der im Süden die flache Ebene quert.",
+    "f": [
+      "Sljeme, der Gipfel der Medvednica, erreicht rund 1.030 Meter.",
+      "In der Unterstadt heißt eine U-förmige Kette von Parks und Plätzen „Grünes Hufeisen“.",
+      "Die Save, die an der Stadt vorbeifließt, mündet bei Belgrad in die Donau."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Zagreb?",
+      "a": "Die Save",
+      "x": [
+        "Die Drau",
+        "Die Donau"
+      ]
+    }
+  },
+  "Q1770": {
+    "t": "Eine mittelalterliche Hansestadt an einer Kalksteinbucht",
+    "s": "Ein Kalksteinhügel, der Domberg (Toompea), erhebt sich über Tallinns weiter Bucht, um ihn eine mittelalterliche Altstadt, eine der besterhaltenen Nordeuropas. Der Hügel gehört zum Baltischen Glint, einer langen Küstenstufe. Bewaldete Inseln tüpfeln die Bucht, und Helsinki liegt rund 80 km jenseits des Meeres. Als Reval war die Stadt ein wohlhabender Hansehafen.",
+    "w": "Eine kompakte Stadt um eine weite Bucht mit einigen bewaldeten Inseln, nach Osten und Westen flache, bewaldete Küste.",
+    "f": [
+      "Die Altstadt von Tallinn ist seit 1997 UNESCO-Welterbe.",
+      "Der Baltische Glint, eine Kalksteinstufe, zieht sich über mehr als 1.000 km von Schweden bis nach Russland.",
+      "Tallinns Name wird oft als „dänische Stadt“ erklärt – eine Erinnerung an die dänische Herrschaft im 13. Jahrhundert."
+    ],
+    "q": {
+      "q": "Wie lautete Tallinns alter Hansename?",
+      "a": "Reval",
+      "x": [
+        "Dorpat",
+        "Memel"
+      ]
+    }
+  },
+  "Q261887": {
+    "t": "Eine Flussstadt, wo grasige Plateaus auf Waldtäler treffen",
+    "s": "Kikwit liegt am Kwilu im Südwesten Kongos, eine geschäftige Regionalstadt in einer Landschaft grasiger Plateaus, zerschnitten von tiefen, bewaldeten Tälern. Achten Sie von oben auf das auffällige Muster: helle Savanne auf den Höhen und dunkelgrüne Bänder aus Galeriewald entlang jedes Baches. Der Kwilu fließt nach Norden zum Kasai und schließlich zum Kongo.",
+    "w": "Eine Stadt an einem gewundenen Fluss, mit hellen, grasigen Plateaus und dunkelgrünen Waldstreifen in den Tälern.",
+    "f": [
+      "Der Kwilu mündet in den Kwango, der den Kasai speist, einen der größten Nebenflüsse des Kongo.",
+      "Die Gegend um Kikwit ist seit Langem für ihre Ölpalmen bekannt."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Kikwit?",
+      "a": "Der Kwilu",
+      "x": [
+        "Der Kwango",
+        "Der Lomami"
+      ]
+    }
+  },
+  "Q211073": {
+    "t": "Ein felsiger Flusshafen, an dem Hochseeschiffe haltmachen",
+    "s": "Matadi klammert sich an steile, felsige Hügel am linken Ufer des Kongo, rund 150 km vom Atlantik. Weiter kommen Hochseeschiffe nicht: Gleich flussaufwärts zwängt sich der Fluss in Schluchten und Stromschnellen. In den 1890er-Jahren wurde eine Bahn gebaut, um Güter um sie herum nach Kinshasa zu bringen. Der Name der Stadt bedeutet auf Kikongo „Steine“.",
+    "w": "Eine hügelige, felsige Stadt an einem schmalen, schnellen Abschnitt des Kongo, überspannt von einer einzigen langen Hängebrücke.",
+    "f": [
+      "Die zwischen 1890 und 1898 gebaute Bahn Matadi–Kinshasa umgeht die Livingstonefälle.",
+      "Die Matadi-Brücke über den Kongo hat eine Hauptspannweite von rund 520 Metern.",
+      "Flussaufwärts an den Yelala-Fällen hinterließ der portugiesische Seefahrer Diogo Cão 1485 eine Inschrift im Fels."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Matadi auf Kikongo?",
+      "a": "Steine",
+      "x": [
+        "Hafen",
+        "Sandbank"
+      ]
+    }
+  },
+  "Q271404": {
+    "t": "Eine Bergbaustadt im Ring riesiger Tagebaue",
+    "s": "Terrassierte Krater, graue Abraumhalden und helle Absetzbecken zeichnen das Land um Kolwezi: riesige Tagebaue in einem der reichsten Mineralgürtel der Erde. Die Stadt liegt auf einem hohen Plateau im Süden des Kongo. Die Erze hier enthalten Kupfer und Kobalt, ein Metall, das heute für Akkus gefragt ist.",
+    "w": "Eine Stadt, umgeben von riesigen terrassierten Tagebauen, grauen Abraumhalden und flachen Absetzbecken auf einem hohen Plateau.",
+    "f": [
+      "Die Demokratische Republik Kongo fördert mehr als die Hälfte des weltweit abgebauten Kobalts, vieles davon um Kolwezi.",
+      "Der Zentralafrikanische Kupfergürtel reicht von Kolwezi über die Grenze bis nach Sambia.",
+      "Kolwezi liegt rund 1.450 Meter über dem Meer."
+    ],
+    "q": {
+      "q": "Welches Akkumetall wird um Kolwezi in großen Mengen abgebaut?",
+      "a": "Kobalt",
+      "x": [
+        "Lithium",
+        "Nickel"
+      ]
+    }
+  },
+  "Q187593": {
+    "t": "Kupferhauptstadt mit einem schwarzen Schlackenberg",
+    "s": "Lubumbashi breitet sich über das hohe, flache Plateau des Kupfergürtels im äußersten Südosten des Kongo aus, nur wenige Dutzend Kilometer von Sambia entfernt. Achten Sie auf einen dunklen Hügel nahe dem Zentrum: eine riesige Schlackenhalde aus einem Jahrhundert Kupferverhüttung, daneben der hohe Schornstein der Hütte. Gegründet wurde die Stadt 1910 als Élisabethville.",
+    "w": "Eine rasterförmig angelegte Stadt auf flachem Plateau, nahe ihrem Zentrum eine dunkle, flache Schlackenhalde, ringsum trockener Wald.",
+    "f": [
+      "Lubumbashi ist eine der größten Städte der Demokratischen Republik Kongo.",
+      "Die sambische Grenze liegt nur rund 30 km entfernt.",
+      "Miombo, ein trockener Wald aus breitblättrigen Bäumen, bedeckt große Teile des Plateaus um die Stadt."
+    ],
+    "q": {
+      "q": "Wie hieß Lubumbashi bei seiner Gründung 1910?",
+      "a": "Élisabethville",
+      "x": [
+        "Léopoldville",
+        "Stanleyville"
+      ]
+    }
+  },
+  "Q3876": {
+    "t": "Eine Gartenhauptstadt auf dem zentralen Plateau",
+    "s": "Lilongwe liegt auf Malawis zentralem Plateau, rund 1.050 Meter hoch, eine weitläufige Stadt aus getrennten Vierteln, geteilt von Grüngürteln und dem gewundenen Lilongwe River. Ringsum erstrecken sich rote Erde und Farmland in alle Richtungen, vielfach mit Mais und Tabak bepflanzt. Rund 100 km östlich fällt das Land zum Ufer des Malawisees ab.",
+    "w": "Eine lockere, weitläufige Stadt aus getrennten Vierteln zwischen Bäumen und rotem Farmland, gequert von einem kleinen gewundenen Fluss.",
+    "f": [
+      "Lilongwe löste 1975 Zomba als Hauptstadt Malawis ab.",
+      "Im Malawisee leben mehr Fischarten als in jedem anderen See der Erde.",
+      "Viele Viertel Lilongwes tragen Nummern statt Namen, etwa Area 3 oder Area 47."
+    ],
+    "q": {
+      "q": "Welcher See liegt rund 100 km östlich von Lilongwe?",
+      "a": "Der Malawisee",
+      "x": [
+        "Der Tanganjikasee",
+        "Der Karibasee"
+      ]
+    }
+  },
+  "Q3825": {
+    "t": "„Freie Stadt“ an einer Mündung knapp nördlich des Äquators",
+    "s": "Libreville liegt am Nordufer der Komo-Mündung, wo sich der Fluss zum Atlantik öffnet, nur rund 40 km nördlich des Äquators. Der Regenwald reicht fast bis an den Stadtrand, und jenseits der Mündung bleiben Mangroven und Strände des Pongara-Nationalparks wild. Die Stadt wurde 1849 von befreiten Afrikanern gegründet, die von einem Sklavenschiff gerettet worden waren.",
+    "w": "Eine Stadt entlang des Nordufers einer weiten Mündung zum Meer, auf der anderen Seite dichter grüner Wald und Mangroven.",
+    "f": [
+      "Die Strände von Pongara jenseits der Mündung sind ein Nistplatz für Lederschildkröten.",
+      "Fast 90 Prozent Gabuns sind von Wald bedeckt.",
+      "Libreville ist Gabuns Hauptstadt und mit Abstand größte Stadt."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Libreville?",
+      "a": "Freie Stadt",
+      "x": [
+        "Neue Stadt",
+        "Flussstadt"
+      ]
+    }
+  },
+  "Q501715": {
+    "t": "Eine Ölstadt auf einer Insel am Rand eines großen Deltas",
+    "s": "Port-Gentil steht nahe der Spitze des Kap Lopez auf der Insel Mandji, einer flachen, sandigen Insel an der Mündung des Ogooué, des großen Flusses Gabuns. Dahinter breitet sich das Delta des Flusses aus, ein Labyrinth aus Armen, Lagunen und Mangroven. Die Stadt ist das Zentrum der gabunischen Ölindustrie, und nachts sehen Sie vielleicht die Lichter der Offshore-Plattformen draußen im Atlantik.",
+    "w": "Eine kleine Stadt an der Nordspitze einer flachen, sandigen Insel, im Südosten ein riesiges Delta aus Armen und Mangroven.",
+    "f": [
+      "Der Ogooué ist Gabuns längster Fluss und entwässert den größten Teil des Landes.",
+      "Kap Lopez ist nach dem portugiesischen Seefahrer Lopo Gonçalves benannt, der in den 1470er-Jahren daran vorbeisegelte."
+    ],
+    "q": {
+      "q": "An der Mündung welches Flusses liegt Port-Gentil?",
+      "a": "Des Ogooué",
+      "x": [
+        "Des Kongo",
+        "Des Sanaga"
+      ]
+    }
+  },
+  "Q9427": {
+    "t": "Die sagenhafte Wüstenstadt, gleich jenseits des Niger",
+    "s": "Von oben ist Timbuktu eine kleine, sandfarbene Stadt, die überall liegen könnte. Doch vom 14. bis zum 16. Jahrhundert war sie ein großes Zentrum des Handels und der islamischen Gelehrsamkeit, ihre Bibliotheken voller Handschriften. Sie liegt dort, wo Wüste auf Fluss trifft: Die Sahara reicht an ihren Nordrand, während der Niger rund 15 km südlich fließt.",
+    "w": "Eine kleine, sandfarbene Stadt am Rand der Dünen, ein kurzes Stück südlich die grüne Überschwemmungsebene des Niger.",
+    "f": [
+      "Die Djinguereber-Moschee, um 1327 erbaut, besteht großteils aus Lehm und Stroh.",
+      "Familien in Timbuktu bewahren Zehntausende alte Handschriften zu Recht, Astronomie und Medizin.",
+      "Timbuktu ist seit 1988 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher Herrscher Malis ließ Timbuktus Djinguereber-Moschee bauen?",
+      "a": "Mansa Musa",
+      "x": [
+        "Sundiata Keita",
+        "Askia Mohammed"
+      ]
+    }
+  },
+  "Q3688": {
+    "t": "Eine Wüstenhauptstadt auf den Dünen am Atlantik",
+    "s": "1958 war dies kaum mehr als ein Dorf; heute leben in Nouakchott rund eine Million Menschen. In jenem Jahr begann der Bau einer neuen Hauptstadt, geplant für etwa 15.000. Sie liegt dort, wo die Sahara auf den Atlantik trifft, eine flache, ausufernde Stadt auf ebenem Sand zwischen dem Ozean und einem Meer aus Dünen, das noch immer gegen ihre Ränder drückt.",
+    "w": "Eine flache, ausufernde Stadt auf ebenem Sand, im Westen ein gerader Atlantikstrand und von Osten heranrückende orange Dünen.",
+    "f": [
+      "Der Banc-d’Arguin-Nationalpark, UNESCO-Welterbe weiter die Küste hinauf, beherbergt Millionen überwinternder Watvögel.",
+      "Große Teile der Stadt liegen nur wenige Meter über dem Meeresspiegel.",
+      "Der Name Nouakchott wird oft mit „Ort der Winde“ übersetzt."
+    ],
+    "q": {
+      "q": "In welchem Jahr begann der Bau von Nouakchott als neue Hauptstadt?",
+      "a": "1958",
+      "x": [
+        "1901",
+        "1985"
+      ]
+    }
+  },
+  "Q3703": {
+    "t": "Eine Hauptstadt am Niger unter einer Sandsteinstufe",
+    "s": "Bamako erstreckt sich über beide Ufer des Niger, eines breiten, flachen Flusses voller Sandbänke und kleiner Felsinseln. Hinter der Stadt erhebt sich im Norden der Rand des Manding-Plateaus, eine Linie aus Sandsteinklippen und Hügeln. Brücken verbinden die beiden Stadthälften. Der Name soll auf Bambara „Krokodilfluss“ bedeuten.",
+    "w": "Eine weite Stadt an beiden Ufern eines breiten Flusses mit Sandbänken und Brücken, im Norden Sandsteinhügel.",
+    "f": [
+      "Gleich flussabwärts des Zentrums unterbrechen die Sotuba-Stromschnellen den Lauf des Niger.",
+      "Bamako ist eine der am schnellsten wachsenden Städte Afrikas.",
+      "Der Niger entspringt nur rund 250 km vom Atlantik entfernt und fließt doch landeinwärts, von ihm weg, an Bamako vorbei."
+    ],
+    "q": {
+      "q": "Was soll der Name Bamako bedeuten?",
+      "a": "Krokodilfluss",
+      "x": [
+        "Nilpferdtümpel",
+        "Rote Klippe"
+      ]
+    }
+  },
+  "Q735645": {
+    "t": "Ein Oasentor zum Adrar und zum Auge der Sahara",
+    "s": "Atar ist eine Oasenstadt mit Dattelpalmen in einem Tal des Adrar-Plateaus, im Herzen der mauretanischen Sahara. Dunkle Sandsteinklippen und orange Dünen umgeben sie. Rund 180 km nordöstlich liegt einer der berühmtesten Anblicke aus der Luft: die Richat-Struktur, das „Auge der Sahara“, eine riesige Folge konzentrischer Felsringe.",
+    "w": "Ein grüner Streifen aus Palmenhainen in einem trockenen Tal zwischen dunklen Plateauklippen, ringsum ausgebreitete Sanddünen.",
+    "f": [
+      "Die Richat-Struktur misst rund 40 km im Durchmesser – groß genug, dass Astronauten sie ausmachen können.",
+      "Chinguetti, eine alte Karawanenstadt rund 80 km östlich, ist UNESCO-Welterbe.",
+      "Jeden Sommer lockt die Dattelernte, die Guetna, Familien in die Oasen des Adrar."
+    ],
+    "q": {
+      "q": "Was ist das Auge der Sahara nordöstlich von Atar?",
+      "a": "Eine abgetragene Gesteinskuppel",
+      "x": [
+        "Ein Meteoritenkrater",
+        "Ein ausgetrockneter Salzsee"
+      ]
+    }
+  },
+  "Q213507": {
+    "t": "Eine Lehmstadt, die im Hochwasser zur Insel wird",
+    "s": "Djenné liegt im Binnendelta des Niger, auf einem Stück höherem Grund, das die Hochwasser des Bani jede Regenzeit zur Insel machen. Seine Große Moschee ist das größte Lehmziegelgebäude der Welt, und jedes Jahr verputzen die Bewohner sie gemeinsam bei einem Fest neu. Achten Sie von oben auf eine kompakte braune Stadt, umringt von Wasser oder grüner Aue.",
+    "w": "Eine kompakte, erdbraune Stadt auf einer flachen Insel in einer weiten, flachen Aue, die in der Regenzeit zu Wasser wird.",
+    "f": [
+      "Die heutige Große Moschee stammt von 1907, neu errichtet an der Stelle einer viel älteren Moschee.",
+      "Das nahe Djenné-Djeno, um 250 v. Chr. besiedelt, ist eine der ältesten bekannten Städte Afrikas südlich der Sahara.",
+      "Die Altstädte von Djenné sind seit 1988 UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Was verputzen die Bewohner von Djenné jedes Jahr gemeinsam neu?",
+      "a": "Die Große Moschee",
+      "x": [
+        "Die Stadtmauer",
+        "Die Markthalle"
+      ]
+    }
+  },
+  "Q208389": {
+    "t": "Eine Saharaoase mit grünen Kreisen im Sand",
+    "s": "Perfekte grüne Kreise tüpfeln die Wüste um Sabha: Felder, bewässert von rotierenden Beregnungsarmen, die uraltes Grundwasser anzapfen. Die Stadt liegt tief in der libyschen Sahara, im Fessan, einer Region aus Sandmeeren, steinigen Plateaus und Oasenketten. Jahrhundertelang war sie ein Kreuzungspunkt für Karawanen zwischen Mittelmeer und Sahel.",
+    "w": "Eine Stadt auf flacher Wüstenebene, mit verstreuten grünen Kreisfeldern, ringsum dunkle Felsplateaus und Sandmeere.",
+    "f": [
+      "Das um Sabha gepumpte Grundwasser fiel vor Tausenden Jahren als Regen, als die Sahara grüner war.",
+      "Rund 150 km westlich war Germa die Hauptstadt der Garamanten, eines Wüstenreichs der Römerzeit.",
+      "Im Fessan vergehen viele Jahre fast ganz ohne Regen."
+    ],
+    "q": {
+      "q": "Welches antike Volk beherrschte westlich von Sabha ein Wüstenreich?",
+      "a": "Die Garamanten",
+      "x": [
+        "Die Nabatäer",
+        "Die Phönizier"
+      ]
+    }
+  },
+  "Q40816": {
+    "t": "Ein von Griechen gegründeter Hafen an der Großen Syrte",
+    "s": "Bengasi breitet sich an einer flachen Küste in der Nordostecke der Großen Syrte aus, wo Salzmarschen und Lagunen das Meer säumen. Landeinwärts im Osten erhebt sich das grüne Hochland des Dschebel Achdar, einer der regenreichsten Teile Libyens. Die Stadt begann als griechische Kolonie Euhesperides und wurde später nach einer ptolemäischen Königin Berenike genannt.",
+    "w": "Eine flache Küstenstadt mit Lagunen und Salzflächen am Ufer, im Nordosten ein grünes, bewaldetes Hochland.",
+    "f": [
+      "Griechische Siedler gründeten hier im 6. Jahrhundert v. Chr. Euhesperides.",
+      "Der Dschebel Achdar, der „Grüne Berg“, erhält weit mehr Regen als fast jede andere Gegend Libyens.",
+      "Bengasi ist die zweitgrößte Stadt Libyens."
+    ],
+    "q": {
+      "q": "Wie hieß Bengasi in ptolemäischer Zeit?",
+      "a": "Berenike",
+      "x": [
+        "Kyrene",
+        "Apollonia"
+      ]
+    }
+  },
+  "Q17151": {
+    "t": "Eine Hafenstadt mit Blick über den Golf zum Olymp",
+    "s": "Thessaloniki schwingt sich um das Ende des Thermaischen Golfs, eine lange Uferfront vor Hügeln. Schauen Sie an klaren Tagen nach Südwesten über das Wasser: Das Massiv des Olymp, Sitz der griechischen Götter, erhebt sich auf fast 3.000 Meter, oft schneebedeckt. Westlich der Stadt baut der Axios ein grünes Delta aus Feuchtgebieten und Reisfeldern auf.",
+    "w": "Eine Stadt entlang des geschwungenen Endes eines Golfs, vor Hügeln, mit einem Flussdelta im Westen und dem Olymp jenseits des Wassers.",
+    "f": [
+      "König Kassander gründete die Stadt 315 v. Chr. und benannte sie nach seiner Frau Thessalonike, Halbschwester Alexanders des Großen.",
+      "Der Olymp erreicht rund 2.918 Meter, der höchste Punkt Griechenlands.",
+      "Die frühchristlichen und byzantinischen Bauten der Stadt sind UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Thessaloniki ist nach der Halbschwester welches Herrschers benannt?",
+      "a": "Alexanders des Großen",
+      "x": [
+        "Julius Caesars",
+        "Ptolemaios’ I."
+      ]
+    }
+  },
+  "Q3820": {
+    "t": "Schneegipfel und warmes Meer, Seite an Seite",
+    "s": "Beirut liegt auf einem dreieckigen Kap, das ins Mittelmeer ragt, direkt dahinter steigen die Hänge des Libanongebirges steil an. Im Winter werden die Gipfel, weit über 2.000 Meter hoch, weiß von Schnee, während das Meer darunter blau bleibt. Vor der Westspitze stehen zwei große Felsbögen im Meer, die Taubengrotten. Als römisches Berytus war die Stadt für ihre Rechtsschule berühmt.",
+    "w": "Eine dichte Stadt auf einem dreieckigen Kap, landeinwärts im Osten unmittelbar steile Berghänge.",
+    "f": [
+      "Beirut ist seit rund 5.000 Jahren bewohnt.",
+      "Die Zeder ist das Wahrzeichen des Libanon, und alte Zedernhaine überleben hoch oben im Libanongebirge.",
+      "Im späten Winter kann man am selben Tag im Libanongebirge Ski fahren und im Meer schwimmen."
+    ],
+    "q": {
+      "q": "Welche Art von Schule machte das römische Berytus berühmt?",
+      "a": "Eine Rechtsschule",
+      "x": [
+        "Eine Medizinschule",
+        "Eine Philosophenschule"
+      ]
+    }
+  },
+  "Q994": {
+    "t": "Warme Quellen in einer Flussschlucht gaben ihr den Namen",
+    "s": "Tiflis windet sich entlang des Tals der Kura, die die Stadt in einer engen Schlucht zwischen steilen Hügeln durchschneidet. Die Altstadt drängt sich unter einer Festung auf einem Kamm, wo heiße Schwefelquellen noch immer Badehäuser mit Kuppeln speisen. Der Name kommt vom georgischen Wort für „warm“. An klaren Tagen steht die verschneite Wand des Großen Kaukasus am nördlichen Horizont.",
+    "w": "Eine lange Stadt in einem gewundenen Flusstal zwischen kahlen Hügeln, weit im Norden die verschneite Kette des Großen Kaukasus.",
+    "f": [
+      "König Wachtang Gorgassali gilt traditionell als Gründer der Stadt im 5. Jahrhundert.",
+      "Das Tifliser Meer, ein Stausee am Nordostrand der Stadt, ist rund 9 km lang.",
+      "Die Kura, auf Georgisch Mtkwari, fließt weiter durch Aserbaidschan zum Kaspischen Meer."
+    ],
+    "q": {
+      "q": "Was gab Tiflis seinen Namen?",
+      "a": "Seine warmen Quellen",
+      "x": [
+        "Seine Weinberge",
+        "Seine Flussbiegung"
+      ]
+    }
+  },
+  "Q218861": {
+    "t": "Eine Königsstadt voller Burgen über dem Tanasee",
+    "s": "Gondar liegt im nördlichen äthiopischen Hochland auf über 2.100 Metern, auf Hügeln über der Ebene, die rund 35 km südlich zum Tanasee hinabführt. 1636 machte Kaiser Fasilidas sie zu seiner Hauptstadt und baute eine Steinburg; seine Nachfolger fügten weitere hinzu und schufen eine ummauerte Königsanlage. Im Nordosten erheben sich die zackigen Simien-Berge.",
+    "w": "Eine hügelige Stadt im Hochland, im Süden ein großer See und weit im Nordosten eine Kette zackiger Gipfel.",
+    "f": [
+      "Die Königsanlage Fasil Ghebbi ist seit 1979 UNESCO-Welterbe.",
+      "Gondar blieb mehr als zwei Jahrhunderte lang Äthiopiens Hauptstadt.",
+      "Zu den Simien-Bergen gehört der Ras Daschen, mit rund 4.550 Metern der höchste Gipfel Äthiopiens."
+    ],
+    "q": {
+      "q": "Welcher See, Quelle des Blauen Nils, liegt südlich von Gondar?",
+      "a": "Der Tanasee",
+      "x": [
+        "Der Turkanasee",
+        "Der Abayasee"
+      ]
+    }
+  },
+  "Q42053": {
+    "t": "„Die halbe Welt“: eine Safawiden-Hauptstadt am Zagros",
+    "s": "Isfahan breitet sich über eine hohe, trockene Ebene am Ostfuß des Zagros-Gebirges aus, aufgereiht am Zayandeh Rud, dem Fluss, der diese Oase möglich machte. 1598 machte Schah Abbas I. sie zur Hauptstadt der Safawiden und füllte sie mit Moscheen, Brücken und einem riesigen öffentlichen Platz. Ein persisches Sprichwort jener Zeit nennt Isfahan „die halbe Welt“.",
+    "w": "Eine große Stadt auf einer trockenen, flachen Ebene, von einem Fluss von West nach Ost gequert, im Westen die Ketten des Zagros.",
+    "f": [
+      "Der Meydan-e Naqsch-e Dschahan, unter Schah Abbas I. angelegt, ist rund 560 Meter lang und UNESCO-Welterbe.",
+      "Die Si-o-se-Pol-Brücke über den Zayandeh Rud ist nach ihren 33 Bögen benannt.",
+      "Der Zayandeh Rud endet nicht im Meer, sondern im Gavkhouni-Salzsumpf im Osten."
+    ],
+    "q": {
+      "q": "Wie nennt ein altes persisches Sprichwort Isfahan?",
+      "a": "Die halbe Welt",
+      "x": [
+        "Perle der Wüste",
+        "Stadt der Rosen"
+      ]
+    }
+  },
+  "Q6397066": {
+    "t": "Dichter, Gärten und ein See, der rosa wird",
+    "s": "Schiras liegt in einem grünen Tal des Zagros-Gebirges, rund 1.500 Meter hoch, zwischen kahlen, gefalteten Kämmen. Es ist Irans Stadt der Dichter: Hafis und Saadi sind hier begraben, und ihre Gräber werden noch heute wie Heiligtümer besucht. Gleich südöstlich liegt der Maharlu-See, ein Salzsee, der sich im Sommer rosa färben kann. Die Ruinen von Persepolis stehen rund 60 km nordöstlich.",
+    "w": "Eine Stadt in einem langen Tal zwischen kahlen, gefalteten Bergkämmen, im Südosten ein flacher, mitunter rosa Salzsee.",
+    "f": [
+      "Persepolis, die zeremonielle Hauptstadt der Achämenidenkönige, ist UNESCO-Welterbe.",
+      "Der Maharlu-See verdankt seine rosa Farbe salzliebenden Mikroorganismen.",
+      "Der Eram-Garten in Schiras gehört zum UNESCO-Welterbe „Persischer Garten“."
+    ],
+    "q": {
+      "q": "Welche antike Königsstadt liegt rund 60 km nordöstlich von Schiras?",
+      "a": "Persepolis",
+      "x": [
+        "Susa",
+        "Ekbatana"
+      ]
+    }
+  },
+  "Q3844": {
+    "t": "Kinshasa direkt gegenüber, über den Kongo hinweg",
+    "s": "Brazzaville zieht sich am Nordufer des Kongo entlang und blickt direkt über das Wasser auf das viel größere Kinshasa. Gleich flussabwärts verlässt der Fluss die ruhige Fläche des Pool Malebo und bricht in schäumende Stromschnellen aus – weiße Streifen, die Sie von oben vielleicht erkennen. Die Stadt ist nach dem Entdecker Pierre Savorgnan de Brazza benannt, der hier 1880 einen Posten gründete.",
+    "w": "Eine Stadt am Nordufer eines breiten Flusses, gegenüber eine größere Stadt, gleich flussabwärts weiße Stromschnellen.",
+    "f": [
+      "Brazzaville ist die Hauptstadt der Republik Kongo, eines anderen Landes als des Nachbarn jenseits des Flusses.",
+      "Die Stromschnellen unterhalb der Stadt, der Beginn der Livingstonefälle, versperren den Schiffsweg zum Meer.",
+      "Mbamou, eine große Insel im Pool Malebo, liegt gleich flussaufwärts der Stadt."
+    ],
+    "q": {
+      "q": "Welcher Entdecker gab Brazzaville seinen Namen?",
+      "a": "Pierre Savorgnan de Brazza",
+      "x": [
+        "Henry Morton Stanley",
+        "David Livingstone"
+      ]
+    }
+  },
+  "Q3733": {
+    "t": "Lange, schmale Hauptstadt auf einer regennassen Halbinsel",
+    "s": "Conakry erstreckt sich über die Halbinsel Kaloum, einen schmalen Landfinger, der nach Südwesten in den Atlantik zeigt; das alte Zentrum liegt ganz an der Spitze auf der einstigen Insel Tombo. Vor der Küste liegen die Los-Inseln, grün und felsig. Conakry ist eine der regenreichsten Hauptstädte der Welt, mit mehreren Metern Regen im Jahr, meist zwischen Juni und September.",
+    "w": "Eine Stadt, die eine lange, schmale, nach Südwesten ins Meer zeigende Halbinsel füllt, davor eine Gruppe grüner Inseln.",
+    "f": [
+      "Conakry erhält rund 3.700 mm Regen im Jahr, vieles davon im Juli und August.",
+      "Die Los-Inseln sind die Reste eines uralten Rings aus Vulkangestein.",
+      "Guinea besitzt die größten Bauxitvorkommen der Welt, das Erz für Aluminium."
+    ],
+    "q": {
+      "q": "Welche Inseln liegen direkt vor Conakry?",
+      "a": "Die Los-Inseln",
+      "x": [
+        "Die Bijagós",
+        "Die Banana-Inseln"
+      ]
+    }
+  },
+  "Q3768": {
+    "t": "Ein Dorf, das Hauptstadt wurde, mit einer riesigen Basilika",
+    "s": "Yamoussoukro liegt im sanft gewellten Zentrum der Elfenbeinküste, wo Wald in Savanne übergeht. Einst ein kleines Dorf, wurde es 1983 offizielle Hauptstadt und mit enorm breiten Alleen und künstlichen Seen angelegt. Seine Basilika ist eine der größten Kirchen der Welt. Nordwestlich der Stadt breitet sich der große, verzweigte Stausee des Kossou-Sees aus.",
+    "w": "Eine weitläufige Stadt breiter Alleen und kleiner Seen in grünem, welligem Land, im Nordwesten ein großer, verzweigter Stausee.",
+    "f": [
+      "Die 1989 vollendete Basilika Notre-Dame de la Paix hat eine vom Petersdom in Rom inspirierte Kuppel.",
+      "Der Kossou-See, aufgestaut am Bandama, ist der größte See der Elfenbeinküste.",
+      "Abidjan, das Wirtschaftszentrum des Landes, liegt rund 230 km südöstlich."
+    ],
+    "q": {
+      "q": "Seit welchem Jahr ist Yamoussoukro offizielle Hauptstadt?",
+      "a": "Seit 1983",
+      "x": [
+        "Seit 1960",
+        "Seit 2001"
+      ]
+    }
+  },
+  "Q612713": {
+    "t": "Eine abgelegene Savannenstadt zwischen Felshügeln",
+    "s": "N’Délé ist eine kleine Stadt im äußersten Norden der Zentralafrikanischen Republik, gelegen zwischen Felshügeln über einer weiten Ebene aus Baumsavanne. Im späten 19. Jahrhundert war sie Sitz des Sultanats Dar al-Kuti, dessen Herrscher ihre Stadt an die Hänge bauten. Im Nordosten liegt einer der großen Wildnisparks Afrikas, durchzogen von saisonalen Flüssen.",
+    "w": "Eine winzige Stadt zwischen Felshügeln, umgeben von endloser Baumsavanne, zerschnitten von saisonalen Flüssen.",
+    "f": [
+      "Der Nationalpark Manovo-Gounda St. Floris nordöstlich der Stadt ist UNESCO-Welterbe.",
+      "Die Regenzeit dauert hier etwa von Mai bis Oktober, dann wird die Savanne grün."
+    ],
+    "q": {
+      "q": "Welcher UNESCO-Park liegt nordöstlich von N’Délé?",
+      "a": "Manovo-Gounda St. Floris",
+      "x": [
+        "Dzanga-Sangha",
+        "Garamba"
+      ]
+    }
+  },
+  "Q3711": {
+    "t": "Weiße Stadt über dem Zusammenfluss von Save und Donau",
+    "s": "Belgrad steht auf einem Kamm über einem der großen Flusstreffpunkte Europas: Die Save mündet direkt unterhalb der alten Festung in die Donau. Achten Sie von oben auf die Spitze, an der sich beide Flüsse vereinen, mit einer bewaldeten Insel am Zusammenfluss und dem flachen, geplanten Raster von Neu-Belgrad am anderen Ufer der Save. Die Römer nannten den Ort Singidunum.",
+    "w": "Zwei breite Flüsse, die sich unter einer Festung auf einem Kamm treffen, eine grüne Insel am Zusammenfluss und jenseits ein flaches, geplantes Raster.",
+    "f": [
+      "Belgrad ist eine der ältesten ununterbrochen bewohnten Städte Europas.",
+      "Die Save erreicht hier nach fast 1.000 km aus den Slowenischen Alpen die Donau.",
+      "Neu-Belgrad jenseits der Save wurde ab 1948 auf ehemaligem Sumpfland gebaut."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Belgrad?",
+      "a": "Weiße Stadt",
+      "x": [
+        "Steinerne Stadt",
+        "Flussstadt"
+      ]
+    }
+  },
+  "Q1025617": {
+    "t": "Ein abgelegener Außenposten nahe drei Landesgrenzen",
+    "s": "Obo ist eine kleine Stadt im äußersten Südostwinkel der Zentralafrikanischen Republik, nahe den Grenzen zum Südsudan und zur Demokratischen Republik Kongo. Ringsum erstrecken sich Baumsavanne und dunkler Galeriewald über Hunderte Kilometer, gequert von wenigen Straßen. Die Bäche hier entwässern nach Süden zum Mbomou und letztlich in den Kongo.",
+    "w": "Eine winzige Siedlungslichtung in einem riesigen grünen Mosaik aus Savanne und dunklem Uferwald.",
+    "f": [
+      "Bangui, die Hauptstadt, liegt in Luftlinie fast 900 km westlich.",
+      "Der Mbomou, der diese Region entwässert, vereint sich mit dem Uele zum Ubangi."
+    ],
+    "q": {
+      "q": "Nahe den Grenzen welcher zwei Länder liegt Obo?",
+      "a": "Südsudan und DR Kongo",
+      "x": [
+        "Tschad und Sudan",
+        "Kamerun und Kongo"
+      ]
+    }
+  },
+  "Q3832": {
+    "t": "Eine Flusshauptstadt, benannt nach ihren Stromschnellen",
+    "s": "Bangui liegt am Nordufer des Ubangi, genau dort, wo der Fluss nach Süden abbiegt und über eine Reihe von Stromschnellen stürzt, die der Stadt ihren Namen gaben. Jenseits des Wassers liegt die Stadt Zongo in der Demokratischen Republik Kongo. Bewaldete Hügel erheben sich hinter der Stadt, und Wald und Savanne reichen weit darüber hinaus.",
+    "w": "Eine Stadt am Nordufer einer weiten Flussbiegung, dahinter bewaldete Hügel, am anderen Ufer eine weitere Stadt.",
+    "f": [
+      "Die Franzosen gründeten hier 1889 einen Posten.",
+      "Der Ubangi ist der größte rechte Nebenfluss des Kongo.",
+      "Bangui liegt keine 500 km nördlich des Äquators."
+    ],
+    "q": {
+      "q": "Was gab Bangui seinen Namen?",
+      "a": "Die Stromschnellen des Flusses",
+      "x": [
+        "Ein Königshügel",
+        "Ein Salzmarkt"
+      ]
+    }
+  },
+  "Q818824": {
+    "t": "Eine Sahelstadt neben dem Gebirge der Felstürme",
+    "s": "Maroua liegt in den trockenen Ebenen im äußersten Norden Kameruns, wo zwei saisonale Flüsse zusammentreffen und breite Sandbetten sich erst nach den Sommerregen mit Wasser füllen. Im Westen erheben sich die Mandara-Berge, eine zerklüftete Kette, deren Vulkanschlote wie Türme um Dörfer wie Rhumsiki aufragen. Im Norden breitet sich der Waza-Nationalpark über flache Aue aus.",
+    "w": "Eine weitläufige Stadt auf einer flachen, trockenen Ebene mit breiten, sandigen Flussbetten, im Westen eine zerklüftete Bergkette.",
+    "f": [
+      "Die Mandara-Berge ziehen sich entlang der Grenze zwischen Kamerun und Nigeria.",
+      "Der Waza-Nationalpark nördlich der Stadt schützt Elefanten, Giraffen und Löwen.",
+      "Maroua ist die größte Stadt der Region Extrême-Nord in Kamerun."
+    ],
+    "q": {
+      "q": "Welches Gebirge erhebt sich westlich von Maroua?",
+      "a": "Die Mandara-Berge",
+      "x": [
+        "Das Adamaua-Plateau",
+        "Das Aïr-Gebirge"
+      ]
+    }
+  },
+  "Q3808": {
+    "t": "Sieben grüne Hügel, gekühlt von der Höhe",
+    "s": "Yaoundé ist über eine Gruppe bewaldeter Hügel im Süden Kameruns gebaut, rund 750 Meter hoch, was es spürbar kühler hält als die schwüle Küste. Von oben füllen rotdachige Viertel die Täler zwischen grünen Kämmen, und im Süden erstreckt sich Regenwald. Die Deutschen richteten hier 1889 einen Handels- und Forschungsposten ein.",
+    "w": "Eine Stadt über grünen Hügeln und Tälern, im Nordwesten höhere bewaldete Gipfel und ringsum Regenwald.",
+    "f": [
+      "Yaoundé wird oft die „Stadt der sieben Hügel“ genannt.",
+      "Der Mbam Minkom am Nordwestrand erreicht rund 1.300 Meter.",
+      "Douala, Kameruns größte Stadt und wichtigster Hafen, liegt rund 200 km westlich."
+    ],
+    "q": {
+      "q": "Welche Stadt – nicht Yaoundé – ist Kameruns größte und wichtigster Hafen?",
+      "a": "Douala",
+      "x": [
+        "Kribi",
+        "Limbe"
+      ]
+    }
+  },
+  "Q19689": {
+    "t": "Auf der einen Seite der Dajti, auf der anderen die Adria",
+    "s": "Tirana breitet sich über eine grüne Ebene in Mittelalbanien aus, an ihrem Ostrand ragt die steile Wand des Dajti auf. Die Adria liegt nur rund 30 km westlich, hinter einer Reihe niedriger Hügel. Der Ort wurde 1614 von einem osmanischen General, Sulejman Pascha, gegründet und wuchs langsam, bis er 1920 Hauptstadt wurde.",
+    "w": "Eine kompakte Stadt auf einer grünen Ebene, im Osten eine steile Bergwand, im Westen in kurzer Entfernung das Meer.",
+    "f": [
+      "Der Dajti östlich der Stadt erreicht rund 1.610 Meter und ist per Seilbahn erreichbar.",
+      "Ein künstlicher See, von Wald umringt, liegt im Großen Park am Südrand der Stadt.",
+      "Der Hafen Durrës, rund 30 km westlich, wurde von griechischen Kolonisten als Epidamnos gegründet."
+    ],
+    "q": {
+      "q": "Welcher Berg erhebt sich gleich östlich von Tirana?",
+      "a": "Der Dajti",
+      "x": [
+        "Der Olymp",
+        "Der Lovćen"
+      ]
+    }
+  },
+  "Q1953": {
+    "t": "Eine rosa Steinstadt unter dem Schnee des Ararat",
+    "s": "Der Ararat, ein gewaltiger schneebedeckter Vulkan mit seinem kleineren Zwilling daneben, füllt rund 60 km entfernt den südlichen Horizont von Jerewan. Die Stadt liegt in einem Becken am Rand der Araratebene, und viele ihrer Gebäude bestehen aus rosa Vulkantuff. Jerewan führt seine Gründung auf die Festung Erebuni zurück, erbaut 782 v. Chr.",
+    "w": "Eine Stadt in einem Becken, im Süden eine flache grüne Ebene und dahinter ein gewaltiger, einsamer verschneiter Vulkan.",
+    "f": [
+      "Der Ararat erreicht rund 5.137 Meter, mehr als 4 km über der Ebene.",
+      "Der Aragaz, mit rund 4.090 Metern Armeniens höchster Gipfel, erhebt sich nordwestlich der Stadt.",
+      "Der Sewansee, rund 60 km nordöstlich, ist einer der größten Hochgebirgsseen Eurasiens."
+    ],
+    "q": {
+      "q": "Welcher Berg überragt die Ebene südlich von Jerewan?",
+      "a": "Der Ararat",
+      "x": [
+        "Der Aragaz",
+        "Der Elbrus"
+      ]
+    }
+  },
+  "Q9248": {
+    "t": "Tiefstgelegene Hauptstadt der Welt, an ölreicher Küste",
+    "s": "Baku ist die am tiefsten gelegene Hauptstadt der Erde: Wie die Oberfläche des Kaspischen Meeres daneben liegt die Stadt unter dem Niveau der Ozeane. Sie schwingt sich um eine Bucht an der Südseite der Halbinsel Abşeron. Das trockene, braune Land ringsum ist mit Bohrtürmen gespickt, und südlich der Stadt blubbern Dutzende Schlammvulkane.",
+    "w": "Eine Stadt um eine weite Bucht auf einer trockenen, braunen Halbinsel, die ins Kaspische Meer ragt, mit Ölfeldern und Plattformen in der Nähe.",
+    "f": [
+      "Aserbaidschan hat mehrere Hundert Schlammvulkane, einen großen Teil aller auf der Erde.",
+      "Einige der ersten industriellen Ölbohrungen der Welt entstanden in den 1840er-Jahren in Bibi-Heybat bei Baku.",
+      "Bakus ummauerte Altstadt mit dem Jungfrauenturm ist UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Wie weit unter dem Meeresspiegel liegt Baku ungefähr?",
+      "a": "Rund 28 m",
+      "x": [
+        "Rund 280 m",
+        "Rund 2 m"
+      ]
+    }
+  },
+  "Q818731": {
+    "t": "Eine Plateaustadt, wo sich das Wasser des Okavango sammelt",
+    "s": "Menongue liegt auf dem hohen, bewaldeten Plateau im Südosten Angolas, am Cuebe. Die Flüsse hier erreichen nie das Meer: Der Cuebe mündet in den Cubango, der nach Südosten an der namibischen Grenze entlangfließt und im Okavango-Delta endet, wo er sich im Kalaharisand Botswanas ausbreitet. Rings um die Stadt reicht offener Wald bis zum Horizont.",
+    "w": "Eine kleine Stadt an einem gewundenen Fluss auf einem flachen, bewaldeten Plateau, mit grasigen Feuchtgebieten in den Tälern.",
+    "f": [
+      "Das Okavango-Delta, in dem der Cubango endet, ist eines der größten Binnendeltas der Welt.",
+      "Das meiste Wasser des Okavango stammt aus Regen, der auf das angolanische Hochland fällt.",
+      "Menongue liegt rund 1.350 Meter über dem Meer."
+    ],
+    "q": {
+      "q": "Wo enden die Flüsse um Menongue schließlich?",
+      "a": "Im Okavango-Delta",
+      "x": [
+        "Im Atlantik",
+        "Im Malawisee"
+      ]
+    }
+  },
+  "Q207322": {
+    "t": "Eine Hochlandstadt, wo Angolas große Flüsse entspringen",
+    "s": "Huambo liegt auf Angolas zentralem Plateau in rund 1.700 Metern Höhe, einem kühlen, grünen Hochland, wo einige der großen Flüsse des südlichen Afrika entspringen: Kwanza, Cunene und Cubango beginnen alle auf diesen Höhen und fließen in verschiedene Richtungen davon. Die Stadt wurde 1912 an der Benguela-Bahn gegründet. Im Westen erhebt sich der Moco, Angolas höchster Gipfel.",
+    "w": "Eine Stadt auf einem hohen, offenen Plateau aus Grasland und Farmen, im Westen höhere Berge.",
+    "f": [
+      "Der Moco, rund 2.620 Meter hoch, ist der höchste Punkt Angolas.",
+      "Die Benguela-Bahn verbindet Huambo mit dem Atlantikhafen Lobito."
+    ],
+    "q": {
+      "q": "Wie hieß Huambo in der Kolonialzeit?",
+      "a": "Nova Lisboa",
+      "x": [
+        "Sá da Bandeira",
+        "Silva Porto"
+      ]
+    }
+  },
+  "Q131818": {
+    "t": "Vorn eine helle Bucht, dahinter ein weißer Salzsee",
+    "s": "Oran schwingt sich um eine weite Bucht an Algeriens Westküste, im Westen bewacht vom steilen Berg Murdjadjo. Gleich landeinwärts im Süden liegt die Sebkha von Oran, ein riesiger, flacher Salzsee, der in der Trockenzeit weiß gleißt. Andalusische Kaufleute gründeten den Ort 903, und Spanien hielt ihn einen Großteil des 16. bis 18. Jahrhunderts.",
+    "w": "Eine Stadt um eine Bucht, ein steiler Berg an ihrer Westseite und landeinwärts im Süden ein großer heller Salzsee.",
+    "f": [
+      "Die Sebkha von Oran trocknet im Sommer oft zu einer weißen Salzkruste aus.",
+      "Das von den Spaniern erbaute Fort Santa Cruz krönt den Murdjadjo über dem Hafen.",
+      "Oran ist die zweitgrößte Stadt Algeriens."
+    ],
+    "q": {
+      "q": "Welcher Musikstil entstand in Oran?",
+      "a": "Raï",
+      "x": [
+        "Gnawa",
+        "Fado"
+      ]
+    }
+  },
+  "Q43595": {
+    "t": "Zwischen Lagune und Ozean, mit einer Pfahlbaustadt nebenan",
+    "s": "Cotonou liegt auf einem schmalen Sandstreifen zwischen dem Atlantik und dem Nokoué-See, einer weiten, flachen Lagune, und ein Kanal durchschneidet die Stadt und verbindet beide. Im nördlichen Flachwasser des Sees steht Ganvié, eine ganz auf Pfählen gebaute Stadt, in der man sich mit dem Kanu fortbewegt. Porto-Novo ist die offizielle Hauptstadt, doch Cotonou ist Benins größte Stadt und Regierungssitz.",
+    "w": "Eine Stadt auf einem Sandstreifen zwischen einem geraden Ozeanstrand und einem weiten, flachen See, geteilt von einem verbindenden Kanal.",
+    "f": [
+      "In Ganvié auf dem Nokoué-See leben rund 20.000 Menschen in Pfahlbauten.",
+      "Ouidah, weiter westlich an der Küste, war ein wichtiger Hafen des atlantischen Sklavenhandels."
+    ],
+    "q": {
+      "q": "Welches Pfahlbaudorf steht im Nokoué-See bei Cotonou?",
+      "a": "Ganvié",
+      "x": [
+        "Ouidah",
+        "Abomey"
+      ]
+    }
+  },
+  "Q205792": {
+    "t": "Eine Oasenstadt im vulkanischen Herzen der Sahara",
+    "s": "Tamanrasset liegt in einem trockenen Tal am Rand des Hoggar, eines riesigen Hochlands aus dunklen Vulkangipfeln und verwittertem Granit mitten in der Sahara. Auf rund 1.400 Metern ist es kühler als die Wüste ringsum. Achten Sie von oben auf die schwarzen Vulkanschlote und Basaltplateaus rund um die Stadt, scharf abgesetzt vom orangefarbenen Sand.",
+    "w": "Eine kleine Stadt auf einem sandigen Talboden, umringt von dunklen Vulkangipfeln und Plateaus, die aus der Wüste ragen.",
+    "f": [
+      "Der Tahat im Hoggar, rund 2.900 Meter hoch, ist Algeriens höchster Gipfel.",
+      "Das Assekrem-Plateau im Hoggar ist berühmt für Sonnenaufgänge über einem Meer aus Vulkangipfeln.",
+      "Tamanrasset liegt auf der Straße fast 2.000 km von Algier entfernt."
+    ],
+    "q": {
+      "q": "Welches Gebirge erhebt sich um Tamanrasset?",
+      "a": "Der Hoggar",
+      "x": [
+        "Das Tibesti",
+        "Das Aïr"
+      ]
+    }
+  },
+  "Q622841": {
+    "t": "Fünf Hügelstädte in einem Wüstental",
+    "s": "Ghardaïa ist die größte von fünf befestigten Städten im M’zab-Tal, einer trockenen Schlucht im Felsplateau der nördlichen Sahara. Jede Stadt erklimmt einen niedrigen Hügel in engen Häuserringen, gekrönt von einem Minarett, darunter im Tal Palmenhaine. Die Mozabiten gründeten sie ab dem 11. Jahrhundert und ersannen kluge Wege, das knappe Hochwasser zu teilen.",
+    "w": "Ein gewundenes Wüstental mit mehreren kompakten Städten, jede auf einem niedrigen Hügel gestapelt, dazwischen grüne Palmenhaine.",
+    "f": [
+      "Das M’zab-Tal ist seit 1982 UNESCO-Welterbe.",
+      "Der Architekt Le Corbusier bewunderte die schlichten, praktischen Formen der Städte im M’zab.",
+      "Brunnen und Kanäle verteilen die seltenen Sturzfluten auf die Palmenhaine des Tals."
+    ],
+    "q": {
+      "q": "In welchem Tal stehen Ghardaïa und seine Schwesterstädte?",
+      "a": "Im M’zab-Tal",
+      "x": [
+        "Im Draa-Tal",
+        "Im Souf"
+      ]
+    }
+  },
+  "Q472": {
+    "t": "Ein Berg vor der Haustür einer Hauptstadt im Hochbecken",
+    "s": "Die runde Kuppel des Witoscha erhebt sich direkt am Südrand Sofias, im Winter oft schneeweiß, während der lange Kamm des Balkangebirges den Blick nach Norden abschließt. Dazwischen füllt die Stadt ein weites Hochbecken in rund 550 Metern Höhe. In römischer Zeit hieß sie Serdica, und Kaiser Konstantin soll sie „mein Rom“ genannt haben.",
+    "w": "Eine große Stadt in einem flachen Becken, direkt am Südrand ein großer runder Berg, im Norden eine lange Kette.",
+    "f": [
+      "Der Tscherni Wrach, der Gipfel des Witoscha, erreicht rund 2.290 Meter.",
+      "Sofia liegt auf Mineralquellen, und öffentliche Zapfstellen im Zentrum spenden warmes Wasser.",
+      "Der Witoscha wurde 1934 der erste Naturpark auf dem Balkan."
+    ],
+    "q": {
+      "q": "Welcher Berg erhebt sich direkt am Südrand Sofias?",
+      "a": "Der Witoscha",
+      "x": [
+        "Der Mussala",
+        "Der Olymp"
+      ]
+    }
+  },
+  "Q2280": {
+    "t": "Breite Alleen, stiller Fluss und ein „Meer“, das keines ist",
+    "s": "Das Minsker Meer ist gar kein Meer, sondern der Saslauje-Stausee nordwestlich der belarussischen Hauptstadt. Minsk selbst bedeckt eine sanft gewellte Ebene in der Mitte des Landes, ringsum dunkle Wälder und Felder, und die kleine Swislatsch windet sich in einer Kette von Teichen durch das Zentrum. Erstmals erwähnt wird die Stadt 1067 in einer Chronik.",
+    "w": "Eine große Stadt breiter, gerader Alleen auf einer flachen, bewaldeten Ebene, mit einem gewundenen Fluss und einem großen Stausee im Nordwesten.",
+    "f": [
+      "Der Autobahnring um Minsk ist rund 56 km lang.",
+      "Die Swislatsch fließt weiter in die Beresina und dann in den Dnepr.",
+      "Minsk liegt nahe dem geografischen Mittelpunkt von Belarus."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt durch Minsk?",
+      "a": "Die Swislatsch",
+      "x": [
+        "Die Memel",
+        "Der Pripjat"
+      ]
+    }
+  },
+  "Q3919": {
+    "t": "Eine junge Hauptstadt am Rand der Kalahari",
+    "s": "Gaborone ist eine der jüngsten Hauptstädte Afrikas, in den 1960er-Jahren am Notwane geplant, nur wenige Kilometer von der südafrikanischen Grenze entfernt. Achten Sie von oben auf einen großen Stausee an der Südseite, aufgestaut vom Gaborone-Damm, mit felsigen Hügeln wie dem Kgale Hill in der Nähe. Im Westen erstreckt sich das trockene Buschland der Kalahari über Hunderte Kilometer.",
+    "w": "Eine weitläufige Stadt neben einem großen Stausee im Süden, felsige Hügel in der Nähe und im Westen trockenes, flaches Buschland.",
+    "f": [
+      "Die Kalahari bedeckt rund 70 Prozent Botswanas.",
+      "Der Bau begann 1964, kurz vor Botswanas Unabhängigkeit 1966.",
+      "Die Stadt ist nach Kgosi Gaborone benannt, einem örtlichen Häuptling."
+    ],
+    "q": {
+      "q": "Welche Wüste bedeckt den Großteil Botswanas westlich von Gaborone?",
+      "a": "Die Kalahari",
+      "x": [
+        "Die Namib",
+        "Die Karoo"
+      ]
+    }
+  },
+  "Q3777": {
+    "t": "Eine Savannenhauptstadt aus roter Erde und Stauseen",
+    "s": "Eine Kette von Stauseen am Nordrand Ouagadougous speichert Wasser durch die lange Trockenzeit; suchen Sie sie auf der flachen Savanne im Zentrum Burkina Fasos. Die Stadt ist flach, mit roten Lateritstraßen und baumgesäumten Vierteln. Jahrhundertelang war dies die Hauptstadt des Mossi-Reichs, und sein traditioneller König, der Mogho Naba, hält hier noch heute Hof.",
+    "w": "Eine flache, niedrige, rötliche Stadt auf offener Savanne, mit einer Kette von Stauseen an ihrer Nordseite.",
+    "f": [
+      "Das FESPACO, alle zwei Jahre hier ausgetragen, ist Afrikas größtes Filmfestival.",
+      "Die Regenzeit dauert nur etwa von Juni bis September."
+    ],
+    "q": {
+      "q": "Welche Art von Festival hat Ouagadougou berühmt gemacht?",
+      "a": "Ein Filmfestival",
+      "x": [
+        "Ein Jazzfestival",
+        "Ein Kamelrennen"
+      ]
+    }
+  },
+  "Q11194": {
+    "t": "Eine lange Stadt in einem Tal im Ring olympischer Berge",
+    "s": "Steile, bewaldete Berge schließen Sarajevo auf allen Seiten ein, also streckt sich die Stadt: ein langes, dünnes Band von Ost nach West entlang des engen Tals der Miljacka, im Winter umringt von verschneiten Gipfeln. Der osmanische Statthalter Isa-Beg Isaković gründete den Ort in den 1460er-Jahren, und der alte Basar trägt noch seine Handschrift.",
+    "w": "Eine lange, schmale Stadt, eingezwängt in ein Flusstal, auf allen Seiten von steilen, bewaldeten Bergen umgeben.",
+    "f": [
+      "Die Berge um die Stadt, darunter Bjelašnica, Jahorina und Igman, waren Schauplatz olympischer Wettbewerbe.",
+      "1895 eröffnete Sarajevo eine elektrische Straßenbahn, eine der ersten Europas.",
+      "Die Baščaršija, der alte Basar, stammt aus dem 15. Jahrhundert."
+    ],
+    "q": {
+      "q": "Welche Olympischen Spiele richtete Sarajevo aus?",
+      "a": "Die Winterspiele 1984",
+      "x": [
+        "Die Sommerspiele 1972",
+        "Die Winterspiele 1980"
+      ]
+    }
+  },
+  "Q168652": {
+    "t": "Hochlandstadt nahe einigen der schönsten Felsbilder Afrikas",
+    "s": "Hargeisa liegt auf einem trockenen Hochplateau am Horn von Afrika, rund 1.300 Meter hoch, entlang eines breiten saisonalen Flussbetts, das sich nur nach Regen füllt. Ringsum erstrecken sich Dornbusch und rote Erde, beweidet von Kamelen und Ziegen. In Felsüberhängen rund 50 km nordöstlich, bei Laas Geel, leuchten vor Jahrtausenden gemalte Rinder und Hirten noch immer in Rot und Weiß.",
+    "w": "Eine weitläufige Stadt auf einem trockenen, rötlichen Plateau, geteilt von einem breiten, sandigen Flussbett, ringsum Buschland und niedrige Hügel.",
+    "f": [
+      "Die Malereien von Laas Geel sind vermutlich mindestens 5.000 Jahre alt.",
+      "Der Viehmarkt der Stadt ist einer der größten am Horn von Afrika.",
+      "Die Hochlandluft macht Hargeisa weit milder als die glühend heiße Küste am Golf von Aden."
+    ],
+    "q": {
+      "q": "Was findet sich in den Felsüberhängen von Laas Geel bei Hargeisa?",
+      "a": "Uralte Felsmalereien",
+      "x": [
+        "Dinosaurierspuren",
+        "Römische Münzen"
+      ]
+    }
+  },
+  "Q3940": {
+    "t": "Winzige Hauptstadt auf uraltem Granit im Indischen Ozean",
+    "s": "Die meisten Ozeaninseln sind vulkanisch oder aus Korallen, doch die Granitberge hinter Victoria sind Bruchstücke des uralten Superkontinents Gondwana, gestrandet mitten im Ozean. Die Stadt klammert sich an die Nordostküste von Mahé, der größten Insel der Seychellen. Direkt vor der Küste bilden kleine Inseln und türkise Riffe einen Meeresnationalpark.",
+    "w": "Eine kleine Stadt auf einer grünen, gebirgigen Granitinsel, direkt davor kleine Inselchen und türkise Riffe.",
+    "f": [
+      "Der Granit der Seychellen ist rund 750 Millionen Jahre alt.",
+      "Victoria ist eine der kleinsten Hauptstädte der Welt.",
+      "Die Seychellenpalme (Coco de Mer), die den größten Samen der Welt trägt, wächst wild nur auf den Seychellen."
+    ],
+    "q": {
+      "q": "Aus welchem Gestein bestehen die Hauptinseln der Seychellen?",
+      "a": "Granit",
+      "x": [
+        "Korallenkalk",
+        "Basalt"
+      ]
+    }
+  },
+  "Q3932": {
+    "t": "Vulkangipfel und Dschungel knapp nördlich des Äquators",
+    "s": "São Tomé liegt an der Nordostküste einer üppigen Vulkaninsel im Golf von Guinea, nur rund 40 km nördlich des Äquators. Hinter der Stadt steigen bewaldete Berge auf über 2.000 Meter an, und im Süden der Insel ragt eine Nadel aus Vulkangestein, der Pico Cão Grande, aus dem Dschungel. Die Portugiesen besiedelten die Insel im späten 15. Jahrhundert.",
+    "w": "Eine kleine Stadt am Nordostufer einer grünen, gebirgigen Insel, dahinter steil ansteigender Wald.",
+    "f": [
+      "Der Pico de São Tomé, höchster Punkt der Insel, erreicht rund 2.020 Meter.",
+      "Anfang des 20. Jahrhunderts war São Tomé einer der führenden Kakaoproduzenten der Welt."
+    ],
+    "q": {
+      "q": "Welche Linie quert das Inselchen Rolas vor der Südspitze São Tomés?",
+      "a": "Der Äquator",
+      "x": [
+        "Der südliche Wendekreis",
+        "Der Nullmeridian"
+      ]
+    }
+  },
+  "Q23800": {
+    "t": "Eine Festungsstadt auf einer Halbinsel zwischen zwei Häfen",
+    "s": "Valletta füllt eine schmale Felshalbinsel an Maltas Nordostküste, mit einem tiefen Naturhafen zu jeder Seite: dem Grand Harbour im Südosten und Marsamxett im Nordwesten. Die Johanniter bauten sie ab 1566 als geplante Festungsstadt, ein Straßenraster innerhalb mächtiger Bastionen. Ringsum ist Malta ein Flickenteppich aus hellen Steinstädten und kleinen Feldern.",
+    "w": "Eine ummauerte, rasterförmig geplante Halbinsel zwischen zwei tiefen, verzweigten Häfen, auf einer kleinen Insel aus hellem Stein und winzigen Feldern.",
+    "f": [
+      "Valletta umfasst weniger als einen Quadratkilometer – die kleinste Hauptstadt der Europäischen Union.",
+      "Die ganze Stadt ist seit 1980 UNESCO-Welterbe.",
+      "Die Stadt ist nach Jean de Valette benannt, dem Großmeister des Ordens."
+    ],
+    "q": {
+      "q": "Welcher Ritterorden baute Valletta?",
+      "a": "Die Johanniter",
+      "x": [
+        "Die Templer",
+        "Der Deutsche Orden"
+      ]
+    }
+  },
+  "Q1218": {
+    "t": "Auf dem Kamm, wo grüne Hügel in Wüste übergehen",
+    "s": "Binnen rund 25 km von Jerusalem fällt das Land um mehr als 1.000 Meter zum Ufer des Toten Meeres ab. Die Stadt steht auf dem Kamm des Judäischen Gebirges, rund 750 Meter hoch, genau auf der Scheide zwischen dem Mittelmeerhang im Westen und der Wüste im Osten. Ihre ummauerte Altstadt ist Judentum, Christentum und Islam heilig.",
+    "w": "Eine Stadt aus hellem Stein auf einem Hügelkamm, im Westen grüne Terrassen, im Osten kahle, braune Wüste, die steil abfällt.",
+    "f": [
+      "Die ummauerte Altstadt umfasst weniger als einen Quadratkilometer.",
+      "Die Altstadt und ihre Mauern stehen auf der UNESCO-Welterbeliste.",
+      "Der Winter kann hier Regen und sogar Schnee bringen, während das Ufer des Toten Meeres mild und trocken bleibt."
+    ],
+    "q": {
+      "q": "Welcher osmanische Sultan ließ die Mauern der Jerusalemer Altstadt bauen?",
+      "a": "Süleyman der Prächtige",
+      "x": [
+        "Mehmed II.",
+        "Selim I."
+      ]
+    }
+  },
+  "Q3751": {
+    "t": "Eine Inselhauptstadt im Atlantik auf einem Tafelplateau",
+    "s": "Diese Inseln, rund 600 km vor der Küste Afrikas, waren unbewohnt, bis um 1460 die Portugiesen kamen. Praia, die Hauptstadt der Kapverden, liegt an der Südküste von Santiago, der größten von ihnen, ihr altes Zentrum auf einem Tafelplateau über einer geschützten Bucht. Gleich westlich liegt die erste portugiesische Siedlung, Cidade Velha.",
+    "w": "Eine Stadt auf einem flachen Plateau über einer kleinen Bucht an der trockenen, zerklüfteten Südküste einer Vulkaninsel.",
+    "f": [
+      "Cidade Velha, 1462 gegründet, war die erste europäische Kolonialstadt in den Tropen und ist UNESCO-Welterbe.",
+      "Regen ist hier knapp; der meiste fällt im August und September."
+    ],
+    "q": {
+      "q": "Was bedeutet das portugiesische Wort praia?",
+      "a": "Strand",
+      "x": [
+        "Hafen",
+        "Hochebene"
+      ]
+    }
+  },
+  "Q3856": {
+    "t": "Eine sternförmige Altstadt in der Ebene Zyperns",
+    "s": "Nikosias Altstadt ist ein fast perfekter Kreis, umringt von Mauern, die die Venezianer in den 1560er-Jahren bauten, mit pfeilförmigen Bastionen, die ihr den Umriss eines Sterns geben. Die Stadt liegt mitten in der Mesaoria, der weiten, trockenen Ebene im Herzen Zyperns, mit der zackigen Kyrenia-Kette im Norden und dem Troodos-Gebirge im Südwesten.",
+    "w": "Eine Stadt auf einer flachen, gelbbraunen Ebene, mit rundem Altstadtkern, einem zackigen Kamm im Norden und höheren Bergen im Südwesten.",
+    "f": [
+      "Ein Gipfel der Kyrenia-Kette heißt wegen seines zackigen Umrisses Pentadaktylos, „fünf Finger“.",
+      "Der Olymbos im Troodos, der höchste Punkt Zyperns, erreicht rund 1.950 Meter."
+    ],
+    "q": {
+      "q": "Wie viele Bastionen haben Nikosias venezianische Mauern?",
+      "a": "Elf",
+      "x": [
+        "Sieben",
+        "Zwanzig"
+      ]
+    }
   }
 }
