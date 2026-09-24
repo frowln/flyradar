@@ -340,5 +340,347 @@
         "A naval shipyard"
       ]
     }
+  },
+  "Q48256": {
+    "t": "A long city on a river as wide as a lake",
+    "s": "The Dnieper is so broad here that it looks more like a lake than a river, with islands in mid-stream and bridges strung between the banks. Dnipro stretches for kilometres along the water. It was founded in the late 18th century as Yekaterinoslav, 'the glory of Catherine', in honour of Catherine the Great, and grew into a city of steel and rocket-building.",
+    "w": "A long city on both banks of a very wide Dnieper, with wooded islands in mid-river and several bridges.",
+    "f": [
+      "Just downstream the river once tumbled over the Dnieper Rapids; since the 1930s they have lain under a reservoir.",
+      "The Dnieper, about 2,200 km long, is the fourth-longest river in Europe.",
+      "Space launchers such as the Zenit and the Cyclone were designed in Dnipro."
+    ],
+    "q": {
+      "q": "What was Dnipro called when it was founded?",
+      "a": "Yekaterinoslav",
+      "x": [
+        "Yelisavetgrad",
+        "Nikolayev"
+      ]
+    }
+  },
+  "Q648": {
+    "t": "Flemish brick and a star-shaped citadel",
+    "s": "Flat Flanders stretches in every direction, and Lille's brick-red sprawl runs on without a break into Roubaix and Tourcoing, right up to the Belgian border. Look for a green five-pointed shape north-west of the centre: the citadel that Vauban built after 1667, still ringed by water. High-speed trains now put Lille about an hour from Paris and within easy reach of London and Brussels.",
+    "w": "A reddish urban mass on flat farmland merging into neighbouring towns to the north-east; a green pentagon marks the citadel.",
+    "f": [
+      "Vauban's citadel in Lille is nicknamed the 'Queen of Citadels'.",
+      "Charles de Gaulle was born in Lille in 1890.",
+      "The Braderie de Lille, held each September, is one of Europe's largest flea markets."
+    ],
+    "q": {
+      "q": "Which French leader was born in Lille in 1890?",
+      "a": "Charles de Gaulle",
+      "x": [
+        "Georges Pompidou",
+        "François Mitterrand"
+      ]
+    }
+  },
+  "Q34370": {
+    "t": "Europe's biggest port, reaching out to sea",
+    "s": "Follow the Maas from Rotterdam towards the sea and you trace Europe's largest port: some 40 km of docks, tank farms and container stacks. At its far end the port has pushed out into the North Sea on land built from sand. The city itself, with its skyline of towers and bridges, sits among flat green polders cut by straight canals.",
+    "w": "A long band of docks and pale storage tanks running west to the North Sea, with the city at its inland end.",
+    "f": [
+      "The port of Rotterdam is the largest in Europe.",
+      "Maasvlakte 2, a port extension on land reclaimed from the North Sea, opened in 2013.",
+      "The Renaissance scholar Erasmus was born in Rotterdam in the 1460s."
+    ],
+    "q": {
+      "q": "Which river branch flows through the centre of Rotterdam?",
+      "a": "The Nieuwe Maas",
+      "x": [
+        "The Amstel",
+        "The Scheldt"
+      ]
+    }
+  },
+  "Q365": {
+    "t": "A Roman city in a half-circle on the Rhine",
+    "s": "Cologne draws a half-moon on the west bank of the Rhine: its old centre is ringed by boulevards that follow the line of the medieval walls, with the river as the straight edge. The Romans made it a colony in AD 50, and the name Cologne comes from the Latin colonia. Across the river, the Deutz district faces the old town.",
+    "w": "A semicircular city on the west bank of the Rhine, its centre outlined by a ring of boulevards.",
+    "f": [
+      "Cologne Cathedral's twin spires reach 157 m; from 1880 to 1884 it was the tallest building in the world.",
+      "Eau de Cologne was first made here in the early 18th century by the Italian perfumer Johann Maria Farina.",
+      "The city's Roman name was Colonia Claudia Ara Agrippinensium."
+    ],
+    "q": {
+      "q": "What record did Cologne Cathedral hold from 1880 to 1884?",
+      "a": "World's tallest building",
+      "x": [
+        "World's largest church",
+        "Europe's oldest cathedral"
+      ]
+    }
+  },
+  "Q1874": {
+    "t": "A grid of streets on a Black Sea bluff",
+    "s": "A neat grid of streets on a high bluff above the Black Sea: from the air, Odessa's centre looks drawn with a ruler. North and south-west of the city, long salty lagoons called limans reach inland like fingers. The city was founded in 1794 and grew quickly as a free port shipping grain from the steppe.",
+    "w": "A gridded city on a coastal bluff with harbour moles, and long narrow lagoons reaching inland on either side.",
+    "f": [
+      "Odessa was founded in 1794 on the orders of Catherine the Great.",
+      "Beneath the city lie the Odessa Catacombs, old limestone quarries often said to total some 2,500 km.",
+      "The Potemkin Stairs, leading down to the port, have 192 steps."
+    ],
+    "q": {
+      "q": "In which year was Odessa founded?",
+      "a": "1794",
+      "x": [
+        "1703",
+        "1856"
+      ]
+    }
+  },
+  "Q43070": {
+    "t": "Pyramids of coal waste on the open steppe",
+    "s": "Scattered across the steppe around Donetsk stand dark cones, some as tall as small hills. They are spoil heaps from more than a century of coal mining in the Donbas, the Donets coal basin. The city grew from a works settlement founded in 1869 by the Welsh industrialist John Hughes, and its first name, Yuzovka, came from his surname.",
+    "w": "A large city on open steppe, with dark conical spoil heaps, ponds and industrial sites scattered around it.",
+    "f": [
+      "The name Donbas is short for 'Donets Basin', after the Siverskyi Donets river to the north.",
+      "Donetsk is known for its parks and rose gardens.",
+      "The Kalmius river runs through the city on its way south to the Sea of Azov."
+    ],
+    "q": {
+      "q": "Where did John Hughes, founder of Donetsk's ironworks, come from?",
+      "a": "Wales",
+      "x": [
+        "Scotland",
+        "Belgium"
+      ]
+    }
+  },
+  "Q8692": {
+    "t": "An iron town reborn in a green Basque valley",
+    "s": "Steep green hills crowd in on Bilbao, leaving room only for the winding estuary of the Nervión and the city strung along it. Ships and iron made the city rich; the river then leads about 15 km to the open Bay of Biscay. In 1997 a titanium-clad art museum by Frank Gehry gave the old port a new face and a new name abroad.",
+    "w": "A city squeezed into a narrow, winding estuary between green hills, opening out north-west to the Bay of Biscay.",
+    "f": [
+      "The Vizcaya Bridge near the estuary mouth, opened in 1893, is the world's oldest transporter bridge.",
+      "Bilbao was founded as a town in 1300.",
+      "The Guggenheim Museum Bilbao, designed by Frank Gehry, opened in 1997."
+    ],
+    "q": {
+      "q": "What kind of bridge crosses the estuary mouth near Bilbao?",
+      "a": "A transporter bridge",
+      "x": [
+        "A drawbridge",
+        "A pontoon bridge"
+      ]
+    }
+  },
+  "Q3426": {
+    "t": "Where Peter the Great built his first fleet",
+    "s": "A long, narrow reservoir runs right through Voronezh, splitting it into two banks joined by bridges; locals call it the Voronezh sea. Around the city lies some of Russia's blackest, richest soil. In the 1690s Peter the Great built shipyards on the river here, and the ships launched from them became the first Russian navy.",
+    "w": "A big city split by a long, narrow reservoir running north–south, with dark farmland all around.",
+    "f": [
+      "The Voronezh reservoir is about 30 km long.",
+      "Russia's first naval squadron was built in Voronezh in 1695–1696 for Peter the Great's campaign against Azov.",
+      "A replica of Peter's ship of the line Goto Predestination, launched here in 1700, is moored in the city."
+    ],
+    "q": {
+      "q": "Which ruler built a fleet at Voronezh in the 1690s?",
+      "a": "Peter the Great",
+      "x": [
+        "Ivan the Terrible",
+        "Catherine the Great"
+      ]
+    }
+  },
+  "Q5332": {
+    "t": "Two cities facing each other across the Volga",
+    "s": "The Volga here spreads kilometres wide, with Saratov climbing the hills of the right bank and Engels spread out on the flat left bank opposite. A bridge nearly 3 km long ties them together. Wooded hills close in on the city from the west. A young Yuri Gagarin learned to fly at the Saratov aero club in the 1950s.",
+    "w": "A very wide stretch of the Volga with a big city on the hilly west bank and another on the flat east bank.",
+    "f": [
+      "The Saratov road bridge over the Volga, opened in 1965, is about 2.8 km long.",
+      "Yuri Gagarin landed near Engels, across the Volga from Saratov, after the first human spaceflight.",
+      "The Saratov accordion is known for the little bells fitted to its body."
+    ],
+    "q": {
+      "q": "Who landed near Saratov after the first human spaceflight?",
+      "a": "Yuri Gagarin",
+      "x": [
+        "Alexei Leonov",
+        "Valentina Tereshkova"
+      ]
+    }
+  },
+  "Q36036": {
+    "t": "An old city on Europe's great watershed",
+    "s": "Rain falling on Lviv can end up in two different seas. The city sits on the main European watershed: streams on one side drain towards the Baltic, those on the other to the Black Sea. Its medieval centre is ringed by green hills, and even its own river, the Poltva, is out of sight, running in a tunnel beneath the streets.",
+    "w": "A compact city among green hills and patches of forest, surrounded by rolling farmland.",
+    "f": [
+      "Lviv was founded in the mid-13th century and named after Prince Lev, son of King Danylo of Galicia.",
+      "The historic centre of Lviv has been a UNESCO World Heritage site since 1998.",
+      "The Poltva river, hidden under the centre, eventually drains to the Baltic via the Bug and the Vistula."
+    ],
+    "q": {
+      "q": "After whom was Lviv named?",
+      "a": "Prince Lev",
+      "x": [
+        "Prince Roman",
+        "King Casimir"
+      ]
+    }
+  },
+  "Q1479": {
+    "t": "A moon-shaped bend of the Garonne among vineyards",
+    "s": "The Garonne curves through Bordeaux in a perfect crescent, which is why the old harbour is called the Port of the Moon. Around the city the land is striped with vineyards, among the most famous in the world. A little way downstream the Garonne joins the Dordogne to form the Gironde, a wide brown estuary running out to the Atlantic.",
+    "w": "A crescent-shaped bend of the river with the city on its inner bank; vineyards and the broad Gironde estuary to the north.",
+    "f": [
+      "The Port of the Moon, the crescent-shaped historic city, became a UNESCO World Heritage site in 2007.",
+      "The Gironde is the largest estuary in Western Europe.",
+      "The Dune of Pilat, the tallest sand dune in Europe at over 100 m, lies about 60 km to the south-west."
+    ],
+    "q": {
+      "q": "Which two rivers meet below Bordeaux to form the Gironde?",
+      "a": "The Garonne and the Dordogne",
+      "x": [
+        "The Garonne and the Lot",
+        "The Loire and the Dordogne"
+      ]
+    }
+  },
+  "Q31487": {
+    "t": "A royal city in a bend of the Vistula",
+    "s": "The Vistula swings round Wawel Hill, where Polish kings were crowned and buried, and the medieval town fans out to the north. A ring of park, the Planty, now follows the line of the old walls. On clear days the jagged Tatras show on the southern horizon. Kraków was Poland's capital until the royal court moved to Warsaw at the end of the 16th century.",
+    "w": "A large city on a loop of the Vistula, with a big steelworks to the east and hills rising towards the south.",
+    "f": [
+      "Kraków's old town was among the first sites put on UNESCO's World Heritage List, in 1978.",
+      "The Wieliczka Salt Mine, just south-east of the city, was worked from the 13th century to the late 20th.",
+      "The Planty park, about 4 km long, rings the old town where medieval walls once stood."
+    ],
+    "q": {
+      "q": "Which river flows past Wawel Hill in Kraków?",
+      "a": "The Vistula",
+      "x": [
+        "The Oder",
+        "The Warta"
+      ]
+    }
+  },
+  "Q1792": {
+    "t": "Amber, grain and a sand spit across the bay",
+    "s": "A thin arm of sand curls across Gdańsk Bay: the Hel Peninsula, some 35 km long and in places only a few hundred metres wide. Gdańsk sits at the bottom of the bay, joined to Sopot and Gdynia in one long coastal city. For centuries grain floated down the Vistula to this Hanseatic port, and amber washed up on its beaches.",
+    "w": "A city at the head of a wide bay, a long thin sand spit curving across it, the flat Vistula delta to the east.",
+    "f": [
+      "Sopot's wooden pier, just north of Gdańsk, is about 500 m long — the longest wooden pier in Europe.",
+      "The Vistula, Poland's longest river, reaches the Baltic just east of the city.",
+      "Baltic amber is still worked in Gdańsk, which calls itself the world capital of amber."
+    ],
+    "q": {
+      "q": "Which trading league was Gdańsk a leading member of?",
+      "a": "The Hanseatic League",
+      "x": [
+        "The Swabian League",
+        "The Kalmar Union"
+      ]
+    }
+  },
+  "Q1903": {
+    "t": "A city built of black lava at the foot of Etna",
+    "s": "Etna fills the view to the north: a vast dark mountain, often trailing a plume of steam and snow-capped in winter. Catania spreads along the coast at its foot, and much of the old city is built from the volcano's own dark lava stone. South of the city, the flat Plain of Catania opens out, a patchwork of citrus groves and fields.",
+    "w": "A coastal city beneath a huge, dark volcanic cone to the north, with a broad flat plain opening to the south.",
+    "f": [
+      "Etna rises to more than 3,300 m, about 30 km from the city centre, and is one of the most active volcanoes on Earth.",
+      "Mount Etna became a UNESCO World Heritage site in 2013.",
+      "The composer Vincenzo Bellini was born in Catania in 1801."
+    ],
+    "q": {
+      "q": "Which composer was born in Catania in 1801?",
+      "a": "Vincenzo Bellini",
+      "x": [
+        "Gioachino Rossini",
+        "Giuseppe Verdi"
+      ]
+    }
+  },
+  "Q3646": {
+    "t": "Cossack city on the looping Kuban",
+    "s": "The Kuban wanders across the flat plain in great loops and cut-off oxbows, and Krasnodar grew on its northern bank. Just upstream, a large reservoir shines on the plain. All around lie some of Russia's most fertile fields, and downstream, towards the Sea of Azov, many of them are flooded paddies: this is Russia's main rice-growing region.",
+    "w": "A large city on a meandering river, with a big reservoir just to the east and a chequerboard of fields all around.",
+    "f": [
+      "Black Sea Cossacks founded the city in 1793 as Yekaterinodar, 'Catherine's gift'.",
+      "The Krasnodar reservoir on the Kuban is the largest reservoir in the North Caucasus.",
+      "The Kuban flows about 870 km from the glaciers of Elbrus to the Sea of Azov."
+    ],
+    "q": {
+      "q": "What was Krasnodar called until 1920?",
+      "a": "Yekaterinodar",
+      "x": [
+        "Yekaterinoslav",
+        "Yekaterinburg"
+      ]
+    }
+  },
+  "Q5627": {
+    "t": "A high bank above Europe's largest reservoir",
+    "s": "No longer a river but a broad inland sea: that is the Volga at Ulyanovsk, part of the Kuybyshev reservoir. The old town sits high on the steep right bank, with newer districts across the water on the flat left bank, joined by long bridges. The city was founded in 1648 as the fortress of Simbirsk; its present name honours Lenin, born here in 1870.",
+    "w": "A city on both sides of a very wide stretch of the Volga, linked by long bridges, the old town on the higher west bank.",
+    "f": [
+      "The Kuybyshev reservoir on the Volga is the largest reservoir in Europe.",
+      "Ivan Goncharov, author of 'Oblomov', was born in Simbirsk in 1812.",
+      "The city was renamed Ulyanovsk in 1924, after Lenin's family name, Ulyanov."
+    ],
+    "q": {
+      "q": "What was Ulyanovsk called until 1924?",
+      "a": "Simbirsk",
+      "x": [
+        "Samara",
+        "Syzran"
+      ]
+    }
+  },
+  "Q1731": {
+    "t": "Florence on the Elbe, framed by green meadows",
+    "s": "The Elbe curves gently through Dresden between wide green meadows that have been left unbuilt, so the river keeps its countryside look right in the city centre. The baroque old town rises on the south bank. Upstream to the south-east, the river heads into Saxon Switzerland, a maze of sandstone towers and deep gorges.",
+    "w": "A city along a gently curving river bordered by broad green meadows, with wooded hills to the north-east.",
+    "f": [
+      "Its baroque skyline earned Dresden the nickname 'Florence on the Elbe'.",
+      "European hard-paste porcelain was first made in Dresden in 1708; production moved to nearby Meissen in 1710.",
+      "The sandstone towers of Saxon Switzerland begin about 30 km upstream."
+    ],
+    "q": {
+      "q": "What nickname did its baroque skyline earn Dresden?",
+      "a": "Florence on the Elbe",
+      "x": [
+        "Venice of the North",
+        "Paris of the East"
+      ]
+    }
+  },
+  "Q2423": {
+    "t": "A thousand-year-old city where two rivers meet",
+    "s": "Look for the point where the Kotorosl flows into the Volga: that spit of land, the Strelka, is where Yaroslavl began. According to tradition, Prince Yaroslav the Wise founded the city around 1010. Its old centre, with streets fanning out from the riverfront, is one of the jewels of the Golden Ring of old Russian towns.",
+    "w": "A big city on the Volga, with a smaller river joining from the south-west near the centre.",
+    "f": [
+      "The historic centre of Yaroslavl has been a UNESCO World Heritage site since 2005.",
+      "Valentina Tereshkova, the first woman in space, was born in a village near Yaroslavl in 1937.",
+      "The city's coat of arms shows a bear carrying an axe."
+    ],
+    "q": {
+      "q": "Which animal appears on Yaroslavl's coat of arms?",
+      "a": "A bear",
+      "x": [
+        "A wolf",
+        "An elk"
+      ]
+    }
+  },
+  "Q4454": {
+    "t": "The city on the banknote, where the Amur is vast",
+    "s": "Here the Amur is enormous: a maze of channels, islands and sandbanks kilometres wide, joined by the Ussuri just upstream. Khabarovsk lines the high right bank. A long bridge carrying both a road and a railway spans the river. The city began in 1858 as a military post and took its name from the 17th-century explorer Yerofey Khabarov.",
+    "w": "A long city on the high east bank of a huge braided river, with a long bridge across it and flat wetlands beyond.",
+    "f": [
+      "Khabarovsk and its Amur bridge appear on the Russian 5,000-rouble banknote.",
+      "The Ussuri joins the Amur just south-west of the city.",
+      "In winter the Amur freezes hard enough for people to walk far out onto the ice."
+    ],
+    "q": {
+      "q": "Which explorer is Khabarovsk named after?",
+      "a": "Yerofey Khabarov",
+      "x": [
+        "Vitus Bering",
+        "Semyon Dezhnev"
+      ]
+    }
   }
 }

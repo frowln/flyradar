@@ -1,0 +1,362 @@
+{
+  "Q84": {
+    "t": "Un río oscuro que se enrosca en un mar de luces",
+    "s": "Encuentra el Támesis y Londres encaja: una cinta parda que serpentea hacia el este por una enorme mancha gris verdosa y luego se ensancha hacia el mar del Norte. La autopista M25 traza un anillo irregular alrededor de todo. Los romanos tendieron aquí un puente sobre el río hace casi dos mil años, y la ciudad no ha dejado de crecer desde aquel cruce.",
+    "w": "El sinuoso Támesis corre al este hasta su estuario; embalses cuadrados brillan junto a Heathrow, en el borde oeste.",
+    "f": [
+      "La autopista de circunvalación M25 mide unos 188 km; de noche traza un tenue anillo de luces alrededor de la ciudad.",
+      "El Támesis tiene mareas en todo Londres: en el centro, el agua sube y baja varios metros dos veces al día.",
+      "Los romanos fundaron Londinium en la orilla norte del Támesis hacia el año 50 d. C."
+    ],
+    "q": {
+      "q": "¿Cómo se llamaba Londres en época romana?",
+      "a": "Londinium",
+      "x": [
+        "Lutecia",
+        "Eboracum"
+      ]
+    }
+  },
+  "Q406": {
+    "t": "Una ciudad, dos continentes y un hilo azul entre ellos",
+    "s": "Busca una fina línea azul que parte en dos una ciudad inmensa: el Bósforo, con Europa en una orilla y Asia en la otra. El Cuerno de Oro se curva hacia el casco antiguo en el lado europeo. Como Constantinopla, fue capital imperial durante más de mil años.",
+    "w": "Un estrecho angosto que corre de norte a sur entre el mar Negro y el mar de Mármara.",
+    "f": [
+      "El Bósforo mide unos 30 km de largo y, en su punto más angosto, bastante menos de un kilómetro de ancho.",
+      "Tres puentes colgantes cruzan el estrecho; desde crucero se ven como finas líneas claras.",
+      "De noche, las dos orillas brillan como una sola cinta de luz a lo largo del agua."
+    ],
+    "q": {
+      "q": "¿Qué estrecho divide Estambul entre Europa y Asia?",
+      "a": "El Bósforo",
+      "x": [
+        "Los Dardanelos",
+        "El estrecho de Mesina"
+      ]
+    }
+  },
+  "Q3692": {
+    "t": "Una cuadrícula de luces caída en el desierto de Arabia",
+    "s": "A cientos de kilómetros de cualquier mar, una inmensa cuadrícula beis de anchas avenidas se extiende por la meseta del Nechd: es Riad, cerca del centro de la península arábiga. En su lado oeste corre el hilo verde del uadi Hanifa. El nombre de la ciudad viene de la palabra árabe para «jardines»: los oasis que este valle regaba antaño.",
+    "w": "Una enorme cuadrícula rectangular de calles en un desierto pardo, con el largo escarpe de Tuwaiq de norte a sur al oeste.",
+    "f": [
+      "El escarpe de Tuwaiq, al oeste de la ciudad, se curva a lo largo de unos 800 km por el centro de Arabia.",
+      "En el borde noroeste de Riad, el barrio de adobe de At-Turaif, en Diriyah, es Patrimonio Mundial de la UNESCO.",
+      "La ciudad está a unos 600 metros sobre el nivel del mar, en la meseta del Nechd."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Riad en árabe?",
+      "a": "Jardines",
+      "x": [
+        "Arenas",
+        "Estrellas"
+      ]
+    }
+  },
+  "Q5465": {
+    "t": "Una montaña de cima plana cerca de la punta de África",
+    "s": "Busca una montaña cortada en plano como una mesa, con la ciudad enroscada a sus pies y el mar a ambos lados. Al sur, un dedo rocoso de tierra baja hasta el cabo de Buena Esperanza. Muchos días de verano, una nube blanca se derrama sobre la cumbre como un mantel y se deshace al bajar.",
+    "w": "Un bloque montañoso gris y plano sobre una bahía curva, una península rocosa que baja al sur y una isla baja en la bahía.",
+    "f": [
+      "La cima plana de la Montaña de la Mesa alcanza unos 1085 metros: más o menos una décima parte de tu altura de crucero.",
+      "La isla baja de la bahía de la Mesa es Robben Island, Patrimonio Mundial de la UNESCO desde 1999.",
+      "Ciudad del Cabo, la más antigua de Sudáfrica, nació en 1652 como escala de avituallamiento de los barcos neerlandeses."
+    ],
+    "q": {
+      "q": "¿En qué año fundó la Compañía Neerlandesa de las Indias Orientales Ciudad del Cabo?",
+      "a": "1652",
+      "x": [
+        "1588",
+        "1714"
+      ]
+    }
+  },
+  "Q649": {
+    "t": "Anillos dentro de anillos, como un tronco cortado",
+    "s": "Moscú está trazada como el corte de un tronco de árbol: anillos viales encajados uno dentro de otro alrededor del centro antiguo, con autopistas radiales que salen como radios. De noche, todo el dibujo brilla en ámbar y blanco. Entre ellos serpentea el río Moscova en grandes bucles perezosos. La ciudad aparece por primera vez en una crónica en 1147.",
+    "w": "Anillos viales concéntricos con radios rectos hacia fuera; el sinuoso Moscova cruza el centro de noroeste a sureste.",
+    "f": [
+      "El MKAD, la autopista de circunvalación exterior de Moscú, mide unos 109 km.",
+      "El Anillo de los Jardines, interior, recorre unos 16 km alrededor del centro histórico.",
+      "La ciudad y su río comparten nombre: en ruso, ambos se llaman Moskvá."
+    ],
+    "q": {
+      "q": "¿En qué año aparece Moscú por primera vez en una crónica?",
+      "a": "1147",
+      "x": [
+        "1240",
+        "1380"
+      ]
+    }
+  },
+  "Q8673": {
+    "t": "Una megaciudad cosida a través de una laguna",
+    "s": "Lagos es tanto agua como tierra. Busca una amplia laguna tras una playa atlántica larga y recta, con la ciudad desbordándose por las islas y orillas de alrededor. Un fino puente cruza el agua durante kilómetros. Los navegantes portugueses bautizaron el lugar por estos lagos, y hoy es una de las mayores ciudades de África.",
+    "w": "Una ancha laguna gris parda tras una costa recta como una regla; ciudad densa en sus islas y un largo puente sobre el agua.",
+    "f": [
+      "El Third Mainland Bridge cruza la laguna de Lagos a lo largo de unos 11,8 km y une las islas con el continente.",
+      "Lagos fue la capital de Nigeria hasta 1991, cuando el gobierno se trasladó a Abuya.",
+      "En yoruba, la ciudad se llama Eko."
+    ],
+    "q": {
+      "q": "¿Por qué los portugueses llamaron Lagos a este lugar?",
+      "a": "Por sus lagunas",
+      "x": [
+        "Por sus puertos",
+        "Por sus palmeras"
+      ]
+    }
+  },
+  "Q220": {
+    "t": "La Ciudad Eterna, enmarcada por viejos volcanes",
+    "s": "Busca primero los lagos redondos. Al noroeste y al sureste de Roma llenan cráteres de volcanes extintos; entre ellos, a unos 25 km del mar, el Tíber serpentea por la ciudad en curvas cerradas. Un anillo de autopista, el Grande Raccordo Anulare, lo rodea todo. La tradición sitúa la fundación de la ciudad en el 753 a. C.",
+    "w": "Una mancha urbana junto a un río sinuoso, entre el lago de cráter de Bracciano al noroeste y los montes Albanos al sureste.",
+    "f": [
+      "La circunvalación del Grande Raccordo Anulare mide unos 68 km.",
+      "La Ciudad del Vaticano, el país más pequeño del mundo, está entera dentro de Roma.",
+      "El lago de Bracciano, al noroeste de la ciudad, llena una antigua cuenca volcánica de unos 9 km de ancho."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa Roma?",
+      "a": "El Tíber",
+      "x": [
+        "El Arno",
+        "El Po"
+      ]
+    }
+  },
+  "Q3870": {
+    "t": "Leones y jirafas a la vista de los rascacielos",
+    "s": "Leones y jirafas se mueven a la vista de las torres de Nairobi: la pradera abierta del borde sur de la ciudad es un parque nacional. La ciudad está en una meseta alta, a unos 1800 metros, justo al este del Gran Valle del Rift. Nació en 1899 como depósito del ferrocarril de Mombasa al lago Victoria, y su nombre viene de una expresión masái que significa «agua fresca».",
+    "w": "Una ciudad densa con una llanura abierta y leonada —el parque nacional— en su lado sur; los montes Ngong al suroeste.",
+    "f": [
+      "El Parque Nacional de Nairobi empieza a solo unos 7 km del centro de la ciudad.",
+      "Al oeste de la ciudad, el terreno cae bruscamente hacia el Gran Valle del Rift.",
+      "La ciudad está a menos de 150 km al sur del ecuador, pero su altitud mantiene frescas las noches."
+    ],
+    "q": {
+      "q": "¿Qué significa la expresión masái que dio nombre a Nairobi?",
+      "a": "Agua fresca",
+      "x": [
+        "Tierra roja",
+        "Colina alta"
+      ]
+    }
+  },
+  "Q85": {
+    "t": "Donde el valle verde del Nilo se abre en el delta",
+    "s": "El Cairo marca la bisagra de Egipto. Al sur de la ciudad, el Nilo corre en una estrecha franja verde entre el desierto; justo al norte se abre en abanico en el delta. La ciudad llena ambas orillas, con la meseta de Guiza y sus pirámides en el borde oeste, donde terminan las casas y empieza el Sahara.",
+    "w": "Una ciudad enorme gris beis junto al Nilo, justo donde el fino valle verde se ensancha en el triángulo del delta.",
+    "f": [
+      "La dinastía fatimí fundó El Cairo en 969 como al-Qahira, «la Victoriosa».",
+      "El límite entre los campos regados y el desierto desnudo alrededor de El Cairo es nítido como una cuchilla, incluso desde crucero.",
+      "La Gran Pirámide de Guiza fue la estructura humana más alta de la Tierra durante más de 3800 años."
+    ],
+    "q": {
+      "q": "¿Qué dinastía fundó El Cairo en 969?",
+      "a": "Los fatimíes",
+      "x": [
+        "Los otomanos",
+        "Los mamelucos"
+      ]
+    }
+  },
+  "Q90": {
+    "t": "Una ciudad ovalada dentro de un anillo, con un río en bucles",
+    "s": "París propiamente dicho es compacto: un óvalo nítido dentro del bulevar periférico, con suburbios que se extienden mucho más allá. El Sena entra por el sureste, se curva por el centro junto a dos islitas y sale en una serie de grandes meandros hacia el canal de la Mancha. Los romanos llamaban Lutecia a este asentamiento.",
+    "w": "Una circunvalación ovalada que encierra el centro denso, con el Sena serpenteando por él y trazando grandes meandros al oeste.",
+    "f": [
+      "El bulevar periférico mide unos 35 km y sigue el trazado de las fortificaciones de la ciudad del siglo XIX.",
+      "Dentro del anillo, París ocupa solo unos 105 km².",
+      "La ciudad nació en la isla de la Cité, la mayor de las dos islas del Sena."
+    ],
+    "q": {
+      "q": "¿Cuánto mide, aproximadamente, el bulevar periférico de París?",
+      "a": "Unos 35 km",
+      "x": [
+        "Unos 70 km",
+        "Unos 12 km"
+      ]
+    }
+  },
+  "Q1899": {
+    "t": "Colinas verdes en una orilla, llanura en la otra",
+    "s": "El Dniéper parte Kiev en dos, y sus orillas no podrían ser más distintas: colinas empinadas y boscosas al oeste, donde creció la ciudad antigua, y tierras bajas y llanas al este. Entre ellas hay islas de arena y brazos secundarios. Aguas arriba, el río se hincha en un largo embalse. Hace mil años, esta era la capital de la Rus de Kiev.",
+    "w": "Un río ancho con islas de arena, de norte a sur; la ciudad antigua en las colinas del oeste, barrios nuevos en la llana orilla este.",
+    "f": [
+      "Justo al norte de la ciudad, el Dniéper se ensancha en el embalse de Kiev, de más de 100 km.",
+      "La Lavra de las Cuevas de Kiev, un monasterio rupestre fundado en 1051, es Patrimonio Mundial de la UNESCO.",
+      "Grandes islas boscosas del Dniéper, como Trujániv, están justo frente al centro de la ciudad."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa Kiev?",
+      "a": "El Dniéper",
+      "x": [
+        "El Dniéster",
+        "El Bug Meridional"
+      ]
+    }
+  },
+  "Q612": {
+    "t": "Una palmera dibujada en el mar con arena",
+    "s": "Pocas ciudades son tan fáciles de reconocer. Frente a la costa de Dubái, una palmera está dibujada en el mar con arena, con sus hojas rodeadas por un rompeolas en media luna. Más lejos, un puñado de islotes imita un mapa del mundo. En tierra, las torres bordean la costa durante kilómetros, y la ciudad antigua abraza una ría sinuosa.",
+    "w": "La isla con forma de palmera frente a una costa desértica recta, con el grupo de islas «The World» más mar adentro.",
+    "f": [
+      "Palm Jumeirah se hizo con arena dragada del fondo marino y mide unos 5 km de ancho.",
+      "The World es un archipiélago de unas 300 islas artificiales dispuestas como un mapamundi.",
+      "La ría de Dubái, una ensenada natural, fue el corazón de la antigua ciudad perlera y comercial."
+    ],
+    "q": {
+      "q": "¿Qué forma tiene la isla artificial más conocida de Dubái?",
+      "a": "Una palmera",
+      "x": [
+        "Una concha",
+        "Un halcón"
+      ]
+    }
+  },
+  "Q2807": {
+    "t": "El corazón de la meseta, con cumbres nevadas al noroeste",
+    "s": "En invierno, un muro de montañas de cumbres blancas se alza al noroeste de Madrid: la sierra de Guadarrama. La ciudad está casi en el centro de España, en una meseta seca a más de 600 metros sobre el mar, rodeada de autopistas de circunvalación que trazan anillos cada vez más amplios. Felipe II trasladó su corte a esta pequeña villa en 1561.",
+    "w": "Una ciudad densa en una meseta ocre rodeada de autopistas, con la sierra de Guadarrama alzándose al noroeste.",
+    "f": [
+      "A unos 650 metros, Madrid es la capital más alta de la Unión Europea.",
+      "La Puerta del Sol, en el centro, es el kilómetro cero de las carreteras radiales de España.",
+      "El río de la ciudad, el Manzanares, es tan pequeño que apenas se ve desde el aire."
+    ],
+    "q": {
+      "q": "¿Qué montañas se alzan al noroeste de Madrid?",
+      "a": "La sierra de Guadarrama",
+      "x": [
+        "Sierra Nevada",
+        "Los Picos de Europa"
+      ]
+    }
+  },
+  "Q71": {
+    "t": "Donde el Ródano sale de un lago en media luna",
+    "s": "Donde un gran lago en forma de media luna se estrecha hasta una punta y el Ródano sale hacia Francia, está Ginebra. La ciudad está casi rodeada de territorio francés. En un día claro, mira al sureste hacia el macizo nevado del Mont Blanc, y al noroeste hacia el largo muro oscuro del Jura.",
+    "w": "El extremo estrecho y puntiagudo de un gran lago en media luna, del que sale un río; la cresta del Jura al noroeste.",
+    "f": [
+      "El cantón de Ginebra comparte unos 100 km de frontera con Francia y solo unos pocos kilómetros con el resto de Suiza.",
+      "Bajo tierra, justo al oeste de la ciudad, el acelerador del CERN recorre un anillo de 27 km bajo la frontera francesa.",
+      "El lago Lemán mide unos 73 km de largo y se curva como una media luna entre Suiza y Francia."
+    ],
+    "q": {
+      "q": "¿Qué río sale del lago Lemán en Ginebra?",
+      "a": "El Ródano",
+      "x": [
+        "El Rin",
+        "El Aar"
+      ]
+    }
+  },
+  "Q1754": {
+    "t": "Catorce islas, un lago y un mar de islotes",
+    "s": "Estocolmo se reparte por catorce islas en el punto donde el lago Mälaren desagua en el Báltico. Desde arriba es un rompecabezas de agua, granito y pinar oscuro. Al este empieza el archipiélago: decenas de miles de islas e islotes dispersos hacia el mar abierto. La ciudad aparece documentada por primera vez en 1252.",
+    "w": "Un rompecabezas de islas y canales entre un gran lago al oeste y un vasto archipiélago que se extiende al este hasta el Báltico.",
+    "f": [
+      "El archipiélago de Estocolmo tiene unas 30 000 islas, islotes y rocas.",
+      "El lago Mälaren está algo más alto que el Báltico, y su agua sale por los canales de la ciudad.",
+      "La tierra aquí sigue elevándose tras la última glaciación, cerca de medio centímetro al año."
+    ],
+    "q": {
+      "q": "¿Cuántas islas forman, aproximadamente, el archipiélago de Estocolmo?",
+      "a": "Unas 30 000",
+      "x": [
+        "Unas 300",
+        "Unas 3000"
+      ]
+    }
+  },
+  "Q3718": {
+    "t": "La ciudad más occidental del África continental",
+    "s": "Dakar corona la península de Cabo Verde, un gancho de tierra que se adentra en el Atlántico, lo más al oeste que llega el África continental. Desde arriba, la ciudad llena todo el triángulo, con mar por tres lados y el Sahel ocre detrás. Justo frente a la costa está la pequeña isla de Gorea, sitio de la UNESCO y memorial de la trata atlántica de esclavos.",
+    "w": "Una península triangular que entra al oeste en el Atlántico, casi toda edificada, con una pequeña isla frente a su costa sureste.",
+    "f": [
+      "La Pointe des Almadies, en la península de Dakar, es el punto más occidental del África continental.",
+      "Dos colinas volcánicas bajas, las Mamelles, se alzan cerca de la costa oeste; una tiene un faro.",
+      "La isla de Gorea es Patrimonio Mundial de la UNESCO desde 1978."
+    ],
+    "q": {
+      "q": "¿En qué península se alza Dakar?",
+      "a": "Cabo Verde",
+      "x": [
+        "Cabo Bon",
+        "Sinaí"
+      ]
+    }
+  },
+  "Q34647": {
+    "t": "Construida sobre oro: sigue la línea de viejas escombreras",
+    "s": "Johannesburgo existe gracias al oro. Surgió en 1886, tras hallarse un rico filón a lo largo del Witwatersrand, una larga cresta de este a oeste en el alto veld. Fíjate en el lado sur de la ciudad: montículos amarillentos de cima plana —viejas escombreras mineras— se alinean y dibujan el filón enterrado debajo.",
+    "w": "Una ciudad extensa en una meseta alta y herbosa; una línea de escombreras amarillo claro corre de este a oeste por su sur.",
+    "f": [
+      "Johannesburgo está a unos 1750 metros sobre el nivel del mar.",
+      "Witwatersrand significa «cresta de las aguas blancas» en afrikáans.",
+      "Algunas minas de oro del Witwatersrand llegan a unos 4 km bajo la superficie, entre las más profundas del mundo."
+    ],
+    "q": {
+      "q": "¿Qué hallazgo llevó a fundar Johannesburgo en 1886?",
+      "a": "Oro",
+      "x": [
+        "Diamantes",
+        "Carbón"
+      ]
+    }
+  },
+  "Q727": {
+    "t": "Una ciudad de canales en tierra ganada al agua",
+    "s": "Ámsterdam nació de un dique del siglo XIII sobre el río Amstel, y el agua aún lo moldea todo: el ancho canal del IJ en su lado norte, la extensión gris del Markermeer al este y un mosaico llano de pólderes alrededor. Muchos de esos rectángulos verdes están por debajo del nivel del mar.",
+    "w": "Pólderes verdes y llanos cortados por zanjas rectas, la ciudad junto a un canal ancho y un gran lago gris al este.",
+    "f": [
+      "El aeropuerto de Schiphol está unos 3 metros bajo el nivel del mar, en el lecho de un lago desecado a mediados del siglo XIX.",
+      "El anillo de canales del siglo XVII es Patrimonio Mundial de la UNESCO desde 2010.",
+      "El canal del Mar del Norte, abierto en 1876, une el puerto de la ciudad con el mar, a unos 25 km al oeste."
+    ],
+    "q": {
+      "q": "¿Qué río dio nombre a Ámsterdam?",
+      "a": "El Amstel",
+      "x": [
+        "El Mosa",
+        "El IJssel"
+      ]
+    }
+  },
+  "Q7903": {
+    "t": "Una ciudad blanca tendida junto al oleaje atlántico",
+    "s": "Desde el aire, Casablanca hace honor a su nombre español —casa blanca—, eco del árabe Dar al-Bayda. Una extensión clara de edificios se alarga por una costa atlántica llana, pegada a la línea de espuma, y los largos rompeolas de su puerto, uno de los mayores de África, se curvan mar adentro.",
+    "w": "Una ciudad clara a lo largo de una costa atlántica recta, con un gran puerto cerrado por largos rompeolas.",
+    "f": [
+      "El minarete de la mezquita Hassan II, junto al mar, mide unos 210 metros.",
+      "Parte de la mezquita Hassan II se alza sobre una plataforma construida sobre el Atlántico.",
+      "Casablanca es la mayor ciudad de Marruecos, aunque la capital es Rabat, a unos 90 km costa arriba."
+    ],
+    "q": {
+      "q": "¿Qué nombre árabe traduce el de Casablanca?",
+      "a": "Dar al-Bayda",
+      "x": [
+        "Dar al-Majzén",
+        "Bab al-Bahr"
+      ]
+    }
+  },
+  "Q64": {
+    "t": "Una ciudad llana de lagos, bosques y un gran vacío verde",
+    "s": "En Berlín hay agua y bosque por todas partes: el Spree serpenteando por el centro, una cadena de lagos del Havel al oeste y el ancho Müggelsee al este, todo sobre una llanura arenosa y plana que dejaron los glaciares de la Edad de Hielo. Los pinares oscuros entran hasta muy dentro de la ciudad. Busca también un enorme rectángulo abierto al sur del centro: Tempelhof, un aeropuerto convertido en parque.",
+    "w": "Una ciudad enorme y llana salpicada de lagos y bosque oscuro; un gran rectángulo verde y abierto justo al sur del centro.",
+    "f": [
+      "La autopista de circunvalación A10, el Berliner Ring, mide unos 196 km: uno de los anillos viales más largos de Europa.",
+      "El Tempelhofer Feld, el antiguo aeropuerto de Tempelhof, es hoy un parque abierto de unas 300 hectáreas.",
+      "Berlín ocupa unos 890 km², más de ocho veces la superficie de París dentro de su circunvalación."
+    ],
+    "q": {
+      "q": "¿Qué río atraviesa el centro de Berlín?",
+      "a": "El Spree",
+      "x": [
+        "El Elba",
+        "El Óder"
+      ]
+    }
+  }
+}

@@ -1871,5 +1871,354 @@
         "Arrecifes de coral que crecen"
       ]
     }
+  },
+  "Q178543": {
+    "t": "Un dedo desértico de 1200 km entre el océano y el golfo",
+    "s": "Baja California se estira unos 1200 km hacia el sur desde la frontera de EE. UU.: un esbelto dedo de desierto entre el Pacífico y el golfo de California. Desde 11 km de altura, el contraste impresiona: montañas escarpadas y peladas en el centro, llanuras salpicadas de cactus y, en el lado del golfo, un agua de un azul casi irreal. Las ballenas grises llegan cada invierno a parir en sus lagunas del Pacífico.",
+    "w": "Una península desértica larga y estrecha: montañas pardas y peladas, lagunas pálidas en el lado del Pacífico y aguas azul intenso del golfo al este.",
+    "f": [
+      "Sus lagunas del Pacífico, como Ojo de Liebre y San Ignacio, están entre los principales criaderos de la ballena gris.",
+      "Al golfo de California se le suele llamar «el acuario del mundo», frase atribuida a Jacques Cousteau.",
+      "El golfo se ensancha poco a poco a medida que la península se desplaza al noroeste con la placa del Pacífico."
+    ],
+    "q": {
+      "q": "¿Qué ballenas paren cada invierno en las lagunas pacíficas de Baja California?",
+      "a": "Ballenas grises",
+      "x": [
+        "Ballenas jorobadas",
+        "Ballenas azules"
+      ]
+    }
+  },
+  "Q130978": {
+    "t": "Una losa de caliza sin ríos, solo con cenotes",
+    "s": "El Yucatán es llano como una mesa: una vasta losa de caliza cubierta de selva baja y verde, casi sin ríos en superficie. La lluvia se filtra directamente por la roca hasta ríos subterráneos, que afloran en dolinas llamadas cenotes. En su extremo norte está enterrado el cráter de Chicxulub, dejado por el asteroide que acabó con la era de los dinosaurios hace 66 millones de años.",
+    "w": "Selva baja, verde y llana sin fin, sin colinas ni ríos; costa caribeña turquesa al este y ciudades como Mérida al norte.",
+    "f": [
+      "Un anillo curvo de cenotes en el norte de la península dibuja el borde enterrado del cráter de Chicxulub.",
+      "Calakmul, una de las mayores ciudades mayas, se esconde en la selva cerca de la base sur de la península."
+    ],
+    "q": {
+      "q": "¿Cómo se llaman las dolinas llenas de agua del Yucatán?",
+      "a": "Cenotes",
+      "x": [
+        "Tepuyes",
+        "Arroyos"
+      ]
+    }
+  },
+  "Q60064": {
+    "t": "Un brazo volcánico que se estira hacia las Aleutianas",
+    "s": "La península de Alaska se extiende unos 800 km al suroeste desde el continente: un brazo escarpado de volcanes, lagos y tundra que da paso a la cadena de las Aleutianas. Desde arriba, conos nevados se suceden uno tras otro a lo largo de su espina. En Katmai, en 1912, el Novarupta produjo la mayor erupción volcánica del siglo XX y llenó un valle de ceniza que humeó durante años.",
+    "w": "Un brazo largo y estrecho de tundra y grandes lagos con una espina de volcanes nevados, entre el Pacífico y la bahía de Bristol.",
+    "f": [
+      "La erupción de 1912 creó el Valle de las Diez Mil Fumarolas, llamado así por sus incontables respiraderos humeantes.",
+      "Las cataratas Brooks, en el Parque Nacional Katmai, son famosas por los osos pardos que atrapan salmones al vuelo.",
+      "Aniakchak, una caldera de unos 10 km de diámetro, es uno de los monumentos nacionales menos visitados de EE. UU."
+    ],
+    "q": {
+      "q": "¿Qué valle creó la erupción del Novarupta de 1912?",
+      "a": "El de las Diez Mil Fumarolas",
+      "x": [
+        "El Valle de la Muerte",
+        "El Valle de los Géiseres"
+      ]
+    }
+  },
+  "Q812": {
+    "t": "Una península baja de caliza, rebosante de agua",
+    "s": "Florida es de los lugares más llanos de Estados Unidos —su punto más alto está a solo 105 m sobre el mar—, y desde arriba parece tanto agua como tierra. Incontables lagos redondos salpican el centro, el lago Okeechobee brilla como una moneda en el sur y, por debajo, los Everglades se extienden como un vasto río de hierba que avanza despacio. Largas islas barrera de arena bordean ambas costas.",
+    "w": "Tierra verde y llana moteada de lagos redondos, el gran disco del lago Okeechobee y finas islas barrera blancas en ambas costas.",
+    "f": [
+      "Britton Hill, el punto más alto de Florida, con 105 m, es el techo estatal más bajo de EE. UU.",
+      "Los Everglades son una lámina de agua poco profunda que avanza al sur entre juncias, a menudo llamada «río de hierba».",
+      "Muchos de los lagos redondos del centro de Florida son dolinas en la caliza del subsuelo."
+    ],
+    "q": {
+      "q": "¿Cómo se suele llamar a los Everglades?",
+      "a": "Un río de hierba",
+      "x": [
+        "Un mar de juncos",
+        "Un bosque sobre el agua"
+      ]
+    }
+  },
+  "Q213237": {
+    "t": "La península hacha de la Patagonia, cuna de ballenas",
+    "s": "En el mapa, la península Valdés parece una cabeza de hacha unida a la costa de la Patagonia por un mango delgado, el istmo Carlos Ameghino. Los golfos a cada lado, San José y Nuevo, son criaderos resguardados donde la ballena franca austral se reúne para parir, más o menos de junio a diciembre. La tierra es estepa llana y seca, con salinas blancas en el centro.",
+    "w": "Una península casi cuadrada de estepa parda y pálida sobre un cuello estrecho, con golfos resguardados a ambos lados y salinas blancas dentro.",
+    "f": [
+      "La península Valdés es Patrimonio de la Humanidad de la UNESCO por sus mamíferos marinos.",
+      "En Punta Norte, las orcas se varan a propósito en la playa para atrapar crías de lobo marino."
+    ],
+    "q": {
+      "q": "¿Qué ballenas se reúnen para parir en los golfos de Valdés?",
+      "a": "Ballenas francas australes",
+      "x": [
+        "Ballenas jorobadas",
+        "Cachalotes"
+      ]
+    }
+  },
+  "Q858306": {
+    "t": "El pulgar rocoso de China entre el Bohai y el mar Amarillo",
+    "s": "La península de Shandong sobresale hacia el este como un pulgar entre el mar de Bohai y el mar Amarillo, apuntando a Corea. Desde la ventanilla es un mosaico de huertos y campos sobre colinas onduladas, con montañas de granito cerca de la costa y ajetreadas ciudades portuarias. Qingdao está en su orilla sur, junto a la bahía de Jiaozhou, casi cerrada, que cruza uno de los puentes marítimos más largos del mundo.",
+    "w": "Una península de colinas, campos y huertos entre dos mares, con la redondeada bahía de Jiaozhou y Qingdao en la costa sur.",
+    "f": [
+      "El Laoshan, montaña de granito cerca de Qingdao, se alza unos 1130 m directamente desde el mar y es famoso por sus templos taoístas.",
+      "La famosa cervecera de Qingdao se fundó en 1903.",
+      "El puente de la bahía de Jiaozhou recorre unos 26 km sobre el agua."
+    ],
+    "q": {
+      "q": "¿Qué ciudad está en la bahía de Jiaozhou?",
+      "a": "Qingdao",
+      "x": [
+        "Dalian",
+        "Tianjin"
+      ]
+    }
+  },
+  "Q131377": {
+    "t": "Dunas rojas frente a un océano frío y brumoso",
+    "s": "El Namib quizá sea el desierto más antiguo de la Tierra: lleva seco decenas de millones de años. En su mar de arena central, alrededor de Sossusvlei, las dunas superan los 300 m y brillan rojo ladrillo con el sol bajo, alineadas en hileras que llegan casi al Atlántico. La fría corriente oceánica trae niebla en vez de lluvia, y escarabajos, lagartos y plantas sobreviven bebiéndola.",
+    "w": "Hileras sin fin de dunas rojo anaranjado hacia la costa, cuencas pálidas de arcilla entre ellas y una línea blanca de oleaje y niebla.",
+    "f": [
+      "El mar de arena del Namib es Patrimonio de la Humanidad de la UNESCO.",
+      "En Deadvlei, una cuenca de arcilla blanca entre las dunas, se alzan acacias de camello que murieron hace siglos.",
+      "Los escarabajos del desierto inclinan el lomo hacia el viento para que las gotas de niebla les rueden hasta la boca."
+    ],
+    "q": {
+      "q": "¿De dónde obtiene el Namib casi toda su humedad?",
+      "a": "De la niebla del Atlántico frío",
+      "x": [
+        "De la lluvia del monzón",
+        "De la nieve de las montañas"
+      ]
+    }
+  },
+  "Q14314106": {
+    "t": "El gran desierto de Egipto, de oasis y torres de tiza blanca",
+    "s": "Al oeste del Nilo, Egipto es casi todo desierto: llanuras de arena y piedra rotas por hondas depresiones, donde oasis como Siwa, Bahariya, Farafra, Dajla y Jarga beben de aguas subterráneas antiguas. Desde la altitud de crucero, busca motas verdes de campos y palmerales en esas cuencas. Cerca de Farafra está el Desierto Blanco, donde el viento ha tallado la tiza en torres con forma de seta.",
+    "w": "Llanuras y escarpes beige sin fin, cuencas hondas con motas verdes de oasis y, en algunos puntos, un suelo de tiza blanquísimo.",
+    "f": [
+      "La depresión de Qattara, al norte, baja hasta unos 133 m bajo el nivel del mar: uno de los puntos más bajos de África.",
+      "Los oasis se nutren del acuífero de arenisca de Nubia, una de las mayores reservas de agua subterránea fósil de la Tierra."
+    ],
+    "q": {
+      "q": "¿Qué talló las rocas en forma de seta del Desierto Blanco?",
+      "a": "El viento",
+      "x": [
+        "Los glaciares",
+        "Un río antiguo"
+      ]
+    }
+  },
+  "Q464909": {
+    "t": "La gran curva del Nilo a través de un desierto pedregoso",
+    "s": "Al este del Nilo, en el norte de Sudán, está el desierto de Nubia, una llanura casi sin lluvia de arenisca y granito cruzada por uadis secos. Desde 11 km de altura, lo más llamativo es el propio Nilo: una fina cinta verde que serpentea por el desierto en una enorme curva en forma de S. En sus orillas se alzan las pirámides de Meroe y de otros antiguos reinos de Nubia.",
+    "w": "Una llanura pedregosa, llana y pálida con colinas oscuras y uadis secos; al oeste, la cinta verde del Nilo en una gran curva.",
+    "f": [
+      "Sudán tiene más pirámides que Egipto, muchas de ellas en Meroe.",
+      "El ferrocarril de Wadi Halfa a Abu Hamad, construido a finales de la década de 1890, cruza el desierto casi en línea recta."
+    ],
+    "q": {
+      "q": "¿Qué antigua ciudad nubia es famosa por sus empinadas pirámides?",
+      "a": "Meroe",
+      "x": [
+        "Aksum",
+        "Cartago"
+      ]
+    }
+  },
+  "Q326896": {
+    "t": "Dunas rojas paralelas sin fin en el noroeste de Australia",
+    "s": "Desde el aire, el Gran Desierto Arenoso parece peinado: largas dunas rojas y rectas corren en paralelo durante cientos de kilómetros, separadas por pasillos de hierba spinifex pálida. Es una de las zonas más vacías de Australia, habitada sobre todo por comunidades aborígenes. Cerca de su borde norte está el cráter Wolfe Creek, un anillo casi perfecto de unos 900 m de diámetro.",
+    "w": "Largas crestas de dunas rojas, rectas y paralelas con spinifex verde grisáceo entre ellas, y algún lago salado blanco.",
+    "f": [
+      "El cráter Wolfe Creek es uno de los cráteres de meteorito mejor conservados de la Tierra.",
+      "Las dunas de Australia se alinean con los vientos dominantes y forman un remolino gigante alrededor del centro del continente."
+    ],
+    "q": {
+      "q": "¿Qué formó el cráter Wolfe Creek?",
+      "a": "El impacto de un meteorito",
+      "x": [
+        "Una erupción volcánica",
+        "El hundimiento de una cueva"
+      ]
+    }
+  },
+  "Q145165": {
+    "t": "El mayor desierto de Australia, arena roja y matorral",
+    "s": "El mayor desierto de Australia ocupa unos 350 000 km², más que Italia. Pero está lejos de ser desnudo: desde arriba, sus dunas y colinas de arena roja están moteadas de spinifex verde grisáceo, mulga y eucaliptos mallee. Lagos salados de un blanco deslumbrante marcan sus bordes, y al sur el terreno se allana en la llanura sin árboles de Nullarbor.",
+    "w": "Crestas de arena roja moteadas de matorral verde grisáceo, lagos salados blancos dispersos y, al sur, una llanura sin árboles.",
+    "f": [
+      "El explorador Ernest Giles le dio nombre en 1875 en honor a la reina Victoria.",
+      "El pueblo anangu pitjantjatjara vive en este desierto y sus alrededores desde hace muchos miles de años."
+    ],
+    "q": {
+      "q": "¿Cuál es el mayor desierto de Australia?",
+      "a": "El Gran Desierto Victoria",
+      "x": [
+        "El desierto de Simpson",
+        "El desierto de Tanami"
+      ]
+    }
+  },
+  "Q172691": {
+    "t": "El Gran Desierto de la India, sorprendentemente poblado",
+    "s": "El Thar, o Gran Desierto Indio, se extiende por Rajastán hasta Pakistán: una tierra de dunas rizadas por el viento, matorral espinoso y aldeas dispersas. Es uno de los desiertos más densamente poblados del mundo. Busca la larga línea verde del canal Indira Gandhi cortando la arena y llevando agua de los ríos del Himalaya a campos nuevos.",
+    "w": "Dunas leonadas y matorral salpicados de aldeas, y un corredor verde y recto de canal y campos que cruza la arena.",
+    "f": [
+      "Jaisalmer, la «Ciudad Dorada», es de arenisca amarilla y surge del desierto alrededor de un fuerte en lo alto de una colina.",
+      "El canal Indira Gandhi, uno de los más largos de la India, lleva al desierto agua de los ríos Sutlej y Beas."
+    ],
+    "q": {
+      "q": "¿Qué ciudad del Thar se conoce como la Ciudad Dorada?",
+      "a": "Jaisalmer",
+      "x": [
+        "Jaipur",
+        "Udaipur"
+      ]
+    }
+  },
+  "Q339162": {
+    "t": "Una vasta llanura pedregosa entre el Levante y el Éufrates",
+    "s": "Entre la verde costa del Levante y el valle del Éufrates se extiende el desierto Sirio, una vasta llanura de grava y basalto más que de arena. Desde arriba es llana y beige, cruzada por carreteras rectas, con oscuros campos de lava al suroeste. Durante milenios, las caravanas lo cruzaron entre el Mediterráneo y Mesopotamia y hacían alto en el oasis de Palmira.",
+    "w": "Una llanura beige, llana y sin rasgos, con carreteras rectas y uadis secos, y manchas oscuras de campos de lava basáltica al suroeste.",
+    "f": [
+      "El campo basáltico de Harrat al-Sham, al suroeste, es uno de los mayores campos volcánicos de Oriente Medio.",
+      "Los pilotos descubrieron en la década de 1920 las antiguas «cometas del desierto», enormes trampas de piedra para cazar gacelas."
+    ],
+    "q": {
+      "q": "¿Qué antigua ciudad caravanera creció en un oasis del desierto Sirio?",
+      "a": "Palmira",
+      "x": [
+        "Petra",
+        "Biblos"
+      ]
+    }
+  },
+  "Q172702": {
+    "t": "Las Arenas Negras y un cráter que arde desde hace décadas",
+    "s": "Karakum significa «arenas negras», aunque desde arriba las dunas se ven gris leonado, sujetas por saxaúl y hierba. El desierto cubre la mayor parte de Turkmenistán. Cerca de Derweze, un cráter de gas de unos 70 m de ancho lleva décadas ardiendo, y de noche su resplandor naranja sorprende. Por el sur corre el largo hilo verde del canal de Karakum.",
+    "w": "Dunas gris leonado sujetas por matorral, el verde canal de Karakum al sur y, de noche, un pequeño resplandor naranja cerca de Derweze.",
+    "f": [
+      "El canal de Karakum, de más de 1000 km, lleva agua del Amu Daria por el desierto: uno de los canales de riego más largos del mundo.",
+      "El Karakum cubre cerca del 70 % de Turkmenistán."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Karakum?",
+      "a": "Arenas negras",
+      "x": [
+        "Arenas rojas",
+        "Río seco"
+      ]
+    }
+  },
+  "Q184364": {
+    "t": "Las Arenas Rojas entre los dos grandes ríos de Asia Central",
+    "s": "Kyzylkum significa «arenas rojas», y el desierto ocupa la tierra entre el Amu Daria y el Sir Daria, los dos ríos que antes alimentaban el mar de Aral. Desde la ventanilla es una llanura beige rojiza de dunas y matorral, rota por colinas rocosas desnudas y salares. Aquí está también Muruntau, una de las mayores minas de oro a cielo abierto de la Tierra: un enorme agujero gris bien visible desde el aire.",
+    "w": "Dunas y matorral beige rojizo, colinas rocosas desnudas, salares blancos y el enorme foso gris escalonado de la mina de Muruntau.",
+    "f": [
+      "El foso de la mina de oro de Muruntau mide más de 3 km de largo y cientos de metros de profundidad.",
+      "Desde la década de 1960, el mar de Aral, al noroeste, ha menguado de forma drástica al desviarse el agua de los ríos para regar."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Kyzylkum?",
+      "a": "Arenas rojas",
+      "x": [
+        "Arenas negras",
+        "Estepa hambrienta"
+      ]
+    }
+  },
+  "Q47141": {
+    "t": "El lugar más seco fuera de los polos, bajo cielos de cristal",
+    "s": "Algunas estaciones meteorológicas de Atacama nunca han registrado lluvia. Desde la altitud de crucero es un paisaje lunar de salares, cordilleras pardas y peladas y volcanes de tonos pastel, con los Andes a un lado y el frío Pacífico al otro. El aire es tan seco y limpio que en sus cumbres se han construido algunos de los mayores telescopios del mundo.",
+    "w": "Cordilleras peladas pardas y ocres, salares blancos como el de Atacama y volcanes nevados en el horizonte oriental.",
+    "f": [
+      "El salar de Atacama es el mayor salar de Chile y una de las principales fuentes de litio del mundo.",
+      "La NASA ha probado vehículos marcianos en Atacama porque su suelo se parece mucho al de Marte.",
+      "ALMA, un gigantesco conjunto de radiotelescopios, está en una meseta a unos 5000 m."
+    ],
+    "q": {
+      "q": "¿Qué metal se extrae en grandes cantidades del salar de Atacama?",
+      "a": "Litio",
+      "x": [
+        "Estaño",
+        "Plata"
+      ]
+    }
+  },
+  "Q392250": {
+    "t": "La cintura de México, donde el viento corre entre océanos",
+    "s": "Aquí México se estrecha hasta su cintura: solo unos 200 km de tierra separan el Atlántico del Pacífico. Las montañas bajan hasta formar un amplio paso, y en invierno fuertes vientos del norte, los tehuanos, se encajonan por él y salen disparados sobre el Pacífico, agitando el mar a cientos de kilómetros de la costa. Cerca del litoral pacífico brillan, plateadas, lagunas anchas y poco profundas.",
+    "w": "Un estrecho puente de tierra con colinas bajas en el centro, tierras bajas verdes al norte y llanuras secas y lagunas en el Pacífico.",
+    "f": [
+      "Los vientos tehuanos pueden superar los 100 km/h y se notan muy lejos, mar adentro en el Pacífico.",
+      "Un ferrocarril une las dos costas a través del istmo desde 1907.",
+      "El istmo suele tomarse como la frontera geográfica entre América del Norte y América Central."
+    ],
+    "q": {
+      "q": "¿Qué anchura tiene, más o menos, el istmo de Tehuantepec?",
+      "a": "Unos 200 km",
+      "x": [
+        "Unos 50 km",
+        "Unos 600 km"
+      ]
+    }
+  },
+  "Q182139": {
+    "t": "El puente de tierra que unió dos continentes",
+    "s": "Esta delgada franja de tierra en forma de S une dos continentes y separa dos océanos. Cuando surgió del mar, hace unos 3 millones de años, los animales cruzaron entre las Américas y las corrientes oceánicas cambiaron de rumbo. Al oeste la corta el canal de Panamá; al este, la selva del Darién es tan salvaje que la carretera Panamericana se detiene en su borde.",
+    "w": "Una franja verde, estrecha y sinuosa entre dos mares: selva continua al este y, al oeste, el canal y el lago Gatún.",
+    "f": [
+      "El canal de Panamá, inaugurado en 1914, mide unos 80 km.",
+      "El Tapón del Darién es el único corte de la carretera Panamericana entre Alaska y el extremo sur de Sudamérica.",
+      "Como el istmo se curva, el canal va del Atlántico, al noroeste, al Pacífico, al sureste."
+    ],
+    "q": {
+      "q": "¿En qué año se inauguró el canal de Panamá?",
+      "a": "1914",
+      "x": [
+        "1869",
+        "1936"
+      ]
+    }
+  },
+  "Q322356": {
+    "t": "El cuello de la península malaya, entre dos mares",
+    "s": "En el istmo de Kra, la península malaya se estrecha al máximo, hasta unos 44 km, con el mar de Andamán al oeste y el golfo de Tailandia al este. Desde 11 km de altura quizá veas ambas costas a la vez: estuarios bordeados de manglares a un lado, largas playas de arena al otro y plantaciones de caucho y palma aceitera en medio. Desde hace siglos se sueña con abrir aquí un canal.",
+    "w": "Un cuello estrecho de colinas verdes y plantaciones con el mar visible a ambos lados, y el estuario del río Kra al oeste.",
+    "f": [
+      "Un canal a través del Kra se propone desde al menos el siglo XVII, pero nunca se ha construido.",
+      "En el punto más estrecho, el río Kraburi forma parte de la frontera entre Tailandia y Myanmar."
+    ],
+    "q": {
+      "q": "¿Qué anchura tiene, más o menos, el istmo de Kra en su punto más estrecho?",
+      "a": "Unos 44 km",
+      "x": [
+        "Unos 4 km",
+        "Unos 140 km"
+      ]
+    }
+  },
+  "Q426977": {
+    "t": "Colinas de arcilla roja entre los Apalaches y la costa",
+    "s": "Entre las Blue Ridge y la llana llanura costera está el Piedmont —literalmente, «pie de monte»—, unas tierras altas onduladas de arcilla roja, pinares y granjas. Desde arriba, busca grandes embalses de brazos ramificados como dedos, como los lagos Hartwell y Thurmond en el río Savannah. En su borde marítimo, los ríos saltan por la Fall Line, donde crecieron ciudades como Richmond, Columbia y Augusta.",
+    "w": "Colinas verdes y onduladas y bosques con campos rojizos, y grandes embalses de brazos largos y ramificados a lo largo de los ríos.",
+    "f": [
+      "Las ciudades de la Fall Line crecieron donde los barcos fluviales ya no podían seguir río arriba.",
+      "El color rojo del Piedmont viene de sus suelos arcillosos ricos en hierro.",
+      "Atlanta y Charlotte, dos de las mayores ciudades del sur de Estados Unidos, están en el Piedmont."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Piedmont?",
+      "a": "Pie de monte",
+      "x": [
+        "Tierra de arcilla roja",
+        "Entre los ríos"
+      ]
+    }
   }
 }
