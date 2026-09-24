@@ -86,6 +86,14 @@ describe('history along the route', () => {
     expect(hist[0]!.id).toBe('hist-road');
   });
 
+  it('says what to look for at a site, not along a road crossed at one point of it', () => {
+    const withLook = { road: { ...texts.road, w: 'Look for the lake' }, city: { ...texts.city, w: 'Look for the walls' } };
+    const hist = historyAlong(route, items, withLook, 'en', { gapMin: 0 });
+    const byId = Object.fromEntries(hist.map((p) => [p.id, p]));
+    expect(placeText(byId['hist-road']!, 'en').look).toBeUndefined();
+    expect(placeText(byId['hist-city']!, 'en').look).toBe('Look for the walls');
+  });
+
   it('names a history card in the reader language', () => {
     const hist = historyAlong(route, items, { road: { ...texts.road, name: 'Старая дорога' } }, 'ru', { gapMin: 0 });
     expect(hist[0]!.translations?.ru?.name).toBe('Старая дорога');

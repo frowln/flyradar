@@ -2266,5 +2266,329 @@
         "To mate on the beaches"
       ]
     }
+  },
+  "Q49152": {
+    "t": "A sandy arm flexing into the Atlantic",
+    "s": "Cape Cod is one of the easiest shapes to recognise from the air: a long sandy arm bent at the elbow, curling north into the Atlantic like a flexed bicep, with Provincetown in its fist. Glaciers built it at the end of the last ice age, and waves have been reshaping it ever since. Its outer shore is lined with tall sand cliffs and long, empty beaches.",
+    "w": "A long, narrow sandy peninsula bent like an arm and hooking north, with Cape Cod Bay inside its curve.",
+    "f": [
+      "In 1620 the Mayflower first anchored off Provincetown, at the tip of the cape, before the Pilgrims settled at Plymouth.",
+      "The Cape Cod Canal, opened in 1914, cuts across its base, technically making it an island.",
+      "Bartholomew Gosnold named it in 1602 for the cod his crew caught offshore."
+    ],
+    "q": {
+      "q": "What is the shape of Cape Cod often compared to?",
+      "a": "A bent arm",
+      "x": [
+        "A boot",
+        "A lobster claw"
+      ]
+    }
+  },
+  "Q2065437": {
+    "t": "New Jersey's southern tip, a crossroads for migrants",
+    "s": "At Cape May, New Jersey runs out of land: a blunt peninsula of beaches, marsh and small towns between the Atlantic and Delaware Bay. Every autumn huge numbers of migrating birds and monarch butterflies funnel down the peninsula and gather here before crossing the bay. The town at its tip, full of Victorian houses, is one of the oldest seaside resorts in the United States.",
+    "w": "The blunt southern tip of New Jersey, between the open Atlantic and the wide mouth of Delaware Bay.",
+    "f": [
+      "It is named after Cornelius Jacobsen Mey, a Dutch captain who explored this coast around 1620.",
+      "The whole town of Cape May is a US National Historic Landmark for its Victorian buildings.",
+      "A car ferry links Cape May across Delaware Bay with Lewes in Delaware."
+    ],
+    "q": {
+      "q": "Which bay lies west of Cape May?",
+      "a": "Delaware Bay",
+      "x": [
+        "Chesapeake Bay",
+        "Cape Cod Bay"
+      ]
+    }
+  },
+  "Q4078": {
+    "t": "The storm-beaten southern end of the Americas",
+    "s": "A dark, rocky island at the very end of the Americas: Cape Horn stands on Hornos Island, near the southern edge of the Tierra del Fuego archipelago. Beyond it lies only the Drake Passage and, far to the south, Antarctica. For sailors it was long the most feared headland on Earth, where westerly gales and huge waves sweep unchecked around the globe.",
+    "w": "A dark, steep island at the southern edge of a scatter of rugged islands, facing open and often stormy sea.",
+    "f": [
+      "Dutch navigators Schouten and Le Maire named it in 1616 after the town of Hoorn in the Netherlands.",
+      "By old tradition, a sailor who had rounded the Horn under sail earned the right to wear a gold earring.",
+      "The cape belongs to Chile; a lighthouse and a small naval post stand on the island."
+    ],
+    "q": {
+      "q": "What is Cape Horn named after?",
+      "a": "A Dutch town",
+      "x": [
+        "A ship's foghorn",
+        "Its horn-like shape"
+      ]
+    }
+  },
+  "Q4092": {
+    "t": "The famous cape that isn't Africa's southern tip",
+    "s": "At the end of the Cape Peninsula, south of Cape Town, rocky cliffs and slopes of fynbos scrub drop into a restless sea: this is the Cape of Good Hope. The Portuguese navigator Bartolomeu Dias rounded it in 1488, opening the way for the sea route to India. From above, look for a slender finger of land pointing south, with False Bay on its eastern side.",
+    "w": "A slender, rocky peninsula pointing south from Cape Town, with the broad False Bay to its east.",
+    "f": [
+      "It is not Africa's southernmost point: that is Cape Agulhas, about 150 km to the south-east.",
+      "Tradition says Dias called it the Cape of Storms before the Portuguese king renamed it the Cape of Good Hope.",
+      "It belongs to the Cape Floral Region, one of the richest areas for plants in the world."
+    ],
+    "q": {
+      "q": "Which cape is actually Africa's southernmost point?",
+      "a": "Cape Agulhas",
+      "x": [
+        "Cape Point",
+        "Cape Hangklip"
+      ]
+    }
+  },
+  "Q1034489": {
+    "t": "The corner where West Africa's coast turns east",
+    "s": "At Cape Palmas the coast of West Africa, which has been running south-east, swings round to head almost due east along the Gulf of Guinea. From above, look for a low rocky point with sandy beaches, dark green forest behind it and the mouth of the Cavalla River close by. Portuguese sailors charting this coast in the 15th century named it for its palm trees.",
+    "w": "A low point where the coastline turns from south-east to east, with forest behind and a river mouth nearby.",
+    "f": [
+      "Cape Palmas marks the western limit of the Gulf of Guinea.",
+      "The Cavalla River, which reaches the sea close by, forms the border between Liberia and Côte d'Ivoire.",
+      "European traders once called the shore west of the cape the Grain Coast, and the shore east of it the Ivory Coast."
+    ],
+    "q": {
+      "q": "Which gulf begins at Cape Palmas?",
+      "a": "The Gulf of Guinea",
+      "x": [
+        "The Gulf of Aden",
+        "The Gulf of Sidra"
+      ]
+    }
+  },
+  "Q216889": {
+    "t": "Africa's westernmost point, crowned by a capital",
+    "s": "The Cap-Vert peninsula sticks out from Senegal into the Atlantic like a hook, and its tip, Pointe des Almadies, is the westernmost point of mainland Africa. Almost all of it is covered by Dakar, Senegal's capital, spreading over the low headland right to the sea. Just off its sheltered southern shore lies the small island of Gorée.",
+    "w": "A hook-shaped peninsula jutting west into the Atlantic, densely built over, with a tiny island off its south shore.",
+    "f": [
+      "Portuguese sailors named it the 'Green Cape' in 1444, struck by its greenery after the desert coast to the north.",
+      "The Cape Verde Islands, some 600 km to the west, take their name from this cape.",
+      "Gorée Island has been a UNESCO World Heritage site since 1978."
+    ],
+    "q": {
+      "q": "Which city covers most of the Cap-Vert peninsula?",
+      "a": "Dakar",
+      "x": [
+        "Banjul",
+        "Saint-Louis"
+      ]
+    }
+  },
+  "Q849879": {
+    "t": "Tunisia's finger pointing towards Sicily",
+    "s": "Cap Bon juts north-east from Tunisia like a finger pointing at Sicily, separating the Gulf of Tunis from the Gulf of Hammamet. From above it is a patchwork of green orchards, vineyards and fields between low hills, edged with sandy beaches. At its tip, only about 140 km of sea separates Africa from Sicily.",
+    "w": "A green peninsula pointing north-east into the Mediterranean between two wide gulfs, with farmland and beaches.",
+    "f": [
+      "The Punic town of Kerkouane, on its coast, is a UNESCO World Heritage site.",
+      "The peninsula is famous for its citrus groves and for harissa, the fiery chilli paste.",
+      "In Roman times it was known as the Promontory of Mercury."
+    ],
+    "q": {
+      "q": "Which island lies about 140 km north-east of Cap Bon?",
+      "a": "Sicily",
+      "x": [
+        "Malta",
+        "Sardinia"
+      ]
+    }
+  },
+  "ne-rg-1730072123": {
+    "t": "Dry savanna of baobabs, thorn scrub and cattle",
+    "s": "The Maasai Steppe spreads south of Arusha as a vast, dry plateau of grass, thorn scrub and scattered baobabs, cut by seasonal riverbeds. For most of the year it is tawny and dusty; after the rains, roughly November to May, it turns green almost overnight. Maasai herders still graze their cattle here, and on its north-western edge lies Tarangire National Park.",
+    "w": "A vast tawny plain dotted with scrub and baobabs and crossed by dry riverbeds; green after the rains.",
+    "f": [
+      "Tarangire, on its edge, is famous for its baobabs and for big herds of elephants in the dry season.",
+      "Kilimanjaro rises about 300 km to the north-east.",
+      "The steppe is named after the Maasai, pastoral people known for their red cloth and their cattle."
+    ],
+    "q": {
+      "q": "Which massive-trunked tree is a landmark of the Maasai Steppe?",
+      "a": "Baobab",
+      "x": [
+        "Cedar",
+        "Eucalyptus"
+      ]
+    }
+  },
+  "Q4778813": {
+    "t": "Dunes where a Saharan lake once shone",
+    "s": "The Aoukâr is a great basin of sand in south-eastern Mauritania, its dunes lined up in long, parallel ridges of orange and ochre. Several thousand years ago a large, reedy lake lay here. On the sandstone cliffs that ring the basin, people of the Tichitt culture built hundreds of stone villages looking out over the water, which has long since vanished.",
+    "w": "Long parallel orange dune ridges filling a wide basin, walled to the north by dark sandstone cliffs.",
+    "f": [
+      "Remains of about 400 stone villages have been found beneath the cliffs of Dhar Tichitt and Dhar Oualata.",
+      "The old caravan towns of Tichitt and Oualata are UNESCO World Heritage sites.",
+      "The dunes formed after the lakes dried up, between about 7,000 and 5,000 years ago."
+    ],
+    "q": {
+      "q": "What filled the Aoukâr basin thousands of years ago?",
+      "a": "A large lake",
+      "x": [
+        "A glacier",
+        "An arm of the sea"
+      ]
+    }
+  },
+  "Q17515152": {
+    "t": "Greenland's highest peaks above east-coast glaciers",
+    "s": "On flights between Europe and North America you may cross this stretch of east Greenland: a wild coast of fjords choked with icebergs, and behind it rows of black peaks rising out of the ice sheet. Among them stands Gunnbjørn Fjeld, about 3,700 m high, the tallest mountain in Greenland and in the whole Arctic. Inland the ice sheet rolls on, white and endless.",
+    "w": "Black, jagged peaks and glaciers poking through the white ice sheet, with iceberg-filled fjords along the coast.",
+    "f": [
+      "Tasiilaq, the largest town on Greenland's east coast, lies in the south of this land.",
+      "The land is named after Christian IX, king of Denmark from 1863 to 1906.",
+      "Gunnbjørn Fjeld honours Gunnbjörn Ulfsson, a Norseman said to have sighted Greenland around the year 900."
+    ],
+    "q": {
+      "q": "Which is the highest mountain in Greenland?",
+      "a": "Gunnbjørn Fjeld",
+      "x": [
+        "Mont Forel",
+        "Petermann Peak"
+      ]
+    }
+  },
+  "ne-rg-1730072913": {
+    "t": "Flood plains and thorn scrub in Tanzania's dry heart",
+    "s": "In the dry interior of Tanzania, the land flattens into the Wembere, or Iwembere, Steppe: a broad plain of grass and acacia scrub drained by the Wembere River. In the rainy season, from about December to April, water spreads across its floodplain in shining sheets laced with channels. By the dry months it has faded to tawny grass, with dark lines of thorn trees marking the old flood edges.",
+    "w": "A flat tawny plain with dark scrub, crossed by winding channels; shining floodwater in the rainy season.",
+    "f": [
+      "The Wembere floodplain is about 105 km long and up to 20 km wide.",
+      "The river drains north into Lake Kitangiri.",
+      "The steppe is one of the few Tanzanian homes of the Karamoja apalis, a rare small warbler."
+    ],
+    "q": {
+      "q": "What happens to the Wembere floodplain in the rainy season?",
+      "a": "It floods with shallow water",
+      "x": [
+        "It is covered in snow",
+        "It turns into sand dunes"
+      ]
+    }
+  },
+  "ne-rg-1730072927": {
+    "t": "Ancient worn-down mountains and a ring-shaped lake",
+    "s": "North of the St. Lawrence, the Laurentians roll away as a sea of low, rounded, dark-forested hills and countless lakes. They are among the oldest mountains on Earth, worn down over a billion years to their roots. To the north-east, look for the Manicouagan reservoir, a ring of water some 70 km across that fills an ancient impact crater.",
+    "w": "Endless dark forest on rounded hills with countless lakes; to the north-east, a huge ring-shaped lake.",
+    "f": [
+      "The Manicouagan crater was formed by an asteroid impact about 214 million years ago.",
+      "The Laurentians belong to the Canadian Shield and were raised more than a billion years ago.",
+      "Their rivers feed large hydroelectric dams that supply much of Quebec's electricity."
+    ],
+    "q": {
+      "q": "What fills the ring-shaped Manicouagan crater today?",
+      "a": "A reservoir lake",
+      "x": [
+        "A glacier",
+        "A salt flat"
+      ]
+    }
+  },
+  "ne-rg-1730073003": {
+    "t": "Taiga, bogs and the long loops of the Vychegda",
+    "s": "Here, in the Komi Republic, the land lies low and flat, and the Vychegda River wanders across it in long, lazy loops, leaving oxbow lakes and sandy beaches behind. Around it spreads dark taiga of spruce and pine, broken by pale bogs and clearings. In winter the whole lowland turns white, and the frozen river shows as a smooth ribbon.",
+    "w": "Dark taiga crossed by a looping river with oxbow lakes and sandbanks; pale bogs scattered through the forest.",
+    "f": [
+      "The Vychegda flows into the Northern Dvina at Kotlas, and on to the White Sea.",
+      "Syktyvkar, capital of the Komi Republic, stands where the Sysola meets the Vychegda.",
+      "Forests cover most of the Komi Republic."
+    ],
+    "q": {
+      "q": "Which river does the Vychegda flow into?",
+      "a": "The Northern Dvina",
+      "x": [
+        "The Pechora",
+        "The Volga"
+      ]
+    }
+  },
+  "ne-rg-1730073065": {
+    "t": "Green land held between two great rivers",
+    "s": "Entre Ríos means 'between rivers', and from above the name explains itself: a long wedge of green land held between the broad Paraná to the west and the Uruguay to the east. In the north it dissolves into the Iberá wetlands, a vast mosaic of lagoons, floating islands and marsh. Further south, gentle hills carry cattle ranches, rice fields and citrus groves.",
+    "w": "Green lowland between two wide rivers, with the shining lagoons and marshes of the Iberá wetlands in the north.",
+    "f": [
+      "The Iberá wetlands are among the largest in South America, home to capybaras, caimans and marsh deer.",
+      "Jaguars, long gone from Iberá, have been reintroduced there since 2021.",
+      "Argentines call this region 'the Mesopotamia', for the same reason as the land between the Tigris and Euphrates."
+    ],
+    "q": {
+      "q": "What does 'Entre Ríos' mean?",
+      "a": "Between rivers",
+      "x": [
+        "Two waters",
+        "Green land"
+      ]
+    }
+  },
+  "Q10264912": {
+    "t": "An island the size of Switzerland at the river's mouth",
+    "s": "Where the Amazon meets the Atlantic, the land dissolves into a maze of islands and muddy channels, and the sea turns brown far out from the coast. The largest island, Marajó, is roughly the size of Switzerland, half flooded savanna and half forest. On its southern side, the city of Belém stands on the Pará River, where the Tocantins also reaches the sea.",
+    "w": "A maze of forested islands and brown channels opening into a brown-stained sea, with one huge island at the centre.",
+    "f": [
+      "Water buffalo are so common on Marajó that police in some towns patrol on them.",
+      "At some river mouths here a tidal bore, the pororoca, surges upstream as a wave several metres high.",
+      "Including its islands, the mouth of the Amazon is more than 200 km wide."
+    ],
+    "q": {
+      "q": "Which huge island lies in the mouth of the Amazon?",
+      "a": "Marajó",
+      "x": [
+        "Bananal",
+        "Trinidad"
+      ]
+    }
+  },
+  "Q3820265": {
+    "t": "The dry, thorny, empty half of Paraguay",
+    "s": "North of the Pilcomayo River the Chaco turns drier and emptier: this is the Chaco Boreal, a flat expanse of thorn forest, cactus and scrub stretching across western Paraguay into Bolivia. From above it is grey-green felt cut by pale sandy riverbeds and, near the few towns, by huge rectangular clearings for cattle. Summers here are among the hottest in South America.",
+    "w": "Flat grey-green thorn forest with pale, dry riverbeds and, near towns, big rectangular cattle clearings.",
+    "f": [
+      "The Chaco covers more than half of Paraguay, but only a few percent of Paraguayans live there.",
+      "Mennonite settlers founded farming colonies here from the 1920s, around towns such as Filadelfia.",
+      "Defensores del Chaco National Park protects jaguars, pumas and giant armadillos in the far north."
+    ],
+    "q": {
+      "q": "Which river marks the southern edge of the Chaco Boreal?",
+      "a": "The Pilcomayo",
+      "x": [
+        "The Paraná",
+        "The Amazon"
+      ]
+    }
+  },
+  "Q3775198": {
+    "t": "Forest, farmland and a field of fallen iron",
+    "s": "South of the Bermejo River lies the Chaco Austral, the southern Chaco of northern Argentina: a flat land of dry forest, palm savanna and marsh, much of it now cleared into vast fields of cotton and soybeans. From above look for rectangles of farmland cut out of dark forest, and slow rivers winding east towards the Paraná. Not far from here lies Campo del Cielo, a field of fallen iron meteorites.",
+    "w": "Flat country of dark forest remnants and large rectangular fields, crossed by slow, winding rivers.",
+    "f": [
+      "At Campo del Cielo, iron meteorites fell some 4,000 years ago; one, El Chaco, weighs about 30 tonnes.",
+      "The quebracho tree, whose name means 'axe-breaker', was logged here on a huge scale for tannin.",
+      "The Bermejo River, which marks its northern edge, carries so much red silt that its name means 'reddish'."
+    ],
+    "q": {
+      "q": "What fell at Campo del Cielo about 4,000 years ago?",
+      "a": "Iron meteorites",
+      "x": [
+        "Volcanic bombs",
+        "Giant hailstones"
+      ]
+    }
+  },
+  "ne-rg-1730073787": {
+    "t": "The ice-bound north-west, named after a great explorer",
+    "s": "In far north-west Greenland the ice sheet reaches the sea in broad glaciers, and across a narrow strait rise the mountains of Canada's Ellesmere Island. This remote land carries the name of Knud Rasmussen, the Greenland-born explorer who knew the peoples of the Arctic better than almost anyone. In summer the sun never sets here; in winter it does not rise for months.",
+    "w": "White ice sheet ending in wide glaciers at a frozen sea, with the mountains of Ellesmere Island across the strait.",
+    "f": [
+      "Rasmussen set up a trading station at Thule in 1910, which became the base for his famous expeditions.",
+      "On the Fifth Thule Expedition, 1921–24, he crossed Arctic North America by dog sledge to Alaska.",
+      "The Humboldt Glacier, to the south-west, has one of the widest ice fronts in the Northern Hemisphere, about 100 km."
+    ],
+    "q": {
+      "q": "How did Knud Rasmussen cross Arctic North America in 1921–24?",
+      "a": "By dog sledge",
+      "x": [
+        "By airship",
+        "By icebreaker"
+      ]
+    }
   }
 }

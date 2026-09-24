@@ -2398,5 +2398,305 @@
         "Shah Jahan"
       ]
     }
+  },
+  "grand-canal": {
+    "name": "Grand Canal of China",
+    "era": "5th c. BC – today",
+    "t": "The world's longest canal, Beijing to Hangzhou",
+    "s": "For more than a thousand years this canal carried rice from the fertile south to feed the capital in the north. Begun in pieces as early as the 5th century BC and joined into one system in the early 7th, it runs about 1,800 km from Hangzhou to Beijing, crossing the Yangtze and the Yellow River. In the south it is still busy with barges, and in clear weather its line can be traced.",
+    "w": "Between Hangzhou and Yangzhou, look for a waterway threading past Suzhou and Wuxi among lakes and fields.",
+    "f": [
+      "It is the longest artificial waterway in the world.",
+      "The pound lock, with gates at both ends, was invented in China in the 10th century for canals like this.",
+      "The Grand Canal became a UNESCO World Heritage site in 2014."
+    ],
+    "q": {
+      "q": "Which two cities does the Grand Canal link?",
+      "a": "Beijing and Hangzhou",
+      "x": [
+        "Beijing and Shanghai",
+        "Xi'an and Nanjing"
+      ]
+    }
+  },
+  "great-wall": {
+    "name": "Great Wall of China",
+    "era": "7th c. BC – 17th c.",
+    "t": "Two thousand years of walls across mountains and desert",
+    "s": "Chinese states and dynasties built walls along their northern frontier for about 2,000 years, and the stone-and-brick wall most people picture was raised by the Ming after 1368. It runs from the Gobi at Jiayuguan to the sea at Shanhaiguan, riding mountain ridges. It is only a few metres wide, so it cannot be seen from cruise height, but the ridges and deserts it crossed are easy to see.",
+    "w": "North of Beijing, look for steep, wrinkled mountain ridges; far to the west, the gravel desert of the Hexi Corridor.",
+    "f": [
+      "A 2012 survey measured all sections built over the centuries at about 21,000 km.",
+      "The idea that the wall is visible from the Moon is a myth.",
+      "At Old Dragon's Head near Shanhaiguan the wall runs down into the sea."
+    ],
+    "q": {
+      "q": "How long are all sections of the Great Wall combined?",
+      "a": "About 21,000 km",
+      "x": [
+        "About 2,100 km",
+        "About 210,000 km"
+      ]
+    }
+  },
+  "tea-horse-road": {
+    "name": "Tea Horse Road",
+    "era": "7th – 20th c.",
+    "t": "Tea from Yunnan carried over mountains to Tibet",
+    "s": "For more than a thousand years, caravans of mules and porters carried bricks of tea from Yunnan and Sichuan up into Tibet, and brought back horses. The road climbed through some of the deepest gorges on Earth, where the Yangtze, the Mekong and the Salween run side by side, and over passes above 4,000 m. From cruise the land is breathtaking: parallel river canyons and snowy peaks.",
+    "w": "Look for three deep river gorges running side by side from north to south, between ranges of snowy peaks.",
+    "f": [
+      "Tibetans drank tea churned with butter and salt, so demand was constant.",
+      "Old market towns such as Lijiang and Shaxi grew up as caravan stops.",
+      "Mule caravans still used parts of the route in the mid-20th century."
+    ],
+    "q": {
+      "q": "What did Tibet trade for Chinese tea?",
+      "a": "Horses",
+      "x": [
+        "Silk",
+        "Porcelain"
+      ]
+    }
+  },
+  "tokaido": {
+    "name": "Tōkaidō road",
+    "era": "17th – 19th c.",
+    "t": "The old coastal highway from Edo to Kyoto",
+    "s": "In the Edo period the Tōkaidō was Japan's busiest road, running about 500 km along the Pacific coast from Edo, today's Tokyo, to the imperial city of Kyoto. Lords, merchants and pilgrims walked it in about two weeks, stopping at 53 post towns. The artist Hiroshige made it famous in a series of prints. Today the bullet train follows almost the same line, with Mount Fuji watching over it.",
+    "w": "Follow the Pacific coast west from Tokyo; Mount Fuji rises just inland, and the route passes the Hakone hills.",
+    "f": [
+      "Hiroshige's print series 'The Fifty-three Stations of the Tōkaidō' appeared in the 1830s.",
+      "A barrier at Hakone checked travellers' papers on the road.",
+      "Parts of the old stone-paved road still survive near Hakone."
+    ],
+    "q": {
+      "q": "How many post stations were on the Tōkaidō?",
+      "a": "53",
+      "x": [
+        "69",
+        "88"
+      ]
+    }
+  },
+  "kyoto": {
+    "name": "Kyoto, the old imperial capital",
+    "era": "794 – 1868",
+    "t": "A thousand years as Japan's capital",
+    "s": "From 794 to 1868 Kyoto was the seat of Japan's emperors. Laid out on a grid modelled on the Chinese capital Chang'an, it became the heart of Japanese court culture: temples, gardens, tea ceremony and the tale of Genji. It still holds well over a thousand Buddhist temples and hundreds of Shinto shrines. From above, look for the city filling a flat basin ringed by wooded mountains, with Lake Biwa to the east.",
+    "w": "Look for a city in a flat basin closed by mountains on three sides, with the large Lake Biwa just to the east.",
+    "f": [
+      "When founded in 794, the city was named Heian-kyō, 'capital of peace'.",
+      "UNESCO's listing for ancient Kyoto covers 17 temples, shrines and a castle.",
+      "Its streets still follow the grid laid out more than 1,200 years ago."
+    ],
+    "q": {
+      "q": "What was Kyoto called when it was founded in 794?",
+      "a": "Heian-kyō",
+      "x": [
+        "Heijō-kyō",
+        "Edo"
+      ]
+    }
+  },
+  "nara": {
+    "name": "Nara",
+    "era": "710 – 784",
+    "t": "Japan's first permanent capital and its Great Buddha",
+    "s": "In 710 Japan's court settled in Nara, its first permanent capital, and for most of the 8th century it was the eastern end of the Silk Road. Buddhism flourished, and Emperor Shōmu cast a giant bronze Buddha and housed it in a vast wooden hall at Tōdai-ji. Tame deer still wander its parks. From above, look for a smaller city in a green basin south of Kyoto.",
+    "w": "Look for a city in a green basin about 40 km south of Kyoto, backed by wooded hills to the east.",
+    "f": [
+      "The Great Buddha of Tōdai-ji, cast in 752, is about 15 m tall.",
+      "Its hall is one of the largest wooden buildings in the world.",
+      "Nearby Hōryū-ji contains some of the oldest wooden buildings in the world."
+    ],
+    "q": {
+      "q": "Which animals roam freely in Nara's parks?",
+      "a": "Deer",
+      "x": [
+        "Monkeys",
+        "Cranes"
+      ]
+    }
+  },
+  "gyeongju": {
+    "name": "Gyeongju",
+    "era": "57 BC – AD 935",
+    "t": "The thousand-year capital of Silla",
+    "s": "For almost a thousand years Gyeongju was the capital of the Korean kingdom of Silla, which united most of the peninsula in the 7th century. Its royal tombs are grassy hills right in the city, and nearby stand the temple of Bulguksa and the stone Buddha of Seokguram. Koreans call it a museum without walls. From above, look for a city in a green basin near the east coast.",
+    "w": "Look for a city in a green basin among hills near Korea's south-east coast, north of Ulsan.",
+    "f": [
+      "Cheomseongdae, a 7th-century stone tower, is one of the oldest surviving observatories in East Asia.",
+      "Gold crowns found in its tombs are among Korea's national treasures.",
+      "Bulguksa and Seokguram became UNESCO World Heritage sites in 1995."
+    ],
+    "q": {
+      "q": "Which kingdom had its capital at Gyeongju?",
+      "a": "Silla",
+      "x": [
+        "Goguryeo",
+        "Joseon"
+      ]
+    }
+  },
+  "xian-changan": {
+    "name": "Chang'an and the Terracotta Army",
+    "era": "3rd c. BC – 10th c.",
+    "t": "The start of the Silk Road and an army of clay",
+    "s": "Today's Xi'an was Chang'an, capital of the Qin, Han and Tang dynasties and the eastern starting point of the Silk Road. Under the Tang it may have been the largest city in the world. Just east lies the tomb of China's first emperor, guarded by thousands of life-size clay soldiers. From above, look for the city's grid on the Wei river plain, with the Qinling mountains rising to the south.",
+    "w": "Look for a large grid-planned city on the flat Wei river plain, with the Qinling range rising steeply to the south.",
+    "f": [
+      "The Terracotta Army was found in 1974 by farmers digging a well.",
+      "Archaeologists estimate there are around 8,000 figures, their faces individually finished.",
+      "Xi'an's Ming city wall, about 14 km around, still stands complete."
+    ],
+    "q": {
+      "q": "Who found the Terracotta Army in 1974?",
+      "a": "Farmers digging a well",
+      "x": [
+        "Archaeologists on a survey",
+        "Railway builders"
+      ]
+    }
+  },
+  "forbidden-city": {
+    "name": "Forbidden City, Beijing",
+    "era": "1420 – 1912",
+    "t": "The palace of 24 emperors",
+    "s": "At the heart of Beijing lies the Forbidden City, the palace of the Ming and Qing emperors from 1420 to 1912. Walled and moated, it holds some 980 buildings under yellow-tiled roofs, and ordinary people could not enter without permission. It sits exactly on the axis that runs through the old city. In clear air its rectangle can be picked out in the middle of Beijing's grid.",
+    "w": "In clear weather, look for a large rectangle at the exact centre of Beijing, with a park and hill on its north side.",
+    "f": [
+      "Twenty-four emperors lived here over almost 500 years.",
+      "It is the largest surviving palace complex in the world.",
+      "Its yellow roof tiles were a colour reserved for the emperor."
+    ],
+    "q": {
+      "q": "How many emperors lived in the Forbidden City?",
+      "a": "24",
+      "x": [
+        "12",
+        "60"
+      ]
+    }
+  },
+  "anyang-yinxu": {
+    "name": "Yinxu, the Shang capital",
+    "era": "c. 1300 – 1046 BC",
+    "t": "Where the oldest Chinese writing was found",
+    "s": "Near today's Anyang on the North China Plain lay the last capital of the Shang dynasty. Its kings asked questions of their ancestors by cracking bones and turtle shells with heat, then carved the questions and answers on them. These oracle bones are the oldest mature Chinese writing, and many of their characters can still be recognised today. From above, look for the flat, intensely farmed plain north of the Yellow River.",
+    "w": "Look for the flat, densely farmed North China Plain, with the Taihang mountains rising to the west.",
+    "f": [
+      "Oracle bones were identified in 1899, when a scholar noticed writing on 'dragon bones' sold as medicine.",
+      "The intact tomb of Fu Hao, a Shang queen and military leader, was found here in 1976.",
+      "Yinxu became a UNESCO World Heritage site in 2006."
+    ],
+    "q": {
+      "q": "On what are the oldest Chinese writings from Yinxu?",
+      "a": "Oracle bones",
+      "x": [
+        "Bamboo slips",
+        "Silk scrolls"
+      ]
+    }
+  },
+  "dunhuang-mogao": {
+    "name": "Mogao Caves, Dunhuang",
+    "era": "4th – 14th c.",
+    "t": "A thousand years of Buddhist art in the desert",
+    "s": "Where the Silk Road entered China from the western deserts lies the oasis of Dunhuang. In a cliff nearby, monks and patrons carved hundreds of cave shrines over a thousand years and covered them with murals and statues. A sealed library cave, opened in 1900, held tens of thousands of manuscripts. From above, look for the green oasis pressed against enormous golden sand dunes.",
+    "w": "Look for a small green oasis pressed against a range of huge golden sand dunes, south of the town of Dunhuang.",
+    "f": [
+      "About 490 caves still hold murals and sculptures.",
+      "The library cave held the Diamond Sutra of 868, the oldest dated printed book known.",
+      "The Mogao Caves became a UNESCO World Heritage site in 1987."
+    ],
+    "q": {
+      "q": "Which dated printed book was found at Mogao?",
+      "a": "The Diamond Sutra",
+      "x": [
+        "The Analects",
+        "The Art of War"
+      ]
+    }
+  },
+  "qufu": {
+    "name": "Qufu, home of Confucius",
+    "era": "from 551 BC",
+    "t": "The hometown of Confucius and his descendants",
+    "s": "In this small city on the Shandong plain, Confucius was born in 551 BC. After his death his house became a temple, and over the centuries emperors enlarged it into one of China's grandest complexes. His descendants lived beside it in a family mansion, and are buried in a vast forest cemetery. From above, look for the flat plain south of Mount Tai, the sacred mountain about 70 km to the north.",
+    "w": "Look for the flat Shandong plain, with the sacred Mount Tai rising alone about 70 km to the north.",
+    "f": [
+      "The Kong family tree records more than 80 generations of descendants.",
+      "The Confucius family cemetery has been in use for over 2,000 years.",
+      "Qufu's temple, mansion and cemetery became a UNESCO World Heritage site in 1994."
+    ],
+    "q": {
+      "q": "How many generations does the Kong family tree record?",
+      "a": "More than 80",
+      "x": [
+        "About 20",
+        "About 200"
+      ]
+    }
+  },
+  "turpan-jiaohe": {
+    "name": "Turpan oasis: Jiaohe and the karez",
+    "era": "2nd c. BC – today",
+    "t": "An oasis below sea level, watered from underground",
+    "s": "The Turpan basin is one of the lowest and hottest places in Asia, yet it is green with vineyards. The secret is the karez: tunnels dug to carry snowmelt from the Tian Shan underground, safe from evaporation. On a narrow island between two rivers stand the ruins of Jiaohe, a Silk Road city carved down into the earth. From above, look for the red Flaming Mountains and the oasis beside them.",
+    "w": "Look for a deep desert basin with a long red ridge, the Flaming Mountains, and green oasis fields along it.",
+    "f": [
+      "The lowest point of the basin lies about 150 m below sea level.",
+      "Turpan's karez tunnels together run for thousands of kilometres.",
+      "Much of Jiaohe was built by digging rooms out of the ground rather than building upward."
+    ],
+    "q": {
+      "q": "What is a karez?",
+      "a": "An underground water channel",
+      "x": [
+        "A mud-brick watchtower",
+        "A cave temple"
+      ]
+    }
+  },
+  "loulan": {
+    "name": "Loulan",
+    "era": "2nd c. BC – 4th c. AD",
+    "t": "A lost oasis kingdom at the edge of Lop Nur",
+    "s": "On the shores of Lop Nur, once a lake at the eastern end of the Tarim basin, stood Loulan, a small kingdom on the Silk Road. When the rivers shifted and the lake shrank, the city was left to the desert, and sand buried its houses and records. From above, look for the vast dry bed of Lop Nur, whose pale concentric rings look like a giant ear.",
+    "w": "Look for a huge pale lakebed with concentric rings like an ear, in the desert east of the Taklamakan.",
+    "f": [
+      "The Swedish explorer Sven Hedin found Loulan's ruins in 1900.",
+      "Documents found there are written on wood and paper in several languages.",
+      "The 'Ear of Lop Nur' rings are shorelines left as the lake dried."
+    ],
+    "q": {
+      "q": "Which explorer found the ruins of Loulan in 1900?",
+      "a": "Sven Hedin",
+      "x": [
+        "Nikolai Przhevalsky",
+        "Francis Younghusband"
+      ]
+    }
+  },
+  "karakorum": {
+    "name": "Karakorum",
+    "era": "1235 – 1260 (as capital)",
+    "t": "Capital of the Mongol Empire on the open steppe",
+    "s": "In the green Orkhon valley of central Mongolia stood Karakorum, capital of the Mongol Empire in the mid-13th century. Envoys, merchants and craftsmen came from Europe, Persia and China. A European friar who visited in 1254 described a silver tree in the khan's palace that poured out drinks. Little is left today, but the wide Orkhon valley and its rolling steppe are easy to see.",
+    "w": "Look for the broad green Orkhon river valley on open steppe, with forested Khangai mountains to the west.",
+    "f": [
+      "The silver drinking fountain was made by a goldsmith from Paris, Guillaume Boucher.",
+      "The Erdene Zuu monastery was built in 1585, partly from the city's ruins.",
+      "The Orkhon valley became a UNESCO World Heritage site in 2004."
+    ],
+    "q": {
+      "q": "What fountain stood in Karakorum's palace?",
+      "a": "A silver tree pouring drinks",
+      "x": [
+        "A golden lion",
+        "A jade dragon"
+      ]
+    }
   }
 }

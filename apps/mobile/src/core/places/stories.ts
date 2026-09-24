@@ -292,6 +292,9 @@ export function historyAlong(
         translations
       };
       const named = lang === 'en' ? base : { ...base, translations: { ...translations, [lang]: { name: text.name, summary: '', facts: [] } } };
-      return withText(named, lang, text, { era: text.era });
+      // A road or a trade route is crossed somewhere along a thousand
+      // kilometres; "look for Lake Geneva" is true for one stretch of it only.
+      const told = m.item.kind === 'route' ? { ...text, w: undefined } : text;
+      return withText(named, lang, told, { era: text.era });
     });
 }
