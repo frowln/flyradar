@@ -150,7 +150,7 @@ export const es = {
     routeApprox: 'Ruta aproximada: no se encontró un rodeo plausible del espacio aéreo cerrado para este vuelo, así que lugares y países pueden no coincidir. El GPS junto a la ventanilla corregirá la posición.',
     inAir: 'en el aire',
     places: 'lugares',
-    countries: 'países',
+    countries: { one: 'país', other: 'países' },
     readyOffline: 'Listo para volar sin conexión',
     readyStories: {
       one: 'Listo sin conexión · %{count} historia',

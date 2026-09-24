@@ -150,7 +150,7 @@ export const ja = {
     routeApprox: 'おおよそのルート：この便では閉鎖空域を避ける現実的な経路が見つからなかったため、場所や国が実際と異なる場合があります。窓際でGPSを使うと位置が補正されます。',
     inAir: '飛行中',
     places: '地点',
-    countries: 'カ国',
+    countries: { one: 'カ国', other: 'カ国' },
     readyOffline: 'オフラインで飛ぶ準備ができました',
     readyStories: {
       other: 'オフライン準備完了 · 解説%{count}件',

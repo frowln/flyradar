@@ -31,7 +31,7 @@ const AT = { ru: '2026-09-24T10:30:00Z', en: '2026-09-24T19:00:00Z', default: '2
 
 const SHOTS = [
   { key: 'aloft', scenario: 'aloft' },
-  { key: 'board', scenario: 'board' },
+  { key: 'board', scenario: 'board', focus: '[data-testid="window-advice"]', block: 'center' },
   { key: 'place', scenario: 'place' },
   { key: 'guess', scenario: 'guess', focus: '[data-testid="guess-card"]' },
   { key: 'passport', scenario: 'arrival', wait: 5000 }
@@ -127,11 +127,14 @@ for (const lang of langs) {
     await page.goto(`http://localhost:${port}/?scenario=${shot.scenario}&lang=${lang}&at=${at}`, { waitUntil: 'networkidle' });
     await page.waitForTimeout(shot.wait ?? 3000);
     if (shot.focus) {
-      const found = await page.evaluate((sel) => {
-        const el = document.querySelector(sel);
-        el?.scrollIntoView({ block: 'start' });
-        return !!el;
-      }, shot.focus);
+      const found = await page.evaluate(
+        ([sel, block]) => {
+          const el = document.querySelector(sel);
+          el?.scrollIntoView({ block });
+          return !!el;
+        },
+        [shot.focus, shot.block ?? 'start']
+      );
       if (!found) errors.push(`${shot.focus} not on screen`);
       await page.waitForTimeout(800);
     }

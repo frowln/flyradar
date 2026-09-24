@@ -78,7 +78,7 @@ function Advice({ pkg }: { pkg: OfflinePackage }) {
 
   const seatMatches = seat && (seat.side === advice.best || advice.best === 'either');
   return (
-    <View style={styles.advice}>
+    <View style={styles.advice} testID="window-advice">
       <Row style={styles.spread}>
         <Label tone="dim" accessibilityRole="header">{t('advice.label')}</Label>
         {advice.daylight !== null ? (
@@ -268,7 +268,7 @@ function FeaturedFlight({
             }`
           },
           { value: clock(end), label: t('board.inAir'), spoken: `${t('board.inAir')}: ${spokenDuration(end)}` },
-          { value: String(countries.length), label: t('board.countries') }
+          { value: String(countries.length), label: t('board.countries', { count: countries.length }) }
         ]}
       />
 

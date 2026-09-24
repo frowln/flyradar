@@ -150,7 +150,7 @@ export const fr = {
     routeApprox: 'Itinéraire approximatif : aucun contournement plausible de l’espace aérien fermé n’a été trouvé pour ce vol, lieux et pays peuvent donc différer. Le GPS au hublot corrigera la position.',
     inAir: 'en vol',
     places: 'lieux',
-    countries: 'pays',
+    countries: { one: 'pays', other: 'pays' },
     readyOffline: 'Prêt à voler hors ligne',
     readyStories: {
       one: 'Prêt hors ligne · %{count} histoire',

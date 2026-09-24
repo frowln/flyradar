@@ -150,7 +150,7 @@ export const en = {
     routeApprox: 'Approximate route: no plausible way around closed airspace was found for this flight, so places and countries may differ. GPS at the window will correct the position.',
     inAir: 'in the air',
     places: 'places',
-    countries: 'countries',
+    countries: { one: 'country', other: 'countries' },
     readyOffline: 'Ready to fly offline',
     readyStories: {
       one: 'Ready offline · %{count} story',

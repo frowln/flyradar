@@ -26,3 +26,15 @@ describe('nextGuess', () => {
     expect(nextGuess(pkg, 820, {})!.options.map((o) => o.id)).toEqual(nextGuess(pkg, 850, {})!.options.map((o) => o.id));
   });
 });
+
+describe('wrong options', () => {
+  it('never offers a group the answer belongs to', () => {
+    const named = (id: string, name: string, passAt: number): POI => ({ ...poi(id, passAt, 'lake'), name });
+    const lakes = {
+      pois: [named('erie', 'Lake Erie', 1000), named('great', 'Great Lakes', 4000), named('powell', 'Lake Powell', 7000), named('mead', 'Lake Mead', 9000)]
+    } as OfflinePackage;
+    const g = nextGuess(lakes, 1000 - 3 * 60, {})!;
+    expect(g.poi.id).toBe('erie');
+    expect(g.options.map((o) => o.id)).not.toContain('great');
+  });
+});

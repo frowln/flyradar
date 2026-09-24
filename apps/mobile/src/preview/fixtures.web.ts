@@ -220,13 +220,14 @@ export async function installPreview(): Promise<void> {
     useSession.getState().start(p.flight.id, takeoff);
     const passed = p.pois.filter((x) => (x.passAt ?? 0) < at);
     for (const x of passed.slice(-4)) useSession.getState().open(x.id);
-    const told = p.pois.filter((x) => SAMPLE_TEXT[x.name]?.[lang as Lang] && (x.passAt ?? 0) < at + 20 * 60);
+    // Only a place already in view can be marked as seen.
+    const told = p.pois.filter((x) => SAMPLE_TEXT[x.name]?.[lang as Lang] && (x.overFrom ?? x.passAt ?? 0) <= at);
     // The card shown is the told place nearest to "now", so it reads as live.
     const star =
       told.sort((x, y) => Math.abs((x.passAt ?? 0) - at) - Math.abs((y.passAt ?? 0) - at))[0] ??
       passed.find((x) => x.category === 'range') ??
       passed[passed.length - 1];
-    if (star && scenario !== 'guess') useSession.getState().toggleSpotted(star.id);
+    if (star && scenario !== 'guess' && (star.overFrom ?? star.passAt ?? 0) <= at) useSession.getState().toggleSpotted(star.id);
     win.__previewFlight = p.flight.id;
     win.__previewPlace = star?.id ?? '';
   }

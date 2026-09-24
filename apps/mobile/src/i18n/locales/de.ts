@@ -150,7 +150,7 @@ export const de = {
     routeApprox: 'Ungefähre Route: Für diesen Flug fand sich kein plausibler Weg um gesperrte Lufträume, Orte und Länder können abweichen. GPS am Fenster korrigiert die Position.',
     inAir: 'in der Luft',
     places: 'Orte',
-    countries: 'Länder',
+    countries: { one: 'Land', other: 'Länder' },
     readyOffline: 'Bereit für den Flug ohne Internet',
     readyStories: {
       one: 'Offline bereit · %{count} Geschichte',

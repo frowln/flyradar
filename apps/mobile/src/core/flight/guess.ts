@@ -43,6 +43,17 @@ function appearsAt(p: POI): number | undefined {
   return p.overFrom ?? p.passAt;
 }
 
+/**
+ * A group the answer belongs to would be right too: "Great Lakes" cannot be a
+ * wrong option next to "Lake Erie", nor "Canary Islands" next to "Tenerife
+ * Island". Names are compared in English, word by word, singular to plural.
+ */
+function containsAnswer(option: POI, answer: POI): boolean {
+  const words = (s: string) => s.toLowerCase().split(/[^\p{L}]+/u).filter((w) => w.length > 2);
+  const a = words(answer.name);
+  return words(option.name).some((w) => a.some((x) => w === `${x}s` || w === `${x}es`));
+}
+
 export function nextGuess(pkg: OfflinePackage, elapsedS: number, answered: Record<string, boolean>): Guess | null {
   const candidates = pkg.pois
     .filter((p) => {
@@ -63,7 +74,7 @@ export function nextGuess(pkg: OfflinePackage, elapsedS: number, answered: Recor
   const pool = sameKind.length >= 2 ? sameKind : pkg.pois.filter((p) => p.id !== poi.id);
   // Distractors from far along the route, so the answer cannot be read off the map nearby.
   const distractors = seededOrder(
-    pool.filter((p) => Math.abs((p.passAt ?? 0) - (poi.passAt ?? 0)) > 20 * 60),
+    pool.filter((p) => Math.abs((p.passAt ?? 0) - (poi.passAt ?? 0)) > 20 * 60 && !containsAnswer(p, poi)),
     poi.id
   ).slice(0, 2);
   if (distractors.length < 2) return null;
