@@ -4,6 +4,7 @@ import { savePackage } from './packageStore';
 import { enrichWithWikipedia } from '../places/wiki';
 import { airportByIata, ensureDatasets, getAreas, getCountries, getHistory, getPlaces, loadStories } from '../data/datasets';
 import { takeOff } from '../flight/controller';
+import { downloadRelief } from '../map/offlineMap';
 import { formatClock, localDate } from '../time/zones';
 import { buildRoute } from '../route/profile';
 import { closedCountries, planAround } from '../route/airspace';
@@ -114,8 +115,9 @@ export async function startDemo(locale: string): Promise<OfflinePackage> {
   await savePackage(pkg);
   await takeOff(pkg, now, { multiplier: DEMO_SPEED });
 
-  // Stories arrive in the background if there is a connection; the demo does
-  // not wait for them.
+  // Mountain shading and stories arrive in the background if there is a
+  // connection; the demo does not wait for them.
+  downloadRelief(pkg.route).catch(() => {});
   enrichWithWikipedia(pkg.pois, locale)
     .then((pois) => savePackage({ ...pkg, pois }))
     .catch(() => {});

@@ -235,6 +235,14 @@ export const fr = {
     notFound: 'Vol introuvable à cette date — saisissez-le à la main.',
     numberInvalid: 'Ce n’est pas un numéro de vol.',
   },
+  map: {
+    day: 'relief',
+    night: 'nuit',
+    toDay: 'Afficher la carte en relief, en couleurs',
+    toNight: 'Afficher la carte sombre de nuit',
+    expand: 'plein écran',
+    collapse: 'réduire',
+  },
   guess: {
     label: 'devinez',
     prompt: '%{which} allez-vous voir %{side} dans un instant ?',

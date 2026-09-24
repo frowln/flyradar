@@ -1,4 +1,5 @@
 import { OfflineManager } from '@maplibre/maplibre-react-native';
+import * as FileSystem from 'expo-file-system/legacy';
 import type { RoutePoint } from '@skyatlas/shared';
 
 /**
@@ -10,8 +11,37 @@ import type { RoutePoint } from '@skyatlas/shared';
  * OpenMapTiles schema for free without a key, and MapLibre can pre-download it.
  */
 
-/** Dark vector style. OpenStreetMap data — attribution is shown on the map. */
-export const MAP_STYLE_URL = 'https://tiles.openfreemap.org/styles/dark';
+/**
+ * Day: a coloured atlas — forests, ice, sand, water — over Natural Earth's
+ * shaded relief. Night: the dark chart, which does not light up a sleeping
+ * cabin. Both are OpenFreeMap styles on OpenStreetMap data; attribution is
+ * shown on the map.
+ */
+export const MAP_STYLE_DAY = 'https://tiles.openfreemap.org/styles/liberty';
+export const MAP_STYLE_NIGHT = 'https://tiles.openfreemap.org/styles/dark';
+
+/**
+ * Natural Earth II shaded relief: green lowlands, brown uplands, white ice.
+ * The day style already draws these tiles, but faintly; the map draws them
+ * again, stronger, from the same addresses — so the corridor pack that stores
+ * them for the style serves them offline too.
+ */
+export const RELIEF_TILES = 'https://tiles.openfreemap.org/natural_earth/ne2sr/{z}/{x}/{y}.png';
+
+/**
+ * Elevation for hill shading: AWS Terrain Tiles (Terrarium encoding), free and
+ * keyless. An offline pack only stores what its style names, so these are
+ * downloaded as files for the corridor and drawn from the phone, in the air
+ * and on the ground alike.
+ */
+const DEM_REMOTE = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png';
+const DEM_DIR = `${FileSystem.documentDirectory ?? ''}dem/`;
+export const DEM_TILES = `${DEM_DIR}{z}/{x}/{y}.png`;
+/** Past 7 the shading is overzoomed from 7, which still reads well at cruise. */
+export const DEM_MAX_ZOOM = 7;
+const DEM_MIN_ZOOM = 3;
+/** Degrees either side of the track: past the horizon from 11 km. */
+const DEM_MARGIN_DEG = 1.5;
 
 /**
  * Zoom range packaged for a flight.
@@ -92,12 +122,64 @@ function segments(route: RoutePoint[]): RoutePoint[][] {
   return out.filter((c) => c.length >= 2);
 }
 
+/** Slippy-map tile of a point. */
+function tileOf(lat: number, lon: number, z: number): [number, number] {
+  const n = 2 ** z;
+  const clampedLat = Math.max(-85.05, Math.min(85.05, lat));
+  const r = (clampedLat * Math.PI) / 180;
+  const x = Math.floor(((((lon + 180) % 360) + 360) % 360 / 360) * n);
+  const y = Math.floor(((1 - Math.log(Math.tan(r) + 1 / Math.cos(r)) / Math.PI) / 2) * n);
+  return [Math.min(n - 1, Math.max(0, x)), Math.min(n - 1, Math.max(0, y))];
+}
+
+/** The elevation tiles a corridor needs, as "z/x/y". */
+export function demTilesFor(route: RoutePoint[], margin = DEM_MARGIN_DEG): string[] {
+  const keys = new Set<string>();
+  for (let z = DEM_MIN_ZOOM; z <= DEM_MAX_ZOOM; z++) {
+    for (const p of route) {
+      const [x0, y0] = tileOf(p.lat + margin, p.lon - margin, z);
+      const [x1, y1] = tileOf(p.lat - margin, p.lon + margin, z);
+      const n = 2 ** z;
+      // Across the date line the west edge has a larger x than the east.
+      const xs = x0 <= x1 ? Array.from({ length: x1 - x0 + 1 }, (_, i) => x0 + i) : [...Array.from({ length: n - x0 }, (_, i) => x0 + i), ...Array.from({ length: x1 + 1 }, (_, i) => i)];
+      for (const x of xs) for (let y = y0; y <= y1; y++) keys.add(`${z}/${x}/${y}`);
+    }
+  }
+  return [...keys];
+}
+
+/** Downloads the elevation tiles of a corridor that are not on the phone yet. */
+export async function downloadRelief(route: RoutePoint[], onProgress?: (done: number, total: number) => void): Promise<void> {
+  const keys = demTilesFor(route);
+  let done = 0;
+  const queue = [...keys];
+  const worker = async () => {
+    for (let key = queue.shift(); key; key = queue.shift()) {
+      const dest = `${DEM_DIR}${key}.png`;
+      try {
+        const info = await FileSystem.getInfoAsync(dest);
+        if (!info.exists) {
+          await FileSystem.makeDirectoryAsync(dest.slice(0, dest.lastIndexOf('/')), { intermediates: true }).catch(() => {});
+          const [z, x, y] = key.split('/');
+          const res = await FileSystem.downloadAsync(DEM_REMOTE.replace('{z}', z!).replace('{x}', x!).replace('{y}', y!), dest);
+          if (res.status !== 200) await FileSystem.deleteAsync(dest, { idempotent: true });
+        }
+      } catch {
+        // A missing tile is a flat patch on the map, not a failed flight.
+      }
+      onProgress?.(++done, keys.length);
+    }
+  };
+  await Promise.all(Array.from({ length: 4 }, worker));
+}
+
 /**
  * Downloads the map corridor for a flight.
  *
  * Called while the passenger still has Wi-Fi, alongside the rest of the offline
- * package. Reports combined progress so the caller can show one number rather
- * than twelve.
+ * package: the day and night styles for each segment of the route, and the
+ * elevation that shades its mountains. Reports combined progress so the caller
+ * can show one number rather than twenty-five.
  */
 export async function downloadCorridor(
   flightId: string,
@@ -106,41 +188,47 @@ export async function downloadCorridor(
 ): Promise<void> {
   const chunks = segments(route);
   if (chunks.length === 0) return;
+  const styles = [MAP_STYLE_DAY, MAP_STYLE_NIGHT];
+  const jobs = chunks.flatMap((chunk, segment) => styles.map((mapStyle) => ({ chunk, segment, mapStyle })));
 
-  const done = new Array<number>(chunks.length).fill(0);
-  const totals = new Array<number>(chunks.length).fill(0);
+  const done = new Array<number>(jobs.length + 1).fill(0);
+  const totals = new Array<number>(jobs.length + 1).fill(0);
+  const report = () => {
+    const completed = done.reduce((a, b) => a + b, 0);
+    const total = totals.reduce((a, b) => a + b, 0);
+    onProgress?.({ progress: total > 0 ? completed / total : 0, completedTiles: completed, totalTiles: total });
+  };
 
-  await Promise.all(
-    chunks.map(
-      (chunk, index) =>
+  await Promise.all([
+    ...jobs.map(
+      ({ chunk, segment, mapStyle }, index) =>
         new Promise<void>((resolve, reject) => {
           OfflineManager.createPack(
             {
-              mapStyle: MAP_STYLE_URL,
+              mapStyle,
               bounds: bboxFor(chunk),
               minZoom: MIN_ZOOM,
               maxZoom: MAX_ZOOM,
               // Packs are identified by metadata: the API has no name field, and
               // the generated id is not something we can reconstruct later.
-              metadata: { flightId, segment: index }
+              metadata: { flightId, segment, style: mapStyle === MAP_STYLE_DAY ? 'day' : 'night' }
             },
             (_pack, status) => {
               done[index] = status.completedResourceCount ?? 0;
               totals[index] = status.requiredResourceCount ?? 0;
-              const completed = done.reduce((a, b) => a + b, 0);
-              const total = totals.reduce((a, b) => a + b, 0);
-              onProgress?.({
-                progress: total > 0 ? completed / total : 0,
-                completedTiles: completed,
-                totalTiles: total
-              });
+              report();
               if (status.percentage >= 100) resolve();
             },
             (_pack, error) => reject(new Error(String(error)))
           ).catch(reject);
         })
-    )
-  );
+    ),
+    downloadRelief(route, (d, total) => {
+      done[jobs.length] = d;
+      totals[jobs.length] = total;
+      report();
+    })
+  ]);
 }
 
 const belongsTo = (pack: { metadata?: Record<string, unknown> }, flightId: string) =>

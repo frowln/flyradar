@@ -234,6 +234,14 @@ export const ja = {
     notFound: 'この日付の便が見つかりません。手入力してください。',
     numberInvalid: '便名の形式ではないようです。',
   },
+  map: {
+    day: '地形',
+    night: '夜間',
+    toDay: '色付きの地形図を表示',
+    toNight: '夜間用の暗い地図を表示',
+    expand: '全画面',
+    collapse: '縮小',
+  },
   guess: {
     label: 'クイズ',
     prompt: 'まもなく%{side}に見える%{which}は？',

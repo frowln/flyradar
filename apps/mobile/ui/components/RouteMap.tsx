@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { View, StyleSheet } from 'react-native';
-import { Map, Camera, GeoJSONSource, Layer, Marker } from '@maplibre/maplibre-react-native';
+import { View, StyleSheet, Pressable } from 'react-native';
+import { Map, Camera, GeoJSONSource, Layer, Marker, RasterSource, RasterDEMSource } from '@maplibre/maplibre-react-native';
 import type { RoutePoint, POI } from '@skyatlas/shared';
-import { palette, line } from '../design/tokens';
+import { palette, line, s as space } from '../design/tokens';
 import { decorative } from '../design/layout';
-import { MAP_STYLE_URL } from '../../src/core/map/offlineMap';
+import { Label } from '../design/type';
+import { t } from '../../src/i18n';
+import { MAP_STYLE_DAY, MAP_STYLE_NIGHT, RELIEF_TILES, DEM_TILES, DEM_MAX_ZOOM } from '../../src/core/map/offlineMap';
 
 export interface RouteMapProps {
   route: RoutePoint[];
@@ -18,7 +20,34 @@ export interface RouteMapProps {
   labelFor?: (poi: POI) => string;
   /** Countries crossed; used by the offline sketch fallback. */
   highlight?: string[];
+  /** Dark chart instead of the coloured relief — by default when it is night outside. */
+  night?: boolean;
+  /** Whether the map fills the screen; shows the expand/collapse control when a handler is given. */
+  expanded?: boolean;
+  onToggleExpand?: () => void;
 }
+
+/** Colours of the chart's own marks on each basemap. */
+export const INK = {
+  day: { leg: '#56657A', flown: '#E07A12', dot: '#3A4656', label: '#1C2530', halo: 'rgba(255, 255, 255, 0.9)', opened: '#C25E00' },
+  night: { leg: palette.rule, flown: palette.amber, dot: palette.inkMuted, label: palette.inkMuted, halo: palette.void, opened: palette.amber }
+} as const;
+
+/** Hill shading, strong enough to read the Alps at cruise and quiet at night. */
+export const HILLSHADE = {
+  day: {
+    'hillshade-exaggeration': 0.5,
+    'hillshade-shadow-color': 'rgba(58, 44, 24, 0.55)',
+    'hillshade-highlight-color': 'rgba(255, 255, 255, 0.35)',
+    'hillshade-accent-color': 'rgba(58, 44, 24, 0.25)'
+  },
+  night: {
+    'hillshade-exaggeration': 0.55,
+    'hillshade-shadow-color': 'rgba(0, 0, 0, 0.65)',
+    'hillshade-highlight-color': 'rgba(150, 168, 196, 0.16)',
+    'hillshade-accent-color': 'rgba(0, 0, 0, 0.3)'
+  }
+} as const;
 
 /** Degrees of span visible when the camera follows the aircraft. */
 const CRUISE_ZOOM = 4.2;
@@ -30,10 +59,15 @@ const BASEMAP_FONT = 'Noto Sans Regular';
  * The route as a chart.
  *
  * MapLibre rather than Apple Maps for two reasons the product cannot do without:
- * the style is ours, so the map can be as dark and quiet as the instruments
- * around it; and the tiles can be packaged, so the map still draws at 11 km with
- * the radio off. Apple Maps offers neither — it cannot be restyled and it has no
- * public offline API, which made the app's central promise unbuildable on it.
+ * the style is ours, and the tiles can be packaged, so the map still draws at
+ * 11 km with the radio off. Apple Maps offers neither — it cannot be restyled
+ * and it has no public offline API, which made the app's central promise
+ * unbuildable on it.
+ *
+ * By day it is an atlas: Natural Earth's shaded relief, forests, ice and sand,
+ * with mountains shaded from elevation data the corridor download keeps on the
+ * phone. By night it is the dark chart, which does not light up a sleeping
+ * cabin; the passenger can switch either way.
  *
  * Two lines carry the story: the whole leg dim and dashed so the shape of the
  * journey is visible, and the flown part in amber. Places are marks on the
@@ -68,9 +102,16 @@ export default function RouteMap({
   seen,
   follow = true,
   onSelectPOI,
-  labelFor
+  labelFor,
+  night: nightOutside = false,
+  expanded = false,
+  onToggleExpand
 }: RouteMapProps) {
   const [interacting, setInteracting] = useState(false);
+  // The passenger's choice wins over the clock until they leave the screen.
+  const [override, setOverride] = useState<boolean | null>(null);
+  const night = override ?? nightOutside;
+  const ink = night ? INK.night : INK.day;
   const idle = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(
@@ -136,99 +177,141 @@ export default function RouteMap({
     [pois, seen, labelFor]
   );
 
+  const onPlacePress = (e: { nativeEvent: { features: GeoJSON.Feature[] } }) => {
+    const id = e.nativeEvent.features[0]?.properties?.['id'];
+    const poi = pois.find((p) => p.id === id);
+    if (poi) onSelectPOI?.(poi);
+  };
+
   return (
-    <View {...decorative} style={styles.fill}>
-      <Map
-        style={styles.fill}
-        mapStyle={MAP_STYLE_URL}
-        logo={false}
-        compass={false}
-        attribution
-        onPress={onTouch}
-        onRegionIsChanging={onTouch}
-      >
-        <Camera
-          {...(follow && !interacting
-            ? { center: [position.lon, position.lat] as [number, number], zoom: CRUISE_ZOOM, duration: 600 }
-            : {})}
-          initialViewState={{ center: [position.lon, position.lat], zoom: CRUISE_ZOOM }}
-        />
-
-        <GeoJSONSource id="leg" data={leg}>
-          <Layer
-            id="leg-line"
-            type="line"
-            layout={{ 'line-cap': 'round', 'line-join': 'round' }}
-            paint={{
-              'line-color': palette.rule,
-              'line-width': 1.5,
-              'line-dasharray': [3, 4]
-            }}
+    <View style={styles.fill}>
+      <View {...decorative} style={styles.fill}>
+        <Map
+          style={styles.fill}
+          mapStyle={night ? MAP_STYLE_NIGHT : MAP_STYLE_DAY}
+          logo={false}
+          compass={false}
+          attribution
+          onPress={onTouch}
+          onRegionIsChanging={onTouch}
+        >
+          <Camera
+            {...(follow && !interacting
+              ? { center: [position.lon, position.lat] as [number, number], zoom: expanded ? CRUISE_ZOOM + 0.8 : CRUISE_ZOOM, duration: 600 }
+              : {})}
+            initialViewState={{ center: [position.lon, position.lat], zoom: CRUISE_ZOOM }}
           />
-        </GeoJSONSource>
 
-        <GeoJSONSource id="flown" data={flown}>
-          <Layer
-            id="flown-line"
-            type="line"
-            layout={{ 'line-cap': 'round', 'line-join': 'round' }}
-            paint={{ 'line-color': palette.amber, 'line-width': 2.2 }}
-          />
-        </GeoJSONSource>
+          {night ? null : (
+            <RasterSource id="relief" tiles={[RELIEF_TILES]} tileSize={256} maxzoom={6}>
+              <Layer
+                id="relief"
+                type="raster"
+                beforeId="park"
+                paint={{ 'raster-opacity': ['interpolate', ['linear'], ['zoom'], 2, 0.9, 5, 0.75, 7, 0.3], 'raster-fade-duration': 0 }}
+              />
+            </RasterSource>
+          )}
 
-        <GeoJSONSource id="places" data={places}>
-          <Layer
-            id="place-dot"
-            type="circle"
-            paint={{
-              'circle-radius': 5,
-              'circle-color': [
-                'case',
-                ['==', ['get', 'opened'], 1],
-                palette.amber,
-                'rgba(0, 0, 0, 0)'
-              ],
-              'circle-stroke-width': 1.5,
-              'circle-stroke-color': [
-                'case',
-                ['==', ['get', 'opened'], 1],
-                palette.amber,
-                palette.inkMuted
-              ]
-            }}
-          />
-          <Layer
-            id="place-label"
-            type="symbol"
-            layout={{
-              'text-font': [BASEMAP_FONT],
-              'text-field': ['get', 'name'],
-              'text-size': 10,
-              'text-offset': [0, 1.1],
-              'text-anchor': 'top',
-              'text-allow-overlap': true,
-              'text-ignore-placement': true
-            }}
-            paint={{
-              'text-color': ['case', ['==', ['get', 'opened'], 1], palette.amber, palette.inkMuted],
-              'text-halo-color': palette.void,
-              'text-halo-width': 1.2
-            }}
-          />
-        </GeoJSONSource>
+          <RasterDEMSource id="dem" tiles={[DEM_TILES]} tileSize={256} maxzoom={DEM_MAX_ZOOM} encoding="terrarium">
+            <Layer id="hillshade" type="hillshade" beforeId="water" paint={night ? HILLSHADE.night : HILLSHADE.day} />
+          </RasterDEMSource>
 
-        <Marker lngLat={[position.lon, position.lat]} anchor="center">
-          <View style={styles.planeHalo}>
-            <View style={styles.plane} />
-          </View>
-        </Marker>
-      </Map>
+          <GeoJSONSource id="leg" data={leg}>
+            <Layer
+              id="leg-line"
+              type="line"
+              layout={{ 'line-cap': 'round', 'line-join': 'round' }}
+              paint={{ 'line-color': ink.leg, 'line-width': 1.5, 'line-dasharray': [3, 4] }}
+            />
+          </GeoJSONSource>
+
+          <GeoJSONSource id="flown" data={flown}>
+            <Layer
+              id="flown-line"
+              type="line"
+              layout={{ 'line-cap': 'round', 'line-join': 'round' }}
+              paint={{ 'line-color': ink.flown, 'line-width': 2.6 }}
+            />
+          </GeoJSONSource>
+
+          <GeoJSONSource id="places" data={places} onPress={onPlacePress}>
+            <Layer
+              id="place-dot"
+              type="circle"
+              paint={{
+                'circle-radius': 5,
+                'circle-color': ['case', ['==', ['get', 'opened'], 1], ink.opened, 'rgba(0, 0, 0, 0)'],
+                'circle-stroke-width': 1.5,
+                'circle-stroke-color': ['case', ['==', ['get', 'opened'], 1], ink.opened, ink.dot]
+              }}
+            />
+            <Layer
+              id="place-label"
+              type="symbol"
+              layout={{
+                'text-font': [BASEMAP_FONT],
+                'text-field': ['get', 'name'],
+                'text-size': 11,
+                'text-offset': [0, 1.1],
+                'text-anchor': 'top',
+                'text-allow-overlap': true,
+                'text-ignore-placement': true
+              }}
+              paint={{
+                'text-color': ['case', ['==', ['get', 'opened'], 1], ink.opened, ink.label],
+                'text-halo-color': ink.halo,
+                'text-halo-width': 1.4
+              }}
+            />
+          </GeoJSONSource>
+
+          <Marker lngLat={[position.lon, position.lat]} anchor="center">
+            <View style={styles.planeHalo}>
+              <View style={styles.plane} />
+            </View>
+          </Marker>
+        </Map>
+      </View>
+
+      <View style={styles.controls} pointerEvents="box-none">
+        <Pressable
+          onPress={() => setOverride(!night)}
+          accessibilityRole="button"
+          accessibilityLabel={night ? t('map.toDay') : t('map.toNight')}
+          hitSlop={8}
+          style={styles.control}
+        >
+          <Label tone="muted">{night ? t('map.day') : t('map.night')}</Label>
+        </Pressable>
+        {onToggleExpand ? (
+          <Pressable
+            onPress={onToggleExpand}
+            accessibilityRole="button"
+            accessibilityLabel={expanded ? t('map.collapse') : t('map.expand')}
+            hitSlop={8}
+            style={styles.control}
+          >
+            <Label tone="muted">{expanded ? t('map.collapse') : t('map.expand')}</Label>
+          </Pressable>
+        ) : null}
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   fill: { flex: 1, backgroundColor: palette.void },
+  controls: { position: 'absolute', right: space.x3, bottom: space.x3, flexDirection: 'row', gap: space.x2 },
+  control: {
+    minHeight: 32,
+    paddingHorizontal: space.x3,
+    justifyContent: 'center',
+    borderRadius: 16,
+    backgroundColor: 'rgba(11, 14, 17, 0.82)',
+    borderWidth: line.hair,
+    borderColor: palette.rule
+  },
   planeHalo: {
     width: 22,
     height: 22,

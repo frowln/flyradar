@@ -6,6 +6,7 @@ import { setDatasetsForTesting } from '../../src/core/data/datasets';
 vi.mock('../../src/core/offline/packageStore', () => ({ savePackage: async () => {} }));
 vi.mock('../../src/core/places/wiki', () => ({ enrichWithWikipedia: async (p: unknown) => p }));
 vi.mock('../../src/core/flight/controller', () => ({ takeOff: async () => {} }));
+vi.mock('../../src/core/map/offlineMap', () => ({ downloadRelief: async () => {} }));
 const { demoRoute, daylitThroughout, planned } = await import('../../src/core/offline/demo');
 
 const read = (name: string) => JSON.parse(readFileSync(join(__dirname, '../../assets/data', `${name}.skydata`), 'utf8'));

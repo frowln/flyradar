@@ -235,6 +235,14 @@ export const es = {
     notFound: 'No encontramos ese vuelo en esa fecha: introdúcelo a mano.',
     numberInvalid: 'Eso no parece un número de vuelo.',
   },
+  map: {
+    day: 'relieve',
+    night: 'noche',
+    toDay: 'Mostrar el mapa de relieve en color',
+    toNight: 'Mostrar el mapa oscuro de noche',
+    expand: 'pantalla completa',
+    collapse: 'reducir',
+  },
   guess: {
     label: 'adivina',
     prompt: '¿%{which} aparecerá pronto %{side}?',

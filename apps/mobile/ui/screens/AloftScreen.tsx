@@ -179,6 +179,7 @@ export default function AloftScreen() {
   const [missing, setMissing] = useState(false);
   const [now, setNow] = useState(() => Date.now());
   const [retiming, setRetiming] = useState(false);
+  const [mapExpanded, setMapExpanded] = useState(false);
   const landed = useRef(false);
   const reduced = useReducedMotion();
 
@@ -355,7 +356,7 @@ export default function AloftScreen() {
         </Row>
       </View>
 
-      <View style={{ height: Math.round(height * 0.34) }}>
+      <View style={mapExpanded ? styles.flex : { height: Math.round(height * 0.34) }}>
         <RouteMap
           route={route}
           position={{ lat: pos.lat, lon: pos.lon, elapsedS: pos.elapsedS }}
@@ -364,10 +365,13 @@ export default function AloftScreen() {
           highlight={countries}
           onSelectPOI={openPlace}
           labelFor={(p) => placeName(p, locale)}
+          night={!outside.daylight}
+          expanded={mapExpanded}
+          onToggleExpand={() => setMapExpanded((v) => !v)}
         />
       </View>
 
-      <ScrollView style={styles.panel} contentContainerStyle={styles.panelContent}>
+      <ScrollView style={[styles.panel, mapExpanded && styles.hidden]} contentContainerStyle={styles.panelContent}>
         <Space h={s.x4} />
         <RouteRule
           fromCode={flight.origin.iata}
@@ -611,6 +615,7 @@ export default function AloftScreen() {
 
 const styles = StyleSheet.create({
   flex: { flex: 1 },
+  hidden: { display: 'none' },
   spread: { justifyContent: 'space-between' },
   center: { justifyContent: 'center' },
 

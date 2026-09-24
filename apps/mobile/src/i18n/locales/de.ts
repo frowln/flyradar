@@ -235,6 +235,14 @@ export const de = {
     notFound: 'Diesen Flug gibt es an diesem Datum nicht – bitte von Hand eingeben.',
     numberInvalid: 'Das sieht nicht wie eine Flugnummer aus.',
   },
+  map: {
+    day: 'Relief',
+    night: 'Nacht',
+    toDay: 'Farbige Reliefkarte zeigen',
+    toNight: 'Dunkle Nachtkarte zeigen',
+    expand: 'Vollbild',
+    collapse: 'verkleinern',
+  },
   guess: {
     label: 'Ratespiel',
     prompt: '%{which} taucht gleich %{side} auf?',

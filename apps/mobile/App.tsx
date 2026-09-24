@@ -1,6 +1,6 @@
 import 'react-native-gesture-handler';
 import { useEffect, useState } from 'react';
-import { View } from 'react-native';
+import { View, Platform } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
 // Each face is imported from its own file. The packages' index modules require
@@ -48,6 +48,14 @@ const boot = ensureDatasets()
   .catch(() => {})
   .then(() => installPreview());
 
+/**
+ * The Japanese faces are 16 MB. In the app they ship inside the bundle; in a
+ * browser every face is a download on every visit, so the web build fetches
+ * them only for a Japanese interface.
+ */
+const JAPANESE = { NotoSansJP_400Regular, NotoSansJP_500Medium, NotoSansJP_700Bold };
+const needJapanese = Platform.OS !== 'web' || getLocale().startsWith('ja');
+
 function App() {
   const [fontsLoaded, fontError] = useFonts({
     Manrope_600SemiBold,
@@ -58,9 +66,7 @@ function App() {
     Inter_600SemiBold,
     JetBrainsMono_400Regular,
     JetBrainsMono_500Medium,
-    NotoSansJP_400Regular,
-    NotoSansJP_500Medium,
-    NotoSansJP_700Bold
+    ...(needJapanese ? JAPANESE : {})
   });
 
   // Render once fonts are ready OR loading has definitively failed. Gating only

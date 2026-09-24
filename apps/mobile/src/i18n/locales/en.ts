@@ -235,6 +235,14 @@ export const en = {
     notFound: 'Could not find that flight for this date — enter it by hand.',
     numberInvalid: 'That does not look like a flight number.',
   },
+  map: {
+    day: 'relief',
+    night: 'night',
+    toDay: 'Show the coloured relief map',
+    toNight: 'Show the dark night map',
+    expand: 'full screen',
+    collapse: 'collapse',
+  },
   guess: {
     label: 'guess',
     prompt: '%{which} is about to appear on the %{side}?',
