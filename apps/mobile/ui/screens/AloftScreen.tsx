@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { View, ScrollView, StyleSheet, Animated, Easing, Alert, Pressable, useWindowDimensions } from 'react-native';
+import { View, ScrollView, StyleSheet, Animated, Easing, Alert, Pressable, AccessibilityInfo, useWindowDimensions } from 'react-native';
 import * as Speech from 'expo-speech';
 import { useFocusEffect, useNavigation, useRoute, type RouteProp } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { OfflinePackage, POI, Moment } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Label, Title, Body, Data, DataSmall, Small } from '../design/type';
-import { Screen, Cells, PressSurface, Space, Row, Gutter } from '../design/layout';
+import { Screen, Cells, PressSurface, Space, Row, Gutter, textHitSlop } from '../design/layout';
 import { useReducedMotion } from '../motion';
 import RouteMap from '../components/RouteMap';
 import RouteRule from '../components/RouteRule';
@@ -26,7 +26,7 @@ import { km, metres } from '../../src/core/units';
 import { haversine } from '../../src/core/geo/greatCircle';
 import { haptics } from '../../src/core/ux/haptics';
 import { t, getLocale } from '../../src/i18n';
-import { clock, relative, timeAt } from '../format';
+import { clock, duration, relative, timeAt } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
@@ -61,7 +61,7 @@ function SideColumn({
     <View style={[styles.column, side === 'right' && styles.columnRight]}>
       <Row gap={s.x2} style={styles.columnHead}>
         <SideMark side={side} size={16} />
-        <Label tone="dim">{t(`side.${side}`)}</Label>
+        <Label tone="dim" accessibilityRole="header">{t(`side.${side}`)}</Label>
       </Row>
       {items.length === 0 ? (
         <Small tone="muted" style={styles.columnEmpty}>
@@ -71,8 +71,18 @@ function SideColumn({
         items.map((v) => {
           const d = km(v.distanceKm);
           const got = spotted.includes(v.poi.id);
+          // One element, read name first: "Tuapse, city, left, abeam 42 km".
+          const spoken = [
+            placeName(v.poi, locale),
+            t(`category.${v.poi.category}`),
+            t(`side.${side}`),
+            `${t(`where.${v.where}`)} ${d.value} ${t(`unit.${d.unit}`)}`,
+            got ? t('place.seen') : null
+          ]
+            .filter(Boolean)
+            .join(', ');
           return (
-            <PressSurface key={v.poi.id} onPress={() => onOpen(v.poi)} accessibilityLabel={placeName(v.poi, locale)} style={styles.item}>
+            <PressSurface key={v.poi.id} onPress={() => onOpen(v.poi)} accessibilityLabel={spoken} style={styles.item}>
               <Label tone={got ? 'brass' : 'accent'} numberOfLines={1}>
                 {`${t(`where.${v.where}`)} · ${d.value} ${t(`unit.${d.unit}`)}`}
               </Label>
@@ -101,7 +111,7 @@ function GuessCard({ guess, onAnswer }: { guess: Guess; onAnswer: (correct: bool
   return (
     <View style={styles.guess} testID="guess-card">
       <Gutter>
-        <Row style={styles.spread}>
+        <Row style={styles.spread} accessible accessibilityRole="header" accessibilityLabel={`${t('guess.label')}, ${relative(guess.inS)}`}>
           <Label tone="accent">{t('guess.label')}</Label>
           <DataSmall allowFontScaling={false}>{relative(guess.inS)}</DataSmall>
         </Row>
@@ -123,11 +133,16 @@ function GuessCard({ guess, onAnswer }: { guess: Guess; onAnswer: (correct: bool
               setPicked(i);
               if (isAnswer) haptics.success();
               else haptics.error();
+              // The reveal is colour and weight; a screen reader needs it said.
+              AccessibilityInfo.announceForAccessibility(
+                isAnswer ? t('guess.right') : t('guess.wrong', { name: placeName(guess.poi, locale) })
+              );
               // Let the reveal show for a beat before the card leaves.
               setTimeout(() => onAnswer(isAnswer), 2600);
             }}
             accessibilityRole="button"
-            accessibilityLabel={placeName(o, locale)}
+            accessibilityLabel={revealed && isAnswer ? `${placeName(o, locale)}, ${t('a11y.correctAnswer')}` : placeName(o, locale)}
+            accessibilityState={{ selected: picked === i }}
             style={({ pressed }) => [
               styles.guessOption,
               pressed && styles.guessPressed,
@@ -294,7 +309,7 @@ export default function AloftScreen() {
         <Gutter>
           <Body tone="muted">{t('aloft.notActive')}</Body>
           <Space h={s.x4} />
-          <PressSurface onPress={() => nav.navigate('Tabs', { screen: 'Board' })} accessibilityLabel={t('aloft.toBoard')}>
+          <PressSurface onPress={() => nav.navigate('Tabs', { screen: 'Board' })} accessibilityLabel={t('aloft.toBoard')} hitSlop={s.x4}>
             <Label tone="accent">{t('aloft.toBoard')}</Label>
           </PressSurface>
         </Gutter>
@@ -317,7 +332,7 @@ export default function AloftScreen() {
   return (
     <Screen>
       <View style={styles.topRow}>
-        <PressSurface onPress={() => nav.navigate('Tabs', { screen: 'Board' })} accessibilityLabel={t('aloft.toBoard')} style={styles.topBtn}>
+        <PressSurface onPress={() => nav.navigate('Tabs', { screen: 'Board' })} accessibilityLabel={t('aloft.toBoard')} hitSlop={textHitSlop} style={styles.topBtn}>
           <Label tone="muted">{`‹ ${t('tabs.board')}`}</Label>
         </PressSurface>
         <Row gap={s.x2}>
@@ -358,15 +373,28 @@ export default function AloftScreen() {
         <Space h={s.x4} />
         <Cells
           items={[
-            { value: clock(end - pos.elapsedS), label: t('aloft.remaining'), tone: 'accent' },
-            { value: leftKm.value, label: t(`unit.${leftKm.unit}`).toUpperCase() },
-            { value: alt.value, label: `${t('aloft.altitude')} · ${t(`unit.${alt.unit}`)}` }
+            {
+              value: clock(end - pos.elapsedS),
+              label: t('aloft.remaining'),
+              tone: 'accent',
+              spoken: `${t('aloft.remaining')}: ${duration(end - pos.elapsedS)}`
+            },
+            {
+              value: leftKm.value,
+              label: t(`unit.${leftKm.unit}`).toUpperCase(),
+              spoken: `${t('aloft.remaining')}: ${leftKm.value} ${t(`unit.${leftKm.unit}`)}`
+            },
+            {
+              value: alt.value,
+              label: `${t('aloft.altitude')} · ${t(`unit.${alt.unit}`)}`,
+              spoken: `${t('aloft.altitude')}: ${alt.value} ${t(`unit.${alt.unit}`)}`
+            }
           ]}
         />
 
         <Gutter style={styles.nowHead}>
           <Row style={styles.spread}>
-            <Label tone="accent">{t('aloft.outside')}</Label>
+            <Label tone="accent" accessibilityRole="header">{t('aloft.outside')}</Label>
             <DataSmall allowFontScaling={false}>
               {outside.countryNow ? countryName(outside.countryNow, locale) : t('aloft.overWater')}
               {!outside.daylight ? ` · ${t('aloft.night')}` : ''}
@@ -378,12 +406,23 @@ export default function AloftScreen() {
               <Small>{t('aloft.nightHint')}</Small>
             </>
           ) : null}
+          {pkg.routeKind === 'approximate' && pos.source !== 'gps' ? (
+            <>
+              <Space h={s.x1} />
+              <Small tone="accent">{t('board.routeApprox')}</Small>
+            </>
+          ) : null}
         </Gutter>
 
         {outside.below.length > 0 ? (
           <View style={styles.below}>
             {outside.below.map((v) => (
-              <PressSurface key={v.poi.id} onPress={() => openPlace(v.poi)} accessibilityLabel={placeName(v.poi, locale)} style={styles.belowRow}>
+              <PressSurface
+                key={v.poi.id}
+                onPress={() => openPlace(v.poi)}
+                accessibilityLabel={`${placeName(v.poi, locale)}, ${t('side.below')}`}
+                style={styles.belowRow}
+              >
                 <SideMark side="below" size={18} />
                 <View style={styles.flex}>
                   <Label tone="dim">{t('side.below')}</Label>
@@ -415,11 +454,19 @@ export default function AloftScreen() {
         {outside.next.length > 0 ? (
           <View style={styles.next}>
             <Gutter>
-              <Label tone="dim">{t('aloft.next')}</Label>
+              <Label tone="dim" accessibilityRole="header">{t('aloft.next')}</Label>
             </Gutter>
             <Space h={s.x2} />
             {outside.next.map((m) => {
               const poi = m.poiId ? pkg.pois.find((p) => p.id === m.poiId) : undefined;
+              // "Black Sea, left, in 13 min" — not "zero colon thirteen", then an icon, then a name.
+              const spoken = [
+                momentTitle(m, pkg, locale),
+                m.kind === 'sight' && m.side ? t(`side.${m.side}`) : null,
+                relative(m.at - pos.elapsedS)
+              ]
+                .filter(Boolean)
+                .join(', ');
               const row = (
                 <View style={styles.nextRow}>
                   <DataSmall tone="accent" allowFontScaling={false} style={styles.nextAt}>
@@ -432,18 +479,22 @@ export default function AloftScreen() {
                 </View>
               );
               return poi ? (
-                <PressSurface key={m.id} onPress={() => openPlace(poi)} accessibilityLabel={placeName(poi, locale)}>
+                <PressSurface key={m.id} onPress={() => openPlace(poi)} accessibilityLabel={spoken}>
                   {row}
                 </PressSurface>
               ) : (
-                <View key={m.id}>{row}</View>
+                <View key={m.id} accessible accessibilityLabel={spoken}>
+                  {row}
+                </View>
               );
             })}
           </View>
         ) : null}
 
         <Gutter style={styles.stamps}>
-          <Label tone="dim">{t('aloft.countries', { n: passedCountries.length, total: countries.length })}</Label>
+          <Label tone="dim" accessibilityRole="header">
+            {t('aloft.countries', { n: passedCountries.length, total: countries.length })}
+          </Label>
           <Space h={s.x2} />
           <Body>
             {countries.map((cc, i) => (
@@ -457,11 +508,17 @@ export default function AloftScreen() {
         {retiming ? (
           <View style={styles.retime}>
             <Gutter>
-              <Label tone="dim">{t('aloft.takeoffAt')}</Label>
+              <Label tone="dim" accessibilityRole="header">{t('aloft.takeoffAt')}</Label>
               <Space h={s.x2} />
               <Row style={styles.spread}>
                 {[-10, -5].map((d) => (
-                  <PressSurface key={d} onPress={() => retimeTakeoff(pkg, new Date(takeoff.getTime() + d * 60_000))} accessibilityLabel={`${d}`} style={styles.stepBtn}>
+                  <PressSurface
+                    key={d}
+                    onPress={() => retimeTakeoff(pkg, new Date(takeoff.getTime() + d * 60_000))}
+                    accessibilityLabel={t('a11y.earlier', { m: -d })}
+                    hitSlop={{ top: s.x1, bottom: s.x1 }}
+                    style={styles.stepBtn}
+                  >
                     <Data allowFontScaling={false}>{`${d}`}</Data>
                   </PressSurface>
                 ))}
@@ -469,7 +526,13 @@ export default function AloftScreen() {
                   {timeAt(takeoff.toISOString())}
                 </Data>
                 {[5, 10].map((d) => (
-                  <PressSurface key={d} onPress={() => retimeTakeoff(pkg, new Date(takeoff.getTime() + d * 60_000))} accessibilityLabel={`+${d}`} style={styles.stepBtn}>
+                  <PressSurface
+                    key={d}
+                    onPress={() => retimeTakeoff(pkg, new Date(takeoff.getTime() + d * 60_000))}
+                    accessibilityLabel={t('a11y.later', { m: d })}
+                    hitSlop={{ top: s.x1, bottom: s.x1 }}
+                    style={styles.stepBtn}
+                  >
                     <Data allowFontScaling={false}>{`+${d}`}</Data>
                   </PressSurface>
                 ))}
@@ -490,7 +553,10 @@ export default function AloftScreen() {
                 setNarrate(next);
                 if (!next) Speech.stop();
               }}
+              accessibilityRole="switch"
+              accessibilityState={{ checked: narrate }}
               accessibilityLabel={t('aloft.narration')}
+              accessibilityHint={t('aloft.narrationHint')}
               style={styles.linkRow}
             >
               <View style={styles.flex}>
@@ -502,7 +568,11 @@ export default function AloftScreen() {
               </DataSmall>
             </PressSurface>
             {!pkg.demo ? (
-              <PressSurface onPress={() => setRetiming(true)} accessibilityLabel={t('aloft.adjust')} style={styles.linkRow}>
+              <PressSurface
+                onPress={() => setRetiming(true)}
+                accessibilityLabel={`${t('aloft.adjust')}, ${timeAt(takeoff.toISOString())}`}
+                style={styles.linkRow}
+              >
                 <Body>{t('aloft.adjust')}</Body>
                 <View style={styles.flex} />
                 <DataSmall allowFontScaling={false}>{timeAt(takeoff.toISOString())}</DataSmall>

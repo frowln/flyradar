@@ -93,3 +93,44 @@ describe('selectSightings', () => {
     expect(poi.textSource).toBe('generated');
   });
 });
+
+describe('sightingsAlong — what counts as overflown', () => {
+  /**
+   * Rivers ship as a point on the river and a half-length, with no line. They
+   * used to be measured as a disc of 0.6 × that half-length around the point:
+   * a flight 330 km from the Missouri's midpoint was "over the Missouri" for
+   * over an hour, and the Danube for 79 minutes of a Frankfurt–Tokyo flight.
+   */
+  it('never flies over a river it can only locate by one point', () => {
+    const far = place({ id: 'far-river', k: 'river', lat: 5, lon: 23, ext: 900, bb: [17, 0, 25, 10] }); // ~330 km east
+    const near = place({ id: 'near-river', k: 'river', lat: 5, lon: 20.03, ext: 900, bb: [17, 0, 25, 10] });
+    const byId = Object.fromEntries(sightingsAlong(route, [far, near], {}).map((s) => [s.place.id, s]));
+    expect(byId['far-river']).toBeUndefined();
+    expect(byId['near-river']!.side).toBe('below');
+    expect(byId['near-river']!.overFrom).toBeUndefined();
+  });
+
+  it('flies over a landmark with an outline even when its label point is off to one side', () => {
+    // A canyon straddling the track whose label sits ~70 km east of it.
+    const canyon = place({ id: 'canyon', k: 'landmark', lat: 6, lon: 20.63, r: 10, ext: 120, bb: [19.5, 5.5, 21, 6.5] });
+    const outline = { canyon: [[[[19.5, 5.5], [21, 5.5], [21, 6.5], [19.5, 6.5]] as [number, number][]]] };
+    const [s] = sightingsAlong(route, [canyon], outline);
+    expect(s!.side).toBe('below');
+    expect(s!.overFrom).toBeLessThan(s!.overTo!);
+    expect(s!.passAt).toBeGreaterThanOrEqual(s!.overFrom!);
+  });
+
+  /**
+   * Near the pole a 280 km circle spans far more longitude than 1/cos(lat)
+   * capped at 10× allowed; a peak across the pole from the track was never
+   * even considered.
+   */
+  it('finds places across the pole from a transpolar track', () => {
+    const polar = buildRoute({ from: { lat: 80, lon: 0 }, to: { lat: 80, lon: 180 } }).route;
+    const peak = place({ id: 'polar-peak', k: 'volcano', lat: 88, lon: 90, el: 6000 }); // ~225 km off the 0°/180° meridian
+    const [s] = sightingsAlong(polar, [peak], {});
+    expect(s).toBeDefined();
+    expect(s!.distanceKm).toBeGreaterThan(200);
+    expect(s!.distanceKm).toBeLessThan(260);
+  });
+});

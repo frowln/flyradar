@@ -1,6 +1,7 @@
 import { View, StyleSheet } from 'react-native';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Code, Small } from '../design/type';
+import { t } from '../../src/i18n';
 
 interface Props {
   fromCode: string;
@@ -17,15 +18,19 @@ interface Props {
  * The aircraft glyph that usually lives between two airport codes reads as a
  * sticker at this size. A rule with a lit origin cap says the same thing and
  * survives being placed next to real instrument type.
+ *
+ * Read aloud as one sentence — "Moscow to Antalya, 45% flown" — rather than as
+ * two codes and a rule.
  */
 export default function RouteRule({ fromCode, toCode, fromCity, toCity, progress }: Props) {
   const showMarker = typeof progress === 'number' && Number.isFinite(progress);
   const p = showMarker ? Math.min(1, Math.max(0, progress!)) : 0;
+  const route = t('a11y.route', { from: fromCity || fromCode, to: toCity || toCode });
 
   return (
     <View
       accessible
-      accessibilityLabel={`${fromCity ?? fromCode} — ${toCity ?? toCode}`}
+      accessibilityLabel={showMarker ? `${route}, ${t('a11y.flown', { pct: Math.round(p * 100) })}` : route}
       style={styles.block}
     >
       <View style={styles.row}>

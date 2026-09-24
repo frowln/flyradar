@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { View, TextInput, Pressable, StyleSheet, ActivityIndicator } from 'react-native';
 import { palette, s, gutter, line, family } from '../design/tokens';
 import { Label, Body, Small, Data, DataSmall, Title } from '../design/type';
-import { Gutter, Space, PressSurface, Rule } from '../design/layout';
+import { Gutter, Space, PressSurface, Rule, textHitSlop } from '../design/layout';
 import { social, REPORT_REASONS, type Review, type PlaceSocial, type ReportReason } from '../../src/core/api/social';
 import { haptics } from '../../src/core/ux/haptics';
 import { t } from '../../src/i18n';
@@ -59,7 +59,7 @@ export default function PlaceReviews({ poiId }: Props) {
   if (loading) {
     return (
       <View style={styles.loading}>
-        <ActivityIndicator color={palette.amber} />
+        <ActivityIndicator color={palette.amber} accessibilityLabel={t('common.loading')} />
       </View>
     );
   }
@@ -73,23 +73,31 @@ export default function PlaceReviews({ poiId }: Props) {
       {stats ? (
         <>
           <Gutter>
-            <Label tone="dim">{t('reviews.title')}</Label>
+            <Label tone="dim" accessibilityRole="header">{t('reviews.title')}</Label>
           </Gutter>
           <Space h={s.x3} />
           <View style={styles.summary}>
-            <View style={styles.summaryCell}>
+            <View style={styles.summaryCell} accessible accessibilityLabel={`${t('reviews.discoveredBy')}: ${stats.discoveries}`}>
               <Data allowFontScaling={false}>{stats.discoveries}</Data>
               <Space h={s.x1} />
               <Label numberOfLines={1}>{t('reviews.discoveredBy')}</Label>
             </View>
-            <View style={[styles.summaryCell, styles.summaryDivider]}>
+            <View
+              style={[styles.summaryCell, styles.summaryDivider]}
+              accessible
+              accessibilityLabel={`${t('reviews.rating')}: ${stats.rating ? stats.rating.toFixed(1) : '—'}`}
+            >
               <Data tone={stats.rating ? 'accent' : 'muted'} allowFontScaling={false}>
                 {stats.rating ? stats.rating.toFixed(1) : '—'}
               </Data>
               <Space h={s.x1} />
               <Label numberOfLines={1}>{t('reviews.rating')}</Label>
             </View>
-            <View style={styles.summaryCell}>
+            <View
+              style={styles.summaryCell}
+              accessible
+              accessibilityLabel={`${t('reviews.rarity')}: ${stats.rarity > 0 ? `${(stats.rarity * 100).toFixed(1)}%` : '—'}`}
+            >
               <Data allowFontScaling={false}>
                 {stats.rarity > 0 ? `${(stats.rarity * 100).toFixed(1)}%` : '—'}
               </Data>
@@ -103,7 +111,7 @@ export default function PlaceReviews({ poiId }: Props) {
       {/* Write */}
       <Space h={s.x6} />
       <Gutter>
-        <Label tone="accent">{t('reviews.yours')}</Label>
+        <Label tone="accent" accessibilityRole="header">{t('reviews.yours')}</Label>
         <Space h={s.x3} />
         <View style={styles.stars}>
           {STARS.map((n) => (
@@ -114,7 +122,10 @@ export default function PlaceReviews({ poiId }: Props) {
                 setMine((m) => ({ ...m, rating: n }));
               }}
               accessibilityRole="button"
-              accessibilityLabel={`${n}`}
+              accessibilityLabel={t('a11y.stars', { count: n })}
+              accessibilityState={{ selected: n === mine.rating }}
+              // 40pt squares, 8pt apart: two points each way reach 44 without overlapping.
+              hitSlop={2}
               style={({ pressed }) => [
                 styles.star,
                 n <= mine.rating && styles.starOn,
@@ -142,6 +153,7 @@ export default function PlaceReviews({ poiId }: Props) {
       <PressSurface
         onPress={submit}
         accessibilityLabel={t('reviews.publish')}
+        accessibilityState={{ disabled: mine.rating < 1, busy: sending }}
         style={styles.submit}
       >
         {sending ? (
@@ -162,7 +174,7 @@ export default function PlaceReviews({ poiId }: Props) {
                   <Title numberOfLines={1} style={styles.author}>
                     {r.author.handle ?? t('reviews.anonymous')}
                   </Title>
-                  <DataSmall tone="accent" allowFontScaling={false}>
+                  <DataSmall tone="accent" allowFontScaling={false} accessibilityLabel={t('a11y.stars', { count: r.rating })}>
                     {'★'.repeat(r.rating)}
                   </DataSmall>
                 </View>
@@ -176,7 +188,8 @@ export default function PlaceReviews({ poiId }: Props) {
                 <View style={styles.reviewActions}>
                   <PressSurface
                     onPress={() => social.voteReview(r.id)}
-                    accessibilityLabel={t('reviews.helpful')}
+                    accessibilityLabel={r.helpful > 0 ? `${t('reviews.helpful')}, ${r.helpful}` : t('reviews.helpful')}
+                    hitSlop={textHitSlop}
                     style={styles.action}
                   >
                     <Label tone="dim">
@@ -187,6 +200,8 @@ export default function PlaceReviews({ poiId }: Props) {
                   <PressSurface
                     onPress={() => setReporting(reporting === r.id ? null : r.id)}
                     accessibilityLabel={t('reviews.report')}
+                    accessibilityState={{ expanded: reporting === r.id }}
+                    hitSlop={textHitSlop}
                     style={styles.action}
                   >
                     <Label tone="dim">{t('reviews.report')}</Label>
@@ -204,6 +219,7 @@ export default function PlaceReviews({ poiId }: Props) {
                           key={reason}
                           onPress={() => report(r.id, reason)}
                           accessibilityLabel={t(`reviews.reason_${reason}`)}
+                          hitSlop={{ top: s.x1, bottom: s.x1 }}
                           style={styles.reason}
                         >
                           <Small>{t(`reviews.reason_${reason}`)}</Small>

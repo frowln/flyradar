@@ -46,7 +46,7 @@ export default function BoardingPassScanner({
     return (
       <Screen style={styles.center}>
         <View style={styles.pad}>
-          <Label tone="accent">{t('scan.title')}</Label>
+          <Label tone="accent" accessibilityRole="header">{t('scan.title')}</Label>
           <Space h={s.x3} />
           <Body tone="muted">{t('scan.permission')}</Body>
           <Space h={s.x6} />
@@ -71,11 +71,11 @@ export default function BoardingPassScanner({
       <View style={styles.overlay} pointerEvents="none">
         <View style={styles.frame} />
         <Space h={s.x5} />
-        <View style={styles.hint}>
+        <View style={styles.hint} accessibilityLiveRegion="polite">
           <Body>{miss ? t('scan.miss') : t('scan.hint')}</Body>
         </View>
       </View>
-      <PressSurface onPress={onClose} style={styles.close} accessibilityLabel={t('common.cancel')}>
+      <PressSurface onPress={onClose} style={styles.close} accessibilityLabel={t('common.cancel')} hitSlop={s.x2}>
         <Label tone="default">{t('common.cancel')}</Label>
       </PressSurface>
     </View>

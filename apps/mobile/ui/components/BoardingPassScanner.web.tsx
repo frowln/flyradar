@@ -12,7 +12,7 @@ export default function BoardingPassScanner({ onClose }: { onScan: (p: BoardingP
       <View style={{ paddingHorizontal: gutter }}>
         <Body tone="muted">{t('scan.permission')}</Body>
         <Space h={s.x4} />
-        <PressSurface onPress={onClose} accessibilityLabel={t('common.cancel')}>
+        <PressSurface onPress={onClose} accessibilityLabel={t('common.cancel')} hitSlop={s.x4}>
           <Label tone="accent">{t('common.cancel')}</Label>
         </PressSurface>
       </View>

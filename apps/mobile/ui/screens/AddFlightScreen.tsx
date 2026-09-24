@@ -16,8 +16,8 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { SeatInfo } from '@skyatlas/shared';
 import { palette, s, gutter, line, family } from '../design/tokens';
 import { Label, Body, Small, Data, DataSmall, Code, Title } from '../design/type';
-import { Screen, Gutter, Row, Space, ActionBar, PressSurface, Rule } from '../design/layout';
-import { useReveal } from '../motion';
+import { Screen, Gutter, Row, Space, ActionBar, PressSurface, Rule, textHitSlop } from '../design/layout';
+import { useReveal, useReducedMotion } from '../motion';
 import BoardingPassScanner from '../components/BoardingPassScanner';
 import { useToast } from '../components/Toast';
 import { searchAirports, cityName } from '../../src/core/data/airports';
@@ -155,7 +155,7 @@ function Preparing({ progress, onBackground }: { progress: BuildProgress; onBack
   return (
     <View style={styles.preparing}>
       <Gutter>
-        <Label tone="accent">{t('addFlight.preparing')}</Label>
+        <Label tone="accent" accessibilityRole="header">{t('addFlight.preparing')}</Label>
         <Space h={s.x2} />
         <Small>{t('addFlight.preparingHint')}</Small>
       </Gutter>
@@ -163,8 +163,16 @@ function Preparing({ progress, onBackground }: { progress: BuildProgress; onBack
       {STAGES.map((st, i) => {
         const done = progress.stage === 'done' || i < current;
         const now = i === current && progress.stage !== 'done';
+        const pct = now && progress.progress > 0 && progress.progress < 1 ? `${Math.round(progress.progress * 100)}%` : null;
         return (
-          <View key={st} style={styles.stageRow}>
+          <View
+            key={st}
+            style={styles.stageRow}
+            accessible
+            accessibilityLabel={[t(`addFlight.stage_${st}`), done ? t('a11y.stageDone') : now ? pct ?? t('a11y.stageNow') : null]
+              .filter(Boolean)
+              .join(', ')}
+          >
             <View style={[styles.stagePip, done && styles.stageDone, now && styles.stageNow]} />
             <Body tone={done ? 'default' : now ? 'accent' : 'dim'} style={styles.flex}>
               {t(`addFlight.stage_${st}`)}
@@ -192,6 +200,7 @@ export default function AddFlightScreen() {
   const nav = useNavigation<Nav>();
   const toast = useToast();
   const reveal = useReveal();
+  const reduced = useReducedMotion();
   const locale = getLocale();
 
   const [from, setFrom] = useState<DataAirport | null>(null);
@@ -310,8 +319,8 @@ export default function AddFlightScreen() {
           <Animated.View style={reveal}>
             <Gutter>
               <Row style={styles.head}>
-                <Label tone="dim">{t('addFlight.title')}</Label>
-                <PressSurface onPress={close} accessibilityLabel={t('common.cancel')} style={styles.close}>
+                <Label tone="dim" accessibilityRole="header">{t('addFlight.title')}</Label>
+                <PressSurface onPress={close} accessibilityLabel={t('common.cancel')} hitSlop={textHitSlop} style={styles.close}>
                   <Label tone="muted">{t('common.cancel')}</Label>
                 </PressSurface>
               </Row>
@@ -348,7 +357,7 @@ export default function AddFlightScreen() {
             ) : null}
 
             <Gutter style={styles.section}>
-              <Label tone="dim">{t('addFlight.date')}</Label>
+              <Label tone="dim" accessibilityRole="header">{t('addFlight.date')}</Label>
             </Gutter>
             <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.days}>
               {days.map((d) => {
@@ -393,11 +402,17 @@ export default function AddFlightScreen() {
                 maxLength={5}
                 style={[styles.time, time && !depTime && styles.timeBad]}
                 accessibilityLabel={t('addFlight.departureTime')}
+                accessibilityHint={from ? t('addFlight.localTimeAt', { city: cityName(from, locale) }) : t('addFlight.localTime')}
               />
             </Gutter>
             <Rule soft />
 
-            <PressSurface onPress={() => setDetails((v) => !v)} accessibilityLabel={t('addFlight.details')} style={styles.optionRow}>
+            <PressSurface
+              onPress={() => setDetails((v) => !v)}
+              accessibilityLabel={t('addFlight.details')}
+              accessibilityState={{ expanded: details }}
+              style={styles.optionRow}
+            >
               <Body>{t('addFlight.details')}</Body>
               <View style={styles.flex} />
               <Data tone="dim" allowFontScaling={false}>
@@ -436,11 +451,12 @@ export default function AddFlightScreen() {
                     maxLength={5}
                     style={[styles.detailInput, arrival && !arrTime && styles.timeBad]}
                     accessibilityLabel={t('addFlight.arrivalTime')}
+                    accessibilityHint={to ? t('addFlight.localTimeAt', { city: cityName(to, locale) }) : t('addFlight.optional')}
                   />
                 </Gutter>
                 <Gutter style={styles.seatBlock}>
                   <Row style={styles.spread}>
-                    <Label tone="dim">{t('addFlight.seat')}</Label>
+                    <Label tone="dim" accessibilityRole="header">{t('addFlight.seat')}</Label>
                     {seat.label ? <DataSmall allowFontScaling={false}>{seat.label}</DataSmall> : null}
                   </Row>
                   <Space h={s.x3} />
@@ -453,6 +469,10 @@ export default function AddFlightScreen() {
                           onPress={() => setSeat((cur) => ({ ...cur, side: o.side }))}
                           accessibilityRole="button"
                           accessibilityState={{ selected: on }}
+                          accessibilityLabel={t(`addFlight.${o.key}`)}
+                          accessibilityHint={t('addFlight.seatWhy')}
+                          // 37pt tall as drawn; four points each way reach 44.
+                          hitSlop={{ top: s.x1, bottom: s.x1 }}
                           style={[styles.segmentItem, on && styles.segmentOn]}
                         >
                           <Label tone={on ? 'accent' : 'muted'} numberOfLines={1}>
@@ -469,7 +489,12 @@ export default function AddFlightScreen() {
             ) : null}
 
             <Rule soft />
-            <PressSurface onPress={() => setScanning(true)} accessibilityLabel={t('addFlight.scan')} style={styles.optionRow}>
+            <PressSurface
+              onPress={() => setScanning(true)}
+              accessibilityLabel={t('addFlight.scan')}
+              accessibilityHint={t('addFlight.scanHint')}
+              style={styles.optionRow}
+            >
               <View style={styles.flex}>
                 <Body>{t('addFlight.scan')}</Body>
                 <Small>{t('addFlight.scanHint')}</Small>
@@ -511,7 +536,7 @@ export default function AddFlightScreen() {
         )}
       </KeyboardAvoidingView>
 
-      <Modal visible={scanning} animationType="slide" onRequestClose={() => setScanning(false)}>
+      <Modal visible={scanning} animationType={reduced ? 'none' : 'slide'} onRequestClose={() => setScanning(false)}>
         <BoardingPassScanner onScan={onScanned} onClose={() => setScanning(false)} />
       </Modal>
     </Screen>

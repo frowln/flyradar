@@ -5,7 +5,7 @@ import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Label, Body, DataSmall, Small, Title } from '../design/type';
-import { Screen, Gutter, Space, PressSurface, Rule } from '../design/layout';
+import { Screen, Gutter, Space, PressSurface, Rule, textHitSlop } from '../design/layout';
 import AppleSignIn from '../components/AppleSignIn';
 import { settings, type AlertLevel, type Units } from '../../src/core/settings';
 import { isProCached } from '../../src/core/monetization/entitlement';
@@ -37,15 +37,35 @@ const ALERTS: AlertLevel[] = ['few', 'more', 'off'];
  * Settings, as an instrument panel rather than a preferences pane: state is a
  * mono value on the right, cycled by tapping the row. Every row here changes
  * what the app does — there are no switches that nothing reads.
+ *
+ * To a screen reader, an on/off row is a switch ("Refine with GPS, switch, on")
+ * and a row that cycles through more values reads as "Alerts in flight, best 3".
  */
-function SettingRow({ label, value, onPress, hint }: { label: string; value: string; onPress: () => void; hint?: string }) {
+function SettingRow({
+  label,
+  value,
+  onPress,
+  hint,
+  checked
+}: {
+  label: string;
+  value: string;
+  onPress: () => void;
+  hint?: string;
+  /** Set for binary rows: they are announced as a switch with this state. */
+  checked?: boolean;
+}) {
+  const binary = checked !== undefined;
   return (
     <PressSurface
       onPress={() => {
         haptics.selection?.();
         onPress();
       }}
-      accessibilityLabel={`${label}: ${value}`}
+      accessibilityRole={binary ? 'switch' : 'button'}
+      accessibilityState={binary ? { checked } : undefined}
+      accessibilityLabel={binary ? label : `${label}, ${value}`}
+      accessibilityHint={hint}
       style={styles.row}
     >
       <View style={styles.flex}>
@@ -59,9 +79,10 @@ function SettingRow({ label, value, onPress, hint }: { label: string; value: str
   );
 }
 
-function LinkRow({ label, onPress }: { label: string; onPress: () => void }) {
+/** `external` rows open the browser and are announced as links, not buttons. */
+function LinkRow({ label, onPress, external }: { label: string; onPress: () => void; external?: boolean }) {
   return (
-    <PressSurface onPress={onPress} accessibilityLabel={label} style={styles.row}>
+    <PressSurface onPress={onPress} accessibilityLabel={label} accessibilityRole={external ? 'link' : 'button'} style={styles.row}>
       <Body style={styles.flex}>{label}</Body>
       <DataSmall allowFontScaling={false}>›</DataSmall>
     </PressSurface>
@@ -100,18 +121,18 @@ export default function SettingsScreen() {
   return (
     <Screen>
       <View style={styles.top}>
-        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')} style={styles.back}>
+        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')} hitSlop={textHitSlop} style={styles.back}>
           <Label tone="muted">{`‹ ${t('common.back')}`}</Label>
         </PressSurface>
       </View>
       <ScrollView contentContainerStyle={styles.scroll}>
         <Gutter>
           <Space h={s.x4} />
-          <Title>{t('settings.title')}</Title>
+          <Title accessibilityRole="header">{t('settings.title')}</Title>
         </Gutter>
 
         <Gutter style={styles.section}>
-          <Label tone="dim">{t('settings.general')}</Label>
+          <Label tone="dim" accessibilityRole="header">{t('settings.general')}</Label>
         </Gutter>
         <Rule />
         <SettingRow label={t('settings.language')} value={LOCALE_NAMES[locale] ?? locale} onPress={cycleLocale} />
@@ -126,7 +147,7 @@ export default function SettingsScreen() {
         />
 
         <Gutter style={styles.section}>
-          <Label tone="dim">{t('settings.inFlight')}</Label>
+          <Label tone="dim" accessibilityRole="header">{t('settings.inFlight')}</Label>
         </Gutter>
         <Rule />
         <SettingRow
@@ -151,6 +172,7 @@ export default function SettingsScreen() {
           label={t('settings.gps')}
           hint={t('settings.gpsHint')}
           value={gps ? t('settings.on') : t('settings.off')}
+          checked={gps}
           onPress={() => {
             const next = !gps;
             settings.setUseGps(next);
@@ -163,6 +185,7 @@ export default function SettingsScreen() {
           label={t('settings.guessing')}
           hint={t('settings.guessingHint')}
           value={guessing ? t('settings.on') : t('settings.off')}
+          checked={guessing}
           onPress={() => {
             settings.setGuessing(!guessing);
             setGuessing(!guessing);
@@ -172,6 +195,7 @@ export default function SettingsScreen() {
           label={t('settings.narration')}
           hint={t('settings.narrationHint')}
           value={narration ? t('settings.on') : t('settings.off')}
+          checked={narration}
           onPress={() => {
             settings.setNarration(!narration);
             setNarration(!narration);
@@ -181,7 +205,7 @@ export default function SettingsScreen() {
         {MONETIZATION_ENABLED ? (
           <>
             <Gutter style={styles.section}>
-              <Label tone="dim">{t('settings.subscription')}</Label>
+              <Label tone="dim" accessibilityRole="header">{t('settings.subscription')}</Label>
             </Gutter>
             <Rule />
             <SettingRow label="SkyAtlas Pro" value={isProCached() ? t('settings.active') : t('settings.free')} onPress={() => nav.navigate('Paywall')} />
@@ -195,14 +219,14 @@ export default function SettingsScreen() {
         ) : null}
 
         <Gutter style={styles.section}>
-          <Label tone="dim">{t('settings.about')}</Label>
+          <Label tone="dim" accessibilityRole="header">{t('settings.about')}</Label>
         </Gutter>
         <Rule />
-        <LinkRow label={t('settings.privacy')} onPress={() => Linking.openURL(legalUrl('privacy', locale))} />
-        <LinkRow label={t('settings.terms')} onPress={() => Linking.openURL(legalUrl('terms', locale))} />
+        <LinkRow label={t('settings.privacy')} onPress={() => Linking.openURL(legalUrl('privacy', locale))} external />
+        <LinkRow label={t('settings.terms')} onPress={() => Linking.openURL(legalUrl('terms', locale))} external />
         <LinkRow label={t('settings.licenses')} onPress={() => nav.navigate('Licenses')} />
         <Gutter style={styles.credits}>
-          <Label tone="dim">{t('settings.dataSources')}</Label>
+          <Label tone="dim" accessibilityRole="header">{t('settings.dataSources')}</Label>
           <Space h={s.x2} />
           <Small>{t('settings.credits')}</Small>
         </Gutter>

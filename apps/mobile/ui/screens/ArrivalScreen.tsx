@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { View, ScrollView, StyleSheet, Animated, Pressable, Platform, useWindowDimensions } from 'react-native';
+import { View, ScrollView, StyleSheet, Animated, Pressable, Platform, AccessibilityInfo, useWindowDimensions } from 'react-native';
 import { useNavigation, useRoute, type RouteProp } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { OfflinePackage, POI } from '@skyatlas/shared';
@@ -9,7 +9,7 @@ import { Screen, Gutter, Cells, Space, ActionBar, PressSurface, Rule, Row } from
 import { useReveal, useCountUp } from '../motion';
 import Dial from '../components/Dial';
 import RouteRule from '../components/RouteRule';
-import Stamp from '../components/Stamp';
+import Stamp, { stampLabel } from '../components/Stamp';
 import Postcard from '../components/Postcard';
 import { loadPackage } from '../../src/core/offline/packageStore';
 import { land, endSession, type Landing } from '../../src/core/flight/controller';
@@ -28,7 +28,7 @@ import { shareView } from '../../src/core/ux/share';
 import { haptics } from '../../src/core/ux/haptics';
 import { analytics } from '../../src/core/analytics';
 import { t, getLocale } from '../../src/i18n';
-import { clock, weekdayDayMonth } from '../format';
+import { clock, duration, weekdayDayMonth } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'FlightSummary'>;
@@ -53,9 +53,14 @@ function QuizCard({ q }: { q: QuizQuestion }) {
               setPicked(i);
               if (right) haptics.success();
               else haptics.error();
+              // The answer is shown by colour and a tick; say it too.
+              AccessibilityInfo.announceForAccessibility(
+                right ? t('a11y.correct') : t('a11y.wrong', { answer: q.options[q.correctIdx] })
+              );
             }}
             accessibilityRole="button"
-            accessibilityLabel={o}
+            accessibilityLabel={revealed && right ? `${o}, ${t('a11y.correctAnswer')}` : o}
+            accessibilityState={{ selected: picked === i }}
             style={({ pressed }) => [
               styles.option,
               pressed && styles.optionPressed,
@@ -86,8 +91,18 @@ function XpBlock({ landing }: { landing: Landing }) {
   const format = useCallback((n: number) => `+${Math.round(n)}`, []);
   const counted = useCountUp(landing.xp, format);
   const up = after.level > before.level;
+  // Spoken from the final figures: the readout counts up, and a screen reader
+  // landing on it mid-count would read a number that is about to change.
+  const spoken = [
+    `${t('arrival.experience')}: +${landing.xp} XP`,
+    t('arrival.level', { n: after.level }),
+    t(`rank.${rankFor(after.level)}`),
+    up ? t('arrival.levelUp', { n: after.level }) : null
+  ]
+    .filter(Boolean)
+    .join(', ');
   return (
-    <Gutter style={styles.xp}>
+    <Gutter style={styles.xp} accessible accessibilityLabel={spoken}>
       <Row style={styles.spread}>
         <Label tone="dim">{t('arrival.experience')}</Label>
         <Label tone="accent">{t(`rank.${rankFor(after.level)}`)}</Label>
@@ -203,13 +218,21 @@ export default function ArrivalScreen() {
         <Animated.View style={reveal}>
           <Gutter>
             <Row style={styles.head}>
-              <Label tone="accent">{pkg.demo ? t('arrival.demoDone') : t('arrival.landed')}</Label>
+              <Label tone="accent" accessibilityRole="header">
+                {pkg.demo ? t('arrival.demoDone') : t('arrival.landed')}
+              </Label>
               <DataSmall allowFontScaling={false}>{weekdayDayMonth(flight.scheduledDeparture, flight.origin.tz)}</DataSmall>
             </Row>
           </Gutter>
 
           <View style={styles.dial}>
-            <Dial progress={1} reading={clock(reachedS)} caption={`${t('arrival.inTheAir')} · ${flight.destination.iata}`} />
+            <Dial
+              progress={1}
+              reading={clock(reachedS)}
+              caption={`${t('arrival.inTheAir')} · ${flight.destination.iata}`}
+              speakProgress={false}
+              accessibilityLabel={t('a11y.airborneFor', { d: duration(reachedS) })}
+            />
           </View>
           <RouteRule
             fromCode={flight.origin.iata}
@@ -221,7 +244,7 @@ export default function ArrivalScreen() {
           <Space h={s.x6} />
           <Cells
             items={[
-              { value: dist.value, label: t(`unit.${dist.unit}`).toUpperCase() },
+              { value: dist.value, label: t(`unit.${dist.unit}`).toUpperCase(), spoken: `${dist.value} ${t(`unit.${dist.unit}`)}` },
               { value: String(countries.length), label: t('arrival.countries', { count: countries.length }) },
               { value: String(passed), label: t('arrival.passed', { count: passed }) },
               { value: String(spotted.length), label: t('arrival.spotted'), tone: 'accent' }
@@ -231,12 +254,22 @@ export default function ArrivalScreen() {
           {countries.length > 0 ? (
             <>
               <Gutter style={styles.section}>
-                <Label tone="dim">{t('arrival.stamps')}</Label>
+                <Label tone="dim" accessibilityRole="header">{t('arrival.stamps')}</Label>
               </Gutter>
               <Gutter>
                 <View style={styles.stamps}>
                   {countries.map((cc, i) => (
-                    <View key={cc} style={styles.stampCell}>
+                    <View
+                      key={cc}
+                      style={styles.stampCell}
+                      // Stamp and printed name are one thing; read once.
+                      accessible
+                      accessibilityLabel={stampLabel(
+                        countryName(cc, locale),
+                        cc === landedCC ? 'landed' : 'overflown',
+                        fresh.has(cc)
+                      )}
+                    >
                       <Stamp code={cc} name={countryName(cc, locale)} kind={cc === landedCC ? 'landed' : 'overflown'} fresh={fresh.has(cc)} stampDelay={300 + i * 280} />
                       <Space h={s.x1} />
                       <Small numberOfLines={2} style={styles.stampName}>
@@ -257,7 +290,7 @@ export default function ArrivalScreen() {
           {lines.length > 0 ? (
             <View style={styles.lines}>
               {Array.from(new Set(lines)).map((l) => (
-                <View key={l} style={styles.lineRow}>
+                <View key={l} style={styles.lineRow} accessible accessibilityLabel={`${t(`line.${l}`)}, ${t('arrival.crossed')}`}>
                   <View style={styles.linePip} />
                   <Body style={styles.flex}>{t(`line.${l}`)}</Body>
                   <DataSmall tone="brass" allowFontScaling={false}>
@@ -277,7 +310,7 @@ export default function ArrivalScreen() {
           {landing.earned.length > 0 ? (
             <>
               <Gutter style={styles.section}>
-                <Label tone="dim">{t('arrival.newAchievements')}</Label>
+                <Label tone="dim" accessibilityRole="header">{t('arrival.newAchievements')}</Label>
               </Gutter>
               {landing.earned.map((a) => (
                 <View key={a.id} style={styles.achievement}>
@@ -292,7 +325,7 @@ export default function ArrivalScreen() {
           {spotted.length > 0 || cats.length > 0 ? (
             <>
               <Gutter style={styles.section}>
-                <Label tone="dim">{t('arrival.collected')}</Label>
+                <Label tone="dim" accessibilityRole="header">{t('arrival.collected')}</Label>
                 {cats.length > 0 ? (
                   <>
                     <Space h={s.x2} />
@@ -301,7 +334,12 @@ export default function ArrivalScreen() {
                 ) : null}
               </Gutter>
               {spotted.map((p) => (
-                <PressSurface key={p.id} onPress={() => nav.navigate('POIDetail', { poiId: p.id, flightId })} accessibilityLabel={placeName(p, locale)} style={styles.row}>
+                <PressSurface
+                  key={p.id}
+                  onPress={() => nav.navigate('POIDetail', { poiId: p.id, flightId })}
+                  accessibilityLabel={`${placeName(p, locale)}, ${t(`category.${p.category}`)}`}
+                  style={styles.row}
+                >
                   <DataSmall tone="brass" allowFontScaling={false}>
                     ★
                   </DataSmall>
@@ -317,7 +355,7 @@ export default function ArrivalScreen() {
           {quiz.length > 0 ? (
             <>
               <Gutter style={styles.section}>
-                <Label tone="dim">{t('arrival.quiz')}</Label>
+                <Label tone="dim" accessibilityRole="header">{t('arrival.quiz')}</Label>
               </Gutter>
               {quiz.map((q) => (
                 <QuizCard key={q.id} q={q} />
@@ -326,7 +364,7 @@ export default function ArrivalScreen() {
           ) : null}
 
           <Gutter style={styles.section}>
-            <Label tone="dim">{t('arrival.postcard')}</Label>
+            <Label tone="dim" accessibilityRole="header">{t('arrival.postcard')}</Label>
           </Gutter>
           <View style={styles.postcardWrap}>
             <Postcard ref={postcard} pkg={pkg} width={Math.min(width - gutter * 2, 420)} spotted={spotted.length} />

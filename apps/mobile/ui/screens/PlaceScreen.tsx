@@ -9,7 +9,7 @@ import type { OfflinePackage, POI } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Display, Label, Body, BodyLarge, Data, DataSmall, Small } from '../design/type';
 import { Screen, Gutter, Cells, Space, PressSurface, Rule, Row } from '../design/layout';
-import { useReveal } from '../motion';
+import { useReveal, useReducedMotion } from '../motion';
 import PlaceFigure from '../components/PlaceFigure';
 import SideMark from '../components/SideMark';
 import PlaceReviews from '../components/PlaceReviews';
@@ -27,7 +27,7 @@ import { social } from '../../src/core/api/social';
 import { km, metres, formatInt } from '../../src/core/units';
 import { haptics } from '../../src/core/ux/haptics';
 import { t, getLocale } from '../../src/i18n';
-import { clock, relative } from '../format';
+import { clock, duration, relative } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'POIDetail'>;
@@ -59,7 +59,7 @@ function PassLine({ poi, pkg }: { poi: POI; pkg: OfflinePackage }) {
   }
 
   return (
-    <View style={styles.pass}>
+    <View style={styles.pass} accessible accessibilityLabel={when ? `${where}, ${when}` : where}>
       <SideMark side={side} size={28} />
       <View style={styles.flex}>
         <Body>{where}</Body>
@@ -74,6 +74,7 @@ function SeeIt({ poi, pkg }: { poi: POI; pkg: OfflinePackage }) {
   const got = session.spotted.includes(poi.id);
   const active = session.flightId === pkg.flight.id && session.takeoffAt && !session.landedAt;
   const scale = useRef(new Animated.Value(1)).current;
+  const reduced = useReducedMotion();
 
   if (!active) return null;
 
@@ -89,6 +90,7 @@ function SeeIt({ poi, pkg }: { poi: POI; pkg: OfflinePackage }) {
     useSession.getState().toggleSpotted(poi.id);
     if (!got) {
       haptics.success();
+      if (reduced) return;
       Animated.sequence([
         Animated.spring(scale, { toValue: 1.06, useNativeDriver: true, tension: 300, friction: 8 }),
         Animated.spring(scale, { toValue: 1, useNativeDriver: true, tension: 200, friction: 10 })
@@ -102,7 +104,8 @@ function SeeIt({ poi, pkg }: { poi: POI; pkg: OfflinePackage }) {
         onPress={press}
         accessibilityRole="button"
         accessibilityState={{ selected: got, disabled: !open }}
-        accessibilityLabel={t('place.seeIt')}
+        accessibilityLabel={got ? t('place.seen') : t('place.seeIt')}
+        accessibilityHint={got ? t('place.seenHint') : open ? t('place.seeItHint') : t('place.seeItLater')}
         style={({ pressed }) => [styles.seeIt, got && styles.seeItOn, !open && styles.seeItOff, pressed && open && styles.seeItPressed]}
       >
         <Label tone={got ? 'brass' : open ? 'accent' : 'dim'}>{got ? t('place.seen') : t('place.seeIt')}</Label>
@@ -193,12 +196,12 @@ export default function PlaceScreen() {
   const seen = inViewSeconds(poi);
   const closest = km(poi.closestApproachKm ?? 0);
   const cells = [
-    poi.elevation ? (() => { const m = metres(poi.elevation); return { value: m.value, label: `${t('place.elevation')} · ${t(`unit.${m.unit}`)}` }; })() : null,
+    poi.elevation ? (() => { const m = metres(poi.elevation); return { value: m.value, label: `${t('place.elevation')} · ${t(`unit.${m.unit}`)}`, spoken: `${t('place.elevation')}: ${m.value} ${t(`unit.${m.unit}`)}` }; })() : null,
     poi.population ? { value: formatInt(poi.population), label: t('place.population') } : null,
-    poi.extentKm && !poi.population ? (() => { const k = km(poi.extentKm * 2); return { value: k.value, label: `${t('place.extent')} · ${t(`unit.${k.unit}`)}` }; })() : null,
-    poi.side !== 'below' && poi.closestApproachKm != null ? { value: closest.value, label: `${t('place.closest')} · ${t(`unit.${closest.unit}`)}` } : null,
-    seen && seen >= 60 ? { value: clock(seen), label: t('place.inView') } : null
-  ].filter(Boolean) as { value: string; label: string }[];
+    poi.extentKm && !poi.population ? (() => { const k = km(poi.extentKm * 2); return { value: k.value, label: `${t('place.extent')} · ${t(`unit.${k.unit}`)}`, spoken: `${t('place.extent')}: ${k.value} ${t(`unit.${k.unit}`)}` }; })() : null,
+    poi.side !== 'below' && poi.closestApproachKm != null ? { value: closest.value, label: `${t('place.closest')} · ${t(`unit.${closest.unit}`)}`, spoken: `${t('place.closest')}: ${closest.value} ${t(`unit.${closest.unit}`)}` } : null,
+    seen && seen >= 60 ? { value: clock(seen), label: t('place.inView'), spoken: `${t('place.inView')}: ${duration(seen)}` } : null
+  ].filter(Boolean) as { value: string; label: string; spoken?: string }[];
 
   return (
     <Screen edges={[]}>
@@ -230,7 +233,7 @@ export default function PlaceScreen() {
         <Animated.View style={reveal}>
           <Gutter>
             <Space h={s.x5} />
-            <Display>{name}</Display>
+            <Display accessibilityRole="header">{name}</Display>
             {text.tagline ? (
               <>
                 <Space h={s.x2} />
@@ -254,7 +257,7 @@ export default function PlaceScreen() {
             <Gutter>
               <Body tone="muted">{t('place.locked')}</Body>
               <Space h={s.x3} />
-              <PressSurface onPress={() => nav.navigate('Paywall')} accessibilityLabel={t('place.unlock')}>
+              <PressSurface onPress={() => nav.navigate('Paywall')} accessibilityLabel={t('place.unlock')} hitSlop={s.x4}>
                 <Label tone="accent">{t('place.unlock')}</Label>
               </PressSurface>
             </Gutter>
@@ -277,7 +280,7 @@ export default function PlaceScreen() {
           {facts.length > 0 ? (
             <View style={styles.facts}>
               <Gutter>
-                <Label tone="dim">{t('facts.title')}</Label>
+                <Label tone="dim" accessibilityRole="header">{t('facts.title')}</Label>
               </Gutter>
               <Space h={s.x2} />
               {facts.map((f) => (
@@ -293,7 +296,7 @@ export default function PlaceScreen() {
 
           <Space h={s.x8} />
           <Rule />
-          <PressSurface onPress={speak} accessibilityLabel={t('place.listen')} style={styles.row}>
+          <PressSurface onPress={speak} accessibilityLabel={speaking ? t('place.stop') : t('place.listen')} style={styles.row}>
             <Body>{speaking ? t('place.stop') : t('place.listen')}</Body>
             <View style={styles.flex} />
             <Data tone="dim" allowFontScaling={false}>
@@ -303,7 +306,12 @@ export default function PlaceScreen() {
           <Rule />
 
           {poi.textSource === 'wikipedia' && poi.sourceUrl ? (
-            <PressSurface onPress={() => Linking.openURL(poi.sourceUrl!)} accessibilityLabel={t('place.source')} style={styles.row}>
+            <PressSurface
+              onPress={() => Linking.openURL(poi.sourceUrl!)}
+              accessibilityRole="link"
+              accessibilityLabel={`${t('place.source')}: ${t('place.sourceWikipedia')}`}
+              style={styles.row}
+            >
               <View style={styles.flex}>
                 <Small>{t('place.sourceWikipedia')}</Small>
               </View>
@@ -324,6 +332,7 @@ export default function PlaceScreen() {
           <PressSurface
             onPress={() => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs', { screen: 'Board' }))}
             accessibilityLabel={t('common.back')}
+            hitSlop={s.x2}
             style={styles.backBtn}
           >
             <Label tone="muted">{`‹ ${t('common.back')}`}</Label>

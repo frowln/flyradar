@@ -12,7 +12,13 @@ interface Props {
   reading: string;
   caption?: string;
   size?: number;
+  /** What a screen reader says instead of the glyphs — "1 h 34 min to go", not "one thirty-four". */
   accessibilityLabel?: string;
+  /**
+   * Announce the arc as a percentage. Off for the run-up to departure, where
+   * the fill is a mood across a 24-hour window rather than a measurement.
+   */
+  speakProgress?: boolean;
 }
 
 const ARC_WIDTH = 2;
@@ -34,7 +40,7 @@ const AnimatedPath = Animated.createAnimatedComponent(Path);
  * The arc sweeps 180°→360° — left to right over the top — because that is the
  * direction a passenger already reads a route on a map.
  */
-export default function Dial({ progress, reading, caption, size = 260, accessibilityLabel }: Props) {
+export default function Dial({ progress, reading, caption, size = 260, accessibilityLabel, speakProgress = true }: Props) {
   const p = Math.min(1, Math.max(0, Number.isFinite(progress) ? progress : 0));
 
   const r = size * 0.4;
@@ -92,9 +98,9 @@ export default function Dial({ progress, reading, caption, size = 260, accessibi
     <View
       style={[styles.wrap, { width: size, height }]}
       accessible
-      accessibilityRole="progressbar"
-      accessibilityLabel={accessibilityLabel ?? reading}
-      accessibilityValue={{ min: 0, max: 100, now: Math.round(p * 100) }}
+      accessibilityRole={speakProgress ? 'progressbar' : undefined}
+      accessibilityLabel={accessibilityLabel ?? [reading, caption].filter(Boolean).join(', ')}
+      accessibilityValue={speakProgress ? { min: 0, max: 100, now: Math.round(p * 100) } : undefined}
     >
       <Svg width={size} height={height}>
         <Path d={arc} stroke={palette.rule} strokeWidth={1} fill="none" />

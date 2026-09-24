@@ -5,7 +5,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { POICategory } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Display, Label, Body, Data, DataSmall, Title, Small } from '../design/type';
-import { Screen, Gutter, Row, Cells, Space, PressSurface, Rule } from '../design/layout';
+import { Screen, Gutter, Row, Cells, Space, PressSurface, Rule, textHitSlop } from '../design/layout';
 import { useReveal } from '../motion';
 import Stamp from '../components/Stamp';
 import { getRecords } from '../../src/core/game/journal';
@@ -80,8 +80,8 @@ export default function AtlasScreen() {
           <Gutter>
             <Space h={s.x3} />
             <Row style={styles.spread}>
-              <Label tone="dim">{t('atlas.title')}</Label>
-              <PressSurface onPress={() => nav.navigate('Settings')} accessibilityLabel={t('atlas.settings')} style={styles.settings}>
+              <Label tone="dim" accessibilityRole="header">{t('atlas.title')}</Label>
+              <PressSurface onPress={() => nav.navigate('Settings')} accessibilityLabel={t('atlas.settings')} hitSlop={textHitSlop} style={styles.settings}>
                 <Label tone="muted">{t('atlas.settings')}</Label>
               </PressSurface>
             </Row>
@@ -120,8 +120,10 @@ export default function AtlasScreen() {
 
           <Gutter style={styles.section}>
             <Row style={styles.spread}>
-              <Label tone="dim">{t('atlas.stamps')}</Label>
-              <DataSmall allowFontScaling={false}>{`${passport.countries.length} / 195`}</DataSmall>
+              <Label tone="dim" accessibilityRole="header">{t('atlas.stamps')}</Label>
+              <DataSmall allowFontScaling={false} accessibilityLabel={t('a11y.of', { n: passport.countries.length, total: 195 })}>
+                {`${passport.countries.length} / 195`}
+              </DataSmall>
             </Row>
           </Gutter>
           <Gutter>
@@ -149,12 +151,17 @@ export default function AtlasScreen() {
           </Gutter>
 
           <Gutter style={styles.section}>
-            <Label tone="dim">{t('atlas.lines')}</Label>
+            <Label tone="dim" accessibilityRole="header">{t('atlas.lines')}</Label>
           </Gutter>
           {LINES.map((l) => {
             const n = passport.lines[l] ?? 0;
             return (
-              <View key={l} style={[styles.row, n > 0 && styles.rowOn]}>
+              <View
+                key={l}
+                style={[styles.row, n > 0 && styles.rowOn]}
+                accessible
+                accessibilityLabel={`${t(`line.${l}`)}, ${n > 0 ? t('a11y.crossed', { count: n }) : t('a11y.notCrossed')}`}
+              >
                 <View style={[styles.linePip, n > 0 && styles.linePipOn]} />
                 <Body tone={n > 0 ? 'default' : 'dim'} style={styles.flex}>
                   {t(`line.${l}`)}
@@ -168,7 +175,7 @@ export default function AtlasScreen() {
 
           <Gutter style={styles.section}>
             <Row style={styles.spread}>
-              <Label tone="dim">{t('atlas.collections')}</Label>
+              <Label tone="dim" accessibilityRole="header">{t('atlas.collections')}</Label>
               <DataSmall allowFontScaling={false}>{t('atlas.collectionsLegend')}</DataSmall>
             </Row>
           </Gutter>
@@ -176,7 +183,14 @@ export default function AtlasScreen() {
             {COLLECTIONS.map((c) => {
               const tally = passport.byCategory[c] ?? { passed: 0, spotted: 0 };
               return (
-                <View key={c} style={styles.cell}>
+                <View
+                  key={c}
+                  style={styles.cell}
+                  accessible
+                  accessibilityLabel={`${t(`categoryPlural.${c}`)}: ${tally.passed}${
+                    tally.spotted ? `, ${t('atlas.spotted')} ${tally.spotted}` : ''
+                  }`}
+                >
                   <Row gap={s.x2}>
                     <Data tone={tally.passed ? 'default' : 'dim'} allowFontScaling={false}>
                       {String(tally.passed)}
@@ -195,12 +209,23 @@ export default function AtlasScreen() {
 
           <Gutter style={styles.section}>
             <Row style={styles.spread}>
-              <Label tone="dim">{t('atlas.achievements')}</Label>
-              <DataSmall allowFontScaling={false}>{`${earned} / ${ACHIEVEMENTS.length}`}</DataSmall>
+              <Label tone="dim" accessibilityRole="header">{t('atlas.achievements')}</Label>
+              <DataSmall allowFontScaling={false} accessibilityLabel={t('a11y.of', { n: earned, total: ACHIEVEMENTS.length })}>
+                {`${earned} / ${ACHIEVEMENTS.length}`}
+              </DataSmall>
             </Row>
           </Gutter>
           {upcoming.map((a) => (
-            <View key={a.def.id} style={styles.achRow}>
+            <View
+              key={a.def.id}
+              style={styles.achRow}
+              accessible
+              accessibilityLabel={[
+                t(`ach.${a.def.id}.name`),
+                t('a11y.of', { n: formatInt(Math.floor(a.value)), total: formatInt(a.def.target) }),
+                t(`ach.${a.def.id}.desc`)
+              ].join(', ')}
+            >
               <Row style={styles.spread}>
                 <Body style={styles.flex}>{t(`ach.${a.def.id}.name`)}</Body>
                 <DataSmall allowFontScaling={false}>{`${formatInt(Math.floor(a.value))} / ${formatInt(a.def.target)}`}</DataSmall>
@@ -220,7 +245,7 @@ export default function AtlasScreen() {
           </PressSurface>
 
           <Gutter style={styles.section}>
-            <Label tone="dim">{t('atlas.journal')}</Label>
+            <Label tone="dim" accessibilityRole="header">{t('atlas.journal')}</Label>
           </Gutter>
           {records.length === 0 ? (
             <Gutter>
@@ -231,7 +256,14 @@ export default function AtlasScreen() {
               <PressSurface
                 key={r.flightId}
                 onPress={() => nav.navigate('FlightSummary', { flightId: r.flightId })}
-                accessibilityLabel={`${r.from} — ${r.to}`}
+                accessibilityLabel={[
+                  `${r.from} — ${r.to}`,
+                  dayMonth(r.takeoffAt),
+                  t('atlas.journalCountries', { count: r.countries.length }),
+                  r.spotted.length ? `${t('atlas.spotted')} ${r.spotted.length}` : null
+                ]
+                  .filter(Boolean)
+                  .join(', ')}
                 style={styles.journalRow}
               >
                 <DataSmall allowFontScaling={false} style={styles.journalDate}>

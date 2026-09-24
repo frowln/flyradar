@@ -5,7 +5,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { OfflinePackage, POI } from '@skyatlas/shared';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Display, Label, Body, Title, DataSmall, Small, Data } from '../design/type';
-import { Screen, Gutter, Row, Cells, ActionBar, PressSurface, Space, Rule } from '../design/layout';
+import { Screen, Gutter, Row, Cells, ActionBar, PressSurface, Space, Rule, textHitSlop } from '../design/layout';
 import { useReveal } from '../motion';
 import Dial from '../components/Dial';
 import RouteRule from '../components/RouteRule';
@@ -20,6 +20,7 @@ import { computeMoments } from '../../src/core/flight/moments';
 import { distinctCountries } from '../../src/core/places/countries';
 import { placeName, placeText, countryName } from '../../src/core/places/names';
 import { cityName } from '../../src/core/data/airports';
+import { localDate } from '../../src/core/time/zones';
 import { startDemo, demoPreviewRoute } from '../../src/core/offline/demo';
 import { useToast } from '../components/Toast';
 import { t, getLocale } from '../../src/i18n';
@@ -30,6 +31,11 @@ type Nav = NativeStackNavigationProp<RootStackParamList>;
 
 /** How far out the dial starts filling toward departure. */
 const WINDOW_MS = 24 * 3600_000;
+
+/** Whole days from one YYYY-MM-DD date to another. */
+function daysBetween(a: string, b: string): number {
+  return Math.round((Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86_400_000);
+}
 
 function untilDeparture(dep: Date, now: number): string {
   const diff = dep.getTime() - now;
@@ -74,7 +80,7 @@ function Advice({ pkg }: { pkg: OfflinePackage }) {
   return (
     <View style={styles.advice}>
       <Row style={styles.spread}>
-        <Label tone="dim">{t('advice.label')}</Label>
+        <Label tone="dim" accessibilityRole="header">{t('advice.label')}</Label>
         {advice.daylight !== null ? (
           <DataSmall allowFontScaling={false}>
             {night ? t('advice.night') : t('advice.daylight', { pct: Math.round(advice.daylight * 100) })}
@@ -126,7 +132,7 @@ function Highlights({ pkg, onOpen }: { pkg: OfflinePackage; onOpen: (poi: POI) =
   return (
     <View>
       <Gutter>
-        <Label tone="dim">{t('board.highlights')}</Label>
+        <Label tone="dim" accessibilityRole="header">{t('board.highlights')}</Label>
       </Gutter>
       <Space h={s.x2} />
       {moments.map((m) => {
@@ -139,6 +145,14 @@ function Highlights({ pkg, onOpen }: { pkg: OfflinePackage; onOpen: (poi: POI) =
               : m.kind === 'line' && m.line
                 ? t(`line.${m.line}`)
                 : t(`moment.${m.kind}`);
+        // "Black Sea, left, 13 min after takeoff" as one element, not "plus zero colon thirteen".
+        const spoken = [
+          title,
+          m.kind === 'sight' && m.side ? t(`side.${m.side}`) : null,
+          t('place.afterTakeoff', { t: duration(m.at) })
+        ]
+          .filter(Boolean)
+          .join(', ');
         const row = (
           <View style={styles.momentRow}>
             <DataSmall allowFontScaling={false} style={styles.momentAt}>
@@ -154,11 +168,13 @@ function Highlights({ pkg, onOpen }: { pkg: OfflinePackage; onOpen: (poi: POI) =
           </View>
         );
         return poi ? (
-          <PressSurface key={m.id} onPress={() => onOpen(poi)} accessibilityLabel={title}>
+          <PressSurface key={m.id} onPress={() => onOpen(poi)} accessibilityLabel={spoken}>
             {row}
           </PressSurface>
         ) : (
-          <View key={m.id}>{row}</View>
+          <View key={m.id} accessible accessibilityLabel={spoken}>
+            {row}
+          </View>
         );
       })}
     </View>
@@ -193,16 +209,19 @@ function FeaturedFlight({
   const left = Math.max(0, entry.departure.getTime() - now);
   const stories = pkg.pois.filter((p) => placeText(p, locale).summary).length;
   const countries = distinctCountries(pkg.countries ?? []);
+  const dated = [flight.flightNumber, weekdayDayMonth(flight.scheduledDeparture, flight.origin.tz)].filter(Boolean).join(' · ');
+  // Local time at the destination, marked when it falls on another calendar day.
+  const dayShift = daysBetween(localDate(new Date(flight.scheduledDeparture), flight.origin.tz), localDate(new Date(flight.scheduledArrival), flight.destination.tz));
+  const arrival = `${timeAt(flight.scheduledArrival, flight.destination.tz)}${dayShift ? ` ${dayShift > 0 ? '+' : '−'}${Math.abs(dayShift)}` : ''}`;
 
   return (
     <View>
       <Gutter>
         <Row style={styles.head}>
-          <Label tone="accent">{t(`board.status_${status}`)}</Label>
-          <PressSurface onPress={onRemove} accessibilityLabel={t('board.remove')} style={styles.more}>
-            <DataSmall allowFontScaling={false}>
-              {[flight.flightNumber, weekdayDayMonth(flight.scheduledDeparture, flight.origin.tz)].filter(Boolean).join(' · ')}
-            </DataSmall>
+          <Label tone="accent" accessibilityRole="header">{t(`board.status_${status}`)}</Label>
+          {/* Tapping the date deletes the flight; the spoken label says both. */}
+          <PressSurface onPress={onRemove} accessibilityLabel={`${dated}, ${t('board.remove')}`} hitSlop={textHitSlop} style={styles.more}>
+            <DataSmall allowFontScaling={false}>{dated}</DataSmall>
           </PressSurface>
         </Row>
       </Gutter>
@@ -213,12 +232,17 @@ function FeaturedFlight({
             progress={pos.progress}
             reading={clock(end - pos.elapsedS)}
             caption={`${t('board.remaining')} · ${flight.destination.iata}`}
+            accessibilityLabel={t('a11y.toGo', { place: cityName(flight.destination, locale), d: duration(end - pos.elapsedS) })}
           />
         ) : (
           <Dial
             progress={1 - Math.min(1, left / WINDOW_MS)}
             reading={untilDeparture(entry.departure, now)}
             caption={`${t('board.untilDeparture')} · ${timeAt(flight.scheduledDeparture, flight.origin.tz)}`}
+            speakProgress={false}
+            accessibilityLabel={`${
+              left > 0 ? t('a11y.departsIn', { d: duration(left / 1000) }) : t(`board.status_${status}`)
+            }, ${timeAt(flight.scheduledDeparture, flight.origin.tz)}`}
           />
         )}
       </View>
@@ -235,8 +259,8 @@ function FeaturedFlight({
       <Cells
         items={[
           { value: timeAt(flight.scheduledDeparture, flight.origin.tz), label: t('board.departure') },
-          { value: clock(end), label: t('board.inAir') },
-          { value: String(pkg.pois.length), label: t('board.places') },
+          { value: arrival, label: t('board.arrival'), spoken: `${t('board.arrival')}: ${arrival}` },
+          { value: clock(end), label: t('board.inAir'), spoken: `${t('board.inAir')}: ${duration(end)}` },
           { value: String(countries.length), label: t('board.countries') }
         ]}
       />
@@ -262,9 +286,14 @@ function FeaturedFlight({
 
       {countries.length > 0 ? (
         <Gutter style={styles.countries}>
-          <Label tone="dim">{t('board.underWing')}</Label>
+          <Label tone="dim" accessibilityRole="header">{t('board.underWing')}</Label>
           <Space h={s.x2} />
           <Body>{countries.map((cc) => countryName(cc, locale)).join(' · ')}</Body>
+        </Gutter>
+      ) : null}
+      {pkg.routeKind === 'approximate' ? (
+        <Gutter style={styles.countries}>
+          <Small tone="accent">{t('board.routeApprox')}</Small>
         </Gutter>
       ) : null}
 
@@ -295,7 +324,7 @@ function TakeoffSheet({ entry, onPick, onCancel }: { entry: FlightEntry; onPick:
   return (
     <View style={styles.sheet}>
       <Gutter>
-        <Label tone="dim">{t('board.takeoffWhen')}</Label>
+        <Label tone="dim" accessibilityRole="header">{t('board.takeoffWhen')}</Label>
         <Space h={s.x1} />
         <Small tone="muted">{t('board.takeoffWhy')}</Small>
       </Gutter>
@@ -421,7 +450,7 @@ export default function BoardScreen() {
             ) : null}
             <Gutter>
               <Space h={s.x5} />
-              <Display>{t('board.emptyTitle')}</Display>
+              <Display accessibilityRole="header">{t('board.emptyTitle')}</Display>
               <Space h={s.x3} />
               <Body tone="muted" style={styles.measure}>
                 {t('board.emptyBody')}
@@ -430,7 +459,7 @@ export default function BoardScreen() {
             <Space h={s.x8} />
             <View style={styles.emptyPoints}>
               {(['one', 'two', 'three'] as const).map((k, i) => (
-                <View key={k} style={styles.point}>
+                <View key={k} style={styles.point} accessible accessibilityLabel={`${i + 1}. ${t(`board.emptyPoint_${k}`)}`}>
                   <Data tone="accent" allowFontScaling={false}>{`0${i + 1}`}</Data>
                   <View style={styles.flex}>
                     <Body>{t(`board.emptyPoint_${k}`)}</Body>
@@ -439,7 +468,13 @@ export default function BoardScreen() {
               ))}
             </View>
             <Space h={s.x6} />
-            <PressSurface onPress={beginDemo} accessibilityLabel={t('board.demo')} style={styles.demoRow}>
+            <PressSurface
+              onPress={beginDemo}
+              accessibilityLabel={t('board.demo')}
+              accessibilityHint={t('board.demoHint')}
+              accessibilityState={{ busy: busyDemo }}
+              style={styles.demoRow}
+            >
               <View style={styles.flex}>
                 <Body>{busyDemo ? t('common.loading') : t('board.demo')}</Body>
                 <Small>{t('board.demoHint')}</Small>
@@ -471,14 +506,17 @@ export default function BoardScreen() {
           {others.length > 0 ? (
             <View style={styles.later}>
               <Gutter>
-                <Label tone="dim">{t('board.later')}</Label>
+                <Label tone="dim" accessibilityRole="header">{t('board.later')}</Label>
               </Gutter>
               <Space h={s.x2} />
               {others.map((e) => (
                 <PressSurface
                   key={e.pkg.flight.id}
                   onPress={() => setFeaturedId(e.pkg.flight.id)}
-                  accessibilityLabel={`${e.pkg.flight.origin.iata} — ${e.pkg.flight.destination.iata}`}
+                  accessibilityLabel={`${t('a11y.route', {
+                    from: cityName(e.pkg.flight.origin, getLocale()),
+                    to: cityName(e.pkg.flight.destination, getLocale())
+                  })}, ${weekdayDayMonth(e.pkg.flight.scheduledDeparture, e.pkg.flight.origin.tz)}`}
                   style={styles.laterRow}
                 >
                   <Title>
@@ -496,14 +534,17 @@ export default function BoardScreen() {
           {flown.length > 0 ? (
             <View style={styles.later}>
               <Gutter>
-                <Label tone="dim">{t('board.flown')}</Label>
+                <Label tone="dim" accessibilityRole="header">{t('board.flown')}</Label>
               </Gutter>
               <Space h={s.x2} />
               {flown.map((e) => (
                 <PressSurface
                   key={e.pkg.flight.id}
                   onPress={() => nav.navigate('FlightSummary', { flightId: e.pkg.flight.id })}
-                  accessibilityLabel={`${e.pkg.flight.origin.iata} — ${e.pkg.flight.destination.iata}`}
+                  accessibilityLabel={`${t('a11y.route', {
+                    from: cityName(e.pkg.flight.origin, getLocale()),
+                    to: cityName(e.pkg.flight.destination, getLocale())
+                  })}, ${duration(e.pkg.route[e.pkg.route.length - 1]?.elapsedSeconds ?? 0)}`}
                   style={styles.laterRow}
                 >
                   <Body>

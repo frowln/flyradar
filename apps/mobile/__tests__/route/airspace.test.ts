@@ -67,3 +67,59 @@ describe('planAround', () => {
     expect(d.ratio).toBeLessThan(1.6);
   });
 });
+
+describe('planAround with endpoints in closed airspace', () => {
+  const SVO_RU = { ...SVO, cc: 'RU' };
+  const JFK_US = { ...JFK, cc: 'US' };
+  const LHR_GB = { ...LHR, cc: 'GB' };
+  // Boryspil is not in the airport data (Ukraine is closed); a flight can still be composed to it by hand.
+  const KBP_UA = { lat: 50.345, lon: 30.895, cc: 'UA' };
+  const FRA_DE = { lat: 50.027, lon: 8.558, cc: 'DE' };
+  const KGD_RU = { lat: 54.89, lon: 20.593, cc: 'RU' };
+
+  /**
+   * JFK sits on the coast, so its free zone reaches the open Atlantic and the
+   * search used to "find" an Aeroflot route over the Arctic into New York — a
+   * confident detour for a flight that cannot exist.
+   */
+  it('does not invent a legal detour to a country closed to the carrier', () => {
+    const closed = closedCountries({ carrier: 'SU', fromCC: 'RU', toCC: 'US' });
+    expect(planAround(SVO_RU, JFK_US, closed, countries)).toEqual({ via: [], ratio: 1, approximate: true });
+    expect(planAround(SVO_RU, LHR_GB, closedCountries({ carrier: 'SU', fromCC: 'RU', toCC: 'GB' }), countries).approximate).toBe(true);
+  });
+
+  it('calls any flight to or from a war zone approximate, in either direction', () => {
+    const out = planAround(FRA_DE, KBP_UA, closedCountries({ carrier: 'LH', fromCC: 'DE', toCC: 'UA' }), countries);
+    const back = planAround(KBP_UA, FRA_DE, closedCountries({ carrier: 'LH', fromCC: 'UA', toCC: 'DE' }), countries);
+    expect(out.approximate).toBe(true);
+    expect(back.approximate).toBe(true);
+  });
+
+  /**
+   * Kaliningrad is walled in by closed countries for a Russian carrier. A*
+   * could only prove that by exhausting the reachable world (seconds on a
+   * phone); the pocket fill proves it from the small side.
+   */
+  it('reports a walled-in destination as approximate', () => {
+    const closed = closedCountries({ carrier: 'SU', fromCC: 'RU', toCC: 'RU' });
+    expect(planAround(SVO_RU, KGD_RU, closed, countries).approximate).toBe(true);
+  });
+
+  it('still plans ordinary detours for airports given with their country', () => {
+    const d = planAround({ ...HEL, cc: 'FI' }, { ...NRT, cc: 'JP' }, closedCountries({ fromCC: 'FI', toCC: 'JP', carrier: 'AY' }), countries);
+    expect(d.approximate).toBe(false);
+    expect(d.via.length).toBeGreaterThan(0);
+  });
+});
+
+describe('airspace avoided by everyone', () => {
+  it('keeps every flight out of North Korea and Syria', () => {
+    for (const carrier of [undefined, 'LH', 'TK', 'SU', 'CA']) {
+      const c = closedCountries({ fromCC: 'DE', toCC: 'KR', carrier });
+      expect(c).toEqual(expect.arrayContaining(['KP', 'SY']));
+    }
+  });
+  it('lets Hong Kong carriers cross Russia', () => {
+    expect(closedCountries({ fromCC: 'US', toCC: 'HK', carrier: 'CX' })).not.toContain('RU');
+  });
+});

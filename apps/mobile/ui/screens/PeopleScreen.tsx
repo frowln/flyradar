@@ -65,7 +65,7 @@ export default function PeopleScreen() {
   if (loading) {
     return (
       <Screen style={styles.center}>
-        <ActivityIndicator color={palette.amber} />
+        <ActivityIndicator color={palette.amber} accessibilityLabel={t('common.loading')} />
       </Screen>
     );
   }
@@ -78,7 +78,7 @@ export default function PeopleScreen() {
         <Gutter style={styles.offline}>
           <Label tone="dim">{t('people.title')}</Label>
           <Space h={s.x4} />
-          <Display>{t('people.offlineTitle')}</Display>
+          <Display accessibilityRole="header">{t('people.offlineTitle')}</Display>
           <Space h={s.x3} />
           <Body tone="muted" style={styles.measure}>
             {t('people.offlineBody')}
@@ -99,7 +99,7 @@ export default function PeopleScreen() {
         <Animated.View style={reveal}>
           <Gutter>
             <Space h={s.x3} />
-            <Label tone="dim">{t('people.title')}</Label>
+            <Label tone="dim" accessibilityRole="header">{t('people.title')}</Label>
             <Space h={s.x3} />
             <Display>
               {entries.length} {t('people.pilots')}
@@ -110,7 +110,7 @@ export default function PeopleScreen() {
             <>
               <Space h={s.x8} />
               <Gutter>
-                <Label tone="accent">{t('people.friends')}</Label>
+                <Label tone="accent" accessibilityRole="header">{t('people.friends')}</Label>
               </Gutter>
               <Space h={s.x3} />
               <Rule />
@@ -118,7 +118,7 @@ export default function PeopleScreen() {
                 <PressSurface
                   key={f.id}
                   onPress={() => nav.navigate('Person', { userId: f.id })}
-                  accessibilityLabel={f.handle ?? t('reviews.anonymous')}
+                  accessibilityLabel={`${f.handle ?? t('reviews.anonymous')}, ${f.stats.placesDiscovered} ${t('atlas.placesShort')}`}
                   style={styles.row}
                 >
                   <Body numberOfLines={1} style={styles.name}>
@@ -135,7 +135,7 @@ export default function PeopleScreen() {
 
           <Space h={s.x8} />
           <Gutter>
-            <Label tone="dim">{t('people.top')}</Label>
+            <Label tone="dim" accessibilityRole="header">{t('people.top')}</Label>
           </Gutter>
           <Space h={s.x3} />
           <Rule />

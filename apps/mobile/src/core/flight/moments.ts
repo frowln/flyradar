@@ -64,7 +64,11 @@ export function computeMoments(input: MomentInput): Moment[] {
     out.push({
       id: `sight-${poi.id}`,
       kind: 'sight',
-      at: poi.passAt,
+      // A place flown over arrives when the track enters it. Its passAt sits
+      // up to ten minutes inside, which had "next: Grand Canyon in 13 min" and
+      // "you are flying over it in the next few minutes" land after the
+      // window view had already put it below.
+      at: poi.overFrom ?? poi.passAt,
       side: poi.side,
       poiId: poi.id,
       weight: sightWeight(poi)

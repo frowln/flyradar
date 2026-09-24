@@ -4,8 +4,8 @@ import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Display, Label, Body, Title, Small, DataSmall } from '../design/type';
-import { Screen, Gutter, Space, ActionBar, PressSurface, Row } from '../design/layout';
-import { useReveal } from '../motion';
+import { Screen, Gutter, Space, ActionBar, PressSurface, Row, decorative, textHitSlop } from '../design/layout';
+import { useReveal, useReducedMotion } from '../motion';
 import Stamp from '../components/Stamp';
 import SideMark from '../components/SideMark';
 import RouteSketch from '../components/RouteSketch';
@@ -29,6 +29,7 @@ export default function OnboardingScreen() {
   const [page, setPage] = useState(0);
   const [busy, setBusy] = useState(false);
   const reveal = useReveal();
+  const reduced = useReducedMotion();
   const locale = getLocale();
 
   const route = useMemo(() => demoPreviewRoute(locale), [locale]);
@@ -83,9 +84,9 @@ export default function OnboardingScreen() {
 
   const next = useCallback(() => {
     const target = Math.min(panels.length - 1, page + 1);
-    scroller.current?.scrollTo({ x: target * width, animated: true });
+    scroller.current?.scrollTo({ x: target * width, animated: !reduced });
     setPage(target);
-  }, [page, width, panels.length]);
+  }, [page, width, panels.length, reduced]);
 
   const finish = useCallback(
     (to: 'add' | 'demo') => {
@@ -110,7 +111,7 @@ export default function OnboardingScreen() {
           <Label tone="accent" style={styles.wordmark}>
             SKYATLAS
           </Label>
-          <PressSurface onPress={() => finish('add')} accessibilityLabel={t('onboard.skip')} style={styles.skip}>
+          <PressSurface onPress={() => finish('add')} accessibilityLabel={t('onboard.skip')} hitSlop={textHitSlop} style={styles.skip}>
             <Label tone="dim">{t('onboard.skip')}</Label>
           </PressSurface>
         </Gutter>
@@ -124,10 +125,13 @@ export default function OnboardingScreen() {
         >
           {panels.map((p) => (
             <View key={p.key} style={{ width }}>
-              <View style={[styles.art, { height: artH }]}>{p.art}</View>
+              {/* The art demonstrates what the title and body say; to a screen reader it is decoration. */}
+              <View {...decorative} style={[styles.art, { height: artH }]}>
+                {p.art}
+              </View>
               <Gutter>
                 <Space h={s.x6} />
-                <Display>{p.title}</Display>
+                <Display accessibilityRole="header">{p.title}</Display>
                 <Space h={s.x3} />
                 <Body tone="muted" style={styles.measure}>
                   {p.body}
@@ -137,7 +141,7 @@ export default function OnboardingScreen() {
           ))}
         </ScrollView>
 
-        <Row gap={s.x2} style={styles.dots}>
+        <Row gap={s.x2} style={styles.dots} accessible accessibilityLabel={t('a11y.page', { n: page + 1, total: panels.length })}>
           {panels.map((p, i) => (
             <View key={p.key} style={[styles.dot, i === page && styles.dotOn]} />
           ))}
@@ -146,7 +150,13 @@ export default function OnboardingScreen() {
 
       {last ? (
         <View>
-          <PressSurface onPress={() => finish('demo')} accessibilityLabel={t('onboard.demo')} style={styles.demo}>
+          <PressSurface
+            onPress={() => finish('demo')}
+            accessibilityLabel={t('onboard.demo')}
+            accessibilityHint={t('onboard.demoHint')}
+            accessibilityState={{ busy }}
+            style={styles.demo}
+          >
             <View style={styles.flex}>
               <Title>{busy ? t('common.loading') : t('onboard.demo')}</Title>
               <Small>{t('onboard.demoHint')}</Small>

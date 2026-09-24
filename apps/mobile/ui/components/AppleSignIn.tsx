@@ -87,14 +87,14 @@ export default function AppleSignIn({ onLinked }: Props) {
   return (
     <View>
       <Gutter>
-        <Label tone="dim">{t('apple.title')}</Label>
+        <Label tone="dim" accessibilityRole="header">{t('apple.title')}</Label>
         <Space h={s.x2} />
         <Body tone="muted" style={styles.measure}>
           {t('apple.why')}
         </Body>
       </Gutter>
       <Space h={s.x3} />
-      <PressSurface onPress={signIn} accessibilityLabel={t('apple.button')} style={styles.button}>
+      <PressSurface onPress={signIn} accessibilityLabel={t('apple.button')} accessibilityState={{ busy }} style={styles.button}>
         {busy ? <ActivityIndicator color={palette.amber} /> : <Label tone="accent">{t('apple.button')}</Label>}
       </PressSurface>
       {failed ? (

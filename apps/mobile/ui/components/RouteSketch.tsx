@@ -3,6 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import Svg, { Path, Circle, G, Rect } from 'react-native-svg';
 import type { POI, RoutePoint } from '@skyatlas/shared';
 import { palette } from '../design/tokens';
+import { decorative } from '../design/layout';
 import { getCountries } from '../../src/core/data/datasets';
 import type { DataCountry } from '../../src/core/data/types';
 
@@ -13,6 +14,9 @@ import type { DataCountry } from '../../src/core/data/types';
  * instantly, offline, at any size — on the board before departure, on the
  * postcard after landing, and anywhere the tile map is unavailable. Countries
  * the flight crosses are drawn a step brighter; everything else is a hairline.
+ *
+ * Hidden from screen readers: a plate has no single sentence to speak, and
+ * every screen that draws one also states the route and progress in text.
  */
 
 interface Props {
@@ -142,7 +146,7 @@ function RouteSketch({ route, width, height, flownS, pois = [], highlight = [], 
     return { project, paths, full: line(route), line };
   }, [route, width, height]);
 
-  if (!geo) return <View style={{ width, height }} />;
+  if (!geo) return <View {...decorative} style={{ width, height }} />;
 
   const flown = flownS != null ? route.filter((p) => p.elapsedSeconds <= flownS) : [];
   const hi = new Set(highlight);
@@ -152,7 +156,7 @@ function RouteSketch({ route, width, height, flownS, pois = [], highlight = [], 
   const planeXY = plane ? geo.project(plane.lon, plane.lat) : null;
 
   return (
-    <View style={[styles.wrap, { width, height }]} pointerEvents="none">
+    <View {...decorative} style={[styles.wrap, { width, height }]} pointerEvents="none">
       <Svg width={width} height={height}>
         <Rect width={width} height={height} fill={background ?? palette.void} />
         <G>

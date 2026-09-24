@@ -6,6 +6,7 @@ import {
   type ViewStyle,
   type AccessibilityRole,
   type AccessibilityState,
+  type Insets,
   type StyleProp
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -19,6 +20,25 @@ import { Label, Data } from './type';
  * keeps gutters, rules and rhythm identical across surfaces that were built
  * weeks apart.
  */
+
+/**
+ * Spread onto anything purely decorative — route plates, drawn figures, glyphs
+ * whose meaning is already in the text beside them — so a screen reader skips
+ * it instead of stopping on an unnamed image. `aria-hidden` is the spelling the
+ * browser preview reads; the other two are iOS and Android.
+ */
+export const decorative = {
+  accessibilityElementsHidden: true,
+  importantForAccessibility: 'no-hide-descendants',
+  'aria-hidden': true
+} as const;
+
+/**
+ * Text-sized controls — back, cancel, skip — are drawn at the size of their
+ * label, about 21pt tall. This grows the touch target to the 44pt minimum
+ * without growing the drawing.
+ */
+export const textHitSlop: Insets = { top: s.x3, bottom: s.x3, left: s.x2, right: s.x2 };
 
 /**
  * Every screen sits inside the safe area by default.
@@ -84,6 +104,8 @@ export interface CellItem {
   value: string;
   label: string;
   tone?: 'default' | 'accent';
+  /** The whole cell as it should be read aloud, when "label: value" does not — "1:34" is a time of day to a screen reader. */
+  spoken?: string;
 }
 
 /**
@@ -98,7 +120,7 @@ export function Cells({ items, bordered = true }: { items: CellItem[]; bordered?
           key={item.label}
           style={[styles.cell, i < items.length - 1 && styles.cellDivider]}
           accessible
-          accessibilityLabel={`${item.label}: ${item.value}`}
+          accessibilityLabel={item.spoken ?? `${item.label}: ${item.value}`}
         >
           <Data tone={item.tone === 'accent' ? 'accent' : 'default'} allowFontScaling={false}>
             {item.value}
@@ -150,7 +172,8 @@ export function PressSurface({
   accessibilityHint,
   accessibilityState,
   accessibilityRole = 'button',
-  disabled
+  disabled,
+  hitSlop
 }: {
   onPress: () => void;
   children: React.ReactNode;
@@ -160,7 +183,10 @@ export function PressSurface({
   accessibilityState?: AccessibilityState;
   accessibilityRole?: AccessibilityRole;
   disabled?: boolean;
+  /** For surfaces drawn smaller than 44pt; see `textHitSlop`. */
+  hitSlop?: Insets | number;
 }) {
+  const state = disabled ? { ...accessibilityState, disabled: true } : accessibilityState;
   // Feedback comes from Pressable's own pressed state rather than an Animated
   // wrapper. Two earlier attempts failed for the same reason: any wrapper splits
   // layout from content, so `position: absolute` landed back in the flow and row
@@ -169,10 +195,16 @@ export function PressSurface({
     <Pressable
       onPress={onPress}
       disabled={disabled}
+      hitSlop={hitSlop}
       accessibilityRole={accessibilityRole}
       accessibilityLabel={accessibilityLabel}
       accessibilityHint={accessibilityHint}
-      accessibilityState={disabled ? { ...accessibilityState, disabled: true } : accessibilityState}
+      accessibilityState={state}
+      // Native reads either spelling; the browser preview reads only these.
+      aria-selected={state?.selected}
+      aria-checked={state?.checked}
+      aria-expanded={state?.expanded}
+      aria-busy={state?.busy}
       style={({ pressed }) => [style, pressed && styles.pressed]}
     >
       {children}

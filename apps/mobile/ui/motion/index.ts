@@ -11,15 +11,27 @@ import { motion } from '../design/tokens';
  *   · Reduce Motion is honoured by jumping to the end state, never by half-speed.
  */
 
+/**
+ * The last answer the system gave. The query is async, so without this every
+ * screen would animate its first frame before learning motion is off; with it,
+ * only the very first screen of a session can.
+ */
+let lastKnown = false;
+
+/** The one place the app asks about Reduce Motion. Every animation goes through it. */
 export function useReducedMotion(): boolean {
-  const [reduced, setReduced] = useState(false);
+  const [reduced, setReduced] = useState(lastKnown);
 
   useEffect(() => {
     let alive = true;
     AccessibilityInfo.isReduceMotionEnabled().then((on) => {
+      lastKnown = on;
       if (alive) setReduced(on);
     });
-    const sub = AccessibilityInfo.addEventListener('reduceMotionChanged', (on) => setReduced(on));
+    const sub = AccessibilityInfo.addEventListener('reduceMotionChanged', (on) => {
+      lastKnown = on;
+      setReduced(on);
+    });
     return () => {
       alive = false;
       sub?.remove();

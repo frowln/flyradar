@@ -3,7 +3,7 @@ import { View, ScrollView, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Label, Body, Small, DataSmall, Title } from '../design/type';
-import { Screen, Gutter, Row, Space, PressSurface } from '../design/layout';
+import { Screen, Gutter, Row, Space, PressSurface, textHitSlop } from '../design/layout';
 import { getRecords } from '../../src/core/game/journal';
 import { buildPassport } from '../../src/core/game/passport';
 import { achievementStates, type AchievementGroup } from '../../src/core/game/achievements';
@@ -22,27 +22,41 @@ export default function AchievementsScreen() {
   return (
     <Screen>
       <View style={styles.top}>
-        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')} style={styles.back}>
+        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')} hitSlop={textHitSlop} style={styles.back}>
           <Label tone="muted">{`‹ ${t('common.back')}`}</Label>
         </PressSurface>
-        <DataSmall allowFontScaling={false}>{`${earned} / ${states.length}`}</DataSmall>
+        <DataSmall allowFontScaling={false} accessibilityLabel={t('a11y.of', { n: earned, total: states.length })}>
+          {`${earned} / ${states.length}`}
+        </DataSmall>
       </View>
       <ScrollView contentContainerStyle={styles.scroll}>
         <Gutter>
           <Space h={s.x4} />
-          <Title>{t('achievements.title')}</Title>
+          <Title accessibilityRole="header">{t('achievements.title')}</Title>
           <Space h={s.x2} />
           <Small>{t('achievements.subtitle')}</Small>
         </Gutter>
         {GROUPS.map((g) => (
           <View key={g}>
             <Gutter style={styles.section}>
-              <Label tone="dim">{t(`achievements.group_${g}`)}</Label>
+              <Label tone="dim" accessibilityRole="header">{t(`achievements.group_${g}`)}</Label>
             </Gutter>
             {states
               .filter((a) => a.def.group === g)
               .map((a) => (
-                <View key={a.def.id} style={[styles.row, a.earned && styles.rowEarned]}>
+                <View
+                  key={a.def.id}
+                  style={[styles.row, a.earned && styles.rowEarned]}
+                  // "Regular, 3 of 10, Complete 10 flights" — not a star glyph and a slash.
+                  accessible
+                  accessibilityLabel={[
+                    t(`ach.${a.def.id}.name`),
+                    a.earned
+                      ? t('a11y.earned')
+                      : t('a11y.of', { n: formatInt(Math.floor(a.value)), total: formatInt(a.def.target) }),
+                    t(`ach.${a.def.id}.desc`)
+                  ].join(', ')}
+                >
                   <Row style={styles.spread}>
                     <Body tone={a.earned ? 'brass' : 'default'} style={styles.flex}>
                       {t(`ach.${a.def.id}.name`)}

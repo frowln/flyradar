@@ -75,7 +75,7 @@ export default function PersonScreen() {
   if (loading) {
     return (
       <Screen style={styles.center}>
-        <ActivityIndicator color={palette.amber} />
+        <ActivityIndicator color={palette.amber} accessibilityLabel={t('common.loading')} />
       </Screen>
     );
   }
@@ -85,7 +85,7 @@ export default function PersonScreen() {
       <Screen style={styles.center}>
         <Body tone="muted">{t('person.notFound')}</Body>
         <Space h={s.x4} />
-        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')}>
+        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')} hitSlop={s.x4}>
           <Label tone="accent">{t('common.back')}</Label>
         </PressSurface>
       </Screen>
@@ -107,6 +107,7 @@ export default function PersonScreen() {
             <PressSurface
               onPress={() => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs'))}
               accessibilityLabel={t('common.back')}
+              hitSlop={s.x2}
               style={styles.back}
             >
               <Label tone="muted">{t('common.back')}</Label>
@@ -126,7 +127,9 @@ export default function PersonScreen() {
                 )}
               </View>
               <View style={styles.identityText}>
-                <Display numberOfLines={1}>{profile.handle ?? t('reviews.anonymous')}</Display>
+                <Display numberOfLines={1} accessibilityRole="header">
+                  {profile.handle ?? t('reviews.anonymous')}
+                </Display>
                 {joinedLabel ? (
                   <>
                     <Space h={s.x1} />
@@ -169,7 +172,7 @@ export default function PersonScreen() {
               seeing someone without leaving the app. */}
           <PressSurface
             onPress={block}
-            accessibilityLabel={t('person.block')}
+            accessibilityLabel={blocked ? t('person.blocked') : t('person.block')}
             style={styles.action}
           >
             <Label tone={blocked ? 'bad' : 'dim'}>
@@ -182,7 +185,7 @@ export default function PersonScreen() {
             <>
               <Space h={s.x8} />
               <Gutter>
-                <Label tone="dim">{t('person.recent')}</Label>
+                <Label tone="dim" accessibilityRole="header">{t('person.recent')}</Label>
               </Gutter>
               <Space h={s.x3} />
               {profile.recent.map((d) => (

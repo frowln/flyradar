@@ -3,7 +3,7 @@ import { View, FlatList, StyleSheet, Linking } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Label, Body, Small, DataSmall, Title } from '../design/type';
-import { Screen, Gutter, Space, PressSurface, Rule } from '../design/layout';
+import { Screen, Gutter, Space, PressSurface, Rule, textHitSlop } from '../design/layout';
 import { t } from '../../src/i18n';
 import licenses from '../../src/legal/licenses.json';
 
@@ -73,15 +73,21 @@ export default function LicensesScreen() {
     <View>
       <Gutter>
         <Space h={s.x4} />
-        <Title>{t('licenses.title')}</Title>
+        <Title accessibilityRole="header">{t('licenses.title')}</Title>
       </Gutter>
 
       <Gutter style={styles.section}>
-        <Label tone="dim">{t('licenses.data')}</Label>
+        <Label tone="dim" accessibilityRole="header">{t('licenses.data')}</Label>
       </Gutter>
       <Rule />
       {SOURCES.map((src) => (
-        <PressSurface key={src.key} onPress={() => Linking.openURL(src.url)} accessibilityLabel={src.name} style={styles.pkg}>
+        <PressSurface
+          key={src.key}
+          onPress={() => Linking.openURL(src.url)}
+          accessibilityRole="link"
+          accessibilityLabel={`${src.name}, ${t(`licenses.src.${src.key}`)}, ${src.license}`}
+          style={styles.pkg}
+        >
           <View style={styles.pkgHead}>
             <Body style={styles.flex}>{src.name}</Body>
             <DataSmall allowFontScaling={false}>›</DataSmall>
@@ -92,7 +98,7 @@ export default function LicensesScreen() {
       ))}
 
       <Gutter style={styles.section}>
-        <Label tone="dim">{t('licenses.fonts')}</Label>
+        <Label tone="dim" accessibilityRole="header">{t('licenses.fonts')}</Label>
       </Gutter>
       <Rule />
       {licenses.fonts.map((f) => (
@@ -109,7 +115,9 @@ export default function LicensesScreen() {
       </Gutter>
 
       <Gutter style={styles.section}>
-        <Label tone="dim">{t('licenses.software', { n: licenses.packages.length })}</Label>
+        <Label tone="dim" accessibilityRole="header">
+          {t('licenses.software', { n: licenses.packages.length })}
+        </Label>
         <Space h={s.x2} />
         <Small>{t('licenses.softwareNote')}</Small>
       </Gutter>
@@ -120,7 +128,7 @@ export default function LicensesScreen() {
   return (
     <Screen>
       <View style={styles.top}>
-        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')} style={styles.back}>
+        <PressSurface onPress={() => nav.goBack()} accessibilityLabel={t('common.back')} hitSlop={textHitSlop} style={styles.back}>
           <Label tone="muted">{`‹ ${t('common.back')}`}</Label>
         </PressSurface>
       </View>

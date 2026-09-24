@@ -33,7 +33,7 @@ export default class ErrorBoundary extends React.Component<Props, State> {
       <View style={styles.wrap}>
         <Label tone="accent">{t('errors.crashLabel')}</Label>
         <Space h={s.x3} />
-        <Title>{t('errors.crashTitle')}</Title>
+        <Title accessibilityRole="header">{t('errors.crashTitle')}</Title>
         <Space h={s.x2} />
         <Body tone="muted">{t('errors.crashBody')}</Body>
         <Space h={s.x6} />

@@ -23,6 +23,14 @@ const COLS = Math.round(360 / RES);
 /** Closed to every civil flight. */
 const WAR_ZONES = ['UA', 'XR'];
 
+/**
+ * Not formally closed, but avoided by practically every airline: North Korea
+ * (missile launches without notice) and Syria (conflict-zone bulletins).
+ */
+const AVOIDED = ['KP', 'SY'];
+
+const CLOSED_TO_ALL = [...WAR_ZONES, ...AVOIDED];
+
 const EU_AND_ALLIES = [
   'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT',
   'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB', 'NO', 'IS', 'CH', 'LI', 'AL', 'ME', 'MK', 'MD', 'US', 'CA'
@@ -41,19 +49,19 @@ const RU_BY_CARRIERS = new Set([
 const NEUTRAL_CARRIERS = new Set([
   'CA', 'MU', 'CZ', 'HU', '3U', 'MF', 'ZH', 'HO', 'SC', 'FM', 'GS', 'JD', '9C', 'KN', 'EK', 'QR', 'EY', 'TK', 'PC',
   'FZ', 'G9', 'J2', 'HY', 'KC', 'AI', '6E', 'SG', 'UK', 'WY', 'GF', 'SV', 'XY', 'RJ', 'MS', 'ET', 'IR', 'W5', 'OM',
-  'KR', 'DV', 'ZM', 'T5', 'HH', '7J', 'VN', 'VJ', 'TG', 'MH', 'SQ', 'GA', 'PR', 'NX', 'BR', 'CI'
+  'KR', 'DV', 'ZM', 'T5', 'HH', '7J', 'VN', 'VJ', 'TG', 'MH', 'SQ', 'GA', 'PR', 'NX', 'BR', 'CI', 'CX', 'UO', 'HX'
 ]);
 
 /** Which countries a flight must stay out of, by who flies it and where. */
 export function closedCountries(opts: { carrier?: string; fromCC: string; toCC: string }): string[] {
   const carrier = opts.carrier?.toUpperCase().slice(0, 2);
   const touchesRussia = ['RU', 'BY'].includes(opts.fromCC) || ['RU', 'BY'].includes(opts.toCC);
-  if (carrier && RU_BY_CARRIERS.has(carrier)) return [...WAR_ZONES, ...EU_AND_ALLIES];
-  if (carrier && NEUTRAL_CARRIERS.has(carrier)) return WAR_ZONES;
+  if (carrier && RU_BY_CARRIERS.has(carrier)) return [...CLOSED_TO_ALL, ...EU_AND_ALLIES];
+  if (carrier && NEUTRAL_CARRIERS.has(carrier)) return CLOSED_TO_ALL;
   // No carrier known: a flight to or from Russia is flown by an airline allowed
   // over it; anything else is most likely flown by one that is not.
-  if (touchesRussia) return WAR_ZONES;
-  return [...WAR_ZONES, 'RU', 'BY'];
+  if (touchesRussia) return CLOSED_TO_ALL;
+  return [...CLOSED_TO_ALL, 'RU', 'BY'];
 }
 
 type Grid = Uint8Array;

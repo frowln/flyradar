@@ -3,6 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import { Map, Camera, GeoJSONSource, Layer, Marker } from '@maplibre/maplibre-react-native';
 import type { RoutePoint, POI } from '@skyatlas/shared';
 import { palette, line } from '../design/tokens';
+import { decorative } from '../design/layout';
 import { MAP_STYLE_URL } from '../../src/core/map/offlineMap';
 
 export interface RouteMapProps {
@@ -38,7 +39,28 @@ const BASEMAP_FONT = 'Noto Sans Regular';
  * journey is visible, and the flown part in amber. Places are marks on the
  * chart, hollow until opened, so the map doubles as a progress display for the
  * collection.
+ *
+ * Hidden from screen readers. Panning a chart by swipe is not something
+ * VoiceOver can do usefully, and everything the map says is also on the panel
+ * beneath it in words: route and share flown, what is out of each window, what
+ * comes next.
  */
+/** Longitudes without the ±180° jump, so consecutive points differ by less than 180°. */
+function unwrap(points: Array<{ lat: number; lon: number }>): [number, number][] {
+  const out: [number, number][] = [];
+  let prev: number | null = null;
+  for (const p of points) {
+    let lon = p.lon;
+    if (prev !== null) {
+      while (lon - prev > 180) lon -= 360;
+      while (lon - prev < -180) lon += 360;
+    }
+    out.push([lon, p.lat]);
+    prev = lon;
+  }
+  return out;
+}
+
 export default function RouteMap({
   route,
   position,
@@ -65,20 +87,21 @@ export default function RouteMap({
     idle.current = setTimeout(() => setInteracting(false), 12_000);
   };
 
+  // Continuous longitudes: a line from 170° to −170° would otherwise be drawn
+  // the long way round the world instead of across the date line.
+  const path = useMemo(() => unwrap(route), [route]);
+
   const leg = useMemo(
     () => ({
       type: 'Feature' as const,
       properties: {},
-      geometry: {
-        type: 'LineString' as const,
-        coordinates: route.map((p) => [p.lon, p.lat])
-      }
+      geometry: { type: 'LineString' as const, coordinates: path }
     }),
-    [route]
+    [path]
   );
 
   const flown = useMemo(() => {
-    const passed = route.filter((p) => p.elapsedSeconds <= position.elapsedS);
+    const n = route.filter((p) => p.elapsedSeconds <= position.elapsedS).length;
     return {
       type: 'Feature' as const,
       properties: {},
@@ -86,15 +109,15 @@ export default function RouteMap({
         type: 'LineString' as const,
         // A single point is not a line; repeat it so the source stays valid.
         coordinates:
-          passed.length > 1
-            ? passed.map((p) => [p.lon, p.lat])
+          n > 1
+            ? path.slice(0, n)
             : [
                 [position.lon, position.lat],
                 [position.lon, position.lat]
               ]
       }
     };
-  }, [route, position.elapsedS, position.lat, position.lon]);
+  }, [route, path, position.elapsedS, position.lat, position.lon]);
 
   const places = useMemo(
     () => ({
@@ -114,7 +137,7 @@ export default function RouteMap({
   );
 
   return (
-    <View style={styles.fill}>
+    <View {...decorative} style={styles.fill}>
       <Map
         style={styles.fill}
         mapStyle={MAP_STYLE_URL}

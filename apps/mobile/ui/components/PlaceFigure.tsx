@@ -2,6 +2,7 @@ import { View, StyleSheet } from 'react-native';
 import Svg, { Path, Circle, Line, Defs, Pattern, Rect } from 'react-native-svg';
 import type { POICategory } from '@skyatlas/shared';
 import { palette } from '../design/tokens';
+import { decorative } from '../design/layout';
 
 interface Props {
   category: POICategory;
@@ -20,13 +21,16 @@ interface Props {
  *
  * Deterministic from the seed: a place looks the same every time it is opened,
  * which matters when the point is collecting them.
+ *
+ * Decorative to a screen reader: the category it draws is printed on the plate
+ * above it.
  */
 export default function PlaceFigure({ category, seed, height = 190 }: Props) {
   const rand = makeRandom(seed);
   const W = 400;
 
   return (
-    <View style={[styles.wrap, { height }]}>
+    <View {...decorative} style={[styles.wrap, { height }]}>
       <Svg width="100%" height={height} viewBox={`0 0 ${W} ${height}`} preserveAspectRatio="xMidYMid slice">
         <Defs>
           <Pattern id="hatch" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">

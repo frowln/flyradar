@@ -62,9 +62,11 @@ const styles = StyleSheet.create({
     borderTopWidth: line.hair,
     height: 78,
     paddingBottom: s.x6,
-    paddingTop: s.x3
+    // The top inset lives on the icon rather than the bar, so each tab's touch
+    // target runs to the bar's top edge (53pt) instead of stopping at 41pt.
+    paddingTop: 0
   },
-  icon: { height: 3, marginBottom: s.x2 },
+  icon: { height: 3, marginTop: s.x3, marginBottom: s.x2 },
   mark: {
     width: 22,
     height: 2,

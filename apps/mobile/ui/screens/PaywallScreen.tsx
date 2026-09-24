@@ -102,6 +102,7 @@ export default function PaywallScreen() {
             <PressSurface
               onPress={() => nav.goBack()}
               accessibilityLabel={t('common.cancel')}
+              hitSlop={s.x2}
               style={styles.close}
             >
               <Label tone="dim">{t('common.cancel')}</Label>
@@ -110,7 +111,7 @@ export default function PaywallScreen() {
 
           <Space h={s.x6} />
           <Gutter>
-            <Display>{t('paywall.title')}</Display>
+            <Display accessibilityRole="header">{t('paywall.title')}</Display>
             <Space h={s.x3} />
             <Body tone="muted" style={styles.measure}>
               {t('paywall.body')}
@@ -129,7 +130,7 @@ export default function PaywallScreen() {
 
           <Space h={s.x8} />
           <Gutter>
-            <Label tone="dim">{t('paywall.choose')}</Label>
+            <Label tone="dim" accessibilityRole="header">{t('paywall.choose')}</Label>
           </Gutter>
           <Space h={s.x3} />
 
@@ -141,7 +142,8 @@ export default function PaywallScreen() {
               <PressSurface
                 key={tier.id}
                 onPress={() => setSelected(tier.id)}
-                accessibilityLabel={`${t(`paywall.${tier.label}`)} ${price}`}
+                accessibilityLabel={`${t(`paywall.${tier.label}`)}, ${price}, ${t(`paywall.${tier.note}`)}`}
+                accessibilityState={{ selected: on }}
                 style={[styles.tier, on && styles.tierOn]}
               >
                 <View style={styles.tierText}>
@@ -167,7 +169,7 @@ export default function PaywallScreen() {
 
       {busy ? (
         <View style={styles.busy}>
-          <ActivityIndicator color={palette.amber} />
+          <ActivityIndicator color={palette.amber} accessibilityLabel={t('common.loading')} />
         </View>
       ) : (
         <ActionBar label={t('paywall.subscribe')} onPress={buy} />

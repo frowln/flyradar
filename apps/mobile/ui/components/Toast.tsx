@@ -1,9 +1,10 @@
 import { useEffect, useRef } from 'react';
-import { Animated, StyleSheet } from 'react-native';
+import { Animated, StyleSheet, AccessibilityInfo, Platform } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { create } from 'zustand';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Body } from '../design/type';
+import { useReducedMotion } from '../motion';
 
 /** A single line of feedback at the top edge. Quiet, brief, never stacked. */
 
@@ -29,10 +30,15 @@ export default function Toast() {
   const { message, tone } = useToast();
   const insets = useSafeAreaInsets();
   const y = useRef(new Animated.Value(-120)).current;
+  const reduced = useReducedMotion();
 
   useEffect(() => {
-    Animated.spring(y, { toValue: message ? 0 : -120, useNativeDriver: true, tension: 90, friction: 14 }).start();
-  }, [message, y]);
+    if (reduced) y.setValue(message ? 0 : -120);
+    else Animated.spring(y, { toValue: message ? 0 : -120, useNativeDriver: true, tension: 90, friction: 14 }).start();
+    // Android speaks the live region below; VoiceOver ignores live regions and
+    // has to be told.
+    if (message && Platform.OS === 'ios') AccessibilityInfo.announceForAccessibility(message);
+  }, [message, y, reduced]);
 
   if (!message) return null;
   const edge = tone === 'good' ? palette.good : tone === 'bad' ? palette.bad : palette.amber;
