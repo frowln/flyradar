@@ -1755,5 +1755,383 @@
         "Un désert de sel"
       ]
     }
+  },
+  "Q2933": {
+    "t": "La « mère des villes », dans une boucle du fleuve Paraguay",
+    "s": "Asunción s’étend sur la rive est du fleuve Paraguay, là où il s’incurve autour d’une large baie. En face commence le Chaco, une plaine plate vert-brun de marais et de broussailles qui file vers l’ouest sur des centaines de kilomètres. Fondée en 1537, c’est l’une des plus anciennes villes d’Amérique du Sud, et ses colons en fondèrent bien d’autres, dont Buenos Aires, pour de bon, en 1580.",
+    "w": "Une ville à l’extérieur d’une grande boucle de fleuve, près d’une baie arrondie ; des plaines plates, humides et broussailleuses à l’ouest.",
+    "f": [
+      "Le Pilcomayo rejoint le Paraguay juste en aval de la ville.",
+      "Santa Cruz de la Sierra, aujourd’hui en Bolivie, a elle aussi été fondée par une expédition partie d’Asunción, en 1561."
+    ],
+    "q": {
+      "q": "Pourquoi appelle-t-on Asunción la « mère des villes » ?",
+      "a": "Ses colons ont fondé d’autres villes",
+      "x": [
+        "C’est la plus vieille ville d’Amérique",
+        "Elle a la plus vieille cathédrale"
+      ]
+    }
+  },
+  "Q3274": {
+    "t": "Une capitale lacustre semée de lacs de cratère ronds",
+    "s": "Managua s’étire le long de la rive sud du lac de Managua, et dans la ville même on repère de petits lacs de cratère ronds, anciennes bouches volcaniques remplies d’eau. À l’extrémité nord-ouest du lac se dresse le cône presque parfait du Momotombo. La ville est devenue la capitale du Nicaragua en 1852, compromis entre les villes rivales de León et de Granada.",
+    "w": "Une ville basse et étalée sur la rive sud d’un grand lac ; des lacs de cratère ronds et bleus alentour ; un cône volcanique au nord-ouest.",
+    "f": [
+      "La lagune d’Asososca, l’un des lacs de cratère, fournit une partie de l’eau potable de la ville.",
+      "Le lac Nicaragua, le plus grand lac d’Amérique centrale, se trouve à environ 30 km au sud-est."
+    ],
+    "q": {
+      "q": "Pourquoi Managua est-elle devenue capitale du Nicaragua en 1852 ?",
+      "a": "Un compromis entre villes rivales",
+      "x": [
+        "Elle avait le meilleur port",
+        "C’était la plus grande ville"
+      ]
+    }
+  },
+  "Q3306": {
+    "t": "Là où les navires font la queue pour le canal de Panama",
+    "s": "Regardez la mer au large de Panama : vous verrez souvent des dizaines de navires au mouillage, attendant leur tour pour le canal. Les tours de la ville bordent une baie incurvée, juste à côté de l’entrée pacifique du canal. Fondée en 1519, la ville d’origine fut la première ville européenne de la côte pacifique des Amériques. Le canal, ouvert en 1914, traverse l’isthme sur environ 80 km.",
+    "w": "Une ville de tours le long d’une baie incurvée ; des navires semés au large ; un canal et un pont juste à l’ouest.",
+    "f": [
+      "Curiosité : l’extrémité pacifique du canal se trouve plus à l’est que son extrémité atlantique.",
+      "La chaussée d’Amador, qui relie de petites îles à l’entrée du canal, a été bâtie avec la roche extraite pour le creuser.",
+      "Des écluses hissent les navires d’environ 26 m jusqu’au lac Gatún, au milieu de l’isthme."
+    ],
+    "q": {
+      "q": "Quelle extrémité du canal de Panama est la plus à l’est ?",
+      "a": "L’extrémité pacifique",
+      "x": [
+        "L’extrémité atlantique",
+        "Elles sont sur la même longitude"
+      ]
+    }
+  },
+  "Q124739": {
+    "t": "Une ville plaquée contre la frontière américaine",
+    "s": "Tijuana remplit un fouillis de mesas et de canyons à l’extrême nord-ouest du Mexique, et sa bordure nord est une ligne droite et dure : la frontière des États-Unis, avec San Diego au-delà. La piste de l’aéroport longe cette ligne de si près qu’une passerelle permet aux passagers d’y entrer directement depuis le côté américain. La ville a été officiellement fondée en 1889.",
+    "w": "Une ville dense sur un terrain vallonné et raviné, coupée au nord par une ligne droite très nette ; le Pacifique à l’ouest.",
+    "f": [
+      "Le poste de San Ysidro, entre Tijuana et San Diego, est l’un des passages frontaliers terrestres les plus fréquentés du monde.",
+      "Le fleuve Tijuana coule vers le nord, franchit la frontière et rejoint le Pacifique aux États-Unis."
+    ],
+    "q": {
+      "q": "Que longe la piste de l’aéroport de Tijuana ?",
+      "a": "La frontière avec les États-Unis",
+      "x": [
+        "La côte pacifique",
+        "Un canal d’irrigation"
+      ]
+    }
+  },
+  "Q61302": {
+    "t": "Une capitale du haut désert, porte du canyon du Cuivre",
+    "s": "Chihuahua se trouve sur un large plateau sec à environ 1 400 m, cerné de chaînes rocheuses nues ; c’est la capitale du plus grand État du Mexique. Elle a été fondée en 1709 comme ville minière d’argent. D’ici, le chemin de fer Chihuahua-Pacifique part vers le sud-ouest à travers la Sierra Madre et le canyon du Cuivre, un réseau de gorges plus profond par endroits que le Grand Canyon.",
+    "w": "Une ville sur un bassin de haut désert plat et fauve, cerné de chaînes rocheuses nues ; la sombre Sierra Madre loin à l’ouest.",
+    "f": [
+      "Le chemin de fer Chihuahua-Pacifique, achevé en 1961, franchit des dizaines de ponts et de tunnels.",
+      "Le minuscule chien chihuahua tire son nom de l’État de Chihuahua."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui part de Chihuahua à travers le canyon du Cuivre ?",
+      "a": "Un chemin de fer vers le Pacifique",
+      "x": [
+        "Un fleuve navigable",
+        "Un téléphérique"
+      ]
+    }
+  },
+  "Q40194": {
+    "t": "Un port du Pacifique sur une péninsule, sous le tropique",
+    "s": "Mazatlán occupe une péninsule rocheuse de la côte pacifique mexicaine, avec un long front de mer qui s’incurve vers le nord le long de la plage et trois petites îles juste au large. Le tropique du Cancer passe à seulement 25 km environ au nord : au solstice de juin, le soleil de midi y est presque au zénith. Le nom vient du nahuatl et signifie « lieu des cerfs ».",
+    "w": "Une ville sur une péninsule bosselée et le long d’une longue plage droite ; de petites îles au large ; collines vertes et Sierra Madre à l’intérieur.",
+    "f": [
+      "Le phare du Cerro del Crestón brille à environ 157 m au-dessus de la mer : l’un des plus hauts du monde.",
+      "D’ici, des ferries traversent le golfe de Californie jusqu’à La Paz, en Basse-Californie."
+    ],
+    "q": {
+      "q": "Que signifie « Mazatlán » en nahuatl ?",
+      "a": "Lieu des cerfs",
+      "x": [
+        "Lieu des poissons",
+        "Lieu du soleil"
+      ]
+    }
+  },
+  "Q273014": {
+    "t": "Un port pétrolier parmi les lagunes, au bord du Pánuco",
+    "s": "Tampico se trouve à quelques kilomètres en amont de l’embouchure du Pánuco sur le golfe du Mexique, et l’eau est partout : lagunes dans la ville, marais autour, large fleuve brun au sud. Au début du XXe siècle, le pétrole découvert tout près en fit l’un des ports pétroliers les plus actifs du monde. Cherchez le long pont à haubans qui franchit le fleuve.",
+    "w": "Une ville entre des lagunes et un large fleuve près de la côte ; des marais tout autour ; un long pont sur le fleuve au sud.",
+    "f": [
+      "La ville moderne a été refondée en 1823 près du site d’un établissement colonial plus ancien.",
+      "La Laguna del Carpintero, en pleine ville, abrite des crocodiles."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a fait la fortune de Tampico au début du XXe siècle ?",
+      "a": "Le pétrole",
+      "x": [
+        "L’argent",
+        "Le sucre"
+      ]
+    }
+  },
+  "Q81398": {
+    "t": "Une baie en fer à cheval dans un amphithéâtre de collines",
+    "s": "Acapulco s’enroule autour de l’une des baies les mieux dessinées du Pacifique, un fer à cheval bleu profond, la ville grimpant de tous côtés sur les collines abruptes comme les gradins d’un amphithéâtre. Pendant quelque 250 ans, à partir de 1565, les galions espagnols partirent d’ici pour Manille, emportant l’argent vers l’ouest et rapportant d’Asie soie et porcelaine.",
+    "w": "Une baie profonde et arrondie, presque fermée par des caps ; des immeubles blancs sur les collines vertes ; de longues plages à l’est.",
+    "f": [
+      "À La Quebrada, les plongeurs de falaise sautent d’environ 35 m dans une étroite crique rocheuse.",
+      "Le fort San Diego, en étoile, a été bâti au XVIIe siècle pour garder le port des galions."
+    ],
+    "q": {
+      "q": "Vers quel port d’Asie les galions d’Acapulco faisaient-ils voile ?",
+      "a": "Manille",
+      "x": [
+        "Macao",
+        "Nagasaki"
+      ]
+    }
+  },
+  "Q173270": {
+    "t": "Là où Cortés a débarqué, l’Orizaba à l’horizon",
+    "s": "Veracruz s’étend sur une portion basse et sableuse de la côte du golfe du Mexique, avec un port actif et, au large, les formes pâles de récifs coralliens dans une eau turquoise. Hernán Cortés débarqua sur cette côte en 1519 et fonda Villa Rica de la Vera Cruz, la première ville espagnole de l’actuel Mexique. Par temps clair, cherchez à l’ouest le cône blanc du pic d’Orizaba.",
+    "w": "Une ville portuaire plate sur une côte rectiligne ; digues et quais ; des récifs pâles au large ; un volcan enneigé loin à l’ouest.",
+    "f": [
+      "La forteresse de San Juan de Ulúa, commencée au XVIe siècle, se dresse sur une ancienne île à l’entrée du port.",
+      "Les récifs au large de la ville sont protégés en parc national marin.",
+      "Le site de la ville s’est déplacé plus d’une fois avant de se fixer ici vers 1600."
+    ],
+    "q": {
+      "q": "Que signifie le nom Veracruz ?",
+      "a": "Vraie Croix",
+      "x": [
+        "Côte verte",
+        "Port sacré"
+      ]
+    }
+  },
+  "Q207429": {
+    "t": "Une ville de vallée au bord d’un canyon de 1 000 m",
+    "s": "Tuxtla Gutiérrez s’étend sur une vallée chaude et verte du Chiapas, et juste au nord-est la terre se fend : le canyon du Sumidero, où le Grijalva coule entre des falaises hautes d’environ 1 000 m. D’en haut, on dirait une fissure sombre dans le plateau. Le nom Tuxtla vient d’un mot nahuatl qu’on traduit généralement par « lieu des lapins ».",
+    "w": "Une longue ville dans une vallée est-ouest ; au nord-est, une gorge profonde et sinueuse, une rivière bleu-vert au fond.",
+    "f": [
+      "En aval, le barrage de Chicoasén transforme la rivière en un long réservoir qui serpente dans les montagnes.",
+      "La seconde moitié du nom honore Joaquín Miguel Gutiérrez, homme politique du Chiapas au XIXe siècle."
+    ],
+    "q": {
+      "q": "Quel canyon s’ouvre juste au nord-est de Tuxtla Gutiérrez ?",
+      "a": "Le canyon du Sumidero",
+      "x": [
+        "Le canyon du Cuivre",
+        "Le canyon de la Huasteca"
+      ]
+    }
+  },
+  "Q8969": {
+    "t": "Une station en forme de 7 sur une eau turquoise",
+    "s": "La zone hôtelière de Cancún se repère facilement : une mince bande de sable blanc en forme de 7, avec la mer des Caraïbes turquoise d’un côté et la lagune de Nichupté, calme et plus sombre, de l’autre. Jusque vers 1970, il n’y avait presque rien ici : la station a été planifiée de toutes pièces. À l’intérieur s’étend le Yucatán, plat et vert, sans une seule rivière en surface.",
+    "w": "Une étroite île blanche en forme de 7 qui enferme une lagune ; une mer turquoise vif à l’est ; une jungle plate et verte à l’intérieur.",
+    "f": [
+      "Juste au large commence le récif mésoaméricain, deuxième plus grand système de barrière de corail du monde.",
+      "Sur le calcaire du Yucatán, l’eau de pluie s’infiltre vers des gouffres souterrains appelés cenotes.",
+      "Isla Mujeres, petite île au nord, se trouve à environ 13 km de l’autre côté de l’eau."
+    ],
+    "q": {
+      "q": "Quelle forme a l’île de la zone hôtelière de Cancún ?",
+      "a": "Celle du chiffre 7",
+      "x": [
+        "Celle d’un croissant",
+        "Celle d’un anneau"
+      ]
+    }
+  },
+  "Q165204": {
+    "t": "La Ville blanche, au-dessus d’un cratère d’astéroïde enfoui",
+    "s": "Mérida s’étale sur la plaine calcaire parfaitement plate du Yucatán, sans rivière, colline ni lac pour rompre la brousse. En dessous se cache un secret : le cratère enfoui de Chicxulub, creusé par l’astéroïde qui contribua à la fin des dinosaures, est centré sur la côte, juste au nord de la ville. Les Espagnols fondèrent Mérida en 1542 sur le site de la cité maya de T’hó.",
+    "w": "Une grande ville basse et claire sur une plaine verte parfaitement plate ; la côte et le port de Progreso à environ 35 km au nord.",
+    "f": [
+      "Un anneau de cenotes, gouffres remplis d’eau, dessine autour de la ville une partie du rebord enfoui du cratère.",
+      "À la fin du XIXe siècle, la fibre de sisal des plantations d’hénequen fit de Mérida l’une des villes les plus riches du Mexique.",
+      "Le cratère mesure environ 180 km de diamètre, mais il est enfoui et invisible depuis le ciel."
+    ],
+    "q": {
+      "q": "Qu’y a-t-il d’enfoui sous la région de Mérida ?",
+      "a": "Un cratère d’impact d’astéroïde",
+      "x": [
+        "Une caldeira volcanique",
+        "Un ancien lac salé"
+      ]
+    }
+  },
+  "Q2900": {
+    "t": "Une capitale longue et mince sur un volcan, sous l’équateur",
+    "s": "Quito est coincée dans une étroite vallée andine à environ 2 850 m, étirée sur quelque 40 km du nord au sud au flanc du volcan Pichincha. L’équateur passe à environ 25 km au nord seulement. Par temps clair, cherchez au sud le cône enneigé parfait du Cotopaxi. En 1978, la vieille ville de Quito fut parmi les tout premiers sites inscrits au patrimoine mondial.",
+    "w": "Une ville longue et étroite plaquée contre les pentes d’un grand volcan ; des ravins profonds à l’est ; des cônes enneigés à l’horizon.",
+    "f": [
+      "Le Cotopaxi, environ 5 900 m, est l’un des plus hauts volcans actifs du monde.",
+      "L’aéroport se trouve sur un plateau à l’est de la ville, plus bas que Quito elle-même."
+    ],
+    "q": {
+      "q": "À quelle distance de l’équateur se trouve Quito ?",
+      "a": "Environ 25 km",
+      "x": [
+        "Environ 250 km",
+        "Elle est juste dessus"
+      ]
+    }
+  },
+  "Q3070": {
+    "t": "Une capitale dans une vallée verte cernée de volcans",
+    "s": "San José remplit le cœur de la Vallée centrale du Costa Rica, à environ 1 150 m : une cuvette de toits rouges et de collines vert café, bordée de volcans. Au nord se dressent le Poás et le Barva, à l’est l’Irazú et le Turrialba. Du sommet de l’Irazú, par un rare jour clair, on voit le Pacifique et la mer des Caraïbes. La ville est devenue la capitale du pays en 1823.",
+    "w": "Une ville étalée dans une vallée verte, des montagnes volcaniques au nord et à l’est ; des plantations de café sur les pentes.",
+    "f": [
+      "L’Irazú, environ 3 430 m, est le plus haut volcan du Costa Rica.",
+      "Le café des pentes volcaniques, au XIXe siècle, a payé une grande part de la splendeur de la ville, dont son Théâtre national."
+    ],
+    "q": {
+      "q": "De quel volcan près de San José voit-on les deux océans ?",
+      "a": "L’Irazú",
+      "x": [
+        "L’Arenal",
+        "Le Masaya"
+      ]
+    }
+  },
+  "Q3110": {
+    "t": "Une capitale entre un volcan et un lac de caldeira",
+    "s": "San Salvador s’étend dans une vallée au pied du volcan San Salvador, dont le cratère sommital, El Boquerón, est un gouffre rond d’environ 1,5 km de large. À l’est de la ville s’étend le lac d’Ilopango, qui remplit la caldeira d’une éruption colossale survenue il y a quelque 1 500 ans. Les colons espagnols ont déplacé la ville dans cette vallée au XVIe siècle ; c’est aujourd’hui la capitale du pays.",
+    "w": "Une ville dense au pied est d’un grand volcan au cratère rond ; un grand lac de caldeira bleu à l’est.",
+    "f": [
+      "Le cratère du Boquerón fait environ 500 m de profondeur, avec un petit cône à l’intérieur.",
+      "Le lac d’Ilopango couvre environ 70 km²."
+    ],
+    "q": {
+      "q": "Quel lac remplit la caldeira à l’est de San Salvador ?",
+      "a": "Le lac d’Ilopango",
+      "x": [
+        "Le lac Atitlán",
+        "Le lac de Coatepeque"
+      ]
+    }
+  },
+  "Q34692": {
+    "t": "Une ville portuaire derrière une longue flèche de sable",
+    "s": "Kingston fait face à l’une des plus grandes rades naturelles du monde, fermée côté Caraïbes par les Palisadoes, une flèche de sable de plus de 10 km, à peine assez large pour une route et la piste de l’aéroport. À son extrémité se trouve Port Royal, jadis repaire notoire de boucaniers. Derrière la ville se dressent les Blue Mountains, patrie de l’un des cafés les plus célèbres du monde.",
+    "w": "Une rade large et calme fermée par une longue flèche incurvée portant une piste ; une ville étalée sous des montagnes au nord.",
+    "f": [
+      "Le Blue Mountain Peak, environ 2 260 m, est le point culminant de la Jamaïque.",
+      "Kingston a été tracée en 1692 et est devenue la capitale de la Jamaïque en 1872."
+    ],
+    "q": {
+      "q": "Qu’y a-t-il sur la longue flèche qui ferme la rade de Kingston ?",
+      "a": "L’aéroport international",
+      "x": [
+        "Une voie ferrée",
+        "Des salines"
+      ]
+    }
+  },
+  "Q657461": {
+    "t": "Un port colonial fortifié parmi baies et lagunes",
+    "s": "Carthagène est un labyrinthe d’eau : une grande baie abritée semée d’îles, des lagunes intérieures et des chenaux, et une étroite péninsule bordée de tours blanches. En son cœur, la vieille ville est toujours ceinte de remparts coloniaux en pierre, environ 11 km, bâtis pour protéger un port de trésors. Pedro de Heredia fonda la ville en 1533 ; son centre fortifié est inscrit au patrimoine mondial.",
+    "w": "Une ville côtière autour de baies et de lagunes ; une mince péninsule de tours ; des îles dans la baie ; des îlots coralliens au sud-ouest.",
+    "f": [
+      "Les îles du Rosaire, archipel corallien au sud-ouest de la ville, sont protégées en parc national.",
+      "Les flottes espagnoles y faisaient escale pour charger l’argent et l’or destinés à l’Espagne."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui entoure la vieille ville de Carthagène ?",
+      "a": "Des remparts coloniaux en pierre",
+      "x": [
+        "Un large canal circulaire",
+        "Des digues de terre"
+      ]
+    }
+  },
+  "Q130242": {
+    "t": "Une ville fluviale perdue dans un océan de forêt amazonienne",
+    "s": "Mitú est une petite ville au bord du Vaupés, à l’extrême sud-est de la Colombie, entourée de tous côtés par une forêt tropicale ininterrompue. Aucune route ne la relie au reste du pays : gens et marchandises arrivent par avion ou par bateau. D’en haut, la rivière serpente dans le vert comme un ruban sombre, avec la clairière de la ville et sa piste sur la rive.",
+    "w": "Une petite clairière avec une piste au bord d’une rivière sombre et sinueuse ; une canopée verte sans fin tout autour.",
+    "f": [
+      "Le Vaupés coule vers l’est jusqu’au Brésil, où, sous le nom d’Uaupés, il rejoint le rio Negro.",
+      "La plupart des habitants de la région appartiennent à des peuples autochtones comme les Cubeo et les Tukano."
+    ],
+    "q": {
+      "q": "Comment rejoint-on Mitú depuis le reste de la Colombie ?",
+      "a": "Seulement par avion ou par la rivière",
+      "x": [
+        "Par la route",
+        "Par le train"
+      ]
+    }
+  },
+  "Q1555": {
+    "t": "Une capitale de plateau ravinée, sous l’œil des volcans",
+    "s": "Guatemala Ciudad est posée sur un haut plateau à environ 1 500 m, entaillé de profonds ravins verts : la ville s’étire sur des doigts de terre plate entre eux. Au sud-ouest se dresse une rangée de volcans : l’Agua, l’Acatenango et le Fuego, souvent suivi d’un panache de cendres. La capitale a été transférée ici en 1776 depuis Antigua, dans la vallée voisine à l’ouest.",
+    "w": "Une grande ville sur un plateau fendu de ravins verts et profonds ; de hauts cônes volcaniques au sud-ouest, dont un fume souvent.",
+    "f": [
+      "Les ruines de Kaminaljuyú, grand établissement maya fondé il y a plus de 2 000 ans, se trouvent dans la ville actuelle.",
+      "Le Pacaya, autre volcan actif, se dresse juste au sud de la ville."
+    ],
+    "q": {
+      "q": "Quelle ville était la capitale du Guatemala avant 1776 ?",
+      "a": "Antigua Guatemala",
+      "x": [
+        "Quetzaltenango",
+        "Tikal"
+      ]
+    }
+  },
+  "Q44401": {
+    "t": "Un morceau de France au bord de la forêt amazonienne",
+    "s": "Cayenne occupe une petite presqu’île vallonnée à l’embouchure de la rivière de Cayenne, avec devant elle une mer brune et boueuse, et derrière la forêt tropicale. La Guyane fait partie de la France : voici donc une ville de l’Union européenne en Amérique du Sud, qui utilise l’euro. À quelque 60 km le long de la côte se trouve Kourou, d’où partent les fusées européennes, près de l’équateur.",
+    "w": "Une petite ville sur une presqu’île bosselée à l’embouchure d’une rivière ; une mer brune et boueuse ; une forêt dense à l’intérieur.",
+    "f": [
+      "L’eau brune de la côte est teintée par le limon de l’Amazone, que les courants poussent vers le nord-ouest le long du rivage.",
+      "La forêt couvre l’immense majorité du territoire guyanais."
+    ],
+    "q": {
+      "q": "Quelle monnaie utilise-t-on à Cayenne ?",
+      "a": "L’euro",
+      "x": [
+        "Le real brésilien",
+        "Le dollar guyanien"
+      ]
+    }
+  },
+  "Q51599": {
+    "t": "Un port balayé par le vent sur le détroit de Magellan",
+    "s": "Punta Arenas s’étire le long de la rive ouest du détroit de Magellan, face aux collines basses et fauves de la Terre de Feu. Les navires de Fernand de Magellan empruntèrent ce passage en 1520. Avant l’ouverture du canal de Panama, la ville était une escale charbonnière animée pour les vapeurs qui passaient d’un océan à l’autre. Aujourd’hui, des avions en partent pour l’Antarctique.",
+    "w": "Une ville étirée le long d’un large détroit gris-bleu ; une steppe sans arbres à l’intérieur ; en face, les rives plates de la Terre de Feu.",
+    "f": [
+      "Le Chili a fondé la ville en 1848.",
+      "C’est l’une des villes de plus de 100 000 habitants les plus australes du monde."
+    ],
+    "q": {
+      "q": "Sur quel détroit donne Punta Arenas ?",
+      "a": "Le détroit de Magellan",
+      "x": [
+        "Le passage de Drake",
+        "Le canal Beagle"
+      ]
+    }
+  },
+  "Q14440": {
+    "t": "Un port du désert coincé sous une falaise et une dune géante",
+    "s": "Iquique occupe une étroite corniche entre le Pacifique et un escarpement côtier qui s’élève de quelque 600 m juste derrière : le rebord du désert d’Atacama. Dans la ville même se dresse une immense dune de sable, le Cerro Dragón. Sur le plateau nu, à l’intérieur, dorment les villes fantômes du boom du salpêtre, au XIXe siècle, qui fit la richesse de ce port.",
+    "w": "Une ville sur une mince bande côtière sous un haut escarpement fauve ; une grande dune pâle entre les maisons ; un désert totalement nu au-dessus.",
+    "f": [
+      "Les salpêtrières abandonnées de Humberstone et Santa Laura, à l’intérieur, sont inscrites au patrimoine mondial de l’UNESCO.",
+      "La pluie est si rare ici que des années peuvent passer sans une seule averse."
+    ],
+    "q": {
+      "q": "Quelle curiosité naturelle se dresse dans la ville d’Iquique ?",
+      "a": "Une immense dune de sable",
+      "x": [
+        "Un volcan",
+        "Un glacier"
+      ]
+    }
   }
 }

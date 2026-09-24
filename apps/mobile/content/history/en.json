@@ -3298,5 +3298,305 @@
         "An elephant"
       ]
     }
+  },
+  "aksum": {
+    "name": "Aksum",
+    "era": "1st – 7th c. AD",
+    "t": "Giant stone stelae of an African empire",
+    "s": "In the highlands of northern Ethiopia stood Aksum, capital of a trading empire that dealt with Rome, Persia and India and minted its own gold coins. Its kings raised towering carved stone stelae over royal tombs, and in the 4th century King Ezana adopted Christianity. Ethiopian tradition holds that the Ark of the Covenant rests in a chapel here. From above, look for rugged highland plateaus cut by deep valleys.",
+    "w": "Look for high, rugged plateaus cut by deep valleys in the far north of Ethiopia.",
+    "f": [
+      "The tallest stela still standing is about 24 m high.",
+      "A fallen stela about 33 m long may be the largest single stone ancient people tried to raise.",
+      "Aksum became a UNESCO World Heritage site in 1980."
+    ],
+    "q": {
+      "q": "Which king of Aksum adopted Christianity?",
+      "a": "Ezana",
+      "x": [
+        "Lalibela",
+        "Menelik"
+      ]
+    }
+  },
+  "lalibela": {
+    "name": "Lalibela",
+    "era": "late 12th – early 13th c.",
+    "t": "Churches carved down into solid rock",
+    "s": "High in the mountains of Ethiopia, eleven churches were carved not upward but downward, out of solid volcanic rock, around 800 years ago. King Lalibela is said to have wanted a new Jerusalem, and pilgrims still fill the churches at Christmas. The most famous, St George, is shaped like a cross when seen from above. From cruise, look for rugged highland ridges and deep valleys.",
+    "w": "Look for high, rugged mountains and deep gorges in the Ethiopian highlands, east of Lake Tana.",
+    "f": [
+      "Most of the churches were cut free from the surrounding rock, windows and doors included.",
+      "Lalibela was among the first 12 sites on UNESCO's World Heritage list in 1978.",
+      "The churches are still used for worship every day."
+    ],
+    "q": {
+      "q": "What shape is Lalibela's Church of St George?",
+      "a": "A cross",
+      "x": [
+        "A circle",
+        "A star"
+      ]
+    }
+  },
+  "meroe": {
+    "name": "Meroë",
+    "era": "c. 590 BC – AD 350",
+    "t": "The steep pyramids of the Kush kingdom",
+    "s": "On the east bank of the Nile in Sudan, clusters of steep, narrow pyramids rise from the sand. They belong to Meroë, capital of the kingdom of Kush, which once ruled Egypt itself. Its rulers, including powerful queens, were buried under more than 200 pyramids. Meroë also smelted iron on a large scale. From above, look for the Nile's green ribbon, north of Khartoum, in wide desert.",
+    "w": "Look for the thin green line of the Nile winding through desert, about 200 km north-east of Khartoum.",
+    "f": [
+      "Sudan has more pyramids than Egypt, though they are smaller and steeper.",
+      "Kush's ruling queens held the title Kandake, the origin of the name Candace.",
+      "Meroitic writing can be read aloud, but the language is still barely understood."
+    ],
+    "q": {
+      "q": "What title did the ruling queens of Kush hold?",
+      "a": "Kandake",
+      "x": [
+        "Sultana",
+        "Begum"
+      ]
+    }
+  },
+  "kilwa": {
+    "name": "Kilwa Kisiwani",
+    "era": "9th – 16th c.",
+    "t": "The richest of the Swahili city-states",
+    "s": "On a small island off the coast of Tanzania stand the coral-stone ruins of Kilwa, a Swahili city-state that grew rich on the gold trade of the Indian Ocean. Its sultans built a great domed mosque and a vast palace overlooking the sea. The traveller Ibn Battuta visited in 1331 and praised it as one of the most beautiful towns in the world. From above, look for islands, mangroves and turquoise shallows.",
+    "w": "Look for small islands, mangrove channels and turquoise shallows on the coast about 300 km south of Dar es Salaam.",
+    "f": [
+      "The Great Mosque of Kilwa dates back to the 11th century.",
+      "Kilwa's coins have been found as far away as northern Australia.",
+      "Kilwa became a UNESCO World Heritage site in 1981."
+    ],
+    "q": {
+      "q": "Which traveller praised Kilwa in 1331?",
+      "a": "Ibn Battuta",
+      "x": [
+        "Marco Polo",
+        "Zheng He"
+      ]
+    }
+  },
+  "olduvai": {
+    "name": "Olduvai Gorge",
+    "era": "c. 2 million years ago – today",
+    "t": "A gorge that opened a window on human origins",
+    "s": "Between the Ngorongoro highlands and the Serengeti plains runs Olduvai Gorge, where layers of ancient lakeside sediment hold nearly two million years of human prehistory. Here Mary and Louis Leakey found early human fossils and some of the oldest stone tools known. From above, look for the vast round Ngorongoro crater and the pale Serengeti plains to its west; the gorge lies between them.",
+    "w": "Look for the huge round Ngorongoro crater; the gorge cuts the plains just north-west of it towards the Serengeti.",
+    "f": [
+      "Mary Leakey found the skull known as 'Nutcracker Man' here in 1959.",
+      "Its simple stone tools gave their name to the Oldowan tool-making tradition.",
+      "Nearby at Laetoli, footprints about 3.6 million years old were found in volcanic ash."
+    ],
+    "q": {
+      "q": "Who found the 'Nutcracker Man' skull in 1959?",
+      "a": "Mary Leakey",
+      "x": [
+        "Jane Goodall",
+        "Dian Fossey"
+      ]
+    }
+  },
+  "cradle-of-humankind": {
+    "name": "Cradle of Humankind",
+    "era": "c. 3.5 million years ago – today",
+    "t": "Limestone caves full of our ancestors",
+    "s": "In the rolling hills north-west of Johannesburg, a cluster of limestone caves has yielded a large share of the world's early human fossils. Famous finds include 'Mrs Ples', a skull more than two million years old, the nearly complete skeleton called 'Little Foot', and a species new to science, Homo naledi. From above, look for the Johannesburg sprawl and the Hartbeespoort reservoir among the ridges to its north-west.",
+    "w": "Look north-west of Johannesburg for grassy ridges and the Hartbeespoort Dam reservoir.",
+    "f": [
+      "'Mrs Ples' was found at Sterkfontein Caves in 1947.",
+      "Homo naledi was announced in 2015 from fossils found in the Rising Star cave system.",
+      "The Cradle of Humankind became a UNESCO World Heritage site in 1999."
+    ],
+    "q": {
+      "q": "What was the skull found at Sterkfontein in 1947 called?",
+      "a": "Mrs Ples",
+      "x": [
+        "Lucy",
+        "Toumaï"
+      ]
+    }
+  },
+  "hadar-lucy": {
+    "name": "Hadar, where Lucy was found",
+    "era": "3.2 million years ago; found 1974",
+    "t": "The badlands where 'Lucy' came to light",
+    "s": "In the hot Afar region of Ethiopia, along the Awash river, eroding badlands expose layers millions of years old. In 1974 a team found here a partial skeleton of an early human relative who lived about 3.2 million years ago. They called her Lucy, and she showed that our ancestors walked upright long before their brains grew large. From above, look for the green Awash valley in dry, volcanic land.",
+    "w": "Look for the green thread of the Awash river winding through dry, dark volcanic land in north-eastern Ethiopia.",
+    "f": [
+      "About 40 percent of Lucy's skeleton was recovered.",
+      "In Ethiopia she is also known as Dinkinesh, meaning 'you are marvellous'.",
+      "She belongs to the species Australopithecus afarensis, named after the Afar region."
+    ],
+    "q": {
+      "q": "Which song gave Lucy her name?",
+      "a": "Lucy in the Sky with Diamonds",
+      "x": [
+        "Hey Jude",
+        "Yellow Submarine"
+      ]
+    }
+  },
+  "swahili-coast": {
+    "name": "Swahili coast",
+    "era": "9th c. – today",
+    "t": "Coral-stone towns of the monsoon trade",
+    "s": "Along the coast of East Africa grew a chain of trading towns, from Lamu and Mombasa to Zanzibar and Kilwa. Their merchants used the monsoon winds to trade with Arabia, Persia and India, and built in coral stone with carved wooden doors. The Swahili language and culture grew from African roots with many words borrowed from Arabic. From above, look for reefs, lagoons and white beaches along a green coast.",
+    "w": "Look for coral reefs, turquoise lagoons and islands along a green coast between southern Somalia and Tanzania.",
+    "f": [
+      "'Swahili' comes from an Arabic word meaning 'coasts'.",
+      "Lamu Old Town is the oldest and best-preserved Swahili town, a UNESCO site since 2001.",
+      "Dhows, wooden sailing ships, still use the monsoon winds along this coast."
+    ],
+    "q": {
+      "q": "What does the Arabic root of 'Swahili' mean?",
+      "a": "Coasts",
+      "x": [
+        "Islands",
+        "Traders"
+      ]
+    }
+  },
+  "tassili-rock-art": {
+    "name": "Tassili n'Ajjer rock art",
+    "era": "c. 6000 BC – 1st c. AD",
+    "t": "Paintings from the time when the Sahara was green",
+    "s": "On a sandstone plateau in the Algerian Sahara, carved into a maze of rock pillars, are thousands of paintings and engravings. They show giraffes, hippos and elephants, and herders with cattle, in a land that is now desert. The art records how the Sahara changed from green savanna to sand over thousands of years. From above, look for a dark, eroded plateau above the pale dunes near Djanet.",
+    "w": "Look for a dark, deeply eroded sandstone plateau rising above pale sand seas in south-eastern Algeria.",
+    "f": [
+      "More than 15,000 paintings and engravings have been recorded here.",
+      "The plateau's rock pillars are often called a 'forest of stone'.",
+      "Tassili n'Ajjer became a UNESCO World Heritage site in 1982."
+    ],
+    "q": {
+      "q": "What do the Tassili paintings reveal about the Sahara?",
+      "a": "It was once green",
+      "x": [
+        "It was once colder",
+        "It was always desert"
+      ]
+    }
+  },
+  "inca-road": {
+    "name": "Inca road (Qhapaq Ñan)",
+    "era": "15th – 16th c.",
+    "t": "An empire tied together by mountain roads",
+    "s": "The Incas built a road network of some 30,000 km along the Andes, from today's Colombia to Chile and Argentina. Its main spine ran through the mountains from Quito to Cusco and on south, with stairways cut into cliffs, rope bridges over gorges and way stations every day's walk. Relay runners carried messages along it. From above, look for high plateaus, snowy volcanoes and Lake Titicaca.",
+    "w": "Look for the high, bare Andean plateau, snowy volcano cones and the big blue Lake Titicaca.",
+    "f": [
+      "The Incas had no wheeled vehicles; the roads served walkers and llama caravans.",
+      "The Q'eswachaka rope bridge is still rebuilt by hand every year.",
+      "The road system became a UNESCO World Heritage site in 2014, shared by six countries."
+    ],
+    "q": {
+      "q": "Which Inca rope bridge is still rebuilt every year?",
+      "a": "Q'eswachaka",
+      "x": [
+        "Ollantaytambo",
+        "Sacsayhuamán"
+      ]
+    }
+  },
+  "camino-real-tierra-adentro": {
+    "name": "Camino Real de Tierra Adentro",
+    "era": "1598 – 1880s",
+    "t": "The royal silver road from Mexico City to Santa Fe",
+    "s": "For almost three centuries this was the main road north from Mexico City, running some 2,500 km through the silver-mining towns of Zacatecas and Durango, across the Chihuahuan desert and up the Rio Grande to Santa Fe. Wagons, mule trains and missionaries moved along it. From above, look for the high desert basins of northern Mexico and the green ribbon of the Rio Grande.",
+    "w": "Look for the high, dry basins of northern Mexico, and further north the green line of the Rio Grande.",
+    "f": [
+      "The Mexican part of the road became a UNESCO World Heritage site in 2010.",
+      "Santa Fe, at its northern end, is the oldest state capital in the United States.",
+      "Silver from the mines along it flowed south to Mexico City and on to Spain."
+    ],
+    "q": {
+      "q": "Which metal drove traffic on the Camino Real?",
+      "a": "Silver",
+      "x": [
+        "Copper",
+        "Tin"
+      ]
+    }
+  },
+  "oregon-trail": {
+    "name": "Oregon Trail",
+    "era": "1840s – 1860s",
+    "t": "Two thousand miles by covered wagon",
+    "s": "In the mid-19th century hundreds of thousands of settlers crossed the continent by covered wagon, on trails to Oregon, California and Utah. The Oregon Trail ran about 3,500 km from Missouri along the Platte River, over the Rockies at South Pass and down the Snake and Columbia rivers. The journey took four to six months. From above, look for the braided Platte River and the high plains of Wyoming.",
+    "w": "Look for the wide, braided Platte River across Nebraska, then the high, dry basins of Wyoming.",
+    "f": [
+      "Wagon ruts cut into rock are still visible near Guernsey, Wyoming.",
+      "Travellers aimed to reach Independence Rock by 4 July, hence its name.",
+      "South Pass let wagons cross the Continental Divide on a gentle slope."
+    ],
+    "q": {
+      "q": "How did Independence Rock get its name?",
+      "a": "Travellers aimed to reach it by 4 July",
+      "x": [
+        "It marked the US border",
+        "A treaty was signed there"
+      ]
+    }
+  },
+  "route-66": {
+    "name": "Route 66",
+    "era": "1926 – 1985",
+    "t": "America's Mother Road, Chicago to the Pacific",
+    "s": "Opened in 1926, Route 66 ran about 3,900 km from Chicago to Santa Monica, across prairie, the Texas Panhandle and the south-western deserts. It carried migrants west in the 1930s and holidaymakers in the 1950s, and its motels, diners and neon signs became American icons. Much of it is now replaced by interstates, but from above you can follow its line along the railway across the desert.",
+    "w": "Across Arizona and New Mexico, look for a highway and railway running side by side through red desert and mesas.",
+    "f": [
+      "John Steinbeck called it 'the Mother Road' in 'The Grapes of Wrath'.",
+      "The 1946 song '(Get Your Kicks on) Route 66' made it famous around the world.",
+      "It was officially removed from the US highway system in 1985."
+    ],
+    "q": {
+      "q": "Which writer called Route 66 'the Mother Road'?",
+      "a": "John Steinbeck",
+      "x": [
+        "Jack Kerouac",
+        "Mark Twain"
+      ]
+    }
+  },
+  "pony-express": {
+    "name": "Pony Express",
+    "era": "1860 – 1861",
+    "t": "Mail at a gallop across the West",
+    "s": "For about 18 months in 1860 and 1861, riders on fast horses carried mail across the American West, from Missouri to California in about ten days. They changed horses at relay stations every few dozen kilometres, across plains, deserts and the Sierra Nevada. Then the telegraph reached California and the service closed. From above, look for the ridges and dry basins of Nevada that the riders crossed.",
+    "w": "Look for Nevada's parallel mountain ridges and dry basins, and the Sierra Nevada rising to the west.",
+    "f": [
+      "The route ran about 3,000 km from St. Joseph, Missouri, to Sacramento.",
+      "There were around 190 stations along the way.",
+      "The service ended two days after the transcontinental telegraph was completed in October 1861."
+    ],
+    "q": {
+      "q": "What put the Pony Express out of business?",
+      "a": "The transcontinental telegraph",
+      "x": [
+        "The transcontinental railroad",
+        "Steamships round Cape Horn"
+      ]
+    }
+  },
+  "lewis-and-clark": {
+    "name": "Lewis and Clark expedition route",
+    "era": "1804 – 1806",
+    "t": "Up the Missouri and over the Rockies to the Pacific",
+    "s": "In 1804 Meriwether Lewis and William Clark set out from near St. Louis with the Corps of Discovery to find a route to the Pacific. They paddled up the Missouri, crossed the Rocky Mountains with horses from the Shoshone, and floated down the Columbia to the ocean. Along the way they mapped rivers and described hundreds of plants and animals. From above, follow the Missouri's wide reservoirs across the plains.",
+    "w": "Look for the Missouri River's long reservoirs across the northern plains, and the Columbia River gorge in the far west.",
+    "f": [
+      "Sacagawea, a Shoshone woman, travelled with them carrying her baby son.",
+      "They spent the winter of 1805–06 at Fort Clatsop, near the Pacific coast.",
+      "The round trip covered about 13,000 km."
+    ],
+    "q": {
+      "q": "Which Shoshone woman travelled with Lewis and Clark?",
+      "a": "Sacagawea",
+      "x": [
+        "Pocahontas",
+        "Nancy Ward"
+      ]
+    }
   }
 }
