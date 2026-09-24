@@ -116,7 +116,7 @@ export const de = {
     skip: 'überspringen',
     next: 'weiter',
     windowTitle: 'Was vor dem Fenster liegt',
-    windowBody: 'Berge, Meere, Städte und Grenzen entlang Ihrer Route – zu jedem die passende Geschichte, auch im Flugmodus.',
+    windowBody: 'Berge, Meere, Städte und Grenzen entlang Ihrer Route: worauf Sie achten sollten, was wissenswert ist und welche Geschichte unter der Tragfläche liegt. Auch im Flugmodus.',
     sideTitle: 'Welche Seite und wann',
     sideBody: 'Vor dem Check-in: welcher Fensterplatz sich lohnt. In der Luft: „links, in zehn Minuten“ – und Ruhe, wenn es nichts zu sehen gibt.',
     sideLeftSample: 'Elbrus · 94 km',

@@ -116,7 +116,7 @@ export const fr = {
     skip: 'passer',
     next: 'suivant',
     windowTitle: 'Ce qu’il y a derrière le hublot',
-    windowBody: 'Montagnes, mers, villes et frontières sous votre vol — avec leur histoire, même en mode avion.',
+    windowBody: 'Montagnes, mers, villes et frontières sous votre vol : ce qu’il faut chercher, ce qui est bon à savoir, et l’histoire sous l’aile. Même en mode avion.',
     sideTitle: 'De quel côté, et quand',
     sideBody: 'Avant l’enregistrement : quel hublot demander. En vol : « à gauche, dans dix minutes » — et le silence quand il n’y a rien à voir.',
     sideLeftSample: 'Elbrouz · 94 km',

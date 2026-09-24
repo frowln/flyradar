@@ -116,7 +116,7 @@ export const en = {
     skip: 'skip',
     next: 'next',
     windowTitle: 'What is out of the window',
-    windowBody: 'Mountains, seas, cities and borders under your flight — with the story of each, even in flight mode.',
+    windowBody: 'Mountains, seas, cities and borders under your flight: what to look for, what is worth knowing, and the history beneath the wing. Even in flight mode.',
     sideTitle: 'Which side, and when',
     sideBody: 'Before you check in: which window is worth asking for. In the air: "left, in ten minutes" — and quiet when there is nothing to see.',
     sideLeftSample: 'Elbrus · 94 km',

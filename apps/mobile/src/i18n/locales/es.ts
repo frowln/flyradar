@@ -116,7 +116,7 @@ export const es = {
     skip: 'omitir',
     next: 'siguiente',
     windowTitle: 'Lo que se ve por la ventanilla',
-    windowBody: 'Montañas, mares, ciudades y fronteras bajo tu vuelo, cada uno con su historia. Incluso en modo avión.',
+    windowBody: 'Montañas, mares, ciudades y fronteras bajo tu vuelo: qué buscar, qué vale la pena saber y la historia que pasa bajo el ala. Incluso en modo avión.',
     sideTitle: 'Qué lado y cuándo',
     sideBody: 'Antes de facturar: qué ventanilla conviene pedir. En el aire: «a la izquierda, en diez minutos», y silencio cuando no hay nada que ver.',
     sideLeftSample: 'Elbrús · 94 km',
