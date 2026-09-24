@@ -26,7 +26,7 @@ import { km, metres } from '../../src/core/units';
 import { haversine } from '../../src/core/geo/greatCircle';
 import { haptics } from '../../src/core/ux/haptics';
 import { t, getLocale } from '../../src/i18n';
-import { clock, duration, relative, timeAt } from '../format';
+import { clock, relative, spokenDuration, spokenRelative, timeAt } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'InFlight'>;
@@ -111,7 +111,7 @@ function GuessCard({ guess, onAnswer }: { guess: Guess; onAnswer: (correct: bool
   return (
     <View style={styles.guess} testID="guess-card">
       <Gutter>
-        <Row style={styles.spread} accessible accessibilityRole="header" accessibilityLabel={`${t('guess.label')}, ${relative(guess.inS)}`}>
+        <Row style={styles.spread} accessible accessibilityRole="header" accessibilityLabel={`${t('guess.label')}, ${spokenRelative(guess.inS)}`}>
           <Label tone="accent">{t('guess.label')}</Label>
           <DataSmall allowFontScaling={false}>{relative(guess.inS)}</DataSmall>
         </Row>
@@ -377,7 +377,7 @@ export default function AloftScreen() {
               value: clock(end - pos.elapsedS),
               label: t('aloft.remaining'),
               tone: 'accent',
-              spoken: `${t('aloft.remaining')}: ${duration(end - pos.elapsedS)}`
+              spoken: `${t('aloft.remaining')}: ${spokenDuration(end - pos.elapsedS)}`
             },
             {
               value: leftKm.value,
@@ -463,7 +463,7 @@ export default function AloftScreen() {
               const spoken = [
                 momentTitle(m, pkg, locale),
                 m.kind === 'sight' && m.side ? t(`side.${m.side}`) : null,
-                relative(m.at - pos.elapsedS)
+                spokenRelative(m.at - pos.elapsedS)
               ]
                 .filter(Boolean)
                 .join(', ');
@@ -496,7 +496,12 @@ export default function AloftScreen() {
             {t('aloft.countries', { n: passedCountries.length, total: countries.length })}
           </Label>
           <Space h={s.x2} />
-          <Body>
+          {/* Brass or dim is the only difference on screen; say it. */}
+          <Body
+            accessibilityLabel={countries
+              .map((cc) => (passedCountries.includes(cc) ? countryName(cc, locale) : `${countryName(cc, locale)}, ${t('a11y.notCrossed')}`))
+              .join('; ')}
+          >
             {countries.map((cc, i) => (
               <Body key={cc} tone={passedCountries.includes(cc) ? 'brass' : 'dim'}>
                 {`${i ? ' · ' : ''}${countryName(cc, locale)}`}

@@ -27,7 +27,7 @@ import { social } from '../../src/core/api/social';
 import { km, metres, formatInt } from '../../src/core/units';
 import { haptics } from '../../src/core/ux/haptics';
 import { t, getLocale } from '../../src/i18n';
-import { clock, duration, relative } from '../format';
+import { clock, relative, spokenDuration } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'POIDetail'>;
@@ -200,7 +200,7 @@ export default function PlaceScreen() {
     poi.population ? { value: formatInt(poi.population), label: t('place.population') } : null,
     poi.extentKm && !poi.population ? (() => { const k = km(poi.extentKm * 2); return { value: k.value, label: `${t('place.extent')} · ${t(`unit.${k.unit}`)}`, spoken: `${t('place.extent')}: ${k.value} ${t(`unit.${k.unit}`)}` }; })() : null,
     poi.side !== 'below' && poi.closestApproachKm != null ? { value: closest.value, label: `${t('place.closest')} · ${t(`unit.${closest.unit}`)}`, spoken: `${t('place.closest')}: ${closest.value} ${t(`unit.${closest.unit}`)}` } : null,
-    seen && seen >= 60 ? { value: clock(seen), label: t('place.inView'), spoken: `${t('place.inView')}: ${duration(seen)}` } : null
+    seen && seen >= 60 ? { value: clock(seen), label: t('place.inView'), spoken: `${t('place.inView')}: ${spokenDuration(seen)}` } : null
   ].filter(Boolean) as { value: string; label: string; spoken?: string }[];
 
   return (

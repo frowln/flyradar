@@ -28,7 +28,7 @@ import { shareView } from '../../src/core/ux/share';
 import { haptics } from '../../src/core/ux/haptics';
 import { analytics } from '../../src/core/analytics';
 import { t, getLocale } from '../../src/i18n';
-import { clock, duration, weekdayDayMonth } from '../format';
+import { clock, spokenDuration, weekdayDayMonth } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'FlightSummary'>;
@@ -231,7 +231,7 @@ export default function ArrivalScreen() {
               reading={clock(reachedS)}
               caption={`${t('arrival.inTheAir')} · ${flight.destination.iata}`}
               speakProgress={false}
-              accessibilityLabel={t('a11y.airborneFor', { d: duration(reachedS) })}
+              accessibilityLabel={t('a11y.airborneFor', { d: spokenDuration(reachedS) })}
             />
           </View>
           <RouteRule

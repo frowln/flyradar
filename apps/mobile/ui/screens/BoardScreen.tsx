@@ -24,7 +24,7 @@ import { localDate } from '../../src/core/time/zones';
 import { startDemo, demoPreviewRoute } from '../../src/core/offline/demo';
 import { useToast } from '../components/Toast';
 import { t, getLocale } from '../../src/i18n';
-import { clock, duration, timeAt, weekdayDayMonth } from '../format';
+import { clock, duration, spokenDuration, timeAt, weekdayDayMonth } from '../format';
 import type { RootStackParamList, TabParamList } from '../../src/navigation/types';
 
 type Nav = NativeStackNavigationProp<RootStackParamList>;
@@ -149,7 +149,7 @@ function Highlights({ pkg, onOpen }: { pkg: OfflinePackage; onOpen: (poi: POI) =
         const spoken = [
           title,
           m.kind === 'sight' && m.side ? t(`side.${m.side}`) : null,
-          t('place.afterTakeoff', { t: duration(m.at) })
+          t('place.afterTakeoff', { t: spokenDuration(m.at) })
         ]
           .filter(Boolean)
           .join(', ');
@@ -232,7 +232,7 @@ function FeaturedFlight({
             progress={pos.progress}
             reading={clock(end - pos.elapsedS)}
             caption={`${t('board.remaining')} · ${flight.destination.iata}`}
-            accessibilityLabel={t('a11y.toGo', { place: cityName(flight.destination, locale), d: duration(end - pos.elapsedS) })}
+            accessibilityLabel={t('a11y.toGo', { place: cityName(flight.destination, locale), d: spokenDuration(end - pos.elapsedS) })}
           />
         ) : (
           <Dial
@@ -241,7 +241,7 @@ function FeaturedFlight({
             caption={`${t('board.untilDeparture')} · ${timeAt(flight.scheduledDeparture, flight.origin.tz)}`}
             speakProgress={false}
             accessibilityLabel={`${
-              left > 0 ? t('a11y.departsIn', { d: duration(left / 1000) }) : t(`board.status_${status}`)
+              left > 0 ? t('a11y.departsIn', { d: spokenDuration(left / 1000) }) : t(`board.status_${status}`)
             }, ${timeAt(flight.scheduledDeparture, flight.origin.tz)}`}
           />
         )}
@@ -260,7 +260,7 @@ function FeaturedFlight({
         items={[
           { value: timeAt(flight.scheduledDeparture, flight.origin.tz), label: t('board.departure') },
           { value: arrival, label: t('board.arrival'), spoken: `${t('board.arrival')}: ${arrival}` },
-          { value: clock(end), label: t('board.inAir'), spoken: `${t('board.inAir')}: ${duration(end)}` },
+          { value: clock(end), label: t('board.inAir'), spoken: `${t('board.inAir')}: ${spokenDuration(end)}` },
           { value: String(countries.length), label: t('board.countries') }
         ]}
       />
@@ -544,7 +544,7 @@ export default function BoardScreen() {
                   accessibilityLabel={`${t('a11y.route', {
                     from: cityName(e.pkg.flight.origin, getLocale()),
                     to: cityName(e.pkg.flight.destination, getLocale())
-                  })}, ${duration(e.pkg.route[e.pkg.route.length - 1]?.elapsedSeconds ?? 0)}`}
+                  })}, ${spokenDuration(e.pkg.route[e.pkg.route.length - 1]?.elapsedSeconds ?? 0)}`}
                   style={styles.laterRow}
                 >
                   <Body>
