@@ -682,5 +682,347 @@
         "Date palm groves"
       ]
     }
+  },
+  "Q585": {
+    "t": "A capital at the end of a long, island-dotted fjord",
+    "s": "Oslo sits at the head of the Oslofjord, where a long arm of the sea finally runs out between forested hills. The city fills a green amphitheatre, and dark woods scattered with lakes begin right at its edge. For three centuries it was called Christiania, after the Danish-Norwegian king Christian IV, who rebuilt it in 1624.",
+    "w": "The inner end of a long fjord scattered with small islands, with the city in a bowl of dark, forested hills.",
+    "f": [
+      "The Oslofjord runs about 100 km from the city south to the Skagerrak.",
+      "The city took back its medieval name, Oslo, in 1925.",
+      "Much of the municipality is protected forest, the Marka, laced with lakes and ski trails."
+    ],
+    "q": {
+      "q": "What was Oslo called from 1624 until 1925?",
+      "a": "Christiania",
+      "x": [
+        "Nidaros",
+        "Bjørgvin"
+      ]
+    }
+  },
+  "Q5468": {
+    "t": "A warm harbour city on the Indian Ocean",
+    "s": "Durban wraps around a big natural harbour on South Africa's east coast, sheltered by a long, wooded ridge called the Bluff. North of the port, a straight line of beaches faces the Indian Ocean, where the warm Agulhas Current keeps the water mild all year. Inland, rolling green hills are patched with sugar-cane fields.",
+    "w": "A near-enclosed bay with a narrow entrance, a green ridge along its south side, and a long straight beach to the north.",
+    "f": [
+      "The city was named in 1835 after Sir Benjamin D'Urban, then governor of the Cape Colony.",
+      "Durban's harbour is one of the busiest ports in Africa.",
+      "The warm Agulhas Current flows south-west along this coast, one of the fastest ocean currents on Earth."
+    ],
+    "q": {
+      "q": "Which ocean does Durban face?",
+      "a": "The Indian Ocean",
+      "x": [
+        "The Atlantic Ocean",
+        "The Southern Ocean"
+      ]
+    }
+  },
+  "Q656": {
+    "t": "Peter's city on the islands of the Neva delta",
+    "s": "Saint Petersburg spreads over the islands of the Neva delta at the eastern tip of the Gulf of Finland. Look for a thin line crossing the gulf to the west: a barrier about 25 km long, running through Kotlin Island, that shields the city from storm surges. Peter the Great founded the city on this marshy ground in 1703.",
+    "w": "A big city on a branching river delta at the head of a gulf, with a long dam crossing the water through an island.",
+    "f": [
+      "The Neva is only about 74 km long, yet it drains Lake Ladoga, the largest lake in Europe.",
+      "The city is built on dozens of islands, divided by rivers and canals.",
+      "Around midsummer, the 'white nights' keep the sky light even at midnight."
+    ],
+    "q": {
+      "q": "In which year did Peter the Great found Saint Petersburg?",
+      "a": "1703",
+      "x": [
+        "1682",
+        "1721"
+      ]
+    }
+  },
+  "Q182984": {
+    "t": "An ancient Sahel trading city on the savanna",
+    "s": "Kano spreads across the flat, dusty savanna of northern Nigeria, a vast carpet of low, earth-coloured roofs. For a thousand years it has been a trading city, a southern end of the caravan routes across the Sahara. In its old walled heart, cloth is still dyed in pits of indigo that have been in use since the 15th century.",
+    "w": "A huge low city of sandy browns on flat, dry savanna, with green fields and reservoirs scattered around it.",
+    "f": [
+      "The Kofar Mata dye pits have been worked for more than 500 years.",
+      "Kano's Kurmi Market dates back to the 15th century.",
+      "The rainy season here lasts only about four months, from June to September."
+    ],
+    "q": {
+      "q": "Which dye colours cloth in Kano's old dye pits?",
+      "a": "Indigo blue",
+      "x": [
+        "Saffron yellow",
+        "Madder red"
+      ]
+    }
+  },
+  "Q270": {
+    "t": "A capital on a river still left half wild",
+    "s": "Warsaw stands on the Vistula, and the river is the surprise: while most capitals have tamed theirs, here broad sandbanks, willow thickets and beaches line the water right through the city. The centre sits on a low escarpment on the west bank; the Praga district faces it across the river. The royal court moved here from Kraków around 1596.",
+    "w": "A wide river with pale sandbanks and green, wooded banks winding north through a large city on a flat plain.",
+    "f": [
+      "The Vistula, Poland's longest river, runs just over 1,000 km from the Carpathians to the Baltic.",
+      "Frédéric Chopin was born in 1810 at Żelazowa Wola, about 50 km west of Warsaw.",
+      "Warsaw's historic Old Town is a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "From which city did Poland's royal court move to Warsaw around 1596?",
+      "a": "Kraków",
+      "x": [
+        "Gdańsk",
+        "Poznań"
+      ]
+    }
+  },
+  "Q1960": {
+    "t": "A 'haven of peace' on a sheltered harbour",
+    "s": "Dar es Salaam curls around a narrow, sheltered harbour on the Indian Ocean, with coral islets and turquoise reefs scattered just offshore. Sultan Majid of Zanzibar founded the town in the 1860s and gave it an Arabic name meaning 'haven of peace'. Today it is Tanzania's largest city, sprawling far inland across the coastal plain.",
+    "w": "A sprawling coastal city around a narrow-mouthed harbour, with small green islands and reefs just offshore to the north.",
+    "f": [
+      "Tanzania's official capital is Dodoma, but Dar es Salaam remains its largest city and main port.",
+      "Zanzibar Town lies about 70 km to the north, across a channel of the Indian Ocean.",
+      "The islands just north of the city, such as Bongoyo and Mbudya, are part of a marine reserve."
+    ],
+    "q": {
+      "q": "What does the name Dar es Salaam mean?",
+      "a": "Haven of peace",
+      "x": [
+        "Gate of the sea",
+        "House of spices"
+      ]
+    }
+  },
+  "Q1761": {
+    "t": "A river city between a round bay and green mountains",
+    "s": "Dublin rings the inner curve of Dublin Bay, with the Liffey running straight east through its heart into the sea. The rocky peninsula of Howth closes the bay to the north, and the Wicklow Mountains rise dark and green just to the south. Vikings set up a fortified harbour here in 841, beside a dark tidal pool — the dubh linn.",
+    "w": "A city around a rounded bay, a river running east through its centre, a knobbly peninsula to the north and hills to the south.",
+    "f": [
+      "Phoenix Park, on the city's western side, covers about 700 hectares — one of Europe's largest enclosed city parks.",
+      "The city's Irish name, Baile Átha Cliath, means 'town of the hurdled ford'.",
+      "Two long sea walls reach into the bay from the river mouth; the southern one was finished in the 1790s."
+    ],
+    "q": {
+      "q": "What does 'dubh linn', the source of Dublin's name, mean?",
+      "a": "Black pool",
+      "x": [
+        "Green hill",
+        "Fair harbour"
+      ]
+    }
+  },
+  "Q3748": {
+    "t": "A rain-soaked capital on a green cape",
+    "s": "Monrovia stretches along Cape Mesurado, a narrow peninsula between the Atlantic and a maze of lagoons and mangrove creeks. It is one of the rainiest capitals on Earth, and in the wet season the land around it glows a deep green. The city was founded in 1822 by freed African Americans and named after US president James Monroe.",
+    "w": "A narrow cape between the ocean and a mangrove-fringed river mouth, with the city running along its spine.",
+    "f": [
+      "Monrovia gets more than 4,500 mm of rain a year, several times as much as London.",
+      "The first settlers landed in 1822 on Providence Island, in the mouth of the Mesurado River.",
+      "The city's port lies on Bushrod Island, wrapped by the Saint Paul and Mesurado rivers."
+    ],
+    "q": {
+      "q": "Which US president was Monrovia named after?",
+      "a": "James Monroe",
+      "x": [
+        "Thomas Jefferson",
+        "James Madison"
+      ]
+    }
+  },
+  "Q2634": {
+    "t": "A city on a famous bay, beneath a volcano",
+    "s": "Naples curves around one of the most famous bays in the world, and its landmark is impossible to miss: the cone of Vesuvius, cradled in the broken rim of an older volcano just south-east of the city. To the west lies another volcanic area, the Phlegraean Fields, pitted with craters. Out in the bay float Capri and Ischia.",
+    "w": "A broad bay with a big volcanic cone on its south-eastern side, islands at its mouth, and the city along the north shore.",
+    "f": [
+      "Vesuvius rises to about 1,280 metres straight from the shore of the bay.",
+      "The Phlegraean Fields west of the city form a large volcanic caldera, partly under the sea.",
+      "Greek settlers named the city Neapolis, and its historic centre is now a UNESCO World Heritage site."
+    ],
+    "q": {
+      "q": "What does the Greek name Neapolis, Naples' origin, mean?",
+      "a": "New city",
+      "x": [
+        "Sea city",
+        "Holy city"
+      ]
+    }
+  },
+  "Q490": {
+    "t": "A flat city on the Po plain, the Alps on its horizon",
+    "s": "Milan lies in the flat heart of the Po plain, a city of rings around a medieval core, with motorways and railways fanning out in every direction. Look north on a clear day: the Alps rise like a white wall, and at their feet glint the great lakes, Como and Maggiore. In late Roman times, as Mediolanum, this was an imperial capital.",
+    "w": "A dense, roughly round city on a perfectly flat plain, with the Alps and long glacial lakes to the north.",
+    "f": [
+      "Milan Cathedral was begun in 1386 and took nearly six centuries to finish.",
+      "With no big river of its own, Milan dug canals, the Navigli, from the 12th century to reach the Ticino and Adda.",
+      "On clear days Monte Rosa, more than 4,600 metres high, can be seen from the city."
+    ],
+    "q": {
+      "q": "What was Milan called in Roman times?",
+      "a": "Mediolanum",
+      "x": [
+        "Augusta Taurinorum",
+        "Placentia"
+      ]
+    }
+  },
+  "Q87": {
+    "t": "A long ribbon of a city between sea and lake",
+    "s": "Alexandria stretches for kilometres along the Mediterranean, a thin ribbon of pale buildings squeezed between the sea and the shallow Lake Mariout behind it. Look for the curve of its eastern harbour. Alexander the Great founded the city in 331 BC, and its lighthouse, the Pharos, was one of the Seven Wonders of the ancient world.",
+    "w": "A narrow city strung along a straight coast, with a curved harbour and a flat lake and marshes just inland.",
+    "f": [
+      "The city runs more than 30 km along the coast but is only a few kilometres deep.",
+      "The ancient Library of Alexandria was one of the great centres of learning of the classical world.",
+      "The Pharos stood on an island at the harbour mouth for well over 1,500 years."
+    ],
+    "q": {
+      "q": "Who founded Alexandria in 331 BC?",
+      "a": "Alexander the Great",
+      "x": [
+        "Ptolemy I",
+        "Julius Caesar"
+      ]
+    }
+  },
+  "Q1794": {
+    "t": "A city on the Main, its airport carved from forest",
+    "s": "Frankfurt lies on the Main about 30 km before it joins the Rhine, with the dark, wooded Taunus hills rising to the north-west. South of the river a great forest spreads out, and cut into it is one of Europe's busiest airports, its runways pale stripes among the trees. For centuries this was where German kings were elected.",
+    "w": "A compact centre on a river running east–west, with a big forest to the south cut by long, straight airport runways.",
+    "f": [
+      "From 1356 the Holy Roman Emperors were elected in Frankfurt, and from 1562 they were crowned here too.",
+      "Johann Wolfgang von Goethe was born in Frankfurt in 1749.",
+      "The Taunus range to the north-west rises to about 880 metres at the Großer Feldberg."
+    ],
+    "q": {
+      "q": "Which river flows through Frankfurt?",
+      "a": "The Main",
+      "x": [
+        "The Neckar",
+        "The Mosel"
+      ]
+    }
+  },
+  "Q1055": {
+    "t": "A great port far up the Elbe, with a lake at its heart",
+    "s": "Hamburg lies about 100 km up the Elbe from the North Sea, yet it is one of Europe's largest ports. From above, look for the maze of docks and container terminals on the south bank, and for a bright lake right in the city centre: the Alster, a small river dammed centuries ago. Hamburg was a leading city of the Hanseatic League.",
+    "w": "A wide river with a maze of harbour basins on its south bank and a broad lake in the city centre just north of it.",
+    "f": [
+      "The Alster lakes were created in the Middle Ages by damming a small river to drive a mill.",
+      "The Speicherstadt, a warehouse district built on oak piles, is a UNESCO World Heritage site.",
+      "The tide reaches Hamburg: here the Elbe rises and falls by more than three metres."
+    ],
+    "q": {
+      "q": "Which lake lies in the centre of Hamburg?",
+      "a": "The Alster",
+      "x": [
+        "The Müritz",
+        "The Steinhuder Meer"
+      ]
+    }
+  },
+  "Q1726": {
+    "t": "A Bavarian city with the Alps on its doorstep",
+    "s": "Munich spreads across a flat gravel plain on the green Isar, with the wall of the Alps only about 60 km to the south. On clear days, especially when the warm, dry Föhn wind blows, the peaks look close enough to touch. South-west of the city, two big lakes, Starnberg and Ammersee, glint among fields and woods.",
+    "w": "A large city on a flat plain split by a green river valley, with lakes to the south-west and the Alps beyond.",
+    "f": [
+      "Munich's name comes from the monks, 'Mönche', who lived here before Henry the Lion founded the town in 1158.",
+      "The first Oktoberfest was held in 1810 to celebrate a royal wedding.",
+      "At about 520 metres, Munich is one of the highest large cities in Germany."
+    ],
+    "q": {
+      "q": "Which river flows through Munich?",
+      "a": "The Isar",
+      "x": [
+        "The Inn",
+        "The Lech"
+      ]
+    }
+  },
+  "Q1085": {
+    "t": "A river bending in S-curves through a hundred spires",
+    "s": "The Vltava gives Prague its shape. From above, the river swings through the city in a broad S, with the wooded rise of Petřín and the castle ridge on the west bank and the dense old town on the east. Green islands sit in the stream. About 30 km further north, the Vltava ends its journey in the Elbe.",
+    "w": "A river making big S-shaped bends through a dense city, wooded hills on its west bank and small islands mid-stream.",
+    "f": [
+      "Prague Castle is often listed as the largest ancient castle complex in the world.",
+      "Charles Bridge was begun in 1357 under Emperor Charles IV.",
+      "The historic centre of Prague has been a UNESCO World Heritage site since 1992."
+    ],
+    "q": {
+      "q": "Which river flows through Prague?",
+      "a": "The Vltava",
+      "x": [
+        "The Elbe",
+        "The Morava"
+      ]
+    }
+  },
+  "Q35178": {
+    "t": "A desert city curled around a wide, shallow bay",
+    "s": "Kuwait City wraps around the southern shore of Kuwait Bay, a broad inlet at the north-western corner of the Persian Gulf. Around it lies flat, almost featureless desert, crossed by ring roads that curve out from the old town in wide arcs. The name comes from the Arabic for 'little fort', and the town grew on pearling and seafaring.",
+    "w": "A city on the south shore of a wide bay, with semicircular ring roads arcing out into flat desert.",
+    "f": [
+      "The city's ring roads, numbered First to Seventh, curve out from the old centre in concentric arcs.",
+      "On Failaka Island, at the mouth of the bay, stand the remains of a Greek temple from the 3rd century BC.",
+      "Before oil, pearl diving was the backbone of Kuwait's economy."
+    ],
+    "q": {
+      "q": "What does the name Kuwait mean?",
+      "a": "Little fort",
+      "x": [
+        "Pearl bay",
+        "Sweet water"
+      ]
+    }
+  },
+  "Q3761": {
+    "t": "A capital right next door to the zero meridian",
+    "s": "Accra spreads along a flat stretch of the Gulf of Guinea, its low roofs running inland over a grassy coastal plain. Just to the east, at the port of Tema, the Greenwich meridian comes ashore, so you are very close to zero longitude — and only about 600 km north of the point where it crosses the equator.",
+    "w": "A broad, low city on a flat, gently curving coast, with a long ridge of hills rising inland to the north.",
+    "f": [
+      "The Greenwich meridian passes through Tema, about 25 km east of central Accra.",
+      "Accra's name is thought to come from 'nkran', an Akan word for ants.",
+      "Accra became the capital of the British Gold Coast colony in 1877."
+    ],
+    "q": {
+      "q": "Which port near Accra lies on the Greenwich meridian?",
+      "a": "Tema",
+      "x": [
+        "Takoradi",
+        "Lomé"
+      ]
+    }
+  },
+  "Q3579": {
+    "t": "An old Mediterranean port between sea and desert",
+    "s": "Tripoli spreads along the Libyan coast, a pale city on a low shore where a belt of gardens and palm groves gives way inland to desert. Phoenicians founded it as Oea in the 7th century BC. Its Greek name means 'three cities', after Oea and its neighbours Sabratha and Leptis Magna, both now famous Roman ruins.",
+    "w": "A pale city on a straight Mediterranean shore, a harbour at its old centre, green farmland fading into desert behind.",
+    "f": [
+      "The Arch of Marcus Aurelius, built around AD 165, still stands in Tripoli's old town.",
+      "Leptis Magna, some 120 km east of the city, is one of the best-preserved Roman cities in the Mediterranean.",
+      "Tripoli's walled old town sits right beside the harbour."
+    ],
+    "q": {
+      "q": "What does the Greek name Tripoli mean?",
+      "a": "Three cities",
+      "x": [
+        "Three hills",
+        "Sea gate"
+      ]
+    }
+  },
+  "Q33935": {
+    "t": "A white city on the dunes, an ancient port at its tip",
+    "s": "Tel Aviv lines a straight, sandy stretch of the Mediterranean, a dense band of pale buildings pressed right up to the beach. At its southern end, on a low rocky headland, is Jaffa, a port used for thousands of years. Tel Aviv itself is young: it was founded on the dunes north of Jaffa in 1909.",
+    "w": "A pale, dense city along a ruler-straight sandy coast, a small headland at its southern end, a river mouth to the north.",
+    "f": [
+      "Tel Aviv's 'White City' holds thousands of Bauhaus-style buildings and has been a UNESCO site since 2003.",
+      "The name Tel Aviv means 'spring hill' — spring as in the season.",
+      "The Yarkon River reaches the sea at the city's northern edge."
+    ],
+    "q": {
+      "q": "Which ancient port forms Tel Aviv's southern end?",
+      "a": "Jaffa",
+      "x": [
+        "Acre",
+        "Caesarea"
+      ]
+    }
   }
 }

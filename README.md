@@ -27,10 +27,15 @@ datasets bundled with the app:
    recognition range from cruise. A varied, evenly spread set is kept.
 3. **Countries and moments.** Countries crossed (with times), lines on the
    globe, sunrise/sunset on board, top of descent — a timeline of the flight.
-4. **Stories.** While there is Wi-Fi, the phone fetches each place's
-   Wikipedia article in the reader's language (via Wikidata) and its lead photo
-   from Wikimedia Commons, with author and licence. Photos are cached for the
-   flight. Without a connection the cards still work from data alone.
+4. **Stories.** The ~1,300 most notable places carry texts written for the
+   window (`apps/mobile/content/`, six languages, built into the app): a hook,
+   a short story, what exactly to look for, facts, and a quiz question. A
+   history layer adds routes, sites and regions the flight passes (the Silk
+   Road, ancient capitals). While there is Wi-Fi, the phone also fetches
+   Wikipedia articles (via Wikidata) for every other place, and up to four
+   credited Wikimedia Commons photos for the flight's best places; everything
+   is cached for the flight. `tools/content-gen` writes texts for the
+   remaining places with the Claude Batch API.
 5. **Offline map.** MapLibre tiles for the route corridor (OpenFreeMap).
 
 **On the ground:** a day before departure a local reminder says which window
@@ -134,6 +139,8 @@ node store-metadata/check.mjs   # App Store texts within limits, no forbidden cl
 |---|---|---|
 | App icon, splash, Android adaptive and notification icons | `apps/mobile/assets/*.png` from `assets/brand/*.svg` | `node scripts/brand/render-icons.mjs` |
 | Open-source licences shown in Settings | `apps/mobile/src/legal/licenses.json` | `node scripts/licenses.mjs` (after dependency changes) |
+| Place and history texts, 6 languages | `apps/mobile/content/` (rules: `content/STYLE.md`) | edit, `npm run check:content`, `npm run build:content` |
+| Texts for the remaining places | `tools/content-gen` (Claude Batch API) | see its README |
 | App Store texts, 6 languages | `apps/mobile/store-metadata/<lang>/` | edit, then `node store-metadata/check.mjs` |
 | App Store screenshots, 1290 × 2796, 6 languages | `apps/mobile/store-metadata/screenshots/<lang>/` | `node scripts/preview/store.mjs --dist <web export>` |
 | Privacy policy and terms (en, ru) | `docs/legal/`, pages in `landing/` | see `landing/README.md` |
