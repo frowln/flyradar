@@ -5,7 +5,7 @@
  * browser preview with each language's own route and a daytime clock.
  *
  *   npx expo export --platform web --output-dir /tmp/skyatlas-web
- *   node scripts/preview/store.mjs --dist /tmp/skyatlas-web [--lang en,ru] [--out store-metadata/screenshots]
+ *   node scripts/preview/store.mjs --dist /tmp/skyatlas-web [--lang en,ru] [--only place] [--out store-metadata/screenshots]
  *
  * Needs `playwright-core` resolvable (e.g. NODE_PATH) and a Chromium; set
  * CHROMIUM_PATH if it is not at the Playwright default location.
@@ -25,6 +25,7 @@ const args = Object.fromEntries(
 const dist = resolve(args.dist ?? '/tmp/skyatlas-web');
 const out = resolve(args.out ?? join(app, 'store-metadata/screenshots'));
 const langs = (args.lang ?? 'en,ru,de,fr,es,ja').split(',');
+const only = args.only ? args.only.split(',') : null;
 
 /** A daytime moment over each language's route (see SCENES in fixtures.web.ts). */
 const AT = { ru: '2026-09-24T10:30:00Z', en: '2026-09-24T19:00:00Z', default: '2026-09-24T11:00:00Z' };
@@ -121,6 +122,7 @@ for (const lang of langs) {
   await mkdir(dir, { recursive: true });
   const at = AT[lang] ?? AT.default;
   for (const [i, shot] of SHOTS.entries()) {
+    if (only && !only.includes(shot.key)) continue;
     const page = await browser.newPage({ viewport: { width: 430, height: 932 }, deviceScaleFactor: 3 });
     const errors = [];
     page.on('pageerror', (e) => errors.push(String(e)));

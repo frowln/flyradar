@@ -90,7 +90,7 @@ export const ru = {
     sea: 'моря',
     volcano: 'вулканы',
     island: 'острова',
-    historic: 'история',
+    historic: 'исторические места',
     park: 'парки',
     landmark: 'достопримечательности',
     range: 'хребты',
@@ -111,7 +111,6 @@ export const ru = {
     city: 'Город, около %{pop} жителей',
     peak: 'Вершина высотой %{height} %{unit}',
     area: '%{kind}, около %{size} %{unit} в поперечнике',
-    in: '· %{country}',
   },
   onboard: {
     skip: 'пропустить',
@@ -149,7 +148,6 @@ export const ru = {
     arrival: 'прилёт',
     routeApprox: 'Маршрут приблизительный: для этого рейса не нашлось правдоподобного облёта закрытого неба, поэтому места и страны могут не совпасть. GPS у окна уточнит положение.',
     inAir: 'в воздухе',
-    places: 'мест',
     countries: { one: 'страна', few: 'страны', many: 'стран', other: 'стран' },
     readyOffline: 'Готово к полёту без интернета',
     readyStories: {
@@ -183,6 +181,7 @@ export const ru = {
     daylight: '%{pct}% полёта днём',
     night: 'ночной рейс',
     yourSeat: 'Ваше место %{seat} — %{side}',
+    yourSeatNoWindow: 'Ваше место %{seat} — не у окна',
   },
   addFlight: {
     title: 'новый рейс',
@@ -270,8 +269,6 @@ export const ru = {
   facts: {
     title: 'сверху',
     recognise: 'С эшелона узнаётся примерно за %{dist} %{unit}',
-    inView: 'В окне около %{d}',
-    overFor: 'Под крылом около %{d}',
     aboveSummit: 'Вы пролетите на %{h} %{unit} выше вершины',
     cityLights: 'Ночью огни видны примерно за %{dist} %{unit}',
   },
@@ -280,6 +277,7 @@ export const ru = {
     closest: 'ближе всего',
     notFound: 'Этого места нет в пакете рейса.',
     overhead: 'Прямо под маршрутом',
+    belowNow: 'сейчас под вами',
     sideDistance: '%{side}, в %{dist} %{unit}',
     afterTakeoff: 'через %{t} после взлёта',
     seeIt: 'Вижу!',
@@ -444,7 +442,7 @@ export const ru = {
     },
     sunrise: 'Рассвет над облаками',
     sunset: 'Закат на высоте',
-    sunBody: 'Примерно через пять минут. Окно: %{side}.',
+    sunBody: 'Примерно через пять минут — смотрите %{side}.',
   },
   remind: {
     seatLeftTitle: 'Регистрация: просите окно слева',

@@ -98,11 +98,13 @@ function Advice({ pkg }: { pkg: OfflinePackage }) {
           <Body tone="muted">{body}</Body>
         </>
       ) : null}
-      {seat?.label ? (
+      {seat?.label && seat.side !== 'unknown' ? (
         <>
           <Space h={s.x3} />
           <Small tone={seatMatches ? 'accent' : 'muted'}>
-            {t('advice.yourSeat', { seat: seat.label, side: t(`side.${seat.side === 'middle' || seat.side === 'unknown' ? 'aisle' : seat.side}`) })}
+            {seat.side === 'middle'
+              ? t('advice.yourSeatNoWindow', { seat: seat.label })
+              : t('advice.yourSeat', { seat: seat.label, side: t(`side.${seat.side}`) })}
           </Small>
         </>
       ) : null}

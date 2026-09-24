@@ -53,7 +53,11 @@ function PassLine({ poi, pkg }: { poi: POI; pkg: OfflinePackage }) {
       multiplier: session.timeMultiplier,
       clockOffsetS: session.clockOffsetS
     });
-    when = relative(poi.passAt - now.elapsedS);
+    // An area flown over is "below you now" for its whole window, not at its
+    // centre point; before and after, the countdown counts to its edges.
+    if (poi.overFrom != null && poi.overTo != null && now.elapsedS >= poi.overFrom && now.elapsedS <= poi.overTo) when = t('place.belowNow');
+    else if (poi.overFrom != null && now.elapsedS < poi.overFrom) when = relative(poi.overFrom - now.elapsedS);
+    else when = relative(poi.passAt - now.elapsedS);
   } else {
     when = poi.passAt != null ? t('place.afterTakeoff', { t: clock(poi.passAt) }) : '';
   }

@@ -11,7 +11,10 @@ function lang(locale: string): Lang {
 }
 
 export function placeName(poi: POI, locale: string): string {
-  return poi.translations?.[lang(locale)]?.name || poi.name;
+  const name = poi.translations?.[lang(locale)]?.name || poi.name;
+  // French and Spanish write the generic word in lower case ("mont Blanc",
+  // "mar Negro"); the app shows names as titles and list entries.
+  return name.charAt(0).toLocaleUpperCase(locale) + name.slice(1);
 }
 
 export function placeText(poi: POI, locale: string): { summary: string; tagline?: string; textLang?: string; facts: string[] } {
