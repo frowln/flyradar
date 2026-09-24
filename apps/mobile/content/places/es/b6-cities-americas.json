@@ -2527,5 +2527,347 @@
         "Por el nombre de un barco"
       ]
     }
+  },
+  "Q2132": {
+    "t": "Una capital jardín en la punta sur de la isla de Vancouver",
+    "s": "Victoria está en el extremo sur de la isla de Vancouver y mira, al otro lado del estrecho de Juan de Fuca, a los nevados montes Olympic, en Estados Unidos. Resguardada en su sombra pluviométrica, disfruta de uno de los climas más suaves y secos de Canadá. La Compañía de la Bahía de Hudson construyó aquí Fort Victoria en 1843, y la ciudad prosperó con la fiebre del oro de 1858.",
+    "w": "Una ciudad de costa rocosa y recortada en la punta sur de una isla; un puerto interior activo; montañas nevadas tras el estrecho, al sur.",
+    "f": [
+      "Victoria es la capital de la Columbia Británica, aunque Vancouver es mucho más grande.",
+      "Los hidroaviones despegan y amerizan en el puerto interior, junto al centro."
+    ],
+    "q": {
+      "q": "¿Cuándo se fundó Fort Victoria?",
+      "a": "En 1843",
+      "x": [
+        "En 1792",
+        "En 1886"
+      ]
+    }
+  },
+  "Q638017": {
+    "t": "Una aldea inuit en un bolsillo de la costa ártica",
+    "s": "Arctic Bay se acurruca en una bahía pequeña y redonda, casi cerrada por colinas desnudas y empinadas, en el norte de la isla de Baffin; su nombre en inuktitut, Ikpiarjuk, significa «el bolsillo». Se abre a la ensenada del Almirantazgo, un fiordo gigante de más de 300 km donde los narvales se reúnen en verano. El nombre inglés viene del ballenero Arctic, que recaló aquí en 1872.",
+    "w": "Un asentamiento diminuto en una bahía casi cerrada; colinas pardas de cima plana; un fiordo largo y ancho, helado gran parte del año.",
+    "f": [
+      "En invierno, el sol se queda aquí bajo el horizonte más de dos meses.",
+      "Es una de las comunidades más septentrionales de Canadá."
+    ],
+    "q": {
+      "q": "¿Qué significa Ikpiarjuk, el nombre inuktitut de Arctic Bay?",
+      "a": "El bolsillo",
+      "x": [
+        "La ballena",
+        "El hielo"
+      ]
+    }
+  },
+  "Q606622": {
+    "t": "El «lugar sin amanecer», en un desierto polar de grava",
+    "s": "Resolute está en la costa sur de la isla Cornwallis, en lo más hondo del archipiélago ártico canadiense, sobre una llanura yerma de grava gris casi sin plantas. Su nombre en inuktitut, Qausuittuq, significa «lugar sin amanecer», por la larga oscuridad invernal. El nombre inglés viene del HMS Resolute, uno de los barcos británicos que exploraron estos canales en la década de 1850.",
+    "w": "Un asentamiento diminuto y una pista en una llanura costera desnuda, gris parda; hielo marino o canales oscuros entre islas llanas.",
+    "f": [
+      "Con madera del HMS Resolute se hizo después un escritorio que sigue en la Casa Blanca.",
+      "Aquí cae tan poca lluvia o nieve que la tierra se considera un desierto polar.",
+      "Las expediciones al Polo Norte suelen partir de la pista de aquí."
+    ],
+    "q": {
+      "q": "¿Dónde acabó la madera del barco HMS Resolute?",
+      "a": "En un escritorio de la Casa Blanca",
+      "x": [
+        "En la torre del Big Ben",
+        "En una catedral canadiense"
+      ]
+    }
+  },
+  "Q1723761": {
+    "t": "Una aldea justo sobre el círculo polar ártico",
+    "s": "Naujaat está casi exactamente sobre el círculo polar ártico, en la orilla norte de una bahía en la base de la península de Melville. Su nombre en inuktitut significa «lugar donde anidan las gaviotas», por los acantilados cercanos. Su antiguo nombre inglés, Repulse Bay, data de 1742, cuando el explorador Christopher Middleton comprobó que la bahía era un callejón sin salida y no el ansiado paso del Noroeste.",
+    "w": "Un pequeño asentamiento en la orilla rocosa y desnuda de una amplia bahía; colinas bajas de tundra e innumerables lagos tierra adentro.",
+    "f": [
+      "El explorador escocés John Rae invernó aquí en 1846-1847, viviendo sobre todo de la tierra, como los inuit.",
+      "La aldea adoptó oficialmente el nombre de Naujaat en 2015."
+    ],
+    "q": {
+      "q": "¿Por qué llamó Middleton a este lugar Repulse Bay en 1742?",
+      "a": "Era un callejón sin salida",
+      "x": [
+        "Los lugareños expulsaron sus barcos",
+        "Una tormenta lo hizo retroceder"
+      ]
+    }
+  },
+  "Q2061": {
+    "t": "Oro a orillas del lago más profundo de Norteamérica",
+    "s": "Yellowknife está en la orilla norte, rocosa, del Gran Lago del Esclavo, que con unos 614 m es el lago más profundo de Norteamérica. Alrededor, los glaciares de la Edad de Hielo rasparon el escudo canadiense hasta dejar roca gris rosada y miles de lagos. La ciudad nació del oro hallado en los años treinta y, en las noches claras de invierno, es de los mejores lugares del mundo para ver auroras boreales.",
+    "w": "Una pequeña ciudad en la orilla rocosa de un lago inmenso; roca desnuda, píceas dispersas e innumerables lagos pequeños alrededor.",
+    "f": [
+      "El nombre viene de los cuchillos de cobre con que comerciaba el pueblo dene local, los yellowknives.",
+      "En invierno, una carretera de hielo cruza la bahía helada hasta la cercana comunidad de Dettah."
+    ],
+    "q": {
+      "q": "¿Junto a qué lago está Yellowknife?",
+      "a": "El Gran Lago del Esclavo",
+      "x": [
+        "El Gran Lago del Oso",
+        "El lago Athabasca"
+      ]
+    }
+  },
+  "Q201313": {
+    "t": "Un viejo puesto peletero en el Mackenzie, cerca del Ártico",
+    "s": "Fort Good Hope está en la orilla este del Mackenzie, el río más largo de Canadá, justo al sur del círculo polar ártico. Un poco río arriba, el cauce se estrecha entre acantilados calizos en un desfiladero, las Ramparts. La Compañía del Noroeste abrió aquí un puesto de comercio de pieles en 1805, uno de los más antiguos del bajo Mackenzie. Alrededor se extienden bosques de píceas, turberas y lagos.",
+    "w": "Un asentamiento diminuto junto a un río muy ancho; un desfiladero estrecho justo aguas arriba; bosque y turbera llanos salpicados de lagos.",
+    "f": [
+      "Con sus cabeceras, el Mackenzie forma el sistema fluvial más largo de Canadá, de más de 4000 km.",
+      "La iglesia de Nuestra Señora de Good Hope, con su interior pintado a mano en el siglo XIX, es Sitio Histórico Nacional."
+    ],
+    "q": {
+      "q": "¿Qué río pasa por Fort Good Hope?",
+      "a": "El Mackenzie",
+      "x": [
+        "El Yukón",
+        "El Peace"
+      ]
+    }
+  },
+  "Q2058": {
+    "t": "Capital de rápidos que parecían caballos blancos",
+    "s": "Whitehorse está en un amplio valle del río Yukón, rodeado de montañas redondeadas y boscosas. El nombre viene de los rápidos que hay justo aguas arriba, cuya espuma recordaba a los buscadores de oro las crines de caballos blancos al galope; una presa los ha convertido en un lago. En 1898, miles de aspirantes del Klondike pasaron por aquí y construyeron barcas para bajar unos 700 km por el río hasta Dawson City.",
+    "w": "Una pequeña ciudad en una terraza junto a un río sinuoso; un cañón y un lago de presa aguas arriba; montañas boscosas alrededor.",
+    "f": [
+      "El ferrocarril White Pass and Yukon Route, desde Skagway, en la costa, llegó a Whitehorse en 1900.",
+      "Cerca de dos tercios de toda la población del Yukón vive en Whitehorse."
+    ],
+    "q": {
+      "q": "¿Qué dio nombre a Whitehorse?",
+      "a": "Unos rápidos espumosos",
+      "x": [
+        "Una montaña blanca",
+        "Un caballo famoso"
+      ]
+    }
+  },
+  "Q181056": {
+    "t": "Una ciudad en abanico al norte del ecuador, en Brasil",
+    "s": "Boa Vista está trazada como un abanico abierto: sus avenidas irradian desde un centro cívico cerca de la orilla del río Branco, un plano de los años cuarenta que destaca con claridad desde el aire. Es la única capital de estado brasileña situada por completo en el hemisferio norte. A su alrededor, en vez de selva, se extiende el lavrado, una sabana abierta de hierba y palmeras dispersas.",
+    "w": "Una ciudad semicircular con calles en abanico desde la orilla de un río; sabana abierta verde claro salpicada de pequeños lagos alrededor.",
+    "f": [
+      "El monte Roraima, el tepuy de cima plana donde se juntan Brasil, Venezuela y Guyana, está a unos 250 km al norte.",
+      "El río Branco corre hacia el sur hasta el río Negro y, por él, hasta el Amazonas."
+    ],
+    "q": {
+      "q": "¿Qué forma tiene el plano de Boa Vista?",
+      "a": "Un abanico que se abre desde el río",
+      "x": [
+        "Una cuadrícula perfecta",
+        "Anillos concéntricos"
+      ]
+    }
+  },
+  "Q180215": {
+    "t": "Una ciudad sobre el ecuador, frente a la boca del Amazonas",
+    "s": "Macapá está justo sobre el ecuador, en la orilla norte del Amazonas, donde el gran río se abre en su inmensa boca sembrada de islas. El agua frente a la ciudad es parda y tiene muchos kilómetros de ancho. Aquí el ecuador se toma en serio: la línea de medio campo del estadio de fútbol lo sigue, así que cada equipo defiende una portería en un hemisferio distinto.",
+    "w": "Una ciudad en una orilla recta frente a un enorme estuario pardo lleno de islas; selva y sabana llanas tierra adentro.",
+    "f": [
+      "La fortaleza de São José de Macapá, terminada en 1782, es uno de los mayores fuertes que los portugueses construyeron en Brasil.",
+      "Ninguna carretera une Macapá con el resto de Brasil; se cruza el Amazonas en barco o en avión."
+    ],
+    "q": {
+      "q": "¿Qué línea sigue el medio campo del estadio de Macapá?",
+      "a": "El ecuador",
+      "x": [
+        "El trópico de Cáncer",
+        "El meridiano de Greenwich"
+      ]
+    }
+  },
+  "Q1930": {
+    "t": "Una capital en un río fronterizo, con un canal para patinar",
+    "s": "Ottawa está en la orilla sur del ancho río Ottawa, que aquí separa Ontario de Quebec; la ciudad de Gatineau la mira desde la orilla norte. Por el centro pasa el canal Rideau, abierto en 1832, y en invierno un largo tramo se congela y se convierte en una pista de patinaje de casi 8 km. La reina Victoria eligió la ciudad como capital de Canadá en 1857.",
+    "w": "Una ciudad en un río ancho con Gatineau enfrente; un canal fino que serpentea al sur por el centro; colinas boscosas al noroeste.",
+    "f": [
+      "El canal Rideau es Patrimonio Mundial de la UNESCO desde 2007.",
+      "Aquí se juntan tres ríos: el Ottawa, el Rideau y el Gatineau."
+    ],
+    "q": {
+      "q": "¿Quién eligió Ottawa como capital de Canadá en 1857?",
+      "a": "La reina Victoria",
+      "x": [
+        "John A. Macdonald",
+        "El rey Jorge III"
+      ]
+    }
+  },
+  "Q3078079": {
+    "t": "El norte extremo de Ontario, en la bahía de Hudson",
+    "s": "Fort Severn es una pequeña comunidad cree cerca de la desembocadura del río Severn en la bahía de Hudson, el asentamiento más septentrional de Ontario. Alrededor se extienden las tierras bajas de la bahía de Hudson, uno de los mayores humedales de la Tierra: un mosaico llano de turberas, charcas y píceas raquíticas. La Compañía de la Bahía de Hudson instaló por primera vez un puesto comercial en la boca del río en 1689.",
+    "w": "Un asentamiento diminuto junto a la boca de un río, en una costa llana y gris; turberas y charcas infinitas tierra adentro.",
+    "f": [
+      "El parque provincial Polar Bear, el mayor de Ontario, se extiende por la costa hacia el este.",
+      "Gran parte del año, a la comunidad solo se llega por aire."
+    ],
+    "q": {
+      "q": "¿Qué distingue a Fort Severn de las demás comunidades de Ontario?",
+      "a": "Es la más septentrional",
+      "x": [
+        "Es la ciudad más antigua",
+        "Es la capital provincial"
+      ]
+    }
+  },
+  "Q34116": {
+    "t": "Un puerto lacustre vigilado por un Gigante Dormido",
+    "s": "Thunder Bay bordea la orilla noroeste del lago Superior, el mayor lago de agua dulce del mundo por superficie. Al otro lado de su bahía está la larga península Sibley, cuyos acantilados de cima plana parecen desde la ciudad un gigante tumbado boca arriba: el Gigante Dormido de la leyenda ojibwa. La ciudad se creó en 1970 al fusionar dos puertos rivales, Fort William y Port Arthur.",
+    "w": "Una ciudad en una bahía curva de un lago enorme; una península larga y alta cierra la bahía al este; bosque oscuro tierra adentro.",
+    "f": [
+      "A principios del siglo XIX, Fort William fue la sede interior del comercio de pieles de la Compañía del Noroeste.",
+      "Las cataratas de Kakabeka, a unos 30 km al oeste, caen unos 40 m sobre acantilados de pizarra oscura."
+    ],
+    "q": {
+      "q": "¿Qué dos pueblos se fusionaron en 1970 para formar Thunder Bay?",
+      "a": "Fort William y Port Arthur",
+      "x": [
+        "Fort Erie y Port Elgin",
+        "Fort Frances y Port Hope"
+      ]
+    }
+  },
+  "Q2145": {
+    "t": "Ciudad amurallada en un acantilado donde el río se estrecha",
+    "s": "Quebec se alza en un alto acantilado sobre el punto donde el San Lorenzo se estrecha de repente, que es justo lo que significa su nombre algonquino. Samuel de Champlain fundó aquí un puesto comercial en 1608. Su casco antiguo sigue encerrado por murallas de piedra, las únicas que se conservan al norte de México. Aguas abajo, el río se divide en torno a la larga y verde isla de Orleans.",
+    "w": "Una ciudad en lo alto sobre un río que se estrecha; puentes aguas arriba; aguas abajo, donde se ensancha, una isla larga y cultivada.",
+    "f": [
+      "El puente de Quebec, justo aguas arriba, tiene el vano en ménsula más largo del mundo: 549 m.",
+      "Las cataratas de Montmorency, justo al este, miden unos 83 m, unos 30 m más que el Niágara."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Québec?",
+      "a": "Donde el río se estrecha",
+      "x": [
+        "Tierra de lagos",
+        "Viento frío"
+      ]
+    }
+  },
+  "Q2141": {
+    "t": "Un profundo puerto natural con una gran dársena detrás",
+    "s": "Halifax ocupa una península en uno de los grandes puertos naturales del mundo: una ensenada larga y profunda que se estrecha y luego se abre en Bedford Basin, una amplia bahía interior. Dos puentes colgantes cruzan el puerto hasta Dartmouth, en la otra orilla. Los británicos fundaron la ciudad en 1749 como base naval y, durante décadas, los inmigrantes que llegaban en barco pisaban Canadá por primera vez aquí.",
+    "w": "Una ciudad en una península junto a un puerto largo y profundo que se abre en una amplia dársena interior; dos puentes cruzan el agua.",
+    "f": [
+      "Entre 1928 y 1971, cerca de un millón de inmigrantes entraron en Canadá por el muelle 21 de Halifax.",
+      "El puerto no se hiela en todo el invierno."
+    ],
+    "q": {
+      "q": "¿Cómo se llama la gran bahía interior del puerto de Halifax?",
+      "a": "Bedford Basin",
+      "x": [
+        "Minas Basin",
+        "Mahone Bay"
+      ]
+    }
+  },
+  "Q2082": {
+    "t": "La ciudad más oriental de Norteamérica, frente al Atlántico",
+    "s": "St. John’s se agrupa en torno a un puerto recogido en la costa este de Terranova, al que solo se llega desde el océano por los Narrows, una ranura entre altos acantilados. En Signal Hill, sobre la ciudad, Guglielmo Marconi recibió en 1901 la primera señal de radio transatlántica. Unos kilómetros al sureste, el cabo Spear es el punto más oriental del continente norteamericano.",
+    "w": "Una ciudad montuosa alrededor de un pequeño puerto casi cerrado de boca estrecha; acantilados abruptos y Atlántico abierto al este.",
+    "f": [
+      "Terranova tiene su propio huso horario, media hora por delante de la hora del Atlántico.",
+      "En primavera y a principios del verano, los icebergs de Groenlandia suelen pasar frente a esta costa."
+    ],
+    "q": {
+      "q": "¿Qué ocurrió en Signal Hill, en St. John’s, en 1901?",
+      "a": "La primera señal de radio transatlántica",
+      "x": [
+        "La primera llamada telefónica a Europa",
+        "El primer vapor con rumbo a Europa"
+      ]
+    }
+  },
+  "Q3335210": {
+    "t": "El último pueblo al norte de Labrador, entre islas y fiordos",
+    "s": "Nain está en una bahía resguardada de la abrupta costa norte de Labrador, donde cientos de islas rocosas y largos fiordos rompen la orilla y el hielo marino dura hasta bien entrada la primavera. Misioneros moravos fundaron aquí una misión en 1771. Es la comunidad permanente más septentrional de Labrador y la puerta de los montes Torngat, más al norte.",
+    "w": "Un pequeño asentamiento en una bahía tras un laberinto de islas rocosas; colinas desnudas y redondeadas y fiordos; hielo marino casi todo el año.",
+    "f": [
+      "La labradorita, una piedra con destellos azules y verdes, se describió por primera vez en la isla de Paul, cerca de Nain, hacia 1770.",
+      "Nain es el centro administrativo de Nunatsiavut, la región inuit de Labrador."
+    ],
+    "q": {
+      "q": "¿Qué mineral tornasolado se describió por primera vez cerca de Nain?",
+      "a": "La labradorita",
+      "x": [
+        "La piedra de luna",
+        "El ópalo"
+      ]
+    }
+  },
+  "Q2127": {
+    "t": "Una pequeña capital en una isla de campos rojo ladrillo",
+    "s": "Charlottetown está en un puerto donde se juntan tres ríos pequeños, en el centro de la isla del Príncipe Eduardo, y lo primero que notarás es el color de la tierra. El suelo de la isla es de un rojo ladrillo intenso, que asoma en los campos arados y en sus acantilados y playas. En 1864, una conferencia celebrada aquí puso en marcha la unión de provincias que se convirtió en Canadá.",
+    "w": "Una pequeña ciudad en un puerto ramificado; un edredón de campos verdes y pardo rojizos; acantilados rojos en la costa de la isla.",
+    "f": [
+      "El color rojo se debe al óxido de hierro —herrumbre— de la arenisca y el suelo de la isla.",
+      "El puente de la Confederación, de unos 12,9 km, es el puente más largo del mundo sobre aguas que se hielan.",
+      "La ciudad lleva el nombre de la reina Carlota, esposa del rey Jorge III."
+    ],
+    "q": {
+      "q": "¿Por qué es tan roja la tierra de la isla del Príncipe Eduardo?",
+      "a": "Por el óxido de hierro",
+      "x": [
+        "Por la ceniza volcánica",
+        "Por el coral triturado"
+      ]
+    }
+  },
+  "Q923541": {
+    "t": "Un puerto patagónico en un valle fluvial inundado",
+    "s": "Puerto Deseado está en la desembocadura del río Deseado, en la ventosa costa patagónica argentina, donde el mar ha inundado un antiguo valle fluvial y ha formado una ría larga y estrecha que se adentra unos 40 km. Sus acantilados e islotes rebosan de aves marinas, lobos marinos y pingüinos. El navegante inglés Thomas Cavendish bautizó el puerto con el nombre de su barco, el Desire, en 1586.",
+    "w": "Un pueblo en la boca de una ensenada larga y estrecha cortada en una meseta desnuda y leonada; islotes rocosos frente a la costa.",
+    "f": [
+      "Charles Darwin exploró la ría durante el viaje del Beagle, en 1833.",
+      "El pingüino de penacho amarillo anida en la isla Pingüino, un poco más al sur por la costa."
+    ],
+    "q": {
+      "q": "¿Qué barco dio nombre a Puerto Deseado?",
+      "a": "El Desire de Thomas Cavendish",
+      "x": [
+        "La Victoria de Magallanes",
+        "El Beagle de Darwin"
+      ]
+    }
+  },
+  "Q44242": {
+    "t": "Una capital ventosa de estepa junto a un estuario de mareas",
+    "s": "Río Gallegos está en la orilla sur de un ancho estuario cerca del extremo sur de Argentina, rodeado de estepa patagónica llana y sin árboles. Sus mareas están entre las más altas de la costa argentina, y con la bajamar aparecen enormes planicies de lodo gris donde se alimentan aves playeras migratorias. Fundada en 1885, la ciudad creció como puerto de la lana de las enormes estancias ovejeras de alrededor.",
+    "w": "Una ciudad baja junto a un ancho estuario con amplias planicies de lodo; estepa llana y leonada hasta el horizonte.",
+    "f": [
+      "Es la capital de Santa Cruz, una de las provincias más grandes y menos pobladas de Argentina.",
+      "Fuertes vientos del oeste barren aquí la estepa gran parte del año."
+    ],
+    "q": {
+      "q": "¿Qué hizo rica la región de Río Gallegos a finales del siglo XIX?",
+      "a": "La cría de ovejas",
+      "x": [
+        "La minería de plata",
+        "La caña de azúcar"
+      ]
+    }
+  },
+  "Q221921": {
+    "t": "Una ciudad petrolera nacida al buscar agua",
+    "s": "Comodoro Rivadavia se aprieta entre el golfo San Jorge y las laderas empinadas del cerro Chenque, una colina de cima plana que domina el centro. En 1907, unos obreros que perforaban en busca de agua dulce en este rincón reseco de la Patagonia encontraron petróleo, y la ciudad se convirtió en el primer gran centro petrolero de Argentina. Vientos implacables barren la estepa y hoy mueven hileras de aerogeneradores.",
+    "w": "Una ciudad alargada junto a un ancho golfo bajo colinas desnudas de cima plana; pozos de petróleo repartidos por la estepa parda de detrás.",
+    "f": [
+      "La ciudad se fundó en 1901 y lleva el nombre del marino Martín Rivadavia.",
+      "El golfo San Jorge es una de las mayores bahías de la costa atlántica argentina."
+    ],
+    "q": {
+      "q": "¿Qué buscaban los perforadores cuando encontraron petróleo aquí en 1907?",
+      "a": "Agua",
+      "x": [
+        "Oro",
+        "Carbón"
+      ]
+    }
   }
 }

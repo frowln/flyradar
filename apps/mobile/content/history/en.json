@@ -3898,5 +3898,305 @@
         "It's very old"
       ]
     }
+  },
+  "teotihuacan": {
+    "name": "Teotihuacan",
+    "era": "c. 100 BC – AD 550",
+    "t": "A city of pyramids that awed even the Aztecs",
+    "s": "North-east of today's Mexico City lie the ruins of Teotihuacan, one of the largest cities in the world around AD 500. A broad avenue several kilometres long runs past the great Pyramids of the Sun and the Moon, lined with temples and palaces. Centuries after its fall, the Aztecs believed the gods had been born here. In clear air the Pyramid of the Sun can sometimes be picked out in the valley.",
+    "w": "Look north-east of Mexico City's sprawl for a farmed valley with a long straight avenue and two large pyramids.",
+    "f": [
+      "The Pyramid of the Sun is about 65 m tall, one of the largest in the Americas.",
+      "At its peak the city may have had around 100,000 inhabitants.",
+      "Teotihuacan became a UNESCO World Heritage site in 1987."
+    ],
+    "q": {
+      "q": "What does 'Teotihuacan' mean in Nahuatl?",
+      "a": "Place where the gods were made",
+      "x": [
+        "City of the sun",
+        "Home of the eagles"
+      ]
+    }
+  },
+  "tenochtitlan": {
+    "name": "Tenochtitlan",
+    "era": "1325 – 1521",
+    "t": "The Aztec capital built on a lake",
+    "s": "Mexico City stands on the site of Tenochtitlan, the Aztec capital founded in 1325 on an island in Lake Texcoco. Causeways linked it to the shore, canals ran between its districts, and floating gardens fed its people. When Spanish travellers first saw it, they compared it to Venice. The lake was later drained, and from above you now see only a vast city filling the old lakebed, ringed by mountains and volcanoes.",
+    "w": "Look for an immense city filling a high basin ringed by mountains, with the volcanoes Popocatépetl and Iztaccíhuatl to the south-east.",
+    "f": [
+      "The eagle on a cactus on Mexico's flag comes from the city's founding legend.",
+      "Remains of the Great Temple were uncovered in the city centre after 1978.",
+      "The canals of Xochimilco are a surviving piece of the old lake landscape."
+    ],
+    "q": {
+      "q": "Which image on Mexico's flag comes from Tenochtitlan's legend?",
+      "a": "An eagle on a cactus",
+      "x": [
+        "A jaguar on a pyramid",
+        "A serpent in a lake"
+      ]
+    }
+  },
+  "chichen-itza": {
+    "name": "Chichén Itzá",
+    "era": "c. 600 – 1200",
+    "t": "A Maya calendar in stone on the Yucatán plain",
+    "s": "On the flat limestone plain of the Yucatán rises Chichén Itzá, one of the greatest cities of the Maya. Its step pyramid, El Castillo, works as a calendar in stone, and at the spring and autumn equinoxes shadows form a serpent descending its stairs. There are no rivers here; water came from cenotes, natural wells in the rock. From above, look for flat green forest stretching to every horizon.",
+    "w": "Look for flat, unbroken green scrub forest across the Yucatán, about 180 km west of Cancún.",
+    "f": [
+      "El Castillo's four stairways plus its top platform add up to 365 steps.",
+      "Its Great Ball Court is the largest known in Mesoamerica.",
+      "Chichén Itzá became a UNESCO World Heritage site in 1988."
+    ],
+    "q": {
+      "q": "What appears on El Castillo's stairs at the equinoxes?",
+      "a": "A serpent of light and shadow",
+      "x": [
+        "A rainbow",
+        "A double sunrise"
+      ]
+    }
+  },
+  "tulum": {
+    "name": "Tulum",
+    "era": "13th – 16th c.",
+    "t": "A Maya port on a cliff above the Caribbean",
+    "s": "On a low cliff above the turquoise Caribbean stands Tulum, a walled Maya port that was still busy when the first Spanish ships sailed by. Its temples looked out over a gap in the reef, and traders in canoes carried jade, obsidian and salt along the coast. From above, look for the long white-sand coast of the Yucatán and the line of the barrier reef just offshore.",
+    "w": "Look for the white-sand coast south of Cancún, with a thin line of surf marking the reef offshore.",
+    "f": [
+      "A stone wall protected the city on three sides; the sea guarded the fourth.",
+      "Its name is Maya for 'wall'.",
+      "The Mesoamerican Barrier Reef off this coast is the largest reef in the Americas."
+    ],
+    "q": {
+      "q": "What protected Tulum on three sides?",
+      "a": "A stone wall",
+      "x": [
+        "A moat",
+        "A river"
+      ]
+    }
+  },
+  "palenque": {
+    "name": "Palenque",
+    "era": "c. 500 – 800",
+    "t": "A Maya royal city in the rainforest",
+    "s": "Where forested hills meet the lowland plain of Chiapas stands Palenque, a Maya city famous for its elegant temples and carved inscriptions. Its greatest king, Pakal, ruled for almost 70 years in the 7th century. In 1952 archaeologists found his tomb deep inside the Temple of the Inscriptions, with a jade mask and a magnificently carved stone lid. From above, look for green hills rising from the flat plain.",
+    "w": "Look where the forested hills of Chiapas rise abruptly from the flat, wet plain of Tabasco to the north.",
+    "f": [
+      "Pakal became king at the age of 12.",
+      "The tomb was reached by a hidden stairway inside the pyramid.",
+      "Palenque became a UNESCO World Heritage site in 1987."
+    ],
+    "q": {
+      "q": "Whose tomb was found in the Temple of the Inscriptions?",
+      "a": "King Pakal's",
+      "x": [
+        "Moctezuma's",
+        "Atahualpa's"
+      ]
+    }
+  },
+  "tikal": {
+    "name": "Tikal",
+    "era": "4th c. BC – 10th c. AD",
+    "t": "Maya temples rising above the jungle canopy",
+    "s": "Deep in the rainforest of northern Guatemala, the temple-pyramids of Tikal rise above the treetops. It was one of the most powerful Maya cities, home to tens of thousands of people, with plazas, palaces and reservoirs. Laser scans from aircraft have since revealed thousands more buildings hidden under the forest. From above, look for unbroken green jungle and Lake Petén Itzá to the south.",
+    "w": "Look for unbroken green rainforest in northern Guatemala, with the long Lake Petén Itzá to the south.",
+    "f": [
+      "Its tallest temple, Temple IV, is about 65 m high.",
+      "Tikal appears as a rebel base in the original 'Star Wars' film of 1977.",
+      "It became a UNESCO World Heritage site in 1979, for both nature and culture."
+    ],
+    "q": {
+      "q": "Which film used Tikal as a rebel base?",
+      "a": "Star Wars (1977)",
+      "x": [
+        "Indiana Jones",
+        "Jurassic Park"
+      ]
+    }
+  },
+  "mesa-verde": {
+    "name": "Mesa Verde",
+    "era": "c. 550 – 1300",
+    "t": "Villages tucked into cliff alcoves",
+    "s": "On a green tableland in south-western Colorado, Ancestral Puebloan people farmed for more than 700 years. In the 1200s they built villages of stone into alcoves in the canyon walls, some with more than a hundred rooms. Around 1300 they moved away, probably driven by drought. From above, look for a flat-topped mesa cut by deep canyons, near the Four Corners where four states meet.",
+    "w": "Look for a large flat-topped mesa, green with juniper and cut by canyons, in the far south-west of Colorado.",
+    "f": [
+      "Cliff Palace, the largest cliff dwelling, has around 150 rooms.",
+      "In 1906 it became the first US national park created to protect human works.",
+      "In 1978 it was among the first 12 sites on UNESCO's World Heritage list."
+    ],
+    "q": {
+      "q": "What is Mesa Verde's largest cliff dwelling?",
+      "a": "Cliff Palace",
+      "x": [
+        "Pueblo Bonito",
+        "Taos Pueblo"
+      ]
+    }
+  },
+  "chaco-canyon": {
+    "name": "Chaco Canyon",
+    "era": "c. 850 – 1150",
+    "t": "Great houses aligned with the sun and moon",
+    "s": "In a dry canyon in north-western New Mexico, Ancestral Puebloans built great houses of stone, some several storeys high with hundreds of rooms. Chaco was a centre of trade and ceremony, linked to distant settlements by straight roads, and several buildings are aligned with the sun and moon. From above, look for dry mesas and washes in empty desert south of the San Juan River.",
+    "w": "Look for dry mesas, canyons and washes in open desert in north-western New Mexico.",
+    "f": [
+      "Pueblo Bonito, the largest great house, had around 650 rooms.",
+      "Chaco is also an International Dark Sky Park, with some of the darkest night skies in the US.",
+      "Chaco Culture became a UNESCO World Heritage site in 1987."
+    ],
+    "q": {
+      "q": "What is Chaco Canyon's largest great house?",
+      "a": "Pueblo Bonito",
+      "x": [
+        "Cliff Palace",
+        "Taos Pueblo"
+      ]
+    }
+  },
+  "cahokia": {
+    "name": "Cahokia",
+    "era": "c. 1050 – 1350",
+    "t": "The great city of the Mississippi mound builders",
+    "s": "Just across the Mississippi from St. Louis lie the mounds of Cahokia, the largest city north of Mexico before Europeans arrived. Around 1100, thousands of people lived here among plazas, houses and more than a hundred earthen mounds. Its central mound, built basket by basket, is the largest earthwork of its kind in the Americas. From above, look for where the Missouri and Mississippi rivers meet near the city.",
+    "w": "Look for the confluence of the Missouri and Mississippi just north of St. Louis; the mounds lie on the Illinois side.",
+    "f": [
+      "Monks Mound is about 30 m high and covers some 6 hectares.",
+      "A circle of wooden posts, now called Woodhenge, marked sunrise at solstices and equinoxes.",
+      "Cahokia became a UNESCO World Heritage site in 1982."
+    ],
+    "q": {
+      "q": "What is Cahokia's largest earthwork called?",
+      "a": "Monks Mound",
+      "x": [
+        "Serpent Mound",
+        "Grave Creek Mound"
+      ]
+    }
+  },
+  "kitty-hawk": {
+    "name": "Kitty Hawk: the first powered flight",
+    "era": "17 December 1903",
+    "t": "Where the Wright brothers first flew",
+    "s": "On the windy sand dunes of the Outer Banks, near Kitty Hawk, Orville and Wilbur Wright made the first controlled, powered flights of an aeroplane on 17 December 1903. The first flight lasted 12 seconds. The brothers, bicycle makers from Ohio, chose the spot for its steady winds and soft sand. Every flight since, including yours, traces back here. From above, look for the long, thin barrier islands off North Carolina.",
+    "w": "Look for a long, narrow chain of sandy barrier islands off North Carolina, with wide sounds behind them.",
+    "f": [
+      "The first flight covered about 37 m, less than the wingspan of many airliners.",
+      "Their best flight that day lasted 59 seconds and covered about 260 m.",
+      "Neil Armstrong carried a piece of the Wright Flyer's fabric to the Moon in 1969."
+    ],
+    "q": {
+      "q": "How long did the first powered flight last?",
+      "a": "12 seconds",
+      "x": [
+        "2 seconds",
+        "3 minutes"
+      ]
+    }
+  },
+  "l-anse-aux-meadows": {
+    "name": "L'Anse aux Meadows",
+    "era": "c. 1000; found 1960",
+    "t": "The Vikings in America, 500 years before Columbus",
+    "s": "At the northern tip of Newfoundland lie the remains of a Norse settlement from around the year 1000: turf buildings, a smithy and bits of iron and bronze. It is the only confirmed Viking site in the Americas, and it matches the sagas' stories of Leif Erikson reaching a land they called Vinland. From above, look for the northern tip of Newfoundland facing the Strait of Belle Isle, with icebergs in spring.",
+    "w": "Look for the northern tip of Newfoundland beside the narrow Strait of Belle Isle, often with icebergs in spring.",
+    "f": [
+      "It was found in 1960 by the Norwegian explorers Helge Ingstad and Anne Stine Ingstad.",
+      "Tree rings in wood cut by Norse tools show the timber was felled in 1021.",
+      "It was among the first 12 sites on UNESCO's World Heritage list in 1978."
+    ],
+    "q": {
+      "q": "Who found L'Anse aux Meadows in 1960?",
+      "a": "Helge and Anne Stine Ingstad",
+      "x": [
+        "Farley Mowat",
+        "Thor Heyerdahl"
+      ]
+    }
+  },
+  "signal-hill": {
+    "name": "Signal Hill, St. John's",
+    "era": "1901",
+    "t": "Where the first radio signal crossed the Atlantic",
+    "s": "On a headland above the harbour of St. John's, Newfoundland, Guglielmo Marconi listened through an earphone on 12 December 1901 and heard three faint clicks sent from Cornwall, about 3,500 km away. It was the first wireless signal across the Atlantic, and it opened the age of radio. His aerial was a wire held up by a kite. From above, look for the narrow harbour entrance of St. John's on Newfoundland's east coast.",
+    "w": "Look for a narrow gap in the cliffs on Newfoundland's east coast, opening into the harbour of St. John's.",
+    "f": [
+      "The three clicks were the Morse code for the letter S.",
+      "Cabot Tower on the hill marks the 400th anniversary of John Cabot's voyage of 1497.",
+      "St. John's is the easternmost city in North America."
+    ],
+    "q": {
+      "q": "Which Morse letter did Marconi hear in 1901?",
+      "a": "S",
+      "x": [
+        "O",
+        "E"
+      ]
+    }
+  },
+  "ellis-island": {
+    "name": "Ellis Island and the Statue of Liberty",
+    "era": "1886 – 1954",
+    "t": "The gateway for millions of new Americans",
+    "s": "In New York Harbor, two small islands tell the story of American immigration. The Statue of Liberty, a gift from France, was dedicated in 1886, and from 1892 to 1954 around 12 million immigrants were processed at the station on neighbouring Ellis Island. For many, the statue was their first sight of America. From above, look for the Upper Bay between Manhattan, Brooklyn and New Jersey.",
+    "w": "Look for the Upper Bay just south-west of Manhattan's tip, with two small islands near the New Jersey shore.",
+    "f": [
+      "The statue's copper skin was designed by Frédéric Bartholdi; Gustave Eiffel designed its iron frame.",
+      "Its copper turned green over about 20 years as it weathered.",
+      "Ellis Island's main building is now a museum of immigration."
+    ],
+    "q": {
+      "q": "Which country gave the Statue of Liberty to the US?",
+      "a": "France",
+      "x": [
+        "Britain",
+        "Italy"
+      ]
+    }
+  },
+  "kennedy-space-center": {
+    "name": "Kennedy Space Center: the road to the Moon",
+    "era": "from 1962",
+    "t": "The launch pads that sent people to the Moon",
+    "s": "On Merritt Island, beside Cape Canaveral on Florida's Atlantic coast, stand the launch pads from which Apollo astronauts left for the Moon. Apollo 11 lifted off from Launch Complex 39A on 16 July 1969, and four days later two people walked on another world for the first time. Space Shuttles and today's rockets launch here too. From above, look for the cape and its lagoons jutting out from the Florida coast.",
+    "w": "Look for a broad cape and flat island between long lagoons on Florida's Atlantic coast, east of Orlando.",
+    "f": [
+      "The Vehicle Assembly Building, where rockets are stacked, is one of the largest buildings in the world by volume.",
+      "Much of the land around the pads is a wildlife refuge.",
+      "Launch Complex 39A has sent astronauts to the Moon, Space Shuttles into orbit and modern rockets to the space station."
+    ],
+    "q": {
+      "q": "Which mission launched here for the first Moon landing?",
+      "a": "Apollo 11",
+      "x": [
+        "Apollo 8",
+        "Gemini 4"
+      ]
+    }
+  },
+  "sutters-mill": {
+    "name": "Sutter's Mill, Coloma",
+    "era": "24 January 1848",
+    "t": "The flake of gold that started the California Gold Rush",
+    "s": "In January 1848 a carpenter building a sawmill for John Sutter on the American River noticed flakes of gold in the water. Over the next few years some 300,000 people poured into California, and the small port of San Francisco grew into a city almost overnight. California became a state in 1850. From above, look for the Sierra Nevada foothills and Folsom Lake east of Sacramento.",
+    "w": "Look for the oak-covered Sierra Nevada foothills and the Folsom Lake reservoir, east of Sacramento.",
+    "f": [
+      "The carpenter who found the gold was James Marshall.",
+      "The gold-seekers of 1849 became known as the 'forty-niners'.",
+      "San Francisco grew from about 1,000 people in 1848 to around 25,000 by 1850."
+    ],
+    "q": {
+      "q": "What were the gold-seekers of 1849 called?",
+      "a": "Forty-niners",
+      "x": [
+        "Sooners",
+        "Klondikers"
+      ]
+    }
   }
 }

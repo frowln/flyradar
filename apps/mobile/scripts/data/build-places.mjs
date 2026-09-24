@@ -114,7 +114,14 @@ const RENAME = {
   'ne-rg-1159104003': { l: { ru: 'мыс Камау' } },
   // Kinds: the Amazon selva is lowland forest, Punjab a farmed river plain.
   'ne-rg-1730074073': { k: 'region', l: { ru: 'Сельва' } },
-  'ne-rg-1159104245': { k: 'region' }
+  'ne-rg-1159104245': { k: 'region' },
+  // The label point is in the Niger Delta, and so are the other languages.
+  'ne-rg-1159103977': { n: 'Niger Delta' },
+  // In Iowa and Illinois: the US Central Lowland, not the Scottish one.
+  'ne-rg-1730073989': { l: { ru: 'Центральная низменность' } },
+  'ne-rv-1159113693': { l: { ru: 'Розеттский рукав' } },
+  'ne-rg-1730072243': { l: { ru: 'Земля Кристиана IX' } },
+  'ne-rg-1159104419': { l: { ru: 'Земля Королевы Мэри' } }
 };
 
 const REGION_KIND = {

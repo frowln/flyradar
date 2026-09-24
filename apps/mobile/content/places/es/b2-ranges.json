@@ -1134,5 +1134,387 @@
         "Great Sand Dunes"
       ]
     }
+  },
+  "Q189429": {
+    "t": "La tierra del saguaro, sorprendentemente verde",
+    "s": "Para ser un desierto, el de Sonora se ve sorprendentemente verde desde arriba: dos estaciones de lluvia al año alimentan una densa dispersión de arbustos, árboles y cactus gigantes. Se extiende por Arizona, California y el noroeste de México, roto por pequeñas sierras escarpadas. Busca los nítidos cuadrados verdes de los regadíos junto a los ríos Colorado y Gila, y la enorme cuadrícula de Phoenix al este.",
+    "w": "Cuencas desérticas moteadas de verde oliva entre pequeñas sierras dentadas, regadíos junto a los ríos y la extensa cuadrícula de Phoenix.",
+    "f": [
+      "El saguaro gigante crece silvestre casi solo en el desierto de Sonora.",
+      "Un saguaro puede superar los 12 m de altura y vivir más de 150 años.",
+      "Phoenix, en el corazón del desierto, es una de las mayores ciudades de Estados Unidos."
+    ],
+    "q": {
+      "q": "¿Qué cactus gigante es el símbolo del desierto de Sonora?",
+      "a": "El saguaro",
+      "x": [
+        "El árbol de Josué",
+        "La chumbera"
+      ]
+    }
+  },
+  "Q1670841": {
+    "t": "Un desierto acunado en el gran bucle del río Amarillo",
+    "s": "Busca el río Amarillo girando al norte en un enorme bucle casi rectangular: la tierra de dentro es la meseta de Ordos, y su sur arenoso es el desierto de Mu Us. En las últimas décadas, gran parte del Mu Us se ha fijado con arbustos y árboles plantados, así que quizá veas tanto verde grisáceo como amarillo. La Gran Muralla corría antaño por su borde sur.",
+    "w": "Una meseta de manchas de arena pálida y matorral verde grisáceo dentro del gran bucle del río Amarillo, cruzada por carreteras rectas.",
+    "f": [
+      "Kubuqi, el desierto del lado norte de Ordos, es conocido por sus enormes parques solares tendidos sobre la arena.",
+      "La meseta de Ordos es rica en carbón, lo que la convierte en una de las principales regiones energéticas de China."
+    ],
+    "q": {
+      "q": "¿Qué río rodea con su bucle la meseta de Ordos?",
+      "a": "El río Amarillo",
+      "x": [
+        "El Yangtsé",
+        "El Amur"
+      ]
+    }
+  },
+  "Q132956": {
+    "t": "Un mar de arena móvil rodeado de montañas nevadas",
+    "s": "El Taklamakán llena la cuenca del Tarim como arena vertida en un cuenco: dunas en todas direcciones, cercadas por el nevado Tian Shan al norte y el Kunlun al sur. Es uno de los mayores desiertos de arena móvil de la Tierra. En sus bordes se suceden antiguos oasis de la Ruta de la Seda, como Kasgar y Hotan, alimentados por arroyos de deshielo que mueren en la arena.",
+    "w": "Enormes campos de dunas en una cuenca cerrada, rodeada de montañas nevadas y de franjas verdes de oasis al pie de las sierras.",
+    "f": [
+      "El nombre suele traducirse popularmente como «entras y no sales», aunque su origen real es incierto.",
+      "La carretera del desierto del Tarim cruza las dunas durante más de 500 km, protegida por franjas de arbustos plantados.",
+      "El río Tarim, alimentado por el deshielo, corre por el borde norte del desierto y nunca llega al mar."
+    ],
+    "q": {
+      "q": "¿Qué montañas cierran el Taklamakán por el norte?",
+      "a": "El Tian Shan",
+      "x": [
+        "El Kunlun",
+        "El Altái"
+      ]
+    }
+  },
+  "Q483134": {
+    "t": "Una península montañosa con un abrupto espinazo oriental",
+    "s": "Cerca del 70 % de la península de Corea son colinas y montañas, y desde arriba se ve cómo se amontonan hacia el este: un largo espinazo, el Baekdudaegan, corre junto a la costa oriental, mientras el terreno baja al oeste hacia amplias llanuras y una orilla de islas y enormes llanuras de marea. En otoño, los bosques se tiñen de todos los tonos de rojo y oro.",
+    "w": "Crestas boscosas apiñadas en la costa este, campos y ciudades más llanos al oeste, y una costa occidental de islas y marismas.",
+    "f": [
+      "Las llanuras de marea de la costa oeste son Patrimonio de la Humanidad de la UNESCO; allí la marea puede subir más de 8 m.",
+      "De norte a sur, la península mide unos 1000 km."
+    ],
+    "q": {
+      "q": "¿Qué parte de la península de Corea es montañosa, más o menos?",
+      "a": "Cerca del 70 %",
+      "x": [
+        "Cerca del 30 %",
+        "Cerca del 50 %"
+      ]
+    }
+  },
+  "Q584279": {
+    "t": "El techo del norte de África: nieve sobre el desierto",
+    "s": "Desde Marrakech se ve su nieve en invierno, y desde el aire el Alto Atlas es una barrera afilada, rojiza y blanca, que cruza Marruecos a lo largo de unos 700 km. Al norte quedan llanuras verdes y el Atlántico; al sur, el desierto empieza casi de inmediato. Gargantas profundas como las del Todra y el Dadès cortan su vertiente sur, con finas franjas verdes de palmerales abajo.",
+    "w": "Una muralla montañosa rojiza, con nieve en invierno; estrechas franjas verdes de oasis serpentean por los valles de su lado sur.",
+    "f": [
+      "La carretera de Marrakech a Uarzazat cruza la cordillera por el puerto de Tizi n'Tichka, a unos 2260 m.",
+      "Aït Ben Haddou, pueblo fortificado de adobe en la vertiente sur, es Patrimonio de la UNESCO y un escenario de cine muy querido."
+    ],
+    "q": {
+      "q": "¿Qué puerto lleva la carretera de Marrakech a Uarzazat?",
+      "a": "Tizi n'Tichka",
+      "x": [
+        "Tizi n'Test",
+        "Col du Zad"
+      ]
+    }
+  },
+  "Q183295": {
+    "t": "Montañas del Dragón: una muralla de basalto junto a Lesoto",
+    "s": "Desde arriba, el Drakensberg es un único acantilado colosal: el borde de una alta meseta de basalto que cae más de un kilómetro hasta las verdes colinas de KwaZulu-Natal. Encima está Lesoto, un reino de montaña donde hasta el punto más bajo está a unos 1400 m sobre el mar. En invierno, el borde del escarpe suele amanecer espolvoreado de nieve.",
+    "w": "El largo borde oscuro de un escarpe: a un lado, una meseta alta, llana y desnuda; al otro, estribaciones verdes y plegadas muy abajo.",
+    "f": [
+      "Su nombre zulú, uKhahlamba, significa «barrera de lanzas»; Drakensberg es «montañas del dragón» en afrikáans.",
+      "El Thabana Ntlenyana, en Lesoto, con 3482 m, es el pico más alto del África austral.",
+      "El parque Maloti-Drakensberg guarda miles de pinturas rupestres del pueblo san."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre zulú uKhahlamba?",
+      "a": "Barrera de lanzas",
+      "x": [
+        "Lomo del dragón",
+        "Montaña del trueno"
+      ]
+    }
+  },
+  "Q5191296": {
+    "t": "Colinas de selva por donde los ríos bajan al Atlántico",
+    "s": "Una franja de colinas bajas cubiertas de selva corre paralela a la costa atlántica de África central, desde Guinea Ecuatorial por Gabón hacia la desembocadura del Congo. Los ríos que la cruzan bajan en rápidos, y el poderoso Congo la atraviesa por las cataratas Livingstone, una cadena de rápidos aguas abajo de Kinsasa. Desde arriba es una alfombra casi continua de verde oscuro.",
+    "w": "Colinas bajas y onduladas bajo una densa selva verde, un poco tierra adentro del Atlántico, cortadas por ríos pardos.",
+    "f": [
+      "El Parque Nacional de los Montes de Cristal, en Gabón, al norte, es uno de los lugares de África más ricos en especies vegetales.",
+      "Aguas abajo de Kinsasa, el Congo baja unos 270 m por las cataratas Livingstone camino del océano."
+    ],
+    "q": {
+      "q": "¿Qué cataratas llevan el Congo a través de estas colinas hasta el mar?",
+      "a": "Las cataratas Livingstone",
+      "x": [
+        "Las cataratas Victoria",
+        "Las cataratas Boyoma"
+      ]
+    }
+  },
+  "Q309104": {
+    "t": "Volcanes oscuros en el corazón del Sahara",
+    "s": "En medio del Sahara, oscuras montañas volcánicas surgen de la arena como islas. El Tibesti, en el norte de Chad, guarda la cumbre más alta del Sahara, el Emi Koussi, de unos 3400 m: un enorme volcán en escudo cuyo cráter mide unos 12 km de ancho. Cerca está el Trou au Natron, una caldera profunda con el fondo veteado de sal blanca.",
+    "w": "Macizos volcánicos pardos y negros que surgen de la arena pálida, con anchos cráteres y costras de sal blanca dentro de algunas calderas.",
+    "f": [
+      "El Trou au Natron tiene cerca de 1 km de profundidad, y su fondo está cubierto de una costra blanca de natrón.",
+      "El arte rupestre del Tibesti muestra vacas y jirafas de la época en que el Sahara era verde."
+    ],
+    "q": {
+      "q": "¿Cuál es la cumbre más alta del Sahara?",
+      "a": "Emi Koussi",
+      "x": [
+        "Monte Tahat",
+        "Yebel Tubkal"
+      ]
+    }
+  },
+  "Q23836082": {
+    "t": "Agujas volcánicas negras en el corazón del Sahara argelino",
+    "s": "Del Sahara argelino surge el Ahaggar, o Hoggar: una alta meseta de granito coronada por picos volcánicos oscuros y agujas de lava antigua, esculpidos en formas fantásticas. Es la tierra de los tuaregs, y a sus pies está la ciudad de Tamanrasset. Su pico más alto, el monte Tahat, alcanza unos 2900 m.",
+    "w": "Tierras altas oscuras y escarpadas de picos y agujas negras que surgen del desierto pálido, con valles secos que irradian hacia fuera.",
+    "f": [
+      "En la meseta de Assekrem, a unos 2700 m, está la ermita que el monje francés Charles de Foucauld construyó en 1911.",
+      "En los altos valles del Ahaggar sobreviven olivos silvestres del Sahara, reliquias de un pasado más húmedo."
+    ],
+    "q": {
+      "q": "¿Cuál es el pico más alto del Ahaggar?",
+      "a": "Monte Tahat",
+      "x": [
+        "Emi Koussi",
+        "Assekrem"
+      ]
+    }
+  },
+  "Q170383": {
+    "t": "Islas oscuras de granito en un mar de arena",
+    "s": "El Aïr surge del Sahara como un grupo de islas oscuras: macizos de granito, algunos casi perfectamente redondos, rodeados de arena amarilla. Los anillos son las raíces de antiguos volcanes que la erosión ha dejado al desnudo, y se ven con claridad desde el aire. Entre ellos, los valles secos guardan acacias y algunas aldeas tuaregs; la vieja ciudad caravanera de Agadez está en su borde sur.",
+    "w": "Macizos de roca oscuros y redondeados, algunos en forma de anillo, sobre la arena pálida, con las lisas dunas del Teneré al este.",
+    "f": [
+      "Las reservas naturales del Aïr y el Teneré forman juntas una de las mayores áreas protegidas de África, declarada por la UNESCO.",
+      "El casco antiguo de Agadez, con su alto alminar de adobe, es Patrimonio de la Humanidad de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué ciudad caravanera está en el borde sur del Aïr?",
+      "a": "Agadez",
+      "x": [
+        "Tombuctú",
+        "Tamanrasset"
+      ]
+    }
+  },
+  "Q404600": {
+    "t": "Colinas boscosas que el río Amur parte en dos",
+    "s": "Bajo, ondulado y oscuro de bosques, el Pequeño Khingan se alza entre las llanuras de Manchuria y el Amur. La cordillera es modesta, casi siempre por debajo de 1000 m, pero aquí el gran Amur la atraviesa por un desfiladero estrecho y sinuoso. Las colinas están cubiertas de pino coreano, alerce y abedul, que en otoño se vuelven dorados y rojos.",
+    "w": "Colinas bajas de bosque verde oscuro, con el ancho río Amur abriéndose paso entre ellas por un desfiladero sinuoso.",
+    "f": [
+      "Al pie oeste de la cordillera está Wudalianchi, volcanes que entraron en erupción por última vez en 1719–1721 y represaron cinco lagos.",
+      "El pino coreano, cuyas semillas se venden como piñones, es uno de los árboles principales de la cordillera."
+    ],
+    "q": {
+      "q": "¿Qué gran río atraviesa el Pequeño Khingan por un desfiladero?",
+      "a": "El Amur",
+      "x": [
+        "El Songhua",
+        "El Ussuri"
+      ]
+    }
+  },
+  "Q155322": {
+    "t": "Tierra de tigres en la costa pacífica de Rusia",
+    "s": "Una larga cordillera boscosa recorre unos 1000 km de la costa pacífica de Rusia, al norte de Vladivostok. Sus bosques son únicos: la taiga del norte se mezcla con bosques caducifolios del sur, los tigres del Amur los comparten con osos pardos y del Himalaya, y las píceas crecen junto a vides silvestres y lianas. Desde la ventanilla es un mar de crestas, verde oscuro en verano y moteado de oro en otoño.",
+    "w": "Interminables crestas boscosas paralelas entre el valle del Ussuri y el mar, con pequeñas desembocaduras de ríos en la costa.",
+    "f": [
+      "El 12 de febrero de 1947 cayó aquí una de las mayores lluvias de meteoritos de hierro jamás vistas, que dejó decenas de cráteres.",
+      "El Sijoté-Alín central es Patrimonio de la Humanidad de la UNESCO y protege el hábitat del tigre del Amur."
+    ],
+    "q": {
+      "q": "¿Qué cayó sobre el Sijoté-Alín en febrero de 1947?",
+      "a": "Una lluvia de meteoritos de hierro",
+      "x": [
+        "Ceniza volcánica",
+        "Una granizada gigante"
+      ]
+    }
+  },
+  "Q215917": {
+    "t": "Un arco helado junto al Polo del Frío",
+    "s": "Un gran arco de montañas desnudas y dentadas se curva unos 1200 km por la orilla este del bajo Lena y se alza abrupto sobre su ancho valle trenzado. Más allá de la cordillera están Verjoyansk y Oimiakón, los lugares habitados más fríos del hemisferio norte, donde el invierno puede traer −67 °C. En verano la nieve se retira a las cumbres; en invierno todo es blanco y silencioso.",
+    "w": "Una larga muralla de picos grises veteados de nieve al este del ancho y trenzado Lena, con valles vacíos salpicados de alerces.",
+    "f": [
+      "Verjoyansk, al otro lado de la cordillera, registró −67,8 °C en 1892, una de las temperaturas más bajas medidas en un lugar habitado.",
+      "En verano puede superar los +30 °C: una oscilación de unos 100 grados a lo largo del año.",
+      "El permafrost bajo la cordillera llega a cientos de metros de profundidad."
+    ],
+    "q": {
+      "q": "¿Qué ciudad al otro lado de la cordillera es famosa como Polo del Frío?",
+      "a": "Verjoyansk",
+      "x": [
+        "Norilsk",
+        "Vorkutá"
+      ]
+    }
+  },
+  "Q1072879": {
+    "t": "Nieve sobre el corredor del Hexi, en la Ruta de la Seda",
+    "s": "A lo largo del borde noreste de la meseta tibetana, los montes Qilian forman una larga muralla nevada, cuyos glaciares alimentan los ríos que riegan el corredor del Hexi, abajo. Esa estrecha franja de oasis, encajada entre las montañas y el Gobi, fue la ruta principal de la Ruta de la Seda hacia China. Al pie norte de la cordillera, las colinas de Zhangye están rayadas de rojo, naranja y amarillo.",
+    "w": "Una larga cordillera de cumbres blancas al sur, una franja verde de oasis y campos a su pie y, más allá, el Gobi gris pardo.",
+    "f": [
+      "El corredor del Hexi fue la principal vía de la Ruta de la Seda entre el corazón de China y Asia Central.",
+      "El fuerte de Jiayuguan, extremo occidental de la Gran Muralla Ming, se alza al pie de los Qilian."
+    ],
+    "q": {
+      "q": "¿Qué corredor de la Ruta de la Seda corre al pie norte de los Qilian?",
+      "a": "El corredor del Hexi",
+      "x": [
+        "El corredor de Wakhan",
+        "La Puerta de Dzungaria"
+      ]
+    }
+  },
+  "Q1156557": {
+    "t": "Colinas verdes entre el Yangtsé y el Huai",
+    "s": "Entre el Yangtsé y el río Huai, los montes Dabie se alzan como un nudo boscoso de picos en el centro de China, a menudo envueltos en niebla. Desde arriba parecen apacibles —crestas verdes, laderas de té en terrazas y embalses en los valles—, pero sus rocas cuentan una historia violenta: fueron arrastradas a más de 100 km de profundidad y luego devueltas a la superficie.",
+    "w": "Un grupo compacto de crestas verdes y boscosas con embalses en los valles, entre dos amplias llanuras fluviales.",
+    "f": [
+      "Diminutos diamantes y coesita en las rocas del Dabie demuestran que estuvieron enterradas a más de 100 km.",
+      "Las montañas separan las cuencas del Yangtsé y del Huai.",
+      "El Lu'an Guapian, un conocido té verde chino, se cultiva en las laderas del Dabie."
+    ],
+    "q": {
+      "q": "¿A qué profundidad estuvieron enterradas las rocas del Dabie?",
+      "a": "A más de 100 km",
+      "x": [
+        "A cerca de 1 km",
+        "A unos 10 km"
+      ]
+    }
+  },
+  "Q1195285": {
+    "t": "Las crestas que protegen del invierno el sur de China",
+    "s": "Por el sur de China se extiende un revoltijo de cordilleras redondeadas y boscosas, los Nanling. Separan la cuenca del Yangtsé de la del río de las Perlas y protegen Guangdong de los vientos invernales más fríos, así que en su lado sur crecen cultivos subtropicales. Desde la altitud de crucero, busca colinas verdes marcadas de tierra roja, arrozales en terrazas y, hacia Guilin, pináculos de caliza dentados.",
+    "w": "Crestas verdes y redondeadas de este a oeste, tierra roja y arrozales en terrazas, y afilados pináculos de caliza al oeste, cerca de Guilin.",
+    "f": [
+      "Nanling significa sencillamente «crestas del sur» en chino.",
+      "El canal de Lingqu, excavado en el siglo III a. C., cruzó estas montañas para unir los sistemas del Yangtsé y del río de las Perlas."
+    ],
+    "q": {
+      "q": "¿Qué dos cuencas fluviales separan los Nanling?",
+      "a": "Yangtsé y río de las Perlas",
+      "x": [
+        "Amarillo y Huai",
+        "Mekong y río Rojo"
+      ]
+    }
+  },
+  "Q4527": {
+    "t": "La muralla verde y empapada de la India sobre el mar Arábigo",
+    "s": "Paralelos a la costa oeste de la India a lo largo de unos 1600 km, los Ghats Occidentales reciben el primer golpe del monzón de verano: su vertiente marítima está empapada y verde intenso, y la tierra de detrás queda a la sombra de la lluvia. En los montes Nilgiri forman una alta meseta ondulada de té y praderas. Al sur, el paso de Palghat abre una rara brecha baja en la muralla.",
+    "w": "Un escarpe verde oscuro y empinado paralelo a la costa, té en la meseta de Nilgiri y la ancha brecha de Palghat al sur.",
+    "f": [
+      "Los Ghats Occidentales son Patrimonio de la Humanidad de la UNESCO y uno de los puntos calientes de biodiversidad del mundo.",
+      "El arbusto neelakurinji florece aquí solo una vez cada 12 años y tiñe laderas enteras de azul violáceo.",
+      "El Anamudi, de 2695 m, es el pico más alto de la India al sur del Himalaya."
+    ],
+    "q": {
+      "q": "¿Cada cuánto florece el neelakurinji de los Ghats Occidentales?",
+      "a": "Una vez cada 12 años",
+      "x": [
+        "Una vez cada 3 años",
+        "Una vez cada 50 años"
+      ]
+    }
+  },
+  "Q465055": {
+    "t": "Colinas rotas que cruzan los grandes ríos de la India",
+    "s": "A diferencia de la muralla continua de los Ghats Occidentales, los Ghats Orientales son una cadena rota de colinas viejas y gastadas junto a la costa este de la India. Los grandes ríos del Decán —el Godavari, el Krishna y el Mahanadi— las atraviesan camino del golfo de Bengala y se abren en deltas fértiles. En el norte, las colinas boscosas del valle de Araku cultivan café.",
+    "w": "Colinas bajas, boscosas y discontinuas paralelas a la costa este, con anchos ríos que las atraviesan hacia deltas verdes.",
+    "f": [
+      "Las cuevas de Borra, en los Ghats Orientales, están entre las mayores de la India.",
+      "El lago Chilika, cerca del extremo norte de los Ghats, es la mayor laguna costera de la India."
+    ],
+    "q": {
+      "q": "¿Adónde van los ríos que atraviesan los Ghats Orientales?",
+      "a": "Al golfo de Bengala",
+      "x": [
+        "Al mar Arábigo",
+        "Al golfo de Khambhat"
+      ]
+    }
+  },
+  "Q271435": {
+    "t": "La vieja línea entre el norte y el sur de la India",
+    "s": "Durante siglos, los indios vieron en los Vindhya la línea divisoria entre el norte y el sur: las llanuras del Ganges a un lado y el Decán al otro. Desde 11 km de altura, más que una cordillera es un largo escarpe roto de colinas de arenisca de cima plana. Por su pie sur corre el Narmada, uno de los pocos grandes ríos indios que fluye hacia el oeste.",
+    "w": "Una larga línea de colinas y farallones de arenisca de cima plana cubiertos de matorral, con el valle del Narmada por el lado sur.",
+    "f": [
+      "Los abrigos rocosos de Bhimbetka, en las estribaciones de los Vindhya, guardan pinturas prehistóricas y son Patrimonio de la UNESCO.",
+      "Las estupas budistas de Sanchi, iniciadas en el siglo III a. C., se alzan en una colina de esta región."
+    ],
+    "q": {
+      "q": "¿Qué río que corre al oeste pasa por el pie sur de los Vindhya?",
+      "a": "El Narmada",
+      "x": [
+        "El Godavari",
+        "El Chambal"
+      ]
+    }
+  },
+  "Q207692": {
+    "t": "Acantilados rojos, un río sinuoso y la cuna del té de roca",
+    "s": "En la frontera entre Fujian y Jiangxi, los montes Wuyi se alzan en crestas boscosas y acantilados desnudos de arenisca roja. El río de los Nueve Recodos serpentea entre ellos, y en estrechas terrazas entre las rocas crece el té de roca de Wuyi, incluido el famoso Da Hong Pao. Busca paredes de roca roja que destacan sobre el verde intenso.",
+    "w": "Bosque verde y denso roto por acantilados y domos rojos desnudos, con un río sinuoso que se abre paso entre ellos.",
+    "f": [
+      "Los montes Wuyi son Patrimonio de la Humanidad de la UNESCO por su naturaleza y por su cultura.",
+      "El té Da Hong Pao de los pocos arbustos antiguos de aquí ha alcanzado precios récord en subastas.",
+      "El filósofo neoconfuciano Zhu Xi enseñó en estas montañas en el siglo XII."
+    ],
+    "q": {
+      "q": "¿Qué famoso té procede de los montes Wuyi?",
+      "a": "Da Hong Pao",
+      "x": [
+        "Longjing",
+        "Pu'er"
+      ]
+    }
+  },
+  "Q128500": {
+    "t": "Las montañas de las marmotas, entre Kazajistán y China",
+    "s": "Una larga cresta desnuda corre de este a oeste por la frontera entre Kazajistán y China y surge de golpe de la estepa seca. Los Tarbagatai toman su nombre de la palabra mongola para «marmota», y esos animales excavadores aún silban en las laderas herbosas. Al norte está la lámina azul del lago Zaysan; al sur se abre la cuenca de Dzungaria.",
+    "w": "Una cresta solitaria de este a oeste, veteada de nieve en invierno, que surge de la estepa parda, con el lago Zaysan al noreste.",
+    "f": [
+      "El punto más alto de la cordillera, el monte Tastau, se queda justo por debajo de los 3000 m.",
+      "Al sur de la cordillera está la Puerta de Dzungaria, un paso ventoso que une desde antiguo Asia Central con China."
+    ],
+    "q": {
+      "q": "¿Qué animal dio nombre a los Tarbagatai?",
+      "a": "La marmota",
+      "x": [
+        "El águila real",
+        "El caballo salvaje"
+      ]
+    }
+  },
+  "Q682334": {
+    "t": "Las montañas doradas en el borde del Tíbet",
+    "s": "Altyn-Tagh significa «montañas doradas» en túrquico, un nombre acertado para estas crestas desnudas y tostadas por el sol. La cordillera forma el borde noreste de la meseta tibetana y cae a pico hacia la cuenca del Tarim y los salares de Lop Nur. A lo largo de ella corre una falla enorme, donde la meseta se desliza de lado respecto al resto de Asia.",
+    "w": "Crestas desnudas y leonadas que se alzan a pico al sur del desierto, con los pálidos salares de Lop Nur, como una oreja, al noreste.",
+    "f": [
+      "La falla de Altyn Tagh recorre unos 1600 km: una de las fallas activas más largas de Asia.",
+      "Lop Nur, un lago desecado, está rodeado de bandas de sal que desde el espacio le dan aspecto de oreja gigante.",
+      "La zona de Lop Nur es uno de los últimos refugios del camello bactriano salvaje."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Altyn-Tagh?",
+      "a": "Montañas doradas",
+      "x": [
+        "Montañas negras",
+        "Montañas celestiales"
+      ]
+    }
   }
 }

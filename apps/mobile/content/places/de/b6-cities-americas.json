@@ -2408,5 +2408,380 @@
         "Auf einem Bergplateau"
       ]
     }
+  },
+  "Q194343": {
+    "t": "Eine Kreuzungsstadt, gewachsen aus einem Viehmarkt",
+    "s": "Feira de Santana liegt auf einem sanften Plateau rund 100 km landeinwärts von Salvador, wo Bahias grüner Küstengürtel in den trockenen Sertão überzugehen beginnt. Der Ort wuchs im 18. Jahrhundert um einen Viehmarkt neben einer Kapelle der heiligen Anna, die ihm den Namen gab. Heute treffen sich hier mehrere der wichtigsten Fernstraßen Nordostbrasiliens – einer der verkehrsreichsten Straßenknoten der Region.",
+    "w": "Eine große, kompakte Stadt auf flachem Plateau; Fernstraßen strahlen in mehrere Richtungen aus; im Osten grüneres Land, im Westen trockenes Buschland.",
+    "f": [
+      "Sie ist die zweitgrößte Stadt im Bundesstaat Bahia.",
+      "Die Einheimischen nennen sie die „Prinzessin des Sertão“."
+    ],
+    "q": {
+      "q": "Was gab Feira de Santana seinen Namen?",
+      "a": "Ein Viehmarkt",
+      "x": [
+        "Ein Fischmarkt",
+        "Ein Salzmarkt"
+      ]
+    }
+  },
+  "Q2135": {
+    "t": "Präriestadt auf dem Grund eines verschwundenen Eiszeitsees",
+    "s": "Winnipeg liegt auf so flachem Land, weil es der Boden eines urzeitlichen Sees ist: des Gletschersees Agassiz, der am Ende der letzten Eiszeit einen Großteil der Region bedeckte. Red River und Assiniboine treffen sich im Stadtzentrum, an einer Stelle, die Menschen seit rund 6.000 Jahren als Treffpunkt nutzen. Achten Sie östlich der Stadt auf einen langen, geraden Kanal: den Red River Floodway.",
+    "w": "Eine Stadt auf topfebenen Ebenen an einem Flusszusammenfluss; ein langer Flutkanal im Bogen um die Ostseite; dahinter quadratische Felder.",
+    "f": [
+      "Der rund 47 km lange Floodway leitet Hochwasser des Red River um die Stadt herum.",
+      "Der Name stammt von einem Cree-Wort für „schlammiges Wasser“, das zuerst dem Winnipegsee im Norden galt."
+    ],
+    "q": {
+      "q": "Was bedeutet das Cree-Wort „Winnipeg“?",
+      "a": "Schlammiges Wasser",
+      "x": [
+        "Große Prärie",
+        "Treffpunkt"
+      ]
+    }
+  },
+  "Q744553": {
+    "t": "Die Eisbärenstadt am Ufer der Hudson Bay",
+    "s": "Churchill ist ein winziger Ort, wo der Churchill River in die Hudson Bay mündet, genau an der Baumgrenze: verkrüppelte Fichten im Süden, offene Tundra im Norden. Jeden Herbst versammeln sich Eisbären an dieser Küste und warten darauf, dass die Bucht zufriert, damit sie auf dem Eis Robben jagen können. Im Sommer drängen sich Tausende Belugawale in der Flussmündung.",
+    "w": "Eine kleine Stadt auf einer felsigen Landspitze an einer Flussmündung in eine riesige graue Bucht; landeinwärts flache Tundra und unzählige Teiche.",
+    "f": [
+      "Keine Straße erreicht Churchill; mit dem Süden ist es nur per Bahn und Flugzeug verbunden.",
+      "Jenseits der Flussmündung steht Prince of Wales Fort, ein Steinfort, das die Hudson’s Bay Company zwischen 1731 und 1771 baute."
+    ],
+    "q": {
+      "q": "Warum versammeln sich jeden Herbst Eisbären bei Churchill?",
+      "a": "Sie warten, bis die Bucht zufriert",
+      "x": [
+        "Sie folgen Karibuherden",
+        "Sie suchen Höhlen für den Winterschlaf"
+      ]
+    }
+  },
+  "Q2123": {
+    "t": "Eine Hauptstadt, von Hand in die baumlose Prärie gepflanzt",
+    "s": "Regina erhebt sich aus einer der flachsten, offensten Prärien Kanadas, wo die einzigen Bäume die sind, die Menschen gepflanzt haben. Vor 1882 hieß der Ort Pile o’ Bones, nach Haufen von Bisonknochen am Bach. In jenem Jahr taufte Prinzessin Louise ihn Regina, lateinisch für „Königin“, nach ihrer Mutter, Königin Victoria. Achten Sie auf den künstlichen Wascana Lake im grünen Herzen der Stadt.",
+    "w": "Eine kompakte Stadt auf einer riesigen, flachen, karierten Prärie; ein geschwungener See mit Parkland in der Mitte; schnurgerade Bahnlinien hinaus.",
+    "f": [
+      "Das Wascana Centre, der Park um den See, ist größer als der Central Park in New York.",
+      "Kanadas Bundespolizei, die RCMP, bildet ihre Rekruten seit den 1880er-Jahren in Regina aus."
+    ],
+    "q": {
+      "q": "Wie hieß Reginas Standort vor 1882?",
+      "a": "Pile o’ Bones",
+      "x": [
+        "Buffalo Crossing",
+        "Fort Qu’Appelle"
+      ]
+    }
+  },
+  "Q10566": {
+    "t": "Die Brückenstadt am South Saskatchewan River",
+    "s": "Saskatoon liegt beiderseits des South Saskatchewan River, der sich in einem bewaldeten Tal durch die Stadt windet, überspannt von einer Reihe von Brücken – daher der Spitzname „Bridge City“. Ringsum erstreckt sich flaches Farmland bis zum Horizont, in ordentlichen Quadraten aus Weizen und Raps. Der Ort wurde 1883 als Abstinenzlerkolonie gegründet und nach einer süßen einheimischen Beere benannt.",
+    "w": "Eine Stadt an beiden Ufern eines gewundenen Flusses mit mehreren nahe beieinanderliegenden Brücken; ringsum flache Ackerquadrate.",
+    "f": [
+      "Die Saskatoon-Beere hat ihren Namen vom Cree-Wort misâskwatômina.",
+      "Kalibergwerke rund um die Stadt erschließen eine der größten Lagerstätten dieses Düngeminerals weltweit."
+    ],
+    "q": {
+      "q": "Wonach ist Saskatoon benannt?",
+      "a": "Nach einer einheimischen Beere",
+      "x": [
+        "Nach einem Cree-Häuptling",
+        "Nach einem Pelzhändler"
+      ]
+    }
+  },
+  "Q36312": {
+    "t": "Wo die Prärie gegen die Rocky Mountains läuft",
+    "s": "Calgary liegt dort, wo die flache Prärie sich zu Vorbergen zu wellen beginnt, und an klaren Tagen füllt die weiße Wand der Rocky Mountains den westlichen Horizont. Bow und Elbow River treffen sich in der Innenstadt, wo die North-West Mounted Police 1875 Fort Calgary baute. Achten Sie im Winter auf ein Band klaren Himmels über den Bergen: den Chinook-Bogen, Zeichen eines warmen Windes.",
+    "w": "Eine große Stadt auf welligem Land, wo Ebenen auf Vorberge treffen; zwei Flüsse vereinen sich im Zentrum; im Westen verschneite Berge.",
+    "f": [
+      "Ein Chinook-Wind kann die Temperatur hier binnen weniger Stunden um mehr als 20 °C steigen lassen.",
+      "1988 richtete Calgary die ersten Olympischen Winterspiele in Kanada aus."
+    ],
+    "q": {
+      "q": "Wie heißt der warme Winterwind, der über Calgary hinwegfegt?",
+      "a": "Der Chinook",
+      "x": [
+        "Der Mistral",
+        "Der Santa Ana"
+      ]
+    }
+  },
+  "Q1015639": {
+    "t": "Regnerischer Inselhafen an Kanadas nördlicher Pazifikküste",
+    "s": "Prince Rupert liegt auf Kaien Island nahe der Mündung des Skeena, zwischen dunklen, bewaldeten Bergen und fjordartigen Meeresarmen, mit dem Alaska Panhandle gleich im Norden. Es ist eine der regenreichsten Städte Kanadas. Sein tiefer Hafen gehört zu den nordamerikanischen Häfen, die Asien am nächsten liegen – deshalb wurde eine transkontinentale Bahn bis hierher vorangetrieben, die 1914 die Küste erreichte.",
+    "w": "Eine kleine Stadt auf einer hügeligen Insel zwischen bewaldeten Bergen und Kanälen; ein großer, tiefer Hafen mit Containerkais.",
+    "f": [
+      "Der Name wurde 1906 in einem Wettbewerb gewählt und ehrt Ruprecht von der Pfalz, den ersten Gouverneur der Hudson’s Bay Company.",
+      "Der Skeena, dessen Mündung gleich südöstlich liegt, ist einer der großen Lachsflüsse British Columbias."
+    ],
+    "q": {
+      "q": "Wie wurde der Name Prince Rupert 1906 gewählt?",
+      "a": "Durch einen öffentlichen Wettbewerb",
+      "x": [
+        "Nach einem königlichen Besuch",
+        "Nach einem Schiffsnamen"
+      ]
+    }
+  },
+  "Q2132": {
+    "t": "Eine Gartenhauptstadt an der Südspitze von Vancouver Island",
+    "s": "Victoria liegt an der Südspitze von Vancouver Island und blickt über die Juan-de-Fuca-Straße auf die verschneiten Olympic Mountains in den USA. In ihrem Regenschatten geschützt, genießt die Stadt eines der mildesten und trockensten Klimate Kanadas. Die Hudson’s Bay Company baute hier 1843 Fort Victoria, und mit dem Goldrausch von 1858 boomte der Ort.",
+    "w": "Eine Stadt an einer felsigen, zerklüfteten Küste an der Südspitze einer Insel; ein belebter Innenhafen; im Süden verschneite Berge jenseits der Meerenge.",
+    "f": [
+      "Victoria ist die Hauptstadt British Columbias, obwohl Vancouver weit größer ist.",
+      "Wasserflugzeuge starten und landen im Inner Harbour, direkt neben der Innenstadt."
+    ],
+    "q": {
+      "q": "Wann wurde Fort Victoria gegründet?",
+      "a": "1843",
+      "x": [
+        "1792",
+        "1886"
+      ]
+    }
+  },
+  "Q638017": {
+    "t": "Eine Inuit-Siedlung in einer Tasche der Arktisküste",
+    "s": "Arctic Bay schmiegt sich im Norden der Baffininsel in eine kleine, runde Bucht, fast ganz umschlossen von steilen, kahlen Hügeln – ihr Inuktitut-Name Ikpiarjuk bedeutet „die Tasche“. Sie öffnet sich zum Admiralty Inlet, einem über 300 km langen Riesenfjord, wo sich im Sommer Narwale sammeln. Der englische Name stammt vom Walfangschiff „Arctic“, das hier 1872 anlegte.",
+    "w": "Eine winzige Siedlung in einer fast geschlossenen Bucht; braune Tafelhügel; ein langer, breiter Fjord, einen Großteil des Jahres unter Eis.",
+    "f": [
+      "Im Winter bleibt die Sonne hier mehr als zwei Monate unter dem Horizont.",
+      "Sie ist eine der nördlichsten Gemeinden Kanadas."
+    ],
+    "q": {
+      "q": "Was bedeutet Arctic Bays Inuktitut-Name Ikpiarjuk?",
+      "a": "Die Tasche",
+      "x": [
+        "Der Wal",
+        "Das Eis"
+      ]
+    }
+  },
+  "Q606622": {
+    "t": "Der „Ort ohne Morgengrauen“ in einer Kies-Polarwüste",
+    "s": "Resolute liegt an der Südküste von Cornwallis Island, tief im kanadisch-arktischen Archipel, auf einer öden Ebene aus grauem Kies mit kaum einer Pflanze. Sein Inuktitut-Name Qausuittuq bedeutet „Ort ohne Morgengrauen“, wegen der langen Winterdunkelheit. Der englische Name stammt von der HMS Resolute, einem der britischen Schiffe, die in den 1850er-Jahren diese Kanäle erkundeten.",
+    "w": "Eine winzige Siedlung mit Landepiste auf einer kahlen, graubraunen Küstenebene; Meereis oder dunkle Kanäle zwischen flachen Inseln.",
+    "f": [
+      "Aus Holz der HMS Resolute wurde später ein Schreibtisch gefertigt, der noch heute im Weißen Haus steht.",
+      "Hier fällt so wenig Regen oder Schnee, dass das Land als Polarwüste gilt.",
+      "Expeditionen zum Nordpol brechen oft von der Landepiste hier auf."
+    ],
+    "q": {
+      "q": "Wo landete Holz vom Schiff HMS Resolute?",
+      "a": "In einem Schreibtisch im Weißen Haus",
+      "x": [
+        "Im Uhrturm von Big Ben",
+        "In einer kanadischen Kathedrale"
+      ]
+    }
+  },
+  "Q1723761": {
+    "t": "Eine Siedlung genau auf dem Polarkreis",
+    "s": "Naujaat liegt fast genau auf dem nördlichen Polarkreis, am Nordufer einer Bucht am Ansatz der Melville-Halbinsel. Sein Inuktitut-Name bedeutet „Nistplatz der Möwen“, nach den Klippen in der Nähe. Der alte englische Name Repulse Bay stammt von 1742, als der Entdecker Christopher Middleton feststellte, dass die Bucht eine Sackgasse war und nicht die erhoffte Nordwestpassage.",
+    "w": "Eine kleine Siedlung an einem kahlen, felsigen Ufer einer weiten Bucht; landeinwärts niedrige Tundrahügel und unzählige Seen.",
+    "f": [
+      "Der schottische Entdecker John Rae überwinterte hier 1846–47 und lebte weitgehend vom Land, wie die Inuit.",
+      "Die Siedlung trägt seit 2015 offiziell den Namen Naujaat."
+    ],
+    "q": {
+      "q": "Warum nannte Middleton den Ort 1742 Repulse Bay?",
+      "a": "Die Bucht war eine Sackgasse",
+      "x": [
+        "Einheimische vertrieben seine Schiffe",
+        "Ein Sturm zwang ihn zur Umkehr"
+      ]
+    }
+  },
+  "Q2061": {
+    "t": "Eine Goldstadt am tiefsten See Nordamerikas",
+    "s": "Yellowknife liegt am felsigen Nordufer des Großen Sklavensees, der mit rund 614 m der tiefste See Nordamerikas ist. Ringsum haben eiszeitliche Gletscher den Kanadischen Schild bis auf rosagrauen Fels und Tausende Seen abgeschliffen. Die Stadt wuchs aus Goldfunden der 1930er-Jahre, und in klaren Winternächten ist sie einer der besten Orte der Erde, um Polarlichter zu sehen.",
+    "w": "Eine kleine Stadt am felsigen Ufer eines riesigen Sees; ringsum nackter Fels, verstreute Fichten und unzählige kleine Seen.",
+    "f": [
+      "Der Name stammt von den Kupfermessern, mit denen das einheimische Dene-Volk der Yellowknives handelte.",
+      "Im Winter führt eine Eisstraße über die gefrorene Bucht zur nahen Gemeinde Dettah."
+    ],
+    "q": {
+      "q": "An welchem See liegt Yellowknife?",
+      "a": "Am Großen Sklavensee",
+      "x": [
+        "Am Großen Bärensee",
+        "Am Athabascasee"
+      ]
+    }
+  },
+  "Q201313": {
+    "t": "Ein alter Pelzposten am Mackenzie, nahe dem Polarkreis",
+    "s": "Fort Good Hope liegt am Ostufer des Mackenzie, Kanadas längstem Fluss, knapp südlich des Polarkreises. Etwas flussaufwärts zwängt sich der Fluss durch die Ramparts, eine Schlucht zwischen Kalksteinklippen. Die North West Company eröffnete hier 1805 einen Pelzhandelsposten, einen der ältesten am unteren Mackenzie. Ringsum erstrecken sich Fichtenwald, Muskeg-Moore und Seen.",
+    "w": "Eine winzige Siedlung an einem sehr breiten Fluss; gleich flussaufwärts eine enge Schlucht; ringsum flacher Wald und Moor voller Seen.",
+    "f": [
+      "Mit seinen Quellflüssen bildet der Mackenzie Kanadas längstes Flusssystem, über 4.000 km lang.",
+      "Die Kirche Our Lady of Good Hope mit ihrem handbemalten Inneren aus dem 19. Jahrhundert ist eine National Historic Site."
+    ],
+    "q": {
+      "q": "Welcher Fluss fließt an Fort Good Hope vorbei?",
+      "a": "Der Mackenzie",
+      "x": [
+        "Der Yukon",
+        "Der Peace River"
+      ]
+    }
+  },
+  "Q2058": {
+    "t": "Benannt nach Stromschnellen, die wie Schimmel aussahen",
+    "s": "Whitehorse liegt in einem breiten Tal des Yukon, umringt von runden, bewaldeten Bergen. Der Name stammt von den Stromschnellen gleich flussaufwärts, deren Gischt Goldsucher an die Mähnen galoppierender Schimmel erinnerte; ein Damm hat sie inzwischen zu einem See gezähmt. 1898 zogen Tausende Klondike-Goldsucher hier durch und bauten Boote, um rund 700 km flussabwärts nach Dawson City zu treiben.",
+    "w": "Eine kleine Stadt auf einer Terrasse an einem gewundenen Fluss; flussaufwärts ein Canyon und ein Stausee; ringsum bewaldete Berge.",
+    "f": [
+      "Die White Pass and Yukon Route, eine Bahn von Skagway an der Küste, erreichte Whitehorse im Jahr 1900.",
+      "Rund zwei Drittel aller Einwohner des Yukon leben in Whitehorse."
+    ],
+    "q": {
+      "q": "Was gab Whitehorse seinen Namen?",
+      "a": "Schäumende Stromschnellen",
+      "x": [
+        "Ein weißer Berg",
+        "Ein berühmtes Pferd"
+      ]
+    }
+  },
+  "Q181056": {
+    "t": "Eine fächerförmige Stadt nördlich des Äquators in Brasilien",
+    "s": "Boa Vista ist wie ein offener Fächer angelegt: Seine Alleen strahlen von einem Verwaltungszentrum nahe dem Ufer des Rio Branco aus, ein Plan aus den 1940er-Jahren, der aus der Luft deutlich hervorsticht. Es ist die einzige Hauptstadt eines brasilianischen Bundesstaats, die vollständig auf der Nordhalbkugel liegt. Ringsum erstreckt sich statt Regenwald der Lavrado, eine offene Savanne aus Gras und verstreuten Palmen.",
+    "w": "Eine halbkreisförmige Stadt, deren Straßen sich vom Flussufer aus auffächern; ringsum offene, hellgrüne Savanne mit kleinen Seen.",
+    "f": [
+      "Der Roraima, der Tafelberg, an dem Brasilien, Venezuela und Guyana zusammentreffen, liegt rund 250 km nördlich.",
+      "Der Rio Branco fließt nach Süden in den Rio Negro und durch ihn in den Amazonas."
+    ],
+    "q": {
+      "q": "Welche Form hat Boa Vistas Stadtplan?",
+      "a": "Ein Fächer, ausgehend vom Fluss",
+      "x": [
+        "Ein perfektes Raster",
+        "Konzentrische Ringe"
+      ]
+    }
+  },
+  "Q180215": {
+    "t": "Eine Stadt am Äquator, gegenüber der Amazonasmündung",
+    "s": "Macapá liegt direkt am Äquator, am Nordufer des Amazonas, wo sich der große Strom zu seiner riesigen, inselübersäten Mündung öffnet. Das Wasser vor der Stadt ist braun und viele Kilometer breit. Den Äquator nimmt man hier ernst: Die Mittellinie des örtlichen Fußballstadions folgt ihm, sodass jede Mannschaft ein Tor auf einer anderen Erdhalbkugel verteidigt.",
+    "w": "Eine Stadt an einem geraden Flussufer gegenüber einer riesigen braunen Mündung voller Inseln; landeinwärts flacher Wald und Savanne.",
+    "f": [
+      "Die 1782 vollendete Festung São José de Macapá ist eine der größten Festungen, die die Portugiesen in Brasilien bauten.",
+      "Keine Straße verbindet Macapá mit dem Rest Brasiliens; man überquert den Amazonas per Boot oder Flugzeug."
+    ],
+    "q": {
+      "q": "Welche Linie verläuft entlang der Mittellinie des Stadions von Macapá?",
+      "a": "Der Äquator",
+      "x": [
+        "Der nördliche Wendekreis",
+        "Der Nullmeridian"
+      ]
+    }
+  },
+  "Q1930": {
+    "t": "Hauptstadt am Grenzfluss, mit einem Kanal zum Eislaufen",
+    "s": "Ottawa liegt am Südufer des breiten Ottawa River, der hier Ontario von Quebec trennt; am Nordufer gegenüber liegt die Stadt Gatineau. Mitten hindurch führt der 1832 eröffnete Rideau-Kanal, und im Winter gefriert ein langer Abschnitt zu einer fast 8 km langen Eisbahn. Königin Victoria wählte den Ort 1857 zur Hauptstadt Kanadas.",
+    "w": "Eine Stadt an einem breiten Fluss, gegenüber Gatineau; ein dünner Kanal windet sich südwärts durchs Zentrum; im Nordwesten die bewaldeten Gatineau Hills.",
+    "f": [
+      "Der Rideau-Kanal ist seit 2007 UNESCO-Welterbe.",
+      "Drei Flüsse treffen hier zusammen: Ottawa, Rideau und Gatineau."
+    ],
+    "q": {
+      "q": "Wer wählte Ottawa 1857 zur Hauptstadt Kanadas?",
+      "a": "Königin Victoria",
+      "x": [
+        "John A. Macdonald",
+        "König Georg III."
+      ]
+    }
+  },
+  "Q3078079": {
+    "t": "Ontarios nördlichste Gemeinde, an der Hudson Bay",
+    "s": "Fort Severn ist eine kleine Cree-Gemeinde nahe der Mündung des Severn in die Hudson Bay, die nördlichste Siedlung Ontarios. Ringsum liegt das Hudson-Bay-Tiefland, eines der größten Feuchtgebiete der Erde: ein flaches Mosaik aus Torfmoor, Teichen und verkrüppelten Fichten. Die Hudson’s Bay Company richtete an der Flussmündung erstmals 1689 einen Handelsposten ein.",
+    "w": "Eine winzige Siedlung an einer Flussmündung an flacher, grauer Buchtküste; landeinwärts in jeder Richtung endloses Moor mit Teichen.",
+    "f": [
+      "Der Polar Bear Provincial Park, Ontarios größter Park, erstreckt sich entlang der Küste nach Osten.",
+      "Den größten Teil des Jahres ist die Gemeinde nur auf dem Luftweg erreichbar."
+    ],
+    "q": {
+      "q": "Was unterscheidet Fort Severn von anderen Gemeinden Ontarios?",
+      "a": "Es ist die nördlichste",
+      "x": [
+        "Es ist die älteste Stadt",
+        "Es ist die Provinzhauptstadt"
+      ]
+    }
+  },
+  "Q34116": {
+    "t": "Ein Seehafen, bewacht von einem Schlafenden Riesen",
+    "s": "Thunder Bay säumt das Nordwestufer des Oberen Sees, des flächenmäßig größten Süßwassersees der Welt. Jenseits der Bucht liegt die lange Sibley-Halbinsel, deren flache Klippen von der Stadt aus wie ein Riese auf dem Rücken wirken: der Schlafende Riese der Ojibwe-Legende. Die Stadt entstand 1970 durch die Fusion zweier rivalisierender Häfen, Fort William und Port Arthur.",
+    "w": "Eine Stadt an einer geschwungenen Bucht eines riesigen Sees; eine lange, hohe Halbinsel schließt die Bucht im Osten ab; landeinwärts dunkler Wald.",
+    "f": [
+      "Anfang des 19. Jahrhunderts war Fort William das Hauptquartier des Pelzhandels der North West Company im Landesinneren.",
+      "Die Kakabeka Falls, rund 30 km westlich, stürzen etwa 40 m über dunkle Schieferklippen."
+    ],
+    "q": {
+      "q": "Welche zwei Orte fusionierten 1970 zu Thunder Bay?",
+      "a": "Fort William und Port Arthur",
+      "x": [
+        "Fort Erie und Port Elgin",
+        "Fort Frances und Port Hope"
+      ]
+    }
+  },
+  "Q2145": {
+    "t": "Ummauerte Stadt auf einer Klippe, wo sich der Strom verengt",
+    "s": "Québec steht auf einer hohen Klippe über der Stelle, an der sich der Sankt-Lorenz-Strom plötzlich verengt – genau das bedeutet ihr Algonkin-Name. Samuel de Champlain gründete hier 1608 einen Handelsposten. Die Altstadt ist noch immer von steinernen Wällen umschlossen, den einzigen erhaltenen Stadtmauern nördlich von Mexiko. Flussabwärts teilt sich der Strom um die lange, grüne Île d’Orléans.",
+    "w": "Eine Stadt auf erhöhtem Grund über einem sich verengenden Strom; flussaufwärts Brücken; flussabwärts eine lange, bewirtschaftete Insel, wo er breiter wird.",
+    "f": [
+      "Die Québec-Brücke gleich flussaufwärts hat mit 549 m die größte Kragträger-Spannweite der Welt.",
+      "Die Montmorency-Fälle gleich östlich der Stadt sind rund 83 m hoch – etwa 30 m höher als die Niagarafälle."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Québec?",
+      "a": "Wo der Fluss sich verengt",
+      "x": [
+        "Land der Seen",
+        "Kalter Wind"
+      ]
+    }
+  },
+  "Q2141": {
+    "t": "Ein tiefer Naturhafen mit einem großen Becken dahinter",
+    "s": "Halifax liegt auf einer Halbinsel an einem der großen Naturhäfen der Welt: einem langen, tiefen Meeresarm, der sich verengt und dann zum Bedford Basin öffnet, einer weiten inneren Bucht. Zwei Hängebrücken queren den Hafen nach Dartmouth am anderen Ufer. Die Briten gründeten den Ort 1749 als Marinestützpunkt, und jahrzehntelang betraten per Schiff ankommende Einwanderer hier erstmals kanadischen Boden.",
+    "w": "Eine Stadt auf einer Halbinsel an einem langen, tiefen Hafen, der sich zu einem weiten Innenbecken öffnet; zwei Brücken über das Wasser.",
+    "f": [
+      "Zwischen 1928 und 1971 kamen rund eine Million Einwanderer über Pier 21 in Halifax nach Kanada.",
+      "Der Hafen bleibt den ganzen Winter eisfrei."
+    ],
+    "q": {
+      "q": "Wie heißt die große innere Bucht des Hafens von Halifax?",
+      "a": "Bedford Basin",
+      "x": [
+        "Minas Basin",
+        "Mahone Bay"
+      ]
+    }
+  },
+  "Q2082": {
+    "t": "Nordamerikas östlichste Stadt, mit Blick auf den Atlantik",
+    "s": "St. John’s drängt sich um einen geschützten Hafen an der Ostküste Neufundlands, vom Ozean nur durch die Narrows erreichbar, einen Schlitz zwischen hohen Klippen. Auf dem Signal Hill darüber empfing Guglielmo Marconi 1901 das erste transatlantische Funksignal. Wenige Kilometer südöstlich ist Cape Spear der östlichste Punkt des nordamerikanischen Kontinents.",
+    "w": "Eine hügelige Stadt um einen kleinen, fast geschlossenen Hafen mit schmaler Einfahrt; im Osten schroffe Klippen und offener Atlantik.",
+    "f": [
+      "Neufundland hat eine eigene Zeitzone, eine halbe Stunde vor der Atlantikzeit.",
+      "Im Frühjahr und Frühsommer treiben oft Eisberge aus Grönland an dieser Küste vorbei."
+    ],
+    "q": {
+      "q": "Was geschah 1901 auf dem Signal Hill in St. John’s?",
+      "a": "Erstes Funksignal über den Atlantik",
+      "x": [
+        "Erstes Telefonat nach Europa",
+        "Erste Dampferfahrt nach Europa"
+      ]
+    }
   }
 }

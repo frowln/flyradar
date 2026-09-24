@@ -2712,5 +2712,230 @@
         "Robert Peary"
       ]
     }
+  },
+  "Q37495": {
+    "t": "The deepest part of the Mediterranean",
+    "s": "Between the heel of Italy and the west coast of Greece lies the Ionian Sea, a clear, deep-blue expanse. Off Greece's south-western coast the floor plunges to about 5,270 m — the deepest point of the whole Mediterranean. Along its eastern side, look for the green, mountainous Ionian Islands: Corfu, Kefalonia and Zakynthos, fringed with pale cliffs.",
+    "w": "Deep-blue sea between southern Italy, Sicily and western Greece, with the green Ionian Islands along the Greek side.",
+    "f": [
+      "Loggerhead sea turtles nest on the beaches of Zakynthos.",
+      "One Greek legend links its name to Io, who swam across it.",
+      "The Strait of Otranto links it to the Adriatic in the north."
+    ],
+    "q": {
+      "q": "About how deep is the Mediterranean's deepest point, in the Ionian Sea?",
+      "a": "About 5,300 m",
+      "x": [
+        "About 2,000 m",
+        "About 9,000 m"
+      ]
+    }
+  },
+  "Q169523": {
+    "t": "A northern sea of red-cliffed islands and winter ice",
+    "s": "The Gulf of St Lawrence is where the Great Lakes' water finally meets the Atlantic — a broad inland sea ringed by Quebec, the Maritime provinces and Newfoundland. Look for Prince Edward Island's red cliffs and green fields, and the long, low Anticosti Island. In late winter, drifting pack ice fills much of the gulf, and harp seals give birth on it.",
+    "w": "A broad gulf east of Quebec; the crescent of Prince Edward Island in the south, long Anticosti Island in the north.",
+    "f": [
+      "Jacques Cartier sailed into it in 1534.",
+      "Anticosti Island is larger than the whole province of Prince Edward Island.",
+      "The Magdalen Islands, near its centre, are strung together by long sand dunes."
+    ],
+    "q": {
+      "q": "Which animals give birth on the gulf's pack ice in late winter?",
+      "a": "Harp seals",
+      "x": [
+        "Polar bears",
+        "Walruses"
+      ]
+    }
+  },
+  "Q185291": {
+    "t": "A sea squeezed between two volcanic arcs",
+    "s": "The Molucca Sea is being swallowed from both sides: the sea floor beneath it is sinking under two volcanic arcs at once, a rare arrangement geologists call double subduction. Look for perfect volcanic cones rising from the water, like Ternate and Tidore off Halmahera — islands where cloves originally grew.",
+    "w": "Deep-blue sea between Sulawesi's long northern arm and Halmahera, dotted with steep volcanic cone islands.",
+    "f": [
+      "Cloves originally grew on only a handful of islands here, including Ternate and Tidore.",
+      "The equator runs right across it."
+    ],
+    "q": {
+      "q": "Which spice originally grew on Ternate and Tidore?",
+      "a": "Cloves",
+      "x": [
+        "Vanilla",
+        "Saffron"
+      ]
+    }
+  },
+  "Q199436": {
+    "t": "A volcanic sea framed by the Bismarck Archipelago",
+    "s": "The Bismarck Sea is enclosed by a great arc of islands — New Britain, New Ireland and the Admiralty Islands — with the north coast of New Guinea to the south. Volcanoes rise along its edges, among them Manam, a near-perfect cone just off the mainland. Where the Sepik River meets the sea, its brown plume spreads into the blue.",
+    "w": "Deep-blue sea north of New Guinea, ringed by the long, mountainous islands of New Britain and New Ireland.",
+    "f": [
+      "It was named after Otto von Bismarck when the region became a German colony in the 1880s.",
+      "Manam, a volcano island off New Guinea, is one of the most active volcanoes in the region."
+    ],
+    "q": {
+      "q": "Which river's brown plume spreads into the Bismarck Sea?",
+      "a": "The Sepik",
+      "x": [
+        "The Fly",
+        "The Mekong"
+      ]
+    }
+  },
+  "Q199479": {
+    "t": "A deep tropical sea between New Guinea and the Solomons",
+    "s": "Framed by New Guinea's long eastern tail, the mountainous island of New Britain and the Solomon Islands, the Solomon Sea is warm, deep and dotted with coral islands. Along its northern edge, the New Britain Trench drops to more than 8,000 m. In the west lie the low, flat Trobriand Islands, ringed with turquoise reefs.",
+    "w": "Deep-blue sea east of New Guinea's tail, bounded by New Britain to the north and the Solomon Islands to the east.",
+    "f": [
+      "The Trobriand Islands became world-famous through the anthropologist Bronisław Malinowski, who lived there in the 1910s.",
+      "Its warm waters lie within the Coral Triangle, one of the richest reef regions on Earth."
+    ],
+    "q": {
+      "q": "Which anthropologist made the Trobriand Islands famous?",
+      "a": "Bronisław Malinowski",
+      "x": [
+        "Margaret Mead",
+        "Claude Lévi-Strauss"
+      ]
+    }
+  },
+  "Q48359": {
+    "t": "The narrow sea lane that links two oceans",
+    "s": "This long funnel of water between Sumatra and the Malay Peninsula links the Indian Ocean with the Pacific, and tens of thousands of ships squeeze through it every year. Look for their wakes, often in long lines. Near Singapore, where it meets the Singapore Strait, the shipping channel narrows to less than 3 km. The strait takes its name from Malacca, once a great trading city.",
+    "w": "A long, narrowing strait between Sumatra's forested coast and the Malay Peninsula, streaked with the wakes of many ships.",
+    "f": [
+      "It is about 900 km long.",
+      "In the 15th century the Sultanate of Malacca controlled the trade passing through it."
+    ],
+    "q": {
+      "q": "Which two land masses does the Strait of Malacca separate?",
+      "a": "Sumatra and the Malay Peninsula",
+      "x": [
+        "Java and Borneo",
+        "Sumatra and Java"
+      ]
+    }
+  },
+  "Q194477": {
+    "t": "The invisible line between Asian and Australian wildlife",
+    "s": "Down the middle of the Makassar Strait, between Borneo and Sulawesi, runs an invisible boundary: the Wallace Line. In the 1850s Alfred Russel Wallace noticed how different the animals on either side were — mostly Asian species to the west, more and more Australasian ones to the east. The strait is deep, and most of the Pacific water flowing through Indonesia into the Indian Ocean passes through it.",
+    "w": "A wide, deep strait between Borneo's green coast and the spidery outline of Sulawesi.",
+    "f": [
+      "Deep water here kept Borneo and Sulawesi apart even when ice-age sea levels were low.",
+      "Makassar, on Sulawesi's south-western coast, has been a major port for centuries."
+    ],
+    "q": {
+      "q": "Which famous biological boundary runs through the Makassar Strait?",
+      "a": "The Wallace Line",
+      "x": [
+        "The Humboldt Line",
+        "The Darwin Line"
+      ]
+    }
+  },
+  "Q210855": {
+    "t": "A remote sea between Seram and New Guinea's Bird's Head",
+    "s": "The Ceram Sea stretches between the long, mountainous island of Seram and the western tip of New Guinea, known as the Bird's Head. On its northern side lie the limestone islands of Misool, part of Raja Ampat, where reefs hold some of the richest marine life on Earth. From above, look for jungle-clad ridges plunging straight into deep blue water.",
+    "w": "Deep-blue sea between the long green island of Seram and the western tip of New Guinea, with small limestone islands to the north.",
+    "f": [
+      "Seram's highest mountain, Binaiya, rises to about 3,000 m.",
+      "“Ceram” is an old spelling of Seram, the island on its southern side."
+    ],
+    "q": {
+      "q": "What is the western tip of New Guinea, by the Ceram Sea, nicknamed?",
+      "a": "The Bird's Head",
+      "x": [
+        "The Dragon's Tail",
+        "The Lion's Paw"
+      ]
+    }
+  },
+  "Q639399": {
+    "t": "A remote Pacific gulf with record-breaking tides",
+    "s": "Shelikhov Gulf is the wild north-eastern corner of the Sea of Okhotsk, wedged between Kamchatka and the mainland. At its head, Penzhina Bay has the highest tides in the Pacific: the water can rise and fall by as much as 13 m, exposing vast mudflats. In winter the whole gulf is locked in drifting ice.",
+    "w": "A long gulf between Kamchatka's mountains and the mainland of Russia's Far East, white with ice in winter.",
+    "f": [
+      "It is named after Grigory Shelikhov, the merchant who founded the first permanent Russian settlement in Alaska in 1784.",
+      "Penzhina Bay's tides are the highest anywhere in Russia."
+    ],
+    "q": {
+      "q": "Where are the highest tides in the Pacific Ocean?",
+      "a": "Penzhina Bay",
+      "x": [
+        "Tokyo Bay",
+        "San Francisco Bay"
+      ]
+    }
+  },
+  "Q163434": {
+    "t": "A shallow, ice-bound sea off Siberia's far north-east",
+    "s": "The East Siberian Sea stretches from the New Siberian Islands to Wrangel Island, and for most of the year it is a white, frozen plain. It is also remarkably shallow, mostly less than 50 m deep, and in summer the brown water of the Indigirka and Kolyma spreads across its surface. Pack ice often clings to the coast even in August.",
+    "w": "Ice or grey water off the low tundra coast of north-eastern Siberia, between the New Siberian Islands and Wrangel Island.",
+    "f": [
+      "The Bear Islands, a small archipelago, lie off the mouth of the Kolyma.",
+      "The port of Pevek on its shore is often called Russia's northernmost town."
+    ],
+    "q": {
+      "q": "Which two rivers flow into the East Siberian Sea?",
+      "a": "The Indigirka and Kolyma",
+      "x": [
+        "The Ob and Yenisei",
+        "The Lena and Khatanga"
+      ]
+    }
+  },
+  "Q845217": {
+    "t": "A shallow Arctic basin with an island found from the air",
+    "s": "Foxe Basin is a shallow, ice-bound sea north of Hudson Bay, and its ice is sometimes tinged brown by sediment stirred up from the seafloor. It kept a secret for a long time: Prince Charles Island, roughly the size of Cyprus, was put on the map only in 1948, after it was spotted from an aircraft.",
+    "w": "A broad, shallow, often ice-covered sea west of Baffin Island, with low, flat islands in its eastern part.",
+    "f": [
+      "It is named after Luke Foxe, who explored it in 1631.",
+      "Its shallow waters are a key home for Atlantic walruses.",
+      "Igloolik, an Inuit community, lies on an island at its north-western corner."
+    ],
+    "q": {
+      "q": "How was Prince Charles Island in Foxe Basin discovered in 1948?",
+      "a": "From an aircraft",
+      "x": [
+        "By a whaling ship",
+        "By satellite"
+      ]
+    }
+  },
+  "Q509321": {
+    "t": "An iceberg-filled sea off East Antarctica",
+    "s": "The Davis Sea is a remote sea on the edge of East Antarctica, crowded with icebergs and fast ice for most of the year. Along its coast, the ice sheet ends in high white cliffs and the broad Shackleton Ice Shelf. On its shore stands Mirny, founded in 1956 as the first Soviet station in Antarctica.",
+    "w": "Pack ice and scattered icebergs along the edge of the East Antarctic ice sheet, which ends here in white ice cliffs.",
+    "f": [
+      "It is named after John King Davis, captain of the Aurora on Douglas Mawson's 1911–14 expedition.",
+      "Mirny, on its shore, still serves as a Russian research station."
+    ],
+    "q": {
+      "q": "Which station, founded in 1956, stands on the Davis Sea?",
+      "a": "Mirny",
+      "x": [
+        "McMurdo",
+        "Vostok"
+      ]
+    }
+  },
+  "Q7347": {
+    "t": "Five inland seas holding a fifth of Earth's fresh water",
+    "s": "From cruise height the Great Lakes look like seas, their far shores often lost in haze. Superior, Michigan, Huron, Erie and Ontario form the largest group of freshwater lakes on Earth, holding about a fifth of the world's fresh surface water. In winter, cold air crossing them builds bands of cloud and dumps heavy lake-effect snow on their shores.",
+    "w": "Five huge interconnected lakes on the US–Canada border, from Superior in the west to Ontario in the east.",
+    "f": [
+      "Water from Lake Superior drops about 100 m on its way to Lake Ontario, most of it along the Niagara River.",
+      "Together they hold about 84% of North America's fresh surface water.",
+      "Ships can sail from Lake Superior all the way to the Atlantic through locks and the St Lawrence Seaway."
+    ],
+    "q": {
+      "q": "Which of the Great Lakes is the largest by area?",
+      "a": "Lake Superior",
+      "x": [
+        "Lake Huron",
+        "Lake Michigan"
+      ]
+    }
   }
 }
