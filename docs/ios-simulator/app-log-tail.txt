@@ -1,27 +1,27 @@
     traverseFromParentsToChildren = 1;
 }
-2026-10-03 16:35:15.741 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 16:35:15.744 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000c5cba0> {pid=62987} {uid=[ID:1 hash:0x0]}
-2026-10-03 16:35:15.744 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 16:35:15.744 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.00s
-2026-10-03 16:35:15.744 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 16:35:15.744 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 62987
+2026-10-03 18:06:28.557 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
+2026-10-03 18:06:28.605 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e2f030> {pid=53417} {uid=[ID:1 hash:0x0]}
+2026-10-03 18:06:28.605 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
+2026-10-03 18:06:28.605 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.05s
+2026-10-03 18:06:28.605 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
+2026-10-03 18:06:28.606 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
+    Application, pid: 53417
 )} (error: (null))
-2026-10-03 16:35:15.744 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000d0f1e0> (error: (null))
-2026-10-03 16:35:15.888 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 16:35:15.888 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 16:35:15.888 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 16:35:15.888 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 62987 for query
-2026-10-03 16:35:15.888 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 16:35:15.888 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 16:35:15.888 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 16:35:15.888 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 16:35:15.889 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 16:35:15.889 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 16:35:15.889 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000c5ccc0> {pid=62987} {uid=[ID:3 hash:0x1036283c0]}
-2026-10-03 16:35:15.889 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 16:35:15.889 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
+2026-10-03 18:06:28.607 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e88180> (error: (null))
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 18:06:28.901 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000e68000> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
+2026-10-03 18:06:28.901 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
+2026-10-03 18:06:28.901 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
     attributes =     (
         5003,
         5004,
@@ -36,28 +36,28 @@
     snapshotKeyHonorModalViews = 0;
     traverseFromParentsToChildren = 1;
 }
-2026-10-03 16:35:15.889 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 16:35:15.892 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000c37090> {pid=62987} {uid=[ID:1 hash:0x0]}
-2026-10-03 16:35:15.892 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 16:35:15.892 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.00s
-2026-10-03 16:35:15.892 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 16:35:15.892 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 62987
+2026-10-03 18:06:28.901 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
+2026-10-03 18:06:28.978 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e88090> {pid=53417} {uid=[ID:1 hash:0x0]}
+2026-10-03 18:06:28.978 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
+2026-10-03 18:06:28.978 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.08s
+2026-10-03 18:06:28.979 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
+2026-10-03 18:06:28.981 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
+    Application, pid: 53417
 )} (error: (null))
-2026-10-03 16:35:15.892 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000c5d230> (error: (null))
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 62987 for query
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 16:35:16.033 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 16:35:16.034 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000d07150> {pid=62987} {uid=[ID:3 hash:0x1036283c0]}
-2026-10-03 16:35:16.034 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 16:35:16.034 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
+2026-10-03 18:06:28.981 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e585a0> (error: (null))
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 18:06:29.277 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000e5a8e0> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
+2026-10-03 18:06:29.277 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
+2026-10-03 18:06:29.277 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
     attributes =     (
         5003,
         5004,
@@ -72,28 +72,28 @@
     snapshotKeyHonorModalViews = 0;
     traverseFromParentsToChildren = 1;
 }
-2026-10-03 16:35:16.034 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 16:35:16.036 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000cd7690> {pid=62987} {uid=[ID:1 hash:0x0]}
-2026-10-03 16:35:16.036 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 16:35:16.036 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.00s
-2026-10-03 16:35:16.036 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 16:35:16.036 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 62987
+2026-10-03 18:06:29.277 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
+2026-10-03 18:06:29.351 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e8c090> {pid=53417} {uid=[ID:1 hash:0x0]}
+2026-10-03 18:06:29.351 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
+2026-10-03 18:06:29.351 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.07s
+2026-10-03 18:06:29.351 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
+2026-10-03 18:06:29.352 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
+    Application, pid: 53417
 )} (error: (null))
-2026-10-03 16:35:16.036 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000ccf5d0> (error: (null))
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 62987 for query
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000ccf480> {pid=62987} {uid=[ID:3 hash:0x1036283c0]}
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
+2026-10-03 18:06:29.352 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e8c270> (error: (null))
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 18:06:29.712 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000ea0060> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
+2026-10-03 18:06:29.712 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
+2026-10-03 18:06:29.712 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
     attributes =     (
         5003,
         5004,
@@ -108,28 +108,28 @@
     snapshotKeyHonorModalViews = 0;
     traverseFromParentsToChildren = 1;
 }
-2026-10-03 16:35:16.205 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 16:35:16.207 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000ccf300> {pid=62987} {uid=[ID:1 hash:0x0]}
-2026-10-03 16:35:16.207 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 16:35:16.207 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.00s
-2026-10-03 16:35:16.208 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 16:35:16.208 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 62987
+2026-10-03 18:06:29.712 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
+2026-10-03 18:06:29.767 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e56700> {pid=53417} {uid=[ID:1 hash:0x0]}
+2026-10-03 18:06:29.767 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
+2026-10-03 18:06:29.767 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.06s
+2026-10-03 18:06:29.767 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
+2026-10-03 18:06:29.768 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
+    Application, pid: 53417
 )} (error: (null))
-2026-10-03 16:35:16.208 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000ccf360> (error: (null))
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 62987 for query
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 16:35:16.365 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 16:35:16.366 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000ccf8d0> {pid=62987} {uid=[ID:3 hash:0x1036283c0]}
-2026-10-03 16:35:16.366 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 16:35:16.366 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
+2026-10-03 18:06:29.768 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e98180> (error: (null))
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 18:06:30.083 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000e51c80> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
+2026-10-03 18:06:30.084 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
+2026-10-03 18:06:30.084 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
     attributes =     (
         5003,
         5004,
@@ -144,28 +144,28 @@
     snapshotKeyHonorModalViews = 0;
     traverseFromParentsToChildren = 1;
 }
-2026-10-03 16:35:16.366 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 16:35:16.368 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000d07150> {pid=62987} {uid=[ID:1 hash:0x0]}
-2026-10-03 16:35:16.368 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 16:35:16.368 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.00s
-2026-10-03 16:35:16.368 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 16:35:16.368 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 62987
+2026-10-03 18:06:30.084 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
+2026-10-03 18:06:30.136 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e98090> {pid=53417} {uid=[ID:1 hash:0x0]}
+2026-10-03 18:06:30.136 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
+2026-10-03 18:06:30.136 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.05s
+2026-10-03 18:06:30.136 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
+2026-10-03 18:06:30.137 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
+    Application, pid: 53417
 )} (error: (null))
-2026-10-03 16:35:16.369 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000cfe400> (error: (null))
-2026-10-03 16:35:16.535 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 16:35:16.535 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 16:35:16.535 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 16:35:16.535 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 62987 for query
-2026-10-03 16:35:16.535 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 16:35:16.535 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 16:35:16.535 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 16:35:16.536 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 16:35:16.536 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 16:35:16.536 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 16:35:16.536 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000cfd5f0> {pid=62987} {uid=[ID:3 hash:0x1036283c0]}
-2026-10-03 16:35:16.536 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 16:35:16.536 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
+2026-10-03 18:06:30.137 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e88180> (error: (null))
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 18:06:30.457 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000e8c120> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
+2026-10-03 18:06:30.457 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
+2026-10-03 18:06:30.457 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
     attributes =     (
         5003,
         5004,
@@ -180,21 +180,21 @@
     snapshotKeyHonorModalViews = 0;
     traverseFromParentsToChildren = 1;
 }
-2026-10-03 16:35:16.536 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 16:35:16.539 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000cffe40> {pid=62987} {uid=[ID:1 hash:0x0]}
-2026-10-03 16:35:16.539 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 16:35:16.539 Df SkyAtlas[62987:2bada] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.00s
-2026-10-03 16:35:16.539 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 16:35:16.539 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 62987
+2026-10-03 18:06:30.457 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
+2026-10-03 18:06:30.500 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e88090> {pid=53417} {uid=[ID:1 hash:0x0]}
+2026-10-03 18:06:30.501 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
+2026-10-03 18:06:30.501 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.04s
+2026-10-03 18:06:30.501 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
+2026-10-03 18:06:30.502 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
+    Application, pid: 53417
 )} (error: (null))
-2026-10-03 16:35:16.539 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000ccf9f0> (error: (null))
-2026-10-03 16:35:17.669 Df SkyAtlas[62987:2c523] [com.apple.xpc:connection] [0x103615c90] invalidated because the client process (pid 60931) either cancelled the connection or exited
-2026-10-03 16:35:17.669 Df SkyAtlas[62987:2c523] [com.apple.dt.xctest:Default] Connection from client with pid 60931 was invalidated.
-2026-10-03 16:35:17.752 Df SkyAtlas[62987:2e922] [com.apple.dt.automationmode:Default] Handling posted change notification (com.apple.dt.automationmode.state-changed)
-2026-10-03 16:35:17.763 Df SkyAtlas[62987:2e922] [com.apple.dt.automationmode:Default] XAM shared observer connecting to com.apple.dt.automationmode.reader
-2026-10-03 16:35:17.765 Df SkyAtlas[62987:2e922] [com.apple.xpc:connection] [0x1049a94c0] activating connection: mach=true listener=false peer=false name=com.apple.dt.automationmode.reader
-2026-10-03 16:35:17.769 Df SkyAtlas[62987:2e922] [com.apple.xpc:connection] [0x1049a94c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()
-2026-10-03 16:35:17.769 Df SkyAtlas[62987:2e922] [com.apple.dt.automationmode:Default] Comparing previous enabled state (1) to current enabled state (0)
-2026-10-03 16:35:17.769 Df SkyAtlas[62987:2e922] [com.apple.dt.xctest:Default] Automation Mode has been disabled, existing connections will be invalidated.
-2026-10-03 16:35:20.628 Df SkyAtlas[62987:2e922] [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key LSSessionKey(system: 0 uid: 501)
+2026-10-03 18:06:30.502 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e53f30> (error: (null))
+2026-10-03 18:06:32.330 Df SkyAtlas[53417:2c2b0] [com.apple.xpc:connection] [0x107c13e10] invalidated because the client process (pid 51570) either cancelled the connection or exited
+2026-10-03 18:06:32.331 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Connection from client with pid 51570 was invalidated.
+2026-10-03 18:06:32.381 Df SkyAtlas[53417:2c2b0] [com.apple.dt.automationmode:Default] Handling posted change notification (com.apple.dt.automationmode.state-changed)
+2026-10-03 18:06:32.389 Df SkyAtlas[53417:2c2b0] [com.apple.dt.automationmode:Default] XAM shared observer connecting to com.apple.dt.automationmode.reader
+2026-10-03 18:06:32.393 Df SkyAtlas[53417:2c2b0] [com.apple.xpc:connection] [0x107cfb8f0] activating connection: mach=true listener=false peer=false name=com.apple.dt.automationmode.reader
+2026-10-03 18:06:32.399 Df SkyAtlas[53417:2c2b0] [com.apple.xpc:connection] [0x107cfb8f0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()
+2026-10-03 18:06:32.399 Df SkyAtlas[53417:2c2b0] [com.apple.dt.automationmode:Default] Comparing previous enabled state (1) to current enabled state (0)
+2026-10-03 18:06:32.403 Df SkyAtlas[53417:2f32b] [com.apple.dt.xctest:Default] Automation Mode has been disabled, existing connections will be invalidated.
+2026-10-03 18:06:39.397 Df SkyAtlas[53417:26a62] [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key LSSessionKey(system: 0 uid: 501)
