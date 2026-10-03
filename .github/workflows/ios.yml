@@ -45,10 +45,24 @@ jobs:
         run: |
           xcodebuild -version
           xcrun simctl list runtimes
+      # The native app only changes with the native code: when an earlier run
+      # built the same dependencies and config, its app is reused and only the
+      # JavaScript inside it is rebuilt (minutes instead of twenty).
+      - name: Native fingerprint
+        id: native
+        run: echo "key=skyatlas-sim-app-v1-${{ hashFiles('package-lock.json', 'apps/mobile/package.json', 'apps/mobile/app.json', 'apps/mobile/app.config.js', 'apps/mobile/assets/*.png') }}" >> "$GITHUB_OUTPUT"
+      - name: Built app from an earlier run
+        id: cached
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/skyatlas-app
+          key: ${{ steps.native.outputs.key }}
       - name: Native project (expo prebuild + CocoaPods)
+        if: steps.cached.outputs.cache-hit != 'true'
         working-directory: apps/mobile
         run: npx expo prebuild --platform ios --clean
       - name: Build in Xcode for the simulator
+        if: steps.cached.outputs.cache-hit != 'true'
         working-directory: apps/mobile/ios
         run: |
           set -o pipefail
@@ -56,6 +70,22 @@ jobs:
             -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
             -derivedDataPath build CODE_SIGNING_ALLOWED=NO COMPILER_INDEX_STORE_ENABLE=NO \
             build | tee "$RUNNER_TEMP/xcodebuild.log" | xcbeautify --quieter
+          rm -rf ~/skyatlas-app && mkdir -p ~/skyatlas-app
+          cp -R build/Build/Products/Release-iphonesimulator/SkyAtlas.app ~/skyatlas-app/
+      - name: Keep the built app for the next run
+        if: steps.cached.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/skyatlas-app
+          key: ${{ steps.native.outputs.key }}
+      - name: This commit's JavaScript in the reused app
+        if: steps.cached.outputs.cache-hit == 'true'
+        working-directory: apps/mobile
+        run: |
+          APP="$HOME/skyatlas-app/SkyAtlas.app"
+          npx expo export:embed --platform ios --dev false --reset-cache \
+            --entry-file index.ts --bundle-output "$APP/main.jsbundle" --assets-dest "$APP"
+          ls -la "$APP/main.jsbundle"
       - name: Build log
         if: failure()
         uses: actions/upload-artifact@v4
@@ -69,7 +99,7 @@ jobs:
       - name: Fly the demo on an iPhone simulator
         id: demo
         working-directory: apps/mobile
-        run: scripts/simulator-demo.sh ios/build/Build/Products/Release-iphonesimulator/SkyAtlas.app "$RUNNER_TEMP/demo"
+        run: scripts/simulator-demo.sh "$HOME/skyatlas-app/SkyAtlas.app" "$RUNNER_TEMP/demo"
       - name: A small copy of the video
         if: always() && steps.demo.outcome != 'skipped'
         env:
@@ -115,7 +145,14 @@ jobs:
           if [ -f "$DEMO/demo-tour-480p.mp4" ] && [ "$(stat -f%z "$DEMO/demo-tour-480p.mp4")" -lt 60000000 ]; then
             cp "$DEMO/demo-tour-480p.mp4" "$SHOTS/"
           fi
-          [ -f "$DEMO/app.log" ] && grep -iE "error|exception|fatal|warn|crash" "$DEMO/app.log" | tail -300 > "$SHOTS/app-errors.log" || true
+          [ -f "$DEMO/app.log" ] && tail -400 "$DEMO/app.log" > "$SHOTS/app.log" || true
+          for c in "$DEMO"/crash/*; do
+            [ -f "$c" ] && python3 apps/mobile/scripts/crash-summary.py "$c" > "$SHOTS/crash-$(basename "$c" | tr ' ' '-').txt" || true
+          done
+          # The whole video at a glance: a frame every five seconds.
+          if [ -f "$DEMO/demo-flight.mp4" ] && command -v ffmpeg >/dev/null; then
+            ffmpeg -loglevel error -y -i "$DEMO/demo-flight.mp4" -vf "fps=1/5,scale=160:-2,tile=10x4" -q:v 4 "$SHOTS/video-sheet-%02d.jpg" || true
+          fi
           [ -f "$DEMO/maestro.log" ] && tail -c 150000 "$DEMO/maestro.log" > "$SHOTS/maestro.log"
           # What was on screen, as text: the UI tree Maestro saw after each phase.
           for t in "$DEMO"/tree/*.json; do
@@ -138,4 +175,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: SkyAtlas-simulator-app
-          path: apps/mobile/ios/build/Build/Products/Release-iphonesimulator/SkyAtlas.app
+          path: ~/skyatlas-app/SkyAtlas.app

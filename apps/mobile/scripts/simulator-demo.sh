@@ -55,6 +55,7 @@ shot() { xcrun simctl io "$UDID" screenshot --type=png "$OUT/shots/$1.png" >/dev
 export MAESTRO_DRIVER_STARTUP_TIMEOUT=600000
 export MAESTRO_CLI_NO_ANALYTICS=1
 
+touch "$OUT/.start"
 xcrun simctl io "$UDID" recordVideo --codec=h264 --force "$OUT/demo-flight.mp4" &
 REC=$!
 sleep 2
@@ -74,7 +75,10 @@ shot 99-end
 
 kill -INT "$REC" 2>/dev/null
 wait "$REC" 2>/dev/null
-xcrun simctl spawn "$UDID" log show --last 15m --style compact --predicate 'process == "SkyAtlas"' > "$OUT/app.log" 2>/dev/null || true
+xcrun simctl spawn "$UDID" log show --last 90m --style compact --predicate 'process == "SkyAtlas"' > "$OUT/app.log" 2>/dev/null || true
+# Crash reports of the app, if it died on the way (the host keeps them).
+mkdir -p "$OUT/crash"
+find "$HOME/Library/Logs/DiagnosticReports" -newer "$OUT/.start" -iname '*SkyAtlas*' 2>/dev/null | while read -r c; do cp "$c" "$OUT/crash/"; done
 # takeScreenshot lands beside the flow or in the output folder, depending on
 # the Maestro version: gather them all.
 { find "$HERE" "$HERE/.maestro" -maxdepth 1 -name '*.png'; find "$OUT/maestro" "$OUT/maestro-debug" "$HOME/.maestro/tests" -name '*.png'; } 2>/dev/null | while read -r f; do
