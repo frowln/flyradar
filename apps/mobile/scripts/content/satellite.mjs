@@ -12,7 +12,7 @@
  * For each place: the Sentinel-2 tile (MGRS square) it falls in, the
  * clearest recent scene of that tile in the local summer, a window sized to
  * the place (a city ~15 km, a lake its own extent, a range up to 100 km),
- * a gentle contrast stretch, an 840 × 560 JPEG.
+ * a gentle contrast stretch, a 720 × 480 JPEG.
  *
  *   node scripts/content/satellite.mjs                  # places along the demo routes
  *   node scripts/content/satellite.mjs --routes SVO-AER,ZRH-FCO --max 60
@@ -32,8 +32,8 @@ const mgrs = mgrsLib.forward;
 const app = join(dirname(fileURLToPath(import.meta.url)), '../..');
 const out = join(app, 'public/sat');
 const BUCKET = 'https://sentinel-cogs.s3.us-west-2.amazonaws.com';
-const W = 840;
-const H = 560;
+const W = 720;
+const H = 480;
 
 const args = Object.fromEntries(
   process.argv.slice(2).reduce((acc, a, i, all) => (a.startsWith('--') ? [...acc, [a.slice(2), all[i + 1]]] : acc), [])
@@ -205,7 +205,7 @@ for (const [key, p] of todo) {
       console.log(`  ${p.n}: scene has no data here`);
       continue;
     }
-    const jpg = jpeg.encode({ data: stretch(raster, W * H), width: W, height: H }, 64);
+    const jpg = jpeg.encode({ data: stretch(raster, W * H), width: W, height: H }, 62);
     writeFileSync(file, jpg.data);
     index[key] = { d: scene.date, w: Math.round(widthKm(p)) };
     writeFileSync(indexFile, JSON.stringify(index));
