@@ -266,6 +266,14 @@ export const de = {
     shift: 'Uhren %{d} h',
     stamp: 'Stempel im Pass',
   },
+  window: {
+    title: 'Blick aus dem Fenster',
+    left: 'links',
+    right: 'rechts',
+    nothing: 'auf dieser Seite nichts Besonderes',
+    noData: 'Das Relief kommt mit der Offline-Karte, per WLAN vor dem Flug.',
+    caption: 'Kurs %{course}° · Sicht bis %{reach} %{unit} · Höhen ×3,5 · aus Höhendaten, auch durch Wolken und nachts',
+  },
   map: {
     day: 'Relief',
     night: 'Nacht',

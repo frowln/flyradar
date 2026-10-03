@@ -266,6 +266,14 @@ export const fr = {
     shift: 'horloges %{d} h',
     stamp: 'tampon dans votre passeport',
   },
+  window: {
+    title: 'vue du hublot',
+    left: 'gauche',
+    right: 'droite',
+    nothing: 'rien de notable de ce côté',
+    noData: 'Le relief arrive avec la carte hors ligne, en Wi-Fi avant le vol.',
+    caption: 'Cap %{course}° · vue jusqu’à %{reach} %{unit} · hauteurs ×3,5 · d’après les altitudes, même à travers les nuages et de nuit',
+  },
   map: {
     day: 'relief',
     night: 'nuit',

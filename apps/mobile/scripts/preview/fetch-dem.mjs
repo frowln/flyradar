@@ -22,15 +22,20 @@ const app = join(dirname(fileURLToPath(import.meta.url)), '../..');
 const out = join(app, 'public/dem');
 const REMOTE = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium';
 const WORLD_MAX_ZOOM = 3;
-const CORRIDOR_ZOOMS = [4, 5, 6];
-const MARGIN_DEG = 2.5;
 const CHUNK_BYTES = 3 * 1024 * 1024;
 
-// Demo routes (src/core/offline/demo.ts) and screenshot scenes (src/preview/fixtures.web.ts).
-const ROUTES = [
+// Demo routes (src/core/offline/demo.ts) and the Russian screenshot scenes get
+// zoom 6 near the track; every route gets zooms 4–5 out to ~4°, which is what
+// the window view needs to reach the horizon.
+const DETAILED = [
   ['SVO', 'AER'], ['ZRH', 'FCO'], ['DEL', 'KTM'], ['HND', 'ITM'], ['AKL', 'ZQN'], ['LIM', 'CUZ'], ['YVR', 'YYC'],
-  ['SVO', 'AYT'], ['LED', 'SVO'], ['SVO', 'IST'], ['LAX', 'JFK'], ['JFK', 'LHR'], ['LHR', 'ATH'],
-  ['CDG', 'ATH'], ['FRA', 'LIS'], ['MAD', 'FCO']
+  ['SVO', 'AYT'], ['LED', 'SVO'], ['SVO', 'IST']
+];
+const BASIC = [['LAX', 'JFK'], ['JFK', 'LHR'], ['LHR', 'ATH'], ['CDG', 'ATH'], ['FRA', 'LIS'], ['MAD', 'FCO']];
+const ZOOMS = [
+  { z: 4, margin: 4.5, routes: [...DETAILED, ...BASIC] },
+  { z: 5, margin: 4, routes: [...DETAILED, ...BASIC] },
+  { z: 6, margin: 1.6, routes: DETAILED }
 ];
 
 const airports = Object.fromEntries(
@@ -69,16 +74,15 @@ function tileOf(lat, lon, z) {
 
 const keys = new Set();
 for (let z = 0; z <= WORLD_MAX_ZOOM; z++) for (let x = 0; x < 2 ** z; x++) for (let y = 0; y < 2 ** z; y++) keys.add(`${z}/${x}/${y}`);
-for (const [from, to] of ROUTES) {
-  for (const [lat, lon] of greatCircle(coord(from), coord(to))) {
-    for (const z of CORRIDOR_ZOOMS) {
-      const [x0, y0] = tileOf(lat + MARGIN_DEG, lon - MARGIN_DEG, z);
-      const [x1, y1] = tileOf(lat - MARGIN_DEG, lon + MARGIN_DEG, z);
+for (const { z, margin, routes } of ZOOMS) {
+  for (const [from, to] of routes) {
+    for (const [lat, lon] of greatCircle(coord(from), coord(to))) {
+      const [x0, y0] = tileOf(lat + margin, lon - margin, z);
+      const [x1, y1] = tileOf(lat - margin, lon + margin, z);
       for (let x = Math.min(x0, x1); x <= Math.max(x0, x1); x++) for (let y = y0; y <= y1; y++) keys.add(`${z}/${x}/${y}`);
     }
   }
 }
-
 console.log(`${keys.size} tiles`);
 const list = [...keys].sort((a, b) => a.split('/').map(Number).reduce((s, v, i) => s || v - b.split('/').map(Number)[i], 0));
 const bodies = new Map();
@@ -117,6 +121,6 @@ for (const key of list) {
   size += body.length;
 }
 chunks.forEach((parts, i) => writeFileSync(join(out, `pack-${i}.bin`), Buffer.concat(parts)));
-writeFileSync(join(out, 'index.json'), JSON.stringify({ version: 1, maxzoom: Math.max(...CORRIDOR_ZOOMS), chunks: chunks.length, tiles: index }));
+writeFileSync(join(out, 'index.json'), JSON.stringify({ version: 1, maxzoom: 6, chunks: chunks.length, tiles: index }));
 const total = chunks.reduce((s, c) => s + c.reduce((t, b) => t + b.length, 0), 0);
 console.log(`${Object.keys(index).length} tiles in ${chunks.length} files, ${(total / 1024 / 1024).toFixed(1)} MB → public/dem/`);

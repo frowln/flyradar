@@ -11,6 +11,7 @@ import { useReducedMotion } from '../motion';
 import RouteMap from '../components/RouteMap';
 import RouteScrubber, { type ScrubMark } from '../components/RouteScrubber';
 import CrossingBanner, { type Crossing } from '../components/CrossingBanner';
+import WindowView from '../components/WindowView';
 import RouteRule from '../components/RouteRule';
 import SideMark from '../components/SideMark';
 import { loadPackage } from '../../src/core/offline/packageStore';
@@ -520,6 +521,18 @@ export default function AloftScreen() {
             </>
           ) : null}
         </Gutter>
+
+        <WindowView
+          lat={view.lat}
+          lon={view.lon}
+          altitude={view.altitude}
+          heading={view.heading}
+          side={pkg.seat?.side === 'right' ? 'right' : 'left'}
+          night={!viewOutside.daylight}
+          pois={pkg.pois}
+          labelFor={(p) => placeName(p, locale)}
+          onSelectPOI={openPlace}
+        />
 
         {viewOutside.below.length > 0 ? (
           <View style={styles.below}>

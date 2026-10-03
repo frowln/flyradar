@@ -398,5 +398,1765 @@
         "Une couronne de laurier"
       ]
     }
+  },
+  "knossos": {
+    "name": "Cnossos",
+    "era": "v. 1900 – 1350 av. J.-C.",
+    "t": "Le palais derrière la légende du labyrinthe",
+    "s": "Au sud d’Héraklion, sur la côte nord de la Crète, s’élevait le plus grand palais des Minoens, première civilisation avancée d’Europe. Son dédale de pièces, de puits de lumière et de murs peints est peut-être à l’origine du mythe du roi Minos, du labyrinthe et du Minotaure. D’en haut, les ruines restent invisibles, mais on voit l’échine montagneuse de la Crète et la côte animée où les Minoens bâtirent leur monde marchand.",
+    "w": "Sur la côte nord de la Crète, cherchez la ville d’Héraklion ; le palais se trouve à quelques kilomètres au sud, dans les terres.",
+    "f": [
+      "L’archéologue britannique Arthur Evans fouilla Cnossos à partir de 1900.",
+      "Evans reconstruisit des parties du palais en béton, ce qui fait encore débat aujourd’hui.",
+      "Des tablettes d’argile de Cnossos écrites en linéaire B se sont révélées être une forme ancienne de grec."
+    ],
+    "q": {
+      "q": "Qui a fouillé Cnossos à partir de 1900 ?",
+      "a": "Arthur Evans",
+      "x": [
+        "Heinrich Schliemann",
+        "Howard Carter"
+      ]
+    }
+  },
+  "mycenae": {
+    "name": "Mycènes",
+    "era": "v. 1600 – 1100 av. J.-C.",
+    "t": "La citadelle d’Agamemnon, le roi d’Homère",
+    "s": "Sur une colline dominant la plaine d’Argolide se dressait Mycènes, la forteresse qui a donné son nom à la fin de l’âge du bronze grec. Homère en fit la demeure du roi Agamemnon, chef des Grecs devant Troie. Ses murs sont faits de blocs si énormes que les Grecs des siècles suivants les crurent posés par des géants. En croisière, cherchez la plaine verte et plate d’Argos qui s’ouvre sur son golfe.",
+    "w": "Repérez le golfe d’Argolide, au nord-est du Péloponnèse ; la citadelle se dresse au bord nord de la plaine.",
+    "f": [
+      "On qualifie ses murs de cyclopéens, d’après les géants à un œil censés les avoir bâtis.",
+      "Sa célèbre porte des Lionnes, sculptée vers 1250 av. J.-C., est l’une des plus anciennes sculptures monumentales d’Europe.",
+      "Le « masque d’Agamemnon » en or, trouvé ici en 1876, est environ 300 ans plus ancien que la guerre de Troie légendaire."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui garde l’entrée principale de Mycènes ?",
+      "a": "Deux lionnes sculptées",
+      "x": [
+        "Deux sphinx",
+        "Un taureau de bronze"
+      ]
+    }
+  },
+  "stonehenge": {
+    "name": "Stonehenge et Avebury",
+    "era": "v. 3000 – 1500 av. J.-C.",
+    "t": "Des cercles de pierres alignés sur le soleil du solstice",
+    "s": "Sur la craie ondulée de la plaine de Salisbury se dresse le plus célèbre monument préhistorique du monde. Stonehenge fut bâti par étapes sur quelque 1 500 ans ; son axe vise le lever du soleil au solstice d’été et son coucher au solstice d’hiver. Le cercle d’Avebury, tout proche, est plus vaste encore, avec un village dedans. Les pierres sont invisibles d’ici, mais les collines de craie pâles se repèrent facilement.",
+    "w": "Cherchez des collines de craie ouvertes, vert pâle, au nord de Salisbury, avec peu d’arbres et des terrains militaires épars.",
+    "f": [
+      "Ses petites pierres bleues ont été apportées d’environ 240 km, depuis les collines de Preseli, au pays de Galles.",
+      "Les plus grandes pierres de sarsen pèsent chacune environ 25 à 30 tonnes.",
+      "Le cercle extérieur d’Avebury est si vaste qu’une partie du village se trouve à l’intérieur."
+    ],
+    "q": {
+      "q": "D’où venaient les pierres bleues de Stonehenge ?",
+      "a": "Des collines de Preseli (pays de Galles)",
+      "x": [
+        "De Cornouailles",
+        "Du Lake District"
+      ]
+    }
+  },
+  "carnac": {
+    "name": "Alignements de Carnac",
+    "era": "v. 4500 – 3300 av. J.-C.",
+    "t": "Des rangées de menhirs en marche à travers la Bretagne",
+    "s": "Sur la côte sud de la Bretagne, des milliers de pierres dressées s’alignent en longues rangées parallèles, certaines sur plus d’un kilomètre. Elles furent érigées au Néolithique, bien avant les grands sarsens de Stonehenge, et nul ne sait exactement pourquoi. Selon la légende locale, ce sont des soldats romains changés en pierre. Les rangées sont trop petites pour être vues, mais la presqu’île de Quiberon et le golfe du Morbihan, semé d’îles, se distinguent nettement.",
+    "w": "Cherchez la mince presqu’île de Quiberon pointée vers le sud, avec juste à l’est le golfe du Morbihan rempli d’îles.",
+    "f": [
+      "Plus de 3 000 menhirs subsistent autour de Carnac.",
+      "L’alignement du Ménec compte à lui seul plus de 1 000 pierres sur 11 rangées.",
+      "Le mot « menhir », pour une pierre dressée, vient du breton : « pierre longue »."
+    ],
+    "q": {
+      "q": "Combien de menhirs subsistent environ à Carnac ?",
+      "a": "Plus de 3 000",
+      "x": [
+        "Environ 300",
+        "Environ 30 000"
+      ]
+    }
+  },
+  "lascaux": {
+    "name": "Lascaux et la vallée de la Vézère",
+    "era": "il y a env. 17 000 ans",
+    "t": "Chevaux et taureaux de l’ère glaciaire peints dans le noir",
+    "s": "Quelque part dans ces vallées boisées, une grotte abrite certains des plus beaux chefs-d’œuvre de l’ère glaciaire : chevaux, cerfs et immenses taureaux noirs peints il y a environ 17 000 ans. Elle fut découverte en 1940 par quatre adolescents du coin. La vallée de la Vézère qui l’entoure regorge de sites préhistoriques. D’avion, on ne voit que des collines calcaires vertes et une rivière sinueuse, comme les peintres les voyaient.",
+    "w": "Cherchez la Vézère qui méandre entre des collines calcaires boisées, au nord-est de la vallée plus large de la Dordogne.",
+    "f": [
+      "La grotte compte environ 600 peintures et quelque 1 500 gravures.",
+      "Elle a été fermée au public en 1963 pour protéger les peintures ; on visite aujourd’hui des répliques exactes tout près.",
+      "La vallée de la Vézère compte 147 sites préhistoriques et 25 grottes ornées inscrits par l’UNESCO."
+    ],
+    "q": {
+      "q": "Qui a découvert la grotte de Lascaux en 1940 ?",
+      "a": "Quatre adolescents",
+      "x": [
+        "Une équipe d’archéologues",
+        "Un berger"
+      ]
+    }
+  },
+  "newgrange": {
+    "name": "Newgrange (Brú na Bóinne)",
+    "era": "v. 3200 av. J.-C.",
+    "t": "Un tombeau plus vieux que les pyramides, éclairé au solstice",
+    "s": "Dans une grande boucle de la Boyne, au nord de Dublin, se dresse un immense tertre rond parementé de quartz blanc. Newgrange fut bâti vers 3200 av. J.-C., avant le cercle de pierres de Stonehenge et les pyramides de Gizeh. Chaque année, à l’aube du solstice d’hiver, un rayon de lumière parcourt son couloir et illumine la chambre intérieure. Le tertre est minuscule d’ici, mais la boucle de la Boyne se voit.",
+    "w": "Repérez la Boyne à l’ouest de Drogheda ; les monuments se trouvent dans une boucle serrée de la rivière, au sud.",
+    "f": [
+      "Le rayon entre par une « boîte à toit » au-dessus de l’entrée et dure environ 17 minutes.",
+      "Son couloir mesure environ 19 m et aboutit à une chambre au toit de pierre en encorbellement.",
+      "Knowth, tout proche, compte plus d’art mégalithique que tout autre site d’Europe de l’Ouest."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui illumine chaque année la chambre de Newgrange ?",
+      "a": "Le lever du soleil au solstice d’hiver",
+      "x": [
+        "Le coucher du soleil en été",
+        "La pleine lune de printemps"
+      ]
+    }
+  },
+  "skara-brae": {
+    "name": "Orcades néolithiques (Skara Brae)",
+    "era": "v. 3100 – 2500 av. J.-C.",
+    "t": "Un village de l’âge de pierre, meubles encore en place",
+    "s": "Sur l’île principale des Orcades, un village de l’âge de pierre resta enfoui sous le sable jusqu’à ce qu’une tempête le dégage en 1850. Ses maisons ont encore leurs lits, foyers et vaisseliers de pierre, comme si leurs habitants venaient de sortir. Tout près se dressent le cercle de Brodgar et le grand tombeau de Maeshowe. D’en haut, cherchez les îles vertes et sans arbres des Orcades et les deux lochs en leur cœur.",
+    "w": "Cherchez des îles basses et vertes au nord de la pointe de l’Écosse ; les monuments entourent deux lochs reliés sur la plus grande.",
+    "f": [
+      "Skara Brae fut habité pendant environ 600 ans.",
+      "Au solstice d’hiver, le soleil couchant éclaire le couloir d’entrée de Maeshowe.",
+      "Le cercle de Brodgar comptait à l’origine une soixantaine de pierres ; environ 27 sont encore debout."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a mis au jour Skara Brae en 1850 ?",
+      "a": "Une tempête",
+      "x": [
+        "La charrue d’un fermier",
+        "Un glissement de terrain"
+      ]
+    }
+  },
+  "pont-du-gard": {
+    "name": "Pont du Gard",
+    "era": "Ier s. apr. J.-C.",
+    "t": "Le pont-aqueduc de Rome, sur trois étages",
+    "s": "Dans les gorges du Gardon, un pont romain à trois rangs d’arcades superposés portait l’eau jusqu’à Nîmes. Il faisait partie d’un aqueduc d’environ 50 km qui ne descendait que de quelques mètres sur toute sa longueur, un exploit d’arpentage. Le pont est trop petit pour être vu en croisière, mais c’est vers les gorges vertes du Gardon, entre Nîmes et Avignon, qu’il faut regarder.",
+    "w": "Regardez entre Nîmes et Avignon, là où le Gardon creuse une gorge verte avant de rejoindre le Rhône.",
+    "f": [
+      "Avec environ 49 m, c’est le plus haut pont-aqueduc construit par les Romains.",
+      "L’aqueduc ne descend que d’environ 12 m sur ses 50 km, soit quelque 25 cm par kilomètre.",
+      "Dans les grandes arches, les pierres ont été posées sans mortier."
+    ],
+    "q": {
+      "q": "Quelle ville romaine le pont du Gard alimentait-il ?",
+      "a": "Nîmes",
+      "x": [
+        "Arles",
+        "Marseille"
+      ]
+    }
+  },
+  "mont-saint-michel": {
+    "name": "Mont-Saint-Michel",
+    "era": "dès 966",
+    "t": "Une abbaye sur un rocher, coupée du monde par la marée",
+    "s": "Cherchez une vaste baie gris argenté à la limite de la Normandie et de la Bretagne. En son milieu se dresse un minuscule îlot rocheux couronné d’une abbaye gothique, fondée comme monastère bénédictin en 966. La baie connaît certaines des plus fortes marées d’Europe et, à marée haute, la mer encercle le rocher. En croisière, l’abbaye n’est qu’un point, mais les dessins des bancs de sable et des chenaux sont saisissants.",
+    "w": "Une large baie de bancs de sable et de chenaux sinueux où la Normandie rejoint la Bretagne, avec un îlot près de sa rive sud.",
+    "f": [
+      "Le marnage dans la baie peut atteindre environ 14 m.",
+      "En 2014, une passerelle légère a remplacé l’ancienne digue pour que la mer puisse de nouveau entourer le rocher.",
+      "Il a été inscrit au patrimoine mondial de l’UNESCO en 1979, avec sa baie."
+    ],
+    "q": {
+      "q": "Jusqu’à quelle hauteur la marée peut-elle monter dans la baie du Mont-Saint-Michel ?",
+      "a": "Jusqu’à environ 14 m",
+      "x": [
+        "Jusqu’à environ 2 m",
+        "Jusqu’à environ 40 m"
+      ]
+    }
+  },
+  "aachen": {
+    "name": "Aix-la-Chapelle, capitale de Charlemagne",
+    "era": "v. 800",
+    "t": "La ville thermale d’où Charlemagne régnait sur l’Europe",
+    "s": "Près du coin où se rejoignent l’Allemagne, la Belgique et les Pays-Bas se trouve Aix-la-Chapelle, résidence favorite de Charlemagne. Vers 800, il y fit bâtir une chapelle à coupole qui devint le cœur de son empire, et pendant six siècles les rois de Germanie y furent couronnés. Les Romains étaient venus pour les sources chaudes, qui coulent toujours. D’en haut, cherchez la ville au bord des hauteurs vertes de l’Eifel.",
+    "w": "Cherchez la ville juste à l’est du point où se rejoignent l’Allemagne, la Belgique et les Pays-Bas, au bord de hauteurs boisées.",
+    "f": [
+      "Une trentaine de rois de Germanie furent couronnés à Aix-la-Chapelle entre 936 et 1531.",
+      "En 1978, sa cathédrale figurait parmi les 12 premiers sites inscrits au patrimoine mondial de l’UNESCO.",
+      "Le nom romain Aquae Granni faisait référence aux sources chaudes de la ville."
+    ],
+    "q": {
+      "q": "La chapelle de qui est devenue la cathédrale d’Aix-la-Chapelle ?",
+      "a": "Celle de Charlemagne",
+      "x": [
+        "Celle d’Otton le Grand",
+        "Celle de Frédéric Barberousse"
+      ]
+    }
+  },
+  "ravenna": {
+    "name": "Ravenne",
+    "era": "Ve – VIe s.",
+    "t": "La dernière capitale de l’Empire romain d’Occident",
+    "s": "Sur la côte adriatique plate de l’Italie, Ravenne fut un temps la capitale de l’Empire romain d’Occident, puis des rois ostrogoths et des gouverneurs byzantins. Ils remplirent ses églises de mosaïques scintillantes, encore fraîches après 1 500 ans, parmi les plus belles du monde. La ville était jadis un port ; la mer s’est retirée depuis. D’en haut, cherchez la côte plate, les pinèdes et les lagunes.",
+    "w": "Cherchez une côte basse et rectiligne aux pinèdes sombres et, au nord, les vastes lagunes de Comacchio.",
+    "f": [
+      "Les empereurs romains d’Occident installèrent leur cour à Ravenne en 402.",
+      "Les mosaïques de San Vitale montrent l’empereur Justinien et l’impératrice Théodora avec leur cour.",
+      "Le poète Dante mourut à Ravenne en 1321 et y est enterré."
+    ],
+    "q": {
+      "q": "Quel poète est enterré à Ravenne ?",
+      "a": "Dante",
+      "x": [
+        "Pétrarque",
+        "Virgile"
+      ]
+    }
+  },
+  "venice-republic": {
+    "name": "République de Venise",
+    "era": "v. 697 – 1797",
+    "t": "Une république marchande bâtie sur une lagune",
+    "s": "Cherchez une ville en forme de poisson qui flotte dans une lagune, reliée à la terre ferme par un long pont. Pendant environ mille ans, Venise fut une république indépendante gouvernée par des doges élus, et ses galères portaient épices, soie et verre entre l’Europe et l’Orient. Peu d’endroits sont aussi faciles à reconnaître d’avion : la lagune, les îles-barrières et l’enchevêtrement serré des canaux de la ville.",
+    "w": "Une ville compacte en forme de poisson dans une lagune peu profonde, reliée à la terre ferme par une longue digue rectiligne.",
+    "f": [
+      "La ville repose sur plus de 100 petites îles reliées par environ 400 ponts.",
+      "Son Arsenal fut l’un des plus grands chantiers navals du monde préindustriel.",
+      "Marco Polo, dont les voyages firent connaître la Chine en Europe, était un marchand vénitien."
+    ],
+    "q": {
+      "q": "Qui a mis fin à la République de Venise en 1797 ?",
+      "a": "Napoléon",
+      "x": [
+        "Louis XIV",
+        "Louis XVI"
+      ]
+    }
+  },
+  "split-diocletian": {
+    "name": "Palais de Dioclétien, Split",
+    "era": "v. 305 apr. J.-C.",
+    "t": "La retraite d’un empereur devenue une ville",
+    "s": "Quand l’empereur Dioclétien renonça au trône, vers 305 apr. J.-C., il se retira dans un palais-forteresse qu’il avait fait bâtir sur la côte dalmate. Après la chute de Rome, les habitants des environs s’installèrent dans ses murs, et toute une ville y grandit. Aujourd’hui, boutiques, logements et une cathédrale remplissent le palais romain. D’en haut, cherchez Split sur sa presqu’île, face aux longues îles de Brač et de Hvar.",
+    "w": "Une ville sur une presqu’île de la côte croate, avec au large les longues îles de Brač et de Hvar.",
+    "f": [
+      "Dioclétien fut le premier empereur romain à abdiquer de son plein gré.",
+      "La cathédrale de Split a été aménagée dans le mausolée même de l’empereur.",
+      "Environ 3 000 personnes vivent encore dans les murs du vieux palais."
+    ],
+    "q": {
+      "q": "Quel empereur s’est retiré dans un palais à Split ?",
+      "a": "Dioclétien",
+      "x": [
+        "Constantin",
+        "Hadrien"
+      ]
+    }
+  },
+  "constantinople": {
+    "name": "Constantinople",
+    "era": "330 – 1453 apr. J.-C.",
+    "t": "Une capitale impériale sur deux continents",
+    "s": "C’est la ville dont Constantin fit la nouvelle Rome en 330. Sous le nom de Constantinople, elle fut la capitale de l’Empire byzantin pendant plus de mille ans, puis celle des sultans ottomans, gardienne de la seule route maritime entre la mer Noire et la Méditerranée. La coupole de Sainte-Sophie émerveilla les visiteurs pendant des siècles. D’avion, cherchez le Bosphore et la courbe de la Corne d’Or.",
+    "w": "Cherchez l’étroit détroit du Bosphore et l’anse incurvée de la Corne d’Or qui entaille la vieille ville.",
+    "f": [
+      "Sainte-Sophie, achevée en 537, fut la plus grande cathédrale du monde pendant près de mille ans.",
+      "Les murailles terrestres de la ville, bâties au Ve siècle, couraient sur environ 6 km d’une mer à l’autre.",
+      "Avant Constantin, la ville était Byzance, colonie grecque fondée vers 660 av. J.-C."
+    ],
+    "q": {
+      "q": "Quel empereur a refondé Byzance pour en faire sa capitale en 330 ?",
+      "a": "Constantin le Grand",
+      "x": [
+        "Justinien",
+        "Théodose"
+      ]
+    }
+  },
+  "alhambra-granada": {
+    "name": "Grenade nasride et l’Alhambra",
+    "era": "1238 – 1492",
+    "t": "Une cité-palais rouge sous la Sierra Nevada enneigée",
+    "s": "Cherchez la Sierra Nevada, souvent enneigée, qui se dresse derrière Grenade. Ici, la dynastie nasride régna sur le dernier royaume musulman de la péninsule Ibérique jusqu’en 1492, et bâtit l’Alhambra, palais perché de stucs sculptés, de faïences et de patios à fontaines. Le palais est invisible en croisière, mais le mur de montagnes qui le domine, plus haut que tout autre en Espagne continentale, ne passe pas inaperçu.",
+    "w": "Une longue chaîne au sommet blanc en hiver et au printemps, avec Grenade étalée sur la plaine à son pied nord-ouest.",
+    "f": [
+      "Le nom Alhambra vient de l’arabe pour « la rouge », d’après la couleur de ses murs.",
+      "La fontaine de la cour des Lions repose sur le dos de 12 lions de marbre.",
+      "Le Mulhacén, dans la Sierra Nevada, est avec 3 479 m le plus haut sommet de l’Espagne continentale."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Alhambra » ?",
+      "a": "La rouge",
+      "x": [
+        "La haute",
+        "Le jardin"
+      ]
+    }
+  },
+  "cordoba-umayyad": {
+    "name": "Cordoue omeyyade",
+    "era": "756 – 1031",
+    "t": "Jadis l’une des plus grandes villes d’Europe",
+    "s": "Au Xe siècle, Cordoue, sur le Guadalquivir, était la capitale d’un califat omeyyade et l’une des villes les plus grandes et les plus savantes d’Europe. Sa Grande Mosquée, forêt de colonnes aux arcs rayés de rouge et de blanc, est toujours debout, avec une cathédrale bâtie en plein milieu. D’avion, cherchez la ville au bord du fleuve, avec au nord la sombre Sierra Morena.",
+    "w": "Repérez la vallée du Guadalquivir ; la ville se trouve sur le fleuve, au pied des collines boisées de la Sierra Morena.",
+    "f": [
+      "La salle de prière de la mosquée compte plus de 800 colonnes de marbre, de jaspe et de granit.",
+      "Une cathédrale Renaissance a été bâtie à l’intérieur de la mosquée au XVIe siècle.",
+      "La cité-palais en ruine de Madinat al-Zahra se trouve juste à l’ouest de Cordoue."
+    ],
+    "q": {
+      "q": "Qu’a-t-on bâti à l’intérieur de la Grande Mosquée de Cordoue ?",
+      "a": "Une cathédrale",
+      "x": [
+        "Des arènes",
+        "Un palais royal"
+      ]
+    }
+  },
+  "belem-lisbon": {
+    "name": "Belém, Lisbonne : l’âge des Découvertes",
+    "era": "XVe – XVIe s.",
+    "t": "La rive d’où partit la route maritime des Indes",
+    "s": "De cette rive, à l’embouchure du Tage, des navires portugais partirent aux XVe et XVIe siècles cartographier la côte africaine et gagner l’Inde par la mer. Vasco de Gama appareilla d’ici en 1497. L’argent des épices paya le monastère des Hiéronymites, richement orné, et la tour de Belém qui gardait le port. D’en haut, cherchez le large estuaire du Tage et le long pont suspendu rouge qui le franchit.",
+    "w": "Cherchez le large estuaire du Tage ouvert sur l’Atlantique, franchi par un long pont suspendu à l’ouest du centre de Lisbonne.",
+    "f": [
+      "Vasco de Gama repose au monastère des Hiéronymites.",
+      "La tour de Belém fut achevée vers 1519 pour garder l’entrée du port.",
+      "Le style foisonnant du monastère, dit manuélin, sculpte cordages, coquillages et créatures marines."
+    ],
+    "q": {
+      "q": "Qui a quitté Belém en 1497 pour trouver la route maritime des Indes ?",
+      "a": "Vasco de Gama",
+      "x": [
+        "Fernand de Magellan",
+        "Bartolomeu Dias"
+      ]
+    }
+  },
+  "bergen-bryggen": {
+    "name": "Bryggen, Bergen",
+    "era": "v. 1360 – 1754",
+    "t": "Le quai hanséatique aux pignons de bois",
+    "s": "À Bergen, ville cernée de fjords et de montagnes, les marchands allemands de la Hanse tinrent pendant près de 400 ans l’un de leurs quatre grands comptoirs à l’étranger. Ils échangeaient du grain contre du stockfisch, morue séchée sur des claies au vent arctique. Leurs hautes maisons de bois à pignons, Bryggen, bordent toujours le port. D’en haut, cherchez la ville au fond de son bras de mer, cernée de collines abruptes.",
+    "w": "Une ville au fond d’un bras de mer abrité de la côte ouest norvégienne, cernée de collines abruptes et de fjords, souvent sous les nuages.",
+    "f": [
+      "Le stockfisch venait des îles Lofoten, à des centaines de kilomètres au nord.",
+      "Bryggen a brûlé plusieurs fois et a été reconstruit dans le style ancien après un incendie en 1702.",
+      "Il a été inscrit au patrimoine mondial de l’UNESCO en 1979."
+    ],
+    "q": {
+      "q": "Qu’exportaient surtout les marchands hanséatiques de Bergen ?",
+      "a": "Du stockfisch (morue séchée)",
+      "x": [
+        "De l’ambre",
+        "De l’argent"
+      ]
+    }
+  },
+  "visby": {
+    "name": "Visby",
+    "era": "XIIe – XIVe s.",
+    "t": "Une ville hanséatique fortifiée au milieu de la Baltique",
+    "s": "Sur la côte ouest de Gotland, au milieu de la Baltique, se dresse Visby, ville marchande hanséatique encore ceinte de sa muraille médiévale. Ses marchands s’enrichirent du commerce entre la Russie et l’Europe de l’Ouest et remplirent la ville d’églises de pierre, dont beaucoup ne sont plus que des ruines sans toit. D’avion, cherchez la longue île basse de Gotland, la plus grande de Suède.",
+    "w": "Une longue île calcaire et basse en pleine Baltique ; Visby se trouve sur sa rive ouest, face à la Suède.",
+    "f": [
+      "Le rempart de Visby mesure environ 3,4 km et conserve 27 de ses tours.",
+      "Gotland a livré plus de trésors d’argent de l’époque viking que tout autre lieu de Scandinavie.",
+      "La ville a été inscrite au patrimoine mondial de l’UNESCO en 1995."
+    ],
+    "q": {
+      "q": "Sur quelle île se trouve Visby ?",
+      "a": "Gotland",
+      "x": [
+        "Öland",
+        "Bornholm"
+      ]
+    }
+  },
+  "thingvellir": {
+    "name": "Þingvellir",
+    "era": "930 – 1798",
+    "t": "Un parlement à ciel ouvert dans une faille entre continents",
+    "s": "Au nord-est de Reykjavík s’étend un lac dans un fossé d’effondrement où deux plaques tectoniques s’écartent. En 930, les colons d’Islande commencèrent à s’y réunir chaque été pour l’Althing, assemblée en plein air qui faisait les lois et réglait les litiges. Elle s’y tint jusqu’en 1798. D’en haut, on voit ce qu’eux ne pouvaient voir : le lac et les longues fissures de la lave, là où l’Amérique du Nord et l’Eurasie s’éloignent.",
+    "w": "Cherchez le plus grand lac naturel d’Islande, au nord-est de Reykjavík, avec des fissures de lave sombres le long de sa rive nord.",
+    "f": [
+      "L’Althing passe souvent pour l’un des plus anciens parlements du monde.",
+      "En l’an 1000, l’assemblée décida ici que l’Islande adopterait le christianisme.",
+      "À travers l’Islande, les deux plaques s’écartent d’environ 2 cm par an."
+    ],
+    "q": {
+      "q": "En quelle année l’Althing a-t-il été fondé ?",
+      "a": "930",
+      "x": [
+        "874",
+        "1262"
+      ]
+    }
+  },
+  "gutenberg-mainz": {
+    "name": "Mayence, la presse de Gutenberg",
+    "era": "v. 1450",
+    "t": "Là où les caractères mobiles lancèrent l’ère de l’imprimé",
+    "s": "Cherchez le point où le Main se jette dans le Rhin. Sur la rive ouest se trouve Mayence où, vers 1450, Johannes Gutenberg commença à imprimer avec des caractères mobiles en métal. Sa Bible, achevée vers 1455, montra qu’on pouvait produire des livres à des centaines d’exemplaires au lieu d’un seul à la fois. En 50 ans, des presses tournaient dans des centaines de villes d’Europe. Le confluent est facile à repérer.",
+    "w": "Repérez le confluent du Main et du Rhin, avec Mayence sur la rive ouest et Wiesbaden en face.",
+    "f": [
+      "Environ 180 exemplaires de la Bible de Gutenberg furent imprimés ; 49 sont connus aujourd’hui.",
+      "Le système de Gutenberg associait caractères métalliques, encre à l’huile et presse adaptée des pressoirs à vin.",
+      "Mayence est née du camp romain de Mogontiacum."
+    ],
+    "q": {
+      "q": "Quel livre Gutenberg a-t-il imprimé vers 1455 ?",
+      "a": "La Bible",
+      "x": [
+        "L’Iliade",
+        "Le Coran"
+      ]
+    }
+  },
+  "greenwich-meridian": {
+    "name": "Méridien de Greenwich",
+    "era": "choisi en 1884",
+    "t": "Longitude zéro, la ligne d’où partent toutes les cartes",
+    "s": "Sur une colline dominant la Tamise se dresse l’Observatoire royal, fondé en 1675. En 1884, des délégués de 25 nations convinrent que son méridien serait la longitude zéro du monde. Chaque position de votre carte de vol se mesure à l’est ou à l’ouest de cette ligne, et l’heure mondiale se comptait jadis à partir d’elle. D’en haut, cherchez la Tamise qui contourne l’île aux Chiens ; Greenwich se trouve sur la rive sud.",
+    "w": "Cherchez la boucle serrée de la Tamise autour de l’île aux Chiens, dans l’est de Londres ; le parc de Greenwich est juste au sud.",
+    "f": [
+      "L’Observatoire royal fut fondé par le roi Charles II en 1675.",
+      "La ligne zéro utilisée par le GPS passe à environ 100 m à l’est de la ligne de laiton de l’observatoire.",
+      "La décision de 1884 fut prise lors d’une conférence à Washington."
+    ],
+    "q": {
+      "q": "Quand Greenwich a-t-il été choisi comme méridien d’origine ?",
+      "a": "1884",
+      "x": [
+        "1675",
+        "1851"
+      ]
+    }
+  },
+  "montgolfier-annonay": {
+    "name": "Annonay, la première montgolfière",
+    "era": "4 juin 1783",
+    "t": "Là où deux papetiers ont lancé l’ère du vol",
+    "s": "Dans les collines à l’ouest du Rhône se trouve Annonay, ville des frères Montgolfier, papetiers. Le 4 juin 1783, sur la place de la ville, ils remplirent d’air chaud une grande enveloppe de toile et de papier et la regardèrent s’élever à plus d’un kilomètre. En quelques mois, leurs ballons emportèrent un mouton, un canard et un coq, puis les premiers passagers humains. Tous les vols depuis remontent à ce jour-là.",
+    "w": "Cherchez la vallée du Rhône qui file au sud depuis Lyon ; Annonay se trouve dans les collines boisées, un peu à l’ouest.",
+    "f": [
+      "Le premier vol humain en montgolfière eut lieu au-dessus de Paris le 21 novembre 1783.",
+      "À Versailles, en septembre 1783, un mouton, un canard et un coq volèrent et se posèrent sains et saufs.",
+      "En français, un ballon à air chaud s’appelle toujours une « montgolfière »."
+    ],
+    "q": {
+      "q": "Quel était le métier de la famille Montgolfier ?",
+      "a": "La papeterie",
+      "x": [
+        "Le tissage de la soie",
+        "La viticulture"
+      ]
+    }
+  },
+  "ironbridge": {
+    "name": "Gorge d’Ironbridge",
+    "era": "1709 – 1779",
+    "t": "Une vallée qui a aidé à lancer la révolution industrielle",
+    "s": "Dans cette gorge boisée de la Severn, la révolution industrielle trouva son combustible et son symbole. En 1709, Abraham Darby fut le premier à fondre le fer au coke et non au charbon de bois, rendant le fer bon marché. En 1779, son petit-fils lança sur la rivière le premier grand pont en fonte du monde. Le pont est invisible en croisière, mais la profonde vallée de la Severn, à l’ouest de Telford, se voit.",
+    "w": "Repérez la Severn qui serpente vers le sud-est depuis Shrewsbury ; la gorge se trouve juste au sud de la ville nouvelle de Telford.",
+    "f": [
+      "L’Iron Bridge a une portée d’environ 30 m et tient toujours debout.",
+      "Ses pièces furent assemblées par des techniques de charpentier, comme les queues d’aronde, tant la construction en fer était nouvelle.",
+      "La gorge a été inscrite au patrimoine mondial de l’UNESCO en 1986."
+    ],
+    "q": {
+      "q": "En quoi est fait l’Iron Bridge ?",
+      "a": "En fonte",
+      "x": [
+        "En fer forgé",
+        "En acier"
+      ]
+    }
+  },
+  "malta-temples": {
+    "name": "Temples mégalithiques de Malte",
+    "era": "v. 3600 – 2500 av. J.-C.",
+    "t": "Des temples de pierre plus vieux que les pyramides",
+    "s": "Sur les petites îles de Malte et de Gozo, des paysans de l’âge de pierre bâtirent de grands temples il y a plus de 5 000 ans, avant le cercle de Stonehenge et les pyramides de Gizeh. Ce sont parmi les plus anciens édifices non enterrés du monde. Les temples sont trop petits pour être vus, mais les îles, brun doré dans le bleu de la Méditerranée au sud de la Sicile, se repèrent facilement.",
+    "w": "Cherchez deux petites îles brun doré, Malte et Gozo, à environ 90 km au sud de la Sicile.",
+    "f": [
+      "Selon la légende locale, les temples de Ġgantija, à Gozo, furent bâtis par une géante.",
+      "L’hypogée de Ħal Saflieni est un temple et une nécropole souterrains taillés dans la roche.",
+      "Sept des temples sont inscrits au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Selon la légende locale, qui a bâti les temples de Ġgantija ?",
+      "a": "Une géante",
+      "x": [
+        "Des marins phéniciens",
+        "Les chevaliers de Saint-Jean"
+      ]
+    }
+  },
+  "etruria": {
+    "name": "Étrurie",
+    "era": "VIIIe – Ier s. av. J.-C.",
+    "t": "Le pays des Étrusques, les mystérieux maîtres de Rome",
+    "s": "C’est le pays des Étrusques, maîtres de l’Italie centrale avant Rome, qui enseignèrent à la jeune cité une bonne part de sa religion, de ses techniques et de son style. Ils bâtirent des villes perchées, asséchèrent des marais et peignirent leurs tombeaux de banquets, de danseurs et de musiciens. Leur langue reste en partie incomprise. D’en haut, cherchez les collines vertes de Toscane et les lacs volcaniques ronds au nord de Rome.",
+    "w": "Cherchez des lacs de cratère ronds comme Bolsena et Bracciano parmi les collines vertes entre Rome et Florence.",
+    "f": [
+      "La Toscane tient son nom des Étrusques, que les Romains appelaient Tusci.",
+      "Les tombes peintes de Tarquinia et de Cerveteri sont inscrites au patrimoine mondial de l’UNESCO.",
+      "Le lac de Bolsena occupe une ancienne caldeira : c’est le plus grand lac volcanique d’Europe."
+    ],
+    "q": {
+      "q": "Quelle région italienne porte le nom des Étrusques ?",
+      "a": "La Toscane",
+      "x": [
+        "L’Ombrie",
+        "La Lombardie"
+      ]
+    }
+  },
+  "magna-graecia": {
+    "name": "Grande-Grèce",
+    "era": "VIIIe – IIIe s. av. J.-C.",
+    "t": "Quand le sud de l’Italie faisait partie du monde grec",
+    "s": "Dès le VIIIe siècle av. J.-C., des colons grecs partirent vers l’ouest fonder des cités le long des côtes du sud de l’Italie et de la Sicile, si nombreuses que les Romains appelèrent la région Grande-Grèce. Pythagore y enseigna, et Syracuse ou Tarente rivalisaient avec Athènes. D’en haut, cherchez la pointe et le talon de la botte, et entre eux le profond golfe de Tarente, la mer que traversaient les colons.",
+    "w": "Cherchez la pointe et le talon de la botte italienne, avec entre eux la large courbe du golfe de Tarente.",
+    "f": [
+      "Naples est née de la colonie grecque de Neapolis, « la ville nouvelle ».",
+      "Le mot « sybarite », pour un amateur de luxe, vient de la riche colonie de Sybaris.",
+      "Les temples doriques de Paestum comptent parmi les temples grecs les mieux conservés au monde."
+    ],
+    "q": {
+      "q": "Que signifie Neapolis, le nom grec de Naples ?",
+      "a": "Ville nouvelle",
+      "x": [
+        "Ville de la mer",
+        "Ville sainte"
+      ]
+    }
+  },
+  "nuragic-sardinia": {
+    "name": "Sardaigne nuragique",
+    "era": "v. 1800 – 238 av. J.-C.",
+    "t": "Une île aux milliers de tours de pierre de l’âge du bronze",
+    "s": "La Sardaigne est parsemée de tours de pierre appelées nuraghes, bâties par un peuple de l’âge du bronze qui n’a laissé aucun écrit. Des milliers subsistent, du simple cône au village-forteresse avec remparts et cours, et les archéologues débattent encore de leur usage. Les tours sont trop petites pour être vues en croisière, mais les montagnes de granit escarpées de l’île et ses hautes terres désertes, où beaucoup se dressent, se voient facilement.",
+    "w": "Une grande île escarpée et peu peuplée au sud de la Corse, avec des montagnes de granit à l’est.",
+    "f": [
+      "On connaît plus de 7 000 nuraghes sur l’île.",
+      "Su Nuraxi, à Barumini, un village nuragique, a été inscrit au patrimoine mondial de l’UNESCO en 1997.",
+      "Les forgerons nuragiques fabriquaient de petites figurines de bronze : guerriers, prêtres et animaux."
+    ],
+    "q": {
+      "q": "Qu’est-ce qu’un nuraghe ?",
+      "a": "Une tour de pierre",
+      "x": [
+        "Un tumulus funéraire",
+        "Un bateau de roseaux"
+      ]
+    }
+  },
+  "al-andalus": {
+    "name": "Al-Andalus",
+    "era": "711 – 1492",
+    "t": "Huit siècles d’Ibérie musulmane",
+    "s": "Pendant près de huit siècles, une grande partie de la péninsule Ibérique fut al-Andalus, gouvernée par des dynasties musulmanes depuis Cordoue, Séville et Grenade. Ses savants préservèrent et prolongèrent le savoir grec, et ses paysans apportèrent à l’Europe le riz, l’orange et la canne à sucre. Chrétiens, musulmans et juifs vivaient côte à côte, pas toujours en paix. D’en haut, cherchez la vallée du Guadalquivir et ses rangées pointillées d’oliviers.",
+    "w": "Cherchez la large vallée du Guadalquivir et des collines couvertes de rangées régulières et pointillées d’oliviers.",
+    "f": [
+      "Les philosophes Averroès et Maïmonide sont tous deux nés à Cordoue au XIIe siècle.",
+      "Le nom de l’Andalousie vient d’al-Andalus.",
+      "Bien des mots espagnols, comme « aceite » (huile) et « azúcar » (sucre), viennent de l’arabe."
+    ],
+    "q": {
+      "q": "Quelle région espagnole tient son nom d’al-Andalus ?",
+      "a": "L’Andalousie",
+      "x": [
+        "L’Aragon",
+        "L’Estrémadure"
+      ]
+    }
+  },
+  "dacia": {
+    "name": "Dacie",
+    "era": "Ier s. av. J.-C. – 271 apr. J.-C.",
+    "t": "Le royaume montagnard riche en or, au cœur des Carpates",
+    "s": "Dans la grande courbe des Carpates s’étendait la Dacie, royaume de forteresses de montagne et de mines d’or. En 106 apr. J.-C., elle devint une province romaine sous Trajan et, pendant les 165 années suivantes, les colons romains se mêlèrent aux Daces. Leur latin devint le roumain. D’en haut, cherchez l’arc des Carpates, souvent strié de neige, qui enveloppe le plateau vert de Transylvanie.",
+    "w": "Cherchez la chaîne courbe des Carpates qui enserre un vaste plateau ondulé de fermes et de forêts.",
+    "f": [
+      "La capitale dace, Sarmizegetusa Regia, se trouvait à environ 1 200 m dans les monts d’Orăștie.",
+      "La colonne Trajane, à Rome, raconte les campagnes romaines en Dacie en une spirale de scènes sculptées.",
+      "Les Romains se retirèrent de Dacie vers 271 apr. J.-C."
+    ],
+    "q": {
+      "q": "Quelle langue est née du latin parlé en Dacie ?",
+      "a": "Le roumain",
+      "x": [
+        "Le hongrois",
+        "L’albanais"
+      ]
+    }
+  },
+  "sapmi": {
+    "name": "Sápmi, la terre des Sâmes",
+    "era": "des millénaires – aujourd’hui",
+    "t": "La terre des Sâmes, à cheval sur quatre pays",
+    "s": "C’est le Sápmi, la terre des Sâmes, peuple autochtone de l’extrême nord de l’Europe, à cheval sur la Norvège, la Suède, la Finlande et la péninsule de Kola, en Russie. Pendant des siècles, beaucoup de Sâmes ont suivi les rennes entre forêts d’hiver et pâturages d’été sur la côte et dans les fjells, et certains le font encore. D’en haut, voici leur paysage : lacs, tourbières, bouleaux et pins, et la longue neige de l’hiver.",
+    "w": "Cherchez une vaste terre de lacs, de fjells bas et de forêts, blanche une grande partie de l’année, au nord du golfe de Botnie.",
+    "f": [
+      "La fête nationale sâme, le 6 février, commémore la première assemblée sâme, tenue à Trondheim en 1917.",
+      "La Norvège, la Suède et la Finlande ont chacune un Parlement sâme élu.",
+      "Le joik est un chant traditionnel sâme, souvent chanté pour évoquer une personne ou un lieu."
+    ],
+    "q": {
+      "q": "Qu’est-ce qu’un joik ?",
+      "a": "Un chant traditionnel sâme",
+      "x": [
+        "Un traîneau à rennes",
+        "Une tente d’hiver"
+      ]
+    }
+  },
+  "incense-route": {
+    "name": "Route de l’encens",
+    "era": "VIIe s. av. J.-C. – IIe s. apr. J.-C.",
+    "t": "Des caravanes de chameaux portant l’encens jusqu’à Rome",
+    "s": "C’était la route de l’encens et de la myrrhe. Des caravanes de chameaux portaient ces précieuses résines du sud de l’Arabie vers le nord, longeant les collines de la mer Rouge d’oasis en oasis jusqu’à Pétra et au port méditerranéen de Gaza. Tous les temples antiques brûlaient de l’encens, et ce commerce enrichit les royaumes du désert. D’en haut, on voit ce que traversaient les caravanes : montagnes nues, champs de lave et sable.",
+    "w": "Cherchez des collines volcaniques sombres et des vallées de sable orientées nord–sud, à l’intérieur de la côte de la mer Rouge.",
+    "f": [
+      "L’encens est la résine séchée d’un petit arbre du désert, le boswellia.",
+      "Les Nabatéens de Pétra s’enrichirent en taxant et en guidant les caravanes.",
+      "Le voyage des caravanes du sud de l’Arabie à Gaza durait environ deux mois."
+    ],
+    "q": {
+      "q": "Qu’est-ce que l’encens ?",
+      "a": "Une résine d’arbre",
+      "x": [
+        "Des coquillages broyés",
+        "Des pétales séchés"
+      ]
+    }
+  },
+  "royal-road": {
+    "name": "Route royale perse",
+    "era": "Ve s. av. J.-C.",
+    "t": "La grande route des rois perses, de Sardes à Suse",
+    "s": "Au Ve siècle av. J.-C., le roi perse Darius le Grand relia les confins de son empire par une route longue d’environ 2 700 km, de Sardes, près de la mer Égée, à sa capitale, Suse. Des relais aux chevaux frais la jalonnaient, si bien que les messagers royaux la parcouraient en une semaine environ. D’en haut, suivez-la à travers le plateau anatolien, par-dessus l’Euphrate et le Tigre, jusqu’aux plaines d’Iran.",
+    "w": "Dans l’est de la Turquie, cherchez les hautes vallées de l’Euphrate et du Tigre que la route franchissait vers la Mésopotamie.",
+    "f": [
+      "Hérodote écrit qu’il fallait à pied environ 90 jours pour le trajet complet.",
+      "Il compta 111 relais le long de la route.",
+      "Son éloge des courriers, que ni la neige ni la pluie n’arrêtaient, est gravé sur une poste de New York."
+    ],
+    "q": {
+      "q": "Quel roi perse a construit la Route royale ?",
+      "a": "Darius le Grand",
+      "x": [
+        "Cyrus le Grand",
+        "Xerxès"
+      ]
+    }
+  },
+  "suez-canal": {
+    "name": "Canal de Suez",
+    "era": "ouvert en 1869",
+    "t": "Une ligne tirée au cordeau qui unit deux mers",
+    "s": "Cherchez une fine ligne droite qui tranche le désert entre la Méditerranée et la mer Rouge. Ouvert en 1869, le canal de Suez épargna aux navires le long voyage autour de l’Afrique. Il n’a pas d’écluses : la mer y passe simplement, avec une halte à mi-chemin dans les lacs Amers. Depuis l’altitude de croisière, c’est l’une des lignes humaines les plus nettes de la Terre, souvent avec un convoi de navires égrené le long.",
+    "w": "Une ligne bleue rectiligne de Port-Saïd à Suez, qui s’élargit à mi-chemin dans le Grand Lac Amer.",
+    "f": [
+      "Le canal fut construit sous la direction du diplomate français Ferdinand de Lesseps.",
+      "Il mesure environ 193 km et a été élargi depuis, avec un chenal parallèle ajouté sur une partie en 2015.",
+      "Il a raccourci d’environ 40 % la route maritime entre la Grande-Bretagne et l’Inde."
+    ],
+    "q": {
+      "q": "Qui a dirigé la construction du canal de Suez ?",
+      "a": "Ferdinand de Lesseps",
+      "x": [
+        "Pierre-Paul Riquet",
+        "Isambard Kingdom Brunel"
+      ]
+    }
+  },
+  "troy": {
+    "name": "Troie",
+    "era": "v. 3000 av. J.-C. – 500 apr. J.-C.",
+    "t": "La ville derrière l’Iliade d’Homère",
+    "s": "À l’entrée des Dardanelles se trouve la butte de Troie. Pendant des millénaires, on y a rebâti une ville, couche après couche, et l’une d’elles est peut-être la Troie de l’Iliade d’Homère. Elle gardait la route maritime entre l’Égée et la mer Noire. La butte est trop petite pour être vue, mais l’étroit détroit et la plaine fluviale voisine se distinguent nettement.",
+    "w": "Cherchez l’entrée du détroit des Dardanelles ; le site est juste dans les terres, côté asiatique, au-dessus d’une plaine fluviale plate.",
+    "f": [
+      "Les archéologues ont mis au jour au moins neuf villes bâties les unes sur les autres.",
+      "Le « trésor de Priam » d’Heinrich Schliemann s’est révélé plus ancien d’environ mille ans que la Troie d’Homère.",
+      "Troie a été inscrite au patrimoine mondial de l’UNESCO en 1998."
+    ],
+    "q": {
+      "q": "Qui a commencé à fouiller Troie dans les années 1870 ?",
+      "a": "Heinrich Schliemann",
+      "x": [
+        "Arthur Evans",
+        "Howard Carter"
+      ]
+    }
+  },
+  "ephesus": {
+    "name": "Éphèse",
+    "era": "Xe s. av. J.-C. – XVe s.",
+    "t": "Un grand port romain échoué loin dans les terres",
+    "s": "Éphèse fut l’une des plus grandes villes de l’Orient romain, avec une rue principale de marbre, un théâtre d’environ 25 000 places et la grandiose bibliothèque de Celsus. C’était un port, mais le fleuve a ensablé sa rade, et la côte se trouve aujourd’hui à des kilomètres. D’en haut, on lit cette histoire : une plaine verte et plate de limon fluvial là où entrait jadis la mer, à l’ouest de la ville de Selçuk.",
+    "w": "Cherchez une plaine fluviale verte et plate à l’ouest de Selçuk, qui rejoint la mer près de Kuşadası.",
+    "f": [
+      "Son temple d’Artémis était l’une des Sept Merveilles du monde antique.",
+      "La façade de la bibliothèque de Celsus, bâtie au IIe siècle, a été remontée avec ses pierres d’origine.",
+      "Éphèse a été inscrite au patrimoine mondial de l’UNESCO en 2015."
+    ],
+    "q": {
+      "q": "Quelle Merveille du monde antique se dressait à Éphèse ?",
+      "a": "Le temple d’Artémis",
+      "x": [
+        "Le colosse de Rhodes",
+        "Le phare d’Alexandrie"
+      ]
+    }
+  },
+  "pergamon": {
+    "name": "Pergame",
+    "era": "IIIe – IIe s. av. J.-C.",
+    "t": "Une capitale perchée qui a donné son nom au parchemin",
+    "s": "Sur une colline abrupte dominant la ville de Bergama se dressait Pergame, capitale d’un riche royaume hellénistique. Ses rois bâtirent une grande bibliothèque, un autel célèbre et l’un des théâtres les plus pentus de l’Antiquité, taillé dans le versant. La bibliothèque réclamait tant de support d’écriture que Pergame devint célèbre pour son parchemin. D’en haut, cherchez la plaine verte du Bakırçay, à l’intérieur des terres depuis l’Égée.",
+    "w": "Cherchez la plaine du Bakırçay, à environ 25 km de la côte égéenne, au nord d’İzmir.",
+    "f": [
+      "Le mot « parchemin » vient du nom de Pergame.",
+      "L’autel de Pergame fut emporté à Berlin au XIXe siècle et a donné son nom à un musée de la ville.",
+      "Les gradins du théâtre dévalent la colline sur environ 80 rangées."
+    ],
+    "q": {
+      "q": "Quel support d’écriture porte le nom de Pergame ?",
+      "a": "Le parchemin",
+      "x": [
+        "Le papyrus",
+        "Le papier"
+      ]
+    }
+  },
+  "sardis": {
+    "name": "Sardes, la ville des premières pièces",
+    "era": "VIIe – VIe s. av. J.-C.",
+    "t": "Là où l’argent est devenu monnaie",
+    "s": "Dans cette vallée fertile se dressait Sardes, capitale de la Lydie. Vers le VIIe siècle av. J.-C., les Lydiens se mirent à frapper des pièces dans l’électrum, alliage naturel d’or et d’argent : l’un des premiers usages de la monnaie au monde. Leur dernier roi, Crésus, devint synonyme de richesse. La ville fut plus tard le départ de la Route royale perse. D’en haut, cherchez la large vallée verte du Gediz, à l’est d’İzmir.",
+    "w": "Cherchez la large vallée verte du Gediz à l’est d’İzmir, avec une crête montagneuse le long de son côté sud.",
+    "f": [
+      "Le Pactole, qui traversait Sardes, passait pour charrier de la poudre d’or.",
+      "L’expression « riche comme Crésus » vient du dernier roi de Lydie.",
+      "Les ruines comptent l’une des plus grandes synagogues antiques jamais découvertes."
+    ],
+    "q": {
+      "q": "Quel roi de Sardes est devenu synonyme de richesse ?",
+      "a": "Crésus",
+      "x": [
+        "Midas",
+        "Darius"
+      ]
+    }
+  },
+  "gobekli-tepe": {
+    "name": "Göbekli Tepe",
+    "era": "v. 9500 – 8000 av. J.-C.",
+    "t": "Des temples bâtis avant l’agriculture",
+    "s": "Sur une colline dominant la plaine de Harran, des chasseurs-cueilleurs érigèrent il y a environ 11 500 ans de grands piliers de pierre sculptés de renards, de serpents et de vautours. C’était avant la poterie, avant l’écriture, et avant que l’agriculture ne s’impose. Göbekli Tepe a renversé l’idée que les villages précédaient les monuments. Les piliers sont invisibles en croisière, mais la vaste plaine autour de Şanlıurfa, aujourd’hui irriguée, se voit facilement.",
+    "w": "Cherchez la vaste plaine au nord de la frontière syrienne près de Şanlıurfa, verte par endroits de champs irrigués.",
+    "f": [
+      "Ses piliers en T atteignent environ 5,5 m de haut.",
+      "Il est quelque 6 000 ans plus ancien que Stonehenge.",
+      "Le site a été reconnu comme préhistorique par l’archéologue Klaus Schmidt en 1994."
+    ],
+    "q": {
+      "q": "Qui a bâti Göbekli Tepe ?",
+      "a": "Des chasseurs-cueilleurs",
+      "x": [
+        "Des paysans de l’âge du bronze",
+        "Des ingénieurs romains"
+      ]
+    }
+  },
+  "catalhoyuk": {
+    "name": "Çatalhöyük",
+    "era": "v. 7100 – 5700 av. J.-C.",
+    "t": "Une ville de l’âge de pierre sans rues",
+    "s": "Sur la plaine plate de Konya se dressait l’une des premières grandes villes du monde, où vivaient des milliers de personnes il y a plus de 9 000 ans. Ses maisons de brique crue étaient serrées mur contre mur, sans rues entre elles : on circulait sur les toits et on descendait chez soi par des échelles. D’en haut, la plaine semble toujours plate comme une table, avec le volcan Hasan Dağı qui se dresse à l’est.",
+    "w": "Cherchez l’immense plaine plate de Konya, avec à l’est le volcan solitaire à deux sommets, le Hasan Dağı.",
+    "f": [
+      "On entrait dans les maisons par un trou dans le toit.",
+      "Une peinture murale découverte ici montre peut-être une ville avec un volcan en éruption derrière elle.",
+      "Le site a été inscrit au patrimoine mondial de l’UNESCO en 2012."
+    ],
+    "q": {
+      "q": "Comment entrait-on dans les maisons de Çatalhöyük ?",
+      "a": "Par le toit",
+      "x": [
+        "Par des tunnels latéraux",
+        "Par une porte d’entrée"
+      ]
+    }
+  },
+  "hattusa": {
+    "name": "Hattusa, capitale des Hittites",
+    "era": "v. 1650 – 1200 av. J.-C.",
+    "t": "Le pays où s’est levé l’empire hittite",
+    "s": "Sur ces collines nues du centre de l’Anatolie se dressait Hattusa, capitale des Hittites, qui régnèrent sur une grande partie du Proche-Orient de l’âge du bronze et traitèrent d’égal à égal avec l’Égypte. Ses murailles, ses portes sculptées de lions et de sphinx et des archives de tablettes d’argile subsistent, dont l’un des plus anciens traités de paix connus. D’en haut, cherchez la grande boucle du Kızılırmak autour du cœur du pays hittite.",
+    "w": "Cherchez le long arc du Kızılırmak, le plus long fleuve de Turquie, qui contourne des collines sèches à l’est d’Ankara.",
+    "f": [
+      "Le roi hittite et Ramsès II d’Égypte signèrent un traité de paix vers 1259 av. J.-C. ; une copie est exposée au siège de l’ONU.",
+      "Le hittite est la plus ancienne langue indo-européenne écrite connue.",
+      "Les archéologues ont trouvé environ 30 000 tablettes d’argile à Hattusa."
+    ],
+    "q": {
+      "q": "Quel pharaon a signé un traité de paix avec les Hittites ?",
+      "a": "Ramsès II",
+      "x": [
+        "Toutânkhamon",
+        "Akhenaton"
+      ]
+    }
+  },
+  "petra": {
+    "name": "Pétra",
+    "era": "IVe s. av. J.-C. – VIIe s. apr. J.-C.",
+    "t": "Une ville taillée dans des falaises rose-rouge",
+    "s": "Dans les montagnes escarpées à l’est de la Wadi Araba se trouve Pétra, capitale des Nabatéens, enrichis par les caravanes de l’encens. Ils taillèrent temples et tombeaux à même le grès rose-rouge et recueillaient chaque goutte de pluie dans des rigoles et des citernes. On atteint sa façade la plus célèbre, le Trésor, par une gorge étroite. En croisière, cherchez le mur montagneux déchiqueté et rougeâtre au-dessus de la longue vallée du rift, parfaitement plate.",
+    "w": "Cherchez des montagnes rougeâtres et déchiquetées qui se dressent à pic à l’est de la Wadi Araba, vallée plate entre la mer Morte et Aqaba.",
+    "f": [
+      "La gorge qui mène à Pétra, le Siq, mesure environ 1,2 km et n’a par endroits que quelques mètres de large.",
+      "Le voyageur suisse Johann Ludwig Burckhardt fit connaître Pétra à l’Europe en 1812.",
+      "Un poème victorien l’appela « une ville rose-rouge à moitié aussi vieille que le temps »."
+    ],
+    "q": {
+      "q": "Qui a fait connaître Pétra à l’Europe en 1812 ?",
+      "a": "Johann Ludwig Burckhardt",
+      "x": [
+        "Heinrich Schliemann",
+        "Richard Burton"
+      ]
+    }
+  },
+  "palmyra": {
+    "name": "Palmyre",
+    "era": "Ier – IIIe s. apr. J.-C.",
+    "t": "La cité caravanière des palmiers du désert",
+    "s": "Au milieu du désert syrien, une source et une palmeraie firent de Palmyre une étape pour les caravanes qui allaient de la Méditerranée à l’Euphrate. Ses marchands devinrent si riches qu’ils bâtirent une longue avenue à colonnades, de grands temples et des tombeaux-tours, mêlant styles grec, romain et perse. D’en haut, cherchez la tache verte de l’oasis, nette sur le désert pâle qui l’entoure.",
+    "w": "Une petite oasis verte dans un immense désert pâle, au pied d’une ligne de collines basses et nues.",
+    "f": [
+      "Au IIIe siècle, la reine Zénobie fit de Palmyre le centre d’un empire éphémère.",
+      "Les marchands palmyréniens commerçaient soie, épices et parfums venus d’aussi loin que la Chine et l’Inde.",
+      "La langue de la ville était un dialecte de l’araméen, écrit dans son propre alphabet."
+    ],
+    "q": {
+      "q": "Quelle reine a fait de Palmyre le cœur d’un empire ?",
+      "a": "Zénobie",
+      "x": [
+        "Cléopâtre",
+        "Didon"
+      ]
+    }
+  },
+  "baalbek": {
+    "name": "Baalbek",
+    "era": "Ier s. av. J.-C. – IIIe s. apr. J.-C.",
+    "t": "Des temples aux blocs parmi les plus gros jamais déplacés",
+    "s": "Dans la vallée de la Békaa, entre deux chaînes de montagnes, les Romains bâtirent l’un de leurs plus grandioses ensembles de temples, Héliopolis, l’actuelle Baalbek. Six colonnes géantes du temple de Jupiter se dressent encore, et le temple de Bacchus, à côté, compte parmi les mieux conservés du monde romain. Ses fondations comprennent des blocs de centaines de tonnes chacun. D’en haut, la longue vallée plate entre deux crêtes est reconnaissable entre toutes.",
+    "w": "Cherchez une longue vallée verte et plate orientée nord–sud entre deux chaînes parallèles, souvent enneigées l’hiver.",
+    "f": [
+      "Trois pierres de la base du temple, le Trilithon, pèsent environ 800 tonnes chacune.",
+      "Des blocs plus gros encore, jamais déplacés, gisent toujours dans la carrière antique voisine.",
+      "Les colonnes subsistantes du temple de Jupiter mesurent environ 20 m de haut."
+    ],
+    "q": {
+      "q": "Combien pèse environ chaque pierre du Trilithon de Baalbek ?",
+      "a": "Environ 800 tonnes",
+      "x": [
+        "Environ 8 tonnes",
+        "Environ 80 tonnes"
+      ]
+    }
+  },
+  "qumran": {
+    "name": "Qumrân et les manuscrits de la mer Morte",
+    "era": "v. 250 av. J.-C. – 68 apr. J.-C. ; découverts en 1947",
+    "t": "Les grottes des plus vieux manuscrits bibliques",
+    "s": "Cherchez la mer Morte, l’étendue d’eau la plus basse de la Terre. En 1947, un berger bédouin qui fouillait les falaises de sa rive nord-ouest découvrit des jarres d’argile contenant des rouleaux anciens. En dix ans, les grottes de Qumrân livrèrent des centaines de manuscrits, dont les plus anciennes copies connues de livres de la Bible hébraïque. Les grottes sont invisibles d’ici, mais la mer et ses falaises abruptes sont saisissantes.",
+    "w": "Cherchez le long bassin nord, bleu, de la mer Morte et les falaises nues et abruptes de sa rive ouest.",
+    "f": [
+      "Les manuscrits ont été écrits à peu près entre 250 av. J.-C. et 68 apr. J.-C.",
+      "Le grand rouleau d’Isaïe mesure plus de 7 m et est presque complet.",
+      "La surface de la mer Morte se trouve à environ 430 m sous le niveau de la mer."
+    ],
+    "q": {
+      "q": "Qui a trouvé les premiers manuscrits de la mer Morte en 1947 ?",
+      "a": "Un berger bédouin",
+      "x": [
+        "Un archéologue britannique",
+        "Un moine itinérant"
+      ]
+    }
+  },
+  "babylon": {
+    "name": "Babylone",
+    "era": "v. 1900 – 300 av. J.-C.",
+    "t": "Le nom même de la grande ville dans l’Antiquité",
+    "s": "Sur l’Euphrate, au sud de Bagdad, s’étendent les ruines de Babylone. Sous Hammurabi, elle donna au monde l’un des premiers codes de lois écrits ; sous Nabuchodonosor II, elle devint une ville de portes émaillées de bleu et d’une haute ziggourat, peut-être à l’origine du récit de la tour de Babel. D’en haut, cherchez l’Euphrate et le ruban sombre de palmeraies et de champs qui le suit à travers le désert.",
+    "w": "Cherchez l’Euphrate qui serpente dans une terre sèche, bordé de palmeraies vert sombre, à environ 85 km au sud de Bagdad.",
+    "f": [
+      "Le code d’Hammurabi, vers 1754 av. J.-C., fut gravé sur une stèle de pierre noire aujourd’hui au Louvre.",
+      "La porte d’Ishtar, aux briques bleues, a été reconstituée dans un musée de Berlin.",
+      "Babylone a été inscrite au patrimoine mondial de l’UNESCO en 2019."
+    ],
+    "q": {
+      "q": "Le code de lois de quel roi vient de Babylone ?",
+      "a": "Celui d’Hammurabi",
+      "x": [
+        "Celui de Gilgamesh",
+        "Celui de Sargon"
+      ]
+    }
+  },
+  "ur": {
+    "name": "Ur",
+    "era": "v. 3800 – 500 av. J.-C.",
+    "t": "Une cité sumérienne toujours veillée par sa ziggourat",
+    "s": "Dans le désert du sud de l’Irak se dresse la masse à degrés de la grande ziggourat d’Ur, bâtie il y a plus de 4 000 ans. Ur fut l’une des plus riches cités de Sumer, port sur l’Euphrate tout près du Golfe. Le fleuve et la côte se sont depuis éloignés, la laissant échouée dans le sable. En croisière, la ziggourat n’est qu’un point, mais la limite entre plaine fluviale verte et désert est nette.",
+    "w": "Cherchez la limite entre la plaine verte de l’Euphrate près de Nassiriya et le désert vide juste au sud-ouest.",
+    "f": [
+      "La ziggourat fut bâtie par le roi Ur-Nammu vers 2100 av. J.-C. et en partie restaurée à l’époque moderne.",
+      "Ses tombes royales, fouillées dans les années 1920, contenaient casques d’or, lyres et le coffret de mosaïque dit Étendard d’Ur.",
+      "La tradition fait d’« Ur des Chaldéens » le lieu de naissance d’Abraham."
+    ],
+    "q": {
+      "q": "Qui a bâti la grande ziggourat d’Ur ?",
+      "a": "Ur-Nammu",
+      "x": [
+        "Nabuchodonosor II",
+        "Hammurabi"
+      ]
+    }
+  },
+  "uruk": {
+    "name": "Uruk",
+    "era": "v. 4000 – 300 av. J.-C.",
+    "t": "L’une des premières villes, là où naquit l’écriture",
+    "s": "Ici, dans ce qui est aujourd’hui un désert, se dressait Uruk, l’une des premières vraies villes du monde. Vers 3000 av. J.-C., des dizaines de milliers de personnes vivaient dans ses murs, et les fonctionnaires de ses temples se mirent à marquer l’argile pour tenir leurs comptes : l’une des plus anciennes écritures connues. La légende fit de Gilgamesh son roi. D’en haut, cherchez les anciens lits asséchés de l’Euphrate qui errent dans la plaine.",
+    "w": "Cherchez de vagues anciens lits de rivière et la lisière des cultures vertes dans le désert à l’est de Samawa.",
+    "f": [
+      "Les plus anciennes tablettes d’Uruk, vers 3300 av. J.-C., recensent surtout grain, bière et bétail.",
+      "Ses remparts, attribués par la légende à Gilgamesh, faisaient environ 9 km de tour.",
+      "L’épopée de Gilgamesh est l’une des plus anciennes œuvres littéraires conservées."
+    ],
+    "q": {
+      "q": "Quel héros légendaire était roi d’Uruk ?",
+      "a": "Gilgamesh",
+      "x": [
+        "Hammurabi",
+        "Sargon"
+      ]
+    }
+  },
+  "nineveh": {
+    "name": "Ninive",
+    "era": "v. 700 – 612 av. J.-C. (capitale)",
+    "t": "La capitale de l’Assyrie et sa grande bibliothèque",
+    "s": "Sur la rive est du Tigre, face à Mossoul, s’étendent les buttes de Ninive, jadis la plus grande ville du monde. Les rois assyriens couvrirent ses palais de reliefs sculptés et bâtirent canaux et aqueducs pour arroser ses jardins. Le roi Assurbanipal réunit une bibliothèque de tablettes d’argile, parmi lesquelles l’épopée de Gilgamesh. D’en haut, cherchez le Tigre qui coule vers le sud à travers une ville étalée sur ses deux rives.",
+    "w": "Cherchez le Tigre qui traverse du nord au sud la ville de Mossoul ; les buttes antiques se trouvent sur sa rive est.",
+    "f": [
+      "La bibliothèque d’Assurbanipal comptait des dizaines de milliers de tablettes, aujourd’hui surtout au British Museum.",
+      "En 1872, on découvrit qu’une de ses tablettes racontait un déluge très proche de celui de Noé.",
+      "Les canaux de Sennachérib vers Ninive franchissaient une vallée sur l’aqueduc de Jerwan, l’un des plus anciens connus."
+    ],
+    "q": {
+      "q": "La bibliothèque de qui, à Ninive, contenait l’épopée de Gilgamesh ?",
+      "a": "Celle d’Assurbanipal",
+      "x": [
+        "Celle de Nabuchodonosor",
+        "Celle de Darius"
+      ]
+    }
+  },
+  "persepolis": {
+    "name": "Persépolis",
+    "era": "v. 518 – 330 av. J.-C.",
+    "t": "La capitale d’apparat des rois perses",
+    "s": "Sur une terrasse de pierre au pied d’une montagne, les rois perses bâtirent Persépolis pour recevoir les envoyés de tout leur empire. Ses escaliers sont sculptés de longues processions de Mèdes, d’Égyptiens, d’Indiens et de bien d’autres apportant des présents. Elle fut incendiée en 330 av. J.-C. après sa prise par Alexandre le Grand, et ses colonnes se dressent encore parmi les ruines. D’en haut, cherchez la vaste plaine de Marvdasht, au nord de Chiraz.",
+    "w": "Cherchez la vaste plaine cultivée de Marvdasht, à environ 60 km au nord-est de Chiraz, bordée de montagnes nues.",
+    "f": [
+      "Darius le Grand commença à bâtir Persépolis vers 518 av. J.-C.",
+      "Ses reliefs montrent les envoyés de plus de 20 peuples apportant des présents au roi.",
+      "Le tombeau de Cyrus le Grand se dresse non loin, à Pasargades."
+    ],
+    "q": {
+      "q": "Quel roi a fondé Persépolis ?",
+      "a": "Darius le Grand",
+      "x": [
+        "Cyrus le Grand",
+        "Xerxès"
+      ]
+    }
+  },
+  "yazd": {
+    "name": "Yazd, la ville des tours à vent",
+    "era": "Ve s. – aujourd’hui",
+    "t": "Une ville de brique crue qui a appris à vivre dans le désert",
+    "s": "Entre deux grands déserts se trouve Yazd, l’une des plus anciennes villes encore habitées d’Iran. Sa vieille ville est bâtie en brique crue, avec des tours à vent qui canalisent l’air frais vers les maisons. L’eau venait par des qanats, canaux souterrains creusés depuis de lointaines montagnes. En croisière, cherchez une ville-oasis verte sur une immense plaine beige, avec les monts Shir Kuh au sud-ouest.",
+    "w": "Cherchez une ville-oasis sur une vaste plaine désertique beige, avec les hauts monts Shir Kuh au sud-ouest.",
+    "f": [
+      "La ville historique de Yazd a été inscrite au patrimoine mondial de l’UNESCO en 2017.",
+      "Un temple du feu zoroastrien de Yazd garde une flamme qui brûlerait depuis 470 apr. J.-C.",
+      "D’en haut, les puits des qanats dessinent de longs pointillés dans le désert, plus visibles à basse altitude."
+    ],
+    "q": {
+      "q": "Qu’est-ce qu’un badgir, à Yazd ?",
+      "a": "Une tour à vent",
+      "x": [
+        "Une glacière",
+        "Un moulin à eau"
+      ]
+    }
+  },
+  "giza": {
+    "name": "Pyramides de Gizeh",
+    "era": "v. 2600 – 2500 av. J.-C.",
+    "t": "La dernière Merveille du monde antique encore debout",
+    "s": "Là où la vallée verte du Nil rencontre le désert, à la lisière ouest du Caire, se dressent les pyramides de Gizeh. La grande pyramide de Khéops fut la plus haute construction humaine de la Terre pendant environ 3 800 ans. Tout près, Saqqarah abrite la pyramide à degrés de Djéser, la toute première. Par air limpide, cherchez trois petits triangles pâles au bord du désert, juste à côté de la ville.",
+    "w": "Regardez là où l’étalement du Caire rejoint le désert, au sud-ouest ; les pyramides sont des points pâles au bord du plateau.",
+    "f": [
+      "La grande pyramide mesurait à l’origine environ 146 m de haut.",
+      "C’est la seule des Sept Merveilles du monde antique encore debout.",
+      "Ses faces regardent les quatre points cardinaux avec une erreur d’une fraction de degré seulement."
+    ],
+    "q": {
+      "q": "Quel pharaon a bâti la grande pyramide ?",
+      "a": "Khéops",
+      "x": [
+        "Khéphren",
+        "Ramsès II"
+      ]
+    }
+  },
+  "thebes": {
+    "name": "Thèbes : Karnak et la Vallée des Rois",
+    "era": "v. 2000 – 1000 av. J.-C.",
+    "t": "Des temples sur une rive, des tombeaux royaux sur l’autre",
+    "s": "À Louxor, le Nil sépare deux mondes. Sur la rive est se dressait Thèbes, capitale du Nouvel Empire égyptien, avec les immenses temples de Karnak et de Louxor. Sur la rive ouest, dans des vallées désertiques derrière les falaises, les pharaons creusèrent leurs tombeaux, dont celui de Toutânkhamon. En croisière, les monuments sont trop petits, mais le contraste est saisissant : une étroite vallée verte, puis soudain le désert nu et les falaises.",
+    "w": "Une mince bande verte de champs le long du Nil, avec Louxor sur la rive est et des falaises pâles à l’ouest.",
+    "f": [
+      "Karnak est l’un des plus grands ensembles religieux jamais construits.",
+      "Plus de 60 tombeaux ont été découverts dans la Vallée des Rois.",
+      "Howard Carter y trouva en 1922 le tombeau presque intact de Toutânkhamon."
+    ],
+    "q": {
+      "q": "Qui a découvert le tombeau de Toutânkhamon en 1922 ?",
+      "a": "Howard Carter",
+      "x": [
+        "Flinders Petrie",
+        "Auguste Mariette"
+      ]
+    }
+  },
+  "abu-simbel": {
+    "name": "Abou Simbel",
+    "era": "v. 1264 av. J.-C. ; déplacés en 1964–1968",
+    "t": "Des temples taillés dans une montagne, puis déplacés",
+    "s": "Cherchez l’immense nappe bleue du lac Nasser dans le désert de Nubie. Sur sa rive se dressent les temples de Ramsès II, gardés par quatre colosses assis d’environ 20 m chacun. Quand le haut barrage d’Assouan menaça de les engloutir dans les années 1960, une campagne internationale menée par l’UNESCO les découpa en blocs et les remonta plus haut. Les temples sont trop petits pour être vus, mais le lac est immense.",
+    "w": "Un long lac bleu ramifié dans le désert, près de la frontière sud de l’Égypte ; les temples sont sur sa rive ouest.",
+    "f": [
+      "Les temples furent découpés en plus de 1 000 blocs et reconstruits environ 65 m plus haut.",
+      "Deux fois par an, le soleil levant pénètre jusqu’au fond pour éclairer les statues du sanctuaire.",
+      "La campagne de sauvetage a contribué à inspirer la liste du patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Pourquoi a-t-on déplacé les temples d’Abou Simbel ?",
+      "a": "Pour échapper au lac d’un barrage",
+      "x": [
+        "Pour éviter les séismes",
+        "Pour faire place à une route"
+      ]
+    }
+  },
+  "alexandria-ancient": {
+    "name": "Alexandrie antique",
+    "era": "331 av. J.-C. – VIIe s. apr. J.-C.",
+    "t": "La ville du Phare et de la Grande Bibliothèque",
+    "s": "Alexandre le Grand fonda cette ville sur la Méditerranée en 331 av. J.-C. ; elle devint la capitale des Ptolémées et le grand centre savant du monde antique. Sa Grande Bibliothèque rassemblait des livres de partout, et son phare, sur l’île de Pharos, était l’une des Sept Merveilles. D’en haut, cherchez une longue ville étirée sur la côte entre la mer et un lac, à l’ouest du delta du Nil.",
+    "w": "Une ville étirée sur des kilomètres le long de la côte, entre la mer et le lac Mariout, à l’ouest du delta du Nil.",
+    "f": [
+      "Le phare resta debout pendant des siècles ; un fort du XVe siècle occupe aujourd’hui son emplacement.",
+      "Ératosthène y estima la circonférence de la Terre vers 240 av. J.-C., de façon remarquablement juste.",
+      "Cléopâtre VII, dernière souveraine ptolémaïque d’Égypte, régnait depuis Alexandrie."
+    ],
+    "q": {
+      "q": "Qui a mesuré la taille de la Terre depuis Alexandrie ?",
+      "a": "Ératosthène",
+      "x": [
+        "Archimède",
+        "Pythagore"
+      ]
+    }
+  },
+  "st-catherine-sinai": {
+    "name": "Monastère Sainte-Catherine du Sinaï",
+    "era": "dès le VIe s.",
+    "t": "Un monastère parmi des sommets de granit rouge",
+    "s": "Dans les montagnes de granit rouge déchiquetées du sud du Sinaï, au pied du sommet que la tradition appelle mont Sinaï, se dresse le monastère Sainte-Catherine. Fondé au VIe siècle, il est habité par des moines depuis lors, ce qui en fait l’un des plus anciens monastères chrétiens en activité du monde. Sa bibliothèque garde de précieux manuscrits anciens. D’en haut, cherchez le nœud sauvage de montagnes entre deux golfes.",
+    "w": "Cherchez un nœud de montagnes rougeâtres et déchiquetées à la pointe sud du Sinaï, entre les golfes de Suez et d’Aqaba.",
+    "f": [
+      "Le monastère fut bâti sur ordre de l’empereur Justinien, entre 548 et 565 environ.",
+      "Le Codex Sinaiticus, du IVe siècle, l’une des plus anciennes Bibles complètes, y fut longtemps conservé.",
+      "Le mont Sinaï, qui le domine, culmine à environ 2 285 m."
+    ],
+    "q": {
+      "q": "Quel empereur a fondé le monastère Sainte-Catherine ?",
+      "a": "Justinien",
+      "x": [
+        "Constantin",
+        "Théodose"
+      ]
+    }
+  },
+  "hegra": {
+    "name": "Hégra (Madâin Sâlih)",
+    "era": "Ier s. av. J.-C. – Ier s. apr. J.-C.",
+    "t": "La sœur méridionale de Pétra, taillée dans les rochers",
+    "s": "Parmi des affleurements de grès qui surgissent du sable comme des îles près d’AlUla se trouve Hégra, deuxième ville des Nabatéens après Pétra. Sur la route de l’encens, elle s’enrichit des caravanes de passage, et ses habitants taillèrent dans la roche plus d’une centaine de tombeaux monumentaux, souvent ornés d’inscriptions nommant leurs propriétaires. D’en haut, cherchez des massifs de grès sculptés par le vent et le ruban vert de l’oasis d’AlUla.",
+    "w": "Cherchez des affleurements de grès épars sur une plaine de sable, et la vallée verte de palmiers d’AlUla au sud.",
+    "f": [
+      "Hégra compte 111 tombeaux monumentaux, dont 94 à façade décorée.",
+      "En 2008, ce fut le premier site d’Arabie saoudite inscrit au patrimoine mondial de l’UNESCO.",
+      "Les inscriptions des tombeaux indiquent noms des propriétaires, dates et amendes prévues pour qui profanerait la tombe."
+    ],
+    "q": {
+      "q": "Quel peuple a taillé les tombeaux d’Hégra ?",
+      "a": "Les Nabatéens",
+      "x": [
+        "Les Romains",
+        "Les Hittites"
+      ]
+    }
+  },
+  "marib": {
+    "name": "Marib, le pays de Saba",
+    "era": "v. VIIIe s. av. J.-C. – VIe s. apr. J.-C.",
+    "t": "La capitale de Saba et son célèbre barrage",
+    "s": "Là où les montagnes du Yémen rencontrent le désert se dressait Marib, capitale du royaume de Saba, la Saba de la Bible. Sa richesse venait de l’encens et d’un grand barrage qui retenait les crues saisonnières et arrosait une immense oasis. Pendant plus de mille ans, ce fut l’une des merveilles techniques de l’Arabie. D’en haut, cherchez la ligne où les hautes terres sombres cèdent la place au sable.",
+    "w": "Regardez là où les sombres hautes terres yéménites s’arrêtent net au bord du désert de sable du Ramlat al-Sab’atayn.",
+    "f": [
+      "Le grand barrage de Marib mesurait environ 600 m et alimentait des canaux qui irriguaient des milliers d’hectares.",
+      "La tradition associe le royaume de Saba à la reine de Saba.",
+      "En 2023, l’UNESCO a inscrit les sites antiques de Marib au patrimoine mondial."
+    ],
+    "q": {
+      "q": "Quelle reine légendaire est associée à Saba ?",
+      "a": "La reine de Saba",
+      "x": [
+        "La reine Zénobie",
+        "La reine Néfertiti"
+      ]
+    }
+  },
+  "dilmun": {
+    "name": "Tumulus de Dilmun",
+    "era": "v. 2200 – 1750 av. J.-C.",
+    "t": "L’île marchande du Golfe à l’âge du bronze",
+    "s": "Bahreïn était le cœur de Dilmun, puissance marchande de l’âge du bronze qui reliait la Mésopotamie à la vallée de l’Indus. Des poèmes sumériens la décrivent comme une terre pure, riche en eau douce. Ses habitants élevèrent des dizaines de milliers de tumulus funéraires, qui couvraient jadis une grande partie de l’île. Ils sont trop petits pour être vus en croisière, mais l’île elle-même est nette, rattachée à l’Arabie par une longue chaussée.",
+    "w": "Cherchez une île basse et sableuse dans le Golfe, reliée à la côte saoudienne par une longue chaussée à l’ouest.",
+    "f": [
+      "Environ 11 000 tumulus subsistent, et bien d’autres existaient jadis.",
+      "Les navires de Dilmun portaient le cuivre d’Oman jusqu’aux cités de Mésopotamie.",
+      "Les tumulus ont été inscrits au patrimoine mondial de l’UNESCO en 2019."
+    ],
+    "q": {
+      "q": "Quel pays actuel était le cœur de Dilmun ?",
+      "a": "Bahreïn",
+      "x": [
+        "Oman",
+        "Le Koweït"
+      ]
+    }
+  },
+  "mesopotamia": {
+    "name": "Mésopotamie",
+    "era": "v. 6000 av. J.-C. – 600 apr. J.-C.",
+    "t": "Le pays entre les fleuves, où naquirent les villes",
+    "s": "C’est le pays entre le Tigre et l’Euphrate, où l’on bâtit les premières villes, écrivit sur l’argile et consigna des lois par écrit. Sumer, Akkad, l’Assyrie et Babylone s’y sont toutes élevées, nourries par des canaux d’irrigation dans une terre où il pleut peu. En croisière, on comprend pourquoi cela comptait : deux rubans fluviaux verts qui traversent une plaine brune et convergent vers le Golfe.",
+    "w": "Cherchez deux fleuves, chacun bordé de vert, qui filent vers le sud-est à travers une plaine brune et convergent lentement.",
+    "f": [
+      "Notre heure de 60 minutes et notre cercle de 360 degrés viennent du calcul mésopotamien en base soixante.",
+      "Le nom signifie en grec « entre les fleuves ».",
+      "Le Tigre et l’Euphrate se rejoignent enfin pour former le Chatt al-Arab avant d’atteindre le Golfe."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Mésopotamie » ?",
+      "a": "Entre les fleuves",
+      "x": [
+        "Pays du soleil",
+        "Entre deux mers"
+      ]
+    }
+  },
+  "cappadocia": {
+    "name": "Cappadoce",
+    "era": "IVe – XIe s. (églises rupestres)",
+    "t": "Un pays sculpté dans la cendre volcanique",
+    "s": "Des éruptions anciennes ont enseveli cette partie de l’Anatolie sous une épaisse cendre volcanique, durcie en roche tendre. Le vent et la pluie l’ont sculptée en cônes et en piliers, et les hommes aussi : maisons troglodytes, églises rupestres peintes de fresques et villes souterraines entières sur de nombreux niveaux. En croisière, les cheminées de fée sont invisibles, mais l’Erciyes, volcan enneigé qui a contribué à les former, sert de repère.",
+    "w": "Cherchez le grand cône enneigé de l’Erciyes près de Kayseri ; les vallées rocheuses se trouvent à environ 70 km à l’ouest.",
+    "f": [
+      "La ville souterraine de Derinkuyu descend à environ 85 m sous terre.",
+      "Les églises rupestres de Göreme gardent des fresques peintes entre le Xe et le XIIe siècle.",
+      "La Cappadoce a été inscrite au patrimoine mondial de l’UNESCO en 1985."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a formé la roche tendre de Cappadoce ?",
+      "a": "La cendre volcanique",
+      "x": [
+        "Des récifs coralliens",
+        "De l’argile glaciaire"
+      ]
+    }
+  },
+  "lycia": {
+    "name": "Lycie",
+    "era": "v. 1200 av. J.-C. – 400 apr. J.-C.",
+    "t": "Des tombeaux à façade de temple taillés dans les falaises",
+    "s": "Là où le Taurus plonge dans la Méditerranée turquoise s’étendait la Lycie, pays de fières cités-États. Ses habitants taillaient dans les falaises des tombeaux aux façades de petits temples, et s’unirent en une ligue qui donnait plus de voix aux grandes villes. Cette même côte est aujourd’hui très prisée des vacanciers. D’en haut, cherchez la péninsule escarpée entre Fethiye et Antalya, aux montagnes qui tombent droit dans la mer.",
+    "w": "Cherchez une péninsule montagneuse qui s’avance dans la mer entre les baies de Fethiye et d’Antalya.",
+    "f": [
+      "La Ligue lycienne fut louée par Montesquieu et citée dans les Federalist Papers.",
+      "Saint Nicolas, modèle du père Noël, fut évêque de la cité lycienne de Myra.",
+      "La Voie lycienne, sentier de randonnée de plus de 500 km, relie bon nombre des sites antiques."
+    ],
+    "q": {
+      "q": "Quel saint fut évêque de Myra, en Lycie ?",
+      "a": "Saint Nicolas",
+      "x": [
+        "Saint Georges",
+        "Saint Paul"
+      ]
+    }
+  },
+  "phoenicia": {
+    "name": "Phénicie",
+    "era": "v. 1500 – 300 av. J.-C.",
+    "t": "Les marins qui ont donné un alphabet au monde",
+    "s": "Sur cette étroite bande entre les montagnes du Liban et la mer vivaient les Phéniciens, grands navigateurs de la Méditerranée antique. Depuis Tyr, Sidon et Byblos, ils commerçaient bois de cèdre et étoffes pourpres, et fondèrent Carthage et des comptoirs jusqu’en Espagne. Leur alphabet simple de 22 lettres voyagea avec eux et devint l’ancêtre du grec, du latin et de bien d’autres. La côte et ses montagnes enneigées se voient facilement.",
+    "w": "Cherchez une mince bande côtière de villes adossée à une haute chaîne, souvent enneigée en hiver et au printemps.",
+    "f": [
+      "La pourpre de Tyr, tirée d’escargots de mer, valait plus que son poids d’or.",
+      "Le mot « Bible » vient, par le grec, du port phénicien de Byblos.",
+      "L’alphabet phénicien comptait 22 lettres, toutes des consonnes."
+    ],
+    "q": {
+      "q": "Quel est l’héritage le plus durable des Phéniciens ?",
+      "a": "L’alphabet",
+      "x": [
+        "Le papier",
+        "La roue"
+      ]
+    }
+  },
+  "mesopotamian-marshes": {
+    "name": "Marais de Mésopotamie",
+    "era": "v. 3000 av. J.-C. – aujourd’hui",
+    "t": "Des villages de roseaux que Sumer reconnaîtrait",
+    "s": "Là où le Tigre et l’Euphrate se rapprochent près du Golfe, ils s’étalent en un immense dédale de lacs et de roselières. Depuis des millénaires, les Arabes des marais y vivent, bâtissant des maisons voûtées entièrement en roseaux et menant leurs buffles en barque. Des sculptures de Sumer montrent des constructions presque identiques. D’en haut, cherchez un patchwork d’eau bleue et de roseaux vert-brun dans le désert.",
+    "w": "Une mosaïque de lacs, de chenaux et de roselières, bleue et verte sur le désert, entre Nassiriya et Bassora.",
+    "f": [
+      "Les marais ont été inscrits au patrimoine mondial de l’UNESCO en 2016.",
+      "Les maisons d’hôtes traditionnelles, les mudhif, sont bâties en roseaux sans un seul clou.",
+      "Certains auteurs ont associé les marais au jardin d’Éden de la Bible."
+    ],
+    "q": {
+      "q": "En quoi est bâti un mudhif traditionnel ?",
+      "a": "En roseaux",
+      "x": [
+        "En brique crue",
+        "En troncs de palmier"
+      ]
+    }
+  },
+  "faiyum": {
+    "name": "Oasis du Fayoum",
+    "era": "v. 1900 av. J.-C. – 300 apr. J.-C.",
+    "t": "Un éventail vert dans le désert, arrosé par le Nil",
+    "s": "Au sud-ouest du Caire, un bassin désertique alimenté par un canal venu du Nil devient un éventail vert de champs autour d’un lac salé. Les pharaons du Moyen Empire l’aménagèrent pour l’agriculture il y a près de 4 000 ans et, à l’époque romaine, ses habitants étaient enterrés avec des portraits peints saisissants de vie. En croisière, c’est l’une des vues les plus nettes d’Égypte : une tache vert vif, seule dans le désert.",
+    "w": "Une oasis vert vif en éventail dans le désert à l’ouest du Nil, avec un long lac sur son bord nord.",
+    "f": [
+      "Les portraits du Fayoum, peints sur bois, comptent parmi les plus beaux portraits conservés de l’Antiquité.",
+      "Tout près, le Wadi Al-Hitan renferme des fossiles d’anciennes baleines qui nageaient dans une mer ici.",
+      "Le lac Qarun, au bord nord de l’oasis, se trouve sous le niveau de la mer."
+    ],
+    "q": {
+      "q": "Quelles sont les célèbres trouvailles d’époque romaine du Fayoum ?",
+      "a": "Des portraits de momies peints",
+      "x": [
+        "Des masques funéraires en or",
+        "Des statues de soldats en argile"
+      ]
+    }
+  },
+  "silk-road-northern": {
+    "name": "Route de la soie (voie nord)",
+    "era": "IIe s. av. J.-C. – XVe s.",
+    "t": "La route caravanière qui liait la Chine à la Méditerranée",
+    "s": "C’était l’artère principale de la route de la soie, de Chang’an, en Chine, par le corridor du Hexi et les oasis du Tarim, jusqu’à Samarcande, la Perse et la Méditerranée. La soie partait vers l’ouest ; chevaux, verre, épices et idées circulaient dans tous les sens, et le bouddhisme gagna la Chine par ce chemin. Aucune caravane ne faisait tout le trajet. D’en haut, cherchez des villes-oasis enfilées comme des perles entre montagnes enneigées et désert.",
+    "w": "Cherchez des oasis vertes égrenées au pied de montagnes enneigées, avec du désert de sable ou de gravier de l’autre côté.",
+    "f": [
+      "Le nom « route de la soie » fut forgé en 1877 par le géographe allemand Ferdinand von Richthofen.",
+      "La fabrication du papier a voyagé vers l’ouest depuis la Chine le long de ces routes.",
+      "En 2014, le tronçon de Chang’an au Tian Shan a été inscrit au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Qui a forgé l’expression « route de la soie » en 1877 ?",
+      "a": "Ferdinand von Richthofen",
+      "x": [
+        "Marco Polo",
+        "Sven Hedin"
+      ]
+    }
+  },
+  "silk-road-southern": {
+    "name": "Route de la soie (voie sud du Tarim)",
+    "era": "IIe s. av. J.-C. – Xe s.",
+    "t": "D’oasis en oasis entre le désert et le Kunlun",
+    "s": "Cette branche de la route de la soie longeait le bord sud du désert du Taklamakan, sautant d’oasis en oasis le long des torrents descendus du Kunlun. Khotan, son joyau, était célèbre pour son jade et son savoir bouddhique. De Kachgar et de Tachkourgan, les caravanes franchissaient le Pamir vers l’Afghanistan. En croisière, la vue est spectaculaire : un mur de sommets enneigés d’un côté, une mer de dunes de l’autre.",
+    "w": "Cherchez une ligne de petites oasis vertes entre la chaîne enneigée du Kunlun au sud et les dunes du Taklamakan au nord.",
+    "f": [
+      "Le jade de Khotan a été porté vers l’est, en Chine, pendant des millénaires.",
+      "Selon la légende, des œufs de vers à soie furent introduits en fraude à Khotan, cachés dans la coiffe d’une princesse.",
+      "Le moine Xuanzang emprunta cette route au retour de l’Inde, atteignant Chang’an en 645."
+    ],
+    "q": {
+      "q": "Quelle pierre précieuse a fait la renommée de Khotan ?",
+      "a": "Le jade",
+      "x": [
+        "Le lapis-lazuli",
+        "La turquoise"
+      ]
+    }
+  },
+  "silk-road-tianshan": {
+    "name": "Route de la soie (corridor du Tian Shan)",
+    "era": "IIe s. av. J.-C. – XVIe s.",
+    "t": "Au pied nord des Montagnes célestes",
+    "s": "Au nord du Tian Shan, les Montagnes célestes, une autre branche de la route de la soie allait de Tourfan aux villes du Syr-Daria, en passant par les actuelles Ürümqi et Almaty. Elle traversait des vallées bien arrosées et des prairies, bon pays pour les chevaux et pour les nomades qui commerçaient avec les caravanes. En croisière, suivez le long mur enneigé du Tian Shan, avec piémonts verts et villes à ses pieds.",
+    "w": "Suivez le long mur enneigé du Tian Shan, avec villes et piémonts verts le long de sa base nord.",
+    "f": [
+      "On dit souvent que le poète Tang Li Bai est né près de Suyab, ville de cette route.",
+      "Otrar, près de son extrémité ouest, est la ville natale du philosophe al-Farabi.",
+      "La route passe par le lac Sayram, un lac alpin bleu, haut dans les montagnes."
+    ],
+    "q": {
+      "q": "Quel lac de montagne se trouve sur cette route ?",
+      "a": "Le lac Sayram",
+      "x": [
+        "Le lac Balkhach",
+        "Le lac Baïkal"
+      ]
+    }
+  },
+  "maritime-silk-road": {
+    "name": "Route maritime de la soie",
+    "era": "IIe s. av. J.-C. – XVe s.",
+    "t": "L’autoroute des moussons, de la Chine au Golfe",
+    "s": "Bien avant les avions, la mer reliait l’Asie. Des navires portaient soie, porcelaine et thé du sud de la Chine, par le détroit de Malacca et l’océan Indien, jusqu’en Inde, en Arabie et en Afrique de l’Est, et revenaient chargés d’épices, d’ivoire et d’encens. Les marins réglaient leurs voyages sur les moussons, dont les vents s’inversent à chaque saison. Cherchez les côtes et les détroits où des ports s’enrichirent de ce commerce.",
+    "w": "Cherchez des détroits animés et des côtes semées d’îles, surtout l’étroit détroit de Malacca entre la Malaisie et Sumatra.",
+    "f": [
+      "L’amiral Ming Zheng He mena sept grandes flottes à travers l’océan Indien entre 1405 et 1433.",
+      "Marco Polo et Ibn Battuta ont tous deux décrit Quanzhou comme l’un des plus grands ports du monde.",
+      "Un navire arabe du IXe siècle trouvé au large de l’Indonésie transportait environ 60 000 pièces de céramique chinoise."
+    ],
+    "q": {
+      "q": "Quel amiral Ming a mené des flottes à travers l’océan Indien ?",
+      "a": "Zheng He",
+      "x": [
+        "Kubilai Khan",
+        "Ibn Battuta"
+      ]
+    }
+  },
+  "trans-caspian-railway": {
+    "name": "Chemin de fer transcaspien",
+    "era": "1880 – 1898",
+    "t": "La première voie ferrée des déserts d’Asie centrale",
+    "s": "C’est le premier chemin de fer d’Asie centrale. L’Empire russe le commença sur la rive de la Caspienne en 1880 et le poussa vers l’est, au pied du Kopet-Dag, à travers le désert du Karakoum et par-dessus l’Amou-Daria jusqu’à Boukhara et Samarcande. Les voyageurs pouvaient désormais gagner en train les villes de la route de la soie. Cherchez la bande verte au pied des montagnes et le désert vide au-delà.",
+    "w": "Cherchez la chaîne du Kopet-Dag avec une bande de villes vertes à son pied nord, et les sables du Karakoum au-delà.",
+    "f": [
+      "Ce fut le premier chemin de fer construit en Asie centrale.",
+      "La ligne atteignit Samarcande en 1888 et Tachkent en 1898.",
+      "Elle fut construite sous la direction du général Mikhaïl Annenkov."
+    ],
+    "q": {
+      "q": "Quel désert le Transcaspien traversait-il ?",
+      "a": "Le Karakoum",
+      "x": [
+        "Le Gobi",
+        "Le Taklamakan"
+      ]
+    }
+  },
+  "samarkand": {
+    "name": "Samarcande",
+    "era": "VIIe s. av. J.-C. – aujourd’hui",
+    "t": "Le carrefour aux coupoles bleues de la route de la soie",
+    "s": "Samarcande a plus de 2 500 ans et fut pendant des siècles le grand carrefour de la route de la soie. Sous Tamerlan et ses descendants, aux XIVe et XVe siècles, elle se couvrit de coupoles turquoise et de médersas carrelées, et sa place du Régistan reste l’une des plus grandioses du monde islamique. D’en haut, cherchez la ville étalée dans la vallée verte du Zeravchan, avec des montagnes au sud.",
+    "w": "Cherchez une grande ville dans la vallée verte et irriguée du Zeravchan, avec des crêtes montagneuses au sud et le désert au-delà.",
+    "f": [
+      "Le souverain Ouloug Beg y bâtit un observatoire dans les années 1420 et catalogua environ mille étoiles.",
+      "Le papier de Samarcande fut célèbre dans tout le monde islamique dès le VIIIe siècle.",
+      "La ville a été inscrite au patrimoine mondial de l’UNESCO en 2001."
+    ],
+    "q": {
+      "q": "Quel souverain a bâti un observatoire à Samarcande ?",
+      "a": "Ouloug Beg",
+      "x": [
+        "Omar Khayyam",
+        "Al-Biruni"
+      ]
+    }
+  },
+  "bukhara": {
+    "name": "Boukhara",
+    "era": "Ve s. av. J.-C. – aujourd’hui",
+    "t": "Une ville sainte de savants, de coupoles et de bazars",
+    "s": "Dans une oasis au bout du Zeravchan se trouve Boukhara, l’une des villes médiévales les mieux conservées d’Asie centrale. Aux IXe et Xe siècles, elle fut la capitale des Samanides et un foyer de la poésie et des sciences persanes. Son vieux centre garde des bazars couverts, des médersas et un minaret du XIIe siècle. D’en haut, cherchez une oasis verte cernée de désert, à l’ouest de Samarcande.",
+    "w": "Cherchez une oasis verte et irriguée cernée de désert, à environ 220 km à l’ouest de Samarcande.",
+    "f": [
+      "Le médecin et philosophe Avicenne est né près de Boukhara en 980.",
+      "Le minaret Kalon, bâti en 1127, s’élève à environ 46 m au-dessus de la vieille ville.",
+      "Le mausolée des Samanides, du Xe siècle, est un chef-d’œuvre de briques décoratives."
+    ],
+    "q": {
+      "q": "Quel grand médecin est né près de Boukhara ?",
+      "a": "Avicenne",
+      "x": [
+        "Galien",
+        "Rhazès"
+      ]
+    }
+  },
+  "khiva": {
+    "name": "Khiva",
+    "era": "dès le Xe s.",
+    "t": "Une ville du désert fortifiée, musée à ciel ouvert",
+    "s": "Au bord du désert du Karakoum, dans l’oasis du delta de l’Amou-Daria, se dresse Khiva. Sa ville intérieure, Itchan Kala, est ceinte de murs de brique crue et remplie de minarets, de médersas et de palais, pour la plupart des XVIIIe et XIXe siècles. C’était la dernière étape avant que les caravanes ne traversent le désert vers la Perse. D’en haut, cherchez l’oasis verte et irriguée, nette contre le sable de tous côtés.",
+    "w": "Cherchez une grande oasis verte et irriguée sur l’Amou-Daria, avec le désert nu qui la presse de tous côtés.",
+    "f": [
+      "Itchan Kala est devenue en 1990 le premier site d’Ouzbékistan inscrit au patrimoine mondial de l’UNESCO.",
+      "Le minaret Kalta Minor, resté inachevé, se dresse court et large, couvert de carreaux turquoise.",
+      "Le mathématicien al-Khwarizmi, dont le nom a donné le mot « algorithme », venait de cette région."
+    ],
+    "q": {
+      "q": "Quel mot vient du nom du mathématicien du Khwarezm ?",
+      "a": "Algorithme",
+      "x": [
+        "Alchimie",
+        "Almanach"
+      ]
+    }
+  },
+  "merv": {
+    "name": "Merv",
+    "era": "VIe s. av. J.-C. – XIIIe s.",
+    "t": "Jadis l’une des plus grandes villes du monde",
+    "s": "Dans le delta du Mourgab, en plein désert du Karakoum, s’étendent les ruines de Merv. Pendant 2 000 ans, des villes fortifiées s’y sont succédé côte à côte, chacune bâtie à côté de la précédente. Au XIIe siècle, capitale des sultans seldjoukides, elle comptait parmi les plus grandes villes de la Terre. D’en haut, cherchez l’oasis verte de Mary dans le désert ; les ruines se trouvent juste à l’est de la ville.",
+    "w": "Cherchez l’oasis verte du delta du Mourgab dans le Karakoum ; les ruines sont juste à l’est de la ville de Mary.",
+    "f": [
+      "Le mausolée du sultan Sanjar, du XIIe siècle, conserve sa grande coupole de brique.",
+      "Sa plus ancienne ville fortifiée, Erk Kala, remonte à l’époque perse achéménide.",
+      "La Merv antique a été inscrite au patrimoine mondial de l’UNESCO en 1999."
+    ],
+    "q": {
+      "q": "Dans le delta de quel fleuve Merv s’est-elle développée ?",
+      "a": "Le Mourgab",
+      "x": [
+        "L’Amou-Daria",
+        "Le Syr-Daria"
+      ]
+    }
+  },
+  "ani": {
+    "name": "Ani",
+    "era": "Xe – XIVe s.",
+    "t": "La ville médiévale aux mille et une églises",
+    "s": "Sur un triangle de plateau dominant une gorge se dressent les ruines d’Ani, capitale d’un royaume arménien médiéval. Au XIe siècle, ce fut l’une des grandes villes de son temps, son horizon hérissé d’églises. Beaucoup tiennent encore debout, sans toit, sur la prairie ouverte. D’en haut, cherchez le haut plateau et la gorge profonde qui marque aujourd’hui la frontière entre la Turquie et l’Arménie.",
+    "w": "Cherchez un haut plateau vert-brun entaillé par une gorge profonde, à l’est de la ville de Kars.",
+    "f": [
+      "Ani était surnommée « la ville aux 1 001 églises ».",
+      "Sa cathédrale, achevée vers 1001, emploie des arcs brisés bien avant l’Europe gothique.",
+      "Ani a été inscrite au patrimoine mondial de l’UNESCO en 2016."
+    ],
+    "q": {
+      "q": "Quel était le surnom d’Ani ?",
+      "a": "La ville aux 1 001 églises",
+      "x": [
+        "La ville aux 100 tours",
+        "La ville aux sept collines"
+      ]
+    }
+  },
+  "mtskheta": {
+    "name": "Mtskheta",
+    "era": "dès le IIIe s. av. J.-C.",
+    "t": "L’antique capitale géorgienne, au confluent de deux rivières",
+    "s": "Juste au nord de Tbilissi, là où l’Aragvi se jette dans la Koura, se trouve Mtskheta, ancienne capitale du royaume géorgien d’Ibérie. C’est ici que la Géorgie adopta le christianisme au IVe siècle, l’un des premiers pays à le faire. Un petit monastère du VIe siècle, Djvari, veille sur le confluent du haut d’une colline. D’en haut, cherchez les deux rivières qui se rejoignent dans une vallée verte, souvent de deux couleurs différentes.",
+    "w": "Cherchez deux rivières qui se rejoignent dans une étroite vallée verte, à environ 20 km au nord de Tbilissi.",
+    "f": [
+      "La cathédrale de Svétitskhovéli, à Mtskheta, fut bâtie au XIe siècle sur le site d’une église plus ancienne.",
+      "Le monastère de Djvari a donné son nom à tout un style d’architecture religieuse géorgienne.",
+      "Les églises de Mtskheta ont été inscrites au patrimoine mondial de l’UNESCO en 1994."
+    ],
+    "q": {
+      "q": "Quelles rivières se rejoignent à Mtskheta ?",
+      "a": "L’Aragvi et la Koura",
+      "x": [
+        "Le Rioni et la Koura",
+        "Le Terek et l’Aragvi"
+      ]
+    }
+  },
+  "derbent": {
+    "name": "Derbent",
+    "era": "VIe s. – aujourd’hui",
+    "t": "La Porte des portes, entre montagnes et mer",
+    "s": "Ici, le Caucase s’approche à quelques kilomètres de la Caspienne, ne laissant qu’un étroit passage le long de la côte. Au VIe siècle, des rois perses bâtirent deux murs de pierre parallèles, de la forteresse de montagne jusque dans la mer, pour le contrôler. Les géographes arabes l’appelaient la Porte des portes. D’en haut, la raison saute aux yeux : une mince bande côtière prise entre l’eau bleue et des crêtes abruptes.",
+    "w": "Cherchez une étroite plaine côtière coincée entre la mer Caspienne et les contreforts abrupts du Caucase.",
+    "f": [
+      "Derbent passe souvent pour la plus ancienne ville de Russie.",
+      "Ses murs s’avançaient jadis dans la mer, formant un port gardé.",
+      "La citadelle et la vieille ville ont été inscrites au patrimoine mondial de l’UNESCO en 2003."
+    ],
+    "q": {
+      "q": "Jusqu’à quelle mer descendent les murs de Derbent ?",
+      "a": "La mer Caspienne",
+      "x": [
+        "La mer Noire",
+        "La mer d’Azov"
+      ]
+    }
+  },
+  "baikonur": {
+    "name": "Baïkonour, départ du premier vol humain dans l’espace",
+    "era": "dès 1955",
+    "t": "D’où le premier humain est parti pour l’espace",
+    "s": "Sur la steppe plate du Kazakhstan, près du Syr-Daria, se trouve le premier cosmodrome du monde. Le premier satellite artificiel, Spoutnik, fut lancé d’ici en 1957. Le 12 avril 1961, Youri Gagarine décolla du même pas de tir pour devenir le premier humain dans l’espace. D’en haut, cherchez le ruban du Syr-Daria à travers la steppe sèche, et la ville de Baïkonour à côté.",
+    "w": "Cherchez le mince ruban vert du Syr-Daria à travers une steppe plate et sèche, avec une ville et des complexes de lancement épars au nord.",
+    "f": [
+      "Le vol de Gagarine dura 108 minutes et fit un tour de la Terre.",
+      "Son pas de tir, appelé « départ de Gagarine », est resté en service plus de 60 ans.",
+      "Le cosmodrome est loué au Kazakhstan par la Russie."
+    ],
+    "q": {
+      "q": "Combien de temps a duré le premier vol spatial de Gagarine ?",
+      "a": "108 minutes",
+      "x": [
+        "12 minutes",
+        "24 heures"
+      ]
+    }
+  },
+  "arkaim": {
+    "name": "Arkaïm",
+    "era": "v. 2000 – 1700 av. J.-C.",
+    "t": "Une ville en anneau de l’âge du bronze, sur la steppe",
+    "s": "Sur la steppe ouverte à l’est du sud de l’Oural s’étendent les vestiges d’Arkaïm, un établissement fortifié bâti il y a environ 4 000 ans en deux anneaux de murs contre lesquels s’adossaient les maisons. Il appartient à la culture de Sintachta, connue pour certains des plus anciens chars à roues à rayons du monde. Les anneaux sont trop ténus pour être vus en croisière, mais la prairie ondulée alentour a peu changé depuis.",
+    "w": "Cherchez une steppe ouverte et ondulée, avec vallées fluviales et peu d’arbres, au sud de Tcheliabinsk et à l’est des crêtes de l’Oural.",
+    "f": [
+      "Arkaïm fut découverte en 1987 par des archéologues qui sondaient le terrain d’un futur réservoir.",
+      "La découverte fit abandonner le projet de réservoir, et le terrain devint une réserve.",
+      "L’établissement mesurait environ 150 m de diamètre."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a failli noyer Arkaïm peu après sa découverte ?",
+      "a": "Un projet de réservoir",
+      "x": [
+        "Un projet minier",
+        "Un changement de cours d’un fleuve"
+      ]
+    }
+  },
+  "khorezm": {
+    "name": "Khwarezm",
+    "era": "VIe s. av. J.-C. – XIXe s.",
+    "t": "Un royaume-oasis sur le delta de l’Amou-Daria",
+    "s": "Là où l’Amou-Daria s’évase avant la mer d’Aral, l’irrigation a créé une île verte entre deux déserts : le Khwarezm, terre de royaumes pendant 2 500 ans. Des dizaines d’anciennes forteresses de brique crue se dressent encore au bord du désert, et son ancienne capitale, Kounia-Ourguentch, garde un minaret élancé. En croisière, l’oasis est l’une des vues les plus nettes de la région : une grande tache de vert et d’eau dans le désert beige.",
+    "w": "Un grand patchwork vert de champs irrigués et de canaux sur le bas Amou-Daria, entre les déserts du Karakoum et du Kyzylkoum.",
+    "f": [
+      "Le savant al-Biruni, né ici en 973, calcula le rayon de la Terre avec une précision remarquable.",
+      "Le minaret de Koutlough Timour, à Kounia-Ourguentch, mesure environ 60 m.",
+      "Les forteresses de l’ancien Khwarezm comptent parmi les plus anciennes d’Asie centrale."
+    ],
+    "q": {
+      "q": "Quel savant né au Khwarezm a mesuré le rayon de la Terre ?",
+      "a": "Al-Biruni",
+      "x": [
+        "Avicenne",
+        "Ouloug Beg"
+      ]
+    }
+  },
+  "bactria": {
+    "name": "Bactriane",
+    "era": "VIe s. av. J.-C. – VIIe s. apr. J.-C.",
+    "t": "Là où se rencontraient les mondes grec, perse et indien",
+    "s": "Entre l’Hindou Kouch et l’Amou-Daria s’étendait la Bactriane, riche pays de villes-oasis. Elle fut province perse, puis royaume grec fondé par les successeurs d’Alexandre, puis le cœur de l’empire kouchan, qui porta le bouddhisme vers le nord le long de la route de la soie. Sa ville principale, Balkh, était appelée la mère des villes. D’en haut, cherchez la vallée verte de l’Amou-Daria, avec l’Hindou Kouch au sud.",
+    "w": "Cherchez la vallée verte de l’Amou-Daria, avec l’Hindou Kouch, haut et souvent enneigé, au sud.",
+    "f": [
+      "Une ville grecque dotée d’un théâtre et d’un gymnase, Aï Khanoum, se dressait sur l’Amou-Daria au IIIe siècle av. J.-C.",
+      "Le chameau de Bactriane, à deux bosses, porte le nom de cette région.",
+      "Le poète Rûmî est connu en persan sous le nom de Balkhi, « de Balkh »."
+    ],
+    "q": {
+      "q": "Comment appelait-on Balkh dans l’Antiquité ?",
+      "a": "La mère des villes",
+      "x": [
+        "La ville des rois",
+        "La perle de l’Orient"
+      ]
+    }
+  },
+  "scythian-steppe": {
+    "name": "Steppe scythe",
+    "era": "VIIe – IIIe s. av. J.-C.",
+    "t": "Les prairies des nomades et leurs kourganes d’or",
+    "s": "Au nord de la mer Noire s’étend la steppe où vivaient jadis les Scythes : des nomades cavaliers qui suivaient leurs troupeaux et enterraient leurs chefs sous de grands tertres de terre, les kourganes. Leurs orfèvres créèrent certains des plus beaux bijoux de style animalier de l’Antiquité. Aujourd’hui, la terre est cultivée en immenses champs, et d’en haut on dirait un patchwork posé sur une table plate.",
+    "w": "Une immense plaine plate de grands champs rectangulaires, entaillée de larges fleuves qui coulent au sud vers la mer Noire.",
+    "f": [
+      "Hérodote consacra aux Scythes un livre entier de ses Histoires.",
+      "Un pectoral d’or trouvé dans un kourgane en 1971 est l’un des chefs-d’œuvre de l’art scythe.",
+      "Des kourganes se dressent encore au milieu des champs, certains hauts de près de 20 m."
+    ],
+    "q": {
+      "q": "Quel historien grec a décrit les Scythes ?",
+      "a": "Hérodote",
+      "x": [
+        "Thucydide",
+        "Plutarque"
+      ]
+    }
+  },
+  "colchis": {
+    "name": "Colchide",
+    "era": "v. XIIIe – Ier s. av. J.-C.",
+    "t": "Le pays de la Toison d’or",
+    "s": "Entre le Caucase et la mer Noire s’étend la plaine verte et humide de la Colchide, dans l’ouest de l’actuelle Géorgie. Le mythe grec y envoya Jason et les Argonautes s’emparer de la Toison d’or. Selon les historiens, on recueillait jadis dans les montagnes voisines la poudre d’or des rivières sur des peaux de mouton : peut-être l’origine de la légende. D’en haut, cherchez la plaine verte du Rioni qui s’ouvre sur la mer.",
+    "w": "Cherchez une plaine plate et très verte le long de l’est de la mer Noire, là où le Rioni atteint la côte à Poti.",
+    "f": [
+      "Les fouilles de Vani ont mis au jour de riches bijoux d’or fabriqués en Colchide.",
+      "La région est l’une des plus humides du Caucase, ce qui la garde verte toute l’année.",
+      "Des colons grecs fondèrent des comptoirs sur la côte de Colchide dès le VIe siècle av. J.-C."
+    ],
+    "q": {
+      "q": "Que cherchait Jason en Colchide ?",
+      "a": "La Toison d’or",
+      "x": [
+        "Le Saint-Graal",
+        "L’armure d’Achille"
+      ]
+    }
+  },
+  "urartu": {
+    "name": "Ourartou",
+    "era": "IXe – VIe s. av. J.-C.",
+    "t": "Le royaume de l’âge du fer, du lac de Van à l’Ararat",
+    "s": "Autour du vaste lac de Van, tout bleu, s’étendait l’Ourartou, royaume montagnard de l’âge du fer. Ses rois bâtirent des forteresses sur des pitons rocheux, creusèrent des canaux d’irrigation dans les vallées et laissèrent des inscriptions en cunéiforme. Son nom survit dans celui de l’Ararat, le volcan enneigé à sa lisière nord. En croisière, c’est un pays superbe : un lac immense, des cônes volcaniques et de hauts plateaux nus.",
+    "w": "Cherchez l’immense lac de Van, tout bleu, et au nord-est le cône blanc et solitaire du mont Ararat.",
+    "f": [
+      "Erevan est née de la forteresse ourartéenne d’Erebouni, fondée en 782 av. J.-C.",
+      "Un canal bâti par le roi Menua au VIIIe siècle av. J.-C. apporte toujours de l’eau à la région de Van.",
+      "Le lac de Van est un lac salé et alcalin où ne vit qu’une seule espèce de poisson."
+    ],
+    "q": {
+      "q": "Quelle ville est née de la forteresse d’Erebouni ?",
+      "a": "Erevan",
+      "x": [
+        "Tbilissi",
+        "Bakou"
+      ]
+    }
+  },
+  "volga-trade-route": {
+    "name": "Route commerciale de la Volga",
+    "era": "VIIIe – XIe s.",
+    "t": "Des marchands vikings sur le plus long fleuve d’Europe",
+    "s": "À l’époque viking, des marchands scandinaves descendaient la Volga à la rame jusqu’aux marchés de Bolgar et de la Caspienne, échangeant fourrures, cire et miel contre l’argent arabe. Certains poussaient jusqu’à Bagdad. Le fleuve montre encore le chemin : suivez son large cours bleu, coupé aujourd’hui de longs réservoirs, qui s’incurve vers le sud à travers la Russie jusqu’à la Caspienne.",
+    "w": "Suivez la Volga, large et bleue, avec ses longs réservoirs, qui s’incurve vers le sud jusqu’aux plaines de la Caspienne.",
+    "f": [
+      "Des dizaines de milliers de pièces d’argent arabes ont été trouvées dans des trésors d’époque viking en Scandinavie.",
+      "En 922, l’envoyé arabe Ibn Fadlan raconta sa rencontre avec des marchands rus sur la Volga.",
+      "La Volga est le plus long fleuve d’Europe, avec environ 3 500 km."
+    ],
+    "q": {
+      "q": "Quelles pièces remontaient vers le nord par la route de la Volga ?",
+      "a": "Des dirhams d’argent arabes",
+      "x": [
+        "Des solidi d’or romains",
+        "Des pièces de bronze chinoises"
+      ]
+    }
+  },
+  "varangians-to-greeks": {
+    "name": "Route des Varègues aux Grecs",
+    "era": "IXe – XIIe s.",
+    "t": "La route fluviale de la Baltique à Constantinople",
+    "s": "Ici passait la grande route fluviale de la Rus’ primitive, de la Baltique à Constantinople. Marchands et voyageurs remontaient le Volkhov par Novgorod jusqu’au lac Ilmen, traînaient leurs bateaux par voie de terre d’une rivière à l’autre, puis descendaient le Dniepr par Kyiv jusqu’à la mer Noire. La route aida à souder le premier État des Slaves de l’Est. D’en haut, suivez le chapelet de lacs et le large Dniepr qui file au sud.",
+    "w": "Cherchez le lac Ilmen et le Volkhov au nord et, loin au sud, le large Dniepr qui coule vers la mer Noire.",
+    "f": [
+      "La route est décrite dans la Chronique des temps passés, écrite à Kyiv au début du XIIe siècle.",
+      "Là où les rivières ne communiquaient pas, on halait les bateaux sur des rouleaux par des portages.",
+      "Un empereur byzantin du Xe siècle nota les noms des rapides du Dniepr en deux langues, slave et norroise."
+    ],
+    "q": {
+      "q": "Quelle chronique décrit cette route ?",
+      "a": "La Chronique des temps passés",
+      "x": [
+        "Le Dit de la campagne d’Igor",
+        "Le Domostroï"
+      ]
+    }
+  },
+  "trans-siberian-railway": {
+    "name": "Transsibérien",
+    "era": "construit de 1891 à 1916",
+    "t": "La plus longue voie ferrée du monde, de Moscou au Pacifique",
+    "s": "C’est la plus longue ligne de chemin de fer du monde : environ 9 300 km de Moscou à Vladivostok. Construite entre 1891 et 1916, elle a arrimé la Sibérie et la côte pacifique à la Russie d’Europe et changé un voyage de plusieurs mois en un trajet de quelques jours. En croisière, cherchez des villes égrenées sur une ligne à travers la taïga sans fin, et ses grands ponts sur l’Ob, l’Ienisseï et l’Amour.",
+    "w": "Cherchez un chapelet de villes et de clairières le long d’une ligne en pleine forêt sombre, franchissant de grands fleuves sur de longs ponts.",
+    "f": [
+      "Le chantier fut officiellement lancé à Vladivostok en mai 1891 par le futur tsar Nicolas II.",
+      "La ligne qui longe la rive sud du lac Baïkal compte des dizaines de tunnels taillés dans les falaises.",
+      "Le trajet complet en train dure environ une semaine et traverse sept changements de fuseau horaire."
+    ],
+    "q": {
+      "q": "Où le chantier a-t-il été officiellement lancé en 1891 ?",
+      "a": "À Vladivostok",
+      "x": [
+        "À Moscou",
+        "À Irkoutsk"
+      ]
+    }
+  },
+  "chinese-eastern-railway": {
+    "name": "Chemin de fer de l’Est chinois",
+    "era": "construit de 1897 à 1903",
+    "t": "Un raccourci ferroviaire à travers la Mandchourie",
+    "s": "Au lieu de suivre la longue boucle de l’Amour, la Russie bâtit entre 1897 et 1903 un raccourci tout droit à travers la Mandchourie jusqu’à Vladivostok. La ligne franchissait les monts du Grand Khingan et la vaste plaine mandchoue et, à son embranchement sur la Songhua, une ville nouvelle naquit : Harbin. D’en haut, cherchez les crêtes boisées du Khingan qui cèdent la place à une immense plaine agricole plate.",
+    "w": "Cherchez les crêtes boisées du Grand Khingan à l’ouest, puis un immense patchwork plat de cultures autour de Harbin.",
+    "f": [
+      "Harbin fut fondée en 1898 pour être le nœud ferroviaire de la ligne.",
+      "Le vieux centre de Harbin garde des rues de bâtiments de style russe datant de l’époque du chemin de fer.",
+      "La ligne franchissait le Grand Khingan par un tunnel d’environ 3 km."
+    ],
+    "q": {
+      "q": "Quelle ville est née en 1898 comme nœud de la ligne ?",
+      "a": "Harbin",
+      "x": [
+        "Shenyang",
+        "Changchun"
+      ]
+    }
   }
 }

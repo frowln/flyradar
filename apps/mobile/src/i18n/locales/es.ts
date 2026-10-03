@@ -266,6 +266,14 @@ export const es = {
     shift: 'relojes %{d} h',
     stamp: 'sello en tu pasaporte',
   },
+  window: {
+    title: 'vista desde la ventanilla',
+    left: 'izquierda',
+    right: 'derecha',
+    nothing: 'nada destacable a este lado',
+    noData: 'El relieve llega con el mapa sin conexión, por Wi-Fi antes del vuelo.',
+    caption: 'Rumbo %{course}° · se ve hasta %{reach} %{unit} · alturas ×3,5 · según datos de elevación, también con nubes y de noche',
+  },
   map: {
     day: 'relieve',
     night: 'noche',

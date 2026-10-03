@@ -136,9 +136,11 @@ function tileOf(lat: number, lon: number, z: number): [number, number] {
 export function demTilesFor(route: RoutePoint[], margin = DEM_MARGIN_DEG): string[] {
   const keys = new Set<string>();
   for (let z = DEM_MIN_ZOOM; z <= DEM_MAX_ZOOM; z++) {
+    // The window view looks to the horizon, ~400 km out; coarse tiles cover it cheaply.
+    const m = z <= 5 ? Math.max(margin, 4) : margin;
     for (const p of route) {
-      const [x0, y0] = tileOf(p.lat + margin, p.lon - margin, z);
-      const [x1, y1] = tileOf(p.lat - margin, p.lon + margin, z);
+      const [x0, y0] = tileOf(p.lat + m, p.lon - m, z);
+      const [x1, y1] = tileOf(p.lat - m, p.lon + m, z);
       const n = 2 ** z;
       // Across the date line the west edge has a larger x than the east.
       const xs = x0 <= x1 ? Array.from({ length: x1 - x0 + 1 }, (_, i) => x0 + i) : [...Array.from({ length: n - x0 }, (_, i) => x0 + i), ...Array.from({ length: x1 + 1 }, (_, i) => i)];

@@ -266,6 +266,14 @@ export const en = {
     shift: 'clocks %{d} h',
     stamp: 'stamped in your passport',
   },
+  window: {
+    title: 'window view',
+    left: 'left',
+    right: 'right',
+    nothing: 'nothing notable this side',
+    noData: 'The relief arrives with the offline map, on Wi-Fi before the flight.',
+    caption: 'Course %{course}° · seen to %{reach} %{unit} · heights ×3.5 · drawn from elevation data, visible through cloud and at night',
+  },
   map: {
     day: 'relief',
     night: 'night',

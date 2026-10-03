@@ -265,6 +265,14 @@ export const ja = {
     shift: '時計%{d}時間',
     stamp: 'パスポートにスタンプ',
   },
+  window: {
+    title: '窓からの眺め',
+    left: '左',
+    right: '右',
+    nothing: 'この側には目立つものがありません',
+    noData: '地形はオフライン地図と一緒に、出発前のWi-Fiで読み込まれます。',
+    caption: '針路%{course}°・%{reach} %{unit}先まで・高さ×3.5・標高データから描画、雲の上や夜でも見られます',
+  },
   map: {
     day: '地形',
     night: '夜間',
