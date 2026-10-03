@@ -82,7 +82,7 @@ IOS_PERSONAL_TEAM=1 IOS_BUNDLE_ID=com.yourname.skyatlas scripts/xcode-demo.sh
 
 В Xcode вверху выберите любой iPhone из списка Simulators → ▶.
 
-Без Mac: GitHub собирает приложение в Xcode на своём Mac и пролетает демо в симуляторе iPhone. Это делает файл `.github/workflows/ios.yml`, если в сообщении коммита есть `[ios]`. Видео полёта, скриншоты и сборка для симулятора лежат в артефактах прогона: вкладка **Actions** → прогон **iOS** → **Artifacts**.
+Без Mac: GitHub собирает приложение в Xcode на своём Mac и пролетает демо в симуляторе iPhone. Это делает файл `.github/workflows/ios.yml`, если сообщение коммита начинается с `[ios]`. Видео полёта, скриншоты и сборка для симулятора лежат в артефактах прогона: вкладка **Actions** → прогон **iOS** → **Artifacts**.
 
 ## Если что-то не так
 

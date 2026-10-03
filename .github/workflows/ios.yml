@@ -3,7 +3,7 @@ name: iOS
 # is flown on an iPhone simulator and kept as a video with screenshots.
 #
 # A macOS minute costs ten Linux minutes on a private repository, so a push
-# builds only when its commit message carries [ios]; it can also be run by
+# builds only when its commit message starts with [ios]; it can also be run by
 # hand from the Actions tab once this file is on the default branch.
 on:
   push:
@@ -16,7 +16,7 @@ on:
 
 jobs:
   simulator:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[ios]')
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, '[ios]')
     # On the job, not the workflow: a push without [ios] skips this job and
     # must not cancel a build already running.
     concurrency:
