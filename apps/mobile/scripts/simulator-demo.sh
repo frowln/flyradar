@@ -100,7 +100,7 @@ touch "$OUT/.stop"
 wait "$FRAMER" 2>/dev/null
 kill -INT "$REC" 2>/dev/null
 wait "$REC" 2>/dev/null
-echo "frames: $(wc -l < "$OUT/frames.txt")"
+echo "frames for the video: $(wc -l < "$OUT/frames.txt")" | tee -a "$OUT/summary.txt"
 xcrun simctl spawn "$UDID" log show --last 90m --style compact --predicate 'process == "SkyAtlas"' > "$OUT/app.log" 2>/dev/null || true
 # Crash reports of the app, if it died on the way (the host keeps them).
 mkdir -p "$OUT/crash"
