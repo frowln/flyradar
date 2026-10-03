@@ -180,15 +180,15 @@ npx serve dist-web
 
 ## На iPhone
 
-Нужен Mac с Xcode и аккаунт Apple Developer.
+Настоящее приложение ставится на iPhone из Xcode на Mac. Пошагово — `docs/IOS.md`. Коротко:
 
 ```bash
 npm install
 cd apps/mobile
-npx expo run:ios --device       # своя сборка на подключённый iPhone
-# или через облако Expo:
-npx eas build --platform ios --profile preview   # ссылка для установки
+scripts/xcode-demo.sh      # с бесплатным Apple ID: IOS_PERSONAL_TEAM=1 IOS_BUNDLE_ID=com.yourname.skyatlas scripts/xcode-demo.sh
 ```
+
+Скрипт включает демо-режим, создаёт проект Xcode и открывает его. В Xcode: Signing & Capabilities → Team → выбрать iPhone вверху → ▶.
 
 **Перед полётом:**
 1. Добавьте рейс по Wi-Fi.

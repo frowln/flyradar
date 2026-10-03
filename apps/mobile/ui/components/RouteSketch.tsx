@@ -93,11 +93,16 @@ export function projector(route: Array<{ lat: number; lon: number }>, width: num
     width / 2 + (normLon(lon) * k - cx) * scale,
     height / 2 - (lat - cy) * scale
   ];
+  // What the frame actually shows, which on a wide or tall plate is far more
+  // than the route's box: every country in it must be drawn, or the land
+  // beyond the box shows as sea.
+  const halfLon = width / 2 / scale / k;
+  const halfLat = height / 2 / scale;
   const view = {
-    minLon: minLon - marginX / k - 5,
-    maxLon: maxLon + marginX / k + 5,
-    minLat: minLat - marginY - 5,
-    maxLat: maxLat + marginY + 5
+    minLon: Math.min(minLon - marginX / k, cx / k - halfLon) - 3,
+    maxLon: Math.max(maxLon + marginX / k, cx / k + halfLon) + 3,
+    minLat: Math.max(-90, Math.min(minLat - marginY, cy - halfLat) - 3),
+    maxLat: Math.min(90, Math.max(maxLat + marginY, cy + halfLat) + 3)
   };
   return { project, view, normLon };
 }
