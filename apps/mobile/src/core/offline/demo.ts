@@ -12,7 +12,7 @@ import { closedCountries, planAround } from '../route/airspace';
 import type { RoutePoint } from '@skyatlas/shared';
 import { interpolateAlongRoute } from '../geo/greatCircle';
 import { solarElevation } from '../geo/sun';
-import { DEMO_COUNTS } from '../features';
+import { DEMO_COUNTS } from '../api/demoFlag';
 
 /**
  * A short flight that starts now, so the product can be felt without a ticket.

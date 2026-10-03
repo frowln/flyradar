@@ -19,6 +19,7 @@ import PaywallScreen from '../../ui/screens/PaywallScreen';
 import SettingsScreen from '../../ui/screens/SettingsScreen';
 import LicensesScreen from '../../ui/screens/LicensesScreen';
 import PersonScreen from '../../ui/screens/PersonScreen';
+import YearScreen from '../../ui/screens/YearScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -40,6 +41,7 @@ const linking: LinkingOptions<RootStackParamList> = {
       POIDetail: 'place/:flightId/:poiId',
       FlightSummary: 'arrival/:flightId',
       Achievements: 'achievements',
+      Year: 'year',
       Settings: 'settings',
       Licenses: 'licenses',
       Paywall: 'pro'
@@ -79,6 +81,7 @@ export default function RootNavigator() {
         <Stack.Screen name="POIDetail" component={PlaceScreen} />
         <Stack.Screen name="FlightSummary" component={ArrivalScreen} />
         <Stack.Screen name="Achievements" component={AchievementsScreen} />
+        <Stack.Screen name="Year" component={YearScreen} />
         <Stack.Screen name="Settings" component={SettingsScreen} />
         <Stack.Screen name="Licenses" component={LicensesScreen} />
         {PAYWALL_VISIBLE ? <Stack.Screen name="Paywall" component={PaywallScreen} options={{ animation: 'slide_from_bottom' }} /> : null}

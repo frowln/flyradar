@@ -19,4 +19,5 @@ export type RootStackParamList = {
   Settings: undefined;
   Licenses: undefined;
   Person: { userId: string };
+  Year: { year?: number } | undefined;
 };

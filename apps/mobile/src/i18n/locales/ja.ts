@@ -767,4 +767,70 @@ export const ja = {
     reason_false_info: '誤情報',
     reason_other: 'その他',
   },
+  year: {
+    label: 'あなたの空の一年',
+    entry: '空で過ごした%{year}年',
+    distance: '飛行距離',
+    aroundEarth: {
+      other: '地球%{count}周分',
+    },
+    aroundEarthFraction: '地球%{n}周分',
+    aroundEarthPct: '地球一周の%{pct}%',
+    toMoonPct: '月までの道のりの%{pct}%',
+    moonReached: '月まで到達',
+    moonAndBack: '月に到達、帰り道の%{pct}%',
+    moonTimes: '月までの距離の%{n}倍',
+    earth: '地球',
+    moon: '月',
+    flights: {
+      other: 'フライト',
+    },
+    hours: {
+      other: '飛行時間',
+    },
+    countries: {
+      other: 'カ国',
+    },
+    airports: {
+      other: '空港',
+    },
+    routes: '今年のすべてのルート',
+    stamps: '今年のスタンプ',
+    newCountries: {
+      other: '今年初めての国：%{count}カ国',
+    },
+    moments: 'ハイライト',
+    longest: '最長フライト',
+    shortest: '最短フライト',
+    busiestMonth: 'いちばん多く飛んだ月',
+    flightCount: {
+      other: 'フライト%{count}回',
+    },
+    topRoute: 'いちばん多く飛んだルート',
+    bestStreak: '最長連続記録',
+    nightFlights: '夜間フライト',
+    sunrises: '機上で見た日の出',
+    sunsets: '機上で見た夕日',
+    underWing: '翼の下',
+    passed: {
+      other: '通過した地点',
+    },
+    spotted: '自分の目で見た',
+    share: '一年をシェア',
+    shareTitle: '空で過ごした%{year}年 — SkyAtlas',
+    shareStats: 'フライト%{flights}回 · %{countries}カ国 · %{dist} %{unit} · 飛行%{hours}時間',
+    emptyTitle: '空が待っています',
+    empty: '空の一年は最初のフライトから始まります。着陸すると、ここに表示されます。',
+    emptyYear: '%{year}年のフライト記録はありません。',
+  },
+  streak: {
+    weeks: {
+      other: '%{count}週連続',
+    },
+    months: {
+      other: '%{count}か月連続',
+    },
+    keepWeek: '今週フライトすれば記録が続きます',
+    keepMonth: '今月フライトすれば記録が続きます',
+  },
 };

@@ -9,6 +9,9 @@ import { Screen, Gutter, Row, Cells, Space, PressSurface, Rule, textHitSlop } fr
 import { useReveal } from '../motion';
 import Stamp from '../components/Stamp';
 import FlightsMap, { type MapFlight } from '../components/FlightsMap';
+import StreakBadge from '../components/StreakBadge';
+import { streaks } from '../../src/core/game/streaks';
+import { defaultYear } from '../../src/core/game/year';
 import { airportByIata } from '../../src/core/data/datasets';
 import { getRecords } from '../../src/core/game/journal';
 import { buildPassport } from '../../src/core/game/passport';
@@ -63,6 +66,8 @@ export default function AtlasScreen() {
 
   const passport = useMemo(() => buildPassport(records, continentOf), [records]);
   const { width } = useWindowDimensions();
+  const streak = useMemo(() => streaks(records), [records]);
+  const year = useMemo(() => defaultYear(records, new Date()), [records]);
   // Every flight as an arc; the airports come from the bundled list.
   const mapFlights = useMemo(
     () =>
@@ -105,8 +110,23 @@ export default function AtlasScreen() {
             </Body>
           </Gutter>
 
+          {streak.weeks >= 2 || streak.months >= 2 ? (
+            <Gutter>
+              <Space h={s.x4} />
+              <StreakBadge {...streak} />
+            </Gutter>
+          ) : null}
+
           <Space h={s.x5} />
           <FlightsMap flights={mapFlights} visited={passport.countries} width={width} height={Math.round(width * 0.56)} />
+          {records.length ? (
+            <PressSurface onPress={() => nav.navigate('Year', { year })} accessibilityLabel={t('year.entry', { year })} style={styles.yearRow}>
+              <Title style={styles.flex}>{t('year.entry', { year })}</Title>
+              <Data tone="accent" allowFontScaling={false}>
+                ›
+              </Data>
+            </PressSurface>
+          ) : null}
 
           <Space h={s.x6} />
           <Gutter>
@@ -313,6 +333,16 @@ const styles = StyleSheet.create({
   flex: { flex: 1 },
   spread: { justifyContent: 'space-between' },
   scroll: { paddingBottom: s.x8 },
+  yearRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: s.x3,
+    paddingHorizontal: gutter,
+    paddingVertical: s.x4,
+    backgroundColor: palette.warm,
+    borderBottomWidth: line.hair,
+    borderBottomColor: palette.amberDim
+  },
   settings: { paddingVertical: s.x1, paddingLeft: s.x4 },
   section: { paddingTop: s.x10, paddingBottom: s.x3 },
 

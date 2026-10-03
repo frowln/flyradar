@@ -13,7 +13,7 @@ import { newlyEarned, type AchievementDef } from '../game/achievements';
 import { xpLedger, totalXP } from '../game/xp';
 import type { FlightRecord, Passport } from '../game/types';
 import { countryByCode } from '../data/datasets';
-import { DEMO_COUNTS } from '../features';
+import { DEMO_COUNTS } from '../api/demoFlag';
 
 /**
  * The verbs of a flight: take off, correct the takeoff time, land.
