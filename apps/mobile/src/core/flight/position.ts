@@ -104,6 +104,23 @@ export function positionNow(
   };
 }
 
+/** Where the aircraft will be (or was) at a moment of the flight, on the planned route. */
+export function positionAt(route: RoutePoint[], elapsedS: number): Now {
+  const end = route[route.length - 1]?.elapsedSeconds ?? 0;
+  const at = Math.max(0, Math.min(end, elapsedS));
+  const p = interpolateAlongRoute(route, at);
+  return {
+    elapsedS: at,
+    lat: p.lat,
+    lon: p.lon,
+    altitude: p.altitude,
+    heading: headingAt(route, at),
+    source: 'estimate',
+    progress: end > 0 ? at / end : 1,
+    ended: false
+  };
+}
+
 /**
  * The clock correction a fix implies: positive when the aircraft is ahead of
  * the schedule the clock assumes, negative when behind.

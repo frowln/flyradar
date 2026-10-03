@@ -1611,5 +1611,416 @@
         "Königin Victoria"
       ]
     }
+  },
+  "Q40921": {
+    "t": "Ein Stadtstreifen unter Guadalcanals grünen Bergen",
+    "s": "Honiara ist ein schmaler Stadtstreifen an der Nordküste von Guadalcanal, eingezwängt zwischen dem Meer und grasigen Vorbergen, die zu dschungelbedeckten Bergen ansteigen. Die höchsten Gipfel der Insel, über 2.300 m, sind die höchsten der Salomonen. Der spanische Seefahrer Álvaro de Mendaña erreichte diese Inseln 1568 und benannte sie in der Hoffnung auf Gold nach König Salomo.",
+    "w": "Eine schmale Stadt an einer Küste, dahinter grüne Hügel und hohe Berge, im Norden jenseits des Wassers Inseln.",
+    "f": [
+      "Der Name Honiara soll oft auf eine örtliche Wendung zurückgehen, die „dem Südostwind zugewandt“ bedeutet.",
+      "Guadalcanal ist nach einem Ort in Andalusien benannt, der Heimat eines von Mendañas Offizieren."
+    ],
+    "q": {
+      "q": "Wer gab den Salomonen 1568 ihren Namen?",
+      "a": "Álvaro de Mendaña",
+      "x": [
+        "Abel Tasman",
+        "James Cook"
+      ]
+    }
+  },
+  "Q976": {
+    "t": "Sibiriens alte Universitätsstadt, mit Holz wie Spitze",
+    "s": "Dunkle Taiga reicht rings um Tomsk bis zu jedem Horizont; die Stadt liegt auf dem hohen rechten Ufer des Tom. Kosaken gründeten hier 1604 auf Befehl von Zar Boris Godunow eine Festung. 1888 eröffnete die Stadt die erste Universität Sibiriens, und sie ist bis heute eine Studentenstadt. Viele alte Holzhäuser tragen Schnitzereien, so zart wie Spitze.",
+    "w": "Eine Stadt auf dem hohen Ostufer eines gewundenen Flusses, umgeben von dunklem Nadelwald; im Winter weiß.",
+    "f": [
+      "Die 1888 eröffnete Staatliche Universität Tomsk war die erste Universität im asiatischen Teil Russlands.",
+      "Die Stadt bewahrt Hunderte historischer Holzhäuser mit geschnitzten Fensterrahmen."
+    ],
+    "q": {
+      "q": "Wann eröffnete Tomsk die erste Universität Sibiriens?",
+      "a": "1888",
+      "x": [
+        "1755",
+        "1918"
+      ]
+    }
+  },
+  "Q7978": {
+    "t": "Russlands östlichste Stadt, wo ein Tundrafluss mündet",
+    "s": "Wo sich der Anadyr zu einem weiten Mündungstrichter des Beringmeers öffnet, liegt die Stadt Anadyr auf einer Landspitze, umgeben von baumloser Tundra auf Permafrost, die einen Großteil des Jahres weiß bleibt. Es ist die östlichste Stadt Russlands, nur zweieinhalb Grad westlich des 180. Meridians, und rund 10.000 Menschen leben hier.",
+    "w": "Eine kleine Häufung von Häusern auf einer Landspitze an einer weiten Mündung, umgeben von flacher, baumloser Tundra.",
+    "f": [
+      "Die Stadt wurde 1889 unter dem Namen Nowo-Mariinsk gegründet.",
+      "Die Mündung ist einen Großteil des Jahres zugefroren, vom Herbst bis weit in den Frühsommer."
+    ],
+    "q": {
+      "q": "Wie hieß Anadyr bei seiner Gründung 1889?",
+      "a": "Nowo-Mariinsk",
+      "x": [
+        "Nowo-Archangelsk",
+        "Nikolajewsk"
+      ]
+    }
+  },
+  "Q887": {
+    "t": "Eine Eisenhüttenstadt im Ural, am Rand Asiens",
+    "s": "Jekaterinburg breitet sich über die niedrigen, bewaldeten Hügel des Mittleren Urals aus, gleich östlich der Wasserscheide, die traditionell als Grenze zwischen Europa und Asien gilt. Die Stadt begann 1723 als Eisenhütte, und der Damm, der sie antrieb, staut im Zentrum noch immer den Stadtteich. Sie ist nach Katharina I. benannt, der Frau Peters des Großen.",
+    "w": "Eine große Stadt zwischen niedrigen bewaldeten Hügeln, mit einem gestauten Teich im Zentrum und vielen Seen ringsum.",
+    "f": [
+      "Denkmäler an der Grenze zwischen Europa und Asien stehen auf dem Kamm keine 20 km westlich der Stadt.",
+      "Von 1924 bis 1991 hieß die Stadt Swerdlowsk."
+    ],
+    "q": {
+      "q": "Nach welcher Kaiserin ist Jekaterinburg benannt?",
+      "a": "Katharina I.",
+      "x": [
+        "Katharina II.",
+        "Elisabeth"
+      ]
+    }
+  },
+  "Q183002": {
+    "t": "Eine Ölstadt zwischen Mooren und Seen am großen Ob",
+    "s": "Surgut steht am rechten Ufer des Ob, mitten im Westsibirischen Tiefland – einem der flachsten und sumpfigsten Orte der Erde, gesprenkelt mit unzähligen Seen. Ringsum liegen einige der größten Ölfelder Russlands; achten Sie auf gerade Straßen, die quadratische Bohrplätze quer durch den Sumpf verbinden. Nachts leuchten vereinzelte Gasfackeln in der Dunkelheit.",
+    "w": "Eine Stadt an einem breiten Fluss inmitten endloser Moore und Seen, durchzogen von geraden Straßen; nachts leuchtende Fackeln.",
+    "f": [
+      "Das 1594 gegründete Surgut ist eine der ältesten russischen Städte Sibiriens.",
+      "Seine 2000 eröffnete Brücke über den Ob hängt an einem einzigen hohen Pylon."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurde Surgut gegründet?",
+      "a": "1594",
+      "x": [
+        "1794",
+        "1961"
+      ]
+    }
+  },
+  "Q6014": {
+    "t": "Eine Silberstadt, wo Kiefernbänder die Steppe queren",
+    "s": "Barnaul steht auf dem hohen linken Ufer des Ob, wo Felder und Steppe die Taiga abzulösen beginnen. Achten Sie südwestlich der Stadt auf ein seltsames Muster: lange, schmale Streifen dunklen Kiefernwalds, die schnurgerade durch das Ackerland laufen, wie auf einen Tisch gelegte Bänder. Die Stadt wuchs aus Schmelzhütten des 18. Jahrhunderts und lieferte jahrzehntelang den Großteil des russischen Silbers.",
+    "w": "Eine Stadt auf dem Hochufer eines breiten Flusses; lange, gerade, dunkle Kiefernstreifen ziehen sich schräg durch die Felder.",
+    "f": [
+      "Die Bandwälder aus Kiefern folgen uralten, von Schmelzwasser gegrabenen Rinnen, manche über Hunderte Kilometer.",
+      "Die erste Schmelzhütte hier gründete in den 1730er-Jahren der Industrielle Akinfi Demidow."
+    ],
+    "q": {
+      "q": "An welchem Fluss liegt Barnaul?",
+      "a": "Am Ob",
+      "x": [
+        "Am Irtysch",
+        "Am Jenissei"
+      ]
+    }
+  },
+  "Q883": {
+    "t": "Sibiriens größte Stadt, wo die Bahn den Ob überquerte",
+    "s": "Nowosibirsk liegt zu beiden Seiten des Ob, und sein Daseinsgrund ist eine Brücke: 1893 überquerte die Transsibirische Eisenbahn hier den Fluss, und neben der Baustelle schoss eine Siedlung aus dem Boden. In kaum einem Jahrhundert wurde sie die größte Stadt Sibiriens. Südlich der Stadt hat ein Damm den Ob zu einem rund 200 km langen Stausee gemacht, den die Einheimischen Ob-Meer nennen.",
+    "w": "Eine große Stadt an beiden Ufern eines breiten Flusses mit mehreren Brücken; nach Süden erstreckt sich ein riesiger, langer Stausee.",
+    "f": [
+      "Bis 1926 hieß die Stadt Nowonikolajewsk.",
+      "Akademgorodok, eine in den 1950er-Jahren gegründete Wissenschaftsstadt, liegt im Kiefernwald am Ob-Meer."
+    ],
+    "q": {
+      "q": "Wie hieß Nowosibirsk bei seiner Gründung?",
+      "a": "Nowonikolajewsk",
+      "x": [
+        "Nikolsk",
+        "Nowoarchangelsk"
+      ]
+    }
+  },
+  "Q35381": {
+    "t": "Eine Hafenstadt mit ganz neuem Land im Meer",
+    "s": "Colombo säumt die flache Westküste Sri Lankas, sein Hafen liegt geschützt hinter langen Wellenbrechern. Achten Sie direkt daneben auf einen großen, geometrischen Block neuen Landes, der in den Indischen Ozean hinausgeschoben wurde – ein ganzes Viertel auf aufgespültem Sand. Portugiesische, niederländische und britische Händler hielten den Hafen nacheinander. Landeinwärts steigen grüne Hügel zu den Bergen im Herzen der Insel an.",
+    "w": "Eine flache Küstenstadt, ein Hafen hinter Wellenbrechern und ein geometrischer Block aufgespülten Landes, der ins Meer ragt.",
+    "f": [
+      "Sri Lankas offizielle Hauptstadt Sri Jayawardenepura Kotte grenzt im Osten an Colombo.",
+      "Colombos Hafen ist künstlich: Die Arbeiten an seinem ersten großen Wellenbrecher begannen 1875."
+    ],
+    "q": {
+      "q": "Welche Stadt neben Colombo ist Sri Lankas offizielle Hauptstadt?",
+      "a": "Sri Jayawardenepura Kotte",
+      "x": [
+        "Kandy",
+        "Anuradhapura"
+      ]
+    }
+  },
+  "Q1467": {
+    "t": "Wo Spaniens Geschichte auf den Philippinen begann",
+    "s": "Der Flughafen liegt auf der flachen Insel Mactan, und jenseits eines schmalen, von Brücken überspannten Kanals liegt Cebu City an der Ostküste einer langen, schmalen, bergigen Insel. Magellans Expedition kam 1521 hierher und errichtete ein Kreuz, das bis heute verehrt wird. 1565 gründete Miguel López de Legazpi an diesem Ufer die erste spanische Siedlung im Archipel.",
+    "w": "Eine Stadt an der Ostküste einer langen, hügeligen Insel, gegenüber einer flachen Insel mit Flughafen jenseits eines schmalen Kanals.",
+    "f": [
+      "Auf Mactan fiel Magellan 1521 im Kampf mit dem Häuptling Lapu-Lapu, der heute als Nationalheld verehrt wird.",
+      "Cebu gilt als älteste Stadt der Philippinen."
+    ],
+    "q": {
+      "q": "In welchem Jahr errichtete Magellans Expedition in Cebu ein Kreuz?",
+      "a": "1521",
+      "x": [
+        "1492",
+        "1565"
+      ]
+    }
+  },
+  "Q459787": {
+    "t": "Ein alter Zuckerhafen gegenüber einer Mangoinsel",
+    "s": "Iloilo breitet sich über flaches Land an der Südküste von Panay aus, gegenüber der hügeligen Insel Guimaras jenseits einer nur wenige Kilometer breiten Meerenge. Flüsse und Fischteiche zerteilen die Stadtränder. Als der Hafen 1855 dem Welthandel geöffnet wurde, strömte Zucker vom nahen Negros hindurch, und prächtige Kaufmannshäuser entstanden an seinen Straßen.",
+    "w": "Eine flache Stadt an einer Küste, gegenüber einer hügeligen Insel jenseits einer schmalen Meerenge, ringsum Flüsse und Fischteiche.",
+    "f": [
+      "Guimaras jenseits der Meerenge ist für seine süßen Mangos berühmt.",
+      "Die Kirche von Miag-ao, rund 40 km westlich, ist eine barocke Kirche aus gelbem Stein aus dem 18. Jahrhundert und UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welcher Insel liegt Iloilo jenseits einer schmalen Meerenge gegenüber?",
+      "a": "Guimaras",
+      "x": [
+        "Mindoro",
+        "Bohol"
+      ]
+    }
+  },
+  "Q1473": {
+    "t": "Eine Golfstadt unter dem höchsten Gipfel der Philippinen",
+    "s": "Davao zieht sich am Ufer des Golfs von Davao im Südosten Mindanaos entlang, die grüne Insel Samal liegt gleich gegenüber. Im Westen erhebt sich der Mount Apo, ein 2.954 m hoher Vulkangipfel und der höchste Berg der Philippinen. Das Land dazwischen ist mit Bananen- und Obstplantagen bedeckt, und Davao ist für seine Durianfrüchte berühmt.",
+    "w": "Eine lange Stadt am Ufer eines weiten Golfs, mit einer Insel direkt davor; im Westen ein großer Vulkanberg.",
+    "f": [
+      "Nach Fläche ist Davao die größte Stadt der Philippinen.",
+      "Der seltene Philippinenadler nistet in den Wäldern um den Mount Apo."
+    ],
+    "q": {
+      "q": "Welcher ist der höchste Berg der Philippinen?",
+      "a": "Der Mount Apo",
+      "x": [
+        "Der Mayon",
+        "Der Mount Pulag"
+      ]
+    }
+  },
+  "Q132732": {
+    "t": "Eine Stadt an einem der größten künstlichen Seen der Welt",
+    "s": "Bratsk liegt an einem gewaltigen Stausee, der die Täler der Angara und ihrer Nebenflüsse füllt und mit langen, verzweigten Armen in die Taiga greift. Der in den 1960er-Jahren vollendete Damm trieb eines der größten Wasserkraftwerke seiner Zeit an. Die Stadt selbst ist in getrennten Vierteln an den Ufern verstreut. Schon 1631 stand hier eine Kosakenfestung.",
+    "w": "Ein riesiger, vielarmiger Stausee, der sich durch dunkle Taiga windet, mit einem Damm und verstreuten Stadtvierteln an den Ufern.",
+    "f": [
+      "Der Bratsker Stausee fasst rund 170 km³ Wasser und ist nach Volumen einer der größten Stauseen der Welt.",
+      "Bei seiner Fertigstellung war das Wasserkraftwerk Bratsk das leistungsstärkste der Welt."
+    ],
+    "q": {
+      "q": "Ein Damm an welchem Fluss schuf den Bratsker Stausee?",
+      "a": "An der Angara",
+      "x": [
+        "An der Lena",
+        "Am Jenissei"
+      ]
+    }
+  },
+  "Q6576": {
+    "t": "Das Tor zum Baikal, am einzigen Abfluss des Sees",
+    "s": "Irkutsk liegt an beiden Ufern der Angara, des einzigen Flusses, der aus dem Baikalsee abfließt, rund 60 km flussabwärts von ihm. Ein Damm gleich oberhalb der Stadt hat den Fluss zu einem langen Stausee geweitet. Schauen Sie an klaren Tagen nach Südosten zum Baikal selbst: eine tiefblaue, von Bergen gerahmte Sichel, der tiefste See der Erde. Irkutsk begann 1661 als Festung und wurde mit Tee und Pelzen reich.",
+    "w": "Eine Stadt an beiden Ufern eines breiten Flusses mit einem Stausee flussaufwärts; im Südosten der lange, tiefblaue Bogen des Baikalsees.",
+    "f": [
+      "Der Baikalsee ist über 1.600 m tief und birgt rund ein Fünftel des ungefrorenen Oberflächensüßwassers der Erde.",
+      "Viele nach 1825 verbannte Dekabristen ließen sich in Irkutsk nieder und prägten sein kulturelles Leben."
+    ],
+    "q": {
+      "q": "Wie viele Flüsse fließen aus dem Baikalsee ab?",
+      "a": "Einer",
+      "x": [
+        "Drei",
+        "Mehr als 300"
+      ]
+    }
+  },
+  "Q919": {
+    "t": "Eine Stadt am Jenissei, wo der Fluss nie zufriert",
+    "s": "Krasnojarsk säumt beide Ufer des mächtigen Jenissei, im Süden steigen bewaldete Hügel und Felsnasen auf. Flussaufwärts entlässt ein riesiger Damm Wasser, das wärmer ist als die Winterluft, sodass der Fluss in der Stadt offen bleibt und selbst bei −30 °C dampft. Die Stadt begann 1628 als Kosakenfestung, benannt nach einem roten Lehmsteilhang am Flussufer.",
+    "w": "Eine große Stadt an beiden Ufern eines sehr breiten Flusses, im Süden bewaldete Hügel und Felssäulen; im Winter dampfendes offenes Wasser.",
+    "f": [
+      "Stolby, ein Schutzgebiet riesiger Granitsäulen in der Taiga, beginnt direkt am Südrand der Stadt.",
+      "Der Krasnojarsker Damm, rund 30 km flussaufwärts, gehört zu den leistungsstärksten Wasserkraftwerken Russlands.",
+      "Die Kommunalbrücke der Stadt ist auf dem russischen 10-Rubel-Schein abgebildet."
+    ],
+    "q": {
+      "q": "Worauf bezieht sich der Name Krasnojarsk?",
+      "a": "Auf ein rotes Steilufer",
+      "x": [
+        "Auf eine schöne Quelle",
+        "Auf einen roten Wald"
+      ]
+    }
+  },
+  "Q678299": {
+    "t": "Ein arktischer Vorposten, wo der Jenissei die Karasee trifft",
+    "s": "Wo sich der gewaltige Jenissei-Golf zur Karasee öffnet, klammert sich Dikson an kahle, felsige Ufer. Einen Großteil des Jahres sind Meer und Land weiß, und die Siedlung ist kaum mehr als ein paar verstreute Gebäude auf der Tundra. Nur rund tausend Menschen leben hier, weit nördlich des Polarkreises, wo die Sonne mitten im Winter wochenlang nicht aufgeht.",
+    "w": "Ein paar verstreute Gebäude an einer felsigen arktischen Küste an der Mündung eines riesigen, vereisten Golfs.",
+    "f": [
+      "Nordenskiöld benannte den Hafen 1875 nach Oscar Dickson, dem schwedischen Kaufmann, der seine Expeditionen finanzierte.",
+      "Die Polarnacht dauert hier rund zweieinhalb Monate.",
+      "Sein Hafen hat Schiffen auf dem Nördlichen Seeweg gedient."
+    ],
+    "q": {
+      "q": "Aus welchem Land stammte Oscar Dickson, Namensgeber von Dikson?",
+      "a": "Aus Schweden",
+      "x": [
+        "Aus Norwegen",
+        "Aus Dänemark"
+      ]
+    }
+  },
+  "Q53139": {
+    "t": "Eine sonnige Stadt Transbaikaliens zwischen Waldrücken",
+    "s": "Tschita liegt in einem weiten Tal, wo der Fluss Tschita in die Ingoda mündet, gerahmt von niedrigen Rücken aus Lärchen und Kiefern. Transbaikalien ist eine der sonnigsten Regionen Russlands, und im Winter bleibt der Boden unter hartem, trockenem Frost oft schneefrei. Ab 1827 wurden hier viele verbannte Dekabristen festgehalten, und die Frauen, die ihnen folgten, halfen, aus einer kleinen Festung eine Stadt zu machen.",
+    "w": "Eine Stadt in einem weiten Tal zwischen niedrigen bewaldeten Rücken, wo zwei Flüsse sich treffen; am Westrand ein großer See.",
+    "f": [
+      "Die Transsibirische Eisenbahn führt auf ihrem Weg zum Pazifik durch Tschita.",
+      "Die Sonne scheint hier weit über 2.000 Stunden im Jahr."
+    ],
+    "q": {
+      "q": "Welche berühmten Verbannten wurden ab 1827 in Tschita festgehalten?",
+      "a": "Die Dekabristen",
+      "x": [
+        "Die Strelitzen",
+        "Die Altgläubigen"
+      ]
+    }
+  },
+  "Q959": {
+    "t": "Ende der Transsib, auf hügeliger Halbinsel voller Buchten",
+    "s": "Wladiwostok klettert über die Hügel einer Halbinsel zwischen zwei Buchten des Japanischen Meers, und sein Hafen, das Goldene Horn, wurde nach dem von Istanbul benannt. Achten Sie im Süden auf die lange, feine Linie einer Brücke zur Russki-Insel. Die Stadt wurde 1860 gegründet und ist der östliche Endpunkt der Transsibirischen Eisenbahn, rund 9.300 km von Moskau entfernt.",
+    "w": "Eine hügelige Stadt auf einer Halbinsel zwischen zwei Buchten, in der Mitte ein gebogener Hafen, im Süden eine lange Brücke zu einer Insel.",
+    "f": [
+      "Die 2012 eröffnete Russki-Brücke hatte mit 1.104 m die längste Schrägseilspannweite der Welt.",
+      "Der Name verbindet die russischen Wörter für „beherrsche“ und „Osten“."
+    ],
+    "q": {
+      "q": "Nach welcher Bucht Istanbuls ist Wladiwostoks Hafen benannt?",
+      "a": "Nach dem Goldenen Horn",
+      "x": [
+        "Nach dem Silbernen Horn",
+        "Nach dem Goldenen Tor"
+      ]
+    }
+  },
+  "Q1993488": {
+    "t": "Ein entlegener Flusshafen nahe dem Delta der Jana",
+    "s": "Nischnejansk – „Untere Jana“ – ist eine winzige Siedlung auf der Tundra, nahe der Stelle, an der sich die Jana in ein Delta aufteilt und die Laptewsee erreicht. Von oben ist das Land ringsum mit unzähligen Thermokarstseen gesprenkelt, die den Großteil des Jahres gefroren und weiß sind. Nur noch wenige hundert Menschen leben in diesem einst belebteren Flusshafen an der entlegenen arktischen Küste.",
+    "w": "Eine winzige Siedlung auf flacher, seenreicher Tundra, nahe einem Fluss, der sich zum Meer hin in viele Arme teilt.",
+    "f": [
+      "Weit flussaufwärts an der Jana liegt Werchojansk, einer der kältesten bewohnten Orte der Nordhalbkugel.",
+      "An der unteren Jana fanden Archäologen Spuren von Menschen, die vor rund 32.000 Jahren in der Arktis lebten."
+    ],
+    "q": {
+      "q": "Welcher für seine Kälte berühmte Ort liegt flussaufwärts an der Jana?",
+      "a": "Werchojansk",
+      "x": [
+        "Oimjakon",
+        "Norilsk"
+      ]
+    }
+  },
+  "Q6610": {
+    "t": "Die kälteste Großstadt, an einem kilometerbreiten Fluss",
+    "s": "Der Januar liegt hier im Mittel nahe −40 °C, und Jakutsk gilt oft als kälteste Großstadt der Erde; Eisnebel kann tagelang über den Straßen hängen. Die Stadt liegt am Westufer der Lena, die sich zu einem mehrere Kilometer breiten Labyrinth aus Armen und Inseln weitet. Die ganze Stadt steht auf Permafrost, daher ruhen die meisten Gebäude auf Pfählen, die tief in den gefrorenen Boden getrieben sind.",
+    "w": "Eine Stadt am Westufer eines extrem breiten, inselreichen Flusses, ringsum flache Taiga; im Winter Eisnebel.",
+    "f": [
+      "Kosaken unter Pjotr Beketow gründeten hier 1632 eine Festung an der Lena.",
+      "Die Lena-Säulen, eine Felsturmwand auf der UNESCO-Liste, stehen rund 200 km flussaufwärts am Ufer."
+    ],
+    "q": {
+      "q": "Warum stehen die meisten Gebäude in Jakutsk auf Pfählen?",
+      "a": "Wegen des Permafrosts",
+      "x": [
+        "Wegen Hochwassern",
+        "Wegen Erdbeben"
+      ]
+    }
+  },
+  "Q500895": {
+    "t": "Ein Polarhafen neben dem riesigen Fächer des Lena-Deltas",
+    "s": "Gleich westlich von Tiksi breitet sich eines der großen Schauspiele des Nordens aus: das Lena-Delta, ein Fächer aus Hunderten von Armen und Tausenden von Seen, insgesamt rund 30.000 km². Der kleine arktische Hafen selbst liegt an einer Bucht der Laptewsee, hinter ihm kahle, niedrige Berge. Den Großteil des Jahres ist das Meer hier gefroren, und mitten im Winter bleibt die Sonne wochenlang unter dem Horizont.",
+    "w": "Ein kleiner Hafen an einer vereisten Bucht; im Westen ein gigantisches Delta, das sich in unzählige Arme und Seen auffächert.",
+    "f": [
+      "Das Lena-Delta ist das größte Delta der Arktis und ein Naturschutzgebiet.",
+      "Tiksi dient seit den 1930er-Jahren Schiffen auf dem Nördlichen Seeweg."
+    ],
+    "q": {
+      "q": "Das riesige Delta welches Flusses liegt gleich westlich von Tiksi?",
+      "a": "Der Lena",
+      "x": [
+        "Des Jenissei",
+        "Der Kolyma"
+      ]
+    }
+  },
+  "Q7968": {
+    "t": "Ein Hafen zwischen zwei Buchten des Ochotskischen Meers",
+    "s": "Zwei Buchten des Ochotskischen Meers, Nagajew und Gertner, zwängen Magadan auf einen Landhals, hinter dem kahle, gerundete Berge aufsteigen. Im Winter friert das Meer zu, und die Küste wird gleichförmig weiß. Für die meisten Reisenden beginnt hier das Kolyma-Gebiet: ein weites Land aus Bergen, goldführenden Flüssen und Lärchenwald, das sich landeinwärts erstreckt.",
+    "w": "Eine Stadt auf einem schmalen Landhals zwischen zwei Buchten, dahinter kahle Hügel; im Winter Meereis an der Küste.",
+    "f": [
+      "Die Kolyma-Fernstraße verbindet Magadan mit dem rund 2.000 km entfernten Jakutsk.",
+      "Das Kolyma-Becken im Landesinneren ist seit den 1930er-Jahren eines der wichtigsten Goldbergbaugebiete Russlands."
+    ],
+    "q": {
+      "q": "An welchem Meer liegt Magadan?",
+      "a": "Am Ochotskischen Meer",
+      "x": [
+        "Am Beringmeer",
+        "Am Japanischen Meer"
+      ]
+    }
+  },
+  "Q230628": {
+    "t": "Eine Bergbaustadt neben einem riesigen Tagebaukrater",
+    "s": "Erdenet liegt zwischen sanften grünen Hügeln im Norden der Mongolei, und die Mine daneben ist nicht zu übersehen: eine riesige, terrassierte graue Grube und ein breiter, heller Absetzteich. Die Stadt wurde ab 1974 errichtet, um eine der größten Kupferlagerstätten Asiens zu erschließen. Ihr Name bedeutet etwa „mit Schatz“.",
+    "w": "Eine kleine Stadt in grünen Steppenhügeln neben einer riesigen, terrassierten grauen Grube und einem großen hellen Absetzteich.",
+    "f": [
+      "Neben Kupfer fördert die Mine von Erdenet Molybdän, ein Metall, mit dem Stahl gehärtet wird.",
+      "Kupferkonzentrat ist eines der wichtigsten Exportgüter der Mongolei."
+    ],
+    "q": {
+      "q": "Was wird in Erdenet vor allem abgebaut?",
+      "a": "Kupfer",
+      "x": [
+        "Kohle",
+        "Gold"
+      ]
+    }
+  },
+  "Q23430": {
+    "t": "Die kälteste Hauptstadt der Welt, in einem Steppental",
+    "s": "Ulaanbaatar zieht sich von Ost nach West durch das Tal der Tuul; im Süden erhebt sich der bewaldete Rücken des Bogd Khan Uul, und helle Jurtenviertel ziehen sich im Norden die Hügel hinauf. Ringsum wogt die baumlose Steppe bis zum Horizont. Mit einer Jahresmitteltemperatur unter dem Gefrierpunkt ist sie die kälteste Hauptstadt der Erde.",
+    "w": "Eine lange Stadt in einem weiten Flusstal, im Süden ein dunkler bewaldeter Berg, ringsum kahle, wellige Steppe.",
+    "f": [
+      "Die Stadt begann 1639 als wanderndes Klosterlager und ließ sich erst 1778 an dieser Stelle nieder.",
+      "Der Bogd Khan Uul ist seit dem 18. Jahrhundert geschützt und damit eines der ältesten Naturschutzgebiete der Welt.",
+      "Der Name bedeutet „roter Held“; die Stadt trägt ihn seit 1924."
+    ],
+    "q": {
+      "q": "Unter den Hauptstädten der Welt ist Ulaanbaatar die …",
+      "a": "Kälteste",
+      "x": [
+        "Höchstgelegene",
+        "Trockenste"
+      ]
+    }
+  },
+  "Q695360": {
+    "t": "Winzige Korjaken-Hauptstadt nahe dem Ochotskischen Meer",
+    "s": "Wenige Kilometer vom Ochotskischen Meer entfernt, an der abgelegenen Nordwestküste Kamtschatkas, liegt Palana im Tal des gleichnamigen Flusses. Ringsum erstreckt sich ein wildes Land aus Tundra, Zwergkiefern und schneegestreiften Kämmen, die zum Mittelrücken ansteigen. Palana ist Verwaltungszentrum des Korjakischen Bezirks, der Heimat der Korjaken, Rentierhirten und Meeresjäger.",
+    "w": "Eine kleine Siedlung in einem Flusstal nahe dem Meer, inmitten von Tundra und niedrigen Bergen; Schnee hält sich bis in den Sommer.",
+    "f": [
+      "Palana war Hauptstadt des Autonomen Kreises der Korjaken, bis dieser 2007 in der Region Kamtschatka aufging.",
+      "Die Siedlung ist so abgelegen, dass die meisten Besucher mit dem Flugzeug anreisen."
+    ],
+    "q": {
+      "q": "In der Heimat welches Volkes liegt Palana?",
+      "a": "Der Korjaken",
+      "x": [
+        "Der Tschuktschen",
+        "Der Nenzen"
+      ]
+    }
   }
 }

@@ -1385,5 +1385,971 @@
         "The Mongol Empire"
       ]
     }
+  },
+  "Q18970": {
+    "t": "A spice island almost cut in two by its bays",
+    "s": "Ambon Island looks as if it was nearly snapped in half: two long bays cut into it from opposite sides, leaving the halves joined only by a narrow neck of land. Ambon city spreads along the shore of the inner bay. This was the heart of the Spice Islands: in the 16th and 17th centuries its cloves drew Portuguese and Dutch traders halfway around the world.",
+    "w": "A mountainous green island nearly split in two by long bays from both sides, with a city along the southern shore.",
+    "f": [
+      "The island's two halves, Hitu and Leitimor, are joined by a narrow isthmus.",
+      "In 2019 UNESCO named Ambon a City of Music.",
+      "The Merah Putih Bridge across Ambon Bay opened in 2016."
+    ],
+    "q": {
+      "q": "UNESCO named Ambon a creative city of what?",
+      "a": "Music",
+      "x": [
+        "Gastronomy",
+        "Crafts"
+      ]
+    }
+  },
+  "Q633036": {
+    "t": "Gateway to Thailand's north-east, on the Khorat Plateau",
+    "s": "Climb out of the central plains through the forested hills of Khao Yai, and the land flattens again into a vast, gently tilted plateau of rice fields and reservoirs: the Khorat Plateau. Nakhon Ratchasima, usually just called Korat, is its gateway city, and its old centre is still a moated rectangle. About 60 km to the north-east stands Phimai, a Khmer temple from the 11th–12th centuries.",
+    "w": "A large city on a flat plateau of rice fields and reservoirs; forested hills rise to the south-west.",
+    "f": [
+      "The statue of Thao Suranari, a local heroine of the 1820s, stands at the old city gate and is the city's symbol.",
+      "Khao Yai, south-west of the city, is Thailand's oldest national park, founded in 1962."
+    ],
+    "q": {
+      "q": "Whose statue is the symbol of Nakhon Ratchasima?",
+      "a": "Thao Suranari",
+      "x": [
+        "Queen Suriyothai",
+        "King Ramkhamhaeng"
+      ]
+    }
+  },
+  "Q486282": {
+    "t": "An Irtysh river town born as a steppe outpost",
+    "s": "The Irtysh winds north across the flat Kazakh steppe in a wide green floodplain full of oxbow lakes and side channels, and Pavlodar stands on its right bank. It began in 1720 as a small Russian outpost named after a nearby salt lake. In 1861 it became a town called Pavlodar — “Paul's gift” — to mark the birth of Grand Duke Pavel Alexandrovich.",
+    "w": "A city on the east bank of a big river winding through a green floodplain of oxbow lakes in flat, pale steppe.",
+    "f": [
+      "The first outpost, Koryakovsky, took its name from a nearby salt lake.",
+      "Pavlodar has a large aluminium industry and an oil refinery."
+    ],
+    "q": {
+      "q": "What does the name Pavlodar mean?",
+      "a": "Paul's gift",
+      "x": [
+        "Paul's fort",
+        "Paul's river"
+      ]
+    }
+  },
+  "Q5764": {
+    "t": "A holy city of domes and minarets in a desert oasis",
+    "s": "Green fields and canals of the Zeravshan oasis push out into the pale Kyzylkum desert, and Bukhara has stood at their western edge for more than two thousand years. Its old centre is a maze of domed bazaars, madrasas and mosques. Above them rises the Kalyan Minaret, built in 1127 — legend says Genghis Khan was so impressed that he spared it when he sacked the city.",
+    "w": "A green oasis of fields and canals ending against pale desert, with a compact old city at its heart.",
+    "f": [
+      "The 10th-century Samanid Mausoleum is one of the oldest surviving monuments of Islamic architecture in Central Asia.",
+      "Bukhara's historic centre became a UNESCO World Heritage site in 1993.",
+      "The Kalyan Minaret is about 46 m tall."
+    ],
+    "q": {
+      "q": "Which minaret, built in 1127, towers over Bukhara?",
+      "a": "The Kalyan Minaret",
+      "x": [
+        "The Kutlug-Timur Minaret",
+        "The Islam Khoja Minaret"
+      ]
+    }
+  },
+  "Q162548": {
+    "t": "Where the Irtysh breaks out of the Altai foothills",
+    "s": "Upstream of Oskemen the Irtysh is a mountain river, dammed into long reservoirs among the Altai ranges; here it emerges onto the plain and meets the Ulba. The city fills the angle between the two rivers, with rounded hills rising to the east. Founded in 1720 as the Russian fortress of Ust-Kamenogorsk, it is now a centre of mining and metallurgy, producing zinc, lead, titanium and other metals.",
+    "w": "A city in the angle where a big river leaves the hills and meets a smaller one, with rounded mountains to the east.",
+    "f": [
+      "The Russian name Ust-Kamenogorsk means “mouth of the Stone Mountains”, where the Irtysh leaves the hills.",
+      "The Bukhtarma reservoir upstream is one of the largest in Kazakhstan."
+    ],
+    "q": {
+      "q": "Which river joins the Irtysh at Oskemen?",
+      "a": "The Ulba",
+      "x": [
+        "The Ishim",
+        "The Tobol"
+      ]
+    }
+  },
+  "Q61944": {
+    "t": "Dostoevsky's exile town on the Irtysh",
+    "s": "The Irtysh curves through the steppe here in a wide loop, and Semey spreads along both banks, joined by long bridges. In the 1850s the city, then called Semipalatinsk, was home to an exiled soldier-writer, Fyodor Dostoevsky; his house is now a museum. The steppe around is the homeland of Abai Kunanbayev, the poet who stands at the start of modern Kazakh written literature.",
+    "w": "A city on both banks of a broad, curving river in flat, pale steppe, with long bridges across the water.",
+    "f": [
+      "The old name Semipalatinsk means “seven chambers”, after the ruins of a Buddhist monastery found nearby.",
+      "Dostoevsky lived here from 1854 to 1859, after his prison term in Omsk."
+    ],
+    "q": {
+      "q": "Which Russian writer lived in Semey in the 1850s?",
+      "a": "Fyodor Dostoevsky",
+      "x": [
+        "Leo Tolstoy",
+        "Anton Chekhov"
+      ]
+    }
+  },
+  "Q491123": {
+    "t": "A rice-green ribbon on the Syr Darya in the desert",
+    "s": "In a landscape of pale desert and salt flats, the Syr Darya draws a winding green ribbon of rice paddies, and Kyzylorda stands in the middle of it. The town began in 1820 as a Kokand fortress, Ak-Mechet, and later became the Russian Perovsk. From 1925 to 1929 it was the capital of Soviet Kazakhstan, which gave it its name: “red capital”.",
+    "w": "A green strip of rice fields along a meandering river crossing pale desert, with the city on the riverbanks.",
+    "f": [
+      "The Baikonur cosmodrome is in the same region, about 200 km to the north-west, also on the Syr Darya.",
+      "Kyzylorda region grows most of Kazakhstan's rice."
+    ],
+    "q": {
+      "q": "What does the name Kyzylorda mean?",
+      "a": "Red capital",
+      "x": [
+        "Red sands",
+        "Red river"
+      ]
+    }
+  },
+  "Q14155": {
+    "t": "Where Captain Bligh's open boat finally landed",
+    "s": "In June 1789, after the mutiny on the Bounty, Captain William Bligh and a handful of loyal men sailed an open boat about 6,700 km and landed here, at Kupang. Today the town spreads along a bay at the western tip of Timor, on coral-limestone terraces that turn tawny brown in the long dry season. Semau Island lies just offshore.",
+    "w": "A town on a bay at the western tip of Timor, on dry brown terraces, with a long, flat island just offshore.",
+    "f": [
+      "Bligh's voyage in the Bounty's launch lasted 47 days.",
+      "Kupang is the capital of East Nusa Tenggara province.",
+      "Darwin, in Australia, is about 800 km away — much closer than Jakarta."
+    ],
+    "q": {
+      "q": "Which captain reached Kupang in an open boat in 1789?",
+      "a": "William Bligh",
+      "x": [
+        "James Cook",
+        "Matthew Flinders"
+      ]
+    }
+  },
+  "Q477232": {
+    "t": "A steppe city named after a white hill",
+    "s": "Far out on the steppe, where the southern tail of the Urals fades into low hills, Aktobe grew from a Russian fort founded in 1869 on the Ilek River. Its name means “white hill”, after the pale rise on which the fort stood. Today it is one of western Kazakhstan's biggest cities, and the land around it holds some of the world's richest chromium ore.",
+    "w": "A city on a small river in wide, rolling steppe, with low hills on the horizon.",
+    "f": [
+      "The chromite mines of Khromtau, about 100 km to the east, are among the largest in the world.",
+      "In Soviet times the city was called Aktyubinsk."
+    ],
+    "q": {
+      "q": "What does the name Aktobe mean?",
+      "a": "White hill",
+      "x": [
+        "White river",
+        "Red hill"
+      ]
+    }
+  },
+  "Q487684": {
+    "t": "A river oasis where the Amu Darya meets the Karakum",
+    "s": "The Amu Darya, one of Central Asia's great rivers, slides north-west here in a wide, braided bed of sandbars and channels, with a narrow green belt of fields on each bank and desert beyond. Türkmenabat, known until 1999 as Chardzhou, grew up at an old river crossing on the road between Merv and Bukhara. The pale dunes of the Karakum begin just to the south-west.",
+    "w": "A city on the west bank of a wide, braided river, with narrow green strips of fields and desert dunes beyond.",
+    "f": [
+      "The Repetek reserve, in the Karakum south-west of the city, has recorded some of the highest temperatures in Central Asia.",
+      "Chardzhou melons were famous across the Soviet Union for their sweetness."
+    ],
+    "q": {
+      "q": "What was Türkmenabat called until 1999?",
+      "a": "Chardzhou",
+      "x": [
+        "Krasnovodsk",
+        "Tashauz"
+      ]
+    }
+  },
+  "Q489898": {
+    "t": "A desert city hiding a treasure of forbidden art",
+    "s": "In the flat, dusty delta of the Amu Darya, far from any capital, Nukus hides one of the most unexpected art collections in the world. From the 1960s the painter Igor Savitsky gathered tens of thousands of objects here, including Russian avant-garde paintings that had fallen out of favour in Soviet times. Around the city, desert, canals and salt flats stretch towards the shrinking Aral Sea.",
+    "w": "A city on the flat Amu Darya delta, amid canals, cotton fields and pale salt flats stretching north.",
+    "f": [
+      "The Savitsky Museum is nicknamed the Louvre of the Desert.",
+      "Nukus is the capital of Karakalpakstan, an autonomous republic within Uzbekistan.",
+      "The ancient necropolis of Mizdakhan is about 20 km to the west."
+    ],
+    "q": {
+      "q": "Who gathered the famous art collection in Nukus?",
+      "a": "Igor Savitsky",
+      "x": [
+        "Pavel Tretyakov",
+        "Sergei Shchukin"
+      ]
+    }
+  },
+  "Q639421": {
+    "t": "A French street grid on the Coromandel Coast",
+    "s": "Straight streets meet at right angles beside a ruler-straight stretch of the Coromandel Coast: Puducherry was a French colony until 1954, and its old White Town still has mustard-yellow villas and French street names. A canal once divided it from the Tamil quarter. About 10 km north lies Auroville, an experimental township founded in 1968 around a golden sphere, the Matrimandir.",
+    "w": "A small city on a straight, sandy coast, with a tidy street grid by the sea and green countryside inland.",
+    "f": [
+      "France formally ceded the territory to India in 1962, eight years after handing it over in practice.",
+      "The philosopher and yogi Sri Aurobindo lived in Puducherry from 1910 until his death in 1950."
+    ],
+    "q": {
+      "q": "Which European country ruled Puducherry until 1954?",
+      "a": "France",
+      "x": [
+        "Portugal",
+        "Denmark"
+      ]
+    }
+  },
+  "Q39738": {
+    "t": "Dunes, windmills and baroque churches in far north Luzon",
+    "s": "Near Luzon's north-western corner, the Laoag River spills into the South China Sea past a belt of pale sand dunes, some of the largest in the Philippines. Laoag, the capital of Ilocos Norte, spreads along the river's banks. Its old bell tower is slowly sinking into the soft ground, and the UNESCO-listed Paoay Church stands about 15 km to the south.",
+    "w": "A city on a river near Luzon's north-west coast, with pale sand dunes along the shore and mountains to the east.",
+    "f": [
+      "The Bangui wind farm, about 40 km north, was one of the first in Southeast Asia, its turbines lined up along the beach.",
+      "Paoay Church, with its massive buttresses, is one of four baroque churches of the Philippines on the UNESCO list."
+    ],
+    "q": {
+      "q": "Which UNESCO-listed baroque church stands near Laoag?",
+      "a": "Paoay Church",
+      "x": [
+        "San Agustin Church",
+        "Miagao Church"
+      ]
+    }
+  },
+  "Q19151": {
+    "t": "An island that is one volcano, once ruled by clove sultans",
+    "s": "The whole island of Ternate is a single volcano, Gamalama, about 1,700 m high — a near-perfect cone rising out of the sea, with the town clinging to its lower eastern slopes. Four centuries ago this tiny island was among the richest places on Earth: its sultans controlled much of the world's clove trade. In 1858 Alfred Russel Wallace dated his famous letter on natural selection from here.",
+    "w": "A small round island made of a single volcanic cone, with a town on its eastern shore and a twin cone island just south.",
+    "f": [
+      "Wallace's 1858 letter from Ternate prompted Darwin to publish his theory of evolution.",
+      "Neighbouring Tidore, another volcano island, was Ternate's great rival sultanate."
+    ],
+    "q": {
+      "q": "Which naturalist sent his theory of evolution to Darwin from Ternate?",
+      "a": "Alfred Russel Wallace",
+      "x": [
+        "Henry Walter Bates",
+        "Joseph Hooker"
+      ]
+    }
+  },
+  "Q486913": {
+    "t": "A city with one bank in Europe and one in Asia",
+    "s": "The Ural River winds through Atyrau on its way to the Caspian Sea, just a few dozen kilometres away, and by the usual convention its banks belong to two continents: Europe to the west, Asia to the east. The land around is flat, low and salty, much of it below sea level. Founded in the 17th century as Guryev, a fishing and trading post, Atyrau is now Kazakhstan's oil capital.",
+    "w": "A city on both banks of a winding river in flat, salty lowland, a few dozen kilometres from the Caspian shore.",
+    "f": [
+      "The city lies below sea level, like the Caspian Sea itself.",
+      "The giant Tengiz oil field is about 350 km to the south-east.",
+      "The Ural delta was long famous for sturgeon and black caviar."
+    ],
+    "q": {
+      "q": "Which river divides Atyrau between Europe and Asia?",
+      "a": "The Ural",
+      "x": [
+        "The Volga",
+        "The Irtysh"
+      ]
+    }
+  },
+  "Q738748": {
+    "t": "A port where the Kaladan meets the Bay of Bengal",
+    "s": "Several wide, muddy estuaries converge on the Bay of Bengal here, and Sittwe stands on the point of land where the Kaladan River meets the sea. Under British rule it was the port of Akyab, shipping rice from the Arakan coast. About 60 km inland, up the river, lie the temple-studded ruins of Mrauk U, the old capital of the kingdom of Arakan.",
+    "w": "A town on a flat point where wide, muddy estuaries meet the sea, with mangroves and rice fields around.",
+    "f": [
+      "Mrauk U was the capital of Arakan from the 15th to the 18th century.",
+      "This is one of the rainiest places in Myanmar, with more than 4,000 mm of rain in a typical year."
+    ],
+    "q": {
+      "q": "What was Sittwe called under British rule?",
+      "a": "Akyab",
+      "x": [
+        "Moulmein",
+        "Bassein"
+      ]
+    }
+  },
+  "Q5713": {
+    "t": "An oasis city beside the ruins of great Merv",
+    "s": "The Murghab River fans out into a green delta in the middle of the Karakum desert, and Mary stands in this oasis. About 30 km to the east lie the ruins of Merv: vast earthen walls still outline its successive cities, and in the 12th century it was one of the largest cities in the world. Mary itself was founded by the Russians in the 1880s.",
+    "w": "A green oasis fanning out from a river in the Karakum desert; huge walled outlines of ruins lie about 30 km east.",
+    "f": [
+      "In 1999 Ancient Merv became Turkmenistan's first UNESCO World Heritage site.",
+      "The 12th-century mausoleum of the Seljuk sultan Sanjar still stands among the ruins."
+    ],
+    "q": {
+      "q": "Which ancient city lies near Mary?",
+      "a": "Merv",
+      "x": [
+        "Nisa",
+        "Otrar"
+      ]
+    }
+  },
+  "Q27860": {
+    "t": "A capital on a bay, next to a lake of islands",
+    "s": "Steep, forested hills drop straight into Humboldt Bay, and Jayapura, the capital of Indonesia's Papua province, squeezes into the valleys between them. Beyond the Cyclops Mountains to the west, Lake Sentani spreads out beside the airport — a winding lake dotted with small islands and stilt villages. Under Dutch rule the town was called Hollandia.",
+    "w": "A city in narrow valleys between steep green hills on a bay; to the west, beyond a mountain ridge, a long lake with islands.",
+    "f": [
+      "The Cyclops Mountains between the city and the lake rise to over 2,000 m.",
+      "Lake Sentani's villages are known for bark paintings and houses built on stilts over the water.",
+      "The border with Papua New Guinea is less than 30 km to the east."
+    ],
+    "q": {
+      "q": "What was Jayapura called under Dutch rule?",
+      "a": "Hollandia",
+      "x": [
+        "Batavia",
+        "Fort de Kock"
+      ]
+    }
+  },
+  "Q840951": {
+    "t": "Gateway to Ko Samui across the Bay of Bandon",
+    "s": "The Tapi River loops across a flat, green plain of palms and orchards and empties into the Bay of Bandon, with Surat Thani near its mouth. Out in the Gulf of Thailand, Ko Samui and Ko Pha Ngan float on the horizon, and ferries carry travellers to them from the coast. King Vajiravudh gave the city its name in 1915; it means “city of good people”.",
+    "w": "A town near a river mouth on a wide, shallow bay, with large green islands out in the gulf to the north-east.",
+    "f": [
+      "Before 1915 the town was called Ban Don, “village on higher ground”.",
+      "The Tapi River shares its name with India's Tapti: the king named the city after Surat, which stands on the Tapti.",
+      "Chaiya, north of the city, was an important centre in the era of the Srivijaya kingdom."
+    ],
+    "q": {
+      "q": "Which island is the classic ferry trip from Surat Thani?",
+      "a": "Ko Samui",
+      "x": [
+        "Phuket",
+        "Ko Chang"
+      ]
+    }
+  },
+  "Q748336": {
+    "t": "Cambodia's rice bowl and its bamboo railway",
+    "s": "West of the great Tonlé Sap lake, flat rice paddies stretch almost unbroken, and Battambang stands among them on the winding Sangkae River. Its centre keeps rows of French colonial shophouses. Nearby, locals invented the norry, or bamboo train: a bamboo platform on wheels that rattles along old railway tracks and is simply lifted off by hand when two of them meet.",
+    "w": "A town on a winding river in a vast, flat plain of rice paddies, west of a huge lake.",
+    "f": [
+      "Battambang province is often called Cambodia's rice bowl.",
+      "At dusk, huge streams of bats pour out of a cave in Phnom Sampov, a limestone hill south-west of town."
+    ],
+    "q": {
+      "q": "What is Battambang's “norry”?",
+      "a": "A bamboo train",
+      "x": [
+        "A river ferry",
+        "A rice festival"
+      ]
+    }
+  },
+  "Q189133": {
+    "t": "Where the rainforest meets the reef",
+    "s": "Two World Heritage sites meet at Cairns: rainforest-covered ranges rise steeply right behind the town, and offshore the turquoise Coral Sea is scattered with the pale patches of the Great Barrier Reef. The city fills a narrow strip of flat land between them, beside the mudflats and mangroves of Trinity Inlet. On a clear day individual reefs show as lighter shapes in the darker sea.",
+    "w": "A coastal town on a narrow plain between steep, dark green ranges and a turquoise sea with pale reef patches offshore.",
+    "f": [
+      "The Wet Tropics rainforest behind Cairns is among the oldest continuously surviving rainforests on Earth.",
+      "The Kuranda Scenic Railway, finished in 1891, climbs from Cairns through the rainforest past waterfalls."
+    ],
+    "q": {
+      "q": "Which sea does Cairns face?",
+      "a": "The Coral Sea",
+      "x": [
+        "The Arafura Sea",
+        "The Timor Sea"
+      ]
+    }
+  },
+  "Q200028": {
+    "t": "New Zealand's biggest inland city, on the Waikato",
+    "s": "The Waikato, New Zealand's longest river, curves through the middle of Hamilton in deep, tree-lined bends, and around the city spread the bright green pastures of the Waikato dairy country. Hamilton is the largest city in New Zealand that does not touch the sea. Small lakes dot the surrounding plain, and Lake Rotoroa lies close to the city centre.",
+    "w": "A city on a broad green plain, split by a winding river, with small lakes around it.",
+    "f": [
+      "The Waikato runs about 425 km from Lake Taupō to the Tasman Sea.",
+      "Hamilton Gardens, beside the river, are a series of themed gardens from different eras and cultures.",
+      "The Hobbiton film set near Matamata is about 50 km to the east."
+    ],
+    "q": {
+      "q": "Which river runs through Hamilton?",
+      "a": "The Waikato",
+      "x": [
+        "The Whanganui",
+        "The Clutha"
+      ]
+    }
+  },
+  "Q130800": {
+    "t": "Tahiti's harbour town, facing Moorea's jagged peaks",
+    "s": "Tahiti is shaped like a figure eight: a big, round volcanic island joined by a narrow isthmus to a smaller one. Papeete stands on the north-west coast of the larger loop, behind a coral reef that breaks the surf offshore. Across the channel, Moorea's jagged green peaks rise from a turquoise lagoon, while Tahiti's own summit, Mont Orohena, reaches about 2,240 m.",
+    "w": "A town on the north-west coast of a large, round green island, inside a reef; a jagged island lies to the west.",
+    "f": [
+      "Tahiti's two parts, Tahiti Nui and Tahiti Iti, are joined by the Taravao isthmus.",
+      "Faa'a airport, just west of Papeete, was built largely on land reclaimed from the lagoon.",
+      "Paul Gauguin painted in Tahiti in the 1890s."
+    ],
+    "q": {
+      "q": "Which island faces Papeete across the channel?",
+      "a": "Moorea",
+      "x": [
+        "Bora Bora",
+        "Rarotonga"
+      ]
+    }
+  },
+  "Q612250": {
+    "t": "PNG's port city where the Markham meets the sea",
+    "s": "A broad, grey, braided river — the Markham — spills out of a long, straight valley into the Huon Gulf, and Lae stands on its western side at the mouth. This is Papua New Guinea's main industrial city and busiest port, and the Highlands Highway starts here, climbing inland to the mountain valleys. Steep, cloud-wrapped ranges rise on both sides of the Markham valley.",
+    "w": "A city beside the wide, grey, braided mouth of a river, on a gulf backed by steep green mountains.",
+    "f": [
+      "Lae is Papua New Guinea's second-largest city.",
+      "The Markham valley is so flat and straight that the main road from the coast to the Highlands follows it."
+    ],
+    "q": {
+      "q": "Which river meets the sea at Lae?",
+      "a": "The Markham",
+      "x": [
+        "The Sepik",
+        "The Fly"
+      ]
+    }
+  },
+  "Q496442": {
+    "t": "A coal town beside one of the world's biggest pits",
+    "s": "Even from cruise height the Bogatyr mine is hard to miss: a vast terraced pit in the flat steppe, kilometres long, where coal is dug in the open. Ekibastuz grew up around the coalfield in the mid-20th century, and its power stations supply much of Kazakhstan with electricity. One of them, GRES-2, has a chimney about 420 m tall — the tallest in the world.",
+    "w": "A town in flat steppe beside enormous grey, terraced open-pit mines and spoil heaps, with power stations and lakes nearby.",
+    "f": [
+      "The Ekibastuz–Kokshetau power line was built for 1,150 kilovolts, a world-record voltage.",
+      "The GRES-2 chimney is taller than the Eiffel Tower."
+    ],
+    "q": {
+      "q": "Ekibastuz's GRES-2 power station has the world's tallest what?",
+      "a": "Chimney",
+      "x": [
+        "Cooling tower",
+        "Dam"
+      ]
+    }
+  },
+  "Q1008853": {
+    "t": "An ore town ringed by giant open pits",
+    "s": "The flat steppe south-west of Kostanay is pocked with enormous open pits, some of them kilometres across: the iron-ore mines of the Sokolov-Sarbai complex. Rudny was built for them from scratch in the late 1950s, and its name simply means “of ore”. The Tobol River runs past the town, a thin green line through the pale grassland.",
+    "w": "A planned town in flat steppe beside huge grey-brown open-pit mines and spoil heaps, near a small river.",
+    "f": [
+      "Rudny was founded in 1957 to house the miners of the Sokolov-Sarbai iron-ore complex.",
+      "Much of its ore goes by rail to steel mills such as Magnitogorsk in Russia."
+    ],
+    "q": {
+      "q": "Which river flows past Rudny?",
+      "a": "The Tobol",
+      "x": [
+        "The Ishim",
+        "The Ural"
+      ]
+    }
+  },
+  "Q133073": {
+    "t": "Edinburgh of the south, on a long fjord-like harbour",
+    "s": "A long, narrow harbour reaches about 20 km inland between steep hills, with the curving Otago Peninsula along one side — and at its head stands Dunedin. Scottish settlers founded it in 1848 and gave it the Gaelic name for Edinburgh. At the peninsula's tip, royal albatrosses nest on Taiaroa Head, one of very few places where albatrosses breed on a mainland.",
+    "w": "A city at the head of a long, narrow harbour between hills, with a hilly peninsula running along its eastern side.",
+    "f": [
+      "Baldwin Street in Dunedin is listed by Guinness World Records as the steepest street in the world.",
+      "The University of Otago, founded in 1869, is New Zealand's oldest university."
+    ],
+    "q": {
+      "q": "Dunedin's name comes from the Gaelic name of which city?",
+      "a": "Edinburgh",
+      "x": [
+        "Glasgow",
+        "Dundee"
+      ]
+    }
+  },
+  "Q41963": {
+    "t": "Sri Lanka's parliament on an island in a lake",
+    "s": "Colombo's sprawl flows east without a break into Sri Jayawardenepura Kotte, the country's legislative capital. Its landmark stands on an island in the Diyawanna lake: the Parliament, designed by Geoffrey Bawa and opened in 1982, with roofs that seem to float above the water. In the 15th century Kotte was the seat of a Sinhalese kingdom, and its long name means “resplendent city of growing victory”.",
+    "w": "Suburbs merging with Colombo to the east, around a lake and green marshes, a few kilometres inland from the coast.",
+    "f": [
+      "Kotte was the capital of a Sinhalese kingdom from the early 15th to the late 16th century.",
+      "When the Portuguese reached the island in 1505, Kotte was its leading kingdom's capital."
+    ],
+    "q": {
+      "q": "Which architect designed Sri Lanka's Parliament in Kotte?",
+      "a": "Geoffrey Bawa",
+      "x": [
+        "Minnette de Silva",
+        "Charles Correa"
+      ]
+    }
+  },
+  "Q203197": {
+    "t": "The last royal capital, in a bowl of green hills",
+    "s": "Tea-green hills fold around Kandy, and the Mahaweli, Sri Lanka's longest river, loops around the town in a wide bend. At the centre is a small lake, created in the early 1800s by the last king of Kandy, beside the Temple of the Tooth, where a tooth of the Buddha is kept. Kandy was the capital of the last independent Sinhalese kingdom until 1815.",
+    "w": "A town in a bowl of green hills, with a small lake at its centre and a big river looping around it.",
+    "f": [
+      "Every year the Esala Perahera procession parades through Kandy with richly dressed elephants.",
+      "The Royal Botanic Gardens at Peradeniya fill a loop of the Mahaweli just outside the town.",
+      "The Mahaweli, about 335 km long, is Sri Lanka's longest river."
+    ],
+    "q": {
+      "q": "What relic does Kandy's famous temple keep?",
+      "a": "A tooth of the Buddha",
+      "x": [
+        "A footprint of the Buddha",
+        "The Buddha's begging bowl"
+      ]
+    }
+  },
+  "Q11711": {
+    "t": "Gateway to Angkor, between rice fields and a great lake",
+    "s": "North of Siem Reap, the flat green land is marked by perfect rectangles of water: the moat of Angkor Wat, about 1.5 km across, and the West Baray, an 8 km-long reservoir dug by Khmer kings in the 11th century. They are among the few human works of that age you can make out from cruise height. To the south shimmers the Tonlé Sap, the largest lake in Southeast Asia.",
+    "w": "A town south of large, straight-edged rectangles of water in a green plain, with a vast lake to the south.",
+    "f": [
+      "Each wet season the Tonlé Sap River reverses its flow, and the lake swells to several times its dry-season size.",
+      "Angkor Wat appears on Cambodia's national flag."
+    ],
+    "q": {
+      "q": "Which great lake lies south of Siem Reap?",
+      "a": "Tonlé Sap",
+      "x": [
+        "Inle",
+        "Songkhla"
+      ]
+    }
+  },
+  "Q7278471": {
+    "t": "Bima's town on a deep, sheltered bay of Sumbawa",
+    "s": "A long, narrow bay pushes deep into eastern Sumbawa, almost enclosed by dry, brown hills, and at its head lies the city of Bima, with Raba as its eastern, inland district. For centuries this was the seat of the Bima Sultanate, whose palace still stands in town. Far to the west rises Tambora, whose summit collapsed in its eruption of 1815, leaving a caldera about 6 km across.",
+    "w": "A town at the head of a long, narrow, almost enclosed bay among dry brown hills on the island of Sumbawa.",
+    "f": [
+      "Tambora's caldera, left by the 1815 eruption, is about a kilometre deep.",
+      "The palace of the Bima sultans, Asi Mbojo, is now a museum."
+    ],
+    "q": {
+      "q": "Which volcano, with a caldera about 6 km wide, lies west of Bima?",
+      "a": "Tambora",
+      "x": [
+        "Rinjani",
+        "Kelimutu"
+      ]
+    }
+  },
+  "Q14636": {
+    "t": "A hillside port on Sulawesi's west coast",
+    "s": "Green hills drop steeply to a calm bay on the Makassar Strait, and Parepare, one of South Sulawesi's main ports, climbs them in terraces of houses. Ferries and wooden boats sail from here across the strait to Borneo. The city is also the birthplace of B. J. Habibie, the aircraft engineer who became Indonesia's third president.",
+    "w": "A small city on steep green hills around a sheltered bay on Sulawesi's west coast, facing a wide strait.",
+    "f": [
+      "Habibie, born here in 1936, studied and worked as an aeronautical engineer in Germany.",
+      "Makassar is about 150 km to the south by the coast road."
+    ],
+    "q": {
+      "q": "Which Indonesian president was born in Parepare?",
+      "a": "B. J. Habibie",
+      "x": [
+        "Sukarno",
+        "Suharto"
+      ]
+    }
+  },
+  "Q497793": {
+    "t": "A gold-rush city of grand buildings and a giant dragon",
+    "s": "Gold was found here in 1851, and within a few years Bendigo was one of the richest gold towns in the world, with grand Victorian buildings to prove it. Shafts went down more than a kilometre into the quartz reefs. Around the city, dry box-ironbark forest and farmland roll away in muted greens and browns, still scarred in places by old diggings.",
+    "w": "A city in muted green-brown country of open forest and farmland, with old mine heaps around it.",
+    "f": [
+      "The Golden Dragon Museum holds Sun Loong, said to be the longest imperial processional dragon in the world.",
+      "The town took its name from a local shepherd nicknamed Bendigo after an English boxer."
+    ],
+    "q": {
+      "q": "Bendigo's name goes back to the nickname of…?",
+      "a": "An English boxer",
+      "x": [
+        "A famous gold digger",
+        "A Scottish governor"
+      ]
+    }
+  },
+  "Q595542": {
+    "t": "A town of canals on a vast, shallow estuary",
+    "s": "Just behind the coast south of Perth, the sea floods inland into a huge, shallow lagoon system, the Peel Inlet and Harvey Estuary, often said to be about twice the size of Sydney Harbour. Mandurah spreads around its narrow mouth, laced with canal estates. Dolphins swim right into town, and in summer the estuary is famous for its blue swimmer crabs.",
+    "w": "A town around the narrow mouth of a huge, shallow, lagoon-like estuary just behind the coast, south of Perth.",
+    "f": [
+      "The Dawesville Channel, cut in 1994, gives the estuary a second opening to the sea.",
+      "Mandurah is about 70 km south of Perth."
+    ],
+    "q": {
+      "q": "What is Mandurah's estuary system called?",
+      "a": "Peel-Harvey",
+      "x": [
+        "Swan-Canning",
+        "Leschenault"
+      ]
+    }
+  },
+  "Q488987": {
+    "t": "A Caspian port in an amphitheatre of desert hills",
+    "s": "Bare, rust-coloured hills curve around a bay of the Caspian Sea, and Türkmenbaşy fills the strip of shore at their foot. Founded by the Russians in 1869 as Krasnovodsk, it became the western end of the Trans-Caspian Railway and the ferry gateway to Baku across the sea. Long, pale sand spits close off the bay to the south.",
+    "w": "A port town on a narrow shore beneath bare reddish hills, on a Caspian bay enclosed by long sand spits.",
+    "f": [
+      "The town was renamed Türkmenbaşy in 1993.",
+      "Krasnovodsk Bay is an important wintering ground for waterbirds.",
+      "Ferries cross the Caspian from here to Baku, about 300 km to the west."
+    ],
+    "q": {
+      "q": "Which sea does Türkmenbaşy face?",
+      "a": "The Caspian Sea",
+      "x": [
+        "The Aral Sea",
+        "The Black Sea"
+      ]
+    }
+  },
+  "Q182378": {
+    "t": "Malaysia's planned capital around an artificial lake",
+    "s": "Putrajaya was carved out of oil-palm plantations in the 1990s, and its plan is unmistakable: a long, straight boulevard through the centre and an artificial lake winding around it in green, branching arms. Malaysia's government moved most of its ministries here from Kuala Lumpur, about 25 km to the north. A pink-domed mosque stands on the lakeshore.",
+    "w": "A planned town with a long, straight central boulevard and a branching artificial lake, among green hills south of Kuala Lumpur.",
+    "f": [
+      "The city is named after Tunku Abdul Rahman Putra, Malaysia's first prime minister.",
+      "Government offices began moving here from Kuala Lumpur in 1999."
+    ],
+    "q": {
+      "q": "Who is Putrajaya named after?",
+      "a": "Tunku Abdul Rahman Putra",
+      "x": [
+        "Tun Abdul Razak",
+        "Tun Hussein Onn"
+      ]
+    }
+  },
+  "Q606162": {
+    "t": "Australia's beef capital, right on the Tropic of Capricorn",
+    "s": "The Tropic of Capricorn runs straight through Rockhampton, so the city stands exactly on the edge of the tropics. The broad, brown Fitzroy River loops through it on the last stretch to the sea, and the forested ridge of Mount Archer rises to the north-east. Cattle country spreads inland, and the city calls itself the Beef Capital of Australia, with bull statues dotting its streets.",
+    "w": "A city on a broad river near its mouth, with a forested ridge to the north-east and wide cattle country inland.",
+    "f": [
+      "By catchment area, the Fitzroy is the largest of all rivers flowing into the Great Barrier Reef lagoon.",
+      "Great Keppel and the other Keppel islands lie offshore, about 50 km to the east."
+    ],
+    "q": {
+      "q": "Rockhampton calls itself Australia's capital of what?",
+      "a": "Beef",
+      "x": [
+        "Sugar",
+        "Wool"
+      ]
+    }
+  },
+  "Q3056359": {
+    "t": "Belitung's tin town, among turquoise mining lakes",
+    "s": "Belitung looks freckled from above: across the flat green island, old tin-mining pits have filled with water and glow turquoise and milky white. Tanjung Pandan, the main town, stands on the west coast by a river mouth. Tin was mined here for centuries, and the island's beaches are scattered with huge, smooth granite boulders, some the size of houses.",
+    "w": "A town on the west coast of a flat green island dotted with bright turquoise and white pools of old mines.",
+    "f": [
+      "The novel and film Laskar Pelangi, “The Rainbow Troops”, made Belitung famous across Indonesia.",
+      "Belitung became a UNESCO Global Geopark in 2021."
+    ],
+    "q": {
+      "q": "Which metal was mined on Belitung for centuries?",
+      "a": "Tin",
+      "x": [
+        "Nickel",
+        "Gold"
+      ]
+    }
+  },
+  "Q1017362": {
+    "t": "A highland town in the broad Wahgi Valley",
+    "s": "Deep in the highlands of Papua New Guinea, more than 1,500 m up, the Wahgi Valley opens wide and flat between forested ranges, patched with coffee gardens and smallholdings. Mount Hagen is its main town, named after an extinct volcano of almost 3,800 m to the north-west. Every August the Mount Hagen Show gathers clans in feathers and face paint for one of the country's great cultural festivals.",
+    "w": "A town on a broad, flat, green highland valley floor between steep forested ranges, with a big volcanic massif to the north-west.",
+    "f": [
+      "The town and the mountain are named after Curt von Hagen, a German colonial official of the 1890s.",
+      "The Wahgi Valley is one of Papua New Guinea's main coffee-growing areas."
+    ],
+    "q": {
+      "q": "Which highland valley is Mount Hagen in?",
+      "a": "The Wahgi Valley",
+      "x": [
+        "The Sepik Valley",
+        "The Markham Valley"
+      ]
+    }
+  },
+  "Q203380": {
+    "t": "An Art Deco seaside town on Hawke Bay",
+    "s": "Napier's centre was rebuilt almost all at once in the early 1930s, in the style of the day, and it is now one of the most complete Art Deco towns in the world. It faces the long, grey-shingle curve of Hawke Bay, with Bluff Hill at its northern end. Inland, the plains of Hawke's Bay are a patchwork of vineyards and orchards.",
+    "w": "A coastal town at the northern end of a long, curving bay, below a hill, with green plains of vineyards inland.",
+    "f": [
+      "Cape Kidnappers, at the southern end of the bay, has a large gannet colony on its cliffs.",
+      "Captain Cook named Cape Kidnappers in 1769.",
+      "Every February the town holds an Art Deco festival, with vintage cars and 1930s costume."
+    ],
+    "q": {
+      "q": "Which architectural style is Napier famous for?",
+      "a": "Art Deco",
+      "x": [
+        "Gothic Revival",
+        "Brutalism"
+      ]
+    }
+  },
+  "Q498192": {
+    "t": "Highland town of coffee and the Asaro Mudmen",
+    "s": "At about 1,600 m in Papua New Guinea's Eastern Highlands, Goroka fills a grassy valley ringed by forested mountains, with a long airstrip running right through town. Coffee gardens cover the slopes around it. Nearby, in the Asaro valley, the Mudmen perform in ghostly grey clay masks with their bodies smeared in mud — one of the most striking sights of the Goroka Show.",
+    "w": "A town on a grassy highland valley floor with a runway through its middle, ringed by forested mountains.",
+    "f": [
+      "The Goroka Show, held since the 1950s, brings together groups from across the Highlands each September.",
+      "Goroka is one of the centres of Papua New Guinea's coffee industry."
+    ],
+    "q": {
+      "q": "Which group from near Goroka is famous for grey clay masks?",
+      "a": "The Asaro Mudmen",
+      "x": [
+        "The Huli Wigmen",
+        "The Sepik crocodile men"
+      ]
+    }
+  },
+  "Q580973": {
+    "t": "An orchard town in the shadow of an old volcano",
+    "s": "South-west of Orange the land rises into Mount Canobolas, an extinct volcano almost 1,400 m high that is sometimes dusted with snow in winter. Its rich volcanic soils feed a patchwork of orchards and cool-climate vineyards on the tablelands around the city, which stands at about 860 m. The poet Banjo Paterson, who wrote “Waltzing Matilda”, was born near here in 1864.",
+    "w": "A town on rolling tablelands of orchards and vineyards, with a broad, lone mountain rising to the south-west.",
+    "f": [
+      "Orange was named after Prince William of Orange, later King William II of the Netherlands.",
+      "In 1851 gold was found at Ophir, north of Orange — one of Australia's first payable goldfields."
+    ],
+    "q": {
+      "q": "Which poet of “Waltzing Matilda” was born near Orange?",
+      "a": "Banjo Paterson",
+      "x": [
+        "Henry Lawson",
+        "C. J. Dennis"
+      ]
+    }
+  },
+  "Q329503": {
+    "t": "A gold town beside a pit you can see from the sky",
+    "s": "Kalgoorlie's Super Pit is one of the few man-made holes you can clearly see from cruise height: an oval of grey, stepped terraces about 3.5 km long and more than 500 m deep, cut into the red earth beside the town. Paddy Hannan found gold here in 1893, starting a rush to the Golden Mile. Around it, dry woodland and salt lakes stretch to every horizon.",
+    "w": "A town in red, dry country beside a huge grey oval open-cut pit, with white salt lakes scattered around.",
+    "f": [
+      "Water reaches Kalgoorlie through a pipeline about 530 km long from near Perth, opened in 1903.",
+      "The Golden Mile around the Super Pit has been called the richest square mile on Earth."
+    ],
+    "q": {
+      "q": "Who found gold at Kalgoorlie in 1893?",
+      "a": "Paddy Hannan",
+      "x": [
+        "Edward Hargraves",
+        "Arthur Bayley"
+      ]
+    }
+  },
+  "Q606335": {
+    "t": "An outback mining city with a smokestack skyline",
+    "s": "Out in the red ranges of north-west Queensland, a tall smelter stack and grey mine workings mark Mount Isa, one of the world's great base-metal mines. A prospector found ore here in 1923, and the town grew on copper, lead, zinc and silver. Its city limits once covered more than 40,000 km², which long made it one of the largest cities in the world by area.",
+    "w": "A town in red, rocky outback ranges beside a large mine with grey spoil heaps and a tall stack, with a reservoir nearby.",
+    "f": [
+      "The lead smelter stack, about 270 m tall, is the tallest structure in Queensland.",
+      "The Mount Isa Rodeo, held each August, is one of the biggest in the Southern Hemisphere."
+    ],
+    "q": {
+      "q": "Which metals made Mount Isa's mine famous?",
+      "a": "Copper, lead, zinc and silver",
+      "x": [
+        "Gold and opals",
+        "Coal and iron ore"
+      ]
+    }
+  },
+  "Q706105": {
+    "t": "A plains city on the Macquarie, with an open-range zoo",
+    "s": "West of the Great Dividing Range the land flattens into the wide wheat and sheep plains of inland New South Wales, and Dubbo stands on the Macquarie River where several highways meet. It is the hub for the whole region. On its edge, the Taronga Western Plains Zoo lets rhinos, giraffes and elephants roam open paddocks that look almost like an African savanna.",
+    "w": "A town on a winding river amid flat plains of large, rectangular paddocks in brown and green.",
+    "f": [
+      "Taronga Western Plains Zoo opened in 1977 as Australia's first open-range zoo.",
+      "Old Dubbo Gaol, in use until 1966, is now a museum."
+    ],
+    "q": {
+      "q": "Which open-range zoo is at Dubbo?",
+      "a": "Taronga Western Plains Zoo",
+      "x": [
+        "Werribee Open Range Zoo",
+        "Monarto Safari Park"
+      ]
+    }
+  },
+  "Q230818": {
+    "t": "A green oasis in a high, bare mountain desert",
+    "s": "At about 3,500 m, Leh is one of the highest towns on Earth, and yet the ground here is still more than 7 km below cruise altitude. It is a small green patch where streams run down to the Indus, surrounded by bare brown and ochre mountains in a cold, dry desert. Above the old town, the nine-storey Leh Palace, built in the 17th century, recalls the Potala in Lhasa.",
+    "w": "A small green oasis at the foot of bare brown mountains above the Indus valley, with snowy peaks to the south.",
+    "f": [
+      "Leh's airport, at about 3,250 m, is one of the highest commercial airports in the world.",
+      "Stok Kangri, across the Indus to the south, rises to about 6,150 m."
+    ],
+    "q": {
+      "q": "Which great river flows past Leh?",
+      "a": "The Indus",
+      "x": [
+        "The Shyok",
+        "The Sutlej"
+      ]
+    }
+  },
+  "Q883831": {
+    "t": "Sunny wine town of the Wairau Plains",
+    "s": "The Wairau River braids its way across a wide, flat valley at the top of the South Island, and the plain on either side is ruled into fine stripes by vineyards. Blenheim is the town at the heart of it all — Marlborough, New Zealand's biggest wine region and the home of its famous Sauvignon Blanc. It is regularly one of the sunniest places in the country.",
+    "w": "A town on a wide, flat valley floor patterned with stripes of vineyards, beside a braided river, with hills on both sides.",
+    "f": [
+      "Blenheim takes its name from the Battle of Blenheim, fought in Bavaria in 1704.",
+      "Marlborough produces most of New Zealand's wine."
+    ],
+    "q": {
+      "q": "The region around Blenheim is world-famous for which grape?",
+      "a": "Sauvignon Blanc",
+      "x": [
+        "Shiraz",
+        "Malbec"
+      ]
+    }
+  },
+  "Q131233": {
+    "t": "A thread of land between lagoon and open ocean",
+    "s": "South Tarawa is a ribbon of land often only a few hundred metres wide, strung along the southern rim of a triangular atoll, with a turquoise lagoon on one side and the deep blue Pacific on the other. Causeways link its islets into one long, crowded strip. It is the capital of Kiribati, a country whose islands are scattered across thousands of kilometres of ocean.",
+    "w": "A thin, crowded strip of land along the southern edge of a turquoise triangular lagoon, linked by causeways.",
+    "f": [
+      "Kiribati is the only country with territory in all four hemispheres.",
+      "Most of the land on Tarawa is only a few metres above sea level.",
+      "Tarawa lies about 150 km north of the equator."
+    ],
+    "q": {
+      "q": "South Tarawa lies just north of which line?",
+      "a": "The equator",
+      "x": [
+        "The Tropic of Cancer",
+        "The Tropic of Capricorn"
+      ]
+    }
+  },
+  "Q605267": {
+    "t": "A windswept port with coral islands offshore",
+    "s": "Southerly winds blow along this stretch of the Western Australian coast so steadily that the river gums near Geraldton grow almost lying down — the famous leaning trees of Greenough. The town curves around Champion Bay, and its port ships grain and iron ore. About 60 km offshore lie the Houtman Abrolhos, low coral islands on some of the southernmost coral reefs in the Indian Ocean.",
+    "w": "A coastal town on a curving bay, with low coral islands scattered far offshore to the west.",
+    "f": [
+      "The Houtman Abrolhos are the heart of Western Australia's rock lobster fishery.",
+      "Geraldton is known as one of Australia's best spots for windsurfing and kitesurfing."
+    ],
+    "q": {
+      "q": "Which island group lies off Geraldton?",
+      "a": "The Houtman Abrolhos",
+      "x": [
+        "The Montebello Islands",
+        "The Recherche Archipelago"
+      ]
+    }
+  },
+  "Q704257": {
+    "t": "Western Australia's oldest town, on a granite-ringed sound",
+    "s": "Granite headlands curl around King George Sound, sheltering two nearly enclosed harbours, Princess Royal and Oyster, and Albany stands between them. Founded in 1826, three years before Perth, it is the oldest European settlement in Western Australia. Until 1978 it was also home to Australia's last whaling station; today the whales are watched from the cliffs instead.",
+    "w": "A town between two almost enclosed harbours on a wide sound framed by grey granite headlands.",
+    "f": [
+      "Southern right and humpback whales visit King George Sound in winter and spring.",
+      "The Natural Bridge and The Gap, granite formations in nearby Torndirrup National Park, face the Southern Ocean."
+    ],
+    "q": {
+      "q": "Albany's whaling station, Australia's last, closed in which year?",
+      "a": "1978",
+      "x": [
+        "1938",
+        "1958"
+      ]
+    }
+  },
+  "Q12919": {
+    "t": "A capital on a ring of coral barely above the waves",
+    "s": "Majuro is a necklace of narrow coral islets around a wide lagoon, joined into one long strip by a single road that runs for tens of kilometres along the rim. Most of it rises only about 3 m above the sea. It is the capital of the Marshall Islands, a nation of 29 atolls and five islands spread across a vast area of the central Pacific.",
+    "w": "A thin ring of green-and-white coral islets around a large turquoise lagoon, with a road along the southern rim.",
+    "f": [
+      "Majuro's road runs for about 50 km, from one end of the atoll to the other.",
+      "The Marshall Islands have only about 180 km² of land but nearly 2 million km² of sea."
+    ],
+    "q": {
+      "q": "Roughly how high does most of Majuro rise above the sea?",
+      "a": "About 3 metres",
+      "x": [
+        "About 30 metres",
+        "About 300 metres"
+      ]
+    }
+  },
+  "Q606169": {
+    "t": "A high tableland town of autumn colours and gorges",
+    "s": "At nearly 1,000 m on the New England Tableland, Armidale is cool enough for European trees, and in autumn its streets turn red and gold. Around it, granite-studded grazing country rolls away until the plateau's eastern edge breaks into deep gorges, where waterfalls drop more than 200 m. For inland Australia, it is unusual: a university town with two cathedrals.",
+    "w": "A town on a high, rolling plateau of pastures and granite outcrops; deep forested gorges cut the land to the east.",
+    "f": [
+      "Wollomombi Falls, east of town, drop more than 200 m and are among the highest in Australia.",
+      "The University of New England began in 1938 as Australia's first university college outside a state capital."
+    ],
+    "q": {
+      "q": "Armidale sits on which tableland?",
+      "a": "New England",
+      "x": [
+        "Atherton",
+        "Monaro"
+      ]
+    }
+  },
+  "Q706029": {
+    "t": "A steel town where giant cuttlefish gather",
+    "s": "Red-brown iron country meets the blue-green water of Spencer Gulf at Whyalla, a steel town built on ore railed in from the Middleback Range. Each winter the rocky shallows of nearby Point Lowly host one of the ocean's great spectacles: thousands of giant Australian cuttlefish gather to breed, flashing colours at each other. Nowhere else are they known to gather in such numbers.",
+    "w": "A town on the western shore of a long, blue-green gulf, with red-brown ranges and a steelworks by the water.",
+    "f": [
+      "Iron ore from the Middleback Range has been mined for Whyalla's steel since the early 20th century.",
+      "Giant Australian cuttlefish can grow to about half a metre long."
+    ],
+    "q": {
+      "q": "Which animal gathers in thousands near Whyalla each winter?",
+      "a": "The giant Australian cuttlefish",
+      "x": [
+        "The whale shark",
+        "The leafy seadragon"
+      ]
+    }
+  },
+  "Q705705": {
+    "t": "Tasmania's ferry port at the mouth of the Mersey",
+    "s": "On Tasmania's north coast the Mersey River opens into Bass Strait, and Devonport spreads over both of its banks. This is where the Spirit of Tasmania ferries dock after their overnight crossing from the mainland. At the river mouth, the Mersey Bluff lighthouse stands on a rocky headland, and inland, green fields grow on rich, reddish volcanic soil.",
+    "w": "A town on both banks of a river mouth on Tasmania's north coast, facing Bass Strait, with green farmland inland.",
+    "f": [
+      "The Mersey Bluff lighthouse, from 1889, is painted with bold vertical red stripes.",
+      "Bass Strait, which the ferries cross, is about 240 km wide."
+    ],
+    "q": {
+      "q": "Which strait does the ferry from Devonport cross?",
+      "a": "Bass Strait",
+      "x": [
+        "Cook Strait",
+        "Torres Strait"
+      ]
+    }
+  },
+  "Q270734": {
+    "t": "Silver City of the outback, on South Australian time",
+    "s": "A long, grey ridge of mine waste slices through Broken Hill, marking the line of lode — one of the richest silver, lead and zinc orebodies ever found. Around it, red-brown desert plains stretch in every direction. The town is in New South Wales, yet it runs on South Australian time, half an hour behind Sydney, a sign of how closely it has always been tied to Adelaide.",
+    "w": "A town on a red-brown desert plain, with a long grey ridge of mine waste running through its middle.",
+    "f": [
+      "The mining company BHP — Broken Hill Proprietary — was founded here in 1885.",
+      "In 2015 Broken Hill became the first whole Australian city on the National Heritage List.",
+      "Films such as Mad Max 2 were shot in the desert around the town."
+    ],
+    "q": {
+      "q": "Which time does Broken Hill keep?",
+      "a": "South Australian time",
+      "x": [
+        "Sydney time",
+        "Western Australian time"
+      ]
+    }
+  },
+  "Q1309107": {
+    "t": "Red rocks, salt ponds and ancient rock art",
+    "s": "Rust-red, rocky hills of the Pilbara run down to a turquoise sea here, and the coast is speckled with the islands of the Dampier Archipelago. Near Karratha, bright white and pink rectangles of salt evaporation ponds stand out sharply against the red. The Burrup Peninsula next door holds one of the largest collections of rock engravings in the world, listed by UNESCO in 2025.",
+    "w": "A town among rust-red rocky hills by a turquoise sea with islands, beside large white and pink salt ponds.",
+    "f": [
+      "Murujuga, on the Burrup Peninsula, is thought to hold more than a million petroglyphs.",
+      "Karratha was built in the late 1960s to house workers for the iron-ore and gas industries."
+    ],
+    "q": {
+      "q": "The Burrup Peninsula near Karratha is famous for what?",
+      "a": "Ancient rock engravings",
+      "x": [
+        "Dinosaur footprints",
+        "Opal fields"
+      ]
+    }
   }
 }

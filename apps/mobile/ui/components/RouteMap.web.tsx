@@ -4,11 +4,13 @@ import maplibregl, { type Map as GLMap, type Marker as GLMarker, type StyleSpeci
 import 'maplibre-gl/dist/maplibre-gl.css';
 import type { POI } from '@skyatlas/shared';
 import type { RouteMapProps } from './RouteMap';
+import { PLANE_PATH } from './planeGlyph';
 import { palette, line, s as space } from '../design/tokens';
 import { decorative } from '../design/layout';
 import { Label } from '../design/type';
 import { t } from '../../src/i18n';
 import { getCountries } from '../../src/core/data/datasets';
+import { viewSector } from '../../src/core/flight/telemetry';
 
 /**
  * The route as a chart, in a browser.
@@ -218,7 +220,8 @@ function styleFor(night: boolean): StyleSpecification {
       dem: { type: 'raster-dem', tiles: ['dem://{z}/{x}/{y}'], tileSize: 256, maxzoom: 6, encoding: 'terrarium' },
       countries: { type: 'geojson', data: bordersGeoJSON() },
       leg: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
-      flown: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } }
+      flown: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
+      sectors: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } }
     },
     layers: [
       { id: 'ocean', type: 'background', paint: { 'background-color': ink.ocean } },
@@ -226,6 +229,15 @@ function styleFor(night: boolean): StyleSpecification {
       { id: 'relief', type: 'color-relief', source: 'dem', paint: { 'color-relief-color': (night ? RELIEF_NIGHT : RELIEF_DAY) as never } },
       { id: 'shade', type: 'hillshade', source: 'dem', paint: night ? SHADE_NIGHT : SHADE_DAY },
       { id: 'borders', type: 'line', source: 'countries', paint: { 'line-color': ink.border, 'line-width': 0.8 } },
+      {
+        id: 'sectors',
+        type: 'fill',
+        source: 'sectors',
+        paint: {
+          'fill-color': ['case', ['==', ['get', 'mine'], 1], ink.flown, night ? '#9AA5B4' : '#3A4656'],
+          'fill-opacity': ['case', ['==', ['get', 'mine'], 1], night ? 0.14 : 0.16, night ? 0.05 : 0.07]
+        }
+      },
       {
         id: 'leg',
         type: 'line',
@@ -255,10 +267,12 @@ function placeElement(): HTMLDivElement {
   return el;
 }
 
-function paintPlace(el: HTMLElement, name: string, opened: boolean, night: boolean): void {
+function paintPlace(el: HTMLElement, name: string, opened: boolean, night: boolean, city = false): void {
   const ink = night ? NIGHT : DAY;
   const [dot, label] = [el.children[0] as HTMLElement, el.children[1] as HTMLElement];
   const color = opened ? ink.opened : ink.dot;
+  // At night a city is its lights: a warm glow, as it looks from the window.
+  dot.style.boxShadow = night && city ? '0 0 6px 3px rgba(255, 196, 107, 0.75), 0 0 16px 6px rgba(255, 170, 60, 0.35)' : 'none';
   dot.style.border = `1.5px solid ${color}`;
   dot.style.background = opened ? color : 'transparent';
   label.textContent = name;
@@ -276,7 +290,11 @@ export default function RouteMap({
   labelFor,
   night: nightOutside = false,
   expanded = false,
-  onToggleExpand
+  onToggleExpand,
+  heading = 0,
+  seatSide = 'unknown',
+  viewKm,
+  previewing = false
 }: RouteMapProps) {
   const host = useRef<HTMLDivElement | null>(null);
   const map = useRef<GLMap | null>(null);
@@ -328,9 +346,11 @@ export default function RouteMap({
     m.on('zoomstart', touched);
     m.on('load', () => setReady(true));
     const el = document.createElement('div');
-    el.style.cssText = `width:22px;height:22px;border-radius:11px;border:1px solid ${palette.amberDim};display:flex;align-items:center;justify-content:center`;
-    el.innerHTML = `<div style="width:8px;height:8px;border-radius:4px;background:${palette.amber}"></div>`;
-    plane.current = new maplibregl.Marker({ element: el }).setLngLat([position.lon, position.lat]).addTo(m);
+    el.style.cssText = 'width:30px;height:30px;pointer-events:none';
+    el.innerHTML = `<svg width="30" height="30" viewBox="0 0 24 24"><path d="${PLANE_PATH}" stroke-width="0.9" stroke-linejoin="round"/></svg>`;
+    // Rotation is the marker's own option: a CSS transform on the element
+    // would be overwritten by the one that positions it.
+    plane.current = new maplibregl.Marker({ element: el, rotationAlignment: 'map' }).setLngLat([position.lon, position.lat]).addTo(m);
     map.current = m;
     const observer = new ResizeObserver(() => m.resize());
     observer.observe(host.current);
@@ -358,6 +378,8 @@ export default function RouteMap({
     m.setPaintProperty('borders', 'line-color', ink.border);
     m.setPaintProperty('leg', 'line-color', ink.leg);
     m.setPaintProperty('flown', 'line-color', ink.flown);
+    m.setPaintProperty('sectors', 'fill-color', ['case', ['==', ['get', 'mine'], 1], ink.flown, night ? '#9AA5B4' : '#3A4656']);
+    m.setPaintProperty('sectors', 'fill-opacity', ['case', ['==', ['get', 'mine'], 1], night ? 0.14 : 0.16, night ? 0.05 : 0.07]);
   }, [night, ready]);
 
   const path = useMemo(() => unwrap(route), [route]);
@@ -375,11 +397,37 @@ export default function RouteMap({
     const n = route.filter((p) => p.elapsedSeconds <= position.elapsedS).length;
     const coords = n > 1 ? path.slice(0, n) : [[position.lon, position.lat], [position.lon, position.lat]];
     src.setData({ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: coords } });
-    plane.current?.setLngLat([position.lon, position.lat]);
+    plane.current?.setLngLat([position.lon, position.lat]).setRotation(heading);
     if (follow && !interacting.current) {
       m.easeTo({ center: [position.lon, position.lat], zoom: expanded ? CRUISE_ZOOM + 0.8 : CRUISE_ZOOM, duration: 600 });
     }
-  }, [route, path, position.elapsedS, position.lat, position.lon, follow, expanded, ready]);
+  }, [route, path, position.elapsedS, position.lat, position.lon, heading, follow, expanded, ready]);
+
+  // The aircraft's colours follow the theme; it dims while previewing another moment.
+  useEffect(() => {
+    const el = plane.current?.getElement();
+    const path = el?.querySelector('path');
+    if (!el || !path) return;
+    path.setAttribute('fill', night ? palette.amber : '#E07A12');
+    path.setAttribute('stroke', night ? palette.void : '#FFFFFF');
+    el.style.opacity = previewing ? '0.75' : '1';
+  }, [night, previewing, ready]);
+
+  // What each window sees: a sector abeam, the passenger's own drawn stronger.
+  useEffect(() => {
+    const src = map.current?.getSource('sectors') as maplibregl.GeoJSONSource | undefined;
+    if (!ready || !src) return;
+    if (!viewKm) {
+      src.setData({ type: 'FeatureCollection', features: [] });
+      return;
+    }
+    const sector = (side: 'left' | 'right'): GeoJSON.Feature => ({
+      type: 'Feature',
+      properties: { mine: seatSide === side ? 1 : 0 },
+      geometry: { type: 'Polygon', coordinates: [viewSector(position.lat, position.lon, heading, side, viewKm)] }
+    });
+    src.setData({ type: 'FeatureCollection', features: [sector('left'), sector('right')] });
+  }, [position.lat, position.lon, heading, seatSide, viewKm, ready]);
 
   // Places: one mark each, repainted when opened or when the theme changes.
   useEffect(() => {
@@ -405,9 +453,11 @@ export default function RouteMap({
         marks.current.set(poi.id, mk);
       }
       const opened = seen?.has(poi.id) ?? false;
-      paintPlace(mk.getElement(), labelFor?.(poi) ?? poi.name, opened, night);
+      const city = poi.category === 'city';
+      paintPlace(mk.getElement(), labelFor?.(poi) ?? poi.name, opened, night, city);
       // At cruise scale only the notable and the opened are named; closer in, all.
-      const named = opened || (poi.rank ?? 0) >= 8 || zoom >= 5.5;
+      // At night every city is named: its lights are what the window shows.
+      const named = opened || (poi.rank ?? 0) >= 8 || zoom >= 5.5 || (night && city);
       (mk.getElement().children[1] as HTMLElement).style.display = named ? 'block' : 'none';
     }
   }, [pois, seen, labelFor, night, zoom]);

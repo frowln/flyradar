@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { View, StyleSheet, Pressable } from 'react-native';
+import Svg, { Path } from 'react-native-svg';
 import { Map, Camera, GeoJSONSource, Layer, Marker, RasterSource, RasterDEMSource } from '@maplibre/maplibre-react-native';
 import type { RoutePoint, POI } from '@skyatlas/shared';
 import { palette, line, s as space } from '../design/tokens';
@@ -7,6 +8,9 @@ import { decorative } from '../design/layout';
 import { Label } from '../design/type';
 import { t } from '../../src/i18n';
 import { MAP_STYLE_DAY, MAP_STYLE_NIGHT, RELIEF_TILES, DEM_TILES, DEM_MAX_ZOOM } from '../../src/core/map/offlineMap';
+import { viewSector } from '../../src/core/flight/telemetry';
+
+import { PLANE_PATH } from './planeGlyph';
 
 export interface RouteMapProps {
   route: RoutePoint[];
@@ -20,6 +24,14 @@ export interface RouteMapProps {
   labelFor?: (poi: POI) => string;
   /** Countries crossed; used by the offline sketch fallback. */
   highlight?: string[];
+  /** Course over the ground, degrees: turns the aircraft on the map. */
+  heading?: number;
+  /** The passenger's window, whose view sector is drawn stronger. */
+  seatSide?: 'left' | 'right' | 'middle' | 'unknown';
+  /** How far a window sees, km; no sectors when absent. */
+  viewKm?: number;
+  /** Looking at another moment of the flight than now. */
+  previewing?: boolean;
   /** Dark chart instead of the coloured relief — by default when it is night outside. */
   night?: boolean;
   /** Whether the map fills the screen; shows the expand/collapse control when a handler is given. */
@@ -105,7 +117,11 @@ export default function RouteMap({
   labelFor,
   night: nightOutside = false,
   expanded = false,
-  onToggleExpand
+  onToggleExpand,
+  heading = 0,
+  seatSide = 'unknown',
+  viewKm,
+  previewing = false
 }: RouteMapProps) {
   const [interacting, setInteracting] = useState(false);
   // The passenger's choice wins over the clock until they leave the screen.
@@ -169,13 +185,26 @@ export default function RouteMap({
         properties: {
           id: poi.id,
           name: labelFor?.(poi) ?? poi.name,
-          opened: seen?.has(poi.id) ? 1 : 0
+          opened: seen?.has(poi.id) ? 1 : 0,
+          city: poi.category === 'city' ? 1 : 0,
+          rank: poi.rank ?? 5
         },
         geometry: { type: 'Point' as const, coordinates: [poi.lon, poi.lat] }
       }))
     }),
     [pois, seen, labelFor]
   );
+
+  // What each window sees: a sector abeam, the passenger's own drawn stronger.
+  const sectors = useMemo(() => {
+    if (!viewKm) return null;
+    const sector = (side: 'left' | 'right') => ({
+      type: 'Feature' as const,
+      properties: { mine: seatSide === side ? 1 : 0 },
+      geometry: { type: 'Polygon' as const, coordinates: [viewSector(position.lat, position.lon, heading, side, viewKm)] }
+    });
+    return { type: 'FeatureCollection' as const, features: [sector('left'), sector('right')] };
+  }, [position.lat, position.lon, heading, seatSide, viewKm]);
 
   const onPlacePress = (e: { nativeEvent: { features: GeoJSON.Feature[] } }) => {
     const id = e.nativeEvent.features[0]?.properties?.['id'];
@@ -217,6 +246,19 @@ export default function RouteMap({
             <Layer id="hillshade" type="hillshade" beforeId="water" paint={night ? HILLSHADE.night : HILLSHADE.day} />
           </RasterDEMSource>
 
+          {sectors ? (
+            <GeoJSONSource id="sectors" data={sectors}>
+              <Layer
+                id="sector-fill"
+                type="fill"
+                paint={{
+                  'fill-color': ['case', ['==', ['get', 'mine'], 1], ink.flown, night ? '#9AA5B4' : '#3A4656'],
+                  'fill-opacity': ['case', ['==', ['get', 'mine'], 1], night ? 0.14 : 0.16, night ? 0.05 : 0.07]
+                }}
+              />
+            </GeoJSONSource>
+          ) : null}
+
           <GeoJSONSource id="leg" data={leg}>
             <Layer
               id="leg-line"
@@ -236,6 +278,19 @@ export default function RouteMap({
           </GeoJSONSource>
 
           <GeoJSONSource id="places" data={places} onPress={onPlacePress}>
+            {night ? (
+              <Layer
+                id="city-glow"
+                type="circle"
+                filter={['==', ['get', 'city'], 1]}
+                paint={{
+                  'circle-radius': ['interpolate', ['linear'], ['get', 'rank'], 3, 6, 10, 16],
+                  'circle-color': '#FFC46B',
+                  'circle-opacity': 0.55,
+                  'circle-blur': 1
+                }}
+              />
+            ) : null}
             <Layer
               id="place-dot"
               type="circle"
@@ -267,8 +322,10 @@ export default function RouteMap({
           </GeoJSONSource>
 
           <Marker lngLat={[position.lon, position.lat]} anchor="center">
-            <View style={styles.planeHalo}>
-              <View style={styles.plane} />
+            <View style={[styles.planeBox, { transform: [{ rotate: `${heading}deg` }] }, previewing && styles.planePreview]}>
+              <Svg width={30} height={30} viewBox="0 0 24 24">
+                <Path d={PLANE_PATH} fill={night ? palette.amber : '#E07A12'} stroke={night ? palette.void : '#FFFFFF'} strokeWidth={0.9} strokeLinejoin="round" />
+              </Svg>
             </View>
           </Marker>
         </Map>
@@ -312,6 +369,8 @@ const styles = StyleSheet.create({
     borderWidth: line.hair,
     borderColor: palette.rule
   },
+  planeBox: { width: 30, height: 30 },
+  planePreview: { opacity: 0.75 },
   planeHalo: {
     width: 22,
     height: 22,

@@ -9,11 +9,23 @@ import { Label, Title, Body, Data, DataSmall, Small, typeStyles } from '../desig
 import { Screen, Cells, PressSurface, Space, Row, Gutter, textHitSlop } from '../design/layout';
 import { useReducedMotion } from '../motion';
 import RouteMap from '../components/RouteMap';
+import RouteScrubber, { type ScrubMark } from '../components/RouteScrubber';
+import CrossingBanner, { type Crossing } from '../components/CrossingBanner';
 import RouteRule from '../components/RouteRule';
 import SideMark from '../components/SideMark';
 import { loadPackage } from '../../src/core/offline/packageStore';
 import { useSession } from '../../src/core/flight/session';
-import { positionNow, offsetFromFix, type Now } from '../../src/core/flight/position';
+import { positionNow, positionAt, offsetFromFix, type Now } from '../../src/core/flight/position';
+import { computeMoments } from '../../src/core/flight/moments';
+import {
+  groundSpeedKmh,
+  outsideTempC,
+  compassPoint,
+  zoneBelow,
+  utcOffsetMinutes,
+  clockIn,
+  usefulRangeKm
+} from '../../src/core/flight/telemetry';
 import { whatsOutside, type InView } from '../../src/core/flight/nowView';
 import { nextGuess, type Guess } from '../../src/core/flight/guess';
 import { groundHidden } from '../../src/core/flight/clouds';
@@ -23,7 +35,7 @@ import { settings } from '../../src/core/settings';
 import { distinctCountries } from '../../src/core/places/countries';
 import { placeName, placeText, countryName } from '../../src/core/places/names';
 import { cityName } from '../../src/core/data/airports';
-import { km, metres } from '../../src/core/units';
+import { km, metres, speed, temperature } from '../../src/core/units';
 import { haversine } from '../../src/core/geo/greatCircle';
 import { haptics } from '../../src/core/ux/haptics';
 import { t, getLocale } from '../../src/i18n';
@@ -180,6 +192,9 @@ export default function AloftScreen() {
   const [now, setNow] = useState(() => Date.now());
   const [retiming, setRetiming] = useState(false);
   const [mapExpanded, setMapExpanded] = useState(false);
+  // A moment of the flight picked on the scrubber; null follows the aircraft.
+  const [preview, setPreview] = useState<number | null>(null);
+  const [crossing, setCrossing] = useState<Crossing | null>(null);
   const landed = useRef(false);
   const reduced = useReducedMotion();
 
@@ -235,6 +250,52 @@ export default function AloftScreen() {
   );
 
   const outside = useMemo(() => (pkg && pos ? whatsOutside(pkg, pos, takeoff) : null), [pkg, pos, takeoff]);
+
+  // What the screen shows: now, or the moment picked on the scrubber. Haptics,
+  // narration, the guess and landing follow the aircraft, never the preview.
+  const view: Now | null = useMemo(() => (pkg && pos && preview != null ? positionAt(pkg.route, preview) : pos), [pkg, pos, preview]);
+  const viewOutside = useMemo(
+    () => (preview != null && pkg && view ? whatsOutside(pkg, view, takeoff) : outside),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [preview, pkg, view, outside]
+  );
+  const scrubMarks: ScrubMark[] = useMemo(
+    () =>
+      pkg && takeoff
+        ? computeMoments({ route: pkg.route, pois: pkg.pois, countries: pkg.countries, takeoff })
+            .filter((m) => m.kind === 'sight')
+            .map((m) => ({ at: m.at, side: m.side as ScrubMark['side'], weight: m.weight }))
+        : [],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [pkg, session.takeoffAt]
+  );
+
+  // A border crossed, or the clocks below moving: said once, on screen, for a while.
+  const lastCountry = useRef<string | null | undefined>(undefined);
+  const lastOffset = useRef<number | null>(null);
+  useEffect(() => {
+    if (!outside || !pos || !takeoff) return;
+    const cc = outside.countryNow;
+    const when = new Date(takeoff.getTime() + pos.elapsedS * 1000);
+    const tz = zoneBelow(pos.lat, pos.lon);
+    const offset = tz ? utcOffsetMinutes(tz, when) : null;
+    const first = lastCountry.current === undefined;
+    const newCountry = !first && cc && cc !== lastCountry.current;
+    const shift = !first && offset != null && lastOffset.current != null && offset !== lastOffset.current ? offset - lastOffset.current : 0;
+    if (newCountry || (shift && cc)) {
+      setCrossing({ cc: cc!, time: tz ? clockIn(tz, when) : undefined, shiftMin: shift || undefined, zoneOnly: !newCountry });
+      haptics.success?.();
+    }
+    if (cc) lastCountry.current = cc;
+    else if (first) lastCountry.current = null;
+    if (offset != null) lastOffset.current = offset;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [outside?.countryNow, pos?.elapsedS]);
+  useEffect(() => {
+    if (!crossing) return;
+    const id = setTimeout(() => setCrossing(null), 25_000);
+    return () => clearTimeout(id);
+  }, [crossing]);
 
   const [narrate, setNarrate] = useState(settings.getNarration());
   const guess = useMemo(
@@ -323,18 +384,23 @@ export default function AloftScreen() {
       </Screen>
     );
   }
-  if (!pkg || !pos || !outside || !takeoff) return <Screen />;
+  if (!pkg || !pos || !outside || !takeoff || !view || !viewOutside) return <Screen />;
 
   const { flight, route } = pkg;
   const end = route[route.length - 1]!.elapsedSeconds;
   const last = route[route.length - 1]!;
-  const leftKm = km(haversine(pos.lat, pos.lon, last.lat, last.lon));
-  const alt = metres(pos.altitude);
+  const leftKm = km(haversine(view.lat, view.lon, last.lat, last.lon));
+  const alt = metres(view.altitude);
+  const spd = speed(groundSpeedKmh(route, view.elapsedS));
+  const temp = temperature(outsideTempC(view.altitude));
+  const tzBelow = zoneBelow(view.lat, view.lon);
+  const timeBelow = tzBelow ? clockIn(tzBelow, new Date(takeoff.getTime() + view.elapsedS * 1000)) : '';
+  const course = `${t(`compass.${compassPoint(view.heading)}`)} ${Math.round(((view.heading % 360) + 360) % 360)}°`;
   const countries = distinctCountries(pkg.countries ?? []);
-  const passedCountries = distinctCountries((pkg.countries ?? []).filter((c) => c.enterAt <= pos.elapsedS));
+  const passedCountries = distinctCountries((pkg.countries ?? []).filter((c) => c.enterAt <= view.elapsedS));
   const lit = new Set([...session.opened, ...session.spotted]);
-  const nothing = outside.left.length === 0 && outside.right.length === 0 && outside.below.length === 0;
-  const nextSight = outside.next[0];
+  const nothing = viewOutside.left.length === 0 && viewOutside.right.length === 0 && viewOutside.below.length === 0;
+  const nextSight = viewOutside.next[0];
 
   return (
     <Screen>
@@ -359,17 +425,24 @@ export default function AloftScreen() {
       <View style={mapExpanded ? styles.flex : { height: Math.round(height * 0.34) }}>
         <RouteMap
           route={route}
-          position={{ lat: pos.lat, lon: pos.lon, elapsedS: pos.elapsedS }}
+          position={{ lat: view.lat, lon: view.lon, elapsedS: view.elapsedS }}
+          heading={view.heading}
+          seatSide={pkg.seat?.side}
+          viewKm={usefulRangeKm(view.altitude)}
+          previewing={preview != null}
           pois={pkg.pois}
           seen={lit}
           highlight={countries}
           onSelectPOI={openPlace}
           labelFor={(p) => placeName(p, locale)}
-          night={!outside.daylight}
+          night={!viewOutside.daylight}
           expanded={mapExpanded}
           onToggleExpand={() => setMapExpanded((v) => !v)}
         />
       </View>
+
+      <RouteScrubber end={end} live={pos.elapsedS} value={preview} marks={scrubMarks} onChange={setPreview} />
+      {crossing && preview == null ? <CrossingBanner crossing={crossing} onClose={() => setCrossing(null)} /> : null}
 
       <ScrollView style={[styles.panel, mapExpanded && styles.hidden]} contentContainerStyle={styles.panelContent}>
         <Space h={s.x4} />
@@ -378,16 +451,16 @@ export default function AloftScreen() {
           toCode={flight.destination.iata}
           fromCity={cityName(flight.origin, locale)}
           toCity={cityName(flight.destination, locale)}
-          progress={pos.progress}
+          progress={view.progress}
         />
         <Space h={s.x4} />
         <Cells
           items={[
             {
-              value: clock(end - pos.elapsedS),
+              value: clock(end - view.elapsedS),
               label: t('aloft.remaining'),
               tone: 'accent',
-              spoken: `${t('aloft.remaining')}: ${spokenDuration(end - pos.elapsedS)}`
+              spoken: `${t('aloft.remaining')}: ${spokenDuration(end - view.elapsedS)}`
             },
             {
               value: leftKm.value,
@@ -401,6 +474,22 @@ export default function AloftScreen() {
             }
           ]}
         />
+        <Cells
+          items={[
+            {
+              value: spd.value,
+              label: t(`unit.${spd.unit}`),
+              spoken: `${t('aloft.speed')}: ${spd.value} ${t(`unit.${spd.unit}`)}`
+            },
+            { value: course, label: t('aloft.course'), spoken: `${t('aloft.course')}: ${course}` },
+            {
+              value: `${temp.value}°`,
+              label: t('aloft.tempOutside'),
+              spoken: `${t('aloft.tempOutside')}: ${temp.value} ${t(`unit.${temp.unit}`)}, ${t('aloft.estimate')}`
+            },
+            ...(timeBelow ? [{ value: timeBelow, label: t('aloft.timeBelow'), spoken: `${t('aloft.timeBelow')}: ${timeBelow}` }] : [])
+          ]}
+        />
 
         <Gutter style={styles.nowHead}>
           <Row style={styles.spread}>
@@ -408,17 +497,17 @@ export default function AloftScreen() {
               {t('aloft.outside')}
             </Label>
             <DataSmall style={typeStyles.shrink}>
-              {outside.countryNow ? countryName(outside.countryNow, locale) : t('aloft.overWater')}
-              {!outside.daylight ? ` · ${t('aloft.night')}` : ''}
+              {viewOutside.countryNow ? countryName(viewOutside.countryNow, locale) : t('aloft.overWater')}
+              {!viewOutside.daylight ? ` · ${t('aloft.night')}` : ''}
             </DataSmall>
           </Row>
-          {!outside.daylight ? (
+          {!viewOutside.daylight ? (
             <>
               <Space h={s.x1} />
               <Small>{t('aloft.nightHint')}</Small>
             </>
           ) : null}
-          {outside.daylight && groundHidden(pkg, pos.elapsedS) ? (
+          {viewOutside.daylight && groundHidden(pkg, view.elapsedS) ? (
             <>
               <Space h={s.x1} />
               <Small>{t('aloft.cloudsBelow')}</Small>
@@ -432,9 +521,9 @@ export default function AloftScreen() {
           ) : null}
         </Gutter>
 
-        {outside.below.length > 0 ? (
+        {viewOutside.below.length > 0 ? (
           <View style={styles.below}>
-            {outside.below.map((v) => (
+            {viewOutside.below.map((v) => (
               <PressSurface
                 key={v.poi.id}
                 onPress={() => openPlace(v.poi)}
@@ -458,38 +547,38 @@ export default function AloftScreen() {
         {nothing ? (
           <Gutter style={styles.quiet}>
             <Body tone="muted">
-              {nextSight ? t('aloft.quietNext', { when: relative(nextSight.at - pos.elapsedS) }) : t('aloft.quiet')}
+              {nextSight ? t('aloft.quietNext', { when: relative(nextSight.at - view.elapsedS) }) : t('aloft.quiet')}
             </Body>
           </Gutter>
         ) : (
           <View style={styles.columns}>
-            <SideColumn side="left" items={outside.left} onOpen={openPlace} spotted={session.spotted} />
-            <SideColumn side="right" items={outside.right} onOpen={openPlace} spotted={session.spotted} />
+            <SideColumn side="left" items={viewOutside.left} onOpen={openPlace} spotted={session.spotted} />
+            <SideColumn side="right" items={viewOutside.right} onOpen={openPlace} spotted={session.spotted} />
           </View>
         )}
 
-        {guess ? <GuessCard key={guess.poi.id} guess={guess} onAnswer={(ok) => useSession.getState().answerGuess(guess.poi.id, ok)} /> : null}
+        {guess && preview == null ? <GuessCard key={guess.poi.id} guess={guess} onAnswer={(ok) => useSession.getState().answerGuess(guess.poi.id, ok)} /> : null}
 
-        {outside.next.length > 0 ? (
+        {viewOutside.next.length > 0 ? (
           <View style={styles.next}>
             <Gutter>
               <Label tone="dim" accessibilityRole="header">{t('aloft.next')}</Label>
             </Gutter>
             <Space h={s.x2} />
-            {outside.next.map((m) => {
+            {viewOutside.next.map((m) => {
               const poi = m.poiId ? pkg.pois.find((p) => p.id === m.poiId) : undefined;
               // "Black Sea, left, in 13 min" — not "zero colon thirteen", then an icon, then a name.
               const spoken = [
                 momentTitle(m, pkg, locale),
                 m.kind === 'sight' && m.side ? t(`side.${m.side}`) : null,
-                spokenRelative(m.at - pos.elapsedS)
+                spokenRelative(m.at - view.elapsedS)
               ]
                 .filter(Boolean)
                 .join(', ');
               const row = (
                 <View style={styles.nextRow}>
                   <DataSmall tone="accent" allowFontScaling={false} style={styles.nextAt}>
-                    {clock((m.at - pos.elapsedS) / 1)}
+                    {clock(m.at - view.elapsedS)}
                   </DataSmall>
                   <SideMark side={m.kind === 'sight' ? m.side : 'mark'} size={16} />
                   <Body numberOfLines={1} style={styles.flex}>
