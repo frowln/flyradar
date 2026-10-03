@@ -113,7 +113,7 @@ jobs:
           [ -f "$DEMO/demo-flight.mp4" ] || exit 0
           brew install ffmpeg >/dev/null 2>&1 || true
           # The video starts with the app, not the minutes of home screen while the driver starts.
-          apps/mobile/scripts/trim-intro.sh "$DEMO/demo-flight.mp4" "$DEMO/demo-tour-480p.mp4" 480 || true
+          apps/mobile/scripts/trim-intro.sh "$DEMO/demo-flight.mp4" "$DEMO/demo-tour.mp4" 720 || true
           ls -la "$DEMO"
       - name: Keep the video and screenshots
         if: always()
@@ -146,9 +146,9 @@ jobs:
           find "$DEMO/maestro-debug" "$DEMO/maestro" -name 'commands*.json' 2>/dev/null | while read -r f; do
             python3 -c 'import json,sys; [print(("OK  " if c.get("metadata",{}).get("status")=="COMPLETED" else c.get("metadata",{}).get("status","?")[:4].ljust(4)), json.dumps(c.get("command",{}),ensure_ascii=False)[:160], (c.get("metadata",{}).get("error") or {}).get("message","")[:200]) for c in json.load(open(sys.argv[1]))]' "$f" > "$SHOTS/steps-$(basename "$f" .json).txt" 2>/dev/null || true
           done
-          # The tour on video, if the small copy came out small enough to keep in git.
-          if [ -f "$DEMO/demo-tour-480p.mp4" ] && [ "$(stat -f%z "$DEMO/demo-tour-480p.mp4")" -lt 60000000 ]; then
-            cp "$DEMO/demo-tour-480p.mp4" "$SHOTS/"
+          # The tour on video (720 px wide), if it came out small enough to keep in git.
+          if [ -f "$DEMO/demo-tour.mp4" ] && [ "$(stat -f%z "$DEMO/demo-tour.mp4")" -lt 60000000 ]; then
+            cp "$DEMO/demo-tour.mp4" "$SHOTS/"
           fi
           # .log files are ignored by git here: the app's log goes in as text.
           if [ -f "$DEMO/app.log" ]; then
