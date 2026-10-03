@@ -163,7 +163,12 @@ export async function downloadRelief(route: RoutePoint[], onProgress?: (done: nu
         if (!info.exists) {
           await FileSystem.makeDirectoryAsync(dest.slice(0, dest.lastIndexOf('/')), { intermediates: true }).catch(() => {});
           const [z, x, y] = key.split('/');
-          const res = await FileSystem.downloadAsync(DEM_REMOTE.replace('{z}', z!).replace('{x}', x!).replace('{y}', y!), dest);
+          // Foreground: a tile is a few kilobytes, fetched while the app is
+          // open. iOS background sessions failed every tile on the simulator
+          // ("unknown error") and add a system round trip on a phone.
+          const res = await FileSystem.downloadAsync(DEM_REMOTE.replace('{z}', z!).replace('{x}', x!).replace('{y}', y!), dest, {
+            sessionType: FileSystem.FileSystemSessionType.FOREGROUND
+          });
           if (res.status !== 200) await FileSystem.deleteAsync(dest, { idempotent: true });
         }
       } catch {

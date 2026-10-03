@@ -4,11 +4,13 @@ flows:
   - "*.yaml"
 executionOrder:
   continueOnFailure: true
+  # The panel and a place card early, while most of the flight is ahead;
+  # the demo flight lands about seven minutes after takeoff.
   flowsOrder:
     - 1-start
+    - 4-panel
     - 2-map
     - 3-scrub
-    - 4-panel
     - 5-arrival
     - 6-atlas
     - 7-people

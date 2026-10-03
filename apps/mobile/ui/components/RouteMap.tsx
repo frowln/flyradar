@@ -63,12 +63,13 @@ const HILLSHADE = {
 } as const;
 
 /**
- * The Earth from space, as the screens in the seat back show it: NASA's Blue
- * Marble (public domain) for the whole planet, then Sentinel-2 cloudless 2016
- * by EOX (CC BY 4.0) when the passenger zooms in close.
+ * The Earth from space, as the screens in the seat back show it: Esri World
+ * Imagery, sharp from the whole planet down to a town. Before release it needs
+ * an ArcGIS Location Platform key (free tier) or a licensed provider; see
+ * docs/HANDOFF.md.
  */
-const SATELLITE_TILES = 'https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default//EPSG3857_500m/{z}/{y}/{x}.jpeg';
-const SATELLITE_DETAIL_TILES = 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/g/{z}/{y}/{x}.jpg';
+const SATELLITE_TILES = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+const SATELLITE_ATTRIBUTION = 'Imagery: Esri, Maxar, Earthstar Geographics, and the GIS User Community';
 
 export type MapLayerKind = 'relief' | 'satellite' | 'night';
 const LAYERS: MapLayerKind[] = ['relief', 'satellite', 'night'];
@@ -384,21 +385,8 @@ export default function RouteMap({
           )}
 
           {layer === 'satellite' ? (
-            <RasterSource key="satellite" id="satellite" tiles={[SATELLITE_TILES]} tileSize={256} maxzoom={8} attribution="NASA Blue Marble · GIBS">
+            <RasterSource key="satellite" id="satellite" tiles={[SATELLITE_TILES]} tileSize={256} maxzoom={18} attribution={SATELLITE_ATTRIBUTION}>
               <Layer key="satellite" id="satellite" type="raster" beforeId="boundary_3" paint={{ 'raster-fade-duration': 0 }} />
-            </RasterSource>
-          ) : null}
-          {layer === 'satellite' ? (
-            <RasterSource
-              key="satellite-detail"
-              id="satellite-detail"
-              tiles={[SATELLITE_DETAIL_TILES]}
-              tileSize={256}
-              minzoom={8}
-              maxzoom={14}
-              attribution="Sentinel-2 cloudless 2016 by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016)"
-            >
-              <Layer key="satellite-detail" id="satellite-detail" type="raster" beforeId="boundary_3" minzoom={8} paint={{ 'raster-fade-duration': 0 }} />
             </RasterSource>
           ) : null}
 

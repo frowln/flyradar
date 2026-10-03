@@ -48,7 +48,9 @@ export async function cachePhotos(
       const ext = /\.png($|\?)/i.test(url) ? 'png' : 'jpg';
       const target = `${dir}${encodeURIComponent(poi.id)}-${i}.${ext}`;
       try {
-        const res = await FileSystem.downloadAsync(url, target);
+        // Foreground, as for the elevation tiles: the download runs while the
+        // flight is being prepared with the app open.
+        const res = await FileSystem.downloadAsync(url, target, { sessionType: FileSystem.FileSystemSessionType.FOREGROUND });
         if (res.status === 200) local.set(`${poi.id}#${i}`, res.uri);
       } catch {
         // No photo is fine; the card has a drawn figure instead.
