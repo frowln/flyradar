@@ -47,20 +47,18 @@ const INK = {
   night: { leg: palette.rule, flown: palette.amber, dot: palette.inkMuted, label: palette.inkMuted, halo: palette.void, opened: palette.amber }
 } as const;
 
-/** Hill shading, strong enough to read the Alps at cruise and quiet at night. */
+/**
+ * Hill shading, strong enough to read the Alps at cruise and quiet at night.
+ *
+ * Strength only, in MapLibre's own colours. MapLibre Native now takes the
+ * shadow and highlight colours as lists (one per light direction) while
+ * maplibre-react-native still hands it a single colour: setting either
+ * stopped the app the moment the map loaded on iPhone (found on the iOS
+ * simulator; the browser map is a different library and never showed it).
+ */
 const HILLSHADE = {
-  day: {
-    'hillshade-exaggeration': 0.5,
-    'hillshade-shadow-color': 'rgba(58, 44, 24, 0.55)',
-    'hillshade-highlight-color': 'rgba(255, 255, 255, 0.35)',
-    'hillshade-accent-color': 'rgba(58, 44, 24, 0.25)'
-  },
-  night: {
-    'hillshade-exaggeration': 0.55,
-    'hillshade-shadow-color': 'rgba(0, 0, 0, 0.65)',
-    'hillshade-highlight-color': 'rgba(150, 168, 196, 0.16)',
-    'hillshade-accent-color': 'rgba(0, 0, 0, 0.3)'
-  }
+  day: { 'hillshade-exaggeration': 0.35 },
+  night: { 'hillshade-exaggeration': 0.45 }
 } as const;
 
 /** Degrees of span visible when the camera follows the aircraft. */
