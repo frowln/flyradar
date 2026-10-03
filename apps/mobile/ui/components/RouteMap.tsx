@@ -146,7 +146,10 @@ export default function RouteMap({
   const [override, setOverride] = useState<boolean | null>(null);
   const night = override ?? nightOutside;
   const ink = night ? INK.night : INK.day;
-  const tracking = follow && !detached;
+  // While a finger is on the chart the camera keeps still, or each new
+  // position would yank the map from under the pinch.
+  const [gesturing, setGesturing] = useState(false);
+  const tracking = follow && !detached && !gesturing;
 
   useEffect(() => setFollowZoom(expanded ? CRUISE_ZOOM + 0.8 : CRUISE_ZOOM), [expanded]);
 
@@ -155,8 +158,14 @@ export default function RouteMap({
    * with the aircraft raise the same event, and reading those as a touch
    * would stop the follow after the first one.
    */
+  const onRegionWillChange = (e: { nativeEvent: ViewStateChangeEvent }) => {
+    if (e.nativeEvent.userInteraction) setGesturing(true);
+  };
+
   const onRegionDidChange = (e: { nativeEvent: ViewStateChangeEvent }) => {
     const v = e.nativeEvent;
+    // Whatever ended the move, the camera is free again.
+    setGesturing(false);
     if (!v.userInteraction) return;
     setFollowZoom(v.zoom);
     if (pixelsApart(v.center, position, v.zoom) > DRIFT_PX) setDetached(true);
@@ -245,6 +254,7 @@ export default function RouteMap({
           logo={false}
           compass={false}
           attribution
+          onRegionWillChange={onRegionWillChange}
           onRegionDidChange={onRegionDidChange}
         >
           <Camera
