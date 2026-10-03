@@ -1,10 +1,12 @@
 # Part 4: under the map — numbers, the window view on both sides, what comes next, a place card.
 appId: com.skyatlas.app
 ---
-- scroll
+# Swipes start low on the screen: in the middle sits the route slider, which
+# takes a drag for itself.
+- swipe: { start: "50%, 85%", end: "50%, 45%", duration: 600 }
 - runScript: { file: pause.js, env: { MS: 2500 } }
 - takeScreenshot: 30-panel
-- scroll
+- swipe: { start: "50%, 85%", end: "50%, 45%", duration: 600 }
 - runScript: { file: pause.js, env: { MS: 2500 } }
 - takeScreenshot: 31-panel
 - tapOn: { text: "правое", optional: true }
@@ -12,9 +14,13 @@ appId: com.skyatlas.app
 - takeScreenshot: 32-window-right
 - tapOn: { text: "левое", optional: true }
 - runScript: { file: pause.js, env: { MS: 2000 } }
-- scroll
+- swipe: { start: "50%, 85%", end: "50%, 35%", duration: 600 }
 - runScript: { file: pause.js, env: { MS: 2500 } }
 - takeScreenshot: 33-panel-next
+- scrollUntilVisible:
+    element: ".*, (слева|справа), .*"
+    direction: DOWN
+    optional: true
 - tapOn:
     text: ".*, (слева|справа), .*"
     index: 0
@@ -33,6 +39,6 @@ appId: com.skyatlas.app
 - takeScreenshot: 37-place
 - tapOn: "Назад"
 - runScript: { file: pause.js, env: { MS: 1500 } }
-- scroll
+- swipe: { start: "50%, 85%", end: "50%, 45%", duration: 600 }
 - runScript: { file: pause.js, env: { MS: 2000 } }
 - takeScreenshot: 38-panel-end

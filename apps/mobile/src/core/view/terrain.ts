@@ -13,18 +13,31 @@ function tileXY(lat: number, lon: number, z: number): [number, number] {
   return [x, y];
 }
 
+/** A tile that was not on the phone is asked for again after this long. */
+const RETRY_MS = 15_000;
+
 export class Terrain {
-  private tiles = new Map<string, Float32Array | null>();
+  private tiles = new Map<string, Float32Array>();
+  private missedAt = new Map<string, number>();
+  private loading = new Set<string>();
 
   constructor(
     private load: HeightLoader,
     /** Zooms available, finest first. */
-    private zooms: number[]
+    private zooms: number[],
+    private now: () => number = Date.now
   ) {}
 
-  /** Loads the tiles around a point: the finest zoom to ~150 km, coarser ones to `radiusKm`. */
-  async prefetch(lat: number, lon: number, radiusKm: number): Promise<void> {
-    const wanted: Array<[number, number, number]> = [];
+  /**
+   * Loads the tiles around a point: the finest zoom to ~150 km, coarser ones
+   * to `radiusKm`. Resolves to true when every tile is at hand.
+   *
+   * A tile that is missing is not missing for good: a demo flight starts
+   * before its elevation has finished downloading, and remembering the gap
+   * left the window view flat for the whole flight on iPhone.
+   */
+  async prefetch(lat: number, lon: number, radiusKm: number): Promise<boolean> {
+    const wanted: string[] = [];
     this.zooms.forEach((z, i) => {
       const r = i === 0 ? Math.min(radiusKm, 150) : radiusKm;
       const dLat = r / 111;
@@ -35,17 +48,24 @@ export class Terrain {
       const tx0 = Math.floor(x0 / 256);
       const tx1 = Math.floor(x1 / 256);
       const xs = tx0 <= tx1 ? Array.from({ length: tx1 - tx0 + 1 }, (_, k) => tx0 + k) : [...Array.from({ length: n - tx0 }, (_, k) => tx0 + k), ...Array.from({ length: tx1 + 1 }, (_, k) => k)];
-      for (const x of xs) for (let y = Math.max(0, Math.floor(y0 / 256)); y <= Math.min(n - 1, Math.floor(y1 / 256)); y++) wanted.push([z, x, y]);
+      for (const x of xs) for (let y = Math.max(0, Math.floor(y0 / 256)); y <= Math.min(n - 1, Math.floor(y1 / 256)); y++) wanted.push(`${z}/${x}/${y}`);
     });
+    const t = this.now();
     await Promise.all(
       wanted
-        .filter(([z, x, y]) => !this.tiles.has(`${z}/${x}/${y}`))
-        .map(async ([z, x, y]) => {
-          const key = `${z}/${x}/${y}`;
-          this.tiles.set(key, null);
-          this.tiles.set(key, await this.load(z, x, y).catch(() => null));
+        .filter((key) => !this.tiles.has(key) && !this.loading.has(key) && t - (this.missedAt.get(key) ?? -Infinity) >= RETRY_MS)
+        .map(async (key) => {
+          this.loading.add(key);
+          const [z, x, y] = key.split('/').map(Number) as [number, number, number];
+          const tile = await this.load(z, x, y).catch(() => null);
+          this.loading.delete(key);
+          if (tile) {
+            this.tiles.set(key, tile);
+            this.missedAt.delete(key);
+          } else this.missedAt.set(key, this.now());
         })
     );
+    return wanted.every((key) => this.tiles.has(key));
   }
 
   /** Metres above sea level, bilinear within the finest tile at hand; null where there is none. */

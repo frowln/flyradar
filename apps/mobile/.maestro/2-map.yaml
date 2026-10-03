@@ -4,7 +4,15 @@
 appId: com.skyatlas.app
 ---
 - tapOn: "во весь экран"
-- runScript: { file: pause.js, env: { MS: 3500 } }
+- runScript: { file: pause.js, env: { MS: 2000 } }
+# Once on the simulator the tap did not take; the map is full screen when «свернуть» shows.
+- runFlow:
+    when:
+      notVisible: "свернуть"
+    commands:
+      - tapOn: "во весь экран"
+      - runScript: { file: pause.js, env: { MS: 2000 } }
+- runScript: { file: pause.js, env: { MS: 1500 } }
 - takeScreenshot: 10-map-full
 - tapOn: "Карта: рельеф"
 - runScript: { file: pause.js, env: { MS: 4000 } }
@@ -23,9 +31,10 @@ appId: com.skyatlas.app
 - takeScreenshot: 13-map-zoom-out
 - tapOn: "Приблизить"
 - runScript: { file: pause.js, env: { MS: 1500 } }
+# Inside the map whether it is full screen or not.
 - swipe:
-    start: 50%, 55%
-    end: 12%, 28%
+    start: 55%, 30%
+    end: 15%, 18%
     duration: 900
 - runScript: { file: pause.js, env: { MS: 3000 } }
 - takeScreenshot: 14-map-dragged

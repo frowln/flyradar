@@ -86,15 +86,28 @@ export default function WindowView({ lat, lon, altitude, heading, side: initialS
   const ink = night ? NIGHT : DAY;
   const faces = locale.startsWith('ja') ? familyJa : family;
 
-  // Tiles around the aircraft; again only after it has moved ~40 km.
+  // Tiles around the aircraft; again after it has moved ~40 km, or, while some
+  // are still missing (a demo downloads its elevation after takeoff), every
+  // so often until they arrive.
+  const complete = useRef(false);
   useEffect(() => {
     const last = at.current;
-    if (last && haversine(last.lat, last.lon, lat, lon) < 40) return;
+    if (last && complete.current && haversine(last.lat, last.lon, lat, lon) < 40) return;
     at.current = { lat, lon };
     let alive = true;
-    terrain.prefetch(lat, lon, 470).then(() => alive && setLoaded((n) => n + 1));
+    const run = () =>
+      terrain.prefetch(lat, lon, 470).then((all) => {
+        if (!alive) return;
+        complete.current = all;
+        setLoaded((n) => n + 1);
+      });
+    run();
+    const retry = setInterval(() => {
+      if (!complete.current) run();
+    }, 16_000);
     return () => {
       alive = false;
+      clearInterval(retry);
     };
   }, [lat, lon]);
 

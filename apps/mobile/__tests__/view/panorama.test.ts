@@ -63,7 +63,32 @@ describe('ground heights from tiles', () => {
     await t.prefetch(45, 30, 200);
     expect(t.heightAt(45, 30)).toBeCloseTo(1234);
     const none = new Terrain(async () => null, [6, 5]);
-    await none.prefetch(45, 30, 200);
+    expect(await none.prefetch(45, 30, 200)).toBe(false);
     expect(none.heightAt(45, 30)).toBeNull();
+  });
+
+  it('asks again for a tile that was missing once it may have arrived', async () => {
+    // A demo flight starts before its elevation finishes downloading.
+    const flat = new Float32Array(256 * 256).fill(800);
+    let downloaded = false;
+    let clock = 0;
+    let asked = 0;
+    const t = new Terrain(
+      async () => {
+        asked++;
+        return downloaded ? flat : null;
+      },
+      [5],
+      () => clock
+    );
+    expect(await t.prefetch(45, 30, 100)).toBe(false);
+    const first = asked;
+    downloaded = true;
+    // Too soon: the gap is not asked about again on every frame.
+    await t.prefetch(45, 30, 100);
+    expect(asked).toBe(first);
+    clock += 16_000;
+    expect(await t.prefetch(45, 30, 100)).toBe(true);
+    expect(t.heightAt(45, 30)).toBeCloseTo(800);
   });
 });
