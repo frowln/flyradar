@@ -5,6 +5,13 @@ appId: com.skyatlas.app
     from: "Момент полёта"
     direction: RIGHT
     duration: 1500
+    optional: true
+# The slider lies just under the map; by its place on the screen if not by name.
+- swipe:
+    start: 12%, 52%
+    end: 80%, 52%
+    duration: 1500
+    optional: true
 - runScript: { file: pause.js, env: { MS: 3500 } }
 - takeScreenshot: 21-scrub-ahead
 - tapOn: { text: "к самолёту", optional: true }
