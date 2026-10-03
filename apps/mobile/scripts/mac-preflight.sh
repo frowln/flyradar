@@ -55,6 +55,10 @@ xcode_project() {
   maven_mirror
   (cd ios && pod install) ||
     fail "CocoaPods не поставился. Пришлите последние строки выше: по ним видно, чего не хватает."
+  # A Release build uploads its source maps and symbols to Sentry, which fails
+  # the build until a Sentry account is set up. Xcode's build phases read this
+  # file, so it holds for ▶ in Xcode as well as for the scripts.
+  echo 'export SENTRY_DISABLE_AUTO_UPLOAD=true' >> ios/.xcode.env.local
 }
 
 
