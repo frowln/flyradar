@@ -5,6 +5,7 @@ import { enrichWithWikipedia } from '../places/wiki';
 import { airportByIata, ensureDatasets, getAreas, getCountries, getHistory, getPlaces, loadStories } from '../data/datasets';
 import { takeOff } from '../flight/controller';
 import { downloadRelief } from '../map/offlineMap';
+import { aerialReady } from '../places/aerial';
 import { formatClock, localDate } from '../time/zones';
 import { buildRoute } from '../route/profile';
 import { closedCountries, planAround } from '../route/airspace';
@@ -89,6 +90,7 @@ export function demoPreviewRoute(locale: string, now: Date = new Date()): RouteP
 export async function startDemo(locale: string): Promise<OfflinePackage> {
   await ensureDatasets();
   const stories = await loadStories(locale);
+  await aerialReady();
   const now = new Date();
   const [fromCode, toCode] = demoRoute(locale, now);
   const from = airportByIata(fromCode);

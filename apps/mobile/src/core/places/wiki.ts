@@ -357,13 +357,16 @@ export async function enrichWithWikipedia(pois: POI[], locale: string, opts: Enr
     // An image whose author and licence could not be established is not shown.
     const lead = summary.image && credit ? [{ url: summary.image, credit }] : [];
     const photos = [...lead, ...(gallery.get(poi.id) ?? [])].slice(0, GALLERY_MAX);
+    // A satellite view, when the place has one, stays first: the passenger sees it from above.
+    const kept = poi.aerial && poi.photos[0] ? [{ url: poi.photos[0], credit: poi.photoCredits?.[0] ?? '' }] : [];
+    const all = [...kept, ...photos].slice(0, GALLERY_MAX + kept.length);
     const next: POI = {
       ...poi,
       sourceUrl: summary.url,
       textSource: poi.textSource === 'editorial' ? 'editorial' : 'wikipedia',
-      photos: photos.length ? photos.map((p) => p.url) : poi.photos,
-      photoCredit: photos[0]?.credit ?? poi.photoCredit,
-      photoCredits: photos.length ? photos.map((p) => p.credit) : poi.photoCredits
+      photos: photos.length ? all.map((p) => p.url) : poi.photos,
+      photoCredit: all[0]?.credit ?? poi.photoCredit,
+      photoCredits: photos.length ? all.map((p) => p.credit) : poi.photoCredits
     };
     // A text written for SkyAtlas stays; the article supplies the photo and
     // the "read more" link.

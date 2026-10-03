@@ -364,6 +364,7 @@ export const ja = {
     cityLights: '夜は約%{dist} %{unit}先からでも街の灯りが見えます',
   },
   place: {
+    fromAbove: '衛星から・幅%{size} %{unit}',
     inView: '見える時間',
     closest: '最接近',
     notFound: 'この場所はフライトパッケージに含まれていません。',
@@ -555,6 +556,8 @@ export const ja = {
       commons: '写真（作者とライセンスは各写真の下に表示）',
       osm: '地図データ',
       tiles: 'オフライン地図タイル',
+      terrain: '標高データによる地形の陰影',
+      sentinel: '場所の衛星画像（上空からの眺め）',
       aeroDataBox: '便名でのフライト検索',
       fr24: 'その便の最近の実際の航跡',
       openMeteo: 'ルート沿いの雲の予報',

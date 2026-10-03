@@ -8,6 +8,7 @@ import { closedCountries, planAround } from '../route/airspace';
 import { selectSightings, sightingsAlong, toPOI } from '../places/corridor';
 import { countriesAlong } from '../places/countries';
 import { applyStories, historyAlong, type HistoryItem, type StoriesFile } from '../places/stories';
+import { withAerial } from '../places/aerial';
 import { computeMoments } from '../flight/moments';
 import { haversine } from '../geo/greatCircle';
 import { nextWallClock, zonedToUtc } from '../time/zones';
@@ -114,7 +115,7 @@ export function composePackage(req: BuildRequest, data: BuildData): OfflinePacka
     .map((p) => p.id);
   const chosen = selectSightings(sightings, built.airborneSeconds, { pinned });
   const pois: POI[] = [
-    ...applyStories(chosen.map(toPOI), data.stories),
+    ...withAerial(applyStories(chosen.map(toPOI), data.stories)),
     ...historyAlong(built.route, data.history ?? [], data.stories?.history, req.locale)
   ].sort((a, b) => (a.passAt ?? 0) - (b.passAt ?? 0));
   const countries = countriesAlong(built.route, data.countries, { fromCC: req.from.cc, toCC: req.to.cc });

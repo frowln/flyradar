@@ -365,6 +365,7 @@ export const fr = {
     cityLights: 'La nuit, ses lumières se voient à environ %{dist} %{unit}',
   },
   place: {
+    fromAbove: 'vu de l’espace · %{size} %{unit} de large',
     inView: 'visible',
     closest: 'au plus près',
     notFound: 'Ce lieu ne fait pas partie du paquet de vol.',
@@ -561,6 +562,8 @@ export const fr = {
       commons: 'Photos — auteur et licence indiqués sous chacune',
       osm: 'Données cartographiques',
       tiles: 'Tuiles de carte hors ligne',
+      terrain: 'Ombrage du relief d’après les altitudes',
+      sentinel: 'Vues satellite des lieux, d’en haut',
       aeroDataBox: 'Recherche d’un vol par son numéro',
       fr24: 'Trajectoires réelles récentes du vol',
       openMeteo: 'Prévision de la nébulosité le long de la route',

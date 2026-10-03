@@ -1,0 +1,402 @@
+{
+  "via-appia": {
+    "name": "Via Appia",
+    "era": "dès 312 av. J.-C.",
+    "t": "Les Romains l’appelaient la reine des routes",
+    "s": "C’est la première des grandes routes de Rome, commencée en 312 av. J.-C. et prolongée vers le sud jusqu’à atteindre Brindisi, port de l’Adriatique. Soldats, marchands et voyageurs l’empruntaient pour gagner les navires en partance pour la Grèce et l’Orient. Ses pavés sont bien trop petits pour être vus, mais au sud de Rome des routes modernes suivent encore son tracé parfaitement rectiligne à travers la plaine pontine.",
+    "w": "Cherchez une route tirée au cordeau qui file au sud-est de Rome, à travers une plaine plate en damier, vers la côte à Terracina.",
+    "f": [
+      "Elle fut commencée par le censeur Appius Claudius Caecus, qui lui donna son nom.",
+      "Près de Rome, la vieille voie est encore bordée de tombeaux et de pins parasols, et des tronçons du pavage romain subsistent.",
+      "De Brindisi, les navires gagnaient Dyrrachium, d’où la Via Egnatia continuait vers l’est, vers Byzance."
+    ],
+    "q": {
+      "q": "Quel port était le terminus de la Via Appia ?",
+      "a": "Brindisi",
+      "x": [
+        "Naples",
+        "Ostie"
+      ]
+    }
+  },
+  "via-egnatia": {
+    "name": "Via Egnatia",
+    "era": "IIe s. av. J.-C. – Moyen Âge",
+    "t": "La route de Rome à travers les Balkans jusqu’au Bosphore",
+    "s": "Ici, Rome tendait la main vers l’Orient. Construite au IIe siècle av. J.-C., la Via Egnatia partait de la côte adriatique de l’actuelle Albanie, franchissait les montagnes jusqu’à Thessalonique et filait jusqu’à Byzance. C’était le prolongement naturel de la Via Appia : traverser depuis Brindisi, puis marcher. La route est invisible depuis l’altitude de croisière, mais on peut suivre son tracé par le lac d’Ohrid et le long de la côte égéenne.",
+    "w": "Repérez le lac d’Ohrid parmi les montagnes, puis le golfe de Thessalonique à l’est ; la route reliait les deux et filait vers Istanbul.",
+    "f": [
+      "Elle porte le nom du proconsul romain Cnaeus Egnatius, qui la fit construire.",
+      "De l’Adriatique à Byzance, la route parcourait environ 1 100 km.",
+      "L’apôtre Paul l’emprunta lors de son passage par Philippes et Thessalonique."
+    ],
+    "q": {
+      "q": "Quel lac la Via Egnatia longeait-elle en route vers l’est ?",
+      "a": "Le lac d’Ohrid",
+      "x": [
+        "Le lac Balaton",
+        "Le lac de Scutari"
+      ]
+    }
+  },
+  "via-francigena": {
+    "name": "Via Francigena",
+    "era": "dès les IXe–Xe s.",
+    "t": "Une route de pèlerins médiévale, de Canterbury à Rome",
+    "s": "C’est la route que les pèlerins du Moyen Âge parcouraient à pied d’Angleterre jusqu’à Rome. En 990, l’archevêque Sigéric de Canterbury nota chaque étape de son retour de chez le pape, et sa liste définit encore l’itinéraire. Elle traverse la France, franchit les Alpes au col du Grand-Saint-Bernard et redescend à travers la Toscane. D’en haut, suivez-la aux lacs, aux cols et aux plaines fluviales entre lesquels elle se faufile.",
+    "w": "Cherchez le lac Léman, puis la haute brèche alpine du Grand-Saint-Bernard au sud, et la plaine du Pô, plate, au-delà.",
+    "f": [
+      "Les notes de voyage de Sigéric comptent 79 étapes entre Rome et la Manche.",
+      "Le col du Grand-Saint-Bernard, à 2 469 m, est le point culminant de l’itinéraire.",
+      "Des pèlerins la parcourent encore aujourd’hui, en collectant des tampons dans un passeport de pèlerin."
+    ],
+    "q": {
+      "q": "Qui a noté les étapes de la Via Francigena en 990 ?",
+      "a": "L’archevêque Sigéric",
+      "x": [
+        "Charlemagne",
+        "Le pape Grégoire le Grand"
+      ]
+    }
+  },
+  "camino-frances": {
+    "name": "Chemin de Saint-Jacques (Camino francés)",
+    "era": "dès le IXe s.",
+    "t": "Mille ans de pas vers Saint-Jacques-de-Compostelle",
+    "s": "C’est la route de pèlerinage la plus aimée d’Europe. Depuis plus de mille ans, des marcheurs franchissent ici les Pyrénées et filent vers l’ouest à travers le nord de l’Espagne jusqu’au tombeau de saint Jacques, à Saint-Jacques-de-Compostelle, à quelque 780 km. D’avion, l’itinéraire s’imagine facilement : des montagnes vertes aux deux bouts et, entre elles, la Meseta, haut plateau plat de blé doré autour de Burgos et León.",
+    "w": "Cherchez le large plateau fauve entre Burgos et León, avec les collines vertes de Galice qui s’élèvent à l’ouest.",
+    "f": [
+      "La coquille Saint-Jacques, symbole de l’apôtre, balise le chemin sur les murs et les panneaux.",
+      "En 1987, il est devenu le premier itinéraire culturel du Conseil de l’Europe.",
+      "Des centaines de milliers de personnes achèvent aujourd’hui le pèlerinage chaque année."
+    ],
+    "q": {
+      "q": "Quel symbole balise le chemin de Saint-Jacques ?",
+      "a": "Une coquille Saint-Jacques",
+      "x": [
+        "Un rameau d’olivier",
+        "Une feuille de chêne"
+      ]
+    }
+  },
+  "amber-road": {
+    "name": "Route de l’ambre",
+    "era": "âge du bronze – époque romaine",
+    "t": "L’or de la Baltique porté au sud jusqu’à Rome",
+    "s": "Imaginez le rivage de la Baltique comme une mine d’or. L’ambre s’échouait sur ses plages et, pendant des millénaires, des marchands le portèrent vers le sud par la porte de Moravie jusqu’au Danube, puis jusqu’à Aquilée, sur l’Adriatique, où des ateliers romains en faisaient des bijoux. La route n’a laissé aucune ligne visible, mais ses deux extrémités sont claires : les longues flèches sableuses de la Baltique et la côte nord de l’Adriatique.",
+    "w": "À l’extrémité nord, cherchez les minces flèches de sable et les lagunes de la côte balte près de Gdańsk et de Kaliningrad.",
+    "f": [
+      "L’ambre est une résine d’arbre fossilisée ; celui de la Baltique a environ 40 millions d’années.",
+      "Pline l’Ancien raconte qu’un chevalier romain fut envoyé par Néron sur la Baltique pour acheter de l’ambre en masse.",
+      "L’essentiel de l’ambre extrait dans le monde vient encore de la côte près de Kaliningrad."
+    ],
+    "q": {
+      "q": "Qu’est-ce que l’ambre ?",
+      "a": "Une résine d’arbre fossilisée",
+      "x": [
+        "De l’écume de mer pétrifiée",
+        "Du verre volcanique"
+      ]
+    }
+  },
+  "hadrians-wall": {
+    "name": "Mur d’Hadrien",
+    "era": "122 apr. J.-C. – début du Ve s.",
+    "t": "La frontière nord de Rome, d’une côte à l’autre",
+    "s": "Là où le nord de l’Angleterre se resserre, l’empereur Hadrien fit élever un mur de pierre en 122 apr. J.-C. Il allait de la Tyne au Solway Firth, avec un fortin à chaque mille romain et des garnisons venues de tout l’empire. Le mur ne mesure que quelques mètres de large et reste invisible depuis l’altitude de croisière, mais l’isthme qu’il gardait, entre deux estuaires, se voit très bien.",
+    "w": "Suivez la terre depuis l’estuaire de la Tyne, à Newcastle, vers l’ouest jusqu’au large Solway Firth argenté, au-delà de Carlisle.",
+    "f": [
+      "Le mur mesurait environ 117 km, soit 80 milles romains.",
+      "Les lettres sur tablettes de bois de Vindolanda, toute proche, comptent une invitation d’anniversaire d’environ 100 apr. J.-C.",
+      "Il a été inscrit au patrimoine mondial de l’UNESCO en 1987."
+    ],
+    "q": {
+      "q": "Quelle était la longueur approximative du mur d’Hadrien ?",
+      "a": "Environ 117 km",
+      "x": [
+        "Environ 40 km",
+        "Environ 450 km"
+      ]
+    }
+  },
+  "limes-germanicus": {
+    "name": "Limes de Germanie supérieure et de Rhétie",
+    "era": "v. 100 – 260 apr. J.-C.",
+    "t": "La frontière de Rome, du Rhin au Danube",
+    "s": "Ici passait la limite du monde romain. Du Rhin près de Coblence au Danube près de Ratisbonne, une palissade, un fossé et des centaines de tours de guet marquaient l’endroit où l’empire s’arrêtait et où commençait la Germanie libre. Une grande partie se trouve aujourd’hui en forêt, invisible de toute hauteur. Ce que l’on voit, ce sont les deux grands fleuves qu’elle reliait, et entre eux les collines boisées du Taunus et de l’Odenwald.",
+    "w": "Repérez le Rhin et le Danube ; la frontière coupait les hautes terres boisées entre eux en une longue ligne coudée.",
+    "f": [
+      "La frontière s’étendait sur environ 550 km, avec quelque 900 tours de guet et 60 forts.",
+      "Un tronçon file presque parfaitement droit sur environ 80 km, sans tenir compte des collines ni des vallées.",
+      "À la Saalburg, près de Francfort, un fort romain a été reconstruit vers 1900 sur ses fondations d’origine."
+    ],
+    "q": {
+      "q": "Quels fleuves cette frontière romaine reliait-elle ?",
+      "a": "Le Rhin et le Danube",
+      "x": [
+        "Le Rhin et l’Elbe",
+        "Le Main et l’Oder"
+      ]
+    }
+  },
+  "danube-limes": {
+    "name": "Limes du Danube",
+    "era": "Ier – Ve s.",
+    "t": "Le fleuve qui servait de frontière à Rome",
+    "s": "Pendant quatre siècles, ce fleuve fut une frontière. Les Romains bordèrent le Danube de forts et de tours de guet, et plusieurs capitales d’aujourd’hui sont nées de leurs camps, dont Vienne, Budapest et Belgrade. Contrairement à la plupart des frontières romaines, celle-ci se suit facilement d’avion, puisque le fleuve lui-même était la ligne. Guettez la gorge des Portes de Fer, où le Danube se faufile à travers les Carpates.",
+    "w": "Suivez le large Danube ; l’étroite gorge des Portes de Fer, entre Serbie et Roumanie, en est le tronçon le plus spectaculaire.",
+    "f": [
+      "Vienne est née du camp romain de Vindobona, et Budapest d’Aquincum.",
+      "Le pont de Trajan sur le Danube, achevé en 105 apr. J.-C., mesurait plus d’un kilomètre.",
+      "Ses piles de pierre se dressaient près de l’actuelle Drobeta-Turnu Severin, et quelques moignons émergent encore sur les rives."
+    ],
+    "q": {
+      "q": "Quelle capitale est née du camp romain de Vindobona ?",
+      "a": "Vienne",
+      "x": [
+        "Budapest",
+        "Bratislava"
+      ]
+    }
+  },
+  "hanseatic-route": {
+    "name": "Route commerciale de la Hanse (Londres–Novgorod)",
+    "era": "XIIIe – XVIIe s.",
+    "t": "Des villes marchandes qui régnaient sur les mers du Nord",
+    "s": "C’était la vieille route maritime de la Hanse, alliance de marchands qui contrôla pendant des siècles le commerce en mer du Nord et en Baltique. Ses navires portaient le drap d’ouest en est, et dans l’autre sens fourrures, cire, céréales et poisson, reliant ses comptoirs de Londres, Bruges, Bergen et Novgorod. Cherchez la côte de la Baltique : les ports de brique rouge qui la jalonnent ont été bâtis sur ce commerce.",
+    "w": "Suivez la côte de la Baltique depuis la baie de Lübeck vers l’est, avec au large la longue île de Gotland.",
+    "f": [
+      "Lübeck était la première ville de la ligue, souvent appelée la reine de la Hanse.",
+      "Les plaques d’immatriculation de Hambourg commencent toujours par HH, pour Hansestadt Hamburg.",
+      "La Diète hanséatique, l’assemblée de la ligue, se réunit pour la dernière fois en 1669."
+    ],
+    "q": {
+      "q": "Que signifie HH sur les plaques d’immatriculation de Hambourg ?",
+      "a": "Hansestadt Hamburg",
+      "x": [
+        "Hafen Hamburg",
+        "Hauptstadt Hamburg"
+      ]
+    }
+  },
+  "via-domitia": {
+    "name": "Via Domitia",
+    "era": "dès 118 av. J.-C.",
+    "t": "La première route romaine de Gaule, de l’Italie à l’Espagne",
+    "s": "Ce fut la première route que Rome construisit en Gaule, tracée à partir de 118 av. J.-C. pour relier l’Italie à l’Espagne. Elle franchissait les Alpes au Montgenèvre, suivait la vallée de la Durance, traversait le Rhône près de Beaucaire et longeait la plaine côtière par Nîmes et Narbonne jusqu’aux Pyrénées. La route est aujourd’hui invisible, mais les vallées, le fleuve et la côte frangée de lagunes montrent encore son chemin.",
+    "w": "Cherchez le delta du Rhône et le chapelet de lagunes le long de la côte à l’ouest, vers les Pyrénées.",
+    "f": [
+      "Elle porte le nom de Cnaeus Domitius Ahenobarbus, le général romain qui la fit construire.",
+      "À Narbonne, un tronçon du pavage d’origine a été dégagé sur la place principale de la ville.",
+      "Le pont Julien, pont romain près d’Apt, a porté la circulation de cette route pendant environ 2 000 ans."
+    ],
+    "q": {
+      "q": "Quelles terres la Via Domitia reliait-elle ?",
+      "a": "L’Italie et l’Espagne",
+      "x": [
+        "L’Italie et la Bretagne",
+        "La Gaule et la Germanie"
+      ]
+    }
+  },
+  "canal-du-midi": {
+    "name": "Canal du Midi",
+    "era": "1666 – 1681",
+    "t": "Le raccourci du XVIIe siècle entre deux mers",
+    "s": "Ici, un ingénieur du XVIIe siècle a uni deux mers. Le canal de Pierre-Paul Riquet va de Toulouse à la Méditerranée et, avec la Garonne, relie l’Atlantique à la Méditerranée sans contourner l’Espagne. Son génie tient à l’alimentation en eau, recueillie dans la Montagne Noire et amenée au point le plus haut du canal. Large d’environ 20 m, il est trop étroit pour être repéré en croisière, mais son couloir se voit bien.",
+    "w": "Cherchez le couloir de plaine entre les Pyrénées et le Massif central, de Toulouse à l’étang de Thau.",
+    "f": [
+      "Le canal mesure environ 240 km et sert toujours, surtout aux bateaux de plaisance.",
+      "À Béziers, un escalier de huit écluses hisse les bateaux le long d’un seul coteau.",
+      "Il a été inscrit au patrimoine mondial de l’UNESCO en 1996."
+    ],
+    "q": {
+      "q": "Qui a construit le canal du Midi ?",
+      "a": "Pierre-Paul Riquet",
+      "x": [
+        "Ferdinand de Lesseps",
+        "Gustave Eiffel"
+      ]
+    }
+  },
+  "kiel-canal": {
+    "name": "Canal de Kiel",
+    "era": "ouvert en 1895",
+    "t": "Un raccourci qui tranche le cou de l’Allemagne",
+    "s": "Cherchez un fil d’argent rectiligne à travers les terres agricoles plates du nord de l’Allemagne. C’est le canal de Kiel, ouvert en 1895 pour relier la mer du Nord à la Baltique afin que les navires n’aient plus à contourner le Danemark. Il court sur 98 km, de l’estuaire de l’Elbe à Kiel. Large d’environ 100 m, il se repère depuis l’altitude de croisière par temps clair.",
+    "w": "Un mince trait d’eau rectiligne qui file au nord-est, de l’embouchure de l’Elbe à Brunsbüttel jusqu’au fjord de Kiel.",
+    "f": [
+      "Par le nombre de navires, c’est l’une des voies d’eau artificielles les plus fréquentées du monde.",
+      "Ce raccourci épargne aux navires environ 460 km par rapport au tour du Danemark.",
+      "À Rendsburg, un pont transbordeur de 1913 fait circuler une nacelle suspendue sous la voie ferrée."
+    ],
+    "q": {
+      "q": "Quelle péninsule le canal de Kiel permet-il d’éviter ?",
+      "a": "Le Jutland",
+      "x": [
+        "Le Cotentin",
+        "L’Istrie"
+      ]
+    }
+  },
+  "orient-express": {
+    "name": "Ligne de l’Orient-Express",
+    "era": "1883 – 1977",
+    "t": "Le légendaire train de nuit de Paris à Constantinople",
+    "s": "Sur cette ligne roulait le train le plus célèbre d’Europe. Dès 1883, l’Orient-Express emmenait ses passagers en voitures-lits de Paris vers Constantinople, et à partir de 1889 jusqu’au bout par le rail, via Munich, Vienne, Budapest et Belgrade. Il faisait de la traversée d’un demi-continent un séjour dans un grand hôtel. D’en haut, suivez le Danube, puis les vallées des Balkans jusqu’au Bosphore.",
+    "w": "Suivez le Danube par Vienne et Budapest, puis les vallées de Serbie et de Bulgarie vers le Bosphore.",
+    "f": [
+      "Le train fut créé par l’entrepreneur belge Georges Nagelmackers.",
+      "La gare de Sirkeci, à Istanbul, ouverte en 1890, fut construite pour en être le terminus.",
+      "Le service direct de Paris à Istanbul a pris fin en 1977."
+    ],
+    "q": {
+      "q": "Qui a fondé la compagnie qui exploitait l’Orient-Express ?",
+      "a": "Georges Nagelmackers",
+      "x": [
+        "George Pullman",
+        "Thomas Cook"
+      ]
+    }
+  },
+  "bleriot-channel-1909": {
+    "name": "Traversée de la Manche par Blériot (1909)",
+    "era": "25 juillet 1909",
+    "t": "Le vol qui a rétréci la Manche",
+    "s": "Le 25 juillet 1909, Louis Blériot décolla d’un champ près de Calais à bord d’un petit monoplan et se posa au pied du château de Douvres quelque 37 minutes plus tard. C’était la première traversée de la Manche en avion, six ans à peine après le premier vol des frères Wright. Il n’avait pas de boussole. Le détroit, avec ses falaises blanches et ses couloirs de navigation chargés, parut soudain bien plus étroit.",
+    "w": "Cherchez les falaises de craie blanche de Douvres face à la côte française plate près de Calais, à environ 35 km.",
+    "f": [
+      "Ce vol valut à Blériot un prix de 1 000 livres offert par le Daily Mail de Londres.",
+      "Une silhouette de son avion en granit marque le lieu d’atterrissage près du château de Douvres.",
+      "Son appareil, le Blériot XI, est aujourd’hui au musée des Arts et Métiers, à Paris."
+    ],
+    "q": {
+      "q": "Combien de temps a duré la traversée de la Manche de Blériot ?",
+      "a": "Environ 37 minutes",
+      "x": [
+        "Environ 12 minutes",
+        "Environ 2 heures"
+      ]
+    }
+  },
+  "paris-meridian-arc": {
+    "name": "Arc du méridien de Paris (mesure du mètre)",
+    "era": "1792 – 1798",
+    "t": "Là où le mètre a été mesuré sur le terrain",
+    "s": "Cette ligne a donné le mètre au monde. Dans les années 1790, deux astronomes, Delambre et Méchain, mesurèrent la distance de Dunkerque à Barcelone par des chaînes de triangles tendus entre clochers et sommets de collines. Ils en tirèrent le mètre, fixé à un dix-millionième de la distance du pôle à l’équateur. La ligne court presque plein nord–sud à travers Paris, invisible mais exacte.",
+    "w": "L’arc court presque plein nord–sud à travers Paris, de la côte de la Manche à Dunkerque jusqu’à Barcelone.",
+    "f": [
+      "Delambre mesura la moitié nord et Méchain la moitié sud ; ils se rejoignirent à Rodez.",
+      "Le résultat fut coulé en 1799 dans une barre de platine, le mètre des Archives.",
+      "Ils estimèrent un peu mal l’aplatissement de la Terre : leur mètre est trop court d’environ 0,2 mm."
+    ],
+    "q": {
+      "q": "Quelle unité cette mesure devait-elle définir ?",
+      "a": "Le mètre",
+      "x": [
+        "Le mille marin",
+        "Le kilogramme"
+      ]
+    }
+  },
+  "ancient-rome": {
+    "name": "Rome antique",
+    "era": "753 av. J.-C. – 476 apr. J.-C.",
+    "t": "La ville dont les routes menaient partout",
+    "s": "C’était le cœur d’un empire qui s’étendait de l’Écosse à la Syrie. À son apogée, la Rome antique comptait peut-être un million d’habitants, et son Forum, son Colisée et son Panthéon se dressent encore au milieu de la ville moderne. Depuis l’altitude de croisière, les monuments se fondent dans l’étalement urbain, mais les paresseuses boucles en S du Tibre à travers le centre sont celles du fleuve sur lequel la ville a été fondée.",
+    "w": "Repérez le Tibre qui serpente en boucles serrées à travers la ville, à environ 25 km de la côte à Ostie.",
+    "f": [
+      "Le Colisée, inauguré en 80 apr. J.-C., pouvait accueillir environ 50 000 spectateurs.",
+      "La coupole en béton du Panthéon, vieille de près de 2 000 ans, reste la plus grande coupole non armée du monde.",
+      "Selon la tradition, Rome fut fondée le 21 avril 753 av. J.-C., et la ville fête toujours cette date."
+    ],
+    "q": {
+      "q": "En quelle année, selon la tradition, Rome a-t-elle été fondée ?",
+      "a": "753 av. J.-C.",
+      "x": [
+        "509 av. J.-C.",
+        "312 av. J.-C."
+      ]
+    }
+  },
+  "pompeii": {
+    "name": "Pompéi et Herculanum",
+    "era": "ensevelies en 79 apr. J.-C., fouillées depuis 1738",
+    "t": "Des villes romaines gardées sous la cendre pendant 1 700 ans",
+    "s": "Cherchez le cône du Vésuve au-dessus de la baie de Naples. En 79 apr. J.-C., il ensevelit deux villes romaines sous la cendre et la boue, et les conserva ainsi presque intactes : murs peints, boulangeries, enseignes de boutiques, et même graffitis griffonnés. Elles offrent aujourd’hui l’image la plus complète de la vie quotidienne romaine. Les rues sont trop petites pour être vues d’ici, mais le volcan qui les a rendues célèbres est reconnaissable entre tous.",
+    "w": "Un large cône volcanique au cratère sombre, juste à l’est de la baie de Naples ; les ruines se trouvent à son pied.",
+    "f": [
+      "Les fouilles de Pompéi ont commencé en 1748, et environ un tiers de la ville reste à fouiller.",
+      "Ses murs sont couverts de graffitis antiques, des slogans électoraux aux plaisanteries.",
+      "Des rouleaux de papyrus carbonisés d’Herculanum sont aujourd’hui déchiffrés grâce aux rayons X et à l’IA."
+    ],
+    "q": {
+      "q": "Quel volcan a enseveli Pompéi ?",
+      "a": "Le Vésuve",
+      "x": [
+        "L’Etna",
+        "Le Stromboli"
+      ]
+    }
+  },
+  "acropolis-athens": {
+    "name": "Acropole d’Athènes",
+    "era": "Ve s. av. J.-C.",
+    "t": "Le rocher où l’architecture occidentale a trouvé sa forme",
+    "s": "Au milieu du bassin d’Athènes se dresse un rocher au sommet plat, couronné de temples de marbre. Le Parthénon y fut bâti au Ve siècle av. J.-C., quand Athènes expérimentait la démocratie, et ses proportions ont depuis été copiées sur des banques, des musées et des parlements. Le temple lui-même est trop petit pour être distingué en croisière, mais la cuvette de la ville, entre montagnes et mer, se voit facilement.",
+    "w": "Cherchez une ville pâle et étalée dans une cuvette de montagnes, ouverte au sud-ouest sur le golfe Saronique et Le Pirée.",
+    "f": [
+      "Le Parthénon fut bâti entre 447 et 432 av. J.-C. et dédié à Athéna.",
+      "Ses colonnes sont légèrement renflées et son sol s’incurve vers le haut, pour qu’il paraisse parfaitement droit à l’œil.",
+      "Le marbre venait du mont Pentélique, à environ 16 km."
+    ],
+    "q": {
+      "q": "À quelle déesse le Parthénon était-il dédié ?",
+      "a": "Athéna",
+      "x": [
+        "Héra",
+        "Artémis"
+      ]
+    }
+  },
+  "delphi": {
+    "name": "Delphes",
+    "era": "VIIIe s. av. J.-C. – IVe s. apr. J.-C.",
+    "t": "Le centre du monde des Grecs anciens",
+    "s": "Cherchez le massif du Parnasse, souvent blanc au sommet, au-dessus du golfe de Corinthe. Sur son versant sud se trouvait Delphes, où pendant mille ans les Grecs vinrent interroger l’oracle d’Apollon sur les voyages, les colonies et les mariages. Ils croyaient que le lieu marquait le centre du monde. Les terrasses du temple sont invisibles d’ici, mais la montagne et la plaine d’oliviers argentée qui descend vers la mer se voient bien.",
+    "w": "Un haut massif souvent enneigé au nord du golfe de Corinthe, avec une vaste plaine d’oliviers au pied de son versant sud.",
+    "f": [
+      "Une pierre sculptée appelée omphalos, ou nombril, désignait Delphes comme le centre du monde.",
+      "Les jeux Pythiques qu’on y tenait comprenaient des concours de musique et de poésie autant que d’athlétisme.",
+      "Les vainqueurs des jeux Pythiques étaient couronnés de laurier, la plante sacrée d’Apollon."
+    ],
+    "q": {
+      "q": "L’oracle de quel dieu parlait à Delphes ?",
+      "a": "Apollon",
+      "x": [
+        "Zeus",
+        "Poséidon"
+      ]
+    }
+  },
+  "olympia": {
+    "name": "Olympie",
+    "era": "776 av. J.-C. – 393 apr. J.-C.",
+    "t": "Là où sont nés les Jeux olympiques",
+    "s": "Dans une vallée verte de l’ouest du Péloponnèse, les Grecs anciens ont tenu les Jeux olympiques pendant plus de mille ans. Une trêve sacrée permettait aux athlètes de voyager en sécurité, et les vainqueurs rentraient chez eux avec une couronne d’olivier et une gloire durable. Chaque flamme olympique moderne est encore allumée ici aux rayons du soleil. En croisière, cherchez la large vallée de l’Alphée qui serpente jusqu’à la mer Ionienne.",
+    "w": "Repérez la large vallée de l’Alphée qui file vers l’ouest jusqu’à la côte ionienne, dans l’ouest du Péloponnèse.",
+    "f": [
+      "Selon la tradition, les premiers Jeux eurent lieu en 776 av. J.-C.",
+      "La piste du stade mesure environ 192 m, la longueur d’un stade antique.",
+      "Sa statue de Zeus en or et en ivoire était l’une des Sept Merveilles du monde antique."
+    ],
+    "q": {
+      "q": "Que recevaient les vainqueurs olympiques antiques ?",
+      "a": "Une couronne d’olivier",
+      "x": [
+        "Une médaille d’or",
+        "Une couronne de laurier"
+      ]
+    }
+  }
+}

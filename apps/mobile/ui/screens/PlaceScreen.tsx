@@ -108,6 +108,13 @@ function Gallery({ poi, name }: { poi: POI; name: string }) {
           {t(`category.${poi.category}`)}
         </Label>
       </View>
+      {poi.aerial && page === 0 && photos.length ? (
+        <View style={styles.aerial} {...decorative}>
+          <Label tone="muted" numberOfLines={1}>
+            {t('place.fromAbove', { size: km(poi.aerial.widthKm).value, unit: t(`unit.${km(poi.aerial.widthKm).unit}`) })}
+          </Label>
+        </View>
+      ) : null}
       {photos.length > 1 ? (
         <View style={styles.pager} {...decorative}>
           <DataSmall allowFontScaling={false}>{`${page + 1} / ${photos.length}`}</DataSmall>
@@ -412,6 +419,7 @@ const styles = StyleSheet.create({
     borderLeftColor: palette.amber,
     backgroundColor: palette.warm
   },
+  aerial: { position: 'absolute', right: gutter, top: s.x4, paddingHorizontal: s.x2, paddingVertical: s.x1, backgroundColor: 'rgba(8, 10, 12, 0.72)' },
   plate: {
     position: 'absolute',
     left: gutter,

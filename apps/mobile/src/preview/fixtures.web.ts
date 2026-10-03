@@ -1,4 +1,5 @@
 import type { OfflinePackage, POI } from '@skyatlas/shared';
+import { aerialReady } from '../core/places/aerial';
 import { composePackage } from '../core/offline/buildPackage';
 import { savePackage } from '../core/offline/packageStore';
 import { airportByIata, getAreas, getCountries, getHistory, getPlaces, loadStories, storiesFor } from '../core/data/datasets';
@@ -179,6 +180,7 @@ export async function installPreview(): Promise<void> {
   }
   setLocale(lang);
   await loadStories(lang);
+  await aerialReady();
   if (scenario !== 'onboarding') markOnboardingComplete();
   clearJournal();
   useSession.getState().end();

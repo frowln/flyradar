@@ -2195,5 +2195,725 @@
         "A Shi Lang"
       ]
     }
+  },
+  "Q8131": {
+    "t": "La vieja capital de Srivijaya, en el ancho y pardo Musi",
+    "s": "Palembang se extiende a ambos lados del ancho y pardo río Musi, muy tierra adentro, entre los pantanos llanos y las plantaciones del sur de Sumatra. Los barcos aún suben desde el mar, un viaje de casi 100 km. Hace más de mil años, este era el corazón de Srivijaya, un imperio marítimo que controlaba el comercio por el estrecho de Malaca. Busca el largo puente que une las dos mitades de la ciudad.",
+    "w": "Una ciudad a ambos lados de un río ancho y pardo que serpentea por tierras bajas pantanosas, con un largo puente.",
+    "f": [
+      "El puente Ampera, abierto en 1965, tenía un vano central que se elevaba para dejar pasar barcos; más tarde se fijó.",
+      "Casas de madera que flotan sobre balsas aún bordean partes de la orilla.",
+      "El peregrino chino Yijing estudió sánscrito en Srivijaya a finales del siglo VII."
+    ],
+    "q": {
+      "q": "¿De qué imperio marítimo era corazón Palembang?",
+      "a": "Srivijaya",
+      "x": [
+        "Majapahit",
+        "Mataram"
+      ]
+    }
+  },
+  "Q14182": {
+    "t": "La ciudad de los mil ríos y los mercados flotantes",
+    "s": "Banjarmasin está en las tierras bajas, llanas y pantanosas del sur de Borneo, donde el río Martapura se une al ancho Barito, no lejos del mar. Ríos y canales recorren todos sus barrios, y por eso la llaman la Ciudad de los Mil Ríos. Al amanecer, comerciantes en barcas pequeñas se reúnen sobre el agua en sus famosos mercados flotantes y venden fruta y verdura desde sus canoas.",
+    "w": "Una ciudad llana surcada de ríos y canales junto a un río ancho y pardo, entre tierras bajas pantanosas y arrozales.",
+    "f": [
+      "El sultanato de Banjar, fundado en la década de 1520, gobernó desde aquí durante más de tres siglos.",
+      "Gran parte de la ciudad está apenas por encima del nivel de la pleamar."
+    ],
+    "q": {
+      "q": "Banjarmasin es famosa por sus…",
+      "a": "Mercados flotantes",
+      "x": [
+        "Templos sobre pilotes",
+        "Salinas"
+      ]
+    }
+  },
+  "Q14634": {
+    "t": "Una ciudad marinera frente a un rosario de islas de coral",
+    "s": "Makassar bordea la costa oeste, llana, de Célebes Meridional y mira al archipiélago de Spermonde, un rosario de diminutas islas de coral rodeadas de arrecifes turquesa. Tierra adentro, al noreste, se alzan las torres calizas dentadas de Maros. Durante siglos fue el gran puerto comercial del sultanato de Gowa, y sus marinos recorrían los mares del este.",
+    "w": "Una ciudad en una costa llana frente a decenas de diminutas islas de coral; colinas calizas dentadas tierra adentro, al noreste.",
+    "f": [
+      "Desde el siglo XVIII, los marinos macasares viajaban cada año al norte de Australia a recoger pepinos de mar.",
+      "Los neerlandeses reconstruyeron el fuerte Rotterdam, en el centro, en la década de 1670, sobre una fortaleza de Gowa."
+    ],
+    "q": {
+      "q": "Los marinos macasares viajaban al norte de Australia a recoger…",
+      "a": "Pepinos de mar",
+      "x": [
+        "Perlas",
+        "Sándalo"
+      ]
+    }
+  },
+  "Q5869": {
+    "t": "Una ciudad en un alto valle del Himalaya, a 3650 m",
+    "s": "Incluso a 3650 m sobre el nivel del mar, Lhasa está dominada por montañas pardas y desnudas que se alzan otros 1500 m o más. La ciudad ocupa el valle llano del Kyi Chu, afluente del Yarlung Tsangpo. El aire es fino y seco, y el sol es tan abundante que a Lhasa la apodan la Ciudad de la Luz del Sol. Su nombre significa «lugar de los dioses».",
+    "w": "Un valle fluvial verde y de fondo llano, encajonado entre montañas empinadas y desnudas, con la ciudad en su lado norte.",
+    "f": [
+      "El palacio de Potala, en una colina de la ciudad, tiene 13 pisos y es Patrimonio Mundial de la UNESCO.",
+      "El templo de Jokhang, en el centro antiguo, se remonta al siglo VII.",
+      "Lhasa recibe unas 3000 horas de sol al año."
+    ],
+    "q": {
+      "q": "¿A qué altitud aproximada sobre el nivel del mar está Lhasa?",
+      "a": "Unos 3650 m",
+      "x": [
+        "Unos 1650 m",
+        "Unos 5650 m"
+      ]
+    }
+  },
+  "Q650585": {
+    "t": "El oasis del melón, en el extremo este del Tian Shan",
+    "s": "Tras días cruzando el Gobi, las caravanas de la Ruta de la Seda que venían de Gansu llegaban aquí a su primer gran oasis. Hami es una mancha verde al pie sur de los montes Karlik, la nevada cola oriental del Tian Shan, con un vasto desierto de grava que se aleja en todas direcciones. Su nombre recorre el mundo gracias al famoso melón de Hami, dulce y crujiente.",
+    "w": "Un oasis verde al pie de montañas nevadas, rodeado de un vasto desierto gris de grava; grandes parques solares cerca.",
+    "f": [
+      "Desde finales del siglo XVII, los melones de Hami se enviaban como tributo a los emperadores Qing.",
+      "Su distrito central, Yizhou, lleva el nombre del oasis en época Tang; en uigur, el oasis se llama Kumul."
+    ],
+    "q": {
+      "q": "¿Qué fruta lleva el nombre de Hami?",
+      "a": "Un melón",
+      "x": [
+        "Una uva",
+        "Una granada"
+      ]
+    }
+  },
+  "Q235389": {
+    "t": "Un oasis del jade al borde del Taklamakán",
+    "s": "Dos ríos trenzados con nombre de jade, el Jade Blanco y el Jade Negro, bajan de los nevados montes Kunlun a ambos lados de Hotan, luego se unen y avanzan hacia el norte, hacia el mar de arena del Taklamakán. Entre ellos está el oasis verde. Desde hace miles de años, la gente recoge jade nefrita en los lechos de grava de los ríos.",
+    "w": "Un oasis verde entre dos ríos trenzados, montañas nevadas al sur y un mar de dunas interminable al norte.",
+    "f": [
+      "Durante miles de años, el jade de Hotan se llevó al este, a las cortes de los gobernantes de China.",
+      "Una leyenda que recogió el monje Xuanzang cuenta que la seda llegó a Khotan cuando una princesa escondió huevos de gusano en su tocado.",
+      "El río Hotan solo cruza el Taklamakán en verano, cuando lo llena el deshielo."
+    ],
+    "q": {
+      "q": "¿Qué piedra se encuentra en los ríos de Hotan?",
+      "a": "Jade",
+      "x": [
+        "Turquesa",
+        "Lapislázuli"
+      ]
+    }
+  },
+  "Q170521": {
+    "t": "Un cruce de la Ruta de la Seda al pie del Pamir",
+    "s": "Tres cordilleras —Tian Shan, Pamir y Kunlun— cercan el desierto en Kasgar, oasis verde en el extremo oeste de la cuenca del Tarim. Era el gran cruce de caravanas: las rutas que rodeaban el Taklamakán por el norte y por el sur se unían aquí antes de subir a los pasos del oeste. En días claros, al suroeste, brillan las cúpulas nevadas del Kongur y el Muztagh Ata, de más de 7500 m.",
+    "w": "Un oasis verde en el extremo oeste de una cuenca desértica, con murallas de montañas nevadas al oeste, al norte y al sur.",
+    "f": [
+      "Mahmud al-Kashgari, de esta región, compuso en la década de 1070 el primer gran diccionario de las lenguas túrquicas.",
+      "El mercado de ganado del domingo de Kasgar atrae desde hace generaciones a comerciantes de toda la región."
+    ],
+    "q": {
+      "q": "¿Qué sabio de aquí compuso en el siglo XI un gran diccionario túrquico?",
+      "a": "Mahmud al-Kashgari",
+      "x": [
+        "Al-Biruni",
+        "Ibn Sina"
+      ]
+    }
+  },
+  "Q211243": {
+    "t": "Llanura verde entre una muralla de montes y el río Amarillo",
+    "s": "Una muralla montañosa oscura y dentada, la cordillera de Helan, protege Yinchuan de las arenas del desierto de Tengger, al oeste, mientras el río Amarillo corre al este. Entre ambos hay una franja de llanura verde y regada, alimentada por canales excavados hace más de 2000 años. Sus lagos y arrozales le valieron el nombre de «Jiangnan más allá de la frontera».",
+    "w": "Una llanura verde salpicada de lagos entre una larga cordillera oscura al oeste y un río ancho al este; desierto más allá.",
+    "f": [
+      "Del siglo XI al XIII, Yinchuan fue la capital del reino de Xia Occidental.",
+      "Las tumbas reales de Xia Occidental se alzan al pie de los montes Helan, al oeste de la ciudad.",
+      "Las bayas de goji de Ningxia son famosas en toda China."
+    ],
+    "q": {
+      "q": "¿De qué reino medieval fue capital Yinchuan?",
+      "a": "Xia Occidental",
+      "x": [
+        "Liao",
+        "Jin"
+      ]
+    }
+  },
+  "Q362865": {
+    "t": "Vieja ciudad del carbón en las colinas fronterizas de Hunan",
+    "s": "El carbón hizo Pingxiang, una ciudad en un valle de colinas verdes en el borde occidental de Jiangxi, donde los montes Luoxiao separan la provincia de Hunan. La mina de Anyuan, abierta en 1898, alimentó una de las primeras siderurgias modernas de China. Al sureste se alza el monte Wugong, cuyas cumbres redondeadas están cubiertas de pastizal y no de bosque.",
+    "w": "Una ciudad en un valle entre colinas verdes y onduladas, con montañas más altas a lo largo de la frontera, al oeste y al sur.",
+    "f": [
+      "El coque de Anyuan alimentaba la siderurgia de Hanyang, en Wuhan, una de las primeras acerías modernas de China.",
+      "Los pastizales de la cumbre del monte Wugong, a más de 1900 m, se vuelven dorados en otoño."
+    ],
+    "q": {
+      "q": "¿Qué producía la mina de Anyuan, en Pingxiang, abierta en 1898?",
+      "a": "Carbón",
+      "x": [
+        "Estaño",
+        "Wolframio"
+      ]
+    }
+  },
+  "Q38234": {
+    "t": "La ventana de Japón a Europa, en torno a un puerto estrecho",
+    "s": "Nagasaki rodea un puerto largo y estrecho, con casas que trepan por empinadas colinas verdes a ambos lados como las gradas de un anfiteatro. Los barcos portugueses lo convirtieron en puerto en 1571. Durante más de dos siglos de aislamiento de Japón, una pequeña isla artificial de aquí, Dejima, fue la única ventana regular del país a Europa. Frente a la costa, al suroeste, hay un rosario de islas.",
+    "w": "Un puerto largo y estrecho como un fiordo, con la ciudad trepando por colinas verdes a ambos lados; islas al suroeste.",
+    "f": [
+      "De 1641 a 1859, los comerciantes neerlandeses de Dejima fueron los únicos europeos autorizados a comerciar con Japón.",
+      "La castella, un bizcocho que aún se vende por todo Nagasaki, llegó con los comerciantes portugueses en el siglo XVI."
+    ],
+    "q": {
+      "q": "¿Qué europeos comerciaban en Dejima desde 1641?",
+      "a": "Los neerlandeses",
+      "x": [
+        "Los portugueses",
+        "Los ingleses"
+      ]
+    }
+  },
+  "Q205922": {
+    "t": "La ciudad de las grullas, en las marismas del río Nen",
+    "s": "Qiqihar se extiende por la llanura de Songnen junto al río Nen, en un paisaje de carrizales y lagos someros que brillan como espejos esparcidos. Al sureste de la ciudad está Zhalong, un vasto humedal donde anida en verano la grulla de Manchuria; fue una de las primeras reservas naturales de grullas de China. La ciudad nació como fortaleza Qing en 1691.",
+    "w": "Una ciudad junto a un río trenzado en una llanura de carrizales y lagos someros; blanca y helada en invierno.",
+    "f": [
+      "Los carrizales de Zhalong cubren más de 2000 km².",
+      "En el arte chino, la grulla de Manchuria simboliza la longevidad."
+    ],
+    "q": {
+      "q": "¿Por qué ave es famoso el humedal de Zhalong, cerca de Qiqihar?",
+      "a": "La grulla de Manchuria",
+      "x": [
+        "El cisne vulgar",
+        "El pato mandarín"
+      ]
+    }
+  },
+  "Q200016": {
+    "t": "Donde los Ghats Orientales bajan al golfo de Bengala",
+    "s": "Visakhapatnam, o Vizag, está donde las colinas verdes de los Ghats Orientales bajan hasta el golfo de Bengala. Su puerto profundo se esconde tras un cabo rocoso llamado Dolphin’s Nose («nariz de delfín»), y largas playas de arena se curvan hacia el norte. La ciudad lleva el nombre de Visakha, un dios hindú del valor. Tierra adentro, las colinas suben hacia el valle de Araku y sus cafetales.",
+    "w": "Una ciudad costera entre colinas verdes y el mar, un puerto tras un cabo rocoso y largas playas al norte.",
+    "f": [
+      "Visakhapatnam es uno de los mayores puertos de la India.",
+      "El café del valle de Araku, cultivado sobre todo por agricultores tribales, se ha hecho conocido en todo el mundo."
+    ],
+    "q": {
+      "q": "El puerto de Vizag está resguardado por un cabo llamado…",
+      "a": "Dolphin’s Nose",
+      "x": [
+        "Elephant’s Trunk",
+        "Lion’s Head"
+      ]
+    }
+  },
+  "Q38807": {
+    "t": "Una lluviosa capital portuaria rodeada de arrecifes",
+    "s": "Busca una línea clara de oleaje sobre el arrecife y montañas oscuras empapadas de lluvia detrás: eso es Suva, en una península montuosa de la costa sureste de Viti Levu, la isla principal de Fiyi. Aquí se acumulan las nubes a menudo, y llueve mucho más que en el lado oeste de Fiyi. Suva sustituyó a Levuka como capital en 1882.",
+    "w": "Una ciudad en una península montuosa entre dos bahías, una línea clara de arrecife frente a la costa y montañas verdes con nubes detrás.",
+    "f": [
+      "En Suva caen unos 3000 mm de lluvia al año, varias veces más que en Londres.",
+      "Levuka, la antigua capital en la isla de Ovalau, es Patrimonio Mundial de la UNESCO."
+    ],
+    "q": {
+      "q": "¿Qué ciudad era la capital de Fiyi antes de Suva?",
+      "a": "Levuka",
+      "x": [
+        "Nadi",
+        "Lautoka"
+      ]
+    }
+  },
+  "Q1520": {
+    "t": "Una capital de muchos nombres en la estepa abierta",
+    "s": "Esta ciudad se alza en una estepa llana, casi sin árboles, a orillas del sinuoso río Ishim, y en invierno todo a su alrededor se vuelve blanco bajo una helada dura. Nació como el fuerte de Akmolinsk en 1830 y ha cambiado de nombre más que casi ninguna capital: Tselinogrado, Akmola, Astaná, Nur-Sultán y, desde 2022, de nuevo Astaná. Kazajistán trasladó aquí su capital desde Almaty en 1997.",
+    "w": "Una ciudad compacta en una estepa llana y sin árboles, cruzada por un río sinuoso; blanca y helada en invierno.",
+    "f": [
+      "En invierno, las noches bajan a menudo de −30 °C: es una de las capitales más frías del mundo.",
+      "El Ishim sigue hacia el norte, hasta Rusia, donde se une al Irtish."
+    ],
+    "q": {
+      "q": "¿Cómo se llamó la ciudad de 1961 a 1992?",
+      "a": "Tselinogrado",
+      "x": [
+        "Akmolinsk",
+        "Semipalátinsk"
+      ]
+    }
+  },
+  "Q484706": {
+    "t": "Una ciudad del carbón en la estepa, con nombre de arbusto",
+    "s": "Qaraghandy, más conocida como Karagandá, se extiende por la estepa kazaja desnuda, y a su alrededor se ven los conos de viejas escombreras de sus minas de carbón. El carbón se halló aquí en 1833 —según la tradición local, un pastorcillo— y la ciudad moderna creció deprisa desde la década de 1930. Su nombre viene de karagan, la resistente caragana, un arbusto que crece por toda la estepa.",
+    "w": "Una ciudad extensa en una estepa llana y desnuda, salpicada de escombreras cónicas; una ciudad del acero y un embalse al noroeste.",
+    "f": [
+      "La cuenca carbonífera de Karagandá es una de las mayores de Asia central.",
+      "La ciudad siderúrgica de Temirtau, a unos 30 km al noroeste, creció junto a un embalse del río Nura."
+    ],
+    "q": {
+      "q": "¿Qué planta de la estepa dio nombre a Karagandá?",
+      "a": "La caragana",
+      "x": [
+        "El ajenjo",
+        "La hierba pluma"
+      ]
+    }
+  },
+  "Q35493": {
+    "t": "La ciudad de las manzanas, bajo una muralla de picos nevados",
+    "s": "Almaty se extiende por una llanura en suave pendiente justo al pie del Alatau Transilí, cuyos picos nevados alcanzan casi 5000 m justo al sur de la ciudad: una muralla blanca suspendida sobre los tejados. Los bosques de estas laderas albergan el manzano silvestre del que descienden las manzanas cultivadas del mundo, y el nombre de la ciudad evoca esa fruta.",
+    "w": "Una gran ciudad en una ladera que sube hasta una empinada muralla de montañas nevadas al sur; estepa llana al norte.",
+    "f": [
+      "La ciudad nació en 1854 como el fuerte ruso de Verny.",
+      "Almaty fue la capital de Kazajistán hasta 1997.",
+      "Medeu, una pista de patinaje en un desfiladero sobre la ciudad, está a unos 1700 m."
+    ],
+    "q": {
+      "q": "Los manzanos silvestres de los montes de Almaty son antepasados de…",
+      "a": "La manzana cultivada",
+      "x": [
+        "La pera",
+        "El membrillo"
+      ]
+    }
+  },
+  "Q48403": {
+    "t": "La ciudad del Templo Dorado y su estanque de néctar",
+    "s": "En el corazón de Amritsar, el Templo Dorado, el santuario más sagrado de la fe sij, se alza en medio de un estanque sagrado. Alrededor de la ciudad, la llanura llana y fértil del Punyab es un mosaico de campos de trigo y arroz surcados de canales. Amritsar creció en torno a ese estanque en la década de 1570, con el gurú Ram Das, y su nombre significa «estanque de néctar».",
+    "w": "Una ciudad densa en una llanura verde de campos y canales que se extiende hasta el horizonte en todas direcciones.",
+    "f": [
+      "La cocina comunitaria del Templo Dorado sirve comidas gratis a decenas de miles de visitantes cada día.",
+      "Los pisos superiores del templo se cubrieron de pan de oro a principios del siglo XIX, bajo el maharajá Ranjit Singh."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Amritsar?",
+      "a": "Estanque de néctar",
+      "x": [
+        "Ciudad de oro",
+        "Río sagrado"
+      ]
+    }
+  },
+  "Q79980": {
+    "t": "Una ciudad sagrada en una curva en media luna del Ganges",
+    "s": "Varanasi bordea la orilla oeste del Ganges, donde el río traza una gran media luna y, cosa rara, corre hacia el norte. Desde arriba el contraste es llamativo: la ciudad llena la orilla oeste de escalinatas de piedra, los ghats, mientras la orilla este sigue siendo una franja de arena casi vacía. A menudo se la cuenta entre las ciudades habitadas sin interrupción más antiguas del mundo.",
+    "w": "Una ciudad densa en el lado oeste de una curva en media luna de un río ancho, con una orilla arenosa y desnuda enfrente.",
+    "f": [
+      "En Sarnath, a unos 10 km al noreste, se dice que Buda pronunció su primer sermón.",
+      "Más de 80 ghats bordean el río a lo largo de varios kilómetros."
+    ],
+    "q": {
+      "q": "¿Quién pronunció su primer sermón en Sarnath, cerca de Varanasi?",
+      "a": "Buda",
+      "x": [
+        "Mahavira",
+        "Gurú Nanak"
+      ]
+    }
+  },
+  "Q202139": {
+    "t": "Donde la India empezó a sacar carbón",
+    "s": "Asansol se extiende por una tierra roja y ondulada entre los ríos Damodar y Ajay, al borde de la meseta de Chota Nagpur. Es la cuenca carbonífera de Raniganj, donde empezó en 1774 la minería comercial del carbón en la India, y la tierra de alrededor está salpicada de pozos, escombreras y galerías inundadas. Al oeste, presas en el Damodar y el Barakar retienen grandes embalses.",
+    "w": "Una ciudad industrial en tierra rojiza y ondulada salpicada de pozos y charcas, un río al sur y embalses al oeste.",
+    "f": [
+      "Al Damodar lo llamaban el «Dolor de Bengala» por sus crecidas, hasta que se construyeron presas en él en los años cincuenta.",
+      "La Grand Trunk Road, una de las carreteras más antiguas de Asia, cruza la ciudad."
+    ],
+    "q": {
+      "q": "¿Cuándo empezó la minería comercial del carbón en la India, en Raniganj?",
+      "a": "En 1774",
+      "x": [
+        "En 1674",
+        "En 1874"
+      ]
+    }
+  },
+  "Q242144": {
+    "t": "Ciudad del acero hecha con ayuda soviética entre arrozales",
+    "s": "Bhilai surgió en los años cincuenta en torno a una de las mayores acerías de la India, construida con ayuda soviética en la llanura de Chhattisgarh. Desde arriba, busca el enorme rectángulo gris de la planta con sus estanques de refrigeración y, a su lado, una ciudad bien planificada. Alrededor se extiende un edredón de arrozales: a Chhattisgarh se la suele llamar el granero de arroz de la India.",
+    "w": "Un enorme complejo industrial gris con estanques junto a una ciudad planificada, en un mosaico llano de arrozales verdes.",
+    "f": [
+      "La planta de Bhilai ha sido durante mucho tiempo la principal fabricante de raíles de acero de la India.",
+      "Bhilai y la vecina Durg han crecido hasta formar una sola zona urbana."
+    ],
+    "q": {
+      "q": "La acería de Bhilai se construyó en los años cincuenta con ayuda de…",
+      "a": "La Unión Soviética",
+      "x": [
+        "El Reino Unido",
+        "Alemania Occidental"
+      ]
+    }
+  },
+  "Q80989": {
+    "t": "La ciudad de los lagos, gobernada antaño por reinas",
+    "s": "Bhopal rodea dos grandes lagos en la montuosa meseta de Malwa, y el mayor, el Lago Superior, domina la vista desde arriba. La tradición dice que el rajá Bhoj lo creó en el siglo XI represando un río. Durante más de un siglo desde 1819, Bhopal la gobernó una dinastía de cuatro mujeres, las begums, algo poco común en la historia de la India.",
+    "w": "Una ciudad en colinas bajas en torno a dos grandes lagos, el del oeste mucho mayor; meseta y cultivos alrededor.",
+    "f": [
+      "La estupa budista de Sanchi, Patrimonio de la UNESCO, está a unos 45 km al noreste.",
+      "Los abrigos rocosos de Bhimbetka, al sureste de la ciudad, guardan pinturas de miles de años."
+    ],
+    "q": {
+      "q": "¿A qué rey se atribuye tradicionalmente el Lago Superior de Bhopal?",
+      "a": "Al rajá Bhoj",
+      "x": [
+        "A Ashoka",
+        "A Akbar"
+      ]
+    }
+  },
+  "Q228405": {
+    "t": "La ciudad de los templos tamiles, entre colinas de granito",
+    "s": "Madurai se extiende junto al río Vaigai en una llanura salpicada de colinas desnudas de granito; de una, Yanaimalai, se dice que parece un elefante tumbado. En su corazón se alza el templo de Meenakshi, cuyas coloridas torres de entrada sobresalen por encima de las calles. Madurai es un centro de la cultura tamil desde hace más de dos mil años, y la tradición sitúa aquí las academias de los antiguos poetas tamiles.",
+    "w": "Una ciudad junto a un río arenoso en una llanura salpicada de colinas rocosas aisladas, una larga y con forma de elefante.",
+    "f": [
+      "El templo de Meenakshi tiene 14 torres de entrada; la más alta mide unos 50 m.",
+      "El jazmín de Madurai es tan apreciado que tiene indicación geográfica protegida."
+    ],
+    "q": {
+      "q": "El gran templo de Madurai está dedicado a la diosa…",
+      "a": "Meenakshi",
+      "x": [
+        "Kali",
+        "Lakshmi"
+      ]
+    }
+  },
+  "Q9885": {
+    "t": "Ciudad textil junto al gran paso de los Ghats Occidentales",
+    "s": "El único gran hueco de los Ghats Occidentales se abre justo al oeste de Coimbatore: el paso de Palakkad, de unos 30 a 40 km de ancho, deja pasar vientos y carreteras hacia Kerala. Por lo demás, la llanura de la ciudad está cercada de montañas, con las colinas Nilgiri alzándose empinadas al norte. Sus muchas fábricas de algodón le valieron el apodo de Mánchester del sur de la India.",
+    "w": "Una gran ciudad en una llanura, un enorme macizo al norte y cordilleras empinadas al oeste con un ancho hueco entre ellas.",
+    "f": [
+      "El paso de Palakkad es la principal brecha de los Ghats Occidentales, que por lo demás corren sin interrupción más de 1000 km.",
+      "Coimbatore es famosa en toda la India por sus molinos eléctricos de piedra, con indicación geográfica protegida."
+    ],
+    "q": {
+      "q": "¿Qué paso de los Ghats Occidentales está justo al oeste de Coimbatore?",
+      "a": "El paso de Palakkad",
+      "x": [
+        "El Bhor Ghat",
+        "El Thal Ghat"
+      ]
+    }
+  },
+  "Q9326": {
+    "t": "Una capital baja y arbolada en una gran curva del Mekong",
+    "s": "Vientián se extiende baja y arbolada a lo largo de una amplia curva del Mekong, y lo que ves al otro lado del agua es Tailandia. En la estación seca, el río mengua y deja al descubierto largos bancos de arena. El rey Setthathirath trasladó aquí la capital del reino de Lan Xang desde Luang Prabang en 1560. El nombre suele traducirse como «ciudad del sándalo».",
+    "w": "Una ciudad baja y verde a lo largo de una amplia curva de río con bancos de arena; la otra orilla es de otro país.",
+    "f": [
+      "La estupa dorada de Pha That Luang es el símbolo nacional de Laos.",
+      "El primer Puente de la Amistad tailandés-laosiano, abierto en 1994, cruza el Mekong justo aguas abajo."
+    ],
+    "q": {
+      "q": "En 1560, el rey Setthathirath trasladó su capital a Vientián desde…",
+      "a": "Luang Prabang",
+      "x": [
+        "Ayutthaya",
+        "Champasak"
+      ]
+    }
+  },
+  "Q9279": {
+    "t": "Una capital ribereña con un pueblo entero sobre pilotes",
+    "s": "Un pueblo entero sobre pilotes, unido por pasarelas, se extiende al otro lado del río frente al centro de Bandar Seri Begawan: Kampong Ayer, una de las mayores aldeas lacustres del mundo. La capital está en el río Brunéi, a pocos kilómetros de la bahía de Brunéi, rodeada de selva verde oscuro. En 1521, miembros de la expedición de Magallanes la visitaron y se maravillaron ante una ciudad construida sobre el agua.",
+    "w": "Una pequeña ciudad en un río que serpentea por la selva, un gran grupo de casas sobre pilotes y un largo puente sobre la bahía.",
+    "f": [
+      "El puente de Temburong, abierto en 2020, recorre unos 30 km sobre la bahía de Brunéi hasta la parte oriental, separada, del país.",
+      "La ciudad adoptó su nombre actual en 1970; antes se llamaba Ciudad de Brunéi."
+    ],
+    "q": {
+      "q": "¿Qué es Kampong Ayer?",
+      "a": "Un pueblo sobre pilotes en el agua",
+      "x": [
+        "Un mercado flotante",
+        "Un bosque real"
+      ]
+    }
+  },
+  "Q45604": {
+    "t": "Un oasis de granadas entre crestas desnudas y arenas rojas",
+    "s": "Las dunas rojizas del desierto de Registán se extienden al sur de Kandahar, que ocupa una llanura seca a unos 1000 m de altitud, entre crestas desnudas y dentadas. Al noroeste de la ciudad, el río Arghandab riega una cinta de huertos verdes famosos por sus granadas. En 1747, Ahmad Shah Durrani hizo de Kandahar la capital de su nuevo imperio, y aquí está enterrado.",
+    "w": "Una ciudad en una llanura parda y seca entre crestas rocosas desnudas, con una cinta verde de huertos junto a un río al noroeste.",
+    "f": [
+      "Muchos historiadores relacionan Kandahar con una ciudad fundada por Alejandro Magno, Alejandría de Aracosia.",
+      "Las granadas de Kandahar son muy apreciadas en toda la región."
+    ],
+    "q": {
+      "q": "¿Por qué fruta es famoso el valle del Arghandab, cerca de Kandahar?",
+      "a": "Las granadas",
+      "x": [
+        "Los dátiles",
+        "Las naranjas"
+      ]
+    }
+  },
+  "Q1850": {
+    "t": "Una capital donde se juntan cuatro brazos de río",
+    "s": "Phnom Penh está en una gran encrucijada de agua llamada Chaktomuk, «cuatro caras»: el Mekong, el Tonlé Sap y el Bassac se juntan aquí en una X de agua parda. Cada estación de lluvias, el Mekong crece tanto que el río Tonlé Sap invierte su curso y llena el gran lago aguas arriba. El nombre de la ciudad significa «colina de Penh», por una mujer que, según la leyenda, fundó aquí un santuario.",
+    "w": "Una ciudad en un cruce en forma de X de ríos anchos y pardos, rodeada de llanura inundable y arrozales.",
+    "f": [
+      "En la estación de lluvias, el lago Tonlé Sap puede llegar a multiplicar varias veces su tamaño de la estación seca.",
+      "El rey Norodom trasladó aquí la capital real desde Oudong en 1866."
+    ],
+    "q": {
+      "q": "¿Qué hace el río Tonlé Sap cada estación de lluvias?",
+      "a": "Invierte su curso",
+      "x": [
+        "Se seca",
+        "Se congela"
+      ]
+    }
+  },
+  "Q9270": {
+    "t": "Pequeña capital tendida a lo largo de un valle del Himalaya",
+    "s": "Timbu se estira por el estrecho valle del Wang Chhu, a unos 2300 m de altitud, con montañas empinadas y boscosas a ambos lados. Es una de las capitales más pequeñas de Asia y aún no tiene semáforos: en su cruce más concurrido, un policía dirige el tráfico con elegantes gestos de las manos. En el fondo del valle se alza el Tashichho Dzong, una fortaleza-monasterio que alberga el gobierno.",
+    "w": "Una ciudad pequeña y alargada en un valle fluvial estrecho, entre laderas empinadas y muy boscosas.",
+    "f": [
+      "Timbu se convirtió en la capital de Bután en los años cincuenta, en lugar de Punakha.",
+      "El único aeropuerto internacional de Bután, en Paro, está en un valle vecino a unos 50 km."
+    ],
+    "q": {
+      "q": "¿Qué no hay en Timbu, como es bien sabido?",
+      "a": "Semáforos",
+      "x": [
+        "Farolas",
+        "Puentes"
+      ]
+    }
+  },
+  "Q11568": {
+    "t": "Ciudad portuaria tropical con el nombre de Charles Darwin",
+    "s": "Manglares oscuros bordean un gran puerto en la costa norte tropical de Australia, y Darwin ocupa una península baja dentro de él. Alrededor se extienden sabanas arboladas llanas y, más al este, las llanuras inundables de Kakadu. En la estación húmeda, casi todas las tardes se forman enormes tormentas sobre la tierra. La tripulación del HMS Beagle bautizó el puerto en 1839 en honor de su antiguo compañero de a bordo Charles Darwin.",
+    "w": "Una pequeña ciudad en una península baja dentro de un puerto ancho bordeado de manglares; sabana verde y llana más allá.",
+    "f": [
+      "Darwin está más cerca de Yakarta que de Sídney.",
+      "En los ríos y bahías de alrededor viven cocodrilos de agua salada."
+    ],
+    "q": {
+      "q": "¿La tripulación de qué barco bautizó Darwin en 1839?",
+      "a": "El HMS Beagle",
+      "x": [
+        "El HMS Endeavour",
+        "El HMS Bounty"
+      ]
+    }
+  },
+  "Q17872": {
+    "t": "Un pueblo entre crestas rojas, en el corazón de Australia",
+    "s": "Alice Springs está casi en el centro de Australia, metida en un hueco de los montes MacDonnell, largas crestas rojas paralelas que cruzan el desierto de este a oeste como los pliegues de una alfombra. El río Todd, que cruza el pueblo, suele ser solo un lecho de arena seca. El asentamiento creció en torno a una estación del telégrafo transcontinental, terminado en 1872, que unía Adelaida con Darwin.",
+    "w": "Largas crestas rojas paralelas que cruzan de este a oeste un desierto rojo, con un pequeño pueblo en un hueco entre ellas.",
+    "f": [
+      "En la regata Henley-on-Todd, los equipos compiten con barcos sin fondo, corriendo con ellos por el lecho seco del río.",
+      "Los manantiales, y luego el pueblo, llevan el nombre de Alice Todd, esposa de Charles Todd, constructor del telégrafo."
+    ],
+    "q": {
+      "q": "Los barcos de la regata Henley-on-Todd de Alice Springs no tienen…",
+      "a": "Fondo",
+      "x": [
+        "Remos",
+        "Velas"
+      ]
+    }
+  },
+  "Q3114": {
+    "t": "Una capital dibujada en papel, en torno a un lago artificial",
+    "s": "Canberra se eligió como término medio entre las rivales Sídney y Melbourne, y la diseñaron sobre el papel los arquitectos estadounidenses Walter Burley Griffin y Marion Mahony Griffin. Desde arriba, busca el lago artificial del centro y el dibujo geométrico de avenidas y glorietas a su alrededor. Colinas boscosas y reservas naturales separan los barrios, y por eso la apodan la «capital del monte».",
+    "w": "Una ciudad dispersa entre colinas boscosas, con un largo lago artificial en el centro y avenidas geométricas alrededor.",
+    "f": [
+      "El diseño de los Griffin ganó un concurso internacional en 1912.",
+      "El lago Burley Griffin se creó en 1963 represando el río Molonglo."
+    ],
+    "q": {
+      "q": "¿Quién ganó en 1912 el concurso para diseñar Canberra?",
+      "a": "Walter Burley Griffin",
+      "x": [
+        "Edwin Lutyens",
+        "Frank Lloyd Wright"
+      ]
+    }
+  },
+  "Q57278": {
+    "t": "Barcos de carbón, la boca de un río y un mar de dunas",
+    "s": "Una fila de graneleros esperando frente a la costa delata a Newcastle: en la desembocadura del río Hunter está el mayor puerto exportador de carbón del mundo. Al norte del puerto, las dunas claras de Stockton Bight se extienden unos 30 km a lo largo de la costa. Al sur está el lago Macquarie, grande y ramificado. Aquí se halló carbón por primera vez en 1797.",
+    "w": "Una ciudad en la boca de un río con barcos fondeados; largas dunas claras al norte y un gran lago al sur.",
+    "f": [
+      "Las dunas de Stockton Bight son las mayores dunas costeras móviles de Nueva Gales del Sur.",
+      "El valle del Hunter, tierra adentro, es una de las regiones vinícolas más antiguas de Australia."
+    ],
+    "q": {
+      "q": "Newcastle es el mayor puerto exportador del mundo de…",
+      "a": "Carbón",
+      "x": [
+        "Mineral de hierro",
+        "Trigo"
+      ]
+    }
+  },
+  "Q5112": {
+    "t": "Una ciudad en cuadrícula rodeada por un anillo de parques",
+    "s": "Un anillo continuo de parques verdes enmarca el ordenado centro en cuadrícula de Adelaida, un plano trazado por el coronel William Light en 1837 que aún se ve con claridad desde arriba. La ciudad está en una llanura costera entre el golfo de San Vicente y los boscosos montes Lofty. A diferencia de Sídney o Hobart, Australia Meridional la poblaron colonos libres, nunca presidiarios.",
+    "w": "Un centro en cuadrícula enmarcado por un cinturón verde de parques, en una llanura entre un golfo al oeste y colinas al este.",
+    "f": [
+      "La ciudad lleva el nombre de la reina Adelaida, esposa del rey Guillermo IV.",
+      "El valle de Barossa, una de las regiones vinícolas más conocidas de Australia, está a unos 60 km al noreste."
+    ],
+    "q": {
+      "q": "¿Quién trazó la cuadrícula y los parques de Adelaida?",
+      "a": "William Light",
+      "x": [
+        "Lachlan Macquarie",
+        "Walter Burley Griffin"
+      ]
+    }
+  },
+  "Q190021": {
+    "t": "Trópico seco junto a una roca roja y una isla magnética",
+    "s": "Townsville se extiende por un tramo llano y seco de la costa norte de Queensland en torno a Castle Hill, una cúpula de granito rojo rosado que brota en plena ciudad. Justo enfrente está la isla Magnetic, montañosa y boscosa, y más allá empieza la Gran Barrera de Coral. Las colinas reciben menos lluvia que la costa húmeda del norte, y de ahí su aspecto más seco, de hierba parda.",
+    "w": "Una ciudad en una costa llana en torno a una colina rocosa roja, con una isla montuosa enfrente; pastizal pardo detrás.",
+    "f": [
+      "James Cook llamó a la isla Magnetic así en 1770 porque parecía alterar la brújula de su barco.",
+      "Castle Hill, de unos 286 m, se alza en pleno centro de la ciudad."
+    ],
+    "q": {
+      "q": "¿Por qué James Cook la llamó isla Magnetic?",
+      "a": "Parecía alterar su brújula",
+      "x": [
+        "Era rica en mineral de hierro",
+        "Atraía barcos en las tormentas"
+      ]
+    }
+  },
+  "Q34932": {
+    "t": "Un río serpenteante y una bahía de islas de arena gigantes",
+    "s": "El río Brisbane se enrosca por la ciudad en curvas cerradas y serpenteantes antes de llegar a la bahía Moreton. En la bahía, las islas Moreton y North Stradbroke están entre las mayores islas de arena de la Tierra, con dunas claras frente al Pacífico. Al norte, busca los montes Glass House, un grupo de chimeneas volcánicas que se alzan de golpe en la llanura.",
+    "w": "Una ciudad a lo largo de un río de curvas cerradas; una bahía ancha protegida por largas islas de arena; picos volcánicos al norte.",
+    "f": [
+      "James Cook bautizó los montes Glass House en 1770: le recordaban los hornos de vidrio de Yorkshire.",
+      "Brisbane nació en 1825 como colonia penal para presidiarios."
+    ],
+    "q": {
+      "q": "¿Quién bautizó los montes Glass House, al norte de Brisbane?",
+      "a": "James Cook",
+      "x": [
+        "Matthew Flinders",
+        "John Oxley"
+      ]
+    }
+  },
+  "Q40191": {
+    "t": "Una ciudad portuaria bajo una montaña nevada",
+    "s": "Hobart abraza las orillas del ancho estuario del Derwent, cruzado por un largo puente, y justo detrás se alza el kunanyi / monte Wellington, de 1271 m y a menudo espolvoreado de nieve. Fundada en 1804, es la segunda capital más antigua de Australia. De aquí zarpan barcos hacia el océano Austral: Hobart es una puerta de entrada a la Antártida.",
+    "w": "Una ciudad a lo largo de un estuario ancho cruzado por un largo puente, con una gran montaña oscura justo detrás.",
+    "f": [
+      "La regata Sídney-Hobart, disputada por primera vez en 1945, termina cada año en el Derwent.",
+      "La División Antártica Australiana tiene su sede justo al sur de la ciudad."
+    ],
+    "q": {
+      "q": "¿En qué año se fundó Hobart?",
+      "a": "1804",
+      "x": [
+        "1788",
+        "1836"
+      ]
+    }
+  },
+  "Q37400": {
+    "t": "Una capital nueva de avenidas enormes trazada en el campo",
+    "s": "Naipyidó se construyó desde cero a principios de la década de 2000 en una llanura entre las boscosas colinas de Bago Yoma y las tierras altas shan, y se convirtió en la capital de Myanmar en 2005-2006. Desde arriba no se parece a ninguna otra ciudad: carreteras rectas y anchísimas, barrios muy separados y grandes huecos de campo entre ellos. Su nombre significa más o menos «morada de reyes».",
+    "w": "Una ciudad extensa y poco edificada, con carreteras rectas muy anchas y barrios dispersos en una llanura entre colinas boscosas.",
+    "f": [
+      "Algunas de sus avenidas principales tienen unos 20 carriles.",
+      "La pagoda Uppatasanti es casi una copia de la Shwedagon de Yangón, solo un poco más baja."
+    ],
+    "q": {
+      "q": "¿Qué significa el nombre Naipyidó?",
+      "a": "Morada de reyes",
+      "x": [
+        "Ciudad de oro",
+        "Fin de la contienda"
+      ]
+    }
+  },
+  "Q9347": {
+    "t": "Toda una capital apretada en una diminuta isla de coral",
+    "s": "Malé es una de las capitales más llamativas vistas desde el aire: una pequeña isla de coral, de solo unos 2 km de largo, cubierta de edificios hasta el borde del agua. A su lado están la llana isla del aeropuerto y Hulhumalé, una gran isla hecha con arena dragada. Alrededor, los atolones esparcen lagunas turquesa por el azul oscuro del océano Índico.",
+    "w": "Una isla diminuta cubierta de edificios de punta a punta junto a una isla llana con aeropuerto; lagunas turquesa y arrecifes alrededor.",
+    "f": [
+      "La palabra «atolón» viene del dhivehi, la lengua de Maldivas.",
+      "Maldivas es el país más bajo del mundo, con una altitud media del suelo de unos 1,5 m.",
+      "Un puente abierto en 2018 une Malé con la isla del aeropuerto."
+    ],
+    "q": {
+      "q": "¿De qué lengua viene la palabra «atolón»?",
+      "a": "Del dhivehi",
+      "x": [
+        "Del hawaiano",
+        "Del malayo"
+      ]
+    }
+  },
+  "Q181557": {
+    "t": "Una ciudad portuaria tras una isla larga y fina",
+    "s": "Kaohsiung se extiende por la costa suroeste de Taiwán detrás de Cijin, una isla larga y fina como un lápiz que protege su puerto del estrecho de Taiwán. Los barcos entran por huecos en ambos extremos. Es el mayor puerto de Taiwán. En el extremo norte, la joroba verde de Shoushan se alza sobre el agua, y muy tierra adentro la cordillera Central bordea el horizonte oriental.",
+    "w": "Una ciudad alargada tras una isla fina paralela a la costa, una colina verde en su extremo norte y montañas lejos al este.",
+    "f": [
+      "Se cree que el antiguo nombre de la ciudad, Takau, viene de una palabra indígena para un bosque de bambú.",
+      "La segunda entrada del puerto se abrió cortando Cijin en la década de 1970."
+    ],
+    "q": {
+      "q": "¿Qué isla larga y estrecha protege el puerto de Kaohsiung?",
+      "a": "Cijin",
+      "x": [
+        "Penghu",
+        "Liuqiu"
+      ]
+    }
+  },
+  "Q23661": {
+    "t": "La capital más austral, en un puerto redondo y ventoso",
+    "s": "Wellington trepa por colinas verdes y empinadas en torno a un puerto redondo casi cerrado, en el extremo sur de la isla Norte de Nueva Zelanda. Busca el borde perfectamente recto del valle del Hutt, al noreste: sigue la falla de Wellington. Justo al sur, las aguas a menudo bravas del estrecho de Cook te separan de la isla Sur, visible en un día claro.",
+    "w": "Una ciudad en colinas empinadas en torno a un puerto redondo; un valle recto al noreste y un estrecho y una isla al sur.",
+    "f": [
+      "Wellington es la capital más austral de cualquier país soberano.",
+      "Los vientos encauzados por el estrecho de Cook la convierten en una de las ciudades más ventosas de la Tierra."
+    ],
+    "q": {
+      "q": "¿Qué estrecho está justo al sur de Wellington?",
+      "a": "El estrecho de Cook",
+      "x": [
+        "El estrecho de Bass",
+        "El estrecho de Foveaux"
+      ]
+    }
+  },
+  "Q79990": {
+    "t": "Una ciudad jardín entre ríos trenzados y viejos volcanes",
+    "s": "Anchos ríos trenzados se abren en abanico desde los Alpes del Sur por el llano edredón de las llanuras de Canterbury, y Christchurch está en su borde marítimo. Al sureste de la ciudad se alza la península de Banks, formada por dos antiguos volcanes cuyos cráteres inundados son hoy los puertos de Lyttelton y Akaroa. Colonos ingleses fundaron la ciudad en 1850.",
+    "w": "Una ciudad llana junto a una península redonda y montuosa; llanuras en cuadrícula y ríos trenzados tierra adentro, montañas nevadas lejos al oeste.",
+    "f": [
+      "Christchurch es una de las grandes puertas a la Antártida: de su aeropuerto salen vuelos de suministro de varios programas nacionales.",
+      "El río Waimakariri, al norte de la ciudad, se divide en muchos brazos sobre un ancho lecho de grava."
+    ],
+    "q": {
+      "q": "¿Qué son los puertos de Lyttelton y Akaroa?",
+      "a": "Cráteres volcánicos inundados",
+      "x": [
+        "Fiordos glaciares",
+        "Lagunas de coral"
+      ]
+    }
+  },
+  "Q19881964": {
+    "t": "Nueva capital con el nombre de una antigua ciudad budista",
+    "s": "Amaravati se está trazando en tierras de cultivo llanas de la orilla sur del río Krishna, justo aguas arriba de Vijayawada y su larga presa; desde arriba, busca nuevas cuadrículas de calles que cortan campos verdes. El nombre se toma de la antigua ciudad de Amaravathi, algo más arriba, donde hace más de 2000 años se alzaba una gran estupa budista.",
+    "w": "Campos llanos y verdes en la orilla sur de un río ancho, cruzados por una nueva cuadrícula de calles, cerca de una ciudad con presa.",
+    "f": [
+      "Relieves de la estupa de Amaravati figuran entre los tesoros del Museo Británico y del Museo Gubernamental de Chennai.",
+      "El Krishna, de unos 1400 km, es uno de los grandes ríos de la India peninsular."
+    ],
+    "q": {
+      "q": "¿Junto a qué río se alzaba la antigua estupa de Amaravati?",
+      "a": "El Krishna",
+      "x": [
+        "El Godavari",
+        "El Kaveri"
+      ]
+    }
   }
 }

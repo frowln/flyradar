@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, FlatList, StyleSheet, Linking } from 'react-native';
+import { View, FlatList, StyleSheet, Linking, Platform } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { palette, s, gutter, line } from '../design/tokens';
 import { Label, Body, Small, DataSmall, Title } from '../design/type';
@@ -38,7 +38,16 @@ const SOURCES: Source[] = [
   { key: 'wikipedia', name: 'Wikipedia', license: 'CC BY-SA 4.0', url: 'https://creativecommons.org/licenses/by-sa/4.0/' },
   { key: 'commons', name: 'Wikimedia Commons', license: 'CC BY / CC BY-SA / public domain', url: 'https://commons.wikimedia.org' },
   { key: 'osm', name: 'OpenStreetMap', license: 'ODbL · © OpenStreetMap contributors', url: 'https://www.openstreetmap.org/copyright' },
-  { key: 'tiles', name: 'OpenMapTiles · OpenFreeMap', license: '© OpenMapTiles', url: 'https://openfreemap.org' }
+  { key: 'tiles', name: 'OpenMapTiles · OpenFreeMap', license: '© OpenMapTiles', url: 'https://openfreemap.org' },
+  {
+    key: 'terrain',
+    name: 'Terrain Tiles (AWS Open Data)',
+    license: 'SRTM, GMTED2010, ETOPO1, NED and others',
+    url: 'https://registry.opendata.aws/terrain-tiles/'
+  },
+  ...(Platform.OS === 'web'
+    ? [{ key: 'sentinel', name: 'Copernicus Sentinel-2', license: 'Contains modified Copernicus Sentinel data', url: 'https://registry.opendata.aws/sentinel-2-l2a-cogs/' }]
+    : [])
 ];
 
 /** Only in a build connected to the SkyAtlas flight services. */

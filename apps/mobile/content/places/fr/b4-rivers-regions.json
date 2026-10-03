@@ -3238,5 +3238,401 @@
         "La mer d’Azov"
       ]
     }
+  },
+  "Q43106": {
+    "t": "Un fleuve qui inonde toute une plaine chaque année",
+    "s": "Dans l’ouest de la Zambie, le Zambèze s’étale sur la plaine inondable du Barotseland, plaine plate et herbeuse large de 30 km environ, qui devient un lac brillant à la saison des pluies. D’en haut, cherchez un fleuve sinueux avec bras morts et chenaux dans une prairie vert pâle, bordée de bois plus sombres. Quand l’eau monte, le roi lozi gagne les hauteurs sur une barge royale lors de la cérémonie du Kuomboka.",
+    "w": "Un fleuve sinueux avec bras morts dans une large plaine inondable plate, vert pâle, bordée de bois plus sombres.",
+    "f": [
+      "En aval, le Zambèze plonge aux chutes Victoria et remplit le lac Kariba, l’un des plus grands réservoirs du monde.",
+      "Avec environ 2 600 km, c’est le quatrième plus long fleuve d’Afrique.",
+      "C’est le plus grand fleuve africain qui se jette dans l’océan Indien."
+    ],
+    "q": {
+      "q": "Comment s’appelle la cérémonie où les Lozi gagnent les hauteurs ?",
+      "a": "Le Kuomboka",
+      "x": [
+        "L’Umhlanga",
+        "Le Timkat"
+      ]
+    }
+  },
+  "Q2279579": {
+    "t": "La seule rivière qui vide le lac Malawi",
+    "s": "Le Shire est l’unique émissaire du lac Malawi : il coule vers le sud sur environ 400 km pour rejoindre le Zambèze au Mozambique. En route, il dévale les cataractes de Murchison, puis ralentit dans les basses terres chaudes en une large vallée marécageuse. Ici, près du marais des Éléphants, il serpente entre roselières, lagunes et champs de canne à sucre.",
+    "w": "Une rivière sinueuse dans une large vallée verte et marécageuse, avec lagunes et champs, entre des collines à l’est et à l’ouest.",
+    "f": [
+      "David Livingstone remonta le Shire en 1859, puis atteignit le lac Malawi.",
+      "Les centrales hydroélectriques de ses rapides fournissent l’essentiel de l’électricité du Malawi.",
+      "Le marais des Éléphants est une zone humide protégée, inscrite au titre de la convention de Ramsar."
+    ],
+    "q": {
+      "q": "Quel lac le Shire vide-t-il ?",
+      "a": "Le lac Malawi",
+      "x": [
+        "Le lac Tanganyika",
+        "Le lac Chilwa"
+      ]
+    }
+  },
+  "Q6862": {
+    "t": "Le « fleuve du Dragon noir », entre deux pays",
+    "s": "Sur bien plus de 1 500 km, l’Amour forme la frontière entre la Russie et la Chine ; ici, c’est un large fleuve sinueux tressé d’îles, dans une vaste plaine inondable de prairies et de lacs marécageux. Les Chinois l’appellent Heilong Jiang, le « fleuve du Dragon noir », à cause de son eau sombre. En aval, il reçoit la Songhua, dont l’eau plus pâle coule longtemps à côté de l’Amour sombre avant de s’y mêler.",
+    "w": "Un large fleuve semé d’îles et une vaste plaine inondable verte de prairies et de lacs marécageux, parmi cultures et forêts plates.",
+    "f": [
+      "L’Amour abrite le kalouga, un esturgeon géant qui peut dépasser 5 m de long.",
+      "Des tigres de l’Amour vivent encore dans les forêts de son bassin inférieur.",
+      "Avec ses rivières de tête, le réseau de l’Amour parcourt plus de 4 000 km jusqu’au détroit de Tartarie."
+    ],
+    "q": {
+      "q": "Que signifie le nom chinois Heilong Jiang ?",
+      "a": "Fleuve du Dragon noir",
+      "x": [
+        "Fleuve au sable d’or",
+        "Fleuve des nuages"
+      ]
+    }
+  },
+  "Q131792": {
+    "t": "Un grand fleuve relié en secret à l’Amazone",
+    "s": "L’Orénoque décrit un grand arc à travers le Venezuela ; ici, il longe la frontière colombienne entre des dômes de granit sombre et des rapides, avec la savane sur une rive et la forêt sur l’autre. Sa particularité la plus curieuse se trouve en amont : le Casiquiare, un chenal naturel qui relie l’Orénoque au bassin de l’Amazone. Alexander von Humboldt le parcourut en 1800 et confirma ce lien.",
+    "w": "Un large fleuve brun aux rapides rocheux et aux dômes de granit sombre, la savane d’un côté, la forêt de l’autre.",
+    "f": [
+      "Le Casiquiare est le plus grand chenal naturel de la Terre reliant deux grands bassins fluviaux.",
+      "Le delta de l’Orénoque, sur l’Atlantique, est un immense dédale de chenaux et de mangroves.",
+      "Avec environ 2 100 km, l’Orénoque est l’un des plus longs fleuves d’Amérique du Sud."
+    ],
+    "q": {
+      "q": "Quel chenal naturel relie l’Orénoque au bassin de l’Amazone ?",
+      "a": "Le Casiquiare",
+      "x": [
+        "L’Apure",
+        "Le Caroní"
+      ]
+    }
+  },
+  "Q2556345": {
+    "t": "Une paisible rivière intérieure qui nourrit le Darling",
+    "s": "La Weir naît sur les versants ouest de la Cordillère australienne, dans le sud du Queensland, et serpente vers le sud-ouest vers les plaines intérieures. D’en haut, c’est une mince ligne sombre de gommiers rouges qui erre parmi broussailles et champs de blé et de coton, souvent plus chapelet de trous d’eau que vraie rivière. Après de fortes pluies, pourtant, elle peut s’étaler loin dans sa plaine inondable.",
+    "w": "Une mince ligne sinueuse d’arbres vert sombre à travers cultures plates et broussailles ; de l’eau visible surtout après la pluie.",
+    "f": [
+      "La Weir est le plus grand affluent de la Macintyre, qu’elle rejoint près de Talwood.",
+      "En aval, la Macintyre devient la Barwon, l’une des rivières de tête du Darling.",
+      "Son eau appartient à l’immense bassin Murray–Darling, qui se déverse en mer en Australie-Méridionale."
+    ],
+    "q": {
+      "q": "À quel réseau fluvial appartient la Weir ?",
+      "a": "Le Murray–Darling",
+      "x": [
+        "La Burdekin",
+        "La Fitzroy"
+      ]
+    }
+  },
+  "Q1519602": {
+    "t": "Un fleuve large et sableux qui contourne une ville de plaine",
+    "s": "Descendu des Andes, le Río Grande contourne l’est de Santa Cruz de la Sierra et file vers le nord à travers les plaines : un large lit de sable pâle aux chenaux tressés qui se déplace à chaque crue. D’en haut, on dirait une large cicatrice de sable clair à travers forêts vertes et cultures. En aval, il rejoint le Mamoré, dans le bassin de l’Amazone.",
+    "w": "Un large lit de sable pâle aux chenaux tressés, qui traverse une forêt verte et plate et de grandes fermes rectangulaires.",
+    "f": [
+      "En Bolivie, le fleuve est aussi connu sous le nom de Guapay.",
+      "De grandes exploitations de soja couvrent une bonne partie des terres plates à l’est de Santa Cruz, près du fleuve.",
+      "Son eau finit par atteindre l’Amazone par le Mamoré et le Madeira."
+    ],
+    "q": {
+      "q": "Quelle ville bolivienne ce Río Grande contourne-t-il ?",
+      "a": "Santa Cruz de la Sierra",
+      "x": [
+        "La Paz",
+        "Sucre"
+      ]
+    }
+  },
+  "Q118771": {
+    "t": "Une rivière d’eaux noires couleur de thé fort",
+    "s": "Le Rio Negro est l’une des grandes rivières d’eaux noires du monde : teintée par les tanins des feuilles en décomposition, son eau paraît aussi sombre qu’un thé fort, presque noire vue d’en haut. Ici, dans son cours supérieur, il serpente dans la forêt entre des rapides rocheux et des plages de sable blanc qui tranchent nettement sur l’eau sombre à la saison sèche. Loin en aval, à Manaus, il rejoint l’Amazone.",
+    "w": "Une rivière très sombre, presque noire, aux bancs de sable blanc et aux îles, qui serpente dans une forêt ininterrompue.",
+    "f": [
+      "C’est la plus grande rivière d’eaux noires du monde et l’un des plus grands affluents de l’Amazone.",
+      "Près de Manaus se trouve l’archipel d’Anavilhanas, quelque 400 îles éparpillées dans la rivière.",
+      "Son cours supérieur est relié à l’Orénoque par le chenal du Casiquiare."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui rend l’eau du Rio Negro si sombre ?",
+      "a": "Les tanins des feuilles pourries",
+      "x": [
+        "Des cendres volcaniques",
+        "Des suintements de pétrole"
+      ]
+    }
+  },
+  "Q1120933": {
+    "t": "Une rivière forestière qui a donné son nom à une mine d’or",
+    "s": "La Kibali coule vers l’ouest à travers les forêts et les savanes du nord-est du Congo, des collines proches du lac Albert jusqu’à la ville de Dungu. Là, elle rencontre la Dungu, et ensemble elles forment l’Uele, qui alimente l’Oubangui et, au bout du compte, le Congo. Près d’ici, sur ses rives, se trouve la mine d’or de Kibali, l’une des plus grandes d’Afrique.",
+    "w": "Une rivière brune sinueuse dans la forêt verte et la savane, avec de grands chantiers miniers pâles près de ses rives.",
+    "f": [
+      "La Kibali et la Dungu se rejoignent à la ville de Dungu pour former l’Uele.",
+      "Le parc national de la Garamba se trouve juste au nord de Dungu.",
+      "Sa source se trouve dans les collines à l’ouest du lac Albert, non loin de la frontière ougandaise."
+    ],
+    "q": {
+      "q": "Quelle rivière la Kibali et la Dungu forment-elles ensemble ?",
+      "a": "L’Uele",
+      "x": [
+        "Le Kasaï",
+        "Le Lualaba"
+      ]
+    }
+  },
+  "Q686021": {
+    "t": "Une vallée boisée où commença l’âge du pétrole",
+    "s": "L’Allegheny serpente dans les collines boisées du nord-ouest de la Pennsylvanie, au fond de vallées profondes et courbes, ruban sombre sous une canopée verte qui vire au rouge et à l’or en octobre. Près d’ici, sur l’Oil Creek, un petit affluent, Edwin Drake fora en 1859 le premier puits de pétrole commercial des États-Unis. En aval, la rivière rejoint la Monongahela à Pittsburgh pour former l’Ohio.",
+    "w": "Une rivière sombre et sinueuse au fond d’une vallée entre des collines boisées ; rouge et or éclatants à l’automne.",
+    "f": [
+      "La rivière traverse la forêt nationale d’Allegheny, la seule forêt nationale de Pennsylvanie.",
+      "Le barrage de Kinzua, en amont, la retient dans le long réservoir d’Allegheny.",
+      "Titusville, où se trouvait le puits de Drake, devint l’une des premières villes du boom pétrolier au monde."
+    ],
+    "q": {
+      "q": "Quelle rivière l’Allegheny rejoint-elle à Pittsburgh pour former l’Ohio ?",
+      "a": "La Monongahela",
+      "x": [
+        "La Susquehanna",
+        "La Delaware"
+      ]
+    }
+  },
+  "Q186541": {
+    "t": "Un long affluent du sud à travers le pays des diamants",
+    "s": "Le Kasaï naît sur les hauts plateaux de l’Angola et coule vers le nord jusqu’en République démocratique du Congo, serpentant entre savanes et rubans de forêt-galerie. Sur ce tronçon, il forme la frontière entre l’Angola et la RDC. La région est célèbre pour ses diamants, tirés des graviers de la rivière près de la ville de Tshikapa. Il rejoint le Congo loin au nord-ouest.",
+    "w": "Une rivière brune et sinueuse aux bancs de sable, bordée de rubans de forêt sombre sur un plateau de savane vert-brun.",
+    "f": [
+      "Avec plus de 2 000 km, le Kasaï est le plus grand affluent de rive gauche du Congo.",
+      "Son dernier tronçon, avant d’entrer dans le Congo, s’appelle le Kwa.",
+      "On extrait à la main des diamants de ses graviers depuis des décennies."
+    ],
+    "q": {
+      "q": "Pour quelles pierres précieuses la région du Kasaï est-elle célèbre ?",
+      "a": "Les diamants",
+      "x": [
+        "Les saphirs",
+        "Les émeraudes"
+      ]
+    }
+  },
+  "Q809666": {
+    "t": "Le haut Darling, frangé de gommiers rouges dans la plaine",
+    "s": "La Barwon est le cours supérieur du Darling ; elle serpente vers l’ouest à travers les plaines plates de terre noire du nord de la Nouvelle-Galles du Sud. D’en haut, c’est une étroite ligne vert sombre de gommiers rouges qui décrit des boucles dans un immense patchwork de champs de coton et de blé et de pâturages gris-vert. En aval de Brewarrina, où la Culgoa la rejoint, la rivière devient le Darling.",
+    "w": "Une étroite ligne sinueuse d’arbres sombres à travers des plaines plates brun clair et de grands champs rectangulaires.",
+    "f": [
+      "À Brewarrina, les pièges à poissons en pierre que les Aborigènes ont bâtis dans la Barwon sont parmi les plus vieux ouvrages d’Australie.",
+      "Dans son cours supérieur, elle forme une partie de la frontière entre la Nouvelle-Galles du Sud et le Queensland.",
+      "Ce n’est pas la Barwon du Victoria, qui traverse Geelong."
+    ],
+    "q": {
+      "q": "Quelle rivière la Barwon devient-elle en aval ?",
+      "a": "Le Darling",
+      "x": [
+        "Le Murray",
+        "La Lachlan"
+      ]
+    }
+  },
+  "Q171436": {
+    "t": "Une longue rivière forestière en route vers l’Oubangui",
+    "s": "L’Uele serpente vers l’ouest à travers le nord de la République démocratique du Congo, rivière brune dans une mosaïque de forêt tropicale et de savane, semée de rapides rocheux et d’îles. Née du confluent de la Kibali et de la Dungu, elle coule sur plus de 1 000 km avant de rejoindre le Mbomou pour devenir l’Oubangui. Peu de routes atteignent ses rives, et la rivière reste une voie principale.",
+    "w": "Une rivière brune et sinueuse aux rapides rocheux et aux îles, à travers une mosaïque de forêt et de savane.",
+    "f": [
+      "Au XIXe siècle, les explorateurs se disputaient pour savoir si l’Uele allait au Nil, au Congo ou au lac Tchad.",
+      "À Gangala-na-Bodio, dans la région de l’Uele, une station dressait jadis des éléphants d’Afrique au travail.",
+      "Son bassin touche la ligne de partage des eaux du Nil."
+    ],
+    "q": {
+      "q": "Quelles rivières se rejoignent pour former l’Oubangui ?",
+      "a": "L’Uele et le Mbomou",
+      "x": [
+        "Le Kasaï et le Kwango",
+        "Le Lualaba et le Lomami"
+      ]
+    }
+  },
+  "Q26439": {
+    "t": "Une rivière de steppe sur la frontière russo-chinoise",
+    "s": "L’Argoun serpente vers le nord-est à travers une large steppe, puis des collines couvertes de mélèzes, marquant sur des centaines de kilomètres la frontière entre la Russie et la Chine. D’en haut, c’est une rivière vert argenté en boucles, avec bras morts et vastes prairies, à travers une terre presque vide. Là où elle rejoint la Chilka naît l’Amour.",
+    "w": "Une rivière en boucles avec bras morts et vastes prairies, à travers une steppe ondulée et des collines couvertes de mélèzes.",
+    "f": [
+      "En Chine, son cours supérieur s’appelle la rivière Hailar.",
+      "Les années humides, elle communique avec le lac Hulun, l’un des plus grands lacs de Chine.",
+      "Avec l’Amour, elle forme l’un des plus longs réseaux fluviaux d’Asie."
+    ],
+    "q": {
+      "q": "Quelle rivière rejoint l’Argoun pour former l’Amour ?",
+      "a": "La Chilka",
+      "x": [
+        "La Zeïa",
+        "L’Oussouri"
+      ]
+    }
+  },
+  "Q882739": {
+    "t": "Une gorge de plus d’un kilomètre dans les hauts plateaux",
+    "s": "En sortant du lac Tana, le Nil Bleu — l’Abay pour les Éthiopiens — s’incurve vers le sud puis vers l’ouest à travers les hauts plateaux, dans une immense gorge profonde de plus d’un kilomètre, taillée dans le basalte sombre. D’en haut, cherchez un fil brun sinueux loin sous les rebords verts du plateau. Chaque été, les pluies de mousson le gonflent en un torrent qui porte l’essentiel de la crue du Nil.",
+    "w": "Une mince rivière brune au fond d’une gorge profonde et ramifiée, taillée dans un haut plateau vert.",
+    "f": [
+      "Près de sa source, les chutes du Nil Bleu, appelées Tis Issat, « l’eau qui fume », tombent d’un rebord de basalte.",
+      "À la saison des crues, le Nil Bleu fournit l’essentiel de l’eau qui atteint l’Égypte.",
+      "Il rejoint le Nil Blanc à Khartoum."
+    ],
+    "q": {
+      "q": "De quel lac sort le Nil Bleu ?",
+      "a": "Le lac Tana",
+      "x": [
+        "Le lac Victoria",
+        "Le lac Turkana"
+      ]
+    }
+  },
+  "Q181482": {
+    "t": "Un ruban de gommiers rouges à travers l’outback australien",
+    "s": "Le Darling traverse les plaines sèches de l’ouest de la Nouvelle-Galles du Sud en rivière lente, brun olive, son cours tracé par une étroite bande de gommiers rouges à travers la terre rouge et les arroches grises. En période de sécheresse, il peut se réduire à un chapelet de mares ; après de grosses pluies en amont, ses crues s’étalent sur des dizaines de kilomètres. Il rejoint le Murray à Wentworth.",
+    "w": "Une mince ligne sinueuse d’arbres vert sombre à travers les plaines plates rouge-brun de l’outback, parfois avec des eaux de crue brillantes.",
+    "f": [
+      "Au XIXe siècle, des bateaux à aubes descendaient le Darling chargés de la laine des élevages de moutons de l’outback.",
+      "Les lacs Menindee, près de son cours inférieur, ont été transformés en réserves d’eau dans les années 1960.",
+      "Wilcannia, sur ses rives, fut jadis l’un des ports fluviaux intérieurs les plus actifs d’Australie."
+    ],
+    "q": {
+      "q": "Dans quelle rivière se jette le Darling ?",
+      "a": "Le Murray",
+      "x": [
+        "La Barwon",
+        "La Murrumbidgee"
+      ]
+    }
+  },
+  "Q117615": {
+    "t": "Une rivière à méandres dans les savanes inondées de Bolivie",
+    "s": "Le Mamoré serpente vers le nord à travers les Llanos de Moxos, savanes plates des basses terres du Beni, en Bolivie, inondées des mois durant à chaque saison des pluies. D’en haut, cherchez une rivière brune aux boucles qui serpentent entre bras morts et îlots de forêt. Dans les plaines alentour se devinent les lignes de champs surélevés et de buttes anciennes, bâtis par des peuples qui cultivaient ici bien avant l’arrivée des Espagnols.",
+    "w": "Une rivière brune à méandres avec bras morts, à travers une savane plate semée d’îlots de forêt.",
+    "f": [
+      "Des dauphins roses de Bolivie vivent dans le Mamoré.",
+      "Trinidad, la capitale du Beni, se trouve près de ses rives.",
+      "Plus au nord, le Mamoré rejoint le Beni, et ensemble ils forment le Madeira."
+    ],
+    "q": {
+      "q": "Quel fleuve le Mamoré forme-t-il avec le Beni ?",
+      "a": "Le Madeira",
+      "x": [
+        "Le Purus",
+        "Le Tapajós"
+      ]
+    }
+  },
+  "Q1054325": {
+    "t": "Une rivière courte et rapide qui jaillit du lac Huron",
+    "s": "La rivière Sainte-Claire est courte, environ 64 km seulement, et pourtant elle emporte vers le sud, vers le lac Sainte-Claire et le lac Érié, toutes les eaux sortant des lacs Supérieur, Michigan et Huron. D’en haut, c’est un ruban bleu, clair et rapide entre Sarnia, au Canada, et Port Huron, aux États-Unis, franchi à sa tête par le pont Blue Water. Les cargos des lacs la remontent et la descendent tout l’été.",
+    "w": "Une étroite rivière bleu vif qui file au sud depuis le lac Huron, un grand pont à sa tête, des villes sur ses deux rives.",
+    "f": [
+      "Elle forme une partie de la frontière entre l’Ontario et le Michigan.",
+      "À son embouchure, elle a bâti un large delta d’îles marécageuses qui avance dans le lac Sainte-Claire.",
+      "Un tunnel ferroviaire sous la rivière, ouvert en 1891, fut l’un des premiers du genre en Amérique du Nord."
+    ],
+    "q": {
+      "q": "De quel lac sort la rivière Sainte-Claire ?",
+      "a": "Le lac Huron",
+      "x": [
+        "Le lac Érié",
+        "Le lac Michigan"
+      ]
+    }
+  },
+  "Q118251": {
+    "t": "Le plus grand affluent de l’Amazone, lourd du limon andin",
+    "s": "Le Madeira serpente vers le nord-est à travers la forêt en une large rivière brun laiteux, lourde du limon descendu des Andes de Bolivie et du Pérou. D’en haut, c’est une large bande aux méandres doux, avec de longs bancs de sable et des îles boisées. C’est le plus grand affluent de l’Amazone par le volume, et il lui apporte une large part de ses sédiments.",
+    "w": "Une large rivière brun laiteux aux longs bancs de sable et aux îles, qui méandre doucement dans une forêt ininterrompue.",
+    "f": [
+      "Son nom signifie « bois » en portugais, d’après les troncs qu’il charrie à la saison des pluies.",
+      "Deux grands barrages hydroélectriques, Santo Antônio et Jirau, se dressent sur lui près de Porto Velho.",
+      "En comptant le Mamoré, sa principale rivière de tête, il parcourt plus de 3 000 km."
+    ],
+    "q": {
+      "q": "Que signifie le mot portugais « madeira » ?",
+      "a": "Bois",
+      "x": [
+        "Boue",
+        "Or"
+      ]
+    }
+  },
+  "Q4915": {
+    "t": "Une large rivière au bord des Appalaches",
+    "s": "L’Ohio serpente entre des collines boisées le long des frontières de la Virginie-Occidentale, de l’Ohio et du Kentucky, rivière large et calme avec villes, centrales électriques et fermes sur son étroite plaine inondable. De longs convois de barges y poussent charbon et céréales. Elle porte tant d’eau qu’à son confluent avec le Mississippi, à Cairo, dans l’Illinois, c’est elle la plus grosse des deux.",
+    "w": "Une large rivière sinueuse entre des collines boisées abruptes, avec de petites villes et de longs convois de barges.",
+    "f": [
+      "Elle naît à Pittsburgh, au confluent de l’Allegheny et de la Monongahela.",
+      "Son nom vient d’un mot sénéca généralement traduit par « bonne rivière » ou « grande rivière ».",
+      "Une chaîne d’écluses et de barrages la garde navigable sur toute sa longueur, environ 1 580 km."
+    ],
+    "q": {
+      "q": "Quelles rivières se rejoignent à Pittsburgh pour former l’Ohio ?",
+      "a": "Allegheny et Monongahela",
+      "x": [
+        "Allegheny et Susquehanna",
+        "Kanawha et Monongahela"
+      ]
+    }
+  },
+  "Q166966": {
+    "t": "Là où le Tigre et l’Euphrate gagnent ensemble la mer",
+    "s": "Le Tigre et l’Euphrate achèvent leur long voyage en un seul fleuve, le Chatt al-Arab, qui coule sur environ 200 km, passe Bassora et atteint le golfe Persique. D’en haut, c’est une large voie d’eau brune bordée sur ses deux rives de palmeraies vert sombre, nettement tranchées par le désert pâle et les marais. Depuis des siècles, des navires le remontent jusqu’à Bassora.",
+    "w": "Un large fleuve brun bordé de bandes vert sombre de palmiers-dattiers, avec désert pâle et marais au-delà.",
+    "f": [
+      "Les deux fleuves se rejoignent à Al-Qurna, que la tradition locale associe au jardin d’Éden.",
+      "Ses rives portaient jadis des millions de palmiers-dattiers, l’une des plus grandes palmeraies de la Terre.",
+      "Près de son embouchure, le Karoun, venu d’Iran, le rejoint aussi."
+    ],
+    "q": {
+      "q": "Quels fleuves se rejoignent pour former le Chatt al-Arab ?",
+      "a": "Le Tigre et l’Euphrate",
+      "x": [
+        "L’Euphrate et le Jourdain",
+        "Le Tigre et l’Oronte"
+      ]
+    }
+  },
+  "Q183078": {
+    "t": "Le plus long fleuve d’Australie, au pays des gommiers rouges",
+    "s": "Le Murray serpente à travers les plaines intérieures plates du sud-est de l’Australie en boucles serrées et emmêlées, que signalent d’en haut une bande sombre de forêt de gommiers rouges et un semis de billabongs, les lacs en croissant laissés par d’anciens méandres. Ici, près de Swan Hill, il forme la frontière entre le Victoria et la Nouvelle-Galles du Sud. Autour, l’irrigation change la plaine sèche en carrés verts de vignes et de vergers.",
+    "w": "Un fleuve aux boucles serrées dans une bande sombre de forêt de gommiers rouges, entouré de lacs en croissant et de champs irrigués verts.",
+    "f": [
+      "Avec environ 2 500 km, le Murray est le plus long fleuve d’Australie.",
+      "Des bateaux à aubes naviguent encore sur le Murray, dans des villes comme Echuca, jadis le plus grand port intérieur d’Australie.",
+      "La forêt de Barmah–Millewa, en amont, est la plus grande forêt de gommiers rouges du monde."
+    ],
+    "q": {
+      "q": "Comment appelle-t-on en Australie les lacs en croissant le long du Murray ?",
+      "a": "Des billabongs",
+      "x": [
+        "Des ravines",
+        "Des oueds"
+      ]
+    }
+  },
+  "Q181475": {
+    "t": "Un fil vert de vignes à travers une terre sèche",
+    "s": "Dans le Cap-Nord, région sèche d’Afrique du Sud, le fleuve Orange est une mince ligne bleu-vert flanquée d’une bande vert vif de vignes et de vergers, avec le semi-désert brun et nu jusqu’à ses bords. Près d’ici, il plonge dans la gorge de granit des chutes d’Augrabies, dont le nom khoï signifie « lieu du grand bruit ». Plus à l’ouest, il forme la frontière avec la Namibie en route vers l’Atlantique.",
+    "w": "Un mince fleuve bordé d’une bande vert vif de vignes, qui entaille un semi-désert brun et nu et une gorge de granit.",
+    "f": [
+      "Robert Gordon le nomma en 1779 d’après la maison néerlandaise d’Orange, et non pour sa couleur.",
+      "Avec quelque 2 200 km, c’est le plus long fleuve d’Afrique du Sud.",
+      "Le raisin cultivé ici sur ses rives sert surtout à faire des raisins secs."
+    ],
+    "q": {
+      "q": "D’où le fleuve Orange tient-il son nom ?",
+      "a": "De la maison néerlandaise d’Orange",
+      "x": [
+        "De la couleur de son eau",
+        "Des orangeraies de ses rives"
+      ]
+    }
   }
 }

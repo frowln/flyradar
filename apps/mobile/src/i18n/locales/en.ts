@@ -365,6 +365,7 @@ export const en = {
     cityLights: 'At night its lights carry about %{dist} %{unit}',
   },
   place: {
+    fromAbove: 'from space · %{size} %{unit} across',
     inView: 'in view',
     closest: 'closest',
     notFound: 'This place is not in the flight package.',
@@ -561,6 +562,8 @@ export const en = {
       commons: 'Photos — author and licence are shown under each one',
       osm: 'Map data',
       tiles: 'Offline map tiles',
+      terrain: 'Mountain shading from elevation data',
+      sentinel: 'Satellite views of places, from above',
       aeroDataBox: 'Finding a flight by its number',
       fr24: 'Recent real tracks of the flight',
       openMeteo: 'Cloud forecast along the route',

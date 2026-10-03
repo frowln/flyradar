@@ -365,6 +365,7 @@ export const de = {
     cityLights: 'Nachts sind ihre Lichter etwa %{dist} %{unit} weit zu sehen',
   },
   place: {
+    fromAbove: 'aus dem All · %{size} %{unit} breit',
     inView: 'im Fenster',
     closest: 'am nächsten',
     notFound: 'Dieser Ort ist nicht im Flugpaket.',
@@ -561,6 +562,8 @@ export const de = {
       commons: 'Fotos – Urheber und Lizenz stehen unter jedem Bild',
       osm: 'Kartendaten',
       tiles: 'Offline-Kartenkacheln',
+      terrain: 'Reliefschattierung aus Höhendaten',
+      sentinel: 'Satellitenbilder der Orte, von oben',
       aeroDataBox: 'Flugsuche nach Flugnummer',
       fr24: 'Aktuelle echte Flugspuren',
       openMeteo: 'Wolkenvorhersage entlang der Route',

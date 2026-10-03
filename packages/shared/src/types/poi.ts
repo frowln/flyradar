@@ -59,6 +59,11 @@ export interface POI {
   photoCredit?: string;
   /** Credit lines for every photo, index for index. */
   photoCredits?: string[];
+  /**
+   * The first photo is a satellite view of the place ("from above"), with the
+   * date it was taken and the width of ground it shows.
+   */
+  aerial?: { date: string; widthKm: number };
   closestApproachKm?: number;
   /** Importance 1–10 (10 = world-famous). */
   rank?: number;

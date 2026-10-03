@@ -4,6 +4,7 @@ import { savePackage } from './packageStore';
 import { cachePhotos } from './photoCache';
 import { downloadCorridor } from '../map/offlineMap';
 import { ensureDatasets, getAreas, getCountries, getHistory, getPlaces, loadStories } from '../data/datasets';
+import { aerialReady } from '../places/aerial';
 import { API_ENABLED } from '../api/client';
 import { fetchClouds, fetchTrack } from '../api/flights';
 
@@ -17,6 +18,7 @@ import { fetchClouds, fetchTrack } from '../api/flights';
 export async function prepareFlight(req: BuildRequest, onProgress?: (p: BuildProgress) => void): Promise<OfflinePackage> {
   await ensureDatasets();
   const stories = await loadStories(req.locale);
+  await aerialReady();
   return buildFlightPackage(
     req,
     {
