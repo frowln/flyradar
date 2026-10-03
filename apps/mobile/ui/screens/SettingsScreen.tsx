@@ -9,7 +9,7 @@ import { Screen, Gutter, Space, PressSurface, Rule, textHitSlop } from '../desig
 import AppleSignIn from '../components/AppleSignIn';
 import { settings, type AlertLevel, type Units } from '../../src/core/settings';
 import { isProCached } from '../../src/core/monetization/entitlement';
-import { MONETIZATION_ENABLED } from '../../src/core/monetization/revenueCat';
+import { PAYWALL_VISIBLE } from '../../src/core/monetization/revenueCat';
 import { SOCIAL_ENABLED } from '../../src/core/features';
 import { notificationPermission } from '../../src/core/ux/notifications';
 import { gpsPermission } from '../../src/core/flight/gps';
@@ -203,7 +203,7 @@ export default function SettingsScreen() {
           }}
         />
 
-        {MONETIZATION_ENABLED ? (
+        {PAYWALL_VISIBLE ? (
           <>
             <Gutter style={styles.section}>
               <Label tone="dim" accessibilityRole="header">{t('settings.subscription')}</Label>

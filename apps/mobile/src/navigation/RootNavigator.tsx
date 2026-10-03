@@ -4,7 +4,7 @@ import { palette } from '../../ui/design/tokens';
 import type { RootStackParamList } from './types';
 import { hasCompletedOnboarding } from '../../ui/onboardingState';
 import { SOCIAL_ENABLED } from '../core/features';
-import { MONETIZATION_ENABLED } from '../core/monetization/revenueCat';
+import { PAYWALL_VISIBLE } from '../core/monetization/revenueCat';
 import { onNotificationResponse } from '../core/ux/notifications';
 import { navRef, openFromNotification } from './notificationRoutes';
 
@@ -18,7 +18,6 @@ import AchievementsScreen from '../../ui/screens/AchievementsScreen';
 import PaywallScreen from '../../ui/screens/PaywallScreen';
 import SettingsScreen from '../../ui/screens/SettingsScreen';
 import LicensesScreen from '../../ui/screens/LicensesScreen';
-import PeopleScreen from '../../ui/screens/PeopleScreen';
 import PersonScreen from '../../ui/screens/PersonScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -35,7 +34,7 @@ const linking: LinkingOptions<RootStackParamList> = {
   config: {
     screens: {
       Onboarding: 'welcome',
-      Tabs: { screens: { Board: 'board', Atlas: 'atlas' } },
+      Tabs: { screens: { Board: 'board', Atlas: 'atlas', People: 'people' } },
       AddFlight: 'add',
       InFlight: 'flight/:flightId',
       POIDetail: 'place/:flightId/:poiId',
@@ -82,8 +81,7 @@ export default function RootNavigator() {
         <Stack.Screen name="Achievements" component={AchievementsScreen} />
         <Stack.Screen name="Settings" component={SettingsScreen} />
         <Stack.Screen name="Licenses" component={LicensesScreen} />
-        {MONETIZATION_ENABLED ? <Stack.Screen name="Paywall" component={PaywallScreen} options={{ animation: 'slide_from_bottom' }} /> : null}
-        {SOCIAL_ENABLED ? <Stack.Screen name="People" component={PeopleScreen} /> : null}
+        {PAYWALL_VISIBLE ? <Stack.Screen name="Paywall" component={PaywallScreen} options={{ animation: 'slide_from_bottom' }} /> : null}
         {SOCIAL_ENABLED ? <Stack.Screen name="Person" component={PersonScreen} /> : null}
       </Stack.Navigator>
     </NavigationContainer>

@@ -32,6 +32,7 @@ import { analytics } from '../../src/core/analytics';
 import { t, getLocale } from '../../src/i18n';
 import { clock, spokenDuration, weekdayDayMonth } from '../format';
 import type { RootStackParamList } from '../../src/navigation/types';
+import { DEMO_COUNTS } from '../../src/core/features';
 
 type Nav = NativeStackNavigationProp<RootStackParamList, 'FlightSummary'>;
 type R = RouteProp<RootStackParamList, 'FlightSummary'>;
@@ -212,7 +213,7 @@ export default function ArrivalScreen() {
   const allAnswered = quiz.length > 0 && Object.keys(answers).length === quiz.length;
   useEffect(() => {
     // Kept once the last question is answered: that is when the score is known.
-    if (allAnswered && pkg && !pkg.demo) noteQuiz(pkg.flight.id, right, quiz.length);
+    if (allAnswered && pkg && (!pkg.demo || DEMO_COUNTS)) noteQuiz(pkg.flight.id, right, quiz.length);
   }, [allAnswered, pkg, right, quiz.length]);
 
   if (missing) {
@@ -331,7 +332,7 @@ export default function ArrivalScreen() {
             </View>
           ) : null}
 
-          {!pkg.demo ? <XpBlock landing={landing} /> : (
+          {!pkg.demo || DEMO_COUNTS ? <XpBlock landing={landing} /> : (
             <Gutter style={styles.section}>
               <Small>{t('arrival.demoNote')}</Small>
             </Gutter>
@@ -394,7 +395,7 @@ export default function ArrivalScreen() {
                 <Gutter style={styles.explain} accessible accessibilityLiveRegion="polite">
                   <Label tone="accent">
                     {t('quiz.score', { n: right, total: quiz.length })}
-                    {pkg && !pkg.demo && right > 0 ? `  ·  +${right * XP.quiz} XP` : ''}
+                    {pkg && (!pkg.demo || DEMO_COUNTS) && right > 0 ? `  ·  +${right * XP.quiz} XP` : ''}
                   </Label>
                 </Gutter>
               ) : null}
@@ -428,8 +429,8 @@ export default function ArrivalScreen() {
         <Space h={s.x10} />
       </ScrollView>
       <ActionBar
-        label={pkg.demo ? t('arrival.toBoard') : t('arrival.toPassport')}
-        onPress={() => nav.navigate('Tabs', { screen: pkg.demo ? 'Board' : 'Atlas' })}
+        label={pkg.demo && !DEMO_COUNTS ? t('arrival.toBoard') : t('arrival.toPassport')}
+        onPress={() => nav.navigate('Tabs', { screen: pkg.demo && !DEMO_COUNTS ? 'Board' : 'Atlas' })}
       />
     </Screen>
   );

@@ -4,6 +4,7 @@ export type TabParamList = {
   /** `takeoff`: open the "when did you take off?" sheet for this flight. */
   Board: { takeoff?: string } | undefined;
   Atlas: undefined;
+  People: undefined;
 };
 
 export type RootStackParamList = {
@@ -17,6 +18,5 @@ export type RootStackParamList = {
   Paywall: undefined;
   Settings: undefined;
   Licenses: undefined;
-  People: undefined;
   Person: { userId: string };
 };

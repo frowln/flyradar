@@ -1,14 +1,21 @@
 import { useCallback, useEffect, useState } from 'react';
-import { View, ScrollView, StyleSheet, ActivityIndicator, Animated } from 'react-native';
-import { Image } from 'expo-image';
+import { View, ScrollView, StyleSheet, ActivityIndicator, Animated, useWindowDimensions } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RouteProp } from '@react-navigation/native';
-import { palette, s, gutter, line, radius } from '../design/tokens';
-import { Display, Label, Body, Data, DataSmall } from '../design/type';
-import { Screen, Gutter, Cells, Space, PressSurface, Rule } from '../design/layout';
+import { palette, s, gutter, line } from '../design/tokens';
+import { Display, Label, Body, DataSmall, Title, Small } from '../design/type';
+import { Screen, Gutter, Row, Cells, Space, PressSurface, Rule } from '../design/layout';
 import { useReveal } from '../motion';
-import { social, type PublicStats } from '../../src/core/api/social';
+import Avatar from '../components/Avatar';
+import FlightsMap from '../components/FlightsMap';
+import Stamp from '../components/Stamp';
+import { social, type Profile } from '../../src/core/api/social';
+import { rankFor } from '../../src/core/game/xp';
+import { countryName } from '../../src/core/places/names';
+import { airportByIata } from '../../src/core/data/datasets';
+import { cityName } from '../../src/core/data/airports';
+import { formatInt, km } from '../../src/core/units';
 import { haptics } from '../../src/core/ux/haptics';
 import { t, getLocale } from '../../src/i18n';
 import type { RootStackParamList } from '../../src/navigation/types';
@@ -16,28 +23,21 @@ import type { RootStackParamList } from '../../src/navigation/types';
 type Nav = NativeStackNavigationProp<RootStackParamList, 'Person'>;
 type R = RouteProp<RootStackParamList, 'Person'>;
 
-interface Profile {
-  id: string;
-  handle: string | null;
-  avatarUrl: string | null;
-  joinedAt: string;
-  stats: PublicStats;
-  /** `name` is null when the server has never stored that place. */
-  recent: { poiId: string; name: string | null; discoveredAt: string }[];
-}
+const STAMPS_SHOWN = 15;
 
 /**
- * Somebody else's atlas.
+ * Somebody else's atlas: where they fly, what they have collected.
  *
- * Shows what they have collected and nothing else — no activity feed, no
- * mutual friends, no last-seen. A public profile in a travel app is a record of
- * places, and every field beyond that is a privacy question nobody asked to
- * answer.
+ * A public profile in a travel app is a record of places — the map of their
+ * flights, their countries, what they saw with their own eyes — and nothing
+ * beyond it: no last-seen, no mutual friends.
  */
 export default function PersonScreen() {
   const nav = useNavigation<Nav>();
   const route = useRoute<R>();
   const { userId } = route.params;
+  const { width } = useWindowDimensions();
+  const locale = getLocale();
 
   const [profile, setProfile] = useState<Profile | null>(null);
   const [loading, setLoading] = useState(true);
@@ -49,7 +49,8 @@ export default function PersonScreen() {
     let alive = true;
     social.profile(userId).then((p) => {
       if (!alive) return;
-      setProfile(p as Profile | null);
+      setProfile(p);
+      setFollowing(!!p?.following);
       setLoading(false);
     });
     return () => {
@@ -59,10 +60,9 @@ export default function PersonScreen() {
 
   const toggleFollow = useCallback(async () => {
     haptics.light?.();
-    const next = !following;
-    setFollowing(next);
+    setFollowing((f) => !f);
     await social.follow(userId, false);
-  }, [userId, following]);
+  }, [userId]);
 
   /** Blocking is a follow row with the flag set — one table, one source of truth. */
   const block = useCallback(async () => {
@@ -92,122 +92,170 @@ export default function PersonScreen() {
     );
   }
 
+  const name = profile.name ?? profile.handle ?? t('reviews.anonymous');
   const joined = new Date(profile.joinedAt);
-  // The app's language, not the device's: `undefined` here rendered "August
-  // 2026" in the middle of a Russian profile for anyone whose phone is English.
-  const joinedLabel = Number.isNaN(joined.getTime())
-    ? ''
-    : joined.toLocaleDateString(getLocale(), { month: 'long', year: 'numeric' });
+  // The app's language, not the device's.
+  const joinedLabel = Number.isNaN(joined.getTime()) ? '' : joined.toLocaleDateString(locale, { month: 'long', year: 'numeric' });
+  const dist = km(profile.stats.distanceKm);
+  const flights = profile.flights ?? [];
+  const countries = profile.countries ?? [];
+  const home = profile.home ? airportByIata(profile.home) : undefined;
 
   return (
     <Screen>
       <ScrollView contentContainerStyle={styles.scroll}>
         <Animated.View style={reveal}>
           <Gutter style={styles.head}>
-            <PressSurface
-              onPress={() => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs'))}
-              accessibilityLabel={t('common.back')}
-              hitSlop={s.x2}
-              style={styles.back}
-            >
-              <Label tone="muted">{t('common.back')}</Label>
+            <PressSurface onPress={() => (nav.canGoBack() ? nav.goBack() : nav.navigate('Tabs'))} accessibilityLabel={t('common.back')} hitSlop={s.x2} style={styles.back}>
+              <Label tone="muted">{`‹ ${t('common.back')}`}</Label>
             </PressSurface>
           </Gutter>
 
-          <Space h={s.x5} />
-          <Gutter>
-            <View style={styles.identity}>
-              <View style={styles.avatar}>
-                {profile.avatarUrl ? (
-                  <Image source={{ uri: profile.avatarUrl }} style={styles.avatarImage} contentFit="cover" />
-                ) : (
-                  <DataSmall tone="accent" allowFontScaling={false}>
-                    {(profile.handle ?? '?').slice(0, 2).toUpperCase()}
-                  </DataSmall>
-                )}
-              </View>
-              <View style={styles.identityText}>
-                <Display numberOfLines={1} accessibilityRole="header">
-                  {profile.handle ?? t('reviews.anonymous')}
-                </Display>
-                {joinedLabel ? (
-                  <>
-                    <Space h={s.x1} />
-                    <Body tone="muted">
-                      {/* A separator, not a preposition. "с" + a nominative
-                          month gave "с август 2026 г.", and Japanese wants its
-                          particle after the date, not a word before it. A
-                          labelled datum is grammatical in every language and is
-                          how the rest of the app presents readings anyway. */}
-                      {t('person.since')} · {joinedLabel}
-                    </Body>
-                  </>
-                ) : null}
-              </View>
-            </View>
+          <Space h={s.x4} />
+          <Gutter style={styles.identity}>
+            <Avatar id={profile.id} name={name} url={profile.avatarUrl} size={88} ring={palette.amber} />
+            <Space h={s.x4} />
+            <Display numberOfLines={1} accessibilityRole="header" style={styles.centerText}>
+              {name}
+            </Display>
+            <Space h={s.x1} />
+            <Small tone="muted" style={styles.centerText}>
+              {[profile.handle ? `@${profile.handle}` : null, home ? cityName(home, locale) : null].filter(Boolean).join('  ·  ')}
+            </Small>
+            {joinedLabel ? (
+              <Small tone="dim" style={styles.centerText}>
+                {`${t('person.since')} · ${joinedLabel}`}
+              </Small>
+            ) : null}
+            <Space h={s.x3} />
+            <Row gap={s.x3}>
+              <Title tone="accent">{t(`rank.${rankFor(profile.stats.level)}`)}</Title>
+              <DataSmall allowFontScaling={false}>{t('atlas.level', { n: profile.stats.level })}</DataSmall>
+            </Row>
+            {profile.streakWeeks && profile.streakWeeks >= 2 ? (
+              <>
+                <Space h={s.x3} />
+                <View style={styles.streak}>
+                  <View style={styles.bars}>
+                    {Array.from({ length: Math.min(8, profile.streakWeeks) }, (_, i) => (
+                      <View key={i} style={[styles.bar, { height: 6 + i * 1.5 }]} />
+                    ))}
+                  </View>
+                  <Label tone="accent">{t('people.streakWeeks', { count: profile.streakWeeks })}</Label>
+                </View>
+              </>
+            ) : null}
+            {profile.id !== 'me' ? (
+              <>
+                <Space h={s.x5} />
+                <PressSurface
+                  onPress={toggleFollow}
+                  accessibilityLabel={following ? t('person.unfollow') : t('person.follow')}
+                  accessibilityState={{ selected: following }}
+                  style={[styles.follow, following && styles.following]}
+                >
+                  <Label tone={following ? 'muted' : 'accent'}>{following ? t('person.following') : t('person.follow')}</Label>
+                </PressSurface>
+              </>
+            ) : null}
           </Gutter>
 
           <Space h={s.x6} />
           <Cells
             items={[
-              { value: String(profile.stats.placesDiscovered), label: t('atlas.placesShort'), tone: 'accent' },
+              { value: formatInt(profile.stats.flights), label: t('atlas.flights') },
+              { value: dist.value, label: t(`unit.${dist.unit}`) },
               { value: String(profile.stats.countries), label: t('atlas.countriesShort') },
-              { value: String(profile.stats.level), label: t('atlas.level') }
+              { value: formatInt(profile.stats.placesDiscovered), label: t('atlas.placesShort'), tone: 'accent' }
             ]}
           />
 
-          <Space h={s.x8} />
-          <Rule />
-          <PressSurface
-            onPress={toggleFollow}
-            accessibilityLabel={following ? t('person.unfollow') : t('person.follow')}
-            style={styles.action}
-          >
-            <Label tone={following ? 'muted' : 'accent'}>
-              {following ? t('person.following') : t('person.follow')}
-            </Label>
-          </PressSurface>
+          {flights.length ? (
+            <>
+              <Space h={s.x8} />
+              <Gutter>
+                <Label tone="dim" accessibilityRole="header">
+                  {t('person.map')}
+                </Label>
+              </Gutter>
+              <Space h={s.x3} />
+              <FlightsMap flights={flights} visited={countries} width={width} height={Math.round(width * 0.62)} />
+            </>
+          ) : null}
 
-          {/* Required alongside any user content: a person must be able to stop
-              seeing someone without leaving the app. */}
-          <PressSurface
-            onPress={block}
-            accessibilityLabel={blocked ? t('person.blocked') : t('person.block')}
-            style={styles.action}
-          >
-            <Label tone={blocked ? 'bad' : 'dim'}>
-              {blocked ? t('person.blocked') : t('person.block')}
-            </Label>
-          </PressSurface>
-          <Rule />
+          {countries.length ? (
+            <>
+              <Space h={s.x8} />
+              <Gutter>
+                <Row style={styles.spread}>
+                  <Label tone="dim" accessibilityRole="header">
+                    {t('person.countries')}
+                  </Label>
+                  <DataSmall allowFontScaling={false}>{String(countries.length)}</DataSmall>
+                </Row>
+                <Space h={s.x4} />
+                <View style={styles.stamps}>
+                  {countries.slice(0, STAMPS_SHOWN).map((cc) => (
+                    <Stamp key={cc} code={cc} name={countryName(cc, locale)} size={46} />
+                  ))}
+                  {countries.length > STAMPS_SHOWN ? (
+                    <View style={styles.more}>
+                      <DataSmall allowFontScaling={false}>{`+${countries.length - STAMPS_SHOWN}`}</DataSmall>
+                    </View>
+                  ) : null}
+                </View>
+              </Gutter>
+            </>
+          ) : null}
+
+          {profile.achievements ? (
+            <>
+              <Space h={s.x8} />
+              <Rule />
+              <View style={styles.line}>
+                <Body style={styles.flexText}>{t('person.achievements')}</Body>
+                <DataSmall tone="brass" allowFontScaling={false}>
+                  {String(profile.achievements)}
+                </DataSmall>
+              </View>
+              <Rule />
+            </>
+          ) : null}
 
           {profile.recent.length > 0 ? (
             <>
               <Space h={s.x8} />
               <Gutter>
-                <Label tone="dim" accessibilityRole="header">{t('person.recent')}</Label>
+                <Label tone="dim" accessibilityRole="header">
+                  {t('person.recent')}
+                </Label>
               </Gutter>
               <Space h={s.x3} />
               {profile.recent.map((d) => (
                 <View key={d.poiId} style={styles.recentRow}>
-                  {/* Never the id. An internal key on a public profile reads as
-                      a broken screen, and it leaks how places are stored. */}
+                  {/* Never the id: an internal key on a public profile reads as a broken screen. */}
+                  <View style={styles.gold} />
                   <Body numberOfLines={1} style={styles.recentName} tone={d.name ? 'default' : 'muted'}>
                     {d.name ?? t('person.unnamedPlace')}
                   </Body>
                   <View style={styles.leader} />
-                  <DataSmall allowFontScaling={false}>
-                    {new Date(d.discoveredAt).toLocaleDateString(getLocale(), {
-                      day: '2-digit',
-                      month: 'short'
-                    })}
-                  </DataSmall>
+                  <DataSmall allowFontScaling={false}>{new Date(d.discoveredAt).toLocaleDateString(locale, { day: '2-digit', month: 'short' })}</DataSmall>
                 </View>
               ))}
             </>
           ) : null}
-        </Animated.View>
 
+          {profile.id !== 'me' ? (
+            <>
+              <Space h={s.x8} />
+              <Rule />
+              {/* Required alongside any user content: a person must be able to stop seeing someone without leaving the app. */}
+              <PressSurface onPress={block} accessibilityLabel={blocked ? t('person.blocked') : t('person.block')} style={styles.action}>
+                <Label tone={blocked ? 'bad' : 'dim'}>{blocked ? t('person.blocked') : t('person.block')}</Label>
+              </PressSurface>
+            </>
+          ) : null}
+        </Animated.View>
         <Space h={s.x12} />
       </ScrollView>
     </Screen>
@@ -216,41 +264,36 @@ export default function PersonScreen() {
 
 const styles = StyleSheet.create({
   center: { alignItems: 'center', justifyContent: 'center' },
+  centerText: { textAlign: 'center' },
   scroll: { paddingBottom: s.x8 },
   head: { flexDirection: 'row', paddingTop: s.x3 },
   back: { paddingVertical: s.x2, paddingRight: s.x4 },
+  spread: { justifyContent: 'space-between' },
+  flexText: { flex: 1 },
 
-  identity: { flexDirection: 'row', alignItems: 'center', gap: s.x4 },
-  avatar: {
-    width: 64,
-    height: 64,
-    borderRadius: radius.full,
-    borderWidth: line.hair,
-    borderColor: palette.amberDim,
-    backgroundColor: palette.warm,
-    alignItems: 'center',
-    justifyContent: 'center',
-    overflow: 'hidden'
-  },
-  avatarImage: { width: '100%', height: '100%' },
-  identityText: { flex: 1, minWidth: 0 },
+  identity: { alignItems: 'center' },
+  streak: { flexDirection: 'row', alignItems: 'flex-end', gap: s.x2 },
+  bars: { flexDirection: 'row', alignItems: 'flex-end', gap: 2, paddingBottom: 3 },
+  bar: { width: 3, backgroundColor: palette.amber },
+  follow: { minWidth: 180, alignItems: 'center', paddingVertical: s.x3, paddingHorizontal: s.x6, borderWidth: 1, borderColor: palette.amber, backgroundColor: palette.warm },
+  following: { borderColor: palette.rule, backgroundColor: 'transparent' },
 
-  action: {
-    alignItems: 'center',
-    paddingVertical: s.x4,
-    borderBottomWidth: line.hair,
-    borderBottomColor: palette.ruleSoft
-  },
+  stamps: { flexDirection: 'row', flexWrap: 'wrap', gap: s.x3 },
+  more: { width: 46, height: 46, borderRadius: 23, borderWidth: line.hair, borderColor: palette.rule, alignItems: 'center', justifyContent: 'center' },
+
+  line: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: gutter, paddingVertical: s.x4 },
+  action: { alignItems: 'center', paddingVertical: s.x4, borderBottomWidth: line.hair, borderBottomColor: palette.ruleSoft },
 
   recentRow: {
     flexDirection: 'row',
-    alignItems: 'baseline',
+    alignItems: 'center',
     gap: s.x3,
     paddingHorizontal: gutter,
     paddingVertical: s.x3,
     borderBottomWidth: line.hair,
     borderBottomColor: palette.ruleSoft
   },
+  gold: { width: 8, height: 8, borderRadius: 4, backgroundColor: palette.brass },
   recentName: { flexShrink: 1 },
-  leader: { flex: 1, height: line.hair, backgroundColor: palette.ruleSoft, marginBottom: 4 }
+  leader: { flex: 1, height: line.hair, backgroundColor: palette.ruleSoft }
 });

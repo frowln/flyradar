@@ -12,6 +12,7 @@ import { closedCountries, planAround } from '../route/airspace';
 import type { RoutePoint } from '@skyatlas/shared';
 import { interpolateAlongRoute } from '../geo/greatCircle';
 import { solarElevation } from '../geo/sun';
+import { DEMO_COUNTS } from '../features';
 
 /**
  * A short flight that starts now, so the product can be felt without a ticket.
@@ -125,7 +126,9 @@ export async function startDemo(locale: string, pair?: [string, string]): Promis
     ),
     demo: true
   };
-  pkg.flight = { ...pkg.flight, id: `DEMO-${fromCode}-${toCode}`, flightNumber: 'DEMO' };
+  // Where demos count into the passport, each is its own flight there.
+  const id = DEMO_COUNTS ? `DEMO-${fromCode}-${toCode}-${now.getTime().toString(36)}` : `DEMO-${fromCode}-${toCode}`;
+  pkg.flight = { ...pkg.flight, id, flightNumber: 'DEMO' };
   await savePackage(pkg);
   await takeOff(pkg, now, { multiplier: DEMO_SPEED });
 

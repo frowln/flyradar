@@ -36,7 +36,7 @@ interface Props {
 
 type XY = [number, number];
 
-function projector(route: RoutePoint[], width: number, height: number, pad: number) {
+export function projector(route: Array<{ lat: number; lon: number }>, width: number, height: number, pad: number) {
   const lons = route.map((p) => p.lon);
   const spansDateline = Math.max(...lons) - Math.min(...lons) > 180;
   const normLon = (lon: number) => (spansDateline && lon < 0 ? lon + 360 : lon);
@@ -91,7 +91,7 @@ function projector(route: RoutePoint[], width: number, height: number, pad: numb
   return { project, view, normLon };
 }
 
-function ringPath(ring: [number, number][], project: (lon: number, lat: number) => XY): string {
+export function ringPath(ring: [number, number][], project: (lon: number, lat: number) => XY): string {
   let d = '';
   let last: XY | null = null;
   for (let i = 0; i < ring.length; i++) {
@@ -104,7 +104,7 @@ function ringPath(ring: [number, number][], project: (lon: number, lat: number) 
   return d ? `${d}Z` : '';
 }
 
-function countryPaths(
+export function countryPaths(
   countries: DataCountry[],
   view: { minLon: number; maxLon: number; minLat: number; maxLat: number },
   normLon: (lon: number) => number,

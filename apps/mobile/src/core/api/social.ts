@@ -1,5 +1,7 @@
 import { settings } from '../settings';
 import { apiClient } from './client';
+import { DEMO_SOCIAL } from './demoFlag';
+import { demoSocial } from './socialDemo';
 
 /**
  * The social surface: accounts, discoveries, reviews, people.
@@ -48,12 +50,88 @@ export interface LeaderboardEntry {
   rank: number;
   userId: string;
   handle: string | null;
+  /** Display name, when the person set one. */
+  name?: string | null;
   avatarUrl: string | null;
   xp: number;
   level: number;
   flights: number;
   places: number;
   countries: number;
+  distanceKm?: number;
+  /** The figure the board is ranked by. */
+  value?: number;
+  isMe?: boolean;
+}
+
+/** What a board ranks by, and among whom. */
+export type BoardMetric = 'distance' | 'countries' | 'places' | 'xp';
+export type BoardScope = 'friends' | 'all' | 'month';
+
+export interface Board {
+  entries: LeaderboardEntry[];
+  /** Everyone on the board, when it is longer than the entries shown. */
+  total?: number;
+  /** The caller's own row when it is not among the entries. */
+  me?: LeaderboardEntry | null;
+}
+
+export interface PersonRef {
+  id: string;
+  handle: string | null;
+  name?: string | null;
+  avatarUrl: string | null;
+}
+
+export interface AirportRef {
+  iata: string;
+  lat: number;
+  lon: number;
+  cc: string;
+}
+
+/** A friend in the air right now. */
+export interface LiveFlight {
+  user: PersonRef;
+  from: AirportRef;
+  to: AirportRef;
+  takeoffAt: string;
+  landAt: string;
+}
+
+/** Something a friend did: landed, crossed into a new country, saw a place, earned something, wrote. */
+export interface FeedItem {
+  id: string;
+  at: string;
+  user: PersonRef;
+  kind: 'flight' | 'country' | 'spotted' | 'achievement' | 'review' | 'streak';
+  flight?: { from: AirportRef; to: AirportRef; distanceKm: number; countries: string[] };
+  cc?: string;
+  place?: { id: string; name: string };
+  achievement?: string;
+  rating?: number;
+  text?: string;
+  weeks?: number;
+  cheers: number;
+  cheered?: boolean;
+}
+
+export interface Profile {
+  id: string;
+  handle: string | null;
+  name?: string | null;
+  avatarUrl: string | null;
+  joinedAt: string;
+  stats: PublicStats;
+  /** `name` is null when the server has no record of that place. */
+  recent: { poiId: string; name: string | null; discoveredAt: string }[];
+  /** Home airport, IATA. */
+  home?: string;
+  flights?: Array<{ from: AirportRef; to: AirportRef; date: string }>;
+  countries?: string[];
+  streakWeeks?: number;
+  achievements?: number;
+  following?: boolean;
 }
 
 export const REPORT_REASONS = ['spam', 'offensive', 'off_topic', 'false_info', 'other'] as const;
@@ -87,7 +165,7 @@ async function quiet<T>(fn: () => Promise<T>): Promise<T | null> {
   }
 }
 
-export const social = {
+const remote = {
   me: () => quiet(() => apiClient.get<Me>('/social/me')),
 
   /**
@@ -166,31 +244,37 @@ export const social = {
   reportReview: (reviewId: string, reason: ReportReason, note?: string) =>
     quiet(() => apiClient.post(`/social/reviews/${reviewId}/report`, { reason, note })),
 
-  leaderboard: () =>
-    quiet(() => apiClient.get<{ entries: LeaderboardEntry[] }>('/social/leaderboard')),
-
-  profile: (userId: string) =>
+  leaderboard: (opts: { metric?: BoardMetric; scope?: BoardScope } = {}) =>
     quiet(() =>
-      apiClient.get<{
-        id: string;
-        handle: string | null;
-        avatarUrl: string | null;
-        joinedAt: string;
-        stats: PublicStats;
-        /** `name` is null when the server has no record of that place. */
-        recent: { poiId: string; name: string | null; discoveredAt: string }[];
-      }>(`/social/users/${userId}`)
+      apiClient.get<Board>(`/social/leaderboard?metric=${opts.metric ?? 'xp'}&scope=${opts.scope ?? 'all'}`)
     ),
+
+  /** Friends in the air now. */
+  live: () => quiet(() => apiClient.get<{ flights: LiveFlight[] }>('/social/live')),
+
+  /** What friends have been doing. */
+  feed: () => quiet(() => apiClient.get<{ items: FeedItem[] }>('/social/feed')),
+
+  cheer: (itemId: string, on = true) => quiet(() => apiClient.post(`/social/feed/${encodeURIComponent(itemId)}/cheer`, { on })),
+
+  profile: (userId: string) => quiet(() => apiClient.get<Profile>(`/social/users/${userId}`)),
 
   follow: (userId: string, blocked = false) =>
     quiet(() => apiClient.post(`/social/users/${userId}/follow`, { blocked })),
 
   friends: () =>
     quiet(() =>
-      apiClient.get<{ friends: { id: string; handle: string | null; avatarUrl: string | null; stats: PublicStats }[] }>(
-        '/social/friends'
-      )
+      apiClient.get<{ friends: Array<PersonRef & { stats: PublicStats }> }>('/social/friends')
     )
 };
+
+export type Social = typeof remote;
+
+/**
+ * The hosted demo has no server: it shows the social layer on sample
+ * travellers (src/core/api/socialDemo.ts), so the finished app can be seen
+ * before the backend is deployed. Shipping builds never take this branch.
+ */
+export const social: Social = DEMO_SOCIAL ? demoSocial : remote;
 
 export { PENDING_KEY };

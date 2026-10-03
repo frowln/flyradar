@@ -9,6 +9,12 @@ const RC_API_KEY = process.env['EXPO_PUBLIC_RC_KEY'] ?? '';
  */
 export const MONETIZATION_ENABLED = RC_API_KEY.length > 0;
 
+/**
+ * The hosted demo shows the Pro screen with its prices so the offer can be
+ * seen, while every feature stays open and nothing can be bought.
+ */
+export const PAYWALL_VISIBLE = MONETIZATION_ENABLED || process.env['EXPO_PUBLIC_DEMO_PAYWALL'] === '1';
+
 let initialized = false;
 
 export async function initRevenueCat(userId?: string): Promise<void> {

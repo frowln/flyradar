@@ -5,6 +5,8 @@ import { t } from '../src/i18n';
 
 import BoardScreen from './screens/BoardScreen';
 import AtlasScreen from './screens/AtlasScreen';
+import PeopleScreen from './screens/PeopleScreen';
+import { SOCIAL_ENABLED } from '../src/core/features';
 
 const Tab = createBottomTabNavigator();
 
@@ -51,6 +53,9 @@ export default function Tabs() {
         component={AtlasScreen}
         options={{ tabBarIcon: mark(), title: t('tabs.atlas') }}
       />
+      {SOCIAL_ENABLED ? (
+        <Tab.Screen name="People" component={PeopleScreen} options={{ tabBarIcon: mark(), title: t('tabs.people') }} />
+      ) : null}
     </Tab.Navigator>
   );
 }

@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from 'react';
-import { View, ScrollView, StyleSheet, Animated } from 'react-native';
+import { View, ScrollView, StyleSheet, Animated, useWindowDimensions } from 'react-native';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { POICategory } from '@skyatlas/shared';
@@ -8,6 +8,8 @@ import { Display, Label, Body, Data, DataSmall, Title, Small, typeStyles } from 
 import { Screen, Gutter, Row, Cells, Space, PressSurface, Rule, textHitSlop } from '../design/layout';
 import { useReveal } from '../motion';
 import Stamp from '../components/Stamp';
+import FlightsMap, { type MapFlight } from '../components/FlightsMap';
+import { airportByIata } from '../../src/core/data/datasets';
 import { getRecords } from '../../src/core/game/journal';
 import { buildPassport } from '../../src/core/game/passport';
 import { totalXP, levelFromXP, rankFor } from '../../src/core/game/xp';
@@ -16,7 +18,6 @@ import { continentOf } from '../../src/core/flight/controller';
 import type { FlightRecord } from '../../src/core/game/types';
 import type { GlobeLine } from '../../src/core/geo/lines';
 import { countryName } from '../../src/core/places/names';
-import { SOCIAL_ENABLED } from '../../src/core/features';
 import { formatInt, km } from '../../src/core/units';
 import { t, getLocale } from '../../src/i18n';
 import { dayMonth } from '../format';
@@ -61,6 +62,17 @@ export default function AtlasScreen() {
   );
 
   const passport = useMemo(() => buildPassport(records, continentOf), [records]);
+  const { width } = useWindowDimensions();
+  // Every flight as an arc; the airports come from the bundled list.
+  const mapFlights = useMemo(
+    () =>
+      records.flatMap((r): MapFlight[] => {
+        const a = airportByIata(r.from);
+        const b = airportByIata(r.to);
+        return a && b ? [{ from: a, to: b }] : [];
+      }),
+    [records]
+  );
   const xp = useMemo(() => totalXP(records), [records]);
   const level = levelFromXP(xp);
   const rank = rankFor(level.level);
@@ -92,6 +104,9 @@ export default function AtlasScreen() {
               {t('atlas.summary', { flights: passport.flights, dist: dist.value, unit: t(`unit.${dist.unit}`), hours })}
             </Body>
           </Gutter>
+
+          <Space h={s.x5} />
+          <FlightsMap flights={mapFlights} visited={passport.countries} width={width} height={Math.round(width * 0.56)} />
 
           <Space h={s.x6} />
           <Gutter>
@@ -280,15 +295,6 @@ export default function AtlasScreen() {
 
           <Space h={s.x8} />
           <Rule />
-          {SOCIAL_ENABLED ? (
-            <PressSurface onPress={() => nav.navigate('People')} accessibilityLabel={t('atlas.people')} style={styles.navRow}>
-              <Body>{t('atlas.people')}</Body>
-              <View style={styles.flex} />
-              <Data tone="dim" allowFontScaling={false}>
-                ›
-              </Data>
-            </PressSurface>
-          ) : null}
           <PressSurface onPress={() => nav.navigate('Settings')} accessibilityLabel={t('atlas.settings')} style={styles.navRow}>
             <Body>{t('atlas.settings')}</Body>
             <View style={styles.flex} />

@@ -13,6 +13,7 @@ import { newlyEarned, type AchievementDef } from '../game/achievements';
 import { xpLedger, totalXP } from '../game/xp';
 import type { FlightRecord, Passport } from '../game/types';
 import { countryByCode } from '../data/datasets';
+import { DEMO_COUNTS } from '../features';
 
 /**
  * The verbs of a flight: take off, correct the takeoff time, land.
@@ -106,7 +107,7 @@ export async function land(pkg: OfflinePackage, elapsedS: number, now: Date = ne
   const xpBefore = totalXP(others);
 
   let record: FlightRecord | null = null;
-  if (!pkg.demo && s.flightId === pkg.flight.id && s.takeoffAt) {
+  if ((!pkg.demo || DEMO_COUNTS) && s.flightId === pkg.flight.id && s.takeoffAt) {
     record = recordFromFlight(pkg, {
       takeoffAt: new Date(s.takeoffAt),
       landedAt: s.landedAt ? new Date(s.landedAt) : now,
