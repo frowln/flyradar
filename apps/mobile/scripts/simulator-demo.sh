@@ -62,9 +62,6 @@ sleep 2
 
 # The whole tour in one session (.maestro/config.yaml orders the parts).
 started=$(date +%s)
-echo "$started" > "$OUT/.video-start"
-# The driver takes minutes to start; the video for people starts with the tour.
-( until grep -q "Flow 1-start\|> Flow" "$OUT/maestro.log" 2>/dev/null; do sleep 1; done; date +%s > "$OUT/.tour-start" ) &
 ( cd "$HERE" && maestro --device "$UDID" test .maestro --test-output-dir "$OUT/maestro" --debug-output "$OUT/maestro-debug" ) 2>&1 | tee "$OUT/maestro.log"
 code=${PIPESTATUS[0]}
 # An older Maestro without those options fails at once: run it plain.

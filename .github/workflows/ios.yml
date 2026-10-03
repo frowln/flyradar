@@ -112,10 +112,8 @@ jobs:
         run: |
           [ -f "$DEMO/demo-flight.mp4" ] || exit 0
           brew install ffmpeg >/dev/null 2>&1 || true
-          skip=0
-          [ -f "$DEMO/.tour-start" ] && skip=$(( $(cat "$DEMO/.tour-start") - $(cat "$DEMO/.video-start") ))
-          ffmpeg -loglevel error -y -ss "$skip" -i "$DEMO/demo-flight.mp4" -vf "scale=480:-2,fps=24" \
-            -c:v libx264 -preset veryfast -crf 30 -pix_fmt yuv420p -movflags +faststart -an "$DEMO/demo-tour-480p.mp4" || true
+          # The video starts with the app, not the minutes of home screen while the driver starts.
+          apps/mobile/scripts/trim-intro.sh "$DEMO/demo-flight.mp4" "$DEMO/demo-tour-480p.mp4" 480 || true
           ls -la "$DEMO"
       - name: Keep the video and screenshots
         if: always()
