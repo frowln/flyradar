@@ -89,10 +89,15 @@ export default function OnboardingScreen() {
   }, [page, width, panels.length, reduced]);
 
   const finish = useCallback(
-    (to: 'add' | 'demo') => {
+    (to: 'add' | 'demo' | 'board') => {
       markOnboardingComplete();
       if (to === 'add') {
         nav.reset({ index: 1, routes: [{ name: 'Tabs' }, { name: 'AddFlight' }] });
+        return;
+      }
+      if (to === 'board') {
+        // The board lists every demo route to pick from.
+        nav.reset({ index: 0, routes: [{ name: 'Tabs' }] });
         return;
       }
       setBusy(true);
@@ -163,6 +168,12 @@ export default function OnboardingScreen() {
             </View>
             <Label tone="accent">›</Label>
           </PressSurface>
+          <PressSurface onPress={() => finish('board')} accessibilityLabel={t('onboard.demoPick')} style={styles.pick}>
+            <Small tone="muted" style={styles.flex}>
+              {t('onboard.demoPick')}
+            </Small>
+            <Label tone="dim">›</Label>
+          </PressSurface>
           <ActionBar label={t('onboard.addFlight')} onPress={() => finish('add')} />
         </View>
       ) : (
@@ -194,5 +205,14 @@ const styles = StyleSheet.create({
     borderTopWidth: line.hair,
     borderTopColor: palette.rule,
     backgroundColor: palette.warm
+  },
+  pick: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: s.x3,
+    paddingHorizontal: gutter,
+    paddingVertical: s.x3,
+    borderTopWidth: line.hair,
+    borderTopColor: palette.ruleSoft
   }
 });

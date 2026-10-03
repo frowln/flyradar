@@ -19,9 +19,10 @@ import { windowAdvice } from '../../src/core/flight/windowAdvice';
 import { computeMoments } from '../../src/core/flight/moments';
 import { distinctCountries } from '../../src/core/places/countries';
 import { placeName, placeText, countryName } from '../../src/core/places/names';
+import { airportByIata } from '../../src/core/data/datasets';
 import { cityName } from '../../src/core/data/airports';
 import { localDate } from '../../src/core/time/zones';
-import { startDemo, demoPreviewRoute } from '../../src/core/offline/demo';
+import { startDemo, demoPreviewRoute, DEMO_ROUTES, planned, daylitThroughout } from '../../src/core/offline/demo';
 import { useToast } from '../components/Toast';
 import { t, getLocale } from '../../src/i18n';
 import { clock, duration, spokenDuration, timeAt, weekdayDayMonth } from '../format';
@@ -413,14 +414,32 @@ export default function BoardScreen() {
   );
 
   const sampleRoute = useMemo(() => demoPreviewRoute(getLocale()), []);
+  // Every demo route, so a demo can be shown over the ground the viewer chooses.
+  const demoChoices = useMemo(() => {
+    const locale = getLocale();
+    const now = new Date();
+    return DEMO_ROUTES.flatMap(({ pair, over }) => {
+      const from = airportByIata(pair[0]);
+      const to = airportByIata(pair[1]);
+      if (!from || !to) return [];
+      let night = false;
+      try {
+        const r = planned(pair[0], pair[1]);
+        night = !!r && !daylitThroughout(r, now);
+      } catch {
+        // Unknown light: leave the route unmarked.
+      }
+      return [{ pair, over, from: cityName(from, locale), to: cityName(to, locale), night }];
+    });
+  }, []);
 
   const active = (entries ?? []).filter((e) => e.status !== 'flown');
   const featured = active.find((e) => e.pkg.flight.id === featuredId) ?? active[0];
 
-  const beginDemo = useCallback(async () => {
+  const beginDemo = useCallback(async (pair?: [string, string]) => {
     setBusyDemo(true);
     try {
-      const pkg = await startDemo(getLocale());
+      const pkg = await startDemo(getLocale(), pair);
       nav.navigate('InFlight', { flightId: pkg.flight.id });
     } catch {
       toast.show(t('errors.somethingWrong'), 'bad');
@@ -503,7 +522,7 @@ export default function BoardScreen() {
             </View>
             <Space h={s.x6} />
             <PressSurface
-              onPress={beginDemo}
+              onPress={() => beginDemo()}
               accessibilityLabel={t('board.demo')}
               accessibilityHint={t('board.demoHint')}
               accessibilityState={{ busy: busyDemo }}
@@ -517,6 +536,37 @@ export default function BoardScreen() {
                 ›
               </Data>
             </PressSurface>
+            <Space h={s.x5} />
+            <Gutter>
+              <Label tone="dim">{t('board.demoPick')}</Label>
+            </Gutter>
+            <Space h={s.x3} />
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.demoRoutes}>
+              {demoChoices.map((c) => {
+                const over = t(`board.demoOver.${c.over}`);
+                return (
+                  <PressSurface
+                    key={c.pair.join('-')}
+                    onPress={() => beginDemo(c.pair)}
+                    disabled={busyDemo}
+                    accessibilityLabel={`${c.from} — ${c.to}, ${over}${c.night ? `, ${t('board.demoNight')}` : ''}`}
+                    accessibilityHint={t('board.demoHint')}
+                    style={styles.demoChip}
+                  >
+                    <Body numberOfLines={1}>{`${c.from} → ${c.to}`}</Body>
+                    <Small tone="muted" numberOfLines={1}>
+                      {over}
+                    </Small>
+                    {c.night ? (
+                      <Small tone="dim" numberOfLines={1}>
+                        {t('board.demoNight')}
+                      </Small>
+                    ) : null}
+                  </PressSurface>
+                );
+              })}
+            </ScrollView>
+            <Space h={s.x6} />
           </Animated.View>
         </ScrollView>
         <ActionBar label={t('board.addFlight')} onPress={() => nav.navigate('AddFlight')} />
@@ -684,6 +734,16 @@ const styles = StyleSheet.create({
     borderTopWidth: line.hair,
     borderBottomWidth: line.hair,
     borderColor: palette.rule
+  },
+
+  demoRoutes: { paddingHorizontal: gutter, gap: s.x3 },
+  demoChip: {
+    minWidth: 150,
+    paddingHorizontal: s.x4,
+    paddingVertical: s.x3,
+    borderWidth: line.hair,
+    borderColor: palette.rule,
+    gap: 2
   },
 
   sheet: {

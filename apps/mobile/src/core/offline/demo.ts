@@ -43,6 +43,17 @@ const AROUND_THE_CLOCK: Array<[string, string]> = [
   ['YVR', 'YYC']
 ];
 
+/** What each demo route flies over, as an i18n key under `board.demoOver`. */
+export const DEMO_ROUTES: Array<{ pair: [string, string]; over: string }> = [
+  { pair: ['SVO', 'AER'], over: 'caucasus' },
+  { pair: ['ZRH', 'FCO'], over: 'alps' },
+  { pair: ['DEL', 'KTM'], over: 'himalaya' },
+  { pair: ['HND', 'ITM'], over: 'fuji' },
+  { pair: ['AKL', 'ZQN'], over: 'southernAlps' },
+  { pair: ['LIM', 'CUZ'], over: 'andes' },
+  { pair: ['YVR', 'YYC'], over: 'rockies' }
+];
+
 export const DEMO_SPEED = 20;
 
 export function planned(a: string, b: string): RoutePoint[] | null {
@@ -87,12 +98,13 @@ export function demoPreviewRoute(locale: string, now: Date = new Date()): RouteP
   }
 }
 
-export async function startDemo(locale: string): Promise<OfflinePackage> {
+/** Starts the demo now: on the route given, or the one {@link demoRoute} picks. */
+export async function startDemo(locale: string, pair?: [string, string]): Promise<OfflinePackage> {
   await ensureDatasets();
   const stories = await loadStories(locale);
   await aerialReady();
   const now = new Date();
-  const [fromCode, toCode] = demoRoute(locale, now);
+  const [fromCode, toCode] = pair ?? demoRoute(locale, now);
   const from = airportByIata(fromCode);
   const to = airportByIata(toCode);
   if (!from || !to) throw new Error('demo airports missing from dataset');
