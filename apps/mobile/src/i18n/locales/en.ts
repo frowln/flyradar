@@ -764,7 +764,7 @@ export const en = {
     recent: 'recent finds',
     map: 'their flights',
     countries: 'countries',
-    achievements: 'achievements',
+    achievements: 'Achievements',
   },
   reviews: {
     title: 'what others say',

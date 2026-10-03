@@ -764,7 +764,7 @@ export const fr = {
     recent: 'trouvailles récentes',
     map: 'ses vols',
     countries: 'pays',
-    achievements: 'succès',
+    achievements: 'Succès',
   },
   reviews: {
     title: 'ce que disent les autres',

@@ -45,9 +45,11 @@ interface Props {
 
 type XY = [number, number];
 
-export function projector(route: Array<{ lat: number; lon: number }>, width: number, height: number, pad: number) {
+export function projector(route: Array<{ lat: number; lon: number }>, width: number, height: number, pad: number, wrap = true) {
   const lons = route.map((p) => p.lon);
-  const spansDateline = Math.max(...lons) - Math.min(...lons) > 180;
+  // A route over the date line is drawn centred on the Pacific; a set of
+  // flights round the whole world (wrap off) keeps Greenwich in the middle.
+  const spansDateline = wrap && Math.max(...lons) - Math.min(...lons) > 180;
   const normLon = (lon: number) => (spansDateline && lon < 0 ? lon + 360 : lon);
 
   let minLon = Infinity;

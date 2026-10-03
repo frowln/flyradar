@@ -38,24 +38,31 @@ const WORLD = [
   { lat: -42, lon: 160 }
 ];
 
-function arc(f: MapFlight, steps = 48): Array<{ lat: number; lon: number }> {
-  const pts: Array<{ lat: number; lon: number }> = [];
-  for (let i = 0; i <= steps; i++) pts.push(gcInterpolate(f.from.lat, f.from.lon, f.to.lat, f.to.lon, i / steps));
-  // Keep longitudes continuous so an arc over the date line is one stroke.
-  for (let i = 1; i < pts.length; i++) {
-    while (pts[i]!.lon - pts[i - 1]!.lon > 180) pts[i]!.lon -= 360;
-    while (pts[i]!.lon - pts[i - 1]!.lon < -180) pts[i]!.lon += 360;
+type LL = { lat: number; lon: number };
+
+/** A flight's great circle, cut where it crosses the date line, so it leaves one edge of the map and comes back in at the other. */
+function arc(f: MapFlight, steps = 48): LL[][] {
+  const parts: LL[][] = [[]];
+  let prev: LL | null = null;
+  for (let i = 0; i <= steps; i++) {
+    const p = gcInterpolate(f.from.lat, f.from.lon, f.to.lat, f.to.lon, i / steps);
+    if (prev && Math.abs(p.lon - prev.lon) > 180) parts.push([]);
+    parts[parts.length - 1]!.push(p);
+    prev = p;
   }
-  return pts;
+  return parts.filter((part) => part.length > 1);
 }
 
 function FlightsMap({ flights, width, height, visited = [], latest, background }: Props) {
   const geo = useMemo(() => {
     const arcs = flights.map((f) => arc(f));
-    const all = arcs.flat();
+    const all = arcs.flat(2);
     // No flights yet: the world, waiting.
     const frame = all.length ? all : WORLD;
-    const { project, view, normLon } = projector(frame, width, height, 10);
+    // Flights on both sides of the date line: the whole world, Greenwich in the middle.
+    const lons = frame.map((p) => p.lon);
+    const world = Math.max(...lons) - Math.min(...lons) > 180;
+    const { project, view, normLon } = projector(frame, width, height, 10, !world);
     let countries: DataCountry[] = [];
     try {
       countries = getCountries();
@@ -63,12 +70,16 @@ function FlightsMap({ flights, width, height, visited = [], latest, background }
       // Datasets missing in a test build: the arcs alone still draw.
     }
     const paths = countryPaths(countries, view, normLon, project);
-    const lines = arcs.map((pts) =>
-      pts
-        .map((p, i) => {
-          const [x, y] = project(p.lon, p.lat);
-          return `${i ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`;
-        })
+    const lines = arcs.map((parts) =>
+      parts
+        .map((pts) =>
+          pts
+            .map((p, i) => {
+              const [x, y] = project(p.lon, p.lat);
+              return `${i ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`;
+            })
+            .join('')
+        )
         .join('')
     );
     const knots = new Map<string, [number, number]>();

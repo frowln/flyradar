@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   View,
   TextInput,
@@ -87,6 +87,13 @@ function AirportField({
   const [query, setQuery] = useState('');
   const locale = getLocale();
   const results = useMemo(() => (query.trim() ? searchAirports(query, 7) : []), [query]);
+  // Choosing the origin makes the destination active: the keyboard goes there
+  // too, so the second city is typed without another tap. (autoFocus alone
+  // only acts when the field first appears.)
+  const input = useRef<TextInput>(null);
+  useEffect(() => {
+    if (active) input.current?.focus();
+  }, [active]);
 
   if (!active && value) {
     return (
@@ -107,6 +114,7 @@ function AirportField({
     <View style={styles.field}>
       <Label tone={active ? 'accent' : 'dim'}>{label}</Label>
       <TextInput
+        ref={input}
         value={query}
         onChangeText={setQuery}
         onFocus={onActivate}
@@ -211,6 +219,7 @@ export default function AddFlightScreen() {
   const today = useMemo(() => localDate(new Date()), []);
   const [date, setDate] = useState(today);
   const [time, setTime] = useState('');
+  const timeInput = useRef<TextInput>(null);
   const [details, setDetails] = useState(false);
   const [flightNumber, setFlightNumber] = useState('');
   const [arrival, setArrival] = useState('');
@@ -412,6 +421,8 @@ export default function AddFlightScreen() {
               onChange={(a) => {
                 setTo(a);
                 setActive(null);
+                // The time is the one thing left to fill: go there.
+                if (!depTime) setTimeout(() => timeInput.current?.focus(), 50);
               }}
             />
             <Rule />
@@ -452,17 +463,19 @@ export default function AddFlightScreen() {
 
             <Gutter style={styles.timeRow}>
               <View style={styles.flex}>
-                <Label tone="dim">{t('addFlight.departureTime')}</Label>
+                {/* Lit while it is all that stands between the passenger and the button. */}
+                <Label tone={from && to && !depTime ? 'accent' : 'dim'}>{t('addFlight.departureTime')}</Label>
                 <Small>{from ? t('addFlight.localTimeAt', { city: cityName(from, locale) }) : t('addFlight.localTime')}</Small>
               </View>
               <TextInput
+                ref={timeInput}
                 value={time}
                 onChangeText={setTime}
                 onBlur={() => {
                   const n = normaliseTime(time);
                   if (n) setTime(n);
                 }}
-                placeholder="09:30"
+                placeholder="--:--"
                 placeholderTextColor={palette.inkDim}
                 keyboardType="numbers-and-punctuation"
                 maxLength={5}

@@ -796,7 +796,7 @@ export const ru = {
     recent: 'последние находки',
     map: 'карта полётов',
     countries: 'страны',
-    achievements: 'достижения',
+    achievements: 'Достижения',
   },
   reviews: {
     title: 'что говорят другие',
