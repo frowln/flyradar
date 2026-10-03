@@ -1,200 +1,200 @@
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:1f5e2] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 37521, elementOrHash.elementID: 4436595568.3. Attributes: (
+2026-10-03 19:25:44.874 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 13779, elementOrHash.elementID: 4350689600.4. Attributes: (
     "XC_kAXXCAttributeElementType",
     "XC_kAXXCAttributeElementBaseType",
     "XC_kAXXCAttributeTraits",
     "XC_kAXXCAttributeAutomationType"
 )
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeTraits, XC_kAXXCAttributeAutomationType for AX element pid: 37521, elementOrHash.elementID: 4436595568.3
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
-2026-10-03 18:50:02.768 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Replying with attribute values: {
+2026-10-03 19:25:44.874 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 19:25:44.874 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 19:25:44.874 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 19:25:44.874 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 19:25:44.874 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 19:25:44.874 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeTraits, XC_kAXXCAttributeAutomationType for AX element pid: 13779, elementOrHash.elementID: 4350689600.4
+2026-10-03 19:25:44.875 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
+2026-10-03 19:25:44.875 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] Replying with attribute values: {
     "XC_kAXXCAttributeAutomationType" = 2;
     "XC_kAXXCAttributeElementBaseType" = UIWindow;
     "XC_kAXXCAttributeElementType" = UIWindow;
     "XC_kAXXCAttributeTraits" = 0;
 }
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 37521, elementOrHash.elementID: 4436595568.3. Attributes: (
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 13779, elementOrHash.elementID: 4350689600.4. Attributes: (
     "XC_kAXXCAttributeSystemAutomationProperties"
 )
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeSystemAutomationProperties for AX element pid: 37521, elementOrHash.elementID: 4436595568.3
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
-2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Replying with attribute values: {
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeSystemAutomationProperties for AX element pid: 13779, elementOrHash.elementID: 4350689600.4
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
+2026-10-03 19:25:44.881 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] Replying with attribute values: {
 }
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 37521, elementOrHash.elementID: 4436595568.3. Attributes: (
+2026-10-03 19:25:44.882 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 13779, elementOrHash.elementID: 4350689600.4. Attributes: (
     "XC_kAXXCAttributeFrame",
     "XC_kAXXCAttributeWindowDisplayId",
     "XC_kAXXCAttributeWindowContextId"
 )
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeFrame, XC_kAXXCAttributeWindowDisplayId, XC_kAXXCAttributeWindowContextId for AX element pid: 37521, elementOrHash.elementID: 4436595568.3
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
-2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Replying with attribute values: {
+2026-10-03 19:25:44.882 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 19:25:44.882 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 19:25:44.882 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 19:25:44.882 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 19:25:44.882 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 19:25:44.882 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeFrame, XC_kAXXCAttributeWindowDisplayId, XC_kAXXCAttributeWindowContextId for AX element pid: 13779, elementOrHash.elementID: 4350689600.4
+2026-10-03 19:25:44.883 Df SkyAtlas[13779:b461] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
+2026-10-03 19:25:44.883 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] Replying with attribute values: {
     "XC_kAXXCAttributeFrame" =     {
         Height = 874;
         Width = 402;
         X = 0;
         Y = 0;
     };
-    "XC_kAXXCAttributeWindowContextId" = 4068913938;
+    "XC_kAXXCAttributeWindowContextId" = 2399955243;
     "XC_kAXXCAttributeWindowDisplayId" = 1;
 }
-2026-10-03 18:50:02.791 Df SkyAtlas[37521:19f01] [com.apple.KeyboardArbiter:Client] TX focusApplication (peekAppEvent) stealKB:Y scene:com.skyatlas.app-default
-2026-10-03 18:50:02.792 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.792 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.792 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.808 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.809 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.809 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.819 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 0; ignoreInteractionEvents: 0, systemGestureStateChange: 1
-2026-10-03 18:50:02.820 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.820 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.821 Df SkyAtlas[37521:19f01] [com.apple.UIKit:UIPointerArbiter] Ignoring beginScrollingWithRegion: <UIPointerRegion: 0x60000224b700; rect = (0 0; 402 812); identifier = UIScrollView.scrollingPointerRegion> because pointer state is disabled
-2026-10-03 18:50:02.834 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.834 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.834 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.835 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.835 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.835 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.858 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.858 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.858 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.858 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.858 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.869 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.869 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.869 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.869 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.869 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.884 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.885 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.885 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.885 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.885 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.901 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.901 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.901 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.902 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.902 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.918 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.918 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.918 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.919 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.919 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.935 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.935 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.935 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.936 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.936 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.951 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.951 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.951 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.952 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.952 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.969 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.969 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.969 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.969 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.969 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.985 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:02.985 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:02.985 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:02.986 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:02.987 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.001 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.001 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.001 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.002 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.002 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.018 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.018 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.018 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.018 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.018 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.034 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.035 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.035 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.035 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.035 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.051 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.051 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.051 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.051 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.051 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.068 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.068 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.068 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.068 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.068 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.084 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.084 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.084 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.084 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.085 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.101 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.101 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.101 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.101 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.102 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.118 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.118 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.118 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.118 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.118 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.134 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.135 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.135 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.135 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.135 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.151 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.151 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.151 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.151 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.151 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.168 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.168 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.168 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.168 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.168 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.184 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.185 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.185 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.185 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.185 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.201 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.201 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.201 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.201 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.201 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.218 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.218 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.218 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.219 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.219 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.235 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
-2026-10-03 18:50:03.236 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
-2026-10-03 18:50:03.236 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
-2026-10-03 18:50:03.237 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.237 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
-2026-10-03 18:50:03.904 Df SkyAtlas[37521:19f01] [com.apple.UIKit:UIPointerArbiter] Ignoring endScrollingWithRegion: <UIPointerRegion: 0x60000224b700; rect = (0 0; 402 812); identifier = UIScrollView.scrollingPointerRegion> because scrollingRegion does not match: (null)
-2026-10-03 18:50:09.440 Df SkyAtlas[37521:1f5e2] [com.apple.xpc:connection] [0x108710a70] invalidated because the client process (pid 35402) either cancelled the connection or exited
-2026-10-03 18:50:09.447 Df SkyAtlas[37521:1f5e2] [com.apple.dt.xctest:Default] Connection from client with pid 35402 was invalidated.
-2026-10-03 18:50:09.562 Df SkyAtlas[37521:1f5e2] [com.apple.dt.automationmode:Default] Handling posted change notification (com.apple.dt.automationmode.state-changed)
-2026-10-03 18:50:09.575 Df SkyAtlas[37521:1f5e2] [com.apple.dt.automationmode:Default] XAM shared observer connecting to com.apple.dt.automationmode.reader
-2026-10-03 18:50:09.578 Df SkyAtlas[37521:1f5e2] [com.apple.xpc:connection] [0x108767e40] activating connection: mach=true listener=false peer=false name=com.apple.dt.automationmode.reader
-2026-10-03 18:50:09.584 Df SkyAtlas[37521:1f5e2] [com.apple.xpc:connection] [0x108767e40] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()
-2026-10-03 18:50:09.584 Df SkyAtlas[37521:1f5e2] [com.apple.dt.automationmode:Default] Comparing previous enabled state (1) to current enabled state (0)
-2026-10-03 18:50:09.585 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Automation Mode has been disabled, existing connections will be invalidated.
-2026-10-03 18:50:20.419 Df SkyAtlas[37521:27ac3] [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key LSSessionKey(system: 0 uid: 501)
+2026-10-03 19:25:44.900 Df SkyAtlas[13779:b461] [com.apple.KeyboardArbiter:Client] TX focusApplication (peekAppEvent) stealKB:Y scene:com.skyatlas.app-default
+2026-10-03 19:25:44.900 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:44.900 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:44.900 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:44.917 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:44.917 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:44.917 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:44.932 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 0; ignoreInteractionEvents: 0, systemGestureStateChange: 1
+2026-10-03 19:25:44.932 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.932 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.932 Df SkyAtlas[13779:b461] [com.apple.UIKit:UIPointerArbiter] Ignoring beginScrollingWithRegion: <UIPointerRegion: 0x60000224cc80; rect = (0 0; 402 812); identifier = UIScrollView.scrollingPointerRegion> because pointer state is disabled
+2026-10-03 19:25:44.948 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:44.948 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:44.949 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:44.949 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.949 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.949 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.965 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:44.966 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:44.966 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:44.966 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.966 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.982 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:44.982 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:44.982 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:44.982 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.982 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.998 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:44.999 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:44.999 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:44.999 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:44.999 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.015 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.015 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.015 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.016 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.016 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.032 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.032 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.032 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.032 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.032 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.048 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.049 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.049 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.049 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.049 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.065 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.066 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.066 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.066 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.066 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.082 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.082 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.082 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.082 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.082 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.099 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.099 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.099 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.099 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.099 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.115 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.115 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.115 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.116 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.116 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.132 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.132 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.132 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.132 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.132 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.148 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.148 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.148 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.149 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.149 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.165 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.165 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.165 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.165 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.165 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.182 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.182 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.182 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.182 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.182 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.199 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.199 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.199 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.199 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.199 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.215 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.215 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.215 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.215 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.215 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.232 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.232 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.232 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.232 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.232 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.248 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.248 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.249 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.249 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.249 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.265 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.265 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.265 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.265 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.265 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.282 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.282 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.282 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.282 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.282 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.299 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.299 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.299 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.299 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.299 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.315 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.315 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.315 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.316 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.316 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.332 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.332 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.332 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.332 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.332 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.348 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d34c30; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 19:25:45.348 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 19:25:45.349 Df SkyAtlas[13779:b461] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x103524140>; contextId: 0x8F0C692B
+2026-10-03 19:25:45.349 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:45.349 A  SkyAtlas[13779:b461] (UIKitCore) send gesture actions
+2026-10-03 19:25:46.016 Df SkyAtlas[13779:b461] [com.apple.UIKit:UIPointerArbiter] Ignoring endScrollingWithRegion: <UIPointerRegion: 0x60000224cc80; rect = (0 0; 402 812); identifier = UIScrollView.scrollingPointerRegion> because scrollingRegion does not match: (null)
+2026-10-03 19:25:50.861 Df SkyAtlas[13779:1398d] [com.apple.xpc:connection] [0x104704280] invalidated because the client process (pid 12489) either cancelled the connection or exited
+2026-10-03 19:25:50.863 Df SkyAtlas[13779:1398d] [com.apple.dt.xctest:Default] Connection from client with pid 12489 was invalidated.
+2026-10-03 19:25:50.922 Df SkyAtlas[13779:10d93] [com.apple.dt.automationmode:Default] Handling posted change notification (com.apple.dt.automationmode.state-changed)
+2026-10-03 19:25:50.953 Df SkyAtlas[13779:10d93] [com.apple.dt.automationmode:Default] XAM shared observer connecting to com.apple.dt.automationmode.reader
+2026-10-03 19:25:50.956 Df SkyAtlas[13779:10d93] [com.apple.xpc:connection] [0x117e74ba0] activating connection: mach=true listener=false peer=false name=com.apple.dt.automationmode.reader
+2026-10-03 19:25:50.967 Df SkyAtlas[13779:10d93] [com.apple.xpc:connection] [0x117e74ba0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()
+2026-10-03 19:25:50.967 Df SkyAtlas[13779:10d93] [com.apple.dt.automationmode:Default] Comparing previous enabled state (1) to current enabled state (0)
+2026-10-03 19:25:50.969 Df SkyAtlas[13779:1066e] [com.apple.dt.xctest:Default] Automation Mode has been disabled, existing connections will be invalidated.
+2026-10-03 19:25:55.152 Df SkyAtlas[13779:1066e] [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key LSSessionKey(system: 0 uid: 501)
