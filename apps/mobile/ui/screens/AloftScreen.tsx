@@ -440,6 +440,26 @@ export default function AloftScreen() {
           expanded={mapExpanded}
           onToggleExpand={() => setMapExpanded((v) => !v)}
         />
+        {mapExpanded ? (
+          // Full screen hides the panel; the flight's numbers stay on the map, as on a seat-back screen.
+          <View
+            style={styles.hud}
+            pointerEvents="none"
+            accessible
+            accessibilityLabel={[
+              `${t('aloft.remaining')}: ${spokenDuration(end - view.elapsedS)}, ${leftKm.value} ${t(`unit.${leftKm.unit}`)}`,
+              `${t('aloft.altitude')}: ${alt.value} ${t(`unit.${alt.unit}`)}`,
+              `${t('aloft.speed')}: ${spd.value} ${t(`unit.${spd.unit}`)}`,
+              `${t('aloft.tempOutside')}: ${temp.value}°`
+            ].join(', ')}
+          >
+            <HudCell label={t('aloft.remaining')} value={clock(end - view.elapsedS)} accent />
+            <HudCell label={t(`unit.${leftKm.unit}`)} value={leftKm.value} />
+            <HudCell label={`${t('aloft.altitude')} · ${t(`unit.${alt.unit}`)}`} value={alt.value} />
+            <HudCell label={t(`unit.${spd.unit}`)} value={spd.value} />
+            <HudCell label={t('aloft.tempOutside')} value={`${temp.value}°`} />
+          </View>
+        ) : null}
       </View>
 
       <RouteScrubber end={end} live={pos.elapsedS} value={preview} marks={scrubMarks} onChange={setPreview} />
@@ -715,7 +735,35 @@ export default function AloftScreen() {
   );
 }
 
+function HudCell({ label, value, accent }: { label: string; value: string; accent?: boolean }) {
+  return (
+    <View style={styles.hudCell}>
+      <DataSmall tone={accent ? 'accent' : 'default'} allowFontScaling={false} numberOfLines={1} style={styles.hudValue}>
+        {value}
+      </DataSmall>
+      <Small tone="muted" allowFontScaling={false} numberOfLines={1} style={styles.hudLabel}>
+        {label}
+      </Small>
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
+  hud: {
+    position: 'absolute',
+    left: s.x3,
+    right: s.x3,
+    bottom: 56,
+    flexDirection: 'row',
+    paddingVertical: s.x2,
+    borderRadius: 12,
+    backgroundColor: 'rgba(11, 14, 17, 0.84)',
+    borderWidth: line.hair,
+    borderColor: palette.rule
+  },
+  hudCell: { flex: 1, alignItems: 'center', paddingHorizontal: 2 },
+  hudValue: { fontSize: 15, lineHeight: 19 },
+  hudLabel: { fontSize: 9, lineHeight: 12, marginTop: 1 },
   flex: { flex: 1 },
   hidden: { display: 'none' },
   spread: { justifyContent: 'space-between' },
