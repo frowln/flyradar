@@ -53,7 +53,16 @@ const Postcard = forwardRef<View, { pkg: OfflinePackage; width: number; spotted?
           <Small numberOfLines={1}>{cityName(flight.destination, locale)}</Small>
         </View>
       </View>
-      <RouteSketch route={route} width={width} height={sketchH} pois={pkg.pois} highlight={countries} flownS={air} background={palette.void} />
+      <RouteSketch
+        route={route}
+        width={width}
+        height={sketchH}
+        pois={pkg.pois}
+        highlight={countries}
+        flownS={air}
+        fromLabel={cityName(flight.origin, locale)}
+        toLabel={cityName(flight.destination, locale)}
+      />
       <View style={styles.pad}>
         <Body numberOfLines={2}>{countries.map((cc) => countryName(cc, locale)).join(' · ')}</Body>
         <View style={styles.statsRow}>

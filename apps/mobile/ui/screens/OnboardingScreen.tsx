@@ -10,7 +10,7 @@ import Stamp from '../components/Stamp';
 import SideMark from '../components/SideMark';
 import RouteSketch from '../components/RouteSketch';
 import { markOnboardingComplete } from '../onboardingState';
-import { demoPreviewRoute, startDemo } from '../../src/core/offline/demo';
+import { demoPreviewRoute, demoPreviewCities, startDemo } from '../../src/core/offline/demo';
 import { t, getLocale } from '../../src/i18n';
 import type { RootStackParamList } from '../../src/navigation/types';
 
@@ -33,6 +33,7 @@ export default function OnboardingScreen() {
   const locale = getLocale();
 
   const route = useMemo(() => demoPreviewRoute(locale), [locale]);
+  const ends = useMemo(() => demoPreviewCities(locale), [locale]);
 
   const panels = [
     {
@@ -40,7 +41,15 @@ export default function OnboardingScreen() {
       title: t('onboard.windowTitle'),
       body: t('onboard.windowBody'),
       art: route ? (
-        <RouteSketch route={route} width={width} height={artH} flownS={route[Math.floor(route.length * 0.45)]!.elapsedSeconds} plane={route[Math.floor(route.length * 0.45)]!} />
+        <RouteSketch
+          route={route}
+          width={width}
+          height={artH}
+          flownS={route[Math.floor(route.length * 0.45)]!.elapsedSeconds}
+          plane={route[Math.floor(route.length * 0.45)]!}
+          fromLabel={ends?.from}
+          toLabel={ends?.to}
+        />
       ) : null
     },
     {

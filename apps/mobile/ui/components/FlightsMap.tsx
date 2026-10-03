@@ -1,12 +1,12 @@
 import { memo, useMemo } from 'react';
 import { View, StyleSheet } from 'react-native';
-import Svg, { Path, Circle, G, Rect, Defs, RadialGradient, Stop } from 'react-native-svg';
+import Svg, { Path, Circle, G, Rect, Defs, RadialGradient, LinearGradient, Stop } from 'react-native-svg';
 import { palette } from '../design/tokens';
 import { decorative } from '../design/layout';
 import { getCountries } from '../../src/core/data/datasets';
 import type { DataCountry } from '../../src/core/data/types';
 import { gcInterpolate } from '../../src/core/geo/greatCircle';
-import { projector, countryPaths } from './RouteSketch';
+import { projector, countryPaths, ATLAS } from './RouteSketch';
 
 /**
  * Every flight as a thread across the map: the passport's countries lit,
@@ -92,16 +92,20 @@ function FlightsMap({ flights, width, height, visited = [], latest, background }
             <Stop offset="0" stopColor={palette.amber} stopOpacity={0.55} />
             <Stop offset="1" stopColor={palette.amber} stopOpacity={0} />
           </RadialGradient>
+          <LinearGradient id="fsea" x1="0" y1="0" x2="0" y2="1">
+            <Stop offset="0" stopColor={background ?? ATLAS.seaTop} />
+            <Stop offset="1" stopColor={background ?? ATLAS.seaBottom} />
+          </LinearGradient>
         </Defs>
-        <Rect width={width} height={height} fill={background ?? palette.void} />
+        <Rect width={width} height={height} fill="url(#fsea)" />
         <G>
           {geo.paths.map((p) => (
             <Path
               key={p.cc}
               d={p.d}
-              fill={lit.has(p.cc) ? palette.warm : palette.raised}
-              stroke={lit.has(p.cc) ? palette.amberDim : palette.rule}
-              strokeWidth={lit.has(p.cc) ? 0.9 : 0.5}
+              fill={lit.has(p.cc) ? ATLAS.landLit : ATLAS.land}
+              stroke={lit.has(p.cc) ? ATLAS.borderLit : ATLAS.border}
+              strokeWidth={lit.has(p.cc) ? 0.9 : 0.6}
             />
           ))}
         </G>
@@ -120,7 +124,7 @@ function FlightsMap({ flights, width, height, visited = [], latest, background }
         {geo.knots.map(([x, y], i) => (
           <G key={i}>
             <Circle cx={x} cy={y} r={7} fill="url(#knot)" />
-            <Circle cx={x} cy={y} r={2.4} fill={palette.ground} stroke={palette.amber} strokeWidth={1.3} />
+            <Circle cx={x} cy={y} r={2.6} fill={ATLAS.seaBottom} stroke={palette.amber} strokeWidth={1.4} />
           </G>
         ))}
       </Svg>

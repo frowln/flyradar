@@ -41,13 +41,13 @@ export interface RouteMapProps {
 }
 
 /** Colours of the chart's own marks on each basemap. */
-export const INK = {
+const INK = {
   day: { leg: '#56657A', flown: '#E07A12', dot: '#3A4656', label: '#1C2530', halo: 'rgba(255, 255, 255, 0.9)', opened: '#C25E00' },
   night: { leg: palette.rule, flown: palette.amber, dot: palette.inkMuted, label: palette.inkMuted, halo: palette.void, opened: palette.amber }
 } as const;
 
 /** Hill shading, strong enough to read the Alps at cruise and quiet at night. */
-export const HILLSHADE = {
+const HILLSHADE = {
   day: {
     'hillshade-exaggeration': 0.5,
     'hillshade-shadow-color': 'rgba(58, 44, 24, 0.55)',

@@ -2,6 +2,7 @@ import type { OfflinePackage } from '@skyatlas/shared';
 import { composePackage } from './buildPackage';
 import { savePackage } from './packageStore';
 import { enrichWithWikipedia } from '../places/wiki';
+import { cityName } from '../data/airports';
 import { airportByIata, ensureDatasets, getAreas, getCountries, getHistory, getPlaces, loadStories } from '../data/datasets';
 import { takeOff } from '../flight/controller';
 import { downloadRelief } from '../map/offlineMap';
@@ -87,6 +88,18 @@ export function demoRoute(locale: string, now: Date = new Date()): [string, stri
     }
   }
   return home;
+}
+
+/** The cities at the two ends of the demo route, in the reader's language, for illustrations. */
+export function demoPreviewCities(locale: string, now: Date = new Date()): { from: string; to: string } | null {
+  try {
+    const [a, b] = demoRoute(locale, now);
+    const from = airportByIata(a);
+    const to = airportByIata(b);
+    return from && to ? { from: cityName(from, locale), to: cityName(to, locale) } : null;
+  } catch {
+    return null;
+  }
 }
 
 /** The demo route as it will be flown — detours included — for illustrations. */

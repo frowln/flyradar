@@ -64,6 +64,38 @@ const TZ_COMPAT = {
  * Airports the source places in a zone across the border: the clock is the
  * same, but the zone below is read by country (src/core/flight/telemetry.ts).
  */
+/**
+ * Russian city names the sources lack, for Russian airports (Minvody showed
+ * as "Mineralnyye Vody" in a Russian interface).
+ */
+const RU_CITY = {
+  'ARH': 'Архангельск',
+  'BQG': 'Богородское',
+  'BVJ': 'Бованенково',
+  'CSH': 'Соловецкие острова',
+  'DEE': 'Южно-Курильск',
+  'DPT': 'Депутатский',
+  'EKS': 'Шахтёрск',
+  'EYK': 'Белоярский',
+  'IGT': 'Сунжа',
+  'ITU': 'Курильск',
+  'KPW': 'Кепервеем',
+  'KVM': 'Марково',
+  'LDG': 'Лешуконское',
+  'MJY': 'Мотыгино',
+  'MQJ': 'Хонуу',
+  'MRV': 'Минеральные Воды',
+  'NZG': 'Нижнеангарск',
+  'OGZ': 'Беслан',
+  'OVS': 'Советский',
+  'PYJ': 'Полярный',
+  'SBT': 'Сабетта',
+  'SUK': 'Батагай-Алыта',
+  'TLY': 'Пластун',
+  'VAQ': 'Ванавара',
+  'VEO': 'Северо-Енисейский'
+};
+
 const TZ_FIX = {
   YXX: 'America/Vancouver', // Abbotsford, BC — listed as Los Angeles
   YAM: 'America/Toronto', // Sault Ste. Marie, ON — listed as Detroit
@@ -185,6 +217,7 @@ function main() {
     if (icao) a.c = icao;
     a.n = cleanName(r.name);
     a.city = city;
+    if (RU_CITY[r.iata_code] && !cl?.ru) cl = { ...(cl ?? {}), ru: RU_CITY[r.iata_code] };
     if (cl) a.cl = cl;
     const region = countries.locate(lon, lat);
     a.cc = region && isDisputedRegion(region) ? region : r.iso_country;

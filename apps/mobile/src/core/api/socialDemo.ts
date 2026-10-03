@@ -422,59 +422,60 @@ function feed(): FeedItem[] {
     .sort((a, b) => b.at.localeCompare(a.at));
 }
 
+// Russian reviews avoid gendered verbs: the sample authors are men and women.
 const REVIEWS: Record<'ru' | 'en', Record<string, string[]>> = {
   ru: {
     mountain: [
-      'Просила место A на регистрации — и не зря. Снежная шапка вышла из облаков минут на пять, на закате розовая.',
-      'Узнала только благодаря подсказке: с высоты она меньше, чем ждёшь, но силуэт ни с чем не спутать.',
-      'Летел ночью, но вид из окна в приложении показал, где она. Под луной снег был виден!'
+      'Место A на регистрации — лучшее решение рейса. Снежная шапка вышла из облаков минут на пять, на закате розовая.',
+      'С высоты она меньше, чем ждёшь, но силуэт ни с чем не спутать — особенно с подсказкой «слева через 3 минуты».',
+      'Ночной рейс, но вид из окна в приложении показал, где она. Под луной снег всё-таки виден!'
     ],
     lake: [
-      'Огромное и почти чёрное, с белыми полосами льда у берегов. Сняла на телефон — вышло как открытка.',
-      'Облака разошлись прямо над водой. Видно было даже острова. Лучшие десять минут полёта.',
-      'С правого борта, как и обещали. Береговую линию узнал по карте в приложении.'
+      'Огромное и почти чёрное, с белыми полосами льда у берегов. Фото на телефон — как открытка.',
+      'Облака разошлись прямо над водой, видны даже острова. Лучшие десять минут полёта.',
+      'С правого борта, как и обещали. Береговую линию легко узнать по карте в приложении.'
     ],
     city: [
-      'Ночью — как рассыпанное золото. Нашла кольцевые дороги и реку, как на карте.',
-      'Пролетали низко на снижении, видно стадион и мосты.',
-      'Днём город сверху серый, а вот ночью — главное шоу рейса.'
+      'Ночью — как рассыпанное золото. Кольцевые дороги и река — точь-в-точь как на карте.',
+      'На снижении проходили низко: стадион и мосты как на ладони.',
+      'Днём сверху город серый, а ночью это главное шоу рейса.'
     ],
     water: [
-      'Тянулась под нами полчаса, блестела на солнце. Приложение заранее сказало, с какой стороны смотреть.',
+      'Полчаса тянется под крылом и блестит на солнце. Приложение заранее подсказало, с какой стороны смотреть.',
       'Извилистая, с притоками — как на карте из учебника.',
-      'Поймала блик солнца на воде — сразу поняла, что это она.'
+      'Блик солнца на воде — и сразу понятно, что это она.'
     ],
     land: [
-      'Сверху как лоскутное одеяло. Не думала, что это так красиво.',
-      'Пустота и цвета, каких на земле не увидишь. Смотрела весь час.',
-      'Прочитала историю в приложении, пока летели, — теперь знаю, что было внизу.'
+      'Сверху — лоскутное одеяло полей и лесов. От окна не оторваться.',
+      'Цвета земли меняются каждые десять минут: от зелёного к охре. Час у окна пролетает незаметно.',
+      'История в приложении, пока летим над этими местами, — и теперь понятно, что там внизу.'
     ]
   },
   en: {
     mountain: [
       'Asked for an A seat at check-in and it paid off. The summit came out of the clouds for five minutes, pink at sunset.',
       'Smaller than you expect from up here, but the outline is unmistakable once you know where to look.',
-      'Flew at night, but the window view in the app showed where it was. You could see the snow in the moonlight!'
+      'A night flight, but the window view in the app showed where it was. You could see the snow in the moonlight!'
     ],
     lake: [
-      'Huge and nearly black, with white bands of ice along the shore. My phone photo looks like a postcard.',
+      'Huge and nearly black, with white bands of ice along the shore. The phone photo looks like a postcard.',
       'The clouds parted right over the water and we could even see the islands. Best ten minutes of the flight.',
-      'On the right, as promised. Matched the shoreline to the map in the app.'
+      'On the right, as promised. The shoreline matched the map in the app.'
     ],
     city: [
-      'At night it looks like spilled gold. Found the ring roads and the river, just like the map.',
+      'At night it looks like spilled gold. The ring roads and the river, just like the map.',
       'We passed low on the descent: the stadium and the bridges were clear.',
       'Grey by day, but at night it is the show of the flight.'
     ],
     water: [
       'Ran under us for half an hour, shining in the sun. The app said which side to look from.',
       'Winding, with tributaries, like a textbook map.',
-      'Caught the sun glinting on the water and knew straight away.'
+      'The sun glinted on the water and there was no doubt which river it was.'
     ],
     land: [
-      'A patchwork quilt from above. I had no idea it was this beautiful.',
-      'Emptiness and colours you never see on the ground. Watched for the whole hour.',
-      'Read the story in the app while we flew over — now I know what was down there.'
+      'A patchwork of fields and forest from above. Hard to look away.',
+      'The colours of the land change every ten minutes, from green to ochre. The hour at the window flew by.',
+      'Read the story in the app while we flew over, and now I know what was down there.'
     ]
   }
 };

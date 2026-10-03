@@ -1,10 +1,13 @@
 import { memo, useMemo } from 'react';
 import { View, StyleSheet } from 'react-native';
-import Svg, { Path, Circle, G, Rect } from 'react-native-svg';
+import Svg, { Path, Circle, G, Rect, Defs, LinearGradient, Stop, Text as SvgText } from 'react-native-svg';
 import type { POI, RoutePoint } from '@skyatlas/shared';
-import { palette } from '../design/tokens';
+import { palette, family } from '../design/tokens';
+import { PLANE_PATH } from './planeGlyph';
 import { decorative } from '../design/layout';
 import { getCountries } from '../../src/core/data/datasets';
+import { placeName } from '../../src/core/places/names';
+import { getLocale } from '../../src/i18n';
 import type { DataCountry } from '../../src/core/data/types';
 
 /**
@@ -31,7 +34,13 @@ interface Props {
   /** Ids drawn filled (opened or spotted). */
   lit?: Set<string>;
   plane?: { lat: number; lon: number } | null;
+  /** A flat sea colour instead of the gradient (the postcard's own ground). */
   background?: string;
+  /** Names set at the two ends of the route. */
+  fromLabel?: string;
+  toLabel?: string;
+  /** More names to set, if they fit. */
+  labels?: SketchLabel[];
 }
 
 type XY = [number, number];
@@ -127,7 +136,71 @@ export function countryPaths(
   return out;
 }
 
-function RouteSketch({ route, width, height, flownS, pois = [], highlight = [], lit, plane, background }: Props) {
+/**
+ * The plate's colours: an atlas at dusk, so it sits in the dark interface
+ * and still reads as a map — blue sea, land, the countries of the flight lit
+ * warm. Shared with FlightsMap.
+ */
+export const ATLAS = {
+  seaTop: '#173852',
+  seaBottom: '#0E2335',
+  land: '#2C3B30',
+  landLit: '#433F2D',
+  border: 'rgba(233, 238, 244, 0.16)',
+  borderLit: 'rgba(255, 196, 107, 0.55)',
+  graticule: 'rgba(233, 238, 244, 0.06)',
+  label: '#F2F5F8',
+  labelSoft: 'rgba(233, 238, 244, 0.78)',
+  halo: 'rgba(8, 18, 28, 0.85)'
+} as const;
+
+export interface SketchLabel {
+  lat: number;
+  lon: number;
+  text: string;
+  /** Ends of the route are set larger. */
+  strong?: boolean;
+}
+
+function boxesOverlap(a: number[], b: number[]) {
+  return a[0]! < b[2]! && a[2]! > b[0]! && a[1]! < b[3]! && a[3]! > b[1]!;
+}
+
+/** Labels that fit without covering each other, the strong ones first. */
+function layoutLabels(labels: SketchLabel[], project: (lon: number, lat: number) => XY, width: number, height: number) {
+  const placed: number[][] = [];
+  const out: Array<SketchLabel & { x: number; y: number; anchor: 'start' | 'end' }> = [];
+  for (const l of [...labels].sort((a, b) => Number(!!b.strong) - Number(!!a.strong))) {
+    const [x, y] = project(l.lon, l.lat);
+    if (x < 0 || x > width || y < 0 || y > height) continue;
+    const size = l.strong ? 13 : 11;
+    const w = l.text.length * size * 0.56 + 6;
+    // Right of the dot, or left of it near the right edge.
+    const anchor: 'start' | 'end' = x + w + 10 > width ? 'end' : 'start';
+    const x0 = anchor === 'start' ? x + 7 : x - 7 - w;
+    const box = [x0, y - size, x0 + w, y + 4];
+    if (placed.some((b) => boxesOverlap(b, box))) continue;
+    placed.push(box);
+    out.push({ ...l, x: anchor === 'start' ? x + 8 : x - 8, y: y + size * 0.35, anchor });
+  }
+  return out;
+}
+
+function Halo({ x, y, text, size, anchor, color, weight }: { x: number; y: number; text: string; size: number; anchor: 'start' | 'end'; color: string; weight: string }) {
+  // The halo is a second, stroked copy underneath: SVG text on native has no paint order.
+  return (
+    <G>
+      <SvgText x={x} y={y} fontSize={size} fontFamily={weight} textAnchor={anchor} stroke={ATLAS.halo} strokeWidth={3} strokeLinejoin="round" fill={ATLAS.halo}>
+        {text}
+      </SvgText>
+      <SvgText x={x} y={y} fontSize={size} fontFamily={weight} textAnchor={anchor} fill={color}>
+        {text}
+      </SvgText>
+    </G>
+  );
+}
+
+function RouteSketch({ route, width, height, flownS, pois = [], highlight = [], lit, plane, background, fromLabel, toLabel, labels = [] }: Props) {
   const geo = useMemo(() => {
     if (route.length < 2) return null;
     const { project, view, normLon } = projector(route, width, height, 6);
@@ -143,8 +216,34 @@ function RouteSketch({ route, width, height, flownS, pois = [], highlight = [], 
         const [x, y] = project(p.lon, p.lat);
         return `${i ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`;
       }).join('');
-    return { project, paths, full: line(route), line };
+    // A faint graticule every 5° (10° on wide views): the plate reads as a map at a glance.
+    const span = view.maxLat - view.minLat;
+    const stepDeg = span > 40 ? 10 : 5;
+    let grid = '';
+    for (let lat = Math.ceil(view.minLat / stepDeg) * stepDeg; lat <= view.maxLat; lat += stepDeg) {
+      const [, y] = project(view.minLon, lat);
+      grid += `M0 ${y.toFixed(1)}L${width} ${y.toFixed(1)}`;
+    }
+    for (let lon = Math.ceil(view.minLon / stepDeg) * stepDeg; lon <= view.maxLon; lon += stepDeg) {
+      const [x] = project(lon, (view.minLat + view.maxLat) / 2);
+      grid += `M${x.toFixed(1)} 0L${x.toFixed(1)} ${height}`;
+    }
+    return { project, paths, full: line(route), line, grid };
   }, [route, width, height]);
+
+  const placed = useMemo(() => {
+    if (!geo) return [];
+    const first = route[0]!;
+    const last = route[route.length - 1]!;
+    const all: SketchLabel[] = [...labels];
+    if (fromLabel) all.push({ lat: first.lat, lon: first.lon, text: fromLabel, strong: true });
+    if (toLabel) all.push({ lat: last.lat, lon: last.lon, text: toLabel, strong: true });
+    // The most notable places on the way, as many as fit.
+    for (const p of [...pois].sort((a, b) => (b.rank ?? 0) - (a.rank ?? 0)).slice(0, 12)) {
+      all.push({ lat: p.lat, lon: p.lon, text: placeName(p, getLocale()) });
+    }
+    return layoutLabels(all, geo.project, width, height);
+  }, [geo, route, labels, fromLabel, toLabel, pois, width, height]);
 
   if (!geo) return <View {...decorative} style={{ width, height }} />;
 
@@ -154,24 +253,51 @@ function RouteSketch({ route, width, height, flownS, pois = [], highlight = [], 
   const last = route[route.length - 1]!;
   const [dx, dy] = geo.project(last.lon, last.lat);
   const planeXY = plane ? geo.project(plane.lon, plane.lat) : null;
+  // The plane points along the route on screen, from the point before it to the one after.
+  let planeDeg = 0;
+  if (plane && planeXY) {
+    let k = 0;
+    let best = Infinity;
+    route.forEach((p, i) => {
+      const d = (p.lat - plane.lat) ** 2 + (p.lon - plane.lon) ** 2;
+      if (d < best) {
+        best = d;
+        k = i;
+      }
+    });
+    const a = geo.project(route[Math.max(0, k - 1)]!.lon, route[Math.max(0, k - 1)]!.lat);
+    const b = geo.project(route[Math.min(route.length - 1, k + 1)]!.lon, route[Math.min(route.length - 1, k + 1)]!.lat);
+    planeDeg = (Math.atan2(b[0] - a[0], -(b[1] - a[1])) * 180) / Math.PI;
+  }
 
   return (
     <View {...decorative} style={[styles.wrap, { width, height }]} pointerEvents="none">
       <Svg width={width} height={height}>
-        <Rect width={width} height={height} fill={background ?? palette.void} />
+        <Defs>
+          <LinearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+            <Stop offset="0" stopColor={background ?? ATLAS.seaTop} />
+            <Stop offset="1" stopColor={background ?? ATLAS.seaBottom} />
+          </LinearGradient>
+        </Defs>
+        <Rect width={width} height={height} fill="url(#sea)" />
+        <Path d={geo.grid} stroke={ATLAS.graticule} strokeWidth={1} fill="none" />
         <G>
           {geo.paths.map((p) => (
-            <Path
-              key={p.cc}
-              d={p.d}
-              fill={hi.has(p.cc) ? palette.lifted : palette.raised}
-              stroke={hi.has(p.cc) ? palette.inkDim : palette.rule}
-              strokeWidth={hi.has(p.cc) ? 0.9 : 0.6}
-            />
+            <Path key={p.cc} d={p.d} fill={hi.has(p.cc) ? ATLAS.landLit : ATLAS.land} stroke={ATLAS.border} strokeWidth={0.7} />
           ))}
+          {geo.paths
+            .filter((p) => hi.has(p.cc))
+            .map((p) => (
+              <Path key={`lit-${p.cc}`} d={p.d} fill="none" stroke={ATLAS.borderLit} strokeWidth={1} />
+            ))}
         </G>
-        <Path d={geo.full} stroke={palette.inkMuted} strokeWidth={1.2} strokeDasharray="3 4" fill="none" />
-        {flown.length > 1 ? <Path d={geo.line(flown)} stroke={palette.amber} strokeWidth={2.2} fill="none" strokeLinecap="round" /> : null}
+        <Path d={geo.full} stroke={ATLAS.labelSoft} strokeWidth={1.4} strokeDasharray="4 5" fill="none" />
+        {flown.length > 1 ? (
+          <G>
+            <Path d={geo.line(flown)} stroke={palette.amber} strokeOpacity={0.25} strokeWidth={7} fill="none" strokeLinecap="round" />
+            <Path d={geo.line(flown)} stroke={palette.amber} strokeWidth={2.4} fill="none" strokeLinecap="round" />
+          </G>
+        ) : null}
         {pois.map((poi) => {
           const [x, y] = geo.project(poi.lon, poi.lat);
           const on = lit?.has(poi.id);
@@ -180,19 +306,33 @@ function RouteSketch({ route, width, height, flownS, pois = [], highlight = [], 
               key={poi.id}
               cx={x}
               cy={y}
-              r={on ? 3 : 2.2}
-              fill={on ? palette.amber : palette.ground}
-              stroke={on ? palette.amber : palette.inkMuted}
-              strokeWidth={1}
+              r={on ? 3.2 : 2.6}
+              fill={on ? palette.amber : ATLAS.land}
+              stroke={on ? palette.amber : ATLAS.label}
+              strokeWidth={1.2}
             />
           );
         })}
-        <Circle cx={ox} cy={oy} r={3.5} fill={palette.amber} />
-        <Circle cx={dx} cy={dy} r={3.5} fill={palette.ground} stroke={palette.amber} strokeWidth={1.5} />
+        <Circle cx={ox} cy={oy} r={4.5} fill={palette.amber} stroke={ATLAS.halo} strokeWidth={1.5} />
+        <Circle cx={dx} cy={dy} r={4.5} fill={ATLAS.seaBottom} stroke={palette.amber} strokeWidth={2} />
+        {placed.map((l) => (
+          <Halo
+            key={`${l.text}-${l.x}`}
+            x={l.x}
+            y={l.y}
+            text={l.text}
+            size={l.strong ? 13 : 11}
+            anchor={l.anchor}
+            color={l.strong ? ATLAS.label : ATLAS.labelSoft}
+            weight={l.strong ? family.textStrong : family.textMid}
+          />
+        ))}
         {planeXY ? (
-          <G>
-            <Circle cx={planeXY[0]} cy={planeXY[1]} r={9} fill="none" stroke={palette.amberDim} strokeWidth={1} />
-            <Circle cx={planeXY[0]} cy={planeXY[1]} r={4} fill={palette.amber} />
+          <G transform={`translate(${planeXY[0] - 14} ${planeXY[1] - 14}) rotate(${planeDeg.toFixed(1)} 14 14)`}>
+            <Circle cx={14} cy={14} r={15} fill={palette.amber} fillOpacity={0.16} />
+            <G transform="scale(1.1667)">
+              <Path d={PLANE_PATH} fill={palette.amber} stroke={ATLAS.halo} strokeWidth={0.9} strokeLinejoin="round" />
+            </G>
           </G>
         ) : null}
       </Svg>

@@ -212,7 +212,10 @@ function styleFor(night: boolean, skip: Set<string>): StyleSpecification {
     glyphs: 'glyphs://{fontstack}/{range}',
     sources: {
       dem: { type: 'raster-dem', tiles: ['dem://{z}/{x}/{y}'], tileSize: 256, maxzoom: 6, encoding: 'terrarium' },
-      countries: { type: 'geojson', data: bordersGeoJSON() },
+      // Country outlines are the heaviest source: tiled only to zoom 6 and
+      // overzoomed beyond, so a newly revealed area gets its land at once
+      // instead of showing the ocean underneath while it is cut.
+      countries: { type: 'geojson', data: bordersGeoJSON(), maxzoom: 6, tolerance: 0.6 },
       glaciers: { type: 'geojson', data: ATLAS('glaciers') },
       lakes: { type: 'geojson', data: ATLAS('lakes') },
       rivers: { type: 'geojson', data: ATLAS('rivers') },

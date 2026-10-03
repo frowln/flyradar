@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { View, ScrollView, StyleSheet, Linking, Alert } from 'react-native';
+import { View, ScrollView, StyleSheet, Linking, Alert, Platform } from 'react-native';
 import appConfig from '../../app.json';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -164,7 +164,8 @@ export default function SettingsScreen() {
             else refreshReminders().catch(() => {});
           }}
         />
-        {notif === false && alerts !== 'off' ? (
+        {/* A browser has no notification settings to send anyone to. */}
+        {notif === false && alerts !== 'off' && Platform.OS !== 'web' ? (
           <Gutter style={styles.warn}>
             <Small tone="accent">{t('settings.notificationsOff')}</Small>
           </Gutter>

@@ -22,7 +22,7 @@ import { placeName, placeText, countryName } from '../../src/core/places/names';
 import { airportByIata } from '../../src/core/data/datasets';
 import { cityName } from '../../src/core/data/airports';
 import { localDate } from '../../src/core/time/zones';
-import { startDemo, demoPreviewRoute, DEMO_ROUTES, planned, daylitThroughout } from '../../src/core/offline/demo';
+import { startDemo, demoPreviewRoute, demoPreviewCities, DEMO_ROUTES, planned, daylitThroughout } from '../../src/core/offline/demo';
 import { useToast } from '../components/Toast';
 import { t, getLocale } from '../../src/i18n';
 import { clock, duration, spokenDuration, timeAt, weekdayDayMonth } from '../format';
@@ -311,6 +311,8 @@ function FeaturedFlight({
           highlight={countries}
           flownS={pos?.elapsedS}
           plane={pos}
+          fromLabel={cityName(flight.origin, locale)}
+          toLabel={cityName(flight.destination, locale)}
         />
       </View>
 
@@ -414,6 +416,7 @@ export default function BoardScreen() {
   );
 
   const sampleRoute = useMemo(() => demoPreviewRoute(getLocale()), []);
+  const sampleEnds = useMemo(() => demoPreviewCities(getLocale()), []);
   // Every demo route, so a demo can be shown over the ground the viewer chooses.
   const demoChoices = useMemo(() => {
     const locale = getLocale();
@@ -498,6 +501,8 @@ export default function BoardScreen() {
                   height={Math.round(width * 0.5)}
                   flownS={sampleRoute[Math.floor(sampleRoute.length * 0.55)]!.elapsedSeconds}
                   plane={sampleRoute[Math.floor(sampleRoute.length * 0.55)]!}
+                  fromLabel={sampleEnds?.from}
+                  toLabel={sampleEnds?.to}
                 />
               </View>
             ) : null}
