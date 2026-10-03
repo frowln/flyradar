@@ -1,4 +1,5 @@
-# Part 2: the flight map — full screen, zoom in and out, drag away, back to the plane, night chart.
+# Part 2: the flight map — full screen, zoom, drag away and back, satellite,
+# the 3D view behind the aircraft, the whole route, the night chart.
 appId: com.skyatlas.app
 ---
 - tapOn: "во весь экран"
@@ -9,20 +10,13 @@ appId: com.skyatlas.app
 - tapOn: "Приблизить"
 - runScript: { file: pause.js, env: { MS: 3000 } }
 - takeScreenshot: 11-map-zoom-in
-- tapOn: "Приблизить"
-- runScript: { file: pause.js, env: { MS: 3000 } }
-- takeScreenshot: 12-map-zoom-in-more
-- tapOn: "Отдалить"
-- runScript: { file: pause.js, env: { MS: 800 } }
 - tapOn: "Отдалить"
 - runScript: { file: pause.js, env: { MS: 800 } }
 - tapOn: "Отдалить"
 - runScript: { file: pause.js, env: { MS: 800 } }
 - tapOn: "Отдалить"
 - runScript: { file: pause.js, env: { MS: 3000 } }
-- takeScreenshot: 13-map-zoom-out
-- tapOn: "Приблизить"
-- runScript: { file: pause.js, env: { MS: 800 } }
+- takeScreenshot: 12-map-zoom-out
 - tapOn: "Приблизить"
 - runScript: { file: pause.js, env: { MS: 1500 } }
 - swipe:
@@ -30,14 +24,31 @@ appId: com.skyatlas.app
     end: 12%, 28%
     duration: 900
 - runScript: { file: pause.js, env: { MS: 3000 } }
-- takeScreenshot: 14-map-dragged
+- takeScreenshot: 13-map-dragged
 - tapOn: "Вернуть карту к самолёту и следить за ним"
 - runScript: { file: pause.js, env: { MS: 3500 } }
-- takeScreenshot: 15-map-follow
-- tapOn: { text: "Показать тёмную ночную карту", optional: true }
+- takeScreenshot: 14-map-follow
+- tapOn: "Карта: спутник"
+- runScript: { file: pause.js, env: { MS: 5000 } }
+- takeScreenshot: 15-map-satellite
+- tapOn: "Вид из-за самолёта, по курсу"
+- runScript: { file: pause.js, env: { MS: 6000 } }
+- takeScreenshot: 16-map-3d-satellite
+- tapOn: "Карта: рельеф"
+- runScript: { file: pause.js, env: { MS: 5000 } }
+- takeScreenshot: 17-map-3d-relief
+- tapOn: "Показать весь маршрут"
+- runScript: { file: pause.js, env: { MS: 4500 } }
+- takeScreenshot: 18-map-route
+- tapOn: "Вернуть карту к самолёту и следить за ним"
 - runScript: { file: pause.js, env: { MS: 3500 } }
-- takeScreenshot: 16-map-night
-- tapOn: { text: "Показать цветную карту с рельефом", optional: true }
+- takeScreenshot: 19-map-back-3d
+- tapOn: "Вид из-за самолёта, по курсу"
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- tapOn: "Карта: ночь"
+- runScript: { file: pause.js, env: { MS: 4000 } }
+- takeScreenshot: 20-map-night
+- tapOn: "Карта: рельеф"
 - runScript: { file: pause.js, env: { MS: 2000 } }
 - tapOn: "свернуть"
 - runScript: { file: pause.js, env: { MS: 1500 } }

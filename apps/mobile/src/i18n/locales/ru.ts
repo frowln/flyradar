@@ -300,6 +300,12 @@ export const ru = {
     followA11y: 'Вернуть карту к самолёту и следить за ним',
     zoomIn: 'Приблизить',
     zoomOut: 'Отдалить',
+    layer_relief: 'рельеф',
+    layer_satellite: 'спутник',
+    layer_night: 'ночь',
+    layerA11y: 'Карта: %{name}',
+    view3dA11y: 'Вид из-за самолёта, по курсу',
+    routeA11y: 'Показать весь маршрут',
   },
   guess: {
     label: 'угадайте',

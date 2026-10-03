@@ -298,6 +298,12 @@ export const de = {
     followA11y: 'Karte wieder auf das Flugzeug zentrieren und ihm folgen',
     zoomIn: 'Hineinzoomen',
     zoomOut: 'Herauszoomen',
+    layer_relief: 'Relief',
+    layer_satellite: 'Satellit',
+    layer_night: 'Nacht',
+    layerA11y: 'Karte: %{name}',
+    view3dA11y: 'Blick von hinter dem Flugzeug, in Flugrichtung',
+    routeA11y: 'Ganze Route zeigen',
   },
   guess: {
     label: 'Ratespiel',

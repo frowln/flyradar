@@ -6,6 +6,6 @@ appId: com.skyatlas.app
     direction: RIGHT
     duration: 1500
 - runScript: { file: pause.js, env: { MS: 3500 } }
-- takeScreenshot: 20-scrub-ahead
+- takeScreenshot: 21-scrub-ahead
 - tapOn: { text: "к самолёту", optional: true }
 - runScript: { file: pause.js, env: { MS: 2000 } }

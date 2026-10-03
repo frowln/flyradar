@@ -34,6 +34,8 @@ jobs:
       EXPO_PUBLIC_DEMO_SOCIAL: '1'
       EXPO_PUBLIC_DEMO_COUNTS: '1'
       EXPO_PUBLIC_DEMO_PAYWALL: '1'
+      # The error screen prints what broke: a screenshot is enough to fix it.
+      EXPO_PUBLIC_SHOW_ERRORS: '1'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -150,7 +152,11 @@ jobs:
           if [ -f "$DEMO/demo-tour-480p.mp4" ] && [ "$(stat -f%z "$DEMO/demo-tour-480p.mp4")" -lt 60000000 ]; then
             cp "$DEMO/demo-tour-480p.mp4" "$SHOTS/"
           fi
-          [ -f "$DEMO/app.log" ] && tail -400 "$DEMO/app.log" > "$SHOTS/app.log" || true
+          # .log files are ignored by git here: the app's log goes in as text.
+          if [ -f "$DEMO/app.log" ]; then
+            grep -E "\[SkyAtlas\]|Error|Exception|ReactNativeJS|RCTLog|fatal" "$DEMO/app.log" | tail -400 > "$SHOTS/app-errors.txt" || true
+            tail -200 "$DEMO/app.log" > "$SHOTS/app-log-tail.txt" || true
+          fi
           for c in "$DEMO"/crash/*; do
             [ -f "$c" ] && python3 apps/mobile/scripts/crash-summary.py "$c" > "$SHOTS/crash-$(basename "$c" | tr ' ' '-').txt" || true
           done
@@ -158,12 +164,12 @@ jobs:
           if [ -f "$DEMO/demo-flight.mp4" ] && command -v ffmpeg >/dev/null; then
             ffmpeg -loglevel error -y -i "$DEMO/demo-flight.mp4" -vf "fps=1/5,scale=160:-2,tile=10x4" -q:v 4 "$SHOTS/video-sheet-%02d.jpg" || true
           fi
-          [ -f "$DEMO/maestro.log" ] && tail -c 150000 "$DEMO/maestro.log" > "$SHOTS/maestro.log"
+          [ -f "$DEMO/maestro.log" ] && tail -c 150000 "$DEMO/maestro.log" > "$SHOTS/maestro-log.txt"
           # What was on screen, as text: the UI tree Maestro saw after each phase.
           for t in "$DEMO"/tree/*.json; do
             [ -f "$t" ] && python3 apps/mobile/scripts/ui-tree-text.py "$t" > "$SHOTS/tree-$(basename "$t" .json).txt" || true
           done
-          echo "${GITHUB_SHA::7} · $(date -u '+%Y-%m-%d %H:%M UTC') · $(xcodebuild -version | head -1)" > "$SHOTS/BUILD.txt"
+          echo "${GITHUB_SHA::7} · $(date -u '+%Y-%m-%d %H:%M UTC') · $(xcodebuild -version 2>/dev/null | sed -n 1p)" > "$SHOTS/BUILD.txt"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for attempt in 1 2 3; do

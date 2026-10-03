@@ -298,6 +298,12 @@ export const fr = {
     followA11y: 'Recentrer la carte sur l’avion et le suivre',
     zoomIn: 'Zoom avant',
     zoomOut: 'Zoom arrière',
+    layer_relief: 'relief',
+    layer_satellite: 'satellite',
+    layer_night: 'nuit',
+    layerA11y: 'Carte : %{name}',
+    view3dA11y: 'Vue depuis l’arrière de l’avion, cap en haut',
+    routeA11y: 'Afficher tout le trajet',
   },
   guess: {
     label: 'devinez',

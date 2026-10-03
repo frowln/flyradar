@@ -297,6 +297,12 @@ export const ja = {
     followA11y: '地図を機体に戻して追従する',
     zoomIn: 'ズームイン',
     zoomOut: 'ズームアウト',
+    layer_relief: '地形',
+    layer_satellite: '衛星',
+    layer_night: '夜',
+    layerA11y: '地図：%{name}',
+    view3dA11y: '機体の後ろからの眺め、進行方向が上',
+    routeA11y: 'ルート全体を表示',
   },
   guess: {
     label: 'クイズ',
