@@ -2,20 +2,18 @@ import maplibregl from 'maplibre-gl';
 
 /**
  * Elevation tiles shipped with the browser build (public/dem/, made by
- * scripts/preview/fetch-dem.mjs): an index and a few packed files, read once
- * and sliced per tile. Used by the web map (as a dem:// protocol) and by the
- * window view.
+ * scripts/preview/fetch-dem.mjs): Terrarium PNGs at dem/{z}/{x}/{y}.png and an
+ * index of which exist, so a missing tile is cut from its ancestor instead of
+ * requested. Used by the web map (as a dem:// protocol) and by the window view.
  */
 
-
 interface DemIndex {
-  chunks: number;
   maxzoom: number;
-  tiles: Record<string, [number, number, number]>;
+  tiles: string[];
 }
 
-let index: Promise<DemIndex | null> | null = null;
-const chunks = new Map<number, Promise<ArrayBuffer>>();
+let index: Promise<Set<string> | null> | null = null;
+const cache = new Map<string, Promise<ArrayBuffer | null>>();
 
 /**
  * Where the build is served from, taken once at load: screens change the
@@ -23,28 +21,28 @@ const chunks = new Map<number, Promise<ArrayBuffer>>();
  */
 export const BASE = typeof location === 'undefined' ? '' : location.href.replace(/[?#].*$/, '').replace(/[^/]*$/, '');
 
-function demIndex(): Promise<DemIndex | null> {
+function demIndex(): Promise<Set<string> | null> {
   index ??= fetch(`${BASE}dem/index.json`)
     .then((r) => (r.ok ? (r.json() as Promise<DemIndex>) : null))
+    .then((i) => (i ? new Set(i.tiles) : null))
     .catch(() => null);
   return index;
 }
 
-function chunk(i: number): Promise<ArrayBuffer> {
-  let c = chunks.get(i);
-  if (!c) {
-    c = fetch(`${BASE}dem/pack-${i}.bin`).then((r) => r.arrayBuffer());
-    chunks.set(i, c);
-  }
-  return c;
-}
-
 export async function tileBytes(z: number, x: number, y: number): Promise<ArrayBuffer | null> {
+  const key = `${z}/${x}/${y}`;
   const idx = await demIndex();
-  const at = idx?.tiles[`${z}/${x}/${y}`];
-  if (!at) return null;
-  const buf = await chunk(at[0]);
-  return buf.slice(at[1], at[1] + at[2]);
+  if (!idx?.has(key)) return null;
+  let c = cache.get(key);
+  if (!c) {
+    c = fetch(`${BASE}dem/${key}.png`)
+      .then((r) => (r.ok ? r.arrayBuffer() : null))
+      .catch(() => null);
+    cache.set(key, c);
+  }
+  const buf = await c;
+  // A copy: the map takes ownership of what it is given.
+  return buf ? buf.slice(0) : null;
 }
 
 /**
@@ -105,6 +103,11 @@ export async function fromAncestor(z: number, x: number, y: number): Promise<Arr
 }
 
 let protocolAdded = false;
+/**
+ * Registers dem:// for elevation and glyphs:// for the map's label fonts. The
+ * fonts ship as base64 inside JSON (atlas/fonts/<font>/<range>.json): the
+ * host serves a fixed list of file types, and protobuf is not on it.
+ */
 export function addDemProtocol(): void {
   if (protocolAdded) return;
   protocolAdded = true;
@@ -115,6 +118,17 @@ export function addDemProtocol(): void {
     const data = (await tileBytes(z, x, y)) ?? (await fromAncestor(z, x, y));
     if (!data) throw new Error('no elevation here');
     return { data };
+  });
+  maplibregl.addProtocol('glyphs', async (params) => {
+    const m = /glyphs:\/\/([^/]+)\/(\d+-\d+)/.exec(params.url);
+    if (!m) throw new Error('bad glyph address');
+    const res = await fetch(`${BASE}atlas/fonts/${m[1]}/${m[2]}.json`);
+    if (!res.ok) throw new Error('no glyphs');
+    const { pbf } = (await res.json()) as { pbf: string };
+    const bin = atob(pbf);
+    const data = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) data[i] = bin.charCodeAt(i);
+    return { data: data.buffer };
   });
 }
 

@@ -209,7 +209,7 @@ function styleFor(night: boolean, skip: Set<string>): StyleSpecification {
   const medium = ['Noto Sans Medium'];
   return {
     version: 8,
-    glyphs: `${BASE}atlas/fonts/{fontstack}/{range}.pbf`,
+    glyphs: 'glyphs://{fontstack}/{range}',
     sources: {
       dem: { type: 'raster-dem', tiles: ['dem://{z}/{x}/{y}'], tileSize: 256, maxzoom: 6, encoding: 'terrarium' },
       countries: { type: 'geojson', data: bordersGeoJSON() },

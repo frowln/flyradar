@@ -218,10 +218,12 @@ for (const font of ['Noto Sans Regular', 'Noto Sans Italic', 'Noto Sans Medium']
   const dir = join(out, 'fonts', font);
   mkdirSync(dir, { recursive: true });
   for (const range of RANGES) {
-    const file = join(dir, `${range}.pbf`);
+    // Base64 inside JSON: hosts serve a fixed list of file types, and
+    // protobuf is rarely on it. The web map decodes it (glyphs:// protocol).
+    const file = join(dir, `${range}.json`);
     if (existsSync(file)) continue;
     const res = await fetch(`${FONTS}/${encodeURIComponent(font)}/${range}.pbf`);
-    if (res.ok) writeFileSync(file, Buffer.from(await res.arrayBuffer()));
+    if (res.ok) writeFileSync(file, JSON.stringify({ pbf: Buffer.from(await res.arrayBuffer()).toString('base64') }));
   }
 }
 console.log('glyphs: Noto Sans Regular, Italic, Medium →', RANGES.join(', '));

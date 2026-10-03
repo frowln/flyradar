@@ -6,8 +6,8 @@
  * build cannot: a hosted demo is not allowed to reach tile servers, and the
  * store screenshots are taken from it. So the web build carries its own:
  * the whole world at small scales (zooms 0–3) and the corridors of the demo
- * and screenshot routes in more detail (zooms 4–6), packed into a few files
- * with an index (a host may cap the number of files, not only their size).
+ * and screenshot routes in more detail (zooms 4–6), one PNG per tile at
+ * public/dem/{z}/{x}/{y}.png with an index of which exist.
  *
  *   node scripts/preview/fetch-dem.mjs          # writes public/dem/
  *
@@ -22,7 +22,6 @@ const app = join(dirname(fileURLToPath(import.meta.url)), '../..');
 const out = join(app, 'public/dem');
 const REMOTE = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium';
 const WORLD_MAX_ZOOM = 3;
-const CHUNK_BYTES = 3 * 1024 * 1024;
 
 // Demo routes (src/core/offline/demo.ts) and the Russian screenshot scenes get
 // zoom 6 near the track; every route gets zooms 4–5 out to ~4°, which is what
@@ -106,21 +105,16 @@ await Promise.all(Array.from({ length: 12 }, worker));
 
 if (existsSync(out)) rmSync(out, { recursive: true });
 mkdirSync(out, { recursive: true });
-const index = {};
-const chunks = [[]];
-let size = 0;
+const tiles = [];
+let total = 0;
 for (const key of list) {
   const body = bodies.get(key);
   if (!body) continue;
-  if (size + body.length > CHUNK_BYTES) {
-    chunks.push([]);
-    size = 0;
-  }
-  index[key] = [chunks.length - 1, size, body.length];
-  chunks[chunks.length - 1].push(body);
-  size += body.length;
+  const file = join(out, `${key}.png`);
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, body);
+  tiles.push(key);
+  total += body.length;
 }
-chunks.forEach((parts, i) => writeFileSync(join(out, `pack-${i}.bin`), Buffer.concat(parts)));
-writeFileSync(join(out, 'index.json'), JSON.stringify({ version: 1, maxzoom: 6, chunks: chunks.length, tiles: index }));
-const total = chunks.reduce((s, c) => s + c.reduce((t, b) => t + b.length, 0), 0);
-console.log(`${Object.keys(index).length} tiles in ${chunks.length} files, ${(total / 1024 / 1024).toFixed(1)} MB → public/dem/`);
+writeFileSync(join(out, 'index.json'), JSON.stringify({ version: 2, maxzoom: 6, tiles }));
+console.log(`${tiles.length} tiles, ${(total / 1024 / 1024).toFixed(1)} MB → public/dem/`);
