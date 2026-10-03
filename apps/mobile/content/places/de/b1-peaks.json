@@ -1,7 +1,7 @@
 {
   "Q7296": {
     "t": "Das Dach Afrikas – eine Schneeinsel über der Savanne",
-    "s": "Der Kilimandscharo gehört zu keinem Gebirge: Er steht allein, ein breiter dunkler Vulkan, der aus der Savanne aufsteigt. Sein Gipfel, der Uhuru Peak auf dem Kibo, ist 5.895 m hoch – das Dach Afrikas und trotzdem noch rund fünf Kilometer unter Ihnen. Achten Sie auf den weißen Eissaum am Kibo: Er schrumpft Jahr für Jahr, hält sich aber noch, nur drei Grad südlich des Äquators.",
+    "s": "Der Kilimandscharo gehört zu keinem Gebirge: Er steht allein, ein breiter dunkler Vulkan, der aus der Savanne aufsteigt. Sein Gipfel, der Uhuru Peak auf dem Kibo, ist 5.895 m hoch – das Dach Afrikas und trotzdem noch rund fünf Kilometer unter der Reiseflughöhe. Achten Sie auf den weißen Eissaum am Kibo: Er schrumpft Jahr für Jahr, hält sich aber noch, nur drei Grad südlich des Äquators.",
     "w": "Eine riesige, einsame Kuppel mit flachem, weiß gestreiftem Gipfel und dem zackigen Mawenzi an der Ostflanke, nahe der Grenze zu Kenia.",
     "f": [
       "Der Kilimandscharo besteht aus drei Vulkankegeln: Kibo, Mawenzi und Shira.",
@@ -19,7 +19,7 @@
   },
   "Q39231": {
     "t": "Japans einsamer Vulkan – fast symmetrisch, mit weißer Kappe",
-    "s": "An einem klaren Tag ist der Fuji unverwechselbar: ein breiter, gleichmäßiger Kegel, der westlich von Tokio ganz für sich steht, von Herbst bis Frühling mit weißen Hängen. Zuletzt brach er 1707 aus. Der Gipfel (3.776 m) liegt rund sieben Kilometer unter Ihnen. Im Sommer schrumpft der Schnee zu dünnen Streifen in den Rinnen, und zurück bleibt ein dunkler, aschfarbener Berg.",
+    "s": "An einem klaren Tag ist der Fuji unverwechselbar: ein breiter, gleichmäßiger Kegel, der westlich von Tokio ganz für sich steht, von Herbst bis Frühling mit weißen Hängen. Zuletzt brach er 1707 aus. Der Gipfel (3.776 m) liegt rund sieben Kilometer unter der Reiseflughöhe. Im Sommer schrumpft der Schnee zu dünnen Streifen in den Rinnen, und zurück bleibt ein dunkler, aschfarbener Berg.",
     "w": "Ein einzelner schneebedeckter Kegel rund 100 km südwestlich von Tokio, an seinem Nordfuß eine Kette kleiner Seen.",
     "f": [
       "Die fünf Seen am Nordfuß des Fuji entstanden, als alte Lavaströme die Täler aufstauten.",
@@ -36,8 +36,8 @@
     }
   },
   "Q513": {
-    "t": "Der höchste Punkt der Erde, nur etwa 2 km unter Ihnen",
-    "s": "Aus der Luft wirkt der Everest selten wie der Höchste: Er versteckt sich zwischen riesigen Nachbarn, eine dunkle Pyramide, oft mit einer Schneefahne, die der Jetstream nach Osten weht. Sein Gipfel (8.848 m) liegt nur rund zwei Kilometer unter Ihrer Reiseflughöhe. Das Gestein ganz oben ist Kalkstein – entstanden auf einem urzeitlichen Meeresboden und emporgehoben, als Indien sich gegen Asien schob.",
+    "t": "Der höchste Punkt der Erde, rund 2 km unter Reiseflughöhe",
+    "s": "Aus der Luft wirkt der Everest selten wie der Höchste: Er versteckt sich zwischen riesigen Nachbarn, eine dunkle Pyramide, oft mit einer Schneefahne, die der Jetstream nach Osten weht. Sein Gipfel (8.848 m) liegt nur rund zwei Kilometer unter der Reiseflughöhe. Das Gestein ganz oben ist Kalkstein – entstanden auf einem urzeitlichen Meeresboden und emporgehoben, als Indien sich gegen Asien schob.",
     "w": "Eine dunkle, dreiseitige Pyramide, oft mit Schneefahne, über den Gletschern an der Grenze zwischen Nepal und Tibet.",
     "f": [
       "Die Tibeter nennen ihn Chomolungma, in Nepal heißt er Sagarmatha.",
@@ -73,7 +73,7 @@
   },
   "Q1374": {
     "t": "Der schärfste Zahn der Alpen, vierseitig wie ein Kompass",
-    "s": "Selbst aus Reiseflughöhe wirkt das Matterhorn wie gemeißelt: eine Pyramide mit hakenförmig gebogener Spitze, deren vier Wände fast genau nach Norden, Süden, Osten und Westen zeigen. Es steht auf der schweizerisch-italienischen Grenze über Zermatt, 4.478 m hoch und rund sechseinhalb Kilometer unter Ihnen. An sonnigen Morgen leuchtet die Ostwand, während die Nordwand im Schatten bleibt – der Gipfel wirkt wie in zwei Hälften geschnitten.",
+    "s": "Selbst aus Reiseflughöhe wirkt das Matterhorn wie gemeißelt: eine Pyramide mit hakenförmig gebogener Spitze, deren vier Wände fast genau nach Norden, Süden, Osten und Westen zeigen. Es steht auf der schweizerisch-italienischen Grenze über Zermatt, 4.478 m hoch und rund sechseinhalb Kilometer unter der Reiseflughöhe. An sonnigen Morgen leuchtet die Ostwand, während die Nordwand im Schatten bleibt – der Gipfel wirkt wie in zwei Hälften geschnitten.",
     "w": "Eine einzelne, hakenförmige Felspyramide zwischen Gletschern, westlich des großen Monte-Rosa-Massivs an der schweizerisch-italienischen Grenze.",
     "f": [
       "Der Seilschaft um Edward Whymper gelang am 14. Juli 1865 die Erstbesteigung.",
@@ -109,7 +109,7 @@
   },
   "Q583": {
     "t": "Westeuropas höchste Kuppel, das ganze Jahr weiß",
-    "s": "Der Mont Blanc ist weniger Spitze als gewaltige weiße Schulter: eine breite Eiskuppel auf einem Massiv, das sich Frankreich, Italien und die Schweiz teilen. Mit rund 4.807 m ist er der höchste Punkt der Alpen und liegt doch mehr als sechs Kilometer unter Ihnen. Auf der Nordseite fließen lange Gletscher Richtung Chamonix hinab, auf der italienischen Seite fallen die Wände steil nach Courmayeur ab.",
+    "s": "Der Mont Blanc ist weniger Spitze als gewaltige weiße Schulter: eine breite Eiskuppel auf einem Massiv, das sich Frankreich, Italien und die Schweiz teilen. Mit rund 4.807 m ist er der höchste Punkt der Alpen und liegt doch mehr als sechs Kilometer unter der Reiseflughöhe. Auf der Nordseite fließen lange Gletscher Richtung Chamonix hinab, auf der italienischen Seite fallen die Wände steil nach Courmayeur ab.",
     "w": "Eine breite, abgerundete weiße Kuppel über tiefen Tälern; lange Gletscherzungen reichen nach Nordwesten Richtung Chamonix.",
     "f": [
       "Jacques Balmat und Michel-Gabriel Paccard erreichten 1786 als Erste den Gipfel.",
@@ -145,7 +145,7 @@
   },
   "ne-gl-antarctic-ice-sheet": {
     "t": "Das meiste Eis der Welt, auf einem gefrorenen Kontinent",
-    "s": "Führt Ihre Route über die Antarktis, ist das Weiß unter Ihnen kein Schnee auf Land, sondern kilometerdickes Eis. Der Antarktische Eisschild bedeckt rund 14 Millionen km² und enthält etwa 90 Prozent allen Eises der Erde. Seine Oberfläche ist so glatt und hell, dass der Horizont verschwinden kann; nur Nunatakker – Felsgipfel, die aus dem Eis ragen – unterbrechen das Weiß.",
+    "s": "Führt Ihre Route über die Antarktis, ist das Weiß dort unten kein Schnee auf Land, sondern kilometerdickes Eis. Der Antarktische Eisschild bedeckt rund 14 Millionen km² und enthält etwa 90 Prozent allen Eises der Erde. Seine Oberfläche ist so glatt und hell, dass der Horizont verschwinden kann; nur Nunatakker – Felsgipfel, die aus dem Eis ragen – unterbrechen das Weiß.",
     "w": "Eine endlose weiße Fläche mit feinen Windrippeln; dunkler Fels zeigt sich nur nahe der Küste und entlang der Gebirge.",
     "f": [
       "Würde er ganz abschmelzen, stiege der Meeresspiegel weltweit um etwa 58 Meter.",
@@ -217,7 +217,7 @@
   },
   "Q130736": {
     "t": "Der „nackte Berg“ am Westende des Himalaya",
-    "s": "Der Nanga Parbat steht für sich: der westlichste Achttausender des Himalaya, an dessen Fuß der Indus einen Bogen schlägt. Sein Name bedeutet „nackter Berg“ – vielleicht wegen Wänden, die zu steil sind, um Schnee zu halten. Die Rupalwand an seiner Südseite ragt rund 4.600 m vom Tal zum Gipfel auf, eine der höchsten Bergwände der Erde. Der Gipfel (8.125 m) liegt keine drei Kilometer unter Ihnen.",
+    "s": "Der Nanga Parbat steht für sich: der westlichste Achttausender des Himalaya, an dessen Fuß der Indus einen Bogen schlägt. Sein Name bedeutet „nackter Berg“ – vielleicht wegen Wänden, die zu steil sind, um Schnee zu halten. Die Rupalwand an seiner Südseite ragt rund 4.600 m vom Tal zum Gipfel auf, eine der höchsten Bergwände der Erde. Der Gipfel (8.125 m) liegt keine drei Kilometer unter der Reiseflughöhe.",
     "w": "Ein einzeln stehendes Riesenmassiv südlich einer Indusschleife, mit senkrechter Südwand und nach Norden abfließenden Gletschern.",
     "f": [
       "Hermann Buhl gelang 1953 die Erstbesteigung – den Gipfel erreichte er allein.",
@@ -271,7 +271,7 @@
   },
   "Q179842": {
     "t": "Das Dach der Welt, im Mittel über 4.500 m hoch",
-    "s": "Unter Ihnen liegt die höchste große Hochebene der Erde, im Mittel mehr als 4.500 m hoch und rund 2,5 Millionen km² groß. Aus Reiseflughöhe wirkt sie wie ein anderer Planet: braune und ockerfarbene Ebenen, türkisfarbene Seen mit salzweißen Ufern, schneebedeckte Ketten wie mit dem Lineal gezogen. Asiens große Ströme – darunter Jangtse, Gelber Fluss, Mekong, Indus und Brahmaputra – entspringen hier oben.",
+    "s": "Hier liegt die höchste große Hochebene der Erde, im Mittel mehr als 4.500 m hoch und rund 2,5 Millionen km² groß. Aus Reiseflughöhe wirkt sie wie ein anderer Planet: braune und ockerfarbene Ebenen, türkisfarbene Seen mit salzweißen Ufern, schneebedeckte Ketten wie mit dem Lineal gezogen. Asiens große Ströme – darunter Jangtse, Gelber Fluss, Mekong, Indus und Brahmaputra – entspringen hier oben.",
     "w": "Kahles braunes Hochland mit verstreuten türkisfarbenen Seen und weißen Kämmen; der Himalaya bildet seinen scharfen Südrand.",
     "f": [
       "Das Hochland birgt so viel Gletschereis, dass man es oft den Dritten Pol nennt.",
@@ -325,7 +325,7 @@
   },
   "Q1537198": {
     "t": "Eisige Zwillingsgipfel über Ladakhs Suru-Tal",
-    "s": "Der Nun und sein Zwilling Kun bilden das Nun-Kun-Massiv, einen Eisknoten im westlichen Himalaya in Ladakh. Der Nun ist mit 7.135 m der höhere der beiden und nur rund vier Kilometer unter Ihnen. Zwischen den Gipfeln liegt ein etwa 4 km langes Schneeplateau – von oben ein weißer Sattel zwischen zwei Spitzen. Nach beiden Seiten fließen Gletscher zum Suru-Tal hinab.",
+    "s": "Der Nun und sein Zwilling Kun bilden das Nun-Kun-Massiv, einen Eisknoten im westlichen Himalaya in Ladakh. Der Nun ist mit 7.135 m der höhere der beiden und nur rund vier Kilometer unter der Reiseflughöhe. Zwischen den Gipfeln liegt ein etwa 4 km langes Schneeplateau – von oben ein weißer Sattel zwischen zwei Spitzen. Nach beiden Seiten fließen Gletscher zum Suru-Tal hinab.",
     "w": "Zwei weiße Gipfel, verbunden durch ein Schneeplateau, mit langen Gletschern, die bis in ein grünes Tal an ihrem Fuß reichen.",
     "f": [
       "Claude Kogan und Pierre Vittoz von einer französisch-schweizerischen Expedition bestiegen den Nun 1953 als Erste.",
@@ -718,7 +718,7 @@
   },
   "Q39739": {
     "t": "Der höchste Gipfel der Erde außerhalb Asiens",
-    "s": "Der Aconcagua ist mit 6.959 m der höchste Berg außerhalb Asiens und der Gipfel der West- wie der Südhalbkugel. Er erhebt sich in Argentinien, knapp östlich der chilenischen Grenze – eher ein riesiges braun-weißes Massiv als eine schlanke Spitze. Auf Flügen zwischen Santiago und Mendoza taucht er oft neben der Tragfläche auf, kaum vier Kilometer unter Ihnen.",
+    "s": "Der Aconcagua ist mit 6.959 m der höchste Berg außerhalb Asiens und der Gipfel der West- wie der Südhalbkugel. Er erhebt sich in Argentinien, knapp östlich der chilenischen Grenze – eher ein riesiges braun-weißes Massiv als eine schlanke Spitze. Auf Flügen zwischen Santiago und Mendoza taucht er oft neben der Tragfläche auf, kaum vier Kilometer unter der Reiseflughöhe.",
     "w": "Ein gewaltiger Gipfel mit weißer Haube über den trockenen braunen Andenkämmen, knapp nördlich der Strecke Santiago–Mendoza.",
     "f": [
       "Matthias Zurbriggen gelang 1897 die erste dokumentierte Besteigung.",
@@ -915,7 +915,7 @@
   },
   "Q5881339": {
     "t": "Benannt nach dem Piloten des ersten Antarktis-Überflugs",
-    "s": "Dieses weite Eisplateau in der Westantarktis trägt den Namen von Herbert Hollick-Kenyon, der 1935 Lincoln Ellsworth als Erster quer über den Kontinent flog. Die Überquerung dauerte rund zwei Wochen, weil die beiden mehrmals auf dem offenen Eis landen mussten, um Stürme abzuwarten. Unter Ihnen liegt eine endlose, sanft gewellte weiße Weite, kaum ein Fels in Sicht.",
+    "s": "Dieses weite Eisplateau in der Westantarktis trägt den Namen von Herbert Hollick-Kenyon, der 1935 Lincoln Ellsworth als Erster quer über den Kontinent flog. Die Überquerung dauerte rund zwei Wochen, weil die beiden mehrmals auf dem offenen Eis landen mussten, um Stürme abzuwarten. Von oben ist es eine endlose, sanft gewellte weiße Weite, kaum ein Fels in Sicht.",
     "w": "Ein konturloses, sanft gewelltes weißes Plateau zwischen dem Ellsworthgebirge und den Bergketten des Marie-Byrd-Lands.",
     "f": [
       "Auf dem Flug von 1935 ging kurz vor der Walbucht der Treibstoff aus, und die beiden Männer liefen das letzte Stück zu Fuß.",

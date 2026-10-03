@@ -13,7 +13,13 @@ of an encyclopedia. Every entry answers three questions: *why should I look?*,
   with "X is a city in Y" / "X — это город в Y".
 - The view from 10–11 km is the frame: shapes, colours, scale, what stands out,
   how it looks at dawn or at night, in winter or summer. Cruise altitude is
-  about 11,000 m — useful for comparisons ("the summit is still 5 km below you").
+  about 11,000 m — useful for comparisons ("the summit is still 5 km below
+  cruising height").
+- Never place the reader. A card is often read when the place is 150 km off to
+  the side, ahead, behind, or before the flight, so no "below you", "you are
+  over", "where you are now", "X km below you" / «под вами», «где вы сейчас».
+  Say "here", "from the air", "below cruising height" / «здесь», «сверху»,
+  «ниже эшелона».
 - One idea per sentence. No lists of dates. No superlatives unless certain.
 - Russian is written natively (not translated from English): «ёлочки», ё where
   it belongs, «вы» lowercase, numbers with a thin space (8 848 м).
@@ -46,7 +52,7 @@ File format — one JSON object keyed by the place `key` from the input file:
 {
   "Q39231": {
     "t": "Japan's near-perfect cone, alone on the plain",
-    "s": "From cruise height Fuji looks drawn with a compass: a lone, symmetrical cone rising from flat land, white on top for much of the year. It is a volcano that last erupted in 1707, and its summit at 3,776 m is still about seven kilometres below you.",
+    "s": "From cruise height Fuji looks drawn with a compass: a lone, symmetrical cone rising from flat land, white on top for much of the year. It is a volcano that last erupted in 1707, and its summit at 3,776 m is still about seven kilometres below cruising height.",
     "w": "A lone white-capped cone standing apart from the hills, south-west of Tokyo.",
     "f": [
       "In 1707 its last eruption dusted Edo — today's Tokyo — with ash, about 100 km away.",
@@ -64,7 +70,7 @@ The same entry in Russian (`ru/…`):
 {
   "Q39231": {
     "t": "Почти идеальный конус посреди равнины",
-    "s": "С эшелона Фудзи будто начерчена циркулем: одинокий правильный конус над плоской равниной, большую часть года с белой шапкой. Это вулкан — последний раз он извергался в 1707 году, а его вершина (3 776 м) всё равно почти на семь километров ниже вас.",
+    "s": "С эшелона Фудзи будто начерчена циркулем: одинокий правильный конус над плоской равниной, большую часть года с белой шапкой. Это вулкан — последний раз он извергался в 1707 году, а его вершина (3 776 м) всё равно почти на семь километров ниже эшелона.",
     "w": "Одинокий конус с белой вершиной в стороне от холмов, к юго-западу от Токио.",
     "f": [
       "В 1707 году пепел последнего извержения засыпал Эдо — нынешний Токио — в сотне километров от вулкана.",

@@ -1,7 +1,7 @@
 {
   "Q7296": {
     "t": "El techo de África, una isla de nieve sobre la llanura",
-    "s": "El Kilimanjaro no pertenece a ninguna cordillera: se alza solo, un volcán ancho y oscuro que brota de la sabana. Su cima, el pico Uhuru en el cono Kibo, mide 5895 m: es el techo de África y, aun así, queda unos cinco kilómetros por debajo de ti. Busca el borde blanco de hielo del Kibo, que mengua año tras año pero sigue ahí, a solo tres grados al sur del ecuador.",
+    "s": "El Kilimanjaro no pertenece a ninguna cordillera: se alza solo, un volcán ancho y oscuro que brota de la sabana. Su cima, el pico Uhuru en el cono Kibo, mide 5895 m: es el techo de África y, aun así, queda unos cinco kilómetros por debajo de la altitud de crucero. Busca el borde blanco de hielo del Kibo, que mengua año tras año pero sigue ahí, a solo tres grados al sur del ecuador.",
     "w": "Una enorme cúpula solitaria de cima plana veteada de blanco, con el pico dentado del Mawenzi al este, junto a la frontera con Kenia.",
     "f": [
       "El Kilimanjaro está formado por tres conos volcánicos: Kibo, Mawenzi y Shira.",
@@ -19,7 +19,7 @@
   },
   "Q39231": {
     "t": "El volcán solitario de Japón, blanco y casi simétrico",
-    "s": "En un día claro, el Fuji es inconfundible: un cono ancho y regular que se alza solo al oeste de Tokio, con las laderas altas blancas de otoño a primavera. Su última erupción fue en 1707. La cumbre, de 3776 m, queda a unos siete kilómetros por debajo de ti, y en verano la nieve se reduce a finas vetas en las quebradas y deja ver una montaña oscura, color ceniza.",
+    "s": "En un día claro, el Fuji es inconfundible: un cono ancho y regular que se alza solo al oeste de Tokio, con las laderas altas blancas de otoño a primavera. Su última erupción fue en 1707. La cumbre, de 3776 m, queda a unos siete kilómetros por debajo de la altitud de crucero, y en verano la nieve se reduce a finas vetas en las quebradas y deja ver una montaña oscura, color ceniza.",
     "w": "Un cono solitario de cima nevada, a unos 100 km al suroeste de Tokio, con pequeños lagos en hilera en su falda norte.",
     "f": [
       "Los cinco lagos del pie norte del Fuji se formaron donde antiguas coladas de lava represaron los valles.",
@@ -36,7 +36,7 @@
     }
   },
   "Q513": {
-    "t": "La cima del mundo, solo unos 2 km por debajo de ti",
+    "t": "La cima del mundo, solo unos 2 km bajo la altitud de crucero",
     "s": "Desde el aire, el Everest rara vez parece el más alto: se esconde entre vecinos gigantes, una pirámide oscura a menudo con un penacho de nieve que la corriente en chorro empuja al este. Su cima, de 8848 m, está solo unos dos kilómetros por debajo de la altitud de crucero. La roca de la cumbre es caliza formada en el fondo de un mar antiguo y elevada cuando la India chocó contra Asia.",
     "w": "Una pirámide oscura de tres caras, a menudo con un penacho de nieve, sobre los glaciares de la frontera entre Nepal y el Tíbet.",
     "f": [
@@ -73,7 +73,7 @@
   },
   "Q1374": {
     "t": "El diente más afilado de los Alpes, a los cuatro vientos",
-    "s": "Incluso desde la altitud de crucero, el Matterhorn, o Cervino, parece tallado: una pirámide ganchuda cuyas cuatro caras miran casi exactamente al norte, sur, este y oeste. Se alza en la frontera suizo-italiana, sobre Zermatt: 4478 m, unos seis kilómetros y medio por debajo de ti. En una mañana de sol, la cara este se ilumina mientras la norte sigue en sombra, y el pico parece cortado en dos.",
+    "s": "Incluso desde la altitud de crucero, el Matterhorn, o Cervino, parece tallado: una pirámide ganchuda cuyas cuatro caras miran casi exactamente al norte, sur, este y oeste. Se alza en la frontera suizo-italiana, sobre Zermatt: 4478 m, unos seis kilómetros y medio por debajo de la altitud de crucero. En una mañana de sol, la cara este se ilumina mientras la norte sigue en sombra, y el pico parece cortado en dos.",
     "w": "Una pirámide de roca solitaria y ganchuda entre glaciares, al oeste del gran macizo del Monte Rosa, en la frontera suizo-italiana.",
     "f": [
       "La cordada de Edward Whymper hizo la primera ascensión el 14 de julio de 1865.",
@@ -109,7 +109,7 @@
   },
   "Q583": {
     "t": "La cúpula más alta de Europa occidental, blanca todo el año",
-    "s": "El Mont Blanc, más que una aguja, es un enorme hombro blanco: una ancha cúpula de hielo sobre un macizo que comparten Francia, Italia y Suiza. Con unos 4807 m es el punto más alto de los Alpes, y aun así queda más de seis kilómetros por debajo de ti. Por el norte, largos glaciares descienden hacia el valle de Chamonix; por el lado italiano, las paredes caen a pico sobre Courmayeur.",
+    "s": "El Mont Blanc, más que una aguja, es un enorme hombro blanco: una ancha cúpula de hielo sobre un macizo que comparten Francia, Italia y Suiza. Con unos 4807 m es el punto más alto de los Alpes, y aun así queda más de seis kilómetros por debajo de la altitud de crucero. Por el norte, largos glaciares descienden hacia el valle de Chamonix; por el lado italiano, las paredes caen a pico sobre Courmayeur.",
     "w": "Una ancha cúpula blanca y redondeada sobre valles profundos, con largas lenguas de glaciar que bajan hacia Chamonix por el noroeste.",
     "f": [
       "Jacques Balmat y Michel-Gabriel Paccard alcanzaron la cima por primera vez en 1786.",
@@ -217,7 +217,7 @@
   },
   "Q130736": {
     "t": "La «montaña desnuda» en el extremo occidental del Himalaya",
-    "s": "El Nanga Parbat se alza aparte: es el ochomil más occidental del Himalaya, con el Indo rodeando su pie. Su nombre significa «montaña desnuda», quizá por sus paredes, demasiado empinadas para la nieve. La cara Rupal, en el lado sur, se eleva unos 4600 m del valle a la cumbre: una de las paredes más altas de la Tierra. La cima, de 8125 m, queda a menos de tres kilómetros por debajo de ti.",
+    "s": "El Nanga Parbat se alza aparte: es el ochomil más occidental del Himalaya, con el Indo rodeando su pie. Su nombre significa «montaña desnuda», quizá por sus paredes, demasiado empinadas para la nieve. La cara Rupal, en el lado sur, se eleva unos 4600 m del valle a la cumbre: una de las paredes más altas de la Tierra. La cima, de 8125 m, queda a menos de tres kilómetros bajo la altitud de crucero.",
     "w": "Un gigantesco macizo aislado al sur de una curva del Indo, con una pared sur vertical y glaciares que se derraman hacia el norte.",
     "f": [
       "Hermann Buhl hizo la primera ascensión en 1953 y llegó solo a la cima.",
@@ -271,7 +271,7 @@
   },
   "Q179842": {
     "t": "El techo del mundo, a más de 4500 m de media",
-    "s": "Debajo tienes la más alta de las grandes mesetas de la Tierra, con una altitud media de más de 4500 m y unos 2,5 millones de km². Desde arriba parece otro planeta: llanuras pardas y ocres, lagos turquesa de orillas blancas de sal, cordilleras nevadas que la cruzan como trazadas con regla. Los grandes ríos de Asia —entre ellos el Yangtsé, el Amarillo, el Mekong, el Indo y el Brahmaputra— nacen aquí arriba.",
+    "s": "Aquí se extiende la más alta de las grandes mesetas de la Tierra, con una altitud media de más de 4500 m y unos 2,5 millones de km². Desde arriba parece otro planeta: llanuras pardas y ocres, lagos turquesa de orillas blancas de sal, cordilleras nevadas que la cruzan como trazadas con regla. Los grandes ríos de Asia —entre ellos el Yangtsé, el Amarillo, el Mekong, el Indo y el Brahmaputra— nacen aquí arriba.",
     "w": "Altiplano pardo y desnudo con lagos turquesa dispersos y crestas blancas; el Himalaya forma su afilado borde sur.",
     "f": [
       "Guarda tanto hielo glaciar que a menudo se la llama el Tercer Polo.",
@@ -325,7 +325,7 @@
   },
   "Q1537198": {
     "t": "Cumbres gemelas de hielo sobre el valle de Suru, en Ladakh",
-    "s": "El Nun y su gemelo, el Kun, forman el macizo Nun Kun, un nudo de hielo del Himalaya occidental en Ladakh. El Nun es el más alto de los dos, con 7135 m, solo unos cuatro kilómetros por debajo de ti. Entre ambas cimas, una meseta nevada de unos 4 km de largo parece desde arriba una silla blanca tendida entre dos picos. Los glaciares bajan por ambos lados hacia el valle de Suru.",
+    "s": "El Nun y su gemelo, el Kun, forman el macizo Nun Kun, un nudo de hielo del Himalaya occidental en Ladakh. El Nun es el más alto de los dos, con 7135 m, solo unos cuatro kilómetros bajo la altitud de crucero. Entre ambas cimas, una meseta nevada de unos 4 km de largo parece desde arriba una silla blanca tendida entre dos picos. Los glaciares bajan por ambos lados hacia el valle de Suru.",
     "w": "Dos cumbres blancas unidas por una meseta nevada, con largos glaciares que bajan hasta un valle verde a sus pies.",
     "f": [
       "Claude Kogan y Pierre Vittoz, de una expedición franco-suiza, escalaron el Nun por primera vez en 1953.",
@@ -718,7 +718,7 @@
   },
   "Q39739": {
     "t": "El pico más alto de la Tierra fuera de Asia",
-    "s": "El Aconcagua es la montaña más alta fuera de Asia, con 6959 m, y la cima de los hemisferios occidental y sur. Se alza en Argentina, justo al este de la frontera chilena: un enorme macizo pardo y blanco, más que una aguja esbelta. En los vuelos entre Santiago y Mendoza suele asomar junto al ala, apenas cuatro kilómetros por debajo de ti.",
+    "s": "El Aconcagua es la montaña más alta fuera de Asia, con 6959 m, y la cima de los hemisferios occidental y sur. Se alza en Argentina, justo al este de la frontera chilena: un enorme macizo pardo y blanco, más que una aguja esbelta. En los vuelos entre Santiago y Mendoza suele asomar junto al ala, apenas cuatro kilómetros por debajo de la altitud de crucero.",
     "w": "Un pico macizo de cumbre blanca sobre las secas crestas pardas de los Andes, justo al norte de la ruta entre Santiago y Mendoza.",
     "f": [
       "Matthias Zurbriggen hizo la primera ascensión registrada en 1897.",
@@ -915,7 +915,7 @@
   },
   "Q5881339": {
     "t": "Con el nombre del piloto que cruzó primero la Antártida",
-    "s": "Esta ancha meseta de hielo de la Antártida Occidental lleva el nombre de Herbert Hollick-Kenyon, que en 1935 llevó a Lincoln Ellsworth en avión a través del continente por primera vez. La travesía duró unas dos semanas, porque tuvieron que aterrizar varias veces en pleno hielo para esperar a que pasaran las tormentas. Debajo tienes una extensión blanca sin fin, suavemente ondulada, casi sin una roca a la vista.",
+    "s": "Esta ancha meseta de hielo de la Antártida Occidental lleva el nombre de Herbert Hollick-Kenyon, que en 1935 llevó a Lincoln Ellsworth en avión a través del continente por primera vez. La travesía duró unas dos semanas, porque tuvieron que aterrizar varias veces en pleno hielo para esperar a que pasaran las tormentas. Desde arriba es una extensión blanca sin fin, suavemente ondulada, casi sin una roca a la vista.",
     "w": "Una meseta blanca sin rasgos y suavemente ondulada entre los montes Ellsworth y las cordilleras de la Tierra de Marie Byrd.",
     "f": [
       "En el vuelo de 1935 se acabó el combustible antes de la bahía de las Ballenas, y los dos hombres recorrieron a pie el último tramo.",
@@ -1458,7 +1458,7 @@
   },
   "ne-gl-prince-of-wales-icefield": {
     "t": "Un vasto manto de hielo en Ellesmere, frente a Groenlandia",
-    "s": "El campo de hielo Príncipe de Gales se extiende por el lado oriental del centro de la isla de Ellesmere: unos 20 000 km² de hielo, más que muchos países pequeños. Al otro lado de los canales, al este, está Groenlandia. Bajo el ala se abre una inmensa meseta blanca partida por glaciares que serpentean hasta el mar y sueltan icebergs en estrechos atascados de hielo.",
+    "s": "El campo de hielo Príncipe de Gales se extiende por el lado oriental del centro de la isla de Ellesmere: unos 20 000 km² de hielo, más que muchos países pequeños. Al otro lado de los canales, al este, está Groenlandia. Desde el aire es una inmensa meseta blanca partida por glaciares que serpentean hasta el mar y sueltan icebergs en estrechos atascados de hielo.",
     "w": "Una inmensa meseta blanca en el este de Ellesmere, con glaciares que serpentean hacia los canales marinos que la separan de Groenlandia.",
     "f": [
       "Es uno de los mayores campos de hielo del Ártico canadiense.",
@@ -2134,7 +2134,7 @@
   },
   "Q482274": {
     "t": "La torre de agua de Camerún, que vierte en tres direcciones",
-    "s": "Por el centro de Camerún se extiende la meseta de Adamaua, tierras altas de hierba a unos 1000 m, salpicadas de viejos conos volcánicos y lagos de cráter. A menudo se la llama la torre de agua de Camerún: sus ríos van al norte, al lago Chad; al oeste, al Níger por el Benue, y al sur, hacia el Atlántico y la cuenca del Congo. Debajo: sabana verde, valles boscosos y tierra roja.",
+    "s": "Por el centro de Camerún se extiende la meseta de Adamaua, tierras altas de hierba a unos 1000 m, salpicadas de viejos conos volcánicos y lagos de cráter. A menudo se la llama la torre de agua de Camerún: sus ríos van al norte, al lago Chad; al oeste, al Níger por el Benue, y al sur, hacia el Atlántico y la cuenca del Congo. Desde el aire: sabana verde, valles boscosos y tierra roja.",
     "w": "Unas tierras altas verdes y onduladas de sabana y valles boscosos, salpicadas de pequeños conos volcánicos y lagos de cráter.",
     "f": [
       "Debe su nombre a Modibo Adama, un líder fulani que fundó aquí un emirato a principios del siglo XIX.",
@@ -2168,7 +2168,7 @@
   },
   "Q1321468": {
     "t": "Una vieja meseta gastada, llena de cuevas y manantiales",
-    "s": "Los Ozarks no son en realidad montañas, sino una vieja meseta que los ríos han tallado en colinas boscosas. La caliza del subsuelo está plagada de cuevas y manantiales, algunos de los mayores de Norteamérica. Abajo el paisaje es verde oscuro y arrugado, con ríos claros y sinuosos y grandes embalses ramificados: valles inundados con forma de tinta derramada.",
+    "s": "Los Ozarks no son en realidad montañas, sino una vieja meseta que los ríos han tallado en colinas boscosas. La caliza del subsuelo está plagada de cuevas y manantiales, algunos de los mayores de Norteamérica. Desde arriba el paisaje es verde oscuro y arrugado, con ríos claros y sinuosos y grandes embalses ramificados: valles inundados con forma de tinta derramada.",
     "w": "Colinas arrugadas de bosque verde oscuro, cortadas por ríos sinuosos, con grandes embalses de formas ramificadas como dedos.",
     "f": [
       "Misuri, en gran parte dentro de los Ozarks, tiene más de 7000 cuevas conocidas.",
@@ -2239,7 +2239,7 @@
   },
   "Q1126906": {
     "t": "Suaves colinas de tierra negra, donde nacen grandes ríos",
-    "s": "Al sur de Moscú, el terreno se hincha suavemente en la meseta Central Rusa: colinas de apenas un par de cientos de metros, pero importantes en el mapa, porque aquí nacen el Oká, el Don y afluentes del Dniéper. Entre sus suelos está el rico chernozem, la tierra negra. Debajo se extiende un mosaico de campos enormes cortados por barrancos ramificados y arbolados y, al sur, inmensas minas de hierro a cielo abierto.",
+    "s": "Al sur de Moscú, el terreno se hincha suavemente en la meseta Central Rusa: colinas de apenas un par de cientos de metros, pero importantes en el mapa, porque aquí nacen el Oká, el Don y afluentes del Dniéper. Entre sus suelos está el rico chernozem, la tierra negra. Desde arriba se ve un mosaico de campos enormes cortados por barrancos ramificados y arbolados y, al sur, inmensas minas de hierro a cielo abierto.",
     "w": "Un inmenso mosaico de campos cortados por barrancos ramificados y arbolados, con enormes minas grises a cielo abierto en el sur.",
     "f": [
       "La anomalía magnética de Kursk, bajo ella, es uno de los mayores yacimientos de hierro de la Tierra.",
@@ -2293,7 +2293,7 @@
   },
   "Q874816": {
     "t": "Un plato llano de arrozales junto al Mekong",
-    "s": "El noreste de Tailandia descansa sobre la meseta de Khorat, un enorme plato poco profundo a solo unos 100–200 m sobre el mar, levemente inclinado hacia el Mekong. Sus dos ríos principales, el Mun y el Chi, serpentean por ella hasta unirse al Mekong en la frontera laosiana. Abajo hay un mosaico de arrozales, verde intenso en la estación de lluvias y dorado y pardo en la seca, salpicado de aldeas y estanques.",
+    "s": "El noreste de Tailandia descansa sobre la meseta de Khorat, un enorme plato poco profundo a solo unos 100–200 m sobre el mar, levemente inclinado hacia el Mekong. Sus dos ríos principales, el Mun y el Chi, serpentean por ella hasta unirse al Mekong en la frontera laosiana. Desde arriba se ve un mosaico de arrozales, verde intenso en la estación de lluvias y dorado y pardo en la seca, salpicado de aldeas y estanques.",
     "w": "Un mosaico llano de arrozales y estanques, rodeado de colinas bajas, con el Mekong curvándose por sus bordes norte y este.",
     "f": [
       "Bajo la meseta hay gruesas capas de sal gema, y aún se produce sal allí.",
