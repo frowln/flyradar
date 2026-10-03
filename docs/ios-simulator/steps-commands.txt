@@ -2,6 +2,8 @@ OK   {"defineVariablesCommand": {"env": {"MAESTRO_DRIVER_STARTUP_TIMEOUT": "6000
 OK   {"applyConfigurationCommand": {"config": {"appId": "com.skyatlas.app"}, "optional": false}} 
 OK   {"tapOnElement": {"selector": {"textRegex": "во весь экран", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "optio 
 OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+SKIP {"runFlowCommand": {"commands": [{"tapOnElement": {"selector": {"textRegex": "во весь экран", "optional": false}, "retryIfNoChange": false, "waitUntilVisible":  
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
 OK   {"takeScreenshotCommand": {"path": "10-map-full", "optional": false}} 
 OK   {"tapOnElement": {"selector": {"textRegex": "Карта: рельеф", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "optio 
 OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
@@ -20,7 +22,32 @@ OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro 
 OK   {"takeScreenshotCommand": {"path": "13-map-zoom-out", "optional": false}} 
 OK   {"tapOnElement": {"selector": {"textRegex": "Приблизить", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "optional 
 OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
-OK   {"swipeCommand": {"startRelative": "50%, 55%", "endRelative": "12%, 28%", "duration": 900, "optional": false}} 
+OK   {"swipeCommand": {"startRelative": "55%, 30%", "endRelative": "15%, 18%", "duration": 900, "optional": false}} 
 OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
 OK   {"takeScreenshotCommand": {"path": "14-map-dragged", "optional": false}} 
-FAIL {"tapOnElement": {"selector": {"textRegex": "Вернуть карту к самолёту и следить за ним", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false Element not found: Text matching regex: Вернуть карту к самолёту и следить за ним
+OK   {"tapOnElement": {"selector": {"textRegex": "Вернуть карту к самолёту и следить за ним", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"takeScreenshotCommand": {"path": "15-map-follow", "optional": false}} 
+OK   {"tapOnElement": {"selector": {"textRegex": "Карта: спутник", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "opti 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"takeScreenshotCommand": {"path": "16-map-satellite", "optional": false}} 
+OK   {"tapOnElement": {"selector": {"textRegex": "Вид из-за самолёта, по курсу", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress" 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"takeScreenshotCommand": {"path": "17-map-3d-satellite", "optional": false}} 
+OK   {"tapOnElement": {"selector": {"textRegex": "Карта: рельеф", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "optio 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"takeScreenshotCommand": {"path": "18-map-3d-relief", "optional": false}} 
+OK   {"tapOnElement": {"selector": {"textRegex": "Показать весь маршрут", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"takeScreenshotCommand": {"path": "19-map-route", "optional": false}} 
+OK   {"tapOnElement": {"selector": {"textRegex": "Вернуть карту к самолёту и следить за ним", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"tapOnElement": {"selector": {"textRegex": "Вид из-за самолёта, по курсу", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress" 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"tapOnElement": {"selector": {"textRegex": "Карта: ночь", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "optiona 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"takeScreenshotCommand": {"path": "20-map-night", "optional": false}} 
+OK   {"tapOnElement": {"selector": {"textRegex": "Карта: рельеф", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "optio 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 
+OK   {"tapOnElement": {"selector": {"textRegex": "свернуть", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "optional": 
+OK   {"runScriptCommand": {"script": "// A pause the viewer can follow: Maestro itself has no sleep. MS comes from the flow.\nvar until = new Date().getTime() + Numb 

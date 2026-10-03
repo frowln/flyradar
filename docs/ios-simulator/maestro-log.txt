@@ -2,13 +2,13 @@
 Requested 1 shards, but it cannot be higher than the number of flows (0). Will use 1 shards instead.
 
 Waiting for flows to complete...
-[Passed] 1-start (1m 57s)
-[Failed] 2-map (2m 12s) (Element not found: Text matching regex: Вернуть карту к самолёту и следить за ним)
+[Passed] 1-start (2m 17s)
+[Passed] 2-map (4m 30s)
 [Passed] 3-scrub (39s)
-[Failed] 4-panel (1m 18s) (Element not found: Text matching regex: .*, (слева|справа), .*, Index: 0)
-[Passed] 5-arrival (3m 1s)
-[Passed] 6-atlas (1m 37s)
-[Failed] 7-people (1m 35s) (Element not found: Text matching regex: Назад)
+[Failed] 4-panel (2m 1s) (Element not found: Text matching regex: Назад)
+[Passed] 5-arrival (1m 6s)
+[Passed] 6-atlas (1m 44s)
+[Passed] 7-people (1m 19s)
 
-3/7 Flows Failed
+1/7 Flow Failed
 

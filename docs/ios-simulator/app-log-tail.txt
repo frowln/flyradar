@@ -1,200 +1,200 @@
-    traverseFromParentsToChildren = 1;
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:1f5e2] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 37521, elementOrHash.elementID: 4436595568.3. Attributes: (
+    "XC_kAXXCAttributeElementType",
+    "XC_kAXXCAttributeElementBaseType",
+    "XC_kAXXCAttributeTraits",
+    "XC_kAXXCAttributeAutomationType"
+)
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeTraits, XC_kAXXCAttributeAutomationType for AX element pid: 37521, elementOrHash.elementID: 4436595568.3
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
+2026-10-03 18:50:02.768 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Replying with attribute values: {
+    "XC_kAXXCAttributeAutomationType" = 2;
+    "XC_kAXXCAttributeElementBaseType" = UIWindow;
+    "XC_kAXXCAttributeElementType" = UIWindow;
+    "XC_kAXXCAttributeTraits" = 0;
 }
-2026-10-03 18:06:28.557 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 18:06:28.605 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e2f030> {pid=53417} {uid=[ID:1 hash:0x0]}
-2026-10-03 18:06:28.605 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 18:06:28.605 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.05s
-2026-10-03 18:06:28.605 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 18:06:28.606 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 53417
-)} (error: (null))
-2026-10-03 18:06:28.607 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e88180> (error: (null))
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 18:06:28.900 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 18:06:28.901 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000e68000> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
-2026-10-03 18:06:28.901 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 18:06:28.901 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
-    attributes =     (
-        5003,
-        5004,
-        5002,
-        5019,
-        5058,
-        2004
-    );
-    maxArrayCount = 2147483647;
-    maxChildren = 2147483647;
-    maxDepth = 2147483647;
-    snapshotKeyHonorModalViews = 0;
-    traverseFromParentsToChildren = 1;
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 37521, elementOrHash.elementID: 4436595568.3. Attributes: (
+    "XC_kAXXCAttributeSystemAutomationProperties"
+)
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeSystemAutomationProperties for AX element pid: 37521, elementOrHash.elementID: 4436595568.3
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
+2026-10-03 18:50:02.771 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Replying with attribute values: {
 }
-2026-10-03 18:06:28.901 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 18:06:28.978 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e88090> {pid=53417} {uid=[ID:1 hash:0x0]}
-2026-10-03 18:06:28.978 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 18:06:28.978 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.08s
-2026-10-03 18:06:28.979 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 18:06:28.981 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 53417
-)} (error: (null))
-2026-10-03 18:06:28.981 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e585a0> (error: (null))
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 18:06:29.276 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 18:06:29.277 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000e5a8e0> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
-2026-10-03 18:06:29.277 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 18:06:29.277 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
-    attributes =     (
-        5003,
-        5004,
-        5002,
-        5019,
-        5058,
-        2004
-    );
-    maxArrayCount = 2147483647;
-    maxChildren = 2147483647;
-    maxDepth = 2147483647;
-    snapshotKeyHonorModalViews = 0;
-    traverseFromParentsToChildren = 1;
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Received attributes request for element: AX element pid: 37521, elementOrHash.elementID: 4436595568.3. Attributes: (
+    "XC_kAXXCAttributeFrame",
+    "XC_kAXXCAttributeWindowDisplayId",
+    "XC_kAXXCAttributeWindowContextId"
+)
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Fetching AX attributes XC_kAXXCAttributeFrame, XC_kAXXCAttributeWindowDisplayId, XC_kAXXCAttributeWindowContextId for AX element pid: 37521, elementOrHash.elementID: 4436595568.3
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:19f01] [com.apple.dt.xctest:Default] Got attributes, transferring to dictionary for return.
+2026-10-03 18:50:02.772 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Replying with attribute values: {
+    "XC_kAXXCAttributeFrame" =     {
+        Height = 874;
+        Width = 402;
+        X = 0;
+        Y = 0;
+    };
+    "XC_kAXXCAttributeWindowContextId" = 4068913938;
+    "XC_kAXXCAttributeWindowDisplayId" = 1;
 }
-2026-10-03 18:06:29.277 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 18:06:29.351 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e8c090> {pid=53417} {uid=[ID:1 hash:0x0]}
-2026-10-03 18:06:29.351 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 18:06:29.351 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.07s
-2026-10-03 18:06:29.351 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 18:06:29.352 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 53417
-)} (error: (null))
-2026-10-03 18:06:29.352 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e8c270> (error: (null))
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 18:06:29.711 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 18:06:29.712 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000ea0060> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
-2026-10-03 18:06:29.712 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 18:06:29.712 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
-    attributes =     (
-        5003,
-        5004,
-        5002,
-        5019,
-        5058,
-        2004
-    );
-    maxArrayCount = 2147483647;
-    maxChildren = 2147483647;
-    maxDepth = 2147483647;
-    snapshotKeyHonorModalViews = 0;
-    traverseFromParentsToChildren = 1;
-}
-2026-10-03 18:06:29.712 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 18:06:29.767 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e56700> {pid=53417} {uid=[ID:1 hash:0x0]}
-2026-10-03 18:06:29.767 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 18:06:29.767 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.06s
-2026-10-03 18:06:29.767 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 18:06:29.768 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 53417
-)} (error: (null))
-2026-10-03 18:06:29.768 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e98180> (error: (null))
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 18:06:30.083 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000e51c80> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
-2026-10-03 18:06:30.084 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 18:06:30.084 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
-    attributes =     (
-        5003,
-        5004,
-        5002,
-        5019,
-        5058,
-        2004
-    );
-    maxArrayCount = 2147483647;
-    maxChildren = 2147483647;
-    maxDepth = 2147483647;
-    snapshotKeyHonorModalViews = 0;
-    traverseFromParentsToChildren = 1;
-}
-2026-10-03 18:06:30.084 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 18:06:30.136 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e98090> {pid=53417} {uid=[ID:1 hash:0x0]}
-2026-10-03 18:06:30.136 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 18:06:30.136 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.05s
-2026-10-03 18:06:30.136 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 18:06:30.137 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 53417
-)} (error: (null))
-2026-10-03 18:06:30.137 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e88180> (error: (null))
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Received request to fetch matches for query:
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Evaluating query:
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting root element snapshot
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Getting snapshot for App element pid: 53417 for query
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query requires iOS snapshot attributes .
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: about to CFRunLoopPerform
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting with 30.00s responsiveness timeout
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: inside CFRunLoopPerform
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[MT]: MT responded in time (won the race to the busy flag)
-2026-10-03 18:06:30.456 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] XCTPerformOnMainRunLoop[not MT]: waiting 60.00s for work to complete
-2026-10-03 18:06:30.457 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got main window <AXUIElementRef 0x600000e8c120> {pid=53417} {uid=[ID:3 hash:0x107b0b7a0]}
-2026-10-03 18:06:30.457 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with attributes XC_kAXXCAttributeElementType, XC_kAXXCAttributeElementBaseType, XC_kAXXCAttributeParent, XC_kAXXCAttributeIdentifier, XC_kAXXCAttributeAutomationType, XC_kAXXCAttributeTraits
-2026-10-03 18:06:30.457 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Capturing hierarchy with parameters {
-    attributes =     (
-        5003,
-        5004,
-        5002,
-        5019,
-        5058,
-        2004
-    );
-    maxArrayCount = 2147483647;
-    maxChildren = 2147483647;
-    maxDepth = 2147483647;
-    snapshotKeyHonorModalViews = 0;
-    traverseFromParentsToChildren = 1;
-}
-2026-10-03 18:06:30.457 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Snapshot attributes 5003, 5004, 5002, 5019, 5058, 2004
-2026-10-03 18:06:30.500 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got snapshot for <AXUIElementRef 0x600000e88090> {pid=53417} {uid=[ID:1 hash:0x0]}
-2026-10-03 18:06:30.501 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Got app orientation 0
-2026-10-03 18:06:30.501 Df SkyAtlas[53417:269d9] [com.apple.dt.xctest:Default] Captured accessibility snapshot data in 0.04s
-2026-10-03 18:06:30.501 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Found main window: Window
-2026-10-03 18:06:30.502 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Query  found matching snapshots: {(
-    Application, pid: 53417
-)} (error: (null))
-2026-10-03 18:06:30.502 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Replying to query  with results: <XCTElementQueryResults: 0x600000e53f30> (error: (null))
-2026-10-03 18:06:32.330 Df SkyAtlas[53417:2c2b0] [com.apple.xpc:connection] [0x107c13e10] invalidated because the client process (pid 51570) either cancelled the connection or exited
-2026-10-03 18:06:32.331 Df SkyAtlas[53417:2c2b0] [com.apple.dt.xctest:Default] Connection from client with pid 51570 was invalidated.
-2026-10-03 18:06:32.381 Df SkyAtlas[53417:2c2b0] [com.apple.dt.automationmode:Default] Handling posted change notification (com.apple.dt.automationmode.state-changed)
-2026-10-03 18:06:32.389 Df SkyAtlas[53417:2c2b0] [com.apple.dt.automationmode:Default] XAM shared observer connecting to com.apple.dt.automationmode.reader
-2026-10-03 18:06:32.393 Df SkyAtlas[53417:2c2b0] [com.apple.xpc:connection] [0x107cfb8f0] activating connection: mach=true listener=false peer=false name=com.apple.dt.automationmode.reader
-2026-10-03 18:06:32.399 Df SkyAtlas[53417:2c2b0] [com.apple.xpc:connection] [0x107cfb8f0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()
-2026-10-03 18:06:32.399 Df SkyAtlas[53417:2c2b0] [com.apple.dt.automationmode:Default] Comparing previous enabled state (1) to current enabled state (0)
-2026-10-03 18:06:32.403 Df SkyAtlas[53417:2f32b] [com.apple.dt.xctest:Default] Automation Mode has been disabled, existing connections will be invalidated.
-2026-10-03 18:06:39.397 Df SkyAtlas[53417:26a62] [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key LSSessionKey(system: 0 uid: 501)
+2026-10-03 18:50:02.791 Df SkyAtlas[37521:19f01] [com.apple.KeyboardArbiter:Client] TX focusApplication (peekAppEvent) stealKB:Y scene:com.skyatlas.app-default
+2026-10-03 18:50:02.792 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.792 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.792 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.808 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.809 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.809 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.819 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 0; ignoreInteractionEvents: 0, systemGestureStateChange: 1
+2026-10-03 18:50:02.820 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.820 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.821 Df SkyAtlas[37521:19f01] [com.apple.UIKit:UIPointerArbiter] Ignoring beginScrollingWithRegion: <UIPointerRegion: 0x60000224b700; rect = (0 0; 402 812); identifier = UIScrollView.scrollingPointerRegion> because pointer state is disabled
+2026-10-03 18:50:02.834 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.834 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.834 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.835 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.835 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.835 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.858 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.858 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.858 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.858 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.858 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.869 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.869 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.869 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.869 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.869 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.884 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.885 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.885 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.885 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.885 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.901 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.901 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.901 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.902 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.902 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.918 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.918 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.918 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.919 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.919 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.935 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.935 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.935 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.936 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.936 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.951 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.951 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.951 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.952 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.952 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.969 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.969 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.969 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.969 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.969 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.985 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:02.985 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:02.985 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:02.986 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:02.987 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.001 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.001 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.001 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.002 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.002 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.018 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.018 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.018 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.018 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.018 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.034 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.035 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.035 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.035 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.035 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.051 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.051 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.051 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.051 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.051 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.068 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.068 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.068 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.068 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.068 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.084 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.084 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.084 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.084 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.085 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.101 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.101 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.101 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.101 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.102 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.118 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.118 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.118 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.118 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.118 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.134 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.135 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.135 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.135 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.135 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.151 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.151 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.151 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.151 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.151 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.168 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.168 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.168 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.168 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.168 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.184 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.185 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.185 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.185 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.185 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.201 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.201 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.201 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.201 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.201 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.218 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.218 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.218 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.219 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.219 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.235 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Evaluating dispatch of UIEvent: 0x600003d13930; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0
+2026-10-03 18:50:03.236 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to windows: 1
+2026-10-03 18:50:03.236 Df SkyAtlas[37521:19f01] [com.apple.UIKit:EventDispatch] Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x108711370>; contextId: 0xF286B312
+2026-10-03 18:50:03.237 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.237 A  SkyAtlas[37521:19f01] (UIKitCore) send gesture actions
+2026-10-03 18:50:03.904 Df SkyAtlas[37521:19f01] [com.apple.UIKit:UIPointerArbiter] Ignoring endScrollingWithRegion: <UIPointerRegion: 0x60000224b700; rect = (0 0; 402 812); identifier = UIScrollView.scrollingPointerRegion> because scrollingRegion does not match: (null)
+2026-10-03 18:50:09.440 Df SkyAtlas[37521:1f5e2] [com.apple.xpc:connection] [0x108710a70] invalidated because the client process (pid 35402) either cancelled the connection or exited
+2026-10-03 18:50:09.447 Df SkyAtlas[37521:1f5e2] [com.apple.dt.xctest:Default] Connection from client with pid 35402 was invalidated.
+2026-10-03 18:50:09.562 Df SkyAtlas[37521:1f5e2] [com.apple.dt.automationmode:Default] Handling posted change notification (com.apple.dt.automationmode.state-changed)
+2026-10-03 18:50:09.575 Df SkyAtlas[37521:1f5e2] [com.apple.dt.automationmode:Default] XAM shared observer connecting to com.apple.dt.automationmode.reader
+2026-10-03 18:50:09.578 Df SkyAtlas[37521:1f5e2] [com.apple.xpc:connection] [0x108767e40] activating connection: mach=true listener=false peer=false name=com.apple.dt.automationmode.reader
+2026-10-03 18:50:09.584 Df SkyAtlas[37521:1f5e2] [com.apple.xpc:connection] [0x108767e40] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()
+2026-10-03 18:50:09.584 Df SkyAtlas[37521:1f5e2] [com.apple.dt.automationmode:Default] Comparing previous enabled state (1) to current enabled state (0)
+2026-10-03 18:50:09.585 Df SkyAtlas[37521:24099] [com.apple.dt.xctest:Default] Automation Mode has been disabled, existing connections will be invalidated.
+2026-10-03 18:50:20.419 Df SkyAtlas[37521:27ac3] [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key LSSessionKey(system: 0 uid: 501)
