@@ -23,6 +23,9 @@ jobs:
       group: ios-simulator-${{ github.ref }}
       cancel-in-progress: true
     runs-on: macos-15
+    # Writes the screenshots back to the branch (see the last step).
+    permissions:
+      contents: write
     timeout-minutes: 80
     env:
       SENTRY_DISABLE_AUTO_UPLOAD: 'true'
@@ -64,6 +67,7 @@ jobs:
           curl -fsSL "https://get.maestro.mobile.dev" | bash
           echo "$HOME/.maestro/bin" >> "$GITHUB_PATH"
       - name: Fly the demo on an iPhone simulator
+        id: demo
         working-directory: apps/mobile
         run: scripts/simulator-demo.sh ios/build/Build/Products/Release-iphonesimulator/SkyAtlas.app "$RUNNER_TEMP/demo"
       - name: Keep the video and screenshots
@@ -75,6 +79,42 @@ jobs:
             ${{ runner.temp }}/demo
             ~/.maestro/tests
           if-no-files-found: warn
+      # Artifacts live in blob storage that not every reviewer can reach; small
+      # copies of the screenshots and the step results go into the branch
+      # itself, under docs/ios-simulator/. Pushed with GITHUB_TOKEN, so the
+      # commit starts no new workflow runs.
+      - name: Screenshots into the branch
+        if: always() && github.event_name == 'push' && steps.demo.outcome != 'skipped'
+        env:
+          DEMO: ${{ runner.temp }}/demo
+          SHOTS: ${{ runner.temp }}/shots-small
+        run: |
+          mkdir -p "$SHOTS"
+          for f in "$DEMO"/shots/*.png; do
+            [ -f "$f" ] && sips -s format jpeg -s formatOptions 70 --resampleWidth 480 "$f" --out "$SHOTS/$(basename "$f" .png).jpg" >/dev/null
+          done
+          find ~/.maestro/tests -name '*.png' 2>/dev/null | while read -r f; do
+            sips -s format jpeg -s formatOptions 60 --resampleWidth 480 "$f" --out "$SHOTS/maestro-$(basename "$f" .png | tr ' ' '-').jpg" >/dev/null
+          done
+          cp "$DEMO/summary.txt" "$SHOTS/" 2>/dev/null || true
+          [ -f "$DEMO/maestro.log" ] && tail -c 150000 "$DEMO/maestro.log" > "$SHOTS/maestro.log"
+          # What was on screen, as text: the UI tree Maestro saw after each phase.
+          for t in "$DEMO"/tree/*.json; do
+            [ -f "$t" ] && python3 apps/mobile/scripts/ui-tree-text.py "$t" > "$SHOTS/tree-$(basename "$t" .json).txt" || true
+          done
+          echo "${GITHUB_SHA::7} · $(date -u '+%Y-%m-%d %H:%M UTC') · $(xcodebuild -version | head -1)" > "$SHOTS/BUILD.txt"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch --depth=1 origin "$GITHUB_REF_NAME"
+            git checkout -q -f -B ios-shots FETCH_HEAD
+            rm -rf docs/ios-simulator && mkdir -p docs/ios-simulator && cp -R "$SHOTS"/. docs/ios-simulator/
+            git add -A docs/ios-simulator
+            git commit -q -m "iOS simulator screenshots for ${GITHUB_SHA::7}" || exit 0
+            git push origin "HEAD:refs/heads/$GITHUB_REF_NAME" && exit 0
+            sleep 5
+          done
+          exit 1
       - name: Keep the simulator app
         uses: actions/upload-artifact@v4
         with:
