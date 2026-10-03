@@ -2158,5 +2158,2545 @@
         "Changchun"
       ]
     }
+  },
+  "siberian-trakt": {
+    "name": "Grande route de Sibérie (Trakt sibérien)",
+    "era": "XVIIIe – XIXe s.",
+    "t": "La route de poste à travers la Sibérie, avant le rail",
+    "s": "Avant le chemin de fer, c’était la route de la Sibérie. Dès le XVIIIe siècle, le Trakt sibérien allait de Moscou, par l’Oural, Tioumen, Tomsk et Irkoutsk, jusqu’à Kiakhta, à la frontière chinoise. Malles-poste, caravanes de thé et colons l’empruntaient, changeant de chevaux aux relais de poste. La route moderne et le chemin de fer suivent une grande partie de son tracé à travers bouleaux et taïga, toujours visible comme un mince fil.",
+    "w": "Cherchez une route et une voie ferrée qui filent vers l’est à travers bouleaux et taïga, reliant les villes des grands fleuves.",
+    "f": [
+      "Anton Tchekhov l’emprunta en 1890 en route vers Sakhaline et décrivit sa boue et ses gens.",
+      "Le thé de Chine arrivait vers l’ouest par cette route depuis Kiakhta.",
+      "Ce fut l’une des plus longues routes du monde à son achèvement."
+    ],
+    "q": {
+      "q": "Quel écrivain a traversé la Sibérie par cette route en 1890 ?",
+      "a": "Anton Tchekhov",
+      "x": [
+        "Léon Tolstoï",
+        "Ivan Tourgueniev"
+      ]
+    }
+  },
+  "great-tea-road": {
+    "name": "Grande route du thé",
+    "era": "XVIIe – XIXe s.",
+    "t": "Le thé à dos de chameau, de la Chine à la Russie",
+    "s": "Pendant environ deux siècles, le thé des collines du sud de la Chine voyagea vers le nord en bateau fluvial, en charrette et en caravane de chameaux, à travers le Gobi et la steppe mongole, jusqu’à la ville frontière de Kiakhta. Là, on l’échangeait contre fourrures et étoffes, puis on le portait à travers la Sibérie jusqu’à Moscou. D’en haut, cherchez l’immense Gobi vide et les vallées vertes de la Selenga au nord d’Oulan-Bator.",
+    "w": "Cherchez le Gobi pâle et vide qui cède la place à la steppe mongole verte et aux vallées fluviales près d’Oulan-Bator.",
+    "f": [
+      "Un traité de 1727 fit de Kiakhta le lieu officiel du commerce entre la Russie et la Chine.",
+      "Les briques de thé pressé servaient de monnaie dans la steppe.",
+      "Les marchands de Kiakhta comptèrent parmi les plus riches de l’Empire russe."
+    ],
+    "q": {
+      "q": "Quelle ville frontière était le centre du commerce du thé ?",
+      "a": "Kiakhta",
+      "x": [
+        "Irkoutsk",
+        "Nertchinsk"
+      ]
+    }
+  },
+  "veliky-novgorod": {
+    "name": "Veliki Novgorod",
+    "era": "IXe – XVe s.",
+    "t": "Une république marchande médiévale qui écrivait sur l’écorce",
+    "s": "Sur le Volkhov, juste au nord du lac Ilmen, se dresse Novgorod, l’une des plus anciennes villes de Russie. Pendant plus de trois siècles, ce fut une république marchande dont l’assemblée, le vétché, choisissait ses princes. Son sol détrempé a conservé plus d’un millier de lettres griffées sur de l’écorce de bouleau par des gens ordinaires. D’en haut, cherchez le lac et la rivière qui en sort vers le nord à travers la ville.",
+    "w": "Cherchez le lac Ilmen, avec le Volkhov qui en sort vers le nord à travers la ville.",
+    "f": [
+      "La première lettre sur écorce de bouleau a été trouvée ici en 1951 ; on en découvre d’autres chaque année.",
+      "La cathédrale Sainte-Sophie, bâtie en 1045–1050, est l’une des plus anciennes églises de Russie.",
+      "Les monuments de Novgorod ont été inscrits au patrimoine mondial de l’UNESCO en 1992."
+    ],
+    "q": {
+      "q": "Qu’ont trouvé les archéologues à Novgorod en 1951 ?",
+      "a": "Une lettre sur écorce de bouleau",
+      "x": [
+        "Une épée viking",
+        "Un trésor de pièces d’or"
+      ]
+    }
+  },
+  "staraya-ladoga": {
+    "name": "Staraïa Ladoga",
+    "era": "dès le milieu du VIIIe s.",
+    "t": "Là où commence l’histoire de la Rus’",
+    "s": "Juste avant que le Volkhov n’entre dans le lac Ladoga se trouve Staraïa Ladoga, village jadis ville marchande animée de Scandinaves, de Slaves et de Finnois. La dendrochronologie date ses premiers bâtiments du milieu du VIIIe siècle : c’est l’une des plus anciennes villes de la Rus’. Les chroniques la lient à Riourik, fondateur légendaire de la première dynastie princière. D’en haut, cherchez le cours final du Volkhov et le plus grand lac d’Europe.",
+    "w": "Cherchez le Volkhov qui coule vers le nord jusqu’à la rive sud de l’immense lac Ladoga.",
+    "f": [
+      "Ses plus anciens bâtiments de bois ont été datés par leurs cernes vers 753.",
+      "Le lac Ladoga, juste au nord, est le plus grand lac d’Europe.",
+      "La forteresse de pierre au bord de la rivière date des XIIe et XVIe siècles."
+    ],
+    "q": {
+      "q": "Quel lac se trouve juste au nord de Staraïa Ladoga ?",
+      "a": "Le lac Ladoga",
+      "x": [
+        "Le lac Onega",
+        "Le lac Ilmen"
+      ]
+    }
+  },
+  "kizhi": {
+    "name": "Enclos paroissial de Kiji",
+    "era": "1714 – 1874",
+    "t": "Vingt-deux coupoles de bois sur une île du Nord",
+    "s": "Sur une petite île du lac Onega se dresse l’une des merveilles de l’architecture en bois : l’église de la Transfiguration, bâtie en 1714, aux 22 bulbes couverts de bardeaux de tremble argentés. À côté s’élèvent une église plus petite et un clocher. Selon la légende, le maître d’œuvre jeta sa hache dans le lac une fois l’ouvrage achevé. D’en haut, cherchez les baies du nord du lac Onega, semées de longues îles étroites.",
+    "w": "Cherchez le nord du lac Onega, dédale de longues îles étroites et de baies dans la forêt de Carélie.",
+    "f": [
+      "L’église de la Transfiguration mesure environ 37 m et est entièrement en bois.",
+      "Sa voisine, l’église de l’Intercession, compte neuf coupoles.",
+      "L’enclos de Kiji a été inscrit au patrimoine mondial de l’UNESCO en 1990."
+    ],
+    "q": {
+      "q": "Combien de coupoles couronnent l’église de la Transfiguration ?",
+      "a": "22",
+      "x": [
+        "9",
+        "33"
+      ]
+    }
+  },
+  "solovki": {
+    "name": "Îles Solovki",
+    "era": "dès 1436",
+    "t": "Un monastère-forteresse sur la mer Blanche",
+    "s": "Loin au large dans la mer Blanche, juste sous le cercle polaire, se trouvent les îles Solovki. Des moines y fondèrent un monastère au XVe siècle, devenu une forteresse de blocs énormes, une puissance commerçante et un foyer de la culture du Nord. Les îles abritent aussi d’anciens labyrinthes de pierre tracés par des peuples plus anciens. D’en haut, cherchez un groupe d’îles boisées criblées de lacs, en pleine mer.",
+    "w": "Cherchez un groupe d’îles basses et boisées, pleines de petits lacs, dans la partie ouest de la mer Blanche.",
+    "f": [
+      "Les murs du monastère sont faits de blocs de pierre, certains de plusieurs tonnes.",
+      "Les moines creusèrent des canaux reliant des dizaines de lacs de l’île.",
+      "Les monuments des îles ont été inscrits au patrimoine mondial de l’UNESCO en 1992."
+    ],
+    "q": {
+      "q": "Quelle mer entoure les îles Solovki ?",
+      "a": "La mer Blanche",
+      "x": [
+        "La mer de Barents",
+        "La mer de Kara"
+      ]
+    }
+  },
+  "bolghar": {
+    "name": "Bolgar",
+    "era": "Xe – XIVe s.",
+    "t": "La capitale marchande du Nord, sur la Volga",
+    "s": "Près du confluent de la Kama et de la Volga se dressait Bolgar, capitale de la Bulgarie de la Volga et l’un des grands marchés de l’Eurasie médiévale. Les fourrures des forêts du nord y rencontraient l’argent et les soieries du sud. En 922, son souverain reçut une ambassade du calife de Bagdad et adopta officiellement l’islam. D’en haut, cherchez l’immense réservoir de Kouïbychev, là où se rejoignent deux grands fleuves.",
+    "w": "Cherchez l’énorme réservoir de Kouïbychev, là où la Kama rejoint la Volga, au sud de Kazan.",
+    "f": [
+      "L’envoyé arabe Ibn Fadlan fit un récit vivant de son voyage jusqu’ici en 922.",
+      "Bolgar a été inscrite au patrimoine mondial de l’UNESCO en 2014.",
+      "Le réservoir de Kouïbychev, tout à côté, est le plus grand réservoir d’Europe."
+    ],
+    "q": {
+      "q": "En quelle année la Bulgarie de la Volga a-t-elle adopté l’islam ?",
+      "a": "922",
+      "x": [
+        "988",
+        "1236"
+      ]
+    }
+  },
+  "tobolsk": {
+    "name": "Tobolsk",
+    "era": "dès 1587",
+    "t": "L’ancienne capitale de la Sibérie",
+    "s": "Là où le Tobol se jette dans l’Irtych, des colons russes fondèrent Tobolsk en 1587, qui fut environ deux siècles la capitale de toute la Sibérie. Sur un haut promontoire dominant les rivières se dresse le seul kremlin de pierre de Sibérie, aux murs blancs et aux coupoles d’églises. Le cartographe Semion Remezov, qui aida à le bâtir, dessina aussi le premier atlas sibérien. D’en haut, cherchez deux rivières qui se rejoignent dans la taïga.",
+    "w": "Cherchez le confluent du Tobol et de l’Irtych, avec la vieille ville sur un haut promontoire au-dessus de la plaine inondable.",
+    "f": [
+      "Le chimiste Dmitri Mendeleïev est né à Tobolsk en 1834.",
+      "Son kremlin fut bâti en pierre vers 1700.",
+      "Tobolsk fut le point de départ de nombreuses expéditions vers l’est."
+    ],
+    "q": {
+      "q": "Quel savant est né à Tobolsk ?",
+      "a": "Dmitri Mendeleïev",
+      "x": [
+        "Mikhaïl Lomonossov",
+        "Ivan Pavlov"
+      ]
+    }
+  },
+  "mangazeya": {
+    "name": "Mangazeïa",
+    "era": "1601 – 1672",
+    "t": "Une ville-champignon arctique de la fourrure, disparue",
+    "s": "Dans la toundra, sur la Taz, au-delà du cercle polaire, se dressait Mangazeïa, première ville russe de l’Arctique sibérien. Pendant quelques décennies au XVIIe siècle, elle prospéra grâce aux fourrures de zibeline, ravitaillée par mer depuis la mer Blanche et par les rivières. Puis le commerce se déplaça et la ville fut abandonnée. D’en haut, cherchez la Taz qui serpente dans une toundra plate mouchetée de lacs vers le golfe de l’Ob.",
+    "w": "Cherchez la Taz qui serpente dans une toundra plate pleine de lacs, à l’est du long golfe de l’Ob.",
+    "f": [
+      "Les contemporains l’appelaient « Mangazeïa bouillonnante d’or » pour ses richesses.",
+      "En 1619, le tsar interdit la route maritime qui y menait, craignant que des navires étrangers ne la suivent.",
+      "Les fouilles ont livré des chaussures de cuir, des pièces d’échecs et des sceaux de toute l’Europe."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a fait la richesse de Mangazeïa ?",
+      "a": "Les fourrures de zibeline",
+      "x": [
+        "L’or",
+        "Le sel"
+      ]
+    }
+  },
+  "gagarin-landing": {
+    "name": "Site d’atterrissage de Gagarine",
+    "era": "12 avril 1961",
+    "t": "Là où le premier homme de l’espace est revenu sur Terre",
+    "s": "Le matin du 12 avril 1961, après un tour de la Terre, Youri Gagarine descendit en parachute dans un champ de la steppe de la Volga, près de la ville d’Engels. Comme prévu, il s’était éjecté de sa capsule, qui se posa séparément non loin. Les premières personnes qu’il rencontra furent la femme d’un forestier et sa petite-fille. D’en haut, cherchez la large Volga à Saratov, avec Engels sur la rive est.",
+    "w": "Cherchez la large Volga à Saratov ; le site se trouve dans la steppe un peu au sud d’Engels, sur la rive est.",
+    "f": [
+      "Gagarine se posa environ 108 minutes après le décollage.",
+      "Le site est aujourd’hui un parc mémorial doté d’un haut monument.",
+      "Vostok 1 était conçu pour que le pilote se pose en parachute, à part de la capsule."
+    ],
+    "q": {
+      "q": "Comment Gagarine s’est-il posé ?",
+      "a": "En parachute, à part de la capsule",
+      "x": [
+        "Dans la capsule, en mer",
+        "Sur la piste d’un aérodrome"
+      ]
+    }
+  },
+  "golden-ring": {
+    "name": "Anneau d’or de Russie",
+    "era": "XIIe – XVIIe s.",
+    "t": "Vieilles villes russes de pierre blanche et de bulbes",
+    "s": "Au nord-est de Moscou s’étend une boucle de villes anciennes : Vladimir, Souzdal, Rostov, Iaroslavl, Kostroma et d’autres. Entre le XIIe et le XVIIe siècle, ce furent des capitales princières et des centres monastiques, et leurs églises de pierre blanche, leurs kremlins et leurs bulbes se dressent encore parmi champs et forêts. D’en haut, cherchez la Volga et les lacs ronds de Plechtcheïevo et de Nero parmi les bois.",
+    "w": "Cherchez la Volga à Iaroslavl et, au sud, de petits lacs ronds, Plechtcheïevo et Nero, entre forêts et champs.",
+    "f": [
+      "Le nom « Anneau d’or » a été inventé par un journaliste en 1967.",
+      "Les monuments de pierre blanche de Vladimir et de Souzdal ont été inscrits au patrimoine mondial de l’UNESCO en 1992.",
+      "L’église de l’Intercession-sur-la-Nerl, de 1165, se dresse seule dans une prairie inondable."
+    ],
+    "q": {
+      "q": "Quand le nom « Anneau d’or » a-t-il été inventé ?",
+      "a": "En 1967",
+      "x": [
+        "En 1812",
+        "En 1913"
+      ]
+    }
+  },
+  "grand-trunk-road": {
+    "name": "Grand Trunk Road",
+    "era": "IIIe s. av. J.-C. – aujourd’hui",
+    "t": "Deux mille ans de circulation à travers la plaine du Gange",
+    "s": "C’est l’une des routes les plus anciennes et les plus longues d’Asie : elle traverse la plaine indo-gangétique du Bengale à Kaboul, sur quelque 2 500 km. Elle suit un tracé antique, mais Sher Shah Suri, souverain du XVIe siècle, la refit avec relais, puits et arbres d’ombrage. Rudyard Kipling l’appelait un fleuve de vie. En croisière, cherchez la plaine verte et plate, avec le Gange et des villes égrenées le long de la ligne.",
+    "w": "Cherchez l’immense plaine verte et plate du nord de l’Inde, avec le Gange et une file de grandes villes vers le nord-ouest.",
+    "f": [
+      "Sher Shah Suri jalonna les distances de piliers appelés kos minars, dont certains se dressent encore.",
+      "La route franchit la passe de Khyber en route vers Kaboul.",
+      "Elle reste en grande partie une grande route, aujourd’hui des routes nationales de plusieurs pays."
+    ],
+    "q": {
+      "q": "Quel souverain du XVIe siècle a refait la Grand Trunk Road ?",
+      "a": "Sher Shah Suri",
+      "x": [
+        "Babur",
+        "Shah Jahan"
+      ]
+    }
+  },
+  "grand-canal": {
+    "name": "Grand Canal de Chine",
+    "era": "Ve s. av. J.-C. – aujourd’hui",
+    "t": "Le plus long canal du monde, de Pékin à Hangzhou",
+    "s": "Pendant plus de mille ans, ce canal porta le riz du sud fertile pour nourrir la capitale du nord. Commencé par tronçons dès le Ve siècle av. J.-C. et réuni en un seul réseau au début du VIIe siècle, il court sur environ 1 800 km de Hangzhou à Pékin, franchissant le Yangzi et le fleuve Jaune. Au sud, les barges l’animent toujours et, par temps clair, on peut suivre son tracé.",
+    "w": "Entre Hangzhou et Yangzhou, cherchez une voie d’eau qui passe par Suzhou et Wuxi, entre lacs et champs.",
+    "f": [
+      "C’est la plus longue voie navigable artificielle du monde.",
+      "L’écluse à sas, avec des portes aux deux bouts, fut inventée en Chine au Xe siècle pour des canaux comme celui-ci.",
+      "Le Grand Canal a été inscrit au patrimoine mondial de l’UNESCO en 2014."
+    ],
+    "q": {
+      "q": "Quelles villes le Grand Canal relie-t-il ?",
+      "a": "Pékin et Hangzhou",
+      "x": [
+        "Pékin et Shanghai",
+        "Xi’an et Nankin"
+      ]
+    }
+  },
+  "great-wall": {
+    "name": "Grande Muraille de Chine",
+    "era": "VIIe s. av. J.-C. – XVIIe s.",
+    "t": "Deux mille ans de murailles à travers montagnes et désert",
+    "s": "États et dynasties chinois ont bâti des murailles le long de leur frontière nord pendant environ 2 000 ans, et le mur de pierre et de brique que l’on imagine fut élevé par les Ming après 1368. Il va du Gobi, à Jiayuguan, jusqu’à la mer, à Shanhaiguan, en chevauchant les crêtes. Large de quelques mètres, il est invisible en croisière, mais les crêtes et les déserts qu’il traversait se voient facilement.",
+    "w": "Au nord de Pékin, cherchez des crêtes montagneuses abruptes et plissées ; loin à l’ouest, le désert de gravier du corridor du Hexi.",
+    "f": [
+      "Un relevé de 2012 a mesuré l’ensemble des tronçons bâtis au fil des siècles à environ 21 000 km.",
+      "L’idée que la muraille serait visible depuis la Lune est un mythe.",
+      "À la Vieille Tête de Dragon, près de Shanhaiguan, la muraille descend jusque dans la mer."
+    ],
+    "q": {
+      "q": "Quelle est la longueur de tous les tronçons de la Grande Muraille réunis ?",
+      "a": "Environ 21 000 km",
+      "x": [
+        "Environ 2 100 km",
+        "Environ 210 000 km"
+      ]
+    }
+  },
+  "tea-horse-road": {
+    "name": "Route du thé et des chevaux",
+    "era": "VIIe – XXe s.",
+    "t": "Le thé du Yunnan porté par-delà les montagnes jusqu’au Tibet",
+    "s": "Pendant plus de mille ans, des caravanes de mules et de porteurs montèrent des briques de thé du Yunnan et du Sichuan jusqu’au Tibet, et en rapportèrent des chevaux. La route grimpait dans certaines des gorges les plus profondes de la Terre, où le Yangzi, le Mékong et la Salouen coulent côte à côte, et franchissait des cols à plus de 4 000 m. En croisière, le pays coupe le souffle : canyons parallèles et sommets enneigés.",
+    "w": "Cherchez trois profondes gorges fluviales côte à côte, orientées nord–sud, entre des chaînes de sommets enneigés.",
+    "f": [
+      "Les Tibétains buvaient le thé baratté avec du beurre et du sel : la demande ne faiblissait jamais.",
+      "D’anciens bourgs marchands comme Lijiang et Shaxi sont nés comme étapes des caravanes.",
+      "Des caravanes de mules empruntaient encore des tronçons de la route au milieu du XXe siècle."
+    ],
+    "q": {
+      "q": "Qu’échangeait le Tibet contre le thé chinois ?",
+      "a": "Des chevaux",
+      "x": [
+        "De la soie",
+        "De la porcelaine"
+      ]
+    }
+  },
+  "tokaido": {
+    "name": "Route du Tōkaidō",
+    "era": "XVIIe – XIXe s.",
+    "t": "La vieille route côtière d’Edo à Kyoto",
+    "s": "À l’époque d’Edo, le Tōkaidō était la route la plus fréquentée du Japon : environ 500 km le long de la côte pacifique, d’Edo, l’actuelle Tokyo, à Kyoto, la cité impériale. Seigneurs, marchands et pèlerins la parcouraient à pied en deux semaines environ, en faisant halte dans 53 relais. Le peintre Hiroshige la rendit célèbre par une série d’estampes. Aujourd’hui, le train à grande vitesse suit presque le même tracé, sous l’œil du mont Fuji.",
+    "w": "Suivez la côte pacifique vers l’ouest depuis Tokyo ; le mont Fuji se dresse juste dans les terres, et la route passe les collines d’Hakone.",
+    "f": [
+      "La série d’estampes d’Hiroshige « Les Cinquante-trois Relais du Tōkaidō » parut dans les années 1830.",
+      "Une barrière à Hakone contrôlait les papiers des voyageurs.",
+      "Des tronçons de l’ancienne route pavée de pierre subsistent près d’Hakone."
+    ],
+    "q": {
+      "q": "Combien de relais comptait le Tōkaidō ?",
+      "a": "53",
+      "x": [
+        "69",
+        "88"
+      ]
+    }
+  },
+  "kyoto": {
+    "name": "Kyoto, l’ancienne capitale impériale",
+    "era": "794 – 1868",
+    "t": "Mille ans capitale du Japon",
+    "s": "De 794 à 1868, Kyoto fut la résidence des empereurs du Japon. Tracée en damier sur le modèle de Chang’an, la capitale chinoise, elle devint le cœur de la culture de cour : temples, jardins, cérémonie du thé et Dit du Genji. Elle compte encore bien plus d’un millier de temples bouddhiques et des centaines de sanctuaires shintō. D’en haut, cherchez la ville dans sa cuvette plate cernée de montagnes boisées, le lac Biwa à l’est.",
+    "w": "Cherchez une ville dans une cuvette plate fermée par des montagnes sur trois côtés, avec le grand lac Biwa juste à l’est.",
+    "f": [
+      "À sa fondation en 794, la ville s’appelait Heian-kyō, « capitale de la paix ».",
+      "L’inscription de l’ancienne Kyoto à l’UNESCO couvre 17 temples, sanctuaires et un château.",
+      "Ses rues suivent toujours le damier tracé il y a plus de 1 200 ans."
+    ],
+    "q": {
+      "q": "Comment s’appelait Kyoto à sa fondation en 794 ?",
+      "a": "Heian-kyō",
+      "x": [
+        "Heijō-kyō",
+        "Edo"
+      ]
+    }
+  },
+  "nara": {
+    "name": "Nara",
+    "era": "710 – 784",
+    "t": "La première capitale fixe du Japon et son Grand Bouddha",
+    "s": "En 710, la cour japonaise s’établit à Nara, sa première capitale permanente, extrémité orientale de la route de la soie pendant presque tout le VIIIe siècle. Le bouddhisme y prospéra, et l’empereur Shōmu fit fondre un Bouddha géant en bronze, abrité dans un immense pavillon de bois au Tōdai-ji. Des daims apprivoisés errent encore dans ses parcs. D’en haut, cherchez une ville plus petite dans une cuvette verte au sud de Kyoto.",
+    "w": "Cherchez une ville dans une cuvette verte à environ 40 km au sud de Kyoto, adossée à des collines boisées à l’est.",
+    "f": [
+      "Le Grand Bouddha du Tōdai-ji, fondu en 752, mesure environ 15 m.",
+      "Son pavillon est l’un des plus grands bâtiments en bois du monde.",
+      "Le Hōryū-ji, tout proche, abrite certains des plus anciens bâtiments en bois du monde."
+    ],
+    "q": {
+      "q": "Quels animaux errent librement dans les parcs de Nara ?",
+      "a": "Des daims",
+      "x": [
+        "Des singes",
+        "Des grues"
+      ]
+    }
+  },
+  "gyeongju": {
+    "name": "Gyeongju",
+    "era": "57 av. J.-C. – 935 apr. J.-C.",
+    "t": "La capitale millénaire du royaume de Silla",
+    "s": "Pendant près de mille ans, Gyeongju fut la capitale du royaume coréen de Silla, qui unifia la plus grande partie de la péninsule au VIIe siècle. Ses tombeaux royaux sont des collines herbeuses en pleine ville, et non loin se dressent le temple de Bulguksa et le Bouddha de pierre de Seokguram. Les Coréens l’appellent un musée sans murs. D’en haut, cherchez une ville dans une cuvette verte près de la côte est.",
+    "w": "Cherchez une ville dans une cuvette verte entre des collines, près de la côte sud-est de la Corée, au nord d’Ulsan.",
+    "f": [
+      "Cheomseongdae, tour de pierre du VIIe siècle, est l’un des plus anciens observatoires conservés d’Asie de l’Est.",
+      "Les couronnes d’or trouvées dans ses tombeaux font partie des trésors nationaux de la Corée.",
+      "Bulguksa et Seokguram ont été inscrits au patrimoine mondial de l’UNESCO en 1995."
+    ],
+    "q": {
+      "q": "Quel royaume avait sa capitale à Gyeongju ?",
+      "a": "Silla",
+      "x": [
+        "Koguryo",
+        "Joseon"
+      ]
+    }
+  },
+  "xian-changan": {
+    "name": "Chang’an et l’armée de terre cuite",
+    "era": "IIIe s. av. J.-C. – Xe s.",
+    "t": "Le départ de la route de la soie et une armée d’argile",
+    "s": "L’actuelle Xi’an était Chang’an, capitale des dynasties Qin, Han et Tang et point de départ oriental de la route de la soie. Sous les Tang, ce fut peut-être la plus grande ville du monde. Juste à l’est se trouve le tombeau du premier empereur de Chine, gardé par des milliers de soldats d’argile grandeur nature. D’en haut, cherchez le damier de la ville sur la plaine de la Wei, avec les monts Qinling au sud.",
+    "w": "Cherchez une grande ville en damier sur la plaine plate de la Wei, avec la chaîne des Qinling qui s’élève à pic au sud.",
+    "f": [
+      "L’armée de terre cuite fut découverte en 1974 par des paysans qui creusaient un puits.",
+      "Les archéologues estiment qu’il y a environ 8 000 figures, aux visages tous travaillés un par un.",
+      "La muraille Ming de Xi’an, d’environ 14 km de tour, est toujours entière."
+    ],
+    "q": {
+      "q": "Qui a découvert l’armée de terre cuite en 1974 ?",
+      "a": "Des paysans creusant un puits",
+      "x": [
+        "Des archéologues en prospection",
+        "Des ouvriers du chemin de fer"
+      ]
+    }
+  },
+  "forbidden-city": {
+    "name": "Cité interdite, Pékin",
+    "era": "1420 – 1912",
+    "t": "Le palais de 24 empereurs",
+    "s": "Au cœur de Pékin se trouve la Cité interdite, palais des empereurs Ming et Qing de 1420 à 1912. Ceinte de murs et de douves, elle compte quelque 980 bâtiments sous des toits de tuiles jaunes, et le commun des mortels ne pouvait y entrer sans autorisation. Elle se trouve exactement sur l’axe qui traverse la vieille ville. Par air limpide, on distingue son rectangle au milieu du quadrillage de Pékin.",
+    "w": "Par temps clair, cherchez un grand rectangle au centre exact de Pékin, avec un parc et une colline sur son côté nord.",
+    "f": [
+      "Vingt-quatre empereurs y vécurent pendant près de 500 ans.",
+      "C’est le plus grand ensemble palatial conservé au monde.",
+      "Le jaune de ses tuiles était une couleur réservée à l’empereur."
+    ],
+    "q": {
+      "q": "Combien d’empereurs ont vécu dans la Cité interdite ?",
+      "a": "24",
+      "x": [
+        "12",
+        "60"
+      ]
+    }
+  },
+  "anyang-yinxu": {
+    "name": "Yinxu, capitale des Shang",
+    "era": "v. 1300 – 1046 av. J.-C.",
+    "t": "Là où l’on a trouvé la plus ancienne écriture chinoise",
+    "s": "Près de l’actuelle Anyang, dans la plaine de Chine du Nord, s’étendait la dernière capitale de la dynastie Shang. Ses rois interrogeaient leurs ancêtres en fendant à la chaleur des os et des carapaces de tortue, puis y gravaient questions et réponses. Ces os oraculaires portent la plus ancienne écriture chinoise aboutie, et bien des caractères sont encore reconnaissables. D’en haut, cherchez la plaine plate et intensément cultivée au nord du fleuve Jaune.",
+    "w": "Cherchez la plaine de Chine du Nord, plate et densément cultivée, avec les monts Taihang à l’ouest.",
+    "f": [
+      "Les os oraculaires furent identifiés en 1899, quand un lettré remarqua une écriture sur des « os de dragon » vendus comme remède.",
+      "Le tombeau intact de Fu Hao, reine et cheffe de guerre Shang, a été découvert ici en 1976.",
+      "Yinxu a été inscrit au patrimoine mondial de l’UNESCO en 2006."
+    ],
+    "q": {
+      "q": "Sur quoi sont les plus anciens écrits chinois de Yinxu ?",
+      "a": "Des os oraculaires",
+      "x": [
+        "Des lamelles de bambou",
+        "Des rouleaux de soie"
+      ]
+    }
+  },
+  "dunhuang-mogao": {
+    "name": "Grottes de Mogao, Dunhuang",
+    "era": "IVe – XIVe s.",
+    "t": "Mille ans d’art bouddhique dans le désert",
+    "s": "Là où la route de la soie entrait en Chine depuis les déserts de l’ouest se trouve l’oasis de Dunhuang. Dans une falaise voisine, moines et mécènes creusèrent pendant mille ans des centaines de grottes-sanctuaires, couvertes de peintures murales et de statues. Une grotte-bibliothèque murée, ouverte en 1900, renfermait des dizaines de milliers de manuscrits. D’en haut, cherchez l’oasis verte serrée contre d’énormes dunes de sable doré.",
+    "w": "Cherchez une petite oasis verte serrée contre une chaîne d’énormes dunes dorées, au sud de la ville de Dunhuang.",
+    "f": [
+      "Environ 490 grottes conservent peintures murales et sculptures.",
+      "La grotte-bibliothèque contenait le Sûtra du Diamant de 868, le plus ancien livre imprimé daté connu.",
+      "Les grottes de Mogao ont été inscrites au patrimoine mondial de l’UNESCO en 1987."
+    ],
+    "q": {
+      "q": "Quel livre imprimé daté a été trouvé à Mogao ?",
+      "a": "Le Sûtra du Diamant",
+      "x": [
+        "Les Entretiens",
+        "L’Art de la guerre"
+      ]
+    }
+  },
+  "qufu": {
+    "name": "Qufu, patrie de Confucius",
+    "era": "dès 551 av. J.-C.",
+    "t": "La ville natale de Confucius et de ses descendants",
+    "s": "Dans cette petite ville de la plaine du Shandong naquit Confucius, en 551 av. J.-C. Après sa mort, sa maison devint un temple que les empereurs agrandirent au fil des siècles en l’un des plus grandioses ensembles de Chine. Ses descendants vécurent à côté, dans une résidence familiale, et reposent dans un immense cimetière-forêt. D’en haut, cherchez la plaine plate au sud du mont Tai, la montagne sacrée, à environ 70 km au nord.",
+    "w": "Cherchez la plaine plate du Shandong, avec le mont Tai, montagne sacrée, qui se dresse seul à environ 70 km au nord.",
+    "f": [
+      "L’arbre généalogique de la famille Kong recense plus de 80 générations de descendants.",
+      "Le cimetière de la famille de Confucius est utilisé depuis plus de 2 000 ans.",
+      "Le temple, la résidence et le cimetière de Qufu ont été inscrits au patrimoine mondial de l’UNESCO en 1994."
+    ],
+    "q": {
+      "q": "Combien de générations recense l’arbre généalogique des Kong ?",
+      "a": "Plus de 80",
+      "x": [
+        "Une vingtaine",
+        "Environ 200"
+      ]
+    }
+  },
+  "turpan-jiaohe": {
+    "name": "Oasis de Tourfan : Jiaohe et les karez",
+    "era": "IIe s. av. J.-C. – aujourd’hui",
+    "t": "Une oasis sous le niveau de la mer, arrosée par en dessous",
+    "s": "Le bassin de Tourfan est l’un des lieux les plus bas et les plus chauds d’Asie, et pourtant il est vert de vignes. Le secret : les karez, galeries creusées pour amener sous terre l’eau de fonte du Tian Shan, à l’abri de l’évaporation. Sur une étroite île entre deux rivières, les ruines de Jiaohe, ville de la route de la soie, sont creusées dans le sol. D’en haut, cherchez les Montagnes flamboyantes, rouges, et l’oasis.",
+    "w": "Cherchez un profond bassin désertique avec une longue crête rouge, les Montagnes flamboyantes, et des champs d’oasis verts à son pied.",
+    "f": [
+      "Le point le plus bas du bassin se trouve à environ 150 m sous le niveau de la mer.",
+      "Les galeries des karez de Tourfan totalisent des milliers de kilomètres.",
+      "Jiaohe fut en grande partie bâtie en creusant les pièces dans le sol plutôt qu’en élevant des murs."
+    ],
+    "q": {
+      "q": "Qu’est-ce qu’un karez ?",
+      "a": "Une galerie d’eau souterraine",
+      "x": [
+        "Une tour de guet en brique crue",
+        "Un temple troglodyte"
+      ]
+    }
+  },
+  "loulan": {
+    "name": "Loulan",
+    "era": "IIe s. av. J.-C. – IVe s. apr. J.-C.",
+    "t": "Un royaume-oasis perdu au bord du Lop Nor",
+    "s": "Sur les rives du Lop Nor, jadis un lac à l’extrémité est du bassin du Tarim, se dressait Loulan, petit royaume de la route de la soie. Quand les rivières changèrent de cours et que le lac rétrécit, la ville fut livrée au désert, et le sable ensevelit ses maisons et ses archives. D’en haut, cherchez l’immense lit asséché du Lop Nor, dont les anneaux concentriques pâles ressemblent à une oreille géante.",
+    "w": "Cherchez un immense lit de lac pâle aux anneaux concentriques en forme d’oreille, dans le désert à l’est du Taklamakan.",
+    "f": [
+      "L’explorateur suédois Sven Hedin découvrit les ruines de Loulan en 1900.",
+      "Les documents qu’on y a trouvés sont écrits sur bois et sur papier, en plusieurs langues.",
+      "Les anneaux de « l’oreille du Lop Nor » sont d’anciens rivages laissés par l’assèchement du lac."
+    ],
+    "q": {
+      "q": "Quel explorateur a découvert les ruines de Loulan en 1900 ?",
+      "a": "Sven Hedin",
+      "x": [
+        "Nikolaï Prjevalski",
+        "Francis Younghusband"
+      ]
+    }
+  },
+  "karakorum": {
+    "name": "Karakorum",
+    "era": "1235 – 1260 (capitale)",
+    "t": "La capitale de l’Empire mongol, en pleine steppe",
+    "s": "Dans la verte vallée de l’Orkhon, au centre de la Mongolie, se dressait Karakorum, capitale de l’Empire mongol au milieu du XIIIe siècle. Envoyés, marchands et artisans y venaient d’Europe, de Perse et de Chine. Un frère européen qui la visita en 1254 décrivit, dans le palais du khan, un arbre d’argent qui versait des boissons. Il en reste peu de chose, mais la large vallée de l’Orkhon et sa steppe ondulée se voient facilement.",
+    "w": "Cherchez la large vallée verte de l’Orkhon en pleine steppe, avec les monts Khangaï boisés à l’ouest.",
+    "f": [
+      "La fontaine d’argent fut réalisée par un orfèvre parisien, Guillaume Boucher.",
+      "Le monastère d’Erdene Zuu fut bâti en 1585, en partie avec les ruines de la ville.",
+      "La vallée de l’Orkhon a été inscrite au patrimoine mondial de l’UNESCO en 2004."
+    ],
+    "q": {
+      "q": "Quelle fontaine se dressait dans le palais de Karakorum ?",
+      "a": "Un arbre d’argent versant à boire",
+      "x": [
+        "Un lion d’or",
+        "Un dragon de jade"
+      ]
+    }
+  },
+  "xanadu": {
+    "name": "Xanadu (Shangdu)",
+    "era": "1256 – 1368",
+    "t": "La capitale d’été de Kubilai Khan, dans la prairie",
+    "s": "Dans les prairies de Mongolie-Intérieure, Kubilai Khan bâtit en 1256 sa capitale d’été, Shangdu. La cour mongole y chassait et y festoyait, et Marco Polo y décrivit un palais de marbre et un pavillon de bambou tenu par des cordons de soie. Cinq siècles plus tard, un poème fit de son nom, Xanadu, un synonyme de splendeur. D’en haut, cherchez une prairie ondulée semée de lacs, au nord des montagnes de Pékin.",
+    "w": "Cherchez une prairie ouverte et ondulée, avec petits lacs et méandres, à environ 270 km au nord de Pékin.",
+    "f": [
+      "Le poème « Kubla Khan » de Samuel Taylor Coleridge commence : « À Xanadu, Kubla Khan fit édifier un fastueux dôme de plaisir ».",
+      "Le plan de la ville associait urbanisme chinois et espaces ouverts pour les tentes mongoles.",
+      "Le site de Xanadu a été inscrit au patrimoine mondial de l’UNESCO en 2012."
+    ],
+    "q": {
+      "q": "Quel poète a rendu Xanadu célèbre ?",
+      "a": "Samuel Taylor Coleridge",
+      "x": [
+        "William Wordsworth",
+        "Lord Byron"
+      ]
+    }
+  },
+  "taj-mahal-agra": {
+    "name": "Taj Mahal, Agra",
+    "era": "1632 – 1653",
+    "t": "Un tombeau de marbre blanc bâti par amour",
+    "s": "Dans une boucle de la Yamuna, à Agra, se dresse le Taj Mahal, que l’empereur moghol Shah Jahan bâtit comme tombeau pour son épouse Mumtaz Mahal. Des milliers d’artisans y travaillèrent une vingtaine d’années, dans un marbre blanc incrusté de pierres de couleur. Sa teinte change avec la lumière, rose à l’aube, dorée au couchant. Le tombeau est minuscule en croisière, mais la large courbe de la Yamuna à Agra se repère facilement.",
+    "w": "Cherchez la large Yamuna qui contourne la ville d’Agra, à environ 180 km au sud-est de Delhi.",
+    "f": [
+      "Le marbre venait de Makrana, au Rajasthan, à plus de 300 km.",
+      "Shah Jahan lui-même fut ensuite enterré à côté de Mumtaz Mahal, dans le tombeau.",
+      "Le Taj Mahal a été inscrit au patrimoine mondial de l’UNESCO en 1983."
+    ],
+    "q": {
+      "q": "Pour qui Shah Jahan a-t-il bâti le Taj Mahal ?",
+      "a": "Mumtaz Mahal",
+      "x": [
+        "Nur Jahan",
+        "Jodha Bai"
+      ]
+    }
+  },
+  "hampi": {
+    "name": "Hampi (Vijayanagara)",
+    "era": "XIVe – XVIe s.",
+    "t": "Une cité impériale parmi des rochers géants",
+    "s": "Parmi des amas de rochers de granit géants, au bord de la Tungabhadra, s’étendent les ruines de Vijayanagara, capitale d’un grand empire du sud de l’Inde. Vers 1500, ce fut l’une des villes les plus grandes et les plus riches du monde ; voyageurs persans et portugais s’émerveillaient de ses bazars. Elle fut abandonnée après 1565. D’en haut, cherchez un étrange paysage de collines de rochers le long de la rivière, près d’un grand réservoir.",
+    "w": "Cherchez des collines rocheuses jonchées de blocs le long de la Tungabhadra, juste en aval d’un grand réservoir.",
+    "f": [
+      "Les piliers de pierre du temple de Vittala sonnent comme des notes de musique quand on les frappe.",
+      "Un char de pierre dans la cour du temple de Vittala figure sur le billet indien de 50 roupies.",
+      "Hampi a été inscrite au patrimoine mondial de l’UNESCO en 1986."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui sonne quand on le frappe au temple de Vittala ?",
+      "a": "Ses piliers de pierre",
+      "x": [
+        "Son toit de cuivre",
+        "Ses bassins"
+      ]
+    }
+  },
+  "mohenjo-daro": {
+    "name": "Mohenjo-daro",
+    "era": "v. 2500 – 1900 av. J.-C.",
+    "t": "Une ville planifiée, avec égouts, il y a 4 500 ans",
+    "s": "Sur la plaine de l’Indus, dans le Sind, se dressait Mohenjo-daro, l’une des plus grandes villes de la civilisation de l’Indus, bâtie il y a environ 4 500 ans. Rues en damier, maisons avec salles d’eau, égouts de brique couverts sous les ruelles : peu de villes antiques égalaient cet urbanisme. Son écriture n’est toujours pas déchiffrée. D’en haut, cherchez le ruban vert de l’Indus qui serpente dans une terre sèche.",
+    "w": "Cherchez la large vallée verte de l’Indus qui serpente vers le sud à travers les plaines sèches du Sind.",
+    "f": [
+      "Son « Grand Bain », bassin de brique étanche, est peut-être le plus ancien réservoir public connu.",
+      "La ville comptait peut-être environ 40 000 habitants.",
+      "Mohenjo-daro a été inscrite au patrimoine mondial de l’UNESCO en 1980."
+    ],
+    "q": {
+      "q": "Quelle célèbre construction a-t-on trouvée à Mohenjo-daro ?",
+      "a": "Le Grand Bain",
+      "x": [
+        "La Grande Bibliothèque",
+        "Le Grand Stade"
+      ]
+    }
+  },
+  "bodh-gaya": {
+    "name": "Bodh-Gaya",
+    "era": "Ve s. av. J.-C. – aujourd’hui",
+    "t": "Là où le Bouddha atteignit l’Éveil",
+    "s": "Dans les plaines du Bihar, au bord d’une rivière lente, Siddhartha Gautama s’assit, selon la tradition bouddhiste, sous un figuier et devint le Bouddha. Un arbre qui en descend pousse toujours près du haut temple de la Mahabodhi, et des pèlerins viennent de toute l’Asie. C’est le lieu le plus saint du bouddhisme. D’en haut, cherchez la plaine verte et plate au sud de Patna, avec de basses collines rocheuses près de Gaya.",
+    "w": "Cherchez la plaine verte et plate au sud de Patna, avec de basses collines rocheuses éparses autour de la ville de Gaya.",
+    "f": [
+      "Le temple de la Mahabodhi, maintes fois reconstruit, est l’un des plus anciens temples de brique de l’Inde.",
+      "L’arbre actuel est issu d’une bouture que la tradition rattache à l’arbre d’origine.",
+      "L’ensemble du temple a été inscrit au patrimoine mondial de l’UNESCO en 2002."
+    ],
+    "q": {
+      "q": "Sous quel arbre le Bouddha a-t-il atteint l’Éveil ?",
+      "a": "Un figuier sacré (arbre de la Bodhi)",
+      "x": [
+        "Un banian",
+        "Un manguier"
+      ]
+    }
+  },
+  "nalanda": {
+    "name": "Nalanda",
+    "era": "Ve – XIIe s.",
+    "t": "L’une des premières grandes universités du monde",
+    "s": "Pendant quelque 700 ans, Nalanda fut l’un des grands centres de savoir de l’Asie. Des milliers de moines et d’étudiants vivaient dans ses monastères de brique, étudiant philosophie, médecine, logique et grammaire, et ses bibliothèques étaient célèbres. On y venait de Chine, de Corée, du Tibet et d’Asie du Sud-Est. Les ruines se trouvent dans la plaine verte du Bihar, au sud-est de Patna, parmi les champs et les villages.",
+    "w": "Cherchez la plaine verte et plate du Bihar, au sud-est de Patna, avec les basses collines de Rajgir juste au sud.",
+    "f": [
+      "Le moine chinois Xuanzang étudia à Nalanda au VIIe siècle.",
+      "On la présente souvent comme l’une des plus anciennes universités avec résidence au monde.",
+      "Ses ruines ont été inscrites au patrimoine mondial de l’UNESCO en 2016."
+    ],
+    "q": {
+      "q": "Quel moine chinois a étudié à Nalanda ?",
+      "a": "Xuanzang",
+      "x": [
+        "Jianzhen",
+        "Zheng He"
+      ]
+    }
+  },
+  "ajanta-ellora": {
+    "name": "Grottes d’Ajanta et d’Ellora",
+    "era": "IIe s. av. J.-C. – Xe s. apr. J.-C.",
+    "t": "Des temples taillés à même la roche du Deccan",
+    "s": "Dans la roche volcanique sombre du plateau du Deccan, moines et artisans taillèrent temples et monastères à même les falaises. À Ajanta, des grottes bouddhiques gardent des peintures vieilles de jusqu’à 2 000 ans. À Ellora, sanctuaires bouddhiques, hindous et jaïns se côtoient, dont un temple entier taillé dans un seul rocher. D’en haut, cherchez les collines tabulaires et la terre sombre du Deccan au nord d’Aurangabad.",
+    "w": "Cherchez des collines de basalte tabulaires et des terres cultivées sombres au nord de la ville d’Aurangabad.",
+    "f": [
+      "Le temple Kailasa d’Ellora fut taillé de haut en bas dans un seul bloc de roche.",
+      "Les grottes d’Ajanta furent révélées au grand public en 1819 par un officier britannique parti chasser.",
+      "Les deux sites ont été inscrits au patrimoine mondial de l’UNESCO en 1983."
+    ],
+    "q": {
+      "q": "Qu’a de particulier le temple Kailasa d’Ellora ?",
+      "a": "Il est taillé dans un seul rocher",
+      "x": [
+        "Il est bâti en brique",
+        "Il est bâti en marbre"
+      ]
+    }
+  },
+  "sigiriya": {
+    "name": "Sigiriya",
+    "era": "Ve s. apr. J.-C.",
+    "t": "Un palais au sommet d’un rocher géant",
+    "s": "De la jungle du centre du Sri Lanka surgit un rocher isolé d’environ 200 m. Au Ve siècle, le roi Kashyapa bâtit un palais à son sommet, auquel on accédait entre les pattes d’un lion de brique colossal. Ses murs étaient peints de gracieuses figures féminines, et des jardins avec bassins s’étendaient à sa base. D’en haut, cherchez un rocher sombre et solitaire qui se dresse dans la forêt verte, au nord de Dambulla.",
+    "w": "Cherchez un rocher isolé et abrupt qui surgit d’une forêt verte et plate au centre du Sri Lanka, près de réservoirs.",
+    "f": [
+      "De la porte du Lion, il ne reste que les pattes géantes.",
+      "Dès le VIIIe siècle environ, des visiteurs gravèrent des poèmes sur le mur Miroir, poli.",
+      "Sigiriya a été inscrite au patrimoine mondial de l’UNESCO en 1982."
+    ],
+    "q": {
+      "q": "Que reste-t-il de la porte du Lion de Sigiriya ?",
+      "a": "Deux pattes géantes",
+      "x": [
+        "Une tête de lion",
+        "Une crinière de pierre"
+      ]
+    }
+  },
+  "lumbini": {
+    "name": "Lumbini",
+    "era": "v. Ve s. av. J.-C.",
+    "t": "Le lieu de naissance du Bouddha",
+    "s": "Sur la plaine plate du Teraï, au pied de l’Himalaya, se trouve Lumbini, où la tradition bouddhiste situe la naissance de Siddhartha Gautama, le futur Bouddha. Plus de deux siècles plus tard, l’empereur Ashoka vint y dresser un pilier de pierre pour marquer le lieu. Aujourd’hui, des monastères de nombreux pays entourent le jardin sacré. D’en haut, cherchez la plaine verte et plate, avec le mur blanc de l’Himalaya à l’horizon nord.",
+    "w": "Cherchez la plaine verte et plate du Teraï, dans le sud du Népal, avec l’Himalaya enneigé à l’horizon nord.",
+    "f": [
+      "Le pilier d’Ashoka, de 249 av. J.-C., porte une inscription disant que le Bouddha est né ici.",
+      "Le pilier a été redécouvert en 1896.",
+      "Lumbini a été inscrite au patrimoine mondial de l’UNESCO en 1997."
+    ],
+    "q": {
+      "q": "Qui a dressé le pilier inscrit de Lumbini ?",
+      "a": "L’empereur Ashoka",
+      "x": [
+        "L’empereur Akbar",
+        "Le roi Kanishka"
+      ]
+    }
+  },
+  "kathmandu-valley": {
+    "name": "Vallée de Katmandou",
+    "era": "dès le Ve s.",
+    "t": "Trois cités royales dans une cuvette himalayenne",
+    "s": "Dans une cuvette verte parmi les contreforts de l’Himalaya s’étendent trois vieilles cités royales : Katmandou, Patan et Bhaktapur. Leurs artisans newars les ont remplies de temples-pagodes, de fenêtres de bois sculpté et de places de palais, et la vallée abrite aussi deux des grands stupas du bouddhisme. D’en haut, cherchez une vallée ronde remplie de ville, cernée de collines vertes, avec des sommets enneigés derrière.",
+    "w": "Cherchez une vallée ronde remplie de ville et cernée de collines vertes, avec l’Himalaya enneigé au nord.",
+    "f": [
+      "Selon la légende, la vallée était jadis un lac, vidé quand le bodhisattva Manjushri trancha une gorge.",
+      "Le dôme blanc de Boudhanath est l’un des plus grands stupas du monde.",
+      "Sept ensembles de monuments de la vallée sont inscrits au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Selon la légende, qu’était jadis la vallée ?",
+      "a": "Un lac",
+      "x": [
+        "Un glacier",
+        "Un désert"
+      ]
+    }
+  },
+  "taxila": {
+    "name": "Taxila",
+    "era": "VIe s. av. J.-C. – Ve s. apr. J.-C.",
+    "t": "Grec et bouddhiste, deux mondes réunis dans la pierre",
+    "s": "Près de l’actuelle Islamabad s’étendait Taxila, ville-carrefour de l’ancienne région du Gandhara, sur les routes reliant l’Inde, l’Asie centrale et la Perse. Alexandre le Grand y passa, puis des monastères bouddhiques et un célèbre foyer de savoir y prospérèrent. Ses sculpteurs mêlèrent styles grec et indien, donnant au Bouddha l’un de ses premiers portraits humains. D’en haut, cherchez les collines vertes juste au nord-ouest d’Islamabad.",
+    "w": "Cherchez les collines vertes de Margalla et la vallée juste au nord-ouest d’Islamabad et de Rawalpindi.",
+    "f": [
+      "Alexandre le Grand arriva à Taxila en 326 av. J.-C.",
+      "On y a fouillé les restes de trois villes successives.",
+      "Taxila a été inscrite au patrimoine mondial de l’UNESCO en 1980."
+    ],
+    "q": {
+      "q": "Quel style d’art mêlait ici formes grecques et bouddhiques ?",
+      "a": "Le Gandhara",
+      "x": [
+        "Le moghol",
+        "Le chola"
+      ]
+    }
+  },
+  "angkor": {
+    "name": "Angkor",
+    "era": "IXe – XVe s.",
+    "t": "Temples-montagnes et réservoirs géants des Khmers",
+    "s": "Au nord du grand lac Tonlé Sap s’étendent les ruines d’Angkor, capitale de l’Empire khmer. Ses rois bâtirent des temples-montagnes de pierre, et Angkor Vat, du XIIe siècle, est le plus grand monument religieux du monde. Ils creusèrent aussi d’immenses réservoirs rectangulaires pour stocker les pluies de mousson. Ces formes se voient en croisière : cherchez de longs lacs aux bords rectilignes et des douves dans la forêt.",
+    "w": "Cherchez un long réservoir rectangulaire et des douves carrées dans la forêt, juste au nord de Siem Reap et du Tonlé Sap.",
+    "f": [
+      "Le réservoir du Baray occidental mesure environ 8 km sur 2 et contient toujours de l’eau.",
+      "Les douves d’Angkor Vat font environ 190 m de large.",
+      "Les tours du temple du Bayon portent plus de 200 visages de pierre géants."
+    ],
+    "q": {
+      "q": "Quel lac se trouve juste au sud d’Angkor ?",
+      "a": "Le Tonlé Sap",
+      "x": [
+        "Le lac Inle",
+        "Le lac Toba"
+      ]
+    }
+  },
+  "bagan": {
+    "name": "Bagan",
+    "era": "XIe – XIIIe s.",
+    "t": "Une plaine de plus de deux mille temples",
+    "s": "Sur une plaine sèche au bord de l’Irrawaddy, les rois de Bagan et leurs sujets bâtirent plus de 10 000 temples et pagodes entre le XIe et le XIIIe siècle. Plus de 2 000 sont encore debout, de brique ou blancs sur la terre ocre, dorés au lever du soleil. Les temples sont trop petits pour être vus en croisière, mais cherchez la large courbe de l’Irrawaddy sur une plaine plate et sèche.",
+    "w": "Cherchez une large courbe de l’Irrawaddy sur une plaine ocre, plate et sèche, au centre du Myanmar.",
+    "f": [
+      "Bagan fut la capitale du premier royaume à unifier la plus grande partie du Myanmar.",
+      "Le temple d’Ananda, vers 1105, est l’un des mieux conservés.",
+      "Bagan a été inscrite au patrimoine mondial de l’UNESCO en 2019."
+    ],
+    "q": {
+      "q": "Combien de temples sont encore debout à Bagan, environ ?",
+      "a": "Plus de 2 000",
+      "x": [
+        "Environ 200",
+        "Environ 20 000"
+      ]
+    }
+  },
+  "borobudur": {
+    "name": "Borobudur",
+    "era": "IXe s.",
+    "t": "Une montagne bouddhique de pierre entre les volcans",
+    "s": "Sur la plaine du centre de Java, cernée de volcans, se dresse Borobudur, le plus grand temple bouddhique du monde. Bâti au IXe siècle, il s’élève en terrasses comme une montagne à degrés, et les pèlerins qui en font le tour longent des milliers de panneaux sculptés contant la vie du Bouddha. Il resta des siècles à demi enfoui. D’en haut, cherchez la plaine verte de Kedu, entre les volcans Merapi, Merbabu et Sumbing.",
+    "w": "Cherchez une plaine verte au centre de Java encadrée de grands cônes volcaniques, dont le Merapi qui fume souvent.",
+    "f": [
+      "Il compte 504 statues du Bouddha et plus de 2 600 panneaux en relief.",
+      "En 1814, le gouverneur britannique Stamford Raffles fit relever le site envahi par la végétation.",
+      "Borobudur a été inscrit au patrimoine mondial de l’UNESCO en 1991."
+    ],
+    "q": {
+      "q": "Qui a fait relever Borobudur en 1814 ?",
+      "a": "Stamford Raffles",
+      "x": [
+        "James Cook",
+        "Warren Hastings"
+      ]
+    }
+  },
+  "ayutthaya": {
+    "name": "Ayutthaya",
+    "era": "1351 – 1767",
+    "t": "La capitale insulaire du vieux Siam",
+    "s": "Pendant quatre siècles, Ayutthaya fut la capitale du Siam et l’une des grandes villes marchandes d’Asie, visitée par des marchands d’Europe, de Perse, de Chine et du Japon. La ville se dresse sur une île au confluent de trois rivières, et ses temples de brique et ses tours prang s’élèvent encore parmi les rues modernes. D’en haut, cherchez une île cernée de rivières dans la plaine rizicole plate, au nord de Bangkok.",
+    "w": "Cherchez une île cernée de rivières dans la plaine rizicole plate et gorgée d’eau, à environ 70 km au nord de Bangkok.",
+    "f": [
+      "Vers 1700, ce fut peut-être l’une des plus grandes villes du monde.",
+      "Les marchands étrangers, dont Néerlandais, Portugais et Japonais, avaient leurs propres quartiers hors les murs.",
+      "Ayutthaya a été inscrite au patrimoine mondial de l’UNESCO en 1991."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui fait de la vieille Ayutthaya une île ?",
+      "a": "Le confluent de trois rivières",
+      "x": [
+        "Un lac de cratère",
+        "Un bras de mer"
+      ]
+    }
+  },
+  "hoi-an": {
+    "name": "Hội An",
+    "era": "XVe – XIXe s.",
+    "t": "Un port marchand aux lanternes, figé dans le temps",
+    "s": "Près de l’embouchure du Thu Bồn, sur la côte centrale du Vietnam, Hội An fut un port international animé où marchands japonais, chinois, portugais et néerlandais échangeaient soie, porcelaine et épices. Quand la rivière s’envasa, le commerce partit pour Da Nang, et la vieille ville resta presque intacte, avec ses maisons-boutiques de bois, ses salles d’assemblée et son pont couvert. D’en haut, cherchez l’embouchure et, au large, les îles Cham.",
+    "w": "Cherchez le Thu Bồn qui atteint la mer à environ 25 km au sud de Da Nang, avec au large les petites îles Cham.",
+    "f": [
+      "Son pont couvert fut bâti par des marchands japonais à la fin du XVIe siècle.",
+      "Les communautés marchandes chinoises bâtirent des salles d’assemblée toujours utilisées aujourd’hui.",
+      "La vieille ville de Hội An a été inscrite au patrimoine mondial de l’UNESCO en 1999."
+    ],
+    "q": {
+      "q": "Qui a bâti le pont couvert de Hội An ?",
+      "a": "Des marchands japonais",
+      "x": [
+        "Des marins portugais",
+        "Des négociants néerlandais"
+      ]
+    }
+  },
+  "zhongyuan": {
+    "name": "Plaine centrale, berceau de la civilisation chinoise",
+    "era": "v. 2000 av. J.-C. – XIIe s.",
+    "t": "Le berceau de la civilisation chinoise, sur le fleuve Jaune",
+    "s": "Le long du cours moyen du fleuve Jaune s’étend la Plaine centrale, où s’élevèrent bien des États et dynasties de la Chine ancienne. Luoyang et Kaifeng furent capitales pendant des siècles, le temple de Shaolin se dresse sur le mont Song, et l’on a trouvé à Erlitou des palais de l’âge du bronze. D’en haut, cherchez le large fleuve Jaune, brun de limon, tressé à travers une immense plaine plate, entre de hautes digues.",
+    "w": "Cherchez le large fleuve Jaune, boueux, tressé à travers une plaine plate, avec les monts Song au sud-ouest.",
+    "f": [
+      "Près de Kaifeng, le lit du fleuve Jaune est plus haut que les terres alentour, retenu par des digues.",
+      "Les grottes de Longmen, à Luoyang, abritent des dizaines de milliers de statues bouddhiques taillées dans les falaises.",
+      "Kaifeng, capitale des Song du Nord, fut l’une des plus grandes villes du monde vers 1100."
+    ],
+    "q": {
+      "q": "Quel temple du mont Song est célèbre pour le kung-fu ?",
+      "a": "Shaolin",
+      "x": [
+        "Wudang",
+        "Longmen"
+      ]
+    }
+  },
+  "ifugao-terraces": {
+    "name": "Rizières en terrasses des cordillères des Philippines",
+    "era": "plusieurs siècles – aujourd’hui",
+    "t": "Des montagnes sculptées à la main en rizières",
+    "s": "Dans les montagnes du nord de Luçon, le peuple ifugao a taillé des versants entiers en gradins de rizières, alimentés par l’eau des forêts qui les dominent. Les terrasses suivent les courbes des pentes comme des escaliers géants, bâties et entretenues à la main depuis des générations. Elles sont trop fines pour être vues en croisière, mais la Cordillère verte et abrupte qui les porte se repère facilement au nord de Manille.",
+    "w": "Cherchez la chaîne verte et abrupte de la Cordillère, dans le nord de Luçon, à environ 250 km au nord de Manille.",
+    "f": [
+      "En 1995, elles furent parmi les premiers sites inscrits par l’UNESCO comme paysage culturel vivant.",
+      "Les forêts au-dessus des terrasses sont gérées en bassins versants communs pour alimenter les champs.",
+      "Les chants hudhud des Ifugao figurent sur la liste du patrimoine immatériel de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quel peuple a bâti les rizières en terrasses de Banaue ?",
+      "a": "Les Ifugao",
+      "x": [
+        "Les Tagals",
+        "Les Visayans"
+      ]
+    }
+  },
+  "trans-saharan-west": {
+    "name": "Route caravanière transsaharienne (Sijilmassa–Tombouctou)",
+    "era": "VIIIe – XVIe s.",
+    "t": "Le sel vers le sud, l’or vers le nord, à travers le désert",
+    "s": "Pendant des siècles, des caravanes de chameaux traversèrent le Sahara occidental entre le Maroc et le Niger. Sel, étoffes et chevaux descendaient au sud ; or, ivoire et cuir remontaient au nord, et l’or d’Afrique de l’Ouest finissait en pièces dans toute la Méditerranée. Livres et savants voyageaient avec elles. D’en haut, on mesure l’ampleur de la traversée : des semaines d’ergs, de regs et de plateaux nus, sans presque une trace de vert.",
+    "w": "Cherchez des dunes et des plaines de gravier sans fin, des plateaux rocheux sombres et de rares oasis le long de vallées sèches.",
+    "f": [
+      "La traversée pouvait durer environ deux mois, avec de longues étapes entre les puits.",
+      "Mansa Moussa, du Mali, dépensa tant d’or lors de son pèlerinage de 1324 que son cours chuta au Caire.",
+      "Des caravanes de sel portent toujours des plaques des mines de Taoudeni jusqu’à Tombouctou."
+    ],
+    "q": {
+      "q": "Que portaient les caravanes vers le sud pour l’échanger contre de l’or ?",
+      "a": "Du sel",
+      "x": [
+        "De l’ivoire",
+        "Du poivre"
+      ]
+    }
+  },
+  "trans-saharan-bornu": {
+    "name": "Route transsaharienne : Tripoli–lac Tchad",
+    "era": "Ier millénaire av. J.-C. – XIXe s.",
+    "t": "La plus vieille route du Sahara, par le Fezzan",
+    "s": "De Tripoli, l’une des plus anciennes routes du Sahara filait au sud par les oasis du Fezzan jusqu’au lac Tchad et au royaume du Kanem-Bornou. Les Garamantes, qui cultivaient le Fezzan grâce à des canaux souterrains, la contrôlaient à l’époque romaine. Plus tard, le sel de Bilma et les marchandises de la Méditerranée y circulèrent. D’en haut, cherchez des plateaux rocheux sombres, des ergs et, tout au sud, les eaux peu profondes du lac Tchad.",
+    "w": "Cherchez plateaux sombres et ergs dans le sud de la Libye et, loin au sud, le bassin peu profond et marécageux du lac Tchad.",
+    "f": [
+      "Les Garamantes creusèrent de longs réseaux de canaux souterrains, appelés foggaras.",
+      "Le Kanem-Bornou, au lac Tchad, dura environ mille ans.",
+      "En 1823, des voyageurs britanniques sur cette route furent les premiers Européens connus à voir le lac Tchad."
+    ],
+    "q": {
+      "q": "Quel peuple antique cultivait le Fezzan grâce à des canaux souterrains ?",
+      "a": "Les Garamantes",
+      "x": [
+        "Les Carthaginois",
+        "Les Nubiens"
+      ]
+    }
+  },
+  "vasco-da-gama-route": {
+    "name": "Route maritime de Vasco de Gama vers l’Inde",
+    "era": "1497 – 1498",
+    "t": "Le voyage qui a relié l’Europe à l’Inde par la mer",
+    "s": "En juillet 1497, quatre navires quittèrent Lisbonne sous les ordres de Vasco de Gama. Au lieu de longer la côte africaine, il fit un grand détour au large dans l’Atlantique Sud, doubla le cap de Bonne-Espérance, remonta la côte est-africaine et, avec un pilote local de Malindi, traversa l’océan Indien. En mai 1498, il atteignit Calicut, en Inde. La route maritime qu’il ouvrit changea le commerce mondial pour des siècles.",
+    "w": "Cherchez la péninsule du Cap, à la pointe sud-ouest de l’Afrique, et la longue côte est-africaine qui file au nord.",
+    "f": [
+      "Son détour par l’Atlantique Sud tint la flotte hors de vue des terres pendant environ trois mois.",
+      "Il baptisa le Natal, en Afrique du Sud, après l’avoir longé le jour de Noël 1497.",
+      "Bartolomeu Dias avait doublé le premier le cap de Bonne-Espérance dix ans plus tôt, en 1488."
+    ],
+    "q": {
+      "q": "Quelle région Vasco de Gama a-t-il baptisée le jour de Noël 1497 ?",
+      "a": "Le Natal",
+      "x": [
+        "Le Transvaal",
+        "Le Zoulouland"
+      ]
+    }
+  },
+  "carthage": {
+    "name": "Carthage",
+    "era": "v. 814 av. J.-C. – 698 apr. J.-C.",
+    "t": "La cité phénicienne qui rivalisa avec Rome",
+    "s": "Sur un promontoire du golfe de Tunis, des colons phéniciens venus de Tyr fondèrent Carthage, devenue la grande puissance marchande de la Méditerranée occidentale. Après l’avoir détruite en 146 av. J.-C., les Romains la rebâtirent et en firent l’une des plus grandes villes de leur empire. On devine encore son port militaire circulaire. En croisière, cherchez le golfe de Tunis bordé de lagunes, et Tunis étalée tout autour.",
+    "w": "Cherchez le golfe de Tunis et sa lagune peu profonde, avec les banlieues de la capitale qui couvrent le promontoire au nord-est.",
+    "f": [
+      "Selon la légende, la reine Didon fonda la ville sur un terrain délimité avec des lanières d’une peau de bœuf.",
+      "Le port punique circulaire abritait sur son pourtour des cales pour plus de 200 navires de guerre.",
+      "Carthage a été inscrite au patrimoine mondial de l’UNESCO en 1979."
+    ],
+    "q": {
+      "q": "Quelle reine légendaire a fondé Carthage ?",
+      "a": "Didon",
+      "x": [
+        "Zénobie",
+        "Cléopâtre"
+      ]
+    }
+  },
+  "leptis-magna": {
+    "name": "Leptis Magna",
+    "era": "VIIe s. av. J.-C. – VIIe s. apr. J.-C.",
+    "t": "Une ville romaine gardée par le sable",
+    "s": "Sur la côte libyenne, à l’est de Tripoli, se trouve Leptis Magna, l’une des villes romaines les plus complètes de la Méditerranée. Port phénicien à l’origine, elle s’enrichit grâce à l’huile d’olive et fut somptueusement rebâtie par l’empereur Septime Sévère, qui y était né. Le sable la recouvrit ensuite, préservant forum, basilique, théâtre et port. D’en haut, cherchez la côte près de Khoms et les collines sèches derrière.",
+    "w": "Cherchez le littoral libyen à environ 120 km à l’est de Tripoli, près de la ville de Khoms.",
+    "f": [
+      "L’empereur Septime Sévère naquit à Leptis Magna en 145 apr. J.-C.",
+      "Son théâtre fait face à la mer, et son mur de scène se dresse encore bien haut.",
+      "Leptis Magna a été inscrite au patrimoine mondial de l’UNESCO en 1982."
+    ],
+    "q": {
+      "q": "Quel empereur romain est né à Leptis Magna ?",
+      "a": "Septime Sévère",
+      "x": [
+        "Hadrien",
+        "Trajan"
+      ]
+    }
+  },
+  "el-jem": {
+    "name": "Amphithéâtre d’El Jem",
+    "era": "v. 238 apr. J.-C.",
+    "t": "Une arène romaine colossale dans une ville d’oliviers",
+    "s": "Au milieu de la plaine tunisienne, un amphithéâtre romain domine la petite ville d’El Jem. Il fut bâti vers 238 apr. J.-C. à Thysdrus, ville enrichie par l’huile d’olive, et pouvait accueillir quelque 35 000 spectateurs. C’est l’un des amphithéâtres romains les mieux conservés au monde. L’arène est minuscule en croisière, mais l’immense plaine d’oliveraies en rangées bien nettes est saisissante.",
+    "w": "Cherchez une plaine plate couverte de rangées régulières et pointillées d’oliviers, à l’intérieur entre Sousse et Sfax.",
+    "f": [
+      "C’est l’un des plus grands amphithéâtres jamais bâtis par les Romains.",
+      "Il fut construit en blocs de pierre venus de carrières situées à une trentaine de kilomètres.",
+      "El Jem a été inscrit au patrimoine mondial de l’UNESCO en 1979."
+    ],
+    "q": {
+      "q": "Quel produit a enrichi la Thysdrus romaine ?",
+      "a": "L’huile d’olive",
+      "x": [
+        "Le vin",
+        "Les dattes"
+      ]
+    }
+  },
+  "volubilis": {
+    "name": "Volubilis",
+    "era": "IIIe s. av. J.-C. – XIe s. apr. J.-C.",
+    "t": "Une ville romaine aux confins de l’Empire, au Maroc",
+    "s": "Sur une plaine fertile au pied du Zerhoun s’étendent les ruines de Volubilis, ville située à l’extrême sud-ouest de l’Empire romain. Ses pressoirs à huile, son arc de triomphe et ses maisons aux belles mosaïques de sol se dressent encore parmi les champs. Des siècles plus tard, en 788, le fondateur de la première dynastie musulmane du Maroc y arriva. D’en haut, cherchez des terres cultivées vertes et des collines au nord de Meknès.",
+    "w": "Cherchez des terres cultivées vertes et les collines arrondies du Zerhoun, à environ 25 km au nord de Meknès.",
+    "f": [
+      "On a retrouvé des dizaines de pressoirs à huile dans la ville.",
+      "Idris Ier, fondateur de la dynastie idrisside, y fut accueilli en 788.",
+      "Volubilis a été inscrite au patrimoine mondial de l’UNESCO en 1997."
+    ],
+    "q": {
+      "q": "Qui a fondé une dynastie après son arrivée à Volubilis en 788 ?",
+      "a": "Idris Ier",
+      "x": [
+        "Youssef ibn Tachfine",
+        "Tariq ibn Ziyad"
+      ]
+    }
+  },
+  "ait-benhaddou": {
+    "name": "Aït-ben-Haddou",
+    "era": "XVIIe s. (sur des fondations plus anciennes)",
+    "t": "Un village fortifié en terre sur la route des caravanes",
+    "s": "Sur une colline dominant une rivière, au sud du Haut Atlas, se dresse Aït-ben-Haddou, village fortifié de maisons et de tours en terre rouge. Il gardait la route caravanière qui menait les marchandises du Sahara à Marrakech, par-dessus les montagnes. Sa silhouette a joué dans de nombreux films. D’en haut, cherchez le Haut Atlas enneigé et les vallées vertes de son versant sud, près d’Ouarzazate.",
+    "w": "Au sud du Haut Atlas enneigé, cherchez une vallée verte et un grand réservoir près d’Ouarzazate.",
+    "f": [
+      "Ses bâtiments sont en pisé et en brique crue, réparés après les fortes pluies.",
+      "On l’a vu dans des films comme « Lawrence d’Arabie » et « Gladiator ».",
+      "Aït-ben-Haddou a été inscrit au patrimoine mondial de l’UNESCO en 1987."
+    ],
+    "q": {
+      "q": "En quoi sont bâties les maisons d’Aït-ben-Haddou ?",
+      "a": "En terre et brique crue",
+      "x": [
+        "En calcaire taillé",
+        "En bois"
+      ]
+    }
+  },
+  "timbuktu": {
+    "name": "Tombouctou",
+    "era": "XIIe – XVIe s. (âge d’or)",
+    "t": "Une ville du désert, de savants et de manuscrits",
+    "s": "Là où le Sahara rencontre la grande boucle du Niger se dresse Tombouctou, rendez-vous des caravanes de chameaux et des bateaux du fleuve. Aux XVe et XVIe siècles, ce fut un centre du savoir islamique, avec des mosquées de terre et des lettrés dont les bibliothèques grandirent au fil des générations. L’Europe l’imaginait en ville d’or. D’en haut, cherchez la limite où la plaine inondable verte du Niger rejoint le sable.",
+    "w": "Cherchez le bord nord de la boucle du Niger, où plaine inondable verte et chenaux cèdent la place au désert.",
+    "f": [
+      "Sa mosquée Djingareyber remonte au XIVe siècle et est bâtie en terre.",
+      "Des familles de Tombouctou ont conservé des centaines de milliers de manuscrits.",
+      "En 1828, René Caillié fut le premier Européen à atteindre Tombouctou et à en revenir."
+    ],
+    "q": {
+      "q": "Qui fut le premier Européen à atteindre Tombouctou et à en revenir ?",
+      "a": "René Caillié",
+      "x": [
+        "Mungo Park",
+        "David Livingstone"
+      ]
+    }
+  },
+  "djenne": {
+    "name": "Djenné",
+    "era": "IIIe s. av. J.-C. – aujourd’hui",
+    "t": "Le plus grand édifice en brique crue du monde",
+    "s": "Sur une île de la plaine inondable du Bani, dans le delta intérieur du Niger, au Mali, se dresse Djenné, l’une des plus vieilles villes d’Afrique de l’Ouest. Sa Grande Mosquée, hérissée de poutres, est le plus grand édifice en brique crue du monde ; chaque année, toute la ville la recrépit de boue lors d’une fête. D’en haut, cherchez un dédale de chenaux inondés, vert ou bleu à la saison des pluies.",
+    "w": "Cherchez le delta intérieur du Niger, immense plaine inondable de chenaux et de lacs, surtout après les pluies d’été.",
+    "f": [
+      "L’actuelle Grande Mosquée fut bâtie en 1907 à l’emplacement de mosquées plus anciennes.",
+      "Tout près, Djenné-Djeno fut une ville dès environ 250 av. J.-C., l’une des plus anciennes connues au sud du Sahara.",
+      "La vieille ville de Djenné a été inscrite au patrimoine mondial de l’UNESCO en 1988."
+    ],
+    "q": {
+      "q": "En quoi est bâtie la Grande Mosquée de Djenné ?",
+      "a": "En brique crue",
+      "x": [
+        "En pierre",
+        "En bois"
+      ]
+    }
+  },
+  "great-zimbabwe": {
+    "name": "Grand Zimbabwe",
+    "era": "XIe – XVe s.",
+    "t": "La cité de pierre qui a donné son nom à un pays",
+    "s": "Dans les collines de granit du sud du Zimbabwe se dressent les ruines du Grand Zimbabwe, capitale d’un royaume shona médiéval. Ses bâtisseurs ajustèrent des blocs de granit en murs courbes hauts de jusqu’à 11 m, sans le moindre mortier. Ses souverains s’enrichirent en échangeant or et ivoire avec la côte swahilie ; on y a trouvé porcelaine chinoise et verre persan. D’en haut, cherchez des collines de granit et le réservoir du lac Mutirikwi.",
+    "w": "Cherchez des collines de granit arrondies et le grand réservoir du lac Mutirikwi, près de la ville de Masvingo.",
+    "f": [
+      "« Zimbabwe » vient de mots shona généralement traduits par « maisons de pierre ».",
+      "Des oiseaux sculptés en stéatite trouvés sur le site figurent sur le drapeau du Zimbabwe.",
+      "Le Grand Zimbabwe a été inscrit au patrimoine mondial de l’UNESCO en 1986."
+    ],
+    "q": {
+      "q": "Que signifie le nom « Zimbabwe » ?",
+      "a": "Maisons de pierre",
+      "x": [
+        "Pays de l’or",
+        "Grand fleuve"
+      ]
+    }
+  },
+  "mapungubwe": {
+    "name": "Mapungubwe",
+    "era": "v. 1075 – 1220",
+    "t": "Le royaume perché du rhinocéros d’or",
+    "s": "Au confluent du Limpopo et de la Shashe, là où se rejoignent aujourd’hui l’Afrique du Sud, le Botswana et le Zimbabwe, se dressait Mapungubwe, capitale de l’un des premiers royaumes d’Afrique australe. Ses souverains vivaient sur une colline de grès au sommet plat, au-dessus de leur peuple, et commerçaient or et ivoire vers l’océan Indien. D’en haut, cherchez le confluent de deux larges rivières, souvent sableuses, dans une brousse sèche.",
+    "w": "Cherchez le confluent du Limpopo et de la Shashe, deux larges rivières sableuses, là où se rejoignent trois pays.",
+    "f": [
+      "Un petit rhinocéros en feuille d’or sur une âme de bois a été trouvé dans une tombe royale.",
+      "Mapungubwe est considéré comme un précurseur du Grand Zimbabwe.",
+      "Le site a été inscrit au patrimoine mondial de l’UNESCO en 2003."
+    ],
+    "q": {
+      "q": "Quel animal en or a été trouvé à Mapungubwe ?",
+      "a": "Un rhinocéros",
+      "x": [
+        "Un lion",
+        "Un éléphant"
+      ]
+    }
+  },
+  "aksum": {
+    "name": "Aksoum",
+    "era": "Ier – VIIe s. apr. J.-C.",
+    "t": "Les stèles géantes d’un empire africain",
+    "s": "Sur les hauts plateaux du nord de l’Éthiopie se dressait Aksoum, capitale d’un empire marchand qui traitait avec Rome, la Perse et l’Inde et frappait ses propres pièces d’or. Ses rois élevèrent de hautes stèles de pierre sculptées sur les tombes royales et, au IVe siècle, le roi Ezana adopta le christianisme. Selon la tradition éthiopienne, l’Arche d’alliance repose dans une chapelle ici. D’en haut, cherchez des plateaux escarpés entaillés de vallées profondes.",
+    "w": "Cherchez de hauts plateaux escarpés entaillés de vallées profondes, tout au nord de l’Éthiopie.",
+    "f": [
+      "La plus haute stèle encore debout mesure environ 24 m.",
+      "Une stèle tombée, longue d’environ 33 m, est peut-être la plus grande pierre d’un seul bloc que les Anciens aient tenté de dresser.",
+      "Aksoum a été inscrite au patrimoine mondial de l’UNESCO en 1980."
+    ],
+    "q": {
+      "q": "Quel roi d’Aksoum a adopté le christianisme ?",
+      "a": "Ezana",
+      "x": [
+        "Lalibela",
+        "Ménélik"
+      ]
+    }
+  },
+  "lalibela": {
+    "name": "Lalibela",
+    "era": "fin XIIe – début XIIIe s.",
+    "t": "Des églises creusées vers le bas dans la roche",
+    "s": "Haut dans les montagnes d’Éthiopie, onze églises furent creusées non pas vers le haut mais vers le bas, dans la roche volcanique massive, il y a environ 800 ans. Le roi Lalibela aurait voulu une nouvelle Jérusalem, et les pèlerins remplissent encore les églises à Noël. La plus célèbre, Saint-Georges, a la forme d’une croix vue d’en haut. En croisière, cherchez des crêtes escarpées et des vallées profondes.",
+    "w": "Cherchez de hautes montagnes escarpées et des gorges profondes sur les hauts plateaux éthiopiens, à l’est du lac Tana.",
+    "f": [
+      "La plupart des églises ont été entièrement dégagées de la roche environnante, fenêtres et portes comprises.",
+      "Lalibela figurait parmi les 12 premiers sites de la liste du patrimoine mondial de l’UNESCO en 1978.",
+      "Les églises servent toujours au culte chaque jour."
+    ],
+    "q": {
+      "q": "Quelle forme a l’église Saint-Georges de Lalibela ?",
+      "a": "Une croix",
+      "x": [
+        "Un cercle",
+        "Une étoile"
+      ]
+    }
+  },
+  "meroe": {
+    "name": "Méroé",
+    "era": "v. 590 av. J.-C. – 350 apr. J.-C.",
+    "t": "Les pyramides pentues du royaume de Koush",
+    "s": "Sur la rive est du Nil, au Soudan, des groupes de pyramides étroites et pentues surgissent du sable. Elles appartiennent à Méroé, capitale du royaume de Koush, qui régna un temps sur l’Égypte elle-même. Ses souverains, dont de puissantes reines, furent enterrés sous plus de 200 pyramides. Méroé fondait aussi le fer à grande échelle. D’en haut, cherchez le ruban vert du Nil, au nord de Khartoum, dans un vaste désert.",
+    "w": "Cherchez la mince ligne verte du Nil qui serpente dans le désert, à environ 200 km au nord-est de Khartoum.",
+    "f": [
+      "Le Soudan compte plus de pyramides que l’Égypte, bien qu’elles soient plus petites et plus pentues.",
+      "Les reines régnantes de Koush portaient le titre de Kandaké, à l’origine du prénom Candace.",
+      "L’écriture méroïtique peut être lue à voix haute, mais la langue reste à peine comprise."
+    ],
+    "q": {
+      "q": "Quel titre portaient les reines régnantes de Koush ?",
+      "a": "Kandaké",
+      "x": [
+        "Sultane",
+        "Begum"
+      ]
+    }
+  },
+  "kilwa": {
+    "name": "Kilwa Kisiwani",
+    "era": "IXe – XVIe s.",
+    "t": "La plus riche des cités-États swahilies",
+    "s": "Sur une petite île au large de la Tanzanie se dressent les ruines en pierre de corail de Kilwa, cité-État swahilie enrichie par le commerce de l’or dans l’océan Indien. Ses sultans bâtirent une grande mosquée à coupoles et un vaste palais face à la mer. Le voyageur Ibn Battuta la visita en 1331 et la loua comme l’une des plus belles villes du monde. D’en haut, cherchez îles, mangroves et hauts-fonds turquoise.",
+    "w": "Cherchez petites îles, chenaux de mangrove et hauts-fonds turquoise sur la côte, à environ 300 km au sud de Dar es Salaam.",
+    "f": [
+      "La Grande Mosquée de Kilwa remonte au XIe siècle.",
+      "Des pièces de Kilwa ont été trouvées jusque dans le nord de l’Australie.",
+      "Kilwa a été inscrite au patrimoine mondial de l’UNESCO en 1981."
+    ],
+    "q": {
+      "q": "Quel voyageur a fait l’éloge de Kilwa en 1331 ?",
+      "a": "Ibn Battuta",
+      "x": [
+        "Marco Polo",
+        "Zheng He"
+      ]
+    }
+  },
+  "olduvai": {
+    "name": "Gorges d’Olduvai",
+    "era": "il y a env. 2 millions d’années – aujourd’hui",
+    "t": "Une gorge qui a ouvert une fenêtre sur nos origines",
+    "s": "Entre les hautes terres du Ngorongoro et les plaines du Serengeti court la gorge d’Olduvai, où des couches d’anciens sédiments lacustres gardent près de deux millions d’années de préhistoire humaine. Mary et Louis Leakey y trouvèrent des fossiles d’humains anciens et certains des plus vieux outils de pierre connus. D’en haut, cherchez l’immense cratère rond du Ngorongoro et, à l’ouest, les plaines pâles du Serengeti ; la gorge est entre les deux.",
+    "w": "Cherchez l’immense cratère rond du Ngorongoro ; la gorge entaille les plaines juste au nord-ouest, vers le Serengeti.",
+    "f": [
+      "Mary Leakey y trouva en 1959 le crâne surnommé « Casse-Noisette ».",
+      "Ses outils de pierre rudimentaires ont donné leur nom à la tradition oldowayenne.",
+      "Tout près, à Laetoli, des empreintes de pas vieilles d’environ 3,6 millions d’années ont été trouvées dans la cendre volcanique."
+    ],
+    "q": {
+      "q": "Qui a trouvé le crâne « Casse-Noisette » en 1959 ?",
+      "a": "Mary Leakey",
+      "x": [
+        "Jane Goodall",
+        "Dian Fossey"
+      ]
+    }
+  },
+  "cradle-of-humankind": {
+    "name": "Berceau de l’humanité",
+    "era": "il y a env. 3,5 millions d’années – aujourd’hui",
+    "t": "Des grottes calcaires pleines de nos ancêtres",
+    "s": "Dans les collines ondulées au nord-ouest de Johannesburg, un ensemble de grottes calcaires a livré une large part des fossiles d’humains anciens du monde. Parmi les découvertes célèbres : « Mrs Ples », un crâne de plus de deux millions d’années, le squelette presque complet appelé « Little Foot », et une espèce nouvelle pour la science, Homo naledi. D’en haut, cherchez l’étalement de Johannesburg et le réservoir de Hartbeespoort parmi les crêtes au nord-ouest.",
+    "w": "Au nord-ouest de Johannesburg, cherchez des crêtes herbeuses et le réservoir du barrage de Hartbeespoort.",
+    "f": [
+      "« Mrs Ples » a été trouvée dans les grottes de Sterkfontein en 1947.",
+      "Homo naledi a été annoncé en 2015 à partir de fossiles trouvés dans le réseau de grottes de Rising Star.",
+      "Le Berceau de l’humanité a été inscrit au patrimoine mondial de l’UNESCO en 1999."
+    ],
+    "q": {
+      "q": "Comment s’appelle le crâne trouvé à Sterkfontein en 1947 ?",
+      "a": "Mrs Ples",
+      "x": [
+        "Lucy",
+        "Toumaï"
+      ]
+    }
+  },
+  "hadar-lucy": {
+    "name": "Hadar, où Lucy fut découverte",
+    "era": "il y a 3,2 millions d’années ; découverte en 1974",
+    "t": "Les badlands où « Lucy » est sortie de terre",
+    "s": "Dans la région brûlante de l’Afar, en Éthiopie, le long de l’Awash, des badlands érodés mettent à nu des couches vieilles de millions d’années. En 1974, une équipe y trouva le squelette partiel d’un parent ancien de l’homme, vieux d’environ 3,2 millions d’années. On l’appela Lucy ; elle montra que nos ancêtres marchaient debout bien avant que leur cerveau ne grossisse. D’en haut, cherchez la vallée verte de l’Awash dans une terre sèche et volcanique.",
+    "w": "Cherchez le fil vert de l’Awash qui serpente dans une terre volcanique sèche et sombre, dans le nord-est de l’Éthiopie.",
+    "f": [
+      "Environ 40 % du squelette de Lucy a été retrouvé.",
+      "En Éthiopie, on l’appelle aussi Dinkinesh, « tu es merveilleuse ».",
+      "Elle appartient à l’espèce Australopithecus afarensis, nommée d’après la région de l’Afar."
+    ],
+    "q": {
+      "q": "Quelle chanson a donné son nom à Lucy ?",
+      "a": "Lucy in the Sky with Diamonds",
+      "x": [
+        "Hey Jude",
+        "Yellow Submarine"
+      ]
+    }
+  },
+  "swahili-coast": {
+    "name": "Côte swahilie",
+    "era": "IXe s. – aujourd’hui",
+    "t": "Des villes de pierre de corail nées du commerce des moussons",
+    "s": "Le long de la côte d’Afrique de l’Est s’est formé un chapelet de villes marchandes, de Lamu et Mombasa à Zanzibar et Kilwa. Leurs marchands commerçaient au gré des moussons avec l’Arabie, la Perse et l’Inde, et bâtissaient en pierre de corail, avec des portes de bois sculpté. La culture swahilie est née de racines africaines, sa langue riche de mots arabes. D’en haut, cherchez récifs, lagunes et plages blanches le long d’une côte verte.",
+    "w": "Cherchez récifs coralliens, lagunes turquoise et îles le long d’une côte verte entre le sud de la Somalie et la Tanzanie.",
+    "f": [
+      "« Swahili » vient d’un mot arabe signifiant « côtes ».",
+      "La vieille ville de Lamu est la plus ancienne et la mieux conservée des villes swahilies, inscrite à l’UNESCO depuis 2001.",
+      "Les boutres, voiliers de bois, utilisent toujours les vents de mousson le long de cette côte."
+    ],
+    "q": {
+      "q": "Que signifie la racine arabe de « swahili » ?",
+      "a": "Côtes",
+      "x": [
+        "Îles",
+        "Marchands"
+      ]
+    }
+  },
+  "tassili-rock-art": {
+    "name": "Art rupestre du Tassili n’Ajjer",
+    "era": "v. 6000 av. J.-C. – Ier s. apr. J.-C.",
+    "t": "Des peintures du temps où le Sahara était vert",
+    "s": "Sur un plateau de grès du Sahara algérien, sculpté en un dédale de piliers rocheux, se trouvent des milliers de peintures et de gravures. Elles montrent girafes, hippopotames et éléphants, et des pasteurs avec leur bétail, dans un pays aujourd’hui désertique. Cet art raconte comment le Sahara est passé de la savane verte au sable au fil des millénaires. D’en haut, cherchez un plateau sombre et érodé au-dessus des dunes pâles, près de Djanet.",
+    "w": "Cherchez un plateau de grès sombre et profondément érodé qui domine des ergs pâles, dans le sud-est de l’Algérie.",
+    "f": [
+      "Plus de 15 000 peintures et gravures y ont été recensées.",
+      "On surnomme souvent les piliers rocheux du plateau la « forêt de pierre ».",
+      "Le Tassili n’Ajjer a été inscrit au patrimoine mondial de l’UNESCO en 1982."
+    ],
+    "q": {
+      "q": "Que révèlent les peintures du Tassili sur le Sahara ?",
+      "a": "Il était jadis vert",
+      "x": [
+        "Il était jadis plus froid",
+        "Il a toujours été désert"
+      ]
+    }
+  },
+  "inca-road": {
+    "name": "Route inca (Qhapaq Ñan)",
+    "era": "XVe – XVIe s.",
+    "t": "Un empire tenu ensemble par des routes de montagne",
+    "s": "Les Incas bâtirent un réseau d’environ 30 000 km de routes le long des Andes, de l’actuelle Colombie au Chili et à l’Argentine. Son axe principal traversait les montagnes de Quito à Cusco puis vers le sud, avec escaliers taillés dans les falaises, ponts de corde sur les gorges et relais à chaque journée de marche. Des coureurs s’y relayaient pour porter les messages. D’en haut, cherchez hauts plateaux, volcans enneigés et lac Titicaca.",
+    "w": "Cherchez le haut plateau andin, nu, des cônes volcaniques enneigés et le grand lac Titicaca, tout bleu.",
+    "f": [
+      "Les Incas n’avaient pas de véhicules à roues : les routes servaient aux marcheurs et aux caravanes de lamas.",
+      "Le pont de corde de Q’eswachaka est toujours refait à la main chaque année.",
+      "Le réseau routier a été inscrit au patrimoine mondial de l’UNESCO en 2014, partagé par six pays."
+    ],
+    "q": {
+      "q": "Quel pont de corde inca est refait chaque année ?",
+      "a": "Q’eswachaka",
+      "x": [
+        "Ollantaytambo",
+        "Sacsayhuamán"
+      ]
+    }
+  },
+  "camino-real-tierra-adentro": {
+    "name": "Camino Real de Tierra Adentro",
+    "era": "1598 – années 1880",
+    "t": "La route royale de l’argent, de Mexico à Santa Fe",
+    "s": "Pendant près de trois siècles, ce fut la grande route du nord depuis Mexico : quelque 2 500 km par les villes minières d’argent de Zacatecas et de Durango, à travers le désert de Chihuahua et le long du Rio Grande jusqu’à Santa Fe. Chariots, convois de mules et missionnaires l’empruntaient. D’en haut, cherchez les hauts bassins désertiques du nord du Mexique et le ruban vert du Rio Grande.",
+    "w": "Cherchez les hauts bassins secs du nord du Mexique et, plus au nord, la ligne verte du Rio Grande.",
+    "f": [
+      "La partie mexicaine de la route a été inscrite au patrimoine mondial de l’UNESCO en 2010.",
+      "Santa Fe, à son extrémité nord, est la plus ancienne capitale d’État des États-Unis.",
+      "L’argent des mines qui la jalonnaient descendait vers Mexico, puis l’Espagne."
+    ],
+    "q": {
+      "q": "Quel métal faisait vivre le Camino Real ?",
+      "a": "L’argent",
+      "x": [
+        "Le cuivre",
+        "L’étain"
+      ]
+    }
+  },
+  "oregon-trail": {
+    "name": "Piste de l’Oregon",
+    "era": "années 1840 – 1860",
+    "t": "Trois mille kilomètres en chariot bâché",
+    "s": "Au milieu du XIXe siècle, des centaines de milliers de colons traversèrent le continent en chariot bâché vers l’Oregon, la Californie et l’Utah. La piste de l’Oregon courait sur environ 3 500 km depuis le Missouri, longeait la Platte, franchissait les Rocheuses au South Pass et descendait la Snake et le Columbia. Le voyage prenait quatre à six mois. D’en haut, cherchez la Platte tressée et les hautes plaines du Wyoming.",
+    "w": "Cherchez la large Platte tressée à travers le Nebraska, puis les hauts bassins secs du Wyoming.",
+    "f": [
+      "Des ornières de chariots creusées dans la roche se voient encore près de Guernsey, dans le Wyoming.",
+      "Les voyageurs visaient Independence Rock pour le 4 juillet, d’où son nom.",
+      "Le South Pass permettait aux chariots de franchir la ligne de partage des eaux en pente douce."
+    ],
+    "q": {
+      "q": "D’où Independence Rock tient-il son nom ?",
+      "a": "On visait de l’atteindre le 4 juillet",
+      "x": [
+        "Il marquait la frontière",
+        "On y signa un traité"
+      ]
+    }
+  },
+  "route-66": {
+    "name": "Route 66",
+    "era": "1926 – 1985",
+    "t": "La « route mère » de l’Amérique, de Chicago au Pacifique",
+    "s": "Ouverte en 1926, la Route 66 courait sur environ 3 900 km de Chicago à Santa Monica, à travers la prairie, le Panhandle texan et les déserts du sud-ouest. Elle emmena vers l’ouest les migrants des années 1930 puis les vacanciers des années 1950, et ses motels, diners et néons devinrent des icônes. Les autoroutes l’ont largement remplacée, mais d’en haut on suit son tracé le long du rail, dans le désert.",
+    "w": "En Arizona et au Nouveau-Mexique, cherchez une route et une voie ferrée côte à côte à travers désert rouge et mesas.",
+    "f": [
+      "John Steinbeck l’appela « la route mère » dans « Les Raisins de la colère ».",
+      "La chanson de 1946 « (Get Your Kicks on) Route 66 » la rendit célèbre dans le monde entier.",
+      "Elle a été officiellement retirée du réseau des routes fédérales américaines en 1985."
+    ],
+    "q": {
+      "q": "Quel écrivain a appelé la Route 66 « la route mère » ?",
+      "a": "John Steinbeck",
+      "x": [
+        "Jack Kerouac",
+        "Mark Twain"
+      ]
+    }
+  },
+  "pony-express": {
+    "name": "Pony Express",
+    "era": "1860 – 1861",
+    "t": "Le courrier au galop à travers l’Ouest",
+    "s": "Pendant environ 18 mois, en 1860 et 1861, des cavaliers aux chevaux rapides portèrent le courrier à travers l’Ouest américain, du Missouri à la Californie, en une dizaine de jours. Ils changeaient de monture toutes les quelques dizaines de kilomètres, à travers plaines, déserts et Sierra Nevada. Puis le télégraphe atteignit la Californie et le service ferma. D’en haut, cherchez les crêtes et bassins secs du Nevada qu’ils franchissaient.",
+    "w": "Cherchez les crêtes parallèles et les bassins secs du Nevada, avec la Sierra Nevada qui s’élève à l’ouest.",
+    "f": [
+      "Le parcours faisait environ 3 000 km, de St. Joseph, dans le Missouri, à Sacramento.",
+      "On comptait environ 190 relais en chemin.",
+      "Le service cessa deux jours après l’achèvement du télégraphe transcontinental, en octobre 1861."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui a mis fin au Pony Express ?",
+      "a": "Le télégraphe transcontinental",
+      "x": [
+        "Le chemin de fer transcontinental",
+        "Les vapeurs par le cap Horn"
+      ]
+    }
+  },
+  "lewis-and-clark": {
+    "name": "Itinéraire de l’expédition Lewis et Clark",
+    "era": "1804 – 1806",
+    "t": "Par le Missouri et les Rocheuses jusqu’au Pacifique",
+    "s": "En 1804, Meriwether Lewis et William Clark partirent des environs de Saint-Louis avec le Corps of Discovery pour trouver une route vers le Pacifique. Ils remontèrent le Missouri à la pagaie, franchirent les Rocheuses avec des chevaux shoshones et descendirent le Columbia jusqu’à l’océan. En chemin, ils cartographièrent les rivières et décrivirent des centaines de plantes et d’animaux. D’en haut, suivez les larges réservoirs du Missouri à travers les plaines.",
+    "w": "Cherchez les longs réservoirs du Missouri à travers les plaines du nord et, tout à l’ouest, la gorge du Columbia.",
+    "f": [
+      "Sacagawea, une Shoshone, voyageait avec eux en portant son bébé.",
+      "Ils passèrent l’hiver 1805–1806 à Fort Clatsop, près de la côte pacifique.",
+      "L’aller-retour couvrit environ 13 000 km."
+    ],
+    "q": {
+      "q": "Quelle Shoshone a voyagé avec Lewis et Clark ?",
+      "a": "Sacagawea",
+      "x": [
+        "Pocahontas",
+        "Nancy Ward"
+      ]
+    }
+  },
+  "transcontinental-railroad": {
+    "name": "Premier chemin de fer transcontinental",
+    "era": "1863 – 1869",
+    "t": "La ligne qui a cousu l’Amérique d’une côte à l’autre",
+    "s": "Dans les années 1860, deux compagnies firent la course pour bâtir une voie ferrée à travers l’Ouest : l’une vers l’est depuis Sacramento, par la Sierra Nevada, l’autre vers l’ouest depuis le Missouri, par les plaines. Elles se rejoignirent à Promontory Summit, dans l’Utah, le 10 mai 1869, où l’on planta un crampon d’or. Des mois de voyage devinrent une semaine. D’en haut, cherchez le Grand Lac Salé et les hauts bassins du Wyoming.",
+    "w": "Cherchez le Grand Lac Salé, avec la péninsule de Promontory sur sa rive nord, et les bassins secs du Wyoming à l’est.",
+    "f": [
+      "Les ouvriers chinois formaient l’essentiel de la main-d’œuvre du Central Pacific dans la Sierra Nevada.",
+      "La nouvelle du crampon d’or fut transmise à tout le pays par télégraphe, en direct.",
+      "La ligne courait sur environ 3 000 km, de Council Bluffs à la baie de San Francisco."
+    ],
+    "q": {
+      "q": "Où le crampon d’or a-t-il été planté en 1869 ?",
+      "a": "À Promontory Summit, dans l’Utah",
+      "x": [
+        "À Omaha, dans le Nebraska",
+        "À Cheyenne, dans le Wyoming"
+      ]
+    }
+  },
+  "erie-canal": {
+    "name": "Canal Érié",
+    "era": "ouvert en 1825",
+    "t": "Le fossé qui a fait de New York l’Empire State",
+    "s": "À son ouverture en 1825, le canal Érié relia l’Hudson, à Albany, au lac Érié, à Buffalo, à quelque 580 km. Les barges purent alors porter céréales et bois des Grands Lacs jusqu’à New York bien moins cher que les chariots, et la ville devint le premier port d’Amérique. Les sceptiques l’avaient surnommé « le fossé de Clinton ». D’en haut, cherchez la vallée de la Mohawk et, à l’ouest, le chapelet des Finger Lakes.",
+    "w": "Cherchez la vallée de la Mohawk à l’ouest d’Albany, puis les longs et minces Finger Lakes au sud du tracé du canal.",
+    "f": [
+      "Le canal d’origine comptait 83 écluses pour monter d’environ 170 m.",
+      "À Lockport, un escalier de cinq écluses, le « Flight of Five », hissait les bateaux sur une crête.",
+      "Il réduisit d’environ 90 % le coût du transport de marchandises de Buffalo à New York."
+    ],
+    "q": {
+      "q": "Quel lac le canal Érié relie-t-il à l’Hudson ?",
+      "a": "Le lac Érié",
+      "x": [
+        "Le lac Huron",
+        "Le lac Michigan"
+      ]
+    }
+  },
+  "panama-canal": {
+    "name": "Canal de Panama",
+    "era": "ouvert en 1914",
+    "t": "Un escalier d’eau entre deux océans",
+    "s": "Ouvert en 1914, le canal de Panama permet aux navires de franchir l’isthme au lieu de contourner l’Amérique du Sud. Des écluses les hissent de 26 m jusqu’au lac Gatún, immense réservoir créé en barrant un fleuve, puis les redescendent vers l’autre océan. Les Français avaient échoué ; les États-Unis achevèrent l’ouvrage. En croisière, il se voit bien : un lac plein d’îles, une tranchée dans les collines vertes et des navires en file aux deux bouts.",
+    "w": "Cherchez le lac Gatún et ses nombreuses îles, l’étroite tranchée dans les collines et les files de navires au large des deux côtes.",
+    "f": [
+      "L’isthme étant courbe, les navires qui vont de l’Atlantique au Pacifique filent en fait vers le sud-est.",
+      "À son remplissage, le lac Gatún était le plus grand lac artificiel du monde.",
+      "En 1928, l’écrivain Richard Halliburton traversa le canal à la nage et paya un péage de 36 cents."
+    ],
+    "q": {
+      "q": "Quel lac forme une grande partie du canal de Panama ?",
+      "a": "Le lac Gatún",
+      "x": [
+        "Le lac Nicaragua",
+        "Le lac Maracaibo"
+      ]
+    }
+  },
+  "canadian-pacific-railway": {
+    "name": "Chemin de fer Canadien Pacifique",
+    "era": "1881 – 1885",
+    "t": "La voie ferrée qui a soudé un jeune pays",
+    "s": "En 1871, la Colombie-Britannique accepta d’entrer dans le Canada à une condition : un chemin de fer jusqu’au Pacifique. Le Canadien Pacifique fut achevé en 1885 : environ 4 600 km depuis Montréal, le long de la rive rocheuse du lac Supérieur, à travers les Prairies et les Rocheuses par le col Kicking Horse. Il transporta colons, blé et touristes. D’en haut, cherchez le quadrillage des fermes des Prairies et le mur des Rocheuses au-delà de Calgary.",
+    "w": "Cherchez l’immense quadrillage des champs des Prairies, puis les Rocheuses à l’ouest de Calgary, avec Banff dans la vallée.",
+    "f": [
+      "Le dernier crampon fut planté à Craigellachie, en Colombie-Britannique, le 7 novembre 1885.",
+      "Les tunnels en spirale, ouverts en 1909, font des boucles dans la montagne pour adoucir la forte pente.",
+      "La compagnie bâtit de grands hôtels, comme le Banff Springs, pour attirer les voyageurs."
+    ],
+    "q": {
+      "q": "Où a été planté le dernier crampon du Canadien Pacifique ?",
+      "a": "À Craigellachie",
+      "x": [
+        "Au col Kicking Horse",
+        "À Winnipeg"
+      ]
+    }
+  },
+  "columbus-1492": {
+    "name": "Premier voyage de Colomb (1492)",
+    "era": "août – octobre 1492",
+    "t": "La traversée qui a réuni les deux moitiés du monde",
+    "s": "En août 1492, trois petits navires quittèrent Palos, en Espagne, sous les ordres de Christophe Colomb, firent escale aux Canaries, puis filèrent vers l’ouest avec les alizés. Après environ cinq semaines en mer, ils atteignirent une île des Bahamas le 12 octobre. Colomb croyait avoir atteint l’Asie. Son voyage ouvrit un contact durable entre l’Europe et les Amériques, aux conséquences profondes pour les peuples des deux rives. D’en haut, cherchez les hauts-fonds turquoise des Bahamas.",
+    "w": "Cherchez les bancs turquoise éclatants et les îles basses des Bahamas, dans un océan bleu profond.",
+    "f": [
+      "Ses navires étaient la Santa María, la Pinta et la Niña.",
+      "La route des alizés du nord-est sert toujours aux voiliers qui traversent l’Atlantique.",
+      "Les Taïnos appelaient Guanahani l’île où il débarqua."
+    ],
+    "q": {
+      "q": "Comment les Taïnos appelaient-ils la première terre touchée par Colomb ?",
+      "a": "Guanahani",
+      "x": [
+        "Borinquen",
+        "Xaymaca"
+      ]
+    }
+  },
+  "alcock-brown-1919": {
+    "name": "Alcock et Brown, première traversée de l’Atlantique sans escale (1919)",
+    "era": "14–15 juin 1919",
+    "t": "Le premier vol sans escale au-dessus de l’Atlantique",
+    "s": "Le 14 juin 1919, John Alcock et Arthur Whitten Brown décollèrent d’un champ de St. John’s, à Terre-Neuve, à bord d’un biplan Vickers Vimy modifié. Ils volèrent environ 16 heures dans le brouillard, la neige et le givre, faisant le point au sextant quand perçaient soleil et étoiles, et se posèrent dans une tourbière près de Clifden, en Irlande. Ce fut le premier vol transatlantique sans escale, et tous deux en sortirent indemnes.",
+    "w": "À l’ouest, cherchez la côte est escarpée de Terre-Neuve ; à l’est, la côte rocheuse du Connemara.",
+    "f": [
+      "Ils prirent la tourbière pour un pré vert : à l’atterrissage, leur avion piqua du nez.",
+      "Ils gagnèrent un prix de 10 000 livres du Daily Mail et furent tous deux anoblis.",
+      "Leur vol couvrit environ 3 000 km."
+    ],
+    "q": {
+      "q": "Où Alcock et Brown se sont-ils posés ?",
+      "a": "Dans une tourbière près de Clifden",
+      "x": [
+        "Sur une plage de Cornouailles",
+        "Dans un champ près de Paris"
+      ]
+    }
+  },
+  "lindbergh-1927": {
+    "name": "Vol New York–Paris de Lindbergh (1927)",
+    "era": "20–21 mai 1927",
+    "t": "Seul au-dessus de l’Atlantique en 33 heures et demie",
+    "s": "Le 20 mai 1927, Charles Lindbergh décolla de Long Island à bord du Spirit of St. Louis, un monomoteur, à destination de Paris. Seul, luttant contre le sommeil, il survola la Nouvelle-Écosse, Terre-Neuve et l’océan, toucha la côte irlandaise presque exactement où prévu et se posa au Bourget après environ 33 heures et demie. Premier vol transatlantique en solitaire sans escale, il le rendit célèbre du jour au lendemain.",
+    "w": "Cherchez la longue côte de Nouvelle-Écosse côté américain, et le sud-ouest de l’Irlande et la Cornouailles côté européen.",
+    "f": [
+      "Un réservoir supplémentaire lui bouchait la vue vers l’avant : il regardait par un périscope ou par les vitres latérales.",
+      "Il remporta le prix Orteig de 25 000 dollars pour le premier vol sans escale entre New York et Paris.",
+      "Une foule immense, estimée à plus de 100 000 personnes, l’accueillit au Bourget."
+    ],
+    "q": {
+      "q": "Combien de temps a duré le vol de Lindbergh ?",
+      "a": "Environ 33 heures et demie",
+      "x": [
+        "Environ 16 heures",
+        "Environ 3 jours"
+      ]
+    }
+  },
+  "transatlantic-telegraph": {
+    "name": "Premier câble télégraphique transatlantique",
+    "era": "1858 ; liaison durable en 1866",
+    "t": "Le fil qui fit dialoguer deux continents en quelques minutes",
+    "s": "En 1866, le gigantesque vapeur Great Eastern posa un câble télégraphique au fond de l’Atlantique, de l’île de Valentia, en Irlande, à Heart’s Content, à Terre-Neuve. Les nouvelles qui mettaient une dizaine de jours par bateau traversaient désormais l’océan en quelques minutes. Un premier câble, en 1858, n’avait fonctionné que quelques semaines. L’internet d’aujourd’hui franchit toujours l’océan par câble, sur à peu près le même fond marin.",
+    "w": "Aux deux bouts, cherchez la pointe escarpée du sud-ouest de l’Irlande et les baies profondes de l’est de Terre-Neuve.",
+    "f": [
+      "L’homme d’affaires américain Cyrus Field consacra douze ans au projet.",
+      "Le câble de 1858 transmit un message de la reine Victoria au président américain qui mit environ 16 heures à passer.",
+      "Le Great Eastern était alors le seul navire assez grand pour emporter tout le câble."
+    ],
+    "q": {
+      "q": "Quel navire a posé le câble atlantique de 1866 ?",
+      "a": "Le Great Eastern",
+      "x": [
+        "Le Great Western",
+        "Le Cutty Sark"
+      ]
+    }
+  },
+  "machu-picchu": {
+    "name": "Machu Picchu",
+    "era": "v. 1450 – 1570",
+    "t": "Un domaine inca sur un col, au-dessus des nuages",
+    "s": "Sur une crête dominant les boucles de l’Urubamba, l’empereur inca Pachacutec bâtit vers 1450 un domaine royal de temples, de terrasses et de maisons en granit. Les Espagnols ne le trouvèrent jamais, et il sortit des mémoires hors de la vallée jusqu’en 1911, quand des paysans du coin y menèrent l’explorateur Hiram Bingham. Le site est minuscule en croisière, mais cherchez les gorges profondes et les sommets enneigés alentour.",
+    "w": "Cherchez la gorge profonde et sinueuse de l’Urubamba au nord-ouest de Cusco, avec le sommet enneigé du Salcantay au sud.",
+    "f": [
+      "Il se trouve à environ 2 430 m, entre les pics du Machu Picchu et du Huayna Picchu.",
+      "Ses pierres sont taillées si juste qu’aucun mortier n’était nécessaire.",
+      "Le Machu Picchu a été inscrit au patrimoine mondial de l’UNESCO en 1983."
+    ],
+    "q": {
+      "q": "Qui a fait connaître le Machu Picchu au monde en 1911 ?",
+      "a": "Hiram Bingham",
+      "x": [
+        "Alexander von Humboldt",
+        "Francisco Pizarro"
+      ]
+    }
+  },
+  "cusco": {
+    "name": "Cusco, capitale inca",
+    "era": "v. 1200 – aujourd’hui",
+    "t": "Le nombril du monde inca",
+    "s": "Dans une haute vallée andine, à environ 3 400 m, se trouve Cusco, capitale de l’Empire inca. Des routes en partaient vers tous les coins du royaume, et ses temples étaient couverts d’or. Les Espagnols bâtirent églises et demeures sur les murs incas, dont les fondations de pierres ajustées bordent toujours les rues. D’en haut, cherchez une ville aux toits de tuiles rouges qui remplit une vallée de montagne verte.",
+    "w": "Cherchez une ville étalée dans une haute vallée verte cernée de montagnes nues, au sud-est de la vallée de l’Urubamba.",
+    "f": [
+      "La « pierre aux douze angles » de Cusco s’emboîte parfaitement dans ses voisines, sans mortier.",
+      "Selon la légende, la ville fut tracée en forme de puma.",
+      "Cusco a été inscrite au patrimoine mondial de l’UNESCO en 1983."
+    ],
+    "q": {
+      "q": "La ville de Cusco aurait la forme de quel animal ?",
+      "a": "Un puma",
+      "x": [
+        "Un condor",
+        "Un lama"
+      ]
+    }
+  },
+  "nazca-lines": {
+    "name": "Lignes de Nazca",
+    "era": "v. 500 av. J.-C. – 500 apr. J.-C.",
+    "t": "Des dessins géants griffés dans le désert",
+    "s": "Sur le plateau sec du sud du Pérou, le peuple de Nazca traça des centaines de lignes droites, de formes géométriques et de figures animales en déplaçant les pierres sombres de surface pour dégager un sol plus pâle. Certaines mesurent des centaines de mètres, et le climat sec et sans vent les a gardées 2 000 ans. Les figures exigent un avion volant bas, mais en croisière on devine parfois les plus longues lignes.",
+    "w": "Cherchez un plateau désertique plat, brun pâle, entre des vallées fluviales, à l’intérieur de la côte sud du Pérou.",
+    "f": [
+      "Environ 70 figures représentent animaux et plantes, dont un colibri, un singe et une araignée.",
+      "La mathématicienne allemande Maria Reiche étudia et protégea les lignes pendant une cinquantaine d’années.",
+      "Les lignes de Nazca ont été inscrites au patrimoine mondial de l’UNESCO en 1994."
+    ],
+    "q": {
+      "q": "Comment les lignes de Nazca ont-elles été tracées ?",
+      "a": "En déplaçant les pierres sombres",
+      "x": [
+        "En brûlant le sol",
+        "En peignant à la chaux"
+      ]
+    }
+  },
+  "chan-chan": {
+    "name": "Chan Chan",
+    "era": "v. 850 – 1470",
+    "t": "La plus grande ville en brique crue des Amériques",
+    "s": "Sur la côte désertique du nord du Pérou se dressait Chan Chan, capitale du royaume chimú. Ses enceintes en adobe, ornées de frises de poissons, d’oiseaux et de vagues, couvraient quelque 20 km² : c’est la plus grande ville en adobe des Amériques. Les Incas la conquirent vers 1470. D’en haut, cherchez la vallée verte du Moche qui rejoint la mer à côté de la ville de Trujillo.",
+    "w": "Cherchez la vallée verte du Moche qui atteint le Pacifique près de Trujillo, avec le désert nu de part et d’autre.",
+    "f": [
+      "La pluie est si rare ici que les murs de terre ont survécu des siècles.",
+      "On pense que chaque souverain chimú bâtissait sa propre enceinte palatiale.",
+      "Chan Chan a été inscrite au patrimoine mondial de l’UNESCO en 1986."
+    ],
+    "q": {
+      "q": "En quoi est bâtie Chan Chan ?",
+      "a": "En adobe (brique crue)",
+      "x": [
+        "En granit taillé",
+        "En pierre de corail"
+      ]
+    }
+  },
+  "caral": {
+    "name": "Caral",
+    "era": "v. 2600 – 1800 av. J.-C.",
+    "t": "Une ville aussi ancienne que les pyramides d’Égypte",
+    "s": "Dans la vallée de Supe, au nord de Lima, se dressait Caral, l’une des plus anciennes villes des Amériques. Vers 2600 av. J.-C., quand s’élevaient les pyramides de Gizeh, ses habitants y bâtirent pyramides à degrés et places circulaires en contrebas, sans poterie ni écriture. Ils cultivaient le coton et commerçaient avec les villages de pêcheurs de la côte. D’en haut, cherchez une mince vallée verte qui traverse le désert côtier.",
+    "w": "Cherchez une étroite vallée verte qui entaille le désert côtier, à environ 180 km au nord de Lima.",
+    "f": [
+      "L’archéologue Ruth Shady dirige les fouilles de Caral depuis 1994.",
+      "Des flûtes en os de pélican et de condor ont été trouvées dans l’un de ses temples.",
+      "La ville sacrée de Caral-Supe a été inscrite au patrimoine mondial de l’UNESCO en 2009."
+    ],
+    "q": {
+      "q": "Qui dirige les fouilles de Caral depuis 1994 ?",
+      "a": "Ruth Shady",
+      "x": [
+        "Hiram Bingham",
+        "Maria Reiche"
+      ]
+    }
+  },
+  "tiwanaku": {
+    "name": "Tiwanaku",
+    "era": "v. 500 – 1000",
+    "t": "Une capitale d’altitude près du lac Titicaca",
+    "s": "Près de la rive sud du lac Titicaca, à environ 3 850 m, se dressait Tiwanaku, capitale d’une civilisation florissante des siècles avant les Incas. Ses bâtisseurs taillaient la pierre avec une précision stupéfiante et nourrissaient la ville grâce à des champs surélevés qui protégeaient les cultures du gel. Les Incas y virent plus tard un lieu sacré des ancêtres. D’en haut, cherchez l’immense lac bleu et l’altiplano plat et froid qui l’entoure.",
+    "w": "Cherchez l’extrémité sud de l’immense lac Titicaca, tout bleu, et la haute plaine plate qui s’étend autour.",
+    "f": [
+      "Sa porte du Soleil fut taillée dans un seul bloc de pierre.",
+      "Sa culture en champs surélevés a été relancée dans certains villages autour du lac.",
+      "Tiwanaku a été inscrit au patrimoine mondial de l’UNESCO en 2000."
+    ],
+    "q": {
+      "q": "Comment s’appelle la célèbre porte sculptée de Tiwanaku ?",
+      "a": "La porte du Soleil",
+      "x": [
+        "La porte des Lionnes",
+        "La porte d’Ishtar"
+      ]
+    }
+  },
+  "potosi": {
+    "name": "Potosí et le Cerro Rico",
+    "era": "dès 1545",
+    "t": "Une montagne d’argent qui a nourri un empire",
+    "s": "Haut sur le plateau bolivien, à environ 4 000 m, se dresse le Cerro Rico, la « colline riche ». Découvert en 1545, son argent en fit l’une des plus riches sources jamais connues, exploitée surtout par le travail forcé des Autochtones. La ville à son pied devint l’une des plus grandes des Amériques, et ses pièces se répandirent dans le monde. D’en haut, cherchez un cône rougeâtre au-dessus d’une ville, sur le haut plateau nu.",
+    "w": "Cherchez une montagne conique et rougeâtre qui domine une ville sur le haut plateau bolivien, nu.",
+    "f": [
+      "L’expression espagnole « vale un Potosí » signifie toujours « ça vaut une fortune ».",
+      "Potosí est l’une des villes les plus hautes du monde.",
+      "La ville a été inscrite au patrimoine mondial de l’UNESCO en 1987."
+    ],
+    "q": {
+      "q": "Que signifie l’expression « vale un Potosí » ?",
+      "a": "Ça vaut une fortune",
+      "x": [
+        "C’est très haut",
+        "C’est très vieux"
+      ]
+    }
+  },
+  "teotihuacan": {
+    "name": "Teotihuacan",
+    "era": "v. 100 av. J.-C. – 550 apr. J.-C.",
+    "t": "Une ville de pyramides qui impressionnait même les Aztèques",
+    "s": "Au nord-est de l’actuelle Mexico s’étendent les ruines de Teotihuacan, l’une des plus grandes villes du monde vers 500 apr. J.-C. Une large avenue de plusieurs kilomètres passe devant les grandes pyramides du Soleil et de la Lune, bordée de temples et de palais. Des siècles après sa chute, les Aztèques croyaient que les dieux y étaient nés. Par air limpide, on distingue parfois la pyramide du Soleil dans la vallée.",
+    "w": "Au nord-est de l’étalement de Mexico, cherchez une vallée cultivée avec une longue avenue droite et deux grandes pyramides.",
+    "f": [
+      "La pyramide du Soleil mesure environ 65 m, l’une des plus grandes des Amériques.",
+      "À son apogée, la ville comptait peut-être environ 100 000 habitants.",
+      "Teotihuacan a été inscrite au patrimoine mondial de l’UNESCO en 1987."
+    ],
+    "q": {
+      "q": "Que signifie « Teotihuacan » en nahuatl ?",
+      "a": "Le lieu où les dieux furent créés",
+      "x": [
+        "La cité du soleil",
+        "La demeure des aigles"
+      ]
+    }
+  },
+  "tenochtitlan": {
+    "name": "Tenochtitlan",
+    "era": "1325 – 1521",
+    "t": "La capitale aztèque bâtie sur un lac",
+    "s": "Mexico occupe le site de Tenochtitlan, capitale aztèque fondée en 1325 sur une île du lac Texcoco. Des chaussées la reliaient à la rive, des canaux couraient entre ses quartiers et des jardins flottants nourrissaient ses habitants. Les premiers Espagnols qui la virent la comparèrent à Venise. Le lac fut ensuite asséché, et d’en haut on ne voit plus qu’une ville immense qui remplit l’ancien lit, cernée de montagnes et de volcans.",
+    "w": "Cherchez une ville immense qui remplit un haut bassin cerné de montagnes, avec les volcans Popocatépetl et Iztaccíhuatl au sud-est.",
+    "f": [
+      "L’aigle sur un cactus du drapeau mexicain vient de la légende de fondation de la ville.",
+      "Les vestiges du Templo Mayor ont été mis au jour dans le centre-ville après 1978.",
+      "Les canaux de Xochimilco sont un fragment préservé de l’ancien paysage lacustre."
+    ],
+    "q": {
+      "q": "Quelle image du drapeau mexicain vient de la légende de Tenochtitlan ?",
+      "a": "Un aigle sur un cactus",
+      "x": [
+        "Un jaguar sur une pyramide",
+        "Un serpent dans un lac"
+      ]
+    }
+  },
+  "chichen-itza": {
+    "name": "Chichén Itzá",
+    "era": "v. 600 – 1200",
+    "t": "Un calendrier maya de pierre sur la plaine du Yucatán",
+    "s": "Sur la plaine calcaire et plate du Yucatán se dresse Chichén Itzá, l’une des plus grandes cités mayas. Sa pyramide à degrés, El Castillo, est un calendrier de pierre : aux équinoxes de printemps et d’automne, les ombres dessinent un serpent qui descend ses marches. Il n’y a pas de rivières ici ; l’eau venait des cenotes, puits naturels creusés dans la roche. D’en haut, cherchez une forêt verte et plate jusqu’à tous les horizons.",
+    "w": "Cherchez une forêt broussailleuse verte, plate et continue à travers le Yucatán, à environ 180 km à l’ouest de Cancún.",
+    "f": [
+      "Les quatre escaliers d’El Castillo et sa plateforme sommitale totalisent 365 marches.",
+      "Son grand terrain de jeu de balle est le plus grand connu de Mésoamérique.",
+      "Chichén Itzá a été inscrite au patrimoine mondial de l’UNESCO en 1988."
+    ],
+    "q": {
+      "q": "Qu’apparaît-il sur les marches d’El Castillo aux équinoxes ?",
+      "a": "Un serpent d’ombre et de lumière",
+      "x": [
+        "Un arc-en-ciel",
+        "Un double lever de soleil"
+      ]
+    }
+  },
+  "tulum": {
+    "name": "Tulum",
+    "era": "XIIIe – XVIe s.",
+    "t": "Un port maya sur une falaise au-dessus des Caraïbes",
+    "s": "Sur une basse falaise dominant la mer des Caraïbes turquoise se dresse Tulum, port maya fortifié encore animé quand passèrent les premiers navires espagnols. Ses temples regardaient une passe dans le récif, et des marchands en pirogue portaient jade, obsidienne et sel le long de la côte. D’en haut, cherchez la longue côte de sable blanc du Yucatán et, juste au large, la ligne du récif-barrière.",
+    "w": "Cherchez la côte de sable blanc au sud de Cancún, avec une mince ligne d’écume qui marque le récif au large.",
+    "f": [
+      "Un mur de pierre protégeait la ville sur trois côtés ; la mer gardait le quatrième.",
+      "Son nom signifie « mur » en maya.",
+      "Le récif-barrière mésoaméricain, au large de cette côte, est le plus grand récif des Amériques."
+    ],
+    "q": {
+      "q": "Qu’est-ce qui protégeait Tulum sur trois côtés ?",
+      "a": "Un mur de pierre",
+      "x": [
+        "Des douves",
+        "Une rivière"
+      ]
+    }
+  },
+  "palenque": {
+    "name": "Palenque",
+    "era": "v. 500 – 800",
+    "t": "Une cité royale maya dans la forêt tropicale",
+    "s": "Là où les collines boisées rencontrent la plaine basse du Chiapas se dresse Palenque, cité maya célèbre pour ses temples élégants et ses inscriptions sculptées. Son plus grand roi, Pakal, régna près de 70 ans au VIIe siècle. En 1952, des archéologues trouvèrent son tombeau au cœur du temple des Inscriptions, avec un masque de jade et un couvercle de pierre magnifiquement sculpté. D’en haut, cherchez des collines vertes qui surgissent de la plaine plate.",
+    "w": "Regardez là où les collines boisées du Chiapas surgissent brusquement de la plaine plate et humide du Tabasco, au nord.",
+    "f": [
+      "Pakal devint roi à l’âge de 12 ans.",
+      "On atteignait le tombeau par un escalier caché à l’intérieur de la pyramide.",
+      "Palenque a été inscrite au patrimoine mondial de l’UNESCO en 1987."
+    ],
+    "q": {
+      "q": "Le tombeau de qui a-t-on trouvé dans le temple des Inscriptions ?",
+      "a": "Celui du roi Pakal",
+      "x": [
+        "Celui de Moctezuma",
+        "Celui d’Atahualpa"
+      ]
+    }
+  },
+  "tikal": {
+    "name": "Tikal",
+    "era": "IVe s. av. J.-C. – Xe s. apr. J.-C.",
+    "t": "Des temples mayas qui dépassent la canopée",
+    "s": "Au cœur de la forêt tropicale du nord du Guatemala, les temples-pyramides de Tikal dépassent la cime des arbres. Ce fut l’une des cités mayas les plus puissantes, peuplée de dizaines de milliers d’habitants, avec places, palais et réservoirs. Des relevés laser aéroportés ont depuis révélé des milliers d’autres bâtiments cachés sous la forêt. D’en haut, cherchez une jungle verte ininterrompue et, au sud, le lac Petén Itzá.",
+    "w": "Cherchez une forêt tropicale verte et ininterrompue dans le nord du Guatemala, avec le long lac Petén Itzá au sud.",
+    "f": [
+      "Son plus haut temple, le Temple IV, mesure environ 65 m.",
+      "Tikal apparaît comme base rebelle dans le premier film « La Guerre des étoiles », en 1977.",
+      "Le site a été inscrit au patrimoine mondial de l’UNESCO en 1979, à la fois pour la nature et la culture."
+    ],
+    "q": {
+      "q": "Quel film a fait de Tikal une base rebelle ?",
+      "a": "La Guerre des étoiles (1977)",
+      "x": [
+        "Indiana Jones",
+        "Jurassic Park"
+      ]
+    }
+  },
+  "mesa-verde": {
+    "name": "Mesa Verde",
+    "era": "v. 550 – 1300",
+    "t": "Des villages nichés dans les alcôves des falaises",
+    "s": "Sur un plateau verdoyant du sud-ouest du Colorado, les Ancestral Puebloans cultivèrent la terre pendant plus de 700 ans. Au XIIIe siècle, ils bâtirent dans les alcôves des parois des canyons des villages de pierre, dont certains de plus de cent pièces. Vers 1300, ils partirent, sans doute chassés par la sécheresse. D’en haut, cherchez une mesa au sommet plat entaillée de canyons profonds, près des Four Corners, où se rejoignent quatre États.",
+    "w": "Cherchez une grande mesa au sommet plat, verte de genévriers et entaillée de canyons, tout au sud-ouest du Colorado.",
+    "f": [
+      "Cliff Palace, la plus grande habitation troglodyte, compte environ 150 pièces.",
+      "En 1906, ce fut le premier parc national américain créé pour protéger des œuvres humaines.",
+      "En 1978, il figurait parmi les 12 premiers sites de la liste du patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quelle est la plus grande habitation troglodyte de Mesa Verde ?",
+      "a": "Cliff Palace",
+      "x": [
+        "Pueblo Bonito",
+        "Taos Pueblo"
+      ]
+    }
+  },
+  "chaco-canyon": {
+    "name": "Chaco Canyon",
+    "era": "v. 850 – 1150",
+    "t": "De grandes maisons alignées sur le soleil et la lune",
+    "s": "Dans un canyon sec du nord-ouest du Nouveau-Mexique, les Ancestral Puebloans bâtirent de grandes maisons de pierre, certaines hautes de plusieurs étages et riches de centaines de pièces. Chaco était un centre d’échanges et de cérémonies, relié à des établissements lointains par des routes rectilignes, et plusieurs bâtiments sont alignés sur le soleil et la lune. D’en haut, cherchez des mesas sèches et des ravines dans le désert vide, au sud de la San Juan.",
+    "w": "Cherchez des mesas sèches, des canyons et des ravines dans le désert ouvert du nord-ouest du Nouveau-Mexique.",
+    "f": [
+      "Pueblo Bonito, la plus grande des grandes maisons, comptait environ 650 pièces.",
+      "Chaco est aussi un parc international de ciel étoilé, avec certaines des nuits les plus noires des États-Unis.",
+      "La culture chaco a été inscrite au patrimoine mondial de l’UNESCO en 1987."
+    ],
+    "q": {
+      "q": "Quelle est la plus grande des grandes maisons de Chaco Canyon ?",
+      "a": "Pueblo Bonito",
+      "x": [
+        "Cliff Palace",
+        "Taos Pueblo"
+      ]
+    }
+  },
+  "cahokia": {
+    "name": "Cahokia",
+    "era": "v. 1050 – 1350",
+    "t": "La grande cité des bâtisseurs de tertres du Mississippi",
+    "s": "En face de Saint-Louis, de l’autre côté du Mississippi, s’étendent les tertres de Cahokia, la plus grande ville au nord du Mexique avant l’arrivée des Européens. Vers 1100, des milliers de personnes y vivaient parmi places, maisons et plus d’une centaine de tertres de terre. Son tertre central, élevé panier après panier, est le plus grand terrassement de ce type des Amériques. D’en haut, cherchez le confluent du Missouri et du Mississippi.",
+    "w": "Cherchez le confluent du Missouri et du Mississippi juste au nord de Saint-Louis ; les tertres sont côté Illinois.",
+    "f": [
+      "Monks Mound mesure environ 30 m de haut et couvre quelque 6 hectares.",
+      "Un cercle de poteaux de bois, aujourd’hui appelé Woodhenge, marquait le lever du soleil aux solstices et aux équinoxes.",
+      "Cahokia a été inscrite au patrimoine mondial de l’UNESCO en 1982."
+    ],
+    "q": {
+      "q": "Comment s’appelle le plus grand terrassement de Cahokia ?",
+      "a": "Monks Mound",
+      "x": [
+        "Serpent Mound",
+        "Grave Creek Mound"
+      ]
+    }
+  },
+  "kitty-hawk": {
+    "name": "Kitty Hawk : le premier vol motorisé",
+    "era": "17 décembre 1903",
+    "t": "Là où les frères Wright ont volé pour la première fois",
+    "s": "Sur les dunes ventées des Outer Banks, près de Kitty Hawk, Orville et Wilbur Wright réalisèrent le 17 décembre 1903 les premiers vols motorisés et contrôlés d’un avion. Le premier dura 12 secondes. Fabricants de vélos de l’Ohio, les frères avaient choisi l’endroit pour ses vents réguliers et son sable mou. Chaque vol depuis, y compris le vôtre, en descend. D’en haut, cherchez les longues îles-barrières au large de la Caroline du Nord.",
+    "w": "Cherchez une longue et étroite chaîne d’îles-barrières sableuses au large de la Caroline du Nord, avec de larges lagunes derrière.",
+    "f": [
+      "Le premier vol couvrit environ 37 m, moins que l’envergure de bien des avions de ligne.",
+      "Leur meilleur vol ce jour-là dura 59 secondes et couvrit environ 260 m.",
+      "Neil Armstrong emporta sur la Lune, en 1969, un morceau de la toile du Wright Flyer."
+    ],
+    "q": {
+      "q": "Combien de temps a duré le premier vol motorisé ?",
+      "a": "12 secondes",
+      "x": [
+        "2 secondes",
+        "3 minutes"
+      ]
+    }
+  },
+  "l-anse-aux-meadows": {
+    "name": "L’Anse aux Meadows",
+    "era": "v. 1000 ; découvert en 1960",
+    "t": "Les Vikings en Amérique, 500 ans avant Colomb",
+    "s": "À la pointe nord de Terre-Neuve s’étendent les vestiges d’un établissement norrois d’environ l’an 1000 : maisons de tourbe, une forge et des fragments de fer et de bronze. C’est le seul site viking confirmé des Amériques, et il concorde avec les sagas racontant l’arrivée de Leif Erikson sur une terre appelée Vinland. D’en haut, cherchez la pointe nord de Terre-Neuve face au détroit de Belle Isle, avec des icebergs au printemps.",
+    "w": "Cherchez la pointe nord de Terre-Neuve au bord de l’étroit détroit de Belle Isle, souvent semé d’icebergs au printemps.",
+    "f": [
+      "Il a été découvert en 1960 par les explorateurs norvégiens Helge Ingstad et Anne Stine Ingstad.",
+      "Les cernes d’un bois coupé avec des outils norrois montrent que l’arbre fut abattu en 1021.",
+      "Il figurait parmi les 12 premiers sites de la liste du patrimoine mondial de l’UNESCO en 1978."
+    ],
+    "q": {
+      "q": "Qui a découvert L’Anse aux Meadows en 1960 ?",
+      "a": "Helge et Anne Stine Ingstad",
+      "x": [
+        "Farley Mowat",
+        "Thor Heyerdahl"
+      ]
+    }
+  },
+  "signal-hill": {
+    "name": "Signal Hill, St. John’s",
+    "era": "1901",
+    "t": "Là où le premier signal radio a traversé l’Atlantique",
+    "s": "Sur un promontoire dominant le port de St. John’s, à Terre-Neuve, Guglielmo Marconi écouta dans un écouteur, le 12 décembre 1901, trois faibles clics envoyés de Cornouailles, à quelque 3 500 km. C’était le premier signal sans fil à traverser l’Atlantique, et il ouvrit l’ère de la radio. Son antenne était un fil tenu en l’air par un cerf-volant. D’en haut, cherchez l’étroite entrée du port de St. John’s, sur la côte est de Terre-Neuve.",
+    "w": "Cherchez une étroite brèche dans les falaises de la côte est de Terre-Neuve, qui s’ouvre sur le port de St. John’s.",
+    "f": [
+      "Les trois clics étaient la lettre S en morse.",
+      "La tour Cabot, sur la colline, commémore le 400e anniversaire du voyage de Jean Cabot en 1497.",
+      "St. John’s est la ville la plus orientale d’Amérique du Nord."
+    ],
+    "q": {
+      "q": "Quelle lettre en morse Marconi a-t-il entendue en 1901 ?",
+      "a": "S",
+      "x": [
+        "O",
+        "E"
+      ]
+    }
+  },
+  "ellis-island": {
+    "name": "Ellis Island et la statue de la Liberté",
+    "era": "1886 – 1954",
+    "t": "La porte d’entrée de millions de nouveaux Américains",
+    "s": "Dans le port de New York, deux petites îles racontent l’histoire de l’immigration américaine. La statue de la Liberté, offerte par la France, fut inaugurée en 1886 et, de 1892 à 1954, quelque 12 millions d’immigrants passèrent par le centre de l’île voisine, Ellis Island. Pour beaucoup, la statue fut leur première image de l’Amérique. D’en haut, cherchez l’Upper Bay entre Manhattan, Brooklyn et le New Jersey.",
+    "w": "Cherchez l’Upper Bay juste au sud-ouest de la pointe de Manhattan, avec deux petites îles près de la rive du New Jersey.",
+    "f": [
+      "L’enveloppe de cuivre de la statue fut conçue par Frédéric Bartholdi, et sa structure de fer par Gustave Eiffel.",
+      "Son cuivre a verdi en une vingtaine d’années sous l’effet des intempéries.",
+      "Le bâtiment principal d’Ellis Island est aujourd’hui un musée de l’immigration."
+    ],
+    "q": {
+      "q": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+      "a": "La France",
+      "x": [
+        "La Grande-Bretagne",
+        "L’Italie"
+      ]
+    }
+  },
+  "kennedy-space-center": {
+    "name": "Centre spatial Kennedy : la route de la Lune",
+    "era": "dès 1962",
+    "t": "Les pas de tir qui ont envoyé des humains sur la Lune",
+    "s": "Sur l’île Merritt, à côté du cap Canaveral, sur la côte atlantique de la Floride, se dressent les pas de tir d’où les astronautes d’Apollo partirent pour la Lune. Apollo 11 décolla du complexe 39A le 16 juillet 1969 ; quatre jours plus tard, deux humains marchaient sur un autre monde. Navettes spatiales et fusées actuelles décollent aussi d’ici. D’en haut, cherchez le cap et ses lagunes qui s’avancent depuis la côte de Floride.",
+    "w": "Cherchez un large cap et une île plate entre de longues lagunes, sur la côte atlantique de la Floride, à l’est d’Orlando.",
+    "f": [
+      "Le Vehicle Assembly Building, où l’on assemble les fusées, est l’un des plus grands bâtiments du monde par le volume.",
+      "Une grande partie des terres autour des pas de tir est une réserve naturelle.",
+      "Le complexe 39A a envoyé des astronautes sur la Lune, des navettes en orbite et des fusées modernes vers la station spatiale."
+    ],
+    "q": {
+      "q": "Quelle mission est partie d’ici pour le premier alunissage ?",
+      "a": "Apollo 11",
+      "x": [
+        "Apollo 8",
+        "Gemini 4"
+      ]
+    }
+  },
+  "sutters-mill": {
+    "name": "Moulin de Sutter, Coloma",
+    "era": "24 janvier 1848",
+    "t": "La paillette d’or qui lança la ruée vers l’or en Californie",
+    "s": "En janvier 1848, un charpentier qui construisait une scierie pour John Sutter sur l’American River remarqua des paillettes d’or dans l’eau. Dans les années qui suivirent, quelque 300 000 personnes affluèrent en Californie, et le petit port de San Francisco devint une ville presque du jour au lendemain. La Californie devint un État en 1850. D’en haut, cherchez les contreforts de la Sierra Nevada et le lac Folsom, à l’est de Sacramento.",
+    "w": "Cherchez les contreforts de la Sierra Nevada couverts de chênes et le réservoir du lac Folsom, à l’est de Sacramento.",
+    "f": [
+      "Le charpentier qui trouva l’or s’appelait James Marshall.",
+      "Les chercheurs d’or de 1849 furent surnommés les « forty-niners ».",
+      "San Francisco passa d’environ 1 000 habitants en 1848 à quelque 25 000 en 1850."
+    ],
+    "q": {
+      "q": "Comment surnommait-on les chercheurs d’or de 1849 ?",
+      "a": "Les forty-niners",
+      "x": [
+        "Les sooners",
+        "Les klondikers"
+      ]
+    }
+  },
+  "santo-domingo": {
+    "name": "Saint-Domingue colonial",
+    "era": "dès 1498",
+    "t": "La plus ancienne ville européenne des Amériques",
+    "s": "À l’embouchure de l’Ozama, sur la côte sud d’Hispaniola, Barthélemy Colomb fonda Saint-Domingue dans les années 1490. Ce fut la première ville européenne permanente des Amériques, et l’on y bâtit la première cathédrale et le premier hôpital du Nouveau Monde. Son vieux quartier de pierre se dresse toujours au bord du fleuve. D’en haut, cherchez une grande ville là où un fleuve rejoint la mer des Caraïbes, sur la rive sud de l’île.",
+    "w": "Cherchez une grande ville côtière sur la rive sud d’Hispaniola, là où l’Ozama rejoint la mer des Caraïbes.",
+    "f": [
+      "Sa cathédrale, achevée vers 1540, est la plus ancienne des Amériques.",
+      "Ses rues suivent un damier qui servit de modèle aux villes espagnoles des Amériques.",
+      "La ville coloniale a été inscrite au patrimoine mondial de l’UNESCO en 1990."
+    ],
+    "q": {
+      "q": "Qui a fondé Saint-Domingue ?",
+      "a": "Barthélemy Colomb",
+      "x": [
+        "Hernán Cortés",
+        "Francisco Pizarro"
+      ]
+    }
+  },
+  "hohokam-canals": {
+    "name": "Canaux hohokams de la vallée de la Salt River",
+    "era": "v. 450 – 1450",
+    "t": "Les canaux anciens sous Phoenix",
+    "s": "Bien avant Phoenix, le peuple hohokam fit verdir la vallée de la Salt River. En mille ans, il creusa à la main des centaines de kilomètres de canaux, le plus grand réseau d’irrigation préhistorique d’Amérique du Nord, et cultiva maïs, haricots et coton en plein désert. Certains canaux actuels suivent leurs tracés. D’en haut, cherchez l’immense quadrillage de Phoenix, sillonné de canaux rectilignes, dans le désert de Sonora.",
+    "w": "Cherchez l’immense quadrillage de Phoenix dans le désert, traversé de longs canaux rectilignes et cerné de montagnes nues.",
+    "f": [
+      "On estime le réseau de canaux hohokam à plus de 500 km.",
+      "Phoenix fut nommée dans les années 1860 pour une ville nouvelle qui renaissait sur les ruines d’une ancienne.",
+      "Le musée Pueblo Grande, à Phoenix, conserve un tertre-plateforme hohokam."
+    ],
+    "q": {
+      "q": "Pourquoi a-t-on donné son nom à Phoenix ?",
+      "a": "Elle est née sur des ruines antiques",
+      "x": [
+        "On y vit un oiseau rare",
+        "Un bateau à vapeur portait ce nom"
+      ]
+    }
+  },
+  "ouro-preto": {
+    "name": "Ouro Preto",
+    "era": "XVIIIe s.",
+    "t": "Une ville baroque de la ruée vers l’or, au Brésil",
+    "s": "Dans les collines escarpées du Minas Gerais, une ruée vers l’or à la fin du XVIIe siècle fit naître Ouro Preto, alors appelée Vila Rica. Son or aida à payer un âge de splendeur au Portugal, et ses mineurs et marchands remplirent la ville d’églises baroques ornées par le sculpteur Aleijadinho. D’en haut, cherchez un pays de collines vertes marqué de terre rouge par les mines, au sud-est de Belo Horizonte.",
+    "w": "Cherchez des collines vertes et escarpées et des cicatrices minières de terre rouge dans le Minas Gerais, au sud-est de Belo Horizonte.",
+    "f": [
+      "« Ouro Preto » signifie « or noir », d’après la pellicule sombre d’oxyde de fer qui couvrait son or.",
+      "Au XVIIIe siècle, le Minas Gerais fit du Brésil l’un des premiers producteurs d’or du monde.",
+      "En 1980, ce fut le premier site brésilien inscrit au patrimoine mondial de l’UNESCO."
+    ],
+    "q": {
+      "q": "Quel sculpteur a orné les églises d’Ouro Preto ?",
+      "a": "Aleijadinho",
+      "x": [
+        "Oscar Niemeyer",
+        "Candido Portinari"
+      ]
+    }
+  },
+  "hokulea-1976": {
+    "name": "Voyage de Hōkūleʻa à Tahiti (1976)",
+    "era": "mai – juin 1976",
+    "t": "Une pirogue qui a ramené à la vie l’histoire polynésienne",
+    "s": "En 1976, la pirogue de voyage à double coque Hōkūleʻa rallia Tahiti depuis Hawaï, plus de 4 000 km d’océan, sans boussole ni carte. Son navigateur, Mau Piailug, de Micronésie, lisait étoiles, houle et oiseaux, comme les navigateurs polynésiens depuis des siècles. Le voyage aida à montrer que le peuplement du Pacifique fut une exploration voulue, non une dérive. Des milliers de personnes l’accueillirent à Papeete. D’en haut, cet océan paraît sans fin.",
+    "w": "Un océan ouvert entre Hawaï et Tahiti ; près de Tahiti, cherchez l’île haute et verte et les atolls des Tuamotu.",
+    "f": [
+      "La traversée dura environ un mois.",
+      "Mau Piailug apprit la navigation traditionnelle sur la minuscule île de Satawal.",
+      "Entre 2013 et 2017, Hōkūleʻa a fait le tour du monde."
+    ],
+    "q": {
+      "q": "Qui a mené Hōkūleʻa jusqu’à Tahiti en 1976 ?",
+      "a": "Mau Piailug",
+      "x": [
+        "Tupaia",
+        "Thor Heyerdahl"
+      ]
+    }
+  },
+  "aotearoa-voyage": {
+    "name": "Voyage polynésien vers Aotearoa",
+    "era": "v. 1250 – 1300",
+    "t": "La dernière grande terre peuplée par l’homme",
+    "s": "Vers 1250–1300, des navigateurs de Polynésie orientale firent voile vers le sud-ouest sur des milliers de kilomètres, en pirogues à double coque, et trouvèrent une grande terre fraîche et boisée : Aotearoa, la Nouvelle-Zélande. Ils se guidaient sur les étoiles, la houle et le vol des oiseaux, et emportaient plantes et animaux pour une vie nouvelle. Ce fut la dernière grande terre peuplée par l’homme. D’en haut, l’immensité de cet océan rend humble.",
+    "w": "Un océan ouvert au sud-ouest des îles Cook ; à l’arrivée, cherchez les collines vertes et les havres de l’île du Nord.",
+    "f": [
+      "La tradition maorie nomme Hawaiki la patrie des premiers navigateurs.",
+      "Bien des tribus maories font remonter leur lignée à une pirogue de voyage précise.",
+      "Les navigateurs apportèrent des plantes comme le kūmara, une patate douce."
+    ],
+    "q": {
+      "q": "Comment s’appelle la patrie ancestrale dans la tradition maorie ?",
+      "a": "Hawaiki",
+      "x": [
+        "Aotearoa",
+        "Rapa Nui"
+      ]
+    }
+  },
+  "rapa-nui-voyage": {
+    "name": "Voyage polynésien vers Rapa Nui",
+    "era": "v. 1150 – 1250",
+    "t": "À travers l’océan vide jusqu’à l’île la plus isolée",
+    "s": "Il y a environ 800 ans, des navigateurs polynésiens partis vers l’est depuis les îles Mangareva trouvèrent un minuscule point de terre loin dans le Pacifique : Rapa Nui, l’île de Pâques. Elle se trouve à plus de 2 000 km de l’île habitée la plus proche, et la trouver volontairement exigeait une navigation extraordinaire. Les colons y sculptèrent ensuite les célèbres moaï. D’en haut, on mesure l’exploit : rien que l’océan, dans toutes les directions.",
+    "w": "Un océan sans fin à l’est de Pitcairn ; au bout, une petite île triangulaire aux trois volcans.",
+    "f": [
+      "La patate douce, culture sud-américaine, a atteint la Polynésie avant les Européens.",
+      "Des études génétiques suggèrent que Polynésiens et Amérindiens du Sud se sont rencontrés il y a environ 800 ans.",
+      "Pitcairn, sur le chemin, compte aujourd’hui moins de 50 habitants."
+    ],
+    "q": {
+      "q": "Quelle culture sud-américaine a atteint la Polynésie avant les Européens ?",
+      "a": "La patate douce",
+      "x": [
+        "La pomme de terre",
+        "Le maïs"
+      ]
+    }
+  },
+  "cook-first-voyage": {
+    "name": "Premier voyage de James Cook (1768–1771)",
+    "era": "1768 – 1771",
+    "t": "Cartographier le Pacifique à bord de l’Endeavour",
+    "s": "En 1768, James Cook quitta Plymouth à bord du HMS Endeavour pour observer depuis Tahiti le passage de Vénus devant le Soleil. Il fit ensuite le tour des deux grandes îles de Nouvelle-Zélande en cartographiant leurs côtes, puis longea la côte est de l’Australie, une première pour un navire européen. Le voyage rapporta des cartes, des plantes et des animaux inconnus de la science européenne. D’en haut, cherchez les longues côtes de Nouvelle-Zélande.",
+    "w": "Cherchez les deux longues îles de Nouvelle-Zélande et, plus à l’ouest, la côte est de l’Australie le long de la mer de Corail.",
+    "f": [
+      "Le botaniste Joseph Banks récolta des milliers de spécimens de plantes pendant le voyage.",
+      "Le navigateur tahitien Tupaia rejoignit le navire et dessina une carte de nombreuses îles du Pacifique.",
+      "L’Endeavour heurta la Grande Barrière en 1770 et fut réparé à l’actuelle Cooktown."
+    ],
+    "q": {
+      "q": "Qu’a observé Cook à Tahiti en 1769 ?",
+      "a": "Le passage de Vénus",
+      "x": [
+        "Une éclipse totale de soleil",
+        "La comète de Halley"
+      ]
+    }
+  },
+  "overland-telegraph": {
+    "name": "Ligne télégraphique transaustralienne",
+    "era": "1870 – 1872",
+    "t": "Le fil qui a relié l’Australie au monde",
+    "s": "En 1872 fut achevé un unique fil télégraphique d’Adélaïde à Darwin, à travers le cœur du continent, où il rejoignait un câble sous-marin vers Java puis Londres. Les nouvelles d’Europe, qui mettaient des mois par bateau, arrivaient désormais en quelques heures. Des stations relais furent bâties toutes les quelques centaines de kilomètres, et l’une d’elles devint Alice Springs. D’en haut, cherchez le désert rouge et la route qui suit la ligne.",
+    "w": "Cherchez un désert rouge traversé d’une route et d’une voie ferrée solitaires, et les longues crêtes parallèles des monts MacDonnell à Alice Springs.",
+    "f": [
+      "La ligne mesurait environ 3 200 km et exigea quelque 36 000 poteaux.",
+      "Les travaux furent dirigés par Charles Todd, maître des postes et astronome d’Australie-Méridionale.",
+      "Alice Springs porte le nom de sa femme, Alice Todd."
+    ],
+    "q": {
+      "q": "D’où Alice Springs tient-elle son nom ?",
+      "a": "D’Alice Todd, l’épouse de Charles Todd",
+      "x": [
+        "De la princesse Alice",
+        "De la fille d’un gouverneur"
+      ]
+    }
+  },
+  "kingsford-smith-1928": {
+    "name": "Première traversée aérienne du Pacifique (1928)",
+    "era": "31 mai – 9 juin 1928",
+    "t": "Le premier vol au-dessus du Pacifique, en trois sauts",
+    "s": "En 1928, Charles Kingsford Smith, Charles Ulm et deux équipiers américains menèrent le trimoteur Fokker Southern Cross de la Californie à l’Australie. Ils firent escale à Hawaï et aux Fidji, et l’étape Hawaï–Suva, plus de 5 000 km d’océan, fut le plus long vol au-dessus de l’eau jamais réalisé jusque-là. Après environ 83 heures de vol, ils se posèrent à Brisbane sous les acclamations. D’en haut, le Pacifique qu’ils ont franchi paraît sans fin.",
+    "w": "L’océan Pacifique entre Hawaï et les Fidji ; à l’arrivée, la côte du Queensland et la rivière de Brisbane.",
+    "f": [
+      "L’équipage traversa des orages de nuit, en s’orientant aux étoiles, au compas et au dérivomètre.",
+      "Le Southern Cross est conservé dans un mémorial à l’aéroport de Brisbane.",
+      "Le voyage complet couvrit environ 11 600 km."
+    ],
+    "q": {
+      "q": "Comment s’appelait l’avion de Kingsford Smith ?",
+      "a": "Southern Cross",
+      "x": [
+        "Spirit of St. Louis",
+        "Friendship"
+      ]
+    }
+  },
+  "uluru-kata-tjuta": {
+    "name": "Uluṟu-Kata Tjuṯa",
+    "era": "des dizaines de millénaires – aujourd’hui",
+    "t": "Un paysage culturel vivant des Aṉangu",
+    "s": "Au cœur rouge de l’Australie se dresse Uluṟu, immense rocher de grès d’un seul tenant, et à 25 km à l’ouest les dômes de Kata Tjuṯa. Pour les Aṉangu, propriétaires traditionnels, ces lieux sont liés au Tjukurpa, la loi et le savoir qui règlent leur vie et leur terre. Leurs récits sont inscrits dans les reliefs du rocher. En croisière, cherchez un rocher rouge solitaire sur une plaine plate, et des dômes à côté.",
+    "w": "Un monolithe rouge isolé qui surgit d’une plaine rouge et plate, avec un groupe de dômes arrondis à environ 25 km à l’ouest.",
+    "f": [
+      "Le parc a été rendu aux Aṉangu en 1985 et est cogéré avec eux.",
+      "À la demande des propriétaires traditionnels, l’ascension d’Uluṟu a cessé définitivement en 2019.",
+      "L’UNESCO a inscrit le parc pour sa nature en 1987, puis comme paysage culturel en 1994."
+    ],
+    "q": {
+      "q": "En quelle année l’ascension d’Uluṟu a-t-elle pris fin ?",
+      "a": "2019",
+      "x": [
+        "1985",
+        "2000"
+      ]
+    }
+  },
+  "rapa-nui": {
+    "name": "Rapa Nui (île de Pâques)",
+    "era": "v. 1200 – aujourd’hui",
+    "t": "Les moaï de l’île habitée la plus isolée",
+    "s": "Rapa Nui, l’île de Pâques, est un petit triangle de volcans dans le sud-est du Pacifique, à plus de 2 000 km de l’île habitée la plus proche. Ses habitants sculptèrent des centaines de grandes statues de pierre, les moaï, pour la plupart dans une seule carrière volcanique, et en dressèrent beaucoup sur des plateformes, dos à la mer. En croisière, l’île est un petit triangle vert-brun seul dans l’océan, avec un volcan à chaque coin.",
+    "w": "Une petite île triangulaire en plein océan, avec un cratère volcanique à chaque coin.",
+    "f": [
+      "On connaît près de 900 moaï sur l’île.",
+      "La plupart ont été sculptés dans la carrière du volcan Rano Raraku.",
+      "Le parc national de Rapa Nui a été inscrit au patrimoine mondial de l’UNESCO en 1995."
+    ],
+    "q": {
+      "q": "Où la plupart des moaï ont-ils été sculptés ?",
+      "a": "Dans la carrière du Rano Raraku",
+      "x": [
+        "Au village d’Orongo",
+        "Sur la plage d’Anakena"
+      ]
+    }
+  },
+  "nan-madol": {
+    "name": "Nan Madol",
+    "era": "v. 1180 – 1628",
+    "t": "Une cité d’îlots de basalte sur un récif du Pacifique",
+    "s": "Au large de Pohnpei, en Micronésie, s’étendent les ruines de Nan Madol, bâties sur une centaine d’îlots artificiels posés sur un récif corallien. Ses murs sont faits de longues colonnes de basalte noir empilées en croisillons comme des bûches, certaines de plusieurs tonnes. Ce fut le siège des souverains Saudeleur, qui gouvernèrent l’île pendant des siècles. D’en haut, cherchez une haute île verte cernée de récif et de mangroves.",
+    "w": "Cherchez l’île haute et luxuriante de Pohnpei, cernée de récif et de mangroves ; les ruines sont au large de sa côte est.",
+    "f": [
+      "Les canaux entre les îlots lui ont valu le surnom de Venise du Pacifique.",
+      "La façon dont les bâtisseurs ont déplacé les lourdes colonnes de basalte fait toujours débat.",
+      "Nan Madol a été inscrite au patrimoine mondial de l’UNESCO en 2016."
+    ],
+    "q": {
+      "q": "En quoi sont bâtis les murs de Nan Madol ?",
+      "a": "En colonnes de basalte empilées",
+      "x": [
+        "En briques de terre",
+        "En troncs d’arbres"
+      ]
+    }
+  },
+  "taputapuatea": {
+    "name": "Marae de Taputapuātea",
+    "era": "v. 1000 – aujourd’hui",
+    "t": "Le cœur sacré de la navigation polynésienne",
+    "s": "Sur l’île de Raiatea se dresse Taputapuātea, ensemble de plateformes cérémonielles de pierre, ou marae, au centre du monde polynésien. Les navigateurs partaient d’ici, et des prêtres d’îles lointaines venaient s’y réunir, emportant des pierres pour fonder de nouveaux marae à travers le Pacifique. Son cadre de forêt, de lagon et de passe dans le récif fait partie de son sens. D’en haut, cherchez deux îles qui partagent un même lagon.",
+    "w": "Cherchez deux îles vertes, Raiatea et Tahaʻa, enfermées ensemble dans un même lagon turquoise, au nord-ouest de Tahiti.",
+    "f": [
+      "L’ancien nom de Raiatea, Havaiʻi, rappelle la patrie ancestrale des traditions polynésiennes.",
+      "Des pirogues de voyage comme Hōkūleʻa y ont été accueillies à l’époque moderne.",
+      "Taputapuātea a été inscrit au patrimoine mondial de l’UNESCO en 2017."
+    ],
+    "q": {
+      "q": "Quel était l’ancien nom de Raiatea ?",
+      "a": "Havaiʻi",
+      "x": [
+        "Hiva Oa",
+        "Aotearoa"
+      ]
+    }
+  },
+  "budj-bim": {
+    "name": "Pièges à anguilles de Budj Bim",
+    "era": "au moins 6 600 ans",
+    "t": "L’une des plus anciennes piscicultures du monde",
+    "s": "Dans les champs de lave du sud-ouest du Victoria, le peuple gunditjmara construisit canaux, barrages et bassins pour piéger, stocker et récolter les anguilles. Certaines parties du système sont datées d’environ 6 600 ans, ce qui en fait l’un des plus anciens systèmes d’aquaculture connus. Des fondations de maisons de pierre se trouvent tout près. D’en haut, cherchez les plaines volcaniques et les lacs près de la côte, avec le cône bas du Budj Bim.",
+    "w": "Cherchez des plaines volcaniques plates, des lacs et des zones humides à l’intérieur des terres depuis Portland, près du cône bas du Budj Bim.",
+    "f": [
+      "La coulée de lave où sont creusés les canaux vient du volcan Budj Bim, il y a environ 30 000 ans.",
+      "Les anguilles étaient fumées et échangées bien au-delà de la région.",
+      "Budj Bim a été inscrit au patrimoine mondial de l’UNESCO en 2019."
+    ],
+    "q": {
+      "q": "Qu’est-ce que les canaux de Budj Bim piégeaient ?",
+      "a": "Des anguilles",
+      "x": [
+        "Des truites",
+        "Des crabes"
+      ]
+    }
+  },
+  "lake-mungo": {
+    "name": "Lac Mungo",
+    "era": "v. 50 000 ans – aujourd’hui",
+    "t": "Un lac asséché qui garde 40 000 ans d’histoire humaine",
+    "s": "Dans l’outback de la Nouvelle-Galles du Sud s’étendent les lits asséchés des lacs Willandra, pleins d’eau lors de la dernière ère glaciaire. Sur leurs dunes en croissant, on a trouvé les sépultures de la Dame et de l’Homme de Mungo, vieilles d’environ 40 000 ans, parmi les plus anciennes connues, avec des signes de rites soignés. En croisière, le paysage frappe : lits de lacs pâles et plats, bordés à l’est de dunes blanches en croissant.",
+    "w": "Cherchez un chapelet de lits de lacs pâles, secs et plats, chacun avec une dune blanche en croissant sur son côté est.",
+    "f": [
+      "La dune blanche en croissant du lac Mungo s’appelle les Walls of China.",
+      "La Dame de Mungo est la plus ancienne crémation rituelle connue au monde.",
+      "L’Homme de Mungo a été rendu à ses propriétaires traditionnels, au lac Mungo, en 2017."
+    ],
+    "q": {
+      "q": "Comment s’appellent les dunes blanches en croissant du lac Mungo ?",
+      "a": "Les Walls of China",
+      "x": [
+        "Les Pinnacles",
+        "Les Olgas"
+      ]
+    }
+  },
+  "kakadu-rock-art": {
+    "name": "Art rupestre de Kakadu",
+    "era": "des dizaines de millénaires – aujourd’hui",
+    "t": "Une galerie peinte profonde de plusieurs millénaires",
+    "s": "Le long de l’escarpement de grès de la Terre d’Arnhem et sur les affleurements rocheux de Kakadu, des générations d’artistes bininj et mungguy ont peint animaux, humains et êtres ancestraux, couche après couche, pendant des millénaires. Certaines peintures montrent l’intérieur des poissons et des animaux, os compris. Les propriétaires traditionnels veillent toujours sur ces sites. D’en haut, cherchez une longue ligne de falaises de grès au-dessus de zones humides et de plaines inondables vertes.",
+    "w": "Cherchez un long escarpement de grès au-dessus de vastes plaines inondables vertes et de rivières sinueuses, à l’est de Darwin.",
+    "f": [
+      "Certaines peintures montrent le thylacine, disparu d’Australie continentale il y a des milliers d’années.",
+      "Des peintures plus récentes relatent l’arrivée de voiliers et de visiteurs européens.",
+      "Kakadu a été inscrit au patrimoine mondial de l’UNESCO en 1981, à la fois pour la nature et la culture."
+    ],
+    "q": {
+      "q": "Quel style montre les os et les organes des animaux ?",
+      "a": "Le style « rayons X »",
+      "x": [
+        "La peinture par points",
+        "Les mains négatives"
+      ]
+    }
+  },
+  "nansen-greenland-1888": {
+    "name": "Traversée du Groenland par Nansen (1888)",
+    "era": "août – octobre 1888",
+    "t": "La première traversée de l’inlandsis du Groenland",
+    "s": "En 1888, Fridtjof Nansen et cinq compagnons débarquèrent sur la côte est déserte du Groenland et partirent à skis à travers l’inlandsis, en tirant leurs traîneaux. Ils choisirent l’est pour s’interdire tout retour. Après environ six semaines et une montée à quelque 2 700 m, ils redescendirent vers les fjords près de Godthåb, l’actuelle Nuuk. En croisière, l’inlandsis paraît tel qu’ils l’ont vu : blanc jusqu’à tous les horizons.",
+    "w": "Cherchez l’inlandsis du Groenland, plat et blanc jusqu’à l’horizon, avec montagnes sombres et fjords le long des côtes.",
+    "f": [
+      "Deux membres de l’équipe, Samuel Balto et Ole Ravna, étaient des Sâmes.",
+      "Ils manquèrent le dernier bateau et passèrent l’hiver à Godthåb, parmi les Groenlandais.",
+      "Nansen écrivit ensuite un livre sur la vie et les coutumes groenlandaises."
+    ],
+    "q": {
+      "q": "Pourquoi Nansen a-t-il traversé le Groenland d’est en ouest ?",
+      "a": "Pour s’interdire tout retour",
+      "x": [
+        "Pour suivre le soleil",
+        "Parce que le vent soufflait à l’ouest"
+      ]
+    }
+  },
+  "nansen-fram": {
+    "name": "Dérive du Fram de Nansen (1893–1896)",
+    "era": "1893 – 1896",
+    "t": "Un navire pris dans la glace exprès",
+    "s": "Convaincu que la banquise dérivait à travers l’océan Arctique, Nansen laissa en 1893 son navire spécialement conçu, le Fram, se faire prendre dans la glace au nord de la Sibérie et dériver avec elle. Avec un compagnon, il le quitta ensuite à skis et alla plus au nord que quiconque avant lui. Trois ans plus tard, le Fram se libéra près du Svalbard, et toute l’expédition rentra. D’en haut, l’océan gelé n’a pas changé.",
+    "w": "Au-dessus de l’océan Arctique, cherchez une banquise blanche coupée de chenaux d’eau sombre, au nord de la Sibérie et du Svalbard.",
+    "f": [
+      "La coque arrondie du Fram était conçue pour que la glace le soulève au lieu de l’écraser.",
+      "Nansen et Hjalmar Johansen atteignirent 86° 14′ N en avril 1895.",
+      "Le Fram est conservé dans son propre musée, à Oslo."
+    ],
+    "q": {
+      "q": "Jusqu’à quelle latitude Nansen et Johansen sont-ils allés ?",
+      "a": "86° 14′ N",
+      "x": [
+        "84° 04′ N",
+        "90° N"
+      ]
+    }
+  },
+  "amundsen-northwest-passage": {
+    "name": "Passage du Nord-Ouest d’Amundsen (1903–1906)",
+    "era": "1903 – 1906",
+    "t": "Le premier navire à franchir le passage du Nord-Ouest",
+    "s": "Les marins cherchaient depuis longtemps une route maritime par le nord de l’Amérique. En 1903, Roald Amundsen partit avec six hommes sur le Gjøa, un petit harenguier. Ils passèrent deux hivers sur l’île du Roi-Guillaume, apprenant des Inuits Netsilik à vivre sur la glace. En 1906, le Gjøa atteignit Nome, en Alaska : le premier navire à franchir le passage. D’en haut, cherchez le dédale d’îles et de chenaux arctiques.",
+    "w": "Cherchez le dédale d’îles et de chenaux encombrés de glace de l’Arctique canadien, au nord de la côte continentale.",
+    "f": [
+      "Le port où ils hivernèrent est aujourd’hui la communauté inuite de Gjoa Haven.",
+      "Amundsen fit environ 800 km à skis jusqu’à une station télégraphique d’Alaska pour annoncer la nouvelle.",
+      "Le Gjøa ne mesurait qu’environ 21 m de long."
+    ],
+    "q": {
+      "q": "Où le Gjøa a-t-il passé deux hivers ?",
+      "a": "À Gjoa Haven, île du Roi-Guillaume",
+      "x": [
+        "À Resolute Bay",
+        "À Pond Inlet"
+      ]
+    }
+  },
+  "amundsen-south-pole": {
+    "name": "Expédition d’Amundsen au pôle Sud (1911)",
+    "era": "octobre 1911 – janvier 1912",
+    "t": "Les premiers hommes au pôle Sud",
+    "s": "En octobre 1911, Roald Amundsen et quatre compagnons quittèrent leur cabane sur la barrière de Ross avec des traîneaux à chiens. Ils gravirent un grand glacier à travers les monts Transantarctiques jusqu’au plateau polaire et atteignirent le pôle Sud le 14 décembre 1911, les premiers à le faire. Tous les cinq rentrèrent sains et saufs. D’en haut, l’Antarctique est un plateau d’un blanc aveuglant, percé de chaînes de montagnes.",
+    "w": "Un plateau de glace d’un blanc aveuglant, percé par les pics sombres des monts Transantarctiques.",
+    "f": [
+      "Leur base, Framheim, se dressait sur la barrière de Ross, dans la baie des Baleines.",
+      "Ils gagnèrent le plateau par le glacier Axel Heiberg.",
+      "Au pôle, ils laissèrent une tente avec une lettre pour le roi de Norvège."
+    ],
+    "q": {
+      "q": "Quand Amundsen a-t-il atteint le pôle Sud ?",
+      "a": "Le 14 décembre 1911",
+      "x": [
+        "Le 17 janvier 1912",
+        "Le 6 avril 1909"
+      ]
+    }
+  },
+  "nordenskiold-vega": {
+    "name": "Expédition de la Vega de Nordenskiöld (1878–1879)",
+    "era": "1878 – 1880",
+    "t": "Le premier navire à franchir le passage du Nord-Est",
+    "s": "En 1878, l’explorateur suédo-finlandais Adolf Erik Nordenskiöld mena le vapeur Vega vers l’est, le long de la côte arctique sibérienne. Premier navire à doubler le cap Tcheliouskine, point le plus septentrional de l’Eurasie, il resta dix mois pris dans les glaces près du détroit de Béring puis gagna le Pacifique en juillet 1879. Rentré par Suez, il fut le premier à faire le tour de l’Eurasie. D’en haut, cherchez la côte sibérienne et sa banquise.",
+    "w": "Cherchez la longue côte arctique et basse de la Sibérie, avec la banquise au large une grande partie de l’année.",
+    "f": [
+      "Le Vega doubla le cap Tcheliouskine le 19 août 1878.",
+      "Pris dans les glaces, l’équipage fit connaissance avec ses voisins tchouktches.",
+      "Stockholm fête toujours le jour de la Vega le 24 avril, date du retour du navire en 1880."
+    ],
+    "q": {
+      "q": "Quel cap le Vega fut-il le premier navire à doubler ?",
+      "a": "Le cap Tcheliouskine",
+      "x": [
+        "Le cap Dejnev",
+        "Le cap Nord"
+      ]
+    }
+  },
+  "norge-1926": {
+    "name": "Le dirigeable Norge au-dessus du pôle Nord (1926)",
+    "era": "11–14 mai 1926",
+    "t": "Le premier survol incontesté du pôle Nord",
+    "s": "En mai 1926, le dirigeable Norge quitta le Svalbard avec 16 personnes à bord, dont Roald Amundsen, l’Américain Lincoln Ellsworth et son concepteur et pilote italien, Umberto Nobile. Il passa le pôle Nord le 12 mai et, après environ 70 heures de vol, se posa à Teller, en Alaska. Ce fut le premier survol incontesté du pôle et la première traversée aérienne de l’océan Arctique.",
+    "w": "Au-dessus de l’océan Arctique, cherchez la banquise jusqu’à l’horizon ; aux deux bouts, les montagnes du Svalbard et la côte de l’Alaska.",
+    "f": [
+      "Au pôle, l’équipage largua les drapeaux de la Norvège, des États-Unis et de l’Italie.",
+      "Son mât d’amarrage se dresse toujours à Ny-Ålesund, au Svalbard.",
+      "Titina, la petite chienne de Nobile, était du voyage."
+    ],
+    "q": {
+      "q": "Qui a conçu et piloté le dirigeable Norge ?",
+      "a": "Umberto Nobile",
+      "x": [
+        "Ferdinand von Zeppelin",
+        "Richard Byrd"
+      ]
+    }
+  },
+  "chkalov-1937": {
+    "name": "Vol transpolaire de Tchkalov (1937)",
+    "era": "18–20 juin 1937",
+    "t": "De Moscou à l’Amérique par le toit du monde",
+    "s": "En juin 1937, Valeri Tchkalov, Gueorgui Baïdoukov et Alexandre Beliakov relièrent sans escale Moscou à l’Amérique du Nord par le pôle Nord, sur un ANT-25 monomoteur. Après 63 heures, en grande partie dans les nuages et le givre, ils se posèrent à Pearson Field, à Vancouver, dans l’État de Washington. Ce fut le premier vol sans escale entre l’Europe et l’Amérique par le pôle, précurseur des routes polaires qu’empruntent aujourd’hui bien des vols.",
+    "w": "Au-dessus de l’Arctique, cherchez la banquise, puis les îles de l’Arctique canadien et les montagnes côtières du nord-ouest Pacifique.",
+    "f": [
+      "Ils visaient San Francisco mais se posèrent plus tôt, à court de carburant.",
+      "Le vol couvrit environ 9 000 km.",
+      "Un monument au vol se dresse à Vancouver, dans l’État de Washington."
+    ],
+    "q": {
+      "q": "Où l’équipage de Tchkalov s’est-il posé en 1937 ?",
+      "a": "À Vancouver (Washington)",
+      "x": [
+        "À San Francisco",
+        "À Seattle"
+      ]
+    }
+  },
+  "beagle-voyage": {
+    "name": "Voyage du Beagle (1831–1836)",
+    "era": "1831 – 1836",
+    "t": "Le voyage qui a façonné la grande idée de Darwin",
+    "s": "En décembre 1831, le HMS Beagle quitta Plymouth pour relever les côtes d’Amérique du Sud, avec à bord un naturaliste de 22 ans, Charles Darwin. En cinq ans, il récolta fossiles, oiseaux et coléoptères, franchit les Andes à cheval et visita les Galápagos, puis le navire rentra par le tour du monde. Ce qu’il vit le mena à la théorie de l’évolution par sélection naturelle. D’en haut, cherchez les longues côtes d’Amérique du Sud.",
+    "w": "Cherchez les longues côtes atlantique et pacifique de l’Amérique du Sud, et le dédale de chenaux de la Terre de Feu.",
+    "f": [
+      "Darwin publia « De l’origine des espèces » en 1859, 23 ans après la fin du voyage.",
+      "Le canal Beagle, en Terre de Feu, porte le nom du navire.",
+      "Son capitaine, Robert FitzRoy, publia plus tard certaines des premières prévisions météo publiques."
+    ],
+    "q": {
+      "q": "Qui était le capitaine du HMS Beagle ?",
+      "a": "Robert FitzRoy",
+      "x": [
+        "James Cook",
+        "William Bligh"
+      ]
+    }
+  },
+  "magnetic-north-pole-1831": {
+    "name": "Pôle Nord magnétique, atteint en 1831",
+    "era": "1er juin 1831",
+    "t": "Là où l’aiguille de la boussole pointait droit vers le bas",
+    "s": "Le 1er juin 1831, l’explorateur britannique James Clark Ross atteignit le pôle Nord magnétique sur la péninsule de Boothia, dans l’Arctique canadien. Là, l’aiguille d’une boussole d’inclinaison pointait droit vers le bas. Le pôle ne reste pas en place : il a dérivé depuis de plus de mille kilomètres, à travers l’océan Arctique, vers la Sibérie. D’en haut, cherchez la péninsule de Boothia et les chenaux gelés qui l’entourent.",
+    "w": "Cherchez la péninsule de Boothia, pointe la plus septentrionale de l’Amérique du Nord continentale, entre des détroits gelés.",
+    "f": [
+      "Ross était le neveu du chef de l’expédition, John Ross.",
+      "Amundsen remesura la position du pôle depuis Gjoa Haven en 1904.",
+      "Le pôle magnétique est aujourd’hui bien plus proche de la Sibérie que du Canada."
+    ],
+    "q": {
+      "q": "De combien le pôle magnétique s’est-il déplacé depuis 1831 ?",
+      "a": "De plus de 1 000 km",
+      "x": [
+        "D’environ 10 km",
+        "D’environ 100 km"
+      ]
+    }
   }
 }
