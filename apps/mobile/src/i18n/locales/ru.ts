@@ -298,6 +298,8 @@ export const ru = {
     collapse: 'свернуть',
     follow: 'к самолёту',
     followA11y: 'Вернуть карту к самолёту и следить за ним',
+    zoomIn: 'Приблизить',
+    zoomOut: 'Отдалить',
   },
   guess: {
     label: 'угадайте',

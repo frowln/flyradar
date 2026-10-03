@@ -1,5 +1,5 @@
-# Onboarding → board → demo flight Moscow–Sochi, in Russian.
-# Run by .github/workflows/ios.yml; locally: maestro test .maestro/1-start.yaml
+# The demo tour, part 1: onboarding → board → Moscow–Sochi demo flight, in Russian.
+# Run by scripts/simulator-demo.sh (and .github/workflows/ios.yml).
 appId: com.skyatlas.app
 ---
 - launchApp:
@@ -9,27 +9,30 @@ appId: com.skyatlas.app
 - extendedWaitUntil:
     visible: "Что за окном"
     timeout: 90000
-- takeScreenshot: 01-onboarding
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 01-onboarding-1
 - tapOn: "дальше"
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 02-onboarding-2
 - tapOn: "дальше"
-- takeScreenshot: 02-onboarding-last
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 03-onboarding-3
 - tapOn: "Или выбрать маршрут демо"
 - extendedWaitUntil:
     visible: "Узнайте, над чем летите"
     timeout: 20000
-- takeScreenshot: 03-board
+- runScript: { file: pause.js, env: { MS: 2000 } }
+- takeScreenshot: 04-board
 - scrollUntilVisible:
     element: "Москва — Сочи.*"
     direction: DOWN
-- takeScreenshot: 04-board-routes
+- runScript: { file: pause.js, env: { MS: 1500 } }
+- takeScreenshot: 05-board-routes
 - tapOn: "Москва — Сочи.*"
-- tapOn:
-    text: "Разрешить"
-    optional: true
-- tapOn:
-    text: "Allow"
-    optional: true
+- tapOn: { text: "Разрешить", optional: true }
+- tapOn: { text: "Allow", optional: true }
 - extendedWaitUntil:
     visible: "во весь экран"
     timeout: 90000
-- takeScreenshot: 05-flight
+- runScript: { file: pause.js, env: { MS: 4000 } }
+- takeScreenshot: 06-flight

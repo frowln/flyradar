@@ -295,6 +295,8 @@ export const ja = {
     collapse: '縮小',
     follow: '機体へ',
     followA11y: '地図を機体に戻して追従する',
+    zoomIn: 'ズームイン',
+    zoomOut: 'ズームアウト',
   },
   guess: {
     label: 'クイズ',

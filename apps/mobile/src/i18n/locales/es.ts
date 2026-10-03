@@ -296,6 +296,8 @@ export const es = {
     collapse: 'reducir',
     follow: 'al avión',
     followA11y: 'Volver el mapa al avión y seguirlo',
+    zoomIn: 'Acercar',
+    zoomOut: 'Alejar',
   },
   guess: {
     label: 'adivina',

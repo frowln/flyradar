@@ -1,0 +1,59 @@
+# Part 6: the Atlas — passport, map of flights, streak, the year in the sky, achievements, settings, Pro.
+appId: com.skyatlas.app
+---
+- tapOn: { text: "Атлас.*", optional: true }
+- runScript: { file: pause.js, env: { MS: 3000 } }
+- takeScreenshot: 50-atlas
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 51-atlas
+- scrollUntilVisible:
+    element: "Ваш .* год в небе"
+    direction: UP
+- tapOn: "Ваш .* год в небе"
+- runScript: { file: pause.js, env: { MS: 3500 } }
+- takeScreenshot: 52-year
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 53-year
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 54-year
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 55-year
+- tapOn: "Назад"
+- runScript: { file: pause.js, env: { MS: 1500 } }
+- scrollUntilVisible:
+    element: "Все достижения"
+    direction: DOWN
+- runScript: { file: pause.js, env: { MS: 2000 } }
+- takeScreenshot: 56-atlas-collections
+- tapOn: "Все достижения"
+- runScript: { file: pause.js, env: { MS: 3000 } }
+- takeScreenshot: 57-achievements
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 58-achievements
+- tapOn: "Назад"
+- runScript: { file: pause.js, env: { MS: 1500 } }
+- scrollUntilVisible:
+    element: "Настройки"
+    direction: DOWN
+- tapOn:
+    text: "Настройки"
+    index: 0
+- runScript: { file: pause.js, env: { MS: 3000 } }
+- takeScreenshot: 59-settings
+- scrollUntilVisible:
+    element: "SkyAtlas Pro.*"
+    direction: DOWN
+- runScript: { file: pause.js, env: { MS: 1500 } }
+- takeScreenshot: 60-settings
+- tapOn: "SkyAtlas Pro.*"
+- runScript: { file: pause.js, env: { MS: 3500 } }
+- takeScreenshot: 61-pro
+- tapOn: { text: "Отмена", optional: true }
+- runScript: { file: pause.js, env: { MS: 1500 } }
+- tapOn: { text: "Назад", optional: true }
+- runScript: { file: pause.js, env: { MS: 1500 } }

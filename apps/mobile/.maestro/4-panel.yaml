@@ -1,0 +1,38 @@
+# Part 4: under the map — numbers, the window view on both sides, what comes next, a place card.
+appId: com.skyatlas.app
+---
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 30-panel
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 31-panel
+- tapOn: { text: "правое", optional: true }
+- runScript: { file: pause.js, env: { MS: 3000 } }
+- takeScreenshot: 32-window-right
+- tapOn: { text: "левое", optional: true }
+- runScript: { file: pause.js, env: { MS: 2000 } }
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 33-panel-next
+- tapOn:
+    text: ".*, (слева|справа), .*"
+    index: 0
+- runScript: { file: pause.js, env: { MS: 3500 } }
+- takeScreenshot: 34-place
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 35-place
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 36-place
+- tapOn: { text: "Вижу!", optional: true }
+- runScript: { file: pause.js, env: { MS: 2000 } }
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 37-place
+- tapOn: "Назад"
+- runScript: { file: pause.js, env: { MS: 1500 } }
+- scroll
+- runScript: { file: pause.js, env: { MS: 2000 } }
+- takeScreenshot: 38-panel-end

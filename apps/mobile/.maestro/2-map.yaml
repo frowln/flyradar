@@ -1,26 +1,43 @@
-# The flight map: full screen, drag away, back to the aircraft, night chart.
+# Part 2: the flight map — full screen, zoom in and out, drag away, back to the plane, night chart.
 appId: com.skyatlas.app
 ---
 - tapOn: "во весь экран"
-- waitForAnimationToEnd
+- runScript: { file: pause.js, env: { MS: 3000 } }
 - takeScreenshot: 10-map-full
+- tapOn: "Приблизить"
+- runScript: { file: pause.js, env: { MS: 1200 } }
+- tapOn: "Приблизить"
+- runScript: { file: pause.js, env: { MS: 3000 } }
+- takeScreenshot: 11-map-zoom-in
+- tapOn: "Приблизить"
+- runScript: { file: pause.js, env: { MS: 3000 } }
+- takeScreenshot: 12-map-zoom-in-more
+- tapOn: "Отдалить"
+- runScript: { file: pause.js, env: { MS: 800 } }
+- tapOn: "Отдалить"
+- runScript: { file: pause.js, env: { MS: 800 } }
+- tapOn: "Отдалить"
+- runScript: { file: pause.js, env: { MS: 800 } }
+- tapOn: "Отдалить"
+- runScript: { file: pause.js, env: { MS: 3000 } }
+- takeScreenshot: 13-map-zoom-out
+- tapOn: "Приблизить"
+- runScript: { file: pause.js, env: { MS: 800 } }
+- tapOn: "Приблизить"
+- runScript: { file: pause.js, env: { MS: 1500 } }
 - swipe:
-    start: 50%, 50%
-    end: 15%, 25%
-    duration: 700
-- waitForAnimationToEnd
-- takeScreenshot: 11-map-dragged
+    start: 50%, 55%
+    end: 12%, 28%
+    duration: 900
+- runScript: { file: pause.js, env: { MS: 3000 } }
+- takeScreenshot: 14-map-dragged
 - tapOn: "Вернуть карту к самолёту и следить за ним"
-- waitForAnimationToEnd
-- takeScreenshot: 12-map-follow
-- tapOn:
-    text: "Показать тёмную ночную карту"
-    optional: true
-- waitForAnimationToEnd
-- takeScreenshot: 13-map-night
-- tapOn:
-    text: "Показать цветную карту с рельефом"
-    optional: true
+- runScript: { file: pause.js, env: { MS: 3500 } }
+- takeScreenshot: 15-map-follow
+- tapOn: { text: "Показать тёмную ночную карту", optional: true }
+- runScript: { file: pause.js, env: { MS: 3500 } }
+- takeScreenshot: 16-map-night
+- tapOn: { text: "Показать цветную карту с рельефом", optional: true }
+- runScript: { file: pause.js, env: { MS: 2000 } }
 - tapOn: "свернуть"
-- waitForAnimationToEnd
-- takeScreenshot: 14-flight
+- runScript: { file: pause.js, env: { MS: 1500 } }

@@ -70,6 +70,16 @@ jobs:
         id: demo
         working-directory: apps/mobile
         run: scripts/simulator-demo.sh ios/build/Build/Products/Release-iphonesimulator/SkyAtlas.app "$RUNNER_TEMP/demo"
+      - name: A small copy of the video
+        if: always() && steps.demo.outcome != 'skipped'
+        env:
+          DEMO: ${{ runner.temp }}/demo
+        run: |
+          [ -f "$DEMO/demo-flight.mp4" ] || exit 0
+          brew install ffmpeg >/dev/null 2>&1 || true
+          ffmpeg -loglevel error -y -i "$DEMO/demo-flight.mp4" -vf "scale=480:-2,fps=24" \
+            -c:v libx264 -preset veryfast -crf 30 -pix_fmt yuv420p -movflags +faststart -an "$DEMO/demo-tour-480p.mp4" || true
+          ls -la "$DEMO"
       - name: Keep the video and screenshots
         if: always()
         uses: actions/upload-artifact@v4
@@ -97,6 +107,15 @@ jobs:
             sips -s format jpeg -s formatOptions 60 --resampleWidth 480 "$f" --out "$SHOTS/maestro-$(basename "$f" .png | tr ' ' '-').jpg" >/dev/null
           done
           cp "$DEMO/summary.txt" "$SHOTS/" 2>/dev/null || true
+          # Each step of each part, passed or failed and why.
+          find "$DEMO/maestro-debug" "$DEMO/maestro" -name 'commands*.json' 2>/dev/null | while read -r f; do
+            python3 -c 'import json,sys; [print(("OK  " if c.get("metadata",{}).get("status")=="COMPLETED" else c.get("metadata",{}).get("status","?")[:4].ljust(4)), json.dumps(c.get("command",{}),ensure_ascii=False)[:160], (c.get("metadata",{}).get("error") or {}).get("message","")[:200]) for c in json.load(open(sys.argv[1]))]' "$f" > "$SHOTS/steps-$(basename "$f" .json).txt" 2>/dev/null || true
+          done
+          # The tour on video, if the small copy came out small enough to keep in git.
+          if [ -f "$DEMO/demo-tour-480p.mp4" ] && [ "$(stat -f%z "$DEMO/demo-tour-480p.mp4")" -lt 60000000 ]; then
+            cp "$DEMO/demo-tour-480p.mp4" "$SHOTS/"
+          fi
+          [ -f "$DEMO/app.log" ] && grep -iE "error|exception|fatal|warn|crash" "$DEMO/app.log" | tail -300 > "$SHOTS/app-errors.log" || true
           [ -f "$DEMO/maestro.log" ] && tail -c 150000 "$DEMO/maestro.log" > "$SHOTS/maestro.log"
           # What was on screen, as text: the UI tree Maestro saw after each phase.
           for t in "$DEMO"/tree/*.json; do

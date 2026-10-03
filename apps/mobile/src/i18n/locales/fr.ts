@@ -296,6 +296,8 @@ export const fr = {
     collapse: 'réduire',
     follow: 'vers l’avion',
     followA11y: 'Recentrer la carte sur l’avion et le suivre',
+    zoomIn: 'Zoom avant',
+    zoomOut: 'Zoom arrière',
   },
   guess: {
     label: 'devinez',

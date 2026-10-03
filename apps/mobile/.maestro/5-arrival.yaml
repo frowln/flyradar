@@ -1,0 +1,25 @@
+# Part 5: landing — what the flight added to the passport, achievements, the quiz, the postcard.
+appId: com.skyatlas.app
+---
+- extendedWaitUntil:
+    visible: "в паспорт"
+    timeout: 420000
+- runScript: { file: pause.js, env: { MS: 4000 } }
+- takeScreenshot: 40-arrival
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 41-arrival
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 42-arrival
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 43-arrival
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 44-arrival
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 45-arrival
+- tapOn: "в паспорт"
+- runScript: { file: pause.js, env: { MS: 3000 } }

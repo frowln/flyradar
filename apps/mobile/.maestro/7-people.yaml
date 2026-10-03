@@ -1,0 +1,43 @@
+# Part 7: People — who is in the sky now, leaderboards by distance, countries and XP, a traveller's profile, the feed.
+appId: com.skyatlas.app
+---
+- tapOn: "Люди.*"
+- runScript: { file: pause.js, env: { MS: 3500 } }
+- takeScreenshot: 70-people
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 71-people-board
+- tapOn: { text: "страны", optional: true }
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 72-board-countries
+- tapOn: { text: "опыт", optional: true }
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- tapOn: { text: "за месяц", optional: true }
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 73-board-month-xp
+- tapOn: { text: "налёт", optional: true }
+- tapOn: { text: "все", optional: true }
+- runScript: { file: pause.js, env: { MS: 2000 } }
+- tapOn:
+    text: "1\\. .*"
+    index: 0
+- runScript: { file: pause.js, env: { MS: 3500 } }
+- takeScreenshot: 74-person
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 75-person
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 76-person
+- tapOn: "Назад"
+- runScript: { file: pause.js, env: { MS: 1500 } }
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 77-feed
+- tapOn: { text: "браво.*", index: 0, optional: true }
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 78-feed
+- scroll
+- runScript: { file: pause.js, env: { MS: 2500 } }
+- takeScreenshot: 79-feed

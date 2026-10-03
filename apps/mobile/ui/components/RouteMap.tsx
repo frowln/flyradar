@@ -1,7 +1,7 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { View, StyleSheet, Pressable } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
-import { Map, Camera, GeoJSONSource, Layer, Marker, RasterSource, RasterDEMSource, type ViewStateChangeEvent } from '@maplibre/maplibre-react-native';
+import { Map, Camera, GeoJSONSource, Layer, Marker, RasterSource, RasterDEMSource, type ViewStateChangeEvent, type MapRef, type CameraRef } from '@maplibre/maplibre-react-native';
 import type { RoutePoint, POI } from '@skyatlas/shared';
 import { palette, line, s as space } from '../design/tokens';
 import { decorative } from '../design/layout';
@@ -65,6 +65,10 @@ const HILLSHADE = {
 
 /** Degrees of span visible when the camera follows the aircraft. */
 const CRUISE_ZOOM = 4.2;
+
+/** How far out and in the buttons go: the whole route at one end, a town at the other. */
+const MIN_ZOOM = 2;
+const MAX_ZOOM = 12;
 
 /** How far the passenger may nudge the chart, in screen points, before it stops following. */
 const DRIFT_PX = 48;
@@ -171,6 +175,18 @@ export default function RouteMap({
     if (pixelsApart(v.center, position, v.zoom) > DRIFT_PX) setDetached(true);
   };
 
+  const mapRef = useRef<MapRef>(null);
+  const cameraRef = useRef<CameraRef>(null);
+
+  /** One step in or out; following, the aircraft stays in the middle. */
+  const zoomBy = async (step: number) => {
+    haptics.selection?.();
+    const now = (await mapRef.current?.getZoom().catch(() => undefined)) ?? followZoom;
+    const next = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, now + step));
+    if (tracking) setFollowZoom(next);
+    else cameraRef.current?.zoomTo(next, { duration: 300 });
+  };
+
   const backToPlane = () => {
     haptics.selection?.();
     setDetached(false);
@@ -249,6 +265,7 @@ export default function RouteMap({
     <View style={styles.fill}>
       <View {...decorative} style={styles.fill}>
         <Map
+          ref={mapRef}
           style={styles.fill}
           mapStyle={localizedStyle(night, getLocale().slice(0, 2))}
           logo={false}
@@ -258,6 +275,7 @@ export default function RouteMap({
           onRegionDidChange={onRegionDidChange}
         >
           <Camera
+            ref={cameraRef}
             {...(tracking ? { center: [position.lon, position.lat] as [number, number], zoom: followZoom, duration: 600 } : {})}
             initialViewState={{ center: [position.lon, position.lat], zoom: CRUISE_ZOOM }}
           />
@@ -382,6 +400,19 @@ export default function RouteMap({
         </Map>
       </View>
 
+      <View style={styles.zoom} pointerEvents="box-none">
+        <Pressable onPress={() => zoomBy(1)} accessibilityRole="button" accessibilityLabel={t('map.zoomIn')} hitSlop={4} style={[styles.zoomButton, styles.zoomTop]}>
+          <Label tone="muted" style={styles.zoomGlyph}>
+            +
+          </Label>
+        </Pressable>
+        <Pressable onPress={() => zoomBy(-1)} accessibilityRole="button" accessibilityLabel={t('map.zoomOut')} hitSlop={4} style={styles.zoomButton}>
+          <Label tone="muted" style={styles.zoomGlyph}>
+            −
+          </Label>
+        </Pressable>
+      </View>
+
       <View style={styles.controls} pointerEvents="box-none">
         {follow && detached ? (
           <Pressable
@@ -422,6 +453,19 @@ export default function RouteMap({
 const styles = StyleSheet.create({
   fill: { flex: 1, backgroundColor: palette.void },
   controls: { position: 'absolute', right: space.x3, bottom: space.x3, flexDirection: 'row', gap: space.x2 },
+  zoom: {
+    position: 'absolute',
+    right: space.x3,
+    top: space.x3,
+    borderRadius: 10,
+    overflow: 'hidden',
+    backgroundColor: 'rgba(11, 14, 17, 0.82)',
+    borderWidth: line.hair,
+    borderColor: palette.rule
+  },
+  zoomButton: { width: 40, height: 40, alignItems: 'center', justifyContent: 'center' },
+  zoomTop: { borderBottomWidth: line.hair, borderBottomColor: palette.rule },
+  zoomGlyph: { fontSize: 20, lineHeight: 22, letterSpacing: 0 },
   follow: { borderColor: palette.amber, backgroundColor: 'rgba(11, 14, 17, 0.92)' },
   control: {
     minHeight: 32,

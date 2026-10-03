@@ -1,0 +1,14 @@
+# The demo tour runs as one workspace: one Maestro session, the parts in
+# this order, and a part that stops early does not stop the rest.
+flows:
+  - "*.yaml"
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - 1-start
+    - 2-map
+    - 3-scrub
+    - 4-panel
+    - 5-arrival
+    - 6-atlas
+    - 7-people

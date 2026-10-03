@@ -296,6 +296,8 @@ export const en = {
     collapse: 'collapse',
     follow: 'to the plane',
     followA11y: 'Bring the map back to the aircraft and follow it',
+    zoomIn: 'Zoom in',
+    zoomOut: 'Zoom out',
   },
   guess: {
     label: 'guess',

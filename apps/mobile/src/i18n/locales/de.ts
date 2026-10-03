@@ -296,6 +296,8 @@ export const de = {
     collapse: 'verkleinern',
     follow: 'zum Flugzeug',
     followA11y: 'Karte wieder auf das Flugzeug zentrieren und ihm folgen',
+    zoomIn: 'Hineinzoomen',
+    zoomOut: 'Herauszoomen',
   },
   guess: {
     label: 'Ratespiel',

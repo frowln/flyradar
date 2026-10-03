@@ -1,0 +1,11 @@
+# Part 3: slide along the route to see a later moment, then back to the plane.
+appId: com.skyatlas.app
+---
+- swipe:
+    from: "Момент полёта"
+    direction: RIGHT
+    duration: 1500
+- runScript: { file: pause.js, env: { MS: 3500 } }
+- takeScreenshot: 20-scrub-ahead
+- tapOn: { text: "к самолёту", optional: true }
+- runScript: { file: pause.js, env: { MS: 2000 } }
