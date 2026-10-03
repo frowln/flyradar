@@ -359,6 +359,12 @@ export default function RouteMap({
           onRegionWillChange={onRegionWillChange}
           onRegionDidChange={onRegionDidChange}
         >
+          {/*
+            Every source and layer carries a key: the library re-keys its
+            children by position, so a layer that comes and goes (the night
+            glow, the satellite) shifted the others, which it reads as a
+            changed id and throws — the iPhone map died switching night to day.
+          */}
           <Camera
             ref={cameraRef}
             {...cameraStop}
@@ -366,8 +372,9 @@ export default function RouteMap({
           />
 
           {night ? null : (
-            <RasterSource id="relief" tiles={[RELIEF_TILES]} tileSize={256} maxzoom={6}>
+            <RasterSource key="relief" id="relief" tiles={[RELIEF_TILES]} tileSize={256} maxzoom={6}>
               <Layer
+                key="relief"
                 id="relief"
                 type="raster"
                 beforeId="park"
@@ -377,12 +384,13 @@ export default function RouteMap({
           )}
 
           {layer === 'satellite' ? (
-            <RasterSource id="satellite" tiles={[SATELLITE_TILES]} tileSize={256} maxzoom={8} attribution="NASA Blue Marble · GIBS">
-              <Layer id="satellite" type="raster" beforeId="boundary_3" paint={{ 'raster-fade-duration': 0 }} />
+            <RasterSource key="satellite" id="satellite" tiles={[SATELLITE_TILES]} tileSize={256} maxzoom={8} attribution="NASA Blue Marble · GIBS">
+              <Layer key="satellite" id="satellite" type="raster" beforeId="boundary_3" paint={{ 'raster-fade-duration': 0 }} />
             </RasterSource>
           ) : null}
           {layer === 'satellite' ? (
             <RasterSource
+              key="satellite-detail"
               id="satellite-detail"
               tiles={[SATELLITE_DETAIL_TILES]}
               tileSize={256}
@@ -390,17 +398,18 @@ export default function RouteMap({
               maxzoom={14}
               attribution="Sentinel-2 cloudless 2016 by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016)"
             >
-              <Layer id="satellite-detail" type="raster" beforeId="boundary_3" minzoom={8} paint={{ 'raster-fade-duration': 0 }} />
+              <Layer key="satellite-detail" id="satellite-detail" type="raster" beforeId="boundary_3" minzoom={8} paint={{ 'raster-fade-duration': 0 }} />
             </RasterSource>
           ) : null}
 
-          <RasterDEMSource id="dem" tiles={[DEM_TILES]} tileSize={256} maxzoom={DEM_MAX_ZOOM} encoding="terrarium">
-            <Layer id="hillshade" type="hillshade" beforeId="water" paint={night ? HILLSHADE.night : HILLSHADE.day} />
+          <RasterDEMSource key="dem" id="dem" tiles={[DEM_TILES]} tileSize={256} maxzoom={DEM_MAX_ZOOM} encoding="terrarium">
+            <Layer key="hillshade" id="hillshade" type="hillshade" beforeId="water" paint={night ? HILLSHADE.night : HILLSHADE.day} />
           </RasterDEMSource>
 
           {sectors ? (
-            <GeoJSONSource id="sectors" data={sectors}>
+            <GeoJSONSource key="sectors" id="sectors" data={sectors}>
               <Layer
+                key="sector-fill"
                 id="sector-fill"
                 type="fill"
                 paint={{
@@ -411,8 +420,9 @@ export default function RouteMap({
             </GeoJSONSource>
           ) : null}
 
-          <GeoJSONSource id="leg" data={leg}>
+          <GeoJSONSource key="leg" id="leg" data={leg}>
             <Layer
+              key="leg-line"
               id="leg-line"
               type="line"
               layout={{ 'line-cap': 'round', 'line-join': 'round' }}
@@ -420,8 +430,9 @@ export default function RouteMap({
             />
           </GeoJSONSource>
 
-          <GeoJSONSource id="flown" data={flown}>
+          <GeoJSONSource key="flown" id="flown" data={flown}>
             <Layer
+              key="flown-line"
               id="flown-line"
               type="line"
               layout={{ 'line-cap': 'round', 'line-join': 'round' }}
@@ -429,9 +440,10 @@ export default function RouteMap({
             />
           </GeoJSONSource>
 
-          <GeoJSONSource id="places" data={places} onPress={onPlacePress}>
+          <GeoJSONSource key="places" id="places" data={places} onPress={onPlacePress}>
             {night ? (
               <Layer
+                key="city-glow"
                 id="city-glow"
                 type="circle"
                 filter={['==', ['get', 'city'], 1]}
@@ -444,6 +456,7 @@ export default function RouteMap({
               />
             ) : null}
             <Layer
+              key="place-dot"
               id="place-dot"
               type="circle"
               paint={{
@@ -454,6 +467,7 @@ export default function RouteMap({
               }}
             />
             <Layer
+              key="place-label"
               id="place-label"
               type="symbol"
               layout={{
