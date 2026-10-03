@@ -2022,5 +2022,898 @@
         "Der Nenzen"
       ]
     }
+  },
+  "Q7951": {
+    "t": "Eine Hafenstadt am Fuß zweier rauchender Vulkane",
+    "s": "Petropawlowsk-Kamtschatski säumt das Ufer der Awatscha-Bucht, eines der schönsten Naturhäfen der Welt, und dahinter ragen zwei riesige Kegel auf: der rund 3.456 m hohe Korjakski und der oft dampfende Awatschinski. Keine Straße verbindet die Stadt mit dem übrigen Russland; alles kommt per Schiff oder Flugzeug. Vitus Bering gründete sie 1740 und benannte sie nach seinen beiden Schiffen.",
+    "w": "Eine Stadt an einer weiten, fast geschlossenen Bucht, direkt dahinter zwei große, schneegestreifte Vulkankegel.",
+    "f": [
+      "Berings Schiffe hießen St. Peter und St. Paul – daher der Name der Stadt.",
+      "Kamtschatka hat rund 30 aktive Vulkane, und an klaren Tagen sind mehrere von der Stadt aus zu sehen."
+    ],
+    "q": {
+      "q": "Bering benannte die Stadt nach seinen zwei Schiffen: der St. Peter und der …",
+      "a": "St. Paul",
+      "x": [
+        "St. Andreas",
+        "St. Nikolaus"
+      ]
+    }
+  },
+  "Q7253": {
+    "t": "Heimat des Rendang, zwischen Ozean und Vulkanen",
+    "s": "Dächer, die sich wie Büffelhörner nach oben schwingen, sind das Kennzeichen der Minangkabau, und Padang ist ihre wichtigste Stadt. Sie liegt auf einer schmalen Küstenebene in Westsumatra, eingezwängt zwischen dem Indischen Ozean und der steilen grünen Wand des Barisan-Gebirges, landeinwärts steigen Vulkane auf. Die Küche der Minangkabau, vom Rendang bis zu feurigen Currys, wird in ganz Indonesien in „Padang-Restaurants“ serviert.",
+    "w": "Eine Stadt auf schmaler Küstenebene, dahinter steile grüne Berge, davor der offene Ozean und Inseln vor der Küste.",
+    "f": [
+      "Die Minangkabau zählen zu den größten matrilinearen Gesellschaften der Welt: Land wird über die Frauen vererbt.",
+      "Der Legende nach bedeutet der Name Minangkabau „siegreicher Büffel“."
+    ],
+    "q": {
+      "q": "Bei den Minangkabau wird das Familienland vererbt über …",
+      "a": "Die Mütter",
+      "x": [
+        "Die Väter",
+        "Die ältesten Söhne"
+      ]
+    }
+  },
+  "Q9361": {
+    "t": "Eine grüne Rasterstadt unter einer Wand aus Schneegipfeln",
+    "s": "Eine Wand verschneiter Gipfel über 4.000 m erhebt sich unmittelbar südlich von Bischkek: der Kirgisische Alatau. Die Stadt liegt auf dem flachen Boden des Tschüi-Tals, angelegt als grünes Raster baumgesäumter Straßen. Sie wuchs aus Pischpek, einer Lehmfestung, die das Khanat Kokand 1825 errichtete.",
+    "w": "Eine grüne Rasterstadt auf flachem Talboden, direkt im Süden eine steile Wand verschneiter Berge.",
+    "f": [
+      "Von 1926 bis 1991 hieß die Stadt Frunse.",
+      "Der Nationalpark Ala Artscha, eine Schlucht mit Gletschern und Wacholder, beginnt nur rund 40 km südlich des Zentrums.",
+      "Der Tschüi nördlich der Stadt bildet einen Teil der Grenze zu Kasachstan."
+    ],
+    "q": {
+      "q": "Wie hieß Bischkek von 1926 bis 1991?",
+      "a": "Frunse",
+      "x": [
+        "Pischpek",
+        "Werny"
+      ]
+    }
+  },
+  "Q532560": {
+    "t": "Wo die Große Mauer der Ming endet, in der Gobi",
+    "s": "Jiayuguan steht an der engsten Stelle des Hexi-Korridors, einer Lücke zwischen dem verschneiten Qilian-Gebirge im Süden und kahlen Wüstenhügeln im Norden. Hier ließ die Ming-Dynastie ihre Große Mauer enden: Die Festung am Jiayu-Pass, erstmals 1372 erbaut, bewachte den Weg nach Westen. Rund um die moderne Stahlstadt gehen grüne Oasenfelder rasch in steinige Gobi über.",
+    "w": "Eine kleine Stadt in einem schmalen Wüstenkorridor, im Süden schneebedeckte Berge, ringsum steinige Ebenen.",
+    "f": [
+      "Der Jiayu-Pass trug den Beinamen „Erster und größter Pass unter dem Himmel“.",
+      "Schmelzwasser aus dem über 5.000 m hohen Qilian-Gebirge bewässert die Oasen des Hexi-Korridors."
+    ],
+    "q": {
+      "q": "Das Westende welcher Großen Mauer markiert der Jiayu-Pass?",
+      "a": "Der Ming-Mauer",
+      "x": [
+        "Der Qin-Mauer",
+        "Der Han-Mauer"
+      ]
+    }
+  },
+  "Q69060": {
+    "t": "Eine hohe Talstadt am Rand des Tibetischen Plateaus",
+    "s": "Xining liegt rund 2.200 m hoch, langgezogen im engen Tal des Huangshui zwischen kahlen, tief zerfurchten Hügeln. Dies ist die Schwelle zum Tibetischen Plateau: Westlich von hier steigt das Land zum Qinghai-See und zum hohen Grasland an. Jahrhundertelang war die Stadt ein Markt, auf dem chinesischer Tee gegen tibetische Pferde getauscht wurde. Ihr Name bedeutet „westlicher Friede“.",
+    "w": "Eine lange Stadt, eingezwängt in ein enges Tal zwischen kahlen, erodierten Hügeln, im Westen höhere Berge.",
+    "f": [
+      "Das Kloster Kumbum, rund 25 km südwestlich, markiert den Geburtsort Tsongkhapas, des Gründers der Gelug-Schule.",
+      "Der Qinghai-See, rund 150 km westlich, ist der größte See Chinas.",
+      "Die Bahn nach Lhasa, die Pässe über 5.000 m Höhe quert, beginnt hier ihren Anstieg."
+    ],
+    "q": {
+      "q": "Xining ist Hauptstadt welcher Provinz?",
+      "a": "Qinghai",
+      "x": [
+        "Gansu",
+        "Sichuan"
+      ]
+    }
+  },
+  "Q189633": {
+    "t": "Eine Stadt zwischen Kalktürmen, auf dem 20-Yuan-Schein",
+    "s": "Guilin ist zwischen Hunderten steiler, gerundeter Kalksteintürme verstreut, die direkt aus flachen grünen Feldern aufragen und von oben wie ein Feld riesiger Maulwurfshügel aussehen. Der Li gleitet zwischen ihnen nach Süden Richtung Yangshuo, durch eine der meistgemalten Landschaften Chinas. Der Name bedeutet „Wald der Duftblüten“, nach den Bäumen, die die Stadt jeden Herbst mit Duft erfüllen.",
+    "w": "Eine Stadt zwischen unzähligen steilen, runden Kalkgipfeln, dazwischen windet sich ein Fluss durch grüne Felder nach Süden.",
+    "f": [
+      "Eine Szene am Li bei Guilin ziert die Rückseite des 20-Yuan-Scheins.",
+      "Der Lingqu-Kanal, um 214 v. Chr. nördlich von Guilin gegraben, ist einer der ältesten Kanäle der Welt.",
+      "Ein chinesisches Sprichwort behauptet, Guilins Landschaft sei die schönste unter dem Himmel."
+    ],
+    "q": {
+      "q": "Auf welchem Geldschein ist eine Szene am Li bei Guilin abgebildet?",
+      "a": "Auf dem 20-Yuan-Schein",
+      "x": [
+        "Auf dem 5-Yuan-Schein",
+        "Auf dem 100-Yuan-Schein"
+      ]
+    }
+  },
+  "Q360178": {
+    "t": "Kohle, Tofu und Solarmodule, die auf Grubenseen schwimmen",
+    "s": "Huainan zieht sich am Südufer des Huai entlang, der traditionellen Linie zwischen Nord- und Südchina. Seit über einem Jahrhundert wird hier Kohle gefördert, und wo der Boden über alten Stollen abgesackt ist, sind flache Seen vollgelaufen; manche tragen heute dunkle Raster schwimmender Solarmodule. Die Legende schreibt Liu An, einem Prinzen von Huainan im 2. Jahrhundert v. Chr., die Erfindung des Tofus zu.",
+    "w": "Eine Industriestadt am Südufer eines großen Flusses, mit verstreuten Seen, manche mit dunklen Solarrastern bedeckt.",
+    "f": [
+      "Eine Schlacht am nahen Fei 383 schenkte dem Chinesischen die Redewendung „Jeder Busch und Baum sieht aus wie ein Soldat“.",
+      "Zusammen mit dem Qinling-Gebirge gilt der Huai als Grenze zwischen Nord- und Südchina."
+    ],
+    "q": {
+      "q": "Welches Nahrungsmittel soll ein Prinz von Huainan erfunden haben?",
+      "a": "Tofu",
+      "x": [
+        "Nudeln",
+        "Teigtaschen"
+      ]
+    }
+  },
+  "Q59100": {
+    "t": "Kernland der Teochew am Delta des Han",
+    "s": "Shantou breitet sich über das flache Delta des Han aus, wo er das Südchinesische Meer erreicht, und schmiegt sich um eine geschützte Hafenlagune. Das Land ringsum ist ein Mosaik aus Fischteichen und Reisfeldern, und im Osten liegt die große Insel Nan’ao vor der Küste. Dies ist das Herz des Chaoshan- oder Teochew-Landes, berühmt für seine Küche und sein kunstvolles Gongfu-Teeritual.",
+    "w": "Eine Küstenstadt auf flachem Flussdelta um einen geschützten Hafen, ringsum Fischteiche, im Osten eine große Insel.",
+    "f": [
+      "1980 wurde Shantou eine der ersten vier Sonderwirtschaftszonen Chinas.",
+      "Viele chinesische Gemeinden in Thailand und ganz Südostasien gehen auf Teochew-Auswanderer aus dieser Region zurück."
+    ],
+    "q": {
+      "q": "Wie nannten westliche Händler Shantou?",
+      "a": "Swatow",
+      "x": [
+        "Amoy",
+        "Chefoo"
+      ]
+    }
+  },
+  "Q14501": {
+    "t": "Eine Ölinsel zwischen Borneos Mangrovendeltas",
+    "s": "Tarakan liegt auf einer kleinen Insel direkt vor der Nordostküste Borneos, wo mehrere Flüsse in ein Labyrinth aus schlammigen Rinnen und Mangrovenwald zerfallen. Von oben wirkt die Insel wie ein grüner Fleck, umringt von braunem Wasser. Seit Anfang des 20. Jahrhunderts wird hier Öl gefördert, und Bohrtürme und Raffinerie machten die Insel zu einem geschäftigen Hafen Niederländisch-Ostindiens.",
+    "w": "Eine kleine grüne Insel vor einer Küste aus schlammigen Flussrinnen und dunklen Mangroven; die Stadt an ihrem Südwestufer.",
+    "f": [
+      "In einem Mangrovenschutzgebiet mitten in der Stadt leben Nasenaffen, berühmt für ihre langen Nasen.",
+      "Tarakan ist die größte Stadt von Nordkalimantan, einer 2012 gegründeten Provinz."
+    ],
+    "q": {
+      "q": "Welcher langnasige Affe lebt im Mangrovenschutzgebiet von Tarakan?",
+      "a": "Der Nasenaffe",
+      "x": [
+        "Die Goldstumpfnase",
+        "Der Mandrill"
+      ]
+    }
+  },
+  "Q11025": {
+    "t": "Eine Hafenstadt, die von der Küste in Vulkanhügel klettert",
+    "s": "Semarang hat zwei Ebenen: eine flache Unterstadt an der Küste der Javasee und eine grünere Oberstadt, die im Süden die Hügel hinaufklettert, dahinter erhebt sich der Vulkan Ungaran. Das alte niederländische Viertel am Hafen trägt den Beinamen Klein-Niederlande. Örtlicher Überlieferung nach landete der chinesische Admiral Zheng He hier im frühen 15. Jahrhundert, und der Tempel Sam Poo Kong ehrt ihn.",
+    "w": "Eine Stadt an flacher Küste, die im Süden auf grüne Hügel steigt; dahinter ein Vulkan, davor ein Hafen.",
+    "f": [
+      "Lawang Sewu, 1907 als niederländisches Eisenbahnamt erbaut, heißt wegen seiner vielen Türen und Fenster „Tausend Türen“.",
+      "Semarang ist die Hauptstadt Zentraljavas."
+    ],
+    "q": {
+      "q": "Welchen chinesischen Admiral ehrt Semarangs Tempel Sam Poo Kong?",
+      "a": "Zheng He",
+      "x": [
+        "Koxinga",
+        "Shi Lang"
+      ]
+    }
+  },
+  "Q8131": {
+    "t": "Srivijayas alte Hauptstadt am breiten braunen Musi",
+    "s": "Palembang liegt beiderseits des breiten, braunen Musi, weit im Landesinneren hinter den flachen Sümpfen und Plantagen Südsumatras. Noch immer kommen Schiffe vom Meer flussaufwärts, eine Fahrt von fast 100 km. Vor mehr als tausend Jahren war dies das Herz Srivijayas, eines Seereichs, das den Handel durch die Straße von Malakka beherrschte. Achten Sie auf die lange Brücke, die beide Stadthälften verbindet.",
+    "w": "Eine Stadt an beiden Ufern eines breiten braunen Flusses, der sich durch flaches Sumpfland windet, mit einer langen Brücke darüber.",
+    "f": [
+      "Die 1965 eröffnete Ampera-Brücke hatte ein Mittelteil, das sich für Schiffe hob; später wurde es fest verankert.",
+      "Hölzerne Häuser, die auf Flößen schwimmen, säumen noch Teile des Flussufers.",
+      "Der chinesische Pilger Yijing studierte im späten 7. Jahrhundert in Srivijaya Sanskrit."
+    ],
+    "q": {
+      "q": "Palembang war das Herz welches Seereichs?",
+      "a": "Srivijaya",
+      "x": [
+        "Majapahit",
+        "Mataram"
+      ]
+    }
+  },
+  "Q14182": {
+    "t": "Die Stadt der tausend Flüsse und schwimmenden Märkte",
+    "s": "Banjarmasin liegt im flachen, sumpfigen Tiefland Südborneos, wo der Martapura unweit des Meeres in den breiten Barito mündet. Flüsse und Kanäle durchziehen jedes Viertel und brachten der Stadt den Namen Stadt der tausend Flüsse ein. Im Morgengrauen versammeln sich Händler in kleinen Booten auf dem Wasser zu den berühmten schwimmenden Märkten und verkaufen Obst und Gemüse direkt aus ihren Kanus.",
+    "w": "Eine flache, von Flüssen und Kanälen durchzogene Stadt neben einem breiten braunen Fluss, ringsum Sumpfland und Reisfelder.",
+    "f": [
+      "Das in den 1520er-Jahren gegründete Sultanat Banjar herrschte mehr als drei Jahrhunderte von hier aus.",
+      "Ein Großteil der Stadt liegt kaum über dem Hochwasserstand der Flut."
+    ],
+    "q": {
+      "q": "Banjarmasin ist berühmt für seine …",
+      "a": "Schwimmenden Märkte",
+      "x": [
+        "Pfahltempel",
+        "Salzgärten"
+      ]
+    }
+  },
+  "Q14634": {
+    "t": "Eine Seefahrerstadt vor einem Schwarm von Koralleninseln",
+    "s": "Makassar säumt die flache Westküste Südsulawesis und blickt auf den Spermonde-Archipel, einen Schwarm winziger Koralleninseln, umringt von türkisfarbenen Riffen. Landeinwärts im Nordosten ragen die zackigen Kalksteintürme von Maros auf. Jahrhundertelang war dies der große Handelshafen des Sultanats Gowa, und seine Seeleute befuhren die östlichen Meere weit und breit.",
+    "w": "Eine Stadt an flacher Küste vor Dutzenden winziger Koralleninseln; landeinwärts im Nordosten zackige Kalkhügel.",
+    "f": [
+      "Ab dem 18. Jahrhundert segelten makassarische Seeleute jedes Jahr nach Nordaustralien, um Seegurken zu sammeln.",
+      "Das Fort Rotterdam im Stadtzentrum bauten die Niederländer in den 1670er-Jahren an der Stelle einer Gowa-Festung neu."
+    ],
+    "q": {
+      "q": "Makassarische Seeleute segelten einst nach Nordaustralien, um … zu sammeln",
+      "a": "Seegurken",
+      "x": [
+        "Perlen",
+        "Sandelholz"
+      ]
+    }
+  },
+  "Q5869": {
+    "t": "Eine Stadt in einem hohen Himalayatal, 3.650 m hoch",
+    "s": "Selbst auf 3.650 m über dem Meer wird Lhasa noch von kahlen braunen Bergen überragt, die weitere 1.500 m oder mehr aufsteigen. Die Stadt liegt im flachen Tal des Kyi Chu, eines Nebenflusses des Yarlung Tsangpo. Die Luft ist dünn und trocken, und Sonne gibt es so reichlich, dass Lhasa den Beinamen Sonnenstadt trägt. Ihr Name bedeutet „Ort der Götter“.",
+    "w": "Ein grünes, flaches Flusstal, eingefasst von steilen kahlen Bergen; die Stadt zieht sich an seiner Nordseite entlang.",
+    "f": [
+      "Der Potala-Palast auf einem Hügel in der Stadt ragt 13 Stockwerke auf und ist UNESCO-Welterbe.",
+      "Der Jokhang-Tempel in der Altstadt reicht ins 7. Jahrhundert zurück.",
+      "Lhasa hat rund 3.000 Sonnenstunden im Jahr."
+    ],
+    "q": {
+      "q": "Wie hoch über dem Meer liegt Lhasa ungefähr?",
+      "a": "Rund 3.650 m",
+      "x": [
+        "Rund 1.650 m",
+        "Rund 5.650 m"
+      ]
+    }
+  },
+  "Q650585": {
+    "t": "Die Melonenoase am Ostende des Tian Shan",
+    "s": "Nach tagelangem Marsch durch die Gobi erreichten die Karawanen der Seidenstraße aus Gansu hier ihre erste große Oase. Hami ist ein grüner Fleck am Südfuß des Karlik-Gebirges, des verschneiten östlichen Ausläufers des Tian Shan, und nach allen Seiten erstreckt sich weite Kieswüste. Sein Name reist mit der berühmten Hami-Melone, süß und knackig, um die Welt.",
+    "w": "Eine grüne Oase am Fuß verschneiter Berge, umgeben von weiter grauer Kieswüste; in der Nähe große Solarparks.",
+    "f": [
+      "Ab dem späten 17. Jahrhundert wurden Hami-Melonen als Tribut an die Qing-Kaiser geschickt.",
+      "Der zentrale Bezirk Yizhou trägt den Namen der Oase aus der Tang-Zeit; auf Uigurisch heißt sie Kumul."
+    ],
+    "q": {
+      "q": "Welche Frucht ist nach Hami benannt?",
+      "a": "Eine Melone",
+      "x": [
+        "Eine Traube",
+        "Ein Granatapfel"
+      ]
+    }
+  },
+  "Q235389": {
+    "t": "Eine Jade-Oase am Rand der Taklamakan",
+    "s": "Zwei verflochtene Flüsse, nach Jade benannt – Weiße Jade und Schwarze Jade –, strömen beiderseits von Hotan aus dem verschneiten Kunlun herab, vereinen sich dann und schieben sich nach Norden ins Sandmeer der Taklamakan. Zwischen ihnen liegt die grüne Oase. Seit Jahrtausenden sammeln Menschen Nephrit-Jade aus den Kiesbetten der Flüsse.",
+    "w": "Eine grüne Oase zwischen zwei verflochtenen Flüssen, im Süden verschneite Berge, im Norden ein endloses Dünenmeer.",
+    "f": [
+      "Jade aus Hotan wurde jahrtausendelang nach Osten an die Höfe der chinesischen Herrscher gebracht.",
+      "Laut einer von Xuanzang überlieferten Legende kam die Seide nach Khotan, als eine Prinzessin Raupeneier im Kopfputz versteckte.",
+      "Der Hotan-Fluss durchquert die Taklamakan nur im Sommer, wenn ihn Schmelzwasser füllt."
+    ],
+    "q": {
+      "q": "Welcher Stein findet sich in den Flüssen von Hotan?",
+      "a": "Jade",
+      "x": [
+        "Türkis",
+        "Lapislazuli"
+      ]
+    }
+  },
+  "Q170521": {
+    "t": "Ein Seidenstraßen-Knoten am Fuß des Pamir",
+    "s": "Drei große Gebirge – Tian Shan, Pamir und Kunlun – schließen sich bei Kaschgar um die Wüste, einer grünen Oase an der äußersten Westspitze des Tarimbeckens. Für Karawanen war es der große Knotenpunkt: Die Routen nördlich und südlich um die Taklamakan trafen sich hier, bevor sie zu den hohen Pässen im Westen aufstiegen. An klaren Tagen ragen im Südwesten die Schneekuppen von Kongur und Muztagh Ata auf, beide über 7.500 m.",
+    "w": "Eine grüne Oase am Westende eines Wüstenbeckens, im Westen, Norden und Süden ragen Wände verschneiter Berge auf.",
+    "f": [
+      "Mahmud al-Kaschgari aus dieser Region verfasste in den 1070er-Jahren das erste große Wörterbuch der Turksprachen.",
+      "Kaschgars sonntäglicher Viehmarkt lockt seit Generationen Händler aus der ganzen Region an."
+    ],
+    "q": {
+      "q": "Welcher Gelehrte von hier schuf im 11. Jahrhundert ein Turk-Wörterbuch?",
+      "a": "Mahmud al-Kaschgari",
+      "x": [
+        "Al-Biruni",
+        "Ibn Sina"
+      ]
+    }
+  },
+  "Q211243": {
+    "t": "Eine grüne Ebene zwischen Bergwand und Gelbem Fluss",
+    "s": "Eine dunkle, zackige Bergwand, das Helan-Gebirge, schirmt Yinchuan im Westen gegen den Sand der Tengger-Wüste ab, während im Osten der Gelbe Fluss strömt. Dazwischen liegt ein Streifen grüner, bewässerter Ebene, gespeist von Kanälen, die zuerst vor über 2.000 Jahren gegraben wurden. Ihre Seen und Reisfelder brachten der Gegend den Namen „Jiangnan jenseits der Grenze“ ein.",
+    "w": "Eine grüne, seenreiche Ebene zwischen einer langen, dunklen Bergkette im Westen und einem breiten Fluss im Osten; dahinter Wüste.",
+    "f": [
+      "Vom 11. bis zum 13. Jahrhundert war Yinchuan Hauptstadt des Reichs der Westlichen Xia.",
+      "Die Königsgräber der Westlichen Xia liegen westlich der Stadt am Fuß des Helan-Gebirges.",
+      "Die Gojibeeren aus Ningxia sind in ganz China berühmt."
+    ],
+    "q": {
+      "q": "Yinchuan war Hauptstadt welches mittelalterlichen Reichs?",
+      "a": "Der Westlichen Xia",
+      "x": [
+        "Der Liao",
+        "Der Jin"
+      ]
+    }
+  },
+  "Q362865": {
+    "t": "Eine alte Kohlestadt in den Hügeln an der Grenze zu Hunan",
+    "s": "Kohle hat Pingxiang gebaut, eine Stadt in einem Tal grüner Hügel an der Westgrenze Jiangxis, wo das Luoxiao-Gebirge die Provinz von Hunan trennt. Die 1898 eröffnete Anyuan-Grube speiste eines der ersten modernen Eisenwerke Chinas. Im Südosten erhebt sich der Wugong-Berg, dessen gerundete Gipfel statt Wald Grasland trägt.",
+    "w": "Eine Stadt in einem Tal zwischen grünen, welligen Hügeln, im Westen und Süden höhere Berge entlang der Grenze.",
+    "f": [
+      "Koks aus Anyuan belieferte das Eisenwerk Hanyang in Wuhan, eines der ersten modernen Stahlwerke Chinas.",
+      "Das Gipfelgrasland des Wugong-Bergs, über 1.900 m hoch, färbt sich im Herbst golden."
+    ],
+    "q": {
+      "q": "Was förderte Pingxiangs 1898 eröffnete Anyuan-Grube?",
+      "a": "Kohle",
+      "x": [
+        "Zinn",
+        "Wolfram"
+      ]
+    }
+  },
+  "Q38234": {
+    "t": "Japans Fenster nach Europa, um einen schmalen Hafen",
+    "s": "Nagasaki legt sich um einen langen, schmalen Hafen, und die Häuser klettern beiderseits steile grüne Hügel hinauf wie die Ränge eines Amphitheaters. Portugiesische Schiffe machten den Ort 1571 zum Hafen. In mehr als zwei Jahrhunderten der Abschließung Japans war eine kleine künstliche Insel hier, Dejima, das einzige regelmäßige Fenster des Landes nach Europa. Im Südwesten liegen verstreute Inseln vor der Küste.",
+    "w": "Ein langer, schmaler Hafen wie ein Fjord, die Stadt klettert beiderseits steile grüne Hügel hinauf; im Südwesten Inseln.",
+    "f": [
+      "Von 1641 bis 1859 waren niederländische Händler auf Dejima die einzigen Europäer, die mit Japan handeln durften.",
+      "Castella, ein Biskuitkuchen, der überall in Nagasaki verkauft wird, kam im 16. Jahrhundert mit portugiesischen Händlern."
+    ],
+    "q": {
+      "q": "Welche Europäer handelten ab 1641 auf Dejima?",
+      "a": "Die Niederländer",
+      "x": [
+        "Die Portugiesen",
+        "Die Engländer"
+      ]
+    }
+  },
+  "Q205922": {
+    "t": "Die Kranichstadt an den Sümpfen des Nen",
+    "s": "Qiqihar breitet sich am Nen über die flache Songnen-Ebene aus, in einer Landschaft aus Schilfsümpfen und flachen Seen, die wie verstreute Spiegel glänzen. Südöstlich der Stadt liegt Zhalong, ein riesiges Feuchtgebiet, in dem im Sommer Mandschurenkraniche brüten; es wurde eines der ersten Kranichschutzgebiete Chinas. Die Stadt begann 1691 als Festung der Qing.",
+    "w": "Eine Stadt an einem verflochtenen Fluss auf einer flachen Ebene aus Schilfsumpf und flachen Seen; im Winter weiß und gefroren.",
+    "f": [
+      "Die Schilfsümpfe von Zhalong bedecken mehr als 2.000 km².",
+      "In der chinesischen Kunst ist der Mandschurenkranich ein Symbol für langes Leben."
+    ],
+    "q": {
+      "q": "Für welchen Vogel ist das Feuchtgebiet Zhalong bei Qiqihar berühmt?",
+      "a": "Den Mandschurenkranich",
+      "x": [
+        "Den Höckerschwan",
+        "Die Mandarinente"
+      ]
+    }
+  },
+  "Q200016": {
+    "t": "Wo die Ostghats zum Golf von Bengalen hinabsteigen",
+    "s": "Visakhapatnam, kurz Vizag, liegt dort, wo grüne Hügel der Ostghats direkt bis an den Golf von Bengalen reichen. Sein tiefer Hafen versteckt sich hinter einer felsigen Landspitze namens Dolphin’s Nose, und lange Sandstrände schwingen sich nach Norden. Die Stadt ist nach Visakha benannt, einem hinduistischen Gott der Tapferkeit. Landeinwärts steigen die Hügel zum Araku-Tal und seinen Kaffeeplantagen an.",
+    "w": "Eine Küstenstadt zwischen grünen Hügeln und Meer, ein Hafen hinter einer felsigen Landspitze, im Norden lange Strände.",
+    "f": [
+      "Visakhapatnam ist einer der größten Häfen Indiens.",
+      "Kaffee aus dem Araku-Tal, großteils von Adivasi-Bauern angebaut, ist inzwischen weltweit bekannt."
+    ],
+    "q": {
+      "q": "Vizags Hafen wird von einer Landspitze geschützt, genannt …",
+      "a": "Dolphin’s Nose",
+      "x": [
+        "Elephant’s Trunk",
+        "Lion’s Head"
+      ]
+    }
+  },
+  "Q38807": {
+    "t": "Eine regnerische Hafenhauptstadt im Kranz der Korallenriffe",
+    "s": "Achten Sie auf eine helle Brandungslinie am Riff und dunkle, regennasse Berge dahinter: Das ist Suva, auf einer hügeligen Halbinsel an der Südostküste von Viti Levu, der Hauptinsel Fidschis. Hier ballen sich oft Wolken, und es ist viel nasser als auf der Westseite Fidschis. Suva löste 1882 Levuka als Hauptstadt ab.",
+    "w": "Eine Stadt auf einer hügeligen Halbinsel zwischen zwei Buchten, vor der Küste eine helle Rifflinie, dahinter grüne, wolkenverhangene Berge.",
+    "f": [
+      "Suva bekommt rund 3.000 mm Regen im Jahr – ein Mehrfaches dessen, was in London fällt.",
+      "Levuka, die alte Hauptstadt auf der Insel Ovalau, ist UNESCO-Welterbe."
+    ],
+    "q": {
+      "q": "Welche Stadt war vor Suva die Hauptstadt Fidschis?",
+      "a": "Levuka",
+      "x": [
+        "Nadi",
+        "Lautoka"
+      ]
+    }
+  },
+  "Q1520": {
+    "t": "Eine Hauptstadt vieler Namen in der offenen Steppe",
+    "s": "Diese Stadt erhebt sich aus einer flachen, fast baumlosen Steppe an den Ufern des gewundenen Ischim, und im Winter wird ringsum alles unter hartem Frost weiß. Sie begann 1830 als Festung Akmolinsk und hat ihren Namen öfter gewechselt als fast jede andere Hauptstadt: Zelinograd, Akmola, Astana, Nur-Sultan und seit 2022 wieder Astana. Kasachstan verlegte seine Hauptstadt 1997 von Almaty hierher.",
+    "w": "Eine kompakte Stadt auf flacher, baumloser Steppe, durchzogen von einem gewundenen Fluss; im Winter weiß und gefroren.",
+    "f": [
+      "Winternächte fallen hier oft unter −30 °C, was sie zu einer der kältesten Hauptstädte der Welt macht.",
+      "Der Ischim fließt weiter nach Norden nach Russland, wo er in den Irtysch mündet."
+    ],
+    "q": {
+      "q": "Wie hieß die Stadt von 1961 bis 1992?",
+      "a": "Zelinograd",
+      "x": [
+        "Akmolinsk",
+        "Semipalatinsk"
+      ]
+    }
+  },
+  "Q484706": {
+    "t": "Eine Kohlestadt in der Steppe, benannt nach einem Strauch",
+    "s": "Qaraghandy, besser bekannt als Karaganda, breitet sich über die kahle kasachische Steppe aus, und ringsum erkennen Sie die Kegel alter Abraumhalden aus seinen Kohlegruben. Kohle wurde hier 1833 gefunden – von einem Hirtenjungen, so die Überlieferung –, und ab den 1930er-Jahren wuchs die moderne Stadt rasch. Ihr Name kommt von Karagan, dem zähen Erbsenstrauch, der überall in der Steppe wächst.",
+    "w": "Eine ausufernde Stadt auf flacher, kahler Steppe, gesprenkelt mit kegelförmigen Abraumhalden; im Nordwesten eine Stahlstadt und ein Stausee.",
+    "f": [
+      "Das Kohlebecken von Karaganda ist eines der größten Zentralasiens.",
+      "Die Stahlstadt Temirtau, rund 30 km nordwestlich, wuchs an einem Stausee am Fluss Nura."
+    ],
+    "q": {
+      "q": "Nach welcher Steppenpflanze ist Karaganda benannt?",
+      "a": "Nach dem Erbsenstrauch",
+      "x": [
+        "Nach dem Wermut",
+        "Nach dem Federgras"
+      ]
+    }
+  },
+  "Q35493": {
+    "t": "Die Apfelstadt unter einer Wand aus Schneegipfeln",
+    "s": "Almaty breitet sich über eine sanft geneigte Ebene direkt am Fuß des Transili-Alatau aus, dessen verschneite Gipfel gleich südlich der Stadt auf fast 5.000 m ansteigen – eine weiße Wand über den Dächern. In den Wäldern dieser Hänge wächst der Wildapfel, von dem die Kulturäpfel der Welt abstammen, und der Name der Stadt erinnert an die Frucht.",
+    "w": "Eine große Stadt an einem Hang, der zu einer steilen Wand verschneiter Berge im Süden ansteigt; im Norden flache Steppe.",
+    "f": [
+      "Die Stadt begann 1854 als russische Festung Werny.",
+      "Almaty war bis 1997 die Hauptstadt Kasachstans.",
+      "Medeu, eine Eisbahn in einer Schlucht oberhalb der Stadt, liegt auf rund 1.700 m."
+    ],
+    "q": {
+      "q": "Die Wildäpfel in den Bergen bei Almaty sind die Vorfahren …",
+      "a": "Des Kulturapfels",
+      "x": [
+        "Der Birne",
+        "Der Quitte"
+      ]
+    }
+  },
+  "Q48403": {
+    "t": "Die Stadt des Goldenen Tempels und seines Nektarbeckens",
+    "s": "Im Herzen von Amritsar steht der Goldene Tempel, das höchste Heiligtum der Sikhs, mitten in einem heiligen Becken. Rings um die Stadt ist die flache, fruchtbare Ebene des Punjab ein Flickenteppich aus Weizen- und Reisfeldern, durchzogen von Kanälen. Amritsar wuchs in den 1570er-Jahren unter Guru Ram Das um dieses Becken, und sein Name bedeutet „Becken des Nektars“.",
+    "w": "Eine dichte Stadt auf einer flachen grünen Ebene aus Feldern und Kanälen, die sich nach allen Seiten bis zum Horizont zieht.",
+    "f": [
+      "Die Gemeinschaftsküche des Goldenen Tempels verköstigt jeden Tag Zehntausende Besucher kostenlos.",
+      "Die oberen Geschosse des Tempels wurden im frühen 19. Jahrhundert unter Maharadscha Ranjit Singh mit Blattgold überzogen."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Amritsar?",
+      "a": "Becken des Nektars",
+      "x": [
+        "Stadt des Goldes",
+        "Heiliger Fluss"
+      ]
+    }
+  },
+  "Q79980": {
+    "t": "Eine heilige Stadt an einem sichelförmigen Ganges-Bogen",
+    "s": "Varanasi säumt das Westufer des Ganges, wo der Fluss in einer großen Sichel schwingt und ungewöhnlicherweise nach Norden fließt. Der Kontrast ist von oben verblüffend: Die Stadt drängt sich mit steinernen Treppen, den Ghats, am Westufer, während das Ostufer ein fast leerer Sandstreifen bleibt. Sie gilt oft als eine der ältesten durchgehend bewohnten Städte der Welt.",
+    "w": "Eine dichte Stadt an der Westseite eines sichelförmigen Bogens eines breiten Flusses, gegenüber ein kahles Sandufer.",
+    "f": [
+      "In Sarnath, rund 10 km nordöstlich, soll Buddha seine erste Predigt gehalten haben.",
+      "Mehr als 80 Ghats säumen den Fluss über mehrere Kilometer."
+    ],
+    "q": {
+      "q": "Wer hielt in Sarnath bei Varanasi seine erste Predigt?",
+      "a": "Buddha",
+      "x": [
+        "Mahavira",
+        "Guru Nanak"
+      ]
+    }
+  },
+  "Q202139": {
+    "t": "Wo Indien zuerst nach Kohle grub",
+    "s": "Asansol breitet sich über welliges Land aus roter Erde zwischen Damodar und Ajay aus, am Rand des Chota-Nagpur-Plateaus. Dies ist das Kohlefeld von Raniganj, wo 1774 der gewerbliche Kohlebergbau in Indien begann, und das Land ringsum ist mit Gruben, Abraumhalden und gefluteten Abbauen übersät. Im Westen stauen Dämme an Damodar und Barakar große Stauseen auf.",
+    "w": "Eine Industriestadt auf welligem, rötlichem Land voller Gruben und Teiche, im Süden ein Fluss, im Westen Stauseen.",
+    "f": [
+      "Der Damodar hieß wegen seiner Hochwasser einst „Kummer Bengalens“, bis in den 1950er-Jahren Dämme gebaut wurden.",
+      "Die Grand Trunk Road, eine der ältesten Fernstraßen Asiens, führt durch die Stadt."
+    ],
+    "q": {
+      "q": "Wann begann im Feld von Raniganj der gewerbliche Kohlebergbau Indiens?",
+      "a": "1774",
+      "x": [
+        "1674",
+        "1874"
+      ]
+    }
+  },
+  "Q242144": {
+    "t": "Stahlstadt in der Reisebene, gebaut mit sowjetischer Hilfe",
+    "s": "Bhilai entstand in den 1950er-Jahren um eines der größten Stahlwerke Indiens, mit sowjetischer Hilfe auf der flachen Ebene von Chhattisgarh gebaut. Achten Sie von oben auf das riesige graue Rechteck des Werks mit seinen Kühlteichen und eine ordentlich geplante Stadt daneben. Ringsum erstreckt sich ein Flickenteppich aus Reisfeldern: Chhattisgarh wird oft die Reisschüssel Indiens genannt.",
+    "w": "Ein riesiger grauer Industriekomplex mit Teichen neben einer Planstadt, inmitten eines flachen Flickenteppichs grüner Reisfelder.",
+    "f": [
+      "Das Werk in Bhilai ist seit Langem Indiens wichtigster Hersteller von Stahlschienen.",
+      "Bhilai und das benachbarte Durg sind zu einem einzigen Stadtgebiet zusammengewachsen."
+    ],
+    "q": {
+      "q": "Welches Land half in den 1950er-Jahren beim Bau des Stahlwerks Bhilai?",
+      "a": "Die Sowjetunion",
+      "x": [
+        "Großbritannien",
+        "Westdeutschland"
+      ]
+    }
+  },
+  "Q80989": {
+    "t": "Die Stadt der Seen, einst von Königinnen regiert",
+    "s": "Bhopal legt sich auf dem hügeligen Malwa-Plateau um zwei große Seen, und der größere, der Obere See, beherrscht den Blick von oben. Der Überlieferung nach schuf ihn Raja Bhoj im 11. Jahrhundert, indem er einen Fluss aufstaute. Ab 1819 wurde Bhopal mehr als ein Jahrhundert lang von einer Reihe von vier Frauen regiert, den Begums – eine Seltenheit in der Geschichte Indiens.",
+    "w": "Eine Stadt auf niedrigen Hügeln um zwei große Seen, der westliche viel größer; ringsum Plateau und Ackerland.",
+    "f": [
+      "Der buddhistische Stupa von Sanchi, UNESCO-Welterbe, liegt rund 45 km nordöstlich.",
+      "Die Felsüberhänge von Bhimbetka südöstlich der Stadt bergen Tausende Jahre alte Malereien."
+    ],
+    "q": {
+      "q": "Welchem König wird Bhopals Oberer See traditionell zugeschrieben?",
+      "a": "Raja Bhoj",
+      "x": [
+        "Ashoka",
+        "Akbar"
+      ]
+    }
+  },
+  "Q228405": {
+    "t": "Tempelstadt der Tamilen zwischen Granithügeln",
+    "s": "Madurai zieht sich am Vaigai entlang, auf einer flachen Ebene, gespickt mit kahlen Granithügeln; einer davon, Yanaimalai, soll wie ein ruhender Elefant aussehen. Im Herzen der Stadt steht der Meenakshi-Tempel, dessen bunte Tortürme über die Straßen ragen. Seit über zweitausend Jahren ist Madurai ein Zentrum der tamilischen Kultur, und die Überlieferung verortet hier die Akademien der alten tamilischen Dichter.",
+    "w": "Eine Stadt an einem sandigen Fluss auf flacher Ebene mit vereinzelten kahlen Felshügeln, einer davon lang und elefantenförmig.",
+    "f": [
+      "Der Meenakshi-Tempel hat 14 Tortürme; der höchste ist rund 50 m hoch.",
+      "Madurais Jasmin ist so begehrt, dass er eine geschützte geografische Herkunftsangabe trägt."
+    ],
+    "q": {
+      "q": "Madurais großer Tempel ist welcher Göttin geweiht?",
+      "a": "Meenakshi",
+      "x": [
+        "Kali",
+        "Lakshmi"
+      ]
+    }
+  },
+  "Q9885": {
+    "t": "Eine Fabrikstadt an der großen Lücke der Westghats",
+    "s": "Die einzige große Lücke in den Westghats öffnet sich gleich westlich von Coimbatore: Die rund 30–40 km breite Palakkad-Lücke lässt Winde und Straßen nach Kerala durch. Sonst ist die Ebene der Stadt von Bergen eingefasst, im Norden ragen steil die Nilgiri-Berge auf. Ihre vielen Baumwollspinnereien brachten Coimbatore den Beinamen Manchester Südindiens ein.",
+    "w": "Eine große Stadt auf einer Ebene, im Norden ein massiger Gebirgsblock, im Westen steile Ketten mit einer breiten Lücke.",
+    "f": [
+      "Die Palakkad-Lücke ist der wichtigste Durchbruch der Westghats, die sonst über 1.000 km ununterbrochen verlaufen.",
+      "Coimbatore ist in ganz Indien für seine Nassmühlen bekannt, die eine geschützte Herkunftsangabe tragen."
+    ],
+    "q": {
+      "q": "Welche Lücke in den Westghats liegt gleich westlich von Coimbatore?",
+      "a": "Die Palakkad-Lücke",
+      "x": [
+        "Der Bhor Ghat",
+        "Der Thal Ghat"
+      ]
+    }
+  },
+  "Q9326": {
+    "t": "Eine niedrige, grüne Hauptstadt an einem Mekongbogen",
+    "s": "Vientiane liegt flach und baumreich an einer weiten Biegung des Mekong, und jenseits des Wassers sehen Sie Thailand. In der Trockenzeit schrumpft der Fluss und gibt lange Sandbänke frei. König Setthathirath verlegte die Hauptstadt des Königreichs Lan Xang 1560 von Luang Prabang hierher. Der Name wird meist mit „Stadt des Sandelholzes“ übersetzt.",
+    "w": "Eine flache, grüne Stadt an einer weiten Flussbiegung mit Sandbänken; das andere Ufer gehört zu einem anderen Land.",
+    "f": [
+      "Der goldene Stupa Pha That Luang ist das Nationalsymbol von Laos.",
+      "Die erste Thailändisch-Laotische Freundschaftsbrücke, 1994 eröffnet, quert den Mekong kurz flussabwärts."
+    ],
+    "q": {
+      "q": "Von wo verlegte König Setthathirath 1560 seine Hauptstadt nach Vientiane?",
+      "a": "Von Luang Prabang",
+      "x": [
+        "Von Ayutthaya",
+        "Von Champasak"
+      ]
+    }
+  },
+  "Q9279": {
+    "t": "Eine Flusshauptstadt mit einem ganzen Dorf auf Pfählen",
+    "s": "Ein ganzes Dorf auf Pfählen, verbunden durch Holzstege, breitet sich gegenüber dem Zentrum von Bandar Seri Begawan auf dem Fluss aus: Kampong Ayer, eines der größten Wasserdörfer der Welt. Die Hauptstadt liegt am Brunei-Fluss, wenige Kilometer von der Brunei-Bucht, umgeben von dunkelgrünem Regenwald. 1521 kamen Mitglieder von Magellans Expedition hierher und staunten über eine auf dem Wasser gebaute Stadt.",
+    "w": "Eine kleine Stadt an einem Fluss, der sich durch Regenwald windet, mit einer großen Pfahlhaussiedlung auf dem Wasser und einer langen Brücke über die Bucht.",
+    "f": [
+      "Die 2020 eröffnete Temburong-Brücke führt rund 30 km über die Brunei-Bucht in den abgetrennten Ostteil des Landes.",
+      "Ihren heutigen Namen trägt die Stadt seit 1970; davor hieß sie Brunei Town."
+    ],
+    "q": {
+      "q": "Was ist Kampong Ayer?",
+      "a": "Ein Pfahldorf über dem Wasser",
+      "x": [
+        "Ein schwimmender Markt",
+        "Ein königlicher Wald"
+      ]
+    }
+  },
+  "Q45604": {
+    "t": "Eine Granatapfel-Oase zwischen kahlen Kämmen und rotem Sand",
+    "s": "Rötliche Dünen der Registan-Wüste breiten sich südlich von Kandahar aus, das auf einer trockenen Ebene in rund 1.000 m Höhe zwischen kahlen, zackigen Kämmen liegt. Nordwestlich der Stadt speist der Arghandab ein grünes Band von Obstgärten, berühmt für Granatäpfel. 1747 machte Ahmad Schah Durrani Kandahar zur Hauptstadt seines neuen Reichs, und er ist hier begraben.",
+    "w": "Eine Stadt auf trockener brauner Ebene zwischen kahlen Felskämmen, im Nordwesten ein grünes Obstgartenband entlang eines Flusses.",
+    "f": [
+      "Viele Historiker verbinden Kandahar mit einer von Alexander dem Großen gegründeten Stadt, Alexandria in Arachosien.",
+      "Kandahars Granatäpfel sind in der ganzen Region begehrt."
+    ],
+    "q": {
+      "q": "Für welche Frucht ist das Arghandab-Tal bei Kandahar berühmt?",
+      "a": "Granatäpfel",
+      "x": [
+        "Datteln",
+        "Orangen"
+      ]
+    }
+  },
+  "Q1850": {
+    "t": "Eine Hauptstadt, wo sich vier Flussarme treffen",
+    "s": "Phnom Penh steht an einer großen Wasserkreuzung namens Chaktomuk, „vier Gesichter“: Mekong, Tonle Sap und Bassac treffen sich hier in einem X aus braunem Wasser. In jeder Regenzeit schwillt der Mekong so stark an, dass der Tonle-Sap-Fluss seine Richtung umkehrt und rückwärts fließt und den großen See flussaufwärts füllt. Der Name der Stadt bedeutet „Hügel der Penh“, nach einer Frau, die hier der Legende nach ein Heiligtum gründete.",
+    "w": "Eine Stadt an einem X-förmigen Zusammenfluss breiter brauner Flüsse, umgeben von flacher Flussaue und Reisfeldern.",
+    "f": [
+      "In der Regenzeit kann der Tonle-Sap-See auf ein Mehrfaches seiner Größe in der Trockenzeit anwachsen.",
+      "König Norodom verlegte die königliche Hauptstadt 1866 von Oudong hierher."
+    ],
+    "q": {
+      "q": "Was tut der Tonle-Sap-Fluss in jeder Regenzeit?",
+      "a": "Er kehrt seine Fließrichtung um",
+      "x": [
+        "Er trocknet aus",
+        "Er friert zu"
+      ]
+    }
+  },
+  "Q9270": {
+    "t": "Eine kleine Hauptstadt, aufgereiht in einem Himalayatal",
+    "s": "Thimphu reiht sich in rund 2.300 m Höhe im engen Tal des Wang Chhu auf, beiderseits ragen steile, bewaldete Berge auf. Es ist eine der kleinsten Hauptstädte Asiens und hat noch immer keine Ampeln: An der belebtesten Kreuzung lenkt ein Polizist die Autos mit anmutigen Handzeichen. Auf dem Talboden steht der Tashichho Dzong, eine Klosterfestung, in der die Regierung sitzt.",
+    "w": "Eine kleine, lange Stadt in einem engen Flusstal zwischen steilen, dicht bewaldeten Berghängen.",
+    "f": [
+      "Thimphu wurde in den 1950er-Jahren Hauptstadt Bhutans und löste Punakha ab.",
+      "Bhutans einziger internationaler Flughafen in Paro liegt in einem Nachbartal rund 50 km entfernt."
+    ],
+    "q": {
+      "q": "Was gibt es in Thimphu bekanntlich nicht?",
+      "a": "Ampeln",
+      "x": [
+        "Straßenlaternen",
+        "Brücken"
+      ]
+    }
+  },
+  "Q11568": {
+    "t": "Eine tropische Hafenstadt, benannt nach Charles Darwin",
+    "s": "Dunkle Mangroven säumen einen großen Hafen an Australiens tropischer Nordküste, und Darwin liegt auf einer niedrigen Halbinsel darin. Ringsum erstrecken sich flache Savannenwälder und weiter östlich die Überschwemmungsebenen von Kakadu. In der Regenzeit türmen sich an den meisten Nachmittagen Gewitter über dem Land. Die Besatzung der HMS Beagle benannte den Hafen 1839 nach ihrem früheren Schiffskameraden Charles Darwin.",
+    "w": "Eine kleine Stadt auf einer niedrigen Halbinsel in einem weiten, mangrovengesäumten Hafen; dahinter flache grüne Savanne.",
+    "f": [
+      "Darwin liegt näher an Jakarta als an Sydney.",
+      "In den Flüssen und Buchten rund um die Stadt leben Leistenkrokodile."
+    ],
+    "q": {
+      "q": "Die Besatzung welches Schiffs benannte Darwin 1839?",
+      "a": "Der HMS Beagle",
+      "x": [
+        "Der HMS Endeavour",
+        "Der HMS Bounty"
+      ]
+    }
+  },
+  "Q17872": {
+    "t": "Eine Stadt in einer Lücke roter Kämme im Herzen Australiens",
+    "s": "Alice Springs liegt fast im Mittelpunkt Australiens, eingebettet in eine Lücke der MacDonnell Ranges – lange, parallele rote Kämme, die sich wie die Falten eines Teppichs von Ost nach West durch die Wüste ziehen. Der Todd River im Ort ist meist nur ein Bett aus trockenem Sand. Die Siedlung wuchs um eine Station des 1872 vollendeten Overland Telegraph, der Adelaide mit Darwin verband.",
+    "w": "Lange, parallele rote Kämme, die von Ost nach West durch rote Wüste laufen, mit einer kleinen Stadt in einer Lücke dazwischen.",
+    "f": [
+      "Bei der Henley-on-Todd-Regatta rennen Teams mit bodenlosen Booten durch das trockene Flussbett.",
+      "Die Quellen und später die Stadt wurden nach Alice Todd benannt, der Frau des Telegrafenbauers Charles Todd."
+    ],
+    "q": {
+      "q": "Den Booten der Henley-on-Todd-Regatta in Alice Springs fehlt …",
+      "a": "Der Boden",
+      "x": [
+        "Die Ruder",
+        "Das Segel"
+      ]
+    }
+  },
+  "Q3114": {
+    "t": "Eine Reißbrett-Hauptstadt rund um einen künstlichen See",
+    "s": "Canberra wurde als Kompromiss zwischen den Rivalen Sydney und Melbourne gewählt und von den amerikanischen Architekten Walter Burley Griffin und Marion Mahony Griffin auf dem Papier entworfen. Achten Sie von oben auf den künstlichen See in der Mitte und das geometrische Muster aus Alleen und Kreisen ringsum. Bewaldete Hügel und Naturschutzgebiete trennen die Vororte und brachten ihr den Beinamen „Buschhauptstadt“ ein.",
+    "w": "Eine weitläufige Stadt zwischen bewaldeten Hügeln, mit einem langen künstlichen See in der Mitte und geometrischen Alleen ringsum.",
+    "f": [
+      "Der Entwurf der Griffins gewann 1912 einen internationalen Wettbewerb.",
+      "Der Lake Burley Griffin entstand 1963 durch die Aufstauung des Molonglo."
+    ],
+    "q": {
+      "q": "Wer gewann 1912 den Wettbewerb für den Entwurf Canberras?",
+      "a": "Walter Burley Griffin",
+      "x": [
+        "Edwin Lutyens",
+        "Frank Lloyd Wright"
+      ]
+    }
+  },
+  "Q57278": {
+    "t": "Kohlefrachter, eine Flussmündung und ein Meer aus Dünen",
+    "s": "Eine Reihe wartender Massengutfrachter vor der Küste verrät Newcastle: An der Mündung des Hunter liegt der größte Kohleexporthafen der Welt. Nördlich des Hafens ziehen sich die hellen Dünen der Stockton Bight rund 30 km die Küste entlang. Im Süden liegt der große, verzweigte Lake Macquarie. Kohle wurde hier 1797 zum ersten Mal gefunden.",
+    "w": "Eine Stadt an einer Flussmündung mit Schiffen auf Reede; im Norden lange helle Dünen an der Küste, im Süden ein großer See.",
+    "f": [
+      "Die Dünen der Stockton Bight sind die größten Wanderdünen an der Küste von New South Wales.",
+      "Das Hunter Valley im Hinterland ist eines der ältesten Weinbaugebiete Australiens."
+    ],
+    "q": {
+      "q": "Newcastle ist der weltgrößte Exporthafen für …",
+      "a": "Kohle",
+      "x": [
+        "Eisenerz",
+        "Weizen"
+      ]
+    }
+  },
+  "Q5112": {
+    "t": "Eine Rasterstadt in einem Ring aus Parkland",
+    "s": "Ein geschlossener Ring aus grünem Parkland rahmt Adelaides ordentliches Rasterzentrum – ein Plan, den Colonel William Light 1837 anlegte und der von oben noch klar zu erkennen ist. Die Stadt liegt auf einer Küstenebene zwischen dem Gulf St Vincent und den bewaldeten Mount Lofty Ranges. Anders als Sydney oder Hobart wurde South Australia von freien Siedlern besiedelt, nie von Sträflingen.",
+    "w": "Ein quadratisches Rasterzentrum, gerahmt von einem grünen Parkgürtel, auf einer Ebene zwischen einem Golf im Westen und Hügeln im Osten.",
+    "f": [
+      "Die Stadt ist nach Königin Adelheid benannt, der Frau König Wilhelms IV.",
+      "Das Barossa Valley, eines der bekanntesten Weinbaugebiete Australiens, liegt rund 60 km nordöstlich."
+    ],
+    "q": {
+      "q": "Wer legte Adelaides Raster und Parkgürtel an?",
+      "a": "William Light",
+      "x": [
+        "Lachlan Macquarie",
+        "Walter Burley Griffin"
+      ]
+    }
+  },
+  "Q190021": {
+    "t": "Trockene Tropenstadt an rotem Fels und magnetischer Insel",
+    "s": "Townsville erstreckt sich an einem flachen, trockenen Küstenabschnitt im Norden Queenslands rund um den Castle Hill, eine rosarote Granitkuppe, die mitten aus der Stadt aufragt. Direkt vor der Küste liegt das bergige, bewaldete Magnetic Island, und weiter draußen beginnt das Große Barriereriff. Die Hügel dahinter fangen weniger Regen als die nasse Küste weiter nördlich, was Townsville sein trockeneres Aussehen mit braunem Gras gibt.",
+    "w": "Eine Stadt an flacher Küste rund um einen roten Felshügel, mit einer hügeligen Insel direkt davor; dahinter braunes Grasland.",
+    "f": [
+      "James Cook benannte Magnetic Island 1770, weil sie den Kompass seines Schiffs zu stören schien.",
+      "Der rund 286 m hohe Castle Hill ragt direkt aus dem Stadtzentrum auf."
+    ],
+    "q": {
+      "q": "Warum nannte James Cook die Insel Magnetic Island?",
+      "a": "Sie schien seinen Kompass zu stören",
+      "x": [
+        "Sie war reich an Eisenerz",
+        "Sie zog Schiffe bei Sturm an"
+      ]
+    }
+  },
+  "Q34932": {
+    "t": "Ein gewundener Fluss und eine Bucht riesiger Sandinseln",
+    "s": "Der Brisbane River windet sich in engen Schlingen durch die Stadt, bevor er die Moreton Bay erreicht. Draußen in der Bucht gehören Moreton und North Stradbroke zu den größten Sandinseln der Erde, ihre Dünen leuchten hell vor dem Pazifik. Achten Sie im Norden auf die Glass House Mountains, eine Gruppe vulkanischer Schlotfüllungen, die jäh aus der Ebene aufragen.",
+    "w": "Eine Stadt an einem eng gewundenen Fluss; eine weite Bucht, geschützt von langen Sandinseln; im Norden Vulkangipfel.",
+    "f": [
+      "James Cook benannte die Glass House Mountains 1770; sie erinnerten ihn an Glasöfen in Yorkshire.",
+      "Brisbane begann 1825 als Strafkolonie für Sträflinge."
+    ],
+    "q": {
+      "q": "Wer benannte die Glass House Mountains nördlich von Brisbane?",
+      "a": "James Cook",
+      "x": [
+        "Matthew Flinders",
+        "John Oxley"
+      ]
+    }
+  },
+  "Q40191": {
+    "t": "Eine Hafenstadt unter einem schneebestäubten Berg",
+    "s": "Hobart schmiegt sich an die Ufer der breiten Derwent-Mündung, über die eine lange Brücke führt, und direkt dahinter erhebt sich der kunanyi / Mount Wellington, 1.271 m hoch und oft mit Schnee bestäubt. Die 1804 gegründete Stadt ist die zweitälteste Hauptstadt Australiens. Von hier brechen Schiffe zum Südpolarmeer auf: Hobart ist ein Tor zur Antarktis.",
+    "w": "Eine Stadt an einer weiten Mündung mit einer langen Brücke, direkt dahinter ein großer, dunkler Berg.",
+    "f": [
+      "Die Segelregatta Sydney–Hobart, erstmals 1945 gesegelt, endet jedes Jahr auf dem Derwent.",
+      "Die Australian Antarctic Division hat ihren Sitz gleich südlich der Stadt."
+    ],
+    "q": {
+      "q": "In welchem Jahr wurde Hobart gegründet?",
+      "a": "1804",
+      "x": [
+        "1788",
+        "1836"
+      ]
+    }
+  },
+  "Q37400": {
+    "t": "Eine neue Hauptstadt riesiger Straßen auf dem Land",
+    "s": "Naypyidaw wurde Anfang der 2000er-Jahre von Grund auf auf einer Ebene zwischen den bewaldeten Bago-Yoma-Hügeln und dem Shan-Hochland gebaut und 2005–06 Hauptstadt Myanmars. Von oben sieht sie aus wie keine andere Stadt: sehr breite, gerade Straßen, weit auseinanderliegende Viertel und große Lücken voller Landschaft dazwischen. Ihr Name bedeutet etwa „Sitz der Könige“.",
+    "w": "Eine weitläufige, dünn bebaute Stadt mit sehr breiten, geraden Straßen und verstreuten Vierteln auf einer Ebene zwischen bewaldeten Hügeln.",
+    "f": [
+      "Einige ihrer Hauptstraßen sind rund 20 Spuren breit.",
+      "Die Uppatasanti-Pagode hier ist eine fast genaue Kopie der Shwedagon in Yangon, nur etwas niedriger."
+    ],
+    "q": {
+      "q": "Was bedeutet der Name Naypyidaw?",
+      "a": "Sitz der Könige",
+      "x": [
+        "Stadt des Goldes",
+        "Ende des Streits"
+      ]
+    }
+  },
+  "Q9347": {
+    "t": "Eine ganze Hauptstadt auf einer winzigen Koralleninsel",
+    "s": "Malé ist eine der eindrucksvollsten Hauptstädte aus der Luft: eine kleine Koralleninsel, nur rund 2 km lang, bis an die Wasserkante bebaut. Daneben liegen die flache Flughafeninsel und Hulhumalé, eine große Insel aus ausgebaggertem Sand. Ringsum verstreuen Atolle türkisfarbene Lagunen über den dunkelblauen Indischen Ozean.",
+    "w": "Eine winzige, von Rand zu Rand bebaute Insel neben einer flachen Flughafeninsel; ringsum türkisfarbene Lagunen und Riffe.",
+    "f": [
+      "Das Wort „Atoll“ stammt aus dem Dhivehi, der Sprache der Malediven.",
+      "Die Malediven sind das am tiefsten gelegene Land der Welt, mit einer mittleren Geländehöhe von rund 1,5 m.",
+      "Eine 2018 eröffnete Brücke verbindet Malé mit der Flughafeninsel."
+    ],
+    "q": {
+      "q": "Aus welcher Sprache stammt das Wort „Atoll“?",
+      "a": "Aus dem Dhivehi",
+      "x": [
+        "Aus dem Hawaiischen",
+        "Aus dem Malaiischen"
+      ]
+    }
+  },
+  "Q181557": {
+    "t": "Eine Hafenstadt hinter einer langen, schmalen Insel",
+    "s": "Kaohsiung zieht sich an der Südwestküste Taiwans hinter Cijin entlang, einer langen, bleistiftdünnen Insel, die seinen Hafen gegen die Taiwanstraße abschirmt. Schiffe laufen durch Lücken an beiden Enden ein. Es ist Taiwans größter Hafen. Am Nordende erhebt sich der grüne Buckel des Shoushan über das Wasser, und weit landeinwärts säumt das Zentralgebirge den östlichen Horizont.",
+    "w": "Eine lange Stadt hinter einer schmalen Insel parallel zur Küste, an ihrem Nordende ein grüner Hügel, weit im Osten Berge.",
+    "f": [
+      "Der alte Name der Stadt, Takau, geht vermutlich auf ein indigenes Wort für einen Bambuswald zurück.",
+      "Die zweite Hafeneinfahrt wurde in den 1970er-Jahren durch Cijin geschnitten."
+    ],
+    "q": {
+      "q": "Welche lange, schmale Insel schützt Kaohsiungs Hafen?",
+      "a": "Cijin",
+      "x": [
+        "Penghu",
+        "Liuqiu"
+      ]
+    }
+  },
+  "Q23661": {
+    "t": "Die südlichste Hauptstadt, an einem windigen, runden Hafen",
+    "s": "Wellington klettert steile grüne Hügel rund um einen fast geschlossenen, runden Hafen an der Südspitze der Nordinsel Neuseelands hinauf. Achten Sie im Nordosten auf den schnurgeraden Rand des Hutt Valley: Er folgt der Wellington-Verwerfung. Gleich im Süden trennt Sie das oft raue Wasser der Cookstraße von der Südinsel, die an klaren Tagen zu sehen ist.",
+    "w": "Eine Stadt auf steilen Hügeln um einen runden Hafen; im Nordosten ein geradlinig begrenztes Tal, im Süden eine Meerenge und eine ferne Insel.",
+    "f": [
+      "Wellington ist die südlichste Hauptstadt eines souveränen Staates.",
+      "Durch die Cookstraße gebündelte Winde machen sie zu einer der windigsten Städte der Erde."
+    ],
+    "q": {
+      "q": "Welche Meerenge liegt gleich südlich von Wellington?",
+      "a": "Die Cookstraße",
+      "x": [
+        "Die Bassstraße",
+        "Die Foveauxstraße"
+      ]
+    }
+  },
+  "Q79990": {
+    "t": "Gartenstadt zwischen Flussgeflechten und alten Vulkanen",
+    "s": "Breite, verflochtene Flüsse fächern sich von den Südalpen über den flachen Flickenteppich der Canterbury Plains, und Christchurch liegt am seewärtigen Rand der Ebene. Südöstlich der Stadt erhebt sich die Banks Peninsula, aufgebaut von zwei uralten Vulkanen, deren ertrunkene Krater heute die Häfen von Lyttelton und Akaroa bilden. Englische Siedler gründeten die Stadt 1850.",
+    "w": "Eine flache Stadt neben einer runden, hügeligen Halbinsel; landeinwärts gerasterte Ebenen und verflochtene Flüsse, weit im Westen Schneeberge.",
+    "f": [
+      "Christchurch ist ein wichtiges Tor zur Antarktis: Versorgungsflüge mehrerer nationaler Programme starten an seinem Flughafen.",
+      "Der Waimakariri nördlich der Stadt teilt sich auf einem breiten Kiesbett in viele Arme."
+    ],
+    "q": {
+      "q": "Was sind die Häfen von Lyttelton und Akaroa?",
+      "a": "Ertrunkene Vulkankrater",
+      "x": [
+        "Gletscherfjorde",
+        "Korallenlagunen"
+      ]
+    }
+  },
+  "Q19881964": {
+    "t": "Eine neue Hauptstadt mit dem Namen einer alten Stupa-Stadt",
+    "s": "Amaravati wird auf flachem Ackerland am Südufer der Krishna angelegt, kurz oberhalb von Vijayawada und seiner langen Staustufe; achten Sie von oben auf neue Straßenraster, die durch grüne Felder geschnitten sind. Der Name ist vom antiken Ort Amaravathi etwas weiter flussaufwärts entlehnt, wo vor mehr als 2.000 Jahren ein großer buddhistischer Stupa stand.",
+    "w": "Flaches grünes Ackerland am Südufer eines breiten Flusses, durchzogen von einem neuen Straßenraster, nahe einer Stadt mit Staustufe.",
+    "f": [
+      "Reliefs vom Stupa von Amaravati gehören zu den Schätzen des British Museum und des Government Museum in Chennai.",
+      "Die rund 1.400 km lange Krishna ist einer der großen Flüsse der indischen Halbinsel."
+    ],
+    "q": {
+      "q": "An welchem Fluss stand der antike Stupa von Amaravati?",
+      "a": "An der Krishna",
+      "x": [
+        "An der Godavari",
+        "An der Kaveri"
+      ]
+    }
   }
 }

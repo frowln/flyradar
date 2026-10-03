@@ -6,8 +6,9 @@ import type { RoutePoint, POI } from '@skyatlas/shared';
 import { palette, line, s as space } from '../design/tokens';
 import { decorative } from '../design/layout';
 import { Label } from '../design/type';
-import { t } from '../../src/i18n';
-import { MAP_STYLE_DAY, MAP_STYLE_NIGHT, RELIEF_TILES, DEM_TILES, DEM_MAX_ZOOM } from '../../src/core/map/offlineMap';
+import { t, getLocale } from '../../src/i18n';
+import { localizedStyle } from '../../src/core/map/localStyle';
+import { RELIEF_TILES, DEM_TILES, DEM_MAX_ZOOM } from '../../src/core/map/offlineMap';
 import { viewSector } from '../../src/core/flight/telemetry';
 
 import { PLANE_PATH } from './planeGlyph';
@@ -217,7 +218,7 @@ export default function RouteMap({
       <View {...decorative} style={styles.fill}>
         <Map
           style={styles.fill}
-          mapStyle={night ? MAP_STYLE_NIGHT : MAP_STYLE_DAY}
+          mapStyle={localizedStyle(night, getLocale().slice(0, 2))}
           logo={false}
           compass={false}
           attribution

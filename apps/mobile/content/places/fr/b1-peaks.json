@@ -1,7 +1,7 @@
 {
   "Q7296": {
     "t": "Le toit de l’Afrique, île de neige au-dessus des plaines",
-    "s": "Le Kilimandjaro n’appartient à aucune chaîne : il se dresse seul, vaste volcan sombre surgi de la savane. Son sommet, l’Uhuru Peak sur le cône du Kibo, culmine à 5 895 m — le toit de l’Afrique, et pourtant encore à environ cinq kilomètres sous vous. Cherchez l’anneau blanc de glace sur le Kibo : il recule d’année en année mais tient toujours, à trois degrés à peine au sud de l’équateur.",
+    "s": "Le Kilimandjaro n’appartient à aucune chaîne : il se dresse seul, vaste volcan sombre surgi de la savane. Son sommet, l’Uhuru Peak sur le cône du Kibo, culmine à 5 895 m — le toit de l’Afrique, et pourtant encore quelque cinq kilomètres sous l’altitude de croisière. Cherchez l’anneau blanc de glace sur le Kibo : il recule d’année en année mais tient toujours, à trois degrés à peine au sud de l’équateur.",
     "w": "Un immense dôme isolé au sommet plat strié de blanc, flanqué à l’est du pic déchiqueté du Mawenzi, près de la frontière kényane.",
     "f": [
       "Le Kilimandjaro est formé de trois cônes volcaniques : le Kibo, le Mawenzi et le Shira.",
@@ -19,7 +19,7 @@
   },
   "Q39231": {
     "t": "Le cône solitaire du Japon, blanc et presque symétrique",
-    "s": "Par temps clair, impossible de se tromper : un cône large et régulier, seul à l’ouest de Tokyo, les pentes hautes blanches de l’automne au printemps. Sa dernière éruption date de 1707. Le sommet, 3 776 m, se trouve à quelque sept kilomètres sous vous ; en été, la neige se réduit à de minces traînées dans les ravines et la montagne redevient sombre, couleur de cendre.",
+    "s": "Par temps clair, impossible de se tromper : un cône large et régulier, seul à l’ouest de Tokyo, les pentes hautes blanches de l’automne au printemps. Sa dernière éruption date de 1707. Le sommet, 3 776 m, se trouve à quelque sept kilomètres sous l’altitude de croisière ; en été, la neige se réduit à de minces traînées dans les ravines et la montagne redevient sombre, couleur de cendre.",
     "w": "Un cône enneigé isolé, à environ 100 km au sud-ouest de Tokyo, avec un chapelet de petits lacs le long de son pied nord.",
     "f": [
       "Les cinq lacs au pied nord du Fuji sont nés là où d’anciennes coulées de lave ont barré les vallées.",
@@ -36,7 +36,7 @@
     }
   },
   "Q513": {
-    "t": "Le plus haut point du globe, à 2 km environ sous vous",
+    "t": "Le plus haut point du globe, 2 km sous les avions de ligne",
     "s": "Vu d’avion, l’Everest paraît rarement le plus haut : il se cache parmi des voisins géants, pyramide sombre souvent prolongée d’un panache de neige que le courant-jet chasse vers l’est. Son sommet, 8 848 m, n’est qu’à deux kilomètres environ sous l’altitude de croisière. La roche tout en haut est un calcaire formé au fond d’une mer ancienne, puis soulevé quand l’Inde s’est enfoncée dans l’Asie.",
     "w": "Une pyramide sombre à trois faces, souvent panachée de neige, dressée au-dessus des glaciers à la frontière Népal–Tibet.",
     "f": [
@@ -73,7 +73,7 @@
   },
   "Q1374": {
     "t": "La dent acérée des Alpes, une face par point cardinal",
-    "s": "Même depuis l’altitude de croisière, le Cervin semble sculpté : une pyramide crochue dont les quatre faces regardent presque exactement le nord, le sud, l’est et l’ouest. Il se dresse sur la frontière italo-suisse au-dessus de Zermatt, à 4 478 m, soit quelque six kilomètres et demi sous vous. Par un matin ensoleillé, la face est s’illumine quand la face nord reste dans l’ombre : le sommet paraît tranché en deux.",
+    "s": "Même depuis l’altitude de croisière, le Cervin semble sculpté : une pyramide crochue dont les quatre faces regardent presque exactement le nord, le sud, l’est et l’ouest. Il se dresse sur la frontière italo-suisse au-dessus de Zermatt, à 4 478 m, soit quelque six kilomètres et demi plus bas que les avions de ligne. Par un matin ensoleillé, la face est s’illumine quand la face nord reste dans l’ombre : le sommet paraît tranché en deux.",
     "w": "Une pyramide rocheuse isolée et crochue parmi les glaciers, à l’ouest du grand massif du Mont-Rose, sur la frontière italo-suisse.",
     "f": [
       "La cordée d’Edward Whymper a réussi la première ascension le 14 juillet 1865.",
@@ -109,7 +109,7 @@
   },
   "Q583": {
     "t": "Le plus haut dôme d’Europe occidentale, blanc toute l’année",
-    "s": "Le mont Blanc tient moins de l’aiguille que de l’immense épaule blanche : un large dôme de glace sur un massif partagé entre la France, l’Italie et la Suisse. Avec quelque 4 807 m, c’est le point culminant des Alpes, et pourtant plus de six kilomètres sous vous. Au nord, de longs glaciers descendent vers la vallée de Chamonix ; côté italien, les parois plongent à pic sur Courmayeur.",
+    "s": "Le mont Blanc tient moins de l’aiguille que de l’immense épaule blanche : un large dôme de glace sur un massif partagé entre la France, l’Italie et la Suisse. Avec quelque 4 807 m, c’est le point culminant des Alpes, et pourtant plus de six kilomètres sous l’altitude de croisière. Au nord, de longs glaciers descendent vers la vallée de Chamonix ; côté italien, les parois plongent à pic sur Courmayeur.",
     "w": "Un large dôme blanc arrondi au-dessus de vallées profondes, avec de longues langues glaciaires tendues vers Chamonix, au nord-ouest.",
     "f": [
       "Jacques Balmat et Michel-Gabriel Paccard ont atteint le sommet pour la première fois en 1786.",
@@ -145,7 +145,7 @@
   },
   "ne-gl-antarctic-ice-sheet": {
     "t": "L’essentiel de la glace du globe, sur un continent gelé",
-    "s": "Si votre route survole l’Antarctique, la blancheur en dessous n’est pas de la neige posée sur la terre, mais une glace épaisse de plusieurs kilomètres. L’inlandsis antarctique couvre quelque 14 millions de km² et renferme environ 90 % de toute la glace terrestre. Sa surface est si lisse et si claire que l’horizon peut disparaître ; seuls les nunataks — des pics rocheux qui percent la glace — rompent le blanc.",
+    "s": "Si votre route survole l’Antarctique, cette blancheur n’est pas de la neige posée sur la terre, mais une glace épaisse de plusieurs kilomètres. L’inlandsis antarctique couvre quelque 14 millions de km² et renferme environ 90 % de toute la glace terrestre. Sa surface est si lisse et si claire que l’horizon peut disparaître ; seuls les nunataks — des pics rocheux qui percent la glace — rompent le blanc.",
     "w": "Une étendue blanche sans fin, à peine ridée par le vent ; la roche sombre n’apparaît que près des côtes et le long des chaînes.",
     "f": [
       "S’il fondait entièrement, le niveau des mers monterait d’environ 58 mètres.",
@@ -217,7 +217,7 @@
   },
   "Q130736": {
     "t": "La « montagne nue », au bout occidental de l’Himalaya",
-    "s": "Le Nanga Parbat se tient à l’écart : c’est le plus occidental des 8 000 m himalayens, et l’Indus s’enroule à son pied. Son nom signifie « montagne nue », peut-être pour ses parois trop raides pour garder la neige. La face Rupal, au sud, s’élève d’environ 4 600 m de la vallée au sommet : l’un des plus hauts murs montagneux de la Terre. La cime, 8 125 m, est à moins de trois kilomètres sous vous.",
+    "s": "Le Nanga Parbat se tient à l’écart : c’est le plus occidental des 8 000 m himalayens, et l’Indus s’enroule à son pied. Son nom signifie « montagne nue », peut-être pour ses parois trop raides pour garder la neige. La face Rupal, au sud, s’élève d’environ 4 600 m de la vallée au sommet : l’un des plus hauts murs montagneux de la Terre. La cime, 8 125 m, est à moins de trois kilomètres sous l’altitude de croisière.",
     "w": "Un massif géant isolé au sud d’une boucle de l’Indus, avec une muraille sud vertigineuse et des glaciers qui débordent vers le nord.",
     "f": [
       "Hermann Buhl en a réussi la première ascension en 1953, atteignant seul le sommet.",
@@ -271,7 +271,7 @@
   },
   "Q179842": {
     "t": "Le toit du monde, à plus de 4 500 m en moyenne",
-    "s": "Sous vous s’étend le plus haut des grands plateaux de la Terre : plus de 4 500 m d’altitude moyenne, environ 2,5 millions de km². Vu de croisière, on dirait une autre planète : plaines brunes et ocre, lacs turquoise aux rives blanchies de sel, chaînes enneigées tracées à la règle. Les grands fleuves d’Asie — dont le Yangzi, le fleuve Jaune, le Mékong, l’Indus et le Brahmapoutre — naissent ici.",
+    "s": "Voici le plus haut des grands plateaux de la Terre : plus de 4 500 m d’altitude moyenne, environ 2,5 millions de km². Vu de croisière, on dirait une autre planète : plaines brunes et ocre, lacs turquoise aux rives blanchies de sel, chaînes enneigées tracées à la règle. Les grands fleuves d’Asie — dont le Yangzi, le fleuve Jaune, le Mékong, l’Indus et le Brahmapoutre — naissent ici.",
     "w": "Un haut pays brun et nu, semé de lacs turquoise et de crêtes blanches ; l’Himalaya en dessine la bordure sud, tranchante.",
     "f": [
       "Il renferme tant de glaciers qu’on le surnomme souvent le « troisième pôle ».",
@@ -325,7 +325,7 @@
   },
   "Q1537198": {
     "t": "Des cimes de glace jumelles au-dessus de la Suru, au Ladakh",
-    "s": "Le Nun et son jumeau, le Kun, forment le massif du Nun Kun, un nœud de glace de l’Himalaya occidental, au Ladakh. Le Nun est le plus haut des deux, 7 135 m, à quatre kilomètres à peine sous vous. Entre les deux cimes s’étend un plateau neigeux d’environ 4 km : d’en haut, on dirait une selle blanche jetée d’un pic à l’autre. Des glaciers en dévalent des deux côtés vers la vallée de la Suru.",
+    "s": "Le Nun et son jumeau, le Kun, forment le Nun Kun, un nœud de glace de l’Himalaya occidental, au Ladakh. Le Nun est le plus haut des deux, 7 135 m, à quatre kilomètres à peine sous l’altitude de croisière. Entre les deux cimes s’étend un plateau neigeux d’environ 4 km : d’en haut, on dirait une selle blanche jetée d’un pic à l’autre. Des glaciers en dévalent des deux côtés vers la vallée de la Suru.",
     "w": "Deux sommets blancs reliés par un plateau neigeux, de longs glaciers descendant vers une vallée verte à leur pied.",
     "f": [
       "Le Nun a été gravi pour la première fois en 1953 par Claude Kogan et Pierre Vittoz, d’une expédition franco-suisse.",
@@ -718,7 +718,7 @@
   },
   "Q39739": {
     "t": "Le plus haut sommet du monde hors d’Asie",
-    "s": "L’Aconcagua est la plus haute montagne hors d’Asie, 6 959 m, et le sommet des hémisphères Ouest et Sud à la fois. Il se dresse en Argentine, juste à l’est de la frontière chilienne : un énorme massif brun et blanc plutôt qu’une fine aiguille. Sur les vols entre Santiago et Mendoza, il surgit souvent près de l’aile, à quatre kilomètres à peine sous vous.",
+    "s": "L’Aconcagua est la plus haute montagne hors d’Asie, 6 959 m, et le sommet des hémisphères Ouest et Sud à la fois. Il se dresse en Argentine, juste à l’est de la frontière chilienne : un énorme massif brun et blanc plutôt qu’une fine aiguille. Sur les vols entre Santiago et Mendoza, il apparaît souvent tout proche, à quatre kilomètres à peine sous l’altitude de croisière.",
     "w": "Un pic massif coiffé de blanc au-dessus des crêtes brunes et sèches des Andes, juste au nord de la route Santiago–Mendoza.",
     "f": [
       "Matthias Zurbriggen a réussi la première ascension connue en 1897.",
@@ -915,7 +915,7 @@
   },
   "Q5881339": {
     "t": "Au nom du pilote du premier vol à travers l’Antarctique",
-    "s": "Ce large plateau de glace de l’Antarctique de l’Ouest porte le nom de Herbert Hollick-Kenyon, qui en 1935 fit pour la première fois traverser le continent en avion à Lincoln Ellsworth. La traversée dura environ deux semaines : il fallut se poser plusieurs fois sur la glace pour laisser passer les tempêtes. Sous vous, une étendue blanche infinie, doucement ondulée, où l’on ne voit presque aucun rocher.",
+    "s": "Ce large plateau de glace de l’Antarctique de l’Ouest porte le nom de Herbert Hollick-Kenyon, qui en 1935 fit pour la première fois traverser le continent en avion à Lincoln Ellsworth. La traversée dura environ deux semaines : il fallut se poser plusieurs fois sur la glace pour laisser passer les tempêtes. D’en haut, une étendue blanche infinie, doucement ondulée, où l’on ne voit presque aucun rocher.",
     "w": "Un plateau blanc sans relief, doucement ondulé, entre les monts Ellsworth et les chaînes de la Terre Marie Byrd.",
     "f": [
       "En 1935, l’avion tomba en panne sèche avant la baie des Baleines, et les deux hommes finirent le trajet à pied.",
@@ -2134,7 +2134,7 @@
   },
   "Q482274": {
     "t": "Le château d’eau du Cameroun, versé de trois côtés",
-    "s": "Le centre du Cameroun est traversé par le plateau de l’Adamaoua, de hautes terres herbeuses, le plus souvent vers 1 000 m, semées de vieux cônes volcaniques et de lacs de cratère. C’est le château d’eau du pays : les rivières qui y naissent filent au nord vers le lac Tchad, à l’ouest vers le Niger par la Bénoué, et au sud vers l’Atlantique et le bassin du Congo. En dessous : savane verte, vallées boisées, terre rouge.",
+    "s": "Le centre du Cameroun est traversé par le plateau de l’Adamaoua, de hautes terres herbeuses, le plus souvent vers 1 000 m, semées de vieux cônes volcaniques et de lacs de cratère. C’est le château d’eau du pays : les rivières qui y naissent filent au nord vers le lac Tchad, à l’ouest vers le Niger par la Bénoué, et au sud vers l’Atlantique et le bassin du Congo. D’en haut : savane verte, vallées boisées, terre rouge.",
     "w": "Des hautes terres vertes et ondulées de savane et de vallées boisées, semées de petits cônes volcaniques et de lacs de cratère.",
     "f": [
       "Il doit son nom à Modibo Adama, chef peul qui fonda ici un émirat au début du XIXe siècle.",
@@ -2239,7 +2239,7 @@
   },
   "Q1126906": {
     "t": "Collines de terre noire où naissent de grands fleuves",
-    "s": "Au sud de Moscou, le terrain se renfle doucement : c’est la hauteur de Russie centrale, des collines de deux cents mètres à peine, mais importantes sur la carte, car l’Oka, le Don et des affluents du Dniepr y prennent leur source. Parmi ses sols figure le riche tchernoziom, la terre noire. En dessous, un patchwork de champs immenses entaillé de ravins ramifiés bordés d’arbres et, au sud, de vastes mines de fer à ciel ouvert.",
+    "s": "Au sud de Moscou, le terrain se renfle doucement : c’est la hauteur de Russie centrale, des collines de deux cents mètres à peine, mais importantes sur la carte, car l’Oka, le Don et des affluents du Dniepr y prennent leur source. Parmi ses sols figure le riche tchernoziom, la terre noire. D’en haut, un patchwork de champs immenses entaillé de ravins ramifiés bordés d’arbres et, au sud, de vastes mines de fer à ciel ouvert.",
     "w": "Un immense patchwork de champs entaillé de ravins ramifiés bordés d’arbres, avec d’énormes mines grises à ciel ouvert au sud.",
     "f": [
       "L’anomalie magnétique de Koursk, dans son sous-sol, est l’un des plus grands gisements de fer de la Terre.",
@@ -2293,7 +2293,7 @@
   },
   "Q874816": {
     "t": "Une soucoupe de rizières au bord du Mékong",
-    "s": "Le nord-est de la Thaïlande repose sur le plateau de Khorat, vaste soucoupe peu profonde, à 100 ou 200 m seulement au-dessus de la mer, doucement inclinée vers le Mékong. Ses deux grandes rivières, la Mun et la Chi, y serpentent avant de rejoindre le Mékong à la frontière laotienne. En dessous, un patchwork de rizières — vert vif à la saison des pluies, or et brun à la saison sèche — semé de villages et d’étangs.",
+    "s": "Le nord-est de la Thaïlande repose sur le plateau de Khorat, vaste soucoupe peu profonde, à 100 ou 200 m seulement au-dessus de la mer, doucement inclinée vers le Mékong. Ses deux grandes rivières, la Mun et la Chi, y serpentent avant de rejoindre le Mékong à la frontière laotienne. D’en haut, un patchwork de rizières — vert vif à la saison des pluies, or et brun à la saison sèche — semé de villages et d’étangs.",
     "w": "Un patchwork plat de rizières et d’étangs, cerné de collines basses, le Mékong décrivant une courbe le long de ses bords nord et est.",
     "f": [
       "D’épaisses couches de sel gemme reposent sous le plateau, et on y produit encore du sel.",

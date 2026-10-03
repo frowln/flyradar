@@ -1850,5 +1850,350 @@
         "A un bosque rojo"
       ]
     }
+  },
+  "Q678299": {
+    "t": "Un puesto ártico donde el Yeniséi se une al mar de Kara",
+    "s": "Donde el enorme golfo del Yeniséi se abre al mar de Kara, Dikson se aferra a unas costas rocosas y desnudas. Gran parte del año, mar y tierra están blancos, y el asentamiento es poco más que un puñado de edificios sobre la tundra. Solo viven aquí unas mil personas, muy al norte del círculo polar ártico, donde en pleno invierno el sol no sale durante semanas.",
+    "w": "Un puñado de edificios en una costa rocosa ártica, en la boca de un golfo enorme cubierto de hielo.",
+    "f": [
+      "Nordenskiöld bautizó el puerto en 1875 en honor de Oscar Dickson, el comerciante sueco que financió sus expediciones.",
+      "La noche polar dura aquí unos dos meses y medio.",
+      "Su puerto ha atendido a barcos de la Ruta del Mar del Norte."
+    ],
+    "q": {
+      "q": "¿De qué país era Oscar Dickson, que dio nombre a Dikson?",
+      "a": "Suecia",
+      "x": [
+        "Noruega",
+        "Dinamarca"
+      ]
+    }
+  },
+  "Q53139": {
+    "t": "Una soleada ciudad de Transbaikalia entre lomas boscosas",
+    "s": "Chitá está en un valle ancho donde el río Chitá se une al Ingodá, enmarcado por lomas bajas de alerces y pinos. Transbaikalia es una de las regiones más soleadas de Rusia, y en invierno el suelo suele quedar desnudo bajo una helada dura y seca. Desde 1827 se retuvo aquí a muchos decembristas desterrados, y las esposas que los siguieron ayudaron a convertir un pequeño fuerte en ciudad.",
+    "w": "Una ciudad en un valle ancho entre lomas bajas boscosas, donde se unen dos ríos; un gran lago en su borde oeste.",
+    "f": [
+      "El Transiberiano pasa por Chitá en su camino al Pacífico.",
+      "El sol brilla aquí bastante más de 2000 horas al año."
+    ],
+    "q": {
+      "q": "¿Qué famosos desterrados estuvieron retenidos en Chitá desde 1827?",
+      "a": "Los decembristas",
+      "x": [
+        "Los streltsí",
+        "Los viejos creyentes"
+      ]
+    }
+  },
+  "Q959": {
+    "t": "El final del Transiberiano, en una península de bahías",
+    "s": "Vladivostok trepa por las colinas de una península entre dos bahías del mar de Japón, y su puerto, el Cuerno de Oro, lleva el nombre del de Estambul. Busca al sur la línea larga y fina de un puente hacia la isla Russki. La ciudad se fundó en 1860 y es el extremo oriental del Transiberiano, a unos 9300 km de Moscú.",
+    "w": "Una ciudad montuosa en una península entre dos bahías, un puerto curvo en medio y un largo puente al sur hacia una isla.",
+    "f": [
+      "El puente Russki, abierto en 2012, tuvo el vano atirantado más largo del mundo: 1104 m.",
+      "El nombre une las palabras rusas para «dominar» y «oriente»."
+    ],
+    "q": {
+      "q": "¿Qué bahía de Estambul da nombre al puerto de Vladivostok?",
+      "a": "El Cuerno de Oro",
+      "x": [
+        "El Cuerno de Plata",
+        "La Puerta Dorada"
+      ]
+    }
+  },
+  "Q1993488": {
+    "t": "Un remoto puerto fluvial cerca del delta del Yana",
+    "s": "Nizhneyansk —«Bajo Yana»— es un diminuto asentamiento en la tundra, cerca de donde el río Yana se abre en un delta y se encuentra con el mar de Láptev. Desde arriba, la tierra de alrededor está moteada de innumerables lagos de deshielo, helados y blancos la mayor parte del año. Solo quedan unos cientos de personas en lo que fue un puerto fluvial con más vida en esta remota costa ártica.",
+    "w": "Un diminuto asentamiento en una tundra llana salpicada de lagos, cerca de un río que se abre en muchos brazos hacia el mar.",
+    "f": [
+      "Muy aguas arriba en el Yana está Verjoyansk, uno de los lugares habitados más fríos del hemisferio norte.",
+      "En el bajo Yana, los arqueólogos han hallado huellas de personas que vivían en el Ártico hace unos 32 000 años."
+    ],
+    "q": {
+      "q": "¿Qué ciudad, famosa por su frío, está aguas arriba en el Yana?",
+      "a": "Verjoyansk",
+      "x": [
+        "Oimiakón",
+        "Norilsk"
+      ]
+    }
+  },
+  "Q6610": {
+    "t": "La gran ciudad más fría, junto a un río de kilómetros",
+    "s": "Aquí enero ronda de media los −40 °C, y a Yakutsk se la suele llamar la gran ciudad más fría de la Tierra; la niebla helada puede cubrir sus calles durante días. Está en la orilla oeste del Lena, que se abre en un laberinto de brazos e islas de varios kilómetros de ancho. Toda la ciudad se asienta sobre permafrost, y casi todos sus edificios descansan sobre pilotes hundidos en el suelo helado.",
+    "w": "Una ciudad en la orilla oeste de un río anchísimo y lleno de islas, taiga llana alrededor; niebla helada en invierno.",
+    "f": [
+      "Cosacos al mando de Piotr Beketov fundaron aquí un fuerte junto al Lena en 1632.",
+      "Los Pilares del Lena, una muralla de torres de roca inscrita por la UNESCO, se alzan junto al río unos 200 km aguas arriba."
+    ],
+    "q": {
+      "q": "¿Por qué casi todos los edificios de Yakutsk están sobre pilotes?",
+      "a": "Por el permafrost",
+      "x": [
+        "Por las inundaciones",
+        "Por los terremotos"
+      ]
+    }
+  },
+  "Q500895": {
+    "t": "Un puerto polar junto al inmenso abanico del delta del Lena",
+    "s": "Justo al oeste de Tiksi se extiende una de las grandes vistas del norte: el delta del Lena, un abanico de cientos de brazos y miles de lagos que suma unos 30 000 km². El pequeño puerto ártico está en una bahía del mar de Láptev, con montañas bajas y desnudas detrás. Casi todo el año el mar está helado, y en pleno invierno el sol pasa semanas bajo el horizonte.",
+    "w": "Un pequeño puerto en una bahía helada; al oeste, un delta gigantesco que se abre en abanico en incontables brazos y lagos.",
+    "f": [
+      "El delta del Lena es el mayor del Ártico y una reserva natural protegida.",
+      "Tiksi atiende a barcos de la Ruta del Mar del Norte desde la década de 1930."
+    ],
+    "q": {
+      "q": "¿El inmenso delta de qué río está justo al oeste de Tiksi?",
+      "a": "El Lena",
+      "x": [
+        "El Yeniséi",
+        "El Kolimá"
+      ]
+    }
+  },
+  "Q7968": {
+    "t": "Un puerto entre dos bahías del mar de Ojotsk",
+    "s": "Dos bahías del mar de Ojotsk, la de Nagáyev y la de Gertner, estrechan Magadán en un cuello de tierra, con montañas desnudas y redondeadas detrás. En invierno el mar se hiela y la costa se vuelve de un blanco uniforme. Para la mayoría de los viajeros, aquí empieza la región del Kolimá: una tierra inmensa de montañas, ríos auríferos y bosque de alerces que se adentra en el continente.",
+    "w": "Una ciudad en un estrecho cuello de tierra entre dos bahías, colinas desnudas detrás; hielo marino en la costa en invierno.",
+    "f": [
+      "La carretera del Kolimá une Magadán con Yakutsk, a unos 2000 km.",
+      "La cuenca del Kolimá, tierra adentro, es una de las principales regiones auríferas de Rusia desde la década de 1930."
+    ],
+    "q": {
+      "q": "¿A orillas de qué mar está Magadán?",
+      "a": "El mar de Ojotsk",
+      "x": [
+        "El mar de Bering",
+        "El mar de Japón"
+      ]
+    }
+  },
+  "Q230628": {
+    "t": "Una ciudad minera junto a un cráter gigante a cielo abierto",
+    "s": "Erdenet está entre colinas verdes y onduladas del norte de Mongolia, y a su lado la mina no tiene pérdida: un enorme foso gris en terrazas y una amplia balsa de relaves de color claro. La ciudad se construyó desde 1974 para explotar uno de los mayores yacimientos de cobre de Asia. Su nombre significa más o menos «con tesoro».",
+    "w": "Una pequeña ciudad en colinas de estepa verde, junto a un enorme foso gris en terrazas y una gran balsa clara de relaves.",
+    "f": [
+      "Además de cobre, la mina de Erdenet produce molibdeno, un metal que se usa para endurecer el acero.",
+      "El concentrado de cobre es una de las principales exportaciones de Mongolia."
+    ],
+    "q": {
+      "q": "¿Qué se extrae sobre todo en Erdenet?",
+      "a": "Cobre",
+      "x": [
+        "Carbón",
+        "Oro"
+      ]
+    }
+  },
+  "Q23430": {
+    "t": "La capital más fría del mundo, en un valle de estepa",
+    "s": "Ulán Bator se estira de este a oeste por el valle del río Tuul, con la cresta boscosa del monte Bogd Khan al sur y los claros barrios de ger trepando por las colinas del norte. A su alrededor, la estepa sin árboles ondula hasta el horizonte. Con una temperatura media anual bajo cero, es la capital nacional más fría de la Tierra.",
+    "w": "Una ciudad alargada en un valle fluvial ancho, una montaña oscura y boscosa al sur y estepa desnuda y ondulada alrededor.",
+    "f": [
+      "La ciudad nació en 1639 como un campamento monástico itinerante y no se asentó en este lugar hasta 1778.",
+      "El monte Bogd Khan está protegido desde el siglo XVIII: es una de las reservas naturales más antiguas del mundo.",
+      "El nombre significa «héroe rojo»; la ciudad lo adoptó en 1924."
+    ],
+    "q": {
+      "q": "Entre las capitales del mundo, Ulán Bator es la…",
+      "a": "Más fría",
+      "x": [
+        "Más alta",
+        "Más seca"
+      ]
+    }
+  },
+  "Q695360": {
+    "t": "Una diminuta capital koriaka cerca del mar de Ojotsk",
+    "s": "A pocos kilómetros del mar de Ojotsk, en la remota costa noroeste de Kamchatka, Palana ocupa el valle del río Palana. A su alrededor se extiende una tierra salvaje de tundra, pino enano y crestas veteadas de nieve que suben hacia la cordillera Sredinny. Es el centro administrativo del distrito de Koriakia, tierra del pueblo koriako, pastores de renos y cazadores marinos.",
+    "w": "Un pequeño asentamiento en un valle fluvial cerca del mar, entre tundra y montañas bajas; la nieve dura en las crestas hasta el verano.",
+    "f": [
+      "Palana fue la capital del distrito autónomo de Koriakia hasta su fusión con el krai de Kamchatka en 2007.",
+      "El asentamiento es tan remoto que la mayoría de los visitantes llega en avión."
+    ],
+    "q": {
+      "q": "¿En la tierra de qué pueblo está Palana?",
+      "a": "Los koriakos",
+      "x": [
+        "Los chukchis",
+        "Los nenets"
+      ]
+    }
+  },
+  "Q7951": {
+    "t": "Una ciudad portuaria al pie de dos volcanes humeantes",
+    "s": "Petropávlovsk-Kamchatski bordea la bahía de Avacha, uno de los mejores puertos naturales del mundo, y detrás se alzan dos conos gigantes: el Koriakski, de unos 3456 m, y el Avachinski, que a menudo humea. Ninguna carretera une la ciudad con el resto de Rusia; todo llega por mar o por aire. Vitus Bering la fundó en 1740 y le dio el nombre de sus dos barcos.",
+    "w": "Una ciudad a lo largo de una bahía ancha y casi cerrada, con dos grandes conos volcánicos veteados de nieve justo detrás.",
+    "f": [
+      "Los barcos de Bering eran el San Pedro y el San Pablo: de ahí el nombre de la ciudad.",
+      "Kamchatka tiene unos 30 volcanes activos, y en días claros se ven varios desde la ciudad."
+    ],
+    "q": {
+      "q": "Bering bautizó la ciudad por sus dos barcos: el San Pedro y el…",
+      "a": "San Pablo",
+      "x": [
+        "San Andrés",
+        "San Nicolás"
+      ]
+    }
+  },
+  "Q7253": {
+    "t": "La tierra del rendang, entre el océano y los volcanes",
+    "s": "Los tejados que se curvan hacia arriba como cuernos de búfalo son la seña del pueblo minangkabau, y Padang es su ciudad principal. Está en una estrecha llanura costera de Sumatra Occidental, apretada entre el océano Índico y la empinada muralla verde de los montes Barisan, con volcanes tierra adentro. La cocina minangkabau, del rendang a curris picantes, se sirve en «restaurantes Padang» por toda Indonesia.",
+    "w": "Una ciudad en una fina llanura costera, montañas verdes y empinadas detrás, el océano abierto delante e islas frente a la costa.",
+    "f": [
+      "Los minangkabau forman una de las mayores sociedades matrilineales del mundo: la tierra se hereda por línea femenina.",
+      "Según la leyenda, el nombre minangkabau significa «búfalo victorioso»."
+    ],
+    "q": {
+      "q": "Entre los minangkabau, la tierra familiar se hereda a través de…",
+      "a": "Las madres",
+      "x": [
+        "Los padres",
+        "Los hijos mayores"
+      ]
+    }
+  },
+  "Q9361": {
+    "t": "Una ciudad arbolada en cuadrícula bajo cumbres nevadas",
+    "s": "Una muralla de picos nevados de más de 4000 m se alza justo al sur de Biskek: la cordillera Ala-Too kirguís. La ciudad está en el fondo llano del valle del Chui, trazada en una cuadrícula verde de calles arboladas. Creció a partir de Pishpek, una fortaleza de barro que el kanato de Kokand levantó en 1825.",
+    "w": "Una ciudad verde en cuadrícula en el fondo llano de un valle, con una empinada muralla de montañas nevadas justo al sur.",
+    "f": [
+      "De 1926 a 1991, la ciudad se llamó Frunze.",
+      "El parque nacional Ala Archa, un desfiladero de glaciares y enebros, empieza a solo unos 40 km al sur del centro.",
+      "El río Chui, al norte de la ciudad, forma parte de la frontera con Kazajistán."
+    ],
+    "q": {
+      "q": "¿Cómo se llamó Biskek de 1926 a 1991?",
+      "a": "Frunze",
+      "x": [
+        "Pishpek",
+        "Verny"
+      ]
+    }
+  },
+  "Q532560": {
+    "t": "Donde termina la Gran Muralla de los Ming, en el Gobi",
+    "s": "Jiayuguan está en el punto más estrecho del corredor de Hexi, un paso entre los nevados montes Qilian al sur y colinas desérticas desnudas al norte. Aquí terminó la dinastía Ming su Gran Muralla: la fortaleza del paso de Jiayu, levantada por primera vez en 1372, guardaba el camino al oeste. En torno a la moderna ciudad del acero, los campos verdes del oasis se funden pronto con el gobi pedregoso.",
+    "w": "Una pequeña ciudad en un estrecho corredor desértico, montañas nevadas al sur y llanuras pedregosas alrededor.",
+    "f": [
+      "Al paso de Jiayu lo apodaron «el Primer y Mayor Paso bajo el Cielo».",
+      "El deshielo de los montes Qilian, que superan los 5000 m, riega los oasis del corredor de Hexi."
+    ],
+    "q": {
+      "q": "¿De qué Gran Muralla marca el paso de Jiayu el extremo oeste?",
+      "a": "La de los Ming",
+      "x": [
+        "La de los Qin",
+        "La de los Han"
+      ]
+    }
+  },
+  "Q69060": {
+    "t": "Una ciudad de valle alto al borde de la meseta tibetana",
+    "s": "Xining está a unos 2200 m de altitud, estirada por el estrecho valle del río Huangshui entre colinas desnudas y surcadas de cárcavas. Es el umbral de la meseta tibetana: al oeste, la tierra sube hacia el lago Qinghai y los altos pastizales. Durante siglos, la ciudad fue un mercado donde el té chino se cambiaba por caballos tibetanos. Su nombre significa «paz del oeste».",
+    "w": "Una ciudad alargada, apretada en un valle estrecho entre colinas desnudas y erosionadas, con montañas más altas al oeste.",
+    "f": [
+      "El monasterio de Kumbum, a unos 25 km al suroeste, marca el lugar de nacimiento de Tsongkhapa, fundador de la escuela gelug.",
+      "El lago Qinghai, a unos 150 km al oeste, es el mayor lago de China.",
+      "El ferrocarril a Lhasa, que cruza pasos de más de 5000 m, empieza aquí su ascenso."
+    ],
+    "q": {
+      "q": "¿De qué provincia es capital Xining?",
+      "a": "Qinghai",
+      "x": [
+        "Gansu",
+        "Sichuan"
+      ]
+    }
+  },
+  "Q189633": {
+    "t": "Una ciudad entre torres calizas, en el billete de 20 yuanes",
+    "s": "Guilin se reparte entre cientos de torres calizas empinadas y redondeadas que brotan de campos verdes y llanos; desde arriba parecen un campo de toperas gigantes. El río Li se desliza hacia el sur entre ellas rumbo a Yangshuo, por uno de los paisajes más pintados de China. El nombre significa «bosque de osmanto dulce», por los árboles que perfuman la ciudad cada otoño.",
+    "w": "Una ciudad entre incontables picos calizos empinados y redondeados, con un río que serpentea al sur entre campos verdes.",
+    "f": [
+      "Una escena del río Li cerca de Guilin aparece en el reverso del billete de 20 yuanes.",
+      "El canal de Lingqu, excavado hacia el 214 a. C. al norte de Guilin, es uno de los canales más antiguos del mundo.",
+      "Un dicho chino asegura que el paisaje de Guilin es el más bello bajo el cielo."
+    ],
+    "q": {
+      "q": "¿En qué billete aparece una escena del río Li cerca de Guilin?",
+      "a": "El de 20 yuanes",
+      "x": [
+        "El de 5 yuanes",
+        "El de 100 yuanes"
+      ]
+    }
+  },
+  "Q360178": {
+    "t": "Carbón, tofu y placas solares flotando en lagos mineros",
+    "s": "Huainan se extiende por la orilla sur del río Huai, la línea tradicional entre el norte y el sur de China. Aquí se extrae carbón desde hace más de un siglo, y donde el suelo se ha hundido sobre viejas galerías se han formado lagos poco profundos; algunos llevan hoy oscuras cuadrículas de placas solares flotantes. La leyenda atribuye a Liu An, príncipe de Huainan en el siglo II a. C., la invención del tofu.",
+    "w": "Una ciudad industrial en la orilla sur de un gran río, con lagos dispersos, algunos cubiertos de cuadrículas oscuras de placas solares.",
+    "f": [
+      "Una batalla junto al cercano río Fei, en el 383, dio al chino el dicho «cada arbusto y cada árbol parecen soldados».",
+      "Junto con los montes Qinling, el río Huai se toma como frontera entre el norte y el sur de China."
+    ],
+    "q": {
+      "q": "La leyenda atribuye a un príncipe de Huainan la invención de…",
+      "a": "El tofu",
+      "x": [
+        "Los fideos",
+        "Las empanadillas"
+      ]
+    }
+  },
+  "Q59100": {
+    "t": "El corazón teochew, en el delta del río Han",
+    "s": "Shantou se extiende por el llano delta del río Han, donde este se encuentra con el mar de la China Meridional, en torno a una laguna portuaria resguardada. La tierra cercana es un mosaico de estanques de peces y arrozales, y la gran isla de Nan’ao está frente a la costa, al este. Es el corazón del país chaoshan, o teochew, famoso por su cocina y por su elaborado ritual del té gongfu.",
+    "w": "Una ciudad costera en un delta llano en torno a un puerto resguardado, estanques de peces alrededor y una gran isla al este.",
+    "f": [
+      "En 1980, Shantou fue una de las cuatro primeras Zonas Económicas Especiales de China.",
+      "Muchas comunidades chinas de Tailandia y del Sudeste Asiático tienen su origen en emigrantes teochew de esta región."
+    ],
+    "q": {
+      "q": "¿Cómo llamaban a Shantou los comerciantes occidentales?",
+      "a": "Swatow",
+      "x": [
+        "Amoy",
+        "Chefoo"
+      ]
+    }
+  },
+  "Q14501": {
+    "t": "Una isla petrolera entre los deltas de manglar de Borneo",
+    "s": "Tarakan ocupa una pequeña isla junto a la costa noreste de Borneo, donde varios ríos se deshacen en un laberinto de canales fangosos y bosque de manglar. Desde arriba, la isla parece un parche verde rodeado de agua parda. Aquí se extrae petróleo desde principios del siglo XX, y sus pozos y su refinería hicieron de la isla un puerto activo de las Indias Orientales Neerlandesas.",
+    "w": "Una pequeña isla verde frente a una costa de canales fangosos y manglares oscuros; la ciudad, en su orilla suroeste.",
+    "f": [
+      "Una reserva de manglar dentro de la ciudad alberga monos narigudos, famosos por su larga nariz.",
+      "Tarakan es la mayor ciudad de Kalimantan del Norte, provincia creada en 2012."
+    ],
+    "q": {
+      "q": "¿Qué mono de nariz larga vive en la reserva de manglar de Tarakan?",
+      "a": "El mono narigudo",
+      "x": [
+        "El mono chato dorado",
+        "El mandril"
+      ]
+    }
+  },
+  "Q11025": {
+    "t": "Un puerto que sube desde la costa a colinas volcánicas",
+    "s": "Semarang tiene dos niveles: una ciudad baja y llana en la costa del mar de Java y una ciudad alta, más verde, que trepa por las colinas del sur, con el volcán Ungaran detrás. Al viejo barrio neerlandés junto al puerto lo apodan los Pequeños Países Bajos. Según la tradición local, el almirante chino Zheng He desembarcó aquí a principios del siglo XV, y el templo de Sam Poo Kong lo honra.",
+    "w": "Una ciudad en una costa llana que sube a colinas verdes al sur; un volcán detrás y un puerto delante.",
+    "f": [
+      "A Lawang Sewu, construido en 1907 como oficina ferroviaria neerlandesa, lo llaman las «Mil Puertas» por sus muchas puertas y ventanas.",
+      "Semarang es la capital de Java Central."
+    ],
+    "q": {
+      "q": "¿A qué almirante chino honra el templo de Sam Poo Kong, en Semarang?",
+      "a": "A Zheng He",
+      "x": [
+        "A Koxinga",
+        "A Shi Lang"
+      ]
+    }
   }
 }

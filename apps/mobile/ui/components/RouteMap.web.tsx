@@ -8,8 +8,9 @@ import { PLANE_PATH } from './planeGlyph';
 import { palette, line, s as space } from '../design/tokens';
 import { decorative } from '../design/layout';
 import { Label } from '../design/type';
-import { t } from '../../src/i18n';
-import { getCountries } from '../../src/core/data/datasets';
+import { t, getLocale } from '../../src/i18n';
+import { getCountries, getPlaces } from '../../src/core/data/datasets';
+import { countryName } from '../../src/core/places/names';
 import { viewSector } from '../../src/core/flight/telemetry';
 
 /**
@@ -212,45 +213,255 @@ function bordersGeoJSON(): GeoJSON.FeatureCollection {
   }
 }
 
-function styleFor(night: boolean): StyleSpecification {
+type Lang = 'ru' | 'de' | 'fr' | 'es' | 'ja';
+const lang = (): string => getLocale().slice(0, 2);
+const localName = (n: string, l?: Partial<Record<string, string>>) => (lang() !== 'en' ? l?.[lang() as Lang] : undefined) ?? n;
+
+/** A point inside a country's largest part, for its name. */
+function countryLabels(): GeoJSON.FeatureCollection {
+  const features: GeoJSON.Feature[] = [];
+  try {
+    for (const c of getCountries()) {
+      let best: { area: number; x: number; y: number } | null = null;
+      for (const poly of c.g as unknown as number[][][][]) {
+        const ring = poly[0]!;
+        let a = 0;
+        let cx = 0;
+        let cy = 0;
+        for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+          const f = ring[j]![0]! * ring[i]![1]! - ring[i]![0]! * ring[j]![1]!;
+          a += f;
+          cx += (ring[j]![0]! + ring[i]![0]!) * f;
+          cy += (ring[j]![1]! + ring[i]![1]!) * f;
+        }
+        if (Math.abs(a) < 1e-9) continue;
+        const area = Math.abs(a / 2);
+        if (!best || area > best.area) best = { area, x: cx / (3 * a), y: cy / (3 * a) };
+      }
+      if (!best || best.area < 0.3) continue;
+      features.push({
+        type: 'Feature',
+        properties: { name: countryName(c.cc, getLocale()), size: best.area },
+        geometry: { type: 'Point', coordinates: [best.x, best.y] }
+      });
+    }
+  } catch {
+    // No countries loaded: no country names.
+  }
+  return { type: 'FeatureCollection', features };
+}
+
+/** Every named place the app knows, in the reader's language, except those drawn as route marks. */
+function placeLabels(skip: Set<string>): GeoJSON.FeatureCollection {
+  const features: GeoJSON.Feature[] = [];
+  try {
+    for (const p of getPlaces()) {
+      if (skip.has(p.id) || (p.wd && skip.has(p.wd))) continue;
+      features.push({
+        type: 'Feature',
+        properties: { name: localName(p.n, p.l), k: p.k, r: p.r },
+        geometry: { type: 'Point', coordinates: [p.lon, p.lat] }
+      });
+    }
+  } catch {
+    // No places loaded.
+  }
+  return { type: 'FeatureCollection', features };
+}
+
+/** Colours that change between the day atlas and the night chart. */
+function themePaints(night: boolean): Array<[string, string, unknown]> {
   const ink = night ? NIGHT : DAY;
+  const water = night ? '#0d141c' : '#a9cfee';
+  const waterInk = night ? '#5d7590' : '#2f5f9a';
+  const reliefInk = night ? '#8a7f70' : '#7a5a3a';
+  return [
+    ['ocean', 'background-color', ink.ocean],
+    ['land', 'fill-color', ink.land],
+    ['relief', 'color-relief-color', night ? RELIEF_NIGHT : RELIEF_DAY],
+    ...Object.entries(night ? SHADE_NIGHT : SHADE_DAY).map(([k, v]) => ['shade', k, v] as [string, string, unknown]),
+    ['glaciers', 'fill-color', night ? '#3a4452' : '#f4f7fa'],
+    ['lakes', 'fill-color', water],
+    ['rivers', 'line-color', night ? '#2b3b4f' : '#5b93cf'],
+    ['urban', 'fill-color', night ? 'rgba(255, 196, 107, 0.16)' : 'rgba(120, 100, 90, 0.22)'],
+    ['borders', 'line-color', ink.border],
+    ['sectors', 'fill-color', ['case', ['==', ['get', 'mine'], 1], ink.flown, night ? '#9AA5B4' : '#3A4656']],
+    ['sectors', 'fill-opacity', ['case', ['==', ['get', 'mine'], 1], night ? 0.14 : 0.16, night ? 0.05 : 0.07]],
+    ['leg', 'line-color', ink.leg],
+    ['flown', 'line-color', ink.flown],
+    ['label-sea', 'text-color', waterInk],
+    ['label-sea', 'text-halo-color', night ? 'rgba(0,0,0,0)' : 'rgba(255,255,255,0.5)'],
+    ['label-lake', 'text-color', waterInk],
+    ['label-lake', 'text-halo-color', ink.halo],
+    ['label-river', 'text-color', waterInk],
+    ['label-river', 'text-halo-color', ink.halo],
+    ['label-relief', 'text-color', reliefInk],
+    ['label-relief', 'text-halo-color', ink.halo],
+    ['label-city', 'text-color', night ? '#e8dcc6' : '#26303b'],
+    ['label-city', 'text-halo-color', ink.halo],
+    ['city-dot', 'circle-color', night ? '#FFC46B' : '#26303b'],
+    ['city-dot', 'circle-blur', night ? 0.6 : 0],
+    ['label-country', 'text-color', night ? 'rgba(200, 208, 220, 0.55)' : 'rgba(40, 46, 56, 0.55)'],
+    ['label-country', 'text-halo-color', ink.halo]
+  ];
+}
+
+const NAME = ['get', 'name'];
+const ATLAS = (layer: string) => `${BASE}atlas/${layer}.json`;
+/** Rivers and lakes carry their names per language; English is `n`. */
+const atlasName = () => (lang() === 'en' ? ['get', 'n'] : ['coalesce', ['get', lang()], ['get', 'n']]);
+
+function styleFor(night: boolean, skip: Set<string>): StyleSpecification {
+  const paint = new Map<string, Record<string, unknown>>();
+  for (const [layer, prop, value] of themePaints(night)) paint.set(layer, { ...(paint.get(layer) ?? {}), [prop]: value });
+  const p = (id: string, extra: Record<string, unknown> = {}) => ({ ...extra, ...(paint.get(id) ?? {}) }) as never;
+  const italic = ['Noto Sans Italic'];
+  const regular = ['Noto Sans Regular'];
+  const medium = ['Noto Sans Medium'];
   return {
     version: 8,
+    glyphs: `${BASE}atlas/fonts/{fontstack}/{range}.pbf`,
     sources: {
       dem: { type: 'raster-dem', tiles: ['dem://{z}/{x}/{y}'], tileSize: 256, maxzoom: 6, encoding: 'terrarium' },
       countries: { type: 'geojson', data: bordersGeoJSON() },
+      glaciers: { type: 'geojson', data: ATLAS('glaciers') },
+      lakes: { type: 'geojson', data: ATLAS('lakes') },
+      rivers: { type: 'geojson', data: ATLAS('rivers') },
+      urban: { type: 'geojson', data: ATLAS('urban') },
+      places: { type: 'geojson', data: placeLabels(skip) },
+      countryNames: { type: 'geojson', data: countryLabels() },
       leg: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
       flown: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
       sectors: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } }
     },
     layers: [
-      { id: 'ocean', type: 'background', paint: { 'background-color': ink.ocean } },
-      { id: 'land', type: 'fill', source: 'countries', paint: { 'fill-color': ink.land } },
-      { id: 'relief', type: 'color-relief', source: 'dem', paint: { 'color-relief-color': (night ? RELIEF_NIGHT : RELIEF_DAY) as never } },
-      { id: 'shade', type: 'hillshade', source: 'dem', paint: night ? SHADE_NIGHT : SHADE_DAY },
-      { id: 'borders', type: 'line', source: 'countries', paint: { 'line-color': ink.border, 'line-width': 0.8 } },
+      { id: 'ocean', type: 'background', paint: p('ocean') },
+      { id: 'land', type: 'fill', source: 'countries', paint: p('land') },
+      { id: 'relief', type: 'color-relief', source: 'dem', paint: p('relief') },
+      { id: 'shade', type: 'hillshade', source: 'dem', paint: p('shade') },
+      { id: 'glaciers', type: 'fill', source: 'glaciers', paint: p('glaciers', { 'fill-opacity': 0.85 }) },
+      { id: 'urban', type: 'fill', source: 'urban', minzoom: 4, paint: p('urban') },
+      { id: 'lakes', type: 'fill', source: 'lakes', paint: p('lakes') },
       {
-        id: 'sectors',
-        type: 'fill',
-        source: 'sectors',
-        paint: {
-          'fill-color': ['case', ['==', ['get', 'mine'], 1], ink.flown, night ? '#9AA5B4' : '#3A4656'],
-          'fill-opacity': ['case', ['==', ['get', 'mine'], 1], night ? 0.14 : 0.16, night ? 0.05 : 0.07]
-        }
+        id: 'rivers',
+        type: 'line',
+        source: 'rivers',
+        filter: ['<=', ['get', 'z'], ['+', ['zoom'], 2.2]],
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: p('rivers', { 'line-width': ['interpolate', ['linear'], ['zoom'], 2, ['-', 1.6, ['*', ['get', 'r'], 0.12]], 7, ['-', 3, ['*', ['get', 'r'], 0.2]]] })
       },
+      { id: 'borders', type: 'line', source: 'countries', paint: p('borders', { 'line-width': 0.8 }) },
+      { id: 'sectors', type: 'fill', source: 'sectors', paint: p('sectors') },
       {
         id: 'leg',
         type: 'line',
         source: 'leg',
         layout: { 'line-cap': 'round', 'line-join': 'round' },
-        paint: { 'line-color': ink.leg, 'line-width': 1.5, 'line-dasharray': [3, 4] }
+        paint: p('leg', { 'line-width': 1.5, 'line-dasharray': [3, 4] })
       },
       {
         id: 'flown',
         type: 'line',
         source: 'flown',
         layout: { 'line-cap': 'round', 'line-join': 'round' },
-        paint: { 'line-color': ink.flown, 'line-width': 2.6 }
+        paint: p('flown', { 'line-width': 2.6 })
+      },
+      {
+        id: 'label-country',
+        type: 'symbol',
+        source: 'countryNames',
+        maxzoom: 6,
+        layout: {
+          'text-field': NAME,
+          'text-font': medium,
+          'text-size': ['interpolate', ['linear'], ['get', 'size'], 1, 10, 100, 13, 1000, 15],
+          'text-transform': 'uppercase',
+          'text-letter-spacing': 0.18,
+          'text-max-width': 8,
+          'symbol-sort-key': ['-', ['get', 'size']]
+        } as never,
+        paint: p('label-country', { 'text-halo-width': 1 })
+      },
+      {
+        id: 'label-sea',
+        type: 'symbol',
+        source: 'places',
+        filter: ['all', ['==', ['get', 'k'], 'sea'], ['>=', ['get', 'r'], ['-', 9, ['zoom']]]],
+        layout: {
+          'text-field': NAME,
+          'text-font': italic,
+          'text-size': ['interpolate', ['linear'], ['get', 'r'], 4, 11, 10, 15],
+          'text-letter-spacing': 0.12,
+          'text-max-width': 8,
+          'symbol-sort-key': ['-', ['get', 'r']]
+        } as never,
+        paint: p('label-sea', { 'text-halo-width': 1 })
+      },
+      {
+        id: 'label-lake',
+        type: 'symbol',
+        source: 'lakes',
+        filter: ['<=', ['get', 'r'], ['+', ['zoom'], 1]],
+        layout: { 'text-field': atlasName(), 'text-font': italic, 'text-size': 11, 'text-max-width': 7 } as never,
+        paint: p('label-lake', { 'text-halo-width': 1.2 })
+      },
+      {
+        id: 'label-river',
+        type: 'symbol',
+        source: 'rivers',
+        minzoom: 4,
+        filter: ['<=', ['get', 'z'], ['zoom']],
+        layout: {
+          'symbol-placement': 'line',
+          'text-field': atlasName(),
+          'text-font': italic,
+          'text-size': 11,
+          'symbol-spacing': 400,
+          'text-letter-spacing': 0.06
+        } as never,
+        paint: p('label-river', { 'text-halo-width': 1.2 })
+      },
+      {
+        id: 'label-relief',
+        type: 'symbol',
+        source: 'places',
+        filter: [
+          'all',
+          ['match', ['get', 'k'], ['range', 'desert', 'plateau', 'peninsula', 'region', 'mountain', 'volcano', 'glacier', 'island'], true, false],
+          ['>=', ['get', 'r'], ['-', 10.5, ['zoom']]]
+        ],
+        layout: {
+          'text-field': NAME,
+          'text-font': italic,
+          'text-size': ['interpolate', ['linear'], ['get', 'r'], 3, 10, 10, 13],
+          'text-letter-spacing': ['match', ['get', 'k'], ['range', 'desert', 'plateau', 'region'], 0.14, 0.04],
+          'text-max-width': 8,
+          'symbol-sort-key': ['-', ['get', 'r']]
+        } as never,
+        paint: p('label-relief', { 'text-halo-width': 1.2 })
+      },
+      {
+        id: 'city-dot',
+        type: 'circle',
+        source: 'places',
+        filter: ['all', ['==', ['get', 'k'], 'city'], ['>=', ['get', 'r'], ['-', 10.5, ['zoom']]]],
+        paint: p('city-dot', { 'circle-radius': ['interpolate', ['linear'], ['get', 'r'], 3, 1.6, 10, 3.2] })
+      },
+      {
+        id: 'label-city',
+        type: 'symbol',
+        source: 'places',
+        filter: ['all', ['==', ['get', 'k'], 'city'], ['>=', ['get', 'r'], ['-', 10.5, ['zoom']]]],
+        layout: {
+          'text-field': NAME,
+          'text-font': regular,
+          'text-size': ['interpolate', ['linear'], ['get', 'r'], 3, 10, 10, 13],
+          'text-anchor': 'left',
+          'text-offset': [0.5, 0],
+          'text-max-width': 8,
+          'symbol-sort-key': ['-', ['get', 'r']]
+        } as never,
+        paint: p('label-city', { 'text-halo-width': 1.2 })
       }
     ]
   };
@@ -315,7 +526,7 @@ export default function RouteMap({
     addDemProtocol();
     const m = new maplibregl.Map({
       container: host.current,
-      style: styleFor(night),
+      style: styleFor(night, new Set(pois.flatMap((p) => [p.id, p.wikidata ?? '']).filter(Boolean))),
       center: [position.lon, position.lat],
       zoom: CRUISE_ZOOM,
       attributionControl: false,
@@ -370,16 +581,7 @@ export default function RouteMap({
   useEffect(() => {
     const m = map.current;
     if (!m || !ready) return;
-    const ink = night ? NIGHT : DAY;
-    m.setPaintProperty('ocean', 'background-color', ink.ocean);
-    m.setPaintProperty('land', 'fill-color', ink.land);
-    m.setPaintProperty('relief', 'color-relief-color', (night ? RELIEF_NIGHT : RELIEF_DAY) as never);
-    for (const [k, v] of Object.entries(night ? SHADE_NIGHT : SHADE_DAY)) m.setPaintProperty('shade', k, v);
-    m.setPaintProperty('borders', 'line-color', ink.border);
-    m.setPaintProperty('leg', 'line-color', ink.leg);
-    m.setPaintProperty('flown', 'line-color', ink.flown);
-    m.setPaintProperty('sectors', 'fill-color', ['case', ['==', ['get', 'mine'], 1], ink.flown, night ? '#9AA5B4' : '#3A4656']);
-    m.setPaintProperty('sectors', 'fill-opacity', ['case', ['==', ['get', 'mine'], 1], night ? 0.14 : 0.16, night ? 0.05 : 0.07]);
+    for (const [layer, prop, value] of themePaints(night)) if (m.getLayer(layer)) m.setPaintProperty(layer, prop, value as never);
   }, [night, ready]);
 
   const path = useMemo(() => unwrap(route), [route]);
