@@ -1,0 +1,13 @@
+# What the panel under the map shows: numbers, window view, what comes next.
+appId: com.skyatlas.app
+---
+- scroll
+- takeScreenshot: 20-panel
+- scroll
+- takeScreenshot: 21-panel
+- scroll
+- takeScreenshot: 22-panel
+- scroll
+- takeScreenshot: 23-panel
+- scroll
+- takeScreenshot: 24-panel

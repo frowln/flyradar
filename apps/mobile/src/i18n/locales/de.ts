@@ -294,6 +294,8 @@ export const de = {
     toNight: 'Dunkle Nachtkarte zeigen',
     expand: 'Vollbild',
     collapse: 'verkleinern',
+    follow: 'zum Flugzeug',
+    followA11y: 'Karte wieder auf das Flugzeug zentrieren und ihm folgen',
   },
   guess: {
     label: 'Ratespiel',

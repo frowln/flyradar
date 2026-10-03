@@ -1,7 +1,7 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { View, StyleSheet, Pressable } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
-import { Map, Camera, GeoJSONSource, Layer, Marker, RasterSource, RasterDEMSource } from '@maplibre/maplibre-react-native';
+import { Map, Camera, GeoJSONSource, Layer, Marker, RasterSource, RasterDEMSource, type ViewStateChangeEvent } from '@maplibre/maplibre-react-native';
 import type { RoutePoint, POI } from '@skyatlas/shared';
 import { palette, line, s as space } from '../design/tokens';
 import { decorative } from '../design/layout';
@@ -10,6 +10,7 @@ import { t, getLocale } from '../../src/i18n';
 import { localizedStyle } from '../../src/core/map/localStyle';
 import { RELIEF_TILES, DEM_TILES, DEM_MAX_ZOOM } from '../../src/core/map/offlineMap';
 import { viewSector } from '../../src/core/flight/telemetry';
+import { haptics } from '../../src/core/ux/haptics';
 
 import { PLANE_PATH } from './planeGlyph';
 
@@ -64,6 +65,19 @@ const HILLSHADE = {
 
 /** Degrees of span visible when the camera follows the aircraft. */
 const CRUISE_ZOOM = 4.2;
+
+/** How far the passenger may nudge the chart, in screen points, before it stops following. */
+const DRIFT_PX = 48;
+
+/** Screen distance between two points at a Web Mercator zoom. */
+function pixelsApart(a: { lon: number; lat: number } | [number, number], b: { lon: number; lat: number }, zoom: number): number {
+  const [lon, lat] = Array.isArray(a) ? a : [a.lon, a.lat];
+  const scale = (256 * 2 ** zoom) / 360;
+  const y = (l: number) => (Math.log(Math.tan(Math.PI / 4 + (l * Math.PI) / 360)) * 180) / Math.PI;
+  let dLon = Math.abs(lon - b.lon) % 360;
+  if (dLon > 180) dLon = 360 - dLon;
+  return Math.hypot(dLon * scale, (y(lat) - y(b.lat)) * scale);
+}
 
 /** The only font stack the basemap serves glyphs for. */
 const BASEMAP_FONT = 'Noto Sans Regular';
@@ -124,25 +138,33 @@ export default function RouteMap({
   viewKm,
   previewing = false
 }: RouteMapProps) {
-  const [interacting, setInteracting] = useState(false);
+  // Off once the passenger drags the chart away; the button brings it back.
+  const [detached, setDetached] = useState(false);
+  // The passenger's own zoom is kept while following: pinch in on the aircraft and it stays in the middle.
+  const [followZoom, setFollowZoom] = useState(CRUISE_ZOOM);
   // The passenger's choice wins over the clock until they leave the screen.
   const [override, setOverride] = useState<boolean | null>(null);
   const night = override ?? nightOutside;
   const ink = night ? INK.night : INK.day;
-  const idle = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const tracking = follow && !detached;
 
-  useEffect(
-    () => () => {
-      if (idle.current) clearTimeout(idle.current);
-    },
-    []
-  );
+  useEffect(() => setFollowZoom(expanded ? CRUISE_ZOOM + 0.8 : CRUISE_ZOOM), [expanded]);
 
-  const onTouch = () => {
-    setInteracting(true);
-    if (idle.current) clearTimeout(idle.current);
-    // Give the camera back only once the passenger has clearly stopped exploring.
-    idle.current = setTimeout(() => setInteracting(false), 12_000);
+  /**
+   * Only the passenger's own gestures count: the camera's moves to keep up
+   * with the aircraft raise the same event, and reading those as a touch
+   * would stop the follow after the first one.
+   */
+  const onRegionDidChange = (e: { nativeEvent: ViewStateChangeEvent }) => {
+    const v = e.nativeEvent;
+    if (!v.userInteraction) return;
+    setFollowZoom(v.zoom);
+    if (pixelsApart(v.center, position, v.zoom) > DRIFT_PX) setDetached(true);
+  };
+
+  const backToPlane = () => {
+    haptics.selection?.();
+    setDetached(false);
   };
 
   // Continuous longitudes: a line from 170° to −170° would otherwise be drawn
@@ -223,13 +245,10 @@ export default function RouteMap({
           logo={false}
           compass={false}
           attribution
-          onPress={onTouch}
-          onRegionIsChanging={onTouch}
+          onRegionDidChange={onRegionDidChange}
         >
           <Camera
-            {...(follow && !interacting
-              ? { center: [position.lon, position.lat] as [number, number], zoom: expanded ? CRUISE_ZOOM + 0.8 : CRUISE_ZOOM, duration: 600 }
-              : {})}
+            {...(tracking ? { center: [position.lon, position.lat] as [number, number], zoom: followZoom, duration: 600 } : {})}
             initialViewState={{ center: [position.lon, position.lat], zoom: CRUISE_ZOOM }}
           />
 
@@ -354,6 +373,17 @@ export default function RouteMap({
       </View>
 
       <View style={styles.controls} pointerEvents="box-none">
+        {follow && detached ? (
+          <Pressable
+            onPress={backToPlane}
+            accessibilityRole="button"
+            accessibilityLabel={t('map.followA11y')}
+            hitSlop={8}
+            style={[styles.control, styles.follow]}
+          >
+            <Label tone="accent">{`◎  ${t('map.follow')}`}</Label>
+          </Pressable>
+        ) : null}
         <Pressable
           onPress={() => setOverride(!night)}
           accessibilityRole="button"
@@ -382,6 +412,7 @@ export default function RouteMap({
 const styles = StyleSheet.create({
   fill: { flex: 1, backgroundColor: palette.void },
   controls: { position: 'absolute', right: space.x3, bottom: space.x3, flexDirection: 'row', gap: space.x2 },
+  follow: { borderColor: palette.amber, backgroundColor: 'rgba(11, 14, 17, 0.92)' },
   control: {
     minHeight: 32,
     paddingHorizontal: space.x3,

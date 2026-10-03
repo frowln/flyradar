@@ -1,0 +1,81 @@
+name: iOS
+# The real iPhone app: Xcode builds it for the simulator, then the demo flight
+# is flown on an iPhone simulator and kept as a video with screenshots.
+#
+# A macOS minute costs ten Linux minutes on a private repository, so a push
+# builds only when its commit message carries [ios]; it can also be run by
+# hand from the Actions tab once this file is on the default branch.
+on:
+  push:
+    paths:
+      - 'apps/mobile/**'
+      - 'packages/**'
+      - 'package-lock.json'
+      - '.github/workflows/ios.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  simulator:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[ios]')
+    runs-on: macos-15
+    timeout-minutes: 80
+    env:
+      SENTRY_DISABLE_AUTO_UPLOAD: 'true'
+      EXPO_NO_TELEMETRY: '1'
+      # The client demo: sample travellers, demo flights in the passport, the Pro screen.
+      EXPO_PUBLIC_DEMO_SOCIAL: '1'
+      EXPO_PUBLIC_DEMO_COUNTS: '1'
+      EXPO_PUBLIC_DEMO_PAYWALL: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20', cache: 'npm' }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '17' }
+      - run: npm ci
+      - name: Xcode and simulators
+        run: |
+          xcodebuild -version
+          xcrun simctl list runtimes
+      - name: Native project (expo prebuild + CocoaPods)
+        working-directory: apps/mobile
+        run: npx expo prebuild --platform ios --clean
+      - name: Build in Xcode for the simulator
+        working-directory: apps/mobile/ios
+        run: |
+          set -o pipefail
+          xcodebuild -workspace SkyAtlas.xcworkspace -scheme SkyAtlas -configuration Release \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build CODE_SIGNING_ALLOWED=NO COMPILER_INDEX_STORE_ENABLE=NO \
+            build | tee "$RUNNER_TEMP/xcodebuild.log" | xcbeautify --quieter
+      - name: Build log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-log
+          path: ${{ runner.temp }}/xcodebuild.log
+      - name: Maestro
+        run: |
+          curl -fsSL "https://get.maestro.mobile.dev" | bash
+          echo "$HOME/.maestro/bin" >> "$GITHUB_PATH"
+      - name: Fly the demo on an iPhone simulator
+        working-directory: apps/mobile
+        run: scripts/simulator-demo.sh ios/build/Build/Products/Release-iphonesimulator/SkyAtlas.app "$RUNNER_TEMP/demo"
+      - name: Keep the video and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-simulator-demo
+          path: |
+            ${{ runner.temp }}/demo
+            ~/.maestro/tests
+          if-no-files-found: warn
+      - name: Keep the simulator app
+        uses: actions/upload-artifact@v4
+        with:
+          name: SkyAtlas-simulator-app
+          path: apps/mobile/ios/build/Build/Products/Release-iphonesimulator/SkyAtlas.app

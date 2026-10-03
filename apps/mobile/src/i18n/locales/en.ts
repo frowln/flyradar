@@ -294,6 +294,8 @@ export const en = {
     toNight: 'Show the dark night map',
     expand: 'full screen',
     collapse: 'collapse',
+    follow: 'to the plane',
+    followA11y: 'Bring the map back to the aircraft and follow it',
   },
   guess: {
     label: 'guess',

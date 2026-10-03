@@ -293,6 +293,8 @@ export const ja = {
     toNight: '夜間用の暗い地図を表示',
     expand: '全画面',
     collapse: '縮小',
+    follow: '機体へ',
+    followA11y: '地図を機体に戻して追従する',
   },
   guess: {
     label: 'クイズ',

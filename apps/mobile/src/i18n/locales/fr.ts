@@ -294,6 +294,8 @@ export const fr = {
     toNight: 'Afficher la carte sombre de nuit',
     expand: 'plein écran',
     collapse: 'réduire',
+    follow: 'vers l’avion',
+    followA11y: 'Recentrer la carte sur l’avion et le suivre',
   },
   guess: {
     label: 'devinez',

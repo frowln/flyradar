@@ -407,8 +407,10 @@ export default function RouteMap({
   const [zoom, setZoom] = useState(CRUISE_ZOOM);
   const [override, setOverride] = useState<boolean | null>(null);
   const night = override ?? nightOutside;
-  const interacting = useRef(false);
-  const idle = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Off once the passenger drags the chart away; the button brings it back.
+  const [detached, setDetached] = useState(false);
+  // The passenger's own zoom is kept while following.
+  const followZoom = useRef(CRUISE_ZOOM);
   const select = useRef(onSelectPOI);
   select.current = onSelectPOI;
 
@@ -438,15 +440,15 @@ export default function RouteMap({
     // Folded to its "i" until tapped: open, it covers the map's own buttons.
     m.once('load', () => host.current?.querySelector('.maplibregl-compact-show')?.classList.remove('maplibregl-compact-show'));
     m.on('zoomend', () => setZoom(m.getZoom()));
-    const touched = (e: { originalEvent?: unknown }) => {
-      if (!e.originalEvent) return;
-      interacting.current = true;
-      if (idle.current) clearTimeout(idle.current);
-      // Give the camera back only once the passenger has clearly stopped exploring.
-      idle.current = setTimeout(() => (interacting.current = false), 12_000);
-    };
-    m.on('dragstart', touched);
-    m.on('zoomstart', touched);
+    // Only the passenger's gestures carry an originalEvent; the camera's own
+    // moves to keep up with the aircraft do not. A drag lets go of the
+    // aircraft, a zoom keeps it in the middle at the new scale.
+    m.on('dragstart', (e: { originalEvent?: unknown }) => {
+      if (e.originalEvent) setDetached(true);
+    });
+    m.on('zoomend', (e: { originalEvent?: unknown }) => {
+      if (e.originalEvent) followZoom.current = m.getZoom();
+    });
     m.on('load', () => setReady(true));
     const el = document.createElement('div');
     el.style.cssText = 'width:30px;height:30px;pointer-events:none';
@@ -459,7 +461,6 @@ export default function RouteMap({
     observer.observe(host.current);
     return () => {
       observer.disconnect();
-      if (idle.current) clearTimeout(idle.current);
       marks.current.forEach((mk) => mk.remove());
       marks.current.clear();
       m.remove();
@@ -492,10 +493,18 @@ export default function RouteMap({
     const coords = n > 1 ? path.slice(0, n) : [[position.lon, position.lat], [position.lon, position.lat]];
     src.setData({ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: coords } });
     plane.current?.setLngLat([position.lon, position.lat]).setRotation(heading);
-    if (follow && !interacting.current) {
-      m.easeTo({ center: [position.lon, position.lat], zoom: expanded ? CRUISE_ZOOM + 0.8 : CRUISE_ZOOM, duration: 600 });
+    if (follow && !detached) {
+      m.easeTo({ center: [position.lon, position.lat], zoom: followZoom.current, duration: 600 });
     }
-  }, [route, path, position.elapsedS, position.lat, position.lon, heading, follow, expanded, ready]);
+  }, [route, path, position.elapsedS, position.lat, position.lon, heading, follow, detached, ready]);
+
+  useEffect(() => {
+    followZoom.current = expanded ? CRUISE_ZOOM + 0.8 : CRUISE_ZOOM;
+    const m = map.current;
+    if (ready && m && follow && !detached) m.easeTo({ center: m.getCenter(), zoom: followZoom.current, duration: 400 });
+    // Only the size of the map changes the scale; following is handled above.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [expanded]);
 
   // The aircraft's colours follow the theme; it dims while previewing another moment.
   useEffect(() => {
@@ -581,6 +590,16 @@ export default function RouteMap({
         {createElement('div', { ref: host, style: { position: 'absolute', inset: 0 } })}
       </View>
       <View style={styles.controls} pointerEvents="box-none">
+        {follow && detached ? (
+          <Pressable
+            onPress={() => setDetached(false)}
+            accessibilityRole="button"
+            accessibilityLabel={t('map.followA11y')}
+            style={[styles.control, styles.follow]}
+          >
+            <Label tone="accent">{`◎  ${t('map.follow')}`}</Label>
+          </Pressable>
+        ) : null}
         <Pressable
           onPress={() => setOverride(!night)}
           accessibilityRole="button"
@@ -607,6 +626,7 @@ export default function RouteMap({
 const styles = StyleSheet.create({
   fill: { flex: 1, backgroundColor: palette.void },
   controls: { position: 'absolute', right: space.x3, bottom: space.x3, flexDirection: 'row', gap: space.x2 },
+  follow: { borderColor: palette.amber, backgroundColor: 'rgba(11, 14, 17, 0.92)' },
   control: {
     minHeight: 32,
     paddingHorizontal: space.x3,
