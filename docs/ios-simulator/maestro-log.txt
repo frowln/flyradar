@@ -1,4 +1,7 @@
-maestro exit 1
+
+Requested 1 shards, but it cannot be higher than the number of flows (0). Will use 1 shards instead.
+
+Waiting for flows to complete...
 [Passed] 1-start (1m 25s)
 [Failed] 2-map (2m 8s) (Element not found: Text matching regex: Вид из-за самолёта, по курсу)
 [Failed] 3-scrub (18s) (Element not found: Text matching regex: Момент полёта)
@@ -6,3 +9,6 @@ maestro exit 1
 [Failed] 5-arrival (7m 5s) (Assertion is false: "в паспорт" is visible)
 [Failed] 6-atlas (38s) (No visible element found: "Ваш .* год в небе")
 [Failed] 7-people (18s) (Element not found: Text matching regex: Люди.*)
+
+6/7 Flows Failed
+
