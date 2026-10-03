@@ -143,25 +143,31 @@ function widthKm(p) {
   return Math.max(14, Math.min(100, ext));
 }
 
-/** Stretch each channel between its 1st and 99th percentile, with a slight lift of the shadows. */
+/**
+ * One contrast stretch for all three channels, between the darkest 1 % and
+ * the brightest 0.5 % of the frame, with a slight lift of the shadows.
+ * Stretching each channel on its own would balance away the true colours:
+ * ploughed black earth turns purple and water green.
+ */
 function stretch(rgb, n) {
   const outPx = Buffer.alloc(n * 4);
-  for (let c = 0; c < 3; c++) {
-    const hist = new Uint32Array(256);
-    for (let i = 0; i < n; i++) hist[rgb[i * 3 + c]]++;
-    let lo = 0;
-    let hi = 255;
-    let acc = 0;
-    for (let v = 0; v < 256; v++) if ((acc += hist[v]) > n * 0.01) { lo = v; break; }
-    acc = 0;
-    for (let v = 255; v >= 0; v--) if ((acc += hist[v]) > n * 0.01) { hi = v; break; }
-    const span = Math.max(20, hi - lo);
-    for (let i = 0; i < n; i++) {
+  const hist = new Uint32Array(256);
+  for (let i = 0; i < n * 3; i++) hist[rgb[i]]++;
+  const total = n * 3;
+  let lo = 0;
+  let hi = 255;
+  let acc = 0;
+  for (let v = 0; v < 256; v++) if ((acc += hist[v]) > total * 0.01) { lo = v; break; }
+  acc = 0;
+  for (let v = 255; v >= 0; v--) if ((acc += hist[v]) > total * 0.005) { hi = v; break; }
+  const span = Math.max(30, hi - lo);
+  for (let i = 0; i < n; i++) {
+    for (let c = 0; c < 3; c++) {
       const x = Math.max(0, Math.min(1, (rgb[i * 3 + c] - lo) / span));
-      outPx[i * 4 + c] = Math.round(255 * Math.pow(x, 0.88));
+      outPx[i * 4 + c] = Math.round(255 * Math.pow(x, 0.85));
     }
+    outPx[i * 4 + 3] = 255;
   }
-  for (let i = 0; i < n; i++) outPx[i * 4 + 3] = 255;
   return outPx;
 }
 

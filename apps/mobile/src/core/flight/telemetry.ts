@@ -42,12 +42,14 @@ export function compassPoint(heading: number): CompassPoint {
 }
 
 /**
- * The time zone of the ground below: that of the nearest airport. Airports
- * sit where people live, so over land this is the zone a clock down there
- * shows; over open ocean it is the nearest coast's, which is what passengers
- * expect to read.
+ * The time zone of the ground below: that of the nearest airport in the
+ * country underneath. Airports sit where people live, so over land this is
+ * the zone a clock down there shows. The country matters at borders: over
+ * Adygea the nearest airport is Sukhumi, on Georgian time, and over the plains
+ * north of Nepal it is a Nepalese one. Over open ocean (no country) it is the
+ * nearest coast's, which is what passengers expect to read.
  */
-let grid: Map<string, Array<{ lat: number; lon: number; tz: string }>> | null = null;
+let grid: Map<string, Array<{ lat: number; lon: number; tz: string; cc: string }>> | null = null;
 
 function airportGrid() {
   if (grid) return grid;
@@ -56,38 +58,46 @@ function airportGrid() {
     if (!a.tz) continue;
     const key = `${Math.floor(a.lat / 5)}:${Math.floor(a.lon / 5)}`;
     const list = grid.get(key);
-    const item = { lat: a.lat, lon: a.lon, tz: a.tz };
+    const item = { lat: a.lat, lon: a.lon, tz: a.tz, cc: a.cc };
     if (list) list.push(item);
     else grid.set(key, [item]);
   }
   return grid;
 }
 
-export function zoneBelow(lat: number, lon: number): string | null {
-  let g: ReturnType<typeof airportGrid>;
-  try {
-    g = airportGrid();
-  } catch {
-    return null;
-  }
+function nearestZone(g: NonNullable<typeof grid>, lat: number, lon: number, cc: string | null): string | null {
   const cy = Math.floor(lat / 5);
   const cx = Math.floor(lon / 5);
-  // Widen the search ring until something is found (open ocean needs a few).
-  for (let r = 0; r <= 8; r++) {
-    let best: { d: number; tz: string } | null = null;
+  let best: { d: number; tz: string } | null = null;
+  // Widen the search ring until something is found (open ocean needs a few),
+  // then one ring more: a cell is 5° wide, and the nearest airport can sit
+  // just across the edge of the next one.
+  let stop = 12;
+  for (let r = 0; r <= stop; r++) {
     for (let dy = -r; dy <= r; dy++) {
       for (let dx = -r; dx <= r; dx++) {
         if (Math.max(Math.abs(dy), Math.abs(dx)) !== r) continue;
         const x = ((((cx + dx + 36) % 72) + 72) % 72) - 36;
         for (const a of g.get(`${cy + dy}:${x}`) ?? []) {
+          if (cc && a.cc !== cc) continue;
           const d = haversine(lat, lon, a.lat, a.lon);
           if (!best || d < best.d) best = { d, tz: a.tz };
         }
       }
     }
-    if (best) return best.tz;
+    if (best && stop > r + 1) stop = r + 1;
   }
-  return null;
+  return best?.tz ?? null;
+}
+
+export function zoneBelow(lat: number, lon: number, cc?: string | null): string | null {
+  let g: NonNullable<typeof grid>;
+  try {
+    g = airportGrid();
+  } catch {
+    return null;
+  }
+  return (cc ? nearestZone(g, lat, lon, cc) : null) ?? nearestZone(g, lat, lon, null);
 }
 
 /** Minutes ahead of UTC in a zone at a moment (DST included). */

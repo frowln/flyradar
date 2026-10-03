@@ -50,6 +50,15 @@ describe('the numbers on the seat-back screen', () => {
     expect(zoneBelow(45, -35)).toBeTruthy();
   });
 
+  it('takes the zone from the country below, not from an airport across the border', () => {
+    // Over Adygea the nearest airport is Sukhumi, on Georgian time.
+    expect(zoneBelow(44.65, 40.58, 'RU')).toBe('Europe/Moscow');
+    // On the Indian plain north of Lucknow the nearest airports are Nepalese.
+    expect(zoneBelow(28.06, 82.45, 'IN')).toBe('Asia/Kolkata');
+    // Over British Columbia, not Washington State.
+    expect(zoneBelow(49.33, -122.66, 'CA')).toBe('America/Vancouver');
+  });
+
   it('draws a window sector abeam on the right side', () => {
     const ring = viewSector(50, 30, 0, 'right', 200);
     expect(ring[0]).toEqual([30, 50]);

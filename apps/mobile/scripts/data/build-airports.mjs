@@ -60,6 +60,15 @@ const TZ_COMPAT = {
   'Pacific/Kanton': 'Pacific/Enderbury',
 };
 
+/**
+ * Airports the source places in a zone across the border: the clock is the
+ * same, but the zone below is read by country (src/core/flight/telemetry.ts).
+ */
+const TZ_FIX = {
+  YXX: 'America/Vancouver', // Abbotsford, BC — listed as Los Angeles
+  YAM: 'America/Toronto', // Sault Ste. Marie, ON — listed as Detroit
+};
+
 function validTz(tz) {
   if (!tz) return false;
   try {
@@ -135,7 +144,7 @@ function main() {
       tz = (near.find(({ item }) => item.country === r.iso_country) ?? near[0] ?? mwIndex.nearest(lon, lat, 5000))?.item.tz ?? null;
       tzNearest++;
     }
-    tz = TZ_COMPAT[tz] ?? tz;
+    tz = TZ_FIX[r.iata_code] ?? TZ_COMPAT[tz] ?? tz;
     if (!validTz(tz)) throw new Error(`${r.iata_code}: no valid time zone`);
 
     // --- city: first candidate spelling that matches a nearby Natural Earth place.

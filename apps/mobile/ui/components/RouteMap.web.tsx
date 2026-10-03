@@ -546,10 +546,29 @@ export default function RouteMap({
       const opened = seen?.has(poi.id) ?? false;
       const city = poi.category === 'city';
       paintPlace(mk.getElement(), labelFor?.(poi) ?? poi.name, opened, night, city);
-      // At cruise scale only the notable and the opened are named; closer in, all.
-      // At night every city is named: its lights are what the window shows.
-      const named = opened || (poi.rank ?? 0) >= 8 || zoom >= 5.5 || (night && city);
-      (mk.getElement().children[1] as HTMLElement).style.display = named ? 'block' : 'none';
+    }
+
+    // As many names as fit without covering each other, the most telling
+    // first: the opened, then (at night) cities, whose lights are what the
+    // window shows, then by rank. History is a story, not a sight: a
+    // railway's name at the one point the route crosses it would only cover
+    // a city's, so it is named once opened or close in.
+    const priority = (poi: POI) => (seen?.has(poi.id) ? 100 : 0) + (night && poi.category === 'city' ? 20 : 0) + (poi.rank ?? 5);
+    const placed: Array<[number, number, number, number]> = [];
+    for (const poi of [...pois].sort((a, b) => priority(b) - priority(a))) {
+      const label = marks.current.get(poi.id)?.getElement().children[1] as HTMLElement | undefined;
+      if (!label) continue;
+      if (poi.category === 'historic' && !seen?.has(poi.id) && zoom < 6.5) {
+        label.style.display = 'none';
+        continue;
+      }
+      label.style.display = 'block';
+      const at = m.project([poi.lon, poi.lat]);
+      const half = (label.offsetWidth || (label.textContent?.length ?? 8) * 6.5) / 2 + 3;
+      const box: [number, number, number, number] = [at.x - half, at.y + 19, at.x + half, at.y + 35];
+      const clash = placed.some((b) => box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1]);
+      if (clash) label.style.display = 'none';
+      else placed.push(box);
     }
   }, [pois, seen, labelFor, night, zoom]);
 

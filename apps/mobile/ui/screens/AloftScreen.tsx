@@ -278,7 +278,7 @@ export default function AloftScreen() {
     if (!outside || !pos || !takeoff) return;
     const cc = outside.countryNow;
     const when = new Date(takeoff.getTime() + pos.elapsedS * 1000);
-    const tz = zoneBelow(pos.lat, pos.lon);
+    const tz = zoneBelow(pos.lat, pos.lon, cc);
     const offset = tz ? utcOffsetMinutes(tz, when) : null;
     const first = lastCountry.current === undefined;
     const newCountry = !first && cc && cc !== lastCountry.current;
@@ -394,7 +394,7 @@ export default function AloftScreen() {
   const alt = metres(view.altitude);
   const spd = speed(groundSpeedKmh(route, view.elapsedS));
   const temp = temperature(outsideTempC(view.altitude));
-  const tzBelow = zoneBelow(view.lat, view.lon);
+  const tzBelow = zoneBelow(view.lat, view.lon, viewOutside.countryNow);
   const timeBelow = tzBelow ? clockIn(tzBelow, new Date(takeoff.getTime() + view.elapsedS * 1000)) : '';
   const course = `${t(`compass.${compassPoint(view.heading)}`)} ${Math.round(((view.heading % 360) + 360) % 360)}°`;
   const countries = distinctCountries(pkg.countries ?? []);

@@ -188,6 +188,7 @@ export default function RouteMap({
           name: labelFor?.(poi) ?? poi.name,
           opened: seen?.has(poi.id) ? 1 : 0,
           city: poi.category === 'city' ? 1 : 0,
+          historic: poi.category === 'historic' ? 1 : 0,
           rank: poi.rank ?? 5
         },
         geometry: { type: 'Point' as const, coordinates: [poi.lon, poi.lat] }
@@ -307,12 +308,32 @@ export default function RouteMap({
               type="symbol"
               layout={{
                 'text-font': [BASEMAP_FONT],
-                'text-field': ['get', 'name'],
+                // At cruise scale only the notable and the opened are named
+                // (history is a story, not a sight), and at night every city,
+                // whose lights are what the window shows; closer in, all.
+                // Labels give way to each other, the higher-ranked first.
+                'text-field': [
+                  'step',
+                  ['zoom'],
+                  [
+                    'case',
+                    [
+                      'any',
+                      ['==', ['get', 'opened'], 1],
+                      ['all', ['==', ['get', 'historic'], 0], ['>=', ['get', 'rank'], 8]],
+                      ['all', night, ['==', ['get', 'city'], 1]]
+                    ],
+                    ['get', 'name'],
+                    ''
+                  ],
+                  5.5,
+                  ['get', 'name']
+                ],
                 'text-size': 11,
                 'text-offset': [0, 1.1],
                 'text-anchor': 'top',
-                'text-allow-overlap': true,
-                'text-ignore-placement': true
+                'text-optional': true,
+                'symbol-sort-key': ['-', 0, ['get', 'rank']]
               }}
               paint={{
                 'text-color': ['case', ['==', ['get', 'opened'], 1], ink.opened, ink.label],
