@@ -1,6 +1,13 @@
 # Part 5: landing — what the flight added to the passport, achievements, the quiz, the postcard.
 appId: com.skyatlas.app
 ---
+# Until landing, the plane flies on the full-screen map.
+- scrollUntilVisible:
+    element: "во весь экран"
+    direction: UP
+    optional: true
+- tapOn: { text: "во весь экран", optional: true }
+- tapOn: { text: "Приблизить", optional: true }
 - extendedWaitUntil:
     visible: "в паспорт"
     timeout: 420000
