@@ -1,0 +1,3 @@
+OK   {"defineVariablesCommand": {"env": {"MAESTRO_DRIVER_STARTUP_TIMEOUT": "600000", "MAESTRO_CLI_NO_ANALYTICS": "1", "MAESTRO_FILENAME": "2-map", "MAESTRO_DEVICE_UD 
+OK   {"applyConfigurationCommand": {"config": {"appId": "com.skyatlas.app"}, "optional": false}} 
+FAIL {"tapOnElement": {"selector": {"textRegex": "во весь экран", "optional": false}, "retryIfNoChange": false, "waitUntilVisible": false, "longPress": false, "optio Element not found: Text matching regex: во весь экран

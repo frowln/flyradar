@@ -1,0 +1,8 @@
+maestro exit 1
+[Failed] 1-start (2m 46s) (Assertion is false: "во весь экран" is visible)
+[Failed] 2-map (18s) (Element not found: Text matching regex: во весь экран)
+[Failed] 3-scrub (18s) (Element not found: Text matching regex: Момент полёта)
+[Failed] 4-panel (1m 16s) (Element not found: Text matching regex: .*, (слева|справа), .*, Index: 0)
+[Failed] 5-arrival (7m 13s) (Assertion is false: "в паспорт" is visible)
+[Failed] 6-atlas (1m) (No visible element found: "Ваш .* год в небе")
+[Failed] 7-people (19s) (Element not found: Text matching regex: Люди.*)
