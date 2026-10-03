@@ -14,13 +14,14 @@ on:
       - '.github/workflows/ios.yml'
   workflow_dispatch:
 
-concurrency:
-  group: ios-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   simulator:
     if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[ios]')
+    # On the job, not the workflow: a push without [ios] skips this job and
+    # must not cancel a build already running.
+    concurrency:
+      group: ios-simulator-${{ github.ref }}
+      cancel-in-progress: true
     runs-on: macos-15
     timeout-minutes: 80
     env:
