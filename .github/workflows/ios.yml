@@ -83,8 +83,11 @@ jobs:
         working-directory: apps/mobile
         run: |
           APP="$HOME/skyatlas-app/SkyAtlas.app"
-          npx expo export:embed --platform ios --dev false --reset-cache \
-            --entry-file index.ts --bundle-output "$APP/main.jsbundle" --assets-dest "$APP"
+          # Metro resolves from the workspace root: the entry must be absolute.
+          npx expo export:embed --platform ios --dev false \
+            --entry-file "$PWD/index.ts" --bundle-output "$RUNNER_TEMP/main.js" --assets-dest "$APP"
+          # Hermes bytecode, as Xcode's own bundling step produces.
+          ../../node_modules/react-native/sdks/hermesc/osx-bin/hermesc -emit-binary -O -out "$APP/main.jsbundle" "$RUNNER_TEMP/main.js"
           ls -la "$APP/main.jsbundle"
       - name: Build log
         if: failure()
