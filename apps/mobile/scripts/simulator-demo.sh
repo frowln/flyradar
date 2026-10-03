@@ -60,6 +60,29 @@ xcrun simctl io "$UDID" recordVideo --codec=h264 --force "$OUT/demo-flight.mp4" 
 REC=$!
 sleep 2
 
+# The video people watch is made of screenshots, each with the moment it was
+# taken: on a CI machine the simulator's own recording got its clock wrong
+# (minutes squeezed into seconds, still screens stretched), so it is kept only
+# as a spare. Frames start once the app is running, not during the minutes
+# the test driver takes to start.
+mkdir -p "$OUT/frames"
+: > "$OUT/frames.txt"
+(
+  until xcrun simctl spawn "$UDID" launchctl list 2>/dev/null | grep -q "UIKitApplication:$BUNDLE"; do
+    [ -f "$OUT/.stop" ] && exit 0
+    sleep 1
+  done
+  i=0
+  while [ ! -f "$OUT/.stop" ]; do
+    f="$OUT/frames/$(printf '%06d' "$i").jpg"
+    if xcrun simctl io "$UDID" screenshot --type=jpeg "$f" >/dev/null 2>&1; then
+      echo "$(perl -MTime::HiRes=time -e 'printf("%.3f", time)') $f" >> "$OUT/frames.txt"
+      i=$((i + 1))
+    fi
+  done
+) &
+FRAMER=$!
+
 # The whole tour in one session (.maestro/config.yaml orders the parts).
 started=$(date +%s)
 ( cd "$HERE" && maestro --device "$UDID" test .maestro --test-output-dir "$OUT/maestro" --debug-output "$OUT/maestro-debug" ) 2>&1 | tee "$OUT/maestro.log"
@@ -73,8 +96,11 @@ echo "maestro exit $code" > "$OUT/summary.txt"
 grep -E "^\s*\[(Passed|Failed)\]|Flow .* (Passed|Failed)|FAILED|COMPLETED|> Flow" "$OUT/maestro.log" | tail -400 >> "$OUT/summary.txt" || true
 shot 99-end
 
+touch "$OUT/.stop"
+wait "$FRAMER" 2>/dev/null
 kill -INT "$REC" 2>/dev/null
 wait "$REC" 2>/dev/null
+echo "frames: $(wc -l < "$OUT/frames.txt")"
 xcrun simctl spawn "$UDID" log show --last 90m --style compact --predicate 'process == "SkyAtlas"' > "$OUT/app.log" 2>/dev/null || true
 # Crash reports of the app, if it died on the way (the host keeps them).
 mkdir -p "$OUT/crash"

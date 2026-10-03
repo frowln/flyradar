@@ -110,10 +110,15 @@ jobs:
         env:
           DEMO: ${{ runner.temp }}/demo
         run: |
-          [ -f "$DEMO/demo-flight.mp4" ] || exit 0
+          [ -f "$DEMO/demo-flight.mp4" ] || [ -s "$DEMO/frames.txt" ] || exit 0
           brew install ffmpeg >/dev/null 2>&1 || true
-          # The video starts with the app, not the minutes of home screen while the driver starts.
-          apps/mobile/scripts/trim-intro.sh "$DEMO/demo-flight.mp4" "$DEMO/demo-tour.mp4" 720 || true
+          # The tour from the timed screenshots (the simulator's own recording
+          # keeps a wrong clock on CI); that recording only if there are none.
+          if [ -s "$DEMO/frames.txt" ]; then
+            apps/mobile/scripts/frames-to-video.sh "$DEMO/frames.txt" "$DEMO/demo-tour.mp4" 1.5 720 || true
+          else
+            apps/mobile/scripts/trim-intro.sh "$DEMO/demo-flight.mp4" "$DEMO/demo-tour.mp4" 720 || true
+          fi
           ls -la "$DEMO"
       - name: Keep the video and screenshots
         if: always()
@@ -122,6 +127,7 @@ jobs:
           name: ios-simulator-demo
           path: |
             ${{ runner.temp }}/demo
+            !${{ runner.temp }}/demo/frames
             ~/.maestro/tests
           if-no-files-found: warn
       # Artifacts live in blob storage that not every reviewer can reach; small
@@ -159,8 +165,9 @@ jobs:
             [ -f "$c" ] && python3 apps/mobile/scripts/crash-summary.py "$c" > "$SHOTS/crash-$(basename "$c" | tr ' ' '-').txt" || true
           done
           # The whole video at a glance: a frame every five seconds.
-          if [ -f "$DEMO/demo-flight.mp4" ] && command -v ffmpeg >/dev/null; then
-            ffmpeg -loglevel error -y -i "$DEMO/demo-flight.mp4" -vf "fps=1/5,scale=160:-2,tile=10x4" -q:v 4 "$SHOTS/video-sheet-%02d.jpg" || true
+          SHEET_SRC="$DEMO/demo-tour.mp4"; [ -f "$SHEET_SRC" ] || SHEET_SRC="$DEMO/demo-flight.mp4"
+          if [ -f "$SHEET_SRC" ] && command -v ffmpeg >/dev/null; then
+            ffmpeg -loglevel error -y -i "$SHEET_SRC" -vf "fps=1/5,scale=160:-2,tile=10x4" -q:v 4 "$SHOTS/video-sheet-%02d.jpg" || true
           fi
           [ -f "$DEMO/maestro.log" ] && tail -c 150000 "$DEMO/maestro.log" > "$SHOTS/maestro-log.txt"
           # What was on screen, as text: the UI tree Maestro saw after each phase.

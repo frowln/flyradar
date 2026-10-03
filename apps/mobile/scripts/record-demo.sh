@@ -42,8 +42,11 @@ say "Экскурсия по приложению в симуляторе iPhone
 open -a Simulator || true
 scripts/simulator-demo.sh "$APP" "$OUT"
 
-if [ -f "$OUT/demo-flight.mp4" ]; then
-  scripts/trim-intro.sh "$OUT/demo-flight.mp4" "$HOME/Desktop/SkyAtlas-demo.mp4" 720 || cp "$OUT/demo-flight.mp4" "$HOME/Desktop/SkyAtlas-demo.mp4"
+if [ -s "$OUT/frames.txt" ]; then
+  # From timed screenshots, at the screen's own width, half as fast again as real time.
+  scripts/frames-to-video.sh "$OUT/frames.txt" "$HOME/Desktop/SkyAtlas-demo.mp4" 1.5 1080
+elif [ -f "$OUT/demo-flight.mp4" ]; then
+  scripts/trim-intro.sh "$OUT/demo-flight.mp4" "$HOME/Desktop/SkyAtlas-demo.mp4" 1080 || cp "$OUT/demo-flight.mp4" "$HOME/Desktop/SkyAtlas-demo.mp4"
 fi
 say "Готово."
 echo "  Видео:       ~/Desktop/SkyAtlas-demo.mp4"
