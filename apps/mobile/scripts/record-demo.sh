@@ -26,8 +26,7 @@ command -v ffmpeg >/dev/null || { say "Ставлю ffmpeg (обрезка и с
 
 demo_env
 
-say "Создаю проект Xcode (3–5 минут)…"
-npx expo prebuild --platform ios --clean
+xcode_project
 
 say "Собираю приложение в Xcode для симулятора (первый раз 15–25 минут)…"
 set -o pipefail

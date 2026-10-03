@@ -25,6 +25,35 @@ if [ ! -d ../../node_modules/expo ]; then
   (cd ../.. && npm install)
 fi
 
+# React Native downloads a ready-made Hermes engine from Maven Central, which
+# redirects to repo.reactnative.dev. Where that host does not answer, CocoaPods
+# quietly falls back to building Hermes from source and stops at a missing
+# cmake. Google's mirror of Maven Central carries the same files.
+hermes_mirror() {
+  [ -z "${ENTERPRISE_REPOSITORY:-}" ] || return 0
+  local v file base
+  v="$(node -p "require('react-native/package.json').version")"
+  file="com/facebook/react/react-native-artifacts/$v/react-native-artifacts-$v-hermes-ios-debug.tar.gz"
+  for base in https://repo1.maven.org/maven2 https://maven-central.storage-download.googleapis.com/maven2; do
+    if [ "$(curl -o /dev/null -sIL --max-time 30 -w '%{http_code}' "$base/$file")" = 200 ]; then
+      [ "$base" = https://repo1.maven.org/maven2 ] || export ENTERPRISE_REPOSITORY="$base"
+      return 0
+    fi
+  done
+  fail "Не скачивается движок Hermes ни с Maven Central, ни с зеркала Google. Проверьте интернет (включите или выключите VPN) и запустите скрипт снова."
+}
+
+# A fresh Xcode project from app.json, with its CocoaPods. Expo only warns when
+# `pod install` fails and builds on regardless, so pods are installed here,
+# where a failure stops the script with the reason.
+xcode_project() {
+  say "Создаю проект Xcode и ставлю CocoaPods (3–5 минут)…"
+  npx expo prebuild --platform ios --clean --no-install
+  hermes_mirror
+  (cd ios && pod install) ||
+    fail "CocoaPods не поставился. Пришлите последние строки выше: по ним видно, чего не хватает."
+}
+
 
 # The demo as the client should see it: sample travellers in «Люди», demo
 # flights counted in the passport, the Pro screen; and, while we are still

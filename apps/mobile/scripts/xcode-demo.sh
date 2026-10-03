@@ -21,15 +21,18 @@ MODE="${1:-device}"
 demo_env
 
 if [ "$MODE" = "sim" ]; then
+  # The simulator needs no signing. Without Sign in with Apple and push, Expo
+  # does not stop to ask for a development team.
+  export IOS_PERSONAL_TEAM=1
+  xcode_project
   say "Собираю и запускаю в симуляторе iPhone (первый раз 10–20 минут)…"
   # Release: runs on its own, without the Metro server, at full speed.
-  npx expo run:ios --configuration Release
+  npx expo run:ios --configuration Release --no-install
   say "Готово. Запись видео: в окне Simulator — File → Record Screen (⌘R), остановить — тем же пунктом."
   exit 0
 fi
 
-say "Создаю проект Xcode и ставлю CocoaPods (3–5 минут)…"
-npx expo prebuild --platform ios --clean
+xcode_project
 
 # ▶ builds Release: the app runs on its own, with no Metro server on the Mac
 # and at full speed, the way it will on the client's phone.
