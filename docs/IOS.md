@@ -120,7 +120,7 @@ IOS_PERSONAL_TEAM=1 IOS_BUNDLE_ID=com.yourname.skyatlas scripts/xcode-demo.sh
 | `Failed to register bundle identifier` | Этот id занят: запустите скрипт с другим `IOS_BUNDLE_ID` |
 | `Personal development teams do not support…` | Запустите скрипт с `IOS_PERSONAL_TEAM=1` |
 | `pod install` падает | `brew install cocoapods`, затем `pod repo update` и скрипт ещё раз |
-| «Не скачивается движок Hermes» или `Unable to locate the executable cmake` | Скрипт сам берёт Hermes с зеркала Google, если основной сервер не отвечает. Если не помогло — включите или выключите VPN и запустите снова. cmake ставить не нужно |
+| «Не скачиваются готовые части React Native», `Unable to locate the executable cmake` или `pod install` часами висит на `curl` | Скрипт берёт эти файлы с зеркала Google, а если оно недоступно — с Maven Central. Не помогло — включите или выключите VPN и запустите снова. cmake ставить не нужно |
 | Белый экран, «No bundle URL present» | Это сборка Debug, ей нужен сервер Metro. Запустите скрипт заново (он ставит Release) |
 | Карта пустая | Нужен интернет при первом показе маршрута. В полёте карта работает офлайн, если рейс подготовлен по Wi-Fi |
 | Что-то другое | Пришлите последние строки из Терминала или скриншот ошибки из Xcode (вкладка с красным крестиком слева) |

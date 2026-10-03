@@ -25,22 +25,25 @@ if [ ! -d ../../node_modules/expo ]; then
   (cd ../.. && npm install)
 fi
 
-# React Native downloads a ready-made Hermes engine from Maven Central, which
-# redirects to repo.reactnative.dev. Where that host does not answer, CocoaPods
-# quietly falls back to building Hermes from source and stops at a missing
-# cmake. Google's mirror of Maven Central carries the same files.
-hermes_mirror() {
+# React Native's ready-made parts (Hermes, its dependencies, ~60 MB) come from
+# Maven Central, which redirects to repo.reactnative.dev. Where that host does
+# not answer, CocoaPods falls back to building Hermes from source and stops at
+# a missing cmake; where it answers at a few hundred bytes a second, pod install
+# hangs for hours. So the first 2 MB of one file are fetched for real, from
+# Google's mirror of Maven Central first, and the first source that delivers
+# them in 20 seconds is used (ENTERPRISE_REPOSITORY).
+maven_mirror() {
   [ -z "${ENTERPRISE_REPOSITORY:-}" ] || return 0
   local v file base
   v="$(node -p "require('react-native/package.json').version")"
   file="com/facebook/react/react-native-artifacts/$v/react-native-artifacts-$v-hermes-ios-debug.tar.gz"
-  for base in https://repo1.maven.org/maven2 https://maven-central.storage-download.googleapis.com/maven2; do
-    if [ "$(curl -o /dev/null -sIL --max-time 30 -w '%{http_code}' "$base/$file")" = 200 ]; then
-      [ "$base" = https://repo1.maven.org/maven2 ] || export ENTERPRISE_REPOSITORY="$base"
+  for base in https://maven-central.storage-download.googleapis.com/maven2 https://repo1.maven.org/maven2; do
+    if [ "$(curl -sL -r 0-2097151 --max-time 20 -o /dev/null -w '%{size_download}' "$base/$file")" = 2097152 ]; then
+      export ENTERPRISE_REPOSITORY="$base"
       return 0
     fi
   done
-  fail "Не скачивается движок Hermes ни с Maven Central, ни с зеркала Google. Проверьте интернет (включите или выключите VPN) и запустите скрипт снова."
+  fail "Не скачиваются готовые части React Native ни с зеркала Google, ни с Maven Central. Проверьте интернет (включите или выключите VPN) и запустите скрипт снова."
 }
 
 # A fresh Xcode project from app.json, with its CocoaPods. Expo only warns when
@@ -49,7 +52,7 @@ hermes_mirror() {
 xcode_project() {
   say "Создаю проект Xcode и ставлю CocoaPods (3–5 минут)…"
   npx expo prebuild --platform ios --clean --no-install
-  hermes_mirror
+  maven_mirror
   (cd ios && pod install) ||
     fail "CocoaPods не поставился. Пришлите последние строки выше: по ним видно, чего не хватает."
 }
