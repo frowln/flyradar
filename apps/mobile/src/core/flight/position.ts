@@ -19,6 +19,8 @@ export interface Now {
   altitude: number;
   heading: number;
   source: 'gps' | 'estimate';
+  /** Measured ground speed, km/h: present only with a fresh GPS fix that reports it. */
+  speedKmh?: number;
   /** 0–1 along the route. */
   progress: number;
   ended: boolean;
@@ -83,7 +85,9 @@ export function positionNow(
       lat: fix.lat,
       lon: fix.lon,
       altitude: fix.alt && fix.alt > 500 ? fix.alt : planned.altitude,
-      heading: headingAt(route, proj.elapsedS),
+      // Below taxi speed the receiver's course is noise; the route's is better.
+      heading: fix.courseDeg != null && (fix.speedKmh ?? 0) > 100 ? fix.courseDeg : headingAt(route, proj.elapsedS),
+      ...(fix.speedKmh != null && fix.speedKmh > 50 ? { speedKmh: fix.speedKmh } : {}),
       source: 'gps',
       progress: end > 0 ? Math.min(1, proj.elapsedS / end) : 1,
       ended: proj.elapsedS >= end - 30

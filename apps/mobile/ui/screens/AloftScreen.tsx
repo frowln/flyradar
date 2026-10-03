@@ -392,7 +392,8 @@ export default function AloftScreen() {
   const last = route[route.length - 1]!;
   const leftKm = km(haversine(view.lat, view.lon, last.lat, last.lon));
   const alt = metres(view.altitude);
-  const spd = speed(groundSpeedKmh(route, view.elapsedS));
+  // Measured when the satellites say so, otherwise the route's profile.
+  const spd = speed(view.speedKmh ?? groundSpeedKmh(route, view.elapsedS));
   const temp = temperature(outsideTempC(view.altitude));
   const tzBelow = zoneBelow(view.lat, view.lon, viewOutside.countryNow);
   const timeBelow = tzBelow ? clockIn(tzBelow, new Date(takeoff.getTime() + view.elapsedS * 1000)) : '';
@@ -757,7 +758,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     paddingVertical: s.x2,
     borderRadius: 12,
-    backgroundColor: 'rgba(11, 14, 17, 0.84)',
+    backgroundColor: 'rgba(11, 14, 17, 0.94)',
     borderWidth: line.hair,
     borderColor: palette.rule
   },

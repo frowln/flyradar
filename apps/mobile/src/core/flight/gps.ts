@@ -48,6 +48,9 @@ export async function watchGps(onFix: (fix: GpsFix) => void): Promise<(() => voi
           lon: p.coords.longitude,
           alt: p.coords.altitude ?? undefined,
           accuracyM: p.coords.accuracy ?? undefined,
+          // Negative means "not known" on iOS.
+          speedKmh: p.coords.speed != null && p.coords.speed >= 0 ? p.coords.speed * 3.6 : undefined,
+          courseDeg: p.coords.heading != null && p.coords.heading >= 0 ? p.coords.heading : undefined,
           at: p.timestamp
         });
       }

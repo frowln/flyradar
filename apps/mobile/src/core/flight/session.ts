@@ -25,6 +25,10 @@ export interface GpsFix {
   /** Epoch ms. */
   at: number;
   accuracyM?: number;
+  /** Ground speed from the satellites, km/h, when the receiver reports it. */
+  speedKmh?: number;
+  /** Course over the ground, degrees from north, when the receiver reports it. */
+  courseDeg?: number;
 }
 
 export interface SessionState {

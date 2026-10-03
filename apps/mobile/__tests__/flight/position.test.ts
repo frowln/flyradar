@@ -38,6 +38,20 @@ describe('positionNow', () => {
     expect(stale.source).toBe('estimate');
   });
 
+  it('takes speed and course from the satellites when the receiver reports them', () => {
+    const truth = interpolateAlongRoute(route, 7200);
+    const fix = { lat: truth.lat, lon: truth.lon, at: at(7200).getTime(), speedKmh: 905, courseDeg: 287 };
+    const now = positionNow(route, takeoff, at(7200), { fix });
+    expect(now.speedKmh).toBe(905);
+    expect(now.heading).toBe(287);
+    // Taxiing: the receiver's course is noise, and there is no cruise speed to show.
+    const slow = positionNow(route, takeoff, at(7200), { fix: { ...fix, speedKmh: 30, courseDeg: 12 } });
+    expect(slow.speedKmh).toBeUndefined();
+    expect(slow.heading).not.toBe(12);
+    // Without a fix the route's profile speaks for itself.
+    expect(positionNow(route, takeoff, at(7200)).speedKmh).toBeUndefined();
+  });
+
   it('carries a fix’s correction forward as a clock offset', () => {
     // The aircraft is 20 minutes behind the clock.
     const truth = interpolateAlongRoute(route, 3600 - 1200);
